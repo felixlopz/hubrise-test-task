@@ -300,6 +300,8 @@ When a customer is anonymized, the customer resource returns a `true` value for 
 
 Anonymizing a customer also anonymizes his/her orders. The `customer` resource of anonymized orders are modified in the same way as described above.
 
+When a customer is anonymized, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
+
 <CallSummaryTable
   endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
   accessLevel="location, account"
