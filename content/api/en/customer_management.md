@@ -294,11 +294,16 @@ Updates a customer.
 
 Anonymizes a customer by deleting his/her personal information.
 
-The following fields are deleted when a customer is anonymized: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
+<CallSummaryTable
+  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
+  accessLevel="location, account"
+/>
 
-When a customer is anonymized, the customer resource returns a `true` value for the `anonymized` field, and the anonymized fields retun a `null` value.
+The anonymized fields are as follows: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
 
-Anonymizing a customer also anonymizes his/her orders. The `customer` resource of anonymized orders are modified in the same way as described above.
+When a customer is anonymized, the anonymized fields retun a `null` value and the `anonymized` boolean field is set to `true`.
+
+Anonymizing a customer also anonymizes his/her orders. The `customer` resource of an anonymized order are modified in the same way as described above.
 
 When a customer is anonymized, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
 
