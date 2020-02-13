@@ -6,15 +6,15 @@ First install Docker for your platform. Then follow the platform specific instru
 
 The server runs on: http://localhost:8000
 
-## Windows or Linux
+__Windows or Linux:__
 
 In console, `cd` to the project root then type:
 
 ```
-docker-compose -f docker-compose.yml up --build
+docker-compose -f docker-compose.yml up --build website_dev
 ```
 
-## Mac OS
+__Mac OS:__
 
 Initial setup (to be done only once):
 ```
@@ -26,7 +26,7 @@ In console, `cd` to the project root then type:
 
 ```
 docker-sync start
-docker-compose -f docker-compose.mac.yml up --build
+docker-compose -f docker-compose.mac.yml up --build website_dev
 ```
 
 # Run the test suite
@@ -40,20 +40,38 @@ cypress run
 
 The non-interactive, continuous integration version can run in a Docker container however:
 
+__Windows or Linux:__
+
 ```shell
-docker-compose -f docker-compose-test.yml up --build
+docker-compose -f docker-compose.yml up --build website_test
+```
+
+__Mac OS:__
+
+```shell
+docker-compose -f docker-compose.mac.yml up --build website_test
 ```
 
 # Run the production image locally
 
 Runs on: http://localhost:8001
 
-SSR (Server Side Rendering) enabled, no page auto-reload.
+This runs the server with Server Side Rendering (SSR) enabled. Pages are not reloaded on code change.
+
+__Windows or Linux:__
 
 ```shell
-docker-compose -f docker-compose-prod.yml up --build
+docker-compose -f docker-compose.yml up --build website_prod
+```
+
+__Mac OS:__
+
+```shell
+docker-compose -f docker-compose.mac.yml up --build website_prod
 ```
 
 # Production deployment
 
-Same process as a the other apps (see cluster/doc/build_deploy_app.md)
+For HubRise system administrators.
+
+Use the same process as a the other apps (see cluster/doc/build_deploy_app.md)
