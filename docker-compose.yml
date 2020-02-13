@@ -29,4 +29,4 @@ services:
     image: hubrise/website
     container_name: website_prod
     ports:
-      - "8001:8000"
+      - "8001:80"
