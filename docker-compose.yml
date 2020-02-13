@@ -4,14 +4,10 @@ services:
   website:
     build:
       context: .
-      dockerfile: docker_dev/Dockerfile.mac
+      dockerfile: docker_dev/Dockerfile
     image: hubrise/website-dev
     container_name: website
     volumes:
-      - website-sync:/var/www/website
+      - .:/var/www/website
     ports:
       - "8000:8000"
-
-volumes:
-  website-sync:
-    external: true

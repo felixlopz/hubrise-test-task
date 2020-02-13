@@ -2,23 +2,16 @@
 
 # Development cycle
 
-First install Docker for your platform.
+First install Docker for your platform. Then follow the platform specific instructions below.
+
+The server runs on: http://localhost:8000
 
 ## Windows or Linux
 
 In console, `cd` to the project root then type:
 
-```shell
-DOCKER_BUILDKIT=1 docker build -f docker_dev/Dockerfile -t hubrise/website-dev .
-docker run -t -v $(pwd):/var/www/website -p8000:8000 hubrise/website-dev
 ```
-
-Runs on: http://localhost:8000
-
-If the server is stuck or unresponsive, you can kill it by running this command: 
-
-```shell
-docker rm $(docker stop $(docker ps -a -q --filter ancestor=hubrise/website-dev --format="{{.ID}}"))
+docker-compose -f docker-compose.yml up --build
 ```
 
 ## Mac OS
@@ -33,7 +26,7 @@ In console, `cd` to the project root then type:
 
 ```
 docker-sync start
-COMPOSE_DOCKER_CLI_BUILD=1 docker-compose -f docker-compose.mac.yml up --build
+docker-compose -f docker-compose.mac.yml up --build
 ```
 
 # Run the test suite
@@ -48,7 +41,7 @@ cypress run
 The non-interactive, continuous integration version can run in a Docker container however:
 
 ```shell
-docker run -v $(pwd):/var/www/website hubrise/website-dev /usr/local/bin/yarn test:all:ci 
+docker-compose -f docker-compose-test.yml up --build
 ```
 
 # Run the production image locally
@@ -58,8 +51,7 @@ Runs on: http://localhost:8001
 SSR (Server Side Rendering) enabled, no page auto-reload.
 
 ```shell
-DOCKER_BUILDKIT=1 docker build -f Dockerfile -t hubrise/website .
-docker run -v $(pwd):/var/www/website -p8001:80 hubrise/website
+docker-compose -f docker-compose-prod.yml up --build
 ```
 
 # Production deployment
