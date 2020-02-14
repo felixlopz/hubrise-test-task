@@ -24,6 +24,7 @@ Custom fields can be defined on the following resources:
 - `Customer`
 - `Order`
 - `Location`
+- `Sku`
 
 Each resource of the above types has a `custom_fields` field, which can be populated with arbitrary data.
 
