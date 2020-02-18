@@ -43,9 +43,9 @@ module.exports = {
               withWebp: true,
               tracedSVG: true
             }
-          }
-        ],
-        plugins: [`gatsby-remark-images`]
+          },
+          `gatsby-remark-copy-linked-files`
+        ]
       }
     },
     {
