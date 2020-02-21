@@ -34,7 +34,26 @@ let components = {
   inlineCode: ({ children }) => <HighlightCode inline code={children} />,
   CallSummaryTable,
   Label,
-  ContactFormToggle
+  ContactFormToggle,
+  ImageContainer: ({ children, width, height }) => {
+    const convertToNumber = (value) => {
+      const num = Number(value)
+      return Number.isNaN(num) ? undefined : num
+    }
+    return (
+      <div
+        className="image-container"
+        data-width={width}
+        data-height={height}
+        style={{
+          width: convertToNumber(width),
+          height: convertToNumber(height)
+        }}
+      >
+        {children}
+      </div>
+    )
+  }
 }
 
 export const wrapRootElement = ({ element }) => {

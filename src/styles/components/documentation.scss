@@ -221,4 +221,13 @@
   td:first-child {
     padding: 0.6rem;
   }
+
+  .image-container {
+    display: inline-block;
+
+    .gatsby-resp-image-wrapper {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
