@@ -35,7 +35,7 @@ let components = {
   CallSummaryTable,
   Label,
   ContactFormToggle,
-  ImageContainer: ({ children, width, height }) => {
+  InlineImage: ({ children, width, height }) => {
     const convertToNumber = (value) => {
       const num = Number(value)
       return Number.isNaN(num) ? undefined : num
