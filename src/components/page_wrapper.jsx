@@ -13,15 +13,16 @@ import { useLayoutContext } from '../context/layout'
 import ToastProvider from './toast'
 
 const PageWrapper = ({ element, props }) => {
-  const recaptchaSiteKey = useStaticQuery(graphql`
+  const siteMetadata = useStaticQuery(graphql`
     query recaptchaSiteKey {
       site {
         siteMetadata {
           recaptchaSiteKey
+          contactMessageUrl
         }
       }
     }
-  `).site.siteMetadata.recaptchaSiteKey
+  `).site.siteMetadata
 
   const { forms } = useLayoutContext()
   const { t, i18n } = useTranslation()
@@ -36,7 +37,7 @@ const PageWrapper = ({ element, props }) => {
     <ToastProvider>
       <Helmet>
         <script
-          src={`https://www.google.com/recaptcha/api.js?render=${recaptchaSiteKey}`}
+          src={`https://www.google.com/recaptcha/api.js?render=${siteMetadata.recaptchaSiteKey}`}
         />
       </Helmet>
       <Seo
@@ -50,7 +51,7 @@ const PageWrapper = ({ element, props }) => {
           title={t(`forms.contact.modal_title`)}
           onClose={forms.contact.toggle}
         >
-          <ContactForm recaptchaSiteKey={recaptchaSiteKey} />
+          <ContactForm recaptchaSiteKey={siteMetadata.recaptchaSiteKey} contactMessageUrl={siteMetadata.contactMessageUrl} />
         </Modal>
       )}
     </ToastProvider>

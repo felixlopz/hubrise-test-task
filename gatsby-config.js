@@ -10,7 +10,8 @@ module.exports = {
     title: `HubRise`,
     description: ``,
     author: ``,
-    recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY
+    recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
+    contactMessageUrl: process.env.CONTACT_MESSAGE_URL
   },
   plugins: [
     {

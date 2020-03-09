@@ -42,7 +42,7 @@ const structure = {
     }
   ]
 }
-const Contact = ({ recaptchaSiteKey, t, _i18n }) => {
+const Contact = ({ recaptchaSiteKey, contactMessageUrl, t, _i18n }) => {
   const { forms } = useLayoutContext()
   const toast = useToast()
 
@@ -52,7 +52,7 @@ const Contact = ({ recaptchaSiteKey, t, _i18n }) => {
       .then((token) => {
         // Use application/x-www-form-urlencoded content type (instead of application/json)
         // to skip CORS preflight check, which has not been implemented on the server side.
-        return fetch('http://manager.hubrise.localtest.me:4003/api/contact_message', {
+        return fetch(contactMessageUrl, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -145,7 +145,8 @@ const encodeFormData = (params) => {
 }
 
 Contact.propTypes = {
-  recaptchaSiteKey: PropTypes.string
+  recaptchaSiteKey: PropTypes.string,
+  contactMessageUrl: PropTypes.string
 }
 
 export default withTranslation()(Contact)
