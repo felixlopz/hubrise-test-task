@@ -42,7 +42,7 @@ let components = {
     }
     return (
       <div
-        className="image-container"
+        className="inline-image-container"
         data-width={width}
         data-height={height}
         style={{
