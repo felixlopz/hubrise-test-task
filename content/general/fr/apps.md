@@ -128,12 +128,12 @@ content:
         - to: https://myemma.com
           logo: emma.png
           title: Emma
-          description: Emma est une solution d'envoi d'emails et de newsletter personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
+          description: Emma est une solution d'envoi d'emails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
           additional_info: Documentation en anglais.
         - to: https://mailchimp.com
           logo: mailchimp.png
           title: MailChimp
-          description: MailChimp est une solution d'envoi d'emails et de newsletter personnalisés.
+          description: MailChimp est une solution d'envoi d'emails et de newsletters personnalisés.
           additional_info: Documentation en anglais.
         - to: https://sailplay.com
           logo: sailplay.png
