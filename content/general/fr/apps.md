@@ -69,7 +69,7 @@ content:
           description: Zelty est une caisse enregistreuse sur iPad, offrant une solution complète et pensée pour les chaînes. La solution s'adapte cependant à tout type de restaurant.
     - title: Commande en ligne
       apps:
-        - to: https://www.app4takeaways.com
+        - to: https://www.app4.co.uk/
           logo: app4.png
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.

@@ -67,7 +67,7 @@ content:
           additional_info: Documentation in French.
     - title: Online Ordering
       apps:
-        - to: https://www.app4takeaways.com
+        - to: https://www.app4.co.uk/
           logo: app4.png
           title: App4
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
