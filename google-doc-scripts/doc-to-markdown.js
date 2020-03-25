@@ -13,55 +13,55 @@ Usage:
 function ConvertToMarkdown() {
   var numChildren = DocumentApp.getActiveDocument()
     .getActiveSection()
-    .getNumChildren()
-  var text = ''
-  var inSrc = false
-  var inClass = false
-  var globalImageCounter = 0
-  var globalListCounters = {}
+    .getNumChildren();
+  var text = '';
+  var inSrc = false;
+  var inClass = false;
+  var globalImageCounter = 0;
+  var globalListCounters = {};
   // edbacher: added a variable for indent in src <pre> block. Let style sheet do margin.
-  var srcIndent = ''
+  var srcIndent = '';
 
-  var attachments = []
+  var attachments = [];
 
   // Walk through all the child elements of the doc.
   for (var i = 0; i < numChildren; i++) {
     var child = DocumentApp.getActiveDocument()
       .getActiveSection()
-      .getChild(i)
+      .getChild(i);
     var result = processParagraph(
       i,
       child,
       inSrc,
       globalImageCounter,
       globalListCounters
-    )
-    globalImageCounter += result && result.images ? result.images.length : 0
+    );
+    globalImageCounter += result && result.images ? result.images.length : 0;
     if (result !== null) {
       if (result.sourcePretty === 'start' && !inSrc) {
-        inSrc = true
-        text += '<pre class="prettyprint">\n'
+        inSrc = true;
+        text += '<pre class="prettyprint">\n';
       } else if (result.sourcePretty === 'end' && inSrc) {
-        inSrc = false
-        text += '</pre>\n\n'
+        inSrc = false;
+        text += '</pre>\n\n';
       } else if (result.source === 'start' && !inSrc) {
-        inSrc = true
-        text += '<pre>\n'
+        inSrc = true;
+        text += '<pre>\n';
       } else if (result.source === 'end' && inSrc) {
-        inSrc = false
-        text += '</pre>\n\n'
+        inSrc = false;
+        text += '</pre>\n\n';
       } else if (result.inClass === 'start' && !inClass) {
-        inClass = true
-        text += '<div class="' + result.className + '">\n'
+        inClass = true;
+        text += '<div class="' + result.className + '">\n';
       } else if (result.inClass === 'end' && inClass) {
-        inClass = false
-        text += '</div>\n\n'
+        inClass = false;
+        text += '</div>\n\n';
       } else if (inClass) {
-        text += result.text + '\n\n'
+        text += result.text + '\n\n';
       } else if (inSrc) {
-        text += srcIndent + escapeHTML(result.text) + '\n'
+        text += srcIndent + escapeHTML(result.text) + '\n';
       } else if (result.text && result.text.length > 0) {
-        text += result.text + '\n\n'
+        text += result.text + '\n\n';
       }
 
       if (result.images && result.images.length > 0) {
@@ -75,7 +75,7 @@ function ConvertToMarkdown() {
       }
     } else if (inSrc) {
       // support empty lines inside source code
-      text += '\n'
+      text += '\n';
     }
   }
 
@@ -97,34 +97,34 @@ function ConvertToMarkdown() {
 }
 
 function escapeHTML(text) {
-  return text.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  return text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 // Process each child element (not just paragraphs).
 function processParagraph(index, element, inSrc, imageCounter, listCounters) {
   // First, check for things that require no processing.
   if (element.getNumChildren() == 0) {
-    return null
+    return null;
   }
   // Punt on TOC.
   if (element.getType() === DocumentApp.ElementType.TABLE_OF_CONTENTS) {
-    return { text: '[[TOC]]' }
+    return { text: '[[TOC]]' };
   }
 
   // Set up for real results.
-  var result = {}
-  var pOut = ''
-  var textElements = []
-  var imagePrefix = 'image_'
+  var result = {};
+  var pOut = '';
+  var textElements = [];
+  var imagePrefix = 'image_';
 
   // Handle Table elements. Pretty simple-minded now, but works for simple tables.
   // Note that Markdown does not process within block-level HTML, so it probably
   // doesn't make sense to add markup within tables.
   if (element.getType() === DocumentApp.ElementType.TABLE) {
-    textElements.push('<table>\n')
-    var nCols = element.getChild(0).getNumCells()
+    textElements.push('<table>\n');
+    var nCols = element.getChild(0).getNumCells();
     for (var i = 0; i < element.getNumChildren(); i++) {
-      textElements.push('  <tr>\n')
+      textElements.push('  <tr>\n');
       // process this row
       for (var j = 0; j < nCols; j++) {
         textElements.push(
@@ -143,37 +143,37 @@ function processParagraph(index, element, inSrc, imageCounter, listCounters) {
 
   // Process various types (ElementType).
   for (var i = 0; i < element.getNumChildren(); i++) {
-    var t = element.getChild(i).getType()
+    var t = element.getChild(i).getType();
 
     if (t === DocumentApp.ElementType.TABLE_ROW) {
       // do nothing: already handled TABLE_ROW
     } else if (t === DocumentApp.ElementType.TEXT) {
-      var txt = element.getChild(i)
-      pOut += txt.getText()
-      textElements.push(txt)
+      var txt = element.getChild(i);
+      pOut += txt.getText();
+      textElements.push(txt);
     } else if (t === DocumentApp.ElementType.INLINE_IMAGE) {
-      result.images = result.images || []
-      var thisImage = element.getChild(i)
+      result.images = result.images || [];
+      var thisImage = element.getChild(i);
       var contentType = element
         .getChild(i)
         .getBlob()
-        .getContentType()
-      var extension = ''
-      var altDescription = element.getChild(i).getAltDescription()
-      var altTitle = element.getChild(i).getAltTitle()
-      var name = ''
-      var namePrefix = imagePrefix + imageCounter
-      if (alttext === '') {
-        name = altDescription
+        .getContentType();
+      var extension = '';
+      var altDescription = element.getChild(i).getAltDescription();
+      var altTitle = element.getChild(i).getAltTitle();
+      var name = '';
+      var namePrefix = imagePrefix + imageCounter;
+      //verify we don't have an empty string value.
+      if (altDescription === '') {
+        name = namePrefix;
       } else {
-        name = namePrefix
+        name = altDescription;
       }
       if (/\/png$/.test(contentType)) {
         //png - order it normally
-        extension = '.png'
-        //verify we don't have an empty string value
-
-        name = name + extension
+        extension = '.png';
+        
+        name = name + extension;
         //name = imagePrefix + imageCounter + extension;
       } else if (/\/gif$/.test(contentType)) {
         //extension = ".gif";
@@ -191,8 +191,8 @@ function processParagraph(index, element, inSrc, imageCounter, listCounters) {
         throw 'Unsupported image type: ' + contentType
       }
 
-      imageCounter++
-      textElements.push('![' + altTitle + '](../images/' + name + ')')
+      imageCounter++;
+      textElements.push('![' + altTitle + '](../images/' + name + ')');
       //do we even need the actual images to be put into the email?
       //I think not.  We have them in the screenshots directory!
       /*
@@ -204,7 +204,7 @@ function processParagraph(index, element, inSrc, imageCounter, listCounters) {
     } else if (t === DocumentApp.ElementType.PAGE_BREAK) {
       // ignore
     } else if (t === DocumentApp.ElementType.HORIZONTAL_RULE) {
-      textElements.push('* * *\n')
+      textElements.push('* * *\n');
     } else if (t === DocumentApp.ElementType.FOOTNOTE) {
       textElements.push(
         ' (NOTE: ' +
@@ -213,7 +213,7 @@ function processParagraph(index, element, inSrc, imageCounter, listCounters) {
             .getFootnoteContents()
             .getText() +
           ')'
-      )
+      );
     } else {
       throw 'Paragraph ' +
         index +
@@ -224,13 +224,13 @@ function processParagraph(index, element, inSrc, imageCounter, listCounters) {
         ' ' +
         (element.getChild(i)['getText'] ? element.getChild(i).getText() : '') +
         ' index=' +
-        index
+        index;
     }
   }
 
   if (textElements.length == 0) {
     // Isn't result empty now?
-    return result
+    return result;
   }
 
   // evb: Add source pretty too. (And abbreviations: src and srcp.)
@@ -239,69 +239,69 @@ function processParagraph(index, element, inSrc, imageCounter, listCounters) {
     /^\s*---\s+srcp\s*$/.test(pOut) ||
     /^\s*---\s+source pretty\s*$/.test(pOut)
   ) {
-    result.sourcePretty = 'start'
+    result.sourcePretty = 'start';
   } else if (
     /^\s*---\s+src\s*$/.test(pOut) ||
     /^\s*---\s+source code\s*$/.test(pOut)
   ) {
-    result.source = 'start'
+    result.source = 'start';
   } else if (/^\s*---\s+class\s+([^ ]+)\s*$/.test(pOut)) {
-    result.inClass = 'start'
-    result.className = RegExp.$1
+    result.inClass = 'start';
+    result.className = RegExp.$1;
   } else if (/^\s*---\s*$/.test(pOut)) {
-    result.source = 'end'
-    result.sourcePretty = 'end'
-    result.inClass = 'end'
+    result.source = 'end';
+    result.sourcePretty = 'end';
+    result.inClass = 'end';
   } else if (/^\s*---\s+jsperf\s*([^ ]+)\s*$/.test(pOut)) {
     result.text =
       '<iframe style="width: 100%; height: 340px; overflow: hidden; border: 0;" ' +
       'src="http://www.html5rocks.com/static/jsperfview/embed.html?id=' +
       RegExp.$1 +
-      '"></iframe>'
+      '"></iframe>';
   } else {
-    prefix = findPrefix(inSrc, element, listCounters)
+    prefix = findPrefix(inSrc, element, listCounters);
 
-    var pOut = ''
+    var pOut = '';
     for (var i = 0; i < textElements.length; i++) {
-      pOut += processTextElement(inSrc, textElements[i])
+      pOut += processTextElement(inSrc, textElements[i]);
     }
 
     // replace Unicode quotation marks
-    pOut = pOut.replace('\u201d', '"').replace('\u201c', '"')
+    pOut = pOut.replace('\u201d', '"').replace('\u201c', '"');
 
-    result.text = prefix + pOut
+    result.text = prefix + pOut;
   }
 
-  return result
+  return result;
 }
 
 // Add correct prefix to list items.
 function findPrefix(inSrc, element, listCounters) {
-  var prefix = ''
+  var prefix = '';
   if (!inSrc) {
     if (element.getType() === DocumentApp.ElementType.PARAGRAPH) {
-      var paragraphObj = element
+      var paragraphObj = element;
       switch (paragraphObj.getHeading()) {
         // Add a # for each heading level. No break, so we accumulate the right number.
         case DocumentApp.ParagraphHeading.HEADING6:
-          prefix += '#'
+          prefix += '#';
         case DocumentApp.ParagraphHeading.HEADING5:
-          prefix += '#'
+          prefix += '#';
         case DocumentApp.ParagraphHeading.HEADING4:
-          prefix += '#'
+          prefix += '#';
         case DocumentApp.ParagraphHeading.HEADING3:
-          prefix += '#'
+          prefix += '#';
         case DocumentApp.ParagraphHeading.HEADING2:
-          prefix += '#'
+          prefix += '#';
         case DocumentApp.ParagraphHeading.HEADING1:
-          prefix += '# '
+          prefix += '# ';
         default:
       }
     } else if (element.getType() === DocumentApp.ElementType.LIST_ITEM) {
-      var listItem = element
-      var nesting = listItem.getNestingLevel()
+      var listItem = element;
+      var nesting = listItem.getNestingLevel();
       for (var i = 0; i < nesting; i++) {
-        prefix += '    '
+        prefix += '    ';
       }
       var gt = listItem.getGlyphType()
       // Bullet list (<ul>):
@@ -310,37 +310,37 @@ function findPrefix(inSrc, element, listCounters) {
         gt === DocumentApp.GlyphType.HOLLOW_BULLET ||
         gt === DocumentApp.GlyphType.SQUARE_BULLET
       ) {
-        prefix += '* '
+        prefix += '* ';
       } else {
         // Ordered list (<ol>):
-        var key = listItem.getListId() + '.' + listItem.getNestingLevel()
-        var counter = listCounters[key] || 0
-        counter++
-        listCounters[key] = counter
-        prefix += counter + '. '
+        var key = listItem.getListId() + '.' + listItem.getNestingLevel();
+        var counter = listCounters[key] || 0;
+        counter++;
+        listCounters[key] = counter;
+        prefix += counter + '. ';
       }
     }
   }
-  return prefix
+  return prefix;
 }
 
 function processTextElement(inSrc, txt) {
   if (typeof txt === 'string') {
-    return txt
+    return txt;
   }
 
   var pOut = txt.getText()
   if (!txt.getTextAttributeIndices) {
-    return pOut
+    return pOut;
   }
 
-  var attrs = txt.getTextAttributeIndices()
-  var lastOff = pOut.length
+  var attrs = txt.getTextAttributeIndices();
+  var lastOff = pOut.length;
 
   for (var i = attrs.length - 1; i >= 0; i--) {
-    var off = attrs[i]
-    var url = txt.getLinkUrl(off)
-    var font = txt.getFontFamily(off)
+    var off = attrs[i];
+    var url = txt.getLinkUrl(off);
+    var font = txt.getFontFamily(off);
     if (url) {
       // start of link
       if (
@@ -349,9 +349,9 @@ function processTextElement(inSrc, txt) {
         txt.getLinkUrl(attrs[i - 1]) === url
       ) {
         // detect links that are in multiple pieces because of errors on formatting:
-        i -= 1
-        off = attrs[i]
-        url = txt.getLinkUrl(off)
+        i -= 1;
+        off = attrs[i];
+        url = txt.getLinkUrl(off);
       }
       pOut =
         pOut.substring(0, off) +
@@ -360,7 +360,7 @@ function processTextElement(inSrc, txt) {
         '](' +
         url +
         ')' +
-        pOut.substring(lastOff)
+        pOut.substring(lastOff);
     } else if (font) {
       if (!inSrc && font === font.COURIER_NEW) {
         while (
@@ -369,39 +369,39 @@ function processTextElement(inSrc, txt) {
           txt.getFontFamily(attrs[i - 1]) === font.COURIER_NEW
         ) {
           // detect fonts that are in multiple pieces because of errors on formatting:
-          i -= 1
-          off = attrs[i]
+          i -= 1;
+          off = attrs[i];
         }
         pOut =
           pOut.substring(0, off) +
           '`' +
           pOut.substring(off, lastOff) +
           '`' +
-          pOut.substring(lastOff)
+          pOut.substring(lastOff);
       }
     }
     if (txt.isBold(off)) {
-      var d1 = (d2 = '**')
+      var d1 = (d2 = '**');
       if (txt.isItalic(off)) {
         // edbacher: changed this to handle bold italic properly.
-        d1 = '**_'
-        d2 = '_**'
+        d1 = '**_';
+        d2 = '_**';
       }
       pOut =
         pOut.substring(0, off) +
         d1 +
         pOut.substring(off, lastOff) +
         d2 +
-        pOut.substring(lastOff)
+        pOut.substring(lastOff);
     } else if (txt.isItalic(off)) {
       pOut =
         pOut.substring(0, off) +
         '*' +
         pOut.substring(off, lastOff) +
         '*' +
-        pOut.substring(lastOff)
+        pOut.substring(lastOff);
     }
-    lastOff = off
+    lastOff = off;
   }
-  return pOut
+  return pOut;
 }
