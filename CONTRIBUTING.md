@@ -11,23 +11,16 @@ This file includes useful commands for generating the files and images used for 
 
 Converting movie files into other formats uses the following programs. When possible, Open Source software is selected. Most can be installed with [Homebrew](https://brew.sh/) for Mac and Linux users.
 
-- `ImageOptim`, available at [https://imageoptim.com/mac](https://imageoptim.com/mac). This can be used to compress single-frame GIF images, JPEG and PNG files by dragging and dropping.
 - ffmpeg - converts movie files. Installed with `brew install ffmpeg`.
 - gificle - used to convert movie files into animated gifs of fairly decent quality and size. Installed with `brew install gifsicle`.
-- ImageMagick - converts image files (single frame and animated). Installed with `brew install imagemagick`.
-
-## Compressing PNG and JPG images
-
-The Open Source program
 
 ## Converting raw movie files
 
 Depending on how you capture your screen in movie format, you may have different movie files. This section is written for MAC users who will capture QuickTime movie files, but the instructions will work for other systems.
 
-Movie files work best as either MP4 or webm files. The latter will take a long time to convert, but offers excellent compression and quality, and is HTML5 compliant. The following commands will convert a QuickTime movie file into a MP4 and webm version. Typically, a MP4 file is 20% the size of a MOV file, and a webm file is 15% of the MOV file (individual results may vary).
+Movie files work best as WEBM files. The latter will take a long time to convert, but offers excellent compression and quality, and is HTML5 compliant. The settings below will convert the image, and downscale it to a 1280x720 image
 
 ```bash
-ffmpeg -i source.mov target.mp4
 ffmpeg -i source.mov target.webm
 ```
 
@@ -37,5 +30,39 @@ Converting a QuickTime Movie file to GIF requires two steps: Converting to GIF, 
 
 ```bash
 ffmpeg -i source.mov -r 15 -f gif - | gifsicle  > target.gif
-magick target.gif -coalesce -fuzz 2% -remap target.gif\[0\] -layers Optimize final_targettarget.gif
 ```
+
+## Using with Google Docs
+
+In the director `google-doc-scripts` is the JavaScript file `doc-to-markdown.js`. This script will run and email the MarkDown file to the registered email account of the user running it.
+
+## Working with Google Docs
+
+To use the script with Google Docs, the following image types can be inserted directly into the Google Doc file:
+
+- PNG
+- JP(E)G
+- GIF
+
+As of this time, WEBM files can not be inserted into a Google Doc. The recommendation is to use GIF images instead to get an idea of how the document will look.
+
+When inserting an image file into a Google doc do the following:
+
+1. Insert the document. Don't worry about sizing, as the Google Doc will resize it to fit the margins. This will be handled later automatically by Gatsby.
+2. Insert the name of the file without the extension into the image description. This is used later by the script below to properly create the file links.
+
+This is run from the Google Doc you are working on through the following procedures:
+
+## Installing the Script
+
+1. Open the Google Doc file.
+1. Select **Tools > Script Manager > New**.
+1. Select **Blank Project** and paste the code from `doc-to-markdown.js` into it.
+1. Save the script. Google may ask permission to run the new script on your documents. Grant if it does.
+
+## Running the Script
+
+1. From the Google Doc, select **Tools > Script Manager**.
+1. Select the **ConvertToMarkdown** function.
+1. Click run.
+1. The converted doc will be mailed to you. Subject will be "[MARKDOWN_MAKER]...".
