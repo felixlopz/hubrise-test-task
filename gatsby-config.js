@@ -46,7 +46,7 @@ module.exports = {
               tracedSVG: true
             }
           },
-          `gatsby-remark-copy-linked-files-with-poster`
+          `gatsby-remark-copy-linked-files`
         ]
       }
     },
