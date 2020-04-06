@@ -61,6 +61,7 @@
     "@babel/core": "^7.0.0",
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.1.4",
+    "@types/js-yaml": "^3.12.3",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-plugin-prismjs": "^1.1.1",

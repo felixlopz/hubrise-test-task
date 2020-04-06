@@ -1,8 +1,10 @@
 const fs = require('fs')
 const path = require('path')
+const util = require('util')
 const yaml = require('js-yaml')
 
 const locales = require('../../src/i18n/locales')
+const { parseFolder } = require('./content_parser')
 
 const allLocaleCodes = Object.keys(locales)
 const { getDefaultLocale } = require(path.join(__dirname, `utils`))
@@ -87,10 +89,12 @@ const createPageFromMdxNode = (node, locale, actions) => {
 }
 
 const getDirectoriesWithMdxFiles = () => {
-  const mdxDirectories = []
+  const mdxDirectories = new Map()
 
   const parseDirectory = ({ pathToDirectory, locale }) => {
     const filenames = fs.readdirSync(pathToDirectory)
+
+    console.log('filenames', filenames)
 
     return filenames.forEach((fileName) => {
       const pathToFile = path.join(pathToDirectory, fileName)
@@ -98,19 +102,26 @@ const getDirectoriesWithMdxFiles = () => {
       const isNestedFolderName = (filename) =>
         filename !== 'images' && !allLocaleCodes.includes(filename)
 
-      const nestedFolderList = fs
-        .readdirSync(pathToFile)
-        .filter(isNestedFolderName)
+      const nestedFolderList = !isNestedFolderName(fileName)
+        ? []
+        : fs.readdirSync(pathToFile).filter(isNestedFolderName)
 
       if (nestedFolderList.length > 0) {
         /** Search recursively in nested directories */
         return parseDirectory({ pathToDirectory: pathToFile, locale })
       }
 
-      const pathToLocalizedPages = path.join(pathToFile, locale.code)
+      const pathToLocalizedPages =
+        fileName === locale.code
+          ? pathToFile
+          : path.join(pathToFile, locale.code)
 
+      console.log('pathToLocalizedPages', pathToLocalizedPages)
       if (fs.existsSync(pathToLocalizedPages)) {
-        mdxDirectories.push({ path: pathToLocalizedPages, locale })
+        mdxDirectories.set(pathToLocalizedPages, {
+          path: pathToLocalizedPages,
+          locale
+        })
         return
       }
 
@@ -125,7 +136,10 @@ const getDirectoriesWithMdxFiles = () => {
 
       // For every other locale, fallback to content in default locale, if available.
       if (fs.existsSync(pathToPagesInDefaultLocale)) {
-        mdxDirectories.push({ path: pathToPagesInDefaultLocale, locale })
+        mdxDirectories.set(pathToPagesInDefaultLocale, {
+          path: pathToPagesInDefaultLocale,
+          locale
+        })
       }
     })
   }
@@ -134,7 +148,7 @@ const getDirectoriesWithMdxFiles = () => {
     parseDirectory({ pathToDirectory: pathToContent, locale })
   )
 
-  return mdxDirectories
+  return Array.from(mdxDirectories.values())
 }
 
 const getBlogPostList = async (graphql) => {
@@ -235,6 +249,15 @@ const createBlogPages = async ({ actions, graphql }) => {
 
 const createPages = async ({ actions, graphql }) => {
   const directoriesWithMdxFiles = getDirectoriesWithMdxFiles()
+
+  // const parsedContent = await parseFolder(
+  //   process.cwd(),
+  //   `content`,
+  //   allLocaleCodes
+  // )
+  // console.log(util.inspect(parsedContent, { colors: true, depth: 25 }))
+
+  console.log('directoriesWithMdxFiles', directoriesWithMdxFiles)
 
   const promises = directoriesWithMdxFiles.map(async (directory) => {
     const {
