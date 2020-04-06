@@ -38,17 +38,27 @@ async function parseLocaleFolder(folderPath) {
 }
 
 /**
- * @param {string} pathToFolder
- * @param {string} folderName
- * @param {string[]} localeCodeList
- * @param {null | object} parentNode
+ * @typedef {Object} FolderNode
+ * @property {string} name
+ * @property {string} path
+ * @property {object} localeMap
+ * @property {null | FolderNode} parent
+ * @property {FolderNode[]} children
  */
-async function parseFolderRecursively(
+
+/**
+ * @param {object} params
+ * @param {string} params.pathToFolder
+ * @param {string} params.folderName
+ * @param {string[]} params.localeCodeList
+ * @param {null | FolderNode} params.parentNode
+ */
+async function parseFolderRecursively({
   pathToFolder,
   folderName,
   localeCodeList,
   parentNode = null
-) {
+}) {
   const currentNode = {
     name: folderName,
     path: path.join(pathToFolder, folderName),
@@ -70,12 +80,12 @@ async function parseFolderRecursively(
 
       currentNode.localeMap[file.name] = localeEntry
     } else {
-      const childNode = await parseFolderRecursively(
-        currentNode.path,
-        file.name,
+      const childNode = await parseFolderRecursively({
+        pathToFolder: currentNode.path,
+        folderName: file.name,
         localeCodeList,
-        currentNode
-      )
+        parentNode: currentNode
+      })
 
       currentNode.children.push(childNode)
     }

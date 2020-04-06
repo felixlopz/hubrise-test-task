@@ -94,7 +94,7 @@ const getDirectoriesWithMdxFiles = () => {
   const parseDirectory = ({ pathToDirectory, locale }) => {
     const filenames = fs.readdirSync(pathToDirectory)
 
-    console.log('filenames', filenames)
+    // console.log('filenames', filenames)
 
     return filenames.forEach((fileName) => {
       const pathToFile = path.join(pathToDirectory, fileName)
@@ -116,9 +116,9 @@ const getDirectoriesWithMdxFiles = () => {
           ? pathToFile
           : path.join(pathToFile, locale.code)
 
-      console.log('pathToLocalizedPages', pathToLocalizedPages)
+      // console.log('pathToLocalizedPages', pathToLocalizedPages)
       if (fs.existsSync(pathToLocalizedPages)) {
-        mdxDirectories.set(pathToLocalizedPages, {
+        mdxDirectories.set([pathToLocalizedPages, locale.code].join('_'), {
           path: pathToLocalizedPages,
           locale
         })
@@ -136,10 +136,13 @@ const getDirectoriesWithMdxFiles = () => {
 
       // For every other locale, fallback to content in default locale, if available.
       if (fs.existsSync(pathToPagesInDefaultLocale)) {
-        mdxDirectories.set(pathToPagesInDefaultLocale, {
-          path: pathToPagesInDefaultLocale,
-          locale
-        })
+        mdxDirectories.set(
+          [pathToPagesInDefaultLocale, locale.code].join('_'),
+          {
+            path: pathToPagesInDefaultLocale,
+            locale
+          }
+        )
       }
     })
   }
