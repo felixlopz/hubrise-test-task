@@ -6,8 +6,6 @@ meta:
   description:
 ---
 
-import ContactFormToggle from '../../../src/components/markdown/contact_form_toggle.jsx'
-
 #### Abonnement
 
 ##### Puis-je tester gratuitement HubRise ?

@@ -1,15 +1,16 @@
-const fs = require('fs')
 const path = require('path')
-const yaml = require('js-yaml')
 
 const locales = require('../../src/i18n/locales')
 const {
   parseFolderRecursively,
-  getDirectoriesWithMdxFiles
-} = require('./content_parser')
+  getDirectoriesWithMdxFiles,
+  getCustomizationFromFolder,
+  getBreadcrumbs
+} = require('./utils')
 
 const allLocaleCodes = Object.keys(locales)
 const pathToLayouts = path.join(process.cwd(), `src/layouts`)
+const pathToContent = path.join(process.cwd(), 'src', 'content')
 
 const getLayout = (name) => path.join(pathToLayouts, `${name}.jsx`)
 
@@ -54,14 +55,17 @@ const getMdxContent = async (pathToDirectory, graphql) => {
   return data
 }
 
-const createPageFromMdxNode = (node, locale, actions) => {
+const createPageFromMdxNode = async (node, locale, actions) => {
   const { id, fileAbsolutePath, frontmatter, fields } = node
   const { layout, meta } = frontmatter
   const currentDirectory = path.dirname(fileAbsolutePath)
   const parentDirectory = path.dirname(currentDirectory)
-  const pathToImages = `${parentDirectory}/images`
-  const config = yaml.safeLoad(
-    fs.readFileSync(path.join(currentDirectory, `customization.yaml`), `utf-8`)
+  const pathToImages = path.join(parentDirectory, 'images')
+  const config = await getCustomizationFromFolder(currentDirectory)
+  const breadcrumbs = await getBreadcrumbs(
+    fileAbsolutePath,
+    pathToContent,
+    locale
   )
 
   const relativePath = normalizePath(
@@ -69,7 +73,8 @@ const createPageFromMdxNode = (node, locale, actions) => {
   )
 
   actions.createPage({
-    path: (locale.default ? `` : locale.code) + fields.slug,
+    /** Any valid URL. Must start with a forward slash */
+    path: (locale.default ? `` : `/${locale.code}`) + fields.slug,
     component: getLayout(layout),
     context: {
       id,
@@ -79,6 +84,7 @@ const createPageFromMdxNode = (node, locale, actions) => {
       imagesFilter: {
         absolutePath: { glob: normalizePath(`${pathToImages}/**/*`) }
       },
+      breadcrumbs,
       meta,
       config,
       lang: locale.code,
@@ -183,6 +189,18 @@ const createBlogPages = async ({ actions, graphql }) => {
   })
 }
 
+const createRedirects = (actions) => {
+  Object.values(locales).forEach((locale) => {
+    const prefix = locale.default ? '' : `/${locale.code}`
+    actions.createRedirect({
+      fromPath: prefix + '/developers/api/',
+      toPath: prefix + '/developers/api/general-concepts/',
+      isPermanent: true,
+      redirectInBrowser: true
+    })
+  })
+}
+
 const createPages = async ({ actions, graphql }) => {
   const parsedContent = await parseFolderRecursively({
     pathToFolder: process.cwd(),
@@ -198,17 +216,20 @@ const createPages = async ({ actions, graphql }) => {
 
   console.log('directoriesWithMdxFiles', directoriesWithMdxFiles)
 
-  const promises = directoriesWithMdxFiles.map(async (directory) => {
-    const {
-      allMdx: { nodes: mdxNodes }
-    } = await getMdxContent(directory.path, graphql)
-    mdxNodes.forEach((node) =>
-      createPageFromMdxNode(node, directory.locale, actions)
+  const promises = directoriesWithMdxFiles.map((directory) =>
+    getMdxContent(directory.path, graphql).then(
+      ({ allMdx: { nodes: mdxNodes } }) =>
+        Promise.all(
+          mdxNodes.map((node) =>
+            createPageFromMdxNode(node, directory.locale, actions)
+          )
+        )
     )
-  })
+  )
 
   const blogPromise = createBlogPages({ actions, graphql })
 
+  createRedirects(actions)
   try {
     await Promise.all([...promises, blogPromise])
   } catch (error) {

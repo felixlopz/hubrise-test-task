@@ -1,35 +1,21 @@
-const fs = require(`fs`)
 const path = require(`path`)
-const yaml = require('js-yaml')
-const locales = require('../../src/i18n/locales')
+const {
+  getCustomizationFromFolder,
+  getBreadcrumbs,
+  getContentLangFromPath
+} = require('./utils')
 
-function normalizePath(filePath) {
-  return filePath.split(path.sep).join(path.posix.sep)
-}
-
-function getContentLangFromPath(relativePath) {
-  const defaultLocale = Object.values(locales).find((locale) => locale.default)
-  const defaultLang = defaultLocale ? defaultLocale.code : 'en'
-
-  const contentLocale = Object.values(locales).find((locale) => {
-    const langPath = path.posix.sep + locale.code + path.posix.sep
-    return relativePath.includes(langPath)
-  })
-
-  return contentLocale ? contentLocale.code : defaultLang
-}
-
-const onCreateNode = ({ node, actions }) => {
+const onCreateNode = async ({ node, actions }) => {
   if (node.internal.type === `Mdx`) {
     const { createNodeField } = actions
     const { fileAbsolutePath, frontmatter } = node
-    const config =
-      yaml.safeLoad(
-        fs.readFileSync(
-          path.join(path.dirname(fileAbsolutePath), `customization.yaml`),
-          `utf-8`
-        )
-      ) || {}
+    const config = await getCustomizationFromFolder(
+      path.dirname(fileAbsolutePath)
+    )
+    const breadcrumbs = await getBreadcrumbs(
+      fileAbsolutePath,
+      path.join(process.cwd(), 'content')
+    )
 
     let fileName = path.basename(
       fileAbsolutePath,
@@ -41,24 +27,28 @@ const onCreateNode = ({ node, actions }) => {
       fileName = fileName.slice(11)
     }
 
-    const slug =
-      (config.path_override ? '/' + config.path_override : '') +
-      (frontmatter.path_override ? frontmatter.path_override : `/${fileName}/`)
+    let slug = [
+      ...breadcrumbs.map((breadcrumb) => breadcrumb.value),
+      frontmatter.path_override ? frontmatter.path_override : fileName
+    ]
+      .filter((part) => part !== '/')
+      .join('/')
+      .replace(/_/g, `-`)
 
+    slug = slug ? `/${slug}/` : '/'
+
+    // console.log('slug', slug)
     createNodeField({
       node,
       name: `slug`,
-      value: slug.replace(/_/g, `-`)
+      value: slug
     })
 
-    const relativePath = normalizePath(
-      path.posix.sep + path.relative(process.cwd(), fileAbsolutePath)
-    )
-
+    // console.log('contentLang', getContentLangFromPath(fileAbsolutePath))
     createNodeField({
       node,
       name: `contentLang`,
-      value: getContentLangFromPath(relativePath)
+      value: getContentLangFromPath(fileAbsolutePath)
     })
   }
 }

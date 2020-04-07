@@ -18,7 +18,7 @@ content:
       icon: fa-fast-forward
     - title: Référence de l'API
       description: Toutes les ressources de l'API sont documentées ici (en anglais)
-      to: /api/general-concepts
+      to: /developers/api/general-concepts
       icon: fa-cogs
     - title: Authentification
       description: Introduction à OAuth 2.0 et son implémentation dans HubRise (en anglais)

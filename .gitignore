@@ -76,3 +76,6 @@ yarn-error.log
 # Test email server files
 server/node_modules
 server/.env
+
+# Cypress screenshots
+cypress/screenshots
