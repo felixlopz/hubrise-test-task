@@ -1,16 +1,15 @@
 const fs = require('fs')
 const path = require('path')
-const util = require('util')
 const yaml = require('js-yaml')
 
 const locales = require('../../src/i18n/locales')
-const { parseFolder } = require('./content_parser')
+const {
+  parseFolderRecursively,
+  getDirectoriesWithMdxFiles
+} = require('./content_parser')
 
 const allLocaleCodes = Object.keys(locales)
-const { getDefaultLocale } = require(path.join(__dirname, `utils`))
-
 const pathToLayouts = path.join(process.cwd(), `src/layouts`)
-const pathToContent = path.join(process.cwd(), `content`)
 
 const getLayout = (name) => path.join(pathToLayouts, `${name}.jsx`)
 
@@ -86,72 +85,6 @@ const createPageFromMdxNode = (node, locale, actions) => {
       relativePath
     }
   })
-}
-
-const getDirectoriesWithMdxFiles = () => {
-  const mdxDirectories = new Map()
-
-  const parseDirectory = ({ pathToDirectory, locale }) => {
-    const filenames = fs.readdirSync(pathToDirectory)
-
-    // console.log('filenames', filenames)
-
-    return filenames.forEach((fileName) => {
-      const pathToFile = path.join(pathToDirectory, fileName)
-
-      const isNestedFolderName = (filename) =>
-        filename !== 'images' && !allLocaleCodes.includes(filename)
-
-      const nestedFolderList = !isNestedFolderName(fileName)
-        ? []
-        : fs.readdirSync(pathToFile).filter(isNestedFolderName)
-
-      if (nestedFolderList.length > 0) {
-        /** Search recursively in nested directories */
-        return parseDirectory({ pathToDirectory: pathToFile, locale })
-      }
-
-      const pathToLocalizedPages =
-        fileName === locale.code
-          ? pathToFile
-          : path.join(pathToFile, locale.code)
-
-      // console.log('pathToLocalizedPages', pathToLocalizedPages)
-      if (fs.existsSync(pathToLocalizedPages)) {
-        mdxDirectories.set([pathToLocalizedPages, locale.code].join('_'), {
-          path: pathToLocalizedPages,
-          locale
-        })
-        return
-      }
-
-      // Current locale is default and respective folder with pages is missing -
-      // don't create anything in that case.
-      if (locale.default) return
-
-      const pathToPagesInDefaultLocale = path.join(
-        pathToFile,
-        getDefaultLocale().code
-      )
-
-      // For every other locale, fallback to content in default locale, if available.
-      if (fs.existsSync(pathToPagesInDefaultLocale)) {
-        mdxDirectories.set(
-          [pathToPagesInDefaultLocale, locale.code].join('_'),
-          {
-            path: pathToPagesInDefaultLocale,
-            locale
-          }
-        )
-      }
-    })
-  }
-
-  Object.values(locales).forEach((locale) =>
-    parseDirectory({ pathToDirectory: pathToContent, locale })
-  )
-
-  return Array.from(mdxDirectories.values())
 }
 
 const getBlogPostList = async (graphql) => {
@@ -251,14 +184,17 @@ const createBlogPages = async ({ actions, graphql }) => {
 }
 
 const createPages = async ({ actions, graphql }) => {
-  const directoriesWithMdxFiles = getDirectoriesWithMdxFiles()
-
-  // const parsedContent = await parseFolder(
-  //   process.cwd(),
-  //   `content`,
-  //   allLocaleCodes
-  // )
+  const parsedContent = await parseFolderRecursively({
+    pathToFolder: process.cwd(),
+    folderName: 'content',
+    localeCodeList: allLocaleCodes
+  })
   // console.log(util.inspect(parsedContent, { colors: true, depth: 25 }))
+
+  const directoriesWithMdxFiles = getDirectoriesWithMdxFiles(
+    parsedContent,
+    locales
+  )
 
   console.log('directoriesWithMdxFiles', directoriesWithMdxFiles)
 

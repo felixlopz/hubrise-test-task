@@ -36,7 +36,7 @@ const onCreateNode = ({ node, actions }) => {
       path.extname(fileAbsolutePath)
     )
 
-    if (config.path_override === '/blog') {
+    if (config.path_override === 'blog') {
       /** "2020-01-29_article-title" -> "article-title" */
       fileName = fileName.slice(11)
     }

@@ -24,6 +24,16 @@ function getCustomizationFromFolder(folderPath) {
   // })
 }
 
+/**
+ * @typedef {Object} LocaleEntry
+ * @property {object} customization
+ * @property {string[]} contentFiles
+ */
+
+/**
+ * @param {string} folderPath
+ * @returns {Promise<LocaleEntry>}
+ */
 async function parseLocaleFolder(folderPath) {
   const customization = getCustomizationFromFolder(folderPath)
   const files = await fsReaddir(folderPath, { withFileTypes: true })
@@ -36,6 +46,13 @@ async function parseLocaleFolder(folderPath) {
     contentFiles
   }
 }
+
+/**
+ * @typedef {Object} Locale
+ * @property {string} code
+ * @property {string} tag
+ * @property {boolean} [default]
+ */
 
 /**
  * @typedef {Object} FolderNode
@@ -52,6 +69,7 @@ async function parseLocaleFolder(folderPath) {
  * @param {string} params.folderName
  * @param {string[]} params.localeCodeList
  * @param {null | FolderNode} params.parentNode
+ * @returns {Promise<FolderNode>} parsedContent
  */
 async function parseFolderRecursively({
   pathToFolder,
@@ -93,18 +111,65 @@ async function parseFolderRecursively({
 
   await Promise.all(promises)
 
-  console.log(
-    util.inspect(
-      {
-        name: currentNode.name,
-        path: currentNode.path,
-        localeMap: currentNode.localeMap
-      },
-      { colors: true, depth: 25 }
-    )
-  )
+  // console.log(
+  //   util.inspect(
+  //     {
+  //       name: currentNode.name,
+  //       path: currentNode.path,
+  //       localeMap: currentNode.localeMap
+  //     },
+  //     { colors: true, depth: 25 }
+  //   )
+  // )
 
   return currentNode
 }
 
-exports.parseFolder = parseFolderRecursively
+exports.parseFolderRecursively = parseFolderRecursively
+
+/**
+ *
+ * @param {FolderNode} parsedContent
+ * @param {object} locales
+ *
+ * @returns {object[]} mdxDirectories
+ */
+function getDirectoriesWithMdxFiles(parsedContent, locales) {
+  const mdxDirectories = []
+
+  const defaultLocale = Object.values(locales).find((locale) => locale.default)
+
+  /**
+   * @param {FolderNode} folderNode
+   * @param {Locale} locale
+   */
+  function getMdxDirectoryFromNode(folderNode, locale) {
+    const localeEntry = folderNode.localeMap[locale.code]
+    const defaultLocaleEntry = folderNode.localeMap[defaultLocale.code]
+
+    if (localeEntry && localeEntry.contentFiles.length > 0) {
+      const directoryPath = path.join(folderNode.path, locale.code)
+      mdxDirectories.push({ path: directoryPath, locale })
+    } else if (
+      !locale.default &&
+      defaultLocaleEntry &&
+      defaultLocaleEntry.contentFiles.length > 0
+    ) {
+      /** For every other locale, fallback to content in default locale, if available. */
+      const directoryPath = path.join(folderNode.path, defaultLocale.code)
+      mdxDirectories.push({ path: directoryPath, locale })
+    }
+
+    folderNode.children.forEach((childNode) =>
+      getMdxDirectoryFromNode(childNode, locale)
+    )
+  }
+
+  Object.values(locales).forEach((locale) =>
+    getMdxDirectoryFromNode(parsedContent, locale)
+  )
+
+  return mdxDirectories
+}
+
+exports.getDirectoriesWithMdxFiles = getDirectoriesWithMdxFiles
