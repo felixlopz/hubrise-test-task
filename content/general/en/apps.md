@@ -89,7 +89,7 @@ content:
         - to: https://www.tastycloud.fr
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outside menu stands, dynamic screens, click and collect online ordering, and smartphone ordering with menu scan by QR codes.
+          description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
           additional_info: Integration in progress.
         - to: https://www.ubereats.com
           logo: ubereats.png
