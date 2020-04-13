@@ -10,6 +10,7 @@ const fsReadFile = util.promisify(fs.readFile)
 
 const IGNORED_FOLDERS = ['images']
 const CUSTOMIZATION_FILE_NAME = 'customization.yaml'
+const LOCALE_CODE_LIST = Object.values(locales).map((locale) => locale.code)
 
 /**
  * Checks whether a given path is a directory.
@@ -56,6 +57,13 @@ const getDefaultLocale = () => {
 }
 
 /**
+ * @returns {Array<Locale>} localeList
+ */
+function getLocaleList() {
+  return Object.values(locales)
+}
+
+/**
  * @param {string} folderPath
  * @returns {Promise<object>}
  */
@@ -85,7 +93,7 @@ function getCustomizationFromFolder(folderPath) {
  * @returns {Promise<LocaleEntry>}
  */
 async function parseLocaleFolder(folderPath) {
-  const customization = getCustomizationFromFolder(folderPath)
+  const customization = await getCustomizationFromFolder(folderPath)
   const files = await fsReaddir(folderPath, { withFileTypes: true })
   const contentFiles = files
     .filter((file) => file.isFile() && file.name !== CUSTOMIZATION_FILE_NAME)
@@ -117,14 +125,12 @@ async function parseLocaleFolder(folderPath) {
  * @param {object} params
  * @param {string} params.pathToFolder
  * @param {string} params.folderName
- * @param {string[]} params.localeCodeList
  * @param {null | FolderNode} params.parentNode
  * @returns {Promise<FolderNode>} parsedContent
  */
 async function parseFolderRecursively({
   pathToFolder,
   folderName,
-  localeCodeList,
   parentNode = null
 }) {
   const currentNode = {
@@ -142,7 +148,7 @@ async function parseFolderRecursively({
       return
     }
 
-    if (localeCodeList.includes(file.name)) {
+    if (LOCALE_CODE_LIST.includes(file.name)) {
       const localeFolderPath = path.join(currentNode.path, file.name)
       const localeEntry = await parseLocaleFolder(localeFolderPath)
 
@@ -151,7 +157,6 @@ async function parseFolderRecursively({
       const childNode = await parseFolderRecursively({
         pathToFolder: currentNode.path,
         folderName: file.name,
-        localeCodeList,
         parentNode: currentNode
       })
 
@@ -258,6 +263,73 @@ async function getBreadcrumbs(filePath, rootPath, locale) {
   return breadcrumbs
 }
 
+/**
+ * @param {FolderNode} folderNode
+ * @param {Locale} locale
+ * @returns {array} breadcrumbs
+ */
+function getFolderNodeBreadcrumbs(folderNode, locale) {
+  const breadcrumbs = []
+
+  let currentNode = folderNode
+
+  while (currentNode !== null) {
+    const { customization } =
+      currentNode.localeMap[locale.code] ||
+      currentNode.localeMap[getDefaultLocale().code]
+
+    if (customization.path_override) {
+      const breadcrumb = {
+        value: customization.path_override,
+        label: customization.name
+      }
+      breadcrumbs.unshift(breadcrumb)
+    }
+    currentNode = currentNode.parent
+  }
+
+  return breadcrumbs
+}
+
+/**
+ * @param {FolderNode} rootNode
+ * @param {string} fileAbsolutePath
+ * @returns {Promise<FolderNode | null>}
+ */
+function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
+  function normalizePath(filePath) {
+    return filePath.split(path.sep).join(path.posix.sep)
+  }
+
+  function recursiveSearchByPath(folderNode) {
+    // console.log(
+    //   'compare paths:',
+    //   fileAbsolutePath,
+    //   normalizePath(folderNode.path)
+    // )
+    if (fileAbsolutePath.startsWith(normalizePath(folderNode.path))) {
+      // console.log('compare paths success')
+      for (let locale of getLocaleList()) {
+        const localeFolderPath = path.join(folderNode.path, locale.code)
+        if (fileAbsolutePath.startsWith(normalizePath(localeFolderPath))) {
+          return folderNode
+        }
+      }
+
+      if (folderNode.children.length > 0) {
+        for (let childNode of folderNode.children) {
+          const foundNode = recursiveSearchByPath(childNode)
+          if (foundNode) return foundNode
+        }
+      }
+    }
+
+    return null
+  }
+
+  return recursiveSearchByPath(rootNode, fileAbsolutePath)
+}
+
 function getContentLangFromPath(relativePath) {
   const defaultLocale = Object.values(locales).find((locale) => locale.default)
   const defaultLang = defaultLocale ? defaultLocale.code : 'en'
@@ -279,5 +351,7 @@ module.exports = {
   getContentLangFromPath,
   getBreadcrumbs,
   getDirectoriesWithMdxFiles,
-  parseFolderRecursively
+  parseFolderRecursively,
+  findFolderNodeByFilePath,
+  getFolderNodeBreadcrumbs
 }

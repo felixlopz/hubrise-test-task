@@ -3,6 +3,7 @@ layout: developers
 meta:
   title: Developers documentation - HubRise
   description:
+path_override: /
 content:
   hero:
     title: Connect Your Application to HubRise

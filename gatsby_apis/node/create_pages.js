@@ -1,14 +1,15 @@
 const path = require('path')
+const util = require('util')
 
 const locales = require('../../src/i18n/locales')
 const {
   parseFolderRecursively,
   getDirectoriesWithMdxFiles,
   getCustomizationFromFolder,
-  getBreadcrumbs
+  getBreadcrumbs,
+  getDefaultLocale
 } = require('./utils')
 
-const allLocaleCodes = Object.keys(locales)
 const pathToLayouts = path.join(process.cwd(), `src/layouts`)
 const pathToContent = path.join(process.cwd(), 'src', 'content')
 
@@ -33,6 +34,10 @@ const getMdxContent = async (pathToDirectory, graphql) => {
           fileAbsolutePath
           fields {
             slug
+            localeSlugMap {
+              en
+              fr
+            }
           }
           frontmatter {
             layout
@@ -56,6 +61,10 @@ const getMdxContent = async (pathToDirectory, graphql) => {
 }
 
 const createPageFromMdxNode = async (node, locale, actions) => {
+  console.log(
+    'MdxNode:',
+    util.inspect(node, { colors: true, depth: Number.POSITIVE_INFINITY })
+  )
   const { id, fileAbsolutePath, frontmatter, fields } = node
   const { layout, meta } = frontmatter
   const currentDirectory = path.dirname(fileAbsolutePath)
@@ -72,9 +81,13 @@ const createPageFromMdxNode = async (node, locale, actions) => {
     path.posix.sep + path.relative(process.cwd(), fileAbsolutePath)
   )
 
+  const slug =
+    fields.localeSlugMap[locale.code] ||
+    fields.localeSlugMap[getDefaultLocale().code]
+
   actions.createPage({
     /** Any valid URL. Must start with a forward slash */
-    path: (locale.default ? `` : `/${locale.code}`) + fields.slug,
+    path: (locale.default ? `` : `/${locale.code}`) + slug,
     component: getLayout(layout),
     context: {
       id,
@@ -204,8 +217,7 @@ const createRedirects = (actions) => {
 const createPages = async ({ actions, graphql }) => {
   const parsedContent = await parseFolderRecursively({
     pathToFolder: process.cwd(),
-    folderName: 'content',
-    localeCodeList: allLocaleCodes
+    folderName: 'content'
   })
   // console.log(util.inspect(parsedContent, { colors: true, depth: 25 }))
 

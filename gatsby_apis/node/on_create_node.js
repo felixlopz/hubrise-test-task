@@ -1,21 +1,37 @@
 const path = require(`path`)
+const util = require('util')
 const {
-  getCustomizationFromFolder,
-  getBreadcrumbs,
-  getContentLangFromPath
+  getContentLangFromPath,
+  parseFolderRecursively,
+  findFolderNodeByFilePath,
+  getFolderNodeBreadcrumbs,
+  getDefaultLocale
 } = require('./utils')
+const locales = require('../../src/i18n/locales')
 
-const onCreateNode = async ({ node, actions }) => {
-  if (node.internal.type === `Mdx`) {
-    const { createNodeField } = actions
-    const { fileAbsolutePath, frontmatter } = node
-    const config = await getCustomizationFromFolder(
-      path.dirname(fileAbsolutePath)
-    )
-    const breadcrumbs = await getBreadcrumbs(
-      fileAbsolutePath,
-      path.join(process.cwd(), 'content')
-    )
+/**
+ * @param {object} mdxNode
+ * @param {FolderNode} currentFolderNode
+ * @returns {{}}
+ */
+function getLocaleSlugMap(mdxNode, currentFolderNode) {
+  const { fileAbsolutePath, frontmatter } = mdxNode
+
+  const localeSlugMap = {}
+
+  Object.values(locales).forEach((locale) => {
+    const localeFolderEntry =
+      currentFolderNode.localeMap[locale.code] ||
+      currentFolderNode.localeMap[getDefaultLocale().code]
+
+    const config = localeFolderEntry.customization
+
+    const breadcrumbs = getFolderNodeBreadcrumbs(currentFolderNode, locale)
+
+    if (locale.code === 'fr') {
+      console.log(JSON.stringify(config))
+      console.log(JSON.stringify(breadcrumbs))
+    }
 
     let fileName = path.basename(
       fileAbsolutePath,
@@ -37,20 +53,56 @@ const onCreateNode = async ({ node, actions }) => {
 
     slug = slug ? `/${slug}/` : '/'
 
-    // console.log('slug', slug)
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug
-    })
+    localeSlugMap[locale.code] = slug
+  })
 
-    // console.log('contentLang', getContentLangFromPath(fileAbsolutePath))
-    createNodeField({
-      node,
-      name: `contentLang`,
-      value: getContentLangFromPath(fileAbsolutePath)
-    })
-  }
+  return localeSlugMap
 }
 
-module.exports = onCreateNode
+function createNodeHookFactory() {
+  const parsedContentPromise = parseFolderRecursively({
+    pathToFolder: process.cwd(),
+    folderName: 'content'
+  })
+
+  const onCreateNode = async ({ node, actions }) => {
+    if (node.internal.type === `Mdx`) {
+      const { createNodeField } = actions
+      const { fileAbsolutePath } = node
+
+      const parsedContent = await parsedContentPromise
+      const currentFolderNode = findFolderNodeByFilePath(
+        parsedContent,
+        fileAbsolutePath
+      )
+
+      const localeCode = getContentLangFromPath(fileAbsolutePath)
+
+      const localeSlugMap = getLocaleSlugMap(node, currentFolderNode)
+
+      // console.log('slug', slug)
+      createNodeField({
+        node,
+        name: `slug`,
+        value: localeSlugMap[localeCode]
+      })
+
+      createNodeField({
+        node,
+        name: `localeSlugMap`,
+        value: localeSlugMap
+      })
+
+      // console.log('contentLang', getContentLangFromPath(fileAbsolutePath))
+      createNodeField({
+        node,
+        name: `contentLang`,
+        value: localeCode
+      })
+    }
+  }
+
+  return onCreateNode
+}
+
+module.exports = createNodeHookFactory()
