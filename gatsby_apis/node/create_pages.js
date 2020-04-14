@@ -4,14 +4,17 @@ const util = require('util')
 const locales = require('../../src/i18n/locales')
 const {
   parseFolderRecursively,
-  getDirectoriesWithMdxFiles,
-  getCustomizationFromFolder,
-  getBreadcrumbs,
-  getDefaultLocale
+  getFoldersWithMdxFiles,
+  getDefaultLocale,
+  findFolderNodeByFilePath,
+  getFolderNodeBreadcrumbs,
+  getLocaleList
 } = require('./utils')
 
 const pathToLayouts = path.join(process.cwd(), `src/layouts`)
 const pathToContent = path.join(process.cwd(), 'src', 'content')
+
+const DEFAULT_LOCALE = getDefaultLocale()
 
 const getLayout = (name) => path.join(pathToLayouts, `${name}.jsx`)
 
@@ -60,22 +63,25 @@ const getMdxContent = async (pathToDirectory, graphql) => {
   return data
 }
 
-const createPageFromMdxNode = async (node, locale, actions) => {
-  console.log(
-    'MdxNode:',
-    util.inspect(node, { colors: true, depth: Number.POSITIVE_INFINITY })
-  )
+/**
+ * @param {object} node
+ * @param {FolderNode} folderNode
+ * @param {Locale} locale
+ * @param {object} actions
+ * @returns {void}
+ */
+function createPageFromMdxNode({ node, folderNode, locale, actions }) {
   const { id, fileAbsolutePath, frontmatter, fields } = node
   const { layout, meta } = frontmatter
   const currentDirectory = path.dirname(fileAbsolutePath)
   const parentDirectory = path.dirname(currentDirectory)
   const pathToImages = path.join(parentDirectory, 'images')
-  const config = await getCustomizationFromFolder(currentDirectory)
-  const breadcrumbs = await getBreadcrumbs(
-    fileAbsolutePath,
-    pathToContent,
-    locale
-  )
+  const breadcrumbs = getFolderNodeBreadcrumbs(folderNode, locale)
+
+  const config = (
+    folderNode.localeMap[locale.code] ||
+    folderNode.localeMap[DEFAULT_LOCALE.code]
+  ).customization
 
   const relativePath = normalizePath(
     path.posix.sep + path.relative(process.cwd(), fileAbsolutePath)
@@ -83,8 +89,9 @@ const createPageFromMdxNode = async (node, locale, actions) => {
 
   const slug =
     fields.localeSlugMap[locale.code] ||
-    fields.localeSlugMap[getDefaultLocale().code]
+    fields.localeSlugMap[DEFAULT_LOCALE.code]
 
+  console.log('Page path:', (locale.default ? `` : `/${locale.code}`) + slug)
   actions.createPage({
     /** Any valid URL. Must start with a forward slash */
     path: (locale.default ? `` : `/${locale.code}`) + slug,
@@ -104,6 +111,35 @@ const createPageFromMdxNode = async (node, locale, actions) => {
       relativePath
     }
   })
+
+  if (locale.default) {
+    const fileName = path.basename(fileAbsolutePath)
+    getLocaleList()
+      .filter((locale) => !locale.default)
+      .forEach((nonDefaultLocale) => {
+        const localeFolderEntry = folderNode.localeMap[nonDefaultLocale.code]
+        if (!localeFolderEntry) {
+          console.log(
+            'localeFolderEntry is empty',
+            folderNode.path,
+            nonDefaultLocale.code
+          )
+        }
+        const contentFiles = localeFolderEntry
+          ? localeFolderEntry.contentFiles
+          : []
+        const isContainsFile = contentFiles.includes(fileName)
+
+        if (!isContainsFile) {
+          createPageFromMdxNode({
+            node,
+            folderNode,
+            locale: nonDefaultLocale,
+            actions
+          })
+        }
+      })
+  }
 }
 
 const getBlogPostList = async (graphql) => {
@@ -219,23 +255,21 @@ const createPages = async ({ actions, graphql }) => {
     pathToFolder: process.cwd(),
     folderName: 'content'
   })
-  // console.log(util.inspect(parsedContent, { colors: true, depth: 25 }))
 
-  const directoriesWithMdxFiles = getDirectoriesWithMdxFiles(
-    parsedContent,
-    locales
-  )
+  const foldersWithMdxFiles = getFoldersWithMdxFiles(parsedContent, locales)
 
-  console.log('directoriesWithMdxFiles', directoriesWithMdxFiles)
-
-  const promises = directoriesWithMdxFiles.map((directory) =>
-    getMdxContent(directory.path, graphql).then(
-      ({ allMdx: { nodes: mdxNodes } }) =>
-        Promise.all(
-          mdxNodes.map((node) =>
-            createPageFromMdxNode(node, directory.locale, actions)
-          )
+  const promises = foldersWithMdxFiles.map((folder) =>
+    getMdxContent(folder.path, graphql).then(
+      ({ allMdx: { nodes: mdxNodes } }) => {
+        mdxNodes.forEach((node) =>
+          createPageFromMdxNode({
+            node,
+            locale: folder.locale,
+            folderNode: folder.node,
+            actions
+          })
         )
+      }
     )
   )
 

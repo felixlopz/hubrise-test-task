@@ -12,7 +12,7 @@ const locales = require('../../src/i18n/locales')
 /**
  * @param {object} mdxNode
  * @param {FolderNode} currentFolderNode
- * @returns {{}}
+ * @returns {object}
  */
 function getLocaleSlugMap(mdxNode, currentFolderNode) {
   const { fileAbsolutePath, frontmatter } = mdxNode
@@ -27,11 +27,6 @@ function getLocaleSlugMap(mdxNode, currentFolderNode) {
     const config = localeFolderEntry.customization
 
     const breadcrumbs = getFolderNodeBreadcrumbs(currentFolderNode, locale)
-
-    if (locale.code === 'fr') {
-      console.log(JSON.stringify(config))
-      console.log(JSON.stringify(breadcrumbs))
-    }
 
     let fileName = path.basename(
       fileAbsolutePath,
@@ -59,13 +54,13 @@ function getLocaleSlugMap(mdxNode, currentFolderNode) {
   return localeSlugMap
 }
 
-function createNodeHookFactory() {
+function getNodeCreationHook() {
   const parsedContentPromise = parseFolderRecursively({
     pathToFolder: process.cwd(),
     folderName: 'content'
   })
 
-  const onCreateNode = async ({ node, actions }) => {
+  async function onCreateNode({ node, actions }) {
     if (node.internal.type === `Mdx`) {
       const { createNodeField } = actions
       const { fileAbsolutePath } = node
@@ -105,4 +100,4 @@ function createNodeHookFactory() {
   return onCreateNode
 }
 
-module.exports = createNodeHookFactory()
+module.exports = getNodeCreationHook()
