@@ -238,13 +238,7 @@ function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
   }
 
   function recursiveSearchByPath(folderNode) {
-    // console.log(
-    //   'compare paths:',
-    //   fileAbsolutePath,
-    //   normalizePath(folderNode.path)
-    // )
     if (fileAbsolutePath.startsWith(normalizePath(folderNode.path))) {
-      // console.log('compare paths success')
       for (let locale of getLocaleList()) {
         const localeFolderPath = path.join(folderNode.path, locale.code)
         if (fileAbsolutePath.startsWith(normalizePath(localeFolderPath))) {

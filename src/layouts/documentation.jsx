@@ -22,8 +22,6 @@ const DocumentationPage = ({ data, path, pageContext }) => {
   const firstPage = pageNodes.find((node) => node.frontmatter.position === 1)
   const currentPage = pageNodes.find((node) => node.id === currentPageId)
 
-  console.log('pageNodes', pageNodes)
-
   const { frontmatter, body } = currentPage
   const { title, gallery, app_info } = frontmatter
 

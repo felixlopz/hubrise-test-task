@@ -91,7 +91,6 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
     fields.localeSlugMap[locale.code] ||
     fields.localeSlugMap[DEFAULT_LOCALE.code]
 
-  console.log('Page path:', (locale.default ? `` : `/${locale.code}`) + slug)
   actions.createPage({
     /** Any valid URL. Must start with a forward slash */
     path: (locale.default ? `` : `/${locale.code}`) + slug,
@@ -112,19 +111,14 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
     }
   })
 
+  /** For every other locale, fallback to content in default locale, if available. */
   if (locale.default) {
     const fileName = path.basename(fileAbsolutePath)
+
     getLocaleList()
       .filter((locale) => !locale.default)
       .forEach((nonDefaultLocale) => {
         const localeFolderEntry = folderNode.localeMap[nonDefaultLocale.code]
-        if (!localeFolderEntry) {
-          console.log(
-            'localeFolderEntry is empty',
-            folderNode.path,
-            nonDefaultLocale.code
-          )
-        }
         const contentFiles = localeFolderEntry
           ? localeFolderEntry.contentFiles
           : []
