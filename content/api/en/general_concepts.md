@@ -117,17 +117,18 @@ Can be one of `delivery`, `collection` or `eat_in`.
 
 The API returns appropriate [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) for every request.
 
-| Code  | Name                   | Description                                                                                                |
-| ----- | ---------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `200` | OK                     | All Good!                                                                                                  |
-| `304` | Not Modified           | There was no new data to return                                                                            |
-| `400` | Bad Request            | The request was invalid or cannot be otherwise served. An accompanying error message will explain further. |
-| `401` | Unauthorized           | Authentication credentials were missing or incorrect.                                                      |
-| `403` | Forbidden              | The request is understood, but it has been refused or access is not allowed.                               |
-| `404` | Not Found              | The URI requested is invalid or the requested resource does not exist.                                     |
-| `415` | Unsupported Media Type | The provided Content-Type is not supported.                                                                |
-| `429` | Too many requests      | You have reached the rate limit for the resource.                                                          |
-| `500` | Internal Error         | Something is broken. The HubRise team has been notified and is investigating.                              |
+| Code  | Name                   | Description                                                                                                           |
+| ----- | ---------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `200` | OK                     | All Good!                                                                                                             |
+| `304` | Not Modified           | There was no new data to return. This is not an error.                                                                |
+| `400` | Bad Request            | The request was invalid or cannot be otherwise served. An accompanying error message will generally explain further.  |
+| `401` | Unauthorized           | Authentication credentials were missing or incorrect.                                                                 |
+| `403` | Forbidden              | The request is understood, but it has been refused or access is not allowed.                                          |
+| `404` | Not Found              | The requested URL is invalid or the requested resource does not exist.                                                |
+| `415` | Unsupported Media Type | The Content-Type header of the request is not supported.                                                              |
+| `422` | Unprocessable Entity   | The request syntax is correct but it could not be successfully completed. The requests needs to be modified before being attempted again. |
+| `429` | Too many requests      | The rate limit of the user or organization has been reached.                                                          |
+| `500` | Internal Error         | The server encountered an unexpected error. The support team generally needs to be involved to investigate the error. |
 
 ## 7. Errors
 
