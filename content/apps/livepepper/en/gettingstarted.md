@@ -9,9 +9,9 @@ meta:
 
 LivePepper can be configured with one site for independent restaurants or as a multisite for restaurants with many branches.
 
-The instructions below detail how to connect a LivePepper site to a new HubRise Account as this is the most common scenario. For instructions on how to connect a multisite, or on how to connect a site to an existing HubRise Account, see the [FAQ](../faq).
+The instructions below detail how to connect a LivePepper site to a new HubRise Account as this is the most common scenario. For instructions on how to connect a multisite, or on how to connect a site to an existing HubRise Account, see the [FAQ](../faq/).
 
-- **IMPORTANT NOTE:** If connecting to a pre-existing HubRise account with additional customer lists and catalogs, you can specify which customer list or catalog to use. For more information, see the [FAQ](../faq).
+- **IMPORTANT NOTE:** If connecting to a pre-existing HubRise account with additional customer lists and catalogs, you can specify which customer list or catalog to use. For more information, see the [FAQ](../faq/).
 
 - **IMPORTANT NOTE:** Note that both LivePepper and HubRise have their own vocabulary, and may refer to the same things by different names. For example, the branch in LivePepper is a Location in HubRise. For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs LivePepper Definitions](../troubleshooting/#hubrise-definitions-vs-livepepper-definitions).
 
@@ -32,11 +32,11 @@ To connect a single LivePepper site with a new HubRise Account:
 7. Click **Create account**.
 8. HubRise will automatically start the Account creation process based on your LivePepper information. To complete this process, enter the following information:
    1. **Location name**
-   1. **Address**
-   1. **Postcode**
-   1. **City**
+   2. **Address**
+   3. **Postcode**
+   4. **City**
 9. Click **Create**. This HubRise Account and Location will be created.
 10. LivePepper will require access to the new HubRise Account and Location. Click **Allow**.˙
 11. The connection between your LivePepper site and your new HubRise Account will be complete.
 
-![Connect to HubRise and create Account](../images/008-connect-hubrise.webm)
+![Connect to HubRise example.](../images/008-connect-hubrise.webm)

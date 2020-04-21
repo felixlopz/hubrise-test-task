@@ -23,28 +23,28 @@ LivePepper is an online ordering solution for home delivery and takeaway restaur
 
 LivePepper clients are mainly located in France and the UK, but the system operates in multiple international markets in the Americas, mainland Europe, North Africa, Middle East and South Asia. LivePepper can easily be localised for the international market.
 
-LivePepper can create a full site including static marketing pages and online ordering. Restaurants can also incorporate LivePepper's online ordering module into an existing marketing website. Sites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
+LivePepper can create a full site including static marketing pages and online ordering. Restaurants can also incorporate LivePepper’s online ordering module into an existing marketing website. Sites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
 
 LivePepper comes with a rich palette of features including but not limited to:
 
-- Deals
-- Promotions
-- Coupons
-- Upselling
-- Loyalty programs
-- Favorites list
-- Multilingual user interface
-- Google Maps integration
-- Order status notification by email and SMS
-- Multiple one click payment options
-- Rush hour management
-- Driver tips
-- Referral programs
-- And more
+*Deals
+*Promotions
+*Coupons
+*Upselling
+*Loyalty programs
+*Favorites list
+*Multilingual user interface
+*Google Maps integration
+*Order status notification by email and SMS
+*Multiple one click payment options
+*Rush hour management
+*Driver tips
+*Referral programs
+*And more
 
 Restaurants have complete control over their LivePepper site. They can make changes to their menu, set up promotions, set business hours and vacation periods, delivery times, or other settings to best fit their needs.
 
-LivePepper's dashboard provides information on how the restaurant is operating, which can be exported into different formats for analysis or used in marketing campaigns.
+LivePepper’s dashboard provides information on how the restaurant is operating, which can be exported into different formats for analysis or used in marketing campaigns.
 
 LivePepper integrates seamlessly with all sorts of systems like traffic analysis, online advertising and conversion tracking.
 
@@ -56,4 +56,4 @@ To establish a connection between LivePepper and HubRise, you must have an exist
 
 ## Connection with HubRise
 
-LivePepper can be connected to HubRise for your site and other apps to work as a cohesive whole. It could be your EPOS, your loyalty systems, the kitchen display screen you use or your preferred marketing solution. This allows you to sync your menu, your customer and order information. For more information see, the <a href="/apps/hubrise/">HubRise User Manual</a>.
+LivePepper can be connected to HubRise for your site and other apps to work as a cohesive whole. It could be your EPOS, your loyalty systems, the kitchen display screen you use or your preferred marketing solution. This allows you to sync your menu, your customer and order information. For more information, see the [HubRise User Manual](/apps/hubrise).
