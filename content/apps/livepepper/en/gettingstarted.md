@@ -15,7 +15,7 @@ The instructions below detail how to connect a LivePepper site to a new HubRise 
 
 - **IMPORTANT NOTE:** Note that both LivePepper and HubRise have their own vocabulary, and may refer to the same things by different names. For example, the branch in LivePepper is a Location in HubRise. For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs LivePepper Definitions](../troubleshooting/#hubrise-definitions-vs-livepepper-definitions).
 
-## Connect LivePepper to HubRise: One Branch, No Existing HubRise Account
+## Connect LivePepper to HubRise
 
 To connect a single LivePepper site with a new HubRise Account:
 
