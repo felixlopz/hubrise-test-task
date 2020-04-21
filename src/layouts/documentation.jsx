@@ -174,7 +174,7 @@ DocumentationPage.propTypes = {
       nodes: PropTypes.arrayOf(
         PropTypes.shape({
           name: PropTypes.string.isRequired,
-          childImageSharp: PropTypes.object.isRequired
+          childImageSharp: PropTypes.object
         })
       )
     })
