@@ -26,7 +26,7 @@ OrderLine is separated into the following sections:
 
 When OrderLine fetches an Order from HubRise with the same delivery date as the current day, it displays an order counter notification on the top right hand corner of the window and plays a notification sound to alert the user.
 
-Orders may be hidden depending on the **Hide Order Status** setting. These Orders can be seen from **Today’s Orders** by selecting **View** to display **Orders History**. For more information, see **Settings > [Order Status](/apps/orderline/settings/#order-status)**.
+Orders may be hidden depending on the **Hide Order Status** setting. These Orders can be seen from **Today’s Orders** by selecting **View** to display **Orders History**. For more information, see [Order Status](../settings/#order-status).
 
 ![Today's Order Tab](../images/006-todays-orders.png)
 
@@ -68,13 +68,13 @@ Order Cards display all the details needed to process the Order, including the f
 - Type indicates how the Order will be processed. Types include **DELIVERY**, **COLLECTION** or **EAT-IN**.
 - The order’s payment method.
 - The order’s products list.
-- The order’s current status. See **Settings > [Order Status](/apps/orderline/settings/#order-status)** for more details.
+- The order’s current status. See [Order Status](../settings/#order-status) for more details.
 
 ![Order Card Details](../images/019-order-card-details.png)
 
 ## Update Order Status
 
-Orders are processed according to the status flow as explained in the section **Settings > [Order Status](/apps/orderline/settings/#order-status)**. Users can set the new status for an Order, or print the order receipt by selecting the corresponding button.
+Orders are processed according to the status flow as explained in the section [Order Status](../settings/#order-status). Users can set the new status for an Order, or print the order receipt by selecting the corresponding button.
 
 ### Accept Order
 
@@ -90,7 +90,7 @@ Once accepted, the Order status changes to Accepted. You may print the order rec
 
 ### Reject Order
 
-To reject an order, go to the order details and click **REJECTED**. You may add a comment when rejecting the order. For more information, see **Settings > Order Status > [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt)**.
+To reject an order, go to the order details and click **REJECTED**. You may add a comment when rejecting the order. For more information, see [Additional Data Prompt](../settings/#additional-data-prompt)\*\*.
 
 Once rejected, the order disappears from **Today’s Orders** list and becomes hidden. You can click on **Today's Orders** hidden card to see all Orders and reopen them if needed.
 
@@ -129,11 +129,11 @@ To print an Order receipt from a local printer, follow these steps:
 2. Click **PRINT**.
 3. Follow the instructions on the browser print dialog.
 
-OrderLine also prints order receipts automatically upon order reception, skipping the print dialog. Auto printing requires the printer to be registered in Google Cloud Print. For more details see **Settings > [Printing](/apps/orderline/settings/#printing)**.
+OrderLine also prints order receipts automatically upon order reception, skipping the print dialog. Auto printing requires the printer to be registered in Google Cloud Print. For more details, see [Printing](../settings/#printing).
 
 ### Order Receipt
 
-Receipts are presented into sections for readability with a solid line starting and ending each section. These reflect the same information as listed on the Order Card. For more information on Order Cards see **Manage Orders > [View Order](#view-order)**.
+Receipts are presented into sections for readability with a solid line starting and ending each section. These reflect the same information as listed on the Order Card. For more information on Order Cards see [View Order](#view-order).
 
 ![Order Receipt Example](../images/030-receipt-examplea.png)
 
@@ -142,10 +142,10 @@ Receipts include the following information:
 - The Order type. Types include **DELIVERY**, **COLLECTION** or **EAT-IN**.
 - Payment type.
 - The address and delivery comments with GPS coordinates, if the online ordering solutions sends the GPS coordinates to HubRise.
-- The delivery time confirmed by users to reflect the actual delivery time, if supported by the POS system. For more information, see **Settings > [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt)**.
+- The delivery time confirmed by users to reflect the actual delivery time, if supported by the POS system. For more information, see [Additional Data Prompt](../settings/#additional-data-prompt).
 - Deals are listed with the name of the deal followed by the list of products included in the deal.
 - Products the client ordered are grouped together with additions and exclusions listed in bullet points including:
-  - Standard items removed from the product are striked out with a solid line.
+  - Standard items removed from the product are struck out with a solid line.
   - Options.
   - Toppings or other additions.
 - Reference displays the Order number. Delivery date and time will display only if the confirmed delivery time differs from the original delivery time.

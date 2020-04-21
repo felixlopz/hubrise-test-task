@@ -20,7 +20,7 @@ The following options are available through the **Settings** menu:
 
 ## General
 
-The following options are available through **Settings >** **General**:
+The following options are available through **Settings** > **General**:
 
 - **Log Out**: The user terminates their OrderLine session.
 - **Language**: Select the user’s preferred Language. OrderLine supports **English**, **French**, and **Russian**.
@@ -31,7 +31,7 @@ The following options are available through **Settings >** **General**:
 
 ### Status Flow
 
-Orders are managed through their Status values. In **Settings > ORDER STATUS** users are able to set the status flow to customise how orders are managed.
+Orders are managed through their Status values. In **Settings** > **ORDER STATUS** users are able to set the status flow to customise how orders are managed.
 
 ![Settings status](../images/014-settings-order-status.png)
 
