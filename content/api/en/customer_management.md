@@ -292,7 +292,7 @@ Updates a customer.
 
 ### 2.5. Anonymize a customer
 
-Anonymizes a customer by deleting his/her personal information.
+Deletes a customer's personal information. 
 
 <CallSummaryTable
   endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
@@ -303,7 +303,9 @@ The anonymized fields are as follows: `email`, `first_name`, `last_name`, `gende
 
 When a customer is anonymized, the anonymized fields retun a `null` value and the `anonymized` boolean field is set to `true`.
 
-Anonymizing a customer also anonymizes his/her orders. The `customer` resource of an anonymized order are modified in the same way as described above.
+Anonymization cannot be reverted. Further updates of the anonymized fields will silently be ignored. The other fields (eg `custom_fields`) can still be updated though.
+
+Anonymizing a customer also anonymizes his/her orders. The `customer` resources of anonymized orders are modified in the same way as described above.
 
 When a customer is anonymized, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
 
