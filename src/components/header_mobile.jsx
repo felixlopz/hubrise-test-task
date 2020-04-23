@@ -84,11 +84,13 @@ const HeaderMobile = () => {
                 >
                   {t(`layout.header.buttons.signup`)}
                 </Link>
-                <button className="header__action-login">
-                  <Link to="https://manager.hubrise.com/login" newTab={false}>
-                    {t(`layout.header.buttons.login`)}
-                  </Link>
-                </button>
+                <Link
+                  className="header__action-login"
+                  to="https://manager.hubrise.com/login"
+                  newTab={false}
+                >
+                  {t(`layout.header.buttons.login`)}
+                </Link>
               </div>
             </nav>
           </div>

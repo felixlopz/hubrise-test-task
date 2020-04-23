@@ -79,14 +79,21 @@
   }
 
   &__action-login {
+    display: inline-block;
     padding: 0.6rem 1.5rem;
     border-radius: 3px;
     color: $white;
     background: $hr-green;
     font-size: 0.9375rem;
+    line-height: 15px;
     cursor: pointer;
-    & a {
+
+    &:hover {
       color: $white;
+    }
+
+    &:focus {
+      outline: none;
     }
   }
 
