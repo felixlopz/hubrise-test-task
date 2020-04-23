@@ -1,8 +1,8 @@
 layout:
   header:
     buttons:
-      signup: Sign up
-      login: Login
+      signup: Créez votre compte
+      login: Connexion
   footer:
     contacts:
       title: Contact

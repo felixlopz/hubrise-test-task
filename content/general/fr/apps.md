@@ -36,8 +36,8 @@ content:
           description: Kezia II est un logiciel de caisse développé par JDC, un leader français des solutions d'encaissement. Kezia II s'adapte à tous les types de commerces.
         - to: http://www.myorderboxhq.com
           logo: myorderbox.png
-          title: My Order Box
-          description: My Order Box est une solution d'encaissement facile à installer et à utiliser.
+          title: MyOrderBox
+          description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
           additional_info: Documentation en anglais.
         - to: http://www.logiciel-de-livraison.com
           logo: nestor.png
@@ -69,7 +69,7 @@ content:
           description: Zelty est une caisse enregistreuse sur iPad, offrant une solution complète et pensée pour les chaînes. La solution s'adapte cependant à tout type de restaurant.
     - title: Commande en ligne
       apps:
-        - to: https://www.app4takeaways.com
+        - to: https://www.app4.co.uk/
           logo: app4.png
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
@@ -128,12 +128,12 @@ content:
         - to: https://myemma.com
           logo: emma.png
           title: Emma
-          description: Emma est une solution d'envoi d'emails et de newsletter personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
+          description: Emma est une solution d'envoi d'emails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
           additional_info: Documentation en anglais.
         - to: https://mailchimp.com
           logo: mailchimp.png
           title: MailChimp
-          description: MailChimp est une solution d'envoi d'emails et de newsletter personnalisés.
+          description: MailChimp est une solution d'envoi d'emails et de newsletters personnalisés.
           additional_info: Documentation en anglais.
         - to: https://sailplay.com
           logo: sailplay.png
