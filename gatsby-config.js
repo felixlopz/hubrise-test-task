@@ -32,6 +32,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -45,9 +46,9 @@ module.exports = {
               withWebp: true,
               tracedSVG: true
             }
-          }
-        ],
-        plugins: [`gatsby-remark-images`]
+          },
+          `gatsby-remark-copy-linked-files`
+        ]
       }
     },
     {

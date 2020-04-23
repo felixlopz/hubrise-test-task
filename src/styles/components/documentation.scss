@@ -194,6 +194,10 @@
     }
   }
 
+  video {
+    max-width: 100%;
+  }
+
   &__optional {
     font-weight: normal;
     font-size: 0.625rem;

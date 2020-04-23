@@ -74,7 +74,7 @@ const DocumentationPage = ({ data, path, pageContext }) => {
           <SectionNavigation
             logo={images.nodes.find(({ base }) => base === logoBase)}
             currentPath={path}
-            title={currentPage.frontmatter.title}
+            title={chapterTitle}
             pages={pageNodes}
           />
           {gallery && (
@@ -174,7 +174,7 @@ DocumentationPage.propTypes = {
       nodes: PropTypes.arrayOf(
         PropTypes.shape({
           name: PropTypes.string.isRequired,
-          childImageSharp: PropTypes.object.isRequired
+          childImageSharp: PropTypes.object
         })
       )
     })

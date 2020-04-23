@@ -35,8 +35,8 @@ content:
           additional_info: Documentation in French.
         - to: http://www.myorderboxhq.com
           logo: myorderbox.png
-          title: My Order Box
-          description: My Order Box is an affordable cloud based Point of Sales for takeaway and restaurants. My Order Box is easy to install and get hands on.
+          title: MyOrderBox
+          description: MyOrderBox is an affordable cloud based Point of Sales for takeaway and restaurants. MyOrderBox is easy to install and get hands on.
         - to: http://www.logiciel-de-livraison.com
           logo: nestor.png
           title: Nestor
@@ -49,7 +49,7 @@ content:
         - to: https://www.orderlord.com
           logo: orderlord.png
           title: OrderLord POS
-          description: OrderLord provides a Point of Sale combined with a Delivery Mangement solution, kitchen screens and advanced reporting.
+          description: OrderLord provides a Point of Sale combined with a Delivery Management solution, kitchen screens and advanced reporting.
         - to: https://www.partech.com/pixel-point-software
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
@@ -89,7 +89,7 @@ content:
         - to: https://www.tastycloud.fr
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outside menu stands, dynamic screens, click and collect online ordering, and smartphone ordering with menu scan by QR codes.
+          description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
           additional_info: Integration in progress.
         - to: https://www.ubereats.com
           logo: ubereats.png

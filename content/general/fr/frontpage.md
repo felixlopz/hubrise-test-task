@@ -42,7 +42,7 @@ content:
   compatible_apps:
     title: De nouvelles applications tous les mois
     description:
-      paragraph_1: 'HubRise est connecté avec un nombre croissant de solutions : JDC/Kezia II, Nestor, My Order Box, OrderLord...'
+      paragraph_1: 'HubRise est connecté avec un nombre croissant de solutions : JDC/Kezia II, Nestor, MyOrderBox, OrderLord...'
       paragraph_2: D'autres intégrations sont en cours.
       link_1:
         text: Voir les applications disponibles
