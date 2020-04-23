@@ -5,7 +5,8 @@ import { I18nextProvider } from 'react-i18next'
 import {
   HighlightCode,
   CallSummaryTable,
-  ContactFormToggle
+  ContactFormToggle,
+  InlineImage
 } from '../../src/components/markdown'
 import Label from '../../src/components/markdown/label'
 import Link from '../../src/components/link'
@@ -31,29 +32,10 @@ let components = {
       code={props.children}
     />
   ),
-  inlineCode: ({ children }) => <HighlightCode inline code={children} />,
   CallSummaryTable,
   Label,
   ContactFormToggle,
-  InlineImage: ({ children, width, height }) => {
-    const convertToNumber = (value) => {
-      const num = Number(value)
-      return Number.isNaN(num) ? undefined : num
-    }
-    return (
-      <div
-        className="inline-image-container"
-        data-width={width}
-        data-height={height}
-        style={{
-          width: convertToNumber(width),
-          height: convertToNumber(height)
-        }}
-      >
-        {children}
-      </div>
-    )
-  }
+  InlineImage
 }
 
 export const wrapRootElement = ({ element }) => {
