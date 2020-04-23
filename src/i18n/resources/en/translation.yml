@@ -86,5 +86,5 @@ forms:
     name: Your name
     password: Password
   contact:
-    modal_title: Contact Us
     button: Send
+    modal_title: Contact Us
