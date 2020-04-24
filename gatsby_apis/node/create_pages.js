@@ -233,14 +233,18 @@ const createBlogPages = async ({ actions, graphql }) => {
 }
 
 const createRedirects = (actions) => {
-  Object.values(locales).forEach((locale) => {
-    const prefix = locale.default ? '' : `/${locale.code}`
-    actions.createRedirect({
-      fromPath: prefix + '/developers/api/',
-      toPath: prefix + '/developers/api/general-concepts/',
-      isPermanent: true,
-      redirectInBrowser: true
-    })
+  actions.createRedirect({
+    fromPath: '/developers/api/',
+    toPath: '/developers/api/general-concepts/',
+    isPermanent: true,
+    redirectInBrowser: true
+  })
+
+  actions.createRedirect({
+    fromPath: '/fr/developpeurs/api/',
+    toPath: '/fr/developpeurs/api/general-concepts/',
+    isPermanent: true,
+    redirectInBrowser: true
   })
 }
 
