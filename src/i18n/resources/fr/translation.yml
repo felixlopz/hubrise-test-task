@@ -1,7 +1,7 @@
 layout:
   header:
     buttons:
-      signup: Créez votre compte
+      signup: Nouveau compte
       login: Connexion
   footer:
     contacts:
