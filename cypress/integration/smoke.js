@@ -16,7 +16,14 @@ describe(`website`, () => {
 
       '/apps/myorderbox/installation',
       '/apps/myorderbox/integration_guide',
-      '/apps/myorderbox',
+      '/apps/myorderbox'
+    ]
+
+    const frenchPages = englishPages.map((page) => '/fr' + page)
+
+    const englishOnlyPages = [
+      '/pricing',
+      '/about',
 
       '/developers',
       '/developers/authentication',
@@ -31,11 +38,22 @@ describe(`website`, () => {
       '/developers/api/order_management'
     ]
 
-    const frenchPages = englishPages.map((page) => '/fr' + page)
+    const frenchOnlyPages = [
+      '/faq',
+      '/tarifs',
 
-    const englishOnlyPages = ['/pricing', '/about']
+      '/developpeurs',
+      '/developpeurs/authentication',
+      '/developpeurs/integration',
+      '/developpeurs/quick_start',
 
-    const frenchOnlyPages = ['/faq', '/tarifs'].map((page) => '/fr' + page)
+      '/developpeurs/api/account_management',
+      '/developpeurs/api/callbacks',
+      '/developpeurs/api/catalog_management',
+      '/developpeurs/api/extensions',
+      '/developpeurs/api/general_concepts',
+      '/developpeurs/api/order_management'
+    ].map((page) => '/fr' + page)
 
     englishPages
       .concat(englishOnlyPages, frenchPages, frenchOnlyPages)
@@ -60,7 +78,7 @@ describe(`website`, () => {
     cy.contains(`li`, `Apps`).click()
     cy.contains(`LivePepper`)
 
-    cy.visit(`/fr/developers/api/catalog-management`)
+    cy.visit(`/fr/developpeurs/api/catalog-management`)
     cy.get(`h2#skus a`).click()
     cy.url().should(`include`, `#skus`)
   })

@@ -16,7 +16,7 @@ layout:
       - title: Apps
         to: /apps
       - title: Développeurs
-        to: /developers
+        to: /developpeurs
       - title: Tarifs
         to: /tarifs
 #      - title: Blog
