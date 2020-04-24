@@ -3,6 +3,7 @@ layout: developers
 meta:
   title: Developers documentation - HubRise
   description:
+path_override: /
 content:
   hero:
     title: Connect Your Application to HubRise
@@ -18,7 +19,7 @@ content:
       icon: fa-fast-forward
     - title: API Reference
       description: The resources available in the API are documented here
-      to: /api/general-concepts
+      to: /developers/api/general-concepts
       icon: fa-cogs
     - title: Authentication
       description: Introduction to OAuth 2.0 and how it is implemented in HubRise

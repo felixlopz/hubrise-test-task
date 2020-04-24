@@ -2,10 +2,11 @@ import React, { useLayoutEffect, useRef, useState } from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
 import { useMedia } from 'react-use'
+import { useTranslation } from 'react-i18next'
 
-import { NonStretchedImage } from '../../components/image'
+import { NonStretchedImage } from '../image'
 import Link from '../../components/link'
-import { generateKey, createHeaderAnchor } from '../../components/utils'
+import { generateKey, createHeaderAnchor } from '../utils'
 
 const sortPagesAsc = (pages) => {
   return pages.sort((page1, page2) => {
@@ -35,6 +36,9 @@ export const SectionNavigation = ({ currentPath, pages, title, logo }) => {
   const containerRef = useRef()
   const isDesktop = useMedia('(min-width: 1024px)')
   const [currentTitle, setCurrentTitle] = useState(title)
+  const {
+    i18n: { language }
+  } = useTranslation()
 
   useLayoutEffect(() => {
     if (isDesktop && isFixed) {
@@ -119,8 +123,9 @@ export const SectionNavigation = ({ currentPath, pages, title, logo }) => {
           >
             {sortPagesAsc(pages).map(
               ({ frontmatter, fields, headings }, idx) => {
-                const { slug } = fields
-                const isCurrentPage = currentPath.endsWith(slug)
+                const { slug, localeSlugMap } = fields
+                const pageSlug = localeSlugMap[language] || slug
+                const isCurrentPage = currentPath.endsWith(pageSlug)
 
                 return (
                   <li
@@ -130,7 +135,7 @@ export const SectionNavigation = ({ currentPath, pages, title, logo }) => {
                     }`}
                   >
                     <Link
-                      to={slug}
+                      to={pageSlug}
                       className="content-nav__link"
                       onClick={
                         isDesktop ? undefined : () => setIsExpanded(false)

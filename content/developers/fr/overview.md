@@ -3,6 +3,7 @@ layout: developers
 meta:
   title: Documentation développeurs - HubRise
   description:
+path_override: /
 content:
   hero:
     title: Connectez votre application à HubRise
@@ -14,18 +15,18 @@ content:
   thumbs:
     - title: Démarrage rapide
       description: En 10 minutes, envoyez vos premières requêtes à l'API (en anglais)
-      to: /developers/quick-start
+      to: /developpeurs/quick-start
       icon: fa-fast-forward
     - title: Référence de l'API
       description: Toutes les ressources de l'API sont documentées ici (en anglais)
-      to: /api/general-concepts
+      to: /developpeurs/api/general-concepts
       icon: fa-cogs
     - title: Authentification
       description: Introduction à OAuth 2.0 et son implémentation dans HubRise (en anglais)
-      to: /developers/authentication
+      to: /developpeurs/authentication
       icon: fa-sign-out
     - title: Intégration
       description: Checklist d'intégration, couvrant plusieurs types d'applications (en anglais)
-      to: /developers/integration
+      to: /developpeurs/integration
       icon: fa-list-alt
 ---
