@@ -1,2 +1,2 @@
 name: Blog
-base_path: /blog
+path_override: blog

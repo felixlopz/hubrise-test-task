@@ -7,7 +7,7 @@ meta:
   description:
 ---
 
-- Open the My Order Box back-office https://go.myorderboxhq.com/
+- Open the MyOrderBox back-office https://go.myorderboxhq.com/
 
 - Navigate to `Setup` / `HubRise`
 

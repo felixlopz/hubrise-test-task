@@ -65,6 +65,8 @@ HubRise server sends the result of the authorization to the provided URL. If the
 https://myapp.com/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
 ```
 
+Once issued, the authorization code is valid for 10 minutes. 
+
 If the authorization fails, then the URL is called with an error message:
 
 ```http

@@ -26,18 +26,21 @@ const DocumentationPage = ({ data, path, pageContext }) => {
   const { title, gallery, app_info } = frontmatter
 
   function getBreadcrumbs() {
-    const rootLink =
-      i18n.language === 'fr'
-        ? { title: 'Développeurs', to: '/developpeurs' }
-        : { to: '/developers', title: 'Developers' }
+    const breadcrumbs = pageContext.breadcrumbs.map(
+      (breadcrumb, index, array) => {
+        let path = array
+          .slice(0, index + 1)
+          .map((breadcrumb) => breadcrumb.value)
+          .filter((part) => part !== '/')
+          .join('/')
 
-    return [
-      { id: 1, path: rootLink.to, label: rootLink.title },
-      pageContext.config.base_path === '/api'
-        ? { id: 2, path: firstPage.fields.slug, label: chapterTitle }
-        : null,
-      { id: 3, path: null, label: currentPage.frontmatter.title }
-    ].filter(Boolean)
+        path = path ? `/${path}/` : '/'
+        return { path, label: breadcrumb.label }
+      }
+    )
+    return breadcrumbs
+      .concat({ path: null, label: currentPage.frontmatter.title })
+      .map((breadcrumb, index) => ({ ...breadcrumb, id: index + 1 }))
   }
 
   const feedbackOptions = [
@@ -74,7 +77,7 @@ const DocumentationPage = ({ data, path, pageContext }) => {
           <SectionNavigation
             logo={images.nodes.find(({ base }) => base === logoBase)}
             currentPath={path}
-            title={currentPage.frontmatter.title}
+            title={chapterTitle}
             pages={pageNodes}
           />
           {gallery && (
@@ -121,6 +124,10 @@ export const documentationPageQuery = graphql`
         }
         fields {
           slug
+          localeSlugMap {
+            en
+            fr
+          }
         }
         headings {
           value
@@ -174,7 +181,7 @@ DocumentationPage.propTypes = {
       nodes: PropTypes.arrayOf(
         PropTypes.shape({
           name: PropTypes.string.isRequired,
-          childImageSharp: PropTypes.object.isRequired
+          childImageSharp: PropTypes.object
         })
       )
     })

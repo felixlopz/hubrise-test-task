@@ -1,12 +1,9 @@
 describe(`website`, () => {
   it(`doesn't crash and burn`, () => {
     const englishPages = [
-      '/api/account_management',
-      '/api/callbacks',
-      '/api/catalog_management',
-      '/api/extensions',
-      '/api/general_concepts',
-      '/api/order_management',
+      '/',
+
+      '/apps',
 
       '/apps/ikentoo/developer_guide',
       '/apps/ikentoo/installation',
@@ -19,31 +16,44 @@ describe(`website`, () => {
 
       '/apps/myorderbox/installation',
       '/apps/myorderbox/integration_guide',
-      '/apps/myorderbox',
-
-      '/developers/authentication',
-      '/developers/integration',
-      '/developers/quick_start',
-
-      '/apps',
-      '/'
+      '/apps/myorderbox'
     ]
 
     const frenchPages = englishPages.map((page) => '/fr' + page)
 
     const englishOnlyPages = [
-      '/developers',
       '/pricing',
-      '/about'
+      '/about',
+
+      '/developers',
+      '/developers/authentication',
+      '/developers/integration',
+      '/developers/quick_start',
+
+      '/developers/api/account_management',
+      '/developers/api/callbacks',
+      '/developers/api/catalog_management',
+      '/developers/api/extensions',
+      '/developers/api/general_concepts',
+      '/developers/api/order_management'
     ]
 
     const frenchOnlyPages = [
-      '/developpeurs',
       '/faq',
-      '/tarifs'
-    ].map(
-      (page) => '/fr' + page
-    )
+      '/tarifs',
+
+      '/developpeurs',
+      '/developpeurs/authentication',
+      '/developpeurs/integration',
+      '/developpeurs/quick_start',
+
+      '/developpeurs/api/account_management',
+      '/developpeurs/api/callbacks',
+      '/developpeurs/api/catalog_management',
+      '/developpeurs/api/extensions',
+      '/developpeurs/api/general_concepts',
+      '/developpeurs/api/order_management'
+    ].map((page) => '/fr' + page)
 
     englishPages
       .concat(englishOnlyPages, frenchPages, frenchOnlyPages)
@@ -58,7 +68,7 @@ describe(`website`, () => {
 
     cy.visit(`/`)
     cy.contains(`form`, `Create your account`)
-    cy.contains(`HubRise makes POS integration easy`)
+    cy.contains(`HubRise Makes POS Integration Easy`)
     cy.contains(`li`, `Developers`).click()
     cy.contains(`Contact us`).click()
     cy.get(`div[role="dialog"]`).should(`be.visible`)
@@ -68,7 +78,7 @@ describe(`website`, () => {
     cy.contains(`li`, `Apps`).click()
     cy.contains(`LivePepper`)
 
-    cy.visit(`/fr/api/catalog-management`)
+    cy.visit(`/fr/developpeurs/api/catalog-management`)
     cy.get(`h2#skus a`).click()
     cy.url().should(`include`, `#skus`)
   })

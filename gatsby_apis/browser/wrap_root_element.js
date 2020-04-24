@@ -5,7 +5,8 @@ import { I18nextProvider } from 'react-i18next'
 import {
   HighlightCode,
   CallSummaryTable,
-  ContactFormToggle
+  ContactFormToggle,
+  InlineImage
 } from '../../src/components/markdown'
 import Label from '../../src/components/markdown/label'
 import Link from '../../src/components/link'
@@ -31,10 +32,10 @@ let components = {
       code={props.children}
     />
   ),
-  inlineCode: ({ children }) => <HighlightCode inline code={children} />,
   CallSummaryTable,
   Label,
-  ContactFormToggle
+  ContactFormToggle,
+  InlineImage
 }
 
 export const wrapRootElement = ({ element }) => {
