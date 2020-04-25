@@ -25,13 +25,17 @@ To connect a new app to your HubRise Account:
 
 Some apps can be accessed from HubRise. If so, you can open the app by clicking the **CONNECTIONS** tab and selecting **Open** for the specific app. The app will open in a new browser window.
 
-![Connect an App.](../images/011-connections-open-app.webm)
+<video controls title="Connect an App">
+  <source src="../images/011-connections-open-app.webm" type="video/webm"/>
+</video>
 
 ## View App Activity
 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS > Actions > View Activity**. This is a handy way to see if transactions are going through the connection.
 
-![Display activity for a connected app.](../images/012-connections-display-activity.webm)
+<video controls title="Display activity for a connected app">
+  <source src="../images/012-connections-display-activity.webm" type="video/webm"/>
+</video>
 
 ## View App Logs
 
@@ -70,10 +74,14 @@ To view the full details of a logged request:
 
 For more information on logs, see [Understanding Logs in HubRise](https://www.hubrise.com/developers/understandinglogs).
 
-![Log details.](../images/013-connections-view-logs.webm)
+<video controls title="Log details">
+  <source src="../images/013-connections-view-logs.webm" type="video/webm"/>
+</video>
 
 ## Disconnect App
 
 Apps can be disconnected from your HubRise Account by selecting **CONNECTIONS > Actions**. Find the app in question, then click **Disconnect**.
 
-![Remove connection to an app.](../images/014-connections-remove-app.webm)
+<video controls title="Remove connection to an app">
+  <source src="../images/014-connections-remove-app.webm" type="video/webm"/>
+</video>

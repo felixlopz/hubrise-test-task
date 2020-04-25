@@ -17,13 +17,13 @@ HubRise is a middleware that connects third party solutions, providing a single 
 - eMarketing (SMS/Emailing)
 - Loyalty management
 - Food aggregators
-- And more, including a robust system to allow developers to connect other apps using the [HubRise public API](https://www.hubrise.com/developers).
+- And more, including a robust system to allow developers to connect other apps using the <Link to="/developers/api/">HubRise API</Link>.
 
 Transactions are saved into HubRise to provide apps real-time access to your data.
 
 Logs are made available for users and support teams to understand the workflow and check the status on each transaction. These logs are primarily aimed at developers, but are designed to be understood by anyone.
 
-HubRise offers a paid plan per Location. A free plan is provided with a limited quota of transactions. Once usage exceeds the free quota limit, Locations are required to upgrade their plan. For more details, see the [HubRise pricing page](https://www.hubrise.com/pricing).
+HubRise offers a paid plan per Location. A free plan is provided with a limited quota of transactions. Once usage exceeds the free quota limit, Locations are required to upgrade their plan. For more details, see our <Link to="/pricing/">pricing page</Link>.
 
 HubRise is available wherever you work and whatever device you use: your desktop browser, your tablet, or your smartphone.
 

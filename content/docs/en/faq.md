@@ -34,7 +34,9 @@ First, set your payment method:
 5. Enter your credit card information. Credit cards must be valid to be accepted.
 6. When finished, click **Save**.
 
-![Add payment type.](../images/040-settings-payment-add-payment-type.webm)
+<video controls title="Add payment type">
+  <source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/>
+</video>
 
 Once you have your credit card saved, your plan will upgrade automatically exceed your current plan. To validate the first payment, it is recommended for you to upgrade the plan manually and enter your CVC code when prompted.
 
@@ -56,7 +58,7 @@ First, set your payment method:
 2. Go to **SETTINGS > ACCOUNTS**.
 3. Select the Account to update. Users that only have one Account will have that one selected by default.
 4. If there is no existing payment method, click **Add payment method**. Enter your credit card information. Credit cards must be valid to be accepted.
-5. When finished, click **Save**.![Add payment type.](../images/040-settings-payment-add-payment-type.webm)
+5. When finished, click **Save**.<video controls title="Add payment type"><source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/></video>
 
 Once you have your credit card saved, your plan will upgrade automatically if you exceed your current plan. To validate the first payment, it is recommended for you to upgrade the plan manually and enter your CVC code when prompted.
 
@@ -81,7 +83,9 @@ HubRise provides the flexibility so you can set some Locations to use the Accoun
 4. If there is no existing payment method, click **Add payment method**. Enter your credit card information. Credit cards must be valid to be accepted.
 5. When finished, click **Save**.
 
-![Add payment type.](../images/040-settings-payment-add-payment-type.webm)
+<video controls title="Add payment type">
+  <source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/>
+</video>
 
 Once you have your credit card saved, your plan will upgrade automatically exceed your current plan. To validate the first payment, it is recommended for you to upgrade the plan manually and enter your CVC code when prompted.
 

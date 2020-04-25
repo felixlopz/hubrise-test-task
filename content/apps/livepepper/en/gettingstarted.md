@@ -39,4 +39,6 @@ To connect a single LivePepper site with a new HubRise Account:
 10. LivePepper will require access to the new HubRise Account and Location. Click **Allow**.˙
 11. The connection between your LivePepper site and your new HubRise Account will be complete.
 
-![Connect to HubRise example.](../images/008-connect-hubrise.webm)
+<video controls title="Connect to HubRise example">
+  <source src="../images/008-connect-hubrise.webm" type="video/webm"/>
+</video>

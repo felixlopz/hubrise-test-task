@@ -89,7 +89,9 @@ When creating a new Account, the first Location must be created at the same time
       8. **City**.
 3. When finished, click **Create**.
 
-![Create an Account.](../images/038-settings-account-create-account.webm)
+<video controls title="Create an Account">
+  <source src="../images/038-settings-account-create-account.webm" type="video/webm"/>
+</video>
 
 #### Modify an Account
 
@@ -115,7 +117,9 @@ To modify an existing Account:
 
 - **IMPORTANT NOTE**: The VAT number is a legal requirement. HubRise will display a notification to update the VAT number if this information is missing from your Account.
 
-![Change account information.](../images/019-settings-account-change-account-name.webm)
+<video controls title="Change account information">
+  <source src="../images/019-settings-account-change-account-name.webm" type="video/webm"/>
+</video>
 
 ### Locations
 
@@ -159,7 +163,9 @@ To add a new Locations to an existing Account:
    6. **City**.
 5. Click **Add a new location** to save the new values.
 
-![Add Location example.](../images/020-settings-account-locations-add-location.webm)
+<video controls title="Add Location example">
+  <source src="../images/020-settings-account-locations-add-location.webm" type="video/webm"/>
+</video>
 
 #### Updating Location Details
 
@@ -252,7 +258,9 @@ To change whether your Location uses your HubRise Account payment method, or whe
    1. To set a location that uses its own payment method to use the same payment method as its Account, click **Make the account pay for the subscription**.
    2. If the location uses the same payment method as the Account and you want it to have a separate payment method, click click **Make the location pay for it**.
 
-![Payment by Account or Location example.](../images/042-settings-payment-byaccount-bylocation.webm)
+<video controls title="Payment by Account or Location example">
+  <source src="../images/042-settings-payment-byaccount-bylocation.webm" type="video/webm"/>
+</video>
 
 #### Add or Change Payment Method
 
@@ -263,7 +271,7 @@ To update your payment method for an Account or Location:
    2. To update the payment method for a Location, select the Account, then select the Location, and scroll down to the Payment section.
 2. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
 3. Enter your credit card information. Credit cards must be valid to be accepted.
-4. When finished, click **Save**.![Add payment type.](../images/040-settings-payment-add-payment-type.webm)
+4. When finished, click **Save**. <video controls title="Add payment type"><source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/></video>
 
 #### Process Pending Quotes
 
@@ -274,7 +282,9 @@ To process a payment from the notification:
 1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Payment](##payment).
 2. Click **View the earliest quote **link, then click **Pay**. To check on all unpaid quotes, click **check your account** from the notification.
 
-![Pay subscription example.](../images/022-pay-subscription.webm)
+<video controls title="Pay subscription example">
+  <source src="../images/022-pay-subscription.webm" type="video/webm"/>
+</video>
 
 #### Payment History
 
@@ -326,7 +336,9 @@ To add a user:
 4. In the **ROLE** column, set the new user’s role as Admin or Manager.
 5. Click the plus icon ![Plus icon.](../images/Hubrise-add-icon.png) to add the new user.
 
-![Add user example.](../images/023-permissions-add-user.webm)
+<video controls title="Add user example">
+  <source src="../images/023-permissions-add-user.webm" type="video/webm"/>
+</video>
 
 #### Remove a User
 
@@ -337,7 +349,9 @@ To remove a user:
 
 - **IMPORTANT NOTE**: You can not remove your own user profile from **Permissions**. To remove your profile from an Account, set another user as an Admin, and have them remove your profile from the Account.
 
-![Remove a user example.](../images/024-permissions-remove-user.webm)
+<video controls title="Remove a user example">
+  <source src="../images/024-permissions-remove-user.webm" type="video/webm"/>
+</video>
 
 ### Catalogs
 
@@ -377,7 +391,9 @@ The following information is displayed in the **SETTINGS** > **ACCOUNTS** > **Ca
 
 To view the contents of a Catalog, click the name of the Catalog. It will connect you to the **DATA** > **Catalog** screen for the specific Catalog.
 
-![Catalog link example.](../images/045-catalog-link.webm)
+<video controls title="Catalog link example">
+  <source src="../images/045-catalog-link.webm" type="video/webm"/>
+</video>
 
 #### Edit a Catalog
 
@@ -438,7 +454,9 @@ To add a customer list:
 
 To view the details of a customer list, click the name of the list. It will automatically link you to the **DATA** > **Customers** page for the specific list.
 
-![Customer list link.](../images/049-access-account-from-dashboard.webm)
+<video controls title="Customer list link">
+  <source src="../images/049-access-account-from-dashboard.webm" type="video/webm"/>
+</video>
 
 #### Edit a customer list
 

@@ -18,7 +18,9 @@ To connect your LivePepper branch to an existing HubRise Account:
 5. If prompted, login to your existing HubRise user profile.
 6. Select the HubRise **Account** and **Location** to connect your LivePepper site to, then click **Allow**.
 
-![Connect to HubRise.](../images/008-connect-hubrise.webm)
+<video controls title="Connect to HubRise">
+  <source src="../images/008-connect-hubrise.webm" type="video/webm"/>
+</video>
 
 ## Connect LivePepper to HubRise: Multiple Branches to multiple HubRise Accounts
 
@@ -49,7 +51,9 @@ To connect multiple Livepepper branches with multiple established HubRise Accoun
 
 7. The connection between the LivePepper Site and branch will be complete. Repeat the steps above for each site and branch to connect.
 
-![Connect from multiple sites.](../images/021-connect-multiple-sites-hubrise.webm)
+<video controls title="Connect from multiple sites">
+  <source src="../images/021-connect-multiple-sites-hubrise.webm" type="video/webm"/>
+</video>
 
 ## How Can I Use LivePepper to Create Test Orders?
 

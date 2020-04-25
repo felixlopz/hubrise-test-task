@@ -35,7 +35,8 @@ let components = {
   CallSummaryTable,
   Label,
   ContactFormToggle,
-  InlineImage
+  InlineImage,
+  Link
 }
 
 export const wrapRootElement = ({ element }) => {

@@ -44,12 +44,14 @@ To import from a HubRise Catalog into LivePepper:
 1. LivePepper must be connected to a HubRise Account and Location. For instructions on this process, see Getting Started(#/apps/livepepper/troubleshooting/).
 2. From LivePepper, click **Menu > Import/Export**.
 3. Scroll down to HubRise connection and click **Import**.
-4. Authenticate your credentials and click **Import from Hubrise**.
+4. Authenticate your credentials and click **Import from HubRise**.
 5. The import process will **remove your current products and replace them** with the ones from your HubRise catalog.
 
 In this example, one of the sizes for the Coke offerings was removed from LivePepper, and then restored when imported from the connected HubRise catalog along with its POS code.
 
-![Import HubRise Catalog.](../images/009-import-hubrise-catalog.webm)
+<video controls title="Import HubRise Catalog">
+  <source src="../images/009-import-hubrise-catalog.webm" type="video/webm"/>
+</video>
 
 ## Manual Catalog POS Code Mapping
 
@@ -67,7 +69,9 @@ To update the POS code for each product and its prices & availability:
 2. For each value in the **Price & Availability** section, update the POS code.
 3. Click **Save** when complete.
 
-![Update Product POS Code.](../images/016-product-pos-code-update.webm)
+<video controls title="Update Product POS Code">
+  <source src="../images/016-product-pos-code-update.webm" type="video/webm"/>
+</video>
 
 ### Add POS Codes to Toppings, Variants, Ingredients, and Options
 
@@ -84,7 +88,9 @@ To update the POS code for each product ingredient:
    2. Click **Use POS codes above**. If the toppings share the same cost and availability, those options can be checked as well.
 6. When finished, click **Save**.
 
-![Update Ingredients POS Code.](../images/018-ingredients-pos-code-update.webm)
+<video controls title="Update Ingredients POS Code">
+  <source src="../images/018-ingredients-pos-code-update.webm" type="video/webm"/>
+</video>
 
 ### Add POS Codes to Deals
 
@@ -97,7 +103,9 @@ To add a POS Code to a deal:
 3. Under **Advanced Settings**, set the POS code.
 4. Click **Save** when finished.
 
-![Update Deals POS Code.](../images/019-deals-pos-code-update.webm)
+<video controls title="Update Deals POS Code">
+  <source src="../images/019-deals-pos-code-update.webm" type="video/webm"/>
+</video>
 \*IMPORTANT NOTE: Depending on your EPOS, Deals may be transmitted to the EPOS without a POS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
 
 ## Add POS Codes to Payment Methods
@@ -112,7 +120,9 @@ To add a POS Code to a Payment Method:
 4. Enter the **POS code**.
 5. Click **Save**.
 
-![Add POS Code to Payment Method.](../images/024-payment-method-add-pos-code.webm)
+<video controls title="Add POS Code to Payment Method">
+  <source src="../images/024-payment-method-add-pos-code.webm" type="video/webm"/>
+</video>
 
 ## Add POS Codes to Service Type
 
@@ -128,7 +138,9 @@ To add a POS Code to a Delivery charge:
 2. Add the POS code to the Delivery charge POS code.
 3. Click **Save** when complete.
 
-![Add POS to Delivery Method.](../images/025-delivery-method-add-pos.webm)
+<video controls title="Add POS to Delivery Method">
+  <source src="../images/025-delivery-method-add-pos.webm" type="video/webm"/>
+</video>
 
 ## Export Menu to HubRise Catalog
 
@@ -143,4 +155,6 @@ To export your LivePepper products to a HubRise catalog:
 3. The HubRise connection will be listed. Click **Export**.
 4. The HubRise catalog will be updated.
 
-![Export to HubRise Catalog.](../images/006-export-to-hubrise-catalog.webm)
+<video controls title="Export to HubRise Catalog">
+  <source src="../images/006-export-to-hubrise-catalog.webm" type="video/webm"/>
+</video>

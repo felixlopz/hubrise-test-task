@@ -27,7 +27,9 @@ To filter orders by start and end date:
 4. Click on the date of the order to view full details.
 5. To view the full details of the request, click the date and time. For more information see [Logs](#logs).
 
-![Filter Orders by date.](../images/016-data-filter-orders-by-date.webm)
+<video controls title="Filter Orders by date">
+  <source src="../images/016-data-filter-orders-by-date.webm" type="video/webm"/>
+</video>
 
 ## Customers
 
@@ -48,7 +50,9 @@ To filter customers by name or email address:
 5. To see full details of a customer, click the customer name.
 6. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](#logs).
 
-![Filter customers.](../images/029-filter-customers.webm)
+<video controls title="Filter customers">
+  <source src="../images/029-filter-customers.webm" type="video/webm"/>
+</video>
 
 ## Catalogs
 
@@ -78,7 +82,9 @@ Depending on which tab is selected, the following attributes are available:
 
 To see full log file details of all requests effecting catalogs, click **View logs**. For more information see [Logs](#logs).
 
-![Catalog tabs.](../images/039-data-catalog-tabs.webm)
+<video controls title="Catalog tabs">
+  <source src="../images/039-data-catalog-tabs.webm" type="video/webm"/>
+</video>
 
 ## Logs
 
@@ -104,4 +110,6 @@ Further log details are available for advanced users and developers to view app 
 
 For more information on log files and their structure, see the [HubRise API Reference page](https://www.hubrise.com/fr/api/general-concepts/). For a complete reference on the JSON format used for HubRise communications, see [Understanding Logs in HubRise](https://www.hubrise.com/developers/understandinglogs/).
 
-![View logs example.](../images/037-data-customers-view-logs.webm)
+<video controls title="View logs example">
+  <source src="../images/037-data-customers-view-logs.webm" type="video/webm"/>
+</video>
