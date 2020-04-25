@@ -9,7 +9,9 @@ path_override: /
 app_info:
   category: POS
   availability: UK
+  price_range:
   website: https://www.myorderboxhq.com
+  contact:
 ---
 
 ## Description

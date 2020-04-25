@@ -12,8 +12,8 @@ path_override: /
 app_info:
   category: Online ordering
   availability: Worldwide
-  website: https://www.livepepper.com
   price_range: £69-£109 / month
+  website: https://www.livepepper.com
   contact: contact@livepepper.com / +33 4 92 38 09 82
 ---
 

@@ -11,6 +11,8 @@ app_info:
   category: Other apps
   availability: Worldwide
   price_range: Free
+  website:
+  contact:
 ---
 
 OrderLine is used to manage and print orders that may originate from systems integrated with HubRise such as:
