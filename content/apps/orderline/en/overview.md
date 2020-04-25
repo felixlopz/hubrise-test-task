@@ -8,11 +8,9 @@ meta:
 gallery:
 path_override: /
 app_info:
-  category: Online ordering
+  category: Other apps
   availability: Worldwide
-  website: livepepper.com
-  price_range: £69-£109 / month
-  contact: contact@livepepper.com
+  price_range: Free
 ---
 
 OrderLine is used to manage and print orders that may originate from systems integrated with HubRise such as:

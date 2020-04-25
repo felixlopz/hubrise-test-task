@@ -5,16 +5,7 @@ layout: documentation
 meta:
   title: HubRise Technical Documentation Overview
   description: Overview of HubRise.
-gallery:
-  - pizza-hut.png
-  - papajohns.png
 path_override: /
-app_info:
-  category: Application integration
-  availability: Worldwide
-  website: hubsite.com
-  price_range: £69-£109 / month
-  contact: contact@livepepper.com
 ---
 
 HubRise is a middleware that connects third party solutions, providing a single interface to an ever growing ecosystem of integrated applications including:

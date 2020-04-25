@@ -12,9 +12,9 @@ path_override: /
 app_info:
   category: Online ordering
   availability: Worldwide
-  website: livepepper.com
+  website: https://www.livepepper.com
   price_range: £69-£109 / month
-  contact: contact@livepepper.com
+  contact: contact@livepepper.com / +33 4 92 38 09 82
 ---
 
 ## Description
@@ -26,21 +26,20 @@ LivePepper clients are mainly located in France and the UK, but the system opera
 LivePepper can create a full site including static marketing pages and online ordering. Restaurants can also incorporate LivePepper’s online ordering module into an existing marketing website. Sites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
 
 LivePepper comes with a rich palette of features including but not limited to:
-
-*Deals
-*Promotions
-*Coupons
-*Upselling
-*Loyalty programs
-*Favorites list
-*Multilingual user interface
-*Google Maps integration
-*Order status notification by email and SMS
-*Multiple one click payment options
-*Rush hour management
-*Driver tips
-*Referral programs
-*And more
+* Deals
+* Promotions
+* Coupons
+* Upselling
+* Loyalty programs
+* Favorites list
+* Multilingual user interface
+* Google Maps integration
+* Order status notification by email and SMS
+* Multiple one click payment options
+* Rush hour management
+* Driver tips
+* Referral programs
+* And more
 
 Restaurants have complete control over their LivePepper site. They can make changes to their menu, set up promotions, set business hours and vacation periods, delivery times, or other settings to best fit their needs.
 
