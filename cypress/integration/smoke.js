@@ -5,18 +5,17 @@ describe(`website`, () => {
 
       '/apps',
 
+      '/apps/ikentoo',
       '/apps/ikentoo/developer_guide',
       '/apps/ikentoo/installation',
       '/apps/ikentoo/integration_guide',
-      '/apps/ikentoo',
 
-      '/apps/livepepper/installation',
-      '/apps/livepepper/integration_guide',
       '/apps/livepepper',
+      '/apps/livepepper/integration_guide',
 
+      '/apps/myorderbox',
       '/apps/myorderbox/installation',
-      '/apps/myorderbox/integration_guide',
-      '/apps/myorderbox'
+      '/apps/myorderbox/integration_guide'
     ]
 
     const frenchPages = englishPages.map((page) => '/fr' + page)
