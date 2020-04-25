@@ -51,10 +51,6 @@ To connect multiple Livepepper branches with multiple established HubRise Accoun
 
 7. The connection between the LivePepper Site and branch will be complete. Repeat the steps above for each site and branch to connect.
 
-<video controls title="Connect from multiple sites">
-  <source src="../images/021-connect-multiple-sites-hubrise.webm" type="video/webm"/>
-</video>
-
 ## How Can I Use LivePepper to Create Test Orders?
 
 If you have an app connected to HubRise and want to verify that orders can be successfully submitted, LivePepper is an effective solution. LivePepper provides a free 30 day demo that can be extended upon request.
