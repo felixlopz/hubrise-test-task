@@ -11,6 +11,8 @@ const newTabProps = {
 }
 
 const Link = ({ to: initialTo, children, newTab, ...other }) => {
+  if (!initialTo) return ""
+
   const leadsToInternalPage = initialTo.startsWith(`/`)
   const leadsToDashboard = initialTo.includes(`manager.hubrise.com`)
   const isAnchorWithinCurrentPage = initialTo.startsWith(`#`)
@@ -27,17 +29,17 @@ const Link = ({ to: initialTo, children, newTab, ...other }) => {
         {children}
       </GatsbyLink>
     )
+  } else {
+    return (
+      <a
+        href={to}
+        {...(newTab && !isAnchorWithinCurrentPage && newTabProps)}
+        {...other}
+      >
+        {children}
+      </a>
+    )
   }
-
-  return (
-    <a
-      href={to}
-      {...(newTab && !isAnchorWithinCurrentPage && newTabProps)}
-      {...other}
-    >
-      {children}
-    </a>
-  )
 }
 
 Link.propTypes = {

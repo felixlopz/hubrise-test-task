@@ -8,6 +8,8 @@ export const AppInfo = ({ content }) => {
     <div className="section__content app-info">
       <ul className="app-info__list">
         {Object.entries(content).map(([label, value]) => {
+          if (!value) return ""
+
           const labelWithSpaces = label.split(`_`).join(` `)
           const capitalizedLabel =
             labelWithSpaces[0].toUpperCase() + labelWithSpaces.slice(1)
