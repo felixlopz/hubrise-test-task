@@ -16,7 +16,7 @@ The **DATA** > **ORDERS** page displays records in reverse chronological order. 
 - **Date, time and Unique ID**: The date, time, and unique identifier for the order.
 - **Customer**: The customer that made the order.
 - **Amount**: The total amount of the order.
-- **Status**: The current status of the order. For an overview of possible statuses, see the [Order status section](https://www.hubrise.com/fr/api/order-management/#order-status) of the HubRise API Order Management page.
+- **Status**: The current status of the order. For an overview of possible statuses, see the [Order status section](/api/order-management/#order-status) of the HubRise API Order Management page.
 - **Origin:** What app the order was generated from.
 
 To filter orders by start and end date:
@@ -100,7 +100,7 @@ The log page displays a summary list of requests in reverse chronological order.
 - **PATH**: The URL path for the update.
 - **CODE**: The HTTP response.
 
-For a complete reference on API requests in HubRise, see [Understanding Logs in HubRise: Introduction to API Requests](https://www.hubrise.com/developers/understandinglogs/#introduction-to-api-requests).
+For a complete reference on API requests in HubRise, see [Understanding Logs in HubRise: Introduction to API Requests](/docs/understanding-logs/#introduction-to-api-requests).
 
 Further log details are available for advanced users and developers to view app communications and troubleshoot issues. To view details for a log entry:
 
@@ -108,7 +108,7 @@ Further log details are available for advanced users and developers to view app 
 
 2. To download either the query or response, select the download icon ![Download icon.](../images/download.png). The selected query or response will be provided as a JSON file.
 
-For more information on log files and their structure, see the [HubRise API Reference page](https://www.hubrise.com/fr/api/general-concepts/). For a complete reference on the JSON format used for HubRise communications, see [Understanding Logs in HubRise](https://www.hubrise.com/developers/understandinglogs/).
+For more information on log files and their structure, see the [HubRise API Reference page](/api/). For a complete reference on the JSON format used for HubRise communications, see [Understanding Logs in HubRise](https://www.hubrise.com/developers/understandinglogs/).
 
 <video controls title="View logs example">
   <source src="../images/037-data-customers-view-logs.webm" type="video/webm"/>

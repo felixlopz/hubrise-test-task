@@ -59,7 +59,7 @@ Each log record includes:
 - **Path**: The URL path for the request.
 - **Response**: The HTTP response codes.
 
-For more information on log files and their structure, see the [HubRise API Reference page](https://www.hubrise.com/fr/api/general-concepts/). For a complete reference on API requests in HubRise see [Understanding Logs in HubRise: Introduction to API Requests](https://www.hubrise.com/developers/understandinglogs/#introduction-to-api-requests).
+For more information on log files and their structure, see the [HubRise API Reference page](/api/). For a complete reference on API requests in HubRise see [Understanding Logs in HubRise: Introduction to API Requests](https://www.hubrise.com/developers/understandinglogs/#introduction-to-api-requests).
 
 Logs can be filtered by resource and method through the following process:
 
@@ -72,7 +72,7 @@ To view the full details of a logged request:
 2. A full list of the query and response will be displayed.
 3. To download either the query or response, select the download icon ![Download icon.](../images/download.png). The selected query or response will be provided as a JSON file.
 
-For more information on logs, see [Understanding Logs in HubRise](https://www.hubrise.com/developers/understandinglogs).
+For more information on logs, see [Understanding Logs in HubRise](/docs/understanding-logs).
 
 <video controls title="Log details">
   <source src="../images/013-connections-view-logs.webm" type="video/webm"/>
