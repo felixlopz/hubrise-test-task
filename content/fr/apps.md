@@ -3,7 +3,6 @@ layout: apps
 meta:
   title: Applications intégrées - HubRise
   description:
-path_override: /
 content:
   hero:
     title: Applications intégrées
