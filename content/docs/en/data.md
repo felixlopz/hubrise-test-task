@@ -7,7 +7,7 @@ meta:
   description: How connections to HubRise can be managed.
 ---
 
-The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](gettingstarted/#accounts-and-locations).
+The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](getting-started/#accounts-and-locations).
 
 ## Orders
 
@@ -25,7 +25,7 @@ To filter orders by start and end date:
 2. Select the search icon ![Search icon.](../images/search.png) to filter records by these dates.
 3. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon ![Search icon.](../images/search.png).
 4. Click on the date of the order to view full details.
-5. To view the full details of the request, click the date and time. For more information see [Logs](#logs).
+5. To view the full details of the request, click the date and time. For more information see [Logs](/docs/#logs).
 
 <video controls title="Filter Orders by date">
   <source src="../images/016-data-filter-orders-by-date.webm" type="video/webm"/>
@@ -48,7 +48,7 @@ To filter customers by name or email address:
 3. Select the search icon to filter the customer records.
 4. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon ![Search icon.](../images/search.png).
 5. To see full details of a customer, click the customer name.
-6. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](#logs).
+6. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](/docs/#logs).
 
 <video controls title="Filter customers">
   <source src="../images/029-filter-customers.webm" type="video/webm"/>
@@ -62,7 +62,7 @@ From the Catalogs page, you can view the catalogs imported into HubRise and the 
 
 ### View Catalog
 
-The Catalog displayed is set by the Account and Location selected at the top of the page. For more information on setting the Account and Display to display, see [Accounts and Locations](../gettingstarted/#accounts-and-locations).
+The Catalog displayed is set by the Account and Location selected at the top of the page. For more information on setting the Account and Display to display, see [Accounts and Locations](/docs/getting-started/#accounts-and-locations).
 
 Accounts and Locations can contain multiple Catalogs. To display the specific Catalog, select it from the dropdown list next to the title **Catalogs**.
 
@@ -80,7 +80,7 @@ Depending on which tab is selected, the following attributes are available:
 - **VARIANT**: The SKU or product size. For example, the product reference may be **boots_waterproof_size_28_black**, with the name **Waterproof boots**, and the variant as **Size 28 **and** black **colour. Another set of boots may have the reference **boots_waterproof_size_32_brown, **the name **Waterproof boots**, and the variant as **Size 32 **and** brown **colour.
 - **PRICE**: The price of the product, and the currency used.
 
-To see full log file details of all requests effecting catalogs, click **View logs**. For more information see [Logs](#logs).
+To see full log file details of all requests effecting catalogs, click **View logs**. For more information see [Logs](/docs/#logs).
 
 <video controls title="Catalog tabs">
   <source src="../images/039-data-catalog-tabs.webm" type="video/webm"/>

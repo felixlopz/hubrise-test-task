@@ -25,7 +25,7 @@ Verifying your connection between LivePepper and HubRise involves tracking the p
 
 The first step in verifying the connection between LivePepper and HubRise is by creating test orders.
 
-These steps require that you have already connected LivePepper to HubRise. For more information on connecting LivePepper to HubRise, see [Getting Started](../gettingstarted/).
+These steps require that you have already connected LivePepper to HubRise. For more information on connecting LivePepper to HubRise, see [Getting Started](/apps/livepepper/getting-started/).
 
 Once the connection is complete, test orders generated from LivePepper will be transmitted to HubRise. Follow this process to create a test order and verify it has been transmitted to HubRise.
 

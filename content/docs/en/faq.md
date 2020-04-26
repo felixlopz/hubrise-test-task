@@ -19,7 +19,7 @@ If the payment method is not set two weeks after the first email alert is sent, 
 
 If you know that you will have more transactions than the current plan provides, you can upgrade the plan before being notified. The upgraded plan will not begin until your Account exceeds the free quota limitation, even if you have selected the upgraded tier level and set your payment method.
 
-More information is available at [Usage](../settings/#usage).
+More information is available at [Usage](/docs/settings/#usage).
 
 ## My Quota is Exceeded and I Have One Location. How do I Pay?
 
@@ -115,11 +115,11 @@ If you meet one of these criterias, contact [support@hubrise.com](mailto:support
 
 ## There are ways to manage these extra Accounts.
 
-- Update the name of the Accounts to more easily differentiate them. For example, if you created Accounts to test connections, you might add **Test** to their name. For more information on renaming Accounts, see [Accounts](../settings/#accounts).
+- Update the name of the Accounts to more easily differentiate them. For example, if you created Accounts to test connections, you might add **Test** to their name. For more information on renaming Accounts, see [Accounts](/docs/settings/#accounts).
 - Removing your profile from an Account will prevent you from seeing it:
   - Register a HubRise user with a different email address.
-  - Add that secondary user as an Admin for the Account. For information on creating user profiles, see [Permissions](settings/#permissions).
-  - Remove your permission to the Account. For more information on removing a user from an Account, see [Permissions](settings/#permissions).
+  - Add that secondary user as an Admin for the Account. For information on creating user profiles, see [Permissions](/docs/settings/#permissions).
+  - Remove your permission to the Account. For more information on removing a user from an Account, see [Permissions](/docs/settings/#permissions).
 
 ## How Do I know If I have a User profile in HubRise?
 
@@ -149,7 +149,7 @@ If orders are being made in an connected app, they can be viewed in HubRise thro
 2. At the top of the page, select the **Account** and in **Location** choose either **All locations** or the specific location to view.
 3. If transactions are coming through you will see them here. Orders are displayed in reverse chronological order.
 
-For more details, see [Orders](../data/#orders).
+For more details, see [Orders](/docs/data/#orders).
 
 ### View the App Activity
 
@@ -158,7 +158,7 @@ Each app displays the most recent activity as a graph. To check the activity for
 1. Click **CONNECTIONS**.
 2. For the specific App, click **Actions > View activity**.
 
-For more information, see [View App Activity](../connections/#view-app-activity).
+For more information, see [View App Activity](/docs/connections/#view-app-activity).
 
 ### View the App Logs
 
@@ -167,7 +167,7 @@ Apps connected to HubRise provide logs that help display the most recent request
 1. Click **CONNECTIONS**.
 2. For the specific App, click **Actions > View logs**.
 
-For more information, view [View App Logs](../connections/#view-app-logs)
+For more information, view [View App Logs](/docs/connections/#view-app-logs)
 
 ### Still Need Help?
 

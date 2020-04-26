@@ -73,4 +73,4 @@ To use LivePepper to create test orders:
 12. From HubRise, click **Orders**. The new order will be displayed.
 13. Click the new order to verify the information is accurate.
 
-For more information on setting up LivePepper with HubRise, see [Getting Started](../gettingstarted/). For information on troubleshooting the connection between LivePepper and HubRise, see [Troubleshooting](../troubleshooting/).
+For more information on setting up LivePepper with HubRise, see [Getting Started](/apps/livepepper/getting-started/). For information on troubleshooting the connection between LivePepper and HubRise, see [Troubleshooting](/apps/livepepper/troubleshooting/).
