@@ -9,8 +9,9 @@ path_override: /
 app_info:
   category: POS
   availability: France, Switzerland, UK
-  website: www.ikentoo.com
-  
+  price_range:
+  website: https://www.ikentoo.com
+  contact:
 ---
 
 ## Description

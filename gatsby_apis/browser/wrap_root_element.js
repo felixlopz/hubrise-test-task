@@ -3,12 +3,12 @@ import { MDXProvider } from '@mdx-js/react'
 import { I18nextProvider } from 'react-i18next'
 
 import {
-  HighlightCode,
   CallSummaryTable,
   ContactFormToggle,
-  InlineImage
+  HighlightCode,
+  InlineImage,
+  Label
 } from '../../src/components/markdown'
-import Label from '../../src/components/markdown/label'
 import Link from '../../src/components/link'
 
 import { LayoutProvider } from '../../src/context/layout'
@@ -35,7 +35,8 @@ let components = {
   CallSummaryTable,
   Label,
   ContactFormToggle,
-  InlineImage
+  InlineImage,
+  Link
 }
 
 export const wrapRootElement = ({ element }) => {
