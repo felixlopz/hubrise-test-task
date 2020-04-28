@@ -101,7 +101,7 @@ Creates a callback for the connection.
 | `events` | map    | A map with the keys being _resource type_ and the values being the *event type*s to monitor. |
 
 - _resource type_ is one of: `order`, `customer`, `location`, `catalog` and `inventory`.
-- _event type_ is one of: `create`, `update`, `patch` and `upload`.
+- _event type_ is one of: `create`, `update` and `patch`.
 
 The allowed combinations are:
 
@@ -110,7 +110,8 @@ The allowed combinations are:
 - `customer.create`
 - `customer.update`
 - `location.update`
-- `catalog.upload`
+- `catalog.create`
+- `catalog.update`
 - `inventory.patch`
 - `inventory.update`
 
