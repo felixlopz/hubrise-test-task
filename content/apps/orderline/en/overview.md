@@ -6,6 +6,9 @@ meta:
   title: OrderLine Overview
   description: Details the use and functionality of OrderLine to manage online and retail stores.
 gallery:
+  - 001-desktop-viewa.png
+  - 003-tablet-view.png
+  - 002-mobilephone-view.png
 path_override: /
 app_info:
   category: Other apps
@@ -22,14 +25,7 @@ OrderLine is used to manage and print orders that may originate from systems int
 - On-site self-ordering kiosks.
 - Digitals menus available at the client’s table.
 
-OrderLine is available through different devices as displayed below.
-
-- Computers (Windows or MAC)
-  ![Computer desktop browser view](../images/001-desktop-viewa.png)
-- Tablets
-  ![Tablet browser view](../images/003-tablet-view.png)
-- Smartphones
-  ![Mobile Phone browser view](../images/002-mobilephone-view.png)
+OrderLine is available on computers, tablets and smartphones.
 
 It assists single stores, restaurants, and franchises to manage orders received when the EPOS system is not integrated. OrderLine supports delivery, collection, and stay-in options.
 
