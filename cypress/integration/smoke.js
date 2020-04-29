@@ -22,7 +22,6 @@ describe(`website`, () => {
 
     const englishOnlyPages = [
       '/pricing',
-      '/about',
 
       '/developers',
       '/developers/authentication',
