@@ -15,10 +15,12 @@ layout:
         to: /
       - title: Apps
         to: /apps
-      - title: Developers
-        to: /developers
       - title: Pricing
         to: /pricing
+      - title: Developers
+        to: /developers
+#      - title: Help
+#        to: /docs
 #      - title: Blog
 #        to: /blog
 

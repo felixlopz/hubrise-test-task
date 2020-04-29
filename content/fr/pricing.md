@@ -1,5 +1,6 @@
 ---
 layout: pricing
+path_override: tarifs
 meta:
   title: Tarifs - HubRise
   description:

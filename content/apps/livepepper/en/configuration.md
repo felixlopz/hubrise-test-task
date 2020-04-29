@@ -150,7 +150,7 @@ If needed, your LivePepper menu can be exported to your HubRise account catalog 
 
 To export your LivePepper products to a HubRise catalog:
 
-1. LivePepper must be connected to a HubRise Account and Location. For instructions on this process, see [Getting Started](../gettingstarted/).
+1. LivePepper must be connected to a HubRise Account and Location. For instructions on this process, see [Getting Started](/apps/livepepper/getting-started/).
 2. From LivePepper, click **Menu > Import/Export**.
 3. The HubRise connection will be listed. Click **Export**.
 4. The HubRise catalog will be updated.

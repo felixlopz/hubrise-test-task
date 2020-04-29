@@ -22,7 +22,7 @@ const AppsPage = ({ data, pageContext }) => {
           key={generateKey(props.title, idx)}
           logos={data.images.nodes.filter(
             ({ relativeDirectory }) =>
-              replaceBackslash(relativeDirectory) === `apps/images/app_logos`
+              replaceBackslash(relativeDirectory) === `images/app_logos`
           )}
           suggestAppContent={
             props.has_suggest_app && content.additional_sections.suggest_app

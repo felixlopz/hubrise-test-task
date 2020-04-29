@@ -7,7 +7,7 @@ meta:
   description: How connections to HubRise can be managed.
 ---
 
-The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](gettingstarted/#accounts-and-locations).
+The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](getting-started/#accounts-and-locations).
 
 ## Orders
 
@@ -16,7 +16,7 @@ The **DATA** > **ORDERS** page displays records in reverse chronological order. 
 - **Date, time and Unique ID**: The date, time, and unique identifier for the order.
 - **Customer**: The customer that made the order.
 - **Amount**: The total amount of the order.
-- **Status**: The current status of the order. For an overview of possible statuses, see the [Order status section](https://www.hubrise.com/fr/api/order-management/#order-status) of the HubRise API Order Management page.
+- **Status**: The current status of the order. For an overview of possible statuses, see the [Order status section](/api/order-management/#order-status) of the HubRise API Order Management page.
 - **Origin:** What app the order was generated from.
 
 To filter orders by start and end date:
@@ -25,7 +25,7 @@ To filter orders by start and end date:
 2. Select the search icon ![Search icon.](../images/search.png) to filter records by these dates.
 3. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon ![Search icon.](../images/search.png).
 4. Click on the date of the order to view full details.
-5. To view the full details of the request, click the date and time. For more information see [Logs](#logs).
+5. To view the full details of the request, click the date and time. For more information see [Logs](/docs/#logs).
 
 <video controls title="Filter Orders by date">
   <source src="../images/016-data-filter-orders-by-date.webm" type="video/webm"/>
@@ -48,7 +48,7 @@ To filter customers by name or email address:
 3. Select the search icon to filter the customer records.
 4. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon ![Search icon.](../images/search.png).
 5. To see full details of a customer, click the customer name.
-6. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](#logs).
+6. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](/docs/#logs).
 
 <video controls title="Filter customers">
   <source src="../images/029-filter-customers.webm" type="video/webm"/>
@@ -62,7 +62,7 @@ From the Catalogs page, you can view the catalogs imported into HubRise and the 
 
 ### View Catalog
 
-The Catalog displayed is set by the Account and Location selected at the top of the page. For more information on setting the Account and Display to display, see [Accounts and Locations](../gettingstarted/#accounts-and-locations).
+The Catalog displayed is set by the Account and Location selected at the top of the page. For more information on setting the Account and Display to display, see [Accounts and Locations](/docs/getting-started/#accounts-and-locations).
 
 Accounts and Locations can contain multiple Catalogs. To display the specific Catalog, select it from the dropdown list next to the title **Catalogs**.
 
@@ -80,7 +80,7 @@ Depending on which tab is selected, the following attributes are available:
 - **VARIANT**: The SKU or product size. For example, the product reference may be **boots_waterproof_size_28_black**, with the name **Waterproof boots**, and the variant as **Size 28 **and** black **colour. Another set of boots may have the reference **boots_waterproof_size_32_brown, **the name **Waterproof boots**, and the variant as **Size 32 **and** brown **colour.
 - **PRICE**: The price of the product, and the currency used.
 
-To see full log file details of all requests effecting catalogs, click **View logs**. For more information see [Logs](#logs).
+To see full log file details of all requests effecting catalogs, click **View logs**. For more information see [Logs](/docs/#logs).
 
 <video controls title="Catalog tabs">
   <source src="../images/039-data-catalog-tabs.webm" type="video/webm"/>
@@ -100,7 +100,7 @@ The log page displays a summary list of requests in reverse chronological order.
 - **PATH**: The URL path for the update.
 - **CODE**: The HTTP response.
 
-For a complete reference on API requests in HubRise, see [Understanding Logs in HubRise: Introduction to API Requests](https://www.hubrise.com/developers/understandinglogs/#introduction-to-api-requests).
+For a complete reference on API requests in HubRise, see [Understanding Logs in HubRise: Introduction to API Requests](/docs/understanding-logs/#introduction-to-api-requests).
 
 Further log details are available for advanced users and developers to view app communications and troubleshoot issues. To view details for a log entry:
 
@@ -108,7 +108,7 @@ Further log details are available for advanced users and developers to view app 
 
 2. To download either the query or response, select the download icon ![Download icon.](../images/download.png). The selected query or response will be provided as a JSON file.
 
-For more information on log files and their structure, see the [HubRise API Reference page](https://www.hubrise.com/fr/api/general-concepts/). For a complete reference on the JSON format used for HubRise communications, see [Understanding Logs in HubRise](https://www.hubrise.com/developers/understandinglogs/).
+For more information on log files and their structure, see the [HubRise API Reference page](/api/). For a complete reference on the JSON format used for HubRise communications, see [Understanding Logs in HubRise](https://www.hubrise.com/developers/understandinglogs/).
 
 <video controls title="View logs example">
   <source src="../images/037-data-customers-view-logs.webm" type="video/webm"/>

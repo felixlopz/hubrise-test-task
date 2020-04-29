@@ -3,7 +3,6 @@ layout: apps
 meta:
   title: Applications intégrées - HubRise
   description:
-path_override: /
 content:
   hero:
     title: Applications intégrées
@@ -75,7 +74,7 @@ content:
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
           additional_info: Documentation en anglais. Intégration en cours.
-        - to: http://www.livepepper.fr/
+        - to: /apps/livepepper/
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
@@ -152,7 +151,7 @@ content:
           logo: tickncook.png
           title: Tick'N'Cook
           description: Tick'n'Cook est un écran cuisine. Les commandes provenant de votre site Internet, de vos bornes ou de votre caisse apparaissent en temps réel sur des écrans tactiles. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés par atelier (bar, cuisine...)
-        - to: https://www.hubrise.com/
+        - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
           description: OrderLine édité par HubRise centralise les commandes passées depuis un site e-commerce ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.

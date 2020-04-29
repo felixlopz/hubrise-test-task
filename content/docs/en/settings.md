@@ -35,20 +35,20 @@ To remove your granted permission to an Account, select the trash icon ![Trash i
 
 - **IMPORTANT NOTE**: You cannot remove yourself from an Account if you are the last Admin. If you attempt to do so, an error message will be displayed. If you need to remove yourself as the last Admin for an Account, create another user as an Admin for that Account, then remove yourself.
 
-For more information, see [Permissions](settings/#permissions).
+For more information, see [Permissions](#permissions).
 
 To create a new Account from the Profile page, select **Create Account**. For more information see [Create an Account](#account).
 
 ## Accounts
 
-As described in [Accounts and Locations](gettingstarted/#accounts-and-locations), Accounts refers to the brand, and contains one or more Locations.
+As described in [Accounts and Locations](/docs/getting-started/#accounts-and-locations), Accounts refers to the brand, and contains one or more Locations.
 
 ### Account
 
 The **SETTINGS > ACCOUNTS **section lists all Accounts you have been granted access to with the following information:
 
 - **NAME**: The name and unique identifier of the Account.
-- **ROLE**: Your role for the Account. For more information on roles, see [Permissions](settings/#permissions).
+- **ROLE**: Your role for the Account. For more information on roles, see [Permissions](#permissions).
 
 To view details for a specific Account, click its name.
 
@@ -123,7 +123,7 @@ To modify an existing Account:
 
 ### Locations
 
-As described in [Accounts and Locations](../gettingstarted/#accounts-and-locations), Locations refers to the different points of sales for an Account. Locations are displayed with:
+As described in [Accounts and Locations](/docs/getting-started/#accounts-and-locations), Locations refers to the different points of sales for an Account. Locations are displayed with:
 
 - The Location name
 - The unique identifier for the Account they are associated with.
@@ -202,7 +202,7 @@ To view Usage details for an Account or Location:
 
 #### Plans
 
-HubRise provides both free and paid plans for its services. For complete information on plans and pricing, see the [HubRise Price Page](https://www.hubrise.com/pricing/).
+HubRise provides both free and paid plans for its services. For complete information on plans and pricing, see the [HubRise Price Page](/pricing/).
 
 Free plans are available for Locations with a limited number of transactions a month.Once this limit is reached, you must upgrade to the paid tier to continue service. When the free plan limit is reached, all Admin users for the Account and the specific Location will be notified.
 
@@ -279,7 +279,7 @@ When a plan has been changed, the payment must be authorized before the credit c
 
 To process a payment from the notification:
 
-1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Payment](##payment).
+1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Payment](#payment).
 2. Click **View the earliest quote **link, then click **Pay**. To check on all unpaid quotes, click **check your account** from the notification.
 
 <video controls title="Pay subscription example">
@@ -440,7 +440,7 @@ Adding or editing a customer list does not effect third party applications.
 The **Customer list** section displays the following information:
 
 - **Name:** The name of the customer list, followed by its unique character code. This unique character code does not change even if the name of the catalog is changed. For example: The catalog **Baker Street** would be displayed as **Baker Street - abc123**. If the catalog **Baker Street** is renamed to **Dunning Street**, it will be displayed as **Dunning Street - abc123**.
-- **Customer Count**: The number of customers imported into HubRise. To view customer list details, see [Customers](../data/#customers).
+- **Customer Count**: The number of customers imported into HubRise. To view customer list details, see [Customers](/docs/data/#customers).
 
 #### Add a customer list
 

@@ -3,7 +3,6 @@ layout: apps
 meta:
   title: Integrated apps - HubRise
   description:
-path_override: /
 content:
   hero:
     title: Integrated Apps
@@ -73,7 +72,7 @@ content:
           title: App4
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info: Integration in progress.
-        - to: http://www.livepepper.fr
+        - to: /apps/livepepper/
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
@@ -145,7 +144,7 @@ content:
           logo: tickncook.png
           title: Tick'N'Cook
           description: Tick'N'Cook is a kitchen display screen for independent restaurants and chains. Tick'N'Cook can be customised with estimated preparation time and specialised screens for bar, pastry or kitchen.
-        - to: https://www.hubrise.com/
+        - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
           description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.
