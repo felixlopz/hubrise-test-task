@@ -284,11 +284,11 @@ Here are the possible "normal" values, and their meaning:
 
 These additional statuses can be used in the event of an anomaly:
 
-| Name              | Description                              |
-| ----------------- | ---------------------------------------- |
-| `rejected`        | Order has been rejected by the store     |
-| `cancelled`       | Order has been cancelled by the customer |
-| `delivery_failed` | Order could not be delivered             |
+| Name              | Description                                                                      |
+| ----------------- | -------------------------------------------------------------------------------- |
+| `rejected`        | Order cold not be transmitted to the store, generally because of a system error  |
+| `cancelled`       | Order has been cancelled by either the customer or the store                     |
+| `delivery_failed` | Order could not be delivered                                                     |
 
 Orders do not have to go through all steps. The sequence actually depends on the use case. Let's consider two example scenarios and a possible workflow for each:
 
