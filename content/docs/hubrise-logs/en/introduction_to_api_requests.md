@@ -20,11 +20,8 @@ Every API interaction involves two computers: One that sends a request, and anot
 The request has the following components.
 
 * HTTP method
-
 * URL
-
 * Headers
-
 * Body
 
 When considered together, the HTTP method and the URL are called the endpoint of a request. 
@@ -32,9 +29,7 @@ When considered together, the HTTP method and the URL are called the endpoint of
 The response has the following components.
 
 * Code, a three-digit number
-
 * Headers
-
 * Body
 
 Before analysing these components in detail and how they appear in HubRise, consider a simple analogy.

@@ -14,7 +14,6 @@ JSON is a format that can be used to describe the relation between an object and
 In more technical terms, JSON is able to store and transfer structured information using nodes of key-value pairs. Each piece of information is divided into:
 
 * The name or type of information (the *key*).
-
 * The content of the information (the *value*).
 
 They are separated by a colon, with the key on the left and the value on the right. Consider this very basic JSON:

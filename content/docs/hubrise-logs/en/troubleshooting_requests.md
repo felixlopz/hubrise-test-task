@@ -37,24 +37,11 @@ Orders go through a series of different statuses during their lifecycle. Normal 
 
 In some cases, the status might indicate a problem with the order. The following table presents the possible error values. 
 
-<table>
-  <tr>
-    <td><b>Value</b></td>
-    <td><b>Description</b></td>
-  </tr>
-  <tr>
-    <td>rejected</td>
-    <td>The order has been rejected by the store.</td>
-  </tr>
-  <tr>
-    <td>cancelled</td>
-    <td>The order has been cancelled by the customer. </td>
-  </tr>
-  <tr>
-    <td>delivery_failed</td>
-    <td>The order could not be delivered. </td>
-  </tr>
-</table>
+| Value           | Description                                    |
+|-----------------|------------------------------------------------|
+| rejected        | The order has been rejected by the store.      |
+| cancelled       | The order has been cancelled by the customer.  |
+| delivery_failed | The order could not be delivered.              |
 
 
 ## POS Codes
@@ -64,9 +51,6 @@ The POS codes must be correctly set in the apps connected with HubRise. A wrong 
 The following checklist can help you find possible issues. 
 
 1. Check that all service types you provide have the correct service_type_ref code. 
-
 2. Check that all products have the correct sku_ref code.
-
 3. Check that all ingredients and toppings have the correct ref code. In some cases, adding or removing an identical ingredient might be associated with different POS codes. 
-
 4. Check that all the accepted payment methods have the correct ref code.

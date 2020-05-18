@@ -55,13 +55,9 @@ At level 0 of indentation, there are the two curly brackets that mark the beginn
 Each level of indentation depends on the level hierarchically above. So, to know how many bacon burgers are present in the order, proceed as follows:
 
 * Start from the items node.
-
 * Move down one indentation level and find the objects in the items list.
-
 * Find the object with the value bacon burger associated with the product key. 
-
 * Once you find that object, look for the quantity node inside.
-
 * Read the value associated with the quantity node.
 
 This trick might be enough to allow you to skim through any JSON request to find the values associated with a specific key. 
@@ -79,13 +75,9 @@ Every key must be a string, typically but not necessarily a valid English word, 
 The value associated with a key can be any of the following options:
 
 * A string
-
 * A number
-
 * A boolean (true or false)
-
 * A JSON object
-
 * A list of any of the above
 
 The possibility of having JSON objects as values of a key allows the structuring of information in a hierarchy. 

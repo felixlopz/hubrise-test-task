@@ -14,9 +14,7 @@ HubRise allows easy sharing of data between different applications by exchanging
 The typical lifecycle of such an exchange involves three components:
 
 * Request
-
 * Response
-
 * Callback(s)
 
 The request is the first part of an exchange of data, and is always sent by a connected application to HubRise. The response is the second part of this exchange, where HubRise acknowledges or not the receipt of this message. 
@@ -34,11 +32,8 @@ For example, each order in the **ORDERS** page can be expanded to reveal more in
 For each request, the following information is displayed.
 
 * **DATE**: The date and time of the request.
-
 * **ORIGIN**:  The connected application that started the request.
-
 * **ENDPOINT**: The endpoint of the request.
-
 * **CODE**: The response code.
 
 Each row can be further expanded to reveal detailed information about the request, the response, and possible callbacks associated with it.
@@ -53,32 +48,13 @@ The method and the URL together are the endpoint of the request. Although they a
 
 The HTTP method of the request is the action that needs to be performed with the data contained in the request. The typical methods found in HubRise requests are the following.
 
-<table>
-  <tr>
-    <td><b>HTTP Method</b></td>
-    <td><b>Description</b></td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>It is used to retrieve information, typically the details about an order or a customer. </td>
-  </tr>
-  <tr>
-    <td>POST</td>
-    <td>It is used to create new information, typically a new order.</td>
-  </tr>
-  <tr>
-    <td>PUT</td>
-    <td>It is used to completely replace information already present in the system with the data carried by the request.</td>
-  </tr>
-  <tr>
-    <td>PATCH</td>
-    <td>It is used to partially replace information already present in the system with the data carried by the request.</td>
-  </tr>
-  <tr>
-    <td>DELETE</td>
-    <td>It is used, for example, by passive callbacks to delete existing events.</td>
-  </tr>
-</table>
+| HTTP Method | Description                                                                                                      |
+|-------------|------------------------------------------------------------------------------------------------------------------|
+| GET         | It is used to retrieve information, typically the details about an order or a customer.                          |
+| POST        | It is used to create new information, typically a new order.                                                     |
+| PUT         | It is used to completely replace information already present in the system with the data carried by the request. |
+| PATCH       | It is used to partially replace information already present in the system with the data carried by the request.  |
+| DELETE      | It is used, for example, by passive callbacks to delete existing events.                                         |
 
 
 ### URL, Domain and Path
@@ -127,46 +103,14 @@ For more details about the JSON content of the requests in HubRise, see [HubRise
 
 The response code tells the outcome of the request. The code 200 indicates a successful request, while other codes are related to various types of errors. The following table highlights the main errors. For possible troubleshooting strategies depending on the code, see [Troubleshooting Requests](#heading=h.iql60f5rzbt5). 
 
-<table>
-  <tr>
-    <td><b>Response Code</b></td>
-    <td><b>Description</b></td>
-  </tr>
-  <tr>
-    <td>200</td>
-    <td>The request has been successfully received. </td>
-  </tr>
-  <tr>
-    <td>400</td>
-    <td>The request was invalid. </td>
-  </tr>
-  <tr>
-    <td>401</td>
-    <td>Authentication credentials are missing or not valid.</td>
-  </tr>
-  <tr>
-    <td>403</td>
-    <td>The request is correct but the server has refused to process it.</td>
-  </tr>
-  <tr>
-    <td>404</td>
-    <td>The URL of the request does not exist.</td>
-  </tr>
-  <tr>
-    <td>422</td>
-    <td>The request is formally correct and valid, but the server cannot process its content.</td>
-  </tr>
-  <tr>
-    <td>429</td>
-    <td>Too many requests were made. </td>
-  </tr>
-  <tr>
-    <td>500</td>
-    <td>There was an internal error in the HubRise server. </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+| Response Code | Description                                                                           |
+|---------------|---------------------------------------------------------------------------------------|
+| 200           | The request has been successfully received.                                           |
+| 400           | The request was invalid.                                                              |
+| 401           | Authentication credentials are missing or not valid.                                  |
+| 403           | The request is correct but the server has refused to process it.                      |
+| 404           | The URL of the request does not exist.                                                |
+| 422           | The request is formally correct and valid, but the server cannot process its content. |
+| 429           | Too many requests were made.                                                          |
+| 500           | There was an internal error in the HubRise server.                                    |
 

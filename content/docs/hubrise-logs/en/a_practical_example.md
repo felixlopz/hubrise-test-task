@@ -20,9 +20,7 @@ How can you organise this request in a rational way, such that information is ar
 There are three main pieces of information at the top of the structure:
 
 * The items in the order
-
 * The payment information
-
 * The service type
 
 ### Items
@@ -30,9 +28,7 @@ There are three main pieces of information at the top of the structure:
 The items in the order can be described as a list of JSON objects, each with its own key-value pairs inside. In this case, there are two items, each defined as an object containing the following information:
 
 * The name of the product
-
 * The quantity
-
 * The optional changes
 
 Notice that they both have the same structure but different values. 
@@ -44,7 +40,6 @@ The optional changes can then be structured as a list of JSON objects, each desc
 The payment information can be structured as an object that contains the following information:
 
 * The total amount to be paid.
-
 * The payment method chosen by the customer.
 
 ### Service type
