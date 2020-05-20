@@ -16,3 +16,5 @@ Click the **SALES**, **ORDERS**, or **NEW CUSTOMERS** tabs to display the relate
 <video controls title="Changing tabs from the Dashboard">
   <source src="../images/010-dashboard-tab-switching.webm" type="video/webm"/>
 </video>
+
+[comment]: # (video not showing)
