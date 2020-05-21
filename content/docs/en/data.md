@@ -82,10 +82,10 @@ Catalogs are presented in three tabs:
 
 Depending on which tab is selected, the following attributes are available:
 
-- **REFERENCE**: The unique identifier of the product or deal from the source product management system. This identifies the item across all apps. Identifiers are alphanumeric with special characters. For example *sparkling_mineral_water_75_c* may refer to a bottle of sparkling water of a specific size.
-- **PRODUCT**: The name displayed to the customer. These names do not need to be unique. For example, you may sell shoes of different sizes with the product references *boots_waterproof_size_28* and *boots_waterproof_size_30*, with the product name for both as *Waterproof boots*.
+- **REFERENCE**: The unique identifier of the product or deal from the source product management system. This identifies the item across all apps. Identifiers are alphanumeric with special characters. For example `sparkling_mineral_water_75_c` may refer to a bottle of sparkling water of a specific size.
+- **PRODUCT**: The name displayed to the customer. These names do not need to be unique. For example, you may sell shoes of different sizes with the product references `boots_waterproof_size_28` and `boots_waterproof_size_30`, with the product name for both as Waterproof boots.
 - **CATEGORY**: The product category for the product, such as Snacks, Shirts, Boots, etc.
-- **VARIANT**: The SKU or product size. For example, the product reference may be *boots_waterproof_size_28_black*, with the name *Waterproof boots*, and the variant as Size 28 and black colour. Another set of boots may have the reference *boots_waterproof_size_32_brown* the name *Waterproof boots*, and the variant as Size 32 and brown colour.
+- **VARIANT**: The SKU or product size. For example, the product reference may be `boots_waterproof_size_28_black`, with the name Waterproof boots, and the variant as Size 28 and black colour. Another set of boots may have the reference `boots_waterproof_size_32_brown the name`, with the name Waterproof boots, and the variant as Size 32 and brown colour.
 - **PRICE**: The price of the product, and the currency used.
 
 To see full log file details of all requests effecting catalogs, click View logs. For more information see [Logs](/docs/#logs).
@@ -107,8 +107,6 @@ The log page displays a summary list of requests in reverse chronological order.
 - **METHOD**: The HTTP method used in communicating the request.
 - **PATH**: The URL path for the update.
 - **CODE**: The HTTP response.
-
-For a complete reference on API requests in HubRise, see [Understanding Logs in HubRise: Introduction to API Requests](/docs/understanding-logs/#introduction-to-api-requests).
 
 Further log details are available for advanced users and developers to view app communications and troubleshoot issues. To view details for a log entry:
 

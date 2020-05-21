@@ -135,7 +135,7 @@ OrderLine also prints order receipts automatically upon order reception, skippin
 
 Receipts are presented into sections for readability with a solid line starting and ending each section. These reflect the same information as listed on the Order Card. For more information on Order Cards see [View Order](#view-order).
 
-![Order Receipt Example](../images/030-receipt-example.png)
+![Order Receipt Example](../images/030-en-2x-receipt-example.png)
 
 Receipts include the following information:
 

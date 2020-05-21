@@ -37,7 +37,7 @@ Orders are managed through their Status values. In **Settings** > **ORDER STATUS
 
 Statuses are used to move orders from one state to the next, much like a flowchart. Orders always start with New, but can proceed in different ways depending how the user sets up their status flow. For example, a status flow might allow Orders to be Accepted, then In delivery, then ending with Completed, with every status except Completed able to lead to Rejected:
 
-![Status flow example](../images/010-status-flow-example.png)
+![Status flow example](../images/010-en-2x-status-flow-example.png)
 
 Users can use the OrderLine standard status flow, simplify it, or personalise it completely to match the way they work in their establishment.
 
