@@ -105,32 +105,24 @@ It is important to enter the correct **Currency** as you will not be able to cha
 #### Modify an Account
 
 The only field that can be modified is the **Account Name**.
+It is recommended to name the Account the same as your business or brand. 
 
 ----------------
 
-**IMPORTANT NOTE**: The currency value can only be set when the Account is created, and can not be modified once created. If the currency for the HubRise Account does not match the currency set on the connected apps, errors may occur.
+**IMPORTANT NOTE**: The currency value can only be set when the Account is created, and can not be modified. If the currency for the HubRise Account does not match the currency set on the connected apps, errors may occur. Create a new Account with the correct currency and use that Account to connect your apps instead.
 
 ----------------
-
-If an Account is created with the wrong currency, create a new one with the correct currency and use that Account to connect your apps to instead.
 
 To modify an existing Account:
 
 1. Select **SETTINGS** > **ACCOUNT**.
 2. If there are multiple Accounts, click the name of the Account to update.
 3. Click **Modify**.
-4. Update the following as required:
-   1. **Name**. It is recommended to name the Account the same as your business or brand. This field is required.
-   2. **Intra-Community VAT number**. This will be included on your invoices. This field is not required by HubRise, but it is a legal requirement. Invalid VAT numbers will display an error notice.
-   3. **Country**.
-   4. **Address**.
-   5. **Postcode**.
-   6. **City**.
-5. Click **Modify**.
+4. Update the fields as required and Click **Modify**.
 
 ----------------
 
-**IMPORTANT NOTE**: The VAT number is a legal requirement. HubRise will display a notification to update the VAT number if this information is missing from your Account.
+**IMPORTANT NOTE**: It is a legal requirement to include the Intra-Community VAT number. HubRise will display a notification to update the VAT number if this information is missing from your Account.
 
 ----------------
 
@@ -146,7 +138,7 @@ As described in [Accounts and Locations](/docs/getting-started/#accounts-and-loc
 - The unique identifier for the Account they are associated with.
 - The number indicating in what order the Location was added (starting at zero).
 
-For example, **Baker Street z6q31-0** indicates the Location name of **Baker Street**, that it belongs to Account **z6q31**, and **-0** signifies it was the first Location added to this Account.
+For example, `Baker Street z6q31-0` indicates the Location name of **Baker Street**, that it belongs to Account **z6q31**, and **-0** signifies it was the first Location added to this Account.
 
 ----------------
 
@@ -175,14 +167,12 @@ To add a new Locations to an existing Account:
 1. Click **SETTINGS** > **ACCOUNTS**.
 2. If you have multiple Accounts, select the Account that the Location will be added to.
 3. In the **Locations** section, click on **Add a location**.
-4. Enter the following information:
-   1. The **Name**. The recommended naming convention is to name the Location the same name as your Account followed by a short location name in the format **Account Name - Location Name**. For example, if your brand is called **Fast Pizza**, and the location **Baker Street**, the location name will be **Fast Pizza - Baker Street**.
-   2. **Country**.
-   3. **Timezone**.
-   4. **Address**.
-   5. **Postcode**.
-   6. **City**.
-5. Click **Add a new location** to save the new values.
+4. Enter the required information. 
+5. If this Location has a VAT number separate from the Account, enter it here in the **Intra-Community VAT number** field provided.
+6. If the billing address is different than the Location’s address, check **The billing address is different from the location address** and fill out the form.
+7. Click **Add a new location** to save the new values.
+
+It is recommended to name the location after the city, the area or street it is located at.
 
 <video controls title="Add Location example">
   <source src="../images/020-en-settings-account-locations-add-location.webm" type="video/webm"/>
@@ -196,20 +186,10 @@ To update the name and address for a location, follow these steps:
 2. If you have multiple Accounts, select the Account that the Location will be added to.
 3. Select the Location to update.
 4. Click **Modify**.
-5. Update the following values as needed:
-   1. The **Name**. It is recommended to name the location after the city or street it is located at.
-   2. **Country**.
-   3. **Timezone**.
-   4. **Address**.
-   5. **Postcode**.
-   6. **City**.
-   7. **Intra-Community VAT number**. If this Location has a VAT number separate from the Account, enter it here.
-6. If the billing address is different than the Location’s address, check **The billing address is different from the location address** and fill out the following:
-   1. **Country**.
-   2. **Address**.
-   3. **Postcode**.
-   4. **City**.
-7. Click **Update** to save the changes.
+5. Update the values as needed. 
+6. If this Location has a VAT number separate from the Account, enter it here in the **Intra-Community VAT number** field provided.
+7. If the billing address is different than the Location’s address, check **The billing address is different from the location address** and fill out the form.
+8. Click **Update** to save the changes.
 
 ### Usage
 
@@ -441,6 +421,8 @@ To change the name of a Catalog:
 1. In the **SETTINGS** > **ACCOUNTS** > **Catalogs** section, click the edit icon for the catalog to edit.
 2. Enter the new name for the Catalog.
 3. Click **Update** to save the new settings.
+
+![HubRise Edit Catalog](../images/065-en-2x-edit-remove-catalog.png)
 
 #### Remove a Catalog
 
