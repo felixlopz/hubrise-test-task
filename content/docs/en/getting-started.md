@@ -78,13 +78,13 @@ Users can set the language for their HubRise session by clicking the down arrow 
   <source src="../images/007-en-change-language-from-dashboard.webm" type="video/webm"/>
 </video>
 
-You can also set your preferred language for all communications from HubRise (such as emails, etc) in the **SETTINGS**. For more information see [Profile and Password](/docs/settings/#profile-and-password).
+You can also set your preferred language for all communications from HubRise (such as emails, etc) in the **SETTINGS**. For more information see [Profile and Password](/docs/profile-password).
 
-## Access HubRise Account Settings
+## Access Account Settings
 
 Your HubRise user profile may be connected to multiple Accounts and locations based on permissions. For more information, see [Accounts and Locations](/docs/getting-started/#accounts-and-locations).
 
-You can view the settings for the HubRise Account you are working in by selecting the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and click **Account**. You can also access all of your Accounts by selecting **SETTINGS** > **ACCOUNTS** from the left navigation panel. For more information on your user profile, see [Account](/docs/settings/#account).
+You can view the settings for the HubRise Account you are working in by selecting the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and click **Account**. You can also access all of your Accounts by selecting **SETTINGS** > **ACCOUNTS** from the left navigation panel. For more information on your user profile, see [Account](/docs/account).
 
 <video controls title="Access user profile from Dashboard">
   <source src="../images/049-en-access-account-from-dashboard.webm" type="video/webm"/>
