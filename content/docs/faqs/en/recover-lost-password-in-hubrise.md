@@ -1,6 +1,6 @@
 ---
 title: I Lost My Password. How Do I Recover It?
-position: 100
+position: 80
 layout: documentation
 meta:
   title:
@@ -15,4 +15,4 @@ If you are a registered user but you have lost or forgotten your password, go to
 
 ----------------
 
-![Reset password page](../../images/002-reset-password.png)
+![Reset password page](../../images/002-en-reset-password.png)

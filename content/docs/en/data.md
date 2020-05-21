@@ -22,13 +22,13 @@ The **DATA** > **ORDERS** page displays records in reverse chronological order. 
 To filter orders by start and end date:
 
 1. Select **From** and **To** fields in and set the date ranges to filter by.
-2. Select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage> to filter records by these dates.
-3. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
+2. Select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-en-search.png)</InlineImage> to filter records by these dates.
+3. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-en-search.png)</InlineImage>.
 4. Click on the date of the order to view full details.
 5. To view the full details of the request, click the date and time. For more information see [Logs](/docs/data/#logs).
 
 <video controls title="Filter Orders by date">
-  <source src="../images/016-data-filter-orders-by-date.webm" type="video/webm"/>
+  <source src="../images/016-en-data-filter-orders-by-date.webm" type="video/webm"/>
 </video>
 
 -----------
@@ -52,12 +52,12 @@ To filter customers by name or email address:
 1. If there are multiple customer lists for the Account or Location, select the drop down list next to **Customers** and select the customer list to display.
 2. Click the **Search by name or email** field and enter the text to search for.
 3. Select the search icon to filter the customer records.
-4. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
+4. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-en-search.png)</InlineImage>.
 5. To see full details of a customer, click the customer name.
 6. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](/docs/data/#logs).
 
 <video controls title="Filter customers">
-  <source src="../images/029-filter-customers.webm" type="video/webm"/>
+  <source src="../images/029-en-filter-customers.webm" type="video/webm"/>
 </video>
 
 ## Catalogs
@@ -91,7 +91,7 @@ Depending on which tab is selected, the following attributes are available:
 To see full log file details of all requests effecting catalogs, click View logs. For more information see [Logs](/docs/#logs).
 
 <video controls title="Catalog tabs">
-  <source src="../images/039-data-catalog-tabs.webm" type="video/webm"/>
+  <source src="../images/039-en-data-catalog-tabs.webm" type="video/webm"/>
 </video>
 
 ## Logs
@@ -114,10 +114,10 @@ Further log details are available for advanced users and developers to view app 
 
 1. Click the row to display. A full list of the query and response will be displayed.
 
-2. To download either the query or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected query or response will be provided as a JSON file.
+2. To download either the query or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-en-download.png)</InlineImage>. The selected query or response will be provided as a JSON file.
 
 For more information, see [Understanding Logs in HubRise](/docs/understanding-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 
 <video controls title="View logs example">
-  <source src="../images/037-data-customers-view-logs.webm" type="video/webm"/>
+  <source src="../images/037-en-data-customers-view-logs.webm" type="video/webm"/>
 </video>

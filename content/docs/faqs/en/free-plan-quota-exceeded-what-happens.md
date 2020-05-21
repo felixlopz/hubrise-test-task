@@ -1,6 +1,6 @@
 ---
 title: What Happens If My Free Plan Quota Is Exceeded?
-position: 40
+position: 10
 layout: documentation
 meta:
   title:

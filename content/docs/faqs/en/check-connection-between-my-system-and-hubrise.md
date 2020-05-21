@@ -1,6 +1,6 @@
 ---
 title: How Do I Check If the Connection Between My System and HubRise Is Working?
-position: 10
+position: 90
 layout: documentation
 meta:
   title:

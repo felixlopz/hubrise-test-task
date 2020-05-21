@@ -32,7 +32,7 @@ To connect a new app to your HubRise Account:
 Some apps can be accessed from HubRise. If so, you can open the app by clicking on **CONNECTIONS** and selecting **Open** for the specific app. The app will open in a new browser window.
 
 <video controls title="Connect an App">
-  <source src="../images/011-connections-open-app.webm" type="video/webm"/>
+  <source src="../images/011-en-connections-open-app.webm" type="video/webm"/>
 </video>
 
 ## View Connection Activity
@@ -40,7 +40,7 @@ Some apps can be accessed from HubRise. If so, you can open the app by clicking 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
 <video controls title="Display activity for a connected app">
-  <source src="../images/012-connections-display-activity.webm" type="video/webm"/>
+  <source src="../images/012-en-connections-display-activity.webm" type="video/webm"/>
 </video>
 
 ------
@@ -86,12 +86,12 @@ Each log record includes:
 - **Response**: The HTTP response code.
 
 You can see additional details by clicking on a log, including the request and the corresponding response.
-To download either the request or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected request or response will be provided as a JSON file.
+To download either the request or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-en-download.png)</InlineImage>. The selected request or response will be provided as a JSON file.
 
 For more information, see [Understanding Logs in HubRise](/docs/understanding-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 
 <video controls title="Log details">
-  <source src="../images/013-connections-view-logs.webm" type="video/webm"/>
+  <source src="../images/013-en-connections-view-logs.webm" type="video/webm"/>
 </video>
 
 ------
@@ -105,5 +105,5 @@ For more information, see [Understanding Logs in HubRise](/docs/understanding-lo
 Apps can be disconnected from your HubRise Account by selecting **CONNECTIONS** > **Actions**. Find the app in question, then click **Disconnect**.
 
 <video controls title="Remove connection to an app">
-  <source src="../images/014-connections-remove-app.webm" type="video/webm"/>
+  <source src="../images/014-en-connections-remove-app.webm" type="video/webm"/>
 </video>

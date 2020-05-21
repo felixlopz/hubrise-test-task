@@ -39,7 +39,7 @@ The Profile page includes information on your **Permissions**. This includes:
 - The **Account** and **Location** that you have access to.
 - The **Role** you have been assigned for the Account or Location.
 
-To remove your granted permission to an Account, select the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>
+To remove your granted permission to an Account, select the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage>
 
 ----------------
 
@@ -99,7 +99,7 @@ The **Location Name** could be the city, the area, or the street name. For examp
 It is important to enter the correct **Currency** as you will not be able to change it later.
 
 <video controls title="Create an Account">
-  <source src="../images/038-settings-account-create-account.webm" type="video/webm"/>
+  <source src="../images/038-en-settings-account-create-account.webm" type="video/webm"/>
 </video>
 
 #### Modify an Account
@@ -135,7 +135,7 @@ To modify an existing Account:
 ----------------
 
 <video controls title="Change account information">
-  <source src="../images/019-settings-account-change-account-name.webm" type="video/webm"/>
+  <source src="../images/019-en-settings-account-change-account-name.webm" type="video/webm"/>
 </video>
 
 ### Locations
@@ -185,7 +185,7 @@ To add a new Locations to an existing Account:
 5. Click **Add a new location** to save the new values.
 
 <video controls title="Add Location example">
-  <source src="../images/020-settings-account-locations-add-location.webm" type="video/webm"/>
+  <source src="../images/020-en-settings-account-locations-add-location.webm" type="video/webm"/>
 </video>
 
 #### Updating Location Details
@@ -242,7 +242,7 @@ When there is an issue with a plan, Account admins will receive an email and hav
 
 If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information, see [Usage](#usage).
 
-![Pay subscription](../images/022-pay-subscription.png)
+![Pay subscription](../images/022-en-pay-subscription.png)
 
 ----------------
 
@@ -288,7 +288,7 @@ To change whether your Location uses your HubRise Account payment method, or whe
    2. If the location uses the same payment method as the Account and you want it to have a separate payment method, click click **Make the location pay for it**.
 
 <video controls title="Payment by Account or Location example">
-  <source src="../images/042-settings-payment-byaccount-bylocation.webm" type="video/webm"/>
+  <source src="../images/042-en-settings-payment-byaccount-bylocation.webm" type="video/webm"/>
 </video>
 
 #### Add or Change Payment Method
@@ -302,7 +302,7 @@ To update your payment method for an Account or Location:
 3. Enter your credit card information. Credit cards must be valid to be accepted.
 4. When finished, click **Save**.
 
-<video controls title="Add payment type"><source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/></video>
+<video controls title="Add payment type"><source src="../images/040-en-settings-payment-add-payment-type.webm" type="video/webm"/></video>
 
 #### Process Pending Quotes
 
@@ -328,13 +328,13 @@ Select **Payment history** to display all payments made for the selected HubRise
 - **Description**: The purpose of the charge.
 - **Payment Method**: The specific payment method used for this charge.
 
-Admin users receive invoices via email. The invoice can also be saved as a PDF file by selecting the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>.
+Admin users receive invoices via email. The invoice can also be saved as a PDF file by selecting the download icon <InlineImage width="15" height="14">![Download icon](../images/058-en-download.png)</InlineImage>.
 
 ![Invoice example](../images/043-en-2x-invoice-example.png)
 
 Payment history for Accounts will group Location payments for the date.
 
-![Payment history example](../images/044-payment-history.png)
+![Payment history example](../images/044-en-payment-history.png)
 
 The payment history for locations will display invoices paid by the Account and all of its Locations.
 
@@ -365,17 +365,17 @@ To add a user:
 2. In the Permissions section, select **Add**.
 3. Enter the user’s email address in the column marked **EMAIL**.
 4. In the **ROLE** column, set the new user’s role as Admin or Manager.
-5. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
+5. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-en-add-icon.png)</InlineImage> to add the new user.
 
 <video controls title="Add user example">
-  <source src="../images/023-permissions-add-user.webm" type="video/webm"/>
+  <source src="../images/023-en-permissions-add-user.webm" type="video/webm"/>
 </video>
 
 #### Remove a User
 
 To remove a user:
 
-1. Click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>for the user to remove.
+1. Click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage>for the user to remove.
 2. When prompted, click **Delete** to confirm removing the user.
 
 ----------------
@@ -385,7 +385,7 @@ To remove a user:
 ----------------
 
 <video controls title="Remove a user example">
-  <source src="../images/024-permissions-remove-user.webm" type="video/webm"/>
+  <source src="../images/024-en-permissions-remove-user.webm" type="video/webm"/>
 </video>
 
 ### Catalogs
@@ -427,7 +427,7 @@ The following information is displayed in the **SETTINGS** > **ACCOUNTS** > **Ca
 To view the contents of a Catalog, click the name of the Catalog. It will connect you to the **DATA** > **Catalog** screen for the specific Catalog.
 
 <video controls title="Catalog link example">
-  <source src="../images/045-catalog-link.webm" type="video/webm"/>
+  <source src="../images/045-en-catalog-link.webm" type="video/webm"/>
 </video>
 
 #### Edit a Catalog
@@ -453,7 +453,7 @@ Removing a catalog from HubRise does not effect the product list in third party 
 
 To remove a catalog:
 
-1. In the **SETTINGS** > **ACCOUNTS** > **Catalogs** section, click the remove icon<InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage> for the catalog to delete.
+1. In the **SETTINGS** > **ACCOUNTS** > **Catalogs** section, click the remove icon<InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage> for the catalog to delete.
 2. Click **Delete** to confirm the removal of the catalog.
 
 ### Customer Lists
@@ -490,14 +490,14 @@ To add a customer list:
 To view the details of a customer list, click the name of the list. It will automatically link you to the **DATA** > **Customers** page for the specific list.
 
 <video controls title="Customer list link">
-  <source src="../images/049-access-account-from-dashboard.webm" type="video/webm"/>
+  <source src="../images/049-en-access-account-from-dashboard.webm" type="video/webm"/>
 </video>
 
 #### Edit a customer list
 
 To change the name of a customer list:
 
-1. In **SETTINGS** > **ACCOUNTS** > **Customer lists** section, click the edit icon <InlineImage width="15" height="15">![Edit Icon](../images/028-pen-icon.png)</InlineImage>for the customer list to update.
+1. In **SETTINGS** > **ACCOUNTS** > **Customer lists** section, click the edit icon <InlineImage width="15" height="15">![Edit Icon](../images/028-en-pen-icon.png)</InlineImage>for the customer list to update.
 2. Enter the new name of the customer list.
 3. Click **Edit customer list** to save the changes.
 
@@ -505,7 +505,7 @@ To change the name of a customer list:
 
 Customer lists can only be deleted when there are no active connections to them from an app, or when removing them will leave no Customer lists connected to the Account.
 
-1. In **SETTINGS** > **ACCOUNTS** > **Customer lists** section, click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>for the customer list to delete.
+1. In **SETTINGS** > **ACCOUNTS** > **Customer lists** section, click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage>for the customer list to delete.
 2. Click **Delete** to confirm.
 
 ## Developer

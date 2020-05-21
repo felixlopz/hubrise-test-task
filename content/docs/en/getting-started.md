@@ -23,7 +23,7 @@ You must be a registered user to connect to HubRise. Registration is free, and o
 
 Registered users can log in to HubRise directly from the [HubRise Login page](https://manager.hubrise.com/login) or the [HubRise home page](https://www.hubrise.com). Enter your email address and password, then click **Login**.
 
-![HubRise Login Screen](../images/001-hubrise-login.png)
+![HubRise Login Screen](../images/001-en-hubrise-login.png)
 
 ------
 
@@ -41,7 +41,7 @@ If you are a registered user but you have lost or forgotten your password, go to
 
 ------
 
-![Reset password screen](../images/002-reset-password.png)
+![Reset password screen](../images/002-en-reset-password.png)
 
 ## Accounts and Locations
 
@@ -57,11 +57,11 @@ Accounts are named after the brand, while Locations are named after the city or 
 
 Once connected, users with a single Account will have that one selected by default. For users with multiple Accounts, you can select the Account to display during your HubRise session. If you want to get an overall view of an Account’s performance, select all Locations. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
 
-- For users with multiple Accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Account** and select the Account to display.
-- To display data on all Locations or for a specific Location, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Location** and select either **All locations** or the specific location.
+- For users with multiple Accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-en-arrow.jpg)</InlineImage> next to **Account** and select the Account to display.
+- To display data on all Locations or for a specific Location, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-en-arrow.jpg)</InlineImage> next to **Location** and select either **All locations** or the specific location.
 
 <video controls title="Display account from Dashboard">
-  <source src="../images/008-access-account-from-dashboard.webm" type="video/webm"/>
+  <source src="../images/008-en-access-account-from-dashboard.webm" type="video/webm"/>
 </video>
 
 ------
@@ -72,10 +72,10 @@ Once connected, users with a single Account will have that one selected by defau
 
 ## Set Language Preference
 
-Users can set the language for their HubRise session by clicking the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and selecting your preferred language.
+Users can set the language for their HubRise session by clicking the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-en-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and selecting your preferred language.
 
 <video controls title="Change language from Dashboard">
-  <source src="../images/007-change-language-from-dashboard.webm" type="video/webm"/>
+  <source src="../images/007-en-change-language-from-dashboard.webm" type="video/webm"/>
 </video>
 
 You can also set your preferred language for all communications from HubRise (such as emails, etc) in the **SETTINGS**. For more information see [Profile and Password](/docs/settings/#profile-and-password).
@@ -84,18 +84,18 @@ You can also set your preferred language for all communications from HubRise (su
 
 Your HubRise user profile may be connected to multiple Accounts and locations based on permissions. For more information, see [Accounts and Locations](/docs/getting-started/#accounts-and-locations).
 
-You can view the settings for the HubRise Account you are working in by selecting the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and click **Account**. You can also access all of your Accounts by selecting **SETTINGS** > **ACCOUNTS** from the left navigation panel. For more information on your user profile, see [Account](/docs/settings/#account).
+You can view the settings for the HubRise Account you are working in by selecting the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-en-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and click **Account**. You can also access all of your Accounts by selecting **SETTINGS** > **ACCOUNTS** from the left navigation panel. For more information on your user profile, see [Account](/docs/settings/#account).
 
 <video controls title="Access user profile from Dashboard">
-  <source src="../images/049-access-account-from-dashboard.webm" type="video/webm"/>
+  <source src="../images/049-en-access-account-from-dashboard.webm" type="video/webm"/>
 </video>
 
 ## Logout
 
 By default users stay connected to HubRise until they have manually logged out of their session, or have gone six months without any activity.
 
-To log out of HubRise, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, then select **Log out**.
+To log out of HubRise, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-en-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, then select **Log out**.
 
 <video controls title="HubRise Logout example">
-  <source src="../images/009-hubrise-logout.webm" type="video/webm"/>
+  <source src="../images/009-en-hubrise-logout.webm" type="video/webm"/>
 </video>

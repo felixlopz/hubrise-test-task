@@ -1,6 +1,6 @@
 ---
 title: What App Can I Connect to HubRise?
-position: 110
+position: 100
 layout: documentation
 meta:
   title:

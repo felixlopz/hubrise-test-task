@@ -1,6 +1,6 @@
 ---
 title: Too Many Accounts Were Created for My Business. How Can I Clear the System?
-position: 50
+position: 60
 layout: documentation
 meta:
   title:

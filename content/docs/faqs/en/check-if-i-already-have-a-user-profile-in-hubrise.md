@@ -1,6 +1,6 @@
 ---
 title: How Do I Check If I already Have a User Profile in HubRise?
-position: 20
+position: 70
 layout: documentation
 meta:
   title:
@@ -11,4 +11,4 @@ The easiest way to see if you have a user profile in HubRise is by using the [Lo
 
 If you do not have a HubRise user profile, a message will be displayed indicating that the email address is not registered. To create a new profile, use the [HubRise Registration page](https://manager.hubrise.com/signup).
 
-![User not verified screen](../../images/045-faq-verify-user-profile.png)
+![User not verified screen](../../images/045-en-faq-verify-user-profile.png)
