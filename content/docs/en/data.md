@@ -33,7 +33,7 @@ To filter orders by start and end date:
 
 -----------
 
-**Related FAQ**: <Link to="/docs/faq-check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
 
 ----------------
 

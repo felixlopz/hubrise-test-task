@@ -13,7 +13,7 @@ Apps are connected either with a HubRise Account or Location depending on the ap
 
 ------
 
-**Related FAQ**: <Link to="/docs/faq-what-app-can-i-connect-to-hubrise/">What App Can I Connect to HubRise?</Link>
+**Related FAQ**: <Link to="/docs/faqs/what-app-can-i-connect-to-hubrise/">What App Can I Connect to HubRise?</Link>
 
 ------
 
@@ -45,7 +45,7 @@ To display a line chart with the number of transactions made in the last 30 days
 
 ------
 
-**Related FAQ**: <Link to="/docs/faq-check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
 
 ------
 
@@ -96,7 +96,7 @@ For more information, see [Understanding Logs in HubRise](/docs/understanding-lo
 
 ------
 
-**Related FAQ**: <Link to="/docs/faq-check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
 
 ------
 

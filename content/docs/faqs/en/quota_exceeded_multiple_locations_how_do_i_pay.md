@@ -1,6 +1,6 @@
 ---
 title: My Quota is Exceeded and I Have Multiple Locations, How Do I Pay?
-position: 100
+position: 70
 layout: documentation
 meta:
   title:
@@ -13,7 +13,9 @@ First, set your payment method:
 2. Go to **SETTINGS** > **ACCOUNTS**.
 3. Select the Account to update. Users that only have one Account will have that one selected by default.
 4. If there is no existing payment method, click **Add payment method**. Enter your credit card information. Credit cards must be valid to be accepted.
-5. When finished, click **Save**.<video controls title="Add payment type"><source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/></video>
+5. When finished, click **Save**.
+
+<video controls title="Add payment type"><source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/></video>
 
 Once you have your credit card saved, your plan will upgrade automatically if you exceed your current plan. To validate the first payment, it is recommended for you to upgrade the plan manually and enter your CVC code when prompted.
 

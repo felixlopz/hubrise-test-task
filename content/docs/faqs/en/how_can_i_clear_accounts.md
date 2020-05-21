@@ -1,13 +1,13 @@
 ---
 title: Too Many Accounts Were Created for My Business. How Can I Clear the System?
-position: 100
+position: 50
 layout: documentation
 meta:
   title:
   description:
 ---
 
-## There are ways to manage these extra Accounts.
+There are ways to manage these extra Accounts.
 
 - Update the name of the Accounts to more easily differentiate them. For example, if you created Accounts to test connections, you might add **Test** to their name. For more information on renaming Accounts, see [Accounts](/docs/settings/#accounts).
 - Removing your profile from an Account will prevent you from seeing it:

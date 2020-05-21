@@ -1,6 +1,6 @@
 ---
 title: My Quota is Exceeded and I Have One Location. How do I Pay?
-position: 100
+position: 90
 layout: documentation
 meta:
   title:
@@ -19,7 +19,7 @@ First, set your payment method:
 6. When finished, click **Save**.
 
 <video controls title="Add payment type">
-  <source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/>
+  <source src="../../images/040-settings-payment-add-payment-type.webm" type="video/webm"/>
 </video>
 
 Once you have your credit card saved, your plan will upgrade automatically exceed your current plan. To validate the first payment, it is recommended for you to upgrade the plan manually and enter your CVC code when prompted.

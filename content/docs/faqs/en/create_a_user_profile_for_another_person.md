@@ -1,6 +1,6 @@
 ---
 title: How Do I Create a User Profile for Another Person?
-position: 100
+position: 30
 layout: documentation
 meta:
   title: 

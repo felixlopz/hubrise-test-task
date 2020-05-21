@@ -15,7 +15,7 @@ You must be a registered user to connect to HubRise. Registration is free, and o
 
 ------
 
-**Related FAQ**: <Link to="/docs/faq-create-a-user-profile-for-another-person/">How Do I Create a User Profile for Another Person?</Link>
+**Related FAQ**: <Link to="/docs/faqs/create-a-user-profile-for-another-person/">How Do I Create a User Profile for Another Person?</Link>
 
 ------
 
@@ -27,7 +27,7 @@ Registered users can log in to HubRise directly from the [HubRise Login page](ht
 
 ------
 
-**Related FAQ**: <Link to="/docs/faq-check-if-i-already-have-a-user-profile-in-hubrise/">How Do I Check If I Already Have a User Profile in HubRise?</Link>
+**Related FAQ**: <Link to="/docs/faqs/check-if-i-already-have-a-user-profile-in-hubrise/">How Do I Check If I Already Have a User Profile in HubRise?</Link>
 
 ------
 
@@ -66,7 +66,7 @@ Once connected, users with a single Account will have that one selected by defau
 
 ------
 
-**Related FAQ**: <Link to="/docs/faq-how-can-i-clear-accounts/">Too Many Accounts Were Created for My Business. How Can I Clear the System?</Link>
+**Related FAQ**: <Link to="/docs/faqs/how-can-i-clear-accounts/">Too Many Accounts Were Created for My Business. How Can I Clear the System?</Link>
 
 ------
 

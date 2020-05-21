@@ -1,6 +1,6 @@
 ---
 title: Can My Plan Be Paused During Setup and Test Phases?
-position: 100
+position: 60
 layout: documentation
 meta:
   title:

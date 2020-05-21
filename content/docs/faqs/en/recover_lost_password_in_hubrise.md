@@ -15,4 +15,4 @@ If you are a registered user but you have lost or forgotten your password, go to
 
 ----------------
 
-![Reset password page](../images/002-reset-password.png)
+![Reset password page](../../images/002-reset-password.png)
