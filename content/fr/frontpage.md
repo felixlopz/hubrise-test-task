@@ -50,7 +50,7 @@ content:
       hint_1: (commerçants)
       link_2:
         text: Connectez votre logiciel à HubRise
-        to: /developpeurs
+        to: /developers
       hint_2: (développeurs)
     carousel:
       - file: logo_carousel.jpg

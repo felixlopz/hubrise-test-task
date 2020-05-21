@@ -241,8 +241,8 @@ const createRedirects = (actions) => {
   })
 
   actions.createRedirect({
-    fromPath: '/fr/developpeurs/api/',
-    toPath: '/fr/developpeurs/api/general-concepts/',
+    fromPath: '/fr/developers/api/',
+    toPath: '/fr/developers/api/general-concepts/',
     isPermanent: true,
     redirectInBrowser: true
   })
