@@ -1,6 +1,6 @@
 ---
 title: FAQs
-position: 7
+position: 16
 layout: documentation
 meta:
   title: HubRise Frequently Asked Questions
