@@ -300,9 +300,9 @@ To update your payment method for an Account or Location:
    2. To update the payment method for a Location, select the Account, then select the Location, and scroll down to the Payment section.
 2. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
 3. Enter your credit card information. Credit cards must be valid to be accepted.
-4. When finished, click **Save**. <video controls title="Add payment type"><source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/></video>
+4. When finished, click **Save**.
 
-[comment]: # (Video not showing)
+<video controls title="Add payment type"><source src="../images/040-settings-payment-add-payment-type.webm" type="video/webm"/></video>
 
 #### Process Pending Quotes
 
@@ -314,10 +314,8 @@ To process a payment from the notification:
 2. Click **View the earliest quote **link, then click **Pay**. To check on all unpaid quotes, click **check your account** from the notification.
 
 <video controls title="Pay subscription example">
-  <source src="../images/022-pay-subscription.webm" type="video/webm"/>
+  <source src="../images/041-en-process-pending-quotes.webm" type="video/webm"/>
 </video>
-
-[comment]: # (Video not showing)
 
 #### Payment History
 
