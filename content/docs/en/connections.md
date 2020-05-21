@@ -86,7 +86,7 @@ Each log record includes:
 - **Response**: The HTTP response code.
 
 You can see additional details by clicking on a log, including the request and the corresponding response.
-To download either the request or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-en-download.png)</InlineImage>. The selected request or response will be provided as a JSON file.
+To download either the request or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected request or response will be provided as a JSON file.
 
 For more information, see [Understanding Logs in HubRise](/docs/understanding-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 

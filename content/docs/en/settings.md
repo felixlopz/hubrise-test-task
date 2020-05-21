@@ -39,7 +39,7 @@ The Profile page includes information on your **Permissions**. This includes:
 - The **Account** and **Location** that you have access to.
 - The **Role** you have been assigned for the Account or Location.
 
-To remove your granted permission to an Account, select the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage>
+To remove your granted permission to an Account, select the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>
 
 ----------------
 
@@ -328,7 +328,7 @@ Select **Payment history** to display all payments made for the selected HubRise
 - **Description**: The purpose of the charge.
 - **Payment Method**: The specific payment method used for this charge.
 
-Admin users receive invoices via email. The invoice can also be saved as a PDF file by selecting the download icon <InlineImage width="15" height="14">![Download icon](../images/058-en-download.png)</InlineImage>.
+Admin users receive invoices via email. The invoice can also be saved as a PDF file by selecting the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>.
 
 ![Invoice example](../images/043-en-2x-invoice-example.png)
 
@@ -365,7 +365,7 @@ To add a user:
 2. In the Permissions section, select **Add**.
 3. Enter the user’s email address in the column marked **EMAIL**.
 4. In the **ROLE** column, set the new user’s role as Admin or Manager.
-5. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-en-add-icon.png)</InlineImage> to add the new user.
+5. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
 
 <video controls title="Add user example">
   <source src="../images/023-en-permissions-add-user.webm" type="video/webm"/>
@@ -375,7 +375,7 @@ To add a user:
 
 To remove a user:
 
-1. Click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage>for the user to remove.
+1. Click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>for the user to remove.
 2. When prompted, click **Delete** to confirm removing the user.
 
 ----------------
@@ -453,7 +453,7 @@ Removing a catalog from HubRise does not effect the product list in third party 
 
 To remove a catalog:
 
-1. In the **SETTINGS** > **ACCOUNTS** > **Catalogs** section, click the remove icon<InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage> for the catalog to delete.
+1. In the **SETTINGS** > **ACCOUNTS** > **Catalogs** section, click the remove icon<InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage> for the catalog to delete.
 2. Click **Delete** to confirm the removal of the catalog.
 
 ### Customer Lists
@@ -505,7 +505,7 @@ To change the name of a customer list:
 
 Customer lists can only be deleted when there are no active connections to them from an app, or when removing them will leave no Customer lists connected to the Account.
 
-1. In **SETTINGS** > **ACCOUNTS** > **Customer lists** section, click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-en-2x-trash-icon.png)</InlineImage>for the customer list to delete.
+1. In **SETTINGS** > **ACCOUNTS** > **Customer lists** section, click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>for the customer list to delete.
 2. Click **Delete** to confirm.
 
 ## Developer
