@@ -11,7 +11,7 @@ content:
       paragraph_1_link_text: Contactez-nous
       paragraph_2_text: Vous êtes développeur et souhaitez intégrer votre application à HubRise ?
       paragraph_2_link_text: Voir la documentation technique
-      paragraph_2_link_to: /developpeurs
+      paragraph_2_link_to: /developers
   sections:
     - title: Logiciels de caisse
       has_suggest_app: true

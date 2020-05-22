@@ -15,18 +15,18 @@ content:
   thumbs:
     - title: Démarrage rapide
       description: En 10 minutes, envoyez vos premières requêtes à l'API (en anglais)
-      to: /developpeurs/quick-start
+      to: /developers/quick-start
       icon: fa-fast-forward
     - title: Référence de l'API
       description: Toutes les ressources de l'API sont documentées ici (en anglais)
-      to: /developpeurs/api/general-concepts
+      to: /developers/api/general-concepts
       icon: fa-cogs
     - title: Authentification
       description: Introduction à OAuth 2.0 et son implémentation dans HubRise (en anglais)
-      to: /developpeurs/authentication
+      to: /developers/authentication
       icon: fa-sign-out
     - title: Intégration
       description: Checklist d'intégration, couvrant plusieurs types d'applications (en anglais)
-      to: /developpeurs/integration
+      to: /developers/integration
       icon: fa-list-alt
 ---
