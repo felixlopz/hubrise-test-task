@@ -45,30 +45,24 @@ If you are a registered user but you have lost or forgotten your password, go to
 
 ## Accounts and Locations
 
-Most users have one Account with one or more locations to manage. You may also have multiple Accounts, each with multiple Locations to manage.
+An **Account** identifies your brand. **Locations** refers to the point of sales within this brand, they typically correspond to physical outlets.
 
-An **Account** identifies your brand. **Locations** refers to the point of sales within this brand, typically physical outlets, but can also refer to online stores separate from the physical locations.
-
-Accounts can have one or more locations. A small business may have one Account with one Location, while a larger business may have one Account with multiple Locations tied to the same Account.
-
-Accounts are named after the brand, while Locations are named after the city or physical outlet. For example, the brand **Fast Pizza** might have the multiple locations in London named after their street address **Baker Street**, **Dublin Street**, and **Duncannon Street**. Another brand **Best Borscht** might only have one location in London.
+A small business may have one Account with one Location, while a larger business may have one Account with multiple Locations tied to the same Account.
 
 ![Accounts and Locations example](../images/046-en-2x-accounts-locations.png)
 
-Once connected, users with a single Account will have that one selected by default. For users with multiple Accounts, you can select the Account to display during your HubRise session. If you want to get an overall view of an Account’s performance, select all Locations. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
+ If you want to get an overall view of an Account’s performance, select all Locations. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
+ 
+ - For users with multiple Accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Account** and select the Account to display.
+ - To display data on all Locations or for a specific Location, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Location** and select either **All locations** or the specific location.
 
-- For users with multiple Accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Account** and select the Account to display.
-- To display data on all Locations or for a specific Location, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Location** and select either **All locations** or the specific location.
+
+For more information on Account, see [Accounts](/docs/account/). For more information on Locations, see [Locations](/docs/locations/).
 
 <video controls title="Display account from Dashboard">
   <source src="../images/008-en-access-account-from-dashboard.webm" type="video/webm"/>
 </video>
 
-------
-
-**Related FAQ**: <Link to="/docs/faqs/how-can-i-clear-accounts/">Too Many Accounts Were Created for My Business. How Can I Clear the System?</Link>
-
-------
 
 ## Set Language Preference
 
@@ -84,7 +78,7 @@ You can also set your preferred language for all communications from HubRise (su
 
 Your HubRise user profile may be connected to multiple Accounts and locations based on permissions. For more information, see [Accounts and Locations](/docs/getting-started/#accounts-and-locations).
 
-You can view the settings for the HubRise Account you are working in by selecting the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and click **Account**. You can also access all of your Accounts by selecting **SETTINGS** > **ACCOUNTS** from the left navigation panel. For more information on your user profile, see [Account](/docs/account).
+You can view the settings for the HubRise Account you are working in by selecting the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and click **Account**. You can also access all of your Accounts by selecting **SETTINGS** > **ACCOUNTS** from the left navigation panel. 
 
 <video controls title="Access user profile from Dashboard">
   <source src="../images/049-en-access-account-from-dashboard.webm" type="video/webm"/>

@@ -90,6 +90,8 @@ To download either the request or response, select the download icon <InlineImag
 
 For more information, see [Understanding Logs in HubRise](/docs/understanding-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 
+[comment]: # (Understanding Logs in HubRise link not working)
+
 <video controls title="Log details">
   <source src="../images/013-en-connections-view-logs.webm" type="video/webm"/>
 </video>
