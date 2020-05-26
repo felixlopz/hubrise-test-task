@@ -15,7 +15,7 @@ There is no single strategy that can debug all possible issues, but the followin
 
 ## Error Codes
 
-Every request is associated with a response code. For more information, see [Response Code](#heading=h.93fhru81tquq). This is the first detail to check for possible errors. 
+Every request is associated with a response code. For more information, see [Response Code](../json-requests-in-hubrise#code). This is the first detail to check for possible errors. 
 
 Any value different from 200 might indicate that one request in the chain failed to get through, causing the entire order to be rejected. 
 

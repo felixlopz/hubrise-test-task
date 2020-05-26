@@ -23,6 +23,8 @@ The typical case is the creation of an order in an app connected with HubRise. W
 
 Finally, a request can automatically trigger other requests to different apps. For example, an order creation request can trigger a request to a loyalty solution to obtain information about the customer. These automatic requests are callbacks, and each of them has a request and a response. Callbacks are always sent by HubRise to a third-party application. 
 
+![Components of API Requests in HubRise](../images/001-en-components-api-request.png)
+
 ## Logs and Requests in HubRise
 
 In the HubRise back office, each subsection in **DATA** provides more information through their log page. 
@@ -37,6 +39,8 @@ For each request, the following information is displayed.
 * **CODE**: The response code.
 
 Each row can be further expanded to reveal detailed information about the request, the response, and possible callbacks associated with it.
+
+![Example of Request and Callback in HubRise](../images/002-request-callback-example.webm)
 
 ## A Typical HubRise Request
 
@@ -91,17 +95,19 @@ The headers are the metadata that accompany each request. The most important pie
 
 It appears in each request under the **X-Access-Token** key, and is partially hidden for security reasons. 
 
+![Authentication Token in HubRise Request](../images/003-en-access-token-arrow.png)
+
 ### Body
 
-The body is the JSON content of the request. For an example of a JSON content, see [A Practical Example](#heading=h.7990gcqp8hab). 
+The body is the JSON content of the request. For an example of a JSON content, see [A Practical Example](../a-practical-example). 
 
-For more details about the JSON content of the requests in HubRise, see [HubRise Data Model](#heading=h.h13r3c4ulho0).
+For more details about the JSON content of the requests in HubRise, see [HubRise Data Model](../hubrise-data-model).
 
 ## A Typical HubRise Response
 
 ### Code
 
-The response code tells the outcome of the request. The code 200 indicates a successful request, while other codes are related to various types of errors. The following table highlights the main errors. For possible troubleshooting strategies depending on the code, see [Troubleshooting Requests](#heading=h.iql60f5rzbt5). 
+The response code tells the outcome of the request. The code 200 indicates a successful request, while other codes are related to various types of errors. The following table highlights the main errors. For possible troubleshooting strategies depending on the code, see [Troubleshooting Requests](../troubleshooting-requests). 
 
 | Response Code | Description                                                                           |
 |---------------|---------------------------------------------------------------------------------------|
