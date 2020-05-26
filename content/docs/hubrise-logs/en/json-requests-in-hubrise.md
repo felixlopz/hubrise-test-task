@@ -40,7 +40,10 @@ For each request, the following information is displayed.
 
 Each row can be further expanded to reveal detailed information about the request, the response, and possible callbacks associated with it.
 
-![Example of Request and Callback in HubRise](../images/002-request-callback-example.webm)
+<video controls title="Example of Request and Callback in HubRise">
+  <source src="../images/002-request-callback-example.webm" type="video/webm"/>
+</video>
+
 
 ## A Typical HubRise Request
 
