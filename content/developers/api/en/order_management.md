@@ -464,11 +464,19 @@ If order payments are omitted, the order should be considered as not paid.
 
 | Name                             | Type                                                      | Description                                                                                                          |
 | -------------------------------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `type`                           | string                                                    | Either `online`, `gift_card` or `cash`                                                                               |
+| `type`                           | string                                                    | Can be `cash`, `online`, or `third_party`                                                                                |
 | `name` <Label type="optional" /> | string                                                    | The name of the payment method                                                                                       |
 | `info` <Label type="optional" /> | object                                                    | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method |
 | `ref` <Label type="optional" />  | string                                                    | Identifies the payment method                                                                                        |
 | `amount`                         | [Money](/developers/api/general-concepts/#monetary-value) | Amount paid with this payment method                                                                                 |
+
+#### Payment types:
+
+- `cash`: the customer pays by cash to the store.
+
+- `online`: the customer pays online to an account owned by the store.
+
+- `third_party`: the customer pays to a third party which then passes part or all of the payment to the store. Examples include gift card companies and food aggregators.
 
 #### Example:
 
@@ -484,7 +492,7 @@ If order payments are omitted, the order should be considered as not paid.
     "amount": "15.00 EUR"
   },
   {
-    "type": "gift_card",
+    "type": "third_party",
     "name": "Freebies4me",
     "info": {
       "card_id": "648664679312"
