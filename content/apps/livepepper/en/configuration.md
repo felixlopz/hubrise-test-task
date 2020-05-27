@@ -9,7 +9,7 @@ meta:
 
 Once your LivePepper site is connected with a HubRise account, customer and order information will be pushed into HubRise automatically. For the connection to work with all apps in LivePepper, some configuration on the LivePepper side may be needed. This is particularly true for the connection with an EPOS.
 
-Your LIvePepper menu can either be created directly in LivePepper, or imported from a previously existing HubRise catalog. To properly process orders from LivePepper to your EPOS, product codes are required for the following menu items:
+Your LivePepper menu can either be created directly in LivePepper, or imported from a previously existing HubRise catalog. To properly process orders from LivePepper to your EPOS, product codes are required for the following menu items:
 
 - **Product Category** values including:
   - **Variants**: Variants are available differences in a product. For example: Pizza with thin crust versus pizza with hand tossed crust.
