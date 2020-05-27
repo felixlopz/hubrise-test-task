@@ -42,7 +42,7 @@ With the test order created in LivePepper, the next step is to verify that the o
 2. If prompted, log into your HubRise user account.
 3. From HubRise, click **Data** > **Orders**. The new Order will be displayed.
 4. Click the new Order to verify the customer and order information is accurate.
-5. The **Logs** section will contain the detailed JSON records of the communication between LivePepper and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/understanding-logs).
+5. The **Logs** section will contain the detailed JSON records of the communication between LivePepper and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).
 
 ## HubRise Definitions vs LivePepper Definitions
 
