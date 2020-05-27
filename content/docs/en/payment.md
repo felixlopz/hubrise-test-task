@@ -43,16 +43,22 @@ To add a payment method for an Account or Location:
 
 ## Process Pending Quotes
 
-When a plan has been changed, the payment must be authorized before the credit charge can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Usage](#usage).
+When a plan has been changed, the payment must be authorized before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Usage Plans](/docs/usage-plan/#usage-plans).
 
 To process a payment from the notification:
 
-1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Payment](#payment).
+1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
 2. Click **View the earliest quote **link, then click **Pay**. To check on all unpaid quotes, click **check your account** from the notification.
 
 <video controls title="Pay subscription example">
   <source src="../images/041-en-process-pending-quotes.webm" type="video/webm"/>
 </video>
+
+-----------
+
+**Related FAQ**: <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">What Happens If My Free Plan Quota Is Exceeded?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">My Quota is Exceeded and I Have One Location. How do I Pay?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">My Quota is Exceeded and I Have Multiple Locations with Different Payment Methods. How do I Pay?</Link>, <Link to="/docs/faqs/pause-plan-during-setup-and-test-phases/">Can My Plan Be Paused During Setup and Test Phases?</Link>
+
+----------------
 
 ## Payment History
 

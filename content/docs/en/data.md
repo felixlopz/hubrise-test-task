@@ -88,7 +88,7 @@ Depending on which tab is selected, the following attributes are available:
 - **VARIANT**: The SKU or product size. For example, the product reference may be `boots_waterproof_size_28_black`, with the name Waterproof boots, and the variant as Size 28 and black colour. Another set of boots may have the reference `boots_waterproof_size_32_brown the name`, with the name Waterproof boots, and the variant as Size 32 and brown colour.
 - **PRICE**: The price of the product, and the currency used.
 
-To see full log file details of all requests effecting catalogs, click View logs. For more information see [Logs](/docs/#logs).
+To see full log file details of all requests effecting catalogs, click View logs. For more information see [Logs](/docs/data/#logs).
 
 <video controls title="Catalog tabs">
   <source src="../images/039-en-data-catalog-tabs.webm" type="video/webm"/>
@@ -114,7 +114,9 @@ Further log details are available for advanced users and developers to view app 
 
 2. To download either the query or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected query or response will be provided as a JSON file.
 
-For more information, see [Understanding Logs in HubRise](/docs/understanding-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
+For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
+
+[comment]: # (Understanding Logs in HubRise link not working)
 
 <video controls title="View logs example">
   <source src="../images/037-en-data-customers-view-logs.webm" type="video/webm"/>
