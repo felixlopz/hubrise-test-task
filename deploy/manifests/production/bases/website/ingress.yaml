@@ -11,6 +11,7 @@ metadata:
     nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
     nginx.ingress.kubernetes.io/configuration-snippet: |
       # 05/2020
+      rewrite ^/fr/developpeurs https://www.hubrise.com/fr/developers permanent;
       rewrite ^/fr/developpeurs/authentication https://www.hubrise.com/fr/developers/authentication permanent;
       rewrite ^/fr/developpeurs/integration https://www.hubrise.com/fr/developers/integration permanent;
       rewrite ^/fr/developpeurs/overview https://www.hubrise.com/fr/developers/overview permanent;

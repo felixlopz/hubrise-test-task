@@ -18,7 +18,7 @@ You can add or remove users for the HubRise Account, or for specific Locations. 
 2. For users with multiple Accounts, select the Account containing the specific Location.
 3. Click the Location to modify.
 
-You can also view and edit your own permissions from **SETTINGS** > **PROFILE**. For more information, see [Profile and Password](#profile-and-password).
+You can also view and edit your own permissions from **SETTINGS** > **PROFILE**. For more information, see [Profile and Password](/docs/profile-password/).
 
 ## Add a User
 

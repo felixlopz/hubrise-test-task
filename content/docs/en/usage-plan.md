@@ -32,9 +32,9 @@ When there is an issue with a plan, Account admins will receive an email and hav
 - When a location has exceeded its free transactions limits and no payment method was saved in HubRise.
 - Credit card has expired and needs an update.
 - The credit card cannot be processed after a couple of automated payment attempts. For safety reasons, your bank might require you to enter the 3-digit security code again.
-- A credit card has been saved in HubRise for payments but outstanding quotes have not been paid. For more information, see [Payment](#payment).
+- A credit card has been saved in HubRise for payments but outstanding quotes have not been paid. For more information, see [Process Pending Quotes](/docs/payment/#process-pending-quotes).
 
-If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information, see [Usage](#usage).
+If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information on available plans, see [Usage Plans](#usage-plans).
 
 ![Pay subscription](../images/022-en-pay-subscription.png)
 
@@ -46,7 +46,7 @@ If a payment notification appears, click the link and follow the instructions to
 
 ## Change Plan
 
-You can change your plan to best meet your needs and the traffic of your business at any time without being over charged. For more details, see [Usage](#usage).
+You can change your plan to best meet your needs and the traffic of your business at any time without being over charged. For more details, see [Usage Plans](#usage-plans).
 
 To change your plan for a location:
 
@@ -58,6 +58,6 @@ To change your plan for a location:
 
 ----------------
 
-**IMPORTANT NOTE**: If upgrading, you must have your Payment type set. For information on setting your payment method, see [Payment](#payment). Your Account will not be charged until you exceed the free monthly limitation.
+**IMPORTANT NOTE**: To upgrade, you must have a payment method setup. For information, see [Add a Payment Method](/docs/payment/#add-a-payment-method). Your Account will not be charged until you exceed the free monthly limitation.
 
 ----------------
