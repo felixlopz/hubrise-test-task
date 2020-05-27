@@ -14,7 +14,7 @@ Consider again the original order:
 
 "*One pizza margherita, with olives as optional toppings, and two bacon burgers, for a total amount of 20.45 euros, to be paid in cash upon collection."*
 
-For more details, see [A Practical Example](../a-practical-example).
+For more details, see [A Practical Example](/docs/hubrise-logs/a-practical-example).
 
 One possible translation of this order into JSON format is the following. 
 
@@ -50,7 +50,7 @@ One possible translation of this order into JSON format is the following.
 
 The first thing to notice in the JSON request above is the indentation, that is the amount of blank spacing on the left before the start of the line. 
 
-At level 0 of indentation, there are the two curly brackets that mark the beginning and end of the request. At level 1 there are the items, payment and service type nodes. The higher the level of indentation, the deeper is the element in the structure of the JSON object. Notice that these levels coincide with those in the diagram presented before. For more details, see [Organising Information](../organising-information).  
+At level 0 of indentation, there are the two curly brackets that mark the beginning and end of the request. At level 1 there are the items, payment and service type nodes. The higher the level of indentation, the deeper is the element in the structure of the JSON object. Notice that these levels coincide with those in the diagram presented before. For more details, see [Organising Information](/docs/hubrise-logs/organising-information).  
 
 Each level of indentation depends on the level hierarchically above. So, to know how many bacon burgers are present in the order, proceed as follows:
 

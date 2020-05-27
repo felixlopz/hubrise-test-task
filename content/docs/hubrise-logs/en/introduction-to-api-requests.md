@@ -11,7 +11,7 @@ meta:
 
 API requests are at the core of the communication between different systems. In non-technical terms, they convey the necessary information to push or pull data from a system and modify its state. For example, an online ordering system connected to HubRise can use API requests to send the details about a new order to HubRise.
 
-The actual content of the request is a JSON object with key-value pairs of information that follow a predefined syntax. For more information, see [Organising Information](../organising-information) and [Understanding JSON Syntax](../understanding-json-syntax). However, an API request is more than just its content. 
+The actual content of the request is a JSON object with key-value pairs of information that follow a predefined syntax. For more information, see [Organising Information](/docs/hubrise-logs/organising-information) and [Understanding JSON Syntax](/docs/hubrise-logs/understanding-json-syntax). However, an API request is more than just its content. 
 
 ## Components of API Requests
 

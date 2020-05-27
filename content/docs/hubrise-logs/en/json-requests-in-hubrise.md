@@ -102,15 +102,15 @@ It appears in each request under the **X-Access-Token** key, and is partially hi
 
 ### Body
 
-The body is the JSON content of the request. For an example of a JSON content, see [A Practical Example](../a-practical-example). 
+The body is the JSON content of the request. For an example of a JSON content, see [A Practical Example](/docs/hubrise-logs/a-practical-example). 
 
-For more details about the JSON content of the requests in HubRise, see [HubRise Data Model](../hubrise-data-model).
+For more details about the JSON content of the requests in HubRise, see [HubRise Data Model](/docs/hubrise-logs/hubrise-data-model).
 
 ## A Typical HubRise Response
 
 ### Code
 
-The response code tells the outcome of the request. The code 200 indicates a successful request, while other codes are related to various types of errors. The following table highlights the main errors. For possible troubleshooting strategies depending on the code, see [Troubleshooting Requests](../troubleshooting-requests). 
+The response code tells the outcome of the request. The code 200 indicates a successful request, while other codes are related to various types of errors. The following table highlights the main errors. For possible troubleshooting strategies depending on the code, see [Troubleshooting Requests](/docs/hubrise-logs/troubleshooting-requests). 
 
 | Response Code | Description                                                                           |
 |---------------|---------------------------------------------------------------------------------------|
