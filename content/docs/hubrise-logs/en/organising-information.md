@@ -20,7 +20,7 @@ They are separated by a colon, with the key on the left and the value on the rig
 
 ```json
 {
-"pizza": "round"
+  "pizza": "round"
 }
 ```
 
@@ -63,7 +63,7 @@ The corresponding JSON for this example would be the following.
 {
     "pizza margherita": {
         "ingredients": [
-        	"tomato",
+          "tomato",
           "mozzarella"
         ]
     }
