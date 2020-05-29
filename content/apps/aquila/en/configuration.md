@@ -42,4 +42,4 @@ The settings for the Hubrise module can be accessed via two ways:
 
 After [installing and activating the plugin](/apps/aquila/getting-started/), the following settings will be populated automatically: Client ID, Client secret, Account ID, Catalog ID, Customer list ID.
 
-![](../images/hubrise_settings.PNG)
+![](../images/hubrise_settings.png)

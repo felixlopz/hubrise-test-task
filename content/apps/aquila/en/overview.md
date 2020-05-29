@@ -6,7 +6,7 @@ meta:
   title: Aquila CMS Connection to HubRise Overview
   description: Overview of Aquila CMS and how to connect it to HubRise.
 gallery:
-  - aquila_main.PNG
+  - aquila_main.png
 path_override: /
 app_info:
   category: Online ordering
