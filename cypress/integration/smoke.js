@@ -5,17 +5,8 @@ describe(`website`, () => {
 
       '/apps',
 
-      '/apps/ikentoo',
-      '/apps/ikentoo/developer_guide',
-      '/apps/ikentoo/installation',
-      '/apps/ikentoo/integration_guide',
-
       '/apps/livepepper',
       '/apps/livepepper/integration_guide',
-
-      '/apps/myorderbox',
-      '/apps/myorderbox/installation',
-      '/apps/myorderbox/integration_guide',
 
       '/developers',
       '/developers/authentication',
