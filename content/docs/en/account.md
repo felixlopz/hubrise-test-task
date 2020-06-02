@@ -55,7 +55,7 @@ It is important to enter the correct **Currency** as you will not be able to cha
 
 ------
 
-**Related FAQ**: <Link to="/docs/faqs/how-can-i-clear-accounts/">Too Many Accounts Were Created for My Business. How Can I Clear the System?</Link>
+**Related FAQ**: <Link to="/docs/faqs/how-can-i-clear-accounts/">Too Many Accounts for My Business on HubRise. How Can I Clear the System?</Link>
 
 ------
 
