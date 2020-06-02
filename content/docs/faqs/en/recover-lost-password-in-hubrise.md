@@ -3,8 +3,8 @@ title: I Lost My Password. How Do I Recover It?
 position: 80
 layout: documentation
 meta:
-  title:
-  description:
+  title: HubRise Password
+  description: Recover your password on HubRise.
 ---
 
 If you are a registered user but you have lost or forgotten your password, go to the [HubRise Reset password page](https://manager.hubrise.com/reset_password/new). Enter the email address associated with your HubRise user profile, and click **Reset Password**. You will receive an email with instructions on how to reset your password. Once complete, you will be able to log in to your HubRise user profile again.

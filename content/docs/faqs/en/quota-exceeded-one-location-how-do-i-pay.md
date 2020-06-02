@@ -3,8 +3,8 @@ title: My Quota is Exceeded and I Have One Location. How do I Pay?
 position: 20
 layout: documentation
 meta:
-  title:
-  description:
+  title: HubRise Payment on Exceeded Quota
+  description: Payment for one location on exceeded quota.
 ---
 
 For Accounts with one Location, you’ll set your credit card information at the **Account** level through these steps, and then upgrade your Location’s plan.

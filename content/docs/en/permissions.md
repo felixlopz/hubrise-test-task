@@ -9,8 +9,8 @@ meta:
 
 Permissions lists the users, their email address, and role. The role refers to the list of actions the user is able to take. HubRise supports the following roles:
 
-- **Admin**: Admins have access to all areas of HubRise, including invoice. They are responsible for keeping the Payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users.
-- **Manager**: Managers have access to all areas except HubRise invoices. They will not receive notifications regarding payments to HubRise.
+- **Admin**: Admins have access to all areas of HubRise, including invoice. They are responsible for keeping the payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users.
+- **Manager**: Managers have access to all areas except HubRise invoices. They will not receive notifications emails on outstanding payments to HubRise.
 
 You can add or remove users for the HubRise Account, or for specific Locations. To view and update the permissions for a Location:
 
@@ -45,7 +45,7 @@ To remove a user:
 
 ----------------
 
-**IMPORTANT NOTE**: You can not remove your own user profile from **Permissions**. To remove your profile from an Account, set another user as an Admin, and have them remove your profile from the Account.
+**IMPORTANT NOTE**: An account cannot be left without Admin. Before you remove your user profile from an Account make sure there is an Admin user with permissions. If not, you can change permissions of an existing user or give Admin permissions to **test@hubrise.com**.
 
 ----------------
 
