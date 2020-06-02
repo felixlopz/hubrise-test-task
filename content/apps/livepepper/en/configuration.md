@@ -56,7 +56,7 @@ LivePepper support does support inserting those POS codes for you, if contracted
 
 ### Add POS Codes to Products
 
-Products have different POS codes for each **Prices & Availabilit**.
+Products have different POS codes for each **Prices & Availability**.
 
 To update the POS code for each product and its prices & availability:
 
