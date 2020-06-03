@@ -348,7 +348,7 @@ Order items which are part of a deal include a `deal_line` field. This field is 
 | `deal_key`                                 | string  | A key in the order's `deals` object.                                                                                                                                 |
 | `label` <Label type="optional" />          | string  | Content of the deal line, for instance "Drink".                                                                                                                      |
 | `pricing_effect` <Label type="optional" /> | string  | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                   |
-| `pricing_value` <Label type="optional" />  | depends | The presence and value of this field depends on `pricing_effect`. It is a Money for `fixed_price` and `price_off`, a decimal between 0 and 100 for `percentage_off`. |
+| `pricing_value` <Label type="optional" />  | depends | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-value) for `fixed_price` and `price_off`, a string containing a decimal number between 0 and 100 for `percentage_off`, and `null` for `unchanged`.  |
 
 `deal_key` associates an order item to a particular order deal. The particular value of a key has no significance and HubRise renumbers the keys to: "0", "1", …
 

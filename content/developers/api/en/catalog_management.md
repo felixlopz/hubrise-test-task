@@ -594,7 +594,7 @@ Retrieve an option list and the possible choices (options).
       "id": "m9d6e",
       "name": "BBQ",
       "ref": "BBQ",
-      "price": null
+      "price": "2.50 EUR"
     },
     ...
   ]
@@ -634,8 +634,8 @@ Retrieve an option list and the possible choices (options).
 | ----------------------------------- | --------------------------------------------------------- | ------------------------------------- |
 | `ref` <Label type="optional" />     | string                                                    | The ref of the option.                |
 | `name`                              | string                                                    | The name of the option.               |
-| `price` <Label type="optional" />   | [Money](/developers/api/general-concepts/#monetary-value) | The price of the option.              |
-| `default` <Label type="optional" /> | boolean                                                   | Whether this option is on by default. |
+| `price`                             | [Money](/developers/api/general-concepts/#monetary-value) | The price of the option. Should be set to `0.00 EUR` (adjust the currency) if the option is free. |
+| `default` <Label type="optional" /> | boolean                                                   | Whether this option is on by default. Default is `false`. |
 | `tags` <Label type="optional" />    | string[]                                                  | List of tags.                         |
 
 #### Example:
@@ -644,7 +644,7 @@ Retrieve an option list and the possible choices (options).
 {
   "name": "Blue",
   "ref": "BLU",
-  "price": "250 EUR",
+  "price": "250.00 EUR",
   "default": true
 }
 ```
@@ -660,9 +660,9 @@ Retrieve an option list and the possible choices (options).
 | ----------------------------------- | --------------------------------------------------------- | ------------------------------------- |
 | `id`                                | string                                                    | The id of the option.                 |
 | `ref` <Label type="optional" />     | string                                                    | The ref of the option.                |
-| `option_list_id`                    | string                                                    | The id of the option's list.          |
+| `option_list_id`                    | string                                                    | The id of the option list.            |
 | `name`                              | string                                                    | The name of the option.               |
-| `price` <Label type="optional" />   | [Money](/developers/api/general-concepts/#monetary-value) | The price of the option.              |
+| `price`                             | [Money](/developers/api/general-concepts/#monetary-value) | The price of the option.              |
 | `default` <Label type="optional" /> | boolean                                                   | Whether this option is on by default. |
 | `tags` <Label type="optional" />    | string[]                                                  | List of tags.                         |
 
@@ -674,9 +674,9 @@ Retrieve an option list and the possible choices (options).
 {
   "id": "m9d6e",
   "ref": "BBQ",
-  "option_list_id": "E2sFJ3",
+  "option_list_id": "e2sj3",
   "name": "BBQ",
-  "price": null
+  "price": "2.50 EUR"
 }
 ```
 
@@ -696,9 +696,9 @@ Retrieve an option list and the possible choices (options).
   {
     "id": "m9d6e",
     "ref": "BBQ",
-    "option_list_id": "E2sFJ3",
+    "option_list_id": "e2sj3",
     "name": "BBQ",
-    "price": null
+    "price": "2.50 EUR"
   },
   ...
 ]
@@ -711,21 +711,22 @@ Retrieve an option list and the possible choices (options).
 #### Parameters:
 
 | Name                                            | Type                          | Description                                                                                                                                                                                                              |
-| ----------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `ref` <Label type="optional" />                 | string                        | The ref of the deal.                                                                                                                                                                                                     |
-| `category_ref` <Label type="optional" />        | string                        | The [category](#categories) this deal will appear in.                                                                                                                                                                    |
-| `name`                                          | string                        | The deal name.                                                                                                                                                                                                           |
-| `description` <Label type="optional" />         | string                        | The description of the deal.                                                                                                                                                                                             |
-| `coupon_codes` <Label type="optional" />        | string[]                      | The coupon codes that trigger this deal.                                                                                                                                                                                 |
-| `restrictions` <Label type="optional" />        | [Restrictions](#restrictions) | Availability restrictions.                                                                                                                                                                                               |
-| `tags` <Label type="optional" />                | string[]                      | List of tags.                                                                                                                                                                                                            |
-| `image_ids` <Label type="optional" />           | string[]                      | List of image ids attached to the deal                                                                                                                                                                                   |
-| `lines`                                         | DealLine[]                    | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                      |
-| `lines.label` <Label type="optional" />         | string                        | A label describing the kind of products that can be chosen in this line.                                                                                                                                                 |
-| `lines.skus`                                    | DealSku[]                     | Skus are referenced by their `ref`. An optional `extra_charge` can be set.                                                                                                                                               |
-| `lines.pricing_effect`                          | string                        | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                       |
-| `lines.pricing_value` <Label type="optional" /> | depends                       | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-value) for `fixed_price` and `price_off`, a decimal between 0 and 100 for `percentage_off`. |
-
+| -------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `ref` <Label type="optional" />                    | string                        | The ref of the deal.                                                                                                                                                                                                     |
+| `category_ref` <Label type="optional" />           | string                        | The [category](#categories) this deal will appear in.                                                                                                                                                                    |
+| `name`                                             | string                        | The deal name.                                                                                                                                                                                                           |
+| `description` <Label type="optional" />            | string                        | The description of the deal.                                                                                                                                                                                             |
+| `coupon_codes` <Label type="optional" />           | string[]                      | The coupon codes that trigger this deal.                                                                                                                                                                                 |
+| `restrictions` <Label type="optional" />           | [Restrictions](#restrictions) | Availability restrictions.                                                                                                                                                                                               |
+| `tags` <Label type="optional" />                   | string[]                      | List of tags.                                                                                                                                                                                                            |
+| `image_ids` <Label type="optional" />              | string[]                      | List of image ids attached to the deal.                                                                                                                                                                                   |
+| `lines`                                            | array                         | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                      |
+| `lines.skus`                                       | array                         | The skus eligible for this line. Skus are referenced by their `ref`.                                                                                                                                                     |
+| `lines.skus.ref`                                   | string                        | The `ref`of the eligible sku.                                                                                                                                                                                            |
+| `lines.skus.extra_charge` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-value) | An optional extra charge applied when the sku is selected.                                                                                                                                                               |
+| `lines.pricing_effect`                             | string                        | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                       |
+| `lines.pricing_value` <Label type="optional" />    | depends                       | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-value) for `fixed_price` and `price_off`, a string containing a decimal number between 0 and 100 for `percentage_off`, and `null` for `unchanged`. |
+| `lines.label` <Label type="optional" />            | string                        | A label describing the type of skus that can be selected in this line.                                                                                                                                                    |
 #### Example:
 
 ```json
@@ -743,7 +744,10 @@ Retrieve an option list and the possible choices (options).
   "lines": [
     {
       "label": "Pizza",
-      "skus": [{ "ref": "REG-SM" }, { "ref": "CAL-SM" }],
+      "skus": [
+        { "ref": "REG-SM" },
+        { "ref": "CAL-SM" }
+      ],
       "pricing_effect": "unchanged"
     },
     {
@@ -845,7 +849,7 @@ A discount is a reduction of the order total price.
   "ref": "25OFF",
   "name": "25% off your order",
   "pricing_effect": "percentage_off",
-  "pricing_value": 25
+  "pricing_value": "25"
 }
 ```
 
