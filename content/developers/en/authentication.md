@@ -15,8 +15,8 @@ The OAuth 2.0 flow is a series of interactions between:
 
 - A **resource owner**: the HubRise user
 - A **client**: your application, ie a program or a website making protected requests on behalf of the user
-- An **authorization server**: Hubrise OAuth API, which issues an access token to the client. It is hosted at: http://manager.hubrise.com/oauth2/v1
-- A **resource server**: Hubrise API, which provides access your user data. It is hosted at: http://api.hubrise.com/v1
+- An **authorization server**: HubRise OAuth API, which issues an access token to the client. It is hosted at: http://manager.hubrise.com/oauth2/v1
+- A **resource server**: HubRise API, which provides access your user data. It is hosted at: http://api.hubrise.com/v1
 
 Although it seems complicated at first, OAuth actually makes things simpler for both you and your users, and it dramatically reduces security risks for everyone:
 
@@ -54,7 +54,7 @@ An **access-level set of permissions** is made of:
 When your application needs to access a user's data, it should redirect him to HubRise's OAuth server:
 
 ```http
-GET https://manager.hubrise.com/oauth2/v1/authorize?redirect_uri=https://myapp.com/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
+GET https://manager.hubrise.com/oauth2/v1/authorize?redirect_uri=https://YOUR-DOMAIN-HERE.com/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
 ```
 
 HubRise authenticates the user, prompts him to choose the location, account, catalog and customer list he's willing to connect, and obtain consent to access the requested scope. If the user is not logged in, he will be able to sign in or create an account.
@@ -62,19 +62,21 @@ HubRise authenticates the user, prompts him to choose the location, account, cat
 HubRise server sends the result of the authorization to the provided URL. If the user approves the request, then the response contains an authorization code that looks like:
 
 ```http
-https://myapp.com/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
+https://YOUR-DOMAIN-HERE.com/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
 ```
+
+Once issued, the authorization code is valid for 10 minutes. 
 
 If the authorization fails, then the URL is called with an error message:
 
 ```http
-https://myapp.com/oauth_callback?error=access_denied
+https://YOUR-DOMAIN-HERE.com/oauth_callback?error=access_denied
 ```
 
 Or:
 
 ```http
-https://myapp.com/oauth_callback?error=expired
+https://YOUR-DOMAIN-HERE.com/oauth_callback?error=expired
 ```
 
 ### 3.2. Get an access token
@@ -100,6 +102,24 @@ To which HubRise responds:
   "customer_list_id": "xab66"
 }
 ```
+
+#### Connection reuse
+
+The returned `access_token` is specific to a client and a location. Reauthorizing the same location several times always
+returns the same initial token.
+
+**Important**: if a different catalog (or customer list) is selected when reauthorizing the location, the token will no
+ longer allow access to the former catalog (or customer list) when the new authorization completes.
+
+You can bypass this behaviour and force a new token to be issued by passing a `device_id` parameter when redirecting the 
+user to the authorization page, eg:
+
+```http
+GET https://manager.hubrise.com/oauth2/v1/authorize?device_id=100&redirect_uri=https://YOUR-DOMAIN-HERE.com/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
+```
+
+If the provided `device_id` has never been authorized for the location, a new access token is returned. Otherwise,
+the access token previously associated with this `device_id` is returned.
 
 ### 3.3. Connect to the API
 

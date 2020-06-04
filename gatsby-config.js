@@ -9,7 +9,9 @@ module.exports = {
   siteMetadata: {
     title: `HubRise`,
     description: ``,
-    author: ``
+    author: ``,
+    recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
+    contactMessageUrl: process.env.CONTACT_MESSAGE_URL
   },
   plugins: [
     {
@@ -30,6 +32,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -43,9 +46,9 @@ module.exports = {
               withWebp: true,
               tracedSVG: true
             }
-          }
-        ],
-        plugins: [`gatsby-remark-images`]
+          },
+          `gatsby-remark-copy-linked-files`
+        ]
       }
     },
     {
@@ -63,6 +66,7 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-client-side-redirect`
   ]
 }

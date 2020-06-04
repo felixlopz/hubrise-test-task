@@ -9,15 +9,16 @@ path_override: /
 app_info:
   category: POS
   availability: France, Switzerland, UK
-  website: www.ikentoo.com
-  
+  price_range:
+  website: https://www.ikentoo.com
+  contact:
 ---
 
 ## Description
 
 iKentoo is an iPad POS and management solution for restaurants and hospitality businesses.
 
-## About this integration
+## About This Integration
 
 This integration relies on iKentoo API v2:
 

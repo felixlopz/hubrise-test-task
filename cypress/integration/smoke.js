@@ -1,53 +1,38 @@
 describe(`website`, () => {
   it(`doesn't crash and burn`, () => {
     const englishPages = [
-      '/api/account_management',
-      '/api/callbacks',
-      '/api/catalog_management',
-      '/api/extensions',
-      '/api/general_concepts',
-      '/api/order_management',
-
-      '/apps/ikentoo/developer_guide',
-      '/apps/ikentoo/installation',
-      '/apps/ikentoo/integration_guide',
-      '/apps/ikentoo',
-
-      '/apps/livepepper/installation',
-      '/apps/livepepper/integration_guide',
-      '/apps/livepepper',
-
-      '/apps/myorderbox/installation',
-      '/apps/myorderbox/integration_guide',
-      '/apps/myorderbox',
-
-      '/developers/authentication',
-      '/developers/integration',
-      '/developers/quick_start',
+      '/',
 
       '/apps',
-      '/'
+
+      '/apps/livepepper',
+      '/apps/livepepper/configuration',
+
+      '/developers',
+      '/developers/authentication',
+      '/developers/integration',
+      '/developers/quick-start',
+
+      '/developers/api/account-management',
+      '/developers/api/callbacks',
+      '/developers/api/catalog-management',
+      '/developers/api/extensions',
+      '/developers/api/general-concepts',
+      '/developers/api/order-management',
     ]
 
     const frenchPages = englishPages.map((page) => '/fr' + page)
 
     const englishOnlyPages = [
-      '/developers',
       '/pricing',
-      '/about'
     ]
 
     const frenchOnlyPages = [
-      '/developpeurs',
       '/faq',
-      '/tarifs'
-    ].map(
-      (page) => '/fr' + page
-    )
+      '/tarifs',
+    ].map((page) => '/fr' + page)
 
-    englishPages
-      .concat(englishOnlyPages, frenchPages, frenchOnlyPages)
-      .map((pagePath) => pagePath.replace(/_/g, '-'))
+    englishPages.concat(englishOnlyPages, frenchPages, frenchOnlyPages)
       .forEach((page) => {
         cy.visit(page)
       })
@@ -58,7 +43,7 @@ describe(`website`, () => {
 
     cy.visit(`/`)
     cy.contains(`form`, `Create your account`)
-    cy.contains(`HubRise makes POS integration easy`)
+    cy.contains(`HubRise Makes POS Integration Easy`)
     cy.contains(`li`, `Developers`).click()
     cy.contains(`Contact us`).click()
     cy.get(`div[role="dialog"]`).should(`be.visible`)
@@ -68,7 +53,7 @@ describe(`website`, () => {
     cy.contains(`li`, `Apps`).click()
     cy.contains(`LivePepper`)
 
-    cy.visit(`/fr/api/catalog-management`)
+    cy.visit(`/fr/developers/api/catalog-management`)
     cy.get(`h2#skus a`).click()
     cy.url().should(`include`, `#skus`)
   })

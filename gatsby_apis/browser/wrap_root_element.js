@@ -3,11 +3,12 @@ import { MDXProvider } from '@mdx-js/react'
 import { I18nextProvider } from 'react-i18next'
 
 import {
-  HighlightCode,
   CallSummaryTable,
-  ContactFormToggle
+  ContactFormToggle,
+  HighlightCode,
+  InlineImage,
+  Label
 } from '../../src/components/markdown'
-import Label from '../../src/components/markdown/label'
 import Link from '../../src/components/link'
 
 import { LayoutProvider } from '../../src/context/layout'
@@ -31,10 +32,11 @@ let components = {
       code={props.children}
     />
   ),
-  inlineCode: ({ children }) => <HighlightCode inline code={children} />,
   CallSummaryTable,
   Label,
-  ContactFormToggle
+  ContactFormToggle,
+  InlineImage,
+  Link
 }
 
 export const wrapRootElement = ({ element }) => {
