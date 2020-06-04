@@ -90,12 +90,10 @@ content:
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
-          additional_info: Integration in progress.
         - to: https://www.ubereats.com
           logo: ubereats.png
           title: Uber Eats
           description: Uber Eats is an online food ordering and delivery platform for local restaurants. End client can order food online or via an app.
-          additional_info: Integration in progress.
         - to: http://www.y-proximite.fr
           logo: yproximite.png
           title: Y-Proximité

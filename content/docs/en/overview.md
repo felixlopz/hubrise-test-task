@@ -8,7 +8,6 @@ meta:
 gallery:
 - 004-en-2x-desktop-view.png
 - 005-en-2x-tablet-view.png
-- 006-en-2x-smartview-phone.png
 path_override: /
 app_info:
   category: Middleware
