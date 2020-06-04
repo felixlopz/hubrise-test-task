@@ -178,6 +178,7 @@ Returns a customer's details.
   "delivery_notes": null,
   "sms_marketing": true,
   "email_marketing": true,
+  "anonymized": false,
   "nb_orders": 2,
   "order_total": "28.40 GBP",
   "first_order_date": "2017-01-18T17:15:11+01:00",
@@ -304,6 +305,34 @@ Updates a customer. Only the fields present in the request are updated.
   "first_name": "Claude"
 }
 ```
+
+### 2.5. Anonymize a customer
+
+Deletes a customer's personal information. 
+
+<CallSummaryTable
+  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
+  accessLevel="location, account"
+/>
+
+The anonymized fields are as follows: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
+
+When a customer is anonymized, the anonymized fields retun a `null` value and the `anonymized` boolean field is set to `true`.
+
+Anonymization cannot be reverted. Further updates of the anonymized fields will silently be ignored. The other fields (eg `custom_fields`) can still be updated though.
+
+Anonymizing a customer also anonymizes his/her orders. The `customer` resources of anonymized orders are modified in the same way as described above.
+
+When a customer is anonymized, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
+
+<CallSummaryTable
+  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
+  accessLevel="location, account"
+/>
+
+#### Example request:
+
+`POST /customer_lists/ag8u4/customers/asdf2/anonymize`
 
 ## 3. Loyalty Cards
 
