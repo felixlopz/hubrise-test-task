@@ -306,7 +306,7 @@ Updates a customer. Only the fields present in the request are updated.
 }
 ```
 
-### 2.5. Anonymize a customer
+### 2.5. Anonymize customer
 
 Deletes a customer's personal information. 
 
@@ -315,7 +315,7 @@ Deletes a customer's personal information.
   accessLevel="location, account"
 />
 
-The anonymized fields are as follows: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
+The anonymized fields are: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
 
 When a customer is anonymized, the anonymized fields retun a `null` value and the `anonymized` boolean field is set to `true`.
 

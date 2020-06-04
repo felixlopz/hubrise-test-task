@@ -147,13 +147,13 @@ To create an account-level catalog:
           {
             "ref": "TS_55",
             "name": "55 Kwh",
-            "price": "80000 USD",
+            "price": "80000.00 USD",
             "option_list_refs": ["TES_COL"]
           },
           {
             "ref": "TS_85",
             "name": "85 Kwh",
-            "price": "110000 USD",
+            "price": "110000.00 USD",
             "option_list_refs": ["TES_COL"]
           }
         ]
@@ -170,8 +170,9 @@ To create an account-level catalog:
             "ref": "TES_COL_W"
           },
           {
-            "name": "Blue",
-            "ref": "TES_COL_B"
+            "name": "Vantablack",
+            "ref": "TES_COL_B",
+            "price": "4500.00 USD"
           }
         ]
       }
