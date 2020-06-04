@@ -28,12 +28,12 @@ From the target server point of view, this call looks like this:
   "event_type": "update",
   "previous_state": {
     "id": "jdj9v",
-    "email": "tom@wahoo.com"
+    "email": "tom@dummy-mail.org",
     ...
   },
   "new_state": {
     "id": "jdj9v",
-    "email": "jim@wahoo.com"
+    "email": "jim@dummy-mail.org",
     ...
   },
   "account_id": "3r4s3",

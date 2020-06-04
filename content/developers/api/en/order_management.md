@@ -172,7 +172,7 @@ Returns an order resource.
   ],
   "customer": {
     "id": "s9Egdk",
-    "private_ref": "charles@gmail.com",
+    "private_ref": "charles@dummy-mail.org",
     "customer_list_id": "ag8u4",
     "first_name": "Charles"
     ...

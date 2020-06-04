@@ -160,7 +160,7 @@ Returns a customer's details.
 ```json
 {
   "id": "jdj9v",
-  "email": "xxx@yyy.com",
+  "email": "jimmy.watson@dummy-mail.org",
   "first_name": "Jimmy",
   "last_name": "Watson",
   "gender": "male",
@@ -267,8 +267,8 @@ There is no mandatory field so a customer can be created with no information the
 
 ```json
 {
-  "private_ref": "charles.moore@xxx.com",
-  "email": "charles.moore@xxx.com",
+  "private_ref": "2213312",
+  "email": "charles.moore@dummy-mail.org",
   "first_name": "Charles",
   "last_name": "Moore",
   "gender": "male",
