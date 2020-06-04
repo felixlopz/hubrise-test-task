@@ -7,9 +7,11 @@ meta:
   description: Instructions on how to configure Aquila for optimal connection to HubRise and other platforms.
 ---
 
-Once your Aquila site is connected with a HubRise account, customer and order information will be pushed into HubRise automatically. For the connection to work with all apps in Aquila, some configuration on the Aquila side may be needed. This is particularly true for the connection with an EPOS.
+Once your Aquila site is connected with a HubRise account, customer and order information will be pushed into HubRise automatically. For the connection to work with all apps in HubRise, some configuration on the Aquila side may be needed. This is particularly true for the connection with an EPOS.
 
-Products and POS codes can be set up from in the Aquila backend using the main menu on the left, by navigating to Catalog, then selecting Products. Once a product is created, the code cannot be changed. If a change of code is required, a new product with the new code must be created and the old one deleted.
+To properly process orders from Aquila to your EPOS, product codes are required for each and every item included in the Aquila **Catalog**.
+
+Products and POS codes can be set up from in the Aquila backend using the main menu on the left, by navigating to **Catalog**, then selecting **Products**. Once a product is created, the **Code cannot be changed. If a change of code is required, a new product with the new code must be created and the old one deleted.
 
 Your Aquila menu can either be created directly in Aquila, or imported from the EPOS as described in [Getting Started](/apps/aquila/getting-started/). To properly process orders from Aquila to your EPOS, product codes are required for the following menu items:
 
@@ -28,18 +30,11 @@ In some cases, the EPOS will also require codes to understand some of the Aquila
 - **Payment Methods**: How customers can pay for their orders.
 - **Service Types**: These define how orders are handled such as Delivery, Collection and Eat-In.
 - **Delivery charge**: Delivery charges might apply.
-- **IMPORTANT NOTE**: It is important that each POS code field available in Aquila be mapped with the EPOS product codes. If the POS code is missing, the EPOS will not be unable to correctly process the order.
 
-The POS codes in Aquila can be updated in two ways: manually by creating a new product in Aquila's backoffice, or imported from JDC through a menu import.
+----------
 
-## Hubrise Settings
+**IMPORTANT NOTE**: It is important that each POS code field available in Aquila be mapped with the EPOS product codes. If the POS code is missing, the EPOS will not be unable to correctly process the order.
 
+----------
 
-The settings for the Hubrise module can be accessed via two ways:
-
-1. Selecting the Hubrise menu item in the left side main menu.
-2. Selecting the Plugins menu item in the left side main menu, then clicking on "Configure" of Module Hubrise.
-
-After [installing and activating the plugin](/apps/aquila/getting-started/), the following settings will be populated automatically: Client ID, Client secret, Account ID, Catalog ID, Customer list ID.
-
-![](../images/hubrise_settings.png)
+The POS codes in Aquila can be updated in two ways: manually by creating a new product in Aquila's back office, or imported from the EPOS through a HubRise Catalog import.
