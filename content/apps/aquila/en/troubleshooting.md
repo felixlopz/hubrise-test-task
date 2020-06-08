@@ -7,7 +7,11 @@ meta:
   description: Instructions on how resolve connection issues
 ---
 
-## Verify Aquila Connection
+## Verify Product Mapping
+
+To verify that all Aquila menu items have an associated POS code, select **Catalog** > **Products** from the left navigation panel and check if there is a code filled under the **CODE** column for each product.
+
+## Verify the Connection to HubRise
 
 Verifying your connection between Aquila and HubRise involves tracking the path between orders to HubRise through the following steps:
 
@@ -38,6 +42,14 @@ With the test order created in Aquila, the next step is to verify that the order
 4. Click the new Order to verify the customer and order information is accurate.
 5. The **Logs** section will contain the detailed JSON records of the communication between Aquila and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).
 
-## Verify Product Mapping
+## HubRise Definitions vs Aquila Definitions
 
-To verify that all Aquila menu items have an associated POS code, select **Catalog** > **Products** from the left navigation panel and check if there is a code filled under the **CODE** column for each product. 
+Both HubRise and Aquila have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
+
+| Description                           | HubRise Name      | Aquila Name     |
+| ------------------------------------- | ----------------- | --------------- |
+| Product code                          | sku_ref           | POS Code        |
+| The actual restaurant                 | Location          | Point of Sale   |
+| Restaurant's unique identifier        | Unique identifier | Hubrise ID      |
+| Menu                                  | Catalog reference | Catalog ID      |
+

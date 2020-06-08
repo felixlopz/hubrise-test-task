@@ -17,6 +17,8 @@ app_info:
   contact: contact@nextsourcia.com
 ---
 
+## Description
+
 Aquila by NextSourcia provides an e-commerce solution written from the ground up to meet NextSourcia customers needs.  Their JavaScript solution is flexible, and facilitates customisation.
 
 Aquila allows businesses to:
@@ -36,7 +38,7 @@ To establish a connection between Aquila and HubRise, you must have an existing 
 The HubRise connection module makes connecting HubRise easy. Aquila can connect to an existing or new HubRise Account.
 
 
-## Connection with HubRise
+## Why Connect?
 
 Connecting your Aquila site to HubRise provides an omnichannel advantage to your business.  Customer information can be transferred to marketing and loyalty apps, orders submitted to the EPOS of your choice. 
 
