@@ -4,18 +4,13 @@ position: 1
 layout: documentation
 meta:
   title: Connect Aquila to HubRise
-  description: Connect your Aquila site to an existing HubRise account and location.
+  description: Connect your Aquila site to an existing HubRise account.
 ---
 
-To connect your Aquila site to an existing HubRise account and location:
+To connect your Aquila site to an existing HubRise account:
 
 1. Login to your Aquila back office.
-1. Select **Settings > Add-ons**.
-1. Under HubRise, click the checkbox **Share data with other applications**.
-1. Click **Connect to HubRise**.
-1. If prompted, login to your existing HubRise user profile.
-1. Select the HubRise **Account** and **Location** to connect your Aquila site to, then click **Allow**.
-
-<video controls title="Connect to HubRise">
-  <source src="../../images/008-connect-hubrise.webm" type="video/webm"/>
-</video>
+1. Select **Hubrise** from the left navigation panel.
+1. To allow HubRise to create new products on Aquila, set **Only create new product** to **YES**.  To allow the HubRise connection to update existing products in Aquila, set **Only create new product** to **NO**.
+1. Click **Login to HubRise**.
+1. Select the HubRise Account and Catalog you wish to use, and press **Allow**.

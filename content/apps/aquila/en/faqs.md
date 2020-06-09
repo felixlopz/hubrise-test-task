@@ -10,7 +10,7 @@ meta:
 [comment]: # (FAQs to create)
 
 * Connect One Site to a New HubRise Account.
-* Connect One Site to an Existing HubRise Account.
-* Connect a Site with Multiple Locations to an Existing HubRise Account.
+* <Link to="/apps/aquila/faqs/connect-site-to-existing-hubrise-account/">Connect One Site to an Existing HubRise Account.</Link>
+* <Link to="/apps/aquila/faqs/connect-site-with-multiple-locations-to-existing-hubrise-account/">Connect a Site with Multiple Locations to an Existing HubRise Account.</Link>
 * Connect a Site with Multiple Locations to a New HubRise Account.
-* How Can I Use Aquila to Create Test Orders?
+* <Link to="/apps/aquila/faqs/how-to-create-test-orders/">How Can I Use Aquila to Create Test Orders?</Link>

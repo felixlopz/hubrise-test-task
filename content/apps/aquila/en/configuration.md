@@ -13,13 +13,7 @@ To properly process orders from Aquila to your EPOS, product codes are required 
 
 Products and their POS codes can be set up from in the Aquila backend using the main menu on the left, by navigating to **Catalog**, then selecting **Products**. Once a product is created, the POS Code cannot be changed. If a change of POS Code is required, a new product with the new POS Code must be created and the old one deleted.
 
-Your Aquila menu can either be created directly in Aquila, or imported from the EPOS as described in [Getting Started](/apps/aquila/getting-started/). To properly process orders from Aquila to your EPOS, product codes are required for all products.
-
-In some cases, the EPOS will also require codes to understand some of the Aquila functionalities. Always refer to your EPOS documentation on the HubRise website for details.
-
-- **Payment Methods**: How customers can pay for their orders.
-- **Service Types**: These define how orders are handled such as Delivery, Collection and Eat-In.
-- **Delivery charge**: Delivery charges might apply.
+Your Aquila menu can either be created directly in Aquila, or imported from the EPOS as described in [Catalog Import](/apps/aquila/configuration/#catalog-import). To properly process orders from Aquila to your EPOS, product codes are required for all products.
 
 ----------
 
@@ -31,28 +25,36 @@ The POS codes in Aquila can be updated in two ways: manually by creating a new p
 
 
 ## Catalog Import
-The catalog is imported automatically when you connect the Hubrise account (link to doc).
+The catalog is imported automatically when you [connect your Hubrise account](/apps/aquila/connect-hubrise).
 Manual catalog import is not available.
 
 ## Product Mapping
-It is possible to add products manually in Aquila. Adding POS codes is done by:
-Changing an existing product's POS Code is not possible.
+It is possible to add products manually in Aquila. Setting the POS code is done during the product creation.
+To create a new product manually: 
+
+1. In Aquila back office, navigate to **Catalog** > **Products**.
+1. In the top right corner press the **+ NEW** button.
+1. This brings up the New Product menu. Select the applicable product type, whether it is Simple, Composé or Dématerialisé. Press **Submit**.
+1. Under **General** > **General informations**, the first item, **Code** is the POS Code.
+
+
+Changing an existing product's POS Code is not possible, if a change is needed, a new product must be created, or the catalog re-imported.
 
 ## Deals & Discounts Mapping
 Deals are not supported in Aquila. 
-Discount codes are available in Aquila. To set the POS Code for a discount code:
+Discount codes are available in Aquila.
 
 ## Payment Methods Mapping
-
+Payment methods define how customers can pay for their orders.
 
 ## Service Types Mapping
-
+Service types define how orders are handled such as Delivery, Collection and Eat-In.
 
 ## Charges Mapping
-
+Delivery charges might apply and they can be handled in Aquila.
 
 ## Catalog Export
-Catalog Export is not support in Aquila.
+Catalog Export is not supported in Aquila.
 
 
 

@@ -7,7 +7,7 @@ meta:
   description: Instructions on connecting Aquila with HubRise
 ---
 
-Connecting Aquila to HubRise requires the HubRise plugin to be enabled.
+Connecting Aquila to HubRise requires the HubRise plugin to be installed and enabled.
 
 ## Install the HubRise Plugin
 To install the HubRise plugin in Aquila, follow these steps:
@@ -26,7 +26,7 @@ To enable the HubRise plugin in Aquila, follow these steps:
 1. Select **Plugins** from the left navigation panel.
 1. Verify the **Module HubRise** is set to **Activé**.
 
-Aquila will then complete the process of activating the plugin. A new HubRise menu item will appear in the left navigation panel and some settings will be automatically populated, including: Client ID, Client secret, Account ID, Catalog ID, Customer list ID.
+Aquila will then complete the process of activating the plugin.
 
 ![Aquila Plugin Installation](../images/004-en-2x-plugin-installation.png)
 
@@ -50,10 +50,10 @@ At this point the connection between Aquila and HubRise is done at Account level
 
 ## Connect to Locations
 
-A distinct ID needs to be added in order to distinguish between each Point of Sale. It can be done in the following way:
+To distinguish between each Point of Sake, a unique identifier for the location needs to be added. It can be done in the following way:
 
 1. Login to your Aquila back office.
 1. Select **Point de vente** from the left navigation panel.
 1. Click on the point of sale you want to connect?
-1. Fill in the HubRise unique identifier for the Location the **ID HubRise** input field. For example **wg8tl-1** indicates the HubRise Account **wg8tl**, and **-1** the Location on the account. For more information, see HubRise [Locations](/docs/#locations/).
+1. Fill in the HubRise unique identifier for the Location the **ID HubRise** input field. For example **wg8tl-1** indicates the HubRise Account **wg8tl**, and **-1** the Location on the account. For more information, see HubRise [Locations](/docs/locations/).
 
