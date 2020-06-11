@@ -7,9 +7,21 @@ meta:
   description:
 ---
 
-## 1. Setting up an OAuth client
+## Overview
 
-First of all, you need to create an account. It's free and it takes a minute. Once you are there, click on "Developer", and create an OAuth 2.0 client. Download the client secret JSON, which should look like:
+This guide will help you to get to know the HubRise API. At the end of the process, you will know how to send an order to HubRise.
+
+## Things you need
+
+First of all, you need to [create a HubRise account](). It is free, and only takes a few minutes!
+This account will be the first user of your application, and will be useful for testing during the development process.
+
+Then, you need to create an OAuth 2.0 client for your application. 
+- Log in to the [HubRise back office](https://manager.hubrise.com/).
+- Go to **SETTINGS > DEVELOPER**, then click on **Create an oAuth 2.0 client**.
+- Enter a name for your application, then click the **Create** button.
+
+Download the client secret JSON, which should look like:
 
 ```json
 {
@@ -18,27 +30,40 @@ First of all, you need to create an account. It's free and it takes a minute. On
 }
 ```
 
-The client's **id** and **secret** uniquely identify your application. A client can access several HubRise accounts, so you will generally need to create only one client.
+The client's **id** and **secret** uniquely identify your application. You will generally need to create a single client for your application: The same client can be used by several HubRise accounts.
 
-## 2. Requesting authorization
+## Request the account's authorisation
 
-To access a HubRise account, you need the account owner approval. Open a web browser with this URL:
+In order for your application to access a HubRise account's information, you need the authorisation from the account's owner. 
+
+You, as the owner of your test HubRise account, must authorise access to your own application.
+
+Open a web browser with the URL and make sure you copy the `client_id` from the secret JSON you downloaded before in place of `THE-CLIENT-ID`:
 
 ```http
 https://manager.hubrise.com/oauth2/v1/authorize?
-  redirect_uri=https://myapp.com/oauth_callback&
-  client_id=459691768564.clients.hubrise.com&
+  redirect_uri=urn:ietf:wg:oauth:2.0:oob&
+  client_id=THE-CLIENT-ID&
   scope=location[orders.write,customer_list.write,catalog.read]
 ```
 
-If you try it, don't forget to encode the query parameters. Or just copy this link and replace the `client_id` with yours.
+HubRise will then:
+- Authenticate the user.
+- Ask to choose the location, account, catalog and customer list to connect.
+- Obtain consent to access the requested scope. 
 
-HubRise authenticates the user, prompts him to choose the location, account, catalog and customer list he's willing to connect, and obtain consent to access the requested scope. If the user is not logged in, he will be able to sign in or create an account.
+If everything goes well, you should see a page similar to the following. 
 
-HubRise server sends the result of the authorization to the provided URL. If the user approves the request, then the response contains an authorization code that looks like:
+![User code]()
 
-```http
-https://myapp.com/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
-```
+This is the user's code that you will need in the next step.
 
-Now let's see how we get an access token from the returned code.
+## Obtain an access token
+
+An access token is how you authenticate the requests you send to HubRise. To obtain an access token, you need:
+
+- The client id
+- The client secret
+- The user's code
+
+Basically, you want your application (_client id_) to be authorised (via the _client secret_) to send requests to HubRise on behalf of the account owner (_user's code_).
