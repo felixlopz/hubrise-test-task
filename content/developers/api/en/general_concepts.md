@@ -91,27 +91,38 @@ This parameter is **not** accepted in a GET request, since a GET request should 
 
 ## 5. Common Data Types
 
-### Monetary Value
+### Monetary Values
 
 A number with 2 decimal digits, followed by a space and the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) currency name. Can be preceded by a `-` sign for negative amounts.
 
-Examples:
+#### Examples:
 
 - `8.90 EUR`
 - `-0.05 GBP`
 
-### Date/Time
+### Decimal Values
 
-Encoded using the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601). A date/time passed to the API is assumed to be in the location's timezone, unless otherwise specified. The API returns times in the local timezone, with the timezone explicitly specified.
+HubRise represent decimal values as __strings__ to eliminate any ambiguity and loss of precision during the parsing.
+
+Most JSON implementations parse decimal numbers (eg `1.5`) as floating point numbers, primarily because of the lack of decimal native type in their programming language. However in HubRise, decimal numbers are always precise numeric values and using floating point numbers would result in abnormalities such as quantities being handled as `1.000000001`.
+
+In order to enforce the use of a "precise" decimal type and to avoid the default floating point number conversion by JSON parsers, decimal values are encoded as strings in HubRise. These strings should be handled using either a decimal built-in type or a fixed point number library (such as `bigdecimal` in Ruby) and never converted to floating point numbers.
 
 #### Examples:
 
-- Explicit timezone: `2017-08-20T06:42:46+02:00`
-- Assume location's timezone: `2017-08-20T06:42:46`
+- `"1"`
+- `"-2.5"`
 
-### Service Type
+### Dates and Times
 
-Can be one of `delivery`, `collection` or `eat_in`.
+Dates and times are encoded using the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
+
+Locations have a default timezone, which can be configured from the back office. HubRise converts times to the location default timezone, for all resources attached to a location (eg orders).
+
+#### Examples:
+
+- Date: `2020-08-20`
+- Time: `2020-08-20T06:42:46+02:00`
 
 ## 6. HTTP Status Codes
 
