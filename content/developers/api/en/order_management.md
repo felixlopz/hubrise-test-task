@@ -209,11 +209,11 @@ Orders of any location of the account:
 
 #### Parameters:
 
-| Name            | Type                                                      | Description                                                                                                                                     |
-| --------------- | ---------------------------------------------------       | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name            | Type                                                      | Description                                                                                                                                      |
+| --------------- | ---------------------------------------------------       | -----------------------------------------------------------------------------------------------------------------------------------------------  |
 | `private_ref`   | string                                                    | filter results by `private_ref`, for instance: `private_ref=13456`.                                                                              |
 | `status`        | string                                                    | filter results by `status`, for instance: `status=accepted`.                                                                                     |
-| `created_by`    | string                                                    | filter results by client name. For instance, `created_by=shopify` only returns the orders placed through this client.                                |
+| `created_by`    | string                                                    | filter results by client name. For instance, `created_by=shopify` only returns the orders placed through this client.                            |
 | `after, before` | [Time](/developers/api/general-concepts/#dates-and-times) | `after` is inclusive, `before` is exclusive. For instance, `after=2020-07-01T00:00&before=2020-07-02T00:00` returns orders placed on 2020-07-01. |
 | `customer_id`   | string                                                    | returns the orders placed by a customer, for instance: `customer_id=ve343`.                                                                      |
 
@@ -275,21 +275,21 @@ The status of an order. Used in the order's `status` field.
 
 Here are the possible "normal" values, and their meaning:
 
-| Name                  | Description                                                                                                                 |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Name                  | Description                                                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------  |
 | `new`                 | Order placed but not received yet in the POS. Default status for a new order placed outside of the POS (eg an online order). |
 | `received`            | Order which was previously new, but it has later been received by the POS.                                                   |
-| `accepted`            | Order accepted by the store. Default status for an order created from within the POS.                                       |
-| `in_preparation`      | Order is being prepared.                                                                                                    |
-| `awaiting_shipment`   | Order is ready to be shipped.                                                                                               |
-| `awaiting_collection` | Order is ready to be collected by the customer.                                                                             |
+| `accepted`            | Order accepted by the store. Default status for an order created from within the POS.                                        |
+| `in_preparation`      | Order is being prepared.                                                                                                     |
+| `awaiting_shipment`   | Order is ready to be shipped.                                                                                                |
+| `awaiting_collection` | Order is ready to be collected by the customer.                                                                              |
 | `in_delivery`         | Order has been sent out for delivery.                                                                                        |
 | `completed`           | Order successfully delivered to the customer.                                                                                |
 
 These additional statuses can be used in the event of an anomaly:
 
-| Name              | Description                                                                     |
-| ----------------- | ------------------------------------------------------------------------------- |
+| Name              | Description                                                                      |
+| ----------------- | -------------------------------------------------------------------------------  |
 | `rejected`        | Order cold not be transmitted to the store, generally because of a system error. |
 | `cancelled`       | Order has been cancelled by either the customer or the store.                    |
 | `delivery_failed` | Order could not be delivered.                                                    |
@@ -313,11 +313,12 @@ Orders do not have to go through all steps. The sequence actually depends on the
 
 | Name                                      | Type                                                        | Description                                                                                                                                                                                 |
 | ----------------------------------------- | ---------------------------------------------------------   | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `product_name`                            | string                                                      | The product name.                                                                                                                                                                            |
+| `product_name`                            | string                                                      | The product name.                                                                                                                                                                           |
 | `sku_name` <Label type="optional" />      | string                                                      | The sku name. Typically the product size or color.                                                                                                                                          |
 | `sku_ref` <Label type="optional" />       | string                                                      | The ref of the sku.                                                                                                                                                                         |
 | `price`                                   | [Money](/developers/api/general-concepts/#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
 | `quantity`                                | [decimal](/developers/api/general-concepts/#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
+| `subtotal` <Label type="optional" />      | [Money](/developers/api/general-concepts/#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                 |
 | `options` <Label type="optional" />       | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
 | `points_earned` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
 | `points_used` <Label type="optional" />   | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
@@ -363,7 +364,7 @@ Order items which are part of a deal include a `deal_line` field. This field is 
 | Name                                | Type                                                       | Description                                                                                   |
 | ----------------------------------- | ---------------------------------------------------------  | --------------------------------------------------------------------------------------------- |
 | `option_list_name`                  | string                                                     | The name of the list the option belongs to, eg. "Toppings", "Sauce", etc.                     |
-| `name`                              | string                                                     | The option name.                                                                               |
+| `name`                              | string                                                     | The option name.                                                                              |
 | `ref` <Label type="optional" />     | string                                                     | The optional ref of the option.                                                               |
 | `price` <Label type="optional" />   | [Money](/developers/api/general-concepts/#monetary-values) | The option price. The option is free when `price` is omitted.                                 |
 | `removed` <Label type="optional" /> | boolean                                                    | When this flag is true, the option is removed (for instance, a removed ingredient in a dish). |
@@ -387,8 +388,8 @@ An order deal associates an order item's `deal_key` to a particular deal.
 
 #### Attributes:
 
-| Name                            | Type   | Description                      |
-| ------------------------------- | ------ | -------------------------------- |
+| Name                            | Type   | Description                       |
+| ------------------------------- | ------ | --------------------------------  |
 | `name`                          | string | The name of the deal.             |
 | `ref` <Label type="optional" /> | string | The ref that identifies the deal. |
 
@@ -409,8 +410,8 @@ An order discount is a discount applied to the whole order, as opposed to deals 
 
 #### Attributes:
 
-| Name                            | Type                                                       | Description                          |
-| ------------------------------- | ---------------------------------------------------------  | ------------------------------------ |
+| Name                            | Type                                                       | Description                           |
+| ------------------------------- | ---------------------------------------------------------  | ------------------------------------  |
 | `name`                          | string                                                     | The name of the discount.             |
 | `ref` <Label type="optional" /> | string                                                     | The ref that identifies the discount. |
 | `price_off`                     | [Money](/developers/api/general-concepts/#monetary-values) | The discount value.                   |
@@ -443,9 +444,9 @@ Order charges increase the price paid by the customer.
 | Name                            | Type                                                       | Description                                                        |
 | ------------------------------- | ---------------------------------------------------------  | ------------------------------------------------------------------ |
 | `type`                          | string                                                     | Can be one of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
-| `name`                          | string                                                     | The name of the charge.                                             |
-| `ref` <Label type="optional" /> | string                                                     | The ref that identifies the charge.                                 |
-| `price`                         | [Money](/developers/api/general-concepts/#monetary-values) | The charge amount.                                                  |
+| `name`                          | string                                                     | The name of the charge.                                            |
+| `ref` <Label type="optional" /> | string                                                     | The ref that identifies the charge.                                |
+| `price`                         | [Money](/developers/api/general-concepts/#monetary-values) | The charge amount.                                                 |
 
 Note: the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
 
@@ -470,9 +471,9 @@ If order payments are omitted, the order should be considered as not paid.
 
 #### Attributes:
 
-| Name                             | Type                                                       | Description                                                                                                          |
-| -------------------------------- | ---------------------------------------------------------  | -------------------------------------------------------------------------------------------------------------------- |
-| `type`                           | string                                                     | One of: `cash`, `online`, or `third_party`.                                                                            |
+| Name                             | Type                                                       | Description                                                                                                           |
+| -------------------------------- | ---------------------------------------------------------  | --------------------------------------------------------------------------------------------------------------------  |
+| `type`                           | string                                                     | One of: `cash`, `online`, or `third_party`.                                                                           |
 | `name` <Label type="optional" /> | string                                                     | The name of the payment method.                                                                                       |
 | `info` <Label type="optional" /> | object                                                     | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method. |
 | `ref` <Label type="optional" />  | string                                                     | Identifies the payment method.                                                                                        |
@@ -523,7 +524,7 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 
 | Name                               | Type                                                         | Description                                                                              |
 | ---------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| `name`                             | string                                                       | The loyalty card name.                                                                    |
+| `name`                             | string                                                       | The loyalty card name.                                                                   |
 | `delta`                            | [decimal](/developers/api/general-concepts/#decimal-values)  | The number of points to add to the card balance. Use a negative number to remove points. |
 | `reason` <Label type="optional" /> | string                                                       | Additional information on the operation.                                                 |
 
