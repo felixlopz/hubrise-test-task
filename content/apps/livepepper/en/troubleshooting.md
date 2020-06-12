@@ -18,15 +18,16 @@ Missing POS codes for payment methods, service type and delivery charges will no
 ## Verify the Connection to HubRise
 
 Verifying your connection between LivePepper and HubRise involves tracking the path between orders to HubRise through the following steps:
+
 1. Create test orders in LivePepper.
-2. Verify the test orders in LivePepper.
-3. View test orders transmitted to HubRise.
+1. Verify the test orders in LivePepper.
+1. View test orders transmitted to HubRise.
 
 ### Create Test Orders in LivePepper
 
 The first step in verifying the connection between LivePepper and HubRise is by creating test orders.
 
-These steps require that you have already connected LivePepper to HubRise. For more information on connecting LivePepper to HubRise, see [Connect HubRise](/apps/livepepper/connect-hubrise/).
+These steps require that you have already connected LivePepper to HubRise. For more information on connecting LivePepper to HubRise, see [Connect to HubRise](/apps/livepepper/connect-hubrise/).
 
 Once the connection is complete, test orders generated from LivePepper will be transmitted to HubRise. Follow this process to create a test order and verify it has been transmitted to HubRise.
 
