@@ -15,7 +15,7 @@ This guide will help you to get to know the HubRise API. At the end of the proce
 
 ### Create a HubRise Account
 
-First of all, you need to [create a HubRise account](). It is free, and only takes a few minutes!
+First of all, you need to [create a HubRise account](https://www.hubrise.com/docs/getting-started/). It is free, and only takes a few minutes!
 This account will be the first user of your application, and will be useful for testing during the development process.
 
 ### Set up Postman
