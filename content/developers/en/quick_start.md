@@ -66,9 +66,9 @@ HubRise will then:
 
 If everything goes well, you should see a page similar to the following. 
 
-![User code]()
+![User code](../images/001-en-generate-user-code.png)
 
-This is the `user code`: copy it and head to the next section. 
+This is the **user code**: copy it and head to the next section. 
 
 ## Generate the Access Token
 
@@ -87,7 +87,7 @@ Basically, you want your application (_client id_) to be authorised (via the _cl
 
 In Postman, select the **HubRise API** environment and enter the values for `client_id`, `client_secret` and `user_code`. 
 
-![Screenshot of Postman]()
+![Screenshot of Postman](../images/002-postman-environment.png)
 
 ### Send the Request
 
