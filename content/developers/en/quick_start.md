@@ -15,7 +15,8 @@ This guide will help you to get to know the HubRise API. At the end of the proce
 
 ### Create a HubRise Account
 
-First of all, you need to [create a HubRise account](https://www.hubrise.com/docs/getting-started/). It is free, and only takes a few minutes!
+First of all, you need to create a user profile on HubRise with an account and an associated location. It is free, and only takes a few minutes! From the [HubRise home page](https://www.hubrise.com/), click on the **Sign Up** button and follow the instructions. 
+
 This account will be the first user of your application, and will be useful for testing during the development process.
 
 ### Set up Postman
@@ -59,16 +60,13 @@ https://manager.hubrise.com/oauth2/v1/authorize?
   scope=location[orders.write,customer_list.write,catalog.read]
 ```
 
-HubRise will then:
-- Authenticate the user.
-- Ask to choose the location, account, catalog and customer list to connect.
-- Obtain consent to access the requested scope. 
+You will have the chance to review the connection details and to grant access permissions to your application.
 
 If everything goes well, you should see a page similar to the following. 
 
-![User code](../images/001-en-generate-user-code.png)
+![authorisation code](../images/001-en-generate-user-code.png)
 
-This is the **user code**: copy it and head to the next section. 
+This is the **authorisation code**: copy it and head to the next section. 
 
 ## Generate the Access Token
 
@@ -76,12 +74,12 @@ You now have three codes:
 
 - The client id
 - The client secret
-- The user code
+- The authorisation code
 
 With these, you can generate your access token with Postman.
 
 An access token is how you authenticate the requests you send to HubRise.
-Basically, you want your application (_client id_) to be authorised (via the _client secret_) to send requests to HubRise on behalf of the account owner (_user code_), and you do this via an _access token_.
+Basically, you want your application (_client id_) to be authorised (via the _client secret_) to send requests to HubRise on behalf of the account owner (_authorisation code_), and you do this with the _access token_.
 
 ### Set up Variables in Postman
 
@@ -109,6 +107,24 @@ Now you are ready to send valid requests to HubRise and to create new orders.
 
 In Postman, play the **Create Order** endpoint. If the request is successful, you should see a new order in the [HubRise back office](https://manager.hubrise.com/orders).
 
-## Experiment with the API
+Congratulations! You placed your first order on HubRise.
 
-The Postman collection contains other typical requests to obtain the account's information, create and update customers, and update order statuses.
+## Next Steps
+
+### Install OrderLine
+
+OrderLine is a simple, free application that you can connect to your HubRise account to manage incoming orders. With OrderLine, you will be able to accept or reject incoming test orders and to inspect the different logs from Postman.
+
+To connect OrderLine to your location, click on **CONNECTIONS > View available apps**, then scroll down the list and select OrderLine.
+
+### Experiment with the API
+
+The Postman collection contains other typical requests to obtain the account's information, create and update customers, and update order statuses. Test the various endpoints according to your needs.
+
+### From Postman to Code
+
+Postman has a useful built-in functionality that allows to transform your test requests to actual code snippets in various languages. In this way, you will be able to transition from testing to integrating really quickly.
+
+### Explore the API
+
+To learn more about the HubRise API, you can explore our [API Reference](../api/general-concepts), or you can visit the [Authentication](../authentication) page to learn more about the possible authentication mechanisms.
