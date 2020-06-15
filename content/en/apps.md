@@ -76,7 +76,7 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
-        - to: https://www.nextsourcia.com
+        - to: /apps/aquila/
           logo: nextsourcia.png
           title: nextSourcia
           description: nextSourcia creates e-commerce websites for retail stores. It offers also hosting services and specific development work.
