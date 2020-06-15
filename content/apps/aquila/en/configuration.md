@@ -41,21 +41,18 @@ To create a new product manually:
 Changing an existing product's POS Code is not possible, if a change is needed, a new product must be created, or the catalog re-imported.
 
 ## Deals & Discounts Mapping
-Deals are not supported in Aquila. 
-Discount codes are available in Aquila.
+Discounts in Aquila offer savings on the entire order. Discounts should include the corresponding POS codes for orders containing discounts to be properly transmitted to your EPOS system and other apps connected to HubRise. 
+
+Special deals on products rather than the entire order are not supported in Aquila. 
 
 ## Payment Methods Mapping
-Payment methods define how customers can pay for their orders.
+Payment methods define how customers can pay for their orders. POS codes may be required for each online payment payment method setup in Aquila. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Service Types Mapping
-Service types define how orders are handled such as Delivery, Collection and Eat-In.
+Service Type such as Delivery, Collection or Eat in might require a POS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Charges Mapping
-Delivery charges might apply and they can be handled in Aquila.
-
-## Catalog Export
-Catalog Export is not supported in Aquila.
-
+If delivery charges apply for the service offered a POS code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 
 
