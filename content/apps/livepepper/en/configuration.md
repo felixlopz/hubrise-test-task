@@ -105,7 +105,7 @@ At the end of the process you can check if all product values and attributes hav
 
 ## Deals & Discounts Mapping
 
-Deals in LivePepper offer savings to products or to the entire order. Correct POS codes are essential for orders containing deals to be properly transmitted to your EPOS systems and other apps connected to HubRise.
+Deals in LivePepper offer savings to products or to the entire order. Correct POS codes are essential for orders containing deals to be properly transmitted to your EPOS system and other apps connected to HubRise.
 
 To add a POS Code to a deal:
 
