@@ -15,12 +15,6 @@ As described in [Accounts and Locations](/docs/getting-started/#accounts-and-loc
 
 For example, **Baker Street z6q31-0** indicates the Location name of **Baker Street**, that it belongs to Account **z6q31**, and **-0** signifies it was the first Location added to this Account.
 
-----------------
-
-**IMPORTANT NOTE**: Depending on your business, the Location may have a different VAT number than the Account. Verify that all VAT numbers are correctly configured on all Accounts and Locations you manage.
-
-----------------
-
 ## Location Settings
 
 To view Location details:
@@ -31,11 +25,17 @@ To view Location details:
 
 Locations are managed in the same way as Accounts, but the information is specific to the selected Location.
 
-Change of settings for specific locations allows you to have different payment methods per location, different users access and roles, and so on. For more information, see [Accounts](#account).
+Change of settings for specific locations allows you to have different payment methods per location, different users access and roles, and so on. For more information, see [Accounts](/docs/account/).
+
+----------------
+
+**IMPORTANT NOTE**: Depending on your business, the Location may have a different VAT number than the Account. Verify that all VAT numbers are correctly configured on all Accounts and Locations you manage.
+
+----------------
 
 ## Create a Location
 
-The first Location is created simultaneously with the Account. For more information on creating an Account, see [Account](#account).
+The first Location is created simultaneously with the Account. For more information, see [Create an Account](/docs/account/#create-an-account).
 
 To add a new Locations to an existing Account:
 

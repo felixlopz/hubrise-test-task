@@ -26,25 +26,25 @@ Although it seems complicated at first, OAuth actually makes things simpler for 
 
 ## 2. OAuth scopes
 
-A _scope_ controls the set of resources an access token is able to retrieve or modify. When a user is prompted to authorize a client, he will be able to review the scope requested by the application before allowing access. Therefore it's recommended to require a carefully chosen scope, to avoid being rejected by the user.
+A _scope_ controls the set of resources an access token can read and write. Users can see the scope before granting access to an application. It's recommended for application developers to limit the scope to what is strictly necessary to avoid being denied access.
 
-A scope is a commma-separated list of:
+A scope is a comma-separated list of:
 
 - 0 or 1 **access-level set of permissions**
-- and **general permissions** (eg. `profile`, or `profile_with_email`)
+- And **general permissions** (eg. `profile`, or `profile_with_email`)
 
 An **access-level set of permissions** is made of:
 
-- an access-level keyword: `location` or `account`
-- followed by a comma separated list of permissions between square brackets. Each permission is made of:
-  - a resource: `orders`, `customer_list`, `all_customer_lists`, `catalog` or `all_catalogs`
-  - a `.` character
-  - access rights: `read` or `write`
+- An access-level keyword: `location` or `account`
+- Followed by a comma separated list of permissions between square brackets. Each permission consists of:
+  - A resource: `orders`, `customer_list`, `all_customer_lists`, `catalog`, or `all_catalogs`
+  - A `.` character
+  - Access rights: `read` or `write`
 
 #### Examples of valid scopes:
 
 - `profile_with_email`: access to the user profile including email
-- `location[orders.write,customer_list.write]`: allows to create orders and customers for a chosen location
+- `location[orders.write,customer_list.write]`: allows creating orders and customers for a chosen location
 - `account[customer_list.read],profile`: access to the user profile and to the customers from a chosen customer list
 
 ## 3. Web application workflow
@@ -54,7 +54,7 @@ An **access-level set of permissions** is made of:
 When your application needs to access a user's data, it should redirect him to HubRise's OAuth server:
 
 ```http
-GET https://manager.hubrise.com/oauth2/v1/authorize?redirect_uri=https://YOUR-DOMAIN-HERE.com/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
+GET https://manager.hubrise.com/oauth2/v1/authorize?redirect_uri=https://<<YOUR DOMAIN HERE>>/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
 ```
 
 HubRise authenticates the user, prompts him to choose the location, account, catalog and customer list he's willing to connect, and obtain consent to access the requested scope. If the user is not logged in, he will be able to sign in or create an account.
@@ -62,21 +62,21 @@ HubRise authenticates the user, prompts him to choose the location, account, cat
 HubRise server sends the result of the authorization to the provided URL. If the user approves the request, then the response contains an authorization code that looks like:
 
 ```http
-https://YOUR-DOMAIN-HERE.com/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
+https://<<YOUR DOMAIN HERE>>/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
 ```
 
 Once issued, the authorization code is valid for 10 minutes. 
 
-If the authorization fails, then the URL is called with an error message:
+If the authorization fails, HubRise calls the URL with an error message passed as a parameter:
 
 ```http
-https://YOUR-DOMAIN-HERE.com/oauth_callback?error=access_denied
+https://<<YOUR DOMAIN HERE>>/oauth_callback?error=access_denied
 ```
 
 Or:
 
 ```http
-https://YOUR-DOMAIN-HERE.com/oauth_callback?error=expired
+https://<<YOUR DOMAIN HERE>>/oauth_callback?error=expired
 ```
 
 ### 3.2. Get an access token

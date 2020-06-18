@@ -143,7 +143,7 @@ Get user information.
   "id": "v6ap7",
   "first_name": "Tom",
   "last_name": "Jones",
-  "email": "tom.jones@gmail.com",
+  "email": "tom.jones@dummy-mail.org",
   "timezone": {
     "name": "Europe/Paris",
     "utc_offset": 7200

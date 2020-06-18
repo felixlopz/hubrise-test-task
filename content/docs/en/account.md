@@ -9,10 +9,10 @@ meta:
 
 As described in [Accounts and Locations](/docs/getting-started/#accounts-and-locations), Accounts refers to the brand, and contains one or more Locations.
 
-The **SETTINGS** > **ACCOUNTS** section lists all Accounts you have been granted access to with the following information:
+Users with a single Account will have it selected by default. For users with multiple Accounts, the **SETTINGS** > **ACCOUNTS** section lists all Accounts you have been granted access to with the following information:
 
 - **NAME**: The name and unique identifier of the Account.
-- **ROLE**: Your role for the Account. For more information on roles, see [Permissions](#permissions).
+- **ROLE**: Your role for the Account. For more information on roles, see [Permissions](/docs/permissions/).
 
 To view details for a specific Account, click its name.
 
@@ -45,13 +45,19 @@ To create a new Account and it’s first location, click **SETTINGS** > **ACCOUN
 
 The **Account Name** is the name you give your business or brand. For example, if your brand is called Fast Pizza, the **Account Name** will be **Fast Pizza**.
 
-The **Location Name** could be the city, the area, or the street name. For example, if the location is the only one in a town like London, the location could be named **London**.
+The **Location Name** could be the city, the area, or the street name. For example, if the location is the only one in a town like London, the location could be named **London**. If you have multiple locations in London, you could name it after their street address **Baker Street**, **Dublin Street**, and **Duncannon Street**. 
 
 It is important to enter the correct **Currency** as you will not be able to change it later.
 
 <video controls title="Create an Account">
   <source src="../images/038-en-settings-account-create-account.webm" type="video/webm"/>
 </video>
+
+------
+
+**Related FAQ**: <Link to="/docs/faqs/how-can-i-clear-accounts/">Too Many Accounts for My Business on HubRise. How Can I Clear the System?</Link>
+
+------
 
 ## Modify Account Details
 

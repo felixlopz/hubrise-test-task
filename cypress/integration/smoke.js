@@ -5,29 +5,20 @@ describe(`website`, () => {
 
       '/apps',
 
-      '/apps/ikentoo',
-      '/apps/ikentoo/developer_guide',
-      '/apps/ikentoo/installation',
-      '/apps/ikentoo/integration_guide',
-
       '/apps/livepepper',
-      '/apps/livepepper/integration_guide',
-
-      '/apps/myorderbox',
-      '/apps/myorderbox/installation',
-      '/apps/myorderbox/integration_guide',
+      '/apps/livepepper/configuration',
 
       '/developers',
       '/developers/authentication',
       '/developers/integration',
-      '/developers/quick_start',
+      '/developers/quick-start',
 
-      '/developers/api/account_management',
+      '/developers/api/account-management',
       '/developers/api/callbacks',
-      '/developers/api/catalog_management',
+      '/developers/api/catalog-management',
       '/developers/api/extensions',
-      '/developers/api/general_concepts',
-      '/developers/api/order_management',
+      '/developers/api/general-concepts',
+      '/developers/api/order-management',
     ]
 
     const frenchPages = englishPages.map((page) => '/fr' + page)
@@ -41,9 +32,7 @@ describe(`website`, () => {
       '/tarifs',
     ].map((page) => '/fr' + page)
 
-    englishPages
-      .concat(englishOnlyPages, frenchPages, frenchOnlyPages)
-      .map((pagePath) => pagePath.replace(/_/g, '-'))
+    englishPages.concat(englishOnlyPages, frenchPages, frenchOnlyPages)
       .forEach((page) => {
         cy.visit(page)
       })

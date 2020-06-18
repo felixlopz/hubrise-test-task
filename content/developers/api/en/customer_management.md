@@ -60,12 +60,12 @@ Account level Customer Lists of an account:
   {
     "id": "apm3s",
     "name": "Online customers",
-    "created_at": "2017-06-25T11:43:51Z"
+    "created_at": "2020-06-25T11:43:51+02:00"
   },
   {
     "id": "s7ma5",
     "name": "POS customers",
-    "created_at": "2017-05-19T13:23:10Z"
+    "created_at": "2020-05-19T13:23:10+02:00"
   }
 ]
 ```
@@ -160,34 +160,35 @@ Returns a customer's details.
 ```json
 {
   "id": "jdj9v",
-  "email": "xxx@yyy.com",
+  "email": "jimmy.watson@dummy-mail.org",
   "first_name": "Jimmy",
   "last_name": "Watson",
   "gender": "male",
   "birth_date": null,
   "company_name": null,
-  "phone": "+44.123456789",
+  "phone": "+44123456789",
   "address_1": "1 Town Road",
   "address_2": null,
   "postal_code": "N9 0HL",
   "city": "London",
   "state": null,
   "country": "GB",
-  "latitude": 45.7571206,
-  "longitude": 4.8307575,
+  "latitude": "45.7571206",
+  "longitude": "4.8307575",
   "delivery_notes": null,
   "sms_marketing": true,
   "email_marketing": true,
+  "anonymized": false,
   "nb_orders": 2,
   "order_total": "28.40 GBP",
-  "first_order_date": "2017-01-18T17:15:11+01:00",
-  "last_order_date": "2017-01-23T10:13:21+01:00",
+  "first_order_date": "2020-01-18T17:15:11+02:00",
+  "last_order_date": "2020-01-23T10:13:21+02:00",
   "loyalty_cards": [
     {
       "id": "slp8q",
       "name": "",
       "ref": "av-33489",
-      "balance": 13.5
+      "balance": "13.5"
     }
   ],
   "custom_fields": {}
@@ -213,7 +214,7 @@ Returns the customers of a customer list. Some filters can be passed.
 
 #### Example request:
 
-`GET /customer_lists/ag8u4/customers?phone=0123*`
+`GET /customer_lists/ag8u4/customers?phone=+44*`
 
 ```json
 [
@@ -221,7 +222,7 @@ Returns the customers of a customer list. Some filters can be passed.
     "id": "asdf2",
     "first_name": "Charles",
     "last_name": "Moore",
-    "phone": "0123456789"
+    "phone": "+44123456789"
     ...
   }
 ]
@@ -229,7 +230,9 @@ Returns the customers of a customer list. Some filters can be passed.
 
 ### 2.3. Create Customer
 
-Creates a new customer. The only mandatory fields are the first and last name.
+Creates a new customer.
+
+There is no mandatory field so a customer can be created with no information then referred to by its unique id. 
 
 <CallSummaryTable
   endpoint="POST /customer_lists/:customer_list_id/customers"
@@ -238,24 +241,26 @@ Creates a new customer. The only mandatory fields are the first and last name.
 
 #### Request parameters:
 
-| Name                                     | Type    | Description                                                                                |
-| ---------------------------------------- | ------- | ------------------------------------------------------------------------------------------ |
-| `private_ref` <Label type="optional" />  | string  | The customer internal id, visible only to the client who set it. Used for customer lookup. |
-| `email` <Label type="optional" />        | string  | Email                                                                                      |
-| `first_name`                             | string  | First name                                                                                 |
-| `last_name`                              | string  | Last name                                                                                  |
-| `gender` <Label type="optional" />       | string  | If defined, must be either `male` or `female`                                              |
-| `birth_date` <Label type="optional" />   | date    | Birth date (eg. `1999-01-01`)                                                              |
-| `company_name` <Label type="optional" /> | string  | Company name                                                                               |
-| `phone` <Label type="optional" />        | string  | Phone number                                                                               |
-| `address_1` <Label type="optional" />    | string  | 1st line of address                                                                        |
-| `address_2` <Label type="optional" />    | string  | 2nd line of address                                                                        |
-| `postal_code` <Label type="optional" />  | string  | Postal code                                                                                |
-| `city` <Label type="optional" />         | string  | City                                                                                       |
-| `state` <Label type="optional" />        | string  | State                                                                                      |
-| `country` <Label type="optional" />      | string  | Country                                                                                    |
-| `latitude` <Label type="optional" />     | decimal | Latitude                                                                                   |
-| `longitude` <Label type="optional" />    | decimal | Longitude                                                                                  |
+| Name                                     | Type                                                                             | Description                                                                                                                        |
+| ---------------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `private_ref` <Label type="optional" />  | string                                                                           | The customer internal id, visible only to the client who set it. Used for customer lookup.                                         |
+| `email` <Label type="optional" />        | string                                                                           | Email.                                                                                                                             |
+| `first_name` <Label type="optional" />   | string                                                                           | First name.                                                                                                                        |
+| `last_name` <Label type="optional" />    | string                                                                           | Last name.                                                                                                                         |
+| `gender` <Label type="optional" />       | string                                                                           | If defined, must be either `male` or `female`                                                                                      |
+| `birth_date` <Label type="optional" />   | date                                                                             | Birth date in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) for dates, ie `YYYY-MM-DD`.                            |
+| `company_name` <Label type="optional" /> | string                                                                           | Company name.                                                                                                                      |
+| `phone` <Label type="optional" />        | string                                                                           | Phone number in the [E.164 format](https://en.wikipedia.org/wiki/E.164) (*).                                                       |
+| `address_1` <Label type="optional" />    | string                                                                           | 1st line of address.                                                                                                               |
+| `address_2` <Label type="optional" />    | string                                                                           | 2nd line of address.                                                                                                               |
+| `postal_code` <Label type="optional" />  | string                                                                           | Postal code.                                                                                                                       |
+| `city` <Label type="optional" />         | string                                                                           | City.                                                                                                                              |
+| `state` <Label type="optional" />        | string                                                                           | State.                                                                                                                             |
+| `country` <Label type="optional" />      | string                                                                           | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).                  |
+| `latitude` <Label type="optional" />     | [decimal](/developers/api/general-concepts/#decimal-values)                      | Latitude of the customer address.                                                                                                  |
+| `longitude` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values)                      | Longitude of the customer address.                                                                                                 |
+
+(*) The E.164 format must be used for any new implementation. Be aware however that phone numbers retrieved from the API can be encoded in a different format. The E.164 will become mandatory in a future release.
 
 #### Example request:
 
@@ -263,31 +268,71 @@ Creates a new customer. The only mandatory fields are the first and last name.
 
 ```json
 {
+  "private_ref": "2213312",
+  "email": "charles.moore@dummy-mail.org",
   "first_name": "Charles",
   "last_name": "Moore",
-  "email": "charles.moore@xxx.com",
-  "private_ref": "charles.moore@xxx.com"
+  "gender": "male",
+  "birth_date": "1999-01-01",
+  "company_name": "HubRise",
+  "phone": "+44123456789",
+  "address_1": "1 avenue des Champs Elysées",
+  "address_2": null,
+  "postal_code": "75001",
+  "city": "Paris",
+  "state": null,
+  "country": "FR",
+  "latitude": "48.8589507",
+  "longitude": "2.2770205"
 }
 ```
 
 ### 2.4. Update Customer
 
-Updates a customer.
+Updates a customer. Only the fields present in the request are updated.
 
 <CallSummaryTable
-  endpoint="PUT /customer_lists/:customer_list_id/customers/:customer_id"
+  endpoint="PATCH /customer_lists/:customer_list_id/customers/:customer_id"
   accessLevel="location, account"
 />
 
 #### Example request:
 
-`PUT /customer_lists/ag8u4/customers/asdf2`
+`PATCH /customer_lists/ag8u4/customers/asdf2`
 
 ```json
 {
   "first_name": "Claude"
 }
 ```
+
+### 2.5. Anonymize customer
+
+Deletes a customer's personal information. 
+
+<CallSummaryTable
+  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
+  accessLevel="location, account"
+/>
+
+The anonymized fields are: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
+
+When a customer is anonymized, the anonymized fields retun a `null` value and the `anonymized` boolean field is set to `true`.
+
+Anonymization cannot be reverted. Further updates of the anonymized fields will silently be ignored. The other fields (eg `custom_fields`) can still be updated though.
+
+Anonymizing a customer also anonymizes his/her orders. The `customer` resources of anonymized orders are modified in the same way as described above.
+
+When a customer is anonymized, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
+
+<CallSummaryTable
+  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
+  accessLevel="location, account"
+/>
+
+#### Example request:
+
+`POST /customer_lists/ag8u4/customers/asdf2/anonymize`
 
 ## 3. Loyalty Cards
 
@@ -318,7 +363,7 @@ The `balance` is updated automatically by HubRise when a loyalty operation is cr
   "customer_id": "ve343",
   "name": "",
   "ref": "av-33489",
-  "balance": 13.5
+  "balance": "13.5"
 }
 ```
 
@@ -350,7 +395,7 @@ Returns the loyalty cards belonging to a customer list. Some filters can be pass
     "customer_id": "ve343",
     "name": "",
     "ref": "av-33489",
-    "balance": 13.5
+    "balance": "13.5"
   }
 ]
 ```
@@ -366,14 +411,14 @@ Returns the loyalty cards belonging to a customer list. Some filters can be pass
     "customer_id": "ve343",
     "name": "",
     "ref": "av-33489",
-    "balance": 13.5
+    "balance": "13.5"
   },
   {
     "id": "65rsp",
     "customer_id": "ve343",
     "name": "kiosk",
     "ref": "31",
-    "balance": 1.5
+    "balance": "1.5"
   }
 ]
 ```
@@ -392,7 +437,7 @@ Creates a new loyalty card for a customer.
 | Name                            | Type   | Description                                                                                                                                  |
 | ------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `customer_id`                   | string | The customer's `id`. Must exist or the request will fail.                                                                                    |
-| `name`                          | string | The loyalty card scheme name. Must be unique among the cards owned by the same customer. Mandatory parameter, but "" is an acceptable value. |
+| `name`                          | string | The loyalty card scheme name. Must be unique among the cards owned by the same customer. Mandatory parameter, but " is an acceptable value.  |
 | `ref` <Label type="optional" /> | string | The unique reference of the card. If defined, it must be unique among all the cards of the same customer list having the same name.          |
 
 #### Example request:
@@ -407,7 +452,7 @@ Creates a new loyalty card for a customer.
 }
 ```
 
-If the request succeeds, the loyalty card is created with an initial `balance` set to 0.0
+If the request succeeds, the loyalty card is created with an initial `balance` set to `"0.0"`.
 
 ### 3.4. Update Loyalty Card
 
@@ -458,12 +503,12 @@ Returns a loyalty card operation.
 {
   "id": "22kmp",
   "customer_id": "ve343",
-  "created_at": "2017-01-18T12:37:21+01:00",
+  "created_at": "2020-01-18T12:37:21+02:00",
   "order_location_id": "psm98",
   "order_id": "mapcm",
   "reason": "Points earned",
-  "delta": 4.2,
-  "new_balance": 17.7
+  "delta": "4.2",
+  "new_balance": "17.7"
 }
 ```
 
@@ -485,7 +530,7 @@ Returns the operations on a given loyalty card, sorted by descending chronologic
   {
     "id": "22kmp",
     "customer_id": "ve343",
-    "created_at": "2017-01-18T12:37:21+01:00"
+    "created_at": "2020-01-18T12:37:21+02:00"
     ...
   },
   ...
@@ -503,11 +548,11 @@ Create a loyalty card operation and updates the balance accordingly.
 
 #### Request parameters:
 
-| Name                                 | Type    | Description                                                                                                                                                         |
-| ------------------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `order_id` <Label type="optional" /> | string  | Attach this operation to a particular order. If defined, an order with this id must exist or the request will fail. An order can be attached to several operations. |
-| `reason` <Label type="optional" />   | string  | Describes how the points were obtained/redeemed. The customer will typically see this field when he checks his loyalty account operations from a website.           |
-| `delta`                              | decimal | The number of points to add to the customer balance. Use a negative number to remove points.                                                                        |
+| Name                                 | Type                                                        | Description                                                                                                                                                         |
+| ------------------------------------ | -------                                                     | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `order_id` <Label type="optional" /> | string                                                      | Attach this operation to a particular order. If defined, an order with this id must exist or the request will fail. An order can be attached to several operations. |
+| `reason` <Label type="optional" />   | string                                                      | Describes how the points were obtained/redeemed. The customer will typically see this field when he checks his loyalty account operations from a website.           |
+| `delta`                              | [decimal](/developers/api/general-concepts/#decimal-values) | The number of points to add to the customer balance. Use a negative number to remove points.                                                                        |
 
 #### Example request:
 
@@ -517,7 +562,7 @@ Create a loyalty card operation and updates the balance accordingly.
 {
   "order_id": "mapcm",
   "reason": "Points earned",
-  "delta": 4.2
+  "delta": "4.2"
 }
 ```
 

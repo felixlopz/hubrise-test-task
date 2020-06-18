@@ -15,7 +15,7 @@ There is no single strategy that can debug all possible issues, but the followin
 
 ## Error Codes
 
-Every request is associated with a response code. For more information, see [Response Code](../json-requests-in-hubrise#code). This is the first detail to check for possible errors. 
+Every request is associated with a response code. For more information, see [Response Code](/docs/hubrise-logs/json-requests-in-hubrise#code). This is the first detail to check for possible errors. 
 
 Any value different from 200 might indicate that one request in the chain failed to get through, causing the entire order to be rejected. 
 
@@ -33,7 +33,7 @@ The error code 500 appears when the server that was supposed to receive the requ
 
 ## Order Status
 
-Orders go through a series of different statuses during their lifecycle. Normal values for the status include **new** when an order is first created, and **received** when it is received by the POS. For the complete list of possible values, see the [Developers Documentation](https://www.hubrise.com/api/order-management/#order-status).
+Orders go through a series of different statuses during their lifecycle. Normal values for the status include **new** when an order is first created, and **received** when it is received by the POS. For the complete list of possible values, see the [Developers Documentation](/developers/api/order-management/#order-status).
 
 In some cases, the status might indicate a problem with the order. The following table presents the possible error values. 
 
