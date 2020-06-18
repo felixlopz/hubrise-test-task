@@ -44,8 +44,8 @@ To remove your granted permission to an Account, select the trash icon <InlineIm
 **IMPORTANT NOTE**: You cannot remove yourself from an Account if you are the last Admin. If you attempt to do so, an error message will be displayed. If you need to remove yourself as the last Admin for an Account, create another user as an Admin for that Account, then remove yourself.
 
 ----------------
-For more information, see [Permissions](#permissions).
+For more information, see [Permissions](/docs/permissions/).
 
 To create a new Account from the Profile page, select **Create Account**. For more information see [Create an Account](#account).
 
-![HubRise My Permissions](../images/056-en-2x-my-permissions.png)7
+![HubRise My Permissions](../images/056-en-2x-my-permissions.png)

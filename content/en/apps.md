@@ -76,7 +76,7 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
-        - to: https://www.nextsourcia.com
+        - to: /apps/aquila/
           logo: nextsourcia.png
           title: nextSourcia
           description: nextSourcia creates e-commerce websites for retail stores. It offers also hosting services and specific development work.
@@ -90,12 +90,10 @@ content:
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
-          additional_info: Integration in progress.
         - to: https://www.ubereats.com
           logo: ubereats.png
           title: Uber Eats
           description: Uber Eats is an online food ordering and delivery platform for local restaurants. End client can order food online or via an app.
-          additional_info: Integration in progress.
         - to: http://www.y-proximite.fr
           logo: yproximite.png
           title: Y-Proximité

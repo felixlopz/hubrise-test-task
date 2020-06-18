@@ -3,8 +3,8 @@ title: How Do I Create a User Profile for Another Person?
 position: 110
 layout: documentation
 meta:
-  title: 
-  description: 
+  title: Create a User Profile in HubRise
+  description: Create a user profile for another person on HubRise.
 ---
 
 There are many reasons for creating user profiles for other people:

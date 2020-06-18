@@ -91,12 +91,10 @@ content:
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
-          additional_info: Intégration en cours.
         - to: https://www.ubereats.com
           logo: ubereats.png
           title: Uber Eats
           description: Plateforme de commande de repas en ligne depuis le site ou via une application mobile avec service de livraison à domicile.
-          additional_info: Intégration en cours.
         - to: http://www.y-proximite.fr
           logo: yproximite.png
           title: Y-Proximité
