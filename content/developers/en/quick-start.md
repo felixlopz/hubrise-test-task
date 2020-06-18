@@ -24,8 +24,7 @@ This account will be the first user of your application, and will be useful for 
 Postman is an API development environment that makes sending API requests very easy. 
 
 - Download and install [Postman](https://www.getpostman.com/).
-- Download the [HubRise API Postman Bundle](https://drive.google.com/file/d/1C1ZTeis6uZTKwtwflErRzgE3cUw6g234/view?usp=sharing) and import the folder into Postman.
-
+- Download the [HubRise API Postman Bundle](https://drive.google.com/file/d/1dsJ7RALAKKxCNrwfWggqJop-WC71DYTX/view?usp=sharing) and import the folder into Postman.
 
 ### Create the OAuth Client
 
@@ -141,6 +140,12 @@ A successful response means that you registered your callback URL correctly.
 
 Now you can try to place an order with your first application. You can use the same `Create Order` request you sent before. This time, however, you will see that the order is automatically forwarded to your webhook URL. 
 
+------
+
+**IMPORTANT NOTE**: The event should appear almost immediately on the webhook.site page. If it fails to do so, check that the order was placed using your first application token.
+
+------
+
 ### Get New Events without a Public URL
 
 In some circumstances, a webhook cannot be set up because a callback URL cannot be exposed. This is typical for applications that users download and run from their computer.
@@ -148,12 +153,6 @@ In some circumstances, a webhook cannot be set up because a callback URL cannot 
 In this case, you can set up a _passive callback_: your application can check for new events at regular intervals of time and perform the necessary operations when a new event is found. 
 
 The `Callback: Get Events` request in Postman is an example of how you can do that. Simply create a new order, as usual, and play this request right after to obtain the order's details.
-
-------
-
-**IMPORTANT NOTE**: The event should appear almost immediately on the webhook.site page. If it fails to do so, check that the order was placed using your first application token.
-
-------
 
 After you process the event, you should delete it so that it will not appear in the next `GET /events` request. 
 Unlike active callbacks, in fact, events need to be manually deleted after being processed with a passive callback.
