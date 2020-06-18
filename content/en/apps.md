@@ -65,22 +65,22 @@ content:
           title: Zelty
           description: Zelty is a complete suite of solutions designed for multisite. Zelty is suitable for any type of restaurant from fast food to traditional catering.
           additional_info: Documentation in French.
-    - title: Online Food Ordering Platform
+    - title: Food Ordering Platforms
       apps:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo is an online food ordering and delivery platform for local restaurants. End client can order food online or via an app.  
+          description: Deliveroo is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.  
           additional_info: Integration in progress.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
           title: Foodpanda
-          description: Foodpanda is an online food ordering and delivery platform for local restaurants. End client can order food online or via an app.
+          description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
           additional_info: Integration in progress.
         - to: https://www.ubereats.com
           logo: ubereats.png
           title: Uber Eats
-          description: Uber Eats is an online food ordering and delivery platform for local restaurants. End client can order food online or via an app.
+          description: Uber Eats is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
     - title: Online Ordering
       apps:
         - to: https://www.app4.co.uk/

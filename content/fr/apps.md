@@ -67,22 +67,22 @@ content:
           logo: zelty.png
           title: Zelty
           description: Zelty est une caisse enregistreuse sur iPad, offrant une solution complète et pensée pour les chaînes. La solution s'adapte cependant à tout type de restaurant.
-    - title: Plateforme de livraison de repas
+    - title: Plateformes de livraison de repas
       apps:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Plateforme de commande de repas en ligne depuis le site ou via une application mobile avec service de livraison à domicile.
+          description: Deliveroo est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
           additional_info: Intégration en cours.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
           title: Foodpanda
-          description: Plateforme de commande de repas en ligne depuis le site ou via une application mobile avec service de livraison à domicile.
+          description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
           additional_info: Intégration en cours.
         - to: https://www.ubereats.com
           logo: ubereats.png
           title: Uber Eats
-          description: Plateforme de commande de repas en ligne depuis le site ou via une application mobile avec service de livraison à domicile.
+          description: Uber Eats est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
     - title: Commande en ligne
       apps:
         - to: https://www.app4.co.uk/
