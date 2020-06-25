@@ -366,7 +366,7 @@ Order items which are part of a deal include a `deal_line` field. This field is 
 | `option_list_name`                  | string                                                     | The name of the list the option belongs to, eg. "Toppings", "Sauce", etc.                     |
 | `name`                              | string                                                     | The option name.                                                                              |
 | `ref` <Label type="optional" />     | string                                                     | The optional ref of the option.                                                               |
-| `price` <Label type="optional" />   | [Money](/developers/api/general-concepts/#monetary-values) | The option price. The option is free when `price` is omitted.                                 |
+| `price` <Label type="optional" />   | [Money](/developers/api/general-concepts/#monetary-values) | The unit price of the option. If omitted the option is free.                                  |
 | `removed` <Label type="optional" /> | boolean                                                    | When this flag is true, the option is removed (for instance, a removed ingredient in a dish). |
 
 #### Example:
