@@ -11,11 +11,11 @@ From Connections, you can connect new apps and see apps connected to your HubRis
 
 Apps are connected either with a HubRise Account or Location depending on the app. Typically EPOS or Online Ordering System will connect to a Location, while marketing solutions connect to either the Account or Locations.
 
-------
+---
 
 **Related FAQ**: <Link to="/docs/faqs/what-app-can-i-connect-to-hubrise/">What App Can I Connect to HubRise?</Link>
 
-------
+---
 
 ## Connecting a New App
 
@@ -43,11 +43,11 @@ To display a line chart with the number of transactions made in the last 30 days
   <source src="../images/012-en-connections-display-activity.webm" type="video/webm"/>
 </video>
 
-------
+---
 
 **Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
 
-------
+---
 
 ## View Connection Logs
 
@@ -58,6 +58,7 @@ Logs record the requests from an app to HubRise. Each request is a transaction b
 ![HubRise Connection logs](../images/050-en-2x-connection-logs.png)
 
 ### General information
+
 At the top, the log page displays general information about the connection:
 
 - **Access token**: The token used by the app to authenticate to HubRise.
@@ -67,6 +68,7 @@ At the top, the log page displays general information about the connection:
 ![HubRise General Information logs](../images/051-en-2x-general-information-logs.png)
 
 ### Filter
+
 Logs can be filtered by resource and method through the following process:
 
 1. Select **Edit**.
@@ -75,6 +77,7 @@ Logs can be filtered by resource and method through the following process:
 ![HubRise Connection filter](../images/052-en-2x-filter-logs.png)
 
 ### Logs
+
 The log page then displays a summary list of requests in reverse chronological order.
 
 Each log record includes:
@@ -90,17 +93,17 @@ To download either the request or response, select the download icon <InlineImag
 
 For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 
-[comment]: # (Understanding Logs in HubRise link not working)
+[comment]: # 'Understanding Logs in HubRise link not working'
 
 <video controls title="Log details">
   <source src="../images/013-en-connections-view-logs.webm" type="video/webm"/>
 </video>
 
-------
+---
 
 **Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
 
-------
+---
 
 ## Disconnect App
 

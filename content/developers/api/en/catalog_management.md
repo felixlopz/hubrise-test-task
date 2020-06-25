@@ -445,7 +445,7 @@ A product contains one or several skus. A sku is always attached to a product.
 #### Parameters:
 
 | Name                                         | Type                                                       | Description                                                                                                             |
-| -------------------------------------------- | ---------------------------------------------------------  | ----------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `ref` <Label type="optional" />              | string                                                     | The ref of the sku, which will be passed along in orders.                                                               |
 | `name` <Label type="optional" />             | string                                                     | The name of the sku. Skus belonging to a same product must have unique names. One sku per product can have a null name. |
 | `price`                                      | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                                                                                   |
@@ -472,7 +472,7 @@ A product contains one or several skus. A sku is always attached to a product.
 />
 
 | Name                                        | Type                                                       | Description                                          |
-| ------------------------------------------- | ---------------------------------------------------------  | ---------------------------------------------------- |
+| ------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
 | `id`                                        | string                                                     | The id of the sku.                                   |
 | `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                  |
 | `name` <Label type="optional" />            | string                                                     | The name of the sku.                                 |
@@ -632,7 +632,7 @@ Retrieve an option list and the possible choices (options).
 #### Parameters:
 
 | Name                                | Type                                                       | Description                                                                                       |
-| ----------------------------------- | ---------------------------------------------------------  | -------------------------------------                                                             |
+| ----------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | `ref` <Label type="optional" />     | string                                                     | The ref of the option.                                                                            |
 | `name`                              | string                                                     | The name of the option.                                                                           |
 | `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option. Should be set to `0.00 EUR` (adjust the currency) if the option is free. |
@@ -658,7 +658,7 @@ Retrieve an option list and the possible choices (options).
 />
 
 | Name                                | Type                                                       | Description                           |
-| ----------------------------------- | ---------------------------------------------------------  | ------------------------------------- |
+| ----------------------------------- | ---------------------------------------------------------- | ------------------------------------- |
 | `id`                                | string                                                     | The id of the option.                 |
 | `ref` <Label type="optional" />     | string                                                     | The ref of the option.                |
 | `option_list_id`                    | string                                                     | The id of the option list.            |
@@ -712,7 +712,7 @@ Retrieve an option list and the possible choices (options).
 #### Parameters:
 
 | Name                                                | Type                                                       | Description                                                                                                                                                                                                                                                                      |
-| --------------------------------------------------  | -----------------------------                              | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                         |
+| --------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ref` <Label type="optional" />                     | string                                                     | The ref of the deal.                                                                                                                                                                                                                                                             |
 | `category_ref` <Label type="optional" />            | string                                                     | The [category](#categories) this deal will appear in.                                                                                                                                                                                                                            |
 | `name`                                              | string                                                     | The deal name.                                                                                                                                                                                                                                                                   |
@@ -728,6 +728,7 @@ Retrieve an option list and the possible choices (options).
 | `lines.pricing_effect`                              | string                                                     | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                               |
 | `lines.pricing_value` <Label type="optional" />     | depends                                                    | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a string containing a decimal number between 0 and 100 for `percentage_off`, and `null` for `unchanged`. |
 | `lines.label` <Label type="optional" />             | string                                                     | A label describing the type of skus that can be selected in this line.                                                                                                                                                                                                           |
+
 #### Example:
 
 ```json
@@ -745,10 +746,7 @@ Retrieve an option list and the possible choices (options).
   "lines": [
     {
       "label": "Pizza",
-      "skus": [
-        { "ref": "REG-SM" },
-        { "ref": "CAL-SM" }
-      ],
+      "skus": [{ "ref": "REG-SM" }, { "ref": "CAL-SM" }],
       "pricing_effect": "unchanged"
     },
     {
@@ -833,7 +831,7 @@ A discount is a reduction of the order total price.
 #### Parameters:
 
 | Name                                      | Type                          | Description                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------  |
+| ----------------------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ref` <Label type="optional" />           | string                        | The ref of the discount.                                                                                                                                              |
 | `name`                                    | string                        | The name of the discount.                                                                                                                                             |
 | `description` <Label type="optional" />   | string                        | The description of the discount.                                                                                                                                      |
@@ -911,7 +909,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 #### Parameters:
 
 | Name                              | Type                                                       | Description                                                    |
-| --------------------------------- | ---------------------------------------------------------  | -------------------------------------------------------------- |
+| --------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
 | `ref` <Label type="optional" />   | string                                                     | The ref of the charge.                                         |
 | `name`                            | string                                                     | The name of the charge.                                        |
 | `type`                            | string                                                     | One of: `delivery`, `payment_fee`, `tip`, `tax` or `other`.    |
@@ -938,7 +936,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 #### Parameters:
 
 | Name                              | Type                                                       | Description                                                 |
-| --------------------------------- | ---------------------------------------------------------  | ----------------------------------------------------------- |
+| --------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
 | `id` <Label type="optional" />    | string                                                     | The id of the charge.                                       |
 | `ref` <Label type="optional" />   | string                                                     | The ref of the charge.                                      |
 | `name`                            | string                                                     | The name of the charge.                                     |
@@ -993,17 +991,17 @@ It defines a set of conditions for a particular item to be available.
 
 #### Parameters:
 
-| Name                                         | Type                                                            | Description                                                 |
-| -------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------    |
-| `dow` <Label type="optional" />              | string                                                          | Available on certain days of the week.                      |
-| `start_time` <Label type="optional" />       | string                                                          | Available from a certain time of the day. Format: `HH:MM`.  |
-| `end_time` <Label type="optional" />         | string                                                          | Available until a certain time of the day. Format: `HH:MM`. |
-| `start_date` <Label type="optional" />       | [Date](/developers/api/general-concepts/#dates-and-times)       | Available from a certain date.                              |
-| `end_date` <Label type="optional" />         | [Date](/developers/api/general-concepts/#dates-and-times)       | Available until a certain date.                             |
-| `service_types` <Label type="optional" />    | string                                                          | One of: `delivery`, `collection` or `eat_in`.               |
-| `min_order_amount` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values)      | Available for order equal or greater than.                  |
-| `max_per_order` <Label type="optional" />    | integer                                                         | Max number of items per order.                              |
-| `max_per_customer` <Label type="optional" /> | integer                                                         | Max number of items per customer.                           |
+| Name                                         | Type                                                       | Description                                                 |
+| -------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
+| `dow` <Label type="optional" />              | string                                                     | Available on certain days of the week.                      |
+| `start_time` <Label type="optional" />       | string                                                     | Available from a certain time of the day. Format: `HH:MM`.  |
+| `end_time` <Label type="optional" />         | string                                                     | Available until a certain time of the day. Format: `HH:MM`. |
+| `start_date` <Label type="optional" />       | [Date](/developers/api/general-concepts/#dates-and-times)  | Available from a certain date.                              |
+| `end_date` <Label type="optional" />         | [Date](/developers/api/general-concepts/#dates-and-times)  | Available until a certain date.                             |
+| `service_types` <Label type="optional" />    | string                                                     | One of: `delivery`, `collection` or `eat_in`.               |
+| `min_order_amount` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | Available for order equal or greater than.                  |
+| `max_per_order` <Label type="optional" />    | integer                                                    | Max number of items per order.                              |
+| `max_per_customer` <Label type="optional" /> | integer                                                    | Max number of items per customer.                           |
 
 All the fields above are optional. Fields with a `null` value are ignored.
 
@@ -1086,9 +1084,9 @@ Response:
 | Name                     | Type    | Description                                                                                                                                      |
 | ------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `id`                     | string  | The id of the image.                                                                                                                             |
-| `type`                   | string  | The MIME type of the image. Example values: `image/jpeg`, `image/png`.                                                                            |
-| `size`                   | integer | Image size in bytes.                                                                                                                              |
-| `md5`                    | string  | MD5-hash of the image data.                                                                                                                       |
+| `type`                   | string  | The MIME type of the image. Example values: `image/jpeg`, `image/png`.                                                                           |
+| `size`                   | integer | Image size in bytes.                                                                                                                             |
+| `md5`                    | string  | MD5-hash of the image data.                                                                                                                      |
 | `seconds_before_removal` | integer | Time left before this image is removed. For unattached images only. This field is null if the image is attached to at least one product or deal. |
 
 #### Example request:

@@ -89,7 +89,7 @@ content:
           logo: app4.png
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
-          additional_info: Documentation en anglais. Intégration en cours. 
+          additional_info: Documentation en anglais. Intégration en cours.
         - to: /apps/aquila/
           logo: aquilacms.jpeg
           title: AquilaCMS
@@ -175,11 +175,11 @@ content:
         - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
-          description: OrderLine édité par HubRise centralise les commandes passées depuis un site e-commerce ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés. 
+          description: OrderLine édité par HubRise centralise les commandes passées depuis un site e-commerce ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
         - to: http://1bot.io/
           logo: 1bot.png
           title: 1bot
-          description: 1bot est un assistant personnel. Ce chatbot répond aux questions des clients et transmet un résumé de la conversation au magasin par SMS. Il est possible de prendre un rendez-vous, demander un rappel ou poser une question.  
+          description: 1bot est un assistant personnel. Ce chatbot répond aux questions des clients et transmet un résumé de la conversation au magasin par SMS. Il est possible de prendre un rendez-vous, demander un rappel ou poser une question.
   additional_sections:
     suggest_app:
       title: Proposer une application

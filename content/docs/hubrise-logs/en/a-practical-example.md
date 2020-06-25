@@ -7,40 +7,40 @@ meta:
   description:
 ---
 
-JSON objects can describe complex data models by combining several elements in a hierarchical structure. The following scenario describes a sample order and the relative JSON request, and is a simplified version of a real order you can find in the HubRise back office. 
+JSON objects can describe complex data models by combining several elements in a hierarchical structure. The following scenario describes a sample order and the relative JSON request, and is a simplified version of a real order you can find in the HubRise back office.
 
 ## A Sample Order
 
 Someone places the following order in your system:
 
-"*One pizza margherita, with olives as optional toppings, and two bacon burgers, for a total amount of 20.45 euros, to be paid in cash upon collection."*
+"_One pizza margherita, with olives as optional toppings, and two bacon burgers, for a total amount of 20.45 euros, to be paid in cash upon collection."_
 
-How can you organise this request in a rational way, such that information is arranged in a hierarchical structure? 
+How can you organise this request in a rational way, such that information is arranged in a hierarchical structure?
 
 There are three main pieces of information at the top of the structure:
 
-* The items in the order
-* The payment information
-* The service type
+- The items in the order
+- The payment information
+- The service type
 
 ### Items
 
 The items in the order can be described as a list of JSON objects, each with its own key-value pairs inside. In this case, there are two items, each defined as an object containing the following information:
 
-* The name of the product
-* The quantity
-* The optional changes
+- The name of the product
+- The quantity
+- The optional changes
 
-Notice that they both have the same structure but different values. 
+Notice that they both have the same structure but different values.
 
-The optional changes can then be structured as a list of JSON objects, each describing a different optional change. For the pizza, there is only one optional change in the list, with type "toppings" and name “olives”. For the burgers, no optional changes are present, and the associated list is therefore empty. 
+The optional changes can then be structured as a list of JSON objects, each describing a different optional change. For the pizza, there is only one optional change in the list, with type "toppings" and name “olives”. For the burgers, no optional changes are present, and the associated list is therefore empty.
 
 ### Payment
 
 The payment information can be structured as an object that contains the following information:
 
-* The total amount to be paid.
-* The payment method chosen by the customer.
+- The total amount to be paid.
+- The payment method chosen by the customer.
 
 ### Service type
 

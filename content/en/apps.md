@@ -70,7 +70,7 @@ content:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.  
+          description: Deliveroo is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
           additional_info: Integration in progress.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
@@ -91,7 +91,7 @@ content:
         - to: /apps/aquila/
           logo: aquilacms.jpeg
           title: AquilaCMS
-          description: AquilaCMS is an open source e-commerce solution for retail stores and restaurants. It can be downloaded or used as a hosted solution with development services provided by the editor.  
+          description: AquilaCMS is an open source e-commerce solution for retail stores and restaurants. It can be downloaded or used as a hosted solution with development services provided by the editor.
         - to: /apps/livepepper/
           logo: livepepper.png
           title: LivePepper
@@ -170,7 +170,7 @@ content:
         - to: http://1bot.io/
           logo: 1bot.png
           title: 1bot
-          description: 1bot is a personal assistant. This chatbot can answer customers' questions and send a summary of the conversation by SMS to the store. 
+          description: 1bot is a personal assistant. This chatbot can answer customers' questions and send a summary of the conversation by SMS to the store.
           additional_info: Documentation in French.
   additional_sections:
     suggest_app:

@@ -23,7 +23,7 @@ To use LivePepper to create test orders:
 1. Select **View your website** from the top of the page. This will open your LivePepper site in another browser tab or window.
 1. Generate an order.
 1. Return to LivePepper back office, and from the left navigation panel click **Orders**. The new order will be present.
-1. Log into your HubRise account with the established LivePepper connection. 
+1. Log into your HubRise account with the established LivePepper connection.
 1. From HubRise, click **ORDERS**. The new order will be displayed.
 1. Click the new order to verify the information is accurate.
 

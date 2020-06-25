@@ -38,11 +38,11 @@ If a payment notification appears, click the link and follow the instructions to
 
 ![Pay subscription](../images/022-en-pay-subscription.png)
 
-----------------
+---
 
 **IMPORTANT NOTE**: If there is a problem with your payment method, admin users will receive an email notification and a message will display in the HubRise back office. Failing a response after two weeks, the HubRise Account will be automatically suspended.
 
-----------------
+---
 
 ## Change Plan
 
@@ -56,8 +56,8 @@ To change your plan for a location:
 4. Under **Usage**, select **Change plan**.
 5. To set your plan to use the paid plan that allows more transactions a month, click **Upgrade**. To change the plan to one that allows fewer orders and customers a month, click **Downgrade**. Please note that once you have reached the transaction limit for a free plan, you must upgrade to the paid plan again.
 
-----------------
+---
 
 **IMPORTANT NOTE**: To upgrade, you must have a payment method setup. For information, see [Add a Payment Method](/docs/payment/#add-a-payment-method). Your Account will not be charged until you exceed the free monthly limitation.
 
-----------------
+---

@@ -31,11 +31,11 @@ To filter orders by start and end date:
   <source src="../images/016-en-data-filter-orders-by-date.webm" type="video/webm"/>
 </video>
 
------------
+---
 
 **Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
 
-----------------
+---
 
 ## Customers
 
@@ -116,7 +116,7 @@ Further log details are available for advanced users and developers to view app 
 
 For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 
-[comment]: # (Understanding Logs in HubRise link not working)
+[comment]: # 'Understanding Logs in HubRise link not working'
 
 <video controls title="View logs example">
   <source src="../images/037-en-data-customers-view-logs.webm" type="video/webm"/>

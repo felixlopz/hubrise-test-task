@@ -102,7 +102,7 @@ A number with 2 decimal digits, followed by a space and the [ISO 4217](https://e
 
 ### Decimal Values
 
-HubRise represent decimal values as __strings__ to eliminate any ambiguity and loss of precision during the parsing.
+HubRise represent decimal values as **strings** to eliminate any ambiguity and loss of precision during the parsing.
 
 Most JSON implementations parse decimal numbers (eg `1.5`) as floating point numbers, primarily because of the lack of decimal native type in their programming language. However in HubRise, decimal numbers are always precise numeric values and using floating point numbers would result in abnormalities such as quantities being handled as `1.000000001`.
 
@@ -128,18 +128,18 @@ Locations have a default timezone, which can be configured from the back office.
 
 The API returns appropriate [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) for every request.
 
-| Code  | Name                   | Description                                                                                                           |
-| ----- | ---------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `200` | OK                     | All Good!                                                                                                             |
-| `304` | Not Modified           | There was no new data to return. This is not an error.                                                                |
-| `400` | Bad Request            | The request was invalid or cannot be otherwise served. An accompanying error message will generally explain further.  |
-| `401` | Unauthorized           | Authentication credentials were missing or incorrect.                                                                 |
-| `403` | Forbidden              | The request is understood, but it has been refused or access is not allowed.                                          |
-| `404` | Not Found              | The requested URL is invalid or the requested resource does not exist.                                                |
-| `415` | Unsupported Media Type | The Content-Type header of the request is not supported.                                                              |
+| Code  | Name                   | Description                                                                                                                               |
+| ----- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| `200` | OK                     | All Good!                                                                                                                                 |
+| `304` | Not Modified           | There was no new data to return. This is not an error.                                                                                    |
+| `400` | Bad Request            | The request was invalid or cannot be otherwise served. An accompanying error message will generally explain further.                      |
+| `401` | Unauthorized           | Authentication credentials were missing or incorrect.                                                                                     |
+| `403` | Forbidden              | The request is understood, but it has been refused or access is not allowed.                                                              |
+| `404` | Not Found              | The requested URL is invalid or the requested resource does not exist.                                                                    |
+| `415` | Unsupported Media Type | The Content-Type header of the request is not supported.                                                                                  |
 | `422` | Unprocessable Entity   | The request syntax is correct but it could not be successfully completed. The requests needs to be modified before being attempted again. |
-| `429` | Too many requests      | The rate limit of the user or organization has been reached.                                                          |
-| `500` | Internal Error         | The server encountered an unexpected error. The support team generally needs to be involved to investigate the error. |
+| `429` | Too many requests      | The rate limit of the user or organization has been reached.                                                                              |
+| `500` | Internal Error         | The server encountered an unexpected error. The support team generally needs to be involved to investigate the error.                     |
 
 ## 7. Errors
 

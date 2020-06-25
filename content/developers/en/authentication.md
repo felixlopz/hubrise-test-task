@@ -65,7 +65,7 @@ HubRise server sends the result of the authorization to the provided URL. If the
 https://<<YOUR DOMAIN HERE>>/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
 ```
 
-Once issued, the authorization code is valid for 10 minutes. 
+Once issued, the authorization code is valid for 10 minutes.
 
 If the authorization fails, HubRise calls the URL with an error message passed as a parameter:
 
@@ -141,9 +141,9 @@ The `access_token` returned by `GET /oauth2/v1/token` is specific to a client an
 returns the same initial token.
 
 **Important**: if a different catalog (or customer list) is selected when reauthorizing the location, the token will no
- longer allow access to the former catalog (or customer list) when the new authorization completes.
+longer allow access to the former catalog (or customer list) when the new authorization completes.
 
-You can bypass this behaviour and force a new token to be issued by passing a `device_id` parameter when redirecting the 
+You can bypass this behaviour and force a new token to be issued by passing a `device_id` parameter when redirecting the
 user to the authorization page, eg:
 
 ```http
@@ -152,4 +152,3 @@ GET https://manager.hubrise.com/oauth2/v1/authorize?device_id=100&redirect_uri=h
 
 If the provided `device_id` has never been authorized for the location, a new access token is returned. Otherwise,
 the access token previously associated with this `device_id` is returned.
-

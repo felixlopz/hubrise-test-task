@@ -27,11 +27,11 @@ Locations are managed in the same way as Accounts, but the information is specif
 
 Change of settings for specific locations allows you to have different payment methods per location, different users access and roles, and so on. For more information, see [Accounts](/docs/account/).
 
-----------------
+---
 
 **IMPORTANT NOTE**: Depending on your business, the Location may have a different VAT number than the Account. Verify that all VAT numbers are correctly configured on all Accounts and Locations you manage.
 
-----------------
+---
 
 ## Create a Location
 
@@ -42,7 +42,7 @@ To add a new Locations to an existing Account:
 1. Click **SETTINGS** > **ACCOUNTS**.
 2. If you have multiple Accounts, select the Account that the Location will be added to.
 3. In the **Locations** section, click on **Add a location**.
-4. Enter the required information. 
+4. Enter the required information.
 5. If this Location has a VAT number separate from the Account, enter it here in the **Intra-Community VAT number** field provided.
 6. If the billing address is different than the Location’s address, check **The billing address is different from the location address** and fill out the form.
 7. Click **Add a new location** to save the new values.
@@ -61,7 +61,7 @@ To update the name and address for a location, follow these steps:
 2. If you have multiple Accounts, select the Account that the Location will be added to.
 3. Select the Location to update.
 4. Click **Modify**.
-5. Update the values as needed. 
+5. Update the values as needed.
 6. If this Location has a VAT number separate from the Account, enter it here in the **Intra-Community VAT number** field provided.
 7. If the billing address is different than the Location’s address, check **The billing address is different from the location address** and fill out the form.
 8. Click **Update** to save the changes.

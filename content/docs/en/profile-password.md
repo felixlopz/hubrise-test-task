@@ -15,11 +15,11 @@ To update your user profile:
 2. Update your name, email address, or correspondence language. The **Correspondence Language** sets all communications (emails, etc) from HubRise to you as the specified language.
 3. Select **Update**.
 
-----------------
+---
 
 **IMPORTANT NOTE**: When changing your email address, verify that it is accurate and able to receive emails. Otherwise password resets and other notifications will not work.
 
-----------------
+---
 
 ![HubRise User Profile](../images/054-en-2x-profile.png)
 
@@ -39,11 +39,12 @@ The Profile page includes information on your **Permissions**. This includes:
 
 To remove your granted permission to an Account, select the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>
 
-----------------
+---
 
 **IMPORTANT NOTE**: You cannot remove yourself from an Account if you are the last Admin. If you attempt to do so, an error message will be displayed. If you need to remove yourself as the last Admin for an Account, create another user as an Admin for that Account, then remove yourself.
 
-----------------
+---
+
 For more information, see [Permissions](/docs/permissions/).
 
 To create a new Account from the Profile page, select **Create Account**. For more information see [Create an Account](#account).
