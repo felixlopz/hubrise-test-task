@@ -103,24 +103,6 @@ To which HubRise responds:
 }
 ```
 
-#### Connection reuse
-
-The returned `access_token` is specific to a client and a location. Reauthorizing the same location several times always
-returns the same initial token.
-
-**Important**: if a different catalog (or customer list) is selected when reauthorizing the location, the token will no
- longer allow access to the former catalog (or customer list) when the new authorization completes.
-
-You can bypass this behaviour and force a new token to be issued by passing a `device_id` parameter when redirecting the 
-user to the authorization page, eg:
-
-```http
-GET https://manager.hubrise.com/oauth2/v1/authorize?device_id=100&redirect_uri=https://YOUR-DOMAIN-HERE.com/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
-```
-
-If the provided `device_id` has never been authorized for the location, a new access token is returned. Otherwise,
-the access token previously associated with this `device_id` is returned.
-
 ### 3.3. Connect to the API
 
 Now that your application has an access token, it can call the API on behalf of the user. Calls to the API need to include a `X-Access-Token` HTTP header.
@@ -152,3 +134,22 @@ https://manager.hubrise.com/oauth2/v1/authorize?
 The special value of `redirect_uri` tells HubRise's OAuth server that the code should be displayed in the browser, rather than being sent to a callback URL.
 
 If the user grants access to your application, the result will be a dialog where the user will be instructed to copy/paste the indicated authorization code into your application. Your application needs to provide a field for the user to paste the code. From there, your application can request an access token in the same way as a web application.
+
+## 5. Connection reuse
+
+The `access_token` returned by `GET /oauth2/v1/token` is specific to a client and a location. Reauthorizing the same location several times always
+returns the same initial token.
+
+**Important**: if a different catalog (or customer list) is selected when reauthorizing the location, the token will no
+ longer allow access to the former catalog (or customer list) when the new authorization completes.
+
+You can bypass this behaviour and force a new token to be issued by passing a `device_id` parameter when redirecting the 
+user to the authorization page, eg:
+
+```http
+GET https://manager.hubrise.com/oauth2/v1/authorize?device_id=100&redirect_uri=https://YOUR-DOMAIN-HERE.com/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
+```
+
+If the provided `device_id` has never been authorized for the location, a new access token is returned. Otherwise,
+the access token previously associated with this `device_id` is returned.
+
