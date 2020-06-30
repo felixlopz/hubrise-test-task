@@ -3,13 +3,13 @@ title: JSON Requests in HubRise
 position: 6
 layout: documentation
 meta:
-  title:
-  description:
+  title: JSON Requests in HubRise
+  description: Typical JSON logs and requests in HubRise.
 ---
 
 ## Communication Mechanisms
 
-HubRise allows easy sharing of data between different applications by exchanging API requests. This communication mechanism always involves a second application that either sends data to or receives data from HubRise. All these exchanges are recorded in the HubRise back office and the complete logs can be inspected and debugged. For information on how to find the logs in the back office, see the HubRise documentation. 
+HubRise allows easy sharing of data between different applications by exchanging API requests. This communication mechanism always involves a second application that either sends data to or receives data from HubRise. All these exchanges are recorded in the HubRise back office and the complete logs can be inspected and debugged. For information on how to find the logs in the back office, see [HubRise Help, Data Logs](/docs/data/#logs).
 
 The typical lifecycle of such an exchange involves three components:
 
@@ -23,7 +23,7 @@ The typical case is the creation of an order in an app connected with HubRise. W
 
 Finally, a request can automatically trigger other requests to different apps. For example, an order creation request can trigger a request to a loyalty solution to obtain information about the customer. These automatic requests are callbacks, and each of them has a request and a response. Callbacks are always sent by HubRise to a third-party application. 
 
-![Components of API Requests in HubRise](../images/001-en-components-api-request.png)
+![Components of API Requests in HubRise](../images/004-en-components-api-request.png)
 
 ## Logs and Requests in HubRise
 
@@ -41,7 +41,7 @@ For each request, the following information is displayed.
 Each row can be further expanded to reveal detailed information about the request, the response, and possible callbacks associated with it.
 
 <video controls title="Example of Request and Callback in HubRise">
-  <source src="../images/002-request-callback-example.webm" type="video/webm"/>
+  <source src="../images/006-request-callback-example.webm" type="video/webm"/>
 </video>
 
 
@@ -92,13 +92,11 @@ Together with the HTTP method, it specifies the action that must be performed wi
 
 ### Headers
 
-The headers are the metadata that accompany each request. The most important piece of information for debugging purposes is the following. 
-
-* Authentication token: The unique code assigned to the client by HubRise.
+The headers are the metadata that accompany each request. The most important piece of information for debugging purposes is the **Authentication token**: The unique code assigned to the client by HubRise.
 
 It appears in each request under the **X-Access-Token** key, and is partially hidden for security reasons. 
 
-![Authentication Token in HubRise Request](../images/003-en-access-token-arrow.png)
+![Authentication Token in HubRise Request](../images/005-en-access-token-arrow.png)
 
 ### Body
 

@@ -3,16 +3,14 @@ title: Understanding JSON Syntax
 position: 4
 layout: documentation
 meta:
-  title:
-  description:
+  title: Understanding JSON Syntax
+  description: Short introduction to JSON syntax in non-technical terms to better understand HubRise requests.
 ---
 
 
 ## Example of JSON Request
 
-Consider again the original order:
-
-"*One pizza margherita, with olives as optional toppings, and two bacon burgers, for a total amount of 20.45 euros, to be paid in cash upon collection."*
+Consider again the original order: "One pizza margherita, with olives as optional toppings, and two bacon burgers, for a total amount of 20.45 euros, to be paid in cash upon collection."
 
 For more details, see [A Practical Example](/docs/hubrise-logs/a-practical-example).
 

@@ -3,8 +3,8 @@ title: Troubleshooting Requests
 position: 8
 layout: documentation
 meta:
-  title:
-  description:
+  title: Troubleshooting Requests Transactions in HubRise
+  description: Error codes, order status and missing or wrong EPOS codes shown in HubRise logs help understand issues.
 ---
 
 ## Overview
@@ -25,11 +25,11 @@ The following list describes possible scenarios and troubleshooting strategies t
 
 The error code 422 appears when a request is successfully sent and received, but its content is not recognised by the system. 
 
-In many cases, this error can be traced to the systems connected to HubRise. For example, it often appears when the POS cannot recognise the product or deal code contained in the request. 
+In many cases, this error can be traced to the systems connected to HubRise. For example, it often appears when the EPOS cannot recognise the product or deal code contained in the request. 
 
 ### Error 500
 
-The error code 500 appears when the server that was supposed to receive the request had an internal error, but its actual nature is not specified. In this case, the request could not be correctly processed, and you should report this error to the solution’s support team (either HubRise or the connected app).
+The error code 500 appears when the server that was supposed to receive the request had an internal error, but its actual nature is not specified. In this case, the request could not be correctly processed, and you should report this error to the relevant support team. It could be either HubRise or the connected app.
 
 ## Order Status
 
@@ -44,13 +44,13 @@ In some cases, the status might indicate a problem with the order. The following
 | delivery_failed | The order could not be delivered.              |
 
 
-## POS Codes
+## EPOS Codes
 
-The POS codes must be correctly set in the apps connected with HubRise. A wrong or missing POS code might lead to errors in the requests. 
+The EPOS codes must be correctly set in the apps connected with HubRise. A wrong or missing EPOS code might lead to errors in the requests. 
 
 The following checklist can help you find possible issues. 
 
 1. Check that all service types you provide have the correct service_type_ref code. 
-2. Check that all products have the correct sku_ref code.
-3. Check that all ingredients and toppings have the correct ref code. In some cases, adding or removing an identical ingredient might be associated with different POS codes. 
-4. Check that all the accepted payment methods have the correct ref code.
+1. Check that all products have the correct sku_ref code.
+1. Check that all ingredients and toppings have the correct ref code. In some cases, adding or removing an identical ingredient might be associated with different EPOS codes. 
+1. Check that all the accepted payment methods have the correct ref code.

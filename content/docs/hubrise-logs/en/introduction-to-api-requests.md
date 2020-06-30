@@ -3,8 +3,8 @@ title: Introduction to API Requests
 position: 5
 layout: documentation
 meta:
-  title:
-  description:
+  title: Introduction to API Requests
+  description: Short introduction to API request in non-technical terms to better understand HubRise requests.
 ---
 
 ## Overview

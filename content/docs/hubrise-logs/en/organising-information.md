@@ -3,8 +3,8 @@ title: Organising Information
 position: 2
 layout: documentation
 meta:
-  title:
-  description:
+  title: Organisation of the Information in JSON
+  description: Short introduction to key values, objects and lists of elements in JSON to understand HubRise logs and requests.
 ---
 
 ## Key-Value Pairs
@@ -13,8 +13,8 @@ JSON is a format that can be used to describe the relation between an object and
 
 In more technical terms, JSON is able to store and transfer structured information using nodes of key-value pairs. Each piece of information is divided into:
 
-* The name or type of information (the *key*).
-* The content of the information (the *value*).
+* The name or type of information, known as the **key**.
+* The content of the information, known as the **value**.
 
 They are separated by a colon, with the key on the left and the value on the right. Consider this very basic JSON:
 
@@ -34,7 +34,9 @@ For example, consider the sentence "The pizza margherita has a size of 12 inches
 
 The following diagram illustrates how the information in this example is organised in three different levels.
 
-The main key, "pizza margherita", is attached to a value that is actually a JSON object: Notice the curly bracket above the two keys, “size” and “price”, and their relative values. 
+![JSON Objects](../images/001-en-2x-nested-json-object.png)
+
+The main key, "pizza margherita", is attached to a value that is actually a JSON object. Notice the curly bracket above the two keys, “size” and “price”, and their relative values. 
 
 The corresponding JSON for this example would be the following.
 
@@ -54,6 +56,8 @@ In this case, a JSON object is nested inside the main one. You can spot it by lo
 In some cases, a single key can have multiple values. For example, consider the sentence "A pizza margherita has tomato and mozzarella as ingredients". The key “ingredients” is associated with two values at once, “tomato” and “mozzarella”. 
 
 The situation is illustrated in the following diagram.
+
+![JSON List of Elements](../images/002-en-2x-json-list.png)
 
 The main node, "pizza margherita", is still linked to a JSON object that has a single key, “ingredients”. This key, in turn, is associated with a *list* of two values: Notice the square bracket above them in the diagram. 
 

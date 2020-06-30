@@ -3,15 +3,16 @@ title: HubRise Data Model
 position: 7
 layout: documentation
 meta:
-  title:
-  description:
+  title: HubRise Data Model
+  description: Order request logged in the HubRise, keys shown in the HubRise back office.
 ---
 
 ## Order Requests in HubRise
 
 ### Data Model
 
-All the orders received by HubRise are logged in the back office. For information on how to access the order logs, see the HubRise documentation. 
+All the orders received by HubRise are logged in the back office. For information on how to access the order logs, see
+[HubRise Help, Data Logs](/docs/data/#logs).
 
 The following keys can appear in a HubRise order request. 
 
@@ -41,7 +42,7 @@ Each item object in the items list contains information about a product purchase
 |-----------------|----------------------------------------------------------------------------------------------------------|
 | `product_name`  | The name of the product.                                                                                 |
 | `sku_name`      | The sku name of the product, typically indicating the size or colour.                                    |
-| `sku_ref`       | The code associated with the product. It indicates the POS code.                                         |
+| `sku_ref`       | The code associated with the product. It indicates the EPOS code.                                         |
 | `price`         | The price of a single product.                                                                           |
 | `quantity`      | The quantity ordered.                                                                                    |
 | `subtotal`      | The total price of the product (price x quantity).                                                       |
@@ -62,5 +63,5 @@ The following keys can appear in a payment object.
 | `type`   | The payment type. Can be “cash”, “online”, or “third_party”.                                                                                                                                                                                                    |
 | `name`   | The name associated with the payment method.                                                                                                                                                                                                                  |
 | `info`   | The additional information associated with the payment, which depends on the actual payment method. For example, a PayPal payment would include the email address associated with the account; for card payments, it contains all the details about the card. |
-| `ref`    | The POS code associated with this payment type.                                                                                                                                                                                                               |
+| `ref`    | The EPOS code associated with this payment type.                                                                                                                                                                                                               |
 | `amount` | The total amount paid by the customer.                                                                                                                                                                                                                        |

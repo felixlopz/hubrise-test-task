@@ -27,6 +27,7 @@ In console, `cd` to the project root then type:
 ```
 docker-sync start
 docker-compose -f docker-compose.mac.yml up --build website_dev
+docker exec website_dev rm -rf public .cache
 ```
 
 # Run the test suite

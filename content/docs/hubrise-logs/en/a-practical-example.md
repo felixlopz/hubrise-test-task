@@ -3,17 +3,15 @@ title: A Practical Example
 position: 3
 layout: documentation
 meta:
-  title:
-  description:
+  title: JSON Objects Structure, a Practical Example
+  description: Example of an order and its relative JSON request.
 ---
 
 JSON objects can describe complex data models by combining several elements in a hierarchical structure. The following scenario describes a sample order and the relative JSON request, and is a simplified version of a real order you can find in the HubRise back office. 
 
 ## A Sample Order
 
-Someone places the following order in your system:
-
-"*One pizza margherita, with olives as optional toppings, and two bacon burgers, for a total amount of 20.45 euros, to be paid in cash upon collection."*
+Someone places the following order in your system: "One pizza margherita, with olives as optional toppings, and two bacon burgers, for a total amount of 20.45 euros, to be paid in cash upon collection."
 
 How can you organise this request in a rational way, such that information is arranged in a hierarchical structure? 
 
@@ -51,6 +49,7 @@ The last node at the top level of the order is the service type chosen by the cu
 We broke down the original order into three main nodes of information, and for each of them we listed the various features that they must have. We organised information in a hierarchical way.
 
 To make the structure of the order even clearer, we can draw the following diagram.
+![JSON Information Structure](../images/003-en-2x-sample-order.png)
 
 The main nodes at the top of the order are "items", “payment”, and “service type”. From each of the nodes stems a connection to increasingly detailed levels of information.
 
