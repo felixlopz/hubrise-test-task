@@ -200,6 +200,111 @@ A simple rule for using numbers that small numbers under ten should generally be
 
 Unless it’s part of a name, such as the name of a company, don’t use the ampersand (“*&*”) as an abbreviation strategy.
 
+## File name
+
+Files should be given a contextual name written in lowercase. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
+For image file names, see [Image file names](#).
+
+## Adjectives
+
+Adjectives shall be used with thrift. Keep in mind that the tone is neither commercial nor literary and adjectives that contribute to that kind of tone shall be avoided. An example of such an adjective is “easy”.
+
+## Bold
+When you need to **emphasize** a word, expression, or sentence, use bold.
+
+Bold is used for important notices, which are marked with **IMPORTANT NOTE**. 
+
+For example:
+
+-----------------------
+
+**IMPORTANT NOTE:**  Verify your application supports sending emails before using this feature.
+
+-----------------------
+
+Bold is also used for UI references.  For example: Select **CONNECTIONS** from the HubRise menu...
+
+## Contractions
+
+Don’t use contractions. For instance, write “do not” instead of “don’t”.
+
+## Italics
+
+You may use italics for tech terms except code.
+
+## Tech Terms
+
+Terms from your code, keyboard shortcuts, file names, button names, and other tech terms that need to stand out from your text must be handled the following way:
+
+* Use **italics** for tech terms except code. Don’t use quotation marks for any tech terms.
+* File types are in all **capital letters**.  For example:  “Logs are in JSON format.”
+* If tech terms are in italics, you can't use italics for emphasis as well. So, if you need to emphasize a tech term, use **bold**.
+* Write code terms in Courier New and enclose them with a grey box, like this:
+
+```// This is a comment in your code.```
+* All code must be in its **own paragraph**.
+* If you want to include a small portion of code in the middle of a sentence, write it in **Courier New**, but don’t enclose it with a **grey box**.
+
+## Tone
+
+Be conversational rather than formal but don’t overdo it. Be friendly, and respectful while sharing your know-how.
+
+## Notices
+
+Notices give important or useful information that isn't necessarily part of the flow of the text.
+
+## User Interface
+
+The following styles are used to specify how User Interfaces are described.
+
+### Menus
+
+Menus are described in the order that they are selected in bold with arrows separating each option.  If a user is to select File, then Save, this would be displayed as:
+
+**File > Save**
+
+This should be done for the complete menu path to the command each time. For example, in HubRise we have an **ACCOUNT** that also includes a sub-section for **Accounts**.  To make clear what we are referring to, we would include the complete menu path each time, with the same capitalization as the UI:
+
+* **SETTINGS > ACCOUNT**  ← Refers to the **ACCOUNT** page in **SETTINGS**.
+* **SETTINGS > ACCOUNT > Account** ← Refers to the **Account** section in the **ACCOUNT** page.
+
+### Commands and Buttons
+
+UI reference should be in **Bold** and have the same capitalisation as the UI, except for final punctuation.  For example, a UI label of **User details**: will be documented as **User details**.  No other punctuation (quotes, etc.) are required.  
+
+For example:
+
+* Click **COMPLETED**  <- This refers to the button. Since it is in all caps in the UI, it is all caps in the documentation.
+
+![Screenshot of Click Completed](../images/click_completed_screenshot.png)
+
+* **Confirmed Time** <- This refers to the text.
+
+![Screenshot of Time Completed](../images/completed_time_screenshot.png)
+
+### Screenshots
+
+A full guide on screenshots can be found in the [Screenshots Guide](#).
+
+## Headings and Titles
+
+Section headings should be marked with the appropriate heading style. In the hierarchical organisation of the text, a structure with three levels should be preferred. ```<h1>``` is used for the page title. ```<h2>``` and ```<h3>``` can be used for the content. ```<h4>``` to be used only when strictly necessary. Levels from ```<h5>``` and above should be avoided. 
+
+```<h2>``` tags should use HubRise terminology in order to maximise consistency between the documentation of one solution and another. This eliminates confusion when a user has to refer to the documentation of multiple solutions. 
+
+```<h3>``` tags and descriptive text will always use the terminology of the respective solution.
+
+## Meta Title and Description
+
+Meta titles should be capitalised following Hubrise’s title rules. In accordance with these rules, the metal titles should be written in **Title Case** with no full stop at the end. Eg: LivePepper Connection to HubRise Configuration
+
+The meta description should use **Sentence Case** with a full stop at the end. Eg: Instructions on how to configure LivePepper for optimal connection to HubRise and other platforms.
+
+
+
+
+
+
 
 
 
