@@ -108,7 +108,7 @@ Do not attach the cross-reference directly to a word in the text. Rather, use a 
 
 >Wrong: We use [commas](#commas) to separate words.*
 
->Right: We use commas to separate words. For more information on use of commas, refer to [Commas](#commas).*
+>Right: We use commas to separate words. For more information on use of commas, refer to [Commas](#commas).
 
 ### Links to other sites
 
@@ -135,6 +135,8 @@ Avoid using the passive voice (in which the grammatical subject of the sentence 
 Almost every passive sentence has an active counterpart. If you can’t find an active alternative, use the passive form. Using it for less than 10% of your sentences isn’t that harmful.
 
 Here are some examples of sentences in the active and passive voices:
+
+***** Table content to the left.
 
 | Passive Voice | Active Voice |
 | :-------------: | :------------: |
@@ -252,6 +254,8 @@ Terms from your code, keyboard shortcuts, file names, button names, and other te
 Be conversational rather than formal but don’t overdo it. Be friendly, and respectful while sharing your know-how.
 
 ## Notices
+
+Notices should include important note, examples and frequently asked questions.
 
 Notices give important or useful information that isn't necessarily part of the flow of the text.
 
