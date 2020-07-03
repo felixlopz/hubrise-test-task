@@ -166,7 +166,7 @@ content:
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Sleat is a pay at the table solution for bars and restaurants. Users can view, split and pay directly from their smartphones. 
+          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones. 
           additional_info: Integration in progress. Documentation in French.
         - to: https://tickncook.com
           logo: tickncook.png

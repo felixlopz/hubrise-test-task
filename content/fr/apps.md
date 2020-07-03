@@ -175,7 +175,7 @@ content:
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et partager directement depuis leur téléphone. 
+          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone. 
           additional_info: Intégration en cours.
         - to: https://tickncook.com
           logo: tickncook.png
