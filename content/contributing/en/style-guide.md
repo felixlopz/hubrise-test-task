@@ -9,11 +9,11 @@ meta:
 
 ## Introduction
 
-This guide provides instructions for when you want to contribute your documentation to the HubRise documentation. It provides instructions on style guide source, spelling, style and technical documentation.
+This guide provides instructions for when you want to contribute your documentation to the HubRise documentation. It provides instructions on style guide specifications, spelling, style and technical documentation.
 
-The [Google developer documentation](https://developers.google.com/style/other-sources) style guide can be used as a general source reference. Where the Hubrise style guide doesn’t deal with a specific situation, it should be updated with the Google guide.
+The [Google developer documentation](https://developers.google.com/style/other-sources) style guide can be used as a general source reference. Where the Hubrise style guide doesn’t deal with a specific situation, it should be updated with the specifications as outlined in the Google guide.
 
-The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be used as a spelling reference when we have multiple ways of spelling the same word. In addition the [Cambridge Dictionary](https://dictionary.cambridge.org/) can be used as a secondary reference only.
+The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be used as a spelling reference when we have multiple ways of spelling the same word. In addition the [Cambridge Dictionary](https://dictionary.cambridge.org/) can be used as a secondary reference only where necessary.
 
 All text in the contribution should be written in **British English**. The language setting in Google Docs can be set to **British English** by selecting **File > Language > English (United Kingdom)**.
 
@@ -23,7 +23,7 @@ Please also keep in mind that readers of the documentation might not be native e
 
 ## Capitalisation
 
-The rule is as follows. If it’s an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something that’s **unique in the universe**, capitalize it. Otherwise, don’t.
+The general rule is as follows. If it’s an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something that’s **unique in the universe**, capitalize it. Otherwise, don’t.
 
 **If you’re unsure on whether to capitalize something or not, just don’t** because nine out of 10 times, you’ll be doing the right thing.
 
@@ -31,7 +31,7 @@ One exception is when referring to a specific item in HubRise.  For example, a c
 
 Also, if it’s an expression that has a **well-known acronym** amongst your target audience, you shall capitalize the word.
 
-Words such as “a,” “an,” “and,” “at,” “but,” “by,” “for,” “in,” “nor,” “of,” “on,” “or,” "out," “so,” “the,” “to,” “up,” “vs”, and “yet” mustn’t be capitalized.
+Words such as “*a*”, “*an*”, “*and*”, “*at*”, “*but*”, “*by*”, “*for*”, “*in*”, “*nor*”, “*of*”, “*on*”, “*or*”, "*out*", “*so*”, “*the*”, “*to*”, “*up*”, “*vs*”, and “*yet*” must not be capitalized.
 
 You may use [Capitalize My Title](https://capitalizemytitle.com/) to help you capitalize your headings. Choose the “APA” style.
 
@@ -47,7 +47,7 @@ If you have a list of three or more items, add a comma before the last item. For
 
 ### Hyphenation
 
-If you’re in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com/) and follow the rules established there. For instance, the Merriam Webster spells “*well known*” with a hyphen: “*well-known*”.
+If you’re in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com/) and follow the rules established there. For instance, the Merriam-Webster spells “*well known*” with a hyphen: “*well-known*”.
 
 A second rule of thumb is that, if the set of words doesn't play the same role in a sentence without hyphen(s), you should use the version adequate to the role you wish it plays in the sentence. For example, the [Merriam-Webster dictionary](https://www.merriam-webster.com/) states that “*kick off*” is a verb and “*kickoff*” is a noun (“*kick off*” is a verb in the sentence “*What time does the game kick off?*”, whereas “*kickoff*” is a noun in the sentence “*Kickoff will be at 11 o'clock prompt.*”)
 
@@ -72,11 +72,11 @@ For example, a short list of items can be written as:
 A longer list can be written as:
 
 *Statuses include:*
-  * ***New*** 
-  * ***Accepted*** 
-  * ***In Delivery*** 
-  * ***Rejected*** 
-  * ***Completed***
+  * *New* 
+  * *Accepted* 
+  * *In Delivery* 
+  * *Rejected* 
+  * *Completed*
 
 or:
 
@@ -86,7 +86,7 @@ or:
   * *Modify the order details.*
   * *Remove all orders.*
 
-Avoid using lists to repeat all fields to fill-in shown in the UI. For context, include a screenshot instead and refer to fields you need to provide information on. 
+Avoid using lists to repeat all fields to fill in shown in the UI. For context, include a screenshot instead and refer to fields you need to provide information on. 
 
 ## References
 
@@ -94,7 +94,7 @@ Avoid using lists to repeat all fields to fill-in shown in the UI. For context, 
 
 Cross-references can be used to guide readers to related information within the same document or in an external page. 
 
-This is different from UI menu representation, which uses the > to indicate a sub-level.  For more information on UI menu representation, see [Menus](#).
+This is different from UI menu representation, which uses the > to indicate a sub-level.  For more information on UI menu representation, see [Menus](#menus).
 
 Cross-references are hyperlinked to the header being referred to, with the final section linked. For example, if we are linking to the Change Password section of the documentation in this format:
 
@@ -106,13 +106,13 @@ The link will be on **Change Password**.
 
 Do not attach the cross-reference directly to a word in the text. Rather, use a separate sentence to introduce the cross-reference with the exact name of the header. 
 
-*Wrong: We use [commas](#) to separate words.*
+>Wrong: We use [commas](#commas) to separate words.*
 
-*Right: We use [commas](#) to separate words. For more information on use of commas, refer to Commas.*
+>Right: We use commas to separate words. For more information on use of commas, refer to [Commas](#commas).*
 
 ### Links to other sites
 
-Relative paths should always be used for internal links or cross-references, absolute paths should always be used for external links. Relative paths  will open the link in the same tab. Absolute paths will open a new tab.
+Relative paths should always be used for internal links or cross-references, absolute paths should always be used for external links. Relative paths will open the link in the same tab. Absolute paths will open a new tab.
 
 ## Readability
 
@@ -155,9 +155,9 @@ Everyone wants to be polite, but for instructions it can be left out.
 
 Include conditional clauses before instructions, not after to give readers a chance to skip it if the circumstance doesn't apply.
 
-*Right: For more information, see [link to other document].*
-
 *Wrong: See [link to other document] for more information*
+
+*Right: For more information, see [link to other document].*
 
 ### Synonyms
 
@@ -173,8 +173,9 @@ Users may use different actions for the same event.  On a Desktop computer, they
 
 The use of “*you*” (second person) instead of "*we*" is preferred. Identify who the "*you*" is (the developer, the user?) and to be consistent throughout to avoid confusion. In an instruction, if you can, leave out the "*you*".
 
-* _Right: Click Connect_
 * _Wrong: You can click on Connect_
+
+* _Right: Click Connect_
 
 ### Repetition
 
@@ -203,13 +204,14 @@ Unless it’s part of a name, such as the name of a company, don’t use the amp
 ## File name
 
 Files should be given a contextual name written in lowercase. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
-For image file names, see [Image file names](#).
+For image file names, see [Image file names](/contributing/screenshots-guide/#image-naming-convention).
 
 ## Adjectives
 
 Adjectives shall be used with thrift. Keep in mind that the tone is neither commercial nor literary and adjectives that contribute to that kind of tone shall be avoided. An example of such an adjective is “easy”.
 
 ## Bold
+
 When you need to **emphasize** a word, expression, or sentence, use bold.
 
 Bold is used for important notices, which are marked with **IMPORTANT NOTE**. 
@@ -232,7 +234,7 @@ Don’t use contractions. For instance, write “do not” instead of “don’t
 
 You may use italics for tech terms except code.
 
-## Tech Terms
+## Technology Terms
 
 Terms from your code, keyboard shortcuts, file names, button names, and other tech terms that need to stand out from your text must be handled the following way:
 
@@ -284,7 +286,7 @@ For example:
 
 ### Screenshots
 
-A full guide on screenshots can be found in the [Screenshots Guide](#).
+A full guide on screenshots can be found in the [Screenshots Guide](/contributing/screenshots-guide).
 
 ## Headings and Titles
 
