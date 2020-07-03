@@ -168,14 +168,19 @@ content:
           additional_info: Documentation en anglais.
     - title: Autres applications
       apps:
-        - to: https://tickncook.com
-          logo: tickncook.png
-          title: Tick'N'Cook
-          description: Tick'n'Cook est un écran cuisine. Les commandes provenant de votre site Internet, de vos bornes ou de votre caisse apparaissent en temps réel sur des écrans tactiles. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés par atelier (bar, cuisine...).
         - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
           description: OrderLine édité par HubRise centralise les commandes passées depuis un site e-commerce ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
+        - to: https://www.spleat.io
+          logo: spleat.png
+          title: Spleat
+          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et partager directement depuis leur téléphone. 
+          additional_info: Intégration en cours.
+        - to: https://tickncook.com
+          logo: tickncook.png
+          title: Tick'N'Cook
+          description: Tick'n'Cook est un écran cuisine. Les commandes provenant de votre site Internet, de vos bornes ou de votre caisse apparaissent en temps réel sur des écrans tactiles. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés par atelier (bar, cuisine...).
         - to: http://1bot.io/
           logo: 1bot.png
           title: 1bot
