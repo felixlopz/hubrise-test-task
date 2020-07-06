@@ -7,7 +7,7 @@ meta:
   description: Instructions on how resolve issues on OrderLine.
 ---
 
-No repetitive support queries on OrderLine have been recorded to this day. 
+No recurrent support queries on OrderLine have been recorded to this day. 
 
 [comment]: # (Phone goes on savigs more & no notifications received)
 

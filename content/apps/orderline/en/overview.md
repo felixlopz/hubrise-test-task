@@ -22,7 +22,7 @@ app_info:
 OrderLine is used to manage and print orders that may originate from other systems connected to your HubRise Account such as:
 
 - Online ordering solutions for online stores and restaurants.
-- Food aggregators.
+- Food Ordering and Delivery Platforms.
 - On-site self-ordering kiosks.
 - Digital menus available at the client’s table.
 
