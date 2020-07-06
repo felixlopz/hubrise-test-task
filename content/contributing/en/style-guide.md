@@ -17,7 +17,7 @@ The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be use
 
 All text in the contribution should be written in **British English**. The language setting in Google Docs can be set to **British English** by selecting **File > Language > English (United Kingdom)**.
 
-![Screenshot of Google Language Settings](../images/google_docs_langauge_settings.png)
+![Screenshot of Google Language Settings](../images/001-en-language-settings.png)
 
 Please also keep in mind that readers of the documentation might not be native english speakers.
 
@@ -31,7 +31,11 @@ One exception is when referring to a specific item in HubRise.  For example, a c
 
 Also, if it’s an expression that has a **well-known acronym** amongst your target audience, you shall capitalize the word.
 
-Words such as “*a*”, “*an*”, “*and*”, “*at*”, “*but*”, “*by*”, “*for*”, “*in*”, “*nor*”, “*of*”, “*on*”, “*or*”, "*out*", “*so*”, “*the*”, “*to*”, “*up*”, “*vs*”, and “*yet*” must not be capitalized.
+Words such as **a**, **an**, **and**, **but**, **for**, **nor**, **of**, **or**, **so**, **to**, and **yet** must not be capitalized.
+
+>Wrong: An, And, For
+
+>Right: an, and, for
 
 You may use [Capitalize My Title](https://capitalizemytitle.com/) to help you capitalize your headings. Choose the “APA” style.
 
@@ -139,7 +143,7 @@ Here are some examples of sentences in the active and passive voices:
 ***** Table content to the left.
 
 | Passive Voice | Active Voice |
-| :-------------: | :------------: |
+| :------------- | :------------ |
 | A plant is cultivated by the gardener. | The gardener cultivates a plant. |
 | A plant is being cultivated by the gardener. | The gardener is cultivating a plant. |
 | A plant will be cultivated by the gardener. | The gardener will cultivate a plant. |
@@ -149,17 +153,17 @@ Here are some examples of sentences in the active and passive voices:
 
 Everyone wants to be polite, but for instructions it can be left out.
 
-*Wrong: Please click **Save**.*
+>Wrong: Please click **Save**.
 
-*Right: Click **Save**.*
+>Right: Click **Save**.
 
 ### Clause order
 
 Include conditional clauses before instructions, not after to give readers a chance to skip it if the circumstance doesn't apply.
 
-*Wrong: See [link to other document] for more information*
+>Wrong: See [link to other document] for more information
 
-*Right: For more information, see [link to other document].*
+>Right: For more information, see [link to other document].
 
 ### Synonyms
 
@@ -169,15 +173,15 @@ Include conditional clauses before instructions, not after to give readers a cha
 
 Users may use different actions for the same event.  On a Desktop computer, they might “click” a link, while on a mobile device they might “tap” it.  When possible, use universal terms across platforms.  For example:
 
-* _**Select** instead of **click** or **tap**._
+>**Select** instead of **click** or **tap**.
 
 ### Second person and first person
 
 The use of “*you*” (second person) instead of "*we*" is preferred. Identify who the "*you*" is (the developer, the user?) and to be consistent throughout to avoid confusion. In an instruction, if you can, leave out the "*you*".
 
-* _Wrong: You can click on Connect_
+>Wrong: You can click on Connect
 
-* _Right: Click Connect_
+>Right: Click Connect
 
 ### Repetition
 
@@ -255,9 +259,25 @@ Be conversational rather than formal but don’t overdo it. Be friendly, and res
 
 ## Notices
 
-Notices should include important note, examples and frequently asked questions.
+Notices give important or useful information that isn't necessarily part of the flow of the text. Notices can inlude Important Notes and Frequently Asked Questions.
 
-Notices give important or useful information that isn't necessarily part of the flow of the text.
+Notes
+
+**Important Notes** should be indicated between two lines, with the Important Note in bold and a description following, for example:
+
+-----------------------
+
+**IMPORTANT NOTE:**  Your note follow here.
+
+-----------------------
+
+If you foresee an issue that may form part of the Frequently Asked Questions, this question may be inserted between two lines with Related FAQ in bold and the questions following. The question must be linked to the relevant question in the **Frequently Asked Questions**, for example:
+
+---
+
+**Related FAQ**: <Link to="/docs/faqs/create-a-user-profile-for-another-person/">How Do I Create a User Profile for Another Person?</Link>
+
+---
 
 ## User Interface
 

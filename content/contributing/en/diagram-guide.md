@@ -98,6 +98,7 @@ Light or dark gray **1px** borders can be used as well.
 
 You may use colours in your diagrams. However, if the contrast between the colours are too high, a lighter shade or lower opacity may be used.
 
+
 ![Example of a diagram with colours](../images/diagram-use-with-colours.png)
 
 
