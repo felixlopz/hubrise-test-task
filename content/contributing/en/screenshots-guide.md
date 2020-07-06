@@ -35,7 +35,7 @@ All images are named with the following naming convention Format: **[000]-[en]-2
 
 * **2x**- if you screenshots are taken from a HD 4K screen. Screenshots should not be scaled.
 
-* **[description]**- A short description
+* **[description]** - A short description
 
 For example if the image contains text within:
 
