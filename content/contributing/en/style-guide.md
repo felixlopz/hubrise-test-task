@@ -7,9 +7,7 @@ meta:
   description:
 ---
 
-## Introduction
-
-This guide provides instructions for when you want to contribute your documentation to the HubRise documentation. It provides instructions on style guide specifications, spelling, style and technical documentation.
+## General
 
 The [Google developer documentation](https://developers.google.com/style/other-sources) style guide can be used as a general source reference. Where the Hubrise style guide doesn’t deal with a specific situation, it should be updated with the specifications as outlined in the Google guide.
 
@@ -302,11 +300,11 @@ For example:
 
 * Click **COMPLETED**  <- This refers to the button. Since it is in all caps in the UI, it is all caps in the documentation.
 
-![Screenshot of Click Completed](../images/click_completed_screenshot.png)
+![Screenshot of Click Completed](../images/002-en-click-completed-screenshot.png)
 
 * **Confirmed Time** <- This refers to the text.
 
-![Screenshot of Time Completed](../images/completed_time_screenshot.png)
+![Screenshot of Time Completed](../images/003-en-completed-time-screenshot.png)
 
 ### Screenshots
 

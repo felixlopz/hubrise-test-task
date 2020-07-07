@@ -13,44 +13,33 @@ This guide includes useful guidance and specifications when contributing diagram
 
 ## Colours
 
-| Main Green | Darkest Green |
+| Colours |
 | :---: | :---: |
+| **Main Green** | **Darkest Green** |
 | HEX: #6cb14f | HEX: #262b24 |
 | RGB: 108 177 79 | RGB: 38 43 36 |
 | Example | Example |
-
-| Light Gray | Regular Gray |
-| :---: | :---: |
+| **Light Gray** | **Regular Gray** |
 | HEX: #f8f8f8 | HEX: #cccccc |
 | RGB: 248 248 248 | RGB: 204 204 204 |
 | Example | Example |
-
-| Dark Gray | Font Gray |
-| :---: | :---: |
+| **Dark Gray** | **Font Gray** |
 | HEX: #888888 | HEX: #555555 |
 | RGB: 136 136 136 | RGB: 85 85 85 |
 | Example | Example |
-
-| Sky Blue | Regular Blue |
-| :---: | :---: |
+| **Sky Blue** | **Regular Blue** |
 | HEX: #3ca4c6 | HEX: #4f79b1 |
 | RGB: 60 164 198 | RGB: 79 121 177 |
 | Example | Example |
-
-| Violet | Purple |
-| :---: | :---: |
+| **Violet** | **Purple** |
 | HEX: #584fb1 | HEX: #944fb1 |
 | RGB: 88 79 177 | RGB: 148 79 177 |
 | Example | Example |
-
-| Yellow | Orange |
-| :---: | :---: |
+| **Yellow** | **Orange** |
 | HEX: #d4b443 | HEX: #eb7323 |
 | RGB: 212 180 67 | RGB: 235 115 35 |
 | Example | Example |
-
-| Regular Red | Darker Red |
-| :---: | :---: |
+| **Regular Red** | **Darker Red** |
 | HEX: #d95147 | HEX: #b2564f |
 | RGB: 217 81 71 | RGB: 178 86 79 |
 | Example | Example |
@@ -84,7 +73,7 @@ Simple white blocks may be used on a gray background. You may add the Hubrise lo
 To outline image simple corners may be used. It may also be simple square blocks depending on software used and it may be green or gray.
 Borders around the shapes should be dropped if they are not specifically required.
 
-![Example diagram with no colors](../images/example-diagram-no-colours.png)
+![Example diagram with no colors](../images/004-en-example-diagram-no-colours.png)
 
 You may use Screenshots with a wider gray border (**around 20-40px**). In addition, some space around the image would be beneficial to emphasize its content.
 
@@ -92,14 +81,14 @@ If the software you use allows, then rounded corners and a very light gray shado
 
 Light or dark gray **1px** borders can be used as well.
 
-![Example of a screenshot](../images/screenshot-example.png)
+![Example of a screenshot](../images/005-en-screenshot-example.png)
 
 ## Secondary Example
 
 You may use colours in your diagrams. However, if the contrast between the colours are too high, a lighter shade or lower opacity may be used.
 
 
-![Example of a diagram with colours](../images/diagram-use-with-colours.png)
+![Example of a diagram with colours](../images/006-en-diagram-use-with-colours.png)
 
 
 
