@@ -31,7 +31,7 @@ All images are named with the following naming convention Format: **[000]-[en]-2
 
 * **[000]**- A three digit number. Not needed for icons, and images that does not require localisation.
 
-* **[en]**- A language acronym. en for English. [fr] for French. No need for the language acronym if we have no text for localisation within the image. For localized screenshots, the three digit number and name should stay the same, with only the language acronym changing.
+* **[en]**- A language acronym. **[en]** for English. **[fr]** for French. No need for the language acronym if we have no text for localisation within the image. For localized screenshots, the three digit number and name should stay the same, with only the language acronym changing.
 
 * **2x**- if you screenshots are taken from a HD 4K screen. Screenshots should not be scaled.
 
