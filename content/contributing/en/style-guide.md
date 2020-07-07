@@ -45,13 +45,13 @@ The first letter following a colon should always be capitalised.
 
 ### Commas
 
-If you have a list of three or more items, add a comma before the last item. For instance, *“I’d like to order a focaccia, a margherita, and a tiramisu.”* In this list of three items, the comma after the second item is the **Oxford or serial comma**.
+If you have a list of three or more items, add a comma before the last item. For instance, *'I’d like to order a focaccia, a margherita, and a tiramisu.'* In this list of three items, the comma after the second item is the **Oxford or serial comma**.
 
 ### Hyphenation
 
-If you’re in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com/) and follow the rules established there. For instance, the Merriam-Webster spells “*well known*” with a hyphen: “*well-known*”.
+If you’re in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com/) and follow the rules established there. For instance, the Merriam-Webster spells **well known** with a hyphen: **well-known**.
 
-A second rule of thumb is that, if the set of words doesn't play the same role in a sentence without hyphen(s), you should use the version adequate to the role you wish it plays in the sentence. For example, the [Merriam-Webster dictionary](https://www.merriam-webster.com/) states that “*kick off*” is a verb and “*kickoff*” is a noun (“*kick off*” is a verb in the sentence “*What time does the game kick off?*”, whereas “*kickoff*” is a noun in the sentence “*Kickoff will be at 11 o'clock prompt.*”)
+A second rule of thumb is that, if the set of words doesn't play the same role in a sentence without hyphen(s), you should use the version adequate to the role you wish it plays in the sentence. For example, the [Merriam-Webster dictionary](https://www.merriam-webster.com/) states that **kick off** is a verb and **kickoff** is a noun (**kick off** is a verb in the sentence **What time does the game kick off?**, whereas **kickoff** is a noun in the sentence **Kickoff will be at 11 o'clock prompt.**)
 
 For sets of two words only, if the dictionary indicates that there’s an alternative without a hyphen, then use that alternative instead of the hyphenated version.
 
@@ -100,15 +100,13 @@ This is different from UI menu representation, which uses the > to indicate a su
 
 Cross-references are hyperlinked to the header being referred to, with the final section linked. For example, if we are linking to the Change Password section of the documentation in this format:
 
- * Account
-    * Account Settings
-      * Change Password &#8592; Linking here
+> * Account &#8594; Account Settings &#8594; **Change Password** &#8592; Linking here
 
 The link will be on **Change Password**.
 
 Do not attach the cross-reference directly to a word in the text. Rather, use a separate sentence to introduce the cross-reference with the exact name of the header. 
 
->Wrong: We use [commas](#commas) to separate words.*
+>Wrong: We use [commas](#commas) to separate words.
 
 >Right: We use commas to separate words. For more information on use of commas, refer to [Commas](#commas).
 
@@ -138,8 +136,6 @@ Almost every passive sentence has an active counterpart. If you can’t find an 
 
 Here are some examples of sentences in the active and passive voices:
 
-***** Table content to the left.
-
 | Passive Voice | Active Voice |
 | :------------- | :------------ |
 | A plant is cultivated by the gardener. | The gardener cultivates a plant. |
@@ -159,9 +155,9 @@ Everyone wants to be polite, but for instructions it can be left out.
 
 Include conditional clauses before instructions, not after to give readers a chance to skip it if the circumstance doesn't apply.
 
->Wrong: See [link to other document] for more information
+>Wrong: See **[link to other document]** for more information
 
->Right: For more information, see [link to other document].
+>Right: For more information, see **[link to other document]**.
 
 ### Synonyms
 
@@ -175,7 +171,7 @@ Users may use different actions for the same event.  On a Desktop computer, they
 
 ### Second person and first person
 
-The use of “*you*” (second person) instead of "*we*" is preferred. Identify who the "*you*" is (the developer, the user?) and to be consistent throughout to avoid confusion. In an instruction, if you can, leave out the "*you*".
+The use of **you** (second person) instead of **we** is preferred. Identify who the **you** is (the developer, the user?) and to be consistent throughout to avoid confusion. In an instruction, if you can, leave out the **you**.
 
 >Wrong: You can click on Connect
 
@@ -192,7 +188,7 @@ If this information is repeated across different ```<h2>``` sections, each ```<h
 
 Log in to or log into is a common issue, made worse with login.
 
-**Into** is a preposition.  It establishes a position in time or space.  For example:  *I enter into a car*.
+**Into** is a preposition.  It establishes a position in time or space.  For example:  **I enter into a car**.
 
 **In to** is a two part verb.  I **log in** to a web page.  I’m not literally crawling through my monitor screen.  You may **log** a web page, or **log in** to a web page.
 It’s a weird distinction, and they sound the same.  But the shorthand is you log in to a web page, you enter into a car.
@@ -203,7 +199,7 @@ A simple rule for using numbers that small numbers under ten should generally be
 
 ### Ampersand
 
-Unless it’s part of a name, such as the name of a company, don’t use the ampersand (“*&*”) as an abbreviation strategy.
+Unless it’s part of a name, such as the name of a company, don’t use the ampersand (**&**) as an abbreviation strategy.
 
 ## File name
 
@@ -232,7 +228,7 @@ Bold is also used for UI references.  For example: Select **CONNECTIONS** from t
 
 ## Contractions
 
-Don’t use contractions. For instance, write “do not” instead of “don’t”.
+Don’t use contractions. For instance, write **do not** instead of **don’t**.
 
 ## Italics
 
@@ -243,7 +239,7 @@ You may use italics for tech terms except code.
 Terms from your code, keyboard shortcuts, file names, button names, and other tech terms that need to stand out from your text must be handled the following way:
 
 * Use **italics** for tech terms except code. Don’t use quotation marks for any tech terms.
-* File types are in all **capital letters**.  For example:  “Logs are in JSON format.”
+* File types are in all **capital letters**.  For example:  **Logs are in JSON format.**
 * If tech terms are in italics, you can't use italics for emphasis as well. So, if you need to emphasize a tech term, use **bold**.
 * Write code terms in Courier New and enclose them with a grey box, like this:
 
