@@ -2,36 +2,44 @@
 
 # Development cycle
 
-First install Docker for your platform. Then follow the platform specific instructions below.
-
 The server runs on: http://localhost:8000
 
 **Windows or Linux:**
 
-In console, `cd` to the project root then type:
+First install Docker: https://docs.docker.com/get-docker/
+
+Then open a console, `cd` to the project root, and type:
 
 ```
 docker-compose -f docker-compose.yml up --build website_dev
 ```
 
-**Mac OS:**
+**macOS:**
 
-Initial setup (to be done only once):
+We don't recommended using Docker on macOS, because of file synchronization issues which slow down the development process.
+Instead you should install NodeJS and the required dependencies locally, following this guide: https://www.gatsbyjs.org/tutorial/part-zero/
+(short version: install Xcode Command line tools, NodeJS, and run `npm install` in a shell at the root of your project)
+
+To run the website, open a console, and type:
+
+```
+NODE_ENV=local SENTRY_DSN= RECAPTCHA_SITE_KEY= CONTACT_MESSAGE_URL= gatsby develop -H 0.0.0.0 -p 8000
+```
+
+**macOS with Docker (not recommended):**
+
+First install Docker: https://docs.docker.com/get-docker/. Then install Docker Sync with this command:
 
 ```
 brew install rbenv ruby-build
 gem install docker-sync
 ```
 
-In console, `cd` to the project root then type:
+To run the website, open a console, `cd` to the project root, and type:
 
 ```
 docker-sync start
 docker-compose -f docker-compose.mac.yml up --build website_dev
-```
-
-```
-NODE_ENV=local SENTRY_DSN= RECAPTCHA_SITE_KEY= CONTACT_MESSAGE_URL= gatsby develop -H 0.0.0.0 -p 8000
 ```
 
 # Run the test suite
@@ -51,7 +59,7 @@ The non-interactive, continuous integration version can run in a Docker containe
 docker-compose -f docker-compose.yml up --build website_test
 ```
 
-**Mac OS:**
+**macOS (only works with Docker):**
 
 ```shell
 docker-compose -f docker-compose.mac.yml up --build website_test
@@ -69,7 +77,7 @@ This runs the server with Server Side Rendering (SSR) enabled. Pages are not rel
 docker-compose -f docker-compose.yml up --build website_prod
 ```
 
-**Mac OS:**
+**macOS (only works with Docker):**
 
 ```shell
 docker-compose -f docker-compose.mac.yml up --build website_prod
