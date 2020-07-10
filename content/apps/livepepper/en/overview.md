@@ -5,9 +5,9 @@ layout: documentation
 meta:
   title: LivePepper Connection to HubRise Overview
   description: Overview of LivePepper and how to connect it to HubRise.
-  
-  [comment]: # (We need background effect for images on apps overview page too)
-  
+
+  [comment]:# (We need background effect for images on apps overview page too)
+
 gallery:
   - 026-en-2x-kfc-livepepper.png
   - 027-en-2x-pizza-hut-livepepper.png
@@ -31,7 +31,7 @@ LivePepper can create a full site including static marketing pages and online or
 
 LivePepper comes with a rich palette of features and can answer the needs of the most demanding restaurants and international franchises.
 
-Restaurant managers have complete control over their LivePepper site. They can make changes to their menu, set up promotions, set business hours and vacation periods, delivery times, or other settings to best fit their needs. Data can be exported for analysis. 
+Restaurant managers have complete control over their LivePepper site. They can make changes to their menu, set up promotions, set business hours and vacation periods, delivery times, or other settings to best fit their needs. Data can be exported for analysis.
 
 ## Prerequisites
 

@@ -6,4 +6,3 @@ meta:
   title: Connect Aquila to HubRise
   description: Connect your Aquila site with multiple locations to a new HubRise account and location.
 ---
-

@@ -36,7 +36,7 @@ Once the connection is complete, test orders generated from Aquila will be trans
 
 With the test order created in Aquila, the next step is to verify that the order was transmitted to HubRise through the following steps:
 
-1. Log in to your [HubRise account](https://manager.hubrise.com). 
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 2. From HubRise, click **Data** > **Orders**. The new Order will be displayed.
 3. Click the new Order to verify the customer and order information is accurate.
 4. The **Logs** section will contain the detailed JSON records of the communication between Aquila and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).
@@ -45,10 +45,9 @@ With the test order created in Aquila, the next step is to verify that the order
 
 Both HubRise and Aquila have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
 
-| Description                           | HubRise Name      | Aquila Name     |
-| ------------------------------------- | ----------------- | --------------- |
-| Product code                          | sku_ref           | POS Code        |
-| The actual restaurant                 | Location          | Point of Sale   |
-| Restaurant's unique identifier        | Unique identifier | Hubrise ID      |
-| Product catalog                       | Catalog reference | Catalog ID      |
-
+| Description                    | HubRise Name      | Aquila Name   |
+| ------------------------------ | ----------------- | ------------- |
+| Product code                   | sku_ref           | POS Code      |
+| The actual restaurant          | Location          | Point of Sale |
+| Restaurant's unique identifier | Unique identifier | Hubrise ID    |
+| Product catalog                | Catalog reference | Catalog ID    |

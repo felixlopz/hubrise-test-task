@@ -10,6 +10,7 @@ meta:
 Connecting Aquila to HubRise requires the HubRise plugin to be installed and enabled.
 
 ## Install the HubRise Plugin
+
 To install the HubRise plugin in Aquila, follow these steps:
 
 1. Locate the zip file containing the plugin on your computer.
@@ -20,6 +21,7 @@ To install the HubRise plugin in Aquila, follow these steps:
 1. Select the zip file and click **Open**.
 
 ## Enable the HubRise Plugin
+
 To enable the HubRise plugin in Aquila, follow these steps:
 
 1. Login to your Aquila back office.
@@ -32,17 +34,17 @@ Aquila will then complete the process of activating the plugin.
 
 ## Connect to Account
 
-Once the plugin has been installed and enabled, the connection between Aquila to HubRise can be easily setup either to an existing HubRise Account, or a new one.  
+Once the plugin has been installed and enabled, the connection between Aquila to HubRise can be easily setup either to an existing HubRise Account, or a new one.
 
-The process below details how to create a new HubRise account when connecting your Aquila site.  For instructions on how to connect a site with multiple points of sale, or on how to connect a site to an existing HubRise Account, see the [FAQs](/apps/aquila/faqs).
+The process below details how to create a new HubRise account when connecting your Aquila site. For instructions on how to connect a site with multiple points of sale, or on how to connect a site to an existing HubRise Account, see the [FAQs](/apps/aquila/faqs).
 
 Once the HubRise plugin has been activated, the connection to a HubRise Account can be set through the following process:
 
 1. Login to your Aquila back office.
 1. Select **Hubrise** from the left navigation panel.
-1. To allow HubRise to create new products on Aquila, set **Only create new product** to **YES**.  To allow the HubRise connection to update existing products in Aquila, set **Only create new product** to **NO**.
+1. To allow HubRise to create new products on Aquila, set **Only create new product** to **YES**. To allow the HubRise connection to update existing products in Aquila, set **Only create new product** to **NO**.
 1. Click **Login to HubRise**.
-1. Select the HubRise Account and Catalog you wish to use, and press **Allow**. 
+1. Select the HubRise Account and Catalog you wish to use, and press **Allow**.
 
 At this point the connection between Aquila and HubRise is done at Account level.
 
@@ -56,4 +58,3 @@ To distinguish between each Point of Sake, a unique identifier for the location 
 1. Select **Point de vente** from the left navigation panel.
 1. Click on the point of sale you want to connect?
 1. Fill in the HubRise unique identifier for the Location the **ID HubRise** input field. For example **wg8tl-1** indicates the HubRise Account **wg8tl**, and **-1** the Location on the account. For more information, see HubRise [Locations](/docs/locations/).
-
