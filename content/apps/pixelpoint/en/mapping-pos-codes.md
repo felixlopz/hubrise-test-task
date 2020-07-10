@@ -9,7 +9,7 @@ meta:
 
 ## Setting up the Online Ordering System
 
-PixelPoint Bridge pushes but is not able to pull information stored in the PAR PixelPoint EPOS. For this reason, all menu items and prices must be manually set in the system to connect with their corresponding product code to ensure a smooth communication between HubRise and PixelPoint. 
+PixelPoint Bridge **pushes but is not able to pull** information stored in the **PAR PixelPoint EPOS**. For this reason, all menu items and prices must be manually set in the system to connect with their corresponding product code to ensure a smooth communication between HubRise and PixelPoint. 
 
 Every order received in HubRise is forwarded to the EPOS via the PixelPoint Bridge. Each request is logged in PixelPoint Bridge and can be inspected to find possible issues with the configuration. 
 
@@ -17,15 +17,15 @@ Every order received in HubRise is forwarded to the EPOS via the PixelPoint Brid
 
 A PAR PixelPoint catalog can include:
 
-* Products
+* **Products**
 
-* Options
+* **Options**
 
-* Combos
+* **Combos**
 
-Each product in PAR PixelPoint is identified by a unique product code. When you set up your menu in the system to connect, you need to provide this code for each product you sell. 
+**Each product** in PAR PixelPoint is identified by a **unique product code**. When you set up your menu in the system to connect, you need to provide this code for each product you sell. 
 
-All options in your menu are also associated with a specific code. The EPOS does not differentiate between actual products and options, but other systems generally do. 
+All options in your menu are also associated with a **specific code**. The EPOS does not differentiate between actual products and options, but other systems generally do. 
 
 These options include:
 
@@ -37,7 +37,7 @@ These options include:
 
 * Additional options, such as adding napkins or cutlery.
 
-Toppings and ingredients set in the online ordering system are automatically passed to the EPOS by PixelPoint Bridge as forced answers to the forced questions previously set in the EPOS.
+Toppings and ingredients set in the online ordering system are **automatically passed** to the EPOS by PixelPoint Bridge as forced answers to the forced questions previously set in the EPOS.
 
 Combos are particular combinations of products and/or options that are sold as a unit with a discounted price in the PixelPoint EPOS. If you offer combos, you need to create them in the other system and specify the corresponding code.
 
@@ -49,13 +49,13 @@ Combos are particular combinations of products and/or options that are sold as a
 
 ### Setting Service Types
 
-Each service type you provide (delivery, collection, eat-in) must be associated with the correct PixelPoint EPOS code. The exact values of these codes depend on the particular setup of the restaurant, but they are typically numbers in the 1000-1010 range.
+Each **service type** you provide (delivery, collection, eat-in) must be associated with the **correct PixelPoint EPOS code**. The exact values of these codes depend on the particular setup of the restaurant, but they are typically numbers in the **1000-1010** range.
 
 ### Setting Payment Methods
 
-Your PixelPoint EPOS has a different code for each payment method. Each payment method allowed in the system to connect must be defined in the PixelPoint EPOS and must be specified with the corresponding code. 
+Your PixelPoint EPOS has a **different code** for each payment method. Each payment method allowed in the system to connect **must be defined** in the **PixelPoint EPOS** and must be **specified** with the **corresponding code**. 
 
-When the customer chooses to pay upon delivery or collection, PixelPoint Bridge will not send to the EPOS any payment information, as doing so would close the transaction. 
+When the customer chooses to pay upon delivery or collection, PixelPoint Bridge **will not send** any **payment information** to the **EPOS**, as doing so would **close** the transaction. 
 
 
 

@@ -7,17 +7,17 @@ meta:
   description: Informs users on how to read the output in the Logs.
 ---
 
-The logs page on PixelPoint Bridge is divided into two parts: Request and Response. The former displays the information sent from HubRise to PixelPoint, the latter the response sent from the PAR PixelPoint EPOS back to PixelPoint Bridge.
+The logs page on PixelPoint Bridge is divided into two parts: **Request** and **Response**. The former displays the information sent from HubRise to PixelPoint, the latter the response sent from the PAR PixelPoint EPOS back to PixelPoint Bridge.
 
-To understand the logs in PixelPoint Bridge, you need to know how to read XML files first. 
+To understand the logs in PixelPoint Bridge, you need to know how to read **XML** files first. 
 
 ## An XML Primer
 
-XML is a format to store and transfer information organised in nodes of key-value pairs with  a hierarchical structure. Each piece of information is divided into:
+**XML** is a format to store and transfer information organised in nodes of key-value pairs with a hierarchical structure. Each piece of information is divided into:
 
-* The name or type of information (the key).
+* The name or type of information (**the key**).
 
-* The content of the information (the value).
+* The content of the information (**the value**).
 
 Consider this example:
 
@@ -29,7 +29,7 @@ For more extensive explanations, see this [introduction on the XML format](https
 
 ## PixelPoint Request Log
 
-The main nodes of a request appearing on PixelPoint Bridge are `RequestType`, `EOITransfer` and `DebugMode`. 
+The **main nodes** of a **request** appearing on PixelPoint Bridge are `RequestType`, `EOITransfer` and `DebugMode`. 
 
 The value for `RequestType` is always set to `10`, while each node of `EOITransfer` contains the following subnodes with an increasing order of specific details about the request:
 
@@ -39,35 +39,35 @@ The value for `RequestType` is always set to `10`, while each node of `EOITransf
 
 * `Member`
 
-Finally, the `DebugMode` node only appears if debug mode is selected from the Configuration page and the value associated with this node will be `1` in this case. 
+Finally, the `DebugMode` node only appears if **debug mode** is selected from the **Configuration page** and the value associated with this node will be `1` in this case. 
 
 ### The EOIAuthenticationToken Node
 
-This node has a single value that represents the PixelPoint API token saved in PixelPoint Bridge. For more information, see [Setup](/apps/pixelpoint/getting-started/#setup).
+This node has a single value that represents the **PixelPoint API token** saved in PixelPoint Bridge. For more information, see [Setup](/apps/pixelpoint/getting-started/#setup).
 
 ### The Transaction Node
 
 The `Transaction` node and its subnodes are especially relevant to diagnose possible problems in the request. The main subnodes of interest are:
 
-* `SaleTypeNum`: The service type associated with the order. For more information, see [Setting Service Types](/apps/pixelpoint/mapping-pos-codes/setting-service-types).
+* `SaleTypeNum`: The **service type** associated with the order. For more information, see [Setting Service Types](/apps/pixelpoint/mapping-pos-codes/setting-service-types).
 
-* `ScheduleTime`: If present, it indicates the date and time the order should be delivered or expected to be ready for collection. It is not present if the customer does not specify the time for collection, or if delivery is scheduled within 30 minutes of the order or as soon as possible.
+* `ScheduleTime`: If present, it indicates the **date and time** the order should be delivered or expected to be ready for collection. It is not present if the customer does not specify the time for collection, or if delivery is scheduled within 30 minutes of the order or as soon as possible.
 
 * `Items`: Must contain at least one `Item` node. For each `Item` node, the following subnodes are generally present:
-  * `ProdNum`: The unique product code that is associated with the product in your EPOS catalog. For more information, see Setting the Product Catalog.
-  * `CouponNum`: The unique product code associated with a discount in your EPOS catalog. CouponNum and ProdNum are mutually exclusive, therefore only one must be present inside the Item node.
-  * `CostEach`: The cost of each Item. 
-  * `Quantity`: The product quantity ordered by the customer. 
-  * `ItemId` and `ParentId`: Integer numbers used together to identify products from options. For more information, see Recognising Products and Options.
-  *  `ComboItemId`: It is present when the product is part of a deal. The value associated with this key represents the code for the deal in your EPOS catalog. For more information, see Setting the Product Catalog.
-  *  `PriceApplied`: This value is always 13. 
+  * `ProdNum`: The **unique product code** that is associated with the product in your EPOS catalog. For more information, see Setting the Product Catalog.
+  * `CouponNum`: The **unique product code** associated with a discount in your EPOS catalog. `CouponNum` and `ProdNum` are mutually exclusive, therefore only one must be present inside the `Item` node.
+  * `CostEach`: The **cost** of each Item. 
+  * `Quantity`: The product **quantity** ordered by the customer. 
+  * `ItemId` and `ParentId`: **Integer numbers** used together to identify products from options. For more information, see [Recognising Products and Options](/apps/pixelpoint/understanding-logs/#recognising-products-and-options).
+  *  `ComboItemId`: It is present when the product is **part of a deal**. The value associated with this key represents the code for the deal in your EPOS catalog. For more information, see Setting the Product Catalog.
+  *  `PriceApplied`: This value is always **13**. 
 
-* `Payment`: This node and its subnodes specify the information about the payment. It is missing if the order is not paid online, so that the transaction remains open in the EPOS system. The transaction will be closed only when the customer pays upon delivery of collection. The following subnodes are generally present:
+* `Payment`: This node and its subnodes **specify the information** about the **payment**. It is missing if the order is not paid online, so that the transaction remains open in the EPOS system. The transaction will be closed only when the customer pays upon delivery of collection. The following subnodes are generally present:
   * `MethodNumber`: The code associated with the payment method in the PixelPoint EPOS. For more information, see Payment Methods.
-  * `AuthType`: This value is always 114. 
+  * `AuthType`: This value is always **114**. 
   * `Tender`: The total amount paid.
 
-* `CustomRecFooter`: When the order is paid upon delivery, the Payment node is not created and the payment method name is encoded in this node.
+* `CustomRecFooter`: When the order is paid upon delivery, the `Payment` node is not created and the payment method name is encoded in this node.
 
 ### Recognising Products and Options
 

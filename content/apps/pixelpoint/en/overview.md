@@ -32,9 +32,9 @@ Therefore, PixelPoint Bridge cannot transfer the menu from the EPOS to HubRise, 
 
 To establish a successful connection with your PAR PixelPoint EPOS, PixelPoint Bridge requires:
 
-* PixelHQ and PixelPoint version 12.3 or above.
+* **PixelHQ** and **PixelPoint version 12.3** or above.
 
-* The API token provided by the PAR PixelPoint support team.
+* The **API** token provided by the PAR PixelPoint support team.
 
-* The HubRise account setup with locations to connect. For more information about accounts and locations, see the [HubRise documentation](/developers).
+* The **HubRise account** setup with locations to connect. For more information about accounts and locations, see the [HubRise documentation](/developers).
 
