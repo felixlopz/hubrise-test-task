@@ -43,7 +43,7 @@ Download the client secret JSON, which should look like this:
 }
 ```
 
-The client's **id** and **secret** is used to identify your application. You will generally need to create a single client for your application. The same client can be used by several HubRise accounts.
+The client's **id** and **secret** uniquely identify your application. You will generally need to create a single client for your application. The same client can be used by several HubRise accounts.
 
 ## Request the Account's Authorisation
 
@@ -51,7 +51,7 @@ In order for your application to access a HubRise account's information, you nee
 
 As the owner of your test HubRise account, you must authorise access to your own application.
 
-Open a web browser with the URL and make sure you replace the `client_id` from the secret JSON you downloaded where you have `{{client_id}}`:
+Open a web browser with the following URL and make sure you replace `{{client_id}}` with the `client_id` you downloaded from the secret JSON:
 
 ```http
 https://manager.hubrise.com/oauth2/v1/authorize?
