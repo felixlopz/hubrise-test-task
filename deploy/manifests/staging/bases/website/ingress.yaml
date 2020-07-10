@@ -2,14 +2,23 @@ apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 
 metadata:
-  name: website-staging
+  name: website-com
   namespace: hubrise-www
   labels:
-    app: website-staging
+    app: website
+  annotations:
+    certmanager.k8s.io/cluster-issuer: letsencrypt-staging
+    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
 
 spec:
+  tls:
+    - hosts:
+        - staging-hubrise.com
+        - www.staging-hubrise.com
+      secretName: website-com-cert
+
   rules:
-    - host: __TAG__.website.hubrise-staging.com
+    - host: www.staging-hubrise.com
       http:
         paths:
           - backend:

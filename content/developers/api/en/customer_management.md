@@ -131,7 +131,9 @@ If `name` is used by another customer list, it returns an error.
 
 ### 1.5. Delete Customer List
 
-Delete a customer list and its customers.
+Delete a customer list. Customers and loyalty cards belonging to the list are also deleted.
+
+No event is fired in the process.
 
 <CallSummaryTable
   endpoint="DELETE /customer_lists/:id"

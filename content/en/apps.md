@@ -89,9 +89,9 @@ content:
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info: Integration in progress.
         - to: /apps/aquila/
-          logo: aquilacms.jpeg
+          logo: aquila-cms.jpg
           title: AquilaCMS
-          description: AquilaCMS is an open source e-commerce solution for retail stores and restaurants. It can be downloaded or used as a hosted solution with development services provided by the editor.
+          description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
         - to: /apps/livepepper/
           logo: livepepper.png
           title: LivePepper
@@ -159,14 +159,19 @@ content:
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
     - title: Other Apps
       apps:
+        - to: /apps/orderline/
+          logo: orderline.png
+          title: OrderLine
+          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.    
+        - to: https://www.spleat.io
+          logo: spleat.png
+          title: Spleat
+          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones. 
+          additional_info: Integration in progress. Documentation in French.
         - to: https://tickncook.com
           logo: tickncook.png
           title: Tick'N'Cook
           description: Tick'N'Cook is a kitchen display screen for independent restaurants and chains. Tick'N'Cook can be customised with estimated preparation time and specialised screens for bar, pastry or kitchen.
-        - to: /apps/orderline/
-          logo: orderline.png
-          title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.
         - to: http://1bot.io/
           logo: 1bot.png
           title: 1bot

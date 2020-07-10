@@ -9,15 +9,15 @@ meta:
 
 ## Overview
 
-This guide will help you to get to know the HubRise API. At the end of the process, you will know how to send an order to HubRise. And the best part is that you will not have to write a single line of code!
+This guide will help you to get started with the HubRise API. At the end of the process, you will know how to send an order to HubRise. And the best part is that you will not have to write a single line of code!
 
 ## Getting Started
 
 ### Create a HubRise Account
 
-First of all, you need to create a user profile on HubRise with an account and an associated location. It is free, and only takes a few minutes! Just click on the **Sign Up** button on the top of the page and follow the instructions.
+First of all, you need to create a user profile on HubRise with an account and an associated location. It is free, and only takes a few minutes! Just click on the **Sign Up** button on the top of this page and follow the instructions.
 
-This account will be the first user of your application, and will be useful for testing during the development process.
+This account will be the first user of your application. It will be useful to have it for testing during the development process.
 
 ### Set up Postman
 
@@ -31,10 +31,10 @@ Postman is an API development environment that makes sending API requests very e
 Then, you need to create an OAuth 2.0 client for your application.
 
 - Log in to the [HubRise back office](https://manager.hubrise.com/).
-- Go to **SETTINGS > DEVELOPER**, then click on **Create an OAuth 2.0 client**.
+- Go to **SETTINGS** > **DEVELOPER**, then click on **Create an OAuth 2.0 client**.
 - Enter a name for your application, then click the **Create** button.
 
-Download the client secret JSON, which should look like:
+Download the client secret JSON, which should look like this:
 
 ```json
 {
@@ -43,15 +43,15 @@ Download the client secret JSON, which should look like:
 }
 ```
 
-The client's **id** and **secret** uniquely identify your application. You will generally need to create a single client for your application: The same client can be used by several HubRise accounts.
+The client's **id** and **secret** are used to identify your application. You will generally need to create a single client for your application. The same client can be used by several HubRise accounts.
 
 ## Request the Account's Authorisation
 
 In order for your application to access a HubRise account's information, you need the authorisation from the account's owner.
 
-You, as the owner of your test HubRise account, must authorise access to your own application.
+As the owner of your test HubRise account, you must authorise access to your own application.
 
-Open a web browser with the URL and make sure you copy the `client_id` from the secret JSON you downloaded before in place of `{{client_id}}`:
+Open a web browser with the following URL and make sure you replace `{{client_id}}` with the `client_id` you downloaded from the secret JSON:
 
 ```http
 https://manager.hubrise.com/oauth2/v1/authorize?
@@ -66,7 +66,7 @@ If everything goes well, you should see a page similar to the following.
 
 ![authorisation code](../images/001-en-generate-user-code.png)
 
-This is the **authorisation code**: copy it and head to the next section.
+This is the **authorisation code**. Copy it and head to the next section.
 
 ## Generate the Access Token
 
@@ -79,7 +79,7 @@ You now have three codes:
 With these, you can generate your access token with Postman.
 
 An access token is how you authenticate the requests you send to HubRise.
-Basically, you want your application (_client id_) to be authorised (via the _client secret_) to send requests to HubRise on behalf of the account owner (_authorisation code_), and you do this with the _access token_.
+Basically, you want your application (client id) to be authorised (via the client secret) to send requests to HubRise on behalf of the account owner (authorisation code), and you do this with the **Access Token**.
 
 ### Set up Variables in Postman
 
@@ -107,7 +107,7 @@ In Postman, play the **Create Order** endpoint. If the request is successful, yo
 
 Congratulations! You placed your first order on HubRise.
 
-## (Optional) Set up a Callback
+## Set up a Callback (Optional) 
 
 In many cases, your application will need to be notified when a certain event occurs, such as when an order is created or updated. This can be achieved with a callback.
 
@@ -151,20 +151,20 @@ Now you can try to place an order with your first application. You can use the s
 
 In some circumstances, a webhook cannot be set up because a callback URL cannot be exposed. This is typical for applications that users download and run from their computer.
 
-In this case, you can set up a _passive callback_: your application can check for new events at regular intervals of time and perform the necessary operations when a new event is found.
+In this case, you can set up a passive callback. Your application will then check for new events at regular intervals of time and perform the necessary operations when a new event is found.
 
 The `Callback: Get Events` request in Postman is an example of how you can do that. Simply create a new order, as usual, and play this request right after to obtain the order's details.
 
 After you process the event, you should delete it so that it will not appear in the next `GET /events` request.
-Unlike active callbacks, in fact, events need to be manually deleted after being processed with a passive callback.
+Unlike active callbacks, events need to be manually deleted after being processed with a passive callback.
 
 ## Next Steps
 
 ### Install OrderLine
 
-OrderLine is a simple, free application that you can connect to your HubRise account to manage incoming orders. With OrderLine, you will be able to accept or reject incoming test orders and to inspect the different logs from Postman.
+OrderLine is a simple, free application you can connect to your HubRise account to manage incoming orders. With OrderLine, you will be able to accept or reject incoming test orders and inspect the different logs from Postman.
 
-To connect OrderLine to your location, click on **CONNECTIONS > View available apps**, then scroll down the list and select OrderLine.
+To connect OrderLine to your location, click on **CONNECTIONS** > **View available apps**, then scroll down the list and select OrderLine.
 
 ### Experiment with the API
 

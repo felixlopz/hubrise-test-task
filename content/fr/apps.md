@@ -91,9 +91,9 @@ content:
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
           additional_info: Documentation en anglais. Intégration en cours.
         - to: /apps/aquila/
-          logo: aquilacms.jpeg
+          logo: aquila-cms.jpg
           title: AquilaCMS
-          description: AquilaCMS est une solution de e-commerce open source pour les commerces de proximité et les restaurants. AquilaCMS peut-être téléchargé ou utilisé avec les services d'hébergement et de développement proposés par l'éditeur.
+          description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
         - to: /apps/livepepper/
           logo: livepepper.png
@@ -168,14 +168,19 @@ content:
           additional_info: Documentation en anglais.
     - title: Autres applications
       apps:
-        - to: https://tickncook.com
-          logo: tickncook.png
-          title: Tick'N'Cook
-          description: Tick'n'Cook est un écran cuisine. Les commandes provenant de votre site Internet, de vos bornes ou de votre caisse apparaissent en temps réel sur des écrans tactiles. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés par atelier (bar, cuisine...).
         - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
           description: OrderLine édité par HubRise centralise les commandes passées depuis un site e-commerce ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
+        - to: https://www.spleat.io
+          logo: spleat.png
+          title: Spleat
+          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone. 
+          additional_info: Intégration en cours.
+        - to: https://tickncook.com
+          logo: tickncook.png
+          title: Tick'N'Cook
+          description: Tick'n'Cook est un écran cuisine. Les commandes provenant de votre site Internet, de vos bornes ou de votre caisse apparaissent en temps réel sur des écrans tactiles. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés par atelier (bar, cuisine...).
         - to: http://1bot.io/
           logo: 1bot.png
           title: 1bot
