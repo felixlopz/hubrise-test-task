@@ -89,9 +89,9 @@ content:
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info: Integration in progress.
         - to: /apps/aquila/
-          logo: aquilacms.jpeg
+          logo: aquila-cms.jpg
           title: AquilaCMS
-          description: AquilaCMS is an open source e-commerce solution for retail stores and restaurants. It can be downloaded or used as a hosted solution with development services provided by the editor.
+          description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
         - to: /apps/livepepper/
           logo: livepepper.png
           title: LivePepper
