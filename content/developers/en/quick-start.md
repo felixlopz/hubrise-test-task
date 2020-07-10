@@ -43,7 +43,7 @@ Download the client secret JSON, which should look like this:
 }
 ```
 
-The client's **id** and **secret** uniquely identify your application. You will generally need to create a single client for your application. The same client can be used by several HubRise accounts.
+The client's **id** and **secret** are used to identify your application. You will generally need to create a single client for your application. The same client can be used by several HubRise accounts.
 
 ## Request the Account's Authorisation
 
@@ -156,7 +156,7 @@ In this case, you can set up a passive callback. Your application will then chec
 The `Callback: Get Events` request in Postman is an example of how you can do that. Simply create a new order, as usual, and play this request right after to obtain the order's details.
 
 After you process the event, you should delete it so that it will not appear in the next `GET /events` request.
-Unlike active callbacks events need to be manually deleted after being processed with a passive callback.
+Unlike active callbacks, events need to be manually deleted after being processed with a passive callback.
 
 ## Next Steps
 
