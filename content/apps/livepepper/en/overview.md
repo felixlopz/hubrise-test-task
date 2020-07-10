@@ -5,9 +5,6 @@ layout: documentation
 meta:
   title: LivePepper Connection to HubRise Overview
   description: Overview of LivePepper and how to connect it to HubRise.
-
-  [comment]:# (We need background effect for images on apps overview page too)
-
 gallery:
   - 026-en-2x-kfc-livepepper.png
   - 027-en-2x-pizza-hut-livepepper.png
@@ -20,6 +17,8 @@ app_info:
   website: https://www.livepepper.com
   contact: contact@livepepper.com / +33 4 92 38 09 82
 ---
+
+[comment]:# (We need background effect for images on apps overview page too)
 
 ## Description
 
