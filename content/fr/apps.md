@@ -93,7 +93,7 @@ content:
         - to: /apps/aquila/
           logo: aquilacms.jpeg
           title: AquilaCMS
-          description: AquilaCMS est une solution de e-commerce open source pour les commerces de proximité et les restaurants. AquilaCMS peut-être téléchargé ou utilisé avec les services d'hébergement et de développement proposés par l'éditeur.
+          description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
         - to: /apps/livepepper/
           logo: livepepper.png
