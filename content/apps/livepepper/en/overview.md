@@ -5,9 +5,6 @@ layout: documentation
 meta:
   title: LivePepper Connection to HubRise Overview
   description: Overview of LivePepper and how to connect it to HubRise.
-
-  [comment]:# (We need background effect for images on apps overview page too)
-
 gallery:
   - 026-en-2x-kfc-livepepper.png
   - 027-en-2x-pizza-hut-livepepper.png
@@ -22,6 +19,8 @@ app_info:
 ---
 
 ## Description
+
+[comment]: # 'We need background effect for images on apps overview page too'
 
 LivePepper is an online ordering solution for home delivery and takeaway restaurants.
 
