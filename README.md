@@ -6,7 +6,7 @@ First install Docker for your platform. Then follow the platform specific instru
 
 The server runs on: http://localhost:8000
 
-__Windows or Linux:__
+**Windows or Linux:**
 
 In console, `cd` to the project root then type:
 
@@ -14,9 +14,10 @@ In console, `cd` to the project root then type:
 docker-compose -f docker-compose.yml up --build website_dev
 ```
 
-__Mac OS:__
+**Mac OS:**
 
 Initial setup (to be done only once):
+
 ```
 brew install rbenv ruby-build
 gem install docker-sync
@@ -27,6 +28,10 @@ In console, `cd` to the project root then type:
 ```
 docker-sync start
 docker-compose -f docker-compose.mac.yml up --build website_dev
+```
+
+```
+NODE_ENV=local SENTRY_DSN= RECAPTCHA_SITE_KEY= CONTACT_MESSAGE_URL= gatsby develop -H 0.0.0.0 -p 8000
 ```
 
 # Run the test suite
@@ -40,13 +45,13 @@ cypress run
 
 The non-interactive, continuous integration version can run in a Docker container however:
 
-__Windows or Linux:__
+**Windows or Linux:**
 
 ```shell
 docker-compose -f docker-compose.yml up --build website_test
 ```
 
-__Mac OS:__
+**Mac OS:**
 
 ```shell
 docker-compose -f docker-compose.mac.yml up --build website_test
@@ -58,13 +63,13 @@ Runs on: http://localhost:8001
 
 This runs the server with Server Side Rendering (SSR) enabled. Pages are not reloaded on code change.
 
-__Windows or Linux:__
+**Windows or Linux:**
 
 ```shell
 docker-compose -f docker-compose.yml up --build website_prod
 ```
 
-__Mac OS:__
+**Mac OS:**
 
 ```shell
 docker-compose -f docker-compose.mac.yml up --build website_prod
@@ -75,7 +80,6 @@ docker-compose -f docker-compose.mac.yml up --build website_prod
 For HubRise system administrators.
 
 Use the same process as a the other apps (see cluster/doc/build_deploy_app.md)
-
 
 # Test email-sending forms locally
 
