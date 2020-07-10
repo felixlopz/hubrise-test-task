@@ -3,8 +3,8 @@ title: Troubleshooting Requests
 position: 8
 layout: documentation
 meta:
-  title: Troubleshooting Requests Transactions in HubRise
-  description: Error codes, order status and missing or wrong EPOS codes shown in HubRise logs help understand issues.
+  title: Troubleshooting Requests - How to Read HubRise logs
+  description: Error codes, order statuses and missing or wrong EPOS codes shown in HubRise logs help understand issues.
 ---
 
 ## Overview

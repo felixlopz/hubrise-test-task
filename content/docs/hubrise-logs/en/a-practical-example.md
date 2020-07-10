@@ -3,8 +3,8 @@ title: A Practical Example
 position: 3
 layout: documentation
 meta:
-  title: JSON Objects Structure, a Practical Example
-  description: Example of an order and its relative JSON request.
+  title: A Practical Example - How to Read HubRise logs
+  description: Example of an order and its corresponding JSON request.
 ---
 
 JSON objects can describe complex data models by combining several elements in a hierarchical structure. The following scenario describes a sample order and the relative JSON request, and is a simplified version of a real order you can find in the HubRise back office.

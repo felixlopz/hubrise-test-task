@@ -3,8 +3,8 @@ title: HubRise Data Model
 position: 7
 layout: documentation
 meta:
-  title: HubRise Data Model
-  description: Order request logged in the HubRise, keys shown in the HubRise back office.
+  title: HubRise Data Model - How to Read HubRise logs
+  description: The typical JSON keys in the body of a HubRise request.
 ---
 
 ## Order Requests in HubRise
