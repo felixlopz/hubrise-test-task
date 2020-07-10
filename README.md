@@ -40,6 +40,7 @@ To run the website, open a console, `cd` to the project root, and type:
 ```
 docker-sync start
 docker-compose -f docker-compose.mac.yml up --build website_dev
+docker exec website_dev rm -rf public .cache
 ```
 
 # Run the test suite
