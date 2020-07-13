@@ -11,7 +11,7 @@ meta:
 
 This guide provides instructions for when you want to contribute your documentation to the HubRise documentation. It provides instructions on style guide specifications, spelling, style and technical documentation.
 
-The goal of the documentation is to provide technical assistance in respect of your app and it's integration into the HubRise platform. Therefore, it should be written in sufficient detail in order to impart the necessary information to the reader. 
+The goal of the documentation is to provide technical assistance in respect of your app and its integration into the HubRise platform. Therefore, it should be written in sufficient detail in order to impart the necessary information to the reader.
 
 An example of proper documentation can be found [here](/apps/livepepper/connect-hubrise).
 
@@ -30,11 +30,11 @@ All contributions to the HubRise documentation should be made with a certain sty
 
 The [Style Guide](/contributing/style-guide) provides information on, for example:
 
-> * Punctuation
-> * Capitalization
-> * Readability
-> * References
-> * Headings and Titles, etc.
+> - Punctuation
+> - Capitalisation
+> - Readability
+> - References
+> - Headings and Titles, etc.
 
 For further guidance on the style, please refer to the [Style Guide](/contributing/style-guide).
 
@@ -43,7 +43,6 @@ For further guidance on the style, please refer to the [Style Guide](/contributi
 When it becomes necessaryto supplement your documentation with screenshots, these screenshots have to comply with certain technical specifications. Our [Screenshots Guide](/contributing/screenshots-guide) provides guidance on these specifications.
 
 For more information on how to use screenshots in your documentation, please refer to the [Screenshots Guide](/contributing/screenshots-guide).
-
 
 ## Videos
 
