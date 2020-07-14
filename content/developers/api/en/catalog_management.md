@@ -1003,7 +1003,7 @@ It defines a set of conditions for a particular item to be available.
 | `max_per_order` <Label type="optional" />    | integer                                                    | Max number of items per order.                              |
 | `max_per_customer` <Label type="optional" /> | integer                                                    | Max number of items per customer.                           |
 
-All the fields above are optional. Fields with a `null` value are ignored.
+All the fields above are optional. Fields with a `null` value are ignored. All the conditions must be met simultaneously for an item to be available.
 
 The `dow` value contains 7 characters. Each character represents a day of the week, from Monday (`1`) to Sunday (`7`). When the digit is replaced by `-`, the item is not available on this day. For instance:
 
