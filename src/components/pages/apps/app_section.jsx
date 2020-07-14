@@ -23,6 +23,7 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
                     <Image
                       className="app__box-image"
                       alt={title}
+                      imgStyle={{objectFit: "scale-down"}}
                       {...logos.find(({ base }) => base === logo)
                         .childImageSharp}
                     />

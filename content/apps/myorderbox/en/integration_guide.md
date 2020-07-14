@@ -26,7 +26,7 @@ If a code is missing or not recognized (on a sku, deal, etc.), the order is reje
 
 HubRise and MyOrderBox use different terminology:
 
-| HubRise      | MyOrderBox  |
+| HubRise      | MyOrderBox    |
 | ------------ | ------------- |
 | option_lists | Options       |
 | options      | Option values |

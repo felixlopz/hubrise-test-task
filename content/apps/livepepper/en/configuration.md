@@ -13,26 +13,26 @@ To properly process orders from LivePepper to your EPOS, product codes are requi
 
 In some cases, the EPOS will also require codes for payment methods, service types and delivery charges to understand some of the LivePepper functionalities. Always refer to your EPOS documentation on the HubRise website for details.
 
-Your LivePepper menu can either be created directly in LivePepper, or imported from a HubRise catalog. 
+Your LivePepper menu can either be created directly in LivePepper, or imported from a HubRise catalog.
 
------------
+---
 
 **IMPORTANT NOTE**: It is important for each POS code field available in LivePepper to be mapped with the corresponding EPOS product codes. If the POS code is missing, the EPOS will not be unable to correctly process the order.
 
------------
+---
 
 ## Catalog Import
- 
+
 If you have already exported your products from your EPOS or other connected app to HubRise, the entire catalog can be imported from HubRise. This will include:
 
 - Products with variants, options, prices, within their respective product categories.
 - Deals.
 
-----------------------
+---
 
 **IMPORTANT NOTE**: Importing a catalog from HubRise will replace the products in your LivePepper Menu. You can edit the menu in LivePepper after the import. Catalogs cannot be edited in HubRise.
 
-----------------------
+---
 
 To import from a HubRise Catalog into LivePepper:
 
@@ -72,13 +72,14 @@ At the end of the process you can check if all products have been mapped. For mo
 
 ### Add POS Codes to Toppings, Variants, Ingredients, and Options
 
-The process to add POS codes to toppings, variants, ingredients, and options is the same for product categories and products. 
+The process to add POS codes to toppings, variants, ingredients, and options is the same for product categories and products.
 
 - Product **Category** values include:
+
   - **Variants**: Variants are available differences in a product. For example: Pizza with thin crust versus pizza with hand tossed crust.
   - **Toppings**: Ingredients that customers can add to their product that are not available by default. For example, adding mushrooms to a cheeseburger. Toppings can be set at the product category or the product level.
   - **Options**: Options are differences in how products are delivered. For example: Adding utensils, sauces, cutting a pizza in squares instead of triangles, etc.
-  
+
 - **Products** values and attributes include:
   - **Ingredients**: Default ingredients within a recipe that customers can remove from their product. For example: Cheeseburger without the pickles.
   - **Price & Availability**: The options made available to the customer, usually in the form of sizes. For example: an 8" pizza versus a 12” pizza.
@@ -105,7 +106,7 @@ At the end of the process you can check if all product values and attributes hav
 
 ## Deals & Discounts Mapping
 
-Deals in LivePepper offer savings to products or to the entire order. Correct POS codes are essential for orders containing deals to be properly transmitted to your EPOS systems and other apps connected to HubRise.
+Deals in LivePepper offer savings to products or to the entire order. Correct POS codes are essential for orders containing deals to be properly transmitted to your EPOS system and other apps connected to HubRise.
 
 To add a POS Code to a deal:
 
@@ -120,11 +121,11 @@ At the end of the process you can check if all deals have been mapped. For more 
   <source src="../images/019-deals-pos-code-update.webm" type="video/webm"/>
 </video>
 
-------------------
+---
 
 **IMPORTANT NOTE**: Depending on your EPOS, Deals may be transmitted to the EPOS without a POS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
 
-------------------
+---
 
 ## Payment Methods Mapping
 
@@ -144,7 +145,7 @@ To add a POS Code to a Payment Method:
 
 ## Service Types Mapping
 
-Service Type such as Delivery, Collection or Eat in might require a POS code entry. Refer to your connected EPOS documentation on the HubRise website to verify. 
+Service Type such as Delivery, Collection or Eat in might require a POS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 Service Types must be added by your LivePepper support representative. It cannot be done from the LivePepper back office.
 

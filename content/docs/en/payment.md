@@ -33,8 +33,10 @@ To change whether your Location uses your HubRise Account payment method, or whe
 To add a payment method for an Account or Location:
 
 1. Go to **SETTINGS** > **ACCOUNTS**.
+
 - To update the payment method for an Account, select the Account and scroll down to the Payment section.
 - To update the payment method for a Location, select the Account, then select the Location, and scroll down to the Payment section.
+
 2. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
 3. Enter your credit card information. Credit cards must be valid to be accepted.
 4. When finished, click **Save**.
@@ -54,11 +56,11 @@ To process a payment from the notification:
   <source src="../images/041-en-process-pending-quotes.webm" type="video/webm"/>
 </video>
 
------------
+---
 
 **Related FAQ**: <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">What Happens If My Free Plan Quota Is Exceeded?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">My Quota is Exceeded and I Have One Location. How do I Pay?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">My Quota is Exceeded and I Have Multiple Locations with Different Payment Methods. How do I Pay?</Link>, <Link to="/docs/faqs/pause-plan-during-setup-and-test-phases/">Can My Plan Be Paused During Setup and Test Phases?</Link>
 
-----------------
+---
 
 ## Payment History
 

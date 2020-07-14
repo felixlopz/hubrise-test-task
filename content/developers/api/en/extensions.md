@@ -38,7 +38,7 @@ POST /location/orders
   "status": "new",
   "custom_fields": {
     "tracking_url": "https://order.tracking.com/orders/664578",
-    "delivery_out": "2018-03-19T19:25:00"
+    "delivery_out": "2020-03-19T19:25:00+02:00"
   }
 }
 ```

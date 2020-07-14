@@ -65,6 +65,22 @@ content:
           title: Zelty
           description: Zelty is a complete suite of solutions designed for multisite. Zelty is suitable for any type of restaurant from fast food to traditional catering.
           additional_info: Documentation in French.
+    - title: Food Ordering Platforms
+      apps:
+        - to: https://www.deliveroo.com
+          logo: deliveroo.png
+          title: Deliveroo
+          description: Deliveroo is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
+          additional_info: Integration in progress.
+        - to: https://www.foodpanda.com/
+          logo: foodpanda.png
+          title: Foodpanda
+          description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
+          additional_info: Integration in progress.
+        - to: https://www.ubereats.com
+          logo: ubereats.png
+          title: Uber Eats
+          description: Uber Eats is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
     - title: Online Ordering
       apps:
         - to: https://www.app4.co.uk/
@@ -72,15 +88,19 @@ content:
           title: App4
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info: Integration in progress.
+        - to: /apps/aquila/
+          logo: aquila-cms.jpg
+          title: AquilaCMS
+          description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
         - to: /apps/livepepper/
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
-        - to: https://www.nextsourcia.com
-          logo: nextsourcia.png
-          title: nextSourcia
-          description: nextSourcia creates e-commerce websites for retail stores. It offers also hosting services and specific development work.
-          additional_info: Documentation in French.
+        - to: https://obypay.com/
+          logo: obypay.png
+          title: Obypay
+          description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
+          additional_info: Documentation in French. Integration in progress.
         - to: https://www.restajet.com/
           logo: restajet.png
           title: RestaJet
@@ -90,10 +110,6 @@ content:
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
-        - to: https://www.ubereats.com
-          logo: ubereats.png
-          title: Uber Eats
-          description: Uber Eats is an online food ordering and delivery platform for local restaurants. End client can order food online or via an app.
         - to: http://www.y-proximite.fr
           logo: yproximite.png
           title: Y-Proximité
@@ -115,6 +131,11 @@ content:
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
     - title: Loyalty and Marketing
       apps:
+        - to: https://dotdigital.com/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
+          additional_info: Integration in progress.
         - to: https://www.como.com
           logo: como.png
           title: Como
@@ -123,7 +144,7 @@ content:
         - to: https://myemma.com
           logo: emma.png
           title: Emma
-          description: Emma is an email campaign platform with support available in email marketing strategy, content and design to help maximise your results.
+          description: Emma is an email campaign platform with support available in email marketing strategy, as well as content and design to help maximise results.
         - to: https://mailchimp.com
           logo: mailchimp.png
           title: MailChimp
@@ -138,14 +159,24 @@ content:
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
     - title: Other Apps
       apps:
+        - to: /apps/orderline/
+          logo: orderline.png
+          title: OrderLine
+          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.    
+        - to: https://www.spleat.io
+          logo: spleat.png
+          title: Spleat
+          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones. 
+          additional_info: Integration in progress. Documentation in French.
         - to: https://tickncook.com
           logo: tickncook.png
           title: Tick'N'Cook
           description: Tick'N'Cook is a kitchen display screen for independent restaurants and chains. Tick'N'Cook can be customised with estimated preparation time and specialised screens for bar, pastry or kitchen.
-        - to: /apps/orderline/
-          logo: orderline.png
-          title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.
+        - to: http://1bot.io/
+          logo: 1bot.png
+          title: 1bot
+          description: 1bot is a personal assistant. This chatbot can answer customers' questions and send a summary of the conversation by SMS to the store.
+          additional_info: Documentation in French.
   additional_sections:
     suggest_app:
       title: Suggest an application

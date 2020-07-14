@@ -33,5 +33,5 @@ jobs:
 #      - name: Deploy
 #        run:
 #          kubectl
-#          kustomize build deploy/manifests/staging/staging-1 | sed "s/__TAG__/${{ github.sha }}/" | kubectl apply -f -
+#          kustomize build deploy/manifests/staging/staging-1 | sed "s/__RELEASE__/${{ github.sha }}/" | kubectl apply -f -
 #

@@ -43,11 +43,11 @@ To remove a user:
 1. Click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>for the user to remove.
 2. When prompted, click **Delete** to confirm removing the user.
 
-----------------
+---
 
 **IMPORTANT NOTE**: An account cannot be left without Admin. Before you remove your user profile from an Account make sure there is an Admin user with permissions. If not, you can change permissions of an existing user or give Admin permissions to **test@hubrise.com**.
 
-----------------
+---
 
 <video controls title="Remove a user example">
   <source src="../images/024-en-permissions-remove-user.webm" type="video/webm"/>

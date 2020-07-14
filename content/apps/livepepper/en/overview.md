@@ -5,9 +5,6 @@ layout: documentation
 meta:
   title: LivePepper Connection to HubRise Overview
   description: Overview of LivePepper and how to connect it to HubRise.
-  
-  [comment]: # (We need background effect for images on apps overview page too)
-  
 gallery:
   - 026-en-2x-kfc-livepepper.png
   - 027-en-2x-pizza-hut-livepepper.png
@@ -21,6 +18,8 @@ app_info:
   contact: contact@livepepper.com / +33 4 92 38 09 82
 ---
 
+[comment]:# (We need background effect for images on apps overview page too)
+
 ## Description
 
 LivePepper is an online ordering solution for home delivery and takeaway restaurants.
@@ -31,7 +30,7 @@ LivePepper can create a full site including static marketing pages and online or
 
 LivePepper comes with a rich palette of features and can answer the needs of the most demanding restaurants and international franchises.
 
-Restaurant managers have complete control over their LivePepper site. They can make changes to their menu, set up promotions, set business hours and vacation periods, delivery times, or other settings to best fit their needs. Data can be exported for analysis. 
+Restaurant managers have complete control over their LivePepper site. They can make changes to their menu, set up promotions, set business hours and vacation periods, delivery times, or other settings to best fit their needs. Data can be exported for analysis.
 
 ## Prerequisites
 
@@ -39,4 +38,4 @@ To establish a connection between LivePepper and HubRise, you must have an exist
 
 ## Why Connect?
 
-LivePepper can be connected to HubRise for your site and other apps to work as a cohesive whole. It could be your EPOS, your loyalty systems, the kitchen display screen you use or your preferred marketing solution. This allows you to sync your menu, your customer and order information. For more information, see the [HubRise User Manual](/apps/hubrise).
+LivePepper can be connected to HubRise for your site and other apps to work as a cohesive whole. It could be your EPOS, your loyalty systems, the kitchen display screen you use or your preferred marketing solution. This allows you to sync your menu, your customer and order information. For more information, see the HubRise [Help](/docs).

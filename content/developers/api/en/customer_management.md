@@ -60,12 +60,12 @@ Account level Customer Lists of an account:
   {
     "id": "apm3s",
     "name": "Online customers",
-    "created_at": "2017-06-25T11:43:51Z"
+    "created_at": "2020-06-25T11:43:51+02:00"
   },
   {
     "id": "s7ma5",
     "name": "POS customers",
-    "created_at": "2017-05-19T13:23:10Z"
+    "created_at": "2020-05-19T13:23:10+02:00"
   }
 ]
 ```
@@ -131,7 +131,9 @@ If `name` is used by another customer list, it returns an error.
 
 ### 1.5. Delete Customer List
 
-Delete a customer list and its customers.
+Delete a customer list. Customers and loyalty cards belonging to the list are also deleted.
+
+No event is fired in the process.
 
 <CallSummaryTable
   endpoint="DELETE /customer_lists/:id"
@@ -181,8 +183,8 @@ Returns a customer's details.
   "anonymized": false,
   "nb_orders": 2,
   "order_total": "28.40 GBP",
-  "first_order_date": "2017-01-18T17:15:11+01:00",
-  "last_order_date": "2017-01-23T10:13:21+01:00",
+  "first_order_date": "2020-01-18T17:15:11+02:00",
+  "last_order_date": "2020-01-23T10:13:21+02:00",
   "loyalty_cards": [
     {
       "id": "slp8q",
@@ -232,7 +234,7 @@ Returns the customers of a customer list. Some filters can be passed.
 
 Creates a new customer.
 
-There is no mandatory field so a customer can be created with no information then referred to by its unique id. 
+There is no mandatory field so a customer can be created with no information then referred to by its unique id.
 
 <CallSummaryTable
   endpoint="POST /customer_lists/:customer_list_id/customers"
@@ -241,26 +243,26 @@ There is no mandatory field so a customer can be created with no information the
 
 #### Request parameters:
 
-| Name                                     | Type    | Description                                                                                |
-| ---------------------------------------- | ------- | ------------------------------------------------------------------------------------------ |
-| `private_ref` <Label type="optional" />  | string  | The customer internal id, visible only to the client who set it. Used for customer lookup. |
-| `email` <Label type="optional" />        | string  | Email                                                                                      |
-| `first_name` <Label type="optional" />   | string  | First name                                                                                 |
-| `last_name` <Label type="optional" />    | string  | Last name                                                                                  |
-| `gender` <Label type="optional" />       | string  | If defined, must be either `male` or `female`                                              |
-| `birth_date` <Label type="optional" />   | date    | Birth date in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) for dates, ie `YYYY-MM-DD` |
-| `company_name` <Label type="optional" /> | string  | Company name                                                                               |
-| `phone` <Label type="optional" />        | string  | Phone number in the [E.164 format](https://en.wikipedia.org/wiki/E.164) (*)                |
-| `address_1` <Label type="optional" />    | string  | 1st line of address                                                                        |
-| `address_2` <Label type="optional" />    | string  | 2nd line of address                                                                        |
-| `postal_code` <Label type="optional" />  | string  | Postal code                                                                                |
-| `city` <Label type="optional" />         | string  | City                                                                                       |
-| `state` <Label type="optional" />        | string  | State                                                                                      |
-| `country` <Label type="optional" />      | string  | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| `latitude` <Label type="optional" />     | decimal (as a string) | Latitude of the customer address.                                            |
-| `longitude` <Label type="optional" />    | decimal (as a string) | Longitude of the customer address.                                           |
+| Name                                     | Type                                                        | Description                                                                                                       |
+| ---------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `private_ref` <Label type="optional" />  | string                                                      | The customer internal id, visible only to the client who set it. Used for customer lookup.                        |
+| `email` <Label type="optional" />        | string                                                      | Email.                                                                                                            |
+| `first_name` <Label type="optional" />   | string                                                      | First name.                                                                                                       |
+| `last_name` <Label type="optional" />    | string                                                      | Last name.                                                                                                        |
+| `gender` <Label type="optional" />       | string                                                      | If defined, must be either `male` or `female`                                                                     |
+| `birth_date` <Label type="optional" />   | date                                                        | Birth date in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) for dates, ie `YYYY-MM-DD`.           |
+| `company_name` <Label type="optional" /> | string                                                      | Company name.                                                                                                     |
+| `phone` <Label type="optional" />        | string                                                      | Phone number in the [E.164 format](https://en.wikipedia.org/wiki/E.164) (\*).                                     |
+| `address_1` <Label type="optional" />    | string                                                      | 1st line of address.                                                                                              |
+| `address_2` <Label type="optional" />    | string                                                      | 2nd line of address.                                                                                              |
+| `postal_code` <Label type="optional" />  | string                                                      | Postal code.                                                                                                      |
+| `city` <Label type="optional" />         | string                                                      | City.                                                                                                             |
+| `state` <Label type="optional" />        | string                                                      | State.                                                                                                            |
+| `country` <Label type="optional" />      | string                                                      | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). |
+| `latitude` <Label type="optional" />     | [decimal](/developers/api/general-concepts/#decimal-values) | Latitude of the customer address.                                                                                 |
+| `longitude` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Longitude of the customer address.                                                                                |
 
-(*) The E.164 format must be used for any new implementation. Be aware however that phone numbers retrieved from the API can be encoded in a different format. The E.164 will become mandatory in a future release.
+(\*) The E.164 format must be used for any new implementation. Be aware however that phone numbers retrieved from the API can be encoded in a different format. The E.164 will become mandatory in a future release.
 
 #### Example request:
 
@@ -308,7 +310,7 @@ Updates a customer. Only the fields present in the request are updated.
 
 ### 2.5. Anonymize customer
 
-Deletes a customer's personal information. 
+Deletes a customer's personal information.
 
 <CallSummaryTable
   endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
@@ -434,11 +436,11 @@ Creates a new loyalty card for a customer.
 
 #### Request parameters:
 
-| Name                            | Type   | Description                                                                                                                                  |
-| ------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| `customer_id`                   | string | The customer's `id`. Must exist or the request will fail.                                                                                    |
-| `name`                          | string | The loyalty card scheme name. Must be unique among the cards owned by the same customer. Mandatory parameter, but "" is an acceptable value. |
-| `ref` <Label type="optional" /> | string | The unique reference of the card. If defined, it must be unique among all the cards of the same customer list having the same name.          |
+| Name                            | Type   | Description                                                                                                                                 |
+| ------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `customer_id`                   | string | The customer's `id`. Must exist or the request will fail.                                                                                   |
+| `name`                          | string | The loyalty card scheme name. Must be unique among the cards owned by the same customer. Mandatory parameter, but " is an acceptable value. |
+| `ref` <Label type="optional" /> | string | The unique reference of the card. If defined, it must be unique among all the cards of the same customer list having the same name.         |
 
 #### Example request:
 
@@ -503,7 +505,7 @@ Returns a loyalty card operation.
 {
   "id": "22kmp",
   "customer_id": "ve343",
-  "created_at": "2017-01-18T12:37:21+01:00",
+  "created_at": "2020-01-18T12:37:21+02:00",
   "order_location_id": "psm98",
   "order_id": "mapcm",
   "reason": "Points earned",
@@ -530,7 +532,7 @@ Returns the operations on a given loyalty card, sorted by descending chronologic
   {
     "id": "22kmp",
     "customer_id": "ve343",
-    "created_at": "2017-01-18T12:37:21+01:00"
+    "created_at": "2020-01-18T12:37:21+02:00"
     ...
   },
   ...
@@ -548,11 +550,11 @@ Create a loyalty card operation and updates the balance accordingly.
 
 #### Request parameters:
 
-| Name                                 | Type    | Description                                                                                                                                                         |
-| ------------------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `order_id` <Label type="optional" /> | string  | Attach this operation to a particular order. If defined, an order with this id must exist or the request will fail. An order can be attached to several operations. |
-| `reason` <Label type="optional" />   | string  | Describes how the points were obtained/redeemed. The customer will typically see this field when he checks his loyalty account operations from a website.           |
-| `delta`                              | decimal (as a string) | The number of points to add to the customer balance. Use a negative number to remove points.                                                                        |
+| Name                                 | Type                                                        | Description                                                                                                                                                         |
+| ------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `order_id` <Label type="optional" /> | string                                                      | Attach this operation to a particular order. If defined, an order with this id must exist or the request will fail. An order can be attached to several operations. |
+| `reason` <Label type="optional" />   | string                                                      | Describes how the points were obtained/redeemed. The customer will typically see this field when he checks his loyalty account operations from a website.           |
+| `delta`                              | [decimal](/developers/api/general-concepts/#decimal-values) | The number of points to add to the customer balance. Use a negative number to remove points.                                                                        |
 
 #### Example request:
 
