@@ -124,6 +124,17 @@ Locations have a default timezone, which can be configured from the back office.
 - Date: `2020-08-20`
 - Time: `2020-08-20T06:42:46+02:00`
 
+### Days of the Week
+
+A `DOW` (= "Days of the Week") value designates specific days of the week.
+
+It is a string of 7 characters, where each character represents a day of the week, from Monday (`1`) to Sunday (`7`). When the digit is replaced by `-`, the particular day is excluded from the list.
+
+#### Examples:
+
+- `1234567`: every day of the week
+- `12----7`: Monday, Tuesday and Sunday
+
 ## 6. HTTP Status Codes
 
 The API returns appropriate [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) for every request.
