@@ -6,9 +6,10 @@ meta:
   title: OrderLine Overview
   description: Details the use and functionality of OrderLine to manage online and retail stores.
 gallery:
-  - 001-desktop-viewa.png
-  - 003-tablet-view.png
-  - 002-mobilephone-view.png
+  - 001-en-2x-desktop-view.png
+
+[comment]: # (Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware)  
+
 path_override: /
 app_info:
   category: Other apps
@@ -18,18 +19,16 @@ app_info:
   contact:
 ---
 
-OrderLine is used to manage and print orders that may originate from systems integrated with HubRise such as:
+OrderLine is used to manage and print orders that may originate from other systems connected to your HubRise Account such as:
 
-- Online ordering solutions for online stores, physical branches, and restaurants.
-- Food aggregators.
+- Online ordering solutions for online stores and restaurants.
+- Food Ordering and Delivery Platforms.
 - On-site self-ordering kiosks.
-- Digitals menus available at the client’s table.
+- Digital menus available at the client’s table.
 
 OrderLine is available on computers, tablets and smartphones.
 
-It assists single stores, restaurants, and franchises to manage orders received when the EPOS system is not integrated. OrderLine supports delivery, collection, and stay-in options.
-
-OrderLine collects orders through its HubRise integration. Each OrderLine account receives orders from a single location.
+It assists single stores, restaurants, and franchises to manage orders received when the EPOS system is not integrated. OrderLine supports delivery, collection, and sit in options. It connects to single HubRise Locations.
 
 OrderLine features include the following:
 
