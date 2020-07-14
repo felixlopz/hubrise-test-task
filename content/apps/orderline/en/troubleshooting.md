@@ -7,7 +7,8 @@ meta:
   description: Instructions on how resolve issues on OrderLine.
 ---
 
-No recurrent support queries on OrderLine have been recorded to this day. 
+## I cannot hear orders coming in  
 
-[comment]: # (Phone goes on savigs more & no notifications received)
+On mobile devices, make sure to disable Auto-Lock in your display settings. Plugging in your device might also help.
 
+We recommend using Google Chrome.

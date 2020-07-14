@@ -1,10 +1,10 @@
 ---
-title: Installation Guide
+title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: OrderLine Installation Guide
-  description: Informs users on how to install OrderLine with the online sale system.
+  title: OrderLine Connection to HubRise
+  description: Instructions on connecting OrderLine with HubRise
 ---
 
 OrderLine must be connected to your HubRise account before it can fetch orders.  To connect OrderLine to your HubRise account:

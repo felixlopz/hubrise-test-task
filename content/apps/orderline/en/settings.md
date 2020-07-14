@@ -7,7 +7,7 @@ meta:
   description: Instructions for modifying OrderLine's language preferences, status flow, and printing options.
 ---
 
-Go to Settings to customise OrderLine to best fit your needs. Users are able to update how OrderLine displays and functions through the **Settings** menu. To access Settings, select the gear icon <InlineImage width="46" height="46">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> in the upper right hand corner.
+Go to Settings to customise OrderLine to best fit your needs. Users are able to update how OrderLine displays and functions through the **Settings** menu. To access Settings, select the gear icon <InlineImage width="20" height="20">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> in the upper right hand corner.
 
 <video controls title="OrderLine Access Settings">
   <source src="../images/031-en-access-settings.webm" type="video/webm"/>

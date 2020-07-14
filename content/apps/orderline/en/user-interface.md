@@ -1,9 +1,9 @@
 ---
-title: OrderLine Tabs
+title: User Interface
 position: 4
 layout: documentation
 meta:
-  title: OrderLine Tabs
+  title: OrderLine User Interface
   description: Today's Orders, Future Orders and Order History tabs are available for ease of access on OrderLine.
 ---
 
