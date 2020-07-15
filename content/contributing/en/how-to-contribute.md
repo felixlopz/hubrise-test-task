@@ -1,10 +1,10 @@
 ---
-title: Quick Start
+title: How to Contribute
 position: 0
 layout: documentation
 meta:
-  title:
-  description:
+  title: How to Contribute
+  description: How to contribute to the HubRise website.
 ---
 
 ## Introduction
@@ -40,12 +40,12 @@ For further guidance on the style, please refer to the [Style Guide](/contributi
 
 ## Screenshots
 
-When it becomes necessaryto supplement your documentation with screenshots, these screenshots have to comply with certain technical specifications. Our [Screenshots Guide](/contributing/screenshots-guide) provides guidance on these specifications.
+When it becomes necessary to supplement your documentation with screenshots, these screenshots have to comply with certain technical specifications. Our [Screenshots Guide](/contributing/screenshots-guide) provides guidance on these specifications.
 
 For more information on how to use screenshots in your documentation, please refer to the [Screenshots Guide](/contributing/screenshots-guide).
 
 ## Videos
 
-When it becomes necessaryto supplement your documentation with videos, these videos have to comply with certain technical specifications. Our [Videos Guide](/contributing/video-guide) provides guidance on these specifications.
+When it becomes necessary to supplement your documentation with videos, these videos have to comply with certain technical specifications. Our [Videos Guide](/contributing/video-guide) provides guidance on these specifications.
 
 For more information on how to use screenshots in your documentation, please refer to the [Videos Guide](/contributing/video-guide).

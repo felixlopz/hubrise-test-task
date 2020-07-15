@@ -3,79 +3,24 @@ title: Diagram Guide
 position: 5
 layout: documentation
 meta:
-  title:
-  description:
+  title: HubRise Diagram Guide 
+  description: How to contribute diagrams to the HubRise website.
 ---
 
 ## Introduction
 
 This guide includes useful guidance and specifications when including diagrams to the HubRise website.
 
-## Colours
-
-|     Colours      |
-| :--------------: |
-|  **Main Green**  | **Darkest Green** |
-|   HEX: #6cb14f   | HEX: #262b24 |
-| RGB: 108 177 79  | RGB: 38 43 36 |
-|     Example      | Example |
-|  **Light Gray**  | **Regular Gray** |
-|   HEX: #f8f8f8   | HEX: #cccccc |
-| RGB: 248 248 248 | RGB: 204 204 204 |
-|     Example      | Example |
-|  **Dark Gray**   | **Font Gray** |
-|   HEX: #888888   | HEX: #555555 |
-| RGB: 136 136 136 | RGB: 85 85 85 |
-|     Example      | Example |
-|   **Sky Blue**   | **Regular Blue** |
-|   HEX: #3ca4c6   | HEX: #4f79b1 |
-| RGB: 60 164 198  | RGB: 79 121 177 |
-|     Example      | Example |
-|    **Violet**    | **Purple** |
-|   HEX: #584fb1   | HEX: #944fb1 |
-|  RGB: 88 79 177  | RGB: 148 79 177 |
-|     Example      | Example |
-|    **Yellow**    | **Orange** |
-|   HEX: #d4b443   | HEX: #eb7323 |
-| RGB: 212 180 67  | RGB: 235 115 35 |
-|     Example      | Example |
-| **Regular Red**  | **Darker Red** |
-|   HEX: #d95147   | HEX: #b2564f |
-|  RGB: 217 81 71  | RGB: 178 86 79 |
-|     Example      | Example |
-
-## Fonts
-
-The following fonts may be used when contributing documentation to the HubRise website.
-
-- **Ubuntu** – Good option for regular text.
-
-- **Ubuntu Mono** – can be used for code.
-
-- **Exo 2** – This one is a custom font, good option to emphasise identity. Could be used for titles.
-
-- **Font Gray** - HEX: #555555 - Example
-
-## Icons
-
-Icons can be used to clarify or to highlight specific points in the documentation. It is, however, important to use icons of the same color. Depending on the use case it can be green or dark green, gray if it should be subtle, and red or orange for alerts. Care should be taked not to use too many varying colors in the same place.
-
-- Icon font: [fontawesome](https://fontawesome.com/download)
-
-- Icon library: [thenounproject](https://thenounproject.com/)
-
-Also, if it would be important, large professional icon-packs can be bought to ensure consistency and style.
-
 ## Primary Examples
 
-Simple white blocks may be used on a gray background. You may add the Hubrise logo if the image will be used elsewhere.
+Simple white blocks may be used on a gray background. You may add the HubRise logo if the image will be used elsewhere.
 
-To outline image simple corners may be used. It may also be simple square blocks depending on software used and it may be green or gray.
+To outline an image, simple corners may be used. It may also be simple square blocks depending on the software used and it may be green or gray.
 Borders around the shapes should be dropped if they are not specifically required.
 
 ![Example diagram with no colors](../images/004-en-example-diagram-no-colours.png)
 
-You may use Screenshots with a wider gray border (**around 20-40px**). In addition, some space around the image would be beneficial to emphasize its content.
+You may use Screenshots with a wider gray border (**around 20-40px**). In addition, some space around the image would be beneficial to emphasise its content.
 
 If the software you use allows, then rounded corners and a very light gray shadow (pointed directly to the bottom) can be added.
 
@@ -88,3 +33,54 @@ Light or dark gray **1px** borders can be used as well.
 You may use colours in your diagrams. However, if the contrast between the colours are too high, a lighter shade or lower opacity may be used.
 
 ![Example of a diagram with colours](../images/006-en-diagram-use-with-colours.png)
+
+## Icons
+
+Icons can be used to clarify or to highlight specific points in the documentation. It is, however, important to use icons of the same color. Depending on the use case it can be green or dark green, gray if it should be subtle, and red or orange for alerts. Care should be taken not to use too many varying colors in the same place.
+
+- Icon font: [fontawesome](https://fontawesome.com/download)
+
+- Icon library: [thenounproject](https://thenounproject.com/)
+
+Also, if it would be important, large professional icon-packs can be bought to ensure consistency and style.
+
+## Fonts
+
+The following fonts may be used when contributing documentation to the HubRise website.
+
+- **Ubuntu** – Good option for regular text.
+
+- **Ubuntu Mono** – Can be used for code.
+
+- **Exo 2** – This one is a custom font, good option to emphasise identity. Could be used for titles.
+
+- **Font Gray** - HEX: #555555 - Example
+
+## Colours
+
+|     Colours      |
+| :--------------: |
+|  **Main Green**  | **Darkest Green** |
+|   HEX: #6cb14f   | HEX: #262b24 |
+| RGB: 108 177 79  | RGB: 38 43 36 |
+|  **Light Gray**  | **Regular Gray** |
+|   HEX: #f8f8f8   | HEX: #cccccc |
+| RGB: 248 248 248 | RGB: 204 204 204 |
+|  **Dark Gray**   | **Font Gray** |
+|   HEX: #888888   | HEX: #555555 |
+| RGB: 136 136 136 | RGB: 85 85 85 |
+|   **Sky Blue**   | **Regular Blue** |
+|   HEX: #3ca4c6   | HEX: #4f79b1 |
+| RGB: 60 164 198  | RGB: 79 121 177 |
+|    **Violet**    | **Purple** |
+|   HEX: #584fb1   | HEX: #944fb1 |
+|  RGB: 88 79 177  | RGB: 148 79 177 |
+|    **Yellow**    | **Orange** |
+|   HEX: #d4b443   | HEX: #eb7323 |
+| RGB: 212 180 67  | RGB: 235 115 35 |
+| **Regular Red**  | **Darker Red** |
+|   HEX: #d95147   | HEX: #b2564f |
+|  RGB: 217 81 71  | RGB: 178 86 79 |
+
+
+

@@ -3,9 +3,13 @@ title: Screenshots Guide
 position: 3
 layout: documentation
 meta:
-  title:
-  description:
+  title: HubRise Screenshots Guide
+  description: How to contribute screenshots to the HubRise website.
 ---
+
+## Introduction
+
+This guide includes useful information that can be used when contributing screenshots to the HubRise website.
 
 ## Illustrative Screenshots
 
@@ -13,7 +17,7 @@ Screenshots should be placed after the first descriptive text in a section.
 
 Screenshots of an interface should not be referred to in documentation unless they represent a specific example. No need for “_This screenshot…_”
 
-Placing a screenshot or animated GIF may be accompanied with “_This example demonstrates_” or “_This example shows…._” if the example demonstrates non-standard behavior.
+Placing a screenshot or animated GIF may be accompanied with “_This example demonstrates_” or “_This example shows…._” if the example demonstrates non-standard behaviour.
 
 ## Source Screenshots
 
@@ -49,7 +53,7 @@ For example if the image contains text within:
 
 For example if the image contains text within and the screen capture taken on a HD 4K screen:
 
-- **001-en-2x-login-example.png **
+- **001-en-2x-login-example.png**
 
 - **001-fr-2x-login-example.png**
 

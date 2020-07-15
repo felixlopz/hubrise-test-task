@@ -3,8 +3,8 @@ title: Style Guide
 position: 1
 layout: documentation
 meta:
-  title:
-  description:
+  title: HubRise Style Guide
+  description: A guide on which style to use when contributing to the HubRise website.
 ---
 
 ## Introduction
@@ -13,25 +13,25 @@ This style guide provides editorial guidelines for anyone contributing to the Hu
 
 ## General Information
 
-Where the Hubrise style guide doesn’t deal with a specific situation, the [Google developer documentation style guide](https://developers.google.com/style) can be used for reference.
+Where the HubRise style guide does not deal with a specific situation, the [Google developer documentation style guide](https://developers.google.com/style) can be used for reference.
 
 The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be used as a spelling reference when we have multiple ways of spelling the same word. In addition the [Cambridge Dictionary](https://dictionary.cambridge.org/) can be used as a secondary reference only where necessary.
 
 Terminology and spelling decisions should be included in the [HubRise Glossary of Terms](/contributing/glossary-of-terms/) to maximise linguistic consistency throughout the documentation.
 
-The HubRise documentation should be written in **British English**. When required, localisation into French is done regularly to keep all bilingual content in synch.
+The HubRise documentation should be written in **British English**. When required, localisation into **French** is done regularly to keep all bilingual content in sync.
 
 Please keep in mind that readers of the documentation might not be native english speakers.
 
 ## Capitalisation
 
-If it’s an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something that’s **unique in the universe**, capitalise it. Otherwise, don’t.
+If it is an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something that is **unique in the universe**, capitalise it. Otherwise, do not.
 
 **If you’re unsure on whether to capitalise something or not, just don’t** because nine out of 10 times, you’ll be doing the right thing.
 
-One exception is when referring to a specific item in HubRise. For example, if we are referring to the **Restaurant** or the **Retail store** object in HubRise, we capitalise it to show that we are refering to the HubRise item, as opposed to a generic restaurant or retail store.
+One exception is when referring to a specific item in HubRise. For example, if we are referring to the **Restaurant** or the **Retail store** object in HubRise, we capitalise it to show that we are referring to the HubRise item, as opposed to a generic restaurant or retail store.
 
-Also, if it’s an expression that has a **well-known acronym** amongst your target audience, you shall capitalise the word.
+Also, if it is an expression that has a **well-known acronym** amongst your target audience, you should capitalise the word.
 
 Words such as **a**, **an**, **and**, **but**, **for**, **nor**, **of**, **or**, **so**, **to**, and **yet** must not be capitalised.
 
@@ -54,15 +54,15 @@ The first letter following a colon should always be capitalised.
 
 ### Commas
 
-If you have a list of three or more items, add a comma before the last item. For instance, I’d like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the **Oxford or serial comma**.
+If you have a list of three or more items, add a comma before the last item. For instance: I’d like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the **Oxford or serial comma**.
 
 ### Hyphenation
 
-If you’re in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com/) and follow the rules established there. For instance, the Merriam-Webster spells **well known** with a hyphen: **well-known**.
+If you are in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com/) and follow the rules established there. For instance, the Merriam-Webster spells **well known** with a hyphen: **well-known**.
 
-A second rule of thumb is that, if the set of words doesn't play the same role in a sentence without hyphenation, you should use the version adequate to the role you wish it to play in the sentence. For example, the [Merriam-Webster dictionary](https://www.merriam-webster.com/) states that **kick off** is a verb and **kickoff** is a noun. **What time does the game kick off?** uses the verb, whereas **Kickoff will be at 11 o'clock prompt** uses the noun.
+A second rule of thumb is that, if the set of words does not play the same role in a sentence without hyphenation, you should use the version adequate to the role you wish it to play in the sentence. For example, the [Merriam-Webster dictionary](https://www.merriam-webster.com/) states that **kick off** is a verb and **kickoff** is a noun. **What time does the game kick off?** uses the verb, whereas **Kickoff will be at 11 o'clock prompt** uses the noun.
 
-For sets of two words only, if the dictionary indicates that there’s an alternative without a hyphen, then use that alternative instead of the hyphenated version.
+For sets of two words only, if the dictionary indicates that there is an alternative without a hyphen, then use that alternative instead of the hyphenated version.
 
 ### Parentheses
 
@@ -105,7 +105,7 @@ Avoid using lists to repeat all fields to fill in shown in the UI. For context, 
 
 Cross-references can be used to guide readers to related information within the same document or in an external page.
 
-Cross-references are hyperlinked to the header being referred to, with the final section linked. For example, if we are linking to the Change Password section of the documentation in this format:
+Cross-references are hyperlinked to the header being referred to, with the final section linked. For example, if we are linking to the **Change Password** section of the documentation in this format:
 
 > Style Guide &#8594; Punctuation &#8594; **Colon** &#8592; Linking here
 
@@ -147,7 +147,7 @@ Avoid using the passive voice as it makes your writing more distant and your mes
 
 Passive voice is when the grammatical subject of the sentence is the person or thing being acted upon. Active voice in the other hand is when the grammatical subject of the sentence is the person or thing that performs the action.
 
-Almost every passive sentence has an active counterpart. If you can’t find an active alternative, use the passive form. Using it for less than 10% of your sentences isn’t that harmful.
+Almost every passive sentence has an active counterpart. If you cannot find an active alternative, use the passive form. Using it for less than 10% of your sentences is not that harmful.
 
 Here are some examples of sentences in the active and passive voices:
 
@@ -168,7 +168,7 @@ Everyone wants to be polite, but for instructions it can be left out.
 
 ### Clause order
 
-Include conditional clauses before instructions, not after to give readers a chance to skip it if the circumstance doesn't apply.
+Include conditional clauses before instructions, not after to give readers a chance to skip it if the circumstance does not apply.
 
 > Wrong: See **[link to other document]** for more information
 
@@ -176,7 +176,7 @@ Include conditional clauses before instructions, not after to give readers a cha
 
 ### Synonyms
 
-**Avoid** using synonyms. If you can’t escape it, use **three at most**. Your text is not literary, and a lot of synonyms may sound repetitive to the reader, increasing the odds of low engagement levels.
+**Avoid** using synonyms. If you cannot escape it, use **three at most**. Your text is not literary, and a lot of synonyms may sound repetitive to the reader, increasing the odds of low engagement levels.
 
 ### User Actions
 
@@ -198,8 +198,8 @@ Log in to or log into is a common issue, made worse with login.
 
 **Into** is a preposition. It establishes a position in time or space. For example: **I enter into a car**.
 
-**In to** is a two part verb. I **log in** to a web page. I’m not literally crawling through my monitor screen. You may **log** a web page, or **log in** to a web page.
-It’s a weird distinction, and they sound the same.
+**In to** is a two part verb. I **log in** to a web page. I am not literally crawling through my monitor screen. You may **log** a web page, or **log in** to a web page.
+It is a weird distinction, and they sound the same.
 
 ### Numbers
 
@@ -207,7 +207,7 @@ A simple rule for using numbers that small numbers under ten should generally be
 
 ### Ampersand
 
-Unless it’s part of a name, such as the name of a company, don’t use the ampersand (**&**) as an abbreviation strategy.
+Unless it is part of a name, such as the name of a company, do not use the ampersand (**&**) as an abbreviation strategy.
 
 ## Adjectives
 
@@ -231,7 +231,7 @@ Bold is also used for UI references. For example: Select **CONNECTIONS** from th
 
 ## Contractions
 
-Don’t use contractions. For instance, write **do not** instead of **don’t**.
+Do not use contractions. For instance, write **do not** instead of **don’t**.
 
 ## Italics
 
@@ -241,23 +241,23 @@ You may use italics for tech terms except code. Do not use it to identify exampl
 
 Terms from your code, keyboard shortcuts, file names, button names, and other tech terms that need to stand out from your text must be handled the following way:
 
-- Use **italics** for tech terms except code. Don’t use quotation marks for any tech terms.
+- Use **italics** for tech terms except code. Do not use quotation marks for any tech terms.
 - File types are in all **capital letters**. For example: **Logs are in JSON format.**
-- If tech terms are in italics, you can't use italics for emphasis as well. So, if you need to emphasise a tech term, use **bold**.
+- If tech terms are in italics, you cannot use italics for emphasis as well. So, if you need to emphasise a tech term, use **bold**.
 - Write code terms in Courier New and enclose them with a grey box, like this:
 
 `// This is a comment in your code.`
 
 - All code must be in its **own paragraph**.
-- If you want to include a small portion of code in the middle of a sentence, write it in **Courier New**, but don’t enclose it with a **grey box**.
+- If you want to include a small portion of code in the middle of a sentence, write it in **Courier New**, but do not enclose it with a **grey box**.
 
 ## Tone
 
-Be conversational rather than formal but don’t overdo it. Be friendly, and respectful while sharing your know-how.
+Be conversational rather than formal but do not overdo it. Be friendly, and respectful while sharing your know-how.
 
 ## Notices
 
-Notices give important or useful information that isn't necessarily part of the flow of the text. Notices can inlude Important Notes and Frequently Asked Questions.
+Notices give important or useful information that is not necessarily part of the flow of the text. Notices can inlude Important Notes and Frequently Asked Questions.
 
 Notes
 
@@ -265,7 +265,7 @@ Notes
 
 ---
 
-**IMPORTANT NOTE:** Your note follow here.
+**IMPORTANT NOTE:** Your note follows here.
 
 ---
 
@@ -320,11 +320,11 @@ Section headings should be marked with the appropriate heading style. In the hie
 
 ## File name
 
-Files should be given a contextual name written in lowercase. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
+Files should be given a contextual name written in lower case. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
 For image file names, see [Image file names](/contributing/screenshots-guide/#image-naming-convention).
 
 ## Meta Title and Description
 
-Meta titles should be capitalised following Hubrise’s title rules. In accordance with these rules, the metal titles should be written in **Title Case** with no full stop at the end. Eg: LivePepper Connection to HubRise Configuration
+Meta titles should be capitalised following HubRise’s title rules. In accordance with these rules, the meta titles should be written in **Title Case** with no full stop at the end. Eg: LivePepper Connection to HubRise Configuration
 
 The meta description should use **Sentence Case** with a full stop at the end. Eg: Instructions on how to configure LivePepper for optimal connection to HubRise and other platforms.
