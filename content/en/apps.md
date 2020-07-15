@@ -131,7 +131,7 @@ content:
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
     - title: Loyalty and Marketing
       apps:
-        - to: https://dotdigital.com/
+        - to: /apps/dotdigital/
           logo: dotdigital.png
           title: dotdigital
           description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.

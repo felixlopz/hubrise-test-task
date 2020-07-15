@@ -136,7 +136,7 @@ content:
           additional_info: Documentation en anglais.
     - title: Fidélité et marketing
       apps:
-        - to: https://dotdigital.com/
+        - to: /apps/dotdigital/
           logo: dotdigital.png
           title: dotdigital
           description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des ampagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
