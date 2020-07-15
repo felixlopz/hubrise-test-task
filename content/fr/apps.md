@@ -136,16 +136,16 @@ content:
           additional_info: Documentation en anglais.
     - title: Fidélité et marketing
       apps:
-        - to: /apps/dotdigital/
-          logo: dotdigital.png
-          title: dotdigital
-          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des ampagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
-          additional_info: Documentation en anglais. Intégration en cours.
         - to: https://www.como.com
           logo: como.png
           title: Como
           description: Como est une solution de fidélité client pour les commerçants, les hôteliers et les restaurateurs permettant de personnaliser les offres grâce à l'analyse des données clients.
           additional_info: Documentation en anglais. Intégration en cours.
+        - to: /apps/dotdigital/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des ampagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
+          additional_info: Documentation en anglais.
         - to: https://myemma.com
           logo: emma.png
           title: Emma

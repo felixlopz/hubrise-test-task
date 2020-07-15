@@ -131,16 +131,15 @@ content:
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
     - title: Loyalty and Marketing
       apps:
-        - to: /apps/dotdigital/
-          logo: dotdigital.png
-          title: dotdigital
-          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
-          additional_info: Integration in progress.
         - to: https://www.como.com
           logo: como.png
           title: Como
           description: Como is a loyalty programme solution for retail and hospitality companies. Como gathers data about purchases and preferences to approach customers with personalised offers.
           additional_info: Integration in progress.
+        - to: /apps/dotdigital/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
         - to: https://myemma.com
           logo: emma.png
           title: Emma
