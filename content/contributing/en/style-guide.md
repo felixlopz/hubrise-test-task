@@ -325,6 +325,8 @@ For image file names, see [Image file names](/contributing/screenshots-guide/#im
 
 ## Meta Title and Description
 
-Meta titles should be capitalised following HubRise’s title rules. In accordance with these rules, the meta titles should be written in **Title Case** with no full stop at the end. Eg: LivePepper Connection to HubRise Configuration
+A meta title and meta description should be added to every file. 
+
+Meta titles should be capitalised following HubRise’s title rules. In accordance with these rules, the meta titles should be written in **Title Case** with no full stop at the end. Eg: LivePepper Connection to HubRise Configuration. The meta title should be the same as the page title, but it can be longer and include HubRise for SEO purposes.
 
 The meta description should use **Sentence Case** with a full stop at the end. Eg: Instructions on how to configure LivePepper for optimal connection to HubRise and other platforms.

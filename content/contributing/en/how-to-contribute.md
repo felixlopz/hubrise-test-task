@@ -17,6 +17,18 @@ An example of proper documentation can be found [here](/apps/livepepper/connect-
 
 ## Process
 
+For every app for which an integration with HubRise exists, a page will be created. On the [Apps](/apps) page, **click** on the icon for the app which will take you to the page for the app. For example, if you click on the icon for [LivePepper](/apps/livepepper), you will be taken to the Overview page for [Livepepper](/apps/livepepper).
+
+Once on the page, **scroll** down to the bottom. At the bottom of the page, you will find the **Feedback on this page** link.
+
+![Feedback link at the bottom of the page](../images/007-en-feedback-dropdown.png)
+
+**Click** on the link which will open a dropdown list of options.
+
+![Feedback list of options](../images/008-en-feedback-dropdown-list.png)
+
+Here you have the option to edit the page and submit a **Pull Request**. It is here where you can make your contributing to the documentation on the HubRise website.
+
 The documentation will be written in Markdown and managed/stored stored on a GitHub repository. We use Docker and Webstorm but you are welcome to use any IDE you feel most comfortable with. WebStorm is a good option if you have no preference.
 
 For review the HubRise internal team will suggest modifications by editing the markdown and make comments on Github Issues.
