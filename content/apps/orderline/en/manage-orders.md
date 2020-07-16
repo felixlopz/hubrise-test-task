@@ -57,7 +57,7 @@ Once rejected, the order disappears from **Today’s Orders** list and becomes h
   <source src="../images/021-en-reject-order.webm" type="video/webm"/>
 </video>
 
-## Set Order to In Delivery
+## Mark Order as In Delivery
 
 With the order in Accepted status, select **IN DELIVERY** when the Order is being delivered to the customer.
 

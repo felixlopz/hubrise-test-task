@@ -29,9 +29,7 @@ The following options are available through **Settings** > **General**:
 
 ![General Settings](../images/009-en-settings-general.png)
 
-## Set Order Statuses
-
-### Status Flow
+## Status Flow
 
 Orders are managed through their Status values. In **Settings** > **ORDER STATUS** users are able to set the status flow to customise how orders are managed.
 
@@ -99,7 +97,7 @@ The following example adds a prompt for a user to comment when Orders are set to
   <source src="../images/013-en-add-prompt-user-comment.webm" type="video/webm"/>
 </video>
 
-### Hide orders
+## Hide Orders
 
 Orders that match a specific status can be hidden from the **Today’s Order** list. Hidden Orders can be displayed from **Today’s Order** by selecting the hidden Order Card.
 
@@ -114,7 +112,7 @@ The following example shows the setting to hide **Completed** Orders.
   <source src="../images/015-en-setting-hidden-completed.webm" type="video/webm"/>
 </video>
 
-## Set Notifications
+## Notifications
 
 Users can be prompted with a sound when new Orders are fetched by OrderLine based on the Notification settings. This applies both to **Today’s Orders** and **Future Orders**.
 
