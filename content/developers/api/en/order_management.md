@@ -485,7 +485,7 @@ If order payments are omitted, the order should be considered as not paid.
 
 - `online`: the customer pays online to an account owned by the store.
 
-- `third_party`: the customer pays to a third party which then passes part or all of the payment to the store. Examples include gift card companies and food aggregators.
+- `third_party`: the customer pays to a third party which then passes part or all of the payment to the store. Examples include gift card companies and food ordering platforms.
 
 #### Example:
 

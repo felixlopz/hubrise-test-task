@@ -89,7 +89,7 @@ content:
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info: Integration in progress.
         - to: /apps/aquila/
-          logo: aquila-cms.jpg
+          logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
         - to: /apps/livepepper/
@@ -162,11 +162,11 @@ content:
         - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.    
+          description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones. 
+          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones.
           additional_info: Integration in progress. Documentation in French.
         - to: https://tickncook.com
           logo: tickncook.png

@@ -13,7 +13,7 @@ app_info:
   category: Online ordering
   availability: France
   price_range:
-  website: https://www.nextsourcia.com/aquila-cms
+  website: https://www.aquila-cms.com/
   contact: contact@nextsourcia.com
 ---
 
