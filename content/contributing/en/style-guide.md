@@ -125,7 +125,7 @@ Do not attach the cross-reference directly to a word in the text. Rather, use a 
 
 ### Links
 
-Always use relative paths for internal links or cross-references, and absolute paths for external links. Relative paths will open the link in the same tab. Absolute paths will open a new tab.
+Always use **relative paths** for internal links or cross-references, and **absolute paths** for external links. Relative paths will open the link in the same tab. Absolute paths will open a new tab.
 
 ## Readability
 
@@ -259,8 +259,6 @@ Be conversational rather than formal but do not overdo it. Be friendly, and resp
 
 Notices give important or useful information that is not necessarily part of the flow of the text. Notices can inlude Important Notes and Frequently Asked Questions.
 
-Notes
-
 **Important Notes** should be indicated between two lines, with the Important Note in bold and a description following, for example:
 
 ---
@@ -320,7 +318,7 @@ Section headings should be marked with the appropriate heading style. In the hie
 
 ## File name
 
-Files should be given a contextual name written in lower case. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
+Files should be given a contextual name written in lower case. Separate words with hyphens, not underscores. Use only **standard ASCII alphanumeric characters**.
 For image file names, see [Image file names](/contributing/screenshots-guide/#image-naming-convention).
 
 ## Meta Title and Description

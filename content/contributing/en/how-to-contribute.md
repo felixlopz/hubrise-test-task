@@ -27,9 +27,9 @@ Once on the page, **scroll** down to the bottom. At the bottom of the page, you 
 
 ![Feedback list of options](../images/008-en-feedback-dropdown-list.png)
 
-Here you have the option to edit the page and submit a **Pull Request**. It is here where you can make your contributing to the documentation on the HubRise website.
+Here you have the option to edit the page and submit a **Pull Request**. It is here where you can make your contribution to the documentation on the HubRise website.
 
-The documentation will be written in Markdown and managed/stored stored on a GitHub repository. We use Docker and Webstorm but you are welcome to use any IDE you feel most comfortable with. WebStorm is a good option if you have no preference.
+The documentation will be written in Markdown and managed/stored on a GitHub repository. We use Docker and Webstorm but you are welcome to use any IDE you feel most comfortable with. WebStorm is a good option if you have no preference.
 
 For review the HubRise internal team will suggest modifications by editing the markdown and make comments on Github Issues.
 Once the documentation is considered final, its content will be published and connected to the HubRise Apps page on our corporate website.
