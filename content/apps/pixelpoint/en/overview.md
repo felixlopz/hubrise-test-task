@@ -18,7 +18,7 @@ app_info:
 
 ## Description
 
-PixelPoint Bridge is an app developed by HubRise that allows the communication between HubRise and the PAR PixelPoint EPOS. Via PixelPoint Bridge, HubRise can forward to the EPOS any order coming from online ordering solutions, self-ordering kiosks, food aggregators or any other solution connected to your HubRise account.
+PixelPoint Bridge is an app developed by HubRise that allows the communication between HubRise and the PAR PixelPoint EPOS. Via PixelPoint Bridge, HubRise can forward any order coming from online ordering solutions to the EPOS, self-ordering kiosks, food aggregators or any other solution connected to your HubRise account.
 
 PixelPoint Bridge also provides a user interface to see the requests sent to the EPOS and responses received. For more technical details about API requests and related responses, see [Understanding Logs](/apps/pixelpoint/understanding-logs).
 
