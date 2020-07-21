@@ -13,88 +13,51 @@ This Glossary of Terms provides terminology and spelling decisions taken by the 
 
 ## General Information
 
-By default, terms in this glossary are presented in lower case. However, **well-known expressions** in the restaurant and retail industries will be capitalized.
+By default, terms in this glossary are presented in lower case. However, **well known expressions** in the restaurant and retail industries will be capitalised.
 
 Terms will also be capitalised when it refers to an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something that’s **unique in the universe**.
 
 Available **acronyms** have been included in brackets.
 
-| EN Term               | FR Term              | Definition                                                                                                                                                                                                                        |
-| :-------------------- | :------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| account              |  | The business or brand, which contains one or more locations. Use Account to refer to a HubRise record, while account is a generic account.  |
-| back office              | back office               | |
-| Billing cycle              |  | a month in duration, and starts on the same calendar day as the account is created |
-| catalog              | catalogue | not catalogue in EN, even though this spelling is also used |
-| click and collect online ordering              |  |  |
-| client                | client               | refers to the end user of the HubRise solution.                                                                                                                                                                                   |
-| cloud                 | cloud                |                                                                                                                                                                                                                                   |
-| connection / connecting              |  | Apps are connected to HubRise, not added or integrated. |
-| credit card              | carte de paiement | |
-| customer              | client               | refers to end buyers of HubRise clients. In a restaurant, it refers to a person who buys food.                                                                                                                                    |
-| dashboard             | tableau de bord      |                                                                                                                                                                                                                                   |
-| deals              |  | A deal provides a price reduction on either an Order Product or Products. For instance, Buy One Get One Free is a deal that applies to two Products.  It applies to two Products to provide a price reduction equal to the price of the cheapest Product. |
-| delivery management   | gestion de livraison | is used to managed a delivery fleet. It can be referred to as _delivery management system_ and _delivery management solution_.                                                                                                    |
-| discount              |  | Discount codes apply savings to the overall order rather than specific products.  For example, FREEDELIVERY to remove the delivery fee for the entire order, or FRIYAY would provide a 10% discount to the entire order on Friday. |
-| drive-through              |  | Where and app includes features needed to offer a service by driving through it, without needing to get out of your car |
-| e-commerce            | e-commerce           |                                                                                                                                                                                                                                   |
-| email                 | email                | to be written in one word, no hyphenation                                                                                                                                                                                         |
-| emailing solution     | solution d'emailing  |                                                                                                                                                                                                                                   |
-| fleet management      | gestion de flotte    |                                                                                                                                                                                                                                   |
-| Food aggregators              | plateforme de livraison de repas à domicile | |
-| hospitality              |  |  |
-| internet              | internet              |                                                                                                                                     |
-| iPad              |  |  |
-| Kitchen Display Screen              |  |  |
-| location              |  | Locations are the different locations of the same business or brand. Locations are always attached to an account. When using the term, Locations refers to the HubRise record, while location is a generic location. |
-| log in              |                | When referring to the action, it is two words:  "Log in to HubRise".  When referring to the noun, it is one word:  "Open the login page."  |
-| log out              |                | When referring to the action, it is two words:  "Log out of HubRise".  When referring to the noun, it is one word:  "Open the logout page" |
-| loyalty management    | gestion de fidélité  |                                                                                                                                                                                                                                   |
-| MyOrderBox              | MyOrderBox | Not My Order Box as we sometimes see it on the web |
-| navigation panel              |  | The left hand panel with the links to Dashboard, Connections, etc.  | 
-| online ordering (OLO) | commande en ligne    | is used to place orders online. It can be referred to as _online ordering website_ and _online ordering system_.                                                                                                                  |
-| OrderLord              | OrderLord | Not Orderlord as we sometimes see it on the web |
-| pay at the table  | paiement à table | Pay at the table apps are used by restaurants for customers to share the bill and pay automously. |
-| plan              |  | A monthly cost per location associated with a usage threshold in number or orders & customers per month. Locations generally have a "free plan" (up to 50 customers & orders per month) and a "paying plan" (advertised as "unlimited" but technically limited to 10,000 customers & orders per month to prevent abuse). Plans are customisable by HubRise employees on an Account or Location basis so we should try to remain generic in the documentation and avoid assuming specific costs and thresholds  |
-| Point Of Sale (POS)   | caisse enregistreuse | are used by retail shops and restaurants to record each sale when it happens. It generally manages inventory and runs reports based on sales information, which allows improved decision making about ordering and merchandising. |
-| platforms             | plateformes          | is used in the context of _food ordering and delivery platforms_, also known as _food ordering platforms_.                                                                                                                        |
-| public API              | API publique               | |
-| request              |  | A transaction between an app and HubRise |
-| user or user profile              | | The user in HubRise refers to anyone with back office access to an "account" or a specific location. To avoid confusion, we should never use account instead of user in our technical documentation.  |
-| website               | site internet        | is the term preferred to _site_.                                                                                                                                                                                                  |
-| Wi-fi              | Wi-fi               | |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| EN Term                             | FR Term                                     | Definition                                                                                                                                                                                                                                                                                                                  |
+| :---------------------------------- | :------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| account                             | compte                                      | The business or brand, which contains one or more locations. Use Account to refer to a HubRise record, while account is a generic account.                                                                                                                                                                                  |
+| back office                         | back office                                 | Preferred spelling for this term. In two words, without hyphenation to join them.                                                                                                                                                                                                                                           |
+| billing cycle                       | cycle de facturation                        | Billing cycles in HubRise have a month in duration, and starts on the same calendar day as the account is created.                                                                                                                                                                                                          |
+| catalog                             | catalogue                                   | US english is the preferred spelling for this specific term. Catalogue should not be used even though it would be the correct english UK spelling.                                                                                                                                                                          |
+| click and collect                   | vente à emporter (VAE)                      | An online purchase collected at a chosen location, rather than delivered home.                                                                                                                                                                                                                                              |
+| client                              | client                                      | End users of the HubRise solution are clients. It is not to be confused with customer.                                                                                                                                                                                                                                      |
+| cloud                               | cloud                                       | Preferred spelling for this term. No capitalisation. No need to refer to cloud-based system as we often see it.                                                                                                                                                                                                             |
+| connection                          | connexion                                   | Apps are connected to HubRise, not added or integrated.                                                                                                                                                                                                                                                                     |
+| credit card                         | carte de paiement                           | Preferred spelling for this term. No hyphenation to join the two terms.                                                                                                                                                                                                                                                     |
+| customer                            | client                                      | Buyers retails and restaurants are customers. In a restaurant, it refers to a person who buys food. It should not be confused with client, which refers to HubRise paying users.                                                                                                                                            |
+| dashboard                           | tableau de bord                             | Page used for information management and business intelligence. It organises, stores, and displays important information from multiple data sources into one, easy to access place.                                                                                                                                         |
+| deals                               | promotion                                   | A deal provides a price reduction on either an Order Product or Products. For instance, Buy One Get One Free is a deal that applies to two Products. It applies to two Products to provide a price reduction equal to the price of the cheapest Product.                                                                    |
+| delivery management                 | gestion de livraison                        | is used to managed a delivery fleet. It can be referred to as _delivery management system_ and _delivery management solution_.                                                                                                                                                                                              |
+| discount                            | promotion                                   | Discount codes apply savings to the overall order rather than specific products. For example, FREEDELIVERY to remove the delivery fee for the entire order, or FRIDAY would provide a 10% discount to the entire order on Friday.                                                                                           |
+| drive-through                       |                                             | Where and app includes features needed to offer a service by driving through it, without needing to get out of your car                                                                                                                                                                                                     |
+| e-commerce                          | e-commerce                                  | Preferred spelling for this term.                                                                                                                                                                                                                                                                                           |
+| e-marketing                         | e-marketing                                 | Preferred spelling for this term.                                                                                                                                                                                                                                                                                           |
+| email                               | email                                       | Preferred spelling for this term. To be written in one word, no hyphenation                                                                                                                                                                                                                                                 |
+| delivery management solution        | solution de gestion de livreurs             | Solutions that uses an intelligent algorithm to help manage deliveries, including traffic data, deadlines, and driver availability.                                                                                                                                                                                         |
+| food ordering and delivery platform | plateforme de livraison de repas à domicile | Preferred alternative to food aggregators. For short, _food ordering platform_ might be used.                                                                                                                                                                                                                               |
+| hospitality                         | cafés hôtels restaurants (CHR)              | Service industry that includes hotels, restaurants and bars.                                                                                                                                                                                                                                                                |
+| internet                            | internet                                    | Preferred spelling for this term. No use of systematic capitalisation.                                                                                                                                                                                                                                                      |
+| iPad                                | iPad                                        | Preferred spelling for this term.                                                                                                                                                                                                                                                                                           |
+| Kitchen Display Screen (KDS)        | Écran d'Affichage Cuisine                   | App used to displays order tickets to the kitchen. It is generally connected to the EPOS.                                                                                                                                                                                                                                   |
+| location                            | point de vente                              | Locations are the different locations of the same business or brand. Locations are always attached to an account. When using the term, Locations refers to the HubRise record, while location is a generic location.                                                                                                        |
+| log in                              | connexion                                   | When referring to the action, it is two words: "Log in to HubRise". When referring to the noun, it is one word: "Open the login page."                                                                                                                                                                                      |
+| log out                             | déconnexion                                 | When referring to the action, it is two words: "Log out of HubRise". When referring to the noun, it is one word: "Open the logout page."                                                                                                                                                                                    |
+| loyalty management                  | gestion de fidélité                         | App used to manage customer loyalty programs and incentives to buy more.                                                                                                                                                                                                                                                    |
+| MyOrderBox                          | MyOrderBox                                  | Not My Order Box as we sometimes see it on the web.                                                                                                                                                                                                                                                                         |
+| navigation panel                    | barre de navigation                         | The left hand panel with the links to Dashboard, Connections, etc.                                                                                                                                                                                                                                                          |
+| online ordering (OLO)               | commande en ligne                           | System used to place orders online. It can be referred to as _online ordering website_ and _online ordering system_.                                                                                                                                                                                                        |
+| OrderLord                           | OrderLord                                   | Not Orderlord as we sometimes see it on the web.                                                                                                                                                                                                                                                                            |
+| pay at the table                    | paiement à table                            | Pay at the table apps are used by restaurants for customers to share the bill and pay automously.                                                                                                                                                                                                                           |
+| plan                                | formule                                     | A monthly cost per location associated with a usage threshold in number or orders or customers per month. Locations generally have a "free plan" (up to 50 customers or orders per month) and a "paying plan" (advertised as "unlimited" but technically limited to 10,000 customers or orders per month to prevent abuse). |
+| Point Of Sale (EPOS)                | caisse enregistreuse                        | Retail shops and restaurants use EPOS solutions to record each sale when it happens. It generally manages inventory and runs reports based on sales information, which allows improved decision making about ordering and merchandising.                                                                                    |  |
+| public API                          | API publique                                | The publicly available HubRise application programming interface (API) provides developers with programmatic access to our proprietary software application.                                                                                                                                                                |
+| request                             | requète                                     | A transaction between an app and HubRise.                                                                                                                                                                                                                                                                                   |
+| user profile                        | profil utilisateur                          | The user in HubRise refers to anyone with back office access to an Account or a specific Location. To avoid confusion, we should never use account instead of user in the technical documentation.                                                                                                                          |
+| website                             | site internet                               | Preferred spelling for this term.                                                                                                                                                                                                                                                                                           |
+| Wi-Fi                               | Wi-Fi                                       | Preferred spelling for this term.                                                                                                                                                                                                                                                                                           |

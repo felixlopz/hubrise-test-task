@@ -11,11 +11,11 @@ meta:
 
 This guide includes useful information that can be used when contributing screenshots to the HubRise website.
 
-## Illustrative Screenshots
+## General Information
 
 Screenshots should be placed after the first descriptive text in a section.
 
-Screenshots of an interface should not be referred to in documentation unless they represent a specific example. No need for “_This screenshot…_”
+Screenshots of an user interface should not be referred to in documentation unless they represent a specific example. No need for “_This screenshot…_”
 
 Placing a screenshot or animated GIF may be accompanied with “_This example demonstrates_” or “_This example shows…._” if the example demonstrates non-standard behaviour.
 
@@ -23,15 +23,13 @@ Placing a screenshot or animated GIF may be accompanied with “_This example de
 
 When working on a document, store source images in the **Screenshots** folder of the corresponding app in the Drive.
 
+Screenshots should always be taken in both English and French when applicable. Follow the image file naming convention and add [screenshot] at the very beginning of the file name. For more information see [Image Naming Convention](#image-naming-convention).
+
 ## Image Shooting
 
 Screenshots should ideally be taken on 4K High Definition screens. The width of the website screenshots are being taken on should be reduced to 1200px.
 
 It is not necessary to scale the image in GIMP, Photoshop or other image editors.
-
-Always keep a copy of the initial screenshot in the corresponding app directory for reference.
-
-Screenshots should be taken in both English and French when applicable. Follow the file naming convention and add [screenshot] at the very beginning of the file name of the initial screenshots saved in the Drive for reference. For more information see [Image Naming Convention](#image-naming-convention).
 
 ## Image Naming Convention
 

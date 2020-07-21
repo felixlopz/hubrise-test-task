@@ -13,7 +13,7 @@ This guide includes useful commands for generating short videos that can be used
 
 ## Recommendations for Videos
 
-- Capture images and videos at **720p (1280 x 720 px)** resolution.
+- Capture images and videos at **720p (1280x720 px)** resolution.
 
 - Capture content such as browsers without the address or menu bar to hide URLs and other information that is not usually visible to the public.
 
