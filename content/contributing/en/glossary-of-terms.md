@@ -15,7 +15,7 @@ This Glossary of Terms provides terminology and spelling decisions taken by the 
 
 By default, terms in this glossary are presented in lower case. However, **well known expressions** in the restaurant and retail industries will be capitalised.
 
-Terms will also be capitalised when it refers to an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something that’s **unique in the universe**.
+Terms will also be capitalised when it refers to an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something **unique in the universe**.
 
 Available **acronyms** have been included in brackets.
 

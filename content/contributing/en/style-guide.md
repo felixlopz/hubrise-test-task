@@ -54,7 +54,7 @@ The first letter following a colon should always be capitalised.
 
 ### Commas
 
-If you have a list of three or more items, add a comma before the last item. For instance: I’d like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the **Oxford or serial comma**.
+If you have a list of three or more items, add a comma before the last item. For instance: I'd like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the **Oxford or serial comma**.
 
 ### Hyphenation
 
@@ -139,7 +139,7 @@ To achieve an easily readable text, you must use:
 - Tables.
 - Diagrams.
 
-Let’s look in more detail to the aspects that contribute to the readability of your text.
+We will now look in more detail to the aspects that contribute to the readability of your text.
 
 ### Active voice
 
@@ -229,7 +229,7 @@ Bold is also used for UI references. For example: Select **CONNECTIONS** from th
 
 ## Contractions
 
-Do not use contractions. For instance, write **do not** instead of **don’t**.
+Do not use contractions. For instance, write **do not** instead of **don't**.
 
 ## Italics
 
@@ -323,7 +323,7 @@ A meta title and meta description should be added to every file.
 
 ### Meta Title
 
-Meta titles should be capitalised following HubRise’s title rules. For more information on capitalisation rules, see [Capitalisation](#capitalisation). In accordance with these rules, the metal titles should be written in **Title Case** with no full stop at the end. The meta title should be the same as the page title, but it can be longer and include a reference to HubRise for SEO purposes.
+Meta titles should be capitalised following HubRise's title rules. For more information on capitalisation rules, see [Capitalisation](#capitalisation). In accordance with these rules, the metal titles should be written in **Title Case** with no full stop at the end. The meta title should be the same as the page title, but it can be longer and include a reference to HubRise for SEO purposes.
 
 For example: LivePepper Connection to HubRise Configuration.
 
