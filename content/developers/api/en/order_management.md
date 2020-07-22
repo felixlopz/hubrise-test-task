@@ -43,8 +43,8 @@ Almost all fields are optional. In fact the simplest order that can be created o
 | `payments` <Label type="optional" />                                  | [OrderPayment](#order-payments)[]                          | The payment method(s) used.                                                                                                                                                                                                                               |
 | `discounts` <Label type="optional" />                                 | [OrderDiscount](#order-discounts)[]                        | The discounts applied.                                                                                                                                                                                                                                    |
 | `deals` <Label type="optional" />                                     | [OrderDeal](#order-deals)[]                                | The deals used in this order.                                                                                                                                                                                                                             |
-| `customer_id` <Label type="optional" />                               | string                                                     | The id of the customer who placed the order. See the customer matching rules section.                                                                                                                                                                     |
-| `customer_list_id` / `customer_private_ref` <Label type="optional" /> | string                                                     | If `customer_id` is not provided, a combination of `customer_list_id` and `customer_private_ref` can be used to identify the customer. See the matching rules in the [Order's Customer](#order-s-customer) section.                                       |
+| `customer_id` <Label type="optional" />                               | string                                                     | The id of the customer who placed the order. See matching rules in [Order's Customer](#order-s-customer).                                                                                                                                                 |
+| `customer_list_id` / `customer_private_ref` <Label type="optional" /> | string                                                     | If `customer_id` is not provided, a combination of `customer_list_id` and `customer_private_ref` can be used to identify the customer. See matching rules in [Order's Customer](#order-s-customer).                                                       |
 
 #### Example request:
 
@@ -263,11 +263,26 @@ Updates an order. The following fields can be updated:
 
 A customer can optionally be attached to an order. There are 3 possible cases:
 
-- `customer_id` is passed: if a customer with this id exists, the customer is attached to the order. Otherwise an error is returned.
+- `customer_id` is passed: if a customer with this id exists, the customer is attached to the order. An error is returned otherwise.
 - `customer_list_id` and `customer_private_ref` are passed: if a customer has this private_ref in the customer list, it is attached to the order. Otherwise an error is returned.
 - Otherwise the order is not attached to a customer.
 
-When a customer is attached to an order, all customer fields are copied in the order. If the order is later retrieved using a GET operation, the customer state _at the time of the order creation_ is returned in the `customer` field.
+When a customer is attached to an order, all customer fields are copied in the order. If the order is later retrieved using a GET operation, the values of customer fields _at the time of the order creation_ are returned in the `customer` object.
+
+The customer fields can be overwritten by passing an optional `customer` object when creating the order. The passed fields only affect the order, not the customer. Consider the following `POST /location/orders` request:
+
+```json
+{
+  "status": "new",
+  "customer_id": "ve343",
+  "customer": {
+    "phone": "+44123456789"
+  },
+  "items": [...]
+}
+```
+
+In this example, the order is created with customer fields copied from the customer `ve343`, and the phone is overwritten with the passed value. The request leaves the original customer phone unchanged.
 
 ## 3. Order Status
 
