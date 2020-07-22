@@ -991,17 +991,17 @@ It defines a set of conditions for a particular item to be available.
 
 #### Parameters:
 
-| Name                                         | Type                                                       | Description                                                                                                   |
-| -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| `dow` <Label type="optional" />              | [DOW](/developers/api/general-concepts/#days-of-the-week)  | Available on certain days of the week.                                                                        |
-| `start_time` <Label type="optional" />       | string                                                     | Available from a certain time of the day. Format: `HH:MM`.                                                    |
-| `end_time` <Label type="optional" />         | string                                                     | Available until a certain time of the day. Format: `HH:MM`.                                                   |
-| `start_date` <Label type="optional" />       | [Date](/developers/api/general-concepts/#dates-and-times)  | Available from a certain date.                                                                                |
-| `end_date` <Label type="optional" />         | [Date](/developers/api/general-concepts/#dates-and-times)  | Available until a certain date.                                                                               |
-| `service_types` <Label type="optional" />    | string[]                                                   | Available for the specified service types. One or several values among: `delivery`, `collection` or `eat_in`. |
-| `min_order_amount` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | Available for order equal or greater than.                                                                    |
-| `max_per_order` <Label type="optional" />    | integer                                                    | Max number of items per order.                                                                                |
-| `max_per_customer` <Label type="optional" /> | integer                                                    | Max number of items per customer.                                                                             |
+| Name                                         | Type                                                        | Description                                                                                                   |
+| -------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `dow` <Label type="optional" />              | [DOW](/developers/api/general-concepts/#days-of-the-week)   | Available on certain days of the week.                                                                        |
+| `start_time` <Label type="optional" />       | string                                                      | Available from a certain time of the day. Format: `HH:MM`.                                                    |
+| `end_time` <Label type="optional" />         | string                                                      | Available until a certain time of the day. Format: `HH:MM`.                                                   |
+| `start_date` <Label type="optional" />       | [Date](/developers/api/general-concepts/#dates-and-times)   | Available from a certain date.                                                                                |
+| `end_date` <Label type="optional" />         | [Date](/developers/api/general-concepts/#dates-and-times)   | Available until a certain date.                                                                               |
+| `service_types` <Label type="optional" />    | string[]                                                    | Available for the specified service types. One or several values among: `delivery`, `collection` or `eat_in`. |
+| `min_order_amount` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values)  | Available for order equal or greater than.                                                                    |
+| `max_per_order` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per order.                                                                                |
+| `max_per_customer` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per customer.                                                                             |
 
 All the fields above are optional. Fields with a `null` value are ignored. All the conditions must be met simultaneously for an item to be available.
 
@@ -1015,7 +1015,7 @@ All the fields above are optional. Fields with a `null` value are ignored. All t
   "end_date": "2020-02-02",
   "service_types": ["collection", "eat_in"],
   "min_order_amount": "20.00 EUR",
-  "max_per_order": 1
+  "max_per_order": "1"
 }
 ```
 
