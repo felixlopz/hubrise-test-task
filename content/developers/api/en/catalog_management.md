@@ -336,7 +336,6 @@ A product belongs to a category. A product has one or several skus.
 | `category_ref`                           | string                        | The ref of the parent category.                                                                                 |
 | `name`                                   | string                        | The name of the product.                                                                                        |
 | `description` <Label type="optional" />  | string                        | The description of the product.                                                                                 |
-| `restrictions` <Label type="optional" /> | [Restrictions](#restrictions) | Availability restrictions.                                                                                      |
 | `tags` <Label type="optional" />         | string[]                      | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
 | `image_ids` <Label type="optional" />    | string[]                      | List of image ids attached to the product                                                                       |
 | `skus`                                   | [Sku](#skus)[]                | List of skus of this product. A product must contain at least one sku.                                          |
@@ -348,9 +347,6 @@ A product belongs to a category. A product has one or several skus.
   "ref": "REG",
   "category_ref": "PIZ",
   "name": "Regina",
-  "restrictions": {
-    "dow": "12345--"
-  },
   "tags": ["pizza", "vegetarian"],
   "image_ids": ["clom9"],
   "skus": [
@@ -985,7 +981,7 @@ Retrieve the list of charges in the catalog.
 
 ## 10. Restrictions
 
-A `restrictions` map can be used in [Product](#products), [Discount](#discounts) and [Deal](#deals) resources.
+A `restrictions` map can be used in [Discount](#discounts) and [Deal](#deals) resources.
 
 It defines a set of conditions for a particular item to be available.
 
