@@ -6,7 +6,7 @@ First install Docker for your platform. Then follow the platform specific instru
 
 The server runs on: http://localhost:8000
 
-__Windows or Linux:__
+**Windows or Linux:**
 
 In console, `cd` to the project root then type:
 
@@ -14,9 +14,10 @@ In console, `cd` to the project root then type:
 docker-compose -f docker-compose.yml up --build website_dev
 ```
 
-__Mac OS:__
+**Mac OS:**
 
 Initial setup (to be done only once):
+
 ```
 brew install rbenv ruby-build
 gem install docker-sync
@@ -40,13 +41,13 @@ cypress run
 
 The non-interactive, continuous integration version can run in a Docker container however:
 
-__Windows or Linux:__
+**Windows or Linux:**
 
 ```shell
 docker-compose -f docker-compose.yml up --build website_test
 ```
 
-__Mac OS:__
+**Mac OS:**
 
 ```shell
 docker-compose -f docker-compose.mac.yml up --build website_test
@@ -58,13 +59,13 @@ Runs on: http://localhost:8001
 
 This runs the server with Server Side Rendering (SSR) enabled. Pages are not reloaded on code change.
 
-__Windows or Linux:__
+**Windows or Linux:**
 
 ```shell
 docker-compose -f docker-compose.yml up --build website_prod
 ```
 
-__Mac OS:__
+**Mac OS:**
 
 ```shell
 docker-compose -f docker-compose.mac.yml up --build website_prod
@@ -76,7 +77,6 @@ For HubRise system administrators.
 
 Use the same process as a the other apps (see cluster/doc/build_deploy_app.md)
 
-
 # Test email-sending forms locally
 
 1. Create file `.env.development` in the root directory with env variable `RECAPTCHA_SITE_KEY=`
@@ -84,3 +84,17 @@ Use the same process as a the other apps (see cluster/doc/build_deploy_app.md)
 3. Install dependencies in `/server` directory via `yarn`
 4. Run server via `cd server; node index.js`
 5. From a separate terminal, run gatsby via `yarn start:dev`
+
+# When building fails...
+
+- Clean the last build. Open a terminal at the project's root and type:
+
+```
+rm -rf public .cache
+```
+
+- Delete all video files locally. This can sometimes be useful to speed up website building. Make sure not to commit the deletions! Open a terminal at the project's root and type:
+
+```
+find content -name "*webm" -o -name "*mp4" | xargs rm
+```
