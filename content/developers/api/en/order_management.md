@@ -240,7 +240,7 @@ Updates an order. The following fields can be updated:
 - `status`
 - `confirmed_time`
 - `seller_notes`
-- `custom_fields` |
+- `custom_fields`
 - `private_ref`
 
 <CallSummaryTable
@@ -348,12 +348,12 @@ Orders do not have to go through all steps. The sequence actually depends on the
 
 Order items which are part of a deal include a `deal_line` field. This field is an object with the following fields:
 
-| Name                                       | Type    | Description                                                                                                                                                                                                                                                                      |
-| ------------------------------------------ | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `deal_key`                                 | string  | A key in the order's `deals` object.                                                                                                                                                                                                                                             |
-| `label` <Label type="optional" />          | string  | Content of the deal line, for instance "Drink".                                                                                                                                                                                                                                  |
-| `pricing_effect` <Label type="optional" /> | string  | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                               |
-| `pricing_value` <Label type="optional" />  | depends | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a string containing a decimal number between 0 and 100 for `percentage_off`, and `null` for `unchanged`. |
+| Name                                       | Type    | Description                                                                                                                                                                                                                                                                                                   |
+| ------------------------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `deal_key`                                 | string  | A key in the order's `deals` object.                                                                                                                                                                                                                                                                          |
+| `label` <Label type="optional" />          | string  | Content of the deal line, for instance "Drink".                                                                                                                                                                                                                                                               |
+| `pricing_effect` <Label type="optional" /> | string  | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                                                            |
+| `pricing_value` <Label type="optional" />  | depends | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`, and `null` for `unchanged`. |
 
 `deal_key` associates an order item to a particular order deal. The particular value of a key has no significance and HubRise renumbers the keys to: "0", "1", … When an order is created, every `deal_key` must have a corresponding entry in the order's `deals` field or the request will fail.
 
