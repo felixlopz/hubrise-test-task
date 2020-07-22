@@ -89,9 +89,9 @@ content:
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info: Integration in progress.
         - to: /apps/aquila/
-          logo: aquilacms.jpeg
+          logo: aquila-cms.jpg
           title: AquilaCMS
-          description: AquilaCMS is an open source e-commerce solution for retail stores and restaurants. It can be downloaded or used as a hosted solution with development services provided by the editor.
+          description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
         - to: /apps/livepepper/
           logo: livepepper.png
           title: LivePepper
@@ -131,16 +131,15 @@ content:
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
     - title: Loyalty and Marketing
       apps:
-        - to: https://dotdigital.com/
-          logo: dotdigital.png
-          title: dotdigital
-          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
-          additional_info: Integration in progress.
         - to: https://www.como.com
           logo: como.png
           title: Como
           description: Como is a loyalty programme solution for retail and hospitality companies. Como gathers data about purchases and preferences to approach customers with personalised offers.
           additional_info: Integration in progress.
+        - to: /apps/dotdigital/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
         - to: https://myemma.com
           logo: emma.png
           title: Emma
@@ -162,11 +161,11 @@ content:
         - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.    
+          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones. 
+          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones.
           additional_info: Integration in progress. Documentation in French.
         - to: https://tickncook.com
           logo: tickncook.png

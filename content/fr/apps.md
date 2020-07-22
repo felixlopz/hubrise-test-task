@@ -91,9 +91,9 @@ content:
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
           additional_info: Documentation en anglais. Intégration en cours.
         - to: /apps/aquila/
-          logo: aquilacms.jpeg
+          logo: aquila-cms.jpg
           title: AquilaCMS
-          description: AquilaCMS est une solution de e-commerce open source pour les commerces de proximité et les restaurants. AquilaCMS peut-être téléchargé ou utilisé avec les services d'hébergement et de développement proposés par l'éditeur.
+          description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
         - to: /apps/livepepper/
           logo: livepepper.png
@@ -136,16 +136,16 @@ content:
           additional_info: Documentation en anglais.
     - title: Fidélité et marketing
       apps:
-        - to: https://dotdigital.com/
-          logo: dotdigital.png
-          title: dotdigital
-          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des ampagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
-          additional_info: Documentation en anglais. Intégration en cours.
         - to: https://www.como.com
           logo: como.png
           title: Como
           description: Como est une solution de fidélité client pour les commerçants, les hôteliers et les restaurateurs permettant de personnaliser les offres grâce à l'analyse des données clients.
           additional_info: Documentation en anglais. Intégration en cours.
+        - to: /apps/dotdigital/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des ampagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
+          additional_info: Documentation en anglais.
         - to: https://myemma.com
           logo: emma.png
           title: Emma
@@ -175,7 +175,7 @@ content:
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone. 
+          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
           additional_info: Intégration en cours.
         - to: https://tickncook.com
           logo: tickncook.png
