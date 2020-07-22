@@ -19,7 +19,7 @@ This sample diagram was created with Google Drawing. To open the source diagram,
 
 ![HubRise primary diagram example with no colors](../images/004-en-example-diagram-no-colours.png)
 
-You may use screenshots with a wider gray border, **around 20 to 40 px**. Light or dark gray **1px** borders can be used as well. In addition, some space around the image would be beneficial to emphasise its content.
+You may use screenshots with a wider gray border, **around 20px to 40px**. Light or dark gray **1px** borders can be used as well. In addition, some space around the image would be beneficial to emphasise its content.
 
 ![Example of a screenshot](../images/005-en-screenshot-example.png)
 
@@ -34,7 +34,7 @@ If the contrast between the colours are too high, a lighter shade or lower opaci
 
 Icons can be used to clarify or to highlight specific points in the documentation. It is, however, important to use icons of the same color. Depending on the use case it can be green, gray if it should be subtle, and orange or red for alerts.
 
-- For icon fonts, see [Font Awsome](https://fontawesome.com/download).
+- For icon fonts, see [Font Awesome](https://fontawesome.com/download).
 
 - For icon library, see [Noun Project](https://thenounproject.com/).
 
@@ -52,15 +52,17 @@ The following fonts may be used when contributing to the HubRise website documen
 
 ## Colours
 
-|                      Colours                       |
-| :------------------------------------------------: |
+Should you want to use colours in your diagrams, these are the colours that should be used.
+
+|                      Colours                       |  |     
+| :------------------------------------------------: | :------: |
 | <span style="color:#6cb14f">**Main Green**</span>  | <span style="color:#262b24">**Darkest Green**</span> |
 |                    HEX: #6cb14f                    | HEX: #262b24 |
 |                  RGB: 108 177 79                   | RGB: 38 43 36 |
-|  <span style="color:#888888">**Dark Gray**</span>  | <span style="color:#cccccc">**Regular Gray**</span> |
+|  <span style="color:#f8f8f8">**Dark Gray**</span>  | <span style="color:#cccccc">**Regular Gray**</span> |
 |                    HEX: #f8f8f8                    | HEX: #cccccc |
 |                  RGB: 248 248 248                  | RGB: 204 204 204 |
-| <span style="color:#f8f8f8">**Light Gray**</span>  | <span style="color:#555555">**Font Gray**</span> |
+| <span style="color:#888888">**Light Gray**</span>  | <span style="color:#555555">**Font Gray**</span> |
 |                    HEX: #888888                    | HEX: #555555 |
 |                  RGB: 136 136 136                  | RGB: 85 85 85 |
 |  <span style="color:#3ca4c6">**Sky Blue**</span>   | <span style="color:#4f79b1">**Regular Blue**</span> |
