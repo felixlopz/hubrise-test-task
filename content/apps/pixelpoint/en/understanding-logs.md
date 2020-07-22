@@ -3,7 +3,7 @@ title: Understanding Logs
 position: 4
 layout: documentation
 meta:
-  title: Understanding Logs
+  title: Understanding Logs on the HubRise PixelPoint Web API Bridge
   description: Informs users on how to read the output in the Logs.
 ---
 

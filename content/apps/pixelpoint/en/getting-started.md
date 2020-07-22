@@ -3,8 +3,8 @@ title: Getting Started
 position: 2
 layout: documentation
 meta:
-  title: HubRise PixelPoint Bridge Getting Started Guide
-  description: The HubRise PixelPoint Bridge documentation informs users on how to connect and read logs.
+  title: Getting Started Guide for the HubRise PixelPoint Web API Bridge
+  description: Informs users on how to connect and read logs.
 ---
 
 ## Setup

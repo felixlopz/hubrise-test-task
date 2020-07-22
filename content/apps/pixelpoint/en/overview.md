@@ -3,8 +3,8 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: PixelPoint Overview
-  description: Details the use and functionality of PixelPoint and PixelPoint Bridge to manage online and retail stores.
+  title: HubRise PixelPoint Web API Bridge Overview
+  description: Details the use and functionality of the PixelPoint Bridge.
 gallery:
   - 005-en-2x-pixelpoint-bridge-view.png
   - 006-en-2x-pixelpoint-bridge-view-log-open.png
@@ -34,7 +34,5 @@ Therefore, PixelPoint Bridge cannot transfer the menu from the EPOS to HubRise, 
 To establish a successful connection with your PAR PixelPoint EPOS, PixelPoint Bridge requires:
 
 - **PixelHQ** and **PixelPoint version 12.3** or above.
-
 - The **API** token provided by the PAR PixelPoint support team.
-
 - The **HubRise account** setup with locations to connect. For more information about accounts and locations, see the [HubRise User Guide](/docs).

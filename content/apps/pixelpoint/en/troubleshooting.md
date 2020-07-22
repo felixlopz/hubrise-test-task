@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: Troubleshooting Guide
+  title: HubRise PixelPoint Web API Bridge Troubleshooting Guide
   description: Informs users on how to troubleshoot errors.
 ---
 
@@ -19,24 +19,24 @@ The most important piece of information is the `ErrorNum` node. This value is ei
 
 If the order is successful, the **response log** will present the following fields:
 
-* `ErrorNum`: This value is **0** if the order is successful. 
-* `Transaction`:
-  * `Status`: Inside the `Transaction` node, if its value is **3**, the transaction has been closed. 
-* `Payment`: This node and its subnodes are only present if the payment is completed online. 
-  * `Status`: Inside the `Payment` node, if its value is **3**, the payment has been processed. 
+- `ErrorNum`: This value is **0** if the order is successful.
+- `Transaction`:
+  - `Status`: Inside the `Transaction` node, if its value is **3**, the transaction has been closed.
+- `Payment`: This node and its subnodes are only present if the payment is completed online.
+  - `Status`: Inside the `Payment` node, if its value is **3**, the payment has been processed.
 
 ### Failed Orders
 
-* `ErrorNum`: This value is **-1** if there has been an error. 
-* `Exception`: If it is present, it gives information about **internal errors** in the PixelPoint system. 
-* `SubErrorNum`: If it is present, it provides the **HTTP error code** of the associated request.
-* `EOITransfer`: If it is present, it gives **additional information** in plain English about the error. 
+- `ErrorNum`: This value is **-1** if there has been an error.
+- `Exception`: If it is present, it gives information about **internal errors** in the PixelPoint system.
+- `SubErrorNum`: If it is present, it provides the **HTTP error code** of the associated request.
+- `EOITransfer`: If it is present, it gives **additional information** in plain English about the error.
 
 ## Typical Error Cases
 
 ### Wrong API Token
 
-A **wrong API token** used in the PixelPoint Bridge is generally associated with the following error in the **response body**. 
+A **wrong API token** used in the PixelPoint Bridge is generally associated with the following error in the **response body**.
 
 ```
 <ErrorNum>-1</ErrorNum>
@@ -70,13 +70,13 @@ Besides, they also use different keys to refer to the same value. The following 
 
 Table. Mapping keys from HubRise to PixelPoint.
 
-| Description | HubRise Name | PixelPoint Name |
-| :--- | :--- | :--- |
-| Product code | sku_ref | ProdNum |
-| Option code | options>ref | ProdNum |
-| Deal code | deals>ref | ComboItemId |
-| Service type code | service_type_ref | SaleTypeNum |
-| Payment method code | payment>type | MethodNumber |
+| Description         | HubRise Name     | PixelPoint Name |
+| :------------------ | :--------------- | :-------------- |
+| Product code        | sku_ref          | ProdNum         |
+| Option code         | options>ref      | ProdNum         |
+| Deal code           | deals>ref        | ComboItemId     |
+| Service type code   | service_type_ref | SaleTypeNum     |
+| Payment method code | payment>type     | MethodNumber    |
 
 ## PAR PixelPoint Support
 
