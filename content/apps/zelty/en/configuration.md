@@ -33,7 +33,24 @@ In this regard, there are two options available:
 
 ---
 
+In Zelty it is also possible to export all the reference codes in a **CSV** or **Excel** file. This includes the reference codes for Tags, Products, Menus and Options. 
+
+In order to do this:
+
+* Navigate to **La Carte**
+* Select **Les Produits**
+* In the toolbar that appear on the right, select **Exporter la carte**
+* Select the options you require, the format, and make sure the final option is selected.
+
 ## Orders
 
+Once HubRise is connected to Zelty no further steps are needed to activate order reception and orders are received by Zelty automatically.
 
+Once you receive a new order, a notification will appear and the order will appear in the order list.
+
+To view the order list:
+
+* Navigate to **Tableau de bord**
+* Select **Statistiques**   
+* Selct the **Tickets** tab
 

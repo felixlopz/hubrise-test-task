@@ -18,6 +18,8 @@ The first step when connection issues between Zelty and HubRise arise is to veri
 3. **Click** on HubRise
 4. Verify that the connection has been enabled.
 
+If the connection is not enabled, you can follow these [steps](/apps/zelty/getting-started.md).
+
 ## HubRise Definitions vs Aquila Definitions
 
 Both HubRise and Zelty have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
@@ -28,5 +30,5 @@ Both HubRise and Zelty have their own vocabulary. Understanding the differences 
 | The actual restaurant          | Location          | Restaurant      |
 | A deal or discount offered     | Deal              | Menu            |
 | List of options                | Option List       | Option          |
-|                                | Option            | Valeur possible |
+| An option from the option list | Option            | Valeur possible |
 |                                | Tag               | Tag             |

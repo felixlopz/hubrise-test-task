@@ -38,7 +38,7 @@ Zelty can connect to an existing or new HubRise Account.
 
 ## Why Connect?
 
-Connecting Zelty HubRise provides a communication advantage to your business. 
+Connecting Zelty to HubRise provides a communication advantage to your business and offers the above benefits. To see whether Zelty is the right solution for you, you can [contact](https://zelty.fr/contact.html) them for a free trial. 
 
 
 
