@@ -70,7 +70,7 @@ content:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
+          description: Deliveroo is an online food delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app.
           additional_info: Integration in progress.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png

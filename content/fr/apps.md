@@ -72,7 +72,7 @@ content:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
+          description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile.
           additional_info: Intégration en cours.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
