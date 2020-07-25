@@ -50,7 +50,7 @@ content:
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord provides a Point of Sale combined with a Delivery Management solution, kitchen screens and advanced reporting.
-        - to: /apps/pixelpoint/
+        - to: /apps/pixelpoint-web-api/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint by PAR, integrated via its Web API, is a Point of Sales solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
