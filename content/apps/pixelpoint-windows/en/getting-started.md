@@ -9,23 +9,25 @@ meta:
 
 ## Setup
 
-The setup process for connecting the **PixelPoint Windows API** to **HubRise** is typically performed by Slowey Systems, and is completely transparent to the customer.
+The setup process for connecting the PixelPoint Windows API to HubRise is typically performed by Slowey Systems, and is completely transparent to the customer.
 
 The steps required are the following:
 
-1. **Create** a **folder** called **HubRise** at the root `C:\` level of the store server. [Comment]: # (It was LivePepper in the demo, but we asked John to change it)
+[comment]: # 'It was LivePepper in the demo, but we asked John to change it'
 
-2. Copy **all** the **relevant files** needed for the connection inside this folder, including a configuration file called `HubRise.ini`. [Comment]: # (It was LivePepper in the demo, but we asked John to change it)
+1. Create a folder called HubRise at the root `C:\` level of the store server.
 
-3. **Remove** any **token** that might be present in the **configuration file**.
+1. Copy all the relevant files needed for the connection inside this folder, including a configuration file called `HubRise.ini`.
 
-4. Run the `HubRise.exe` program. This will populate the token in the configuration file and create the store in the Slowey database. Then, it will connect the server with HubRise and start fetching orders. [Comment]: # (It was LivePepper in the demo, but we asked John to change it)
+1. Remove any token that might be present in the configuration file.
+
+1. Run the `HubRise.exe` program. This will populate the token in the configuration file and create the store in the Slowey database. Then, it will connect the server with HubRise and start fetching orders.
 
 ## Configuration File
 
 ### Sample Configuration File
 
-The following code shows a **sample configuration file**. The parameters are grouped under different sections, with the relative name in square brackets. A complete description of each section is given below.
+The following code shows a sample configuration file. The parameters are grouped under different sections, with the relative name in square brackets. A complete description of each section is given below.
 
 ```
 [Restaurant]
@@ -58,7 +60,7 @@ DateTime Format=dd/MM
 
 ### Restaurant
 
-In the section named **Restaurant**, only the `ID` parameter must be specified. This is the **identification code** of the restaurant in the **Slowey database**.
+In the section named **Restaurant**, only the `ID` parameter must be specified. This is the identification code of the restaurant in the Slowey database.
 
 ### Sales Types
 
@@ -66,7 +68,7 @@ This section lists all the sales types offered by the store. The actual names an
 
 To retrieve these values, follow these steps.
 
-1. Open the PixelPoint back office program, **Systemset.exe**.
+1. Open the PixelPoint back office program, `Systemset.exe`.
 
 2. Open the **Administrator** menu.
 
@@ -82,7 +84,7 @@ The Payment section lists all the parameters for the payments configuration. The
 
 To retrieve the value for `MethodNum`, follow these steps.
 
-1. Open the PixelPoint back office program, **Systemset.exe**.
+1. Open the PixelPoint back office program, `Systemset.exe`.
 
 2. Open the **Administrator** menu.
 

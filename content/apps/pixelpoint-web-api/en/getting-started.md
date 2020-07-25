@@ -13,19 +13,19 @@ PixelPoint Bridge connects a PAR PixelPoint EPOS to a HubRise location. Therefor
 
 To connect PixelPoint to a specific location:
 
-1. Open you HubRise back office, click the down arrow **&#8595;** next to **Location** to select the location you want to connect. For help, check the HubRise User Guide > [Accounts](/docs/account) and [Locations](/docs/locations).
+1. Open you HubRise back office, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/007-arrow.jpg)</InlineImage> next to **Location** to select the location you want to connect. For help, check the HubRise User Guide > [Accounts](/docs/account) and [Locations](/docs/locations).
 
 1. Select **CONNECTIONS** > **View available apps**.
 
-1. Scroll down and select **PixelPoint Bridge** from the list of apps.
+1. Scroll down and select PixelPoint Bridge from the list of apps.
 
 1. Click **Connect**.
 
-1. Allow PixelPoint permission to access your location registered in HubRise. For accounts with multiple locations, **expand the Choose location** section to select the correct one and **click** on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
+1. Allow PixelPoint permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and **click** on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
 
-1. You will be redirected to the **PixelPoint Bridge** user interface. The first time you connect, the **Configuration** page will appear:
+1. You will be redirected to the PixelPoint Bridge user interface. The first time you connect, the **Configuration** page will appear:
 
-   - In the **API token field**, enter your unique **API token** to be provided by the PAR PixelPoint support team.
+   - In the **API token** field, enter your unique API token to be provided by the PAR PixelPoint support team.
    - Leave **Debug mode** unselected.
    - Click **Save**.
 
@@ -33,7 +33,7 @@ To connect PixelPoint to a specific location:
 
 ---
 
-**IMPORTANT NOTE:** The **API token** you provide during the setup process is only stored in the PixelPoint back office and used for all the API calls to the EPOS. The system does not check the validity of the API token. For information on error handling, see the Troubleshooting section.
+**IMPORTANT NOTE:** The API token you provide during the setup process is only stored in the PixelPoint back office and used for all the API calls to the EPOS. The system does not check the validity of the API token. For information on error handling, see the Troubleshooting section.
 
 ---
 
@@ -51,11 +51,11 @@ The main page of PixelPoint Bridge displays the latest received orders. Each row
 
 Clicking on an order will open a new page displaying all the information about it.
 
-On the top right corner of the **PixelPoint Bridge** main page, the HubRise user and location connected are displayed, together with the **API token** currently used. Clicking the down arrow **&#8595;** expands a menu where it is possible to change the language of the interface and to access the **Configuration page**.
+On the top right corner of the PixelPoint Bridge main page, the HubRise user and location connected are displayed, together with the API token currently used. Clicking the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/007-arrow.jpg)</InlineImage> expands a menu where it is possible to change the language of the interface and to access the **Configuration page**.
 
 ---
 
-**IMPORTANT NOTE**: The first time you access the logs from PixelPoint Bridge, you will be asked to **Allow the Bridge** to access the information on your HubRise account.
+**IMPORTANT NOTE**: The first time you access the logs from PixelPoint Bridge, you will be asked to **Allow** the Bridge to access the information on your HubRise account.
 
 ---
 
@@ -68,9 +68,9 @@ Selecting an order from the list will display all the logs of the API requests e
 Requests are ordered with the latest on top, and each of them displays the following information:
 
 - **TIME**: The date and time the order was placed.
-- **DIRECTION**: The apps sending and receiving the request, in the format **Origin → Destination**.
+- **DIRECTION**: The apps sending and receiving the request, in the format Origin → Destination.
 - **STATUS**: The status of the request. The value **OK** indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
-  **Clicking** on a request will expand it to reveal the detailed logs of the request and its response. A detailed description of the logs can be found in [Understanding Logs](/apps/pixelpoint/understanding-logs).
+  **Clicking** on a request will expand it to reveal the detailed logs of the request and its response. A detailed description of the logs can be found in [Understanding Logs](/apps/pixelpoint-web-api/understanding-logs).
 
 ![Order page](../images/002-en-orders-page.png)
 

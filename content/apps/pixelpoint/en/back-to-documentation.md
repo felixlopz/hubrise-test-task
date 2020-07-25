@@ -1,11 +1,11 @@
 ---
-title: Other instructions
+title: Full PixelPoint Bridge Documentation
 position: 1
 layout: documentation
 path_override: /
 meta:
-  title: 
-  description: 
+  title:
+  description:
 ---
 
 If you use PixelPoint Web API, see the [PixelPoint Web API documentation](/apps/pixelpoint-web-api).
