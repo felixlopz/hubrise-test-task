@@ -336,7 +336,6 @@ A product belongs to a category. A product has one or several skus.
 | `category_ref`                           | string                        | The ref of the parent category.                                                                                 |
 | `name`                                   | string                        | The name of the product.                                                                                        |
 | `description` <Label type="optional" />  | string                        | The description of the product.                                                                                 |
-| `restrictions` <Label type="optional" /> | [Restrictions](#restrictions) | Availability restrictions.                                                                                      |
 | `tags` <Label type="optional" />         | string[]                      | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
 | `image_ids` <Label type="optional" />    | string[]                      | List of image ids attached to the product                                                                       |
 | `skus`                                   | [Sku](#skus)[]                | List of skus of this product. A product must contain at least one sku.                                          |
@@ -348,9 +347,6 @@ A product belongs to a category. A product has one or several skus.
   "ref": "REG",
   "category_ref": "PIZ",
   "name": "Regina",
-  "restrictions": {
-    "dow": "12345--"
-  },
   "tags": ["pizza", "vegetarian"],
   "image_ids": ["clom9"],
   "skus": [
@@ -711,23 +707,23 @@ Retrieve an option list and the possible choices (options).
 
 #### Parameters:
 
-| Name                                                | Type                                                       | Description                                                                                                                                                                                                                                                                      |
-| --------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ref` <Label type="optional" />                     | string                                                     | The ref of the deal.                                                                                                                                                                                                                                                             |
-| `category_ref` <Label type="optional" />            | string                                                     | The [category](#categories) this deal will appear in.                                                                                                                                                                                                                            |
-| `name`                                              | string                                                     | The deal name.                                                                                                                                                                                                                                                                   |
-| `description` <Label type="optional" />             | string                                                     | The description of the deal.                                                                                                                                                                                                                                                     |
-| `coupon_codes` <Label type="optional" />            | string[]                                                   | The coupon codes that trigger this deal.                                                                                                                                                                                                                                         |
-| `restrictions` <Label type="optional" />            | [Restrictions](#restrictions)                              | Availability restrictions.                                                                                                                                                                                                                                                       |
-| `tags` <Label type="optional" />                    | string[]                                                   | List of tags.                                                                                                                                                                                                                                                                    |
-| `image_ids` <Label type="optional" />               | string[]                                                   | List of image ids attached to the deal.                                                                                                                                                                                                                                          |
-| `lines`                                             | array                                                      | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                                                                              |
-| `lines.skus`                                        | array                                                      | The skus eligible for this line. Skus are referenced by their `ref`.                                                                                                                                                                                                             |
-| `lines.skus.ref`                                    | string                                                     | The `ref`of the eligible sku.                                                                                                                                                                                                                                                    |
-| `lines.skus.extra_charge` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | An optional extra charge applied when the sku is selected.                                                                                                                                                                                                                       |
-| `lines.pricing_effect`                              | string                                                     | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                               |
-| `lines.pricing_value` <Label type="optional" />     | depends                                                    | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a string containing a decimal number between 0 and 100 for `percentage_off`, and `null` for `unchanged`. |
-| `lines.label` <Label type="optional" />             | string                                                     | A label describing the type of skus that can be selected in this line.                                                                                                                                                                                                           |
+| Name                                                | Type                                                       | Description                                                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ref` <Label type="optional" />                     | string                                                     | The ref of the deal.                                                                                                                                                                                                                                                                                          |
+| `category_ref` <Label type="optional" />            | string                                                     | The [category](#categories) this deal will appear in.                                                                                                                                                                                                                                                         |
+| `name`                                              | string                                                     | The deal name.                                                                                                                                                                                                                                                                                                |
+| `description` <Label type="optional" />             | string                                                     | The description of the deal.                                                                                                                                                                                                                                                                                  |
+| `coupon_codes` <Label type="optional" />            | string[]                                                   | The coupon codes that trigger this deal.                                                                                                                                                                                                                                                                      |
+| `restrictions` <Label type="optional" />            | [Restrictions](#restrictions)                              | Availability restrictions.                                                                                                                                                                                                                                                                                    |
+| `tags` <Label type="optional" />                    | string[]                                                   | List of tags.                                                                                                                                                                                                                                                                                                 |
+| `image_ids` <Label type="optional" />               | string[]                                                   | List of image ids attached to the deal.                                                                                                                                                                                                                                                                       |
+| `lines`                                             | array                                                      | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                                                                                                           |
+| `lines.skus`                                        | array                                                      | The skus eligible for this line. Skus are referenced by their `ref`.                                                                                                                                                                                                                                          |
+| `lines.skus.ref`                                    | string                                                     | The `ref`of the eligible sku.                                                                                                                                                                                                                                                                                 |
+| `lines.skus.extra_charge` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | An optional extra charge applied when the sku is selected.                                                                                                                                                                                                                                                    |
+| `lines.pricing_effect`                              | string                                                     | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                                                            |
+| `lines.pricing_value` <Label type="optional" />     | depends                                                    | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`, and `null` for `unchanged`. |
+| `lines.label` <Label type="optional" />             | string                                                     | A label describing the type of skus that can be selected in this line.                                                                                                                                                                                                                                        |
 
 #### Example:
 
@@ -830,16 +826,16 @@ A discount is a reduction of the order total price.
 
 #### Parameters:
 
-| Name                                      | Type                          | Description                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ref` <Label type="optional" />           | string                        | The ref of the discount.                                                                                                                                              |
-| `name`                                    | string                        | The name of the discount.                                                                                                                                             |
-| `description` <Label type="optional" />   | string                        | The description of the discount.                                                                                                                                      |
-| `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                           |
-| `restrictions` <Label type="optional" />  | [Restrictions](#restrictions) | Availability restrictions.                                                                                                                                            |
-| `pricing_effect`                          | string                        | One of: `price_off`, `percentage_off`.                                                                                                                                |
-| `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `price_off`, and a number between 0 and 100 for `percentage_off`. |
-| `image_ids` <Label type="optional" />     | string[]                      | List of image ids attached to the discount.                                                                                                                           |
+| Name                                      | Type                          | Description                                                                                                                                                                                                                    |
+| ----------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `ref` <Label type="optional" />           | string                        | The ref of the discount.                                                                                                                                                                                                       |
+| `name`                                    | string                        | The name of the discount.                                                                                                                                                                                                      |
+| `description` <Label type="optional" />   | string                        | The description of the discount.                                                                                                                                                                                               |
+| `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                                                                                    |
+| `restrictions` <Label type="optional" />  | [Restrictions](#restrictions) | Availability restrictions.                                                                                                                                                                                                     |
+| `pricing_effect`                          | string                        | One of: `price_off`, `percentage_off`.                                                                                                                                                                                         |
+| `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `price_off`, and a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`. |
+| `image_ids` <Label type="optional" />     | string[]                      | List of image ids attached to the discount.                                                                                                                                                                                    |
 
 #### Example:
 
@@ -985,23 +981,23 @@ Retrieve the list of charges in the catalog.
 
 ## 10. Restrictions
 
-A `restrictions` map can be used in [Product](#products), [Discount](#discounts) and [Deal](#deals) resources.
+A `restrictions` map can be used in [Discount](#discounts) and [Deal](#deals) resources.
 
 It defines a set of conditions for a particular item to be available.
 
 #### Parameters:
 
-| Name                                         | Type                                                       | Description                                                                                                   |
-| -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| `dow` <Label type="optional" />              | [DOW](/developers/api/general-concepts/#days-of-the-week)  | Available on certain days of the week.                                                                        |
-| `start_time` <Label type="optional" />       | string                                                     | Available from a certain time of the day. Format: `HH:MM`.                                                    |
-| `end_time` <Label type="optional" />         | string                                                     | Available until a certain time of the day. Format: `HH:MM`.                                                   |
-| `start_date` <Label type="optional" />       | [Date](/developers/api/general-concepts/#dates-and-times)  | Available from a certain date.                                                                                |
-| `end_date` <Label type="optional" />         | [Date](/developers/api/general-concepts/#dates-and-times)  | Available until a certain date.                                                                               |
-| `service_types` <Label type="optional" />    | string[]                                                   | Available for the specified service types. One or several values among: `delivery`, `collection` or `eat_in`. |
-| `min_order_amount` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | Available for order equal or greater than.                                                                    |
-| `max_per_order` <Label type="optional" />    | integer                                                    | Max number of items per order.                                                                                |
-| `max_per_customer` <Label type="optional" /> | integer                                                    | Max number of items per customer.                                                                             |
+| Name                                         | Type                                                        | Description                                                                                                   |
+| -------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `dow` <Label type="optional" />              | [DOW](/developers/api/general-concepts/#days-of-the-week)   | Available on certain days of the week.                                                                        |
+| `start_time` <Label type="optional" />       | string                                                      | Available from a certain time of the day. Format: `HH:MM`.                                                    |
+| `end_time` <Label type="optional" />         | string                                                      | Available until a certain time of the day. Format: `HH:MM`.                                                   |
+| `start_date` <Label type="optional" />       | [Date](/developers/api/general-concepts/#dates-and-times)   | Available from a certain date.                                                                                |
+| `end_date` <Label type="optional" />         | [Date](/developers/api/general-concepts/#dates-and-times)   | Available until a certain date.                                                                               |
+| `service_types` <Label type="optional" />    | string[]                                                    | Available for the specified service types. One or several values among: `delivery`, `collection` or `eat_in`. |
+| `min_order_amount` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values)  | Available for order equal or greater than.                                                                    |
+| `max_per_order` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per order.                                                                                |
+| `max_per_customer` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per customer.                                                                             |
 
 All the fields above are optional. Fields with a `null` value are ignored. All the conditions must be met simultaneously for an item to be available.
 
@@ -1015,7 +1011,7 @@ All the fields above are optional. Fields with a `null` value are ignored. All t
   "end_date": "2020-02-02",
   "service_types": ["collection", "eat_in"],
   "min_order_amount": "20.00 EUR",
-  "max_per_order": 1
+  "max_per_order": "1"
 }
 ```
 
@@ -1174,17 +1170,17 @@ Returns the list of inventory entries of the inventory.
   {
     "sku_id": "ab19d",
     "sku_ref": "COKE",
-    "stock": 3
+    "stock": "3"
   },
   {
     "sku_id": "sb65k",
     "sku_ref": "PEPSI",
-    "stock": 0
+    "stock": "0"
   },
   {
     "option_id": "a8da5",
     "option_ref": "EGG",
-    "stock": 1
+    "stock": "1"
   }
 ]
 ```
@@ -1208,7 +1204,7 @@ Each entry consists of:
 - either a `sku_id` or `option_id` key (_select by id_), or a `sku_ref` or `option_ref` key (_select by ref_)
 - and a `stock` key
 
-`stock` must be a positive decimal (with up to 3 decimal places). `0` means **out of stock**. An entry with a `null` stock is ignored.
+`stock` must be a positive [decimal](/developers/api/general-concepts/#decimal-values) (with up to 3 decimal places). `0` means **out of stock**. An entry with a `null` stock is ignored.
 
 A _select by id_ entry affects a single sku or option. A _select by ref_ entry can affect several skus/options at the same time. The latter form provides a convenient way to update an inventory without storing ids.
 
@@ -1226,11 +1222,11 @@ A _select by id_ entry affects a single sku or option. A _select by ref_ entry c
 [
   {
     "sku_id": "ab19d",
-    "stock": 5
+    "stock": "5"
   },
   {
     "option_ref": "EGG",
-    "stock": 0
+    "stock": "0"
   }
 ]
 ```
@@ -1258,12 +1254,12 @@ If we have the following inventory:
   {
     "sku_id": "ab19d",
     "sku_ref": "COKE",
-    "stock": 3
+    "stock": "3"
   },
   {
     "option_id": "a8da5",
     "option_ref": "EGG",
-    "stock": 1
+    "stock": "1"
   }
 ]
 ```
@@ -1280,7 +1276,7 @@ And apply this operation:
   },
   {
     "sku_id": "a5f4e",
-    "stock": 2
+    "stock": "2"
   }
 ]
 ```
@@ -1292,12 +1288,12 @@ The resulting inventory is:
   {
     "option_id": "a8da5",
     "option_ref": "EGG",
-    "stock": 1
+    "stock": "1"
   },
   {
     "sku_id": "a5f4e",
     "sku_ref": null,
-    "stock": 2
+    "stock": "2"
   }
 ]
 ```

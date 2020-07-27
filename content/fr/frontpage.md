@@ -70,5 +70,5 @@ content:
     title: Qui sommes-nous ?
     description:
       paragraph_1: HubRise est une société basée en France, fondée par des ingénieurs spécialisés dans les logiciels de réservation aérienne, et de commande en ligne pour les restaurants.
-      paragraph_2: 'Notre vision : les commerçants utilisent de plus en plus d’applications informatiques pour leur activité, mais celles-ci ne communiquent généralement pas entre elles. HubRise veut offrir une solution universelle permettant à toutes les applications des commerçants de communiquer aisément entre elles.'
+      paragraph_2: "Notre vision : les commerçants utilisent de plus en plus d'applications informatiques pour leur activité, mais celles-ci ne communiquent généralement pas entre elles. HubRise veut offrir une solution universelle permettant à toutes les applications des commerçants de communiquer aisément entre elles."
 ---

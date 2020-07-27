@@ -27,7 +27,7 @@ HubRise offers a paid plan per Location. A free plan is provided with a limited 
 
 The HubRise interface is organised into the following sections:
 
-- **Dashboard**: A quick overview of your organisation’s sales, orders, and new customers.
+- **Dashboard**: A quick overview of your organisation's sales, orders, and new customers.
 - **Connections**: Connect new applications to your HubRise Account, and manage your existing connections.
 - **Data**: View orders, catalogs, and customers across your locations.
 - **Settings**: Add new locations, manage employee access and roles, view payment history or payment methods, and developer access to integrate applications with HubRise.

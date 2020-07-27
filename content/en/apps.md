@@ -50,12 +50,12 @@ content:
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord provides a Point of Sale combined with a Delivery Management solution, kitchen screens and advanced reporting.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-bridge/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint by PAR, integrated via its Web API, is a Point of Sales solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
           additional_info: Web API integration.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-windows-api/
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint by PAR, integrated via its Windows API, is a Point of Sale solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
@@ -80,7 +80,7 @@ content:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo is an online food delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app.
+          description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app.
           additional_info: Integration in progress.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
@@ -156,6 +156,10 @@ content:
           title: Como
           description: Como is a loyalty programme solution for retail and hospitality companies. Como gathers data about purchases and preferences to approach customers with personalised offers.
           additional_info: Integration in progress.
+        - to: /apps/dotdigital/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
         - to: https://myemma.com
           logo: emma.png
           title: Emma

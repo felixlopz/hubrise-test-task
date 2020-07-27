@@ -22,14 +22,14 @@ You can also view and edit your own permissions from **SETTINGS** > **PROFILE**.
 
 ## Add a User
 
-Admins can grant access to other users provided they have an existing profile on HubRise. New HubRise users can create a profile in the [HubRise signup page](https://manager.hubrise.com/signup). If you create a new profile on someone else’s behalf, use the [HubRise Reset password page](https://manager.hubrise.com/reset_password/new) to have the user enter their own secure password.
+Admins can grant access to other users provided they have an existing profile on HubRise. New HubRise users can create a profile in the [HubRise signup page](https://manager.hubrise.com/signup). If you create a new profile on someone else's behalf, use the [HubRise Reset password page](https://manager.hubrise.com/reset_password/new) to have the user enter their own secure password.
 
 To add a user:
 
-1. To grant access for the Account and all of its Locations, select **SETTINGS** > **ACCOUNTS**. Admins with multiple Accounts, select the Account to modify. To grant access only for a specific Location, select the location’s name in the **Locations** section.
+1. To grant access for the Account and all of its Locations, select **SETTINGS** > **ACCOUNTS**. Admins with multiple Accounts, select the Account to modify. To grant access only for a specific Location, select the location's name in the **Locations** section.
 2. In the Permissions section, select **Add**.
-3. Enter the user’s email address in the column marked **EMAIL**.
-4. In the **ROLE** column, set the new user’s role as Admin or Manager.
+3. Enter the user's email address in the column marked **EMAIL**.
+4. In the **ROLE** column, set the new user's role as Admin or Manager.
 5. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
 
 <video controls title="Add user example">

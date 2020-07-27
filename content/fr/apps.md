@@ -53,12 +53,12 @@ content:
           title: OrderLord POS
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
           additional_info: Documentation en anglais.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-bridge/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Intégration via son API web. Documentation en anglais.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-windows-api/
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
@@ -151,16 +151,16 @@ content:
           additional_info: Intégration en cours.
     - title: Fidélité et marketing
       apps:
-        - to: https://dotdigital.com/
-          logo: dotdigital.png
-          title: dotdigital
-          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des ampagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
-          additional_info: Documentation en anglais. Intégration en cours.
         - to: https://www.como.com
           logo: como.png
           title: Como
           description: Como est une solution de fidélité client pour les commerçants, les hôteliers et les restaurateurs permettant de personnaliser les offres grâce à l'analyse des données clients.
           additional_info: Documentation en anglais. Intégration en cours.
+        - to: /apps/dotdigital/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des ampagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
+          additional_info: Documentation en anglais.
         - to: https://myemma.com
           logo: emma.png
           title: Emma

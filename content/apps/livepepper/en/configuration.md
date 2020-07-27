@@ -85,7 +85,7 @@ The process to add POS codes to toppings, variants, ingredients, and options is 
   - **Price & Availability**: The options made available to the customer, usually in the form of sizes. For example: an 8" pizza versus a 12” pizza.
   - **Toppings**: Ingredients set at the product category or the product level.
 
-The instructions below are specific to updating the POS codes for a product’s ingredients, and can be replicated for the items listed above.
+The instructions below are specific to updating the POS codes for a product's ingredients, and can be replicated for the items listed above.
 
 To update the POS code for each product ingredient:
 

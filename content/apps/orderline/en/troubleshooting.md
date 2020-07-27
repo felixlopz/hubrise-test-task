@@ -7,7 +7,7 @@ meta:
   description: Instructions on how resolve issues on OrderLine.
 ---
 
-## I cannot hear orders coming in  
+## I cannot hear orders coming in
 
 On mobile devices, make sure to disable Auto-Lock in your display settings. Plugging in your device might also help.
 
