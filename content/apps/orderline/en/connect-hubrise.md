@@ -11,7 +11,7 @@ OrderLine must be connected to your HubRise account before it can fetch orders. 
 
 1. Log in to your HubRise Account. To create a HubRise Account, visit the HubRise [HubRise Resgistration Page](https://manager.hubrise.com/signup?locale=en-GB) and follow instructions. For more information on HubRise, see [HubRise Getting Started](/docs/getting-started).
 
-1. Select **CONNECTIONS** in HubRise’s menu then **View available apps**.
+1. Select **CONNECTIONS** in HubRise's menu then **View available apps**.
 
 1. Click **OrderLine** from the list of apps.
 

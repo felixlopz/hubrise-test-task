@@ -26,7 +26,7 @@ LivePepper is an online ordering solution for home delivery and takeaway restaur
 
 LivePepper clients are mainly located in France and the UK, but the system operates in multiple international markets in the Americas, mainland Europe, North Africa, Middle East and South Asia. LivePepper can easily be localised for the international market.
 
-LivePepper can create a full site including static marketing pages and online ordering. Restaurants can also incorporate LivePepper’s online ordering module into an existing marketing website. Sites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
+LivePepper can create a full site including static marketing pages and online ordering. Restaurants can also incorporate LivePepper's online ordering module into an existing marketing website. Sites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
 
 LivePepper comes with a rich palette of features and can answer the needs of the most demanding restaurants and international franchises.
 

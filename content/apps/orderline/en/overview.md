@@ -11,7 +11,7 @@ path_override: /
 app_info:
   category: Other apps
   availability: Worldwide
-  price_range: Free
+  price_range: Included in your HubRise subscription
   website:
   contact:
 ---
@@ -23,7 +23,7 @@ OrderLine is used to manage and print orders that may originate from other syste
 - Online ordering solutions for online stores and restaurants.
 - Food Ordering and Delivery Platforms.
 - On-site self-ordering kiosks.
-- Digital menus available at the client’s table.
+- Digital menus available at the client's table.
 
 OrderLine is available on computers, tablets and smartphones.
 
