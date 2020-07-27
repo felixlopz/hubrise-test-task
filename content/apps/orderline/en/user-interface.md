@@ -28,6 +28,7 @@ OrderLine aggregates today’s orders, future orders, and all orders completed i
 Orders are displayed in descending order by date, with the most recent date first.
 
 You may filter orders by a combination of:
+
 - Customer name or Order reference.
 - Delivery date range.
 

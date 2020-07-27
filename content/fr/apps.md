@@ -53,12 +53,12 @@ content:
           title: OrderLord POS
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
           additional_info: Documentation en anglais.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-web-api/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Intégration via son API web. Documentation en anglais.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-windows/
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
@@ -175,7 +175,7 @@ content:
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone. 
+          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
           additional_info: Intégration en cours.
         - to: https://tickncook.com
           logo: tickncook.png

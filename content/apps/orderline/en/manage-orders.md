@@ -24,7 +24,7 @@ Order Cards display all the details needed to process the Order, including the f
 - Expected date and time for delivery or collection requested by the customer.
 - Confirmed date and time will equal the expected time until an OrderLine user updates this to the actual delivery time the order can be processed.
 - Type indicates how the Order will be processed. Types include **DELIVERY**, **COLLECTION** or **EAT-IN**.
-- The order’s current status. Users can update the status for an order, or print the order receipt by selecting the corresponding button. 
+- The order’s current status. Users can update the status for an order, or print the order receipt by selecting the corresponding button.
 
 ![OrderLine Order Card Details](../images/019-en-order-card-details.png)
 
@@ -34,12 +34,11 @@ To accept an Order, open the Order Card and click **ACCEPTED**.
 
 Users can add a personalised message to the customer, adjust the delivery time, and have those updates delivered to the customer. To update the date or add a comment, click on the pen <InlineImage width="44" height="38">![OrderLine Pen Icon](../images/036-pen.jpg)</InlineImage>, adjust the date and time, write your message and click **ACCEPTED**. An automated email will be sent to the customer with your message and the updated delivery time.
 
---------
+---
 
 **IMPORTANT NOTE**: Delivery time updates and messaging must be supported by your online ordering system. For more information on how to set it up, see [Additional Data Prompt](/apps/orderline/settings/##additional-data-prompt).
 
---------
-
+---
 
 Once accepted, the Order status changes to Accepted. You may print the order receipt and change the status again when you are ready.
 

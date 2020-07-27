@@ -107,7 +107,7 @@ In Postman, play the **Create Order** endpoint. If the request is successful, yo
 
 Congratulations! You placed your first order on HubRise.
 
-## Set up a Callback (Optional) 
+## Set up a Callback (Optional)
 
 In many cases, your application will need to be notified when a certain event occurs, such as when an order is created or updated. This can be achieved with a callback.
 

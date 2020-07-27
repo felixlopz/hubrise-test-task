@@ -7,9 +7,6 @@ meta:
   description: Details the use and functionality of OrderLine to manage online and retail stores.
 gallery:
   - 001-en-2x-desktop-view.png
-
-[comment]: # (Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware)  
-
 path_override: /
 app_info:
   category: Other apps
@@ -18,6 +15,8 @@ app_info:
   website:
   contact:
 ---
+
+[comment]:# (Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware)
 
 OrderLine is used to manage and print orders that may originate from other systems connected to your HubRise Account such as:
 

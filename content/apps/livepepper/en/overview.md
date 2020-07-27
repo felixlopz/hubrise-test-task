@@ -18,7 +18,7 @@ app_info:
   contact: contact@livepepper.com / +33 4 92 38 09 82
 ---
 
-[comment]:# (We need background effect for images on apps overview page too)
+[comment]: # 'We need background effect for images on apps overview page too'
 
 ## Description
 

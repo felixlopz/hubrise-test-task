@@ -50,12 +50,12 @@ content:
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord provides a Point of Sale combined with a Delivery Management solution, kitchen screens and advanced reporting.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-web-api/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint by PAR, integrated via its Web API, is a Point of Sales solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
           additional_info: Web API integration.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-windows/
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint by PAR, integrated via its Windows API, is a Point of Sale solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
@@ -161,11 +161,11 @@ content:
         - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.    
+          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones. 
+          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones.
           additional_info: Integration in progress. Documentation in French.
         - to: https://tickncook.com
           logo: tickncook.png
