@@ -3,7 +3,7 @@ title: Understanding Logs
 position: 4
 layout: documentation
 meta:
-  title: Understanding Logs on the HubRise PixelPoint Windows API Bridge
+  title: Understanding Logs on the HubRise PixelPoint Windows API
   description: Informs users on how to read the output in the Logs.
 ---
 
@@ -28,7 +28,7 @@ Consider this example:
 
 This node means that the key `ProdNum` is associated with the value `123456789`. Notice how the value is enclosed inside the key tags. You can think of it as a Russian doll structure: Each doll contains one or more dolls, and every half doll has a unique partner that makes the doll whole.
 
-For more extensive explanations, see this [introduction on the XML format](https://www.w3schools.com/xml/xml_whatis.asp).
+For more extensive explanations, see this [introduction on the XML format](https://www.w3schools.com/xml/xml_whatis.asp) by W3Schools.
 
 ## PixelPoint Request Log
 
@@ -42,11 +42,11 @@ The `Transaction` and `Member` nodes provide all the information about the order
 
 The `Transaction` node and its subnodes are especially relevant to diagnose possible problems in the request. The main subnodes of interest are:
 
-- `SaleTypeNum`: The service type associated with the order. For more information, see [Setting Service Types](/apps/pixelpoint-windows/mapping-epos-codes).
+- `SaleTypeNum`: The service type associated with the order. For more information, see [Setting Service Types](/apps/pixelpoint-windows-api/mapping-epos-codes).
 
 - `ScheduleTime`: If present, it indicates the date and time the order should be delivered or expected to be ready for collection. It is not present if the customer does not specify the time for collection, or if delivery is scheduled within 30 minutes of the order or as soon as possible.
 
-- `Items`: Must contain at least one `Item` node. For each `Item` node, the following subnodes are generally present.
+- `Items`: Must contain at least one `Item` node. For each `Item` node, the following subnodes are generally present:
 
   - `ProdNum`: The unique product code that is associated with the product in your EPOS catalog. For more information, see [Mapping EPOS Codes](/apps/pixelpoint/mapping-epos-codes/).
   - `CouponNum`: The unique product code associated with a discount in your EPOS catalog. `CouponNum` and `ProdNum` are mutually exclusive, therefore only one must be present inside the `Item` node.
@@ -54,10 +54,11 @@ The `Transaction` node and its subnodes are especially relevant to diagnose poss
   - `Quantity`: The product quantity ordered by the customer.
   - `ItemId`: A unique number inside the Transaction that is used to identify products from options, together with `ParentId`.
   - `ParentId`: A number that is used to identify products from options, together with `ItemId`.
-  - `ComboItemId`: It is present when the product is part of a deal. The value associated with this key represents the code for the deal in your EPOS catalog. For more information, see [Setting the Product Catalog](apps/pixelpoint/mapping-pos-codes/).
+  - `ComboItemId`: It is present when the product is part of a deal. The value associated with this key represents the code for the deal in your EPOS catalog.
 
 - `Payment`: This node specifies the information about the payment. It is missing if the order is not paid online, so that the transaction remains open in the EPOS system. The transaction will be closed only when the customer pays upon delivery of collection. The following subnodes are generally present.
-  - `MethodNumber`: The code associated with the payment method in the PixelPoint EPOS. For more information, see [Payment](/apps/pixelpoint-windows/getting-started/#payment).
+
+  - `MethodNumber`: The code associated with the payment method in the PixelPoint EPOS.
   - `AuthType`: This value is always `114`.
   - `Tender`: The total amount paid.
 

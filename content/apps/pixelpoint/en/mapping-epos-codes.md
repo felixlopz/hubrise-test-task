@@ -1,15 +1,15 @@
 ---
-title: Mapping EPOS Codes
+title: Mapping EPOS codes
 position: 2
 layout: documentation
 meta:
   title: Mapping the EPOS codes on the HubRise PixelPoint
-  description: Informs users on how to Map POS Codes.
+  description: Informs users on how to Map EPOS codes.
 ---
 
 ---
 
-**IMPORTANT NOTE**: The EPOS Codes mapping section is common for both the PixelPoint Web API and Windows bridges. To return to your documentation, see the [PixelPoint Web API documentation](/apps/pixelpoint-web-api), or the [PixelPoint Windows documentation](/apps/pixelpoint-windows).
+**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API documentation](/apps/pixelpoint-windows-api).
 
 ---
 
@@ -44,12 +44,12 @@ Combos are particular combinations of products and/or options that are sold as a
 
 ## Setting Service Types
 
-Each service type you provide (delivery, collection, eat-in) must be associated with the correct PixelPoint EPOS code. The exact values of these codes depend on the particular setup of the restaurant, but they are typically numbers in the 1000-1010 range.
+Each service type you provide (delivery, collection, eat-in) must be associated with the correct PixelPoint EPOS code. The exact values of these codes depend on the particular setup of the restaurant, but they are typically numbers in the `1000`-`1010` range.
 
 ## Setting Payment Methods
 
 Your PixelPoint EPOS has a different code for each payment method. Each payment method allowed in the system to connect must be defined in the PixelPoint EPOS and must be specified with the corresponding code.
 
-When the customer chooses to pay upon delivery or collection, PixelPoint Bridge will not send any payment information to the EPOS, as doing so would close the transaction.
+When the customer chooses to pay upon delivery or collection, no payment information is sent to the EPOS, as doing so would close the transaction.
 
 [comment]: # 'Need to check all links to: Setting Service Types.'

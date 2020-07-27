@@ -3,7 +3,7 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: HubRise PixelPoint Web API Bridge Overview
+  title: HubRise PixelPoint Bridge Overview
   description: Details the use and functionality of the PixelPoint Bridge.
 gallery:
   - 005-en-2x-pixelpoint-bridge-view.png
@@ -12,7 +12,7 @@ path_override: /
 app_info:
   category: Point of Sales
   availability: Worldwide
-  price_range: 25€ / month
+  price_range: Included in your HubRise subscription
   website: https://www.hubrise.com/apps
   contact: contact@hubrise.com
 ---
@@ -21,7 +21,7 @@ app_info:
 
 PixelPoint Bridge is an app developed by HubRise that allows the communication between HubRise and the PAR PixelPoint EPOS. Via PixelPoint Bridge, HubRise can forward any order to the EPOS. These orders could come from online ordering solutions, self-ordering kiosks, online food ordering and delivery platforms or any other such solution connected to your HubRise account.
 
-PixelPoint Bridge also provides a user interface to see the requests sent to the EPOS and responses received. For more technical details about API requests and related responses, see [Understanding Logs](/apps/pixelpoint-web-api/understanding-logs).
+PixelPoint Bridge also provides a user interface to see the requests sent to the EPOS and responses received. For more technical details about API requests and related responses, see [Understanding Logs](/apps/pixelpoint-bridge/understanding-logs).
 
 PixelPoint Bridge is a one-way connection from HubRise to the EPOS (push only integration). This means that information only flows from HubRise to the EPOS, not vice versa.
 

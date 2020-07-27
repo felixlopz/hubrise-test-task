@@ -1,5 +1,5 @@
 ---
-title: Full PixelPoint Bridge Documentation
+title: Full PixelPoint Documentation
 position: 1
 layout: documentation
 path_override: /
@@ -8,6 +8,6 @@ meta:
   description:
 ---
 
-If you use PixelPoint Web API, see the [PixelPoint Web API documentation](/apps/pixelpoint-web-api).
+If you use PixelPoint Web API, see the [PixelPoint Bridge documentation](/apps/pixelpoint-bridge).
 
-Otherwise, see the [PixelPoint Windows documentation](/apps/pixelpoint-windows).
+Otherwise, see the [PixelPoint Windows API documentation](/apps/pixelpoint-windows-api).

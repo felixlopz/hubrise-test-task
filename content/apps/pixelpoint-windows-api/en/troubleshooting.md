@@ -3,15 +3,19 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: HubRise PixelPoint Web API Bridge Troubleshooting Guide
+  title: HubRise PixelPoint Windows API Troubleshooting Guide
   description: Informs users on how to troubleshoot errors.
 ---
 
-Analysing the logs associated with an order is the first action to perform when troubleshooting. The following sections describe a few typical sources of errors.
+Analysing the logs associated with an order is the first action to perform when troubleshooting.
+
+In case of problems, start by analysing the PixelPoint Bridge response log, and then dig deeper in the HubRise back office to check the requests coming from the ordering system connected to your HubRise account.
+
+[comment]: # 'Ask John if they save XML responses. Otherwise, remove this section entirely'
 
 ## PixelPoint Response Log
 
-The response log in PixelPoint Bridge is very useful to understand what has gone wrong in the order. As for requests, information in the response logs is encoded in [XML format](/apps/pixelpoint-web-api/understanding-logs/#an-xml-primer).
+The response log in PixelPoint Bridge is very useful to understand what has gone wrong in the order. As for requests, information in the response logs is encoded in [XML format](/apps/pixelpoint-windows-api/understanding-logs/#an-xml-primer).
 
 The most important piece of information is the `ErrorNum` node. This value is either `0` if the order is successful, or `-1` if there has been an error. The resulting response log will be different depending on this value.
 
@@ -64,7 +68,7 @@ If there are issues with the connection to the store, the following error appear
 
 Possible issues can be due to a mismatch of configuration between the PAR PixelPoint EPOS and HubRise. To verify this, you need to compare the requests on HubRise with those on PixelPoint Bridge. The information about an order that appears in the PixelPoint Bridge logs is also visible in the HubRise back office, under **DATA** > **ORDERS**.
 
-PixelPoint requests are in [XML format](/apps/pixelpoint-web-api/understanding-logs/#an-xml-primer), while the HubRise API uses JSON. One of the duties of the Bridge app is to translate one format into the other.
+PixelPoint requests are in [XML format](/apps/pixelpoint-windows-api/understanding-logs/#an-xml-primer), while the HubRise API uses JSON. One of the duties of the Bridge app is to translate one format into the other.
 
 Besides, they also use different keys to refer to the same value. The following table summarises how to map the API keys from HubRise to PixelPoint. When investigating a problem with support teams, you might want to use their respective API key to avoid confusion.
 

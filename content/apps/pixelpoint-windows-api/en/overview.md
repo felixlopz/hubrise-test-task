@@ -3,7 +3,7 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: HubRise PixelPoint Windows API Bridge Overview
+  title: HubRise PixelPoint Windows API Overview
   description: Details the use and functionality of the HubRise PixelPoint Bridge.
 gallery:
 
@@ -12,7 +12,7 @@ app_info:
   category: Point of Sales
   availability: Worldwide
   price_range:
-  website: http://www.sloweysys.com/
+  website: https://www.sloweysys.com/
   contact: support@slowey.ie
 ---
 
