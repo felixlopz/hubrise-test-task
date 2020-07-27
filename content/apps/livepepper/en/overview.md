@@ -34,7 +34,7 @@ Restaurant managers have complete control over their LivePepper site. They can m
 
 ## Prerequisites
 
-To establish a connection between LivePepper and HubRise, you must have an existing LivePepper site. A test site can be created from the [LivePepper web site](https://www.livepepper.com). Connecting with HubRise is easy, and can be done in just a few minutes. A HubRise user profile and account can be created from the LivePepper back office at any time.
+To establish a connection between LivePepper and HubRise, you must have an existing LivePepper site. A test site can be created from the [LivePepper website](https://www.livepepper.com). Connecting with HubRise is easy, and can be done in just a few minutes. A HubRise user profile and account can be created from the LivePepper back office at any time.
 
 ## Why Connect?
 
