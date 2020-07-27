@@ -62,7 +62,17 @@ content:
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
-          additional_info: Intégration via son API Windows. Documentation en anglais.
+          additional_info: Intégration via son API Windows par Slowey Systems. Documentation en anglais.
+        - to: https://www.rmpos.com/
+          logo: restaurant-manager.png
+          title: Restaurant Manager
+          description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d’établissements de la restauration au bars.
+          additional_info: Documentation en anglais. Intégration par Crystal Mind en cours.
+        - to: https://www.sicom.com/
+          logo: sicom.png
+          title: SICOM
+          description: SICOM propose une suite  complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
+          additional_info: Documentation en anglais. Intégration par MyTec en cours.
         - to: https://zelty.fr
           logo: zelty.png
           title: Zelty
@@ -134,6 +144,11 @@ content:
           title: Orkestro
           description: Orkestro permet de gérer les livraisons en interne ou de les externaliser à des opérateurs offrant des services de livraison à la demande.
           additional_info: Documentation en anglais.
+        - to: https://stuart.com/fr/
+          logo: stuart.png
+          title: Stuart
+          description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée.
+          additional_info: Intégration en cours.
     - title: Fidélité et marketing
       apps:
         - to: https://dotdigital.com/

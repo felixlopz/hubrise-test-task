@@ -59,7 +59,17 @@ content:
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint by PAR, integrated via its Windows API, is a Point of Sale solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
-          additional_info: Slowey Systems Windows API integration.
+          additional_info: Windows API integration by Slowey Systems.
+        - to: https://www.rmpos.com/
+          logo: restaurant-manager.png
+          title: Restaurant Manager
+          description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
+          additional_info: Integration in progress.
+        - to: https://www.sicom.com/
+          logo: sicom.png
+          title: SICOM
+          description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
+          additional_info: Integration in progress. Integration by MyTec.
         - to: https://zelty.fr
           logo: zelty.png
           title: Zelty
@@ -129,6 +139,11 @@ content:
           logo: orkestro.png
           title: Orkestro
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
+        - to: https://stuart.com/fr/
+          logo: stuart.png
+          title: Stuart
+          description: Stuart offers businesses of all sizes, all sectors, on demand fast delivery services with a customised way of transporting goods.
+          additional_info: Integration in progress.
     - title: Loyalty and Marketing
       apps:
         - to: https://dotdigital.com/
