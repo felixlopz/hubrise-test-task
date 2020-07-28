@@ -180,7 +180,7 @@ Avoid using synonyms. If you cannot escape it, use three at most. Your text is n
 
 ### User Actions
 
-Users may use different actions for the same event. On a Desktop computer, they might “click” a link, while on a mobile device they might “tap” it. When possible, use universal terms across platforms. For example: Select instead of click or tap.
+Users may use different actions for the same event. On a Desktop computer, they might click a link, while on a mobile device they might tap it. When possible, use universal terms across platforms. For example: Select instead of click or tap.
 
 ### Second person and first person
 
