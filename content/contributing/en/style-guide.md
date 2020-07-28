@@ -19,21 +19,21 @@ The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be use
 
 Terminology and spelling decisions are informed in the [HubRise Glossary of Terms](/contributing/glossary-of-terms/). Refer to it to maximise linguistic consistency throughout the documentation. Think of including your own terminology decisions within.
 
-The HubRise documentation should be written in **British English**. Localisation into **French** is done regularly to keep all bilingual content in sync.
+The HubRise documentation should be written in British English. Localisation into French is done regularly to keep all bilingual content in sync.
 
 Please keep in mind that readers of the documentation might not be native english speakers.
 
 ## Capitalisation
 
-If it is an **official title or name**, something that can be or is **trademarked or copyrighted**, or the name of something that is **unique in the universe**, capitalise it. Otherwise, do not.
+If it is an official title or name, something that can be or is trademarked or copyrighted, or the name of something that is unique in the universe, capitalise it. Otherwise, do not.
 
-**If you are unsure on whether to capitalise something or not, do not capitalise it** because nine out of 10 times, you will be doing the right thing.
+If you are unsure on whether to capitalise something or not, do not capitalise it because nine out of 10 times, you will be doing the right thing.
 
-One exception is when referring to a specific item in HubRise. For example, if we are referring to the **Restaurant** or the **Retail store** object in HubRise, we capitalise it to show that we are referring to the HubRise item, as opposed to a generic restaurant or retail store.
+One exception is when referring to a specific item in HubRise. For example, if we are referring to the Restaurant or the Retail store object in HubRise, we capitalise it to show that we are referring to the HubRise item, as opposed to a generic restaurant or retail store.
 
-Also, if it is an expression that has a **well known acronym** amongst your target audience, you should capitalise the word.
+Also, if it is an expression that has a well known acronym amongst your target audience, you should capitalise the word.
 
-Words such as **a**, **an**, **and**, **but**, **for**, **nor**, **of**, **or**, **so**, **to**, and **yet** must not be capitalised.
+Words such as a, an, and, but, for, nor, of, or, so, to, and yet must not be capitalised.
 
 > Wrong: If You Are Unsure On Whether To Capitalise Something Or Not, Do Not Capitalise It.
 
@@ -54,7 +54,7 @@ The first letter following a colon should always be capitalised.
 
 ### Commas
 
-If you have a list of three or more items, add a comma before the last item. For instance: I'd like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the **Oxford or serial comma**.
+If you have a list of three or more items, add a comma before the last item. For instance: I'd like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the Oxford or serial comma.
 
 ### Hyphenation
 
@@ -105,7 +105,7 @@ Avoid using lists to repeat all fields to fill in shown in the UI. For context, 
 
 Cross-references can be used to guide readers to related information within the same document or in an external page.
 
-Cross-references are hyperlinked to the header being referred to, with the final section linked. For example, if we are linking to the **Colon** section of the documentation in this format:
+Cross-references are hyperlinked to the header being referred to, with the final section linked. For example, if we are linking to the Colon section of the documentation in this format:
 
 > Style Guide &#8594; Punctuation &#8594; **Colon** &#8592; Linking here
 
@@ -125,11 +125,11 @@ Do not attach the cross-reference directly to a word in the text. Rather, use a 
 
 ### Links
 
-Always use **relative paths** for internal links or cross-references, and **absolute paths** for external links. Relative paths will open the link in the same tab. Absolute paths will open a new tab.
+Always use relative paths for internal links or cross-references, and absolute paths for external links. Relative paths will open the link in the same tab. Absolute paths will open a new tab.
 
 ## Readability
 
-First and foremost, your text must be **easy to read**. Keep in mind that readers are busy, so they may read your text diagonally. You must have strategies in place to ensure that either your message passes on, or they find the help they need. You must also be **concise** and **objective**. Keep your text short and simple.
+First and foremost, your text must be easy to read. Keep in mind that readers are busy, so they may read your text diagonally. You must have strategies in place to ensure that either your message passes on, or they find the help they need. You must also be concise and objective. Keep your text short and simple.
 
 To achieve an easily readable text, you must use:
 
@@ -176,11 +176,11 @@ Include conditional clauses before instructions, not after to give readers a cha
 
 ### Synonyms
 
-**Avoid** using synonyms. If you cannot escape it, use **three at most**. Your text is not literary, and a lot of synonyms may sound repetitive to the reader, increasing the odds of low engagement levels.
+Avoid using synonyms. If you cannot escape it, use three at most. Your text is not literary, and a lot of synonyms may sound repetitive to the reader, increasing the odds of low engagement levels.
 
 ### User Actions
 
-Users may use different actions for the same event. On a Desktop computer, they might “click” a link, while on a mobile device they might “tap” it. When possible, use universal terms across platforms. For example: **Select** instead of **click** or **tap**.
+Users may use different actions for the same event. On a Desktop computer, they might “click” a link, while on a mobile device they might “tap” it. When possible, use universal terms across platforms. For example: Select instead of click or tap.
 
 ### Second person and first person
 
@@ -194,10 +194,9 @@ The use of **you** (second person) instead of **we** is preferred. Identify who 
 
 Log in to or log into is a common issue, made worse with login.
 
-**Into** is a preposition. It establishes a position in time or space. For example: **I enter into a car**.
+**Into** is a preposition. It establishes a position in time or space. For example: I enter into a car.
 
-**In to** is a two part verb. I **log in** to a web page. I am not literally crawling through my monitor screen. You may **log** a web page, or **log in** to a web page.
-It is a weird distinction, and they sound the same.
+**In to** is a two part verb. I log in to a web page. I am not literally crawling through my monitor screen. You may log a web page, or log in to a web page.
 
 ### Numbers
 
@@ -235,20 +234,6 @@ Do not use contractions. For instance, write **do not** instead of **don't**.
 
 You may use italics for tech terms except code. Do not use it to identify examples, make a sentence instead.
 
-## Technology Terms
-
-Terms from your code, keyboard shortcuts, file names, button names, and other tech terms that need to stand out from your text must be handled the following way:
-
-- Use **italics** for tech terms except code. Do not use quotation marks for any tech terms.
-- File types are in all **capital letters**. For example: **Logs are in JSON format.**
-- If tech terms are in italics, you cannot use italics for emphasis as well. So, if you need to emphasise a tech term, use **bold**.
-- Write code terms in Courier New and enclose them with a grey box, like this:
-
-`// This is a comment in your code.`
-
-- All code must be in its **own paragraph**.
-- If you want to include a small portion of code in the middle of a sentence, write it in **Courier New**, but do not enclose it with a **grey box**.
-
 ## Tone
 
 Be conversational rather than formal but do not overdo it. Be friendly, and respectful while sharing your know-how.
@@ -265,7 +250,7 @@ Notices give important or useful information that is not necessarily part of the
 
 ---
 
-If you foresee an issue that may form part of the Frequently Asked Questions, this question may be inserted between two lines with Related FAQ in bold and the questions following. The question must be linked to the relevant question in the **Frequently Asked Questions**, for example:
+If you foresee an issue that may form part of the Frequently Asked Questions, this question may be inserted between two lines with Related FAQ in bold and the questions following. The question must be linked to the relevant question in the Frequently Asked Questions, for example:
 
 ---
 
@@ -288,7 +273,7 @@ This should be done for the complete menu path to the command each time. For exa
 
 ### Commands and Buttons
 
-UI reference should be in **Bold** and have the same capitalisation as the UI, except for final punctuation. For example, a UI label of **User details**: will be documented as **User details**. No colon, quote marks or any other type of punctuation are required.
+UI reference should be in bold and have the same capitalisation as the UI, except for final punctuation. For example, a UI label of **User details**: will be documented as **User details**. No colon, quote marks or any other type of punctuation are required.
 
 For example:
 
@@ -304,6 +289,23 @@ For example:
 
 A full guide on screenshots can be found in the [Screenshots Guide](/contributing/screenshots-guide).
 
+## Technical Terms
+
+Terms from your code, keyboard shortcuts, file names, button names, and other tech terms that need to stand out from your text must be handled the following way:
+
+- Use italics for tech terms, except code. Do not use quotation marks for any tech terms.
+- If tech terms are in italics, you cannot use italics for emphasis as well. So, if you need to emphasise a tech term, use bold.
+- File types are in all capital letters. For example: Logs are in JSON format.
+- File names use code font. For Example: `001-en-click-completed.png`
+- UI elements that are rendered based on previously entered text input use code font.
+- Attribute names and values use code font.
+- Write code terms in Courier New and enclose them with a grey box, like this:
+
+`// This is a comment in your code.`
+
+All code must be in its own paragraph.
+If you want to include a small portion of code in the middle of a sentence, write it in _Courier New_, but do not enclose it with a grey box.
+
 ## Headings and Titles
 
 Section headings should be marked with the appropriate heading style. In the hierarchical organisation of the text, a structure with three levels should be preferred. `<h1>` is used for the page title. `<h2>` and `<h3>` can be used for the content. `<h4>` to be used only when strictly necessary. Levels from `<h5>` and above should be avoided.
@@ -314,8 +316,8 @@ Section headings should be marked with the appropriate heading style. In the hie
 
 ## File name
 
-Files should be given a contextual name written in lower case. Separate words with hyphens, not underscores. Use only **standard ASCII alphanumeric characters**.
-For image file names, see [Image file names](/contributing/screenshots-guide/#image-naming-convention).
+Files should be given a contextual name written in lower case. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
+For image, video or diagram file names, see [Image file names](/contributing/screenshots-guide/#image-naming-convention).
 
 ## Meta Title and Description
 
@@ -323,12 +325,12 @@ A meta title and meta description should be added to every file.
 
 ### Meta Title
 
-Meta titles should be capitalised following HubRise's title rules. For more information on capitalisation rules, see [Capitalisation](#capitalisation). In accordance with these rules, the metal titles should be written in **Title Case** with no full stop at the end. The meta title should be the same as the page title, but it can be longer and include a reference to HubRise for SEO purposes.
+Meta titles should be capitalised following HubRise's title rules. For more information on capitalisation rules, see [Capitalisation](#capitalisation). In accordance with these rules, the metal titles should be written in _Title Case_ with no full stop at the end. The meta title should be the same as the page title, but it can be longer and include a reference to HubRise for SEO purposes.
 
 For example: LivePepper Connection to HubRise Configuration.
 
 ### Meta Description
 
-The meta description should use **Sentence Case** with a full stop at the end.
+The meta description should use _Sentence Case_ with a full stop at the end.
 
 For example: Instructions on how to configure LivePepper for optimal connection to HubRise and other platforms.
