@@ -53,16 +53,26 @@ content:
           title: OrderLord POS
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
           additional_info: Documentation en anglais.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-bridge/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Intégration via son API web. Documentation en anglais.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-windows-api/
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
-          additional_info: Intégration via son API Windows. Documentation en anglais.
+          additional_info: Intégration via son API Windows par Slowey Systems. Documentation en anglais.
+        - to: https://www.rmpos.com/
+          logo: restaurant-manager.png
+          title: Restaurant Manager
+          description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d’établissements de la restauration au bars.
+          additional_info: Documentation en anglais. Intégration par Crystal Mind en cours.
+        - to: https://www.sicom.com/
+          logo: sicom.png
+          title: SICOM
+          description: SICOM propose une suite  complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
+          additional_info: Documentation en anglais. Intégration par MyTec en cours.
         - to: https://zelty.fr
           logo: zelty.png
           title: Zelty
@@ -72,7 +82,7 @@ content:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
+          description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile.
           additional_info: Intégration en cours.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
@@ -91,7 +101,7 @@ content:
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
           additional_info: Documentation en anglais. Intégration en cours.
         - to: /apps/aquila/
-          logo: aquila-cms.jpg
+          logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
@@ -134,6 +144,11 @@ content:
           title: Orkestro
           description: Orkestro permet de gérer les livraisons en interne ou de les externaliser à des opérateurs offrant des services de livraison à la demande.
           additional_info: Documentation en anglais.
+        - to: https://stuart.com/fr/
+          logo: stuart.png
+          title: Stuart
+          description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée.
+          additional_info: Intégration en cours.
     - title: Fidélité et marketing
       apps:
         - to: https://www.como.com
@@ -175,7 +190,7 @@ content:
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone. 
+          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
           additional_info: Intégration en cours.
         - to: https://tickncook.com
           logo: tickncook.png

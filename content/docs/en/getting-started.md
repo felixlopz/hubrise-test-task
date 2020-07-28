@@ -37,7 +37,7 @@ If you are a registered user but you have lost or forgotten your password, go to
 
 ---
 
-**IMPORTANT NOTE**: If you do not see the password reset instructions in your email’s Inbox folder within a few minutes, refresh your Inbox and check your Spam or Trash folders.
+**IMPORTANT NOTE**: If you do not see the password reset instructions in your email's Inbox folder within a few minutes, refresh your Inbox and check your Spam or Trash folders.
 
 ---
 
@@ -51,7 +51,7 @@ A small business may have one Account with one Location, while a larger business
 
 ![Accounts and Locations example](../images/046-en-2x-accounts-locations.png)
 
-If you want to get an overall view of an Account’s performance, select all Locations. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
+If you want to get an overall view of an Account's performance, select all Locations. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
 
 - For users with multiple Accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Account** and select the Account to display.
 - To display data on all Locations or for a specific Location, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Location** and select either **All locations** or the specific location.

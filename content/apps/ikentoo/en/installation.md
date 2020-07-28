@@ -7,7 +7,7 @@ meta:
   description:
 ---
 
-- Open your HubRise back office and go to CONNECTIONS in HubRise’s menu, then click on “View available apps": https://manager.hubrise.com/apps
+- Open your HubRise back office and go to CONNECTIONS in HubRise's menu, then click on “View available apps": https://manager.hubrise.com/apps
 
 - Find the iKentoo app, click on "Connect to iKentoo v2", a new windon will open, click on the "Connect" button.
 

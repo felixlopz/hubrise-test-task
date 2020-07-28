@@ -50,16 +50,26 @@ content:
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord provides a Point of Sale combined with a Delivery Management solution, kitchen screens and advanced reporting.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-bridge/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint by PAR, integrated via its Web API, is a Point of Sales solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
           additional_info: Web API integration.
-        - to: https://www.partech.com/pixel-point-software
+        - to: /apps/pixelpoint-windows-api/
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint by PAR, integrated via its Windows API, is a Point of Sale solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
-          additional_info: Slowey Systems Windows API integration.
+          additional_info: Windows API integration by Slowey Systems.
+        - to: https://www.rmpos.com/
+          logo: restaurant-manager.png
+          title: Restaurant Manager
+          description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
+          additional_info: Integration in progress.
+        - to: https://www.sicom.com/
+          logo: sicom.png
+          title: SICOM
+          description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
+          additional_info: Integration in progress. Integration by MyTec.
         - to: https://zelty.fr
           logo: zelty.png
           title: Zelty
@@ -70,7 +80,7 @@ content:
         - to: https://www.deliveroo.com
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
+          description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app.
           additional_info: Integration in progress.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
@@ -89,7 +99,7 @@ content:
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info: Integration in progress.
         - to: /apps/aquila/
-          logo: aquila-cms.jpg
+          logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
         - to: /apps/livepepper/
@@ -129,8 +139,18 @@ content:
           logo: orkestro.png
           title: Orkestro
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
+        - to: https://stuart.com/fr/
+          logo: stuart.png
+          title: Stuart
+          description: Stuart offers businesses of all sizes, all sectors, on demand fast delivery services with a customised way of transporting goods.
+          additional_info: Integration in progress.
     - title: Loyalty and Marketing
       apps:
+        - to: https://dotdigital.com/
+          logo: dotdigital.png
+          title: dotdigital
+          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
+          additional_info: Integration in progress.
         - to: https://www.como.com
           logo: como.png
           title: Como
@@ -161,11 +181,11 @@ content:
         - to: /apps/orderline/
           logo: orderline.png
           title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and aggregators. Orders can be managed and printed.    
+          description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
         - to: https://www.spleat.io
           logo: spleat.png
           title: Spleat
-          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones. 
+          description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones.
           additional_info: Integration in progress. Documentation in French.
         - to: https://tickncook.com
           logo: tickncook.png
