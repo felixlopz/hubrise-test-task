@@ -1,7 +1,36 @@
-const { misc: { copyTranslations }, ...apis } = require('./gatsby_apis/node')
+const { loadYaml } = require(`./src/utils/load-yaml`)
+const redirects = loadYaml(`./redirects.yaml`)
 
-module.exports = {
-  ...apis,
-  onPostBuild: copyTranslations,
-  onPostBootstrap: copyTranslations
+const docs = require(`./src/utils/node/docs.js`)
+const blog = require(`./src/utils/node/blog.js`)
+
+const sections = [
+  docs,
+  blog,
+]
+
+// Run the provided API on all defined sections of the site
+async function runApiForSections(api, helpers) {
+  await Promise.all(
+    sections.map(section => section[api] && section[api](helpers))
+  )
 }
+
+exports.onCreateNode = async helpers => {
+  await runApiForSections(`onCreateNode`, helpers)
+}
+
+exports.createPages = async helpers => {
+  await runApiForSections(`createPages`, helpers)
+
+  const { actions } = helpers
+  const { createRedirect } = actions
+
+  redirects.forEach(redirect => {
+    createRedirect({ isPermanent: true, ...redirect, force: true, redirectInBrowser: true })
+  })
+}
+
+const translations = require('./src/utils/translations')
+exports.onPostBuild = translations.copy
+exports.onPostBootstrap = translations.copy

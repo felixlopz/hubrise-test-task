@@ -9,7 +9,7 @@ import { Breadcrumbs } from '../components/documentation'
 import { ArticleFeedback } from '../components/blog/feedback'
 import { getLocalizedUrl } from '../components/utils/link'
 
-function Article({ data, pageContext }) {
+function BlogArticle({ data, pageContext }) {
   const article = convertArticleData(data.currentArticle)
 
   function handleQueryChange(newQuery) {
@@ -70,4 +70,4 @@ export const articlePageQuery = graphql`
   }
 `
 
-export default Article
+export default BlogArticle
