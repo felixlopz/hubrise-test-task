@@ -30,3 +30,7 @@ Ensure also that your Zelty connection is visible in HubRise through the followi
 1. Open the **Actions** dropdown and select **View logs** or **View activity** to see transactions between the Zelty and HubRise.
 
 ![Zelty Connection on HubRise](../images/004-en-2x-zelty-connection-on-hubrise.png)
+
+## Zelty Support
+
+Zelty support team can be contacted at [support@zelty.fr ](mailto:support@zelty.fr) for issues with the configuration of the EPOS.
