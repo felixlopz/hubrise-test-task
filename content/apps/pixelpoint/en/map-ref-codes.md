@@ -1,10 +1,10 @@
 ---
-title: Mapping EPOS codes
+title: Mapping Ref Codes
 position: 2
 layout: documentation
 meta:
-  title: Mapping the EPOS codes on the HubRise PixelPoint
-  description: Informs users on how to Map EPOS codes.
+  title: Mapping the PAR Pixel EPOS Ref Codes on HubRise
+  description: Informs users on how to find EPOS ref codes on the PAR PixelPoint EPOS to map them on other apps in the context of an integration with HubRise.
 ---
 
 ---

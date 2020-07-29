@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-position: 5
+position: 6
 layout: documentation
 meta:
   title: HubRise PixelPoint Bridge Troubleshooting Guide
@@ -60,7 +60,7 @@ If there are issues with the connection to the store, the following error appear
 
 ```
 
-## HubRise Requests vs PixelPoint Requests
+## HubRise vs PixelPoint Requests
 
 Possible issues can be due to a mismatch of configuration between the PAR PixelPoint EPOS and HubRise. To verify this, you need to compare the requests on HubRise with those on PixelPoint Bridge. The information about an order that appears in the PixelPoint Bridge logs is also visible in the HubRise back office, under **DATA** > **ORDERS**.
 

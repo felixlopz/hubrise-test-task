@@ -1,47 +1,15 @@
 ---
-title: Getting Started
-position: 2
+title: User Interface Walkthrough
+position: 3
 layout: documentation
 meta:
-  title: Getting Started Guide for the HubRise PixelPoint Bridge
-  description: Informs users on how to connect and read logs.
+  title: User Interface Guide for the HubRise PixelPoint Bridge
+  description: Informs users on how navigate through the PixelPoint Bridge created by HubRise to connect the PAR PixelPoint EPOS solution to HubRise.
 ---
-
-## Setup
-
-PixelPoint Bridge connects a PAR PixelPoint EPOS to a HubRise location. Therefore, you must set up a connection for each of the locations you want to connect to PixelPoint.
-
-To connect PixelPoint to a specific location:
-
-1. Open you HubRise back office, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/007-arrow.jpg)</InlineImage> next to **Location** to select the location you want to connect. For help, check the HubRise User Guide > [Accounts](/docs/account) and [Locations](/docs/locations).
-
-1. Select **CONNECTIONS** > **View available apps**.
-
-1. Scroll down and select PixelPoint Bridge from the list of apps.
-
-1. Click **Connect**.
-
-1. Allow PixelPoint permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and **click** on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
-
-1. You will be redirected to the PixelPoint Bridge user interface. The first time you connect, the **Configuration** page will appear:
-
-   - In the **API token** field, enter your unique API token to be provided by the PAR PixelPoint support team.
-   - Leave **Debug mode** unselected.
-   - Click **Save**.
-
-1. You have now connected PixelPoint to your HubRise location.
-
----
-
-**IMPORTANT NOTE:** The API token you provide during the setup process is only stored in the PixelPoint back office and used for all the API calls to the EPOS. The system does not check the validity of the API token. For information on error handling, see the Troubleshooting section.
-
----
-
-## User Interface
 
 The user interface for the PixelPoint Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
 
-### Main page
+## Main page
 
 The main page of PixelPoint Bridge displays the latest received orders. Each row shows:
 
@@ -61,7 +29,7 @@ On the top right corner of the PixelPoint Bridge main page, the HubRise user and
 
 ![Main page](../images/004-en-main-page.png)
 
-### Order page
+## Order page
 
 Selecting an order from the list will display all the logs of the API requests exchanged between HubRise and the PixelPoint EPOS via the PixelPoint Bridge.
 
