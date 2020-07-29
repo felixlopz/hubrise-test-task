@@ -14,17 +14,11 @@ const LOCALE_CODE_LIST = Object.values(locales).map((locale) => locale.code)
 
 /**
  * Checks whether a given path is a directory.
- *
- * @param   {string} path
- * @returns {Boolean}
  */
 const isDirectory = (path) => fs.lstatSync(path).isDirectory()
 
 /**
- * Retrives subdirectories in a given path.
- *
- * @param   {string} srcPath
- * @returns {Array<string>} List of paths to subdirectories.
+ * Retrieves subdirectories in a given path.
  */
 const getDirectories = (srcPath) => {
   return fs
@@ -35,9 +29,6 @@ const getDirectories = (srcPath) => {
 
 /**
  * Retrieves all subdirectories in a given path, including nested ones.
- *
- * @param   {string} path
- * @returns {Array<string>} List of paths to all subdirectories.
  */
 const getDirectoriesRecursive = (path) => {
   return [path, ...flatten(getDirectories(path).map(getDirectoriesRecursive))]
@@ -45,24 +36,15 @@ const getDirectoriesRecursive = (path) => {
 
 /**
  * Retrieves default locale object.
- *
- * @returns {Locale | undefined}
  */
 function getDefaultLocale() {
   return Object.values(locales).find((locale) => locale.default)
 }
 
-/**
- * @returns {Array<Locale>} localeList
- */
 function getLocaleList() {
   return Object.values(locales)
 }
 
-/**
- * @param {string} folderPath
- * @returns {Promise<object>}
- */
 function getCustomizationFromFolder(folderPath) {
   const filePath = path.join(folderPath, CUSTOMIZATION_FILE_NAME)
   return fsReadFile(filePath, { encoding: 'utf-8' })
@@ -78,16 +60,6 @@ function getCustomizationFromFolder(folderPath) {
     })
 }
 
-/**
- * @typedef {Object} LocaleEntry
- * @property {object} customization
- * @property {string[]} contentFiles
- */
-
-/**
- * @param {string} folderPath
- * @returns {Promise<LocaleEntry>}
- */
 async function parseLocaleFolder(folderPath) {
   const customization = await getCustomizationFromFolder(folderPath)
   const files = await fsReaddir(folderPath, { withFileTypes: true })
@@ -101,29 +73,6 @@ async function parseLocaleFolder(folderPath) {
   }
 }
 
-/**
- * @typedef {Object} Locale
- * @property {string} code
- * @property {string} tag
- * @property {boolean} [default]
- */
-
-/**
- * @typedef {Object} FolderNode
- * @property {string} name
- * @property {string} path
- * @property {object} localeMap
- * @property {null | FolderNode} parent
- * @property {FolderNode[]} children
- */
-
-/**
- * @param {object} params
- * @param {string} params.pathToFolder
- * @param {string} params.folderName
- * @param {null | FolderNode} params.parentNode
- * @returns {Promise<FolderNode>} parsedContent
- */
 async function parseFolderRecursively({
   pathToFolder,
   folderName,
@@ -165,20 +114,9 @@ async function parseFolderRecursively({
   return currentNode
 }
 
-/**
- *
- * @param {FolderNode} parsedContent
- * @param {object} locales
- *
- * @returns {object[]} mdxDirectories
- */
 function getFoldersWithMdxFiles(parsedContent, locales) {
   const mdxDirectories = []
 
-  /**
-   * @param {FolderNode} folderNode
-   * @param {Locale} locale
-   */
   function getMdxDirectoryFromNode(folderNode, locale) {
     const localeEntry = folderNode.localeMap[locale.code]
 
@@ -199,11 +137,6 @@ function getFoldersWithMdxFiles(parsedContent, locales) {
   return mdxDirectories
 }
 
-/**
- * @param {FolderNode} folderNode
- * @param {Locale} locale
- * @returns {array} breadcrumbs
- */
 function getFolderNodeBreadcrumbs(folderNode, locale) {
   const breadcrumbs = []
 
@@ -227,11 +160,6 @@ function getFolderNodeBreadcrumbs(folderNode, locale) {
   return breadcrumbs
 }
 
-/**
- * @param {FolderNode} rootNode
- * @param {string} fileAbsolutePath
- * @returns {FolderNode | null}
- */
 function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
   function normalizePath(filePath) {
     return filePath.split(path.sep).join(path.posix.sep)

@@ -1,18 +1,15 @@
 const path = require('path')
-const util = require('util')
 
 const locales = require('../../src/i18n/locales')
 const {
   parseFolderRecursively,
   getFoldersWithMdxFiles,
   getDefaultLocale,
-  findFolderNodeByFilePath,
   getFolderNodeBreadcrumbs,
   getLocaleList
 } = require('./utils')
 
 const pathToLayouts = path.join(process.cwd(), `src/layouts`)
-const pathToContent = path.join(process.cwd(), 'src', 'content')
 
 const DEFAULT_LOCALE = getDefaultLocale()
 
@@ -63,13 +60,6 @@ const getMdxContent = async (pathToDirectory, graphql) => {
   return data
 }
 
-/**
- * @param {object} node
- * @param {FolderNode} folderNode
- * @param {Locale} locale
- * @param {object} actions
- * @returns {void}
- */
 function createPageFromMdxNode({ node, folderNode, locale, actions }) {
   const { id, fileAbsolutePath, frontmatter, fields } = node
   const { layout, meta } = frontmatter

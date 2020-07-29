@@ -9,11 +9,6 @@ const {
 } = require('./utils')
 const locales = require('../../src/i18n/locales')
 
-/**
- * @param {object} mdxNode
- * @param {FolderNode} currentFolderNode
- * @returns {object}
- */
 function getLocaleSlugMap(mdxNode, currentFolderNode) {
   const { fileAbsolutePath, frontmatter } = mdxNode
 
@@ -75,7 +70,6 @@ function getNodeCreationHook() {
 
       const localeSlugMap = getLocaleSlugMap(node, currentFolderNode)
 
-      // console.log('slug', slug)
       createNodeField({
         node,
         name: `slug`,
@@ -88,7 +82,6 @@ function getNodeCreationHook() {
         value: localeSlugMap
       })
 
-      // console.log('contentLang', getContentLangFromPath(fileAbsolutePath))
       createNodeField({
         node,
         name: `contentLang`,
