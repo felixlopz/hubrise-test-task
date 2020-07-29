@@ -1,13 +1,13 @@
 ---
-title: Getting Started
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Getting Started on Connecting Zelty with HubRise
-  description: See step by step instructions on how to connect the Zelty EPOS with HubRise.
+  title: Connecting the Zelty EPOS with HubRise
+  description: Informs users how to connect the Zelty EPOS to HubRise. Once this connection is actived, your Zelty EPOS solution will pull information from HubRise and push information into it.
 ---
 
-The connection between Zelty and HubRise can be done autonomously by the customer.
+The connection between Zelty and HubRise can be done autonomously by the user.
 
 ## Connect to Locations
 
@@ -31,7 +31,7 @@ In order to activate the connection between Zelty and HubRise:
 
 In order to disable the connection between Zelty and HubRise:
 
-- One the Zelty backoffice, go to **Marketplace**.
-- Select HubRise.
-- Go to the **Gérer** (Manage) tab and click **Désactiver** (Disable).
-- Confirm when prompted.
+1. On the Zelty backoffice, go to **Marketplace**.
+1. Select HubRise.
+1. Go to the **Gérer** (Manage) tab and click **Désactiver** (Disable).
+1. Confirm when prompted.

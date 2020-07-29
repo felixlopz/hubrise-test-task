@@ -18,7 +18,7 @@ app_info:
 
 ## Description
 
-Zelty provides a complete EPOS solution designed for traditional restaurants with table service, fast food outlets, franchises and chains. It comes with an interface to manage activity in real time, wherever you are. It adapts to customers businesses thanks to its various modules, seating plan, kitchen display screen, customer management, delivery management, online reservations and online ordering and much more.
+Zelty provides a complete EPOS solution designed for traditional restaurants with table service, fast food outlets, franchises and chains. It comes with an interface to manage activity in real time, wherever you are. It adapts to businesses thanks to its various modules, seating plan, kitchen display screen, customer management, delivery management, online reservations and online ordering and much more.
 
 It is an open solution that integrates with customers existing tools either directly or via HubRise.
 
