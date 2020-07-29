@@ -68,16 +68,8 @@ PixelPoint requests are in [XML format](/apps/pixelpoint-bridge/understanding-lo
 
 Besides, they also use different keys to refer to the same value. The following table summarises how to map the API keys from HubRise to PixelPoint. When investigating a problem with support teams, you might want to use their respective API key to avoid confusion.
 
-Table. Mapping keys from HubRise to PixelPoint.
-
-| Description         | HubRise Name     | PixelPoint Name |
-| :------------------ | :--------------- | :-------------- |
-| Product code        | sku_ref          | ProdNum         |
-| Option code         | options>ref      | ProdNum         |
-| Deal code           | deals>ref        | ComboItemId     |
-| Service type code   | service_type_ref | SaleTypeNum     |
-| Payment method code | payment>type     | MethodNumber    |
+A table has been created to help map keys from HubRise to PixelPoint. For more information, see [HubRise vs PixelPoint Terms](/apps/pixelpoint/hubrise-pixelpoint-terms).
 
 ## PAR PixelPoint Support
 
-PAR PixelPoint support team can be contacted at [partnersupport@partech.com](mailto:partnersupport@partech.com) for issues with the configuration of the POS.
+PAR PixelPoint support team can be contacted at [partnersupport@partech.com](mailto:partnersupport@partech.com) for issues with the configuration of the EPOS.
