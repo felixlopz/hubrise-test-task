@@ -11,24 +11,36 @@ From time to time it may be necessary to troubleshoot certain issues with the co
 
 ## Verify the Connection to HubRise
 
-The first step when connection issues between Zelty and HubRise arise is to verify the connection .Verify your connection between Zelty and HubRise through the following steps:
+The first step when connection issues between Zelty and HubRise arise is to verify the connection.
 
-1. **Log in** to your Zelty Account
-2. Navigate to **Marketplace**
-3. **Click** on HubRise
-4. Verify that the connection has been enabled.
+Check your connection between Zelty and HubRise through the following steps:
 
-If the connection is not enabled, you can follow these [steps](/apps/zelty/getting-started.md).
+1. Log in to your Zelty Account.
+1. Navigate to **Marketplace**.
+1. Click on HubRise.
+1. Verify that the connection has been enabled.
 
-## HubRise Definitions vs Aquila Definitions
+If the connection is not enabled, follow steps in [Connect to Locations](/getting-started/#connect-to-locations).
+
+Ensure also that your Zelty connection is visible in HubRise through the following steps:
+
+1. Log in to your HubRise Account.
+1. Navigate to **CONNECTIONS**.
+1. Verify that the connection to Zelty has been enabled for your location.
+1. Open the **Actions** dropdown and select **View logs** or **View activity** to see transactions between the Zelty and HubRise.
+
+![Zelty Connection on HubRise](../images/004-en-2x-zelty-connection-on-hubrise.png)
+
+## HubRise Definitions vs Zelty Definitions
 
 Both HubRise and Zelty have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
 
-| Description                    | HubRise Name      | Zelty (fr)   |
-| ------------------------------ | ----------------- | ------------- |
-| An account with Zelty          | Account           | Enseigne        |
-| The actual restaurant          | Location          | Restaurant      |
-| A deal or discount offered     | Deal              | Menu            |
-| List of options                | Option List       | Option          |
-| An option from the option list | Option            | Valeur possible |
-|                                | Tag               | Tag             |
+| Description                            | HubRise Name | Zelty (fr)      |
+| -------------------------------------- | ------------ | --------------- |
+| An account with Zelty                  | Account      | Enseigne        |
+| The actual restaurant                  | Location     | Restaurant      |
+| A deal or discount offered             | Deal         | Menu            |
+| List of options                        | Option List  | Option          |
+| An option from the option list         | Option       | Valeur possible |
+| Product family or type (starter, main, | Category     | Tag             |
+| Subset of the entire menu              | N/A          | Les Catalogues  |

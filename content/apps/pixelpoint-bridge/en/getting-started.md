@@ -13,7 +13,7 @@ PixelPoint Bridge connects a PAR PixelPoint EPOS to a HubRise location. Therefor
 
 To connect PixelPoint to a specific location:
 
-1. Open you HubRise back office, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/007-arrow.jpg)</InlineImage> next to **Location** to select the location you want to connect. For help, check the HubRise User Guide > [Accounts](/docs/account) and [Locations](/docs/locations).
+1. Open your HubRise back office, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/007-arrow.jpg)</InlineImage> next to **Location** to select the location you want to connect. For help, check the HubRise User Guide > [Accounts](/docs/account) and [Locations](/docs/locations).
 
 1. Select **CONNECTIONS** > **View available apps**.
 
@@ -21,7 +21,7 @@ To connect PixelPoint to a specific location:
 
 1. Click **Connect**.
 
-1. Allow PixelPoint permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and **click** on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
+1. Allow PixelPoint permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
 
 1. You will be redirected to the PixelPoint Bridge user interface. The first time you connect, the **Configuration** page will appear:
 

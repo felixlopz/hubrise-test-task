@@ -1,5 +1,5 @@
 ---
-title: Mapping EPOS codes
+title: Mapping EPOS Codes
 position: 2
 layout: documentation
 meta:
@@ -44,7 +44,7 @@ Combos are particular combinations of products and/or options that are sold as a
 
 ## Setting Service Types
 
-Each service type you provide (delivery, collection, eat-in) must be associated with the correct PixelPoint EPOS code. The exact values of these codes depend on the particular setup of the restaurant, but they are typically numbers in the `1000`-`1010` range.
+Each service type you provide (delivery, collection, eat-in) must be associated with the correct PixelPoint EPOS code on other apps connected to HuBRise. The exact values of these codes depend on the particular setup of the restaurant, but they are typically numbers in the `1000`-`1010` range.
 
 ## Setting Payment Methods
 
