@@ -9,7 +9,7 @@ import { convertArticleData, getArchiveTitle } from '../components/utils/blog'
 import { Breadcrumbs } from '../components/documentation'
 import { getLocalizedUrl } from '../components/utils/link'
 
-function Blog({ data, pageContext }) {
+function BlogList({ data, pageContext }) {
   const { t } = useTranslation()
   const { archive } = pageContext
   let postList = data.allMdx.edges
@@ -122,4 +122,4 @@ export const blogPageQuery = graphql`
   }
 `
 
-export default Blog
+export default BlogList

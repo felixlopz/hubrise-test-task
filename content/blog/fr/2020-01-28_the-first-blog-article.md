@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: blog-article
 meta:
   title: Article
   description:
