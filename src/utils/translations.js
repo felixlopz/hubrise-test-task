@@ -3,7 +3,7 @@ const path = require('path')
 const yaml = require('js-yaml')
 const rimraf = require('rimraf')
 
-const copyTranslations = () => {
+exports.copy = () => {
   try {
     const source = path.resolve(process.cwd(), `src/i18n/resources`)
     const target = path.resolve(process.cwd(), `public/locales`)
@@ -36,5 +36,3 @@ const copyTranslations = () => {
     console.error(e)
   }
 }
-
-module.exports = { copyTranslations }

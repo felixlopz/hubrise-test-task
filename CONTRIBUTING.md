@@ -34,7 +34,7 @@ ffmpeg -i source.mov -r 15 -f gif - | gifsicle  > target.gif
 
 ## Using with Google Docs
 
-In the director `google-doc-scripts` is the JavaScript file `doc-to-markdown.js`. This script will run and email the MarkDown file to the registered email account of the user running it.
+In the directory `google-doc-scripts` is the JavaScript file `doc-to-markdown.js`. This script will run and email the MarkDown file to the registered email account of the user running it.
 
 ## Working with Google Docs
 
