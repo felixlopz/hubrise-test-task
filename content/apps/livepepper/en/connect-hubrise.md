@@ -1,5 +1,5 @@
 ---
-title: Connection to HubRise
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
@@ -9,7 +9,7 @@ meta:
 
 The instructions below detail how to connect a LivePepper site to a new HubRise account as this is the most common scenario.
 
-For instructions on how to connect a multisite, or on how to connect a site to an existing HubRise Account, see the [FAQ](/apps/livepepper/faqs/).
+For instructions on how to connect a multisite, or on how to connect a site to an existing HubRise account, see the [FAQ](/apps/livepepper/faqs/).
 
 ---
 

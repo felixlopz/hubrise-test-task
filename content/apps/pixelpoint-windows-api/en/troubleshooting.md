@@ -66,13 +66,13 @@ If there are issues with the connection to the store, the following error appear
 
 ## HubRise vs PixelPoint Requests
 
-Possible issues can be due to a mismatch of configuration between the PAR PixelPoint EPOS and HubRise. To verify this, you need to compare the requests on HubRise with those on PixelPoint Bridge. The information about an order that appears in the PixelPoint Bridge logs is also visible in the HubRise back office, under **DATA** > **ORDERS**.
+Possible issues can be due to a mismatch of configuration between the PAR PixelPoint POS and HubRise. To verify this, you need to compare the requests on HubRise with those on PixelPoint Bridge. The information about an order that appears in the PixelPoint Bridge logs is also visible in the HubRise back office, under **DATA** > **ORDERS**.
 
 PixelPoint requests are in [XML format](/apps/pixelpoint-windows-api/understanding-logs/#an-xml-primer), while the HubRise API uses JSON. One of the duties of the Bridge app is to translate one format into the other.
 
 Besides, they also use different keys to refer to the same value. The following table summarises how to map the API keys from HubRise to PixelPoint. When investigating a problem with support teams, you might want to use their respective API key to avoid confusion.
 
-A table has been created to help map keys from HubRise to PixelPoint. For more information, see [HubRise vs PixelPoint Terms](/apps/pixelpoint-api/hubrise-pixelpoint-terms).
+A table has been created to help map keys from HubRise to PixelPoint. For more information, see [HubRise vs PixelPoint Terms](/apps/pixelpoint/hubrise-pixelpoint-terms/).
 
 ## PAR PixelPoint Support
 

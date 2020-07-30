@@ -9,7 +9,7 @@ meta:
 
 ---
 
-**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API documentation](/apps/pixelpoint-windows-api).
+**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
 
 ---
 
