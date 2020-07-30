@@ -110,7 +110,7 @@ content:
           logo: obypay.png
           title: Obypay
           description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
-          additional_info: Documentation in French. Integration in progress.
+          additional_info: Documentation in French.
         - to: https://www.restajet.com/
           logo: restajet.png
           title: RestaJet

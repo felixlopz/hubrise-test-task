@@ -113,7 +113,6 @@ content:
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
-          additional_info: Intégration en cours.
         - to: https://www.restajet.com/
           logo: restajet.png
           title: RestaJet

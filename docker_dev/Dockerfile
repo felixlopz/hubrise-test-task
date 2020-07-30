@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:experimental
-FROM node:10.16.0-buster
+FROM node:12.18.3-stretch
 
 # -------------
 # Install packages
@@ -48,5 +48,6 @@ EXPOSE 8000
 
 ENTRYPOINT ["docker_dev/bin/entrypoint.sh"]
 
-# Launch Hexo server (local development)
+# Launch Gatsby server (local development)
+USER node
 CMD ["./node_modules/.bin/gatsby", "develop", "-H", "0.0.0.0", "-p", "8000"]
