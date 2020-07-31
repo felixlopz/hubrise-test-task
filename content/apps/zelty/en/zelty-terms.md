@@ -1,5 +1,5 @@
 ---
-title: HubRise vs Zelty Terms
+title: Zelty Terms
 position: 6
 layout: documentation
 meta:
