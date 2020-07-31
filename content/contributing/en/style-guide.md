@@ -218,7 +218,9 @@ Adjectives shall be used with thrift. Keep in mind that the tone is neither comm
 
 ## Bold
 
-When you need to **emphasise** a word, expression, or sentence, use bold.
+Bold is also used for UI references. For example: Select **CONNECTIONS** from the HubRise menu. For more information on UI menu representation, see [Menus](#menus).
+
+When you need to **emphasise** a important word, expression, or sentence, you can also use bold without over doing it.
 
 Bold is used for important notices and cross-references to frequently asked questions. For more information on notices representation, see [Notices](#notices).
 
@@ -229,8 +231,6 @@ For example:
 **IMPORTANT NOTE:** Verify your application supports sending emails before using this feature.
 
 ---
-
-Bold is also used for UI references. For example: Select **CONNECTIONS** from the HubRise menu. For more information on UI menu representation, see [Menus](#menus).
 
 ## Contractions
 
