@@ -14,10 +14,10 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
         <ul className="apps">
           {apps.map(
             (
-              { to, logo, title, description, additional_info: additionalInfo },
+              { to, logo: logoPath, title, description, additional_info: additionalInfo },
               idx,
             ) => {
-              logo = logos.find(({base}) => base === logo)
+              const logo = logos.find(({base}) => base === logoPath)
               if (!logo) throw new Error(`${title} does not have a logo`)
 
               return (

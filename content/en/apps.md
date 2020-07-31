@@ -146,11 +146,6 @@ content:
           additional_info: Integration in progress.
     - title: Loyalty and Marketing
       apps:
-        - to: https://dotdigital.com/
-          logo: dotdigital.png
-          title: dotdigital
-          description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
-          additional_info: Integration in progress.
         - to: https://www.como.com
           logo: como.png
           title: Como
