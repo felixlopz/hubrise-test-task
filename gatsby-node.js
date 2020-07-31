@@ -1,33 +1,37 @@
+require('./src/utils/gatsby_inspector')
+
 const { loadYaml } = require(`./src/utils/load-yaml`)
 const redirects = loadYaml(`./redirects.yaml`)
 
 const docs = require(`./src/utils/node/docs.js`)
 const blog = require(`./src/utils/node/blog.js`)
 
-const sections = [
-  docs,
-  blog,
-]
+const sections = [docs, blog]
 
 // Run the provided API on all defined sections of the site
 async function runApiForSections(api, helpers) {
   await Promise.all(
-    sections.map(section => section[api] && section[api](helpers))
+    sections.map((section) => section[api] && section[api](helpers))
   )
 }
 
-exports.onCreateNode = async helpers => {
+exports.onCreateNode = async (helpers) => {
   await runApiForSections(`onCreateNode`, helpers)
 }
 
-exports.createPages = async helpers => {
+exports.createPages = async (helpers) => {
   await runApiForSections(`createPages`, helpers)
 
   const { actions } = helpers
   const { createRedirect } = actions
 
-  redirects.forEach(redirect => {
-    createRedirect({ isPermanent: true, ...redirect, force: true, redirectInBrowser: true })
+  redirects.forEach((redirect) => {
+    createRedirect({
+      isPermanent: true,
+      ...redirect,
+      force: true,
+      redirectInBrowser: true
+    })
   })
 }
 
