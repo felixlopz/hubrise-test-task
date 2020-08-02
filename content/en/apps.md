@@ -24,7 +24,7 @@ content:
           logo: iiko.png
           title: iiko
           description: iiko is 100% cloud, easy to deploy and scale for single and multi-store businesses. Over 30,000 businesses use iiko to automate every aspect of their operations.
-        - to: https://www.ikentoo.com
+        - to: /apps/ikentoo/
           logo: ikentoo-lightspeed.png
           title: iKentoo by LightSpeed
           description: iKentoo is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
