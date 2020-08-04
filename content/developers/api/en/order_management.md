@@ -334,7 +334,7 @@ The following fields are available in the `customer` object:
 - `longitude`
 - `delivery_notes`
 
-When you retrieve a guest order, the customer fields passed at creation time are returned. A few other fields computed by HubRise are also included.
+When you retrieve a guest order, the customer fields passed at creation time are returned in the `customer` object, along with a few fields computed by HubRise.
 
 ## 3. Order Status
 
