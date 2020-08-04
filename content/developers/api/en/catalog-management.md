@@ -330,15 +330,15 @@ A product belongs to a category. A product has one or several skus.
 
 #### Parameters:
 
-| Name                                     | Type                          | Description                                                                                                     |
-| ---------------------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| `ref` <Label type="optional" />          | string                        | The ref of the product.                                                                                         |
-| `category_ref`                           | string                        | The ref of the parent category.                                                                                 |
-| `name`                                   | string                        | The name of the product.                                                                                        |
-| `description` <Label type="optional" />  | string                        | The description of the product.                                                                                 |
-| `tags` <Label type="optional" />         | string[]                      | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
-| `image_ids` <Label type="optional" />    | string[]                      | List of image ids attached to the product                                                                       |
-| `skus`                                   | [Sku](#skus)[]                | List of skus of this product. A product must contain at least one sku.                                          |
+| Name                                    | Type           | Description                                                                                                     |
+| --------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------- |
+| `ref` <Label type="optional" />         | string         | The ref of the product.                                                                                         |
+| `category_ref`                          | string         | The ref of the parent category.                                                                                 |
+| `name`                                  | string         | The name of the product.                                                                                        |
+| `description` <Label type="optional" /> | string         | The description of the product.                                                                                 |
+| `tags` <Label type="optional" />        | string[]       | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
+| `image_ids` <Label type="optional" />   | string[]       | List of image ids attached to the product                                                                       |
+| `skus`                                  | [Sku](#skus)[] | List of skus of this product. A product must contain at least one sku.                                          |
 
 #### Example:
 

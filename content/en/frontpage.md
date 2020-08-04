@@ -29,5 +29,5 @@ content:
       - Emailing Solution
       - Loyalty Solution
       - And More
-    diagram: diagram_en.png
+    diagram: diagram-en.png
 ---
