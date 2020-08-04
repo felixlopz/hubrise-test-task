@@ -43,8 +43,11 @@ Almost all fields are optional. In fact the simplest order that can be created o
 | `payments` <Label type="optional" />                                  | [OrderPayment](#order-payments)[]                          | The payment method(s) used.                                                                                                                                                                                                                               |
 | `discounts` <Label type="optional" />                                 | [OrderDiscount](#order-discounts)[]                        | The discounts applied.                                                                                                                                                                                                                                    |
 | `deals` <Label type="optional" />                                     | [OrderDeal](#order-deals)[]                                | The deals used in this order.                                                                                                                                                                                                                             |
-| `customer_id` <Label type="optional" />                               | string                                                     | The id of the customer who placed the order. See matching rules in [Order's Customer](#order-s-customer).                                                                                                                                                 |
-| `customer_list_id` / `customer_private_ref` <Label type="optional" /> | string                                                     | If `customer_id` is not provided, a combination of `customer_list_id` and `customer_private_ref` can be used to identify the customer. See matching rules in [Order's Customer](#order-s-customer).                                                       |
+| `customer_id` <Label type="optional" />                               | string                                                     | The id of the customer who placed the order. Cannot be used together with `customer_list_id`, `customer_private_ref`, or `customer`. (\*)                                                                                                                 |
+| `customer_list_id` & `customer_private_ref` <Label type="optional" /> | string                                                     | The private ref and customer list of the customer who placed the order. Cannot be used together with `customer_id` or `customer`. (\*)                                                                                                                    |
+| `customer` <Label type="optional" />                                  | [Customer](#order-s-customer)                              | When neither of `customer_id`, `customer_list_id`, or `customer_private_ref` are passed, the order is a **guest order**. This object can be used to pass the customer details specific to this order. (\*)                                                |
+
+(\*) More information about these fields in the [Order's Customer](#order-s-customer) section.
 
 #### Example request:
 
@@ -261,28 +264,77 @@ Updates an order. The following fields can be updated:
 
 ## 2. Order's Customer
 
-A customer can optionally be attached to an order. There are 3 possible cases:
+When you create an order, you can attach a customer to it. You would usually do this, unless no customer identifier is available. An order with no attached customer is called a **guest order**.
 
-- `customer_id` is passed: if a customer with this id exists, the customer is attached to the order. An error is returned otherwise.
-- `customer_list_id` and `customer_private_ref` are passed: if a customer has this private_ref in the customer list, it is attached to the order. Otherwise an error is returned.
-- Otherwise the order is not attached to a customer.
+If your customers are uniquely identified, we recommend attaching customers to your orders. Not only does this allow the tracking of orders placed by a single customer, it is also a requirement for some POS systems to successfully process orders.
 
-When a customer is attached to an order, all customer fields are copied in the order. If the order is later retrieved using a GET operation, the values of customer fields _at the time of the order creation_ are returned in the `customer` object.
+Guest orders can however be useful in a limited number of cases, such as:
 
-The customer fields can be overwritten by passing an optional `customer` object when creating the order. The passed fields only affect the order, not the customer. Consider the following `POST /location/orders` request:
+- Orders placed on a self ordering kiosk, where no customer identification is usually available.
+- Orders placed on an online platform not willing to share unique identifiers for their customers.
+
+### Order with an attached customer
+
+There are two ways to create an order with an attached customer:
+
+- By passing `customer_id` in the order creation request as in the example below. If a customer with this id exists, it is attached to the order, otherwise an error is returned.
 
 ```json
 {
   "status": "new",
   "customer_id": "ve343",
+  "items": [...]
+}
+```
+
+- By passing `customer_list_id` and `customer_private_ref` simultaneously. If a customer with this private ref exists in this customer list, it is attached to the order, otherwise an error is returned.
+
+```json
+{
+  "status": "new",
+  "customer_list_id": "ag8u4",
+  "customer_private_ref": "charles@dummy-mail.org",
+  "items": [...]
+}
+```
+
+When you retrieve an order using a GET request, you will find the customer fields encoded in a `customer` object . The presence of an `id` field with a non null value in this object indicates that the order is attached to this customer. Conversely, a null value indicates a guest order.
+
+Note that the customer values _at the time of the order creation_ are returned in the `customer` object when you retrieve the order. The only exception is the `custom_fields` customer field, whose value _at the time of the order retrieval_ is returned.
+
+### Order with no attached customer (guest order)
+
+To create a guest order, simply omit the `customer_id`, `customer_list_id`, and `customer_private_ref` fields in the order creation request. Doing so "unlocks" a `customer` object, which you can optionally use to pass customer data relative to this order, as in the following `POST /location/orders` request:
+
+```json
+{
+  "status": "new",
   "customer": {
-    "phone": "+44123456789"
+    "first_name": "John",
+    "last_name": "Doe"
   },
   "items": [...]
 }
 ```
 
-In this example, the order is created with customer fields copied from the customer `ve343`, and the phone is overwritten with the passed value. The request leaves the original customer phone unchanged.
+The following fields are available in the `customer` object:
+
+- `email`
+- `first_name`
+- `last_name`
+- `company_name`
+- `phone`
+- `address_1`
+- `address_2`
+- `postal_code`
+- `city`
+- `state`
+- `country`
+- `latitude`
+- `longitude`
+- `delivery_notes`
+
+When you retrieve a guest order, the customer fields passed at creation time are returned. A few other fields computed by HubRise are also included.
 
 ## 3. Order Status
 

@@ -24,5 +24,3 @@ You can find the codes from the iKentoo back-office. You can also view an export
 
   - iKentoo back-office: open the "Items" page. For every product/sku copy the code from the "Code" column: ![](../images/integration_sku_codes.png)
   - Menu export: use the `item_sku` fields of the export
-
--
