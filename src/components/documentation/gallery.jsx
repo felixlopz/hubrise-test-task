@@ -5,10 +5,10 @@ import {
   faArrowLeft,
   faArrowRight
 } from '@fortawesome/free-solid-svg-icons'
-import Img from 'gatsby-image'
+import GatsbyImage from 'gatsby-image'
 import Slider from 'react-slick'
 
-import { NonStretchedImage } from '../../components/image'
+import { NonStretchedImage } from '../../components/non_stretched_image'
 
 import { generateKey } from '../../components/utils'
 
@@ -139,7 +139,7 @@ export const Gallery = ({ images, title }) => {
               key={generateKey(name, idx)}
               onClick={(e) => e.stopPropagation()}
             >
-              <Img
+              <GatsbyImage
                 className="image-slider__slide"
                 alt={name}
                 {...childImageSharp}
