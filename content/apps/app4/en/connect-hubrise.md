@@ -7,11 +7,11 @@ meta:
   description: Instructions on connecting App4 with HubRise.
 ---
 
-The instructions below detail how to connect an App4 site to a new HubRise Account.  For instructions on how to connect multiple restaurants or on how to connect a site to an existing HubRise Account, see the [FAQ](#).
+The instructions below detail how to connect an App4 site to a new HubRise Account.  For instructions on how to connect multiple restaurants or on how to connect a site to an existing HubRise Account, see the [FAQ](/apps/app4/faqs).
 
 ---
 
-**IMPORTANT NOTE**: Note that both App4 and HubRise have their own vocabulary, and may refer to the same things by different names.  For example, the branch in App4 is a Location in HubRise.  For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs App4 Definitions](#).
+**IMPORTANT NOTE**: Note that both App4 and HubRise have their own vocabulary, and may refer to the same things by different names.  For example, the branch in App4 is a Location in HubRise.  For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs App4 Definitions](/apps/app4/app4-terms).
 
 ---
 
@@ -19,7 +19,7 @@ To connect App4 to a new HubRise Account:
 
 1. Login to your App4 back office.
 1. Click **HubRise Settings**.
-1. Slect the retaurant to connect and click **Enable**.
+1. Select the restaurant to connect and click **Enable**.
 1. Click **Link to HubRise Account**.
 1. When the HubRise login page is presented, click **No Account Yet?**
 1. Enter the following:
