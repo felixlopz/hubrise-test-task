@@ -28,11 +28,11 @@ content:
       - Envoi d'emails
       - Applications mobiles
       - Et plus encore
-    diagram: diagram_fr.png
+    diagram: diagram-fr.png
   demonstration:
     title: Démonstration
     unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
-    video: coming_soon.mp4
+    video: coming-soon.mp4
   faq:
     title: F.A.Q.
     bullets:
@@ -53,16 +53,16 @@ content:
         to: /developers
       hint_2: (développeurs)
     carousel:
-      - file: logo_carousel.jpg
+      - file: logo-carousel.jpg
         title: '(1) Orderlord: a mobile app to manage your delivery fleet'
         description: First slide details.
-      - file: logo_carousel.jpg
+      - file: logo-carousel.jpg
         title: '(2) Orderlord: a mobile app to manage your delivery fleet'
         description: Second slide details.
-      - file: logo_carousel.jpg
+      - file: logo-carousel.jpg
         title: '(3) Orderlord: a mobile app to manage your delivery fleet'
         description: Third slide details.
-      - file: logo_carousel.jpg
+      - file: logo-carousel.jpg
         title: '(4) Orderlord: a mobile app to manage your delivery fleet'
         description: Fourth slide details.
     screen_reader_pointer: Current slide

@@ -3,10 +3,9 @@ require('./src/utils/gatsby_inspector')
 const { loadYaml } = require(`./src/utils/load-yaml`)
 const redirects = loadYaml(`./redirects.yaml`)
 
-const docs = require(`./src/utils/node/docs.js`)
+const documentation = require(`./src/utils/node/documentation.js`)
 const blog = require(`./src/utils/node/blog.js`)
-
-const sections = [docs, blog]
+const sections = [documentation, blog]
 
 // Run the provided API on all defined sections of the site
 async function runApiForSections(api, helpers) {

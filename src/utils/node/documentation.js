@@ -6,8 +6,8 @@ const { flatten } = require('lodash')
 
 const locales = require('../../i18n/locales')
 const LOCALE_LIST = Object.values(locales)
-const DEFAULT_LOCALE = LOCALE_LIST.find(locale => locale.default)
-const LOCALE_CODE_LIST = LOCALE_LIST.map(locale => locale.code)
+const DEFAULT_LOCALE = LOCALE_LIST.find((locale) => locale.default)
+const LOCALE_CODE_LIST = LOCALE_LIST.map((locale) => locale.code)
 
 const { getLayout } = require(`../get-layout`)
 
@@ -33,7 +33,7 @@ function getLocaleSlugMap(mdxNode, currentFolderNode) {
 
     let fileName = path.basename(
       fileAbsolutePath,
-      path.extname(fileAbsolutePath),
+      path.extname(fileAbsolutePath)
     )
 
     if (config.path_override === 'blog') {
@@ -43,7 +43,7 @@ function getLocaleSlugMap(mdxNode, currentFolderNode) {
 
     let slug = [
       ...breadcrumbs.map((breadcrumb) => breadcrumb.value),
-      frontmatter.path_override ? frontmatter.path_override : fileName,
+      frontmatter.path_override ? frontmatter.path_override : fileName
     ]
       .filter((part) => part !== '/')
       .join('/')
@@ -92,17 +92,21 @@ async function parseLocaleFolder(folderPath) {
 
   return {
     customization,
-    contentFiles,
+    contentFiles
   }
 }
 
-async function parseFolderRecursively({ pathToFolder, folderName, parentNode = null }) {
+async function parseFolderRecursively({
+  pathToFolder,
+  folderName,
+  parentNode = null
+}) {
   const currentNode = {
     name: folderName,
     path: path.join(pathToFolder, folderName),
     localeMap: {},
     parent: parentNode,
-    children: [],
+    children: []
   }
 
   const files = await fsReaddir(currentNode.path, { withFileTypes: true })
@@ -121,7 +125,7 @@ async function parseFolderRecursively({ pathToFolder, folderName, parentNode = n
       const childNode = await parseFolderRecursively({
         pathToFolder: currentNode.path,
         folderName: file.name,
-        parentNode: currentNode,
+        parentNode: currentNode
       })
 
       currentNode.children.push(childNode)
@@ -145,12 +149,12 @@ function getFoldersWithMdxFiles(parsedContent, locales) {
     }
 
     folderNode.children.forEach((childNode) =>
-      getMdxDirectoryFromNode(childNode, locale),
+      getMdxDirectoryFromNode(childNode, locale)
     )
   }
 
   Object.values(locales).forEach((locale) =>
-    getMdxDirectoryFromNode(parsedContent, locale),
+    getMdxDirectoryFromNode(parsedContent, locale)
   )
 
   return mdxDirectories
@@ -163,13 +167,13 @@ function getFolderNodeBreadcrumbs(folderNode, locale) {
 
   while (currentNode !== null) {
     const { customization } =
-    currentNode.localeMap[locale.code] ||
-    currentNode.localeMap[DEFAULT_LOCALE.code]
+      currentNode.localeMap[locale.code] ||
+      currentNode.localeMap[DEFAULT_LOCALE.code]
 
     if (customization.path_override) {
       const breadcrumb = {
         value: customization.path_override,
-        label: customization.name,
+        label: customization.name
       }
       breadcrumbs.unshift(breadcrumb)
     }
@@ -248,7 +252,7 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
   ).customization
 
   const relativePath = normalizePath(
-    path.posix.sep + path.relative(process.cwd(), fileAbsolutePath),
+    path.posix.sep + path.relative(process.cwd(), fileAbsolutePath)
   )
 
   const slug =
@@ -262,26 +266,26 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
     context: {
       id,
       currentAndSiblingPagesFilter: {
-        fileAbsolutePath: { glob: normalizePath(`${currentDirectory}/*`) },
+        fileAbsolutePath: { glob: normalizePath(`${currentDirectory}/*`) }
       },
       imagesFilter: {
         absolutePath: { glob: normalizePath(`${pathToImages}/**/*`) },
+        extension: { regex: '/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/' }
       },
       breadcrumbs,
       meta,
       config,
       lang: locale.code,
-      relativePath,
-    },
+      relativePath
+    }
   })
 
   /** For every other locale, fallback to content in default locale, if available. */
   if (locale.default) {
     const fileName = path.basename(fileAbsolutePath)
 
-    LOCALE_LIST
-      .filter((locale) => !locale.default)
-      .forEach((nonDefaultLocale) => {
+    LOCALE_LIST.filter((locale) => !locale.default).forEach(
+      (nonDefaultLocale) => {
         const localeFolderEntry = folderNode.localeMap[nonDefaultLocale.code]
         const contentFiles = localeFolderEntry
           ? localeFolderEntry.contentFiles
@@ -293,68 +297,73 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
             node,
             folderNode,
             locale: nonDefaultLocale,
-            actions,
+            actions
           })
         }
-      })
+      }
+    )
   }
 }
 
 exports.createPages = async ({ graphql, actions }) => {
   const { data, errors } = await graphql(`
-      query {
-        allMdx {
-          nodes {
-            id
-            fileAbsolutePath
-            fields {
-              slug
-              localeSlugMap {
-                en
-                fr
-              }
+    query {
+      allMdx {
+        nodes {
+          id
+          fileAbsolutePath
+          fields {
+            slug
+            localeSlugMap {
+              en
+              fr
             }
-            frontmatter {
-              layout
-              gallery
-              path_override
-              meta {
-                description
-                title
-              }
+          }
+          frontmatter {
+            layout
+            gallery
+            path_override
+            meta {
+              description
+              title
             }
           }
         }
       }
-    `)
+    }
+  `)
 
   if (errors) throw errors
 
   const parsedContent = await parseFolderRecursively({
     pathToFolder: process.cwd(),
-    folderName: 'content',
+    folderName: 'content'
   })
 
   const foldersWithMdxFiles = getFoldersWithMdxFiles(parsedContent, locales)
 
-  await Promise.all(foldersWithMdxFiles.map(folder => {
-    const regex = new RegExp(`${normalizePath(folder.path)}/*`)
+  await Promise.all(
+    foldersWithMdxFiles.map((folder) => {
+      const regex = new RegExp(`${normalizePath(folder.path)}/*`)
 
-    data.allMdx.nodes.filter(node => node.fileAbsolutePath.match(regex)).forEach(node =>
-      createPageFromMdxNode({
-        node,
-        locale: folder.locale,
-        folderNode: folder.node,
-        actions,
-      }),
-    )
-  }))
+      data.allMdx.nodes
+        .filter((node) => node.fileAbsolutePath.match(regex))
+        .forEach((node) =>
+          createPageFromMdxNode({
+            node,
+            locale: folder.locale,
+            folderNode: folder.node,
+            actions
+          })
+        )
+    })
+  )
 }
 
-exports.onCreateNode = function() {
+exports.onCreateNode = (function () {
   const parsedContentPromise = parseFolderRecursively({
     pathToFolder: process.cwd(),
-    folderName: 'content',
+    folderName: 'content'
   })
 
   async function onCreateNode({ node, actions }) {
@@ -365,7 +374,7 @@ exports.onCreateNode = function() {
       const parsedContent = await parsedContentPromise
       const currentFolderNode = findFolderNodeByFilePath(
         parsedContent,
-        fileAbsolutePath,
+        fileAbsolutePath
       )
 
       const localeCode = getContentLangFromPath(fileAbsolutePath)
@@ -374,22 +383,22 @@ exports.onCreateNode = function() {
       createNodeField({
         node,
         name: `slug`,
-        value: localeSlugMap[localeCode],
+        value: localeSlugMap[localeCode]
       })
 
       createNodeField({
         node,
         name: `localeSlugMap`,
-        value: localeSlugMap,
+        value: localeSlugMap
       })
 
       createNodeField({
         node,
         name: `contentLang`,
-        value: localeCode,
+        value: localeCode
       })
     }
   }
 
   return onCreateNode
-}()
+})()

@@ -15,24 +15,19 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        trackingId: `UA-104746398-1`,
-        respectDNT: true
+        name: `images`,
+        path: `${__dirname}/src/images`
       }
     },
     {
-      resolve: 'gatsby-plugin-sentry',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        dsn: process.env.SENTRY_DSN,
-        // Optional settings, see https://docs.sentry.io/clients/node/config/#optional-settings
-        environment: process.env.NODE_ENV,
-        enabled: (() => ['production'].indexOf(process.env.NODE_ENV) !== -1)()
+        name: `content`,
+        path: `${__dirname}/content`
       }
     },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
-    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -51,22 +46,26 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content`,
-        path: `${__dirname}/content`
-      }
-    },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-104746398-1`,
+        respectDNT: true
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-sentry',
+      options: {
+        dsn: process.env.SENTRY_DSN,
+        // Optional settings, see https://docs.sentry.io/clients/node/config/#optional-settings
+        environment: process.env.NODE_ENV,
+        enabled: (() => ['production'].indexOf(process.env.NODE_ENV) !== -1)()
+      }
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-client-side-redirect`
   ]
 }
