@@ -101,7 +101,7 @@ export const documentationPageQuery = graphql`
   query getDocumentationPageContent(
     $id: String!
     $currentAndSiblingPagesFilter: MdxFilterInput!
-    $imagesFilter: FileFilterInput
+    $imagesPath: String!
   ) {
     currentPage: mdx(id: { eq: $id }) {
       id
@@ -136,7 +136,12 @@ export const documentationPageQuery = graphql`
         body
       }
     }
-    images: allFile(filter: $imagesFilter) {
+    images: allFile(
+      filter: {
+        absolutePath: { glob: $imagesPath }
+        extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
+      }
+    ) {
       nodes {
         ...Image
       }

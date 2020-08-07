@@ -268,10 +268,7 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
       currentAndSiblingPagesFilter: {
         fileAbsolutePath: { glob: normalizePath(`${currentDirectory}/*`) }
       },
-      imagesFilter: {
-        absolutePath: { glob: normalizePath(`${pathToImages}/**/*`) },
-        extension: { regex: '/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/' }
-      },
+      imagesPath: normalizePath(`${pathToImages}/**/*`),
       breadcrumbs,
       meta,
       config,

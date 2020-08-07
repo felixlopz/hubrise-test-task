@@ -12,7 +12,7 @@ import {
 } from '../components/pages/frontpage'
 
 const FrontPage = ({ data }) => {
-  const { mdx, images } = data
+  const { mdx, images, videos } = data
   const { content } = mdx.frontmatter
 
   return (
@@ -26,7 +26,7 @@ const FrontPage = ({ data }) => {
       />
       {content.demonstration && (
         <Demonstration
-          videoFile={images.nodes.find(
+          videoFile={videos.nodes.find(
             ({ base }) => base === content.demonstration.video
           )}
           {...content.demonstration}
@@ -51,7 +51,7 @@ const FrontPage = ({ data }) => {
 }
 
 export const frontPageQuery = graphql`
-  query getFrontPageContent($id: String!, $imagesFilter: FileFilterInput!) {
+  query getFrontPageContent($id: String!, $imagesPath: String!) {
     mdx(id: { eq: $id }) {
       frontmatter {
         content {
@@ -120,9 +120,25 @@ export const frontPageQuery = graphql`
         }
       }
     }
-    images: allFile(filter: $imagesFilter) {
+    images: allFile(
+      filter: {
+        absolutePath: { glob: $imagesPath }
+        extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
+      }
+    ) {
       nodes {
         ...Image
+      }
+    }
+    videos: allFile(
+      filter: {
+        absolutePath: { glob: $imagesPath }
+        extension: { regex: "/(mp4)|(webm)/" }
+      }
+    ) {
+      nodes {
+        base
+        publicURL
       }
     }
   }
@@ -211,6 +227,14 @@ FrontPage.propTypes = {
           name: PropTypes.string.isRequired,
           base: PropTypes.string.isRequired,
           childImageSharp: PropTypes.object
+        })
+      )
+    }),
+    videos: PropTypes.shape({
+      nodes: PropTypes.arrayOf(
+        PropTypes.shape({
+          base: PropTypes.string.isRequired,
+          publicURL: PropTypes.string.isRequired
         })
       )
     })

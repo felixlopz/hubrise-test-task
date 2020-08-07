@@ -45,7 +45,7 @@ const AppsPage = ({ data, pageContext }) => {
 }
 
 export const appsPageQuery = graphql`
-  query getAppsPageContent($id: String!, $imagesFilter: FileFilterInput!) {
+  query getAppsPageContent($id: String!, $imagesPath: String!) {
     mdx(id: { eq: $id }) {
       frontmatter {
         content {
@@ -90,7 +90,12 @@ export const appsPageQuery = graphql`
         }
       }
     }
-    images: allFile(filter: $imagesFilter) {
+    images: allFile(
+      filter: {
+        absolutePath: { glob: $imagesPath }
+        extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
+      }
+    ) {
       nodes {
         ...Image
       }

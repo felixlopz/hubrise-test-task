@@ -6,9 +6,9 @@ meta:
 path_override: /
 content:
   hero:
-    title: Centralize the Data of Your Retail Store
+    title: Integration for Developers
     description:
-      paragraph: Connect your POS, your website and all your applications.
+      paragraph: Integrate your app to a multitude of retail and hospitality solutions
   signup_form:
     title: Get Started Now
     description:
@@ -19,8 +19,8 @@ content:
     link_to_pricing: /pricing
     button: Create your account
   main:
-    title: HubRise Makes POS Integration Easy
-    description: HubRise stores your data in the Cloud for easy sharing between your applications. Your HubRise-compatible applications can be connected in one click and start communicating together instantly.
+    title: New connections for your app
+    description: Apps in our ecosystem are available through a single, well designed API. Focus on the development of your app, while we focus on integrations.
     features:
       - Online Ordering Website
       - Dashboard
