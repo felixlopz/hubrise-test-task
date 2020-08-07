@@ -63,7 +63,13 @@ To remove an existing mapping between TastyCloud and HubRise:
 
 ## Deals and Discounts
 
+TastyCloud offers deals by way of flexible pricing and discounts which can be applied to an order.  Correct EPOS ref codes are essential for orders containing discounts to be properly transmitted to your EPOS system and other apps connected to HubRise. 
 
+To create a new discount:
+
+1. Select **Promotions** from the left navigation pane.
+1. Fill in all the necessary details.
+1. Click **Enregister**.
 
 
 ## Payment Methods
