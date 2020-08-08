@@ -4,12 +4,12 @@ const path = require('path')
 const yaml = require('js-yaml')
 const { flatten } = require('lodash')
 
-const locales = require('../../i18n/locales')
+const locales = require('../i18n/locales')
 const LOCALE_LIST = Object.values(locales)
 const DEFAULT_LOCALE = LOCALE_LIST.find((locale) => locale.default)
 const LOCALE_CODE_LIST = LOCALE_LIST.map((locale) => locale.code)
 
-const { getLayout } = require(`../get-layout`)
+const { getLayout } = require(`../utils/get-layout`)
 
 const fsReaddir = util.promisify(fs.readdir)
 const fsReadFile = util.promisify(fs.readFile)

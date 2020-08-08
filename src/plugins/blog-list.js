@@ -1,7 +1,7 @@
 const BLOG_PAGE_PATH = '/blog'
-const locales = require('../../i18n/locales')
+const locales = require('../i18n/locales')
 
-const { getLayout } = require(`../get-layout`)
+const { getLayout } = require(`../utils/get-layout`)
 
 const generateArchiveList = (postDateList) => {
   const sortedDates = [...postDateList].sort((a, b) => b - a)
@@ -49,22 +49,22 @@ exports.createPages = async ({ graphql, actions }) => {
   if (errors) throw errors
 
   const archiveList = generateArchiveList(
-    data.allMdx.nodes.map(post => new Date(post.frontmatter.date)),
+    data.allMdx.nodes.map((post) => new Date(post.frontmatter.date))
   )
 
-  Object.values(locales).forEach(locale => {
+  Object.values(locales).forEach((locale) => {
     // Main page: /blog
     createPage({
       path: (locale.default ? `` : locale.code) + BLOG_PAGE_PATH,
       component: blogListLayout,
       context: {
         config: null,
-        lang: locale.code,
-      },
+        lang: locale.code
+      }
     })
 
     // Archive pages: /blog/2020/7
-    archiveList.forEach(archive => {
+    archiveList.forEach((archive) => {
       createPage({
         path:
           (locale.default ? `` : locale.code) +
@@ -75,12 +75,9 @@ exports.createPages = async ({ graphql, actions }) => {
         context: {
           config: null,
           lang: locale.code,
-          archive,
-        },
+          archive
+        }
       })
     })
   })
-}
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
 }
