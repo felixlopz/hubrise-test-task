@@ -51,7 +51,10 @@ const PageWrapper = ({ element, props }) => {
           title={t(`forms.contact.modal_title`)}
           onClose={forms.contact.toggle}
         >
-          <ContactForm recaptchaSiteKey={siteMetadata.recaptchaSiteKey} contactMessageUrl={siteMetadata.contactMessageUrl} />
+          <ContactForm
+            recaptchaSiteKey={siteMetadata.recaptchaSiteKey}
+            contactMessageUrl={siteMetadata.contactMessageUrl}
+          />
         </Modal>
       )}
     </ToastProvider>
