@@ -52,7 +52,7 @@ exports.createPages = async ({ graphql, actions }) => {
     data.allMdx.nodes.map((post) => new Date(post.frontmatter.date))
   )
 
-  Object.values(locales).forEach((locale) => {
+  locales.forEach((locale) => {
     // Main page: /blog
     createPage({
       path: (locale.default ? `` : locale.code) + BLOG_PAGE_PATH,
