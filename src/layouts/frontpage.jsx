@@ -18,12 +18,12 @@ const FrontPage = ({ data }) => {
   return (
     <>
       <Hero signupFormContent={content.signup_form} {...content.hero} />
-      <Main
-        {...content.main}
-        diagramImage={images.nodes.find(
-          ({ base }) => base === content.main.diagram
-        )}
-      />
+      {content.mains.map((main) => (
+        <Main
+          {...main}
+          diagramImage={images.nodes.find(({ base }) => base === main.diagram)}
+        />
+      ))}
       {content.demonstration && (
         <Demonstration
           videoFile={videos.nodes.find(
@@ -72,7 +72,7 @@ export const frontPageQuery = graphql`
             }
             button
           }
-          main {
+          mains {
             title
             description
             features
@@ -166,12 +166,14 @@ FrontPage.propTypes = {
             }).isRequired,
             button: PropTypes.string.isRequired
           }).isRequired,
-          main: PropTypes.shape({
-            title: PropTypes.string.isRequired,
-            description: PropTypes.string.isRequired,
-            features: PropTypes.arrayOf(PropTypes.string).isRequired,
-            diagram: PropTypes.string.isRequired
-          }).isRequired,
+          mains: PropTypes.arrayOf(
+            PropTypes.shape({
+              title: PropTypes.string.isRequired,
+              description: PropTypes.string.isRequired,
+              features: PropTypes.arrayOf(PropTypes.string).isRequired,
+              diagram: PropTypes.string.isRequired
+            })
+          ).isRequired,
           demonstration: PropTypes.shape({
             title: PropTypes.string.isRequired,
             unsupported: PropTypes.string.isRequired,

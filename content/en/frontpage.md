@@ -18,16 +18,38 @@ content:
         to: /pricing
     link_to_pricing: /pricing
     button: Create your account
-  main:
-    title: New connections for your app
-    description: Apps in our ecosystem are available through a single, well designed API. Focus on the development of your app, while we focus on integrations.
-    features:
-      - Online Ordering Website
-      - Dashboard
-      - Fleet Management
-      - POS
-      - Emailing Solution
-      - Loyalty Solution
-      - And More
-    diagram: diagram-en.png
+
+  mains:
+    - title: New connections for your app
+      description: |
+        Apps in our ecosystem are available through a single, well designed API.
+        Focus on the development of your app, while we focus on integrations.
+      features:
+        - Online Ordering Website
+        - Dashboard
+        - Fleet Management
+        - POS
+        - Emailing Solution
+        - Loyalty Solution
+        - And More
+      diagram: diagram-en.png
+
+    - title: Everything is documented
+      description: |
+        Documentation is key for integration. It is at the core of what we do. HubRise is documenting the integration effort done by each app.
+        No surprises. You will always know what you can or cannot when connecting with another app via HubRise.
+
+    - title: The API is easy to understand
+      description: |
+        The HubRise API is public. You can start integration any time.
+        The developer guide will show you how to setup your account and shoot your first API requests. Start by checking our [Quick Start](/developers/quick-start) page.
+        We made it as easy as it can be. Don't just take it from us, see what developers are saying in our Testimonial page.
+
+  faq:
+    title: 25€ per month, per location
+    bullets:
+      - Unlimited number of connected apps.
+      - No setup fee.
+      - Unlimited number of orders.
+      - No commitment.
 ---

@@ -6,9 +6,9 @@ meta:
   description: HubRise relie votre caisse, votre site Internet et tous vos logiciels.
 content:
   hero:
-    title: HubRise centralise les données de votre commerce
+    title: L'intégration, pour les développeurs
     description:
-      paragraph: Reliez votre caisse, votre site Internet et tous vos logiciels.
+      paragraph: Intégrez votre app à une multitude de solutions de point de vente
   signup_form:
     title: Démarrez maintenant
     description:
@@ -17,18 +17,22 @@ content:
         text: Voir tarifs
         to: /tarifs
     button: Créer votre compte
-  main:
-    title: L'intégration à portée de main
-    description: 'HubRise centralise toutes vos données : commandes clients produits... Les applications raccordées à HubRise peuvent instantanément échanger ces données entre elles.'
-    features:
-      - Commande en ligne
-      - Logiciel de caisse
-      - Gestion de livreurs
-      - Carte de fidélité
-      - Envoi d'emails
-      - Applications mobiles
-      - Et plus encore
-    diagram: diagram-fr.png
+
+  mains:
+    - title: De nouvelles connexions pour votre app
+      description: |
+        Les apps de notre écosystème sont connectables à travers une API unique et bien conçue.
+        Concentrez-vous sur les fonctionnalités de votre app, nous nous occupons des intégrations.
+      features:
+        - Commande en ligne
+        - Logiciel de caisse
+        - Gestion de livreurs
+        - Carte de fidélité
+        - Envoi d'emails
+        - Applications mobiles
+        - Et plus encore
+      diagram: diagram-fr.png
+
   demonstration:
     title: Démonstration
     unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
