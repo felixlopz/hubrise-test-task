@@ -1,9 +1,7 @@
 {
   "name": "HubRise",
-  "private": true,
-  "description": "New incarnation of HubRise website",
+  "description": "HubRise website",
   "version": "0.1.0",
-  "author": "Pavel Ermolin <pavel.2@icloud.com>",
   "scripts": {
     "build": "yarn clean && gatsby build",
     "clean": "gatsby clean",
