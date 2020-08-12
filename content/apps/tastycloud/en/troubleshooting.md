@@ -20,9 +20,9 @@ In order to verify that all products have been mapped:
 1. Login to your TastyCloud back office.
 1. Click **Mapping des produits** from the left navigation panel.
 1. Select from the following options depending on which mapping you are updating:
-    - Produits
-    - Options
-    - Quantité
+    - **Produits**
+    - **Options**
+    - **Quantité**
 1. The mapping page displays a table showing the current mappings between TastyCloud and HubRise.  The left side displays the Id and the Name of the TastyCloud product, option, or quantity.  The right side displays the HubRise Id and Name that the production, option or quantity is mapped to.
 1. The Produits dropdown menu includes all TastyCloud products, options or quantities that have not been mapped to Hubrise.
 

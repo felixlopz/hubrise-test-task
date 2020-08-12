@@ -7,7 +7,7 @@ meta:
   description: Instructions on how to configure TastyCloud for optimal connection to HubRise and other platforms.
 ---
 
-Once your TastyCloud site is connected with a HubRise account, customer and order information is transmitted to HubRise automatically.  To ensure the information is sent accurately, some configuration on the TastyCloud side is required.  This information is especially true for the connection between your TastyCloud Site and the EPOS connected to your HubRise Account.
+Once your TastyCloud site is connected with a HubRise account, customer and order information is transmitted to HubRise automatically.  To ensure the information is sent accurately, some configuration on the TastyCloud side is required.  This information is especially true for the connection between your TastyCloud site and the EPOS connected to your HubRise Account.
 
 Both TastyCloud and HubRise organize the items that are sold to customers.  The mapping between these two systems is managed by the TastyCloud back office system.
 
@@ -22,11 +22,11 @@ Once the connection is established, follow these steps to display the mapping be
 1. Login to your TastyCloud back office.
 1. Click **Mapping des produits** from the left navigation panel.
 1. Select from the following options depending on which mapping you are updating:
-    - Produits
-    - Options
-    - Quantité
+    - **Produits**
+    - **Options**
+    - **Quantité**
 1. The mapping page displays a table showing the current mappings between TastyCloud and HubRise.  The left side displays the Id and the Name of the TastyCloud product, option, or quantity.  The right side displays the HubRise Id and Name that the production, option or quantity is mapped to.
-1. The Produits dropdown menu includes all TastyCloud products, options or quantities that have not been mapped to Hubrise. 
+1. The **Produits** dropdown menu includes all TastyCloud products, options or quantities that have not been mapped to Hubrise. 
 
 ### Add TastyCloud Menu to HubRise Catalog Mapping
 
@@ -35,9 +35,9 @@ To add a new mapping between a TastyCloud Menu product, option or quantity to Hu
 1. Login to your TastyCloud back office.
 1. Click **Mapping des produits** from the left navigation panel.
 1. Select from the following options depending on which mapping you are updating:
-    - Produits
-    - Options
-    - Quantité
+    - **Produits**
+    - **Options**
+    - **Quantité**
 1. Select the TastyCloud element to be mapped from the **Produits** dropdown, then match it with the HubRise element from the **Produits POS**.
 1. Once finished, click **Enregistrar** to save the mapping.
 
@@ -56,9 +56,9 @@ To remove an existing mapping between TastyCloud and HubRise:
 1. Login to your TastyCloud back office.
 1. Click **Mapping des produits** from the left navigation panel.
 1. Select from the following options depending on which mapping you are updating:
-    - Produits
-    - Options
-    - Quantité
+    - **Produits**
+    - **Options**
+    - **Quantité**
 1. From the row with the TastyCloud and HubRise mapping, click the **Delete icon** on the right hand side.
 
 ## Deals and Discounts
