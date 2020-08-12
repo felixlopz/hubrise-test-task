@@ -36,8 +36,8 @@ function getLocaleSlugMap(mdxNode, currentFolderNode) {
     )
 
     if (config.path_override === 'blog') {
-      /** "2020-01-29_article-title" -> "article-title" */
-      fileName = fileName.slice(11)
+      /** "20200129-article-title" -> "article-title" */
+      fileName = fileName.slice(9)
     }
 
     let slug = [

@@ -30,17 +30,8 @@ exports.createPages = async ({ graphql, actions }) => {
     query {
       allMdx(filter: { fields: { slug: { glob: "/blog/*" } } }) {
         nodes {
-          id
-          fields {
-            slug
-          }
           frontmatter {
-            meta {
-              description
-              title
-            }
             date
-            layout
           }
         }
       }

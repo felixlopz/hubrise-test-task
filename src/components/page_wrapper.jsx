@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next'
 import ContactForm from './forms/contact'
 import Modal from '../components/modal'
 import Layout from './layout'
-import Seo from './seo'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
@@ -40,11 +39,6 @@ const PageWrapper = ({ element, props }) => {
           src={`https://www.google.com/recaptcha/api.js?render=${siteMetadata.recaptchaSiteKey}`}
         />
       </Helmet>
-      <Seo
-        lang={i18n.language}
-        title={meta ? meta.title : ''}
-        description={meta ? meta.description : ''}
-      />
       <Layout {...props}>{element}</Layout>
       {forms.contact.isVisible && (
         <Modal
