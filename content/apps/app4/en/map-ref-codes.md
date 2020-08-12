@@ -23,7 +23,7 @@ This allows you to import a HubRise Catalog into your App4 menu.  The following 
 
 ---
 
-To import a HubRise Catalog into App4 after App4 and HubRise have been connected:
+To import a HubRise Catalog into App4 after App4 and HubRise have been connected, it will be necessary to contact App4 support, who will take the following steps:
 
 1. Connect to your App4 back office.
 1. Click **HubRise Settings**.

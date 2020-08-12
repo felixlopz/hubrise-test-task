@@ -18,7 +18,7 @@ app_info:
   category: Online ordering for restaurants
   availability: Worldwide
   price_range: From £40 per week 
-  website: https://www.app4.com
+  website: https://www.app4.co.uk
   contact: info@goapp4.com / +44 1 332 742 514
 ---
 

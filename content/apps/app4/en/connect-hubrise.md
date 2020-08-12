@@ -15,7 +15,7 @@ The instructions below detail how to connect an App4 site to a new HubRise Accou
 
 ---
 
-To connect App4 to a new HubRise Account:
+At this stage it is not possible to make the connection manually and you will need assistance from the App4 support team. Thus, To connect App4 to a new HubRise Account, contact the support team and they will take the following steps to connect App4 to HubRise:
 
 1. Login to your App4 back office.
 1. Click **HubRise Settings**.
