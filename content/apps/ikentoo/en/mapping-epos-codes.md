@@ -1,0 +1,33 @@
+---
+title: Mapping EPOS codes
+position: 3
+layout: documentation
+meta:
+  title:
+  description:
+---
+
+## Menu Setup
+
+iKentoo Bridge is a _push-only_ integration. For this reason, menu items must be manually set in the system to connect with their corresponding ref codes to ensure a smooth communication between HubRise and iKentoo.
+
+### Finding ref codes
+
+You can find ref codes in your iKentoo back-office:
+
+- Open the **Items** page from the **Configuration** Menu.
+- The ref codes to copy are in the **Code** column:
+  ![](../images/007-en-integration-sku-codes.png)
+
+### iKentoo Menu Export
+
+The previous section showed you how to find ref codes for each menu item. You may also find useful to export whole catalog.
+
+- Open the **Items** page from the **Configuration** Menu.
+- Click on the **Export** button:
+  ![](../images/009-en-export-items.png)
+- In the popup window, choose your operation system type: Mac or Windows (or Manual configuration) and click **Export**.
+- After the export is complete, click on **Click here to download the exported file** to download the CSV file with your menu.
+  ![Download items CSV](../images/006-en-download-items.png)
+- Open the downloaded CSV file in Excel or a text editor.
+- The ref codes to copy are in the **SKU** column.

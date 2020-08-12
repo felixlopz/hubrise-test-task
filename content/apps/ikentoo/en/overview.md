@@ -19,7 +19,9 @@ app_info:
 
 ## Description
 
-iKentoo Bridge is an app developed by HubRise that allows the communication between HubRise and the iKentoo iPad POS via its Web API. iKentoo Bridge can forward any order from HubRise to the POS. These orders could come from online ordering solutions, self-ordering kiosks, online food ordering and delivery platforms or any other such solution connected to your HubRise account.
+iKentoo Bridge is an app developed by HubRise that allows the communication between HubRise and the iKentoo POS.
+
+iKentoo Bridge can forward any order from HubRise to iKentoo. These orders could come from online ordering solutions, self-ordering kiosks, online food ordering and delivery platforms or any other such solution connected to your HubRise account.
 
 iKentoo Bridge also provides a user interface to see the requests sent to the POS and responses received. For more technical details about API requests and related responses, see the [HubRise documentation](/docs/hubrise-logs/).
 
@@ -31,8 +33,8 @@ Therefore, iKentoo Bridge cannot transfer the menu from the POS to HubRise, whic
 
 ## Prerequisites
 
-To establish a successful connection with your iKentoo iPad POS, iKentoo Bridge requires:
+To establish the connection, iKentoo Bridge requires:
 
-- iKentoo account with configured business location.
-- iKentoo by Lightspeed application installed to your iPad. 
-- The HubRise account setup with locations to connect. For more information about accounts and locations, see the [HubRise User Guide](/docs).
+- An iKentoo account.
+- The "iKentoo by Lightspeed" application installed on your iPad.
+- A HubRise account set up with the locations to connect. For more information about accounts and locations, see the [HubRise User Guide](/docs).
