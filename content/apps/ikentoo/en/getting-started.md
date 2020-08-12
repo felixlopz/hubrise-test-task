@@ -27,11 +27,12 @@ To connect iKentoo to a specific location:
 
 7. The first time you connect, you will be redirected to iKentoo login page. Specify your iKentoo **Email** and **Password** and click **LOGIN**.
 
-8. Once you are authorized in iKentoo, the **Configuration** page will appear. 
-   - In **Business location** please choose proper iKentoo business location.
+8. Once you are authorized in iKentoo, the **Configuration** page will appear.
+
+   - In the **Business location** dropdown, select the iKentoo business location to connect.
    - Click **Save**.
 
-9.  You have now connected iKentoo to your HubRise location.
+9. You have now connected iKentoo to your HubRise location.
 
 ---
 
@@ -73,6 +74,6 @@ Requests are ordered with the latest on top, and each of them displays the follo
 
 ## Configuration page
 
-In the **Configuration page**, it is possible to change iKentoo business location associated with the HubRise location.
+In the **Configuration page**, it is possible to change the iKentoo business location associated with the HubRise location.
 
 ![Configuration page](../images/002-en-configuration-page.png)
