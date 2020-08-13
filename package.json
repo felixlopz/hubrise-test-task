@@ -10,8 +10,8 @@
     "cy:open": "cypress open",
     "cy:run": "cross-env CYPRESS_BASE_URL=http://localhost:9009 cypress run",
     "test:unit-testing": "jest --config='./jest/config.js'",
-    "test:e2e": "WAIT_ON_TIMEOUT: 1200000 start-server-and-test start:dev http://localhost:8000 cy:open",
-    "test:e2e:ci": "WAIT_ON_TIMEOUT: 1200000 start-server-and-test start:prod http://localhost:9009 cy:run",
+    "test:e2e": "start-server-and-test start:dev http://localhost:8000 cy:open",
+    "test:e2e:ci": "start-server-and-test start:prod http://localhost:9009 cy:run",
     "test:all:ci": "yarn test:unit-testing && yarn test:e2e:ci"
   },
   "dependencies": {
