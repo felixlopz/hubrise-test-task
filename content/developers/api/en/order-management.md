@@ -323,6 +323,8 @@ The following fields are available in the `customer` object:
 - `email`
 - `first_name`
 - `last_name`
+- `gender`
+- `birth_date`
 - `company_name`
 - `phone`
 - `address_1`
@@ -334,6 +336,8 @@ The following fields are available in the `customer` object:
 - `latitude`
 - `longitude`
 - `delivery_notes`
+- `sms_marketing`
+- `email_marketing`
 
 When you retrieve a guest order, the customer fields passed at creation time are returned in the `customer` object, along with a few fields computed by HubRise.
 
