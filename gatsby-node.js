@@ -1,9 +1,9 @@
 require('./src/utils/gatsby-inspector')
 
 const plugins = [
+  require(`./src/plugins/base.js`),
   require(`./src/plugins/blog-list.js`),
   require(`./src/plugins/documentation.js`),
-  require(`./src/plugins/frontpage.js`),
   require(`./src/plugins/redirects.js`),
   require(`./src/plugins/yaml.js`)
 ]

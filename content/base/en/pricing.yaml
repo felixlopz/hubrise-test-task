@@ -1,5 +1,4 @@
----
-layout: pricing
+path: /pricing
 meta:
   title: Pricing - HubRise
   description:
@@ -27,4 +26,3 @@ content:
     - paragraph_chunk_1: 'Large accounts: '
       paragraph_chunk_2: prices are negotiable starting from 50 locations.
       button: Contact Us
----

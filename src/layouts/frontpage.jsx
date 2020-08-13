@@ -13,9 +13,7 @@ import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
   const { file, images, videos } = data
-  const yaml = file.childYaml.parsedContent
-  const content = yaml.content
-  const meta = yaml.meta
+  const { meta, content } = file.childYaml.parsedContent
 
   return (
     <>
@@ -58,8 +56,8 @@ const FrontPage = ({ data, pageContext }) => {
 }
 
 export const frontPageQuery = graphql`
-  query getFrontPageContent($yamlPath: String!, $imagesPath: String!) {
-    file(absolutePath: { glob: $yamlPath }) {
+  query getFrontPageContent($id: String!, $imagesPath: String!) {
+    file(id: { eq: $id }) {
       childYaml {
         parsedContent
       }
