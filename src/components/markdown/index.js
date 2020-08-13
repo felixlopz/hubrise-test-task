@@ -4,4 +4,10 @@ import HighlightCode from './highlight_code'
 import InlineImage from './inline_image'
 import Label from './label'
 
-export { CallSummaryTable, ContactFormToggle, HighlightCode, InlineImage, Label }
+export {
+  CallSummaryTable,
+  ContactFormToggle,
+  HighlightCode,
+  InlineImage,
+  Label
+}

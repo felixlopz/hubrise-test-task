@@ -1,14 +1,12 @@
----
-layout: frontpage
-path_override: /
+path: /
 meta:
   title: HubRise
   description: HubRise relie votre caisse, votre site Internet et tous vos logiciels.
 content:
   hero:
-    title: HubRise centralise les données de votre commerce
+    title: L'intégration, pour les développeurs
     description:
-      paragraph: Reliez votre caisse, votre site Internet et tous vos logiciels.
+      paragraph: Intégrez votre app à une multitude de solutions de point de vente
   signup_form:
     title: Démarrez maintenant
     description:
@@ -17,18 +15,22 @@ content:
         text: Voir tarifs
         to: /tarifs
     button: Créer votre compte
-  main:
-    title: L'intégration à portée de main
-    description: 'HubRise centralise toutes vos données : commandes clients produits... Les applications raccordées à HubRise peuvent instantanément échanger ces données entre elles.'
-    features:
-      - Commande en ligne
-      - Logiciel de caisse
-      - Gestion de livreurs
-      - Carte de fidélité
-      - Envoi d'emails
-      - Applications mobiles
-      - Et plus encore
-    diagram: diagram-fr.png
+
+  mains:
+    - title: De nouvelles connexions pour votre app
+      description: |
+        Les apps de notre écosystème sont connectables à travers une API unique et bien conçue.
+        Concentrez-vous sur les fonctionnalités de votre app, nous nous occupons des intégrations.
+      features:
+        - Commande en ligne
+        - Logiciel de caisse
+        - Gestion de livreurs
+        - Carte de fidélité
+        - Envoi d'emails
+        - Applications mobiles
+        - Et plus encore
+      diagram: diagram-fr.png
+
   demonstration:
     title: Démonstration
     unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
@@ -71,4 +73,3 @@ content:
     description:
       paragraph_1: HubRise est une société basée en France, fondée par des ingénieurs spécialisés dans les logiciels de réservation aérienne, et de commande en ligne pour les restaurants.
       paragraph_2: "Notre vision : les commerçants utilisent de plus en plus d'applications informatiques pour leur activité, mais celles-ci ne communiquent généralement pas entre elles. HubRise veut offrir une solution universelle permettant à toutes les applications des commerçants de communiquer aisément entre elles."
----

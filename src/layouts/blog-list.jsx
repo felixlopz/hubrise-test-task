@@ -8,6 +8,7 @@ import Post from '../components/blog/post'
 import { convertArticleData, getArchiveTitle } from '../components/utils/blog'
 import { Breadcrumbs } from '../components/documentation'
 import { getLocalizedUrl } from '../components/utils/link'
+import SEO from '../components/seo'
 
 function BlogList({ data, pageContext }) {
   const { t } = useTranslation()
@@ -63,6 +64,7 @@ function BlogList({ data, pageContext }) {
 
   return (
     <>
+      <SEO lang={pageContext.lang} title="HubRise Blog" description="" />
       {archive ? (
         <Breadcrumbs breadcrumbs={breadcrumbs} />
       ) : (

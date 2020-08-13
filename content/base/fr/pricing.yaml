@@ -1,6 +1,4 @@
----
-layout: pricing
-path_override: tarifs
+path: /tarifs
 meta:
   title: Tarifs - HubRise
   description:
@@ -31,4 +29,3 @@ content:
   faq:
     text: Voir notre F.A.Q. concernant l'abonnement
     to: /faq#abonnement
----
