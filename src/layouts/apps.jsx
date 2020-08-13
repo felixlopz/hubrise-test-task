@@ -5,12 +5,14 @@ import { useTranslation } from 'react-i18next'
 import Modal from '../components/modal'
 import SuggestAppForm from '../components/forms/suggest_app'
 import { Hero, Developers, AppSection } from '../components/pages/apps'
-import { generateKey, replaceBackslash } from '../components/utils'
+import { generateKey } from '../components/utils'
 import { useLayoutContext } from '../context/layout'
 import SEO from '../components/seo'
 
 const AppsPage = ({ data, pageContext }) => {
-  const { meta, content } = data.mdx.frontmatter
+  const { file, logos } = data
+  const { meta, content } = file.childYaml.parsedContent
+
   const { forms } = useLayoutContext()
   const { t } = useTranslation()
 
@@ -25,10 +27,7 @@ const AppsPage = ({ data, pageContext }) => {
       {content.sections.map((props, idx) => (
         <AppSection
           key={generateKey(props.title, idx)}
-          logos={data.images.nodes.filter(
-            ({ relativeDirectory }) =>
-              replaceBackslash(relativeDirectory) === `images/app-logos`
-          )}
+          logos={logos.nodes}
           suggestAppContent={
             props.has_suggest_app && content.additional_sections.suggest_app
           }
@@ -50,58 +49,15 @@ const AppsPage = ({ data, pageContext }) => {
 }
 
 export const appsPageQuery = graphql`
-  query getAppsPageContent($id: String!, $imagesPath: String!) {
-    mdx(id: { eq: $id }) {
-      frontmatter {
-        meta {
-          title
-          description
-        }
-        content {
-          hero {
-            title
-            description {
-              paragraph_1_text
-              paragraph_1_link_text
-              paragraph_2_text
-              paragraph_2_link_text
-              paragraph_2_link_to
-            }
-          }
-          sections {
-            title
-            has_suggest_app
-            apps {
-              to
-              logo
-              title
-              description
-              additional_info
-            }
-          }
-          additional_sections {
-            suggest_app {
-              title
-              description
-              button
-            }
-          }
-          developers {
-            title
-            description {
-              paragraph_1
-              paragraph_2 {
-                chunk_1
-                chunk_2
-              }
-            }
-          }
-        }
+  query getAppsPageContent($id: String!) {
+    file(id: { eq: $id }) {
+      childYaml {
+        parsedContent
       }
     }
-    images: allFile(
+    logos: allFile(
       filter: {
-        absolutePath: { glob: $imagesPath }
+        absolutePath: { glob: "**/content/base/images/app-logos/*" }
         extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
       }
     ) {

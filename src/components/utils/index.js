@@ -100,10 +100,3 @@ export const getPathSegments = (path) => {
 
   return withLocalePrefix ? parts.slice(1) : parts
 }
-
-/**
- * Replace backslash with forward slash.
- * @param   {string} path.
- * @returns {string} result string
- */
-export const replaceBackslash = (path) => path.split('\\').join('/')

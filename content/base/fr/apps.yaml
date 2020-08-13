@@ -1,5 +1,4 @@
----
-layout: apps
+path: /apps
 meta:
   title: Applications intégrées - HubRise
   description:
@@ -211,4 +210,3 @@ content:
       paragraph_2:
         chunk_1: Nos utilisateurs sont des professionnels en recherche de solutions pour moderniser leur activité.
         chunk_2: Il y a beaucoup à faire, et les bonnes idées d'aujourd'hui sont les standards de demain.
----

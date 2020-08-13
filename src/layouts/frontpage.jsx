@@ -56,7 +56,7 @@ const FrontPage = ({ data, pageContext }) => {
 }
 
 export const frontPageQuery = graphql`
-  query getFrontPageContent($id: String!, $imagesPath: String!) {
+  query getFrontPageContent($id: String!) {
     file(id: { eq: $id }) {
       childYaml {
         parsedContent
@@ -64,7 +64,7 @@ export const frontPageQuery = graphql`
     }
     images: allFile(
       filter: {
-        absolutePath: { glob: $imagesPath }
+        absolutePath: { glob: "**/content/base/images/*" }
         extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
       }
     ) {
@@ -74,7 +74,7 @@ export const frontPageQuery = graphql`
     }
     videos: allFile(
       filter: {
-        absolutePath: { glob: $imagesPath }
+        absolutePath: { glob: "**/content/base/images/*" }
         extension: { regex: "/(mp4)|(webm)/" }
       }
     ) {

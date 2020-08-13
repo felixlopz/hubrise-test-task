@@ -7,7 +7,11 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const { data, errors } = await graphql(`
     query {
-      allFile(filter: { base: { in: ["frontpage.yaml", "pricing.yaml"] } }) {
+      allFile(
+        filter: {
+          base: { in: ["apps.yaml", "frontpage.yaml", "pricing.yaml"] }
+        }
+      ) {
         nodes {
           absolutePath
           base
@@ -36,8 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: resolve(__dirname, `../layouts/${page}.jsx`),
       context: {
         id: node.id,
-        lang: locale.code,
-        imagesPath: `**/content/base/images/*`
+        lang: locale.code
       }
     })
   })
