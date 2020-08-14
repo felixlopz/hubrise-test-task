@@ -1,4 +1,6 @@
 import React from 'react'
+import remark from 'remark'
+import remarkHtml from 'remark-html'
 
 /**
  * Applies kebab case to a regular string.
@@ -100,3 +102,9 @@ export const getPathSegments = (path) => {
 
   return withLocalePrefix ? parts.slice(1) : parts
 }
+
+export const markdownToHtml = (markdown) =>
+  remark()
+    .use(remarkHtml)
+    .processSync(markdown.replace(/\n/g, '\n\n'))
+    .toString()

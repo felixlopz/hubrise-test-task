@@ -6,14 +6,13 @@ import {
   Main,
   Demonstration,
   Faq,
-  CompatibleApps,
-  Philosophy
+  CompatibleApps
 } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
   const { file, images, videos } = data
-  const { meta, content } = file.childYaml.parsedContent
+  const { meta, header, body } = file.childYaml.parsedContent
 
   return (
     <>
@@ -22,35 +21,55 @@ const FrontPage = ({ data, pageContext }) => {
         title={meta.title}
         description={meta.description}
       />
-      <Hero signupFormContent={content.signup_form} {...content.hero} />
-      {content.mains.map((main) => (
-        <Main
-          {...main}
-          diagramImage={images.nodes.find(({ base }) => base === main.diagram)}
-        />
-      ))}
-      {content.demonstration && (
-        <Demonstration
-          videoFile={videos.nodes.find(
-            ({ base }) => base === content.demonstration.video
-          )}
-          {...content.demonstration}
-        />
-      )}
-      {content.faq && <Faq {...content.faq} />}
-      {content.compatible_apps && (
-        <CompatibleApps
-          carouselImages={content.compatible_apps.carousel.reduce(
-            (result, item) => {
-              const match = images.nodes.find(({ base }) => item.file === base)
-              return result.concat(match ? { ...item, ...match } : [])
-            },
-            []
-          )}
-          {...content.compatible_apps}
-        />
-      )}
-      {content.philosophy && <Philosophy {...content.philosophy} />}
+
+      <Hero signupFormContent={header.signup_form} {...header.hero} />
+
+      {body.map((block) => {
+        switch (block.block_type) {
+          case 'main':
+            return (
+              <Main
+                title={block.title}
+                descriptionLarge={block.description_large}
+                description={block.description}
+                features={block.features}
+                diagramImage={images.nodes.find(
+                  ({ base }) => base === block.diagram
+                )}
+              />
+            )
+            break
+
+          case 'demonstration':
+            return (
+              <Demonstration
+                videoFile={videos.nodes.find(
+                  ({ base }) => base === block.video
+                )}
+                {...block}
+              />
+            )
+            break
+
+          case 'faq':
+            return <Faq {...block} />
+            break
+
+          case 'compatible_apps':
+            return (
+              <CompatibleApps
+                carouselImages={block.carousel.reduce((result, item) => {
+                  const match = images.nodes.find(
+                    ({ base }) => item.file === base
+                  )
+                  return result.concat(match ? { ...item, ...match } : [])
+                }, [])}
+                {...block}
+              />
+            )
+            break
+        }
+      })}
     </>
   )
 }
