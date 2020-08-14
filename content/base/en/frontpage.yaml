@@ -8,7 +8,7 @@ header:
     title: Integration for Developers
     description:
       paragraph: Integrate your app to a multitude of retail and hospitality solutions
-  signupForm:
+  signup_form:
     title: Get Started Now
     description:
       paragraph: HubRise is free up to 50 orders per month.
@@ -33,7 +33,6 @@ body:
       - Loyalty Solution
       - And More
     diagram: diagram-en.png
-
 
   - block_type: main
     title: Everything is documented
