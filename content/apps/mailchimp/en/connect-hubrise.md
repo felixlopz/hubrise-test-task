@@ -15,6 +15,8 @@ The instructions below detail how to connect your Mailchimp account to a your Hu
 
 ---
 
+## Connect Mailchimp to HubRise
+
 To connect your Mailchimp account to your HubRise account:
 
 1. Login to your HubRise backoffice.
@@ -40,3 +42,15 @@ Once logged in, you will be asked whether you want to authorise HubRise. Select 
 **IMPORTANT NOTE**: You should note that for every location in HubRise, you will need to perform a new connection to Mailchimp. 
 
 ---
+
+## Disconnect Mailchimp
+
+In order to disconnect your HubRise location from Mailchimp:
+
+1. Login to your HubRise backoffice.
+1. In the left navigation pane of the back office, select **Connections**.
+1. On the screen that opens, on the Mailchimp item, select the **Actions** drop-down list.
+1. Select **Disconnect** from the drop-down list that appears.
+1. In the popup window that appears, you will be asked to confirm whether you want to disconnect Mailchimp Bridge. Select **Confirm**.
+
+Your HubRise location is now disconnected from your Mailchimp account.
