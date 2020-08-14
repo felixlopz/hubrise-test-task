@@ -19,19 +19,19 @@ To connect your Mailchimp account to your HubRise account:
 
 1. Login to your HubRise backoffice.
 1. In the left navigation pane of the back office, select **Connections**.
-![Navigation Pane](../images/hubrise_connection.png)
+![Navigation Pane](../images/001-en-hubrise-connection.png)
 1. On the page that opens, select **View Available Apps**.
-![HubRise Connections](../images/hubrise-connections.png)
+![HubRise Connections](../images/002-en-hubrise-connections.png)
 1. On the page that opens, you will find a list of apps which are possible to integrate with HubRise. Scroll down to **Marketing**.
-![Available Apps](../images/available-apps.png)
+![Available Apps](../images/003-en-available-apps.png)
 1.  Select **Mailchimp Bridge**.
 1. On the popup that opens, select **Connect your Mailchimp Account**.
-![Connect Mailchimp](../images/connect-mailchimp.png)
+![Connect Mailchimp](../images/004-en-connect-mailchimp.png)
 1. In the open that opens, select the location you want to connect and click **Allow**.
 1. You will be taken to the Mailchimp login screen. Here you will login to your Mailchimp account. If you don't have a Mailchimp account, you will need to create one.
-![Mailchimp Login](../images/mailchimp-login.png)
+![Mailchimp Login](../images/005-en-mailchimp-login.png)
 Once logged in, you will be asked whether you want to authorise HubRise. Select **Allow**.
-![Authorise HubRise](../images/mailchimp-authorize.png)
+![Authorise HubRise](../images/006-en-mailchimp-authorize.png)
 1. After authorization, you will be taken to the configuration screen. You can close the window and log back into your HubRise back office.
 1. In the left navigation pane, select **Connections**. You will see that your location is now connected to Mailchimp.
 
