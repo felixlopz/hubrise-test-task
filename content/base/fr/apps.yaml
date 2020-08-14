@@ -82,7 +82,6 @@ content:
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile.
-          additional_info: Intégration en cours.
         - to: https://www.foodpanda.com/
           logo: foodpanda.png
           title: Foodpanda
