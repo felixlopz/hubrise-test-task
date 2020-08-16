@@ -19,7 +19,7 @@ app_info:
 
 ## Description
 
-Mailchimp Bridge is an app developed by HubRise that allows the communication between HubRise and Mailchimp. Mailchimp Bridge can forward a customer list to Mailchimp. This list can be forwarded at the time of connection and also when any new orders are placed or customers are added to your HubRise account. 
+Mailchimp Bridge is an app developed by HubRise that allows the communication between HubRise and Mailchimp. Mailchimp Bridge can forward a customer list to Mailchimp every time a customer is created in your HubRise account or when an order is placed through an online ordering platform. 
 
 Mailchimp also provides a user interface from where you can send promotional and marketing materials to a single or a list of customers.
 
@@ -33,6 +33,6 @@ To establish a successful connection between your HubRise account and your Mailc
 
 ## Why Connect?
 
-Mailchimp can be connected to your HubRise account to enable you to easily send marketing, promotional and other communications to your customers.
+When Mailchimp is connected to your HubRise account it enables you to easily send marketing, promotional and other communications to your customers.
 
 

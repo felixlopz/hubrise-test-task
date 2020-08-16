@@ -7,7 +7,7 @@ meta:
   description: Instructions on how to configure Mailchimp for optimal connection to HubRise.
 ---
 
-Once your HubRise account is connected to your Mailchimp account, your customer information will be pushed to MailChimp automatically. Depending on your preferences, there are some configuration options available to configure how the customer information is pushed to Mailchimp.
+Once your HubRise account is connected to your Mailchimp account, your customer information will be pushed to MailChimp automatically. Depending on your preferences, there are some configuration options available to configure when the customer information is pushed to Mailchimp.
 
 ## Customer Export
 
@@ -17,8 +17,8 @@ In order to export the existing customers to Mailchimp:
 
 1. Log in to your HubRise back office.
 1. From the left navigation pane, select **Connections**.
-1. On the screen that opens, on the Mailchimp item, select **Open**.
-1. The Mailchimp Bridge screen will open in new window.
+1. On the page that opens, on the Mailchimp item, select **Open**.
+1. The Mailchimp Bridge page will open in a new window.
 1. In the top right hand corner, select your **Location name**.
 1. A drop-down list will appear where you can select **Configuration**.
 1. In the Actions section, select Export all **HubRise customers to MailChimp**.
@@ -27,13 +27,13 @@ All your existing customers will now be exported to MailChimp.
 
 ## Configuration
 
-For customers or order which are added after you connect your HubRise account to Mailchimp, there are certain configuration options. 
+For customers or orders which are added after you connect your HubRise account to Mailchimp, there are certain configuration options. 
 
 In order to configure your connection to Mailchimp:
 
 1. Log in to your HubRise back office.
 1. From the left navigation pane, select **Connections**.
-1. On the screen that opens, on the Mailchimp item, select **Open**.
+1. On the page that opens, on the Mailchimp item, select **Open**.
 1. The Mailchimp Bridge screen will open in a new window.
 1. In the top right hand corner, select your **Location name**.
 1. A drop-down list will appear where you can select **Configuration**.
