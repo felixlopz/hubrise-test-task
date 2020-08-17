@@ -31,7 +31,7 @@ The items in the order can be described as a list of JSON objects, each with its
 
 Notice that they both have the same structure but different values.
 
-The optional changes can then be structured as a list of JSON objects, each describing a different optional change. For the pizza, there is only one optional change in the list, with type "toppings" and name “olives”. For the burgers, no optional changes are present, and the associated list is therefore empty.
+The optional changes can then be structured as a list of JSON objects, each describing a different optional change. For the pizza, there is only one optional change in the list, with type "topping" and name “olives”. For the burgers, no optional changes are present, and the associated list is therefore empty.
 
 ### Payment
 
