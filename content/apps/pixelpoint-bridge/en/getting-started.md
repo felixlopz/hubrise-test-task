@@ -21,7 +21,7 @@ To connect PixelPoint to a specific location:
 
 1. Click **Connect**.
 
-1. Allow PixelPoint permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and **click** on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
+1. Allow PixelPoint permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
 
 1. You will be redirected to the PixelPoint Bridge user interface. The first time you connect, the **Configuration** page will appear:
 
@@ -33,7 +33,7 @@ To connect PixelPoint to a specific location:
 
 ---
 
-**IMPORTANT NOTE:** The API token you provide during the setup process is only stored in the PixelPoint back office and used for all the API calls to the EPOS. The system does not check the validity of the API token. For information on error handling, see the Troubleshooting section.
+**IMPORTANT NOTE:** The API token you provide during the setup process is only stored in the PixelPoint back office and used for all the API calls to the EPOS. The system does not check the validity of the API token. For information on error handling, see the [Troubleshooting](/apps/pixelpoint-bridge/troubleshooting) section.
 
 ---
 
@@ -69,7 +69,7 @@ Requests are ordered with the latest on top, and each of them displays the follo
 
 - **TIME**: The date and time the order was placed.
 - **DIRECTION**: The apps sending and receiving the request, in the format Origin → Destination.
-- **STATUS**: The status of the request. The value **OK** indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
+- **STATUS**: The status of the request. The value OK indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
   **Clicking** on a request will expand it to reveal the detailed logs of the request and its response. A detailed description of the logs can be found in [Understanding Logs](/apps/pixelpoint-bridge/understanding-logs).
 
 ![Order page](../images/002-en-orders-page.png)
