@@ -9,4 +9,4 @@ meta:
 
 ## App4 Support
 
-The App4 support team can be contacted at [App4 support](mailto:info@goapp4.com) for issues with the configuration of the online ordering system.
+The App4 support team can be contacted at [info@goapp4.com](mailto:info@goapp4.com) for issues with the configuration of the online ordering system.

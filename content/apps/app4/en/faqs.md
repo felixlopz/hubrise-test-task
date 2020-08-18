@@ -7,4 +7,4 @@ meta:
   description: Frequently asked questions and their answers.
 ---
 
-There are no frequently asked questions at this stage.
+No Frequently Asked Questions have been recorded at this time.
