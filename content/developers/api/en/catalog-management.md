@@ -35,7 +35,10 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
   "data": {
     "categories": [...],
     "products": [...],
-    "options_lists": [...]
+    "options_lists": [...],
+    "deals": [...],
+    "discounts": [...],
+    "charges": [...]
   }
 }
 ```
