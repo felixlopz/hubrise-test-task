@@ -147,7 +147,7 @@ To add a EPOS Code to a Payment Method:
 
 Service Type such as Delivery, Collection or Eat in might require a EPOS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-Service Types must be added by your LivePepper support representative. It cannot be done from the LivePepper back office.
+Service Types POS codes must be added by your LivePepper support representative. It cannot be done from the LivePepper back office.
 
 ## Charges
 

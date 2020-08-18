@@ -17,3 +17,4 @@ Both HubRise and LivePepper have their own vocabulary. Understanding the differe
 | The actual restaurant                 | Location     | Branch          |
 | Restaurant Managers unique identifier | User ID      | Account         |
 | Business brand                        | Account      | Site            |
+| List of products                      | Catalog      | Menu            |
