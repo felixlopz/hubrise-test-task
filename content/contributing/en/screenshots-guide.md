@@ -33,33 +33,28 @@ It is not necessary to scale the image in GIMP, Photoshop or other image editors
 
 ## Image Naming Convention
 
-Named images with the following naming convention Format: **[000]-[en]-2x-[description].[extension]**:
+Named images with the following naming convention Format: `[000]-[en]-2x-[description].[extension]`:
 
-- **[000]** is a three digit number. Not needed for icons, and images that does not require localisation.
-
-- **[en]** is the language acronym. **[en]** for English. **[fr]** for French. No need for the language acronym if we have no text for localisation within the image.
-
-- **2x** to be included only if you screenshots are taken from a HD 4K screen. Screenshots should not be scaled. For more information, see [Image Shooting](#image-shooting).
-
-- **[description]** is a placeholder for a short description.
+- `[000]` is a three digit number. Not needed for icons, and images that does not require localisation.
+- `[en]` is the language acronym. `[en]` for English. `[fr]` for French. No need for the language acronym if we have no text for localisation within the image.
+- `2x` to be included only if you screenshots are taken from a HD 4K screen. Screenshots should not be scaled. For more information, see [Image Shooting](#image-shooting).
+- `[description]` is a placeholder for a short description.
 
 For example if the image contains text within:
 
-- **001-en-login-example.png**
-
-- **001-fr-login-example.png**
+- `001-en-login-example.png`
+- `001-fr-login-example.png`
 
 For example if the image contains text within and the screen capture taken on a HD 4K screen:
 
-- **001-en-2x-login-example.png**
-
-- **001-fr-2x-login-example.png**
+- `001-en-2x-login-example.png`
+- `001-fr-2x-login-example.png`
 
 For example if the image does not contain any text and the screen capture was taken on a HD 4K screen:
 
-- **001-2x-arrow-icon.png**
+- `001-2x-arrow-icon.png`
 
-Also, add [screenshot] at the very beginning of the file name of the initial screenshots saved in the Drive for reference: **[screenshot]\_[000]-[en]-2x-[description].[extension]**.
+Also, add [screenshot] at the very beginning of the file name of the initial screenshots saved in the Drive for reference: `[screenshot]\_[000]-[en]-2x-[description].[extension]`.
 
 ## Image alt attributes
 
