@@ -127,11 +127,11 @@ Almost all fields are optional. In fact the simplest order that can be created o
     {
       "type": "online",
       "name": "PayPal",
+      "ref": "PP",
+      "amount": "23.50 EUR",
       "info": {
         "email": "john@doe.com"
-      },
-      "ref": "PP",
-      "amount": "23.50 EUR"
+      }
     }
   ],
   "loyalty_operations": [
@@ -391,9 +391,9 @@ Orders do not have to go through all steps. The sequence actually depends on the
 | `price`                                   | [Money](/developers/api/general-concepts/#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
 | `quantity`                                | [decimal](/developers/api/general-concepts/#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
 | `subtotal` <Label type="optional" />      | [Money](/developers/api/general-concepts/#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                                  |
-| `options` <Label type="optional" />       | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
 | `points_earned` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
 | `points_used` <Label type="optional" />   | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
+| `options` <Label type="optional" />       | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
 
 #### Example:
 
@@ -404,6 +404,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
   "sku_ref": "MAR-SM",
   "price": "9.00 EUR",
   "quantity": "2",
+  "points_earned": "1.0",
   "options": [
     {
       "option_list_name": "Sauce",
@@ -411,8 +412,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
       "ref": "BBQ",
       "price": "1.00 EUR"
     }
-  ],
-  "points_earned": "1.0"
+  ]
 }
 ```
 
@@ -547,9 +547,9 @@ If order payments are omitted, the order should be considered as not paid.
 | -------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `type`                           | string                                                     | One of: `cash`, `online`, or `third_party`.                                                                           |
 | `name` <Label type="optional" /> | string                                                     | The name of the payment method.                                                                                       |
-| `info` <Label type="optional" /> | object                                                     | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method. |
 | `ref` <Label type="optional" />  | string                                                     | Identifies the payment method.                                                                                        |
 | `amount`                         | [Money](/developers/api/general-concepts/#monetary-values) | Amount paid with this payment method.                                                                                 |
+| `info` <Label type="optional" /> | object                                                     | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method. |
 
 #### Payment types:
 
@@ -566,20 +566,20 @@ If order payments are omitted, the order should be considered as not paid.
   {
     "type": "online",
     "name": "PayPal",
+    "ref": "PP",
+    "amount": "15.00 EUR",
     "info": {
       "email": "john@doe.com"
-    },
-    "ref": "PP",
-    "amount": "15.00 EUR"
+    }
   },
   {
     "type": "third_party",
     "name": "Freebies4me",
+    "ref": "FBFM",
+    "amount": "4.50 EUR",
     "info": {
       "card_id": "648664679312"
-    },
-    "ref": "FBFM",
-    "amount": "4.50 EUR"
+    }
   }
 ]
 ```
