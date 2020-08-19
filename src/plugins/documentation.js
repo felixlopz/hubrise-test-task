@@ -262,7 +262,8 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
     context: {
       id,
       currentAndSiblingPagesFilter: {
-        fileAbsolutePath: { glob: normalizePath(`${currentDirectory}/*`) }
+        fileAbsolutePath: { glob: normalizePath(`${currentDirectory}/*`) },
+        frontmatter: { layout: { eq: 'documentation' } }
       },
       imagesPath: normalizePath(`${pathToImages}/**/*`),
       breadcrumbs,
