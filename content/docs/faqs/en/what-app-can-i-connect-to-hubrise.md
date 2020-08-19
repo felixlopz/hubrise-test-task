@@ -9,7 +9,7 @@ meta:
 
 HubRise supports an ever growing number of applications. The HubRise App Store is available from within HubRise through the following steps:
 
-1. Log in to HubRise through the [HubRise Login page](https://manager.hubrise.com/login). Don’t have a user profile yet? You can create one for free with just your name, email address, and a secure password at the [HubRise registration page](https://manager.hubrise.com/signup).
+1. Log in to HubRise through the [HubRise Login page](https://manager.hubrise.com/login). Don't have a user profile yet? You can create one for free with just your name, email address, and a secure password at the [HubRise registration page](https://manager.hubrise.com/signup).
 2. Click **CONNECTIONS**, then **View available apps**.
 3. Select the app to connect to your HubRise Account. Each app has instructions on how to connect to your Account or Location.
 

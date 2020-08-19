@@ -18,6 +18,8 @@ app_info:
   contact: contact@livepepper.com / +33 4 92 38 09 82
 ---
 
+[comment]: # 'We need background effect for images on apps overview page too'
+
 ## Description
 
 [comment]: # 'We need background effect for images on apps overview page too'
@@ -26,7 +28,7 @@ LivePepper is an online ordering solution for home delivery and takeaway restaur
 
 LivePepper clients are mainly located in France and the UK, but the system operates in multiple international markets in the Americas, mainland Europe, North Africa, Middle East and South Asia. LivePepper can easily be localised for the international market.
 
-LivePepper can create a full site including static marketing pages and online ordering. Restaurants can also incorporate LivePepper’s online ordering module into an existing marketing website. Sites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
+LivePepper can create a full site including static marketing pages and online ordering. Restaurants can also incorporate LivePepper's online ordering module into an existing marketing website. Sites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
 
 LivePepper comes with a rich palette of features and can answer the needs of the most demanding restaurants and international franchises.
 
@@ -34,7 +36,7 @@ Restaurant managers have complete control over their LivePepper site. They can m
 
 ## Prerequisites
 
-To establish a connection between LivePepper and HubRise, you must have an existing LivePepper site. A test site can be created from the [LivePepper web site](https://www.livepepper.com). Connecting with HubRise is easy, and can be done in just a few minutes. A HubRise user profile and account can be created from the LivePepper back office at any time.
+To establish a connection between LivePepper and HubRise, you must have an existing LivePepper site. A test site can be created from the [LivePepper website](https://www.livepepper.com). Connecting with HubRise is easy, and can be done in just a few minutes. A HubRise user profile and account can be created from the LivePepper back office at any time.
 
 ## Why Connect?
 

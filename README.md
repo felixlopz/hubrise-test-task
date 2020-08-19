@@ -40,6 +40,7 @@ To run the website, open a console, `cd` to the project root, and type:
 ```
 docker-sync start
 docker-compose -f docker-compose.mac.yml up --build website_dev
+docker exec website_dev rm -rf public .cache
 ```
 
 # Run the test suite
@@ -96,3 +97,17 @@ Use the same process as a the other apps (see cluster/doc/build_deploy_app.md)
 3. Install dependencies in `/server` directory via `yarn`
 4. Run server via `cd server; node index.js`
 5. From a separate terminal, run gatsby via `yarn start:dev`
+
+# When building fails...
+
+- Clean the last build. Open a terminal at the project's root and type:
+
+```
+rm -rf public .cache
+```
+
+- Delete all video files locally. This can sometimes be useful to speed up website building. Make sure not to commit the deletions! Open a terminal at the project's root and type:
+
+```
+find content -name "*webm" -o -name "*mp4" | xargs rm
+```

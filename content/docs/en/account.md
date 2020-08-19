@@ -39,7 +39,7 @@ The primary differences between the settings for Accounts and Locations to note 
 
 When creating a new Account, the first Location must be created at the same time through the following steps:
 
-To create a new Account and it’s first location, click **SETTINGS** > **ACCOUNTS** > **Create Account**. Enter the information required and click **Create**.
+To create a new Account and it's first location, click **SETTINGS** > **ACCOUNTS** > **Create Account**. Enter the information required and click **Create**.
 
 ![Create an account on HubRise](../images/064-en-2x-create-account.png)
 

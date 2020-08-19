@@ -21,7 +21,7 @@ To view Location details:
 
 1. Go to **SETTINGS** > **ACCOUNTS**.
 2. If you have multiple Accounts, select the Account for the Location
-3. In the **Locations **section click on the Location’s name.
+3. In the **Locations **section click on the Location's name.
 
 Locations are managed in the same way as Accounts, but the information is specific to the selected Location.
 
@@ -44,7 +44,7 @@ To add a new Locations to an existing Account:
 3. In the **Locations** section, click on **Add a location**.
 4. Enter the required information.
 5. If this Location has a VAT number separate from the Account, enter it here in the **Intra-Community VAT number** field provided.
-6. If the billing address is different than the Location’s address, check **The billing address is different from the location address** and fill out the form.
+6. If the billing address is different than the Location's address, check **The billing address is different from the location address** and fill out the form.
 7. Click **Add a new location** to save the new values.
 
 It is recommended to name the location after the city, the area or street it is located at.
@@ -63,5 +63,5 @@ To update the name and address for a location, follow these steps:
 4. Click **Modify**.
 5. Update the values as needed.
 6. If this Location has a VAT number separate from the Account, enter it here in the **Intra-Community VAT number** field provided.
-7. If the billing address is different than the Location’s address, check **The billing address is different from the location address** and fill out the form.
+7. If the billing address is different than the Location's address, check **The billing address is different from the location address** and fill out the form.
 8. Click **Update** to save the changes.

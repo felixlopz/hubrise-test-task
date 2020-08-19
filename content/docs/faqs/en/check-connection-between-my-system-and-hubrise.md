@@ -30,7 +30,7 @@ For more information, see [View Connection Activity](/docs/connections/#view-con
 
 ### View the App Logs
 
-Apps connected to HubRise provide logs that help display the most recent requests, and the details behind it. To view an App’s log files:
+Apps connected to HubRise provide logs that help display the most recent requests, and the details behind it. To view an App's log files:
 
 1. Click **CONNECTIONS**.
 2. For the specific App, click **Actions > View logs**.

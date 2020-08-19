@@ -85,7 +85,7 @@ The process to add POS codes to toppings, variants, ingredients, and options is 
   - **Price & Availability**: The options made available to the customer, usually in the form of sizes. For example: an 8" pizza versus a 12” pizza.
   - **Toppings**: Ingredients set at the product category or the product level.
 
-The instructions below are specific to updating the POS codes for a product’s ingredients, and can be replicated for the items listed above.
+The instructions below are specific to updating the POS codes for a product's ingredients, and can be replicated for the items listed above.
 
 To update the POS code for each product ingredient:
 
@@ -106,7 +106,7 @@ At the end of the process you can check if all product values and attributes hav
 
 ## Deals & Discounts Mapping
 
-Deals in LivePepper offer savings to products or to the entire order. Correct POS codes are essential for orders containing deals to be properly transmitted to your EPOS systems and other apps connected to HubRise.
+Deals in LivePepper offer savings to products or to the entire order. Correct POS codes are essential for orders containing deals to be properly transmitted to your EPOS system and other apps connected to HubRise.
 
 To add a POS Code to a deal:
 

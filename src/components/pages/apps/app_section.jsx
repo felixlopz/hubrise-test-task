@@ -14,18 +14,26 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
         <ul className="apps">
           {apps.map(
             (
-              { to, logo, title, description, additional_info: additionalInfo },
+              {
+                to,
+                logo: logoPath,
+                title,
+                description,
+                additional_info: additionalInfo
+              },
               idx
             ) => {
+              const logo = logos.find(({ base }) => base === logoPath)
+              if (!logo) throw new Error(`${title} does not have a logo`)
+
               return (
                 <li key={generateKey(title, idx)} className="app">
                   <Link to={to} className="app__box">
                     <Image
                       className="app__box-image"
                       alt={title}
-                      imgStyle={{objectFit: "scale-down"}}
-                      {...logos.find(({ base }) => base === logo)
-                        .childImageSharp}
+                      imgStyle={{ objectFit: 'scale-down' }}
+                      {...logo.childImageSharp}
                     />
                   </Link>
                   <div className="app__description">

@@ -43,7 +43,7 @@ The **DATA** > **CUSTOMERS** page displays the selected customer lists for the s
 
 The records on this page display the following attributes:
 
-- **Name**: The customer’s name followed by their unique identifier.
+- **Name**: The customer's name followed by their unique identifier.
 - **Orders**: How many orders the customer made since registration.
 - **Spending**: How much the customer has spent across all orders made on the Account.
 
