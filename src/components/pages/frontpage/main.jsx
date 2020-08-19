@@ -9,11 +9,22 @@ export const Main = ({
   descriptionLarge,
   description,
   features,
+  style,
   diagramImage
 }) => {
   return (
-    <section id="more" className="section">
-      <div className="section__in section__in_padding">
+    <section
+      className={['section']
+        .concat(
+          style === 'green' ? ['section_full-width', 'section_padding'] : []
+        )
+        .join(' ')}
+    >
+      <div
+        className={['section__in', 'section__in_padding']
+          .concat(style === 'green' ? ['section__in_green'] : [])
+          .join(' ')}
+      >
         <h3 className="section__title">{title}</h3>
 
         {descriptionLarge && (

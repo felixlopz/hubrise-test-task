@@ -1,13 +1,13 @@
 path: /
 meta:
   title: HubRise
-  description: HubRise relie votre caisse, votre site Internet et tous vos logiciels.
+  description: HubRise est une solution pensée pour les développeurs, qui connecte les logiciels de restauration, hôtellerie et point de vente
 
 header:
   hero:
     title: L'intégration, pour les développeurs
     description:
-      paragraph: Intégrez votre app à une multitude de solutions de restauration, hôtellerie et point de vente
+      paragraph: HubRise permet aux développeurs de connecter leur app aux logiciels de restauration, hôtellerie et point de vente.
   signup_form:
     title: Démarrez maintenant
     description:
@@ -21,8 +21,8 @@ body:
   - block_type: main
     title: De nouvelles connexions pour votre app
     description: |
-      Les apps de notre écosystème sont connectables à travers une API unique et bien conçue.
-      Concentrez-vous sur les fonctionnalités de votre app, nous nous occupons des intégrations.
+      Connectez-vous aux apps que vous voulez. [Plus de 50 intégrations disponibles](/apps).
+      Une intégration unique à l'API d'HubRise suffit à rejoindre l'écosystème.
     features:
       - Commande en ligne
       - Logiciel de caisse
@@ -33,23 +33,17 @@ body:
       - Et plus encore
     diagram: diagram-fr.png
 
-  - block_type: main
-    title: De nouvelles connexions pour votre app
-    description: |
-      Les apps de notre écosystème sont connectables à travers une API unique et bien conçue.
-      Concentrez-vous sur les fonctionnalités de votre app, nous nous occupons des intégrations.
-
-  - block_type: demonstration
-    title: Démonstration
-    unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
-    video: coming-soon.mp4
-
-  - block_type: faq
-    title: F.A.Q.
-    bullets:
-      - Every request, every bit of data is traced
-      - Access control with thin grained permissions
-      - The data belongs to you
+#  - block_type: demonstration
+#    title: Démonstration
+#    unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
+#    video: coming-soon.mp4
+#
+#  - block_type: faq
+#    title: F.A.Q.
+#    bullets:
+#      - Every request, every bit of data is traced
+#      - Access control with thin grained permissions
+#      - The data belongs to you
 
   - block_type: compatible_apps
     title: De nouvelles applications tous les mois

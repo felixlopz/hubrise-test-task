@@ -21,8 +21,8 @@ layout:
         to: /developers
       - title: Aide (anglais)
         to: /docs
-#      - title: Blog
-#        to: /blog
+      - title: Blog
+        to: /blog
       - title: F.A.Q.
         to: /faq
 
@@ -47,7 +47,7 @@ misc:
     - Mai
     - Juin
     - Juillet
-    - Aout
+    - Août
     - Septembre
     - Octobre
     - Novembre

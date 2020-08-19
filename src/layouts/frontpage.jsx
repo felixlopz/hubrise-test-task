@@ -27,12 +27,14 @@ const FrontPage = ({ data, pageContext }) => {
       {body.map((block) => {
         switch (block.block_type) {
           case 'main':
+          case 'main_green':
             return (
               <Main
                 title={block.title}
                 descriptionLarge={block.description_large}
                 description={block.description}
                 features={block.features}
+                style={block.block_type === 'main_green' ? 'green' : null}
                 diagramImage={images.nodes.find(
                   ({ base }) => base === block.diagram
                 )}
