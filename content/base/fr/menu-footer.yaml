@@ -1,0 +1,12 @@
+- title: Accueil
+  to: /
+- title: Apps
+  to: /apps
+- title: Tarifs
+  to: /tarifs
+- title: Développeurs
+  to: /developers
+- title: Aide (anglais)
+  to: /docs
+- title: F.A.Q.
+  to: /faq
