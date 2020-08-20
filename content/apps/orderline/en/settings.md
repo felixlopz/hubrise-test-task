@@ -70,10 +70,14 @@ In the following example, the status **Delivery Failed** is added as a possible 
 
 When an Order is set to a specified Status, OrderLine can prompt the user for an updated **Delivery Time**, or a **Comment**.
 
-- **IMPORTANT NOTE**: OrderLine does not send out emails or updates to clients directly. These are sent by your online ordering solution under two conditions:
-  Your online ordering solutions supports customer messaging.
-  Customer messaging has been integrated with HubRise.
-  Before setting up this feature, check that both of these conditions are met. It is recommended to create a test Order and verify that the updated confirmation time and comments are sent to the client.
+---
+
+**IMPORTANT NOTE**: OrderLine does not send out emails or updates to clients directly. These are sent by your online ordering solution under two conditions:
+Your online ordering solutions supports customer messaging.
+Customer messaging has been integrated with HubRise.
+Before setting up this feature, check that both of these conditions are met. It is recommended to create a test Order and verify that the updated confirmation time and comments are sent to the client.
+
+---
 
 To prompt the user to update the **Delivery Time** based on the Status, follow these steps:
 
@@ -138,13 +142,17 @@ See the following video as an example of how to set the Notifications settings.
 
 ### Local printer
 
-OrderLine can print to any printer connected to the device through the browser print dialog.
+OrderLine can print to any printer connected to the device through the browser print dialog. Orders received are manually validated and printed. This process is recommended to acknowledge order reception.
 
 ### Auto-print via Google Cloud Print
 
-- **IMPORTANT NOTE**: Google Cloud Print will no longer be supported as of December 31, 2020.
+Google Cloud Print allows the automatic printing of an order receipt upon order reception, without manual interaction.
 
-Google Cloud Print allows the automatic printing of an order receipt upon order reception.
+---
+
+**IMPORTANT NOTE**: Google Cloud Print will no longer be supported as of December 31, 2020.
+
+---
 
 ### Register the Printer with Google Cloud Print
 

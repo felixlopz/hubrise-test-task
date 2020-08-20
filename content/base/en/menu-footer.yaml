@@ -1,0 +1,12 @@
+- title: Home
+  to: /
+- title: Apps
+  to: /apps
+- title: Pricing
+  to: /pricing
+- title: Developers
+  to: /developers
+- title: Help
+  to: /docs
+- title: Contribute to the Documentation
+  to: /contributing

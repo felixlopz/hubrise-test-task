@@ -4,12 +4,19 @@ import { useTranslation } from 'react-i18next'
 
 import HeaderMobile from './header_mobile'
 
-import { generateKey } from './utils'
+import { generateKey, getLanguageFromAbsolutePath } from './utils'
 
 import logo from '../images/logo.png'
+import { graphql, useStaticQuery } from 'gatsby'
 
-const Header = ({ path }) => {
+const Header = ({ pageContext, path }) => {
   const { t } = useTranslation()
+
+  const menuHeaderNodes = useStaticQuery(headerQuery).allFile.nodes
+  const menuItems = menuHeaderNodes.find(
+    ({ absolutePath }) =>
+      getLanguageFromAbsolutePath(absolutePath) === pageContext.lang
+  ).childYaml.parsedContent
 
   return (
     <header className="header">
@@ -22,23 +29,18 @@ const Header = ({ path }) => {
           </div>
           <nav className="topbar-menu">
             <ul className="topbar-menu__list">
-              {t(`layout.menu.links`)
-                .filter(({ to }) => to !== `/`)
-                .map(({ title, to }, idx) => (
-                  <li
-                    key={generateKey(title, idx)}
-                    className="topbar-menu__item"
+              {menuItems.map(({ title, to }, idx) => (
+                <li key={generateKey(title, idx)} className="topbar-menu__item">
+                  <Link
+                    className={`topbar-menu__link ${
+                      path.startsWith(to) ? 'topbar-menu__link_active' : ''
+                    }`}
+                    to={to}
                   >
-                    <Link
-                      className={`topbar-menu__link ${
-                        path.startsWith(to) ? 'topbar-menu__link_active' : ''
-                      }`}
-                      to={to}
-                    >
-                      {title}
-                    </Link>
-                  </li>
-                ))}
+                    {title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </nav>
           <div className="header__action">
@@ -63,5 +65,18 @@ const Header = ({ path }) => {
     </header>
   )
 }
+
+const headerQuery = graphql`
+  query getHeaderData {
+    allFile(filter: { base: { eq: "menu-header.yaml" } }) {
+      nodes {
+        absolutePath
+        childYaml {
+          parsedContent
+        }
+      }
+    }
+  }
+`
 
 export default Header

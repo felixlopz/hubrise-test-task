@@ -1,9 +1,7 @@
-import locales from '../../i18n/locales'
+const locales = require('../../i18n/locales')
 
 export function getLocalizedUrl(url, currentLang) {
-  const locale = Object.values(locales).find(
-    (locale) => locale.code === currentLang
-  )
+  const locale = locales.find(({ code }) => code === currentLang)
 
   if (locale && locale.default) {
     return url

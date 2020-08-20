@@ -18,8 +18,8 @@ RUN echo "alias ll='ls -lah --color'" >> /root/.bashrc
 # Working directory
 # -------------
 
-ENV HEXO_ROOT /var/www/website
-WORKDIR $HEXO_ROOT
+ENV GATSBY_ROOT /var/www/website
+WORKDIR $GATSBY_ROOT
 
 # -------------
 # Install NodeJS packages into a directory outside the workdir
