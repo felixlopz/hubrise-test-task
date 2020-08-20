@@ -9,7 +9,7 @@ meta:
 
 Once your Zelty EPOS is connected with your HubRise account, you can sync information between them.
 
-Zelty pulls order and customer information from HubRise but is not able to push information into it. Menu items stored on Zelty can however be pushed into HubRise.For it to work however, certain steps need to be taken. Each item in the Zelty EPOS is identified by a unique product code. When you set up other apps to connect via HubRise you need to provide these codes.
+Zelty pulls order and customer information from HubRise but is not able to push information into it. Menu items stored on Zelty can however be pushed into HubRise. For it to work however, certain steps need to be taken. Each item in the Zelty EPOS is identified by a unique product code. When you set up other apps to connect via HubRise you need to provide these codes.
 
 ---
 

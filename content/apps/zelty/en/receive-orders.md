@@ -1,5 +1,5 @@
 ---
-title: Receive Order
+title: Receive Orders
 position: 4
 layout: documentation
 meta:
