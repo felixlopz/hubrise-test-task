@@ -100,3 +100,8 @@ export const getPathSegments = (path) => {
 
   return withLocalePrefix ? parts.slice(1) : parts
 }
+
+export const getLanguageFromAbsolutePath = (absolutePath) => {
+  const pathItems = absolutePath.split('/')
+  return pathItems[pathItems.length - 2]
+}
