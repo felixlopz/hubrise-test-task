@@ -1,5 +1,5 @@
 ---
-title: Configuration
+title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
@@ -9,15 +9,15 @@ meta:
 
 Once your LivePepper site is connected with a HubRise account, customer and order information will be pushed into HubRise automatically. For the connection to work with all apps in HubRise, some configuration on the LivePepper side may be needed. This is particularly true for the connection with an EPOS.
 
-To properly process orders from LivePepper to your EPOS, product codes are required for each and every item in the menu, including product variants, toppings and options as well as ingredients, product sizes and deals.
+To properly process orders from LivePepper to your EPOS, product ref codes are required for each and every item in the menu, including product variants, toppings and options as well as ingredients, product sizes and deals.
 
-In some cases, the EPOS will also require codes for payment methods, service types and delivery charges to understand some of the LivePepper functionalities. Always refer to your EPOS documentation on the HubRise website for details.
+In some cases, the EPOS will also require ref codes for payment methods, service types and delivery charges to understand some of the LivePepper functionalities. Always refer to your EPOS documentation on the HubRise website for details.
 
 Your LivePepper menu can either be created directly in LivePepper, or imported from a HubRise catalog.
 
 ---
 
-**IMPORTANT NOTE**: It is important for each POS code field available in LivePepper to be mapped with the corresponding EPOS product codes. If the POS code is missing, the EPOS will not be unable to correctly process the order.
+**IMPORTANT NOTE**: It is important for each POS code field available in LivePepper to be mapped with the corresponding EPOS ref codes. If the EPOS ref code is missing, the EPOS will not be unable to correctly process the order.
 
 ---
 
@@ -42,37 +42,37 @@ To import from a HubRise Catalog into LivePepper:
 1. Authenticate your credentials and click **Import from HubRise**.
 1. The import process will remove your current products and replace them with the ones from your HubRise catalog.
 
-In this example, one of the sizes for the Coke offerings was removed from LivePepper, and then restored when imported from the connected HubRise catalog along with its POS code.
+In this example, one of the sizes for the Coke offerings was removed from LivePepper, and then restored when imported from the connected HubRise catalog along with its EPOS ref code.
 
 <video controls title="Import HubRise Catalog">
   <source src="../images/009-import-hubrise-catalog.webm" type="video/webm"/>
 </video>
 
-## Product Mapping
+## Product
 
-If you cannot import the catalog from HubRise, you will need to map product POS codes manually in LivePepper. The first step is to export a list of POS codes from your EPOS system. This may be exported as a CSV or Excel file. Whatever format they are exported to, the next step will be to copy those codes into LivePepper.
+If you cannot import the catalog from HubRise, you will need to map product EPOS ref codes manually in LivePepper. The first step is to export a list of EPOS ref codes from your EPOS system. This may be exported as a CSV or Excel file. Whatever format they are exported to, the next step will be to copy those codes into LivePepper.
 
-LivePepper support does support inserting those POS codes for you, if contracted to do so. See your LivePepper support representative for more information.
+LivePepper support does support inserting those EPOS ref codes for you, if contracted to do so. See your LivePepper support representative for more information.
 
-### Add POS Codes to Products
+### Add EPOS Ref Codes to Products
 
-Products have different POS codes for each **Prices & Availability**.
+Products have different EPOS ref codes for each **Prices & Availability**.
 
-To update the POS code for each product and its prices & availability:
+To update the EPOS code for each product and its prices & availability:
 
 1. Select the product to update.
-2. For each value in the **Price & Availability** section, update the POS code.
+2. For each value in the **Price & Availability** section, update the EPOS code.
 3. Click **Save** when complete.
 
 At the end of the process you can check if all products have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting/#verify-product-mapping/)
 
-<video controls title="Update Product POS Code">
+<video controls title="Update Product EPOS Code">
   <source src="../images/016-product-pos-code-update.webm" type="video/webm"/>
 </video>
 
-### Add POS Codes to Toppings, Variants, Ingredients, and Options
+### Add EPOS Ref Codes to Toppings, Variants, Ingredients, and Options
 
-The process to add POS codes to toppings, variants, ingredients, and options is the same for product categories and products.
+The process to add EPOS ref codes to toppings, variants, ingredients, and options is the same for product categories and products.
 
 - Product **Category** values include:
 
@@ -85,53 +85,53 @@ The process to add POS codes to toppings, variants, ingredients, and options is 
   - **Price & Availability**: The options made available to the customer, usually in the form of sizes. For example: an 8" pizza versus a 12” pizza.
   - **Toppings**: Ingredients set at the product category or the product level.
 
-The instructions below are specific to updating the POS codes for a product's ingredients, and can be replicated for the items listed above.
+The instructions below are specific to updating the EPOS ref codes for a product's ingredients, and can be replicated for the items listed above.
 
-To update the POS code for each product ingredient:
+To update the EPOS code for each product ingredient:
 
 1. Select the product.
 1. Select the **Ingredients** row.
 1. Select the ingredient to update.
 1. For each **Price & availability** option, enter the **POS code**.
-1. If the ingredient is used in other products and they share the same POS code, they can be copied with the **Quick Copy** setting:
+1. If the ingredient is used in other products and they share the same EPOS code, they can be copied with the **Quick Copy** setting:
    1. From the dropdown select whether the Toppings apply to **All menu** items, or all products in a category.
    2. Click **Use POS codes above**. If the toppings share the same cost and availability, those options can be checked as well.
 1. When finished, click **Save**.
 
 At the end of the process you can check if all product values and attributes have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting/#verify-product-mapping/)
 
-<video controls title="Update Ingredients POS Code">
+<video controls title="Update Ingredients EPOS Code">
   <source src="../images/018-ingredients-pos-code-update.webm" type="video/webm"/>
 </video>
 
-## Deals & Discounts Mapping
+## Deals & Discounts
 
-Deals in LivePepper offer savings to products or to the entire order. Correct POS codes are essential for orders containing deals to be properly transmitted to your EPOS system and other apps connected to HubRise.
+Deals in LivePepper offer savings to products or to the entire order. Correct EPOS ref codes are essential for orders containing deals to be properly transmitted to your EPOS system and other apps connected to HubRise.
 
-To add a POS Code to a deal:
+To add an EPOS Code to a deal:
 
 1. Select **Deals** from the left navigation pane.
 1. For the deal to update, select **Edit**.
-1. Under **Advanced Settings**, set the POS code.
+1. Under **Advanced Settings**, set the EPOS code.
 1. Click **Save** when finished.
 
 At the end of the process you can check if all deals have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting/#verify-product-mapping/)
 
-<video controls title="Update Deals POS Code">
+<video controls title="Update Deals EPOS Code">
   <source src="../images/019-deals-pos-code-update.webm" type="video/webm"/>
 </video>
 
 ---
 
-**IMPORTANT NOTE**: Depending on your EPOS, Deals may be transmitted to the EPOS without a POS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
+**IMPORTANT NOTE**: Depending on your EPOS, Deals may be transmitted to the EPOS without an EPOS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
 
 ---
 
-## Payment Methods Mapping
+## Payment Methods
 
 POS codes may be required for each **Online payment** and **On delivery payment** methods setup in LivePepper. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-To add a POS Code to a Payment Method:
+To add an EPOS Code to a Payment Method:
 
 1. Select **Settings** > **Payment settings**.
 1. Click the payment method to update.
@@ -139,27 +139,27 @@ To add a POS Code to a Payment Method:
 1. Enter the **POS code**.
 1. Click **Save**.
 
-<video controls title="Add POS Code to Payment Method">
+<video controls title="Add EPOS Code to Payment Method">
   <source src="../images/024-payment-method-add-pos-code.webm" type="video/webm"/>
 </video>
 
-## Service Types Mapping
+## Service Types
 
-Service Type such as Delivery, Collection or Eat in might require a POS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service Type such as Delivery, Collection or Eat in might require an EPOS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-Service Types must be added by your LivePepper support representative. It cannot be done from the LivePepper back office.
+Service Types POS codes must be added by your LivePepper support representative. It cannot be done from the LivePepper back office.
 
-## Charges Mapping
+## Charges
 
-If delivery charges apply for the service offered a POS code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If delivery charges apply for the service offered an EPOS code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-To add a POS Code to a Delivery charge:
+To add an EPOS Code to a Delivery charge:
 
 1. Select **Settings** > **Delivery Settings**.
-2. Add the POS code to the Delivery charge POS code.
+2. Add the EPOS code to the Delivery charge EPOS code.
 3. Click **Save** when complete.
 
-<video controls title="Add POS to Delivery Method">
+<video controls title="Add EPOS to Delivery Method">
   <source src="../images/025-delivery-method-add-pos.webm" type="video/webm"/>
 </video>
 

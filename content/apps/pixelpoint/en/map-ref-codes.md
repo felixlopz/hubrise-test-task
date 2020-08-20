@@ -1,15 +1,15 @@
 ---
-title: Mapping EPOS codes
+title: Mapping Ref Codes
 position: 2
 layout: documentation
 meta:
-  title: Mapping the EPOS codes on the HubRise PixelPoint
-  description: Informs users on how to Map EPOS codes.
+  title: Mapping the PAR Pixel EPOS Ref Codes on HubRise
+  description: Informs users on how to find EPOS ref codes on the PAR PixelPoint EPOS to map them on other apps in the context of an integration with HubRise.
 ---
 
 ---
 
-**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API documentation](/apps/pixelpoint-windows-api).
+**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
 
 ---
 
