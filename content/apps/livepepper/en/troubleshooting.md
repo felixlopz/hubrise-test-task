@@ -9,7 +9,7 @@ meta:
 
 ## Verify Product Mapping
 
-To verify that all LivePepper menu items have had a EPOS code assigned, select **Maintenance** > **Custom Actions** menu from the left navigation panel. One of the reports displayed is **Missing POS codes**. It shows all products, deals and related attributes that do not have EPOS ref codes assigned.
+To verify that all LivePepper menu items have had an EPOS code assigned, select **Maintenance** > **Custom Actions** menu from the left navigation panel. One of the reports displayed is **Missing POS codes**. It shows all products, deals and related attributes that do not have EPOS ref codes assigned.
 
 [comment]: # 'Might want to include screenshot of this page here'
 

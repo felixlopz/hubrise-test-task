@@ -42,7 +42,7 @@ Changing an existing product's EPOS Code is not possible, if a change is needed,
 
 ## Deals & Discounts
 
-Discounts in Aquila offer savings on the entire order. Discounts should include the corresponding EPOS ref codes for orders containing discounts to be properly transmitted to your EPOS system and other apps connected to HubRise.
+Discounts in Aquila offer savings on the entire order. Discounts should include the corresponding EPOS ref codes for orders containing discounts to be properly transmitted to your EPOS system and other apps connected to HubRise.
 
 Special deals on products rather than the entire order are not supported in Aquila.
 
@@ -52,8 +52,8 @@ Payment methods define how customers can pay for their orders. EPOS ref codes ma
 
 ## Service Types
 
-Service Type such as Delivery, Collection or Eat in might require a EPOS ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service Type such as Delivery, Collection or Eat in might require an EPOS ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Charges
 
-If delivery charges apply for the service offered a EPOS ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If delivery charges apply for the service offered an EPOS ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.

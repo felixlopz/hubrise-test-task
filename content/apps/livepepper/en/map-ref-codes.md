@@ -108,7 +108,7 @@ At the end of the process you can check if all product values and attributes hav
 
 Deals in LivePepper offer savings to products or to the entire order. Correct EPOS ref codes are essential for orders containing deals to be properly transmitted to your EPOS system and other apps connected to HubRise.
 
-To add a EPOS Code to a deal:
+To add an EPOS Code to a deal:
 
 1. Select **Deals** from the left navigation pane.
 1. For the deal to update, select **Edit**.
@@ -123,7 +123,7 @@ At the end of the process you can check if all deals have been mapped. For more 
 
 ---
 
-**IMPORTANT NOTE**: Depending on your EPOS, Deals may be transmitted to the EPOS without a EPOS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
+**IMPORTANT NOTE**: Depending on your EPOS, Deals may be transmitted to the EPOS without an EPOS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
 
 ---
 
@@ -131,7 +131,7 @@ At the end of the process you can check if all deals have been mapped. For more 
 
 POS codes may be required for each **Online payment** and **On delivery payment** methods setup in LivePepper. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-To add a EPOS Code to a Payment Method:
+To add an EPOS Code to a Payment Method:
 
 1. Select **Settings** > **Payment settings**.
 1. Click the payment method to update.
@@ -145,15 +145,15 @@ To add a EPOS Code to a Payment Method:
 
 ## Service Types
 
-Service Type such as Delivery, Collection or Eat in might require a EPOS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service Type such as Delivery, Collection or Eat in might require an EPOS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 Service Types POS codes must be added by your LivePepper support representative. It cannot be done from the LivePepper back office.
 
 ## Charges
 
-If delivery charges apply for the service offered a EPOS code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If delivery charges apply for the service offered an EPOS code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-To add a EPOS Code to a Delivery charge:
+To add an EPOS Code to a Delivery charge:
 
 1. Select **Settings** > **Delivery Settings**.
 2. Add the EPOS code to the Delivery charge EPOS code.
