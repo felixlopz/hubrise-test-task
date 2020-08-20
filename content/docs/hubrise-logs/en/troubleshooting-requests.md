@@ -4,7 +4,7 @@ position: 8
 layout: documentation
 meta:
   title: Troubleshooting Requests - How to Read HubRise logs
-  description: Error codes, order statuses and missing or wrong EPOS ref codes shown in HubRise logs help understand issues.
+  description: Error codes, order statuses and missing or wrong ref codes shown in HubRise logs help understand issues.
 ---
 
 ## Overview
@@ -25,7 +25,7 @@ The following list describes possible scenarios and troubleshooting strategies t
 
 The error code 422 appears when a request is successfully sent and received, but its content is not recognised by the system.
 
-In many cases, this error can be traced to the systems connected to HubRise. For example, it often appears when the EPOS cannot recognise the product or deal code contained in the request.
+In many cases, this error can be traced to the systems connected to HubRise. For example, it often appears when the EPOS cannot recognise the product or deal ref code contained in the request.
 
 ### Error 500
 
@@ -43,13 +43,13 @@ In some cases, the status might indicate a problem with the order. The following
 | cancelled       | The order has been cancelled by the customer. |
 | delivery_failed | The order could not be delivered.             |
 
-## EPOS Ref Codes
+## Ref Codes
 
-The EPOS ref codes must be correctly set in the apps connected with HubRise. A wrong or missing EPOS code might lead to errors in the requests.
+Ref codes must be correctly set in the apps connected with HubRise. A wrong or missing ref code might lead to errors in the requests.
 
 The following checklist can help you find possible issues.
 
 1. Check that all service types you provide have the correct service_type_ref code.
 1. Check that all products have the correct sku_ref code.
-1. Check that all ingredients and toppings have the correct ref code. In some cases, adding or removing an identical ingredient might be associated with different EPOS ref codes.
+1. Check that all ingredients and toppings have the correct ref code. In some cases, adding or removing an identical ingredient might be associated with different ref codes.
 1. Check that all the accepted payment methods have the correct ref code.
