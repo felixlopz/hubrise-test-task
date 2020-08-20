@@ -1,5 +1,5 @@
 ---
-title: Map Ref Codes
+title: Ref Codes Mapping
 position: 3
 layout: documentation
 meta:
@@ -7,17 +7,25 @@ meta:
   description: Instructions on how to configure TastyCloud for optimal connection to HubRise and other platforms.
 ---
 
-Once your TastyCloud site is connected with a HubRise account, customer and order information is transmitted to HubRise automatically. To ensure the information is sent accurately, some configuration on the TastyCloud side is required. This is especially true for the connection between your TastyCloud site and the EPOS connected to your HubRise Account.
-
-Both TastyCloud and HubRise store the items that are sold to customers. The mapping between these two systems is managed by the TastyCloud back office system.
+Once your TastyCloud site is connected with a HubRise account, catalog, customer and order information is transmitted to HubRise automatically. To ensure the information is sent accurately, some configuration on the TastyCloud side is required. This is especially true when an EPOS is connected to your HubRise Account.
 
 ## Catalog Import
 
-### Display Mapping from TastyCloud Menu to HubRise Catalog
+As you push your EPOS catalog into HubRise, TastyCloud pulls it automatically. No manual action is necessary.
+
+## Product
+
+Both TastyCloud and HubRise store the items that are sold to customers. The mapping between items on these two systems is managed by the TastyCloud back office.
 
 To map the TastyCloud Menu to the HubRise Catalog, a connection between TastyCloud and HubRise must be established. For more information on connecting these two systems, see [Connect TastyCloud to HubRise](/apps/tastycloud/connect-hubrise).
 
-Once the connection is established, follow these steps to display the mapping between your TastyCloud menu with the catalog:
+---
+
+**IMPORTANT NOTE**: For the TastyCloud mapping to work, a catalog needs to be available in HubRise. Catalogs are generally pushed into HubRise from your EPOS. Refer to your connected EPOS documentation on the HubRise website to verify that your EPOS supports this integration feature.
+
+---
+
+Follow these steps to map items between a TastyCloud and HubRise:
 
 1. Login to your TastyCloud back office.
 1. Click **Mapping des produits** (Products mapping) from the left navigation panel.
@@ -25,41 +33,20 @@ Once the connection is established, follow these steps to display the mapping be
    - **Produits** (Products)
    - **Options** (Options)
    - **Quantité** (Quantity)
-1. The mapping page displays a table showing the current mappings between TastyCloud and HubRise. The left side displays the Id and the Name of the TastyCloud product, option, or quantity. The right side displays the HubRise Id and Name that the production, option or quantity is mapped to.
-1. The **Produits** (Products) dropdown menu includes all TastyCloud products, options or quantities that have not been mapped to Hubrise.
-
-### Add TastyCloud Menu to HubRise Catalog Mapping
-
-To add a new mapping between a TastyCloud Menu product, option or quantity to HubRise:
-
-1. Login to your TastyCloud back office.
-1. Click **Mapping des produits** (Products mapping) from the left navigation panel.
-1. Select from the following options depending on which mapping you are updating:
-   - **Produits** (Products)
-   - **Options** (Options)
-   - **Quantité** (Quantity)
-1. Select the TastyCloud element to be mapped from the **Produits** dropdown, then match it with the HubRise element from the **Produits POS**.
-1. Once finished, click **Enregistrar** to save the mapping.
+   - **Menus** (Deals)
+1. In the **Nouveau Mapping** (New mapping) section, select the TastyCloud element to be mapped from the **Produits** (Product) dropdown, then match it with the HubRise element from the **Produits POS** (POS product) dropdown. The **Produits** (Products) dropdown menu includes all TastyCloud items that have not been mapped to Hubrise.
+1. Once finished, click **Enregistrer** (Save).
 
 ---
 
-**IMPORTANT NOTE**: If you change the name of a product on your EPOS instead of deleting it and recreating another, the EPOS code will remain the same. The change will therefore not be registered in TastyCloud. It is advised that, under such circumstances, the product be deleted and a new one created.
+**IMPORTANT NOTE**: If you change the name of a product on your EPOS the EPOS ref code will remain the same. The change will therefore not be registered in TastyCloud. It is advised that, under such circumstances, the product be deleted and a new one created.
 
 ---
 
-### Remove TastyCloud Menu to HubRise Catalog Mapping
+The **Mapping des produits** (Products mapping) page displays also a table showing the current mappings between TastyCloud and HubRise. The left side displays the **Id** and the **Name** on TastyCloud. The right side displays the HubRise **Id** and **Name** it is mapped to.
 
-The mapping between a specific TastyCloud product, option or quantity to HubRise can be disconnected. Breaking this connection does not delete the item from the menu or from HubRise.
-
-To remove an existing mapping between TastyCloud and HubRise:
-
-1. Login to your TastyCloud back office.
-1. Click **Mapping des produits** from the left navigation panel.
-1. Select from the following options depending on which mapping you are updating:
-   - **Produits**
-   - **Options**
-   - **Quantité**
-1. From the row with the TastyCloud and HubRise mapping, click the **Delete icon** on the right hand side.
+The mapping can be disconnected. Breaking this connection does not delete the item from TastyCloud or from HubRise.
+To remove an existing mapping between TastyCloud and HubRise, click the red **Delete icon** on the far right hand side.
 
 ## Deals and Discounts
 
@@ -73,13 +60,11 @@ To create a new discount:
 
 ## Payment Methods
 
-TastyCloud offers various payment methods, including cash and online payment. No ref codes are specified for the different methods and TastyCloud only sends the type of payment through to HubRise.
+TastyCloud offers various payment methods, including cash and online payment. TastyCloud informs HubRise the payment status but does not specify the corresponding ref code required by some EPOS. Refer to your connected EPOS documentation on the HubRise website to verify if this works for you.
 
 ## Service Types
 
-Service Type such as Delivery, Collection or Eat in are supported. These service types are not supported by unique ref codes in TastyCloud, but might require a EPOS code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
-
-Service Types may be added in your TastyCloud back office.
+Service Type such as Delivery, Collection or Eat in are supported. These service types are not supported by unique ref codes in TastyCloud, but might require a EPOS ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Charges
 
