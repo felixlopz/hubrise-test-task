@@ -6,7 +6,9 @@
   to: /tarifs
 - title: Développeurs
   to: /developers
-- title: Aide (anglais)
+- title: Aide
   to: /docs
+- title: Contribuer à la documentation
+  to: /contributing
 - title: F.A.Q.
   to: /faq
