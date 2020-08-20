@@ -12,42 +12,41 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
       <div className="section__in section__in_padding section__in_reverse">
         <h3 className="section__title section__title_align-left">{title}</h3>
         <ul className="apps">
-          {apps.map(
-            (
-              {
-                to,
-                logo: logoPath,
-                title,
-                description,
-                additional_info: additionalInfo
-              },
-              idx
-            ) => {
-              const logo = logos.find(({ base }) => base === logoPath)
-              if (!logo) throw new Error(`${title} does not have a logo`)
+          {apps.map((app, idx) => {
+            const logo = logos.find(({ base }) => base === app.logo)
+            if (!logo) throw new Error(`${title} does not have a logo`)
 
-              return (
-                <li key={generateKey(title, idx)} className="app">
-                  <Link to={to} className="app__box">
-                    <GatsbyImage
-                      className="app__box-image"
-                      alt={title}
-                      imgStyle={{ objectFit: 'scale-down' }}
-                      {...logo.childImageSharp}
-                    />
-                  </Link>
-                  <div className="app__description">
-                    {description}
-                    {additionalInfo && (
-                      <p>
-                        <i>{additionalInfo}</i>
-                      </p>
-                    )}
+            return (
+              <li key={generateKey(title, idx)} className="app">
+                <Link
+                  to={app.website || app.documentation}
+                  className="app__box"
+                >
+                  <GatsbyImage
+                    className="app__box-image"
+                    alt={title}
+                    imgStyle={{ objectFit: 'scale-down' }}
+                    {...logo.childImageSharp}
+                  />
+                </Link>
+                <div className="app__description">
+                  {app.description}
+                  {app.additional_info && (
+                    <p>
+                      <i>{app.additional_info}</i>
+                    </p>
+                  )}
+                </div>
+                {app.documentation && (
+                  <div className="app__more">
+                    <Link to={app.documentation} className="app__more-link">
+                      View documentation
+                    </Link>
                   </div>
-                </li>
-              )
-            }
-          )}
+                )}
+              </li>
+            )
+          })}
           {suggestAppContent && <SuggestApp {...suggestAppContent} />}
         </ul>
       </div>
