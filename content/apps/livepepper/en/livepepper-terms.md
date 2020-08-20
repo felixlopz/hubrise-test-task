@@ -11,7 +11,7 @@ Both HubRise and LivePepper have their own vocabulary. Understanding the differe
 
 | Description                           | HubRise Name | LivePepper Name |
 | ------------------------------------- | ------------ | --------------- |
-| Product code                          | sku_ref      | POS Code        |
+| Product code                          | Ref code     | POS Code        |
 | Special offer on the overall order    | Discount     | Deal            |
 | Special offer on products             | Deal         | Deal            |
 | The actual restaurant                 | Location     | Branch          |
