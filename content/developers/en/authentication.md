@@ -116,7 +116,7 @@ X-Access-Token: b9922a78d3ffab6b95e9d72e88
 
 ## 4. Installed app workflow
 
-This workflow is for native apps, as opposed to web apps. Non-SaaS POS systems should use this workflow.
+This workflow is for native apps, as opposed to web apps. Non-SaaS EPOS systems should use this workflow.
 
 The main difference with the Web app workflow is that the authorization code is displayed in the browser, and the user needs to copy/paste the code into the application.
 

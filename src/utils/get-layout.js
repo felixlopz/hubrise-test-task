@@ -12,5 +12,5 @@ function getLayout(name) {
 }
 
 module.exports = {
-  getLayout,
+  getLayout
 }

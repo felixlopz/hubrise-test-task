@@ -28,14 +28,6 @@ module.exports = {
         path: `${__dirname}/content`
       }
     },
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
-    // {
-    //   resolve: `gatsby-transformer-sharp`,
-    //   options: {
-    //     checkSupportedExtensions: false // The option defaults to true
-    //   }
-    // },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -54,6 +46,8 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
