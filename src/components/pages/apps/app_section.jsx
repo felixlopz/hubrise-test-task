@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Image from 'gatsby-image'
+import GatsbyImage from 'gatsby-image'
 
 import Link from '../../link'
 import { generateKey } from '../../utils'
@@ -29,7 +29,7 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
               return (
                 <li key={generateKey(title, idx)} className="app">
                   <Link to={to} className="app__box">
-                    <Image
+                    <GatsbyImage
                       className="app__box-image"
                       alt={title}
                       imgStyle={{ objectFit: 'scale-down' }}
