@@ -347,16 +347,16 @@ The status of an order. Used in the order's `status` field.
 
 Here are the possible "normal" values, and their meaning:
 
-| Name                  | Description                                                                                                                  |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `new`                 | Order placed but not received yet in the POS. Default status for a new order placed outside of the POS (eg an online order). |
-| `received`            | Order which was previously new, but it has later been received by the POS.                                                   |
-| `accepted`            | Order accepted by the store. Default status for an order created from within the POS.                                        |
-| `in_preparation`      | Order is being prepared.                                                                                                     |
-| `awaiting_shipment`   | Order is ready to be shipped.                                                                                                |
-| `awaiting_collection` | Order is ready to be collected by the customer.                                                                              |
-| `in_delivery`         | Order has been sent out for delivery.                                                                                        |
-| `completed`           | Order successfully delivered to the customer.                                                                                |
+| Name                  | Description                                                                                                                    |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `new`                 | Order placed but not received yet in the EPOS. Default status for a new order placed outside of the EPOS (eg an online order). |
+| `received`            | Order which was previously new, but it has later been received by the POS.                                                     |
+| `accepted`            | Order accepted by the store. Default status for an order created from within the POS.                                          |
+| `in_preparation`      | Order is being prepared.                                                                                                       |
+| `awaiting_shipment`   | Order is ready to be shipped.                                                                                                  |
+| `awaiting_collection` | Order is ready to be collected by the customer.                                                                                |
+| `in_delivery`         | Order has been sent out for delivery.                                                                                          |
+| `completed`           | Order successfully delivered to the customer.                                                                                  |
 
 These additional statuses can be used in the event of an anomaly:
 

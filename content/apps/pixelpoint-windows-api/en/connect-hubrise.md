@@ -1,15 +1,15 @@
 ---
-title: Getting Started
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Getting Started Guide for the HubRise PixelPoint Windows API
-  description: Informs users on how to connect and read logs.
+  title: Connecting the PixelPoint Windows API with HubRise
+  description: Informs users how to connect the PixelPoint Windows API created by Slowey Systems to HubRise. Once this connection is actived, your PAR PixelPoint EPOS solution will pull information from HubRise. It shows also how to read logs.
 ---
 
 ## Setup
 
-The setup process for connecting PixelPoint Windows API to HubRise is typically performed by Slowey Systems, and is completely transparent to the customer.
+The setup process for connecting PixelPoint Windows API to HubRise is typically performed by Slowey Systems, and is completely transparent to the user.
 
 The steps required are the following:
 
@@ -19,8 +19,6 @@ The steps required are the following:
 - Copy all the relevant files needed for the connection inside this folder, including a configuration file called `HubRise.ini`.
 - Remove any token that might be present in the configuration file.
 - Run the `HubRise.exe` program. This will populate the token in the configuration file and create the store in the Slowey database. Then, it will connect the server with HubRise and start fetching orders.
-
-## Configuration File
 
 ### Sample Configuration File
 
@@ -87,7 +85,7 @@ To retrieve the value for `MethodNum`, follow these steps.
 
 ### Settings
 
-The following table describes the parameters present in the Settings section.
+The following table describes the parameters present in the settings section.
 
 | <div style="width:12rem">Parameter Name</div> | Description                                                                                                                                                                                                                                                                                            |
 | :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
