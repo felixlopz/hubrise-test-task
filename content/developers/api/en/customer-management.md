@@ -11,7 +11,10 @@ meta:
 
 Like catalogs, customer lists exist at either location or account level.
 
-Name unicity is ruled by the same constraints as catalogs: at the location level, they are uniquely identified by their name. And an account level customer list cannot have the same name as another account or location level customer list.
+Name unicity is ruled by the same constraints as catalogs:
+
+- At the location level, customer lists are uniquely identified by their name.
+- An account level customer list cannot have the same name as another account or location level customer list.
 
 ### 1.1. Retrieve Customer List
 
@@ -162,6 +165,9 @@ Returns a customer's details.
 ```json
 {
   "id": "jdj9v",
+  "customer_list_id": "smpse3",
+  "anonymized": false,
+  "private_ref": null,
   "email": "jimmy.watson@dummy-mail.org",
   "first_name": "Jimmy",
   "last_name": "Watson",
@@ -178,9 +184,8 @@ Returns a customer's details.
   "latitude": "45.7571206",
   "longitude": "4.8307575",
   "delivery_notes": null,
-  "sms_marketing": true,
+  "sms_marketing": false,
   "email_marketing": true,
-  "anonymized": false,
   "nb_orders": 2,
   "order_total": "28.40 GBP",
   "first_order_date": "2020-01-18T17:15:11+02:00",
@@ -222,9 +227,12 @@ Returns the customers of a customer list. Some filters can be passed.
 [
   {
     "id": "asdf2",
+    "customer_list_id": "ag8u4",
+    "anonymized": false,
+    "email": "charles.moore@dummy-mail.org",
     "first_name": "Charles",
     "last_name": "Moore",
-    "phone": "+44123456789"
+    "phone": "+44123456789",
     ...
   }
 ]
@@ -243,24 +251,28 @@ There is no mandatory field so a customer can be created with no information the
 
 #### Request parameters:
 
-| Name                                     | Type                                                        | Description                                                                                                              |
-| ---------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `private_ref` <Label type="optional" />  | string                                                      | The customer internal id, visible only to the client who set it. It must be unique if defined. Used for customer lookup. |
-| `email` <Label type="optional" />        | string                                                      | Email.                                                                                                                   |
-| `first_name` <Label type="optional" />   | string                                                      | First name.                                                                                                              |
-| `last_name` <Label type="optional" />    | string                                                      | Last name.                                                                                                               |
-| `gender` <Label type="optional" />       | string                                                      | If defined, must be either `male` or `female`                                                                            |
-| `birth_date` <Label type="optional" />   | date                                                        | Birth date in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) for dates, ie `YYYY-MM-DD`.                  |
-| `company_name` <Label type="optional" /> | string                                                      | Company name.                                                                                                            |
-| `phone` <Label type="optional" />        | string                                                      | Phone number in the [E.164 format](https://en.wikipedia.org/wiki/E.164) (\*).                                            |
-| `address_1` <Label type="optional" />    | string                                                      | 1st line of address.                                                                                                     |
-| `address_2` <Label type="optional" />    | string                                                      | 2nd line of address.                                                                                                     |
-| `postal_code` <Label type="optional" />  | string                                                      | Postal code.                                                                                                             |
-| `city` <Label type="optional" />         | string                                                      | City.                                                                                                                    |
-| `state` <Label type="optional" />        | string                                                      | State.                                                                                                                   |
-| `country` <Label type="optional" />      | string                                                      | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).        |
-| `latitude` <Label type="optional" />     | [decimal](/developers/api/general-concepts/#decimal-values) | Latitude of the customer address.                                                                                        |
-| `longitude` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Longitude of the customer address.                                                                                       |
+| Name                                        | Type                                                        | Description                                                                                                                                              |
+| ------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `private_ref` <Label type="optional" />     | string                                                      | The customer internal id, visible only to the client that set it. Typically used for customer lookup. Must be unique among the customer list if defined. |
+| `email` <Label type="optional" />           | string                                                      | Email.                                                                                                                                                   |
+| `first_name` <Label type="optional" />      | string                                                      | First name.                                                                                                                                              |
+| `last_name` <Label type="optional" />       | string                                                      | Last name.                                                                                                                                               |
+| `gender` <Label type="optional" />          | string                                                      | If defined, must be either `male` or `female`                                                                                                            |
+| `birth_date` <Label type="optional" />      | date                                                        | Birth date in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) for dates, ie `YYYY-MM-DD`.                                                  |
+| `company_name` <Label type="optional" />    | string                                                      | Company name.                                                                                                                                            |
+| `phone` <Label type="optional" />           | string                                                      | Phone number in the [E.164 format](https://en.wikipedia.org/wiki/E.164) (\*).                                                                            |
+| `address_1` <Label type="optional" />       | string                                                      | 1st line of address.                                                                                                                                     |
+| `address_2` <Label type="optional" />       | string                                                      | 2nd line of address.                                                                                                                                     |
+| `postal_code` <Label type="optional" />     | string                                                      | Postal code.                                                                                                                                             |
+| `city` <Label type="optional" />            | string                                                      | City.                                                                                                                                                    |
+| `state` <Label type="optional" />           | string                                                      | State.                                                                                                                                                   |
+| `country` <Label type="optional" />         | string                                                      | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).                                        |
+| `latitude` <Label type="optional" />        | [decimal](/developers/api/general-concepts/#decimal-values) | Latitude of the customer address.                                                                                                                        |
+| `longitude` <Label type="optional" />       | [decimal](/developers/api/general-concepts/#decimal-values) | Longitude of the customer address.                                                                                                                       |
+| `delivery_notes` <Label type="optional" />  | string                                                      | Information provided by the customer to help with the delivery.                                                                                          |
+| `sms_marketing` <Label type="optional" />   | boolean                                                     | Whether the customer agrees to receive marketing messages via SMS. Defaults to `false`.                                                                  |
+| `email_marketing` <Label type="optional" /> | boolean                                                     | Whether the customer agrees to receive marketing messages via email. Defaults to `false`.                                                                |
+| `custom_fields` <Label type="optional" />   | [CustomFields](/developers/api/extensions/#custom-fields)   | Additional data attached to the customer.                                                                                                                |
 
 (\*) The E.164 format must be used for any new implementation. Be aware however that phone numbers retrieved from the API can be encoded in a different format. The E.164 will become mandatory in a future release.
 
@@ -308,7 +320,7 @@ Updates a customer. Only the fields present in the request are updated.
 }
 ```
 
-### 2.5. Anonymize customer
+### 2.5. Anonymize Customer
 
 Deletes a customer's personal information.
 
@@ -570,4 +582,4 @@ Create a loyalty card operation and updates the balance accordingly.
 
 If the request succeeds, the operation's `new_balance` is automatically calculated, as well as the customer's `balance`.
 
-An operation CANNOT be deleted or updated. An operation is voided by creating an opposite operation.
+A loyalty operation cannot be deleted or updated. If you need to void a loyalty operation, create an opposite operation.

@@ -8,6 +8,11 @@ layout:
       title: Contact
       email: contact@hubrise.com
     copyright: Copyright © {{ year }} HubRise
+  404:
+    meta:
+      title: 404 - Page not found
+    title: NOT FOUND
+    text: The page doesn't exist or has been deleted...
 
 misc:
   feedback:
