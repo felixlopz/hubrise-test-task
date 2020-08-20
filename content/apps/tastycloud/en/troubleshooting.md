@@ -11,22 +11,21 @@ From time to time it may be necessary to troubleshoot certain issues with the co
 
 ## Verify the Connection to HubRise
 
-Verifying your connection between TastyCloud and HubRise involves tracking the path between orders to HubRise by viewing placed orders transmitted to HubRise. Should the connection be faulty, you may contact your TastyCloud support representative in order to assist in reconnecting.
+Verifying your connection between TastyCloud and HubRise involves tracking the path between orders to HubRise by viewing placed orders transmitted to HubRise.
+
+The first step in verifying the connection between TastyCould and HubRise is by creating test orders on your site.
+You can view test orders transmitted to HubRise through the following steps:
+
+1. Login to your HubRise account.
+1. Click **Data** > **Orders**. Order will be displayed.
+1. Click the new Order to verify the customer and order information is accurate.
+1. The **Logs** section will contain the detailed JSON records of the communication between TastyCloud and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).
+
+Should the connection be faulty, you may contact your TastyCloud support representative in order to assist in reconnecting.
 
 ## Verify Product Mapping
 
-In order to verify that all products have been mapped:
-
-1. Login to your TastyCloud back office.
-1. Click **Mapping des produits** from the left navigation panel.
-1. Select from the following options depending on which mapping you are updating:
-   - **Produits**
-   - **Options**
-   - **Quantité**
-1. The mapping page displays a table showing the current mappings between TastyCloud and HubRise. The left side displays the Id and the Name of the TastyCloud product, option, or quantity. The right side displays the HubRise Id and Name that the production, option or quantity is mapped to.
-1. The Produits dropdown menu includes all TastyCloud products, options or quantities that have not been mapped to Hubrise.
-
-Should any products not be mapped, you can proceed to [map](/apps/tastycloud/map-ref-codes) them.
+The **Produits** (Products) dropdown menu on the **Mapping des produits** (Products mapping) page includes all TastyCloud items that have not been mapped to Hubrise. Remember to check all section: **Produits** (Products), **Options** (Options), **Quantité** (Quantity), and **Menus** (Deals). For more information, see [Product Ref Code Mapping](/apps/tastycloud/map-ref-codes/#product).
 
 ## TastyCloud Support
 
