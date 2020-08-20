@@ -1,5 +1,5 @@
 ---
-title: Ref Codes Mapping
+title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
