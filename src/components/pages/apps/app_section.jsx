@@ -14,10 +14,16 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
         <ul className="apps">
           {apps.map(
             (
-              { to, logo, title, description, additional_info: additionalInfo },
-              idx,
+              {
+                to,
+                logo: logoPath,
+                title,
+                description,
+                additional_info: additionalInfo
+              },
+              idx
             ) => {
-              logo = logos.find(({base}) => base === logo)
+              const logo = logos.find(({ base }) => base === logoPath)
               if (!logo) throw new Error(`${title} does not have a logo`)
 
               return (
@@ -26,7 +32,7 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
                     <Image
                       className="app__box-image"
                       alt={title}
-                      imgStyle={{objectFit: "scale-down"}}
+                      imgStyle={{ objectFit: 'scale-down' }}
                       {...logo.childImageSharp}
                     />
                   </Link>
@@ -40,7 +46,7 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
                   </div>
                 </li>
               )
-            },
+            }
           )}
           {suggestAppContent && <SuggestApp {...suggestAppContent} />}
         </ul>
@@ -57,20 +63,20 @@ AppSection.propTypes = {
       logo: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
-      additional_info: PropTypes.string,
-    }),
+      additional_info: PropTypes.string
+    })
   ).isRequired,
   logos: PropTypes.arrayOf(
     PropTypes.shape({
       relativeDirectory: PropTypes.string.isRequired,
-      childImageSharp: PropTypes.object,
-    }),
+      childImageSharp: PropTypes.object
+    })
   ).isRequired,
   suggestAppContent: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    button: PropTypes.string.isRequired,
-  }),
+    button: PropTypes.string.isRequired
+  })
 }
 
 const SuggestApp = ({ title, description, button }) => {
@@ -111,5 +117,5 @@ const SuggestApp = ({ title, description, button }) => {
 SuggestApp.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  button: PropTypes.string.isRequired,
+  button: PropTypes.string.isRequired
 }

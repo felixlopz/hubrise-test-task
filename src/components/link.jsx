@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
 import { Link as GatsbyLink } from 'gatsby'
 
-import locales from '../i18n/locales'
+const locales = require('../i18n/locales')
 
 const newTabProps = {
   target: `_blank`,
@@ -11,16 +11,18 @@ const newTabProps = {
 }
 
 const Link = ({ to: initialTo, children, newTab, ...other }) => {
-  if (!initialTo) return ""
+  const {
+    i18n: { language }
+  } = useTranslation()
+
+  if (!initialTo) return ''
 
   const leadsToInternalPage = initialTo.startsWith(`/`)
   const leadsToDashboard = initialTo.includes(`manager.hubrise.com`)
   const isAnchorWithinCurrentPage = initialTo.startsWith(`#`)
-  const {
-    i18n: { language }
-  } = useTranslation()
-  const isDefaultLanguage = locales[language].default
-  const queryString = `?locale=${locales[language].tag}`
+  const locale = locales.find(({ code }) => code === language)
+  const isDefaultLanguage = locale.default
+  const queryString = `?locale=${locale.tag}`
   const to = initialTo + (leadsToDashboard ? queryString : ``)
 
   if (leadsToInternalPage) {

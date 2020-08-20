@@ -37,7 +37,7 @@ Requests are ordered with the latest on top, and each of them displays the follo
 
 - **TIME**: The date and time the order was placed.
 - **DIRECTION**: The apps sending and receiving the request, in the format Origin → Destination.
-- **STATUS**: The status of the request. The value **OK** indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
+- **STATUS**: The status of the request. The value OK indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
   **Clicking** on a request will expand it to reveal the detailed logs of the request and its response. A detailed description of the logs can be found in [Understanding Logs](/apps/pixelpoint-bridge/understanding-logs).
 
 ![Order page](../images/002-en-orders-page.png)

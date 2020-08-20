@@ -8,23 +8,6 @@ layout:
       title: Contact
       email: contact@hubrise.com
     copyright: Copyright © {{ year }} HubRise
-  menu:
-    title: Menu
-    links:
-      - title: Home
-        to: /
-      - title: Apps
-        to: /apps
-      - title: Tarifs
-        to: /tarifs
-      - title: Développeurs
-        to: /developers
-      - title: Aide (anglais)
-        to: /docs
-#      - title: Blog
-#        to: /blog
-      - title: F.A.Q.
-        to: /faq
 
 misc:
   feedback:

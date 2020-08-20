@@ -22,6 +22,8 @@ app_info:
 
 ## Description
 
+[comment]: # 'We need background effect for images on apps overview page too'
+
 LivePepper is an online ordering solution for home delivery and takeaway restaurants.
 
 LivePepper clients are mainly located in France and the UK, but the system operates in multiple international markets in the Americas, mainland Europe, North Africa, Middle East and South Asia. LivePepper can easily be localised for the international market.
