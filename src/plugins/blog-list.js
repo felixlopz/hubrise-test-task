@@ -49,7 +49,6 @@ exports.createPages = async ({ graphql, actions }) => {
       path: (locale.default ? `` : locale.code) + BLOG_PAGE_PATH,
       component: blogListLayout,
       context: {
-        config: null,
         lang: locale.code
       }
     })
@@ -64,7 +63,6 @@ exports.createPages = async ({ graphql, actions }) => {
             : `${BLOG_PAGE_PATH}/${archive.year}`),
         component: blogListLayout,
         context: {
-          config: null,
           lang: locale.code,
           archive
         }
