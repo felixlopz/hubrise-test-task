@@ -18,4 +18,4 @@ Both HubRise and Zelty have their own vocabulary. Understanding the differences 
 | A list of options                    | Option List  | Option          |
 | An option from the option list       | Option       | Valeur possible |
 | Product type (starter, main, etc.)   | Category     | Tag             |
-| Subset of the entire menu for export | n/a          | Catalogues      |
+| Subset of the entire menu for export | n/a          | Catalogue       |
