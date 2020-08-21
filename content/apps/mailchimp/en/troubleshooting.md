@@ -1,13 +1,13 @@
 ---
 title: Troubleshooting
-position: 4
+position: 5
 layout: documentation
 meta:
   title: LivePepper Connection to HubRise Troubleshooting
   description: Instructions on how resolve connection issues.
 ---
 
-From time to time it may be necessary to troubleshoot the connection between Mailchimp and HubRise. 
+From time to time it may be necessary to troubleshoot the connection between Mailchimp and HubRise.
 
 When your contacts are not synced with Mailchimp, the first step is to verify that Mailchimp is connected.
 
@@ -40,15 +40,11 @@ An alternative way of inspecting the logs is to:
 1. In the left navigation pane, select **Connections**.
 1. On the connections page, in the Mailchimp section, select **Open**.
 1. A new window will open with the latest activity on the Mailchimp connection.
-1. In the activity window you will be able to click on any of the latest activities. 
+1. In the activity window you will be able to click on any of the latest activities.
 1. When clicked, you will be able to see the date and time of the activity, the direction of the data transfer and the status.
 1. Clicking on the activity again, will open more details of the activity, where you can establish whether the transfer was successful.
 1. A status of OK, or status code of 200, indicates that the transfer was successful.
 
 In the event that the Status is not OK, a code will be given. In the **Request** and **Response** drop-downs you will obtain more information of the transfer. More specifically, and if an error occurred, you will see more details of the error in the **Response** drop-down.
 
-The information contained in the **Request** and **Response** logs are in JSON format. For more information on reading and understanding JSON documents, you can look at the [HubRise Documentation](/docs/hubrise-logs) on logs. 
-
-
-
-
+The information contained in the **Request** and **Response** logs are in JSON format. For more information on reading and understanding JSON documents, you can look at the [HubRise Documentation](/docs/hubrise-logs) on logs.

@@ -1,6 +1,6 @@
 ---
 title: Mailchimp Terms
-position: 5
+position: 6
 layout: documentation
 meta:
   title: HubRise vs Mailchimp Terms and Definitions
@@ -9,7 +9,7 @@ meta:
 
 Both HubRise and Mailchimp have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
 
-| Description                           | HubRise Name | Mailchimp Name |
-| ------------------------------------- | ------------ | --------------- |
-| A customer who placed an order                          | Customer      | Contact        |
-| A list of customers     | List     | Audience            |
+| Description                    | HubRise Name | Mailchimp Name |
+| ------------------------------ | ------------ | -------------- |
+| A customer who placed an order | Customer     | Contact        |
+| A list of customers            | List         | Audience       |
