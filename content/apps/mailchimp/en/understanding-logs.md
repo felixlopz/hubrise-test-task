@@ -50,11 +50,22 @@ In the case of a request made from Mailchimp Bridge to Mailchimp, the data is tr
 
 The request made from Mailchimp Bridge to Mailchimp contains the following data fields:
 
-- `email_address`:
-- `status`:
-- `merge_fields`:
-- `FNAME`:
-- `LNAME`:
+- `email_address`: The email address of the customer which is added to Mailchimp.
+- `status`: Indicates whether the customer is subscribed to receive messages through the Mailchimp platform.
+- `merge_fields`: Indicates which fields are merged on Mailchimp.
+- `FNAME`: The first name of the customer.
+- `LNAME`: The last name of the customer.
+
+The response indicates what values were transferred to Mailchimp from Mailchimp Bridge and if the transfer was successful. A status code of 200 indicates that the transfer was successful, whereas other codes will indicate that the transfer was unsuccessful. In the case of an unsuccessful transfer, an error message will also be provided in the relevant response.
+
+The response will contain the following data fields:
+
+- `id`: The unique identifier of the response.
+- `email_address`: The email address of the customer.
+- `unique_email_id`: The unique identifier of the customer's email address.
+- `status`: Indicates whether the customer is subscribed to receive communications through the Mailchimp platform.
+- `FNAME`: The first name of the customer.
+- `LNAME`: The last name of the customer.
 
 
 
