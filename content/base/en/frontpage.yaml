@@ -1,13 +1,13 @@
 path: /
 meta:
-  title: HubRise
-  description: HubRise is a developer friendly solution to connect your app to retail and hospitality solutions.
+  title: HubRise - Integration for retail and hospitality
+  description: HubRise lets you connect your app to a growing ecosystem of retail and hospitality solutions with a single integration.
 
 header:
   hero:
-    title: Integration for developers
-    description:
-      paragraph: HubRise is a developer friendly solution to connect your app to retail and hospitality solutions.
+    title: Integration for retail and hospitality solutions
+    description: |
+      HubRise lets you connect your app to a growing ecosystem of retail and hospitality solutions.
   signup_form:
     title: Get Started Now
     description:
@@ -22,35 +22,48 @@ body:
   - block_type: main
     title: New connections for your app
     description: |
-      Connect to the apps you want. [More than 50 integrations are available](/apps).
-      It takes a single integration to the HubRise API to join the ecosystem.
+      Connect to the apps you want. [More than 40 integrations are available](/apps).
+      It takes a single integration to HubRise API to join the ecosystem.
     features:
-      - Online Ordering Website
-      - Dashboard
-      - Fleet Management
-      - POS
-      - Emailing Solution
-      - Loyalty Solution
+      - EPOS
+      - Online Ordering
+      - Food Ordering Platforms
+      - Marketing Solutions
+      - Loyalty Solutions
+#      - Mobile Payment
       - And More
-    diagram: diagram-en.png
+#    diagram: diagram-en.png
 
   - block_type: main
-    title: Everything is documented
+    title: Public and freely accessible API
     description: |
-      Good documentation is key for integration. For every app you will know the scope of its integration.
-      Connect your app and we will document it if you like.
+      With no fee, no contract and comprehensive documentation, joining the HubRise ecosystem is easy.
+      Check our [Quick Start guide](/developers/quick-start) to connect your app.
+    diagram: 001-api-example.png
 
   - block_type: main
-    title: One click connection
+    title: Documentation at the core
     description: |
-      We make it easy to connect.
+      We are aiming to document the capabilities and data flow of each integrated app.
+      It's a work in progress but you can already [check an example](/apps/zelty).
 
   - block_type: main_green
-    title: Priced as it should be
+    title: 25€ per month per location
     description: |
-      __25€ per month per location__.
-      Unlimited number of connections and orders per location.
-      Free up to 50 orders per month.
+      Unlimited number of connections and orders.
+      Free plan for up to 50 orders per month. Free for developers.
+
+  - block_type: main
+    title: Developer friendly
+    description: |
+      With no fee, no contract and comprehensive documentation, joining the HubRise ecosystem is easy.
+      Check our [Quick Start guide](/developers/quick-start) to connect your app.
+      We will also support, assess and document your integration. For free.
+
+  - block_type: main
+    title: Easy for users
+    description: |
+      We make it easy to connect.
 
   #  - block_type: faq
   #    title: Priced as it should be
@@ -60,9 +73,3 @@ body:
   #      - Unlimited number of orders.
   #      - No commitment.
 
-  - block_type: main
-    title: A comprehensive and public API
-    description: |
-      Because we want everyone to connect, we made it easy:
-      With no fee, no contract and good documentation, joining the HubRise ecosystem is as easy as it should be.
-      Check our [Quick Start guide](/developers/quick-start) to connect your app.

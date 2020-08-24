@@ -5,9 +5,9 @@ meta:
   description:
 
 title: Pourquoi j'ai créé HubRise?
-date: 2020-08-18
+date: 2020-07-12
 shortDescription: |
-  En 2015, j'étais responsable technique d'une solution de commande en ligne pour la restauration. En quelques années, nous avions du nous intégrer à une douzaine de logiciels de caisse, et nos clients nous en demandaient encore davantage.
+  ...
 picture: ../images/test-image1.jpg
 author: Antoine Monnier
 ---
