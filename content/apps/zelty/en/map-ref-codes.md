@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Zelty - Map Ref Codes in HubRise
+  title: Zelty - Mapping Ref Codes in HubRise
   description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 

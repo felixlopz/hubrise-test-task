@@ -3,7 +3,7 @@ title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connect Zelty to HubRise
+  title: Zelty - Connect to HubRise
   description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 

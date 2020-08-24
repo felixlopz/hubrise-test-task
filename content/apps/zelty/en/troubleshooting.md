@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: Zelty - HubRise Troubleshooting
+  title: Zelty - Troubleshooting Connection Issues
   description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 

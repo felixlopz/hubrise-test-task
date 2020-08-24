@@ -3,7 +3,7 @@ title: Orders
 position: 4
 layout: documentation
 meta:
-  title: Receive HubRise orders in Zelty
+  title: Zelty - How to Receive Orders from HubRise
   description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 
