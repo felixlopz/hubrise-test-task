@@ -1,9 +1,9 @@
 ---
-title: Mapping EPOS codes
+title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title:
+  title: Mapping the iKentoo EPOS Ref Codes on HubRise
   description:
 ---
 
@@ -21,7 +21,7 @@ You can find ref codes in your iKentoo back-office:
 
 ### iKentoo Menu Export
 
-The previous section showed you how to find ref codes for each menu item. You may also find useful to export whole catalog.
+The previous section showed you how to find ref codes for each menu item. You may also find useful to export the whole catalog.
 
 - Open the **Items** page from the **Configuration** Menu.
 - Click on the **Export** button:

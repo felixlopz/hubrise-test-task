@@ -1,15 +1,15 @@
 ---
-title: Getting started
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Getting Started Guide for the HubRise iKentoo Bridge
+  title: Connect iKentoo with HubRise
   description:
 ---
 
 ## Setup
 
-iKentoo Bridge connects iKentoo iPad POS (Lightspeed Restaurant K Series) to a Hubrise location. You must set up a connection for each of the locations you want to connect to iKentoo.
+iKentoo Bridge connects your iKentoo POS (Lightspeed Restaurant K Series) to a HubRise location. You must set up a connection for each of the locations you want to connect.
 
 To connect iKentoo to a specific location:
 
