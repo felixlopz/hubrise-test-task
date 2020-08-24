@@ -106,7 +106,7 @@ Receipts include the following information:
 - The Order type. Types include **DELIVERY**, **COLLECTION** or **EAT-IN**.
 - Payment type.
 - The address and delivery comments with GPS coordinates, if the online ordering solutions sends the GPS coordinates to HubRise.
-- The delivery time confirmed by users to reflect the actual delivery time, if supported by the POS system. For more information, see [ Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt).
+- The delivery time confirmed by users to reflect the actual delivery time, if supported by the EPOS system. For more information, see [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt).
 - Deals are listed with the name of the deal followed by the list of products included in the deal.
 - Products the client ordered are grouped together with additions and exclusions listed in bullet points including:
   - Standard items removed from the product are struck out with a solid line.

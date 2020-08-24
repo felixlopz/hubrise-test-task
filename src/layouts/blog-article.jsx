@@ -8,9 +8,13 @@ import Post from '../components/blog/post'
 import { Breadcrumbs } from '../components/documentation'
 import { ArticleFeedback } from '../components/blog/feedback'
 import { getLocalizedUrl } from '../components/utils/link'
+import SEO from '../components/seo'
 
 function BlogArticle({ data, pageContext }) {
-  const article = convertArticleData(data.currentArticle)
+  const { currentArticle } = data
+  const { meta } = currentArticle.frontmatter
+
+  const article = convertArticleData(currentArticle)
 
   function handleQueryChange(newQuery) {
     let pathname = getLocalizedUrl('/blog', pageContext.lang)
@@ -28,6 +32,11 @@ function BlogArticle({ data, pageContext }) {
 
   return (
     <>
+      <SEO
+        lang={pageContext.lang}
+        title={meta?.title}
+        description={meta?.description}
+      />
       <Breadcrumbs breadcrumbs={breadcrumbs} />
       <div className="section">
         <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
@@ -54,6 +63,10 @@ export const articlePageQuery = graphql`
       }
       body
       frontmatter {
+        meta {
+          title
+          description
+        }
         title
         picture {
           childImageSharp {

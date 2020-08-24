@@ -1,7 +1,7 @@
 ---
 layout: blog-article
 meta:
-  title: Blog
+  title: Second article
   description:
 
 title: Title of Second Blog Article

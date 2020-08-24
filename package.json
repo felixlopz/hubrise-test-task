@@ -1,9 +1,7 @@
 {
   "name": "HubRise",
-  "private": true,
-  "description": "New incarnation of HubRise website",
+  "description": "HubRise website",
   "version": "0.1.0",
-  "author": "Pavel Ermolin <pavel.2@icloud.com>",
   "scripts": {
     "build": "yarn clean && gatsby build",
     "clean": "gatsby clean",
@@ -53,6 +51,9 @@
     "react-i18next": "^11.7.0",
     "react-slick": "^0.27.1",
     "react-use": "^15.3.3",
+    "remark": "^12.0.1",
+    "remark-html": "^12.0.0",
+    "remark-preset-lint-recommended": "^4.0.1",
     "slick-carousel": "^1.8.1",
     "webpack": "^4.44.0",
     "what-input": "^5.2.10",
