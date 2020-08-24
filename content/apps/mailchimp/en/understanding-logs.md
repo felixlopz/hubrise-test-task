@@ -15,7 +15,7 @@ When clicked each activity opens and displays all the logs of the API requests e
 
 - **Time**: the time the activity took place.
 - **Direction**: the direction of the activity, i.e. whether it was data sent from HubRise to Mailchimp Bridge or whether it was data sent from Mailchimp Bridge to Mailchimp.
-- **Status**: The status of the request. The value OK confirms that the request was successfully sent. 
+- **Status**: The status of the request. The value OK confirms that the request was successfully sent.
 
 ![Mailchimp Logs](../images/008-en-mailchimp-activity-logs.png)
 
@@ -44,7 +44,7 @@ The information contained in the **Request** and **Response** logs in the case o
 
 For more information on reading and understanding JSON documents, you can look at the [HubRise Documentation](/docs/hubrise-logs) on logs.
 
-## The Request from Mailchimp Bridge to MailChimp
+## The Request from Mailchimp Bridge to Mailchimp
 
 In the case of a request made from Mailchimp Bridge to Mailchimp, the data is transferred as an URL Encoded Form. In this case the keys and values are encoded in key-value tuples separated by '&', with a '=' between the key and the value. Non-alphanumeric characters in both keys and values are percent encoded: this is the reason why this type is not suitable to use with binary data.
 
@@ -66,16 +66,3 @@ The response will contain the following data fields:
 - `status`: Indicates whether the customer is subscribed to receive communications through the Mailchimp platform.
 - `FNAME`: The first name of the customer.
 - `LNAME`: The last name of the customer.
-
-
-
-
-
-
-
-
-
-
-
-
-
