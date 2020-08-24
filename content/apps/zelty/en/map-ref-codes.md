@@ -3,15 +3,15 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Zelty EPOS Ref Code Mapping on HubRise
-  description: Informs users on how to create products and export the menu to map Zelty EPOS ref codes on HubRise or other apps connected to HubRise.
+  title: Zelty - Map Ref Codes in HubRise
+  description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 
-Once your Zelty EPOS is connected with your HubRise account, you can sync information between them. For it to work however, certain steps need to be taken. Each item in the Zelty EPOS is identified by a unique product code. When you set up other apps to connect via HubRise you need to provide these codes.
+After connecting your Zelty EPOS to your HubRise account, you can sync information between them. For it to work however, certain steps need to be taken. Items in the Zelty EPOS are identified by unique codes. When you set up other apps to connect via HubRise, you need to provide these codes.
 
 ## Export the Catalog
 
-Menus can be exported into HubRise for other connected apps to pull, if they offer this integration feature. Refer to your connected apps documentation on the HubRise website to verify.
+Menus can be exported into HubRise for other connected apps to pull, if they offer this integration feature. Refer to the documentation of the other app on the HubRise website to verify.
 
 There are two options available to export the menu from Zelty to HubRise and use it in other connected apps. You can export the entire menu, or a subset of your menu.
 

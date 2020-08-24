@@ -4,7 +4,7 @@ position: 6
 layout: documentation
 meta:
   title: Zelty vs HubRise terminology
-  description: Knowing the differences between the terms used in HubRise versus the terms used in Zelty can help you troubleshoot issues.
+  description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 
 Both HubRise and Zelty have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.

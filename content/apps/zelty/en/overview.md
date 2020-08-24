@@ -3,8 +3,8 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Zelty & HubRise
-  description: What is Zelty, which solutions you can connect it with, and how to use it with HubRise.
+  title: Zelty - Overview & HubRise integration
+  description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 gallery:
   - 002-zelty-epos-interface.png
 

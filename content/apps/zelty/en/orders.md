@@ -3,8 +3,8 @@ title: Orders
 position: 4
 layout: documentation
 meta:
-  title: Receive order from HubRise into Zelty
-  description: How to receive HubRise orders on the Zelty EPOS.
+  title: Receive HubRise orders in Zelty
+  description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 
 Once HubRise is connected to Zelty and ref codes have been mapped, no further steps are needed. Your Zelty EPOS will automatically receive all orders sent to HubRise by other apps.

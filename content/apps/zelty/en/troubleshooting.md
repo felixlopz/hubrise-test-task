@@ -4,7 +4,7 @@ position: 5
 layout: documentation
 meta:
   title: Zelty - HubRise Troubleshooting
-  description: Instructions on how to resolve connection issues between Zelty and HubRise.
+  description: Connect Zelty with the apps you use everyday: food ordering platforms, mobile ordering apps, ordering websites, marketing solutions, and more. 
 ---
 
 From time to time it may be necessary to troubleshoot certain issues with the connection between Zelty or HubRise. Should this need arise, the following information may be helpful.
