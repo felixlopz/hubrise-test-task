@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: Zelty Connection to HubRise Troubleshooting
+  title: Zelty - HubRise Troubleshooting
   description: Instructions on how to resolve connection issues between Zelty and HubRise.
 ---
 

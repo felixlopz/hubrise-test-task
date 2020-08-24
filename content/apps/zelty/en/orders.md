@@ -3,11 +3,11 @@ title: Orders
 position: 4
 layout: documentation
 meta:
-  title: HubRise Order Reception on the Zelty EPOS
-  description: Informs users on how to receive orders on the Zelty EPOS in the context of an integration with HubRise.
+  title: Receive order from HubRise into Zelty
+  description: How to receive HubRise orders on the Zelty EPOS.
 ---
 
-Once HubRise is connected to Zelty and ref codes have been mapped, no further steps are needed. Your Zelty EPOS will receive automatically all orders sent to HubRise by other apps.
+Once HubRise is connected to Zelty and ref codes have been mapped, no further steps are needed. Your Zelty EPOS will automatically receive all orders sent to HubRise by other apps.
 
 ## Receive Orders
 
@@ -19,7 +19,7 @@ To view the order list:
 1. Click on **Statistiques** (Statistics).
 1. Select the **Tickets** tab (Ticket).
 
-If you have correctly connected Zelty to HubRise and mapped all EPOS ref codes on other apps but orders are not automatically received, and you would like to investigate why, see [Troubleshooting](/apps/zelty/troubleshooting). You can also check logs on every transaction in HubRise. For more information, see our HubRise user guide [Logs](/docs/data/#logs).
+If you have correctly connected Zelty to HubRise and mapped all ref codes on other apps but orders are not automatically received, and you would like to investigate why, see [Troubleshooting](/apps/zelty/troubleshooting). You can also check logs for every transaction in HubRise. For more information, see the [Logs section](/docs/data/#logs) of the HubRise user guide.
 
 ## Order Data
 

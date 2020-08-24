@@ -13,7 +13,9 @@ Once your Zelty EPOS is connected with your HubRise account, you can sync inform
 
 Menus can be exported into HubRise for other connected apps to pull, if they offer this integration feature. Refer to your connected apps documentation on the HubRise website to verify.
 
-There are two options available to export the menu from Zelty to HubRise and use it in other connected apps. You can export the entire menu or a subset of your menu. If the app you want to connect cannot import the catalog from HubRise, you might need to export the entire menu in an external file to map product codes manually. For more information, see [Product](/apps/zelty/map-ref-codes/#product).
+There are two options available to export the menu from Zelty to HubRise and use it in other connected apps. You can export the entire menu, or a subset of your menu.
+
+If the app you want to connect cannot import catalogs from HubRise, you might need to map product codes manually. For more information, see [Products](#products).
 
 ### Export the Entire Menu
 
@@ -33,7 +35,7 @@ To export a subset of the menu, you need to create a **catalogue** (catalog). Th
 To create a catalog from your Zelty back office:
 
 1. Navigate to **La Carte** (Menu).
-1. Select **Les catalogues** (Catalog).
+1. Select **Les catalogues** (Catalogs).
 1. Click on the **Créer un nouveau catalogue** (Create a new catalog) button.
 
 To export a subset of the menu:
@@ -46,17 +48,17 @@ To export a subset of the menu:
 
 ---
 
-**IMPORTANT NOTE**: Products, deals and options are exported into HubRise but not tags for the time being.
+**IMPORTANT NOTE**: Zelty exports categories, products, options, pictures and deals into HubRise. Tags however are not exported.
 
 ---
 
 ## Products
 
-If other apps connected to your HubRise account cannot use the menu exported to HubRise, it is possible to export all the reference codes in a CSV, or an Excel file format. This export includes the reference codes for tags, products, menus, and options. With this information in hand, you can manually enter the codes in other systems.
+If other apps connected to your HubRise account cannot use HubRise catalogs, you can export all ref codes in a CSV, or an Excel file format. The export includes ref codes for products, menus, and options, which you can manually enter in other systems.
 
 ---
 
-**IMPORTANT NOTE**: Product reference codes cannot be seen on the Zelty user interface. You can see them in both the HubRise catalog or external file exports.
+**IMPORTANT NOTE**: Ref codes cannot be seen in the Zelty user interface. You can only see them in HubRise catalogs and in CSV/Excel menu exports.
 
 ---
 

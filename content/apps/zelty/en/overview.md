@@ -3,8 +3,8 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Zelty Connection to HubRise Overview
-  description: Overview of Zelty and how to connect it to HubRise.
+  title: Zelty & HubRise
+  description: What is Zelty, which solutions you can connect it with, and how to use it with HubRise.
 gallery:
   - 002-zelty-epos-interface.png
 
@@ -32,18 +32,18 @@ Zelty can connect to an existing or a new HubRise Account.
 
 ## Integration Features
 
-The connection between Zetly and HubRise supports the following:
+Connecting Zelty to HubRise allows Zelty to:
 
-- Zelty's menu can be pushed into a HubRise catalog.
-- Pulls orders from HubRise.
-- Plus customer information from HubRise.
+- Push the menu into a HubRise catalog.
+- Pull orders from HubRise.
+- Pull customer information from HubRise.
 
 ---
 
-**IMPORTANT NOTE:** Order and customer information stored on Zelty cannot currently be pushed into HubRise, but Zelty is working on it. You will need this feature connect apps that need information available in your EPOS such as pay at the table, beeper, or business intelligence.
+**IMPORTANT NOTE:** Order and customer information stored on Zelty cannot currently be pushed into HubRise, but Zelty is working on it. You will need this feature to connect apps that need information available in your EPOS such as pay at the table, beeper, or business intelligence.
 
 ---
 
 ## Why Connect?
 
-Zelty can be connected to HubRise for your EPOS and other apps to work as a cohesive whole. It could be your online ordering site, your loyalty systems, the kitchen display screen you use or your preferred marketing solution. This allows you to sync your menu, your customer and order information. For more information on HubRise, see our [User Guide](/docs).
+Connecting Zelty to HubRise makes your EPOS and your other apps work as a cohesive whole. Synchronize your menu, your customer and order information with food ordering platforms, white branded online ordering, loyalty systems, third party kitchen display screens, or marketing solutions. For more information on HubRise, see our [User Guide](/docs).
