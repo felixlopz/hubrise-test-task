@@ -5,7 +5,7 @@ import * as yup from 'yup'
 
 import Form from './base/form'
 
-import locales from '../../i18n/locales'
+const locales = require('../../i18n/locales')
 
 const structure = {
   formId: `signup`,
@@ -106,7 +106,8 @@ const SignupEnhanced = withFormik({
   }),
   validationSchema: ({ t }) => createSignupSchema(t),
   handleSubmit: (_values, { props }) => {
-    const queryString = `?locale=${locales[props.i18n.language].tag}`
+    const locale = locales.find(({ code }) => code === props.i18n.language)
+    const queryString = `?locale=${locale.tag}`
 
     window.location = `https://manager.hubrise.com/signup${queryString}`
   }

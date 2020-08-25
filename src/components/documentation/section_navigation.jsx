@@ -4,7 +4,7 @@ import cx from 'classnames'
 import { useMedia } from 'react-use'
 import { useTranslation } from 'react-i18next'
 
-import { NonStretchedImage } from '../image'
+import { NonStretchedImage } from '../non_stretched_image'
 import Link from '../../components/link'
 import { generateKey, createHeaderAnchor } from '../utils'
 

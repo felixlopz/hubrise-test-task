@@ -35,7 +35,10 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
   "data": {
     "categories": [...],
     "products": [...],
-    "options_lists": [...]
+    "options_lists": [...],
+    "deals": [...],
+    "discounts": [...],
+    "charges": [...]
   }
 }
 ```
@@ -444,6 +447,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | -------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `ref` <Label type="optional" />              | string                                                     | The ref of the sku, which will be passed along in orders.                                                               |
 | `name` <Label type="optional" />             | string                                                     | The name of the sku. Skus belonging to a same product must have unique names. One sku per product can have a null name. |
+| `restrictions` <Label type="optional" />     | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the sku to be available.                                         |
 | `price`                                      | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                                                                                   |
 | `option_list_refs` <Label type="optional" /> | string[]                                                   | The refs of the option lists this sku is attached to.                                                                   |
 | `tags` <Label type="optional" />             | string[]                                                   | List of tags.                                                                                                           |
@@ -454,6 +458,9 @@ A product contains one or several skus. A sku is always attached to a product.
 {
   "ref": "MAR-SM",
   "name": "Small",
+  "restrictions": {
+    "end_time": "13:30"
+  },
   "price": "9.80 EUR",
   "option_list_refs": ["SAUCE", "PIZZA_TOPPINGS"],
   "tags": ["hidden"]
@@ -467,15 +474,16 @@ A product contains one or several skus. A sku is always attached to a product.
   accessLevel="location, account"
 />
 
-| Name                                        | Type                                                       | Description                                          |
-| ------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
-| `id`                                        | string                                                     | The id of the sku.                                   |
-| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                  |
-| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                 |
-| `product_id`                                | string                                                     | The id of the sku's parent product.                  |
-| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                |
-| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to. |
-| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                        |
+| Name                                        | Type                                                       | Description                                                         |
+| ------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| `id`                                        | string                                                     | The id of the sku.                                                  |
+| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                                 |
+| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                                |
+| `restrictions` <Label type="optional" />    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
+| `product_id`                                | string                                                     | The id of the sku's parent product.                                 |
+| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                               |
+| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to.                |
+| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                                       |
 
 #### Example request:
 
@@ -486,6 +494,9 @@ A product contains one or several skus. A sku is always attached to a product.
   "id": "sb65k",
   "ref": "MAR-SM",
   "name": "Small",
+  "restrictions": {
+    "end_time": "13:30"
+  },
   "product_id": "abg5a",
   "price": "9.80 EUR",
   "option_list_ids": ["e2sfj"],
@@ -714,7 +725,7 @@ Retrieve an option list and the possible choices (options).
 | `name`                                              | string                                                     | The deal name.                                                                                                                                                                                                                                                                                                |
 | `description` <Label type="optional" />             | string                                                     | The description of the deal.                                                                                                                                                                                                                                                                                  |
 | `coupon_codes` <Label type="optional" />            | string[]                                                   | The coupon codes that trigger this deal.                                                                                                                                                                                                                                                                      |
-| `restrictions` <Label type="optional" />            | [Restrictions](#restrictions)                              | Availability restrictions.                                                                                                                                                                                                                                                                                    |
+| `restrictions` <Label type="optional" />            | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the deal to be available.                                                                                                                                                                                                                              |
 | `tags` <Label type="optional" />                    | string[]                                                   | List of tags.                                                                                                                                                                                                                                                                                                 |
 | `image_ids` <Label type="optional" />               | string[]                                                   | List of image ids attached to the deal.                                                                                                                                                                                                                                                                       |
 | `lines`                                             | array                                                      | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                                                                                                           |
@@ -832,7 +843,7 @@ A discount is a reduction of the order total price.
 | `name`                                    | string                        | The name of the discount.                                                                                                                                                                                                      |
 | `description` <Label type="optional" />   | string                        | The description of the discount.                                                                                                                                                                                               |
 | `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                                                                                    |
-| `restrictions` <Label type="optional" />  | [Restrictions](#restrictions) | Availability restrictions.                                                                                                                                                                                                     |
+| `restrictions` <Label type="optional" />  | [Restrictions](#restrictions) | An optional set of conditions that must be matched for the discount to be available.                                                                                                                                           |
 | `pricing_effect`                          | string                        | One of: `price_off`, `percentage_off`.                                                                                                                                                                                         |
 | `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `price_off`, and a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`. |
 | `image_ids` <Label type="optional" />     | string[]                      | List of image ids attached to the discount.                                                                                                                                                                                    |
@@ -843,6 +854,9 @@ A discount is a reduction of the order total price.
 {
   "ref": "25OFF",
   "name": "25% off your order",
+  "restrictions": {
+    "min_order_amount": "30.00 EUR"
+  },
   "pricing_effect": "percentage_off",
   "pricing_value": "25"
 }
@@ -862,8 +876,8 @@ A discount is a reduction of the order total price.
 ```json
 {
   "id": "av1up",
-  "name": "5€ off your order",
   "ref": "5OFF",
+  "name": "5€ off your order",
   "restrictions": {
     "dow": "123----"
   },
@@ -887,8 +901,8 @@ A discount is a reduction of the order total price.
 [
   {
     "id": "av1up",
-    "name": "5€ off your order",
     "ref": "5OFF",
+    "name": "5€ off your order",
     "pricing_effect": "price_off",
     "pricing_value": "5.00 EUR"
   },
@@ -981,7 +995,7 @@ Retrieve the list of charges in the catalog.
 
 ## 10. Restrictions
 
-A `restrictions` map can be used in [Discount](#discounts) and [Deal](#deals) resources.
+A `restrictions` map can be used in [Sku](#skus), [Discount](#discounts) and [Deal](#deals) resources.
 
 It defines a set of conditions for a particular item to be available.
 
