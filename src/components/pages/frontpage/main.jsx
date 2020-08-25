@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { NonStretchedImage } from '../../image'
+import { NonStretchedImage } from '../../non_stretched_image'
 import { generateKey } from '../../utils'
 
 import remark from 'remark'
