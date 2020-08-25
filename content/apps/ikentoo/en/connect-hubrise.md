@@ -57,7 +57,7 @@ On the top right corner of the iKentoo Bridge main page, the HubRise user and lo
 
 ---
 
-![Main page](../images/003-en-main-page.png)
+![Main page](../images/003-en-2x-main-page-truncated.png)
 
 ### Operation page
 
@@ -70,10 +70,10 @@ Requests are ordered with the latest on top, and each of them displays the follo
 - **STATUS**: The status of the request. The value **OK** indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
   **Clicking** on a request will expand it to reveal the detailed logs of the request and its response. Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see the [HubRise documentation](/docs/hubrise-logs/).
 
-![Order page](../images/002-en-operations-page.png)
+![Order page](../images/005-en-2x-operations-page.png)
 
 ## Configuration page
 
 In the **Configuration page**, it is possible to change the iKentoo business location associated with the HubRise location.
 
-![Configuration page](../images/002-en-configuration-page.png)
+![Configuration page](../images/002-en-2x-configuration-page.png)

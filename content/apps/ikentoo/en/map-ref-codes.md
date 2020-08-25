@@ -28,6 +28,6 @@ The previous section showed you how to find ref codes for each menu item. You ma
   ![](../images/009-en-export-items.png)
 - In the popup window, choose your operation system type: Mac or Windows (or Manual configuration) and click **Export**.
 - After the export is complete, click on **Click here to download the exported file** to download the CSV file with your menu.
-  ![Download items CSV](../images/006-en-download-items.png)
+  ![Download items CSV](../images/006-en-2x-download-items.png)
 - Open the downloaded CSV file in Excel or a text editor.
 - The ref codes to copy are in the **SKU** column.
