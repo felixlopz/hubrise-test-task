@@ -1,11 +1,11 @@
-module.exports = {
-  en: {
+module.exports = [
+  {
     code: `en`,
     tag: `en-GB`,
     default: true
   },
-  fr: {
+  {
     code: `fr`,
     tag: `fr-FR`
   }
-}
+]

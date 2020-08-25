@@ -1,38 +1,34 @@
-require('./src/utils/gatsby_inspector')
+require('./src/utils/gatsby-inspector')
 
-const { loadYaml } = require(`./src/utils/load-yaml`)
-const redirects = loadYaml(`./redirects.yaml`)
+const plugins = [
+  require(`./src/plugins/404.js`),
+  require(`./src/plugins/base.js`),
+  require(`./src/plugins/blog-list.js`),
+  require(`./src/plugins/documentation.js`),
+  require(`./src/plugins/redirects.js`),
+  require(`./src/plugins/yaml.js`)
+]
 
-const docs = require(`./src/utils/node/docs.js`)
-const blog = require(`./src/utils/node/blog.js`)
-
-const sections = [docs, blog]
-
-// Run the provided API on all defined sections of the site
-async function runApiForSections(api, helpers) {
+async function runApiForPlugins(api, helpers) {
   await Promise.all(
-    sections.map((section) => section[api] && section[api](helpers))
+    plugins.map((plugin) => plugin[api] && plugin[api](helpers))
   )
 }
 
+exports.createSchemaCustomization = async (helpers) => {
+  await runApiForPlugins(`createSchemaCustomization`, helpers)
+}
+
 exports.onCreateNode = async (helpers) => {
-  await runApiForSections(`onCreateNode`, helpers)
+  await runApiForPlugins(`onCreateNode`, helpers)
 }
 
 exports.createPages = async (helpers) => {
-  await runApiForSections(`createPages`, helpers)
+  await runApiForPlugins(`createPages`, helpers)
+}
 
-  const { actions } = helpers
-  const { createRedirect } = actions
-
-  redirects.forEach((redirect) => {
-    createRedirect({
-      isPermanent: true,
-      ...redirect,
-      force: true,
-      redirectInBrowser: true
-    })
-  })
+exports.createResolvers = async (helpers) => {
+  await runApiForPlugins(`createResolvers`, helpers)
 }
 
 const translations = require('./src/utils/translations')

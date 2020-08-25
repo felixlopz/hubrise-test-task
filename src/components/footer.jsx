@@ -3,13 +3,20 @@ import { useTranslation } from 'react-i18next'
 
 import Link from './link'
 
-import { generateKey } from './utils'
+import { generateKey, getLanguageFromAbsolutePath } from './utils'
 
 import logo from '../images/logo_footer.png'
 import hero from '../images/hero_image_optimized.jpg'
+import { graphql, useStaticQuery } from 'gatsby'
 
-const Footer = () => {
+const Footer = ({ pageContext }) => {
   const { t } = useTranslation()
+
+  const menuFooterNodes = useStaticQuery(footerQuery).allFile.nodes
+  const menuItems = menuFooterNodes.find(
+    ({ absolutePath }) =>
+      getLanguageFromAbsolutePath(absolutePath) === pageContext.lang
+  ).childYaml.parsedContent
 
   return (
     <footer
@@ -24,7 +31,7 @@ const Footer = () => {
       <div className="footer__in">
         <div className="footer__block">
           <ul className="footer-menu">
-            {t(`layout.menu.links`).map(({ title, to }, idx) => (
+            {menuItems.map(({ title, to }, idx) => (
               <li key={generateKey(title, idx)} className="footer-menu__item">
                 <Link to={to} className="footer-menu__link">
                   {title}
@@ -63,5 +70,18 @@ const Footer = () => {
     </footer>
   )
 }
+
+const footerQuery = graphql`
+  query getFooterData {
+    allFile(filter: { base: { eq: "menu-footer.yaml" } }) {
+      nodes {
+        absolutePath
+        childYaml {
+          parsedContent
+        }
+      }
+    }
+  }
+`
 
 export default Footer

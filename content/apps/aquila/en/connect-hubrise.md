@@ -52,7 +52,7 @@ At this point the connection between Aquila and HubRise is done at Account level
 
 ## Connect to Locations
 
-To distinguish between each Point of Sake, a unique identifier for the location needs to be added. It can be done in the following way:
+To distinguish between each Point of Sale, a unique identifier for the location needs to be added. It can be done in the following way:
 
 1. Login to your Aquila back office.
 1. Select **Point de vente** from the left navigation panel.

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import Image from 'gatsby-image'
+import GatsbyImage from 'gatsby-image'
 
 import Link from '../../link'
 import { useInterval } from '../../custom_hooks'
@@ -114,7 +114,7 @@ export const CompatibleApps = ({
                   }}
                 >
                   <span className="index-carousel__title">{title}</span>
-                  <Image
+                  <GatsbyImage
                     className="index-carousel__image orbit-image"
                     alt={title}
                     {...childImageSharp}
