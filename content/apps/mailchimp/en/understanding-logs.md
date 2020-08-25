@@ -7,23 +7,35 @@ meta:
   description: Informs users on how to read the output in the Logs.
 ---
 
-The logs page on Mailchimp Bridge shows a list of activities on Mailchimp Bridge. On the logs page you will find two different types of activities. Activities which contain an entry in the Customer column are, are activities where a customer's details was sent to Mailchimp. Other activities are, for instance, when the list of customers was sent to Mailchimp when the service was connected.
+The main page on Mailchimp Bridge shows **Latest operations**, the HubRise requests sent to Mailchimp. The requests from HubRise to the Mailchimp Bridge and the request from Mailchimp Bridge to Mailchimp can be found here.
 
-![Mailchimp Bridge Logs Page](../images/007-en-mailchimp-logs.png)
+## Operations table
 
-When clicked each activity opens and displays all the logs of the API requests exchanged between HubRise and Mailchimp via the Mailchimp Bridge. Information about each API request is contained in three columns:
+The **Latest operations** table might contain an **ORDER** and/or a **CUSTOMER** column depending on the configuration options chosen. For more information, see [Configurations Options](/apps/mailchimp/configuration/#configuration-options).
 
-- **Time**: the time the activity took place.
-- **Direction**: the direction of the activity, i.e. whether it was data sent from HubRise to Mailchimp Bridge or whether it was data sent from Mailchimp Bridge to Mailchimp.
-- **Status**: The status of the request. The value OK confirms that the request was successfully sent.
+Operations which contain an entry in the **Customer** or the **Order** column, show where a customer's details was sent to Mailchimp. Other operations might be when an export of all HubRise customers is sent to Mailchimp.
+
+![Mailchimp Bridge Operations Page](../images/001-en-2x-mailchimp-operations.png)
+
+You might also find automated **System request** entries. These can be ignored.
+
+![Mailchimp Bridge Operations Page](../images/002-en-mailchimp-operations-system-requests.png)
+
+When clicked each operation opens and displays all the logs of the API requests exchanged between HubRise and Mailchimp via the Mailchimp Bridge. Information about each API request is contained in three columns:
+
+- **Time**: The time the operation took place.
+- **Direction**: The direction of the operation, i.e. whether it was data sent from HubRise to Mailchimp Bridge or whether it was data sent from Mailchimp Bridge to Mailchimp.
+- **Status**: The status of the request. The value `OK` confirms that the request was successfully sent. The value `401` or any other value showing in red means that the request has failed.
 
 ![Mailchimp Logs](../images/008-en-mailchimp-activity-logs.png)
 
 Each log, when opened, is divided into two parts: Request and Response. The former displays the information sent in the request, and the latter the response received.
 
-## The Request from HubRise to MailChimp Bridge
+## Request from HubRise
 
-The information contained in the **Request** and **Response** logs in the case of a request from HubRise to Mailchimp Bridge are in JSON format. The request log for the request made from HubRise to Mailchimp Bridge contains the following data fields:
+The information contained in the **Request** and **Response** logs in the case of a request from HubRise to Mailchimp Bridge are in JSON format.
+
+The request log for the request made from HubRise to Mailchimp Bridge contains the following data fields:
 
 - `id`: the id for the specific request.
 - `resource_type`: In respect of the interaction between the Mailchimp Bridge and HubRise, this will always be `customer' as Mailchimp Bridge only allows the transmission of customer data between Mailchimp and HubRise.
@@ -44,7 +56,7 @@ The information contained in the **Request** and **Response** logs in the case o
 
 For more information on reading and understanding JSON documents, you can look at the [HubRise Documentation](/docs/hubrise-logs) on logs.
 
-## The Request from Mailchimp Bridge to Mailchimp
+## Request to Mailchimp
 
 In the case of a request made from Mailchimp Bridge to Mailchimp, the data is transferred as an URL Encoded Form. In this case the keys and values are encoded in key-value tuples separated by '&', with a '=' between the key and the value. Non-alphanumeric characters in both keys and values are percent encoded: this is the reason why this type is not suitable to use with binary data.
 
