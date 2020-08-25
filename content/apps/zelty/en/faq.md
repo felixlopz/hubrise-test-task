@@ -3,8 +3,8 @@ title: FAQs
 position: 7
 layout: documentation
 meta:
-  title: Zelty Connection to HubRise FAQs
-  description: Zelty to HubRise frequently asked questions and corresponding answers to help you answer support queries autonomously.
+  title: Zelty - HubRise FAQs
+  description: 'Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.'
 ---
 
 No frequently asked questions are available at this time.
