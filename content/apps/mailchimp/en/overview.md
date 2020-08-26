@@ -6,7 +6,7 @@ meta:
   title: HubRise Mailchimp Bridge Overview
   description: Details the use and functionality of the Mailchimp Bridge.
 gallery:
-  - 008-en-2x-connection-diagram.png
+  - 008-en-2x-mailchimp-bridge-view.png
 path_override: /
 app_info:
   category: Marketing

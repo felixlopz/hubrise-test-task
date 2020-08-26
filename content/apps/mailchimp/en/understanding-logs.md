@@ -27,7 +27,7 @@ When clicked each operation opens and displays all the logs of the API requests 
 - **Direction**: The direction of the operation, i.e. whether it was data sent from HubRise to Mailchimp Bridge or whether it was data sent from Mailchimp Bridge to Mailchimp.
 - **Status**: The status of the request. The value `OK` confirms that the request was successfully sent. The value `401` or any other value showing in red means that the request has failed.
 
-![Mailchimp Logs](../images/008-en-mailchimp-activity-logs.png)
+![Mailchimp Logs](../images/003-en-mailchimp-operation-logs.png)
 
 Each log, when opened, is divided into two parts: Request and Response. The former displays the information sent in the request, and the latter the response received.
 
