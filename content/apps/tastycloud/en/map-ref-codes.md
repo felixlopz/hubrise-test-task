@@ -33,18 +33,15 @@ Then follow these steps to map items between TastyCloud and HubRise:
 
 1. Click **Mapping des produits** (Products mapping) from the left navigation panel.
 
-1. Select from the following options depending on which mapping you are updating:
+1. Select the type of mappings you want to update: **Produits** (Products), or **Options** (Options).
 
-   - **Produits** (Products)
-   - **Options** (Options)
-
-1. Select the TastyCloud element to be mapped from the left dropdown, then match it with the HubRise element from the right dropdown. The left dropdown includes all the TastyCloud items that have not yet been mapped. Then click **Enregistrer** (Save).
+1. Select the TastyCloud element to be mapped from the left dropdown, then match it with the HubRise element from the right dropdown. The left dropdown includes all the TastyCloud items that have not yet been mapped. Click **Enregistrer** (Save) to create the mapping.
 
 1. Repeat the process for every item in the left dropdown.
 
-![Product mapping](../images/002-product-mapping.png)
-
 The **Mapping des produits** (Products mapping) page also displays a table with the current mappings between TastyCloud and HubRise. The left side displays the **Id** and the **Nom** (Name) on TastyCloud. The right side displays the HubRise **Id** (EPOS ref code) and **Nom** (EPOS name) it is mapped to.
+
+![Product mapping](../images/002-product-mapping.png)
 
 For example, let's consider the single mapping in the screenshot above:
 
@@ -61,7 +58,7 @@ To remove an existing mapping between TastyCloud and HubRise, click the red **De
 
 Menus and Formules in TastyCloud are called deals in HubRise. Deals need to be mapped to HubRise in a similar way to products and options.
 
-Follow the instructions in the previous section, and make sure to select **Menus** in the **Mapping des produits** page.
+Follow the instructions in the previous section. In the **Mapping des produits** page, select **Menus** instead of **Produits** or **Options**.
 
 ## Discounts (Promotions)
 
