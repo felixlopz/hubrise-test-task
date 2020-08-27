@@ -3,8 +3,8 @@ title: Understanding Logs
 position: 4
 layout: documentation
 meta:
-  title: Understanding Logs on the HubRise Mailchimp Bridge
-  description: Informs users on how to read the output in the Logs.
+  title: Mailchimp - Understanding the Logs on HubRise
+  description: All the information of the connection between Mailchimp and HubRise are contained in logs. To understand your connection you need to understand the logs.
 ---
 
 The main page on Mailchimp Bridge shows **Latest operations**, the HubRise requests sent to Mailchimp. The requests from HubRise to the Mailchimp Bridge and the request from Mailchimp Bridge to Mailchimp can be found here.

@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Mailchimp Connection to HubRise
-  description: Instructions on connecting Mailchimp with HubRise.
+  title: Mailchimp - Connect to HubRise
+  description: How to connect Mailchimp to HubRise to harness the power of Mailchimp to help you grow your business faster.
 ---
 
 The instructions below detail how to connect your Mailchimp account to a your HubRise account.

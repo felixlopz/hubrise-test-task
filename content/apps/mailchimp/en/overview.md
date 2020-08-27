@@ -3,8 +3,8 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: HubRise Mailchimp Bridge Overview
-  description: Details the use and functionality of the Mailchimp Bridge.
+  title: Mailchimp - Overview & HubRise Integration
+  description: 'Connect Mailchimp to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.'
 gallery:
   - 008-en-2x-mailchimp-bridge-view.png
 path_override: /

@@ -3,8 +3,8 @@ title: Configuration
 position: 3
 layout: documentation
 meta:
-  title: Mailchimp Connection to HubRise Configuration
-  description: Instructions on how to configure Mailchimp for optimal connection to HubRise.
+  title: Mailchimp - Configuring the Connection
+  description: How to configure your Mailchimp connection to Hubrise for a perfect integration into the marketing pipeline for your business.
 ---
 
 Once your HubRise account is connected to your Mailchimp account, your customer information will be pushed to Mailchimp automatically. Depending on your preferences, there are some options available to configure when the customer information is pushed to Mailchimp.

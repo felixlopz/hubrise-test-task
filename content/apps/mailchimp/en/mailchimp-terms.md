@@ -3,8 +3,8 @@ title: Mailchimp Terms
 position: 6
 layout: documentation
 meta:
-  title: HubRise vs Mailchimp Terms and Definitions
-  description: Informs users on different terms and definitions used by Mailchimp vs HubRise. Understanding differences can help resolve troubleshooting Mailchimp connection issues in the context of an integration with HubRise.
+  title: Mailchimp - Terminology
+  description: Mailchimp and HubRise each have their own vocabulary with different definitions. Here you can learn the difference between the two which can help you resolve connection issues. 
 ---
 
 Both HubRise and Mailchimp have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.

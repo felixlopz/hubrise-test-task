@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: LivePepper Connection to HubRise Troubleshooting
-  description: Instructions on how resolve connection issues.
+  title: Mailchimp - Troubleshooting Connection Issues
+  description: Sometimes issues arise in the connection between Mailchimp and HubRise. Here's how to troubleshoot and fix these issues. 
 ---
 
 From time to time it may be necessary to troubleshoot the connection between Mailchimp and HubRise.
