@@ -1,13 +1,13 @@
 path: /
 meta:
-  title: HubRise - Intégration pour le point de vente et la restauration
-  description: HubRise permet de connecter votre app à un écosystème de solutions point de vente et restauration, avec une seule intégration.
+  title: HubRise - Intégration pour le commerce et la restauration
+  description: HubRise permet de connecter votre app à un écosystème de solutions commerce et restauration, avec une seule intégration.
 
 header:
   hero:
-    title: Intégration logicielle pour le point de vente et la restauration
+    title: Intégration pour le commerce et la restauration
     description: |
-      HubRise permet de connecter votre app aux solutions point de vente et restauration. [Pourquoi HubRise a été créé ?](/fr/blog/pourquoi-j-ai-cree-hubrise)
+      HubRise connecte votre app à une multitiude de solutions avec une seule intégration. ?? [Pourquoi HubRise a été créé ?](/fr/blog/pourquoi-j-ai-cree-hubrise)
   signup_form:
     title: Démarrez maintenant
     description:
@@ -21,8 +21,8 @@ body:
   - block_type: main
     title: De nouvelles connexions pour votre app
     description: |
-      Connectez-vous aux apps que vous voulez. [Plus de 40 intégrations disponibles](/fr/apps).
-      Une intégration unique à l'API d'HubRise suffit à rejoindre l'écosystème.
+      Concentrez-vous sur le développement de votre app, nous nous occupons des intégrations.
+      Une intégration à HubRise vous connecte aux apps que vous voulez. [Plus de 40 intégrations disponibles](/fr/apps).
     features:
       - Logiciels de caisse
       - Commande en ligne
@@ -36,16 +36,16 @@ body:
   - block_type: main
     title: Une API publique et facile à utiliser
     description: |
-      L'API de HubRise permet de synchroniser les commandes, les clients et les produits.
+      Notre API vous permet de synchroniser les commandes, les clients et les produits.
       [Quelques dizaines de lignes de Javascript](https://github.com/HubRise/demo-web-orders) permettent de développer une app complète et intégrée !
       Une [collection Postman](https://drive.google.com/file/d/1dsJ7RALAKKxCNrwfWggqJop-WC71DYTX/view?usp=sharing) est disponible, ainsi qu'un [SDK Ruby](https://github.com/HubRise/ruby-client).
     diagram: 001-api-example.png
 
   - block_type: main
-    title: Documentation des apps détaillée
+    title: La documentation est notre priorité
     description: |
-      Nous documentons les fonctionnalités et les flux de données de chaque app intégrée.
-      C'est un travail en cours, mais vous pouvez déjà [voir un exemple](/fr/apps/zelty).
+      Nous documentons les fonctionnalités, les flux de données et les pièges classiques de chaque intégration, pour éliminer les incertitudes et vous faire gagner du temps.
+      C'est un travail en cours, mais vous pouvez déjà en [voir un exemple](/fr/apps/zelty).
 
   - block_type: main_green
     title: 25€ par mois et par point de vente
@@ -56,9 +56,9 @@ body:
   - block_type: main
     title: Créé pour les développeurs
     description: |
-      Aucun frais ni contrat, une documentation complète : l'écosystème HubRise est ouvert à tous les développeurs.
-      Consultez notre [Guide de démarrage rapide](/fr/developers/quick-start) pour connecter votre app.
+      Aucun frais ni contrat, une documentation complète : rejoindre l'écosystème HubRise est facile.
       Nous répondons à vos questions techniques, évaluons et documentons gratuitement votre intégration.
+      Consultez notre [Guide de démarrage rapide](/fr/developers/quick-start) pour connecter votre app.
 
   #  - block_type: demonstration
 #    title: Démonstration

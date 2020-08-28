@@ -1,13 +1,13 @@
 path: /
 meta:
-  title: HubRise - Integration for retail and hospitality
-  description: HubRise lets you connect your app to a growing ecosystem of retail and hospitality solutions with a single integration.
+  title: HubRise - Integration for retail and hospitality solutions
+  description: HubRise is a developer friendly solution to connect to a growing ecosystem of retail and hospitality solutions with a single integration.
 
 header:
   hero:
     title: Integration for retail and hospitality solutions
     description: |
-      HubRise lets you connect your app to a growing ecosystem of retail and hospitality solutions.
+      HubRise is a developer friendly solution to connect to a multitude of apps with a single integration. ?? [Why HubRise was created?](/blog/why-hubrise-was-created)
   signup_form:
     title: Get Started Now
     description:
@@ -22,8 +22,9 @@ body:
   - block_type: main
     title: New connections for your app
     description: |
-      Connect to the apps you want. [More than 40 integrations are available](/apps).
-      It takes a single integration to HubRise API to join the ecosystem.
+      Focus on the development of your app, while we look after integrations.
+      It takes a single integration to connect to the apps you want. [More than 40 integrations available](/apps).
+
     features:
       - EPOS
       - Online Ordering
@@ -35,41 +36,36 @@ body:
 #    diagram: diagram-en.png
 
   - block_type: main
-    title: Public and freely accessible API
+    title: Public and easy to use API
     description: |
-      With no fee, no contract and comprehensive documentation, joining the HubRise ecosystem is easy.
-      Check our [Quick Start guide](/developers/quick-start) to connect your app.
+      With our API, you can synchronise orders, customers and products.
+      A Postman collection is available, as well as a Ruby SDK. It takes less than 200 lines of Javascript to create a functional and integrated app. [Check it here](https://github.com/HubRise/demo-web-orders)!
+      To connect your app, check our [Quick Start guide](/developers/quick-start).
     diagram: 001-api-example.png
 
   - block_type: main
     title: Documentation at the core
     description: |
-      We are aiming to document the capabilities and data flow of each integrated app.
-      It's a work in progress but you can already [check an example](/apps/zelty).
+      No guesswork. We document the capabilities, data flow, and common pitfalls of each integrated app.
+      See documented apps on our [Apps page](/apps/).
 
   - block_type: main_green
-    title: 25€ per month per location
+    title: Pricing as it should be
     description: |
-      Unlimited number of connections and orders.
-      Free plan for up to 50 orders per month. Free for developers.
+      No setup fee. No commitment. No contract.
+      25€ per month per location. Unlimited number of connections and orders.
 
   - block_type: main
-    title: Developer friendly
+    title: We help developers
     description: |
-      With no fee, no contract and comprehensive documentation, joining the HubRise ecosystem is easy.
-      Check our [Quick Start guide](/developers/quick-start) to connect your app.
-      We will also support, assess and document your integration. For free.
+      Our ecosystem grows constantly and we can't wait to see you there.
+      We support you during your integration, and assess and document the work done.
+      An app is missing? Let us know and we will make it happen (or try hard).
+      We will let others know when you are integrated.
 
   - block_type: main
-    title: Easy for users
+    title: Friendly for users
     description: |
-      We make it easy to connect.
-
-  #  - block_type: faq
-  #    title: Priced as it should be
-  #    bullets:
-  #      - Unlimited number of connected apps.
-  #      - No setup fee.
-  #      - Unlimited number of orders.
-  #      - No commitment.
-
+      No need to be an engineer: support team members and IT savvy clients.
+      Users connect in one click.
+      When things go wrong, they can check connection logs from our back office.
