@@ -1,12 +1,13 @@
 path: /
 meta:
-  title: HubRise
-  description: HubRise relie votre caisse, votre site Internet et tous vos logiciels.
-content:
+  title: HubRise - Intégration pour le commerce et la restauration
+  description: HubRise permet de connecter votre app à un écosystème de solutions commerce et restauration, avec une seule intégration.
+
+header:
   hero:
-    title: L'intégration, pour les développeurs
-    description:
-      paragraph: Intégrez votre app à une multitude de solutions de point de vente
+    title: Intégration pour le commerce et la restauration
+    description: |
+      Conçu pour les développeurs, HubRise connecte votre app à une multitude de solutions en une seule intégration.
   signup_form:
     title: Démarrez maintenant
     description:
@@ -16,60 +17,88 @@ content:
         to: /tarifs
     button: Créer votre compte
 
-  mains:
-    - title: De nouvelles connexions pour votre app
-      description: |
-        Les apps de notre écosystème sont connectables à travers une API unique et bien conçue.
-        Concentrez-vous sur les fonctionnalités de votre app, nous nous occupons des intégrations.
-      features:
-        - Commande en ligne
-        - Logiciel de caisse
-        - Gestion de livreurs
-        - Carte de fidélité
-        - Envoi d'emails
-        - Applications mobiles
-        - Et plus encore
-      diagram: diagram-fr.png
+body:
+  - block_type: main
+    title: De nouvelles connexions pour votre app
+    description: |
+      Concentrez-vous sur le développement de votre app, nous nous occupons des intégrations.
+      Une intégration à HubRise vous connecte aux apps que vous voulez. [Plus de 40 intégrations disponibles](/fr/apps).
+    features:
+      - Logiciels de caisse
+      - Commande en ligne
+      - Plateformes de livraison de repas
+      - Solutions marketing
+      - Cartes de fidélité digitales
+#      - Paiement mobile
+      - Et plus encore
+#    diagram: diagram-fr.png
 
-  demonstration:
-    title: Démonstration
-    unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
-    video: coming-soon.mp4
-  faq:
-    title: F.A.Q.
-    bullets:
-      - Every request, every bit of data is traced
-      - Access control with thin grained permissions
-      - The data belongs to you
-  compatible_apps:
-    title: De nouvelles applications tous les mois
-    description:
-      paragraph_1: 'HubRise est connecté avec un nombre croissant de solutions : JDC/Kezia II, Nestor, MyOrderBox, OrderLord...'
-      paragraph_2: D'autres intégrations sont en cours.
-      link_1:
-        text: Voir les applications disponibles
-        to: /apps
-      hint_1: (commerçants)
-      link_2:
-        text: Connectez votre logiciel à HubRise
-        to: /developers
-      hint_2: (développeurs)
-    carousel:
-      - file: logo-carousel.jpg
-        title: '(1) Orderlord: a mobile app to manage your delivery fleet'
-        description: First slide details.
-      - file: logo-carousel.jpg
-        title: '(2) Orderlord: a mobile app to manage your delivery fleet'
-        description: Second slide details.
-      - file: logo-carousel.jpg
-        title: '(3) Orderlord: a mobile app to manage your delivery fleet'
-        description: Third slide details.
-      - file: logo-carousel.jpg
-        title: '(4) Orderlord: a mobile app to manage your delivery fleet'
-        description: Fourth slide details.
-    screen_reader_pointer: Current slide
-  philosophy:
-    title: Qui sommes-nous ?
-    description:
-      paragraph_1: HubRise est une société basée en France, fondée par des ingénieurs spécialisés dans les logiciels de réservation aérienne, et de commande en ligne pour les restaurants.
-      paragraph_2: "Notre vision : les commerçants utilisent de plus en plus d'applications informatiques pour leur activité, mais celles-ci ne communiquent généralement pas entre elles. HubRise veut offrir une solution universelle permettant à toutes les applications des commerçants de communiquer aisément entre elles."
+  - block_type: main
+    title: Une API publique et facile à utiliser
+    description: |
+      Notre API permet de synchroniser les commandes, les clients et les produits.
+      Une documentation publique, et une collection Postman, sont disponibles. Nous avons aussi un SDK Ruby.
+      Avec moins de 200 lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/demo-web-orders).
+    diagram: 001-api-example.png
+
+  - block_type: main
+    title: Une documentation détaillée
+    description: |
+      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque app intégrée, pour vous faire gagner du temps.
+      Accédez à nos documentations depuis la [page Apps](/fr/apps).
+
+  - block_type: main_green
+    title: Tarification simple et accessible
+    description: |
+      Pas de frais d'installation. Pas d'engagement. Pas de contrat.
+      25€ par mois et par point de vente, nombre de connexions illimité.
+
+  - block_type: main
+    title: Maintenance réduite et scalabilité
+    description: |
+      Votre équipe de support et vos utilisateurs peuvent se connecter en un clic.
+      Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
+
+  - block_type: main
+    title: Nous aidons les développeurs
+    description: |
+      Vous pouvez compter sur nos développeurs pour répondre à vos questions techniques durant l'intégration.
+      A la fin de l'intégration, nous évaluons et documentons le travail que vous avez fait, et communiquons sur votre arrivée avec notre communauté.
+
+  - block_type: main
+    title: Rejoindre l'écosystème est facile
+    description: |
+      Pour connecter votre app, démarrez ici : [Documentation développeurs](/developers).
+
+  #  - block_type: demonstration
+#    title: Démonstration
+#    unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
+#    video: coming-soon.mp4
+
+#  - block_type: compatible_apps
+#    title: De nouvelles applications tous les mois
+#    description:
+#      paragraph_1: 'HubRise est connecté avec un nombre croissant de solutions : JDC/Kezia II, Nestor, MyOrderBox, OrderLord...'
+#      paragraph_2: D'autres intégrations sont en cours.
+#      link_1:
+#        text: Voir les applications disponibles
+#        to: /apps
+#      hint_1: (commerçants)
+#      link_2:
+#        text: Connectez votre logiciel à HubRise
+#        to: /developers
+#      hint_2: (développeurs)
+#    carousel:
+#      - file: logo-carousel.jpg
+#        title: '(1) Orderlord: a mobile app to manage your delivery fleet'
+#        description: First slide details.
+#      - file: logo-carousel.jpg
+#        title: '(2) Orderlord: a mobile app to manage your delivery fleet'
+#        description: Second slide details.
+#      - file: logo-carousel.jpg
+#        title: '(3) Orderlord: a mobile app to manage your delivery fleet'
+#        description: Third slide details.
+#      - file: logo-carousel.jpg
+#        title: '(4) Orderlord: a mobile app to manage your delivery fleet'
+#        description: Fourth slide details.
+#    screen_reader_pointer: Current slide

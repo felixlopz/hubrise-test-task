@@ -1,4 +1,6 @@
 import React from 'react'
+import remark from 'remark'
+import remarkHtml from 'remark-html'
 
 /**
  * Applies kebab case to a regular string.
@@ -105,3 +107,9 @@ export const getLanguageFromAbsolutePath = (absolutePath) => {
   const pathItems = absolutePath.split('/')
   return pathItems[pathItems.length - 2]
 }
+
+export const markdownToHtml = (markdown) =>
+  remark()
+    .use(remarkHtml)
+    .processSync(markdown.replace(/\n/g, '\n\n'))
+    .toString()
