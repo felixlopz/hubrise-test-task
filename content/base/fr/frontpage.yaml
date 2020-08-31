@@ -7,7 +7,7 @@ header:
   hero:
     title: Intégration pour le commerce et la restauration
     description: |
-      HubRise connecte votre app à une multitiude de solutions avec une seule intégration. ?? [Pourquoi HubRise a été créé ?](/fr/blog/pourquoi-j-ai-cree-hubrise)
+      Conçu pour les développeurs, HubRise connecte votre app à une multitude de solutions en une seule intégration.
   signup_form:
     title: Démarrez maintenant
     description:
@@ -36,29 +36,39 @@ body:
   - block_type: main
     title: Une API publique et facile à utiliser
     description: |
-      Notre API vous permet de synchroniser les commandes, les clients et les produits.
-      [Quelques dizaines de lignes de Javascript](https://github.com/HubRise/demo-web-orders) permettent de développer une app complète et intégrée !
-      Une [collection Postman](https://drive.google.com/file/d/1dsJ7RALAKKxCNrwfWggqJop-WC71DYTX/view?usp=sharing) est disponible, ainsi qu'un [SDK Ruby](https://github.com/HubRise/ruby-client).
+      Notre API permet de synchroniser les commandes, les clients et les produits.
+      Une documentation publique, et une collection Postman, sont disponibles. Nous avons aussi un SDK Ruby.
+      Avec moins de 200 lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/demo-web-orders).
     diagram: 001-api-example.png
 
   - block_type: main
-    title: La documentation est notre priorité
+    title: Une documentation détaillée
     description: |
-      Nous documentons les fonctionnalités, les flux de données et les pièges classiques de chaque intégration, pour éliminer les incertitudes et vous faire gagner du temps.
-      C'est un travail en cours, mais vous pouvez déjà en [voir un exemple](/fr/apps/zelty).
+      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque app intégrée, pour vous faire gagner du temps.
+      Accédez à nos documentations depuis la [page Apps](/fr/apps).
 
   - block_type: main_green
-    title: 25€ par mois et par point de vente
+    title: Tarification simple et accessible
     description: |
-      Nombre de connexions et de commandes illimité.
-      Gratuit jusqu'à 50 commandes par mois. Gratuit pour les développeurs.
+      Pas de frais d'installation. Pas d'engagement. Pas de contrat.
+      25€ par mois et par point de vente, nombre de connexions illimité.
 
   - block_type: main
-    title: Créé pour les développeurs
+    title: Maintenance réduite et scalabilité
     description: |
-      Aucun frais ni contrat, une documentation complète : rejoindre l'écosystème HubRise est facile.
-      Nous répondons à vos questions techniques, évaluons et documentons gratuitement votre intégration.
-      Consultez notre [Guide de démarrage rapide](/fr/developers/quick-start) pour connecter votre app.
+      Votre équipe de support et vos utilisateurs peuvent se connecter en un clic.
+      Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
+
+  - block_type: main
+    title: Nous aidons les développeurs
+    description: |
+      Vous pouvez compter sur nos développeurs pour répondre à vos questions techniques durant l'intégration.
+      A la fin de l'intégration, nous évaluons et documentons le travail que vous avez fait, et communiquons sur votre arrivée avec notre communauté.
+
+  - block_type: main
+    title: Rejoindre l'écosystème est facile
+    description: |
+      Pour connecter votre app, démarrez ici : [Documentation développeurs](/developers).
 
   #  - block_type: demonstration
 #    title: Démonstration

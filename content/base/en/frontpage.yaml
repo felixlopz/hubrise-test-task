@@ -7,7 +7,7 @@ header:
   hero:
     title: Integration for retail and hospitality solutions
     description: |
-      HubRise is a developer friendly solution to connect to a multitude of apps with a single integration. ?? [Why HubRise was created?](/blog/why-hubrise-was-created)
+      HubRise is a developer friendly solution to connect to a multitude of apps with a single integration.
   signup_form:
     title: Get Started Now
     description:
@@ -39,8 +39,8 @@ body:
     title: Public and easy to use API
     description: |
       With our API, you can synchronise orders, customers and products.
-      A Postman collection is available, as well as a Ruby SDK. It takes less than 200 lines of Javascript to create a functional and integrated app. [Check it here](https://github.com/HubRise/demo-web-orders)!
-      To connect your app, check our [Quick Start guide](/developers/quick-start).
+      A public documentation and a Postman collection are available. We also provide a Ruby SDK.
+      It takes less than 200 lines of Javascript to create a [functional and integrated app](https://github.com/HubRise/demo-web-orders).
     diagram: 001-api-example.png
 
   - block_type: main
@@ -53,19 +53,21 @@ body:
     title: Pricing as it should be
     description: |
       No setup fee. No commitment. No contract.
-      25€ per month per location. Unlimited number of connections and orders.
+      25€ per month per location, unlimited number of connections.
+
+  - block_type: main
+    title: Scalable and low maintenance
+    description: |
+      Your support team and your users can connect in one click.
+      Connection logs are available in the back office. Troubleshooting does not require development skills.
 
   - block_type: main
     title: We help developers
     description: |
-      Our ecosystem grows constantly and we can't wait to see you there.
-      We support you during your integration, and assess and document the work done.
-      An app is missing? Let us know and we will make it happen (or try hard).
-      We will let others know when you are integrated.
+      We are developers too. You can count on us to answer your technical questions during the integration.
+      Once you are integrated, we will assess and document the work done, and share the news with our community.
 
   - block_type: main
-    title: Friendly for users
+    title: Joining the ecosystem is easy
     description: |
-      No need to be an engineer: support team members and IT savvy clients.
-      Users connect in one click.
-      When things go wrong, they can check connection logs from our back office.
+      Start here to connect your app: [Developer documentation](/developers).
