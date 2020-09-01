@@ -73,8 +73,8 @@ content:
           documentation:
           logo: restaurant-manager.png
           title: Restaurant Manager
-          description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
-          additional_info: Integration in progress.
+          description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
+          additional_info: Integration in progress. Integration by Crystal Mind.
         - website: https://www.sicom.com/
           documentation:
           logo: sicom.png
@@ -94,12 +94,18 @@ content:
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app.
+        - website: https://www.deliveryhero.com/
+          documentation:
+          logo: delivery-hero.png
+          title: Delivery Hero
+          description: Delivery Hero is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 40 markets and offer delivery services in more than 600 cities.
+          additional_info:
         - website: https://www.foodpanda.com/
           documentation:
           logo: foodpanda.png
           title: Foodpanda
           description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.ubereats.com
           documentation:
           logo: ubereats.png
@@ -129,6 +135,12 @@ content:
           title: Obypay
           description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
           additional_info: Documentation in French.
+        - website: https://www.shopify.com/
+          documentation:
+          logo: shopify.png
+          title: Shopify
+          description: Shopify can be used to build an e-commerce website, no matter what business you are in. Its platform offers an omnichannel end user experience on the web, smarphones, social networks, marketplaces as well as in a store, or pop-up shops.
+          additional_info: Integration in progress.
         - website: https://www.restajet.com/
           documentation:
           logo: restajet.png
@@ -168,7 +180,7 @@ content:
           logo: stuart.png
           title: Stuart
           description: Stuart offers businesses of all sizes, all sectors, on demand fast delivery services with a customised way of transporting goods.
-          additional_info: Integration in progress.
+          additional_info:
     - title: Loyalty and Marketing
       apps:
         - website: https://www.como.com
@@ -176,7 +188,7 @@ content:
           logo: como.png
           title: Como
           description: Como is a loyalty programme solution for retail and hospitality companies. Como gathers data about purchases and preferences to approach customers with personalised offers.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://dotdigital.com/
           documentation: /apps/dotdigital/
           logo: dotdigital.png

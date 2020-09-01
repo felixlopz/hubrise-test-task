@@ -96,12 +96,18 @@ content:
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile.
+        - website: https://www.deliveryhero.com/
+          documentation:
+          logo: delivery-hero.png
+          title: Delivery Hero
+          description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Ils sont présents dans 40 pays et offrent des services de livraison dans plus de 600 villes.
+          additional_info:
         - website: https://www.foodpanda.com/
           documentation:
           logo: foodpanda.png
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.ubereats.com
           documentation:
           logo: ubereats.png
@@ -131,6 +137,12 @@ content:
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
+        - website: https://www.shopify.com/
+          documentation:
+          logo: shopify.png
+          title: Shopify
+          description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.
+          additional_info: Intégration en cours.
         - website: https://www.restajet.com/
           documentation:
           logo: restajet.png
@@ -172,7 +184,7 @@ content:
           logo: stuart.png
           title: Stuart
           description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée.
-          additional_info: Intégration en cours.
+          additional_info:
     - title: Fidélité et marketing
       apps:
         - website: https://www.como.com
@@ -180,7 +192,7 @@ content:
           logo: como.png
           title: Como
           description: Como est une solution de fidélité client pour les commerçants, les hôteliers et les restaurateurs permettant de personnaliser les offres grâce à l'analyse des données clients.
-          additional_info: Documentation en anglais. Intégration en cours.
+          additional_info: Documentation en anglais.
         - website: https://dotdigital.com/
           documentation: /apps/dotdigital/
           logo: dotdigital.png
