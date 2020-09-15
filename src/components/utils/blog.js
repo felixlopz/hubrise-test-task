@@ -1,19 +1,3 @@
-export function convertArticleData(articleData) {
-  const { fields, frontmatter, id, body } = articleData
-  return {
-    id,
-    url: fields.slug,
-    title: frontmatter.title,
-    shortDescription: frontmatter.shortDescription,
-    author: frontmatter.author,
-    date: new Date(frontmatter.date),
-    image: frontmatter.picture
-      ? frontmatter.picture.childImageSharp.fixed
-      : null,
-    body
-  }
-}
-
 /**
  *
  * @param {Date} articleDate
