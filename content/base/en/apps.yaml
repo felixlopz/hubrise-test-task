@@ -86,7 +86,7 @@ content:
           logo: zelty.png
           title: Zelty
           description: Zelty is a complete suite of solutions designed for multisite. Zelty is suitable for any type of restaurant from fast food to traditional catering.
-          additional_info: Documentation in French.
+          additional_info:
     - title: Food Ordering Platforms
       apps:
         - website: https://www.deliveroo.com
