@@ -11,7 +11,7 @@ If you are integrated with our ecosystem you can refer to HubRise in your corpor
 
 #### Logos and other graphical elements
 
-Download high-quality versions of our logos and icons [here](https://drive.google.com/file/d/18fH8Ph4lcgxGBTmI168C4GaqlOzfLOaO/view?usp=sharing).
+Download high-quality versions of our logos and icons [here](https://drive.google.com/drive/folders/1Iwsrh1rgxRo75T_7wqXwfUBZSdhDGLJj?usp=sharing).
 
 The primary logo has a transparent background. The two logos with a coloured background can be used as a secondary option when the logo with a transparent background is not suitable.
 

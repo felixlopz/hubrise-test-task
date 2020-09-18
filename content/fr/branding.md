@@ -10,7 +10,7 @@ Si vous êtes intégrés à notre écosystème, vous pouvez faire référence à
 
 #### Logos et autres éléments graphiques
 
-Téléchargez nos logos et icône en haute résolution [ici](https://drive.google.com/file/d/1Cr_eLtRAEjqFUu41dXKAuIVhUbth2P3O/view?usp=sharing).
+Téléchargez nos logos et icône en haute résolution [ici](https://drive.google.com/drive/folders/1Iwsrh1rgxRo75T_7wqXwfUBZSdhDGLJj?usp=sharing).
 
 Le logo principal a un fond transparent. Les logos avec un arrière-plan coloré doivent être utilisés comme option secondaire lorsque le logo sur fond transparent ne convient pas.
 
