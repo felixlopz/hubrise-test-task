@@ -15,7 +15,7 @@ Download high-quality versions of our logos and icons [here](https://drive.googl
 
 The primary logo has a transparent background. The two logos with a coloured background can be used as a secondary option when the logo with a transparent background is not suitable.
 
-#### Description of HubRise to reuse
+#### Present HubRise to your customers
 
 Two descriptions are available, one short, the other long, in English and French. They can be adapted and reused when referring to your integration with HubRise. They summarise in a few words what we do and how we can help your customers.
 
@@ -23,14 +23,14 @@ Two descriptions are available, one short, the other long, in English and French
 
 Short description (<50 words):
 
-> HubRise helps you connect [Integrated App'sName] to the apps you use to run your business. Receive orders in your EPOS, send deliveries to your courier service, synchronise customers with your e-marketing lists, connect your digital loyalty card, and a whole lot more... Make your integration dreams come true.
+> HubRise helps you connect [Integrated App's Name] to the apps you use to run your business. Receive orders in your EPOS, send deliveries to your courier service, synchronise customers with your e-marketing lists, connect your digital loyalty card, and a whole lot more... Make your integration dreams come true.
 
 Long description (<200 words):
 
 > HubRise is a middleware used to facilitate technical integrations between third party solutions.
 > Transactions are saved in HubRise to provide apps with real-time access to your product catalogue, your customer data or your orders.
 >
-> Thanks to its integration with HubRise, [Integrated App'sName] can connect to an ever growing ecosystem of solutions: Point Of Sale, online ordering, delivery management, delivery services, eMarketing (SMS/e-mailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
+> Thanks to its integration with HubRise, [Integrated App's Name] can connect to an ever growing ecosystem of solutions: Point Of Sale, online ordering, delivery management, delivery services, eMarketing (SMS/e-mailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 >
 > If the app you want to use is not yet in the ecosystem, you can contact HubRise, who will contact the publisher to plan an integration. You can also create your own integrations thanks to HubRise’s public and open API.
 >
