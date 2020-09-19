@@ -115,7 +115,7 @@ In order to enforce the use of a "precise" decimal type and to avoid the default
 
 ### Dates and Times
 
-Dates and times are encoded using the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
+Dates and times are encoded in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
 
 Locations have a default timezone, which can be configured from the back office. HubRise converts times to the location default timezone, for all resources attached to a location (eg orders).
 

@@ -8,10 +8,10 @@ content:
   hero:
     title: Connect Your Application to HubRise
     description:
-      paragraph_1: An integration to HubRise makes your application connected to the HubRise ecosystem.
+      paragraph_1: An integration to HubRise connects your app to the HubRise ecosystem.
       paragraph_2:
         button: Contact us
-        text: for more information or technical assistance.
+        text: for any questions on your integration.
   thumbs:
     - title: Quick Start
       description: 10-minute guide to learn how to send your first API requests

@@ -27,7 +27,7 @@ const SimplePage = ({ data, pageContext }) => {
   )
 }
 
-export const faqPageQuery = graphql`
+export const simplePageQuery = graphql`
   query getSimplePageContent($id: String!) {
     mdx(id: { eq: $id }) {
       frontmatter {
