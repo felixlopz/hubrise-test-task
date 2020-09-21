@@ -6,8 +6,8 @@ meta:
   title: App4 Connection to HubRise Overview
   description: Overview of App4 and how to connect it to HubRise.
 gallery:
-  - 05-en-fireaway-pizza-app.png
-  - 02-en-atpizza-app.png
+  - 005-en-fireaway-pizza-app.png
+  - 002-en-atpizza-app.png
 path_override: /
 app_info:
   category: Online ordering for restaurants
@@ -30,9 +30,9 @@ To establish a connection between App4 and HubRise, you must have an existing Ap
 
 The connection between App4 and HubRise supports the following:
 
-- Update App4 menu from a HubRise catalog.
-- Send orders to HubRise.
-- Submit customer information to HubRise.
+- Import a menu from HubRise.
+- Export orders to HubRise.
+- Export customer information to HubRise.
 
 ## Why Connect?
 
