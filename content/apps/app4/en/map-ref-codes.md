@@ -46,20 +46,20 @@ To import a HubRise Catalog, contact App4 support and ask them to take the follo
 1. Click **Import** to update the restaurant's App4 menu.
 
 <!--
- - Does catalog import actually create items, categories, deals? Or it just updates names, prices, etc.? In other words, if you start with a blank site, will it populate the whole menu from HubRise automatically?
+ - Does catalog import actually create products, categories, deals and options? Or it just updates names, prices, ... of already create items? In other words, if you import into a blank site, will it populate the whole menu from HubRise?
  - Does the user have access to a user interface similar to their admin dashboard, to synchronize their menu with HubRise?
  -->
 
 ## Product Mapping
 
 <!--
- - Can users manually edit a product, for example to change a ref code or a price? 
+ - Can users manually edit a product or an option, for example to change a ref code or a price? How?
 -->
 
 ## Deals & Discounts Mapping
 
-<--
- - Can you show a few examples of deals supported by App4?
+<!--
+ - Can you provide a few examples of deals supported by App4?
  - Can they be configured manually? If they can, how can you set the deal ref code?
 -->
 
