@@ -40,7 +40,7 @@ body:
     description: |
       With our API, you can synchronise orders, customers and products.
       A public documentation and a Postman collection are available. We also provide a Ruby SDK.
-      It takes less than 200 lines of Javascript to create a [functional and integrated app](https://github.com/HubRise/demo-web-orders).
+      It takes less than 200 lines of Javascript to create a [functional and integrated app](https://github.com/HubRise/tiny-tablet).
     diagram: 001-api-example.png
 
   - block_type: main

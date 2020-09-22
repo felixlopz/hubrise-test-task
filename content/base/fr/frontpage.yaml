@@ -38,7 +38,7 @@ body:
     description: |
       Notre API permet de synchroniser les commandes, les clients et les produits.
       Une documentation publique, et une collection Postman, sont disponibles. Nous avons aussi un SDK Ruby.
-      Avec moins de 200 lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/demo-web-orders).
+      Avec moins de 200 lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/tiny-tablet).
     diagram: 001-api-example.png
 
   - block_type: main
