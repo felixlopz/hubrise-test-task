@@ -2,26 +2,40 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
+import SEO from '../components/seo'
 
-const SimplePage = ({ data }) => {
+const SimplePage = ({ data, pageContext }) => {
   const { frontmatter, body } = data.mdx
+  const { meta } = frontmatter
+
   return (
-    <section className="section faq">
-      <div className="section__in section__in_padding section__in_reverse">
-        <h3 className="section__title section__title_align-left">
-          {frontmatter.title}
-        </h3>
-        <MDXRenderer>{body}</MDXRenderer>
-      </div>
-    </section>
+    <>
+      <SEO
+        lang={pageContext.lang}
+        title={meta?.title}
+        description={meta?.description}
+      />
+      <section className="section faq">
+        <div className="section__in section__in_padding section__in_reverse">
+          <h3 className="section__title section__title_align-left">
+            {frontmatter.title}
+          </h3>
+          <MDXRenderer>{body}</MDXRenderer>
+        </div>
+      </section>
+    </>
   )
 }
 
-export const faqPageQuery = graphql`
+export const simplePageQuery = graphql`
   query getSimplePageContent($id: String!) {
     mdx(id: { eq: $id }) {
       frontmatter {
         title
+        meta {
+          title
+          description
+        }
       }
       body
     }

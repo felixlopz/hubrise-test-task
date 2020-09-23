@@ -9,11 +9,11 @@ meta:
 
 ## Verify Product Mapping
 
-To verify that all LivePepper menu items have had a POS code assigned, select **Maintenance** > **Custom Actions** menu from the left navigation panel. One of the reports displayed is **Missing POS codes**. It shows all products, deals and related attributes that do not have POS codes assigned.
+To verify that all LivePepper menu items have had an EPOS code assigned, select **Maintenance** > **Custom Actions** menu from the left navigation panel. One of the reports displayed is **Missing POS codes**. It shows all products, deals and related attributes that do not have EPOS ref codes assigned.
 
 [comment]: # 'Might want to include screenshot of this page here'
 
-Missing POS codes for payment methods, service type and delivery charges will not be reported here as these depend on the EPOS you are connecting with.
+Missing EPOS ref codes for payment methods, service type and delivery charges will not be reported here as these depend on the EPOS you are connecting with.
 
 ## Verify the Connection to HubRise
 
@@ -46,15 +46,6 @@ With the test order created in LivePepper, the next step is to verify that the o
 4. Click the new Order to verify the customer and order information is accurate.
 5. The **Logs** section will contain the detailed JSON records of the communication between LivePepper and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).
 
-## HubRise Definitions vs LivePepper Definitions
+## LivePepper Support
 
-Both HubRise and LivePepper have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
-
-| Description                           | HubRise Name | LivePepper Name |
-| ------------------------------------- | ------------ | --------------- |
-| Product code                          | sku_ref      | POS Code        |
-| Special offer on the overall order    | Discount     | Deal            |
-| Special offer on products             | Deal         | Deal            |
-| The actual restaurant                 | Location     | Branch          |
-| Restaurant Managers unique identifier | User ID      | Account         |
-| Business brand                        | Account      | Site            |
+The LivePepper support team can be contacted at [support@livepepper.com](mailto:support@livepepper.com) for issues with the configuration of the online ordering system.

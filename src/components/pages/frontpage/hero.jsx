@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import SignupForm from '../../forms/signup'
 import Link from '../../link'
+import { markdownToHtml } from '../../utils'
 
 export const Hero = ({ title, description, signupFormContent }) => {
   return (
@@ -11,9 +12,15 @@ export const Hero = ({ title, description, signupFormContent }) => {
         <div className="index-hero__banner">
           <div className="index-hero__banner-in">
             <h3 className="index-hero__title">{title}</h3>
-            <p className="index-hero__description">{description.paragraph}</p>
+            <div
+              className="index-hero__description"
+              dangerouslySetInnerHTML={{
+                __html: markdownToHtml(description)
+              }}
+            ></div>
           </div>
         </div>
+
         <div className="index-hero__form">
           <div className="index-hero__form-in">
             <h5 className="index-hero__form-title">
@@ -39,9 +46,7 @@ export const Hero = ({ title, description, signupFormContent }) => {
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.shape({
-    paragraph: PropTypes.string.isRequired
-  }).isRequired,
+  description: PropTypes.string.isRequired,
   signupFormContent: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.shape({

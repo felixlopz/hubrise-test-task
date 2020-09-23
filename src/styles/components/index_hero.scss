@@ -79,6 +79,11 @@
     @include breakpoint(medium down) {
       padding-right: 0;
     }
+
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
   }
 
   &__form {

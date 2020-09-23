@@ -32,4 +32,4 @@ dotdigital can connect to an existing or new HubRise account through the dotdigi
 
 ## Why Connect?
 
-Connecting your dotdigital account to HubRise provides an omnichannel advantage to your business. Customer information from online ordering solutions or POS systems connected to HubRise can be transferred to dotdigital with a single click, and all new orders are automatically uploaded to your customer's record.
+Connecting your dotdigital account to HubRise provides an omnichannel advantage to your business. Customer information from online ordering solutions or EPOS systems connected to HubRise can be transferred to dotdigital with a single click, and all new orders are automatically uploaded to your customer's record.
