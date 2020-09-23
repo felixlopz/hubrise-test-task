@@ -25,9 +25,9 @@ iKentoo Bridge can forward any order from HubRise to iKentoo. These orders could
 
 iKentoo Bridge also provides a user interface to see the requests sent to the POS and responses received. For more technical details about API requests and related responses, see the [HubRise documentation](/docs/hubrise-logs/).
 
-iKentoo Bridge is a one-way connection from HubRise to the POS (push only integration). This means that information only flows from HubRise to the POS, not vice versa.
+iKentoo Bridge is a one-way connection from HubRise to the EPOS (push only integration). This means that information only flows from HubRise to the POS, not vice versa.
 
-Therefore, iKentoo Bridge cannot transfer the menu from the POS to HubRise, which must then be inserted with a manual process in the online ordering system. For more information, see [Mapping POS Codes](/apps/ikentoo/mapping-pos-codes). Furthermore, it cannot transfer orders placed on the POS back to HubRise.
+Therefore, iKentoo Bridge cannot transfer the menu from the EPOS to HubRise, which must then be inserted with a manual process in the online ordering system. For more information, see [Mapping POS Codes](/apps/ikentoo/mapping-pos-codes). Furthermore, it cannot transfer orders placed on the POS back to HubRise.
 
 ![Connection Diagram](../images/008-en-2x-connection-diagram.png)
 
