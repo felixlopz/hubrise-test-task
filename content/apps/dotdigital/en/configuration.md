@@ -57,3 +57,13 @@ This section of the Configuration page allows you to decide how to map your dotd
 ### Saving the Configuration
 
 Once you are happy with the configuration of the dotdigital Bridge, click **Save** at the top of the page to continue to the main page.
+
+## Resetting the Configuration
+
+You can always restore the Configuration page to its default values and change the dotdigital API credentials associated with you HubRise location by clicking on **Reset the configuration**.
+
+## Uploading Customers in Bulk
+
+From the **Actions** section of the Configuration page, you can **Export** all your HubRise customers to dotdigital in bulk. If you choose to upload customers to an address book, the bulk upload will use the address book you specified at the top of the Configuration page.
+
+Note that this actions only uploads the customers' details, but not the past transactional data associated with them.
