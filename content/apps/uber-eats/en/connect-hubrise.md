@@ -16,7 +16,7 @@ Don't worry, HubRise will take care of all the paperwork for you!
 To start receiving Uber Eats orders on HubRise, you should first contact us at <support@hubrise.com> and include in your email the following information:
 
 - The URL of your Uber Eats store(s) you wish to connect.
-- Your HubRise account and location ids.
+- Your HubRise account and location IDs.
 
 We will then contact Uber Eats on your behalf to establish the connection and get you ready to receive orders in one business day.
 
@@ -41,7 +41,7 @@ If you don't have a HubRise account, go to the [HubRise Signup Page](https://man
 You have now added Uber Eats to your HubRise apps.
 The next step is configure the connection.
 
-## Location ID
+## Store ID
 
 ---
 
@@ -52,6 +52,6 @@ The next step is configure the connection.
 In the first configuration page, you will need to enter the store ID that has been assigned to you by Uber Eats.
 This is necessary to correctly route the incoming orders to your HubRise location.
 
-![Uber Eats location ID](../images/001-en-store-id.png)
+![Uber Eats store ID](../images/001-en-store-id.png)
 
 Once you are finished, click **Save**.
