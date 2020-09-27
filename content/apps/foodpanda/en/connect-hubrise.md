@@ -18,6 +18,8 @@ To start receiving foodpanda orders on HubRise, you should first contact us at <
 - The URL of your foodpanda store(s) you wish to connect.
 - Your HubRise account and location ids.
 
+HubRise will then contact foodpanda on your behalf to establish the connection and get you ready to receive orders in one business day.
+
 ## Connect the foodpanda Bridge to HubRise
 
 ---

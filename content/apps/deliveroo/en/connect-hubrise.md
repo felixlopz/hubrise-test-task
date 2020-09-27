@@ -41,7 +41,6 @@ The next step is configure the connection.
 ---
 
 **IMPORTANT NOTE:** In order to connect your Deliveroo restaurant to HubRise, you need to provide a valid location ID.
-See [Connection to HubRise](/apps/deliveroo/connect-hubrise) for instructions on how to obtain a location ID.
 
 ---
 
