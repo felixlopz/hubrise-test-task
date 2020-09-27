@@ -16,7 +16,7 @@ app_info:
 
 ## Description
 
-Deliveroo in an online ordering and food delivery platform based in the United Kingdom but operating in 13 different countries in Europe, Asia, and Oceania.
+Deliveroo is an online ordering and food delivery platform based in the United Kingdom but operating in 13 different countries in Europe, Asia, and Oceania.
 
 Restaurants can benefit from Deliveroo's large pool of customers to grow their business and find new clients.
 At the same time, they can concentrate on what they do best (preparing food) while letting Deliveroo take care of the logistics of food delivery.

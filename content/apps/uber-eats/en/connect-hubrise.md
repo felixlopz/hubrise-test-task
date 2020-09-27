@@ -49,7 +49,7 @@ The next step is configure the connection.
 
 ---
 
-In the first configuration page, you will need to enter the store ID that has been assigned to you by Uber Eats.
+In the first configuration page, you will need to enter the store ID that we will provide you after contacting Uber Eats.
 This is necessary to correctly route the incoming orders to your HubRise location.
 
 ![Uber Eats store ID](../images/001-en-store-id.png)

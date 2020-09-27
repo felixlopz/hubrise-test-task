@@ -16,7 +16,7 @@ app_info:
 
 ## Description
 
-foodpanda in an online ordering and food delivery platform part of the Delivery Hero network.
+foodpanda is an online ordering and food delivery platform part of the Delivery Hero network.
 It is present in several countries in Asia, and in Bulgaria and Romania in Europe.
 
 Restaurants can benefit from foodpanda's large pool of customers to grow their business and find new clients.

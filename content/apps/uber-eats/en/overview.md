@@ -16,7 +16,7 @@ app_info:
 
 ## Description
 
-Uber Eats in an online ordering and food delivery platform part of the Uber ecosystem.
+Uber Eats is an online ordering and food delivery platform part of the Uber ecosystem.
 It is present in more than 30 countries around the world.
 
 Restaurants can benefit from Uber Eats large pool of customers to grow their business and find new clients.

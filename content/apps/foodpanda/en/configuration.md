@@ -16,7 +16,7 @@ These are divided into different categories for an easier navigation.
 
 foodpanda does not share the customer's email address with the connected solutions. However, the name and phone number of the client are always present.
 
-Therefore, in this section you can decide if you want to create a customer on HubRise when you receive an order, or if you prefer to use guest orders in order not to pollute your database with incomplete information.
+Therefore, in this section you can decide if you want to create a customer on HubRise when you receive an order, or if you prefer to use guest orders to avoid polluting your database with incomplete information.
 
 This section allows also to specify a default email address that will be used for all your foodpanda orders.
 
@@ -40,4 +40,4 @@ Once you are happy with the configuration of the foodpanda Bridge, click **Save*
 
 ## Resetting the Configuration
 
-You can always restore the Configuration page to its default values and change the foodpanda location ID associated with you HubRise location by clicking on **Reset the configuration** at the bottom of the page.
+You can always restore the Configuration page to its default values and change the foodpanda location ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.

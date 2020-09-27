@@ -28,7 +28,7 @@ On the other hand, you can also customise which status to use on HubRise for new
 
 ## Special Ref Codes and Other Options
 
-This section allows your to customise several miscellaneous options:
+This section allows you to customise several miscellaneous options:
 
 - The service type ref code associated to Uber Eats orders.
 - The payment type and ref code associated with Uber Eats orders.
@@ -40,4 +40,4 @@ Once you are happy with the configuration of the Uber Eats Bridge, click **Save*
 
 ## Resetting the Configuration
 
-You can always restore the Configuration page to its default values and change the Uber Eats store ID associated with you HubRise location by clicking on **Reset the configuration** at the bottom of the page.
+You can always restore the Configuration page to its default values and change the Uber Eats store ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.

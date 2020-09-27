@@ -47,4 +47,4 @@ Once you are happy with the configuration of the Deliveroo Bridge, click **Save*
 
 ## Resetting the Configuration
 
-You can always restore the Configuration page to its default values and change the Deliveroo location ID associated with you HubRise location by clicking on **Reset the configuration** at the bottom of the page.
+You can always restore the Configuration page to its default values and change the Deliveroo location ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.

@@ -60,7 +60,7 @@ Once you are happy with the configuration of the dotdigital Bridge, click **Save
 
 ## Resetting the Configuration
 
-You can always restore the Configuration page to its default values and change the dotdigital API credentials associated with you HubRise location by clicking on **Reset the configuration**.
+You can always restore the Configuration page to its default values and change the dotdigital API credentials associated with your HubRise location by clicking on **Reset the configuration**.
 
 ## Uploading Customers in Bulk
 
