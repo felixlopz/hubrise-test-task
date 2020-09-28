@@ -60,7 +60,8 @@ The `Transaction` node and its subnodes are especially relevant to diagnose poss
 
   - `MethodNumber`: The code associated with the payment method in the PixelPoint EPOS.
   - `AuthType`: This value is always `114`.
-  - `Tender`: The total amount paid.
+  - `Tender`: The total amount paid (minus the optional `Tip`).
+  - `Tip`: The amount of tip left by the customer, if different from 0. The tip is only present for online payments, but not for cash payments.
 
 ### Recognising Products and Options
 
