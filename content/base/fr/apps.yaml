@@ -92,7 +92,7 @@ content:
     - title: Plateformes de livraison de repas
       apps:
         - website: https://www.deliveroo.com
-          documentation:
+          documentation: /apps/deliveroo
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 12 pays and 500 villes.
@@ -103,20 +103,20 @@ content:
           description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 40 pays and 600 villes.
           additional_info: Intégration en cours.
         - website: https://www.foodpanda.com/
-          documentation:
+          documentation: /apps/foodpanda
           logo: foodpanda.png
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
           additional_info:
         - website: https://www.ubereats.com
-          documentation:
+          documentation: /apps/uber-eats
           logo: ubereats.png
           title: Uber Eats
           description: Uber Eats est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 45 pays and 6.000 villes.
     - title: Commande en ligne
       apps:
         - website: https://www.app4.co.uk/
-          documentation:
+          documentation: /apps/app4
           logo: app4.png
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
