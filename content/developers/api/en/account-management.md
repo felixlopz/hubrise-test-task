@@ -38,11 +38,11 @@ Get location details.
   "country": "FR",
   "timezone": {
     "name": "Europe/Paris",
-    "utc_offset": 7200
+    "offset": 7200
   },
   "custom_fields": {
-    "latitude": 48.8697246,
-    "longitude": 2.3061506
+    "latitude": "48.8697246",
+    "longitude": "2.3061506"
   }
 }
 ```
@@ -146,7 +146,7 @@ Get user information.
   "email": "tom.jones@dummy-mail.org",
   "timezone": {
     "name": "Europe/Paris",
-    "utc_offset": 7200
+    "offset": 7200
   },
   "locales": ["en-GB", "fr-FR"]
 }
