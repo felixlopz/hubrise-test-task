@@ -132,6 +132,12 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
+        - website: https://mylemonade.app/fr/accueilfr/
+          documentation:
+          logo: mylemonade.png
+          title: Mylemonade
+          description:  Mylemonade est une solution de commande à table depuis son smartphone. Grâce au QR code ou au tag NFC sur sa table, les clients accèdent à la carte de dans sa langue, sans app à installer.
+          additional_info:
         - website: https://obypay.com/
           documentation:
           logo: obypay.png
@@ -223,6 +229,14 @@ content:
           title: Service Management Group
           description: SMG associe la technologie et le service pour collecter et analyser vos données, afin de comprendre les comportements de vos clients et d'agir en conséquence.
           additional_info: Documentation en anglais.
+    - title: Gestion et Inventaire
+      apps:
+        - website: https://koust.net/
+          documentation:
+          logo: koust.png
+          title: Koust
+          description: Koust est un logiciel de contrôle de gestion pour tous type de restauration. De la gestion de stocks à l'analyse des ventes et de la marge brute. Koust aide aussi à optimiser les achats et à construire sa carte.
+          additional_info: Intégration en cours.
     - title: Autres applications
       apps:
         - website:

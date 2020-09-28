@@ -129,6 +129,12 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
+        - website: https://mylemonade.app/
+          documentation:
+          logo: mylemonade.png
+          title: Mylemonade
+          description: Mylemonade is a table ordering solution. By flashing the QR code or using the NFC tag placed on the table, customers can accesses the menu on their smartphone, in their own language.
+          additional_info:
         - website: https://obypay.com/
           documentation:
           logo: obypay.png
@@ -214,6 +220,14 @@ content:
           logo: smg.png
           title: Service Management Group
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
+    - title: Inventory Management
+      apps:
+        - website: https://koust.net/
+          documentation:
+          logo: koust.png
+          title: Koust
+          description: Koust is a management software for all types of restaurants. From inventory to sales and gross margin analysis. Koust also helps to optimise purchasing and to build menus.
+          additional_info: Integration in progress. Documentation in French.
     - title: Other Apps
       apps:
         - website:
