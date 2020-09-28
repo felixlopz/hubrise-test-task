@@ -90,7 +90,7 @@ content:
     - title: Food Ordering Platforms
       apps:
         - website: https://www.deliveroo.com
-          documentation:
+          documentation: /apps/deliveroo
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app. They operate in 12 markets and 500 cities.
@@ -101,20 +101,20 @@ content:
           description: Delivery Hero is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 40 markets and 600 cities.
           additional_info: Integration in progress.
         - website: https://www.foodpanda.com/
-          documentation:
+          documentation: /apps/foodpanda
           logo: foodpanda.png
           title: Foodpanda
           description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 14 markets.
           additional_info:
         - website: https://www.ubereats.com
-          documentation:
+          documentation: /apps/uber-eats
           logo: ubereats.png
           title: Uber Eats
           description: Uber Eats is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 45 markets and 6,000 cities.
     - title: Online Ordering
       apps:
         - website: https://www.app4.co.uk/
-          documentation:
+          documentation: /apps/app4
           logo: app4.png
           title: App4
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
