@@ -60,11 +60,14 @@ The `Transaction` node and its subnodes are especially relevant to diagnose poss
   - `ComboItemId`: It is present when the product is part of a deal. The value associated with this key represents the code for the deal in your EPOS catalog. For more information, see Setting the Product Catalog.
   - `PriceApplied`: This value is always `13`.
 
+  Note that discounts and charges (except for customer's tips) are also encoded in separate `Item` nodes.
+
 - `Payment`: This node and its subnodes specify the information about the payment. It is missing if the order is not paid online, so that the transaction remains open in the EPOS system. The transaction will be closed only when the customer pays upon delivery of collection. The following subnodes are generally present:
 
   - `MethodNumber`: The code associated with the payment method in the PixelPoint EPOS.
   - `AuthType`: This value is always `114`.
-  - `Tender`: The total amount paid.
+  - `Tender`: The total amount paid (minus the optional `Tip`).
+  - `Tip`: The amount of tip left by the customer, if different from 0. The tip is only present for online payments, but not for cash payments.
 
 - `CustomRecFooter`: When the order is paid upon delivery, the `Payment` node is not created and the payment method name is encoded in this node.
 
