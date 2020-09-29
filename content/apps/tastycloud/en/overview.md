@@ -24,7 +24,7 @@ TastyCloud is a digital menu and ordering solution for restaurants, which offers
 - Order from a self ordering kiosk, or at the table by scanning a QR code with their smartphone.
 - Order delivery or collection from your own website on their smartphones, tablets, or desktop computer from anywhere at anytime.
 
-TastyCloud lets you set your hours of operation and delivery, lets you change your menu on the fly, and offer alternatives. Are your customers craving gluten free, vegan or other options? TastyCloud makes it easy for them to find these.
+TastyCloud lets you set your hours of operation and delivery, change your menu on the fly, and offer alternatives. Are your customers craving gluten free, vegan or other options? TastyCloud makes it easy for them to find these.
 
 TastyCloud integrates with your existing marketing website and your Facebook, Twitter, and other social networks. 
 

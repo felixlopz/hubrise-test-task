@@ -11,13 +11,7 @@ Once your TastyCloud website is connected with HubRise, some configuration is re
 
 For example, if an EPOS is connected to your HubRise Location, you will need to associate items on TastyCloud with the corresponding items on your EPOS. This process is called "ref code mapping" and it must be done manually from the Tasty Cloud back office, as explained below.
 
-## Catalog Import
-
-TastyCloud relies on HubRise catalogs to ease the mapping. However it cannot populate your menu directly from your HubRise catalog.
-
 ## Products and Options
-
-Both TastyCloud and HubRise store the items that are sold to customers. The mapping between items on these two systems is managed from the TastyCloud back office.
 
 ---
 
@@ -25,7 +19,7 @@ Both TastyCloud and HubRise store the items that are sold to customers. The mapp
 
 ---
 
-First make sure you have a working connection between TastyCloud and HubRise. For more information on the connection process, see [Connect TastyCloud to HubRise](/apps/tastycloud/connect-hubrise).
+First make sure you have a working connection between TastyCloud and HubRise. For more information on the connection process, see [Connect TastyCloud to HubRise](/apps/tastycloud/connect-hubrise). You can select the HubRise catalog to use for the mapping when establishing the connection to HubRise.
 
 Then follow these steps to map items between TastyCloud and HubRise:
 
