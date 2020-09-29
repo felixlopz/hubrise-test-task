@@ -235,7 +235,7 @@ content:
           documentation:
           logo: koust.png
           title: Koust
-          description: Koust permet à tout type de restaurant de gérer les stocks, analyser les ventes et la marge brute, optimiser les achats et construire le menu.
+          description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
           additional_info: Intégration en cours.
     - title: Autres applications
       apps:
