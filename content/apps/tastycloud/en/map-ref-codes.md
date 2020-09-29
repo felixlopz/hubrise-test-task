@@ -19,7 +19,7 @@ For example, if an EPOS is connected to your HubRise Location, you will need to 
 
 ---
 
-First make sure you have a working connection between TastyCloud and HubRise. For more information on the connection process, see [Connect TastyCloud to HubRise](/apps/tastycloud/connect-hubrise). You can select the HubRise catalog to use for the mapping when establishing the connection to HubRise.
+First make sure you have a working connection between TastyCloud and HubRise. For more information on the connection process, see [Connect TastyCloud to HubRise](/apps/tastycloud/connect-hubrise).
 
 Then follow these steps to map items between TastyCloud and HubRise:
 
