@@ -73,8 +73,8 @@ content:
           documentation:
           logo: restaurant-manager.png
           title: Restaurant Manager
-          description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
-          additional_info: Integration in progress.
+          description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
+          additional_info: Integration in progress. Integration by Crystal Mind.
         - website: https://www.sicom.com/
           documentation:
           logo: sicom.png
@@ -86,29 +86,35 @@ content:
           logo: zelty.png
           title: Zelty
           description: Zelty is a complete suite of solutions designed for multisite. Zelty is suitable for any type of restaurant from fast food to traditional catering.
-          additional_info: Documentation in French.
+          additional_info:
     - title: Food Ordering Platforms
       apps:
         - website: https://www.deliveroo.com
-          documentation:
+          documentation: /apps/deliveroo
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app.
-        - website: https://www.foodpanda.com/
+          description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app. They operate in 12 markets and 500 cities.
+        - website: https://www.deliveryhero.com/
           documentation:
+          logo: delivery-hero.png
+          title: Delivery Hero
+          description: Delivery Hero is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 40 markets and 600 cities.
+          additional_info: Integration in progress.
+        - website: https://www.foodpanda.com/
+          documentation: /apps/foodpanda
           logo: foodpanda.png
           title: Foodpanda
-          description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
-          additional_info: Integration in progress.
+          description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 14 markets.
+          additional_info:
         - website: https://www.ubereats.com
-          documentation:
+          documentation: /apps/uber-eats
           logo: ubereats.png
           title: Uber Eats
-          description: Uber Eats is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app.
+          description: Uber Eats is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 45 markets and 6,000 cities.
     - title: Online Ordering
       apps:
         - website: https://www.app4.co.uk/
-          documentation:
+          documentation: /apps/app4
           logo: app4.png
           title: App4
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
@@ -123,12 +129,24 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
+        - website: https://mylemonade.app/
+          documentation:
+          logo: my-lemonade.png
+          title: My Lemonade
+          description: My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on their table, access the menu on their smartphone in their language, and order from it. No app installation required.
+          additional_info:
         - website: https://obypay.com/
           documentation:
           logo: obypay.png
           title: Obypay
           description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
           additional_info: Documentation in French.
+        - website: https://www.shopify.com/
+          documentation:
+          logo: shopify.png
+          title: Shopify
+          description: Shopify is an e-commerce platform for any type of business. It offers an omnichannel user experience on the web, smartphones, social networks, marketplaces, and in-store.
+          additional_info: Integration in progress.
         - website: https://www.restajet.com/
           documentation:
           logo: restajet.png
@@ -139,7 +157,7 @@ content:
           documentation:
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud creates in and out store digital menus for restaurants and hotels. Their offer includes digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
+          description: TastyCloud is a digital menu solution for restaurants and hotels. They offer digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
         - website: http://www.y-proximite.fr
           documentation:
           logo: yproximite.png
@@ -168,7 +186,7 @@ content:
           logo: stuart.png
           title: Stuart
           description: Stuart offers businesses of all sizes, all sectors, on demand fast delivery services with a customised way of transporting goods.
-          additional_info: Integration in progress.
+          additional_info:
     - title: Loyalty and Marketing
       apps:
         - website: https://www.como.com
@@ -176,7 +194,7 @@ content:
           logo: como.png
           title: Como
           description: Como is a loyalty programme solution for retail and hospitality companies. Como gathers data about purchases and preferences to approach customers with personalised offers.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://dotdigital.com/
           documentation: /apps/dotdigital/
           logo: dotdigital.png
@@ -202,6 +220,14 @@ content:
           logo: smg.png
           title: Service Management Group
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
+    - title: Inventory Management
+      apps:
+        - website: https://koust.net/
+          documentation:
+          logo: koust.png
+          title: Koust
+          description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
+          additional_info: Integration in progress. Documentation in French.
     - title: Other Apps
       apps:
         - website:

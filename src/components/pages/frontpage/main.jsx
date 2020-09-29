@@ -2,25 +2,50 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { NonStretchedImage } from '../../non_stretched_image'
-import { generateKey } from '../../utils'
+import { generateKey, markdownToHtml } from '../../utils'
 
 import remark from 'remark'
 import remarkHtml from 'remark-html'
 
-export const Main = ({ title, description, features, diagramImage }) => {
-  const htmlDescription = remark()
-    .use(remarkHtml)
-    .processSync(description.replace(/\n/g, '\n\n'))
-    .toString()
-
+export const Main = ({
+  title,
+  descriptionLarge,
+  description,
+  features,
+  style,
+  diagramImage
+}) => {
   return (
-    <section id="more" className="section">
-      <div className="section__in section__in_padding">
+    <section
+      className={['section']
+        .concat(
+          style === 'green' ? ['section_full-width', 'section_padding'] : []
+        )
+        .join(' ')}
+    >
+      <div
+        className={['section__in', 'section__in_padding']
+          .concat(style === 'green' ? ['section__in_green'] : [])
+          .join(' ')}
+      >
         <h3 className="section__title">{title}</h3>
-        <div
-          className="section__description"
-          dangerouslySetInnerHTML={{ __html: htmlDescription }}
-        />
+
+        {descriptionLarge && (
+          <div
+            className="section__description section__description_large"
+            dangerouslySetInnerHTML={{
+              __html: markdownToHtml(descriptionLarge)
+            }}
+          />
+        )}
+
+        {description && (
+          <div
+            className="section__description"
+            dangerouslySetInnerHTML={{ __html: markdownToHtml(description) }}
+          />
+        )}
+
         {features && (
           <ul className="index-about">
             {features.map((feature, idx) => (
@@ -30,6 +55,7 @@ export const Main = ({ title, description, features, diagramImage }) => {
             ))}
           </ul>
         )}
+
         {diagramImage && (
           <div className="section__diagram">
             <NonStretchedImage
@@ -46,7 +72,8 @@ export const Main = ({ title, description, features, diagramImage }) => {
 
 Main.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  largeDescription: PropTypes.string,
+  description: PropTypes.string,
   features: PropTypes.arrayOf(PropTypes.string).isRequired,
   diagramImage: PropTypes.shape({
     name: PropTypes.string.isRequired,

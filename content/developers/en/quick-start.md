@@ -24,7 +24,7 @@ This account will be the first user of your application. It will be useful to ha
 Postman is an API development environment that makes sending API requests very easy.
 
 - Download and install [Postman](https://www.getpostman.com/).
-- Download the [HubRise API Postman Bundle](https://drive.google.com/file/d/1dsJ7RALAKKxCNrwfWggqJop-WC71DYTX/view?usp=sharing) and import the folder into Postman.
+- Download the [HubRise API Postman Bundle](https://drive.google.com/drive/folders/1fn5u-4sY0-bnrxJY9RFPvpCu0bANGNBd?usp=sharing) and import the folder into Postman.
 
 ### Create the OAuth Client
 

@@ -1,12 +1,13 @@
 path: /
 meta:
-  title: HubRise
-  description: HubRise connects your POS, your website and all your applications.
-content:
+  title: HubRise - Integration for retail and hospitality solutions
+  description: HubRise is a developer friendly solution to connect to a growing ecosystem of retail and hospitality solutions with a single integration.
+
+header:
   hero:
-    title: Integration for Developers
-    description:
-      paragraph: Integrate your app to a multitude of retail and hospitality solutions
+    title: Integration for retail and hospitality solutions
+    description: |
+      HubRise is a developer friendly solution to connect to a multitude of apps with a single integration.
   signup_form:
     title: Get Started Now
     description:
@@ -17,36 +18,56 @@ content:
     link_to_pricing: /pricing
     button: Create your account
 
-  mains:
-    - title: New connections for your app
-      description: |
-        Apps in our ecosystem are available through a single, well designed API.
-        Focus on the development of your app, while we focus on integrations.
-      features:
-        - Online Ordering Website
-        - Dashboard
-        - Fleet Management
-        - POS
-        - Emailing Solution
-        - Loyalty Solution
-        - And More
-      diagram: diagram-en.png
+body:
+  - block_type: main
+    title: New connections for your app
+    description: |
+      Focus on the development of your app, while we look after integrations.
+      It takes a single integration to connect to the apps you want. [More than 40 integrations available](/apps).
 
-    - title: Everything is documented
-      description: |
-        Documentation is key for integration. It is at the core of what we do. HubRise is documenting the integration effort done by each app.
-        No surprises. You will always know what you can or cannot when connecting with another app via HubRise.
+    features:
+      - EPOS
+      - Online Ordering
+      - Food Ordering Platforms
+      - Marketing Solutions
+      - Loyalty Solutions
+#      - Mobile Payment
+      - And More
+#    diagram: diagram-en.png
 
-    - title: The API is easy to understand
-      description: |
-        The HubRise API is public. You can start integration any time.
-        The developer guide will show you how to setup your account and shoot your first API requests. Start by checking our [Quick Start](/developers/quick-start) page.
-        We made it as easy as it can be. Don't just take it from us, see what developers are saying in our Testimonial page.
+  - block_type: main
+    title: Public and easy to use API
+    description: |
+      With our API, you can synchronise orders, customers and products.
+      A public documentation and a Postman collection are available. We also provide a Ruby SDK.
+      It takes less than 200 lines of Javascript to create a [functional and integrated app](https://github.com/HubRise/tiny-tablet).
+    diagram: 001-api-example.png
 
-  faq:
-    title: 25€ per month, per location
-    bullets:
-      - Unlimited number of connected apps.
-      - No setup fee.
-      - Unlimited number of orders.
-      - No commitment.
+  - block_type: main
+    title: Documentation at the core
+    description: |
+      No guesswork. We document the capabilities, data flow, and common pitfalls of each integrated app.
+      See documented apps on our [Apps page](/apps/).
+
+  - block_type: main_green
+    title: Pricing as it should be
+    description: |
+      No setup fee. No commitment. No contract.
+      25€ per month per location, unlimited number of connections.
+
+  - block_type: main
+    title: Scalable and low maintenance
+    description: |
+      Your support team and your users can connect in one click.
+      Connection logs are available in the back office. Troubleshooting does not require development skills.
+
+  - block_type: main
+    title: We help developers
+    description: |
+      We are developers too. You can count on us to answer your technical questions during the integration.
+      Once you are integrated, we will assess and document the work done, and share the news with our community.
+
+  - block_type: main
+    title: Joining the ecosystem is easy
+    description: |
+      Start here to connect your app: [Developer documentation](/developers).
