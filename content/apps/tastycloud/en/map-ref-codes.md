@@ -43,7 +43,7 @@ The **Mapping des produits** (Products mapping) page also displays a table with 
 
 ![Product mapping](../images/002-product-mapping.png)
 
-For example, let's consider the single mapping in the screenshot above:
+For example, let's consider the mapping shown in the screenshot above:
 
 - `7850` is the TastyCloud internal identifier of the item.
 - `Soupe miso S` is the name displayed on your TastyCloud website.

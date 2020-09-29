@@ -21,4 +21,4 @@ Follow these steps to connect TastyCloud to HubRise:
 1. Give support@tastycloud.fr permission to access your HubRise Account as **Manager**. For instructions, see [Add a User Permission](/docs/permissions/#add-a-user).
 1. Contact your TastyCloud support representative and share your HubRise Location name and unique identifier. For instance, `Fast Pizza London (e34ss-8)`. They will assist you with the connection.
 
-At this stage, the connection of a HubRise Location to a TastyCloud website can only be performed by TastyCloud's support team, but soon users will be able to do it autonomously.
+At this stage, the connection of a HubRise Location to a TastyCloud website can only be performed by TastyCloud's support team, but users will soon be able to do it autonomously.
