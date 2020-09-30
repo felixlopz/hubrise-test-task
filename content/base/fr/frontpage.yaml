@@ -5,9 +5,9 @@ meta:
 
 header:
   hero:
-    title: Intégration pour le commerce et la restauration
+    title: Hub d'intégration pour le commerce et la restauration
     description: |
-      Conçu pour les développeurs, HubRise connecte votre app à une multitude de solutions en une seule intégration.
+      En une seule intégration, HubRise connecte votre app à une multitude de solutions.
   signup_form:
     title: Démarrez maintenant
     description:
@@ -21,8 +21,8 @@ body:
   - block_type: main
     title: De nouvelles connexions pour votre app
     description: |
-      Concentrez-vous sur le développement de votre app, nous nous occupons des intégrations.
-      Une intégration à HubRise vous connecte aux apps que vous voulez. [Plus de 40 intégrations disponibles](/fr/apps).
+      Concentrez-vous sur le développement de votre app, plutôt que sur les intégrations.
+      HubRise connecte votre app à celles que vos clients utilisent. [Plus de 40 apps disponibles](/fr/apps).
     features:
       - Logiciels de caisse
       - Commande en ligne
@@ -36,9 +36,9 @@ body:
   - block_type: main
     title: Une API publique et facile à utiliser
     description: |
-      Notre API permet de synchroniser les commandes, les clients et les produits.
-      Une documentation publique, et une collection Postman, sont disponibles. Nous avons aussi un SDK Ruby.
-      Avec moins de 200 lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/tiny-tablet).
+      Notre API synchronise les commandes, les clients et les produits.
+      Une documentation publique, une collection Postman, et un SDK Ruby sont disponibles.
+      En quelques lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/tiny-tablet).
     diagram: 001-api-example.png
 
   - block_type: main
