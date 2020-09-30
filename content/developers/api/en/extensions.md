@@ -89,8 +89,8 @@ PUT /customer_lists/map4g/customers/g56qf
 {
   "custom_fields": {
     "position": {
-      "latitude": 48.8697246,
-      "longitude": 2.3061506
+      "latitude": "48.8697246",
+      "longitude": "2.3061506"
     }
   }
 }

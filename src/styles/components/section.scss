@@ -371,6 +371,11 @@
     font-weight: 400;
     text-align: center;
     margin-top: 0;
+    font-size: 1.125rem;
+  }
+
+  &__in_green &__description {
+    color: $white;
   }
 
   &__description-title {

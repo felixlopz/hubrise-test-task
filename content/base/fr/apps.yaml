@@ -92,25 +92,31 @@ content:
     - title: Plateformes de livraison de repas
       apps:
         - website: https://www.deliveroo.com
-          documentation:
+          documentation: /apps/deliveroo
           logo: deliveroo.png
           title: Deliveroo
-          description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile.
-        - website: https://www.foodpanda.com/
+          description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 12 pays and 500 villes.
+        - website: https://www.deliveryhero.com/
           documentation:
+          logo: delivery-hero.png
+          title: Delivery Hero
+          description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 40 pays and 600 villes.
+          additional_info: Intégration en cours.
+        - website: https://www.foodpanda.com/
+          documentation: /apps/foodpanda
           logo: foodpanda.png
           title: Foodpanda
-          description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
-          additional_info: Intégration en cours.
+          description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
+          additional_info:
         - website: https://www.ubereats.com
-          documentation:
+          documentation: /apps/uber-eats
           logo: ubereats.png
           title: Uber Eats
-          description: Uber Eats est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile.
+          description: Uber Eats est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 45 pays and 6.000 villes.
     - title: Commande en ligne
       apps:
         - website: https://www.app4.co.uk/
-          documentation:
+          documentation: /apps/app4
           logo: app4.png
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
@@ -126,11 +132,23 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
+        - website: https://mylemonade.app/fr/accueilfr/
+          documentation:
+          logo: my-lemonade.png
+          title: My Lemonade
+          description:  My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
+          additional_info:
         - website: https://obypay.com/
           documentation:
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
+        - website: https://www.shopify.com/
+          documentation:
+          logo: shopify.png
+          title: Shopify
+          description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.
+          additional_info: Intégration en cours.
         - website: https://www.restajet.com/
           documentation:
           logo: restajet.png
@@ -138,7 +156,7 @@ content:
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
           additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.tastycloud.fr
-          documentation:
+          documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
@@ -171,8 +189,8 @@ content:
           documentation:
           logo: stuart.png
           title: Stuart
-          description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée.
-          additional_info: Intégration en cours.
+          description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée. Disponible dans 3 pays et 80 villes.
+          additional_info:
     - title: Fidélité et marketing
       apps:
         - website: https://www.como.com
@@ -180,7 +198,7 @@ content:
           logo: como.png
           title: Como
           description: Como est une solution de fidélité client pour les commerçants, les hôteliers et les restaurateurs permettant de personnaliser les offres grâce à l'analyse des données clients.
-          additional_info: Documentation en anglais. Intégration en cours.
+          additional_info: Documentation en anglais.
         - website: https://dotdigital.com/
           documentation: /apps/dotdigital/
           logo: dotdigital.png
@@ -211,6 +229,14 @@ content:
           title: Service Management Group
           description: SMG associe la technologie et le service pour collecter et analyser vos données, afin de comprendre les comportements de vos clients et d'agir en conséquence.
           additional_info: Documentation en anglais.
+    - title: Gestion et Inventaire
+      apps:
+        - website: https://koust.net/
+          documentation:
+          logo: koust.png
+          title: Koust
+          description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
+          additional_info: Intégration en cours.
     - title: Autres applications
       apps:
         - website:

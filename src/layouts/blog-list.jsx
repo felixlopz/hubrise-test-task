@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import Hero from '../components/blog/hero'
 import Sidebar from '../components/blog/sidebar'
 import Post from '../components/blog/post'
-import { convertArticleData, getArchiveTitle } from '../components/utils/blog'
+import { getArchiveTitle } from '../components/utils/blog'
 import { Breadcrumbs } from '../components/documentation'
 import { getLocalizedUrl } from '../components/utils/link'
 import SEO from '../components/seo'
@@ -13,19 +13,20 @@ import SEO from '../components/seo'
 function BlogList({ data, pageContext }) {
   const { t } = useTranslation()
   const { archive } = pageContext
-  let postList = data.allMdx.edges
-    .filter((edge) => edge.node.fields.contentLang === pageContext.lang)
-    .map((articleEdge) => convertArticleData(articleEdge.node))
-    .sort((a, b) => b.date - a.date)
+
+  let nodeList = data.allMdx.nodes
+    .filter((node) => node.fields.contentLang === pageContext.lang)
+    .sort((a, b) => b.frontmatter.date - a.frontmatter.date)
 
   /** Display only articles from selected archive */
   if (archive) {
-    postList = postList.filter((post) =>
-      archive.isCurrentYear
-        ? archive.year === post.date.getFullYear() &&
-          archive.month === post.date.getMonth()
-        : archive.year === post.date.getFullYear()
-    )
+    nodeList = nodeList.filter((post) => {
+      let postDate = new Date(post.frontmatter.date)
+      return archive.isCurrentYear
+        ? archive.year === postDate.getFullYear() &&
+            archive.month === postDate.getMonth()
+        : archive.year === postDate.getFullYear()
+    })
   }
 
   const [searchQuery, setSearchQuery] = useState('')
@@ -37,8 +38,8 @@ function BlogList({ data, pageContext }) {
     }
   }, [])
 
-  const filteredPostList = postList.filter((post) =>
-    post.title.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredNodeList = nodeList.filter((node) =>
+    node.frontmatter.title.toLowerCase().includes(searchQuery.toLowerCase())
   )
 
   function handleQueryChange(newQuery) {
@@ -71,21 +72,21 @@ function BlogList({ data, pageContext }) {
         <Hero
           title={'The HubRise Blog'}
           description={
-            'Fresh news about new applications, API evolutions and real-word use of our platform'
+            'New applications, evolutions of the API and real-world uses of HubRise'
           }
         />
       )}
       <section className="section">
         <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
           <Sidebar
-            postList={postList}
+            nodeList={nodeList}
             searchQuery={searchQuery}
             onQueryChange={handleQueryChange}
           />
           <div className="section__content">
             <ul className="articles">
-              {filteredPostList.map((post) => (
-                <Post key={post.id} post={post} />
+              {filteredNodeList.map((node) => (
+                <Post key={node.id} post={node} showMore />
               ))}
             </ul>
           </div>
@@ -96,28 +97,19 @@ function BlogList({ data, pageContext }) {
 }
 
 export const blogPageQuery = graphql`
-  query getArticleList {
+  query getPostList {
     allMdx(filter: { fields: { slug: { glob: "/blog/*" } } }) {
-      edges {
-        node {
-          id
-          fields {
-            slug
-            contentLang
-          }
-          frontmatter {
-            title
-            picture {
-              childImageSharp {
-                fixed(width: 260, height: 160) {
-                  ...GatsbyImageSharpFixed_withWebp_noBase64
-                }
-              }
-            }
-            shortDescription
-            author
-            date
-          }
+      nodes {
+        id
+        frontmatter {
+          title
+          excerpt
+          author
+          date
+        }
+        fields {
+          slug
+          contentLang
         }
       }
     }
