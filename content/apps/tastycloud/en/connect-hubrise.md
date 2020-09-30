@@ -7,8 +7,6 @@ meta:
   description: Instructions on connecting Tasty Cloud with HubRise.
 ---
 
-Your TastyCloud website can be connected to a HubRise Location, which enables the sharing of menu, orders, and customer information.
-
 ---
 
 **IMPORTANT NOTE**: TastyCloud cannot simultaneously have a connection with HubRise, and a direct connection to an EPOS. Once your TastyCloud website is connected to HubRise, your EPOS will necessarily be connected via HubRise. To see available EPOS solutions on HubRise, check our [Apps](/apps) page.
