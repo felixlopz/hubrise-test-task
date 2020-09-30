@@ -156,7 +156,7 @@ content:
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
           additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.tastycloud.fr
-          documentation:
+          documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
