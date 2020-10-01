@@ -11,7 +11,7 @@ app_info:
   availability: Worldwide
   price_range: Free for HubRise subscribed users
   website: https://deliveroo.co.uk
-  contact:
+  contact: contact@hubrise.com
 ---
 
 ## Description
