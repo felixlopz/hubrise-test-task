@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Deliveroo Connection to HubRise - Instructions
-  description: See how to connect your Deliveroo online store to HubRise. Connection is simple. Send the link to your Deliveroo page to HubRise team and follow a few steps to connect.
+  description: See how to connect your Deliveroo online store to HubRise. Connection is simple. Send the link to your Deliveroo page to HubRise and follow a few steps to connect.
 ---
 
 To connect Deliveroo to HubRise, the Deliveroo team needs to log your HubRise location ID in their back office.
