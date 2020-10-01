@@ -5,7 +5,7 @@ meta:
 
 header:
   hero:
-    title: Integration for retail and hospitality solutions
+    title: Integration hub for retail and hospitality solutions
     description: |
       HubRise is a developer friendly solution to connect to a multitude of apps with a single integration.
   signup_form:
@@ -23,7 +23,7 @@ body:
     title: New connections for your app
     description: |
       Focus on the development of your app, while we look after integrations.
-      It takes a single integration to connect to the apps you want. [More than 40 integrations available](/apps).
+      HubRise connects your app to the ones your customers use. [More than 40 apps available](/apps).
 
     features:
       - EPOS
@@ -38,9 +38,9 @@ body:
   - block_type: main
     title: Public and easy to use API
     description: |
-      With our API, you can synchronise orders, customers and products.
-      A public documentation and a Postman collection are available. We also provide a Ruby SDK.
-      It takes less than 200 lines of Javascript to create a [functional and integrated app](https://github.com/HubRise/tiny-tablet).
+      The HubRise API synchronises orders, customers and products.
+      A public documentation, a Postman collection, and a Ruby SDK are available.
+      With a few lines of code, you can create a [fully functional and integrated app](https://github.com/HubRise/tiny-tablet).
     diagram: 001-api-example.png
 
   - block_type: main
