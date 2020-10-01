@@ -10,13 +10,15 @@ meta:
 To connect Deliveroo to HubRise, the Deliveroo team needs to log your HubRise location ID in their back office.
 Don't worry, HubRise will take care of all the paperwork for you!
 
-All you need to do is send the link to your online ordering page on the Deliveroo platform to [support@hubrise.com](mailto:support@hubrise.com).
-
 ## Before Connecting Deliveroo
 
-...
+To start receiving Deliveroo orders on HubRise, you contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
-[comment]: # (I think it's best to include this as a comment while waiting for the information, no?)
+- The URL link(s) of your Uber Eats store(s) you wish to connect. For instance, [https://www.ubereats.com/ch/geneva/food-delivery/moshimoshi-carouge/CXJ6X53JQkqpZxAo9033EA](https://www.ubereats.com/ch/geneva/food-delivery/moshimoshi-carouge/CXJ6X53JQkqpZxAo9033EA).
+- The email address you logged in the Deliveroo back office and use to communicate with Deliveroo.
+- Your HubRise account and location IDs. If you have no HubRise Account, create one on the [HubRise Registration page](https://manager.hubrise.com/signup). If your restaurant called Fast Pizza is located in, your location ID might be something like Fast Pizza Baker Street z6q31-0.
+
+We will then contact Deliveroo on your behalf to establish the connection and get you ready to receive orders.
 
 ## Connect the Deliveroo Bridge to HubRise
 
