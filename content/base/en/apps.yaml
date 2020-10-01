@@ -26,10 +26,10 @@ content:
           title: iiko
           description: iiko is 100% cloud, easy to deploy and scale for single and multi-store businesses. Over 30,000 businesses use iiko to automate every aspect of their operations.
         - website: https://www.ikentoo.com
-          documentation: /apps/ikentoo/
+          documentation: /apps/ikentoo-lightspeed/
           logo: ikentoo-lightspeed.png
-          title: iKentoo by LightSpeed
-          description: iKentoo is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
+          title: LightSpeed K-Series / iKentoo
+          description: iKentoo by Lightspeed is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: jdc.png
