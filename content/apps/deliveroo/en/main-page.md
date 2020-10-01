@@ -15,7 +15,7 @@ The central portion of the page displays a list of all the recent API exchanges 
 
 At the top right corner of the main page, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> to expand the menu. From there, you can select the language of the page and access the configuration page. For more details on how to customise the behaviour of the Deliveroo Bridge, check the [Configuration Page](/apps/deliveroo/configuration).
 
-## Order page
+## API logs
 
 Selecting an order from the list will display all the logs of the API requests exchanged between HubRise and Deliveroo via the Deliveroo Bridge.
 
