@@ -20,20 +20,20 @@ From this section, you can decide which language will be used to encode the orde
 
 By default, Deliveroo does not encode the customer's details when they send an order to HubRise.
 
-However, certain POS systems require a customer to be specified in every order.
+However, certain EPOS systems require a customer to be specified in every order.
 This section allows you to define the default first name, last name and email address that will be used for all your Deliveroo orders.
 
 ## Service Types
 
-This section allows you to specify the default ref codes used for all the service types.
+Service Type such as Delivery by Deliveroo, Delivery by your own fleed or Collection might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Delivery Charges
 
-This section allows you to specify the ref code associated with the delivery charge.
+If delivery charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Payment Methods
 
-Deliveroo customers can pay their order either online or by cash on delivery.
+Deliveroo customers can pay for their order either online or by cash on delivery.
 
 This section of the Configuration page allows you to specify the ref codes for these two payment methods, together with the payment type associated with online payments on the Deliveroo web site. Cash payments are always associated with the `cash` type.
 
