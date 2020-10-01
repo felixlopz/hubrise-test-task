@@ -3,20 +3,20 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Uber Eats Connection to HubRise Overview
-  description: Overview of Uber Eats and how to connect it to HubRise.
+  title: Uber Eats Connection to HubRise - Overview
+  description: Uber Eats overview and why restaurants should connect it to HubRise. With a connection to HubRise orders are sent to tools you use every day - EPOS, KDS.
 path_override: /
 app_info:
-  category: Online ordering and food delivery
-  availability:
-  price_range:
+  category: Food Ordering Platforms
+  availability: Worldwide
+  price_range: Free for HubRise subscribed users
   website: https://www.ubereats.com/
-  contact:
+  contact: contact@hubrise.com
 ---
 
 ## Description
 
-Uber Eats is an online ordering and food delivery platform part of the Uber ecosystem.
+Uber Eats is an online ordering and food delivery platform part of the Uber Technologies, Inc.
 It is present in more than 30 countries around the world.
 
 Restaurants can benefit from Uber Eats large pool of customers to grow their business and find new clients.
