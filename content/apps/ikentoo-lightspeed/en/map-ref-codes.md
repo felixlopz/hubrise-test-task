@@ -1,6 +1,6 @@
 ---
 title: Map Ref Codes
-position: 3
+position: 4
 layout: documentation
 meta:
   title: Mapping the iKentoo EPOS Ref Codes on HubRise
@@ -13,7 +13,7 @@ iKentoo Bridge is a _push-only_ integration. For this reason, menu items must be
 
 ### Finding ref codes
 
-You can find ref codes in your iKentoo back-office:
+To find ref codes in the iKentoo back-office:
 
 - Open the **Items** page from the **Configuration** Menu.
 - The ref codes to copy are in the **Code** column:
