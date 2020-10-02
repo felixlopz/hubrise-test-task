@@ -54,4 +54,4 @@ This is necessary to correctly route the incoming orders to your HubRise locatio
 
 ![Uber Eats store ID](../images/001-en-store-id.png)
 
-Once you are finished, click **Save**. // JW
+Once you are finished, click **Save**.
