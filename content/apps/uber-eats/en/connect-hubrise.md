@@ -31,10 +31,10 @@ We will then contact Uber Eats on your behalf to establish the connection and ge
 To connect Uber Eats to HubRise, you first need to log in to your HubRise account.
 If you don't have a HubRise account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions. // JW
 
-1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**. // JW
+1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**.
 1. Select **Uber Eats** from the list of apps.
 1. Click **Connect**.
-1. Grant Uber Eats permission to access the location of your restaurant registered in HubRise. // JW
+1. Grant Uber Eats permission to access the location of your restaurant registered in HubRise.
    1. If your account has not yet been created on HubRise, select **Create a new location**.
    1. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**.
 
