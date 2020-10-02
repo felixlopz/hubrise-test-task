@@ -11,15 +11,16 @@ app_info:
   availability: Worldwide
   price_range: Free for HubRise subscribed users
   website: https://deliveroo.co.uk
-  contact: contact@hubrise.com
+  contact: support@hubrise.com
 ---
 
 ## Description
 
-Deliveroo is an online delivery platform for restaurants and convenience stores. They are based in the United Kingdom but operating in 13 different countries in Europe, Asia, and Oceania.
+Deliveroo is an online delivery platform for restaurants and convenience stores. 
+It is based in the United Kingdom but operates in 13 different countries in Europe, Asia, and Oceania.
 
 Restaurants and convenience stores can benefit from Deliveroo's large pool of customers to grow their business and find new clients.
-At the same time, they can concentrate on what they do best (preparing food, selling groceries) while Deliveroo take care of the online ordering solution as associated marketing as well as the delivery logistics.
+At the same time, they can concentrate on what they do best (preparing food, selling groceries) while Deliveroo takes care of the online ordering solution and associated marketing, as well as the delivery logistics.
 
 ## Integration Features
 Connecting Deliveroo to HubRise allows Deliveroo to:
@@ -36,7 +37,7 @@ IMPORTANT NOTE: Product catalog and product availability available in HubRise ca
 ## Why Connect?
 
 Connecting your Deliveroo online restaurant or convenience store to HubRise allows you to receive Deliveroo orders directly to your EPOS or Kitchen Display Screen also connected with HubRise.
-You will be able to manage Deliveroo orders alongside other orders, using your own tools. Deliveroo orders would flow through your existing setup, as you would do with any other order.
+You will be able to manage Deliveroo orders alongside other orders, using your own tools. Deliveroo orders will flow through your existing setup, as all other orders already do.
 
 ## Prerequisites
 
