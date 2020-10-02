@@ -36,8 +36,8 @@ This section allows you to customise several miscellaneous options: // JW
 
 ## Saving the Configuration
 
-Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to continue to the main page.
+Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to continue to the main page. // JW
 
 ## Resetting the Configuration
 
-You can always restore the Configuration page to its default values and change the Uber Eats store ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page. // JW
+You can always restore the Configuration page to its default values and change the Uber Eats store ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.
