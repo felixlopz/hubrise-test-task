@@ -2,7 +2,7 @@
 title: Configuration
 position: 3
 layout: documentation
-meta:
+meta: // JW
   title: Uber Eats Connection to HubRise Configuration
   description: Instructions on how to configure Uber Eats Bridge.
 ---
