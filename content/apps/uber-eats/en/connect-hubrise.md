@@ -2,7 +2,7 @@
 title: Connection to HubRise
 position: 2
 layout: documentation
-meta:
+meta: // JW
   title: Uber Eats Connection to HubRise
   description: Instructions for connecting Uber Eats to HubRise
 ---
@@ -24,34 +24,34 @@ We will then contact Uber Eats on your behalf to establish the connection and ge
 
 ---
 
-**IMPORTANT NOTE:** Uber Eats Bridge connects to HubRise at the location level.
+**IMPORTANT NOTE:** Uber Eats Bridge connects to HubRise at the location level. // JW
 
 ---
 
 To connect Uber Eats to HubRise, you first need to log in to your HubRise account.
-If you don't have a HubRise account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions.
+If you don't have a HubRise account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions. // JW
 
-1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**.
+1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**. // JW
 1. Select **Uber Eats** from the list of apps.
 1. Click **Connect**.
-1. Grant Uber Eats permission to access the location of your restaurant registered in HubRise.
+1. Grant Uber Eats permission to access the location of your restaurant registered in HubRise. // JW
    1. If your account has not yet been created on HubRise, select **Create a new location**.
    1. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**.
 
 You have now added Uber Eats to your HubRise apps.
 The next step is configure the connection.
 
-## Store ID
+## Store ID // JW
 
 ---
 
-**IMPORTANT NOTE:** In order to connect your Uber Eats restaurant to HubRise, you need to provide a valid store ID.
+**IMPORTANT NOTE:** In order to connect your Uber Eats restaurant to HubRise, you need to provide a valid store ID. // JW
 
 ---
 
-In the first configuration page, you will need to enter the store ID that we will provide you after contacting Uber Eats.
+In the first configuration page, you will need to enter the store ID that we will provide you after contacting Uber Eats. // JW
 This is necessary to correctly route the incoming orders to your HubRise location.
 
 ![Uber Eats store ID](../images/001-en-store-id.png)
 
-Once you are finished, click **Save**.
+Once you are finished, click **Save**. // JW
