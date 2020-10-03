@@ -1,6 +1,6 @@
 ---
 title: Configuration Page
-position: 4
+position: 5
 layout: documentation
 meta:
   title: Deliveroo Connection to HubRise Configuration
