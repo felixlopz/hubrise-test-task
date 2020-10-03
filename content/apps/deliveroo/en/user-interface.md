@@ -3,7 +3,7 @@ title: User Interface Walkthrough
 position: 3
 layout: documentation
 meta:
-  title: Deliveroo Bridge User Interface Walkthrough
+  title: Deliveroo Connection to HubRise - User Interface Walkthrough
   description: How to navigate the Deliveroo Bridge main page to access information about the orders and customise the behaviour of the bridge.
 ---
 

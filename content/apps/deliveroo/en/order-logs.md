@@ -3,7 +3,7 @@ title: Order Logs
 position: 4
 layout: documentation
 meta:
-  title: Deliveroo Bridge Order Logs
+  title: Deliveroo Connection to HubRise - Order Logs
   description: How to access and read the logs about each order in the Deliveroo Bridge.
 ---
 
