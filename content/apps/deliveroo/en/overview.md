@@ -23,6 +23,7 @@ Restaurants and convenience stores can benefit from Deliveroo's large pool of cu
 At the same time, they can concentrate on what they do best (preparing food, selling groceries) while Deliveroo takes care of the online ordering solution and associated marketing, as well as the delivery logistics.
 
 ## Integration Features
+
 Connecting Deliveroo to HubRise allows Deliveroo to:
 
 - Push online orders to Hubrise. 
@@ -30,7 +31,7 @@ Connecting Deliveroo to HubRise allows Deliveroo to:
 
 --------
 
-IMPORTANT NOTE: Product catalog and product availability available in HubRise cannot currently be pushed into Deliveroo, but HubRise is working on it.
+IMPORTANT NOTE: Product catalog and product availability cannot currently be pushed from HubRise to Deliveroo, but HubRise is working on this feature.
 
 --------
 
