@@ -24,7 +24,7 @@ We will then contact Deliveroo on your behalf to establish the connection and ge
 
 ---
 
-**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level.
+**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](https://www.hubrise.com/docs/getting-started/#accounts-and-locations).
 
 ---
 
