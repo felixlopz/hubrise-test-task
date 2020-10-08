@@ -7,7 +7,7 @@ meta:
   description: Instructions on how to request the Deliveroo API activation and Deliveroo Location ID to start receiving orders on HubRise.
 ---
 
-Before you can receive Deliveroo orders in your HubRise account, the API functionalities need to be activated in your Deliveroo account. Don't worry, HubRise will take care of the process for you.
+Before you can receive Deliveroo orders in HubRise, the API functionalities need to be activated in your Deliveroo account. Don't worry, HubRise will take care of the process for you.
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 

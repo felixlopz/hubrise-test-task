@@ -7,16 +7,15 @@ meta:
   description: See how to connect your Deliveroo online store to HubRise. Connection is simple. Send the link of your Deliveroo page to HubRise and follow a few steps to connect.
 ---
 
-To connect Deliveroo to HubRise, the Deliveroo team needs to log your HubRise location ID in their back office.
-Don't worry, HubRise will take care of this the paperwork for you!
+To connect Deliveroo to HubRise, the Deliveroo team needs to enable HubRise on your account.
 
-For more information on how to enable Deliveroo integration with HubRise, check our [FAQ](/apps/deliveroo/faqs/request-deliveroo-api-activation/).
+Don't worry, HubRise will take care of the paperwork for you! For more information on how to enable HubRise on your Deliveroo account, check our [FAQ](/apps/deliveroo/faqs/request-deliveroo-api-activation/).
 
 ## Connect the Deliveroo Bridge to HubRise
 
 ---
 
-**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](https://www.hubrise.com/docs/getting-started/#accounts-and-locations).
+**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](/docs/getting-started/#accounts-and-locations).
 
 ---
 
@@ -29,6 +28,8 @@ To connect Deliveroo to HubRise, follow these steps.
 1. Click **Connect**.
 1. Click **Allow** to grant Deliveroo permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
 
+## Enter your Deliveroo Location ID
+
 Now that you have connected Deliveroo Bridge to your location on HubRise, a new page asks you to provide your Deliveroo location ID.
 
 ![Deliveroo location ID](../images/001-en-location-id.png)
@@ -40,7 +41,3 @@ Now that you have connected Deliveroo Bridge to your location on HubRise, a new 
 ---
 
 Once you are finished, click **Save** to complete the connection process.
-
-[comment]: # 'How can a restaurant get a location ID? 
-Do they need to ask Deliveroo for it? If so, who should they contact? 
-Or can they find it in the Deliveroo back office, how?'
