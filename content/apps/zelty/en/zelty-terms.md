@@ -7,7 +7,7 @@ meta:
   description: 'Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.'
 ---
 
-Both HubRise and Zelty have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
+Both HubRise and Zelty have their own vocabulary. They use different terms to designate the same thing:
 
 | Description                          | HubRise Name | Zelty (fr)      |
 | ------------------------------------ | ------------ | --------------- |

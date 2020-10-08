@@ -7,7 +7,7 @@ meta:
   description: Informs users on different terms and definitions used by Aquila vs HubRise. Understanding differences can help resolve troubleshooting Aquila connection issues in the context of an integration with HubRise.
 ---
 
-Both HubRise and Aquila have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.
+Both HubRise and Aquila have their own vocabulary. They use different terms to designate the same thing:
 
 | Description                    | HubRise Name      | Aquila Name   |
 | ------------------------------ | ----------------- | ------------- |
