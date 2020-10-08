@@ -10,15 +10,7 @@ meta:
 To connect Deliveroo to HubRise, the Deliveroo team needs to log your HubRise location ID in their back office.
 Don't worry, HubRise will take care of this the paperwork for you!
 
-## Send a request to HubRise
-
-The first step to connect Deliveroo and send orders to HubRise is to contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
-
-- The URL link(s) of your Deliveroo store(s) you wish to connect. For instance, [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
-- The email address you logged in the Deliveroo back office and use to communicate with Deliveroo.
-- Your HubRise account and location IDs. If you don't have a HubRise Account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions. If your restaurant called Fast Pizza is located in Baker Street, your location ID may be Fast Pizza Baker Street z6q31-0.
-
-We will then contact Deliveroo on your behalf to establish the connection and get you ready to receive orders.
+For more information on how to enable Deliveroo integration with HubRise, check our [FAQ](/apps/deliveroo/faqs/request-deliveroo-api-activation/).
 
 ## Connect the Deliveroo Bridge to HubRise
 
@@ -37,24 +29,18 @@ To connect Deliveroo to HubRise, follow these steps.
 1. Click **Connect**.
 1. Click **Allow** to grant Deliveroo permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
 
-You have now connected the Deliveroo Bridge to your location on HubRise.
-The next step is configure the connection.
-
-## Location ID
-
----
-
-**IMPORTANT NOTE:** In order to connect your Deliveroo restaurant to HubRise, you need to provide a valid location ID.
-
----
-
-In the first configuration page after connecting the Deliveroo Bridge to HubRise, you will be asked to enter the location ID that has been assigned to you by Deliveroo.
-This is necessary to correctly route the incoming orders to your HubRise location.
+Now that you have connected Deliveroo Bridge to your location on HubRise, a new page asks you to provide your Deliveroo location ID.
 
 ![Deliveroo location ID](../images/001-en-location-id.png)
 
-Once you are finished, click **Save**.
+---
 
-[comment]: # (How can a restaurant get a location ID? 
+**IMPORTANT NOTE:** If you don't have a Deliveroo location ID already, follow the steps in our [FAQ](/apps/deliveroo/faqs/request-deliveroo-api-activation/) to obtain one.
+
+---
+
+Once you are finished, click **Save** to complete the connection process.
+
+[comment]: # 'How can a restaurant get a location ID? 
 Do they need to ask Deliveroo for it? If so, who should they contact? 
-Or can they find it in the Deliveroo back office, how?)
+Or can they find it in the Deliveroo back office, how?'
