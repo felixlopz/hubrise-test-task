@@ -1,5 +1,5 @@
 ---
-title: Configuration Page
+title: Configuration
 position: 4
 layout: documentation
 meta:
@@ -46,4 +46,12 @@ Once you are happy with the configuration of the Deliveroo Bridge, click **Save*
 
 ## Resetting the Configuration
 
-You can always restore the configuration page to its default values and change the Deliveroo location ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.
+If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+
+---
+
+**IMPORTANT NOTE:** Resetting the configuration will also erase your Deliveroo location ID. To continue receiving Deliveroo orders, you will need to enter your Deliveroo location ID again.
+
+---
+
+Resetting the configuration does not remove the operation logs displayed in the main page.
