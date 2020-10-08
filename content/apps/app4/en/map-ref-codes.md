@@ -79,7 +79,7 @@ Currently not supported by the integration.
 <!--
  - Is it possible to define charges, such as a tip, or a delivery charge?
  - Can you configure a ref code for each type of charge? How?
- - Are charges encoded in orders, along with their ref code? 
+ - Are charges encoded in orders, along with their ref code?
 -->
 
 ## Discounts Mapping
