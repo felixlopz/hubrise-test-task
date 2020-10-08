@@ -13,12 +13,12 @@ At this stage you will need to contact the App4 support team and request them to
 - Click **HubRise Settings**.
 - Select the restaurant to connect and click **Enable**.
 - Click **Link to HubRise Account**.
-- The next steps depend on whether you already have a HubRise location for the restaurant to connect. Refer to the corresponding section below. 
+- The next steps depend on whether you already have a HubRise location for the restaurant to connect. Refer to the corresponding section below.
 
 ### If you already have a HubRise location:
 
-- If you are not logged in, HubRise will prompt for your email and password. 
-- App4 will then request permission to access your HubRise Location: 
+- If you are not logged in, HubRise will prompt for your email and password.
+- App4 will then request permission to access your HubRise Location:
 
 ![Connect App4 to HubRise](../images/008-en-connect-to-hubrise.png)
 
