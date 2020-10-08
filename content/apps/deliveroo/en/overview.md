@@ -31,13 +31,13 @@ Connecting Deliveroo to HubRise allows Deliveroo to:
 
 --------
 
-IMPORTANT NOTE: Product catalog and product availability cannot currently be pushed from HubRise to Deliveroo, but HubRise is working on this feature.
+**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in early 2021.
 
 --------
 
 ## Why Connect?
 
-Connecting your Deliveroo online restaurant or convenience store to HubRise allows you to receive Deliveroo orders directly to your EPOS or Kitchen Display Screen also connected with HubRise.
+Connecting your Deliveroo online restaurant or convenience store to HubRise allows you to receive Deliveroo orders directly in your EPOS or Kitchen Display Screen also connected with HubRise.
 You will be able to manage Deliveroo orders alongside other orders, using your own tools. Deliveroo orders will flow through your existing setup, as all other orders already do.
 
 ## Prerequisites
