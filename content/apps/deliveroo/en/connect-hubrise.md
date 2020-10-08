@@ -16,7 +16,7 @@ For more information on how to enable Deliveroo integration with HubRise, check 
 
 ---
 
-**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level.
+**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](https://www.hubrise.com/docs/getting-started/#accounts-and-locations).
 
 ---
 
