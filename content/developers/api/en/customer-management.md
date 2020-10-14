@@ -166,7 +166,7 @@ Returns a customer's details.
 {
   "id": "jdj9v",
   "customer_list_id": "smpse3",
-  "anonymized": false,
+  "anonymised": false,
   "private_ref": null,
   "email": "jimmy.watson@dummy-mail.org",
   "first_name": "Jimmy",
@@ -228,7 +228,7 @@ Returns the customers of a customer list. Some filters can be passed.
   {
     "id": "asdf2",
     "customer_list_id": "ag8u4",
-    "anonymized": false,
+    "anonymised": false,
     "email": "charles.moore@dummy-mail.org",
     "first_name": "Charles",
     "last_name": "Moore",
@@ -320,33 +320,33 @@ Updates a customer. Only the fields present in the request are updated.
 }
 ```
 
-### 2.5. Anonymize Customer
+### 2.5. Anonymise Customer
 
 Deletes a customer's personal information.
 
 <CallSummaryTable
-  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
+  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymise"
   accessLevel="location, account"
 />
 
-The anonymized fields are: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
+The anonymised fields are: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
 
-When a customer is anonymized, the anonymized fields retun a `null` value and the `anonymized` boolean field is set to `true`.
+When a customer is anonymised, the anonymised fields retun a `null` value and the `anonymised` boolean field is set to `true`.
 
-Anonymization cannot be reverted. Further updates of the anonymized fields will silently be ignored. The other fields (eg `custom_fields`) can still be updated though.
+Anonymization cannot be reverted. Further updates of the anonymised fields will silently be ignored. The other fields (eg `custom_fields`) can still be updated though.
 
-Anonymizing a customer also anonymizes his/her orders. The `customer` resources of anonymized orders are modified in the same way as described above.
+Anonymizing a customer also anonymises his/her orders. The `customer` resources of anonymised orders are modified in the same way as described above.
 
-When a customer is anonymized, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
+When a customer is anonymised, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
 
 <CallSummaryTable
-  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize"
+  endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymise"
   accessLevel="location, account"
 />
 
 #### Example request:
 
-`POST /customer_lists/ag8u4/customers/asdf2/anonymize`
+`POST /customer_lists/ag8u4/customers/asdf2/anonymise`
 
 ## 3. Loyalty Cards
 

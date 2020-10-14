@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Verify Connection Between Aquila to HubRise
-  description: Create Test Orders to Verify Connection between Aquila and Hubrise.
+  description: Create Test Orders to Verify Connection between Aquila and HubRise.
 ---
 
 The first step in verifying the connection between Aquila and HubRise is by creating test orders.

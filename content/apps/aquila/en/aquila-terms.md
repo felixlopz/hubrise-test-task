@@ -13,5 +13,5 @@ Both HubRise and Aquila have their own vocabulary. Understanding the differences
 | ------------------------------ | ----------------- | ------------- |
 | Product code                   | Ref code          | POS Code      |
 | The actual restaurant          | Location          | Point of Sale |
-| Restaurant's unique identifier | Unique identifier | Hubrise ID    |
+| Restaurant's unique identifier | Unique identifier | HubRise ID    |
 | Product catalog                | Catalog reference | Catalog ID    |
