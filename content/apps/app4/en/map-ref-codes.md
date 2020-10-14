@@ -47,7 +47,7 @@ To import a HubRise Catalog, contact App4 support and ask them to take the follo
 
 <!--
  - Does catalog import actually create products, categories, deals and options? Or it just updates names, prices, ... of already create items? In other words, if you import into a blank site, will it populate the whole menu from HubRise?
- - Does the user have access to a user interface similar to their admin dashboard, to synchronize their menu with HubRise?
+ - Does the user have access to a user interface similar to their admin dashboard, to synchronise their menu with HubRise?
  -->
 
 ## Product Mapping
@@ -79,7 +79,7 @@ Currently not supported by the integration.
 <!--
  - Is it possible to define charges, such as a tip, or a delivery charge?
  - Can you configure a ref code for each type of charge? How?
- - Are charges encoded in orders, along with their ref code? 
+ - Are charges encoded in orders, along with their ref code?
 -->
 
 ## Discounts Mapping

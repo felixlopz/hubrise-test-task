@@ -28,9 +28,9 @@ content:
           description: iiko est une solution cloud facile à déployer et à faire évoluer. Plus de 30.000 entreprises mono ou multisites l'utilisent pour automatiser leurs opérations.
           additional_info: Documentation en anglais.
         - website: https://www.ikentoo.com
-          documentation:
+          documentation: /apps/ikentoo-lightspeed/
           logo: ikentoo-lightspeed.png
-          title: iKentoo par LightSpeed
+          title: LightSpeed K-Series / iKentoo
           description: iKentoo, par LightSpeed, est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:

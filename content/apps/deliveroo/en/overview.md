@@ -3,31 +3,49 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Deliveroo Connection to HubRise Overview
-  description: Overview of Deliveroo and how to connect it to HubRise.
+  title: Deliveroo Connection to HubRise - Overview
+  description: Deliveroo overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
+gallery:
+  - 006-en-deliveroo-screenshot.png
+  - 003-en-main-page.png
 path_override: /
 app_info:
-  category: Online ordering and food delivery
-  availability:
-  price_range:
+  category: Food Ordering Platforms
+  availability: United Kingdom, Netherlands, France, Belgium, Ireland, Spain, Italy, Australia, New Zealand, Singapore, Hong Kong, United Arab Emirates, and Kuwait
   website: https://deliveroo.co.uk
-  contact:
+  contact: support@deliveroo.co.uk
 ---
 
 ## Description
 
-Deliveroo is an online ordering and food delivery platform based in the United Kingdom but operating in 13 different countries in Europe, Asia, and Oceania.
+Deliveroo is an online delivery platform for restaurants and convenience stores.
+It is based in the United Kingdom but operates in 13 different countries in Europe, Asia, and Oceania.
 
-Restaurants can benefit from Deliveroo's large pool of customers to grow their business and find new clients.
-At the same time, they can concentrate on what they do best (preparing food) while letting Deliveroo take care of the logistics of food delivery.
+Restaurants and convenience stores can benefit from Deliveroo's large pool of customers to grow their business and find new clients.
+At the same time, they can concentrate on what they do best (preparing food, selling groceries) while Deliveroo takes care of the online ordering solution and associated marketing, as well as the delivery logistics.
 
-## Prerequisites
+## Integration Features
 
-To establish a connection between Deliveroo and HubRise, your restaurant must be a Deliveroo partner.
+Connecting Deliveroo to HubRise allows Deliveroo to:
 
-Deliveroo can connect to an existing or new HubRise account through the Deliveroo Bridge developed by HubRise.
+- Push online orders to HubRise.
+- Push customer information to HubRise.
+
+![Diagram of the connection flow between Deliveroo, Deliveroo Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
+
+---
+
+**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in early 2021.
+
+---
 
 ## Why Connect?
 
-Connecting your Deliveroo online restaurant to HubRise allows you to receive Deliveroo orders directly to your POS connected with HubRise.
-You will be able to manage Deliveroo orders seamlessly from your existing setup, as you would do with all the other orders.
+Connecting your Deliveroo online restaurant or convenience store to HubRise allows you to receive Deliveroo orders directly in your EPOS or Kitchen Display Screen also connected with HubRise.
+You will be able to manage Deliveroo orders alongside other orders, using your own tools. Deliveroo orders will flow through your existing setup, as all other orders already do.
+
+## Prerequisites
+
+To establish a connection between Deliveroo and HubRise, your restaurant or store must be a Deliveroo partner.
+
+Deliveroo can connect to an existing or new HubRise account through the Deliveroo Bridge developed by HubRise.

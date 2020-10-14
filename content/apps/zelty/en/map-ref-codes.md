@@ -43,7 +43,7 @@ To export a subset of the menu:
 1. Go to **Catalogues** (Catalog).
 1. Next to the name of the catalog, click the down arrow and select **Envoyer vers** (Send to).
 1. Click on the **HubRise** button available under the heading **Partenaires disponibles** (Available partners).
-1. A message will indicate that the **Le catalogue est en cours de transfert vers Hubrise** (the catalog is being sent to HubRise).
+1. A message will indicate that the **Le catalogue est en cours de transfert vers HubRise** (the catalog is being sent to HubRise).
 1. Check the catalog import on HubRise. For more information on how to manage catalogs in HubRise, see our [Catalog Guide](/docs/catalog/).
 
 ---
