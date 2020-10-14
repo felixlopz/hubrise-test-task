@@ -1,6 +1,6 @@
 ---
-title: Main page
-position: 4
+title: User Interface
+position: 3
 layout: documentation
 meta:
   title: Uber Eats Bridge main page

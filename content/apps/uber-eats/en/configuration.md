@@ -1,10 +1,10 @@
 ---
 title: Configuration
-position: 3
+position: 4
 layout: documentation
-meta: // JW
-  title: Uber Eats Connection to HubRise Configuration
-  description: Instructions on how to configure Uber Eats Bridge.
+meta:
+  title: Uber Eats Connection to HubRise - Configuration
+  description: See instructions to configure the Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
 The Configuration page allows you to customise the behaviour of the Uber Eats Bridge based on your preferences.
