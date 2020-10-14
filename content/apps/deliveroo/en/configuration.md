@@ -1,5 +1,5 @@
 ---
-title: Configuration Page
+title: Configuration
 position: 4
 layout: documentation
 meta:
