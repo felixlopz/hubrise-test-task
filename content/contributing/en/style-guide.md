@@ -19,13 +19,13 @@ The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be use
 
 Terminology and spelling decisions are informed in the [HubRise Glossary of Terms](/contributing/glossary-of-terms/). Refer to it to maximise linguistic consistency throughout the documentation. Think of including your own terminology decisions within.
 
-Please keep in mind that readers of the documentation might not be native english speakers.
+Please keep in mind that readers of the documentation might not be native English speakers.
 
 ## Localisation
 
 The HubRise documentation should be written in British English. Localisation into French is done regularly to keep all bilingual content in sync.
 
-If the user interface is not available in english, include the user interface term in the native language followed by the translation in brackets.
+If the user interface is not available in English, include the user interface term in the native language followed by the translation in brackets.
 
 > Right: Click on **Activer** (Connect) when prompted to do so.
 

@@ -41,7 +41,7 @@ The process below details how to create a new HubRise account when connecting yo
 Once the HubRise plugin has been activated, the connection to a HubRise Account can be set through the following process:
 
 1. Login to your Aquila back office.
-1. Select **Hubrise** from the left navigation panel.
+1. Select **HubRise** from the left navigation panel.
 1. To allow HubRise to create new products on Aquila, set **Only create new product** to **YES**. To allow the HubRise connection to update existing products in Aquila, set **Only create new product** to **NO**.
 1. Click **Login to HubRise**.
 1. Select the HubRise Account and Catalog you wish to use, and press **Allow**.

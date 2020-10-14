@@ -25,7 +25,7 @@ The EPOS ref codes in Aquila can be updated in two ways: manually by creating a 
 
 ## Catalog Import
 
-The catalog is imported automatically when you [connect your Hubrise account](/apps/aquila/connect-hubrise).
+The catalog is imported automatically when you [connect your HubRise account](/apps/aquila/connect-hubrise).
 Manual catalog import is not available.
 
 ## Product
