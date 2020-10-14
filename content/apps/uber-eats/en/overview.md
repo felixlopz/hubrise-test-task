@@ -5,11 +5,13 @@ layout: documentation
 meta:
   title: Uber Eats Connection to HubRise - Overview
   description: Uber Eats overview and why restaurants should connect it to HubRise. With a connection to HubRise orders are sent to tools you use every day - EPOS, KDS.
+gallery:
+  - 003-en-ubereats-screenshot.png
+  - 004-en-main-page.png
 path_override: /
 app_info:
   category: Food Ordering Platforms
-  availability: Worldwide
-  price_range: Free for HubRise subscribed users
+  availability: 30+ countries
   website: https://www.ubereats.com/
   contact: support@hubrise.com
 ---
@@ -31,7 +33,7 @@ Connecting Uber Eats to HubRise allows Uber Eats to:
 
 ---
 
-IMPORTANT NOTE: Product catalog and product availability cannot currently be pushed from HubRise to Deliveroo, but HubRise is working on this feature.
+**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in early 2021.
 
 ---
 
