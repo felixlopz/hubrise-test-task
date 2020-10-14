@@ -17,17 +17,17 @@ Some general best practices are applicable to most integrations. But we know tha
 
 First of all, we are very excited about the new integration you are going to develop!
 
-But we will not just wait and see while you do the work: We will actively help you during the process. Here is what HubRise will do for you:
+When you are ready to start, please let us know at integration@hubrise.com. We will not just wait and see while you do the work, but we will actively help you during the process. Here is what HubRise will do for you:
 
-- We will offer your team free support during the integration phase. If you need help, just write to integration@hubrise.com, and we will respond in a few business hours (not days, or weeks).
-- We will assess the integration you have done by checking the logs in the HubRise back office and filling-in the Integration Sheet.
+- We will offer your team free email support during the integration phase. We respond in a few business hours (not days, or weeks).
+- We will assess the integration you have done by checking your logs.
 - We will then schedule a call with the integration engineer to finalise the assessment together. The call usually takes an hour and a half. We will then write a report with our recommendations.
 
 ### Assessing the Integration
 
 When your integration is ready, we will review it with you based on our [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
 
-In this way, we will know exactly what your integration can and cannot do, and we will be able to document it thoroughly.
+In this way, we will know exactly how your integration works, and we will be able to document it thoroughly.
 
 ### Documenting the Integration
 
@@ -37,11 +37,11 @@ This is good for your SEO and ours. It also helps maximising transparency by sho
 
 ## General Best Practices
 
-When you start developing your integration, some smart choices at the beginning can save you time and effort along the way. Here are a few suggestions.
+When you start developing your integration, taking the right decisions at the beginning can save you time and effort along the way. Here are a few suggestions.
 
 ### Create a Support Alias for HubRise
 
-When you create a HubRise account for your integration, use an email alias such as <support@your-solution.com>, with an email forward to your support team. In this way, all your support team will be able to access the HubRise logs for debugging purposes.
+We recommend registering a HubRise user account with an email alias such as <support@your-solution.com>. Your customers will just need to grant this user access to their HubRise accounts for your support team to access their HubRise logs for debugging purposes.
 
 You can then provide access to your HubRise account to as many individual users as you want (such as <alice@your-solution.com> or <bob@your-solution.com>).
 
@@ -76,7 +76,7 @@ If storing the HubRise IDs is not an option, you can use the HubRise `private_re
 ### Handling Images
 
 When uploading product images to HubRise (for example, if you export your catalog), remember that the size limit is 1 Mb.
-Your integration should prevent or at least warn users when they try to upload big images (more than 1000px high or wide). Doing so only slows down catalog import/export, without any real benefit, since third party websites and tools generally scale down images anyway.
+Your integration should prevent or at least warn users when they try to upload big images (more than 1000px high or wide). Large images only slow down catalog import/export, without any real benefit, since third party websites and tools generally scale down images anyway.
 
 An app using images should always perform image scaling, rather than relying on other apps to send images with reasonable size.
 
@@ -94,8 +94,8 @@ You should also register an active callback to listen to order update events. Th
 
 **Main suggestions**
 
-- Choose the `location[orders.write, customer_list.write]` scope.
-- Include `catalog.read` or `catalog.write` permissions only if your solution handles catalogs.
+- Choose the `location[orders.write,customer_list.write]` scope.
+- Add `catalog.read` or `catalog.write` permissions to the scope if your solution handles catalogs.
 - Register an active callback with the `"order": ["update"]` event.
 - See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
@@ -158,8 +158,8 @@ You should also register an active callback to listen to order events. This will
 
 **Main suggestions**
 
-- Choose the `location[orders.write, customer_list.write]` scope.
-- Include `catalog.read` or `catalog.write` permissions only if your solution handles catalogs.
+- Choose the `location[orders.write,customer_list.write]` scope.
+- Add `catalog.read` or `catalog.write` permissions to the scope if your solution handles catalogs.
 - Register an active callback with the `"order": ["create","update"]` event.
 - See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
@@ -169,12 +169,12 @@ Registering an active callback is the recommended way to receive new orders. As 
 
 When you process the payload, bear in mind the following rules:
 
-- Support E.164 encoding for phone numbers.
+- Phone numbers are generally encoded in E.164 format, but they may occasionally be encoded in a free format for older integrations. We recommend that you support both.
 - Do not reject orders if prices or ref codes are wrong.
 
 For other tips and suggestions, check our [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
 
-If you need to inject new orders in HubRise to test your solution, you can use curl or [Postman](https://www.postman.com/). If you are using a callback, you must create a different client on HubRise to inject orders. For more details, see our [Quick Start Guide](/developers/quick-start)
+If you need to inject new orders in HubRise to test your solution, you can use curl or [Postman](https://www.postman.com/). Remember to create a separate HubRise client to inject orders, so that the your main client callback is triggered. For more details, see our [Quick Start Guide](/developers/quick-start)
 
 **Main suggestions**
 
@@ -184,20 +184,20 @@ If you need to inject new orders in HubRise to test your solution, you can use c
 
 ### Updating Orders
 
-You should acknowledge new orders by updating their status to "received". This will let the online ordering solution know that the order is on its way.
+You should acknowledge new orders by updating their status to `received`. This will let the online ordering solution know that the order is on its way and prevent alerts from being raised.
 HubRise supports a detailed range of order statuses: use them whenever possible to update the order. For more details, see [Order Status](/developers/api/order-management/#order-status).
 
 If possible, you should update the confirmed delivery time of the order on HubRise, so that the customer can be notified.
 
 **Main suggestions**
 
-- Update the status of a new order to "received" to acknowledge reception.
-- Use other statuses like "accepted", "rejected", etc., when this makes sense.
+- Update the status of a new order to `received` to acknowledge reception.
+- Use other statuses like `accepted`, `rejected`, etc., when this makes sense.
 - Update the confirmed delivery time, when this is available.
 
 ### Uploading the catalog to HubRise
 
-HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise can simplify the onboarding of new users and reduce issues with the menu. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management/).
+HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise simplifies the onboarding of new users and reduces menu synchronization issues. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management/).
 
 When you push the catalog, you should encode the following information:
 
