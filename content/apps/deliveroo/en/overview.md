@@ -29,7 +29,7 @@ At the same time, they can concentrate on what they do best (preparing food, sel
 
 Connecting Deliveroo to HubRise allows Deliveroo to:
 
-- Push online orders to Hubrise.
+- Push online orders to HubRise.
 - Push customer information to HubRise.
 
 ![Diagram of the connection flow between Deliveroo, Deliveroo Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
