@@ -15,18 +15,20 @@ Don't worry, HubRise will take care of the paperwork for you! For more informati
 
 ---
 
-**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](/docs/getting-started/#accounts-and-locations).
+**IMPORTANT NOTE:** The Deliveroo Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](/docs/getting-started/#accounts-and-locations).
 
 ---
 
-To connect Deliveroo to HubRise, follow these steps.
+To connect the Deliveroo Bridge to HubRise, follow these steps.
 
 1. Log in to your HubRise account.
 1. Select the location you want to connect from the dropdown menu.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Deliveroo** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant Deliveroo permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. Click **Allow** to grant the Deliveroo Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+
+You have now connected the Deliveroo Bridge to your location on HubRise. The next step is configure the connection.
 
 ## Enter your Deliveroo Location ID
 
