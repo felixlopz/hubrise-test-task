@@ -13,20 +13,20 @@ content:
         button: Contactez-nous
         text: pour plus d'informations ou pour toute question technique.
   thumbs:
-    - title: Démarrage rapide
-      description: En 10 minutes, envoyez vos premières requêtes à l'API (en anglais)
+    - title: Démarrage Rapide
+      description: Guide de 10 minutes pour envoyer vos premières requêtes (en anglais)
       to: /developers/quick-start
       icon: fa-fast-forward
     - title: Référence de l'API
-      description: Toutes les ressources de l'API sont documentées ici (en anglais)
+      description: Documentation complète des ressources et des concepts de l'API (en anglais)
       to: /developers/api/general-concepts
       icon: fa-cogs
+    - title: Guide d'Intégration
+      description: Checklist et bonnes pratiques d'intégration à HubRise (en anglais)
+      to: /developers/integration-guide
+      icon: fa-list-alt
     - title: Authentification
       description: Introduction à OAuth 2.0 et son implémentation dans HubRise (en anglais)
       to: /developers/authentication
       icon: fa-sign-out
-    - title: Intégration
-      description: Checklist d'intégration, couvrant plusieurs types d'applications (en anglais)
-      to: /developers/integration
-      icon: fa-list-alt
 ---

@@ -18,15 +18,15 @@ content:
       to: /developers/quick-start
       icon: fa-fast-forward
     - title: API Reference
-      description: The resources available in the API are documented here
+      description: Full documentation of the API endpoints and concepts
       to: /developers/api/general-concepts
       icon: fa-cogs
+    - title: Integration Guide
+      description: Checklist and best practices to integrate to HubRise
+      to: /developers/integration-guide
+      icon: fa-list-alt
     - title: Authentication
       description: Introduction to OAuth 2.0 and how it is implemented in HubRise
       to: /developers/authentication
       icon: fa-sign-out
-    - title: Integration
-      description: Integration checklist, covering several types of applications
-      to: /developers/integration
-      icon: fa-list-alt
 ---
