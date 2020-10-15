@@ -7,9 +7,10 @@ meta:
   description:
 ---
 
-This document is a practical guide, meant to help you plan and build your integration with HubRise. 
+This document is a practical guide, meant to help you plan and build your integration with HubRise.
 
 It is composed of the following sections:
+
 - [Overview](#overview): general information about the integration process.
 - [General Best Practices](#general-best-practices): a collection of best practices applicable to all integrations.
 - [Online Ordering Solutions](#online-ordering-solutions): an integration checklist for online ordering websites, mobile ordering apps, self ordering kiosks and other similar solutions.
@@ -78,6 +79,10 @@ Once a user establishes a connection with HubRise, you should display all the re
 
 Once connected, your solution should provide an equally easy way to disconnect from HubRise. This will greatly improve the user's experience.
 
+These are the suggested UI wireframes for your back office in the disconnected and connected state.
+
+![UI wireframes for the back office of a Solution not connected (left) and connected (right) to HubRise](../images/003-UI-wireframes-integration-statuses.png)
+
 ### Managing Order IDs and Customer IDs
 
 Mapping IDs between your solution and HubRise is critical to retrieve orders and customers.
@@ -109,8 +114,9 @@ HubRise supports various image formats: jpeg, png, gif and bmp. We recommend usi
 ## Online Ordering Solutions
 
 Connecting your online ordering solution to HubRise will allow your clients to receive orders and customers directly in their EPOS systems.
- 
+
 It generally involves the following steps, which are described in further details in this section:
+
 1. [Establishing and managing the connection](#establishing-and-managing-the-connection)
 1. [Pushing customers](#pushing-customers)
 1. [Pushing orders](#pushing-orders)
@@ -179,6 +185,7 @@ When you import a catalog from HubRise, make sure you save the ref codes for all
 Connecting your EPOS solution to HubRise will allow you to receive orders from multiple integrated partners, including many popular food delivery platforms. You can also take your customers management to a higher level with the various marketing and loyalty solutions integrated with HubRise.
 
 It generally involves the following steps, which are described in further details in this section:
+
 1. [Establishing and managing connections](#establishing-and-managing-connections)
 1. [Receiving orders](#receiving-orders)
 1. [Updating orders](#updating-orders)
@@ -214,7 +221,7 @@ If you need to inject new orders in HubRise to test your solution, you can use t
 
 **Main suggestions**
 
-- Use an active callback to receive new orders (recommended). Alternatively, use a passive callback and poll new events at regular intervals, for example every 30  seconds.
+- Use an active callback to receive new orders (recommended). Alternatively, use a passive callback and poll new events at regular intervals, for example every 30 seconds.
 - Do not use a `GET /location/orders` request to fetch new orders, as this approach is not scalable in production.
 - Use curl or Postman to inject test orders.
 
