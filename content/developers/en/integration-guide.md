@@ -120,6 +120,7 @@ It generally involves the following steps, which are described in further detail
 1. [Establishing and managing the connection](#establishing-and-managing-the-connection)
 1. [Pushing customers](#pushing-customers)
 1. [Pushing orders](#pushing-orders)
+1. [Receiving status updates](#receiving-status-updates)
 1. [Pulling the catalog](#pulling-the-catalog)
 
 ### Establishing and Managing the Connection
@@ -165,9 +166,9 @@ When you need to test that orders are pushed to HubRise correctly, you can conne
 
 ### Receiving Status Updates
 
-If your solution supports order status, you should update it whenever you receive an order update callback.
+If your solution supports order statuses, you should update it whenever you receive an order update callback.
 
-Your solution should monitor order statuses and raise an alert (for example, by sending an email to the restaurant managers and/or to the customer) if an order is still in `new` status after a fixed delay from the initial reception (typically five minutes).
+Your solution should monitor orders and raise an alert (for example, by sending an email to the restaurant managers and/or to the customer) if an order is still in `new` status after a fixed delay from the initial reception (typically five minutes within business hours).
 
 **Main suggestions**
 
