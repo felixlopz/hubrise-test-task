@@ -7,11 +7,15 @@ meta:
   description:
 ---
 
+This document is a practical guide, meant to help you plan and build your integration with HubRise. 
+
+It is composed of the following sections:
+- [Overview](#overview): general information about the integration process.
+- [General Best Practices](#general-best-practices): a collection of best practices applicable to all integrations.
+- [Online Ordering Solutions](#online-ordering-solutions): an integration checklist for online ordering websites, mobile ordering apps, self ordering kiosks and other similar solutions.
+- [EPOS Solutions](#epos-solutions): an integration checklist for EPOS solutions, whether cloud-based or downloadable applications.
+
 ## Overview
-
-This document provides best practices and a typical roadmap to integrate your solution with HubRise.
-
-Some [general best practices](#general-best-practices) are applicable to most integrations. We also provide specific suggestions for two common integration types: [online ordering solutions](#online-ordering-solutions) and [EPOS solutions](#epos-solutions).
 
 ### Let Us Help You!
 
