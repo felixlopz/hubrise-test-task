@@ -1,5 +1,5 @@
 ---
-title: Integration
+title: Integration Guide
 position: 3
 layout: documentation
 meta:
@@ -9,19 +9,20 @@ meta:
 
 ## Overview
 
-This document provides all the information you need to integrate your solution with HubRise.
+This document provides a collection of best practices and a basic roadmap to help you integrate your solution with HubRise.
 
-Some general best practices are applicable to most integrations. But we know that every solution is different, so we will give specific suggestions for different types of case scenarios (online ordering platforms, EPOS solution, etc).
+Some [general best practices](#general-best-practices) are applicable to most integrations. But we know that every solution is different, so we will give specific suggestions for different types of case scenarios, including [online ordering solutions](#online-ordering-solutions) and [EPOS solutions](#epos-solutions).
 
 ### Let Us Help You!
 
 First of all, we are very excited about the new integration you are going to develop!
 
-When you are ready to start, please let us know at integration@hubrise.com. We will not just wait and see while you do the work, but we will actively help you during the process. Here is what HubRise will do for you:
+When you are ready to start, please let us know at integration@hubrise.com. In fact, we will not just wait and see while you do the work, but we will actively help you during the process. Here is what HubRise will do for you:
 
-- We will offer your team free email support during the integration phase. We respond in a few business hours (not days, or weeks).
+- We will offer your team free email support during the integration phase. We generally respond in a few business hours (not days, or weeks).
 - We will assess the integration you have done by checking your logs.
-- We will then schedule a call with the integration engineer to finalise the assessment together. The call usually takes an hour and a half. We will then write a report with our recommendations.
+- We will schedule a call with the integration engineer to finalise the assessment together. The call usually takes an hour and a half.
+- We will then write a report with our recommendations.
 
 ### Assessing the Integration
 
@@ -33,7 +34,13 @@ In this way, we will know exactly how your integration works, and we will be abl
 
 Once your integration is completed and assessed, we will document it and include it in our [Integrated Apps](/apps) page, as we did in the past with other integrations (like dotdigital, PAR PixelPoint, LivePepper, Zelty, to name a few).
 
-This is good for your SEO and ours. It also helps maximising transparency by showing exactly what your integration does.
+Documenting the integration offers several advantages:
+
+- It helps users learn how to use your integration autonomously.
+- It provides support teams with links they can include in support emails, instead of repeating common explanations multiple times.
+- It builds a public knowledge base that everyone can view and edit.
+- It improves transparency across the various integrated solutions in the HubRise ecosystem.
+- It improves SEO ranking for your brand.
 
 ## General Best Practices
 
@@ -41,9 +48,9 @@ When you start developing your integration, taking the right decisions at the be
 
 ### Create a Support Alias for HubRise
 
-We recommend registering a HubRise user account with an email alias such as <support@your-solution.com>. Your customers will just need to grant this user access to their HubRise accounts for your support team to access their HubRise logs for debugging purposes.
+We recommend registering a HubRise user account with an email alias such as <support@your-solution.com>.
 
-You can then provide access to your HubRise account to as many individual users as you want (such as <alice@your-solution.com> or <bob@your-solution.com>).
+If your customers need your help with the integration in the future, they will just need to grant this user access to their HubRise account. Your support team will then be able to access their logs and debug the problem.
 
 ### Scope and Permission
 
@@ -65,13 +72,24 @@ Once a user establishes a connection with HubRise, you should display all the re
 
 Once connected, your solution should provide an equally easy way to disconnect from HubRise. This will greatly improve the user's experience.
 
-### Managing Order and Customer IDs
+### Managing Order IDs and Customer IDs
 
 Mapping IDs between your solution and HubRise is critical to retrieve orders and customers.
 
 Ideally, you should store in your database the HubRise IDs associated with orders and customers, for example by including additional fields in your API model. In this case, you should also display the HubRise IDs in your user interface.
 
 If storing the HubRise IDs is not an option, you can use the HubRise `private_ref` field to store your order and customer ID, instead. In this way, you essentially let HubRise do the mapping.
+
+### Encoding Orders
+
+When you push orders to HubRise, encode names and ref codes for all the fields included in the payload. For a complete list, see our [API reference](https://www.hubrise.com/developers/api/order-management/), and the **Orders** tab in the [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit#gid=615578553).
+
+Pay attention to a few common traps:
+
+- Multiple identical options should be encoded as separate individual objects.
+- You should always pass at least one payment in the payload.
+- Times should be encoded in the timezone of the store.
+- Expected delivery times should always be in the future or `null`.
 
 ### Handling Images
 
@@ -104,13 +122,13 @@ You should also register an active callback to listen to order update events. Th
 If users can create an account on your solution, you should push their details to HubRise as soon as they register.
 More generally, every time users update their details, you should update them on HubRise, as well.
 
-You should also anonymise customers immediately if they request so, or if they have been inactive for a certain period of time (for example, 3 years). This is a legal requirement in the EU under GDPR regulations. For more details, see [Anonymize customer](https://www.hubrise.com/developers/api/customer-management/#anonymize-customer).
+You should also anonymise customers immediately if they request so, or if they have been inactive for a certain period of time (for example, 3 years). This is a legal requirement in many markets, including for example the EU countries under GDPR regulations. For more details, see [Anonymise customer](https://www.hubrise.com/developers/api/customer-management/#anonymise-customer).
 
 **Main suggestions**
 
 - Send a `POST /customer_lists/:customer_list_id/customers` request with the customer's details as soon as they register.
 - Send a `PATCH /customer_lists/:customer_list_id/customers/:id` request when customers update their online profile.
-- Anonymise customers with a `POST /customer_lists/:customer_list_id/customers/:customer_id/anonymize` request when needed.
+- Anonymise customers with a `POST /customer_lists/:customer_list_id/customers/:customer_id/anonymise` request when needed.
 
 ### Pushing Orders
 
@@ -195,36 +213,26 @@ If possible, you should update the confirmed delivery time of the order on HubRi
 - Use other statuses like `accepted`, `rejected`, etc., when this makes sense.
 - Update the confirmed delivery time, when this is available.
 
-### Uploading the catalog to HubRise
+### Uploading the Catalog to HubRise
 
-HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise simplifies the onboarding of new users and reduces menu synchronization issues. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management/).
+HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise simplifies the onboarding of new users and reduces menu synchronisation issues. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management/).
 
-When you push the catalog, you should encode the following information:
+We recommend to only allow a manual uploading of the catalog. Automatic uploads triggered by a wrong catalog update could cause issues on connected online ordering platforms.
 
-- Categories
-- Products and skus
-- Options
-- Deals
-- Discounts
-- Charges
-- Ref codes for all of the above
-- Images, as described in [Handling Images](#handling-images).
+For more information on encoding requirements on HubRise, see the **Catalog** tab in the [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit#gid=1531685884).
 
-For more information on encoding requirements on HubRise, see our [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
+**Main suggestions**
+
+- Implement a manual catalog export feature in your solution.
+- Follow the encoding requirements described in the [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit#gid=1531685884).
+- See [Handling Images](#handling-images) for specific suggestions about images.
 
 ### Sending local orders and customers to HubRise
 
 When you take orders directly on your EPOS system at your restaurant, we recommend that you also push them to HubRise.
 In this way, you will benefit from all the integrated apps already available on your HubRise account, such as delivery management solutions, marketing solutions, digital receipts and digital payments on the customer smartphone, kitchen displays, etc.
 
-Encode the following information when you upload an order to HubRise. See also our [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
+**Main suggestions**
 
-- Products and skus (names and ref codes).
-- Options (names and ref codes). Multiple identical options should be encoded as separate individual objects.
-- Deals (names and ref codes) and deal line labels.
-- Discounts (names and ref codes).
-- Charges (names and ref codes).
-- Payments (names and ref codes). You should always pass at least one payment.
-- Service type (names and ref codes).
-- Customer id, if the order is associated with a customer.
-- Times, encoded in the timezone of the store. Expected delivery times should always be in the future or `null`.
+- Push your local orders to HubRise to benefit from all your integrated apps.
+- See [Encoding Orders](#encoding-orders) for other suggestions on how to encode the payload.

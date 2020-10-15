@@ -25,8 +25,8 @@ content:
       description: Introduction to OAuth 2.0 and how it is implemented in HubRise
       to: /developers/authentication
       icon: fa-sign-out
-    - title: Integration
-      description: Integration checklist, covering several types of applications
-      to: /developers/integration
+    - title: Integration Guide
+      description: Integration checklist and best practices to build your integration with HubRise
+      to: /developers/integration-guide
       icon: fa-list-alt
 ---
