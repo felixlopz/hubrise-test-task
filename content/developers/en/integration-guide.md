@@ -120,6 +120,7 @@ It generally involves the following steps, which are described in further detail
 1. [Establishing and managing the connection](#establishing-and-managing-the-connection)
 1. [Pushing customers](#pushing-customers)
 1. [Pushing orders](#pushing-orders)
+1. [Receiving status updates](#receiving-status-updates)
 1. [Pulling the catalog](#pulling-the-catalog)
 
 ### Establishing and Managing the Connection
@@ -154,8 +155,6 @@ You should push new orders to HubRise as soon as they are created by the user. H
 
 If you have registered users, you should include their `customer_id` in the payload and update their details just before pushing the order. If you do not have registered users (for example, for self ordering kiosks or orders via a tablet at the table), you can include the customer's details directly in the order payload with a so-called "guest order". For more information, see [Order's Customer](/developers/api/order-management/#order-s-customer).
 
-If your solution supports order status, you should update it whenever you receive an order update callback.
-
 When you need to test that orders are pushed to HubRise correctly, you can connect OrderLine to your HubRise account. This free app allows you to receive and manage in real time your HubRise orders. For more details on this app, see the [OrderLine documentation](/apps/orderline/).
 
 **Main suggestions**
@@ -163,8 +162,18 @@ When you need to test that orders are pushed to HubRise correctly, you can conne
 - Send a `POST /location/orders` request as soon as orders are placed on your system, but after payment confirmation for online payments.
 - Send a `PATCH /customer_lists/:customer_list_id/customers/:id` request just before pushing the order.
 - Include the `customer_id` in the payload, if your users can register; otherwise, create guest orders.
-- Update the order status after an `order.update` callback.
 - Connect OrderLine to receive test orders.
+
+### Receiving Status Updates
+
+If your solution supports order statuses, you should update it whenever you receive an order update callback.
+
+Your solution should monitor orders and raise an alert (for example, by sending an email to the restaurant managers and/or to the customer) if an order is still in `new` status after a fixed delay from the initial reception (typically five minutes within business hours).
+
+**Main suggestions**
+
+- Update the order status after an `order.update` callback.
+- Raise an alert if an order status remains `new` for too long.
 
 ### Pulling the Catalog
 
