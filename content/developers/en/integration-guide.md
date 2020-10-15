@@ -79,7 +79,7 @@ Once a user establishes a connection with HubRise, you should display all the re
 
 Once connected, your solution should provide an equally easy way to disconnect from HubRise. This will greatly improve the user's experience.
 
-These are the suggested UI wireframes for your back office in the disconnected and connected state.
+These are the suggested UI wireframes for your back office in the disconnected and connected states.
 
 ![UI wireframes for the back office of a Solution not connected (left) and connected (right) to HubRise](../images/003-UI-wireframes-integration-statuses.png)
 
