@@ -9,38 +9,40 @@ meta:
 
 ## Overview
 
-This document provides a collection of best practices and a basic roadmap to help you integrate your solution with HubRise.
+This document provides best practices and a typical roadmap to integrate your solution with HubRise.
 
-Some [general best practices](#general-best-practices) are applicable to most integrations. But we know that every solution is different, so we will give specific suggestions for different types of case scenarios, including [online ordering solutions](#online-ordering-solutions) and [EPOS solutions](#epos-solutions).
+Some [general best practices](#general-best-practices) are applicable to most integrations. We also provide specific suggestions for two common integration types: [online ordering solutions](#online-ordering-solutions) and [EPOS solutions](#epos-solutions).
 
 ### Let Us Help You!
 
 First of all, we are very excited about the new integration you are going to develop!
 
-When you are ready to start, please let us know at integration@hubrise.com. In fact, we will not just wait and see while you do the work, but we will actively help you during the process. Here is what HubRise will do for you:
+When you are ready to start, please let us know at integration@hubrise.com. We won't just wait and see while you do the work, but we will actively help you during the process. Here is what HubRise can do for you:
 
-- We will offer your team free email support during the integration phase. We generally respond in a few business hours (not days, or weeks).
-- We will assess the integration you have done by checking your logs.
-- We will schedule a call with the integration engineer to finalise the assessment together. The call usually takes an hour and a half.
-- We will then write a report with our recommendations.
+- We offer your team free email support during the integration phase. We generally respond in a few business hours (not days, or weeks).
+- We assess your integration by checking the logs.
+- We schedule a call with one of our integration engineers to finalise the assessment together. The call usually takes an hour and a half.
+- We write a report with our recommendations.
 
 ### Assessing the Integration
 
-When your integration is ready, we will review it with you based on our [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
+When your integration is ready, we review it with you and fill the Integration Sheet together. In this way, we know exactly how your integration works, and we can document it thoroughly.
 
-In this way, we will know exactly how your integration works, and we will be able to document it thoroughly.
+To see what to expect during this review, check our [Integration Sheet template](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
 
 ### Documenting the Integration
 
-Once your integration is completed and assessed, we will document it and include it in our [Integrated Apps](/apps) page, as we did in the past with other integrations (like dotdigital, PAR PixelPoint, LivePepper, Zelty, to name a few).
+Once your integration is completed and assessed, we document it and include it in our [Integrated Apps](/apps) page, as we did in the past with other integrations (like dotdigital, PAR PixelPoint, LivePepper, Zelty, to name a few).
 
-Documenting the integration offers several advantages:
+We document integrations to:
 
-- It helps users learn how to use your integration autonomously.
-- It provides support teams with links they can include in support emails, instead of repeating common explanations multiple times.
-- It builds a public knowledge base that everyone can view and edit.
-- It improves transparency across the various integrated solutions in the HubRise ecosystem.
-- It improves SEO ranking for your brand.
+- Explain users how to use your integration autonomously.
+- Provide support teams with links they can include in support emails, instead of repeating common explanations multiple times.
+- Build a public knowledge base that everyone can view.
+- Improve transparency across the various integrated solutions in the HubRise ecosystem.
+- Give your brand some SEO juice.
+
+Our documentation is public and open source. Everyone can help improve it and keep it up to date.
 
 ## General Best Practices
 
@@ -102,7 +104,7 @@ HubRise supports various image formats: jpeg, png, gif and bmp. We recommend usi
 
 ## Online Ordering Solutions
 
-Connecting your online ordering solution to HubRise will allow your clients to receive orders and customers directly to their EPOS systems. Here are a few suggestions to help you during the implementation.
+Connecting your online ordering solution to HubRise will allow your clients to receive orders and customers directly in their EPOS systems. Here are a few suggestions to help you during the implementation.
 
 ### Establishing and Managing the Connection
 
@@ -113,7 +115,7 @@ You should also register an active callback to listen to order update events. Th
 **Main suggestions**
 
 - Choose the `location[orders.write,customer_list.write]` scope.
-- Add `catalog.read` or `catalog.write` permissions to the scope if your solution handles catalogs.
+- Add the `catalog.read` or `catalog.write` permission to the scope if your solution handles catalogs.
 - Register an active callback with the `"order": ["update"]` event.
 - See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
@@ -154,7 +156,7 @@ HubRise offers advanced catalog functionalities. We recommend that you implement
 
 Your solution can automatically pull the catalog when this is updated on HubRise (via a `catalog.update` callback), or you can implement a button in your back office for a manual import. Even better, you could let your users decide the preferred behaviour via a setting in your back office.
 
-When you import a catalog from HubRise, make sure you save the ref codes for all the products, options, charges, etc. You should include them in the payload when you push an order. This is very important because some EPOS systems will not recognise products without a ref code correctly.
+When you import a catalog from HubRise, make sure you save the ref codes for all the products, options, charges, etc. You should include them in the payload when you push an order. This is very important because most EPOS systems will ignore products without a ref code, or even reject the order.
 
 **Main suggestions**
 
@@ -177,47 +179,48 @@ You should also register an active callback to listen to order events. This will
 **Main suggestions**
 
 - Choose the `location[orders.write,customer_list.write]` scope.
-- Add `catalog.read` or `catalog.write` permissions to the scope if your solution handles catalogs.
+- Add the `catalog.read` or `catalog.write` permission to the scope if your solution handles catalogs.
 - Register an active callback with the `"order": ["create","update"]` event.
 - See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
 ### Receiving Orders and Updating Their Status
 
-Registering an active callback is the recommended way to receive new orders. As an alternative, use a passive callback to fetch new events at regular intervals.
+Registering an active callback is the recommended way to receive new orders. As an alternative, for example if you cannot listen on a public URL, use a passive callback to fetch new events at regular intervals.
 
 When you process the payload, bear in mind the following rules:
 
 - Phone numbers are generally encoded in E.164 format, but they may occasionally be encoded in a free format for older integrations. We recommend that you support both.
 - Do not reject orders if prices or ref codes are wrong.
 
-For other tips and suggestions, check our [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
+For other tips and suggestions, check the **Orders** tab in our [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
 
-If you need to inject new orders in HubRise to test your solution, you can use curl or [Postman](https://www.postman.com/). Remember to create a separate HubRise client to inject orders, so that the your main client callback is triggered. For more details, see our [Quick Start Guide](/developers/quick-start)
+If you need to inject new orders in HubRise to test your solution, you can use the curl command or Postman. Remember to create a separate HubRise client to inject orders, so that the your main client callback is triggered. For more details, see our [Quick Start Guide](/developers/quick-start)
 
 **Main suggestions**
 
-- Use an active callback to receive new orders (recommended). Alternatively, use a passive callback to poll new events.
+- Use an active callback to receive new orders (recommended). Alternatively, use a passive callback and poll new events at regular intervals, for example every 30  seconds.
 - Do not use a `GET /location/orders` request to fetch new orders, as this approach is not scalable in production.
 - Use curl or Postman to inject test orders.
 
 ### Updating Orders
 
-You should acknowledge new orders by updating their status to `received`. This will let the online ordering solution know that the order is on its way and prevent alerts from being raised.
+You should acknowledge new orders by updating their status to `received`. This will let the online ordering solution know that the order is on its way and prevent it from raising alerts.
 HubRise supports a detailed range of order statuses: use them whenever possible to update the order. For more details, see [Order Status](/developers/api/order-management/#order-status).
 
-If possible, you should update the confirmed delivery time of the order on HubRise, so that the customer can be notified.
+If possible, you should update the confirmed delivery time of the order on HubRise, so that the customer can be notified. You would typically do this in a request that also updates the order status to `accepted`.
 
 **Main suggestions**
 
+- Send a `PATCH /location/orders/:id` request to update the order status and the confirmed delivery time.
 - Update the status of a new order to `received` to acknowledge reception.
 - Use other statuses like `accepted`, `rejected`, etc., when this makes sense.
-- Update the confirmed delivery time, when this is available.
+- Update the confirmed delivery time, when this is available, at the same time the order status is changed to `accepted`.
 
 ### Uploading the Catalog to HubRise
 
 HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise simplifies the onboarding of new users and reduces menu synchronisation issues. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management/).
 
-We recommend to only allow a manual uploading of the catalog. Automatic uploads triggered by a wrong catalog update could cause issues on connected online ordering platforms.
+We recommend to only allow manual catalog uploads. Automatic uploads triggered by a wrong catalog update could cause issues on connected online ordering platforms, without the user being aware.
 
 For more information on encoding requirements on HubRise, see the **Catalog** tab in the [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit#gid=1531685884).
 
@@ -234,5 +237,5 @@ In this way, you will benefit from all the integrated apps already available on 
 
 **Main suggestions**
 
-- Push your local orders to HubRise to benefit from all your integrated apps.
+- Send local orders with `POST /location/orders` requests, to benefit from all integrated apps.
 - See [Encoding Orders](#encoding-orders) for other suggestions on how to encode the payload.
