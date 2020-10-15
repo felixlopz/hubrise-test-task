@@ -104,7 +104,13 @@ HubRise supports various image formats: jpeg, png, gif and bmp. We recommend usi
 
 ## Online Ordering Solutions
 
-Connecting your online ordering solution to HubRise will allow your clients to receive orders and customers directly in their EPOS systems. Here are a few suggestions to help you during the implementation.
+Connecting your online ordering solution to HubRise will allow your clients to receive orders and customers directly in their EPOS systems.
+ 
+It generally involves the following steps, which are described in further details in this section:
+1. [Establishing and managing the connection](#establishing-and-managing-the-connection)
+1. [Pushing customers](#pushing-customers)
+1. [Pushing orders](#pushing-orders)
+1. [Pulling the catalog](#pulling-the-catalog)
 
 ### Establishing and Managing the Connection
 
@@ -119,7 +125,7 @@ You should also register an active callback to listen to order update events. Th
 - Register an active callback with the `"order": ["update"]` event.
 - See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
-### Pushing Customers to HubRise
+### Pushing Customers
 
 If users can create an account on your solution, you should push their details to HubRise as soon as they register.
 More generally, every time users update their details, you should update them on HubRise, as well.
@@ -168,22 +174,28 @@ When you import a catalog from HubRise, make sure you save the ref codes for all
 
 Connecting your EPOS solution to HubRise will allow you to receive orders from multiple integrated partners, including many popular food delivery platforms. You can also take your customers management to a higher level with the various marketing and loyalty solutions integrated with HubRise.
 
-Here are a few suggestions to help you during the implementation.
+It generally involves the following steps, which are described in further details in this section:
+1. [Establishing and managing connections](#establishing-and-managing-connections)
+1. [Receiving orders](#receiving-orders)
+1. [Updating orders](#updating-orders)
+1. [Pushing the catalog](#pushing-the-catalog)
+1. [Pushing local orders and customers](#pushing-local-orders-and-customers)
 
-### Establishing and Managing the Connection
+### Establishing and Managing Connections
 
 We recommend that you follow our general best practices and connect to HubRise at the location level.
 
 You should also register an active callback to listen to order events. This will allow your application to receive new orders from HubRise and status updates. For more details about callbacks, see our [Developers documentation](/developers/api/callbacks/#callbacks).
+
+See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
 **Main suggestions**
 
 - Choose the `location[orders.write,customer_list.write]` scope.
 - Add the `catalog.read` or `catalog.write` permission to the scope if your solution handles catalogs.
 - Register an active callback with the `"order": ["create","update"]` event.
-- See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
-### Receiving Orders and Updating Their Status
+### Receiving Orders
 
 Registering an active callback is the recommended way to receive new orders. As an alternative, for example if you cannot listen on a public URL, use a passive callback to fetch new events at regular intervals.
 
@@ -216,7 +228,7 @@ If possible, you should update the confirmed delivery time of the order on HubRi
 - Use other statuses like `accepted`, `rejected`, etc., when this makes sense.
 - Update the confirmed delivery time, when this is available, at the same time the order status is changed to `accepted`.
 
-### Uploading the Catalog to HubRise
+### Pushing the Catalog
 
 HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise simplifies the onboarding of new users and reduces menu synchronisation issues. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management/).
 
@@ -230,7 +242,7 @@ For more information on encoding requirements on HubRise, see the **Catalog** ta
 - Follow the encoding requirements described in the [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit#gid=1531685884).
 - See [Handling Images](#handling-images) for specific suggestions about images.
 
-### Sending local orders and customers to HubRise
+### Pushing local orders and customers
 
 When you take orders directly on your EPOS system at your restaurant, we recommend that you also push them to HubRise.
 In this way, you will benefit from all the integrated apps already available on your HubRise account, such as delivery management solutions, marketing solutions, digital receipts and digital payments on the customer smartphone, kitchen displays, etc.

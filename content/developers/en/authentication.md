@@ -1,6 +1,6 @@
 ---
 title: Authentication
-position: 2
+position: 4
 layout: documentation
 meta:
   title:

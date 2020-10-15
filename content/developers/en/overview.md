@@ -21,12 +21,12 @@ content:
       description: The resources available in the API are documented here
       to: /developers/api/general-concepts
       icon: fa-cogs
-    - title: Authentication
-      description: Introduction to OAuth 2.0 and how it is implemented in HubRise
-      to: /developers/authentication
-      icon: fa-sign-out
     - title: Integration Guide
       description: Integration checklist and best practices to build your integration with HubRise
       to: /developers/integration-guide
       icon: fa-list-alt
+    - title: Authentication
+      description: Introduction to OAuth 2.0 and how it is implemented in HubRise
+      to: /developers/authentication
+      icon: fa-sign-out
 ---
