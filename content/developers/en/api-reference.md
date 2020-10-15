@@ -1,5 +1,5 @@
 ---
-title: API reference
+title: API Reference
 position: 2
 layout: documentation
 meta:
