@@ -24,6 +24,8 @@ First of all, we are very excited about the new integration you are going to dev
 
 When you are ready to start, please let us know at integration@hubrise.com. We won't just wait and see while you do the work, but we will actively help you during the process. Here is what HubRise can do for you:
 
+[comment]: # (WHEN WE KNOW, WE CAN GIVE THEM FREE ACCESS TO THE TEST ACCOUNT ALSO, IT AVOIDS LATE MINUTE REQUESTS TO SPOT AUTOMATED MESSAGES FOR DUE SUBSCRIPTION TO BE SENT)
+
 - We offer your team free email support during the integration phase. We generally respond in a few business hours (not days, or weeks).
 - We assess your integration by checking the logs.
 - We schedule a call with one of our integration engineers to finalise the assessment together. The call usually takes an hour and a half.
@@ -31,7 +33,9 @@ When you are ready to start, please let us know at integration@hubrise.com. We w
 
 ### Assessing the Integration
 
-When your integration is ready, we review it with you and fill the Integration Sheet together. In this way, we know exactly how your integration works, and we can document it thoroughly.
+When your integration is ready, we review it with you and fill an Integration Sheet together. In this way, we know exactly how your integration works, and we can document it thoroughly.
+[comment]: # (YOU HAVE NOT EXPLAINED WHAT AN INTEGRATION SHEET IS, YET YOU REFER TO IT AS IF IT WAS SOMETHING KNOWN. SHOULD IT NOT BE PRESENTED FIRST? ALSO I WOULD REITERATE THAT WE WILL PROVIDE WRITTEN FEEDBACK. SOMETHING ALONG THE LINES OF : When your integration is ready, we review it with you. To do this we will check the logs on test transaction you have done and ask you a few questions. The review process is structure around an Integration Sheet. To see what to expect, check our [Integration Sheet template](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing). 
+With this information in hand we can provide you with writen feedback to help avoid of the known pitfalls. We also understand exactly how your integration works, and we can document it thoroughly.)
 
 To see what to expect during this review, check our [Integration Sheet template](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
 
@@ -45,6 +49,7 @@ We document integrations to:
 - Provide support teams with links they can include in support emails, instead of repeating common explanations multiple times.
 - Build a public knowledge base that everyone can view.
 - Improve transparency across the various integrated solutions in the HubRise ecosystem.
+[comment]: # (I THINK THIS SHOULD BE ON BULLET ONE, IT'S A VERY IMPORTANT POINT :-)
 - Give your brand some SEO juice.
 
 Our documentation is public and open source. Everyone can help improve it and keep it up to date.
@@ -68,6 +73,7 @@ In more advanced scenarios where you read or modify the catalog of products, you
 For more information about scopes, see [OAuth scopes](/developers/authentication#oauth-scopes).
 
 ### Connection Workflow
+[comment]: # (YOU ARE NOT REFERRING TO THE CONNECTION VIA A "CONNECT" BUTTON IN HUBRISE THE VIEW AVAILABLE APPS PAGE, WHY?)
 
 You should provide your users with an easy way to connect your solution to HubRise. The recommended approach is a button in the back office that allows connection with a single click via the OAuth protocol.
 
@@ -122,6 +128,7 @@ It generally involves the following steps, which are described in further detail
 1. [Pushing orders](#pushing-orders)
 1. [Receiving status updates](#receiving-status-updates)
 1. [Pulling the catalog](#pulling-the-catalog)
+[comment]: # (WHAT ABOUT STOCK INFO? SHOULD IT NOT BE PULLED TOO TO KNOW IF A PRODUCT IS AVAILABLE OR NOT?)
 
 ### Establishing and Managing the Connection
 
@@ -176,6 +183,7 @@ Your solution should monitor orders and raise an alert (for example, by sending 
 - Raise an alert if an order status remains `new` for too long.
 
 ### Pulling the Catalog
+[comment]: # (FOR THEM TO PULL A CATALOG WE FIRST NEED TO LOAD A CATALOG IN HUBRISE. I READ QUICKLY BUT I DID NOT SEE HOW THIS IS DONE.)
 
 HubRise offers advanced catalog functionalities. We recommend that you implement a feature to pull catalogs from HubRise to your solution. This will simplify the onboarding of new users and reduce issues with the menu.
 
