@@ -42,7 +42,7 @@ This section allows you to specify the discount name and ref code applied to you
 
 ## Saving the Configuration
 
-Once you are happy with the configuration of the Deliveroo Bridge, click **Save** at the top of the page to continue to the main page.
+Once you are happy with the configuration of the Deliveroo Bridge, click **Save** at the top of the page to go back to the Operations page.
 
 ## Resetting the Configuration
 

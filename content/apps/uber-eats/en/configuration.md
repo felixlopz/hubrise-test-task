@@ -28,16 +28,21 @@ On the other hand, you can also customise which status to use on HubRise for new
 
 ## Special Ref Codes and Other Options
 
-This section allows you to customise several miscellaneous options: // JW
+This section allows you to customise several miscellaneous options:
 
 - The service type ref code associated to Uber Eats orders.
 - The payment type and ref code associated with Uber Eats orders.
-- The ref code used when a customer includes disposable items in an order. //JW
+- The ref code used when a customer includes disposable items in an order.
+
+Special ref codes associated with Uber Eats might be required by your EPOS for service type and payment.
+Refer to your connected EPOS documentation on the HubRise website to verify.
+
+**Disposable items** is an option that clients can tick in the Uber Eats basket on checkout. Not all restaurants include this option in their basket but if they do, they need to include the ref code.
 
 ## Saving the Configuration
 
-Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to continue to the main page. // JW
+Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
 
 ## Resetting the Configuration
 
-You can always restore the Configuration page to its default values and change the Uber Eats store ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page. // JW
+You can always restore the Configuration page to its default values and change the Uber Eats store ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.
