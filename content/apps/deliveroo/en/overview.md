@@ -7,7 +7,7 @@ meta:
   description: Deliveroo overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
 gallery:
   - 006-en-deliveroo-screenshot.png
-  - 003-en-main-page.png
+  - 002-en-configuration-page.png
 path_override: /
 app_info:
   category: Food Ordering Platforms
