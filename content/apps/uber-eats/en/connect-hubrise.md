@@ -55,8 +55,3 @@ For more information about the Configuration page and how to navigate to it, see
 If you connect HubRise to your EPOS, you need to make sure that all the products in the Uber Eats menu are mapped to their corresponding ref code. This ensures that orders are correctly processed once they are sent to your EPOS.
 
 To learn how to map ref codes on Uber Eats, see [Map Ref Codes](/apps/uber-eats/map-ref-codes).
-
-## Place Test Orders
-
-Before you start receiving orders from real customers, we recommend that you test the whole integration workflow.
-Placing a few test orders on Uber Eats and confirming that they are correctly received on your EPOS is useful to spot possible issues before going live.
