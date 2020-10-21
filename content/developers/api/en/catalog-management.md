@@ -1251,7 +1251,7 @@ Updates a selected set of entries. Leave the other entries unchanged.
 
 The request body has the same format as [Update inventory](#update-inventory). A `null` stock indicates that the entry must be removed from the inventory, ie the stock is unlimited.
 
-Unlike the `PUT` method, which returns the full inventory with a `200` HTTP code on successful completion, the `PATCH` method returns an empty response body with a `204` HTTP code.
+Unlike the `PUT` method, which returns the full inventory on successful completion, the `PATCH` method only returns the updated entries. This behaviour keeps the response small and useful.
 
 <CallSummaryTable
   endpoint="PATCH /catalogs/:id/locations/:id/inventory"

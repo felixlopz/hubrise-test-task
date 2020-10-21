@@ -1,13 +1,14 @@
 ---
 title: Configuration
-position: 3
+position: 4
 layout: documentation
 meta:
-  title: Uber Eats Connection to HubRise Configuration
-  description: Instructions on how to configure Uber Eats Bridge.
+  title: Uber Eats Connection to HubRise - Configuration
+  description: See instructions to configure the Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
 The Configuration page allows you to customise the behaviour of the Uber Eats Bridge based on your preferences.
+
 These are divided into different categories for an easier navigation.
 
 ![Uber Eats Bridge configuration page](../images/002-en-configuration-page.png)
@@ -20,9 +21,9 @@ When you select the checkbox, your HubRise catalog will be synced with the Uber 
 
 ## Order Statuses
 
-Uber Eats has only three possible statuses for the orders: accepted, denied, and cancelled.
+Uber Eats has only three possible statuses for the orders: `accepted`, `denied`, and `cancelled`.
 
-You can therefore decide which HubRise status triggers a certain status on Uber Eats. For example, when an order is marked as "received" on HubRise, this will automatically mark the order as "accepted" on Uber Eats.
+You can therefore decide which HubRise status triggers a certain status on Uber Eats. For example, when an order is marked as `received` on HubRise, this will automatically mark the order as `accepted` on Uber Eats.
 
 On the other hand, you can also customise which status to use on HubRise for new orders received from Uber Eats. This choice typically depends on the status your POS expects to receive.
 
@@ -34,9 +35,14 @@ This section allows you to customise several miscellaneous options:
 - The payment type and ref code associated with Uber Eats orders.
 - The ref code used when a customer includes disposable items in an order.
 
+Special ref codes associated with Uber Eats might be required by your EPOS for service type and payment.
+Refer to your connected EPOS documentation on the HubRise website to verify.
+
+**Disposable items** is an option that clients can tick in the Uber Eats basket on checkout. Not all restaurants include this option in their basket but if they do, they need to include the ref code.
+
 ## Saving the Configuration
 
-Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to continue to the main page.
+Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
 
 ## Resetting the Configuration
 

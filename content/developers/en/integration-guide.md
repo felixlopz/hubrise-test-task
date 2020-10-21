@@ -3,8 +3,8 @@ title: Integration Guide
 position: 3
 layout: documentation
 meta:
-  title:
-  description:
+  title: HubRise Integration Guide
+  description: An integration guide with best practices and practical suggestions to develop an integration with HubRise.
 ---
 
 This document is a practical guide, meant to help you plan and build your integration with HubRise.
@@ -22,29 +22,32 @@ It is composed of the following sections:
 
 First of all, we are very excited about the new integration you are going to develop!
 
-When you are ready to start, please let us know at integration@hubrise.com. We won't just wait and see while you do the work, but we will actively help you during the process. Here is what HubRise can do for you:
+When you are ready to start, please let us know at integration@hubrise.com.
+
+But we won't just wait and see while you do the work: We will actively help you during the process. Here is what HubRise can do for you:
 
 - We offer your team free email support during the integration phase. We generally respond in a few business hours (not days, or weeks).
+- We waive your subscription fee so that you can place unlimited test orders during the development phase.
 - We assess your integration by checking the logs.
 - We schedule a call with one of our integration engineers to finalise the assessment together. The call usually takes an hour and a half.
-- We write a report with our recommendations.
+- We send you a report with our recommendations. We keep this report updated as you make changes in your integration.
 
 ### Assessing the Integration
 
-When your integration is ready, we review it with you and fill the Integration Sheet together. In this way, we know exactly how your integration works, and we can document it thoroughly.
+When your integration is ready, we assess it with you. After checking the logs of your test transactions, we ask you a few questions to create a report that we call the Integration Sheet. To see what to expect, check our [Integration Sheet template](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
 
-To see what to expect during this review, check our [Integration Sheet template](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
+The Integration Sheet is useful to provide you with written feedback and help you avoid known pitfalls. We can also understand exactly how your integration works, and document it thoroughly.
 
 ### Documenting the Integration
 
-Once your integration is completed and assessed, we document it and include it in our [Integrated Apps](/apps) page, as we did in the past with other integrations (like dotdigital, PAR PixelPoint, LivePepper, Zelty, to name a few).
+Once your integration is assessed, we document it and include it in our [Integrated Apps](/apps) page, as we did in the past with other integrations (like dotdigital, PAR PixelPoint, LivePepper, Zelty, to name a few).
 
 We document integrations to:
 
+- Improve transparency across the various integrated solutions in the HubRise ecosystem.
 - Explain users how to use your integration autonomously.
 - Provide support teams with links they can include in support emails, instead of repeating common explanations multiple times.
 - Build a public knowledge base that everyone can view.
-- Improve transparency across the various integrated solutions in the HubRise ecosystem.
 - Give your brand some SEO juice.
 
 Our documentation is public and open source. Everyone can help improve it and keep it up to date.
