@@ -8,6 +8,7 @@ meta:
 ---
 
 The Configuration page allows you to customise the behaviour of the Uber Eats Bridge based on your preferences.
+
 These are divided into different categories for an easier navigation.
 
 ![Uber Eats Bridge configuration page](../images/002-en-configuration-page.png)
@@ -20,9 +21,9 @@ When you select the checkbox, your HubRise catalog will be synced with the Uber 
 
 ## Order Statuses
 
-Uber Eats has only three possible statuses for the orders: accepted, denied, and cancelled.
+Uber Eats has only three possible statuses for the orders: `accepted`, `denied`, and `cancelled`.
 
-You can therefore decide which HubRise status triggers a certain status on Uber Eats. For example, when an order is marked as "received" on HubRise, this will automatically mark the order as "accepted" on Uber Eats.
+You can therefore decide which HubRise status triggers a certain status on Uber Eats. For example, when an order is marked as `received` on HubRise, this will automatically mark the order as `accepted` on Uber Eats.
 
 On the other hand, you can also customise which status to use on HubRise for new orders received from Uber Eats. This choice typically depends on the status your POS expects to receive.
 
