@@ -43,3 +43,15 @@ Now that you have connected Uber Eats Bridge to your location on HubRise, a new 
 ---
 
 Once you are finished, click **Save** to complete the connection process.
+
+## Configure the Uber Eats Bridge
+
+After connecting the Uber Eats Bridge to HubRise, you need to configure its behaviour from the Configuration page. You need to provide a few parameters that are needed to correctly send orders to your EPOS.
+
+For more information about the Configuration page and how to navigate to it, see [User Interface](/apps/uber-eats/user-interface/#configuration-page). For details on how to configure the parameters of the Uber Eats Bridge, see [Configuration](/apps/uber-eats/configuration).
+
+## Map Products to Ref Codes
+
+If you connect HubRise to your EPOS, you need to make sure that all the products in the Uber Eats menu are mapped to their corresponding ref code. This ensures that orders are correctly processed once they are sent to your EPOS.
+
+To learn how to map ref codes on Uber Eats, see [Map Ref Codes](/apps/uber-eats/map-ref-codes).

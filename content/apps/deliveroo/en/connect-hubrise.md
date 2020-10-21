@@ -43,3 +43,15 @@ Now that you have connected Deliveroo Bridge to your location on HubRise, a new 
 ---
 
 Once you are finished, click **Save** to complete the connection process.
+
+## Configure the Deliveroo Bridge
+
+After connecting the Deliveroo Bridge to HubRise, you need to configure its behaviour from the Configuration page. You need to provide a few parameters that are needed to correctly send orders to your EPOS.
+
+For more information about the Configuration page and how to navigate to it, see [User Interface](/apps/deliveroo/user-interface/#configuration-page). For details on how to configure the parameters of the Deliveroo Bridge, see [Configuration](/apps/deliveroo/configuration).
+
+## Map Products to Ref Codes
+
+If you connect HubRise to your EPOS, you need to make sure that all the products in the Deliveroo menu are mapped to their corresponding ref code. This ensures that orders are correctly processed once they are sent to your EPOS.
+
+To learn how to map ref codes on Deliveroo, see [Map Ref Codes](/apps/deliveroo/map-ref-codes).

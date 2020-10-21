@@ -1,6 +1,6 @@
 ---
 title: FAQs
-position: 5
+position: 6
 layout: documentation
 meta:
   title: Deliveroo Connection to HubRise - FAQs
