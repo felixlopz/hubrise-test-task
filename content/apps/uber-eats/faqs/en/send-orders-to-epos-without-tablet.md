@@ -7,10 +7,10 @@ meta:
   description: Description of Uber Eats manual and direct modes for receiving orders, and instructions on how to receive orders directly to the EPOS without confirming them on the Uber Eats tablets first.
 ---
 
-Uber Eats allows restaurants to receive orders in two different ways: manual and direct.
+Uber Eats allows restaurants to receive orders in two different ways: **manual** and **direct**.
 
-- With manual mode, new orders need to be accepted on Uber Eats tablet first, before being sent to the EPOS.
-- With direct mode, new orders are directly sent to the EPOS, and they need to be acknowledged there.
+- With **manual** mode, new orders need to be accepted on Uber Eats tablet first, before being sent to the EPOS.
+- With **direct** mode, new orders are directly sent to the EPOS, and they need to be acknowledged there.
 
 Uber Eats controls which mode is activated on your store from their back office.
 
