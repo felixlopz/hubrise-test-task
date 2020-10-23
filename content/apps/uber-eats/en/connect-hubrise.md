@@ -15,7 +15,7 @@ Don't worry, HubRise will take care of the paperwork for you! For more informati
 
 ---
 
-**IMPORTANT NOTE:** The Uber Eats Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](https://www.hubrise.com/docs/getting-started/#accounts-and-locations).
+**IMPORTANT NOTE:** The Uber Eats Bridge connects to HubRise at the location level. For more information, see [HubRise Locations](https://www.hubrise.com/docs/locations/).
 
 ---
 
