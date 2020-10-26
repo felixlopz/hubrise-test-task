@@ -56,7 +56,7 @@ Our documentation is public and open source. Everyone can help improve it and ke
 
 When you start developing your integration, taking the right decisions at the beginning can save you time and effort along the way. Here are a few suggestions.
 
-### Create a Support Alias for HubRise
+### Create a User Account for your Support Team
 
 We recommend registering a HubRise user account with an email alias such as <support@your-solution.com>.
 
