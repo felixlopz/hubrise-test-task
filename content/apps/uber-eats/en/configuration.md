@@ -4,10 +4,10 @@ position: 4
 layout: documentation
 meta:
   title: Uber Eats Connection to HubRise - Configuration
-  description: See instructions to configure the Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
+  description: See instructions to configure Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-The Configuration page allows you to customise the behaviour of the Uber Eats Bridge based on your preferences.
+The Configuration page allows you to customise the behaviour of Uber Eats Bridge based on your preferences.
 
 These are divided into different categories for an easier navigation.
 
@@ -42,7 +42,7 @@ Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Saving the Configuration
 
-Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
 
 ## Resetting the Configuration
 

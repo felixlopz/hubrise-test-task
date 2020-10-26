@@ -24,7 +24,7 @@ Within one business day, we will send you the Uber Eats Store UUID needed for th
 
 ---
 
-**IMPORTANT NOTE:** The Uber Eats Bridge connects to HubRise at the location level. For more information about accounts and locations on HubRise, see the [documentation](https://www.hubrise.com/docs/getting-started/#accounts-and-locations).
+**IMPORTANT NOTE:** Uber Eats Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
 
 ---
 
