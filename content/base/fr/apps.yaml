@@ -184,7 +184,7 @@ content:
           logo: captain.png
           title: Captain
           description: Captain est une solution de traitement des commandes et de tracking des livreurs.
-          additional_info: Documentation en anglais.
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png
