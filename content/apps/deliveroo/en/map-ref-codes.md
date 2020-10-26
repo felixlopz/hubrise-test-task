@@ -9,8 +9,6 @@ meta:
 
 Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, when you create your menu on Deliveroo, you need to make sure that each product is assigned to the correct ref code.
 
-## Assigning Ref Codes To Products
-
 To assign ref codes to your Deliveroo products, follow these steps:
 
 1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net/).
