@@ -3,39 +3,43 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: foodpanda Connection to HubRise
-  description: Instructions for connecting foodpanda to HubRise
+  title: foodpanda Connection to HubRise - Instructions
+  description: See how to connect your foodpanda online store to HubRise. Connection is simple. Send the link of your foodpanda page to HubRise and follow a few steps to connect.
 ---
 
-To connect foodpanda to HubRise, the foodpanda team needs to log your HubRise location in their back office.
+Connecting foodpanda to HubRise can be done with a few simple steps.
 
-Don't worry, HubRise will take care of all the paperwork for you!
+## 1. Enable HubRise on foodpanda
 
-## Before Connecting foodpanda
+As a first step, the HubRise integration must be enabled on your foodpanda account.
 
-To start receiving foodpanda orders on HubRise, you should first contact us at <support@hubrise.com> and include in your email the following information:
+Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
-- The URL of your foodpanda store(s) you wish to connect.
-- Your HubRise account and location IDs.
+- The URL link(s) of your foodpanda store(s) you wish to connect. For example: [https://www.foodpanda.pk/restaurant/n7yx/papa-johns-model-town](https://www.foodpanda.pk/restaurant/n7yx/papa-johns-model-town).
+- Your HubRise account and location IDs. If you don't have a HubRise Account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions. If your restaurant called Fast Pizza is located in Baker Street, your location ID may be `Fast Pizza Baker Street z6q31-0`.
 
-HubRise will then contact foodpanda on your behalf to establish the connection and get you ready to receive orders in one business day.
+We will then contact foodpanda on your behalf to enable the connection.
+The activation typically takes a few days.
 
-## Connect the foodpanda Bridge to HubRise
-
----
-
-**IMPORTANT NOTE:** foodpanda Bridge connects to HubRise at the location level.
+## 2. Connect the Bridge
 
 ---
 
-To connect foodpanda to HubRise, you first need to log in to your HubRise account.
-If you don't have a HubRise account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions.
+**IMPORTANT NOTE:** foodpanda Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
 
-1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**.
+---
+
+To connect foodpanda Bridge to HubRise, follow these steps.
+
+1. Log in to your HubRise account.
+1. Select the location you want to connect from the dropdown menu.
+1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **foodpanda** from the list of apps.
 1. Click **Connect**.
-1. Grant foodpanda permission to access the location of your restaurant registered in HubRise.
-   1. If your account has not yet been created on HubRise, select **Create a new location**.
-   1. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**.
+1. Click **Allow** to grant the foodpanda Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
 
-You have now added foodpanda to your HubRise apps.
+## 3. Configure Your Preferences
+
+After connecting the bridge, you need to configure a few parameters on the Configuration page to send orders correctly to your EPOS.
+
+For more information about the Configuration page and how to navigate to it, see [User Interface](/apps/foodpanda/user-interface/#configuration-page). For details on how to configure the parameters of foodpanda Bridge, see [Configuration](/apps/foodpanda/configuration).
