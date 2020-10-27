@@ -35,7 +35,7 @@ With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Uber Eats** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant the Uber Eats Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. Click **Allow** to grant Uber Eats Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
 1. A new page asks you to provide your Uber Eats Store UUID. Enter your Store UUID, and click **Save** to complete the connection process.
 
 ![Uber Eats store UUID](../images/001-en-store-id.png)
