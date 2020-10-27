@@ -11,7 +11,7 @@ Connecting Uber Eats to HubRise can be done with a few simple steps.
 
 ## 1. Enable HubRise on Uber Eats
 
-To connect Uber Eats to HubRise, the HubRise team needs to enable HubRise on your Uber Eats account.
+As a first step, the HubRise integration must be enabled on your Uber Eats account.
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
 
