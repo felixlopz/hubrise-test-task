@@ -29,16 +29,18 @@ On the other hand, you can also customise which status to use on HubRise for new
 
 ## Special Ref Codes and Other Options
 
-This section allows you to customise several miscellaneous options:
+From this section, you can customise several miscellaneous options in Uber Eats Bridge.
 
-- The service type ref code associated to Uber Eats orders.
-- The payment type and ref code associated with Uber Eats orders.
-- The ref code used when a customer includes disposable items in an order.
-
-Special ref codes associated with Uber Eats might be required by your EPOS for service type and payment.
+Special ref codes associated with Uber Eats might be required by your EPOS, especially for service type and payment.
 Refer to your connected EPOS documentation on the HubRise website to verify.
 
-**Disposable items** is an option that clients can tick in the Uber Eats basket on checkout. Not all restaurants include this option in their basket but if they do, they need to include the ref code.
+- **Service type ref code** is the ref code associated to Uber Eats delivery in your EPOS. Without such reference, your EPOS will not know how to correctly identify this service type.
+- **Payment type** allows you to select which payment type you want to associate with Uber Eats orders. The available options are `online` and `third_party`.
+- **Payment ref code** is the ref code associated to Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify Uber Eats payments.
+- **Disposable items ref code** is the ref code that is used when customers include disposable items in their orders.
+  Not all Uber Eats restaurants offer their customers the option to request disposable items, such as utensils, straws, and napkins, in an order. But if they do, they need to provide this ref code in the configuration. You also need to create the corresponding product in the EPOS, with matching ref code. Refer to your connected EPOS documentation on the HubRise website for the exact procedure. The following screenshot shows the **Request utensils, straws, etc.** checkbox that customers can use to request disposable items.
+
+  ![Disposable items checkbox in Uber Eats checkout](../images/009-en-disposable-items.png)
 
 ## Saving the Configuration
 
