@@ -35,12 +35,14 @@ Special ref codes associated with Uber Eats might be required by your EPOS, espe
 Refer to your connected EPOS documentation on the HubRise website to verify.
 
 - **Service type ref code** is the ref code associated to Uber Eats delivery in your EPOS. Without such reference, your EPOS will not know how to correctly identify this service type.
-- **Payment type** allows you to select which payment type you want to associate with Uber Eats orders. The available options are `online` and `third_party`.
+- **Payment type** allows you to select which payment type you want to associate with Uber Eats orders. The default choice is `online`.
 - **Payment ref code** is the ref code associated to Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify Uber Eats payments.
 - **Disposable items ref code** is the ref code that is used when customers include disposable items in their orders.
-  Not all Uber Eats restaurants offer their customers the option to request disposable items, such as utensils, straws, and napkins, in an order. But if they do, they need to provide this ref code in the configuration. You also need to create the corresponding product in the EPOS, with matching ref code. Refer to your connected EPOS documentation on the HubRise website for the exact procedure. The following screenshot shows the **Request utensils, straws, etc.** checkbox that customers can use to request disposable items.
+  Not all Uber Eats restaurants offer their customers the option to request disposable items, such as utensils, straws, and napkins, in an order. But if you do, you need to provide a ref code. Create a "Disposable items" product in your EPOS, and use that ref code here.
 
-  ![Disposable items checkbox in Uber Eats checkout](../images/009-en-disposable-items.png)
+The following screenshot shows the **Request utensils, straws, etc.** checkbox that customers can use to request disposable items.
+
+![Disposable items checkbox in Uber Eats checkout](../images/009-en-disposable-items.png)
 
 ## Saving the Configuration
 
