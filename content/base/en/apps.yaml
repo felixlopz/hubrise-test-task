@@ -111,7 +111,7 @@ content:
           logo: smood.png
           title: Smood
           description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros.
-          additional_info: Smood Dismatch integration in progress.
+          additional_info: Integration in progress.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
           logo: ubereats.png
