@@ -1,6 +1,6 @@
 path: /apps
 meta:
-  title: Apps Integrated With the Hubrise Ecosystem
+  title: Apps Integrated With the HubRise Ecosystem
   description: This page includes a list of apps integrated or in the process of integrating with the HubRise ecosystem of connected apps. All these apps share data in real time.
 content:
   hero:
@@ -111,7 +111,7 @@ content:
           logo: smood.png
           title: Smood
           description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros.
-          additional_info: Smood Dispatch integration in progress.
+          additional_info: Smood Dismatch integration in progress.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
           logo: ubereats.png
@@ -168,7 +168,7 @@ content:
           documentation:
           logo: woocommerce.png
           title: WooCommerce
-          description: WooCommerce is an open-source e-commerce plugin for WordPress. It is used to create online ordering websites for small to large businesses using WordPress.
+          description: WooCommerce is an open-source e-commerce plugin for WordPress. Customizable and developer friendly, it is used by small to large businesses.
           additional_info: Integration in progress.
         - website: http://www.y-proximite.fr
           documentation:
