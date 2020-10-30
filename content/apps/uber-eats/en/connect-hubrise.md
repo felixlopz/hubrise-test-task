@@ -51,3 +51,14 @@ For more information about the Configuration page and how to navigate to it, see
 If you use Uber Eats with an EPOS, you need to map all the products in your Uber Eats menu to their corresponding ref codes. This ensures that your EPOS can identify every item correctly.
 
 To learn how to map ref codes on Uber Eats, see [Map Ref Codes](/apps/uber-eats/map-ref-codes).
+
+## 5. Receive Test Orders
+
+Before you start receiving orders from real customers, we recommend that you test the whole integration workflow.
+
+You should place a few orders on your Uber Eats restaurant, make sure they are correctly received by your EPOS, and then cancel them to get a refund. This will ensure that your restaurant is ready to go live.
+
+If you want, you will also be able to get rid of your Uber Eats tablet by switching to a direct integration.
+For more details, see [Can Orders Be Sent Directly To My EPOS Without Using Uber Eats Tablets](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+
+If you encounter problems during the tests, contact us at support@hubrise.com.

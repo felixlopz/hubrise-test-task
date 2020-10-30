@@ -54,3 +54,11 @@ For more information about the Configuration page and how to navigate to it, see
 If you use Deliveroo with an EPOS, you need to map all the products in your Deliveroo menu to their corresponding ref codes. This ensures that your EPOS can identify every item correctly.
 
 To learn how to map ref codes on Deliveroo, see [Map Ref Codes](/apps/deliveroo/map-ref-codes).
+
+## 5. Receive Test Orders
+
+Before you start receiving orders from real customers, we recommend that you test the whole integration workflow.
+
+You should place a few orders on your Deliveroo restaurant, make sure they are correctly received by your EPOS, and then cancel them to get a refund. This will ensure that your restaurant is ready to go live.
+
+If you encounter problems during the tests, contact us at support@hubrise.com.
