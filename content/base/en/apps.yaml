@@ -36,6 +36,12 @@ content:
           title: Kezia II / JDC
           description: Kezia II is a Point of Sales solution developed by JDC, a French market leader. Kezia II adapts to all types of businesses.
           additional_info: Documentation in French.
+        - website: http://www.leo2.co.uk/
+          documentation:
+          logo: leo2.png
+          title: LEO2 / Atoo
+          description: LEO2 is a Point of Sales solution developed by Atoo. LEO2 adapts to all types of businesses, including restaurants, backeries, neighbourhood grocery stores, butchers or florists.
+          additional_info: Integration in progress.
         - website: http://www.myorderboxhq.com
           documentation:
           logo: myorderbox.png
