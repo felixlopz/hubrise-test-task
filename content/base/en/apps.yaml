@@ -264,7 +264,7 @@ content:
           documentation: /apps/tickncook/
           logo: tickncook.png
           title: TicknCook
-          description: TicknCook is a kitchen display screen for independent restaurants and chains. TicknCook can be customised with estimated preparation time and specialised screens for bar, pastry or kitchen.
+          description: TicknCook is a Kitchen Display System that handles orders coming from all sales channels. TicknCook can be customised with specialised screens for bar, pastry or kitchen.
         - website: http://1bot.io/
           documentation:
           logo: 1bot.png
