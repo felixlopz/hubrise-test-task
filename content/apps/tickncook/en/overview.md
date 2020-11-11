@@ -29,9 +29,9 @@ Available in English and French, a demo mode allows you to test TicknCook withou
 
 Connecting TicknCook to HubRise allows to:
 
-- Create an account on TicknCook.
-- Pull orders to TicknCook.
-- Pushes the status of the whole order of an item.
+- Create a TicknCook account with a free trial period.
+- Receive orders in TicknCook.
+- Update order statuses in HubRise.
 
 ## Why Connect?
 
