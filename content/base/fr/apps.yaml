@@ -88,8 +88,14 @@ content:
           documentation:
           logo: sicom.png
           title: SICOM
-          description: SICOM propose une suite  complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
+          description: SICOM propose une suite complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
           additional_info: Documentation en anglais. Intégration par MyTec en cours.
+        - website: http://www.talc.fr/
+          documentation:
+          logo: talc.png
+          title: T.A.L.C Informatique
+          description: T.A.L.C Informatique, adapté aux besoins de la restauration permet de gérer un ou plusieurs points de vente avec dispatching des coursiers, gestion du stock, des achats, géolocalisation des clients et envoi de SMS.
+          additional_info: Intégration en cours.
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
