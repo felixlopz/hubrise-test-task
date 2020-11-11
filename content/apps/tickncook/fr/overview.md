@@ -18,7 +18,7 @@ app_info:
 
 ## Description
 
-TicknCook est un Kitchen Display Screen (KDS) qui propose aux restaurateurs de digitaliser leurs tickets pour faciliter la gestion des commandes à emporter, à livrer et en salle. Elle permet l'affichage et le suivi des commandes sur des écrans de production en cuisine et au comptoir. Un écran Livraison permet de grouper les commandes et gérer les expéditions.
+TicknCook est un Kitchen Display Screen (KDS) qui propose aux restaurateurs de digitaliser leurs bons de préparation pour faciliter la gestion des commandes à emporter, à livrer et en salle. Elle permet l'affichage et le suivi des commandes sur des écrans de production en cuisine et au comptoir. Un écran Livraison permet de grouper les commandes et gérer les expéditions.
 
 Avec TicknCook, il est possible d'optimiser sa production et de mieux gérer les priorités et les retards. Le gérant du restaurant peut analyser ses résultats grâce à une fonction Statistiques. Utilisable sur n'importe quel écran tactile, TicknCook se veut avant tout ultra connecté, facile à prendre à main, avec une installation en ligne simplifiée.
 
