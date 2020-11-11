@@ -16,5 +16,5 @@ Uber Eats controls which mode is activated on your store from their back office.
 
 HubRise supports both modes seemlessly. Let us know which mode suits your business needs best during the initial configuration. For more information, see [Connect to HubRise](/apps/uber-eats/connect-hubrise).
 
-If you do not specify your preferred mode, your store will be use the offered state mode by default.
+If you do not specify your preferred mode, your store will use the offered state mode by default.
 However, we recommend that you start in manual accept mode for a few weeks regardless, to make sure that your setup works as expected, and later switch to offered state mode. At any moment, you can switch to a different mode by contacting your Uber Eats Account Manager.
