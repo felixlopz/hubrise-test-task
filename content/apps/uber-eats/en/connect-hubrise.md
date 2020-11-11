@@ -17,6 +17,7 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 
 - The URL link of your Uber Eats store you wish to connect. For example: [https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA](https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA).
 - Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
+- The order acceptance mode you want to use for your store: manual accept or offered state mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 
 Within one business day, we will send you the Uber Eats Store UUID needed for the next step.
 
