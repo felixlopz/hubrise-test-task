@@ -23,7 +23,8 @@ It displays orders and tracks the status of individual items on production scree
 
 TicknCook optimises production and helps manage priorities and delays. The restaurant manager can analyse his results using the statistics screen.
 It works on any touch screen, TicknCook is above all ultra connected, easy to use, and offers a simple online installation.
-Available in English and French, a demo mode allows you to test TicknCook without technical constraints or need for a commercial agreement.
+
+Available in English and French, TicknCook offers a free trial period to let you test it without technical constraints or commercial agreement.
 
 ## Integration Features
 
