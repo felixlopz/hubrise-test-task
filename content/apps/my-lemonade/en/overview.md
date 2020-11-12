@@ -4,7 +4,7 @@ title: Overview
 layout: documentation
 meta:
   title: My Lemonade - Overview & HubRise Integration
-  description: Overview of My Lemonade and how to connect it to HubRise.
+  description: Connect My Lemonade to HubRise in order to edit your menu, to manage orders, and to update product availabilities.
 gallery:
 path_override: /
 app_info:
