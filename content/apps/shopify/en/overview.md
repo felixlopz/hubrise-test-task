@@ -4,7 +4,7 @@ title: Overview
 layout: documentation
 meta:
   title: Shopify - Overview & HubRise Integration
-  description: Overview of Shopify and how to connect it to HubRise.
+  description: Connect Shopify to HubRise in order to have a suite of services including payments, marketing, shipping, analytics and support.
 gallery:
 path_override: /
 app_info:
