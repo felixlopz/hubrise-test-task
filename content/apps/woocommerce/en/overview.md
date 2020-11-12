@@ -4,7 +4,7 @@ title: Overview
 layout: documentation
 meta:
   title: WooCommerce - Overview & HubRise Integration
-  description: Overview of WooCommerce and how to connect it to HubRise.
+  description: Connect WooCommerce to HubRise in order to sell digital and physical products, manage inventory and shipping, and take secure payments.
 gallery:
 path_override: /
 app_info:
@@ -21,7 +21,7 @@ WooCommerce is an open-source e-commerce platform, built on WordPress, designed 
 
 WooCommerce was launched in 2011, and is in 2020 the most popular e-commerce solution across all websites, powering 42% of all online stores.
 
-WooCommerce is a plugin easily installed on a WordPress website and offers a lot of features out of the box, but is also highly extensible. There are plenty of ways to expand the functionality of WooCommerce via themes, plugins, extensions, or even by editing the plugin code itself.
+WooCommerce is a plugin that must be installed on a WordPress website and offers a lot of features, but you can also expand the functionality of WooCommerce, if you have programming skills, via themes, plugins, extensions, or even by editing the plugin code itself.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ WooCommerce is a plugin easily installed on a WordPress website and offers a lot
 
 ---
 
-**IMPORTANT NOTE:** The WooCommerce integration is in progress.
+**IMPORTANT NOTE:** Integration in progress.
 
 ---
 
