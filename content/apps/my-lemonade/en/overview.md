@@ -17,20 +17,17 @@ app_info:
 
 ## Description
 
-My Lemonade is a mobile web app that is intended for restaurants and their customers.
+My Lemonade is a mobile ordering solution, with which customers are able to view the menu of a restaurant, to order, and optionally to pay, without leaving your table, thanks to QR codes or NFC technologies.
 
-It allows customers to view the menu, order, and optionally pay, directly from the table of the restaurant. It uses for this purpose QR code or NFC technologies.
+My Lemonade also offers many features to restaurants like, for instance, limiting the risk of no-shows and abusive orders, customizing their promotional periods, or being able to activate or deactivate the service to help your staff absorb peak traffic periods.
 
-My Lemonade also offers many features useful to restaurants like, for instance, limiting the risk of no-shows and abusive orders, customizing their promotional periods, or being able to activate or deactivate the service easily to help their staff absorb peak traffic periods.
+A kitchen screen is available to restaurants without EPOS integration to receive orders and update product availabilities.
 
-On the Android app, a kitchen screen is available to restaurants without POS integration to receive orders, update product availabilities, and generate QR codes.
-
-My Lemonade also offers a web back office to allow restaurants to customize their menu, to edit their settings, and to use features like room management, service activation, and presence validation.
+My Lemonade also offers a web back office so you can customize the menu of your restaurant, edit your settings, and use features like room management, service activation, and presence validation.
 
 ## Prerequisites
 
-To establish a connection between My Lemonade and HubRise, you must have an existing My Lemonade account.
-My Lemonade can connect to an existing or a new HubRise Account.
+To establish a connection between My Lemonade and HubRise, you must have an account on both apps.
 
 ## Integration Features
 
@@ -42,14 +39,10 @@ Connecting My Lemonade to HubRise allows My Lemonade to:
 
 ---
 
-**IMPORTANT NOTE:** The My Lemonade integration is in progress.
+**IMPORTANT NOTE:** Integration in progress.
 
 ---
 
 ## Why Connect?
 
----
-
-**IMPORTANT NOTE:** ToDo.
-
----
+Connecting My Lemonade to HubRise allows you to edit your menu, to receive orders directly in your EPOS, and to update product availabilities.
