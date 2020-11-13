@@ -25,8 +25,7 @@ Shopify also offers developer tools, like a suite of APIs, that would allow you 
 
 ## Prerequisites
 
-To establish a connection between Shopify and HubRise, you must have an existing Shopify account.
-Shopify can connect to an existing or a new HubRise Account.
+To establish a connection between Shopify and HubRise, you must have an account on both apps.
 
 ## Integration Features
 
@@ -37,7 +36,7 @@ Connecting Shopify to HubRise allows Shopify to:
 
 ---
 
-**IMPORTANT NOTE:** The Shopify integration is in progress.
+**IMPORTANT NOTE:** Integration in progress.
 
 ---
 
