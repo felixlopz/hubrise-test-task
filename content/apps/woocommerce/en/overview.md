@@ -3,9 +3,13 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: WooCommerce - Overview & HubRise Integration
-  description: Connect WooCommerce to HubRise in order to sell digital and physical products, manage inventory and shipping, and take secure payments.
+  title: WooCommerce Connection to HubRise - Overview
+  description: WooCommerce overview and why it should connect to HubRise. With a connection to HubRise send orders to the tools you use every day, including your EPOS.
 gallery:
+  - 006-en-woocommerce-backoffice.jpg
+  - 003-en-2x-woocommerce-wesite.png
+  - 002-en-2x-woocommerce-wesite.png
+  - 004-en-2x-woocommerce-wesite.png
 path_override: /
 app_info:
   category: Online ordering
@@ -17,19 +21,11 @@ app_info:
 
 ## Description
 
-WooCommerce is an open-source e-commerce platform, built on WordPress, designed for small to large-sized online merchants. Businesses can sell digital and physical products, manage inventory and shipping, take secure payments, and sort taxes automatically.
-
-WooCommerce was launched in 2011, and is in 2020 the most popular e-commerce solution across all websites, powering 42% of all online stores.
+WooCommerce is an Open Source e-commerce platform, built on WordPress, designed for small to large-sized online merchants. Businesses can sell digital and physical products, manage inventory and shipping, take secure payments, and sort taxes automatically.
 
 WooCommerce is a plugin that must be installed on a WordPress website and offers a lot of features, but you can also expand the functionality of WooCommerce, if you have programming skills, via themes, plugins, extensions, or even by editing the plugin code itself.
 
-## Prerequisites
-
----
-
-**IMPORTANT NOTE:** ToDo.
-
----
+WooCommerce was launched in 2011. Today, it is the most widely used e-commerce solution, powering 42% of all online ordering websites.
 
 ## Integration Features
 
@@ -46,6 +42,14 @@ WooCommerce is a plugin that must be installed on a WordPress website and offers
 ---
 
 ## Why Connect?
+
+---
+
+**IMPORTANT NOTE:** ToDo.
+
+---
+
+## Prerequisites
 
 ---
 

@@ -3,8 +3,8 @@ title: Zelty Terms
 position: 6
 layout: documentation
 meta:
-  title: Zelty - Terminology
-  description: Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.
+  title:
+  description:
 ---
 
 Both HubRise and Zelty have their own vocabulary. Understanding the differences between the terms used can help resolve troubleshooting issues.

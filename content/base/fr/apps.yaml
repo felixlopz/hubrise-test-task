@@ -167,7 +167,7 @@ content:
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
         - website: https://woocommerce.com/
-          documentation:
+          documentation: /apps/woocommerce
           logo: woocommerce.png
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
