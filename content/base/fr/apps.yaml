@@ -150,7 +150,7 @@ content:
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
         - website: https://www.shopify.com/
-          documentation:
+          documentation: /apps/shopify
           logo: shopify.png
           title: Shopify
           description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.

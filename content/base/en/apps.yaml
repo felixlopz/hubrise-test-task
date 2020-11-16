@@ -148,7 +148,7 @@ content:
           description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
           additional_info: Documentation in French.
         - website: https://www.shopify.com/
-          documentation:
+          documentation: /apps/shopify/
           logo: shopify.png
           title: Shopify
           description: Shopify is an e-commerce platform for any type of business. It offers an omnichannel user experience on the web, smartphones, social networks, marketplaces, and in-store.
