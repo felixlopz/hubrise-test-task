@@ -136,7 +136,7 @@ content:
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
         - website: https://mylemonade.app/
-          documentation:
+          documentation: /apps/my-lemonade
           logo: my-lemonade.png
           title: My Lemonade
           description: My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on their table, access the menu on their smartphone in their language, and order from it. No app installation required.

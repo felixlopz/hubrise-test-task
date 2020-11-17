@@ -139,7 +139,7 @@ content:
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
         - website: https://mylemonade.app/fr/accueilfr/
-          documentation:
+          documentation: /apps/my-lemonade
           logo: my-lemonade.png
           title: My Lemonade
           description:  My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
