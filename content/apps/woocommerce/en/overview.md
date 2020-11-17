@@ -4,7 +4,7 @@ title: Overview
 layout: documentation
 meta:
   title: WooCommerce Connection to HubRise - Overview
-  description: WooCommerce overview and why it should connect to HubRise. With a connection to HubRise send orders to the tools you use every day, including your EPOS.
+  description: WooCommerce overview and why it should connect to HubRise. With a connection to HubRise, send orders to the tools you use every day, including your EPOS.
 gallery:
   - 006-en-woocommerce-backoffice.jpg
   - 003-en-2x-woocommerce-wesite.png
@@ -34,7 +34,7 @@ Connecting WooCommerce to HubRise allows WooCommerce to:
 - Push orders into HubRise.
 - Pull order status from HubRise into WooCommerce.
 - Push customer information into HubRise.
-- Pull the catalog from HubRise.
+- Pull a product catalog from HubRise.
 
 ---
 
@@ -44,7 +44,7 @@ Connecting WooCommerce to HubRise allows WooCommerce to:
 
 ## Why Connect?
 
-WooCommerce can be connected to HubRise for your e-commerce website and other apps you use daily to work as a cohesive whole. It could be your EPOS, your loyalty systems you use or your preferred marketing solution. This allows you to sync your product catalog, your customer and order information. For more information on HubRise, see the [HubRise User Guide](/docs).
+WooCommerce can be connected to HubRise for your website and other apps you use every day to work as a cohesive whole. It could be your EPOS or your preferred marketing solution. Connecting with HubRise allows you to sync your product catalog, your customer and order information. For more information on HubRise, see the [HubRise User Guide](/docs).
 
 ## Prerequisites
 
