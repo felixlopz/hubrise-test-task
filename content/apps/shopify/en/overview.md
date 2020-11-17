@@ -21,7 +21,7 @@ app_info:
 
 ## Description
 
-Shopify is an e-commerce platform. It offers retailers a suite of services to create online ordering websites, allowing them to sell any kind of product, to manage inventory and shipping, to accept online payments, and to handle analytics. It facilitates worldwide sales too with language and currency management features.
+Shopify is an e-commerce platform. It offers retailers a suite of services to create online ordering websites. With Shopify you can sell any kind of product online as well as manage inventory and shipping, accept online payments, and handle analytics. It facilitates worldwide sales too with language and currency management features.
 
 You can use developer tools, such as a suite of APIs, to create your own applications and themes for your website. You can also use available store templates to personalise and create you own website without the help of a developer. The number of apps and themes available show how popular Shopify is among the e-commerce solutions.
 
