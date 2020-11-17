@@ -3,8 +3,8 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: My Lemonade - Overview & HubRise Integration
-  description: Connect My Lemonade to HubRise in order to edit your menu, to manage orders, and to update product availabilities.
+  title: My Lemonade Connection to HubRise - Overview
+  description: My Lemonade overview and why you should connect it to HubRise. With a connection to HubRise orders are sent to tools you use every day including your EPOS.
 gallery:
   - 003-fr-2x-my-lemonade-sample-app.png
 path_override: /
