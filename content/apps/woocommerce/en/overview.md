@@ -16,16 +16,15 @@ app_info:
   availability: Worldwide
   price_range:
   website: https://woocommerce.com
-  contact: https://woocommerce.com/contact-us
 ---
 
 ## Description
 
-WooCommerce is an Open Source e-commerce platform, built on WordPress, designed for small to large-sized online merchants. Businesses can sell digital and physical products, manage inventory and shipping, take secure payments, and sort taxes automatically.
+WooCommerce is an open source e-commerce platform, built on WordPress, designed for small to large-sized online merchants. Businesses can sell digital and physical products, manage inventory and shipping, take secure payments, and sort taxes automatically.
 
-WooCommerce is a plugin that must be installed on a WordPress website and offers a lot of features. You can expand the functionality of WooCommerce, if you have programming skills, via themes, plugins, extensions, or even by editing the plugin code itself.
+WooCommerce is a plugin that must be installed on a WordPress website. While it offers a lot of features out of the box, you can also expand the functionality of WooCommerce via themes, plugins, extensions, or even by editing the plugin code itself.
 
-WooCommerce was launched in 2011. Today, it is the most widely used e-commerce solution, powering 42% of all online ordering websites.
+WooCommerce was launched in 2011. It is the most widely used e-commerce solution in 2020, powering 4 out of 10 online ordering websites.
 
 ## Integration Features
 
@@ -48,4 +47,4 @@ WooCommerce can be connected to HubRise for your website and other apps you use 
 
 ## Prerequisites
 
-To establish a connection between WooCommerce and HubRise, you must have an existing WooCommerce online ordering website, that you can create from the [WooCommerce website](https://woocommerce.com). You must also have a HubRise user profile and account, and then use HubRise to connect the two solutions.
+To establish a connection between WooCommerce and HubRise, you must have an existing WooCommerce online ordering website, that you can create from the [WooCommerce website](https://woocommerce.com). You must also have a HubRise user profile and account.
