@@ -269,10 +269,10 @@ content:
           description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
           additional_info: Intégration en cours.
         - website: https://tickncook.com
-          documentation:
+          documentation: /apps/tickncook/
           logo: tickncook.png
-          title: Tick'N'Cook
-          description: Tick'n'Cook est un écran cuisine. Les commandes provenant de votre site Internet, de vos bornes ou de votre caisse apparaissent en temps réel sur des écrans tactiles. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés par atelier (bar, cuisine...).
+          title: TicknCook
+          description: TicknCook est un écran cuisine (KDS), qui peut recevoir les commandes depuis tous vos canaux de vente. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés pour le bar, la cuisine, ou autres ateliers.
         - website: http://1bot.io/
           documentation:
           logo: 1bot.png
