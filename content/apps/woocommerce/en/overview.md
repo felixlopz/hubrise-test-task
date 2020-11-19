@@ -48,4 +48,4 @@ WooCommerce can be connected to HubRise for your website and other apps you use 
 
 ## Prerequisites
 
-To establish a connection between Shopify and HubRise, you must have an account on both apps.
+To establish a connection between WooCommerce and HubRise, you must have an existing WooCommerce online ordering website, that you can create from the [WooCommerce website](https://woocommerce.com), and a HubRise user profile and account.
