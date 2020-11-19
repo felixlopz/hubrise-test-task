@@ -42,7 +42,7 @@ content:
           title: MyOrderBox
           description: MyOrderBox is an affordable cloud based Point of Sales for takeaway and restaurants. MyOrderBox is easy to install and get hands on.
         - website: http://www.logiciel-de-livraison.com
-          documentation:
+          documentation: /apps/nestor/
           logo: nestor.png
           title: Nestor
           description: Nestor is a French Point of Sales solution designed for home delivery and takeaway restaurants.

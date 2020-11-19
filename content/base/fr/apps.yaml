@@ -44,7 +44,7 @@ content:
           description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
           additional_info: Documentation en anglais.
         - website: http://www.logiciel-de-livraison.com
-          documentation:
+          documentation: /apps/nestor/
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
