@@ -48,4 +48,4 @@ Shopify can be connected to HubRise for your website and other apps you use ever
 
 ## Prerequisites
 
-To establish a connection between Shopify and HubRise, you must have an account on both apps.
+To establish a connection between Shopify and HubRise, you must have an existing Shopify online ordering website, that you can create from the [Shopify website](https://www.shopify.com). You must also have a HubRise user profile and account, and then use HubRise to connect the two solutions.
