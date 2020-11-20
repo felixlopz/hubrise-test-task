@@ -13,7 +13,7 @@ app_info:
   category: Food Ordering Platforms
   availability: 30+ countries
   website: https://www.ubereats.com/
-  contact: support@hubrise.com
+  contact: eats-partner-tech-support@uber.com
 ---
 
 ## Description
@@ -26,10 +26,14 @@ At the same time, they can concentrate on what they do best (preparing food) whi
 
 ## Integration Features
 
-Connecting Uber Eats to HubRise allows Uber Eats to:
+Uber Eats connects to your HubRise account through Uber Eats Bridge, an app developed by HubRise.
 
-- Push online orders to Hubrise.
-- Push customer information to HubRise.
+Connecting Uber Eats to HubRise allows to:
+
+- Push Uber Eats orders to HubRise.
+- Push customer information to HubRise, for orders delivered by your team.
+
+![Diagram of the connection flow between Uber Eats, Uber Eats Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
 
 ---
 
@@ -44,6 +48,4 @@ You will be able to manage Uber Eats orders seamlessly from your existing setup,
 
 ## Prerequisites
 
-To establish a connection between Uber Eats and HubRise, your restaurant must be a Uber Eats partner.
-
-Uber Eats can connect to an existing or new HubRise account through the Uber Eats Bridge developed by HubRise.
+To establish a connection between Uber Eats and HubRise, your restaurant must be a Uber Eats partner. You should also have a HubRise account set up.

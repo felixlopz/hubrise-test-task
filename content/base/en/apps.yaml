@@ -130,6 +130,12 @@ content:
           title: Smood
           description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros.
           additional_info: Integration in progress.
+        - website: https://www.justeattakeaway.com/
+          documentation:
+          logo: takeaway.png
+          title: Takeaway.com
+          description: Takeaway.com is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Belgium, Bulgaria, Luxembourg, Portugal, Romania, and in Switzerland.
+          additional_info: Integration in progress.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
           logo: ubereats.png
