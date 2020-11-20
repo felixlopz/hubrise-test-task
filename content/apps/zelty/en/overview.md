@@ -4,7 +4,7 @@ title: Overview
 layout: documentation
 meta:
   title: Zelty - Overview & HubRise Integration
-  description: 'Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.'
+  description: "Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more."
 gallery:
   - 002-zelty-epos-interface.png
 
@@ -12,6 +12,7 @@ path_override: /
 app_info:
   category: Point of Sale
   availability: France
+  price_range: 
   website: https://zelty.fr
   contact: contact@zelty.fr / +33 9 72 53 55 72
 ---

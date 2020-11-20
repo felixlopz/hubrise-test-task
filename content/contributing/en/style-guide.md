@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: HubRise Style Guide
-  description: A guide on which style to use when contributing to the HubRise website.
+  description: Anyone can contribute to the HubRise online documentation. The style guide provides editorial guidelines for anyone contributing to it.
 ---
 
 ## Introduction
@@ -331,12 +331,20 @@ A meta title and meta description should be added to every file.
 
 ### Meta Title
 
-Meta titles should be capitalised following HubRise's title rules. For more information on capitalisation rules, see [Capitalisation](#capitalisation). In accordance with these rules, the metal titles should be written in _Title Case_ with no full stop at the end. The meta title should be the same as the page title, but it can be longer and include a reference to HubRise for SEO purposes.
+Meta titles should be capitalised following HubRise's title rules written in _Title Case_ with no full stop at the end. For more information on capitalisation rules, see [Capitalisation](#capitalisation).
 
-For example: LivePepper Connection to HubRise Configuration.
+The meta title should include no more than 60 characters. Google might truncate it if you make it longer.
+Most important or unique aspect of the page keywords should be in first position. At minima including the page title and a reference to HubRise will help convey an accurate message, related to the page content.
+
+A typical structure could be: Primary Keyword - Secondary Keyword | Brand Name
+
+For example: LightSpeed K Series - Connection | HubRise
 
 ### Meta Description
 
 The meta description should use _Sentence Case_ with a full stop at the end.
 
-For example: Instructions on how to configure LivePepper for optimal connection to HubRise and other platforms.
+The meta description should include 155 to 160 characters. Google will truncate it if you make it longer.
+The content should be relevant and unique from other pages. It should be easy to read and offer a compelling description using important keywords
+
+For example: Instructions on how to configure LivePepper for optimal connection to HubRise. Follow these steps and LivePepper will work with any app on the HubRise ecosystem.
