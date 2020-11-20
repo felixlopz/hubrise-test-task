@@ -17,11 +17,11 @@ app_info:
 
 ## Description
 
----
+Nestor est un logiciel de caisse créé en 2004 et spécialisé dans la livraison et la vente à emporter pour les points de vente de restauration. Il effectue la gestion des caisses du magasin et des livreurs. Il permet la sauvegarde d'informations client et de l'historique des commandes de chaque client. Il communique aussi auprès des clients par SMS le suivi de leur commande ou pour des opérations marketing.
 
-**IMPORTANT NOTE:** ToDo.
+Nestor est utilisé par près d'un millier de points de vente, principalement des petites et moyennes entreprises indépendantes possédant entre 1 et 12 points de vente.
 
----
+Nestor est une application à installer sur votre poste Windows et est disponible uniquement en français, puisque ses utilisateurs sont situés en France, en Suisse, et en Belgique.
 
 ## Fonctionnalités d'intégration
 
