@@ -545,7 +545,7 @@ If order payments are omitted, the order should be considered as not paid.
 
 | Name                             | Type                                                       | Description                                                                                                           |
 | -------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `type`                           | string                                                     | One of: `cash`, `online`, or `third_party`.                                                                           |
+| `type`                           | string                                                     | One of: `cash` or `online`.                                                                                           |
 | `name` <Label type="optional" /> | string                                                     | The name of the payment method.                                                                                       |
 | `ref` <Label type="optional" />  | string                                                     | Identifies the payment method.                                                                                        |
 | `amount`                         | [Money](/developers/api/general-concepts/#monetary-values) | Amount paid with this payment method.                                                                                 |
@@ -555,9 +555,7 @@ If order payments are omitted, the order should be considered as not paid.
 
 - `cash`: the customer pays by cash to the store.
 
-- `online`: the customer pays online to an account owned by the store.
-
-- `third_party`: the customer pays to a third party which then passes part or all of the payment to the store. Examples include gift card companies and food ordering platforms.
+- `online`: the customer pays online.
 
 #### Example:
 
@@ -573,7 +571,7 @@ If order payments are omitted, the order should be considered as not paid.
     }
   },
   {
-    "type": "third_party",
+    "type": "online",
     "name": "Freebies4me",
     "ref": "FBFM",
     "amount": "4.50 EUR",
