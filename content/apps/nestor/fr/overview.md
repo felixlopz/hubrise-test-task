@@ -11,7 +11,7 @@ app_info:
   category: Point of Sale
   availability: France
   price_range:
-  website: http://www.logiciel-de-livraison.com
+  website: http://www.nestor.fr
   contact: info@svitex.com / +33 4 90 56 28 00
 ---
 
