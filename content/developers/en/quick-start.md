@@ -75,7 +75,13 @@ You now have three codes:
 With these, you can generate your access token with Postman.
 
 An access token is how you authenticate the requests you send to HubRise.
-Basically, you want your application (client id) to be authorised (via the client secret) to send requests to HubRise on behalf of the account owner (authorisation code), and you do this with the **Access Token**.
+Basically, you want your application (client id) to be authorised (via the client secret) to send requests to HubRise on behalf of the account owner (authorisation code), and you do this with the **access token**.
+
+---
+
+**IMPORTANT NOTE**: The HubRise access token never expires after being generated. In real scenarios, your application should generate a new access token for every new HubRise location it is connected to, and use it for all future requests.
+
+---
 
 ### Set up Variables in Postman
 
