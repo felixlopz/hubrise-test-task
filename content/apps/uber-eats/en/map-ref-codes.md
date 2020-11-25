@@ -24,3 +24,9 @@ To assign ref codes to your Uber Eats products, follow these steps:
 You will need to repeat this manual procedure for all your available items.
 
 Note that items in the **Modifier Groups** tab also have the **External Data** field, but you generally do not need to enter any value as this is not sent to the EPOS.
+
+## Product-Level Comments
+
+When customers place an order on Uber Eats, comments added to individual products are not sent to the EPOS by Uber Eats Bridge.
+
+If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
