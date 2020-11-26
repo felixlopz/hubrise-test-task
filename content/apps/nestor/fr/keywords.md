@@ -1,10 +1,10 @@
 ---
-title: Termes Nestor
+title: Mots clés
 position: 6
 layout: documentation
 meta:
-  title: Nestor - Terminologie
-  description: "Connectez Nestor à d'autres applications, telles que des plateformes de commande en ligne, ou des systèmes de livraison."
+  title: Terminologie HubRise et Nestor
+  description: Connectez Nestor à d'autres applications, telles que des plateformes de commande en ligne, ou des systèmes de livraison.
 ---
 
 HubRise et Nestor ont chacun leur propre vocabulaire. Comprendre les différences de terminologie peut aider à résoudre certains problèmes de dépannage.
