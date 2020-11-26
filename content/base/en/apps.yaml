@@ -31,7 +31,7 @@ content:
           title: LightSpeed K-Series / iKentoo
           description: iKentoo by Lightspeed is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
         - website: https://www.jdc.fr/caisse-enregistreuse
-          documentation:
+          documentation: /apps/kezia/
           logo: jdc.png
           title: Kezia II / JDC
           description: Kezia II is a Point of Sales solution developed by JDC, a French market leader. Kezia II adapts to all types of businesses.
