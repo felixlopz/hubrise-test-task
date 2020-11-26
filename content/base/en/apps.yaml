@@ -36,6 +36,12 @@ content:
           title: Kezia II / JDC
           description: Kezia II is a Point of Sales solution developed by JDC, a French market leader. Kezia II adapts to all types of businesses.
           additional_info: Documentation in French.
+        - website: http://www.leo2.co.uk/
+          documentation:
+          logo: leo2.png
+          title: LEO2 / Atoo
+          description: LEO2 is a Point of Sales solution developed by Atoo. LEO2 adapts to all types of businesses, including restaurants, backeries, neighbourhood grocery stores, butchers or florists.
+          additional_info: Integration in progress.
         - website: http://www.myorderboxhq.com
           documentation:
           logo: myorderbox.png
@@ -81,6 +87,12 @@ content:
           title: SICOM
           description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
           additional_info: Integration in progress. Integration by MyTec.
+        - website: http://www.talc.fr/
+          documentation:
+          logo: talc.png
+          title: T.A.L.C Informatique
+          description: T.A.L.C Informatique, adapted to the needs of restaurants, allows you to manage one or more locations. It includes courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
+          additional_info: Integration in progress. Documentation in French.
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
@@ -106,11 +118,23 @@ content:
           title: Foodpanda
           description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 14 markets.
           additional_info:
+        - website: https://www.just-eat.co.uk/
+          documentation:
+          logo: just-eat.png
+          title: Just Eat
+          description: Just Eat is an online food ordering and delivery service platform for local restaurants. Customers can order food online or via a mobile app. They operate in 13 countries in Europe, Asia, Oceania, and the Americas.
+          additional_info: Integration in progress.
         - website: https://www.smood.ch/en
           documentation:
           logo: smood.png
           title: Smood
           description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros.
+          additional_info: Integration in progress.
+        - website: https://www.justeattakeaway.com/
+          documentation:
+          logo: takeaway.png
+          title: Takeaway.com
+          description: Takeaway.com is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Belgium, Bulgaria, Luxembourg, Portugal, Romania, and in Switzerland.
           additional_info: Integration in progress.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats

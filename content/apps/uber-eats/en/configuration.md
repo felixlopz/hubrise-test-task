@@ -4,10 +4,12 @@ position: 4
 layout: documentation
 meta:
   title: Uber Eats Connection to HubRise - Configuration
-  description: See instructions to configure the Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
+  description: See instructions to configure Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-The Configuration page allows you to customise the behaviour of the Uber Eats Bridge based on your preferences.
+The Configuration page can be accessed by clicking on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the main page. For more details, see [User Interface](/apps/uber-eats/user-interface).
+
+The Configuration page allows you to customise the behaviour of Uber Eats Bridge based on your preferences.
 
 These are divided into different categories for an easier navigation.
 
@@ -29,20 +31,24 @@ On the other hand, you can also customise which status to use on HubRise for new
 
 ## Special Ref Codes and Other Options
 
-This section allows you to customise several miscellaneous options:
+From this section, you can customise several miscellaneous options in Uber Eats Bridge.
 
-- The service type ref code associated to Uber Eats orders.
-- The payment type and ref code associated with Uber Eats orders.
-- The ref code used when a customer includes disposable items in an order.
-
-Special ref codes associated with Uber Eats might be required by your EPOS for service type and payment.
+Special ref codes associated with Uber Eats might be required by your EPOS, especially for service type and payment.
 Refer to your connected EPOS documentation on the HubRise website to verify.
 
-**Disposable items** is an option that clients can tick in the Uber Eats basket on checkout. Not all restaurants include this option in their basket but if they do, they need to include the ref code.
+- **Service type ref code** is the ref code associated to Uber Eats delivery in your EPOS. Without such reference, your EPOS will not know how to correctly identify this service type.
+- **Payment type** allows you to select which payment type you want to associate with Uber Eats orders. The default choice is `online`.
+- **Payment ref code** is the ref code associated to Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify Uber Eats payments.
+- **Disposable items ref code** is the ref code that is used when customers include disposable items in their orders.
+  Not all Uber Eats restaurants offer their customers the option to request disposable items, such as utensils, straws, and napkins, in an order. But if you do, you need to provide a ref code. Create a "Disposable items" product in your EPOS, and use that ref code here.
+
+The following screenshot shows the **Request utensils, straws, etc.** checkbox that customers can use to request disposable items.
+
+![Disposable items checkbox in Uber Eats checkout](../images/009-en-disposable-items.png)
 
 ## Saving the Configuration
 
-Once you are happy with the configuration of the Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
 
 ## Resetting the Configuration
 

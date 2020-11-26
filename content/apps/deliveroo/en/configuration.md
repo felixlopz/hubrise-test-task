@@ -4,10 +4,10 @@ position: 4
 layout: documentation
 meta:
   title: Deliveroo Connection to HubRise - Configuration
-  description: See instructions to configure the Deliveroo Bridge to work seamlessly with Deliveroo and your EPOS or other apps connected to HubRise. Configuration is simple.
+  description: See instructions to configure Deliveroo Bridge to work seamlessly with Deliveroo and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-The configuration page allows you to customise the behaviour of the Deliveroo Bridge based on your preferences.
+The configuration page allows you to customise the behaviour of Deliveroo Bridge based on your preferences.
 These are divided into different categories for an easier navigation.
 
 ![Deliveroo Bridge configuration page](../images/002-en-configuration-page.png)
@@ -42,7 +42,7 @@ This section allows you to specify the discount name and ref code applied to you
 
 ## Saving the Configuration
 
-Once you are happy with the configuration of the Deliveroo Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Deliveroo Bridge, click **Save** at the top of the page to go back to the Operations page.
 
 ## Resetting the Configuration
 
@@ -50,7 +50,7 @@ If you want to reset the configuration and erase its values, click **Reset the c
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your Deliveroo location ID. To continue receiving Deliveroo orders, you will need to enter your Deliveroo location ID again.
+**IMPORTANT NOTE:** Resetting the configuration will also erase your Deliveroo Location ID. To continue receiving Deliveroo orders, you will need to enter your Deliveroo Location ID again.
 
 ---
 

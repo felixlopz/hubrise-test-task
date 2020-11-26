@@ -37,6 +37,12 @@ content:
           logo: jdc.png
           title: Kezia II par JDC
           description: Kezia II est un logiciel de caisse développé par JDC, un leader français des solutions d'encaissement. Kezia II s'adapte à tous les types de commerces.
+        - website: https://www.leo2.fr/
+          documentation:
+          logo: leo2.png
+          title: LEO2 / Atoo
+          description: LEO2 est un logiciel de caisse développé par Atoo. LEO2 s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les épiceries, les bouchers ou encore les fleuristes.
+          additional_info: Intégration en cours.
         - website: http://www.myorderboxhq.com
           documentation:
           logo: myorderbox.png
@@ -82,8 +88,14 @@ content:
           documentation:
           logo: sicom.png
           title: SICOM
-          description: SICOM propose une suite  complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
+          description: SICOM propose une suite complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
           additional_info: Documentation en anglais. Intégration par MyTec en cours.
+        - website: http://www.talc.fr/
+          documentation:
+          logo: talc.png
+          title: T.A.L.C Informatique
+          description: T.A.L.C Informatique est une caisse adaptée aux besoins de la restauration, qui permet de gérer un ou plusieurs points de vente avec dispatching des coursiers, gestion du stock, des achats, géolocalisation des clients et envoi de SMS.
+          additional_info: Intégration en cours.
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
@@ -108,11 +120,23 @@ content:
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
           additional_info:
+        - website: https://www.just-eat.fr/
+          documentation:
+          logo: just-eat.png
+          title: Just Eat
+          description: Just Eat est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 13 pays en Europe, en Asie, en Océanie et dans les Amériques.
+          additional_info: Intégration en cours.
         - website: https://www.smood.ch/fr
           documentation:
           logo: smood.png
           title: Smood
           description: Smood est une plateforme de service de livraison à domicile qui opère sur tout le marché Suisse. Les clients peuvent commander en ligne ou via une app mobile dans leurs restaurants préférés ainsi que dans leurs Migros.
+          additional_info: Intégration en cours.
+        - website: https://www.justeattakeaway.com/
+          documentation:
+          logo: takeaway.png
+          title: Takeaway.com
+          description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, Bulgarie, Luxembourg, Portugal, Roumanie, et en Suisse.
           additional_info: Intégration en cours.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
