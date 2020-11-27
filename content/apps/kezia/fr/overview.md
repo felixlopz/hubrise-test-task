@@ -4,11 +4,11 @@ title: Aperçu
 layout: documentation
 meta:
   title: Connexion entre Kezia II et HubRise - Aperçu
-  description: "Aperçu de Kezia II et des avantages de le connecter à HubRise, telles que la synchronisation des commandes avec vos autres outils du quotidien."
+  description: Aperçu de Kezia II et des avantages de le connecter à HubRise, telles que la synchronisation des commandes avec vos autres outils du quotidien.
 gallery:
 path_override: /
 app_info:
-  category: Point of Sale
+  category: Logiciels de caisse
   availability: France
   price_range:
   website: https://www.jdc.fr/caisse-enregistreuse/logiciel-de-caisse
@@ -29,11 +29,11 @@ Kezia II est conforme à la règlementation du 01 janvier 2018 avec mise en séc
 
 Connecter Kezia II à HubRise permet à Kezia II de :
 
----
-
-**NOTE IMPORTANTE** ToDo.
-
----
+- Exporter le menu vers un catalogue HubRise.
+- Importer des commandes depuis HubRise.
+- Exporter des commandes faites à la caisse vers Hubrise.
+- Importer des informations client depuis HubRise.
+- Exporter un inventaire vers HubRise.
 
 ## Pourquoi se connecter ?
 
