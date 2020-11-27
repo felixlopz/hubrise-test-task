@@ -12,7 +12,7 @@ HubRise et Nestor ont chacun leurs propres mots-clés. Comprendre les différenc
 | Description                             | HubRise             | Nestor               |
 | --------------------------------------- | ------------------- | -------------------- |
 | Catégorie du produit                    | Catégorie           | Structure            |
-| Code du produit                         | SKU                 | Déclinaison          |
+| Variante du produit                     | SKU                 | Déclinaison          |
 | Nom du produit                          | Produit             | Désignation          |
 | Liste de produits à prix réduit         | Promotion           | Menu                 |
 | Remise sur la commande                  | Remise              | Offre promotionnelle |
