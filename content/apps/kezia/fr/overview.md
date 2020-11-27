@@ -23,13 +23,15 @@ Le logiciel de gestion de caisse Kezia II est une solution d’encaissement pour
 
 Ses fonctionnalités principales sont la gestion de la fidélité clientèle, la gestion des articles (classement des produits par famille, élaboration des fiches techniques), celle des ventes (tableaux d'analyse), ainsi que celle des achats (fournisseurs, commandes, livraisons).
 
+Kezia II est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l’État.
+
 ## Fonctionnalités d'intégration
 
 Connecter Kezia II à HubRise permet à Kezia II de :
 
 ---
 
-**IMPORTANT NOTE** ToDo.
+**NOTE IMPORTANTE** ToDo.
 
 ---
 
