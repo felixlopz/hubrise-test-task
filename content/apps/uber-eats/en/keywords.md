@@ -4,7 +4,7 @@ position: 6
 layout: documentation
 meta:
   title: HubRise vs Uber Eats Keywords
-  description: Informs users on different terms and definitions used by Uber Eats vs HubRise. Understanding differences can help troubleshoot Uber Eats connection issues in the context of an integration with HubRise.
+  description: Informs users on different terms and definitions used by Uber Eats vs HubRise. Understanding the differences can help troubleshoot connection issues.
 ---
 
 Both HubRise and Uber Eats have their own key words. Understanding the differences between the terms used can help resolve troubleshooting issues.

@@ -4,7 +4,7 @@ position: 6
 layout: documentation
 meta:
   title: Mots-clés HubRise vs Nestor
-  description: Informe les utilisateurs sur les différents termes et définitions utilisés par Nestor vs HubRise. En comprendre les différences peut aider à résoudre les problèmes de connexion de Nestor dans le contexte d'une intégration avec HubRise.
+  description: Informe les utilisateurs sur les différents termes utilisés par Nestor vs HubRise. Comprendre ces différences peut aider à résoudre les problèmes de connexion.
 ---
 
 HubRise et Nestor ont chacun leurs propres mots-clés. Comprendre les différences de terminologie peut aider à résoudre certains problèmes de dépannage.
