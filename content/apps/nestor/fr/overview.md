@@ -8,7 +8,7 @@ meta:
 gallery:
 path_override: /
 app_info:
-  category: Point of Sale
+  category: Logiciels de caisse
   availability: France
   price_range:
   website: http://www.nestor.fr
@@ -17,7 +17,7 @@ app_info:
 
 ## Description
 
-Nestor est un logiciel de caisse créé en 2004 par Svitex, spécialisé dans la livraison et la vente à emporter pour les restaurants. Il permet la sauvegarde d'informations client et de l'historique des commandes de chaque client. La gestion du catalogue de produits offre la possibilité de créer des menus, ou des remises ponctuelle du prix de vente en pourcentage ou en montant. Nestor facilite aussi la gestion des livreurs avec un système de géolocalisation intégré et communique auprès des clients par SMS le suivi de leur commande. Il peut-être également utilisé pour effectuer des opérations marketing.
+Nestor est un logiciel de caisse créé en 2004 par Svitex, spécialisé dans la livraison et la vente à emporter pour les restaurants. Il permet la sauvegarde d'informations client et de l'historique des commandes de chaque client. La gestion du catalogue de produits offre la possibilité de créer des menus, ou des remises ponctuelles du prix de vente en pourcentage ou en montant. Nestor facilite aussi la gestion des livreurs avec un système de géolocalisation intégré et communique auprès des clients par SMS le suivi de leur commande. Il peut être également utilisé pour effectuer des opérations marketing.
 
 Nestor est utilisé par près d'un millier de points de vente, principalement des petites et moyennes entreprises indépendantes possédant entre 1 et 12 points de vente.
 
