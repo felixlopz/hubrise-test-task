@@ -12,9 +12,9 @@ HubRise et Nestor ont chacun leur propre vocabulaire. Comprendre les différence
 | Description                             | HubRise             | Nestor               |
 | --------------------------------------- | ------------------- | -------------------- |
 | Catégorie du produit                    | Catégorie           | Structure            |
-| SKU du produit                          | SKU                 | Déclinaison          |
+| Code du produit                         | SKU                 | Déclinaison          |
 | Nom du produit                          | Produit             | Désignation          |
-| Liste de SKUs à prix réduit             | Promotion           | Menu                 |
+| Liste de produits à prix réduit         | Promotion           | Menu                 |
 | Remise sur la commande                  | Remise              | Offre promotionnelle |
 | Frais de livraison                      | Charge              | Forfait livraison    |
 | Méthode utilisée pour payer la commande | Méthode de paiement | Moyen de paiement    |
