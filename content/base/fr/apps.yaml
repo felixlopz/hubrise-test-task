@@ -173,11 +173,11 @@ content:
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
-        - website: https://www.shopify.com/
-          documentation: /apps/shopify
-          logo: shopify.png
-          title: Shopify
-          description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.
+        - website: https://www.prestashop.com/fr
+          documentation:
+          logo: prestashop.png
+          title: PrestaShop
+          description: PrestaShop est une solution open source utilisée pour la création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop en version hébergée ou non, permet de s'adapter à tout type de besoins.
           additional_info: Intégration en cours.
         - website: https://www.restajet.com/
           documentation:
@@ -185,6 +185,18 @@ content:
           title: RestaJet
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://restaurant-internet.com
+          documentation:
+          logo: restaurant-internet.png
+          title: Restaurant-internet
+          description: Restaurant-internet propose un site vitrine avec réservation de table et solution de commande en ligne pour les restaurants. Il est conçu pour la livraison à domicile et la vente à emporter.
+          additional_info:
+        - website: https://www.shopify.com/
+          documentation: /apps/shopify
+          logo: shopify.png
+          title: Shopify
+          description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.
+          additional_info:
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
