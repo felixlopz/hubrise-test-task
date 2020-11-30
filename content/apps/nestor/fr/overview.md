@@ -23,7 +23,7 @@ Nestor est utilisé par près d'un millier de points de vente, principalement de
 
 Nestor est une application à installer sur votre poste Windows et est disponible uniquement en français. Ses utilisateurs sont situés en France, en Suisse, et en Belgique.
 
-Nestor est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l’État.
+Nestor est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autres règles imposées par l’État.
 
 ## Fonctionnalités d'intégration
 

@@ -14,7 +14,7 @@ HubRise et Nestor ont chacun leurs propres mots-clés. Comprendre les différenc
 | Catégorie du produit                    | Catégorie           | Structure            |
 | Variante du produit                     | SKU                 | Déclinaison          |
 | Nom du produit                          | Produit             | Désignation          |
-| Liste de produits à prix réduit         | Promotion           | Menu                 |
-| Remise sur la commande                  | Remise              | Offre promotionnelle |
+| Remise sur des articles de la commande  | Promotion           | Menu                 |
+| Remise sur la totalité de la commande   | Remise              | Offre promotionnelle |
 | Frais de livraison                      | Charge              | Forfait livraison    |
 | Méthode utilisée pour payer la commande | Méthode de paiement | Moyen de paiement    |
