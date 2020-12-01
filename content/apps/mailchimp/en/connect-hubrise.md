@@ -27,7 +27,7 @@ To connect your Mailchimp account to your HubRise account:
 
 1. On the popup, click **Connect**.
 
-1. Allow Mailchimp permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and **click** on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
+1. Allow Mailchimp permission to access your location registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**. If you have multiple customer lists, you will also be prompted to confirm the one you wish to use.
 
 1. You will be redirected to the Mailchimp login screen. Here you will login to your Mailchimp account. If you don't have a Mailchimp account, you will need to create one on [Mailchimp's homepage](www.mailchimp.com).
 
