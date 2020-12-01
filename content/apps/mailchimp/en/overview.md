@@ -7,6 +7,7 @@ meta:
   description: 'Connect Mailchimp to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.'
 gallery:
   - 008-en-2x-mailchimp-bridge-view.png
+  - 012-en-mailchimp-contact-dashboard.png
 path_override: /
 app_info:
   category: Marketing
