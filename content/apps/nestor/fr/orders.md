@@ -11,11 +11,21 @@ meta:
 
 ## Recevoir des commandes
 
-Nestor vérifie toutes les 20 secondes grâce à l'utilitaire WebNES si des nouvelles commandes ont été envoyées à HubRise. Une alerte visuelle ainsi que sonore va alors vous signaler dans l'interface de Nestor de la réception de nouvelles commandes.
+Nestor vérifie toutes les 20 secondes grâce à l'utilitaire WebNES si des nouvelles commandes ont été envoyées à HubRise. Une alerte visuelle et sonore vous signale l'arrivée d'une nouvelle commande dans Nestor.
 
-Cliquer sur cette alerte va vous permettre de voir la liste des commandes en attente. Vous pouvez ensuite sélectionner une commande afin d'en voir le détail et de la valider. Dans le cas où une commande contient des articles inconnus, il vous sera impossible de la valider, tant que vous n'aurez pas saisi manuellement les articles correspondants présents dans votre catalogue et supprimé ces articles inconnus. Pour cela, vous pouvez utiliser la description de l'article inconnu pour vous guider dans le choix du produit correspondant. Ce comportement est lié à des raisons comptables, puisque si l'article est inconnu, il n'est pas possible de lui appliquer un pourcentage de TVA approprié.
+Pour voir la liste des commandes en attente, cliquez sur l'alerte. Pour voir le détail de la commande et la valider, cliquez sur la ligne correspondante.
 
-Lorsque le client qui a créé cette commande n'est pas connu de Nestor, une étape d'association du client va apparaître avant de pouvoir valider la commande. Deux choix s'offrent alors à vous :
+Dans le cas où une commande contient des lignes intitulées **Article inconnu**, il n'est pas possible de valider la commande. Pour remédier à ce problème, suivez les étapes suivantes :
+1. Sélectionnez votre commande pour en voir le détail. Certaines lignes intituées **Article inconnu** sont présentes.
+1. Sélectionnez la dernière ligne vide. Votre menu apparaît.
+1. Sélectionnez et ajoutez le produit correspondant en vous aidant de la description de la ligne **Article inconnu**.
+1. Supprimez la ligne **Article inconnu** désormais remplacée.
+1. Répétez ces étapes pour chaque ligne **Article inconnu**.
+1. Lorsque toutes ces lignes sont supprimées, validez la commande.
+
+Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les articles inconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/nestor/map-ref-codes).
+
+Lorsque le client qui a créé cette commande n'est pas connu de Nestor, une étape d'association du client apparaît avant celle de validation de la commande. Deux choix s'offrent alors à vous :
 - Créer un nouveau client.
 - Le rattacher à un client connu d'HubRise. Dans ce cas, les informations de la commande seront écrasées par celles provenant d'HubRise.
 
@@ -23,8 +33,8 @@ Lors de cette étape, il vous est demandé de faire le même choix concernant l'
 
 Après validation de la commande, il est possible que la mise à jour du statut dans HubRise ne soit pas instantanée, celle-ci peut prendre jusqu'à 20 secondes.
 
----
+## Envoyer les commandes
 
-**NOTE IMPORTANTE** Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement.
+## Fonctionnalité prévue
 
----
+Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, écrivez à info@svitex.com.

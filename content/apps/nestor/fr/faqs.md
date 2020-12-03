@@ -4,17 +4,37 @@ position: 7
 layout: documentation
 meta:
   title: Connexion entre Nestor et HubRise - FAQ
-  description: Foires aux questions et leur réponse concernant l'intégration de Nestor avec HubRise.
+  description: Foire aux questions et leur réponse concernant l'intégration de Nestor avec HubRise.
 ---
 
-## Comment puis-je synchroniser mon catalogue entre mes points de vente dans le cas où j'en ai plusieurs ?
+## J'ai plusieurs points de vente utilisant Nestor avec le même menu, dois-je tous les synchroniser avec HubRise ?
 
-Nestor ne pouvant se connecter qu'à un seul point de vente à la fois, il est pour cela nécessaire de choisir un point de vente de référence et en exporter le catalogue, pour ensuite l'importer dans les autres points de vente.
+Si vous avez plusieurs points de vente avec le même menu, créez un seul catalogue sur votre compte HubRise, puis connectez tous les points de vente Nestor à celui-ci.
 
-## Pourquoi ne vois-je pas dans mon catalogue HubRise le produit que je viens de créer dans Nestor ?
+Pour plus d'informations sur la gestion des catalogues HubRise, consultez la page [Catalogues](/docs/catalog) (uniquement en anglais).
 
-Lorsque vous créez un produit dans Nestor, il est possible de le garder uniquement dans le catalogue interne à l'application. Si vous désirez le synchroniser avec votre catalogue HubRise, il est important de cocher l'option **Publier sur internet** dans l'onglet **Général** de la fenêtre de création de l'élément.
+Toutes les mises à jour du menu doivent être effectuées depuis le même poste travail Nestor, celle-ci entraînant la mise à jour automatique du catalogue commun HubRise.
+
+## Je viens de créer un produit dans Nestor, pourquoi n'apparaît-il pas dans mon catalogue HubRise ?
+
+Les produits Nestor ne sont pas synchronisés automatiquement avec HubRise. Pour activer la synchronisation, veuillez suivre les étapes suivantes depuis l'interface de Nestor :
+1. Sélectionnez **Gestion** dans la barre de menu. 
+1. Survolez l'option **Articles**, et sélectionnez **Fiche articles**.
+1. Sélectionnez le produit à synchroniser.
+1. Naviguez vers l'onglet **Déclinaison**.
+1. Cochez l'option **Publier sur internet**.
+1. Validez la modification.
+
+Nestor se synchronise avec HubRise toutes les 20 secondes. Attendez quelques instants puis vérifiez votre catalogue HubRise.
 
 ## Pourquoi suis-je dans l'incapacité de valider ma commande web dans Nestor ?
 
-Il est possible que votre commande contienne des articles inconnus. Pour remédier à ce problème, aidez-vous de la description de ces derniers pour les remplacer par les articles correspondants dans votre catalogue.
+Une raison courante est la présence de produits non reconnus dans la commande. Pour remédier à ce problème, suivez les étapes suivantes :
+1. Sélectionnez votre commande pour en voir le détail. Certaines lignes intituées **Article inconnu** sont présentes.
+1. Sélectionnez la dernière ligne vide. Votre menu apparaît.
+1. Sélectionnez et ajoutez le produit correspondant en vous aidant de la description de la ligne **Article inconnu**.
+1. Supprimez la ligne **Article inconnu** désormais remplacée.
+1. Répétez ces étapes pour chaque ligne **Article inconnu**.
+1. Lorsque toutes ces lignes sont supprimées, validez la commande.
+
+Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les articles inconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/nestor/map-ref-codes).
