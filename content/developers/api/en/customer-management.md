@@ -116,13 +116,13 @@ If a customer list with the same name already exists, it returns an error.
 Update a customer list.
 
 <CallSummaryTable
-  endpoint="PUT /customer_lists/:id"
+  endpoint="PATCH /customer_lists/:id"
   accessLevel="location, account"
 />
 
 #### Example request:
 
-`PUT /customer_lists/apm3s`
+`PATCH /customer_lists/apm3s`
 
 ```json
 {
@@ -130,7 +130,7 @@ Update a customer list.
 }
 ```
 
-If `name` is used by another customer list, it returns an error.
+If `name` is already used by another customer list, it returns an error.
 
 ### 1.5. Delete Customer List
 
@@ -193,8 +193,8 @@ Returns a customer's details.
   "loyalty_cards": [
     {
       "id": "slp8q",
-      "name": "",
-      "ref": "av-33489",
+      "ref": null,
+      "name": null,
       "balance": "13.5"
     }
   ],
@@ -204,7 +204,7 @@ Returns a customer's details.
 
 ### 2.2. List Customers
 
-Returns the customers of a customer list. Some filters can be passed.
+Returns the customers belonging to a customer list. Filters can be specified.
 
 <CallSummaryTable
   endpoint="GET /customer_lists/:customer_list_id/customers"
@@ -350,17 +350,18 @@ When a customer is anonymised, an [Event](/api/callbacks/#events) with an `updat
 
 ## 3. Loyalty Cards
 
+A customer can have zero, one or many loyalty cards. Each loyalty card defines:
+- A `ref`, which is unique for a given customer.
+- An optional `name` which represents the marketing name of the loyalty scheme.
+- A `balance` of points.
+
+A null `ref` can be used for one of the customer's loyalty cards. A store running a single loyalty scheme would typically use null `ref`s.
+
+`balance` is updated automatically by HubRise when loyalty operations are created. This field cannot be changed directly.
+
 ### 3.1. Retrieve Loyalty Card
 
 Returns a loyalty card.
-
-A customer can have zero, one or many loyalty cards.
-
-`name` identifies the loyalty scheme or the name of a particular campaign. Each card must have a unique name for any given customer. An empty ("") name is acceptable and will generally be used for a location running a unique loyalty program.
-
-The `ref` must be unique for a given customer list and a given name.
-
-The `balance` is updated automatically by HubRise when a loyalty operation is created. This field cannot be changed through the API.
 
 <CallSummaryTable
   endpoint="GET /customer_lists/:customer_list_id/loyalty_cards/:loyalty_card_id"
@@ -375,8 +376,8 @@ The `balance` is updated automatically by HubRise when a loyalty operation is cr
 {
   "id": "slp8q",
   "customer_id": "ve343",
-  "name": "",
-  "ref": "av-33489",
+  "ref": "LOY",
+  "name": "Come back!",
   "balance": "13.5"
 }
 ```
@@ -392,29 +393,29 @@ Returns the loyalty cards belonging to a customer list. Some filters can be pass
 
 #### Request parameters:
 
-| Name          | Description                                           |
-| ------------- | ----------------------------------------------------- |
-| `name`        | Filters the loyalty cards by name.                    |
-| `ref`         | Filters by ref.                                       |
-| `customer_id` | Returns the cards belonging to a particular customer. |
+| Name          | Description                               |
+| ------------- | ----------------------------------------- |
+| `customer_id` | Returns cards belonging to this customer. |
+| `ref`         | Filter loyalty cards by ref.              |
+| `name`        | Filter loyalty cards by name.             |
 
-#### Example request: retrieve by name and ref
+#### Example request: retrieve by ref
 
-`GET /customer_lists/smpre3/loyalty_cards?name=&ref=av-33489`
+`GET /customer_lists/smpre3/loyalty_cards?ref=LOY`
 
 ```json
 [
   {
     "id": "slp8q",
     "customer_id": "ve343",
-    "name": "",
-    "ref": "av-33489",
+    "ref": "LOY",
+    "name": "Come back!",
     "balance": "13.5"
   }
 ]
 ```
 
-#### Example request: retrieve the loyalty cards belonging to a customer
+#### Example request: retrieve loyalty cards belonging to a customer
 
 `GET /customer_lists/smpre3/loyalty_cards?customer_id=ve343`
 
@@ -423,15 +424,15 @@ Returns the loyalty cards belonging to a customer list. Some filters can be pass
   {
     "id": "slp8q",
     "customer_id": "ve343",
-    "name": "",
-    "ref": "av-33489",
+    "ref": null,
+    "name": null,
     "balance": "13.5"
   },
   {
     "id": "65rsp",
     "customer_id": "ve343",
-    "name": "kiosk",
-    "ref": "31",
+    "ref": "LOY",
+    "name": "Come back!",
     "balance": "1.5"
   }
 ]
@@ -448,11 +449,11 @@ Creates a new loyalty card for a customer.
 
 #### Request parameters:
 
-| Name                            | Type   | Description                                                                                                                                                       |
-| ------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `customer_id`                   | string | The customer's `id`. Must exist or the request will fail.                                                                                                         |
-| `name`                          | string | The loyalty card scheme name. Must be unique among the cards owned by the same customer. Mandatory parameter, but the empty string (`""`) is an acceptable value. |
-| `ref` <Label type="optional" /> | string | The unique reference of the card. If defined, it must be unique among all the cards of the same customer list having the same name.                               |
+| Name                             | Type   | Description                                                                                                                |
+| -------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------- |
+| `customer_id`                    | string | The customer's `id`. Must exist or the request will fail.                                                                  |
+| `ref`                            | string | The loyalty card reference. Must be unique for a given customer. No more than one card per customer can have a `null` ref. |
+| `name` <Label type="optional" /> | string | The name which customers use to refer to the loyalty scheme.                                                               |
 
 #### Example request:
 
@@ -461,42 +462,42 @@ Creates a new loyalty card for a customer.
 ```json
 {
   "customer_id": "ve343",
-  "name": "",
-  "ref": "av-33489"
+  "ref": "DIS",
+  "name": "Discounts for You"
 }
 ```
 
-If the request succeeds, the loyalty card is created with an initial `balance` set to `"0.0"`.
+If the request succeeds, a loyalty card is created with an initial `balance` set to `"0.0"`.
 
 ### 3.4. Update Loyalty Card
 
 Update a loyalty card.
 
 <CallSummaryTable
-  endpoint="PUT /customer_lists/:customer_list_id/loyalty_cards/:loyalty_card_id"
+  endpoint="PATCH /customer_lists/:customer_list_id/loyalty_cards/:loyalty_card_id"
   accessLevel="location, account"
 />
 
 #### Request parameters:
 
-| Name                             | Type   | Description                       |
-| -------------------------------- | ------ | --------------------------------- |
-| `name` <Label type="optional" /> | string | The loyalty card scheme name.     |
-| `ref` <Label type="optional" />  | string | The unique reference of the card. |
+| Name                             | Type   | Description                        |
+| -------------------------------- | ------ | ---------------------------------- |
+| `ref` <Label type="optional" />  | string | The loyalty card unique reference. |
+| `name` <Label type="optional" /> | string | The loyalty card name.             |
 
 #### Example request:
 
-`PUT /customer_lists/smpre3/loyalty_cards/slp8q`
+`PATCH /customer_lists/smpre3/loyalty_cards/slp8q`
 
 ```json
 {
-  "ref": "av-20103"
+  "ref": "LOYALTY"
 }
 ```
 
-Note that only the name and the ref can be updated. It's not possible to change the `customer_id`.
+Note that only `name` and `ref` can be updated. It's not possible to change `customer_id`.
 
-`balance` cannot be changed directly as well. To update it, just create an operation.
+`balance` cannot be changed directly as well. To update the balance, you must create a loyalty operation.
 
 ## 4. Loyalty Operations
 
@@ -582,4 +583,4 @@ Create a loyalty card operation and updates the balance accordingly.
 
 If the request succeeds, the operation's `new_balance` is automatically calculated, as well as the customer's `balance`.
 
-A loyalty operation cannot be deleted or updated. If you need to void a loyalty operation, create an opposite operation.
+A loyalty operation cannot be deleted or updated. To void a loyalty operation, you must create an opposite operation.
