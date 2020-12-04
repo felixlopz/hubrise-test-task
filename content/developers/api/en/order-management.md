@@ -136,9 +136,11 @@ Almost all fields are optional. In fact the simplest order that can be created o
   ],
   "loyalty_operations": [
     {
-      "name": "",
+      "name": null,
+      "ref": "LOY",
       "delta": "-5",
-      "reason": "Points used"
+      "reason": "Points used on order",
+      "new_balance": "1.5"
     }
   ],
   "total": "23.50 EUR"
@@ -594,7 +596,7 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 
 | Name                               | Type                                                        | Description                                                                              |
 | ---------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `name`                             | string                                                      | The loyalty card name.                                                                   |
+| `ref` <Label type="optional" />    | string                                                      | The loyalty card unique ref. Defaults to `null` if omitted.                              |
 | `delta`                            | [decimal](/developers/api/general-concepts/#decimal-values) | The number of points to add to the card balance. Use a negative number to remove points. |
 | `reason` <Label type="optional" /> | string                                                      | Additional information on the operation.                                                 |
 
@@ -603,14 +605,14 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 ```json
 [
   {
-    "name": "",
+    "ref": "LOY",
     "delta": "-5",
-    "reason": "Points used"
+    "reason": "Points used on order"
   },
   {
-    "name": "",
+    "ref": "LOY",
     "delta": "1.5",
-    "reason": "Points earned"
+    "reason": "Points earned on order"
   }
 ]
 ```

@@ -351,8 +351,9 @@ When a customer is anonymised, an [Event](/api/callbacks/#events) with an `updat
 ## 3. Loyalty Cards
 
 A customer can have zero, one or many loyalty cards. Each loyalty card defines:
-- A `ref`, which is unique for a given customer.
+
 - An optional `name` which represents the marketing name of the loyalty scheme.
+- A `ref`, which is unique for a given customer.
 - A `balance` of points.
 
 A null `ref` can be used for one of the customer's loyalty cards. A store running a single loyalty scheme would typically use null `ref`s.
@@ -376,8 +377,8 @@ Returns a loyalty card.
 {
   "id": "slp8q",
   "customer_id": "ve343",
-  "ref": "LOY",
   "name": "Come back!",
+  "ref": "LOY",
   "balance": "13.5"
 }
 ```
@@ -396,8 +397,8 @@ Returns the loyalty cards belonging to a customer list. Some filters can be pass
 | Name          | Description                               |
 | ------------- | ----------------------------------------- |
 | `customer_id` | Returns cards belonging to this customer. |
-| `ref`         | Filter loyalty cards by ref.              |
 | `name`        | Filter loyalty cards by name.             |
+| `ref`         | Filter loyalty cards by ref.              |
 
 #### Example request: retrieve by ref
 
@@ -408,8 +409,8 @@ Returns the loyalty cards belonging to a customer list. Some filters can be pass
   {
     "id": "slp8q",
     "customer_id": "ve343",
-    "ref": "LOY",
     "name": "Come back!",
+    "ref": "LOY",
     "balance": "13.5"
   }
 ]
@@ -424,15 +425,15 @@ Returns the loyalty cards belonging to a customer list. Some filters can be pass
   {
     "id": "slp8q",
     "customer_id": "ve343",
-    "ref": null,
     "name": null,
+    "ref": null,
     "balance": "13.5"
   },
   {
     "id": "65rsp",
     "customer_id": "ve343",
-    "ref": "LOY",
     "name": "Come back!",
+    "ref": "LOY",
     "balance": "1.5"
   }
 ]
@@ -449,11 +450,11 @@ Creates a new loyalty card for a customer.
 
 #### Request parameters:
 
-| Name                             | Type   | Description                                                                                                                |
-| -------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------- |
-| `customer_id`                    | string | The customer's `id`. Must exist or the request will fail.                                                                  |
-| `ref`                            | string | The loyalty card reference. Must be unique for a given customer. No more than one card per customer can have a `null` ref. |
-| `name` <Label type="optional" /> | string | The name which customers use to refer to the loyalty scheme.                                                               |
+| Name                             | Type   | Description                                                                                                          |
+| -------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------- |
+| `customer_id`                    | string | The customer's `id`. Must exist or the request will fail.                                                            |
+| `name` <Label type="optional" /> | string | The name which customers use to refer to the loyalty scheme.                                                         |
+| `ref`                            | string | The loyalty card ref. Must be unique for a given customer. No more than one card per customer can have a `null` ref. |
 
 #### Example request:
 
@@ -462,8 +463,8 @@ Creates a new loyalty card for a customer.
 ```json
 {
   "customer_id": "ve343",
-  "ref": "DIS",
-  "name": "Discounts for You"
+  "name": "Discounts for You",
+  "ref": "DIS"
 }
 ```
 
@@ -480,10 +481,10 @@ Update a loyalty card.
 
 #### Request parameters:
 
-| Name                             | Type   | Description                        |
-| -------------------------------- | ------ | ---------------------------------- |
-| `ref` <Label type="optional" />  | string | The loyalty card unique reference. |
-| `name` <Label type="optional" /> | string | The loyalty card name.             |
+| Name                             | Type   | Description                  |
+| -------------------------------- | ------ | ---------------------------- |
+| `name` <Label type="optional" /> | string | The loyalty card name.       |
+| `ref` <Label type="optional" />  | string | The loyalty card unique ref. |
 
 #### Example request:
 
@@ -521,7 +522,7 @@ Returns a loyalty card operation.
   "created_at": "2020-01-18T12:37:21+02:00",
   "order_location_id": "psm98",
   "order_id": "mapcm",
-  "reason": "Points earned",
+  "reason": "Points earned on order",
   "delta": "4.2",
   "new_balance": "17.7"
 }
