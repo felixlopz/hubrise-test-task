@@ -48,8 +48,23 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 1. Survolez l'option **Ingrédients**, et sélectionnez **Fiche ingrédients**.
 1. Sélectionnez l'option désirée. Dans l'onglet **Ingrédient**, le code ref s'affiche dans le champ **Code**.
 
-## Remises = offres promotionnelles
+## Remises
 
-## Promotions = menus
+Les remises dans HubRise correspondent aux offres promotionnelles dans Nestor. Celles-ci ne sont pas encore synchronisées avec HubRise, cette fonctionnalité est en cours de développement et sera disponible très prochainement.
 
-La démarche pour créer un menu est la même que celle pour créer un produit, à la différence qu'il est nécessaire de cocher l'option **Est un menu**, dont l'activation va permettre de présenter les options spécifiques à la création d'un menu.
+Pour retrouver le code ref d'une remise, suivez les étapes suivantes :
+1. Sélectionnez **Gestion** dans la barre de menu.
+1. Sélectionnez **Offres promotionnelles**.
+1. Sélectionnez la remise désirée. Dans l'onglet **Générale**, le code ref s'affiche dans le champ **Code**.
+
+## Promotions
+
+Les promotions dans HubRise correspondent aux menus dans Nestor. Pour retrouver le code ref d'un menu, suivez les mêmes étapes que pour un [produit sans déclinaison](/apps/nestor/map-ref-codes#produit-sans-declinaison). Dans Nestor, un menu est considéré comme un article dont l'option **Est un menu**, dans l'onglet **Déclinaison**, est cochée.
+
+## Méthodes de paiement
+
+Les méthodes de paiement dans HubRise correspondent aux moyens de paiement dans Nestor. Leurs codes ref ne sont pas encore synchronisés, cette fonctionnalité est en cours de développement et sera disponible prochainement.
+
+## Types de service
+
+Les codes ref des types de service ne sont pas encore supportés par Nestor. Cette fonctionnalité est en cours de développement et sera disponible prochainement.

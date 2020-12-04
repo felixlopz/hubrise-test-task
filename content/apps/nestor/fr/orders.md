@@ -36,3 +36,13 @@ Après validation de la commande, la mise à jour du statut dans HubRise peut pr
 **Fonctionnalité prévue :** Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, écrivez à info@svitex.com.
 
 ## Envoyer les commandes
+
+Cette fonctionnalité est en cours de développement et sera disponible prochainement.
+
+## Temps de préparation
+
+---
+
+**NOTE IMPORTANTE** À faire.
+
+---
