@@ -13,7 +13,7 @@ Après avoir connecté votre logiciel de caisse Nestor à votre compte HubRise, 
 
 Le catalogue est exporté automatiquement vers HubRise dans les deux cas suivants :
 - Lorsque la connexion est établie.
-- Lorsqu'un élément du catalogue est édité.
+- Lorsque le catalogue est édité.
 
 Il n'est pas possible d'exporter manuellement le catalogue.
 

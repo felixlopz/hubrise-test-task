@@ -13,7 +13,7 @@ Connecter Nestor à HubRise peut être fait en seulement quelques étapes.
 
 Pour établir la connexion entre un point de vente Nestor et HubRise :
 
-1. Lancez l'application **WebNES**, incluse dans l'installation de Nestor.
+1. Lancez l'application **WebNES**, incluse dans l'installation de Nestor, depuis votre poste Windows.
 1. Cliquez sur le menu **Configuration** dans la barre de menu.
 1. Cliquez sur **HubRise**. Une fenêtre nommée **Configuration HubRise** s'ouvre.
 1. Cliquez sur **Connecter**. Vous êtes redirigés vers l'interface HubRise.
@@ -33,7 +33,7 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 ## Se déconnecter
 
-1. Lancez l'application **WebNES**, incluse dans l'installation de Nestor.
-1. Cliquez sur le menu **Configuration** dans la barre de menu.
-1. Cliquez sur **HubRise**. Une fenêtre nommée **Configuration HubRise** s'ouvre.
+1. Ouvrez l'application **WebNES**.
+1. Sélectionnez **Configuration** dans la barre de menu.
+1. Sélectionnez **HubRise**. Une fenêtre nommée **Configuration HubRise** s'ouvre.
 1. Cliquez sur **Déconnecter**.

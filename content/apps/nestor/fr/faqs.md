@@ -9,9 +9,7 @@ meta:
 
 ## J'ai plusieurs points de vente utilisant Nestor avec le même menu, dois-je tous les synchroniser avec HubRise ?
 
-Si vous avez plusieurs points de vente avec le même menu, créez un seul catalogue sur votre compte HubRise, puis connectez tous les points de vente Nestor à celui-ci.
-
-Pour plus d'informations sur la gestion des catalogues HubRise, consultez la page [Catalogues](/docs/catalog) (uniquement en anglais).
+Si vous avez plusieurs points de vente avec le même menu, créez un seul catalogue sur votre compte HubRise, puis connectez tous les points de vente Nestor à celui-ci. Pour plus d'informations sur la gestion des catalogues HubRise, consultez la page [Catalogues](/docs/catalog) (uniquement en anglais).
 
 Toutes les mises à jour du menu doivent être effectuées depuis le même poste travail Nestor, celle-ci entraînant la mise à jour automatique du catalogue commun HubRise.
 
@@ -27,14 +25,6 @@ Les produits Nestor ne sont pas synchronisés automatiquement avec HubRise. Pour
 
 Nestor se synchronise avec HubRise toutes les 20 secondes. Attendez quelques instants puis vérifiez votre catalogue HubRise.
 
-## Pourquoi suis-je dans l'incapacité de valider ma commande web dans Nestor ?
+## Pourquoi ne puis-je pas valider une commande web dans Nestor ?
 
-Une raison courante est la présence de produits non reconnus dans la commande. Pour remédier à ce problème, suivez les étapes suivantes :
-1. Sélectionnez votre commande pour en voir le détail. Certaines lignes intituées **Article inconnu** sont présentes.
-1. Sélectionnez la dernière ligne vide. Votre menu apparaît.
-1. Sélectionnez et ajoutez le produit correspondant en vous aidant de la description de la ligne **Article inconnu**.
-1. Supprimez la ligne **Article inconnu** désormais remplacée.
-1. Répétez ces étapes pour chaque ligne **Article inconnu**.
-1. Lorsque toutes ces lignes sont supprimées, validez la commande.
-
-Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les articles inconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/nestor/map-ref-codes).
+Une raison courante est la présence de produits non reconnus dans la commande. Pour remédier à ce problème, suivez les instructions détaillées dans la section [Recevoir des commandes](/apps/nestor/orders#recevoir-des-commandes).

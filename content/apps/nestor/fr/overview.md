@@ -17,24 +17,24 @@ app_info:
 
 ## Description
 
-Nestor est un logiciel de caisse créé en 2004 par Svitex, spécialisé dans la livraison et la vente à emporter pour les restaurants. Il permet la sauvegarde d'informations client et de l'historique des commandes de chaque client. La gestion du catalogue de produits offre la possibilité de créer des menus, ou des remises ponctuelles du prix de vente en pourcentage ou en montant. Nestor facilite aussi la gestion des livreurs avec un système de géolocalisation intégré et communique auprès des clients par SMS le suivi de leur commande. Il peut être également utilisé pour effectuer des opérations marketing.
+Nestor est un logiciel de caisse créé en 2004 par la société Svitex, spécialisé dans la livraison et la vente à emporter pour les restaurants. Il permet la sauvegarde d'informations client et de l'historique des commandes de chaque client. La gestion du catalogue de produits offre la possibilité de créer des menus, ou des remises ponctuelles du prix de vente en pourcentage ou en montant. Nestor facilite aussi la gestion des livreurs avec un système de géolocalisation intégré et communique auprès des clients par SMS le suivi de leur commande. Il peut être également utilisé pour effectuer des opérations marketing.
 
 Nestor est utilisé par près d'un millier de points de vente, principalement des petites et moyennes entreprises indépendantes possédant entre 1 et 12 points de vente.
 
 Nestor est une application à installer sur votre poste Windows et est disponible uniquement en français. Ses utilisateurs sont situés en France, en Suisse, et en Belgique.
 
-Nestor est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autres règles imposées par l’État.
+Nestor est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autres règles imposées par l’État, grâce à l'attestation éditeur qui est délivrée en rapport à l'article 88 de la loi des finances.
 
 ## Fonctionnalités d'intégration
 
 Connecter Nestor à HubRise permet à Nestor de :
 
-- Exporter des commandes vers HubRise.
 - Importer des commandes depuis HubRise.
-- Exporter des informations client vers HubRise.
 - Importer des informations client depuis HubRise.
 - Exporter un catalogue produit vers HubRise.
 - Exporter le délai de livraison vers HubRise.
+
+Nestor pourra bientôt exporter les commandes et informations clients vers HubRise. Contactez Nestor pour plus d'informations.
 
 ## Pourquoi se connecter ?
 

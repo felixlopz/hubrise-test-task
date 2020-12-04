@@ -27,14 +27,12 @@ Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos prod
 
 Lorsque le client qui a créé cette commande n'est pas connu de Nestor, une étape d'association du client apparaît avant celle de validation de la commande. Deux choix s'offrent alors à vous :
 - Créer un nouveau client.
-- Le rattacher à un client connu d'HubRise. Dans ce cas, les informations de la commande seront écrasées par celles provenant d'HubRise.
+- Le rattacher à un client connu de Nestor. Dans ce cas, les informations du client seront écrasées par celles provenant d'HubRise.
 
 Lors de cette étape, il vous est demandé de faire le même choix concernant l'adresse.
 
-Après validation de la commande, il est possible que la mise à jour du statut dans HubRise ne soit pas instantanée, celle-ci peut prendre jusqu'à 20 secondes.
+Après validation de la commande, la mise à jour du statut dans HubRise peut prendre jusqu'à 20 secondes.
+
+**Fonctionnalité prévue :** Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, écrivez à info@svitex.com.
 
 ## Envoyer les commandes
-
-## Fonctionnalité prévue
-
-Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, écrivez à info@svitex.com.
