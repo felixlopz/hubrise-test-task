@@ -448,11 +448,11 @@ Creates a new loyalty card for a customer.
 
 #### Request parameters:
 
-| Name                            | Type   | Description                                                                                                                                 |
-| ------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `customer_id`                   | string | The customer's `id`. Must exist or the request will fail.                                                                                   |
-| `name`                          | string | The loyalty card scheme name. Must be unique among the cards owned by the same customer. Mandatory parameter, but " is an acceptable value. |
-| `ref` <Label type="optional" /> | string | The unique reference of the card. If defined, it must be unique among all the cards of the same customer list having the same name.         |
+| Name                            | Type   | Description                                                                                                                                                       |
+| ------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `customer_id`                   | string | The customer's `id`. Must exist or the request will fail.                                                                                                         |
+| `name`                          | string | The loyalty card scheme name. Must be unique among the cards owned by the same customer. Mandatory parameter, but the empty string (`""`) is an acceptable value. |
+| `ref` <Label type="optional" /> | string | The unique reference of the card. If defined, it must be unique among all the cards of the same customer list having the same name.                               |
 
 #### Example request:
 
