@@ -7,6 +7,8 @@ meta:
   description: Instructions on how to find the Deliveroo Location ID for your restaurant to start receiving orders on HubRise.
 ---
 
+The Location ID is the unique identifier for your Deliveroo store. It is also referred to as Branch ID, Admin ID, Tablet ID, or Restaurant ID, depending on the context.
+
 To find your Deliveroo Location ID, follow these steps.
 
 ## Option 1
