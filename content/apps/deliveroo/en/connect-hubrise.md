@@ -18,6 +18,7 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 - The URL link(s) of your Deliveroo store(s) you wish to connect. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
 - The URL link of your Deliveroo back office when you are logged in. We will use it to obtain your Deliveroo Location ID. For more details, see our FAQ: [How Do I Find My Deliveroo Location ID](/apps/deliveroo/faqs/find-deliveroo-location-id).
 - The email address you logged in the Deliveroo back office and use to communicate with Deliveroo.
+- The email address of your Deliveroo account manager.
 - Your HubRise account and location IDs. If you don't have a HubRise Account, go to the [HubRise Signup](https://manager.hubrise.com/signup) page and follow the instructions. If your restaurant called Fast Pizza is located in Baker Street, your location ID may be `Fast Pizza Baker Street z6q31-0`.
 
 We will then contact Deliveroo on your behalf to enable the connection.
