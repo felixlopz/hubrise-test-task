@@ -1,9 +1,9 @@
 ---
-title: FAQ
+title: F.A.Q.
 position: 7
 layout: documentation
 meta:
-  title: Connexion entre Nestor et HubRise - FAQ
+  title: Connexion entre Nestor et HubRise - F.A.Q.
   description: Foire aux questions et leur réponse concernant l'intégration de Nestor avec HubRise.
 ---
 
