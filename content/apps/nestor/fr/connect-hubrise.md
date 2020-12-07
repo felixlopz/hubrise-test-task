@@ -20,6 +20,13 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 1. Cliquez sur **Connecter**. Vous êtes redirigés vers l'interface HubRise.
 1. Choisissez le point de vente que vous désirez connecter et cliquez sur **Autoriser** pour donner à Nestor l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, cliquez sur **Suivant** afin d'afficher les listes déroulantes correspondantes avant de cliquer sur **Autoriser**.
+
+---
+
+**NOTE IMPORTANTE** Vérifiez bien le choix du catalogue avant d'autoriser la connexion car celui-ci est écrasé dès que la connexion est établie.
+
+---
+
    ![Connexion à HubRise - Choix du point de vente](../images/002-fr-nestor-connexion-location.png)
 
 1. Copiez le code affiché et collez-le dans la fenêtre **Configuration HubRise** de l'utilitaire WebNES.
