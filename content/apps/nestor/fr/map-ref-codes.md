@@ -63,7 +63,7 @@ Pour retrouver le code ref d'une remise, suivez les étapes suivantes :
 
 ## Promotions
 
-Les promotions dans HubRise correspondent aux menus dans Nestor. Pour retrouver le code ref d'un menu, suivez les mêmes étapes que pour un [produit sans déclinaison](/apps/nestor/map-ref-codes#produit-sans-d-clinaison). Dans Nestor, un menu est considéré comme un article dont l'option **Est un menu**, dans l'onglet **Déclinaison**, est cochée.
+Les promotions dans HubRise correspondent aux menus dans Nestor. Pour retrouver le code ref d'un menu, suivez les mêmes étapes que pour un [produit sans déclinaison](/apps/nestor/map-ref-codes#produits-sans-d-clinaison). Dans Nestor, un menu est considéré comme un article dont l'option **Est un menu**, dans l'onglet **Déclinaison**, est cochée.
    ![Codes ref - Promotions](../images/010-fr-nestor-est-un-menu.png)
 
 ## Méthodes de paiement
