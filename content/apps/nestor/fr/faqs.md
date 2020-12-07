@@ -22,6 +22,7 @@ Les produits Nestor ne sont pas synchronisés automatiquement avec HubRise. Pour
 1. Naviguez vers l'onglet **Déclinaison**.
 1. Cochez l'option **Publier sur internet**.
 1. Validez la modification.
+   ![F.A.Q. - Publier sur internet](../images/011-fr-nestor-publier-sur-internet.png)
 
 Nestor se synchronise avec HubRise toutes les 20 secondes. Attendez quelques instants puis vérifiez votre catalogue HubRise.
 
