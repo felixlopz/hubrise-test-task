@@ -37,7 +37,10 @@ Lors de cette étape, il vous est demandé de faire le même choix concernant l'
 
 ### Statut de la commande
 
-**TODO**: indiquer comment évolue le statut de la commande. 
+Une commande a plusieurs statuts au cours de son cycle de vie :
+1. *New* lorsqu'elle vient d'être créée.
+1. *Received* lorsqu'elle a été reçue dans Nestor.
+1. *Accepted* lorsqu'elle a été validée.
 
 Après validation de la commande, la mise à jour du statut dans HubRise peut prendre jusqu'à 20 secondes.
 
