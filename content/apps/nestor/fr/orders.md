@@ -11,9 +11,11 @@ meta:
 
 ## Recevoir des commandes
 
-Nestor vérifie toutes les 20 secondes grâce à l'utilitaire WebNES si des nouvelles commandes ont été envoyées à HubRise. Une alerte visuelle et sonore vous signale l'arrivée d'une nouvelle commande dans Nestor.
+Nestor vérifie toutes les 20 secondes grâce à l'utilitaire WebNES si de nouvelles commandes ont été envoyées à HubRise. Une alerte visuelle et sonore vous signale l'arrivée d'une nouvelle commande dans Nestor.
 
 Pour voir la liste des commandes en attente, cliquez sur l'alerte. Pour voir le détail de la commande et la valider, cliquez sur la ligne correspondante.
+
+### Commande avec des articles inconnus
 
 Dans le cas où une commande contient des lignes intitulées **Article inconnu**, il n'est pas possible de valider la commande. Pour remédier à ce problème, suivez les étapes suivantes :
 1. Sélectionnez votre commande pour en voir le détail. Certaines lignes intituées **Article inconnu** sont présentes.
@@ -25,13 +27,23 @@ Dans le cas où une commande contient des lignes intitulées **Article inconnu**
 
 Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les articles inconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/nestor/map-ref-codes).
 
-Lorsque le client qui a créé cette commande n'est pas connu de Nestor, une étape d'association du client apparaît avant celle de validation de la commande. Deux choix s'offrent alors à vous :
+### Enregistrement d'un client
+
+Lorsque le client qui a créé une commande n'est pas connu de Nestor, une étape d'association du client apparaît avant celle de validation de la commande. Deux choix s'offrent alors à vous :
 - Créer un nouveau client.
 - Le rattacher à un client connu de Nestor. Dans ce cas, les informations du client seront écrasées par celles provenant d'HubRise.
 
 Lors de cette étape, il vous est demandé de faire le même choix concernant l'adresse.
 
+### Statut de la commande
+
+**TODO**: indiquer comment évolue le statut de la commande. 
+
 Après validation de la commande, la mise à jour du statut dans HubRise peut prendre jusqu'à 20 secondes.
+
+### Détails de la commande
+
+**TODO**: indiquer sommairement où retrouver les infos de la commande dans Nestor.
 
 **Fonctionnalité prévue :** Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, écrivez à info@svitex.com.
 
