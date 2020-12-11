@@ -7,7 +7,7 @@ meta:
   description: La connexion entre Nestor et HubRise se fait simplement grâce à l'utilitaire WebNES, inclus dans l'installation de Nestor sur votre poste Windows.
 ---
 
-Connecter Nestor à HubRise peut être fait en seulement quelques étapes.
+Connecter Nestor à HubRise peut être fait en seulement quelques étapes. Il est aussi conseillé de donner les droits *Manager* à l'utilisateur info@svitex.com afin de permettre à l'éditeur du logiciel Nestor de se connecter au compte pour aider à la résolution de problèmes.
 
 ## Se connecter
 
