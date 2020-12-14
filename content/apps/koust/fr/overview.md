@@ -17,11 +17,11 @@ app_info:
 
 ## Description
 
----
+Koust est une application qui a été créée en septembre 2016 et qui permet aux restaurateurs de gérer leurs coûts et leurs stocks. Koust accompagne tous types de restaurateurs : des restaurants individuels aux chaînes de restaurants, en passant par la restauration collective.
 
-**NOTE IMPORTANTE** À faire.
+L'application dispose de nombreuses fonctionnalités séparées en plusieurs pôles. Celui de gestion offre des tableaux de bord qui permettent de suivre en temps réel l'évolution du chiffre d'affaires et de la marge brute de votre établissement. Le pôle de stock permet de passer vos commandes fournisseurs, de faire vos inventaires et d'analyser vos achats. Celui de production offre un planning de production ainsi que la production de produits semi-finis.
 
----
+Les principaux objectifs de Koust sont d'augmenter la marge brute des restaurateurs, augmenter leur productivité, et diminuer les coûts matières.
 
 ## Fonctionnalités d'intégration
 
