@@ -17,20 +17,29 @@ Le catalogue est exporté automatiquement vers HubRise dans les deux cas suivant
 
 Il n'est pas possible d'exporter manuellement le catalogue.
 
+Les produits que vous créez ou modifiez dans votre catalogue ne sont pas automatiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
+1. Sélectionnez **Gestion** dans la barre de menu. 
+1. Survolez l'option **Articles**, et sélectionnez **Fiche articles**.
+1. Sélectionnez le produit à synchroniser.
+1. Naviguez vers l'onglet **Déclinaison**.
+1. Cochez l'option **Publier sur internet**.
+1. Validez la modification.
+   ![Codes ref - Publier sur internet](../images/011-fr-nestor-publier-sur-internet.png)
+
 ## SKUs
 
 Une SKU (*Stock Keeping Unit*) dans HubRise est un produit Nestor dans une déclinaison donnée. Par exemple, le produit *Margarita* en déclinaison *Grande* correspond à la SKU *Margarita Grande*.
 
 Pour retrouver le code ref d'un SKU, deux cas peuvent se présenter selon que le produit a des déclinaisons ou non.
 
-### Produits sans déclinaison
+### Articles sans déclinaison
 
 1. Sélectionnez **Gestion** dans la barre de menu.
 1. Survolez l'option **Articles**, et sélectionnez **Fiche articles**.
 1. Sélectionnez le produit désiré. Dans l'onglet **Article**, le code ref de la SKU s'affiche dans le champ **Code**.
-   ![Codes ref - Produits sans déclinaison](../images/006-fr-nestor-code-article.png)
+   ![Codes ref - Articles sans déclinaison](../images/006-fr-nestor-code-article.png)
 
-### Produits avec déclinaisons
+### Articles avec déclinaisons
 
 1. Suivez les mêmes étapes que dans la section précédente et notez le code présent dans le champ **Code**.
 1. Fermez la fenêtre **Articles**.
@@ -39,7 +48,7 @@ Pour retrouver le code ref d'un SKU, deux cas peuvent se présenter selon que le
 1. Sélectionnez la déclinaison désirée. Dans l'onglet **Déclinaison**, le code ref s'affiche dans le champ **Code**.
 1. Notez le code présent dans le champ **Code**.
 1. Le code ref de la SKU est égal au code de l'article, suivi du caractère `|`, suivi du code de la déclinaison. Par exemple : un article *Pizza* dont le code est `PIZ`, ayant une déclinaison *Grande* dont le code est `GRA`, résulte en un code ref `PIZ|GRA`.
-   ![Codes ref - Produits avec déclinaisons](../images/007-fr-nestor-code-declinaison.png)
+   ![Codes ref - Articles avec déclinaisons](../images/007-fr-nestor-code-declinaison.png)
 
 ## Options
 

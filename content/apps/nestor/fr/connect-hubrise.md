@@ -7,7 +7,7 @@ meta:
   description: La connexion entre Nestor et HubRise se fait simplement grâce à l'utilitaire WebNES, inclus dans l'installation de Nestor sur votre poste Windows.
 ---
 
-Connecter Nestor à HubRise peut être fait en seulement quelques étapes. Il est aussi conseillé de donner les droits *Manager* à l'utilisateur info@svitex.com afin de permettre à l'éditeur du logiciel Nestor de se connecter au compte pour aider à la résolution de problèmes.
+Connecter Nestor à HubRise peut être fait en seulement quelques étapes.
 
 ## Se connecter
 
@@ -35,11 +35,22 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 1. Cliquez sur **Valider**. L'interface WebNES affiche **Connecté à HubRise**, ainsi que toutes les informations de votre point de vente.
    ![Connexion à HubRise - Informations du point de vente](../images/004-fr-nestor-connecte.png)
 
+1. En cas de besoin, l'éditeur du logiciel Nestor peut vous venir en aide. Pour permettre cela, [donnez les accès nécessaires au support de Nestor](/apps/nestor/connect-hubrise#donner-acc-s-au-support-de-nestor).
+
 ---
 
 **NOTE IMPORTANTE** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, veuillez consulter notre [Guide de prise en main](/docs/getting-started/).
 
 ---
+
+## Donner accès au support de Nestor
+
+Il est conseillé de donner à l'éditeur du logiciel Nestor les droits nécessaires pour vous venir en aide en cas de besoin. Pour cela, suivez les étapes suivantes depuis votre espace HubRise :
+
+1. Dans le menu de gauche, sélectionnez **SETTINGS** > **ACCOUNTS**. La liste de vos comptes s'affiche.
+1. Sélectionnez le compte auquel votre point de vente est rattaché.
+1. Dans l'espace **Locations**, sélectionnez votre point de vente.
+1. Dans l'espace **Permissions**, ajoutez *info@svitex.com* en sélectionnant l'option **Manager** (et non **Admin**) dans la liste déroulante des rôles, puis cliquez sur l'icône *+*. L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente, le partage de mot de passe est déconseillé pour des raisons de sécurité.
 
 ## Se déconnecter
 

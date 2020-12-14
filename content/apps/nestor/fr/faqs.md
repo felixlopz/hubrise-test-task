@@ -15,14 +15,7 @@ Toutes les mises à jour du menu doivent être effectuées depuis le même poste
 
 ## Je viens de créer un produit dans Nestor, pourquoi n'apparaît-il pas dans mon catalogue HubRise ?
 
-Les produits Nestor ne sont pas synchronisés automatiquement avec HubRise. Pour activer la synchronisation, veuillez suivre les étapes suivantes depuis l'interface de Nestor :
-1. Sélectionnez **Gestion** dans la barre de menu. 
-1. Survolez l'option **Articles**, et sélectionnez **Fiche articles**.
-1. Sélectionnez le produit à synchroniser.
-1. Naviguez vers l'onglet **Déclinaison**.
-1. Cochez l'option **Publier sur internet**.
-1. Validez la modification.
-   ![F.A.Q. - Publier sur internet](../images/011-fr-nestor-publier-sur-internet.png)
+Les produits Nestor ne sont pas synchronisés automatiquement avec HubRise. Pour activer la synchronisation, veuillez suivre les étapes détaillées dans [Exporter le catalogue](/apps/nestor/map-ref-codes#exporter-le-catalogue).
 
 Nestor se synchronise avec HubRise toutes les 20 secondes. Attendez quelques instants puis vérifiez votre catalogue HubRise.
 
