@@ -62,6 +62,18 @@ Vous pouvez retrouver toutes vos commandes en suivant les étapes suivantes.
 1. Sélectionnez l'onglet correspondant au type de commande que vous souhaitez visualiser : *En cours*, *Web*, *Annulées*, *Différées*, *Tickets / Factures*.
 1. Double-cliquez sur la ligne correspondant à la commande désirée. La fenêtre détaillant ses informations s'ouvre.
 
+**Interprétation technique**
+
+| Nom du champ                           | Définition                                                |
+| -------------------------------------- | --------------------------------------------------------- |
+| `service_type`                         | Type de service (`service_type_ref` non utilisé)          |
+| `expected_time`                        | Heure et date auxquelles la commande sera prête ou livrée |
+| `item.sku_ref`                         | Code ref du produit                                       |
+| `item.price`                           | Prix du produit. Si celui-ci est différent de celui du catalogue Nestor, le pourcentage du champ *Remise* est complété en fonction. |
+| `item.product_name` et `item.sku_name` | Champs utilisés pour remplir la description d'un article inconnu si le `item.sku_ref` n'est pas reconnu |
+| `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'email. L'email est utilisé dans le cas d'une demande d'envoi de ticket. |
+| `payment.type`                         | Type de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. | 
+
 **Fonctionnalité prévue :** Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, écrivez à info@svitex.com.
 
 ## Envoyer les commandes

@@ -47,9 +47,9 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 Il est conseillé de donner à l'éditeur du logiciel Nestor les droits nécessaires pour vous venir en aide en cas de besoin. Pour cela, suivez les étapes suivantes depuis votre espace HubRise :
 
-1. Dans le menu de gauche, sélectionnez **SETTINGS** > **ACCOUNTS**. La liste de vos comptes s'affiche.
+1. Dans le menu de gauche, sélectionnez **CONFIGURATION** > **COMPTES**. La liste de vos comptes s'affiche.
 1. Sélectionnez le compte auquel votre point de vente est rattaché.
-1. Dans l'espace **Locations**, sélectionnez votre point de vente.
+1. Dans l'espace **Points de vente**, sélectionnez votre point de vente.
 1. Dans l'espace **Permissions**, ajoutez *info@svitex.com* en sélectionnant l'option **Manager** (et non **Admin**) dans la liste déroulante des rôles, puis cliquez sur l'icône *+*. L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente, le partage de mot de passe est déconseillé pour des raisons de sécurité.
 
 ## Se déconnecter

@@ -17,7 +17,7 @@ Le catalogue est exporté automatiquement vers HubRise dans les deux cas suivant
 
 Il n'est pas possible d'exporter manuellement le catalogue.
 
-Les produits que vous créez ou modifiez dans votre catalogue ne sont pas automatiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
+Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systématiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
 1. Sélectionnez **Gestion** dans la barre de menu. 
 1. Survolez l'option **Articles**, et sélectionnez **Fiche articles**.
 1. Sélectionnez le produit à synchroniser.
