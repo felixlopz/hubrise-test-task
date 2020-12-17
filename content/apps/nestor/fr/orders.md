@@ -64,13 +64,18 @@ Vous pouvez retrouver toutes vos commandes en suivant les étapes suivantes.
 
 **Interprétation technique**
 
-| Nom du champ                           | Définition                                                |
-| -------------------------------------- | --------------------------------------------------------- |
-| `service_type`                         | Type de service (`service_type_ref` non utilisé)          |
-| `expected_time`                        | Heure et date auxquelles la commande sera prête ou livrée |
-| `item.sku_ref`                         | Code ref du produit                                       |
+Voici comment les champs d'une commande HubRise sont utilisés dans Nestor :
+
+| Nom du champ HubRise                   | Utilisation dans Nestor                                                    |
+| -------------------------------------- | -------------------------------------------------------------------------- |
+| `service_type`                         | Permet de savoir si la commande est en livraison, sur place, ou à emporter |
+| `service_type_ref`                     | Non utilisé                                                                |
+| `expected_time`                        | Heure et date auxquelles la commande sera prête ou livrée                  |
+| `item.sku_ref`                         | Code permettant de retrouver l'article dans le catalogue                   |
 | `item.price`                           | Prix du produit. Si celui-ci est différent de celui du catalogue Nestor, le pourcentage du champ *Remise* est complété en fonction. |
 | `item.product_name` et `item.sku_name` | Champs utilisés pour remplir la description d'un article inconnu si le `item.sku_ref` n'est pas reconnu |
+| `discounts`                            | Liste des offres promotionnelles                                           |
+| `deals`                                | Liste des menus, considérés comme des articles dans la commande            |
 | `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'email. L'email est utilisé dans le cas d'une demande d'envoi de ticket. |
 | `payment.type`                         | Type de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. | 
 
