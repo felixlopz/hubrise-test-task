@@ -16,7 +16,7 @@ Pour établir la connexion entre un point de vente Kezia II et HubRise, vous dev
 1. Cliquez sur le menu **Hubrise** dans la barre de menu. Une fenêtre nommée **Kezia II/HubRise** s'ouvre.
 1. Cliquez sur **Connexion à HubRise**. Vous êtes redirigés vers l'interface HubRise.
 1. Choisissez le point de vente que vous désirez connecter et cliquez sur **Autoriser** pour donner à Kezia II l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, cliquez sur **Suivant** afin d'afficher les listes déroulantes correspondantes avant de cliquer sur **Autoriser**.
-   ![Connexion à HubRise - Choix du point de vente](../images/002-fr-jdc-page-autorisation.png.png)
+   ![Connexion à HubRise - Choix du point de vente](../images/002-fr-jdc-page-autorisation.png)
 1. Copiez le code affiché et collez-le dans la fenêtre **Kezia II/HubRise** dans Kezia II.
    ![Connexion à HubRise - Affichage du code](../images/003-fr-jdc-page-token.png)
 1. Cliquez sur **OK**. La fenêtre de configuration affiche **Connecté à HubRise**, ainsi que toutes les informations de votre point de vente. Le bouton **Compte HubRise** permt d'accéder au tableau de bord HubRise. Un autre onglet **E/S** (*Entrée/Sortie*) apparaît et permet de transmettre les données manuellement entre Kezia II et HubRise.
