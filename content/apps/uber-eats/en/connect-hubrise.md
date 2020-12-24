@@ -15,11 +15,12 @@ As a first step, the HubRise integration must be enabled on your Uber Eats accou
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
 
-- The URL link of your Uber Eats store you wish to connect. For example: [https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA](https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA).
+- The URL link of the Uber Eats store you wish to connect. For example: [https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA](https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA).
 - Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
 - The order acceptance mode you want to use for your store: manual accept or offered state mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+- The service provided by Uber Eats, with or without delivery. 
 
-Within one business day, we will send you the Uber Eats Store UUID needed for the next step.
+Within one business day, Uber Eats will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
 
 ## 2. Connect the Bridge
 
