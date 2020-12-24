@@ -20,7 +20,7 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 - The order acceptance mode you want to use for your store: manual accept or offered state mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 - The service provided by Uber Eats, with or without delivery. 
 
-Within one business day, Uber Eats will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
+With this information in hand, the Uber Eats integration team will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
 
 ## 2. Connect the Bridge
 
