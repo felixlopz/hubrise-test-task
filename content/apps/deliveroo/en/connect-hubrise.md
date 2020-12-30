@@ -17,15 +17,15 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 
 - The URL link of the Deliveroo store you wish to connect. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
 - The Deliveroo Location ID of the store. For more details, see our FAQ: [How Do I Find My Deliveroo Location ID](/apps/deliveroo/faqs/find-deliveroo-location-id).
-- The email address you use to login the Deliveroo back office.
+- The email address you use to log in to the Deliveroo back office.
 - The email address of your Deliveroo account manager.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 
-With this information in hand, the Deliveroo integration team will enable the HubRise connection for your store. Connections are done on Tuesdays and Thursdays only.
+With this information in hand, the Deliveroo integration team will enable the HubRise connection for your store. New connections are approved on Tuesdays and Thursdays only.
 
 -----
 
-**IMPORTANT NOTE: Deliveroo will not enable the HubRise connection if product ref codes have not been informed. For details, see [Map Ref Codes](https://www.hubrise.com/apps/deliveroo/map-ref-codes/).
+**IMPORTANT NOTE:** Deliveroo will not enable the HubRise connection if some product ref codes are missing. For details, see [Map Ref Codes](/apps/deliveroo/map-ref-codes/).
 
 -----
 
