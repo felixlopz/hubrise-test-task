@@ -9,7 +9,13 @@ meta:
 
 Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, when you create your menu on Deliveroo, you need to make sure that each product is assigned to the correct ref code.
 
-To assign ref codes to your Deliveroo products, follow these steps:
+---
+
+**IMPORTANT NOTE:** If you do not assign a ref code to all your products, Deliveroo will not process the order correctly and this will not be received in your EPOS. For more information, see [Why Are My Orders Not Received on HubRise](/apps/deliveroo/faqs/orders-not-received-missing-ref-codes).
+
+---
+
+To assign ref codes to your Deliveroo products with the Menu Manager tool in Deliveroo back office, follow these steps:
 
 1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net/).
 1. From the menu on the left, select **Menus**.
@@ -23,6 +29,6 @@ To assign ref codes to your Deliveroo products, follow these steps:
 
 ---
 
-**IMPORTANT NOTE:** Assigning ref codes to products manually is not possible if your Deliveroo account is configured to update ref codes via API. If you suspect tthat ref codes cannot be manually entered in the Deliveroo back office, contact support@deliveroo.co.uk.
+**IMPORTANT NOTE:** Assigning ref codes to products manually from the Menu Manager tool in Deliveroo back office is not possible if your Deliveroo account is configured to update ref codes via Menu API. To switch to Menu Manager and activate the PLU field for the products in your Deliveroo back office, contact support@deliveroo.co.uk.
 
 ---
