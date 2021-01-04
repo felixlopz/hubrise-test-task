@@ -23,6 +23,6 @@ To assign ref codes to your Deliveroo products, follow these steps:
 
 ---
 
-**IMPORTANT NOTE:** Assigning ref codes to products manually is not possible if your Deliveroo account is configured to update ref codes via API. For more information about uploading ref codes, contact support@deliveroo.co.uk.
+**IMPORTANT NOTE:** Assigning ref codes to products manually is not possible if your Deliveroo account is configured to update ref codes via API. If you suspect tthat ref codes cannot be manually entered in the Deliveroo back office, contact support@deliveroo.co.uk.
 
 ---
