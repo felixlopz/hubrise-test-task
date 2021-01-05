@@ -27,6 +27,8 @@ To connect a new app to your HubRise Account:
 4. Select the app you want to install.
 5. Follow the instructions for the specific app. When installing a new app, you will be required to grant the app access to your HubRise Account.
 
+If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
+
 ## Open An App
 
 Some apps can be accessed from HubRise. If so, you can open the app by clicking on **CONNECTIONS** and selecting **Open** for the specific app. The app will open in a new browser window.
