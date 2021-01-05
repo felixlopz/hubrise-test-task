@@ -8,4 +8,5 @@ meta:
 ---
 
 - <Link to="/apps/deliveroo/faqs/find-deliveroo-location-id/">How Do I Find My Deliveroo Location ID?</Link>
+- <Link to="/apps/deliveroo/faqs/orders-not-received-missing-ref-codes/">Why Are My Orders Not Received on HubRise?</Link>
 - <Link to="/apps/deliveroo/faqs/connecting-multiple-instances-deliveroo/">Can I Connect Multiple Deliveroo Stores to the Same HubRise Location?</Link>
