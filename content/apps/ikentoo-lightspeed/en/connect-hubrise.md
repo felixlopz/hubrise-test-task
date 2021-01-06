@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Connect iKentoo with HubRise
-  description:
+  description: See how to connect your iKentoo EPOS to HubRise to receive orders from all your connected apps. Connection is simple.
 ---
 
 ## Prerequisites

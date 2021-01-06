@@ -14,7 +14,7 @@ app_info:
   availability: Worldwide
   price_range: Included in your HubRise subscription
   website: https://www.ikentoo.com
-  contact:
+  contact: k-series.support@lightspeedhq.com
 ---
 
 ## Description

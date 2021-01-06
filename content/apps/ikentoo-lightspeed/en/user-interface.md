@@ -1,5 +1,5 @@
 ---
-title: User Interface Walkthrough
+title: User Interface
 position: 3
 layout: documentation
 meta:

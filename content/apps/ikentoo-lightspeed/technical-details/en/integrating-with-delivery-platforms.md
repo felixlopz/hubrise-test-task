@@ -1,6 +1,6 @@
 ---
 title: Integrating with Delivery Platforms
-position: 1
+position: 2
 layout: documentation
 meta:
   title: Connect iKentoo to HubRise - Receiving Orders from Delivery Platforms
@@ -20,21 +20,22 @@ To learn how to view and modify the configuration page for Deliveroo Bridge, see
 
 **Service type**
 
-- Fulfillment by Deliveroo ref code: DVAP
-- Fulfillment by restaurant (Deliveroo M+) ref code: DVMD
-- Customer collection (Deliveroo Pickup) ref code: DVMTA
+- Fulfillment by Deliveroo ref code: `DVAP`
+- Fulfillment by restaurant (Deliveroo M+) ref code: `DVMD`
+- Customer collection (Deliveroo Pickup) ref code: `DVMTA`
 
 **Delivery charges**
 
-- Delivery charge ref code: DELD77
+- Delivery charge ref code: `DELD77`
 
 **Payment methods**
 
-- Deliveroo payment ref code: DVPM
+- Deliveroo payment ref code: `DVPM`
+- Deliveroo M+ payment ref code: `DVMPM`
 
 **Discounts**
 
-- Deliveroo discount ref code: DELD99
+- Deliveroo discount ref code: `DELD99`
 
 ## Uber Eats
 
@@ -45,19 +46,19 @@ To learn how to view and modify the configuration page for Uber Eats Bridge, see
 
 **Service type**
 
-- Fulfillment by Uber Eats ref code: UEAP
+- Fulfillment by Uber Eats ref code: `UEAP`
 - Fulfillment by restaurant (BYOC - Bring Your Own Courier) ref code:
 - Customer collection ref code:
 - Dine-in ref code:
 
 **Delivery charges**
 
-- Delivery charge ref code: UE77
+- Delivery charge ref code: `UE77`
 
 **Payment methods**
 
-- Uber Eats payment ref code: UEPM
+- Uber Eats payment ref code: `UEPM`
 
 **Discounts**
 
-- Uber Eats discount ref code: UE99
+- Uber Eats discount ref code: `UE99`
