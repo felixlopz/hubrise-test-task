@@ -4,7 +4,7 @@ title: Aperçu
 layout: documentation
 meta:
   title: Aperçu - Nestor
-  description: Le logiciel de caisse Nestor : aperçu général et fonctionnalités de l'intégration avec HubRise.
+  description: "Le logiciel de caisse Nestor : aperçu général et fonctionnalités de l'intégration avec HubRise."
 gallery:
 path_override: /
 app_info:
