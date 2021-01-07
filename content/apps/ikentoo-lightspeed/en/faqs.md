@@ -3,7 +3,7 @@ title: FAQs
 position: 7
 layout: documentation
 meta:
-  title: iKentoo Connection to HubRise - FAQs
+  title: FAQs - iKentoo by Lightspeed
   description: Frequently asked questions and answers about the iKentoo integration with HubRise.
 ---
 

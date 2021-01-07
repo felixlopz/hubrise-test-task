@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 4
 layout: documentation
 meta:
-  title: Mapping the iKentoo EPOS Ref Codes on HubRise
-  description:
+  title: Map ref codes - iKentoo by Lightspeed
+  description: How to find ref codes in iKentoo.
 ---
 
 ## Menu Setup

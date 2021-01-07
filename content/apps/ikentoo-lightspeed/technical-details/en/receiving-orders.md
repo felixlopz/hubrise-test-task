@@ -3,7 +3,7 @@ title: Receiving Orders
 position: 1
 layout: documentation
 meta:
-  title: Connect iKentoo to HubRise - Receiving Orders
+  title: Receiving Orders - iKentoo by Lightspeed
   description: Find out the technical details of how orders are sent to iKentoo from HubRise, which fields are passed and which are not.
 ---
 

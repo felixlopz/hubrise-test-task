@@ -3,8 +3,8 @@ title: Why Are Some Orders Not Received Correctly on iKentoo?
 position: 1
 layout: documentation
 meta:
-  title: Connect iKentoo to HubRise - Troubleshooting Failed Orders
-  description: Description of the typical reasons why orders are not correctly sent to iKentoo, some troubleshooting strategies and how to fix the issues.
+  title: Troubleshooting Failed Orders - iKentoo by Lightspeed
+  description: Typical reasons why orders are not correctly sent to iKentoo, some troubleshooting strategies and how to fix the issues.
 ---
 
 There might be different reasons why an order is not successfully transferred to your iKentoo EPOS. In this page, we discuss some of the typical cases.

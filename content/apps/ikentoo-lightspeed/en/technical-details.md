@@ -3,7 +3,7 @@ title: Technical Details
 position: 8
 layout: documentation
 meta:
-  title: iKentoo Connection to HubRise - Technical Details
+  title: Technical Details - iKentoo by Lightspeed
   description: Technical details and advanced information about the iKentoo integration with HubRise.
 ---
 
