@@ -1,26 +1,34 @@
 ---
-title: Trouver les codes ref
-position: 5
+title: Associer les codes ref
+position: 3
 layout: documentation
 meta:
-  title: Connexion entre Nestor et HubRise - Trouver les codes ref
-  description: Apprenez comment trouver les codes ref de vos produits sur Nestor. Lancez l'application et suivez ces instructions.
+  title: Associer les codes ref - Nestor
+  description: Exporter un catalogue Nestor vers HubRise, et retrouver les codes ref des articles.
 ---
 
-Après avoir connecté votre logiciel de caisse Nestor à votre compte HubRise, vous pouvez synchroniser leurs données. Pour cela, certaines étapes doivent être entreprises. Les différents éléments présents dans Nestor sont identifiés par des codes uniques. Quand vous mettez en place la connexion entre HubRise et d'autres applications, vous devez fournir ces codes.
+Une fois votre logiciel de caisse Nestor connecté à HubRise, une dernière étape de configuration est nécessaire. Les différents éléments présents dans Nestor sont identifiés par des codes ref. Vous devez indiquer ces codes ref dans les applications connectées à HubRise, afin que les commandes puissent être réceptionnées dans Nestor.
+
+Il y a deux façons de procéder :
+- Exporter le catalogue Nestor vers HubRise, puis importer ce catalogue dans les applications connectées qui le permettent.
+- Saisir manuellement les codes ref.
+
+Ces deux méthodes sont parfois complémentaires. Seules certaines applications connectées permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
+
+Cette page explique comment exporter un catalogue et trouver les codes ref depuis Nestor. Pour plus d'informations sur l'import d'un catalogue et la saisie des codes ref dans une application connectée, référez-vous à la documentation de l'application sur le site de HubRise.   
 
 ## Exporter le catalogue
 
-Le catalogue est exporté automatiquement vers HubRise dans les deux cas suivants :
+Nestor exporte le catalogue vers HubRise dans les deux cas suivants :
 - Lorsque la connexion est établie.
 - Lorsque le catalogue est modifié.
 
 Il n'est pas possible d'exporter manuellement le catalogue.
 
-Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systématiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
-1. Sélectionnez **Gestion** dans la barre de menu. 
+Tous les articles créés dans Nestor ne sont pas systématiquement exportés vers HubRise. Pour activer la synchronisation d'un article particulier, suivez les étapes suivantes :
+1. Dans la barre de menu de Nestor, sélectionnez **Gestion**. 
 1. Survolez l'option **Articles**, et sélectionnez **Fiche articles**.
-1. Sélectionnez le produit à synchroniser.
+1. Sélectionnez l'article à synchroniser.
 1. Naviguez vers l'onglet **Déclinaison**.
 1. Cochez l'option **Publier sur internet**.
 1. Validez la modification.
@@ -28,15 +36,15 @@ Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systé
 
 ## SKUs
 
-Une SKU (*Stock Keeping Unit*) dans HubRise est un produit Nestor dans une déclinaison donnée. Par exemple, le produit *Margarita* en déclinaison *Grande* correspond à la SKU *Margarita Grande*.
+Une SKU (*Stock Keeping Unit*) dans HubRise est un article Nestor dans une déclinaison donnée. Par exemple, l'article *Margarita* en déclinaison *Grande* correspond à la SKU *Margarita Grande*.
 
-Pour retrouver le code ref d'un SKU, deux cas peuvent se présenter selon que le produit a des déclinaisons ou non.
+Pour retrouver le code ref d'un SKU, deux cas peuvent se présenter selon que l'article a des déclinaisons ou non.
 
 ### Articles sans déclinaison
 
-1. Sélectionnez **Gestion** dans la barre de menu.
+1. Dans la barre de menu de Nestor, sélectionnez **Gestion**.
 1. Survolez l'option **Articles**, et sélectionnez **Fiche articles**.
-1. Sélectionnez le produit désiré. Dans l'onglet **Article**, le code ref de la SKU s'affiche dans le champ **Code**.
+1. Sélectionnez l'article désiré. Dans l'onglet **Article**, le code ref de la SKU s'affiche dans le champ **Code**.
    ![Codes ref - Articles sans déclinaison](../images/006-fr-nestor-code-article.png)
 
 ### Articles avec déclinaisons
@@ -55,7 +63,7 @@ Pour retrouver le code ref d'un SKU, deux cas peuvent se présenter selon que le
 Les options dans HubRise correspondent aux ingrédients dans Nestor.
 
 Pour retrouver le code ref d'une option, suivez les étapes suivantes :
-1. Sélectionnez **Gestion** dans la barre de menu.
+1. Dans la barre de menu de Nestor, Sélectionnez **Gestion**.
 1. Survolez l'option **Ingrédients**, et sélectionnez **Fiche ingrédients**.
 1. Sélectionnez l'option désirée. Dans l'onglet **Ingrédient**, le code ref s'affiche dans le champ **Code**.
    ![Codes ref - Options](../images/008-fr-nestor-code-ingredient.png)
@@ -65,14 +73,14 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 Les remises dans HubRise correspondent aux offres promotionnelles dans Nestor. Celles-ci ne sont pas encore remontées dans l'export de catalogue vers HubRise, cette fonctionnalité est en cours de développement et sera disponible très prochainement. Vous pouvez néanmoins créer manuellement des remises dans votre système de commande, puis renseigner leur code ref en suivant la procédure ci-dessous.
 
 Pour retrouver le code ref d'une remise, suivez les étapes suivantes :
-1. Sélectionnez **Gestion** dans la barre de menu.
+1. Dans la barre de menu de Nestor, Sélectionnez **Gestion**.
 1. Sélectionnez **Offres promotionnelles**.
 1. Sélectionnez la remise désirée. Dans l'onglet **Générale**, le code ref s'affiche dans le champ **Code**.
    ![Codes ref - Remises](../images/009-fr-nestor-code-offre-promotionnelle.png)
 
 ## Promotions
 
-Les promotions dans HubRise correspondent aux menus dans Nestor. Pour retrouver le code ref d'un menu, suivez les mêmes étapes que pour un [produit sans déclinaison](/apps/nestor/map-ref-codes#produits-sans-d-clinaison). Dans Nestor, un menu est considéré comme un article dont l'option **Est un menu**, dans l'onglet **Déclinaison**, est cochée.
+Les promotions dans HubRise correspondent aux menus dans Nestor. Pour retrouver le code ref d'un menu, suivez les mêmes étapes que pour un [article sans déclinaison](/apps/nestor/associer-codes-ref#articles-sans-d-clinaison). Dans Nestor, un menu est considéré comme un article dont l'option **Est un menu**, dans l'onglet **Déclinaison**, est cochée.
    ![Codes ref - Promotions](../images/010-fr-nestor-est-un-menu.png)
 
 ## Méthodes de paiement

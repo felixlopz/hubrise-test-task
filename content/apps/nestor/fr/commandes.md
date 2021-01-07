@@ -3,15 +3,15 @@ title: Commandes
 position: 4
 layout: documentation
 meta:
-  title: Connexion entre Nestor et HubRise - Recevoir les commandes depuis HubRise
-  description: Apprenez à gérer les commandes reçues depuis HubRise dans Nestor. Lancez l'application et suivez ces instructions.
+  title: Recevoir les commandes HubRise - Nestor
+  description: Réceptionner et modifier le statut des commandes HubRise reçues dans Nestor.
 ---
 
-À partir du moment où Nestor est connecté à HubRise et le catalogue est synchronisé, plus aucune action n'est requise de votre part. Votre logiciel de caisse va recevoir automatiquement toutes les commandes envoyées à HubRise depuis d'autres applications.
+Lorsque Nestor est connecté à HubRise et que le catalogue est synchronisé, aucune action supplémentaire n'est requise de votre part. Votre logiciel de caisse reçoit automatiquement toutes les commandes envoyées à HubRise depuis les autres applications connectées.
 
 ## Recevoir des commandes
 
-Nestor vérifie toutes les 20 secondes grâce à l'utilitaire WebNES si de nouvelles commandes ont été envoyées à HubRise. Une alerte visuelle et sonore vous signale l'arrivée d'une nouvelle commande dans Nestor.
+Nestor vérifie toutes les 20 secondes grâce à l'utilitaire WebNES si de nouvelles commandes ont été envoyées à HubRise. Une alerte visuelle et sonore signale l'arrivée d'une nouvelle commande dans Nestor.
    ![Commandes - Alerte commande web](../images/012-fr-nestor-alerte-commande.png)
 
 Pour voir la liste des commandes en attente, cliquez sur l'alerte. Pour voir le détail de la commande et la valider, cliquez sur la ligne correspondante.
@@ -27,37 +27,39 @@ Dans le cas où une commande contient des produits dont le code ref n'est pas re
 1. Supprimez la ligne **Article inconnu** désormais remplacée.
    ![Commandes - Commande sans article inconnu](../images/015-fr-nestor-commande-validable.png)
 1. Répétez ces étapes pour chaque ligne **Article inconnu**.
-1. Lorsque toutes ces lignes sont supprimées, validez la commande.
+1. Validez la commande.
 
-Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les articles inconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/nestor/map-ref-codes).
+Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les articles inconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Associer les codes ref](/apps/nestor/associer-codes-ref).
 
 ### Produits avec des prix différents
 
-Dans le cas où une commande contient des produits dont le prix est différent de celui sauvegardé dans le catalogue de Nestor, il leur est attribué une remise en pourcentage. Par exemple, si une *Margarita Grande* à 11 euros est commandée et que ce produit est à 12 euros dans le catalogue de Nestor, un champ *Remise* égal à 91,67 sera présent dans le détail de la commande et le montant à régler sera de 11 euros.
+Lorsqu'une commande contient des produits dont le prix est différent de celui renseigné dans le catalogue de Nestor, il leur est attribué une remise en pourcentage.
+
+Par exemple, si une *Margarita Grande* est à 11.00 € dans la commande, mais que son prix est 12.00 € dans le catalogue Nestor, un champ *Remise* égal à 91,67% sera indiqué dans le détail de la commande.
    ![Commandes - Produit avec remise](../images/018-fr-nestor-remise.png)
 
 ### Enregistrement d'un client
 
-Lorsque le client qui a créé une commande n'est pas connu de Nestor, une étape d'association du client apparaît avant celle de validation de la commande. Deux choix s'offrent alors à vous :
+Si le client qui a passé la commande n'est pas connu de Nestor, une étape d'association du client apparaît avant celle de validation de la commande. Deux choix sont alors proposés :
 - Créer un nouveau client.
 - Le rattacher à un client connu de Nestor. Dans ce cas, les informations du client seront écrasées par celles provenant d'HubRise.
 
-Lors de cette étape, il vous est demandé de faire le même choix concernant l'adresse.
+Lors de cette étape, les même choix sont proposés pour l'adresse.
    ![Commandes - Associer client et adresse](../images/016-fr-nestor-associer-client-adresse.png)
 
 ### Statut de la commande
 
-Une commande a plusieurs statuts au cours de son cycle de vie :
-1. *New* lorsqu'elle vient d'être créée.
+Le statut de la commande dans HubRise évolue selon les actions effectuées dans Nestor.
+1. *New* lorsque la commande vient d'être créée.
 1. *Received* lorsqu'elle a été reçue dans Nestor.
 1. *Accepted* lorsqu'elle a été validée.
 
-Après validation de la commande, la mise à jour du statut dans HubRise peut prendre jusqu'à 20 secondes.
+La mise à jour du statut dans HubRise peut prendre jusqu'à 20 secondes.
 
 ### Détails de la commande
 
 Vous pouvez retrouver toutes vos commandes en suivant les étapes suivantes.
-1. Sélectionnez **Actions** dans la barre de menu.
+1. Dans la barre de menu Nestor, sélectionnez **Actions**.
 1. Sélectionnez l'option **Carnet de commandes**. La fenêtre des commandes s'ouvre.
 1. Sélectionnez l'onglet correspondant au type de commande que vous souhaitez visualiser : *En cours*, *Web*, *Annulées*, *Différées*, *Tickets / Factures*.
 1. Double-cliquez sur la ligne correspondant à la commande désirée. La fenêtre détaillant ses informations s'ouvre.
@@ -80,7 +82,7 @@ Voici comment les champs d'une commande HubRise sont utilisés dans Nestor :
 | `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'email. L'email est utilisé dans le cas d'une demande d'envoi de ticket. |
 | `payment.type`                         | Moyen de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. | 
 
-**Fonctionnalité prévue :** Il n'est pour l'instant pas possible de savoir de quelle application (LivePepper, Uber Eats, etc.) provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, écrivez à info@svitex.com.
+**Fonctionnalité prévue :** Il n'est pour l'instant pas possible de connaître l'app dont provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, contactez l'éditeur de Nestor.
 
 ## Envoyer les commandes
 
@@ -93,7 +95,7 @@ Nestor permet de configurer les temps de préparation, dont la valeur par défau
 - À emporter (*E*).
 - Sur place (*P*).
 
-Notez que HubRise ne prend en compte que le temps de livraison, ce qui explique que seul le champ `delivery.door_time` ne soit envoyé dans la requête de mise à jour vers HubRise.
+Lorsque vous modifiez le temps de préparation en livraison, l'information est remontée vers HubRise. Les deux autres temps de préparation ne sont pas synchronisés, ce qui explique que seul le champ `delivery.door_time` soit envoyé dans la requête de mise à jour vers HubRise.
 
 Pour accéder à ce panneau de configuration, sélectionnez le bouton avec un icône en forme d'horloge en bas à gauche de Nestor.
    ![Commandes - Configurer temps de préparation](../images/017-fr-nestor-configurer-temps.png)
