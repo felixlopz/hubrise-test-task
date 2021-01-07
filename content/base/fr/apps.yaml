@@ -167,7 +167,7 @@ content:
           logo: my-lemonade.png
           title: My Lemonade
           description:  My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
-          additional_info:
+          additional_info: Documentation en anglais.
         - website: https://obypay.com/
           documentation:
           logo: obypay.png
@@ -195,7 +195,7 @@ content:
           logo: woocommerce.png
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
-          additional_info: Intégration en cours. Documentation en anglais.
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: http://www.y-proximite.fr
           documentation:
           logo: yproximite.png
