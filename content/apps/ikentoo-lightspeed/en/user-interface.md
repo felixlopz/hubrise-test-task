@@ -1,15 +1,15 @@
 ---
-title: User Interface Walkthrough
+title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: User Interface Guide for the HubRise iKentoo Bridge
-  description: Informs users on how navigate through the iKentoo Bridge created by HubRise to connect the iKentoo EPOS solution to HubRise.
+  title: User Interface - iKentoo by Lightspeed
+  description: How to navigate through the iKentoo Bridge user interface.
 ---
 
-The user interface for the iKentoo Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
+The user interface for iKentoo Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
 
-### Main page
+## Main Page
 
 The main page of iKentoo Bridge displays the latest operations. Each row shows:
 
@@ -28,9 +28,9 @@ On the top right corner of the iKentoo Bridge main page, the HubRise user and lo
 
 ![Main page](../images/003-en-2x-main-page-truncated.png)
 
-### Operation page
+## Operation Page
 
-Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the iKentoo EPOS via the iKentoo Bridge.
+Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the iKentoo EPOS via iKentoo Bridge.
 
 Requests are ordered with the latest on top, and each of them displays the following information:
 
@@ -41,7 +41,7 @@ Requests are ordered with the latest on top, and each of them displays the follo
 
 ![Order page](../images/005-en-2x-operations-page.png)
 
-## Configuration page
+## Configuration Page
 
 In the **Configuration page**, it is possible to change the iKentoo business location associated with the HubRise location.
 

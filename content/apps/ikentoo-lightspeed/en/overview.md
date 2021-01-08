@@ -3,8 +3,8 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: HubRise iKentoo Bridge Overview
-  description: Details the use and functionality of the iKentoo Bridge.
+  title: Overview  - iKentoo by Lightspeed
+  description: 'iKentoo by LightSpeed EPOS: overview and HubRise integration features.'
 gallery:
   - 004-en-2x-main-page.png
   - 005-en-2x-operations-page.png
@@ -12,14 +12,16 @@ path_override: /
 app_info:
   category: Point of Sales
   availability: Worldwide
-  price_range: Included in your HubRise subscription
-  website: https://www.ikentoo.com
-  contact:
+  price_range: iKentoo Bridge is included in your HubRise subscription. Contact Lightspeed to enquire about iKentoo pricing.
+  website: https://www.lightspeedhq.co.uk
+  contact: k-series.support@lightspeedhq.com
 ---
 
 ## Description
 
 iKentoo Bridge is an app developed by HubRise that allows the communication between HubRise and the iKentoo EPOS.
+
+iKentoo is now **Lightspeed K-Series**. For more information, read the [announcement on Lightspeed blog](https://www.lightspeedhq.co.uk/blog/lightspeed-restaurant-k-series/).
 
 ## Integration features
 
