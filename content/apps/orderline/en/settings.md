@@ -72,7 +72,7 @@ When an Order is set to a specified Status, OrderLine can prompt the user for an
 
 ---
 
-**IMPORTANT NOTE**: OrderLine does not send out emails or updates to clients directly. These are sent by your online ordering solution under two conditions:
+**IMPORTANT NOTE:** OrderLine does not send out emails or updates to clients directly. These are sent by your online ordering solution under two conditions:
 Your online ordering solutions supports customer messaging.
 Customer messaging has been integrated with HubRise.
 Before setting up this feature, check that both of these conditions are met. It is recommended to create a test Order and verify that the updated confirmation time and comments are sent to the client.
@@ -150,7 +150,7 @@ Google Cloud Print allows the automatic printing of an order receipt upon order 
 
 ---
 
-**IMPORTANT NOTE**: Google Cloud Print will no longer be supported as of December 31, 2020.
+**IMPORTANT NOTE:** Google Cloud Print will no longer be supported as of December 31, 2020.
 
 ---
 

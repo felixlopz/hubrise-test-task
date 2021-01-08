@@ -3,8 +3,8 @@ title: Terminology
 position: 6
 layout: documentation
 meta:
-title: Terminology - Zelty
-description: Correspondence table between the terms used by Zelty and those used by HubRise.
+  title: Terminology - Zelty
+  description: Correspondence table between the terms used by Zelty and those used by HubRise.
 ---
 
 HubRise and Zelty each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.

@@ -3,8 +3,8 @@ title: Terminology
 position: 6
 layout: documentation
 meta:
-title: Terminology - Uber Eats
-description: Correspondence table between the terms used by Uber Eats and those used by HubRise.
+  title: Terminology - Uber Eats
+  description: Correspondence table between the terms used by Uber Eats and those used by HubRise.
 ---
 
 HubRise and Uber Eats each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.

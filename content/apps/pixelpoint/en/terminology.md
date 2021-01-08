@@ -3,13 +3,13 @@ title: Terminology
 position: 3
 layout: documentation
 meta:
-title: Terminology - PixelPoint
-description: Correspondence table between the terms used by PixelPoint and those used by HubRise.
+  title: Terminology - PixelPoint
+  description: Correspondence table between the terms used by PixelPoint and those used by HubRise.
 ---
 
 ---
 
-**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
+**IMPORTANT NOTE:** This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
 
 ---
 

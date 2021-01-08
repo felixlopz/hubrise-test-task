@@ -35,11 +35,16 @@ L'intégration de Nestor avec HubRise permet de :
 - Envoyer un catalogue Nestor vers HubRise.
 - Synchroniser le délai de livraison avec HubRise.
 
-Nestor pourra bientôt envoyer les commandes vers HubRise. Pour plus d'informations, contactez l'éditeur Svitex.
+
+---
+
+**NOTE IMPORTANTE :** Nestor pourra bientôt envoyer les commandes vers HubRise. Pour plus d'informations, contactez l'éditeur Svitex.
+
+---
 
 ## Pourquoi se connecter ?
 
-En connectant Nestor à HubRise, vous recevrez les commandes de votre site Internet et de vos plateformes de livraison (dont Deliveroo et Uber Eats) dans Nestor. Vous pourrez également connecter les applications intégrées à HubRise que vous utilisez de manière quotidienne. Pour voir les applications vous pouvez connecter, consultez la [liste des apps intégrées](/apps).
+En connectant Nestor à HubRise, vous recevrez les commandes de votre site Internet et de vos plateformes de livraison (dont Deliveroo et Uber Eats) dans Nestor. Vous pourrez également connecter les applications intégrées à HubRise que vous utilisez de manière quotidienne. Pour voir les applications vous pouvez connecter, consultez la [page Apps](/apps).
 
 
 ## Prérequis
