@@ -7,7 +7,13 @@ meta:
   description: Guidelines to include screenshots in the HubRise documentation.
 ---
 
-## Referring to the screenshot
+## General Recommendations
+
+For website screenshots,  always resize your browser width to 1200px before taking the capture.
+
+Screenshots should ideally be taken on 4K High Definition screens.
+
+## Referring to a screenshot
 
 Screenshots should be placed after the first descriptive text in a section.
 
@@ -19,15 +25,9 @@ Placing a screenshot or animated GIF may be accompanied by "_This example demons
 
 When working on a document, store source images in the **Screenshots** folder of the corresponding app in the Drive.
 
-Screenshots should always be taken in both English and French when applicable. Follow the image file naming convention and add [screenshot] at the very beginning of the file name. For more information see [Image Naming Convention](#image-naming-convention).
+Screenshots should always be taken in both English and French when applicable. Follow the image file naming convention and add [screenshot] at the very beginning of the file name. For more information see [Image Naming Convention](#naming-convention).
 
-## Image Shooting
-
-Screenshots should ideally be taken on 4K High Definition screens. The width of the website screenshots are being taken on should be reduced to 1200px.
-
-It is not necessary to scale the image in GIMP, Photoshop or other image editors.
-
-## Image Naming Convention
+## Naming Convention
 
 Use the following naming convention: `[000]-[en]-2x-[description].[extension]`:
 

@@ -26,9 +26,9 @@ If the contrast between the colours are too high, a lighter shade or lower opaci
 
 ![Example of a diagram with colours](../images/006-en-diagram-use-with-colours.png)
 
-## Diagram Naming Convention
+## Naming Convention
 
-File naming convention for diagrams follow the exact same logic as images. To know how to name video files you create, refer to the screenshooting guide [Image Naming Convention](#image-naming-convention) section.
+File naming convention for diagrams follow the exact same logic as images. For more information, see [Image Naming Convention](/contributing/screenshots-guide/#naming-convention).
 
 ## Icons
 

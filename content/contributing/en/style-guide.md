@@ -321,7 +321,7 @@ Section headings should be marked with the appropriate heading style. In the hie
 ## File name
 
 Files should be given a contextual name written in lower case. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
-For image, video or diagram file names, see [Image file names](/contributing/screenshots-guide/#image-naming-convention).
+For image, video or diagram file names, see [Image file names](/contributing/screenshots-guide/#naming-convention).
 
 ## Meta Title and Description
 
