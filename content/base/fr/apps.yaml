@@ -177,7 +177,7 @@ content:
           documentation:
           logo: prestashop.png
           title: PrestaShop
-          description: PrestaShop est une solution open source de création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop peut être hébergé ou fonctionner sur votre propre serveur. PrestaShop peut être personnalisé pour s'adapter à vos besoins.
+          description: PrestaShop est une solution open source de création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop peut être hébergé ou fonctionner sur votre propre serveur. PrestaShop est personnalisable et s'adapte à vos besoins.
           additional_info: Intégration en cours.
         - website: https://www.restajet.com/
           documentation:
