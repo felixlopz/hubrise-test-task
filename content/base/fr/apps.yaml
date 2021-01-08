@@ -173,11 +173,11 @@ content:
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
-        - website: https://www.shopify.com/
-          documentation: /apps/shopify
-          logo: shopify.png
-          title: Shopify
-          description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.
+        - website: https://www.prestashop.com/fr
+          documentation:
+          logo: prestashop.png
+          title: PrestaShop
+          description: PrestaShop est une solution open source de création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop peut être hébergé ou fonctionner sur votre propre serveur. PrestaShop est personnalisable et s'adapte à vos besoins.
           additional_info: Intégration en cours.
         - website: https://www.restajet.com/
           documentation:
@@ -185,6 +185,18 @@ content:
           title: RestaJet
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://restaurant-internet.com
+          documentation:
+          logo: restaurant-internet.png
+          title: Restaurant-internet
+          description: Restaurant-internet propose un site vitrine avec réservation de table et solution de commande en ligne. La solution couvre en particulier les besoins de la livraison à domicile et la vente à emporter.
+          additional_info:
+        - website: https://www.shopify.com/
+          documentation: /apps/shopify
+          logo: shopify.png
+          title: Shopify
+          description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
+          additional_info:
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
