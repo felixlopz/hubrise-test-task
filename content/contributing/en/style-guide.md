@@ -7,9 +7,7 @@ meta:
   description: Anyone can contribute to the HubRise online documentation. The style guide provides editorial guidelines for anyone contributing to it.
 ---
 
-## Introduction
-
-This style guide provides editorial guidelines for anyone contributing to the HubRise online documentation.
+This guide establishes standard requirements to improve the readability and overall user experience of the HubRise online documentation.
 
 ## General Information
 

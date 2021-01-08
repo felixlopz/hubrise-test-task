@@ -7,9 +7,7 @@ meta:
   description:
 ---
 
-## Introduction
-
-This guide includes useful commands for generating short videos that can be used when contributing the HubRise website.
+This page introduces useful commands for generating short videos that can be used on our website.
 
 ## Recommendations for Videos
 

@@ -7,10 +7,6 @@ meta:
   description: How to contribute diagrams to the HubRise website.
 ---
 
-## Introduction
-
-This guide includes useful guidance and specifications when including diagrams to the HubRise website.
-
 ## Primary Examples
 
 Simple white blocks may be used on a gray background.
