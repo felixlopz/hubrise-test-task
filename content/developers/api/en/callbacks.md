@@ -43,9 +43,21 @@ Active callbacks receive a `POST` HTTP request when an event occurs. The request
 }
 ```
 
-The callback must return a `200` HTTP code to acknowledge the reception of the event. This makes HubRise delete the event.
+The callback must return a `200` HTTP code to acknowledge the reception of the event. This return code makes HubRise delete the event. If the callback fails to acknowledge an event, HubRise attempts to resend it later. In the meantime, unacknowledged events remain accessible through `GET /callback/events`.
 
-If the callback fails to acknowledge, HubRise attempts to resend the events later. In the meantime, unacknowledged events are accessible through `GET /callback/events`.
+For security reasons, we recommend checking authenticity of events. The verification relies on computing the hexadecimal HMAC digest of the event request body. Here is a sample script in Ruby that you can use as a reference: 
+
+```ruby
+require "openssl"
+
+client_secret = "your_client_secret"
+payload = request.raw_body
+
+digest = OpenSSL::Digest.new('sha256')
+calculated_hmac = OpenSSL::HMAC.hexdigest(digest, client_secret, payload)
+```
+
+Compare the calculated HMAC to the value in the `X-HubRise-Hmac-SHA256` header. If they match, then you can be sure that the webhook was sent from HubRise. Otherwise, simply return an error and ignore the event.
 
 ## 1. Callbacks
 
