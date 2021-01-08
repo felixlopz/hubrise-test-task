@@ -25,8 +25,7 @@ If you recently migrated from Deliverect to HubRise, some ref codes in your onli
 
 ## API Activation in the Tablet
 
-To connect with iKentoo, the iKentoo API needs to be activated. You can simply contact iKentoo support and request the activation.
-If you plan to connect iKentoo to food delivery platforms like Deliveroo, Uber Eats, and Just Eat, it is best to specify the platforms you will be connecting with. iKentoo support will prepare the settings to receive this type of orders, too.
+To connect with iKentoo, the iKentoo API needs to be activated. You can simply contact iKentoo support and request the activation. If you plan to connect iKentoo to food delivery platforms like Deliveroo, Uber Eats, and Just Eat, it is best to specify the platforms you will be connecting with. iKentoo support will prepare the settings to receive this type of orders, too.
 
 If after this configuration you are still not able to receive orders in your tablet, you should check if the API connection is enabled on your tablet. On the main screen of the iKentoo app, if you see a green pencil icon <InlineImage width="28" height="28">![Green pencil icon](../../images/011-ikentoo-api-icon.png)</InlineImage> at the top, then your API connection is activated. If that icon is not green, you can simply tap on it and tap the **Enable** button to activate the API.
 

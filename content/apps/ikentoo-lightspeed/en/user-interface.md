@@ -7,7 +7,7 @@ meta:
   description: How to navigate through the iKentoo Bridge user interface.
 ---
 
-The user interface for the iKentoo Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
+The user interface for iKentoo Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
 
 ## Main Page
 
@@ -30,7 +30,7 @@ On the top right corner of the iKentoo Bridge main page, the HubRise user and lo
 
 ## Operation Page
 
-Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the iKentoo EPOS via the iKentoo Bridge.
+Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the iKentoo EPOS via iKentoo Bridge.
 
 Requests are ordered with the latest on top, and each of them displays the following information:
 

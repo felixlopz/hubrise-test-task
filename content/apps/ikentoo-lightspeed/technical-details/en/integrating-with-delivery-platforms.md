@@ -13,10 +13,9 @@ iKentoo uses some predefined codes for service types and payments originated on 
 
 ## Deliveroo
 
-If you want to receive Deliveroo orders in iKentoo, you can use Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+To receive Deliveroo orders in iKentoo, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
 
-To correctly receive your orders, you need to specify the following codes in the Deliveroo Bridge configuration page.
-To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
+To correctly receive your orders, you need to specify the following codes in the Deliveroo Bridge configuration page. To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
 
 **Service type**
 
@@ -39,17 +38,16 @@ To learn how to view and modify the configuration page for Deliveroo Bridge, see
 
 ## Uber Eats
 
-If you want to receive Uber Eats orders in iKentoo, you can use Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Uber Eats orders in iKentoo, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
 
-To correctly receive your orders, you need to specify the following codes in the Uber Eats Bridge configuration page.
-To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
+To correctly receive your orders, you need to specify the following codes in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
 **Service type**
 
 - Fulfillment by Uber Eats ref code: `UEAP`
-- Fulfillment by restaurant (BYOC - Bring Your Own Courier) ref code:
-- Customer collection ref code:
-- Dine-in ref code:
+- Fulfillment by restaurant (BYOC - Bring Your Own Courier) ref code: `[TO BE DONE]`
+- Customer collection ref code: `[TO BE DONE]`
+- Dine-in ref code: `[TO BE DONE]`
 
 **Delivery charges**
 

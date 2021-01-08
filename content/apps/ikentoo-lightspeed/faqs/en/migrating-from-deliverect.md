@@ -7,7 +7,7 @@ meta:
   description: Instructions to migrate from Deliverect to HubRise and receive orders in iKentoo by Lightspeed.
 ---
 
-If you recently migrated from Deliverect to HubRise, you might need to follow these instructions to make sure that your setup works correctly.
+If you recently migrated from Deliverect to HubRise, follow these instructions to make sure that your setup works correctly.
 
 ## Changing Ref Codes on Food Delivery Platforms
 

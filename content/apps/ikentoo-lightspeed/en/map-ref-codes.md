@@ -13,21 +13,21 @@ iKentoo Bridge is a _push-only_ integration. For this reason, menu items must be
 
 ### Finding ref codes
 
-To find ref codes in the iKentoo back-office:
+To find ref codes for specific items:
 
-- Open the **Items** page from the **Configuration** Menu.
-- The ref codes to copy are in the **Code** column:
+- From your iKentoo back office, navigate to **Configuration** > **Items**.
+- The ref codes are in the **Code** column:
   ![](../images/007-en-integration-sku-codes.png)
 
 ### iKentoo Menu Export
 
 The previous section showed you how to find ref codes for each menu item. You may also find useful to export the whole catalog.
 
-- Open the **Items** page from the **Configuration** Menu.
+- From your iKentoo back office, navigate to **Configuration** > **Items**.
 - Click on the **Export** button:
   ![](../images/009-en-export-items.png)
 - In the popup window, choose your operation system type: Mac or Windows (or Manual configuration) and click **Export**.
 - After the export is complete, click on **Click here to download the exported file** to download the CSV file with your menu.
   ![Download items CSV](../images/006-en-2x-download-items.png)
 - Open the downloaded CSV file in Excel or a text editor.
-- The ref codes to copy are in the **SKU** column.
+- The ref codes are in the **SKU** column.

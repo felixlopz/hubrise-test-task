@@ -21,9 +21,9 @@ The `payment_ref` value, that is the ref code of the payment, is used to map the
 
 To verify or edit the ref codes of the payment methods allowed on iKentoo, follow these steps.
 
-- Log it to your iKentoo back office.
+- Log in to your iKentoo back office.
 - Navigate to **Configuration** > **Settings** > **Payment methods**.
-- Verify that all the payment methods supported have the corresponding ref code in the **Code** column.
+- Verify that all supported payment methods have a ref code in the **Code** column.
 - To edit a payment method, click the **Edit** link in the **Actions** column.
 - To add a new payment method, click the **Add a payment method** button at the bottom of the page.
 
