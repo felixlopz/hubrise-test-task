@@ -1,7 +1,7 @@
 .footer-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2em 1em;
+  grid-gap: 2em;
   padding: 4em 0;
 
   &__section {
@@ -28,7 +28,8 @@
   }
 
   &__item {
-    line-height: 1.6;
+    margin-bottom: 0.6em;
+    line-height: 1.2;
   }
 
   &__item-link {
