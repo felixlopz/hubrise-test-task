@@ -1,13 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import {
-  Hero,
-  Main,
-  Demonstration,
-  Faq,
-  CompatibleApps
-} from '../components/pages/frontpage'
+import { Hero, Main } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
@@ -41,35 +35,6 @@ const FrontPage = ({ data, pageContext }) => {
               />
             )
             break
-
-          case 'demonstration':
-            return (
-              <Demonstration
-                videoFile={videos.nodes.find(
-                  ({ base }) => base === block.video
-                )}
-                {...block}
-              />
-            )
-            break
-
-          case 'faq':
-            return <Faq {...block} />
-            break
-
-          case 'compatible_apps':
-            return (
-              <CompatibleApps
-                carouselImages={block.carousel.reduce((result, item) => {
-                  const match = images.nodes.find(
-                    ({ base }) => item.file === base
-                  )
-                  return result.concat(match ? { ...item, ...match } : [])
-                }, [])}
-                {...block}
-              />
-            )
-            break
         }
       })}
     </>
@@ -91,17 +56,6 @@ export const frontPageQuery = graphql`
     ) {
       nodes {
         ...Image
-      }
-    }
-    videos: allFile(
-      filter: {
-        absolutePath: { glob: "**/content/base/images/*" }
-        extension: { regex: "/(mp4)|(webm)/" }
-      }
-    ) {
-      nodes {
-        base
-        publicURL
       }
     }
   }

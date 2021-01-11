@@ -60,36 +60,3 @@ body:
     title: Rejoindre l'écosystème est facile
     description: |
       Pour connecter votre app, démarrez ici : [Documentation développeurs](/developers).
-
-  #  - block_type: demonstration
-#    title: Démonstration
-#    unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
-#    video: coming-soon.mp4
-
-#  - block_type: compatible_apps
-#    title: De nouvelles applications tous les mois
-#    description:
-#      paragraph_1: 'HubRise est connecté avec un nombre croissant de solutions : JDC/Kezia II, Nestor, MyOrderBox, OrderLord...'
-#      paragraph_2: D'autres intégrations sont en cours.
-#      link_1:
-#        text: Voir les applications disponibles
-#        to: /apps
-#      hint_1: (commerçants)
-#      link_2:
-#        text: Connectez votre logiciel à HubRise
-#        to: /developers
-#      hint_2: (développeurs)
-#    carousel:
-#      - file: logo-carousel.jpg
-#        title: '(1) Orderlord: a mobile app to manage your delivery fleet'
-#        description: First slide details.
-#      - file: logo-carousel.jpg
-#        title: '(2) Orderlord: a mobile app to manage your delivery fleet'
-#        description: Second slide details.
-#      - file: logo-carousel.jpg
-#        title: '(3) Orderlord: a mobile app to manage your delivery fleet'
-#        description: Third slide details.
-#      - file: logo-carousel.jpg
-#        title: '(4) Orderlord: a mobile app to manage your delivery fleet'
-#        description: Fourth slide details.
-#    screen_reader_pointer: Current slide
