@@ -3,20 +3,10 @@ meta:
   title: HubRise - Integration for retail and hospitality solutions
   description: HubRise is a developer friendly solution to connect to a growing ecosystem of retail and hospitality solutions with a single integration.
 
-header:
-  hero:
-    title: Integration hub for retail and hospitality solutions
-    description: |
-      HubRise is a developer friendly solution to connect to a multitude of apps with a single integration.
-  signup_form:
-    title: Get Started Now
-    description:
-      paragraph: HubRise is free up to 50 orders per month.
-      link:
-        text: See pricing
-        to: /pricing
-    link_to_pricing: /pricing
-    button: Create your account
+hero:
+  title: Integration for retail and hospitality solutions
+  description: |
+    HubRise is a developer friendly solution to connect to a multitude of apps with a single integration.
 
 body:
   - block_type: main

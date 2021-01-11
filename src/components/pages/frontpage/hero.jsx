@@ -1,11 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import SignupForm from '../../forms/signup'
-import Link from '../../link'
 import { markdownToHtml } from '../../utils'
 
-export const Hero = ({ title, description, signupFormContent }) => {
+export const Hero = ({ title, description }) => {
   return (
     <div className="index-hero">
       <div className="index-hero__container">
@@ -20,25 +18,6 @@ export const Hero = ({ title, description, signupFormContent }) => {
             ></div>
           </div>
         </div>
-
-        <div className="index-hero__form">
-          <div className="index-hero__form-in">
-            <h5 className="index-hero__form-title">
-              {signupFormContent.title}
-            </h5>
-            <p className="index-hero__form-description">
-              <span>{signupFormContent.description.paragraph}</span>
-              {` `}
-              <Link
-                className="index-hero__form-link"
-                to={signupFormContent.description.link.to}
-              >
-                {signupFormContent.description.link.text}
-              </Link>
-            </p>
-            <SignupForm buttonText={signupFormContent.button} />
-          </div>
-        </div>
       </div>
     </div>
   )
@@ -46,16 +25,5 @@ export const Hero = ({ title, description, signupFormContent }) => {
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  signupFormContent: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    description: PropTypes.shape({
-      paragraph: PropTypes.string.isRequired,
-      link: PropTypes.shape({
-        text: PropTypes.string.isRequired,
-        to: PropTypes.string.isRequired
-      }).isRequired
-    }).isRequired,
-    button: PropTypes.string.isRequired
-  }).isRequired
+  description: PropTypes.string.isRequired
 }

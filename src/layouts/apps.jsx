@@ -2,8 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { useTranslation } from 'react-i18next'
 
-import Modal from '../components/modal'
-import SuggestAppForm from '../components/forms/suggest_app'
 import { Hero, Developers, AppSection } from '../components/pages/apps'
 import { generateKey } from '../components/utils'
 import { useLayoutContext } from '../context/layout'
@@ -35,15 +33,6 @@ const AppsPage = ({ data, pageContext }) => {
         />
       ))}
       <Developers content={content.developers} />
-      {forms.suggestApp.isVisible && (
-        <Modal
-          title={t(`forms.suggest_app.modal.title`)}
-          description={t(`forms.suggest_app.modal.description`)}
-          onClose={forms.suggestApp.toggle}
-        >
-          <SuggestAppForm />
-        </Modal>
-      )}
     </>
   )
 }

@@ -12,7 +12,7 @@ import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
   const { file, images, videos } = data
-  const { meta, header, body } = file.childYaml.parsedContent
+  const { meta, hero, body } = file.childYaml.parsedContent
 
   return (
     <>
@@ -22,7 +22,7 @@ const FrontPage = ({ data, pageContext }) => {
         description={meta.description}
       />
 
-      <Hero signupFormContent={header.signup_form} {...header.hero} />
+      <Hero {...hero} />
 
       {body.map((block) => {
         switch (block.block_type) {

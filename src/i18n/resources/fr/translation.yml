@@ -90,11 +90,3 @@ forms:
   contact:
     button: Envoyer
     modal_title: Contactez-nous
-  suggest_app:
-    modal:
-      title: Proposer une application
-      description: Dnteger viverra non lorem vitae efficitur. Nam quis nunc erat. Mauris aliquet ullamcorper maximus. Quisque faucibus felis metus, eget iaculis lectus aliquet non.
-    subtitles:
-      contact: 'A propos de vous : '
-      app: "A propos de l'application : "
-    button: Envoyer
