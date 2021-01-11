@@ -309,9 +309,7 @@ content:
           additional_info: Documentation in French.
   additional_sections:
     suggest_app:
-      title: Suggest an application
-      description: Your application is not in this list? Send us some details about your application. HubRise will contact them to suggest an integration.
-      button: Suggest
+      description: Your application is not in this list? Send us some details about your application. HubRise will contact the editor on your behalf to suggest an integration.
   developers:
     title: Are You a Developer?
     description:

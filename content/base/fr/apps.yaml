@@ -316,9 +316,7 @@ content:
           description: 1bot est un assistant personnel. Ce chatbot répond aux questions des clients et transmet un résumé de la conversation au magasin par SMS. Il est possible de prendre un rendez-vous, demander un rappel ou poser une question.
   additional_sections:
     suggest_app:
-      title: Proposer une application
-      description: Votre application ne se trouve pas dans cette liste ? Envoyez-nous quelques informations et HubRise se chargera de les contacter.
-      button: Proposer
+      description: Votre application ne se trouve pas dans cette liste ? Envoyez-nous quelques informations. HubRise se chargera de contacter l'éditeur de votre part pour leur proposer une intégration.
   developers:
     title: Vous êtes développeur ?
     description:

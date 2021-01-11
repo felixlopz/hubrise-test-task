@@ -28,6 +28,10 @@
     width: 100vw;
   }
 
+  &__center {
+    text-align: center;
+  }
+
   &__in {
     background: $white;
     @include flex-grid-column(12);

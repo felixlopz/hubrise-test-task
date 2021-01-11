@@ -1,3 +1,7 @@
+apps:
+  view_documentation: Consulter la documentation
+  visit_website: Accéder au site de l'éditeur
+
 layout:
   header:
     buttons:
