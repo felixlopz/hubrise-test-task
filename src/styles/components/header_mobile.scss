@@ -1,8 +1,20 @@
 .header-mobile {
-  display: none;
-  height: 100%;
-  @include breakpoint(medium down) {
-    display: block;
+  width: 100%;
+  height: 80px;
+  border-bottom: 3px solid $hr-green;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  background: $white;
+
+  &__in {
+    height: 100%;
+  }
+
+  &__inside {
+    display: none;
+    height: 100%;
+    @include breakpoint(medium down) {
+      display: block;
+    }
   }
 
   &__overlay {

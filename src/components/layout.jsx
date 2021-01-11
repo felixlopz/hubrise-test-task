@@ -15,12 +15,8 @@ const Layout = ({ children, ...other }) => {
 
   return (
     <>
-      <header className="header">
-        <div className="header__in">
-          <Header {...other} menuItems={menuItems} />
-          <HeaderMobile menuItems={menuItems} />
-        </div>
-      </header>
+      <Header {...other} menuItems={menuItems} />
+      <HeaderMobile menuItems={menuItems} />
 
       <main className="content" data-floater-content>
         {children}
