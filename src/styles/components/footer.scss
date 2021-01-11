@@ -1,101 +1,20 @@
 .footer {
-  width: 100%;
-  padding-top: 2rem;
-  position: relative;
+  color: #fff;
 
-  &__in {
-    @include flex();
-    @include flex-grid-row();
-    padding-left: $hr-row-padding;
-    padding-right: $hr-row-padding;
-    justify-content: space-between;
-    @include breakpoint(medium down) {
-      @include flex-grid-column(12);
-      text-align: center;
-    }
+  &__nav-wrapper {
+    background-color: #444;
+    position: relative;
   }
 
-  &__block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex: 1;
-    @include breakpoint(medium down) {
-      width: 100%;
-    }
+  &__copyright-wrapper {
+    background-color: #333;
   }
 
-  &__contacts {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-    @include breakpoint(medium down) {
-      text-align: center;
-      width: 100%;
-    }
-  }
-
-  &__title {
-    color: $white;
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    @include breakpoint(medium down) {
-      width: 100%;
-    }
-  }
-
-  &__logo {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  &__contact {
-    color: $white;
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    line-height: 1.1;
-    @include breakpoint(medium down) {
-      width: 100%;
-    }
-  }
-
-  &__contact-schedule {
-    margin-top: 1rem;
-    @include breakpoint(medium down) {
-      width: 100%;
-    }
-  }
-
-  &__contact-mail {
-    color: $white;
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    line-height: 1.1;
-    &:hover,
-    &:active {
-      color: $hr-green;
-    }
-    @include breakpoint(medium down) {
-      width: 100%;
-    }
-  }
-
+  &__nav,
   &__copyright {
-    background: $hr-dark-gray;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    text-align: center;
+    max-width: 96%;
+    width: 1200px;
+    margin: 0 auto;
   }
 
   &__scroll-up {
@@ -110,11 +29,14 @@
     color: $white;
     font-size: 2rem;
     cursor: pointer;
-  }
 
-  &__copyright-span {
-    color: $hr-silver-gray;
-    font-weight: 300;
-    font-size: 0.8125rem;
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      color: $hr-green;
+      background-color: $white;
+    }
   }
 }

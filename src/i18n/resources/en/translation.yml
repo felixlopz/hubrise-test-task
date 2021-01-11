@@ -1,6 +1,6 @@
 apps:
   view_documentation: View documentation
-  visit_website: Go to the editor website
+  visit_website: Open editor website
 
 layout:
   header:

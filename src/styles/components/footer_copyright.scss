@@ -1,0 +1,62 @@
+.footer-copyright {
+  padding: 0.8em 0 0.5em 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-gap: 1em;
+  align-items: center;
+
+  &__company {
+  }
+
+  &__logo {
+    text-align: center;
+    position: relative;
+    bottom: 0.15em;
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+
+  $foot-copyright-contact-gap: 0.75rem;
+
+  &__contact__email {
+    color: $white;
+
+    &:after {
+      content: '●';
+      display: inline-block;
+      margin-left: $foot-copyright-contact-gap;
+      position: relative;
+      bottom: 0.15em;
+      font-size: 0.75rem;
+      color: $hr-light-gray;
+    }
+  }
+
+  &__contact__linkedin,
+  &__contact__twitter {
+    font-size: 1.5rem;
+    margin-left: $foot-copyright-contact-gap;
+    position: relative;
+    top: 0.1em;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  @include breakpoint(medium down) {
+    grid-template-columns: 1fr;
+
+    &__company {
+      text-align: center;
+    }
+
+    &__contact {
+      justify-content: center;
+    }
+  }
+}
