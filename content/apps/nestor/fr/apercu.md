@@ -27,6 +27,8 @@ Nestor est conforme à la règlementation du 1er janvier 2018 (article 88 de la 
 
 Nestor fonctionne sous Windows. Il est disponible uniquement en français.
 
+   ![Aperçu - Commandes](../images/019-fr-nestor-apercu-commandes.png)
+
 ## Fonctionnalités de l'intégration
 
 L'intégration de Nestor avec HubRise permet de :
@@ -36,6 +38,8 @@ L'intégration de Nestor avec HubRise permet de :
 - Synchroniser le délai de livraison avec HubRise.
 
 Nestor pourra bientôt envoyer les commandes vers HubRise. Pour plus d'informations, contactez l'éditeur Svitex.
+
+   ![Aperçu - Connexion](../images/020-fr-nestor-apercu-connexion.png)
 
 ## Pourquoi se connecter ?
 
