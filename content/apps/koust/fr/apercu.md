@@ -3,8 +3,8 @@ position: 1
 title: Aperçu
 layout: documentation
 meta:
-  title: Connexion entre Koust et HubRise - Aperçu
-  description: Aperçu de l'outil de gestion Koust et des avantages de le connecter à HubRise, telles que la gestion de vos ventes, achats, stocks et inventaires.
+  title: Aperçu - Koust
+  description: L'outil de gestion Koust : aperçu général et fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:

@@ -1,10 +1,10 @@
 ---
-title: Se connecter à HubRise
+title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Instructions pour connecter Koust à HubRise
-  description: La connexion entre Koust et HubRise se fait simplement. Visitez votre tableau de bord Koust et suivez ces quelques étapes.
+  title: Connexion à HubRise - Koust
+  description: Etablir la connexion entre Koust et HubRise.
 ---
 
 Connecter Koust à HubRise peut être fait en seulement quelques étapes.
@@ -32,7 +32,7 @@ Pour établir la connexion entre Koust et HubRise :
 
 ## Se déconnecter
 
-1. Suivez les 3 premières étapes de la partie [Se connecter](/apps/koust/connect-hubrise#se-connecter).
+1. Suivez les 3 premières étapes de la partie [Se connecter](/apps/koust/connexion-hubrise#se-connecter).
    ![Connexion à HubRise - Onglet Intégrations après connexion](../images/004-fr-koust-integrations-tab-when-connected.png)
 1. Cliquez sur le bloc **HubRise** présent dans la liste des intégrations. Une fenêtre modale s'ouvre.
    ![Connexion à HubRise - Se déconnecter](../images/005-fr-koust-hubrise-informations.png)

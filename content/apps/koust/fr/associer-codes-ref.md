@@ -1,10 +1,10 @@
 ---
-title: Trouver les codes ref
+title: Associer les codes ref
 position: 5
 layout: documentation
 meta:
-  title: Connexion entre Koust et HubRise - Trouver les codes ref
-  description: Apprenez comment trouver les codes ref de vos produits sur Koust en suivant ces instructions.
+  title: Associer les codes ref - Koust
+  description: Importer un catalogue depuis HubRise, et retrouver les codes ref des articles.
 ---
 
 Après avoir connecté Koust à votre compte HubRise, vous pouvez synchroniser leurs données. Pour cela, certaines étapes doivent être entreprises.

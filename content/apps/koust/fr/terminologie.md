@@ -1,10 +1,10 @@
 ---
-title: Mots-clés
+title: Terminologie
 position: 6
 layout: documentation
 meta:
-  title: Mots-clés HubRise vs Koust
-  description: Informe les utilisateurs sur les différents termes utilisés par Koust vs HubRise, permettant une meilleure compréhension de cette documentation.
+  title: Terminologie Koust
+  description: Table de correspondance entre les termes utilisés par Koust et ceux utilisés par HubRise.
 ---
 
 HubRise et Koust ont chacun leurs propres mots-clés. Comprendre les différences de terminologie vous permet d'éviter des confusions et de résoudre des problèmes de connexion.
