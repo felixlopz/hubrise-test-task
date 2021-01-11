@@ -1,29 +1,16 @@
-.header {
-  width: 100%;
-  height: 80px;
-  border-bottom: 3px solid $hr-green;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
-  background: $white;
-
-  &__in {
-    height: 100%;
+.header-mobile {
+  display: none;
+  height: 100%;
+  @include breakpoint(medium down) {
+    display: block;
   }
 
-  &__desktop {
-    @include flex();
-    @include flex-grid-row();
-    // @include flex-grid-column(9);
-    height: 100%;
-    align-items: center;
-    max-width: 75rem;
-    padding: 0 1rem;
-    @include breakpoint(medium down) {
-      display: none;
-    }
-  }
-
-  &__logo {
-    @include grid-col(2, 0);
+  &__overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 4;
   }
 
   &__action {

@@ -8,7 +8,7 @@ import { generateKey } from './utils'
 import logo from '../images/logo.png'
 import button from '../images/bread_button.png'
 
-const HeaderMobile = () => {
+const HeaderMobile = ({ menuItems }) => {
   const [isVisible, setIsVisible] = useState(false)
   const { t } = useTranslation()
 
@@ -16,11 +16,11 @@ const HeaderMobile = () => {
     <>
       {isVisible && (
         <div
-          className="header__mobile__overlay"
+          className="header-mobile__overlay"
           onClick={() => setIsVisible(!isVisible)}
         />
       )}
-      <div className="header__mobile">
+      <div className="header-mobile">
         <div className="mobile-bar">
           <div
             className="mobile-bar__button-wrapper"
@@ -64,7 +64,7 @@ const HeaderMobile = () => {
             </div>
             <nav className="mobile-bar__content">
               <ul className="leftbar-menu">
-                {t(`layout.menu.links`).map(({ to, title }, idx) => (
+                {menuItems.map(({ to, title }, idx) => (
                   <li
                     key={generateKey(title, idx)}
                     className="leftbar-menu__item"
@@ -76,16 +76,16 @@ const HeaderMobile = () => {
                   </li>
                 ))}
               </ul>
-              <div className="header__action header__action_sidenav">
+              <div className="header-mobile__action header-mobile__action_sidenav">
                 <Link
                   to="https://manager.hubrise.com/signup"
-                  className="header__action-signup"
+                  className="header-mobile__action-signup"
                   newTab={false}
                 >
                   {t(`layout.header.buttons.signup`)}
                 </Link>
                 <Link
-                  className="header__action-login"
+                  className="header-mobile__action-login"
                   to="https://manager.hubrise.com/login"
                   newTab={false}
                 >

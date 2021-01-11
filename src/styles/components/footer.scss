@@ -7,7 +7,7 @@
   }
 
   &__copyright-wrapper {
-    background-color: #333;
+    background-color: $hr-dark-gray;
   }
 
   &__nav,
@@ -35,8 +35,8 @@
     }
 
     &:hover {
-      color: $hr-green;
-      background-color: $white;
+      color: $white;
+      background-color: $hr-dark-gray;
     }
   }
 }
