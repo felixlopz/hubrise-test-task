@@ -71,9 +71,9 @@ Main.propTypes = {
   title: PropTypes.string.isRequired,
   largeDescription: PropTypes.string,
   description: PropTypes.string,
-  features: PropTypes.arrayOf(PropTypes.string).isRequired,
+  features: PropTypes.arrayOf(PropTypes.string),
   diagramImage: PropTypes.shape({
     name: PropTypes.string.isRequired,
     childImageSharp: PropTypes.object.isRequired
-  }).isRequired
+  })
 }

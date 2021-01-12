@@ -6,23 +6,21 @@ import HeaderMobile from './header_mobile'
 import Footer from './footer'
 import { getLanguageFromAbsolutePath } from './utils'
 
-const Layout = ({ children, ...other }) => {
+const Layout = ({ children, pageContext, path }) => {
   const menuHeaderNodes = useStaticQuery(headerQuery).allFile.nodes
   const menuItems = menuHeaderNodes.find(
     ({ absolutePath }) =>
-      getLanguageFromAbsolutePath(absolutePath) === other.pageContext.lang
+      getLanguageFromAbsolutePath(absolutePath) === pageContext.lang
   ).childYaml.parsedContent
 
   return (
     <>
-      <Header {...other} menuItems={menuItems} />
-      <HeaderMobile menuItems={menuItems} />
+      <Header menuItems={menuItems} path={path} />
+      <HeaderMobile menuItems={menuItems} path={path} />
 
-      <main className="content" data-floater-content>
-        {children}
-      </main>
+      <main className="content">{children}</main>
 
-      <Footer {...other} />
+      <Footer pageContext={pageContext} />
     </>
   )
 }

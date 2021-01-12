@@ -1,3 +1,6 @@
+- title: Accueil
+  to: /
+  mobile_only: true
 - title: Apps
   to: /apps
 - title: Tarifs

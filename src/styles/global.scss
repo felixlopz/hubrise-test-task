@@ -8,6 +8,7 @@
 @include foundation-everything($flex: true);
 
 @import 'base/_reset';
+@import 'base/_macros';
 
 @import 'components/app_info';
 @import 'components/apps';
@@ -34,12 +35,10 @@
 @import 'components/image_slider';
 @import 'components/index_about';
 @import 'components/index_hero';
-@import 'components/leftbar_menu';
 @import 'components/mobile_bar';
 @import 'components/modal';
 @import 'components/grecaptcha_badge';
 @import 'components/section';
-@import 'components/topbar_menu';
 @import 'components/toast';
 @import 'components/widget';
 @import 'components/recent-posts';

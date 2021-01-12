@@ -2,37 +2,36 @@ import React from 'react'
 import Link from './link'
 import { useTranslation } from 'react-i18next'
 
-import { generateKey, getLanguageFromAbsolutePath } from './utils'
+import { generateKey } from './utils'
 
 import logo from '../images/logo.png'
 
-const Header = ({ pageContext, path, menuItems }) => {
+const Header = ({ menuItems, path }) => {
   const { t } = useTranslation()
 
   return (
-    <div className="header__desktop">
+    <div className="header">
       <div className="header__logo">
         <Link to="/">
-          <img src={logo} alt="company-logo" />
+          <img src={logo} alt="HubRise" />
         </Link>
       </div>
-      <nav className="topbar-menu">
-        <ul className="topbar-menu__list">
-          {menuItems.map(({ title, to }, idx) => (
-            <li key={generateKey(title, idx)} className="topbar-menu__item">
-              <Link
-                className={`topbar-menu__link ${
-                  path.startsWith(to) ? 'topbar-menu__link_active' : ''
-                }`}
-                to={to}
-              >
+      <ul className="header__nav">
+        {menuItems.map(({ title, to, mobile_only }, idx) => {
+          if (mobile_only) return
+          const linkClass =
+            ['header__nav-link'] +
+            (path.startsWith(to) ? ['header__nav-link_active'] : [])
+          return (
+            <li key={generateKey(title, idx)} className="header__nav-item">
+              <Link className={linkClass} to={to}>
                 {title}
               </Link>
             </li>
-          ))}
-        </ul>
-      </nav>
-      <div className="header__action">
+          )
+        })}
+      </ul>
+      <div className="header__actions">
         <Link
           className="header__action-signup"
           to="https://manager.hubrise.com/signup"
