@@ -286,7 +286,7 @@ content:
     - title: Gestion et Inventaire
       apps:
         - website: https://barratio.fr/
-          documentation:
+          documentation: /apps/barratio/
           logo: barratio.png
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
