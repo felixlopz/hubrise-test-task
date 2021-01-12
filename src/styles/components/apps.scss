@@ -15,12 +15,12 @@
     min-height: 15em;
     background-color: #fafafa;
     border-radius: 3px;
-    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .1);
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
     font-size: 0.9375rem;
 
     &:hover {
-      box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .2);
+      box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
     }
   }
 
@@ -40,8 +40,7 @@
     background-color: #ffffff;
   }
 
-  &__box:hover &__documentation,
-  &__box:focus &__documentation {
+  &__box:hover &__documentation {
     color: #ffffff;
     background-color: $hr-green;
   }
@@ -57,13 +56,13 @@
 
   &__additional-info {
     margin: 0 1em 1em 1em;
-    font-size: .75rem;
+    font-size: 0.75rem;
     color: $hr-light-gray;
     font-style: italic;
 
     &::before {
       display: block;
-      content: "";
+      content: '';
       width: 1.5em;
       margin: 0 auto $apps-additional-info-gap auto;
       height: 1px;
