@@ -7,8 +7,6 @@ meta:
   description: This guide provides guidelines on how to contribute to the HubRise technical documentation.
 ---
 
-## Introduction
-
 Our website includes various types of technical documentation. We try to provide sufficient detail to give all the necessary information to the reader but there is always a margin for improvement. You can help by contributing to:
 
 - The developers API documentation used by engineers during the integration process.

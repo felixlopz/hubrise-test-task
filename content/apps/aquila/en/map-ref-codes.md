@@ -17,7 +17,7 @@ Your Aquila menu can either be created directly in Aquila, or imported from the 
 
 ---
 
-**IMPORTANT NOTE**: It is important that each POS code field available in Aquila be mapped with the EPOS ref codes. If the EPOS code is missing, the EPOS will not be unable to correctly process the order.
+**IMPORTANT NOTE:** It is important that each POS code field available in Aquila be mapped with the EPOS ref codes. If the EPOS code is missing, the EPOS will not be unable to correctly process the order.
 
 ---
 

@@ -9,7 +9,7 @@ meta:
 
 ---
 
-**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
+**IMPORTANT NOTE:** This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
 
 ---
 
@@ -38,7 +38,7 @@ Combos are particular combinations of products and/or options that are sold as a
 
 ---
 
-**IMPORTANT NOTE**: The codes for products, options, and combos to use in the system you want to connect must correspond to those present in the EPOS. Order transfer issues often result from an incorrect configuration of the menu.
+**IMPORTANT NOTE:** The codes for products, options, and combos to use in the system you want to connect must correspond to those present in the EPOS. Order transfer issues often result from an incorrect configuration of the menu.
 
 ---
 

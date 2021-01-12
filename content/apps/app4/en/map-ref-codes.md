@@ -15,7 +15,7 @@ In some cases, the EPOS will also require codes for payment methods, service typ
 
 ---
 
-**IMPORTANT NOTE**: App4 and HubRise have their own vocabulary, and may refer to the same things by different names. For example, the menu in App4 is a catalog in HubRise. For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs App4 Definitions](/apps/app4/app4-terms).
+**IMPORTANT NOTE:** App4 and HubRise have their own vocabulary, and may refer to the same things by different names. For example, the menu in App4 is a catalog in HubRise. For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs App4 Definitions](/apps/app4/app4-terms).
 
 ---
 
@@ -29,7 +29,7 @@ You can import a HubRise Catalog into your App4 menu. When you do this, the foll
 
 ---
 
-**IMPORTANT NOTE**: This will not create new categories and products in App4. As of this time, this will only update existing categories and products.
+**IMPORTANT NOTE:** This will not create new categories and products in App4. As of this time, this will only update existing categories and products.
 
 ---
 

@@ -80,19 +80,19 @@ content:
           logo: restaurant-manager.png
           title: Restaurant Manager
           description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
-          additional_info: Integration in progress. Integration by Crystal Mind.
+          additional_info: Integration by Crystal Mind in progress.
         - website: https://www.sicom.com/
           documentation:
           logo: sicom.png
           title: SICOM
           description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
-          additional_info: Integration in progress. Integration by MyTec.
+          additional_info: Integration by MyTec in progress.
         - website: http://www.talc.fr/
           documentation:
           logo: talc.png
           title: T.A.L.C Informatique
           description: T.A.L.C Informatique, adapted to the needs of restaurants, allows you to manage one or more locations. It includes courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
-          additional_info: Integration in progress. Documentation in French.
+          additional_info: Documentation in French. Integration in progress.
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
@@ -160,7 +160,7 @@ content:
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
         - website: https://mylemonade.app/
-          documentation:
+          documentation: /apps/my-lemonade
           logo: my-lemonade.png
           title: My Lemonade
           description: My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on their table, access the menu on their smartphone in their language, and order from it. No app installation required.
@@ -171,11 +171,11 @@ content:
           title: Obypay
           description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
           additional_info: Documentation in French.
-        - website: https://www.shopify.com/
-          documentation: /apps/shopify/
-          logo: shopify.png
-          title: Shopify
-          description: Shopify is an e-commerce platform for any type of business. It offers an omnichannel user experience on the web, smartphones, social networks, marketplaces, and in-store.
+        - website: https://www.prestashop.com/en
+          documentation:
+          logo: prestashop.png
+          title: PrestaShop
+          description: PrestaShop is an open source e-commerce solution. Multilingual, multicurrency, and omnichannel, PrestaShop can be hosted or deployed on your own server. It can be tailored to meet the needs of most businesses.
           additional_info: Integration in progress.
         - website: https://www.restajet.com/
           documentation:
@@ -183,6 +183,18 @@ content:
           title: RestaJet
           description: RestaJet offers a mobile app for reservations and an online ordering website for restaurants. Content management, reporting and marketing tools are available on the RestaJet console.
           additional_info: Integration in progress.
+        - website: https://restaurant-internet.com
+          documentation:
+          logo: restaurant-internet.png
+          title: Restaurant-internet
+          description: Restaurant-internet offers websites with table reservation and online ordering modules. It addresses the particular needs of delivery and takeaway businesses.
+          additional_info: Documentation in French.
+        - website: https://www.shopify.com/
+          documentation: /apps/shopify/
+          logo: shopify.png
+          title: Shopify
+          description: Shopify is an e-commerce platform for any type of business. It offers an omnichannel user experience on the web, smartphones, social networks, marketplaces, and in-store.
+          additional_info:
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
@@ -270,7 +282,7 @@ content:
           logo: koust.png
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
-          additional_info: Integration in progress. Documentation in French.
+          additional_info: Documentation in French. Integration in progress.
     - title: Other Apps
       apps:
         - website:
@@ -283,7 +295,7 @@ content:
           logo: spleat.png
           title: Spleat
           description: Sleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones.
-          additional_info: Integration in progress. Documentation in French.
+          additional_info: Documentation in French. Integration in progress.
         - website: https://tickncook.com
           documentation: /apps/tickncook/
           logo: tickncook.png
