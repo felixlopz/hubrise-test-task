@@ -44,10 +44,13 @@ export const Main = ({
         )}
 
         {features && (
-          <ul className="index-about">
+          <ul className="frontpage-about">
             {features.map((feature, idx) => (
-              <li key={generateKey(feature, idx)} className="index-about__item">
-                <span className="index-about__span">{feature}</span>
+              <li
+                key={generateKey(feature, idx)}
+                className="frontpage-about__item"
+              >
+                <span className="frontpage-about__span">{feature}</span>
               </li>
             ))}
           </ul>

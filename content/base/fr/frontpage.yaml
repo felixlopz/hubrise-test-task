@@ -7,6 +7,8 @@ hero:
   title: Intégration pour le commerce et la restauration
   description: |
     En une seule intégration, HubRise connecte votre app à une multitude de solutions.
+  button_label: Commencer l'intégration
+  button_url: /developers/quick-start
 
 body:
   - block_type: main

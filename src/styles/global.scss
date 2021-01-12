@@ -5,6 +5,7 @@
 
 @import 'node_modules/motion-ui/motion-ui';
 @import 'plugins/foundation/foundation';
+
 @include foundation-everything($flex: true);
 
 @import 'base/_reset';
@@ -28,13 +29,13 @@
 @import 'components/footer_copyright';
 @import 'components/footer_nav';
 @import 'components/form';
+@import 'components/frontpage_about';
+@import 'components/frontpage_hero';
 @import 'components/header';
 @import 'components/header_mobile';
 @import 'components/image';
 @import 'components/image_grid';
 @import 'components/image_slider';
-@import 'components/index_about';
-@import 'components/index_hero';
 @import 'components/mobile_bar';
 @import 'components/modal';
 @import 'components/grecaptcha_badge';

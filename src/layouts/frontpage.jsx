@@ -5,7 +5,7 @@ import { Hero, Main } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
-  const { file, images, videos } = data
+  const { file, images } = data
   const { meta, hero, body } = file.childYaml.parsedContent
 
   return (
