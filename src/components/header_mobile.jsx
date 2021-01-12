@@ -62,6 +62,7 @@ const HeaderMobile = ({ menuItems, path }) => {
                     'mobile-bar__nav-link_active': path.startsWith(to)
                   })}
                   to={to}
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   {title}
                 </Link>
