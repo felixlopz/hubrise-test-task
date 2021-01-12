@@ -9,7 +9,7 @@ meta:
 
 ---
 
-**IMPORTANT NOTE**: TastyCloud cannot simultaneously have a connection with HubRise, and a direct connection to an EPOS. Once your TastyCloud website is connected to HubRise, your EPOS will necessarily be connected via HubRise. To see available EPOS solutions on HubRise, check our [Apps](/apps) page.
+**IMPORTANT NOTE:** TastyCloud cannot simultaneously have a connection with HubRise, and a direct connection to an EPOS. Once your TastyCloud website is connected to HubRise, your EPOS will necessarily be connected via HubRise. To see available EPOS solutions on HubRise, check our [Apps](/apps) page.
 
 ---
 

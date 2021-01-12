@@ -17,7 +17,7 @@ Your LivePepper menu can either be created directly in LivePepper, or imported f
 
 ---
 
-**IMPORTANT NOTE**: It is important for each POS code field available in LivePepper to be mapped with the corresponding EPOS ref codes. If the EPOS ref code is missing, the EPOS will not be unable to correctly process the order.
+**IMPORTANT NOTE:** It is important for each POS code field available in LivePepper to be mapped with the corresponding EPOS ref codes. If the EPOS ref code is missing, the EPOS will not be unable to correctly process the order.
 
 ---
 
@@ -30,7 +30,7 @@ If you have already exported your products from your EPOS or other connected app
 
 ---
 
-**IMPORTANT NOTE**: Importing a catalog from HubRise will replace the products in your LivePepper Menu. You can edit the menu in LivePepper after the import. Catalogs cannot be edited in HubRise.
+**IMPORTANT NOTE:** Importing a catalog from HubRise will replace the products in your LivePepper Menu. You can edit the menu in LivePepper after the import. Catalogs cannot be edited in HubRise.
 
 ---
 
@@ -123,7 +123,7 @@ At the end of the process you can check if all deals have been mapped. For more 
 
 ---
 
-**IMPORTANT NOTE**: Depending on your EPOS, Deals may be transmitted to the EPOS without an EPOS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
+**IMPORTANT NOTE:** Depending on your EPOS, Deals may be transmitted to the EPOS without an EPOS code required. Verify that your Deals are properly set up to comply with your EPOS requirements.
 
 ---
 

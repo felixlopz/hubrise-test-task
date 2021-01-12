@@ -136,9 +136,11 @@ Almost all fields are optional. In fact the simplest order that can be created o
   ],
   "loyalty_operations": [
     {
-      "name": "",
+      "name": null,
+      "ref": "LOY",
       "delta": "-5",
-      "reason": "Points used"
+      "reason": "Points used on order",
+      "new_balance": "1.5"
     }
   ],
   "total": "23.50 EUR"
@@ -545,7 +547,7 @@ If order payments are omitted, the order should be considered as not paid.
 
 | Name                             | Type                                                       | Description                                                                                                           |
 | -------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `type`                           | string                                                     | One of: `cash`, `online`, or `third_party`.                                                                           |
+| `type`                           | string                                                     | One of: `cash` or `online`.                                                                                           |
 | `name` <Label type="optional" /> | string                                                     | The name of the payment method.                                                                                       |
 | `ref` <Label type="optional" />  | string                                                     | Identifies the payment method.                                                                                        |
 | `amount`                         | [Money](/developers/api/general-concepts/#monetary-values) | Amount paid with this payment method.                                                                                 |
@@ -555,9 +557,7 @@ If order payments are omitted, the order should be considered as not paid.
 
 - `cash`: the customer pays by cash to the store.
 
-- `online`: the customer pays online to an account owned by the store.
-
-- `third_party`: the customer pays to a third party which then passes part or all of the payment to the store. Examples include gift card companies and food ordering platforms.
+- `online`: the customer pays online.
 
 #### Example:
 
@@ -573,7 +573,7 @@ If order payments are omitted, the order should be considered as not paid.
     }
   },
   {
-    "type": "third_party",
+    "type": "online",
     "name": "Freebies4me",
     "ref": "FBFM",
     "amount": "4.50 EUR",
@@ -596,7 +596,7 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 
 | Name                               | Type                                                        | Description                                                                              |
 | ---------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `name`                             | string                                                      | The loyalty card name.                                                                   |
+| `ref` <Label type="optional" />    | string                                                      | The loyalty card unique ref. Defaults to `null` if omitted.                              |
 | `delta`                            | [decimal](/developers/api/general-concepts/#decimal-values) | The number of points to add to the card balance. Use a negative number to remove points. |
 | `reason` <Label type="optional" /> | string                                                      | Additional information on the operation.                                                 |
 
@@ -605,14 +605,14 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 ```json
 [
   {
-    "name": "",
+    "ref": "LOY",
     "delta": "-5",
-    "reason": "Points used"
+    "reason": "Points used on order"
   },
   {
-    "name": "",
+    "ref": "LOY",
     "delta": "1.5",
-    "reason": "Points earned"
+    "reason": "Points earned on order"
   }
 ]
 ```

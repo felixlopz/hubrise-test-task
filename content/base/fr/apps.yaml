@@ -37,6 +37,12 @@ content:
           logo: jdc.png
           title: Kezia II par JDC
           description: Kezia II est un logiciel de caisse développé par JDC, un leader français des solutions d'encaissement. Kezia II s'adapte à tous les types de commerces.
+        - website: https://www.leo2.fr/
+          documentation:
+          logo: leo2.png
+          title: LEO2 / Atoo
+          description: LEO2 est un logiciel de caisse développé par Atoo. LEO2 s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les épiceries, les bouchers ou encore les fleuristes.
+          additional_info: Intégration en cours.
         - website: http://www.myorderboxhq.com
           documentation:
           logo: myorderbox.png
@@ -44,7 +50,7 @@ content:
           description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
           additional_info: Documentation en anglais.
         - website: http://www.logiciel-de-livraison.com
-          documentation:
+          documentation: /apps/nestor/
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
@@ -82,8 +88,14 @@ content:
           documentation:
           logo: sicom.png
           title: SICOM
-          description: SICOM propose une suite  complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
+          description: SICOM propose une suite complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
           additional_info: Documentation en anglais. Intégration par MyTec en cours.
+        - website: http://www.talc.fr/
+          documentation:
+          logo: talc.png
+          title: T.A.L.C Informatique
+          description: T.A.L.C Informatique est une caisse adaptée aux besoins de la restauration, qui permet de gérer un ou plusieurs points de vente avec dispatching des coursiers, gestion du stock, des achats, géolocalisation des clients et envoi de SMS.
+          additional_info: Intégration en cours.
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
@@ -108,11 +120,23 @@ content:
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
           additional_info:
+        - website: https://www.just-eat.fr/
+          documentation:
+          logo: just-eat.png
+          title: Just Eat
+          description: Just Eat est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 13 pays en Europe, en Asie, en Océanie et dans les Amériques.
+          additional_info: Intégration en cours.
         - website: https://www.smood.ch/fr
           documentation:
           logo: smood.png
           title: Smood
           description: Smood est une plateforme de service de livraison à domicile qui opère sur tout le marché Suisse. Les clients peuvent commander en ligne ou via une app mobile dans leurs restaurants préférés ainsi que dans leurs Migros.
+          additional_info: Intégration en cours.
+        - website: https://www.justeattakeaway.com/
+          documentation:
+          logo: takeaway.png
+          title: Takeaway.com
+          description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, Bulgarie, Luxembourg, Portugal, Roumanie, et en Suisse.
           additional_info: Intégration en cours.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
@@ -143,17 +167,17 @@ content:
           logo: my-lemonade.png
           title: My Lemonade
           description:  My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
-          additional_info:
+          additional_info: Documentation en anglais.
         - website: https://obypay.com/
           documentation:
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
-        - website: https://www.shopify.com/
+        - website: https://www.prestashop.com/fr
           documentation:
-          logo: shopify.png
-          title: Shopify
-          description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.
+          logo: prestashop.png
+          title: PrestaShop
+          description: PrestaShop est une solution open source de création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop peut être hébergé ou fonctionner sur votre propre serveur. PrestaShop est personnalisable et s'adapte à vos besoins.
           additional_info: Intégration en cours.
         - website: https://www.restajet.com/
           documentation:
@@ -161,17 +185,29 @@ content:
           title: RestaJet
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://restaurant-internet.com
+          documentation:
+          logo: restaurant-internet.png
+          title: Restaurant-internet
+          description: Restaurant-internet propose un site vitrine avec réservation de table et solution de commande en ligne. La solution couvre en particulier les besoins de la livraison à domicile et la vente à emporter.
+          additional_info:
+        - website: https://www.shopify.com/
+          documentation: /apps/shopify
+          logo: shopify.png
+          title: Shopify
+          description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
+          additional_info:
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
         - website: https://woocommerce.com/
-          documentation:
+          documentation: /apps/woocommerce
           logo: woocommerce.png
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
-          additional_info: Intégration en cours. Documentation en anglais.
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: http://www.y-proximite.fr
           documentation:
           logo: yproximite.png
@@ -269,10 +305,10 @@ content:
           description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
           additional_info: Intégration en cours.
         - website: https://tickncook.com
-          documentation:
+          documentation: /apps/tickncook/
           logo: tickncook.png
-          title: Tick'N'Cook
-          description: Tick'n'Cook est un écran cuisine. Les commandes provenant de votre site Internet, de vos bornes ou de votre caisse apparaissent en temps réel sur des écrans tactiles. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés par atelier (bar, cuisine...).
+          title: TicknCook
+          description: TicknCook est un écran cuisine (KDS), qui peut recevoir les commandes depuis tous vos canaux de vente. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés pour le bar, la cuisine, ou autres ateliers.
         - website: http://1bot.io/
           documentation:
           logo: 1bot.png

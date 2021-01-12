@@ -7,8 +7,6 @@ meta:
   description:
 ---
 
-## Introduction
-
 This Glossary of Terms provides terminology and spelling decisions taken by the HubRise technical writing team and translators. It should be used to maximise linguistic consistency throughout the documentation.
 
 ## General Information

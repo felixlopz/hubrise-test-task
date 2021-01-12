@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Zelty - Connect to HubRise
-  description: Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.
+  description: "Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more."
 ---
 
 The connection between Zelty and HubRise can be done autonomously by the user.
@@ -21,7 +21,7 @@ In order to activate the connection between Zelty and HubRise:
 
 ---
 
-**IMPORTANT NOTE** You might need to log in to your existing HubRise account, or create a new HubRise account to complete the connection process. For more information on how to create a user profile or log in HubRise, see our [Getting Started Guide](/docs/getting-started/).
+**IMPORTANT NOTE:** You might need to log in to your existing HubRise account, or create a new HubRise account to complete the connection process. For more information on how to create a user profile or log in HubRise, see our [Getting Started Guide](/docs/getting-started/).
 
 ---
 

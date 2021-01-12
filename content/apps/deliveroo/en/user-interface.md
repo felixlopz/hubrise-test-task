@@ -7,7 +7,7 @@ meta:
   description: How to navigate the Deliveroo Bridge main page to access information about the orders and customise the behaviour of the bridge.
 ---
 
-From the main page of the Deliveroo Bridge, you can read the logs of all the operations between HubRise and Deliveroo, and access the configuration settings of the integration.
+From the main page of Deliveroo Bridge, you can read the logs of all the operations between HubRise and Deliveroo, and access the configuration settings of the integration.
 
 ## Operations Page
 
@@ -29,7 +29,7 @@ Clicking on a row will open a new page displaying the logs associated with the o
 
 ## Orders Page
 
-Selecting an order operation from the list in the main page will display all the logs of the API requests exchanged between HubRise and Deliveroo via the Deliveroo Bridge.
+Selecting an order operation from the list in the main page will display all the logs of the API requests exchanged between HubRise and Deliveroo via Deliveroo Bridge.
 
 Requests are ordered with the latest on top, and those related to the same order event (order received, order cancelled, etc.) are visually grouped together.
 
@@ -59,7 +59,7 @@ System request pages can provide useful debugging insights to support teams, but
 
 At the top right corner of the main page, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> to expand the menu. From there, you can change the language of the page to English or French.
 
-Clicking on the Deliveroo and HubRise logos on top of any page of the Deliveroo Bridge will bring you back to the main page.
+Clicking on the Deliveroo and HubRise logos on top of any page of Deliveroo Bridge will bring you back to the main page.
 
 ## Configuration Page
 
@@ -67,4 +67,4 @@ To access the Deliveroo Bridge Configuration page, click on the arrow <InlineIma
 
 ![Deliveroo Bridge configuration page](../images/002-en-configuration-page.png)
 
-From this page, you will be able to customise the behaviour of the Deliveroo Bridge. For more details, see [Configuration](/apps/deliveroo/configuration).
+From this page, you will be able to customise the behaviour of Deliveroo Bridge. For more details, see [Configuration](/apps/deliveroo/configuration).

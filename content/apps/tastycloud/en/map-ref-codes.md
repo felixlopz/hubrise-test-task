@@ -15,7 +15,7 @@ For example, if an EPOS is connected to your HubRise Location, you will need to 
 
 ---
 
-**IMPORTANT NOTE**: TastyCloud requires a HubRise catalog to be set up in order to complete the ref code mapping process. Please refer to your EPOS documentation on the HubRise website to check that it can push catalogs to HubRise. Contact TastyCloud if your EPOS does not support this feature.
+**IMPORTANT NOTE:** TastyCloud requires a HubRise catalog to be set up in order to complete the ref code mapping process. Please refer to your EPOS documentation on the HubRise website to check that it can push catalogs to HubRise. Contact TastyCloud if your EPOS does not support this feature.
 
 ---
 
