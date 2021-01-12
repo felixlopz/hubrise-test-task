@@ -1,3 +1,9 @@
+@mixin hr-container {
+  max-width: 96%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 @mixin hr-header-style {
   height: $hr-header-height;
   z-index: $hr-z-header;

@@ -12,9 +12,7 @@
 
   &__nav,
   &__copyright {
-    max-width: 96%;
-    width: 1200px;
-    margin: 0 auto;
+    @include hr-container;
   }
 
   &__scroll-up {
