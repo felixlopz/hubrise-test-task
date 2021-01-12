@@ -41,14 +41,14 @@ content:
           logo: leo2.png
           title: LEO2 / Atoo
           description: LEO2 is a Point of Sales solution developed by Atoo. LEO2 adapts to all types of businesses, including restaurants, backeries, neighbourhood grocery stores, butchers or florists.
-          additional_info: Integration in progress.
+          additional_info: Documentation in French. Integration in progress.
         - website: http://www.myorderboxhq.com
           documentation:
           logo: myorderbox.png
           title: MyOrderBox
           description: MyOrderBox is an affordable cloud based Point of Sales for takeaway and restaurants. MyOrderBox is easy to install and get hands on.
         - website: http://www.logiciel-de-livraison.com
-          documentation: /apps/nestor/
+          documentation: /apps/nestor
           logo: nestor.png
           title: Nestor
           description: Nestor is a French Point of Sales solution designed for home delivery and takeaway restaurants.
