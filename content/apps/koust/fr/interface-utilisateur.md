@@ -18,14 +18,11 @@ Si dans vos commandes, des articles sont inconnus, ils seront automatiquement cr
 
 ## Commandes
 
-L'historique de vos commandes passées depuis d'autres applications est accessible sur la page **Détail Ventes caisse**. Pour y accéder, suivez les étapes suivantes :
-
-1. Dans le menu latéral, sélectionnez le chevron à côté du label **Ventes - Conso.**.
-1. Sélectionnez **Historique ventes**.
+L'historique de vos commandes passées depuis d'autres applications est accessible sur la page **Détail Ventes caisse**. Pour y accéder, sélectionnez **Ventes - Conso.** > **Historique ventes** dans le menu latéral.
    ![Interface utilisateur - Liste des commandes](../images/008-fr-koust-page-commandes.png)
 
 Vous pouvez accéder au détail d'une commande en sélectionnant son montant dans la colonne **Total**.
    ![Interface utilisateur - Détail d'une commande](../images/009-fr-koust-detail-commande.png)
 
-Si cette commande contient des articles inconnus, sélectionnez **Liaison** sur la ligne de l'article correspondant et modifiez la valeur du champ **Référence distante (SKU_REF)** avec le SKU provenant du catalogue HubRise.
+Si cette commande contient des articles inconnus, sélectionnez **Liaison** sur la ligne de l'article correspondant et modifiez la valeur du champ **Référence distante (SKU_REF)** avec le code ref provenant du catalogue HubRise.
    ![Interface utilisateur - Liaison d'un article](../images/010-fr-koust-detail-article.png)

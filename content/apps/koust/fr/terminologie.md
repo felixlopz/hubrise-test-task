@@ -14,3 +14,4 @@ HubRise et Koust ont chacun leurs propres mots-clés. Comprendre les différence
 | Catégorie du produit                    | Catégorie           | Gamme               |
 | Nom du produit (contexte vente)         | Produit             | Article             |
 | Nom du produit (contexte achat)         | Produit             | Recette             |
+| Identifiant du produit                  | Code ref            | Référence distante  |
