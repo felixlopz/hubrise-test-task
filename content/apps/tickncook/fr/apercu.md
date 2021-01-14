@@ -1,10 +1,10 @@
 ---
 position: 1
-title: Présentation
+title: Aperçu
 layout: documentation
 meta:
-  title: TicknCook - Connexion à HubRise - Présentation
-  description: Présentation de l'écran cuisine TicknCook, qui permet grâce à sa connexion HubRise de recevoir les commandes depuis les principaux canaux de vente utilisés en restauration.
+  title: Aperçu - TicknCook
+  description: "L'écran cuisine TicknCook : aperçu général et fonctionnalités de l'intégration avec HubRise."
 gallery:
   - 002-fr-tickncook-counter.jpg
   - 003-fr-tickncook-kitchen.jpg
