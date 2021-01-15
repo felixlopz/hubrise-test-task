@@ -165,7 +165,7 @@ content:
           title: My Lemonade
           description: My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on their table, access the menu on their smartphone in their language, and order from it. No app installation required.
           additional_info:
-        - website: https://obypay.com/
+        - website: https://obypay.fr/
           documentation:
           logo: obypay.png
           title: Obypay
