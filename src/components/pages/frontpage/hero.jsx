@@ -7,9 +7,11 @@ import { markdownToHtml } from '../../utils'
 export const Hero = ({ title, description, button_label, button_url }) => {
   return (
     <div className="frontpage-hero">
+      <div className="frontpage-hero__image" />
+
       <div className="frontpage-hero__container">
-        <div className="frontpage-hero__banner-wrapper">
-          <div className="frontpage-hero__banner">
+        <div className="frontpage-hero__text-wrapper">
+          <div className="frontpage-hero__text">
             <h1 className="frontpage-hero__title">{title}</h1>
             <div
               className="frontpage-hero__description"
