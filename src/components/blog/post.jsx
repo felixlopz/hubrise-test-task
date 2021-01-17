@@ -11,17 +11,17 @@ function Post({ post, showMore, showBody }) {
 
   return (
     <>
-      <li className="articles__item">
-        <h3 className="articles__title">{frontmatter.title}</h3>
-        <div className="articles__date">
+      <div className="blog-post">
+        <h3 className="blog-post__title">{frontmatter.title}</h3>
+        <div className="blog-post__date">
           {t('misc.posted_on')}{' '}
-          <span className="articles__date-value">{dateAsString}</span>{' '}
+          <span className="blog-post__date-value">{dateAsString}</span>{' '}
           {t('misc.by')} {frontmatter.author}
         </div>
         {showMore && (
           <>
-            <div className="articles__excerpt">{frontmatter.excerpt}</div>
-            <Link to={fields.slug} className="articles__read-more">
+            <div className="blog-post__excerpt">{frontmatter.excerpt}</div>
+            <Link to={fields.slug} className="blog-post__read-more">
               {t('misc.read_more')}
             </Link>
           </>
@@ -31,7 +31,7 @@ function Post({ post, showMore, showBody }) {
             <MDXRenderer>{body}</MDXRenderer>
           </div>
         )}
-      </li>
+      </div>
     </>
   )
 }

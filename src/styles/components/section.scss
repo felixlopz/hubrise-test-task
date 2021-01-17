@@ -145,15 +145,12 @@
   }
 
   &__in_developers {
-    background: transparent;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    padding-left: 0;
-    padding-right: 0;
     text-align: left;
+    background: transparent;
 
     &:before {
       background: #fbfbfb;
@@ -336,6 +333,7 @@
 
   &__in_green &__title {
     color: $white;
+
     &:after {
       background: $white;
     }
@@ -344,6 +342,7 @@
   &__title_no-border {
     margin-bottom: 1rem;
     line-height: 2rem;
+
     &:after {
       background: none;
       width: 0;
@@ -362,9 +361,11 @@
 
   &__title_comments {
     width: auto;
+
     &:after {
       width: 80%;
     }
+
     @include breakpoint(medium down) {
       width: 100%;
     }

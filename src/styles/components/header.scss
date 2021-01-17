@@ -1,15 +1,15 @@
 .header {
-  padding: 0 2%;
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: none;
 
-  @include hr-header-style;
+  @media (min-width: $br-large) {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
 
-  @include breakpoint(medium down) {
-    display: none;
+    @include hr-header-style;
   }
 
   &__logo {

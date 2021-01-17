@@ -1,11 +1,20 @@
 .footer-copyright {
   padding: 0.8em 0 0.5em 0;
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-columns: 1fr;
   grid-gap: 1em;
   align-items: center;
 
+  @media (min-width: $br-large) {
+    grid-template-columns: 3fr 1fr 3fr;
+  }
+
   &__company {
+    text-align: center;
+
+    @media (min-width: $br-large) {
+      text-align: left;
+    }
   }
 
   &__logo {
@@ -16,8 +25,12 @@
 
   &__contact {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: baseline;
+
+    @media (min-width: $br-large) {
+      justify-content: flex-end;
+    }
   }
 
   $foot-copyright-contact-gap: 0.75rem;
@@ -46,17 +59,5 @@
     top: 0.1em;
 
     @include hr-link-hover($white);
-  }
-
-  @include breakpoint(medium down) {
-    grid-template-columns: 1fr;
-
-    &__company {
-      text-align: center;
-    }
-
-    &__contact {
-      justify-content: center;
-    }
   }
 }

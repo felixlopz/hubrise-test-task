@@ -4,7 +4,7 @@
   margin-top: calc(#{$hr-block-padding} - 1rem);
 
   &__list {
-    @include flex-grid-row();
+    display: flex;
     flex-flow: row wrap;
     margin-left: unset;
     padding-left: 1rem;

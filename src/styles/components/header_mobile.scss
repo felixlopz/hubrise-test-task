@@ -6,7 +6,7 @@
 
   @include hr-header-style;
 
-  @include breakpoint(large up) {
+  @media (min-width: $br-large) {
     display: none;
   }
 

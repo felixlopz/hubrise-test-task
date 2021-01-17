@@ -1,12 +1,4 @@
-.articles {
-  @include breakpoint(medium down) {
-    margin-top: 2rem;
-  }
-  &__item {
-    display: block;
-    width: 100%;
-    margin-bottom: 2rem;
-  }
+.blog-post {
   &__title {
     color: $hr-dark-gray;
     font-weight: bold;
@@ -15,6 +7,7 @@
     width: 100%;
     text-align: left;
     font-size: 2.125rem;
+
     &:after {
       content: '';
       position: absolute;
@@ -27,6 +20,7 @@
       background: $hr-green;
     }
   }
+
   &__date {
     color: #999999;
     font-size: 1rem;
@@ -34,17 +28,21 @@
     line-height: 1;
     margin-bottom: 1rem;
   }
+
   &__date-value {
     color: #777777;
   }
+
   &__author {
     color: #555555;
     text-decoration: underline;
     padding: 0 0.3rem;
+
     &:hover {
       color: $hr-green;
     }
   }
+
   &__excerpt {
     color: #777777;
     font-size: 1rem;
@@ -52,22 +50,26 @@
     line-height: 1.3rem;
     margin-bottom: 1rem;
   }
+
   &__read-more {
+    display: inline-block;
+    width: 100%;
+    padding: 0.3rem 1.8rem;
     text-align: center;
-    color: $white;
     font-size: 0.9375rem;
     font-weight: 500;
-    background: #555555;
+    color: $white;
+    background: $hr-gray;
     border-radius: 3px;
-    padding: 0.3rem 1.8rem;
-    transition: 0.1s ease-in-out;
-    &:hover {
-      background: $hr-green;
-      color: $white;
-    }
-    @include breakpoint(small only) {
-      width: 100%;
-      display: inline-block;
+
+    @include hr-button-hover($white, $hr-green);
+
+    @media (min-width: $br-medium) {
+      width: auto;
     }
   }
+}
+
+.blog-post + .blog-post {
+  margin-top: 2rem;
 }
