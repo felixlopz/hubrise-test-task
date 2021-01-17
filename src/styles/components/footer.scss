@@ -32,9 +32,6 @@
       outline: none;
     }
 
-    &:hover {
-      color: $white;
-      background-color: $hr-dark-gray;
-    }
+    @include hr-button-hover($white, $hr-dark-gray);
   }
 }

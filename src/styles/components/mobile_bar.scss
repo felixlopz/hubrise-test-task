@@ -66,9 +66,7 @@
     margin-bottom: 1em;
     padding: 0 1em;
 
-    &:hover {
-      color: $hr-green;
-    }
+    @include hr-link-hover($hr-green);
   }
 
   &__nav-link_signup {
@@ -85,9 +83,6 @@
     background-color: $hr-green;
     border-radius: 3px;
 
-    &:hover {
-      color: $white;
-      background-color: $hr-dark-gray;
-    }
+    @include hr-button-hover($white, $hr-dark-gray);
   }
 }

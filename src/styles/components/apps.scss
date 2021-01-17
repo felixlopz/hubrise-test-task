@@ -18,9 +18,10 @@
     box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
     font-size: 0.9375rem;
+    transition: box-shadow 0.2s ease;
 
     &:hover {
-      box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
     }
   }
 
@@ -38,6 +39,7 @@
     padding: 1em;
     color: $hr-gray;
     background-color: #ffffff;
+    transition: background-color 0.2s ease;
   }
 
   &__box:hover &__documentation {

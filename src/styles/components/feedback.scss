@@ -11,10 +11,10 @@
   &__title-wrapper {
     display: flex;
     align-items: center;
+    @include hr-link-hover($hr-green);
 
     &:hover {
       cursor: pointer;
-      color: $hr-green;
     }
 
     &_highlighted {
@@ -67,16 +67,12 @@
 
   &__contact-button {
     color: $hr-green;
-
-    &:hover,
-    &:active {
-      cursor: pointer;
-      color: #5d9a43;
-    }
+    @include hr-link-hover($hr-dark-gray);
   }
 
   &__link {
     margin: auto 0.2rem;
+    @include hr-link-hover($hr-dark-gray);
   }
 
   &__instructions-list-item {

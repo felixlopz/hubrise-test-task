@@ -1,13 +1,5 @@
 .contact-toggle {
   color: $hr-green;
 
-  &:hover,
-  &:focus {
-    color: #5d9a43;
-    background-color: unset;
-  }
-
-  &:hover {
-    cursor: pointer;
-  }
+  @include hr-link-hover($hr-dark-gray);
 }

@@ -85,9 +85,6 @@
     color: $hr-green;
     background-color: #ffffff;
 
-    &:hover {
-      color: $white;
-      background-color: $hr-dark-gray;
-    }
+    @include hr-button-hover($white, $hr-dark-gray);
   }
 }

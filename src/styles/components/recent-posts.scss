@@ -22,29 +22,32 @@
       }
     }
   }
+
   ul {
     display: block;
     margin-top: 1rem;
+
     li {
       display: inline-block;
       width: 100%;
       line-height: 1.2rem;
       margin-bottom: 0.5rem;
     }
+
     a {
       color: #555555;
       font-size: 0.9375rem;
       font-weight: 400;
       line-height: 1;
-      &:hover {
-        color: $hr-green;
-      }
+
+      @include hr-link-hover($hr-green);
 
       &.active {
         color: $hr-green;
       }
     }
   }
+
   &__hidden {
     ul {
       @include breakpoint(medium down) {
@@ -52,6 +55,7 @@
       }
     }
   }
+
   &__arrow {
     color: $hr-green;
     font-size: 1.3em;

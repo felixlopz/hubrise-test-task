@@ -25,6 +25,8 @@
   &__contact__email {
     color: $white;
 
+    @include hr-link-hover($hr-green);
+
     &:after {
       content: '●';
       display: inline-block;
@@ -43,9 +45,7 @@
     position: relative;
     top: 0.1em;
 
-    &:hover {
-      color: $white;
-    }
+    @include hr-link-hover($white);
   }
 
   @include breakpoint(medium down) {

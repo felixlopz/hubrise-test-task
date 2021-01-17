@@ -89,10 +89,7 @@
     font-size: 1rem;
     color: $hr-green;
 
-    &:hover {
-      color: $hr-gray;
-      cursor: pointer;
-    }
+    @include hr-link-hover($hr-dark-gray);
   }
 
   ul,

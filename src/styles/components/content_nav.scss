@@ -88,8 +88,6 @@
     font-weight: 500;
     font-size: 0.9375rem;
 
-    &:hover {
-      color: $hr-green;
-    }
+    @include hr-link-hover($hr-green);
   }
 }

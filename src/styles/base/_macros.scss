@@ -11,3 +11,20 @@
   border-bottom: 3px solid $hr-green;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
 }
+
+@mixin hr-button-hover($color, $background-color) {
+  transition: color 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    color: $color;
+    background-color: $background-color;
+  }
+}
+
+@mixin hr-link-hover($color) {
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $color;
+  }
+}

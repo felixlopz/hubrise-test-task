@@ -10,9 +10,7 @@
     display: inline-block;
     width: 100%;
 
-    &:hover {
-      color: $hr-green;
-    }
+    @include hr-link-hover($hr-green);
   }
 
   li a.active {

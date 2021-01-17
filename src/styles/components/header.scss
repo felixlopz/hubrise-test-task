@@ -37,10 +37,7 @@
 
   &__nav-link {
     color: $hr-gray;
-
-    &:hover {
-      color: $hr-green;
-    }
+    @include hr-link-hover($hr-green);
   }
 
   &__nav-link_active {
@@ -53,10 +50,7 @@
     padding: 0.4em 1.5em;
     margin-left: 0.6em;
 
-    &:hover {
-      color: $white;
-      background-color: $hr-dark-gray;
-    }
+    @include hr-button-hover($white, $hr-dark-gray);
   }
 
   &__action-signup {
