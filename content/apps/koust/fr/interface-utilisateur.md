@@ -14,7 +14,9 @@ Depuis votre tableau de bord Koust, vous pouvez accéder à la page listant les 
 Lorsque vous avez importé votre catalogue HubRise, vous pouvez retrouver les articles dans la page **Articles caisse**. Pour y accéder, sélectionnez **Ventes - Conso.** dans le menu latéral.
    ![Interface utilisateur - Liste des articles](../images/007-fr-koust-page-articles.png)
 
-Si dans vos commandes, des articles sont inconnus, ils seront automatiquement créés et répertoriés dans cette liste.
+Lors de la réception d'une commande, Koust vérifie les codes ref des différents articles afin de voir s'ils n'existent pas déjà dans le catalogue que vous avez importé au préalable depuis HubRise. Si aucun article n'est trouvé, un nouveau est créé et répertorié sur cette page.
+
+Afin de s'assurer que le mapping entre les articles des commandes et ceux du catalogue se fait correctement, vérifiez la valeur de ces codes ref en suivant les étapes de la page [Associer les codes ref](/apps/koust/associer-codes-ref#produits).
 
 ## Commandes
 

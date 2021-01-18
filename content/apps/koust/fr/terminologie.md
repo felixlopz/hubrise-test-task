@@ -1,6 +1,6 @@
 ---
 title: Terminologie
-position: 6
+position: 5
 layout: documentation
 meta:
   title: Terminologie Koust

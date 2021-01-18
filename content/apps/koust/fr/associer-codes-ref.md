@@ -1,6 +1,6 @@
 ---
 title: Associer les codes ref
-position: 5
+position: 4
 layout: documentation
 meta:
   title: Associer les codes ref - Koust
@@ -30,9 +30,3 @@ Un produit dans HubRise correspond à un article dans Koust. Pour retrouver le c
    ![Associer les codes ref - Liste des articles](../images/011-fr-koust-liste-articles.png)
 1. Sélectionnez l'icône de modification ou le nom de l'article. Le code ref s'affiche dans le champ **Référence distante (SKU_REF)**.
    ![Associer les codes ref - Détail article](../images/012-fr-koust-liste-articles-detail.png)
-
----
-
-**NOTE IMPORTANTE :** Vérifiez bien que la valeur de ce champ est la même que celle provenant de votre logiciel de caisse. Si ce n'est pas le cas, le mapping entre les articles provenant des commandes et ceux du catalogue HubRise ne peut pas se faire. Koust crée alors un nouvel article. Pour lier ces nouveaux articles à ceux du catalogue HubRise, consultez la page [Interface utilisateur](/apps/koust/interface-utilisateur#commandes).
-
----
