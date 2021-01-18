@@ -1,0 +1,27 @@
+.pricing {
+  &__offer-list {
+    display: block;
+    list-style: none;
+    color: $white;
+    font-size: 1rem;
+  }
+
+  &__offer-item {
+    display: block;
+  }
+
+  &__button {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: .6rem 1.5rem;
+    font-size: .9375rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $hr-green;
+    background-color: #fefefe;
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+    @include hr-button-hover($white, $hr-dark-gray);
+  }
+}

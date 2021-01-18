@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import cx from 'classnames'
+import classNames from 'classnames'
 import { useMedia } from 'react-use'
 import { useTranslation } from 'react-i18next'
 
@@ -11,7 +11,7 @@ import {
 } from '../utils/blog'
 import Link from '../link'
 
-function getRecentPosts(articleEdges) {
+function getRecentPosts (articleEdges) {
   return articleEdges
     .map((edge) => {
       const { frontmatter, id, fields } = edge.node
@@ -26,7 +26,7 @@ function getRecentPosts(articleEdges) {
     .slice(0, 5)
 }
 
-function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
+function Sidebar ({ searchQuery, onQueryChange, hideSearchInput }) {
   const { t, i18n } = useTranslation()
   const {
     allMdx: { edges: articleEdges }
@@ -55,7 +55,7 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
     setArchiveExpanded(isDesktop)
   }, [isDesktop])
 
-  function handleSearchSubmit(event) {
+  function handleSearchSubmit (event) {
     event.preventDefault()
 
     if (query.trim() !== searchQuery) {
@@ -72,23 +72,23 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
   return (
     <aside className="section__sidebar">
       {hideSearchInput ? null : (
-        <form className="widget_search" onSubmit={handleSearchSubmit}>
+        <form className="blog-search" onSubmit={handleSearchSubmit}>
           <input
-            className="widget_search__input-search"
+            className="blog-search__input"
             type="text"
             placeholder={t('misc.search')}
             value={query}
             onChange={(event) => setQuery(event.target.value)}
           />
           <i
-            className="widget_search__search-submit fa fa-search"
+            className="blog-search__button fa fa-search"
             onClick={handleSearchSubmit}
           />
         </form>
       )}
 
       <div
-        className={cx(
+        className={classNames(
           'blog_widget',
           !isRecentPostsExpanded && 'blog_widget__hidden'
         )}
@@ -99,9 +99,9 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
         >
           {t('misc.recent_posts')}
           <i
-            className={cx(
-              'fa',
+            className={classNames(
               'blog_widget__arrow',
+              'fa',
               isRecentPostsExpanded ? 'fa-angle-up' : 'fa-angle-down'
             )}
           />
@@ -118,7 +118,7 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
       </div>
 
       <div
-        className={cx(
+        className={classNames(
           'blog_widget',
           !isArchiveExpanded && 'blog_widget__hidden'
         )}
@@ -129,7 +129,7 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
         >
           {t('misc.archives')}
           <i
-            className={cx(
+            className={classNames(
               'fa',
               'blog_widget__arrow',
               isArchiveExpanded ? 'fa-angle-up' : 'fa-angle-down'
