@@ -10,23 +10,23 @@ hero:
   button_label: Start integrating
   button_url: /developers/quick-start
 
-body:
-  - block_type: main
+content:
+  apps:
     title: New connections for your app
     description: |
-      Focus on the development of your app, while we look after integrations.
-      HubRise connects your app to the ones your customers use. [More than 40 apps available](/apps).
-
-    features:
+      Focus on the development of your app, while we look after integrations. HubRise connects your app to the ones your customers use. [More than 40 apps available](/apps).
+    categories:
       - EPOS
       - Online Ordering
       - Food Ordering Platforms
       - Marketing Solutions
       - Loyalty Solutions
-#      - Mobile Payment
       - And More
-#    diagram: diagram-en.png
+    image:
+      normal: frontpage/app-lists.png
+      hover: frontpage/app-lists-hover.png
 
+body:
   - block_type: main
     title: Public and easy to use API
     description: |
@@ -41,7 +41,7 @@ body:
       No guesswork. We document the capabilities, data flow, and common pitfalls of each integrated app.
       See documented apps on our [Apps page](/apps/).
 
-  - block_type: main_green
+  - block_type: main-green
     title: Pricing as it should be
     description: |
       No setup fee. No commitment. No contract.

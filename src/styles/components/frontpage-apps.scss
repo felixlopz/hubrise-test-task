@@ -1,0 +1,105 @@
+.frontpage-apps {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+
+  @media (min-width: $br-large) {
+    margin: 2.5rem auto;
+  }
+
+  &__inside {
+    position: relative;
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem 0;
+    align-items: center;
+    justify-items: center;
+    background-color: $white;
+
+    @media (min-width: $br-large) {
+      padding: 2.5rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0 2rem;
+    }
+
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      height: 100%;
+      content: '';
+      background-color: $white;
+      width: 9999px;
+    }
+  }
+
+  &__text {
+    font-size: 1.125rem;
+
+    @media (min-width: $br-large) {
+      grid-row: 1;
+      grid-column: 2;
+    }
+  }
+
+  &__title {
+    @include hr-frontpage-title;
+  }
+
+  &__description {
+    color: $hr-light-gray;
+  }
+
+  &__categories {
+    color: $hr-light-gray;
+  }
+
+  &__categories-item {
+    display: inline;
+  }
+
+  &__categories-item:not(:last-child) {
+    $gap: 0.5rem;
+    margin-right: $gap;
+
+    &:after {
+      content: '●';
+      display: inline-block;
+      margin-left: $gap;
+      bottom: 0.15em;
+      font-size: 0.75rem;
+      color: $hr-silver-gray;
+    }
+  }
+
+  &__image {
+    display: block;
+    position: relative;
+
+    @media (min-width: $br-large) {
+      grid-row: 1;
+      grid-column: 1;
+      margin: 3rem;
+    }
+  }
+
+  &__image-normal {
+    max-width: 100%;
+    z-index: 0;
+    filter: drop-shadow(5px 5px 10px #eee);
+  }
+
+  &__image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+  }
+
+  &__image:hover &__image-hover {
+    opacity: 1;
+  }
+}

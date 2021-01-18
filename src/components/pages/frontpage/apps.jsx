@@ -1,0 +1,37 @@
+import React from 'react'
+import { markdownToHtml } from '../../utils'
+import GatsbyImage from 'gatsby-image'
+import Link from '../../link'
+
+export const Apps = ({ title, description, categories, apps, appsHover }) => {
+  // debugger
+  return (
+    <section className="frontpage-apps">
+      <div className="frontpage-apps__inside">
+        <div className="frontpage-apps__text">
+          <h3 className="frontpage-apps__title">{title}</h3>
+          <div
+            className="frontpage-apps__description"
+            dangerouslySetInnerHTML={{ __html: markdownToHtml(description) }}
+          />
+          <ul className="frontpage-apps__categories">
+            {categories.map((category) => (
+              <li className="frontpage-apps__categories-item">{category}</li>
+            ))}
+          </ul>
+        </div>
+
+        <Link to="/apps" className="frontpage-apps__image">
+          <img
+            className="frontpage-apps__image-normal"
+            src={apps.childImageSharp.fixed.src}
+          />
+          <img
+            className="frontpage-apps__image-hover"
+            src={appsHover.childImageSharp.fixed.src}
+          />
+        </Link>
+      </div>
+    </section>
+  )
+}

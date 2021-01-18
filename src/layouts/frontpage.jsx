@@ -1,12 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import { Hero, Main } from '../components/pages/frontpage'
+import { Hero, Main, Apps } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
-  const { file, images } = data
-  const { meta, hero, body } = file.childYaml.parsedContent
+  const { file, apps, appsHover, images } = data
+  const { meta, hero, content, body } = file.childYaml.parsedContent
 
   return (
     <>
@@ -18,16 +18,23 @@ const FrontPage = ({ data, pageContext }) => {
 
       <Hero {...hero} />
 
+      <Apps
+        title={content.apps.title}
+        description={content.apps.description}
+        categories={content.apps.categories}
+        apps={apps}
+        appsHover={appsHover}
+      />
+
       {body.map((block) => {
         switch (block.block_type) {
           case 'main':
-          case 'main_green':
+          case 'main-green':
             return (
               <Main
                 title={block.title}
                 descriptionLarge={block.description_large}
                 description={block.description}
-                features={block.features}
                 style={block.block_type === 'main_green' ? 'green' : null}
                 diagramImage={images.nodes.find(
                   ({ base }) => base === block.diagram
@@ -46,6 +53,24 @@ export const frontPageQuery = graphql`
     file(id: { eq: $id }) {
       childYaml {
         parsedContent
+      }
+    }
+    apps: file(
+      absolutePath: { glob: "**/content/base/images/frontpage/apps.png" }
+    ) {
+      childImageSharp {
+        fixed(width: 501, height: 395) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    appsHover: file(
+      absolutePath: { glob: "**/content/base/images/frontpage/apps-hover.png" }
+    ) {
+      childImageSharp {
+        fixed(width: 501, height: 395) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
     images: allFile(

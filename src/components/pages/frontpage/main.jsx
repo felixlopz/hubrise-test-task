@@ -8,7 +8,6 @@ export const Main = ({
   title,
   descriptionLarge,
   description,
-  features,
   style,
   diagramImage
 }) => {
@@ -43,19 +42,6 @@ export const Main = ({
           />
         )}
 
-        {features && (
-          <ul className="frontpage-about">
-            {features.map((feature, idx) => (
-              <li
-                key={generateKey(feature, idx)}
-                className="frontpage-about__item"
-              >
-                <span className="frontpage-about__span">{feature}</span>
-              </li>
-            ))}
-          </ul>
-        )}
-
         {diagramImage && (
           <div className="section__diagram">
             <NonStretchedImage
@@ -74,7 +60,6 @@ Main.propTypes = {
   title: PropTypes.string.isRequired,
   largeDescription: PropTypes.string,
   description: PropTypes.string,
-  features: PropTypes.arrayOf(PropTypes.string),
   diagramImage: PropTypes.shape({
     name: PropTypes.string.isRequired,
     childImageSharp: PropTypes.object.isRequired

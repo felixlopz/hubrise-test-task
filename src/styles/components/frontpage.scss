@@ -1,0 +1,22 @@
+@mixin hr-frontpage-title {
+  position: relative;
+  margin-bottom: 2.5rem;
+  color: $hr-dark-gray;
+  font-weight: bold;
+  font-size: 2rem;
+
+  @media (min-width: $br-large) {
+    font-size: 2.625rem;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 15%;
+    height: 3px;
+    margin: 10px auto;
+    background: $hr-green;
+  }
+}

@@ -6,26 +6,27 @@ meta:
 hero:
   title: Intégration pour le commerce et la restauration
   description: |
-    En une seule intégration, HubRise connecte votre app à une multitude de solutions.
+    Conçu pour les développeurs, HubRise connecte votre app à une multitude de solutions en une seule intégration.
   button_label: Commencer l'intégration
-  button_url: /developers/quick-start
+  button_url: /developers
 
-body:
-  - block_type: main
+content:
+  apps:
     title: De nouvelles connexions pour votre app
     description: |
-      Concentrez-vous sur le développement de votre app, plutôt que sur les intégrations.
-      HubRise connecte votre app à celles que vos clients utilisent. [Plus de 40 apps disponibles](/fr/apps).
-    features:
+      Concentrez-vous sur le développement de votre app, nous nous occupons des intégrations. HubRise vous connecte aux app que vos clients utilisent. [Plus de 40 intégrations disponibles](/fr/apps).
+    categories:
       - Logiciels de caisse
       - Commande en ligne
       - Plateformes de livraison de repas
       - Solutions marketing
       - Cartes de fidélité digitales
-#      - Paiement mobile
       - Et plus encore
-#    diagram: diagram-fr.png
+    image:
+      normal: frontpage/app-lists.png
+      hover: frontpage/app-lists-hover.png
 
+body:
   - block_type: main
     title: Une API publique et facile à utiliser
     description: |
@@ -40,7 +41,7 @@ body:
       Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque app intégrée, pour vous faire gagner du temps.
       Accédez à nos documentations depuis la [page Apps](/fr/apps).
 
-  - block_type: main_green
+  - block_type: main-green
     title: Tarification simple et accessible
     description: |
       Pas de frais d'installation. Pas d'engagement. Pas de contrat.

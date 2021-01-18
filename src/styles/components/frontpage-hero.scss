@@ -37,6 +37,7 @@
       border-top-right-radius: 3px;
       border-bottom-right-radius: 3px;
       position: relative;
+
       &:before {
         content: '';
         background-color: $hr-green;
@@ -71,8 +72,12 @@
 
   &__description {
     margin: 0.75rem 0 0.75rem 0;
-    font-size: 1.25rem;
-    line-height: 0.9em;
+    font-size: 1.125rem;
+
+    @media (min-width: $br-large) {
+      font-size: 1.25rem;
+      line-height: 0.9em;
+    }
   }
 
   &__button {
