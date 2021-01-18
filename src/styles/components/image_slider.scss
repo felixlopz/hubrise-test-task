@@ -1,18 +1,48 @@
 // NOTE: slick-* classes are coming from react-slick carousel component
-
-.image-slider,
-.image-slider__topbar {
-  /* override display prop on .slick-list */
-  display: grid !important;
-  grid-template-columns: 6% 1fr 6%;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
 .image-slider {
-  grid-template-areas: 'arrow_previous slide arrow_next';
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: $hr-z-slideshow;
+  display: grid;
+  grid-template-rows: max-content 1fr;
   align-items: center;
-  width: inherit;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: calc(0.75rem + .5vw);
+
+  &__topbar {
+    padding: 1rem .5rem;
+    display: grid;
+    grid-template-columns: 1fr 6% 1fr;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__title {
+    color: $white;
+    font-weight: bold;
+    justify-self: flex-start;
+  }
+
+  &__count {
+    color: $hr-light-gray;
+    margin-bottom: 0;
+  }
+
+  &__close {
+    justify-self: flex-end;
+  }
+
+  &__content {
+    display: grid !important; // override display prop on .slick-list
+    grid-template-columns: 6% 1fr 6%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    grid-template-areas: 'arrow_previous slide arrow_next';
+    align-items: center;
+  }
 
   & .slick-list {
     grid-area: slide;
@@ -29,23 +59,24 @@
 
   &__arrow_previous {
     grid-area: arrow_previous;
+    justify-self: flex-start;
   }
 
   &__arrow_next {
     grid-area: arrow_next;
+    justify-self: flex-end;
   }
 
   &__arrow_previous,
   &__arrow_next,
-  &__button_close {
-    justify-self: center;
+  &__close {
     display: grid;
+    width: 2em;
+    height: 2em;
     place-items: center;
-    width: 1.1rem;
-    height: 1.1rem;
-    font-size: 0.55rem;
     border-radius: 50%;
     border: 1px solid $white;
+    font-size: 1.2em;
     color: $white;
     opacity: 0.5;
 
@@ -59,85 +90,5 @@
       opacity: 1;
       cursor: pointer;
     }
-
-    @include breakpoint(medium up) {
-      font-size: 1rem;
-      width: 1.75rem;
-      height: 1.75rem;
-    }
-
-    @include breakpoint(large up) {
-      font-size: 1.25rem;
-      width: 2.25rem;
-      height: 2.25rem;
-    }
-
-    @media screen and (min-width: 1600px) {
-      font-size: 1.75rem;
-      width: 3.5rem;
-      height: 3.5rem;
-    }
   }
-
-  &__topbar {
-    position: relative;
-    grid-template-areas: 'app_title count close_button';
-    place-items: center;
-    width: 100vw;
-    margin: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgba(0, 0, 0, 0.6);
-
-    @include breakpoint(medium down) {
-      font-size: 0.8125rem;
-    }
-  }
-
-  &__title {
-    grid-area: app_title;
-    width: 1rem;
-    color: $white;
-    margin-bottom: 0;
-    text-transform: capitalize;
-
-    @include breakpoint(medium up) {
-      width: 1.75rem;
-    }
-
-    @include breakpoint(large up) {
-      width: 2.25rem;
-    }
-
-    @media screen and (min-width: 1600px) {
-      width: 3.5rem;
-    }
-  }
-
-  &__title-app-name {
-    font-weight: bold;
-  }
-
-  &__count {
-    grid-area: count;
-    color: $hr-light-gray;
-    margin-bottom: 0;
-  }
-
-  &__close-button {
-    grid-area: close_button;
-  }
-}
-
-.image-slider-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: grid;
-  align-items: center;
-  grid-template-rows: max-content 1fr;
-  height: 100vh;
-  width: 100vw;
-  z-index: 11;
-  background-color: rgba(0, 0, 0, 0.85);
 }
