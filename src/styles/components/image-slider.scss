@@ -10,10 +10,10 @@
   grid-template-rows: max-content 1fr;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
-  font-size: calc(0.75rem + .5vw);
+  font-size: calc(0.75rem + 0.5vw);
 
   &__topbar {
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
     display: grid;
     grid-template-columns: 1fr 6% 1fr;
     place-items: center;
@@ -38,8 +38,8 @@
   &__content {
     display: grid !important; // override display prop on .slick-list
     grid-template-columns: 6% 1fr 6%;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     grid-template-areas: 'arrow_previous slide arrow_next';
     align-items: center;
   }
