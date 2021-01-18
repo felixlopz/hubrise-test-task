@@ -1,22 +1,33 @@
-@mixin hr-frontpage-title {
-  position: relative;
-  margin-bottom: 2.5rem;
-  color: $hr-dark-gray;
-  font-weight: bold;
-  font-size: 2rem;
+.frontpage {
+  &__row {
+    max-width: 1200px;
+    margin: 1.5rem auto;
 
-  @media (min-width: $br-large) {
-    font-size: 2.625rem;
+    @media (min-width: $br-large) {
+      margin: 2.5rem auto;
+    }
   }
 
-  &:after {
-    content: '';
+  &__inside {
+    position: relative;
+    background-color: $white;
+  }
+
+  &__inside_right:after,
+  &__inside_left:before {
     position: absolute;
-    left: 0;
-    top: 100%;
-    width: 15%;
-    height: 3px;
-    margin: 10px auto;
-    background: $hr-green;
+    top: 0;
+    height: 100%;
+    content: '';
+    background-color: $white;
+    width: 9999px;
+  }
+
+  &__inside_right:after {
+    left: 100%;
+  }
+
+  &__inside_left:before {
+    right: 100%;
   }
 }

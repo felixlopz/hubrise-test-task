@@ -14,7 +14,7 @@ content:
   apps:
     title: New connections for your app
     description: |
-      Focus on the development of your app, while we look after integrations. HubRise connects your app to the ones your customers use. [More than 40 apps available](/apps).
+      HubRise connects your app to the ones your customers use. Focus on the development of your app, while we look after integrations. [More than 40 available integrations](/apps).
     categories:
       - EPOS
       - Online Ordering
@@ -26,15 +26,15 @@ content:
       normal: frontpage/app-lists.png
       hover: frontpage/app-lists-hover.png
 
-body:
-  - block_type: main
+  api:
     title: Public and easy to use API
     description: |
       The HubRise API synchronises orders, customers and products.
       A public documentation, a Postman collection, and a Ruby SDK are available.
       With a few lines of code, you can create a [fully functional and integrated app](https://github.com/HubRise/tiny-tablet).
-    diagram: 001-api-example.png
+    image: 001-api-example.png
 
+body:
   - block_type: main
     title: Documentation at the core
     description: |

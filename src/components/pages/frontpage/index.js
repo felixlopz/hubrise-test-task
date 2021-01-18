@@ -1,3 +1,4 @@
+export * from './api'
 export * from './apps'
 export * from './faq'
 export * from './hero'

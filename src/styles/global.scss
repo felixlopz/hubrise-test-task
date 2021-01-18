@@ -10,6 +10,7 @@
 
 @import 'base/reset';
 @import 'base/macros';
+@import 'base/frontpage';
 
 @import 'components/app-info';
 @import 'components/apps';
@@ -29,6 +30,7 @@
 @import 'components/form';
 @import 'components/frontpage';
 @import 'components/frontpage-about';
+@import 'components/frontpage-api';
 @import 'components/frontpage-apps';
 @import 'components/frontpage-hero';
 @import 'components/grecaptcha-badge';

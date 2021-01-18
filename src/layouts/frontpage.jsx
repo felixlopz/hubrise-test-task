@@ -1,15 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import { Hero, Main, Apps } from '../components/pages/frontpage'
+import { Hero, Main, Apps, Api } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
-  const { file, apps, appsHover, images } = data
+  const { file, apps, appsHover, apiImage, images } = data
   const { meta, hero, content, body } = file.childYaml.parsedContent
 
   return (
-    <>
+    <div class="frontpage">
       <SEO
         lang={pageContext.lang}
         title={meta.title}
@@ -24,6 +24,12 @@ const FrontPage = ({ data, pageContext }) => {
         categories={content.apps.categories}
         apps={apps}
         appsHover={appsHover}
+      />
+
+      <Api
+        title={content.api.title}
+        description={content.api.description}
+        image={apiImage}
       />
 
       {body.map((block) => {
@@ -44,7 +50,7 @@ const FrontPage = ({ data, pageContext }) => {
             break
         }
       })}
-    </>
+    </div>
   )
 }
 
@@ -69,6 +75,15 @@ export const frontPageQuery = graphql`
     ) {
       childImageSharp {
         fixed(width: 501, height: 395) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    apiImage: file(
+      absolutePath: { glob: "**/content/base/images/frontpage/api.png" }
+    ) {
+      childImageSharp {
+        fixed(width: 712, height: 485) {
           ...GatsbyImageSharpFixed
         }
       }

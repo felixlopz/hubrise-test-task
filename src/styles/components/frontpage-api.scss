@@ -1,0 +1,34 @@
+.frontpage-api {
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem 0;
+  align-items: center;
+  justify-items: center;
+
+  @media (min-width: $br-large) {
+    padding: 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 2rem;
+  }
+
+  &__text {
+  }
+
+  &__title {
+    @include hr-frontpage-title;
+  }
+
+  &__description {
+    @include hr-frontpage-description;
+  }
+
+  &__image {
+    display: block;
+    position: relative;
+
+    @media (min-width: $br-large) {
+      margin: 3rem;
+    }
+  }
+}
