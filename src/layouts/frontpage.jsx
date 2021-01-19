@@ -1,7 +1,16 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import { Hero, Main, Apps, Api, Documentation, Pricing, Developers, MissionAndScalability } from '../components/pages/frontpage'
+import {
+  Hero,
+  Apps,
+  Api,
+  Documentation,
+  Pricing,
+  Developers,
+  MissionAndScalability,
+  Join
+} from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
@@ -30,24 +39,7 @@ const FrontPage = ({ data, pageContext }) => {
 
       <MissionAndScalability {...content.mission_and_scalability}/>
 
-      {body.map((block) => {
-        switch (block.block_type) {
-          case 'main':
-          case 'main-green':
-            return (
-              <Main
-                title={block.title}
-                descriptionLarge={block.description_large}
-                description={block.description}
-                style={block.block_type === 'main_green' ? 'green' : null}
-                diagramImage={images.nodes.find(
-                  ({ base }) => base === block.diagram
-                )}
-              />
-            )
-            break
-        }
-      })}
+      <Join {...content.join}/>
     </div>
   )
 }

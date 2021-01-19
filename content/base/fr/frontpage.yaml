@@ -85,8 +85,9 @@ content:
       description: |
         Votre équipe de support et vos utilisateurs peuvent se connecter en un clic. Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
 
-body:
-  - block_type: main
+  join:
     title: Rejoindre l'écosystème est facile
-    description: |
-      Pour connecter votre app, démarrez ici : [Documentation développeurs](/developers).
+    button_label: Créer un compte gratuit
+    button_url: https://manager.hubrise.com/signup
+    link_label: Connecter votre app
+    link_url: /developers

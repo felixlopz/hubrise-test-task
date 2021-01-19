@@ -1,6 +1,5 @@
-.frontpage-pricing {
+.frontpage-full {
   @include hr-frontpage-row;
-  background-color: $hr-green;
 
   &__inside {
     max-width: 1200px;
@@ -21,20 +20,15 @@
     }
   }
 
-  &__title {
-    @include hr-frontpage-title($white, $white, true);
-  }
-
   &__description {
-    @include hr-frontpage-description($white);
-
+    margin-bottom: 2em;
+    
     > p {
       margin: 0;
     }
   }
 
   &__actions {
-    margin-top: 2em;
     display: inline-grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
@@ -53,14 +47,55 @@
   &__button {
     padding: 0.4em 1.5em;
     border-radius: 3px;
+  }
+
+  &__link {
+    text-decoration: underline;
+  }
+}
+
+.frontpage-full_green {
+  background-color: $hr-green;
+
+  .frontpage-full__title {
+    @include hr-frontpage-title($white, $white, true);
+  }
+
+  .frontpage-full__description {
+    @include hr-frontpage-description($white);
+  }
+
+  .frontpage-full__button {
     color: $hr-green;
     background-color: $white;
     @include hr-button-hover($white, $hr-dark-gray);
   }
 
-  &__link {
+  .frontpage-full__link {
     color: $white;
-    text-decoration: underline;
+    @include hr-link-hover($hr-dark-gray);
+  }
+}
+
+.frontpage-full_white {
+  background-color: $white;
+
+  .frontpage-full__title {
+    @include hr-frontpage-title($hr-dark-gray, $hr-green, true);
+  }
+
+  .frontpage-full__description {
+    @include hr-frontpage-description($hr-light-gray);
+  }
+
+  .frontpage-full__button {
+    color: $white;
+    background-color: $hr-green;
+    @include hr-button-hover($white, $hr-dark-gray);
+  }
+
+  .frontpage-full__link {
+    color: $hr-green;
     @include hr-link-hover($hr-dark-gray);
   }
 }
