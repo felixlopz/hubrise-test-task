@@ -340,14 +340,6 @@
     color: $white;
   }
 
-  &__description-title {
-    width: 100%;
-    display: inline-block;
-    color: $hr-dark-gray;
-    font-weight: 600;
-    font-size: 1.125rem;
-  }
-
   &__description-link {
     display: inline-block;
     color: $hr-green;
@@ -365,15 +357,5 @@
 
   &__description_white {
     color: $white;
-  }
-
-  &__description_large {
-    color: $hr-gray;
-    font-weight: 500;
-    font-size: 1.25rem;
-  }
-
-  &__diagram {
-    margin-top: 2rem;
   }
 }
