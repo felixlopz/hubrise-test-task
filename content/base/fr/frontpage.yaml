@@ -37,8 +37,7 @@ content:
   documentation:
     title: Une documentation détaillée
     description: |
-      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque intégration, pour vous faire gagner du temps.
-      Cette documentation est accessible depuis [la page Apps](/fr/apps).
+      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque intégration, pour vous faire gagner du temps. La documentation est publiquement accessible depuis [la page Apps](/fr/apps).
     image: documentation.png
 
   pricing:
@@ -46,10 +45,36 @@ content:
     description: |
       Pas de frais d'installation. Pas d'engagement. Pas de contrat.
       25€ par mois et par point de vente, nombre de connexions illimité.
-    button_label: Démarrer maintenant
-    button_url: https://manager.hubrise.com/signup?locale=fr-FR
+      Essai gratuit jusqu'à 50 commandes par mois.
+    button_label: Démarrer l'essai gratuit
+    button_url: https://manager.hubrise.com/signup
     link_label: Page Tarifs
     link_url: /tarifs
+
+  developers:
+    title: Nous aidons les développeurs
+    description: |
+      Nous sommes développeurs aussi. Nous répondons à toutes vos questions techniques durant l'intégration.
+      Lorsque votre intégration est terminée, nous l'évaluons et la documentons, puis nous communiquons sur votre arrivée dans l'écosystème.
+    team_members:
+      - name: Alberto
+        filename: alberto.jpg
+      - name: Alex
+        filename: alex.jpg
+      - name: Antoine
+        filename: antoine.jpg
+      - name: Dan
+        filename: dan.jpg
+      - name: Dimitri
+        filename: dimitri.jpg
+      - name: Janaina
+        filename: janaina.jpg
+      - name: Leo
+        filename: leo.jpg
+      - name: Nick
+        filename: nick.jpg
+      - name: Vova
+        filename: vova.jpg
 
 body:
   - block_type: main
@@ -57,12 +82,6 @@ body:
     description: |
       Votre équipe de support et vos utilisateurs peuvent se connecter en un clic.
       Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
-
-  - block_type: main
-    title: Nous aidons les développeurs
-    description: |
-      Vous pouvez compter sur nos développeurs pour répondre à vos questions techniques durant l'intégration.
-      A la fin de l'intégration, nous évaluons et documentons le travail que vous avez fait, et communiquons sur votre arrivée avec notre communauté.
 
   - block_type: main
     title: Rejoindre l'écosystème est facile

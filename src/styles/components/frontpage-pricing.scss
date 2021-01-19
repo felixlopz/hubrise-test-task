@@ -1,4 +1,5 @@
 .frontpage-pricing {
+  @include hr-frontpage-row;
   background-color: $hr-green;
 
   &__inside {
@@ -26,10 +27,14 @@
 
   &__description {
     @include hr-frontpage-description($white);
+
+    > p {
+      margin: 0;
+    }
   }
 
   &__actions {
-    margin-top: 1em;
+    margin-top: 2em;
     display: inline-grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;

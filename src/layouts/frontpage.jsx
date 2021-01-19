@@ -1,11 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import { Hero, Main, Apps, Api, Documentation, Pricing } from '../components/pages/frontpage'
+import { Hero, Main, Apps, Api, Documentation, Pricing, Developers } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
-  const { file, apps, appsHover, apiImage, documentationImage, images } = data
+  const { file, apps, appsHover, apiImage, documentationImage, teamPictures, images } = data
   const { meta, hero, content, body } = file.childYaml.parsedContent
 
   return (
@@ -25,6 +25,8 @@ const FrontPage = ({ data, pageContext }) => {
       <Documentation {...content.documentation} image={documentationImage}/>
 
       <Pricing {...content.pricing}/>
+
+      <Developers {...content.developers} teamPictures={teamPictures}/>
 
       {body.map((block) => {
         switch (block.block_type) {
@@ -88,6 +90,24 @@ export const frontPageQuery = graphql`
       childImageSharp {
         fixed(width: 558, height: 347) {
           ...GatsbyImageSharpFixed
+        }
+      }
+    } 
+    teamPictures: allFile(
+      filter: {
+        absolutePath: { glob: "**/content/base/images/frontpage/team/*" }
+        extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
+      }
+    ) {
+      nodes {
+        name
+        base
+        publicURL
+        relativeDirectory
+        childImageSharp {
+          fixed(width: 124, height: 124) {
+            ...GatsbyImageSharpFixed
+          }
         }
       }
     } 

@@ -37,8 +37,7 @@ content:
   documentation:
     title: Documentation at the core
     description: |
-      No guesswork. We document the capabilities, data flow, and common pitfalls of each integrated app.
-      See documented apps on our [Apps page](/apps/).
+      No guesswork. We document the capabilities, data flow, and common pitfalls of each integrated app. Documentation is publicly available on our [Apps page](/apps/).
     image: documentation.png
 
   pricing:
@@ -46,10 +45,36 @@ content:
     description: |
       No setup fee. No commitment. No contract.
       25€ per month per location, unlimited number of connections.
-    button_label: Start now
-    button_url: https://manager.hubrise.com/signup?locale=en-GB
+      Free trial up to 50 orders per month.
+    button_label: Start free trial
+    button_url: https://manager.hubrise.com/signup
     link_label: Pricing page
     link_url: /pricing
+
+  developers:
+    title: We help developers
+    description: |
+      We are developers too. We answer all your technical questions during the integration.
+      Once your integration work is completed, we assess and document the work done, then share the news of you joining the ecosystem.
+    team_members:
+      - name: Alberto
+        filename: alberto.jpg
+      - name: Alex
+        filename: alex.jpg
+      - name: Antoine
+        filename: antoine.jpg
+      - name: Dan
+        filename: dan.jpg
+      - name: Dimitri
+        filename: dimitri.jpg
+      - name: Janaina
+        filename: janaina.jpg
+      - name: Leo
+        filename: leo.jpg
+      - name: Nick
+        filename: nick.jpg
+      - name: Vova
+        filename: vova.jpg
 
 body:
   - block_type: main
@@ -57,12 +82,6 @@ body:
     description: |
       Your support team and your users can connect in one click.
       Connection logs are available in the back office. Troubleshooting does not require development skills.
-
-  - block_type: main
-    title: We help developers
-    description: |
-      We are developers too. You can count on us to answer your technical questions during the integration.
-      Once you are integrated, we will assess and document the work done, and share the news with our community.
 
   - block_type: main
     title: Joining the ecosystem is easy
