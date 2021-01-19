@@ -1,5 +1,6 @@
 export * from './api'
 export * from './apps'
-export * from './faq'
+export * from './documentation'
 export * from './hero'
 export * from './main'
+export * from './pricing'

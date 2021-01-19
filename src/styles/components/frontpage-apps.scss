@@ -20,15 +20,15 @@
   }
 
   &__title {
-    @include hr-frontpage-title;
+    @include hr-frontpage-title($hr-dark-gray, $hr-green);
   }
 
   &__description {
-    @include hr-frontpage-description;
+    @include hr-frontpage-description($hr-light-gray);
   }
 
   &__categories {
-    color: $hr-light-gray;
+    @include hr-frontpage-description($hr-light-gray);
   }
 
   &__categories-item {

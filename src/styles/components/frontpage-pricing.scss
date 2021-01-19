@@ -1,0 +1,61 @@
+.frontpage-pricing {
+  background-color: $hr-green;
+
+  &__inside {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+
+    @media (min-width: $br-large) {
+      padding: 2.5rem;
+    }
+  }
+
+  &__text {
+    @media (min-width: $br-large) {
+      grid-row: 1;
+      grid-column: 2;
+    }
+  }
+
+  &__title {
+    @include hr-frontpage-title($white, $white, true);
+  }
+
+  &__description {
+    @include hr-frontpage-description($white);
+  }
+
+  &__actions {
+    margin-top: 1em;
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: .9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    @media (min-width: $br-medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__button {
+    padding: 0.4em 1.5em;
+    border-radius: 3px;
+    color: $hr-green;
+    background-color: $white;
+    @include hr-button-hover($white, $hr-dark-gray);
+  }
+
+  &__link {
+    color: $white;
+    text-decoration: underline;
+    @include hr-link-hover($hr-dark-gray);
+  }
+}

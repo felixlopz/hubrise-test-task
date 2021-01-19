@@ -1,4 +1,4 @@
-.frontpage-api {
+.frontpage-documentation {
   padding: 2rem 1rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -13,6 +13,10 @@
   }
 
   &__text {
+    @media (min-width: $br-large) {
+      grid-row: 1;
+      grid-column: 2;
+    }
   }
 
   &__title {
@@ -28,6 +32,8 @@
     position: relative;
 
     @media (min-width: $br-large) {
+      grid-row: 1;
+      grid-column: 1;
       margin: 3rem;
     }
   }

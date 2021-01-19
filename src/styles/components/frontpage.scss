@@ -1,33 +1,40 @@
 .frontpage {
   &__row {
-    max-width: 1200px;
-    margin: 1.5rem auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 
     @media (min-width: $br-large) {
-      margin: 2.5rem auto;
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
     }
   }
 
-  &__inside {
-    position: relative;
-    background-color: $white;
-  }
+  &__row_oneside {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
-  &__inside_right:after,
-  &__inside_left:before {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    content: '';
-    background-color: $white;
-    width: 9999px;
-  }
+    &__in {
+      position: relative;
+      background-color: $white;
+    }
 
-  &__inside_right:after {
-    left: 100%;
-  }
+    &__in_right:after,
+    &__in_left:before {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      content: '';
+      background-color: $white;
+      width: 9999px;
+    }
 
-  &__inside_left:before {
-    right: 100%;
+    &__in_right:after {
+      left: 100%;
+    }
+
+    &__in_left:before {
+      right: 100%;
+    }
   }
 }

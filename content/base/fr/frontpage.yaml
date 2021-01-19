@@ -32,21 +32,26 @@ content:
       Notre API synchronise les commandes, les clients et les produits.
       Une documentation publique, une collection Postman, et un SDK Ruby sont disponibles.
       En quelques lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/tiny-tablet).
-    image: 001-api-example.png
+    image: api.png
 
-body:
-  - block_type: main
+  documentation:
     title: Une documentation détaillée
     description: |
-      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque app intégrée, pour vous faire gagner du temps.
-      Accédez à nos documentations depuis la [page Apps](/fr/apps).
+      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque intégration, pour vous faire gagner du temps.
+      Cette documentation est accessible depuis [la page Apps](/fr/apps).
+    image: documentation.png
 
-  - block_type: main-green
+  pricing:
     title: Tarification simple et accessible
     description: |
       Pas de frais d'installation. Pas d'engagement. Pas de contrat.
       25€ par mois et par point de vente, nombre de connexions illimité.
+    button_label: Démarrer maintenant
+    button_url: https://manager.hubrise.com/signup?locale=fr-FR
+    link_label: Page Tarifs
+    link_url: /tarifs
 
+body:
   - block_type: main
     title: Maintenance réduite et scalabilité
     description: |

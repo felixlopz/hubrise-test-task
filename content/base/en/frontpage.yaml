@@ -32,21 +32,26 @@ content:
       The HubRise API synchronises orders, customers and products.
       A public documentation, a Postman collection, and a Ruby SDK are available.
       With a few lines of code, you can create a [fully functional and integrated app](https://github.com/HubRise/tiny-tablet).
-    image: 001-api-example.png
+    image: api.png
 
-body:
-  - block_type: main
+  documentation:
     title: Documentation at the core
     description: |
       No guesswork. We document the capabilities, data flow, and common pitfalls of each integrated app.
       See documented apps on our [Apps page](/apps/).
+    image: documentation.png
 
-  - block_type: main-green
+  pricing:
     title: Pricing as it should be
     description: |
       No setup fee. No commitment. No contract.
       25€ per month per location, unlimited number of connections.
+    button_label: Start now
+    button_url: https://manager.hubrise.com/signup?locale=en-GB
+    link_label: Pricing page
+    link_url: /pricing
 
+body:
   - block_type: main
     title: Scalable and low maintenance
     description: |

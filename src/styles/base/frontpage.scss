@@ -1,9 +1,13 @@
-@mixin hr-frontpage-title {
+@mixin hr-frontpage-title($title-color, $line-color, $center: false) {
   position: relative;
   margin-bottom: 2.5rem;
   font-weight: bold;
   font-size: 2.625rem;
-  color: $hr-dark-gray;
+  color: $title-color;
+
+  @if $center {
+    text-align: center;
+  }
 
   @media (min-width: $br-medium) {
     font-size: 2.625rem;
@@ -12,16 +16,20 @@
   &:after {
     content: '';
     position: absolute;
-    left: 0;
+    @if $center {
+      left: 43%;
+    } @else {
+      left: 0;
+    }
     top: 100%;
-    width: 15%;
+    width: 14%;
     height: 3px;
     margin: 10px auto;
-    background: $hr-green;
+    background-color: $line-color;
   }
 }
 
-@mixin hr-frontpage-description {
+@mixin hr-frontpage-description($color) {
   font-size: 1.125rem;
-  color: $hr-light-gray;
+  color: $color;
 }

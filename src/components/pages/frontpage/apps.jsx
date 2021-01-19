@@ -4,8 +4,8 @@ import Link from '../../link'
 
 export const Apps = ({ title, description, categories, apps, appsHover }) => {
   return (
-    <section className="frontpage__row">
-      <div className="frontpage__inside frontpage__inside_right">
+    <section className="frontpage__row frontpage__row_oneside">
+      <div className="frontpage__row_oneside__in frontpage__row_oneside__in_right">
         <div className="frontpage-apps">
           <div className="frontpage-apps__text">
             <h3 className="frontpage-apps__title">{title}</h3>
