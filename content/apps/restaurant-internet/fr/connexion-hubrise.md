@@ -13,12 +13,14 @@ Pour connecter Restaurant-internet à HubRise, il suffit de suivre quelques éta
 
 Pour établir la connexion entre votre solution de commande en ligne Restaurant-internet et HubRise :
 
-1. Accédez à la page [Hubrise](https://cockpit.restaurant-internet.com/premium/hubrise).
-   ![Connexion à HubRise - Configuration HubRise](../images/005-fr-restaurant-internet-configuration-hubrise.png)
-1. Sélectionnez **Se connecter**. Vous êtes redirigés vers l'interface HubRise.
-   ![Connexion à HubRise - Choix point de vente](../images/006-fr-restaurant-internet-choix-point-vente.png)
+1. Depuis votre tableau de bord Restaurant-internet, dans la partie **Modules**, sélectionnez **Marketplace Autres modules**.
+   ![Connexion à HubRise - Marketplace](../images/005-fr-restaurant-internet-marketplace.png)
+1. Sélectionnez **Hubrise - Connection Caisse Gratuit**.
+   ![Connexion à HubRise - Non connecté à HubRise](../images/006-fr-restaurant-internet-non-connecte.png)
+1. En bas de la page, sélectionnez **Se connecter / Créer un compte**. Vous êtes redirigés vers l'interface HubRise.
+   ![Connexion à HubRise - Choix point de vente](../images/007-fr-restaurant-internet-choix-point-vente.png)
 1. Choisissez le point de vente que vous désirez connecter et sélectionnez **Autoriser** pour donner à Restaurant-internet l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, sélectionnez **Suivant** afin d'afficher les listes déroulantes correspondantes avant de sélectionner **Autoriser**. Vous êtes redirigés vers votre tableau de bord Restaurant-internet, affichant les informations de votre point de vente.
-   ![Connexion à HubRise - Connecté à HubRise](../images/007-fr-restaurant-internet-connecte.png)
+   ![Connexion à HubRise - Connecté à HubRise](../images/008-fr-restaurant-internet-connecte.png)
 1. En cas de besoin, le support de Restaurant-internet peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/restaurant-internet/connexion-hubrise#donner-acc-s-au-support-de-restaurant-internet).
 
 ---
@@ -34,9 +36,14 @@ Il est conseillé de donner au support de Restaurant-internet l'accès à votre 
 1. Depuis votre espace HubRise, sélectionnez **CONFIGURATION** > **COMPTES** dans le menu de gauche. La liste de vos comptes s'affiche.
 1. Sélectionnez le compte auquel votre point de vente est rattaché.
 1. Dans la section **Points de vente**, sélectionnez votre point de vente.
-1. Dans la section **Permissions**, ajoutez *contact@restaurant-internet.com* en sélectionnant l'option **Manager** (et non **Admin**) dans la liste déroulante des rôles, puis sélectionnez l'icône *+*. L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente, le partage de mot de passe est déconseillé pour des raisons de sécurité.
+1. Dans la section **Permissions**, ajoutez *contact@restaurant-internet.com* en sélectionnant l'option **Manager** (et non **Admin**) dans la liste déroulante des rôles, puis sélectionnez l'icône **+**. L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente, le partage de mot de passe est déconseillé pour des raisons de sécurité.
 
 ## Déconnecter Restaurant-internet
 
-1. Accédez à la page [Hubrise](https://cockpit.restaurant-internet.com/premium/hubrise).
-1. Sélectionnez **Se déconnecter**.
+Pour vous déconnecter, suivez les étapes suivantes :
+
+1. Depuis votre tableau de bord Restaurant-internet, dans la partie **Modules**, sélectionnez **Marketplace Autres modules**.
+   ![Connexion à HubRise - Marketplace](../images/005-fr-restaurant-internet-marketplace.png)
+1. Sélectionnez **Hubrise - Connection Caisse Gratuit**.
+   ![Connexion à HubRise - Connecté à HubRise](../images/008-fr-restaurant-internet-connecte.png)
+1. En bas de la page, sélectionnez **Se déconnecter**.
