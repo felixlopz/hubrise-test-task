@@ -6,12 +6,19 @@ import GatsbyImage from 'gatsby-image'
 import Link from '../../link'
 import { generateKey } from '../../utils'
 
-export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
+export const AppSection = ({
+  title,
+  showTitle,
+  apps,
+  logos,
+  suggestAppContent
+}) => {
   const { t } = useTranslation()
 
   return (
     <section className="section section__center">
-      <h3 className="section__title">{title}</h3>
+      {showTitle && <h3 className="section__title">{title}</h3>}
+
       <div className="apps">
         {apps.map((app, idx) => {
           const logo = logos.find(({ base }) => base === app.logo)
@@ -30,11 +37,11 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
                 {...logo.childImageSharp}
               />
               <div className="apps__documentation">
-                {app.documentation ? t('apps.view_documentation') : t('apps.visit_website')}
+                {app.documentation
+                  ? t('apps.view_documentation')
+                  : t('apps.visit_website')}
               </div>
-              <div className="apps__description">
-                {app.description}
-              </div>
+              <div className="apps__description">{app.description}</div>
               {app.additional_info && (
                 <div className="apps__additional-info">
                   {app.additional_info}
@@ -51,6 +58,7 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
 
 AppSection.propTypes = {
   title: PropTypes.string.isRequired,
+  showTitle: PropTypes.bool.isRequired,
   apps: PropTypes.arrayOf(
     PropTypes.shape({
       to: PropTypes.string.isRequired,

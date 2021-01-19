@@ -19,23 +19,12 @@
     display: flex;
   }
 
-  &__nav-item + &__nav-item {
-    $gap: 0.5rem;
-    margin-left: $gap;
-
-    &:before {
-      content: '●';
-      display: inline-block;
-      margin-right: $gap;
-      position: relative;
-      bottom: 0.15em;
-      font-size: 0.75rem;
-      color: $hr-silver-gray;
-    }
+  &__nav-item {
+    @include hr-dot-separated-list(0.5rem);
   }
 
   &__nav-link {
-    color: $hr-gray;
+    color: $hr-dark-gray;
     @include hr-link-hover($hr-green);
   }
 

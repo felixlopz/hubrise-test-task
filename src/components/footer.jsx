@@ -77,7 +77,6 @@ const Copyright = () => (
 const ScrollUpButton = () => (
   <button
     className="footer__scroll-up"
-    id="scroll-top"
     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
   >
     <i className="fa fa-angle-up" />

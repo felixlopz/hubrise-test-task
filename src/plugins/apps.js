@@ -8,11 +8,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const { data, errors } = await graphql(`
     query {
-      allFile(
-        filter: {
-          base: { eq: "apps.yaml" }
-        }
-      ) {
+      allFile(filter: { base: { eq: "apps.yaml" } }) {
         nodes {
           absolutePath
           base
@@ -40,12 +36,11 @@ exports.createPages = async ({ graphql, actions }) => {
       component: appsLayout,
       context: {
         id: node.id,
-        lang: locale.code,
-        category: null
+        lang: locale.code
       }
     })
 
-    const categories = content.sections.map(({ title }) => title)
+    const categories = content.categories.map(({ title }) => title)
     categories.forEach((category) => {
       const slug = category.replace(/ +/g, '-').toLowerCase()
       createPage({

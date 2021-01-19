@@ -28,3 +28,20 @@
     color: $color;
   }
 }
+
+@mixin hr-dot-separated-list($gap) {
+  display: inline;
+
+  &:not(:last-child) {
+    margin-right: $gap;
+
+    &:after {
+      content: '●';
+      display: inline;
+      margin-left: $gap;
+      bottom: 0.15em;
+      font-size: 0.75rem;
+      color: $hr-silver-gray;
+    }
+  }
+}

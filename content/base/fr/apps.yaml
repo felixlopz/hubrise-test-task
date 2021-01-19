@@ -11,8 +11,8 @@ content:
       paragraph_2_text: Vous êtes développeur et souhaitez intégrer votre application à HubRise ?
       paragraph_2_link_text: Voir la documentation technique
       paragraph_2_link_to: /developers
-  all_filter: Toutes les apps
-  sections:
+  all_apps: Toutes les apps
+  categories:
     - title: Logiciels de caisse
       has_suggest_app: true
       apps:

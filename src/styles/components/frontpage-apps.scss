@@ -32,21 +32,7 @@
   }
 
   &__categories-item {
-    display: inline;
-  }
-
-  &__categories-item:not(:last-child) {
-    $gap: 0.5rem;
-    margin-right: $gap;
-
-    &:after {
-      content: '●';
-      display: inline-block;
-      margin-left: $gap;
-      bottom: 0.15em;
-      font-size: 0.75rem;
-      color: $hr-silver-gray;
-    }
+    @include hr-dot-separated-list(0.5rem);
   }
 
   &__image {
