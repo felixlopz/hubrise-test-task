@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import { Hero, Main, Apps, Api, Documentation, Pricing, Developers } from '../components/pages/frontpage'
+import { Hero, Main, Apps, Api, Documentation, Pricing, Developers, MissionAndScalability } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
@@ -27,6 +27,8 @@ const FrontPage = ({ data, pageContext }) => {
       <Pricing {...content.pricing}/>
 
       <Developers {...content.developers} teamPictures={teamPictures}/>
+
+      <MissionAndScalability {...content.mission_and_scalability}/>
 
       {body.map((block) => {
         switch (block.block_type) {

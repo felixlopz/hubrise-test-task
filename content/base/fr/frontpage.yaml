@@ -67,8 +67,6 @@ content:
         filename: dan.jpg
       - name: Dimitri
         filename: dimitri.jpg
-      - name: Janaina
-        filename: janaina.jpg
       - name: Leo
         filename: leo.jpg
       - name: Nick
@@ -76,13 +74,18 @@ content:
       - name: Vova
         filename: vova.jpg
 
-body:
-  - block_type: main
-    title: Maintenance réduite et scalabilité
-    description: |
-      Votre équipe de support et vos utilisateurs peuvent se connecter en un clic.
-      Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
+  mission_and_scalability:
+    mission:
+      title: Notre vision
+      description: |
+        We want integrations to not be a challenge anymore. We make this possible by moving, unifying and securing data to its rightful place, in the cloud, to be accessed real-time when authorised.
 
+    scalability:
+      title: Maintenance réduite et scalabilité
+      description: |
+        Votre équipe de support et vos utilisateurs peuvent se connecter en un clic. Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
+
+body:
   - block_type: main
     title: Rejoindre l'écosystème est facile
     description: |

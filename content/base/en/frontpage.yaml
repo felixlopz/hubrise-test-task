@@ -67,8 +67,6 @@ content:
         filename: dan.jpg
       - name: Dimitri
         filename: dimitri.jpg
-      - name: Janaina
-        filename: janaina.jpg
       - name: Leo
         filename: leo.jpg
       - name: Nick
@@ -76,13 +74,18 @@ content:
       - name: Vova
         filename: vova.jpg
 
-body:
-  - block_type: main
-    title: Scalable and low maintenance
-    description: |
-      Your support team and your users can connect in one click.
-      Connection logs are available in the back office. Troubleshooting does not require development skills.
+  mission_and_scalability:
+    mission:
+      title: Our vision
+      description: |
+        We want integrations to not be a challenge anymore. We make this possible by moving, unifying and securing data to its rightful place, in the cloud, to be accessed real-time when authorised.
 
+    scalability:
+      title: Scalable and low maintenance
+      description: |
+        Your support team and your users can connect in one click. Connection logs are available in the back office. Troubleshooting does not require development skills.
+
+body:
   - block_type: main
     title: Joining the ecosystem is easy
     description: |

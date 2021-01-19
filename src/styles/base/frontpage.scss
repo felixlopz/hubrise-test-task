@@ -17,6 +17,8 @@
 
   @if $center {
     text-align: center;
+  } @else {
+    text-align: left;
   }
 
   @media (min-width: $br-medium) {
