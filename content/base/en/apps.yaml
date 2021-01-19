@@ -11,6 +11,7 @@ content:
       paragraph_2_text: Are you a developer and you would like to integrate your solution with HubRise?
       paragraph_2_link_text: See the technical documentation
       paragraph_2_link_to: /developers
+  all_filter: All Apps
   sections:
     - title: Point of Sales
       has_suggest_app: true
