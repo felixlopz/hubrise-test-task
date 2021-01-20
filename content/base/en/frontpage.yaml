@@ -12,7 +12,7 @@ hero:
 
 content:
   apps:
-    title: New connections for your app
+    title: New integrations for your app
     description: |
       HubRise connects your app to the ones your customers use. Focus on the development of your app, while we look after integrations. [More than 40 available integrations](/apps).
     categories:
@@ -44,8 +44,7 @@ content:
     title: Pricing as it should be
     description: |
       No setup fee. No commitment. No contract.
-      25€ per month per location, unlimited number of connections.
-      Free trial up to 50 orders per month.
+      25€ per month per location. Free up to 50 orders per month.
     button_label: Start free trial
     button_url: https://manager.hubrise.com/signup
     link_label: Pricing page
@@ -55,7 +54,7 @@ content:
     title: We help developers
     description: |
       We are developers too. We answer all your technical questions during the integration.
-      Once your integration work is completed, we assess and document the work done, then share the news of you joining the ecosystem.
+      Once your integration is completed, we assess and document the work done. Then we share the news of you being part of the ecosystem.
     team_members:
       - name: Alberto
         filename: alberto.jpg
@@ -86,8 +85,8 @@ content:
         Your support team and your users can connect in one click. Connection logs are available in the back office. Troubleshooting does not require development skills.
 
   join:
-    title: Joining the ecosystem is easy
-    button_label: Create free account
-    button_url: https://manager.hubrise.com/signup
-    link_label: Connect your app
-    link_url: /developers
+    title: Ready to join the ecosystem?
+    button_label: Connect your app
+    button_url: /developers
+    link_label: Create free account
+    link_url: https://manager.hubrise.com/signup

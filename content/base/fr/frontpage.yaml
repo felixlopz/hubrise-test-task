@@ -12,7 +12,7 @@ hero:
 
 content:
   apps:
-    title: De nouvelles connexions pour votre app
+    title: Nouvelles intégrations pour votre app
     description: |
       HubRise connecte votre app à celles que vos clients utilisent. Concentrez-vous sur le développement de votre app, nous nous occupons des intégrations. [Plus de 40 intégrations disponibles](/fr/apps).
     categories:
@@ -37,15 +37,15 @@ content:
   documentation:
     title: Une documentation détaillée
     description: |
-      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque intégration, pour vous faire gagner du temps. La documentation est publiquement accessible depuis [la page Apps](/fr/apps).
+      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque intégration, pour vous faire gagner du temps.
+      La documentation est publiquement accessible depuis [la page Apps](/fr/apps).
     image: documentation.png
 
   pricing:
     title: Tarification simple et accessible
     description: |
       Pas de frais d'installation. Pas d'engagement. Pas de contrat.
-      25€ par mois et par point de vente, nombre de connexions illimité.
-      Essai gratuit jusqu'à 50 commandes par mois.
+      25€ HT par mois et par point de vente. Gratuit jusqu'à 50 commandes par mois.
     button_label: Démarrer l'essai gratuit
     button_url: https://manager.hubrise.com/signup
     link_label: Page Tarifs
@@ -55,7 +55,7 @@ content:
     title: Nous aidons les développeurs
     description: |
       Nous sommes développeurs aussi. Nous répondons à toutes vos questions techniques durant l'intégration.
-      Lorsque votre intégration est terminée, nous l'évaluons et la documentons, puis nous communiquons sur votre arrivée dans l'écosystème.
+      Lorsque votre intégration est terminée, nous l'évaluons et la documentons. Puis nous communiquons sur votre arrivée dans l'écosystème.
     team_members:
       - name: Alberto
         filename: alberto.jpg
@@ -86,8 +86,8 @@ content:
         Votre équipe de support et vos utilisateurs peuvent se connecter en un clic. Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
 
   join:
-    title: Rejoindre l'écosystème est facile
-    button_label: Créer un compte gratuit
-    button_url: https://manager.hubrise.com/signup
-    link_label: Connecter votre app
-    link_url: /developers
+    title: Prêt à rejoindre l'écosystème ?
+    button_label: Connecter votre app
+    button_url: /developers
+    link_label: Créer un compte gratuit
+    link_url: https://manager.hubrise.com/signup
