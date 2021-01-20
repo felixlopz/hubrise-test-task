@@ -2,14 +2,30 @@ import React from 'react'
 
 import SEO from '../components/seo'
 import { useTranslation } from 'react-i18next'
+import Link from '../components/link'
+
+import image404 from '../images/404.png'
 
 const NotFoundPage = () => {
   const { t } = useTranslation()
   return (
     <>
-      <SEO title={t('layout.404.meta.title')} />
-      <h1>{t('layout.404.title')}</h1>
-      <p>{t('layout.404.text')}</p>
+      <SEO title={t('layout.404.meta.title')}/>
+
+      <div className="page-404">
+        <h1 className="page-404__title">
+          {t('layout.404.title')}
+        </h1>
+        <div className="page-404__text">
+          {t('layout.404.text')}
+          &nbsp;
+          <Link to="/" className="page-404__text-link">
+            {t('layout.404.text_link')}
+          </Link>
+        </div>
+
+        <img className="page-404__image" alt="404 not found" src={image404}/>
+      </div>
     </>
   )
 }

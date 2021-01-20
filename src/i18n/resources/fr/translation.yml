@@ -15,8 +15,9 @@ layout:
   404:
     meta:
       title: 404 - Page non trouvée
-    title: NON TROUVE
-    text: Cette page n'existe pas ou a été supprimée...
+    title: Page non trouvée
+    text: Retour à la
+    text_link: Page d'accueil
 
 misc:
   feedback:

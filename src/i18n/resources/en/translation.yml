@@ -15,8 +15,9 @@ layout:
   404:
     meta:
       title: 404 - Page not found
-    title: NOT FOUND
-    text: The page doesn't exist or has been deleted...
+    title: Page not found
+    text: Go back to
+    text_link: Homepage
 
 misc:
   feedback:
