@@ -27,6 +27,14 @@ Note that items in the **Modifier Groups** tab also have the **External Data** f
 
 ## Product-Level Comments
 
-When customers place an order on Uber Eats, comments added to individual products are not sent to the EPOS by Uber Eats Bridge.
+---
+
+**IMPORTANT NOTE:** Product-level comments are automatically disabled on your Uber Eats store when you connect to HubRise.
+
+---
+
+HubRise and most EPOS systems do not support product-level comments. To avoid poor customer experience resulting from product-level comments not being sent to the EPOS, these are automatically disabled when you first connect your Uber Eats store to HubRise.
 
 If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
+
+However, if you have an alternative way to read product-level comments, for example from your Uber Eats tablet, you can always request Uber Eats to re-enable them by contacting Uber Eats support.
