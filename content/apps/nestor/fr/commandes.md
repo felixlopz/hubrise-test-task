@@ -14,7 +14,7 @@ Lorsque Nestor est connecté à HubRise et que le catalogue est synchronisé, au
 Nestor vérifie toutes les 20 secondes grâce à l'utilitaire WebNES si de nouvelles commandes ont été envoyées à HubRise. Une alerte visuelle et sonore signale l'arrivée d'une nouvelle commande dans Nestor.
    ![Commandes - Alerte commande web](../images/012-fr-nestor-alerte-commande.png)
 
-Pour voir la liste des commandes en attente, cliquez sur l'alerte. Pour voir le détail de la commande et la valider, cliquez sur la ligne correspondante.
+Pour voir la liste des commandes en attente, sélectionnez l'alerte. Pour voir le détail de la commande et la valider, sélectionnez la ligne correspondante.
    ![Commandes - Commandes web](../images/013-fr-nestor-commandes-web.png)
 
 ### Commande avec des articles inconnus
@@ -63,24 +63,6 @@ Vous pouvez retrouver toutes vos commandes en suivant les étapes suivantes.
 1. Sélectionnez l'option **Carnet de commandes**. La fenêtre des commandes s'ouvre.
 1. Sélectionnez l'onglet correspondant au type de commande que vous souhaitez visualiser : *En cours*, *Web*, *Annulées*, *Différées*, *Tickets / Factures*.
 1. Double-cliquez sur la ligne correspondant à la commande désirée. La fenêtre détaillant ses informations s'ouvre.
-
-**Interprétation technique**
-
-Voici comment les champs d'une commande HubRise sont utilisés dans Nestor :
-
-| Nom du champ HubRise                   | Utilisation dans Nestor                                                     |
-| -------------------------------------- | --------------------------------------------------------------------------- |
-| `service_type`                         | Permet de savoir si la commande est en livraison, sur place, ou à emporter. |
-| `service_type_ref`                     | Non utilisé.                                                                |
-| `expected_time`                        | Heure et date auxquelles la commande sera prête ou livrée.                  |
-| `item.sku_ref`                         | Code permettant de retrouver l'article dans le catalogue Nestor.            |
-| `item.price`                           | Prix de l'article. Si celui-ci est différent de celui du catalogue Nestor, le pourcentage du champ *Remise* est complété en fonction. |
-| `item.product_name` et `item.sku_name` | Permettent de remplir la description d'un article inconnu si le `item.sku_ref` n'est pas reconnu. |
-| `charges`                              | Permet de remplir le forfait livraison (seul type de frais accepté).        |
-| `discounts`                            | Liste des offres promotionnelles.                                           |
-| `deals`                                | Liste des menus, considérés comme des articles dans la commande.            |
-| `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'email. L'email est utilisé dans le cas d'une demande d'envoi de ticket. |
-| `payment.type`                         | Moyen de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. | 
 
 **Fonctionnalité prévue :** Il n'est pour l'instant pas possible de connaître l'app dont provient la commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, contactez l'éditeur de Nestor.
 
