@@ -16,8 +16,7 @@ layout:
     meta:
       title: 404 - Page not found
     title: Page not found
-    text: Go back to
-    text_link: Homepage
+    text_link: Go back to the Homepage
 
 misc:
   feedback:

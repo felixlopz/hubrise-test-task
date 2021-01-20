@@ -10,21 +10,15 @@ const NotFoundPage = () => {
   const { t } = useTranslation()
   return (
     <>
-      <SEO title={t('layout.404.meta.title')}/>
+      <SEO title={t('layout.404.meta.title')} />
 
       <div className="page-404">
-        <h1 className="page-404__title">
-          {t('layout.404.title')}
-        </h1>
-        <div className="page-404__text">
-          {t('layout.404.text')}
-          &nbsp;
-          <Link to="/" className="page-404__text-link">
-            {t('layout.404.text_link')}
-          </Link>
-        </div>
+        <h1 className="page-404__title">{t('layout.404.title')}</h1>
+        <Link to="/" className="page-404__link">
+          {t('layout.404.text_link')}
+        </Link>
 
-        <img className="page-404__image" alt="404 not found" src={image404}/>
+        <img className="page-404__image" alt="404 not found" src={image404} />
       </div>
     </>
   )

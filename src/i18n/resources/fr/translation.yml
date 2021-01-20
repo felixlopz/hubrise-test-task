@@ -16,8 +16,7 @@ layout:
     meta:
       title: 404 - Page non trouvée
     title: Page non trouvée
-    text: Retour à la
-    text_link: Page d'accueil
+    text_link: Retour à la page d'accueil
 
 misc:
   feedback:
