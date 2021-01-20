@@ -20,7 +20,7 @@ content:
       - Online Ordering
       - Food Ordering Platforms
       - Marketing Solutions
-      - Loyalty Solutions
+      - Loyalty cards
       - And More
     image:
       normal: frontpage/app-lists.png
@@ -29,22 +29,22 @@ content:
   api:
     title: Public and easy to use API
     description: |
-      The HubRise API synchronises orders, customers and products.
-      A public documentation, a Postman collection, and a Ruby SDK are available.
-      With a few lines of code, you can create a [fully functional and integrated app](https://github.com/HubRise/tiny-tablet).
+      Synchronise orders, customers and products. A well-written documentation, a Postman collection, and a Ruby SDK make integration seamless.
+      Just for fun, we created a fully functional and integrated app in a few lines of code, which you can [view on GitHub](https://github.com/HubRise/tiny-tablet).
     image: api.png
 
   documentation:
     title: Documentation at the core
     description: |
-      No guesswork. We document the capabilities, data flow, and common pitfalls of each integrated app. Documentation is publicly available on our [Apps page](/apps/).
+      No guesswork. We document functionalities, data flow, and common pitfalls for each integrated app.
+      Documentation is publicly available on our [Apps page](/apps/).
     image: documentation.png
 
   pricing:
-    title: Pricing as it should be
+    title: Fair pricing for stores
     description: |
       No setup fee. No commitment. No contract.
-      25€ per month per location. Free up to 50 orders per month.
+      Unlimited number of connections. 25€ per month.
     button_label: Start free trial
     button_url: https://manager.hubrise.com/signup
     link_label: Pricing page
@@ -53,8 +53,8 @@ content:
   developers:
     title: We help developers
     description: |
-      We are developers too. We answer all your technical questions during the integration.
-      Once your integration is completed, we assess and document the work done. Then we share the news of you being part of the ecosystem.
+      We are developers too. You can count on us to promptly answer your questions during the integration.
+      Once you are integrated, we assess and document the work done, and share the news with our community.
     team_members:
       - name: Alberto
         filename: alberto.jpg
@@ -66,7 +66,7 @@ content:
         filename: dan.jpg
       - name: Dimitri
         filename: dimitri.jpg
-      - name: Leo
+      - name: Léo
         filename: leo.jpg
       - name: Nick
         filename: nick.jpg

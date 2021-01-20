@@ -14,8 +14,15 @@ import {
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
-  const { file, apps, appsHover, apiImage, documentationImage, teamPictures, images } = data
-  const { meta, hero, content, body } = file.childYaml.parsedContent
+  const {
+    file,
+    apps,
+    appsHover,
+    apiImage,
+    documentationImage,
+    teamPictures
+  } = data
+  const { meta, hero, content } = file.childYaml.parsedContent
 
   return (
     <div class="frontpage">
@@ -27,19 +34,19 @@ const FrontPage = ({ data, pageContext }) => {
 
       <Hero {...hero} />
 
-      <Apps {...content.apps} apps={apps} appsHover={appsHover}/>
+      <Apps {...content.apps} apps={apps} appsHover={appsHover} />
 
-      <Api {...content.api} image={apiImage}/>
+      <Api {...content.api} image={apiImage} />
 
-      <Documentation {...content.documentation} image={documentationImage}/>
+      <Documentation {...content.documentation} image={documentationImage} />
 
-      <Pricing {...content.pricing}/>
+      <Pricing {...content.pricing} />
 
-      <Developers {...content.developers} teamPictures={teamPictures}/>
+      <Developers {...content.developers} teamPictures={teamPictures} />
 
-      <MissionAndScalability {...content.mission_and_scalability}/>
+      <MissionAndScalability {...content.mission_and_scalability} />
 
-      <Join {...content.join}/>
+      <Join {...content.join} />
     </div>
   )
 }
@@ -79,14 +86,16 @@ export const frontPageQuery = graphql`
       }
     }
     documentationImage: file(
-      absolutePath: { glob: "**/content/base/images/frontpage/documentation.png" }
+      absolutePath: {
+        glob: "**/content/base/images/frontpage/documentation.png"
+      }
     ) {
       childImageSharp {
         fixed(width: 558, height: 347) {
           ...GatsbyImageSharpFixed
         }
       }
-    } 
+    }
     teamPictures: allFile(
       filter: {
         absolutePath: { glob: "**/content/base/images/frontpage/team/*" }
@@ -103,16 +112,6 @@ export const frontPageQuery = graphql`
             ...GatsbyImageSharpFixed
           }
         }
-      }
-    } 
-    images: allFile(
-      filter: {
-        absolutePath: { glob: "**/content/base/images/*" }
-        extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
-      }
-    ) {
-      nodes {
-        ...Image
       }
     }
   }

@@ -20,7 +20,7 @@ content:
       - Commande en ligne
       - Plateformes de livraison de repas
       - Solutions marketing
-      - Cartes de fidélité digitales
+      - Cartes de fidélité
       - Et plus encore
     image:
       normal: frontpage/app-lists.png
@@ -29,23 +29,22 @@ content:
   api:
     title: Une API publique et facile à utiliser
     description: |
-      Notre API synchronise les commandes, les clients et les produits.
-      Une documentation publique, une collection Postman, et un SDK Ruby sont disponibles.
-      En quelques lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/tiny-tablet).
+      Synchronisez les commandes, les clients et les produits. Une documentation soignée, une collection Postman, et un SDK Ruby permettent une intégration fluide.
+      Pour le plaisir, nous avons écrit une app complète et intégrée en quelques lignes de code, que vous pouvez [consulter sur GitHub](https://github.com/HubRise/tiny-tablet).
     image: api.png
 
   documentation:
-    title: Une documentation détaillée
+    title: Documentation détaillée
     description: |
       Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque intégration, pour vous faire gagner du temps.
       La documentation est publiquement accessible depuis [la page Apps](/fr/apps).
     image: documentation.png
 
   pricing:
-    title: Tarification simple et accessible
+    title: Tarification juste pour le commerçant
     description: |
       Pas de frais d'installation. Pas d'engagement. Pas de contrat.
-      25€ HT par mois et par point de vente. Gratuit jusqu'à 50 commandes par mois.
+      Nombre de connexions illimité. 25€ HT par mois.
     button_label: Démarrer l'essai gratuit
     button_url: https://manager.hubrise.com/signup
     link_label: Page Tarifs
@@ -54,8 +53,8 @@ content:
   developers:
     title: Nous aidons les développeurs
     description: |
-      Nous sommes développeurs aussi. Nous répondons à toutes vos questions techniques durant l'intégration.
-      Lorsque votre intégration est terminée, nous l'évaluons et la documentons. Puis nous communiquons sur votre arrivée dans l'écosystème.
+      Nous sommes développeurs aussi. Comptez sur nous pour répondre rapidement à toutes vos questions d'intégration.
+      Une fois intégré, nous auditons et documentons le travail réalisé, et nous communiquons sur votre intégration.
     team_members:
       - name: Alberto
         filename: alberto.jpg
@@ -67,7 +66,7 @@ content:
         filename: dan.jpg
       - name: Dimitri
         filename: dimitri.jpg
-      - name: Leo
+      - name: Léo
         filename: leo.jpg
       - name: Nick
         filename: nick.jpg
