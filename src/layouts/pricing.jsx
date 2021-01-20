@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import { Offer, Specials } from '../components/pages/pricing'
-import Link from '../components/link'
 import SEO from '../components/seo'
 
 const PricingPage = ({ data, pageContext }) => {

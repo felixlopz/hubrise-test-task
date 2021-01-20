@@ -34,10 +34,9 @@
 
   &__action-signup,
   &__action-login {
-    border-radius: 3px;
-    padding: 0.4em 1.5em;
     margin-left: 0.6em;
 
+    @include hr-button;
     @include hr-button-hover($white, $hr-dark-gray);
   }
 

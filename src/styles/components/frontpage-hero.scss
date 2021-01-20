@@ -58,7 +58,7 @@
     @media (min-width: $br-large) {
       text-align: left;
       padding-left: 0;
-      padding-right: 0;
+      padding-right: 2em;
     }
   }
 
@@ -82,14 +82,10 @@
 
   &__button {
     display: inline-block;
-    margin: 0;
-    padding: 0.5em 2em;
-    font-size: 0.875rem;
-    font-weight: 600;
-    text-transform: uppercase;
     color: $hr-green;
     background-color: #ffffff;
 
+    @include hr-button;
     @include hr-button-hover($white, $hr-dark-gray);
   }
 }

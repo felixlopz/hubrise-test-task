@@ -8,7 +8,7 @@ hero:
   description: |
     HubRise is a developer friendly solution to connect to a multitude of apps with a single integration.
   button_label: Start integrating
-  button_url: /developers/quick-start
+  button_url: /developers
 
 content:
   apps:

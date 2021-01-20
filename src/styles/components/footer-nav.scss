@@ -51,12 +51,6 @@
 
   &__item-link {
     color: $hr-silver-gray;
-
     @include hr-link-hover($white);
-
-    // TODO: remove when foundation is removed
-    &:focus {
-      color: $white;
-    }
   }
 }
