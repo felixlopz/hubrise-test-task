@@ -84,11 +84,9 @@ function BlogList({ data, pageContext }) {
             onQueryChange={handleQueryChange}
           />
           <div className="section__content">
-            <ul className="articles">
-              {filteredNodeList.map((node) => (
-                <Post key={node.id} post={node} showMore />
-              ))}
-            </ul>
+            {filteredNodeList.map((node) => (
+              <Post key={node.id} post={node} showMore />
+            ))}
           </div>
         </div>
       </section>

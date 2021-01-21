@@ -11,7 +11,8 @@ content:
       paragraph_2_text: Vous êtes développeur et souhaitez intégrer votre application à HubRise ?
       paragraph_2_link_text: Voir la documentation technique
       paragraph_2_link_to: /developers
-  sections:
+  all_apps: Toutes les apps
+  categories:
     - title: Logiciels de caisse
       has_suggest_app: true
       apps:
@@ -171,7 +172,7 @@ content:
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
           title: My Lemonade
-          description:  My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
+          description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
           additional_info: Documentation en anglais.
         - website: https://obypay.fr/
           documentation:
@@ -323,9 +324,7 @@ content:
           description: 1bot est un assistant personnel. Ce chatbot répond aux questions des clients et transmet un résumé de la conversation au magasin par SMS. Il est possible de prendre un rendez-vous, demander un rappel ou poser une question.
   additional_sections:
     suggest_app:
-      title: Proposer une application
-      description: Votre application ne se trouve pas dans cette liste ? Envoyez-nous quelques informations et HubRise se chargera de les contacter.
-      button: Proposer
+      description: Votre application ne se trouve pas dans cette liste ? Envoyez-nous quelques informations. HubRise se chargera de contacter l'éditeur de votre part pour leur proposer une intégration.
   developers:
     title: Vous êtes développeur ?
     description:

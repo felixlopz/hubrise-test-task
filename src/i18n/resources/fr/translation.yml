@@ -1,3 +1,7 @@
+apps:
+  view_documentation: Consulter la documentation
+  visit_website: Accéder au site de l'éditeur
+
 layout:
   header:
     buttons:
@@ -11,8 +15,8 @@ layout:
   404:
     meta:
       title: 404 - Page non trouvée
-    title: NON TROUVE
-    text: Cette page n'existe pas ou a été supprimée...
+    title: Page non trouvée
+    text_link: Retour à la page d'accueil
 
 misc:
   feedback:
@@ -86,11 +90,3 @@ forms:
   contact:
     button: Envoyer
     modal_title: Contactez-nous
-  suggest_app:
-    modal:
-      title: Proposer une application
-      description: Dnteger viverra non lorem vitae efficitur. Nam quis nunc erat. Mauris aliquet ullamcorper maximus. Quisque faucibus felis metus, eget iaculis lectus aliquet non.
-    subtitles:
-      contact: 'A propos de vous : '
-      app: "A propos de l'application : "
-    button: Envoyer

@@ -1,3 +1,7 @@
+apps:
+  view_documentation: View documentation
+  visit_website: Open editor website
+
 layout:
   header:
     buttons:
@@ -11,8 +15,8 @@ layout:
   404:
     meta:
       title: 404 - Page not found
-    title: NOT FOUND
-    text: The page doesn't exist or has been deleted...
+    title: Page not found
+    text_link: Go back to the Homepage
 
 misc:
   feedback:
