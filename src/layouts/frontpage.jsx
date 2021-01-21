@@ -44,7 +44,7 @@ const FrontPage = ({ data, pageContext }) => {
 
       <Developers {...content.developers} teamPictures={teamPictures} />
 
-      <MissionAndScalability {...content.mission_and_scalability} />
+      {/*<MissionAndScalability {...content.mission_and_scalability} />*/}
 
       <Join {...content.join} />
     </div>
