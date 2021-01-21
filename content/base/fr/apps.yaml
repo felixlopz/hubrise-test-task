@@ -33,6 +33,7 @@ content:
           logo: ikentoo-lightspeed.png
           title: LightSpeed K-Series / iKentoo
           description: iKentoo, par LightSpeed, est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
+          additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: jdc.png
@@ -51,7 +52,7 @@ content:
           description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
           additional_info: Documentation en anglais.
         - website: http://www.logiciel-de-livraison.com
-          documentation: /apps/nestor/
+          documentation: /apps/nestor
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
@@ -102,6 +103,7 @@ content:
           logo: zelty.png
           title: Zelty
           description: Zelty est une caisse enregistreuse sur iPad, offrant une solution complète et pensée pour les chaînes. La solution s'adapte cependant à tout type de restaurant.
+          additional_info: Documentation en anglais.
     - title: Plateformes de livraison de repas
       apps:
         - website: https://www.deliveroo.com
@@ -109,6 +111,7 @@ content:
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 12 pays and 500 villes.
+          additional_info: Documentation en anglais.
         - website: https://www.deliveryhero.com/
           documentation:
           logo: delivery-hero.png
@@ -120,7 +123,7 @@ content:
           logo: foodpanda.png
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
-          additional_info:
+          additional_info: Documentation en anglais.
         - website: https://www.just-eat.fr/
           documentation:
           logo: just-eat.png
@@ -144,6 +147,7 @@ content:
           logo: ubereats.png
           title: Uber Eats
           description: Uber Eats est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 45 pays and 6.000 villes.
+          additional_info: Documentation en anglais.
     - title: Commande en ligne
       apps:
         - website: https://www.app4.co.uk/
@@ -163,13 +167,14 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
+          additional_info: Documentation en anglais.
         - website: https://mylemonade.app/fr/accueilfr/
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
           title: My Lemonade
           description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
           additional_info: Documentation en anglais.
-        - website: https://obypay.com/
+        - website: https://obypay.fr/
           documentation:
           logo: obypay.png
           title: Obypay
@@ -197,12 +202,13 @@ content:
           logo: shopify.png
           title: Shopify
           description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
-          additional_info:
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          additional_info: Documentation en anglais.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
@@ -299,6 +305,7 @@ content:
           logo: orderline.png
           title: OrderLine
           description: OrderLine édité par HubRise centralise les commandes passées depuis un site e-commerce ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
+          additional_info: Documentation en anglais.
         - website: https://www.spleat.io
           documentation:
           logo: spleat.png
