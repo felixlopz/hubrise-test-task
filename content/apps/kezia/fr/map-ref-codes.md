@@ -52,7 +52,7 @@ Un produit dans HubRise correspond à un article dans Kezia II. Pour en retrouve
 
 ## SKUs
 
-Une SKU (*Stock Keeping Unit*) dans HubRise correspond au multi-tarif dans Kezia II, mais nous ne montrerons pas ici comment utiliser cet outil car il est conseillé plutôt de créer un article différent pour chaque SKU. Par exemple, une pizza margherita en trois tailles différentes correspond dans Kezia II à trois articles distincts :
+Une SKU (*Stock Keeping Unit*) dans HubRise correspond au multi-tarif dans Kezia II, mais il est conseillé plutôt de créer un article différent pour chaque SKU. Par exemple, une pizza margherita en trois tailles différentes correspond dans Kezia II à trois articles distincts :
 - Margherita Grande
 - Margherita Medium
 - Margherita Petite
