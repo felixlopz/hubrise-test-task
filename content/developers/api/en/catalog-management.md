@@ -556,6 +556,7 @@ An option list is either of type `single` (a single option must be applied to a 
     {
       "name": "Blue",
       "ref": "BLU",
+      "price": "0.00 EUR",
       "default": true
     },
     {
