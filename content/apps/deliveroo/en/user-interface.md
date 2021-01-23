@@ -21,7 +21,7 @@ Each row in the page shows the following information about an operation:
 - **ORDER**: The HubRise order ID, for order operations.
 - **STATUS**: The status of the order. The value OK indicates that the order has been successfully sent, otherwise a message will explain the type of error occurred.
 
-The "System request" label indicates that the operation is not related to a specific order.
+The **System request** label indicates that the operation is not related to a specific order.
 
 ![Operations page of Deliveroo Bridge developed by HubRise](../images/003-en-main-page.png)
 

@@ -11,7 +11,8 @@ content:
       paragraph_2_text: Vous êtes développeur et souhaitez intégrer votre application à HubRise ?
       paragraph_2_link_text: Voir la documentation technique
       paragraph_2_link_to: /developers
-  sections:
+  all_apps: Toutes les apps
+  categories:
     - title: Logiciels de caisse
       has_suggest_app: true
       apps:
@@ -32,6 +33,7 @@ content:
           logo: ikentoo-lightspeed.png
           title: LightSpeed K-Series / iKentoo
           description: iKentoo, par LightSpeed, est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
+          additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: jdc.png
@@ -50,7 +52,7 @@ content:
           description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
           additional_info: Documentation en anglais.
         - website: http://www.logiciel-de-livraison.com
-          documentation:
+          documentation: /apps/nestor
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
@@ -101,6 +103,7 @@ content:
           logo: zelty.png
           title: Zelty
           description: Zelty est une caisse enregistreuse sur iPad, offrant une solution complète et pensée pour les chaînes. La solution s'adapte cependant à tout type de restaurant.
+          additional_info: Documentation en anglais.
     - title: Plateformes de livraison de repas
       apps:
         - website: https://www.deliveroo.com
@@ -108,6 +111,7 @@ content:
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 12 pays and 500 villes.
+          additional_info: Documentation en anglais.
         - website: https://www.deliveryhero.com/
           documentation:
           logo: delivery-hero.png
@@ -119,7 +123,7 @@ content:
           logo: foodpanda.png
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
-          additional_info:
+          additional_info: Documentation en anglais.
         - website: https://www.just-eat.fr/
           documentation:
           logo: just-eat.png
@@ -143,6 +147,7 @@ content:
           logo: ubereats.png
           title: Uber Eats
           description: Uber Eats est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 45 pays and 6.000 villes.
+          additional_info: Documentation en anglais.
     - title: Commande en ligne
       apps:
         - website: https://www.app4.co.uk/
@@ -162,22 +167,23 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
+          additional_info: Documentation en anglais.
         - website: https://mylemonade.app/fr/accueilfr/
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
           title: My Lemonade
-          description:  My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
-          additional_info:
-        - website: https://obypay.com/
+          description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
+          additional_info: Documentation en anglais.
+        - website: https://obypay.fr/
           documentation:
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
-        - website: https://www.shopify.com/
-          documentation: /apps/shopify
-          logo: shopify.png
-          title: Shopify
-          description: Shopify peut être utilisé pour créer un site de e-commerce quelle que soit l'activité. Sa plateforme offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les magasins ou simple boutiques éphémères.
+        - website: https://www.prestashop.com/fr
+          documentation:
+          logo: prestashop.png
+          title: PrestaShop
+          description: PrestaShop est une solution open source de création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop peut être hébergé ou fonctionner sur votre propre serveur. PrestaShop est personnalisable et s'adapte à vos besoins.
           additional_info: Intégration en cours.
         - website: https://www.restajet.com/
           documentation:
@@ -185,17 +191,30 @@ content:
           title: RestaJet
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://restaurant-internet.com
+          documentation:
+          logo: restaurant-internet.png
+          title: Restaurant-internet
+          description: Restaurant-internet propose un site vitrine avec réservation de table et solution de commande en ligne. La solution couvre en particulier les besoins de la livraison à domicile et la vente à emporter.
+          additional_info:
+        - website: https://www.shopify.com/
+          documentation: /apps/shopify
+          logo: shopify.png
+          title: Shopify
+          description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          additional_info: Documentation en anglais.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
-          additional_info: Intégration en cours. Documentation en anglais.
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: http://www.y-proximite.fr
           documentation:
           logo: yproximite.png
@@ -286,6 +305,7 @@ content:
           logo: orderline.png
           title: OrderLine
           description: OrderLine édité par HubRise centralise les commandes passées depuis un site e-commerce ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
+          additional_info: Documentation en anglais.
         - website: https://www.spleat.io
           documentation:
           logo: spleat.png
@@ -304,9 +324,7 @@ content:
           description: 1bot est un assistant personnel. Ce chatbot répond aux questions des clients et transmet un résumé de la conversation au magasin par SMS. Il est possible de prendre un rendez-vous, demander un rappel ou poser une question.
   additional_sections:
     suggest_app:
-      title: Proposer une application
-      description: Votre application ne se trouve pas dans cette liste ? Envoyez-nous quelques informations et HubRise se chargera de les contacter.
-      button: Proposer
+      description: Votre application ne se trouve pas dans cette liste ? Envoyez-nous quelques informations. HubRise se chargera de contacter l'éditeur de votre part pour leur proposer une intégration.
   developers:
     title: Vous êtes développeur ?
     description:

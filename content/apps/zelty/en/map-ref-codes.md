@@ -48,7 +48,7 @@ To export a subset of the menu:
 
 ---
 
-**IMPORTANT NOTE**: Zelty exports categories, products, options, pictures and deals into HubRise. Tags however are not exported.
+**IMPORTANT NOTE:** Zelty exports categories, products, options, pictures and deals into HubRise. Tags however are not exported.
 
 ---
 
@@ -58,7 +58,7 @@ If other apps connected to your HubRise account cannot use HubRise catalogs, you
 
 ---
 
-**IMPORTANT NOTE**: Ref codes cannot be seen in the Zelty user interface. You can only see them in HubRise catalogs and in CSV/Excel menu exports.
+**IMPORTANT NOTE:** Ref codes cannot be seen in the Zelty user interface. You can only see them in HubRise catalogs and in CSV/Excel menu exports.
 
 ---
 

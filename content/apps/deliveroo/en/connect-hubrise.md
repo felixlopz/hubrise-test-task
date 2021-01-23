@@ -16,7 +16,7 @@ As a first step, the HubRise integration must be enabled on your Deliveroo accou
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
 - The URL link of the Deliveroo store you wish to connect. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
-- The Deliveroo Location ID of the store. For more details, see our FAQ: [How Do I Find My Deliveroo Location ID](/apps/deliveroo/faqs/find-deliveroo-location-id).
+- The Deliveroo Restaurant ID of the store. For more details, see our FAQ: [How Do I Find My Deliveroo Restaurant ID](/apps/deliveroo/faqs/find-deliveroo-restaurant-id).
 - The email address you use to log in to the Deliveroo back office.
 - The email address of your Deliveroo account manager.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
@@ -45,9 +45,9 @@ To connect Deliveroo Bridge to HubRise, follow these steps.
 1. Select **Deliveroo** from the list of apps.
 1. Click **Connect**.
 1. Click **Allow** to grant Deliveroo Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
-1. A new page asks you to provide your Deliveroo Location ID. Enter the ID, then click **Save** to complete the connection process.
+1. A new page asks you to provide your Deliveroo Restaurant ID. Enter the ID, then click **Save** to complete the connection process.
 
-![Deliveroo location ID](../images/001-en-location-id.png)
+![Deliveroo Restaurant ID](../images/001-en-deliveroo-restaurant-id.png)
 
 ## 3. Configure Your Preferences
 
