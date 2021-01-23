@@ -20,14 +20,15 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 - The email address you use to log in to the Deliveroo back office.
 - The email address of your Deliveroo account manager.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
+- The type of Deliveroo services you want to associate with the HubRise location. For a description of Deliveroo service types, including Deliveroo fulfilled and restaurant fulfilled delivery, see our [Terminology](/apps/deliveroo/terminology#service-types). Note that multiple service types can be supported simultaneously from the same HubRise location: for more details, see our [FAQ](/apps/deliveroo/faqs/connecting-multiple-instances-deliveroo).
 
 With this information in hand, the Deliveroo integration team will enable the HubRise connection for your store. New connections are approved on Tuesdays and Thursdays only.
 
------
+---
 
 **IMPORTANT NOTE:** Deliveroo will not enable the HubRise connection if some product ref codes are missing. For details, see [Map Ref Codes](/apps/deliveroo/map-ref-codes/).
 
------
+---
 
 ## 2. Connect the Bridge
 
