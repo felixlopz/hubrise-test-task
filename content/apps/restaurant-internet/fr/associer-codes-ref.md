@@ -67,5 +67,7 @@ Pour retrouver le code ref d'une charge, suivez les étapes suivantes :
 
 1. Depuis votre tableau de bord Restaurant-internet, sélectionnez **Paramétrages**.
    ![Associer les codes ref - Paramétrages](../images/015-fr-restaurant-internet-parametrages.png)
-1. Sélectionnez l'onglet **Commande en ligne**, ou dans la partie **Commande en ligne**, sélectionnez **Retrait sur place**, **A emporter**, ou **Livraison**. Les codes ref s'affichent respectivement dans les champs **Code réf Sur place**, **Code réf À emporter**, ou **Code réf Livraison**.
+1. Sélectionnez l'onglet **Commande en ligne**, ou alors, dans la partie **Commande en ligne**, sélectionnez **Retrait sur place**, **A emporter**, ou **Livraison**. Les codes ref s'affichent respectivement dans les champs **Code réf Sur place**, **Code réf À emporter**, ou **Code réf Livraison**.
    ![Associer les codes ref - Charge sur place](../images/016-fr-restaurant-internet-charge-sur-place.png)
+
+Dans le cas où des frais de gestion sont présents pour un certain mode de livraison, c'est sur cette même page que vous pouvez retrouver le code ref correspondant.
