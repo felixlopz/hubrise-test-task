@@ -1,13 +1,17 @@
 ---
-title: Comprendre les logs
-position: 5
+title: Détails techniques
+position: 7
 layout: documentation
 meta:
-  title: Comprendre les logs - Nestor
-  description: Comprendre à un niveau plus technique l'intégration de Nestor à HubRise.
+  title: Détails techniques - Nestor
+  description: Détails techniques concernant l'intégration de Nestor à HubRise.
 ---
 
-Pour ceux désirant une compréhension à un niveau plus technique, voici comment les champs d'une commande HubRise sont utilisés lors de sa réception dans Nestor :
+## Commandes
+
+### Réception de commande
+
+Voici comment les champs d'une commande HubRise sont utilisés lors de sa réception dans Nestor :
 
 | Nom du champ HubRise                   | Utilisation dans Nestor                                                     |
 | -------------------------------------- | --------------------------------------------------------------------------- |
