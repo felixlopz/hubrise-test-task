@@ -393,6 +393,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
 | `price`                                    | [Money](/developers/api/general-concepts/#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
 | `quantity`                                 | [decimal](/developers/api/general-concepts/#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
 | `subtotal` <Label type="optional" />       | [Money](/developers/api/general-concepts/#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                                  |
+| `tax_rate` <Label type="optional" />       | [decimal](/developers/api/general-concepts/#decimal-values) | The tax rate applied to the item. See [Tax Rates](#tax-rates).                                                                                                                              |
 | `customer_notes` <Label type="optional" /> | string                                                      | Information provided by the customer about the preparation or delivery of the item.                                                                                                         |
 | `points_earned` <Label type="optional" />  | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
 | `points_used` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
@@ -407,6 +408,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
   "sku_ref": "MAR-SM",
   "price": "9.00 EUR",
   "quantity": "2",
+  "tax_rate": "20.0",
   "customer_notes": "Well cooked",
   "points_earned": "1.5",
   "points_used": null,
@@ -518,12 +520,13 @@ Order charges increase the price paid by the customer.
 
 #### Attributes:
 
-| Name                            | Type                                                       | Description                                                        |
-| ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| `type`                          | string                                                     | Can be one of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
-| `name`                          | string                                                     | The name of the charge.                                            |
-| `ref` <Label type="optional" /> | string                                                     | The ref that identifies the charge.                                |
-| `price`                         | [Money](/developers/api/general-concepts/#monetary-values) | The charge amount.                                                 |
+| Name                                 | Type                                                        | Description                                                        |
+| ------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------ |
+| `type`                               | string                                                      | Can be one of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
+| `name`                               | string                                                      | The name of the charge.                                            |
+| `ref` <Label type="optional" />      | string                                                      | The ref that identifies the charge.                                |
+| `price`                              | [Money](/developers/api/general-concepts/#monetary-values)  | The charge amount.                                                 |
+| `tax_rate` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | The tax rate applied to the charge. See [Tax Rates](#tax-rates).   |
 
 Note: the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
 
@@ -619,3 +622,13 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
   }
 ]
 ```
+
+## 12. Tax Rates
+
+A `tax_rate` can be specified for each order item and order charge.
+
+The rate is a decimal number, representing a percentage of the price. For example, `15.5` means 15.5% of the price.
+
+Whether prices are tax-inclusive or exclusive is a matter of convention. Either way is fine, as long as clients use the same convention for the same account. As a general rule, you can assume that prices in HubRise are **tax-inclusive** for accounts situated in markets where consumer prices are tax-inclusive, for example in European countries. On the opposite, prices can generally be considered as **tax-exclusive** in the other markets, for example in the U.S.
+
+HubRise does not make any computation with `tax_rate`, and does not require this field to be present. If needed, you can use a default value for items with unspecified tax rates.
