@@ -166,8 +166,8 @@ Returns an order resource.
 ```json
 {
   "id": "5dpm9",
-  "status": "new",
   "private_ref": "3345",
+  "status": "new",
   "items": [
     {
       "product_name": "Margarita",
@@ -385,17 +385,18 @@ Orders do not have to go through all steps. The sequence actually depends on the
 
 ## 4. Order Items
 
-| Name                                      | Type                                                        | Description                                                                                                                                                                                 |
-| ----------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `product_name`                            | string                                                      | The product name.                                                                                                                                                                           |
-| `sku_name` <Label type="optional" />      | string                                                      | The sku name. Typically the product size or color.                                                                                                                                          |
-| `sku_ref` <Label type="optional" />       | string                                                      | The ref of the sku.                                                                                                                                                                         |
-| `price`                                   | [Money](/developers/api/general-concepts/#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
-| `quantity`                                | [decimal](/developers/api/general-concepts/#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
-| `subtotal` <Label type="optional" />      | [Money](/developers/api/general-concepts/#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                                  |
-| `points_earned` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
-| `points_used` <Label type="optional" />   | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
-| `options` <Label type="optional" />       | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
+| Name                                       | Type                                                        | Description                                                                                                                                                                                 |
+| ------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `product_name`                             | string                                                      | The product name.                                                                                                                                                                           |
+| `sku_name` <Label type="optional" />       | string                                                      | The sku name. Typically the product size or color.                                                                                                                                          |
+| `sku_ref` <Label type="optional" />        | string                                                      | The ref of the sku.                                                                                                                                                                         |
+| `price`                                    | [Money](/developers/api/general-concepts/#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
+| `quantity`                                 | [decimal](/developers/api/general-concepts/#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
+| `subtotal` <Label type="optional" />       | [Money](/developers/api/general-concepts/#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                                  |
+| `customer_notes` <Label type="optional" /> | string                                                      | Information provided by the customer about the preparation or delivery of the item.                                                                                                         |
+| `points_earned` <Label type="optional" />  | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
+| `points_used` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
+| `options` <Label type="optional" />        | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
 
 #### Example:
 
@@ -406,7 +407,9 @@ Orders do not have to go through all steps. The sequence actually depends on the
   "sku_ref": "MAR-SM",
   "price": "9.00 EUR",
   "quantity": "2",
-  "points_earned": "1.0",
+  "customer_notes": "Well cooked",
+  "points_earned": "1.5",
+  "points_used": null,
   "options": [
     {
       "option_list_name": "Sauce",
