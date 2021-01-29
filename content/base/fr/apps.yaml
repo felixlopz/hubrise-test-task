@@ -22,6 +22,18 @@ content:
           title: 3S POS
           description: 3S POS est une suite complète aux fonctionnalités personnalisables pour répondre aux besoins de chaque restaurant ou hôtelier.
           additional_info: Documentation en anglais.
+        - website: https://www.carrepos-online.fr/
+          documentation:
+          logo: carrepos.png
+          title: Carré POS
+          description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et qui s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les commerçants, les boutiques, les coiffeurs ou encore les fleuristes.
+          additional_info: Intégration en cours.
+        - website: https://www.epostechnologies.co.uk/
+          documentation:
+          logo: epostechnologies.png
+          title: EPOS Technologies
+          description: Epos Technologies, adapté à tout type de commerce, offre de nombreuses fonctionnalités dont un système de gestion de livreurs, un kiosque, un écran cuisine, ainsi qu'une solution de commande en ligne et de commande à table.
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: https://iikosoftware.com
           documentation:
           logo: iiko.png
@@ -32,7 +44,7 @@ content:
           documentation: /apps/ikentoo-lightspeed/
           logo: ikentoo-lightspeed.png
           title: LightSpeed K-Series / iKentoo
-          description: iKentoo, par LightSpeed, est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
+          description: iKentoo LightSpeed K-Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
           additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
@@ -45,6 +57,11 @@ content:
           title: LEO2 / Atoo
           description: LEO2 est un logiciel de caisse développé par Atoo. LEO2 s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les épiceries, les bouchers ou encore les fleuristes.
           additional_info: Intégration en cours.
+        - website: https://www.lightspeedhq.com
+          documentation: /apps/ikentoo-lightspeed/
+          logo: lightspeed.png
+          title: LightSpeed K-Series / iKentoo
+          description: Lightspeed propose des solutions de gestion sur le cloud pour les commerces et les restaurants dans plus de 100 pays. Son design soigné et son interface intuitive permettent la gestion sur site, à distance ou en déplacement pour des entreprises mono et multisites.
         - website: http://www.myorderboxhq.com
           documentation:
           logo: myorderbox.png
@@ -140,7 +157,7 @@ content:
           documentation:
           logo: takeaway.png
           title: Takeaway.com
-          description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, Bulgarie, Luxembourg, Portugal, Roumanie, et en Suisse.
+          description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible au Pays-Bas, Belgique, Suisse, Luxembourg, Portugal, Roumanie, et en Bulgarie.
           additional_info: Intégration en cours.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
@@ -162,6 +179,12 @@ content:
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
+        - website: https://www.etakeawaymax.co.uk/
+          documentation:
+          logo: etakeawaymax.png
+          title: eTakeaway Max
+          description: eTakeaway Max est une solution de commande en ligne et une app pour la restauration rapide et les cafés. eTakeaway Max est combiné avec une solution d'encaissement pour l'enregistrement de commande prisent sur place sous un seul et même système.
+          additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.livepepper.fr
           documentation: /apps/livepepper/
           logo: livepepper.png
@@ -209,17 +232,17 @@ content:
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info: Documentation en anglais.
+        - website: https://storefactory.y-proximite.fr/
+          documentation:
+          logo: storefactory.png
+          title: Store Factory
+          description: Store Factory est utilisé par les PME et les petits commerçants pour la création de sites e-commerce avec une connaissances techniques limitées. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
           additional_info: Documentation en anglais. Intégration en cours.
-        - website: http://www.y-proximite.fr
-          documentation:
-          logo: yproximite.png
-          title: Y-Proximité
-          description: Y-Proximité est une agence digitale et un éditeur de solutions de commande en ligne pour les PME et les petits commerçants.
     - title: Gestion de livreurs
       apps:
         - website: http://www.captain.ai
