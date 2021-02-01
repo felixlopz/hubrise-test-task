@@ -124,7 +124,6 @@ content:
           logo: just-eat.png
           title: Just Eat
           description: Just Eat is an online food ordering and delivery service platform for local restaurants. Customers can order food online or via a mobile app. They operate in 13 countries in Europe, Asia, Oceania, and the Americas.
-          additional_info: Integration in progress.
         - website: https://www.smood.ch/en
           documentation:
           logo: smood.png
