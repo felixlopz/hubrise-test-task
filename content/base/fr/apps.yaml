@@ -21,7 +21,6 @@ content:
           logo: 3spos.png
           title: 3S POS
           description: 3S POS est une suite complète aux fonctionnalités personnalisables pour répondre aux besoins de chaque restaurant ou hôtelier.
-          additional_info: Documentation en anglais.
         - website: https://www.carrepos-online.fr/
           documentation:
           logo: carrepos.png
@@ -33,13 +32,12 @@ content:
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, adapté à tout type de commerce, offre de nombreuses fonctionnalités dont un système de gestion de livreurs, un kiosque, un écran cuisine, ainsi qu'une solution de commande en ligne et de commande à table.
-          additional_info: Documentation en anglais. Intégration en cours.
+          additional_info: Intégration en cours.
         - website: https://iikosoftware.com
           documentation:
           logo: iiko.png
           title: iiko
           description: iiko est une solution cloud facile à déployer et à faire évoluer. Plus de 30.000 entreprises mono ou multisites l'utilisent pour automatiser leurs opérations.
-          additional_info: Documentation en anglais.
         - website: https://www.ikentoo.com
           documentation: /apps/ikentoo-lightspeed/
           logo: ikentoo-lightspeed.png
@@ -67,7 +65,6 @@ content:
           logo: myorderbox.png
           title: MyOrderBox
           description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
-          additional_info: Documentation en anglais.
         - website: http://www.logiciel-de-livraison.com
           documentation: /apps/nestor
           logo: nestor.png
@@ -78,37 +75,35 @@ content:
           logo: pointone.png
           title: pointOne
           description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
-          additional_info: Documentation en anglais.
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
-          additional_info: Documentation en anglais.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-bridge/
           logo: par-pixelpoint.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
-          additional_info: Intégration via son API web. Documentation en anglais.
+          additional_info: Documentation en anglais. Intégration par API web.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-windows-api/
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
-          additional_info: Intégration via son API Windows par Slowey Systems. Documentation en anglais.
+          additional_info: Documentation en anglais. Intégration par API Windows, réalisée par Slowey Systems.
         - website: https://www.rmpos.com/
           documentation:
           logo: restaurant-manager.png
           title: Restaurant Manager
           description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d’établissements de la restauration au bars.
-          additional_info: Documentation en anglais. Intégration par Crystal Mind en cours.
+          additional_info: Intégration par Crystal Mind en cours.
         - website: https://www.sicom.com/
           documentation:
           logo: sicom.png
           title: SICOM
           description: SICOM propose une suite complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
-          additional_info: Documentation en anglais. Intégration par MyTec en cours.
+          additional_info: Intégration par MyTec en cours.
         - website: http://www.talc.fr/
           documentation:
           logo: talc.png
@@ -120,7 +115,6 @@ content:
           logo: zelty.png
           title: Zelty
           description: Zelty est une caisse enregistreuse sur iPad, offrant une solution complète et pensée pour les chaînes. La solution s'adapte cependant à tout type de restaurant.
-          additional_info: Documentation en anglais.
     - title: Plateformes de livraison de repas
       apps:
         - website: https://www.deliveroo.com
