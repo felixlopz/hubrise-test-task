@@ -15,14 +15,20 @@ As a first step, the HubRise integration must be enabled on your Deliveroo accou
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
-- The URL link(s) of your Deliveroo store(s) you wish to connect. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
-- The URL link of your Deliveroo back office when you are logged in. We will use it to obtain your Deliveroo Restaurant ID. For more details, see our FAQ: [How Do I Find My Deliveroo Restaurant ID](/apps/deliveroo/faqs/find-deliveroo-restaurant-id).
-- The email address you logged in the Deliveroo back office and use to communicate with Deliveroo.
+- The URL link of the Deliveroo store you wish to connect. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
+- The Deliveroo Restaurant ID of the store. For more details, see our FAQ: [How Do I Find My Deliveroo Restaurant ID](/apps/deliveroo/faqs/find-deliveroo-restaurant-id).
+- The email address you use to log in to the Deliveroo back office.
 - The email address of your Deliveroo account manager.
-- Your HubRise account and location IDs. If you don't have a HubRise Account, go to the [HubRise Signup](https://manager.hubrise.com/signup) page and follow the instructions. If your restaurant called Fast Pizza is located in Baker Street, your location ID may be `Fast Pizza Baker Street z6q31-0`.
+- Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
+- The type of Deliveroo services you want to associate with the HubRise location. For a description of Deliveroo service types, including Deliveroo fulfilled and restaurant fulfilled delivery, see our [Terminology](/apps/deliveroo/terminology#service-types).
 
-We will then contact Deliveroo on your behalf to enable the connection.
-The activation typically takes less than one week.
+With this information in hand, the Deliveroo integration team will enable the HubRise connection for your store. New connections are approved on Tuesdays and Thursdays only.
+
+---
+
+**IMPORTANT NOTE:** Deliveroo will not enable the HubRise connection if some product ref codes are missing. For details, see [Map Ref Codes](/apps/deliveroo/map-ref-codes/).
+
+---
 
 ## 2. Connect the Bridge
 
