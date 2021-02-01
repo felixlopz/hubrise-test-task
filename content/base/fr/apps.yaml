@@ -146,7 +146,6 @@ content:
           logo: just-eat.png
           title: Just Eat
           description: Just Eat est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 13 pays en Europe, en Asie, en Océanie et dans les Amériques.
-          additional_info: Intégration en cours.
         - website: https://www.smood.ch/fr
           documentation:
           logo: smood.png
