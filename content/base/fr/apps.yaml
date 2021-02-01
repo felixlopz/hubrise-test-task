@@ -26,7 +26,7 @@ content:
           documentation:
           logo: carrepos.png
           title: Carré POS
-          description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et qui s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les commerçants, les boutiques, les coiffeurs ou encore les fleuristes.
+          description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les boutiques, les coiffeurs ou encore les fleuristes.
           additional_info: Intégration en cours.
         - website: https://www.epostechnologies.co.uk/
           documentation:
@@ -182,7 +182,7 @@ content:
           documentation:
           logo: etakeawaymax.png
           title: eTakeaway Max
-          description: eTakeaway Max est une solution de commande en ligne et une app pour la restauration rapide et les cafés. eTakeaway Max est combiné avec une solution d'encaissement pour l'enregistrement de commande prisent sur place sous un seul et même système.
+          description: eTakeaway Max est une solution de commande en ligne et une app pour la restauration rapide et les cafés. eTakeaway Max est combiné avec une solution d'encaissement, qui permet d'enregistrer les commandes sur place sur un seul et même système.
           additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.livepepper.fr
           documentation: /apps/livepepper/
@@ -235,7 +235,7 @@ content:
           documentation:
           logo: storefactory.png
           title: Store Factory
-          description: Store Factory est utilisé par les PME et les petits commerçants pour la création de sites e-commerce avec une connaissances techniques limitées. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
+          description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites e-commerce. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
