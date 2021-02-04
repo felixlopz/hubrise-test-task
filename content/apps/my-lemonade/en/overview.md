@@ -6,7 +6,9 @@ meta:
   title: My Lemonade Connection to HubRise - Overview
   description: My Lemonade overview and why you should connect it to HubRise. With a connection to HubRise orders are sent to tools you use every day including your EPOS.
 gallery:
-  - 003-fr-2x-my-lemonade-sample-app.png
+  - 002-fr-my-lemonade-sample-app.png
+  - 003-fr-my-lemonade-sample-back-office-product.png
+  - 004-fr-my-lemonade-sample-back-office-deal.png
 path_override: /
 app_info:
   category: Online ordering
