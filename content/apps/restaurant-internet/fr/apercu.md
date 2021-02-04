@@ -21,7 +21,13 @@ app_info:
 
 ## Description
 
-À FAIRE...
+Restaurant-internet est une solution qui permet aux restaurants d'avoir leur propre site internet avec la commande en ligne pour la livraison et la vente à emporter. Pour les établissements possédant déjà un site web, Restaurant-internet permet l'intégration de son module de commande et de paiement en ligne. Les équipes Restaurant-internet peuvent adapter le design du site aux couleurs de l'établissement.
+
+Les restaurateurs peuvent modifier leur carte, ajouter des photos aux produits, mettre à jour leurs informations et gérer leurs commandes de manière autonome.
+
+Restaurant-internet offre de nombreuses fonctionnalités répondant aux spécificités de la restauration, telles que la personnalisation des plats, la configuration du temps de préparation et des quotas horaires pour réguler le nombre de commandes, la modification de l'heure de livraison et des frais de livraison par zone géographique.
+
+Les clients de Restaurant-internet se trouvent en France, c'est pour cette raison qu'il n'est utilisable qu'en français.
 
 ## Fonctionnalités de l'intégration
 
