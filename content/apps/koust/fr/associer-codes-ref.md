@@ -27,6 +27,16 @@ Le catalogue est importé automatiquement lorsque la connexion avec HubRise est 
 Un produit dans HubRise correspond à un article dans Koust. Pour retrouver le code ref d'un article, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Ventes - Conso.** > **Historique ventes**.
-   ![Associer les codes ref - Liste des articles](../images/011-fr-koust-liste-articles.png)
+   ![Associer les codes ref - Liste des articles](../images/010-fr-koust-liste-articles.png)
 1. Sélectionnez l'icône de modification ou le nom de l'article. Le code ref s'affiche dans le champ **Référence distante (SKU_REF)**.
-   ![Associer les codes ref - Détail article](../images/012-fr-koust-liste-articles-detail.png)
+   ![Associer les codes ref - Détail article](../images/011-fr-koust-liste-articles-detail.png)
+
+## SKUs
+
+Une SKU (*Stock Keeping Unit*) dans HubRise correspond aussi à un article dans Koust. Par exemple, si un produit dans HubRise comprend 3 SKUs, 3 articles sont créés dans Koust lors de l'import du catalogue.
+
+Pour retrouver le code ref d'un article, suivez les mêmes étapes que pour un [produit](/apps/nestor/associer-codes-ref#produits).
+
+## Options
+
+Une option dans HubRise correspond aussi à un article dans Koust. Pour retrouver le code ref d'un article, suivez les mêmes étapes que pour un [produit](/apps/nestor/associer-codes-ref#produits).

@@ -17,7 +17,7 @@ Pour établir la connexion entre Koust et HubRise :
 1. Sélectionnez **Paramètres**. La page **Paramètres de l'établissement** s'affiche.
 1. Sélectionnez l'onglet **Intégrations**.
    ![Connexion à HubRise - Onglet Intégrations](../images/001-fr-koust-onglet-integrations.png)
-1. Cliquez sur **Ajouter une caisse / Plateforme**. Une fenêtre modale nommée **POS** s'ouvre.
+1. Cliquez sur **+ Ajouter une caisse / Plateforme**. Une fenêtre modale nommée **POS** s'ouvre.
 1. Dans le champ **Caisse**, sélectionnez **HubRise**. Une section **HubRise** s'affiche en-dessous.
    ![Connexion à HubRise - Se connecter](../images/002-fr-koust-modale-connexion.png)
 1. Cliquez sur **Se connecter à hubrise**. L'interface HubRise s'ouvre dans un nouvel onglet.
@@ -26,7 +26,7 @@ Pour établir la connexion entre Koust et HubRise :
 
 ---
 
-**NOTE IMPORTANTE** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, veuillez consulter notre [Guide de prise en main](/docs/getting-started/).
+**NOTE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, veuillez consulter notre [Guide de prise en main](/docs/getting-started/).
 
 ---
 
