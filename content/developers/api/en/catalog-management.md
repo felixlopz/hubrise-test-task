@@ -1073,7 +1073,7 @@ Response:
   "id": "zxdxw",
   "type": "image/jpeg",
   "size": 126934,
-  "md5": "516edf00906edff8b0c7fe8## 1e f5965",
+  "md5": "39857d16289e814484f4229ca40cc2b1",
   "seconds_before_removal": 2592000
 }
 ```
