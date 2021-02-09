@@ -15,7 +15,7 @@ Where the HubRise style guide does not deal with a specific situation, the [Goog
 
 The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be used as a spelling reference when we have multiple ways of spelling the same word. In addition the [Cambridge Dictionary](https://dictionary.cambridge.org/) can be used as a secondary reference only where necessary.
 
-Terminology and spelling decisions are informed in the [HubRise Glossary of Terms](/contributing/glossary-of-terms/). Refer to it to maximise linguistic consistency throughout the documentation. Think of including your own terminology decisions within.
+Terminology and spelling decisions are informed in our XTM tool, only for internal use.
 
 Keep in mind that readers of the documentation might not be native English speakers.
 
