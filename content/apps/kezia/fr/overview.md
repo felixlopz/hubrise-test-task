@@ -12,7 +12,7 @@ app_info:
   availability: France
   price_range:
   website: https://www.jdc.fr/caisse-enregistreuse/logiciel-de-caisse
-  contact: hotline.kezia@jdc.fr
+  contact: licencekezia@jdc.fr
 ---
 
 ## Description
