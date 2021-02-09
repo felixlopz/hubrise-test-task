@@ -23,7 +23,7 @@ First make sure you have a working connection between TastyCloud and HubRise. Fo
 
 Then follow these steps to map items between TastyCloud and HubRise:
 
-1. Login to your TastyCloud back office.
+1. Log in to your TastyCloud back office.
 
 1. Click **Mapping des produits** (Products mapping) from the left navigation panel.
 
