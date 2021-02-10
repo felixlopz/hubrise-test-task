@@ -23,7 +23,7 @@ Pour la page d'aperçu, qui est la première page visible sur la documentation d
 - Une description de 150 à 250 mots, sans usage de superlatif, qui présente la solution et ses fonctionnalités en détails.
 - De 2 à 6 captures d'écran de l'application, ayant le même ratio largeur/hauteur.
 
-Pour voir un exemple de ce à quoi ressemble une telle page, visitez la documentation [LivePepper](/apps/livepepper).
+Pour voir un exemple de cette page, visitez la documentation [LivePepper](/apps/livepepper).
 
 ## Partenaires
 
@@ -32,4 +32,4 @@ Pour la page des partenaires, les éléments suivants sont nécessaires :
 - Un logo.
 - Une description, affichée sous forme de 2 blocs de 45 mots environ chacun.
 
-Cette page n'est pas encore implémentée, mais le sera très prochainement.
+Cette page n'existe pas encore, mais sera ajoutée très prochainement.
