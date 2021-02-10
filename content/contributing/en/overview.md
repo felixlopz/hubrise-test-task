@@ -24,7 +24,7 @@ content:
     - title: Elements to Provide
       description: Elements editors need to provide.
       to: /contributing/elements-to-provide
-      icon: fa-list-alt
+      icon: fa-pencil-alt
     - title: Screenshots Guide
       description: Screenshot guidelines and file naming convention.
       to: /contributing/screenshots-guide
