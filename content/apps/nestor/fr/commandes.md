@@ -31,12 +31,12 @@ Lorsqu'une commande contient des articles dont le code ref n'est pas reconnu, ce
 
 Pour éviter que ce problème se reproduise, assurez-vous que les codes ref de vos produits ont bien été saisis. Pour plus d'informations, consultez la page [Associer les codes ref](/apps/nestor/associer-codes-ref).
 
-### Produits avec des prix différents
+### Articles avec des prix différents
 
 Lorsqu'une commande contient des articles dont le prix ne correspond pas à celui de Nestor, une remise en pourcentage est appliquée automatiquement.
 
 Par exemple, si une *Margarita Grande* est à 11.00 € dans la commande, mais que son prix est 12.00 € dans le catalogue Nestor, un champ *Remise* égal à 91,67% sera indiqué dans le détail de la commande.
-   ![Commandes - Produit avec remise](../images/018-fr-nestor-remise.png)
+   ![Commandes - Article avec remise](../images/018-fr-nestor-remise.png)
 
 ### Enregistrement d'un client
 

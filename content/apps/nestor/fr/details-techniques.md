@@ -7,9 +7,7 @@ meta:
   description: Informations techniques concernant l'intégration de Nestor à HubRise.
 ---
 
-## Commandes
-
-### Réception des commandes
+## Réception des commandes
 
 Les champs d'une commande HubRise sont utilisés de la façon suivante dans Nestor :
 
