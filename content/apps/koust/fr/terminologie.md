@@ -7,7 +7,7 @@ meta:
   description: Table de correspondance entre les termes utilisés par Koust et ceux utilisés par HubRise.
 ---
 
-HubRise et Koust ont chacun leurs propres mots-clés. Comprendre les différences de terminologie vous permet d'éviter des confusions et de résoudre des problèmes de connexion.
+HubRise et Koust utilisent chacun leur propre terminologie. Un même concept peut donc avoir une désignation différente dans chaque solution. La table de correspondance ci-dessous indique ces différences.
 
 | Description                             | HubRise             | Koust                |
 | --------------------------------------- | ------------------- | -------------------- |

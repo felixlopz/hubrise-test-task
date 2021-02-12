@@ -17,23 +17,26 @@ app_info:
 
 ## Description
 
-Koust est une application qui a été créée en septembre 2016 et qui permet aux restaurateurs de gérer leurs coûts et leurs stocks. Koust accompagne tous types de restaurateurs : des restaurants individuels aux chaînes de restaurants, en passant par la restauration collective.
+Koust est une application qui permet aux restaurateurs de gérer leurs coûts et leurs stocks. Koust accompagne tous types de restaurateurs : des restaurants individuels aux chaînes de restaurants, en passant par la restauration collective.
 
-L'application dispose de nombreuses fonctionnalités séparées en plusieurs pôles. Celui de gestion offre des tableaux de bord qui permettent de suivre en temps réel l'évolution du chiffre d'affaires et de la marge brute de votre établissement. Le pôle de stock permet de passer vos commandes fournisseurs, de faire vos inventaires et d'analyser vos achats. Celui de production offre un planning de production ainsi que la production de produits semi-finis.
+L'application dispose de nombreuses fonctionnalités séparées en plusieurs pôles :
+- Le pôle de gestion offre des tableaux de bord qui permettent de suivre en temps réel l'évolution du chiffre d'affaires et de la marge brute de votre établissement.
+- Le pôle de stock permet de passer vos commandes fournisseurs, de réaliser vos inventaires et d'analyser vos achats.
+- Le pôle de production offre un planning de production ainsi que la production de produits semi-finis.
 
-Les principaux objectifs de Koust sont d'augmenter la marge brute des restaurateurs, augmenter leur productivité, et diminuer les coûts matières.
+Koust a été créé en septembre 2016. Ses principaux objectifs sont d'augmenter la marge brute des restaurateurs, augmenter leur productivité, et diminuer les coûts matières.
 
 ## Fonctionnalités d'intégration
 
-Connecter Koust à HubRise permet à Koust de :
+L'intégration de Koust avec HubRise permet de :
 
-- Importer un catalogue produit depuis HubRise.
-- Importer des commandes depuis HubRise.
+- Importer un catalogue depuis HubRise.
+- Recevoir les commandes venant de HubRise.
 
 ## Pourquoi se connecter ?
 
-Koust peut se connecter à HubRise afin de gérer les achats et les ventes faits par votre système d'encaissement, votre site web et autres applications, ainsi que de gérer vos stocks et vos inventaires. Se connecter à HubRise vous permet de synchroniser votre catalogue produit et vos commandes. Pour plus d'informations sur HubRise, veuillez consulter le [Guide Utilisateur HubRise](/docs).
+En connectant Koust à HubRise, vous pourrez gérer les achats et les ventes provenant de votre système d'encaissement, de votre site internet, et de vos autres applications. Vous pourrez aussi gérer vos stocks et vos inventaires, ainsi que synchroniser votre catalogue et vos commandes. Pour voir les applications vous pouvez connecter, consultez la [page Apps](/apps).
 
 ## Prérequis
 
-Pour établir la connexion entre Koust et HubRise, vous devez avoir un compte Koust, que vous pouvez créer sur https://koustapp.com. Vous devez aussi avoir un compte et un profil utilisateur HubRise.
+Pour établir la connexion entre Koust et HubRise, vous devez avoir un compte Koust. Pour créer ce compte, visitez https://koustapp.com.
