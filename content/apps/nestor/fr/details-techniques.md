@@ -11,7 +11,7 @@ meta:
 
 ### Réception de commande
 
-Voici comment les champs d'une commande HubRise sont utilisés lors de sa réception dans Nestor :
+Les champs d'une commande HubRise sont utilisés de la façon suivante dans Nestor :
 
 | Nom du champ HubRise                   | Utilisation dans Nestor                                                     |
 | -------------------------------------- | --------------------------------------------------------------------------- |
@@ -25,4 +25,4 @@ Voici comment les champs d'une commande HubRise sont utilisés lors de sa récep
 | `discounts`                            | Liste des offres promotionnelles.                                           |
 | `deals`                                | Liste des menus, considérés comme des articles dans la commande.            |
 | `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'email. L'email est utilisé dans le cas d'une demande d'envoi de ticket. |
-| `payment.type`                         | Moyen de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. |
+| `payment.type`                         | Moyen de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. | 
