@@ -117,7 +117,6 @@ Almost all fields are optional. In fact the simplest order that can be created o
   ],
   "charges": [
     {
-      "type": "delivery",
       "name": "Delivery < 15 km",
       "ref": "DEL",
       "price": "1.50 EUR"
@@ -125,7 +124,6 @@ Almost all fields are optional. In fact the simplest order that can be created o
   ],
   "payments": [
     {
-      "type": "online",
       "name": "PayPal",
       "ref": "PP",
       "amount": "23.50 EUR",
@@ -495,7 +493,7 @@ An order discount is a discount applied to the whole order, as opposed to deals 
 | `ref` <Label type="optional" /> | string                                                     | The ref that identifies the discount. |
 | `price_off`                     | [Money](/developers/api/general-concepts/#monetary-values) | The discount value.                   |
 
-Note: the `pricing_effect` and `pricing_value` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
+**Note:** the `pricing_effect` and `pricing_value` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
 
 #### Example:
 
@@ -522,20 +520,20 @@ Order charges increase the price paid by the customer.
 
 | Name                                 | Type                                                        | Description                                                        |
 | ------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------ |
-| `type`                               | string                                                      | Can be one of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
 | `name`                               | string                                                      | The name of the charge.                                            |
 | `ref` <Label type="optional" />      | string                                                      | The ref that identifies the charge.                                |
 | `price`                              | [Money](/developers/api/general-concepts/#monetary-values)  | The charge amount.                                                 |
 | `tax_rate` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | The tax rate applied to the charge. See [Tax Rates](#tax-rates).   |
 
-Note: the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
+**Note:** the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. They are present in the API for backwards compatibility, but their values should be ignored.
+
+**Note:** the `type` field is deprecated and should be ignored in new integrations.
 
 #### Example:
 
 ```json
 [
   {
-    "type": "delivery",
     "name": "Delivery < 15 km",
     "ref": "DEL",
     "price": "1.50 EUR"
@@ -545,32 +543,26 @@ Note: the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. 
 
 ## 10. Order Payments
 
-If one or several payments are defined, the sum of the amounts of the payments should equal the order's `total`, otherwise the difference is stored in the order's `payment_discrepancy` field.
+If one or several payments are defined, the sum of the payment amounts should equal the order's `total`. Otherwise, the difference is stored in the order's `payment_discrepancy` field.
 
-If order payments are omitted, the order should be considered as not paid.
+If payments are omitted, the order should be considered as unpaid.
 
 #### Attributes:
 
 | Name                             | Type                                                       | Description                                                                                                           |
 | -------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `type`                           | string                                                     | One of: `cash` or `online`.                                                                                           |
 | `name` <Label type="optional" /> | string                                                     | The name of the payment method.                                                                                       |
 | `ref` <Label type="optional" />  | string                                                     | Identifies the payment method.                                                                                        |
 | `amount`                         | [Money](/developers/api/general-concepts/#monetary-values) | Amount paid with this payment method.                                                                                 |
 | `info` <Label type="optional" /> | object                                                     | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method. |
 
-#### Payment types:
-
-- `cash`: the customer pays by cash to the store.
-
-- `online`: the customer pays online.
+**Note:** the `type` field is deprecated and should be ignored in new integrations.
 
 #### Example:
 
 ```json
 [
   {
-    "type": "online",
     "name": "PayPal",
     "ref": "PP",
     "amount": "15.00 EUR",
@@ -579,7 +571,6 @@ If order payments are omitted, the order should be considered as not paid.
     }
   },
   {
-    "type": "online",
     "name": "Freebies4me",
     "ref": "FBFM",
     "amount": "4.50 EUR",
