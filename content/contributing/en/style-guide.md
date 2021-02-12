@@ -7,9 +7,7 @@ meta:
   description: Anyone can contribute to the HubRise online documentation. The style guide provides editorial guidelines for anyone contributing to it.
 ---
 
-## Introduction
-
-This style guide provides editorial guidelines for anyone contributing to the HubRise online documentation.
+This guide establishes standard requirements to improve the readability and overall user experience of the HubRise online documentation.
 
 ## General Information
 
@@ -19,7 +17,7 @@ The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be use
 
 Terminology and spelling decisions are informed in the [HubRise Glossary of Terms](/contributing/glossary-of-terms/). Refer to it to maximise linguistic consistency throughout the documentation. Think of including your own terminology decisions within.
 
-Please keep in mind that readers of the documentation might not be native English speakers.
+Keep in mind that readers of the documentation might not be native English speakers.
 
 ## Localisation
 
@@ -323,7 +321,7 @@ Section headings should be marked with the appropriate heading style. In the hie
 ## File name
 
 Files should be given a contextual name written in lower case. Separate words with hyphens, not underscores. Use only standard ASCII alphanumeric characters.
-For image, video or diagram file names, see [Image file names](/contributing/screenshots-guide/#image-naming-convention).
+For image, video or diagram file names, see [Image file names](/contributing/screenshots-guide/#naming-convention).
 
 ## Meta Title and Description
 

@@ -14,27 +14,27 @@ content:
       #  text: than this random content.
   thumbs:
     - title: How to Contribute
-      description: See how you can easily contribute to the technical documentation on this website.
+      description: Things to know before contributing.
       to: /contributing/how-to-contribute
       icon: fa-fast-forward
     - title: Style Guide
-      description: Check the editorial guidelines when contributing.
+      description: Editorial guidelines for contributors.
       to: /contributing/style-guide
       icon: fa-check
     - title: Glossary of Terms
-      description: Find terminology and spelling decisions taken in our glossary of terms.
+      description: Terminology and spelling decisions.
       to: /contributing/glossary-of-terms
       icon: fa-list-alt
     - title: Screenshots Guide
-      description: Keep in mind our screenshooting guidelines and image naming convention.
+      description: Screenshot guidelines and file naming convention.
       to: /contributing/screenshots-guide
       icon: fa-desktop
     - title: Video Guide
-      description: Take note of useful commands for generating short videos for this website.
+      description: Useful commands for generating short tutorial videos.
       to: /contributing/video-guide
       icon: fa-film
     - title: Diagram Guide
-      description: Follow our specifications when creating diagrams.
+      description: Instructions to create diagrams.
       to: /contributing/diagram-guide
       icon: fa-sitemap
 ---

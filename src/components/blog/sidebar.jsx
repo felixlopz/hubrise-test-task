@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import cx from 'classnames'
+import classNames from 'classnames'
 import { useMedia } from 'react-use'
 import { useTranslation } from 'react-i18next'
 
@@ -11,7 +11,7 @@ import {
 } from '../utils/blog'
 import Link from '../link'
 
-function getRecentPosts(articleEdges) {
+function getRecentPosts (articleEdges) {
   return articleEdges
     .map((edge) => {
       const { frontmatter, id, fields } = edge.node
@@ -26,7 +26,7 @@ function getRecentPosts(articleEdges) {
     .slice(0, 5)
 }
 
-function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
+function Sidebar ({ searchQuery, onQueryChange, hideSearchInput }) {
   const { t, i18n } = useTranslation()
   const {
     allMdx: { edges: articleEdges }
@@ -55,7 +55,7 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
     setArchiveExpanded(isDesktop)
   }, [isDesktop])
 
-  function handleSearchSubmit(event) {
+  function handleSearchSubmit (event) {
     event.preventDefault()
 
     if (query.trim() !== searchQuery) {
@@ -70,45 +70,44 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
   )
 
   return (
-    <aside className="section__sidebar">
+    <aside className="section__sidebar blog-sidebar">
       {hideSearchInput ? null : (
-        <form className="widget_search" onSubmit={handleSearchSubmit}>
+        <form className="blog-sidebar__search" onSubmit={handleSearchSubmit}>
           <input
-            className="widget_search__input-search"
+            className="blog-sidebar__search-input"
             type="text"
             placeholder={t('misc.search')}
             value={query}
             onChange={(event) => setQuery(event.target.value)}
           />
           <i
-            className="widget_search__search-submit fa fa-search"
+            className="blog-sidebar__search-button fa fa-search"
             onClick={handleSearchSubmit}
           />
         </form>
       )}
 
       <div
-        className={cx(
-          'blog_widget',
-          !isRecentPostsExpanded && 'blog_widget__hidden'
+        className={classNames(
+          'blog-sidebar__menu',
+          !isRecentPostsExpanded && 'blog-sidebar__menu_hidden'
         )}
       >
         <h5
-          className="blog_widget__title"
+          className="blog-sidebar__menu-title"
           onClick={() => !isDesktop && setRecentPostsExpanded((prev) => !prev)}
         >
           {t('misc.recent_posts')}
           <i
-            className={cx(
-              'fa',
-              'blog_widget__arrow',
-              isRecentPostsExpanded ? 'fa-angle-up' : 'fa-angle-down'
+            className={classNames(
+              'blog-sidebar__menu-arrow',
+              isRecentPostsExpanded ? 'fa fa-angle-up' : 'fa fa-angle-down'
             )}
           />
         </h5>
-        <ul>
+        <ul className="blog-sidebar__menu-list">
           {recentPosts.map((post) => (
-            <li key={post.id}>
+            <li className="blog-sidebar__menu-item" key={post.id}>
               <Link to={post.url} activeClassName="active">
                 {post.title}
               </Link>
@@ -118,27 +117,26 @@ function Sidebar({ searchQuery, onQueryChange, hideSearchInput }) {
       </div>
 
       <div
-        className={cx(
-          'blog_widget',
-          !isArchiveExpanded && 'blog_widget__hidden'
+        className={classNames(
+          'blog-sidebar__menu',
+          !isArchiveExpanded && 'blog-sidebar__menu_hidden'
         )}
       >
         <h5
-          className="blog_widget__title"
+          className="blog-sidebar__menu-title"
           onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}
         >
           {t('misc.archives')}
           <i
-            className={cx(
-              'fa',
-              'blog_widget__arrow',
-              isArchiveExpanded ? 'fa-angle-up' : 'fa-angle-down'
+            className={classNames(
+              'blog-sidebar__menu-arrow',
+              isArchiveExpanded ? 'fa fa-angle-up' : 'fa fa-angle-down'
             )}
           />
         </h5>
-        <ul>
+        <ul className="blog-sidebar__menu-list">
           {archiveList.map((archiveInfo) => (
-            <li key={[archiveInfo.year, archiveInfo.month].join('_')}>
+            <li className="blog-sidebar__menu-item" key={[archiveInfo.year, archiveInfo.month].join('_')}>
               <Link to={getArchiveLink(archiveInfo)} activeClassName="active">
                 {getArchiveTitle(archiveInfo, t)}
               </Link>

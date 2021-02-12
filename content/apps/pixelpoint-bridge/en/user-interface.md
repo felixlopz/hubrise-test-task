@@ -23,7 +23,7 @@ On the top right corner of the PixelPoint Bridge main page, the HubRise user and
 
 ---
 
-**IMPORTANT NOTE**: The first time you access the logs from PixelPoint Bridge, you will be asked to **Allow** the Bridge to access the information on your HubRise account.
+**IMPORTANT NOTE:** The first time you access the logs from PixelPoint Bridge, you will be asked to **Allow** the Bridge to access the information on your HubRise account.
 
 ---
 

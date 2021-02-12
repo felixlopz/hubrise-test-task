@@ -36,7 +36,7 @@ Users can add a personalised message to the customer, adjust the delivery time, 
 
 ---
 
-**IMPORTANT NOTE**: Delivery time updates and messaging must be supported by your online ordering system. For more information on how to set it up, see [Additional Data Prompt](/apps/orderline/settings/##additional-data-prompt).
+**IMPORTANT NOTE:** Delivery time updates and messaging must be supported by your online ordering system. For more information on how to set it up, see [Additional Data Prompt](/apps/orderline/settings/##additional-data-prompt).
 
 ---
 

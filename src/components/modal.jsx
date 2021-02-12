@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Modal = ({ title, description, onClose, children }) => {
+const Modal = ({ title, onClose, children }) => {
   return (
     <div
       className="reveal-overlay"
@@ -23,7 +23,6 @@ const Modal = ({ title, description, onClose, children }) => {
         }}
       >
         <h5 className="modal__title">{title}</h5>
-        <div className="comments__text">{description}</div>
         {children}
         <button
           type="button"
@@ -41,13 +40,11 @@ const Modal = ({ title, description, onClose, children }) => {
 
 Modal.propTypes = {
   title: PropTypes.string,
-  description: PropTypes.string,
   onClose: PropTypes.func
 }
 
 Modal.defaultProps = {
   title: ``,
-  description: ``,
   onClose: () => {}
 }
 

@@ -1,21 +1,41 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import Header from './header'
+import HeaderMobile from './header_mobile'
 import Footer from './footer'
+import { getLanguageFromAbsolutePath } from './utils'
 
-const Layout = ({ children, ...other }) => (
-  <>
-    <Header {...other} />
-    <main className="content" data-floater-content>
-      {children}
-    </main>
-    <Footer {...other} />
-  </>
-)
+const Layout = ({ children, pageContext, path }) => {
+  const menuHeaderNodes = useStaticQuery(headerQuery).allFile.nodes
+  const menuItems = menuHeaderNodes.find(
+    ({ absolutePath }) =>
+      getLanguageFromAbsolutePath(absolutePath) === pageContext.lang
+  ).childYaml.parsedContent
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  return (
+    <>
+      <Header menuItems={menuItems} path={path} />
+      <HeaderMobile menuItems={menuItems} path={path} />
+
+      <main className="content">{children}</main>
+
+      <Footer pageContext={pageContext} />
+    </>
+  )
 }
+
+const headerQuery = graphql`
+  query getHeaderData {
+    allFile(filter: { base: { eq: "menu-header.yaml" } }) {
+      nodes {
+        absolutePath
+        childYaml {
+          parsedContent
+        }
+      }
+    }
+  }
+`
 
 export default Layout

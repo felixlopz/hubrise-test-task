@@ -50,7 +50,7 @@ If you want to reset the configuration and erase its values, click **Reset the c
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your Deliveroo Location ID. To continue receiving Deliveroo orders, you will need to enter your Deliveroo Location ID again.
+**IMPORTANT NOTE:** Resetting the configuration will also erase your Deliveroo Restaurant ID. To continue receiving Deliveroo orders, you will need to enter your Deliveroo Restaurant ID again.
 
 ---
 
