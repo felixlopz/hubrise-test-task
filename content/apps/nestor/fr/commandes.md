@@ -19,11 +19,11 @@ Pour voir la liste des commandes en attente, cliquez sur l'alerte. Pour voir le 
 
 ### Commande avec des articles inconnus
 
-Lorsqu'une commande contient des produits dont le code ref n'est pas reconnu, ces derniers sont remplacés par des produits nommés **Article inconnu**. Il est alors impossible de valider la commande. Pour remédier à ce problème, suivez les étapes suivantes :
+Lorsqu'une commande contient des articles dont le code ref n'est pas reconnu, ces derniers sont remplacés par des articles nommés **Article inconnu**. Il est alors impossible de valider la commande. Pour remédier à ce problème, suivez les étapes suivantes :
 1. Sélectionnez votre commande pour en voir le détail. Certaines lignes intituées **Article inconnu** sont présentes.
 1. Sélectionnez la dernière ligne vide. Votre menu apparaît.
    ![Commandes - Article inconnu](../images/014-fr-nestor-commande-article-inconnu.png)
-1. Sélectionnez et ajoutez le produit correspondant en vous aidant de la description de la ligne **Article inconnu**.
+1. Sélectionnez et ajoutez l'article correspondant en vous aidant de la description de la ligne **Article inconnu**.
 1. Supprimez la ligne **Article inconnu** désormais remplacée.
    ![Commandes - Commande sans article inconnu](../images/015-fr-nestor-commande-validable.png)
 1. Répétez ces étapes pour chaque ligne **Article inconnu**.
@@ -33,7 +33,7 @@ Pour éviter que ce problème se reproduise, assurez-vous que les codes ref de v
 
 ### Produits avec des prix différents
 
-Lorsqu'une commande contient des produits dont le prix ne correspond pas à celui de Nestor, une remise en pourcentage est appliquée automatiquement.
+Lorsqu'une commande contient des articles dont le prix ne correspond pas à celui de Nestor, une remise en pourcentage est appliquée automatiquement.
 
 Par exemple, si une *Margarita Grande* est à 11.00 € dans la commande, mais que son prix est 12.00 € dans le catalogue Nestor, un champ *Remise* égal à 91,67% sera indiqué dans le détail de la commande.
    ![Commandes - Produit avec remise](../images/018-fr-nestor-remise.png)

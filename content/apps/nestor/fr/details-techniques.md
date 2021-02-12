@@ -1,15 +1,15 @@
 ---
-title: Détails techniques
+title: Informations techniques
 position: 7
 layout: documentation
 meta:
-  title: Détails techniques - Nestor
-  description: Détails techniques concernant l'intégration de Nestor à HubRise.
+  title: Informations techniques - Nestor
+  description: Informations techniques concernant l'intégration de Nestor à HubRise.
 ---
 
 ## Commandes
 
-### Réception de commande
+### Réception des commandes
 
 Les champs d'une commande HubRise sont utilisés de la façon suivante dans Nestor :
 

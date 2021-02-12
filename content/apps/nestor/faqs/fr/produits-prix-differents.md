@@ -3,7 +3,7 @@ title: Comment est-ce géré lorsque les prix d'un produit sont différents entr
 position: 1
 layout: documentation
 meta:
-  title: Comment est géré le cas des prix d'un produit différents entre Nestor et une application web
+  title: Comment Nestor traite les différences de prix dans les articles
   description: Comprendre comment est géré le cas des prix d'un produit différents entre Nestor et une application web.
 ---
 
