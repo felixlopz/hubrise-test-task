@@ -35,8 +35,8 @@ Un produit dans HubRise correspond à un article dans Koust. Pour retrouver le c
 
 Une SKU (*Stock Keeping Unit*) dans HubRise correspond aussi à un article dans Koust. Par exemple, si un produit dans HubRise comprend 3 SKUs, 3 articles sont créés dans Koust lors de l'import du catalogue.
 
-Pour retrouver le code ref d'un article, suivez les mêmes étapes que pour un [produit](/apps/nestor/associer-codes-ref#produits).
+Pour retrouver le code ref d'un article, suivez les mêmes étapes que pour un [produit](/apps/koust/associer-codes-ref#produits).
 
 ## Options
 
-Une option dans HubRise correspond aussi à un article dans Koust. Pour retrouver le code ref d'un article, suivez les mêmes étapes que pour un [produit](/apps/nestor/associer-codes-ref#produits).
+Une option dans HubRise correspond aussi à un article dans Koust. Pour retrouver le code ref d'un article, suivez les mêmes étapes que pour un [produit](/apps/koust/associer-codes-ref#produits).
