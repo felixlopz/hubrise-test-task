@@ -3,18 +3,25 @@
   color: $hr-dark-gray;
 
   &__section {
-    @include flex-grid-row();
+    @include hr-container;
+
+    display: flex;
     align-items: center;
     padding: 1.6rem 1rem;
+
+    @media (min-width: $br-large) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__title-wrapper {
     display: flex;
     align-items: center;
+    @include hr-link-hover($hr-green);
 
     &:hover {
       cursor: pointer;
-      color: $hr-green;
     }
 
     &_highlighted {
@@ -23,7 +30,6 @@
   }
 
   &__title-icon {
-    display: flex;
     height: 1.25rem;
     width: 1.25rem;
     margin-right: 0.6rem;
@@ -67,16 +73,12 @@
 
   &__contact-button {
     color: $hr-green;
-
-    &:hover,
-    &:active {
-      cursor: pointer;
-      color: #5d9a43;
-    }
+    @include hr-link-hover($hr-dark-gray);
   }
 
   &__link {
     margin: auto 0.2rem;
+    @include hr-link-hover($hr-dark-gray);
   }
 
   &__instructions-list-item {

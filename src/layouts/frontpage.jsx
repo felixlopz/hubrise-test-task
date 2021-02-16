@@ -3,76 +3,51 @@ import { graphql } from 'gatsby'
 
 import {
   Hero,
-  Main,
-  Demonstration,
-  Faq,
-  CompatibleApps
+  Apps,
+  Api,
+  Documentation,
+  Pricing,
+  Developers,
+  MissionAndScalability,
+  Join
 } from '../components/pages/frontpage'
 import SEO from '../components/seo'
 
 const FrontPage = ({ data, pageContext }) => {
-  const { file, images, videos } = data
-  const { meta, header, body } = file.childYaml.parsedContent
+  const {
+    file,
+    apps,
+    appsHover,
+    apiImage,
+    documentationImage,
+    teamPictures
+  } = data
+  const { meta, hero, content } = file.childYaml.parsedContent
 
   return (
-    <>
+    <div class="frontpage">
       <SEO
         lang={pageContext.lang}
         title={meta.title}
         description={meta.description}
       />
 
-      <Hero signupFormContent={header.signup_form} {...header.hero} />
+      <Hero {...hero} />
 
-      {body.map((block) => {
-        switch (block.block_type) {
-          case 'main':
-          case 'main_green':
-            return (
-              <Main
-                title={block.title}
-                descriptionLarge={block.description_large}
-                description={block.description}
-                features={block.features}
-                style={block.block_type === 'main_green' ? 'green' : null}
-                diagramImage={images.nodes.find(
-                  ({ base }) => base === block.diagram
-                )}
-              />
-            )
-            break
+      <Apps {...content.apps} apps={apps} appsHover={appsHover} />
 
-          case 'demonstration':
-            return (
-              <Demonstration
-                videoFile={videos.nodes.find(
-                  ({ base }) => base === block.video
-                )}
-                {...block}
-              />
-            )
-            break
+      <Api {...content.api} image={apiImage} />
 
-          case 'faq':
-            return <Faq {...block} />
-            break
+      <Documentation {...content.documentation} image={documentationImage} />
 
-          case 'compatible_apps':
-            return (
-              <CompatibleApps
-                carouselImages={block.carousel.reduce((result, item) => {
-                  const match = images.nodes.find(
-                    ({ base }) => item.file === base
-                  )
-                  return result.concat(match ? { ...item, ...match } : [])
-                }, [])}
-                {...block}
-              />
-            )
-            break
-        }
-      })}
-    </>
+      <Pricing {...content.pricing} />
+
+      <Developers {...content.developers} teamPictures={teamPictures} />
+
+      {/*<MissionAndScalability {...content.mission_and_scalability} />*/}
+
+      <Join {...content.join} />
+    </div>
   )
 }
 
@@ -83,25 +58,60 @@ export const frontPageQuery = graphql`
         parsedContent
       }
     }
-    images: allFile(
+    apps: file(
+      absolutePath: { glob: "**/content/base/images/frontpage/apps.png" }
+    ) {
+      childImageSharp {
+        fixed(width: 501, height: 395) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    appsHover: file(
+      absolutePath: { glob: "**/content/base/images/frontpage/apps-hover.png" }
+    ) {
+      childImageSharp {
+        fixed(width: 501, height: 395) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    apiImage: file(
+      absolutePath: { glob: "**/content/base/images/frontpage/api.png" }
+    ) {
+      childImageSharp {
+        fixed(width: 712, height: 485) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    documentationImage: file(
+      absolutePath: {
+        glob: "**/content/base/images/frontpage/documentation.png"
+      }
+    ) {
+      childImageSharp {
+        fixed(width: 558, height: 347) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    teamPictures: allFile(
       filter: {
-        absolutePath: { glob: "**/content/base/images/*" }
+        absolutePath: { glob: "**/content/base/images/frontpage/team/*" }
         extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
       }
     ) {
       nodes {
-        ...Image
-      }
-    }
-    videos: allFile(
-      filter: {
-        absolutePath: { glob: "**/content/base/images/*" }
-        extension: { regex: "/(mp4)|(webm)/" }
-      }
-    ) {
-      nodes {
+        name
         base
         publicURL
+        relativeDirectory
+        childImageSharp {
+          fixed(width: 124, height: 124) {
+            ...GatsbyImageSharpFixed
+          }
+        }
       }
     }
   }

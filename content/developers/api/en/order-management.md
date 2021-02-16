@@ -117,7 +117,6 @@ Almost all fields are optional. In fact the simplest order that can be created o
   ],
   "charges": [
     {
-      "type": "delivery",
       "name": "Delivery < 15 km",
       "ref": "DEL",
       "price": "1.50 EUR"
@@ -125,7 +124,6 @@ Almost all fields are optional. In fact the simplest order that can be created o
   ],
   "payments": [
     {
-      "type": "online",
       "name": "PayPal",
       "ref": "PP",
       "amount": "23.50 EUR",
@@ -166,8 +164,8 @@ Returns an order resource.
 ```json
 {
   "id": "5dpm9",
-  "status": "new",
   "private_ref": "3345",
+  "status": "new",
   "items": [
     {
       "product_name": "Margarita",
@@ -385,17 +383,19 @@ Orders do not have to go through all steps. The sequence actually depends on the
 
 ## 4. Order Items
 
-| Name                                      | Type                                                        | Description                                                                                                                                                                                 |
-| ----------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `product_name`                            | string                                                      | The product name.                                                                                                                                                                           |
-| `sku_name` <Label type="optional" />      | string                                                      | The sku name. Typically the product size or color.                                                                                                                                          |
-| `sku_ref` <Label type="optional" />       | string                                                      | The ref of the sku.                                                                                                                                                                         |
-| `price`                                   | [Money](/developers/api/general-concepts/#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
-| `quantity`                                | [decimal](/developers/api/general-concepts/#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
-| `subtotal` <Label type="optional" />      | [Money](/developers/api/general-concepts/#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                                  |
-| `points_earned` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
-| `points_used` <Label type="optional" />   | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
-| `options` <Label type="optional" />       | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
+| Name                                       | Type                                                        | Description                                                                                                                                                                                 |
+| ------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `product_name`                             | string                                                      | The product name.                                                                                                                                                                           |
+| `sku_name` <Label type="optional" />       | string                                                      | The sku name. Typically the product size or color.                                                                                                                                          |
+| `sku_ref` <Label type="optional" />        | string                                                      | The ref of the sku.                                                                                                                                                                         |
+| `price`                                    | [Money](/developers/api/general-concepts/#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
+| `quantity`                                 | [decimal](/developers/api/general-concepts/#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
+| `subtotal` <Label type="optional" />       | [Money](/developers/api/general-concepts/#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                                  |
+| `tax_rate` <Label type="optional" />       | [decimal](/developers/api/general-concepts/#decimal-values) | The tax rate applied to the item. See [Tax Rates](#tax-rates).                                                                                                                              |
+| `customer_notes` <Label type="optional" /> | string                                                      | Information provided by the customer about the preparation or delivery of the item.                                                                                                         |
+| `points_earned` <Label type="optional" />  | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
+| `points_used` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
+| `options` <Label type="optional" />        | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
 
 #### Example:
 
@@ -406,7 +406,10 @@ Orders do not have to go through all steps. The sequence actually depends on the
   "sku_ref": "MAR-SM",
   "price": "9.00 EUR",
   "quantity": "2",
-  "points_earned": "1.0",
+  "tax_rate": "20.0",
+  "customer_notes": "Well cooked",
+  "points_earned": "1.5",
+  "points_used": null,
   "options": [
     {
       "option_list_name": "Sauce",
@@ -490,7 +493,7 @@ An order discount is a discount applied to the whole order, as opposed to deals 
 | `ref` <Label type="optional" /> | string                                                     | The ref that identifies the discount. |
 | `price_off`                     | [Money](/developers/api/general-concepts/#monetary-values) | The discount value.                   |
 
-Note: the `pricing_effect` and `pricing_value` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
+**Note:** the `pricing_effect` and `pricing_value` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
 
 #### Example:
 
@@ -515,21 +518,22 @@ Order charges increase the price paid by the customer.
 
 #### Attributes:
 
-| Name                            | Type                                                       | Description                                                        |
-| ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| `type`                          | string                                                     | Can be one of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
-| `name`                          | string                                                     | The name of the charge.                                            |
-| `ref` <Label type="optional" /> | string                                                     | The ref that identifies the charge.                                |
-| `price`                         | [Money](/developers/api/general-concepts/#monetary-values) | The charge amount.                                                 |
+| Name                                 | Type                                                        | Description                                                        |
+| ------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------ |
+| `name`                               | string                                                      | The name of the charge.                                            |
+| `ref` <Label type="optional" />      | string                                                      | The ref that identifies the charge.                                |
+| `price`                              | [Money](/developers/api/general-concepts/#monetary-values)  | The charge amount.                                                 |
+| `tax_rate` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | The tax rate applied to the charge. See [Tax Rates](#tax-rates).   |
 
-Note: the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
+**Note:** the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. They are present in the API for backwards compatibility, but their values should be ignored.
+
+**Note:** the `type` field is deprecated and should be ignored in new integrations.
 
 #### Example:
 
 ```json
 [
   {
-    "type": "delivery",
     "name": "Delivery < 15 km",
     "ref": "DEL",
     "price": "1.50 EUR"
@@ -539,32 +543,26 @@ Note: the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. 
 
 ## 10. Order Payments
 
-If one or several payments are defined, the sum of the amounts of the payments should equal the order's `total`, otherwise the difference is stored in the order's `payment_discrepancy` field.
+If one or several payments are defined, the sum of the payment amounts should equal the order's `total`. Otherwise, the difference is stored in the order's `payment_discrepancy` field.
 
-If order payments are omitted, the order should be considered as not paid.
+If payments are omitted, the order should be considered as unpaid.
 
 #### Attributes:
 
 | Name                             | Type                                                       | Description                                                                                                           |
 | -------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `type`                           | string                                                     | One of: `cash` or `online`.                                                                                           |
 | `name` <Label type="optional" /> | string                                                     | The name of the payment method.                                                                                       |
 | `ref` <Label type="optional" />  | string                                                     | Identifies the payment method.                                                                                        |
 | `amount`                         | [Money](/developers/api/general-concepts/#monetary-values) | Amount paid with this payment method.                                                                                 |
 | `info` <Label type="optional" /> | object                                                     | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method. |
 
-#### Payment types:
-
-- `cash`: the customer pays by cash to the store.
-
-- `online`: the customer pays online.
+**Note:** the `type` field is deprecated and should be ignored in new integrations.
 
 #### Example:
 
 ```json
 [
   {
-    "type": "online",
     "name": "PayPal",
     "ref": "PP",
     "amount": "15.00 EUR",
@@ -573,7 +571,6 @@ If order payments are omitted, the order should be considered as not paid.
     }
   },
   {
-    "type": "online",
     "name": "Freebies4me",
     "ref": "FBFM",
     "amount": "4.50 EUR",
@@ -616,3 +613,13 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
   }
 ]
 ```
+
+## 12. Tax Rates
+
+A `tax_rate` can be specified for each order item and order charge.
+
+Tax rate are decimal numbers, representing a percentage of the price. For example, `tax_rate=15.5` means that the tax is 15.5% of the price of the item or charge.
+
+Whether prices are tax-inclusive or exclusive is a decision taken at the account level. The chosen convention must then be enforced by all clients connected to the account. As a general rule, you can assume that prices in HubRise are **tax-inclusive** for accounts situated in markets where consumer prices are tax-inclusive, for example European countries. On the contrary, prices can generally be considered as **tax-exclusive** in the other markets, for example the U.S.
+
+HubRise does not perform any computation with `tax_rate`, and does not require this field to be present. If needed, use a default value for items with unspecified tax rates.

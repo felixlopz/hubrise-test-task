@@ -28,6 +28,10 @@
     width: 100vw;
   }
 
+  &__center {
+    text-align: center;
+  }
+
   &__in {
     background: $white;
     @include flex-grid-column(12);
@@ -65,17 +69,6 @@
       content: '';
       background: #fefefe;
       position: absolute;
-    }
-  }
-
-  &__in_full-width {
-    @include flex-grid-row();
-
-    &:before,
-    &:after {
-      background: none;
-      left: 0;
-      right: 0;
     }
   }
 
@@ -120,14 +113,6 @@
     }
   }
 
-  &__in_gray {
-    background: #f5f5f5;
-
-    &:before {
-      background: #f5f5f5;
-    }
-  }
-
   &__in_blog {
     width: 100%;
 
@@ -141,15 +126,12 @@
   }
 
   &__in_developers {
-    background: transparent;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    padding-left: 0;
-    padding-right: 0;
     text-align: left;
+    background: transparent;
 
     &:before {
       background: #fbfbfb;
@@ -288,18 +270,6 @@
     }
   }
 
-  &__content_small {
-    @include flex-grid-column(7);
-    background: $white;
-    padding-top: $hr-block-padding;
-    padding-bottom: $hr-block-padding;
-
-    @include breakpoint(medium down) {
-      @include flex-grid-column(12);
-      order: 2;
-    }
-  }
-
   &__title {
     color: $hr-dark-gray;
     font-weight: bold;
@@ -332,6 +302,7 @@
 
   &__in_green &__title {
     color: $white;
+
     &:after {
       background: $white;
     }
@@ -340,6 +311,7 @@
   &__title_no-border {
     margin-bottom: 1rem;
     line-height: 2rem;
+
     &:after {
       background: none;
       width: 0;
@@ -351,19 +323,9 @@
   &__title-span {
     width: 100%;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: $white;
     font-weight: 400;
-  }
-
-  &__title_comments {
-    width: auto;
-    &:after {
-      width: 80%;
-    }
-    @include breakpoint(medium down) {
-      width: 100%;
-    }
   }
 
   &__description {
@@ -378,14 +340,6 @@
     color: $white;
   }
 
-  &__description-title {
-    width: 100%;
-    display: inline-block;
-    color: $hr-dark-gray;
-    font-weight: 600;
-    font-size: 1.125rem;
-  }
-
   &__description-link {
     display: inline-block;
     color: $hr-green;
@@ -393,86 +347,15 @@
     margin-right: 0.2rem;
     line-height: 1;
 
-    &:hover,
+    @include hr-link-hover($hr-dark-gray);
+
     &:active,
     &:focus {
       color: $hr-dark-gray;
-      cursor: pointer;
     }
-  }
-
-  &__description-span {
-    color: $hr-light-gray;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
   }
 
   &__description_white {
     color: $white;
-  }
-
-  &__description_large {
-    color: $hr-gray;
-    font-weight: 500;
-    font-size: 1.25rem;
-  }
-
-  &__diagram {
-    margin-top: 2rem;
-  }
-
-  &__price-list {
-    display: block;
-    list-style: none;
-  }
-
-  &__price-item {
-    width: 100%;
-    display: inline-block;
-  }
-
-  &__price-span {
-    color: $white;
-    font-size: 1rem;
-  }
-
-  &__link-block {
-    padding-top: 3rem;
-    margin-top: 1.5rem;
-    position: relative;
-
-    &:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      margin: 10px auto;
-      width: 20%;
-      height: 3px;
-      background: #ececec;
-    }
-  }
-
-  &__small-title {
-    color: $hr-dark-gray;
-    font-weight: bold;
-    font-size: 1.5rem;
-    position: relative;
-    margin-bottom: 2.5rem;
-    width: 100%;
-    text-align: left;
-
-    &:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      right: inherit;
-      top: 100%;
-      margin: 10px auto;
-      width: 15%;
-      height: 3px;
-      background: #ececec;
-    }
   }
 }

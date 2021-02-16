@@ -1,103 +1,52 @@
 .header {
-  height: 80px;
-  border-bottom: 3px solid $hr-green;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  background: $white;
+  display: none;
 
-  &__in {
-    height: 100%;
-  }
-
-  &__desktop {
-    @include flex();
-    @include flex-grid-row();
-    // @include flex-grid-column(9);
-    height: 100%;
+  @media (min-width: $br-large) {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    max-width: 75rem;
-    padding: 0 1rem;
-    @include breakpoint(medium down) {
-      display: none;
-    }
-  }
+    padding: 0 2%;
 
-  &__mobile {
-    display: none;
-    height: 100%;
-    @include breakpoint(medium down) {
-      display: block;
-    }
-    &__overlay {
-      position: fixed;
-      width: 100vw;
-      height: 100vh;
-      background-color: rgba(0, 0, 0, 0.3);
-      z-index: 4;
-    }
+    @include hr-header-style;
   }
 
   &__logo {
-    @include grid-col(2, 0);
   }
 
-  &__action {
-    @include grid-col(3, 0);
-    text-align: right;
+  &__nav {
+    display: flex;
   }
 
-  &__action_sidenav {
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
+  &__nav-item {
+    @include hr-dot-separated-list(0.5rem);
+  }
 
-    .header__action-signup {
-      display: inline-block;
-      width: 100%;
-      padding: 0;
-      color: $hr-light-gray;
-      font-size: 0.9375rem;
-      font-weight: 400;
-      &:hover {
-        color: $hr-green;
-      }
-    }
+  &__nav-link {
+    color: $hr-dark-gray;
+    @include hr-link-hover($hr-green);
+  }
 
-    .header__action-login {
-      width: 80%;
-      margin: 0.2rem 0;
-    }
+  &__nav-link_active {
+    color: $hr-green;
+  }
+
+  &__action-signup,
+  &__action-login {
+    margin-left: 0.6em;
+
+    @include hr-button;
+    @include hr-button-hover($white, $hr-dark-gray);
   }
 
   &__action-signup {
-    padding-right: 1rem;
-    color: $hr-light-gray;
-    font-size: 0.9375rem;
-    &:hover {
-      color: $hr-green;
-    }
+    color: $hr-gray;
+    background-color: #eeeeee;
   }
 
   &__action-login {
-    display: inline-block;
-    padding: 0.6rem 1.5rem;
-    border-radius: 3px;
     color: $white;
-    background: $hr-green;
-    font-size: 0.9375rem;
-    line-height: 15px;
-    cursor: pointer;
-
-    &:hover {
-      color: $white;
-    }
-
-    &:focus {
-      outline: none;
-    }
-  }
-
-  &__social-block {
-    display: grid;
+    background-color: $hr-green;
   }
 }
