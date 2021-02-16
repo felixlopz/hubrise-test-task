@@ -4,12 +4,12 @@ position: 1
 layout: documentation
 meta:
   title: Guide de style HubRise
-  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style fournit des recommendations éditoriales pour contribuer à la documentation.
+  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style contient des recommendations éditoriales pour contribuer à la documentation.
 ---
 
 ## Introduction
 
-Ce guide de style contient des recommendations éditoriales pour les contributeurs à la documentation HubRise.
+Ce guide de style contient des recommendations éditoriales pour les contributeurs de la documentation HubRise.
 
 ## Localisation
 
@@ -29,7 +29,7 @@ Pour une expression qui a un acronyme connu auprès de votre public cible, mette
 
 ### Virgules
 
-Pour les listes de trois éléments ou plus, ajoutez une virgule avant le dernier élément. Par exemple : *Mon repas était composé d'une entrée, d'un plat principal, d'un dessert, et d'un café.*
+Pour les listes de trois éléments ou plus, ajoutez une virgule avant le dernier élément. Par exemple : _Mon repas était composé d'une entrée, d'un plat principal, d'un dessert, et d'un café._
 
 ### Parenthèses
 
@@ -45,26 +45,26 @@ Réservez l'usage des guillemets aux citations. Incluez la ponctuation à l'int�
 
 Dans une liste à puces, chaque élément de la liste commence par une majuscule et se termine par un point, sauf s'il s'agit d'un mot isolé.
 
-Par exemple, écrivez ainsi une courte liste : *Une commande prend successivement les statuts **Reçue**, **En attente**, et **Validée**.*
+Par exemple, écrivez ainsi une courte liste : _Une commande prend successivement les statuts **Reçue**, **En attente**, et **Validée**._
 
 Pour une liste plus longue, procédez comme suit :
 
-*Les statuts d'une commande sont les suivants :*
+_Les statuts d'une commande sont les suivants :_
 
-- *Reçue*
-- *Acceptée*
-- *En attente*
-- *En préparation*
-- *Livrée*
-- *Rejetée*
+- _Reçue_
+- _Acceptée_
+- _En attente_
+- _En préparation_
+- _Livrée_
+- _Rejetée_
 
 Ou :
 
-*Depuis votre tableau de bord, vous pouvez :*
+_Depuis votre tableau de bord, vous pouvez :_
 
-- *Supprimer une commande.*
-- *Accepter une commande.*
-- *Accéder à la liste de vos clients.*
+- _Supprimer une commande._
+- _Accepter une commande._
+- _Accéder à la liste de vos clients._
 
 ## Références
 
@@ -82,7 +82,7 @@ Utilisez des chemins relatifs pour les liens internes ou les renvois, et des che
 
 ## Lisibilité
 
-Votre texte doit être facile à scanner. Les lecteurs lisent souvent en diagonale. 
+Votre texte doit être facile à scanner. Les lecteurs lisent souvent en diagonale.
 
 Assurez-vous que votre message principal soit clair, et que les lecteurs trouvent l'aide nécessaire. Adoptez un style concis, simple, et objectif.
 
@@ -96,17 +96,17 @@ Pour rendre votre texte plus lisible, utilisez :
 
 ### Voix active
 
-La voix active est une construction de phrase dans laquelle le sujet est la personne ou l'objet qui effectue l'action. La voix passive est au contraire une construction dans laquelle le sujet grammatical subit l'action.
+La voix active est une construction de phrase dans laquelle le sujet est la personne ou l'objet qui effectue l'action. La voix passive est une construction dans laquelle le sujet subit l'action.
 
 Utilisez la voix active pour rendre votre message plus clair et éviter une écriture distante. Presque toutes les phrases passives ont un équivalent actif. N'utilisez la voix passive qu'en l'absence d'alternative en voix active.
 
 Voici quelques exemples de phrases en voix active et passive :
 
-| Voix passive                                         | Voix active                                  |
-| :--------------------------------------------------- | :------------------------------------------- |
-| *Le cheval est brossé par le cavalier.*              | *Le cavalier brosse le cheval.*              |
-| *Le chien est promené par un vieil homme.*           | *Un vieil homme promène le chien.*           |
-| *Le bébé est porté par une femme blonde.*            | *Une femme blonde porte le bébé.*            |
+| Voix passive                               | Voix active                        |
+| :----------------------------------------- | :--------------------------------- |
+| _Le cheval est brossé par le cavalier._    | _Le cavalier brosse le cheval._    |
+| _Le chien est promené par un vieil homme._ | _Un vieil homme promène le chien._ |
+| _Le bébé est porté par une femme blonde._  | _Une femme blonde porte le bébé._  |
 
 ### Politesse
 
@@ -126,15 +126,17 @@ Positionnez les conditions avant les instructions, afin de permettre au lecteur 
 
 ### Synonymes
 
-Choisissez un terme unique pour chaque concept, et utilisez toujours ce même terme. Évitez d'utiliser des synonymes du terme choisi, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
+Choisissez un terme unique pour chaque concept, et utilisez toujours ce terme. Évitez d'employer des synonymes, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
 
 ### Vouvoiement
 
-Adressez-vous directement à votre interlocuteur sans vous inclure, donc sans utiliser la première personne du pluriel. Utilisez le vouvoiement, et pour les instructions, privilégiez l'impératif.
+Utilisez le vouvoiement, et pour les instructions, privilégiez l'impératif.
 
 > Incorrect : Vous devez cliquer sur **Se connecter**.
 
 > Correct : Cliquez sur **Se connecter**.
+
+Adressez-vous directement à votre interlocuteur sans vous inclure, donc sans utiliser la première personne du pluriel.
 
 ## Verbe "faire"
 
@@ -142,15 +144,15 @@ Evitez l'emploi du verbe "faire", et préférez-lui un verbe décrivant précis�
 
 ## Gras
 
-Utilisez l'écriture en gras pour les éléments d'interface, tels que les boutons et les menus. Par exemple : *Depuis votre tableau de bord HubRise, dans le menu principal, cliquez sur **CONNEXIONS**.*
+Utilisez l'écriture en gras pour les éléments d'interface, tels que les boutons et les menus. Par exemple : _Depuis votre tableau de bord HubRise, dans le menu principal, cliquez sur **CONNEXIONS**._
 
 ## Italique
 
-Utilisez l'écriture italique pour les définitions d'acronymes et les exemples.
+Utilisez l'écriture italique pour définir les acronymes, et pour les exemples.
 
 ## Actions utilisateur
 
-Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l'action doit être réalisée, avant de décrire l'action elle-même.
+Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l'action doit être réalisée, puis décrivez l'action elle-même.
 
 > Incorrect : Cliquez sur **Configuration** dans le menu principal.
 
