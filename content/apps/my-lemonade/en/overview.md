@@ -28,13 +28,13 @@ A Kitchen Display Screen is available to restaurants without EPOS integration to
 
 ## Integration Features
 
-Connecting My Lemonade to HubRise allows My Lemonade to:
+Connecting My Lemonade to HubRise allows to:
 
-- Push orders into HubRise.
+- Push orders from My Lemonade to HubRise.
 - Pull order status from HubRise into My Lemonade.
-- Push customer information into HubRise.
-- Push the menu into a HubRise catalog.
-- Pull a product catalog from HubRise.
+- Push customer information from My Lemonade to HubRise.
+- Push the catalog from My Lemonade to HubRise.
+- Pull a catalog from HubRise into My Lemonade.
 
 ## Why Connect?
 
@@ -42,4 +42,4 @@ My Lemonade can be connected to HubRise for your website and other apps you use 
 
 ## Prerequisites
 
-To establish a connection between My Lemonade and HubRise, you must have an account on both apps.
+To establish a connection between My Lemonade and HubRise, you must have an account on both solutions.
