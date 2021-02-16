@@ -4,26 +4,26 @@ position: 1
 layout: documentation
 meta:
   title: Guide de style HubRise
-  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style fournit des directives éditoriales pour contribuer à la documentation.
+  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style fournit des recommendations éditoriales pour contribuer à la documentation.
 ---
 
 ## Introduction
 
-Ce guide de style fournit des directives éditoriales dans le but de contribuer à la documentation en ligne HubRise.
+Ce guide de style contient des recommendations éditoriales pour les contributeurs à la documentation HubRise.
 
 ## Localisation
 
-La documentation HubRise doit être écrite en français (France).
+La documentation française d'HubRise est écrite en français de France.
 
-Si l'interface de la solution documentée n'est pas disponible en français, ajoutez le terme utilisé dans l'interface suivi de la traduction entre parenthèses.
+Si l'interface de la solution documentée n'est pas disponible en français, utilisez le terme non traduit provenant de l'interface, suivi de la traduction entre parenthèses.
 
 > Correct : Cliquez sur **Connect** (Connecter).
 
 ## Majuscules
 
-S'il s'agit d'un titre officiel, d'un nom, d'une marque déposée, d'un copyright, ou d'une chose unique dans l'univers, mettez une majuscule. En cas de doute, ne mettez pas de majuscule.
+Pour un titre officiel, un nom, une marque déposée, un copyright, ou une chose unique dans l'univers, mettez une majuscule. En cas de doute, ne mettez pas de majuscule.
 
-S'il s'agit d'une expression qui a un acronyme connu auprès de votre public cible, mettez une majuscule.
+Pour une expression qui a un acronyme connu auprès de votre public cible, mettez une majuscule.
 
 ## Ponctuation
 
@@ -41,11 +41,13 @@ Réservez l'usage des guillemets aux citations. Incluez la ponctuation à l'int�
 
 ## Listes
 
-Écrivez une courte liste sous forme de phrase. Pour plus de trois éléments ou plusieurs longues instructions, représentez-les sous forme de liste à puces. Chaque élément de la liste doit se terminer par un point, sauf s'il s'agit d'un mot isolé. Chaque élément doit commencer par une majuscule.
+Écrivez une courte liste sous forme de phrase. Si la liste a plus de trois éléments ou qu'elle contient des instructions longues, écrivez-la sous forme de liste à puces.
+
+Dans une liste à puces, chaque élément de la liste commence par une majuscule et se termine par un point, sauf s'il s'agit d'un mot isolé.
 
 Par exemple, écrivez ainsi une courte liste : *Une commande prend successivement les statuts **Reçue**, **En attente**, et **Validée**.*
 
-Écrivez une liste plus longue comme suit :
+Pour une liste plus longue, procédez comme suit :
 
 *Les statuts d'une commande sont les suivants :*
 
@@ -56,20 +58,19 @@ Par exemple, écrivez ainsi une courte liste : *Une commande prend successivemen
 - *Livrée*
 - *Rejetée*
 
-Ou encore de la manière suivante :
+Ou :
 
 *Depuis votre tableau de bord, vous pouvez :*
 
 - *Supprimer une commande.*
 - *Accepter une commande.*
-- *Consulter vos stocks.*
 - *Accéder à la liste de vos clients.*
 
 ## Références
 
 ### Renvois
 
-Utilisez Les renvois pour guider les lecteurs vers une information ciblée dans la même ou une autre page. N'attachez pas le lien directement à un mot au risque qu'il passe inaperçu. Écrivez plutôt une phrase séparée pour introduire le renvoi avec le nom exact du titre.
+Utilisez Les renvois pour guider les lecteurs vers une information ciblée dans la même ou une autre page. N'attachez pas le lien directement à un mot car il risque de passer inaperçu. Écrivez une nouvelle phrase pour introduire le renvoi avec le nom exact du titre.
 
 > Incorrect : Vous pouvez représenter ces derniers sous forme de [listes](#listes).
 
@@ -81,9 +82,11 @@ Utilisez des chemins relatifs pour les liens internes ou les renvois, et des che
 
 ## Lisibilité
 
-Votre texte doit être facile à lire. Les lecteurs sont occupés donc ils pourraient lire votre texte en diagonale. Mettez en place des stratégies pour que votre message soit clair, ou que les lecteurs trouvent l'aide nécessaire. Adoptez un style concis, simple, et objectif.
+Votre texte doit être facile à scanner. Les lecteurs lisent souvent en diagonale. 
 
-Pour rendre un texte facilement lisible, utilisez :
+Assurez-vous que votre message principal soit clair, et que les lecteurs trouvent l'aide nécessaire. Adoptez un style concis, simple, et objectif.
+
+Pour rendre votre texte plus lisible, utilisez :
 
 - Des phrases courtes.
 - De petits paragraphes.
@@ -93,11 +96,9 @@ Pour rendre un texte facilement lisible, utilisez :
 
 ### Voix active
 
-Utilisez la voix active afin de rendre votre message plus clair et concis, et d'éviter une écriture trop distante.
+La voix active est une construction de phrase dans laquelle le sujet est la personne ou l'objet qui effectue l'action. La voix passive est au contraire une construction dans laquelle le sujet grammatical subit l'action.
 
-La voix passive est quand le sujet grammatical de la phrase est la personne ou l'objet qui subit l'action. La voix active est au contraire quand le sujet grammatical de la phrase est la personne ou l'objet qui fait l'action.
-
-Presque toutes les phrases passives ont un équivalent actif. N'utilisez la forme passive qu'en l'absence d'alternative en forme active.
+Utilisez la voix active pour rendre votre message plus clair et éviter une écriture distante. Presque toutes les phrases passives ont un équivalent actif. N'utilisez la voix passive qu'en l'absence d'alternative en voix active.
 
 Voici quelques exemples de phrases en voix active et passive :
 
@@ -117,7 +118,7 @@ Il est inutile d'être poli pour donner des instructions.
 
 ### Conditions
 
-Positionnez les conditions avant les instructions, afin que le lecteur puisse passer à la suite si la condition ne s'applique pas à son cas.
+Positionnez les conditions avant les instructions, afin de permettre au lecteur de sauter la phrase si la condition ne s'applique pas à son cas.
 
 > Incorrect : Cliquez sur **Ok** si un message d'erreur s'affiche.
 
@@ -125,7 +126,7 @@ Positionnez les conditions avant les instructions, afin que le lecteur puisse pa
 
 ### Synonymes
 
-Évitez d'utiliser des synonymes, choisissez un terme et utilisez toujours ce même terme. Votre texte n'a pas d'objectif littéraire mais explicatif. Trop de synonymes peuvent perdre le lecteur.
+Choisissez un terme unique pour chaque concept, et utilisez toujours ce même terme. Évitez d'utiliser des synonymes du terme choisi, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
 
 ### Vouvoiement
 
@@ -137,19 +138,19 @@ Adressez-vous directement à votre interlocuteur sans vous inclure, donc sans ut
 
 ## Verbe "faire"
 
-Afin d'être précis et de ne pas répéter l'usage du verbe "faire", évitez de l'utiliser et remplacez-le par un verbe décrivant mieux l'action à réaliser.
+Evitez l'emploi du verbe "faire", et préférez-lui un verbe décrivant précisément l'action à réaliser.
 
 ## Gras
 
-Utilisez l'écriture en gras pour identifier les éléments de l'interface d'une solution. Par exemple : *Depuis votre tableau de bord HubRise, dans le menu principal, cliquez sur **CONNEXIONS**.*
+Utilisez l'écriture en gras pour les éléments d'interface, tels que les boutons et les menus. Par exemple : *Depuis votre tableau de bord HubRise, dans le menu principal, cliquez sur **CONNEXIONS**.*
 
 ## Italique
 
-Utilisez l'écriture italique pour clarifier des acronymes ou identifier des exemples.
+Utilisez l'écriture italique pour les définitions d'acronymes et les exemples.
 
-## Interface utilisateur
+## Actions utilisateur
 
-Pour les instructions à exécuter dans l'interface d'une solution, précisez l'endroit où l'action doit être réalisée, puis l'action elle-même.
+Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l'action doit être réalisée, avant de décrire l'action elle-même.
 
 > Incorrect : Cliquez sur **Configuration** dans le menu principal.
 
