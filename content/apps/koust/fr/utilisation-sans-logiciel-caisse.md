@@ -11,7 +11,7 @@ Si votre entreprise n'utilise pas de logiciel de caisse, vous devez utiliser un 
 
 ## Import CSV
 
-Pour réaliser un import CSV, suivez les étapes suivantes :
+Utilisez un fichier CSV comme source des codes ref de vos produits. Remplissez manuellement ce fichier, puis importez-le dans Koust grâce à la fonctionnalité d'import manuel. Pour réaliser cet import, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Ventes - Conso.**.
    ![Utilisation sans logiciel de caisse - Aucun article](../images/012-fr-koust-aucun-article.png)
