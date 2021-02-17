@@ -11,6 +11,12 @@ meta:
 
 Si votre entreprise n'utilise pas de logiciel de caisse, vous pouvez importer vos codes ref depuis un fichier CSV. Pour connaître la structure de ce fichier, suivez les étapes ci-dessous jusqu'à la sélection du fichier, puis téléchargez le fichier exemple fourni par Koust.
 
+---
+
+**NOTE IMPORTANTE :** Pour éviter tout problème d'encodage ou d'accent, assurez-vous d'enregistrer votre fichier CSV en encodage UTF-8.
+
+---
+
 Pour importer un fichier CSV dans Koust, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Ventes - Conso.**.
@@ -28,9 +34,3 @@ Pour importer un fichier CSV dans Koust, suivez les étapes suivantes :
    ![Utilisation sans logiciel de caisse - Liste des articles](../images/017-fr-koust-articles-apres-import.png)
    
 Contrairement aux articles importés depuis le catalogue HubRise, les codes ref des articles importés en CSV ne peuvent pas être modifiés. Si vous devez modifier le code ref d'un article, supprimez cet article puis importez à nouveau.
-
----
-
-**NOTE IMPORTANTE :** Pour éviter tout problème d'encodage ou d'accent, pensez à enregistrer votre fichier CSV en encodage UTF-8.
-
----

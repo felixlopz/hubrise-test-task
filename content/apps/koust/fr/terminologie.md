@@ -9,9 +9,9 @@ meta:
 
 HubRise et Koust utilisent chacun leur propre terminologie. Un même concept peut donc avoir une désignation différente dans chaque solution. La table de correspondance ci-dessous indique ces différences.
 
-| Description                             | HubRise             | Koust                |
-| --------------------------------------- | ------------------- | -------------------- |
-| Catégorie du produit                    | Catégorie           | Gamme                |
-| Nom du produit (contexte vente)         | Produit             | Article              |
-| Nom du produit (contexte achat)         | Produit             | Ingrédient / Recette |
-| Identifiant du produit                  | Code ref            | Référence distante   |
+| Koust                | HubRise   | Description                     |
+| -------------------- | --------- | ------------------------------- |
+| Gamme                | Catégorie | Catégorie du produit            |
+| Article              | Produit   | Nom du produit (contexte vente) |
+| Ingrédient / Recette | Produit   | Nom du produit (contexte achat) |
+| Référence distante   | Code ref  | Identifiant du produit          |
