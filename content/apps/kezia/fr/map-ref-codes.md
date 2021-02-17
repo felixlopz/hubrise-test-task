@@ -13,8 +13,11 @@ Après avoir connecté votre logiciel de caisse Kezia II à votre compte HubRise
 
 Lors de la première connexion, vous devez exporter votre catalogue manuellement vers HubRise en suivant les étapes suivantes :
 
-1. Dans la barre de menu, sélectionnez **Hubrise**. Une fenêtre nommée **Kezia II/HubRise** s'affiche.
-1. Dans l'onglet **E/S**, sélectionnez **Envoi articles sur HubRise**.
+1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
+1. Sélectionnez un vendeur.
+1. Cliquez sur **Paramètres Web**.
+1. Cliquez sur **HubRise**.
+1. Dans l'onglet **E/S**, sélectionnez **Envoi Articles sur HubRise**.
    ![Trouver les codes ref - Export du catalogue](../images/005-fr-jdc-export-catalogue.png)
 
 Les informations client et les commandes sont envoyées automatiquement. En cas de problème avec la synchronisation automatique, vous pouvez vous rendre dans cet onglet pour faire ces exports manuellement.
@@ -33,12 +36,6 @@ Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systé
 1. Sélectionnez **Appliq.**.
 
 Vous pouvez ensuite exporter de nouveau votre catalogue en suivant les étapes décrites au début de [cette partie](/apps/kezia/map-ref-codes#exporter-le-catalogue).
-
----
-
-**NOTE IMPORTANTE** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, veuillez consulter notre [Guide de prise en main](/docs/getting-started/).
-
----
 
 ## Produits
 
