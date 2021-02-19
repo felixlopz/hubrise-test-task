@@ -16,29 +16,29 @@ These are divided into different categories for an easier navigation.
 
 From this section, you can decide which language will be used to encode the order item names in your receipts.
 
-## Default Customer
-
-By default, Deliveroo does not encode the customer's details when they send an order to HubRise. However, certain EPOS systems require a customer to be specified in every order.
-
-This section allows you to define the default first name, last name and email address that will be used for all your Deliveroo orders.
-
 ## Service Types
 
 Service types such as Delivery by Deliveroo, Delivery by your own fleet or Collection might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-## Delivery Charges
-
-If delivery charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
-
-## Payment Methods
-
-Deliveroo customers can pay for their order either online or by cash on delivery.
-
-This section of the configuration page allows you to specify the ref codes for these two payment methods, together with the payment type associated with online payments on the Deliveroo web site. Cash payments are always associated with the `cash` type.
-
 ## Discounts
 
-This section allows you to specify the discount name and ref code applied to your products, in case you have one active on your Deliveroo page.
+This section allows you to specify the discount ref code applied to your products, in case you have one active on your Deliveroo page.
+
+Available discounts on Deliveroo appear in the **All offers** page in your Deliveroo back office.
+
+![Example of all offers page in Deliveroo back office](../images/013-en-deliveroo-offer.png)
+
+## Charges
+
+If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+
+In this section, you can specify the ref code for delivery charges, and for surcharges applied to orders below the minimum price.
+
+## Payments
+
+Deliveroo customers can pay for their order either online or by cash on delivery for restaurant fulfilled orders.
+
+This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
 
 ## Saving the Configuration
 
