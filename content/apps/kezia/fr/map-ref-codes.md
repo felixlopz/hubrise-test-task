@@ -14,25 +14,28 @@ Après avoir connecté votre logiciel de caisse Kezia II à votre compte HubRise
 Lors de la première connexion, vous devez exporter votre catalogue manuellement vers HubRise en suivant les étapes suivantes :
 
 1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
+   ![Trouver les codes ref - Ouverture caisse](../images/011-fr-jdc-ouverture-caisse.png)
 1. Sélectionnez un vendeur.
+   ![Trouver les codes ref - Caisse avec vendeur sélectionné](../images/012-fr-jdc-vendeur-selectionne.png)
 1. Cliquez sur **Paramètres Web**.
+   ![Trouver les codes ref - Choix de la plateforme](../images/013-fr-jdc-choix-plateforme.png)
 1. Cliquez sur **HubRise**.
+   ![Trouver les codes ref - Paramètres d'envoi](../images/014-fr-jdc-parametres-envoi.png)
 1. Dans l'onglet **E/S**, sélectionnez **Envoi Articles sur HubRise**.
-   ![Trouver les codes ref - Export du catalogue](../images/005-fr-jdc-export-catalogue.png)
 
 Les informations client et les commandes sont envoyées automatiquement. En cas de problème avec la synchronisation automatique, vous pouvez vous rendre dans cet onglet pour faire ces exports manuellement.
 
 Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systématiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
 
 1. Sur l'écran d'accueil, sélectionnez **ARTICLES**.
-   ![Trouver les codes ref - Sélection article](../images/012-fr-jdc-selection-article.png)
+   ![Trouver les codes ref - Sélection article](../images/015-fr-jdc-selection-article.png)
 1. Double-cliquez sur le produit à synchroniser.
-   ![Trouver les codes ref - Fiche article](../images/014-fr-jdc-fiche-article.png)
+   ![Trouver les codes ref - Fiche article](../images/016-fr-jdc-fiche-article.png)
 1. Sélectionnez **Menu**.
-   ![Trouver les codes ref - Onglets fiche article](../images/015-fr-jdc-fiche-article-onglets.png)
+   ![Trouver les codes ref - Onglets fiche article](../images/017-fr-jdc-fiche-article-onglets.png)
 1. Sélectionnez **Paramètres**.
 1. Cochez l'option **Publication WEB**.
-   ![Trouver les codes ref - Onglets fiche article](../images/016-fr-jdc-fiche-article-publication-web.png)
+   ![Trouver les codes ref - Onglets fiche article](../images/018-fr-jdc-fiche-article-publication-web.png)
 1. Sélectionnez **Appliq.**.
 
 Vous pouvez ensuite exporter de nouveau votre catalogue en suivant les étapes décrites au début de [cette partie](/apps/kezia/map-ref-codes#exporter-le-catalogue).
@@ -45,7 +48,7 @@ Un produit dans HubRise correspond à un article dans Kezia II. Pour en retrouve
 1. Double-cliquez sur le produit désiré.
 1. Sélectionnez **Menu**.
 1. Sélectionnez **EAN Multi-codes Codes comptables**. Le code ref de l'article s'affiche dans la section **Code article**, dans le champ **Code Interne**.
-   ![Trouver les codes ref - Code article](../images/017-fr-jdc-fiche-article-code.png)
+   ![Trouver les codes ref - Code article](../images/019-fr-jdc-fiche-article-code.png)
 
 ## SKUs
 
@@ -62,6 +65,6 @@ Une option dans HubRise correspond à un article option dans Kezia II. Pour vér
 1. Double-cliquez sur le produit désiré.
 1. Sélectionnez **Menu**.
 1. Sélectionnez **Préparation**. La case **Article Option** doit être cochée.
-   ![Trouver les codes ref - Article option](../images/018-fr-jdc-fiche-article-option.png)
+   ![Trouver les codes ref - Article option](../images/020-fr-jdc-fiche-article-option.png)
 
 Pour trouver le code ref de cet article, suivez la même procédure que pour les [produits](/apps/kezia/map-ref-codes#produits).

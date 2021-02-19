@@ -20,15 +20,19 @@ Connecter Kezia II à HubRise peut être fait en seulement quelques étapes.
 Pour établir la connexion entre un point de vente Kezia II et HubRise, vous devez tout d'abord contacter JDC pour que le module HubRise soit installé dans Kezia II. Suivez ensuite ces étapes depuis l'interface Kezia II :
 
 1. Dans la barre de menu, sélectionnez **Fichier** > **Paramètres** > **Commandes Web**.
+   ![Connexion à HubRise - Configuration vierge](../images/002-fr-jdc-fenetre-configuration.png)
 1. Cochez la case **Commandes HubRise**.
+   ![Connexion à HubRise - Connexion HubRise activée](../images/003-fr-jdc-connexion-hubrise-activee.png)
 1. À côté de cette case, cliquez sur **Configurer**.
+   ![Connexion à HubRise - Première connexion](../images/004-fr-jdc-premiere-connexion.png)
 1. Cliquez sur **Nouvelle Connexion à HubRise**. Vous êtes redirigés vers l'interface HubRise.
+   ![Connexion à HubRise - Choix du point de vente](../images/005-fr-jdc-page-autorisation.png)
 1. Choisissez le point de vente que vous désirez connecter et cliquez sur **Autoriser** pour donner à Kezia II l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, cliquez sur **Suivant** afin d'afficher les listes déroulantes correspondantes avant de cliquer sur **Autoriser**.
-   ![Connexion à HubRise - Choix du point de vente](../images/002-fr-jdc-page-autorisation.png)
+   ![Connexion à HubRise - Affichage du code](../images/006-fr-jdc-page-token.png)
 1. Copiez le code affiché et collez-le dans la fenêtre prévue à cet effet dans Kezia II.
-   ![Connexion à HubRise - Affichage du code](../images/003-fr-jdc-page-token.png)
+   ![Connexion à HubRise - Code d'autorisation collé](../images/007-fr-jdc-token-colle.png)
 1. Cliquez sur **OK**. La fenêtre de configuration affiche toutes les informations de votre point de vente. Le bouton **Accéder à HubRise** permt d'accéder au tableau de bord HubRise.
-   ![Connexion à HubRise - Informations de connexion](../images/004-fr-jdc-infos-connexion.png)
+   ![Connexion à HubRise - Informations de connexion](../images/008-fr-jdc-informations-connexion.png)
 1. Cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel Kezia II peut vous venir en aide. Pour permettre cela, [donnez les accès nécessaires au support de Kezia II](/apps/kezia/connect-hubrise#donner-acc-s-au-support-de-kezia-ii).
 
@@ -53,7 +57,9 @@ Afin que vous ayiez accès à la liste des commandes venant de HubRise et aux pa
 
 1. Dans la barre de menu, sélectionnez **Fichier** > **Paramètres** > **Commandes Web**.
 1. Dans la section **Paramètres**, pour le paramétrage de **Liste des commandes**, sélectionnez une touche et un libellé. Par exemple, sélectionnez *MCU 1* et entrez le nom *Commandes Web*.
+   ![Connexion à HubRise - Configuration de la touche des commandes](../images/009-fr-jdc-configuration-touche-commandes.png)
 1. Dans la section **Paramètres**, pour le paramétrage de **Paramétrage des services**, sélectionnez une touche et un libellé. Par exemple, sélectionnez *MCU 2* et entrez le nom *Paramètres Web*.
+   ![Connexion à HubRise - Configuration de la touche des paramètres](../images/010-fr-jdc-configuration-touche-parametres.png)
 1. Cliquez sur **Enregistrer**.
 
 ---
