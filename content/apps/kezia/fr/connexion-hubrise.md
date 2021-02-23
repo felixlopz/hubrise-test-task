@@ -1,13 +1,13 @@
 ---
-title: Se connecter à HubRise
+title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Instructions pour connecter Kezia II à HubRise
-  description: La connexion entre Kezia II et HubRise se fait simplement grâce à l'utilitaire WebNES, inclus dans l'installation de Kezia II sur votre poste Windows.
+  title: Connexion à HubRise - Kezia II
+  description: Établir la connexion entre Kezia II et HubRise.
 ---
 
-Connecter Kezia II à HubRise peut être fait en seulement quelques étapes.
+Pour connecter Kezia II à HubRise, il suffit de suivre quelques étapes.
 
 ---
 

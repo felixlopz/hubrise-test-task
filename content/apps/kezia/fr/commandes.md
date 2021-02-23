@@ -3,11 +3,11 @@ title: Commandes
 position: 4
 layout: documentation
 meta:
-  title: Connexion entre Kezia II et HubRise - Recevoir les commandes depuis HubRise
-  description: Apprenez à gérer les commandes reçues depuis HubRise dans Kezia II. Lancez l'application et suivez ces instructions.
+  title: Recevoir les commandes HubRise - Kezia II
+  description: Réceptionner et modifier le statut des commandes HubRise reçues dans Kezia II.
 ---
 
-À partir du moment où Kezia II est connecté à HubRise et le catalogue est synchronisé, plus aucune action n'est requise de votre part. Votre logiciel de caisse va recevoir automatiquement toutes les commandes envoyées à HubRise depuis d'autres applications.
+Lorsque Kezia II est connecté à HubRise, les commandes envoyées à HubRise arrivent automatiquement dans votre logiciel de caisse.
 
 ## Recevoir des commandes
 
@@ -23,7 +23,7 @@ Pour voir le détail de la commande, sélectionnez la ligne correspondante puis 
 1. Sélectionnez **OK**. Une fenêtre vous demandant le type d'impression désiré s'affiche.
 1. Sélectionnez le type selon vos préférences.
 
-Si le message d'erreur suivant apparaît, consultez la section [Commande avec des articles inconnus](/apps/kezia/orders#commande avec-des-articles-inconnus).
+Si le message d'erreur suivant apparaît, consultez la section [Commande avec des articles inconnus](/apps/kezia/commandes#commande avec-des-articles-inconnus).
 *Au moins un article de la commande est inconnu. La commande ne sera pas transmise au webservice.*
 
 ### Détails de la commande
@@ -59,4 +59,4 @@ Pour remédier à ce problème, suivez les étapes suivantes :
 1. Répétez ces étapes pour chaque produit non reconnu.
 1. Lorsque toutes ces lignes sont supprimées, validez la commande.
 
-Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les produits non reconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/kezia/map-ref-codes).
+Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les produits non reconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/kezia/associer-codes-ref).

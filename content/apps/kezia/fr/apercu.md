@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Aperçu
+position: 1
 layout: documentation
 meta:
-  title: Connexion entre Kezia II et HubRise - Aperçu
-  description: Aperçu de Kezia II et des avantages de le connecter à HubRise, telles que la synchronisation des commandes avec vos autres outils du quotidien.
+  title: Aperçu - Kezia II
+  description: "Le logiciel de caisse Kezia II : aperçu général et fonctionnalités de l'intégration avec HubRise."
 gallery:
 path_override: /
 app_info:
@@ -27,7 +27,7 @@ Kezia II est conforme à la règlementation du 01 janvier 2018 avec mise en séc
 
 ## Fonctionnalités d'intégration
 
-Connecter Kezia II à HubRise permet à Kezia II de :
+Connecter Kezia II à HubRise permet de :
 
 - Exporter le menu vers un catalogue HubRise.
 - Importer des commandes depuis HubRise.
