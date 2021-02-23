@@ -11,52 +11,51 @@ Lorsque Kezia II est connecté à HubRise, les commandes envoyées à HubRise ar
 
 ## Recevoir des commandes
 
-Kezia II vérifie toutes les 60 secondes (paramètre réglable) si de nouvelles commandes ont été envoyées à HubRise. Une fenêtre d'avertissement vous signale l'arrivée d'une nouvelle commande dans Kezia II.
+Kezia II vérifie toutes les 30 secondes si de nouvelles commandes ont été envoyées à HubRise. Une fenêtre d'avertissement vous signale l'arrivée d'une nouvelle commande dans Kezia II.
 
-Pour voir la liste des commandes en cours, suivez les étapes suivantes :
+Pour voir la liste des commandes web en cours, suivez les étapes suivantes :
 
-1. Dans la barre de menu, sélectionnez **Client**.
-1. Survolez l'option **Commande** et sélectionnez **Commandes en cours**. Une fenêtre nommée **Cdes en cours** s'affiche.
+1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
+   ![Commandes - Ouverture caisse](../images/011-fr-jdc-ouverture-caisse.png)
+1. Sélectionnez un vendeur.
+   ![Commandes - Alerte commande web](../images/020-fr-jdc-alerte-commande-web.png)
+1. Cliquez sur **Commandes Web**.
+   ![Commandes - Nouvelle commande web](../images/021-fr-jdc-nouvelle-commande-web.png)
 
-Pour voir le détail de la commande, sélectionnez la ligne correspondante puis sélectionnez **Voir F3** ou appuyez sur la touche F3. Pour la valider, procédez de la manière suivante :
-1. Sélectionnez un vendeur dans le champ **Vendeur**.
-1. Sélectionnez **OK**. Une fenêtre vous demandant le type d'impression désiré s'affiche.
-1. Sélectionnez le type selon vos préférences.
+### Détail de la commande
 
-Si le message d'erreur suivant apparaît, consultez la section [Commande avec des articles inconnus](/apps/kezia/commandes#commande avec-des-articles-inconnus).
-*Au moins un article de la commande est inconnu. La commande ne sera pas transmise au webservice.*
+Depuis la liste des commandes web, cliquez sur le bouton en forme de loupe pour consulter le détail d'une commande.
+   ![Commandes - Détail commande web](../images/021-fr-jdc-nouvelle-commande-web.png)
 
-### Détails de la commande
+### Gestion de la commande
 
-Pour voir le détail d'une commande depuis la liste des commandes en cours :
+À réception d'une nouvelle commande web, vous pouvez l'accepter ou la rejeter. Vous pouvez ensuite la facturer si elle n'est pas encore payée, puis la prendre en charge.
 
-1. Sélectionnez la ligne de la commande désirée.
-1. Sélectionnez **Voir F3** ou appuyez sur la touche F3. Une fenêtre nommée **Fiche Commande** s'affiche, contenant les informations de la commande.
+Le statut de la commande web est mis à jour sur HubRise quelques secondes après changement dans Kezia II.
 
-**Interprétation technique**
+## Envoyer les commandes
 
-Voici comment les champs d'une commande HubRise sont utilisés dans Kezia II :
+Par défaut, Kezia II n'envoie pas les commandes vers HubRise. Changez la configuration pour que les commandes soient envoyées automatiquement après création :
 
-| Nom du champ HubRise                   | Utilisation dans Kezia II                                                   |
-| -------------------------------------- | --------------------------------------------------------------------------- |
-| `service_type`                         | Permet de savoir si la commande est en livraison, sur place, ou à emporter. |
-| `service_type_ref`                     | Non utilisé.                                                                |
-| `expected_time`                        | Heure et date auxquelles la commande sera prête ou livrée. Remplit la colonne *Delai* de chaque ligne produit. |
-| `item.sku_ref`                         | Code permettant de retrouver l'article dans le catalogue Kezia II.          |
-| `charges`                              | Ajoute une charge à la commande sous forme de ligne produit.                |
+1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
+   ![Commandes - Ouverture caisse](../images/011-fr-jdc-ouverture-caisse.png)
+1. Sélectionnez un vendeur.
+   ![Commandes - Caisse avec vendeur sélectionné](../images/012-fr-jdc-vendeur-selectionne.png)
+1. Cliquez sur **Paramètres Web**.
+   ![Commandes - Choix de la plateforme](../images/013-fr-jdc-choix-plateforme.png)
+1. Cliquez sur **HubRise**.
+   ![Commandes - Paramètres d'envoi](../images/014-fr-jdc-parametres-envoi.png)
+1. Sélectionnez l'onglet **Personnalisation**.
+   ![Commandes - Personnalisation](../images/024-fr-jdc-parametres-personnalisation.png)
+1. Pour l'option **Envoi des commandes Kezia**, sélectionnez **Client web**.
+   ![Commandes - Option d'envoi des commandes](../images/025-fr-jdc-personnalisation-option-envoi.png)
+1. Cliquez sur **Fermer**.
 
-### Commande avec des articles inconnus
+Pour envoyer une commande vers HubRise, suivez les étapes suivantes :
 
-Dans le cas où une commande contient des produits dont le code ref n'est pas reconnu, un message d'erreur apparaît lorsque vous validez la commande.
-
-Pour remédier à ce problème, suivez les étapes suivantes :
-1. Sélectionnez votre commande pour en voir le détail.
-1. Sélectionnez la dernière ligne et appuyez sur la touche F2. Votre menu apparaît.
-   ![Commandes - Sélection article](../images/012-fr-jdc-selection-article.png)
-1. Double-cliquez sur le produit correspondant en vous aidant du nom du produit non reconnu.
-1. Sélectionnez la ligne du produit non reconnu.
-1. Sélectionnez **Efface**. La ligne est supprimée.
-1. Répétez ces étapes pour chaque produit non reconnu.
-1. Lorsque toutes ces lignes sont supprimées, validez la commande.
-
-Pour éviter que ce problème se reproduise, vérifiez les codes ref de vos produits. Les produits non reconnus sont causés par des codes refs invalides. Pour trouver un code ref, consultez la page [Trouver les codes ref](/apps/kezia/associer-codes-ref).
+1. Sur l'écran d'accueil, sélectionnez **COMMANDES**.
+   ![Commandes - Nouvelle commande](../images/023-fr-jdc-nouvelle-commande.png)
+1. Remplissez les champs selon vos besoins.
+1. Cliquez sur **OK**.
+1. Demandez un acompte au client si nécessaire.
+1. Imprimez un ticket si nécessaire.

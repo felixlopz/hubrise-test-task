@@ -50,13 +50,7 @@ Vous pouvez ensuite exporter de nouveau votre catalogue en suivant les étapes d
 
 ## Produits
 
-Un produit dans HubRise correspond à un article dans Kezia II. Pour en retrouver le code ref, suivez les étapes suivantes :
-
-1. Sur l'écran d'accueil, sélectionnez **ARTICLES**.
-1. Double-cliquez sur le produit désiré.
-1. Sélectionnez **Menu**.
-1. Sélectionnez **EAN Multi-codes Codes comptables**. Le code ref de l'article s'affiche dans la section **Code article**, dans le champ **Code Interne**.
-   ![Associer les codes ref - Code article](../images/019-fr-jdc-fiche-article-code.png)
+Un produit dans HubRise correspond à un article dans Kezia II. Pour en retrouver le code ref, sur l'écran d'accueil, sélectionnez **ARTICLES**. Le code ref de l'article s'affiche dans la colonne **IDART**. Ce code est généré automatiquement lors de la création d'un article et n'est pas modifiable.
 
 ## SKUs
 
@@ -64,6 +58,8 @@ Une SKU (*Stock Keeping Unit*) dans HubRise correspond au multi-tarif dans Kezia
 - Margherita Grande
 - Margherita Medium
 - Margherita Petite
+
+Pour trouver le code ref d'un article, suivez la procédure décrite dans la partie [Produits](/apps/kezia/associer-codes-ref#produits).
 
 ## Options
 
@@ -73,6 +69,14 @@ Une option dans HubRise correspond à un article option dans Kezia II. Pour vér
 1. Double-cliquez sur le produit désiré.
 1. Sélectionnez **Menu**.
 1. Sélectionnez **Préparation**. La case **Article Option** doit être cochée.
-   ![Associer les codes ref - Article option](../images/020-fr-jdc-fiche-article-option.png)
+   ![Associer les codes ref - Article option](../images/019-fr-jdc-fiche-article-option.png)
 
-Pour trouver le code ref de cet article, suivez la même procédure que pour les [produits](/apps/kezia/associer-codes-ref#produits).
+Pour trouver le code ref de cet article, suivez la procédure décrite dans la partie [Produits](/apps/kezia/associer-codes-ref#produits).
+
+## Remises
+
+Une remise dans Kezia II peut seulement être créée lorsque le vendeur enregistre une commande. Les remises ne peuvent donc pas être synchronisées avec HubRise.
+
+## Promotions
+
+Une promotion dans HubRise correspond à un menu dans Kezia II. Pour retrouver le code ref d'un menu, dans la barre de menu, sélectionnez **Article** > **Menus** > **Liste**. Le code ref du menu s'affiche dans la colonne **Idart** et correspond au code ref de l'article attribué au menu lors de sa création.

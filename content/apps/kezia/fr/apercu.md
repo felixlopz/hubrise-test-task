@@ -37,7 +37,7 @@ Connecter Kezia II à HubRise permet de :
 
 ## Pourquoi se connecter ?
 
-Kezia II peut se connecter à HubRise afin que votre site web et autres applications que vous utilisez de manière quotidienne fonctionnent ensemble de manière cohérente. Se connecter à HubRise vous permet de synchroniser votre catalogue produit, vos informations client et vos commandes. Pour plus d'informations sur HubRise, veuillez consulter le [Guide Utilisateur HubRise](/docs).
+Kezia II peut se connecter à HubRise afin que votre site internet et autres applications que vous utilisez de manière quotidienne fonctionnent ensemble de manière cohérente. Se connecter à HubRise vous permet de synchroniser votre catalogue produit, vos informations client et vos commandes. Pour plus d'informations sur HubRise, veuillez consulter le [Guide Utilisateur HubRise](/docs).
 
 ## Prérequis
 
