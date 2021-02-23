@@ -25,7 +25,7 @@ Pour voir la liste des commandes web en cours, suivez les étapes suivantes :
 ### Détail de la commande
 
 Depuis la liste des commandes web, cliquez sur le bouton en forme de loupe pour consulter le détail d'une commande.
-   ![Commandes - Détail commande web](../images/021-fr-jdc-nouvelle-commande-web.png)
+   ![Commandes - Détail commande web](../images/022-fr-jdc-details-commande-web.png)
 
 ### Gestion de la commande
 
