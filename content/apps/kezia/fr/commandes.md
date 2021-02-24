@@ -57,5 +57,9 @@ Pour envoyer une commande vers HubRise, suivez les étapes suivantes :
    ![Commandes - Nouvelle commande](../images/023-fr-jdc-nouvelle-commande.png)
 1. Remplissez les champs selon vos besoins.
 1. Cliquez sur **OK**.
-1. Demandez un acompte au client si nécessaire.
-1. Imprimez un ticket si nécessaire.
+
+Pour consulter la liste des commandes envoyées vers HubRise, vous pouvez utiliser une de ces méthodes :
+
+- Dans la barre de menu, sélectionnez **Client** > **Commande** > **Commandes en cours**.
+- Sur l'écran d'accueil, appuyez sur la touche **F3** de votre clavier.
+   ![Commandes - Commandes en cours](../images/026-fr-jdc-commandes-en-cours.png)
