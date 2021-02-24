@@ -22,9 +22,9 @@ content:
       to: /contributing/style-guide
       icon: fa-check
     - title: Elements to Provide
-      description: Elements editors need to provide.
-      to: /contributing/elements-to-provide
-      icon: fa-pencil-alt
+      description: Copy and assets integrated technical partners can provide.
+      to: /contributing/copy-and-assets
+      icon: fa-pencil
     - title: Screenshots Guide
       description: Screenshot guidelines and file naming convention.
       to: /contributing/screenshots-guide
