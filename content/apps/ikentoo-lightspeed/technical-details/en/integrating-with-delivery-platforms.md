@@ -11,6 +11,12 @@ To connect iKentoo to Deliveroo, Uber Eats, or Just Eat, use the configuration p
 
 iKentoo uses some predefined codes for service types and payments originated on the major delivery platforms, such as Deliveroo, Uber Eats, and Just Eat. These codes must be entered in the configuration page of the delivery platform bridge.
 
+-------
+
+IMPORTANT NOTE: for the connection to work, the iKentoo Lightspeed K Series API should be activated by iKentoo Lightspeed support.
+
+-------
+
 ## Deliveroo
 
 To receive Deliveroo orders in iKentoo, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
@@ -60,3 +66,5 @@ To correctly receive your orders, you need to specify the following codes in the
 **Discounts**
 
 - Uber Eats discount ref code: `UE99`
+
+## Just Eat
