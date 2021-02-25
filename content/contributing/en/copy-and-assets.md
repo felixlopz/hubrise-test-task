@@ -25,6 +25,14 @@ For the Overview Page, which is the first visible page in the documentation of a
 - A description of 150 to 250 words, without superlative, that presents the solution and its features in details.
 - From 2 to 6 pictures of the app, all with the same ratio width/height.
 
+**Wrong**
+
+![Wrong images formatting](../images/009-fr-apercu-images-incorrect.png)
+
+**Right**
+
+![Right images formatting](../images/010-fr-apercu-images-correct.png)
+
 To see an example of this page, visit the [LivePepper documentation](/apps/livepepper).
 
 ## Partners

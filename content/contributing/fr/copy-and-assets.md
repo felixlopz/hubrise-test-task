@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: HubRise - Éléments à fournir
-  description: Liste les éléments que les éditeurs d'une solution doivent fournir à HubRise dans le but de commencer l'écriture de la documentation. 
+  description: Liste des éléments que les partenaires peuvent fournir.
 ---
 
 Chaque solution intégrée avec HubRise est incluse sur la page [Apps](/apps), et une documentation complète sera rédigée, comprenant un aperçu et la démarche à suivre pour connecter cette solution à HubRise. Cette documentation a aussi pour but d'aider les utilisateurs et les équipes de support en cas d'incompréhension ou d'erreur, ainsi que d'améliorer le SEO.
@@ -24,6 +24,14 @@ Pour la page d'aperçu, qui est la première page visible sur la documentation d
 
 - Une description de 150 à 250 mots, sans usage de superlatif, qui présente la solution et ses fonctionnalités en détails.
 - De 2 à 6 captures d'écran de l'application, ayant le même ratio largeur/hauteur.
+
+**Incorrect**
+
+![Incorrecte présentation des images](../images/009-fr-apercu-images-incorrect.png)
+
+**Correct**
+
+![Correcte présentation des images](../images/010-fr-apercu-images-correct.png)
 
 Pour voir un exemple de cette page, visitez la documentation [LivePepper](/apps/livepepper).
 
