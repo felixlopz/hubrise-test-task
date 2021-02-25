@@ -38,7 +38,7 @@ L'intégration de Restaurant-internet avec HubRise permet de :
 
 ## Pourquoi se connecter ?
 
-En connectant Restaurant-internet à HubRise, vous enverrez les commandes faites sur votre site internet vers votre logiciel de caisse. Vous pourrez également connecter les applications intégrées à HubRise que vous utilisez de manière quotidienne. Pour voir les applications que vous pouvez connecter, consultez la [page Apps](/apps).
+En connectant Restaurant-internet à HubRise, vous enverrez les commandes faites sur votre site internet vers votre logiciel de caisse. Vous pourrez également connecter les applications intégrées à HubRise que vous utilisez de manière quotidienne. Pour voir les applications que vous pouvez connecter, consultez la page [Apps](/apps).
 
 ## Prérequis
 
