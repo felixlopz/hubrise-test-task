@@ -18,7 +18,7 @@ From this section, you can decide which language will be used to encode the orde
 
 ## Service Types
 
-Service types such as Delivery by Deliveroo, Delivery by your own fleet or Collection might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as delivery by Deliveroo, delivery by your own fleet or collection might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Discounts
 
