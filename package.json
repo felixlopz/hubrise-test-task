@@ -81,7 +81,6 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
     "gatsby-plugin-sentry": "^1.0.1",
-    "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "js-yaml": "^3.14.0",
@@ -92,11 +91,6 @@
     "rimraf": "^3.0.2",
     "start-server-and-test": "^1.11.2",
     "typescript": "^3.9.7"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "**/*.{json,scss,md,mdx}": [
