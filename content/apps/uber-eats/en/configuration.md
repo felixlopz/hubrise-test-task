@@ -17,7 +17,7 @@ These are divided into different sections for an easier navigation.
 
 ## Language
 
-From this section, you can decide which language will be used to encode the order item names in your receipts.
+From this section, you can decide which language is used to localise your receipts.
 
 ## Service Types
 
@@ -38,13 +38,19 @@ The following screenshot shows the **Request utensils, straws, etc.** checkbox t
 
 ## Payments
 
-**Payment ref code** is the ref code associated with Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify Uber Eats payments.
+**Payment ref code** is the ref code associated with Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify and process Uber Eats payments. Refer to your connected EPOS documentation on the HubRise website to know how to handle Uber Eats payments in your EPOS.
 
 ## Order Statuses
 
-Uber Eats has only three possible statuses for the orders: `accepted`, `denied`, and `cancelled`.
+Uber Eats supports the following three order statuses:
 
-Uber Eats Bridge lets you decide which HubRise status triggers a certain status on Uber Eats. For example, you can decide to mark an order as `accepted` on Uber Eats when it is marked as `received` on HubRise.
+- `accepted`: The order has been accepted by the EPOS.
+- `denied`: The order could not be sent to the EPOS.
+- `cancelled`: The order has been cancelled by the EPOS.
+
+Uber Eats Bridge lets you decide which HubRise status triggers a certain status on Uber Eats.
+This is useful to handle different scenarios when your EPOS updates the order status.
+For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Uber Eats that the order has been accepted.
 
 For every Uber Eats order status, select from the dropdown menu the expected behaviour for your integration. Refer to your connected EPOS documentation on the HubRise website for your EPOS requirements.
 
