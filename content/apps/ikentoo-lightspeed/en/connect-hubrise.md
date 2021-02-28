@@ -11,9 +11,11 @@ meta:
 
 To establish the connection, iKentoo Bridge requires:
 
-- iKentoo / Lightspeed Restaurant K-Series EPOS
+- iKentoo / Lightspeed Restaurant K-Series EPOS.
 - The "iKentoo by Lightspeed" application installed on your iPad.
 - A HubRise account set up with the locations to connect. For more information about accounts and locations, see the [HubRise User Guide](/docs).
+
+Before you connect to HubRise, you need to send an email to [Lightspeed support](mailto:k-series.support@lightspeedhq.com) and ask to enable the integration. Without this, the API is by default not activated and the connection with HubRise will not work.
 
 ## Connection
 
