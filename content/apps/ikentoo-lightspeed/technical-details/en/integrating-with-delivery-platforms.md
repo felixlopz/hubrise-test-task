@@ -13,7 +13,7 @@ iKentoo uses some predefined codes for service types and payments originated on 
 
 ---
 
-IMPORTANT NOTE: for the connection to work, the iKentoo Lightspeed K Series API should be activated by iKentoo Lightspeed support. For more details, see [Connect to HubRise](/apps/ikentoo-lightspeed/connect-hubrise).
+IMPORTANT NOTE: for the connection to work, the iKentoo Lightspeed K Series API should be activated by Lightspeed support. For more details, see [Connect to HubRise](/apps/ikentoo-lightspeed/connect-hubrise).
 
 ---
 
