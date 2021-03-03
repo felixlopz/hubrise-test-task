@@ -54,7 +54,7 @@ To change your plan for a location:
 2. For users with multiple Accounts, select the Account containing the specific Location.
 3. Click the Location to update.
 4. Under **Usage**, select **Change plan**.
-5. To set your plan to use the paid plan that allows more transactions a month, click **Upgrade**. To change the plan to one that allows fewer orders and customers a month, click **Downgrade**. Please note that once you have reached the transaction limit for a free plan, you must upgrade to the paid plan again.
+5. To set your plan to use the paid plan that allows more transactions a month, click **Upgrade**. To change the plan to one that allows fewer orders and customers a month, click **Downgrade**. Once you have reached the transaction limit for a free plan, you must upgrade to the paid plan again.
 
 ---
 

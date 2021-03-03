@@ -45,9 +45,9 @@ To correctly receive your orders, you need to specify the following codes in the
 **Service type**
 
 - Fulfillment by Uber Eats ref code: `UEAP`
-- Fulfillment by restaurant (BYOC - Bring Your Own Courier) ref code: `[TO BE DONE]`
-- Customer collection ref code: `[TO BE DONE]`
-- Dine-in ref code: `[TO BE DONE]`
+- Fulfillment by restaurant (BYOC - Bring Your Own Courier) ref code: `UENDAP`
+- Customer collection ref code: `UEPUAP`
+- Dine-in ref code: `UEDIAP`
 
 **Delivery charges**
 

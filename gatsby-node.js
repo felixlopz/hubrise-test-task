@@ -2,6 +2,7 @@ require('./src/utils/gatsby-inspector')
 
 const plugins = [
   require(`./src/plugins/404.js`),
+  require(`./src/plugins/apps.js`),
   require(`./src/plugins/base.js`),
   require(`./src/plugins/blog-list.js`),
   require(`./src/plugins/documentation.js`),

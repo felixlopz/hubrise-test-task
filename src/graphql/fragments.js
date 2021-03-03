@@ -8,7 +8,7 @@ export const Image = graphql`
     relativeDirectory
     childImageSharp {
       fluid {
-        ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        ...GatsbyImageSharpFluid
         presentationWidth
       }
     }

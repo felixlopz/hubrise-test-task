@@ -29,9 +29,7 @@
     color: $white;
     text-align: center;
 
-    &:hover {
-      color: $white;
-    }
+    @include hr-link-hover($white);
   }
 
   &__close-button-icon {

@@ -9,7 +9,7 @@ meta:
 
 To connect your Aquila site to an existing HubRise account:
 
-1. Login to your Aquila back office.
+1. Log in to your Aquila back office.
 1. Select **HubRise** from the left navigation panel.
 1. To allow HubRise to create new products on Aquila, set **Only create new product** to **YES**. To allow the HubRise connection to update existing products in Aquila, set **Only create new product** to **NO**.
 1. Click **Login to HubRise**.

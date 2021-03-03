@@ -17,7 +17,7 @@ The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be use
 
 Terminology and spelling decisions are informed in the [HubRise Glossary of Terms](/contributing/glossary-of-terms/). Refer to it to maximise linguistic consistency throughout the documentation. Think of including your own terminology decisions within.
 
-Please keep in mind that readers of the documentation might not be native English speakers.
+Keep in mind that readers of the documentation might not be native English speakers.
 
 ## Localisation
 
