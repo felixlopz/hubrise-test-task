@@ -41,8 +41,4 @@ Connecting iKentoo to HubRise makes your EPOS and your other apps work as a cohe
 
 ## Prerequisites
 
-To establish the connection, iKentoo Bridge requires:
-
-- A HubRise account set up with the locations to connect. For more information about accounts and locations, see the [HubRise User Guide](/docs/getting-started/#accounts-and-locations).
-- The **iKentoo 3.0 by Lightspeed** application installed on your iPad. You can download it from Apple iOS App Store.
-- The API connection enabled on your iPad. To verify that iKentoo API is enabled, see [API Activation in the Tablet](/apps/ikentoo-lightspeed/faqs/troubleshooting-failed-orders#api-activation-in-the-tablet).
+To connect Lightspeed K-Series to HubRise, you need the **iKentoo 3.0 by Lightspeed** application installed on your iPad. You can download it from Apple iOS App Store.
