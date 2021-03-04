@@ -48,13 +48,13 @@ content:
           documentation:
           logo: jalia.png
           title: Jalia par JDC
-          description: Jalia de JDC, est une solution d'encaissement cloud, sur tablette, qui favorise la mobilité et qui fonctionne aussi bien avec iOS qu'Android. L'installation est rapide et l'encaissement optimisé pour une prise de commande rapide.
+          description: Jalia de JDC, est une solution d'encaissement cloud sur tablette iOS ou Android, qui favorise la mobilité. L'installation est rapide et l'interface optimisée pour une prise de commande rapide.
           additional_info: Intégration en cours.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: kezia.png
           title: Kezia II
-          description: Kezia II de JDC allie gestion et encaissement avec les qualités recherchées par une caisse enregistreuse traditionnelle. Kezia II s'adapte à tous les types de commerces et offre des fonctions multisites, multipostes, logistique, inventaire, achats, fidélité, statistiques et management des équipes.
+          description: Kezia II de JDC allie gestion et encaissement avec les qualités recherchées par une caisse enregistreuse traditionnelle. Kezia II s'adapte à tous types de commerces et offre des fonctions de logistique, inventaire, achats, fidélité, statistiques et gestion des équipes. Il fonctionne en multisite et multiposte.
         - website: https://www.leo2.fr/
           documentation:
           logo: leo2.png
@@ -200,7 +200,7 @@ content:
           documentation:
           logo: mynober.png
           title: MynOber
-          description: MynOber est une solution de commande pour l'hôtellerie et la restauration qui fonctionne par QR code, par commande en ligne ou par commande sur un kiosque. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tiers.
+          description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
           additional_info:
         - website: https://obypay.fr/
           documentation:
@@ -252,7 +252,7 @@ content:
           documentation:
           logo: zenorder.png
           title: Zenorder
-          description: Zenorder permet aux métiers de bouche de disposer d'une solution en marque blanche de commande en ligne couplée à une suite d'outils de marketing et de fidélisation clients.
+          description: Zenorder est une solution de commande en ligne en marque blanche pour les métiers de bouche, couplée à une suite d'outils de marketing et de fidélisation client.
           additional_info: Intégration en cours.
     - title: Gestion de livreurs
       apps:
