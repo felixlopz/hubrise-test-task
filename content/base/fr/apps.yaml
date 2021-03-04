@@ -46,9 +46,15 @@ content:
           additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
-          logo: jdc.png
-          title: Kezia II par JDC
-          description: Kezia II est un logiciel de caisse développé par JDC, un leader français des solutions d'encaissement. Kezia II s'adapte à tous les types de commerces.
+          logo: jalia.png
+          title: Jalia par JDC
+          description: Jalia de JDC, est une solution d'encaissement cloud, sur tablette, qui favorise la mobilité et qui fonctionne aussi bien avec iOS qu'Android. L'installation est rapide et l'encaissement optimisé pour une prise de commande rapide.
+          additional_info: Intégration en cours.
+        - website: https://www.jdc.fr/caisse-enregistreuse
+          documentation:
+          logo: kezia.png
+          title: Kezia II
+          description: Kezia II de JDC allie gestion et encaissement avec les qualités recherchées par une caisse enregistreuse traditionnelle. Kezia II s'adapte à tous les types de commerces et offre des fonctions multisites, multipostes, logistique, inventaire, achats, fidélité, statistiques et management des équipes.
         - website: https://www.leo2.fr/
           documentation:
           logo: leo2.png
@@ -75,6 +81,7 @@ content:
           logo: pointone.png
           title: pointOne
           description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
+          additional_info: Intégration en cours.
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png
@@ -145,7 +152,6 @@ content:
           logo: smood.png
           title: Smood
           description: Smood est une plateforme de service de livraison à domicile qui opère sur tout le marché Suisse. Les clients peuvent commander en ligne ou via une app mobile dans leurs restaurants préférés ainsi que dans leurs Migros.
-          additional_info: Intégration en cours.
         - website: https://www.justeattakeaway.com/
           documentation:
           logo: takeaway.png
@@ -190,6 +196,12 @@ content:
           title: My Lemonade
           description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
           additional_info: Documentation en anglais.
+        - website: https://mynober.nl/en/home-2/
+          documentation:
+          logo: mynober.png
+          title: MynOber
+          description: MynOber est une solution de commande pour l'hôtellerie et la restauration qui fonctionne par QR code, par commande en ligne ou par commande sur un kiosque. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tiers.
+          additional_info:
         - website: https://obypay.fr/
           documentation:
           logo: obypay.png
@@ -236,6 +248,12 @@ content:
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://www.zenorder.fr/
+          documentation:
+          logo: zenorder.png
+          title: Zenorder
+          description: Zenorder permet aux métiers de bouche de disposer d'une solution en marque blanche de commande en ligne couplée à une suite d'outils de marketing et de fidélisation clients.
+          additional_info: Intégration en cours.
     - title: Gestion de livreurs
       apps:
         - website: http://www.captain.ai
