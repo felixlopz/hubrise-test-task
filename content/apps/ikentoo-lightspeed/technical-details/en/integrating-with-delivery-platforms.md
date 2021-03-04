@@ -89,49 +89,21 @@ To correctly receive your orders, you need to specify the following codes in the
 | Payment method | Deliveroo M+ payment                   | `DVMPM`  |
 | Discount       | Deliveroo discount                     | `DELD99` |
 
-**Service type**
-
-- Fulfillment by Deliveroo ref code: `DVAP`
-- Fulfillment by restaurant (Deliveroo M+) ref code: `DVMD`
-- Customer collection (Deliveroo Pickup) ref code: `DVMTA`
-
-**Delivery charges**
-
-- Delivery charge ref code: `DELD77`
-
-**Payment methods**
-
-- Deliveroo payment ref code: `DVPM`
-- Deliveroo M+ payment ref code: `DVMPM`
-
-**Discounts**
-
-- Deliveroo discount ref code: `DELD99`
-
 ### Uber Eats
 
 To receive Uber Eats orders in iKentoo, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
 
 To correctly receive your orders, you need to specify the following codes in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
-**Service type**
-
-- Fulfillment by Uber Eats ref code: `UEAP`
-- Fulfillment by restaurant (BYOC - Bring Your Own Courier) ref code: `UENDAP`
-- Customer collection ref code: `UEPUAP`
-- Dine-in ref code: `UEDIAP`
-
-**Delivery charges**
-
-- Delivery charge ref code: `UE77`
-
-**Payment methods**
-
-- Uber Eats payment ref code: `UEPM`
-
-**Discounts**
-
-- Uber Eats discount ref code: `UE99`
+| Type           | Name                                                      | Code     |
+|----------------|-----------------------------------------------------------|----------|
+| Service type   | Fulfillment by Uber Eats                                  | `UEAP`   |
+| Service type   | Fulfillment by restaurant (BYOC - Bring Your Own Courier) | `UENDAP` |
+| Service type   | Customer collection                                       | `UEPUAP` |
+| Service type   | Dine-in                                                   | `UEDIAP` |
+| Charge         | Delivery charge                                           | `UE77`   |
+| Payment method | Uber Eats payment                                         | `UEPM`   |
+| Discount       | Uber Eats discount                                        | `UE99`   |
 
 ### Just Eat
 
@@ -139,19 +111,10 @@ To receive Just Eat orders in iKentoo, you first need to connect Just Eat Bridge
 
 To correctly receive your orders, you need to specify the following codes in the Just Eat Bridge configuration page.
 
-**Service type**
-
-- Fulfillment by Just Eat ref code: `JEAP`
-
-**Charges**
-
-- Delivery charge ref code: `JE77`
-- Just Eat service charge ref code: `JE66`
-
-**Payment methods**
-
-- Just Eat payment ref code: `JEPM`
-
-**Discounts**
-
-- Just Eat discount ref code: `JE99`
+| Type           | Name                    | Code   |
+|----------------|-------------------------|--------|
+| Service type   | Fulfillment by Just Eat | `JEAP` |
+| Charge         | Delivery charge         | `JE77` |
+| Charge         | Service charge          | `JE66` |
+| Payment method | Just Eat payment        | `JEPM` |
+| Discount       | Just Eat discount       | `JE99` |
