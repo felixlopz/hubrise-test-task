@@ -8,13 +8,13 @@ meta:
 ---
 
 The configuration page allows you to customise the behaviour of Deliveroo Bridge based on your preferences.
-These are divided into different categories for an easier navigation.
+These are divided into different sections for an easier navigation.
 
 ![Deliveroo Bridge configuration page](../images/002-en-configuration-page.png)
 
 ## Language
 
-From this section, you can decide which language will be used to encode the order item names in your receipts.
+From this section, you can decide which language is used to localise your receipts.
 
 ## Service Types
 
@@ -22,7 +22,7 @@ Service types such as delivery by Deliveroo, delivery by your own fleet or colle
 
 ## Discounts
 
-This section allows you to specify the discount ref code applied to your products, in case you have one active on your Deliveroo page.
+This section allows you to specify the discount ref code applied to your products, in case you have one active on your Deliveroo page. Refer to your connected EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
 
 Available discounts on Deliveroo appear in the **All offers** page in your Deliveroo back office.
 
