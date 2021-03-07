@@ -89,7 +89,7 @@ content:
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-bridge/
-          logo: par-pixelpoint.png
+          logo: par-pixelpoint-web-api.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Documentation en anglais. Intégration par API web.
