@@ -21,6 +21,6 @@ HubRise and Deliveroo each use their own terminology. The same concept can there
 
 Deliveroo offers three types of services to its customers.
 
-- **Deliveroo fulfilled delivery**: Deliveroo delivers the order to the customer.
-- **Restaurant fulfilled delivery**: You are responsible for delivering the order to the customer. This service is also referred to as Deliveroo M+.
-- **Pickup**: The customer collects the order from your restaurant.
+- **Delivery by Deliveroo**: Deliveroo delivers the order to the customer.
+- **Restaurant delivery**: You are responsible for delivering the order to the customer. This service is also referred to as Deliveroo M+.
+- **Takeaway**: The customer collects the order from your restaurant.

@@ -18,7 +18,7 @@ From this section, you can decide which language is used to localise your receip
 
 ## Service Types
 
-Service types such as delivery by Deliveroo, delivery by your own fleet or collection might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as delivery by Deliveroo, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Discounts
 
@@ -36,7 +36,7 @@ In this section, you can specify the ref code for delivery charges, and for surc
 
 ## Payments
 
-Deliveroo customers can pay for their order either online or by cash on delivery for restaurant fulfilled orders.
+Deliveroo customers can pay for their order either online or by cash for restaurant delivery orders.
 
 This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
 

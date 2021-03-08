@@ -22,7 +22,7 @@ This section allows also to specify the email address that will be used for all 
 
 ## Service Types
 
-This section allows you to specify the default ref codes used for foodpanda deliveries and collection by the customer. Refer to your connected EPOS documentation on the HubRise website to verify the correct values to enter.
+This section allows you to specify the ref codes used for foodpanda delivery and takeaway. Refer to your connected EPOS documentation on the HubRise website to verify the correct values to enter.
 
 ## Delivery Charges
 
