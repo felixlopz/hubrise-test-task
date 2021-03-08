@@ -15,7 +15,7 @@ You then need to include the same codes in the configuration page of the deliver
 
 ---
 
-IMPORTANT NOTE: for the connection to work, the iKentoo Lightspeed K Series API should be activated by Lightspeed support. For more details, see [Connect to HubRise](/apps/ikentoo-lightspeed/connect-hubrise).
+**IMPORTANT NOTE:** For the connection to work, the iKentoo Lightspeed K Series API should be activated by Lightspeed support. For more details, see [Connect to HubRise](/apps/ikentoo-lightspeed/connect-hubrise).
 
 ---
 
@@ -39,16 +39,6 @@ Service types are known as _account profiles_ on iKentoo. To create a service ty
 1. Fill in the other sections in the page as needed, then click **Save**.
 1. Repeat the process for all the service types you support for each delivery platform.
 
-### Creating Payment Methods in iKentoo
-
-To create a payment method for a delivery platform, follow these steps.
-
-1. From your iKentoo back office, select **Configuration**, then select **Settings** > **Payment methods**.
-1. Click **Add a payment method**.
-1. In the **Add new payment method** page, specify the code for your payment method in the **Code** field.
-1. Fill in the other sections in the page as needed, then click **Save**.
-1. Repeat the process for all the payment methods you support for each delivery platform.
-
 ### Creating Discounts in iKentoo
 
 To create a discount for a delivery platform, follow these steps.
@@ -71,6 +61,16 @@ To create a charge for a delivery platform, you need to create an item by follow
 6. Fill in the other sections in the page as needed, then click **Save**.
 7. Repeat the process for all the charges you support for each delivery platform.
 
+### Creating Payment Methods in iKentoo
+
+To create a payment method for a delivery platform, follow these steps.
+
+1. From your iKentoo back office, select **Configuration**, then select **Settings** > **Payment methods**.
+1. Click **Add a payment method**.
+1. In the **Add new payment method** page, specify the code for your payment method in the **Code** field.
+1. Fill in the other sections in the page as needed, then click **Save**.
+1. Repeat the process for all the payment methods you support for each delivery platform.
+
 ## Ref Code for Delivery Platforms
 
 The following sections provide you with the relevant codes you need to use to connect iKentoo to a specific delivery platform. These codes must be present in your iKentoo back office and must be included in the configuration page for each integration.
@@ -79,44 +79,52 @@ The following sections provide you with the relevant codes you need to use to co
 
 To receive Deliveroo orders in iKentoo, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
 
-To correctly receive your orders, you need to specify the following codes in the Deliveroo Bridge configuration page. To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
+To correctly receive your orders, specify the following values in the Deliveroo Bridge configuration page. To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
 
-| Type           | Name                                   | Code     |
-| -------------- | -------------------------------------- | -------- |
-| Service type   | Fulfillment by Deliveroo               | `DVAP`   |
-| Service type   | Fulfillment by restaurant              | `DVMD`   |
-| Service type   | Customer collection (Deliveroo Pickup) | `DVMTA`  |
-| Charge         | Delivery charge                        | `DELD77` |
-| Payment method | Deliveroo payment                      | `DVPM`   |
-| Payment method | Deliveroo M+ payment                   | `DVMPM`  |
-| Discount       | Deliveroo discount                     | `DELD99` |
+| Section       | Name                          | Code          |
+| ------------- | ----------------------------- | ------------- |
+| Service types | Deliveroo fulfilled ref code  | `DVAP`        |
+| Service types | Restaurant fulfilled ref code | `DVMD`        |
+| Service types | Takeaway ref code             | `DVMTA`       |
+| Discounts     | Offer ref code                | `DELD99`      |
+| Charges       | Delivery charge ref code      | `DELD77`      |
+| Charges       | Surcharge ref code            | (leave empty) |
+| Payments      | Deliveroo payment ref code    | `DVPM`        |
+| Payments      | Cash payment ref code         | (leave empty) |
 
 ### Uber Eats
 
 To receive Uber Eats orders in iKentoo, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
 
-To correctly receive your orders, you need to specify the following codes in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
+To correctly receive your orders, specify the following values in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
-| Type           | Name                                                      | Code     |
-|----------------|-----------------------------------------------------------|----------|
-| Service type   | Fulfillment by Uber Eats                                  | `UEAP`   |
-| Service type   | Fulfillment by restaurant (BYOC - Bring Your Own Courier) | `UENDAP` |
-| Service type   | Customer collection                                       | `UEPUAP` |
-| Service type   | Dine-in                                                   | `UEDIAP` |
-| Charge         | Delivery charge                                           | `UE77`   |
-| Payment method | Uber Eats payment                                         | `UEPM`   |
-| Discount       | Uber Eats discount                                        | `UE99`   |
+| Section        | Name                              | Code                                              |
+| -------------- | --------------------------------- | ------------------------------------------------- |
+| Service types  | Uber delivery ref code            | `UEAP`                                            |
+| Service types  | Restaurant delivery ref code (\*) | `UENDAP`                                          |
+| Service types  | Takeaway ref code                 | `UEPUAP`                                          |
+| Service types  | Eat-in ref code                   | `UEDIAP`                                          |
+| Special items  | Disposable items ref code         | Create a product in iKentoo and use its **Code**. |
+| Discounts      | Discount ref code                 | `UE99`                                            |
+| Payments       | Payment ref code                  | `UEPM`                                            |
+| Order statuses | Mark the order as Accepted        | `When it is sent to HubRise`                      |
+| Order statuses | Mark the order as Denied          | `When HubRise status changes to "Rejected"`       |
+| Order statuses | Mark the order as Cancelled       | `When HubRise status changes to "Cancelled"`      |
+
+(\*) BYOC - Bring Your Own Courier
 
 ### Just Eat
 
 To receive Just Eat orders in iKentoo, you first need to connect Just Eat Bridge, an app included in your HubRise subscription.
 
-To correctly receive your orders, you need to specify the following codes in the Just Eat Bridge configuration page.
+To correctly receive your orders, specify the following values in the Just Eat Bridge configuration page.
 
-| Type           | Name                    | Code   |
-|----------------|-------------------------|--------|
-| Service type   | Fulfillment by Just Eat | `JEAP` |
-| Charge         | Delivery charge         | `JE77` |
-| Charge         | Service charge          | `JE66` |
-| Payment method | Just Eat payment        | `JEPM` |
-| Discount       | Just Eat discount       | `JE99` |
+| Section       | Name                         | Code          |
+| ------------- | ---------------------------- | ------------- |
+| Service types | Just Eat delivery ref code   | `JEAP`        |
+| Service types | Restaurant delivery ref code | **TODO**      |
+| Service types | Takeaway ref code            | **TODO**      |
+| Charges       | Delivery charge ref code     | `JE77`        |
+| Charges       | Service charge ref code      | `JE66`        |
+| Payments      | Just Eat payment ref code    | `JEPM`        |
+| Payments      | Cash payment ref code        | (leave empty) |
