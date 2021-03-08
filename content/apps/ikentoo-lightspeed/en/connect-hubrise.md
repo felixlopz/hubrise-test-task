@@ -7,6 +7,12 @@ meta:
   description: See how to connect your iKentoo EPOS to HubRise to receive orders from all your connected apps. Connection is simple.
 ---
 
+---
+
+**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
+
+---
+
 ## Enable the HubRise integration
 
 Before you connect to HubRise, contact Lightspeed support on [k-series.support@lightspeedhq.com](mailto:k-series.support@lightspeedhq.com) and ask them to enable the integration with HubRise. Data will not flow from HubRise to Lightspeed K-Series until they activate the API.

@@ -21,7 +21,7 @@ From this section, you can decide which language is used to localise your receip
 
 ## Service Types
 
-Service types such as delivery by Uber Eats, delivery by your own fleet, collection, or eat in might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as Uber Eats delivery, restaurant delivery, takeaway, or eat-in might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Special Items
 

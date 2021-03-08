@@ -85,7 +85,7 @@ Customer's name and email for Deliveroo orders have these default values for all
 
 ### Customer Address
 
-For restaurant fulfilled orders only, Deliveroo Bridge retrieves the following information from Deliveroo:
+For restaurant delivery orders only, Deliveroo Bridge retrieves the following information from Deliveroo:
 
 - `address_1`: The first line of the address.
 - `address_2`: The second line of the address.
