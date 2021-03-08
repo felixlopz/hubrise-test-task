@@ -88,7 +88,7 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 | Service types | Takeaway ref code             | `DVMTA`       |
 | Discounts     | Offer ref code                | `DELD99`      |
 | Charges       | Delivery charge ref code      | `DELD77`      |
-| Charges       | Surcharge ref code            | (leave empty) |
+| Charges       | Surcharge ref code            | `DELD88`      |
 | Payments      | Deliveroo payment ref code    | `DVPM`        |
 | Payments      | Cash payment ref code         | (leave empty) |
 
