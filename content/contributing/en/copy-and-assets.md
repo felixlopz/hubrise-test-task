@@ -29,11 +29,11 @@ To see an example of this page, visit the [LivePepper documentation](/apps/livep
 
 The example below shows why the screenshots must all have the same ratio width/height.
 
-> Wrong:
+> Wrong: A portrait screenshot, whereas the others are landscape ones.
 
 ![Wrong images formatting](../images/009-fr-apercu-images-incorrect.png)
 
-> Right:
+> Right: All the screenshots have the same ratio width/height.
 
 ![Right images formatting](../images/010-fr-apercu-images-correct.png)
 

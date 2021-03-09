@@ -29,11 +29,11 @@ Pour voir un exemple de cette page, visitez la documentation [LivePepper](/apps/
 
 L'exemple ci-dessous montre pourquoi il est important que les captures d'écran aient toutes le même ratio largeur/hauteur.
 
-> Incorrect :
+> Incorrect : Une image en portrait alors que les autres sont en paysage.
 
 ![Incorrecte présentation des images](../images/009-fr-apercu-images-incorrect.png)
 
-> Correct :
+> Correct : Toutes les images on le même ratio largeur/hauteur.
 
 ![Correcte présentation des images](../images/010-fr-apercu-images-correct.png)
 
