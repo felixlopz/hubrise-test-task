@@ -1,8 +1,8 @@
 ---
 layout: developers
 meta:
-  title: Contribuer à la documentation technique en ligne HubRise
-  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Consultez cette page si vous voulez savoir comment contribuer en nous donnant votre avis ou en mettant à jour le contenu.
+  title: Contribuer à la documentation de HubRise
+  description: Tout le monde peut contribuer à la documentation en ligne de HubRise. Découvrez comment mettre à jour ou compléter une documentation, ou corriger directement une erreur sur notre site.
 path_override: /
 content:
   hero:
