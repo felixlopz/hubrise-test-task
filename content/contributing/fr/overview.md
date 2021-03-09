@@ -1,21 +1,21 @@
 ---
 layout: developers
 meta:
-  title: Contribuer à la documentation technique en ligne HubRise
-  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Consultez cette page si vous voulez savoir comment contribuer en nous donnant votre avis ou en mettant à jour le contenu.
+  title: Contribuer à la documentation de HubRise
+  description: Tout le monde peut contribuer à la documentation en ligne de HubRise. Découvrez comment mettre à jour ou compléter une documentation, ou corriger directement une erreur sur notre site.
 path_override: /
 content:
   hero:
     title: Contribuer à la documentation
     description:
-      paragraph_1: Si vous voulez nous donner votre avis ou si vous devez mettre à jour la documentation de votre application, vous êtes au bon endroit. Vous trouverez ici des informations dans le but de contribuer à la documentation disponible sur ce site internet.
+      paragraph_1: Vous avez repéré une erreur sur notre site, ou vous souhaitez mettre à jour la documentation de votre solution ? Nous vous expliquons comment procéder.
   thumbs:
-    - title: Comment contribuer
-      description: Apprenez comment vous pouvez facilement contribuer à la documentation technique sur ce site internet.
-      to: /contributing/how-to-contribute
-      icon: fa-fast-forward
     - title: Guide de style
-      description: Consultez les directives d'édition lorsque vous contribuez.
-      to: /contributing/style-guide
+      description: Conventions de style pour les contributeurs.
+      to: /contributing/guide-de-style
       icon: fa-check
+    - title: Référencer votre solution
+      description: Eléments à fournir pour référencer votre solution sur HubRise.
+      to: /contributing/referencer-votre-solution-sur-hubrise
+      icon: fa-pencil
 ---
