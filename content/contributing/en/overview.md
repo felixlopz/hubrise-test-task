@@ -21,10 +21,6 @@ content:
       description: Editorial guidelines for contributors.
       to: /contributing/style-guide
       icon: fa-check
-    - title: Copy and assets
-      description: Copy and assets integrated technical partners can provide.
-      to: /contributing/copy-and-assets
-      icon: fa-pencil
     - title: Screenshots Guide
       description: Screenshot guidelines and file naming convention.
       to: /contributing/screenshots-guide
