@@ -9,6 +9,12 @@ meta:
 
 Connecting foodpanda to HubRise can be done with a few simple steps.
 
+---
+
+**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
+
+---
+
 ## 1. Enable HubRise on foodpanda
 
 As a first step, the HubRise integration must be enabled on your foodpanda account.

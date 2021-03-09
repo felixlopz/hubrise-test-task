@@ -14,7 +14,7 @@ These are divided into different categories for an easier navigation.
 
 ## Customers
 
-foodpanda does not share the customer's email address with the connected solutions. However, the name and phone number of the client are always present.
+foodpanda does not share the customer's email address with the connected solutions. For this reason, the email address will always be `orders@foodpanda.com`. However, the name and phone number of the client are always present.
 
 If you want to save the customers' details on HubRise, select the **Create a HubRise customer when you receive an order** checkbox. Otherwise, if you prefer to use guest orders to avoid polluting your database with incomplete information, leave the checkbox unselected.
 
@@ -22,13 +22,11 @@ This section allows also to specify the email address that will be used for all 
 
 ## Service Types
 
-This section allows you to specify the default ref codes used for foodpanda deliveries and collection by the customer. Refer to your connected EPOS documentation on the HubRise website to verify the correct values to enter.
+This section allows you to specify the ref codes used for foodpanda delivery and takeaway. Refer to your connected EPOS documentation on the HubRise website to verify the correct values to enter.
 
-## Delivery Charges
+## Charges
 
 If delivery charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify which value you should enter in the **Delivery charge ref code** field.
-
-The **Delivery charge name** field allows you to specify a name for the foodpanda delivery charge. This field is required.
 
 ## Payments
 

@@ -7,15 +7,17 @@ meta:
   description: See how to connect your iKentoo EPOS to HubRise to receive orders from all your connected apps. Connection is simple.
 ---
 
-## Prerequisites
+---
 
-To establish the connection, iKentoo Bridge requires:
+**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
-- iKentoo / Lightspeed Restaurant K-Series EPOS
-- The "iKentoo by Lightspeed" application installed on your iPad.
-- A HubRise account set up with the locations to connect. For more information about accounts and locations, see the [HubRise User Guide](/docs).
+---
 
-## Connection
+## Enable the HubRise integration
+
+Before you connect to HubRise, contact Lightspeed support on [k-series.support@lightspeedhq.com](mailto:k-series.support@lightspeedhq.com) and ask them to enable the integration with HubRise. Data will not flow from HubRise to Lightspeed K-Series until they activate the API.
+
+## Connect iKentoo Bridge
 
 iKentoo Bridge connects to a HubRise location. You must repeat the process below for each location you want to connect.
 
@@ -38,4 +40,10 @@ iKentoo Bridge connects to a HubRise location. You must repeat the process below
    - In the **Business location** dropdown, select the iKentoo business location to connect.
    - Click **Save**.
 
-9. You have now connected your EPOS to your HubRise location.
+9. You have now connected your EPOS to your HubRise location. Orders sent to HubRise are now flowing to iKentoo.
+
+---
+
+**Related FAQ**: <Link to="/docs/faqs/troubleshooting-failed-orders/">Why Are Some Orders Not Received Correctly on iKentoo?</Link>
+
+---

@@ -19,11 +19,11 @@ Pour voir la liste des commandes en attente, cliquez sur l'alerte. Pour voir le 
 
 ### Commande avec des articles inconnus
 
-Lorsqu'une commande contient des produits dont le code ref n'est pas reconnu, ces derniers sont remplacés par des produits nommés **Article inconnu**. Il est alors impossible de valider la commande. Pour remédier à ce problème, suivez les étapes suivantes :
+Lorsqu'une commande contient des articles dont le code ref n'est pas reconnu, ces derniers sont remplacés par des articles nommés **Article inconnu**. Il est alors impossible de valider la commande. Pour remédier à ce problème, suivez les étapes suivantes :
 1. Sélectionnez votre commande pour en voir le détail. Certaines lignes intituées **Article inconnu** sont présentes.
 1. Sélectionnez la dernière ligne vide. Votre menu apparaît.
    ![Commandes - Article inconnu](../images/014-fr-nestor-commande-article-inconnu.png)
-1. Sélectionnez et ajoutez le produit correspondant en vous aidant de la description de la ligne **Article inconnu**.
+1. Sélectionnez et ajoutez l'article correspondant en vous aidant de la description de la ligne **Article inconnu**.
 1. Supprimez la ligne **Article inconnu** désormais remplacée.
    ![Commandes - Commande sans article inconnu](../images/015-fr-nestor-commande-validable.png)
 1. Répétez ces étapes pour chaque ligne **Article inconnu**.
@@ -31,12 +31,12 @@ Lorsqu'une commande contient des produits dont le code ref n'est pas reconnu, ce
 
 Pour éviter que ce problème se reproduise, assurez-vous que les codes ref de vos produits ont bien été saisis. Pour plus d'informations, consultez la page [Associer les codes ref](/apps/nestor/associer-codes-ref).
 
-### Produits avec des prix différents
+### Articles avec des prix différents
 
-Lorsqu'une commande contient des produits dont le prix ne correspond pas à celui de Nestor, une remise en pourcentage est appliquée automatiquement.
+Lorsqu'une commande contient des articles dont le prix ne correspond pas à celui de Nestor, une remise en pourcentage est appliquée automatiquement.
 
 Par exemple, si une *Margarita Grande* est à 11.00 € dans la commande, mais que son prix est 12.00 € dans le catalogue Nestor, un champ *Remise* égal à 91,67% sera indiqué dans le détail de la commande.
-   ![Commandes - Produit avec remise](../images/018-fr-nestor-remise.png)
+   ![Commandes - Article avec remise](../images/018-fr-nestor-remise.png)
 
 ### Enregistrement d'un client
 
@@ -63,24 +63,6 @@ Vous pouvez retrouver toutes vos commandes en suivant les étapes suivantes.
 1. Sélectionnez l'option **Carnet de commandes**. La fenêtre des commandes s'ouvre.
 1. Sélectionnez l'onglet correspondant au type de commande que vous souhaitez visualiser : *En cours*, *Web*, *Annulées*, *Différées*, *Tickets / Factures*.
 1. Double-cliquez sur la ligne correspondant à la commande désirée. La fenêtre détaillant ses informations s'ouvre.
-
-**Interprétation technique**
-
-Les champs d'une commande HubRise sont utilisés de la façon suivante dans Nestor :
-
-| Nom du champ HubRise                   | Utilisation dans Nestor                                                     |
-| -------------------------------------- | --------------------------------------------------------------------------- |
-| `service_type`                         | Permet de savoir si la commande est en livraison, sur place, ou à emporter. |
-| `service_type_ref`                     | Non utilisé.                                                                |
-| `expected_time`                        | Heure et date auxquelles la commande sera prête ou livrée.                  |
-| `item.sku_ref`                         | Code permettant de retrouver l'article dans le catalogue Nestor.            |
-| `item.price`                           | Prix de l'article. Si celui-ci est différent de celui du catalogue Nestor, le pourcentage du champ *Remise* est complété en fonction. |
-| `item.product_name` et `item.sku_name` | Permettent de remplir la description d'un article inconnu si le `item.sku_ref` n'est pas reconnu. |
-| `charges`                              | Permet de remplir le forfait livraison (seul type de frais accepté).        |
-| `discounts`                            | Liste des offres promotionnelles.                                           |
-| `deals`                                | Liste des menus, considérés comme des articles dans la commande.            |
-| `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'email. L'email est utilisé dans le cas d'une demande d'envoi de ticket. |
-| `payment.type`                         | Moyen de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. | 
 
 **Fonctionnalité prévue :** Il n'est pour l'instant pas possible de connaître l'origine d'une commande. Cette fonctionnalité est en cours de développement. Si elle est nécessaire à votre utilisation de Nestor, contactez l'éditeur de Nestor.
 

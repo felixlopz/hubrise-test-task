@@ -28,16 +28,16 @@ At the same time, they can concentrate on what they do best (preparing food, sel
 
 Deliveroo connects to your HubRise account through Deliveroo Bridge, an app developed by HubRise.
 
-Connecting Deliveroo to HubRise allows to:
+Connecting Deliveroo Bridge allows Deliveroo to:
 
-- Push Deliveroo orders to HubRise.
-- Push customer information to HubRise, for orders delivered by your team.
+- Push orders to HubRise.
+- Push delivery information to HubRise, for orders delivered by your team.
 
 ![Diagram of the connection flow between Deliveroo, Deliveroo Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
 
 ---
 
-**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in early 2021.
+**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in 2021.
 
 ---
 
@@ -48,4 +48,4 @@ You will be able to manage Deliveroo orders alongside other orders, using your o
 
 ## Prerequisites
 
-To establish a connection between Deliveroo and HubRise, your restaurant must be a Deliveroo partner. You should also have a HubRise account set up.
+To establish a connection between Deliveroo and HubRise, your restaurant must be a Deliveroo partner.

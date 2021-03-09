@@ -46,9 +46,15 @@ content:
           additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
-          logo: jdc.png
-          title: Kezia II par JDC
-          description: Kezia II est un logiciel de caisse développé par JDC, un leader français des solutions d'encaissement. Kezia II s'adapte à tous les types de commerces.
+          logo: jalia.png
+          title: Jalia par JDC
+          description: Jalia de JDC, est une solution d'encaissement cloud sur tablette iOS ou Android, qui favorise la mobilité. L'installation est rapide et l'interface optimisée pour une prise de commande rapide.
+          additional_info: Intégration en cours.
+        - website: https://www.jdc.fr/caisse-enregistreuse
+          documentation:
+          logo: kezia.png
+          title: Kezia II
+          description: Kezia II de JDC allie gestion et encaissement avec les qualités recherchées par une caisse enregistreuse traditionnelle. Kezia II s'adapte à tous types de commerces et offre des fonctions de logistique, inventaire, achats, fidélité, statistiques et gestion des équipes. Il fonctionne en multisite et multiposte.
         - website: https://www.leo2.fr/
           documentation:
           logo: leo2.png
@@ -75,6 +81,7 @@ content:
           logo: pointone.png
           title: pointOne
           description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
+          additional_info: Intégration en cours.
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png
@@ -82,7 +89,7 @@ content:
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-bridge/
-          logo: par-pixelpoint.png
+          logo: par-pixelpoint-web-api.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Documentation en anglais. Intégration par API web.
@@ -145,7 +152,6 @@ content:
           logo: smood.png
           title: Smood
           description: Smood est une plateforme de service de livraison à domicile qui opère sur tout le marché Suisse. Les clients peuvent commander en ligne ou via une app mobile dans leurs restaurants préférés ainsi que dans leurs Migros.
-          additional_info: Intégration en cours.
         - website: https://www.justeattakeaway.com/
           documentation:
           logo: takeaway.png
@@ -190,6 +196,12 @@ content:
           title: My Lemonade
           description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
           additional_info: Documentation en anglais.
+        - website: https://mynober.nl/en/home-2/
+          documentation:
+          logo: mynober.png
+          title: MynOber
+          description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
+          additional_info:
         - website: https://obypay.fr/
           documentation:
           logo: obypay.png
@@ -236,6 +248,12 @@ content:
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://www.zenorder.fr/
+          documentation:
+          logo: zenorder.png
+          title: Zenorder
+          description: Zenorder est une solution de commande en ligne en marque blanche pour les métiers de bouche, couplée à une suite d'outils de marketing et de fidélisation client.
+          additional_info: Intégration en cours.
     - title: Gestion de livreurs
       apps:
         - website: http://www.captain.ai
@@ -309,7 +327,7 @@ content:
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
           additional_info: Intégration en cours.
         - website: https://koust.net/
-          documentation:
+          documentation: /apps/koust
           logo: koust.png
           title: Koust
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
