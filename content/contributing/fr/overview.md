@@ -10,10 +10,6 @@ content:
     description:
       paragraph_1: Si vous voulez nous donner votre avis ou si vous devez mettre à jour la documentation de votre application, vous êtes au bon endroit. Vous trouverez ici des informations dans le but de contribuer à la documentation disponible sur ce site internet.
   thumbs:
-    - title: Comment contribuer
-      description: Apprenez comment vous pouvez facilement contribuer à la documentation technique sur ce site internet.
-      to: /contributing/how-to-contribute
-      icon: fa-fast-forward
     - title: Guide de style
       description: Consultez les directives d'édition lorsque vous contribuez.
       to: /contributing/style-guide
