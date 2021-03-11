@@ -26,7 +26,7 @@ La vue Carte de commande affiche toutes les informations relatives au traitement
 - Le type indique le mode de traitement de la commande. Les types possibles sont **LIVRAISON**, **RÉCUPÉRATION** ou **SUR PLACE**.
 - Statut actuel de la commande. L'utilisateur peut actualiser le statut d'une commande ou imprimer le reçu en sélectionnant le bouton correspondant.
 
-![Détails de la carte de commande OrderLine](../images/019-en-order-card-details.png)
+![Détails de la carte de commande OrderLine](../images/019-fr-carte-commande-details.png)
 
 ## Accepter une commande
 
@@ -99,7 +99,7 @@ OrderLine imprime également les reçus de commande de façon automatique dès l
 
 Pour une meilleure lisibilité, les reçus sont présentés sous forme de sections délimitées par un trait plein. Ces sections contiennent les mêmes informations que dans la carte de commande. Pour plus d'informations sur les cartes de commande, voir la rubrique [Visualiser une commande OrderLine](#view-order).
 
-![Exemple de reçu de commande OrderLine](../images/030-en-2x-receipt-example.jpg)
+![Exemple de reçu de commande OrderLine](../images/030-fr-exemple-recu.png)
 
 Les reçus contiennent les informations suivantes :
 
