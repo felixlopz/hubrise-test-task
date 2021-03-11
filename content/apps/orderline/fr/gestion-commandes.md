@@ -106,7 +106,7 @@ Les reçus contiennent les informations suivantes :
 - Le type de commande. Les types possibles sont **LIVRAISON**, **RÉCUPÉRATION** ou **SUR PLACE**.
 - Le mode de paiement.
 - L'adresse et les commentaires de livraison, ainsi que les coordonnées GPS (si la solution de commande en ligne transmet les coordonnées GPS à HubRise).
-- L'heure de livraison confirmée par les utilisateurs, qui correspond à l'heure de livraison réelle (si cette donnée est prise en charge par le système EPOS). Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/#additional-data-prompt).
+- L'heure de livraison confirmée par les utilisateurs, qui correspond à l'heure de livraison réelle (si cette donnée est prise en charge par le système d'encaissement). Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/#additional-data-prompt).
 - Les promotions sont énumérées avec leur nom, suivi de la liste des produits qu'elles contiennent.
 - Les produits commandés par le client sont regroupés. Les ajouts ou exclusions sont indiqués dans une liste à puces :
   - Les articles standard retirés du produit sont biffés par un trait plein.
