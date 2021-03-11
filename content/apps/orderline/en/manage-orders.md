@@ -40,7 +40,7 @@ Users can add a personalised message to the customer, adjust the delivery time, 
 
 ---
 
-Once accepted, the Order status changes to Accepted. You may print the order receipt and change the status again when you are ready.
+Once accepted, the Order status changes to **Accepted**. You may print the order receipt and change the status again when you are ready.
 
 <video controls title="OrderLine Accept Order Example">
   <source src="../images/020-en-accept-order.webm" type="video/webm"/>
@@ -58,7 +58,7 @@ Once rejected, the order disappears from **Today's Orders** list and becomes hid
 
 ## Mark Order as In Delivery
 
-With the order in Accepted status, select **IN DELIVERY** when the Order is being delivered to the customer.
+With the order in **Accepted** status, select **IN DELIVERY** when the Order is being delivered to the customer.
 
 <video controls title="OrderLine Order in Delivery Example">
   <source src="../images/022-en-order-set-status-in-delivery.webm" type="video/webm"/>
@@ -66,7 +66,7 @@ With the order in Accepted status, select **IN DELIVERY** when the Order is bein
 
 ## Complete Order
 
-Orders set with the status In Delivery can be updated to the following:
+Orders set with the status **In Delivery** can be updated to the following:
 
 - Click **COMPLETED** when the Order has been delivered finished. Once set to completed, you can print the order receipt but not change its status again.
 - Click **DELIVERY FAILED** if the Order can not be successfully delivered.

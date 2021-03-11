@@ -11,7 +11,7 @@ Les utilisateurs d'OrderLine peuvent modifier le flux de statuts afin d'adapter 
 
 ## Voir la commande
 
-Pour consulter les détails de la commande, sélectionnez la carte de commande. Cliquez sur l'icône Fermer <InlineImage width="23" height="23">![Icône "Fermer OrderLine"](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte de commande pour refermer celle-ci.
+Pour consulter les détails de la commande, sélectionnez la carte de commande. Cliquez sur l'icône Fermer <InlineImage width="23" height="23">![Icône de fermeture d'OrderLine](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte de commande pour refermer celle-ci.
 
 <video controls title="OrderLine Open and Close Orders Example">
   <source src="../images/018-en-order-card-open-close.webm" type="video/webm"/>
@@ -36,11 +36,11 @@ Les utilisateurs peuvent ajouter un message personnalisé destiné au client, aj
 
 ---
 
-**REMARQUE IMPORTANTE** : les mises à jour des heures de livraison, ainsi que les messages, doivent être pris en charge par votre système de commande en ligne. Pour plus d'informations sur la configuration, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/##additional-data-prompt).
+**REMARQUE IMPORTANTE :** Les mises à jour des heures de livraison, ainsi que les messages, doivent être pris en charge par votre système de commande en ligne. Pour plus d'informations sur la configuration, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/##additional-data-prompt).
 
 ---
 
-Une fois qu'une commande a été acceptée, son statut passe à « Acceptée ». Vous pouvez imprimer le reçu de la commande et modifier à nouveau le statut lorsque vous êtes prêt.
+Une fois qu'une commande a été acceptée, son statut passe à **Acceptée**. Vous pouvez imprimer le reçu de la commande et modifier à nouveau le statut lorsque vous êtes prêt.
 
 <video controls title="OrderLine Accept Order Example">
   <source src="../images/020-en-accept-order.webm" type="video/webm"/>
@@ -58,7 +58,7 @@ Une fois qu'une commande a été rejetée, elle n'apparaît plus dans la liste *
 
 ## Marquer la commande pour livraison
 
-Lorsque la commande doit être livrée au client, sélectionnez **EN LIVRAISON** pour la commande ayant le statut Acceptée.
+Lorsque la commande doit être livrée au client, sélectionnez **EN LIVRAISON** pour la commande ayant le statut **Acceptée**.
 
 <video controls title="OrderLine Order in Delivery Example">
   <source src="../images/022-en-order-set-status-in-delivery.webm" type="video/webm"/>
@@ -66,7 +66,7 @@ Lorsque la commande doit être livrée au client, sélectionnez **EN LIVRAISON**
 
 ## Terminer la commande
 
-Les commandes ayant le statut En livraison » peuvent être mises à jour comme suit :
+Les commandes ayant le statut **En livraison** peuvent être mises à jour comme suit :
 
 - Une fois la commande livrée, cliquez sur **TERMINÉE**. Une fois la commande terminée, vous pouvez imprimer le reçu de la commande, mais vous ne pouvez plus en modifier le statut.
 - Si la commande n'a pas pu être livrée, cliquez sur **ÉCHEC LIVRAISON**.
