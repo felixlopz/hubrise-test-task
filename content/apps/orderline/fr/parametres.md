@@ -27,17 +27,17 @@ Le menu **Paramètres** > **Général** comporte les options suivantes :
 - **Déconnecter** : permet à l'utilisateur de mettre fin à la session OrderLine.
 - **Langue** : permet à l'utilisateur de sélectionner sa langue préférée. OrderLine prend en charge l'**anglais**, le **français** et le **russe**.
 
-![Paramètres généraux](../images/009-en-settings-general.png)
+![Paramètres généraux](../images/009-fr-parametres-general.png)
 
 ## Flux des statuts de commande
 
 La gestion des commandes s'effectue d'après leur statut. Dans **Paramètres** > **STATUTS DE COMMANDE**, les utilisateurs peuvent définir le flux des statuts afin de personnaliser la gestion des commandes.
 
-![Paramètres/statuts](../images/014-en-settings-order-status.png)
+![Paramètres/statuts](../images/014-fr-parametres-statuts-commande.png)
 
 Les statuts permettent de faire passer les commandes d'un état à un autre, un peu à la manière d'un diagramme de flux. Les commandes débutent toujours par le statut **Nouvelle**, mais elles peuvent évoluer de différentes manières selon le flux de statuts configuré par l'utilisateur. Une commande peut par exemple être **Acceptée**, puis **En livraison**, et s'achever par le statut **Terminée**. Dans chaque cas, sauf pour le statut **Terminée**, la commande peut se voir affecter le statut **Rejetée** :
 
-![Exemple de flux de statuts](../images/010-en-2x-status-flow-example.png)
+![Exemple de flux de statuts](../images/010-fr-flux-statuts-exemple.png)
 
 Les utilisateurs peuvent sélectionner le flux de statuts standard d'OrderLine, le simplifier, ou le personnaliser entièrement de manière à ce qu'il corresponde à leur façon de travailler dans leur établissement.
 
@@ -120,7 +120,7 @@ L'exemple qui suit montre comment masquer les commandes ayant le statut **Termin
 
 Les utilisateurs peuvent être avertis par un son lorsque de nouvelles commandes sont récupérées par OrderLine en fonction des paramètres de notification. Cette option s'applique à la fois aux rubriques **Aujourd'hui** et **Jours suivants**.
 
-![Paramètres de notification](../images/016-en-settings-notifications.png)
+![Paramètres de notification](../images/016-fr-parametres-notifications.png)
 
 Les paramètres disponibles sont les suivants :
 
