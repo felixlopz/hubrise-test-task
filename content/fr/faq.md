@@ -14,7 +14,7 @@ Tout à fait. La création d'un compte est gratuite. L'abonnement n'est facturé
 
 ###### Dois-je entrer mes coordonnées bancaires pour faire un test gratuit ?
 
-Non, vous devez simplement indiquer votre nom et votre email.
+Non, vous devez simplement indiquer votre nom et votre e-mail.
 
 ###### Quelle est la durée d'engagement ?
 
