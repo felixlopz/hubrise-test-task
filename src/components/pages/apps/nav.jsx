@@ -14,7 +14,7 @@ export const Nav = ({ categories, currentCategory, allAppsLabel }) => {
             ? category.replace(/ +/g, '-').toLowerCase()
             : ''
           return (
-            <li className="apps-nav__item">
+            <li className="apps-nav__item" key={idx}>
               <Link
                 to={`/apps/${slug}`}
                 className={classNames(

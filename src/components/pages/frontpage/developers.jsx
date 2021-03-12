@@ -14,11 +14,11 @@ export const Developers = ({ title, description, team_members, teamPictures }) =
           />
 
           <ul className="frontpage-developers__team">
-            {team_members.map(({ name, filename }) => {
+            {team_members.map(({ name, filename }, idx) => {
               const picture = teamPictures.nodes.find(({ base }) => base === filename)
               if (!picture) throw new Error(`Team member ${name} does not have a picture`)
 
-              return <li className="frontpage-developers__team-member">
+              return <li className="frontpage-developers__team-member" key={idx}>
                 <GatsbyImage className="frontpage-developers__member-picture" {...picture.childImageSharp} />
                 <div className="frontpage-developers__member-name">{name}</div>
               </li>
