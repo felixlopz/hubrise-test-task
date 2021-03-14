@@ -9,11 +9,15 @@ meta:
 
 To connect iKentoo to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.
 
-By convention, Lightspeed support team uses predefined codes when they set up the integration with major food platforms. Such codes are needed for service types, payments, charges, and discounts. If you configure the iKentoo back office autonomously, we recommend that you use the same codes, which are provided below, as this simplifies troubleshooting in case of errors.
+By convention, Lightspeed support team uses these predefined codes when they set up the integration. If you configure the iKentoo back office autonomously, we recommend that you use the same codes, as this simplifies troubleshooting.
 
-For detailed instructions on how to create the ref codes in the iKentoo back office, see [Creating Ref Codes for Delivery Platforms](/apps/ikentoo-lightspeed/map-ref-codes/#creating-ref-codes-for-delivery-platforms).
+---
 
-You then need to include the same codes in the configuration page of the delivery platform bridge, as well, so that they match those present on iKentoo.
+**IMPORTANT NOTE:** These codes must be present in your iKentoo back office and must be included in the configuration page of the food platform bridge.
+
+---
+
+For detailed instructions on how to create ref codes in the iKentoo back office, see [Creating Ref Codes for Delivery Platforms](/apps/ikentoo-lightspeed/map-ref-codes/#creating-ref-codes-for-delivery-platforms).
 
 ## Deliveroo
 
