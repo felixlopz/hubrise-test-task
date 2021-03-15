@@ -21,7 +21,7 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 ---
 
-**NOTE IMPORTANTE :** Vérifiez bien le choix du catalogue avant d'autoriser la connexion, car le catalogue HubRise est écrasé dès que la connexion est établie.
+**REMARQUE IMPORTANTE :** Vérifiez bien le choix du catalogue avant d'autoriser la connexion, car le catalogue HubRise est écrasé dès que la connexion est établie.
 
 ---
 
@@ -34,7 +34,7 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 ---
 
-**NOTE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, consultez notre [Guide de prise en main](/docs/getting-started/).
+**REMARQUE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, consultez notre [Guide de prise en main](/docs/getting-started/).
 
 ---
 
