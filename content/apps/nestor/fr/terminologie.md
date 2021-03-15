@@ -15,6 +15,6 @@ HubRise et Nestor utilisent chacun leur propre terminologie. Un même concept pe
 | Déclinaison          | SKU                 | Variante de produit                     |
 | Forfait livraison    | Charge              | Frais de livraison                      |
 | Menu                 | Promotion           | Remise sur des articles de la commande  |
-| Moyen de paiement    | Méthode de paiement | Méthode utilisée pour payer la commande |
+| Moyen de paiement    | Mode de paiement    | Méthode utilisée pour payer la commande |
 | Offre promotionnelle | Remise              | Remise sur la totalité de la commande   |
 | Structure            | Catégorie           | Catégorie du produit                    |

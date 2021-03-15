@@ -37,13 +37,13 @@ Limitez l'utilisation des parenthèses à la clarification d'acronymes, sinon é
 
 ### Guillemets
 
-Réservez l'usage des guillemets aux citations. Incluez la ponctuation à l'intérieur des guillemets.
+Réservez l'usage des guillemets aux citations. Incluez la ponctuation après les guillemets fermants.
 
 ## Listes
 
 Écrivez une courte liste sous forme de phrase. Si la liste a plus de trois éléments ou qu'elle contient des instructions longues, écrivez-la sous forme de liste à puces.
 
-Dans une liste à puces, chaque élément de la liste commence par une majuscule et se termine par un point, sauf s'il s'agit d'un mot isolé.
+Dans une liste à puces, chaque élément de la liste commence par une majuscule et se termine par un point, et non par un point-virgule. S'il s'agit d'un mot isolé, ne mettez aucune ponctuation à la fin de l'élément de la liste. 
 
 Par exemple, écrivez ainsi une courte liste : _Une commande prend successivement les statuts **Reçue**, **En attente**, et **Validée**._
 
