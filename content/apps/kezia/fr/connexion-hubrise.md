@@ -11,7 +11,7 @@ Pour connecter Kezia II à HubRise, il suffit de suivre quelques étapes.
 
 ---
 
-**NOTE IMPORTANTE :** La connexion est faite par le support JDC, cette démarche n'est décrite ici qu'à titre d'information.
+**REMARQUE IMPORTANTE :** La connexion est faite par le support JDC, cette démarche n'est décrite ici qu'à titre d'information.
 
 ---
 
@@ -38,7 +38,7 @@ Pour établir la connexion entre un point de vente Kezia II et HubRise, vous dev
 
 ---
 
-**NOTE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, veuillez consulter notre [Guide de prise en main](/docs/getting-started/).
+**REMARQUE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, veuillez consulter notre [Guide de prise en main](/docs/getting-started/).
 
 ---
 
@@ -64,7 +64,7 @@ Afin que vous ayiez accès à la liste des commandes venant de HubRise et aux pa
 
 ---
 
-**NOTE IMPORTANTE :** Les libellés **Commandes Web** et **Paramètres Web** pris en exemples ici seront utilisés dans toute cette documentation.
+**REMARQUE IMPORTANTE :** Les libellés **Commandes Web** et **Paramètres Web** pris en exemples ici seront utilisés dans toute cette documentation.
 
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: Aperçu
+title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Aperçu - Kezia II
-  description: "Le logiciel de caisse Kezia II : aperçu général et fonctionnalités de l'intégration avec HubRise."
+  title: Présentation générale de Kezia II
+  description: "Le logiciel de caisse Kezia II : présentation générale et fonctionnalités de l'intégration avec HubRise."
 gallery:
 path_override: /
 app_info:
