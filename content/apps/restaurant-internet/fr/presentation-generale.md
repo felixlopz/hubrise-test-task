@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale de Restaurant-internet
-  description: "La solution de commande en ligne Restaurant-internet : aperçu général et fonctionnalités de l'intégration avec HubRise."
+  description: "La solution de commande en ligne Restaurant-internet : présentation générale et fonctionnalités de l'intégration avec HubRise."
 gallery:
   - 001-fr-restaurant-internet-apercu-prix.png
   - 002-fr-restaurant-internet-apercu-paiement.png
