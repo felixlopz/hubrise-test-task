@@ -72,9 +72,9 @@ Pour retrouver le code ref d'une charge, suivez les étapes suivantes :
 
 Dans le cas où des frais de gestion sont présents pour un certain mode de livraison, c'est sur cette même page que vous pouvez retrouver le code ref correspondant.
 
-## Modes de paiement
+## Méthodes de paiement
 
-Un mode de paiement dans HubRise correspond à un mode de paiement dans Restaurant-internet. Pour retrouver leur code ref, suivez les étapes suivantes :
+Une méthode de paiement dans HubRise correspond à un mode de paiement dans Restaurant-internet. Pour retrouver leur code ref, suivez les étapes suivantes :
 
 1. Depuis votre tableau de bord Restaurant-internet, dans la partie **Modules**, sélectionnez **Marketplace Autres modules**.
    ![Associer les codes ref - Marketplace](../images/005-fr-restaurant-internet-marketplace.png)
