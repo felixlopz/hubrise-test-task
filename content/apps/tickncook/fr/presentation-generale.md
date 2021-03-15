@@ -1,10 +1,10 @@
 ---
+title: Présentation générale
 position: 1
-title: Aperçu
 layout: documentation
 meta:
-  title: Aperçu - TicknCook
-  description: "L'écran cuisine TicknCook : aperçu général et fonctionnalités de l'intégration avec HubRise."
+  title: Présentation générale de TicknCook
+  description: "L'écran cuisine TicknCook : présentation générale et fonctionnalités de l'intégration avec HubRise."
 gallery:
   - 002-fr-tickncook-counter.jpg
   - 003-fr-tickncook-kitchen.jpg
