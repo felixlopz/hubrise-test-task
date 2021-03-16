@@ -24,7 +24,7 @@ A tout moment, vous pouvez importer manuellement le catalogue depuis HubRise :
 
 ---
 
-**NOTE IMPORTANTE :** Le catalogue est importé automatiquement dans Koust au moment de la connexion avec HubRise.
+**REMARQUE IMPORTANTE :** Le catalogue est importé automatiquement dans Koust au moment de la connexion avec HubRise.
 
 ---
 
