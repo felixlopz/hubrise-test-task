@@ -348,7 +348,7 @@ content:
           logo: koust.png
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
-          additional_info:
+          additional_info: Documentation in French.
     - title: Other Apps
       apps:
         - website:
