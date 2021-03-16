@@ -1,6 +1,6 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
   title:
@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-This documentation is only [available in French](/fr/apps/nestor).
+This documentation is [available in French only](/fr/apps/nestor).
