@@ -66,7 +66,7 @@ content:
           title: LightSpeed K-Series / iKentoo
           description: Lightspeed offers cloud-based solutions for retail and restaurants in over 100 countries. Its sleek design and intuitive interface allows on site, remote or on-the-go management of single and multi-store businesses.
         - website: http://www.myorderboxhq.com
-          documentation:
+          documentation: /apps/myorderbox/
           logo: myorderbox.png
           title: MyOrderBox
           description: MyOrderBox is an affordable cloud based Point of Sales for takeaway and restaurants. MyOrderBox is easy to install and get hands on.

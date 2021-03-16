@@ -67,7 +67,7 @@ content:
           title: LightSpeed K-Series / iKentoo
           description: Lightspeed propose des solutions de gestion sur le cloud pour les commerces et les restaurants dans plus de 100 pays. Son design soigné et son interface intuitive permettent la gestion sur site, à distance ou en déplacement pour des entreprises mono et multisites.
         - website: http://www.myorderboxhq.com
-          documentation:
+          documentation: /apps/myorderbox/
           logo: myorderbox.png
           title: MyOrderBox
           description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
