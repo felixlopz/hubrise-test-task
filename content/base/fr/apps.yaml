@@ -26,13 +26,19 @@ content:
           logo: carrepos.png
           title: Carré POS
           description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les boutiques, les coiffeurs ou encore les fleuristes.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.epostechnologies.co.uk/
           documentation:
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, adapté à tout type de commerce, offre de nombreuses fonctionnalités dont un système de gestion de livreurs, un kiosque, un écran cuisine, ainsi qu'une solution de commande en ligne et de commande à table.
           additional_info: Intégration en cours.
+        - website: https://www.etakeawaymax.co.uk/
+          documentation:
+          logo: etakeawaymax.png
+          title: eTakeaway Max
+          description: eTakeaway Max est une solution d'encaissement et de commande en ligne pour les restaurants.
+          additional_info:
         - website: https://iikosoftware.com
           documentation:
           logo: iiko.png
@@ -116,7 +122,7 @@ content:
           logo: talc.png
           title: T.A.L.C Informatique
           description: T.A.L.C Informatique est une caisse adaptée aux besoins de la restauration, qui permet de gérer un ou plusieurs points de vente avec dispatching des coursiers, gestion du stock, des achats, géolocalisation des clients et envoi de SMS.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
@@ -136,6 +142,12 @@ content:
           title: Delivery Hero
           description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 40 pays and 600 villes.
           additional_info: Intégration en cours.
+        - website: https://www.eat.ch/fr/
+          documentation:
+          logo: eat.png
+          title: EAT.ch
+          description: EAT.ch est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Suisse.
+          additional_info: Intégration en cours.
         - website: https://www.foodpanda.com/
           documentation: /apps/foodpanda
           logo: foodpanda.png
@@ -147,16 +159,40 @@ content:
           logo: just-eat.png
           title: Just Eat
           description: Just Eat est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 13 pays en Europe, en Asie, en Océanie et dans les Amériques.
+        - website: https://www.lieferando.de/en/
+          documentation:
+          logo: lieferando.png
+          title: lieferando.de and lieferando.at
+          description: lieferando est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Allemagne et en Autriche.
+          additional_info: Intégration en cours.
+        - website: https://www.pyszne.pl/fr/
+          documentation:
+          logo: pyszne.png
+          title: Pyszne
+          description: Pyszne est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Pologne.
+          additional_info: Intégration en cours.
+        - website: https://www.skipthedishes.com/fr/
+          documentation:
+          logo: skipthedishes.png
+          title: Skip The Dishes
+          description: Skip The Dishes est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander un repas ou des boissons alcoolisées en ligne ou via une app mobile. Disponible au Canada.
+          additional_info: Intégration en cours.
         - website: https://www.smood.ch/fr
           documentation:
           logo: smood.png
           title: Smood
-          description: Smood est une plateforme de service de livraison à domicile qui opère sur tout le marché Suisse. Les clients peuvent commander en ligne ou via une app mobile dans leurs restaurants préférés ainsi que dans leurs Migros.
+          description: Smood est une plateforme de service de livraison à domicile qui opère sur tout le marché Suisse. Les clients peuvent commander en ligne ou via une app mobile dans leurs restaurants préférés ainsi que dans leurs Migros. HubRise est intégré à Dismatch, leur service de livraison.
         - website: https://www.justeattakeaway.com/
           documentation:
           logo: takeaway.png
           title: Takeaway.com
-          description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible au Pays-Bas, Belgique, Suisse, Luxembourg, Portugal, Roumanie, et en Bulgarie.
+          description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, au Luxembourg, au Portugal, en Roumanie, et en Bulgarie.
+          additional_info: Intégration en cours.
+        - website: https://www.thuisbezorgd.nl/fr/
+          documentation:
+          logo: thuisbezorgd.png
+          title: Thuisbezorgd
+          description: Thuisbezorgd est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponiblau au Pays-Bas.
           additional_info: Intégration en cours.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
@@ -178,12 +214,6 @@ content:
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
-        - website: https://www.etakeawaymax.co.uk/
-          documentation:
-          logo: etakeawaymax.png
-          title: eTakeaway Max
-          description: eTakeaway Max est une solution de commande en ligne et une app pour la restauration rapide et les cafés. eTakeaway Max est combiné avec une solution d'encaissement, qui permet d'enregistrer les commandes sur place sur un seul et même système.
-          additional_info: Documentation en anglais. Intégration en cours.
         - website: https://www.livepepper.fr
           documentation: /apps/livepepper/
           logo: livepepper.png
@@ -325,13 +355,13 @@ content:
           logo: barratio.png
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
           title: Koust
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
-          additional_info: Intégration en cours.
+          additional_info:
     - title: Autres applications
       apps:
         - website:

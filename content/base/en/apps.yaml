@@ -26,13 +26,19 @@ content:
           logo: carrepos.png
           title: Carré POS
           description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.epostechnologies.co.uk/
           documentation:
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, suitable for retail and hospitality businesses, offers many features including delivery management, self service kiosk, Kitchen Display System, as well as online ordering and table ordering. They operate in several countries.
           additional_info: Integration in progress.
+        - website: https://www.etakeawaymax.co.uk/
+          documentation:
+          logo: etakeawaymax.png
+          title: eTakeaway Max
+          description: eTakeaway Max is an EPOS combined with an online ordering solution and app for restaurants, takeaways and cafes.
+          additional_info:
         - website: https://iikosoftware.com
           documentation:
           logo: iiko.png
@@ -48,7 +54,7 @@ content:
           logo: jalia.png
           title: Jalia by JDC
           description: Jalia by JDC is a cloud Point of Sale that works on both iOS and Android tablets. Installation is easy and the EPOS is optimised for fast order taking.
-          additional_info: Documentation in French. Integration in progess.
+          additional_info: Integration in progess.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: kezia.png
@@ -116,7 +122,7 @@ content:
           logo: talc.png
           title: T.A.L.C Informatique
           description: T.A.L.C Informatique, adapted to the needs of restaurants, allows you to manage one or more locations. It includes courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
@@ -136,6 +142,12 @@ content:
           title: Delivery Hero
           description: Delivery Hero is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 40 markets and 600 cities.
           additional_info: Integration in progress.
+        - website: https://www.eat.ch/en/
+          documentation:
+          logo: eat.png
+          title: EAT.ch
+          description: EAT.ch is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Switzerland.
+          additional_info: Integration in progress.
         - website: https://www.foodpanda.com/
           documentation: /apps/foodpanda
           logo: foodpanda.png
@@ -147,16 +159,40 @@ content:
           logo: just-eat.png
           title: Just Eat
           description: Just Eat is an online food ordering and delivery service platform for local restaurants. Customers can order food online or via a mobile app. They operate in 13 countries in Europe, Asia, Oceania, and the Americas.
+        - website: https://www.lieferando.de/fr/
+          documentation:
+          logo: lieferando.png
+          title: lieferando.de and lieferando.at
+          description: lieferando is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Germany and Austria.
+          additional_info: Integration in progress.
+        - website: https://www.pyszne.pl/en/
+          documentation:
+          logo: pyszne.png
+          title: Pyszne
+          description: Pyszne is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Poland.
+          additional_info: Integration in progress.
+        - website: https://www.skipthedishes.com/
+          documentation:
+          logo: skipthedishes.png
+          title: Skip The Dishes
+          description: Skip The Dishes is an online food ordering and delivery platform for local restaurants. Customers can order food or alcohol online or via a mobile app. They operate in Canada.
+          additional_info: Integration in progress.
         - website: https://www.smood.ch/en
           documentation:
           logo: smood.png
           title: Smood
-          description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros.
+          description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros. HubRise is integrated with Dismatch, their delivery service.
         - website: https://www.justeattakeaway.com/
           documentation:
           logo: takeaway.png
           title: Takeaway.com
-          description: Takeaway.com is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Netherlands, Belgium, Switzerland, Luxembourg, Portugal, Romania, and in Bulgaria.
+          description: Takeaway.com is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Belgium, Luxembourg, Portugal, Romania, and in Bulgaria.
+          additional_info: Integration in progress.
+        - website: https://www.thuisbezorgd.nl/en/
+          documentation:
+          logo: thuisbezorgd.png
+          title: Thuisbezorgd
+          description: Thuisbezorgd is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Netherlands.
           additional_info: Integration in progress.
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
@@ -176,12 +212,6 @@ content:
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
-        - website: https://www.etakeawaymax.co.uk/
-          documentation:
-          logo: etakeawaymax.png
-          title: eTakeaway Max
-          description: eTakeaway Max is an online ordering solution and app for restaurants, takeaways and cafes. It comes with an EPOS to manage online, takeaway, walk-in and phone-in orders under one system.
-          additional_info: Integration in progress.
         - website: https://www.livepepper.com
           documentation: /apps/livepepper/
           logo: livepepper.png
@@ -312,13 +342,13 @@ content:
           logo: barratio.png
           title: Barratio
           description: Barratio digitalises invoices and delivery slips. It tracks invoices discrepancies. The full Barratio suite offers a theoretical inventory and a global overview of your business by analysing purchases, costs per recipe and sales data.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
-          additional_info: Integration in progress.
+          additional_info:
     - title: Other Apps
       apps:
         - website:
