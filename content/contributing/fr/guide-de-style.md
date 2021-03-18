@@ -168,7 +168,7 @@ Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l
 
 Un méta-titre et une méta-description doivent être ajoutés à chaque fichier.
 
-### méta-titre
+### Méta-titre
 
 Les méta-titres suivent les même règles que les autres titres, sans point final à la fin des phrases.
 
