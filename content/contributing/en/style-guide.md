@@ -343,6 +343,8 @@ Most important or unique aspect of the page keywords should be in first position
 > - **Terminology**: Connect Lightspeed K Series to HubRise - Terminology
 > - **FAQ**: Connect Lightspeed K Series to HubRise - FAQ
 
+For more clarity, when possible, add **Guide** at the end of the title. It makes send to include it on all pages, except for the overview and FAQ pages.
+
 ### Meta Description
 
 The meta description should use _Sentence Case_ with a full stop at the end.
@@ -352,7 +354,7 @@ The content should be relevant and unique from other pages. It should be easy to
 
 > Right: meta description structure to use for each of the documentation pages
 >
-> - **Overview**: Lightspeed K Series overview, why connect it with HubRise and which features are integrated. Connect your EPOS and synchronise your data with apps you use.
+> - **Overview**: Lightspeed K Series overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 > - **Connection to HubRise**: Instructions on connecting Lightspeed K Series with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 > - **Map Ref Codes**: Instructions on mapping Lightspeed K Series product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 > - **Troubleshooting**: Troubleshooting Lightspeed K Series connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
