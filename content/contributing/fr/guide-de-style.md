@@ -201,7 +201,7 @@ Le contenu doit être pertinent et unique par rapport aux autres pages. Il doit 
 > - **Terminologie** : Table de correspondance montrant les termes utilisés par Lightspeed K Series et HubRise pour le même concept. Connectez vos apps et synchronisez vos données.
 > - **F.A.Q.** : Questions fréquentes posées sur la connexion de Lightspeed K Series à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 
-Pour compléter une méta-description en maximisant le nombre de caractères, il est possible d'ajouter une phrase petite de finition :
+Pour compléter une méta-description en maximisant le nombre de caractères, vous pouvez ajouter une courte phrase à la fin :
 
 - Connectez vos apps et synchronisez vos données.
 - Synchronisez vos données.
