@@ -486,8 +486,8 @@ A product contains one or several skus. A sku is always attached to a product.
 | `id`                                        | string                                                     | The id of the sku.                                   |
 | `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                  |
 | `name` <Label type="optional" />            | string                                                     | The name of the sku.                                 |
-| `restrictions` <Label type="optional" />    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
 | `product_id`                                | string                                                     | The id of the sku's parent product.                  |
+| `restrictions` <Label type="optional" />    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
 | `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                |
 | `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Overrides for the price in different contexts.      |
 | `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to. |
@@ -502,10 +502,10 @@ A product contains one or several skus. A sku is always attached to a product.
   "id": "sb65k",
   "ref": "MAR-SM",
   "name": "Small",
+  "product_id": "abg5a",
   "restrictions": {
     "end_time": "13:30"
   },
-  "product_id": "abg5a",
   "price": "9.80 EUR",
   "price_overrides": [],
   "option_list_ids": ["e2sfj"],
@@ -734,8 +734,8 @@ Retrieve an option list and the possible choices (options).
 | `category_ref` <Label type="optional" />            | string                                                     | The [category](#categories) this deal will appear in.                                                                                                                                                                                                                                                         |
 | `name`                                              | string                                                     | The deal name.                                                                                                                                                                                                                                                                                                |
 | `description` <Label type="optional" />             | string                                                     | The description of the deal.                                                                                                                                                                                                                                                                                  |
-| `coupon_codes` <Label type="optional" />            | string[]                                                   | The coupon codes that trigger this deal.                                                                                                                                                                                                                                                                      |
 | `restrictions` <Label type="optional" />            | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the deal to be available.                                                                                                                                                                                                                              |
+| `coupon_codes` <Label type="optional" />            | string[]                                                   | The coupon codes that trigger this deal.                                                                                                                                                                                                                                                                      |
 | `tags` <Label type="optional" />                    | string[]                                                   | List of tags.                                                                                                                                                                                                                                                                                                 |
 | `image_ids` <Label type="optional" />               | string[]                                                   | List of image ids attached to the deal.                                                                                                                                                                                                                                                                       |
 | `lines`                                             | array                                                      | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                                                                                                           |
@@ -750,8 +750,8 @@ Retrieve an option list and the possible choices (options).
 
 ```json
 {
-  "name": "Buy a Small Pizza, Get A Coke for 0.50€ (1€ for Coke XXL)",
   "ref": "DDRINK",
+  "name": "Buy a Small Pizza, Get A Coke for 0.50€ (1€ for Coke XXL)",
   "restrictions": {
     "dow": "123-5--",
     "start_time": "07:00",
@@ -793,9 +793,9 @@ Retrieve an option list and the possible choices (options).
 ```json
 {
   "id": "zee1f",
+  "ref": "BOGOF",
   "name": "Buy a Small Pizza, Get One Free",
   "description": "Choose two of our small pizza, the second one is on us! (1€ extra for Calzone)",
-  "ref": "BOGOF",
   "lines": [
     {
       "skus": [
@@ -830,9 +830,9 @@ Retrieve an option list and the possible choices (options).
 [
   {
     "id": "zee1f",
+    "ref": "BOGOF",
     "name": "Buy a Small Pizza, Get One Free",
     "description": "Choose two of our small pizza, the second one is on us! (1€ extra for Calzone)",
-    "ref": "BOGOF",
     "lines": [...]
   },
   ...
@@ -852,8 +852,8 @@ A discount is a reduction of the order total price.
 | `ref` <Label type="optional" />           | string                        | The ref of the discount.                                                                                                                                                                                                       |
 | `name`                                    | string                        | The name of the discount.                                                                                                                                                                                                      |
 | `description` <Label type="optional" />   | string                        | The description of the discount.                                                                                                                                                                                               |
-| `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                                                                                    |
 | `restrictions` <Label type="optional" />  | [Restrictions](#restrictions) | An optional set of conditions that must be matched for the discount to be available.                                                                                                                                           |
+| `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                                                                                    |
 | `pricing_effect`                          | string                        | One of: `price_off`, `percentage_off`.                                                                                                                                                                                         |
 | `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `price_off`, and a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`. |
 | `image_ids` <Label type="optional" />     | string[]                      | List of image ids attached to the discount.                                                                                                                                                                                    |
