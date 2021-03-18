@@ -7,7 +7,7 @@ meta:
   description: Payment for one location on exceeded quota.
 ---
 
-For Accounts with one Location, you’ll set your credit card information at the **Account** level through these steps, and then upgrade your Location’s plan.
+For Accounts with one Location, you'll set your credit card information at the **Account** level through these steps, and then upgrade your Location's plan.
 
 First, set your payment method:
 

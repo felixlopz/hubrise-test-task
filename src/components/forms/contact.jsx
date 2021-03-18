@@ -139,9 +139,11 @@ const createContactSchema = (t) => {
 }
 
 const encodeFormData = (params) => {
-  return Object.keys(params).map((key) => {
-    return encodeURIComponent(key) + '=' + encodeURIComponent(params[key])
-  }).join('&')
+  return Object.keys(params)
+    .map((key) => {
+      return encodeURIComponent(key) + '=' + encodeURIComponent(params[key])
+    })
+    .join('&')
 }
 
 Contact.propTypes = {

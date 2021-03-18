@@ -5,10 +5,10 @@ import {
   faArrowLeft,
   faArrowRight
 } from '@fortawesome/free-solid-svg-icons'
-import Img from 'gatsby-image'
+import GatsbyImage from 'gatsby-image'
 import Slider from 'react-slick'
 
-import { NonStretchedImage } from '../../components/image'
+import { NonStretchedImage } from '../../components/non_stretched_image'
 
 import { generateKey } from '../../components/utils'
 
@@ -28,7 +28,7 @@ const NextArrow = ({ onClick, currentImageNumber, totalNumberOfImages }) => {
         onClick()
       }}
     >
-      <FontAwesomeIcon icon={faArrowRight} />
+      <FontAwesomeIcon icon={faArrowRight}/>
     </button>
   )
 }
@@ -45,7 +45,7 @@ const PrevArrow = ({ onClick, currentImageNumber }) => {
         onClick()
       }}
     >
-      <FontAwesomeIcon icon={faArrowLeft} />
+      <FontAwesomeIcon icon={faArrowLeft}/>
     </button>
   )
 }
@@ -68,7 +68,7 @@ export const Gallery = ({ images, title }) => {
         totalNumberOfImages={totalNumberOfImages}
       />
     ),
-    prevArrow: <PrevArrow currentImageNumber={currentImageNumber} />,
+    prevArrow: <PrevArrow currentImageNumber={currentImageNumber}/>,
     afterChange: (newIdx) => setCurrentImageNumber(newIdx + 1)
   }
 
@@ -102,7 +102,6 @@ export const Gallery = ({ images, title }) => {
   useEffect(() => {
     if (isSliderVisible) {
       document.body.classList.toggle(`no-vertical-scroll`)
-
       return () => document.body.classList.toggle(`no-vertical-scroll`)
     }
   }, [isSliderVisible])
@@ -110,7 +109,7 @@ export const Gallery = ({ images, title }) => {
   return (
     <div className="section__content">
       <div
-        className="image-slider-wrapper"
+        className="image-slider"
         style={{
           display: isSliderVisible ? `grid` : `none`
         }}
@@ -120,26 +119,27 @@ export const Gallery = ({ images, title }) => {
           className="image-slider__topbar"
           onClick={(e) => e.stopPropagation()}
         >
-          <p className="image-slider__title">
-            <span className="image-slider__title-app-name">{title}</span>
-          </p>
-          <p className="image-slider__count">
+          <div className="image-slider__title">
+            {title}
+          </div>
+          <div className="image-slider__count">
             {currentImageNumber} / {totalNumberOfImages}
-          </p>
+          </div>
           <button
-            className="image-slider__button_close"
+            className="image-slider__close"
             onClick={() => setIsSliderVisible(false)}
           >
-            <FontAwesomeIcon icon={faTimes} />
+            <FontAwesomeIcon icon={faTimes}/>
           </button>
         </section>
-        <Slider ref={slider} className="image-slider" {...sliderSettings}>
+
+        <Slider ref={slider} className="image-slider__content" {...sliderSettings}>
           {images.map(({ name, childImageSharp }, idx) => (
             <div
               key={generateKey(name, idx)}
               onClick={(e) => e.stopPropagation()}
             >
-              <Img
+              <GatsbyImage
                 className="image-slider__slide"
                 alt={name}
                 {...childImageSharp}

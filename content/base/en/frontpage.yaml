@@ -1,0 +1,92 @@
+path: /
+meta:
+  title: HubRise - Integration for retail and hospitality solutions
+  description: HubRise is a developer friendly solution to connect to a growing ecosystem of retail and hospitality solutions with a single integration.
+
+hero:
+  title: Integration for retail and hospitality solutions
+  description: |
+    HubRise is a developer friendly solution to connect to a multitude of apps with a single integration.
+  button_label: Start integrating
+  button_url: /developers
+
+content:
+  apps:
+    title: New integrations for your app
+    description: |
+      HubRise connects your app to the ones your customers use. Focus on the development of your app, while we look after integrations. [More than 40 available integrations](/apps).
+    categories:
+      - EPOS
+      - Online Ordering
+      - Food Ordering Platforms
+      - Marketing Solutions
+      - Loyalty cards
+      - And More
+    image:
+      normal: frontpage/app-lists.png
+      hover: frontpage/app-lists-hover.png
+
+  api:
+    title: Public and easy to use API
+    description: |
+      Synchronise orders, customers and products. A well-written documentation, a Postman collection, and a Ruby SDK make integration seamless.
+      Just for fun, we created a fully functional and integrated app in a few lines of code, which you can [view on GitHub](https://github.com/HubRise/tiny-tablet).
+    image: api.png
+
+  documentation:
+    title: Documentation at the core
+    description: |
+      No guesswork. We document functionalities, data flow, and common pitfalls for each integrated app.
+      Documentation is publicly available on our [Apps page](/apps/).
+    image: documentation.png
+
+  pricing:
+    title: Fair pricing for stores
+    description: |
+      No setup fee. No commitment. No contract.
+      Unlimited number of connections. 25€ per month.
+    button_label: Start free trial
+    button_url: https://manager.hubrise.com/signup
+    link_label: Pricing page
+    link_url: /pricing
+
+  developers:
+    title: We help developers
+    description: |
+      We are developers too. You can count on us to promptly answer your questions during the integration.
+      Once you are integrated, we assess and document the work done, and share the news with our community.
+    team_members:
+      - name: Alberto
+        filename: alberto.jpg
+      - name: Alex
+        filename: alex.jpg
+      - name: Antoine
+        filename: antoine.jpg
+      - name: Dan
+        filename: dan.jpg
+      - name: Dimitri
+        filename: dimitri.jpg
+      - name: Léo
+        filename: leo.jpg
+      - name: Nick
+        filename: nick.jpg
+      - name: Vova
+        filename: vova.jpg
+
+  mission_and_scalability:
+    mission:
+      title: Our vision
+      description: |
+        We want integrations to not be a challenge anymore. We make this possible by moving, unifying and securing data to its rightful place, in the cloud, to be accessed real-time when authorised.
+
+    scalability:
+      title: Scalable and low maintenance
+      description: |
+        Your support team and your users can connect in one click. Connection logs are available in the back office. Troubleshooting does not require development skills.
+
+  join:
+    title: Ready to join the ecosystem?
+    button_label: Connect your app
+    button_url: /developers
+    link_label: Create free account
+    link_url: https://manager.hubrise.com/signup

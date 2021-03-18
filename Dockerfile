@@ -1,7 +1,7 @@
 # ****************************
 # **      Build stage       **
 # ****************************
-FROM node:10.16.0-buster AS build-stage
+FROM node:12.18.3-stretch AS build-stage
 
 # Working directory
 WORKDIR /website
@@ -26,7 +26,7 @@ RUN ./node_modules/.bin/gatsby build
 # ****************************
 # **      Deploy stage      **
 # ****************************
-FROM nginx:1.17.1
+FROM nginx:1.19.1
 
 # Base packages
 RUN apt-get update -qq && apt-get install -y vim less
@@ -39,6 +39,9 @@ WORKDIR /usr/share/nginx/html
 
 # Copy project files
 COPY --from=build-stage /website/public .
+
+# Copy nginx configuration
+COPY config/nginx/nginx.conf /etc/nginx/nginx.conf
 
 # Container startup
 EXPOSE 80

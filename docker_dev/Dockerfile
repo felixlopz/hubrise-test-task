@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:experimental
-FROM node:10.16.0-buster
+FROM node:12.18.3-stretch
 
 # -------------
 # Install packages
@@ -18,8 +18,8 @@ RUN echo "alias ll='ls -lah --color'" >> /root/.bashrc
 # Working directory
 # -------------
 
-ENV HEXO_ROOT /var/www/website
-WORKDIR $HEXO_ROOT
+ENV GATSBY_ROOT /var/www/website
+WORKDIR $GATSBY_ROOT
 
 # -------------
 # Install NodeJS packages into a directory outside the workdir
@@ -48,5 +48,6 @@ EXPOSE 8000
 
 ENTRYPOINT ["docker_dev/bin/entrypoint.sh"]
 
-# Launch Hexo server (local development)
+# Launch Gatsby server (local development)
+USER node
 CMD ["./node_modules/.bin/gatsby", "develop", "-H", "0.0.0.0", "-p", "8000"]

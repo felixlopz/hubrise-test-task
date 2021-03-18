@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useTranslation } from 'react-i18next'
@@ -11,19 +10,18 @@ import {
   Breadcrumbs,
   Feedback
 } from '../components/documentation'
+import SEO from '../components/seo'
 
 const DocumentationPage = ({ data, path, pageContext }) => {
-  const { i18n, t } = useTranslation()
+  const { t } = useTranslation()
   const { name: chapterTitle, logo: logoBase } = pageContext.config
   const { images } = data
 
   const pageNodes = data.currentAndSiblingPages.nodes
-  const currentPageId = data.currentPage.id
-  const firstPage = pageNodes.find((node) => node.frontmatter.position === 1)
-  const currentPage = pageNodes.find((node) => node.id === currentPageId)
+  const currentPage = pageNodes.find((node) => node.id === pageContext.id)
 
   const { frontmatter, body } = currentPage
-  const { title, gallery, app_info } = frontmatter
+  const { meta, title, gallery, app_info } = frontmatter
 
   function getBreadcrumbs() {
     const breadcrumbs = pageContext.breadcrumbs.map(
@@ -58,6 +56,11 @@ const DocumentationPage = ({ data, path, pageContext }) => {
 
   return (
     <>
+      <SEO
+        lang={pageContext.lang}
+        title={meta?.title}
+        description={meta?.description}
+      />
       <Breadcrumbs breadcrumbs={breadcrumbs} />
       <section className="section">
         <div
@@ -98,94 +101,47 @@ const DocumentationPage = ({ data, path, pageContext }) => {
 }
 
 export const documentationPageQuery = graphql`
-  query getDocumentationPageContent(
-    $id: String!
-    $currentAndSiblingPagesFilter: MdxFilterInput!
-    $imagesFilter: FileFilterInput
-  ) {
-    currentPage: mdx(id: { eq: $id }) {
+query getDocumentationPageContent($currentAndSiblingPagesFilter: MdxFilterInput!, $imagesPath: String!) {
+  currentAndSiblingPages: allMdx(filter: $currentAndSiblingPagesFilter) {
+    nodes {
       id
-    }
-    currentAndSiblingPages: allMdx(filter: $currentAndSiblingPagesFilter) {
-      nodes {
-        id
-        frontmatter {
+      frontmatter {
+        meta {
           title
-          position
-          gallery
-          path_override
-          app_info {
-            category
-            availability
-            price_range
-            website
-            contact
-          }
+          description
         }
-        fields {
-          slug
-          localeSlugMap {
-            en
-            fr
-          }
+        title
+        position
+        gallery
+        path_override
+        app_info {
+          category
+          availability
+          price_range
+          website
+          contact
         }
-        headings {
-          value
-          depth
-        }
-        body
       }
-    }
-    images: allFile(filter: $imagesFilter) {
-      nodes {
-        ...Image
+      fields {
+        slug
+        localeSlugMap {
+          en
+          fr
+        }
       }
+      headings {
+        value
+        depth
+      }
+      body
     }
   }
-`
-
-DocumentationPage.propTypes = {
-  data: PropTypes.shape({
-    currentPage: PropTypes.exact({
-      id: PropTypes.string.isRequired
-    }),
-    currentAndSiblingPages: PropTypes.shape({
-      nodes: PropTypes.arrayOf(
-        PropTypes.exact({
-          id: PropTypes.string.isRequired,
-          frontmatter: PropTypes.shape({
-            title: PropTypes.string.isRequired,
-            position: PropTypes.number.isRequired,
-            app_info: PropTypes.shape({
-              category: PropTypes.string,
-              availability: PropTypes.string,
-              price_range: PropTypes.string,
-              website: PropTypes.string,
-              contact: PropTypes.string
-            })
-          }),
-          fields: PropTypes.shape({
-            slug: PropTypes.string.isRequired
-          }),
-          headings: PropTypes.arrayOf(
-            PropTypes.shape({
-              depth: PropTypes.number.isRequired,
-              value: PropTypes.string.isRequired
-            })
-          ),
-          body: PropTypes.string.isRequired
-        })
-      )
-    }),
-    images: PropTypes.shape({
-      nodes: PropTypes.arrayOf(
-        PropTypes.shape({
-          name: PropTypes.string.isRequired,
-          childImageSharp: PropTypes.object
-        })
-      )
-    })
-  })
+  images: allFile(filter: {absolutePath: {glob: $imagesPath}, extension: {regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/"}}) {
+    nodes {
+      ...Image
+    }
+  }
 }
+`
 
 export default DocumentationPage

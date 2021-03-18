@@ -7,19 +7,21 @@ meta:
   description:
 ---
 
-A **callback** is a convenient way for an application to be notified of a change on a particular set or resources. It can be used to monitor orders, customers, locations or catalogs.
+A **callback** notifies a client of changes that occurred on a set of resources. It can be used to monitor orders, customers, locations or catalogs.
 
 There are 2 types of callbacks:
 
-- An **active callback** is a URL which is called by HubRise when the underlying event occurs. If the URL is not immediately available, a couple more attempts are made a few minutes later.
+- An **active callback** is a URL set up on your server which HubRise calls every time an event occurs. If the URL is not immediately available, HubRise makes a couple more attempts a few minutes later.
 
-- A **passive callback** records the events associated with it. The application needs to poll HubRise regularly (every minute or so) to check if an event has occurred.
+- A **passive callback** records events but does not send them. The client needs to poll HubRise regularly (every minute or so) to retrieve new events.
 
-Active callbacks receive a POST HTTP request when an event occurs. The request body mostly contains the JSON representation of the previous and new states of the affected resource.
+---
 
-From the target server point of view, this call looks like this:
+**IMPORTANT NOTE**: A client does not receive notifications for the events it generated. If you are testing callbacks, you need to use a separate client to trigger events.
 
-`POST [callback_url]`
+---
+
+Active callbacks receive a `POST` HTTP request each time an event occurs. The request body includes the JSON representation of the previous and new states of the affected resource:
 
 ```json
 {
@@ -41,13 +43,25 @@ From the target server point of view, this call looks like this:
 }
 ```
 
-The callback must return a `200` HTTP code to acknowledge the reception of the event(s). This makes HubRise delete the event.
+The callback must return a `200` HTTP code to acknowledge the reception of the event. This return code makes HubRise delete the event. If the callback fails to acknowledge the event, HubRise attempts to resend it later. In the meantime, unacknowledged events remain accessible through `GET /callback/events`.
 
-If the callback fails to acknowledge, HubRise attempts to resend the events later. In the meantime, unacknowledged events are accessible through `GET /callback/events`.
+If you use an active callback, we recommend that you check the authenticity of each event. The verification relies on computing the hexadecimal HMAC digest of the event request body. Here is a sample script in Ruby that you can use as a reference: 
+
+```ruby
+require "openssl"
+
+client_secret = "your_client_secret"
+payload = request.raw_body
+
+digest = OpenSSL::Digest.new('sha256')
+calculated_hmac = OpenSSL::HMAC.hexdigest(digest, client_secret, payload)
+```
+
+Compare the calculated HMAC to the value in the `X-HubRise-Hmac-SHA256` header of the event notification. If they match, then you can be sure that the event was sent from HubRise. Otherwise, simply return an error and ignore the event.
 
 ## 1. Callbacks
 
-A callback is specific to a connection. A connection can have no more than one callback.
+A callback is specific to a connection. A connection can only have one callback.
 
 ### 1.1. Retrieve Callback
 
@@ -97,7 +111,7 @@ Creates a callback for the connection.
 
 | Name     | Type   | Description                                                                                  |
 | -------- | ------ | -------------------------------------------------------------------------------------------- |
-| `url`    | string | The URL called when an event occurs.                                                         |
+| `url`    | string | The URL called when an event occurs. Leave it null for a passive callback.                   |
 | `events` | map    | A map with the keys being _resource type_ and the values being the *event type*s to monitor. |
 
 - _resource type_ is one of: `order`, `customer`, `location`, `catalog` and `inventory`.

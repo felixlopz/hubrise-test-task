@@ -1,3 +1,7 @@
+apps:
+  view_documentation: Consulter la documentation
+  visit_website: Accéder au site de l'éditeur
+
 layout:
   header:
     buttons:
@@ -8,23 +12,11 @@ layout:
       title: Contact
       email: contact@hubrise.com
     copyright: Copyright © {{ year }} HubRise
-  menu:
-    title: Menu
-    links:
-      - title: Home
-        to: /
-      - title: Apps
-        to: /apps
-      - title: Tarifs
-        to: /tarifs
-      - title: Développeurs
-        to: /developers
-      - title: Aide (anglais)
-        to: /docs
-#      - title: Blog
-#        to: /blog
-      - title: F.A.Q.
-        to: /faq
+  404:
+    meta:
+      title: 404 - Page non trouvée
+    title: Page non trouvée
+    text_link: Retour à la page d'accueil
 
 misc:
   feedback:
@@ -47,7 +39,7 @@ misc:
     - Mai
     - Juin
     - Juillet
-    - Aout
+    - Août
     - Septembre
     - Octobre
     - Novembre
@@ -98,11 +90,3 @@ forms:
   contact:
     button: Envoyer
     modal_title: Contactez-nous
-  suggest_app:
-    modal:
-      title: Proposer une application
-      description: Dnteger viverra non lorem vitae efficitur. Nam quis nunc erat. Mauris aliquet ullamcorper maximus. Quisque faucibus felis metus, eget iaculis lectus aliquet non.
-    subtitles:
-      contact: 'A propos de vous : '
-      app: "A propos de l'application : "
-    button: Envoyer

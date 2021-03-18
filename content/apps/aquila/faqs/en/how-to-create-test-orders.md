@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Verify Connection Between Aquila to HubRise
-  description: Create Test Orders to Verify Connection between Aquila and Hubrise.
+  description: Create Test Orders to Verify Connection between Aquila and HubRise.
 ---
 
 The first step in verifying the connection between Aquila and HubRise is by creating test orders.
@@ -13,7 +13,7 @@ These steps require that you have already connected Aquila to HubRise. For more 
 
 Once the connection is complete, test orders generated from Aquila will be transmitted to HubRise. Follow this process to create a test order and verify it has been transmitted to HubRise.
 
-1. Login to your Aquila back office.
+1. Log in to your Aquila back office.
 2. Open the corresponding ecommerce website.
 3. Generate an order.
 4. Return to Aquila, and from the left navigation panel click **Transactions** > **Orders**. The new order will be present.

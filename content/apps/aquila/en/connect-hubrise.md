@@ -14,7 +14,7 @@ Connecting Aquila to HubRise requires the HubRise plugin to be installed and ena
 To install the HubRise plugin in Aquila, follow these steps:
 
 1. Locate the zip file containing the plugin on your computer.
-1. Login to your Aquila back office.
+1. Log in to your Aquila back office.
 1. Select **Plugins** from the left navigation panel.
 1. Click on the **+ Drop files here or click to upload** button.
 1. In the new dialog window, navigate to the plugin's folder.
@@ -24,7 +24,7 @@ To install the HubRise plugin in Aquila, follow these steps:
 
 To enable the HubRise plugin in Aquila, follow these steps:
 
-1. Login to your Aquila back office.
+1. Log in to your Aquila back office.
 1. Select **Plugins** from the left navigation panel.
 1. Verify the **Module HubRise** is set to **Activé**.
 
@@ -40,8 +40,8 @@ The process below details how to create a new HubRise account when connecting yo
 
 Once the HubRise plugin has been activated, the connection to a HubRise Account can be set through the following process:
 
-1. Login to your Aquila back office.
-1. Select **Hubrise** from the left navigation panel.
+1. Log in to your Aquila back office.
+1. Select **HubRise** from the left navigation panel.
 1. To allow HubRise to create new products on Aquila, set **Only create new product** to **YES**. To allow the HubRise connection to update existing products in Aquila, set **Only create new product** to **NO**.
 1. Click **Login to HubRise**.
 1. Select the HubRise Account and Catalog you wish to use, and press **Allow**.
@@ -52,9 +52,9 @@ At this point the connection between Aquila and HubRise is done at Account level
 
 ## Connect to Locations
 
-To distinguish between each Point of Sake, a unique identifier for the location needs to be added. It can be done in the following way:
+To distinguish between each Point of Sale, a unique identifier for the location needs to be added. It can be done in the following way:
 
-1. Login to your Aquila back office.
+1. Log in to your Aquila back office.
 1. Select **Point de vente** from the left navigation panel.
 1. Click on the point of sale you want to connect?
 1. Fill in the HubRise unique identifier for the Location the **ID HubRise** input field. For example **wg8tl-1** indicates the HubRise Account **wg8tl**, and **-1** the Location on the account. For more information, see HubRise [Locations](/docs/locations/).
