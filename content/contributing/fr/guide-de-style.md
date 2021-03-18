@@ -29,7 +29,7 @@ Ne pas mettre de majuscule aux titres. Accentuer les majuscules.
 
 > Incorrect : Eléments à fournir pour Lightspeed K Series.
 
-> Correct: Eléments à fournir pour Lightspeed K Series.
+> Correct: Éléments à fournir pour Lightspeed K Series.
 
 ## Ponctuation
 
