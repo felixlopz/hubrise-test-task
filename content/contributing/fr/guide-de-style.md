@@ -194,7 +194,7 @@ Le contenu doit être pertinent et unique par rapport aux autres pages. Il doit 
 
 > Correct: structure de méta-description à utiliser pour chaque page de la documentation
 >
-> - **Présentation générale** : Présentation générale de Lightspeed K Series. Voir pourquoi connecter votre caisse à HubRise et la liste des fonctionnalités de l'intégration avec HubRise.
+> - **Présentation générale** : Présentation générale de Lightspeed K Series, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 > - **Connexion à HubRise** : Étapes pour établir une connexion entre Lightspeed K Series et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 > - **Associer les codes ref** : Instructions pour associer les codes ref des produits LightSpeed K Series avec d'autres applications connectées à HubRise pour la synchronisation des données.
 > - **Dépannage** : Dépannage de la connexion entre LightSpeed K Series et HubRise. Connectez votre caisse et synchronisez les données avec d'autres applications avec facilité.
