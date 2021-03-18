@@ -198,7 +198,7 @@ Le contenu doit être pertinent et unique par rapport aux autres pages. Il doit 
 > - **Connexion à HubRise** : Étapes pour établir une connexion entre Lightspeed K Series et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 > - **Associer les codes ref** : Instructions pour associer les codes ref des produits LightSpeed K Series avec d'autres applications connectées à HubRise pour la synchronisation des données.
 > - **Dépannage** : Dépannage de la connexion entre LightSpeed K Series et HubRise. Connectez votre caisse et synchronisez les données avec d'autres applications avec facilité.
-> - **Terminologie** : Table de correspondance montrant les termes utilisés par Lightspeed K Series et HubRise pour le même concept. Connectez vos apps et synchronisez vos données.
+> - **Terminologie** : Table de correspondance entre les termes utilisés par Lightspeed K Series et HubRise pour le même concept. Connectez vos apps et synchronisez vos données.
 > - **F.A.Q.** : Questions fréquentes posées sur la connexion de Lightspeed K Series à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 
 Pour compléter une méta-description en maximisant le nombre de caractères, vous pouvez ajouter une courte phrase à la fin :
