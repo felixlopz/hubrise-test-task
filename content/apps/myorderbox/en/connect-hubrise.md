@@ -9,8 +9,6 @@ meta:
 
 The connection between MyOrderBox and HubRise can be done autonomously by the user.
 
-## Connect to Locations
-
 In order to activate the connection between MyOrderBox and HubRise:
 
 1. Open your MyOrderBox back office on https://go.myorderboxhq.com/

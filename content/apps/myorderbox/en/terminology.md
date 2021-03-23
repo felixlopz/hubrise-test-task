@@ -7,10 +7,10 @@ meta:
   description: Correspondence table between the terms used by MyOrderBox and those used by HubRise.
 ---
 
-HubRise and Zelty each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
+HubRise and MyOrderBox each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
 
-| Zelty (fr)      | HubRise       | Description                           |
+| MyOrderBox      | HubRise       | Description                           |
 | --------------- | -----------   | ------------------------------------- |
-| Options         | option_lists  |                                       |
+| Options         | Option lists  |                                       |
 | Option values   | options       |                                       |
 

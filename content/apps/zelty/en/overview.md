@@ -48,4 +48,3 @@ Connecting Zelty to HubRise makes your EPOS and your other apps work as a cohesi
 ## Prerequisites
 
 To establish a connection between Zelty and HubRise, you must have an existing Zelty account.
-Zelty can connect to an existing or a new HubRise Account.

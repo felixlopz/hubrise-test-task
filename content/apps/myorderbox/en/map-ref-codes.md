@@ -7,6 +7,12 @@ meta:
   description: The mapping ref codes page informs users on how to find ref codes on MyOrderBox EPOS to map them on other apps in the context of an integration via HubRise.
 ---
 
+---
+
+**IMPORTANT NOTE:** Documentation in progress.
+
+---
+
 ## Options
 
 Options in MyOrderBox are of two types: `Add-on` or `Reference`
