@@ -3,8 +3,8 @@ title: FAQs
 position: 7
 layout: documentation
 meta:
-  title: Deliveroo Connection to HubRise - FAQs
-  description: Frequently asked questions and answers about the Deliveroo integration with HubRise.
+  title: Connect Deliveroo to HubRise - FAQ
+  description: FAQs on connecting Deliveroo with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 - <Link to="/apps/deliveroo/faqs/find-deliveroo-restaurant-id/">How Do I Find My Deliveroo Restaurant ID?</Link>

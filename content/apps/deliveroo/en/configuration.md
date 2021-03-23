@@ -3,7 +3,7 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: Deliveroo Connection to HubRise - Configuration
+  title: Connect Deliveroo to HubRise - Configuration Guide
   description: See instructions to configure Deliveroo Bridge to work seamlessly with Deliveroo and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
