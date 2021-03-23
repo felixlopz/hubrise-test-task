@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: dotdigital Connection to HubRise Overview
-  description: Overview of dotdigital and how to connect it to HubRise.
+  title: Connect dotdigital to HubRise - Overview
+  description: dotdigital overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 app_info:
   category: Customers management

@@ -1,6 +1,6 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
   title: Connect Deliveroo to HubRise - Overview
