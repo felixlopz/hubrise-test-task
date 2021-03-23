@@ -1,10 +1,10 @@
 ---
+title: Présentation générale
 position: 1
-title: Aperçu
 layout: documentation
 meta:
-  title: Aperçu - Koust
-  description: "L'outil de gestion Koust : aperçu général et fonctionnalités de l'intégration avec HubRise."
+  title: Présentation générale de Koust
+  description: "L'outil de gestion Koust : présentation générale et fonctionnalités de l'intégration avec HubRise."
 gallery:
 path_override: /
 app_info:

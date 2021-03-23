@@ -13,7 +13,7 @@ Si votre entreprise n'utilise pas de logiciel de caisse, vous pouvez importer vo
 
 ---
 
-**NOTE IMPORTANTE :** Pour éviter tout problème d'encodage ou d'accent, assurez-vous d'enregistrer votre fichier CSV en encodage UTF-8.
+**REMARQUE IMPORTANTE :** Pour éviter tout problème d'encodage ou d'accent, assurez-vous d'enregistrer votre fichier CSV en encodage UTF-8.
 
 ---
 
