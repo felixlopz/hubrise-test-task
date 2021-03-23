@@ -4,7 +4,7 @@ position: 5
 layout: documentation
 meta:
   title: Connect App4 to HubRise - Terminology Guide
-  description: Correspondence table showing terms used by App4 EPOS and those used on HubRise for the same concept. Connect apps and synchronise your data.
+  description: Correspondence table showing terms used by App4 and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
 HubRise and App4 each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.

@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: Aquila CMS Connection to HubRise Overview
-  description: Overview of Aquila CMS and how to connect it to HubRise.
+  title: Connect Aquila CMS to HubRise - Overview
+  description: Aquila CMS overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 001-en-2x-cosmo-sushi.png
   - 002-en-2x-aquila-back-office.png

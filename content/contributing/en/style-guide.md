@@ -339,11 +339,11 @@ Most important or unique aspect of the page keywords should be in first position
 > - **Overview**: Connect Lightspeed K Series to HubRise - Overview
 > - **Connection to HubRise**: Connect Lightspeed K Series to HubRise - Connection Guide
 > - **Map Ref Codes**: Connect Lightspeed K Series to HubRise - Map Ref Codes Guide
-> - **Troubleshooting**: Connect Lightspeed K Series to HubRise - Troubleshooting
-> - **Terminology**: Connect Lightspeed K Series to HubRise - Terminology
+> - **Troubleshooting**: Connect Lightspeed K Series to HubRise - Troubleshooting Guide
+> - **Terminology**: Connect Lightspeed K Series to HubRise - Terminology Guide
 > - **FAQ**: Connect Lightspeed K Series to HubRise - FAQ
 
-For more clarity, when possible, add **Guide** at the end of the title. It makes send to include it on all pages, except for the overview and FAQ pages.
+For more clarity, when possible, add **Guide** at the end of the title. It makes sense to include it on all pages, except for the overview and FAQ pages.
 
 ### Meta Description
 
@@ -359,7 +359,7 @@ The content should be relevant and unique from other pages. It should be easy to
 > - **Map Ref Codes**: Instructions on mapping Lightspeed K Series product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 > - **Troubleshooting**: Troubleshooting Lightspeed K Series connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 > - **Terminology**: Correspondence table showing terms used by Lightspeed K Series EPOS and those used on HubRise for the same concept. Connect apps and synchronise your data.
-> - **FAQ**: FAQs on connecting Lightspeed K Series with HubRise for your EPOS to work with other apps work as a cohesive whole. Connect apps and synchronise your data.
+> - **FAQ**: FAQs on connecting Lightspeed K Series with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 
 To complete a meta description and maximise the number of characters, it is possible to add a small sentence at the end:
 
