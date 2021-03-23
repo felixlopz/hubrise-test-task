@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: App4 Connection to HubRise Overview
-  description: Overview of App4 and how to connect it to HubRise.
+  title: Connect App4 to HubRise - Overview
+  description: App4 overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 005-en-fireaway-pizza-app.png
   - 002-en-atpizza-app.png
