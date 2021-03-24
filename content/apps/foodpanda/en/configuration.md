@@ -1,9 +1,9 @@
 ---
-title: Configuration Page
+title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: foodpanda Connection to HubRise - Configuration
+  title: Connect foodpanda to HubRise - Configuration Guide
   description: See instructions to configure foodpanda Bridge to work seamlessly with foodpanda and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
