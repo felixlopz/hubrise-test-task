@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 4
 layout: documentation
 meta:
-  title: Mapping the PAR PixelPoint EPOS Ref Codes on HubRise
-  description: Informs users on how to find EPOS ref codes on the PAR PixelPoint EPOS to map them on other apps, in the context of an integration with HubRise via the PAR PixelPoint Bridge.
+  title: Connect the PixelPoint Brigde to HubRise - Map Ref Codes Guide
+  description: Instructions on mapping the PAR PixelPoint EPOS product ref codes with other apps after connecting your EPOS with HubRise. Synchronise your data.
 ---
 
 PixelPoint Bridge pushes but is not able to pull information stored in the PAR PixelPoint EPOS. For this reason, all menu items and prices must be manually set in the system to connect with their corresponding product code and ensure a smooth communication between HubRise and PixelPoint.

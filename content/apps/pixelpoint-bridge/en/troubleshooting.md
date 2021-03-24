@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 6
 layout: documentation
 meta:
-  title: HubRise PixelPoint Bridge Troubleshooting Guide
-  description: Informs users on how to troubleshoot errors.
+  title: Connect the PixelPoint Brigde to HubRise - Troubleshooting Guide
+  description: Troubleshooting the PixelPoint Brigde connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 Analysing the logs associated with an order is the first action to perform when troubleshooting. The following sections describe a few typical sources of errors.
