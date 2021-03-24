@@ -59,16 +59,67 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 
 ## Just Eat
 
-To receive Just Eat orders in iKentoo, you first need to connect Just Eat Bridge, an app included in your HubRise subscription.
+To receive Just Eat orders in iKentoo, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription.
 
-To correctly receive your orders, specify the following values in the Just Eat Bridge configuration page.
+To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page.
 
 | Section       | Name                         | Ref code      |
 | ------------- | ---------------------------- | ------------- |
 | Service types | Just Eat delivery ref code   | `JEAP`        |
-| Service types | Restaurant delivery ref code | **TODO**      |
-| Service types | Takeaway ref code            | **TODO**      |
+| Service types | Restaurant delivery ref code | `JEDRAP`      |
+| Service types | Takeaway ref code            | `JETAAP`      |
 | Charges       | Delivery charge ref code     | `JE77`        |
 | Charges       | Service charge ref code      | `JE66`        |
 | Payments      | Just Eat payment ref code    | `JEPM`        |
+| Payments      | Cash payment ref code        | (leave empty) |
+
+## Takeaway.com 
+
+To receive Takeaway.com orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
+
+| Section       | Name                           | Ref code      |
+|---------------|--------------------------------|---------------|
+| Service types | Takeaway.com delivery ref code | `TAAP`        |
+| Service types | Restaurant delivery ref code   | `TADRAP`      |
+| Service types | Takeaway ref code              | `TATAAP`      |
+| Charges       | Delivery charge ref code       | `TA77`        |
+| Charges       | Service charge ref code        | `TA66`        |
+| Discounts     | Discount ref code              | `TA99`        |
+| Payments      | Takeaway.com payment ref code  | `TAPM`        |
+| Payments      | Cash payment ref code          | (leave empty) |
+
+## Thuisbezorgd.nl
+
+To receive Thuisbezorgd.nl orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
+
+| Section       | Name                              | Ref code      |
+|---------------|-----------------------------------|---------------|
+| Service types | Thuisbezorgd.nl delivery ref code | `THAP`        |
+| Service types | Restaurant delivery ref code      | `THDRAP`      |
+| Service types | Takeaway ref code                 | `THTHAP`      |
+| Charges       | Delivery charge ref code          | `TH77`        |
+| Charges       | Service charge ref code           | `TH66`        |
+| Discounts     | Discount ref code                 | `TH99`        |
+| Payments      | Thuisbezorgd.nl payment ref code  | `THPM`        |
+| Payments      | Cash payment ref code             | (leave empty) |
+
+## Eat.ch 
+
+To receive Eat.ch orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
+
+| Section       | Name                         | Ref code      |
+|---------------|------------------------------|---------------|
+| Service types | Eat.ch delivery ref code     | `EATAP`       |
+| Service types | Restaurant delivery ref code | `EATDRAP`     |
+| Service types | Takeaway ref code            | `EATEATAP`    |
+| Charges       | Delivery charge ref code     | `EAT77`       |
+| Charges       | Service charge ref code      | `EAT66`       |
+| Discounts     | Discount ref code            | `EAT99`       |
+| Payments      | Eat.ch payment ref code      | `EATPM`       |
 | Payments      | Cash payment ref code        | (leave empty) |
