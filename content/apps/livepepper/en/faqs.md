@@ -1,10 +1,10 @@
 ---
-title: FAQs
+title: FAQ
 position: 6
 layout: documentation
 meta:
-  title: LivePepper Connection to HubRise FAQs
-  description: Frequently asked questions and their answers.
+  title: Connect LivePepper to HubRise - FAQ
+  description: FAQs on connecting LivePepper with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 - <Link to="/apps/livepepper/faqs/connect-site-to-existing-hubrise-account/">Connect LivePepper to HubRise: One Branch, Existing HubRise Account</Link>
