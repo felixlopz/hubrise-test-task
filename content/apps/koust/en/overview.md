@@ -1,20 +1,11 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title:
-  description:
-gallery:
+  title: Connect Koust to HubRise - Overview
+  description: Koust overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
-app_info:
-  category:
-  availability:
-  price_range:
-  website:
-  contact:
 ---
 
-## Page in construction
-
-[comment]: # 'Page kept for the site to build'
+This documentation is [available in French only](/fr/apps/koust).
