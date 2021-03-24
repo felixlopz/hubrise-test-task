@@ -4,7 +4,7 @@ position: 5
 layout: documentation
 meta:
   title: Connect the PixelPoint Brigde to HubRise - Understanding Logs
-  description: Instructions on how to read the output in the Logs. Synchronise data between your EPOS and your apps.
+  description: Instructions on how to read the output in the logs coming from the PixelPoint Brigde. Synchronise data between your EPOS and your apps.
 ---
 
 The logs page on PixelPoint Bridge is divided into two parts: Request and Response. The former displays the information sent from HubRise to PixelPoint, the latter the response sent from the PAR PixelPoint EPOS back to PixelPoint Bridge.
