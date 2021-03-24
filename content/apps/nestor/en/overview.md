@@ -1,11 +1,11 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title:
-  description:
+  title: Connect Nestor to HubRise - Overview
+  description: Nestor overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 ---
 
-This documentation is only [available in French](/fr/apps/nestor).
+This documentation is [available in French only](/fr/apps/nestor).
