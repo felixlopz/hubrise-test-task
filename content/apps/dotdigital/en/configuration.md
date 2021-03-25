@@ -4,7 +4,7 @@ position: 3
 layout: documentation
 meta:
   title: Connect dotdigital to HubRise - Configuration Guide
-  description: Instructions on how to configure dotdigital Bridge. Synchronise data between your EPOS and your apps.
+  description: Instructions on configuring dotdigital Bridge to work seamlessly with dotdigital and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
 After you connect the dotdigital Bridge to HubRise, you will be asked to configure the app.

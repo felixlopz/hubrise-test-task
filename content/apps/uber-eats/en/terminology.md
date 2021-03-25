@@ -3,8 +3,8 @@ title: Terminology
 position: 6
 layout: documentation
 meta:
-  title: Terminology - Uber Eats
-  description: Correspondence table between the terms used by Uber Eats and those used by HubRise.
+  title: Connect Uber Eats to HubRise - Terminology Guide
+  description: Correspondence table showing terms used by Uber Eats and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
 HubRise and Uber Eats each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
