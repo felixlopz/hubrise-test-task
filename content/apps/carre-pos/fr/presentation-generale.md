@@ -10,14 +10,20 @@ path_override: /
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range:
+  price_range: À partir de 59€ / mois
   website: http://www.carrepos-online.fr
   contact: contact@carrepos.fr / +33 5 35 54 64 51
 ---
 
 ## Description
 
+Carré POS est un logiciel spécialisé dans la gestion de l'encaissement.
 
+Carré POS enregistre les informations client et l'historique de commandes. Il s'agit d'un logiciel de caisse connectable à de nombreux périphériques métiers tels que les imprimantes de préparation, les monnayeurs automatiques, et les terminaux bancaires.
+
+De nombreuses informations sont accessibles dans votre back-office Carré POS Cloud, directement depuis un navigateur web. Il est ainsi possible de visualiser et d'éditer votre menu, de consulter votre chiffre d'affaire et vos rapports de vente, ou encore de visualiser l'historique de vos commandes.
+
+Carré POS fonctionne sous Windows. Il a été conçu pour le marché français et répond donc aux exigences fiscales du pays. Il a aussi obtenu la certification NF525.
 
 ## Fonctionnalités de l'intégration
 
@@ -32,4 +38,4 @@ En connectant Carré POS à HubRise, vous recevrez les commandes de votre site I
 
 ## Prérequis
 
-Pour établir la connexion entre Carré POS et HubRise, vous devez disposer d'une licence Carré POS et d'un compte HubRise.
+Pour établir la connexion entre Carré POS et HubRise, vous devez disposer d'un abonnement à Carré POS Connect et d'un compte HubRise.
