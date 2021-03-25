@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion à HubRise - Restaurant-internet
-  description: Etablir la connexion entre Restaurant-internet et HubRise.
+  title: Connecter Restaurant-internet à HubRise - Connexion
+  description: Étapes pour établir une connexion entre Restaurant-internet et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
 Pour connecter Restaurant-internet à HubRise, il suffit de suivre quelques étapes.

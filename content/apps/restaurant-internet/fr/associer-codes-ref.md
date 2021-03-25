@@ -3,8 +3,8 @@ title: Associer les codes ref
 position: 3
 layout: documentation
 meta:
-  title: Associer les codes ref - Restaurant-internet
-  description: Synchroniser votre catalogue entre Restaurant-internet et HubRise, et retrouver les codes ref des articles.
+  title: Connecter Restaurant-internet à HubRise - Associer les codes ref
+  description: Instructions pour associer les codes ref des produits Restaurant-internet avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
 ## Importer le catalogue

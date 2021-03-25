@@ -1,10 +1,10 @@
 ---
+title: Présentation générale
 position: 1
-title: Aperçu
 layout: documentation
 meta:
-  title: Aperçu - Restaurant-internet
-  description: "La solution de commande en ligne Restaurant-internet : aperçu général et fonctionnalités de l'intégration avec HubRise."
+  title: Connecter Restaurant-internet à HubRise - Présentation générale
+  description: Présentation générale de Restaurant-internet, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
   - 001-fr-restaurant-internet-apercu-prix.png
   - 002-fr-restaurant-internet-apercu-paiement.png
