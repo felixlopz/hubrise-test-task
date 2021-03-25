@@ -12,4 +12,5 @@ HubRise and MyOrderBox each use their own terminology. The same concept can ther
 | MyOrderBox      | HubRise       | Description                           |
 | --------------- | -----------   | ------------------------------------- |
 | Options         | Option lists  |                                       |
-| Option values   | options       |                                       |
+| Option values   | Options       |                                       |
+

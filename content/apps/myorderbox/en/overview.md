@@ -1,17 +1,17 @@
 ---
-title: Overview
 position: 1
+title: Overview
 layout: documentation
 meta:
   title: Connect MyOrderBox to HubRise - Overview
   description: MyOrderBox overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 app_info:
-  category: EPOS
-  availability: UK
-  price_range:
-  website: https://www.myorderboxhq.com
-  contact: info@myorderboxhq.com
+category: EPOS
+availability: UK
+price_range:
+website: https://www.myorderboxhq.com
+contact: info@myorderboxhq.com
 ---
 
 ## Description
