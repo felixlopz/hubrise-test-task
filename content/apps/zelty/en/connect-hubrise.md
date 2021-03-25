@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Zelty - Connect to HubRise
-  description: "Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more."
+  description: Instructions on connecting Zelty with HubRise for your EPOS to work with other apps work as a cohesive whole. Synchronise your data with HubRise.
 ---
 
 The connection between Zelty and HubRise can be done autonomously by the user.
