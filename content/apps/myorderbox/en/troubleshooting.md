@@ -11,11 +11,11 @@ meta:
 
 If a product ref code is missing or not recognised on an order MyOrderBox pulled from HubRise, the full order will be rejected. HubRise related order logs will show an error 422.
 
-------
+---
 
 **IMPORTANT NOTE:** MyOrderBox is considering changing their policy to accept such orders.
 
-------
+---
 
 ## MyOrderBox Support
 
