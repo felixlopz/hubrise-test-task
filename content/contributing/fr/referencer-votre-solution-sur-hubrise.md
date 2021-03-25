@@ -3,8 +3,8 @@ title: Référencer votre solution sur HubRise
 position: 2
 layout: documentation
 meta:
-  title: HubRise - Éléments à fournir
-  description: Liste des éléments que les partenaires peuvent fournir.
+  title: Référencer votre solution sur HubRise - Éléments à fournir
+  description: Une fois votre intégration validée, HubRise référencera votre solution sur le site web de HubRise. Les éléments à fournir dépendent du type d'inclusion.
 ---
 
 Une fois votre solution validée sur le plan technique par HubRise, vous pouvez demander son inclusion sur notre site en nous contactant sur [contact@hubrise.com](mailto:contact@hubrise.com).
@@ -33,11 +33,11 @@ L'illustration ci-dessous montre pourquoi les captures d'écran doivent avoir le
 
 > Incorrect : Une image en portrait alors que les autres sont en paysage.
 
-![Incorrecte présentation des images](../images/009-fr-apercu-images-incorrect.png)
+![Incorrecte présentation des images](../images/009-incorrect-images.png)
 
 > Correct : Toutes les images ont le même ratio largeur/hauteur.
 
-![Correcte présentation des images](../images/010-fr-apercu-images-correct.png)
+![Correcte présentation des images](../images/010-correct-images.png)
 
 ## Page Partenaires
 
