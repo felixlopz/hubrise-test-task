@@ -3,8 +3,8 @@ title: Associer les codes ref
 position: 3
 layout: documentation
 meta:
-  title: Associer les codes ref - Carré POS
-  description: Exporter un catalogue Carré POS vers HubRise, et retrouver les codes ref des articles.
+  title: Connecter Carré POS à HubRise - Associer les codes ref
+  description: Instructions pour associer les codes ref des produits Carré POS avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
 Une fois votre logiciel de caisse Carré POS connecté à HubRise, une dernière étape de configuration est nécessaire. Les différents éléments présents dans Carré POS sont identifiés par des codes ref. Vous devez indiquer ces codes ref dans les applications connectées à HubRise, afin que les commandes puissent être réceptionnées dans Carré POS.

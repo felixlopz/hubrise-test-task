@@ -3,8 +3,8 @@ title: Commandes
 position: 4
 layout: documentation
 meta:
-  title: Recevoir les commandes HubRise - Carré POS
-  description: Réceptionner et modifier le statut des commandes HubRise reçues dans Carré POS.
+  title: Connecter Carré POS à HubRise - Commandes
+  description: Réceptionner et modifier le statut des commandes HubRise reçues dans Carré POS. Connectez vos apps et synchronisez vos données.
 ---
 
 Lorsque Carré POS est connecté à HubRise, les commandes envoyées à HubRise arrivent automatiquement dans votre logiciel de caisse.

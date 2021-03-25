@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Présentation générale de Carré POS
-  description: "Le logiciel de caisse Carré POS : présentation générale et fonctionnalités de l'intégration avec HubRise."
+  title: Connecter Carré POS à HubRise - Présentation générale
+  description: Présentation générale de Carré POS, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:

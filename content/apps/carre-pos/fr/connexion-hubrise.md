@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion à HubRise - Carré POS
-  description: Etablir la connexion entre Carré POS et HubRise.
+  title: Connecter Carré POS à HubRise - Connexion
+  description: Étapes pour établir une connexion entre Carré POS et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
 L'équipe de support de Carré POS se charge de la connexion et la déconnexion entre Carré POS et HubRise. Contactez le support avec les informations du compte HubRise et du point de vente à (dé)connecter.
