@@ -3,8 +3,8 @@ title: Commandes
 position: 4
 layout: documentation
 meta:
-  title: Recevoir les commandes HubRise - Kezia II
-  description: Réceptionner et modifier le statut des commandes HubRise reçues dans Kezia II.
+  title: Connecter Kezia II à HubRise - Commandes
+  description: Réceptionner et modifier le statut des commandes HubRise reçues dans Kezia II. Connectez vos apps et synchronisez vos données.
 ---
 
 Lorsque Kezia II est connecté à HubRise, les commandes envoyées à HubRise arrivent automatiquement dans votre logiciel de caisse.

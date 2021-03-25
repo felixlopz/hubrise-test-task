@@ -3,8 +3,8 @@ title: Terminologie
 position: 5
 layout: documentation
 meta:
-  title: Terminologie - Kezia II
-  description: Table de correspondance entre les termes utilisés par Kezia II et ceux utilisés par HubRise.
+  title: Connecter Kezia II à HubRise - Terminologie
+  description: Table de correspondance entre les termes utilisés par Kezia II et HubRise pour le même concept. Connectez vos apps et synchronisez vos données.
 ---
 
 HubRise et Kezia II utilisent chacun leur propre terminologie. Un même concept peut donc avoir une désignation différente dans chaque solution. La table de correspondance ci-dessous indique ces différences.

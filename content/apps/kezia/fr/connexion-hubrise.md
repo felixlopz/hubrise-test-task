@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion à HubRise - Kezia II
-  description: Établir la connexion entre Kezia II et HubRise.
+  title: Connecter Kezia II à HubRise - Connexion
+  description: Étapes pour établir une connexion entre Kezia II et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
 Pour connecter Kezia II à HubRise, il suffit de suivre quelques étapes.
