@@ -9,12 +9,12 @@ meta:
 
 To connect your LivePepper site multiple branches to the corresponding HubRise account and locations:
 
-1. Login to your LivePepper back office.
+1. Log in to your LivePepper back office.
 1. Select the branch to connect.
 1. Select **Settings** > **Add-ons**.
 1. Under HubRise, click the checkbox **Share data with other applications**.
 1. Click **Connect to HubRise**.
-1. For existing HubRise user profiles with established Accounts and Locations, if prompted login to HubRise, then:
+1. For existing HubRise user profiles with established Accounts and Locations, if prompted log in to HubRise, then:
 
 - Select the HubRise **Account** and **Location** to connect your LivePepper Branch to, then click **Allow**. If you have created multiple customer lists or catalogs on HubRise, you will be promoted to click **Next** then select from the **Customer List** or the **Catalog** to connect your Branch to.
 

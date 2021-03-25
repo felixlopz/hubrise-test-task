@@ -16,7 +16,7 @@ const Footer = ({ pageContext }) => {
       <div className="footer__nav-wrapper">
         <div className="footer__nav footer-nav">
           {menuSections.map((section, idx) => (
-            <FooterSection {...section} />
+            <FooterSection key={idx} {...section} />
           ))}
         </div>
         <ScrollUpButton />

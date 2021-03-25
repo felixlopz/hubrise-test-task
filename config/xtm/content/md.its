@@ -29,6 +29,9 @@
     <its:translateRule selector="//text()[normalize-space(.)='availability:']" translate="no"/>
     <its:translateRule selector="//text()[normalize-space(.)='website:']" translate="no"/>
     <its:translateRule selector="//text()[normalize-space(.)='contact:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='price_range:']" translate="no"/>
+
+    <its:translateRule selector="//text()[starts-with(normalize-space(.),'[comment]:')]" translate="no"/>
 
     <!-- HTML tags -->
     <its:translateRule selector="//text()[contains(.,'InlineImage')]" translate="no"/>

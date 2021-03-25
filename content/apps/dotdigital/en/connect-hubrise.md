@@ -14,7 +14,7 @@ These can be obtained from the dotdigital back office, by creating an API manage
 
 To create an API managed user on dotdigital, follow these steps.
 
-1. Login to your dotdigital back office.
+1. Log in to your dotdigital back office.
 1. Click on the gear icon <InlineImage width="20" height="20">![Gear icon](../images/gear-icon.png)</InlineImage> on the bottom left corner of the page.
 1. Select the **API users** tab, then click on the **New user** button.
 1. Fill in the fields in the **Manage users** page:

@@ -610,6 +610,10 @@
                     <beforebreak>^contact:</beforebreak>
                     <afterbreak></afterbreak>
                 </rule>
+                <rule break="yes">
+                    <beforebreak>^price_range:</beforebreak>
+                    <afterbreak></afterbreak>
+                </rule>
 
             </languagerule>
         </languagerules>

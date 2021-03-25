@@ -449,6 +449,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | `name` <Label type="optional" />             | string                                                     | The name of the sku. Skus belonging to a same product must have unique names. One sku per product can have a null name. |
 | `restrictions` <Label type="optional" />     | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the sku to be available.                                         |
 | `price`                                      | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                                                                                   |
+| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Overrides for the price in different contexts, such as a specific service type.                                         |
 | `option_list_refs` <Label type="optional" /> | string[]                                                   | The refs of the option lists this sku is attached to.                                                                   |
 | `tags` <Label type="optional" />             | string[]                                                   | List of tags.                                                                                                           |
 
@@ -462,6 +463,12 @@ A product contains one or several skus. A sku is always attached to a product.
     "end_time": "13:30"
   },
   "price": "9.80 EUR",
+  "price_overrides": [
+    {
+      "service_types": ["delivery"],
+      "price": "12.30 EUR"
+    }
+  ],
   "option_list_refs": ["SAUCE", "PIZZA_TOPPINGS"],
   "tags": ["hidden"]
 }
@@ -474,16 +481,17 @@ A product contains one or several skus. A sku is always attached to a product.
   accessLevel="location, account"
 />
 
-| Name                                        | Type                                                       | Description                                                         |
-| ------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
-| `id`                                        | string                                                     | The id of the sku.                                                  |
-| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                                 |
-| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                                |
+| Name                                        | Type                                                       | Description                                          |
+| ------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
+| `id`                                        | string                                                     | The id of the sku.                                   |
+| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                  |
+| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                 |
+| `product_id`                                | string                                                     | The id of the sku's parent product.                  |
 | `restrictions` <Label type="optional" />    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
-| `product_id`                                | string                                                     | The id of the sku's parent product.                                 |
-| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                               |
-| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to.                |
-| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                                       |
+| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                |
+| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Overrides for the price in different contexts.      |
+| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to. |
+| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                        |
 
 #### Example request:
 
@@ -494,11 +502,12 @@ A product contains one or several skus. A sku is always attached to a product.
   "id": "sb65k",
   "ref": "MAR-SM",
   "name": "Small",
+  "product_id": "abg5a",
   "restrictions": {
     "end_time": "13:30"
   },
-  "product_id": "abg5a",
   "price": "9.80 EUR",
+  "price_overrides": [],
   "option_list_ids": ["e2sfj"],
   "tags": ["hidden"]
 }
@@ -725,8 +734,8 @@ Retrieve an option list and the possible choices (options).
 | `category_ref` <Label type="optional" />            | string                                                     | The [category](#categories) this deal will appear in.                                                                                                                                                                                                                                                         |
 | `name`                                              | string                                                     | The deal name.                                                                                                                                                                                                                                                                                                |
 | `description` <Label type="optional" />             | string                                                     | The description of the deal.                                                                                                                                                                                                                                                                                  |
-| `coupon_codes` <Label type="optional" />            | string[]                                                   | The coupon codes that trigger this deal.                                                                                                                                                                                                                                                                      |
 | `restrictions` <Label type="optional" />            | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the deal to be available.                                                                                                                                                                                                                              |
+| `coupon_codes` <Label type="optional" />            | string[]                                                   | The coupon codes that trigger this deal.                                                                                                                                                                                                                                                                      |
 | `tags` <Label type="optional" />                    | string[]                                                   | List of tags.                                                                                                                                                                                                                                                                                                 |
 | `image_ids` <Label type="optional" />               | string[]                                                   | List of image ids attached to the deal.                                                                                                                                                                                                                                                                       |
 | `lines`                                             | array                                                      | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                                                                                                           |
@@ -741,8 +750,8 @@ Retrieve an option list and the possible choices (options).
 
 ```json
 {
-  "name": "Buy a Small Pizza, Get A Coke for 0.50€ (1€ for Coke XXL)",
   "ref": "DDRINK",
+  "name": "Buy a Small Pizza, Get A Coke for 0.50€ (1€ for Coke XXL)",
   "restrictions": {
     "dow": "123-5--",
     "start_time": "07:00",
@@ -784,9 +793,9 @@ Retrieve an option list and the possible choices (options).
 ```json
 {
   "id": "zee1f",
+  "ref": "BOGOF",
   "name": "Buy a Small Pizza, Get One Free",
   "description": "Choose two of our small pizza, the second one is on us! (1€ extra for Calzone)",
-  "ref": "BOGOF",
   "lines": [
     {
       "skus": [
@@ -821,9 +830,9 @@ Retrieve an option list and the possible choices (options).
 [
   {
     "id": "zee1f",
+    "ref": "BOGOF",
     "name": "Buy a Small Pizza, Get One Free",
     "description": "Choose two of our small pizza, the second one is on us! (1€ extra for Calzone)",
-    "ref": "BOGOF",
     "lines": [...]
   },
   ...
@@ -843,8 +852,8 @@ A discount is a reduction of the order total price.
 | `ref` <Label type="optional" />           | string                        | The ref of the discount.                                                                                                                                                                                                       |
 | `name`                                    | string                        | The name of the discount.                                                                                                                                                                                                      |
 | `description` <Label type="optional" />   | string                        | The description of the discount.                                                                                                                                                                                               |
-| `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                                                                                    |
 | `restrictions` <Label type="optional" />  | [Restrictions](#restrictions) | An optional set of conditions that must be matched for the discount to be available.                                                                                                                                           |
+| `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                                                                                    |
 | `pricing_effect`                          | string                        | One of: `price_off`, `percentage_off`.                                                                                                                                                                                         |
 | `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `price_off`, and a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`. |
 | `image_ids` <Label type="optional" />     | string[]                      | List of image ids attached to the discount.                                                                                                                                                                                    |
@@ -1014,7 +1023,7 @@ It defines a set of conditions for a particular item to be available.
 | `max_per_order` <Label type="optional" />    | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per order.                                                                                |
 | `max_per_customer` <Label type="optional" /> | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per customer.                                                                             |
 
-All the fields above are optional. Fields with a `null` value are ignored. All the conditions must be met simultaneously for an item to be available.
+All the fields above are optional. Fields with a `null` value are ignored. All conditions must be met simultaneously for an item to be available.
 
 #### Example:
 
@@ -1029,8 +1038,50 @@ All the fields above are optional. Fields with a `null` value are ignored. All t
   "max_per_order": "1"
 }
 ```
+## 11. Price Overrides
 
-## 11. Images
+A `price_overrides` is an array of rules that can be used in [Skus](#skus) to override the price in different contexts.
+
+The structure of a rule is described below.
+
+#### Parameters:
+
+| Name                                      | Type                                                       | Description                                                                                                 |
+| ----------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `dow` <Label type="optional" />           | [DOW](/developers/api/general-concepts/#days-of-the-week)  | Applies on certain days of the week.                                                                        |
+| `start_time` <Label type="optional" />    | string                                                     | Applies from a certain time of the day. Format: `HH:MM`.                                                    |
+| `end_time` <Label type="optional" />      | string                                                     | Applies until a certain time of the day. Format: `HH:MM`.                                                   |
+| `start_date` <Label type="optional" />    | [Date](/developers/api/general-concepts/#dates-and-times)  | Applies from a certain date.                                                                                |
+| `end_date` <Label type="optional" />      | [Date](/developers/api/general-concepts/#dates-and-times)  | Applies until a certain date.                                                                               |
+| `service_types` <Label type="optional" /> | string[]                                                   | Applies for the specified service types. One or several values among: `delivery`, `collection` or `eat_in`. |
+| `price`                                   | [Money](/developers/api/general-concepts/#monetary-values) | The new price if the rule matches.                                                                          |
+
+All the fields above are optional, except `price`. Fields with a `null` value are ignored.
+
+All conditions must be met simultaneously for a rule to match. When several rules match, the price of the last matching rule applies.
+
+#### Example:
+
+```json
+"price_overrides": [
+  {
+    "service_types": ["collection"],
+    "price": "20.00 EUR"
+  },
+  {
+    "end_time": "15:00",
+    "price": "15.00 EUR"
+  },
+]
+```
+
+Assuming the default price is `25.00 EUR`:
+
+- If the item is ordered for delivery after 15:00, the price is `25.00 EUR`
+- If the item is ordered for collection after 15:00, the price is `20.00 EUR`
+- If the item is ordered for delivery or collection before 15:00, both rules match. The last matching rule applies, so the price is `15.00 EUR`.
+
+## 12. Images
 
 Images can be attached to products and deals, via their `image_ids` fields.
 
@@ -1042,7 +1093,7 @@ Images must be uploaded before catalog data, since the images' `id`s must be pas
 
 There is no endpoint to delete an image: when an image is left unattached for 30 days in a row, it is automatically removed.
 
-### 11.1. Create Image
+### 12.1. Create Image
 
 Upload an image.
 
@@ -1073,12 +1124,12 @@ Response:
   "id": "zxdxw",
   "type": "image/jpeg",
   "size": 126934,
-  "md5": "516edf00906edff8b0c7fe8## 1e f5965",
+  "md5": "39857d16289e814484f4229ca40cc2b1",
   "seconds_before_removal": 2592000
 }
 ```
 
-### 11.2. Retrieve Image
+### 12.2. Retrieve Image
 
 <CallSummaryTable
   endpoint="GET /catalogs/:catalog_id/images/:id"
@@ -1109,7 +1160,7 @@ Response:
 }
 ```
 
-### 11.3. Retrieve Image Data
+### 12.3. Retrieve Image Data
 
 Return the image data. The reply's `Content-Type` header contains the MIME image type.
 
@@ -1127,7 +1178,7 @@ Content-Type: image/jpeg
 Response body: image data
 ```
 
-### 11.4. List Images
+### 12.4. List Images
 
 Retrieve the list of images in the catalog.
 
@@ -1156,7 +1207,7 @@ Retrieve the list of images in the catalog.
 ]
 ```
 
-## 12. Inventories
+## 13. Inventories
 
 Inventories keep track of the stock of every sku or option in a catalog, for a particular location.
 
@@ -1166,7 +1217,7 @@ An inventory is specific to a particular location. If several locations share th
 
 Inventories cannot be created or deleted. An inventory is automatically associated to each pair of _catalog_ and _location_, where _location_ has access to _catalog_.
 
-### 12.1. Retrieve Inventory
+### 13.1. Retrieve Inventory
 
 Returns the list of inventory entries of the inventory.
 
@@ -1210,7 +1261,7 @@ The skus and options' `ref`s are also provided for convenience in the reply.
 
 An inventory is an empty set by default. Every sku or option not specified in the inventory set has **unlimited** supply.
 
-### 12.2. Update Inventory
+### 13.2. Update Inventory
 
 Overwrites the inventory. The request body has the same format as the [Retrieve inventory](#retrieve-inventory) response body.
 
@@ -1246,7 +1297,7 @@ A _select by id_ entry affects a single sku or option. A _select by ref_ entry c
 ]
 ```
 
-### 12.3. Patch inventory
+### 13.3. Patch inventory
 
 Updates a selected set of entries. Leave the other entries unchanged.
 

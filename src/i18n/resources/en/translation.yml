@@ -6,7 +6,7 @@ layout:
   header:
     buttons:
       signup: Sign up
-      login: Login
+      login: Log in
   footer:
     contacts:
       title: Contact

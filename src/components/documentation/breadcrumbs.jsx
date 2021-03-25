@@ -7,18 +7,17 @@ export const Breadcrumbs = ({ breadcrumbs }) => {
   return (
     <section className="breadcrumbs-wrapper">
       <ul className="breadcrumbs-wrapper__list">
-        {breadcrumbs.map((breadcrumb) => (
+        {breadcrumbs.map(breadcrumb => (
           <li key={breadcrumb.id} className="breadcrumbs-wrapper__list-item">
-            {breadcrumb.path ? (
-              <Link
-                to={breadcrumb.path}
-                className="breadcrumbs-wrapper__list-item_link"
-              >
-                {breadcrumb.label}
-              </Link>
-            ) : (
-              breadcrumb.label
-            )}
+            {
+              breadcrumb.path ?
+                (
+                  <Link to={breadcrumb.path} className="breadcrumbs-wrapper__list-item_link">
+                    {breadcrumb.label}
+                  </Link>
+                ) :
+                breadcrumb.label
+            }
           </li>
         ))}
       </ul>
