@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connect the PixelPoint Brigde to HubRise - Connection Guide
-  description: Instructions on connecting the PixelPoint Brigde with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
+  title: Connect PixelPoint Bridge to HubRise - Connection Guide
+  description: Instructions on connecting PixelPoint Bridge with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 PixelPoint Bridge connects a PAR PixelPoint EPOS to a HubRise location. Therefore, you must set up a connection for each of the locations you want to connect to PixelPoint.
