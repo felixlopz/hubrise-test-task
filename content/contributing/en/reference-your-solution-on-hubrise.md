@@ -20,7 +20,7 @@ To include your solution on this page, please send us the following elements:
 - A high-resolution logo, in PNG format, on a transparent background. Final size: 250x130px. The HubRise team can resize your image if necessary.
 - A description containing 30-35 words (no superlatives) that differentiates your solution from those listed on the page.
 
-## Solution Documentation
+## Documentation of the Integration
 
 This documentation presents the solution and the procedure to follow to connect it to HubRise. It is intended to allow users and support teams to install the solution autonomously and troubleshoot the connection. By way of example, refer to the documentation done for [LivePepper](/apps/livepepper).
 

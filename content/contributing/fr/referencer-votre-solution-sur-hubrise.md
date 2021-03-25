@@ -20,7 +20,7 @@ Pour une inclusion sur cette page, transmettez-nous les éléments suivants :
 - Un logo en haute résolution, dans le format PNG, sur fond transparent. La taille finale est 250x130px, l'équipe HubRise pouvant se charger de le redimensionner si besoin.
 - Une description de 30 à 35 mots, sans usage de superlatif, qui permet de différencier votre solution parmi celles listées sur la page.
 
-## Documentation de la solution
+## Documentation de l'intégration
 
 Cette documentation présente la solution, et la démarche à suivre pour la connecter à HubRise. Elle vise à rendre les utilisateurs et les équipes de support autonomes dans l'installation et le dépannage de la connexion. Pour voir un exemple, consultez la documentation de [LivePepper](/apps/livepepper).
 
