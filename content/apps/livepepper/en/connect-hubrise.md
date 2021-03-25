@@ -19,7 +19,7 @@ For instructions on how to connect a multisite, or on how to connect a site to a
 
 To connect a single LivePepper site with a new HubRise Account:
 
-1. Login to your LivePepper back office.
+1. Log in to your LivePepper back office.
 1. Select **Settings** > **Add-ons**.
 1. Under HubRise, click the checkbox **Share data with other applications**.
 1. Click **Connect to HubRise**.

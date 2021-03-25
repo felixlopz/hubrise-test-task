@@ -1,54 +1,56 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import GatsbyImage from 'gatsby-image'
+import { useTranslation } from 'react-i18next'
 
+import GatsbyImage from 'gatsby-image'
 import Link from '../../link'
 import { generateKey } from '../../utils'
-import { useLayoutContext } from '../../../context/layout'
 
-export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
+export const AppSection = ({
+  title,
+  showTitle,
+  apps,
+  logos,
+  suggestAppContent
+}) => {
+  const { t } = useTranslation()
+
   return (
-    <section className="section">
-      <div className="section__in section__in_padding section__in_reverse">
-        <h3 className="section__title section__title_align-left">{title}</h3>
-        <ul className="apps">
-          {apps.map((app, idx) => {
-            const logo = logos.find(({ base }) => base === app.logo)
-            if (!logo) throw new Error(`${title} does not have a logo`)
+    <section className="section section__center">
+      {showTitle && <h3 className="section__title">{title}</h3>}
 
-            return (
-              <li key={generateKey(title, idx)} className="app">
-                <Link
-                  to={app.website || app.documentation}
-                  className="app__box"
-                >
-                  <GatsbyImage
-                    className="app__box-image"
-                    alt={title}
-                    imgStyle={{ objectFit: 'scale-down' }}
-                    {...logo.childImageSharp}
-                  />
-                </Link>
-                <div className="app__description">
-                  {app.description}
-                  {app.additional_info && (
-                    <p>
-                      <i>{app.additional_info}</i>
-                    </p>
-                  )}
+      <div className="apps">
+        {apps.map((app, idx) => {
+          const logo = logos.find(({ base }) => base === app.logo)
+          if (!logo) throw new Error(`${title} does not have a logo`)
+
+          return (
+            <Link
+              key={generateKey(title, idx)}
+              to={app.documentation || app.website}
+              className="apps__box"
+            >
+              <GatsbyImage
+                className="apps__logo"
+                alt={title}
+                imgStyle={{ objectFit: 'scale-down' }}
+                {...logo.childImageSharp}
+              />
+              <div className="apps__documentation">
+                {app.documentation
+                  ? t('apps.view_documentation')
+                  : t('apps.visit_website')}
+              </div>
+              <div className="apps__description">{app.description}</div>
+              {app.additional_info && (
+                <div className="apps__additional-info">
+                  {app.additional_info}
                 </div>
-                {app.documentation && (
-                  <div className="app__more">
-                    <Link to={app.documentation} className="app__more-link">
-                      View documentation
-                    </Link>
-                  </div>
-                )}
-              </li>
-            )
-          })}
-          {suggestAppContent && <SuggestApp {...suggestAppContent} />}
-        </ul>
+              )}
+            </Link>
+          )
+        })}
+        {suggestAppContent && <SuggestApp {...suggestAppContent} />}
       </div>
     </section>
   )
@@ -56,9 +58,9 @@ export const AppSection = ({ title, apps, logos, suggestAppContent }) => {
 
 AppSection.propTypes = {
   title: PropTypes.string.isRequired,
+  showTitle: PropTypes.bool.isRequired,
   apps: PropTypes.arrayOf(
     PropTypes.shape({
-      to: PropTypes.string.isRequired,
       logo: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
@@ -72,49 +74,21 @@ AppSection.propTypes = {
     })
   ).isRequired,
   suggestAppContent: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    button: PropTypes.string.isRequired
+    description: PropTypes.string.isRequired
   })
 }
 
-const SuggestApp = ({ title, description, button }) => {
-  const { forms } = useLayoutContext()
-
+const SuggestApp = ({ description }) => {
   return (
-    <li className="app">
-      <div className="app__title">{title}</div>
-      <button
-        className="app__box app__box_suggest-app"
-        data-open="suggest-app"
-        aria-controls="suggest-app"
-        aria-haspopup="true"
-        tabIndex="0"
-        onClick={forms.suggestApp.toggle}
-      >
-        <div className="app__box-image app__box-image_suggest-app">
-          <span>?</span>
-        </div>
-      </button>
-      <div className="app__description">{description}</div>
-      <div className="app__more">
-        <button
-          className="app__more-link"
-          data-open="suggest-app"
-          aria-controls="suggest-app"
-          aria-haspopup="true"
-          tabIndex="0"
-          onClick={forms.suggestApp.toggle}
-        >
-          {button}
-        </button>
+    <div className="apps__box apps__box_suggest">
+      {description}
+      <div className="apps__suggest-email">
+        <Link to="mailto:contact@hubrise.com">contact@hubrise.com</Link>
       </div>
-    </li>
+    </div>
   )
 }
 
 SuggestApp.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  button: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired
 }

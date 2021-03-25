@@ -15,7 +15,7 @@ For example, if an EPOS is connected to your HubRise Location, you will need to 
 
 ---
 
-**IMPORTANT NOTE:** TastyCloud requires a HubRise catalog to be set up in order to complete the ref code mapping process. Please refer to your EPOS documentation on the HubRise website to check that it can push catalogs to HubRise. Contact TastyCloud if your EPOS does not support this feature.
+**IMPORTANT NOTE:** TastyCloud requires a HubRise catalog to be set up in order to complete the ref code mapping process. Refer to your EPOS documentation on HubRise to check that it can push catalogs to HubRise. Contact TastyCloud if your EPOS does not support this feature.
 
 ---
 
@@ -23,7 +23,7 @@ First make sure you have a working connection between TastyCloud and HubRise. Fo
 
 Then follow these steps to map items between TastyCloud and HubRise:
 
-1. Login to your TastyCloud back office.
+1. Log in to your TastyCloud back office.
 
 1. Click **Mapping des produits** (Products mapping) from the left navigation panel.
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--********************************************
+ *
+ * Copyright (c) 2003-2018 XML-INTL Ltd.
+ *
+ * All Rights Reserved
+ *
+ *******************************************-->
+<its:rules its:version="1.0" xmlns:its="http://www.w3.org/2005/11/its">
+    <its:withinTextRule selector="//ws" withinText="no"/>
+    <its:withinTextRule selector="//link-title" withinText="yes"/>
+    <its:withinTextRule selector="//link-text" withinText="yes"/>
+    <its:withinTextRule selector="//url" withinText="yes"/>
+    <its:withinTextRule selector="//code-span" withinText="yes"/>
+    <its:withinTextRule selector="//emphasis" withinText="yes"/>
+
+    <its:translateRule selector="//syntax/descendant-or-self::*" translate="no"/>
+
+    <!-- MD header -->
+    <its:translateRule selector="//text()[starts-with(normalize-space(.),'position:')]" translate="no"/>
+    <its:translateRule selector="//text()[starts-with(normalize-space(.),'layout:')]" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='title:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='description:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='meta:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='gallery:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='path_override:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='app_info:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='category:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='availability:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='website:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='contact:']" translate="no"/>
+    <its:translateRule selector="//text()[normalize-space(.)='price_range:']" translate="no"/>
+
+    <its:translateRule selector="//text()[starts-with(normalize-space(.),'[comment]:')]" translate="no"/>
+
+    <!-- HTML tags -->
+    <its:translateRule selector="//text()[contains(.,'InlineImage')]" translate="no"/>
+</its:rules>
