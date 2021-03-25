@@ -3,8 +3,8 @@ title: Gérer les commandes
 position: 3
 layout: documentation
 meta:
-  title: Gérer les commandes - TicknCook
-  description: Gérer les commandes reçues par TicknCook et voir leurs différents statuts.
+  title: Connecter TicknCook à HubRise - Gérer les commandes
+  description: Gérer les commandes reçues par TicknCook et voir leurs différents statuts. Connectez vos apps et synchronisez vos données.
 ---
 
 Depuis votre tableau de bord TicknCook, vous pouvez gérer les commandes en leur donnant différents statuts.

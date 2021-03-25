@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion à HubRise - TicknCook
-  description: Etablir la connexion entre TicknCook et HubRise.
+  title: Connecter TicknCook à HubRise - Connexion
+  description: Étapes pour établir une connexion entre TicknCook et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
 Pour connecter TicknCook à HubRise, il suffit de suivre quelques étapes.
