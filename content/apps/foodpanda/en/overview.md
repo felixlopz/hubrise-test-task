@@ -28,16 +28,16 @@ At the same time, they can concentrate on what they do best (preparing food) whi
 
 foodpanda connects to your HubRise account through foodpanda Bridge, an app developed by HubRise.
 
-Connecting foodpanda to HubRise allows to:
+Connecting foodpanda Bridge allows foodpanda to:
 
-- Push foodpanda orders to HubRise.
-- Push customer information to HubRise.
+- Push orders to HubRise. 
+- Push delivery information to HubRise, for orders delivered by your team.
 
 ![Diagram of the connection flow between foodpanda, foodpanda Bridge, and HubRise](../images/001-en-2x-connection-diagram.png)
 
 ---
 
-**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in early 2021.
+**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in 2021.
 
 ---
 
@@ -48,4 +48,4 @@ You will be able to manage foodpanda orders alongside other orders, using your o
 
 ## Prerequisites
 
-To establish a connection between foodpanda and HubRise, your restaurant must be a foodpanda partner. You should also have a HubRise account set up.
+To establish a connection between foodpanda and HubRise, your restaurant must be a foodpanda partner.

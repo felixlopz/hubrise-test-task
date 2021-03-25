@@ -1,49 +1,43 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { useTranslation } from 'react-i18next'
 
-import Modal from '../components/modal'
-import SuggestAppForm from '../components/forms/suggest_app'
-import { Hero, Developers, AppSection } from '../components/pages/apps'
+import { Hero, Nav, AppSection, Developers } from '../components/pages/apps'
 import { generateKey } from '../components/utils'
-import { useLayoutContext } from '../context/layout'
 import SEO from '../components/seo'
 
-const AppsPage = ({ data, pageContext }) => {
+const Apps = ({ data, pageContext }) => {
   const { file, logos } = data
   const { meta, content } = file.childYaml.parsedContent
-
-  const { forms } = useLayoutContext()
-  const { t } = useTranslation()
+  const { lang, category } = pageContext
+  const categories = content.categories.map(({ title }) => title)
 
   return (
     <>
-      <SEO
-        lang={pageContext.lang}
-        title={meta?.title}
-        description={meta?.description}
-      />
+      <SEO lang={lang} title={meta?.title} description={meta?.description} />
+
       <Hero content={content.hero} />
-      {content.sections.map((props, idx) => (
-        <AppSection
-          key={generateKey(props.title, idx)}
-          logos={logos.nodes}
-          suggestAppContent={
-            props.has_suggest_app && content.additional_sections.suggest_app
-          }
-          {...props}
-        />
-      ))}
+
+      <Nav
+        categories={categories}
+        currentCategory={category}
+        allAppsLabel={content.all_apps}
+      />
+
+      {content.categories.map((props, idx) => {
+        if (category && category != props.title) return
+        return (
+          <AppSection
+            key={generateKey(props.title, idx)}
+            logos={logos.nodes}
+            suggestAppContent={
+              props.has_suggest_app && content.additional_sections.suggest_app
+            }
+            showTitle={category === undefined}
+            {...props}
+          />
+        )
+      })}
       <Developers content={content.developers} />
-      {forms.suggestApp.isVisible && (
-        <Modal
-          title={t(`forms.suggest_app.modal.title`)}
-          description={t(`forms.suggest_app.modal.description`)}
-          onClose={forms.suggestApp.toggle}
-        >
-          <SuggestAppForm />
-        </Modal>
-      )}
     </>
   )
 }
@@ -68,4 +62,4 @@ export const appsPageQuery = graphql`
   }
 `
 
-export default AppsPage
+export default Apps

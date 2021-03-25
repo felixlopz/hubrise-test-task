@@ -41,4 +41,4 @@ The following account profile codes are typically used, but may vary depending o
 - `DELIVERY`, for delivery orders
 - `LOCAL`, for eat-in orders
 
-Other specific service type ref codes must be used when you connect iKentoo to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Integrating with Delivery Platforms](/apps/ikentoo-lightspeed/technical-details/integrating-with-delivery-platforms).
+Other specific service type ref codes must be used when you connect iKentoo to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Integrating with Delivery Platforms](/apps/ikentoo-lightspeed/food-ordering-platforms).

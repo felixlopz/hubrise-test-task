@@ -18,8 +18,7 @@ const DocumentationPage = ({ data, path, pageContext }) => {
   const { images } = data
 
   const pageNodes = data.currentAndSiblingPages.nodes
-  const currentPageId = data.currentPage.id
-  const currentPage = pageNodes.find((node) => node.id === currentPageId)
+  const currentPage = pageNodes.find((node) => node.id === pageContext.id)
 
   const { frontmatter, body } = currentPage
   const { meta, title, gallery, app_info } = frontmatter
@@ -102,59 +101,47 @@ const DocumentationPage = ({ data, path, pageContext }) => {
 }
 
 export const documentationPageQuery = graphql`
-  query getDocumentationPageContent(
-    $id: String!
-    $currentAndSiblingPagesFilter: MdxFilterInput!
-    $imagesPath: String!
-  ) {
-    currentPage: mdx(id: { eq: $id }) {
+query getDocumentationPageContent($currentAndSiblingPagesFilter: MdxFilterInput!, $imagesPath: String!) {
+  currentAndSiblingPages: allMdx(filter: $currentAndSiblingPagesFilter) {
+    nodes {
       id
-    }
-    currentAndSiblingPages: allMdx(filter: $currentAndSiblingPagesFilter) {
-      nodes {
-        id
-        frontmatter {
-          meta {
-            title
-            description
-          }
+      frontmatter {
+        meta {
           title
-          position
-          gallery
-          path_override
-          app_info {
-            category
-            availability
-            price_range
-            website
-            contact
-          }
+          description
         }
-        fields {
-          slug
-          localeSlugMap {
-            en
-            fr
-          }
+        title
+        position
+        gallery
+        path_override
+        app_info {
+          category
+          availability
+          price_range
+          website
+          contact
         }
-        headings {
-          value
-          depth
+      }
+      fields {
+        slug
+        localeSlugMap {
+          en
+          fr
         }
-        body
       }
-    }
-    images: allFile(
-      filter: {
-        absolutePath: { glob: $imagesPath }
-        extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
+      headings {
+        value
+        depth
       }
-    ) {
-      nodes {
-        ...Image
-      }
+      body
     }
   }
+  images: allFile(filter: {absolutePath: {glob: $imagesPath}, extension: {regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/"}}) {
+    nodes {
+      ...Image
+    }
+  }
+}
 `
 
 export default DocumentationPage
