@@ -1,42 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
-import SignupForm from '../../forms/signup'
 import Link from '../../link'
+
 import { markdownToHtml } from '../../utils'
 
-export const Hero = ({ title, description, signupFormContent }) => {
+export const Hero = ({ title, description, button_label, button_url }) => {
   return (
-    <div className="index-hero">
-      <div className="index-hero__container">
-        <div className="index-hero__banner">
-          <div className="index-hero__banner-in">
-            <h3 className="index-hero__title">{title}</h3>
+    <div className="frontpage-hero">
+      <div className="frontpage-hero__image" />
+
+      <div className="frontpage-hero__container">
+        <div className="frontpage-hero__text-wrapper">
+          <div className="frontpage-hero__text">
+            <h1 className="frontpage-hero__title">{title}</h1>
             <div
-              className="index-hero__description"
+              className="frontpage-hero__description"
               dangerouslySetInnerHTML={{
                 __html: markdownToHtml(description)
               }}
             ></div>
-          </div>
-        </div>
-
-        <div className="index-hero__form">
-          <div className="index-hero__form-in">
-            <h5 className="index-hero__form-title">
-              {signupFormContent.title}
-            </h5>
-            <p className="index-hero__form-description">
-              <span>{signupFormContent.description.paragraph}</span>
-              {` `}
-              <Link
-                className="index-hero__form-link"
-                to={signupFormContent.description.link.to}
-              >
-                {signupFormContent.description.link.text}
-              </Link>
-            </p>
-            <SignupForm buttonText={signupFormContent.button} />
+            <Link className="frontpage-hero__button" to={button_url}>
+              {button_label}
+            </Link>
           </div>
         </div>
       </div>
@@ -47,15 +32,6 @@ export const Hero = ({ title, description, signupFormContent }) => {
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  signupFormContent: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    description: PropTypes.shape({
-      paragraph: PropTypes.string.isRequired,
-      link: PropTypes.shape({
-        text: PropTypes.string.isRequired,
-        to: PropTypes.string.isRequired
-      }).isRequired
-    }).isRequired,
-    button: PropTypes.string.isRequired
-  }).isRequired
+  button_label: PropTypes.string.isRequired,
+  button_url: PropTypes.string.isRequired
 }

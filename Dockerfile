@@ -40,6 +40,9 @@ WORKDIR /usr/share/nginx/html
 # Copy project files
 COPY --from=build-stage /website/public .
 
+# Copy nginx configuration
+COPY config/nginx/nginx.conf /etc/nginx/nginx.conf
+
 # Container startup
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]

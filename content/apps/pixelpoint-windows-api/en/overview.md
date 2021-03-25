@@ -22,7 +22,7 @@ app_info:
 
 PixelPoint Windows API is an app developed by Slowey Systems that allows the communication between HubRise and the PAR PixelPoint EPOS.
 
-It takes any incoming order in HubRise, converts it into the PixelPoint format and sends it to the POS.
+It takes any incoming order in HubRise, converts it into the PixelPoint format and sends it to the EPOS.
 
 ## Prerequisites
 

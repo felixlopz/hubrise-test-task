@@ -1,6 +1,6 @@
 ---
 title: Technical Details
-position: 8
+position: 9
 layout: documentation
 meta:
   title: Technical Details - iKentoo by Lightspeed
@@ -8,4 +8,3 @@ meta:
 ---
 
 - <Link to="/apps/ikentoo-lightspeed/technical-details/receiving-orders/">Receiving Orders</Link>
-- <Link to="/apps/ikentoo-lightspeed/technical-details/integrating-with-delivery-platforms/">Integrating with Delivery Platforms</Link>

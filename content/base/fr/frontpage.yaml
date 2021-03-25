@@ -3,102 +3,90 @@ meta:
   title: HubRise - Intégration pour le commerce et la restauration
   description: HubRise permet de connecter votre app à un écosystème de solutions commerce et restauration, avec une seule intégration.
 
-header:
-  hero:
-    title: Hub d'intégration pour le commerce et la restauration
-    description: |
-      En une seule intégration, HubRise connecte votre app à une multitude de solutions.
-  signup_form:
-    title: Démarrez maintenant
-    description:
-      paragraph: HubRise est gratuit jusqu'à 50 commandes par mois.
-      link:
-        text: Voir tarifs
-        to: /tarifs
-    button: Créer votre compte
+hero:
+  title: Intégration pour le commerce et la restauration
+  description: |
+    Conçu pour les développeurs, HubRise connecte votre app à une multitude de solutions en une seule intégration.
+  button_label: Commencer l'intégration
+  button_url: /developers
 
-body:
-  - block_type: main
-    title: De nouvelles connexions pour votre app
+content:
+  apps:
+    title: Nouvelles intégrations pour votre app
     description: |
-      Concentrez-vous sur le développement de votre app, plutôt que sur les intégrations.
-      HubRise connecte votre app à celles que vos clients utilisent. [Plus de 40 apps disponibles](/fr/apps).
-    features:
+      HubRise connecte votre app à celles que vos clients utilisent. Concentrez-vous sur le développement de votre app, nous nous occupons des intégrations. [Plus de 40 intégrations disponibles](/fr/apps).
+    categories:
       - Logiciels de caisse
       - Commande en ligne
       - Plateformes de livraison de repas
       - Solutions marketing
-      - Cartes de fidélité digitales
-#      - Paiement mobile
+      - Cartes de fidélité
       - Et plus encore
-#    diagram: diagram-fr.png
+    image:
+      normal: frontpage/app-lists.png
+      hover: frontpage/app-lists-hover.png
 
-  - block_type: main
+  api:
     title: Une API publique et facile à utiliser
     description: |
-      Notre API synchronise les commandes, les clients et les produits.
-      Une documentation publique, une collection Postman, et un SDK Ruby sont disponibles.
-      En quelques lignes de code, vous pouvez écrire une [app complète et intégrée](https://github.com/HubRise/tiny-tablet).
-    diagram: 001-api-example.png
+      Synchronisez les commandes, les clients et les produits. Une documentation soignée, une collection Postman, et un SDK Ruby permettent une intégration fluide.
+      Pour le plaisir, nous avons écrit une app complète et intégrée en quelques lignes de code, que vous pouvez [consulter sur GitHub](https://github.com/HubRise/tiny-tablet).
+    image: api.png
 
-  - block_type: main
-    title: Une documentation détaillée
+  documentation:
+    title: Documentation détaillée
     description: |
-      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque app intégrée, pour vous faire gagner du temps.
-      Accédez à nos documentations depuis la [page Apps](/fr/apps).
+      Nous documentons les fonctionnalités, les flux de données et les "pièges" de chaque intégration, pour vous faire gagner du temps.
+      La documentation est publiquement accessible depuis [la page Apps](/fr/apps).
+    image: documentation.png
 
-  - block_type: main_green
-    title: Tarification simple et accessible
+  pricing:
+    title: Tarification juste pour le commerçant
     description: |
       Pas de frais d'installation. Pas d'engagement. Pas de contrat.
-      25€ par mois et par point de vente, nombre de connexions illimité.
+      Nombre de connexions illimité. 25€ HT par mois.
+    button_label: Démarrer l'essai gratuit
+    button_url: https://manager.hubrise.com/signup
+    link_label: Page Tarifs
+    link_url: /tarifs
 
-  - block_type: main
-    title: Maintenance réduite et scalabilité
-    description: |
-      Votre équipe de support et vos utilisateurs peuvent se connecter en un clic.
-      Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
-
-  - block_type: main
+  developers:
     title: Nous aidons les développeurs
     description: |
-      Vous pouvez compter sur nos développeurs pour répondre à vos questions techniques durant l'intégration.
-      A la fin de l'intégration, nous évaluons et documentons le travail que vous avez fait, et communiquons sur votre arrivée avec notre communauté.
+      Nous sommes développeurs aussi. Comptez sur nous pour répondre rapidement à toutes vos questions d'intégration.
+      Une fois intégré, nous auditons et documentons le travail réalisé, et nous communiquons sur votre intégration.
+    team_members:
+      - name: Alberto
+        filename: alberto.jpg
+      - name: Alex
+        filename: alex.jpg
+      - name: Antoine
+        filename: antoine.jpg
+      - name: Dan
+        filename: dan.jpg
+      - name: Dimitri
+        filename: dimitri.jpg
+      - name: Léo
+        filename: leo.jpg
+      - name: Nick
+        filename: nick.jpg
+      - name: Vova
+        filename: vova.jpg
 
-  - block_type: main
-    title: Rejoindre l'écosystème est facile
-    description: |
-      Pour connecter votre app, démarrez ici : [Documentation développeurs](/developers).
+  mission_and_scalability:
+    mission:
+      title: Notre vision
+      description: |
+        We want integrations to not be a challenge anymore. We make this possible by moving, unifying and securing data to its rightful place, in the cloud, to be accessed real-time when authorised.
 
-  #  - block_type: demonstration
-#    title: Démonstration
-#    unsupported: Votre navigateur ne supporte pas l'affichage des vidéos HTML5.
-#    video: coming-soon.mp4
+    scalability:
+      title: Maintenance réduite et scalabilité
+      description: |
+        Votre équipe de support et vos utilisateurs peuvent se connecter en un clic. Les requêtes à l'API sont visibles depuis le back office. Pas besoin d'être développeur pour investiguer les problèmes.
 
-#  - block_type: compatible_apps
-#    title: De nouvelles applications tous les mois
-#    description:
-#      paragraph_1: 'HubRise est connecté avec un nombre croissant de solutions : JDC/Kezia II, Nestor, MyOrderBox, OrderLord...'
-#      paragraph_2: D'autres intégrations sont en cours.
-#      link_1:
-#        text: Voir les applications disponibles
-#        to: /apps
-#      hint_1: (commerçants)
-#      link_2:
-#        text: Connectez votre logiciel à HubRise
-#        to: /developers
-#      hint_2: (développeurs)
-#    carousel:
-#      - file: logo-carousel.jpg
-#        title: '(1) Orderlord: a mobile app to manage your delivery fleet'
-#        description: First slide details.
-#      - file: logo-carousel.jpg
-#        title: '(2) Orderlord: a mobile app to manage your delivery fleet'
-#        description: Second slide details.
-#      - file: logo-carousel.jpg
-#        title: '(3) Orderlord: a mobile app to manage your delivery fleet'
-#        description: Third slide details.
-#      - file: logo-carousel.jpg
-#        title: '(4) Orderlord: a mobile app to manage your delivery fleet'
-#        description: Fourth slide details.
-#    screen_reader_pointer: Current slide
+  join:
+    title: Prêt à rejoindre l'écosystème ?
+    button_label: Connecter votre app
+    button_url: /developers
+    link_label: Créer un compte gratuit
+    link_url: https://manager.hubrise.com/signup

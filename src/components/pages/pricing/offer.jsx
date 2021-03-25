@@ -7,42 +7,20 @@ import { generateKey } from '../../utils'
 export const Offer = ({ pricing, features, link }) => {
   return (
     <div
-      className={`
-        section
-        section_full-width
-        section_vw
-        section_padding
-      `}
-    >
-      <div
-        className={`
-          section__in
-          section__in_green
-          section__in_padding
-        `}
-      >
-        <h3
-          className={`
-            section__title
-            section__title_no-border
-          `}
-        >
+      className="section section_full-width section_vw section_padding">
+      <div className="section__in section__in_green section__in_padding">
+        <h3 className="section__title section__title_no-border">
           {pricing.chunk_1}
           <span className="section__title-span">{pricing.chunk_2}</span>
         </h3>
-        <ul className="section__price-list">
+        <ul className="pricing__offer-list">
           {features.map((feature, idx) => (
-            <li key={generateKey(feature, idx)} className="section__price-item">
-              <span className="section__price-span">{feature}</span>
+            <li key={generateKey(feature, idx)} className="pricing__offer-item">
+              {feature}
             </li>
           ))}
         </ul>
-        <Link
-          className={`
-            button
-            button_white
-            button_section
-          `}
+        <Link className="pricing__button"
           to={link.to}
           newTab={false}
         >

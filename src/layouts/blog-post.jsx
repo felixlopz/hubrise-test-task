@@ -4,7 +4,6 @@ import { graphql, navigate } from 'gatsby'
 import Sidebar from '../components/blog/sidebar'
 import Post from '../components/blog/post'
 import { Breadcrumbs } from '../components/documentation'
-import { ArticleFeedback } from '../components/blog/feedback'
 import { getLocalizedUrl } from '../components/utils/link'
 import SEO from '../components/seo'
 
@@ -42,7 +41,6 @@ function BlogPost({ data, pageContext }) {
           </div>
         </div>
       </div>
-      <ArticleFeedback />
     </>
   )
 }

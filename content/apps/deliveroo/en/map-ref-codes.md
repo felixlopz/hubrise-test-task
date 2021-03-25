@@ -26,6 +26,8 @@ To assign ref codes to your Deliveroo products with the Menu Manager tool in Del
 1. Enter the correct ref code for each product in the list.
    ![Deliveroo Add PLUs pop-up window](../images/010-en-deliveroo-add-plus.png)
 1. Click **Save** to confirm the mapping.
+1. Click **Publish** to finalise your mapping. Changes to the menu will be available online only after you publish them.
+   ![Deliveroo Publish menu button](../images/012-en-deliveroo-publish-menu.png)
 
 ---
 

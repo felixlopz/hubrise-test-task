@@ -10,7 +10,7 @@ if (process.env.ENABLE_INSPECTOR === 'true') {
   console.log(`Current process: ${process.argv[1]}`)
 
   // We only want the inspector to start on the `.cache/tmp-xxx.js` process which is started by `gatsby develop`
-  if ((process.argv[1] = ~/.cache\/tmp-.*/)) {
+  if (process.argv[1].match(/.cache\/tmp-.*/)) {
     console.log(`Starting inspector for ${process.argv[1]}`)
 
     // Start the inspector in blocking mode (`true`): the process will pause here until a debugger is attached.
