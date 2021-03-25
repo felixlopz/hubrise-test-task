@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion à HubRise - My Lemonade
-  description: Etablir la connexion entre My Lemonade et HubRise.
+  title: Connecter My Lemonade à HubRise - Connexion
+  description: Étapes pour établir une connexion entre My Lemonade et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
 Pour connecter My Lemonade à HubRise, il suffit de suivre quelques étapes.

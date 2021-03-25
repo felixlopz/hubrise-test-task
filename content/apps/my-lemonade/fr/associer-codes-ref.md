@@ -3,8 +3,8 @@ title: Associer les codes ref
 position: 4
 layout: documentation
 meta:
-  title: Associer les codes ref - My Lemonade
-  description: Importer un catalogue depuis HubRise, et retrouver les codes ref des articles.
+  title: Connecter My Lemonade à HubRise - Associer les codes ref
+  description: Instructions pour associer les codes ref des produits My Lemonade avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
 Une fois My Lemonade connecté à HubRise, les commandes sont envoyées automatiquement vers HubRise. Pour vous assurer de la bonne synchronisation des articles entre vos solutions, suivez les instructions détaillées sur cette page.
