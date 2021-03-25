@@ -3,8 +3,8 @@ title: Understanding Logs
 position: 4
 layout: documentation
 meta:
-  title: Connect the PixelPoint Windows API to HubRise - Understanding Logs
-  description: Instructions on how to read the output in the logs coming from the PixelPoint Windows API. Synchronise data between your EPOS and your apps.
+  title: Connect PixelPoint Windows API to HubRise - Understanding Logs
+  description: Instructions on how to read the output in the logs coming from PixelPoint Windows API. Synchronise data between your EPOS and your apps.
 ---
 
 PixelPoint Windows API saves every order from HubRise in a temporary folder on the local server. For each order, there will be two files: The original order pulled from HubRise, in JSON format, and the order sent to PixelPoint, in XML format.

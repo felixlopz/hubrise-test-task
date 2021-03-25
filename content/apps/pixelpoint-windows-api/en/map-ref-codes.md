@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Connect the PixelPoint Windows API to HubRise - Map Ref Codes Guide
+  title: Connect PixelPoint Windows API to HubRise - Map Ref Codes Guide
   description: Instructions on mapping the PAR PixelPoint EPOS product ref codes with other apps after connecting your EPOS with HubRise. Synchronise your data.
 ---
 

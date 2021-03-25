@@ -3,7 +3,7 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect the PixelPoint Windows API to HubRise - Overview
+  title: Connect PixelPoint Windows API to HubRise - Overview
   description: PixelPoint Windows API overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
 
