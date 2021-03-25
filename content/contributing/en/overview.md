@@ -21,10 +21,6 @@ content:
       description: Editorial guidelines for contributors.
       to: /contributing/style-guide
       icon: fa-check
-    - title: Glossary of Terms
-      description: Terminology and spelling decisions.
-      to: /contributing/glossary-of-terms
-      icon: fa-list-alt
     - title: Screenshots Guide
       description: Screenshot guidelines and file naming convention.
       to: /contributing/screenshots-guide

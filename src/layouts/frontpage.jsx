@@ -25,7 +25,7 @@ const FrontPage = ({ data, pageContext }) => {
   const { meta, hero, content } = file.childYaml.parsedContent
 
   return (
-    <div class="frontpage">
+    <div className="frontpage">
       <SEO
         lang={pageContext.lang}
         title={meta.title}

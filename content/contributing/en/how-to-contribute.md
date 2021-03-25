@@ -34,7 +34,7 @@ A simple email can be sent but all our technical documentation is available in a
 
 The HubRise documentation follows a certain editorial style.
 
-The editorial style is defined in a style guide which sets out writing guidelines. These include, but is not limited to, the copy patterns, the voice and the tone to use. This guide is complemented with a glossary of terms to define spelling decisions and clarify the meaning of certain recurrent terms we use. For further guidance on the editorial style to use, refer to the [Style Guide](/contributing/style-guide) and the [Glossary of Terms](/contributing/glossary-of-terms).
+The editorial style is defined in a style guide which sets out writing guidelines. These include, but is not limited to, the copy patterns, the voice and the tone to use. For further guidance on the editorial style to use, refer to the [Style Guide](/contributing/style-guide).
 
 When it becomes necessary to supplement your documentation with screenshots, these screenshots have to comply with certain technical specifications. For more information, refer to the [Screenshots Guide](/contributing/screenshots-guide).
 

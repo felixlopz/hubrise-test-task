@@ -34,3 +34,11 @@ iKentoo Bridge is a one-way connection from HubRise to the EPOS (push only integ
 Therefore, iKentoo Bridge cannot transfer the menu from the EPOS to HubRise, which must then be inserted with a manual process in the online ordering system. For more information, see [Mapping EPOS Codes](/apps/ikentoo/mapping-pos-codes). Furthermore, it cannot transfer orders placed on the EPOS back to HubRise.
 
 ![Connection Diagram](../images/008-en-2x-connection-diagram.png)
+
+## Why Connect?
+
+Connecting iKentoo to HubRise makes your EPOS and your other apps work as a cohesive whole. Synchronise your menu, your customer and order information with mobile ordering apps, ordering websites, loyalty systems, marketing or business intelligence solutions, delivery services. For more information on HubRise, see the [HubRise User Guide](/docs).
+
+## Prerequisites
+
+To connect Lightspeed K-Series to HubRise, you need the **iKentoo 3.0 by Lightspeed** application installed on your iPad. You can download it from Apple iOS App Store.
