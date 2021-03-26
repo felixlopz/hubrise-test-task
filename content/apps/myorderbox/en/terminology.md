@@ -3,8 +3,8 @@ title: Terminology
 position: 4
 layout: documentation
 meta:
-  title: Terminology - MyOrderBox
-  description: Correspondence table between the terms used by MyOrderBox and those used by HubRise.
+  title: Connect MyOrderBox to HubRise - Terminology Guide
+  description: Correspondence table showing terms used by MyOrderBox and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
 HubRise and MyOrderBox each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
@@ -12,5 +12,5 @@ HubRise and MyOrderBox each use their own terminology. The same concept can ther
 | MyOrderBox      | HubRise       | Description                           |
 | --------------- | -----------   | ------------------------------------- |
 | Options         | Option lists  |                                       |
-| Option values   | options       |                                       |
+| Option values   | Options       |                                       |
 

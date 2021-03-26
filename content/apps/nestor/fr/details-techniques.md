@@ -3,8 +3,8 @@ title: Informations techniques
 position: 7
 layout: documentation
 meta:
-  title: Informations techniques - Nestor
-  description: Informations techniques concernant l'intégration de Nestor à HubRise.
+  title: Connecter Nestor à HubRise - Informations techniques
+  description: Informations techniques concernant l'intégration de Nestor à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
 ## Réception des commandes

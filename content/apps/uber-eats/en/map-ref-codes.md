@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 5
 layout: documentation
 meta:
-  title: Uber Eats Connection to HubRise - Map Ref Codes
-  description: See how to assign the ref codes to your Uber Eats products so that they are correctly sent to your EPOS. Log in to your Uber Eats back office and follow these instructions.
+  title: Connect Uber Eats to HubRise - Map Ref Codes Guide
+  description: Instructions on mapping Uber Eats product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, when you create your menu on Uber Eats, you need to make sure that each product is assigned to the correct ref code.

@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: MyOrderBox - Mapping Ref Codes in HubRise
-  description: The mapping ref codes page informs users on how to find ref codes on MyOrderBox EPOS to map them on other apps in the context of an integration via HubRise.
+  title: Connect MyOrderBox to HubRise - Map Ref Codes Guide
+  description: Instructions on mapping MyOrderBox product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 ---
@@ -23,4 +23,3 @@ MyOrderBox relies on the following naming convention:
 - otherwise the `Option` is sent as a separate `option_list` in HubRise.
 
 If an Option is of the toppings type, its `Option Values` which are made as Default in MyOrderBox are grouped together and sent to HubRise in a new `option_list`, whose name is "Ingredients".
-

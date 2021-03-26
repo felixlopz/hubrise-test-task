@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 6
 layout: documentation
 meta:
-  title: HubRise PixelPoint Windows API Troubleshooting Guide
-  description: Informs users on how to troubleshoot errors.
+  title: Connect PixelPoint Windows API to HubRise - Troubleshooting Guide
+  description: Troubleshooting PixelPoint Windows API connection with HubRise for your EPOS and other apps to work as a cohesive whole. Synchronise your data.
 ---
 
 Analysing the logs associated with an order is the first action to perform when troubleshooting.
@@ -38,7 +38,7 @@ If the order is successful, the response log will present the following fields:
 
 ### Wrong API Token
 
-A wrong API token used in the PixelPoint Windows API is generally associated with the following error in the response body.
+A wrong API token used in PixelPoint Windows API is generally associated with the following error in the response body.
 
 ```
 <ErrorNum>-1</ErrorNum>

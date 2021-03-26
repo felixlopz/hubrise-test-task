@@ -3,8 +3,8 @@ title: Manage Orders
 position: 5
 layout: documentation
 meta:
-  title: Manage Orders within OrderLine
-  description: View order details, update the order status, and print a receipt.
+  title: Connect OrderLine to HubRise - Manage Orders
+  description: Instructions on how to view order details, to update the order status, and to print a receipt. Connect apps and synchronise your data.
 ---
 
 OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Set Order Statuses](/apps/orderline/settings/#set-order-statuses).

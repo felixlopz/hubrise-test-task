@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: foodpanda Connection to HubRise - Overview
-  description: foodpanda overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
+  title: Connect foodpanda to HubRise - Overview
+  description: foodpanda overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 006-en-foodpanda-pk-screenshot.png
   - 002-en-configuration-page.png

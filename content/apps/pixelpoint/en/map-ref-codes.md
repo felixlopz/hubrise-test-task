@@ -1,10 +1,10 @@
 ---
-title: Mapping Ref Codes
+title: Map Ref Codes
 position: 2
 layout: documentation
 meta:
-  title: Mapping the PAR Pixel EPOS Ref Codes on HubRise
-  description: Informs users on how to find EPOS ref codes on the PAR PixelPoint EPOS to map them on other apps in the context of an integration with HubRise.
+  title: Connect PixelPoint to HubRise - Map Ref Codes Guide
+  description: Instructions on mapping PixelPoint product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 ---

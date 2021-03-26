@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: HubRise PixelPoint Bridge Overview
-  description: Details the use and functionality of the PixelPoint Bridge.
+  title: Connect PixelPoint Bridge to HubRise - Overview
+  description: PixelPoint Bridge overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 005-en-2x-pixelpoint-bridge-view.png
   - 006-en-2x-pixelpoint-bridge-view-log-open.png

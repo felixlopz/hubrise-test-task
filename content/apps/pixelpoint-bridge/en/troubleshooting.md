@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 6
 layout: documentation
 meta:
-  title: HubRise PixelPoint Bridge Troubleshooting Guide
-  description: Informs users on how to troubleshoot errors.
+  title: Connect PixelPoint Bridge to HubRise - Troubleshooting Guide
+  description: Troubleshooting PixelPoint Bridge connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 Analysing the logs associated with an order is the first action to perform when troubleshooting. The following sections describe a few typical sources of errors.
@@ -36,7 +36,7 @@ If the order is successful, the response log will present the following fields:
 
 ### Wrong API Token
 
-A wrong API token used in the PixelPoint Bridge is generally associated with the following error in the response body.
+A wrong API token used in PixelPoint Bridge is generally associated with the following error in the response body.
 
 ```
 <ErrorNum>-1</ErrorNum>

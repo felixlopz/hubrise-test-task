@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: TicknCook Connection to HubRise - Overview
-  description: TicknCook overview and why restaurants should connect it to HubRise. With a connection to HubRise orders are sent to the TicknCook production screen.
+  title: Connect TicknCook to HubRise - Overview
+  description: TicknCook overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 002-en-tickncook-counter.jpg
   - 003-en-tickncook-kitchen.jpg

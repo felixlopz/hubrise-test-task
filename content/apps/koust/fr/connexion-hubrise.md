@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion à HubRise - Koust
-  description: Etablir la connexion entre Koust et HubRise.
+  title: Connecter Koust à HubRise - Connexion
+  description: Étapes pour établir une connexion entre Koust et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
 Vous pouvez connecter Koust à HubRise de manière autonome, en seulement quelques étapes.

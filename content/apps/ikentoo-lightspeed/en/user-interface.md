@@ -3,8 +3,8 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: User Interface - iKentoo by Lightspeed
-  description: How to navigate through the iKentoo Bridge user interface.
+  title: Connect iKentoo by Lightspeed to HubRise - User Interface Guide
+  description: Instructions on how to navigate through the iKentoo Bridge user interface. Connect apps and synchronise your data.
 ---
 
 The user interface for iKentoo Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
@@ -16,7 +16,7 @@ The main page of iKentoo Bridge displays the latest operations. Each row shows:
 - **TIME**: The date and time of the operation.
 - **STATUS**: The status of the operation. The value OK indicates that the operation has been successfull, otherwise a message will explain the type of error occurred.
 
-Clicking on an row will open a new page displaying all the information about it.
+Clicking on a row will open a new page displaying all the information about it.
 
 On the top right corner of the iKentoo Bridge main page, the HubRise user and location connected are displayed, together with the iKentoo business location currently used. Clicking the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/001-arrow.jpg)</InlineImage> expands a menu where it is possible to change the language of the interface and to access the **Configuration page**.
 

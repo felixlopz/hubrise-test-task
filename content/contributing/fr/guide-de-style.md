@@ -25,6 +25,12 @@ Pour un titre officiel, un nom, une marque déposée, un copyright, ou une chose
 
 Pour une expression qui a un acronyme connu auprès de votre public cible, mettez une majuscule.
 
+Ne pas mettre de majuscule aux titres. Accentuer les majuscules.
+
+> Incorrect : Eléments à fournir pour Lightspeed K Series.
+
+> Correct: Éléments à fournir pour Lightspeed K Series.
+
 ## Ponctuation
 
 ### Virgules
@@ -157,3 +163,46 @@ Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l
 > Incorrect : Cliquez sur **Configuration** dans le menu principal.
 
 > Correct : Dans le menu principal, cliquez sur **Configuration**.
+>
+## Méta-titre et méta-description
+
+Un méta-titre et une méta-description doivent être ajoutés à chaque fichier.
+
+### Méta-titre
+
+Les méta-titres suivent les même règles que les autres titres, sans point final à la fin des phrases.
+
+Le méta-titre ne doit pas comporter plus de 60 caractères. Google pourrait le tronquer si vous le rallongez.
+L'aspect le plus important ou le plus unique des mots-clés de la page doit être en première position. Au minimum, inclure le titre de la page et une référence à HubRise. Le message doit être clair et lié au contenu de la page.
+
+
+> Correct: structure de méta-titre à utiliser pour chaque page de la documentation
+>
+> - **Présentation générale**: Connecter Lightspeed K Series à HubRise - Présentation générale
+> - **Connexion à HubRise**: Connecter Lightspeed K Series à HubRise - Connexion
+> - **Associer les codes ref**: Connecter Lightspeed K Series à HubRise - Associer les codes ref
+> - **Dépannage**: Connecter LightSpeed K Series à HubRise - Dépannage
+> - **Terminologie**: Connecter Lightspeed K Series à HubRise - Terminologie
+> - **F.A.Q.**: Connecter Lightspeed K Series à HubRise - F.A.Q.
+
+### Méta-description
+
+Les méta-descriptions suivent les même règles de style, avec un point pour terminer la phrase.
+
+La méta-description doit avoir 155 à 160 caractères. Google pourrait le tronquer si vous le rallongez.
+Le contenu doit être pertinent et unique par rapport aux autres pages. Il doit être facile à lire et offrir une description convaincante à l'aide de mots-clés importants.
+
+> Correct: structure de méta-description à utiliser pour chaque page de la documentation
+>
+> - **Présentation générale** : Présentation générale de Lightspeed K Series, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+> - **Connexion à HubRise** : Étapes pour établir une connexion entre Lightspeed K Series et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
+> - **Associer les codes ref** : Instructions pour associer les codes ref des produits LightSpeed K Series avec d'autres applications connectées à HubRise pour la synchronisation des données.
+> - **Dépannage** : Dépannage de la connexion entre LightSpeed K Series et HubRise. Connectez votre caisse et synchronisez les données entre vos applications avec facilité.
+> - **Terminologie** : Table de correspondance entre les termes utilisés par Lightspeed K Series et HubRise pour le même concept. Connectez vos apps et synchronisez vos données.
+> - **F.A.Q.** : Questions fréquentes posées sur la connexion de Lightspeed K Series à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
+
+Pour compléter une méta-description en maximisant le nombre de caractères, vous pouvez ajouter une courte phrase à la fin :
+
+- Connectez vos apps et synchronisez vos données.
+- Synchronisez vos données.
+- Connectez vos apps.

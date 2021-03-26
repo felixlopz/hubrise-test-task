@@ -3,8 +3,8 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: foodpanda Connection to HubRise - User Interface
-  description: How to navigate the foodpanda Bridge main page to access information about the orders and customise the behaviour of the bridge.
+  title: Connect foodpanda to HubRise - User Interface Guide
+  description: How to navigate the foodpanda Bridge main page to access information about the orders and customise the behaviour of the bridge. Synchronise your data.
 ---
 
 From the main page of foodpanda Bridge, you can read the logs of all the operations between HubRise and foodpanda, and access the configuration settings of the integration.

@@ -1,10 +1,10 @@
 ---
-title: Main page
+title: Main Page
 position: 4
 layout: documentation
 meta:
-  title: dotdigital Bridge main page
-  description: The dotdigital Bridge main page and how to read logs.
+  title: Connect dotdigital to HubRise - Main Page Guide
+  description: The dotdigital Bridge main page and how to read logs. Synchronise data between your EPOS and your apps.
 ---
 
 From the main page of the dotdigital Bridge, you can access the configuration settings of the app and read the logs of all the transactions between HubRise and dotdigital.

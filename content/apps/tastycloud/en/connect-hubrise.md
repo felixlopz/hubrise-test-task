@@ -1,10 +1,10 @@
 ---
-title: Connect to HubRise
+title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Tasty Cloud Connection to HubRise
-  description: Instructions on connecting Tasty Cloud with HubRise.
+  title: Connect TastyCloud to HubRise - Connection Guide
+  description: Instructions on connecting TastyCloud with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 ---

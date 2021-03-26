@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: App4 Connection to HubRise Configuration
-  description: Instructions on how to configure App4 for optimal connection to HubRise and other platforms.
+  title: Connect App4 to HubRise - Map Ref Codes Guide
+  description: Instructions on mapping App4 product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 Once your App4 website is connected with HubRise, customer and order information are pushed into HubRise automatically.
