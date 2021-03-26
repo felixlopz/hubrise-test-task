@@ -11,8 +11,7 @@ We recommend using Google Chrome. On mobile devices, make sure to disable the au
 
 To access OrderLine, log in to [HubRise](https://manager.hubrise.com), select **CONNECTIONS** then **Open** next to the OrderLine app. OrderLine will open in a new browser tab.
 
-You can save the OrderLine Link as a favorite in your internet browser for daily ease of access.
-To terminate your OrderLine session, close the browser tab.
+You can save the OrderLine Link as a favorite in your internet browser for daily ease of access. To terminate your OrderLine session, close the browser tab.
 
 <video controls title="OrderLine Log in to OrderLine">
   <source src="../images/005-en-login-orderline.webm" type="video/webm"/>
