@@ -13,6 +13,8 @@
     <its:withinTextRule selector="//url" withinText="yes"/>
     <its:withinTextRule selector="//code-span" withinText="yes"/>
     <its:withinTextRule selector="//emphasis" withinText="yes"/>
+    <its:translateRule selector="//fenced-code-block/descendant-or-self::*" translate="no"/>
+    <its:translateRule selector="//indented-code-block/descendant-or-self::*" translate="no"/>
 
     <its:translateRule selector="//syntax/descendant-or-self::*" translate="no"/>
 
@@ -20,6 +22,6 @@
     <its:translateRule selector="//paragraph[contains(.,'layout: documentation')]" translate="no"/>
 
     <!-- HTML tags -->
-    <!--    Does not work:-->
-    <!--    <its:translateRule selector="//text()[contains(.,'InlineImage')]" translate="no"/>-->
+    <its:translateRule selector="//html[contains(.,'InlineImage')]" translate="no"/>
+    <its:translateRule selector="//paragraph[contains(.,'CallSummaryTable')]" translate="no"/>
 </its:rules>
