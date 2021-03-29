@@ -6,6 +6,11 @@ meta:
   title: Connecter Carré POS à HubRise - Présentation générale
   description: Présentation générale de Carré POS, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
+  - 001-fr-carre-pos-accueil.png
+  - 002-fr-carre-pos-plan.png
+  - 003-fr-carre-pos-commandes.png
+  - 004-fr-carre-pos-commandes-details.png
+  - 005-fr-carre-pos-commandes-preparation.png
 path_override: /
 app_info:
   category: Logiciels de caisse
