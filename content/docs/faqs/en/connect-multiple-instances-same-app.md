@@ -1,10 +1,10 @@
 ---
 title: How Do I Connect Multiple Instances of the Same App?
-position: 120
+position: 130
 layout: documentation
 meta:
-  title: Connecting Multiple Instances of the Same App
-  description: In HubRise, it is possible to connect multiple instances of the same app to a single HubRise account. See instructions on how to accomplish this.
+  title: Connecting Multiple Instances of the Same App on HubRise
+  description: Step-by-step instructions to connect multiple instances of the same app to a single HubRise location. Feature mainly used to connect food delivery platforms.
 ---
 
 In some circumstances, you might need to connect multiple instances of the same app to a single HubRise location. For example, you might have multiple stores of a food delivery platform that you want to connect to the same EPOS.

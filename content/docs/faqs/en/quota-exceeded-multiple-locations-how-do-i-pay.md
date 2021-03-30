@@ -3,8 +3,8 @@ title: My Quota is Exceeded and I Have Multiple Locations, How Do I Pay?
 position: 30
 layout: documentation
 meta:
-  title: HubRise Payment on Exceeded Quota
-  description: Multiple locations, one payment for all locations on exceeded quota.
+  title: HubRise Payment for Multiple Locations on Exceeded Quota
+  description: Step-by-sep process to set up payment on HubRise with one payment method for all locations once the free plan quota is exceeded.
 ---
 
 First, set your payment method:

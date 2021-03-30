@@ -3,8 +3,8 @@ title: How Do I Check if the Connection Between My System and HubRise Is Working
 position: 90
 layout: documentation
 meta:
-  title: Check HubRise Connection
-  description: Check if the connection between my system and HubRise is working.
+  title: Check if My Hubrise Connection Is Working
+  description: Check if the connection between my apps and HubRise are working. This can be done by checking orders coming in and app activity on the HubRise back office.
 ---
 
 There are a few different ways of verifying that the connection between your system or app to HubRise is working properly. The first step for all of these recommendations is to log in to HubRise through the [HubRise Login page](https://manager.hubrise.com/login).
