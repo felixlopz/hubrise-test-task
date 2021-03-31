@@ -265,7 +265,7 @@ content:
           documentation:
           logo: smilein.png
           title: smilein
-          description: smilein est une solution de commande pour l’hôtellerie et la restauration qui intègre tous les parcours clients.  Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
+          description: smilein est une solution de commande pour l’hôtellerie et la restauration qui intègre tous les parcours clients. Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
           additional_info: Intégration en cours.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud

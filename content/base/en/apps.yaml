@@ -260,7 +260,7 @@ content:
           documentation:
           logo: smilein.png
           title: smilein
-          description: smilein is an ordering solution for hotels and restaurants that cares for all customer journeys. Its multi-site, multi-stand and multi-guest basket offer makes it the recognised benchmark for chains and food courts.
+          description: smilein is an ordering solution for hotels and restaurants that cares for all customer journeys. Their multi-site, multi-stand and multi-guest basket offer makes it the recognised benchmark for chains and food courts.
           additional_info: Integration in progress.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
