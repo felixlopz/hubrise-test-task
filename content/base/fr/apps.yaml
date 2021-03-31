@@ -261,6 +261,12 @@ content:
           title: Shopify
           description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://www.smilein.io
+          documentation:
+          logo: smilein.png
+          title: smilein
+          description: smilein est une solution de commande pour l’hôtellerie et la restauration qui intègre tous les parcours clients. Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
+          additional_info: Intégration en cours.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
