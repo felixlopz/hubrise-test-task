@@ -3,7 +3,7 @@ title: What App Can I Connect to HubRise?
 position: 100
 layout: documentation
 meta:
-  title: Connect Apps to HubRise through the HubRise App Store
+  title: Connect Apps to HubRise through the App Store - HubRise
   description: HubRise supports an ever growing number of applications. The HubRise App Store is available from the HubRise back office. Select the app and see instructions.
 ---
 

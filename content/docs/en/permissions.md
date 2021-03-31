@@ -3,7 +3,7 @@ title: Permissions
 position: 11
 layout: documentation
 meta:
-  title: HubRise Permissions
+  title: Permissions - HubRise
   description: How to manage HubRise permissions.
 ---
 

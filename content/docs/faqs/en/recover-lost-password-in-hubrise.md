@@ -3,7 +3,7 @@ title: I Lost My Password. How Do I Recover It?
 position: 80
 layout: documentation
 meta:
-  title: Recover Your HubRise Password
+  title: Recover Your Password - HubRise
   description: Step-by-step process to recover your password on HubRise if you are a registred user, but you have lost or forgotten your password.
 ---
 

@@ -3,7 +3,7 @@ title: What Happens If My Free Plan Quota Is Exceeded?
 position: 10
 layout: documentation
 meta:
-  title: Upgrade From a Free Plan to a Paid Plan on HubRise
+  title: Upgrade From a Free Plan to a Paid Plan - HubRise
   description: HubRise provides a free plan that includes a monthly usage quota. See how to upgrade to a paid plan when a free plan has met this usage quota.
 ---
 
