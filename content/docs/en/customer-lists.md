@@ -3,7 +3,7 @@ title: Customer Lists
 position: 13
 layout: documentation
 meta:
-  title: Customer Lists
+  title: Customer Lists - HubRise
   description: How to manage HubRise customer lists.
 ---
 

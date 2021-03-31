@@ -3,8 +3,8 @@ title: How Do I Check If I already Have a User Profile in HubRise?
 position: 70
 layout: documentation
 meta:
-  title: Check User Profiles in HubRise
-  description: Check if I have an established user profiles in HubRise.
+  title: Check if I Already Have a User Profile - HubRise
+  description: A software provider, or a consultant might have created a HubRise account or a user profile for you. Check if you have an established user profiles in HubRise.
 ---
 
 The easiest way to see if you have a user profile in HubRise is by using the [Lost your password page](https://manager.hubrise.com/reset_password/new). Enter your email address and click **Reset Password**. If you have a user profile, an email will be sent instructing you on how to complete the password reset process.

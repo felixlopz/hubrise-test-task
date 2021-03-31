@@ -3,7 +3,7 @@ title: Connections
 position: 4
 layout: documentation
 meta:
-  title: HubRise Connections
+  title: Connections - HubRise
   description: How connections to HubRise can be managed.
 ---
 

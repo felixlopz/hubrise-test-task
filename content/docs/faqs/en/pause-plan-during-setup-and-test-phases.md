@@ -3,8 +3,8 @@ title: Can My Plan Be Paused During Setup and Test Phases?
 position: 50
 layout: documentation
 meta:
-  title: Pause HubRise Plan Upgrade
-  description: Pause HubRise plan while testing.
+  title: Pause Plan Upgrade When Free Plan Quota Is Exceeded - HubRise
+  description: HubRise provides a free plan with a limited quota generally sufficient for testing. If not, you can ask for HubRise to pause the plan while testing.
 ---
 
 HubRise provides a free plan with a limited quota of orders and customers per month. This is sufficient in most cases when setting up or testing a connection. HubRise can suspend the plan upgrade under these conditions:
