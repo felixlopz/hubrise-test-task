@@ -3,8 +3,8 @@ title: What App Can I Connect to HubRise?
 position: 100
 layout: documentation
 meta:
-  title: HubRise Apps
-  description: Apps you can connect on HubRise.
+  title: Connect Apps to HubRise through the App Store - HubRise
+  description: HubRise supports an ever growing number of applications. The HubRise App Store is available from the HubRise back office. Select the app and see instructions.
 ---
 
 HubRise supports an ever growing number of applications. The HubRise App Store is available from within HubRise through the following steps:
@@ -13,7 +13,7 @@ HubRise supports an ever growing number of applications. The HubRise App Store i
 2. Click **CONNECTIONS**, then **View available apps**.
 3. Select the app to connect to your HubRise Account. Each app has instructions on how to connect to your Account or Location.
 
-Apps are connected either with a HubRise Account or Location depending on the app. Typically EPOS or Online Ordering System will connect to a Location, while marketing solutions connect to either the Account or Locations.
+Apps are connected either with a HubRise Account or Location depending on the app. Typically, EPOS or Online Ordering System will connect to a Location, while marketing solutions connect to either the Account or Locations.
 
 Note that some apps can be connected directly from within HubRise, while others require configuration from within the app before connection. See the app documentation for complete details.
 
