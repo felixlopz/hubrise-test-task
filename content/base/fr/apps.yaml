@@ -1,7 +1,7 @@
 path: /apps
 meta:
   title: Applications intégrées avec l'écosystème HubRise
-  description: Cette page comprend une liste d'applications intégrées ou en cours d'intégration à l'écosystème HubRise. Toutes ces applications partagent des données en temps réel.
+  description: Cette page comprend une liste d'applications intégrées à l'écosystème HubRise. Toutes ces applications partagent des données commandes et clients en temps réel.
 content:
   hero:
     title: Applications intégrées
@@ -298,6 +298,12 @@ content:
           title: Captain
           description: Captain est une solution de traitement des commandes et de tracking des livreurs.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://coursicab.com
+          documentation:
+          logo: coursicab.png
+          title: Coursicab
+          description: Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, vos clients peuvent suivre leurs colis en temps réel. Présent dans 6 pays européens, disponible 24h/7.
+          additional_info: Intégration en cours.
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png

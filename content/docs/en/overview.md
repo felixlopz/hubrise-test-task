@@ -3,7 +3,7 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Technical Documentation Overview - HubRise
+  title: Technical Documentation - HubRise Overview
   description: Overview of HubRise.
 gallery:
   - 004-en-2x-desktop-view.png
