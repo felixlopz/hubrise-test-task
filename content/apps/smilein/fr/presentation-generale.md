@@ -21,20 +21,16 @@ app_info:
 
 ## Description
 
-smilein est une solution de commande et paiement qui est dédiée au domaine de l'hôtellerie/restauration. Les restaurateurs peuvent modifier leur carte, ajouter des photos aux produits, mettre à jour leurs informations et gérer leurs commandes de manière autonome.
+smilein est une solution de commande et paiement qui est dédiée aux domaines de l'hôtellerie et de la restauration. Il est majoritairement utilisé par des chaines, grandes enseignes et food courts, notamment en raison de sa capacité à gérer le multi-sites.
 
-smilein est aussi une plateforme de gestion de contenu, proposant des suggestions, offrant du contenu (vidéos, presse, jeux) et des services pour permettre aux restaurateurs de mieux connaitre leurs clients, les intégrer dans des programmes de fidélité et ainsi alimenter leur CRM.
+Les restaurateurs peuvent modifier leur carte, ajouter des photos aux produits, mettre à jour leurs informations et gérer leurs commandes de manière autonome.
+
+smilein est aussi une plateforme de gestion de contenu, offrant du contenu (vidéos, presse, jeux) et des services pour permettre aux restaurateurs de mieux connaître leurs clients, les intégrer dans des programmes de fidélité et ainsi alimenter leur CRM.
 
 La suite smilein est composée de deux logiciels :
 
-- smilein STUDIO, logiciel de design intégré, pour personnaliser et enrichir le site internet
-- smilein WAITER, logiciel dédié production, pour suivre les commandes et administrer le service
-
-
-
-Sa capacité à gérer le global/local, les contextes multi-sites et les configurations multi-stands en fait la référence reconnue des chaines, grandes enseignes et food courts.
-
-Accessible via un URL, votre WebApplication s'intègre à votre site Web et vos réseaux sociaux en toute simplicité.
+- smilein STUDIO, logiciel de design intégré, permet aux restaurateurs d'enrichir leur site internet.
+- smilein WAITER, logiciel dédié production, permet aux restaurateurs de suivre leurs commandes et administrer leur service.
 
 ## Fonctionnalités de l'intégration
 
