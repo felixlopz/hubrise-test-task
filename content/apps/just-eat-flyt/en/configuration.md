@@ -34,9 +34,8 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ## Menu Availability
 
-In this section, you can decide if you want to make your menu available for delivery, collection, or both.
+From this section, you can customise the availability of your Just Eat menu. For more information, see [Updating the Menu](/apps/just-eat-flyt/updating-menu#availability).
 
-You can also set opening and closing times of your store for each day of the week. Customers will not be able to order from your Just Eat store outside of these time windows.
 
 ## Saving the Configuration
 
@@ -46,7 +45,7 @@ Once you are happy with the configuration of Just Eat Bridge, click **Save** at 
 
 Make sure you save the configuration to use the latest [Menu Availability](#menu-availability) options.
 
-To push your HubRise catalog to Just Eat, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**.  
+To push your HubRise catalog to Just Eat, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**. For more information on how HubRise catalogs are mapped to Just Eat, see [Updating the Menu](/apps/just-eat-flyt/updating-menu).
 
 ---
 

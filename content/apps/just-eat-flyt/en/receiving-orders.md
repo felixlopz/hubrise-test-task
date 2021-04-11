@@ -39,7 +39,7 @@ For every option in the order, Just Eat Bridge provides the following informatio
 - `option_list_name`: The placeholder for the option list name, with default value "Options"
 - `ref`: The ref code of the option
 - `name`: The option name
-- `price`: The price for a single item
+- `price`: The price for a single option
 
 Every option has single quantity. Multiple identical options are encoded in separate option objects.
 
