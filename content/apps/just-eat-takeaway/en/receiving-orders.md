@@ -8,9 +8,9 @@ meta:
 ---
 
 Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS.
-This page describes the information that HubRise receives from Just Eat Takeaway for your orders orders.
+This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
 
-## Just Eat Order ID
+## Just Eat Takeaway Order ID
 
 When a new order is created on HubRise, the Just Eat Takeaway order ID is stored in the `private_ref` field.
 
@@ -44,7 +44,7 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 
 ## Order Statuses
 
-New Just Eat Takeaway orders are created on HubRise with status `new`. [TODO]
+New Just Eat Takeaway orders are created on HubRise with status `new`.
 
 When an order status changes on HubRise, Just Eat Takeaway Bridge notifies Just Eat, and the change can be seen by the customer. The following status updates automatically triggers Just Eat Takeaway Bridge to send a request to inform the platform of the new status.
 
@@ -59,7 +59,7 @@ Other HubRise status updates are not supported and do not trigger any request to
 
 Just Eat Takeaway supports three service types:
 
-- Delivery by Just Eat Taekaway riders
+- Delivery by Just Eat Takeaway riders
 - Delivery by the restaurant's fleet
 - Customer collection
 
@@ -80,13 +80,14 @@ An email address is not provided by Just Eat Takeaway, so this field is missing 
 
 ### Customer Address
 
-For restaurant delivery orders only, Just Eat Takeaway Bridge receives the following information from Just Eat:
+Just Eat Takeaway Bridge receives the following information from Just Eat about the customer's address, if available in the original payload:
 
 - `address_1`: The street and street number
 - `city`: The city of the address
 - `postal_code`: The postcode of the address
 - `phone`: The customer's phone number
 - `delivery_notes`: The delivery notes that the customer includes at checkout
+- `company_name`: The name of the company the customer belongs to
 
 ## Discounts
 

@@ -71,7 +71,7 @@ The customer's details provided by Just Eat depend on the service type for the o
 - For pick-up orders, only the name is provided.
 - For orders delivered by Just Eat, only the driver's information is provided.
 
-Therefore, Just Eat Flyt Bridge never creates customers in HubRise for Just Eat orders, but always includes the customer's details in the `customer` object, when available.
+Therefore, Just Eat Flyt Bridge never creates customers on HubRise for Just Eat orders, but always includes the customer's details in the `customer` object, when they are available.
 
 ### Customer Name and Email
 

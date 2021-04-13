@@ -7,6 +7,7 @@ meta:
   description: Just Eat overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
 gallery:
   - 002-en-just-eat-configuration-page.png
+  - 006-en-just-eat-screenshot.png
 path_override: /
 app_info:
   category: Food Ordering Platforms

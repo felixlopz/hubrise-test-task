@@ -23,7 +23,7 @@ Each row in the page shows the following information about an operation:
 
 The **System request** label indicates that the operation is not related to a specific order.
 
-![Operations page of Just Eat Takeaway Bridge developed by HubRise](../images/003-en-just-eat-main-page.png)
+![Operations page of Just Eat Takeaway Bridge developed by HubRise](../images/003-en-jet-main-page.png)
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
@@ -41,7 +41,7 @@ Each row in the logs displays the following information:
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
-![Order logs page on Just Eat Takeaway Bridge](../images/004-en-just-eat-order-logs.png)
+![Order logs page on Just Eat Takeaway Bridge](../images/004-en-jet-order-logs.png)
 
 Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see the [HubRise documentation](/docs/hubrise-logs/).
 
@@ -51,7 +51,7 @@ The layout of a system request page is identical to that of an order page.
 
 System requests are generally sent by Just Eat Takeaway Bridge to notify HubRise about a change in the configuration or to populate the UI with the most up-to-date information. As an example, the following image displays a request to update the Just Eat Takeaway Bridge callback after a configuration change.
 
-![System request page on Just Eat Takeaway Bridge](../images/005-en-just-eat-system-request.png)
+![System request page on Just Eat Takeaway Bridge](../images/005-en-jet-system-request.png)
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
@@ -65,6 +65,6 @@ Clicking on the Just Eat and HubRise logos on top of any page of Just Eat Takeaw
 
 To access the Just Eat Takeaway Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
 
-![Just Eat Takeaway Bridge configuration page](../images/002-en-just-eat-configuration-page.png)
+![Just Eat Takeaway Bridge configuration page](../images/002-en-jet-configuration-page.png)
 
 From this page, you will be able to customise the behaviour of Just Eat Takeaway Bridge. For more details, see [Configuration](/apps/just-eat-takeaway/configuration).
