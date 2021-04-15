@@ -3,8 +3,8 @@ title: Référencer votre solution sur HubRise
 position: 2
 layout: documentation
 meta:
-  title: Référencer votre solution sur HubRise - Éléments à fournir
-  description: Une fois votre intégration validée, HubRise référencera votre solution sur le site web de HubRise. Les éléments à fournir dépendent du type d'inclusion.
+  title: Référencer votre solution - HubRise
+  description: Une fois votre intégration validée, vous pouvez demander son référencement sur le site HubRise. Voici les éléments à fournir en fonction du type d'inclusion souhaité.
 ---
 
 Une fois votre solution validée sur le plan technique par HubRise, vous pouvez demander son inclusion sur notre site en nous contactant sur [contact@hubrise.com](mailto:contact@hubrise.com).

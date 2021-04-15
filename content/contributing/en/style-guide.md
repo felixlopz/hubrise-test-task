@@ -3,7 +3,7 @@ title: Style Guide
 position: 1
 layout: documentation
 meta:
-  title: HubRise Style Guide
+  title: Documentation Style Guide - HubRise
   description: Anyone can contribute to the HubRise online documentation. The style guide provides editorial guidelines for anyone contributing to it.
 ---
 

@@ -3,8 +3,8 @@ title: Reference Your Solution on HubRise
 position: 6
 layout: documentation
 meta:
-  title: Reference Your Solution on HubRise - Elements to Provide
-  description: Once your integration has been approved, HubRise will reference your solution on the HubRise website. The list of elements to provide depends on the type of inclusion.
+  title: Reference Your Solution - HubRise
+  description: Once your integration has been approved, you can request to be referenced on HubRise. The list of elements to provide depends on the type of inclusion.
 ---
 
 Once your solution has been technically approved by HubRise, you can ask for it to be included on our website by contacting us at [contact@hubrise.com](mailto:contact@hubrise.com).
