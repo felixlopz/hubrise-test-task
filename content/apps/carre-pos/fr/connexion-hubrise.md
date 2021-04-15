@@ -12,6 +12,7 @@ L'équipe de support de Carré POS se charge de la connexion et la déconnexion 
 ## Visualiser les informations de connexion
 
 Il est possible de visualiser les informations de connexion à HubRise. Pour cela, depuis le back-office, dans le menu principal, sélectionnez **HubRise** > **Configuration**. Les informations liées à HubRise sont affichées dans la partie **Informations de connexion**.
+   ![Connexion à HubRise - Informations de connexion](../images/006-fr-carre-pos-informations-connexion.png)
 
 ## Donner accès au support de Carré POS
 
