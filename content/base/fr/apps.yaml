@@ -47,8 +47,8 @@ content:
         - website: https://www.ikentoo.com
           documentation: /apps/ikentoo-lightspeed/
           logo: ikentoo-lightspeed.png
-          title: LightSpeed K-Series / iKentoo
-          description: iKentoo LightSpeed K-Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
+          title: Lightspeed K-Series / iKentoo
+          description: iKentoo Lightspeed K-Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
           additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
@@ -70,7 +70,7 @@ content:
         - website: https://www.lightspeedhq.com
           documentation: /apps/ikentoo-lightspeed/
           logo: lightspeed.png
-          title: LightSpeed K-Series / iKentoo
+          title: Lightspeed K-Series / iKentoo
           description: Lightspeed propose des solutions de gestion sur le cloud pour les commerces et les restaurants dans plus de 100 pays. Son design soigné et son interface intuitive permettent la gestion sur site, à distance ou en déplacement pour des entreprises mono et multisites.
         - website: http://www.myorderboxhq.com
           documentation: /apps/myorderbox/

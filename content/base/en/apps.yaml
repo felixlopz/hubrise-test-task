@@ -47,8 +47,8 @@ content:
         - website: https://www.lightspeedhq.com
           documentation: /apps/ikentoo-lightspeed/
           logo: ikentoo-lightspeed.png
-          title: LightSpeed K-Series / iKentoo
-          description: iKentoo LightSpeed K-Series is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
+          title: Lightspeed K-Series / iKentoo
+          description: iKentoo Lightspeed K-Series is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: jalia.png
@@ -69,7 +69,7 @@ content:
         - website: https://www.lightspeedhq.com
           documentation: /apps/ikentoo-lightspeed/
           logo: lightspeed.png
-          title: LightSpeed K-Series / iKentoo
+          title: Lightspeed K-Series / iKentoo
           description: Lightspeed offers cloud-based solutions for retail and restaurants in over 100 countries. Its sleek design and intuitive interface allows on site, remote or on-the-go management of single and multi-store businesses.
         - website: http://www.myorderboxhq.com
           documentation: /apps/myorderbox/
