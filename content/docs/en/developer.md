@@ -3,7 +3,7 @@ title: Developer
 position: 15
 layout: documentation
 meta:
-  title: HubRise Developer
+  title: Developer - HubRise
   description: How to integrate into the HubRise ecosystem.
 ---
 

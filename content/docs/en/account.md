@@ -3,7 +3,7 @@ title: Account
 position: 7
 layout: documentation
 meta:
-  title: HubRise Account
+  title: Account - HubRise
   description: How to manage HubRise Accounts.
 ---
 

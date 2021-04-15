@@ -3,7 +3,7 @@ title: Dashboard
 position: 3
 layout: documentation
 meta:
-  title: HubRise Dashboard
+  title: Dashboard - HubRise
   description: How to use the HubRise Dashboard.
 ---
 

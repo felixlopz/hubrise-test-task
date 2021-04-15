@@ -1,8 +1,8 @@
 ---
 layout: developers
 meta:
-  title: Contribute to the HubRise Online Technical Documentation
-  description: Anyone can contribute to the HubRise online documentation. Check this page if you want to kow how to contribute by giving feedback or updating technical documentation content.
+  title: Contributing to the Documentation - HubRise
+description: Anyone can contribute to the HubRise online documentation. Check this page if you want to kow how to contribute by giving feedback or updating technical documentation content.
 path_override: /
 content:
   hero:
@@ -21,6 +21,10 @@ content:
       description: Editorial guidelines for contributors.
       to: /contributing/style-guide
       icon: fa-check
+    - title: Referral on HubRise
+      description: Elements to provide to reference your solution on HubRise.
+      to: /contributing/reference-your-solution-on-hubrise
+      icon: fa-pencil
     - title: Screenshots Guide
       description: Screenshot guidelines and file naming convention.
       to: /contributing/screenshots-guide

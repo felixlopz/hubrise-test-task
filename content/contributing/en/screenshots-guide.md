@@ -3,7 +3,7 @@ title: Screenshots Guide
 position: 3
 layout: documentation
 meta:
-  title: Screenshots Guide - Contributing
+  title: Screenshots Guide - HubRise
   description: Guidelines to include screenshots in the HubRise documentation.
 ---
 
