@@ -1,7 +1,7 @@
 path: /apps
 meta:
   title: Applications intégrées avec l'écosystème HubRise
-  description: Cette page comprend une liste d'applications intégrées à l'écosystème HubRise. Toutes ces applications partagent des données commandes et clients en temps réel.
+  description: Liste des applications intégrées ou en cours d'intégration à l'écosystème HubRise. Les applications intégrées partagent leurs données en temps réel.
 content:
   hero:
     title: Applications intégrées
