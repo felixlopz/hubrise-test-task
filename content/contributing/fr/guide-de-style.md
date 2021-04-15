@@ -7,9 +7,11 @@ meta:
   description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style contient des recommendations éditoriales pour contribuer à la documentation.
 ---
 
+Ce guide de style contient des recommendations éditoriales pour les contributeurs de la documentation HubRise.
+
 ## Introduction
 
-Ce guide de style contient des recommendations éditoriales pour les contributeurs de la documentation HubRise.
+Lorsque le guide de style HubRise ne donne pas de recommendation particulière sur un cas spécifique, le [Guide de Style des Développeurs Google](https://developers.google.com/style) peut être utilisé comme référence.
 
 ## Localisation
 
