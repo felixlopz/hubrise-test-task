@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-Cette documentation est disponible [uniquement en anglais](/apps/ikentoo-lightspeed).
+Cette documentation est disponible [uniquement en anglais](https://www.hubrise.com/apps/ikentoo-lightspeed).
