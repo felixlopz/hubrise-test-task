@@ -59,7 +59,7 @@ If you want to reset the configuration and erase its values, click **Reset the c
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your Just Eat Restaurant ID. To continue receiving Just Eat orders, you will need to enter your Just Eat Restaurant ID again.
+**IMPORTANT NOTE:** Resetting the configuration will also erase your integration settings. To continue receiving Just Eat orders, you will need to enter your integration settings again.
 
 ---
 

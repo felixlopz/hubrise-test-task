@@ -1,9 +1,9 @@
 ---
-title: Updating The Menu
+title: Pushing The Menu
 position: 6
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Updating The Menu
+  title: Just Eat Connection to HubRise - Pushing The Menu
   description: Find out how to publish your menu to the Just Eat platform, how items and options are encoded, and which features are supported.
 ---
 
@@ -12,15 +12,15 @@ You can use Just Eat Flyt Bridge to push your HubRise catalog directly to your J
 
 This page explains how you can push and update your menu on Just Eat, and what information about HubRise catalogs can be pushed to the platform.
 
-## Creating a HubRise Catalog
+## Populating a HubRise Catalog
 
-To be able to push your menu to Just Eat, you should create a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To be able to push your menu to Just Eat, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Pushing the Menu From the Configuration Page
+## Publishing the Menu From the Configuration Page
 
-Once your catalog is present on HubRise, you can publish it on your Just Eat store by following these steps.
+Once your catalog is populated on HubRise, you can publish it on your Just Eat store by following these steps.
 
 1. Log in to your HubRise account.
 1. Select the location connected with your Just Eat store.
@@ -41,7 +41,7 @@ For every category, the following HubRise fields are pushed to Just Eat:
 - `name`: The name of the category
 - `description`: The description of the category
 
-### Items Encoding
+### Products and Skus
 
 Products in the `products` array of a HubRise catalog can have several skus. This notion of products/skus is not supported on Just Eat. Every sku is mapped to an individual product on Just Eat. For more information about products in HubRise catalogs, see [Products](/developers/api/catalog-management/#products).
 
@@ -56,7 +56,7 @@ For every `sku` object in a product, Just Eat Flyt Bridge pushes the following i
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
 
-### Options Encoding
+### Options
 
 For every option list in the catalog, Just Eat Flyt Bridge pushes the following information to Just Eat:
 
