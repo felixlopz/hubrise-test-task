@@ -21,14 +21,14 @@ content:
       description: Editorial guidelines for contributors.
       to: /contributing/style-guide
       icon: fa-check
-    - title: Screenshots Guide
-      description: Screenshot guidelines and file naming convention.
-      to: /contributing/screenshots-guide
-      icon: fa-desktop
     - title: Referral on HubRise
       description: Elements to provide to reference your solution on HubRise.
       to: /contributing/reference-your-solution-on-hubrise
       icon: fa-pencil
+    - title: Screenshots Guide
+      description: Screenshot guidelines and file naming convention.
+      to: /contributing/screenshots-guide
+      icon: fa-desktop
     - title: Video Guide
       description: Useful commands for generating short tutorial videos.
       to: /contributing/video-guide
