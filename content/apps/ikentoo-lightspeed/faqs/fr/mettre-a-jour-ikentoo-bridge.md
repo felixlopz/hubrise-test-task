@@ -3,7 +3,7 @@ title: Comment profiter des fonctionnalités de la nouvelle intégration iKentoo
 position: 1
 layout: documentation
 meta:
-  title: Comment profiter des fonctionnalités offertes par la nouvelle intégration avec iKentoo by Lightspeed ?
+  title: Mise à jour de l'intégration - iKentoo by Lightspeed
   description: Instructions permettant de mettre à jour iKentoo Bridge, afin de profiter des fonctionnalités offertes par la nouvelle intégration avec iKentoo by Lightspeed.
 ---
 
