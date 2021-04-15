@@ -11,8 +11,16 @@ Lorsque Carré POS est connecté à HubRise, les commandes envoyées à HubRise 
 
 ## Recevoir des commandes
 
-Pour voir la liste des commandes, suivez les étapes suivantes :
+Pour voir la liste des commandes, depuis le back-office, dans le menu principal, sélectionnez **HubRise** > **Résumé des commandes**.
+   ![Commandes - Résumé des commandes](../images/014-fr-carre-pos-resume-commandes.png)
 
-1. Depuis l'écran de démarrage, cliquez sur **ACCUEIL**.
-1. Sélectionnez un utilisateur.
-1. Cliquez sur **Z ETABLISSEMENT**.
+### Détails de la commande
+
+Pour voir les détails d'une commande :
+1. Suivez les étapes décrites dans [Recevoir des commandes](/apps/carre-pos/commandes#recevoir-des-commandes) pour accéder à la liste des commandes.
+1. Cliquez sur **Details** de la ligne correspondant à la commande.
+   ![Commandes - Détails d'une commande](../images/015-fr-carre-pos-details-commande.png)
+
+## Envoyer les commandes
+
+Cette fonctionnalité est en cours de développement et sera disponible prochainement.
