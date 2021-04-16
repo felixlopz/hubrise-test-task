@@ -3,7 +3,7 @@ title: Je viens de créer un produit dans Nestor, pourquoi n'apparaît-il pas da
 position: 3
 layout: documentation
 meta:
-  title: Exporter un produit créé dans Nestor vers HubRise
+  title: Exporter un produit | Nestor F.A.Q. | HubRise
   description: Comment exporter un produit créé dans Nestor vers mon catalogue HubRise.
 ---
 

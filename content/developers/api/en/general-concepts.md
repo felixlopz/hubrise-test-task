@@ -3,7 +3,7 @@ title: General Concepts
 position: 1
 layout: documentation
 meta:
-  title:
+  title: General Concepts | API | HubRise
   description:
 ---
 

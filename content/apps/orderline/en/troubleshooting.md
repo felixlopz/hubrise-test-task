@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 8
 layout: documentation
 meta:
-  title: Connect OrderLine to HubRise - Troubleshooting Guide
+  title: Troubleshooting | OrderLine | HubRise
   description: Troubleshooting OrderLine connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 

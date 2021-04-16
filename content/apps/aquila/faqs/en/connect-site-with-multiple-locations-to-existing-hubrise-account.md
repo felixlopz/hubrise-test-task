@@ -3,7 +3,7 @@ title: How Do I Connect My Aquila Site With Multiple Locations to an Existing Hu
 position: 1
 layout: documentation
 meta:
-  title: Connect Aquila to HubRise
+  title: Connect Multiple Locations | Aquila FAQs | HubRise
   description: Connect your Aquila site with multiple locations to an existing HubRise account and location.
 ---
 

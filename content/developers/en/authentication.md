@@ -3,7 +3,7 @@ title: Authentication
 position: 4
 layout: documentation
 meta:
-  title:
+  title: API Authentication | HubRise
   description:
 ---
 

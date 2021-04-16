@@ -3,7 +3,7 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Connecter Nestor à HubRise - Présentation générale
+  title: Présentation générale | Nestor | HubRise
   description: Présentation générale de Nestor, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
   - 019-fr-nestor-apercu-commandes.png

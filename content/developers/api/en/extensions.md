@@ -3,7 +3,7 @@ title: API Extensions
 position: 6
 layout: documentation
 meta:
-  title:
+  title: API Extensions | API | HubRise
   description:
 ---
 

@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 5
 layout: documentation
 meta:
-  title: Connect Uber Eats to HubRise - Map Ref Codes Guide
+  title: Map Ref Codes | Uber Eats | HubRise
   description: Instructions on mapping Uber Eats product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 

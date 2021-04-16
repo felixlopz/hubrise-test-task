@@ -3,7 +3,7 @@ title: Why Are Some Orders Not Received Correctly on iKentoo?
 position: 1
 layout: documentation
 meta:
-  title: Troubleshooting Failed Orders - iKentoo by Lightspeed
+  title: Troubleshooting Orders | iKentoo by Lightspeed | HubRise
   description: Typical reasons why orders are not correctly sent to iKentoo, some troubleshooting strategies and how to fix the issues.
 ---
 

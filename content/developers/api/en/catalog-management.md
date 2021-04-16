@@ -3,7 +3,7 @@ title: Catalog Management
 position: 4
 layout: documentation
 meta:
-  title:
+  title: Catalog Management | API | HubRise
   description:
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: FAQ
+title: FAQs
 position: 4
 layout: documentation
 meta:
-  title: Connect App4 to HubRise - FAQ
+  title: FAQs | App4 | HubRise
   description: FAQs on connecting App4 with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 

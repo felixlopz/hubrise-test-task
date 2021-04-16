@@ -3,7 +3,7 @@ title: How Do I Check If I already Have a User Profile in HubRise?
 position: 70
 layout: documentation
 meta:
-  title: Check if I Already Have a User Profile - HubRise
+  title: Check if I Already Have a User Profile | HubRise
   description: A software provider, or a consultant might have created a HubRise account or a user profile for you. Check if you have an established user profiles in HubRise.
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: FAQ
+title: FAQs
 position: 7
 layout: documentation
 meta:
-  title: Connect Uber Eats to HubRise - FAQ
+  title: FAQs | Uber Eats | HubRise
   description: FAQs on connecting Uber Eats with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 

@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 4
 layout: documentation
 meta:
-  title: Connect iKentoo by Lightspeed to HubRise - Map Ref Codes Guide
+  title: Map Ref Codes | iKentoo by Lightspeed | HubRise
   description: Instructions on mapping iKentoo by Lightspeed product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 

@@ -3,7 +3,7 @@ title: How Do I Connect My Aquila Site to an Existing HubRise Account?
 position: 1
 layout: documentation
 meta:
-  title: Connect Aquila to HubRise
+  title: Connect to Existing Account | Aquila FAQs | HubRise
   description: Connect your Aquila site to an existing HubRise account.
 ---
 
