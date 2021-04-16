@@ -11,4 +11,8 @@ meta:
 
 Sur les périphériques mobiles, veillez à désactiver le verrouillage automatique dans les paramètres d'affichage. Le fait de brancher votre périphérique peut également être utile.
 
-L'usage du navigateur Google Chrome est recommandé.
+Nous recommandons d'utiliser le navigateur Google Chrome.
+
+## Mon navigateur montre une page blanche lorsque je lance OrderLine
+
+Si vous avez installé le bloqueur de publicités uBlock Origin sur votre navigateur, désactivez-le. OrderLine n'est pas compatible avec cette extension.

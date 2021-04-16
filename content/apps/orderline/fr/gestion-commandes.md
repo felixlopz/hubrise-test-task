@@ -36,7 +36,7 @@ Les utilisateurs peuvent ajouter un message personnalisé destiné au client, aj
 
 ---
 
-**REMARQUE IMPORTANTE :** Les mises à jour des heures de livraison, ainsi que les messages, doivent être pris en charge par votre système de commande en ligne. Pour plus d'informations sur la configuration, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/##additional-data-prompt).
+**REMARQUE IMPORTANTE :** Les mises à jour des heures de livraison, ainsi que les messages, doivent être pris en charge par votre système de commande en ligne. Pour plus d'informations sur la configuration, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/#additional-data-prompt).
 
 ---
 
@@ -87,7 +87,7 @@ Pour les commandes ayant le statut **En livraison**, vous pouvez imprimer le re�
 
 ## Imprimer la commande
 
-OrderLine se connecte aux imprimantes reconnues par le système d'exploitation et imprime les reçus via la boîte de dialogue d'impression du système d'exploitation.
+OrderLine se connecte aux imprimantes reconnues par le système d'exploitation. L'impression des tickets passe par la boîte de dialogue d'impression.
 
 Pour imprimer un reçu de commande sur une imprimante locale, procédez comme suit :
 
@@ -105,8 +105,8 @@ Les reçus contiennent les informations suivantes :
 
 - Le type de commande. Les types possibles sont **LIVRAISON**, **RÉCUPÉRATION** ou **SUR PLACE**.
 - Le mode de paiement.
-- L'adresse et les commentaires de livraison, ainsi que les coordonnées GPS (si la solution de commande en ligne transmet les coordonnées GPS à HubRise).
-- L'heure de livraison confirmée par les utilisateurs, qui correspond à l'heure de livraison réelle (si cette donnée est prise en charge par le système d'encaissement). Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/#additional-data-prompt).
+- L'adresse et les commentaires de livraison, ainsi que les coordonnées GPS si la solution de commande en ligne les transmet à HubRise.
+- L'heure de livraison confirmée par les utilisateurs, qui correspond à l'heure de livraison réelle, si cette donnée est prise en charge par le système d'encaissement. Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/settings/#additional-data-prompt).
 - Les promotions sont énumérées avec leur nom, suivi de la liste des produits qu'elles contiennent.
 - Les produits commandés par le client sont regroupés. Les ajouts ou exclusions sont indiqués dans une liste à puces :
   - Les articles standard retirés du produit sont biffés par un trait plein.

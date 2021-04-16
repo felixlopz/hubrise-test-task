@@ -47,7 +47,7 @@ Les statuts disponibles sont les suivants :
 - Reçue
 - Acceptée
 - En préparation
-- Attente livraisonå
+- Attente livraison
 - Attente récupération
 - En livraison
 - Terminée
@@ -72,10 +72,7 @@ Lorsqu'une commande est configurée selon un statut spécifique, OrderLine peut 
 
 ---
 
-**REMARQUE IMPORTANTE :** OrderLine n'envoie pas d'e-mails ni de mises à jour directement aux clients. Ces informations sont envoyées par votre solution de commande en ligne, sous deux conditions :
-Que votre solution de commande en ligne prenne en charge la messagerie de votre client.
-Que la messagerie de votre client soit intégrée à HubRise.
-Avant de mettre en place cette fonctionnalité, vérifiez que ces deux conditions sont remplies. Il est recommandé de créer une commande fictive afin de vérifier que le client reçoit bien la nouvelle heure de livraison et les commentaires.
+**REMARQUE IMPORTANTE :** OrderLine n'envoie pas d'e-mails ni de mises à jour directement aux clients. Ces informations sont envoyées par votre solution de commande en ligne, sous deux conditions : Que la messagerie de votre client soit intégrée à HubRise. Que la messagerie de votre client soit intégrée à HubRise. Avant de mettre en place cette fonctionnalité, vérifiez que ces deux conditions sont remplies. Il est recommandé de créer une commande fictive afin de vérifier que le client reçoit bien la nouvelle heure de livraison et les commentaires.
 
 ---
 
@@ -159,7 +156,7 @@ Google Cloud Print permet d'imprimer automatiquement un reçu pour la commande d
 Vous devez être en possession d'un ordinateur :
 
 - Allumé en permanence.
-- Connecté à Internet.
+- Connecté à internet.
 - Sur lequel le navigateur Google Chrome est installé.
 - Relié à une imprimante allumée.
 - Dont les paramètres d'impression du système d'exploitation indiquent que l'imprimante est visible.
@@ -187,8 +184,7 @@ Une fois la procédure d'inscription de votre imprimante à Google Cloud Print t
 1. Allez dans **Paramètres**, ou cliquez sur l'icône <InlineImage width="46" height="46">![Icône des paramètres d'OrderLine](../images/035-settings.jpg)</InlineImage> des paramètres.
 1. Dans le menu des paramètres, sélectionnez **IMPRESSION**.
 1. Cliquez sur **Connecter**.
-1. Google Cloud Print vous demande l'autorisation de connecter l'application HubRise.
-   **Remarque** : Google affichera HubRise en tant qu'application non enregistrée. HubRise ne sera pas enregistré auprès de Google, puisque le service Google Cloud Print n'est plus pris en charge depuis décembre 2020.
+1. Google Cloud Print vous demande l'autorisation de connecter l'application HubRise. **Remarque** : Google affichera HubRise en tant qu'application non enregistrée. HubRise ne sera pas enregistré auprès de Google, puisque le service Google Cloud Print n'est plus pris en charge depuis décembre 2020.
 1. Cliquez sur **Avancé**, puis **Aller sur hubrise-apps.com**.
 1. Google vous demandera d'octroyer l'accès de HubRise à votre périphérique Google Cloud Print. Cliquez sur **Autoriser** pour accomplir la procédure.
 

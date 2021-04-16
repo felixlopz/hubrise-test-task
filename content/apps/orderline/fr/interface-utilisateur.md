@@ -19,7 +19,7 @@ Les commandes peuvent être masquées, selon l'état du paramètre **Masquer le 
 
 Lorsque OrderLine trouve une commande dont la date de livraison se situe dans le futur, un compteur de commandes s'affiche près de l'onglet **JOURS SUIVANTS** d'OrderLine. Une notification sonore est également émise afin d'avertir l'utilisateur qu'une nouvelle commande a été reçue.
 
-![Onglet Jours suivants d'OrderLine](../images/007-fr-commandes-jours-suivants.png)
+![Onglet Jours suivants d'OrderLine](../images/007-fr-commandes-jours-suivants.png)
 
 ## Consultation de l'historique des commandes
 
