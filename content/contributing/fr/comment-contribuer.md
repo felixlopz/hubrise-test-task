@@ -15,7 +15,7 @@ Notre site Web comprend différents types de documentation technique. Nous nous 
 
 ## Contributeurs
 
-Toute personne est invitée à apporter sa contribution. Les éditeurs d'applications intégrées sont encouragés à réviser et maintenir à jour leurs contenus à titre proactif, mais l'ensemble des utilisateurs et parties prenantes de HubRise peuvent exprimer librement leur avis. Les motifs de cette contribution sont divers. Il peut s'agir :
+Toute personne est invitée à apporter sa contribution. Les éditeurs d'applications intégrées sont encouragés à réviser et maintenir à jour leurs contenus à titre proactif, mais l'ensemble des utilisateurs et parties prenantes de HubRise peuvent exprimer librement leur avis. Les motifs de cette contribution sont divers. Il peut s'agir :
 
 - De rendre les utilisateurs des applications connectées plus autonomes.
 - De mettre à jour la documentation des applications avec une nouvelle fonctionnalité.
