@@ -7,7 +7,12 @@ meta:
   description: Deliveroo overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
 gallery:
   - 006-en-deliveroo-screenshot.png
-  - 002-en-configuration-page.png path_override: / app_info : catégorie : Plateformes de commande de repas disponibilité : Royaume-Uni, Pays-Bas, France, Belgique, Irlande, Espagne, Italie, Australie, Nouvelle-Zélande, Singapour, Hong Kong, Émirats arabes unis et Koweït site Web : https://deliveroo.co.uk contact : support@deliveroo.co.uk
+  - 002-en-configuration-page.png
+app_info:
+  category: Food Ordering Platforms
+  availability: United Kingdom, Netherlands, France, Belgium, Ireland, Spain, Italy, Australia, New Zealand, Singapore, Hong Kong, United Arab Emirates, and Kuwait
+  website: https://deliveroo.co.uk
+  contact: support@deliveroo.co.uk
 ---
 
 ## Description
