@@ -1,5 +1,5 @@
 ---
-title: Video Guide
+title: Video Guide (en anglais)
 position: 4
 layout: documentation
 meta:
@@ -7,7 +7,7 @@ meta:
   description:
 ---
 
-[comment]: # (This page has been duplicated in .../contributing/fr)
+[comment]: # (This page is a duplicate from .../contributing/en)
 
 ## General Recommendations
 
