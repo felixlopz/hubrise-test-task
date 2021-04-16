@@ -3,11 +3,11 @@ title: Comment contribuer
 position: 0
 layout: documentation
 meta:
-  title: Contribuer à la documentation technique de HubRise
-  description: Ce guide fournit des instructions sur la manière de contribuer à la documentation technique de HubRise afin de l'améliorer ou la mettre à jour.
+  title: Contribuer à la documentation technique | HubRise
+  description: Ce que vous devez savoir pour contribuer à la documentation technique de HubRise afin de l'améliorer ou de la mettre à jour.
 ---
 
-Notre site Web comprend différents types de documentation technique. Nous nous efforçons de fournir suffisamment de détails afin que nos lecteurs soient le mieux informés possible, mais il existe toujours une marge d'amélioration. Vous pouvez apporter votre contribution aux documents suivants :
+Notre site Web comprend différents types de documentation technique. Nous nous efforçons d'offrir une documentation détaillée et à jour, mais il existe toujours une marge d'amélioration. Vous pouvez contribuer aux parties suivantes de la documentation :
 
 - Documentation de l'API pour les développeurs, utilisée par les ingénieurs durant le processus d'intégration.
 - Guide de l'utilisateur, qui contient une assistance sur la manière d'utiliser la plateforme HubRise.
@@ -15,11 +15,11 @@ Notre site Web comprend différents types de documentation technique. Nous nous 
 
 ## Contributeurs
 
-Toute personne est invitée à apporter sa contribution. Les éditeurs d'applications intégrées sont encouragés à réviser et maintenir à jour leurs contenus à titre proactif, mais l'ensemble des utilisateurs et parties prenantes de HubRise peuvent exprimer librement leur avis. Les motifs de cette contribution sont divers. Il peut s'agir :
+Tout le monde peut contribuer. Les éditeurs d'applications intégrées sont encouragés à réviser et maintenir à jour leurs contenus, mais tous les utilisateurs et parties prenantes de HubRise peuvent exprimer leur avis. Les raisons de contribuer peuvent être variées. Il peut s'agir :
 
 - De rendre les utilisateurs des applications connectées plus autonomes.
 - De mettre à jour la documentation des applications avec une nouvelle fonctionnalité.
-- D'aider les équipes d'assistance à résoudre les problèmes qui peuvent survenir.
+- D'aider les équipes d'assistance à résoudre les problèmes qui surviennent.
 - De documenter les questions fréquemment posées, pour éviter de répondre plusieurs fois aux mêmes questions.
 
 ## Procédure
@@ -34,8 +34,8 @@ Il est possible d'envoyer un simple e-mail, mais l'intégralité de notre docume
 
 La documentation de HubRise est conforme à un certain style rédactionnel.
 
-Celui-ci est lui-même défini dans un guide de style qui fixe les directives d'écriture. Il s'agit, notamment, des modèles de copie, de la voix grammaticale et de la tonalité à employer. Pour plus d'informations sur le style rédactionnel préconisé, reportez-vous au [guide de style](/contributing/guide-de-style).
+Celui-ci est lui-même défini dans un guide de style qui fixe les directives d'écriture. Il s'agit, notamment, des formules réutilisables, de la voix grammaticale et de la tonalité à employer. Pour plus d'informations sur le style rédactionnel préconisé, reportez-vous au [guide de style](/contributing/guide-de-style).
 
-Lorsqu'il s'avère nécessaire de compléter votre documentation par des captures d'écran, celles-ci doivent répondre à certaines spécifications techniques. Pour plus d'informations, voir le [guide des captures d'écran](/contributing/guide-des-captures-ecran) (en anglais).
+Lorsqu'il est nécessaire de compléter votre documentation par des captures d'écran, celles-ci doivent répondre à certaines spécifications techniques. Pour plus d'informations, voir le [guide des captures d'écran](/contributing/guide-des-captures-ecran) (en anglais).
 
 Vous pouvez également inclure des vidéos. Celles-ci doivent respecter un certain nombre de spécifications techniques. Pour en savoir plus, reportez-vous au [guide des vidéos](/contributing/guide-des-videos) (en anglais).

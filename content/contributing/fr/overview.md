@@ -11,7 +11,7 @@ content:
       paragraph_1: Vous avez repéré une erreur sur notre site, ou vous souhaitez mettre à jour la documentation de votre solution ? Nous vous expliquons comment procéder.
   thumbs:
     - title: Comment contribuer
-      description: Choses à savoir avant de contribuer.
+      description: Ce que vous devez savoir avant de contribuer.
       to: /contributing/comment-contribuer
       icon: fa-fast-forward
     - title: Guide de style
@@ -23,11 +23,11 @@ content:
       to: /contributing/referencer-votre-solution-sur-hubrise
       icon: fa-pencil
     - title: Guide des captures d'écran
-      description: Spécifications pour les capture d'écran et convention de dénomination des fichiers (en anglais).
+      description: Spécifications pour les captures d'écran et convention de nommage des fichiers (en anglais).
       to: /contributing/guide-des-captures-ecran
       icon: fa-desktop
     - title: Guide des vidéos
-      description: Commandes utiles pour générer des vidéos courtes pour tutoriels (en anglais). 
+      description: Commandes utiles pour générer de courtes vidéos explicatives (en anglais). 
       to: /contributing/guide-des-videos
       icon: fa-film
     - title: Guide des diagrammes
