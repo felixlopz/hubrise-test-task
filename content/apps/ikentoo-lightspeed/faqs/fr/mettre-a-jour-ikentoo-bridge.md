@@ -20,7 +20,7 @@ Pour profiter des fonctionnalités offertes par la nouvelle intégration avec iK
    
 1. Recherchez l'app **iKentoo Bridge**, cliquez sur celle-ci puis sur **Connecter**, et suivez les étapes indiquées.
 
-Pour plus d'informations, consultez les pages [Déconnecter une app](/docs/connections/#disconnect-app) et [Connecter une nouvelle app](/docs/connections/#connecting-a-new-app) (en anglais).
+Pour plus d'informations, consultez les pages [Déconnecter une app](/docs/connections/#disconnect-app) (en anglais) et [Connecter une nouvelle app](/docs/connections/#connecting-a-new-app) (en anglais).
 
 ## Reconnexion de votre compte Lightspeed
 
@@ -43,7 +43,9 @@ Pour plus d'informations, consultez les pages [Déconnecter une app](/docs/conne
    
 1. Optionnel : Si vous souhaitez synchroniser votre menu Lightspeed, sélectionnez un menu dans la section **Menu**. 
 
-1. Optionnel : Si vous souhaitez remonter les commandes Lightspeed vers HubRise, sélectionnez **Commandes récupérées depuis iKentoo** > **Récupérer les ventes payées d'iKentoo** et cliquez sur **Enregistrer**.
+1. Optionnel : Si vous souhaitez remonter les commandes Lightspeed vers HubRise, sélectionnez **Commandes récupérées depuis iKentoo** > **Comportement** > **Récupérer les ventes payées d'iKentoo**.
    ![Mettre à jour iKentoo Bridge - Changement du comportement](../../images/019-fr-option-comportement.png)
+
+1. Cliquez sur **Enregistrer**.
 
 Si vous possédez plusieurs points de vente, répétez les étapes précédentes pour chacun d'entre eux.
