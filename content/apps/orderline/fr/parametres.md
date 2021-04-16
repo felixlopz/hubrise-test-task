@@ -22,10 +22,10 @@ Le menu **Paramètres** comporte les options suivantes :
 
 ## Paramètres généraux
 
-Le menu **Paramètres** > **Général** comporte les options suivantes :
+Le menu **Paramètres** > **GÉNÉRAL** comporte les options suivantes :
 
-- **Déconnecter** : permet de mettre fin à la session OrderLine.
-- **Langue** : permet de changer la langue de l'interface. OrderLine prend en charge l'**anglais**, le **français** et le **russe**.
+- **Déconnecter** : met fin à la session OrderLine.
+- **Langue** : change la langue de l'interface. OrderLine prend en charge l'**anglais**, le **français** et le **russe**.
 
 ![Paramètres généraux](../images/009-fr-parametres-general.png)
 
@@ -76,7 +76,7 @@ Pour certains statuts, OrderLine peut vous demander de mettre à jour l'**heure 
 
 ---
 
-Pour que OrderLine propose la mise à jour de l'**heure de livraison** sur un certain statut, procédez comme suit :
+Pour que OrderLine propose de mettre à jour de l'**heure de livraison** lorsqu'une commande passe dans un certain statut, procédez comme suit :
 
 1. Sous l'option **Saisir une heure de livraison lorsque la commande passe dans l'un des statuts suivants**, sélectionnez la liste des statuts.
 1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour indiquer que le statut déclenchera une invite de mise à jour de l'heure de livraison. Pour déselectionner tous les statuts, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
@@ -115,17 +115,17 @@ L'exemple qui suit montre comment masquer les commandes ayant le statut **Termin
 
 ## Notifications
 
-Les utilisateurs peuvent être avertis par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Ces paramètres s'appliquent à la fois aux onglets **Aujourd'hui** et **Jours suivants**.
+Vous pouvez être averti par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Ces paramètres s'appliquent à la fois aux onglets **Aujourd'hui** et **Jours suivants**.
 
 ![Paramètres de notification](../images/016-fr-parametres-notifications.png)
 
 Les paramètres disponibles sont les suivants :
 
-| Paramètres | Description                                                               |
-| -------- | ------------------------------------------------------------------------- |
-| Répéter   | Nombre de fois où la notification sonore est émise.                          |
-| Intervalle | Délai d'attente avant que OrderLine ne réémette la notification sonore. |
-| Mélodie | Musique entendue lors de la notification sonore.                           |
+| Paramètres | Description                                         |
+| ---------- | --------------------------------------------------- |
+| Répétition | Nombre de répétitions de la notification sonore.    |
+| Intervalle | Délai entre deux notifications sonores successives. |
+| Mélodie    | Musique entendue lors de la notification sonore.    |
 
 Certaines mélodies ont une sonorité plus aiguë que d'autres. Choisissez la tonalité qui convient le mieux à vos goûts et à votre environnement. Le volume se règle dans les paramètres de votre appareil et non dans OrderLine.
 
@@ -139,7 +139,7 @@ Pour voir un exemple de paramétrage des notifications, consultez la vidéo suiv
 
 ### Imprimante locale
 
-OrderLine peut imprimer sur n'importe quelle imprimante reliée à l'appareil, via la boîte de dialogue d'impression du navigateur. Les commandes reçues sont imprimées manuellement. L'impression des reçus de commande peut vous aider dans leur traitement.
+OrderLine peut imprimer sur toute imprimante reliée à votre périphérique, via la boîte de dialogue d'impression du navigateur. Les commandes reçues sont imprimées manuellement. L'impression des reçus de commande peut vous aider dans leur traitement.
 
 ### Auto-impression via Google Cloud Print
 

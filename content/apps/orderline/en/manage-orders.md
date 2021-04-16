@@ -77,14 +77,6 @@ Completed Orders are hidden from **Today's Orders** by default. Click the **Toda
   <source src="../images/023-en-order-set-completed.webm" type="video/webm"/>
 </video>
 
-## Mark Delivery as Failed
-
-Orders with the status **In delivery** can print the Order receipt.
-
-<video controls title="OrderLine Failed Delivery Example">
-  <source src="../images/024-en-order-set-delivery-failed.webm" type="video/webm"/>
-</video>
-
 ## Print Order
 
 OrderLine connects to printers recognised by the operating system. It uses the system print dialog to print receipts.
