@@ -29,13 +29,10 @@ Pour plus d'informations, consultez les pages [Déconnecter une app](/docs/conne
 1. Dans la connexion **iKentoo Bridge**, cliquez **Ouvrir**. L'app iKentoo Bridge s'ouvre dans un nouvel onglet de votre navigateur.
    ![Mettre à jour iKentoo Bridge - Page des commandes](../../images/013-fr-page-commandes.png)
 
-1. Dans le menu déroulant situé en haut à droite, sélectionnez **Configuration**.
+1. Cliquez sur le nom de votre point de vente en haut à droite pour ouvrir le menu déroulant et sélectionnez **Configuration**.
    ![Mettre à jour iKentoo Bridge - Page de configuration](../../images/014-fr-page-configuration.png)
 
-1. Cliquez sur **Réinitialiser la configuration**.
-   ![Mettre à jour iKentoo Bridge - Confirmation de réinitialisation](../../images/015-fr-confirmation-reinitialiser.png)
-
-1. Cliquez sur **Réinitialiser**.
+1. Cliquez sur **Réinitialiser la configuration**, situé en bas de page. Dans la modale de confirmation, cliquez sur **Réinitialiser**.
    ![Mettre à jour iKentoo Bridge - Configuration réinitialisée](../../images/016-fr-configuration-reinitialisee.png)
 
 1. Cliquez sur **Connexion à iKentoo**. Si vous êtes redirigé vers votre espace Lightspeed, munissez-vous de vos identifiants et connectez-vous à votre compte Lightspeed.
@@ -44,11 +41,9 @@ Pour plus d'informations, consultez les pages [Déconnecter une app](/docs/conne
 1. Sélectionnez votre établissement et cliquez sur **Enregistrer**.
    ![Mettre à jour iKentoo Bridge - Configuration terminée](../../images/018-fr-configuration-terminee.png)
    
-1. Optionnel: Si vous souhaitez synchroniser votre menu Lightspeed, sélectionnez un menu dans la section **Menu**. 
+1. Optionnel : Si vous souhaitez synchroniser votre menu Lightspeed, sélectionnez un menu dans la section **Menu**. 
 
-1. Optionnel: Si vous souhaitez remonter les commandes Lightspeed vers HubRise, sélectionnez **Commandes récupérées depuis iKentoo** > **Récupérer les ventes payées d'iKentoo**.
+1. Optionnel : Si vous souhaitez remonter les commandes Lightspeed vers HubRise, sélectionnez **Commandes récupérées depuis iKentoo** > **Récupérer les ventes payées d'iKentoo** et cliquez sur **Enregistrer**.
    ![Mettre à jour iKentoo Bridge - Changement du comportement](../../images/019-fr-option-comportement.png)
-
-1. Cliquez sur **Enregistrer**.
 
 Si vous possédez plusieurs points de vente, répétez les étapes précédentes pour chacun d'entre eux.
