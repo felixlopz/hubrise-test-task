@@ -3,11 +3,11 @@ title: Paramètres
 position: 7
 layout: documentation
 meta:
-  title: Guide de paramétrage d'OrderLine
+  title: Paramètres | OrderLine | HubRise
   description: Instructions permettant de modifier les préférences linguistiques, le flux des statuts de commande et les options d'impression dans OrderLine.
 ---
 
-La section Paramètres vous permet de personnaliser OrderLine de sorte que l'app réponde le mieux à vos besoins. Les utilisateurs peuvent actualiser l'affichage et le fonctionnement d'OrderLine depuis le menu **Paramètres**. Pour accéder à la section Paramètres, sélectionnez l'icône en forme de roue dentée <InlineImage width="20" height="20">![Icône des paramètres d'OrderLine](../images/035-settings.jpg)</InlineImage> dans le coin supérieur droit.
+La section Paramètres vous permet de personnaliser OrderLine selon vos besoins. Vous pouvez modifier l'affichage et le fonctionnement d'OrderLine depuis le menu **Paramètres**. Pour accéder à la section Paramètres, sélectionnez l'icône en forme de roue dentée <InlineImage width="20" height="20">![Icône des paramètres d'OrderLine](../images/035-settings.jpg)</InlineImage> dans le coin supérieur droit.
 
 <video controls title="OrderLine Access Settings">
   <source src="../images/031-en-access-settings.webm" type="video/webm"/>
@@ -24,22 +24,22 @@ Le menu **Paramètres** comporte les options suivantes :
 
 Le menu **Paramètres** > **Général** comporte les options suivantes :
 
-- **Déconnecter** : permet à l'utilisateur de mettre fin à la session OrderLine.
-- **Langue** : permet à l'utilisateur de sélectionner sa langue préférée. OrderLine prend en charge l'**anglais**, le **français** et le **russe**.
+- **Déconnecter** : permet de mettre fin à la session OrderLine.
+- **Langue** : permet de changer la langue de l'interface. OrderLine prend en charge l'**anglais**, le **français** et le **russe**.
 
 ![Paramètres généraux](../images/009-fr-parametres-general.png)
 
-## Flux des statuts de commande
+## Enchaînement des statuts de commande
 
-La gestion des commandes s'effectue d'après leur statut. Dans **Paramètres** > **STATUTS DE COMMANDE**, les utilisateurs peuvent définir le flux des statuts afin de personnaliser la gestion des commandes.
+Les commandes se traitent en faisant évoluer leur statut suivant un enchaînement prédéfini. Dans **Paramètres** > **STATUTS DE COMMANDE**, vous pouvez personnaliser cet enchaînement.
 
 ![Paramètres/statuts](../images/014-fr-parametres-statuts-commande.png)
 
-Les statuts permettent de faire passer les commandes d'un état à un autre, un peu à la manière d'un diagramme de flux. Les commandes débutent toujours par le statut **Nouvelle**, mais elles peuvent évoluer de différentes manières selon le flux de statuts configuré par l'utilisateur. Une commande peut par exemple être **Acceptée**, puis **En livraison**, et s'achever par le statut **Terminée**. Dans chaque cas, sauf pour le statut **Terminée**, la commande peut se voir affecter le statut **Rejetée** :
+L'écran permet de choisir les prochains statuts accessibles à partir du statut actuel, un peu à la manière d'un diagramme de flux. Les commandes arrivent toujours dans le statut **Nouvelle**, mais elles peuvent évoluer de différentes manières selon l'enchaînement configuré. Dans l'exemple suivant, la commande peut successivement être **Acceptée**, puis **En livraison**, puis **Terminée**. A chaque étape, sauf pour le statut **Terminée**, la commande peut être **Rejetée** :
 
-![Exemple de flux de statuts](../images/010-fr-flux-statuts-exemple.png)
+![Exemple d'enchaînement de statuts](../images/010-fr-flux-statuts-exemple.png)
 
-Les utilisateurs peuvent sélectionner le flux de statuts standard d'OrderLine, le simplifier, ou le personnaliser entièrement de manière à ce qu'il corresponde à leur façon de travailler dans leur établissement.
+En partant de l'enchaînement de statuts standard d'OrderLine, vous pouvez le simplifier, ou le personnaliser entièrement de manière à ce qu'il corresponde à votre façon de travailler.
 
 Les statuts disponibles sont les suivants :
 
@@ -55,12 +55,12 @@ Les statuts disponibles sont les suivants :
 - Annulée
 - Échec livraison
 
-Pour définir le flux des statuts d'une commande, procédez comme suit :
+Pour définir l'enchaînement des statuts, procédez comme suit :
 
-1. Sélectionnez le statut à mettre à jour.
-1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour définir les statuts qu'une commande peut adopter à partir de son statut en cours. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné. Pour supprimer toutes les options, sélectionnez **Tout décocher**.
+1. Sélectionnez le statut de départ.
+1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour définir les prochains statuts disponibles à partir du statut de départ. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné. Pour supprimer toutes les options, sélectionnez **Tout décocher**.
 
-Dans l'exemple qui suit, le statut **Échec livraison** est ajouté en tant que flux de statuts possible pour le statut **En livraison**.
+Dans l'exemple qui suit, le statut **Échec livraison** est ajouté en tant que prochain statut possible pour le statut **En livraison**.
 
 <video controls title="OrderLine Set Status Flow Example">
   <source src="../images/011-en-set-status-flow.webm" type="video/webm"/>
@@ -68,31 +68,31 @@ Dans l'exemple qui suit, le statut **Échec livraison** est ajouté en tant que 
 
 ## Saisies complémentaires
 
-Lorsqu'une commande est configurée selon un statut spécifique, OrderLine peut demander à l'utilisateur de mettre à jour l'**heure de livraison**, ou d'ajouter un **commentaire**.
+Pour certains statuts, OrderLine peut vous demander de mettre à jour l'**heure de livraison**, ou d'ajouter un **commentaire**.
 
 ---
 
-**REMARQUE IMPORTANTE :** OrderLine n'envoie pas d'e-mails ni de mises à jour directement aux clients. Ces informations sont envoyées par votre solution de commande en ligne, sous deux conditions : Que la messagerie de votre client soit intégrée à HubRise. Que la messagerie de votre client soit intégrée à HubRise. Avant de mettre en place cette fonctionnalité, vérifiez que ces deux conditions sont remplies. Il est recommandé de créer une commande fictive afin de vérifier que le client reçoit bien la nouvelle heure de livraison et les commentaires.
+**REMARQUE IMPORTANTE :** OrderLine n'envoie pas d'e-mails ni de mises à jour directement aux clients. Ces informations sont envoyées par votre solution de commande en ligne, sous deux conditions : Que votre solution de commande en ligne supporte l'envoi de messages aux clients. Que l'envoi de messages soit intégré à HubRise. Avant de mettre en place cette fonctionnalité, vérifiez que ces deux conditions sont remplies. Nous recommandons de tester sur une commande fictive que le client reçoit bien la nouvelle heure de livraison et le commentaire.
 
 ---
 
-Pour inviter l'utilisateur à mettre à jour l'**heure de livraison** en fonction du statut, procédez comme suit :
+Pour que OrderLine propose la mise à jour de l'**heure de livraison** sur un certain statut, procédez comme suit :
 
 1. Sous l'option **Saisir une heure de livraison lorsque la commande passe dans l'un des statuts suivants**, sélectionnez la liste des statuts.
-1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour définir un statut pouvant être sélectionné par l'utilisateur. Pour supprimer toutes les options, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
+1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour indiquer que le statut déclenchera une invite de mise à jour de l'heure de livraison. Pour déselectionner tous les statuts, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
 
-Les indications qui suivent montrent comment ajouter une invite d'heure de livraison lorsqu'une commande est définie sur le statut **En livraison**.
+Les indications qui suivent montrent comment ajouter une invite d'heure de livraison lorsqu'une commande passe en statut **En livraison**.
 
 <video controls title="OrderLine in Delivery Prompt">
   <source src="../images/012-en-add-prompt-in-delivery.webm" type="video/webm"/>
 </video>
 
-Les utilisateurs peuvent être invités à ajouter un commentaire lorsqu'une commande est définie sur un statut spécifique lié au client. Pour inviter les utilisateurs à saisir un commentaire en fonction du nouveau statut de la commande, procédez comme suit :
+OrderLine peut vous demander la saisie optionnelle d'un commentaire lorsqu'une commande passe dans un statut prédéfini. Pour afficher une invite de saisie d'un commentaire, procédez comme suit :
 
 1. Dans la section **Saisir un commentaire lorsque la commande passe dans l'un des statuts suivants**, sélectionnez la liste des statuts.
-1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour définir un statut pouvant être sélectionné par l'utilisateur. Pour supprimer toutes les options, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
+1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour indiquer que le statut déclenchera une invite de saisie d'un commentaire. Pour déselectionner tous statuts, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
 
-Dans l'exemple qui suit, l'utilisateur est invité à saisir un commentaire lorsque les commandes adoptent le statut **TERMINÉE**.
+Dans l'exemple qui suit, l'utilisateur est invité à saisir un commentaire lorsque les commandes passent en statut **TERMINÉE**.
 
 <video controls title="OrderLine Prompt Comment Example">
   <source src="../images/013-en-add-prompt-user-comment.webm" type="video/webm"/>
@@ -100,12 +100,12 @@ Dans l'exemple qui suit, l'utilisateur est invité à saisir un commentaire lors
 
 ## Masquer les commandes
 
-Les commandes qui correspondent à un statut spécifique peuvent être masquées dans la liste **Aujourd'hui**. Pour afficher les commandes qui sont masquées dans la liste **Aujourd'hui**, sélectionnez la carte de la commande masquée.
+Vous pouvez masquer les commandes de l'onglet **Aujourd'hui** qui sont dans un statut spécifique. Pour afficher les commandes masquées dans l'onglet **Aujourd'hui**, sélectionnez la carte de la commande masquée.
 
 Pour masquer des commandes dans la liste **Aujourd'hui**, procédez comme suit :
 
 1. Dans la section **Masquer les commandes de l'onglet 'Aujourd'hui' qui se trouvent dans l'un des statuts suivants**, sélectionnez la liste des statuts.
-1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour masquer une commande ayant ce statut. Pour supprimer toutes les options, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
+1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour masquer les commandes ayant ce statut. Pour déselectionner tous les statuts, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
 
 L'exemple qui suit montre comment masquer les commandes ayant le statut **Terminée**.
 
@@ -115,7 +115,7 @@ L'exemple qui suit montre comment masquer les commandes ayant le statut **Termin
 
 ## Notifications
 
-Les utilisateurs peuvent être avertis par un son lorsque de nouvelles commandes sont récupérées par OrderLine en fonction des paramètres de notification. Cette option s'applique à la fois aux rubriques **Aujourd'hui** et **Jours suivants**.
+Les utilisateurs peuvent être avertis par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Ces paramètres s'appliquent à la fois aux onglets **Aujourd'hui** et **Jours suivants**.
 
 ![Paramètres de notification](../images/016-fr-parametres-notifications.png)
 
@@ -139,7 +139,7 @@ Pour voir un exemple de paramétrage des notifications, consultez la vidéo suiv
 
 ### Imprimante locale
 
-OrderLine peut imprimer sur n'importe quelle imprimante reliée à l'appareil, via la boîte de dialogue d'impression du navigateur. Les commandes reçues sont validées et imprimées manuellement. Cette procédure est recommandée pour accuser réception des commandes.
+OrderLine peut imprimer sur n'importe quelle imprimante reliée à l'appareil, via la boîte de dialogue d'impression du navigateur. Les commandes reçues sont imprimées manuellement. L'impression des reçus de commande peut vous aider dans leur traitement.
 
 ### Auto-impression via Google Cloud Print
 

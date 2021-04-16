@@ -3,11 +3,11 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion d'OrderLine à HubRise
+  title: Connexion à HubRise | OrderLine | HubRise
   description: Instructions pour connecter OrderLine à HubRise
 ---
 
-Pour permettre à OrderLine de traiter des commandes, vous devez d'abord connecter l'app à votre compte HubRise. Pour connecter OrderLine à votre compte HubRise, procédez comme suit :
+OrderLine doit être connecté à votre compte HubRise avant de pouvoir traiter vos commandes. Pour connecter OrderLine à votre compte HubRise, procédez comme suit :
 
 1. Connectez-vous à votre compte HubRise. Pour créer un compte HubRise, consultez la [page d'inscription à HubRise](https://manager.hubrise.com/signup?locale=fr-FR) et suivez les instructions. Pour plus d'informations sur HubRise, voir la rubrique [Débuter avec HubRise](/docs/getting-started).
 
@@ -17,7 +17,7 @@ Pour permettre à OrderLine de traiter des commandes, vous devez d'abord connect
 
 1. Sélectionnez **Connecter**.
 
-1. Accordez à OrderLine l'accès au point de vente de votre restaurant référencé dans HubRise.
+1. Accordez à OrderLine l'accès au point de vente choisi.
 
    - Si votre point de vente n'a pas encore été créé dans HubRise, sélectionnez **Créer un nouveau point de vente**.
    - Pour les comptes associés à plusieurs points de vente, développez **Tous les points de vente**, choisissez l'entrée souhaitée, puis sélectionnez **Autoriser**.
