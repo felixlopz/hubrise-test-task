@@ -1,13 +1,13 @@
 ---
-title: Screenshots Guide
+title: Screenshots Guide (en anglais)
 position: 3
 layout: documentation
 meta:
-  title: Screenshots Guide | HubRise
+  title: Screenshots Guide - HubRise
   description: Guidelines to include screenshots in the HubRise documentation.
 ---
 
-[comment]: # (This page has been duplicated in .../contributing/fr)
+[comment]: # (This page is a duplicate from .../contributing/en)
 
 ## General Recommendations
 
