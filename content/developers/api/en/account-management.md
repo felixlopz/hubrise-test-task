@@ -3,7 +3,7 @@ title: Account Management
 position: 2
 layout: documentation
 meta:
-  title:
+  title: Account Management | API | HubRise
   description:
 ---
 

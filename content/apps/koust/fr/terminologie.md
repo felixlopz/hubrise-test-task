@@ -3,7 +3,7 @@ title: Terminologie
 position: 5
 layout: documentation
 meta:
-  title: Connecter Koust à HubRise - Terminologie
+  title: Terminologie | Koust | HubRise
   description: Table de correspondance entre les termes utilisés par Koust et HubRise pour le même concept. Connectez vos apps et synchronisez vos données.
 ---
 

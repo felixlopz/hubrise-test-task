@@ -3,7 +3,7 @@ title: Commandes
 position: 4
 layout: documentation
 meta:
-  title: Connecter Nestor à HubRise - Commandes
+  title: Commandes | Nestor | HubRise
   description: Réceptionner et modifier le statut des commandes HubRise reçues dans Nestor. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 

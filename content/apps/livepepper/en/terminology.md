@@ -3,7 +3,7 @@ title: Terminology
 position: 5
 layout: documentation
 meta:
-  title: Connect LivePepper to HubRise - Terminology Guide
+  title: Terminology | LivePepper | HubRise
   description: Correspondence table showing terms used by LivePepper and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 

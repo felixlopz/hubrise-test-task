@@ -3,7 +3,7 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect Deliveroo to HubRise - Overview
+  title: Overview | Deliveroo | HubRise
   description: Deliveroo overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 006-en-deliveroo-screenshot.png

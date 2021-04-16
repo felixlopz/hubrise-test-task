@@ -3,7 +3,7 @@ title: Settings
 position: 7
 layout: documentation
 meta:
-  title: Connect OrderLine to HubRise - Settings Guide
+  title: Settings | OrderLine | HubRise
   description: Instructions on how to modify OrderLine's language preferences, status flow, and printing options. Synchronise data between your EPOS and your apps.
 ---
 
