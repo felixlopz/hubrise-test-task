@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: Zelty - Troubleshooting Connection Issues
-  description: "Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more."
+  title: Troubleshooting | Zelty | HubRise
+  description: Troubleshooting Zelty connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 From time to time it may be necessary to troubleshoot certain issues with the connection between Zelty or HubRise. Should this need arise, the following information may be helpful.

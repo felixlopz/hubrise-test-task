@@ -3,8 +3,8 @@ title: Utilisation sans logiciel de caisse
 position: 6
 layout: documentation
 meta:
-  title: Utilisation sans logiciel de caisse - Koust
-  description: Configuration des articles Koust si vous n'utilisez pas de logiciel de caisse.
+  title: Utilisation sans logiciel de caisse | Koust | HubRise
+  description: Configuration des articles Koust si vous n'utilisez pas de logiciel de caisse. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
 ## Import CSV
@@ -13,7 +13,7 @@ Si votre entreprise n'utilise pas de logiciel de caisse, vous pouvez importer vo
 
 ---
 
-**NOTE IMPORTANTE :** Pour éviter tout problème d'encodage ou d'accent, assurez-vous d'enregistrer votre fichier CSV en encodage UTF-8.
+**REMARQUE IMPORTANTE :** Pour éviter tout problème d'encodage ou d'accent, assurez-vous d'enregistrer votre fichier CSV en encodage UTF-8.
 
 ---
 

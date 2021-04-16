@@ -3,8 +3,8 @@ title: Associer les codes ref
 position: 4
 layout: documentation
 meta:
-  title: Associer les codes ref - Koust
-  description: Importer un catalogue depuis HubRise, et retrouver les codes ref des articles.
+  title: Associer les codes ref | Koust | HubRise
+  description: Instructions pour associer les codes ref des produits Koust avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
 Une fois Koust connecté à HubRise, les commandes provenant de HubRise sont importées automatiquement. Pour vous assurer de la bonne synchronisation des articles, suivez les instructions détaillées sur cette page.
@@ -24,7 +24,7 @@ A tout moment, vous pouvez importer manuellement le catalogue depuis HubRise :
 
 ---
 
-**NOTE IMPORTANTE :** Le catalogue est importé automatiquement dans Koust au moment de la connexion avec HubRise.
+**REMARQUE IMPORTANTE :** Le catalogue est importé automatiquement dans Koust au moment de la connexion avec HubRise.
 
 ---
 

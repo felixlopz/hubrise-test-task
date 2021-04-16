@@ -3,8 +3,8 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: Deliveroo Connection to HubRise - User Interface
-  description: How to navigate the Deliveroo Bridge main page to access information about the orders and customise the behaviour of the bridge.
+  title: User Interface | Deliveroo | HubRise
+  description: How to navigate the Deliveroo Bridge main page to access information about the orders and customise the behaviour of the bridge. Synchronise your data.
 ---
 
 From the main page of Deliveroo Bridge, you can read the logs of all the operations between HubRise and Deliveroo, and access the configuration settings of the integration.

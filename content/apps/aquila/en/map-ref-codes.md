@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Aquila Connection to HubRise Configuration
-  description: Instructions on how to configure Aquila for optimal connection to HubRise and other platforms.
+  title: Map Ref Codes | Aquila | HubRise
+  description: Instructions on mapping Aquila CMS product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 Once your Aquila site is connected with a HubRise account, customer and order information will be pushed into HubRise automatically. For the connection to work with all apps in HubRise, some configuration on the Aquila side may be needed. This is particularly true for the connection with an EPOS.

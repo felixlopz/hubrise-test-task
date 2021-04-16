@@ -3,8 +3,8 @@ title: F.A.Q.
 position: 6
 layout: documentation
 meta:
-  title: F.A.Q. - Nestor
-  description: Questions fréquentes posées sur l'intégration de Nestor à HubRise.
+  title: F.A.Q. | Nestor | HubRise
+  description: Questions fréquentes posées sur la connexion de Nestor à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
 - <Link to="/apps/nestor/faqs/prix-differents-articles">Comment Nestor traite les différences de prix dans les articles ?</Link>

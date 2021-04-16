@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 8
 layout: documentation
 meta:
-  title: OrderLine Troubleshooting Guide
-  description: Instructions on how resolve issues on OrderLine.
+  title: Troubleshooting | OrderLine | HubRise
+  description: Troubleshooting OrderLine connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 ## I cannot hear orders coming in

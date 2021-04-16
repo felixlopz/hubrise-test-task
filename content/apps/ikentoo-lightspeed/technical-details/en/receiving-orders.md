@@ -3,7 +3,7 @@ title: Receiving Orders
 position: 1
 layout: documentation
 meta:
-  title: Receiving Orders - iKentoo by Lightspeed
+  title: Receiving Orders | iKentoo by Lightspeed Technical Details | HubRise
   description: Find out the technical details of how orders are sent to iKentoo from HubRise, which fields are passed and which are not.
 ---
 
@@ -41,4 +41,4 @@ The following account profile codes are typically used, but may vary depending o
 - `DELIVERY`, for delivery orders
 - `LOCAL`, for eat-in orders
 
-Other specific service type ref codes must be used when you connect iKentoo to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Integrating with Delivery Platforms](/apps/ikentoo-lightspeed/technical-details/integrating-with-delivery-platforms).
+Other specific service type ref codes must be used when you connect iKentoo to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Integrating with Delivery Platforms](/apps/ikentoo-lightspeed/food-ordering-platforms).

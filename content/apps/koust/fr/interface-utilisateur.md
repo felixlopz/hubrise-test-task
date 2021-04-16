@@ -3,8 +3,8 @@ title: Interface utilisateur
 position: 3
 layout: documentation
 meta:
-  title: Interface utilisateur - Koust
-  description: Accéder aux différentes pages telles que la liste des articles ou celle des commandes.
+  title: Interface utilisateur | Koust | HubRise
+  description: Accéder aux différentes pages telles que la liste des articles ou celle des commandes. Connectez vos apps et synchronisez vos données.
 ---
 
 Le tableau de bord Koust permet de consulter les commandes, et les articles provenant de votre catalogue et des commandes HubRise.

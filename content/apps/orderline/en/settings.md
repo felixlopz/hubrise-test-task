@@ -3,8 +3,8 @@ title: Settings
 position: 7
 layout: documentation
 meta:
-  title: OrderLine Settings Guide
-  description: Instructions for modifying OrderLine's language preferences, status flow, and printing options.
+  title: Settings | OrderLine | HubRise
+  description: Instructions on how to modify OrderLine's language preferences, status flow, and printing options. Synchronise data between your EPOS and your apps.
 ---
 
 Go to Settings to customise OrderLine to best fit your needs. Users are able to update how OrderLine displays and functions through the **Settings** menu. To access Settings, select the gear icon <InlineImage width="20" height="20">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> in the upper right hand corner.

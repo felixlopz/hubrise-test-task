@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 4
 layout: documentation
 meta:
-  title: Aquila Connection to HubRise Troubleshooting
-  description: Instructions on how to resolve connection issues
+  title: Troubleshooting | Aquila | HubRise
+  description: Troubleshooting Aquila CMS connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 ## Verify Product Mapping

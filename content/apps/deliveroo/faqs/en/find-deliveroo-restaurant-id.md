@@ -3,7 +3,7 @@ title: How Do I Find My Deliveroo Restaurant ID?
 position: 1
 layout: documentation
 meta:
-  title: Connect Deliveroo to HubRise - Restaurant ID
+  title: Find My Restaurant ID | Deliveroo FAQs | HubRise
   description: Instructions on how to find the Deliveroo Restaurant ID for your restaurant to start receiving orders on HubRise.
 ---
 

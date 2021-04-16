@@ -3,7 +3,7 @@ title: Catalogs
 position: 12
 layout: documentation
 meta:
-  title: HubRise Catalogs
+  title: Catalogs | HubRise
   description: How to manage HubRise catalogs.
 ---
 

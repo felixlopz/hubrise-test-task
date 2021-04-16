@@ -3,8 +3,8 @@ title: FAQs
 position: 6
 layout: documentation
 meta:
-  title: Aquila Connection to HubRise FAQs
-  description: Frequently asked questions and their answers.
+  title: FAQs | Aquila | HubRise
+  description: FAQs on connecting Aquila CMS with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 [comment]: # 'FAQs to create'

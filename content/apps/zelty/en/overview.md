@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: Zelty - Overview & HubRise Integration
-  description: "Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more."
+  title: Overview | Zelty | HubRise
+  description: Zelty overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 002-zelty-epos-interface.png
 
@@ -26,11 +26,6 @@ It is an open solution that integrates with customers existing tools either dire
 Zelty complies with French anti-fraud regulations which came into force on January 1, 2018.
 The back office is available in French.
 
-## Prerequisites
-
-To establish a connection between Zelty and HubRise, you must have an existing Zelty account.
-Zelty can connect to an existing or a new HubRise Account.
-
 ## Integration Features
 
 Connecting Zelty to HubRise allows Zelty to:
@@ -47,4 +42,9 @@ Connecting Zelty to HubRise allows Zelty to:
 
 ## Why Connect?
 
-Connecting Zelty to HubRise makes your EPOS and your other apps work as a cohesive whole. Synchronise your menu, your customer and order information with mobile ordering apps, ordering websites, loyalty systems, marketing or business intelligence solutions, delivery services. For more information on HubRise, see our [User Guide](/docs).
+Connecting Zelty to HubRise makes your EPOS and your other apps work as a cohesive whole. Synchronise your menu, your customer and order information with mobile ordering apps, ordering websites, delivery services, loyalty systems, marketing or business intelligence solutions. For more information on HubRise, see our [User Guide](/docs).
+
+
+## Prerequisites
+
+To establish a connection between Zelty and HubRise, you must have an existing Zelty account.

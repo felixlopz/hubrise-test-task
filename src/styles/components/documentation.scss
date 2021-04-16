@@ -3,6 +3,9 @@
 
   h2,
   h3 {
+    scroll-snap-align: start;
+    scroll-margin-top: 1rem;
+
     a {
       color: transparent;
       margin-left: 0.33rem;

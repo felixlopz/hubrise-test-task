@@ -61,7 +61,6 @@ AppSection.propTypes = {
   showTitle: PropTypes.bool.isRequired,
   apps: PropTypes.arrayOf(
     PropTypes.shape({
-      to: PropTypes.string.isRequired,
       logo: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,

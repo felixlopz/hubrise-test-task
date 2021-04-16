@@ -3,8 +3,8 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: Uber Eats Connection to HubRise - User Interface
-  description: How to navigate Uber Eats Bridge main page to access information about the orders and customise the behaviour of the bridge.
+  title: User Interface | Uber Eats | HubRise
+  description: Instructions on navigating Uber Eats Bridge main page to access information about the orders and customise the behaviour of the bridge. Synchronise your data.
 ---
 
 From the main page of Uber Eats Bridge, you can read the logs of all the operations between HubRise and Uber Eats, and access the configuration settings of the integration.

@@ -3,7 +3,7 @@ title: Style Guide
 position: 1
 layout: documentation
 meta:
-  title: HubRise Style Guide
+  title: Documentation Style Guide | HubRise
   description: Anyone can contribute to the HubRise online documentation. The style guide provides editorial guidelines for anyone contributing to it.
 ---
 
@@ -39,9 +39,9 @@ Also, if it is an expression that has a well known acronym amongst your target a
 
 Words such as a, an, and, but, for, nor, of, or, so, to, and yet must not be capitalised.
 
-> Wrong: If You Are Unsure On Whether To Capitalise Something Or Not, Do Not Capitalise It.
+> Wrong: If You Are Unsure On Whether To Capitalise Something Or Not, Do Not Capitalise It
 
-> Right: If You Are Unsure on Whether to Capitalise Something or Not, Do Not Capitalise It.
+> Right: If You Are Unsure on Whether to Capitalise Something or Not, Do Not Capitalise It
 
 You may use [Capitalize My Title](https://capitalizemytitle.com/) to help you capitalise your headings. Choose the “APA” style.
 
@@ -289,6 +289,14 @@ For example:
 
 ![Screenshot of Time Completed](../images/003-en-completed-time-screenshot.png)
 
+### Optional steps
+
+When a step is optional, add *Optional:* as the first word of the step.
+
+> Incorrect: (Optional) Click **Log in**.
+
+> Correct: Optional: Click **Log in**.
+
 ### Screenshots
 
 A full guide on screenshots can be found in the [Screenshots Guide](/contributing/screenshots-guide).
@@ -329,20 +337,32 @@ A meta title and meta description should be added to every file.
 
 ### Meta Title
 
+Meta titles are composed by concatenating the page title, the section name, and the word "HubRise", separated by `|`. 
+
+If the resulting title contains more than 60 characters, try shrinking the first part, by summarizing the page title.
+
 Meta titles should be capitalised following HubRise's title rules written in _Title Case_ with no full stop at the end. For more information on capitalisation rules, see [Capitalisation](#capitalisation).
 
-The meta title should include no more than 60 characters. Google might truncate it if you make it longer.
-Most important or unique aspect of the page keywords should be in first position. At minima including the page title and a reference to HubRise will help convey an accurate message, related to the page content.
-
-A typical structure could be: Primary Keyword - Secondary Keyword | Brand Name
-
-For example: LightSpeed K Series - Connection | HubRise
+> Right: Overview | Lightspeed K Series | HubRise 
 
 ### Meta Description
 
 The meta description should use _Sentence Case_ with a full stop at the end.
 
 The meta description should include 155 to 160 characters. Google will truncate it if you make it longer.
-The content should be relevant and unique from other pages. It should be easy to read and offer a compelling description using important keywords
+The content should be relevant and unique from other pages. It should be easy to read and offer a compelling description using important keywords.
 
-For example: Instructions on how to configure LivePepper for optimal connection to HubRise. Follow these steps and LivePepper will work with any app on the HubRise ecosystem.
+> Right: meta description structure to use for each of the documentation pages
+>
+> - **Overview**: Lightspeed K Series overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+> - **Connection to HubRise**: Instructions on connecting Lightspeed K Series with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
+> - **Map Ref Codes**: Instructions on mapping Lightspeed K Series product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
+> - **Troubleshooting**: Troubleshooting Lightspeed K Series connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
+> - **Terminology**: Correspondence table showing terms used by Lightspeed K Series and those used on HubRise for the same concept. Connect apps and synchronise your data.
+> - **FAQ**: FAQs on connecting Lightspeed K Series with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
+
+To complete a meta description and maximise the number of characters, it is possible to add a small sentence at the end:
+
+- Connect apps and synchronise your data.
+- Synchronise your data.
+- Connect apps.

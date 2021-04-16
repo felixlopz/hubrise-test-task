@@ -14,8 +14,8 @@ export const Apps = ({ title, description, categories, apps, appsHover }) => {
               dangerouslySetInnerHTML={{ __html: markdownToHtml(description) }}
             />
             <ul className="frontpage-apps__categories">
-              {categories.map((category) => (
-                <li className="frontpage-apps__categories-item">{category}</li>
+              {categories.map((category, idx) => (
+                <li className="frontpage-apps__categories-item" key={idx}>{category}</li>
               ))}
             </ul>
           </div>
