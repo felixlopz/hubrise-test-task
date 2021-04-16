@@ -35,7 +35,7 @@ Orders are managed through their Status values. In **Settings** > **ORDER STATUS
 
 ![Settings status](../images/014-en-settings-order-status.png)
 
-Statuses are used to move orders from one state to the next, much like a flowchart. Orders always start with New, but can proceed in different ways depending how the user sets up their status flow. For example, a status flow might allow Orders to be Accepted, then In delivery, then ending with Completed, with every status except Completed able to lead to Rejected:
+Statuses are used to move orders from one state to the next, much like a flowchart. Orders always start with **New**, but can proceed in different ways depending how the user sets up their status flow. For example, a status flow might allow Orders to be **Accepted**, then **In delivery**, then ending with **Completed**, with every status except **Completed** able to lead to **Rejected**:
 
 ![Status flow example](../images/010-en-2x-status-flow-example.png)
 
@@ -72,10 +72,8 @@ When an Order is set to a specified Status, OrderLine can prompt the user for an
 
 ---
 
-**IMPORTANT NOTE:** OrderLine does not send out emails or updates to clients directly. These are sent by your online ordering solution under two conditions:
-Your online ordering solutions supports customer messaging.
-Customer messaging has been integrated with HubRise.
-Before setting up this feature, check that both of these conditions are met. It is recommended to create a test Order and verify that the updated confirmation time and comments are sent to the client.
+**IMPORTANT NOTE:** OrderLine does not send out emails or updates to clients directly. These are sent by your online ordering solution under two conditions: Your online ordering solutions supports customer messaging.
+Customer messaging has been integrated with HubRise. Before setting up this feature, check that both of these conditions are met. It is recommended to create a test Order and verify that the updated confirmation time and comments are sent to the client.
 
 ---
 
@@ -184,8 +182,8 @@ If you wish to configure Google Cloud Print settings, go to [https://www.google.
 
 Once you register your printer in Google Cloud Print, you must connect OrderLine with Google Cloud Print through the following process:
 
-1. Go to **Settings **or click on the <InlineImage width="46" height="46">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> settings icon.
-1. Select **PRINTING **in the settings menu.
+1. Go to **Settings** or click on the <InlineImage width="46" height="46">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> settings icon.
+1. Select **PRINTING** in the settings menu.
 1. Click **Connect**.
 1. Google Cloud Print will request permission to connect the HubRise application.
    **Note**: Google will list HubRise as an unregistered application. HubRise will not register with Google, as the Google Cloud Print service will not be supported as of December 2020.
