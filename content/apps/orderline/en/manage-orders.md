@@ -3,7 +3,7 @@ title: Manage Orders
 position: 5
 layout: documentation
 meta:
-  title: Connect OrderLine to HubRise - Manage Orders
+  title: Manage Orders | OrderLine | HubRise
   description: Instructions on how to view order details, to update the order status, and to print a receipt. Connect apps and synchronise your data.
 ---
 

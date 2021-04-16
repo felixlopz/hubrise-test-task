@@ -3,7 +3,7 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: Connect iKentoo by Lightspeed to HubRise - User Interface Guide
+  title: User Interface | iKentoo by Lightspeed | HubRise
   description: Instructions on how to navigate through the iKentoo Bridge user interface. Connect apps and synchronise your data.
 ---
 

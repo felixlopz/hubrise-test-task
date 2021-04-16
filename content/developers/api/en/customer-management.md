@@ -3,7 +3,7 @@ title: Customer Management
 position: 5
 layout: documentation
 meta:
-  title:
+  title: Customer Management | API | HubRise
   description:
 ---
 

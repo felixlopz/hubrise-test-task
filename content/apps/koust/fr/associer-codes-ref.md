@@ -3,7 +3,7 @@ title: Associer les codes ref
 position: 4
 layout: documentation
 meta:
-  title: Connecter Koust à HubRise - Associer les codes ref
+  title: Associer les codes ref | Koust | HubRise
   description: Instructions pour associer les codes ref des produits Koust avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 

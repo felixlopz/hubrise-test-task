@@ -3,7 +3,7 @@ title: Guide de style
 position: 1
 layout: documentation
 meta:
-  title: Guide de style - HubRise
+  title: Guide de style | HubRise
   description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style contient des recommendations éditoriales pour contribuer à la documentation.
 ---
 
@@ -160,32 +160,35 @@ Utilisez l'écriture italique pour définir les acronymes, et pour les exemples.
 
 ## Actions utilisateur
 
+### Description
+
 Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l'action doit être réalisée, puis décrivez l'action elle-même.
 
 > Incorrect : Cliquez sur **Configuration** dans le menu principal.
 
 > Correct : Dans le menu principal, cliquez sur **Configuration**.
->
+
+### Actions optionnelles
+
+Si une action à réaliser est optionnelle, ajoutez *Optionnel :* avant la description de cette action.
+
+> Incorrect : (Optionnel) Cliquez sur **Se connecter**.
+
+> Correct : Optionnel : Cliquez sur **Se connecter**.
+
 ## Méta-titre et méta-description
 
 Un méta-titre et une méta-description doivent être ajoutés à chaque fichier.
 
 ### Méta-titre
 
-Les méta-titres suivent les même règles que les autres titres, sans point final à la fin des phrases.
+Pour les pages de la documentation, le méta-titre est composé du titre de la page, suivi du nom de la section, suivi de "HubRise". Le séparateur est le caractère `|`.
 
-Le méta-titre ne doit pas comporter plus de 60 caractères. Google pourrait le tronquer si vous le rallongez.
-L'aspect le plus important ou le plus unique des mots-clés de la page doit être en première position. Au minimum, inclure le titre de la page et une référence à HubRise. Le message doit être clair et lié au contenu de la page.
+Si le méta-titre ainsi obtenu comporte plus de 60 caractères, essayez d'en raccourcir la première partie, en résumant le titre de la page.
 
+Les méta-titres suivent les même règles de capitalisation et de ponctuation que les autres titres. 
 
-> Correct: structure de méta-titre à utiliser pour chaque page de la documentation
->
-> - **Présentation générale**: Connecter Lightspeed K Series à HubRise - Présentation générale
-> - **Connexion à HubRise**: Connecter Lightspeed K Series à HubRise - Connexion
-> - **Associer les codes ref**: Connecter Lightspeed K Series à HubRise - Associer les codes ref
-> - **Dépannage**: Connecter Lightspeed K Series à HubRise - Dépannage
-> - **Terminologie**: Connecter Lightspeed K Series à HubRise - Terminologie
-> - **F.A.Q.**: Connecter Lightspeed K Series à HubRise - F.A.Q.
+> Correct: Présentation générale | Lightspeed K Series | HubRise
 
 ### Méta-description
 

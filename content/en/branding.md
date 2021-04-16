@@ -2,7 +2,7 @@
 title: Branding Guidelines
 layout: simple
 meta:
-  title: Branding Guidelines, Logos and Text to reuse | HuBRise
+  title: Branding Guidelines, Logos and Text to use | HubRise
   description:
 Did you mean: Download the HubRise logo. Find HubRise descriptions to adapt and reuse on your app's back office or website when referring to HubRise.
 ---

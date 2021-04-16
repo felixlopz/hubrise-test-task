@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Connect TastyCloud to HubRise - Map Ref Codes Guide
+  title: Map Ref Codes | TastyCloud | HubRise
   description: Instructions on mapping TastyCloud product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 

@@ -3,7 +3,7 @@ title: Open & Close OrderLine
 position: 3
 layout: documentation
 meta:
-  title: Connect OrderLine to HubRise - Open & Close OrderLine
+  title: Open & Close OrderLine | OrderLine | HubRise
   description: Instructions on how to open OrderLine and log out from it. Synchronise data between your EPOS and your apps.
 ---
 

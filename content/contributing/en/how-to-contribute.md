@@ -3,7 +3,7 @@ title: How to Contribute
 position: 0
 layout: documentation
 meta:
-  title: Contribution Guidelines - HubRise
+  title: Contribution Guidelines | HubRise
   description: This guide provides guidelines on how to contribute to the HubRise technical documentation in order to improve it or update it.
 ---
 

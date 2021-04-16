@@ -3,7 +3,7 @@ title: Reference Your Solution on HubRise
 position: 6
 layout: documentation
 meta:
-  title: Reference Your Solution - HubRise
+  title: Reference Your Solution | HubRise
   description: Once your integration has been approved, you can request to be referenced on HubRise. The list of elements to provide depends on the type of inclusion.
 ---
 

@@ -3,7 +3,7 @@ title: Terminology
 position: 5
 layout: documentation
 meta:
-  title: Connect Aquila CMS to HubRise - Terminology Guide
+  title: Terminology | Aquila | HubRise
   description: Correspondence table showing terms used by Aquila CMS and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 

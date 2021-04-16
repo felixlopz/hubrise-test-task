@@ -3,7 +3,7 @@ title: Terminology
 position: 3
 layout: documentation
 meta:
-  title: Connect PixelPoint to HubRise - Terminology Guide
+  title: Terminology | PixelPoint | HubRise
   description: Correspondence table showing terms used by PixelPoint and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 

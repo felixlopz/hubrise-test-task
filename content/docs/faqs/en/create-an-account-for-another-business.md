@@ -3,7 +3,7 @@ title: How Do I Create an Account for Another Business?
 position: 120
 layout: documentation
 meta:
-  title: Create an Account for Another Business - HubRise
+  title: Create an Account for Another Business | HubRise
   description: Step-by-step instructions on how to create an account for another business on HubRise. Assist your clients setting up on HubRise when connecting your app.
 ---
 

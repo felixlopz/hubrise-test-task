@@ -3,7 +3,7 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Connecter Koust à HubRise - Présentation générale
+  title: Présentation générale | Koust | HubRise
   description: Présentation générale de Koust, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /

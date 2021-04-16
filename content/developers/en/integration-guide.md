@@ -3,7 +3,7 @@ title: Integration Guide
 position: 3
 layout: documentation
 meta:
-  title: HubRise Integration Guide
+  title: Integration Guide | HubRise
   description: An integration guide with best practices and practical suggestions to develop an integration with HubRise.
 ---
 
