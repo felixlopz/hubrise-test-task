@@ -289,6 +289,14 @@ For example:
 
 ![Screenshot of Time Completed](../images/003-en-completed-time-screenshot.png)
 
+### Optional steps
+
+When a step is optional, add *Optional:* as the first word of the step.
+
+> Incorrect: (Optional) Click **Log in**.
+
+> Correct: Optional: Click **Log in**.
+
 ### Screenshots
 
 A full guide on screenshots can be found in the [Screenshots Guide](/contributing/screenshots-guide).

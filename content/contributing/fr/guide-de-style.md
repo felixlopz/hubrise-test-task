@@ -160,12 +160,22 @@ Utilisez l'écriture italique pour définir les acronymes, et pour les exemples.
 
 ## Actions utilisateur
 
+### Description
+
 Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l'action doit être réalisée, puis décrivez l'action elle-même.
 
 > Incorrect : Cliquez sur **Configuration** dans le menu principal.
 
 > Correct : Dans le menu principal, cliquez sur **Configuration**.
->
+
+### Actions optionnelles
+
+Si une action à réaliser est optionnelle, ajoutez *Optionnel :* avant la description de cette action.
+
+> Incorrect : (Optionnel) Cliquez sur **Se connecter**.
+
+> Correct : Optionnel : Cliquez sur **Se connecter**.
+
 ## Méta-titre et méta-description
 
 Un méta-titre et une méta-description doivent être ajoutés à chaque fichier.
