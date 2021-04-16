@@ -1,0 +1,56 @@
+---
+title: Configuration
+position: 4
+layout: documentation
+meta:
+  title: Configuration - Connecter Deliveroo à HubRise
+  description: See instructions to configure Deliveroo Bridge to work seamlessly with Deliveroo and your EPOS or other apps connected to HubRise. Configuration is simple.
+---
+
+La page de configuration vous permet de personnaliser le comportement de Deliveroo Bridge selon vos préférences. Celles-ci sont divisées en différentes sections afin de faciliter la navigation.
+
+![Page de configuration de Deliveroo Bridge](../images/002-en-configuration-page.png)
+
+## Langue
+
+Dans cette section, vous pouvez choisir dans quelle langue vos reçus sont édités.
+
+## Types de service
+
+Les types de service tels que la livraison par Deliveroo, la livraison par le restaurant ou la vente à emporter peuvent nécessiter la saisie du code de référence correspondant. Pour effectuer une vérification, reportez-vous à la documentation de votre EPOS connecté sur le site Web de HubRise.
+
+## Promotions
+
+Cette section vous permet de spécifier le code de référence de la promotion appliquée à vos produits, dans le cas où vous en avez une active sur votre page Deliveroo. Pour savoir comment obtenir le code de référence correspondant, reportez-vous à la documentation de votre EPOS connecté sur le site Web de HubRise.
+
+Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les offres** de votre back-office Deliveroo.
+
+![Exemple de page "Toutes les offres" dans le back-office Deliveroo](../images/013-en-deliveroo-offer.png)
+
+## Frais
+
+Si des frais s'appliquent, un code de référence peut être demandé. Pour effectuer une vérification, reportez-vous à la documentation de votre EPOS connecté sur le site Web de HubRise.
+
+Dans cette section, vous pouvez spécifier le code de référence des frais de livraison, ainsi que des suppléments appliqués aux commandes inférieures au prix minimum.
+
+## Paiements
+
+Les clients de Deliveroo peuvent régler leur commande soit en ligne, soit en espèces pour les commandes avec livraison par le restaurant.
+
+Cette section de la page de configuration vous permet de spécifier les codes de référence valables pour ces deux modes de paiement. Pour consulter les codes corrects à utiliser, consultez la documentation de votre EPOS connecté sur le site Web de HubRise.
+
+## Sauvegarde de la configuration
+
+Lorsque vous êtes satisfait(e) de la configuration de Deliveroo Bridge, cliquez sur **Enregistrer** en haut de la page pour revenir à la page Opérations.
+
+## Réinitialisation de la configuration
+
+Si vous souhaitez réinitialiser la configuration et effacer ses valeurs, cliquez sur **Réinitialiser la configuration** en bas de la page.
+
+---
+
+**REMARQUE IMPORTANTE :** la réinitialisation de la configuration effacera également votre identifiant de restaurant Deliveroo. Pour continuer à recevoir des commandes Deliveroo, vous devrez saisir à nouveau votre identifiant de restaurant.
+
+---
+
+La réinitialisation de la configuration ne supprime pas les fichiers journaux des opérations affichés sur la page principale.
