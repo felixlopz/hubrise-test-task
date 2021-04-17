@@ -36,6 +36,10 @@ Just Eat Takeaway customers can pay for their order either online or by cash for
 
 This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
 
+## Order Statuses
+
+Just Eat Takeaway requires you to mark every successful order as "confirmed". In this section, you can select which HubRise status change is used to send the confirmation to Just Eat Takeaway.
+
 ## Saving the Configuration
 
 Once you are happy with the configuration of Just Eat Takeaway Bridge, click **Save** at the top of the page to go back to the Operations page.
@@ -46,7 +50,7 @@ If you want to reset the configuration and erase its values, click **Reset the c
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your Just Eat Takeaway Restaurant ID. To continue receiving Just Eat Takeaway orders, you will need to enter your Just Eat Takeaway Restaurant ID again.
+**IMPORTANT NOTE:** Resetting the configuration will also erase your integration settings. To continue receiving Just Eat Takeaway orders, you will need to enter your integration settings again.
 
 ---
 

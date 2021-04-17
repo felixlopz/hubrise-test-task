@@ -6,7 +6,7 @@ meta:
   title: Just Eat Flyt Connection to HubRise - Overview
   description: Just Eat overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
 gallery:
-  - 002-en-just-eat-configuration-page.png
+  - 007-en-just-eat-configuration-page-crop.png
   - 006-en-just-eat-screenshot.png
 path_override: /
 app_info:
@@ -43,10 +43,11 @@ Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
 Connecting Just Eat Flyt Bridge allows you to:
 
 - Push Just Eat orders to HubRise.
+  ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](../images/000-en-2x-just-eat-connection-diagram.png)
 - Push delivery information to HubRise, for orders delivered by your team.
+  ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for handling delivery information](../images/009-en-2x-just-eat-delivery-fleet-diagram.png)
 - Push your menu from HubRise directly to your Just Eat store.
-
-![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise](../images/000-en-2x-just-eat-connection-diagram.png)
+  ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for pushing the menu](../images/010-en-2x-just-eat-menu-push-diagram.png)
 
 ## Why Connect?
 

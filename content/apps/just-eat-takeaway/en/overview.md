@@ -6,7 +6,8 @@ meta:
   title: Just Eat Takeaway.com Connection to HubRise - Overview
   description: Just Eat Takeaway.com overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
 gallery:
-  - 002-en-jet-configuration-page.png
+  - 007-en-jet-configuration-page-crop.png
+  - 006-en-jet-screenshot.png
 path_override: /
 app_info:
   category: Food Ordering Platforms
