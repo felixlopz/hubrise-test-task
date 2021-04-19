@@ -7,11 +7,11 @@ meta:
   description: Voir comment associer les codes ref des produits de votre solution d'encaissement avec Deliveroo en passant par l'outil Gestionnaire de menu de Deliveroo.
 ---
 
-Pour que les commandes soient correctement traitées, la plupart des solutions sur EPOS exigent un code ref pour chaque produit. Lorsque vous créez votre menu sur Deliveroo, vous devez donc vous assurer que chaque produit est associé à un code ref correct.
+Pour que les commandes soient correctement traitées, la plupart des solution d'encaissement exigent un code ref pour chaque produit. Lorsque vous créez votre menu sur Deliveroo, vous devez donc vous assurer que chaque produit est associé à un code ref correct.
 
 ---
 
-**REMARQUE IMPORTANTE :** si vous n'attribuez pas de code ref à tous vos produits, Deliveroo ne traitera pas correctement la commande. Pour plus d'informations, voir la rubrique [Pourquoi mes commandes ne sont-elles pas reçues par HubRise ?](/apps/deliveroo/faqs/commandes-non-recues-code-ref-manquants).
+**REMARQUE IMPORTANTE :** si vous n'attribuez pas de code ref à tous vos produits, Deliveroo ne traitera pas correctement la commande. Pour plus d'informations, voir la rubrique [Pourquoi mes commandes ne sont-elles pas reçues par HubRise ?](/apps/deliveroo/faqs/commandes-non-recues-code-ref-manquants)
 
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: User Interface
+title: Interface utilisateur
 position: 3
 layout: documentation
 meta:
-  title: Deliveroo Connection to HubRise - User Interface
-  description: How to navigate the Deliveroo Bridge main page to access information about the orders and customise the behaviour of the bridge.
+  title: Interface utilisateur - Connecter Deliveroo à HubRise
+  description: Comment naviguer sur la page principale de Deliveroo Bridge pour accéder aux informations sur les commandes et personnaliser son comportement.
 ---
 
 Sur la page principale de Deliveroo Bridge, vous pouvez consulter les fichiers journaux de toutes les opérations effectuées entre HubRise et Deliveroo et accéder aux paramètres de configuration de l'intégration.
@@ -23,7 +23,7 @@ Chaque ligne de la page affiche les informations suivantes à propos d'une opér
 
 Le libellé **Requête système** indique que l'opération n'est pas liée à une commande spécifique.
 
-![Page des opérations de Deliveroo Bridge développée par HubRise](../images/003-en-main-page.png)
+![Page des opérations de Deliveroo Bridge développée par HubRise](../images/003-fr-main-page.png)
 
 En cliquant sur une ligne, vous ouvrez une nouvelle page affichant les fichiers journaux associés à l'opération.
 
@@ -41,7 +41,7 @@ Chaque ligne des fichiers journaux contient les informations suivantes :
 
 Cliquez sur une requête pour la développer et révéler les fichiers journaux détaillés de la requête, ainsi que de sa réponse.
 
-![Page des journaux de commande sur Deliveroo Bridge](../images/004-en-order-logs.png)
+![Page des journaux de commande sur Deliveroo Bridge](../images/004-fr-order-logs.png)
 
 Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre en détail comment lire les fichiers journaux, voir la [documentation de HubRise](/docs/hubrise-logs/).
 
@@ -51,7 +51,7 @@ La mise en page d'une page de requête système est identique à celle d'une pag
 
 Les requêtes système sont généralement envoyées par Deliveroo Bridge afin d'informer HubRise d'une modification de la configuration, ou bien pour alimenter l'interface utilisateur avec les informations les plus récentes. À titre d'exemple, l'image suivante illustre une requête de mise à jour du rappel de Deliveroo Bridge après un changement de configuration.
 
-![Page de requête système sur Deliveroo Bridge](../images/005-en-system-request.png)
+![Page de requête système sur Deliveroo Bridge](../images/005-fr-system-request.png)
 
 Les pages de requête système peuvent fournir des informations de débogage utiles aux équipes d'assistance, mais elles sont rarement intéressantes pour les autres utilisateurs.
 
@@ -65,6 +65,6 @@ Pour revenir à la page principale, cliquez sur les logos de Deliveroo et de Hub
 
 Pour accéder à la page de configuration de Deliveroo Bridge, cliquez sur la flèche <InlineImage width="20" height="20">![icône fléchée](../images/arrow-icon.jpg)</InlineImage> dans le coin supérieur droit de la page pour développer le menu, puis cliquez sur **Configuration**.
 
-![Page de configuration de Deliveroo Bridge](../images/002-en-configuration-page.png)
+![Page de configuration de Deliveroo Bridge](../images/002-fr-configuration-page.png)
 
 Cette page vous permet de personnaliser le comportement de Deliveroo Bridge. Pour plus de détails, voir [Configuration](/apps/deliveroo/configuration).

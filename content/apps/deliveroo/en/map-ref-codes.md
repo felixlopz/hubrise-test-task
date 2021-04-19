@@ -11,7 +11,7 @@ Most EPOS solutions require a ref code for each product to correctly parse order
 
 ---
 
-**IMPORTANT NOTE:** If you do not assign a ref code to all your products, Deliveroo will not process the order correctly. For more information, see [Why Are My Orders Not Received on HubRise](/apps/deliveroo/faqs/orders-not-received-missing-ref-codes).
+**IMPORTANT NOTE:** If you do not assign a ref code to all your products, Deliveroo will not process the order correctly. For more information, see [Why Are My Orders Not Received on HubRise?](/apps/deliveroo/faqs/orders-not-received-missing-ref-codes)
 
 ---
 
