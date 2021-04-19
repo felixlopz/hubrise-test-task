@@ -15,7 +15,7 @@ La connexion de Deliveroo à HubRise s'effectue en quelques étapes simples.
 
 ---
 
-## 1\. Activez HubRise sur Deliveroo
+## 1. Activez HubRise sur Deliveroo
 
 Dans un premier temps, l'intégration de HubRise doit être activée sur votre compte Deliveroo.
 
@@ -36,7 +36,7 @@ Avec ces informations en main, l'équipe d'intégration de Deliveroo pourra acti
 
 ---
 
-## 2\. Connectez l'instance Bridge
+## 2. Connectez l'instance Bridge
 
 ---
 
@@ -56,13 +56,13 @@ Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 
 ![Identifiant de restaurant Deliveroo](../images/001-fr-deliveroo-restaurant-id.png)
 
-## 3\. Configurez vos préférences
+## 3. Configurez vos préférences
 
 Une fois la connexion de l'instance Bridge effectuée, vous devez modifier quelques paramètres sur la page Configuration afin de permettre l'envoi correct des commandes à votre EPOS.
 
 Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Interface utilisateur](/apps/deliveroo/interface-utilisateur/#page-de-configuration). Pour plus de détails sur la configuration des paramètres de Deliveroo Bridge, voir la rubrique [Configuration](/apps/deliveroo/configuration).
 
-## 4\. Mappez les produits avec des codes ref
+## 4. Mappez les produits avec des codes ref
 
 Si vous utilisez Deliveroo avec une solution d'encaissement, vous devez associer tous les produits de votre menu Deliveroo aux codes ref correspondants. Vous permettrez ainsi à votre solution d'encaissement d'identifier correctement chaque article.
 
