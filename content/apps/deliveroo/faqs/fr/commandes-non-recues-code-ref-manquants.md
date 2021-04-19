@@ -3,7 +3,7 @@ title: Pourquoi mes commandes ne sont-elles pas reçues par HubRise ?
 position: 2
 layout: documentation
 meta:
-  title: FAQ | Commandes Deliveroo non reçues sur HubRise
+  title: FAQ - Commandes Deliveroo non reçues sur HubRise
   description: Si la configuration de votre Deliveroo Bridge est faite mais vous ne recevez pas de commandes Deliveroo, il se peut qu'il y ait des codes ref manquants.
 ---
 

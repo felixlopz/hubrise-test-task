@@ -3,7 +3,7 @@ title: Comment trouver mon identifiant de restaurant Deliveroo ?
 position: 1
 layout: documentation
 meta:
-  title: FAQ | Trouver l'identifiant de restaurant Deliveroo
+  title: FAQ - Trouver l'identifiant de restaurant Deliveroo
   description: Instruction pour trouver l'identifiant de restaurant Deliveroo afin de connecter votre restaurant et commencer à recevoir les commandes Deliveroo sur HubRise.
 ---
 
