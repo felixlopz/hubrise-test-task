@@ -19,7 +19,7 @@ Chaque ligne de la page affiche les informations suivantes à propos d'une opér
 
 - **HEURE** : date et heure de la commande.
 - **COMMANDE** : identifiant de la commande HubRise, pour les opérations de commande.
-- **STATUT** : statut de la commande. La valeur OK indique que la commande a été envoyée avec succès. Dans le cas contraire, un message explique le type de l'erreur qui est survenue.
+- **STATUT** : statut de la commande. La valeur **OK** indique que la commande a été envoyée avec succès. Dans le cas contraire, un message explique le type de l'erreur qui est survenue.
 
 Le libellé **Requête système** indique que l'opération n'est pas liée à une commande spécifique.
 
@@ -37,13 +37,13 @@ Chaque ligne des fichiers journaux contient les informations suivantes :
 
 - **HEURE** : date et l'heure d'envoi de la requête.
 - **DIRECTION** : applications qui envoient et reçoivent la requête, selon le format Origine → Destination.
-- **STATUT** : statut de la requête. La valeur OK indique que la requête a été reçue avec succès. Dans le cas contraire, un message explique le type de l'erreur qui est survenue.
+- **STATUT** : statut de la requête. La valeur **OK** indique que la requête a été reçue avec succès. Dans le cas contraire, un message explique le type de l'erreur qui est survenue.
 
 Cliquez sur une requête pour la développer et révéler les fichiers journaux détaillés de la requête, ainsi que de sa réponse.
 
 ![Page des journaux de commande sur Deliveroo Bridge](../images/004-fr-order-logs.png)
 
-Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre en détail comment lire les fichiers journaux, voir la [documentation de HubRise](/docs/hubrise-logs/).
+Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre en détail comment lire les fichiers journaux, voir la [documentation de HubRise (en anglais)](/docs/hubrise-logs/).
 
 ## Page de requête système
 
