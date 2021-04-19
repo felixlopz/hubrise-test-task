@@ -1,7 +1,7 @@
 ---
 layout: developers
 meta:
-  title: Developers documentation - HubRise
+  title: Developers documentation | HubRise
   description:
 path_override: /
 content:

@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: Connect Zelty to HubRise - Troubleshooting Guide
+  title: Troubleshooting | Zelty | HubRise
   description: Troubleshooting Zelty connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 

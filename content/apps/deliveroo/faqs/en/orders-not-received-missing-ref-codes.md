@@ -3,7 +3,7 @@ title: Why Are My Orders Not Received on HubRise?
 position: 2
 layout: documentation
 meta:
-  title: Connect Deliveroo to HubRise - Orders Not Received
+  title: Orders Not Received | Deliveroo FAQs | HubRise
   description: If you think your Deliveroo Bridge configuration is correct and you still do not receive orders from Deliveroo, there might be products with missing ref codes in your menu.
 ---
 

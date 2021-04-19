@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 4
 layout: documentation
 meta:
-  title: Connect PixelPoint Bridge to HubRise - Map Ref Codes Guide
+  title: Map Ref Codes | PixelPoint Bridge | HubRise
   description: Instructions on mapping the PAR PixelPoint EPOS product ref codes with other apps after connecting your EPOS with HubRise. Synchronise your data.
 ---
 

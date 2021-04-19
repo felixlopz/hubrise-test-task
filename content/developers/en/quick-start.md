@@ -3,7 +3,7 @@ title: Quick Start
 position: 1
 layout: documentation
 meta:
-  title: HubRise Quick Start Guide
+  title: Developers Quick Start | HubRise
   description:
 ---
 

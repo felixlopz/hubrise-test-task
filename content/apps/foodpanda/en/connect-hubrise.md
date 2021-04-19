@@ -3,7 +3,7 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connect foodpanda to HubRise - Connection Guide
+  title: Connection to HubRise | foodpanda | HubRise
   description: Instructions on connecting foodpanda with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 

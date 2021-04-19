@@ -1,9 +1,9 @@
 ---
-title: FAQ
+title: FAQs
 position: 8
 layout: documentation
 meta:
-  title: Connect iKentoo by Lightspeed to HubRise - FAQ
+  title: FAQs | iKentoo by Lightspeed | HubRise
   description: FAQs on connecting iKentoo by Lightspeed with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 

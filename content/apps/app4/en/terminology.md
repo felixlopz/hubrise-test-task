@@ -3,7 +3,7 @@ title: Terminology
 position: 5
 layout: documentation
 meta:
-  title: Connect App4 to HubRise - Terminology Guide
+  title: Terminology | App4 | HubRise
   description: Correspondence table showing terms used by App4 and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
