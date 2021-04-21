@@ -13,13 +13,29 @@ Ce guide de style contient des recommendations éditoriales pour les contributeu
 
 Lorsque le guide de style HubRise ne donne pas de recommendation particulière sur un cas spécifique, le [Guide de Style des Développeurs Google](https://developers.google.com/style) peut être utilisé comme référence.
 
-## Localisation
+## Langue
 
-La documentation française d'HubRise est écrite en français de France.
+Le lectorat francophone de la documentation vit majoritairement en France. La documentation doit donc être rédigée dans la langue usuelle de ce pays.
 
 Si l'interface de la solution documentée n'est pas disponible en français, utilisez le terme non traduit provenant de l'interface, suivi de la traduction entre parenthèses.
 
 > Correct : Cliquez sur **Connect** (Connecter).
+
+### Vouvoiement
+
+Utilisez le vouvoiement, et pour les instructions, privilégiez l'impératif.
+
+> Incorrect : Vous devez cliquer sur **Se connecter**.
+
+> Correct : Cliquez sur **Se connecter**.
+
+Adressez-vous directement à votre interlocuteur sans vous inclure, donc sans utiliser la première personne du pluriel.
+
+### Neutralité de genre
+
+Choisissez, dans la mesure du possible, des formulations qui ne marquent pas le genre.
+
+Cette règle ne doit cependant pas nuire à la lisibilité. Les formes combinées, dites "écriture inclusive", doivent ainsi être évitées.
 
 ## Majuscules
 
@@ -32,20 +48,6 @@ Ne pas mettre de majuscule aux titres. Accentuer les majuscules.
 > Incorrect : Eléments à fournir pour Lightspeed K Series.
 
 > Correct: Éléments à fournir pour Lightspeed K Series.
-
-## Ponctuation
-
-### Virgules
-
-Pour les listes de trois éléments ou plus, ajoutez une virgule avant le dernier élément. Par exemple : _Mon repas était composé d'une entrée, d'un plat principal, d'un dessert, et d'un café._
-
-### Parenthèses
-
-Limitez l'utilisation des parenthèses à la clarification d'acronymes, sinon écrivez une nouvelle phrase. Les lecteurs ont tendance à ignorer le contenu des parenthèses.
-
-### Guillemets
-
-Réservez l'usage des guillemets aux citations. Incluez la ponctuation après les guillemets fermants.
 
 ## Listes
 
@@ -90,9 +92,7 @@ Utilisez des chemins relatifs pour les liens internes ou les renvois, et des che
 
 ## Lisibilité
 
-Votre texte doit être facile à scanner. Les lecteurs lisent souvent en diagonale.
-
-Assurez-vous que votre message principal soit clair, et que les lecteurs trouvent l'aide nécessaire. Adoptez un style concis, simple, et objectif.
+La documentation doit être facile à "scanner". Assurez-vous que les lecteurs trouvent rapidement l'aide nécessaire. Adoptez un style concis, simple, et objectif.
 
 Pour rendre votre texte plus lisible, utilisez :
 
@@ -136,27 +136,31 @@ Positionnez les conditions avant les instructions, afin de permettre au lecteur 
 
 Choisissez un terme unique pour chaque concept, et utilisez toujours ce terme. Évitez d'employer des synonymes, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
 
-### Vouvoiement
-
-Utilisez le vouvoiement, et pour les instructions, privilégiez l'impératif.
-
-> Incorrect : Vous devez cliquer sur **Se connecter**.
-
-> Correct : Cliquez sur **Se connecter**.
-
-Adressez-vous directement à votre interlocuteur sans vous inclure, donc sans utiliser la première personne du pluriel.
-
-## Verbe "faire"
+### Verbe "faire"
 
 Evitez l'emploi du verbe "faire", et préférez-lui un verbe décrivant précisément l'action à réaliser.
 
-## Gras
+## Mise en forme
+
+### Gras
 
 Utilisez l'écriture en gras pour les éléments d'interface, tels que les boutons et les menus. Par exemple : _Depuis votre tableau de bord HubRise, dans le menu principal, cliquez sur **CONNEXIONS**._
 
-## Italique
+### Italique
 
 Utilisez l'écriture italique pour définir les acronymes, et pour les exemples.
+
+### Virgules
+
+Pour les listes de trois éléments ou plus, ajoutez une virgule avant le dernier élément. Par exemple : _Mon repas était composé d'une entrée, d'un plat principal, d'un dessert, et d'un café._
+
+### Parenthèses
+
+Limitez l'utilisation des parenthèses à la clarification d'acronymes, sinon écrivez une nouvelle phrase. Les lecteurs ont tendance à ignorer le contenu des parenthèses.
+
+### Guillemets
+
+Réservez l'usage des guillemets aux citations. Incluez la ponctuation après les guillemets fermants.
 
 ## Actions utilisateur
 
@@ -176,9 +180,9 @@ Si une action à réaliser est optionnelle, ajoutez *Optionnel :* avant la descr
 
 > Correct : Optionnel : Cliquez sur **Se connecter**.
 
-## Méta-titre et méta-description
+## Référencement
 
-Un méta-titre et une méta-description doivent être ajoutés à chaque fichier.
+Ajoutez un méta-titre et une méta-description à chaque page.
 
 ### Méta-titre
 
