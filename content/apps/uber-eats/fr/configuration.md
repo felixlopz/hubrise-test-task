@@ -53,7 +53,7 @@ Pour chaque statut de commande Uber Eats, sélectionnez le comportement souhait�
 
 ## Sauvegarde de la configuration
 
-Lorsque vous êtes satisfait(e) de la configuration d'Uber Eats Bridge, cliquez sur **Enregistrer** en haut de la page pour revenir à la page Opérations.
+Lorsque vous êtes satisfait de la configuration d'Uber Eats Bridge, cliquez sur **Enregistrer** en haut de la page pour revenir à la page Opérations.
 
 ## Réinitialisation de la configuration
 

@@ -1,10 +1,10 @@
 ---
-title: Can Orders Be Sent Directly To My EPOS Without Using Uber Eats Tablets?
+title: Les commandes peuvent-elles être envoyées directement sur ma solution d'encaissement sans passer par les tablettes Uber Eats ?
 position: 2
 layout: documentation
 meta:
-  title: Connect Uber Eats to HubRise - Sending orders to EPOS directly
-  description: Description of Uber Eats manual and direct modes for receiving orders, and instructions on how to receive orders directly to the EPOS without confirming them on the Uber Eats tablets first.
+  title: Envoyer les commandes sans utiliser les tablettes Uber Eats
+  description: Description des modes de réception de commande possible sur votre caisse, via HubRise, avec ou sans l'utilisation de la tablette Uber Eats.
 ---
 
 Uber Eats permet aux restaurants de recevoir des commandes selon deux modes différents : **acceptation manuelle** ou **état proposé**.

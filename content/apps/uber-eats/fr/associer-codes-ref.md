@@ -23,7 +23,7 @@ Vous devrez répéter cette procédure manuelle pour tous vos articles disponibl
 
 Veuillez noter que les articles se trouvant sous l'onglet **Groupes de modification** comportent également un champ **Données externes**, mais qu'il n'est généralement pas nécessaire d'entrer de valeur, puisque celle-ci n'est pas envoyée à votre solution d'encaissement.
 
-## Commentaires au niveau du produit
+## Commentaires sur les produits
 
 ---
 
