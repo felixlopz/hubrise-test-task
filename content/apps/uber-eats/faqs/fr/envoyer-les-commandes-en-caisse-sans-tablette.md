@@ -7,7 +7,7 @@ meta:
   description: Description des modes de réception de commande possible sur votre caisse, via HubRise, avec ou sans l'utilisation de la tablette Uber Eats.
 ---
 
-Uber Eats permet aux restaurants de recevoir des commandes selon deux modes différents : **acceptation manuelle** ou **état proposé**.
+Uber Eats permet aux restaurants de recevoir des commandes selon deux modes différents : **manual accept** (acceptation manuelle) ou **offered state** (état proposé).
 
 - En mode **manual accept** (acceptation manuelle), les nouvelles commandes doivent d'abord être acceptées sur la tablette Uber Eats, avant d'être transmises à votre solution d'encaissement.
 - En mode **offered state** (état proposé), les nouvelles commandes sont directement envoyées à votre solution d'encaissement, où elles doivent être soit acceptées, soit rejetées.
