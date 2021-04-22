@@ -3,7 +3,7 @@ title: Profile and Password
 position: 6
 layout: documentation
 meta:
-  title: Profile and Password - HubRise
+  title: Profile and Password | HubRise
   description: How to manage your profile and password on HubRise.
 ---
 

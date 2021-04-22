@@ -3,7 +3,7 @@ title: Référencer votre solution sur HubRise
 position: 2
 layout: documentation
 meta:
-  title: Référencer votre solution - HubRise
+  title: Référencer votre solution | HubRise
   description: Une fois votre intégration validée, vous pouvez demander son référencement sur le site HubRise. Voici les éléments à fournir en fonction du type d'inclusion souhaité.
 ---
 

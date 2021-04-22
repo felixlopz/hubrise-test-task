@@ -3,7 +3,7 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect LivePepper to HubRise - Overview
+  title: Overview | LivePepper | HubRise
   description: LivePepper overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 026-en-2x-kfc-livepepper.png

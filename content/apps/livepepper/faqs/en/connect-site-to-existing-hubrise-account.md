@@ -3,7 +3,7 @@ title: How Do I Connect My LivePepper Site to an Existing HubRise Account?
 position: 1
 layout: documentation
 meta:
-  title: Connect LivePepper to HubRise
+  title: Connect to Existinc Account | LivePepper FAQs | HubRise
   description: Connect your LivePepper site to an existing HubRise account and location.
 ---
 

@@ -3,7 +3,7 @@ title: Understanding Logs
 position: 5
 layout: documentation
 meta:
-  title: Connect PixelPoint Bridge to HubRise - Understanding Logs
+  title: Understanding Logs | PixelPoint Bridge | HubRise
   description: Instructions on how to read the output in the logs coming from PixelPoint Bridge. Synchronise data between your EPOS and your apps.
 ---
 

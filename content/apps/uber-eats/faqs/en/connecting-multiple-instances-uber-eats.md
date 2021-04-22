@@ -3,7 +3,7 @@ title: Can I Connect Multiple Uber Eats Stores to the Same HubRise Location?
 position: 2
 layout: documentation
 meta:
-  title: Connect Multiple Uber Eats Stores to the Same HubRise Location
+  title: Connect Multiple Stores to One Location | Uber Eats FAQs | HubRise
   description: Instructions on how to connect multiple Uber Eats stores with the same HubRise location.
 ---
 

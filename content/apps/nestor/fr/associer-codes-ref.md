@@ -3,7 +3,7 @@ title: Associer les codes ref
 position: 3
 layout: documentation
 meta:
-  title: Connecter Nestor à HubRise - Associer les codes ref
+  title: Associer les codes ref | Nestor | HubRise
   description: Instructions pour associer les codes ref des produits Nestor avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 

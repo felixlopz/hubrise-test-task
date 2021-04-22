@@ -3,7 +3,7 @@ title: Food Delivery Platforms
 position: 5
 layout: documentation
 meta:
-  title: Connect PixelPoint Windows API to HubRise - Food Delivery Platforms
+  title: Food Delivery Platforms | PixelPoint Windows API | HubRise
   description: Instructions on how to integrate your PAR PixelPoint EPOS with the main food delivery platforms. Synchronise data between your EPOS and your apps.
 ---
 

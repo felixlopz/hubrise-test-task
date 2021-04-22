@@ -3,7 +3,7 @@ title: Terminology
 position: 5
 layout: documentation
 meta:
-  title: Connect TastyCloud to HubRise - Terminology Guide
+  title: Terminology | TastyCloud | HubRise
   description: Correspondence table showing terms used by TastyCloud and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 

@@ -3,7 +3,7 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect My Lemonade to HubRise - Overview
+  title: Overview | My Lemonade | HubRise
   description: My Lemonade overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 003-fr-2x-my-lemonade-sample-app.png

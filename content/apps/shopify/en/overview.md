@@ -3,7 +3,7 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect Shopify to HubRise - Overview
+  title: Overview | Shopify | HubRise
   description: Shopify overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 001-2x-backoffice-shopify.png

@@ -3,7 +3,7 @@ title: Interface utilisateur
 position: 3
 layout: documentation
 meta:
-  title: Connecter Koust à HubRise - Interface utilisateur
+  title: Interface utilisateur | Koust | HubRise
   description: Accéder aux différentes pages telles que la liste des articles ou celle des commandes. Connectez vos apps et synchronisez vos données.
 ---
 
