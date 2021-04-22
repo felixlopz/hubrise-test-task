@@ -11,4 +11,5 @@ Dans certains cas, il se peut que la configuration de votre Uber Eats Bridge soi
 
 Le problème est peut-être dû à des codes ref manquants dans votre menu Uber Eats. Si un article dépourvu de code ref est ajouté à une commande Uber Eats, en pratique, Uber Eats ne parviendra pas à envoyer la totalité de la commande, auquel cas rien ne sera reçu sur HubRise.
 
-Pour résoudre ce problème, assurez-vous que tous les produits de votre menu Uber Eats possèdent un code ref. Pour savoir comment ajouter des codes ref à vos produits Uber Eats, voir la rubrique [Association des codes ref](apps/uber-eats/associer-codes-ref).
+Pour résoudre ce problème, assurez-vous que tous les produits de votre menu Uber Eats possèdent un code ref. Pour savoir comment associer les codes ref sur Uber Eats, voir la rubrique [Association des codes ref](/apps/uber-eats/associer-codes-ref).
+

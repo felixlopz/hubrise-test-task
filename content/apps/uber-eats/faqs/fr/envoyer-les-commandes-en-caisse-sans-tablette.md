@@ -17,3 +17,4 @@ Uber Eats détermine depuis son back-office le mode qui est activé dans votre m
 HubRise prend en charge les deux modes indifféremment. Indiquez-nous quel mode convient le mieux aux besoins de votre activité lors de la configuration initiale. Pour plus d'informations, voir la rubrique [Connexion à HubRise](/apps/uber-eats/connexion-hubrise).
 
 Si vous ne précisez pas votre mode préférentiel, votre magasin utilisera par défaut le mode d'état proposé. Nous vous recommandons toutefois de commencer en mode d'acceptation manuelle pendant quelques semaines, afin de vous assurer que votre installation fonctionne normalement, puis de passer ensuite au mode d'état proposé. Vous pouvez à tout moment passer à un autre mode en contactant votre gestionnaire de compte Uber Eats.
+

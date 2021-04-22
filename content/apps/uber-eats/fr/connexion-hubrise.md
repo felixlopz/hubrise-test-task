@@ -53,7 +53,7 @@ Maintenant que vous disposez de votre UUID de magasin Uber Eats, vous pouvez con
 
 Une fois la connexion de l'instance Bridge effectuée, vous devez modifier quelques paramètres sur la page Configuration afin de permettre l'envoi correct des commandes à votre solution d'encaissement.
 
-Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Interface utilisateur](/apps/uber-eats/interface-utilisateur/#page-de-configuration). Pour plus de détails sur la configuration des paramètres d'Uber Eats Bridge, voir la rubrique [Configuration](/apps/uber-eats/configuration).
+Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Page de configuration](/apps/uber-eats/interface-utilisateur/#page-de-configuration). Pour plus de détails sur la configuration des paramètres d'Uber Eats Bridge, voir la rubrique [Configuration](/apps/uber-eats/configuration).
 
 ## 4. Mappez les produits avec des codes ref
 

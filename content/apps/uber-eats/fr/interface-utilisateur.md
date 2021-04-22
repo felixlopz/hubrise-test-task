@@ -43,7 +43,7 @@ Cliquez sur une requête pour la développer et révéler les fichiers journaux 
 
 ![Page des journaux de commande sur Uber Eats Bridge](../images/004-fr-order-logs.png)
 
-Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre en détail comment lire les fichiers journaux, voir la [documentation de HubRise (en anglais)](/docs/hubrise-logs/).
+Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre en détail comment lire les fichiers journaux, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
 
 ## Page de requête système
 
