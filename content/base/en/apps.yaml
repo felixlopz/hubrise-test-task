@@ -223,7 +223,7 @@ content:
           title: My Lemonade
           description: My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on their table, access the menu on their smartphone in their language, and order from it. No app installation required.
         - website: https://mynober.nl/en/home-2/
-          documentation:
+          documentation: /apps/mynober/
           logo: mynober.png
           title: MynOber
           description: MynOber provides QR ordering, online ordering and kiosk self-ordering solutions for hospitality businesses. MynOber can be used standalone or combined with a third party EPOS.
