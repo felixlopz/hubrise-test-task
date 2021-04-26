@@ -26,6 +26,13 @@ Pour établir la connexion entre Koust et HubRise :
    ![Connexion à HubRise - Choix du point de vente](../images/003-fr-koust-choix-point-vente.png)
 1. Vous êtes redirigé vers l'écran de connexion de Koust et le message suivant s'affiche : *HubRise connecté avec succès, veuillez vous reconnecter.*
 
+## Tester la connexion
+
+Pour vérifier que la connexion entre Koust et HubRise est correctement établie, suivez les étapes suivantes :
+
+1. Passez une commande depuis une autre application, telle que LivePepper (après avoir vérifié que cette autre application est elle aussi connectée au même compte HubRise).
+1. Depuis votre espace Koust, dans le menu latéral, sélectionnez **Ventes - Conso.** > **Historique ventes**. La commande que vous avez passée dans la première étape est présente dans la liste des commandes. Si cela n'est pas le cas, allez dans votre espace HubRise, dans le menu latéral, sélectionnez **DONNÉES** > **COMMANDES**. Vérifiez que la commande est présente dans la liste des commandes.
+
 ## Se déconnecter
 
 1. Suivez les 3 premières étapes de la partie [Se connecter](/apps/koust/connexion-hubrise#se-connecter).
