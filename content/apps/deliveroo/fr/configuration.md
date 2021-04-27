@@ -7,7 +7,7 @@ meta:
   description: Configurer Deliveroo Eats Bridge pour recevoir vos commandes Deliveroo dans votre solution d'encaissement ou d'autres applications connectées à HubRise.
 ---
 
-La page de configuration vous permet de personnaliser le comportement de Deliveroo Bridge selon vos préférences. Celles-ci sont divisées en différentes sections afin de faciliter la navigation.
+La page de configuration vous permet de personnaliser le comportement de Deliveroo Bridge. Elle est divisée en plusieurs sections afin de faciliter la navigation.
 
 ![Page de configuration de Deliveroo Bridge](../images/002-fr-configuration-page.png)
 
@@ -17,11 +17,11 @@ Dans cette section, vous pouvez choisir la langue d'édition de vos reçus.
 
 ## Types de service
 
-Les types de service tels que la livraison par Deliveroo, la livraison par le restaurant ou la vente à emporter peuvent nécessiter la saisie du code ref correspondant. Pour effectuer une vérification, reportez-vous à la documentation de votre solution d'encaissement connecté sur le site Web de HubRise.
+Les types de service tels que la livraison par Deliveroo, la livraison par le restaurant ou la vente à emporter peuvent nécessiter la saisie du code ref correspondant. Reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
 
 ## Remises
 
-Cette section vous permet de spécifier le code ref de la remise appliquée à vos produits, dans le cas où vous en avez une active sur votre page Deliveroo. Pour savoir comment obtenir le code ref correspondant, reportez-vous à la documentation de votre solution d'encaissement connecté sur le site Web de HubRise.
+Cette section vous permet de spécifier le code ref de la remise appliquée à vos produits, dans le cas où vous auriez une remise active sur Deliveroo. Pour obtenir le code ref correspondant, reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
 
 Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les offres** de votre back-office Deliveroo.
 
@@ -29,15 +29,15 @@ Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les o
 
 ## Frais
 
-Si des frais s'appliquent, un code ref peut être demandé. Pour effectuer une vérification, reportez-vous à la documentation de votre solution d'encaissement connecté sur le site Web de HubRise.
+Si des frais s'appliquent, un code ref peut être nécessaire. Reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
 
 Dans cette section, vous pouvez spécifier le code ref des frais de livraison, ainsi que des suppléments appliqués aux commandes inférieures au prix minimum.
 
 ## Paiements
 
-Les clients de Deliveroo peuvent régler leur commande soit en ligne, soit en espèces pour les commandes avec livraison par le restaurant.
+Les clients de Deliveroo peuvent régler leur commande en espèces lorsque le restaurant prend en charge la livraison.
 
-Cette section de la page de configuration vous permet de spécifier les codes ref valables pour ces deux modes de paiement. Pour consulter les codes corrects à utiliser, consultez la documentation de votre solution d'encaissement connecté sur le site Web de HubRise.
+Cette section de la page de configuration vous permet de spécifier les codes ref pour les paiements en ligne et en espèces. Pour connaître les codes à utiliser, consultez la documentation de votre solution d'encaissement sur le site Web de HubRise.
 
 ## Sauvegarde de la configuration
 
@@ -49,7 +49,7 @@ Si vous souhaitez réinitialiser la configuration et effacer ses valeurs, clique
 
 ---
 
-**REMARQUE IMPORTANTE :** la réinitialisation de la configuration effacera également votre identifiant de restaurant Deliveroo. Pour continuer à recevoir des commandes Deliveroo, vous devrez saisir à nouveau votre identifiant de restaurant.
+**REMARQUE IMPORTANTE :** la réinitialisation de la configuration effacera également votre identifiant de restaurant Deliveroo. Pour recevoir à nouveau les commandes Deliveroo, vous devrez resaisir votre identifiant de restaurant.
 
 ---
 

@@ -11,7 +11,7 @@ HubRise et Deliveroo utilisent chacun leur propre terminologie. Un même concept
 
 | Deliveroo  | HubRise        | Description                             |
 | ---------- | -------------- | --------------------------------------- |
-| Code PLU   | Code ref       | Code produit                            |
+| Code PLU   | Code ref       | Code produit.                           |
 | Promotion  | Promotion      | Offre spéciale sur la commande globale. |
 | Restaurant | Point de vente | Le restaurant proprement dit.           |
 | Marque     | Compte         | Appellation commerciale.                |
