@@ -3,7 +3,7 @@ title: API Reference
 position: 2
 layout: documentation
 meta:
-  title:
+  title: API Reference | HubRise
   description:
 ---
 

@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 6
 layout: documentation
 meta:
-  title: Connect PixelPoint Windows API to HubRise - Troubleshooting Guide
+  title: Troubleshooting | PixelPoint Windows API | HubRise
   description: Troubleshooting PixelPoint Windows API connection with HubRise for your EPOS and other apps to work as a cohesive whole. Synchronise your data.
 ---
 

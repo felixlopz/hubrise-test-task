@@ -3,7 +3,7 @@ title: Main Page
 position: 4
 layout: documentation
 meta:
-  title: Connect dotdigital to HubRise - Main Page Guide
+  title: Main Page | dotdigital | HubRise
   description: The dotdigital Bridge main page and how to read logs. Synchronise data between your EPOS and your apps.
 ---
 

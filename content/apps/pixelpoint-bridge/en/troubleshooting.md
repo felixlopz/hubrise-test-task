@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 6
 layout: documentation
 meta:
-  title: Connect PixelPoint Bridge to HubRise - Troubleshooting Guide
+  title: Troubleshooting | PixelPoint Bridge | HubRise
   description: Troubleshooting PixelPoint Bridge connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 

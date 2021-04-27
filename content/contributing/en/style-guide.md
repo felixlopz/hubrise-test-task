@@ -3,7 +3,7 @@ title: Style Guide
 position: 1
 layout: documentation
 meta:
-  title: Documentation Style Guide - HubRise
+  title: Documentation Style Guide | HubRise
   description: Anyone can contribute to the HubRise online documentation. The style guide provides editorial guidelines for anyone contributing to it.
 ---
 
@@ -19,13 +19,23 @@ Terminology and spelling decisions are informed in our XTM tool, only for intern
 
 Keep in mind that readers of the documentation might not be native English speakers.
 
-## Localisation
+## Language
 
 The HubRise documentation should be written in British English. Localisation into French is done regularly to keep all bilingual content in sync.
 
 If the user interface is not available in English, include the user interface term in the native language followed by the translation in brackets.
 
 > Right: Click on **Activer** (Connect) when prompted to do so.
+
+### Tone
+
+Be conversational rather than formal but do not overdo it. Be friendly, and respectful while sharing your know-how.
+
+### Gender neutrality
+
+Don't use gender-specific pronouns unless the person you're referring to is actually that gender.
+
+In particular, don't use **he*, **him**, **his**, **she**, or **her** as gender-neutral pronouns, and don't use **he/she** or **(s)he** or other such punctuational approaches.
 
 ## Capitalisation
 
@@ -238,10 +248,6 @@ Do not use contractions. For instance, write **do not** instead of **don't**.
 
 You may use italics for tech terms except code. Do not use it to identify examples, make a sentence instead.
 
-## Tone
-
-Be conversational rather than formal but do not overdo it. Be friendly, and respectful while sharing your know-how.
-
 ## Notices
 
 Notices give important or useful information that is not necessarily part of the flow of the text. Notices can inlude Important Notes and Frequently Asked Questions.
@@ -337,21 +343,13 @@ A meta title and meta description should be added to every file.
 
 ### Meta Title
 
+Meta titles are composed by concatenating the page title, the section name, and the word "HubRise", separated by `|`. 
+
+If the resulting title contains more than 60 characters, try shrinking the first part, by summarizing the page title.
+
 Meta titles should be capitalised following HubRise's title rules written in _Title Case_ with no full stop at the end. For more information on capitalisation rules, see [Capitalisation](#capitalisation).
 
-The meta title should include no more than 60 characters. Google might truncate it if you make it longer.
-Most important or unique aspect of the page keywords should be in first position. At minima including the page title and a reference to HubRise will help convey an accurate message, related to the page content.
-
-> Right: meta title structure to use for each of the documentation pages
->
-> - **Overview**: Connect Lightspeed K Series to HubRise - Overview
-> - **Connection to HubRise**: Connect Lightspeed K Series to HubRise - Connection Guide
-> - **Map Ref Codes**: Connect Lightspeed K Series to HubRise - Map Ref Codes Guide
-> - **Troubleshooting**: Connect Lightspeed K Series to HubRise - Troubleshooting Guide
-> - **Terminology**: Connect Lightspeed K Series to HubRise - Terminology Guide
-> - **FAQ**: Connect Lightspeed K Series to HubRise - FAQ
-
-For more clarity, when possible, add **Guide** at the end of the title. It makes sense to include it on all pages, except for the overview and FAQ pages.
+> Right: Overview | Lightspeed K Series | HubRise 
 
 ### Meta Description
 

@@ -3,7 +3,7 @@ title: F.A.Q.
 position: 6
 layout: documentation
 meta:
-  title: Connecter iKentoo by Lightspeed à HubRise - F.A.Q.
+  title: F.A.Q. | iKentoo by Lightspeed | HubRise
   description: Questions fréquentes posées sur la connexion de iKentoo by Lightspeed à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 

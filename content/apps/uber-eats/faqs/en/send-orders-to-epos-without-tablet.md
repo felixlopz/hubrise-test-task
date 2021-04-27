@@ -3,7 +3,7 @@ title: Can Orders Be Sent Directly To My EPOS Without Using Uber Eats Tablets?
 position: 2
 layout: documentation
 meta:
-  title: Connect Uber Eats to HubRise - Sending orders to EPOS directly
+  title: Sending orders to EPOS directly | Uber Eats FAQs | HubRise
   description: Description of Uber Eats manual and direct modes for receiving orders, and instructions on how to receive orders directly to the EPOS without confirming them on the Uber Eats tablets first.
 ---
 

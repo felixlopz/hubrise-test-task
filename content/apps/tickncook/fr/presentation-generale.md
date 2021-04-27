@@ -3,7 +3,7 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Connecter TicknCook à HubRise - Présentation générale
+  title: Présentation générale | TicknCook | HubRise
   description: Présentation générale de TicknCook, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
   - 002-fr-tickncook-counter.jpg

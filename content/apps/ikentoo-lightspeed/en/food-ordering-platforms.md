@@ -3,7 +3,7 @@ title: Food Ordering Platforms
 position: 6
 layout: documentation
 meta:
-  title: Connect iKentoo by Lightspeed to HubRise - Food Ordering Platforms
+  title: Food Ordering Platforms | iKentoo by Lightspeed | HubRise
   description: Integrating iKentoo with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 

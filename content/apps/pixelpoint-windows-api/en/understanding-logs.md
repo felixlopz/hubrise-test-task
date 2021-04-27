@@ -3,7 +3,7 @@ title: Understanding Logs
 position: 4
 layout: documentation
 meta:
-  title: Connect PixelPoint Windows API to HubRise - Understanding Logs
+  title: Understanding Logs | PixelPoint Windows API | HubRise
   description: Instructions on how to read the output in the logs coming from PixelPoint Windows API. Synchronise data between your EPOS and your apps.
 ---
 

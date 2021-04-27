@@ -3,7 +3,7 @@ title: Terminology
 position: 7
 layout: documentation
 meta:
-  title: Connect iKentoo by Lightspeed to HubRise - Terminology Guide
+  title: Terminology | iKentoo by Lightspeed | HubRise
   description: Correspondence table showing terms used by iKentoo by Lightspeed and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 

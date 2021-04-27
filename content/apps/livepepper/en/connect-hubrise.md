@@ -3,7 +3,7 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connect LivePepper to HubRise - Connection Guide
+  title: Connection to HubRise | LivePepper | HubRise
   description: Instructions on connecting LivePepper with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
