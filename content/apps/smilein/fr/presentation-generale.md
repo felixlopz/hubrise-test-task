@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Connecter smilein à HubRise - Présentation générale
-  description: Présentation générale de smilein, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  title: Présentation générale | smilein | HubRise
+  description: Présentation de la solution de commande et de paiement en ligne smilein, et description des fonctionnalités de son intégration avec HubRise.
 gallery:
   - 001-fr-smilein-app-accueil.jpeg
   - 002-fr-smilein-app-menu.jpeg
@@ -21,28 +21,35 @@ app_info:
 
 ## Description
 
-smilein est une solution de commande et paiement qui est dédiée aux domaines de l'hôtellerie et de la restauration. Il est majoritairement utilisé par des chaines, grandes enseignes et food courts, notamment en raison de sa capacité à gérer le multi-sites.
+smilein est une solution de commande et paiement depuis le smartphone, dédiée à l'hôtellerie et à la restauration. Elle est particulièrement adaptée aux chaines et aux food courts en raison de ses fonctionnalités de gestion multi-sites.
 
-Les restaurateurs peuvent modifier leur carte, ajouter des photos aux produits, mettre à jour leurs informations et gérer leurs commandes de manière autonome.
+Les utilisateurs peuvent modifier leur carte, personnaliser leur site et gérer leurs commandes de manière autonome.
 
-smilein est aussi une plateforme de gestion de contenu, offrant du contenu (vidéos, presse, jeux) et des services pour permettre aux restaurateurs de mieux connaître leurs clients, les intégrer dans des programmes de fidélité et ainsi alimenter leur CRM.
+smilein est aussi une plateforme de gestion de contenu, offrant du contenu (vidéos, presse, jeux) et des services pour permettre aux enseignes de mieux connaître leurs clients, de les intégrer dans des programmes de fidélité et ainsi d'alimenter leurs bases de données clients.
 
 La suite smilein est composée de deux logiciels :
 
-- smilein STUDIO, logiciel de design intégré, permet aux restaurateurs d'enrichir leur site internet.
-- smilein WAITER, logiciel dédié production, permet aux restaurateurs de suivre leurs commandes et administrer leur service.
+- smilein WAITER, dédié à la production, permet aux restaurateurs de gérer leurs commandes et d'administrer le service.
+- smilein STUDIO, outil de design intégré, permet aux restaurateurs de mettre à jour le site internet.
 
 ## Fonctionnalités de l'intégration
 
 L'intégration de smilein avec HubRise permet de :
 
-- Recevoir le catalogue HubRise dans smilein.
-- Envoyer les commandes et les informations client smilein vers HubRise.
+- Envoyer les commandes vers HubRise.
+- Envoyer les données clients vers HubRise.
+
+---
+
+**REMARQUE IMPORTANTE :** smilein pourra bientôt importer les catalogues HubRise. Pour plus d'informations, contactez l'éditeur.
+
+---
+
 
 ## Pourquoi se connecter ?
 
-En connectant smilein à HubRise, vous enverrez les commandes faites sur votre site internet vers votre logiciel de caisse. Vous pourrez également connecter les applications intégrées à HubRise que vous utilisez de manière quotidienne. Pour voir les applications vous pouvez connecter, consultez la [page Apps](/apps).
+En connectant smilein à HubRise, les commandes passées sur votre site internet sont transmises à votre logiciel de caisse ou toute autre solution intégrée à HubRise. Pour voir les applications que vous pouvez connecter, consultez la [page Apps](/apps).
 
 ## Prérequis
 
-Pour établir la connexion entre smilein et HubRise, vous devez souscrire à un abonnement smilein et avoir un compte HubRise.
+Pour connecter smilein à HubRise, vous devez seulement disposer d'un compte smilein.
