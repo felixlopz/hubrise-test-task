@@ -3,7 +3,7 @@ title: User Interface
 position: 4
 layout: documentation
 meta:
-  title: Connect OrderLine to HubRise - User Interface Guide
+  title: User Interface | OrderLine | HubRise
   description: Today's Orders, Future Orders and Order History tabs are available for ease of access on OrderLine. Synchronise data between your EPOS and your apps.
 ---
 

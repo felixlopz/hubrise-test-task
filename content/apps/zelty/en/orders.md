@@ -3,7 +3,7 @@ title: Orders
 position: 4
 layout: documentation
 meta:
-  title: Connect Zelty to HubRise - Orders Guide
+  title: Orders | Zelty | HubRise
   description: Instructions on managing the orders in your Zelty EPOS. Synchronise data between your EPOS and your apps.
 ---
 

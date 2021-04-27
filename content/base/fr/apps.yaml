@@ -1,7 +1,7 @@
 path: /apps
 meta:
   title: Applications intégrées avec l'écosystème HubRise
-  description: Cette page comprend une liste d'applications intégrées ou en cours d'intégration à l'écosystème HubRise. Toutes ces applications partagent des données en temps réel.
+  description: Liste des applications intégrées ou en cours d'intégration à l'écosystème HubRise. Les applications intégrées partagent leurs données en temps réel.
 content:
   hero:
     title: Applications intégrées
@@ -47,8 +47,8 @@ content:
         - website: https://www.ikentoo.com
           documentation: /apps/ikentoo-lightspeed/
           logo: ikentoo-lightspeed.png
-          title: LightSpeed K-Series / iKentoo
-          description: iKentoo LightSpeed K-Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
+          title: Lightspeed K-Series / iKentoo
+          description: iKentoo Lightspeed K-Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
           additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
@@ -70,7 +70,7 @@ content:
         - website: https://www.lightspeedhq.com
           documentation: /apps/ikentoo-lightspeed/
           logo: lightspeed.png
-          title: LightSpeed K-Series / iKentoo
+          title: Lightspeed K-Series / iKentoo
           description: Lightspeed propose des solutions de gestion sur le cloud pour les commerces et les restaurants dans plus de 100 pays. Son design soigné et son interface intuitive permettent la gestion sur site, à distance ou en déplacement pour des entreprises mono et multisites.
         - website: http://www.myorderboxhq.com
           documentation: /apps/myorderbox/
@@ -298,6 +298,12 @@ content:
           title: Captain
           description: Captain est une solution de traitement des commandes et de tracking des livreurs.
           additional_info: Documentation en anglais. Intégration en cours.
+        - website: https://coursicab.com
+          documentation:
+          logo: coursicab.png
+          title: Coursicab
+          description: Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, vos clients peuvent suivre leurs colis en temps réel. Présent dans 6 pays européens, disponible 24h/7.
+          additional_info: Intégration en cours.
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png
@@ -328,25 +334,25 @@ content:
           documentation: /apps/dotdigital/
           logo: dotdigital.png
           title: dotdigital
-          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des campagnes marketing par email, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
+          description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des campagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
           additional_info: Documentation en anglais.
         - website: https://myemma.com
           documentation:
           logo: emma.png
           title: Emma
-          description: Emma est une solution d'envoi d'emails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
+          description: Emma est une solution d'envoi d'e-mails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
           additional_info: Documentation en anglais.
         - website: https://mailchimp.com
           documentation:
           logo: mailchimp.png
           title: MailChimp
-          description: MailChimp est une solution d'envoi d'emails, de newsletters personnalisés et de SMS.
+          description: MailChimp est une solution d'envoi d'e-mails, de newsletters personnalisés et de SMS.
           additional_info: Documentation en anglais.
         - website: https://sailplay.com
           documentation:
           logo: sailplay.png
           title: SailPlay
-          description: SailPlay est une plateforme utilisée pour l'automatisation des campagnes d'emailing. Elle permet de mieux connaître ses clients afin de les fidéliser.
+          description: SailPlay est une plateforme utilisée pour l'automatisation des campagnes d'e-mailing. Elle permet de mieux connaître ses clients afin de les fidéliser.
           additional_info: Documentation en anglais.
         - website: https://www.smg.com
           documentation:

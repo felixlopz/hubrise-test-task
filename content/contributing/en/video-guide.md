@@ -3,9 +3,11 @@ title: Video Guide
 position: 4
 layout: documentation
 meta:
-  title:
+  title: Video Guide | HubRise
   description:
 ---
+
+[comment]: # (This page has been duplicated in .../contributing/fr)
 
 ## General Recommendations
 

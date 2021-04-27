@@ -3,7 +3,7 @@ title: Terminology
 position: 6
 layout: documentation
 meta:
-  title: Connect Zelty to HubRise - Terminology Guide
+  title: Terminology | Zelty | HubRise
   description: Correspondence table showing terms used by Zelty and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 

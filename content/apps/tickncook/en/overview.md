@@ -3,7 +3,7 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect TicknCook to HubRise - Overview
+  title: Overview | TicknCook | HubRise
   description: TicknCook overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 002-en-tickncook-counter.jpg

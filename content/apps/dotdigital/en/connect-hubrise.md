@@ -3,7 +3,7 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connect dotdigital to HubRise - Connection Guide
+  title: Connection to HubRise | dotdigital | HubRise
   description: Instructions on connecting dotdigital with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 

@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 path_override: /
 meta:
-  title: Connect PixelPoint to HubRise - Full Documentation
+  title: Full Documentation | PixelPoint | HubRise
   description: Documentations to see depending on whether you use the PixelPoint Web API or not. Synchronise data between your EPOS and your apps.
 ---
 

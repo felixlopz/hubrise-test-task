@@ -3,7 +3,7 @@ title: Informations techniques
 position: 7
 layout: documentation
 meta:
-  title: Connecter Nestor à HubRise - Informations techniques
+  title: Informations techniques | Nestor | HubRise
   description: Informations techniques concernant l'intégration de Nestor à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
@@ -22,5 +22,5 @@ Les champs d'une commande HubRise sont utilisés de la façon suivante dans Nest
 | `charges`                              | Permet de remplir le forfait livraison (seul type de frais accepté).        |
 | `discounts`                            | Liste des offres promotionnelles.                                           |
 | `deals`                                | Liste des menus, considérés comme des articles dans la commande.            |
-| `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'email. L'email est utilisé dans le cas d'une demande d'envoi de ticket. |
+| `customer`                             | Informations du client. L'id venant d'HubRise est utilisé pour identifier si le client existe déjà dans Nestor. Si l'id n'est pas encore stocké, des propositions de clients déjà existants sont faites en fonction du nom ou de l'e-mail. L'e-mail est utilisé dans le cas d'une demande d'envoi de ticket. |
 | `payment.type`                         | Moyen de paiement. S'il est égal à `cash`, la commande est considérée comme non payée, et s'il est égal à une autre valeur, elle est considérée comme payée en ligne. | 

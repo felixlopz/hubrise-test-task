@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: Connect MyOrderBox to HubRise - Troubleshooting Guide
+  title: Troubleshooting | MyOrderBox | HubRise
   description: Troubleshooting MyOrderBox connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 

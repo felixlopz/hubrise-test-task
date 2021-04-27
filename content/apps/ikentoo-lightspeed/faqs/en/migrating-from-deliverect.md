@@ -3,7 +3,7 @@ title: I Just Migrated from Deliverect. What Should I Do To Receive Orders?
 position: 2
 layout: documentation
 meta:
-  title: Migrating From Deliverect To HubRise - iKentoo by Lightspeed
+  title: Migrating From Deliverect To HubRise | iKentoo by Lightspeed | HubRise
   description: Instructions to migrate from Deliverect to HubRise and receive orders in iKentoo by Lightspeed.
 ---
 
