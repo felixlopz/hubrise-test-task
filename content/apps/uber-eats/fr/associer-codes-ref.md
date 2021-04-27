@@ -31,7 +31,7 @@ Notez que les articles se trouvant sous l'onglet **Groupes de modificateurs** co
 
 ---
 
-Bien que HubRise prenne en charge les commentaires au niveau des produits, ce n'est pas le cas de la plupart des systèmes solution d'encaissement ni des intégrations. Afin d'éviter une expérience client négative, ceux-ci sont automatiquement désactivés lorsque vous connectez votre boutique Uber Eats à HubRise pour la première fois.
+Bien que HubRise prenne en charge les commentaires au niveau des produits, ce n'est pas le cas de la plupart des systèmes solution d'encaissement ni des intégrations. Afin d'éviter une expérience client négative, les commentaires sont automatiquement désactivés lorsque vous connectez votre boutique Uber Eats à HubRise pour la première fois.
 
 Si vous utilisez ces commentaires pour la préparation de vos plats, vous devez créer un article pour chaque demande habituelle dans votre solution d'encaissement (par exemple, "Cuisson à point", ou "Couper en tranches"), puis les inclure en tant qu'options dans votre menu Uber Eats.
 

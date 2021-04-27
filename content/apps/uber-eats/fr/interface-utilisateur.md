@@ -43,13 +43,13 @@ Cliquez sur une requête pour la développer et révéler le détail des échang
 
 ![Page de commande sur Uber Eats Bridge](../images/004-fr-order-logs.png)
 
-L'inspection des requêtes d'API constituent un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
+L'inspection des requêtes d'API constitue un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
 
 ## Page de requête système
 
 La mise en page est identique à celle d'une page de commande.
 
-Les requêtes système sont généralement envoyées par Uber Eats Bridge afin d'informer HubRise d'une modification de la configuration, ou bien pour alimenter l'interface utilisateur avec les informations les plus récentes. À titre d'exemple, l'image suivante illustre une requête de mise à jour du callback d'Uber Eats Bridge après un changement de configuration.
+Les requêtes système sont généralement envoyées par Uber Eats Bridge pour informer HubRise d'une modification de la configuration, ou pour mettre à jour l'interface utilisateur. À titre d'exemple, l'image suivante illustre une requête de mise à jour du callback d'Uber Eats Bridge après un changement de configuration.
 
 ![Page de requête système sur Uber Eats Bridge](../images/005-fr-system-request.png)
 
