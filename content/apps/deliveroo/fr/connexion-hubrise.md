@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Instructions pour connecter Deliveroo à HubRise
-  description: Voir comment connecter votre restaurant Deliveroo à HubRise. Envoyez le lien de votre page Deliveroo à HubRise et suivez quelques étapes pour vous connecter.
+  title: Connexion | Deliveroo | HubRise
+  description: Processus de connexion de votre restaurant Deliveroo à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes Deliveroo dans votre solution d'encaissement.
 ---
 
 La connexion de Deliveroo à HubRise s'effectue en quelques étapes simples.

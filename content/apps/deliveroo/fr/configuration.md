@@ -3,8 +3,8 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: Configuration - Connecter Deliveroo à HubRise
-  description: Instructions pour configurer Deliveroo Bridge pour un bon fonctionnement avec votre solution d'encaissement ou d'autres applications connectées à HubRise.
+  title: Configuration | Deliveroo | HubRise
+  description: Configurer Deliveroo Eats Bridge pour recevoir vos commandes Deliveroo dans votre solution d'encaissement ou d'autres applications connectées à HubRise.
 ---
 
 La page de configuration vous permet de personnaliser le comportement de Deliveroo Bridge selon vos préférences. Celles-ci sont divisées en différentes sections afin de faciliter la navigation.
@@ -13,7 +13,7 @@ La page de configuration vous permet de personnaliser le comportement de Deliver
 
 ## Langue
 
-Dans cette section, vous pouvez choisir dans quelle langue vos reçus sont édités.
+Dans cette section, vous pouvez choisir la langue d'édition de vos reçus.
 
 ## Types de service
 

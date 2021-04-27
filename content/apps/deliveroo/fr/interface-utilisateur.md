@@ -3,7 +3,7 @@ title: Interface utilisateur
 position: 3
 layout: documentation
 meta:
-  title: Interface utilisateur - Connecter Deliveroo à HubRise
+  title: Interface utilisateur | Deliveroo | HubRise
   description: Comment naviguer sur la page principale de Deliveroo Bridge pour accéder aux informations sur les commandes et personnaliser son comportement.
 ---
 
@@ -33,7 +33,7 @@ La sélection d'une opération de commande dans la liste qui figure sur la page 
 
 Les requêtes sont classées selon les dates les plus récentes, celles qui sont liées au même événement de commande (commande reçue, commande annulée, etc.) étant regroupées visuellement.
 
-Chaque ligne des fichiers journaux contient les informations suivantes :
+Chaque ligne de requête d'API contient les informations suivantes :
 
 - **HEURE** : date et l'heure d'envoi de la requête.
 - **DIRECTION** : applications qui envoient et reçoivent la requête, selon le format Origine → Destination.

@@ -3,8 +3,8 @@ title: Associer les codes ref
 position: 5
 layout: documentation
 meta:
-  title: Associer les codes ref - Connecter Deliveroo à HubRise
-  description: Voir comment associer les codes ref des produits de votre solution d'encaissement avec Deliveroo en passant par l'outil Gestionnaire de menu de Deliveroo.
+  title: Associer les codes ref | Deliveroo | HubRise
+  description: Comment saisir les codes ref de votre solution d'encaissement dans votre menu Deliveroo, en utilisant le gestionnaire de menu de Deliveroo.
 ---
 
 Pour que les commandes soient correctement traitées, la plupart des solution d'encaissement exigent un code ref pour chaque produit. Lorsque vous créez votre menu sur Deliveroo, vous devez donc vous assurer que chaque produit est associé à un code ref correct.
@@ -28,3 +28,5 @@ Pour attribuer des codes ref à vos produits Deliveroo en passant par l'outil Ge
 ---
 
 **REMARQUE IMPORTANTE :** il n'est pas possible d'associer manuellement des codes ref avec des produits depuis l'outil Gestionnaire de menu de Deliveroo si votre compte Deliveroo est configuré pour mettre à jour les codes ref via l'API Menu. Pour passer à l'outil Gestionnaire de menu et afficher les champs de PLU dans votre back-office Deliveroo, veuillez contacter [restaurants@deliveroo.fr](restaurants@deliveroo.fr).
+
+---

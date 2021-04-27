@@ -3,7 +3,7 @@ title: FAQs
 position: 7
 layout: documentation
 meta:
-  title: FAQs - Connecter Deliveroo à HubRise
+  title: FAQs | Deliveroo | HubRise
   description: Questions et réponses fréquemment posées sur l'intégration de Deliveroo avec HubRise.
 ---
 

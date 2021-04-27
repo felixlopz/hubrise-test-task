@@ -3,8 +3,8 @@ position: 1
 title: Présentation générale
 layout: documentation
 meta:
-  title: Présentation générale - Connecter Deliveroo à HubRise
-  description: Présentation générale de Deliveroo et raisons pour connecter votre restaurant Deliveroo à HubRise, comme l'envoie des commandes aux outils que vous utilisez.
+  title: Présentation générale | Deliveroo | HubRise
+  description: Deliveroo Bridge vous permet de connecter votre restaurant Deliveroo à HubRise, et de recevoir vos commandes Deliveroo dans votre solution d'encaissement.
 gallery:
   - 006-fr-deliveroo-screenshot.png
   - 002-fr-configuration-page.png 
