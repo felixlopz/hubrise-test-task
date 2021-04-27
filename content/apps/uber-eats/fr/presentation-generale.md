@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Présentation générale - Connecter Uber Eats à HubRise
-  description: Présentation générale d'Uber Eats et raisons pour connecter votre restaurant Uber Eats à HubRise, comme l'envoie des commandes aux outils que vous utilisez.
+  title: Présentation générale | Uber Eats | HubRise
+  description: Uber Eats Bridge vous permet de connecter votre restaurant Uber Eats à HubRise, et de recevoir vos commandes Uber Eats dans votre solution d'encaissement.
 gallery:
   - 006-fr-ubereats-screenshot.png
   - 002-fr-configuration-page.png
@@ -18,31 +18,31 @@ app_info:
 
 ## Description
 
-Uber Eats est une plateforme de commande et de livraison de repas en ligne appartenant à Uber Technologies, Inc. présente dans plus de 30 pays à travers le monde.
+Uber Eats est une plateforme de commande en ligne et de livraison de repas appartenant à Uber Technologies, Inc.. Elle est présente dans plus de 30 pays.
 
-Les restaurants peuvent profiter de la vaste clientèle d'Uber Eats pour développer leur activité et trouver de nouveaux clients. Dans le même temps, ils peuvent se concentrer sur ce qu'ils font le mieux, en l'occurrence préparer des plats, en laissant Uber Eats s'occuper de la logistique de livraison des plats.
+Uber Eats permet à ses restaurants partenaires de profiter de sa notoriété pour développer leur activité et trouver de nouveaux clients. Les restaurants peuvent ainsi se concentrer sur ce qu'ils font le mieux, en l'occurrence préparer des plats, et laisser Uber Eats s'occuper de la logistique.
 
-## Fonctionnalités d'intégration
+## Fonctionnalités de l'intégration
 
-Uber Eats se connecte à votre compte HubRise via Uber Eats Bridge, une application développée par HubRise.
+Pour connecter Uber Eats à HubRise, vous devez utiliser Uber Eats Bridge, une application développée par HubRise.
 
-La connexion à Uber Eats Bridge permet à Uber Eats de :
+Uber Eats Bridge permet de :
 
-- Faire suivre les commandes à HubRise.
-- Faire suivre les informations de livraison à HubRise, pour les commandes livrées par votre personnel.
+- Recevoir les commandes Uber Eats dans HubRise.
+- Recevoir les informations de livraison dans HubRise, lorsque les commandes sont livrées par votre personnel.
 
 ![Schéma du flux de connexion entre Uber Eats, Uber Eats Bridge et HubRise](../images/000-fr-2x-connection-diagram.png)
 
 ---
 
-**REMARQUE IMPORTANTE :** le catalogue de produits et la disponibilité de ceux-ci ne peuvent pas encore être synchronisés, mais HubRise prévoit de publier cette fonctionnalité courant 2021.
+**REMARQUE IMPORTANTE :** le catalogue et la disponibilité des produits ne peuvent pas encore être synchronisés, mais HubRise prévoit de mettre en place cette fonctionnalité courant 2021.
 
 ---
 
 ## Pourquoi se connecter ?
 
-La connexion de votre restaurant en ligne Uber Eats à HubRise vous permet de recevoir les commandes Uber Eats directement sur votre solution d'encaissement connecté à HubRise. Vous pouvez ainsi gérer les commandes Uber Eats en toute transparence à partir de votre configuration existante, comme vous le feriez pour toutes les autres commandes.
+La connexion de votre restaurant Uber Eats à HubRise vous permet de recevoir les commandes Uber Eats directement dans votre solution d'encaissement. Vous pouvez ainsi gérer les commandes Uber Eats dans votre logiciel habituel, comme toutes les autres commandes.
 
-## Conditions préalables requises
+## Prérequis
 
 Pour permettre la connexion entre Uber Eats et HubRise, votre restaurant doit être partenaire d'Uber Eats.

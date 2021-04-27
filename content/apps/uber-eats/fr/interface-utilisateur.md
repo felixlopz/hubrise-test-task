@@ -3,19 +3,19 @@ title: Interface utilisateur
 position: 3
 layout: documentation
 meta:
-  title: Interface utilisateur - Connecter Uber Eats à HubRise
+  title: Interface utilisateur | Uber Eats | HubRise
   description: Comment naviguer sur la page principale d'Uber Eats Bridge pour accéder aux informations sur les commandes et personnaliser son comportement.
 ---
 
-Sur la page principale d'Uber Eats Bridge, vous pouvez consulter les fichiers journaux de toutes les opérations effectuées entre HubRise et Uber Eats et accéder aux paramètres de configuration de l'intégration.
+Sur la page principale d'Uber Eats Bridge, vous pouvez consulter les requêtes d'API échangées entre HubRise et Uber Eats, et accéder à la page de configuration de l'intégration.
 
 ## Page des opérations
 
-La page principale affiche les dernières opérations d'API exécutées entre HubRise, Uber Eats et Uber Eats Bridge.
+La page principale affiche les dernières opérations d'API échangées entre HubRise, Uber Eats et Uber Eats Bridge.
 
-Les opérations peuvent soit être liées à une commande spécifique, soit être des requêtes système génériques exécutées par Uber Eats Bridge.
+Ces opérations peuvent soit être liées à une commande spécifique, soit être des requêtes système génériques exécutées par Uber Eats Bridge.
 
-Chaque ligne de la page affiche les informations suivantes à propos d'une opération :
+Chaque ligne de cette page affiche les informations relatives à une opération :
 
 - **HEURE** : date et heure de la commande.
 - **COMMANDE** : identifiant de la commande HubRise, pour les opérations de commande.
@@ -25,35 +25,35 @@ Le libellé "Requête système" indique que l'opération n'est pas liée à une 
 
 ![Page des opérations d'Uber Eats Bridge développée par HubRise](../images/003-fr-main-page.png)
 
-En cliquant sur une ligne, vous ouvrez une nouvelle page affichant les fichiers journaux associés à l'opération.
+En cliquant sur une ligne, vous ouvrez une nouvelle page affichant les requêtes d'API associées à l'opération.
 
-## Page des commandes
+## Page de commande
 
-La sélection d'une opération de commande dans la liste qui figure sur la page principale affiche tous les fichiers journaux des requêtes d'API échangées entre HubRise et Uber Eats via Uber Eats Bridge.
+En cliquant sur une opération de commande, vous accédez aux requêtes d'API échangées entre HubRise et Uber Eats pour cette commande.
 
-Les requêtes sont classées selon les dates les plus récentes, celles qui sont liées au même événement de commande (commande reçue, commande annulée, etc.) étant regroupées visuellement.
+Les requêtes sont classées par ordre chronologique inverse, et les requêtes liées au même événement de commande (commande reçue, commande annulée, etc.) sont regroupées visuellement.
 
-Chaque ligne des fichiers journaux contient les informations suivantes :
+Chaque ligne de requête d'API contient les informations suivantes :
 
 - **HEURE** : date et l'heure d'envoi de la requête.
 - **DIRECTION** : applications qui envoient et reçoivent la requête, selon le format Origine → Destination.
 - **STATUT** : statut de la requête. La valeur OK indique que la requête a été reçue avec succès. Dans le cas contraire, un message explique le type de l'erreur qui est survenue.
 
-Cliquez sur une requête pour la développer et révéler les fichiers journaux détaillés de la requête, ainsi que de sa réponse.
+Cliquez sur une requête pour la développer et révéler le détail des échanges.
 
-![Page des journaux de commande sur Uber Eats Bridge](../images/004-fr-order-logs.png)
+![Page de commande sur Uber Eats Bridge](../images/004-fr-order-logs.png)
 
-Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre en détail comment lire les fichiers journaux, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
+L'inspection des requêtes d'API constituent un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
 
 ## Page de requête système
 
-La mise en page d'une page de requête système est identique à celle d'une page de commande.
+La mise en page est identique à celle d'une page de commande.
 
-Les requêtes système sont généralement envoyées par Uber Eats Bridge afin d'informer HubRise d'une modification de la configuration, ou bien pour alimenter l'interface utilisateur avec les informations les plus récentes. À titre d'exemple, l'image suivante illustre une requête de mise à jour du rappel d'Uber Eats Bridge après un changement de configuration.
+Les requêtes système sont généralement envoyées par Uber Eats Bridge afin d'informer HubRise d'une modification de la configuration, ou bien pour alimenter l'interface utilisateur avec les informations les plus récentes. À titre d'exemple, l'image suivante illustre une requête de mise à jour du callback d'Uber Eats Bridge après un changement de configuration.
 
 ![Page de requête système sur Uber Eats Bridge](../images/005-fr-system-request.png)
 
-Les pages de requête système peuvent fournir des informations de débogage utiles aux équipes d'assistance, mais elles sont rarement intéressantes pour les autres utilisateurs.
+Les pages de requête système fournissent des informations de débogage utiles aux équipes d'assistance, mais elles sont généralement peu utiles pour les autres utilisateurs.
 
 ## Langue et navigation
 
