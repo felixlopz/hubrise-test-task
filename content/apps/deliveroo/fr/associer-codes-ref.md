@@ -27,6 +27,6 @@ Pour attribuer des codes ref à vos produits Deliveroo en passant par l'outil Ge
 
 ---
 
-**REMARQUE IMPORTANTE :** il n'est pas possible d'associer manuellement des codes ref avec des produits depuis l'outil Gestionnaire de menu de Deliveroo si votre compte Deliveroo est configuré pour mettre à jour les codes ref via l'API Menu. Pour passer à l'outil Gestionnaire de menu et afficher les champs de PLU dans votre back-office Deliveroo, veuillez contacter [restaurants@deliveroo.fr](restaurants@deliveroo.fr).
+**REMARQUE IMPORTANTE :** pour pouvoir saisir manuellement des codes ref dans le Gestionnaire de menu Deliveroo, l'API Menu ne doit pas être activée sur votre compte Deliveroo. Pour activer le Gestionnaire de menu et afficher les champs de PLU dans votre back-office Deliveroo, contactez [restaurants@deliveroo.fr](restaurants@deliveroo.fr).
 
 ---

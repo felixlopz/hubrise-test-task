@@ -43,7 +43,7 @@ Cliquez sur une requête pour la développer et révéler le détail des échang
 
 ![Page de commande sur Deliveroo Bridge](../images/004-fr-order-logs.png)
 
-L'inspection des requêtes d'API constituent un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
+Les requêtes d'API sont un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
 
 ## Page de requête système
 

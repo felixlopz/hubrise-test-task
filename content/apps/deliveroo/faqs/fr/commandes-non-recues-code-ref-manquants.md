@@ -1,5 +1,5 @@
 ---
-title: Pourquoi mes commandes ne sont-elles pas reçues par HubRise ?
+title: Pourquoi mes commandes Deliveroo n'apparaissent-elles pas sur HubRise ?
 position: 2
 layout: documentation
 meta:

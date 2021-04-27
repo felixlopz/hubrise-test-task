@@ -7,7 +7,7 @@ meta:
   description: Configurer Deliveroo Eats Bridge pour recevoir vos commandes Deliveroo dans votre solution d'encaissement ou d'autres applications connectées à HubRise.
 ---
 
-La page de configuration vous permet de personnaliser le comportement de Deliveroo Bridge. Elle est divisée en plusieurs sections afin de faciliter la navigation.
+La page de configuration permet de personnaliser le comportement de Deliveroo Bridge. Elle est divisée en plusieurs sections pour faciliter la navigation.
 
 ![Page de configuration de Deliveroo Bridge](../images/002-fr-configuration-page.png)
 
@@ -21,7 +21,7 @@ Les types de service tels que la livraison par Deliveroo, la livraison par le re
 
 ## Remises
 
-Cette section vous permet de spécifier le code ref de la remise appliquée à vos produits, dans le cas où vous auriez une remise active sur Deliveroo. Pour obtenir le code ref correspondant, reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
+Cette section permet de spécifier le code ref de la remise appliquée à vos produits, dans le cas où vous auriez une remise active sur Deliveroo. Pour obtenir le code ref correspondant, reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
 
 Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les offres** de votre back-office Deliveroo.
 
@@ -37,7 +37,7 @@ Dans cette section, vous pouvez spécifier le code ref des frais de livraison, a
 
 Les clients de Deliveroo peuvent régler leur commande en espèces lorsque le restaurant prend en charge la livraison.
 
-Cette section de la page de configuration vous permet de spécifier les codes ref pour les paiements en ligne et en espèces. Pour connaître les codes à utiliser, consultez la documentation de votre solution d'encaissement sur le site Web de HubRise.
+Cette section de la page de configuration permet de spécifier les codes ref pour les paiements en ligne et en espèces. Pour connaître les codes à utiliser, consultez la documentation de votre solution d'encaissement sur le site Web de HubRise.
 
 ## Sauvegarde de la configuration
 
