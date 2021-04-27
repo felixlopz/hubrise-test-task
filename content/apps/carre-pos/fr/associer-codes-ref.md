@@ -23,25 +23,19 @@ Pour exporter manuellement le catalogue vers HubRise, suivez les étapes suivant
 
 1. Depuis le back-office, dans le menu principal, sélectionnez **Général** > **Menu manager**.
    ![Associer les codes ref - Menu manager](../images/007-fr-carre-pos-menu-manager.png)
-1. Déroulez la partie **Menus** et sélectionnez l'onglet correspondant au menu à exporter.
-   ![Associer les codes ref - Menu affiché](../images/008-fr-carre-pos-menu.png)
-1. Cliquez sur **Exporter**.
-   ![Associer les codes ref - Exporter le menu](../images/009-fr-carre-pos-exporter-menu.png)
-1. Sur la ligne de votre établissement, cochez l'option **HubRise** et cliquez sur **Exporter**.
-   ![Associer les codes ref - Menu exporté](../images/010-fr-carre-pos-menu-exporte.png)
+1. Cliquez sur **Exporter les menus vers les plateformes**.
+   ![Associer les codes ref - Envoyer le menu](../images/008-fr-carre-pos-envoyer-menu.png)
+1. Sur la ligne **HubRise**, sélectionnez votre menu, et cliquez sur **Envoyer**.
 
 ## Produits
 
 Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 
 1. Depuis le back-office, dans le menu principal, sélectionnez **Général** > **Menu manager**.
-   ![Associer les codes ref - Menu manager](../images/007-fr-carre-pos-menu-manager.png)
-1. Déroulez la partie **Menus** et sélectionnez l'onglet correspondant au menu contenant le produit désiré.
-   ![Associer les codes ref - Menu affiché](../images/008-fr-carre-pos-menu.png)
+1. Déroulez la partie **Menus** et sélectionnez l'onglet correspondant au menu contenant le produit désiré. Si vous n'avez qu'un seul menu, il est sélectionné par défaut.
 1. Sélectionnez la catégorie à laquelle appartient le produit désiré.
-   ![Associer les codes ref - Catégorie affichée](../images/011-fr-carre-pos-menu-categorie.png)
 1. Cliquez sur le bouton de modification du produit désiré. Le code ref s'affiche dans le champ **Id**.
-   ![Associer les codes ref - Détails du produit](../images/012-fr-carre-pos-details-produit.png)
+   ![Associer les codes ref - Détails du produit](../images/009-fr-carre-pos-details-produit.png)
 
 ## SKUs
 
@@ -54,4 +48,4 @@ Une option dans HubRise correspond aussi à un produit dans Carré POS. Pour ret
 ## Méthodes de paiement
 
 Pour retrouver le code ref d'une méthode de paiement, depuis le back-office, dans le menu principal, sélectionnez **HubRise** > **Configuration**. Dans **Modes de paiement encaissement direct**, la liste des différentes méthodes de paiement s'affiche. Pour chaque élément de cette liste, le libellé correspond à son code ref.
-   ![Associer les codes ref - Modes de paiement](../images/013-fr-carre-pos-details-modes-paiement.png)
+   ![Associer les codes ref - Modes de paiement](../images/010-fr-carre-pos-details-modes-paiement.png)
