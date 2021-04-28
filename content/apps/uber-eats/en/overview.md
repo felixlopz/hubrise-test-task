@@ -13,7 +13,7 @@ app_info:
   category: Food Ordering Platforms
   availability: 30+ countries
   website: https://www.ubereats.com/
-  contact: eats-partner-tech-support@uber.com
+  contact:
 ---
 
 ## Description

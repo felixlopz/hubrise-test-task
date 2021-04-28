@@ -19,13 +19,23 @@ Terminology and spelling decisions are informed in our XTM tool, only for intern
 
 Keep in mind that readers of the documentation might not be native English speakers.
 
-## Localisation
+## Language
 
 The HubRise documentation should be written in British English. Localisation into French is done regularly to keep all bilingual content in sync.
 
 If the user interface is not available in English, include the user interface term in the native language followed by the translation in brackets.
 
 > Right: Click on **Activer** (Connect) when prompted to do so.
+
+### Tone
+
+Be conversational rather than formal but do not overdo it. Be friendly, and respectful while sharing your know-how.
+
+### Gender neutrality
+
+Don't use gender-specific pronouns unless the person you're referring to is actually that gender.
+
+In particular, don't use **he*, **him**, **his**, **she**, or **her** as gender-neutral pronouns, and don't use **he/she** or **(s)he** or other such punctuational approaches.
 
 ## Capitalisation
 
@@ -237,10 +247,6 @@ Do not use contractions. For instance, write **do not** instead of **don't**.
 ## Italics
 
 You may use italics for tech terms except code. Do not use it to identify examples, make a sentence instead.
-
-## Tone
-
-Be conversational rather than formal but do not overdo it. Be friendly, and respectful while sharing your know-how.
 
 ## Notices
 
