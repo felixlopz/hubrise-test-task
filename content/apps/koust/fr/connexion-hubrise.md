@@ -28,10 +28,11 @@ Pour établir la connexion entre Koust et HubRise :
 
 ## Tester la connexion
 
-Pour vérifier que la connexion entre Koust et HubRise est correctement établie, suivez les étapes suivantes :
+Pour vérifier que la connexion entre Koust et HubRise est correctement établie, vous devez disposer d'une autre application connectée au même point de vente HubRise, et capable d'envoyer des commandes vers HubRise. Il peut s'agir par exemple d'une solution de commande en ligne ou de votre logiciel de caisse.
 
-1. Passez une commande depuis une autre application, telle que LivePepper (après avoir vérifié que cette autre application est elle aussi connectée au même compte HubRise).
-1. Depuis votre espace Koust, dans le menu latéral, sélectionnez **Ventes - Conso.** > **Historique ventes**. La commande que vous avez passée dans la première étape est présente dans la liste des commandes. Si cela n'est pas le cas, allez dans votre espace HubRise, dans le menu latéral, sélectionnez **DONNÉES** > **COMMANDES**. Vérifiez que la commande est présente dans la liste des commandes.
+1. Passez une commande depuis l'autre application connectée.
+1. Dans votre espace Koust, dans le menu latéral, sélectionnez **Ventes - Conso.** > **Historique ventes**. La commande doit apparaître dans la liste des commandes.
+1. Si la commande n'apparaît pas dans Koust, vérifiez qu'elle a bien été envoyée à HubRise. Pour cela, allez dans votre espace HubRise, dans le menu latéral, sélectionnez **DONNÉES** > **COMMANDES**. Vérifiez que la commande est présente dans la liste des commandes.
 
 ## Se déconnecter
 
