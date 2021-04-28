@@ -9,9 +9,9 @@ meta:
 
 La page Configuration est accessible en cliquant sur la flèche <InlineImage width="20" height="20">![icône fléchée](../images/arrow-icon.jpg)</InlineImage> dans le coin supérieur droit de la page principale. Pour plus de détails, voir la rubrique [Interface utilisateur](/apps/uber-eats/interface-utilisateur).
 
-La page Configuration vous permet de personnaliser le comportement d'Uber Eats Bridge.
+La page Configuration permet de personnaliser le comportement d'Uber Eats Bridge.
 
-Elle est divisée en plusieurs sections afin de faciliter la navigation.
+Elle est divisée en plusieurs sections pour faciliter la navigation.
 
 ![Page de configuration de Uber Eats Bridge](../images/002-fr-configuration-page.png)
 
