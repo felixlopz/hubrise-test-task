@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-This documentation is [available in French only](/fr/apps/nestor).
+This documentation is [available in French only](https://www.hubrise.com/fr/apps/nestor).
