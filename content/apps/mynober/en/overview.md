@@ -18,7 +18,7 @@ app_info:
 
 ## Description
 
-MynOber provides several services for hospitality businesses, including QR ordering, online ordering and kiosk self-ordering solutions. MynOber simplifies online ordering by letting customers place orders from mobile apps and self-ordering kiosks, alongside traditional web channels.
+MynOber provides several services for hospitality businesses, including QR ordering, online ordering and kiosk self-ordering solutions, as well as EPOS solutions. MynOber simplifies online ordering by letting customers place orders from mobile apps and self-ordering kiosks, alongside traditional web channels.
 
 ## Integration Features
 
@@ -28,10 +28,13 @@ Connecting MynOber Cloud allows you to:
 
 - Push orders from MynOber to HubRise.
 - Pull orders from HubRise to your MynOber connected EPOS.
+- Push the catalog from HubRise to MynOber.
+- Pull the catalog from MynOber to HubRise.
 
 ## Why Connect?
 
-Connecting your MynOber solution to HubRise allows you to receive MynOber orders directly in your EPOS or Kitchen Display Screen also connected with HubRise.
+Connecting your MynOber solution to HubRise allows you to receive MynOber orders directly in your EPOS or Kitchen Display Screen also connected with HubRise. Additionally, when used as an EPOS, MynOber allows you to connect online ordering solutions and food platforms.
+
 You will be able to manage MynOber orders alongside other orders, using your own tools. MynOber orders will flow through your existing setup, as all other orders already do.
 
 ## Prerequisites

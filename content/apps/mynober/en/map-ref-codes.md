@@ -9,11 +9,17 @@ meta:
 
 Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, if you connect MynOber to your EPOS via HubRise, you need to make sure that each product in your MynOber Cloud menu is assigned to the correct ref code.
 
+---
+
+**IMPORTANT NOTE**: You can skip this page if you only use MynOber Cloud as an EPOS.
+
+---
+
 ## Updating Ref Codes Manually
 
 ### Product Ref Codes
 
-If you already have a menu in your MybOber Cloud location, you can manually enter the ref codes for your products, so that they match those in your EPOS.
+If you already have a menu in your MynOber Cloud location, you can manually enter the ref codes for your products, so that they match those in your EPOS.
 
 To manually assign ref codes to your MynOber products from the MynOber Cloud back office, follow these steps:
 

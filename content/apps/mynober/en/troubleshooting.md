@@ -7,15 +7,15 @@ meta:
   description: Troubleshooting MynOber Cloud connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-## Verify Product Mapping
+## Finding Product Ref Codes
 
-To verify that all MynOber menu items have an associated EPOS ref code, follow these steps:
+To find the ref codes assigned to your MynOber menu items, follow these steps:
 
 1. Log in to your [MynOber Cloud account](https://cloud.mynober.nl/).
-2. Select the location.
-3. Click **Articles** > **Articles**.
-4. Click **Expand All** to reveal all the products available.
-5. Check that every product in the list has a ref code in the **PLU** column.
+1. Select the location.
+1. Click **Articles** > **Articles**.
+1. Click **Expand All** to reveal all the products available.
+1. The ref codes of your products appear in the **PLU** column.
 
 ## MynOber Support
 
