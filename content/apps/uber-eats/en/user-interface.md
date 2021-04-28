@@ -43,7 +43,7 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 ![Order logs page on Uber Eats Bridge](../images/004-en-order-logs.png)
 
-Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see the [HubRise documentation](/docs/hubrise-logs/).
+Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
 ## System Request Page
 
