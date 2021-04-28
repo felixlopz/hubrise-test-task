@@ -12,8 +12,8 @@ gallery:
   - 004-fr-smilein-app-commande.jpeg
 path_override: /
 app_info:
-  category: Online Ordering
-  availability: Worldwide
+  category: Commande en ligne
+  availability: Monde
   price_range:
   website: https://www.smilein.io
   contact: https://www.smilein.io/contactez-nous
@@ -21,11 +21,11 @@ app_info:
 
 ## Description
 
-smilein est une solution de commande et paiement depuis le smartphone, dédiée à l'hôtellerie et à la restauration. Elle est particulièrement adaptée aux chaines et aux food courts en raison de ses fonctionnalités de gestion multi-sites.
+smilein est une solution de commande et de paiement depuis le smartphone, dédiée à l'hôtellerie et à la restauration. Elle est particulièrement adaptée aux chaines et aux food courts en raison de ses fonctionnalités de gestion multi-sites.
 
 Les utilisateurs peuvent modifier leur carte, personnaliser leur site et gérer leurs commandes de manière autonome.
 
-smilein est aussi une plateforme de gestion de contenu, offrant du contenu (vidéos, presse, jeux) et des services pour permettre aux enseignes de mieux connaître leurs clients, de les intégrer dans des programmes de fidélité et ainsi d'alimenter leurs bases de données clients.
+smilein est aussi une plateforme de gestion de contenu, offrant du contenu (vidéos, presse, jeux) et des services pour permettre aux enseignes de mieux connaître leurs clients, de les intégrer dans des programmes de fidélité et d'alimenter leurs bases de données clients.
 
 La suite smilein est composée de deux logiciels :
 
