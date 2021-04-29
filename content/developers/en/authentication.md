@@ -164,8 +164,12 @@ Note that you will need to ship your client secret within your application binar
 
 The `access_token` returned by `GET /oauth2/v1/token` is specific to a given client and a given location. Re-authorising the same location with the same client always returns the same token.
 
-**Important**: if a different catalog (or customer list) is selected when re-authorising the location, the token will no
+---
+
+**IMPORTANT NOTE**: if a different catalog (or customer list) is selected when re-authorising the location, the token will no
 longer allow access to the former catalog (or customer list) when the new authorisation completes.
+
+---
 
 You can bypass this behaviour and force a new token to be issued by passing a `device_id` parameter when redirecting the
 user to the authorisation page, eg:
