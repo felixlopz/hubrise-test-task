@@ -79,7 +79,7 @@ A connection should not exceed any of the following limits:
 - 2,500 requests over a 1-hour window 
 - 10,000 requests over a 1-day window
 
-The above time windows start at a round minute, hour, and day respectively. For example the 1-hour window starts at the start of hour. Therefore if a connection has used its hourly limit by 11:35:00, it will remain throttled until the start of next hour, ie 12:00:00.
+Time windows start at a round minute, hour, and day respectively. For example, 1-hour windows begin at the start of an hour. So if a connection has used its hourly limit by 10:35, it will remain throttled until the start of the next hour, ie 11:00.
 
 ## 4. Overriding HTTP Method
 
