@@ -9,20 +9,20 @@ meta:
 
 ## 1. Introduction to OAuth 2.0
 
-Before your application can access HubRise data, the user needs to give your application permission. The HubRise API uses the OAuth 2.0 protocol for this purpose. This is the same method that services like Twitter and Facebook use to let applications post on your behalf.
+Before your application can access data on HubRise, you need to request your users' permission. The HubRise API relies on the OAuth 2.0 protocol for this purpose.
 
 The OAuth 2.0 flow is a series of interactions between:
 
-- A **resource owner**: the HubRise user
-- A **client**: your application, ie a program or a website making protected requests on behalf of the user
-- An **authorisation server**: HubRise OAuth API, which issues an access token to the client. It is hosted at: http://manager.hubrise.com/oauth2/v1
-- A **resource server**: HubRise API, which provides access your user data. It is hosted at: http://api.hubrise.com/v1
+- A **resource owner**: the HubRise user.
+- A **client**: your application, which makes requests on behalf of the user.
+- An **authorisation server**: the HubRise OAuth API, which issues an access token to the client. Hosted on: http://manager.hubrise.com/oauth2/v1.
+- A **resource server**: the HubRise API, which provides access to your users' data. Hosted on: http://api.hubrise.com/v1.
 
 Although it seems complicated at first, OAuth actually makes things simpler for both you and your users, and it dramatically reduces security risks for everyone:
 
-- Your application doesn't need to store your users' passwords
-- You can pick which permissions to request from a user. For example, users can grant your application access to their order list, without also needing to grant access to their customer list.
-- Users can easily revoke the access they grant a potentially insecure application, without needing to reset their password.
+- Your application doesn't need to store your users' passwords.
+- Your application can only access the data that it needs. For example, your application can request access to orders but not catalogs. Or it can request read-only access.
+- Users can easily revoke access to a potentially insecure or compromised application, without resetting their password.
 
 ## 2. OAuth scopes
 
