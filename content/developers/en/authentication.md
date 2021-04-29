@@ -26,7 +26,7 @@ Although it seems complicated at first, OAuth actually makes things simpler for 
 
 ## 2. OAuth scopes
 
-A _scope_ controls the set of resources an access token can read and write. Users can see the scope before granting access to an application. It's recommended for application developers to limit the scope to what is strictly necessary to avoid being denied access.
+A _scope_ controls the set of resources an application has access to. Users can see the scope before granting access to an application. The good practice is to limit your application's scope to the minimum it needs: not only does this reduce the impact of a potential security breach, it also makes your users more comfortable authorising your application.
 
 A scope is a comma-separated list of:
 
@@ -43,15 +43,15 @@ An **access-level set of permissions** is made of:
 
 #### Examples of valid scopes:
 
-- `profile_with_email`: access to the user profile including email
-- `location[orders.write,customer_list.write]`: allows creating orders and customers for a chosen location
-- `account[customer_list.read],profile`: access to the user profile and to the customers from a chosen customer list
+- `profile_with_email`: your application can access the profile of the user, including their email.
+- `location[orders.write,customer_list.write]`: your application can create orders and customers in a chosen location.
+- `account[customer_list.read],profile`: your application can access the user profile and view all customers from a chosen customer list.
 
 ## 3. Web application workflow
 
 ### 3.1. Request authorisation
 
-To get access to a user's data, your application needs to redirect the user to this page:
+To get access to a user's data, your application should redirect the user to this page:
 
 ```http
 https://manager.hubrise.com/oauth2/v1/authorize?
