@@ -6,7 +6,9 @@ meta:
   title: Overview | My Lemonade | HubRise
   description: My Lemonade overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 003-fr-2x-my-lemonade-sample-app.png
+  - 002-fr-my-lemonade-sample-app.png
+  - 003-fr-my-lemonade-sample-back-office-product.png
+  - 004-fr-my-lemonade-sample-back-office-deal.png
 path_override: /
 app_info:
   category: Online ordering
