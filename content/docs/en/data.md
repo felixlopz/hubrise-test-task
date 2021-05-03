@@ -3,7 +3,7 @@ title: Data
 position: 5
 layout: documentation
 meta:
-  title: HubRise Data
+  title: Data | HubRise
   description: How connections to HubRise can be managed.
 ---
 

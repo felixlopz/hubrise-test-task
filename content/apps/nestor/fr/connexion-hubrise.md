@@ -3,8 +3,8 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion à HubRise - Nestor
-  description: Etablir la connexion entre Nestor et HubRise.
+  title: Connexion à HubRise | Nestor | HubRise
+  description: Étapes pour établir une connexion entre Nestor et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
 Pour connecter Nestor à HubRise, il suffit de suivre quelques étapes.

@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Aquila Connection to HubRise
-  description: Instructions on connecting Aquila with HubRise
+  title: Connection to HubRise | Aquila | HubRise
+  description: Instructions on connecting Aquila CMS with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 Connecting Aquila to HubRise requires the HubRise plugin to be installed and enabled.

@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: Uber Eats Connection to HubRise - Overview
-  description: Uber Eats overview and why restaurants should connect it to HubRise. With a connection to HubRise orders are sent to tools you use every day - EPOS, KDS.
+  title: Overview | Uber Eats | HubRise
+  description: Uber Eats overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 006-en-ubereats-screenshot.png
   - 002-en-configuration-page.png
@@ -13,7 +13,7 @@ app_info:
   category: Food Ordering Platforms
   availability: 30+ countries
   website: https://www.ubereats.com/
-  contact: eats-partner-tech-support@uber.com
+  contact:
 ---
 
 ## Description

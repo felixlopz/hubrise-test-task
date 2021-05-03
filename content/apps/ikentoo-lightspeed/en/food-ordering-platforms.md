@@ -3,8 +3,8 @@ title: Food Ordering Platforms
 position: 6
 layout: documentation
 meta:
-  title: Receiving Orders from Delivery Platforms - iKentoo by Lightspeed
-  description: Integrating iKentoo with food platforms like Deliveroo, Uber Eats, and Just Eat requires you to specify particular ref codes in the configuration page for the delivery platform bridge.
+  title: Food Ordering Platforms | iKentoo by Lightspeed | HubRise
+  description: Integrating iKentoo with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 
 To connect iKentoo to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.

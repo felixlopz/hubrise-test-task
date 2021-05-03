@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: HubRise PixelPoint Windows API Overview
-  description: Details the use and functionality of the HubRise PixelPoint Bridge.
+  title: Overview | PixelPoint Windows API | HubRise
+  description: PixelPoint Windows API overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
 
 path_override: /

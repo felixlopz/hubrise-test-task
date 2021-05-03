@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Présentation générale de Nestor
-  description: "Le logiciel de caisse Nestor : présentation générale et fonctionnalités de l'intégration avec HubRise."
+  title: Présentation générale | Nestor | HubRise
+  description: Présentation générale de Nestor, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
   - 019-fr-nestor-apercu-commandes.png
   - 020-fr-nestor-apercu-connexion.png

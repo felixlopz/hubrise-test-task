@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: Tasty Cloud Connection to HubRise Overview
-  description: Overview of Tasty Cloud and how to connect it to HubRise.
+  title: Overview | TastyCloud | HubRise
+  description: TastyCloud overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 001-2x-palais-krishnaa-tastycloud.png
 path_override: /

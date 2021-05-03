@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: MyOrderBox Connection to HubRise - Overview
-  description: MyOrderBox overview and why you should connect it to HubRise. With a connection to HubRise, receive orders in your EPOS, and synchronise your data.
+  title: Overview | MyOrderBox | HubRise
+  description: MyOrderBox overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 app_info:
   category: EPOS
@@ -37,4 +37,3 @@ Connecting MyOrderBox to HubRise makes your EPOS and your other apps work as a c
 ## Prerequisites
 
 To establish a connection between MyOrderBox and HubRise, you must have an existing MyOrderBox account.
-

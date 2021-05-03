@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: Shopify Connection to HubRise - Overview
-  description: Shopify overview and why you should connect it to HubRise. With a connection to HubRise, orders are sent to tools you use every day including your EPOS.
+  title: Overview | Shopify | HubRise
+  description: Shopify overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 001-2x-backoffice-shopify.png
   - 002-en-2x-shop-sample-1.png

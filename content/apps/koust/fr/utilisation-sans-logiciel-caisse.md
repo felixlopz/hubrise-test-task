@@ -3,8 +3,8 @@ title: Utilisation sans logiciel de caisse
 position: 6
 layout: documentation
 meta:
-  title: Utilisation sans logiciel de caisse - Koust
-  description: Configuration des articles Koust si vous n'utilisez pas de logiciel de caisse.
+  title: Utilisation sans logiciel de caisse | Koust | HubRise
+  description: Configuration des articles Koust si vous n'utilisez pas de logiciel de caisse. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
 ## Import CSV
