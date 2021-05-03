@@ -4,14 +4,16 @@ position: 5
 layout: documentation
 meta:
   title: Plateformes de livraison de repas | Nestor | HubRise
-  description: Paramètres de configuration HubRise à utiliser pour connecter Nestor aux plateformes de livraison de repas suivantes : Deliveroo, Uber Eats et Just Eat.
+  description: HubRise permet de connecter le logiciel de caisse Nestor à Deliveroo, Uber Eats, ou Just Eat. Paramètres à utiliser pour configurer la connexion de ces plateformes.
 ---
 
-Pour connecter Nestor à Deliveroo, Uber Eats, ou Just Eat, utilisez les paramètres de configuration fournis ci-dessous.
+HubRise permet de connecter le logiciel de caisse Nestor à Deliveroo, Uber Eats, ou Just Eat. Pour plus d'informations, consultez les pages d'aide de ces plateformes, accessibles depuis notre [page Apps](/apps).
+
+Vous trouverez ci-dessous les paramètres qui vous seront demandés lors de la configuration de ces plateformes.
 
 ## Deliveroo
 
-Utilisez les codes ref suivants dans Deliveroo Bridge. Pour savoir comment configurer ces codes, consultez la page de [configuration de Deliveroo Bridge](/apps/deliveroo/configuration).
+Dans la page de configuration de Deliveroo Bridge, utilisez les codes ref suivants.
 
 | Section          | Nom                                  | Code ref       |
 | ---------------- | ------------------------------------ | -------------- |
@@ -24,9 +26,11 @@ Utilisez les codes ref suivants dans Deliveroo Bridge. Pour savoir comment confi
 | Paiements        | Code ref paiement sur Deliveroo      | (laisser vide) |
 | Paiements        | Code ref paiement en espèces         | (laisser vide) |
 
+Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Deliveroo Bridge](/apps/deliveroo/configuration).
+
 ## Uber Eats
 
-Utilisez les codes ref suivants dans Uber Eats Bridge. Pour savoir comment configurer ces codes, consultez la page de [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
+Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivants.
 
 | Section             | Nom                                  | Code ref                                                          |
 | ------------------- | ------------------------------------ | ----------------------------------------------------------------- |
@@ -34,16 +38,18 @@ Utilisez les codes ref suivants dans Uber Eats Bridge. Pour savoir comment confi
 | Types de service    | Code ref livraison par le restaurant | `UELIVR`                                                          |
 | Types de service    | Code ref à emporter                  | `UEEMP`                                                           |
 | Types de service    | Code ref sur place                   | `UEPLA`                                                           |
-| Articles spéciaux   | Code ref jetables                    | Créer un article "Jetables" dans Nestor et utiliser son code ref. |
+| Articles spéciaux   | Code ref jetables                    | Créer un article `Jetables` dans Nestor et utiliser son code ref. |
 | Remises             | Code ref remise                      | (laisser vide)                                                    |
 | Paiements           | Code ref paiement                    | (laisser vide)                                                    |
 | Statuts de commande | Marquer la commande comme Acceptée   | `Lorsque le statut HubRise passe à "Reçue"`                       |
 | Statuts de commande | Marquer la commande comme Rejetée    | `Lorsque le statut HubRise passe à "Rejetée"`                     |
 | Statuts de commande | Marquer la commande comme Annulée    | `Lorsque le statut HubRise passe à "Annulée"`                     |
 
+Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
+
 ## Just Eat
 
-Utilisez les codes ref suivants dans Just Eat Takeaway Bridge. Pour savoir comment configurer ces codes, consultez la page de [configuration de Just Eat Takeaway Bridge](/apps/just-eat-takeaway/configuration).
+Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les codes ref suivants.
 
 | Section          | Nom                                  | Code ref       |
 | ---------------- | ------------------------------------ | -------------- |
@@ -54,3 +60,5 @@ Utilisez les codes ref suivants dans Just Eat Takeaway Bridge. Pour savoir comme
 | Frais            | Code ref frais de livraison          | (laisser vide) |
 | Paiements        | Code ref paiement en ligne           | (laisser vide) |
 | Paiements        | Code ref paiement en espèces         | (laisser vide) |
+
+Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Just Eat Takeaway Bridge](/apps/just-eat-takeaway/configuration).
