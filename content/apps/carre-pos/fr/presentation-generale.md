@@ -3,7 +3,7 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Connecter Carré POS à HubRise - Présentation générale
+  title: Présentation générale | Carré POS | HubRise
   description: Présentation générale de Carré POS, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
   - 001-fr-carre-pos-accueil.png

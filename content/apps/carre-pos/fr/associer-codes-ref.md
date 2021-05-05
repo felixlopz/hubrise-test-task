@@ -3,7 +3,7 @@ title: Associer les codes ref
 position: 3
 layout: documentation
 meta:
-  title: Connecter Carré POS à HubRise - Associer les codes ref
+  title: Associer les codes ref | Carré POS | HubRise
   description: Instructions pour associer les codes ref des produits Carré POS avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 

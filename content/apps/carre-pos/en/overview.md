@@ -3,7 +3,7 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect Carré POS to HubRise - Overview
+  title: Overview | Carré POS | HubRise
   description: Carré POS overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 ---

@@ -3,7 +3,7 @@ title: Terminologie
 position: 5
 layout: documentation
 meta:
-  title: Connecter Carré POS à HubRise - Terminologie
+  title: Terminologie | Carré POS | HubRise
   description: Table de correspondance entre les termes utilisés par Carré POS et HubRise pour le même concept. Connectez vos apps et synchronisez vos données.
 ---
 
@@ -11,6 +11,6 @@ HubRise et Carré POS utilisent chacun leur propre terminologie. Un même concep
 
 | Carré POS            | HubRise             | Description                             |
 | -------------------- | ------------------- | --------------------------------------- |
-| Menu                 | Catalogue           | Catalogue de produits                   |
 | Groupe d'options     | Liste d'options     | Liste d'options                         |
 | Compte client        | Client              | Informations du client                  |
+| Mode de paiement     | Méthode de paiement | Méthode utilisée pour payer la commande |
