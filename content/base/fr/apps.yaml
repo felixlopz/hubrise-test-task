@@ -32,7 +32,7 @@ content:
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, adapté à tout type de commerce, offre de nombreuses fonctionnalités dont un système de gestion de livreurs, un kiosque, un écran cuisine, ainsi qu'une solution de commande en ligne et de commande à table.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.etakeawaymax.co.uk/
           documentation:
           logo: etakeawaymax.png
@@ -55,7 +55,7 @@ content:
           logo: jalia.png
           title: Jalia par JDC
           description: Jalia de JDC, est une solution d'encaissement cloud sur tablette iOS ou Android, qui favorise la mobilité. L'installation est rapide et l'interface optimisée pour une prise de commande rapide.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: kezia.png
@@ -147,7 +147,7 @@ content:
           logo: eat.png
           title: EAT.ch
           description: EAT.ch est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Suisse.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.foodpanda.com/
           documentation: /apps/foodpanda
           logo: foodpanda.png
@@ -164,19 +164,19 @@ content:
           logo: lieferando.png
           title: lieferando.de and lieferando.at
           description: lieferando est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Allemagne et en Autriche.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.pyszne.pl/fr/
           documentation:
           logo: pyszne.png
           title: Pyszne
           description: Pyszne est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Pologne.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.skipthedishes.com/fr/
           documentation:
           logo: skipthedishes.png
           title: Skip The Dishes
           description: Skip The Dishes est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander un repas ou des boissons alcoolisées en ligne ou via une app mobile. Disponible au Canada.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.smood.ch/fr
           documentation:
           logo: smood.png
@@ -187,13 +187,13 @@ content:
           logo: takeaway.png
           title: Takeaway.com
           description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, au Luxembourg, au Portugal, en Roumanie, et en Bulgarie.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.thuisbezorgd.nl/fr/
           documentation:
           logo: thuisbezorgd.png
           title: Thuisbezorgd
           description: Thuisbezorgd est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponiblau au Pays-Bas.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
           logo: ubereats.png
@@ -207,7 +207,7 @@ content:
           logo: app4.png
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
-          additional_info: Documentation en anglais. Intégration en cours.
+          additional_info: Documentation en anglais.
         - website: https://www.aquila-cms.com/
           documentation: /apps/aquila/
           logo: aquila-cms.png
@@ -303,7 +303,7 @@ content:
           logo: coursicab.png
           title: Coursicab
           description: Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, vos clients peuvent suivre leurs colis en temps réel. Présent dans 6 pays européens, disponible 24h/7.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png
