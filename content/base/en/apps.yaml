@@ -32,7 +32,7 @@ content:
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, suitable for retail and hospitality businesses, offers many features including delivery management, self service kiosk, Kitchen Display System, as well as online ordering and table ordering. They operate in several countries.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.etakeawaymax.co.uk/
           documentation:
           logo: etakeawaymax.png
@@ -54,7 +54,7 @@ content:
           logo: jalia.png
           title: Jalia by JDC
           description: Jalia by JDC is a cloud Point of Sale that works on both iOS and Android tablets. Installation is easy and the EPOS is optimised for fast order taking.
-          additional_info: Integration in progess.
+          additional_info:
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation:
           logo: kezia.png
@@ -147,7 +147,7 @@ content:
           logo: eat.png
           title: EAT.ch
           description: EAT.ch is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Switzerland.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.foodpanda.com/
           documentation: /apps/foodpanda
           logo: foodpanda.png
@@ -164,19 +164,19 @@ content:
           logo: lieferando.png
           title: lieferando.de and lieferando.at
           description: lieferando is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Germany and Austria.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.pyszne.pl/en/
           documentation:
           logo: pyszne.png
           title: Pyszne
           description: Pyszne is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Poland.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.skipthedishes.com/
           documentation:
           logo: skipthedishes.png
           title: Skip The Dishes
           description: Skip The Dishes is an online food ordering and delivery platform for local restaurants. Customers can order food or alcohol online or via a mobile app. They operate in Canada.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.smood.ch/en
           documentation:
           logo: smood.png
@@ -187,13 +187,13 @@ content:
           logo: takeaway.png
           title: Takeaway.com
           description: Takeaway.com is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Belgium, Luxembourg, Portugal, Romania, and in Bulgaria.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.thuisbezorgd.nl/en/
           documentation:
           logo: thuisbezorgd.png
           title: Thuisbezorgd
           description: Thuisbezorgd is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Netherlands.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.ubereats.com
           documentation: /apps/uber-eats
           logo: ubereats.png
@@ -206,7 +206,7 @@ content:
           logo: app4.png
           title: App4
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.aquila-cms.com/
           documentation: /apps/aquila/
           logo: aquila-cms.png
@@ -297,7 +297,7 @@ content:
           logo: coursicab.png
           title: Coursicab
           description: Coursicab is a delivery platform used for express and scheduled deliveries, by taxi or bike. Thanks to geolocation, your customers can track their packages real-time. Present in 6 European countries, available 24/7.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.orderlord.com
           documentation:
           logo: orderlord.png
@@ -363,6 +363,11 @@ content:
           additional_info: Documentation in French.
     - title: Other Apps
       apps:
+        - website: https://www.expedy.fr/
+          documentation:
+          logo: expedy-print.png
+          title: Expedy Print
+          description: Expedy Print is used to automate printing of orders received from e-commerce websites or any other web application to one or more printers simultaneously. Connection can be done by ETHERNET, 4G, Wifi or USB.
         - website:
           documentation: /apps/orderline/
           logo: orderline.png
