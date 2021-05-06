@@ -375,6 +375,11 @@ content:
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
     - title: Autres applications
       apps:
+        - website: https://www.expedy.fr/
+          documentation:
+          logo: expedy-print.png
+          title: Expedy Print
+          description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 4G, Wifi ou USB.
         - website:
           documentation: /apps/orderline/
           logo: orderline.png
