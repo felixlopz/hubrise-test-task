@@ -9,7 +9,7 @@ meta:
 path_override: /
 app_info:
   category: Point of Sales
-  availability: Worldwide. The EPOS solution is not available in France.
+  availability: Worldwide
   price_range: Contact OrderLord to enquire about pricing.
   website: https://www.orderlord.com
   contact: support@orderlord.com
