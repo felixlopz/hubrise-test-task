@@ -60,7 +60,9 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 ---
 
 **IMPORTANT NOTE**: Product-level comments are not supported on iKentoo. Therefore, if your customers include product-level comments in an order, you will not be able to see them.
-For possible alternative solutions to this problem, see [Uber Eats documentation](/apps/uber-eats/map-ref-codes#product-level-comments).
+To prevent this, product-level comments are automatically disabled on your Uber Eats store when you connect it to HubRise.
+
+If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
 
 ---
 
