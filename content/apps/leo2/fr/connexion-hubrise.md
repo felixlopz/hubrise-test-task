@@ -24,6 +24,7 @@ Pour établir la connexion entre un point de vente LEO2 et HubRise :
 1. Choisissez le point de vente que vous désirez connecter et cliquez sur **Autoriser** pour donner à Nestor l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, cliquez sur **Suivant** afin d'afficher les listes déroulantes correspondantes, sélectionnez l'option voulue, puis cliquez sur **Autoriser**.
 1. Copiez le code affiché et collez-le dans la fenêtre **Paramétrage interface HubRise** de LEO2.
 1. Cliquez sur **Etablir Connexion**.
+1. Cliquez sur **OK**.
    ![Connexion à HubRise - HubRise connecté](../images/003-fr-leo2-hubrise-connecte.png)
 1. Cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel LEO2 peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/leo2/connexion-hubrise#donner-acc-s-au-support-de-leo2).
