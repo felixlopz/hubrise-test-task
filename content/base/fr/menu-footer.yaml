@@ -17,6 +17,10 @@ sections:
     links:
       - title: Guide utilisateur
         to: /docs
+      - title: Conditions Générales
+        to: /legal/conditions-generales
+      - title: Mentions Légales
+        to: /legal/mentions-legales
   - title: Société
     links:
       - title: Guide de la marque
