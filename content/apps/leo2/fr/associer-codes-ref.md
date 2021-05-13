@@ -23,10 +23,8 @@ Pour exporter manuellement le catalogue vers HubRise, suivez les étapes suivant
 
 1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
-   ![Connexion à HubRise - Écran de gestion](../images/001-fr-leo2-menu-gestion.png)
 1. Cliquez sur **Paramètres et Réglages**.
 1. Cliquez sur **HubRise**.
-   ![Connexion à HubRise - Paramètres HubRise](../images/002-fr-leo2-parametres-hubrise.png)
 1. Cliquez sur **Envoi catalogue**.
 1. Cliquez sur **Oui**.
 
@@ -39,3 +37,16 @@ Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 1. Cliquez sur **Produits**.
 1. Cliquez sur **Rechercher** ou appuyez sur la touche **F1**.
 1. Sélectionnez dans la liste le produit désiré. Le code ref s'affiche en haut à droite de la fenêtre **FICHE PRODUIT**, dans le champ **Clé unique**.
+
+## Options
+
+Une option dans HubRise correspond aussi à un produit dans LEO2. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#produits).
+
+## Méthodes de paiement
+
+Pour retrouver le code ref d'une méthode de paiement :
+
+1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
+1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
+1. Cliquez sur **Paramètres et Réglages**.
+1. Cliquez sur **Modes de Règlement**. Le code ref s'affiche dans la colonne **No**.
