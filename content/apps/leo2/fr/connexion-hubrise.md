@@ -11,7 +11,7 @@ Pour connecter LEO2 à HubRise, il suffit de suivre quelques étapes.
 
 ## Connecter LEO2
 
-Pour établir la connexion entre un point de vente LEO2 et HubRise :
+Pour établir la connexion entre un point de vente LEO2 et HubRise, vous devez activer le module Vente Externe lors de votre demande de licence LEO2. Suivez ensuite les étapes suivantes :
 
 1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.

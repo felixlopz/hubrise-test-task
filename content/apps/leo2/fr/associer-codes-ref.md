@@ -38,9 +38,13 @@ Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 1. Cliquez sur **Rechercher** ou appuyez sur la touche **F1**.
 1. Sélectionnez dans la liste le produit désiré. Le code ref s'affiche en haut à droite de la fenêtre **FICHE PRODUIT**, dans le champ **Clé unique**.
 
-## Options
+## SKUs
 
-Une option dans HubRise correspond aussi à un produit dans LEO2. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#produits).
+LEO2 ne permet pas de créer de SKU. Pour remplacer cette fonctionnalité, il est nécessaire de créer un nouveau produit pour chaque variante d'un même produit.
+
+## Promotions
+
+Les promotions dans HubRise correspondent aux menus dans LEO2, et sont gérés comme des produits. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#produits).
 
 ## Méthodes de paiement
 
