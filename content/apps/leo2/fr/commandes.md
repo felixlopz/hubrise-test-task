@@ -19,6 +19,7 @@ Pour voir la liste des commandes, suivez les étapes suivantes :
 1. Sélectionnez un vendeur.
 1. Cliquez sur la flèche grise en bas de l'écran pour faire défiler les actions possibles, puis cliquez sur **Fonction**.
 1. Cliquez sur **Leo2Click - Commandes**.
+   ![Commandes - Liste des commandes externes](../images/008-fr-leo2-commandes-externes.png)
 
 ### Commande avec des produits inconnus
 
@@ -28,6 +29,7 @@ Pour que LEO2 prenne en compte les produits dont le code ref n'est pas reconnu, 
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Paramètres et Réglages**.
 1. Cliquez sur **HubRise**.
+   ![Commandes - Paramètres HubRise](../images/003-fr-leo2-parametres-hubrise.png)
 1. Dans le champ **Produit de remplacement pour les codes non trouvés**, cliquez sur l'icône en forme de loupe pour accéder à l'écran **Recherche Article**.
 1. Sélectionnez le produit de remplacement. Ce produit remplace chaque produit dont le code ref n'est pas reconnu contenu dans une commande, et prend toutes les informations du produit inconnu, telles que son nom et son prix.
 
@@ -42,6 +44,7 @@ Pour voir les détails d'une commande :
 1. Depuis l'écran d'accueil, cliquez sur **Caisse**.
 1. Sélectionnez un vendeur.
 1. Cliquez sur la flèche grise en bas de l'écran pour faire défiler les actions possibles, puis cliquez sur **Cde Client**.
+   ![Commandes - Détails d'une commande](../images/009-fr-leo2-details-commande.png)
 
 ### Statut de la commande
 
@@ -59,6 +62,7 @@ Pour modifier le statut d'une commande :
 
 1. Suivez les étapes décrites dans [Recevoir des commandes](/apps/leo2/commandes#recevoir-des-commandes) pour accéder à la liste des commandes.
 1. Cliquez sur la colonne **Etat**.
+   ![Commandes - Statuts d'une commande](../images/010-fr-leo2-statuts-commande.png)
 1. Sélectionnez le nouveau statut de la commande.
 
 La mise à jour du statut dans HubRise peut prendre jusqu'à 30 secondes.
