@@ -9,7 +9,7 @@ meta:
 path_override: /
 app_info:
   category: Point of Sales
-  availability: Worldwide
+  availability: Worldwide. The EPOS solution is not available in France.
   price_range: Contact OrderLord to enquire about pricing.
   website: https://www.orderlord.com
   contact: support@orderlord.com
@@ -30,6 +30,12 @@ The OrderLord EPOS is optimised for handling orders from food delivery and onlin
 ---
 
 **IMPORTANT NOTE**: The OrderLord delivery management (DMS) and kitchen display (KDS) solutions can be used in the French market however their EPOS has not been certified for French rules and regulations.
+
+---
+
+--- 
+
+**IMPORTANT NOTE**: The OrderLord EPOS app is not available in the French market due to legal reasons. However, customers in France can still use the DMS and KDS apps.
 
 ---
 
