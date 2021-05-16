@@ -27,7 +27,7 @@ If your app is not present on the HubRise apps page but connects to HubRise from
 
 ---
 
-**IMPORTANT NOTE**: This process can be repeated any number of times by substituting the string `device_id=n&`, with a different value of `n` every time. The value `n` is not limited to numbers, but must follow the naming rules described below.
+**IMPORTANT NOTE**: This process can be repeated any number of times by substituting the string `device_id=n&`, with a different value of `n` every time. A meaningful value for `device_id` can help you differentiate your various restaurants in the **CONNECTIONS** page. When you choose this value, follow the naming rules described below.
 
 ---
 
