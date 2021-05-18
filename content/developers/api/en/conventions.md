@@ -27,6 +27,56 @@ Half & half items are a relatively common occurrence in the restaurant industry,
 
 #### Encoding in orders
 
+See an example of order, containing a H&H item:
+
+```json
+{
+  ...
+  "items": [
+    {
+      "price": "13.00 GBP",
+      "quantity": "1",
+      "product_name": "Half & half",
+      "sku_name": "14\"",
+      "sku_ref": null,
+      "options": [
+        {
+          "option_list_name": "Side 1",
+          "name": "Vesuvio",
+          "ref": "pa_50555",
+          "price": "0.00 GBP"
+        },
+        {
+          "option_list_name": "Side 2",
+          "name": "Caprino",
+          "ref": "pa_50585",
+          "price": "0.00 GBP"
+        },
+        {
+          "option_list_name": "Topping 1",
+          "name": "Ricotta Cheese",
+          "ref": "54641",
+          "price": "1.50 GBP"
+        },
+        {
+          "option_list_name": "Topping 1",
+          "name": "Jalapenos",
+          "ref": "54643",
+          "price": "1.50 GBP"
+        },
+        {
+          "option_list_name": "Topping 2",
+          "name": "Jalapenos",
+          "ref": "54643",
+          "price": "1.50 GBP"
+        }
+      ]
+    }
+  ],
+  ...
+}
+```
+
 ## Conventions for delivery
 
 
