@@ -53,19 +53,19 @@ See an example of order, containing a H&H item:
           "price": "0.00 GBP"
         },
         {
-          "option_list_name": "Topping 1",
+          "option_list_name": "Toppings 1",
           "name": "Ricotta Cheese",
           "ref": "54641",
           "price": "1.50 GBP"
         },
         {
-          "option_list_name": "Topping 1",
+          "option_list_name": "Toppings 1",
           "name": "Jalapenos",
           "ref": "54643",
           "price": "1.50 GBP"
         },
         {
-          "option_list_name": "Topping 2",
+          "option_list_name": "Toppings 2",
           "name": "Jalapenos",
           "ref": "54643",
           "price": "1.50 GBP"
