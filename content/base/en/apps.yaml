@@ -22,7 +22,7 @@ content:
           title: 3S POS
           description: 3S POS offers a complete EPOS suite for all types of hospitality businesses. Suitable for single and multi-store businesses and feature-rich, 3S POS can be customised to fit specific business and operational requirements.
         - website: https://www.carrepos-online.fr/
-          documentation:/apps/carre-pos
+          documentation: /apps/carre-pos
           logo: carrepos.png
           title: Carré POS
           description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
