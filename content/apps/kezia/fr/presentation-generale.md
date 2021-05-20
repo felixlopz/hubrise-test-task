@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Kezia II | HubRise
-  description: Présentation générale de Kezia II, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Kezia II, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:
@@ -14,6 +14,12 @@ app_info:
   website: https://www.jdc.fr/caisse-enregistreuse/logiciel-de-caisse
   contact: licencekezia@jdc.fr
 ---
+
+-----
+
+**REMARQUE IMPORTANTE :** Une documentation complète de l'intégration est en cours de rédaction.
+
+-----
 
 ## Description
 
@@ -37,12 +43,6 @@ Connecter Kezia II à HubRise permet à Kezia II de :
 - Envoyer l'inventaire à HubRise.
 
 Kezia II peut être connecté à HubRise après l'installation d'un module par le support de JDC. Kezia II se connecte ensuite depuis le back-office de Kezia II.
-
------
-
-**REMARQUE IMPORTANTE :** Une documentation complète de l'intégration est en cours de rédaction.
-
------
 
 ## Pourquoi se connecter ?
 
