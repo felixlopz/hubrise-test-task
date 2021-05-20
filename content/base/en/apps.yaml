@@ -61,7 +61,7 @@ content:
           title: Kezia II by JDC
           description: Kezia II by JDC offers the qualities sought by a traditional EPOS. It adapts to all types of businesses and offers multi-site, logistics, inventory, purchasing, loyalty, statistics and team management functions.
         - website: http://www.leo2.co.uk/
-          documentation:
+          documentation: /apps/leo2/
           logo: leo2.png
           title: LEO2 / Atoo
           description: LEO2 is a Point of Sales solution developed by Atoo. LEO2 adapts to all types of businesses, including restaurants, bakeries, neighbourhood grocery stores, butchers, and florists.

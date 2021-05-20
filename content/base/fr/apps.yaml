@@ -62,7 +62,7 @@ content:
           title: Kezia II
           description: Kezia II de JDC allie gestion et encaissement avec les qualités recherchées par une caisse enregistreuse traditionnelle. Kezia II s'adapte à tous types de commerces et offre des fonctions de logistique, inventaire, achats, fidélité, statistiques et gestion des équipes. Il fonctionne en multisite et multiposte.
         - website: https://www.leo2.fr/
-          documentation:
+          documentation: /apps/leo2/
           logo: leo2.png
           title: LEO2 / Atoo
           description: LEO2 est un logiciel de caisse développé par Atoo. LEO2 s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les épiceries, les bouchers ou encore les fleuristes.
