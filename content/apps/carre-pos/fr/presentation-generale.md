@@ -38,9 +38,16 @@ Connecter Carré POS à HubRise permet à Carré POS de :
 - Recevoir les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
 
+-----
+
+REMARQUE IMPORTANTE : Une documentation complète de cette intégration est en cours.
+
+-----
+
+
 ## Pourquoi se connecter ?
 
-En connectant Carré POS à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Vous recevrez ainsi les commandes de votre site e-commerce et de vos plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat) directement dans votre solution d'encaissement Carré POS. Vous pourrez également connecter des solutions de gestion de livreurs, services de livraison, solutions eMarketing (SMS / eMailing), business intelligence, fidélisation client et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+En connectant Carré POS à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Vous recevrez ainsi les commandes de votre site e-commerce et de vos plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat) directement dans votre solution d'encaissement Carré POS. Vous pourrez également connecter d'autres solutions. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
