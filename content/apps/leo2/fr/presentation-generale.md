@@ -17,6 +17,12 @@ app_info:
   contact: atoo@atoosarl.fr
 ---
 
+-----
+
+**REMARQUE IMPORTANTE :** Une documentation complète de l'intégration est en cours de rédaction.
+
+-----
+
 ## Description
 
 LEO2 est un logiciel de caisse développé par la société Atoo. Il est utilisé en dans de nombreux domaines, tels que la restauration, la boulangerie, ou encore la coiffure.
@@ -32,13 +38,14 @@ LEO2 fonctionne sous Windows, et est certifié NF525 depuis octobre 2014.
 
 Connecter LEO2 à HubRise permet à LEO2 de :
 
-- Recevoir les commandes de HubRise, dont les statuts de commande.
+- Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
+- Envoyer les changements de statuts de commandes à HubRise.
 - Envoyer un catalogue à HubRise.
 
 ---
 
-**REMARQUE IMPORTANTE :** LEO2 pourra bientôt envoyer les commandes vers HubRise. Pour plus d'informations, contactez la société Atoo.
+**REMARQUE IMPORTANTE :** LEO2 pourra bientôt envoyer les commandes vers HubRise, et supportera aussi les commandes modifiables. Pour plus d'informations, contactez la société Atoo.
 
 ---
 
@@ -48,4 +55,4 @@ En connectant Leo2 à HubRise, vous permettez à votre solution d'encaissement d
 
 ## Prérequis
 
-Pour établir la connexion entre LEO2 et HubRise, vous devez disposer d'une licence LEO2 et d'un compte HubRise.
+Pour établir la connexion entre LEO2 et HubRise, vous devez simplement disposer d'une licence LEO2.
