@@ -22,13 +22,13 @@ app_info:
 
 ## Description
 
-Carré POS est un logiciel spécialisé dans la gestion de l'encaissement.
+Carré POS est un logiciel spécialisé dans la gestion de l'encaissement qui fonctionne sous Windows.
 
-Carré POS enregistre les informations client et l'historique de commandes. Il s'agit d'un logiciel de caisse connectable à de nombreux périphériques métiers tels que les imprimantes de préparation, les monnayeurs automatiques, et les terminaux bancaires.
+Carré POS enregistre les informations client et l'historique de commandes. Il s'agit d'un logiciel de caisse connectable à de nombreux périphériques métiers tels que les imprimantes de préparation, les monnayeurs automatiques, et les terminaux bancaires. 
 
 De nombreuses informations sont accessibles dans votre back-office Carré POS Cloud, directement depuis un navigateur web. Il est ainsi possible de visualiser et d'éditer votre menu, de consulter votre chiffre d'affaire et vos rapports de vente, ou encore de visualiser l'historique de vos commandes.
 
-Carré POS fonctionne sous Windows. Il a été conçu pour le marché français et répond donc aux exigences fiscales du pays. Il a aussi obtenu la certification NF525.
+Carré POS a été conçu pour le marché français. Il est certifié NF525, et donc conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État. 
 
 ## Fonctionnalités de l'intégration
 
