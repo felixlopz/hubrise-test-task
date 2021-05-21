@@ -118,7 +118,7 @@ content:
           description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
           additional_info: Integration by MyTec in progress.
         - website: http://www.talc.fr/
-          documentation:
+          documentation: /apps/talc
           logo: talc.png
           title: T.A.L.C Informatique
           description: T.A.L.C Informatique, adapted to the needs of restaurants, allows you to manage one or more locations. It includes courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
