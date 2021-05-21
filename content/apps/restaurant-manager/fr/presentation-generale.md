@@ -18,6 +18,6 @@ app_info:
 
 -----
 
-REMARQUE IMPORTANTE : Cette documentation est disponible [en anglais uniquement](https://www.hubrise.com/fr/apps/nestor).
+REMARQUE IMPORTANTE : Cette documentation est disponible [en anglais uniquement](https://www.hubrise.com/fr/apps/restaurant-manager).
 
 -----
