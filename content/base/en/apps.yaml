@@ -112,7 +112,7 @@ content:
           description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
           additional_info: Integration by Crystal Mind in progress.
         - website: https://www.sicom.com/
-          documentation:
+          documentation: /apps/sicom
           logo: sicom.png
           title: SICOM
           description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
