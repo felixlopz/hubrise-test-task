@@ -36,8 +36,6 @@ Connecting iKentoo Bridge to HubRise allows iKentoo Lightspeed K Series to:
 - Push customer information into HubRise.
 - Push a menu into a HubRise catalog.
 
-![Connection Diagram](../images/008-en-2x-connection-diagram.png)
-
 ## Why Connect?
 
 Connecting iKentoo Lightspeed K Series to HubRise allows your EPOS to communicate with other applications you use everyday. Synchronise your menu, your customer and order information with online ordering, food ordering and delivery platforms (including Uber Eats, Deliveroo and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
