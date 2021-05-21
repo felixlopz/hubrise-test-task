@@ -106,7 +106,7 @@ content:
           description: PixelPoint by PAR, integrated via its Windows API, is a Point of Sale solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
           additional_info: Windows API integration by Slowey Systems.
         - website: https://www.rmpos.com/
-          documentation:
+          documentation: /apps/restaurant-manager
           logo: restaurant-manager.png
           title: Restaurant Manager
           description: Restaurant Manager, sold worldwide by local authorised resellers, is tailored for use in any food service establishment and bars.
