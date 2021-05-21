@@ -7,19 +7,18 @@ import locales from './locales'
  * @example:
  *  '/es/applicaciones' => 'es'.
  *
- * @param   {string} path - page URL.
- * @returns {string} Short language code.
+ * @param   path - page URL.
+ * @returns Short language code.
  */
-export const getLanguage = (path) => {
+export const getLanguage = (path: string): string => {
   const regex = /\/(?<languageCode>[a-z]{2})\//
   const result = regex.exec(path)
 
-  if (result) {
+  if (result?.groups) {
     return result.groups.languageCode
   } else {
-    const [{ code }] = Object.values(locales).filter(
-      (info) => info.default === true
-    )
+    const { code } =
+      locales.find((locale) => locale.default === true) || locales[0]
     return code
   }
 }

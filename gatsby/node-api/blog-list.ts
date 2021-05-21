@@ -1,7 +1,7 @@
-const BLOG_PAGE_PATH = '/blog'
-const locales = require('../i18n/locales')
+import locales from '../../src/i18n/locales'
+import { getLayout } from '../../src/utils/get-layout'
 
-const { getLayout } = require(`../utils/get-layout`)
+const BLOG_PAGE_PATH = '/blog'
 
 const generateArchiveList = (postDateList) => {
   const sortedDates = [...postDateList].sort((a, b) => b - a)
@@ -21,7 +21,7 @@ const generateArchiveList = (postDateList) => {
   return Array.from(archiveMap.values())
 }
 
-exports.createPages = async ({ graphql, actions }) => {
+export async function createPages({ graphql, actions }) {
   const { createPage } = actions
 
   const blogListLayout = getLayout('blog-list')

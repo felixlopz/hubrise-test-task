@@ -1,9 +1,9 @@
-const fs = require('fs')
-const path = require('path')
-const yaml = require('js-yaml')
-const rimraf = require('rimraf')
+import * as fs from 'fs'
+import * as path from 'path'
+import * as yaml from 'js-yaml'
+import * as rimraf from 'rimraf'
 
-exports.copy = () => {
+export function copy() {
   try {
     const source = path.resolve(process.cwd(), `src/i18n/resources`)
     const target = path.resolve(process.cwd(), `public/locales`)

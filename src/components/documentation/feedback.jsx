@@ -4,7 +4,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from 'react-i18next'
 import PropTypes from 'prop-types'
 
-import Link from '../../components/link'
+import Link from '../link'
 
 export const Feedback = ({ options }) => {
   const [isExpanded, setIsExpanded] = useState(false)

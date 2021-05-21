@@ -1,7 +1,7 @@
-const { loadYaml } = require(`../utils/load-yaml`)
+import loadYaml from '../../src/utils/load-yaml'
 const redirects = loadYaml(`redirects.yaml`)
 
-exports.createPages = async ({ graphql, actions }) => {
+export async function createPages({ actions }) {
   const { createRedirect } = actions
 
   redirects.forEach((redirect) => {

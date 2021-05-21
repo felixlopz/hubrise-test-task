@@ -1,12 +1,12 @@
-const jsYaml = require('js-yaml')
+import * as yaml from 'js-yaml'
 
-exports.onCreateNode = async ({
+export async function onCreateNode({
   node,
   actions,
   loadNodeContent,
   createNodeId,
   createContentDigest
-}) => {
+}) {
   if (node.internal.type === 'File' && node.base.endsWith(`.yaml`)) {
     const content = await loadNodeContent(node)
     const id = createNodeId(`${node.id} >>> Yaml`)
@@ -28,12 +28,12 @@ exports.onCreateNode = async ({
   }
 }
 
-exports.createResolvers = ({ createResolvers }) => {
+export async function createResolvers({ createResolvers }) {
   createResolvers({
     Yaml: {
       parsedContent: {
         type: `JSON`,
-        resolve: (source) => jsYaml.safeLoad(source.internal.content)
+        resolve: (source) => yaml.safeLoad(source.internal.content)
       }
     }
   })

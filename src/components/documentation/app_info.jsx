@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Link from '../../components/link'
-import { generateKey } from '../../components/utils'
+import Link from '../link'
+import { generateKey } from '../utils'
 
 export const AppInfo = ({ content }) => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import { MDXProvider } from '@mdx-js/react'
 import { I18nextProvider } from 'react-i18next'
+import * as Sentry from '@sentry/react'
 
 import {
   CallSummaryTable,
@@ -10,13 +11,9 @@ import {
   Label
 } from '../../src/components/markdown'
 import Link from '../../src/components/link'
-
 import { LayoutProvider } from '../../src/context/layout'
-
-import { generateHeaders } from '../../src/components/utils'
-
 import i18n from '../../src/i18n'
-import ErrorBoundary from '../../src/components/error_boundary'
+import { generateHeaders } from '../../src/components/utils/headers'
 
 let components = {
   ...generateHeaders([`h2`, `h3`]),
@@ -41,12 +38,12 @@ let components = {
 
 export const wrapRootElement = ({ element }) => {
   return (
-    <ErrorBoundary>
+    <Sentry.ErrorBoundary fallback={'An error has occurred'}>
       <I18nextProvider i18n={i18n}>
         <LayoutProvider>
           <MDXProvider components={components}>{element}</MDXProvider>
         </LayoutProvider>
       </I18nextProvider>
-    </ErrorBoundary>
+    </Sentry.ErrorBoundary>
   )
 }

@@ -1,26 +1,32 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link as GatsbyLink } from 'gatsby'
 
-const locales = require('../i18n/locales')
+import locales from '../i18n/locales'
 
-const newTabProps = {
-  target: `_blank`,
-  rel: `noopener noreferrer`
+interface LinkProps {
+  to: string
+  children?: ReactNode
+  newTab?: boolean
+  [K: string]: any
 }
 
-const Link = ({ to: initialTo, children, newTab, ...other }) => {
+const Link = ({
+  to: initialTo,
+  children = <></>,
+  newTab = true,
+  ...other
+}: LinkProps): JSX.Element => {
   const {
     i18n: { language }
   } = useTranslation()
 
-  if (!initialTo) return ''
+  if (!initialTo) return <></>
 
   const leadsToInternalPage = initialTo.startsWith(`/`)
   const leadsToDashboard = initialTo.includes(`manager.hubrise.com`)
   const isAnchorWithinCurrentPage = initialTo.startsWith(`#`)
-  const locale = locales.find(({ code }) => code === language)
+  const locale = locales.find(({ code }) => code === language) || locales[0]
   const isDefaultLanguage = locale.default
   const queryString = `?locale=${locale.tag}`
   const to = initialTo + (leadsToDashboard ? queryString : ``)
@@ -32,27 +38,20 @@ const Link = ({ to: initialTo, children, newTab, ...other }) => {
       </GatsbyLink>
     )
   } else {
+    let newTabProps = {}
+    if (newTab && !isAnchorWithinCurrentPage) {
+      newTabProps = {
+        target: `_blank`,
+        rel: `noopener noreferrer`
+      }
+    }
+
     return (
-      <a
-        href={to}
-        {...(newTab && !isAnchorWithinCurrentPage && newTabProps)}
-        {...other}
-      >
+      <a href={to} {...newTabProps} {...other}>
         {children}
       </a>
     )
   }
-}
-
-Link.propTypes = {
-  to: PropTypes.string.isRequired,
-  children: PropTypes.node,
-  newTab: PropTypes.bool
-}
-
-Link.defaultProps = {
-  children: <></>,
-  newTab: true
 }
 
 export default Link

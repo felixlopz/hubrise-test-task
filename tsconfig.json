@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "ES2017",
+    "target": "ES2018",
     "jsx": "preserve",
-    "lib": ["DOM", "ES2015", "ES2017"],
+    "lib": ["DOM", "ES2015", "ES2018"],
     "strict": true,
     "noEmit": true,
     "isolatedModules": true,
@@ -12,7 +12,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": false,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "baseUrl": "./src",
+
+    // Temporary, until migration to TS is completed
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": false
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./gatsby/**/*"]
 }

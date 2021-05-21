@@ -1,8 +1,7 @@
-const { resolve } = require('path')
+import locales from '../../src/i18n/locales'
+import { getLayout } from '../../src/utils/get-layout'
 
-const locales = require('../i18n/locales')
-
-exports.createPages = async ({ graphql, actions }) => {
+export async function createPages({ graphql, actions }) {
   const { createPage } = actions
 
   const { data, errors } = await graphql(`
@@ -30,14 +29,14 @@ exports.createPages = async ({ graphql, actions }) => {
 
     const pathItems = node.absolutePath.split('/')
     const localeCode = pathItems[pathItems.length - 2]
-    const locale = locales.find(({ code }) => code === localeCode)
+    const locale = locales.find(({ code }) => code === localeCode) || locales[0]
 
     const pathPrefix = locale.default ? '' : `/${locale.code}`
     const path = [pathPrefix, node.childYaml.parsedContent.path].join('')
 
     createPage({
       path,
-      component: resolve(__dirname, `../layouts/${page}.jsx`),
+      component: getLayout(page),
       context: {
         id: node.id,
         lang: locale.code

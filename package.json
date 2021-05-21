@@ -5,6 +5,7 @@
   "scripts": {
     "build": "yarn clean && gatsby build",
     "clean": "gatsby clean",
+    "gatsby": "node ./node_modules/.bin/gatsby",
     "start:dev": "yarn clean && gatsby develop",
     "start:prod": "yarn build && gatsby serve --port 9009",
     "cy:open": "cypress open",
@@ -20,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
+    "@sentry/react": "^6.4.1",
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
     "formik": "^2.1.5",
@@ -91,6 +93,7 @@
     "react-test-renderer": "^16.13.1",
     "rimraf": "^3.0.2",
     "start-server-and-test": "^1.11.2",
+    "ts-node": "^9.1.1",
     "typescript": "^3.9.7"
   },
   "lint-staged": {

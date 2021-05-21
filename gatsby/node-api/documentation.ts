@@ -1,17 +1,14 @@
-const fs = require('fs')
-const util = require('util')
-const path = require('path')
-const yaml = require('js-yaml')
-const { flatten } = require('lodash')
+// @-----ts-nocheck
+import * as fs from 'fs'
+import * as path from 'path'
+import * as yaml from 'js-yaml'
+import { flatten } from 'lodash'
 
-const locales = require('../i18n/locales')
-const defaultLocale = locales.find((locale) => locale.default)
+import locales from '../../src/i18n/locales'
+import { getLayout } from '../../src/utils/get-layout'
+
+const defaultLocale = locales.find((locale) => locale.default) || locales[0]
 const localeCodeList = locales.map((locale) => locale.code)
-
-const { getLayout } = require(`../utils/get-layout`)
-
-const fsReaddir = util.promisify(fs.readdir)
-const fsReadFile = util.promisify(fs.readFile)
 
 const IGNORED_FOLDERS = ['images']
 const CUSTOMIZATION_FILE_NAME = 'customization.yaml'
@@ -84,8 +81,8 @@ function normalizePath(filePath) {
 
 async function parseLocaleFolder(folderPath) {
   const customization = await getCustomizationFromFolder(folderPath)
-  const files = await fsReaddir(folderPath, { withFileTypes: true })
-  const contentFiles = files
+  const files = await fs.promises.readdir(folderPath, { withFileTypes: true })
+  const contentFiles: Array<string> = files
     .filter((file) => file.isFile() && file.name !== CUSTOMIZATION_FILE_NAME)
     .map((file) => file.name)
 
@@ -108,7 +105,9 @@ async function parseFolderRecursively({
     children: []
   }
 
-  const files = await fsReaddir(currentNode.path, { withFileTypes: true })
+  const files = await fs.promises.readdir(currentNode.path, {
+    withFileTypes: true
+  })
 
   const promises = files.map(async (file) => {
     if (!file.isDirectory() || IGNORED_FOLDERS.includes(file.name)) {
@@ -117,9 +116,9 @@ async function parseFolderRecursively({
 
     if (localeCodeList.includes(file.name)) {
       const localeFolderPath = path.join(currentNode.path, file.name)
-      const localeEntry = await parseLocaleFolder(localeFolderPath)
-
-      currentNode.localeMap[file.name] = localeEntry
+      currentNode.localeMap[file.name] = await parseLocaleFolder(
+        localeFolderPath
+      )
     } else {
       const childNode = await parseFolderRecursively({
         pathToFolder: currentNode.path,
@@ -180,19 +179,20 @@ function getFolderNodeBreadcrumbs(folderNode, locale) {
   return breadcrumbs
 }
 
-function getCustomizationFromFolder(folderPath) {
-  const filePath = path.join(folderPath, CUSTOMIZATION_FILE_NAME)
-  return fsReadFile(filePath, { encoding: 'utf-8' })
-    .then((fileContent) => {
-      return yaml.safeLoad(fileContent) || {}
+async function getCustomizationFromFolder(folderPath: string) {
+  try {
+    const filePath = path.join(folderPath, CUSTOMIZATION_FILE_NAME)
+    const fileContent: string = await fs.promises.readFile(filePath, {
+      encoding: 'utf-8'
     })
-    .catch((error) => {
-      if (error.code === 'ENOENT') {
-        return {}
-      } else {
-        return Promise.reject(error)
-      }
-    })
+    return yaml.safeLoad(fileContent) || {}
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return {}
+    } else {
+      throw error
+    }
+  }
 }
 
 function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
@@ -220,7 +220,7 @@ function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
     return null
   }
 
-  return recursiveSearchByPath(rootNode, fileAbsolutePath)
+  return recursiveSearchByPath(rootNode)
 }
 
 function getContentLangFromPath(relativePath) {
@@ -299,7 +299,7 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
   }
 }
 
-exports.createPages = async ({ graphql, actions }) => {
+export async function createPages({ graphql, actions }) {
   const { data, errors } = await graphql(`
     query {
       allMdx {
@@ -354,7 +354,7 @@ exports.createPages = async ({ graphql, actions }) => {
   )
 }
 
-exports.onCreateNode = (function () {
+export const onCreateNode = (function () {
   const parsedContentPromise = parseFolderRecursively({
     pathToFolder: process.cwd(),
     folderName: 'content'

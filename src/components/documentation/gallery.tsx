@@ -8,9 +8,9 @@ import {
 import GatsbyImage from 'gatsby-image'
 import Slider from 'react-slick'
 
-import { NonStretchedImage } from '../../components/non_stretched_image'
+import { NonStretchedImage } from '../non_stretched_image'
 
-import { generateKey } from '../../components/utils'
+import { generateKey } from '../utils'
 
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -28,7 +28,7 @@ const NextArrow = ({ onClick, currentImageNumber, totalNumberOfImages }) => {
         onClick()
       }}
     >
-      <FontAwesomeIcon icon={faArrowRight}/>
+      <FontAwesomeIcon icon={faArrowRight} />
     </button>
   )
 }
@@ -45,13 +45,13 @@ const PrevArrow = ({ onClick, currentImageNumber }) => {
         onClick()
       }}
     >
-      <FontAwesomeIcon icon={faArrowLeft}/>
+      <FontAwesomeIcon icon={faArrowLeft} />
     </button>
   )
 }
 
 export const Gallery = ({ images, title }) => {
-  const slider = useRef(null)
+  const slider = useRef<Slider>(null)
   const [isSliderVisible, setIsSliderVisible] = useState(false)
   const [currentImageNumber, setCurrentImageNumber] = useState(1)
 
@@ -68,7 +68,7 @@ export const Gallery = ({ images, title }) => {
         totalNumberOfImages={totalNumberOfImages}
       />
     ),
-    prevArrow: <PrevArrow currentImageNumber={currentImageNumber}/>,
+    prevArrow: <PrevArrow currentImageNumber={currentImageNumber} />,
     afterChange: (newIdx) => setCurrentImageNumber(newIdx + 1)
   }
 
@@ -119,9 +119,7 @@ export const Gallery = ({ images, title }) => {
           className="image-slider__topbar"
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="image-slider__title">
-            {title}
-          </div>
+          <div className="image-slider__title">{title}</div>
           <div className="image-slider__count">
             {currentImageNumber} / {totalNumberOfImages}
           </div>
@@ -129,11 +127,15 @@ export const Gallery = ({ images, title }) => {
             className="image-slider__close"
             onClick={() => setIsSliderVisible(false)}
           >
-            <FontAwesomeIcon icon={faTimes}/>
+            <FontAwesomeIcon icon={faTimes} />
           </button>
         </section>
 
-        <Slider ref={slider} className="image-slider__content" {...sliderSettings}>
+        <Slider
+          ref={slider}
+          className="image-slider__content"
+          {...sliderSettings}
+        >
           {images.map(({ name, childImageSharp }, idx) => (
             <div
               key={generateKey(name, idx)}
