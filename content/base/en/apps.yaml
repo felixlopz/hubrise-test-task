@@ -50,7 +50,7 @@ content:
           title: Lightspeed K-Series / iKentoo
           description: iKentoo Lightspeed K-Series is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
         - website: https://www.jdc.fr/caisse-enregistreuse
-          documentation:
+          documentation: /apps/jalia
           logo: jalia.png
           title: Jalia by JDC
           description: Jalia by JDC is a cloud Point of Sale that works on both iOS and Android tablets. Installation is easy and the EPOS is optimised for fast order taking.

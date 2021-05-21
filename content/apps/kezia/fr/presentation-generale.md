@@ -23,9 +23,9 @@ app_info:
 
 ## Description
 
-JDC est une société créée en 1989 possédant des agences réparties dans toute la France et intervenant dans cinq secteurs d'activité, dont celui des caisses enregistreuses et des terminaux points de vente.
+JDC est une société créée en 1989 possédant des agences réparties dans toute la France et intervenant dans cinq secteurs d'activité, dont celui des caisses enregistreuses et des terminaux points de vente. 
 
-Le logiciel de gestion de caisse Kezia II est une solution d'encaissement pour le commerce de détail spécialisé ainsi que les commerces d'alimentation et de restauration rapide ou de vente à emporter. Il est intégré à la caisse enregistreuse tactile fournie par JDC.
+Le logiciel de gestion de caisse Kezia II de JDC est une solution d'encaissement pour le commerce de détail spécialisé ainsi que les commerces d'alimentation et de restauration rapide ou de vente à emporter. Il est intégré à la caisse enregistreuse tactile fournie par JDC.
 
 Kezia II est un outil de gestion central avec développement de la fidélité, optimisation de la logistique, gestion des stocks et achats simplifié, statistiques avancées, synchronisation des données multipostes & multisites et management des équipes. Ces fonctionnélités peuvent être complémentés par la création de cartes de fidélité, de la vidéosurveillance intelligente, ou encore de la monétique intégrée.
 
