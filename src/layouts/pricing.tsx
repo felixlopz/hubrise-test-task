@@ -3,11 +3,12 @@ import { graphql } from 'gatsby'
 
 import { Offer, Specials } from '../components/pages/pricing'
 import SEO from '../components/seo'
-import { PricingContext, PricingQueryGQL } from '../data/pricing'
+import { BaseContext } from '../data/base'
+import { PricingQueryGQL } from '../data/pricing'
 
 interface PricingProps {
   data: PricingQueryGQL
-  pageContext: PricingContext
+  pageContext: BaseContext
 }
 
 const Pricing = ({ data, pageContext }: PricingProps): JSX.Element => {

@@ -4,6 +4,7 @@ import { CreatePagesArgs } from 'gatsby'
 import { localeCodes, defaultLocaleCode } from '../../../src/utils/locales'
 import { getLayoutPath } from '../util/layout'
 import { pathWithLocale } from '../../../src/utils/urls'
+import { BaseContext } from '../../../src/data/base'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions
@@ -38,13 +39,14 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
       defaultLocaleCode
     const path = pathWithLocale(localeCode, node.childYaml.parsedContent.path)
 
+    let context: BaseContext = {
+      id: node.id,
+      lang: localeCode
+    }
     createPage({
       path,
       component: getLayoutPath(page),
-      context: {
-        id: node.id,
-        lang: localeCode
-      }
+      context
     })
   })
 }

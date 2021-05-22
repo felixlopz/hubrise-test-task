@@ -1,5 +1,5 @@
 import { Image, ImageSharpFluid } from './image'
-import { IMeta } from './common'
+import { IMeta } from './base'
 
 export interface AppsContext {
   id: string

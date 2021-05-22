@@ -1,11 +1,5 @@
 import { Image, ImageSharpFluid } from './image'
-import { IMeta } from './common'
-
-export interface PricingContext {
-  id: string
-  lang: string
-  category?: string
-}
+import { IMeta } from './base'
 
 export interface PricingQueryGQL {
   file: {

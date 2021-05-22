@@ -8,7 +8,7 @@ import {
 import { getLayoutPath } from '../util/layout'
 import { pathWithLocale } from '../../../src/utils/urls'
 import { getApps } from './helpers'
-import { AppsCreatePageGQL } from '../../../src/data/apps'
+import { AppsContext, AppsCreatePageGQL } from '../../../src/data/apps'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const appsList: Array<AppsCreatePageGQL> = await getApps(graphql)
@@ -23,25 +23,27 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
     const { path: relativePath, content } = apps.childYaml.parsedContent
     const path = pathWithLocale(localeCode, relativePath)
 
+    let context: AppsContext = {
+      id: apps.id,
+      lang: localeCode
+    }
     actions.createPage({
       path,
       component: getLayoutPath('apps'),
-      context: {
-        id: apps.id,
-        lang: localeCode
-      }
+      context
     })
 
     for (let category of content.categories) {
       const slug = category.title.replace(/ +/g, '-').toLowerCase()
+      context = {
+        id: apps.id,
+        lang: localeCode,
+        category: category.title
+      }
       actions.createPage({
         path: path + `/${slug}`,
         component: getLayoutPath('apps'),
-        context: {
-          id: apps.id,
-          lang: localeCode,
-          category: category.title
-        }
+        context
       })
     }
   })
