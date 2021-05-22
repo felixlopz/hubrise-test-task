@@ -8,7 +8,7 @@ import locales, {
   defaultLocaleCode
 } from '../../../src/utils/locales'
 import {
-  findFolderNodeByFilePath,
+  folderByFilePath,
   Folder,
   getLocaleCodeFromPath,
   normalizePath,
@@ -17,24 +17,24 @@ import {
 import { createPageFromMdxNode } from './page'
 import { getFolderBreadcrumbs } from './breadcrumbs'
 
-function getLocaleSlugMap(mdxNode: Gatsby.Node, currentFolderNode: Folder) {
+interface LocaleSlugMap {
+  [K in LocaleCode]?: string
+}
+
+function getLocaleSlugMap(mdxNode: Gatsby.Node, folder: Folder): LocaleSlugMap {
   const { fileAbsolutePath, frontmatter } = mdxNode
 
-  const localeSlugMap = {}
+  const localeSlugMap: LocaleSlugMap = {}
 
   localeCodes.forEach((localeCode) => {
     const localeFolderFiles =
-      currentFolderNode.localeMap[localeCode] ||
-      currentFolderNode.localeMap[defaultLocaleCode]
-
-    const config = localeFolderFiles.customization
-
-    const breadcrumbs = getFolderBreadcrumbs(currentFolderNode, localeCode)
-
+      folder.localeMap[localeCode] || folder.localeMap[defaultLocaleCode]
     let fileName = path.basename(
       fileAbsolutePath,
       path.extname(fileAbsolutePath)
     )
+    const config = localeFolderFiles.customization
+    const breadcrumbs = getFolderBreadcrumbs(folder, localeCode)
 
     if (config.path_override === 'blog') {
       /** "20200129-article-title" -> "article-title" */
@@ -43,7 +43,7 @@ function getLocaleSlugMap(mdxNode: Gatsby.Node, currentFolderNode: Folder) {
 
     let slug = [
       ...breadcrumbs.map((breadcrumb) => breadcrumb.value),
-      frontmatter.path_override ? frontmatter.path_override : fileName
+      frontmatter?.path_override || fileName
     ]
       .filter((part) => part !== '/')
       .join('/')
@@ -134,7 +134,7 @@ export const createPages = async ({
             node,
             mdxDirectory.node,
             mdxDirectory.locale.code,
-            actions
+            actions.createPage
           )
         )
     })
@@ -150,13 +150,10 @@ export const onCreateNode = (function () {
       const { fileAbsolutePath } = node
 
       const rootFolder = await rootFolderPromise
-      const currentFolderNode = findFolderNodeByFilePath(
-        rootFolder,
-        fileAbsolutePath
-      )
+      const folder = folderByFilePath(rootFolder, fileAbsolutePath)
 
       const localeCode = getLocaleCodeFromPath(fileAbsolutePath)
-      const localeSlugMap = getLocaleSlugMap(node, currentFolderNode)
+      const localeSlugMap = getLocaleSlugMap(node, folder)
 
       createNodeField({
         node,

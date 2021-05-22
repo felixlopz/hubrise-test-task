@@ -1,30 +1,34 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import Link from '../../link'
 import { generateKey } from '../../utils'
 import { useLayoutContext } from '../../../context/layout'
+import { ISpecial } from '../../../data/pricing'
 
-export const Specials = ({ items }) => {
+interface SpecialsProps {
+  specials: Array<ISpecial>
+}
+
+const Specials = ({ specials }: SpecialsProps): JSX.Element => {
   const { forms } = useLayoutContext()
 
   return (
     <>
-      {items.map((item, idx) => (
+      {specials.map((special, idx) => (
         <p
-          key={generateKey(item.paragraph_chunk_1, idx)}
+          key={generateKey(special.paragraph_chunk_1, idx)}
           className="section__description"
         >
-          <b>{item.paragraph_chunk_1}</b>
-          {item.paragraph_chunk_2}
+          <b>{special.paragraph_chunk_1}</b>
+          {special.paragraph_chunk_2}
           {` `}
-          {item.link && item.link.to ? (
+          {special.link && special.link.to ? (
             <Link
               className="section__description-link"
-              to={item.link.to}
+              to={special.link.to}
               newTab={false}
             >
-              {item.link.text}
+              {special.link.text}
             </Link>
           ) : (
             <button
@@ -32,10 +36,10 @@ export const Specials = ({ items }) => {
               data-open="contact-us"
               aria-controls="contact-us"
               aria-haspopup="true"
-              tabIndex="0"
+              tabIndex={0}
               onClick={forms.contact.toggle}
             >
-              {item.button}
+              {special.button}
             </button>
           )}
         </p>
@@ -44,16 +48,4 @@ export const Specials = ({ items }) => {
   )
 }
 
-Specials.propTypes = {
-  items: PropTypes.arrayOf(
-    PropTypes.shape({
-      paragraph_chunk_1: PropTypes.string.isRequired,
-      paragraph_chunk_2: PropTypes.string.isRequired,
-      link: PropTypes.shape({
-        text: PropTypes.string.isRequired,
-        to: PropTypes.string.isRequired
-      }),
-      button: PropTypes.string
-    }).isRequired
-  )
-}
+export default Specials

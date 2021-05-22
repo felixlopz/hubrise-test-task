@@ -1,7 +1,11 @@
 import fs from 'fs'
 import path, { posix } from 'path'
 
-import { defaultLocaleCode, LocaleCode, localeCodes } from '../../../src/utils/locales'
+import {
+  defaultLocaleCode,
+  LocaleCode,
+  localeCodes
+} from '../../../src/utils/locales'
 import {
   Customization,
   CUSTOMIZATION_FILE_NAME,
@@ -43,17 +47,17 @@ export async function parseLocaleFolder(
 export async function parseFolderRecursively(
   pathToFolder: string,
   folderName: string,
-  parentNode?: Folder
+  parentFolder?: Folder
 ): Promise<Folder> {
-  const currentNode: Folder = {
+  const folder: Folder = {
     name: folderName,
     path: path.join(pathToFolder, folderName),
     localeMap: {},
-    parent: parentNode,
+    parent: parentFolder,
     children: []
   }
 
-  const files = await fs.promises.readdir(currentNode.path, {
+  const files = await fs.promises.readdir(folder.path, {
     withFileTypes: true
   })
 
@@ -63,45 +67,43 @@ export async function parseFolderRecursively(
     }
 
     if ((localeCodes as String[]).includes(file.name)) {
-      const localeFolderPath = path.join(currentNode.path, file.name)
-      currentNode.localeMap[file.name] = await parseLocaleFolder(
-        localeFolderPath
-      )
+      const localeFolderPath = path.join(folder.path, file.name)
+      folder.localeMap[file.name] = await parseLocaleFolder(localeFolderPath)
     } else {
-      const childNode: Folder = await parseFolderRecursively(
-        currentNode.path,
+      const childFolder: Folder = await parseFolderRecursively(
+        folder.path,
         file.name,
-        currentNode
+        folder
       )
 
-      currentNode.children.push(childNode)
+      folder.children.push(childFolder)
     }
   })
 
   await Promise.all(promises)
 
-  return currentNode
+  return folder
 }
 
 export function normalizePath(filePath: string): string {
   return filePath.split(path.sep).join(path.posix.sep)
 }
 
-export function findFolderNodeByFilePath(
+export function folderByFilePath(
   rootFolder: Folder,
   fileAbsolutePath: string
 ): Folder | null {
-  function recursiveSearch(folderNode: Folder): Folder | null {
-    if (fileAbsolutePath.startsWith(normalizePath(folderNode.path))) {
+  function recursiveSearch(folder: Folder): Folder | null {
+    if (fileAbsolutePath.startsWith(normalizePath(folder.path))) {
       for (let localeCode of localeCodes) {
-        const localeFolderPath = path.join(folderNode.path, localeCode)
+        const localeFolderPath = path.join(folder.path, localeCode)
         if (fileAbsolutePath.startsWith(normalizePath(localeFolderPath))) {
-          return folderNode
+          return folder
         }
       }
 
-      for (let childNode of folderNode.children) {
-        const folder = recursiveSearch(childNode)
+      for (let childFolder of folder.children) {
+        const folder = recursiveSearch(childFolder)
         if (folder) return folder
       }
     }

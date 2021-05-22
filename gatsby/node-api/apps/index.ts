@@ -8,10 +8,10 @@ import {
 import { getLayoutPath } from '../util/layout'
 import { pathWithLocale } from '../../../src/utils/urls'
 import { getApps } from './helpers'
-import { AppsGQL } from '../../../src/data/apps'
+import { AppsCreatePageGQL } from '../../../src/data/apps'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
-  const appsList: Array<AppsGQL> = await getApps(graphql)
+  const appsList: Array<AppsCreatePageGQL> = await getApps(graphql)
 
   appsList.forEach((apps) => {
     const pathItems = apps.absolutePath.split('/')

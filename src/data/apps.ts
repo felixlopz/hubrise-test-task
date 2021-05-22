@@ -1,6 +1,13 @@
 import { Image, ImageSharpFluid } from './image'
+import { IMeta } from './common'
 
-export interface AppsGQL {
+export interface AppsContext {
+  id: string
+  lang: string
+  category?: string
+}
+
+export interface AppsCreatePageGQL {
   absolutePath: string
   id: string
   childYaml: {
@@ -64,10 +71,7 @@ export interface IDevelopers {
 
 export interface IApps {
   path: string
-  meta: {
-    title: string
-    description: string
-  }
+  meta: IMeta
   content: {
     hero: IHero
     all_apps: string
@@ -75,10 +79,4 @@ export interface IApps {
     additional_sections: IAdditionalSections
     developers: IDevelopers
   }
-}
-
-export interface AppsContext {
-  id: string
-  lang: string
-  category?: string
 }

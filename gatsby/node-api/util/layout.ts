@@ -6,6 +6,6 @@
  * getLayoutPath('apps') // returns src/layouts/apps.js
  */
 export function getLayoutPath(name: string): string {
-  const suffix = name === 'apps' ? 'tsx' : 'jsx'
+  const suffix = ['apps', 'pricing'].includes(name) ? 'tsx' : 'jsx'
   return require.resolve(`${__dirname}/../../../src/layouts/${name}.${suffix}`)
 }

@@ -7,17 +7,17 @@ export interface Breadcrumb {
 }
 
 export function getFolderBreadcrumbs(
-  folderNode: Folder,
+  folder: Folder,
   localeCode: LocaleCode
 ): Array<Breadcrumb> {
   const breadcrumbs: Array<Breadcrumb> = []
 
-  let currentNode: Folder | undefined = folderNode
+  let currentFolder: Folder | undefined = folder
 
-  while (currentNode) {
+  while (currentFolder) {
     const folderFiles =
-      currentNode.localeMap[localeCode] ||
-      currentNode.localeMap[defaultLocaleCode]
+      currentFolder.localeMap[localeCode] ||
+      currentFolder.localeMap[defaultLocaleCode]
     const customization = folderFiles?.customization
 
     if (customization?.path_override) {
@@ -28,7 +28,7 @@ export function getFolderBreadcrumbs(
       breadcrumbs.unshift(breadcrumb)
     }
 
-    currentNode = currentNode.parent
+    currentFolder = currentFolder.parent
   }
 
   return breadcrumbs

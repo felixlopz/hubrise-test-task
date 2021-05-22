@@ -8,22 +8,23 @@ import { pathWithLocale } from '../../../src/utils/urls'
 import { getLayoutPath } from '../util/layout'
 import { Folder, normalizePath } from './folder'
 import { getFolderBreadcrumbs } from './breadcrumbs'
+import { CreatePageFunction } from '../util/types'
 
 export function createPageFromMdxNode(
   node,
-  folderNode: Folder,
+  folder: Folder,
   localeCode: LocaleCode,
-  actions
+  createPage: CreatePageFunction
 ): void {
   const { id, fileAbsolutePath, frontmatter, fields } = node
   const { layout, meta } = frontmatter
   const currentDirectory = path.dirname(fileAbsolutePath)
   const parentDirectory = path.dirname(currentDirectory)
   const pathToImages = path.join(parentDirectory, 'images')
-  const breadcrumbs = getFolderBreadcrumbs(folderNode, localeCode)
+  const breadcrumbs = getFolderBreadcrumbs(folder, localeCode)
 
   const folderFiles =
-    folderNode.localeMap[localeCode] || folderNode.localeMap[defaultLocaleCode]
+    folder.localeMap[localeCode] || folder.localeMap[defaultLocaleCode]
   if (!folderFiles) return
 
   const relativePath = normalizePath(
@@ -33,7 +34,7 @@ export function createPageFromMdxNode(
   const slug =
     fields.localeSlugMap[localeCode] || fields.localeSlugMap[defaultLocaleCode]
 
-  actions.createPage({
+  createPage({
     /** Any valid URL. Must start with a forward slash */
     path: pathWithLocale(localeCode, slug),
     component: getLayoutPath(layout),
@@ -60,9 +61,9 @@ export function createPageFromMdxNode(
     )
     for (let otherLocaleCode of otherLocaleCodes) {
       const contentFileNames =
-        folderNode.localeMap[otherLocaleCode]?.contentFileNames || []
+        folder.localeMap[otherLocaleCode]?.contentFileNames || []
       if (!contentFileNames.includes(fileName)) {
-        createPageFromMdxNode(node, folderNode, otherLocaleCode, actions)
+        createPageFromMdxNode(node, folder, otherLocaleCode, createPage)
       }
     }
   }

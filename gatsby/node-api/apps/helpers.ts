@@ -1,9 +1,9 @@
 import { GraphQLFunction } from '../util/types'
-import { AppsGQL } from '../../../src/data/apps'
+import { AppsCreatePageGQL } from '../../../src/data/apps'
 
 export async function getApps(
   graphql: GraphQLFunction
-): Promise<Array<AppsGQL>> {
+): Promise<Array<AppsCreatePageGQL>> {
   const result = await graphql<any>(`
     query {
       allFile(filter: { base: { eq: "apps.yaml" } }) {
@@ -21,5 +21,5 @@ export async function getApps(
     throw new Error(result.errors)
   }
 
-  return result.data.allFile.nodes as AppsGQL[]
+  return result.data.allFile.nodes as AppsCreatePageGQL[]
 }

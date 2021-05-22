@@ -3,8 +3,14 @@ import { graphql } from 'gatsby'
 
 import { Offer, Specials } from '../components/pages/pricing'
 import SEO from '../components/seo'
+import { PricingContext, PricingQueryGQL } from '../data/pricing'
 
-const PricingPage = ({ data, pageContext }) => {
+interface PricingProps {
+  data: PricingQueryGQL
+  pageContext: PricingContext
+}
+
+const Pricing = ({ data, pageContext }: PricingProps): JSX.Element => {
   const { meta, content } = data.file.childYaml.parsedContent
 
   return (
@@ -17,8 +23,8 @@ const PricingPage = ({ data, pageContext }) => {
       <section className="section section_white pricing">
         <div className="section__in section__in_padding">
           <h3 className="section__title">{content.hero.title}</h3>
-          <Offer {...content.offer} />
-          <Specials items={content.specials} />
+          <Offer offer={content.offer} />
+          <Specials specials={content.specials} />
         </div>
       </section>
     </>
@@ -26,7 +32,7 @@ const PricingPage = ({ data, pageContext }) => {
 }
 
 export const pricingPageQuery = graphql`
-  query getPricingPageContent($id: String!) {
+  query getPricingContent($id: String!) {
     file(id: { eq: $id }) {
       childYaml {
         parsedContent
@@ -35,4 +41,4 @@ export const pricingPageQuery = graphql`
   }
 `
 
-export default PricingPage
+export default Pricing
