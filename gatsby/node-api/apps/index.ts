@@ -1,59 +1,48 @@
-// @ts-nocheck
 import { CreatePagesArgs } from 'gatsby'
 
-import { localeCodes, defaultLocaleCode } from '../../../src/utils/locales'
+import {
+  localeCodes,
+  defaultLocaleCode,
+  LocaleCode
+} from '../../../src/utils/locales'
 import { getLayoutPath } from '../util/layout'
 import { pathWithLocale } from '../../../src/utils/urls'
+import { getApps } from './helpers'
+import { AppsGQL } from '../../../src/data/apps'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
-  const { createPage } = actions
+  const appsList: Array<AppsGQL> = await getApps(graphql)
 
-  const { data, errors } = await graphql(`
-    query {
-      allFile(filter: { base: { eq: "apps.yaml" } }) {
-        nodes {
-          absolutePath
-          base
-          id
-          childYaml {
-            parsedContent
-          }
-        }
-      }
-    }
-  `)
-  if (errors) throw errors
-
-  data.allFile.nodes.forEach((node) => {
-    const pathItems = node.absolutePath.split('/')
+  appsList.forEach((apps) => {
+    const pathItems = apps.absolutePath.split('/')
     const pathSub = pathItems[pathItems.length - 2]
     const localeCode: LocaleCode =
-      localeCodes.find((localeCode) => localeCode === pathSub) || defaultLocaleCode
+      localeCodes.find((localeCode) => localeCode === pathSub) ||
+      defaultLocaleCode
 
-    const { path: relativePath, content } = node.childYaml.parsedContent
+    const { path: relativePath, content } = apps.childYaml.parsedContent
     const path = pathWithLocale(localeCode, relativePath)
 
-    createPage({
+    actions.createPage({
       path,
       component: getLayoutPath('apps'),
       context: {
-        id: node.id,
+        id: apps.id,
         lang: localeCode
       }
     })
 
-    const categories = content.categories.map(({ title }) => title)
-    categories.forEach((category) => {
-      const slug = category.replace(/ +/g, '-').toLowerCase()
-      createPage({
+    for (let category of content.categories) {
+      const slug = category.title.replace(/ +/g, '-').toLowerCase()
+      actions.createPage({
         path: path + `/${slug}`,
         component: getLayoutPath('apps'),
         context: {
-          id: node.id,
+          id: apps.id,
           lang: localeCode,
-          category: category
+          category: category.title
         }
       })
-    })
+    }
   })
 }

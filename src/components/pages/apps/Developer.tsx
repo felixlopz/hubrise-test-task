@@ -1,8 +1,13 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-export const Developers = ({ content }) => {
-  const { title, description } = content
+import { IDevelopers } from '../../../data/apps'
+
+interface DevelopersProps {
+  developers: IDevelopers
+}
+
+const Developer = ({ developers }: DevelopersProps): JSX.Element => {
+  const { title, description } = developers
 
   return (
     <section
@@ -32,15 +37,4 @@ export const Developers = ({ content }) => {
   )
 }
 
-Developers.propTypes = {
-  content: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    description: PropTypes.shape({
-      paragraph_1: PropTypes.string.isRequired,
-      paragraph_2: PropTypes.shape({
-        chunk_1: PropTypes.string.isRequired,
-        chunk_2: PropTypes.string.isRequired
-      }).isRequired
-    }).isRequired
-  }).isRequired
-}
+export default Developer

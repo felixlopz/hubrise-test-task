@@ -1,18 +1,29 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
-
 import GatsbyImage from 'gatsby-image'
+
 import Link from '../../link'
 import { generateKey } from '../../utils'
+import { IAdditionalSections, IApp } from '../../../data/apps'
+import { Image, ImageSharpFluid } from '../../../data/image'
 
-export const AppSection = ({
+interface AppSectionProps {
+  title: string
+  showTitle: boolean
+  apps: Array<IApp>
+  logos: Array<Image<ImageSharpFluid>>
+  additionalSections: IAdditionalSections
+  hasSuggestApp: boolean
+}
+
+const App = ({
   title,
   showTitle,
   apps,
   logos,
-  suggestAppContent
-}) => {
+  additionalSections,
+  hasSuggestApp
+}: AppSectionProps): JSX.Element => {
   const { t } = useTranslation()
 
   return (
@@ -36,12 +47,15 @@ export const AppSection = ({
                 imgStyle={{ objectFit: 'scale-down' }}
                 {...logo.childImageSharp}
               />
+
               <div className="apps__documentation">
                 {app.documentation
                   ? t('apps.view_documentation')
                   : t('apps.visit_website')}
               </div>
+
               <div className="apps__description">{app.description}</div>
+
               {app.additional_info && (
                 <div className="apps__additional-info">
                   {app.additional_info}
@@ -50,45 +64,28 @@ export const AppSection = ({
             </Link>
           )
         })}
-        {suggestAppContent && <SuggestApp {...suggestAppContent} />}
+
+        {hasSuggestApp && (
+          <SuggestApp
+            description={additionalSections.suggest_app.description}
+          />
+        )}
       </div>
     </section>
   )
 }
 
-AppSection.propTypes = {
-  title: PropTypes.string.isRequired,
-  showTitle: PropTypes.bool.isRequired,
-  apps: PropTypes.arrayOf(
-    PropTypes.shape({
-      logo: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      additional_info: PropTypes.string
-    })
-  ).isRequired,
-  logos: PropTypes.arrayOf(
-    PropTypes.shape({
-      relativeDirectory: PropTypes.string.isRequired,
-      childImageSharp: PropTypes.object
-    })
-  ).isRequired,
-  suggestAppContent: PropTypes.shape({
-    description: PropTypes.string.isRequired
-  })
+export default App
+
+interface SuggestAppProps {
+  description: string
 }
 
-const SuggestApp = ({ description }) => {
-  return (
-    <div className="apps__box apps__box_suggest">
-      {description}
-      <div className="apps__suggest-email">
-        <Link to="mailto:contact@hubrise.com">contact@hubrise.com</Link>
-      </div>
+const SuggestApp = ({ description }: SuggestAppProps): JSX.Element => (
+  <div className="apps__box apps__box_suggest">
+    {description}
+    <div className="apps__suggest-email">
+      <Link to="mailto:contact@hubrise.com">contact@hubrise.com</Link>
     </div>
-  )
-}
-
-SuggestApp.propTypes = {
-  description: PropTypes.string.isRequired
-}
+  </div>
+)

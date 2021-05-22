@@ -1,13 +1,19 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import { Hero, Nav, AppSection, Developers } from '../components/pages/apps'
 import { generateKey } from '../components/utils'
 import SEO from '../components/seo'
+import { AppsContext, IApps, AppsQueryGQL } from '../data/apps'
+import { App, Developer, Hero, Nav } from '../components/pages/apps'
 
-const Apps = ({ data, pageContext }) => {
+interface AppsProps {
+  data: AppsQueryGQL
+  pageContext: AppsContext
+}
+
+const Apps = ({ data, pageContext }: AppsProps): JSX.Element => {
   const { file, logos } = data
-  const { meta, content } = file.childYaml.parsedContent
+  const { meta, content } = file.childYaml.parsedContent as IApps
   const { lang, category } = pageContext
   const categories = content.categories.map(({ title }) => title)
 
@@ -15,7 +21,7 @@ const Apps = ({ data, pageContext }) => {
     <>
       <SEO lang={lang} title={meta?.title} description={meta?.description} />
 
-      <Hero content={content.hero} />
+      <Hero hero={content.hero} />
 
       <Nav
         categories={categories}
@@ -23,21 +29,22 @@ const Apps = ({ data, pageContext }) => {
         allAppsLabel={content.all_apps}
       />
 
-      {content.categories.map((props, idx) => {
-        if (category && category != props.title) return
-        return (
-          <AppSection
-            key={generateKey(props.title, idx)}
-            logos={logos.nodes}
-            suggestAppContent={
-              props.has_suggest_app && content.additional_sections.suggest_app
-            }
-            showTitle={category === undefined}
-            {...props}
-          />
-        )
+      {content.categories.map(({ title, apps, has_suggest_app }, idx) => {
+        if (!category || category === title) {
+          return (
+            <App
+              key={generateKey(title, idx)}
+              title={title}
+              showTitle={category === undefined}
+              apps={apps}
+              logos={logos.nodes}
+              additionalSections={content.additional_sections}
+              hasSuggestApp={has_suggest_app}
+            />
+          )
+        }
       })}
-      <Developers content={content.developers} />
+      <Developer developers={content.developers} />
     </>
   )
 }

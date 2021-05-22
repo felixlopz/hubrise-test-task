@@ -21,7 +21,7 @@ export const kebabify = (input: string, keepCase: boolean = false): string => {
 /**
  * Generatey key prop for repeating sibling React elements.
  */
-export const generateKey = (prefix: string, suffix: string): string =>
+export const generateKey = (prefix: string, suffix: string | number): string =>
   `${prefix}--${suffix}`
 
 export const getLanguageFromAbsolutePath = (absolutePath: string): string => {

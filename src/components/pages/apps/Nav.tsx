@@ -1,11 +1,23 @@
 import React from 'react'
 import { useScrollRestoration } from 'gatsby'
-import Link from '../../link'
 import classNames from 'classnames'
 
-export const Nav = ({ categories, currentCategory, allAppsLabel }) => {
+import Link from '../../link'
+
+interface NavProps {
+  categories: Array<string>
+  currentCategory?: string
+  allAppsLabel: string
+}
+
+const Nav = ({
+  categories,
+  currentCategory,
+  allAppsLabel
+}: NavProps): JSX.Element => {
   const ulScrollRestoration = useScrollRestoration('apps-nav')
 
+  // @ts-ignore - Wait for https://github.com/gatsbyjs/gatsby/pull/27982 to be merged
   return (
     <div className="apps-nav">
       <ul className="apps-nav__list" {...ulScrollRestoration}>
@@ -31,3 +43,5 @@ export const Nav = ({ categories, currentCategory, allAppsLabel }) => {
     </div>
   )
 }
+
+export default Nav
