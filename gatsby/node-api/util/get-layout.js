@@ -6,7 +6,7 @@
  * getLayout('apps') // returns src/layouts/apps.js
  */
 function getLayout(name) {
-  return require.resolve(`${__dirname}/../layouts/${name}.jsx`)
+  return require.resolve(`${__dirname}/../../../src/layouts/${name}.jsx`)
 }
 
 module.exports = {

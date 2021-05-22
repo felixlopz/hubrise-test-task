@@ -13,7 +13,7 @@ import * as fs from 'fs'
  */
 function loadYaml(yamlPath: string): any {
   return yaml.safeLoad(
-    fs.readFileSync(path.resolve(`${__dirname}/../../${yamlPath}`), 'utf8')
+    fs.readFileSync(path.resolve(`${__dirname}/../../../${yamlPath}`), 'utf8')
   )
 }
 

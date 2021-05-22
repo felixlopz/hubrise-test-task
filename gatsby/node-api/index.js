@@ -1,6 +1,6 @@
 'use strict'
 
-require('../../src/utils/gatsby-inspector')
+require('./util/gatsby-inspector')
 
 require('source-map-support').install()
 require('ts-node').register()
@@ -37,6 +37,6 @@ exports.createResolvers = async (helpers) => {
   await runApiForPlugins(`createResolvers`, helpers)
 }
 
-const translations = require('../../src/utils/translations')
+const translations = require('./util/translations')
 exports.onPostBuild = translations.copy
 exports.onPostBootstrap = translations.copy

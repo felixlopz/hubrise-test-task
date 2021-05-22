@@ -1,7 +1,8 @@
-import locales from '../../src/i18n/locales'
-import { getLayout } from '../../src/utils/get-layout'
+import locales from '../../../src/i18n/locales'
+import { CreatePagesArgs } from 'gatsby'
+import { getLayout } from '../util/get-layout'
 
-export async function createPages({ actions }) {
+export async function createPages({ actions }: CreatePagesArgs) {
   const { createPage } = actions
 
   locales.forEach((locale) => {

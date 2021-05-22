@@ -1,5 +1,7 @@
-import locales from '../../src/i18n/locales'
-import { getLayout } from '../../src/utils/get-layout'
+// @ts-nocheck
+import locales from '../../../src/i18n/locales'
+import { getLayout } from '../util/get-layout'
+import { CreatePagesArgs } from 'gatsby'
 
 const BLOG_PAGE_PATH = '/blog'
 
@@ -21,7 +23,7 @@ const generateArchiveList = (postDateList) => {
   return Array.from(archiveMap.values())
 }
 
-export async function createPages({ graphql, actions }) {
+export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions
 
   const blogListLayout = getLayout('blog-list')

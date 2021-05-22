@@ -1,19 +1,21 @@
-// @-----ts-nocheck
+// @ts-nocheck
 import * as fs from 'fs'
 import * as path from 'path'
 import * as yaml from 'js-yaml'
-import { flatten } from 'lodash'
+import { CreateNodeArgs, CreatePagesArgs, Node } from 'gatsby'
 
-import locales from '../../src/i18n/locales'
-import { getLayout } from '../../src/utils/get-layout'
-
-const defaultLocale = locales.find((locale) => locale.default) || locales[0]
-const localeCodeList = locales.map((locale) => locale.code)
+import locales, {
+  defaultLocale,
+  localeCodeList,
+  LocaleCode,
+  Locale
+} from '../../../src/i18n/locales'
+import { getLayout } from '../util/get-layout'
 
 const IGNORED_FOLDERS = ['images']
 const CUSTOMIZATION_FILE_NAME = 'customization.yaml'
 
-function getLocaleSlugMap(mdxNode, currentFolderNode) {
+function getLocaleSlugMap(mdxNode: Node, currentFolderNode) {
   const { fileAbsolutePath, frontmatter } = mdxNode
 
   const localeSlugMap = {}
@@ -53,33 +55,16 @@ function getLocaleSlugMap(mdxNode, currentFolderNode) {
   return localeSlugMap
 }
 
-/**
- * Checks whether a given path is a directory.
- */
-const isDirectory = (path) => fs.lstatSync(path).isDirectory()
-
-/**
- * Retrieves subdirectories in a given path.
- */
-const getDirectories = (srcPath) => {
-  return fs
-    .readdirSync(srcPath)
-    .map((item) => path.join(srcPath, item))
-    .filter(isDirectory)
-}
-
-/**
- * Retrieves all subdirectories in a given path, including nested ones.
- */
-const getDirectoriesRecursive = (path) => {
-  return [path, ...flatten(getDirectories(path).map(getDirectoriesRecursive))]
-}
-
-function normalizePath(filePath) {
+function normalizePath(filePath: string): string {
   return filePath.split(path.sep).join(path.posix.sep)
 }
 
-async function parseLocaleFolder(folderPath) {
+interface FolderFiles {
+  customization: Customization
+  contentFiles: Array<string>
+}
+
+async function parseLocaleFolder(folderPath: string): Promise<FolderFiles> {
   const customization = await getCustomizationFromFolder(folderPath)
   const files = await fs.promises.readdir(folderPath, { withFileTypes: true })
   const contentFiles: Array<string> = files
@@ -92,12 +77,22 @@ async function parseLocaleFolder(folderPath) {
   }
 }
 
-async function parseFolderRecursively({
-  pathToFolder,
-  folderName,
-  parentNode = null
-}) {
-  const currentNode = {
+interface Folder {
+  name: string
+  path: string
+  localeMap: {
+    [K in LocaleCode]?: FolderFiles
+  }
+  parent?: Folder
+  children: Array<Folder>
+}
+
+async function parseFolderRecursively(
+  pathToFolder: string,
+  folderName: string,
+  parentNode?: Folder
+): Promise<Folder> {
+  const currentNode: Folder = {
     name: folderName,
     path: path.join(pathToFolder, folderName),
     localeMap: {},
@@ -120,11 +115,11 @@ async function parseFolderRecursively({
         localeFolderPath
       )
     } else {
-      const childNode = await parseFolderRecursively({
-        pathToFolder: currentNode.path,
-        folderName: file.name,
-        parentNode: currentNode
-      })
+      const childNode: Folder = await parseFolderRecursively(
+        currentNode.path,
+        file.name,
+        currentNode
+      )
 
       currentNode.children.push(childNode)
     }
@@ -135,10 +130,10 @@ async function parseFolderRecursively({
   return currentNode
 }
 
-function getFoldersWithMdxFiles(parsedContent) {
+function getFoldersWithMdxFiles(parsedContent: Folder) {
   const mdxDirectories = []
 
-  function getMdxDirectoryFromNode(folderNode, locale) {
+  function getMdxDirectoryFromNode(folderNode: Folder, locale: Locale) {
     const localeEntry = folderNode.localeMap[locale.code]
 
     if (localeEntry && localeEntry.contentFiles.length > 0) {
@@ -161,7 +156,7 @@ function getFolderNodeBreadcrumbs(folderNode, locale) {
 
   let currentNode = folderNode
 
-  while (currentNode !== null) {
+  while (currentNode) {
     const { customization } =
       currentNode.localeMap[locale.code] ||
       currentNode.localeMap[defaultLocale.code]
@@ -179,13 +174,20 @@ function getFolderNodeBreadcrumbs(folderNode, locale) {
   return breadcrumbs
 }
 
-async function getCustomizationFromFolder(folderPath: string) {
+interface Customization {
+  path_override?: string
+  name?: string
+}
+
+async function getCustomizationFromFolder(
+  folderPath: string
+): Promise<Customization> {
   try {
     const filePath = path.join(folderPath, CUSTOMIZATION_FILE_NAME)
     const fileContent: string = await fs.promises.readFile(filePath, {
       encoding: 'utf-8'
     })
-    return yaml.safeLoad(fileContent) || {}
+    return (yaml.safeLoad(fileContent) || {}) as Customization
   } catch (error) {
     if (error.code === 'ENOENT') {
       return {}
@@ -200,7 +202,7 @@ function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
     return filePath.split(path.sep).join(path.posix.sep)
   }
 
-  function recursiveSearchByPath(folderNode) {
+  function recursiveSearchByPath(folderNode: Folder): Folder | null {
     if (fileAbsolutePath.startsWith(normalizePath(folderNode.path))) {
       for (let locale of locales) {
         const localeFolderPath = path.join(folderNode.path, locale.code)
@@ -223,18 +225,21 @@ function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
   return recursiveSearchByPath(rootNode)
 }
 
-function getContentLangFromPath(relativePath) {
-  const defaultLang = defaultLocale ? defaultLocale.code : 'en'
-
+function getContentLangFromPath(relativePath): LocaleCode {
   const contentLocale = locales.find((locale) => {
     const langPath = path.posix.sep + locale.code + path.posix.sep
     return relativePath.includes(langPath)
   })
 
-  return contentLocale ? contentLocale.code : defaultLang
+  return contentLocale ? contentLocale.code : defaultLocale.code
 }
 
-function createPageFromMdxNode({ node, folderNode, locale, actions }) {
+function createPageFromMdxNode(
+  node,
+  folderNode: Folder,
+  locale: Locale,
+  actions
+): void {
   const { id, fileAbsolutePath, frontmatter, fields } = node
   const { layout, meta } = frontmatter
   const currentDirectory = path.dirname(fileAbsolutePath)
@@ -242,10 +247,10 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
   const pathToImages = path.join(parentDirectory, 'images')
   const breadcrumbs = getFolderNodeBreadcrumbs(folderNode, locale)
 
-  const config = (
+  const folderFiles =
     folderNode.localeMap[locale.code] ||
     folderNode.localeMap[defaultLocale.code]
-  ).customization
+  if (!folderFiles) return
 
   const relativePath = normalizePath(
     path.posix.sep + path.relative(process.cwd(), fileAbsolutePath)
@@ -268,7 +273,7 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
       imagesPath: normalizePath(`${pathToImages}/**/*`),
       breadcrumbs,
       meta,
-      config,
+      config: folderFiles.customization,
       lang: locale.code,
       relativePath
     }
@@ -288,18 +293,13 @@ function createPageFromMdxNode({ node, folderNode, locale, actions }) {
         const isContainsFile = contentFiles.includes(fileName)
 
         if (!isContainsFile) {
-          createPageFromMdxNode({
-            node,
-            folderNode,
-            locale: nonDefaultLocale,
-            actions
-          })
+          createPageFromMdxNode(node, folderNode, nonDefaultLocale, actions)
         }
       })
   }
 }
 
-export async function createPages({ graphql, actions }) {
+export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { data, errors } = await graphql(`
     query {
       allMdx {
@@ -329,10 +329,7 @@ export async function createPages({ graphql, actions }) {
 
   if (errors) throw errors
 
-  const parsedContent = await parseFolderRecursively({
-    pathToFolder: process.cwd(),
-    folderName: 'content'
-  })
+  const parsedContent = await parseFolderRecursively(process.cwd(), 'content')
 
   const foldersWithMdxFiles = getFoldersWithMdxFiles(parsedContent)
 
@@ -343,24 +340,16 @@ export async function createPages({ graphql, actions }) {
       data.allMdx.nodes
         .filter((node) => node.fileAbsolutePath.match(regex))
         .forEach((node) =>
-          createPageFromMdxNode({
-            node,
-            locale: folder.locale,
-            folderNode: folder.node,
-            actions
-          })
+          createPageFromMdxNode(node, folder.node, folder.locale, actions)
         )
     })
   )
 }
 
 export const onCreateNode = (function () {
-  const parsedContentPromise = parseFolderRecursively({
-    pathToFolder: process.cwd(),
-    folderName: 'content'
-  })
+  const parsedContentPromise = parseFolderRecursively(process.cwd(), 'content')
 
-  async function onCreateNode({ node, actions }) {
+  async function onCreateNode({ node, actions }: CreateNodeArgs) {
     if (node.internal.type === `Mdx`) {
       const { createNodeField } = actions
       const { fileAbsolutePath } = node

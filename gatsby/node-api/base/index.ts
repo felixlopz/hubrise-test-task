@@ -1,7 +1,9 @@
-import locales from '../../src/i18n/locales'
-import { getLayout } from '../../src/utils/get-layout'
+// @ts-nocheck
+import locales from '../../../src/i18n/locales'
+import { getLayout } from '../util/get-layout'
+import { CreatePagesArgs } from 'gatsby'
 
-export async function createPages({ graphql, actions }) {
+export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions
 
   const { data, errors } = await graphql(`

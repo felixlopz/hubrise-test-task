@@ -1,4 +1,6 @@
+// @ts-nocheck
 import * as yaml from 'js-yaml'
+import { CreateNodeArgs, CreateResolversArgs } from 'gatsby'
 
 export async function onCreateNode({
   node,
@@ -6,8 +8,8 @@ export async function onCreateNode({
   loadNodeContent,
   createNodeId,
   createContentDigest
-}) {
-  if (node.internal.type === 'File' && node.base.endsWith(`.yaml`)) {
+}: CreateNodeArgs) {
+  if (node.internal.type === 'File' && (node.base as string).endsWith(`.yaml`)) {
     const content = await loadNodeContent(node)
     const id = createNodeId(`${node.id} >>> Yaml`)
 
@@ -28,7 +30,7 @@ export async function onCreateNode({
   }
 }
 
-export async function createResolvers({ createResolvers }) {
+export async function createResolvers({ createResolvers }: CreateResolversArgs) {
   createResolvers({
     Yaml: {
       parsedContent: {

@@ -1,9 +1,10 @@
-import locales from '../../src/i18n/locales'
-import { getLayout } from '../../src/utils/get-layout'
+// @ts-nocheck
+import locales from '../../../src/i18n/locales'
+import { getLayout } from '../util/get-layout'
+import { CreatePagesArgs } from 'gatsby'
 
-export async function createPages({ graphql, actions }) {
+export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions
-  const appsLayout = getLayout('apps')
 
   const { data, errors } = await graphql(`
     query {
@@ -32,7 +33,7 @@ export async function createPages({ graphql, actions }) {
 
     createPage({
       path: pathWithLocale,
-      component: appsLayout,
+      component: getLayout('apps'),
       context: {
         id: node.id,
         lang: locale.code
@@ -44,7 +45,7 @@ export async function createPages({ graphql, actions }) {
       const slug = category.replace(/ +/g, '-').toLowerCase()
       createPage({
         path: pathWithLocale + `/${slug}`,
-        component: appsLayout,
+        component: getLayout('apps'),
         context: {
           id: node.id,
           lang: locale.code,
