@@ -5,12 +5,12 @@ import * as yaml from 'js-yaml'
 import { CreateNodeArgs, CreatePagesArgs, Node } from 'gatsby'
 
 import locales, {
-  defaultLocale,
-  localeCodeList,
   LocaleCode,
-  Locale
-} from '../../../src/i18n/locales'
-import { getLayout } from '../util/get-layout'
+  localeCodes,
+  defaultLocaleCode
+} from '../../../src/utils/locales'
+import { getLayoutPath } from '../util/layout'
+import { pathWithLocale } from '../../../src/utils/urls'
 
 const IGNORED_FOLDERS = ['images']
 const CUSTOMIZATION_FILE_NAME = 'customization.yaml'
@@ -20,14 +20,14 @@ function getLocaleSlugMap(mdxNode: Node, currentFolderNode) {
 
   const localeSlugMap = {}
 
-  locales.forEach((locale) => {
-    const localeFolderEntry =
-      currentFolderNode.localeMap[locale.code] ||
-      currentFolderNode.localeMap[defaultLocale.code]
+  localeCodes.forEach((localeCode) => {
+    const localeFolderFiles =
+      currentFolderNode.localeMap[localeCode] ||
+      currentFolderNode.localeMap[defaultLocaleCode]
 
-    const config = localeFolderEntry.customization
+    const config = localeFolderFiles.customization
 
-    const breadcrumbs = getFolderNodeBreadcrumbs(currentFolderNode, locale)
+    const breadcrumbs = getFolderNodeBreadcrumbs(currentFolderNode, localeCode)
 
     let fileName = path.basename(
       fileAbsolutePath,
@@ -49,7 +49,7 @@ function getLocaleSlugMap(mdxNode: Node, currentFolderNode) {
 
     slug = slug ? `/${slug}/` : '/'
 
-    localeSlugMap[locale.code] = slug
+    localeSlugMap[localeCode] = slug
   })
 
   return localeSlugMap
@@ -61,19 +61,19 @@ function normalizePath(filePath: string): string {
 
 interface FolderFiles {
   customization: Customization
-  contentFiles: Array<string>
+  contentFileNames: Array<string>
 }
 
 async function parseLocaleFolder(folderPath: string): Promise<FolderFiles> {
   const customization = await getCustomizationFromFolder(folderPath)
   const files = await fs.promises.readdir(folderPath, { withFileTypes: true })
-  const contentFiles: Array<string> = files
+  const contentFileNames: Array<string> = files
     .filter((file) => file.isFile() && file.name !== CUSTOMIZATION_FILE_NAME)
     .map((file) => file.name)
 
   return {
     customization,
-    contentFiles
+    contentFileNames
   }
 }
 
@@ -109,7 +109,7 @@ async function parseFolderRecursively(
       return
     }
 
-    if (localeCodeList.includes(file.name)) {
+    if (localeCodes.includes(file.name)) {
       const localeFolderPath = path.join(currentNode.path, file.name)
       currentNode.localeMap[file.name] = await parseLocaleFolder(
         localeFolderPath
@@ -133,33 +133,36 @@ async function parseFolderRecursively(
 function getFoldersWithMdxFiles(parsedContent: Folder) {
   const mdxDirectories = []
 
-  function getMdxDirectoryFromNode(folderNode: Folder, locale: Locale) {
-    const localeEntry = folderNode.localeMap[locale.code]
+  function getMdxDirectoryFromNode(folderNode: Folder, localeCode: LocaleCode) {
+    const localeEntry = folderNode.localeMap[localeCode]
 
-    if (localeEntry && localeEntry.contentFiles.length > 0) {
-      const directoryPath = path.join(folderNode.path, locale.code)
+    if (localeEntry && localeEntry.contentFileNames.length > 0) {
+      const directoryPath = path.join(folderNode.path, localeCode)
+      const locale = locales.find((theLocale) => theLocale.code === localeCode)
       mdxDirectories.push({ path: directoryPath, locale, node: folderNode })
     }
 
     folderNode.children.forEach((childNode) =>
-      getMdxDirectoryFromNode(childNode, locale)
+      getMdxDirectoryFromNode(childNode, localeCode)
     )
   }
 
-  locales.forEach((locale) => getMdxDirectoryFromNode(parsedContent, locale))
+  localeCodes.forEach((localeCode) =>
+    getMdxDirectoryFromNode(parsedContent, localeCode)
+  )
 
   return mdxDirectories
 }
 
-function getFolderNodeBreadcrumbs(folderNode, locale) {
+function getFolderNodeBreadcrumbs(folderNode: Folder, localeCode: LocaleCode) {
   const breadcrumbs = []
 
   let currentNode = folderNode
 
   while (currentNode) {
     const { customization } =
-      currentNode.localeMap[locale.code] ||
-      currentNode.localeMap[defaultLocale.code]
+      currentNode.localeMap[localeCode] ||
+      currentNode.localeMap[defaultLocaleCode]
 
     if (customization.path_override) {
       const breadcrumb = {
@@ -204,8 +207,8 @@ function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
 
   function recursiveSearchByPath(folderNode: Folder): Folder | null {
     if (fileAbsolutePath.startsWith(normalizePath(folderNode.path))) {
-      for (let locale of locales) {
-        const localeFolderPath = path.join(folderNode.path, locale.code)
+      for (let localeCode of localeCodes) {
+        const localeFolderPath = path.join(folderNode.path, localeCode)
         if (fileAbsolutePath.startsWith(normalizePath(localeFolderPath))) {
           return folderNode
         }
@@ -225,19 +228,18 @@ function findFolderNodeByFilePath(rootNode, fileAbsolutePath) {
   return recursiveSearchByPath(rootNode)
 }
 
-function getContentLangFromPath(relativePath): LocaleCode {
-  const contentLocale = locales.find((locale) => {
-    const langPath = path.posix.sep + locale.code + path.posix.sep
-    return relativePath.includes(langPath)
-  })
-
-  return contentLocale ? contentLocale.code : defaultLocale.code
+function getLocaleCodeFromPath(relativePath): LocaleCode {
+  return (
+    localeCodes.find((localeCode) =>
+      relativePath.includes(path.posix.sep + localeCode + path.posix.sep)
+    ) || defaultLocaleCode
+  )
 }
 
 function createPageFromMdxNode(
   node,
   folderNode: Folder,
-  locale: Locale,
+  localeCode: LocaleCode,
   actions
 ): void {
   const { id, fileAbsolutePath, frontmatter, fields } = node
@@ -245,11 +247,10 @@ function createPageFromMdxNode(
   const currentDirectory = path.dirname(fileAbsolutePath)
   const parentDirectory = path.dirname(currentDirectory)
   const pathToImages = path.join(parentDirectory, 'images')
-  const breadcrumbs = getFolderNodeBreadcrumbs(folderNode, locale)
+  const breadcrumbs = getFolderNodeBreadcrumbs(folderNode, localeCode)
 
   const folderFiles =
-    folderNode.localeMap[locale.code] ||
-    folderNode.localeMap[defaultLocale.code]
+    folderNode.localeMap[localeCode] || folderNode.localeMap[defaultLocaleCode]
   if (!folderFiles) return
 
   const relativePath = normalizePath(
@@ -257,13 +258,12 @@ function createPageFromMdxNode(
   )
 
   const slug =
-    fields.localeSlugMap[locale.code] ||
-    fields.localeSlugMap[defaultLocale.code]
+    fields.localeSlugMap[localeCode] || fields.localeSlugMap[defaultLocaleCode]
 
   actions.createPage({
     /** Any valid URL. Must start with a forward slash */
-    path: (locale.default ? `` : `/${locale.code}`) + slug,
-    component: getLayout(layout),
+    path: pathWithLocale(localeCode, slug),
+    component: getLayoutPath(layout),
     context: {
       id,
       currentAndSiblingPagesFilter: {
@@ -274,28 +274,24 @@ function createPageFromMdxNode(
       breadcrumbs,
       meta,
       config: folderFiles.customization,
-      lang: locale.code,
+      lang: localeCode,
       relativePath
     }
   })
 
-  /** For every other locale, fallback to content in default locale, if available. */
-  if (locale.default) {
+  if (localeCode === defaultLocaleCode) {
+    /** For every other locale, fallback to content in default locale, if available. */
     const fileName = path.basename(fileAbsolutePath)
-
-    locales
-      .filter((locale) => !locale.default)
-      .forEach((nonDefaultLocale) => {
-        const localeFolderEntry = folderNode.localeMap[nonDefaultLocale.code]
-        const contentFiles = localeFolderEntry
-          ? localeFolderEntry.contentFiles
-          : []
-        const isContainsFile = contentFiles.includes(fileName)
-
-        if (!isContainsFile) {
-          createPageFromMdxNode(node, folderNode, nonDefaultLocale, actions)
-        }
-      })
+    const otherLocaleCodes = localeCodes.filter(
+      (localeCode) => localeCode !== defaultLocaleCode
+    )
+    for (let otherLocaleCode of otherLocaleCodes) {
+      const contentFileNames =
+        folderNode.localeMap[otherLocaleCode]?.contentFileNames || []
+      if (!contentFileNames.includes(fileName)) {
+        createPageFromMdxNode(node, folderNode, otherLocaleCode, actions)
+      }
+    }
   }
 }
 
@@ -340,7 +336,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
       data.allMdx.nodes
         .filter((node) => node.fileAbsolutePath.match(regex))
         .forEach((node) =>
-          createPageFromMdxNode(node, folder.node, folder.locale, actions)
+          createPageFromMdxNode(node, folder.node, folder.locale.code, actions)
         )
     })
   )
@@ -360,7 +356,7 @@ export const onCreateNode = (function () {
         fileAbsolutePath
       )
 
-      const localeCode = getContentLangFromPath(fileAbsolutePath)
+      const localeCode = getLocaleCodeFromPath(fileAbsolutePath)
       const localeSlugMap = getLocaleSlugMap(node, currentFolderNode)
 
       createNodeField({

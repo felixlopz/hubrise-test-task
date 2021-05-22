@@ -1,5 +1,8 @@
-type LocaleCode = 'en' | 'fr'
+export type LocaleCode = 'en' | 'fr'
+export const localeCodes: Array<LocaleCode> = ['en', 'fr']
+export const defaultLocaleCode: LocaleCode = 'en'
 
+/* TODO: Remove the rest of the file */
 type Locale = {
   code: LocaleCode
   tag: string
@@ -18,10 +21,4 @@ const locales: Array<Locale> = [
   }
 ]
 
-const defaultLocale: Locale = locales[0]
-
-const localeCodeList = locales.map((locale) => locale.code)
-
-export type { Locale, LocaleCode }
-export { defaultLocale, localeCodeList }
 export default locales

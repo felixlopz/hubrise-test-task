@@ -1,44 +1,33 @@
-import React, { useState, useContext, createContext } from 'react'
-import PropTypes from 'prop-types'
-
-const LayoutContext = createContext()
-
-function LayoutProvider({ children }) {
-  const [isContactVisible, setContactVisibility] = useState(false)
-  const [isSuggestAppVisible, setSuggestAppVisibility] = useState(false)
-
-  return (
-    <LayoutContext.Provider
-      value={{
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.useLayoutContext = exports.LayoutProvider = void 0;
+var React = require("react");
+var LayoutContext = React.createContext({});
+function LayoutProvider(_a) {
+    var children = _a.children;
+    var _b = React.useState(false), isContactVisible = _b[0], setContactVisibility = _b[1];
+    var _c = React.useState(false), isSuggestAppVisible = _c[0], setSuggestAppVisibility = _c[1];
+    return (<LayoutContext.Provider value={{
         forms: {
-          contact: {
-            isVisible: isContactVisible,
-            toggle: () => setContactVisibility(!isContactVisible)
-          },
-          suggestApp: {
-            isVisible: isSuggestAppVisible,
-            toggle: () => setSuggestAppVisibility(!isSuggestAppVisible)
-          }
+            contact: {
+                isVisible: isContactVisible,
+                toggle: function () { return setContactVisibility(!isContactVisible); }
+            },
+            suggestApp: {
+                isVisible: isSuggestAppVisible,
+                toggle: function () { return setSuggestAppVisibility(!isSuggestAppVisible); }
+            }
         }
-      }}
-    >
+    }}>
       {children}
-    </LayoutContext.Provider>
-  )
+    </LayoutContext.Provider>);
 }
-
+exports.LayoutProvider = LayoutProvider;
 function useLayoutContext() {
-  const context = useContext(LayoutContext)
-
-  if (!context) {
-    throw new Error(`useLayoutContext must be used within LayoutProvider`)
-  }
-
-  return context
+    var context = React.useContext(LayoutContext);
+    if (!context) {
+        throw new Error("useLayoutContext must be used within LayoutProvider");
+    }
+    return context;
 }
-
-LayoutProvider.propTypes = {
-  children: PropTypes.node.isRequired
-}
-
-export { useLayoutContext, LayoutProvider }
+exports.useLayoutContext = useLayoutContext;

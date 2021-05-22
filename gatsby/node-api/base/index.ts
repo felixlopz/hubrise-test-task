@@ -1,7 +1,9 @@
 // @ts-nocheck
-import locales from '../../../src/i18n/locales'
-import { getLayout } from '../util/get-layout'
 import { CreatePagesArgs } from 'gatsby'
+
+import { localeCodes, defaultLocaleCode } from '../../../src/utils/locales'
+import { getLayoutPath } from '../util/layout'
+import { pathWithLocale } from '../../../src/utils/urls'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions
@@ -30,18 +32,18 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
     const page = node.base.split('.').slice(0, -1).join('.')
 
     const pathItems = node.absolutePath.split('/')
-    const localeCode = pathItems[pathItems.length - 2]
-    const locale = locales.find(({ code }) => code === localeCode) || locales[0]
-
-    const pathPrefix = locale.default ? '' : `/${locale.code}`
-    const path = [pathPrefix, node.childYaml.parsedContent.path].join('')
+    const pathSub = pathItems[pathItems.length - 2]
+    const localeCode: LocaleCode =
+      localeCodes.find((localeCode) => localeCode === pathSub) ||
+      defaultLocaleCode
+    const path = pathWithLocale(localeCode, node.childYaml.parsedContent.path)
 
     createPage({
       path,
-      component: getLayout(page),
+      component: getLayoutPath(page),
       context: {
         id: node.id,
-        lang: locale.code
+        lang: localeCode
       }
     })
   })

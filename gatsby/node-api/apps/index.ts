@@ -1,7 +1,9 @@
 // @ts-nocheck
-import locales from '../../../src/i18n/locales'
-import { getLayout } from '../util/get-layout'
 import { CreatePagesArgs } from 'gatsby'
+
+import { localeCodes, defaultLocaleCode } from '../../../src/utils/locales'
+import { getLayoutPath } from '../util/layout'
+import { pathWithLocale } from '../../../src/utils/urls'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions
@@ -24,19 +26,19 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
 
   data.allFile.nodes.forEach((node) => {
     const pathItems = node.absolutePath.split('/')
-    const localeCode = pathItems[pathItems.length - 2]
-    const locale = locales.find(({ code }) => code === localeCode) || locales[0]
+    const pathSub = pathItems[pathItems.length - 2]
+    const localeCode: LocaleCode =
+      localeCodes.find((localeCode) => localeCode === pathSub) || defaultLocaleCode
 
-    const pathPrefix = locale.default ? '' : `/${locale.code}`
-    const { path, content } = node.childYaml.parsedContent
-    const pathWithLocale = [pathPrefix, path].join('')
+    const { path: relativePath, content } = node.childYaml.parsedContent
+    const path = pathWithLocale(localeCode, relativePath)
 
     createPage({
-      path: pathWithLocale,
-      component: getLayout('apps'),
+      path,
+      component: getLayoutPath('apps'),
       context: {
         id: node.id,
-        lang: locale.code
+        lang: localeCode
       }
     })
 
@@ -44,11 +46,11 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
     categories.forEach((category) => {
       const slug = category.replace(/ +/g, '-').toLowerCase()
       createPage({
-        path: pathWithLocale + `/${slug}`,
-        component: getLayout('apps'),
+        path: path + `/${slug}`,
+        component: getLayoutPath('apps'),
         context: {
           id: node.id,
-          lang: locale.code,
+          lang: localeCode,
           category: category
         }
       })

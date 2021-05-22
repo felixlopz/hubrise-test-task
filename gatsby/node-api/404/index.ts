@@ -1,18 +1,19 @@
-import locales from '../../../src/i18n/locales'
 import { CreatePagesArgs } from 'gatsby'
-import { getLayout } from '../util/get-layout'
+
+import { getLayoutPath } from '../util/layout'
+import { localeCodes } from '../../../src/utils/locales'
+import { pathWithLocale } from '../../../src/utils/urls'
 
 export async function createPages({ actions }: CreatePagesArgs) {
   const { createPage } = actions
 
-  locales.forEach((locale) => {
-    const pathPrefix = locale.default ? `` : `/${locale.code}`
+  localeCodes.forEach((localeCode) => {
     createPage({
-      path: pathPrefix + '/404',
-      matchPath: `${pathPrefix}/*`,
-      component: getLayout('404'),
+      path: pathWithLocale(localeCode, '/404'),
+      matchPath: pathWithLocale(localeCode, '/*'),
+      component: getLayoutPath('404'),
       context: {
-        lang: locale.code
+        lang: localeCode
       }
     })
   })

@@ -8,7 +8,7 @@ import {
   generateArchiveList,
   getArchiveLink,
   getArchiveTitle
-} from '../utils/blog'
+} from '../../utils/blog'
 import Link from '../link'
 
 function getRecentPosts (articleEdges) {

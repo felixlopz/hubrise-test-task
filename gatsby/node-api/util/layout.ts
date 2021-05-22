@@ -3,12 +3,8 @@
  *
  * Ex:
  *
- * getLayout('apps') // returns src/layouts/apps.js
+ * getLayoutPath('apps') // returns src/layouts/apps.js
  */
-function getLayout(name) {
+export function getLayoutPath(name: string): string {
   return require.resolve(`${__dirname}/../../../src/layouts/${name}.jsx`)
-}
-
-module.exports = {
-  getLayout
 }

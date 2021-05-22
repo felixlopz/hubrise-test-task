@@ -13,6 +13,7 @@
     "noUnusedParameters": true,
     "removeComments": false,
     "preserveConstEnums": true,
+    "resolveJsonModule": true,
     "baseUrl": "./src",
 
     // Temporary, until migration to TS is completed

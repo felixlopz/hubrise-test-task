@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link as GatsbyLink } from 'gatsby'
 
-import locales from '../i18n/locales'
+import locales from '../utils/locales'
 
 interface LinkProps {
   to: string
