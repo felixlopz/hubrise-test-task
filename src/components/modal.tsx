@@ -1,7 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { ReactNode } from 'react'
 
-const Modal = ({ title, onClose, children }) => {
+interface ModalProps {
+  title: string
+  onClose: (event: React.MouseEvent) => void
+  children: ReactNode
+}
+
+const Modal = ({ title, onClose, children }: ModalProps) => {
   return (
     <div
       className="reveal-overlay"
@@ -15,7 +20,7 @@ const Modal = ({ title, onClose, children }) => {
         className="reveal modal"
         role="dialog"
         aria-hidden="false"
-        tabIndex="-1"
+        tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
         style={{
           display: `block`,
@@ -36,16 +41,6 @@ const Modal = ({ title, onClose, children }) => {
       </div>
     </div>
   )
-}
-
-Modal.propTypes = {
-  title: PropTypes.string,
-  onClose: PropTypes.func
-}
-
-Modal.defaultProps = {
-  title: ``,
-  onClose: () => {}
 }
 
 export default Modal

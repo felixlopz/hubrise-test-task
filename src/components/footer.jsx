@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
+
 import Link from './link'
 import { generateKey, getLanguageFromAbsolutePath } from './utils'
 import logo from '../images/logo_footer.png'

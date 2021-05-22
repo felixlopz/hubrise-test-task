@@ -1,6 +1,11 @@
 import React from 'react'
 
-function Hero({ title, description }) {
+interface HeroProps {
+  title: string
+  description: string
+}
+
+function Hero({ title, description }: HeroProps): JSX.Element {
   return (
     <section className="section">
       <div className="section__in section__in_padding section__in_green section__in_left">

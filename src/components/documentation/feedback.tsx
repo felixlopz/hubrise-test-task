@@ -1,12 +1,20 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
-import { useTranslation } from 'react-i18next'
-import PropTypes from 'prop-types'
 
 import Link from '../link'
 
-export const Feedback = ({ options }) => {
+export type FeedbackOption = {
+  title: string
+  url: string
+}
+
+interface FeedbackProps {
+  options: Array<FeedbackOption>
+}
+
+export const Feedback = ({ options }: FeedbackProps): JSX.Element => {
   const [isExpanded, setIsExpanded] = useState(false)
   const { t } = useTranslation()
 
@@ -32,6 +40,7 @@ export const Feedback = ({ options }) => {
           </p>
         </div>
       </section>
+
       {isExpanded && (
         <section className="feedback__section feedback__instructions">
           <p className="feedback__paragraph">
@@ -49,14 +58,5 @@ export const Feedback = ({ options }) => {
         </section>
       )}
     </section>
-  )
-}
-
-Feedback.propTypes = {
-  options: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      url: PropTypes.string
-    })
   )
 }

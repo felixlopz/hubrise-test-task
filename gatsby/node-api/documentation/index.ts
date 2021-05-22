@@ -15,7 +15,7 @@ import { pathWithLocale } from '../../../src/utils/urls'
 const IGNORED_FOLDERS = ['images']
 const CUSTOMIZATION_FILE_NAME = 'customization.yaml'
 
-function getLocaleSlugMap(mdxNode: Node, currentFolderNode) {
+function getLocaleSlugMap(mdxNode: Node, currentFolderNode: Folder) {
   const { fileAbsolutePath, frontmatter } = mdxNode
 
   const localeSlugMap = {}

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
 
 import ContactForm from './forms/contact'
-import Modal from '../components/modal'
+import Modal from './modal'
 import Layout from './layout'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
