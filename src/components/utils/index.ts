@@ -24,11 +24,6 @@ export const kebabify = (input: string, keepCase: boolean = false): string => {
 export const generateKey = (prefix: string, suffix: string | number): string =>
   `${prefix}--${suffix}`
 
-export const getLanguageFromAbsolutePath = (absolutePath: string): string => {
-  const pathItems = absolutePath.split('/')
-  return pathItems[pathItems.length - 2]
-}
-
 export const markdownToHtml = (markdown: string): string =>
   remark()
     .use(remarkHtml)

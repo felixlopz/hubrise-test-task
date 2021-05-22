@@ -2,14 +2,15 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import Link from './link'
-import { generateKey, getLanguageFromAbsolutePath } from './utils'
+import { generateKey } from './utils'
 import logo from '../images/logo_footer.png'
+import { getLocaleCodeFromAbsolutePath } from '../utils/locales'
 
 const Footer = ({ pageContext }) => {
   const menuFooterNodes = useStaticQuery(footerQuery).allFile.nodes
   const menuSections = menuFooterNodes.find(
     ({ absolutePath }) =>
-      getLanguageFromAbsolutePath(absolutePath) === pageContext.lang
+      getLocaleCodeFromAbsolutePath(absolutePath) === pageContext.lang
   ).childYaml.parsedContent.sections
 
   return (

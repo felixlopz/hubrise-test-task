@@ -4,13 +4,13 @@ import { graphql, useStaticQuery } from 'gatsby'
 import Header from './header'
 import HeaderMobile from './header_mobile'
 import Footer from './footer'
-import { getLanguageFromAbsolutePath } from './utils'
+import { getLocaleCodeFromAbsolutePath } from '../utils/locales'
 
 const Layout = ({ children, pageContext, path }) => {
   const menuHeaderNodes = useStaticQuery(headerQuery).allFile.nodes
   const menuItems = menuHeaderNodes.find(
     ({ absolutePath }) =>
-      getLanguageFromAbsolutePath(absolutePath) === pageContext.lang
+      getLocaleCodeFromAbsolutePath(absolutePath) === pageContext.lang
   ).childYaml.parsedContent
 
   return (
