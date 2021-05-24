@@ -1,11 +1,20 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Prism from 'prismjs'
-import Highlight from 'prism-react-renderer'
+import Highlight, { Language } from 'prism-react-renderer'
 
 import { generateKey } from '../../components/utils'
 
-const HighlightCode = ({ code, language, inline }) => {
+interface HighlightCodeProps {
+  code: string
+  language?: Language
+  inline?: boolean
+}
+
+const HighlightCode = ({
+  code,
+  language = 'json',
+  inline = false
+}: HighlightCodeProps): JSX.Element => {
   if (inline) {
     return (
       <Highlight code={code} language={language} Prism={Prism}>
@@ -50,17 +59,6 @@ const HighlightCode = ({ code, language, inline }) => {
       )}
     </Highlight>
   )
-}
-
-HighlightCode.propTypes = {
-  language: PropTypes.string,
-  code: PropTypes.string.isRequired,
-  inline: PropTypes.bool
-}
-
-HighlightCode.defaultProps = {
-  language: `none`,
-  inline: false
 }
 
 export default HighlightCode

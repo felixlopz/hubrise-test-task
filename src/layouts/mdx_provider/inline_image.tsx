@@ -1,7 +1,17 @@
-import React from 'react'
+import * as React from 'react'
 
-function InlineImage({ children, width, height }) {
-  const convertToNumber = (value) => {
+interface InlineImageProps {
+  children: React.ReactNode
+  width?: string
+  height?: string
+}
+
+const InlineImage = ({
+  children,
+  width,
+  height
+}: InlineImageProps): JSX.Element => {
+  const convertToNumber = (value: string | undefined): number | undefined => {
     const num = Number(value)
     return Number.isNaN(num) ? undefined : num
   }
