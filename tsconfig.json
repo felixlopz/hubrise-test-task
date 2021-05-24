@@ -15,6 +15,7 @@
     "preserveConstEnums": true,
     "resolveJsonModule": true,
     "baseUrl": "./src",
+    "outDir": "./dist",
 
     // Temporary, until migration to TS is completed
     "allowJs": true,

@@ -1,4 +1,4 @@
-import { kebabify, generateKey } from '../index'
+import { kebabify, generateKey, createHeaderAnchor } from '../index'
 
 describe(`kebabify`, () => {
   it(`should transform regular string`, () => {
@@ -13,5 +13,17 @@ describe(`kebabify`, () => {
 describe(`generateKey`, () => {
   it(`should generate a key prop`, () => {
     expect(generateKey(`absolutely`, `83`)).toBe(`absolutely--83`)
+  })
+})
+
+describe(`createHeaderAnchor`, () => {
+  it(`should convert numbered header into a target for anchor`, () => {
+    expect(createHeaderAnchor(`4. Overriding HTTP method`)).toBe(
+      `overriding-http-method`
+    )
+
+    expect(createHeaderAnchor(`5. Order items (deal line)`)).toBe(
+      `order-items-deal-line`
+    )
   })
 })

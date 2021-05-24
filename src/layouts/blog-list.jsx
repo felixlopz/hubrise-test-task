@@ -9,6 +9,7 @@ import { getArchiveTitle } from '../utils/blog'
 import { Breadcrumbs } from '../components/documentation'
 import { getLocalizedUrl } from '../components/utils/link'
 import SEO from '../components/seo'
+import MDXProvider from './mdx_provider'
 
 function BlogList({ data, pageContext }) {
   const { t } = useTranslation()
@@ -64,7 +65,7 @@ function BlogList({ data, pageContext }) {
     : []
 
   return (
-    <>
+    <MDXProvider>
       <SEO lang={pageContext.lang} title="HubRise Blog" description="" />
       {archive ? (
         <Breadcrumbs breadcrumbs={breadcrumbs} />
@@ -90,7 +91,7 @@ function BlogList({ data, pageContext }) {
           </div>
         </div>
       </section>
-    </>
+    </MDXProvider>
   )
 }
 

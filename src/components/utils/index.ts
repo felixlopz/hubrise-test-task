@@ -29,3 +29,21 @@ export const markdownToHtml = (markdown: string): string =>
     .use(remarkHtml)
     .processSync(markdown.replace(/\n/g, '\n\n'))
     .toString()
+
+/**
+ * Strips headers of chapters and subchapters, transforming
+ * the remaining text into a kebabified anchor.
+ *
+ * @param   header - Header text.
+ * @returns Header text without a leading chapter, kebabified.
+ * @example
+ *   1.2. Retrieve order => retrieve-order
+ */
+export function createHeaderAnchor(header: string): string {
+  // Detects leading chapter numbers.
+  const regex = /^[\d.]+\s/
+
+  return header.match(regex)
+    ? kebabify(header.replace(regex, ``))
+    : kebabify(header)
+}

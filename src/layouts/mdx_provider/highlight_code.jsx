@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Prism from 'prismjs'
 import Highlight from 'prism-react-renderer'
 
-import { generateKey } from '../utils'
+import { generateKey } from '../../components/utils'
 
 const HighlightCode = ({ code, language, inline }) => {
   if (inline) {

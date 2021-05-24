@@ -6,6 +6,7 @@ import Post from '../components/blog/post'
 import { Breadcrumbs } from '../components/documentation'
 import { getLocalizedUrl } from '../components/utils/link'
 import SEO from '../components/seo'
+import MDXProvider from './mdx_provider'
 
 function BlogPost({ data, pageContext }) {
   const { post } = data
@@ -26,7 +27,7 @@ function BlogPost({ data, pageContext }) {
   ]
 
   return (
-    <>
+    <MDXProvider>
       <SEO
         lang={pageContext.lang}
         title={meta?.title}
@@ -41,7 +42,7 @@ function BlogPost({ data, pageContext }) {
           </div>
         </div>
       </div>
-    </>
+    </MDXProvider>
   )
 }
 

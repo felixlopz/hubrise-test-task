@@ -11,6 +11,7 @@ import {
   Feedback
 } from '../components/documentation'
 import SEO from '../components/seo'
+import MDXProvider from './mdx_provider'
 
 const DocumentationPage = ({ data, path, pageContext }) => {
   const { t } = useTranslation()
@@ -55,7 +56,7 @@ const DocumentationPage = ({ data, path, pageContext }) => {
   const breadcrumbs = getBreadcrumbs()
 
   return (
-    <>
+    <MDXProvider>
       <SEO
         lang={pageContext.lang}
         title={meta?.title}
@@ -96,7 +97,7 @@ const DocumentationPage = ({ data, path, pageContext }) => {
         </div>
       </section>
       <Feedback options={feedbackOptions} />
-    </>
+    </MDXProvider>
   )
 }
 

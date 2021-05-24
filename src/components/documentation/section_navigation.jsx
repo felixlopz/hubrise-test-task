@@ -6,8 +6,7 @@ import { useTranslation } from 'react-i18next'
 
 import { NonStretchedImage } from '../non_stretched_image'
 import Link from '../link'
-import { generateKey } from '../utils'
-import { createHeaderAnchor } from '../utils/headers'
+import { createHeaderAnchor, generateKey } from '../utils'
 
 const sortPagesAsc = (pages) => {
   return pages.sort((page1, page2) => page1.frontmatter.position - page2.frontmatter.position)
