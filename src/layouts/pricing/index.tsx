@@ -1,10 +1,10 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql } from 'gatsby'
 
 import { BaseContext } from '../../data/context'
 import { Image, ImageSharpFluid } from '../../data/image'
 import { IPricing } from '../../data/pricing'
-import { Offer, Specials } from '../../components/pages/pricing'
+import { Offer, Specials } from '../../components/pricing'
 import SEO from '../../components/Seo'
 
 interface PricingProps {

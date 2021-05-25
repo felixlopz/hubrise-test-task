@@ -1,5 +1,5 @@
 import { createHeaderAnchor } from '../utils'
-import React from 'react'
+import * as React from 'react'
 
 /**
  * Defines custom h2-h3 headers with attached anchors.

@@ -3,7 +3,9 @@ import { WrapRootElementNodeArgs } from 'gatsby'
 
 import RootWrapper from '../../src/components/RootWrapper'
 
-const wrapRootElement = ({ element }: WrapRootElementNodeArgs): JSX.Element => (
+const wrapRootElement = async ({
+  element
+}: WrapRootElementNodeArgs): Promise<JSX.Element> => (
   <RootWrapper>{element}</RootWrapper>
 )
 

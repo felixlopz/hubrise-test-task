@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { WrapPageElementNodeArgs } from "gatsby"
+import { WrapPageElementNodeArgs } from 'gatsby'
 
 import PageWrapper from '../../src/components/PageWrapper'
 

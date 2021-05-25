@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import GatsbyImage from 'gatsby-image'
 
 export const NonStretchedImage = (props) => {

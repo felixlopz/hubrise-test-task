@@ -1,34 +1,24 @@
-import { graphql } from 'gatsby'
-
-export const Image = graphql`
-  fragment Image on File {
-    name
-    base
-    publicURL
-    relativeDirectory
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
-        presentationWidth
-      }
-    }
-  }
-`
+import './image-fragments'
 
 export interface ImageSharpFluid {
-  base64: string
-  aspectRatio: number
-  src: string
-  srcSet: string
-  sizes: string
+  fluid: {
+    base64: string
+    aspectRatio: number
+    src: string
+    srcSet: string
+    sizes: string
+    presentationWidth: number
+  }
 }
 
 export interface ImageSharpFixed {
-  base64: string
-  width: number
-  height: number
-  src: string
-  srcSet: string
+  fixed: {
+    base64: string
+    width: number
+    height: number
+    src: string
+    srcSet: string
+  }
 }
 
 export interface Image<T> {
@@ -36,9 +26,5 @@ export interface Image<T> {
   base: string
   publicURL: string
   relativeDirectory: string
-  childImageSharp: {
-    fluid: T & {
-      presentationWidth: number
-    }
-  }
+  childImageSharp: T
 }

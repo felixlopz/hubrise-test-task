@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import Prism from 'prismjs'
 import Highlight, { Language } from 'prism-react-renderer'
 

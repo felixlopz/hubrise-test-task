@@ -2,7 +2,9 @@ export type LocaleCode = 'en' | 'fr'
 export const localeCodes: Array<LocaleCode> = ['en', 'fr']
 export const defaultLocaleCode: LocaleCode = 'en'
 
-export const getLocaleCodeFromAbsolutePath = (absolutePath: string): LocaleCode => {
+export const getLocaleCodeFromAbsolutePath = (
+  absolutePath: string
+): LocaleCode => {
   const pathItems = absolutePath.split('/')
   return pathItems[pathItems.length - 2] as LocaleCode
 }

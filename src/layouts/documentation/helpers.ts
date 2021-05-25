@@ -1,7 +1,8 @@
-import { DocumentationContext, IBreadcrumb } from '../../data/documentation'
+import { IBreadcrumb } from '../../data/documentation'
 import { MDXNode } from '../../data/mdx'
-import { FeedbackProps } from '../../components/documentation/feedback'
 import { TFunction } from 'i18next'
+import { DocumentationContext } from '../../data/context'
+import { FeedbackProps } from '../../components/documentation/Feedback'
 
 export function getBreadcrumbs(
   pageContext: DocumentationContext,
@@ -20,7 +21,7 @@ export function getBreadcrumbs(
     }
   )
   breadcrumbs.unshift({ label: currentMdxNode.frontmatter.title })
-  return breadcrumbs
+  return breadcrumbs.reverse()
 }
 
 export function getFeedbackOptions(

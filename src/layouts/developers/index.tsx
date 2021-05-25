@@ -1,9 +1,9 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { BaseContext } from '../../data/base'
 import { MDXNode } from '../../data/mdx'
-import { Hero, Thumb } from '../../components/pages/developers'
+import { BaseContext } from '../../data/context'
+import { Hero, Thumb } from '../../components/developers'
 import { generateKey } from '../../components/utils'
 import SEO from '../../components/Seo'
 

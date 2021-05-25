@@ -11,7 +11,7 @@ import {
 } from '../../data/documentation'
 import { BlogListContext } from '../../data/context'
 import { Hero, Post, Sidebar } from '../../components/blog'
-import Breadcrumbs from '../../components/documentation/breadcrumbs'
+import { Breadcrumbs } from '../../components/documentation'
 import { getLocalizedUrl } from '../../components/utils/link'
 import SEO from '../../components/Seo'
 import MDXProvider from '../../components/MdxProvider'

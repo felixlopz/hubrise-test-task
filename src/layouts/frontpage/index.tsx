@@ -11,7 +11,7 @@ import {
   Pricing,
   Developers,
   Join
-} from '../../components/pages/frontpage'
+} from '../../components/frontpage'
 import SEO from '../../components/Seo'
 
 interface FrontpageProps {
@@ -29,7 +29,7 @@ interface FrontpageData {
   appsHover: Image<ImageSharpFixed>
   apiImage: Image<ImageSharpFixed>
   documentationImage: Image<ImageSharpFixed>
-  teamPictures: Array<Image<ImageSharpFixed>>
+  allPictureFiles: Array<Image<ImageSharpFixed>>
 }
 
 export const graphqlQuery = graphql`
@@ -77,7 +77,7 @@ export const graphqlQuery = graphql`
         }
       }
     }
-    teamPictures: allFile(
+    allPictureFiles: allFile(
       filter: {
         absolutePath: { glob: "**/content/base/images/frontpage/team/*" }
         extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
@@ -105,7 +105,7 @@ const Frontpage = ({ data, pageContext }: FrontpageProps): JSX.Element => {
     appsHover,
     apiImage,
     documentationImage,
-    teamPictures
+    allPictureFiles
   } = data
   const { meta, hero, content } = file.childYaml.parsedContent
 
@@ -127,7 +127,7 @@ const Frontpage = ({ data, pageContext }: FrontpageProps): JSX.Element => {
 
       <Pricing {...content.pricing} />
 
-      <Developers {...content.developers} teamPictures={teamPictures} />
+      <Developers {...content.developers} allPictureFiles={allPictureFiles} />
 
       {/*<MissionAndScalability {...content.mission_and_scalability} />*/}
 

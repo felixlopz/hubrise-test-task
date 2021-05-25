@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql, navigate } from 'gatsby'
 
 import { getLocalizedUrl } from '../../components/utils/link'
@@ -7,7 +7,7 @@ import { MDXNode } from '../../data/mdx'
 import SEO from '../../components/Seo'
 import MDXProvider from '../../components/MdxProvider'
 import { Post, Sidebar } from '../../components/blog'
-import Breadcrumbs from '../../components/documentation/breadcrumbs'
+import { Breadcrumbs } from '../../components/documentation'
 
 export interface BlogPostProps {
   data: BlogPostData

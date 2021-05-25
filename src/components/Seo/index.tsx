@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import AppleTouchIcon from '../../images/favicons/apple-touch-icon.png'

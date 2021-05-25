@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useTranslation } from 'react-i18next'
 import { graphql } from 'gatsby'
@@ -78,7 +78,7 @@ export const graphqlQuery = graphql`
       }
     ) {
       nodes {
-        ...Image
+        ...ImageFragmentSharpFluid
       }
     }
   }

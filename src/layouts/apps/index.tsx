@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { graphql } from 'gatsby'
 
 import { IApps } from '../../data/apps'
@@ -6,7 +6,7 @@ import { AppsContext } from '../../data/context'
 import { Image, ImageSharpFluid } from '../../data/image'
 import { generateKey } from '../../components/utils'
 import SEO from '../../components/Seo'
-import { App, Developer, Hero, Nav } from '../../components/pages/apps'
+import { App, Developer, Hero, Nav } from '../../components/apps'
 
 interface AppsProps {
   data: AppsData
@@ -38,7 +38,7 @@ export const graphqlQuery = graphql`
       }
     ) {
       nodes {
-        ...Image
+        ...ImageFragmentSharpFluid
       }
     }
   }

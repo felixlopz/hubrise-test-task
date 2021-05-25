@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 
 import { getLocaleCodeFromAbsolutePath } from '../../utils/locales'
 import { BaseContext } from '../../data/context'
