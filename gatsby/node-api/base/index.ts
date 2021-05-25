@@ -1,36 +1,22 @@
-// @ts-nocheck
 import { CreatePagesArgs } from 'gatsby'
 
-import { localeCodes, defaultLocaleCode } from '../../../src/utils/locales'
+import {
+  localeCodes,
+  defaultLocaleCode,
+  LocaleCode
+} from '../../../src/utils/locales'
 import { getLayoutPath } from '../util/layout'
 import { pathWithLocale } from '../../../src/utils/urls'
-import { BaseContext } from '../../../src/data/base'
+import { BaseContext } from '../../../src/data/context'
+import { getBaseFiles } from './graphql'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions
 
-  const { data, errors } = await graphql(`
-    query {
-      allFile(
-        filter: {
-          base: { in: ["apps.yaml", "frontpage.yaml", "pricing.yaml"] }
-        }
-      ) {
-        nodes {
-          absolutePath
-          base
-          id
-          childYaml {
-            parsedContent
-          }
-        }
-      }
-    }
-  `)
-  if (errors) throw errors
+  const baseFiles = await getBaseFiles(graphql)
 
-  data.allFile.nodes.forEach((node) => {
-    const page = node.base.split('.').slice(0, -1).join('.')
+  baseFiles.forEach((node) => {
+    const layoutName = node.base.split('.').slice(0, -1).join('.')
 
     const pathItems = node.absolutePath.split('/')
     const pathSub = pathItems[pathItems.length - 2]
@@ -39,14 +25,13 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
       defaultLocaleCode
     const path = pathWithLocale(localeCode, node.childYaml.parsedContent.path)
 
-    let context: BaseContext = {
-      id: node.id,
-      lang: localeCode
-    }
-    createPage({
+    createPage<BaseContext>({
       path,
-      component: getLayoutPath(page),
-      context
+      component: getLayoutPath(layoutName),
+      context: {
+        id: node.id,
+        lang: localeCode
+      }
     })
   })
 }

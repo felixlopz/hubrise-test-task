@@ -1,17 +1,20 @@
+import path from 'path'
+
 import {
   defaultLocaleCode,
   LocaleCode,
   localeCodes
 } from '../../../src/utils/locales'
-import path from 'path'
 import { pathWithLocale } from '../../../src/utils/urls'
 import { getLayoutPath } from '../util/layout'
 import { Folder, normalizePath } from './folder'
 import { getFolderBreadcrumbs } from './breadcrumbs'
 import { CreatePageFunction } from '../util/types'
+import { MDXNode } from '../../../src/data/mdx'
+import { DocumentationContext } from '../../../src/data/context'
 
-export function createPageFromMdxNode(
-  node,
+export function createDocumentationPage(
+  node: MDXNode,
   folder: Folder,
   localeCode: LocaleCode,
   createPage: CreatePageFunction
@@ -34,7 +37,7 @@ export function createPageFromMdxNode(
   const slug =
     fields.localeSlugMap[localeCode] || fields.localeSlugMap[defaultLocaleCode]
 
-  createPage({
+  createPage<DocumentationContext>({
     /** Any valid URL. Must start with a forward slash */
     path: pathWithLocale(localeCode, slug),
     component: getLayoutPath(layout),
@@ -63,7 +66,7 @@ export function createPageFromMdxNode(
       const contentFileNames =
         folder.localeMap[otherLocaleCode]?.contentFileNames || []
       if (!contentFileNames.includes(fileName)) {
-        createPageFromMdxNode(node, folder, otherLocaleCode, createPage)
+        createDocumentationPage(node, folder, otherLocaleCode, createPage)
       }
     }
   }

@@ -14,43 +14,14 @@ import { generateKey } from '../utils'
 
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import { Image, ImageSharpFluid } from '../../data/image'
 
-const NextArrow = ({ onClick, currentImageNumber, totalNumberOfImages }) => {
-  return (
-    <button
-      style={{
-        visibility:
-          currentImageNumber < totalNumberOfImages ? `unset` : `hidden`
-      }}
-      className="image-slider__arrow_next"
-      onClick={(e) => {
-        e.stopPropagation()
-        onClick()
-      }}
-    >
-      <FontAwesomeIcon icon={faArrowRight} />
-    </button>
-  )
+interface GalleryProps {
+  images: Array<Image<ImageSharpFluid>>
+  title: string
 }
 
-const PrevArrow = ({ onClick, currentImageNumber }) => {
-  return (
-    <button
-      style={{
-        visibility: currentImageNumber !== 1 ? `unset` : `hidden`
-      }}
-      className="image-slider__arrow_previous"
-      onClick={(e) => {
-        e.stopPropagation()
-        onClick()
-      }}
-    >
-      <FontAwesomeIcon icon={faArrowLeft} />
-    </button>
-  )
-}
-
-export const Gallery = ({ images, title }) => {
+const Gallery = ({ images, title }: GalleryProps): JSX.Element => {
   const slider = useRef<Slider>(null)
   const [isSliderVisible, setIsSliderVisible] = useState(false)
   const [currentImageNumber, setCurrentImageNumber] = useState(1)
@@ -165,5 +136,42 @@ export const Gallery = ({ images, title }) => {
         ))}
       </section>
     </div>
+  )
+}
+
+export default Gallery
+
+const NextArrow = ({ onClick, currentImageNumber, totalNumberOfImages }) => {
+  return (
+    <button
+      style={{
+        visibility:
+          currentImageNumber < totalNumberOfImages ? `unset` : `hidden`
+      }}
+      className="image-slider__arrow_next"
+      onClick={(e) => {
+        e.stopPropagation()
+        onClick()
+      }}
+    >
+      <FontAwesomeIcon icon={faArrowRight} />
+    </button>
+  )
+}
+
+const PrevArrow = ({ onClick, currentImageNumber }) => {
+  return (
+    <button
+      style={{
+        visibility: currentImageNumber !== 1 ? `unset` : `hidden`
+      }}
+      className="image-slider__arrow_previous"
+      onClick={(e) => {
+        e.stopPropagation()
+        onClick()
+      }}
+    >
+      <FontAwesomeIcon icon={faArrowLeft} />
+    </button>
   )
 }

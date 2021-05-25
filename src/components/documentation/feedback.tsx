@@ -5,16 +5,14 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 import Link from '../link'
 
-export type FeedbackOption = {
-  title: string
-  url: string
+export interface FeedbackProps {
+  options: Array<{
+    title: string
+    url: string
+  }>
 }
 
-interface FeedbackProps {
-  options: Array<FeedbackOption>
-}
-
-export const Feedback = ({ options }: FeedbackProps): JSX.Element => {
+const Feedback = ({ options }: FeedbackProps): JSX.Element => {
   const [isExpanded, setIsExpanded] = useState(false)
   const { t } = useTranslation()
 
@@ -60,3 +58,5 @@ export const Feedback = ({ options }: FeedbackProps): JSX.Element => {
     </section>
   )
 }
+
+export default Feedback

@@ -1,8 +1,4 @@
-type ArchiveInfo = {
-  year: number
-  month: number
-  isCurrentYear: boolean
-}
+import { ArchiveInfo } from '../data/blog'
 
 function getArchiveInfoFromArticleDate(articleDate: Date): ArchiveInfo {
   return {

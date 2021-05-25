@@ -1,16 +1,12 @@
 import { Folder } from './folder'
 import { defaultLocaleCode, LocaleCode } from '../../../src/utils/locales'
-
-export interface Breadcrumb {
-  value: string
-  label?: string
-}
+import { IBreadcrumb } from '../../../src/data/documentation'
 
 export function getFolderBreadcrumbs(
   folder: Folder,
   localeCode: LocaleCode
-): Array<Breadcrumb> {
-  const breadcrumbs: Array<Breadcrumb> = []
+): Array<IBreadcrumb> {
+  const breadcrumbs: Array<IBreadcrumb> = []
 
   let currentFolder: Folder | undefined = folder
 
@@ -21,11 +17,10 @@ export function getFolderBreadcrumbs(
     const customization = folderFiles?.customization
 
     if (customization?.path_override) {
-      const breadcrumb: Breadcrumb = {
-        value: customization.path_override,
-        label: customization.name
-      }
-      breadcrumbs.unshift(breadcrumb)
+      breadcrumbs.unshift({
+        label: customization.name || '',
+        path: customization.path_override
+      })
     }
 
     currentFolder = currentFolder.parent

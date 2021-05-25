@@ -1,28 +1,10 @@
-import { Image, ImageSharpFluid } from './image'
 import { IMeta } from './base'
-
-export interface AppsContext {
-  id: string
-  lang: string
-  category?: string
-}
 
 export interface AppsCreatePageGQL {
   absolutePath: string
   id: string
   childYaml: {
     parsedContent: IApps
-  }
-}
-
-export interface AppsQueryGQL {
-  file: {
-    childYaml: {
-      parsedContent: IApps
-    }
-  }
-  logos: {
-    nodes: Array<Image<ImageSharpFluid>>
   }
 }
 

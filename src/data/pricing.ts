@@ -1,16 +1,4 @@
-import { Image, ImageSharpFluid } from './image'
 import { IMeta } from './base'
-
-export interface PricingQueryGQL {
-  file: {
-    childYaml: {
-      parsedContent: IPricing
-    }
-  }
-  logos: {
-    nodes: Array<Image<ImageSharpFluid>>
-  }
-}
 
 export interface IPricing {
   path: string

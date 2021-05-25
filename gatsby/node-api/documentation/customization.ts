@@ -5,8 +5,9 @@ import * as yaml from 'js-yaml'
 export const CUSTOMIZATION_FILE_NAME = 'customization.yaml'
 
 export interface Customization {
-  path_override?: string
   name?: string
+  path_override?: string
+  logo?: string
 }
 
 export async function getCustomizationFromFolder(

@@ -1,4 +1,3 @@
-// @ts-nocheck
 import * as path from 'path'
 import * as Gatsby from 'gatsby'
 
@@ -14,14 +13,19 @@ import {
   normalizePath,
   parseFolderRecursively
 } from './folder'
-import { createPageFromMdxNode } from './page'
+import { createDocumentationPage } from './page'
 import { getFolderBreadcrumbs } from './breadcrumbs'
+import { MDXNode } from '../../../src/data/mdx'
+import { getAllMDXNodes } from './graphql'
 
 interface LocaleSlugMap {
-  [K in LocaleCode]?: string
+  en?: string
+  fr?: string
+  // Replace with the following once https://github.com/microsoft/TypeScript/pull/26797 is merged:
+  // [K: LocaleCode]: string
 }
 
-function getLocaleSlugMap(mdxNode: Gatsby.Node, folder: Folder): LocaleSlugMap {
+function getLocaleSlugMap(mdxNode: MDXNode, folder: Folder): LocaleSlugMap {
   const { fileAbsolutePath, frontmatter } = mdxNode
 
   const localeSlugMap: LocaleSlugMap = {}
@@ -29,20 +33,22 @@ function getLocaleSlugMap(mdxNode: Gatsby.Node, folder: Folder): LocaleSlugMap {
   localeCodes.forEach((localeCode) => {
     const localeFolderFiles =
       folder.localeMap[localeCode] || folder.localeMap[defaultLocaleCode]
+    if (!localeFolderFiles)
+      throw `Cannot find FolderFiles for folder ${folder.path}`
+
     let fileName = path.basename(
       fileAbsolutePath,
       path.extname(fileAbsolutePath)
     )
-    const config = localeFolderFiles.customization
     const breadcrumbs = getFolderBreadcrumbs(folder, localeCode)
 
-    if (config.path_override === 'blog') {
+    if (localeFolderFiles.customization.path_override === 'blog') {
       /** "20200129-article-title" -> "article-title" */
       fileName = fileName.slice(9)
     }
 
     let slug = [
-      ...breadcrumbs.map((breadcrumb) => breadcrumb.value),
+      ...breadcrumbs.map((breadcrumb) => breadcrumb.path),
       frontmatter?.path_override || fileName
     ]
       .filter((part) => part !== '/')
@@ -60,7 +66,7 @@ function getLocaleSlugMap(mdxNode: Gatsby.Node, folder: Folder): LocaleSlugMap {
 interface MdxDirectory {
   path: string
   locale: any
-  node: Folder
+  folder: Folder
 }
 
 function getMdxDirectories(rootFolder: Folder): Array<MdxDirectory> {
@@ -72,7 +78,7 @@ function getMdxDirectories(rootFolder: Folder): Array<MdxDirectory> {
     if (localeEntry && localeEntry.contentFileNames.length > 0) {
       const directoryPath = path.join(folder.path, localeCode)
       const locale = locales.find((theLocale) => theLocale.code === localeCode)
-      mdxDirectories.push({ path: directoryPath, locale, node: folder })
+      mdxDirectories.push({ path: directoryPath, locale, folder: folder })
     }
 
     folder.children.forEach((childNode) =>
@@ -91,35 +97,7 @@ export const createPages = async ({
   graphql,
   actions
 }: Gatsby.CreatePagesArgs) => {
-  const { data, errors } = await graphql(`
-    query {
-      allMdx {
-        nodes {
-          id
-          fileAbsolutePath
-          fields {
-            slug
-            localeSlugMap {
-              en
-              fr
-            }
-          }
-          frontmatter {
-            layout
-            gallery
-            path_override
-            meta {
-              description
-              title
-            }
-          }
-        }
-      }
-    }
-  `)
-
-  if (errors) throw errors
-
+  const allMDXNodes = await getAllMDXNodes(graphql)
   const rootFolder = await parseFolderRecursively(process.cwd(), 'content')
   const mdxDirectories = getMdxDirectories(rootFolder)
 
@@ -127,12 +105,12 @@ export const createPages = async ({
     mdxDirectories.map((mdxDirectory) => {
       const regex = new RegExp(`${normalizePath(mdxDirectory.path)}/*`)
 
-      data.allMdx.nodes
-        .filter((node) => node.fileAbsolutePath.match(regex))
-        .forEach((node) =>
-          createPageFromMdxNode(
-            node,
-            mdxDirectory.node,
+      allMDXNodes
+        .filter((mdxNode) => mdxNode.fileAbsolutePath.match(regex))
+        .forEach((mdxNode) =>
+          createDocumentationPage(
+            mdxNode,
+            mdxDirectory.folder,
             mdxDirectory.locale.code,
             actions.createPage
           )
@@ -147,13 +125,16 @@ export const onCreateNode = (function () {
   async function onCreateNode({ node, actions }: Gatsby.CreateNodeArgs) {
     if (node.internal.type === `Mdx`) {
       const { createNodeField } = actions
-      const { fileAbsolutePath } = node
+      const mdxNode = (node as any) as MDXNode
+
+      const { fileAbsolutePath } = mdxNode
 
       const rootFolder = await rootFolderPromise
       const folder = folderByFilePath(rootFolder, fileAbsolutePath)
+      if (!folder) throw `Cannot generate Folder for file ${fileAbsolutePath}`
 
       const localeCode = getLocaleCodeFromPath(fileAbsolutePath)
-      const localeSlugMap = getLocaleSlugMap(node, folder)
+      const localeSlugMap = getLocaleSlugMap(mdxNode, folder)
 
       createNodeField({
         node,

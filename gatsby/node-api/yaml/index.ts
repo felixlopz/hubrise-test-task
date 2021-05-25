@@ -1,4 +1,3 @@
-// @ts-nocheck
 import * as yaml from 'js-yaml'
 import { CreateNodeArgs, CreateResolversArgs } from 'gatsby'
 
@@ -9,7 +8,10 @@ export async function onCreateNode({
   createNodeId,
   createContentDigest
 }: CreateNodeArgs) {
-  if (node.internal.type === 'File' && (node.base as string).endsWith(`.yaml`)) {
+  if (
+    node.internal.type === 'File' &&
+    (node.base as string).endsWith(`.yaml`)
+  ) {
     const content = await loadNodeContent(node)
     const id = createNodeId(`${node.id} >>> Yaml`)
 
@@ -26,11 +28,14 @@ export async function onCreateNode({
 
     const { createNode, createParentChildLink } = actions
     createNode(yamlNode)
+    // @ts-ignore - child node has a too restrictive type. See https://github.com/gatsbyjs/gatsby/issues/19993
     createParentChildLink({ parent: node, child: yamlNode })
   }
 }
 
-export async function createResolvers({ createResolvers }: CreateResolversArgs) {
+export async function createResolvers({
+  createResolvers
+}: CreateResolversArgs) {
   createResolvers({
     Yaml: {
       parsedContent: {

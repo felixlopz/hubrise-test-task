@@ -23,6 +23,14 @@ export interface ImageSharpFluid {
   sizes: string
 }
 
+export interface ImageSharpFixed {
+  base64: string
+  width: number
+  height: number
+  src: string
+  srcSet: string
+}
+
 export interface Image<T> {
   name: string
   base: string

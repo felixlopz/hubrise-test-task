@@ -1,5 +1,5 @@
 import './src/styles/global.scss'
-import { browserAPI } from './gatsby/browser-api'
+import { ssrAPI } from './gatsby/ssr-api'
 
-export const wrapRootElement = browserAPI.wrapRootElement
-export const wrapPageElement = browserAPI.wrapPageElement
+export const wrapRootElement = ssrAPI.wrapRootElement
+export const wrapPageElement = ssrAPI.wrapPageElement
