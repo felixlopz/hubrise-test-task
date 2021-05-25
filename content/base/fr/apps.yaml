@@ -299,7 +299,7 @@ content:
           description: Captain est une solution de traitement des commandes et de tracking des livreurs.
           additional_info: Documentation en anglais. Intégration en cours.
         - website: https://coursicab.com
-          documentation:
+          documentation: /apps/coursicab
           logo: coursicab.png
           title: Coursicab
           description: Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, vos clients peuvent suivre leurs colis en temps réel. Présent dans 6 pays européens, disponible 24h/7.

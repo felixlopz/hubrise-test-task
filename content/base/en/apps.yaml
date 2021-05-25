@@ -293,7 +293,7 @@ content:
           description: Captain delivery management suite of solutions has been designed to support restaurant delivery through order management and live customer order tracking.
           additional_info: Integration in progress.
         - website: https://coursicab.com/en
-          documentation:
+          documentation: /apps/coursicab
           logo: coursicab.png
           title: Coursicab
           description: Coursicab is a delivery platform used for express and scheduled deliveries, by taxi or bike. Thanks to geolocation, your customers can track their packages real-time. Present in 6 European countries, available 24/7.
