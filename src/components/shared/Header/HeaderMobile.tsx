@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import classNames from 'classnames'
 
-import Link from '../link'
-import { generateKey } from '../utils'
-import button from '../../images/bread_button.png'
-import logo from '../../images/logo.png'
-import { IHeaderLink } from '../../data/header'
+import Link from '../../link'
+import { generateKey } from '../../utils'
+import button from '../../../images/bread_button.png'
+import logo from '../../../images/logo.png'
+import { IHeaderLink } from '../../../data/header'
 
 interface HeaderMobileProps {
   path: string

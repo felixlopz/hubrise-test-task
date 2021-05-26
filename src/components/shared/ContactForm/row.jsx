@@ -2,7 +2,7 @@ import * as React from 'react'
 import PropTypes from 'prop-types'
 
 import Field from './field'
-import { generateKey } from '../utils'
+import { generateKey } from '../../utils'
 
 const Row = ({ fields, formikProps }) => {
   const isSingleField = fields.length === 1

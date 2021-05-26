@@ -5,7 +5,7 @@ import { MDXNode } from '../../data/mdx'
 import { BaseContext } from '../../data/context'
 import { Hero, Thumb } from '../../components/developers'
 import { generateKey } from '../../components/utils'
-import SEO from '../../components/Seo'
+import SEO from '../../components/shared/Seo'
 
 interface DevelopersProps {
   data: DevelopersData

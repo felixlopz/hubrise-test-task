@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { IFooter } from '../../data/footer'
+import { IFooter } from '../../../data/footer'
 
 export interface FooterData {
   allFile: {

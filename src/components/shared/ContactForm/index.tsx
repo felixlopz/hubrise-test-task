@@ -4,8 +4,8 @@ import { Formik } from 'formik'
 import * as yup from 'yup'
 
 import Form from './form'
-import { useToast } from '../toast'
-import { useLayoutContext } from '../../context/layout'
+import { useToast } from '../../toast'
+import { useLayoutContext } from '../../../context/layout'
 
 interface ContactFormProps {
   recaptchaSiteKey?: string

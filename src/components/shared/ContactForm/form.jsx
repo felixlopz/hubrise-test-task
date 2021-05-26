@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Form } from 'formik'
 
 import Row from './row'
-import { generateKey } from '../utils'
+import { generateKey } from '../../utils'
 
 function defineContent({ formId, sections }, t) {
   return sections.map((section) => {

@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-import { IFooter } from '../../data/footer'
-import { generateKey } from '../utils'
-import Link from '../link'
+import { IFooter } from '../../../data/footer'
+import { generateKey } from '../../utils'
+import Link from '../../link'
 
 const FooterSection = ({
   title,

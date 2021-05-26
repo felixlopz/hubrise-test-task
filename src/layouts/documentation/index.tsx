@@ -14,8 +14,8 @@ import {
   Breadcrumbs,
   Feedback
 } from '../../components/documentation'
-import SEO from '../../components/Seo'
-import MDXProvider from '../../components/MdxProvider'
+import SEO from '../../components/shared/Seo'
+import MDXProvider from '../../components/shared/MdxProvider'
 
 interface DocumentationProps {
   data: DocumentationData

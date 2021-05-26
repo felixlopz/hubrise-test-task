@@ -5,7 +5,7 @@ import { IApps } from '../../data/apps'
 import { AppsContext } from '../../data/context'
 import { Image, ImageSharpFluid } from '../../data/image'
 import { generateKey } from '../../components/utils'
-import SEO from '../../components/Seo'
+import SEO from '../../components/shared/Seo'
 import { App, Developer, Hero, Nav } from '../../components/apps'
 
 interface AppsProps {

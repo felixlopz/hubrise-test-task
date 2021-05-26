@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { IHeaderLink } from '../../data/header'
+import { IHeaderLink } from '../../../data/header'
 
 export interface HeaderData {
   allFile: {

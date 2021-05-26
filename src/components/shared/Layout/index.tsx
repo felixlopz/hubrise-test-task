@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import Header from '../Header'
 import Footer from '../Footer'
-import { BaseContext } from '../../data/context'
+import { BaseContext } from '../../../data/context'
 
 export interface LayoutProps {
   children: React.ReactNode

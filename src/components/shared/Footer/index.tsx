@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { getLocaleCodeFromAbsolutePath } from '../../utils/locales'
-import { BaseContext } from '../../data/context'
+import { getLocaleCodeFromAbsolutePath } from '../../../utils/locales'
+import { BaseContext } from '../../../data/context'
 import Copyright from './Copyright'
 import ScrollUpButton from './ScrollUpButton'
 import FooterSection from './FooterSection'

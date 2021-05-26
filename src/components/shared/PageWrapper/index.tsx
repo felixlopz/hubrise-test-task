@@ -6,10 +6,10 @@ import { Helmet } from 'react-helmet'
 import Modal from '../Modal'
 import Layout from '../Layout'
 import ContactForm from '../ContactForm'
-import { useLayoutContext } from '../../context/layout'
-import ToastProvider from '../toast'
+import { useLayoutContext } from '../../../context/layout'
+import ToastProvider from '../../toast'
 import { usePageWrapperData } from './graphql'
-import { BaseContext } from '../../data/context'
+import { BaseContext } from '../../../data/context'
 
 interface PageWrapperProps {
   children: React.ReactNode
