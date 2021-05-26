@@ -24,11 +24,11 @@ const Toast = ({ toast, onClose }: ToastProps): JSX.Element => {
   }, [toast.id, onClose])
 
   React.useEffect(() => {
-    if (toast.isHideDisabled) return
+    if (!toast.timeout) return
 
     const timeoutId = setTimeout(hideToast, toast.timeout)
     return () => clearTimeout(timeoutId)
-  }, [hideToast, toast.isHideDisabled, toast.timeout])
+  }, [hideToast, toast.timeout])
 
   return (
     <div className={cx('toast__inner', toast.variant)} ref={toastRef}>

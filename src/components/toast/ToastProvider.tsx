@@ -1,17 +1,17 @@
 import * as React from 'react'
 
 import { IToast } from '../../data/toast'
-import { ToastContext, ToastSetter } from './context'
+import { ToastContext, ToastAdder } from './context'
 import Toast from './Toast'
 
 const ToastProvider: React.FC = ({ children }) => {
   const [toasts, setToasts] = React.useState<Array<IToast>>([])
 
-  const addToast: ToastSetter = React.useCallback(
-    (partialToas) =>
+  const addToast: ToastAdder = React.useCallback(
+    (partialToast) =>
       setToasts((prevToasts) => [
         ...prevToasts,
-        { ...partialToas, id: Date.now() }
+        { id: Date.now(), ...partialToast }
       ]),
     []
   )

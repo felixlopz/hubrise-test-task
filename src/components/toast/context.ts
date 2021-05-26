@@ -1,18 +1,18 @@
 import React, { useContext } from 'react'
 import { IToast } from '../../data/toast'
 
-export type ToastSetter = (
+export type ToastAdder = (
   toast: Pick<
     IToast,
-    'variant' | 'title' | 'text' | 'isHideDisabled' | 'timeout'
+    'variant' | 'title' | 'text' | 'timeout'
   >
 ) => void
 
-export const ToastContext = React.createContext<ToastSetter | undefined>(
+export const ToastContext = React.createContext<ToastAdder | undefined>(
   undefined
 )
 
-export function useToast(): ToastSetter {
+export function useToast(): ToastAdder {
   const toastContext = useContext(ToastContext)
 
   if (!toastContext)

@@ -3,6 +3,5 @@ export interface IToast {
   variant: 'success' | 'error'
   title: string
   text: string
-  isHideDisabled?: boolean
   timeout?: number
 }

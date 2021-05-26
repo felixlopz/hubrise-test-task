@@ -5,7 +5,7 @@ import { Formik } from 'formik'
 import Form from './Form'
 import { useToast } from '../../toast'
 import { useLayoutContext } from '../../../context/layout'
-import { createContactSchema, encodeFormData, FormikStructure } from "./helpers"
+import { createContactSchema, encodeFormData, FormikStructure } from './helpers'
 
 interface ContactFormProps {
   recaptchaSiteKey?: string
@@ -17,7 +17,7 @@ const ContactForm = ({
   contactMessageUrl
 }: ContactFormProps): JSX.Element => {
   const { forms } = useLayoutContext()
-  const toast = useToast()
+  const addToast = useToast()
   const { t } = useTranslation()
 
   function onSubmit(values, { setSubmitting }) {
@@ -40,7 +40,7 @@ const ContactForm = ({
         })
           .then((response) => {
             if (response.ok) {
-              toast({
+              addToast({
                 variant: 'success',
                 title: t('misc.success'),
                 text: t('misc.messages.email_send_success')
@@ -52,7 +52,7 @@ const ContactForm = ({
             }
           })
           .catch((error) => {
-            toast({
+            addToast({
               variant: 'error',
               title: t('misc.failure'),
               text: t('misc.messages.email_send_failure')
@@ -92,4 +92,3 @@ const ContactForm = ({
 }
 
 export default ContactForm
-
