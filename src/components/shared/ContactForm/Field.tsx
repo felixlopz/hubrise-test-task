@@ -1,8 +1,19 @@
 import * as React from 'react'
-import PropTypes from 'prop-types'
-import { Field, ErrorMessage } from 'formik'
+import { Field as FormikField, ErrorMessage } from 'formik'
 
-const CompleteField = ({ fieldProps, formikProps }) => {
+interface FieldProps {
+  fieldProps: IField
+  formikProps: any
+}
+
+export interface IField {
+  id: string
+  name: string
+  type?: string
+  component: string
+}
+
+const Field = ({ fieldProps, formikProps }: FieldProps): JSX.Element => {
   const { name, component } = fieldProps
   const { touched, errors, submitCount } = formikProps
 
@@ -17,7 +28,7 @@ const CompleteField = ({ fieldProps, formikProps }) => {
       }`}
     >
       <label htmlFor={name} />
-      <Field
+      <FormikField
         className={`form__${component}`}
         aria-invalid={touched[name] && submitCount > 0 ? !!errors[name] : null}
         {...fieldProps}
@@ -34,14 +45,4 @@ const CompleteField = ({ fieldProps, formikProps }) => {
   )
 }
 
-CompleteField.propTypes = {
-  fieldProps: PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    type: PropTypes.string,
-    component: PropTypes.string.isRequired
-  }).isRequired,
-  formikProps: PropTypes.object.isRequired
-}
-
-export default CompleteField
+export default Field

@@ -3,7 +3,7 @@ import cx from 'classnames'
 import { useMedia } from 'react-use'
 import { useTranslation } from 'react-i18next'
 
-import { NonStretchedImage } from '../non_stretched_image'
+import NonStretchedImage from '../shared/NonStretchedImage'
 import Link from '../link'
 import { generateKey } from '../utils'
 import { Image, ImageSharpFluid } from '../../data/image'

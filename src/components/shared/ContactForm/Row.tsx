@@ -1,11 +1,16 @@
 import * as React from 'react'
-import PropTypes from 'prop-types'
 
-import Field from './field'
+import Field, { IField } from './Field'
 import { generateKey } from '../../utils'
 
-const Row = ({ fields, formikProps }) => {
+interface RowProps {
+  fields: Array<IField>
+  formikProps: any
+}
+
+const Row = ({ fields, formikProps }: RowProps): JSX.Element => {
   const isSingleField = fields.length === 1
+
   return (
     <div className={`form__block${isSingleField ? '' : '-row'}`}>
       {fields.map((fieldProps, idx) => {
@@ -20,18 +25,6 @@ const Row = ({ fields, formikProps }) => {
       })}
     </div>
   )
-}
-
-Row.propTypes = {
-  fields: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      type: PropTypes.string,
-      component: PropTypes.string.isRequired
-    })
-  ).isRequired,
-  formikProps: PropTypes.object.isRequired
 }
 
 export default Row

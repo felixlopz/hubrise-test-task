@@ -6,7 +6,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
-import { NonStretchedImage } from '../non_stretched_image'
+import NonStretchedImage from '../shared/NonStretchedImage'
 import { generateKey } from '../utils'
 import { Image, ImageSharpFluid } from '../../data/image'
 import NextArrow from './Gallery/NextArrow'

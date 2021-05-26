@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Formik } from 'formik'
-import * as yup from 'yup'
 
-import Form from './form'
+import Form from './Form'
 import { useToast } from '../../toast'
 import { useLayoutContext } from '../../../context/layout'
+import { createContactSchema, encodeFormData, FormikStructure } from "./helpers"
 
 interface ContactFormProps {
   recaptchaSiteKey?: string
@@ -82,7 +82,7 @@ const ContactForm = ({
             id: `contact-us__form`,
             classNames: [`form form_modal`]
           }}
-          structure={formikStructure}
+          structure={FormikStructure}
           t={t}
           formikProps={formikProps}
         />
@@ -93,67 +93,3 @@ const ContactForm = ({
 
 export default ContactForm
 
-const createContactSchema = (t) => {
-  const nameMinLength = 2
-  const messageMinLength = 10
-
-  return yup.object().shape({
-    name: yup
-      .string()
-      .min(nameMinLength, t(`forms.validation.min`, { length: nameMinLength })),
-    email: yup
-      .string()
-      .email(t(`forms.validation.email`))
-      .required(t(`forms.validation.email_required`)),
-    message: yup
-      .string()
-      .min(
-        messageMinLength,
-        t(`forms.validation.message_min`, { length: messageMinLength })
-      )
-      .required(t(`forms.validation.message_required`))
-  })
-}
-
-const encodeFormData = (params) => {
-  return Object.keys(params)
-    .map((key) => {
-      return encodeURIComponent(key) + '=' + encodeURIComponent(params[key])
-    })
-    .join('&')
-}
-
-const formikStructure = {
-  formId: `contact`,
-  sections: [
-    {
-      rows: [
-        {
-          fields: [
-            {
-              id: `name`,
-              name: `name`,
-              type: `text`,
-              component: `input`
-            },
-            {
-              id: `email`,
-              name: `email`,
-              type: `email`,
-              component: `input`
-            }
-          ]
-        },
-        {
-          fields: [
-            {
-              id: `message`,
-              name: `message`,
-              component: `textarea`
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
