@@ -25,11 +25,18 @@ REMARQUE IMPORTANTE : Une documentation complète de cette intégration est en c
 
 ## Description
 
-Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, vos clients peuvent suivre leurs colis en temps réel. Présent dans 6 pays européens, disponible 24h/7.
+Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, les clients peuvent suivre leurs colis en temps réel.
+
+Coursicab est présent dans 6 pays européens : France, Espagne, Belgique, Pays-Bas, Luxembourg, et Suisse. Les livraisons sont possibles 24h/24 et 7j/7.
+
+La couverture nationale de Coursicab est de 100%. Si Coursicab n'est pas disponible dans une ville et qu'une demande de livraison y est faite, la livraison sera possible en 48h maximum.
 
 ## Fonctionnalités de l'intégration
 
-Connecter CoursiCab à HubRise permet à CoursiCab de recevoir les commandes de HubRise, dont les statuts de commande.
+Connecter CoursiCab à HubRise permet à CoursiCab de :
+
+- Recevoir les commandes de HubRise.
+- Recevoir les informations clients de HubRise.
 
 ## Pourquoi se connecter ?
 
