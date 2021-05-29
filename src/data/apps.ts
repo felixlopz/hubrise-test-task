@@ -1,13 +1,5 @@
 import { IMeta } from './base'
 
-export interface AppsCreatePageGQL {
-  absolutePath: string
-  id: string
-  childYaml: {
-    parsedContent: IApps
-  }
-}
-
 export interface IApp {
   website: string
   documentation: string
@@ -18,6 +10,8 @@ export interface IApp {
 }
 
 export interface ICategory {
+  /** Path to the page on the site, eg "/fr/apps/gestion-de-livreurs". This field is generated. */
+  path: string
   title: string
   has_suggest_app: boolean
   apps: Array<IApp>
@@ -52,6 +46,7 @@ export interface IDevelopers {
 }
 
 export interface IApps {
+  /** Path to the main apps page on the site, eg "/apps" or "/fr/apps". This field is generated. */
   path: string
   meta: IMeta
   content: {

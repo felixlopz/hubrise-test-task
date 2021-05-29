@@ -20,7 +20,7 @@ export async function getBaseFiles(
     query {
       allFile(
         filter: {
-          base: { in: ["apps.yaml", "frontpage.yaml", "pricing.yaml"] }
+          base: { in: ["frontpage.yaml", "pricing.yaml"] }
         }
       ) {
         nodes {

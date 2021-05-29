@@ -4,6 +4,7 @@ import { MDXDocumentationNode } from './mdx'
 import { ImageSharpMap } from '../../gatsby/node-api/documentation/image'
 import { IBreadcrumb } from './documentation'
 import { FolderPage } from '../../gatsby/node-api/documentation/page'
+import { IApps } from './apps'
 
 export interface RootContext {
   localeCode: LocaleCode
@@ -14,8 +15,8 @@ export interface BaseContext extends RootContext {
 }
 
 export interface AppsContext extends RootContext {
-  id: string // TODO: remove?
-  category?: string
+  apps: IApps
+  categoryTitle?: string
 }
 
 export interface BlogListContext extends RootContext {

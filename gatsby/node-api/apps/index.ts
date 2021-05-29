@@ -1,47 +1,30 @@
 import { CreatePagesArgs } from 'gatsby'
 
-import {
-  localeCodes,
-  defaultLocaleCode,
-  LocaleCode
-} from '../../../src/utils/locales'
 import { getLayoutPath } from '../util/layout'
-import { pathWithLocale } from '../../../src/utils/urls'
-import { getApps } from './helpers'
 import { AppsContext } from '../../../src/data/context'
-import { AppsCreatePageGQL } from '../../../src/data/apps'
+import { getAppsMap, IAppsMap } from './helpers'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
-  const appsList: Array<AppsCreatePageGQL> = await getApps(graphql)
+  const appsMap: IAppsMap = await getAppsMap(graphql)
 
-  appsList.forEach((apps) => {
-    const pathItems = apps.absolutePath.split('/')
-    const pathSub = pathItems[pathItems.length - 2]
-    const localeCode: LocaleCode =
-      localeCodes.find((localeCode) => localeCode === pathSub) ||
-      defaultLocaleCode
-
-    const { path: relativePath, content } = apps.childYaml.parsedContent
-    const path = pathWithLocale(localeCode, relativePath)
-
+  appsMap.forEach((apps, localeCode) => {
     actions.createPage<AppsContext>({
-      path,
+      path: apps.path,
       component: getLayoutPath('apps'),
       context: {
-        id: apps.id,
-        localeCode
+        localeCode,
+        apps
       }
     })
 
-    for (let category of content.categories) {
-      const slug = category.title.replace(/ +/g, '-').toLowerCase()
+    for (let category of apps.content.categories) {
       actions.createPage<AppsContext>({
-        path: path + `/${slug}`,
+        path: category.path,
         component: getLayoutPath('apps'),
         context: {
-          id: apps.id,
           localeCode,
-          category: category.title
+          apps,
+          categoryTitle: category.title
         }
       })
     }

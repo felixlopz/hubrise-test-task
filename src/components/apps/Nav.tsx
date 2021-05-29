@@ -3,16 +3,19 @@ import { useScrollRestoration } from 'gatsby'
 import classNames from 'classnames'
 
 import Link from '../link'
+import { ICategory } from '../../data/apps'
 
 interface NavProps {
-  categories: Array<string>
-  currentCategory?: string
+  categories: Array<ICategory>
+  currentPath: string
+  allAppsPath: string
   allAppsLabel: string
 }
 
 const Nav = ({
   categories,
-  currentCategory,
+  currentPath,
+  allAppsPath,
   allAppsLabel
 }: NavProps): JSX.Element => {
   const ulScrollRestoration = useScrollRestoration('apps-nav')
@@ -26,20 +29,30 @@ const Nav = ({
   return (
     <div className="apps-nav">
       <ul className="apps-nav__list" {...ulScrollRestorationPatchedType}>
-        {[undefined, ...categories].map((category, idx) => {
-          const slug = category
-            ? category.replace(/ +/g, '-').toLowerCase()
-            : ''
+        <li className="apps-nav__item" key={-1}>
+          <Link
+            to={allAppsPath}
+            addLocalePrefix={false}
+            className={classNames(
+              'apps-nav__link',
+              allAppsPath === currentPath && 'apps-nav__link_active'
+            )}
+          >
+            {allAppsLabel}
+          </Link>
+        </li>
+        {categories.map((category, idx) => {
           return (
             <li className="apps-nav__item" key={idx}>
               <Link
-                to={`/apps/${slug}`}
+                to={category.path}
+                addLocalePrefix={false}
                 className={classNames(
                   'apps-nav__link',
-                  category === currentCategory && 'apps-nav__link_active'
+                  category.path === currentPath && 'apps-nav__link_active'
                 )}
               >
-                {category || allAppsLabel}
+                {category.title}
               </Link>
             </li>
           )
