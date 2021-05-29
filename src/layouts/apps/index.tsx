@@ -23,7 +23,7 @@ export const graphqlQuery = graphql`
   query appsData {
     logos: allFile(
       filter: {
-        absolutePath: { glob: "**/content/base/images/app-logos/*" }
+        absolutePath: { glob: "**/content/images/app-logos/*" }
         extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
       }
     ) {

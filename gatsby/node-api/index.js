@@ -12,7 +12,7 @@ const plugins = [
   require(`./blog-list`),
   require(`./documentation`),
   require(`./redirects`),
-  require(`./yaml`)
+  require(`./yaml-transformer`)
 ]
 
 async function runApiForPlugins(api, helpers) {

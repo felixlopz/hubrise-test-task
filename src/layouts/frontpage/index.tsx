@@ -40,7 +40,7 @@ export const graphqlQuery = graphql`
       }
     }
     apps: file(
-      absolutePath: { glob: "**/content/base/images/frontpage/apps.png" }
+      absolutePath: { glob: "**/content/images/frontpage/apps.png" }
     ) {
       childImageSharp {
         fixed(width: 501, height: 395) {
@@ -49,7 +49,7 @@ export const graphqlQuery = graphql`
       }
     }
     appsHover: file(
-      absolutePath: { glob: "**/content/base/images/frontpage/apps-hover.png" }
+      absolutePath: { glob: "**/content/images/frontpage/apps-hover.png" }
     ) {
       childImageSharp {
         fixed(width: 501, height: 395) {
@@ -58,7 +58,7 @@ export const graphqlQuery = graphql`
       }
     }
     apiImage: file(
-      absolutePath: { glob: "**/content/base/images/frontpage/api.png" }
+      absolutePath: { glob: "**/content/images/frontpage/api.png" }
     ) {
       childImageSharp {
         fixed(width: 712, height: 485) {
@@ -68,7 +68,7 @@ export const graphqlQuery = graphql`
     }
     documentationImage: file(
       absolutePath: {
-        glob: "**/content/base/images/frontpage/documentation.png"
+        glob: "**/content/images/frontpage/documentation.png"
       }
     ) {
       childImageSharp {
@@ -79,7 +79,7 @@ export const graphqlQuery = graphql`
     }
     allPictureFiles: allFile(
       filter: {
-        absolutePath: { glob: "**/content/base/images/frontpage/team/*" }
+        absolutePath: { glob: "**/content/images/frontpage/team/*" }
         extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
       }
     ) {

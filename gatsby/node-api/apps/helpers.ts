@@ -1,11 +1,8 @@
 import { GraphQLFunction } from '../util/types'
 import { IApps } from '../../../src/data/apps'
-import {
-  defaultLocaleCode,
-  LocaleCode,
-  localeCodes
-} from '../../../src/utils/locales'
+import { LocaleCode } from '../../../src/utils/locales'
 import { pathWithLocale } from '../../../src/utils/urls'
+import { getLocaleCodeFromFilePath } from '../util/locale'
 
 export type IAppsMap = Map<LocaleCode, IApps>
 
@@ -28,7 +25,10 @@ export async function getAppsMap(graphql: GraphQLFunction): Promise<IAppsMap> {
   const appsMap: IAppsMap = new Map<LocaleCode, IApps>()
 
   data.allFile.nodes.forEach((node) => {
-    appsMap.set(getLocaleCode(node.relativePath), node.childYaml.parsedContent)
+    appsMap.set(
+      getLocaleCodeFromFilePath(node.relativePath),
+      node.childYaml.parsedContent
+    )
   })
 
   appsMap.forEach((apps, localeCode) => generatePaths(localeCode, apps))
@@ -45,15 +45,6 @@ interface AppsCreatePageGQL {
       }
     }>
   }
-}
-
-function getLocaleCode(relativePath: string): LocaleCode {
-  const pathItems = relativePath.split('/')
-  const pathSub = pathItems[pathItems.length - 2]
-  const localeCode: LocaleCode =
-    localeCodes.find((localeCode) => localeCode === pathSub) ||
-    defaultLocaleCode
-  return localeCode
 }
 
 const APPS_PAGE_PATH = '/apps'
