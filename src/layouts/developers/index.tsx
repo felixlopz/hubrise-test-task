@@ -2,14 +2,14 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 
 import { MDXNode } from '../../data/mdx'
-import { BaseContext } from '../../data/context'
+import { RootContext } from '../../data/context'
 import { Hero, Thumb } from '../../components/developers'
 import { generateKey } from '../../components/utils'
 import SEO from '../../components/shared/Seo'
 
 interface DevelopersProps {
   data: DevelopersData
-  pageContext: BaseContext
+  pageContext: RootContext
 }
 
 interface DevelopersData {
@@ -56,7 +56,7 @@ const DevelopersPage = ({
   return (
     <>
       <SEO
-        lang={pageContext.lang}
+        localeCode={pageContext.localeCode}
         title={meta?.title}
         description={meta?.description}
       />

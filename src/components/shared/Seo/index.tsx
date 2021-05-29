@@ -6,14 +6,15 @@ import SafariPinnedTab from '../../../images/favicons/safari-pinned-tab.svg'
 import Favicon32 from '../../../images/favicons/favicon-32x32.png'
 import Favicon16 from '../../../images/favicons/favicon-16x16.png'
 import { useSeoData } from './graphql'
+import { LocaleCode } from "../../../utils/locales"
 
 interface SEOProps {
-  lang: string
+  localeCode: LocaleCode
   title?: string
   description?: string
 }
 
-const SEO = ({ lang, title, description }: SEOProps): JSX.Element => {
+const SEO = ({ localeCode, title, description }: SEOProps): JSX.Element => {
   const siteMetadata = useSeoData().site.siteMetadata
 
   const metaTitle = title || siteMetadata.title
@@ -22,7 +23,7 @@ const SEO = ({ lang, title, description }: SEOProps): JSX.Element => {
   return (
     <Helmet
       htmlAttributes={{
-        lang
+        localeCode
       }}
       title={metaTitle}
       meta={[

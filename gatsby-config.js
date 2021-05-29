@@ -17,17 +17,19 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'images',
+        name: 'source__src_images',
         path: `${__dirname}/src/images`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'content',
+        name: 'source__content',
         path: `${__dirname}/content`
       }
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -46,8 +48,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {

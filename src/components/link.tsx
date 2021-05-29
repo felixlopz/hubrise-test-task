@@ -2,11 +2,12 @@ import React, { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link as GatsbyLink } from 'gatsby'
 
-import locales from '../utils/locales'
+import { defaultLocaleCode, getLocale } from '../utils/locales'
 
 interface LinkProps {
   to: string
   children?: ReactNode
+  addLocalePrefix?: boolean
   newTab?: boolean
   [K: string]: any
 }
@@ -14,32 +15,40 @@ interface LinkProps {
 const Link = ({
   to: initialTo,
   children = <></>,
+  addLocalePrefix = true,
   newTab = true,
   ...other
 }: LinkProps): JSX.Element => {
-  const {
-    i18n: { language }
-  } = useTranslation()
-
   if (!initialTo) return <></>
 
-  const leadsToInternalPage = initialTo.startsWith(`/`)
-  const leadsToDashboard = initialTo.includes(`manager.hubrise.com`)
-  const isAnchorWithinCurrentPage = initialTo.startsWith(`#`)
-  const locale = locales.find(({ code }) => code === language) || locales[0]
-  const isDefaultLanguage = locale.default
-  const queryString = `?locale=${locale.tag}`
-  const to = initialTo + (leadsToDashboard ? queryString : ``)
+  const {
+    i18n: { language: localeCode }
+  } = useTranslation()
 
-  if (leadsToInternalPage) {
+  let to = initialTo
+
+  if (to.startsWith(`/`)) {
+    // Internal link, use the React router.
+
+    if (addLocalePrefix && localeCode !== defaultLocaleCode) {
+      to = `/${localeCode}${to}`
+    }
+
     return (
-      <GatsbyLink to={isDefaultLanguage ? to : `/${language}${to}`} {...other}>
+      <GatsbyLink to={to} {...other}>
         {children}
       </GatsbyLink>
     )
   } else {
+    // External link.
+
+    // Add ?locale=xxx for HubRise back office.
+    if (to.includes(`manager.hubrise.com`)) {
+      to = to + `?locale=${getLocale(localeCode)}`
+    }
+
     let newTabProps = {}
-    if (newTab && !isAnchorWithinCurrentPage) {
+    if (newTab && !to.startsWith(`#`)) {
       newTabProps = {
         target: `_blank`,
         rel: `noopener noreferrer`

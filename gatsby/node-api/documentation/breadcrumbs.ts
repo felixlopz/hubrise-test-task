@@ -1,30 +1,31 @@
-import { Folder } from './folder'
-import { defaultLocaleCode, LocaleCode } from '../../../src/utils/locales'
+import { Folder, getFolderFiles, getFolderPath } from './folder'
+import { LocaleCode } from '../../../src/utils/locales'
 import { IBreadcrumb } from '../../../src/data/documentation'
 
-export function getFolderBreadcrumbs(
+/**
+ * Returns the list of breadcrumbs leading up to a page.
+ * @param folder: the direct parent folder of the page (eg the apps/deliveroo folder)
+ * @param localeCode
+ * @param nodeTitle: the page name (eg "map-ref-codes")
+ */
+export function getBreadcrumbs(
   folder: Folder,
-  localeCode: LocaleCode
+  localeCode: LocaleCode,
+  nodeTitle: string
 ): Array<IBreadcrumb> {
-  const breadcrumbs: Array<IBreadcrumb> = []
+  function getFolderBreadcrumbs(folder: Folder): Array<IBreadcrumb> {
+    if (!folder.parent) return []
 
-  let currentFolder: Folder | undefined = folder
+    let parentBreadcrumbs = getFolderBreadcrumbs(folder.parent)
+    const customization = getFolderFiles(folder, localeCode)?.customization
 
-  while (currentFolder) {
-    const folderFiles =
-      currentFolder.localeMap[localeCode] ||
-      currentFolder.localeMap[defaultLocaleCode]
-    const customization = folderFiles?.customization
-
-    if (customization?.path_override) {
-      breadcrumbs.unshift({
-        label: customization.name || '',
-        path: customization.path_override
-      })
-    }
-
-    currentFolder = currentFolder.parent
+    return parentBreadcrumbs.concat({
+      label: customization?.name || folder.name,
+      path: getFolderPath(folder, localeCode)
+    })
   }
 
-  return breadcrumbs
+  return getFolderBreadcrumbs(folder).concat({
+    label: nodeTitle
+  })
 }

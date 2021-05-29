@@ -37,7 +37,7 @@ const Simple = ({ data, pageContext }: SimpleProps): JSX.Element => {
   return (
     <>
       <SEO
-        lang={pageContext.lang}
+        localeCode={pageContext.localeCode}
         title={meta?.title}
         description={meta?.description}
       />

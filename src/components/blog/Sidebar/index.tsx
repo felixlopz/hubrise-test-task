@@ -25,8 +25,8 @@ const Sidebar = ({
 }: SidebarProps): JSX.Element => {
   const { t, i18n } = useTranslation()
 
-  const sidebarArticles = useSidebarData().allMdx.nodes.filter(
-    (sidebarArticle) => sidebarArticle.fields.contentLang === i18n.language
+  const sidebarArticles = useSidebarData().filter(
+    (sidebarArticle) => sidebarArticle.localeCode === i18n.language
   )
 
   const recentSidebarArticles = getRecentArticles(sidebarArticles)
@@ -102,9 +102,9 @@ const Sidebar = ({
           />
         </h5>
         <ul className="blog-sidebar__menu-list">
-          {recentSidebarArticles.map((sidebarArticle) => (
-            <li className="blog-sidebar__menu-item" key={sidebarArticle.id}>
-              <Link to={sidebarArticle.fields.slug} activeClassName="active">
+          {recentSidebarArticles.map((sidebarArticle, idx) => (
+            <li className="blog-sidebar__menu-item" key={idx}>
+              <Link to={sidebarArticle.name} activeClassName="active">
                 {sidebarArticle.frontmatter.title}
               </Link>
             </li>

@@ -29,7 +29,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
       component: getLayoutPath('apps'),
       context: {
         id: apps.id,
-        lang: localeCode
+        localeCode
       }
     })
 
@@ -40,7 +40,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
         component: getLayoutPath('apps'),
         context: {
           id: apps.id,
-          lang: localeCode,
+          localeCode,
           category: category.title
         }
       })

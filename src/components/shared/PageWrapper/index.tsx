@@ -9,7 +9,7 @@ import ContactForm from '../ContactForm'
 import { useLayoutContext } from '../../../context/layout'
 import ToastProvider from '../../toast'
 import { usePageWrapperData } from './graphql'
-import { BaseContext } from '../../../data/context'
+import { RootContext } from '../../../data/context'
 
 interface PageWrapperProps {
   children: React.ReactNode
@@ -22,11 +22,11 @@ const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
   const { t, i18n } = useTranslation()
   const { forms } = useLayoutContext()
 
-  const pageContext = props.pageContext as BaseContext
+  const pageContext = props.pageContext as RootContext
   const path = props.path
 
   const isSSR = typeof window === 'undefined'
-  if (isSSR) i18n.changeLanguage(pageContext.lang)
+  if (isSSR) i18n.changeLanguage(pageContext.localeCode)
 
   return (
     <ToastProvider>

@@ -47,12 +47,12 @@ export const graphqlQuery = graphql`
 const Apps = ({ data, pageContext }: AppsProps): JSX.Element => {
   const { file, logos } = data
   const { meta, content } = file.childYaml.parsedContent
-  const { lang, category } = pageContext
+  const { localeCode, category } = pageContext
   const categories = content.categories.map(({ title }) => title)
 
   return (
     <>
-      <SEO lang={lang} title={meta?.title} description={meta?.description} />
+      <SEO localeCode={localeCode} title={meta?.title} description={meta?.description} />
 
       <Hero hero={content.hero} />
 

@@ -16,7 +16,7 @@ const ToastProvider: React.FC = ({ children }) => {
     []
   )
 
-  const closeToast = React.useCallback(
+  const removeToast = React.useCallback(
     (toastId) =>
       setToasts((prevToasts) =>
         prevToasts.filter((toast) => toast.id !== toastId)
@@ -28,7 +28,7 @@ const ToastProvider: React.FC = ({ children }) => {
     <ToastContext.Provider value={addToast}>
       <div className="toast" data-test-id="toast-list">
         {toasts.map((toast) => (
-          <Toast key={toast.id} toast={toast} onClose={closeToast} />
+          <Toast key={toast.id} toast={toast} onClose={removeToast} />
         ))}
       </div>
 

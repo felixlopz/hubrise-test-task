@@ -9,6 +9,13 @@ export const getLocaleCodeFromAbsolutePath = (
   return pathItems[pathItems.length - 2] as LocaleCode
 }
 
+export function getLocale(localeCode): string {
+  return {
+    en: 'en-GB',
+    fr: 'fr-FR'
+  }[localeCode]
+}
+
 /* TODO: Remove the rest of the file */
 type Locale = {
   code: LocaleCode

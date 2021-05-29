@@ -1,23 +1,23 @@
-import './image-fragments'
+import './image-fragments' // TODO: remove
 
 export interface ImageSharpFluid {
   fluid: {
-    base64: string
     aspectRatio: number
+    base64: string //TODO: do we need this heavy thing?
+    presentationWidth: number
+    sizes: string
     src: string
     srcSet: string
-    sizes: string
-    presentationWidth: number
   }
 }
 
 export interface ImageSharpFixed {
   fixed: {
-    base64: string
-    width: number
+    base64: string //TODO: do we need this heavy thing?
     height: number
     src: string
     srcSet: string
+    width: number
   }
 }
 

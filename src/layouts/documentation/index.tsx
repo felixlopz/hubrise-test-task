@@ -1,12 +1,10 @@
 import * as React from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useTranslation } from 'react-i18next'
-import { graphql } from 'gatsby'
 
 import { DocumentationContext } from '../../data/context'
-import { Image, ImageSharpFluid } from '../../data/image'
-import { MDXNode } from '../../data/mdx'
-import { getBreadcrumbs, getFeedbackOptions } from './helpers'
+import { ImageSharpFluid } from '../../data/image'
+import { getFeedbackOptions } from './helpers'
 import {
   SectionNavigation,
   Gallery,
@@ -18,102 +16,48 @@ import SEO from '../../components/shared/Seo'
 import MDXProvider from '../../components/shared/MdxProvider'
 
 interface DocumentationProps {
-  data: DocumentationData
   path: string
   pageContext: DocumentationContext
 }
 
-interface DocumentationData {
-  currentAndSiblingPages: {
-    nodes: Array<MDXNode>
-  }
-  images: {
-    nodes: Array<Image<ImageSharpFluid>>
-  }
-}
-
-export const graphqlQuery = graphql`
-  query documentationData(
-    $currentAndSiblingPagesFilter: MdxFilterInput!
-    $imagesPath: String!
-  ) {
-    currentAndSiblingPages: allMdx(filter: $currentAndSiblingPagesFilter) {
-      nodes {
-        id
-        frontmatter {
-          meta {
-            title
-            description
-          }
-          title
-          position
-          gallery
-          path_override
-          app_info {
-            category
-            availability
-            price_range
-            website
-            contact
-          }
-        }
-        fields {
-          slug
-          localeSlugMap {
-            en
-            fr
-          }
-        }
-        headings {
-          value
-          depth
-        }
-        body
-      }
-    }
-    images: allFile(
-      filter: {
-        absolutePath: { glob: $imagesPath }
-        extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
-      }
-    ) {
-      nodes {
-        ...ImageFragmentSharpFluid
-      }
-    }
-  }
-`
-
 const Documentation = ({
-  data,
   path,
   pageContext
 }: DocumentationProps): JSX.Element => {
   const { t } = useTranslation()
 
-  const { currentAndSiblingPages, images } = data
-  const mdxNodes = currentAndSiblingPages.nodes
-  const currentMdxNode = mdxNodes.find((node) => node.id === pageContext.id)
-  if (!currentMdxNode) throw 'MDX node not found'
+  const {
+    breadcrumbs,
+    folderTitle,
+    folderPages,
+    imageSharpMap,
+    localeCode,
+    logoImageName,
+    mdxNode
+  } = pageContext
+
+  const currentMdxNode = mdxNode
 
   const { frontmatter, body } = currentMdxNode
   const { meta, title, gallery, app_info } = frontmatter
 
-  const breadcrumbs = getBreadcrumbs(pageContext, currentMdxNode)
   const feedbackOptions = getFeedbackOptions(t, pageContext)
 
-  const chapterTitle = pageContext.config.name || ''
+  const logoImage =
+    imageSharpMap && logoImageName ? imageSharpMap[logoImageName] : undefined
 
-  const galleryImages: Array<Image<ImageSharpFluid>> = []
-  for (let imageBase of gallery || []) {
-    const image = images.nodes.find((node) => node.base === imageBase)
-    if (image) galleryImages.unshift(image)
+  const galleryImageMap = new Map<string, ImageSharpFluid>()
+  if (imageSharpMap && gallery) {
+    for (let imageName of gallery) {
+      const image = imageSharpMap[imageName]
+      if (image) galleryImageMap.set(imageName, image)
+    }
   }
 
   return (
     <MDXProvider>
       <SEO
-        lang={pageContext.lang}
+        localeCode={localeCode}
         title={meta?.title}
         description={meta?.description}
       />
@@ -137,16 +81,14 @@ const Documentation = ({
           </div>
 
           <SectionNavigation
-            logo={images.nodes.find(
-              ({ base }) => base === pageContext.config.logo
-            )}
+            logo={logoImage}
             currentPath={path}
-            title={chapterTitle}
-            mdxNodes={mdxNodes}
+            title={folderTitle}
+            folderPages={folderPages}
           />
 
-          {galleryImages && (
-            <Gallery title={chapterTitle} images={galleryImages} />
+          {galleryImageMap.size > 0 && (
+            <Gallery title={folderTitle} imageMap={galleryImageMap} />
           )}
 
           {app_info && <AppInfo content={app_info} />}

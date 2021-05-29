@@ -3,11 +3,9 @@ import { graphql, navigate } from 'gatsby'
 import { useTranslation } from 'react-i18next'
 
 import { getArchiveTitle } from '../../utils/blog'
-import { MDXNode } from '../../data/mdx'
+import { MDXBlogNode } from '../../data/mdx'
 import {
-  getMdxNodeDate,
   IBreadcrumb,
-  sortMdxNodesByDescendingDate
 } from '../../data/documentation'
 import { BlogListContext } from '../../data/context'
 import { Hero, Post, Sidebar } from '../../components/blog'
@@ -15,6 +13,7 @@ import { Breadcrumbs } from '../../components/documentation'
 import { getLocalizedUrl } from '../../components/utils/link'
 import SEO from '../../components/shared/Seo'
 import MDXProvider from '../../components/shared/MdxProvider'
+import { getMdxBlogNodeDate, parseBlogSlug, sortMdxBlogNodesByDescendingDate } from "../../data/blog"
 
 interface BlogListProps {
   data: BlogListData
@@ -23,25 +22,21 @@ interface BlogListProps {
 
 interface BlogListData {
   allMdx: {
-    nodes: Array<MDXNode>
+    nodes: Array<MDXBlogNode>
   }
 }
 
 export const graphqlQuery = graphql`
   query blogListData {
-    allMdx(filter: { fields: { slug: { glob: "/blog/*" } } }) {
+    allMdx(filter: { slug: { regex: "/^blog//" } }) {
       nodes {
-        id
         frontmatter {
           title
           excerpt
           author
           date
         }
-        fields {
-          slug
-          contentLang
-        }
+        slug
       }
     }
   }
@@ -52,14 +47,15 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
   const { archive } = pageContext
 
   const mdxNodesInLocale = data.allMdx.nodes.filter(
-    (mdxNode) => mdxNode.fields.contentLang === pageContext.lang
+    (mdxNode) =>
+      parseBlogSlug(mdxNode.slug).localeCode === pageContext.localeCode
   )
 
   /** Display only articles from selected archive, and order them by date. */
-  let mdxNodes = sortMdxNodesByDescendingDate(mdxNodesInLocale)
+  let mdxNodes = sortMdxBlogNodesByDescendingDate(mdxNodesInLocale)
   if (archive) {
     mdxNodes = mdxNodes.filter((mdxNode) => {
-      const postDate = getMdxNodeDate(mdxNode)
+      const postDate = getMdxBlogNodeDate(mdxNode)
       return archive.isCurrentYear
         ? archive.year === postDate.getFullYear() &&
             archive.month === postDate.getMonth()
@@ -82,7 +78,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 
   function handleQueryChange(newQuery) {
     setSearchQuery(newQuery)
-    let pathname = getLocalizedUrl('/blog', pageContext.lang)
+    let pathname = getLocalizedUrl('/blog', pageContext.localeCode)
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 
@@ -101,7 +97,11 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 
   return (
     <MDXProvider>
-      <SEO lang={pageContext.lang} title="HubRise Blog" description="" />
+      <SEO
+        localeCode={pageContext.localeCode}
+        title="HubRise Blog"
+        description=""
+      />
 
       {archive ? (
         <Breadcrumbs breadcrumbs={breadcrumbs} />
@@ -121,9 +121,11 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
             onQueryChange={handleQueryChange}
           />
           <div className="section__content">
-            {filteredMdxNodes.map((mdxNode) => (
-              <Post key={mdxNode.id} mdxNode={mdxNode} showMore />
-            ))}
+            {filteredMdxNodes.map((mdxNode, idx) => {
+              const { name } = parseBlogSlug(mdxNode.slug)
+              if (name)
+                return <Post key={idx} name={name} mdxNode={mdxNode} showMore />
+            })}
           </div>
         </div>
       </section>

@@ -16,6 +16,7 @@ const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {
             {breadcrumb.path ? (
               <Link
                 to={breadcrumb.path}
+                addLocalePrefix={false}
                 className="breadcrumbs-wrapper__list-item_link"
               >
                 {breadcrumb.label}

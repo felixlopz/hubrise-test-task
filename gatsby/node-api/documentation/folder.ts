@@ -1,123 +1,188 @@
-import fs from 'fs'
-import path, { posix } from 'path'
-
+import { Customization, CustomizationMap } from './customization'
 import {
   defaultLocaleCode,
   LocaleCode,
   localeCodes
 } from '../../../src/utils/locales'
-import {
-  Customization,
-  CUSTOMIZATION_FILE_NAME,
-  getCustomizationFromFolder
-} from './customization'
+import { MDXDocumentationNode } from '../../../src/data/mdx'
+import { GraphQLFunction } from '../util/types'
+import { ImageSharpMap, ImageSharpMapByPath } from './image'
 
-const IGNORED_FOLDERS = ['images']
+export interface Folder {
+  /** The folder name (eg "deliveroo") */ name: string
+  /** The path relative to /content (eg "/apps/deliveroo"). TODO: remove (not passed to context) */ srcPath: string
+  parent?: Folder
+  children: Array<Folder>
+  folderFilesMap: FolderFilesMap
+  imageSharpMap?: ImageSharpMap
+}
+
+export type FolderFilesMap = {
+  [K in LocaleCode]?: FolderFiles
+}
 
 export interface FolderFiles {
   customization: Customization
-  contentFileNames: Array<string>
+  /** MDX nodes sorted by position */ mdxNodes: Array<MDXDocumentationNode>
 }
 
-export interface Folder {
-  name: string
-  path: string
-  localeMap: {
-    [K in LocaleCode]?: FolderFiles
-  }
-  parent?: Folder
-  children: Array<Folder>
-}
-
-export async function parseLocaleFolder(
-  folderPath: string
-): Promise<FolderFiles> {
-  const customization = await getCustomizationFromFolder(folderPath)
-  const files = await fs.promises.readdir(folderPath, { withFileTypes: true })
-  const contentFileNames: Array<string> = files
-    .filter((file) => file.isFile() && file.name !== CUSTOMIZATION_FILE_NAME)
-    .map((file) => file.name)
-
-  return {
-    customization,
-    contentFileNames
-  }
-}
-
-export async function parseFolderRecursively(
-  pathToFolder: string,
-  folderName: string,
-  parentFolder?: Folder
+/**
+ * Parses the MDX files in GraphQL and builds the Folder hierarchy from the MDX relative paths.
+ * Returns the root Folder, which corresponds to the "content" folder (ie direct children are "apps", "base", ...).
+ * @param graphql
+ * @param customizationsMap
+ * @param imageSharpMapByPath
+ */
+export async function generateFolders(
+  graphql: GraphQLFunction,
+  customizationsMap: CustomizationMap,
+  imageSharpMapByPath: ImageSharpMapByPath
 ): Promise<Folder> {
-  const folder: Folder = {
-    name: folderName,
-    path: path.join(pathToFolder, folderName),
-    localeMap: {},
-    parent: parentFolder,
+  const { data, errors } = await graphql<FolderGQL>(`
+    query generateFolders {
+      allMdx(filter: { frontmatter: { layout: { eq: "documentation" } } }) {
+        nodes {
+          body
+          frontmatter {
+            app_info {
+              availability
+              category
+              contact
+              price_range
+              website
+            }
+            gallery
+            meta {
+              description
+              title
+            }
+            path_override
+            position
+            title
+          }
+          parent {
+            ... on File {
+              name
+              relativeDirectory
+              relativePath
+            }
+          }
+        }
+      }
+    }
+  `)
+  if (errors) throw errors
+  if (!data) throw 'GraphQL returned no data'
+
+  const folderFilesByPath = new Map<string, FolderFiles>()
+  customizationsMap.forEach((customization, path) =>
+    folderFilesByPath.set(path, { customization, mdxNodes: [] })
+  )
+
+  for (let mdxNode of data.allMdx.nodes) {
+    const path = mdxNode.parent.relativeDirectory
+    let folderFiles = folderFilesByPath.get(path)
+    if (!folderFiles) {
+      console.log(
+        `Skipping ${mdxNode.parent.relativePath}: no customization.yaml file was found in this file's directory.`
+      )
+      continue
+    }
+    folderFiles.mdxNodes.push(mdxNode)
+  }
+
+  const rootFolder: Folder = {
+    name: '',
+    srcPath: '',
+    folderFilesMap: {},
     children: []
   }
 
-  const files = await fs.promises.readdir(folder.path, {
-    withFileTypes: true
-  })
-
-  const promises = files.map(async (file) => {
-    if (!file.isDirectory() || IGNORED_FOLDERS.includes(file.name)) {
+  folderFilesByPath.forEach((folderFiles, path) => {
+    // MDX files must be in a directory ending in /en or /fr, indicating the locale code of the MDX.
+    const localeCode = localeCodes.find((code) => path.endsWith(code))
+    if (!localeCode) {
+      console.log(
+        `The MD files located in ${path} will be skipped because they do not belong to a language folder (/en, /fr, etc.).`
+      )
       return
     }
 
-    if ((localeCodes as String[]).includes(file.name)) {
-      const localeFolderPath = path.join(folder.path, file.name)
-      folder.localeMap[file.name] = await parseLocaleFolder(localeFolderPath)
-    } else {
-      const childFolder: Folder = await parseFolderRecursively(
-        folder.path,
-        file.name,
-        folder
-      )
+    const folderPath = path.replace(new RegExp(`\/${localeCode}$`), '')
 
-      folder.children.push(childFolder)
-    }
+    const folder = findOrInsertFolder(
+      rootFolder,
+      folderPath,
+      imageSharpMapByPath.get(folderPath)
+    )
+
+    // Sort MDX nodes in place
+    folderFiles.mdxNodes.sort(
+      (node1, node2) =>
+        (node1.frontmatter.position || Number.MAX_SAFE_INTEGER) -
+        (node2.frontmatter.position || Number.MAX_SAFE_INTEGER)
+    )
+
+    folder.folderFilesMap[localeCode] = folderFiles
   })
 
-  await Promise.all(promises)
+  return rootFolder
+}
+
+interface FolderGQL {
+  allMdx: {
+    nodes: Array<MDXDocumentationNode>
+  }
+}
+
+function findOrInsertFolder(
+  rootFolder: Folder,
+  path: string,
+  imageSharpMap?: ImageSharpMap
+): Folder {
+  let folder = rootFolder
+
+  path.split('/').forEach((dirname) => {
+    let childFolder = folder.children.find((folder) => folder.name === dirname)
+    if (!childFolder) {
+      childFolder = {
+        name: dirname,
+        srcPath: `${folder.srcPath}/${dirname}`,
+        parent: folder,
+        children: [],
+        folderFilesMap: {},
+        imageSharpMap
+      }
+      folder.children.push(childFolder)
+    }
+    folder = childFolder
+  })
 
   return folder
 }
 
-export function normalizePath(filePath: string): string {
-  return filePath.split(path.sep).join(path.posix.sep)
-}
-
-export function folderByFilePath(
-  rootFolder: Folder,
-  fileAbsolutePath: string
-): Folder | null {
-  function recursiveSearch(folder: Folder): Folder | null {
-    if (fileAbsolutePath.startsWith(normalizePath(folder.path))) {
-      for (let localeCode of localeCodes) {
-        const localeFolderPath = path.join(folder.path, localeCode)
-        if (fileAbsolutePath.startsWith(normalizePath(localeFolderPath))) {
-          return folder
-        }
-      }
-
-      for (let childFolder of folder.children) {
-        const folder = recursiveSearch(childFolder)
-        if (folder) return folder
-      }
-    }
-
-    return null
+/**
+ * Returns the path of a folder on the website with a leading slash (eg "/fr/deliveroo")
+ * @param folder
+ * @param localeCode
+ */
+export function getFolderPath(folder: Folder, localeCode: LocaleCode): string {
+  if (!folder.parent) {
+    return localeCode === defaultLocaleCode ? '' : `/${localeCode}`
   }
 
-  return recursiveSearch(rootFolder)
+  const customization = getFolderFiles(folder, localeCode)?.customization
+  const parentPath = getFolderPath(folder.parent, localeCode)
+  const overridenName = customization?.path_override || folder.name
+  return `${parentPath}/${overridenName}`
 }
 
-export const getLocaleCodeFromPath = (path: string): LocaleCode => {
+export function getFolderFiles(
+  folder: Folder,
+  localeCode: LocaleCode
+): FolderFiles | undefined {
   return (
-    localeCodes.find((localeCode) =>
-      path.includes(posix.sep + localeCode + posix.sep)
-    ) || defaultLocaleCode
+    folder.folderFilesMap[localeCode] ||
+    folder.folderFilesMap[defaultLocaleCode]
   )
 }

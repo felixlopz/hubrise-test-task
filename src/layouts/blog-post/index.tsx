@@ -3,11 +3,12 @@ import { graphql, navigate } from 'gatsby'
 
 import { getLocalizedUrl } from '../../components/utils/link'
 import { IBreadcrumb } from '../../data/documentation'
-import { MDXNode } from '../../data/mdx'
+import { MDXBlogNode } from '../../data/mdx'
 import SEO from '../../components/shared/Seo'
 import MDXProvider from '../../components/shared/MdxProvider'
 import { Post, Sidebar } from '../../components/blog'
 import { Breadcrumbs } from '../../components/documentation'
+import { parseBlogSlug } from '../../data/blog'
 
 export interface BlogPostProps {
   data: BlogPostData
@@ -15,7 +16,7 @@ export interface BlogPostProps {
 }
 
 interface BlogPostData {
-  mdxNode: MDXNode
+  mdxNode: MDXBlogNode
 }
 
 export const graphqlQuery = graphql`
@@ -31,10 +32,8 @@ export const graphqlQuery = graphql`
         author
         date
       }
-      fields {
-        slug
-      }
       body
+      slug
     }
   }
 `
@@ -44,7 +43,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
   const { meta } = mdxNode.frontmatter
 
   function handleQueryChange(newQuery: string): void {
-    let pathname = getLocalizedUrl('/blog', pageContext.lang)
+    let pathname = getLocalizedUrl('/blog', pageContext.localeCode)
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 
@@ -56,10 +55,13 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
     { label: mdxNode.frontmatter.title }
   ]
 
+  const { name } = parseBlogSlug(mdxNode.slug)
+  if (!name) return <></>
+
   return (
     <MDXProvider>
       <SEO
-        lang={pageContext.lang}
+        localeCode={pageContext.localeCode}
         title={meta?.title}
         description={meta?.description}
       />
@@ -70,7 +72,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
         <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
           <Sidebar onQueryChange={handleQueryChange} />
           <div className="section__content">
-            <Post mdxNode={mdxNode} showBody />
+            <Post mdxNode={mdxNode} name={name} showBody />
           </div>
         </div>
       </div>

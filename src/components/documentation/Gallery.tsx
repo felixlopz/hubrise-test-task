@@ -8,21 +8,21 @@ import 'slick-carousel/slick/slick-theme.css'
 
 import NonStretchedImage from '../shared/NonStretchedImage'
 import { generateKey } from '../utils'
-import { Image, ImageSharpFluid } from '../../data/image'
 import NextArrow from './Gallery/NextArrow'
 import PrevArrow from './Gallery/PrevArrow'
+import { ImageSharpFluid } from '../../data/image'
 
 interface GalleryProps {
-  images: Array<Image<ImageSharpFluid>>
+  imageMap: Map<string, ImageSharpFluid>
   title: string
 }
 
-const Gallery = ({ images, title }: GalleryProps): JSX.Element => {
+const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
   const slider = React.useRef<Slider>(null)
   const [isSliderVisible, setIsSliderVisible] = React.useState(false)
   const [currentImageNumber, setCurrentImageNumber] = React.useState(1)
 
-  const totalNumberOfImages = images.length
+  const totalNumberOfImages = imageMap.size
 
   const sliderSettings = {
     speed: 0,
@@ -102,15 +102,15 @@ const Gallery = ({ images, title }: GalleryProps): JSX.Element => {
           className="image-slider__content"
           {...sliderSettings}
         >
-          {images.map(({ name, childImageSharp }, idx) => (
+          {Array.from(imageMap).map(([imageName, image], idx) => (
             <div
-              key={generateKey(name, idx)}
+              key={generateKey(imageName, idx)}
               onClick={(e) => e.stopPropagation()}
             >
               <GatsbyImage
                 className="image-slider__slide"
-                alt={name}
-                {...childImageSharp}
+                alt={imageName}
+                {...image}
               />
             </div>
           ))}
@@ -118,16 +118,16 @@ const Gallery = ({ images, title }: GalleryProps): JSX.Element => {
       </div>
 
       <section className="image-grid">
-        {images.map(({ name, childImageSharp }, idx) => (
+        {Array.from(imageMap).map(([imageName, image], idx) => (
           <div
             className="image-grid__item-wrapper"
-            key={generateKey(name, idx)}
+            key={generateKey(imageName, idx)}
             onClick={() => {
               slider.current.slickGoTo(idx)
               setIsSliderVisible(!isSliderVisible)
             }}
           >
-            <NonStretchedImage alt={name} {...childImageSharp} />
+            <NonStretchedImage alt={imageName} {...image} />
           </div>
         ))}
       </section>

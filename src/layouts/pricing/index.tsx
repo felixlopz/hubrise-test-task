@@ -39,7 +39,7 @@ const Pricing = ({ data, pageContext }: PricingProps): JSX.Element => {
   return (
     <>
       <SEO
-        lang={pageContext.lang}
+        localeCode={pageContext.localeCode}
         title={meta?.title}
         description={meta?.description}
       />

@@ -1,24 +1,24 @@
 import * as React from 'react'
 
 import { getLocaleCodeFromAbsolutePath } from '../../../utils/locales'
-import { BaseContext } from '../../../data/context'
+import { RootContext } from '../../../data/context'
 import Copyright from './Copyright'
 import ScrollUpButton from './ScrollUpButton'
 import FooterSection from './FooterSection'
 import { useFooterData } from './graphql'
 
 export interface FooterProps {
-  pageContext: BaseContext
+  pageContext: RootContext
 }
 
 const Footer = ({ pageContext }: FooterProps): JSX.Element => {
   const footerData = useFooterData()
   const footerNodeInLocale = footerData.allFile.nodes.find(
     ({ absolutePath }) =>
-      getLocaleCodeFromAbsolutePath(absolutePath) === pageContext.lang
+      getLocaleCodeFromAbsolutePath(absolutePath) === pageContext.localeCode
   )
   if (!footerNodeInLocale)
-    throw `menu-footer.yaml not defined for locale ${pageContext.lang}`
+    throw `menu-footer.yaml not defined for locale ${pageContext.localeCode}`
 
   const sections = footerNodeInLocale.childYaml.parsedContent.sections
 

@@ -1,73 +1,98 @@
-import path from 'path'
+import { Actions } from 'gatsby'
 
-import {
-  defaultLocaleCode,
-  LocaleCode,
-  localeCodes
-} from '../../../src/utils/locales'
-import { pathWithLocale } from '../../../src/utils/urls'
-import { getLayoutPath } from '../util/layout'
-import { Folder, normalizePath } from './folder'
-import { getFolderBreadcrumbs } from './breadcrumbs'
-import { CreatePageFunction } from '../util/types'
-import { MDXNode } from '../../../src/data/mdx'
+import { Folder, FolderFiles, getFolderFiles, getFolderPath } from './folder'
+import { LocaleCode, localeCodes } from '../../../src/utils/locales'
+import { MDXDocumentationNode } from '../../../src/data/mdx'
 import { DocumentationContext } from '../../../src/data/context'
+import { getLayoutPath } from '../util/layout'
+import { getBreadcrumbs } from './breadcrumbs'
 
-export function createDocumentationPage(
-  node: MDXNode,
-  folder: Folder,
-  localeCode: LocaleCode,
-  createPage: CreatePageFunction
+export function createDocumentationPagesInFolder(
+  actions: Actions,
+  folder: Folder
 ): void {
-  const { id, fileAbsolutePath, frontmatter, fields } = node
-  const { layout, meta } = frontmatter
-  const currentDirectory = path.dirname(fileAbsolutePath)
-  const parentDirectory = path.dirname(currentDirectory)
-  const pathToImages = path.join(parentDirectory, 'images')
-  const breadcrumbs = getFolderBreadcrumbs(folder, localeCode)
+  for (let localeCode of localeCodes) {
+    const folderFiles = getFolderFiles(folder, localeCode)
+    if (!folderFiles) continue
 
-  const folderFiles =
-    folder.localeMap[localeCode] || folder.localeMap[defaultLocaleCode]
-  if (!folderFiles) return
-
-  const relativePath = normalizePath(
-    path.posix.sep + path.relative(process.cwd(), fileAbsolutePath)
-  )
-
-  const slug =
-    fields.localeSlugMap[localeCode] || fields.localeSlugMap[defaultLocaleCode]
-
-  createPage<DocumentationContext>({
-    /** Any valid URL. Must start with a forward slash */
-    path: pathWithLocale(localeCode, slug),
-    component: getLayoutPath(layout),
-    context: {
-      id,
-      currentAndSiblingPagesFilter: {
-        fileAbsolutePath: { glob: normalizePath(`${currentDirectory}/*`) },
-        frontmatter: { layout: { eq: 'documentation' } }
-      },
-      imagesPath: normalizePath(`${pathToImages}/**/*`),
-      breadcrumbs,
-      meta,
-      config: folderFiles.customization,
-      lang: localeCode,
-      relativePath
-    }
-  })
-
-  if (localeCode === defaultLocaleCode) {
-    /** For every other locale, fallback to content in default locale, if available. */
-    const fileName = path.basename(fileAbsolutePath)
-    const otherLocaleCodes = localeCodes.filter(
-      (localeCode) => localeCode !== defaultLocaleCode
-    )
-    for (let otherLocaleCode of otherLocaleCodes) {
-      const contentFileNames =
-        folder.localeMap[otherLocaleCode]?.contentFileNames || []
-      if (!contentFileNames.includes(fileName)) {
-        createDocumentationPage(node, folder, otherLocaleCode, createPage)
-      }
+    for (let mdxNode of folderFiles.mdxNodes) {
+      createDocumentationPage(actions, folder, localeCode, folderFiles, mdxNode)
     }
   }
+
+  for (let childFolder of folder.children) {
+    createDocumentationPagesInFolder(actions, childFolder)
+  }
+}
+
+function createDocumentationPage(
+  actions: Actions,
+  folder: Folder,
+  localeCode: LocaleCode,
+  folderFiles: FolderFiles,
+  mdxNode: MDXDocumentationNode
+) {
+  const path = getPagePath(folder, mdxNode, localeCode)
+  const breadcrumbs = getBreadcrumbs(
+    folder,
+    localeCode,
+    mdxNode.frontmatter.title
+  )
+
+  const folderPages = getFolderPages(folder, folderFiles, localeCode)
+  const customization = folderFiles.customization
+
+  actions.createPage<DocumentationContext>({
+    path,
+    component: getLayoutPath('documentation'),
+    context: {
+      breadcrumbs,
+      localeCode,
+      folderPages,
+      imageSharpMap: folder.imageSharpMap,
+      logoImageName: customization.logo,
+      folderTitle: customization.name,
+      mdxNode
+    }
+  })
+}
+
+/**
+ * Returns the path of a documentation page on the website with a leading slash (eg "/fr/deliveroo/map-ref-codes").
+ * @param folder: the folder containing the MDX node
+ * @param mdxNode: the MDX node
+ * @param localeCode: the locale of the page
+ */
+function getPagePath(
+  folder: Folder,
+  mdxNode: MDXDocumentationNode,
+  localeCode: LocaleCode
+): string {
+  const path = getFolderPath(folder, localeCode)
+
+  const name = mdxNode.frontmatter.path_override || mdxNode.parent.name
+
+  if (name === '/') {
+    return path
+  } else {
+    return `${path}/${name}`
+  }
+}
+
+export interface FolderPage {
+  path: string
+  title: string
+}
+
+function getFolderPages(
+  folder: Folder,
+  folderFiles: FolderFiles,
+  localeCode: LocaleCode
+): Array<FolderPage> {
+  return folderFiles.mdxNodes.map((mdxNode) => {
+    return {
+      path: getPagePath(folder, mdxNode, localeCode),
+      title: mdxNode.frontmatter.title
+    }
+  })
 }

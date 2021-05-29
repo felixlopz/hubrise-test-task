@@ -10,11 +10,9 @@ import { getBlogMDXNodes } from './graphql'
 const BLOG_PAGE_PATH = '/blog'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
-  const { createPage } = actions
+  const blogMDXNodes = await getBlogMDXNodes(graphql)
 
   const blogListLayout = getLayoutPath('blog-list')
-
-  const blogMDXNodes = await getBlogMDXNodes(graphql)
 
   const archiveList = generateArchiveList(
     blogMDXNodes.map((post) => new Date(post.frontmatter.date!))
@@ -22,18 +20,17 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
 
   localeCodes.forEach((localeCode) => {
     // Main page: /blog
-    createPage<BlogListContext>({
+    actions.createPage<BlogListContext>({
       path: pathWithLocale(localeCode, BLOG_PAGE_PATH),
       component: blogListLayout,
       context: {
-        id: 'blog???', // TODO
-        lang: localeCode
+        localeCode
       }
     })
 
     // Archive pages: /blog/2020/7
     archiveList.forEach((archive) => {
-      createPage<BlogListContext>({
+      actions.createPage<BlogListContext>({
         path: pathWithLocale(
           localeCode,
           archive.isCurrentYear
@@ -42,8 +39,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
         ),
         component: blogListLayout,
         context: {
-          id: `blog-archive???`, // TODO
-          lang: localeCode,
+          localeCode,
           archive
         }
       })

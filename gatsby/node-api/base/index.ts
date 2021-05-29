@@ -30,7 +30,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
       component: getLayoutPath(layoutName),
       context: {
         id: node.id,
-        lang: localeCode
+        localeCode
       }
     })
   })

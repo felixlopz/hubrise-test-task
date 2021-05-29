@@ -1,29 +1,49 @@
-import path from 'path'
-import fs from 'fs'
-import * as yaml from 'js-yaml'
-
-export const CUSTOMIZATION_FILE_NAME = 'customization.yaml'
+import { GraphQLFunction } from '../util/types'
 
 export interface Customization {
-  name?: string
+  name: string
   path_override?: string
   logo?: string
 }
 
-export async function getCustomizationFromFolder(
-  folderPath: string
-): Promise<Customization> {
-  try {
-    const filePath = path.join(folderPath, CUSTOMIZATION_FILE_NAME)
-    const fileContent: string = await fs.promises.readFile(filePath, {
-      encoding: 'utf-8'
-    })
-    return (yaml.safeLoad(fileContent) || {}) as Customization
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      return {}
-    } else {
-      throw error
+export type CustomizationMap = Map<string, Customization>
+
+/**
+ * Returns a map allowing to find a Customization by its directory path relative to /content (eg "apps/deliveroo/en")
+ * @param graphql
+ */
+export async function generateCustomizationMap(
+  graphql: GraphQLFunction
+): Promise<CustomizationMap> {
+  const { data, errors } = await graphql<CustomizationGQL>(`
+    query generateCustomizationMap {
+      allFile(filter: { name: { eq: "customization" } }) {
+        nodes {
+          relativeDirectory
+          childYaml {
+            parsedContent
+          }
+        }
+      }
     }
+  `)
+  if (errors) throw errors
+  if (!data) throw 'GraphQL returned no data'
+
+  const result = new Map<string, Customization>()
+  for (let node of data.allFile.nodes) {
+    result.set(node.relativeDirectory, node.childYaml.parsedContent)
+  }
+  return result
+}
+
+interface CustomizationGQL {
+  allFile: {
+    nodes: Array<{
+      relativeDirectory: string
+      childYaml: {
+        parsedContent: Customization
+      }
+    }>
   }
 }

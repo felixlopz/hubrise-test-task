@@ -1,18 +1,18 @@
-import { MDXNode } from '../../../src/data/mdx'
+import { MDXBlogNode } from '../../../src/data/mdx'
 import { CreatePagesArgs } from 'gatsby'
 
 export interface BlogMDXNodesData {
   allMdx: {
-    nodes: Array<MDXNode>
+    nodes: Array<MDXBlogNode>
   }
 }
 
 export async function getBlogMDXNodes(
   graphql: CreatePagesArgs['graphql']
-): Promise<Array<MDXNode>> {
+): Promise<Array<MDXBlogNode>> {
   const { data, errors } = await graphql<BlogMDXNodesData>(`
     query {
-      allMdx(filter: { fields: { slug: { glob: "/blog/*" } } }) {
+      allMdx(filter: { slug: { regex: "/^blog//" } }) {
         nodes {
           frontmatter {
             date

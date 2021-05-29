@@ -2,24 +2,26 @@ import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import { MDXNode } from '../../../data/mdx'
-import { getMdxNodeDate } from '../../../data/documentation'
+import { MDXBlogNode } from '../../../data/mdx'
+import { getMdxBlogNodeDate } from '../../../data/blog'
 import Link from '../../link'
 
 interface PostProps {
-  mdxNode: MDXNode
+  mdxNode: MDXBlogNode
+  name: string
   showMore?: boolean
   showBody?: boolean
 }
 
 const Post = ({
   mdxNode,
+  name,
   showMore = false,
   showBody = false
 }: PostProps): JSX.Element => {
   const { t } = useTranslation()
-  const { frontmatter, fields, body } = mdxNode
-  const dateAsString = getMdxNodeDate(mdxNode).toLocaleDateString()
+  const { body, frontmatter } = mdxNode
+  const dateAsString = getMdxBlogNodeDate(mdxNode).toLocaleDateString()
 
   return (
     <>
@@ -34,7 +36,7 @@ const Post = ({
         {showMore && (
           <>
             <div className="blog-post__excerpt">{frontmatter.excerpt}</div>
-            <Link to={fields.slug} className="blog-post__read-more">
+            <Link to={name} className="blog-post__read-more">
               {t('misc.read_more')}
             </Link>
           </>
