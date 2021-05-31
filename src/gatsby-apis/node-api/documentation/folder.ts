@@ -125,9 +125,14 @@ export async function generateFolders(
       return
     }
 
-    const folderPath = path.replace(new RegExp(`\/${localeCode}$`), '')
+    const folderPath = path.replace(new RegExp(`(\/|^)${localeCode}$`), '')
 
-    const folder = findOrInsertFolder(rootFolder, folderPath)
+    let folder: Folder
+    if (folderPath === '') {
+      folder = rootFolder
+    } else {
+      folder = findOrInsertFolder(rootFolder, folderPath)
+    }
 
     // Sort MDX nodes in place
     folderFiles.mdxNodes.sort(

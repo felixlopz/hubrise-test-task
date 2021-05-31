@@ -32,6 +32,9 @@ export async function generateCustomizationMap(
 
   const result = new Map<string, Customization>()
   for (let node of data.allFile.nodes) {
+    if (!node.childYaml.parsedContent) {
+      throw `The content/${node.relativeDirectory}/customization.yaml file is empty. It must at least define a "name".`
+    }
     result.set(node.relativeDirectory, node.childYaml.parsedContent)
   }
   return result

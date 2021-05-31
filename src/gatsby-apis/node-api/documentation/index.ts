@@ -61,10 +61,6 @@ function createDocumentationPage(
   const folderPages = getFolderPages(folder, folderFiles, localeCode)
   const imagesRelativeDirectory = getImagesRelativeDirectory(folder)
   const customization = folderFiles.customization
-  if (!customization) {
-    console.log`!!!!!!! Skipping folder ${folder.relativeDirectory}`
-    return
-  }
 
   actions.createPage<DocumentationContext>({
     path,
