@@ -4,14 +4,14 @@ position: 3
 layout: documentation
 meta:
   title: Interface utilisateur | CoursiCab | HubRise
-  description: Accéder aux différentes pages telles que la liste des articles ou celle des commandes. Connectez vos apps et synchronisez vos données.
+  description: Accéder aux différentes pages telles que la liste des livraisons ou celle de l'historique. Connectez vos apps et synchronisez vos données.
 ---
 
 Le tableau de bord CoursiCab permet de consulter certaines informations des commandes HubRise, afin d'en faire la livraison.
 
 ## Courses
 
-Dans CoursiCab, les livraisons sont appelées des courses. Pour en consulter la liste, depuis votre tableau de bord CoursiCab, dans la barre de menu, sélectionnez **Apps**.
+Dans CoursiCab, les livraisons sont appelées des courses. Pour en consulter la liste, dans votre espace CoursiCab, dans la barre de menu, sélectionnez **Apps**.
 
 Vous pouvez accepter ou refuser une livraison.
 
@@ -29,3 +29,5 @@ Pour refuser :
 Le livreur mettra à jour une course avec les statuts **Transit** et **Livrée**.
 
 ## Historique
+
+Pour consulter l'historique de vos courses, dans votre espace CoursiCab, dans la barre de menu, sélectionnez **Historique**.

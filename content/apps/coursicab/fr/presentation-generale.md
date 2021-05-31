@@ -17,12 +17,6 @@ app_info:
   contact: it@coursicab.com
 ---
 
----
-
-REMARQUE IMPORTANTE : Une documentation complète de cette intégration est en cours.
-
----
-
 ## Description
 
 Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, les clients peuvent suivre leurs colis en temps réel.
