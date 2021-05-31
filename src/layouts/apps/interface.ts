@@ -1,4 +1,29 @@
-import { IMeta } from './base'
+import { LocaleCode } from '@utils/locales'
+import { RootContext } from '../../data/context'
+
+export interface AppsContext extends RootContext {
+  localeCode: LocaleCode
+  apps: IApps
+  categoryTitle?: string
+}
+
+export interface IApps {
+  /** Path to the main apps page on the site, eg "/apps" or "/fr/apps". This field is generated. */
+  path: string
+  meta: IMeta
+  content: {
+    hero: IHero
+    all_apps: string
+    categories: Array<ICategory>
+    additional_sections: IAdditionalSections
+    developers: IDevelopers
+  }
+}
+
+export interface IMeta {
+  title: string
+  description: string
+}
 
 export interface IApp {
   website: string
@@ -42,18 +67,5 @@ export interface IDevelopers {
       chunk_1: string
       chunk_2: string
     }
-  }
-}
-
-export interface IApps {
-  /** Path to the main apps page on the site, eg "/apps" or "/fr/apps". This field is generated. */
-  path: string
-  meta: IMeta
-  content: {
-    hero: IHero
-    all_apps: string
-    categories: Array<ICategory>
-    additional_sections: IAdditionalSections
-    developers: IDevelopers
   }
 }

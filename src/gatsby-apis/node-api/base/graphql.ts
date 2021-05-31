@@ -18,11 +18,7 @@ export async function getBaseFiles(
 ): Promise<Array<BaseFilesData['allFile']['nodes'][number]>> {
   const { data, errors } = await graphql<BaseFilesData>(`
     query {
-      allFile(
-        filter: {
-          base: { in: ["frontpage.yaml", "pricing.yaml"] }
-        }
-      ) {
+      allFile(filter: { base: { in: ["frontpage.yaml", "pricing.yaml"] } }) {
         nodes {
           absolutePath
           base

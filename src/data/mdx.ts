@@ -1,4 +1,4 @@
-import { LocaleCode } from '../utils/locales'
+import { LocaleCode } from '@utils/locales'
 
 export interface MDXNode {
   id: string // TODO: remove
@@ -67,4 +67,3 @@ export interface MDXBlogNode {
   }
   slug: string
 }
-

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { WrapRootElementBrowserArgs } from 'gatsby'
 
-import RootWrapper from "@components/RootWrapper"
+import RootWrapper from '@components/RootWrapper'
 
 const wrapRootElement = ({
   element

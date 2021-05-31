@@ -75,6 +75,7 @@ module.exports = {
           "@context": "src/context",
           "@images": "src/images",
           "@layouts": "src/layouts",
+          "@utils": "src/utils",
         },
         extensions: []
       }

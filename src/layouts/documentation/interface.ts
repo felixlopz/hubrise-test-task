@@ -1,5 +1,5 @@
-import { LocaleCode } from '../../utils/locales'
-import { Breadcrumb } from '@components/Breadcrumbs/interface'
+import { LocaleCode } from '@utils/locales'
+import { Breadcrumb } from '@components/Breadcrumbs'
 
 export interface DocumentationContext {
   /** Array of paths leading up to the page. */

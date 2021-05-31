@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import HeaderMobile from './HeaderMobile'
 import HeaderDesktop from './HeaderDesktop'
-import { getLocaleCodeFromAbsolutePath, LocaleCode } from '../../utils/locales'
+import { getLocaleCodeFromAbsolutePath, LocaleCode } from '@utils/locales'
 import { useHeaderData } from './graphql'
 
 interface HeaderProps {

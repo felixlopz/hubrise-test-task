@@ -1,5 +1,5 @@
 import { CreatePagesArgs } from 'gatsby'
-import { MDXBlogNode } from "../../../data/mdx"
+import { MDXBlogNode } from '../../../data/mdx'
 
 export interface BlogMDXNodesData {
   allMdx: {

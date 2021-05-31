@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-import { IToast } from '../../data/toast'
 import { ToastContext, ToastAdder } from './context'
 import Toast from './Toast'
+import { IToast } from './helpers'
 
 const ToastProvider: React.FC = ({ children }) => {
   const [toasts, setToasts] = React.useState<Array<IToast>>([])

@@ -3,7 +3,14 @@ import {
   faTimes,
   IconDefinition
 } from '@fortawesome/free-solid-svg-icons'
-import { IToast } from '../../data/toast'
+
+export interface IToast {
+  id: number
+  variant: 'success' | 'error'
+  title: string
+  text: string
+  timeout?: number
+}
 
 type TimingFunction = (t: number) => number
 

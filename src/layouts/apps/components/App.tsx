@@ -2,10 +2,10 @@ import * as React from 'react'
 import GatsbyImage from 'gatsby-image'
 import { useTranslation } from 'react-i18next'
 
-import { IAdditionalSections, IApp } from "../../../data/apps"
-import { Image, ImageSharpFluid } from "../../../data/image"
-import Link from "@components/Link"
-import { generateKey } from "@components/utils"
+import { Image, ImageSharpFluid } from '../../../data/image'
+import { IAdditionalSections, IApp } from '../interface'
+import Link from '@components/Link'
+import { generateKey } from '@components/utils'
 
 interface AppSectionProps {
   title: string

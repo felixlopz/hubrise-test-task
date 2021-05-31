@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { AppsContext } from '../../data/context'
 import { Image, ImageSharpFluid } from '../../data/image'
 import { generateKey } from '@components/utils'
 import SEO from '@components/Seo'
 import { App, Developer, Hero, Nav } from './components'
+import { AppsContext } from './interface'
 
 interface AppsProps {
   data: AppsData
@@ -77,3 +77,5 @@ const Apps = ({ data, pageContext, path }: AppsProps): JSX.Element => {
 }
 
 export default Apps
+
+export type { AppsContext } from './interface'

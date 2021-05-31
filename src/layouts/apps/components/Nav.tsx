@@ -2,7 +2,7 @@ import * as React from 'react'
 import { useScrollRestoration } from 'gatsby'
 import classNames from 'classnames'
 
-import { ICategory } from '../../../data/apps'
+import { ICategory } from '../interface'
 import Link from '@components/Link'
 
 interface NavProps {

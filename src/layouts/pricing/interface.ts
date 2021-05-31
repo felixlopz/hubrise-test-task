@@ -1,5 +1,3 @@
-import { IMeta } from './base'
-
 export interface IPricing {
   path: string
   meta: IMeta
@@ -8,6 +6,11 @@ export interface IPricing {
     offer: IOffer
     specials: Array<ISpecial>
   }
+}
+
+export interface IMeta {
+  title: string
+  description: string
 }
 
 export interface IHero {

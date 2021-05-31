@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { MDXNode } from "../../../data/mdx"
-import { useLayoutContext } from "@context/layout"
+import { MDXNode } from '../../../data/mdx'
+import { useLayoutContext } from '@context/layout'
 
 export type HeroProps = MDXNode['frontmatter']['content']['hero']
 

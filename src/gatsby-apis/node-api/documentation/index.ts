@@ -13,8 +13,8 @@ import { getFolderPages, getPagePath } from './page'
 import { Actions } from 'gatsby'
 import { getBreadcrumbs } from './breadcrumbs'
 import { getLayoutPath } from '../util/layout'
-import { LocaleCode, localeCodes } from "../../../utils/locales"
-import { DocumentationContext } from "../../../layouts/documentation/interface"
+import { LocaleCode, localeCodes } from '@utils/locales'
+import { DocumentationContext } from '../../../layouts/documentation'
 
 export const createPages = async ({
   graphql,

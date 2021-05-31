@@ -15,7 +15,10 @@ const NotFound = ({ pageContext }: NotFoundProps): JSX.Element => {
 
   return (
     <>
-      <SEO localeCode={pageContext.localeCode} title={t('layout.404.meta.title')} />
+      <SEO
+        localeCode={pageContext.localeCode}
+        title={t('layout.404.meta.title')}
+      />
 
       <div className="page-404">
         <h1 className="page-404__title">{t('layout.404.title')}</h1>

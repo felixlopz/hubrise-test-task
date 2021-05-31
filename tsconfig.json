@@ -20,7 +20,8 @@
       "@components/*": ["./components/*"],
       "@context/*": ["./context/*"],
       "@images/*": ["./images/*"],
-      "@layouts/*": ["./layouts/*"]
+      "@layouts/*": ["./layouts/*"],
+      "@utils/*": ["./utils/*"]
     },
 
     // Temporary, until migration to TS is completed

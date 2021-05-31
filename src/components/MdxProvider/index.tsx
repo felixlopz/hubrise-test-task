@@ -7,7 +7,7 @@ import generateHeaders from './generate_headers'
 import HighlightCode from './highlight_code'
 import InlineImage from './inline_image'
 import Label from './label'
-import Link from '../Link'
+import Link from '@components/Link'
 
 const components = {
   ...generateHeaders([`h2`, `h3`]),

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { WrapPageElementBrowserArgs } from 'gatsby'
 
-import PageWrapper from "@components/PageWrapper"
+import PageWrapper from '@components/PageWrapper'
 
 const wrapPageElement = ({
   element,

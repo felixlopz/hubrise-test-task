@@ -2,7 +2,6 @@ import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { MDXBlogNode } from '../../../data/mdx'
-import { getMdxBlogNodeDate } from '../../../data/blog'
 import Link from '../../Link'
 
 interface PostProps {
@@ -52,3 +51,9 @@ const Post = ({
 }
 
 export default Post
+
+export function getMdxBlogNodeDate(mdxNode: MDXBlogNode): Date {
+  const { frontmatter, slug } = mdxNode
+  if (!frontmatter.date) throw `Missing date on blog post ${slug}`
+  return new Date(frontmatter.date)
+}

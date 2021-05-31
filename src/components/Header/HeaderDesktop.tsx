@@ -2,10 +2,10 @@ import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 import classNames from 'classnames'
 
-import Link from '../Link'
+import Link from '@components/Link'
 import { generateKey } from '../utils'
 import logo from '@images/logo.png'
-import { IHeaderLink } from '../../data/header'
+import { IHeaderLink } from './helpers'
 
 interface HeaderDesktopProps {
   path: string

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Link from '../Link'
+import Link from '@components/Link'
 import { Breadcrumb } from './interface'
 
 interface BreadcrumbsProps {
@@ -32,3 +32,5 @@ const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {
 }
 
 export default Breadcrumbs
+
+export type { Breadcrumb } from './interface'

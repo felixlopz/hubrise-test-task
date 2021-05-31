@@ -1,10 +1,6 @@
 import { Customization, CustomizationMap } from './customization'
 import { GraphQLFunction } from '../util/types'
-import {
-  defaultLocaleCode,
-  LocaleCode,
-  localeCodes
-} from '../../../utils/locales'
+import { defaultLocaleCode, LocaleCode, localeCodes } from '@utils/locales'
 
 export interface Folder {
   /** The folder name (eg "deliveroo"). */

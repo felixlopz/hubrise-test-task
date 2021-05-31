@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { getLocaleCodeFromAbsolutePath } from '../../utils/locales'
+import { getLocaleCodeFromAbsolutePath } from '@utils/locales'
 import { RootContext } from '../../data/context'
 import Copyright from './Copyright'
 import ScrollUpButton from './ScrollUpButton'

@@ -2,13 +2,11 @@ import * as React from 'react'
 import { graphql, navigate } from 'gatsby'
 
 import { MDXBlogNode } from '../../data/mdx'
-import { parseBlogSlug } from '../../data/blog'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
-import Breadcrumbs from '@components/Breadcrumbs'
-import { Breadcrumb } from '@components/Breadcrumbs/interface'
+import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
 import { getLocalizedUrl } from '@components/utils/link'
-import { Post, Sidebar } from '@components/blog'
+import { parseBlogSlug, Post, Sidebar } from '@components/blog'
 
 export interface BlogPostProps {
   data: BlogPostData

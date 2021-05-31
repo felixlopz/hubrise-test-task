@@ -2,20 +2,16 @@ import React, { useEffect, useState } from 'react'
 import { graphql, navigate } from 'gatsby'
 import { useTranslation } from 'react-i18next'
 
-import { getArchiveTitle } from '../../utils/blog'
 import { MDXBlogNode } from '../../data/mdx'
-import { BlogListContext } from '../../data/context'
-import {
-  getMdxBlogNodeDate,
-  parseBlogSlug,
-  sortMdxBlogNodesByDescendingDate
-} from '../../data/blog'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
-import { Breadcrumb } from '@components/Breadcrumbs/interface'
-import Breadcrumbs from '@components/Breadcrumbs'
-import { Hero, Post, Sidebar } from '@components/blog'
+import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
+import { Hero, parseBlogSlug, Post, Sidebar } from '@components/blog'
 import { getLocalizedUrl } from '@components/utils/link'
+import { BlogListContext } from '@layouts/blog-list'
+import { getMdxBlogNodeDate } from '@components/blog/Post'
+import { getArchiveTitle } from '@components/blog/Sidebar'
+import { sortMdxBlogNodesByDescendingDate } from './helpers'
 
 interface BlogListProps {
   data: BlogListData
@@ -136,3 +132,5 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 }
 
 export default BlogList
+
+export type { BlogListContext } from './interface'

@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { LocaleCode } from "../../../utils/locales"
-import { parseBlogSlug } from "../../../data/blog"
+import { LocaleCode } from '@utils/locales'
+import { parseBlogSlug } from '../helpers'
 
 export interface SidebarArticle {
   frontmatter: {

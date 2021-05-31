@@ -1,6 +1,4 @@
-import { LocaleCode } from '../utils/locales'
-import { ArchiveInfo } from './blog'
-import { IApps } from './apps'
+import { LocaleCode } from '@utils/locales'
 
 export interface RootContext {
   localeCode: LocaleCode
@@ -9,13 +7,3 @@ export interface RootContext {
 export interface BaseContext extends RootContext {
   id: string
 }
-
-export interface AppsContext extends RootContext {
-  apps: IApps
-  categoryTitle?: string
-}
-
-export interface BlogListContext extends RootContext {
-  archive?: ArchiveInfo
-}
-

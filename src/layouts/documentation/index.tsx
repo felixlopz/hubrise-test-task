@@ -5,9 +5,9 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { ImageSharpFluid } from '../../data/image'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
-import Breadcrumbs from "@components/Breadcrumbs"
+import Breadcrumbs from '@components/Breadcrumbs'
 import { AppInfo, Feedback, Gallery, SectionNavigation } from './components'
-import { DocumentationContext } from "./interface"
+import { DocumentationContext } from './interface'
 
 interface DocumentationProps {
   data: DocumentationData
@@ -186,3 +186,5 @@ function findImage(
   )
   return imageNode?.childImageSharp
 }
+
+export type { DocumentationContext, FolderPage } from './interface'

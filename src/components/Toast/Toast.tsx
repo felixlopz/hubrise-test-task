@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cx from 'classnames'
 
 import { animate, getIcon } from './helpers'
-import { IToast } from '../../data/toast'
+import { IToast } from './helpers'
 
 type ToastProps = {
   toast: IToast

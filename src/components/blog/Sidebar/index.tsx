@@ -4,13 +4,13 @@ import { useMedia } from 'react-use'
 import { useTranslation } from 'react-i18next'
 
 import { useSidebarData } from './graphql'
-import { getRecentArticles } from './helpers'
 import {
   generateArchiveList,
+  getArchiveTitle,
   getArchiveLink,
-  getArchiveTitle
-} from '../../../utils/blog'
-import Link from '../../Link'
+  getRecentArticles
+} from './helpers'
+import Link from '@components/Link'
 
 interface SidebarProps {
   onQueryChange: (query: string) => void
@@ -148,3 +148,5 @@ const Sidebar = ({
 }
 
 export default Sidebar
+
+export { getArchiveTitle, generateArchiveList } from './helpers'

@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 import Link from '@components/Link'
-import { useLayoutContext } from "@context/layout"
-import { IHero } from "../../../data/apps"
+import { useLayoutContext } from '@context/layout'
+import { IHero } from '../interface'
 
 interface HeroProps {
   hero: IHero

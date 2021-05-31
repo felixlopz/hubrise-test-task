@@ -1,4 +1,4 @@
-import locales from '../../utils/locales'
+import locales from '@utils/locales'
 
 export function getLocalizedUrl(url, currentLang) {
   const locale = locales.find(({ code }) => code === currentLang)

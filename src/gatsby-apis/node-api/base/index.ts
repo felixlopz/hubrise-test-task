@@ -4,7 +4,7 @@ import { getLayoutPath } from '../util/layout'
 import { getBaseFiles } from './graphql'
 import { getLocaleCodeFromFilePath } from '../util/locale'
 import { BaseContext } from '../../../data/context'
-import { pathWithLocale } from "../util/urls"
+import { pathWithLocale } from '../util/urls'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const { createPage } = actions

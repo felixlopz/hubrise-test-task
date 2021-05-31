@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { IDevelopers } from "../../../data/apps"
+import { IDevelopers } from '../interface'
 
 interface DevelopersProps {
   developers: IDevelopers
