@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import Image404 from '../../images/404.png'
+import Image404 from '@images/404.png'
 import { BaseContext } from '../../data/context'
-import SEO from '../../components/Seo'
-import Link from '../../components/Link'
+import SEO from '@components/Seo'
+import Link from '@components/Link'
 
 interface NotFoundProps {
   pageContext: BaseContext

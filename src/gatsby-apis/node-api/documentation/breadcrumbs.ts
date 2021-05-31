@@ -1,6 +1,6 @@
 import { Folder, getFolderFiles, getFolderPath } from './folder'
 import { LocaleCode } from '../../../utils/locales'
-import { IBreadcrumb } from '../../../components/Breadcrumbs/context'
+import { Breadcrumb } from '@components/Breadcrumbs/interface'
 
 /**
  * Returns the list of breadcrumbs leading up to a page.
@@ -12,8 +12,8 @@ export function getBreadcrumbs(
   folder: Folder,
   localeCode: LocaleCode,
   nodeTitle: string
-): Array<IBreadcrumb> {
-  function getFolderBreadcrumbs(folder: Folder): Array<IBreadcrumb> {
+): Array<Breadcrumb> {
+  function getFolderBreadcrumbs(folder: Folder): Array<Breadcrumb> {
     if (!folder.parent) return []
 
     let parentBreadcrumbs = getFolderBreadcrumbs(folder.parent)

@@ -1,9 +1,8 @@
 import * as React from 'react'
 
-import { generateKey } from "../../../components/utils"
-import { MDXNode } from "../../../data/mdx"
-import Link from "../../../components/Link"
-
+import { generateKey } from '@components/utils'
+import Link from '@components/Link'
+import { MDXNode } from '../../../data/mdx'
 
 interface AppInfoProps {
   content: MDXNode['frontmatter']['app_info']

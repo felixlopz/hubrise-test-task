@@ -1,6 +1,7 @@
 import * as React from 'react'
-import { markdownToHtml } from '../../../components/utils'
-import Link from '../../../components/Link'
+
+import { markdownToHtml } from '@components/utils'
+import Link from '@components/Link'
 
 interface HeroProps {
   title: string

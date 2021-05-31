@@ -16,6 +16,12 @@
     "resolveJsonModule": true,
     "baseUrl": "./src",
     "outDir": "./dist",
+    "paths": {
+      "@components/*": ["./components/*"],
+      "@context/*": ["./context/*"],
+      "@images/*": ["./images/*"],
+      "@layouts/*": ["./layouts/*"]
+    },
 
     // Temporary, until migration to TS is completed
     "allowJs": true,

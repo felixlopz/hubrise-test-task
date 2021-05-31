@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import { Image, ImageSharpFixed } from '../../../data/image'
-import { markdownToHtml } from '../../../components/utils'
+import { markdownToHtml } from '@components/utils'
 
 interface ApiProps {
   title: string

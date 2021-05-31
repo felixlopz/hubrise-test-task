@@ -3,10 +3,10 @@ import { graphql } from 'gatsby'
 
 import { MDXNode } from '../../data/mdx'
 import { RootContext } from '../../data/context'
-import { generateKey } from '../../components/utils'
-import SEO from '../../components/Seo'
 import Hero from "./components/Hero"
 import Thumb from "./components/Thumb"
+import { generateKey } from '@components/utils'
+import SEO from '@components/Seo'
 
 interface DevelopersProps {
   data: DevelopersData

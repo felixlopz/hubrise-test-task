@@ -2,11 +2,11 @@ import * as React from 'react'
 import cx from 'classnames'
 import { useMedia } from 'react-use'
 
-import Link from '../../../components/Link'
-import NonStretchedImage from '../../../components/NonStretchedImage'
-import { generateKey } from '../../../components/utils'
+import Link from '@components/Link'
+import NonStretchedImage from '@components/NonStretchedImage'
+import { generateKey } from '@components/utils'
 import { ImageSharpFluid } from '../../../data/image'
-import { FolderPage } from '../context'
+import { FolderPage } from '../interface'
 
 interface SectionNavigationProps {
   currentPath: string

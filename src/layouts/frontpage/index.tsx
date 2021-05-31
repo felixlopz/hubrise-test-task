@@ -12,7 +12,7 @@ import {
   Developers,
   Join
 } from './components'
-import SEO from '../../components/Seo'
+import SEO from '@components/Seo'
 
 interface FrontpageProps {
   data: FrontpageData

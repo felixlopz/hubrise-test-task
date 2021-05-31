@@ -66,6 +66,18 @@ module.exports = {
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    'gatsby-plugin-client-side-redirect'
+    'gatsby-plugin-client-side-redirect',
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@components": "src/components",
+          "@context": "src/context",
+          "@images": "src/images",
+          "@layouts": "src/layouts",
+        },
+        extensions: []
+      }
+    },
   ]
 }

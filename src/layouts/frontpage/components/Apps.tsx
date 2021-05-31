@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-import Link from '../../../components/Link'
 import { Image, ImageSharpFixed } from "../../../data/image"
-import { markdownToHtml } from "../../../components/utils"
+import Link from '@components/Link'
+import { markdownToHtml } from "@components/utils"
 
 interface AppsProps {
   title: string

@@ -3,11 +3,11 @@ import * as React from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import { ImageSharpFluid } from '../../data/image'
-import { DocumentationContext } from './context'
-import SEO from '../../components/Seo'
-import MDXProvider from '../../components/MdxProvider'
+import SEO from '@components/Seo'
+import MDXProvider from '@components/MdxProvider'
+import Breadcrumbs from "@components/Breadcrumbs"
 import { AppInfo, Feedback, Gallery, SectionNavigation } from './components'
-import Breadcrumbs from "../../components/Breadcrumbs"
+import { DocumentationContext } from "./interface"
 
 interface DocumentationProps {
   data: DocumentationData

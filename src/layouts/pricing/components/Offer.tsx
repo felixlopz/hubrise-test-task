@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 import { IOffer } from "../../../data/pricing"
-import { generateKey } from "../../../components/utils"
-import Link from "../../../components/Link"
+import { generateKey } from "@components/utils"
+import Link from "@components/Link"
 
 interface OfferProps {
   offer: IOffer

@@ -4,8 +4,8 @@ import classNames from 'classnames'
 
 import Link from '../Link'
 import { generateKey } from '../utils'
-import button from '../../images/bread_button.png'
-import logo from '../../images/logo.png'
+import button from '@images/bread_button.png'
+import logo from '@images/logo.png'
 import { IHeaderLink } from '../../data/header'
 
 interface HeaderMobileProps {

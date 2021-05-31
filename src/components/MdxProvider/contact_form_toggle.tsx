@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { useLayoutContext } from '../../context/layout'
+import { useLayoutContext } from '@context/layout'
 
 interface ContactFormToggleProps {
   text: string

@@ -1,6 +1,6 @@
 import { Folder, FolderFiles, getFolderPath, MDXDocumentationNode } from "./folder"
 import { LocaleCode } from "../../../utils/locales"
-import { FolderPage } from "../../../layouts/documentation/context"
+import { FolderPage } from "../../../layouts/documentation/interface"
 
 /**
  * Returns the path of a documentation page on the website with a leading slash (eg "/fr/deliveroo/map-ref-codes").

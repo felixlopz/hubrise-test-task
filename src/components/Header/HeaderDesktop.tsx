@@ -4,7 +4,7 @@ import classNames from 'classnames'
 
 import Link from '../Link'
 import { generateKey } from '../utils'
-import logo from '../../images/logo.png'
+import logo from '@images/logo.png'
 import { IHeaderLink } from '../../data/header'
 
 interface HeaderDesktopProps {

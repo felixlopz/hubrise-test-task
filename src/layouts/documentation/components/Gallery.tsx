@@ -8,9 +8,9 @@ import 'slick-carousel/slick/slick-theme.css'
 
 import NextArrow from './Gallery/NextArrow'
 import PrevArrow from './Gallery/PrevArrow'
-import { generateKey } from "../../../components/utils"
+import { generateKey } from "@components/utils"
+import NonStretchedImage from "@components/NonStretchedImage"
 import { ImageSharpFluid } from "../../../data/image"
-import NonStretchedImage from "../../../components/NonStretchedImage"
 
 interface GalleryProps {
   imageMap: Map<string, ImageSharpFluid>

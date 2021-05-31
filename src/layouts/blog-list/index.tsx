@@ -5,17 +5,17 @@ import { useTranslation } from 'react-i18next'
 import { getArchiveTitle } from '../../utils/blog'
 import { MDXBlogNode } from '../../data/mdx'
 import { BlogListContext } from '../../data/context'
-import SEO from '../../components/Seo'
-import MDXProvider from '../../components/MdxProvider'
 import {
   getMdxBlogNodeDate,
   parseBlogSlug,
   sortMdxBlogNodesByDescendingDate
 } from '../../data/blog'
-import { IBreadcrumb } from '../../components/Breadcrumbs/context'
-import Breadcrumbs from '../../components/Breadcrumbs'
-import { Hero, Post, Sidebar } from '../../components/blog'
-import { getLocalizedUrl } from '../../components/utils/link'
+import SEO from '@components/Seo'
+import MDXProvider from '@components/MdxProvider'
+import { Breadcrumb } from '@components/Breadcrumbs/interface'
+import Breadcrumbs from '@components/Breadcrumbs'
+import { Hero, Post, Sidebar } from '@components/blog'
+import { getLocalizedUrl } from '@components/utils/link'
 
 interface BlogListProps {
   data: BlogListData
@@ -84,7 +84,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 
-  let breadcrumbs: Array<IBreadcrumb> = []
+  let breadcrumbs: Array<Breadcrumb> = []
   if (archive) {
     breadcrumbs = [
       {

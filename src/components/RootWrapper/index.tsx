@@ -3,7 +3,7 @@ import * as Sentry from '@sentry/react'
 import { I18nextProvider } from 'react-i18next'
 
 import i18n from '../../i18n'
-import { LayoutProvider } from '../../context/layout'
+import { LayoutProvider } from '@context/layout'
 
 const RootWrapper: React.FC = ({ children }): JSX.Element => {
   return (

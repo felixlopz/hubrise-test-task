@@ -1,10 +1,10 @@
 import * as React from 'react'
 import Helmet from 'react-helmet'
 
-import AppleTouchIcon from '../../images/favicons/apple-touch-icon.png'
-import SafariPinnedTab from '../../images/favicons/safari-pinned-tab.svg'
-import Favicon32 from '../../images/favicons/favicon-32x32.png'
-import Favicon16 from '../../images/favicons/favicon-16x16.png'
+import AppleTouchIcon from '@images/favicons/apple-touch-icon.png'
+import SafariPinnedTab from '@images/favicons/safari-pinned-tab.svg'
+import Favicon32 from '@images/favicons/favicon-32x32.png'
+import Favicon16 from '@images/favicons/favicon-16x16.png'
 import { useSeoData } from './graphql'
 import { LocaleCode } from '../../utils/locales'
 

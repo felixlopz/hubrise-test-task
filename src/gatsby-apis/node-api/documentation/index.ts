@@ -14,7 +14,7 @@ import { Actions } from 'gatsby'
 import { getBreadcrumbs } from './breadcrumbs'
 import { getLayoutPath } from '../util/layout'
 import { LocaleCode, localeCodes } from "../../../utils/locales"
-import { DocumentationContext } from "../../../layouts/documentation/context"
+import { DocumentationContext } from "../../../layouts/documentation/interface"
 
 export const createPages = async ({
   graphql,

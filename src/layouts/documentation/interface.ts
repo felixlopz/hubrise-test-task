@@ -1,9 +1,9 @@
 import { LocaleCode } from '../../utils/locales'
-import { IBreadcrumb } from '../../components/Breadcrumbs/context'
+import { Breadcrumb } from '@components/Breadcrumbs/interface'
 
 export interface DocumentationContext {
   /** Array of paths leading up to the page. */
-  breadcrumbs: Array<IBreadcrumb>
+  breadcrumbs: Array<Breadcrumb>
   /** List of neighbour pages of the current page, sorted by position. Used for navigation. */
   folderPages: Array<FolderPage>
   /** The chapter title, eg "Deliveroo Bridge" */

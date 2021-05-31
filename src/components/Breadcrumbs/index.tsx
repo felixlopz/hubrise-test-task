@@ -1,10 +1,10 @@
 import * as React from 'react'
 
-import { IBreadcrumb } from './context'
 import Link from '../Link'
+import { Breadcrumb } from './interface'
 
 interface BreadcrumbsProps {
-  breadcrumbs: Array<IBreadcrumb>
+  breadcrumbs: Array<Breadcrumb>
 }
 
 const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {

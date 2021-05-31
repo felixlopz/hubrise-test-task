@@ -2,13 +2,13 @@ import * as React from 'react'
 import { graphql, navigate } from 'gatsby'
 
 import { MDXBlogNode } from '../../data/mdx'
-import SEO from '../../components/Seo'
-import MDXProvider from '../../components/MdxProvider'
 import { parseBlogSlug } from '../../data/blog'
-import Breadcrumbs from '../../components/Breadcrumbs'
-import { IBreadcrumb } from '../../components/Breadcrumbs/context'
-import { getLocalizedUrl } from '../../components/utils/link'
-import { Post, Sidebar } from '../../components/blog'
+import SEO from '@components/Seo'
+import MDXProvider from '@components/MdxProvider'
+import Breadcrumbs from '@components/Breadcrumbs'
+import { Breadcrumb } from '@components/Breadcrumbs/interface'
+import { getLocalizedUrl } from '@components/utils/link'
+import { Post, Sidebar } from '@components/blog'
 
 export interface BlogPostProps {
   data: BlogPostData
@@ -47,7 +47,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 
-  const breadcrumbs: Array<IBreadcrumb> = [
+  const breadcrumbs: Array<Breadcrumb> = [
     {
       path: '/blog',
       label: pageContext.config.name

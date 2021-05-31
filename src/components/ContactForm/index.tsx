@@ -4,7 +4,7 @@ import { Formik } from 'formik'
 
 import Form from './Form'
 import { createContactSchema, encodeFormData, FormikStructure } from './helpers'
-import { useLayoutContext } from "../../context/layout"
+import { useLayoutContext } from "@context/layout"
 import { useToast } from "../Toast"
 
 interface ContactFormProps {
