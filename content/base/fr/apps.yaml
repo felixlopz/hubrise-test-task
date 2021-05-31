@@ -220,6 +220,11 @@ content:
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
           additional_info: Documentation en anglais.
+        - website: https://maakyo.com/
+          documentation:
+          logo: maakyo.png
+          title: Maakyo
+          description: Maakyo est une solution de commande à table. Le client scanne un QR code, accède au menu depuis son smartphone, commande et paye. Aucune app à installer. Menu disponible en plusieurs langues.
         - website: https://mylemonade.app/fr/accueilfr/
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
