@@ -3,9 +3,9 @@ import { CreatePagesArgs } from 'gatsby'
 import { getLayoutPath } from '../util/layout'
 import { pathWithLocale } from '../util/urls'
 import { getBlogMDXNodes } from './graphql'
-import { localeCodes } from '@utils/locales'
-import { generateArchiveList } from '@components/blog/Sidebar'
-import { BlogListContext } from '@layouts/blog-list/interface'
+import { localeCodes } from '../../../utils/locales'
+import { generateArchiveList } from '../../../components/blog/Sidebar/helpers'
+import { BlogListContext } from '../../../layouts/blog-list/interface'
 
 const BLOG_PAGE_PATH = '/blog'
 

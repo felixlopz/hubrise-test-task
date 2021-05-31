@@ -1,4 +1,4 @@
-import { defaultLocaleCode, LocaleCode, localeCodes } from '@utils/locales'
+import { defaultLocaleCode, LocaleCode, localeCodes } from '../../../utils/locales'
 
 /**
  * Extract the locale from a file path.

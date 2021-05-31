@@ -2,7 +2,7 @@ import { CreatePagesArgs } from 'gatsby'
 
 import { getLayoutPath } from '../util/layout'
 import { getAppsMap, IAppsMap } from './apps_map'
-import { AppsContext } from '@layouts/apps'
+import { AppsContext } from '../../../layouts/apps'
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const appsMap: IAppsMap = await getAppsMap(graphql)

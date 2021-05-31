@@ -1,8 +1,8 @@
 import { GraphQLFunction } from '../util/types'
 import { getLocaleCodeFromFilePath } from '../util/locale'
-import { LocaleCode } from '@utils/locales'
+import { LocaleCode } from '../../../utils/locales'
 import { pathWithLocale } from '../util/urls'
-import { IApps } from '@layouts/apps/interface'
+import { IApps } from '../../../layouts/apps/interface'
 
 /** Associate a locale code to an IApps  */
 export type IAppsMap = Map<LocaleCode, IApps>
