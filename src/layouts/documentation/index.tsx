@@ -79,6 +79,7 @@ export const graphqlQuery = graphql`
     images: allFile(
       filter: {
         relativeDirectory: { eq: $imagesRelativeDirectory }
+        name: { regex: "/^__(logo|gallery)/" }
         children: { elemMatch: { internal: { type: { eq: "ImageSharp" } } } }
       }
     ) {
