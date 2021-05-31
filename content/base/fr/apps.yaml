@@ -207,7 +207,7 @@ content:
           logo: app4.png
           title: App4
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://www.aquila-cms.com/
           documentation: /apps/aquila/
           logo: aquila-cms.png
