@@ -6,7 +6,7 @@ import { MDXBlogNode } from '../../data/mdx'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
-import { Hero, parseBlogSlug, Post, Sidebar } from '@components/blog'
+import { Hero, Post, Sidebar } from '@components/blog'
 import { getLocalizedUrl } from '@components/utils/link'
 import { BlogListContext } from '@layouts/blog-list'
 import { getMdxBlogNodeDate } from '@components/blog/Post'
@@ -28,13 +28,16 @@ export const graphqlQuery = graphql`
   query blogListData {
     allMdx(filter: { slug: { regex: "/^blog//" } }) {
       nodes {
+        fields {
+          localeCode
+          path
+        }
         frontmatter {
           title
           excerpt
           author
           date
         }
-        slug
       }
     }
   }
@@ -45,8 +48,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
   const { archive } = pageContext
 
   const mdxNodesInLocale = data.allMdx.nodes.filter(
-    (mdxNode) =>
-      parseBlogSlug(mdxNode.slug).localeCode === pageContext.localeCode
+    (mdxNode) => mdxNode.fields.localeCode === pageContext.localeCode
   )
 
   /** Display only articles from selected archive, and order them by date. */
@@ -119,11 +121,9 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
             onQueryChange={handleQueryChange}
           />
           <div className="section__content">
-            {filteredMdxNodes.map((mdxNode, idx) => {
-              const { name } = parseBlogSlug(mdxNode.slug)
-              if (name)
-                return <Post key={idx} name={name} mdxNode={mdxNode} showMore />
-            })}
+            {filteredMdxNodes.map((mdxNode, idx) => (
+              <Post key={idx} mdxNode={mdxNode} showMore />
+            ))}
           </div>
         </div>
       </section>

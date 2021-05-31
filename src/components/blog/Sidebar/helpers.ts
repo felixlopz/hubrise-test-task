@@ -5,11 +5,7 @@ export function getRecentArticles(
   sidebarArticles: Array<SidebarArticle>
 ): Array<SidebarArticle> {
   return sidebarArticles
-    .sort(
-      (a, b) =>
-        new Date(b.frontmatter.date).getTime() -
-        new Date(a.frontmatter.date).getTime()
-    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 5)
 }
 

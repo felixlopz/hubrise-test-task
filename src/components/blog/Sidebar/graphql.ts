@@ -1,15 +1,27 @@
 import { graphql, useStaticQuery } from 'gatsby'
 
 import { LocaleCode } from '@utils/locales'
-import { parseBlogSlug } from '../helpers'
 
 export interface SidebarArticle {
-  frontmatter: {
-    date: string
-    title: string
-  }
+  date: string
+  title: string
   localeCode: LocaleCode
-  name: string
+  path: string
+}
+
+interface SidebarData {
+  allMdx: {
+    nodes: Array<{
+      fields: {
+        localeCode: LocaleCode
+        path: string
+      }
+      frontmatter: {
+        date
+        title
+      }
+    }>
+  }
 }
 
 export function useSidebarData(): Array<SidebarArticle> {
@@ -17,11 +29,14 @@ export function useSidebarData(): Array<SidebarArticle> {
     query getSidebarData {
       allMdx(filter: { slug: { regex: "/^blog//" } }) {
         nodes {
+          fields {
+            localeCode
+            path
+          }
           frontmatter {
             date
             title
           }
-          slug
         }
       }
     }
@@ -29,30 +44,14 @@ export function useSidebarData(): Array<SidebarArticle> {
 
   const result: Array<SidebarArticle> = []
   for (let node of data.allMdx.nodes) {
-    const { localeCode, name } = parseBlogSlug(node.slug)
-    if (!localeCode || !name) {
-      console.log(
-        `The blog file ${node.slug} appears to not live in a blog/{localeCode} folder. Skipping.`
-      )
-      continue
-    }
+    const { date, title } = node.frontmatter
+    const { localeCode, path } = node.fields
     result.push({
-      frontmatter: node.frontmatter,
+      date,
+      title,
       localeCode,
-      name
+      path
     })
   }
   return result
-}
-
-interface SidebarData {
-  allMdx: {
-    nodes: Array<{
-      frontmatter: {
-        date
-        title
-      }
-      slug
-    }>
-  }
 }

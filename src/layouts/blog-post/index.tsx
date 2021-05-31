@@ -6,11 +6,13 @@ import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
 import { getLocalizedUrl } from '@components/utils/link'
-import { parseBlogSlug, Post, Sidebar } from '@components/blog'
+import { Post, Sidebar } from '@components/blog'
+import { BlogPostContext } from './interface'
+import { useTranslation } from 'react-i18next'
 
 export interface BlogPostProps {
   data: BlogPostData
-  pageContext: any
+  pageContext: BlogPostContext
 }
 
 interface BlogPostData {
@@ -18,9 +20,13 @@ interface BlogPostData {
 }
 
 export const graphqlQuery = graphql`
-  query blogPostData($id: String!) {
-    mdxNode: mdx(id: { eq: $id }) {
+  query blogPostData($mdxNodeId: String!) {
+    mdxNode: mdx(id: { eq: $mdxNodeId }) {
       id
+      fields {
+        localeCode
+        path
+      }
       frontmatter {
         meta {
           title
@@ -31,7 +37,6 @@ export const graphqlQuery = graphql`
         date
       }
       body
-      slug
     }
   }
 `
@@ -39,6 +44,7 @@ export const graphqlQuery = graphql`
 const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
   const mdxNode = data.mdxNode
   const { meta } = mdxNode.frontmatter
+  const { t } = useTranslation()
 
   function handleQueryChange(newQuery: string): void {
     let pathname = getLocalizedUrl('/blog', pageContext.localeCode)
@@ -48,13 +54,10 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
   const breadcrumbs: Array<Breadcrumb> = [
     {
       path: '/blog',
-      label: pageContext.config.name
+      label: t('blog.title')
     },
     { label: mdxNode.frontmatter.title }
   ]
-
-  const { name } = parseBlogSlug(mdxNode.slug)
-  if (!name) return <></>
 
   return (
     <MDXProvider>
@@ -70,7 +73,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
         <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
           <Sidebar onQueryChange={handleQueryChange} />
           <div className="section__content">
-            <Post mdxNode={mdxNode} name={name} showBody />
+            <Post mdxNode={mdxNode} showBody />
           </div>
         </div>
       </div>

@@ -32,9 +32,7 @@ const Sidebar = ({
   const recentSidebarArticles = getRecentArticles(sidebarArticles)
 
   const archiveList = generateArchiveList(
-    sidebarArticles.map(
-      (sidebarArticle) => new Date(sidebarArticle.frontmatter.date)
-    )
+    sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date))
   )
   const isDesktop = useMedia('(min-width: 1024px)')
   const [query, setQuery] = useState(searchQuery || '')
@@ -104,8 +102,12 @@ const Sidebar = ({
         <ul className="blog-sidebar__menu-list">
           {recentSidebarArticles.map((sidebarArticle, idx) => (
             <li className="blog-sidebar__menu-item" key={idx}>
-              <Link to={sidebarArticle.name} activeClassName="active">
-                {sidebarArticle.frontmatter.title}
+              <Link
+                to={sidebarArticle.path}
+                addLocalePrefix={false}
+                activeClassName="active"
+              >
+                {sidebarArticle.title}
               </Link>
             </li>
           ))}

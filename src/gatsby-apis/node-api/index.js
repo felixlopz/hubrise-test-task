@@ -9,7 +9,7 @@ const plugins = [
   require(`./404`),
   require(`./apps`),
   require(`./base`),
-  require(`./blog-list`),
+  require(`./blog`),
   require(`./documentation`),
   require(`./redirects`),
   require(`./translations`),

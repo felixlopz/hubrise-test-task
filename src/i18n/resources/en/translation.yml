@@ -2,6 +2,9 @@ apps:
   view_documentation: View documentation
   visit_website: Open editor website
 
+blog:
+  title: Blog
+
 layout:
   header:
     buttons:

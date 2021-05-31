@@ -6,14 +6,12 @@ import Link from '../../Link'
 
 interface PostProps {
   mdxNode: MDXBlogNode
-  name: string
   showMore?: boolean
   showBody?: boolean
 }
 
 const Post = ({
   mdxNode,
-  name,
   showMore = false,
   showBody = false
 }: PostProps): JSX.Element => {
@@ -34,7 +32,11 @@ const Post = ({
         {showMore && (
           <>
             <div className="blog-post__excerpt">{frontmatter.excerpt}</div>
-            <Link to={name} className="blog-post__read-more">
+            <Link
+              to={mdxNode.fields.path}
+              addLocalePrefix={false}
+              className="blog-post__read-more"
+            >
               {t('misc.read_more')}
             </Link>
           </>
@@ -53,7 +55,7 @@ const Post = ({
 export default Post
 
 export function getMdxBlogNodeDate(mdxNode: MDXBlogNode): Date {
-  const { frontmatter, slug } = mdxNode
-  if (!frontmatter.date) throw `Missing date on blog post ${slug}`
+  const { frontmatter, fields } = mdxNode
+  if (!frontmatter.date) throw `Missing date on blog post ${fields.path}`
   return new Date(frontmatter.date)
 }
