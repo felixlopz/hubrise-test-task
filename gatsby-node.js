@@ -1,3 +1,3 @@
-const nodeAPI = require('./gatsby/node-api')
+const nodeAPI = require('./src/gatsby-apis/node-api')
 
 module.exports = nodeAPI

@@ -1,10 +1,9 @@
 import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-
 import { MDXBlogNode } from '../../../data/mdx'
 import { getMdxBlogNodeDate } from '../../../data/blog'
-import Link from '../../link'
+import Link from '../../Link'
 
 interface PostProps {
   mdxNode: MDXBlogNode

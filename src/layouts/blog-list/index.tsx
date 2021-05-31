@@ -5,17 +5,17 @@ import { useTranslation } from 'react-i18next'
 import { getArchiveTitle } from '../../utils/blog'
 import { MDXBlogNode } from '../../data/mdx'
 import { BlogListContext } from '../../data/context'
-import { Hero, Post, Sidebar } from '../../components/blog'
-import { Breadcrumbs } from '../../components/documentation'
-import { getLocalizedUrl } from '../../components/utils/link'
-import SEO from '../../components/shared/Seo'
-import MDXProvider from '../../components/shared/MdxProvider'
+import SEO from '../../components/Seo'
+import MDXProvider from '../../components/MdxProvider'
 import {
   getMdxBlogNodeDate,
   parseBlogSlug,
   sortMdxBlogNodesByDescendingDate
 } from '../../data/blog'
-import { IBreadcrumb } from '../documentation/context'
+import { IBreadcrumb } from '../../components/Breadcrumbs/context'
+import Breadcrumbs from '../../components/Breadcrumbs'
+import { Hero, Post, Sidebar } from '../../components/blog'
+import { getLocalizedUrl } from '../../components/utils/link'
 
 interface BlogListProps {
   data: BlogListData

@@ -3,14 +3,14 @@ import classNames from 'classnames'
 import { useMedia } from 'react-use'
 import { useTranslation } from 'react-i18next'
 
+import { useSidebarData } from './graphql'
+import { getRecentArticles } from './helpers'
 import {
   generateArchiveList,
   getArchiveLink,
   getArchiveTitle
 } from '../../../utils/blog'
-import Link from '../../link'
-import { useSidebarData } from './graphql'
-import { getRecentArticles } from './helpers'
+import Link from '../../Link'
 
 interface SidebarProps {
   onQueryChange: (query: string) => void

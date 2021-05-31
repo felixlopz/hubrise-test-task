@@ -4,8 +4,9 @@ import { graphql } from 'gatsby'
 import { BaseContext } from '../../data/context'
 import { Image, ImageSharpFluid } from '../../data/image'
 import { IPricing } from '../../data/pricing'
-import { Offer, Specials } from '../../components/pricing'
-import SEO from '../../components/shared/Seo'
+import SEO from '../../components/Seo'
+import Offer from "./components/Offer"
+import Specials from "./components/Specials"
 
 interface PricingProps {
   data: PricingData

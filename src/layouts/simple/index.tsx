@@ -4,7 +4,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import { BaseContext } from '../../data/context'
 import { MDXNode } from '../../data/mdx'
-import SEO from '../../components/shared/Seo'
+import SEO from '../../components/Seo'
 
 interface SimpleProps {
   data: SimpleData

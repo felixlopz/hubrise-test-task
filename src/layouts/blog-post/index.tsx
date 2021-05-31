@@ -1,14 +1,14 @@
 import * as React from 'react'
 import { graphql, navigate } from 'gatsby'
 
-import { getLocalizedUrl } from '../../components/utils/link'
 import { MDXBlogNode } from '../../data/mdx'
-import SEO from '../../components/shared/Seo'
-import MDXProvider from '../../components/shared/MdxProvider'
-import { Post, Sidebar } from '../../components/blog'
-import { Breadcrumbs } from '../../components/documentation'
+import SEO from '../../components/Seo'
+import MDXProvider from '../../components/MdxProvider'
 import { parseBlogSlug } from '../../data/blog'
-import { IBreadcrumb } from '../documentation/context'
+import Breadcrumbs from '../../components/Breadcrumbs'
+import { IBreadcrumb } from '../../components/Breadcrumbs/context'
+import { getLocalizedUrl } from '../../components/utils/link'
+import { Post, Sidebar } from '../../components/blog'
 
 export interface BlogPostProps {
   data: BlogPostData

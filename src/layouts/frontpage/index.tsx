@@ -11,8 +11,8 @@ import {
   Pricing,
   Developers,
   Join
-} from '../../components/frontpage'
-import SEO from '../../components/shared/Seo'
+} from './components'
+import SEO from '../../components/Seo'
 
 interface FrontpageProps {
   data: FrontpageData
@@ -39,9 +39,7 @@ export const graphqlQuery = graphql`
         parsedContent
       }
     }
-    apps: file(
-      absolutePath: { glob: "**/content/images/frontpage/apps.png" }
-    ) {
+    apps: file(absolutePath: { glob: "**/content/images/frontpage/apps.png" }) {
       childImageSharp {
         fixed(width: 501, height: 395) {
           ...GatsbyImageSharpFixed
@@ -67,9 +65,7 @@ export const graphqlQuery = graphql`
       }
     }
     documentationImage: file(
-      absolutePath: {
-        glob: "**/content/images/frontpage/documentation.png"
-      }
+      absolutePath: { glob: "**/content/images/frontpage/documentation.png" }
     ) {
       childImageSharp {
         fixed(width: 558, height: 347) {

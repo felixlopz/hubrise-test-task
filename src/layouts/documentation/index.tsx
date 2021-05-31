@@ -1,20 +1,13 @@
 import { graphql } from 'gatsby'
 import * as React from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { useTranslation } from 'react-i18next'
 
 import { ImageSharpFluid } from '../../data/image'
 import { DocumentationContext } from './context'
-import { getFeedbackOptions } from './helpers'
-import {
-  SectionNavigation,
-  Gallery,
-  AppInfo,
-  Breadcrumbs,
-  Feedback
-} from '../../components/documentation'
-import SEO from '../../components/shared/Seo'
-import MDXProvider from '../../components/shared/MdxProvider'
+import SEO from '../../components/Seo'
+import MDXProvider from '../../components/MdxProvider'
+import { AppInfo, Feedback, Gallery, SectionNavigation } from './components'
+import Breadcrumbs from "../../components/Breadcrumbs"
 
 interface DocumentationProps {
   data: DocumentationData
@@ -113,8 +106,6 @@ const Documentation = ({
   path,
   pageContext
 }: DocumentationProps): JSX.Element => {
-  const { t } = useTranslation()
-
   const {
     breadcrumbs,
     folderTitle,
@@ -127,11 +118,6 @@ const Documentation = ({
 
   const { frontmatter, body } = currentMdxNode
   const { meta, title, gallery, app_info } = frontmatter
-
-  const feedbackOptions = getFeedbackOptions(
-    t,
-    currentMdxNode.parent.relativePath
-  )
 
   const logoImage = findImage(data.images, logoImageName)
 
@@ -184,7 +170,7 @@ const Documentation = ({
         </div>
       </section>
 
-      <Feedback options={feedbackOptions} />
+      <Feedback relativePath={currentMdxNode.parent.relativePath} />
     </MDXProvider>
   )
 }

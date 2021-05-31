@@ -1,4 +1,5 @@
 import { LocaleCode } from '../../utils/locales'
+import { IBreadcrumb } from '../../components/Breadcrumbs/context'
 
 export interface DocumentationContext {
   /** Array of paths leading up to the page. */
@@ -15,11 +16,6 @@ export interface DocumentationContext {
   mdXNodeId: string
   /** The path of the images directory, relative to "content", with no leading slash (eg "contributing/images"). */
   imagesRelativeDirectory: string
-}
-
-export interface IBreadcrumb {
-  label: string
-  path?: string
 }
 
 export interface FolderPage {

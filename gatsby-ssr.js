@@ -1,5 +1,5 @@
 import './src/styles/global.scss'
-import { ssrAPI } from './gatsby/ssr-api'
+import { ssrAPI } from './src/gatsby-apis/ssr-api'
 
 export const wrapRootElement = ssrAPI.wrapRootElement
 export const wrapPageElement = ssrAPI.wrapPageElement
