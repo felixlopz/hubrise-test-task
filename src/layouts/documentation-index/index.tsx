@@ -2,24 +2,24 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 
 import { MDXNode } from '../../data/mdx'
-import { RootContext } from '../../data/context'
-import Hero from './components/Hero'
-import Thumb from './components/Thumb'
 import { generateKey } from '@components/utils'
 import SEO from '@components/Seo'
+import Hero from './components/Hero'
+import Thumb from './components/Thumb'
+import { DocumentationIndexContext } from './interface'
 
-interface DevelopersProps {
-  data: DevelopersData
-  pageContext: RootContext
+interface DocumentationIndexProps {
+  data: DocumentationIndexData
+  pageContext: DocumentationIndexContext
 }
 
-interface DevelopersData {
+interface DocumentationIndexData {
   mdx: MDXNode
 }
 
 export const graphqlQuery = graphql`
-  query developersData($id: String!) {
-    mdx(id: { eq: $id }) {
+  query developersData($mdXNodeId: String!) {
+    mdx(id: { eq: $mdXNodeId }) {
       frontmatter {
         meta {
           title
@@ -48,10 +48,10 @@ export const graphqlQuery = graphql`
   }
 `
 
-const DevelopersPage = ({
+const DocumentationIndex = ({
   data,
   pageContext
-}: DevelopersProps): JSX.Element => {
+}: DocumentationIndexProps): JSX.Element => {
   const { meta, content } = data.mdx.frontmatter
 
   return (
@@ -85,4 +85,4 @@ const DevelopersPage = ({
   )
 }
 
-export default DevelopersPage
+export default DocumentationIndex

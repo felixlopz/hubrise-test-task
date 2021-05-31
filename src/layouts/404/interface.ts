@@ -1,5 +1,5 @@
 import { LocaleCode } from '@utils/locales'
 
-export interface RootContext {
+export interface PageNotFoundContext {
   localeCode: LocaleCode
 }

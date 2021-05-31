@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { BaseContext } from '../../data/context'
 import { Image, ImageSharpFixed } from '../../data/image'
 import {
   Hero,
@@ -13,10 +12,11 @@ import {
   Join
 } from './components'
 import SEO from '@components/Seo'
+import { FrontpageContext } from './interface'
 
 interface FrontpageProps {
   data: FrontpageData
-  pageContext: BaseContext
+  pageContext: FrontpageContext
 }
 
 interface FrontpageData {

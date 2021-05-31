@@ -2,12 +2,12 @@ import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import Image404 from '@images/404.png'
-import { BaseContext } from '../../data/context'
 import SEO from '@components/Seo'
 import Link from '@components/Link'
+import { PageNotFoundContext } from './interface'
 
 interface NotFoundProps {
-  pageContext: BaseContext
+  pageContext: PageNotFoundContext
 }
 
 const NotFound = ({ pageContext }: NotFoundProps): JSX.Element => {

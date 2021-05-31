@@ -1,5 +1,6 @@
 import { LocaleCode } from '@utils/locales'
 
-export interface RootContext {
+export interface DocumentationSimpleContext {
   localeCode: LocaleCode
+  id: string
 }

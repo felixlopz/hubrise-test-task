@@ -8,9 +8,10 @@ require('ts-node').register()
 const plugins = [
   require(`./404`),
   require(`./apps`),
-  require(`./base`),
   require(`./blog`),
   require(`./documentation`),
+  require(`./frontpage`),
+  require(`./pricing`),
   require(`./redirects`),
   require(`./translations`),
   require(`./yaml-transformer`)

@@ -1,7 +1,6 @@
 import { LocaleCode } from '@utils/locales'
-import { RootContext } from '../../data/context'
 
-export interface AppsContext extends RootContext {
+export interface AppsContext {
   localeCode: LocaleCode
   apps: IApps
   categoryTitle?: string

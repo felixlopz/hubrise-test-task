@@ -1,8 +1,8 @@
 ---
-layout: developers
+layout: documentation-index
 meta:
   title: Contributing to the Documentation | HubRise
-description: Anyone can contribute to the HubRise online documentation. Check this page if you want to kow how to contribute by giving feedback or updating technical documentation content.
+  description: Anyone can contribute to the HubRise online documentation. Check this page if you want to kow how to contribute by giving feedback or updating technical documentation content.
 path_override: /
 content:
   hero:

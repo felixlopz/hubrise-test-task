@@ -1,5 +1,5 @@
 ---
-layout: developers
+layout: documentation-index
 meta:
   title: Developers documentation | HubRise
   description:

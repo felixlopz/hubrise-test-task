@@ -7,9 +7,20 @@ import { IApps } from '../../../layouts/apps/interface'
 /** Associate a locale code to an IApps  */
 export type IAppsMap = Map<LocaleCode, IApps>
 
+interface AppsCreatePageGQL {
+  allFile: {
+    nodes: Array<{
+      relativePath: string
+      childYaml: {
+        parsedContent: IApps
+      }
+    }>
+  }
+}
+
 export async function getAppsMap(graphql: GraphQLFunction): Promise<IAppsMap> {
   const { data, errors } = await graphql<AppsCreatePageGQL>(`
-    query {
+    query getAppsFiles {
       allFile(filter: { base: { eq: "apps.yaml" } }) {
         nodes {
           relativePath
@@ -35,17 +46,6 @@ export async function getAppsMap(graphql: GraphQLFunction): Promise<IAppsMap> {
   appsMap.forEach((apps, localeCode) => generatePaths(localeCode, apps))
 
   return appsMap
-}
-
-interface AppsCreatePageGQL {
-  allFile: {
-    nodes: Array<{
-      relativePath: string
-      childYaml: {
-        parsedContent: IApps
-      }
-    }>
-  }
 }
 
 const APPS_PAGE_PATH = '/apps'

@@ -1,5 +1,5 @@
 ---
-layout: developers
+layout: documentation-index
 meta:
   title: Contribuer à la documentation | HubRise
   description: Tout le monde peut contribuer à la documentation en ligne de HubRise. Découvrez comment mettre à jour ou compléter une documentation, ou corriger directement une erreur sur notre site.

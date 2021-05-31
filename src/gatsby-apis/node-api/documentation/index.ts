@@ -61,10 +61,14 @@ function createDocumentationPage(
   const folderPages = getFolderPages(folder, folderFiles, localeCode)
   const imagesRelativeDirectory = getImagesRelativeDirectory(folder)
   const customization = folderFiles.customization
+  if (!customization) {
+    console.log`!!!!!!! Skipping folder ${folder.relativeDirectory}`
+    return
+  }
 
   actions.createPage<DocumentationContext>({
     path,
-    component: getLayoutPath('documentation'),
+    component: getLayoutPath(mdxNode.frontmatter.layout),
     context: {
       breadcrumbs,
       folderPages,

@@ -2,22 +2,22 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import { BaseContext } from '../../data/context'
 import { MDXNode } from '../../data/mdx'
 import SEO from '@components/Seo'
+import { DocumentationSimpleContext } from '@layouts/documentation-simple/interface'
 
-interface SimpleProps {
-  data: SimpleData
-  pageContext: BaseContext
+interface DocumentationSimpleProps {
+  data: DocumentationSimpleData
+  pageContext: DocumentationSimpleContext
 }
 
-interface SimpleData {
+interface DocumentationSimpleData {
   mdx: MDXNode
 }
 
 export const graphqlQuery = graphql`
-  query simpleData($id: String!) {
-    mdx(id: { eq: $id }) {
+  query simpleData($mdXNodeId: String!) {
+    mdx(id: { eq: $mdXNodeId }) {
       frontmatter {
         title
         meta {
@@ -30,7 +30,7 @@ export const graphqlQuery = graphql`
   }
 `
 
-const Simple = ({ data, pageContext }: SimpleProps): JSX.Element => {
+const DocumentationSimple = ({ data, pageContext }: DocumentationSimpleProps): JSX.Element => {
   const { frontmatter, body } = data.mdx
   const { meta } = frontmatter
 
@@ -55,4 +55,4 @@ const Simple = ({ data, pageContext }: SimpleProps): JSX.Element => {
   )
 }
 
-export default Simple
+export default DocumentationSimple

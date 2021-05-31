@@ -1,5 +1,6 @@
 import { LocaleCode } from '@utils/locales'
 
-export interface RootContext {
+export interface FrontpageContext {
+  id: string
   localeCode: LocaleCode
 }

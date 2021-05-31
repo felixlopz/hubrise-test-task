@@ -1,6 +1,10 @@
 import { Customization, CustomizationMap } from './customization'
 import { GraphQLFunction } from '../util/types'
-import { defaultLocaleCode, LocaleCode, localeCodes } from '../../../utils/locales'
+import {
+  defaultLocaleCode,
+  LocaleCode,
+  localeCodes
+} from '../../../utils/locales'
 
 export interface Folder {
   /** The folder name (eg "deliveroo"). */
@@ -24,6 +28,7 @@ export interface FolderFiles {
 export interface MDXDocumentationNode {
   body: string
   frontmatter: {
+    layout: 'documentation' | 'documentation-index' | 'documentation-simple'
     path_override?: string
     position: number
     title: string
@@ -51,9 +56,22 @@ export async function generateFolders(
 ): Promise<Folder> {
   const { data, errors } = await graphql<FolderGQL>(`
     query generateFolders {
-      allMdx(filter: { frontmatter: { layout: { eq: "documentation" } } }) {
+      allMdx(
+        filter: {
+          frontmatter: {
+            layout: {
+              in: [
+                "documentation"
+                "documentation-index"
+                "documentation-simple"
+              ]
+            }
+          }
+        }
+      ) {
         nodes {
           frontmatter {
+            layout
             path_override
             position
             title
