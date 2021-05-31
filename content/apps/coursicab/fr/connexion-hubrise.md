@@ -16,6 +16,7 @@ Pour établir la connexion entre CoursiCab et HubRise :
 1. Dans votre espace CoursiCab, cliquez sur l'icône de compte, en haut à droite. Un menu déroulant s'affiche.
 1. Sélectionnez **Mon compte**.
 1. Cliquez sur **Applications**.
+   ![Connexion à HubRise - HubRise déconnecté](../images/003-fr-coursicab-deconnecte.png)
 1. Cliquez sur **Se connecter à HubRise**. L'interface HubRise s'affiche dans un nouvel onglet.
 1. Choisissez le point de vente que vous désirez connecter et cliquez sur **Autoriser** pour donner à CoursiCab l'accès à vos informations.
 1. En cas de besoin, le support de CoursiCab peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/coursicab/connexion-hubrise#donner-acc-s-au-support-de-coursicab).
@@ -48,4 +49,5 @@ Il est conseillé de donner au support de CoursiCab l'accès à votre compte Hub
 1. Dans votre espace CoursiCab, puis cliquez sur l'icône de compte, en haut à droite. Un menu déroulant s'affiche.
 1. Sélectionnez **Mon compte**.
 1. Cliquez sur **Applications**.
+   ![Connexion à HubRise - HubRise connecté](../images/004-fr-coursicab-connecte.png)
 1. Cliquez sur **Disconnect**.

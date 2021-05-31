@@ -7,7 +7,7 @@ meta:
   description: Présentation générale de CoursiCab, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
   - 001-fr-coursicab-course.png
-  - 002-fr-coursicab-historique.png
+  - 002-fr-coursicab-detail.png
 path_override: /
 app_info:
   category: Gestion de livreurs

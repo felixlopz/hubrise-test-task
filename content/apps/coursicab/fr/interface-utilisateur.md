@@ -12,6 +12,7 @@ Le tableau de bord CoursiCab permet de consulter certaines informations des comm
 ## Courses
 
 Dans CoursiCab, les livraisons sont appelées des courses. Pour en consulter la liste, dans votre espace CoursiCab, dans la barre de menu, sélectionnez **Apps**.
+   ![Interface utilisateur - Liste des courses](../images/005-fr-coursicab-courses.png)
 
 Vous pouvez accepter ou refuser une livraison.
 
@@ -31,3 +32,7 @@ Le livreur mettra à jour une course avec les statuts **Transit** et **Livrée**
 ## Historique
 
 Pour consulter l'historique de vos courses, dans votre espace CoursiCab, dans la barre de menu, sélectionnez **Historique**.
+   ![Interface utilisateur - Historique](../images/006-fr-coursicab-historique.png)
+
+Pour voir le détail de la course, dans la colonne **ACTION**, cliquez sur le bouton de détail.
+   ![Interface utilisateur - Détail de la course](../images/007-fr-coursicab-detail-course.png)
