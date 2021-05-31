@@ -2,15 +2,14 @@ import React, { useEffect, useState } from 'react'
 import { graphql, navigate } from 'gatsby'
 import { useTranslation } from 'react-i18next'
 
-import { MDXBlogNode } from '../../data/mdx'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
 import { Hero, Post, Sidebar } from '@components/blog'
 import { getLocalizedUrl } from '@components/utils/link'
 import { BlogListContext } from '@layouts/blog-list'
-import { getMdxBlogNodeDate } from '@components/blog/Post'
 import { getArchiveTitle } from '@components/blog/Sidebar'
+import { BlogNode } from '@components/blog/Post/interface'
 import { sortMdxBlogNodesByDescendingDate } from './helpers'
 
 interface BlogListProps {
@@ -20,7 +19,7 @@ interface BlogListProps {
 
 interface BlogListData {
   allMdx: {
-    nodes: Array<MDXBlogNode>
+    nodes: Array<BlogNode>
   }
 }
 
@@ -33,10 +32,10 @@ export const graphqlQuery = graphql`
           path
         }
         frontmatter {
-          title
-          excerpt
           author
           date
+          excerpt
+          title
         }
       }
     }
@@ -55,7 +54,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
   let mdxNodes = sortMdxBlogNodesByDescendingDate(mdxNodesInLocale)
   if (archive) {
     mdxNodes = mdxNodes.filter((mdxNode) => {
-      const postDate = getMdxBlogNodeDate(mdxNode)
+      const postDate = new Date(mdxNode.frontmatter.date)
       return archive.isCurrentYear
         ? archive.year === postDate.getFullYear() &&
             archive.month === postDate.getMonth()
@@ -86,7 +85,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
   if (archive) {
     breadcrumbs = [
       {
-        path: '/blog',
+        path: pageContext.mainBlogPath,
         label: 'Blog'
       },
       {
@@ -122,7 +121,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
           />
           <div className="section__content">
             {filteredMdxNodes.map((mdxNode, idx) => (
-              <Post key={idx} mdxNode={mdxNode} showMore />
+              <Post key={idx} mdxNode={mdxNode} showMore={true} />
             ))}
           </div>
         </div>

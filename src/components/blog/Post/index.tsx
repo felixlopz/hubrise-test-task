@@ -1,23 +1,21 @@
 import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { MDXBlogNode } from '../../../data/mdx'
-import Link from '../../Link'
+
+import Link from '@components/Link'
+import { BlogNode } from './interface'
 
 interface PostProps {
-  mdxNode: MDXBlogNode
+  mdxNode: BlogNode
   showMore?: boolean
   showBody?: boolean
 }
 
-const Post = ({
-  mdxNode,
-  showMore = false,
-  showBody = false
-}: PostProps): JSX.Element => {
+const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
   const { t } = useTranslation()
-  const { body, frontmatter } = mdxNode
-  const dateAsString = getMdxBlogNodeDate(mdxNode).toLocaleDateString()
+  const { frontmatter, fields, body } = mdxNode
+
+  const dateAsString = new Date(frontmatter.date).toLocaleDateString()
 
   return (
     <>
@@ -33,7 +31,7 @@ const Post = ({
           <>
             <div className="blog-post__excerpt">{frontmatter.excerpt}</div>
             <Link
-              to={mdxNode.fields.path}
+              to={fields.path}
               addLocalePrefix={false}
               className="blog-post__read-more"
             >
@@ -44,7 +42,7 @@ const Post = ({
 
         {showBody && (
           <div className="documentation">
-            <MDXRenderer>{body}</MDXRenderer>
+            <MDXRenderer>{body!}</MDXRenderer>
           </div>
         )}
       </div>
@@ -54,8 +52,4 @@ const Post = ({
 
 export default Post
 
-export function getMdxBlogNodeDate(mdxNode: MDXBlogNode): Date {
-  const { frontmatter, fields } = mdxNode
-  if (!frontmatter.date) throw `Missing date on blog post ${fields.path}`
-  return new Date(frontmatter.date)
-}
+export type { BlogNode } from './interface'

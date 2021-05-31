@@ -53,20 +53,3 @@ export interface MDXNode {
   }
 }
 
-export interface MDXBlogNode {
-  body: string
-  fields: {
-    localeCode: LocaleCode
-    path: string
-  }
-  frontmatter: {
-    author: string
-    date: string
-    excerpt: string
-    meta?: {
-      description?: string
-      title?: string
-    }
-    title: string
-  }
-}

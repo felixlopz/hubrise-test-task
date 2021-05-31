@@ -1,10 +1,11 @@
-import { MDXBlogNode } from '../../data/mdx'
-import { getMdxBlogNodeDate } from '@components/blog/Post'
+import { BlogNode } from '@components/blog/Post/interface'
 
 export function sortMdxBlogNodesByDescendingDate(
-  mdxNodes: Array<MDXBlogNode>
-): Array<MDXBlogNode> {
+  mdxNodes: Array<BlogNode>
+): Array<BlogNode> {
   return mdxNodes.sort(
-    (a, b) => getMdxBlogNodeDate(b).getTime() - getMdxBlogNodeDate(a).getTime()
+    (a, b) =>
+      new Date(b.frontmatter.date).getTime() -
+      new Date(a.frontmatter.date).getTime()
   )
 }

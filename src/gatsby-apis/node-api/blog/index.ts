@@ -37,12 +37,15 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
   nodesByLocale.forEach((nodes, localeCode) => {
     if (nodes.length === 0) return
 
+    const mainBlogPath = pathWithLocale(localeCode, BLOG_PAGE_PATH)
+
     // Main page: /blog
     actions.createPage<BlogListContext>({
-      path: pathWithLocale(localeCode, BLOG_PAGE_PATH),
+      path: mainBlogPath,
       component: getLayoutPath('blog-list'),
       context: {
-        localeCode
+        localeCode,
+        mainBlogPath
       }
     })
 
@@ -60,8 +63,9 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
         ),
         component: getLayoutPath('blog-list'),
         context: {
+          archive,
           localeCode,
-          archive
+          mainBlogPath
         }
       })
     })
@@ -71,7 +75,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
       actions.createPage<BlogPostContext>({
         path: node.fields.path,
         component: getLayoutPath('blog-post'),
-        context: { localeCode, mdxNodeId: node.id }
+        context: { localeCode, mainBlogPath, mdxNodeId: node.id }
       })
     })
   })
