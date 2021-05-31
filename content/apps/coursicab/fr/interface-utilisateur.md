@@ -34,5 +34,5 @@ Le livreur mettra à jour une course avec les statuts **Transit** et **Livrée**
 Pour consulter l'historique de vos courses, dans votre espace CoursiCab, dans la barre de menu, sélectionnez **Historique**.
    ![Interface utilisateur - Historique](../images/006-fr-coursicab-historique.png)
 
-Pour voir le détail de la course, dans la colonne **ACTION**, cliquez sur le bouton de détail.
+Pour voir le détail de la course, dans la colonne **ACTION**, cliquez sur le bouton de détail. Cette page présente les informations du client, l'itinéraire et l'historique des changements de statuts de la course.
    ![Interface utilisateur - Détail de la course](../images/007-fr-coursicab-detail-course.png)
