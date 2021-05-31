@@ -4,6 +4,7 @@ import { LocaleCode } from '../../../src/utils/locales'
 import { pathWithLocale } from '../../../src/utils/urls'
 import { getLocaleCodeFromFilePath } from '../util/locale'
 
+/** Associate a locale code to an IApps  */
 export type IAppsMap = Map<LocaleCode, IApps>
 
 export async function getAppsMap(graphql: GraphQLFunction): Promise<IAppsMap> {

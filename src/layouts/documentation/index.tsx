@@ -1,9 +1,10 @@
+import { graphql } from 'gatsby'
 import * as React from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useTranslation } from 'react-i18next'
 
-import { DocumentationContext } from '../../data/context'
 import { ImageSharpFluid } from '../../data/image'
+import { DocumentationContext } from './context'
 import { getFeedbackOptions } from './helpers'
 import {
   SectionNavigation,
@@ -16,11 +17,99 @@ import SEO from '../../components/shared/Seo'
 import MDXProvider from '../../components/shared/MdxProvider'
 
 interface DocumentationProps {
+  data: DocumentationData
   path: string
   pageContext: DocumentationContext
 }
 
+interface DocumentationData {
+  mdxNode: {
+    body: string
+    frontmatter: {
+      app_info?: {
+        availability?: string
+        category?: string
+        contact?: string
+        price_range?: string
+        website?: string
+      }
+      gallery?: Array<string>
+      meta?: {
+        description?: string
+        title?: string
+      }
+      title: string
+    }
+    parent: {
+      /** File path, eg: "apps/deliveroo/en/map-ref-codes.md" */
+      relativePath: string
+    }
+  }
+  images: {
+    nodes: Array<{
+      ext: string
+      name: string
+      relativeDirectory: string
+      childImageSharp: ImageSharpFluid
+    }>
+  }
+}
+
+export const graphqlQuery = graphql`
+  query documentationData(
+    $mdXNodeId: String!
+    $imagesRelativeDirectory: String!
+  ) {
+    mdxNode: mdx(id: { eq: $mdXNodeId }) {
+      body
+      frontmatter {
+        app_info {
+          availability
+          category
+          contact
+          price_range
+          website
+        }
+        gallery
+        meta {
+          description
+          title
+        }
+        title
+      }
+      parent {
+        ... on File {
+          relativePath
+        }
+      }
+    }
+    images: allFile(
+      filter: {
+        relativeDirectory: { eq: $imagesRelativeDirectory }
+        children: { elemMatch: { internal: { type: { eq: "ImageSharp" } } } }
+      }
+    ) {
+      nodes {
+        ext
+        name
+        relativeDirectory
+        childImageSharp {
+          fluid {
+            aspectRatio
+            base64
+            presentationWidth
+            sizes
+            src
+            srcSet
+          }
+        }
+      }
+    }
+  }
+`
+
 const Documentation = ({
+  data,
   path,
   pageContext
 }: DocumentationProps): JSX.Element => {
@@ -30,26 +119,26 @@ const Documentation = ({
     breadcrumbs,
     folderTitle,
     folderPages,
-    imageSharpMap,
     localeCode,
-    logoImageName,
-    mdxNode
+    logoImageName
   } = pageContext
 
-  const currentMdxNode = mdxNode
+  const currentMdxNode = data.mdxNode
 
   const { frontmatter, body } = currentMdxNode
   const { meta, title, gallery, app_info } = frontmatter
 
-  const feedbackOptions = getFeedbackOptions(t, pageContext)
+  const feedbackOptions = getFeedbackOptions(
+    t,
+    currentMdxNode.parent.relativePath
+  )
 
-  const logoImage =
-    imageSharpMap && logoImageName ? imageSharpMap[logoImageName] : undefined
+  const logoImage = findImage(data.images, logoImageName)
 
   const galleryImageMap = new Map<string, ImageSharpFluid>()
-  if (imageSharpMap && gallery) {
+  if (gallery) {
     for (let imageName of gallery) {
-      const image = imageSharpMap[imageName]
+      const image = findImage(data.images, imageName)
       if (image) galleryImageMap.set(imageName, image)
     }
   }
@@ -101,3 +190,13 @@ const Documentation = ({
 }
 
 export default Documentation
+
+function findImage(
+  images: DocumentationData['images'],
+  name?: string
+): ImageSharpFluid | undefined {
+  const imageNode = images.nodes.find(
+    (node) => `${node.name}${node.ext}` === name
+  )
+  return imageNode?.childImageSharp
+}

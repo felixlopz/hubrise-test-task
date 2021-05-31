@@ -68,31 +68,3 @@ export interface MDXBlogNode {
   slug: string
 }
 
-export interface MDXDocumentationNode {
-  body: string
-  frontmatter: {
-    app_info?: {
-      availability?: string
-      category?: string
-      contact?: string
-      price_range?: string
-      website?: string
-    }
-    gallery?: Array<string>
-    meta?: {
-      description?: string
-      title?: string
-    }
-    path_override?: string
-    position: number
-    title: string
-  }
-  parent: {
-    /** File name, eg: "map-ref-codes" */
-    name: string
-    /** Directory path, eg: "apps/deliveroo/en" */
-    relativeDirectory: string
-    /** File path, eg: "apps/deliveroo/en/map-ref-codes.md" */
-    relativePath: string
-  }
-}

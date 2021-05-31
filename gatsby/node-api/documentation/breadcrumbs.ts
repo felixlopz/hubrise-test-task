@@ -1,6 +1,6 @@
 import { Folder, getFolderFiles, getFolderPath } from './folder'
 import { LocaleCode } from '../../../src/utils/locales'
-import { IBreadcrumb } from '../../../src/data/documentation'
+import { IBreadcrumb } from '../../../src/layouts/documentation/context'
 
 /**
  * Returns the list of breadcrumbs leading up to a page.

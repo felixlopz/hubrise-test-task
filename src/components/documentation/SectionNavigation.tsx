@@ -6,7 +6,7 @@ import NonStretchedImage from '../shared/NonStretchedImage'
 import Link from '../link'
 import { generateKey } from '../utils'
 import { ImageSharpFluid } from '../../data/image'
-import { FolderPage } from '../../../gatsby/node-api/documentation/page'
+import { FolderPage } from "../../layouts/documentation/context"
 
 interface SectionNavigationProps {
   currentPath: string
@@ -71,10 +71,7 @@ const SectionNavigation = ({
     >
       {logo && (
         <div className="section__sidebar_logo">
-          <Link
-            to={chapterMainPath}
-            addLocalePrefix={false}
-          >
+          <Link to={chapterMainPath} addLocalePrefix={false}>
             <NonStretchedImage alt={title} {...logo} />
           </Link>
         </div>

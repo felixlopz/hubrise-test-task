@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import Link from '../link'
-import { IBreadcrumb } from '../../data/documentation'
+import { IBreadcrumb } from '../../layouts/documentation/context'
 
 interface BreadcrumbsProps {
   breadcrumbs: Array<IBreadcrumb>

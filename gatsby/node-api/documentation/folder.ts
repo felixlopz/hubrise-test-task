@@ -4,17 +4,16 @@ import {
   LocaleCode,
   localeCodes
 } from '../../../src/utils/locales'
-import { MDXDocumentationNode } from '../../../src/data/mdx'
 import { GraphQLFunction } from '../util/types'
-import { ImageSharpMap, ImageSharpMapByPath } from './image'
 
 export interface Folder {
-  /** The folder name (eg "deliveroo") */ name: string
-  /** The path relative to /content (eg "/apps/deliveroo"). TODO: remove (not passed to context) */ srcPath: string
+  /** The folder name (eg "deliveroo"). */
+  name: string
+  /** The path relative to /content (eg "apps/deliveroo"). */
+  relativeDirectory: string
   parent?: Folder
   children: Array<Folder>
   folderFilesMap: FolderFilesMap
-  imageSharpMap?: ImageSharpMap
 }
 
 export type FolderFilesMap = {
@@ -26,40 +25,44 @@ export interface FolderFiles {
   /** MDX nodes sorted by position */ mdxNodes: Array<MDXDocumentationNode>
 }
 
+export interface MDXDocumentationNode {
+  body: string
+  frontmatter: {
+    path_override?: string
+    position: number
+    title: string
+  }
+  id: string
+  parent: {
+    /** File name, eg: "map-ref-codes" */
+    name: string
+    /** Directory path, eg: "apps/deliveroo/en" */
+    relativeDirectory: string
+    /** File path, eg: "apps/deliveroo/en/map-ref-codes.md" */
+    relativePath: string
+  }
+}
+
 /**
  * Parses the MDX files in GraphQL and builds the Folder hierarchy from the MDX relative paths.
  * Returns the root Folder, which corresponds to the "content" folder (ie direct children are "apps", "base", ...).
  * @param graphql
  * @param customizationsMap
- * @param imageSharpMapByPath
  */
 export async function generateFolders(
   graphql: GraphQLFunction,
-  customizationsMap: CustomizationMap,
-  imageSharpMapByPath: ImageSharpMapByPath
+  customizationsMap: CustomizationMap
 ): Promise<Folder> {
   const { data, errors } = await graphql<FolderGQL>(`
     query generateFolders {
       allMdx(filter: { frontmatter: { layout: { eq: "documentation" } } }) {
         nodes {
-          body
           frontmatter {
-            app_info {
-              availability
-              category
-              contact
-              price_range
-              website
-            }
-            gallery
-            meta {
-              description
-              title
-            }
             path_override
             position
             title
           }
+          id
           parent {
             ... on File {
               name
@@ -92,10 +95,10 @@ export async function generateFolders(
   }
 
   const rootFolder: Folder = {
-    name: '',
-    srcPath: '',
+    children: [],
     folderFilesMap: {},
-    children: []
+    name: '',
+    relativeDirectory: ''
   }
 
   folderFilesByPath.forEach((folderFiles, path) => {
@@ -110,11 +113,7 @@ export async function generateFolders(
 
     const folderPath = path.replace(new RegExp(`\/${localeCode}$`), '')
 
-    const folder = findOrInsertFolder(
-      rootFolder,
-      folderPath,
-      imageSharpMapByPath.get(folderPath)
-    )
+    const folder = findOrInsertFolder(rootFolder, folderPath)
 
     // Sort MDX nodes in place
     folderFiles.mdxNodes.sort(
@@ -135,23 +134,21 @@ interface FolderGQL {
   }
 }
 
-function findOrInsertFolder(
-  rootFolder: Folder,
-  path: string,
-  imageSharpMap?: ImageSharpMap
-): Folder {
+function findOrInsertFolder(rootFolder: Folder, path: string): Folder {
   let folder = rootFolder
 
   path.split('/').forEach((dirname) => {
     let childFolder = folder.children.find((folder) => folder.name === dirname)
     if (!childFolder) {
+      const relativeDirectory = folder.relativeDirectory
+        ? `${folder.relativeDirectory}/${dirname}`
+        : dirname
       childFolder = {
-        name: dirname,
-        srcPath: `${folder.srcPath}/${dirname}`,
-        parent: folder,
         children: [],
         folderFilesMap: {},
-        imageSharpMap
+        name: dirname,
+        parent: folder,
+        relativeDirectory
       }
       folder.children.push(childFolder)
     }
@@ -185,4 +182,12 @@ export function getFolderFiles(
     folder.folderFilesMap[localeCode] ||
     folder.folderFilesMap[defaultLocaleCode]
   )
+}
+
+/**
+ * Returns the path where images are stored, relative to "content", with no leading slash (eg "contributing/images").
+ * @param folder
+ */
+export function getImagesRelativeDirectory(folder: Folder): string {
+  return folder.relativeDirectory + '/images'
 }
