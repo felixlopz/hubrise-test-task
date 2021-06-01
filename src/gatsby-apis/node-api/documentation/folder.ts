@@ -1,10 +1,11 @@
 import { Customization, CustomizationMap } from './customization'
 import { GraphQLFunction } from '../util/types'
+import { defaultLocaleCode, LocaleCode } from '../../../utils/locales'
 import {
-  defaultLocaleCode,
-  LocaleCode,
-  localeCodes
-} from '../../../utils/locales'
+  applyCopyFilesFrom,
+  buildFolderFiles,
+  buildFolders
+} from './folder.helpers'
 
 export interface Folder {
   /** The folder name (eg "deliveroo"). */
@@ -41,6 +42,12 @@ export interface MDXDocumentationNode {
     relativeDirectory: string
     /** File path, eg: "apps/deliveroo/en/map-ref-codes.md" */
     relativePath: string
+  }
+}
+
+interface FolderGQL {
+  allMdx: {
+    nodes: Array<MDXDocumentationNode>
   }
 }
 
@@ -91,90 +98,13 @@ export async function generateFolders(
   if (errors) throw errors
   if (!data) throw 'GraphQL returned no data'
 
-  const folderFilesByPath = new Map<string, FolderFiles>()
-  customizationsMap.forEach((customization, path) =>
-    folderFilesByPath.set(path, { customization, mdxNodes: [] })
+  const folderFilesByPath = buildFolderFiles(
+    data.allMdx.nodes,
+    customizationsMap
   )
-
-  for (let mdxNode of data.allMdx.nodes) {
-    const path = mdxNode.parent.relativeDirectory
-    let folderFiles = folderFilesByPath.get(path)
-    if (!folderFiles) {
-      console.log(
-        `Skipping ${mdxNode.parent.relativePath}: no customization.yaml file was found in this file's directory.`
-      )
-      continue
-    }
-    folderFiles.mdxNodes.push(mdxNode)
-  }
-
-  const rootFolder: Folder = {
-    children: [],
-    folderFilesMap: {},
-    name: '',
-    relativeDirectory: ''
-  }
-
-  folderFilesByPath.forEach((folderFiles, path) => {
-    // MDX files must be in a directory ending in /en or /fr, indicating the locale code of the MDX.
-    const localeCode = localeCodes.find((code) => path.endsWith(code))
-    if (!localeCode) {
-      console.log(
-        `The MD files located in ${path} will be skipped because they do not belong to a language folder (/en, /fr, etc.).`
-      )
-      return
-    }
-
-    const folderPath = path.replace(new RegExp(`(\/|^)${localeCode}$`), '')
-
-    let folder: Folder
-    if (folderPath === '') {
-      folder = rootFolder
-    } else {
-      folder = findOrInsertFolder(rootFolder, folderPath)
-    }
-
-    // Sort MDX nodes in place
-    folderFiles.mdxNodes.sort(
-      (node1, node2) =>
-        (node1.frontmatter.position || Number.MAX_SAFE_INTEGER) -
-        (node2.frontmatter.position || Number.MAX_SAFE_INTEGER)
-    )
-
-    folder.folderFilesMap[localeCode] = folderFiles
-  })
-
+  const rootFolder = buildFolders(folderFilesByPath)
+  applyCopyFilesFrom(rootFolder)
   return rootFolder
-}
-
-interface FolderGQL {
-  allMdx: {
-    nodes: Array<MDXDocumentationNode>
-  }
-}
-
-function findOrInsertFolder(rootFolder: Folder, path: string): Folder {
-  let folder = rootFolder
-
-  path.split('/').forEach((dirname) => {
-    let childFolder = folder.children.find((folder) => folder.name === dirname)
-    if (!childFolder) {
-      const relativeDirectory = folder.relativeDirectory
-        ? `${folder.relativeDirectory}/${dirname}`
-        : dirname
-      childFolder = {
-        children: [],
-        folderFilesMap: {},
-        name: dirname,
-        parent: folder,
-        relativeDirectory
-      }
-      folder.children.push(childFolder)
-    }
-    folder = childFolder
-  })
-
-  return folder
 }
 
 /**

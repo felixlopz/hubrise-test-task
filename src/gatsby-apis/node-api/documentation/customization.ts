@@ -1,12 +1,25 @@
 import { GraphQLFunction } from '../util/types'
+import { LocaleCode } from '../../../utils/locales'
 
 export interface Customization {
   name: string
   path_override?: string
   logo?: string
+  copy_files_from?: LocaleCode
 }
 
 export type CustomizationMap = Map<string, Customization>
+
+interface CustomizationGQL {
+  allFile: {
+    nodes: Array<{
+      relativeDirectory: string
+      childYaml: {
+        parsedContent: Customization
+      }
+    }>
+  }
+}
 
 /**
  * Returns a map allowing to find a Customization by its directory path relative to /content (eg "apps/deliveroo/en")
@@ -38,15 +51,4 @@ export async function generateCustomizationMap(
     result.set(node.relativeDirectory, node.childYaml.parsedContent)
   }
   return result
-}
-
-interface CustomizationGQL {
-  allFile: {
-    nodes: Array<{
-      relativeDirectory: string
-      childYaml: {
-        parsedContent: Customization
-      }
-    }>
-  }
 }
