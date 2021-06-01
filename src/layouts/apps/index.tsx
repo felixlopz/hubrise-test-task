@@ -41,11 +41,7 @@ const Apps = ({ data, pageContext, path }: AppsProps): JSX.Element => {
 
   return (
     <>
-      <SEO
-        localeCode={localeCode}
-        title={meta?.title}
-        description={meta?.description}
-      />
+      <SEO localeCode={localeCode} meta={meta} />
 
       <Hero hero={content.hero} />
 

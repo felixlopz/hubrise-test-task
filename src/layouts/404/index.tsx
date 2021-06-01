@@ -2,7 +2,7 @@ import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import Image404 from '@images/404.png'
-import SEO from '@components/Seo'
+import SEO, { Meta } from '@components/Seo'
 import Link from '@components/Link'
 import { PageNotFoundContext } from './interface'
 
@@ -12,13 +12,11 @@ interface NotFoundProps {
 
 const NotFound = ({ pageContext }: NotFoundProps): JSX.Element => {
   const { t } = useTranslation()
+  const meta: Meta = { title: t('layout.404.meta.title') }
 
   return (
     <>
-      <SEO
-        localeCode={pageContext.localeCode}
-        title={t('layout.404.meta.title')}
-      />
+      <SEO localeCode={pageContext.localeCode} meta={meta} />
 
       <div className="page-404">
         <h1 className="page-404__title">{t('layout.404.title')}</h1>

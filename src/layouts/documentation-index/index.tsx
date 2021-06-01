@@ -1,10 +1,9 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { MDXNode } from '../../data/mdx'
 import { generateKey } from '@components/utils'
-import SEO from '@components/Seo'
-import Hero from './components/Hero'
+import SEO, { Meta } from '@components/Seo'
+import Hero, { IHero } from './components/Hero'
 import Thumb from './components/Thumb'
 import { DocumentationIndexContext } from './interface'
 
@@ -14,7 +13,22 @@ interface DocumentationIndexProps {
 }
 
 interface DocumentationIndexData {
-  mdx: MDXNode
+  mdx: DocumentationIndexNode
+}
+
+interface DocumentationIndexNode {
+  frontmatter: {
+    meta?: Meta
+    content: {
+      hero: IHero
+      thumbs: Array<{
+        description: string
+        icon: string
+        title: string
+        to: string
+      }>
+    }
+  }
 }
 
 export const graphqlQuery = graphql`
@@ -27,7 +41,6 @@ export const graphqlQuery = graphql`
         }
         content {
           hero {
-            title
             description {
               paragraph_1
               paragraph_2 {
@@ -35,12 +48,13 @@ export const graphqlQuery = graphql`
                 text
               }
             }
+            title
           }
           thumbs {
-            title
             description
-            to
             icon
+            title
+            to
           }
         }
       }
@@ -56,11 +70,7 @@ const DocumentationIndex = ({
 
   return (
     <>
-      <SEO
-        localeCode={pageContext.localeCode}
-        title={meta?.title}
-        description={meta?.description}
-      />
+      <SEO localeCode={pageContext.localeCode} meta={meta} />
 
       <div className="index">
         <Hero {...content.hero} />

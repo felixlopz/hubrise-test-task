@@ -2,8 +2,7 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import { MDXNode } from '../../data/mdx'
-import SEO from '@components/Seo'
+import SEO, { Meta } from '@components/Seo'
 import { DocumentationSimpleContext } from '@layouts/documentation-simple/interface'
 
 interface DocumentationSimpleProps {
@@ -12,12 +11,21 @@ interface DocumentationSimpleProps {
 }
 
 interface DocumentationSimpleData {
-  mdx: MDXNode
+  mdx: DocumentationSimpleNode
+}
+
+interface DocumentationSimpleNode {
+  body: string
+  frontmatter: {
+    meta?: Meta
+    title: string
+  }
 }
 
 export const graphqlQuery = graphql`
   query simpleData($mdXNodeId: String!) {
     mdx(id: { eq: $mdXNodeId }) {
+      body
       frontmatter {
         title
         meta {
@@ -25,22 +33,20 @@ export const graphqlQuery = graphql`
           description
         }
       }
-      body
     }
   }
 `
 
-const DocumentationSimple = ({ data, pageContext }: DocumentationSimpleProps): JSX.Element => {
+const DocumentationSimple = ({
+  data,
+  pageContext
+}: DocumentationSimpleProps): JSX.Element => {
   const { frontmatter, body } = data.mdx
   const { meta } = frontmatter
 
   return (
     <>
-      <SEO
-        localeCode={pageContext.localeCode}
-        title={meta?.title}
-        description={meta?.description}
-      />
+      <SEO localeCode={pageContext.localeCode} meta={meta} />
 
       <section className="section faq">
         <div className="section__in section__in_padding section__in_reverse">

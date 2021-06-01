@@ -107,11 +107,7 @@ const Frontpage = ({ data, pageContext }: FrontpageProps): JSX.Element => {
 
   return (
     <div className="frontpage">
-      <SEO
-        localeCode={pageContext.localeCode}
-        title={meta.title}
-        description={meta.description}
-      />
+      <SEO localeCode={pageContext.localeCode} meta={meta} />
 
       <Hero {...hero} />
 

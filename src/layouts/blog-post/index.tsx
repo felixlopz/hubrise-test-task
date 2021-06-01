@@ -9,6 +9,7 @@ import { getLocalizedUrl } from '@components/utils/link'
 import { Post, Sidebar } from '@components/blog'
 import { BlogNode } from '@components/blog/Post/interface'
 import { BlogPostContext } from './interface'
+import { Meta } from '@components/Seo'
 
 export interface BlogPostProps {
   data: BlogPostData
@@ -21,10 +22,8 @@ interface BlogPostData {
 
 interface BlogPostNode extends BlogNode {
   frontmatter: BlogNode['frontmatter'] & {
-    meta: {
-      title?: string
-      description?: string
-    }
+    body: string
+    meta: Meta
   }
 }
 
@@ -71,11 +70,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
 
   return (
     <MDXProvider>
-      <SEO
-        localeCode={pageContext.localeCode}
-        title={meta?.title}
-        description={meta?.description}
-      />
+      <SEO localeCode={pageContext.localeCode} meta={meta} />
 
       <Breadcrumbs breadcrumbs={breadcrumbs} />
 

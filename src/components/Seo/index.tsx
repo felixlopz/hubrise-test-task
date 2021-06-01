@@ -7,18 +7,18 @@ import Favicon32 from '@images/favicons/favicon-32x32.png'
 import Favicon16 from '@images/favicons/favicon-16x16.png'
 import { useSeoData } from './graphql'
 import { LocaleCode } from '@utils/locales'
+import { Meta } from './interface'
 
 interface SEOProps {
   localeCode: LocaleCode
-  title?: string
-  description?: string
+  meta?: Meta
 }
 
-const SEO = ({ localeCode, title, description }: SEOProps): JSX.Element => {
+const SEO = ({ localeCode, meta }: SEOProps): JSX.Element => {
   const siteMetadata = useSeoData().site.siteMetadata
 
-  const metaTitle = title || siteMetadata.title
-  const metaDescription = description || siteMetadata.description
+  const metaTitle = meta?.title || siteMetadata.title
+  const metaDescription = meta?.description || siteMetadata.description
 
   return (
     <Helmet
@@ -82,3 +82,5 @@ const SEO = ({ localeCode, title, description }: SEOProps): JSX.Element => {
 }
 
 export default SEO
+
+export type { Meta } from './interface'

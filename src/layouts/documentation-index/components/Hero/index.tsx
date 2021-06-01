@@ -1,12 +1,11 @@
 import * as React from 'react'
 
-import { MDXNode } from '../../../data/mdx'
 import { useLayoutContext } from '@context/layout'
+import { IHero } from './interface'
 
-export type HeroProps = MDXNode['frontmatter']['content']['hero']
-
-const Hero = ({ title, description }: HeroProps): JSX.Element => {
+const Hero = (hero: IHero): JSX.Element => {
   const { forms } = useLayoutContext()
+  const { title, description } = hero
 
   return (
     <section className="section">
@@ -33,3 +32,5 @@ const Hero = ({ title, description }: HeroProps): JSX.Element => {
 }
 
 export default Hero
+
+export type { IHero } from './interface'

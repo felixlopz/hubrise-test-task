@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { graphql, navigate } from 'gatsby'
 import { useTranslation } from 'react-i18next'
 
-import SEO from '@components/Seo'
+import SEO, { Meta } from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
 import { Hero, Post, Sidebar } from '@components/blog'
@@ -94,23 +94,21 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
     ]
   }
 
+  const meta: Meta = { title: 'HubRise Blog' }
+  const hero = {
+    title: 'The HubRise Blog',
+    description:
+      'New applications, evolutions of the API and real-world uses of HubRise'
+  }
+
   return (
     <MDXProvider>
-      <SEO
-        localeCode={pageContext.localeCode}
-        title="HubRise Blog"
-        description=""
-      />
+      <SEO localeCode={pageContext.localeCode} meta={meta} />
 
       {archive ? (
         <Breadcrumbs breadcrumbs={breadcrumbs} />
       ) : (
-        <Hero
-          title={'The HubRise Blog'}
-          description={
-            'New applications, evolutions of the API and real-world uses of HubRise'
-          }
-        />
+        <Hero title={hero.title} description={hero.description} />
       )}
 
       <section className="section">

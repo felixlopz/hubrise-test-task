@@ -8,6 +8,7 @@ import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs from '@components/Breadcrumbs'
 import { AppInfo, Feedback, Gallery, SectionNavigation } from './components'
 import { DocumentationContext } from './interface'
+import { IAppInfo } from './components/AppInfo'
 
 interface DocumentationProps {
   data: DocumentationData
@@ -16,36 +17,34 @@ interface DocumentationProps {
 }
 
 interface DocumentationData {
-  mdxNode: {
-    body: string
-    frontmatter: {
-      app_info?: {
-        availability?: string
-        category?: string
-        contact?: string
-        price_range?: string
-        website?: string
-      }
-      gallery?: Array<string>
-      meta?: {
-        description?: string
-        title?: string
-      }
-      title: string
-    }
-    parent: {
-      /** File path, eg: "apps/deliveroo/en/map-ref-codes.md" */
-      relativePath: string
-    }
-  }
+  mdxNode: DocumentationNode
   images: {
-    nodes: Array<{
-      ext: string
-      name: string
-      relativeDirectory: string
-      childImageSharp: ImageSharpFluid
-    }>
+    nodes: Array<DocumentationImage>
   }
+}
+
+interface DocumentationNode {
+  body: string
+  frontmatter: {
+    app_info?: IAppInfo
+    gallery?: Array<string>
+    meta?: {
+      description?: string
+      title?: string
+    }
+    title: string
+  }
+  parent: {
+    /** File path, eg: "apps/deliveroo/en/map-ref-codes.md" */
+    relativePath: string
+  }
+}
+
+interface DocumentationImage {
+  ext: string
+  name: string
+  relativeDirectory: string
+  childImageSharp: ImageSharpFluid
 }
 
 export const graphqlQuery = graphql`
@@ -118,7 +117,7 @@ const Documentation = ({
   const currentMdxNode = data.mdxNode
 
   const { frontmatter, body } = currentMdxNode
-  const { meta, title, gallery, app_info } = frontmatter
+  const { meta, title, gallery, app_info: appInfo } = frontmatter
 
   const logoImage = findImage(data.images, logoImageName)
 
@@ -132,11 +131,7 @@ const Documentation = ({
 
   return (
     <MDXProvider>
-      <SEO
-        localeCode={localeCode}
-        title={meta?.title}
-        description={meta?.description}
-      />
+      <SEO localeCode={localeCode} meta={meta} />
 
       <Breadcrumbs breadcrumbs={breadcrumbs} />
 
@@ -167,7 +162,7 @@ const Documentation = ({
             <Gallery title={folderTitle} imageMap={galleryImageMap} />
           )}
 
-          {app_info && <AppInfo content={app_info} />}
+          {appInfo && <AppInfo appInfo={appInfo} />}
         </div>
       </section>
 

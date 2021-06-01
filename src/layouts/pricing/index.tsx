@@ -38,11 +38,7 @@ const Pricing = ({ data, pageContext }: PricingProps): JSX.Element => {
 
   return (
     <>
-      <SEO
-        localeCode={pageContext.localeCode}
-        title={meta?.title}
-        description={meta?.description}
-      />
+      <SEO localeCode={pageContext.localeCode} meta={meta} />
 
       <section className="section section_white pricing">
         <div className="section__in section__in_padding">

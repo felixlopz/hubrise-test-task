@@ -2,17 +2,17 @@ import * as React from 'react'
 
 import { generateKey } from '@components/utils'
 import Link from '@components/Link'
-import { MDXNode } from '../../../data/mdx'
+import { IAppInfo } from './interface'
 
 interface AppInfoProps {
-  content: MDXNode['frontmatter']['app_info']
+  appInfo: IAppInfo
 }
 
-const AppInfo = ({ content }: AppInfoProps): JSX.Element => {
+const AppInfo = ({ appInfo }: AppInfoProps): JSX.Element => {
   return (
     <div className="section__content app-info">
       <ul className="app-info__list">
-        {Object.entries(content).map(([label, value]) => {
+        {Object.entries(appInfo).map(([label, value]) => {
           if (!value) return ''
 
           const labelWithSpaces = label.split(`_`).join(` `)
@@ -34,3 +34,5 @@ const AppInfo = ({ content }: AppInfoProps): JSX.Element => {
 }
 
 export default AppInfo
+
+export type { IAppInfo } from './interface'
