@@ -4,10 +4,10 @@ import { useTranslation } from 'react-i18next'
 import Image404 from '@images/404.png'
 import SEO, { Meta } from '@components/Seo'
 import Link from '@components/Link'
-import { PageNotFoundContext } from './interface'
+import { RootContext } from '@utils/context'
 
 interface NotFoundProps {
-  pageContext: PageNotFoundContext
+  pageContext: RootContext
 }
 
 const NotFound = ({ pageContext }: NotFoundProps): JSX.Element => {

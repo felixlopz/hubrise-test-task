@@ -1,10 +1,3 @@
-import { LocaleCode } from '@utils/locales'
-
-export interface PricingContext {
-  id: string
-  localeCode: LocaleCode
-}
-
 export interface IPricing {
   path: string
   meta: IMeta

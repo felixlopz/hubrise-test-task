@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { Image, ImageSharpFixed } from '../../../data/image'
+import { Image, ImageSharpFixed } from '@utils/image'
 import Link from '@components/Link'
 import { markdownToHtml } from '@components/utils'
 

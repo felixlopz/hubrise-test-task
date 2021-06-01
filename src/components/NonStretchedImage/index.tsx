@@ -1,6 +1,6 @@
 import * as React from 'react'
 import GatsbyImage from 'gatsby-image'
-import { ImageSharpFluid } from '../../data/image'
+import { ImageSharpFluid } from '@utils/image'
 
 interface NonStretchedImageProps {
   alt?: string

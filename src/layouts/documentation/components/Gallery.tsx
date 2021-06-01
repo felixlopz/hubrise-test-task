@@ -10,7 +10,7 @@ import NextArrow from './Gallery/NextArrow'
 import PrevArrow from './Gallery/PrevArrow'
 import { generateKey } from '@components/utils'
 import NonStretchedImage from '@components/NonStretchedImage'
-import { ImageSharpFluid } from '../../../data/image'
+import { ImageSharpFluid } from '@utils/image'
 
 interface GalleryProps {
   imageMap: Map<string, ImageSharpFluid>

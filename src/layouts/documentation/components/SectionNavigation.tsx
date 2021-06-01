@@ -5,7 +5,7 @@ import { useMedia } from 'react-use'
 import Link from '@components/Link'
 import NonStretchedImage from '@components/NonStretchedImage'
 import { generateKey } from '@components/utils'
-import { ImageSharpFluid } from '../../../data/image'
+import { ImageSharpFluid } from '@utils/image'
 import { FolderPage } from '../interface'
 
 interface SectionNavigationProps {

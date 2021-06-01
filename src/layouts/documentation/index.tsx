@@ -2,7 +2,7 @@ import { graphql } from 'gatsby'
 import * as React from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import { ImageSharpFluid } from '../../data/image'
+import { ImageSharpFluid } from '@utils/image'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs from '@components/Breadcrumbs'

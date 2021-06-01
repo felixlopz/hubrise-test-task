@@ -1,15 +1,16 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { Image, ImageSharpFluid } from '../../data/image'
-import { IPricing, PricingContext } from './interface'
+import { Image, ImageSharpFluid } from '@utils/image'
+import { IPricing } from './interface'
 import Offer from './components/Offer'
 import Specials from './components/Specials'
 import SEO from '@components/Seo'
+import { YamlContext } from '@utils/context'
 
 interface PricingProps {
   data: PricingData
-  pageContext: PricingContext
+  pageContext: YamlContext
 }
 
 interface PricingData {

@@ -1,7 +1,6 @@
-import { LocaleCode } from '@utils/locales'
+import { RootContext } from "@utils/context"
 
-export interface BlogPostContext {
-  localeCode: LocaleCode
+export interface BlogPostContext extends RootContext {
   mainBlogPath: string
   mdxNodeId: string
 }

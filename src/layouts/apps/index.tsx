@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { Image, ImageSharpFluid } from '../../data/image'
+import { Image, ImageSharpFluid } from '@utils/image'
 import { generateKey } from '@components/utils'
 import SEO from '@components/Seo'
 import { App, Developer, Hero, Nav } from './components'

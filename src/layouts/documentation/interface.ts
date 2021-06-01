@@ -1,15 +1,13 @@
-import { LocaleCode } from '@utils/locales'
 import { Breadcrumb } from '@components/Breadcrumbs'
+import { RootContext } from '@utils/context'
 
-export interface DocumentationContext {
+export interface DocumentationContext extends RootContext {
   /** Array of paths leading up to the page. */
   breadcrumbs: Array<Breadcrumb>
   /** List of neighbour pages of the current page, sorted by position. Used for navigation. */
   folderPages: Array<FolderPage>
   /** The chapter title, eg "Deliveroo Bridge" */
   folderTitle: string
-  /** Locale code of the page */
-  localeCode: LocaleCode
   /** The logo filename, eg "deliveroo.png" */
   logoImageName?: string
   /** The id of the MDX node */

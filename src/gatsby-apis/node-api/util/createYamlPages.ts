@@ -3,7 +3,7 @@ import { CreatePagesArgs } from 'gatsby'
 import { getLocaleCodeFromFilePath } from './locale'
 import { pathWithLocale } from './urls'
 import { getLayoutPath } from './layout'
-import { LocaleCode } from '../../../utils/locales'
+import { YamlContext } from '@utils/context'
 
 export interface YamlData {
   allFile: {
@@ -15,11 +15,6 @@ export interface YamlData {
       }
     }>
   }
-}
-
-export interface YamlContext {
-  id: string
-  localeCode: LocaleCode
 }
 
 export async function createYamlPages(
