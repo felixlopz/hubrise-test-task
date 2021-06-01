@@ -246,6 +246,18 @@
     }
   }
 
+  &__language-warning {
+    margin: -3em 0 1.5em 0;
+    color: $hr-gray;
+    padding: 0.75em 1em;
+    background-color: #fcfaed;
+
+    @include breakpoint(medium down) {
+      margin-left: -1rem;
+      margin-right: -1rem;
+    }
+  }
+
   &__content {
     position: relative;
 

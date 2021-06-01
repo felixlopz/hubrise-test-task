@@ -1,23 +1,22 @@
-import {
-  defaultLocaleCode,
-  LocaleCode,
-  localeCodes
-} from '../../../utils/locales'
-import { LanguagePaths } from '@utils/context'
+import { LocaleCode, localeCodes } from '../../../utils/locales'
+import { LanguagePaths } from '../../../utils/context'
 
 /**
- * Extract the locale from a file path.
- * Example: "/apps/deliveroo/en/map-ref-codes.md" => "en"
- * @param relativePath
+ * Extract the locale and the file name from a path in the content folder.
+ * Example: "/apps/deliveroo/en/map-ref-codes.md" => "en", "map-ref-codes"
+ * @param relativePath file path relative to "/content", eg: "blog/fr/20200712-pourquoi-j-ai-cree-hubrise"
  */
+export function parseRelativePath(
+  relativePath: string
+): { localeCode: LocaleCode; name: string } {
+  const [, localeCode, name] = relativePath.match(/([^\/]*)\/([^\/]*)$/)!
+  if (!(localeCodes as Array<string>).includes(localeCode))
+    throw `Could not parse relativePath ${relativePath}. The resulting locale code is not valid: ${localeCode}.`
 
-export function getLocaleCodeFromFilePath(relativePath: string): LocaleCode {
-  const pathItems = relativePath.split('/')
-  const pathSub = pathItems[pathItems.length - 2]
-  const localeCode: LocaleCode =
-    localeCodes.find((localeCode) => localeCode === pathSub) ||
-    defaultLocaleCode
-  return localeCode
+  return {
+    localeCode: localeCode as LocaleCode,
+    name
+  }
 }
 
 export function generateLanguagePaths(

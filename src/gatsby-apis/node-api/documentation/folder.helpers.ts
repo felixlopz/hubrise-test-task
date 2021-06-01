@@ -103,7 +103,7 @@ export function applyCopyFilesFrom(folder: Folder): void {
     if (copyFilesFrom) {
       for (let node of folder.folderFilesMap[copyFilesFrom]?.mdxNodes || []) {
         if (node.frontmatter.layout !== 'documentation') continue
-        folderFiles.mdxNodes.concat([node])
+        folderFiles.mdxNodes = [...folderFiles.mdxNodes, node]
       }
     }
   }

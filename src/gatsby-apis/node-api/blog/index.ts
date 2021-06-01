@@ -2,21 +2,23 @@ import { CreateNodeArgs, CreatePagesArgs } from 'gatsby'
 
 import { getLayoutPath } from '../util/layout'
 import { pathWithLocale } from '../util/urls'
+import { generateLanguagePaths, parseRelativePath } from '../util/locale'
 import { getNodesByLocale } from './graphql'
 import { generateArchiveList } from '../../../components/blog/Sidebar/helpers'
 import { BlogListContext } from '../../../layouts/blog-list/interface'
 import { BlogPostContext } from '../../../layouts/blog-post/interface'
-import { parseBlogSlug } from './helpers'
-import { generateLanguagePaths } from '../util/locale'
 
 const BLOG_PAGE_PATH = '/blog'
 
 export async function onCreateNode({ node, actions }: CreateNodeArgs) {
   if (
     node.internal.type === 'Mdx' &&
+    node.fileAbsolutePath &&
     (node.fileAbsolutePath as string).match(/\/blog\//)
   ) {
-    const { localeCode, name } = parseBlogSlug(node.fileAbsolutePath as string)
+    const { localeCode, name } = parseRelativePath(
+      node.fileAbsolutePath as string
+    )
 
     await actions.createNodeField({
       node,

@@ -1,7 +1,7 @@
 import { GraphQLFunction } from '../util/types'
-import { getLocaleCodeFromFilePath } from '../util/locale'
-import { LocaleCode } from '../../../utils/locales'
+import { parseRelativePath } from '../util/locale'
 import { pathWithLocale } from '../util/urls'
+import { LocaleCode } from '../../../utils/locales'
 import { IApps } from '../../../layouts/apps/interface'
 
 /** Associate a locale code to an IApps  */
@@ -38,7 +38,7 @@ export async function getAppsMap(graphql: GraphQLFunction): Promise<IAppsMap> {
 
   data.allFile.nodes.forEach((node) => {
     appsMap.set(
-      getLocaleCodeFromFilePath(node.relativePath),
+      parseRelativePath(node.relativePath).localeCode,
       node.childYaml.parsedContent
     )
   })
@@ -50,7 +50,10 @@ export async function getAppsMap(graphql: GraphQLFunction): Promise<IAppsMap> {
 
 const APPS_PAGE_PATH = '/apps'
 
-export function getAppsPagePath(localeCode: LocaleCode, categoryTitle?: string) {
+export function getAppsPagePath(
+  localeCode: LocaleCode,
+  categoryTitle?: string
+) {
   let path = pathWithLocale(localeCode, APPS_PAGE_PATH)
   if (categoryTitle) {
     const slug = categoryTitle.replace(/ +/g, '-').toLowerCase()

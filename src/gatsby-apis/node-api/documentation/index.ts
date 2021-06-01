@@ -1,3 +1,4 @@
+import { Actions, CreateNodeArgs } from 'gatsby'
 import * as Gatsby from 'gatsby'
 
 import { generateCustomizationMap } from './customization'
@@ -11,12 +12,23 @@ import {
   MDXDocumentationNode
 } from './folder'
 import { getFolderPages, getPagePath } from './page'
-import { Actions } from 'gatsby'
 import { getBreadcrumbs } from './breadcrumbs'
 import { getLayoutPath } from '../util/layout'
+import { generateLanguagePaths, parseRelativePath } from '../util/locale'
 import { LocaleCode, localeCodes } from '../../../utils/locales'
 import { DocumentationContext } from '../../../layouts/documentation'
-import { generateLanguagePaths } from '../util/locale'
+
+export async function onCreateNode({ node, actions }: CreateNodeArgs) {
+  if (node.internal.type === 'Mdx') {
+    const { localeCode } = parseRelativePath(node.fileAbsolutePath as string)
+
+    await actions.createNodeField({
+      node,
+      name: 'localeCode',
+      value: localeCode
+    })
+  }
+}
 
 export const createPages = async ({
   graphql,
@@ -71,6 +83,7 @@ function createDocumentationPage(
     component: getLayoutPath(mdxNode.frontmatter.layout),
     context: {
       breadcrumbs,
+      contentLocaleCode: mdxNode.fields.localeCode,
       folderPages,
       folderTitle: customization.name,
       imagesRelativeDirectory,

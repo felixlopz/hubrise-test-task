@@ -12,26 +12,26 @@ content:
   thumbs:
     - title: Comment contribuer
       description: Ce que vous devez savoir avant de contribuer.
-      to: /contributing/comment-contribuer
+      to: /fr/contributing/comment-contribuer
       icon: fa-fast-forward
     - title: Guide de style
       description: Conventions de style à suivre par les contributeurs.
-      to: /contributing/guide-de-style
+      to: /fr/contributing/guide-de-style
       icon: fa-check
     - title: Référencer votre solution
       description: Eléments à fournir pour référencer votre solution sur HubRise.
-      to: /contributing/referencer-votre-solution-sur-hubrise
+      to: /fr/contributing/referencer-votre-solution-sur-hubrise
       icon: fa-pencil
     - title: Guide des captures d'écran
       description: Spécifications pour les captures d'écran et convention de nommage des fichiers (en anglais).
-      to: /contributing/guide-des-captures-ecran
+      to: /fr/contributing/guide-des-captures-ecran
       icon: fa-desktop
     - title: Guide des vidéos
       description: Commandes utiles pour générer de courtes vidéos explicatives (en anglais). 
-      to: /contributing/guide-des-videos
+      to: /fr/contributing/guide-des-videos
       icon: fa-film
     - title: Guide des diagrammes
       description: Instructions pour créer des diagrammes (en anglais).
-      to: /contributing/guide-des-diagrammes
+      to: /fr/contributing/guide-des-diagrammes
       icon: fa-sitemap
 ---

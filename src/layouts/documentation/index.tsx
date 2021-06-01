@@ -9,6 +9,7 @@ import Breadcrumbs from '@components/Breadcrumbs'
 import { AppInfo, Feedback, Gallery, SectionNavigation } from './components'
 import { DocumentationContext } from './interface'
 import { IAppInfo } from './components/AppInfo'
+import { useTranslation } from 'react-i18next'
 
 interface DocumentationProps {
   data: DocumentationData
@@ -106,6 +107,8 @@ const Documentation = ({
   path,
   pageContext
 }: DocumentationProps): JSX.Element => {
+  const { t } = useTranslation()
+
   const {
     breadcrumbs,
     folderTitle,
@@ -129,6 +132,12 @@ const Documentation = ({
     }
   }
 
+  const languageWarning =
+    pageContext.contentLocaleCode &&
+    pageContext.contentLocaleCode !== pageContext.localeCode
+      ? t('documentation.language_warning.' + pageContext.contentLocaleCode)
+      : undefined
+
   return (
     <MDXProvider>
       <SEO localeCode={localeCode} meta={meta} />
@@ -145,6 +154,10 @@ const Documentation = ({
         `}
         >
           <div className="section__content">
+            {languageWarning && (
+              <div className="section__language-warning">{languageWarning}</div>
+            )}
+
             <div className="documentation">
               <h1>{title}</h1>
               <MDXRenderer>{body}</MDXRenderer>

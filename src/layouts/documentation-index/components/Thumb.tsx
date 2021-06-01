@@ -12,7 +12,7 @@ export interface ThumbProps {
 const Thumb = ({ description, icon, title, to }: ThumbProps): JSX.Element => {
   return (
     <li className="developers-thumbs__item">
-      <Link className="developers-thumbs__link" to={to}>
+      <Link className="developers-thumbs__link" to={to} addLocalePrefix={false}>
         <i className={`developers-thumbs__icon fa ${icon}`} />
         <span className="developers-thumbs__title">{title}</span>
         <p className="developers-thumbs__description">{description}</p>

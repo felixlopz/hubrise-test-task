@@ -5,6 +5,11 @@ apps:
 blog:
   title: Blog
 
+documentation:
+  language_warning:
+    en: Cette documentation est disponible en anglais uniquement.
+    fr: Cette documentation est disponible en français uniquement.
+
 layout:
   header:
     buttons:

@@ -1,9 +1,9 @@
 import { CreatePagesArgs } from 'gatsby'
 
-import { generateLanguagePaths, getLocaleCodeFromFilePath } from './locale'
+import { generateLanguagePaths, parseRelativePath } from './locale'
 import { pathWithLocale } from './urls'
 import { getLayoutPath } from './layout'
-import { YamlContext } from '@utils/context'
+import { YamlContext } from '../../../utils/context'
 
 export interface YamlData {
   allFile: {
@@ -42,7 +42,7 @@ export async function createYamlPages(
   if (!data) throw 'GraphQL returned no data'
 
   data.allFile.nodes.forEach((node) => {
-    const localeCode = getLocaleCodeFromFilePath(node.absolutePath)
+    const localeCode = parseRelativePath(node.absolutePath).localeCode
     const getPath = (localeCode) =>
       pathWithLocale(localeCode, node.childYaml.parsedContent.path)
 

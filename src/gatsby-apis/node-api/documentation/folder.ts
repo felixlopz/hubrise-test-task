@@ -28,6 +28,9 @@ export interface FolderFiles {
 
 export interface MDXDocumentationNode {
   body: string
+  fields: {
+    localeCode: LocaleCode
+  }
   frontmatter: {
     layout: 'documentation' | 'documentation-index' | 'documentation-simple'
     path_override?: string
@@ -77,6 +80,9 @@ export async function generateFolders(
         }
       ) {
         nodes {
+          fields {
+            localeCode
+          }
           frontmatter {
             layout
             path_override
