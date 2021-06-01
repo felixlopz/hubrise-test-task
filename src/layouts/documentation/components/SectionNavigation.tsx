@@ -4,7 +4,7 @@ import { useMedia } from 'react-use'
 
 import Link from '@components/Link'
 import NonStretchedImage from '@components/NonStretchedImage'
-import { generateKey } from '@components/utils'
+import { generateKey } from '@utils/misc'
 import { ImageSharpFluid } from '@utils/image'
 import { FolderPage } from '../interface'
 

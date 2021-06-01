@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { generateKey } from '@components/utils'
+import { generateKey } from '@utils/misc'
 import Link from '@components/Link'
 import { IAppInfo } from './interface'
 

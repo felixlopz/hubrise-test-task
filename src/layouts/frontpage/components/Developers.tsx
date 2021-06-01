@@ -1,7 +1,7 @@
 import * as React from 'react'
 import GatsbyImage from 'gatsby-image'
 
-import { markdownToHtml } from '@components/utils'
+import { markdownToHtml } from '@utils/misc'
 import { Image, ImageSharpFixed } from '@utils/image'
 
 interface DevelopersProps {

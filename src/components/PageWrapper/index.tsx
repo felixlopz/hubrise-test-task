@@ -9,7 +9,7 @@ import ContactForm from '../ContactForm'
 import { useLayoutContext } from '@context/layout'
 import ToastProvider from '../Toast'
 import { usePageWrapperData } from './graphql'
-import { RootContext } from "@utils/context"
+import { RootContext } from '@utils/context'
 
 interface PageWrapperProps {
   children: React.ReactNode

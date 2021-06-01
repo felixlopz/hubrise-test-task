@@ -3,7 +3,7 @@ import { Form as FormikForm } from 'formik'
 import { TFunction } from 'i18next'
 
 import Row from './Row'
-import { generateKey } from '../utils'
+import { generateKey } from '@utils/misc'
 
 interface FormProps {
   buttonClasses?: Array<string>

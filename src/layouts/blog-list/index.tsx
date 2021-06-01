@@ -6,11 +6,11 @@ import SEO, { Meta } from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
 import { Hero, Post, Sidebar } from '@components/blog'
-import { getLocalizedUrl } from '@components/utils/link'
 import { BlogListContext } from '@layouts/blog-list'
 import { getArchiveTitle } from '@components/blog/Sidebar'
 import { BlogNode } from '@components/blog/Post/interface'
 import { sortMdxBlogNodesByDescendingDate } from './helpers'
+import { getLocalizedUrl } from '@utils/locales'
 
 interface BlogListProps {
   data: BlogListData

@@ -5,7 +5,7 @@ import Copyright from './Copyright'
 import ScrollUpButton from './ScrollUpButton'
 import FooterSection from './FooterSection'
 import { useFooterData } from './graphql'
-import { RootContext } from "@utils/context"
+import { RootContext } from '@utils/context'
 
 export interface FooterProps {
   pageContext: RootContext

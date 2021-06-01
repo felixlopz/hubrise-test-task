@@ -5,11 +5,11 @@ import { useTranslation } from 'react-i18next'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
-import { getLocalizedUrl } from '@components/utils/link'
 import { Post, Sidebar } from '@components/blog'
 import { BlogNode } from '@components/blog/Post/interface'
 import { BlogPostContext } from './interface'
 import { Meta } from '@components/Seo'
+import { getLocalizedUrl } from '@utils/locales'
 
 export interface BlogPostProps {
   data: BlogPostData

@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import Link from '@components/Link'
-import { markdownToHtml } from '@components/utils'
+import { markdownToHtml } from '@utils/misc'
 
 interface PricingProps {
   title: string

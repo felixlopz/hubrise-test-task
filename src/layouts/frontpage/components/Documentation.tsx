@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import { Image, ImageSharpFixed } from '@utils/image'
-import { markdownToHtml } from '@components/utils'
+import { markdownToHtml } from '@utils/misc'
 
 interface DocumentationProps {
   title: string

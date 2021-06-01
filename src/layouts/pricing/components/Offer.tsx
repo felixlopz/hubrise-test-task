@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import { IOffer } from '../interface'
-import { generateKey } from '@components/utils'
+import { generateKey } from '@utils/misc'
 import Link from '@components/Link'
 
 interface OfferProps {

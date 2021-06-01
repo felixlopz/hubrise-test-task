@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { generateKey } from '../utils'
+import { generateKey } from '@utils/misc'
 import Link from '@components/Link'
 import { IFooter } from '@components/Footer/interface'
 

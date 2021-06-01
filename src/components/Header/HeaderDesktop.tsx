@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import classNames from 'classnames'
 
 import Link from '@components/Link'
-import { generateKey } from '../utils'
+import { generateKey } from '@utils/misc'
 import logo from '@images/logo.png'
 import { IHeaderLink } from './helpers'
 

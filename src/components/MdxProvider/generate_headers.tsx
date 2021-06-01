@@ -1,4 +1,4 @@
-import { createHeaderAnchor } from '../utils'
+import { createHeaderAnchor } from '@utils/misc'
 import * as React from 'react'
 
 /**

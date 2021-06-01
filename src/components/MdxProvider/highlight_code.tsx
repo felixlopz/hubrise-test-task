@@ -2,7 +2,7 @@ import * as React from 'react'
 import Prism from 'prismjs'
 import Highlight, { Language } from 'prism-react-renderer'
 
-import { generateKey } from '../utils'
+import { generateKey } from '@utils/misc'
 
 interface HighlightCodeProps {
   code: string

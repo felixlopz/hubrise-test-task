@@ -3,7 +3,7 @@ import { CreatePagesArgs } from 'gatsby'
 import { getLayoutPath } from '../util/layout'
 import { localeCodes } from '../../../utils/locales'
 import { pathWithLocale } from '../util/urls'
-import { RootContext } from "@utils/context"
+import { RootContext } from '@utils/context'
 
 export async function createPages({ actions }: CreatePagesArgs) {
   const { createPage } = actions

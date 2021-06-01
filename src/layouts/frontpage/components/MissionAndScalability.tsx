@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { markdownToHtml } from '@components/utils'
+import { markdownToHtml } from '@utils/misc'
 
 interface MissionAndScalabilityProps {
   // TODO: create proper type in src/data

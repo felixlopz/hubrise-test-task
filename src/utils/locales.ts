@@ -16,23 +16,10 @@ export function getLocale(localeCode): string {
   }[localeCode]
 }
 
-/* TODO: Remove the rest of the file */
-type Locale = {
-  code: LocaleCode
-  tag: string
-  default?: boolean
-}
-
-const locales: Array<Locale> = [
-  {
-    code: `en`,
-    tag: `en-GB`,
-    default: true
-  },
-  {
-    code: `fr`,
-    tag: `fr-FR`
+export function getLocalizedUrl(url: string, localeCode: LocaleCode): string {
+  if (localeCode === defaultLocaleCode) {
+    return url
+  } else {
+    return `/${localeCode}${url}`
   }
-]
-
-export default locales
+}

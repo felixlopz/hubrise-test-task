@@ -12,7 +12,7 @@ import {
   Join
 } from './components'
 import SEO from '@components/Seo'
-import { YamlContext } from "@utils/context"
+import { YamlContext } from '@utils/context'
 
 interface FrontpageProps {
   data: FrontpageData

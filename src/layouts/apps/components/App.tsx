@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { Image, ImageSharpFluid } from '@utils/image'
 import { IAdditionalSections, IApp } from '../interface'
 import Link from '@components/Link'
-import { generateKey } from '@components/utils'
+import { generateKey } from '@utils/misc'
 
 interface AppSectionProps {
   title: string
