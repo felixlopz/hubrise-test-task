@@ -39,16 +39,12 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960,
-              quality: 90,
-              // linkImagesToOriginal: true,
+              quality: 100,
+              linkImagesToOriginal: true,
+              srcSetBreakpoints: [480, 960, 1920]
             }
           },
-          {
-            resolve: "gatsby-remark-copy-linked-files",
-            // options: {
-            //   ignoreFileExtensions: [],
-            // },
-          },
+          'gatsby-remark-copy-linked-files'
         ]
       }
     },
@@ -75,14 +71,14 @@ module.exports = {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
-          "@components": "src/components",
-          "@context": "src/context",
-          "@images": "src/images",
-          "@layouts": "src/layouts",
-          "@utils": "src/utils",
+          '@components': 'src/components',
+          '@context': 'src/context',
+          '@images': 'src/images',
+          '@layouts': 'src/layouts',
+          '@utils': 'src/utils'
         },
         extensions: []
       }
-    },
+    }
   ]
 }
