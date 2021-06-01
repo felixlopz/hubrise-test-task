@@ -101,9 +101,10 @@ export function applyCopyFilesFrom(folder: Folder): void {
 
     const copyFilesFrom = folderFiles.customization?.copy_files_from
     if (copyFilesFrom) {
-      folderFiles.mdxNodes = folderFiles.mdxNodes.concat(
-        folder.folderFilesMap[copyFilesFrom]?.mdxNodes || []
-      )
+      for (let node of folder.folderFilesMap[copyFilesFrom]?.mdxNodes || []) {
+        if (node.frontmatter.layout !== 'documentation') continue
+        folderFiles.mdxNodes.concat([node])
+      }
     }
   }
 

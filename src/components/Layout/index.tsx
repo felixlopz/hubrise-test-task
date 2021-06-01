@@ -11,9 +11,15 @@ export interface LayoutProps {
 }
 
 const Layout = ({ children, pageContext, path }: LayoutProps): JSX.Element => {
+  const { languagePaths, localeCode } = pageContext
+
   return (
     <>
-      <Header path={path} localeCode={pageContext.localeCode} />
+      <Header
+        path={path}
+        languagePaths={languagePaths}
+        localeCode={localeCode}
+      />
       <main className="content">{children}</main>
       <Footer pageContext={pageContext} />
     </>

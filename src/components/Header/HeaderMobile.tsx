@@ -2,18 +2,25 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import classNames from 'classnames'
 
-import Link from '@components/Link'
+import { LanguagePaths } from '@utils/context'
 import { generateKey } from '@utils/misc'
 import button from '@images/bread_button.png'
 import logo from '@images/logo.png'
+import Link from '@components/Link'
 import { IHeaderLink } from './helpers'
+import LanguageLinks from './LanguageLinks'
 
 interface HeaderMobileProps {
-  path: string
+  languagePaths: LanguagePaths
   menuItems: Array<IHeaderLink>
+  path: string
 }
 
-const HeaderMobile = ({ path, menuItems }: HeaderMobileProps): JSX.Element => {
+const HeaderMobile = ({
+  languagePaths,
+  menuItems,
+  path
+}: HeaderMobileProps): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { t } = useTranslation()
 
@@ -54,6 +61,7 @@ const HeaderMobile = ({ path, menuItems }: HeaderMobileProps): JSX.Element => {
             </div>
             <div className="mobile-bar__header-title">Menu</div>
           </header>
+
           <div className="mobile-bar__nav">
             {menuItems.map(({ title, to }, idx) => {
               return (
@@ -63,12 +71,14 @@ const HeaderMobile = ({ path, menuItems }: HeaderMobileProps): JSX.Element => {
                     'mobile-bar__nav-link_active': path.startsWith(to)
                   })}
                   to={to}
+                  addLocalePrefix={false}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {title}
                 </Link>
               )
             })}
+
             <Link
               className="mobile-bar__nav-link mobile-bar__nav-link_signup"
               to="https://manager.hubrise.com/signup"
@@ -76,6 +86,7 @@ const HeaderMobile = ({ path, menuItems }: HeaderMobileProps): JSX.Element => {
             >
               {t(`layout.header.buttons.signup`)}
             </Link>
+
             <Link
               className="mobile-bar__login"
               to="https://manager.hubrise.com/login"
@@ -84,6 +95,15 @@ const HeaderMobile = ({ path, menuItems }: HeaderMobileProps): JSX.Element => {
               {t(`layout.header.buttons.login`)}
             </Link>
           </div>
+
+          <ul className="mobile-bar__language">
+            <LanguageLinks
+              languagePaths={languagePaths}
+              liClassname="mobile-bar__language__item"
+              liActiveClassname="mobile-bar__language__item_active"
+              linkClassname="mobile-bar__language__link"
+            />
+          </ul>
         </div>
       </div>
     </>

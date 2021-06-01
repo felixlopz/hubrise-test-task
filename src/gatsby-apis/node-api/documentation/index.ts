@@ -6,6 +6,7 @@ import {
   FolderFiles,
   generateFolders,
   getFolderFiles,
+  getFolderPath,
   getImagesRelativeDirectory,
   MDXDocumentationNode
 } from './folder'
@@ -15,6 +16,7 @@ import { getBreadcrumbs } from './breadcrumbs'
 import { getLayoutPath } from '../util/layout'
 import { LocaleCode, localeCodes } from '../../../utils/locales'
 import { DocumentationContext } from '../../../layouts/documentation'
+import { generateLanguagePaths } from '../util/locale'
 
 export const createPages = async ({
   graphql,
@@ -62,6 +64,8 @@ function createDocumentationPage(
   const imagesRelativeDirectory = getImagesRelativeDirectory(folder)
   const customization = folderFiles.customization
 
+  const getLanguagePath = (localeCode) => getFolderPath(folder, localeCode)
+
   actions.createPage<DocumentationContext>({
     path,
     component: getLayoutPath(mdxNode.frontmatter.layout),
@@ -70,6 +74,7 @@ function createDocumentationPage(
       folderPages,
       folderTitle: customization.name,
       imagesRelativeDirectory,
+      languagePaths: generateLanguagePaths(localeCode, getLanguagePath),
       localeCode,
       logoImageName: customization.logo,
       mdXNodeId: mdxNode.id

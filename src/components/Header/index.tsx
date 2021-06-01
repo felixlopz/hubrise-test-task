@@ -3,14 +3,20 @@ import * as React from 'react'
 import HeaderMobile from './HeaderMobile'
 import HeaderDesktop from './HeaderDesktop'
 import { getLocaleCodeFromAbsolutePath, LocaleCode } from '@utils/locales'
+import { LanguagePaths } from '@utils/context'
 import { useHeaderData } from './graphql'
 
 interface HeaderProps {
   path: string
+  languagePaths: LanguagePaths
   localeCode: LocaleCode
 }
 
-const Header = ({ path, localeCode }: HeaderProps): JSX.Element => {
+const Header = ({
+  path,
+  languagePaths,
+  localeCode
+}: HeaderProps): JSX.Element => {
   const headerNodeInLocale = useHeaderData().allFile.nodes.find(
     ({ absolutePath }) =>
       getLocaleCodeFromAbsolutePath(absolutePath) === localeCode
@@ -22,8 +28,16 @@ const Header = ({ path, localeCode }: HeaderProps): JSX.Element => {
 
   return (
     <React.Fragment>
-      <HeaderDesktop path={path} menuItems={menuItems} />
-      <HeaderMobile path={path} menuItems={menuItems} />
+      <HeaderDesktop
+        path={path}
+        languagePaths={languagePaths}
+        menuItems={menuItems}
+      />
+      <HeaderMobile
+        path={path}
+        languagePaths={languagePaths}
+        menuItems={menuItems}
+      />
     </React.Fragment>
   )
 }

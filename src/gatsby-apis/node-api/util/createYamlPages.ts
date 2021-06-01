@@ -1,6 +1,6 @@
 import { CreatePagesArgs } from 'gatsby'
 
-import { getLocaleCodeFromFilePath } from './locale'
+import { generateLanguagePaths, getLocaleCodeFromFilePath } from './locale'
 import { pathWithLocale } from './urls'
 import { getLayoutPath } from './layout'
 import { YamlContext } from '@utils/context'
@@ -43,13 +43,15 @@ export async function createYamlPages(
 
   data.allFile.nodes.forEach((node) => {
     const localeCode = getLocaleCodeFromFilePath(node.absolutePath)
-    const path = pathWithLocale(localeCode, node.childYaml.parsedContent.path)
+    const getPath = (localeCode) =>
+      pathWithLocale(localeCode, node.childYaml.parsedContent.path)
 
     actions.createPage<YamlContext>({
-      path,
+      path: getPath(localeCode),
       component: getLayoutPath(layoutName),
       context: {
         id: node.id,
+        languagePaths: generateLanguagePaths(localeCode, getPath),
         localeCode
       }
     })

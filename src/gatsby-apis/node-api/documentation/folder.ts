@@ -108,19 +108,22 @@ export async function generateFolders(
 }
 
 /**
- * Returns the path of a folder on the website with a leading slash (eg "/fr/deliveroo")
+ * Returns the path of a folder on the website with a leading slash (eg "/fr/deliveroo").
+ * The root folder's path is a slash (eg "/").
  * @param folder
  * @param localeCode
  */
 export function getFolderPath(folder: Folder, localeCode: LocaleCode): string {
   if (!folder.parent) {
-    return localeCode === defaultLocaleCode ? '' : `/${localeCode}`
+    return localeCode === defaultLocaleCode ? '/' : `/${localeCode}`
   }
 
   const customization = getFolderFiles(folder, localeCode)?.customization
   const parentPath = getFolderPath(folder.parent, localeCode)
   const overridenName = customization?.path_override || folder.name
-  return `${parentPath}/${overridenName}`
+  return parentPath === '/'
+    ? `/${overridenName}`
+    : `${parentPath}/${overridenName}`
 }
 
 export function getFolderFiles(

@@ -3,18 +3,22 @@ import { useTranslation } from 'react-i18next'
 import classNames from 'classnames'
 
 import Link from '@components/Link'
-import { generateKey } from '@utils/misc'
 import logo from '@images/logo.png'
+import { generateKey } from '@utils/misc'
+import { LanguagePaths } from '@utils/context'
 import { IHeaderLink } from './helpers'
+import LanguageLinks from './LanguageLinks'
 
 interface HeaderDesktopProps {
-  path: string
+  languagePaths: LanguagePaths
   menuItems: Array<IHeaderLink>
+  path: string
 }
 
 const HeaderDesktop = ({
-  path,
-  menuItems
+  languagePaths,
+  menuItems,
+  path
 }: HeaderDesktopProps): JSX.Element => {
   const { t } = useTranslation()
 
@@ -34,15 +38,25 @@ const HeaderDesktop = ({
             <li key={generateKey(title, idx)} className="header__nav-item">
               <Link
                 className={classNames('header__nav-link', {
-                  'header__nav-link_active': path.startsWith(to)
+                  'header__nav-item_active': path.startsWith(to)
                 })}
                 to={to}
+                addLocalePrefix={false}
               >
                 {title}
               </Link>
             </li>
           )
         })}
+      </ul>
+
+      <ul className="header__nav">
+        <LanguageLinks
+          languagePaths={languagePaths}
+          liClassname="header__nav-item"
+          liActiveClassname="header__nav-item_active"
+          linkClassname="header__nav-link"
+        />
       </ul>
 
       <div className="header__actions">
