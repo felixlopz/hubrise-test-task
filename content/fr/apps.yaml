@@ -45,7 +45,7 @@ content:
           description: iiko est une solution cloud facile à déployer et à faire évoluer. Plus de 30.000 entreprises mono ou multisites l'utilisent pour automatiser leurs opérations.
           additional_info: Intégration en cours.
         - website: https://www.ikentoo.com
-          documentation: /apps/ikentoo-lightspeed/
+          documentation: /apps/ikentoo-lightspeed
           logo: ikentoo-lightspeed.png
           title: Lightspeed K-Series / iKentoo
           description: iKentoo Lightspeed K-Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
@@ -57,23 +57,23 @@ content:
           description: Jalia de JDC, est une solution d'encaissement cloud sur tablette iOS ou Android, qui favorise la mobilité. L'installation est rapide et l'interface optimisée pour une prise de commande rapide.
           additional_info:
         - website: https://www.jdc.fr/caisse-enregistreuse
-          documentation: /apps/kezia/
+          documentation: /apps/kezia
           logo: kezia.png
           title: Kezia II
           description: Kezia II de JDC allie gestion et encaissement avec les qualités recherchées par une caisse enregistreuse traditionnelle. Kezia II s'adapte à tous types de commerces et offre des fonctions de logistique, inventaire, achats, fidélité, statistiques et gestion des équipes. Il fonctionne en multisite et multiposte.
         - website: https://www.leo2.fr/
-          documentation: /apps/leo2/
+          documentation: /apps/leo2
           logo: leo2.png
           title: LEO2 / Atoo
           description: LEO2 est un logiciel de caisse développé par Atoo. LEO2 s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les épiceries, les bouchers ou encore les fleuristes.
           additional_info:
         - website: https://www.lightspeedhq.com
-          documentation: /apps/ikentoo-lightspeed/
+          documentation: /apps/ikentoo-lightspeed
           logo: lightspeed.png
           title: Lightspeed K-Series / iKentoo
           description: Lightspeed propose des solutions de gestion sur le cloud pour les commerces et les restaurants dans plus de 100 pays. Son design soigné et son interface intuitive permettent la gestion sur site, à distance ou en déplacement pour des entreprises mono et multisites.
         - website: http://www.myorderboxhq.com
-          documentation: /apps/myorderbox/
+          documentation: /apps/myorderbox
           logo: myorderbox.png
           title: MyOrderBox
           description: MyOrderBox est une solution d'encaissement facile à installer et à utiliser.
@@ -89,18 +89,18 @@ content:
           description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
           additional_info: Intégration en cours.
         - website: https://www.orderlord.com
-          documentation:
+          documentation: /apps/orderlord
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
         - website: https://www.partech.com/pixel-point-software/
-          documentation: /apps/pixelpoint-bridge/
+          documentation: /apps/pixelpoint-bridge
           logo: par-pixelpoint-web-api.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Documentation en anglais. Intégration par API web.
         - website: https://www.partech.com/pixel-point-software/
-          documentation: /apps/pixelpoint-windows-api/
+          documentation: /apps/pixelpoint-windows-api
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
@@ -209,13 +209,13 @@ content:
           description: App4 est une solution de commande en ligne et application mobile, qui s'adapte aux besoins de la vente à emporter, des cafés/restaurants et des commerces de détail alimentaire.
           additional_info:
         - website: https://www.aquila-cms.com/
-          documentation: /apps/aquila/
+          documentation: /apps/aquila
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
         - website: https://www.livepepper.fr
-          documentation: /apps/livepepper/
+          documentation: /apps/livepepper
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
@@ -310,7 +310,7 @@ content:
           description: Coursicab est une plateforme de livraison en express ou sur rendez-vous, par taxi ou à vélo. Grâce à la géolocalisation, vos clients peuvent suivre leurs colis en temps réel. Présent dans 6 pays européens, disponible 24h/7.
           additional_info:
         - website: https://www.orderlord.com
-          documentation:
+          documentation: /apps/orderlord
           logo: orderlord.png
           title: OrderLord
           description: OrderLord est une solution conçue pour les entreprises de livraison et les restaurants, permettant de suivre les livraisons grâce à une application mobile utilisant le GPS. OrderLord apporte aux clients une expérience de livraison transparente.
@@ -336,7 +336,7 @@ content:
           description: Como est une solution de fidélité client pour les commerçants, les hôteliers et les restaurateurs permettant de personnaliser les offres grâce à l'analyse des données clients.
           additional_info:
         - website: https://dotdigital.com/
-          documentation: /apps/dotdigital/
+          documentation: /apps/dotdigital
           logo: dotdigital.png
           title: dotdigital
           description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des campagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
@@ -386,7 +386,7 @@ content:
           title: Expedy Print
           description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 4G, Wifi ou USB.
         - website:
-          documentation: /apps/orderline/
+          documentation: /apps/orderline
           logo: orderline.png
           title: OrderLine
           description: OrderLine édité par HubRise centralise les commandes passées depuis un site marchand ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
@@ -404,7 +404,7 @@ content:
           description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
           additional_info: Intégration en cours.
         - website: https://tickncook.com
-          documentation: /apps/tickncook/
+          documentation: /apps/tickncook
           logo: tickncook.png
           title: TicknCook
           description: TicknCook est un écran cuisine (KDS), qui peut recevoir les commandes depuis tous vos canaux de vente. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés pour le bar, la cuisine, ou autres ateliers.

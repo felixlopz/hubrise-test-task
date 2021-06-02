@@ -27,13 +27,13 @@ content:
           description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
           additional_info:
         - website: https://www.epostechnologies.co.uk/
-          documentation: /apps/epos-technologies/
+          documentation: /apps/epos-technologies
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, suitable for retail and hospitality businesses, offers many features including delivery management, self service kiosk, Kitchen Display System, as well as online ordering and table ordering. They operate in several countries.
           additional_info:
         - website: https://www.etakeawaymax.co.uk/
-          documentation: /apps/etakeaway-max/
+          documentation: /apps/etakeaway-max
           logo: etakeawaymax.png
           title: eTakeaway Max
           description: eTakeaway Max is an EPOS combined with an online ordering solution and app for restaurants, takeaways and cafes.
@@ -45,7 +45,7 @@ content:
           description: iiko is 100% cloud, easy to deploy and scale for single and multi-store businesses. Over 30,000 businesses use iiko to automate every aspect of their operations.
           additional_info: Integration in progress.
         - website: https://www.lightspeedhq.com
-          documentation: /apps/ikentoo-lightspeed/
+          documentation: /apps/ikentoo-lightspeed
           logo: ikentoo-lightspeed.png
           title: Lightspeed K-Series / iKentoo
           description: iKentoo Lightspeed K-Series is an iPad and cloud Point of Sales system for restaurants and hoteliers. Acquired by Lightspeed, iKentoo will keep expanding to new international markets.
@@ -56,23 +56,23 @@ content:
           description: Jalia by JDC is a cloud Point of Sale that works on both iOS and Android tablets. Installation is easy and the EPOS is optimised for fast order taking.
           additional_info:
         - website: https://www.jdc.fr/caisse-enregistreuse
-          documentation: /apps/kezia/
+          documentation: /apps/kezia
           logo: kezia.png
           title: Kezia II by JDC
           description: Kezia II by JDC offers the qualities sought by a traditional EPOS. It adapts to all types of businesses and offers multi-site, logistics, inventory, purchasing, loyalty, statistics and team management functions.
         - website: http://www.leo2.co.uk/
-          documentation: /apps/leo2/
+          documentation: /apps/leo2
           logo: leo2.png
           title: LEO2 / Atoo
           description: LEO2 is a Point of Sales solution developed by Atoo. LEO2 adapts to all types of businesses, including restaurants, bakeries, neighbourhood grocery stores, butchers, and florists.
           additional_info:
         - website: https://www.lightspeedhq.com
-          documentation: /apps/ikentoo-lightspeed/
+          documentation: /apps/ikentoo-lightspeed
           logo: lightspeed.png
           title: Lightspeed K-Series / iKentoo
           description: Lightspeed offers cloud-based solutions for retail and restaurants in over 100 countries. Its sleek design and intuitive interface allows on site, remote or on-the-go management of single and multi-store businesses.
         - website: http://www.myorderboxhq.com
-          documentation: /apps/myorderbox/
+          documentation: /apps/myorderbox
           logo: myorderbox.png
           title: MyOrderBox
           description: MyOrderBox is an affordable cloud based Point of Sales for takeaway and restaurants. MyOrderBox is easy to install and get hands on.
@@ -89,18 +89,18 @@ content:
           description: pointOne is a touch-screen Point of Sales simple to use. pointOne includes online ordering, kitchen screens, smart phone applications, reporting as well as stock control.
           additional_info: Integration in progress.
         - website: https://www.orderlord.com
-          documentation:
+          documentation: /apps/orderlord
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord provides a Point of Sale combined with a Delivery Management solution, kitchen screens and advanced reporting.
         - website: https://www.partech.com/pixel-point-software/
-          documentation: /apps/pixelpoint-bridge/
+          documentation: /apps/pixelpoint-bridge
           logo: par-pixelpoint-web-api.png
           title: PixelPoint (web API)
           description: PixelPoint by PAR, integrated via its Web API, is a Point of Sales solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
           additional_info: Web API integration.
         - website: https://www.partech.com/pixel-point-software/
-          documentation: /apps/pixelpoint-windows-api/
+          documentation: /apps/pixelpoint-windows-api
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint by PAR, integrated via its Windows API, is a Point of Sale solution for restaurants and entertainment industry sectors. PixelPoint is used for cost management, loss prevention and loyalty programs.
@@ -208,12 +208,12 @@ content:
           description: App4 offers a branded online ordering system, mobile app and associated applications for takeaways, restaurants, pubs, cafes and food outlets.
           additional_info:
         - website: https://www.aquila-cms.com/
-          documentation: /apps/aquila/
+          documentation: /apps/aquila
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
         - website: https://www.livepepper.com
-          documentation: /apps/livepepper/
+          documentation: /apps/livepepper
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
@@ -256,7 +256,7 @@ content:
           title: Restaurant-internet
           description: Restaurant-internet offers websites with table reservation and online ordering modules. It addresses the particular needs of delivery and takeaway businesses.
         - website: https://www.shopify.com/
-          documentation: /apps/shopify/
+          documentation: /apps/shopify
           logo: shopify.png
           title: Shopify
           description: Shopify is an e-commerce platform for any type of business. It offers an omnichannel user experience on the web, smartphones, social networks, marketplaces, and in-store.
@@ -304,7 +304,7 @@ content:
           description: Coursicab is a delivery platform used for express and scheduled deliveries, by taxi or bike. Thanks to geolocation, your customers can track their packages real-time. Present in 6 European countries, available 24/7.
           additional_info:
         - website: https://www.orderlord.com
-          documentation:
+          documentation: /apps/orderlord
           logo: orderlord.png
           title: OrderLord
           description: OrderLord delivery management solution can be used by restaurants, retails or delivery services agencies. Orderlord includes a dashboard for managers, an app for couriers and a tracking system for customers.
@@ -328,7 +328,7 @@ content:
           description: Como is a loyalty programme solution for retail and hospitality companies. Como gathers data about purchases and preferences to approach customers with personalised offers.
           additional_info:
         - website: https://dotdigital.com/
-          documentation: /apps/dotdigital/
+          documentation: /apps/dotdigital
           logo: dotdigital.png
           title: dotdigital
           description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
@@ -374,7 +374,7 @@ content:
           title: Expedy Print
           description: Expedy Print is used to automate printing of orders received from e-commerce websites or any other web application to one or more printers simultaneously. Connection can be done by ETHERNET, 4G, Wifi or USB.
         - website:
-          documentation: /apps/orderline/
+          documentation: /apps/orderline
           logo: orderline.png
           title: OrderLine
           description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
@@ -391,7 +391,7 @@ content:
           description: Spleat is a pay at the table solution for bars and restaurants. Users can pay and share the bill from their smartphones.
           additional_info: Integration in progress.
         - website: https://tickncook.com
-          documentation: /apps/tickncook/
+          documentation: /apps/tickncook
           logo: tickncook.png
           title: TicknCook
           description: TicknCook is a Kitchen Display System that handles orders coming from all sales channels. TicknCook can be customised with specialised screens for bar, pastry or kitchen.
