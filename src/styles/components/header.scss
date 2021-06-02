@@ -23,13 +23,13 @@
     @include hr-dot-separated-list(0.5rem);
   }
 
-  &__nav-item_active {
-    color: $hr-green;
-  }
-
   &__nav-link {
     color: $hr-dark-gray;
     @include hr-link-hover($hr-green);
+  }
+
+  &__nav-link_active, &__nav-item_active {
+    color: $hr-green;
   }
 
   &__action-signup,

@@ -13,13 +13,11 @@ import LanguageLinks from './LanguageLinks'
 interface HeaderMobileProps {
   languagePaths: LanguagePaths
   menuItems: Array<IHeaderLink>
-  path: string
 }
 
 const HeaderMobile = ({
   languagePaths,
-  menuItems,
-  path
+  menuItems
 }: HeaderMobileProps): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { t } = useTranslation()
@@ -67,9 +65,8 @@ const HeaderMobile = ({
               return (
                 <Link
                   key={generateKey(title, idx)}
-                  className={classNames('mobile-bar__nav-link', {
-                    'mobile-bar__nav-link_active': path.startsWith(to)
-                  })}
+                  className="mobile-bar__nav-link"
+                  activeClassName="mobile-bar__nav-link_active"
                   to={to}
                   addLocalePrefix={false}
                   onClick={() => setIsMenuOpen(false)}

@@ -7,16 +7,14 @@ import { RootContext } from '@utils/context'
 export interface LayoutProps {
   children: React.ReactNode
   pageContext: RootContext
-  path: string
 }
 
-const Layout = ({ children, pageContext, path }: LayoutProps): JSX.Element => {
+const Layout = ({ children, pageContext }: LayoutProps): JSX.Element => {
   const { languagePaths, localeCode } = pageContext
 
   return (
     <>
       <Header
-        path={path}
         languagePaths={languagePaths}
         localeCode={localeCode}
       />

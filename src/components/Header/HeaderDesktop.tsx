@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { useTranslation } from 'react-i18next'
-import classNames from 'classnames'
 
 import Link from '@components/Link'
 import logo from '@images/logo.png'
@@ -12,13 +11,11 @@ import LanguageLinks from './LanguageLinks'
 interface HeaderDesktopProps {
   languagePaths: LanguagePaths
   menuItems: Array<IHeaderLink>
-  path: string
 }
 
 const HeaderDesktop = ({
   languagePaths,
-  menuItems,
-  path
+  menuItems
 }: HeaderDesktopProps): JSX.Element => {
   const { t } = useTranslation()
 
@@ -37,9 +34,8 @@ const HeaderDesktop = ({
           return (
             <li key={generateKey(title, idx)} className="header__nav-item">
               <Link
-                className={classNames('header__nav-link', {
-                  'header__nav-item_active': path.startsWith(to)
-                })}
+                className="header__nav-link"
+                activeClassName="header__nav-link_active"
                 to={to}
                 addLocalePrefix={false}
               >

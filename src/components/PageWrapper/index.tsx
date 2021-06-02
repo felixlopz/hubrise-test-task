@@ -34,9 +34,7 @@ const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
         />
       </Helmet>
 
-      <Layout pageContext={pageContext} path={path}>
-        {children}
-      </Layout>
+      <Layout pageContext={pageContext}>{children}</Layout>
 
       {forms.contact.isVisible && (
         <Modal
