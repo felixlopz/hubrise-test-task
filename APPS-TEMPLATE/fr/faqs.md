@@ -7,4 +7,4 @@ meta:
   description: Questions et réponses fréquemment posées sur l'intégration de Solution avec HubRise.
 ---
 
-- <Link to="/apps/deliveroo/faqs/trouver-mon-identifiant-de-restaurant-deliveroo/">Comment trouver mon identifiant de restaurant Solution&nbsp;?</Link>
+- <Link to="/apps/solution/faqs/connecter-plusieurs-restaurants/">Comment connecter plusieurs restaurants&nbsp;?</Link>

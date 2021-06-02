@@ -3,10 +3,10 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Overview | Jalia | HubRise
-  description: Jalia overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+  title: Overview | Solution | HubRise
+  description: Solution overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  -
+  - gallery-001.png
 path_override: /
 app_info:
   category:
@@ -18,22 +18,22 @@ app_info:
 
 -----
 
-IMPORTANT NOTE: A full documentation of this integration will be available once we finalise the integration audit.
-IMPORTANT NOTE: A full documentation of this integration will be available soon.
-IMPORTANT NOTE: A full documentation of this integration is in progress.
+**IMPORTANT NOTE:** The integration is currently being reviewed. A full documentation will be published once the review is complete.
+**IMPORTANT NOTE:** A full documentation of this integration will be available soon.
+**IMPORTANT NOTE:** A full documentation of this integration is in progress.
 -----
 
 -----
 
-IMPORTANT NOTE: This documentation is [available in French only](https://www.hubrise.com/fr/apps/nestor).
+**IMPORTANT NOTE:** This documentation is [available in French only](https://www.hubrise.com/fr/apps/Solution).
 
 -----
 ## Description
 
-Zelty is a Windows / iPad / Tablette / Etc EPOS
+Solution is a Windows / iPad / Tablette / Etc EPOS
 ## Integration Features
 
-Connecting Zelty to HubRise allows the [EPOS] to:
+Connecting Solution to HubRise allows the [EPOS] to:
 
 - Push orders into HubRise, including order status.
 - Pull orders from HubRise, including order status.
@@ -46,22 +46,22 @@ Connecting Zelty to HubRise allows the [EPOS] to:
 
 -----
 
-IMPORTANT NOTE: Pushing order and customer information into HubRise will be supported in the future. Contact Zelty for more information.
+**IMPORTANT NOTE:** Pushing order and customer information into HubRise will be supported in the future. Contact Solution for more information.
 
 -----
 
-Zelty can be connected to HubRise via the Zelty support line.
-Zelty can be connected to HubRise via the Zelty back office.
-Zelty can be connected to HubRise from the HubRise back office.
-Zelty can be connected to HubRise from the HubRise or from the Zelty back office.
+Solution can be connected to HubRise via the Solution support line.
+Solution can be connected to HubRise via the Solution back office.
+Solution can be connected to HubRise from the HubRise back office.
+Solution can be connected to HubRise from the HubRise or from the Solution back office.
 
 
 ## Why Connect ?
 
-Connecting Zelty to HubRise allows your EPOS to communicate with other applications you use everyday.
+Connecting Solution to HubRise allows your EPOS to communicate with other applications you use everyday.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Solution, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our  [Apps page](/apps)
+Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our  [Apps page](/apps)
 
 ## Prerequisites
 
-To establish a connection between Zelty and HubRise, you must have an existing Zelty account.
+To establish a connection between Solution and HubRise, you must have an existing Solution account.

@@ -7,4 +7,4 @@ meta:
   description: Technical details and advanced information about the Solution integration with HubRise. Connect apps and synchronise your data.
 ---
 
-- <Link to="/apps/deliveroo/technical-details/receiving-orders/">Receiving Orders</Link>
+- <Link to="/apps/solution/technical-details/receiving-orders/">Receiving Orders</Link>
