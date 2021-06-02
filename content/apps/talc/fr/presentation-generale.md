@@ -4,9 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Delivery System de T.A.L.C | HubRise
-  description: Présentation générale du Delivery System de T.A.L.C, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
-gallery:
-  -
+  description: Présentation générale de Delivery System de T.A.L.C, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
 path_override: /
 app_info:
   category: Logiciels de caisse
@@ -16,19 +14,19 @@ app_info:
   contact: support@talc.fr
 ---
 
------
+---
 
-REMARQUE IMPORTANTE : Une documentation complète de cette intégration sera bientôt disponible.
+**REMARQUE IMPORTANTE :** L'audit de l'intégration est en cours. Une documentation complète sera publiée une fois l'audit terminé.
 
------
+---
 
 ## Description
 
-T.A.L.C Informatique est une société de service en ingénierie informatique (SSII). Leur logiciel d'encaissement Delivery System fonctionne sous Windows. Adapté aux besoins de la restauration, il répond aux besoins de la restauration rapide, en vente à emporter ou en livraison à domicile. 
+T.A.L.C Informatique est une société de service en ingénierie informatique (SSII). Leur logiciel d'encaissement Delivery System répond aux besoins de la restauration rapide, en vente à emporter et livraison à domicile. Delivery System fonctionne sous Windows.
 
-Delivery System de T.A.L.C permet de gérer un ou plusieurs points de vente avec dispatching des coursiers, prise de commande, suivi des modifications ou des annulations, gestion du stock, des achats et des pertes, géolocalisation des clients et envoi automatisé de SMS.
+Delivery System de T.A.L.C permet de gérer un ou plusieurs points de vente avec dispatching des coursiers, prise de commande, suivi des modifications et des annulations, gestion du stock, des achats et des coûts, géolocalisation des clients et envoi automatisé de SMS.
 
-TALC est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État. L'éditeur fournit une attestation de conformité.
+Delivery System est conforme à la loi française "anti-fraudes" du 1er janvier 2018. L'éditeur fournit une attestation de conformité.
 
 ## Fonctionnalités de l'intégration
 
@@ -40,11 +38,11 @@ Connecter Delivery System à HubRise permet à la caisse de :
 - Recevoir les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
 
------
+---
 
-REMARQUE IMPORTANTE : La Fidélité client sera bientôt synchronisée avec HubRise. Contactez T.A.L.C Informatique pour plus d'information à ce sujet.
+**REMARQUE IMPORTANTE :** La fidélité client sera bientôt synchronisée avec HubRise. Contactez T.A.L.C Informatique pour plus d'information.
 
------
+---
 
 Delivery System peut être connecté à HubRise via le support de T.A.L.C Informatique.
 
