@@ -6,8 +6,8 @@ meta:
   title: Overview | iKentoo by Lightspeed | HubRise
   description: iKentoo by Lightspeed overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 004-en-2x-main-page.png
-  - 005-en-2x-operations-page.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Point of Sales
