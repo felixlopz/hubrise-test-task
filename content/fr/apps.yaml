@@ -16,7 +16,7 @@ content:
       has_suggest_app: true
       apps:
         - website: https://3s-pos.com
-          documentation:
+          documentation: /apps/3s-pos
           logo: 3spos.png
           title: 3S POS
           description: 3S POS est une suite complète aux fonctionnalités personnalisables pour répondre aux besoins de chaque restaurant ou hôtelier.
