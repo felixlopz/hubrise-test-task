@@ -3,13 +3,13 @@ title: Terminologie
 position: 6
 layout: documentation
 meta:
-  title: Terminologie | Deliveroo | HubRise
-  description: Table de correspondance entre les termes utilisés par Deliveroo et ceux utilisés par HubRise.
+  title: Terminologie | Solution | HubRise
+  description: Table de correspondance entre les termes utilisés par Solution et ceux utilisés par HubRise.
 ---
 
-HubRise et Deliveroo utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
+HubRise et Solution utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
-| Deliveroo  | HubRise        | Description                             |
+| Solution  | HubRise        | Description                             |
 | ---------- | -------------- | --------------------------------------- |
 | Code PLU   | Code ref       | Code produit.                           |
 | Promotion  | Promotion      | Offre spéciale sur la commande globale. |
