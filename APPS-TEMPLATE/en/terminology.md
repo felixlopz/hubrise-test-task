@@ -9,11 +9,10 @@ meta:
 
 HubRise and Solution each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
 
-| Solution  | HubRise  | Description                         |
+| Solution   | HubRise  | Description                         |
 | ---------- | -------- | ----------------------------------- |
 | PLU code   | Ref code | Product code.                       |
 | Discount   | Discount | Special offer on the overall order. |
 | Restaurant | Location | The actual restaurant.              |
 | Brand      | Account  | Business brand.                     |
 | Menu       | Catalog  | List of products.                   |
-

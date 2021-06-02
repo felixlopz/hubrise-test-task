@@ -16,21 +16,24 @@ app_info:
   contact:
 ---
 
------
+---
 
 **IMPORTANT NOTE:** The integration is currently being reviewed. A full documentation will be published once the review is complete.
 **IMPORTANT NOTE:** A full documentation of this integration will be available soon.
 **IMPORTANT NOTE:** A full documentation of this integration is in progress.
------
 
------
+---
+
+---
 
 **IMPORTANT NOTE:** This documentation is [available in French only](https://www.hubrise.com/fr/apps/Solution).
 
------
+---
+
 ## Description
 
 Solution is a Windows / iPad / Tablette / Etc EPOS
+
 ## Integration Features
 
 Connecting Solution to HubRise allows the [EPOS] to:
@@ -44,23 +47,22 @@ Connecting Solution to HubRise allows the [EPOS] to:
 - Synchronise inventory with HubRise.
 - Synchronise final delivery time with HubRise.
 
------
+---
 
 **IMPORTANT NOTE:** Pushing order and customer information into HubRise will be supported in the future. Contact Solution for more information.
 
------
+---
 
 Solution can be connected to HubRise via the Solution support line.
 Solution can be connected to HubRise via the Solution back office.
 Solution can be connected to HubRise from the HubRise back office.
 Solution can be connected to HubRise from the HubRise or from the Solution back office.
 
-
 ## Why Connect ?
 
 Connecting Solution to HubRise allows your EPOS to communicate with other applications you use every day.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our  [Apps page](/apps)
+Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps)
 
 ## Prerequisites
 
