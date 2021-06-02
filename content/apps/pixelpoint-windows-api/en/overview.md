@@ -5,8 +5,6 @@ layout: documentation
 meta:
   title: Overview | PixelPoint Windows API | HubRise
   description: PixelPoint Windows API overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
-
 path_override: /
 app_info:
   category: Point of Sales
@@ -16,7 +14,7 @@ app_info:
   contact: support@slowey.ie
 ---
 
-[comment]: # 'include screenshots nof the HubRise Bridge'
+[comment]: # 'include screenshots of the HubRise Bridge'
 
 ## Description
 
@@ -37,7 +35,7 @@ PixelPoint Windows API can be connected to HubRise via the Slowey Systems suppor
 
 ## Why Connect ?
 
-Connecting PixelPoint Windows API to HubRise allows your EPOS to communicate with other applications you use everyday.
+Connecting PixelPoint Windows API to HubRise allows your EPOS to communicate with other applications you use every day.
 
 Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 

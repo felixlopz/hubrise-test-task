@@ -35,7 +35,7 @@ App4 can be connected to HubRise via the App4 support line.
 
 ## Why Connect?
 
-Connecting App4 to HubRise allows your online ordering solution to communicate with other applications you use everyday.
+Connecting App4 to HubRise allows your online ordering solution to communicate with other applications you use every day.
 
 Via HubRise, synchronise your menu, your customer and order information with EPOS solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps)
 
