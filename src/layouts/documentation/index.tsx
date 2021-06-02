@@ -146,11 +146,11 @@ const Documentation = ({
           section__in_developers
         `}
         >
-          <div className="section__content">
-            {languageWarning && (
-              <div className="section__language-warning">{languageWarning}</div>
-            )}
+          {languageWarning && (
+            <header className="section__language-warning">{languageWarning}</header>
+          )}
 
+          <div className="section__content">
             <div className="documentation">
               <h1>{title}</h1>
               <MDXRenderer>{body}</MDXRenderer>

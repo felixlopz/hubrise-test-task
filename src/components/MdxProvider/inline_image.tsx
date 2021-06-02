@@ -17,7 +17,7 @@ const InlineImage = ({
   }
   return (
     <div
-      className="inline-image-container"
+      className="inline-image"
       data-width={width}
       data-height={height}
       style={{
