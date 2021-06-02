@@ -6,7 +6,7 @@ meta:
   title: Overview | TastyCloud | HubRise
   description: TastyCloud overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 001-2x-palais-krishnaa-tastycloud.png
+  - __gallery-001.png
 path_override: /
 app_info:
   category: Online ordering for restaurants
