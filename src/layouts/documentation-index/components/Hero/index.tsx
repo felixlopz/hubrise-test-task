@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { useLayoutContext } from '@context/layout'
+import { useLayoutContext } from '@contexts/layout'
 import { IHero } from './interface'
 
 const Hero = (hero: IHero): JSX.Element => {

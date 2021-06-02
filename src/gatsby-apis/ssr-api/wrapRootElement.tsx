@@ -3,7 +3,7 @@ import { WrapRootElementNodeArgs } from 'gatsby'
 
 import RootWrapper from '@components/RootWrapper'
 
-const wrapRootElement = ({ element }: WrapRootElementNodeArgs): JSX.Element => (
+const wrapRootElement = ({ element }: WrapRootElementNodeArgs): any => (
   <RootWrapper>{element}</RootWrapper>
 )
 

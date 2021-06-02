@@ -5,8 +5,8 @@ import AppleTouchIcon from '@images/favicons/apple-touch-icon.png'
 import SafariPinnedTab from '@images/favicons/safari-pinned-tab.svg'
 import Favicon32 from '@images/favicons/favicon-32x32.png'
 import Favicon16 from '@images/favicons/favicon-16x16.png'
-import { useSeoData } from './graphql'
 import { LocaleCode } from '@utils/locales'
+import { useLayoutContext } from '@contexts/layout'
 import { Meta } from './interface'
 
 interface SEOProps {
@@ -15,7 +15,7 @@ interface SEOProps {
 }
 
 const SEO = ({ localeCode, meta }: SEOProps): JSX.Element => {
-  const siteMetadata = useSeoData().site.siteMetadata
+  const siteMetadata = useLayoutContext().siteMetadata
 
   const metaTitle = meta?.title || siteMetadata.title
   const metaDescription = meta?.description || siteMetadata.description
@@ -48,10 +48,6 @@ const SEO = ({ localeCode, meta }: SEOProps): JSX.Element => {
           content: `summary`
         },
         {
-          name: `twitter:creator`,
-          content: siteMetadata.author
-        },
-        {
           name: `twitter:title`,
           content: metaTitle
         },
@@ -62,10 +58,6 @@ const SEO = ({ localeCode, meta }: SEOProps): JSX.Element => {
         {
           name: `keywords`,
           content: ``
-        },
-        {
-          name: `author`,
-          content: siteMetadata.author
         },
         {
           name: `copyright`,

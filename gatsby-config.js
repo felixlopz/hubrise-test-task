@@ -9,7 +9,6 @@ module.exports = {
   siteMetadata: {
     title: 'HubRise',
     description: '',
-    author: '',
     recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY || '',
     contactMessageUrl: process.env.CONTACT_MESSAGE_URL || ''
   },
@@ -40,7 +39,7 @@ module.exports = {
             options: {
               maxWidth: 960,
               quality: 100,
-              linkImagesToOriginal: true,
+              linkImagesToOriginal: false,
               srcSetBreakpoints: [480, 960, 1920]
             }
           },
@@ -72,7 +71,7 @@ module.exports = {
       options: {
         alias: {
           '@components': 'src/components',
-          '@context': 'src/context',
+          '@contexts': 'src/contexts',
           '@images': 'src/images',
           '@layouts': 'src/layouts',
           '@utils': 'src/utils'

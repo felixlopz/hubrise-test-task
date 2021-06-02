@@ -3,12 +3,10 @@ import { WrapPageElementBrowserArgs } from 'gatsby'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet'
 
-import Modal from '../Modal'
-import Layout from '../Layout'
-import ContactForm from '../ContactForm'
-import { useLayoutContext } from '@context/layout'
-import ToastProvider from '../Toast'
-import { usePageWrapperData } from './graphql'
+import Modal from '@components/Modal'
+import Layout from '@components/Layout'
+import ContactForm from '@components/ContactForm'
+import { useLayoutContext } from '@contexts/layout'
 import { RootContext } from '@utils/context'
 
 interface PageWrapperProps {
@@ -17,10 +15,8 @@ interface PageWrapperProps {
 }
 
 const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
-  const siteMetadata = usePageWrapperData().site.siteMetadata
-
   const { t, i18n } = useTranslation()
-  const { forms } = useLayoutContext()
+  const { siteMetadata, forms } = useLayoutContext()
 
   const pageContext = props.pageContext as RootContext
   const path = props.path
@@ -29,7 +25,7 @@ const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
   if (isSSR) i18n.changeLanguage(pageContext.localeCode)
 
   return (
-    <ToastProvider>
+    <>
       <Helmet>
         <script
           src={`https://www.google.com/recaptcha/api.js?render=${siteMetadata.recaptchaSiteKey}`}
@@ -51,7 +47,7 @@ const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
           />
         </Modal>
       )}
-    </ToastProvider>
+    </>
   )
 }
 

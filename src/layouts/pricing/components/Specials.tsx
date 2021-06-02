@@ -1,9 +1,9 @@
 import * as React from 'react'
 
-import { ISpecial } from '../interface'
-import { useLayoutContext } from '@context/layout'
 import { generateKey } from '@utils/misc'
 import Link from '@components/Link'
+import { useLayoutContext } from '@contexts/layout'
+import { ISpecial } from '../interface'
 
 interface SpecialsProps {
   specials: Array<ISpecial>
