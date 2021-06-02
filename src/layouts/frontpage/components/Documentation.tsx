@@ -1,12 +1,13 @@
 import * as React from 'react'
 
-import { Image, ImageSharpFixed } from '@utils/image'
+import { ImageNode } from '@utils/image'
 import { markdownToHtml } from '@utils/misc'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 interface DocumentationProps {
   title: string
   description: string
-  image: Image<ImageSharpFixed>
+  image: ImageNode
 }
 
 const Documentation = ({
@@ -27,7 +28,10 @@ const Documentation = ({
           </div>
 
           <div className="frontpage-documentation__image">
-            <img src={image.childImageSharp.fixed.src} />
+            <GatsbyImage
+              image={image.childImageSharp.gatsbyImageData}
+              alt="Documentation"
+            />
           </div>
         </div>
       </div>

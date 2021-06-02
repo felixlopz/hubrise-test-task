@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { Image, ImageSharpFluid } from '@utils/image'
 import { IPricing } from './interface'
 import Offer from './components/Offer'
 import Specials from './components/Specials'
@@ -18,9 +17,6 @@ interface PricingData {
     childYaml: {
       parsedContent: IPricing
     }
-  }
-  logos: {
-    nodes: Array<Image<ImageSharpFluid>>
   }
 }
 

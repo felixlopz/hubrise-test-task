@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { Image, ImageSharpFluid } from '@utils/image'
 import { generateKey } from '@utils/misc'
 import SEO from '@components/Seo'
-import { App, Developer, Hero, Nav } from './components'
 import { AppsContext } from './interface'
+import { App, Developer, Hero, Nav } from './components'
+import { AppImageNode } from './components/App'
 
 interface AppsProps {
   data: AppsData
@@ -15,7 +15,7 @@ interface AppsProps {
 
 interface AppsData {
   logos: {
-    nodes: Array<Image<ImageSharpFluid>>
+    nodes: Array<AppImageNode>
   }
 }
 
@@ -28,7 +28,10 @@ export const graphqlQuery = graphql`
       }
     ) {
       nodes {
-        ...ImageFragmentSharpFluid
+        base
+        childImageSharp {
+          gatsbyImageData(layout: CONSTRAINED)
+        }
       }
     }
   }
@@ -60,7 +63,7 @@ const Apps = ({ data, pageContext, path }: AppsProps): JSX.Element => {
               title={title}
               showTitle={!categoryTitle}
               apps={apps}
-              logos={logos.nodes}
+              logoNodes={logos.nodes}
               additionalSections={content.additional_sections}
               hasSuggestApp={has_suggest_app}
             />

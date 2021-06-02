@@ -1,12 +1,13 @@
 import * as React from 'react'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
-import { Image, ImageSharpFixed } from '@utils/image'
+import { ImageNode } from '@utils/image'
 import { markdownToHtml } from '@utils/misc'
 
 interface ApiProps {
   title: string
   description: string
-  image: Image<ImageSharpFixed>
+  image: ImageNode
 }
 
 const Api = ({ title, description, image }: ApiProps): JSX.Element => {
@@ -23,7 +24,7 @@ const Api = ({ title, description, image }: ApiProps): JSX.Element => {
           </div>
 
           <div className="frontpage-api__image">
-            <img src={image.childImageSharp.fixed.src} />
+            <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt="API" />
           </div>
         </div>
       </div>

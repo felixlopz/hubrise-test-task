@@ -1,18 +1,18 @@
 import * as React from 'react'
 import cx from 'classnames'
 import { useMedia } from 'react-use'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Link from '@components/Link'
-import NonStretchedImage from '@components/NonStretchedImage'
 import { generateKey } from '@utils/misc'
-import { ImageSharpFluid } from '@utils/image'
+import { ImageSharp } from '@utils/image'
 import { FolderPage } from '../interface'
 
 interface SectionNavigationProps {
   currentPath: string
   folderPages: Array<FolderPage>
   title: string
-  logo?: ImageSharpFluid
+  logo?: ImageSharp
 }
 
 const SectionNavigation = ({
@@ -72,7 +72,7 @@ const SectionNavigation = ({
       {logo && (
         <div className="section__sidebar_logo">
           <Link to={chapterMainPath} addLocalePrefix={false}>
-            <NonStretchedImage alt={title} {...logo} />
+            <GatsbyImage alt={title} image={logo.gatsbyImageData}/>
           </Link>
         </div>
       )}

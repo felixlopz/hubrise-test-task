@@ -1,8 +1,8 @@
 import * as React from 'react'
-import GatsbyImage from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import { markdownToHtml } from '@utils/misc'
-import { Image, ImageSharpFixed } from '@utils/image'
+import { ImageNode } from '@utils/image'
 
 interface DevelopersProps {
   title: string
@@ -12,16 +12,18 @@ interface DevelopersProps {
     name: string
     filename: string
   }>
-  allPictureFiles: {
-    nodes: Array<Image<ImageSharpFixed>>
+  teamImages: {
+    nodes: Array<TeamImageNode>
   }
 }
+
+export type TeamImageNode = ImageNode & { base: string }
 
 const Developers = ({
   title,
   description,
   team_members,
-  allPictureFiles
+  teamImages
 }: DevelopersProps): JSX.Element => {
   return (
     <section className="frontpage-developers">
@@ -35,17 +37,18 @@ const Developers = ({
 
           <ul className="frontpage-developers__team">
             {team_members.map(({ name, filename }, idx) => {
-              const picture = allPictureFiles.nodes.find(
+              const image = teamImages.nodes.find(
                 ({ base }) => base === filename
               )
-              if (!picture)
+              if (!image)
                 throw new Error(`Team member ${name} does not have a picture`)
 
               return (
                 <li className="frontpage-developers__team-member" key={idx}>
                   <GatsbyImage
                     className="frontpage-developers__member-picture"
-                    {...picture.childImageSharp}
+                    image={image.childImageSharp.gatsbyImageData}
+                    alt={name}
                   />
                   <div className="frontpage-developers__member-name">
                     {name}
