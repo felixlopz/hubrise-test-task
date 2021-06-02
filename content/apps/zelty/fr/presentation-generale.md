@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-title: Présentation générale | Zelty | HubRise
-description: Présentation générale de Zelty, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  title: Présentation générale | Zelty | HubRise
+  description: Présentation générale de Zelty, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
   - 002-zelty-epos-interface.png
 
@@ -19,6 +19,6 @@ app_info:
 
 -----
 
-REMARQUE IMPORTANTE : Cette documentation est disponible [en anglais uniquement](https://www.hubrise.com/fr/apps/nestor).
+**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/zelty" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 -----

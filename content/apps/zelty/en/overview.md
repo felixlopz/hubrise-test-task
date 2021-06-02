@@ -36,7 +36,7 @@ Connecting Zelty to HubRise allows the EPOS to:
 
 -----
 
-IMPORTANT NOTE: Pushing order and customer information into HubRise will be supported in the future. Contact Zelty for more information.
+**IMPORTANT NOTE:** Pushing order and customer information into HubRise will be supported in the future. Contact Zelty for more information.
 
 -----
 
