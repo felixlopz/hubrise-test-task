@@ -6,7 +6,7 @@ meta:
   title: Overview | Zelty | HubRise
   description: Zelty overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 002-zelty-epos-interface.png
+  - __gallery-001.png
 
 path_override: /
 app_info:
