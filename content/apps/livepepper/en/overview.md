@@ -6,9 +6,9 @@ meta:
   title: Overview | LivePepper | HubRise
   description: LivePepper overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 026-en-2x-kfc-livepepper.png
-  - 027-en-2x-pizza-hut-livepepper.png
-  - 028-en-2x-papa-johns-livepepper.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
 path_override: /
 app_info:
   category: Online ordering for restaurants
