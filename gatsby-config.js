@@ -8,7 +8,7 @@ require('dotenv').config({ path: `.env.${activeEnv}` })
 module.exports = {
   flags: {
     DEV_SSR: false,
-    PRESERVE_WEBPACK_CACHE: true
+    FAST_DEV: true
   },
   siteMetadata: {
     title: 'HubRise',

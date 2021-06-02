@@ -5,10 +5,10 @@ content:
   hero:
     title: Integrated Apps
     description:
-      paragraph_1_text: Are you a retail and applications you use are not available on this page?
+      paragraph_1_text: You are a store manager and some applications you use are not on this page?
       paragraph_1_link_text: Contact us
-      paragraph_2_text: Are you a developer and you would like to integrate your solution with HubRise?
-      paragraph_2_link_text: See the technical documentation
+      paragraph_2_text: You are a developer and you want to integrate with HubRise?
+      paragraph_2_link_text: Read the technical documentation
       paragraph_2_link_to: /developers
   all_apps: All Apps
   categories:
