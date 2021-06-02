@@ -5,8 +5,6 @@ layout: documentation
 meta:
   title: Overview | 3S POS  | HubRise
   description: 3S POS  overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
-  -
 path_override: /
 app_info:
   category: Point of Sale
@@ -14,20 +12,19 @@ app_info:
   price_range:
   website: https://3s-pos.com
   contact: info@3s-pos.com / +44 207 034 3030
+---
 
 ---
 
------
+**IMPORTANT NOTE:** A full documentation of this integration will be available soon.
 
-IMPORTANT NOTE: A full documentation of this integration will be available soon.
-
------
+---
 
 ## Description
 
 3S POS offers a complete EPOS suite for all types of hospitality businesses. Suitable for single and multi-store businesses, 3S POS can be customised to fit specific business and operational requirements.
 
-Created in 2005, and undergoing continuous development, 3S POS is a feature-rich EPOS, including stock control, Customer Relationship Manager (CRM), loyalty & promotions Management, Kitchen Display Systems (KDS), handheld ordering, Head Office management, attendance & rota management, table bookings and management, online ordering and a mobile payment solution. 
+Created in 2005, and undergoing continuous development, 3S POS is a feature-rich EPOS, including stock control, Customer Relationship Manager (CRM), loyalty & promotions Management, Kitchen Display Systems (KDS), handheld ordering, Head Office management, attendance & rota management, table bookings and management, online ordering and a mobile payment solution.
 
 ## Integration Features
 
@@ -43,7 +40,7 @@ Connecting 3S POS to HubRise allows the EPOS to:
 
 Connecting 3S POS to HubRise allows your EPOS to communicate with other applications you use everyday.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our  [Apps page](/apps).
+Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
