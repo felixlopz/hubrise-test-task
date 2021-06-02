@@ -6,8 +6,8 @@ meta:
   title: Présentation générale | TicknCook | HubRise
   description: Présentation générale de TicknCook, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - 002-fr-tickncook-counter.jpg
-  - 003-fr-tickncook-kitchen.jpg
+  - __gallery-fr-001.jpg
+  - __gallery-fr-002.jpg
 path_override: /
 app_info:
   category: Ecran cuisine (KDS)

@@ -6,8 +6,8 @@ meta:
   title: Overview | foodpanda | HubRise
   description: foodpanda overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 006-en-foodpanda-pk-screenshot.png
-  - 002-en-configuration-page.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Online ordering and food delivery
