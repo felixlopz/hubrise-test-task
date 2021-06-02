@@ -23,7 +23,7 @@ Instead you should install NodeJS and the required dependencies locally, followi
 To run the website, open a console, and type:
 
 ```
-NODE_ENV=local SENTRY_DSN= RECAPTCHA_SITE_KEY= CONTACT_MESSAGE_URL= gatsby develop -H 0.0.0.0 -p 8000
+yarn gatsby develop
 ```
 
 **macOS with Docker (not recommended):**

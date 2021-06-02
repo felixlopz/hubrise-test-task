@@ -6,8 +6,8 @@ meta:
   title: Overview | Deliveroo | HubRise
   description: Deliveroo overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 006-en-deliveroo-screenshot.png
-  - 002-en-configuration-page.png
+  - __gallery-en-001.png
+  - __gallery-en-002.png
 path_override: /
 app_info:
   category: Food Ordering Platforms
