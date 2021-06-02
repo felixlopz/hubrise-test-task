@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 
-import { Image, ImageSharpFixed } from '@utils/image'
+import { ImageNode } from '@utils/image'
 import {
   Hero,
   Apps,
@@ -13,6 +13,7 @@ import {
 } from './components'
 import SEO from '@components/Seo'
 import { YamlContext } from '@utils/context'
+import { TeamImageNode } from './components/Developers'
 
 interface FrontpageProps {
   data: FrontpageData
@@ -25,11 +26,11 @@ interface FrontpageData {
       parsedContent: any // #TODO
     }
   }
-  apps: Image<ImageSharpFixed>
-  appsHover: Image<ImageSharpFixed>
-  apiImage: Image<ImageSharpFixed>
-  documentationImage: Image<ImageSharpFixed>
-  allPictureFiles: Array<Image<ImageSharpFixed>>
+  apps: ImageNode
+  appsHover: ImageNode
+  apiImage: ImageNode
+  documentationImage: ImageNode
+  teamImages: Array<TeamImageNode>
 }
 
 export const graphqlQuery = graphql`
@@ -41,53 +42,40 @@ export const graphqlQuery = graphql`
     }
     apps: file(absolutePath: { glob: "**/content/images/frontpage/apps.png" }) {
       childImageSharp {
-        fixed(width: 501, height: 395) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     appsHover: file(
       absolutePath: { glob: "**/content/images/frontpage/apps-hover.png" }
     ) {
       childImageSharp {
-        fixed(width: 501, height: 395) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     apiImage: file(
       absolutePath: { glob: "**/content/images/frontpage/api.png" }
     ) {
       childImageSharp {
-        fixed(width: 712, height: 485) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     documentationImage: file(
       absolutePath: { glob: "**/content/images/frontpage/documentation.png" }
     ) {
       childImageSharp {
-        fixed(width: 558, height: 347) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    allPictureFiles: allFile(
+    teamImages: allFile(
       filter: {
         absolutePath: { glob: "**/content/images/frontpage/team/*" }
         extension: { regex: "/(jpg)|(png)|(jpeg)|(webp)|(tif)|(tiff)/" }
       }
     ) {
       nodes {
-        name
         base
-        publicURL
-        relativeDirectory
         childImageSharp {
-          fixed(width: 124, height: 124) {
-            ...GatsbyImageSharpFixed
-          }
+          gatsbyImageData(layout: CONSTRAINED)
         }
       }
     }
@@ -101,7 +89,7 @@ const Frontpage = ({ data, pageContext }: FrontpageProps): JSX.Element => {
     appsHover,
     apiImage,
     documentationImage,
-    allPictureFiles
+    teamImages
   } = data
   const { meta, hero, content } = file.childYaml.parsedContent
 
@@ -119,7 +107,7 @@ const Frontpage = ({ data, pageContext }: FrontpageProps): JSX.Element => {
 
       <Pricing {...content.pricing} />
 
-      <Developers {...content.developers} allPictureFiles={allPictureFiles} />
+      <Developers {...content.developers} teamImages={teamImages} />
 
       {/*<MissionAndScalability {...content.mission_and_scalability} />*/}
 

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
-import GatsbyImage from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -9,11 +9,10 @@ import 'slick-carousel/slick/slick-theme.css'
 import NextArrow from './Gallery/NextArrow'
 import PrevArrow from './Gallery/PrevArrow'
 import { generateKey } from '@utils/misc'
-import NonStretchedImage from '@components/NonStretchedImage'
-import { ImageSharpFluid } from '@utils/image'
+import { ImageSharp } from '@utils/image'
 
 interface GalleryProps {
-  imageMap: Map<string, ImageSharpFluid>
+  imageMap: Map<string, ImageSharp>
   title: string
 }
 
@@ -109,8 +108,8 @@ const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
             >
               <GatsbyImage
                 className="image-slider__slide"
+                image={image.gatsbyImageData}
                 alt={imageName}
-                {...image}
               />
             </div>
           ))}
@@ -127,7 +126,10 @@ const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
               setIsSliderVisible(!isSliderVisible)
             }}
           >
-            <NonStretchedImage alt={imageName} {...image} />
+            <GatsbyImage
+              image={image.gatsbyImageData}
+              alt={title}
+            />
           </div>
         ))}
       </section>

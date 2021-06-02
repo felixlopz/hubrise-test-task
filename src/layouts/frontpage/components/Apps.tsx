@@ -1,6 +1,7 @@
 import * as React from 'react'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
-import { Image, ImageSharpFixed } from '@utils/image'
+import { ImageNode } from '@utils/image'
 import Link from '@components/Link'
 import { markdownToHtml } from '@utils/misc'
 
@@ -8,8 +9,8 @@ interface AppsProps {
   title: string
   description: string
   categories: Array<string>
-  apps: Image<ImageSharpFixed>
-  appsHover: Image<ImageSharpFixed>
+  apps: ImageNode
+  appsHover: ImageNode
 }
 
 const Apps = ({
@@ -39,14 +40,18 @@ const Apps = ({
           </div>
 
           <Link to="/apps" className="frontpage-apps__image">
-            <img
-              className="frontpage-apps__image-normal"
-              src={apps.childImageSharp.fixed.src}
-            />
-            <img
-              className="frontpage-apps__image-hover"
-              src={appsHover.childImageSharp.fixed.src}
-            />
+            <div className="frontpage-apps__image-normal">
+              <GatsbyImage
+                image={apps.childImageSharp.gatsbyImageData}
+                alt="Apps"
+              />
+            </div>
+            <div className="frontpage-apps__image-hover">
+              <GatsbyImage
+                image={appsHover.childImageSharp.gatsbyImageData}
+                alt="Apps"
+              />
+            </div>
           </Link>
         </div>
       </div>
