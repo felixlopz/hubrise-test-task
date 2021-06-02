@@ -37,7 +37,7 @@ Sicom can be connected to HubRise via the Mytec support line.
 
 Connecting Sicom to HubRise allows your EPOS to communicate with other applications you use every day.
 
-Synchronise your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats, Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps)
+Synchronise your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats, Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
