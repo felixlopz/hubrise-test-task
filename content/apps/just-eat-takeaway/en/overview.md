@@ -16,13 +16,16 @@ app_info:
   contact: 
 ---
 
+-----
+
+**IMPORTANT NOTE**: A full documentation of this integration is in progress.
+
+-----
+
 ## Description
 
 Just Eat Takeaway.com is an online delivery platform for restaurants and convenience stores.
 It is based in the Netherlands but operates in 21 different countries in Europe, Asia, America, and Oceania.
-
-Restaurants and convenience stores can benefit from Just Eat Takeaway's large pool of customers to grow their business and find new clients.
-At the same time, they can concentrate on what they do best (preparing food, selling groceries) while Just Eat Takeaway takes care of the online ordering solution and associated marketing, as well as the delivery logistics.
 
 ## Available Platforms
 
@@ -45,19 +48,21 @@ Just Eat Takeaway Bridge allows you to connect to HubRise the following platform
 
 ## Integration Features
 
-Just Eat Takeaway connects to your HubRise account through Just Eat Takeaway Bridge, an app developed by HubRise.
+Connecting Just Eat Takeaway Bridge allows you to:
 
-Connecting Just Eat Takeaway Bridge allows Just Eat Takeaway to:
-
-- Push orders to HubRise.
-- Push delivery information to HubRise, for orders delivered by your team.
+- Push orders to HubRise, including order status.
+- Push delivery information into HubRise, for orders delivered by your team.
 
 ![Diagram of the connection flow between Just Eat Takeaway, Just Eat Takeaway Bridge, and HubRise](../images/000-en-2x-jet-connection-diagram.png)
+
+Just Eat Takeaway Bridge can be connected to HubRise from the HubRise back office.
 
 ## Why Connect?
 
 Connecting your Just Eat Takeaway online restaurant or convenience store to HubRise allows you to receive Just Eat Takeaway orders directly in your EPOS or Kitchen Display Screen also connected with HubRise.
 You will be able to manage Just Eat Takeaway orders alongside other orders, using your own tools. Just Eat Takeaway orders will flow through your existing setup, as all other orders already do.
+
+Via HubRise, synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 

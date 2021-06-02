@@ -16,13 +16,16 @@ app_info:
   contact: 
 ---
 
+-----
+
+**IMPORTANT NOTE**: A full documentation of this integration is in progress.
+
+-----
+
 ## Description
 
 Just Eat is an online delivery platform for restaurants and convenience stores.
 It is based in the United Kingdom but operates in 13 different countries in Europe, Asia, America, and Oceania.
-
-Restaurants and convenience stores can benefit from Just Eat's large pool of customers to grow their business and find new clients.
-At the same time, they can concentrate on what they do best (preparing food, selling groceries) while Just Eat takes care of the online ordering solution and associated marketing, as well as the delivery logistics.
 
 ## Available Platforms
 
@@ -42,17 +45,22 @@ Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
 
 Connecting Just Eat Flyt Bridge allows you to:
 
-- Push Just Eat orders to HubRise.
+- Push orders into HubRise, including order status.
   ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](../images/000-en-2x-just-eat-connection-diagram.png)
-- Push delivery information to HubRise, for orders delivered by your team.
+- Push delivery information into HubRise, for orders delivered by your team.
   ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for handling delivery information](../images/009-en-2x-just-eat-delivery-fleet-diagram.png)
-- Push your menu from HubRise directly to your Just Eat store.
+- Pull the menu from a HubRise catalog directly to your Just Eat store.
   ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for pushing the menu](../images/010-en-2x-just-eat-menu-push-diagram.png)
+
+
+Just Eat Flyt Bridge can be connected to HubRise from the HubRise back office.
 
 ## Why Connect?
 
 Connecting your Just Eat online restaurant or convenience store to HubRise allows you to receive Just Eat orders directly in your EPOS or Kitchen Display Screen also connected with HubRise.
 You will be able to manage Just Eat orders alongside other orders, using your own tools. Just Eat orders will flow through your existing setup, as all other orders already do.
+
+Via HubRise, synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
