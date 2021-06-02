@@ -27,13 +27,13 @@ content:
           description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
           additional_info:
         - website: https://www.epostechnologies.co.uk/
-          documentation:
+          documentation: /apps/epos-technologies/
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, suitable for retail and hospitality businesses, offers many features including delivery management, self service kiosk, Kitchen Display System, as well as online ordering and table ordering. They operate in several countries.
           additional_info:
         - website: https://www.etakeawaymax.co.uk/
-          documentation:
+          documentation: /apps/etakeaway-max/
           logo: etakeawaymax.png
           title: eTakeaway Max
           description: eTakeaway Max is an EPOS combined with an online ordering solution and app for restaurants, takeaways and cafes.
