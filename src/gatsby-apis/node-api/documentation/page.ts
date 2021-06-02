@@ -34,10 +34,11 @@ export function getFolderPages(
   folderFiles: FolderFiles,
   localeCode: LocaleCode
 ): Array<FolderPage> {
-  return folderFiles.mdxNodes.map((mdxNode) => {
-    return {
-      path: getPagePath(folder, mdxNode, localeCode),
-      title: mdxNode.frontmatter.title
-    }
-  })
+  const documentationMdxNodes = folderFiles.mdxNodes.filter(
+    (node) => node.frontmatter.layout === 'documentation'
+  )
+  return documentationMdxNodes.map((node) => ({
+    path: getPagePath(folder, node, localeCode),
+    title: node.frontmatter.title
+  }))
 }

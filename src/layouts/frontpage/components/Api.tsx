@@ -24,7 +24,10 @@ const Api = ({ title, description, image }: ApiProps): JSX.Element => {
           </div>
 
           <div className="frontpage-api__image">
-            <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt="API" />
+            <GatsbyImage
+              image={image.childImageSharp.gatsbyImageData}
+              alt="API"
+            />
           </div>
         </div>
       </div>

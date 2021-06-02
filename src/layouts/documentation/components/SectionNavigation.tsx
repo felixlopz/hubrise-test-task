@@ -4,7 +4,7 @@ import { useMedia } from 'react-use'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Link from '@components/Link'
-import { generateKey } from '@utils/misc'
+import { createHeaderAnchor, generateKey } from '@utils/misc'
 import { ImageSharp } from '@utils/image'
 import { FolderPage } from '../interface'
 
@@ -13,13 +13,20 @@ interface SectionNavigationProps {
   folderPages: Array<FolderPage>
   title: string
   logo?: ImageSharp
+  headings: Array<Heading>
+}
+
+export interface Heading {
+  depth: number
+  value: string
 }
 
 const SectionNavigation = ({
   currentPath,
   folderPages,
   title,
-  logo
+  logo,
+  headings
 }: SectionNavigationProps): JSX.Element => {
   const [isExpanded, setIsExpanded] = React.useState(false)
   const [isFixed, setFixed] = React.useState(false)
@@ -72,7 +79,7 @@ const SectionNavigation = ({
       {logo && (
         <div className="section__sidebar_logo">
           <Link to={chapterMainPath} addLocalePrefix={false}>
-            <GatsbyImage alt={title} image={logo.gatsbyImageData}/>
+            <GatsbyImage alt={title} image={logo.gatsbyImageData} />
           </Link>
         </div>
       )}
@@ -139,6 +146,36 @@ const SectionNavigation = ({
                   >
                     {title}
                   </Link>
+
+                  {isCurrentPage && headings.length !== 0 && (
+                    <ol className="content-sublist">
+                      {headings
+                        .filter(({ depth }) => depth === 2)
+                        .map(({ value: headingText }, idx) => (
+                          <li
+                            key={generateKey(headingText, idx)}
+                            className="content-sublist-item content-sublist-level-2"
+                          >
+                            <Link
+                              className={cx(
+                                'content-sublist-link',
+                                currentTitle === headingText ? 'active' : ''
+                              )}
+                              to={`#${createHeaderAnchor(headingText)}`}
+                              onClick={
+                                isDesktop
+                                  ? undefined
+                                  : () => setIsExpanded(false)
+                              }
+                            >
+                              <span className="content-sublist-text">
+                                {headingText}
+                              </span>
+                            </Link>
+                          </li>
+                        ))}
+                    </ol>
+                  )}
                 </li>
               )
             })}

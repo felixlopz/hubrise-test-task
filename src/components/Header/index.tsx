@@ -11,10 +11,7 @@ interface HeaderProps {
   localeCode: LocaleCode
 }
 
-const Header = ({
-  languagePaths,
-  localeCode
-}: HeaderProps): JSX.Element => {
+const Header = ({ languagePaths, localeCode }: HeaderProps): JSX.Element => {
   const headerNodeInLocale = useHeaderData().allFile.nodes.find(
     ({ absolutePath }) =>
       getLocaleCodeFromAbsolutePath(absolutePath) === localeCode
@@ -26,14 +23,8 @@ const Header = ({
 
   return (
     <React.Fragment>
-      <HeaderDesktop
-        languagePaths={languagePaths}
-        menuItems={menuItems}
-      />
-      <HeaderMobile
-        languagePaths={languagePaths}
-        menuItems={menuItems}
-      />
+      <HeaderDesktop languagePaths={languagePaths} menuItems={menuItems} />
+      <HeaderMobile languagePaths={languagePaths} menuItems={menuItems} />
     </React.Fragment>
   )
 }

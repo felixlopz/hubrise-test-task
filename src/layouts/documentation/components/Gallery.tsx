@@ -126,10 +126,7 @@ const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
               setIsSliderVisible(!isSliderVisible)
             }}
           >
-            <GatsbyImage
-              image={image.gatsbyImageData}
-              alt={title}
-            />
+            <GatsbyImage image={image.gatsbyImageData} alt={title} />
           </div>
         ))}
       </section>

@@ -240,7 +240,7 @@
   // This property ensures the image ratio is preserved.
   .gatsby-resp-image-wrapper {
     .gatsby-resp-image-image {
-      object-fit: contain;
+      object-fit: cover;
     }
   }
 }
