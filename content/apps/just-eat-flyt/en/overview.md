@@ -27,6 +27,8 @@ app_info:
 Just Eat is an online delivery platform for restaurants and convenience stores.
 It is based in the United Kingdom but operates in 13 different countries in Europe, Asia, America, and Oceania.
 
+Just Eat connects to your HubRise account through Just Eat Flyt Bridge, an app developed by HubRise.
+
 ## Available Platforms
 
 Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
@@ -51,7 +53,6 @@ Connecting Just Eat Flyt Bridge allows you to:
   ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for handling delivery information](../images/009-en-2x-just-eat-delivery-fleet-diagram.png)
 - Pull the menu from a HubRise catalog directly to your Just Eat store.
   ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for pushing the menu](../images/010-en-2x-just-eat-menu-push-diagram.png)
-
 
 Just Eat Flyt Bridge can be connected to HubRise from the HubRise back office.
 

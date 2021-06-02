@@ -27,6 +27,8 @@ app_info:
 Just Eat Takeaway.com is an online delivery platform for restaurants and convenience stores.
 It is based in the Netherlands but operates in 21 different countries in Europe, Asia, America, and Oceania.
 
+Just Eat Takeaway.com connects to your HubRise account through Just Eat Takeaway Bridge, an app developed by HubRise.
+
 ## Available Platforms
 
 Just Eat Takeaway Bridge allows you to connect to HubRise the following platforms:
@@ -44,7 +46,6 @@ Just Eat Takeaway Bridge allows you to connect to HubRise the following platform
 **IMPORTANT NOTE:** If you wish to connect a Just Eat store in Ireland or in the United Kingdom, you should use [Just Eat Flyt Bridge](/apps/just-eat-flyt/) instead.
 
 ---
-
 
 ## Integration Features
 
