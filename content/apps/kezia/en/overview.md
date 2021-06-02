@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-This documentation is [available in French only](https://www.hubrise.com/fr/apps/kezia).
+This documentation is <Link to="/fr/apps/kezia" addLocalePrefix={false}>available in French only</Link>.

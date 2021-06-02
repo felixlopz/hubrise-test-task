@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-This documentation is [available in French only](https://www.hubrise.com/fr/apps/smilein).
+This documentation is <Link to="/fr/apps/smilein" addLocalePrefix={false}>available in French only</Link>.
