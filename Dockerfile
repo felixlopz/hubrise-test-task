@@ -1,7 +1,7 @@
 # ****************************
 # **      Build stage       **
 # ****************************
-FROM node:12.18.3-stretch AS build-stage
+FROM node:14.17.0-buster AS build-stage
 
 # Working directory
 WORKDIR /website

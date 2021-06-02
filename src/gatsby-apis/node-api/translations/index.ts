@@ -25,7 +25,7 @@ function copyTranslationsToJson(): void {
       const translations = fs.readdirSync(path.join(sourcePath, locale))
 
       translations.forEach((name) => {
-        const [content] = yaml.safeLoadAll(
+        const [content] = yaml.loadAll(
           fs.readFileSync(path.join(sourcePath, locale, name), 'utf8')
         )
 

@@ -6,6 +6,10 @@ console.log(`Using environment config: '${activeEnv}'`)
 require('dotenv').config({ path: `.env.${activeEnv}` })
 
 module.exports = {
+  flags: {
+    DEV_SSR: false,
+    PRESERVE_WEBPACK_CACHE: true
+  },
   siteMetadata: {
     title: 'HubRise',
     description: '',

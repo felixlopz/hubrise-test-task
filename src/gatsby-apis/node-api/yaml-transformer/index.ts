@@ -40,7 +40,7 @@ export async function createResolvers({
     Yaml: {
       parsedContent: {
         type: `JSON`,
-        resolve: (source) => yaml.safeLoad(source.internal.content)
+        resolve: (source) => yaml.load(source.internal.content)
       }
     }
   })
