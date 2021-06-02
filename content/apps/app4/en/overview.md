@@ -6,11 +6,11 @@ meta:
   title: Overview | App4 | HubRise
   description: App4 overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your online ordering solution and your apps.
 gallery:
-  - 005-en-fireaway-pizza-app.png
-  - 002-en-atpizza-app.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
-  category: Online ordering 
+  category: Online ordering
   availability: United Kingdom
   price_range: From £40 per week
   website: https://www.app4.co.uk
@@ -21,7 +21,7 @@ app_info:
 
 App4 is an online ordering system that lets restaurant customers place orders from their browser, from an app, or from their table. It provides a host of benefits to restaurants such as loyalty programs and table booking.
 
-From its back office, restaurants can manage multiple aspects of their business, including the restaurant's menu and delivery options as well as its marketing strategy and ensure it is paying off thanks to reports.
+From the back office, restaurants can manage multiple aspects of their business: editing the restaurant's menu and delivery options, launch marketing operations and ensure they are paying off thanks to reports.
 
 ## Integration Features
 
@@ -37,8 +37,7 @@ App4 can be connected to HubRise via the App4 support line.
 
 Connecting App4 to HubRise allows your online ordering solution to communicate with other applications you use everyday.
 
-Via HubRise, synchronise your menu, your customer and order information with EPOS solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our  [Apps page](/apps)
-
+Via HubRise, synchronise your menu, your customer and order information with EPOS solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps)
 
 ## Prerequisites
 
