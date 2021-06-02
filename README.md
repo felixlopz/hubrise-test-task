@@ -100,14 +100,10 @@ Use the same process as a the other apps (see cluster/doc/build_deploy_app.md)
 
 # When building fails...
 
-- Clean the last build. Open a terminal at the project's root and type:
+Open a terminal at the project's root and type:
 
 ```
-rm -rf public .cache
+yarn gatsby clean
 ```
 
-- Delete all video files locally. This can sometimes be useful to speed up website building. Make sure not to commit the deletions! Open a terminal at the project's root and type:
-
-```
-find content -name "*webm" -o -name "*mp4" | xargs rm
-```
+This will delete all build by-products and put your server in a clean state.
