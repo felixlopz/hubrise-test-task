@@ -51,7 +51,7 @@ content:
           description: iKentoo Lightspeed K-Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
           additional_info: Documentation en anglais.
         - website: https://www.jdc.fr/caisse-enregistreuse
-          documentation:
+          documentation: /apps/jalia
           logo: jalia.png
           title: Jalia par JDC
           description: Jalia de JDC, est une solution d'encaissement cloud sur tablette iOS ou Android, qui favorise la mobilité. L'installation est rapide et l'interface optimisée pour une prise de commande rapide.
