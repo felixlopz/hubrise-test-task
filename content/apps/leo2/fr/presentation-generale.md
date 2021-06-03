@@ -6,8 +6,8 @@ meta:
   title: Présentation générale | LEO2 | HubRise
   description: Présentation générale de LEO2, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - 001-fr-leo2-caisse.png
-  - 002-fr-leo2-menu-gestion.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Logiciels de caisse
@@ -17,11 +17,11 @@ app_info:
   contact: atoo@atoosarl.fr
 ---
 
------
+---
 
 **REMARQUE IMPORTANTE :** Une documentation complète de l'intégration est en cours de rédaction.
 
------
+---
 
 ## Description
 
