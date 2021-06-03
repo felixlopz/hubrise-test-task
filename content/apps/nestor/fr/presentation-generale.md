@@ -19,19 +19,19 @@ app_info:
 
 ## Description
 
-Nestor est un logiciel de caisse sous Windows spécialisé dans la livraison et la vente à emporter pour les restaurants. 
+Nestor est un logiciel de caisse spécialisé pour la restauration livrée et emportée.
 
 Nestor enregistre les informations client et l'historique de commandes. Il permet de gérer les menus et offres promotionnelles, et de lancer des opérations marketing. Nestor assure le suivi des livraisons grâce à la géolocalisation et permet d'informer les clients de l'avancement de leur livraison par SMS.
 
 Nestor est édité depuis 2004 par la société Svitex. Près d'un millier de restaurants l'utilisent, principalement des entreprises indépendantes possédant entre 1 et 12 points de vente, situées en France, en Suisse et en Belgique.
 
-Nestor a été conçu pour le marché français. Il est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État. L'éditeur fournit une attestation de conformité.
+Nestor a été conçu pour le marché français. Il est conforme à la loi française "anti-fraudes" du 1er janvier 2018. L'éditeur fournit une attestation de conformité.
 
 ## Fonctionnalités de l'intégration
 
 Connecter Nestor à HubRise permet à Nestor de :
 
-- Recevoir les commandes de HubRise, dont les statuts de commande. 
+- Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
 - Synchroniser le délai de livraison avec HubRise.
@@ -47,7 +47,6 @@ Connecter Nestor à HubRise permet à Nestor de :
 En connectant Nestor à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne.
 
 Synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, et bien d’autres solutions encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
-
 
 ## Prérequis
 
