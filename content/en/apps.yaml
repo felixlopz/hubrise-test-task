@@ -143,7 +143,7 @@ content:
           description: Delivery Hero is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 40 markets and 600 cities.
           additional_info: Integration in progress.
         - website: https://www.eat.ch/en/
-          documentation:
+          documentation: /apps/just-eat-takeaway
           logo: eat.png
           title: EAT.ch
           description: EAT.ch is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Switzerland.
@@ -155,24 +155,24 @@ content:
           description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 14 markets.
           additional_info:
         - website: https://www.just-eat.co.uk/
-          documentation:
+          documentation: /apps/just-eat-flyt
           logo: just-eat.png
           title: Just Eat
           description: Just Eat is an online food ordering and delivery service platform for local restaurants. Customers can order food online or via a mobile app. They operate in 13 countries in Europe, Asia, Oceania, and the Americas.
         - website: https://www.lieferando.de/fr/
-          documentation:
+          documentation: /apps/just-eat-takeaway
           logo: lieferando.png
           title: lieferando.de and lieferando.at
           description: lieferando is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Germany and Austria.
           additional_info:
         - website: https://www.pyszne.pl/en/
-          documentation:
+          documentation: /apps/just-eat-takeaway
           logo: pyszne.png
           title: Pyszne
           description: Pyszne is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Poland.
           additional_info:
         - website: https://www.skipthedishes.com/
-          documentation:
+          documentation: /apps/just-eat-flyt
           logo: skipthedishes.png
           title: Skip The Dishes
           description: Skip The Dishes is an online food ordering and delivery platform for local restaurants. Customers can order food or alcohol online or via a mobile app. They operate in Canada.
@@ -183,13 +183,13 @@ content:
           title: Smood
           description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros. HubRise is integrated with Dismatch, their delivery service.
         - website: https://www.justeattakeaway.com/
-          documentation:
+          documentation:  /apps/just-eat-takeaway
           logo: takeaway.png
           title: Takeaway.com
           description: Takeaway.com is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Belgium, Luxembourg, Portugal, Romania, and in Bulgaria.
           additional_info:
         - website: https://www.thuisbezorgd.nl/en/
-          documentation:
+          documentation:  /apps/just-eat-takeaway
           logo: thuisbezorgd.png
           title: Thuisbezorgd
           description: Thuisbezorgd is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Netherlands.
