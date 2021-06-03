@@ -24,7 +24,7 @@ Pour établir la connexion entre Koust et HubRise :
 1. Cliquez sur **Se connecter à hubrise**. L'interface HubRise s'affiche dans un nouvel onglet.
 1. Choisissez le point de vente que vous désirez connecter et cliquez sur **Autoriser** pour donner à Koust l'accès à vos informations. Si plusieurs catalogues sont disponibles, cliquez sur **Suivant** afin d'afficher les listes déroulantes correspondantes avant de cliquer sur **Autoriser**.
    ![Connexion à HubRise - Choix du point de vente](../images/003-fr-koust-choix-point-vente.png)
-1. Vous êtes redirigé vers l'écran de connexion de Koust et le message suivant s'affiche : *HubRise connecté avec succès, veuillez vous reconnecter.*
+1. Vous êtes redirigé vers l'écran de connexion de Koust et le message suivant s'affiche : _HubRise connecté avec succès, veuillez vous reconnecter._
 
 ## Tester la connexion
 

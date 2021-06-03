@@ -6,8 +6,8 @@ meta:
   title: Présentation générale | Nestor | HubRise
   description: Présentation générale de Nestor, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - 019-fr-nestor-apercu-commandes.png
-  - 020-fr-nestor-apercu-connexion.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Logiciels de caisse
@@ -34,7 +34,6 @@ Connecter Nestor à HubRise permet à Nestor de :
 - Recevoir les commandes de HubRise, dont les statuts de commande. 
 - Recevoir les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
-
 - Synchroniser le délai de livraison avec HubRise.
 
 ---
