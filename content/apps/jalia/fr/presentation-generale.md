@@ -5,9 +5,6 @@ layout: documentation
 meta:
   title: Présentation générale | Jalia | HubRise
   description: Présentation générale de Jalia, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
-gallery:
--
--
 path_override: /
 app_info:
   category: Logiciels de caisse
@@ -17,30 +14,34 @@ app_info:
   contact: jalia@jdc.fr
 ---
 
+---
+
+**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
+
+---
+
 ## Description
 
-JDC est une société créée en 1989 possédant des agences réparties dans toute la France et intervenant dans cinq secteurs d'activité, dont celui des caisses enregistreuses et des terminaux points de vente.
+Jalia est une solution d'encaissement cloud sur tablette iOS ou Android pour les restaurants. L'installation est simple et l'interface est optimisée pour une prise de commande rapide.
 
-Jalia de JDC est une solution d'encaissement cloud sur tablette iOS ou Android pour les restaurants. L'installation est simple et l'interface est optimisée pour une prise de commande rapide.
+La solution Jalia est éditée par JDC, une société créée en 1989 possédant des agences réparties dans toute la France. JDC intervient dans cinq secteurs d'activité, dont celui des caisses enregistreuses et des terminaux points de vente.
 
-Jalia a été conçu pour le marché français. Il est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État.
-
+Jalia a été conçu pour le marché français. Il est donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
 
 ## Fonctionnalités de l'intégration
 
 Connecter Jalia à HubRise permet à Jalia de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
-- Recevoir les informations clients de HubRise. 
+- Recevoir les informations clients de HubRise.
 
------
+---
 
-REMARQUE IMPORTANTE: L'envoi du un catalogue à HubRise sera bientôt possible. Contactez Jalia pour plus d'information à ce sujet.
+**REMARQUE IMPORTANTE :** L'envoi du menu vers HubRise sera bientôt possible. Contactez Jalia pour plus d'information.
 
------
+---
 
 Jalia peut être connecté à HubRise depuis le back-office de HubRise.
-
 
 ## Pourquoi se connecter ?
 
@@ -48,7 +49,6 @@ En connectant Jalia à HubRise, vous permettez à votre solution d'encaissement 
 
 Synchronisez vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), et bien d’autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
-
 ## Prérequis
 
-Pour établir la connexion entre Jalia et HubRise, vous devez disposer d'un compte Jalia.
+Pour établir la connexion entre Jalia et HubRise, vous devez disposer d'une licence Jalia.
