@@ -20,7 +20,7 @@ app_info:
 
 **REMARQUE IMPORTANTE :** L'audit de l'intégration est en cours. Une documentation complète sera publiée une fois l'audit terminé.
 **REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration est en cours.
+**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration est en cours de rédaction.
 
 ---
 
