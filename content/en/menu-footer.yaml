@@ -1,10 +1,10 @@
 sections:
   - title: Integrations
     links:
-    - title: Apps
-      to: /apps
-    - title: Contribute to the Documentation
-      to: /contributing
+      - title: Apps
+        to: /apps
+      - title: Contribute to the Documentation
+        to: /contributing
   - title: Developers
     links:
       - title: Quick Start

@@ -13,7 +13,7 @@ content:
       - 'Nombre de commandes : illimité'
       - 'Nombre de produits : illimité'
       - "Nombre d'applications connectées : illimité"
-      - "Aucun engagement"
+      - 'Aucun engagement'
     link:
       text: Démarrer maintenant
       to: https://manager.hubrise.com/signup

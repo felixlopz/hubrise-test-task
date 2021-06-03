@@ -12,7 +12,7 @@ path_override: /
 app_info:
   category: Point of Sale
   availability: France
-  price_range: 
+  price_range:
   website: https://zelty.fr
   contact: contact@zelty.fr / +33 9 72 53 55 72
 ---
@@ -34,19 +34,17 @@ Connecting Zelty to HubRise allows the EPOS to:
 - Pull customer information from HubRise.
 - Push the menu into a HubRise catalog.
 
------
+---
 
 **IMPORTANT NOTE:** Pushing order and customer information into HubRise will be supported in the future. Contact Zelty for more information.
 
------
-
+---
 
 ## Why Connect?
 
 Connecting Zelty to HubRise allows your EPOS to communicate with other applications you use every day.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our  [Apps page](/apps)
-
+Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps)
 
 ## Prerequisites
 

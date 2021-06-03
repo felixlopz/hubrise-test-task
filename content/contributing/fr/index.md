@@ -27,7 +27,7 @@ content:
       to: /fr/contributing/guide-des-captures-ecran
       icon: fa-desktop
     - title: Guide des vidéos
-      description: Commandes utiles pour générer de courtes vidéos explicatives (en anglais). 
+      description: Commandes utiles pour générer de courtes vidéos explicatives (en anglais).
       to: /fr/contributing/guide-des-videos
       icon: fa-film
     - title: Guide des diagrammes

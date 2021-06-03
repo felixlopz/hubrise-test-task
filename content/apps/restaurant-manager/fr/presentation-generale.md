@@ -14,8 +14,8 @@ app_info:
   contact: info@crystal-mind.com
 ---
 
------
+---
 
 **REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/restaurant-manager" addLocalePrefix={false}>en anglais uniquement</Link>.
 
------
+---

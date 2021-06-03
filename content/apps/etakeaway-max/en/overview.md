@@ -32,11 +32,11 @@ Connecting eTakeaway Max to HubRise allows the EPOS to:
 - Pull orders from HubRise, including order status.
 - Pull customer information from HubRise.
 
------
+---
 
 **IMPORTANT NOTE:** Pushing a catalog into HubRise will be supported soon. Contact eTakeaway Max for more information.
 
------
+---
 
 eTakeaway Max can be connected to HubRise via the eTakeaway Max support line.
 

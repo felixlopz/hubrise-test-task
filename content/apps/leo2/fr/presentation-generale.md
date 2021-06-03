@@ -17,11 +17,11 @@ app_info:
   contact: atoo@atoosarl.fr
 ---
 
------
+---
 
 **REMARQUE IMPORTANTE :** Une documentation complète de l'intégration est en cours de rédaction.
 
------
+---
 
 ## Description
 

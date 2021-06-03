@@ -22,7 +22,6 @@ MyOrderBox EPOS solution was built to manage inbound orders from multiple source
 
 MyOrderBox has numerous other fully embedded features including, call centres, inventory management, enterprise reporting to help owners and managers analyse trends in real-time and different payments methods to name but a few.
 
-
 ## Integration Features
 
 - Push the menu into a HubRise catalog.
