@@ -21,7 +21,7 @@ content:
           title: 3S POS
           description: 3S POS est une suite complète aux fonctionnalités personnalisables pour répondre aux besoins de chaque restaurant ou hôtelier.
         - website: https://www.carrepos-online.fr/
-          documentation:
+          documentation: /apps/carre-pos
           logo: carrepos.png
           title: Carré POS
           description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les boutiques, les coiffeurs ou encore les fleuristes.
