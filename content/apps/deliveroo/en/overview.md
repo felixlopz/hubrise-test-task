@@ -30,16 +30,18 @@ Deliveroo connects to your HubRise account through Deliveroo Bridge, an app deve
 
 Connecting Deliveroo Bridge allows Deliveroo to:
 
-- Push orders to HubRise.
-- Push delivery information to HubRise, for orders delivered by your team.
+- Push orders into HubRise, including order status.
+- Push customer information into HubRise, for orders delivered by your team
 
 ![Diagram of the connection flow between Deliveroo, Deliveroo Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
 
 ---
 
-**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in 2021.
+**IMPORTANT NOTE:** Pulling catalog and inventory from HubRise will soon be supported. Contact us for more information.
 
 ---
+
+Deliveroo Bridge can be connected to HubRise from the HubRise back office.
 
 ## Why Connect?
 
