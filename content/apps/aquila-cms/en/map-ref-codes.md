@@ -13,7 +13,7 @@ To properly process orders from Aquila to your EPOS, product codes are required 
 
 Products and their EPOS ref codes can be set up from in the Aquila backend using the main menu on the left, by navigating to **Catalog**, then selecting **Products**. Once a product is created, the EPOS ref code cannot be changed. If a change of EPOS ref code is required, a new product with the new EPOS ref code must be created and the old one deleted.
 
-Your Aquila menu can either be created directly in Aquila, or imported from the EPOS as described in [Catalog Import](/apps/aquila/map-ref-codes/#catalog-import). To properly process orders from Aquila to your EPOS, product codes are required for all products.
+Your Aquila menu can either be created directly in Aquila, or imported from the EPOS as described in [Catalog Import](/apps/aquila-cms/map-ref-codes/#catalog-import). To properly process orders from Aquila to your EPOS, product codes are required for all products.
 
 ---
 
@@ -25,7 +25,7 @@ The EPOS ref codes in Aquila can be updated in two ways: manually by creating a 
 
 ## Catalog Import
 
-The catalog is imported automatically when you [connect your HubRise account](/apps/aquila/connect-hubrise).
+The catalog is imported automatically when you [connect your HubRise account](/apps/aquila-cms/connect-hubrise).
 Manual catalog import is not available.
 
 ## Product

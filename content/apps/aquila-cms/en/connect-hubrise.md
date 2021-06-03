@@ -36,7 +36,7 @@ Aquila will then complete the process of activating the plugin.
 
 Once the plugin has been installed and enabled, the connection between Aquila to HubRise can be easily setup either to an existing HubRise Account, or a new one.
 
-The process below details how to create a new HubRise account when connecting your Aquila site. For instructions on how to connect a site with multiple points of sale, or on how to connect a site to an existing HubRise Account, see the [FAQs](/apps/aquila/faqs).
+The process below details how to create a new HubRise account when connecting your Aquila site. For instructions on how to connect a site with multiple points of sale, or on how to connect a site to an existing HubRise Account, see the [FAQs](/apps/aquila-cms/faqs).
 
 Once the HubRise plugin has been activated, the connection to a HubRise Account can be set through the following process:
 
