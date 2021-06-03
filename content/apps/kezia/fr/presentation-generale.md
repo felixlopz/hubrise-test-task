@@ -52,4 +52,4 @@ Synchronisez votre menu, vos informations clients et vos commandes avec votre so
 
 ## Prérequis
 
-Pour établir la connexion entre Kezia II et HubRise, vous devez avoir une license Kezia II avec le module HubRise installé.
+Pour établir la connexion entre Kezia II et HubRise, vous devez avoir une licence Kezia II avec le module HubRise installé.

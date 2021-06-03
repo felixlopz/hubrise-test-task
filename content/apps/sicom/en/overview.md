@@ -41,4 +41,4 @@ Synchronise your customer and order information with online ordering, food deliv
 
 ## Prerequisites
 
-To establish a connection between Sicom and HubRise, you must have an existing license, and a commercial agreement with Mytec.
+To establish a connection between Sicom and HubRise, you must have a Sicom license, and a commercial agreement with Mytec.
