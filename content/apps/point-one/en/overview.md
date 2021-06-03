@@ -30,7 +30,7 @@ Connecting pointOne to HubRise allows pointOne to:
 
 - Pull orders from HubRise, including order status.
 - Pull customer information from HubRise.
-- Pull the menu from a HubRise catalog.
+- Push the menu into a HubRise catalog.
 
 pointOne can be connected to HubRise via the pointOne support line.
 
