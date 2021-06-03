@@ -143,7 +143,7 @@ content:
           description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 40 pays and 600 villes.
           additional_info: Intégration en cours.
         - website: https://www.eat.ch/fr/
-          documentation:
+          documentation: /apps/just-eat-takeaway
           logo: eat.png
           title: EAT.ch
           description: EAT.ch est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Suisse.
@@ -155,24 +155,24 @@ content:
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
           additional_info: Documentation en anglais.
         - website: https://www.just-eat.fr/
-          documentation:
+          documentation: /apps/just-eat-flyt
           logo: just-eat.png
           title: Just Eat
           description: Just Eat est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 13 pays en Europe, en Asie, en Océanie et dans les Amériques.
         - website: https://www.lieferando.de/en/
-          documentation:
+          documentation: /apps/just-eat-takeaway
           logo: lieferando.png
           title: lieferando.de and lieferando.at
           description: lieferando est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Allemagne et en Autriche.
           additional_info:
         - website: https://www.pyszne.pl/fr/
-          documentation:
+          documentation: /apps/just-eat-takeaway
           logo: pyszne.png
           title: Pyszne
           description: Pyszne est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Pologne.
           additional_info:
         - website: https://www.skipthedishes.com/fr/
-          documentation:
+          documentation: /apps/just-eat-flyt
           logo: skipthedishes.png
           title: Skip The Dishes
           description: Skip The Dishes est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander un repas ou des boissons alcoolisées en ligne ou via une app mobile. Disponible au Canada.
@@ -183,13 +183,13 @@ content:
           title: Smood
           description: Smood est une plateforme de service de livraison à domicile qui opère sur tout le marché Suisse. Les clients peuvent commander en ligne ou via une app mobile dans leurs restaurants préférés ainsi que dans leurs Migros. HubRise est intégré à Dismatch, leur service de livraison.
         - website: https://www.justeattakeaway.com/
-          documentation:
+          documentation:  /apps/just-eat-takeaway
           logo: takeaway.png
           title: Takeaway.com
           description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, au Luxembourg, au Portugal, en Roumanie, et en Bulgarie.
           additional_info:
         - website: https://www.thuisbezorgd.nl/fr/
-          documentation:
+          documentation:  /apps/just-eat-takeaway
           logo: thuisbezorgd.png
           title: Thuisbezorgd
           description: Thuisbezorgd est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponiblau au Pays-Bas.
