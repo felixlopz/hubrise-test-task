@@ -52,7 +52,7 @@ Payment methods define how customers can pay for their orders. EPOS ref codes ma
 
 ## Service Types
 
-Service Type such as Delivery, Collection or Eat in might require an EPOS ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service Types such as Delivery, Collection or Eat in might require an EPOS ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ## Charges
 
