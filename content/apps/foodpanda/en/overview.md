@@ -6,8 +6,8 @@ meta:
   title: Overview | foodpanda | HubRise
   description: foodpanda overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 006-en-foodpanda-pk-screenshot.png
-  - 002-en-configuration-page.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Online ordering and food delivery
@@ -30,7 +30,7 @@ foodpanda connects to your HubRise account through foodpanda Bridge, an app deve
 
 Connecting foodpanda Bridge allows foodpanda to:
 
-- Push orders to HubRise. 
+- Push orders to HubRise.
 - Push delivery information to HubRise, for orders delivered by your team.
 
 ![Diagram of the connection flow between foodpanda, foodpanda Bridge, and HubRise](../images/001-en-2x-connection-diagram.png)

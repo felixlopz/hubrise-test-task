@@ -6,8 +6,8 @@ meta:
   title: Overview | Aquila | HubRise
   description: Aquila CMS overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 001-en-2x-cosmo-sushi.png
-  - 002-en-2x-aquila-back-office.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Online ordering
