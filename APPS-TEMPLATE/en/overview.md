@@ -54,7 +54,7 @@ Connecting Solution to HubRise allows the [EPOS] to:
 ---
 
 Solution can be connected to HubRise via the Solution support line.
-Solution can be connected to HubRise via the Solution back office.
+Solution can be connected to HubRise from the Solution back office.
 Solution can be connected to HubRise from the HubRise back office.
 Solution can be connected to HubRise from the HubRise or from the Solution back office.
 
