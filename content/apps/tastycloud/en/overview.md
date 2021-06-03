@@ -6,7 +6,7 @@ meta:
   title: Overview | TastyCloud | HubRise
   description: TastyCloud overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 001-2x-palais-krishnaa-tastycloud.png
+  - __gallery-001.png
 path_override: /
 app_info:
   category: Online ordering for restaurants
@@ -19,14 +19,14 @@ app_info:
 ## Description
 
 TastyCloud is a digital menu and ordering solution for restaurants, which offers multiple options to your customers:
- 
+
 - View the menu at the restaurant on a variety of screen types.
 - Order from a self ordering kiosk, or at the table by scanning a QR code with their smartphone.
 - Order delivery or collection from your own website on their smartphones, tablets, or desktop computer from anywhere at anytime.
 
 TastyCloud lets you set your hours of operation and delivery, change your menu on the fly, and offer alternatives. Are your customers craving gluten free, vegan or other options? TastyCloud makes it easy for them to find these.
 
-TastyCloud integrates with your existing marketing website and your Facebook, Twitter, and other social networks. 
+TastyCloud integrates with your existing marketing website and your Facebook, Twitter, and other social networks.
 
 ## Prerequisites
 

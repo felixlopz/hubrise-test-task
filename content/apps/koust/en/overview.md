@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-This documentation is [available in French only](https://www.hubrise.com/fr/apps/koust).
+This documentation is <Link to="/fr/apps/koust" addLocalePrefix={false}>available in French only</Link>.
