@@ -34,7 +34,7 @@ Connecting Deliveroo Bridge allows Deliveroo to:
 
 ---
 
-**IMPORTANT NOTE:** Product catalog and product availability cannot currently be synchronised, but HubRise is planning to release this feature in 2021.
+**IMPORTANT NOTE:** Pulling catalog and inventory from HubRise will soon be supported. Contact us for more information.
 
 ---
 

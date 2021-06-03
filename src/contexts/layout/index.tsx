@@ -55,7 +55,9 @@ function useLayoutContext() {
   const context = React.useContext(LayoutContext)
 
   if (!context) {
-    throw new Error(`useLayoutContext must be used within LayoutContextProvider`)
+    throw new Error(
+      `useLayoutContext must be used within LayoutContextProvider`
+    )
   }
 
   return context

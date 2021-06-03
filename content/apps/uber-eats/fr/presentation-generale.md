@@ -13,7 +13,7 @@ app_info:
   category: Plateformes de livraison de repas
   availability: 30+ pays
   website: https://www.ubereats.com/fr/
-  contact: 
+  contact:
 ---
 
 ## Description

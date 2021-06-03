@@ -14,10 +14,7 @@ const Layout = ({ children, pageContext }: LayoutProps): JSX.Element => {
 
   return (
     <>
-      <Header
-        languagePaths={languagePaths}
-        localeCode={localeCode}
-      />
+      <Header languagePaths={languagePaths} localeCode={localeCode} />
       <main className="content">{children}</main>
       <Footer pageContext={pageContext} />
     </>

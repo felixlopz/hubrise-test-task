@@ -8,7 +8,7 @@ require('dotenv').config({ path: `.env.${activeEnv}` })
 module.exports = {
   flags: {
     DEV_SSR: false,
-    PRESERVE_WEBPACK_CACHE: true
+    FAST_DEV: true
   },
   siteMetadata: {
     title: 'HubRise',
@@ -33,6 +33,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-image',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -41,10 +42,10 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 960,
+              maxWidth: 870,
               quality: 100,
               linkImagesToOriginal: false,
-              srcSetBreakpoints: [480, 960, 1920]
+              srcSetBreakpoints: [435, 870, 1740]
             }
           },
           'gatsby-remark-copy-linked-files'

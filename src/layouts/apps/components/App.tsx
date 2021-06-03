@@ -1,26 +1,28 @@
 import * as React from 'react'
-import GatsbyImage from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { useTranslation } from 'react-i18next'
 
-import { Image, ImageSharpFluid } from '@utils/image'
 import { IAdditionalSections, IApp } from '../interface'
 import Link from '@components/Link'
 import { generateKey } from '@utils/misc'
+import { ImageNode } from '@utils/image'
 
 interface AppSectionProps {
   title: string
   showTitle: boolean
   apps: Array<IApp>
-  logos: Array<Image<ImageSharpFluid>>
+  logoNodes: Array<AppImageNode>
   additionalSections: IAdditionalSections
   hasSuggestApp: boolean
 }
+
+export type AppImageNode = ImageNode & { base: string }
 
 const App = ({
   title,
   showTitle,
   apps,
-  logos,
+  logoNodes,
   additionalSections,
   hasSuggestApp
 }: AppSectionProps): JSX.Element => {
@@ -32,7 +34,7 @@ const App = ({
 
       <div className="apps">
         {apps.map((app, idx) => {
-          const logo = logos.find(({ base }) => base === app.logo)
+          const logo = logoNodes.find(({ base }) => base === app.logo)
           if (!logo) throw new Error(`${title} does not have a logo`)
 
           return (
@@ -42,10 +44,10 @@ const App = ({
               className="apps__box"
             >
               <GatsbyImage
+                image={logo.childImageSharp.gatsbyImageData}
                 className="apps__logo"
-                alt={title}
                 imgStyle={{ objectFit: 'scale-down' }}
-                {...logo.childImageSharp}
+                alt={title}
               />
 
               <div className="apps__documentation">

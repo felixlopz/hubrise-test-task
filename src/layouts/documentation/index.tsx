@@ -2,13 +2,14 @@ import { graphql } from 'gatsby'
 import * as React from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
-import { ImageSharpFluid } from '@utils/image'
+import { ImageSharp } from '@utils/image'
 import SEO from '@components/Seo'
 import MDXProvider from '@components/MdxProvider'
 import Breadcrumbs from '@components/Breadcrumbs'
 import { AppInfo, Feedback, Gallery, SectionNavigation } from './components'
 import { DocumentationContext } from './interface'
 import { IAppInfo } from './components/AppInfo'
+import { Heading } from './components/SectionNavigation'
 import { useTranslation } from 'react-i18next'
 
 interface DocumentationProps {
@@ -35,6 +36,7 @@ interface DocumentationNode {
     }
     title: string
   }
+  headings: Array<Heading>
   parent: {
     /** File path, eg: "apps/deliveroo/en/map-ref-codes.md" */
     relativePath: string
@@ -45,7 +47,7 @@ interface DocumentationImage {
   ext: string
   name: string
   relativeDirectory: string
-  childImageSharp: ImageSharpFluid
+  childImageSharp: ImageSharp
 }
 
 export const graphqlQuery = graphql`
@@ -70,6 +72,10 @@ export const graphqlQuery = graphql`
         }
         title
       }
+      headings {
+        depth
+        value
+      }
       parent {
         ... on File {
           relativePath
@@ -88,14 +94,7 @@ export const graphqlQuery = graphql`
         name
         relativeDirectory
         childImageSharp {
-          fluid {
-            aspectRatio
-            base64
-            presentationWidth
-            sizes
-            src
-            srcSet
-          }
+          gatsbyImageData(layout: CONSTRAINED)
         }
       }
     }
@@ -119,12 +118,12 @@ const Documentation = ({
 
   const currentMdxNode = data.mdxNode
 
-  const { frontmatter, body } = currentMdxNode
+  const { frontmatter, body, headings } = currentMdxNode
   const { meta, title, gallery, app_info: appInfo } = frontmatter
 
   const logoImage = findImage(data.images, logoImageName)
 
-  const galleryImageMap = new Map<string, ImageSharpFluid>()
+  const galleryImageMap = new Map<string, ImageSharp>()
   if (gallery) {
     for (let imageName of gallery) {
       const image = findImage(data.images, imageName)
@@ -153,11 +152,13 @@ const Documentation = ({
           section__in_developers
         `}
         >
-          <div className="section__content">
-            {languageWarning && (
-              <div className="section__language-warning">{languageWarning}</div>
-            )}
+          {languageWarning && (
+            <header className="section__language-warning">
+              {languageWarning}
+            </header>
+          )}
 
+          <div className="section__content">
             <div className="documentation">
               <h1>{title}</h1>
               <MDXRenderer>{body}</MDXRenderer>
@@ -169,6 +170,7 @@ const Documentation = ({
             currentPath={path}
             title={folderTitle}
             folderPages={folderPages}
+            headings={headings}
           />
 
           {galleryImageMap.size > 0 && (
@@ -189,7 +191,7 @@ export default Documentation
 function findImage(
   images: DocumentationData['images'],
   name?: string
-): ImageSharpFluid | undefined {
+): ImageSharp | undefined {
   const imageNode = images.nodes.find(
     (node) => `${node.name}${node.ext}` === name
   )

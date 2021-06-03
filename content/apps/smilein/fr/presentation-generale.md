@@ -45,7 +45,6 @@ L'intégration de smilein avec HubRise permet de :
 
 ---
 
-
 ## Pourquoi se connecter ?
 
 En connectant smilein à HubRise, les commandes passées sur votre site internet sont transmises à votre logiciel de caisse ou toute autre solution intégrée à HubRise. Pour voir les applications que vous pouvez connecter, consultez la [page Apps](/apps).
