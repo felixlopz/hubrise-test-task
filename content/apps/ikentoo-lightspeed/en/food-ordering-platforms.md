@@ -82,14 +82,14 @@ To correctly receive your orders, specify the following values in the Just Eat F
 | Payments      | Just Eat payment ref code    | `JEPM`        |
 | Payments      | Cash payment ref code        | (leave empty) |
 
-## Takeaway.com 
+## Takeaway.com
 
 To receive Takeaway.com orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
 | Section       | Name                           | Ref code      |
-|---------------|--------------------------------|---------------|
+| ------------- | ------------------------------ | ------------- |
 | Service types | Takeaway.com delivery ref code | `TAAP`        |
 | Service types | Restaurant delivery ref code   | `TADRAP`      |
 | Service types | Takeaway ref code              | `TATAAP`      |
@@ -106,7 +106,7 @@ To receive Thuisbezorgd.nl orders in iKentoo, you first need to connect Just Eat
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
 | Section       | Name                              | Ref code      |
-|---------------|-----------------------------------|---------------|
+| ------------- | --------------------------------- | ------------- |
 | Service types | Thuisbezorgd.nl delivery ref code | `THAP`        |
 | Service types | Restaurant delivery ref code      | `THDRAP`      |
 | Service types | Takeaway ref code                 | `THTHAP`      |
@@ -116,14 +116,14 @@ To correctly receive your orders, specify the following values in the Just Eat T
 | Payments      | Thuisbezorgd.nl payment ref code  | `THPM`        |
 | Payments      | Cash payment ref code             | (leave empty) |
 
-## Eat.ch 
+## Eat.ch
 
 To receive Eat.ch orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
 | Section       | Name                         | Ref code      |
-|---------------|------------------------------|---------------|
+| ------------- | ---------------------------- | ------------- |
 | Service types | Eat.ch delivery ref code     | `EATAP`       |
 | Service types | Restaurant delivery ref code | `EATDRAP`     |
 | Service types | Takeaway ref code            | `EATEATAP`    |
