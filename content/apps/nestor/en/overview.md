@@ -8,4 +8,8 @@ meta:
 path_override: /
 ---
 
-This documentation is [available in French only](/fr/apps/nestor).
+---
+
+**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/nestor" addLocalePrefix={false}>available in French only</Link>.
+
+---

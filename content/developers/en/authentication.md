@@ -9,24 +9,24 @@ meta:
 
 ## 1. Introduction to OAuth 2.0
 
-Before your application can access HubRise data, the user needs to give your application permission. The HubRise API uses the OAuth 2.0 protocol for this purpose. This is the same method that services like Twitter and Facebook use to let applications post on your behalf.
+Before your application can access data on HubRise, you need to request your users' permission. The HubRise API relies on the OAuth 2.0 protocol for this purpose.
 
 The OAuth 2.0 flow is a series of interactions between:
 
-- A **resource owner**: the HubRise user
-- A **client**: your application, ie a program or a website making protected requests on behalf of the user
-- An **authorisation server**: HubRise OAuth API, which issues an access token to the client. It is hosted at: http://manager.hubrise.com/oauth2/v1
-- A **resource server**: HubRise API, which provides access your user data. It is hosted at: http://api.hubrise.com/v1
+- A **resource owner**: the HubRise user.
+- A **client**: your application, which makes requests on behalf of the user.
+- An **authorisation server**: the HubRise OAuth API, which issues an access token to the client. Hosted on: http://manager.hubrise.com/oauth2/v1.
+- A **resource server**: the HubRise API, which provides access to your users' data. Hosted on: http://api.hubrise.com/v1.
 
 Although it seems complicated at first, OAuth actually makes things simpler for both you and your users, and it dramatically reduces security risks for everyone:
 
-- Your application doesn't need to store your users' passwords
-- You can pick which permissions to request from a user. For example, users can grant your application access to their order list, without also needing to grant access to their customer list.
-- Users can easily revoke the access they grant a potentially insecure application, without needing to reset their password.
+- Your application doesn't need to store your users' passwords.
+- Your application can only access the data that it needs. For example, your application can request access to orders but not catalogs. Or it can request read-only access.
+- Users can easily revoke access to a potentially insecure or compromised application, without resetting their password.
 
 ## 2. OAuth scopes
 
-A _scope_ controls the set of resources an access token can read and write. Users can see the scope before granting access to an application. It's recommended for application developers to limit the scope to what is strictly necessary to avoid being denied access.
+A _scope_ controls the set of resources an application has access to. Users can see the scope before granting access to an application. The good practice is to limit your application's scope to the minimum it needs: not only does this reduce the impact of a potential security breach, it also makes your users more comfortable authorising your application.
 
 A scope is a comma-separated list of:
 
@@ -43,45 +43,55 @@ An **access-level set of permissions** is made of:
 
 #### Examples of valid scopes:
 
-- `profile_with_email`: access to the user profile including email
-- `location[orders.write,customer_list.write]`: allows creating orders and customers for a chosen location
-- `account[customer_list.read],profile`: access to the user profile and to the customers from a chosen customer list
+- `profile_with_email`: your application can access the profile of the user, including their email.
+- `location[orders.write,customer_list.write]`: your application can create orders and customers in a chosen location.
+- `account[customer_list.read],profile`: your application can access the user profile and view all customers from a chosen customer list.
 
 ## 3. Web application workflow
 
 ### 3.1. Request authorisation
 
-When your application needs to access a user's data, it should redirect him to HubRise's OAuth server:
+To get access to a user's data, your application should redirect the user to this page:
 
 ```http
-GET https://manager.hubrise.com/oauth2/v1/authorize?redirect_uri=https://<<YOUR DOMAIN HERE>>/oauth_callback&client_id=459691768564.clients.hubrise.com&scope=location[orders.write,customer_list.write,catalog.read] HTTP/1.1
+https://manager.hubrise.com/oauth2/v1/authorize?
+  redirect_uri=https://<<YOUR-DOMAIN-HERE>>/oauth_callback&
+  client_id=<<YOUR-CLIENT-ID>>&
+  scope=location[orders.write,customer_list.write,catalog.read]&
+  country=FR&
+  account_name=Aux+Délices&
+  location_name=Paris
 ```
 
-HubRise authenticates the user, prompts him to choose the location, account, catalog and customer list he's willing to connect, and obtain consent to access the requested scope. If the user is not logged in, he will be able to sign in or create an account.
+When the page loads, HubRise:
 
-HubRise server sends the result of the authorisation to the provided URL. If the user approves the request, then the response contains an authorisation code that looks like:
+- Authenticates the user. Users can log in if they already have a HubRise account. If they don't, they can create an account in a few simple steps: `country`, `account_name` and `location_name` parameters are then used to prefill the signup form.
+- Prompts the user to select the location, catalog and/or customer list to connect.
+- Requests user approval to access the data.
+
+If the user approves the request, HubRise calls the `redirect_uri` URL you specified, and includes the authorisation code in the `code` query parameter:
 
 ```http
-https://<<YOUR DOMAIN HERE>>/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32...
+https://<<YOUR-DOMAIN-HERE>>/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32
 ```
 
-Once issued, the authorisation code is valid for 10 minutes.
+---
 
-If the authorisation fails, HubRise calls the URL with an error message passed as a parameter:
+**IMPORTANT NOTE**: authorisation codes are one-use throw-away codes that expire after 10 minutes. They are used to generate API tokens, which do not expire. The next section explains how to get an API token from an authorisation code.
 
-```http
-https://<<YOUR DOMAIN HERE>>/oauth_callback?error=access_denied
-```
+---
 
-Or:
+If the authorisation fails, HubRise calls the `redirect_uri` URL, with an error message in the `error` query parameter:
 
 ```http
-https://<<YOUR DOMAIN HERE>>/oauth_callback?error=expired
+https://<<YOUR-DOMAIN-HERE>>/oauth_callback?error=access_denied
 ```
 
 ### 3.2. Get an access token
 
-With the authorisation code obtained, your application can now formally establish a connection. This step is necessary to get an access token and start sending requests to the API. 
+Once your application gets an authorisation code, it can establish a connection. This step is necessary to get an access token and start sending requests to the API.
+
+To get the access token, send the `POST` request below, and include the authorisation code, client id and client secret in the request body:
 
 ```http
 POST https://manager.hubrise.com/oauth2/v1/token HTTP/1.1
@@ -92,7 +102,11 @@ client_id=407408718192.clients.hubrise.com&
 client_secret=*********
 ```
 
-To which HubRise responds:
+If the request succeeds, the response contains the access token. You must save this token, as you will need to include it in all further requests to the API.
+
+The response also contains the ids and names of the resources your application has access to. You should save these identifiers and make them easily accessible from your user interface. They are a convenient way for users to confirm that their connection is bound to the right resources.
+
+#### Example of response:
 
 ```json
 {
@@ -108,51 +122,55 @@ To which HubRise responds:
 }
 ```
 
-The response includes an `access_token`, which allows you to access your user's data. You must save this token, and include it in all API requests.
-
-The response also returns the ids and names of the resources your connection has access to. You should also save these identifiers and make sure your user can easily access them. They are a convenient way for the user to check that the connection is bound to the right resources. 
+Note that the request will fail if the authorisation code has expired, or has already been used.
 
 ### 3.3. Connect to the API
 
-Now that your application has an access token, it can call the API on behalf of the user. Calls to the API must include a `X-Access-Token` HTTP header.
+With the access token, your application can now call the API on behalf of the user. Calls to the API must include a `X-Access-Token` HTTP header.
 
-For example, here is a call to get the location details:
+For example, you can use this request to get location details:
 
 ```http
 GET https://api.hubrise.com/v1/location HTTP/1.1
 X-Access-Token: b9922a78d3ffab6b95e9d72e88
 ```
 
-Note that you don't need to specify the location's id, because your connection is already bound to one location.
+Note that you don't need to specify a location's id, because your connection is bound to a single location.
 
 ## 4. Installed app workflow
 
-This workflow is for native apps, as opposed to web apps. Non-SaaS EPOS systems should use this workflow.
+The preceding workflow is not convenient for installed apps, as they generally cannot expose a callback URL to the outside.
 
-The main difference with the Web app workflow is that the authorisation code is displayed in the browser, and the user needs to copy/paste the code into the application.
+We offer an alternative workflow suitable for these apps. The main difference is that the authorisation code appears in the browser, and the user needs to copy/paste the code into your application.
 
-You will need to embed the client secret into your application, which obviously means that it is not treated as a secret in this context.
-
-The authorisation request is made by opening a browser with this URL:
+To implement this workflow, simply redirect users to the following page in their default browser:
 
 ```http
 https://manager.hubrise.com/oauth2/v1/authorize?
   redirect_uri=urn:ietf:wg:oauth:2.0:oob&
-  client_id=407408718192.clients.hubrise.com&
-  scope=location[orders.write,customer_list.write,catalog.read]
+  client_id=<<YOUR-CLIENT-ID>>&
+  scope=location[orders.write,customer_list.write,catalog.read]&
+  country=FR&
+  account_name=Aux+Délices&
+  location_name=Paris
 ```
 
-The special value of `redirect_uri` tells HubRise's OAuth server that the code should be displayed in the browser, rather than being sent to a callback URL.
+Here, `redirect_uri` contains a special `urn:ietf:wg:oauth:2.0:oob` value, that tells HubRise to display the authorisation code in the browser, rather than sending the code to a callback URL.
 
-If the user grants access to your application, the result will be a dialog where the user will be instructed to copy/paste the indicated authorisation code into your application. Your application needs to provide a field for the user to paste the code. From there, your application can request an access token in the same way as a web application.
+After granting access, the user is redirected to a page where the authorisation code appears. Your application must provide an input field for the user to type or paste the code. Your application can then use the code to request an access token, in the same way as a web application.
+
+Note that you will need to ship your client secret within your application binary to implement this workflow.
 
 ## 5. Connection reuse
 
-The `access_token` returned by `GET /oauth2/v1/token` is specific to a client and a location. Reauthorizing the same location several times always
-returns the same initial token.
+The `access_token` returned by `GET /oauth2/v1/token` is specific to a given client and a given location. Re-authorising the same location with the same client always returns the same token.
 
-**Important**: if a different catalog (or customer list) is selected when reauthorizing the location, the token will no
+---
+
+**IMPORTANT NOTE**: if a different catalog (or customer list) is selected when re-authorising the location, the token will no
 longer allow access to the former catalog (or customer list) when the new authorisation completes.
+
+---
 
 You can bypass this behaviour and force a new token to be issued by passing a `device_id` parameter when redirecting the
 user to the authorisation page, eg:
