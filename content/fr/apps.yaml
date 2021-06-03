@@ -83,7 +83,7 @@ content:
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
         - website: https://www.pointone-epos.co.uk/
-          documentation:
+          documentation: /apps/pointone
           logo: pointone.png
           title: pointOne
           description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.

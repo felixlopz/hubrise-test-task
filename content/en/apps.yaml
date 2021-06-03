@@ -83,7 +83,7 @@ content:
           description: Nestor is a French Point of Sales solution designed for home delivery and takeaway restaurants.
           additional_info: Documentation in French.
         - website: https://www.pointone-epos.co.uk/
-          documentation:
+          documentation: /apps/pointone
           logo: pointone.png
           title: pointOne
           description: pointOne is a touch-screen Point of Sales simple to use. pointOne includes online ordering, kitchen screens, smart phone applications, reporting as well as stock control.
