@@ -8,4 +8,8 @@ meta:
 path_override: /
 ---
 
-This documentation is [available in French only](https://www.hubrise.com/fr/apps/coursicab).
+---
+
+**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/coursicab" addLocalePrefix={false}>available in French only</Link>.
+
+---

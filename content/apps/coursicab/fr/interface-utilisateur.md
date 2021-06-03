@@ -4,35 +4,36 @@ position: 3
 layout: documentation
 meta:
   title: Interface utilisateur | CoursiCab | HubRise
-  description: Accéder aux différentes pages telles que la liste des livraisons ou celle de l'historique. Connectez vos apps et synchronisez vos données.
+  description: Utilisation des pages Courses et Historiques de Coursicab. Connectez vos apps et transmettez vos commandes au service de livraison à la demande CoursiCab.
 ---
 
-Le tableau de bord CoursiCab permet de consulter certaines informations des commandes HubRise, afin d'en faire la livraison.
+Le back-office de CoursiCab permet de consulter les commandes HubRise, et de sélectionner celles que vous souhaitez faire livrer.
 
 ## Courses
 
-Dans CoursiCab, les livraisons sont appelées des courses. Pour en consulter la liste, dans votre espace CoursiCab, dans la barre de menu, sélectionnez **Apps**.
-   ![Interface utilisateur - Liste des courses](../images/005-fr-coursicab-courses.png)
+Dans CoursiCab, les livraisons sont appelées des courses. Pour en consulter la liste, dans votre espace CoursiCab, cliquez sur **Apps** dans la barre de menu.
+![Interface utilisateur - Liste des courses](../images/005-fr-coursicab-courses.png)
 
-Vous pouvez accepter ou refuser une livraison.
+Pour chaque course, vous pouvez accepter ou refuser la livraison.
 
 Pour accepter, suivez les étapes suivantes :
 
-1. Dans la colonne **ACTION**, cliquez sur le bouton d'acceptation.
-1. Sélectionnez un véhicule et un mode de paiement.
+1. Dans la colonne **ACTION**, cliquez sur le bouton d'acceptation en forme de coche.
+1. Sélectionnez un véhicule et un mode de paiement dans la modale qui s'affiche :
+![Interface utilisateur - Accepter une course](../images/008-fr-accepter-course.png)
 1. Cliquez sur **Confirmer**.
 
 Pour refuser :
 
-1. Dans la colonne **ACTION**, cliquez sur le bouton d'acceptation. Une modale de confirmation s'ouvre.
-1. Cliquez sur **Oui**.
-
-Le livreur mettra à jour une course avec les statuts **Transit** et **Livrée**.
+1. Dans la colonne **ACTION**, cliquez sur le bouton de rejet en forme de croix. Une modale de confirmation s'ouvre.
+1. Cliquez sur **Oui** pour confirmer l'annulation de la course.
 
 ## Historique
 
-Pour consulter l'historique de vos courses, dans votre espace CoursiCab, dans la barre de menu, sélectionnez **Historique**.
-   ![Interface utilisateur - Historique](../images/006-fr-coursicab-historique.png)
+Pour consulter l'historique de vos courses, dans votre espace CoursiCab, cliquez sur **Historique** dans la barre de menu.
+![Interface utilisateur - Historique](../images/006-fr-coursicab-historique.png)
 
-Pour voir le détail de la course, dans la colonne **ACTION**, cliquez sur le bouton de détail. Cette page présente les informations du client, l'itinéraire et l'historique des changements de statuts de la course.
-   ![Interface utilisateur - Détail de la course](../images/007-fr-coursicab-detail-course.png)
+Lorsqu'une livraison est en cours, le statut de la course passe successivement en **Transit** puis en **Livrée**.
+
+Pour voir le détail de la course, cliquez sur le bouton dans la colonne **ACTION**. Une nouvelle page indique les adresses de retrait et de livraison, les informations du chauffeur, le prix de la course et l'historique des changements de statuts.
+![Interface utilisateur - Détail de la course](../images/007-fr-coursicab-detail-course.png)
