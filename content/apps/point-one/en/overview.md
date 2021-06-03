@@ -5,9 +5,6 @@ layout: documentation
 meta:
   title: Overview | pointOne | HubRise
   description: pointOne overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
--
--
 path_override: /
 app_info:
   category: Point of Sales
@@ -17,12 +14,11 @@ app_info:
   contact: info@pointone.co.uk  / +44 345 862 0005
 ---
 
------
+---
 
-IMPORTANT NOTE: A full documentation of this integration will be available once we finalise the integration audit.
+**IMPORTANT NOTE:** The integration is currently being reviewed. A full documentation will be published once the review is complete.
 
------
-
+---
 
 ## Description
 
@@ -40,11 +36,10 @@ pointOne can be connected to HubRise via the pointOne support line.
 
 ## Why Connect ?
 
-Connecting pointOne to HubRise allows your EPOS to communicate with other applications you use everyday.
+Connecting pointOne to HubRise allows your EPOS to communicate with other applications you use every day.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Uber Eats and Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our Apps page.
+Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Uber Eats and Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
-To establish a connection between pointOne and HubRise, you must have an existing pointOne license.
-
+To establish a connection between pointOne and HubRise, you must have a pointOne license.
