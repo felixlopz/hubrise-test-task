@@ -9,7 +9,7 @@ meta:
 
 The first step in verifying the connection between Aquila and HubRise is by creating test orders.
 
-These steps require that you have already connected Aquila to HubRise. For more information on connecting Aquila to HubRise, see [Connect to HubRise](/apps/aquila/connect-hubrise/).
+These steps require that you have already connected Aquila to HubRise. For more information on connecting Aquila to HubRise, see [Connect to HubRise](/apps/aquila-cms/connect-hubrise/).
 
 Once the connection is complete, test orders generated from Aquila will be transmitted to HubRise. Follow this process to create a test order and verify it has been transmitted to HubRise.
 

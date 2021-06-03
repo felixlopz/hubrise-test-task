@@ -9,3 +9,9 @@
   toPath: /apps/ikentoo-lightspeed
 - fromPath: /fr/apps/ikentoo
   toPath: /fr/apps/ikentoo-lightspeed
+
+# Aquila
+- fromPath: /apps/aquila
+  toPath: /apps/aquila-cms
+- fromPath: /fr/apps/aquila
+  toPath: /fr/apps/aquila-cms
