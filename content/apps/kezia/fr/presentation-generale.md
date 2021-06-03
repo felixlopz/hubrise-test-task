@@ -29,7 +29,7 @@ Le logiciel de gestion de caisse Kezia II est une solution d'encaissement pour l
 
 Kezia II est un outil de gestion central avec développement de la fidélité, optimisation de la logistique, gestion des stocks et achats simplifié, statistiques avancées, synchronisation des données multipostes & multisites et management des équipes. Ces fonctionnélités peuvent être complémentés par la création de cartes de fidélité, de la vidéosurveillance intelligente, ou encore de la monétique intégrée.
 
-Kezia II est certifié NF525, et donc conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État.
+Kezia II est certifié NF525, et donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
 
 ## Fonctionnalités de l'intégration
 
