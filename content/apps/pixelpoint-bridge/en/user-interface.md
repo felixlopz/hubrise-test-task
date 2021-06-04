@@ -3,7 +3,7 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: Connect PixelPoint Bridge to HubRise - User Interface Guide
+  title: User Interface | PixelPoint Bridge | HubRise
   description: Informs users on how navigate through PixelPoint Bridge created by HubRise to connect the PAR PixelPoint EPOS solution to HubRise. Synchronise your data.
 ---
 

@@ -3,7 +3,7 @@ title: Too Many Accounts for My Business On HubRise. How Can I Clear the System?
 position: 60
 layout: documentation
 meta:
-  title: Clear Accounts and Permissions - HubRise
+  title: Clear Accounts and Permissions | HubRise
   description: Time to clean up. See how to clear the system when too many accounts were created for your business on HubRise. Rename it, delete it, or remove permissions.
 ---
 

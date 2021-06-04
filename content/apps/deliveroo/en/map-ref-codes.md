@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 5
 layout: documentation
 meta:
-  title: Connect Deliveroo to HubRise - Map Ref Codes Guide
+  title: Map Ref Codes | Deliveroo | HubRise
   description: Instructions on mapping Deliveroo product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
@@ -11,7 +11,7 @@ Most EPOS solutions require a ref code for each product to correctly parse order
 
 ---
 
-**IMPORTANT NOTE:** If you do not assign a ref code to all your products, Deliveroo will not process the order correctly. For more information, see [Why Are My Orders Not Received on HubRise](/apps/deliveroo/faqs/orders-not-received-missing-ref-codes).
+**IMPORTANT NOTE:** If you do not assign a ref code to all your products, Deliveroo will not process the order correctly. For more information, see [Why Are My Orders Not Received on HubRise?](/apps/deliveroo/faqs/orders-not-received-missing-ref-codes)
 
 ---
 

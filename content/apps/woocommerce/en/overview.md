@@ -3,13 +3,13 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect WooCommerce to HubRise - Overview
+  title: Overview | WooCommerce | HubRise
   description: WooCommerce overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 006-en-woocommerce-backoffice.jpg
-  - 003-en-2x-woocommerce-wesite.png
-  - 002-en-2x-woocommerce-wesite.png
-  - 004-en-2x-woocommerce-wesite.png
+  - __gallery-en-001.jpg
+  - __gallery-en-002.png
+  - __gallery-en-003.png
+  - __gallery-en-004.png
 path_override: /
 app_info:
   category: Online ordering

@@ -3,7 +3,7 @@ title: Utilisation sans logiciel de caisse
 position: 6
 layout: documentation
 meta:
-  title: Connecter Koust à HubRise - Utilisation sans logiciel de caisse
+  title: Utilisation sans logiciel de caisse | Koust | HubRise
   description: Configuration des articles Koust si vous n'utilisez pas de logiciel de caisse. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
@@ -32,5 +32,5 @@ Pour importer un fichier CSV dans Koust, suivez les étapes suivantes :
    ![Utilisation sans logiciel de caisse - Données importées](../images/016-fr-koust-import-reussi.png)
 1. Cliquez sur **Terminer**.
    ![Utilisation sans logiciel de caisse - Liste des articles](../images/017-fr-koust-articles-apres-import.png)
-   
+
 Contrairement aux articles importés depuis le catalogue HubRise, les codes ref des articles importés en CSV ne peuvent pas être modifiés. Si vous devez modifier le code ref d'un article, supprimez cet article puis importez à nouveau.

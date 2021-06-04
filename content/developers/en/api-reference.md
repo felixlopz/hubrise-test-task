@@ -3,8 +3,8 @@ title: API Reference
 position: 2
 layout: documentation
 meta:
-  title:
+  title: API Reference | HubRise
   description:
 ---
 
-To see the API documentation, check our [API Reference](/developers/api/general-concepts). 
+To see the API documentation, check our [API Reference](/developers/api/general-concepts).

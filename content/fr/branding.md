@@ -1,6 +1,6 @@
 ---
 title: Guide de la marque
-layout: simple
+layout: documentation-simple
 meta:
   title: Guide de la marque, logos et textes à utiliser | HubRise
   description: Téléchargez le logo de HubRise. Trouvez des descriptions à réutiliser et à adapter, pour expliquer à vos clients ce que leur apporte votre intégration avec HubRise.
@@ -30,7 +30,7 @@ Description longue (<200 mots) :
 >
 > Grâce à son intégration HubRise, [Nom de l'App intégrée] peut se connecter à un écosystème de solutions : systèmes d'encaissement, solution de gestion de livreurs, services de livraison, solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client. Le nombre d'applications compatibles augmente chaque mois. Si l'application que vous souhaitez utiliser ne figure pas encore dans l'écosystème, vous pouvez contacter HubRise, qui prendra contact avec l'éditeur en vue d'une intégration. L’API publique et ouverte de HubRise vous permet également de créer vos propres intégrations.
 >
-> Le back office de HubRise donne accès à l'ensemble des flux échangés, et permet en cas de problème de vérifier le statut de chaque transaction.
+> Le back-office de HubRise donne accès à l'ensemble des flux échangés, et permet en cas de problème de vérifier le statut de chaque transaction.
 
 ##### Description en anglais
 

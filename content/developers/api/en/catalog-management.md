@@ -3,7 +3,7 @@ title: Catalog Management
 position: 4
 layout: documentation
 meta:
-  title:
+  title: Catalog Management | API | HubRise
   description:
 ---
 
@@ -449,7 +449,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | `name` <Label type="optional" />             | string                                                     | The name of the sku. Skus belonging to a same product must have unique names. One sku per product can have a null name. |
 | `restrictions` <Label type="optional" />     | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the sku to be available.                                         |
 | `price`                                      | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                                                                                   |
-| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Overrides for the price in different contexts, such as a specific service type.                                         |
+| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts, such as a specific service type.                                                 |
 | `option_list_refs` <Label type="optional" /> | string[]                                                   | The refs of the option lists this sku is attached to.                                                                   |
 | `tags` <Label type="optional" />             | string[]                                                   | List of tags.                                                                                                           |
 
@@ -481,17 +481,17 @@ A product contains one or several skus. A sku is always attached to a product.
   accessLevel="location, account"
 />
 
-| Name                                        | Type                                                       | Description                                          |
-| ------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
-| `id`                                        | string                                                     | The id of the sku.                                   |
-| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                  |
-| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                 |
-| `product_id`                                | string                                                     | The id of the sku's parent product.                  |
+| Name                                        | Type                                                       | Description                                                         |
+| ------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| `id`                                        | string                                                     | The id of the sku.                                                  |
+| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                                 |
+| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                                |
+| `product_id`                                | string                                                     | The id of the sku's parent product.                                 |
 | `restrictions` <Label type="optional" />    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
-| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                |
-| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Overrides for the price in different contexts.      |
-| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to. |
-| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                        |
+| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                               |
+| `price_overrides`                           | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts.                              |
+| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to.                |
+| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                                       |
 
 #### Example request:
 
@@ -653,6 +653,7 @@ Retrieve an option list and the possible choices (options).
 | `ref` <Label type="optional" />     | string                                                     | The ref of the option.                                                                            |
 | `name`                              | string                                                     | The name of the option.                                                                           |
 | `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option. Should be set to `0.00 EUR` (adjust the currency) if the option is free. |
+| `price_overrides`                   | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts, such as a specific service type.                           |
 | `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default. Default is `false`.                                         |
 | `tags` <Label type="optional" />    | string[]                                                   | List of tags.                                                                                     |
 
@@ -663,7 +664,13 @@ Retrieve an option list and the possible choices (options).
   "name": "Blue",
   "ref": "BLU",
   "price": "250.00 EUR",
-  "default": true
+  "price_overrides": [
+    {
+      "start_date": "2020-08-20",
+      "price": "280.00 EUR"
+    }
+  ],
+  "default": false
 }
 ```
 
@@ -674,15 +681,16 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-| Name                                | Type                                                       | Description                           |
-| ----------------------------------- | ---------------------------------------------------------- | ------------------------------------- |
-| `id`                                | string                                                     | The id of the option.                 |
-| `ref` <Label type="optional" />     | string                                                     | The ref of the option.                |
-| `option_list_id`                    | string                                                     | The id of the option list.            |
-| `name`                              | string                                                     | The name of the option.               |
-| `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option.              |
-| `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default. |
-| `tags` <Label type="optional" />    | string[]                                                   | List of tags.                         |
+| Name                                | Type                                                       | Description                            |
+| ----------------------------------- | ---------------------------------------------------------- | -------------------------------------- |
+| `id`                                | string                                                     | The id of the option.                  |
+| `ref` <Label type="optional" />     | string                                                     | The ref of the option.                 |
+| `option_list_id`                    | string                                                     | The id of the option list.             |
+| `name`                              | string                                                     | The name of the option.                |
+| `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option.               |
+| `price_overrides`                   | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts. |
+| `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default.  |
+| `tags` <Label type="optional" />    | string[]                                                   | List of tags.                          |
 
 #### Example request:
 
@@ -1038,9 +1046,10 @@ All the fields above are optional. Fields with a `null` value are ignored. All c
   "max_per_order": "1"
 }
 ```
+
 ## 11. Price Overrides
 
-A `price_overrides` is an array of rules that can be used in [Skus](#skus) to override the price in different contexts.
+A `price_overrides` is an array of rules that can be used in [Skus](#skus) and [Options](#options) to override the price in different contexts.
 
 The structure of a rule is described below.
 

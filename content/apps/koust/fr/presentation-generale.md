@@ -3,7 +3,7 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Connecter Koust à HubRise - Présentation générale
+  title: Présentation générale | Koust | HubRise
   description: Présentation générale de Koust, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
@@ -20,6 +20,7 @@ app_info:
 Koust est une application qui permet aux restaurateurs de gérer leurs coûts et leurs stocks. Koust accompagne tous types de restaurateurs : des restaurants individuels aux chaînes de restaurants, en passant par la restauration collective.
 
 L'application dispose de nombreuses fonctionnalités séparées en plusieurs pôles :
+
 - Le pôle de gestion offre des tableaux de bord qui permettent de suivre en temps réel l'évolution du chiffre d'affaires et de la marge brute de votre établissement.
 - Le pôle de stock permet de passer vos commandes fournisseurs, de réaliser vos inventaires et d'analyser vos achats.
 - Le pôle de production offre un planning de production ainsi que la production de produits semi-finis.

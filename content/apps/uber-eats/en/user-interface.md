@@ -3,7 +3,7 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: Connect Uber Eats to HubRise - User Interface Guide
+  title: User Interface | Uber Eats | HubRise
   description: Instructions on navigating Uber Eats Bridge main page to access information about the orders and customise the behaviour of the bridge. Synchronise your data.
 ---
 
@@ -43,7 +43,7 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 ![Order logs page on Uber Eats Bridge](../images/004-en-order-logs.png)
 
-Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see the [HubRise documentation](/docs/hubrise-logs/).
+Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
 ## System Request Page
 
