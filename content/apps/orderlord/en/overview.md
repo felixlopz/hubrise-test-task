@@ -46,7 +46,7 @@ OrderLord can be connected to HubRise via the OrderLord support line.
 
 ## Why Connect?
 
-Connecting OrderLord to HubRise allows your OrderLord EPOS, Kitchen Display Screen and Delivery Management System to communicate with other applications you use every day.
+Connecting OrderLord to HubRise allows your OrderLord EPOS, Kitchen Display System and Delivery Management System to communicate with other applications you use every day.
 
 Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 

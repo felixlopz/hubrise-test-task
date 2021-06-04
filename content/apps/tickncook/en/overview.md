@@ -10,7 +10,7 @@ gallery:
   - __gallery-en-002.jpg
 path_override: /
 app_info:
-  category: Kitchen Display Screen (KDS)
+  category: Kitchen Display System (KDS)
   availability: French and English
   website: https://tickncook.com/en/
   contact: hello@tickncook.com
@@ -18,7 +18,7 @@ app_info:
 
 ## Description
 
-TicknCook is a Kitchen Display Screen (KDS). It digitalises restaurant receipts to facilitate the preparation of takeaway, delivery and dine-in orders.
+TicknCook is a Kitchen Display System (KDS). It digitalises restaurant receipts to facilitate the preparation of takeaway, delivery and dine-in orders.
 It displays orders and tracks the status of individual items on production screens available in the kitchen and at the counter. A specific delivery screen helps group orders and organise deliveries.
 
 TicknCook optimises production and helps manage priorities and delays. The restaurant manager can analyse his results using the statistics screen.

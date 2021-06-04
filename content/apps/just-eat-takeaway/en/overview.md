@@ -59,7 +59,7 @@ Just Eat Takeaway Bridge can be connected to HubRise from the HubRise back offic
 
 ## Why Connect?
 
-Connecting your Just Eat Takeaway online restaurant or convenience store to HubRise allows you to receive Just Eat Takeaway orders directly in your EPOS, Kitchen Display Screen or your Delivery Management System also connected with HubRise. You will be able to manage Just Eat Takeaway orders alongside other orders, with the tools you use every day. Just Eat Takeaway orders will flow through your existing setup, as all other orders already do.
+Connecting your Just Eat Takeaway online restaurant or convenience store to HubRise allows you to receive Just Eat Takeaway orders directly in your EPOS, Kitchen Display System or your Delivery Management System also connected with HubRise. You will be able to manage Just Eat Takeaway orders alongside other orders, with the tools you use every day. Just Eat Takeaway orders will flow through your existing setup, as all other orders already do.
 
 Via HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 

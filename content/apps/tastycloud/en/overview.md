@@ -44,4 +44,4 @@ Connecting TastyCloud to HubRise allows TastyCloud to:
 
 ## Why Connect?
 
-TastyCloud can be connected to HubRise for your website and other apps to work as a cohesive whole. It could be your EPOS, your loyalty systems, the kitchen display screen you use or your preferred marketing solution. This allows you to sync your menu, your customer and order information. For more information, see the [HubRise User Guide](/docs).
+TastyCloud can be connected to HubRise for your website and other apps to work as a cohesive whole. It could be your EPOS, your loyalty systems, the kitchen display system you use or your preferred marketing solution. This allows you to sync your menu, your customer and order information. For more information, see the [HubRise User Guide](/docs).
