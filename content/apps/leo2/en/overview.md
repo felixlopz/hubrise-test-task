@@ -8,4 +8,8 @@ meta:
 path_override: /
 ---
 
-This documentation is <Link to="/fr/apps/leo2" addLocalePrefix={false}>available in French only</Link>.
+---
+
+**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/leo2" addLocalePrefix={false}>available in French only</Link>.
+
+---

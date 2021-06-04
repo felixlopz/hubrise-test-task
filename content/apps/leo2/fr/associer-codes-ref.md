@@ -7,19 +7,20 @@ meta:
   description: Instructions pour associer les codes ref des produits LEO2 avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
-Une fois votre logiciel de caisse LEO2 connecté à HubRise, une dernière étape de configuration est nécessaire. Les différents éléments présents dans LEO2 sont identifiés par des codes ref. Vous devez indiquer ces codes ref dans les applications connectées à HubRise, afin que les commandes puissent être réceptionnées dans LEO2.
+Une fois votre logiciel de caisse LEO2 connecté à HubRise, vous devez configurer vos autres applications connectées, afin que les différents éléments présents dans les commandes soient bien identifiés par LEO2.
+
+LEO2 identifie chaque élément d'une commande par un code ref. Vous devez indiquer les codes ref fournis par LEO2 dans vos autres applications, afin que les commandes puissent être réceptionnées.
 
 Il y a deux façons de procéder :
-- Exporter le catalogue LEO2 vers HubRise, puis importer ce catalogue dans les applications connectées qui le permettent.
-- Saisir manuellement les codes ref.
 
-Ces deux méthodes sont parfois complémentaires. Seules certaines applications connectées permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
+- Vous pouvez exporter le catalogue LEO2 vers HubRise, puis importer ce catalogue dans vos autres applications.
+- Ou vous pouvez saisir manuellement les codes ref dans vos autres applications.
 
-Cette page explique comment exporter un catalogue et trouver les codes ref depuis LEO2. Pour plus d'informations sur l'import d'un catalogue et la saisie des codes ref dans une application connectée, référez-vous à la documentation de l'application sur le site de HubRise.   
+Seules certaines applications permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
 
 ## Exporter le catalogue
 
-Pour exporter manuellement le catalogue vers HubRise, suivez les étapes suivantes :
+Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivantes :
 
 1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
@@ -28,6 +29,8 @@ Pour exporter manuellement le catalogue vers HubRise, suivez les étapes suivant
    ![Associer les codes ref - Paramètres HubRise](../images/003-fr-leo2-parametres-hubrise.png)
 1. Cliquez sur **Envoi catalogue**.
 1. Cliquez sur **Oui**.
+
+Vous devez maintenant importer le catalogue HubRise dans vos autres applications connectées à HubRise. Pour effectuer cette opération, référez-vous à la documentation de ces applications sur le site de HubRise.
 
 ## Produits
 

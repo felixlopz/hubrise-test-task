@@ -1,10 +1,12 @@
 ---
-title: Pourquoi ne reçois-je pas les commandes HubRise dans LEO2 ?
+title: Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?
 position: 1
 layout: documentation
 meta:
   title: Commandes HubRise non reçues | LEO2 F.A.Q. | HubRise
-  description: Comprendre pourquoi LEO2 ne reçoit pas les commandes HubRise.
+  description: Que faire lorsque les commandes HubRise n'arrivent pas dans LEO2.
 ---
 
-Afin que LEO2 reçoive les commandes HubRise, assurez-vous que votre serveur HubRise est bien lancé.
+Pour que LEO2 reçoive les commandes HubRise, le serveur HubRise de LEO2 doit être lancé.
+
+LEO2 récupère les commandes toutes les 30 secondes. Si vous ne recevez pas une commande, attendez quelques instants.

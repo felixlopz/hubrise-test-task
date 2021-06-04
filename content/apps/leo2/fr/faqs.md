@@ -7,5 +7,5 @@ meta:
   description: Questions fréquentes posées sur la connexion de LEO2 à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
-- <Link to="/apps/carre-pos/faqs/commandes-non-recues">Pourquoi ne reçois-je pas les commandes HubRise dans LEO2 ?</Link>
-- <Link to="/apps/carre-pos/faqs/prix-differents-produits">Comment LEO2 traite les différences de prix entre les produits ?</Link>
+- <Link to="/apps/leo2/faqs/commandes-non-recues">Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?</Link>
+- <Link to="/apps/leo2/faqs/differences-prix">Comment LEO2 traite les différences de prix ?</Link>

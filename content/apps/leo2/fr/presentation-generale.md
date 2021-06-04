@@ -17,22 +17,15 @@ app_info:
   contact: atoo@atoosarl.fr
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de l'intégration est en cours de rédaction.
-
----
-
 ## Description
 
-LEO2 est un logiciel de caisse développé par la société Atoo. Il est utilisé en dans de nombreux domaines, tels que la restauration, la boulangerie, ou encore la coiffure.
+LEO2 est un logiciel de caisse sous Windows développé par la société Atoo. Il est utilisé en dans de nombreux domaines, tels que la restauration, la boulangerie, ou encore la coiffure.
 
-LEO2 permet d'enregistrer les informations client et de visualiser l'historique des commandes. Il offre beaucoup d'autres fonctionnalités, telles que la gestion du multi-sites, la possibilité de mettre en place du click & collect, la visualisation de statistiques et des stocks, ou encore la gestion de la fidélité client.
+LEO2 permet la gestion du multi-sites, le suivi des stocks, la consultation de statistiques, ou encore la gestion de la fidélité client.
 
-LEO2 peut communiquer avec plusieurs types d'appareils, tels que des doseurs électroniques, des balances connectées, des
-monnayeurs, ou encore des écrans de production. Il est aussi possible de connecter à LEO2 un site internet e-commerce afin de centraliser toutes les commandes sur la caisse du commerçant.
+LEO2 peut communiquer avec des périphériques spécialisés, tels que des doseurs électroniques, des balances, des monnayeurs, ou encore des écrans de production.
 
-LEO2 fonctionne sous Windows, et est certifié NF525 depuis octobre 2014.
+LEO2 est certifié NF525, et donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
 
 ## Fonctionnalités de l'intégration
 
@@ -51,8 +44,10 @@ Connecter LEO2 à HubRise permet à LEO2 de :
 
 ## Pourquoi se connecter ?
 
-En connectant Leo2 à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Vous recevrez ainsi les commandes de votre site e-commerce et de vos plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat) directement dans votre solution d'encaissement Leo2. Vous pourrez également connecter d'autres solutions. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+En connectant Leo2 à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne.
+
+Vous recevrez ainsi les commandes de votre site e-commerce et de vos plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat) directement dans votre solution d'encaissement Leo2. Vous pourrez également connecter d'autres solutions. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
-Pour établir la connexion entre LEO2 et HubRise, vous devez disposer d'une licence LEO2.
+Pour établir la connexion entre LEO2 et HubRise, vous devez disposer d'une licence LEO2 et du module Vente Externe.

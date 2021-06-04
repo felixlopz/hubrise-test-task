@@ -35,7 +35,7 @@ Pour que LEO2 prenne en compte les produits dont le code ref n'est pas reconnu, 
 
 ### Produits avec des prix différents
 
-Lorsqu'une commande contient des produits dont le prix ne correspond pas à celui de LEO2, le prix du produit envoyé par HubRise remplace celui de LEO2.
+Lorsqu'une commande contient des articles ou des options dont les prix ne correspondent pas à ceux de LEO2, les prix indiqués dans HubRise remplacent ceux de LEO2.
 
 ### Détails de la commande
 
@@ -50,13 +50,13 @@ Pour voir les détails d'une commande :
 
 Les statuts que LEO2 envoie à HubRise sont les suivants :
 
-- *Reçue* : la commande a été reçue.
-- *Validée* : la commande a été acceptée.
-- *En préparation* : la commande est en cours de préparation.
-- *A récupérer* : la commande est prête à être récupérée.
-- *En livraison* : la commande est en cours de livraison.
-- *Annulée* : la commande a été annulée.
-- *Soldée* : la commande a été payée.
+- _Reçue_ : la commande a été reçue.
+- _Validée_ : la commande a été acceptée.
+- _En préparation_ : la commande est en cours de préparation.
+- _A récupérer_ : la commande est prête à être récupérée.
+- _En livraison_ : la commande est en cours de livraison.
+- _Annulée_ : la commande a été annulée.
+- _Soldée_ : la commande a été payée.
 
 Pour modifier le statut d'une commande :
 
