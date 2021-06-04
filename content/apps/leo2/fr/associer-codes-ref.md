@@ -48,6 +48,20 @@ Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 
 LEO2 ne permet pas de créer de SKU. Pour remplacer cette fonctionnalité, il est nécessaire de créer un nouveau produit pour chaque variante d'un même produit.
 
+## Options
+
+Les options dans HubRise correspondent aux messages cuisine dans LEO2.
+
+Pour retrouver le code ref d'une option, suivez les étapes suivantes :
+
+1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
+1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
+1. Cliquez sur **Produits**.
+1. Cliquez sur **Messages Cuisine**.
+1. Cliquez sur **Saisie Comment**.
+1. Dans le champ **Libellé**, sélectionnez la liste d'options à laquelle appartient l'option désirée. Le code ref de cette option est égal au préfixe `TEXT_`, suivi de la valeur du champ **Id** de la liste d'options, puis du symbole `_`, et enfin de la valeur de la colonne **ID** de l'option. Par exemple, dans la capture d'écran ci-dessous, le code ref de l'option _Sauce Ciboulette_ est égal à `TEXT_3_20`.
+   ![Associer les codes ref - Options](../images/007-fr-leo2-options.png)
+
 ## Promotions
 
 Les promotions dans HubRise correspondent aux menus dans LEO2, et sont gérés comme des produits. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#produits).
@@ -60,4 +74,4 @@ Les méthodes de paiement dans HubRise correspondent aux modes de règlement dan
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Paramètres et Réglages**.
 1. Cliquez sur **Modes de Règlement**. Le code ref s'affiche dans la colonne **No**.
-   ![Associer les codes ref - Modes de règlement](../images/007-fr-leo2-modes-reglement.png)
+   ![Associer les codes ref - Modes de règlement](../images/008-fr-leo2-modes-reglement.png)
