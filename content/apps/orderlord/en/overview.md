@@ -33,12 +33,6 @@ The OrderLord EPOS is optimised for handling orders from food delivery and onlin
 
 ---
 
---- 
-
-**IMPORTANT NOTE**: The OrderLord EPOS app is not available in the French market due to legal reasons. However, customers in France can still use the DMS and KDS apps.
-
----
-
 ## Integration Features
 
 Connecting OrderLord to HubRise allows OrderLord to:
