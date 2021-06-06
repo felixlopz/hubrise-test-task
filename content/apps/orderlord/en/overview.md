@@ -5,7 +5,9 @@ layout: documentation
 meta:
   title: Overview | OrderLord | HubRise
   description: OrderLord overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-# gallery:
+gallery:
+  - __gallery-en-001.png
+  - __gallery-en-002.png
 path_override: /
 app_info:
   category: Point of Sales
@@ -13,12 +15,6 @@ app_info:
   price_range: Contact OrderLord to enquire about pricing.
   website: https://www.orderlord.com
   contact: support@orderlord.com
----
-
----
-
-**IMPORTANT NOTE**: A full documentation of this integration is in progress.
-
 ---
 
 ## Description

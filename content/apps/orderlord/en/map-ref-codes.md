@@ -11,15 +11,27 @@ OrderLord relies on product ref codes to correctly identify the products. You ne
 
 ## Exporting OrderLord Menus
 
-TODO: How?
+To export the OrderLord menu to HubRise, follow these steps.
 
-## Finding ref codes
+1. From your OrderLord back office, select **Settings** > **Restaurants**.
+1. Click on the <InlineImage width="21" height="21">![Set items icon](../images/set-items-icon.png)</InlineImage> Cogwheel icon. If you have multiple restaurant, make sure you select the correct one.
+1. Click the **Upload menu to HubRise** button, then **OK** to confirm.
+
+---
+
+**IMPORTANT NOTE**: Exporting the OrderLord catalog will overwrite your current HubRise products.
+
+---
+
+Note that exporting the catalog to HubRise does not automatically populate the catalog in your connected solutions. For example, after you export your OrderLord menu, you then need to manually import it into your online ordering solution.
+
+## Finding Ref Codes
 
 To find the ref codes for specific items, follow these steps.
 
-- From your OrderLord back office, select **Settings**, then **POS menu**.
-- Identify the row with the menu you want to inspect, then click the <InlineImage width="21" height="21">![Set items icon](../images/set-items-icon.png)</InlineImage> **Set items** icon.
-- Click on a category from the list to reveal the list of items in that category.
-- Click on an item to show its details. The item ref code appears in the **Public ID** field.
+1. From your OrderLord back office, select **Settings** > **POS menu**.
+1. Identify the row with the menu you want to inspect, then click the <InlineImage width="21" height="21">![Set items icon](../images/set-items-icon.png)</InlineImage> **Set items** icon.
+1. Click on a category from the list to reveal the list of items in that category.
+1. Click on an item to show its details. The item ref code appears in the **Public ID** field.
 
 You can now copy this code in the connected app. For detailed instructions, follow the steps in the connected app's documentation in the HubRise website. 

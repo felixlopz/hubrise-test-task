@@ -15,8 +15,21 @@ meta:
 
 ## Enable the HubRise integration
 
-Before you connect to HubRise, contact OrderLord support on [support@orderlord.com](mailto:support@orderlord.com) and ask them to enable the integration with HubRise. Data will not flow from HubRise to OrderLord until they activate the API.
+Before you connect your HubRise account to OrderLord, you should include OrderLord support to your account's users by following these steps:
 
-TODO: How do users actually connect?
+1. From the HubRise back office, select **SETTINGS** > **ACCOUNTS**. If you have multiple accounts, select the account to modify.
+1. In the **Permissions** section, select **Add**.
+1. In the **EMAIL** column, enter `support@orderlord.com`.
+2. In the **ROLE** column, set `Manager` as the new user's role.
+3. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/add-icon.png)</InlineImage> to add the new user.
+
+Then, contact OrderLord support at [support@orderlord.com](mailto:support@orderlord.com) and provide them with your HubRise account name and ID and the specific locations where you want to activate the integration.
+OrderLord support will be able to access your account and enable the integration for you.
+
+---
+
+**IMPORTANT NOTE**: If you plan to support collection and in-store orders, you should ask OrderLord to activate this functionality in your initial request.
+
+---
 
 Once the connection is enabled, you will see OrderLord in the list of apps connected to your location in your HubRise back office.
