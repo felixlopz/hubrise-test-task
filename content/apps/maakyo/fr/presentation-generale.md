@@ -48,4 +48,4 @@ Synchronisez votre menu et vos commandes avec votre solution de commande en lign
 
 ## Prérequis
 
-Pour établir la connexion entre Maakyo et HubRise, vous devez disposer d'un compte Maakyo.
+Pour établir la connexion entre Maakyo et HubRise, vous devez disposer d'un compte et d'un abonnement mensuel Maakyo.
