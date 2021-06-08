@@ -218,7 +218,7 @@ content:
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
         - website: https://maakyo.com/en/
-          documentation:
+          documentation: /apps/maakyo
           logo: maakyo.png
           title: Maakyo
           description: Maakyo is a table ordering solution. Customers flash the QR code placed on their table, access the menu on their smartphone, order and pay. No app installation required. Menu available in multiple languages.
