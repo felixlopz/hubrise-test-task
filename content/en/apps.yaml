@@ -216,7 +216,7 @@ content:
           documentation:
           logo: gonnaorder.png
           title: GonnaOrder
-          description: GonnaOrder offers a cost-effective online ordering and payment system available in 14 countries. Via a branded website and native iOS/Android apps, GonnaOrder supports takeaway, delivery and table service orders for restaurants, bars, pubs, and cafés.
+          description: GonnaOrder offers a cost-effective online ordering and payment system available in 14 countries. Via a branded website and native iOS and Android apps, GonnaOrder supports takeaway, delivery and table service orders for restaurants, bars, pubs, and cafés.
           additional_info: Integration in progress.
         - website: https://www.livepepper.com
           documentation: /apps/livepepper
