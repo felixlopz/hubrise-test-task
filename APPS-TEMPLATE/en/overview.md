@@ -6,7 +6,6 @@ meta:
   title: Overview | Solution | HubRise
   description: Solution overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - gallery-001.png
 path_override: /
 app_info:
   category:
@@ -26,17 +25,17 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/solution" addLocalePrefix={false}>available in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
 ## Description
 
-Solution is a Windows / iPad / Tablette / Etc EPOS
+Solution is a Windows / iPad / tablette / etc. EPOS.
 
 ## Integration Features
 
-Connecting Solution to HubRise allows the [EPOS] to:
+Connecting Solution to HubRise allows [the EPOS] to:
 
 - Push orders into HubRise, including order status.
 - Pull orders from HubRise, including order status.
