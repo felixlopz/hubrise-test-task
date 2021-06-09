@@ -40,7 +40,7 @@ Solution a été conçu pour le marché français. Il est conforme à la règlem
 
 ## Fonctionnalités de l'intégration
 
-Connecter Solution à HubRise permet à [la caisse] de :
+Connecter Solution à HubRise permet à [la solution d'encaissement] de :
 
 - Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les commandes de HubRise, dont les statuts de commande.
