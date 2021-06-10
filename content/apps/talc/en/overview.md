@@ -5,8 +5,6 @@ layout: documentation
 meta:
   title: Overview | Jalia | HubRise
   description: Jalia overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
-  -
 path_override: /
 app_info:
   category: Point of Sales
@@ -18,6 +16,6 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/talc" addLocalePrefix={false}>available in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/talc" addLocalePrefix={false}>in French only</Link>.
 
 ---

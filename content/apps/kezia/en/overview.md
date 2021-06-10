@@ -8,4 +8,8 @@ meta:
 path_override: /
 ---
 
-This documentation is <Link to="/fr/apps/kezia" addLocalePrefix={false}>available in French only</Link>.
+---
+
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/kezia" addLocalePrefix={false}>in French only</Link>.
+
+---

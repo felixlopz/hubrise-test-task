@@ -3,10 +3,9 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Présentation générale | Delivery System de T.A.L.C | HubRise
+  title: Présentation générale | Solution | HubRise
   description: Présentation générale de Solution, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - gallery-001.png
 path_override: /
 app_info:
   category:
@@ -33,7 +32,7 @@ app_info:
 
 ## Description
 
-Solution est un logiciel de caisse sous Windows / iPad / Tablette / etc... spécialisé dans la livraison et la vente à emporter pour les restaurants.
+Solution est un logiciel de caisse sous Windows / iPad / tablette / etc. spécialisé dans la livraison et la vente à emporter pour les restaurants.
 
 Solution est certifié NF525, et donc conforme à la réglementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État.
 
@@ -41,7 +40,7 @@ Solution a été conçu pour le marché français. Il est conforme à la règlem
 
 ## Fonctionnalités de l'intégration
 
-Connecter Solution à HubRise permet à [la caisse] de :
+Connecter Solution à HubRise permet à [la solution d'encaissement] de :
 
 - Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les commandes de HubRise, dont les statuts de commande.
