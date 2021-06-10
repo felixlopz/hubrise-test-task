@@ -10,7 +10,7 @@ path_override: /
 app_info:
   category: Commande en ligne
   availability: Monde
-  price_range: À partir de 19,90€ / mois
+  price_range: À partir de 19,90 €/mois
   website: https://maakyo.com
   contact: coucou@maakyo.com
 ---
@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-Maakyo est une solution de commande à table. Directement accessible depuis le navigateur d'un smartphone, aucune application n'est nécessaire.
+Maakyo est une solution de commande à table accessible depuis le navigateur d'un smartphone. Aucune installation d'application n'est nécessaire.
 
 Maakyo propose un menu directement relié au système de caisse. Le client y accède en scannant un QR code disposé sur les tables ou affiché dans l'établissement. Il peut ensuite commander et payer depuis son smartphone.
 
@@ -48,4 +48,4 @@ Synchronisez votre menu et vos commandes avec votre solution de commande en lign
 
 ## Prérequis
 
-Pour établir la connexion entre Maakyo et HubRise, vous devez disposer d'un compte et d'un abonnement mensuel Maakyo.
+Pour établir la connexion entre Maakyo et HubRise, vous devez disposer d'un compte Maakyo.
