@@ -18,6 +18,6 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/talc" addLocalePrefix={false}>available in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/talc" addLocalePrefix={false}>in French only</Link>.
 
 ---

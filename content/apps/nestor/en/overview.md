@@ -10,6 +10,6 @@ path_override: /
 
 ---
 
-**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/nestor" addLocalePrefix={false}>available in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/nestor" addLocalePrefix={false}>in French only</Link>.
 
 ---

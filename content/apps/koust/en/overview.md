@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-This documentation is <Link to="/fr/apps/koust" addLocalePrefix={false}>available in French only</Link>.
+This documentation is available <Link to="/fr/apps/koust" addLocalePrefix={false}>in French only</Link>.

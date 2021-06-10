@@ -8,4 +8,4 @@ meta:
 path_override: /
 ---
 
-This documentation is <Link to="/fr/apps/smilein" addLocalePrefix={false}>available in French only</Link>.
+This documentation is available <Link to="/fr/apps/smilein" addLocalePrefix={false}>in French only</Link>.
