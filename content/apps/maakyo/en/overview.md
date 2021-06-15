@@ -17,6 +17,6 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/maakyo" addLocalePrefix={false}>available in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/maakyo" addLocalePrefix={false}>in French only</Link>.
 
 ---
