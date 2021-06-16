@@ -26,7 +26,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** This documentation is <Link to="/fr/apps/solution" addLocalePrefix={false}>available in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
@@ -60,9 +60,9 @@ Solution can be connected to HubRise from the HubRise or from the Solution back 
 
 ## Why Connect ?
 
-Connecting Solution to HubRise allows your EPOS to communicate with other applications you use every day.
+Connecting Solution to HubRise allows your EPOS to receive orders from other applications you use every day, such as online ordering.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+HubRise allows you to synchronise your menu, your customer and order information with EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
