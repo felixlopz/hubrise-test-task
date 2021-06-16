@@ -32,11 +32,7 @@ app_info:
 
 ## Description
 
-Solution est un logiciel de caisse sous Windows / iPad / tablette / etc. spécialisé dans la livraison et la vente à emporter pour les restaurants.
-
-Solution est certifié NF525, et donc conforme à la réglementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État.
-
-Solution a été conçu pour le marché français. Il est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État. L'éditeur fournit une attestation de conformité.
+Solution est un logiciel de caisse sous Windows / iPad / tablette / etc.
 
 ## Fonctionnalités de l'intégration
 
