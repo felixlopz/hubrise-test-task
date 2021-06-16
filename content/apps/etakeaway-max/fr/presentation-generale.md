@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Présentation générale | 3S POS | HubRise
-  description: Présentation générale de 3S POS, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
+  title: Présentation générale | eTakeaway Max | HubRise
+  description: Présentation générale de eTakeaway Max, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
 path_override: /
 ---
 
