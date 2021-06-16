@@ -32,15 +32,11 @@ app_info:
 
 ## Description
 
-Solution est un logiciel de caisse sous Windows / iPad / tablette / etc. spécialisé dans la livraison et la vente à emporter pour les restaurants.
-
-Solution est certifié NF525, et donc conforme à la réglementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État.
-
-Solution a été conçu pour le marché français. Il est conforme à la règlementation du 01 janvier 2018 avec mise en sécurité des données et autre règles imposées par l'État. L'éditeur fournit une attestation de conformité.
+Solution est un logiciel de caisse sous Windows / iPad / tablette / etc.
 
 ## Fonctionnalités de l'intégration
 
-Connecter Solution à HubRise permet à [la solution d'encaissement] de :
+Connecter Solution à HubRise permet à Solution de :
 
 - Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les commandes de HubRise, dont les statuts de commande.
@@ -64,12 +60,9 @@ Solution peut être connecté à HubRise depuis le back-office de HubRise ou cel
 
 ## Pourquoi se connecter ?
 
-En connectant Solution à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne.
+En connectant Solution à HubRise, vous permettez à votre solution d'encaissement de recevoir les commandes d'autres applications que vous utilisez de manière quotidienne, telles que votre solution de commande en ligne.
 
-Synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
-
-OU
-En connectant Solution à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Vous recevrez ainsi les commandes de votre site e-commerce et de vos plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat) directement dans votre solution d'encaissement Solution. Vous pourrez également connecter d'autres solutions. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
