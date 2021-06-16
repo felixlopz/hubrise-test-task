@@ -57,7 +57,7 @@ Solution can be connected to HubRise from the Solution back office.
 Solution can be connected to HubRise from the HubRise back office.
 Solution can be connected to HubRise from the HubRise or from the Solution back office.
 
-## Why Connect ?
+## Why Connect?
 
 Connecting Solution to HubRise allows your EPOS to receive orders from other applications you use every day, such as online ordering.
 
