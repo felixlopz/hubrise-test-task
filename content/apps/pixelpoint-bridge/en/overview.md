@@ -40,13 +40,11 @@ Therefore, PixelPoint Bridge cannot transfer the menu from the EPOS to HubRise, 
 
 PixelPoint Bridge can be connected to HubRise from the HubRise back office.
 
-## Why Connect ?
+## Why Connect?
 
-Connecting PixelPoint Bridge to HubRise allows your EPOS to communicate with other applications you use every day.
+Connecting PixelPoint Bridge to HubRise allows your EPOS to receive orders and customer information from other applications you use every day, such as online ordering.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
-
-To see which apps you can connect, see our [Apps page](/apps).
+HubRise allows you to synchronise your menu, your customer and order information with EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
