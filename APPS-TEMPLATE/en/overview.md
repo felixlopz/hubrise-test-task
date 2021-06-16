@@ -35,7 +35,7 @@ Solution is a Windows / iPad / tablette / etc. EPOS.
 
 ## Integration Features
 
-Connecting Solution to HubRise allows [the EPOS] to:
+Connecting Solution to HubRise allows Solution to:
 
 - Push orders into HubRise, including order status.
 - Pull orders from HubRise, including order status.
