@@ -23,6 +23,17 @@ app_info:
 
 ## Description
 
+Spleat the bill est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition depuis leur smartphone.
+
+Spleat the bill offre deux possibilités pour accéder au reçu d'une commande :
+
+- Le client peut scanner un QR code.
+- Après avoir été géolocalisé et ainsi retrouvé l'établissement, le client peut rentrer manuellement un numéro de table.
+
+Spleat the bill permet au client de payer une partie ou la totalité du montant depuis l'application grâce à sa carte bancaire, enregistrée au préalable.
+
+Spleat the bill communique avec le système d'encaissement des restaurateurs pour clore les commandes lorsque leur montant total a été payé.
+
 ## Fonctionnalités de l'intégration
 
 Connecter Spleat the bill à HubRise permet à Spleat the bill de :
@@ -34,6 +45,6 @@ Spleat the bill peut être connecté à HubRise via le support de Spleat the bil
 
 ## Pourquoi se connecter ?
 
-En connectant Spleat the bill à HubRise, vous permettez à votre solution de paiement de recevoir les commandes et le catalogue d'autres applications que vous utilisez de manière quotidienne.
+En connectant Spleat the bill à HubRise, vous permettez à votre solution de paiement de recevoir les commandes et le catalogue d'autres applications que vous utilisez de manière quotidienne, telles que votre logiciel de caisse.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
