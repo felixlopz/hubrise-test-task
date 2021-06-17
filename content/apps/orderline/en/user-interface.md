@@ -3,8 +3,8 @@ title: User Interface
 position: 4
 layout: documentation
 meta:
-  title: OrderLine User Interface
-  description: Today's Orders, Future Orders and Order History tabs are available for ease of access on OrderLine.
+  title: User Interface | OrderLine | HubRise
+  description: Today's Orders, Future Orders and Order History tabs are available for ease of access on OrderLine. Synchronise data between your EPOS and your apps.
 ---
 
 ## View Today's Orders

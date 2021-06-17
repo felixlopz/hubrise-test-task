@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 4
 layout: documentation
 meta:
-  title: Map ref codes - iKentoo by Lightspeed
-  description: How to find ref codes in iKentoo.
+  title: Map Ref Codes | iKentoo by Lightspeed | HubRise
+  description: Instructions on mapping iKentoo by Lightspeed product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 iKentoo Bridge is a _push-only_ integration. For this reason, when you connect a delivery platform or an online ordering solution to iKentoo via HubRise, you must manually set the same ref codes you use on iKentoo to ensure a smooth communication among all the integrations.  
@@ -18,11 +18,11 @@ To find the ref codes for specific items, follow these steps.
 - The ref codes appear under the **Code** column.
   ![](../images/007-en-integration-sku-codes.png)
 
-You can then copy the codes in the connected app. For detailed instructions, follow the steps in the connected app's documentation in the HubRise website. 
+You can then copy the codes in the connected app. For detailed instructions, follow the steps in the connected app's documentation in the HubRise website.
 
 ## Exporting iKentoo Menus
 
-In some cases, it is useful to download the menu from your iKentoo account to manage the items and the ref codes with a separate software. 
+In some cases, it is useful to download the menu from your iKentoo account to manage the items and the ref codes with a separate software.
 
 To export the iKentoo menu, follow these steps.
 

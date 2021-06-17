@@ -3,9 +3,11 @@ title: Diagram Guide
 position: 5
 layout: documentation
 meta:
-  title: HubRise Diagram Guide
+  title: Diagram Guide | HubRise
   description: How to contribute diagrams to the HubRise website.
 ---
+
+[comment]: # 'This page has been duplicated in .../contributing/fr'
 
 ## Primary Examples
 

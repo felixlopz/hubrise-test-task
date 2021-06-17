@@ -3,7 +3,7 @@ title: General Concepts
 position: 1
 layout: documentation
 meta:
-  title:
+  title: General Concepts | API | HubRise
   description:
 ---
 
@@ -72,9 +72,15 @@ Body:
 
 ## 3. Rate Limiting
 
-If a connection makes too many requests in a short time window, HubRise will return a `429` (Too Many Requests) HTTP status code.
+If a connection makes too many requests over a defined time window, HubRise will return a `429` (Too Many Requests) HTTP status code.
 
-A connection is limited to 500 requests per 60-second window.
+A connection should not exceed any of the following limits:
+
+- 500 requests over a 1-minute window
+- 2,500 requests over a 1-hour window
+- 10,000 requests over a 1-day window
+
+Time windows start at a round minute, hour, and day respectively. For example, 1-hour windows begin at the start of an hour. So if a connection has used its hourly limit by 10:35, it will remain throttled until the start of the next hour, ie 11:00.
 
 ## 4. Overriding HTTP Method
 

@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Zelty - Mapping Ref Codes in HubRise
-  description: The mapping ref codes page informs users on how to find ref codes on Zelty EPOS to map them on other apps in the context of an integration via HubRise.
+  title: Map Ref Codes | Zelty | HubRise
+  description: Instructions on mapping Zelty product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 After connecting your Zelty EPOS to your HubRise account, you can sync information between them. For it to work however, certain steps need to be taken. Items in the Zelty EPOS are identified by unique codes. When you set up other apps to connect via HubRise, you need to provide these codes.
