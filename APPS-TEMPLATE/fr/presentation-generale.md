@@ -36,7 +36,7 @@ Solution est un logiciel de caisse sous Windows / iPad / tablette / etc.
 
 ## Fonctionnalités de l'intégration
 
-Connecter Solution à HubRise permet à Solution de :
+Connecter Solution à HubRise permet à votre solution d'encaissement de :
 
 - Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les commandes de HubRise, dont les statuts de commande.
