@@ -1,7 +1,7 @@
 import { CreatePagesArgs } from 'gatsby'
 
-import { YamlContext } from 'utils/context'
-import { LocaleCode, localeCodes } from 'utils/locales'
+import { YamlContext } from '../../../utils/context'
+import { LocaleCode, localeCodes } from '../../../utils/locales'
 
 import { generateLanguagePaths, parseRelativePath } from './locale'
 import { pathWithLocale } from './urls'
