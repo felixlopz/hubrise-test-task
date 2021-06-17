@@ -1,20 +1,20 @@
 ---
-title: Pushing The Menu
+title: Pulling The Menu
 position: 6
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Pushing The Menu
+  title: Just Eat Connection to HubRise - Pulling The Menu
   description: Find out how to publish your menu to the Just Eat platform, how items and options are encoded, and which features are supported.
 ---
 
 Just Eat does not provide a back office to populate and customise the items in your menu. 
-You can use Just Eat Flyt Bridge to push your HubRise catalog directly to your Just Eat store with a single click.
+You can use Just Eat Flyt Bridge to pull your HubRise catalog directly into your Just Eat store with a single click.
 
-This page explains how you can push and update your menu on Just Eat, and what information about HubRise catalogs can be pushed to the platform.
+This page explains how you can pull and update your menu on Just Eat, and what information about HubRise catalogs can be pulled into the platform.
 
 ## Populating a HubRise Catalog
 
-To be able to push your menu to Just Eat, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To be able to pull your menu into Just Eat, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -28,7 +28,7 @@ Once your catalog is populated on HubRise, you can publish it on your Just Eat s
 1. From the Just Eat Flyt Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
 1. On the configuration page, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**.
 
-## Menu Encoding
+## Technical Reference
 
 The following sections describe in detail how HubRise catalogs are mapped to Just Eat menus.
 
@@ -37,7 +37,7 @@ The following sections describe in detail how HubRise catalogs are mapped to Jus
 The categories in a HubRise catalog are mapped one-to-one to categories of products on Just Eat. 
 The order in which categories and products appear on HubRise is maintained on Just Eat.
 
-For every category, the following HubRise fields are pushed to Just Eat:
+For every category, the following HubRise fields are pulled into Just Eat:
 - `name`: The name of the category
 - `description`: The description of the category
 
@@ -45,7 +45,7 @@ For every category, the following HubRise fields are pushed to Just Eat:
 
 Products in the `products` array of a HubRise catalog can have several skus. This notion of products/skus is not supported on Just Eat. Every sku is mapped to an individual product on Just Eat. For more information about products in HubRise catalogs, see [Products](/developers/api/catalog-management/#products).
 
-For every `sku` object in a product, Just Eat Flyt Bridge pushes the following information to Just Eat:
+For every `sku` object in a product, Just Eat Flyt Bridge pulls the following information into Just Eat:
 
 - `ref`: The ref of the sku, which will be passed along in orders         
 - `name`: The name of the sku             
@@ -58,7 +58,7 @@ For more information about skus in the HubRise catalog, see [Skus](/developers/a
 
 ### Options
 
-For every option list in the catalog, Just Eat Flyt Bridge pushes the following information to Just Eat:
+For every option list in the catalog, Just Eat Flyt Bridge pulls the following information into Just Eat:
 
 - `name`: The name of the option list
 - `type`: The number of options that can be selected from the list, either `single` or `multiple`.
@@ -71,7 +71,7 @@ For every option in an option list, the following information is sent to Just Ea
 
 ### Deals and Discounts
 
-Deals and discounts are not supported on Just Eat. Therefore, deals and discounts present in your HubRise catalog are ignored and are not pushed to Just Eat.
+Deals and discounts are not supported on Just Eat. Therefore, deals and discounts present in your HubRise catalog are ignored and are not pulled into Just Eat.
 
 ### Availability
 

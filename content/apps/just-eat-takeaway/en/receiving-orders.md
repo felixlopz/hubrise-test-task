@@ -46,7 +46,7 @@ In the order, you can find information about Just Eat Takeaway discounts and del
 
 --- 
 
-## Technical Reference for Orders
+## Technical Reference
 
 This section describes how orders are encoded in the JSON payloads you receive from Just Eat Takeaway Bridge.
 

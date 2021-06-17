@@ -54,7 +54,7 @@ Just Eat Flyt Bridge encodes two types of charges: Delivery charge, and service 
 
 --- 
 
-## Technical Reference for Orders
+## Technical Reference
 
 This section describes how orders are encoded in the JSON payloads you receive from Just Eat Flyt Bridge.
 

@@ -60,4 +60,4 @@ For more information about the Configuration page and how to navigate to it, see
 If you have a catalog of products on HubRise, you can upload it to your Just Eat store with a single click. 
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
-To learn how to push your HubRise catalog to Just Eat, see [Pushing the Menu](/apps/just-eat-flyt/configuration#pushing-the-menu).
+To learn how to pull your HubRise catalog into Just Eat, see [Pulling the Menu](/apps/just-eat-flyt/configuration#pulling-the-menu).

@@ -34,22 +34,22 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ## Menu Availability
 
-From this section, you can customise the availability of your Just Eat menu. For more information, see [Updating the Menu](/apps/just-eat-flyt/updating-menu#availability).
+From this section, you can customise the availability of your Just Eat menu. For more information, see [Updating the Menu](/apps/just-eat-flyt/pulling-menu#availability).
 
 
 ## Saving the Configuration
 
 Once you are happy with the configuration of Just Eat Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Pushing the Menu
+## Pulling the Menu
 
 Make sure you save the configuration to use the latest [Menu Availability](#menu-availability) options.
 
-To push your HubRise catalog to Just Eat, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**. For more information on how HubRise catalogs are mapped to Just Eat, see [Updating the Menu](/apps/just-eat-flyt/updating-menu).
+To pull your HubRise catalog into Just Eat, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**. For more information on how HubRise catalogs are mapped to Just Eat, see [Pulling the Menu](/apps/just-eat-flyt/pulling-menu).
 
 ---
 
-**IMPORTANT NOTE**: Pushing the HubRise catalog to Just Eat will erase your current menu on your Just Eat store. This action cannot be reverted. 
+**IMPORTANT NOTE**: Pulling the HubRise catalog into Just Eat will erase your current menu on your Just Eat store. This action cannot be reverted. 
 
 ---
 
