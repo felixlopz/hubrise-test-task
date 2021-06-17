@@ -10,6 +10,6 @@ path_override: /
 
 ---
 
-**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/3s-pos" addLocalePrefix={false}>en anglais uniquement</Link>.
+**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/myorderbox" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---
