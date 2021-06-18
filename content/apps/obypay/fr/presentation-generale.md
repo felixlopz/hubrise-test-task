@@ -23,13 +23,15 @@ app_info:
 
 ## Description
 
-Obypay est une solution de commande en ligne et de commande à table.
+Obypay est une solution de commande mobile, en click & collect, sur place ou livraison.
 
-Obypay propose aux restaurateurs un back-office leur permettant de créer et de configurer leur menu de manière détaillée, ainsi que de le traduire en plusieurs langues. Il est aussi possible d'importer le menu à partir d'un fichier Excel.
+En commande sur place, le client scanne un QR code disposé sur la table, et accède au menu depuis le navigateur de son smartphone, sans installer d'application. Il suffit de quelques secondes pour passer une commande et la régler.
 
-Le client scanne le QR code est accède au menu depuis le navigateur de son smartphone, donc aucune installation d'application n'est nécessaire.
+Obypay peut aussi être utilisé à l'extérieur du restaurant, pour les commandes en click & collect ou en livraison.
 
-Obypay propose aussi un système de Click & Collect intégré à sa solution de commande en ligne.
+Obypay propose de nombreuses fonctionnalités avancées, telle que la traduction du menu en plusieurs langues, ou un programme de fidélisation client.
+
+Obypay offre un back-office complet, qui permet de personnaliser l'apparence de l'application mobile, ainsi que l'offre produits.
 
 ## Fonctionnalités de l'intégration
 
@@ -43,7 +45,7 @@ Obypay peut être connecté à HubRise depuis le back-office de Obypay.
 
 ## Pourquoi se connecter ?
 
-En connectant Obypay à HubRise, vous permettez à votre solution de commande en ligne d'envoyer les commandes à d'autres applications que vous utilisez de manière quotidienne, telles que votre logiciel de caisse, votre solution d'inventaire, ou votre imprimante connectée.
+En connectant Obypay à HubRise, vos commandes ObyPay sont envoyées aux autres applications que vous utilisez de manière quotidienne, telles que votre logiciel de caisse, votre solution d'inventaire, ou votre imprimante connectée.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
