@@ -16,12 +16,6 @@ app_info:
   contact:
 ---
 
----
-
-**IMPORTANT NOTE**: A full documentation of this integration is in progress.
-
----
-
 ## Description
 
 Just Eat Takeaway.com is an online food ordering and delivery service platform for restaurants and convenience stores. Customers can order food online or via a mobile app. Their integration support team is based in the Netherlands, but they operate in 21 different countries in Europe, Asia, America, and Oceania.
