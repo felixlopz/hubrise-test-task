@@ -295,8 +295,8 @@ content:
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
           additional_info: Documentation en anglais. Intégration en cours.
-        - website: https://www.zenorder.fr/
-          documentation:
+        - website: https://www.zenorder.fr
+          documentation: /apps/zenorder
           logo: zenorder.png
           title: Zenorder
           description: Zenorder est une solution de commande en ligne en marque blanche pour les métiers de bouche, couplée à une suite d'outils de marketing et de fidélisation client.
