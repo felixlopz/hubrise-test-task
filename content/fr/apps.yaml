@@ -231,7 +231,7 @@ content:
           logo: maakyo.png
           title: Maakyo
           description: Maakyo est une solution de commande à table. Le client scanne un QR code, accède au menu depuis son smartphone, commande et paye. Aucune app à installer. Menu disponible en plusieurs langues.
-        - website: https://mylemonade.app/fr/accueilfr/
+        - website: https://www.mylemonade.fr
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
           title: My Lemonade
