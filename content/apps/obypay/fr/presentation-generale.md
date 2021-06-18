@@ -10,7 +10,7 @@ path_override: /
 app_info:
   category: Commande en ligne
   availability: France
-  price_range: De 24,90 à 89 €/mois
+  price_range: De 24,90 à 89 € / mois
   website: https://obypay.fr
   contact: contact@obypay.com / +33 7 56 80 75 84
 ---
