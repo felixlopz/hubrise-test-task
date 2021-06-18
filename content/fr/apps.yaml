@@ -243,8 +243,8 @@ content:
           title: MynOber
           description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
           additional_info:
-        - website: https://obypay.fr/
-          documentation:
+        - website: https://obypay.fr
+          documentation: /apps/obypay
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.

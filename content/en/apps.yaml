@@ -239,8 +239,8 @@ content:
           title: MynOber
           description: MynOber provides QR ordering, online ordering and kiosk self-ordering solutions for hospitality businesses. MynOber can be used standalone or combined with a third party EPOS.
           additional_info:
-        - website: https://obypay.fr/
-          documentation:
+        - website: https://obypay.fr
+          documentation: /apps/obypay
           logo: obypay.png
           title: Obypay
           description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
