@@ -23,13 +23,13 @@ app_info:
 
 ## Description
 
-Zenorder est une solution de commande en ligne dédiée aux restaurants et aux commerces, tels que les boulangeries, et les primeurs.
+Zenorder est une solution de commande en ligne dédiée aux restaurants et aux commerces, tels que boulangeries et primeurs.
 
-Zenorder offre un back-office personnalisable qui permet aux restaurateurs de gérer leur carte, d'accéder à la liste des commandes en temps réel, de gérer les stocks et les temps de préparation, ou encore de gérer la fidélité des clients.
+Zenorder propose un système de Click & Collect intégré dans lequel il est possible de contrôler le flux de clients par créneaux.
 
-Zenorder permet de gérer la livraison des commandes, et de personnaliser les frais de livraison en fonction des distances, des codes postaux, ou encore du poids de la commande.
+Zenorder est également adapté à la livraison, et permet le calcul des frais de livraison en fonction des distances, des codes postaux, ou encore du poids de la commande.
 
-Zenorder propose aussi un système de Click & Collect intégré dans lequel il est possible de contrôler le flux de clients par créneaux.
+Zenorder offre un back-office permettant de personnaliser l'offre produits, d'accéder à la liste des commandes en temps réel, de gérer les stocks et les temps de préparation, ou encore de paramétrer un programme de fidélité client.
 
 ## Fonctionnalités de l'intégration
 
