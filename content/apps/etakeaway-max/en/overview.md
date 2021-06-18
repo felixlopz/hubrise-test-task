@@ -42,7 +42,7 @@ eTakeaway Max can be connected to HubRise via the eTakeaway Max support line.
 
 ## Why Connect?
 
-Connecting eTakeaway Max to HubRise allows your EPOS to receive orders and customer information from other applications you use every day, such as online ordering.
+Connecting eTakeaway Max to HubRise allows your EPOS to receive orders and customer information from other applications you use every day, such as your online ordering solution and the food delivery platforms you use.
 
 HubRise allows you to synchronise your menu, your customer and order information with EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
