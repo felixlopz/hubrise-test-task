@@ -28,7 +28,8 @@ Designed for both independent restaurants and franchises, LivePepper comes with 
 
 LivePepper can create a full website including static marketing pages and online ordering. Restaurants can also incorporate LivePepper's online ordering module into an existing marketing website. LivePepper websites can be customised from a template, or designed from scratch and tailored to the restaurant's graphical charter and specifications.
 
-Restaurant managers have complete control over their LivePepper website. From the back office they can:
+Restaurant managers have complete control over their LivePepper website. 
+From the back office they can:
 - Make changes to the marketing website copy and assets.
 - Create and update the online menu, with product customisation and limit on toppings.
 - Set up promotions, loyalty and a referral program.
