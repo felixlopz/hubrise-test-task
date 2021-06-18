@@ -10,7 +10,7 @@ app_info:
   category: Point of Sale
   availability: Worldwide, sold and serviced by local authorised resellers.
   price_range:
-  website: https://www.sicom.com/
+  website: https://www.sicom.com
   contact: info@mytec.com
 ---
 

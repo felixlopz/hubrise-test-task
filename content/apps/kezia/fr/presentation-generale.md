@@ -46,7 +46,7 @@ Kezia II peut être connecté à HubRise après l'installation d'un module par l
 
 ## Pourquoi se connecter ?
 
-En connectant Jalia à HubRise, vous permettez à votre solution d'encaissement de recevoir et d'envoyer les commandes et les informations clients à d'autres applications que vous utilisez de manière quotidienne, telles que votre solution de commande en ligne, les plateformes de livraison de repas, ou vos solutions de gestion de livreurs.
+En connectant Kezia II à HubRise, vous permettez à votre solution d'encaissement de recevoir et d'envoyer les commandes et les informations clients à d'autres applications que vous utilisez de manière quotidienne, telles que votre solution de commande en ligne, les plateformes de livraison de repas, ou vos solutions de gestion de livreurs.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 

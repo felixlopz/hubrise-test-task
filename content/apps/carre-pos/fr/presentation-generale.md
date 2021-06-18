@@ -15,7 +15,7 @@ path_override: /
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range: À partir de 59 €/mois
+  price_range: À partir de 59 € / mois
   website: http://www.carrepos-online.fr
   contact: contact@carrepos.fr / +33 5 35 54 64 51
 ---

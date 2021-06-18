@@ -9,7 +9,7 @@ gallery:
   - __gallery-001.png
 path_override: /
 app_info:
-  category: Point of Sale
+  category: Point of Sales
   availability: France
   price_range:
   website: https://zelty.fr

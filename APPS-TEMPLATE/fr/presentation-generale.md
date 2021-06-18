@@ -60,7 +60,7 @@ Solution peut être connecté à HubRise depuis le back-office de HubRise ou cel
 
 ## Pourquoi se connecter ?
 
-En connectant Solution à HubRise, vous permettez à votre solution d'encaissement de recevoir les commandes d'autres applications que vous utilisez de manière quotidienne, telles que votre solution de commande en ligne.
+En connectant Solution à HubRise, vous permettez à votre solution d'encaissement de recevoir les commandes d'autres applications que vous utilisez de manière quotidienne.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 

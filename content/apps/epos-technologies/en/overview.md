@@ -11,7 +11,7 @@ app_info:
   category: Point of Sales
   availability: United Kingdom, France, Turkey, USA
   price_range:
-  website: https://www.epostechnologies.co.uk/
+  website: https://www.epostechnologies.co.uk
   contact: support@epostechnologies.co.uk
 ---
 

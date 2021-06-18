@@ -11,7 +11,7 @@ app_info:
   category: Point of Sales
   availability: United Kingdom
   price_range:
-  website: https://www.etakeawaymax.co.uk/
+  website: https://www.etakeawaymax.co.uk
   contact: info@etakeawaymax.co.uk
 ---
 
