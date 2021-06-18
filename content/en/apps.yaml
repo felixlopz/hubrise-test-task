@@ -361,11 +361,11 @@ content:
     - title: Inventory Management
       apps:
         - website: https://barratio.fr/en
-          documentation:
+          documentation: /apps/barratio
           logo: barratio.png
           title: Barratio
-          description: Barratio digitalises invoices and delivery slips. It tracks invoices discrepancies. The full Barratio suite offers a theoretical inventory and a global overview of your business by analysing purchases, costs per recipe and sales data.
-          additional_info:
+          description: Barratio digitalises invoices and delivery slips. It tracks invoices discrepancies. The full Barratio suite offers a theoretical inventory and a global overview of your business by analysing purchases, costs per recipe and sales data.
+          additional_info: Documentation in French. Integration in progress.
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
