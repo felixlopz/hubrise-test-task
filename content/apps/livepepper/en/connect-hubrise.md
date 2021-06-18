@@ -1,10 +1,10 @@
 ---
-title: Connection to HubRise
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connection to HubRise | LivePepper | HubRise
-  description: Instructions on connecting LivePepper with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
+  title: Connect to HubRise | LivePepper | HubRise
+  description: See how to connect LivePepper with HubRise in a few simple steps. HubRise transmits your LivePepper orders into your EPOS and other apps you use every day.
 ---
 
 The instructions below detail how to connect a LivePepper site to a new HubRise account as this is the most common scenario.
@@ -24,10 +24,10 @@ To connect a single LivePepper site with a new HubRise Account:
 1. Under HubRise, click the checkbox **Share data with other applications**.
 1. Click **Connect to HubRise**.
 1. When the HubRise login page is presented, click **No account yet?**
-1. The Account Name will be automatically copied from LivePepper. Enter the required information and click **Create account**. HubRise will automatically start the Account creation process.
-1. To complete this process, and create your location enter the required information and click **Create**. This HubRise Account and Location will be created.
-1. LivePepper will require access to the new HubRise Account and Location. Click **Allow**.˙
-1. The connection between your LivePepper site and your new HubRise Account will be complete.
+1. Enter your personal information and click **Create account**.
+1. Verify that your account and location names have been correctly prefilled by LivePepper. Click **Create**.
+1. Click **Allow** to give LivePepper access to your location.
+1. Your LivePepper site is now connected to HubRise.
 
 <video controls title="Connect to HubRise example">
   <source src="../images/008-connect-hubrise.webm" type="video/webm"/>
