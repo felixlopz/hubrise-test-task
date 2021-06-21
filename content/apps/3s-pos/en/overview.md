@@ -28,7 +28,7 @@ Created in 2005, and undergoing continuous development, 3S POS is a feature-rich
 
 ## Integration Features
 
-Connecting 3S POS to HubRise allows the EPOS to:
+Connecting 3S POS to HubRise allows your EPOS to:
 
 - Pull orders from HubRise, including order status.
 - Pull customer information from HubRise.
@@ -38,9 +38,9 @@ Connecting 3S POS to HubRise allows the EPOS to:
 
 ## Why Connect?
 
-Connecting 3S POS to HubRise allows your EPOS to receive orders and customer information from other applications you use every day, such as your online ordering solution. You can also use it to import your EPOS product catalog into other apps.
+Connecting 3S POS to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, or food delivery platforms on your EPOS. You can also use this connection to import your EPOS product catalog into other apps.
 
-HubRise allows you to synchronise your menu, your customer and order information with EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 

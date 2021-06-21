@@ -26,7 +26,7 @@ pointOne is a touch-screen Point of Sales serving the needs of all hospitality b
 
 ## Integration Features
 
-Connecting pointOne to HubRise allows pointOne to:
+Connecting pointOne to HubRise allows your EPOS to:
 
 - Pull orders from HubRise, including order status.
 - Pull customer information from HubRise.
@@ -36,9 +36,9 @@ pointOne can be connected to HubRise via the pointOne support line.
 
 ## Why Connect?
 
-Connecting pointOne to HubRise allows your EPOS to receive orders and customer information from other applications you use every day, such as online ordering.
+Connecting pointOne to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, or food delivery platforms on your EPOS. You can also use this connection to import your EPOS product catalog into other apps.
 
-HubRise allows you to synchronise your menu, your customer and order information with EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
