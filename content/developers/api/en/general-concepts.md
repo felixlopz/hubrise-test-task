@@ -80,6 +80,8 @@ A connection should not exceed any of the following limits:
 - 2,500 requests over a 1-hour window
 - 10,000 requests over a 1-day window
 
+There is an additional limit of 10 "heavy" requests per minute, applying to high load queries such as `GET /catalogs/:id`, `GET /orders` or `GET /customer_lists/:id/customers`. Make sure to throttle requests if you need to retrieve many orders or customers in a row.
+
 Time windows start at a round minute, hour, and day respectively. For example, 1-hour windows begin at the start of an hour. So if a connection has used its hourly limit by 10:35, it will remain throttled until the start of the next hour, ie 11:00.
 
 ## 4. Overriding HTTP Method
