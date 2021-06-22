@@ -26,7 +26,7 @@ Follow these steps if you don't have a HubRise account:
 1. Verify that your account and location names have been correctly prefilled by LivePepper. Click **Create**.
 1. Click **Allow**.
 
-Otherwise, if you already have a HubRise account, follow these steps:
+If you already have a HubRise account, follow these steps:
 
 1. Log in to your LivePepper back office.
 1. Select **Settings > Add-ons**.
