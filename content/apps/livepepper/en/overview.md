@@ -20,15 +20,25 @@ app_info:
 
 ## Description
 
-LivePepper is an online ordering solution for home delivery and takeaway restaurants.
+LivePepper is an online ordering solution and a mobile ordering app for home delivery and takeaway restaurants. LivePepper also helps restaurants organise, manage and dispatch inbound orders.
 
 LivePepper clients are mainly located in France and the UK, but the system operates in multiple international markets in the Americas, mainland Europe, North Africa, Middle East and South Asia. LivePepper can easily be localised for the international market.
 
-LivePepper can create a full website including static marketing pages and online ordering. Restaurants can also incorporate LivePepper's online ordering module into an existing marketing website. LivePepper websites can be customised from a template, or designed from scratch and tailored to the restaurant specifications.
+Designed for both independent restaurants and franchises, LivePepper comes with a rich palette of features and can answer the needs of the most demanding restaurants and international franchises. They offer marketing support too.
 
-LivePepper comes with a rich palette of features and can answer the needs of the most demanding restaurants and international franchises.
+LivePepper can create a full website including static marketing pages and online ordering. Restaurants can also incorporate LivePepper's online ordering module into an existing marketing website. LivePepper websites can be customised from a template, or designed from scratch and tailored to the restaurant's graphical charter and specifications.
 
-Restaurant managers have complete control over their LivePepper website. They can make changes to their menu, set up promotions, set business hours and vacation periods, delivery times, or other settings to best fit their needs. Data can be exported for analysis.
+Restaurant managers have complete control over their LivePepper website. 
+From the back office they can:
+- Make changes to the marketing website copy and assets.
+- Create and update the online menu, with product customisation and limit on toppings.
+- Set up promotions, loyalty and a referral program.
+- Change business hours and vacation periods.
+- Configure available delivery methods, times and areas as well as preparation time and charges.
+- See statistics on a dashboard or export data for external analysis.
+- Add new payment methods.
+- Change many other settings to best fit their needs.
+
 
 ## Integration Features
 
