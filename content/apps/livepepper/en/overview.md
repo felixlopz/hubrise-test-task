@@ -20,7 +20,7 @@ app_info:
 
 ## Description
 
-LivePepper is an online ordering solution and mobile app for home delivery and takeaway restaurants that helps you organise, manage and dispatch inbound orders. 
+LivePepper is an online ordering solution and a mobile ordering app for home delivery and takeaway restaurants. LivePepper also helps restaurants organise, manage and dispatch inbound orders.
 
 LivePepper clients are mainly located in France and the UK, but the system operates in multiple international markets in the Americas, mainland Europe, North Africa, Middle East and South Asia. LivePepper can easily be localised for the international market.
 
