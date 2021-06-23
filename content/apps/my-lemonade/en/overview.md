@@ -26,7 +26,7 @@ app_info:
 
 ## Description
 
-My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on the table to access the menu on their smartphone and order. There is nothing to install. Customer can choose to pay directly on the app or with the waiter. The menu can be translated in 11 languages and displays in the customer's smartphone language by default. 
+My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on the table to access the menu on their smartphone and order. There is nothing to install. Customers can choose to pay directly on the app or with the waiter. The menu can be translated in 11 languages and displays in the customer's smartphone language by default. 
 
 My Lemonade can also be used for click & collect.
 
@@ -47,7 +47,7 @@ Connecting My Lemonade to HubRise allows your ordering solution to:
 
 ---
 
-My Lemonade can be connected to HubRise from My Lemonade's back office.
+My Lemonade can be connected to HubRise from the My Lemonade back office.
 
 ## Why Connect?
 
