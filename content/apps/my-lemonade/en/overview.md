@@ -34,7 +34,7 @@ My Lemonade includes a back office to update the menu of your restaurant, set pr
 
 ## Integration Features
 
-Connecting My Lemonade to HubRise allows your ordering solution to:
+Connecting My Lemonade to HubRise allows your table ordering solution to:
 
 - Push orders into HubRise, including order status.
 - Push customer information into HubRise.

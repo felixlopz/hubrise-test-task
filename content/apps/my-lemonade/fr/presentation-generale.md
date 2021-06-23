@@ -26,15 +26,11 @@ app_info:
 
 ## Description
 
-My Lemonade est une solution de commande à table, ou en click & collect.
+My Lemonade est une solution de commande à table. Les clients scannent un QR code ou un tag NFC disposé sur la table pour accéder au menu depuis leur smartphone et commander. Aucune installation n'est nécessaire. Les clients peuvent choisir de payer directement depuis l'application ou avec le serveur. Le menu est traduisible en 11 langues et est affiché par défaut dans la langue du smartphone du client.
 
-En commande sur place, le client scanne un QR code disposé sur la table, et accède au menu depuis le navigateur de son smartphone, sans installer d'application.
+My Lemonade peut aussi être utilisé pour le click & collect.
 
-Le client peut aussi commander depuis l'extérieur du restaurant, grâce au click & collect, puis payer sur place ou en ligne.
-
-My Lemonade offre un back-office avancé, permettant un paramétrage de l'offre produits, et une personnalisation de l'apparence du site internet.
-
-My Lemonade permet aussi de traduire le menu en 11 langues différentes, la langue par défaut d'affichage du menu étant celle du smartphone du client.
+My Lemonade propose un back-office pour mettre à jour le menu de votre restaurant, définir des périodes de promotions, éditer vos paramètres, et profiter de fonctionnalités telles que la gestion de salle, l'activation du service, et la validation de présence pour limiter les risques de défection et de commandes abusives. Un système de gestion des commandes est disponible pour les restaurants sans intégration avec une solution d'encaissement pour recevoir les commandes et mettre à jour les disponibilités des produits.
 
 ## Fonctionnalités de l'intégration
 
@@ -55,7 +51,7 @@ My Lemonade peut être connecté à HubRise depuis le back-office de My Lemonade
 
 ## Pourquoi se connecter ?
 
-En connectant My Lemonade à HubRise, vos commandes et informations clients sont envoyées aux autres applications que vous utilisez de manière quotidienne, telles que votre logiciel de caisse.
+En connectant My Lemonade à HubRise, vous permettez à votre solution de commande à table de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre solution d'encaissement, une imprimante connectée, un écran cuisine, ou votre système de gestion de stock. Vous pouvez aussi utiliser cette connexion pour importer le catalogue produit de votre solution d'encaissement dans My Lemonade.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
