@@ -47,7 +47,7 @@ Connecting My Lemonade to HubRise allows your ordering solution to:
 
 ---
 
-My Lemonade can be connected to HubRise from the My Lemonade back office.
+My Lemonade can be connected to HubRise from My Lemonade's back office.
 
 ## Why Connect?
 
