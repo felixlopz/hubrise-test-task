@@ -32,7 +32,6 @@ My Lemonade can also be used for click & collect.
 
 My Lemonade includes a back office to update the menu of your restaurant, set promotional periods, edit your settings, and use features like room management, service activation, and presence validation to limit the risk of no-shows and abusive orders. An order management system is available for restaurants without EPOS integration to receive orders and update product availabilities.
 
-
 ## Integration Features
 
 Connecting My Lemonade to HubRise allows your ordering solution to:
@@ -52,9 +51,9 @@ My Lemonade can be connected to HubRise from My Lemonade's back office.
 
 ## Why Connect?
 
-Connecting My Lemonade to HubRise allows your ordering solution to push orders and customer information to other applications you use every day, such as your EPOS, your inventory management solution or your intelligent printer. 
+Connecting My Lemonade to HubRise allows your table ordering solution to communicate with other applications you use every day. Send online orders to your EPOS, to an intelligent printer, a Kitchen Display Screen, or to your inventory management solution. You can also use this connection to import your EPOS product catalog into My Lemonade.
 
-HubRise allows you to synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
