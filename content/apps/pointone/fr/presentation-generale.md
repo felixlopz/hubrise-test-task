@@ -16,6 +16,6 @@ app_info:
 
 ---
 
-**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/point-one" addLocalePrefix={false}>en anglais uniquement</Link>.
+**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/pointone" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---

@@ -49,7 +49,7 @@ To pull your HubRise catalog into Just Eat, from the **Actions** section at the 
 
 ---
 
-**IMPORTANT NOTE**: Pulling the HubRise catalog into Just Eat will erase your current menu on your Just Eat store. This action cannot be reverted. 
+**IMPORTANT NOTE:** Pulling the HubRise catalog into Just Eat will erase your current menu on your Just Eat store. This action cannot be reverted. 
 
 ---
 

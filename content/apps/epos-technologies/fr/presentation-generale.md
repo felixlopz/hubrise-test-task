@@ -11,7 +11,7 @@ app_info:
   availability: Royaume-Uni, France, Turquie, États-Unis
   price_range:
   website: https://www.epostechnologies.co.uk
-  contact: support@epostechnologies.co.uk
+  contact: info@epostechnologies.co.uk
 ---
 
 ---

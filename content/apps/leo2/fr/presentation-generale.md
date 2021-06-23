@@ -11,7 +11,7 @@ gallery:
 path_override: /
 app_info:
   category: Logiciels de caisse
-  availability: Monde
+  availability: Pays francophones
   price_range:
   website: https://www.leo2.fr
   contact: atoo@atoosarl.fr

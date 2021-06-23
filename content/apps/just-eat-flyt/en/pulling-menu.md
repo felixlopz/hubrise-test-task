@@ -83,6 +83,6 @@ You can also set the opening and closing times of your store for each day of the
 
 ---
 
-**IMPORTANT NOTE**: By default, closing times for delivery will be set half an hour earlier on the Just Eat store than the value you set on Just Eat Flyt Bridge. Closing times for collection, instead, are not modified.
+**IMPORTANT NOTE:** By default, closing times for delivery will be set half an hour earlier on the Just Eat store than the value you set on Just Eat Flyt Bridge. Closing times for collection, instead, are not modified.
 
 --- 
