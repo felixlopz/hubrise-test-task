@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Store Factory | HubRise
-  description: Présentation générale de Store Factory, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Store Factory, les raisons de connecter votre solution de commande en ligne à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:
@@ -25,14 +25,14 @@ app_info:
 
 Store Factory est une solution de commande en ligne destinée aux restaurateurs et aux commerçants.
 
-Store Factory permet de créer un site e-commerce professionnel adapté à tous types d'écrans (ordinateurs, mobiles et tablettes) et équipé des fonctionnalités suivantes :
+Store Factory permet de créer un site e-commerce professionnel adapté au click & collect et à la livraison, et équipé des fonctionnalités suivantes :
 
 - Une page d'accueil et un panier d'achat personnalisables.
 - Des fiches produits avec options, plusieurs vues produits, produits associés, recommandation à un ami, prix dynamique en fonction des options.
 - Des pages d'information libre pour proposer du contenu autre que des fiches produits.
 - La création de comptes clients.
-
-Store Factory propose aussi une solution de click & collect, permettant la gestion des stocks et des créneaux de livraison.
+- La gestion des stocks.
+- La gestion des créneaux de livraison.
 
 Store Factory est une solution dédiée au marché français.
 
