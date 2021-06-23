@@ -34,7 +34,7 @@ Store Factory permet de créer un site e-commerce professionnel adapté à tous 
 
 Store Factory propose aussi une solution de click & collect, permettant la gestion des stocks et des créneaux de livraison.
 
-Les clients de Store Factory sont situés dans toute la France
+Les clients de Store Factory sont situés dans toute la France.
 
 ## Fonctionnalités de l'intégration
 
