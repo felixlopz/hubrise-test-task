@@ -8,7 +8,7 @@ meta:
 path_override: /
 app_info:
   category: Point of Sales
-  availability: French speaking countries
+  availability: Worldwide
   price_range:
   website: https://www.leo2.fr
   contact: atoo@atoosarl.fr
