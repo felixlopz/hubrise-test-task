@@ -159,7 +159,16 @@ Returns an order resource.
   accessLevel="location, account"
 />
 
-The `customer` object represents the state of the customer at the time of the order creation. It is not present if the order was created without a customer attached.
+All fields of an order creation request are returned, plus a few more:
+
+| Name                                 | Type                                                      | Description                                                                                                      |
+| ------------------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| (all order creation fields)          |                                                           | See the [order creation fields](#create-order).                                                                  |
+| `id`                                 | string                                                    | The unique id of the order.                                                                                      |
+| `location_id`                        | string                                                    | The id of the order's location.                                                                                  |
+| `created_at`                         | [Time](/developers/api/general-concepts/#dates-and-times) | The order creation time.                                                                                         |
+| `created_by`                         | string                                                    | The name of the API client that created the order.                                                               |
+| `customer` <Label type="optional" /> | [Customer](#order-s-customer)                             | The customer details at the time of the order creation. Not present if the order was created without a customer. |
 
 The `id`, `private_ref` and `customer_list_id` fields of this object are returned only if the customer has not been deleted since the order was created.
 
