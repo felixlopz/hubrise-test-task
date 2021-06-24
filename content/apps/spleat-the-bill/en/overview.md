@@ -12,7 +12,7 @@ app_info:
   availability: World
   price_range:
   website: https://spleatthebill.io
-  contact: support@spleat.fr
+  contact: contact@spleatthebill.io
 ---
 
 ---
