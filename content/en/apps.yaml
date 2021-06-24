@@ -137,10 +137,10 @@ content:
           title: Deliveroo
           description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app. They operate in 12 markets and 500 cities.
         - website: https://www.deliveryhero.com/
-          documentation:
+          documentation: /apps/delivery-hero
           logo: delivery-hero.png
           title: Delivery Hero
-          description: Delivery Hero is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in 40 markets and 600 cities.
+          description: Delivery Hero is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in over 50 countries across four continents.
           additional_info: Integration in progress.
         - website: https://www.eat.ch/en/
           documentation: /apps/just-eat-takeaway

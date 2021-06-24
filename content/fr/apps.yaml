@@ -137,10 +137,10 @@ content:
           description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 12 pays and 500 villes.
           additional_info:
         - website: https://www.deliveryhero.com/
-          documentation:
+          documentation: /apps/delivery-hero
           logo: delivery-hero.png
           title: Delivery Hero
-          description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 40 pays and 600 villes.
+          description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans plus de 50 pays répartis sur quatre continents.
           additional_info: Intégration en cours.
         - website: https://www.eat.ch/fr/
           documentation: /apps/just-eat-takeaway
