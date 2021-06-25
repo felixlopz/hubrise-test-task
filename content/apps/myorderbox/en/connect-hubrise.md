@@ -7,13 +7,18 @@ meta:
   description: Instructions on connecting MyOrderBox with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-The connection between MyOrderBox and HubRise can be done autonomously by the user.
+You can connect MyOrderBox to HubRise autonomously from your MyOrderBox back office.
 
-In order to activate the connection between MyOrderBox and HubRise:
+In order to activate the connection between MyOrderBox and HubRise, follow these steps.
 
-1. Open your MyOrderBox back office on https://go.myorderboxhq.com/
-1. Navigate to **Settings** > **Add Ons**.
-1. Click on the **Connect to HubRise** button.
-1. You are directed to the HubRise interface.
-1. Find the location you are trying to connect and click on **Allow** to give MyOrderBox access to your data.
-1. If you have multiple restaurants, each location should be connected to HubRise independently following the steps outlined above.
+1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
+2. From the navigation menu, select **Setup** > **Add Ons** > **HubRise**.
+3. Click the **Connect HubRise** button.
+4. From the HubRise authorisation page, select the location you want to connect and click **Allow** to give MyOrderBox access to your data.
+5. Navigate to **Setup** > **Add Ons** > **HubRise** again to verify the details of your HubRise connection.
+
+Once connected to HubRise, the location details will appear in your MyOrderBox back office.
+
+![The HubRise connection page in your MyOrderBox back office](../images/002-en-myorderbox-connection-page.png)
+
+If you want to connect multiple restaurants, each location should be connected to HubRise independently following the steps outlined above.
