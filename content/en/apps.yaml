@@ -278,8 +278,8 @@ content:
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud is a digital menu solution for restaurants and hotels. They offer digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
-        - website: https://storefactory.y-proximite.fr/
-          documentation:
+        - website: https://storefactory.y-proximite.fr
+          documentation: /apps/store-factory
           logo: storefactory.png
           title: Store Factory
           description: Store Factory is used by SMEs and smaller retail stores with limited technical knowledge to create e-commerce websites. Technical support, maintenance and SEO services are provided by the publisher.
