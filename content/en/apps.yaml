@@ -136,7 +136,7 @@ content:
           logo: deliveroo.png
           title: Deliveroo
           description: Deliveroo is an online delivery platform for restaurants and convenience stores. Customers can order food online or via a mobile app. They operate in 12 markets and 500 cities.
-        - website: https://www.deliveryhero.com/
+        - website: https://www.deliveryhero.com
           documentation: /apps/delivery-hero
           logo: delivery-hero.png
           title: Delivery Hero
