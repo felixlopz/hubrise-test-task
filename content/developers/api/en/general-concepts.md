@@ -202,3 +202,63 @@ The response may also include a field breakdown, like this:
   "error_type": "unprocessable_entity"
 }
 ```
+
+## 8. Private Refs
+
+HubRise allows API clients to attach their own internal references to various objects, such as orders, order items, customers, and a few others. This can be convenient when clients need to link HubRise objects to their internal objects, but they cannot store HubRise ids.
+
+A private ref is only visible to the client that set it. For example, let's assume client A assigns a private ref to an order:
+
+**CLIENT A**: `PUT /location/orders/sd89mm`
+
+```json
+{
+  "private_ref": "6986"
+}
+```
+
+When client A later retrieves the order, the `private_ref` is included in the response: 
+
+**CLIENT A**: `GET /location/orders/sd89mm`
+
+#### Response:
+
+```json
+{
+  "private_ref": "6986",
+  "status": "new",
+  ...
+}
+```
+
+However, when client B retrieves that same order, no `private_ref` is included in the response:
+
+**CLIENT B**: `GET /location/orders/sd89mm`
+
+#### Response:
+
+```json
+{
+  "private_ref": null,
+  "status": "new",
+  ...
+}
+```
+
+Furthermore, client B can set its own private ref on this order, without affecting client A's private ref. They are indeed private!
+
+HubRise indexes private refs efficiently, which allows clients to use private refs in lieu of ids in some endpoints:
+
+**CLIENT A**: `GET /location/orders?private_ref=6986`
+
+#### Response:
+
+```json
+[
+  {
+    "private_ref": "6986",
+    "status": "new",
+    ...
+  }
+]
+```
