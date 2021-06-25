@@ -245,7 +245,7 @@ content:
           title: Obypay
           description: Obypay is an online and a table ordering solution for restaurants with a digital conciergerie app for hotels.
         - website: https://www.prestashop.com/en
-          documentation:
+          documentation: /apps/prestashop
           logo: prestashop.png
           title: PrestaShop
           description: PrestaShop is an open source e-commerce solution. Multilingual, multicurrency, and omnichannel, PrestaShop can be hosted or deployed on your own server. It can be tailored to meet the needs of most businesses.
