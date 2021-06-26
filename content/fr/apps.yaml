@@ -284,8 +284,8 @@ content:
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info: Documentation en anglais.
-        - website: https://storefactory.y-proximite.fr/
-          documentation:
+        - website: https://storefactory.y-proximite.fr
+          documentation: /apps/store-factory
           logo: storefactory.png
           title: Store Factory
           description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites marchand. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
