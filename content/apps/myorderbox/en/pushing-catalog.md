@@ -66,10 +66,9 @@ MyOrderBox supports option lists and options, and this information is mapped one
 
 Additionally, MyOrderBox relies on the following naming convention:
 
-- If the name of an option group starts with the word "Toppings", the option group is sent to HubRise as a unique `option_list` with the `name` field set to "Toppings". One HubRise `option` is created for every option value in MyOrderBox.
-- Otherwise, the option group is sent as a separate `option_list` to HubRise.
+- If the name of an option group starts with the word **Toppings**, the option group is sent to HubRise as an `option_list` with the `name` field set to "Toppings". One HubRise `option` is created for every option value in MyOrderBox which is not enabled by default. If the option group contains one or more option values enabled by default, these values are grouped together and sent to HubRise in a new `option_list`, whose name is "Ingredients". 
 
-If a MyOrderBox option group is of the toppings type, its defaul option values are grouped together and sent to HubRise in a new `option_list`, whose name is "Ingredients".
+- Otherwise, the option group is sent as a separate `option_list` to HubRise.
 
 ### Deals
 
