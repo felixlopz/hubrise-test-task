@@ -10,7 +10,7 @@ app_info:
   category: Point of Sales
   availability: United Kingdom
   price_range:
-  website: https://pointone-epos.co.uk/
+  website: https://pointone-epos.co.uk
   contact: info@pointone.co.uk  / +44 345 862 0005
 ---
 
@@ -26,7 +26,7 @@ pointOne is a touch-screen Point of Sales serving the needs of all hospitality b
 
 ## Integration Features
 
-Connecting pointOne to HubRise allows pointOne to:
+Connecting pointOne to HubRise allows your EPOS to:
 
 - Pull orders from HubRise, including order status.
 - Pull customer information from HubRise.
@@ -34,11 +34,11 @@ Connecting pointOne to HubRise allows pointOne to:
 
 pointOne can be connected to HubRise via the pointOne support line.
 
-## Why Connect ?
+## Why Connect?
 
-Connecting pointOne to HubRise allows your EPOS to communicate with other applications you use every day.
+Connecting pointOne to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Export your menu into other apps.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Uber Eats and Just Eat), and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 

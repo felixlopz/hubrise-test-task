@@ -82,12 +82,6 @@ content:
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
-        - website: https://www.pointone-epos.co.uk/
-          documentation: /apps/pointone
-          logo: pointone.png
-          title: pointOne
-          description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
-          additional_info: Intégration en cours.
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png
@@ -105,6 +99,12 @@ content:
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Documentation en anglais. Intégration par API Windows, réalisée par Slowey Systems.
+        - website: https://www.pointone-epos.co.uk/
+          documentation: /apps/pointone
+          logo: pointone.png
+          title: pointOne
+          description: pointOne est une solution d'encaissement complète et simple à utiliser, avec gestion de stock, rapports et analyse des données.
+          additional_info: Intégration en cours.
         - website: https://www.rmpos.com/
           documentation: /apps/restaurant-manager
           logo: restaurant-manager.png

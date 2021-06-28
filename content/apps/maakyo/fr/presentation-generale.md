@@ -10,7 +10,7 @@ path_override: /
 app_info:
   category: Commande en ligne
   availability: Monde
-  price_range: À partir de 19,90 €/mois
+  price_range: À partir de 19,90 € / mois
   website: https://maakyo.com
   contact: coucou@maakyo.com
 ---

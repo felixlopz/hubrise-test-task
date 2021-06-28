@@ -6,6 +6,12 @@ meta:
   title: Overview | Kezia II | HubRise
   description: Kezia II overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
+app_info:
+  category: Point of Sales
+  availability: France
+  price_range:
+  website: https://www.jdc.fr/caisse-enregistreuse/logiciel-de-caisse
+  contact: licencekezia@jdc.fr
 ---
 
 ---

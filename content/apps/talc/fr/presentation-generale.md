@@ -30,7 +30,7 @@ Delivery System est conforme à la loi française "anti-fraudes" du 1er janvier 
 
 ## Fonctionnalités de l'intégration
 
-Connecter Delivery System à HubRise permet à la caisse de :
+Connecter Delivery System à HubRise permet à votre solution d'encaissement de :
 
 - Envoyer les commandes à HubRise.
 - Recevoir les commandes de HubRise.
@@ -48,9 +48,9 @@ Delivery System peut être connecté à HubRise via le support de T.A.L.C Inform
 
 ## Pourquoi se connecter ?
 
-En connectant Delivery System à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne.
+En connectant Delivery System à HubRise, vous permettez à votre solution d'encaissement de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution d'encaissement. Envoyez les commandes provenant de votre solution d'encaissement vers une imprimante connectée, un écran cuisine, ou votre système de gestion de stock. Exportez votre menu vers d'autres applications.
 
-Synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et, et bien d’autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
