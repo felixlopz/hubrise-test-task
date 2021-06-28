@@ -82,12 +82,6 @@ content:
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
-        - website: https://www.pointone-epos.co.uk/
-          documentation: /apps/pointone
-          logo: pointone.png
-          title: pointOne
-          description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
-          additional_info: Intégration en cours.
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png
