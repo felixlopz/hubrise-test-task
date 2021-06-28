@@ -23,9 +23,9 @@ app_info:
 
 ## Description
 
-Spleat the bill est une application mobile de paiement à table pour les bars et restaurants. Elle permet aux clients de régler ou de partager l'addition depuis leur smartphone.
+Spleat the bill est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition depuis leur smartphone.
 
-Pour régler leur commande, les clients scannent un QR code ou indiquent manuellement le numéro de table dans l'application. Ils choisissent ensuite le montant à régler. Le règlement s'effectue sur leur carte bancaire, qu'ils auront enregistrée au préalable.
+Pour régler leur commande, les clients installent l'application mobile Spleat the bill. Puis ils scannent un QR code ou indiquent manuellement le numéro de table dans l'application. Ils choisissent ensuite le montant à régler. Le règlement s'effectue sur leur carte bancaire, qu'ils auront enregistrée au préalable.
 
 Spleat the bill communique avec le système d'encaissement des restaurateurs pour clore automatiquement les commandes payées.
 
