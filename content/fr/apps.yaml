@@ -109,7 +109,7 @@ content:
           documentation: /apps/pointone
           logo: pointone.png
           title: pointOne
-          description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
+          description: pointOne est une solution d'encaissement complète et simple à utiliser, avec gestion de stock, rapports et analyse des données.
           additional_info: Intégration en cours.
         - website: https://www.rmpos.com/
           documentation: /apps/restaurant-manager
