@@ -9,7 +9,7 @@ path_override: /
 app_info:
   category: Online Ordering
   availability: Worldwide
-  price_range: From €239.99
+  price_range:
   website: https://www.prestashop.com/en
   contact: https://www.prestashop.com/en/contact
 ---

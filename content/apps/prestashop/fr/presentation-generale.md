@@ -13,7 +13,7 @@ path_override: /
 app_info:
   category: Commande en ligne
   availability: Monde
-  price_range: À partir de 239,99 €
+  price_range:
   website: https://www.prestashop.com/fr
   contact: https://www.prestashop.com/fr/contact
 ---
