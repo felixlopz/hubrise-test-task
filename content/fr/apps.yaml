@@ -249,8 +249,8 @@ content:
           title: MynOber
           description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
           additional_info:
-        - website: https://obypay.fr/
-          documentation:
+        - website: https://obypay.fr
+          documentation: /apps/obypay
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
@@ -290,8 +290,8 @@ content:
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info: Documentation en anglais.
-        - website: https://storefactory.y-proximite.fr/
-          documentation:
+        - website: https://storefactory.y-proximite.fr
+          documentation: /apps/store-factory
           logo: storefactory.png
           title: Store Factory
           description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites marchand. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
@@ -301,8 +301,8 @@ content:
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
           additional_info: Documentation en anglais. Intégration en cours.
-        - website: https://www.zenorder.fr/
-          documentation:
+        - website: https://www.zenorder.fr
+          documentation: /apps/zenorder
           logo: zenorder.png
           title: Zenorder
           description: Zenorder est une solution de commande en ligne en marque blanche pour les métiers de bouche, couplée à une suite d'outils de marketing et de fidélisation client.
@@ -379,8 +379,8 @@ content:
           additional_info:
     - title: Gestion et Inventaire
       apps:
-        - website: https://barratio.fr/
-          documentation:
+        - website: https://barratio.fr
+          documentation: /apps/barratio
           logo: barratio.png
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
@@ -409,11 +409,11 @@ content:
           title: SATO
           description: SATO fournit des imprimantes thermiques intelligentes pour les commerces de proximité et les restaurants. Présent dans plus de 90 pays.
           additional_info: Intégration en cours.
-        - website: https://www.spleat.io
-          documentation:
-          logo: spleat.png
-          title: Spleat
-          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
+        - website: https://spleatthebill.io
+          documentation: /apps/spleat-the-bill
+          logo: spleat-the-bill.png
+          title: Spleat the bill
+          description: Spleat the bill est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition depuis leur téléphone.
           additional_info: Intégration en cours.
         - website: https://tickncook.com
           documentation: /apps/tickncook
