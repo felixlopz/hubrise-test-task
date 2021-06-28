@@ -26,10 +26,10 @@ app_info:
 
 ## Description
 
-PrestaShop est une solution open source de création de site e-commerce. Grâce à PrestaShop, vous pouvez vendre sur votre site tout type de produit, gérer le paiement en ligne, la livraison, l'inventaire, ainsi que consulter les métriques liées à l'activité de votre site e-commerce.
+PrestaShop est une solution open source de création de site e-commerce. Grâce à PrestaShop, vous pouvez vendre sur votre site tout type de produit, accepter les paiements en ligne, gérer la livraison et l'inventaire. Vous pouvez aussi consulter les métriques de l'activité de votre site e-commerce.
 
 PrestaShop est une solution multilingue et multidevise utilisée dans le monde entier.
 
-PrestaShop bénéficie d'une grande communauté, ainsi que d'un store d'applications et de thèmes très fourni, ayant pour but d'enrichir les fonctionnalités et de personnaliser l'apparence de votre site e-commerce.
+PrestaShop bénéficie d'une grande communauté, ainsi que d'un store d'applications et de thèmes très fourni, qui vous permettront d'enrichir les fonctionnalités et de personnaliser l'apparence de votre site e-commerce.
 
 PrestaShop peut être hébergé ou fonctionner sur votre propre serveur.
