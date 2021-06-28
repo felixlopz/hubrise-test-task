@@ -11,8 +11,8 @@ app_info:
   category: Point of Sales
   availability: United Kingdom, France, Turkey, USA
   price_range:
-  website: https://www.epostechnologies.co.uk/
-  contact: support@epostechnologies.co.uk
+  website: https://www.epostechnologies.co.uk
+  contact: info@epostechnologies.co.uk
 ---
 
 ---
@@ -27,7 +27,7 @@ EPOS Technologies is a software EPOS solution for hospitality and retail setting
 
 ## Integration Features
 
-Connecting EPOS Technologies to HubRise allows the EPOS to:
+Connecting EPOS Technologies to HubRise allows your EPOS to:
 
 - Pull orders from HubRise, including order status.
 - Pull customer information from HubRise.
@@ -35,11 +35,11 @@ Connecting EPOS Technologies to HubRise allows the EPOS to:
 
 EPOS Technologies can be connected to HubRise via the EPOS Technologies back office.
 
-## Why Connect ?
+## Why Connect?
 
-Connecting EPOS Technologies to HubRise allows your EPOS to communicate with other applications you use every day.
+Connecting EPOS Technologies to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Export your menu into other apps.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 

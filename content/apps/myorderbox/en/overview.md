@@ -7,7 +7,7 @@ meta:
   description: MyOrderBox overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 app_info:
-  category: EPOS
+  category: Point of Sales
   availability: United Kingdom
   price_range:
   website: https://www.myorderboxhq.com
@@ -24,17 +24,19 @@ MyOrderBox has numerous other fully embedded features including, call centres, i
 
 ## Integration Features
 
-- Push the menu into a HubRise catalog.
+Connecting MyOrderBox to HubRise allows your EPOS to:
+
 - Pull orders from HubRise.
 - Pull customer information from HubRise.
+- Push the menu into a HubRise catalog.
 
 MyOrderBox can be connected to HubRise via the MyOrderBox back office.
 
 ## Why Connect?
 
-Connecting MyOrderBox to HubRise allows your EPOS to communicate with other applications you use every day.
+Connecting MyOrderBox to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Export your menu into other apps.
 
-Synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
