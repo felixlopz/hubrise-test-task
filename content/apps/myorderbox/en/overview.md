@@ -18,7 +18,7 @@ app_info:
 
 MyOrderBox offers a complete solution for restaurants through one affordable platform. Available in many languages, MyOrderBox attracts businesses from around the world with clients across three continents, including Europe, Asia and the Middle East.
 
-MyOrderBox EPOS solution was built to manage inbound orders from multiple source types, and dispatch them to the kitchen just on time for preparation. Its delivery management solution automates the flow of deliveries and its driver apps offers the ability to oversee and control drivers. A branded online ordering website can be created free of charge together with its iOS or Android apps to encourage customers to order online, directly from the restaurant in a few clicks.
+MyOrderBox EPOS solution was built to manage inbound orders from multiple source types, and dispatch them to the kitchen just in time for preparation. Its delivery management solution automates the flow of deliveries and its drivers app offers the ability to oversee and track drivers. A branded online ordering website can be created free of charge together with its iOS or Android apps to encourage customers to order online, directly from the restaurant, in a few clicks.
 
 MyOrderBox has numerous other fully embedded features including, call centres, inventory management, enterprise reporting to help owners and managers analyse trends in real-time and different payments methods to name but a few.
 
