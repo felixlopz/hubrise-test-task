@@ -50,6 +50,7 @@ For every product, MyOrderBox sends the following information to HubRise:
 - `ref`: The ref code of the product, which will be passed along in orders.  
 - `description`: The description of the product.
 - `skus`: The list of skus associated with the product.
+- `image_ids`: The list of image IDs associated with the product.
 
 For every sku in the list, MyOrderBox sends the following information to HubRise:
 
@@ -57,8 +58,6 @@ For every sku in the list, MyOrderBox sends the following information to HubRise
 - `ref`: The ref code of the sku, which will be passed along in orders.  
 - `price`: The price of the sku.            
 - `option_list_refs`: The list of options attached to the sku.
-
-Product images are not sent to HubRise.
 
 ### Options
 
