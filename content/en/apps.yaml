@@ -103,7 +103,7 @@ content:
           documentation: /apps/pointone
           logo: pointone.png
           title: pointOne
-          description: pointOne is a touch-screen Point of Sales simple to use. pointOne includes online ordering, kitchen screens, smart phone applications, reporting as well as stock control.
+          description: pointOne is an easy to use touch-screen Point of Sales. It includes online ordering, kitchen screens, smart phone applications, reporting as well as stock control.
           additional_info: Integration in progress.
         - website: https://www.rmpos.com/
           documentation: /apps/restaurant-manager
