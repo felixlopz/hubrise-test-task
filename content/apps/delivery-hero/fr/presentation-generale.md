@@ -23,13 +23,13 @@ app_info:
 
 ## Description
 
-Delivery Hero est une plateforme de commande de repas avec service de livraison en bicyclette à domicile, destinée aux restaurants et aux commerces de proximité. Grâce à un système de Dmarts, qui sont des entrepôts situés dans des zones stratégiques, il est possible de livrer des commandes très rapidement.
+Delivery Hero est une plateforme de commande de repas avec service de livraison en bicyclette à domicile, destinée aux restaurants et aux commerces de proximité.
 
 Les clients peuvent commander en ligne ou grâce à une application mobile.
 
-Delivery Hero est présent dans plus de 50 pays répartis sur quatre continents.
+Delivery Hero est présent dans plus de 50 pays en Europe (sauf en France), en Asie, en Amérique latine, et au Moyen-Orient.
 
-En 2020, Delivery Hero a rendu en Europe son activité neutre, sans émission de dioxyde de carbone, et en 2021 en Amérique latine.
+En 2020, Delivery Hero a rendu son activité neutre en dioxyde de carbone en Europe. En 2021, son activité est devenue neutre en dioxyde de carbone en Amérique latine.
 
 ## Fonctionnalités de l'intégration
 
