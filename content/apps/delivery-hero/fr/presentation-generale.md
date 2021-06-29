@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-Delivery Hero est une plateforme de commande de repas avec service de livraison en bicyclette à domicile, destinée aux restaurants et aux commerces de proximité.
+Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile, destinée aux restaurants et aux commerces de proximité.
 
 Les clients peuvent commander en ligne ou grâce à une application mobile.
 
