@@ -25,11 +25,11 @@ app_info:
 
 Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile, destinée aux restaurants et aux commerces de proximité.
 
-Les clients peuvent commander en ligne ou grâce à une application mobile.
+Les clients commandent en ligne ou via une application mobile.
 
-Delivery Hero est présent dans plus de 50 pays en Europe (sauf en France), en Asie, en Amérique latine, et au Moyen-Orient.
+Delivery Hero est présent dans plus de 50 pays situés en Europe, en Asie, en Amérique latine, et au Moyen-Orient. Delivery Hero n'est pas présent en France.
 
-En 2020, Delivery Hero a rendu son activité neutre en dioxyde de carbone en Europe. En 2021, son activité est devenue neutre en dioxyde de carbone en Amérique latine.
+L'activité de Delivery Hero est neutre en dioxyde de carbone en Europe et en Amérique latine.
 
 ## Fonctionnalités de l'intégration
 
