@@ -26,11 +26,11 @@ app_info:
 
 ## Description
 
-My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on the table to access the menu on their smartphone and order. There is nothing to install. Customers can choose to pay directly on the app or with the waiter. The menu can be translated in 11 languages and displays in the customer's smartphone language by default. 
+My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on the table to access the menu on their smartphone and order. No app installation is required. Customers can choose to pay directly on the app or with the waiter. The menu can be translated in 11 languages and automatically displays in the customer's smartphone language.
 
 My Lemonade can also be used for click & collect.
 
-My Lemonade includes a back office to update the menu of your restaurant, set promotional periods, edit your settings, and use features like room management, service activation, and presence validation to limit the risk of no-shows and abusive orders. An order management system is available for restaurants without EPOS integration to receive orders and update product availabilities.
+My Lemonade includes a back office to update the menu of your restaurant, set promotional periods, edit settings, and enable features such as room management, and presence validation to limit the risk of no-shows and abusive orders. For restaurants without EPOS integration, an order management system is available to receive orders and update product availabilities.
 
 ## Integration Features
 
@@ -51,7 +51,7 @@ My Lemonade can be connected to HubRise from My Lemonade's back office.
 
 ## Why Connect?
 
-Connecting My Lemonade to HubRise allows your table ordering solution to communicate with other applications you use every day. Send online orders to your EPOS, to an intelligent printer, a Kitchen Display Screen, or to your inventory management solution. You can also use this connection to import your EPOS product catalog into My Lemonade.
+Connecting My Lemonade to HubRise allows your table ordering solution to communicate with other applications you use every day. Send online orders to your EPOS, to an intelligent printer, a Kitchen Display Screen, or to your inventory management solution. Import your EPOS product catalog into My Lemonade.
 
 Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
