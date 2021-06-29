@@ -107,11 +107,9 @@ Almost all fields are optional. In fact the simplest order that can be created o
   ],
   "loyalty_operations": [
     {
-      "name": null,
       "ref": "LOY",
       "delta": "-5",
-      "reason": "Points used on order",
-      "new_balance": "1.5"
+      "reason": "Points used on order"
     }
   ],
   "charges": [
@@ -185,8 +183,8 @@ In addition, each `item`, `charge`, `payment` and `discount` is returned with a 
 
 ```json
 {
-  "id": "wxn2v",
-  "location_id": "g1bgw-0",
+  "id": "5dpm9",
+  "location_id": "3r4s3-1",
   "private_ref": null,
   "status": "new",
   "service_type": "collection",
@@ -414,16 +412,6 @@ The following fields can be updated by sending their new value:
 - `private_ref`
 - `custom_fields`
 
-#### Example:
-
-`PATCH /locations/3r4s3-1/orders/5dpm9`
-
-```json
-{
-  "status": "accepted"
-}
-```
-
 You can also delete or add elements to the following collections, and set their private ref:
 
 - `items`
@@ -431,13 +419,46 @@ You can also delete or add elements to the following collections, and set their 
 - `payments`
 - `discounts`
 
+<details>
+
+<summary>Example request</summary>
+
+This request changes the order status to `accepted`, deletes an item, and adds a payment.
+
+`PATCH /locations/3r4s3-1/orders/5dpm9`
+
+```json
+{
+  "status": "accepted",
+  "items": [
+    {
+      "id": "xe834v",
+      "deleted": true
+    }
+  ],
+  "payments": [
+    {
+      "name": "Cash",
+      "ref": "CSH",
+      "amount": "5.90 EUR"
+    }
+  ]
+}
+```
+
+</details>
+
 Further in this section, **element** will interchangeably refer to an item, a charge, a payment, or a discount.
 
-### Deleting elements
+### Delete elements
 
-To delete an element, pass the element id along with `"deleted": true`. No other fields should be included.
+To delete an element, pass the `id` field along with `"deleted": true`. No other fields should be included.
 
-#### Example:
+Deleted elements are still present in the order representation, but they are irreversibly marked as deleted. Their `deleted` field cannot be reverted to `false`.
+
+<details>
+
+<summary>Example request</summary>
 
 `PATCH /locations/3r4s3-1/orders/5dpm9`
 
@@ -452,19 +473,52 @@ To delete an element, pass the element id along with `"deleted": true`. No other
 }
 ```
 
-Deleted elements are irreversibly marked as deleted: their `deleted` field cannot be reverted to `false`.
+#### Response:
 
-### Adding elements
+```json
+{
+  "id": "5dpm9",
+  "location_id": "3r4s3-1",
+  "private_ref": "3345",
+  "status": "new",
+  ...
+  "items": [
+    {
+      "id": "xe834v",
+      "private_ref": null,
+      "product_name": "Carbonara",
+      "sku_name": null,
+      "sku_ref": "81502",
+      "price": "11.90 EUR",
+      "quantity": "1.0",
+      "subtotal": "11.90 EUR",
+      "tax_rate": null,
+      "customer_notes": null,
+      "points_earned": null,
+      "points_used": null,
+      "options": [],
+      "deleted": true
+    }
+  ],
+  ...
+}
+```
 
-To add elements, simply include their JSON representation in the request.
+</details>
 
-It is not possible to modify an element. Instead, you should delete the element and add a new one.
+### Add elements
 
-#### Example:
+To add elements to an existing order, simply include their JSON representation in the request.
+
+Note that it is not possible to modify an element. Instead, you should delete the element and add a new one.
+
+<details>
+
+<summary>Example request</summary>
+
+This request adds two payments to the order.
 
 `PATCH /locations/3r4s3-1/orders/5dpm9`
-
-Adds two payments to the order. Existing payments are not affected.
 
 ```json
 {
@@ -483,15 +537,90 @@ Adds two payments to the order. Existing payments are not affected.
 }
 ```
 
-### Setting private refs on elements
+#### Response:
 
-#### Example:
+```json
+{
+  "id": "5dpm9",
+  "location_id": "3r4s3-1",
+  "private_ref": "3345",
+  "status": "new",
+  ...
+  "payments": [
+    {
+      "id": "zq33y",
+      "private_ref": null,
+      "type": "online",
+      "name": "Cash",
+      "ref": "CSH",
+      "amount": "5.90 EUR",
+      "info": null,
+      "deleted": false
+    },
+    {
+      "id": "1999d",
+      "private_ref": null,
+      "type": "online",
+      "name": "Online",
+      "ref": "OL",
+      "amount": "11.20 EUR",
+      "info": null,
+      "deleted": false
+    }
+  ],
+  ...
+}
+```
+
+</details>
+
+### Set private refs on elements
+
+It is possible to set a private ref on each element. To do so, pass the `id` and `private_ref` fields. No other fields should be included.
+
+Private refs are typically used to map HubRise objects with the client's internal objects. See [Private Refs](/developers/api/general-concepts#private-refs) for more information.
+
+<details>
+
+<summary>Example request</summary>
+
+This request sets a private ref on an item.
 
 `PATCH /locations/3r4s3-1/orders/5dpm9`
 
 ```json
-{}
+{
+  "items": [
+    {
+      "id": "xe834v",
+      "private_ref": "96"
+    }
+  ]
+}
 ```
+
+#### Response:
+
+```json
+{
+  "id": "5dpm9",
+  "location_id": "3r4s3-1",
+  "private_ref": "3345",
+  "status": "new",
+  ...
+  "items": [
+    {
+      "id": "xe834v",
+      "private_ref": "96",
+      "product_name": "Carbonara",
+      ...
+    }
+  ],
+  ...
+}
+```
+
+</details>
 
 ## 2. Order's Customer
 
