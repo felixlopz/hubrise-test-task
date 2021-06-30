@@ -14,12 +14,6 @@ app_info:
   contact: hello@orderlord.com
 ---
 
----
-
-**IMPORTANT NOTE:** A full documentation of this integration is in progress.
-
----
-
 ## Description
 
 OrderLord provides Point of Sale (EPOS), Delivery Management System (DMS) and Kitchen Display Screen (KDS) solutions.
