@@ -22,9 +22,15 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
   accessLevel="location, account"
 />
 
-#### Example request:
+The response either contains a `location_id` (location level catalog) or an `account_id` (account level catalog) field.
+
+<details>
+
+<summary>Example request</summary>
 
 `GET /catalogs/87yu4`
+
+#### Response:
 
 ```json
 {
@@ -43,7 +49,7 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
 }
 ```
 
-The resource either has a `location_id` (location level catalog) or an `account_id` (account level catalog).
+</details>
 
 ### 1.2. List Catalogs
 
@@ -63,9 +69,22 @@ Return the account-level catalogs of an account:
   accessLevel="account"
 />
 
-#### Example request:
+
+Catalogs returned by the location level form of this request can be either location or account level catalogs:
+
+- For retrieval, this makes no practical difference. Both types of catalogs can be handled in the same way since the URL construction scheme is identical, eg: `/catalogs/:id`.
+
+- For update and delete operations, an account access token is required to modify an account level catalog. A `401` (unauthorized request) error code is returned otherwise.
+
+The `data` field of the catalogs is not returned by this request. To retrieve the actual content of catalogs, use the `/catalogs/:id` endpoint for each catalog.
+
+<details>
+
+<summary>Example request</summary>
 
 `GET /locations/3r4s3-1/catalogs`
+
+#### Response:
 
 ```json
 [
@@ -82,13 +101,7 @@ Return the account-level catalogs of an account:
 ]
 ```
 
-Catalogs returned by the location level form of this request (above example) can be either location or account level catalogs:
-
-- For retrieval, this makes no practical difference. Both types of catalogs can be handled in the same way since the URL construction scheme is identical, eg: `/catalogs/:id`.
-
-- For update and delete operations, an account access token is required to modify an account level catalog. A `401` (unauthorized request) error code is returned otherwise.
-
-The `data` field of the catalogs is not returned by this request. To retrieve the actual content of a catalog, you need to retrieve the catalog individually, using the `/catalogs/:id` resource URL.
+</details>
 
 ### 1.3. Create Catalog
 
@@ -122,7 +135,9 @@ To create an account-level catalog:
 | `data.discounts` <Label type="optional" />    | [Discount](#discounts)[]      | List of discounts.       |
 | `data.charges` <Label type="optional" />      | [Charge](#charges)[]          | List of charges.         |
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `POST /accounts/3r4s3/catalogs`
 
@@ -184,6 +199,8 @@ To create an account-level catalog:
 }
 ```
 
+</details>
+
 ### 1.4. Update Catalog
 
 Update a catalog.
@@ -195,7 +212,9 @@ If the `data` field is passed, the whole catalog content is cleared and recreate
   accessLevel="account"
 />
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `PUT /catalogs/87yu4`
 
@@ -209,7 +228,7 @@ If the `data` field is passed, the whole catalog content is cleared and recreate
 }
 ```
 
-Response:
+#### Response:
 
 ```json
 {
@@ -223,6 +242,8 @@ Response:
 }
 ```
 
+</details>
+
 ### 1.5. Delete Catalog
 
 Delete a catalog and all its content (ie categories, products, ...).
@@ -232,9 +253,13 @@ Delete a catalog and all its content (ie categories, products, ...).
   accessLevel="location, account"
 />
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `DELETE /catalogs/87yu4`
+
+</details>
 
 ## 2. Categories
 
