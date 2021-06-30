@@ -384,8 +384,8 @@ content:
           logo: orderline.png
           title: OrderLine
           description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
-        - website: https://www.satoeurope.com/?lang=true
-          documentation:
+        - website: https://www.satoeurope.com
+          documentation: /apps/sato
           logo: sato.png
           title: SATO
           description: SATO provides intelligent thermal printers for retail stores and restaurants. SATO printers are used in over 90 countries around the world.
