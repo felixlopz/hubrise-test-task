@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-1Bot permet aux restaurateurs et aux commerçants de mettre en place un assistant personnel (de type chatbot) sur leur site internet.
+1Bot permet aux restaurateurs et aux commerçants de mettre en place un assistant personnel de type chatbot sur leur site internet.
 
 Le chatbot peut par exemple indiquer le menu et les horaires de l'établissement, prendre les commandes et les réservations, ou répondre à des questions. De nombreuses autres fonctionnalités sont disponibles.
 
