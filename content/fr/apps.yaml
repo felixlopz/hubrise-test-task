@@ -414,11 +414,11 @@ content:
           logo: tickncook.png
           title: TicknCook
           description: TicknCook est un écran cuisine (KDS), qui peut recevoir les commandes depuis tous vos canaux de vente. La solution est personnalisable avec possibilité de mettre en place des écrans spécialisés pour le bar, la cuisine, ou autres ateliers.
-        - website: http://1bot.io/
-          documentation:
+        - website: https://1bot.io
+          documentation: /apps/1bot
           logo: 1bot.png
-          title: 1bot
-          description: 1bot est un assistant personnel. Ce chatbot répond aux questions des clients et transmet un résumé de la conversation au magasin par SMS. Il est possible de prendre un rendez-vous, demander un rappel ou poser une question.
+          title: 1Bot
+          description: 1Bot est un assistant personnel. Ce chatbot répond aux questions des clients et transmet un résumé de la conversation au magasin par SMS. Il est possible de prendre un rendez-vous, demander un rappel ou poser une question.
   additional_sections:
     suggest_app:
       description: Votre application ne se trouve pas dans cette liste ? Envoyez-nous quelques informations. HubRise se chargera de contacter l'éditeur de votre part pour leur proposer une intégration.
