@@ -9,12 +9,12 @@ meta:
 
 OrderLord relies on product ref codes to correctly identify the products. You need to use the same codes in your food delivery or online ordering platform to be able to receive orders correctly.
 
-## Exporting OrderLord Menus
+## Exporting OrderLord Menu
 
 To export the OrderLord menu to HubRise, follow these steps.
 
 1. From your OrderLord back office, select **Settings** > **Restaurants**.
-1. Click on the <InlineImage width="21" height="21">![Set items icon](../images/set-items-icon.png)</InlineImage> Cogwheel icon. If you have multiple restaurant, make sure you select the correct one.
+1. Click on the <InlineImage width="21" height="21">![Set items icon](../images/set-items-icon.png)</InlineImage> Cogwheel icon. If you have multiple restaurants, make sure you select the correct one.
 1. Click the **Upload menu to HubRise** button, then **OK** to confirm.
 
 ---
