@@ -23,13 +23,13 @@ app_info:
 
 ## Description
 
-1Bot est un assistant personnel, permettant aux restaurateurs et aux commerçants de créer un chatbot.
+1Bot permet aux restaurateurs et aux commerçants de mettre en place un assistant personnel (de type chatbot) sur leur site internet.
 
-Le chatbot peut proposer un menu, afficher les horaires de l'établissement, prendre les commandes et les réservations, répondre à des questions, etc. De nombreux fonctionnements sont possibles.
+Le chatbot peut par exemple indiquer le menu et les horaires de l'établissement, prendre les commandes et les réservations, ou répondre à des questions. De nombreuses autres fonctionnalités sont disponibles.
 
-Le chatbot transmet ensuite un résumé de la conversation à l'établissement par SMS.
+Le chatbot transmet ensuite le résumé de la conversation à l'établissement par SMS.
 
-Le chatbot est actif 24h/24 et 7j/7. Les clients peuvent donc avoir accès à de nombreuses informations détaillées, même en dehors des horaires d'ouverture de l'établissement.
+Le chatbot est actif 24h/24 et 7j/7, même en dehors des horaires d'ouverture de l'établissement.
 
 ## Fonctionnalités de l'intégration
 
