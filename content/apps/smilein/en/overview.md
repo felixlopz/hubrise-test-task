@@ -3,9 +3,13 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect smilein to HubRise - Overview
+  title: Overview | smilein | HubRise
   description: smilein overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 ---
 
-This documentation is <Link to="/fr/apps/smilein" addLocalePrefix={false}>available in French only</Link>.
+---
+
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/smilein" addLocalePrefix={false}>in French only</Link>.
+
+---

@@ -6,6 +6,16 @@ meta:
   title: Overview | LEO2 | HubRise
   description: LEO2 overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
+app_info:
+  category: Point of Sales
+  availability: Worldwide
+  price_range:
+  website: https://www.leo2.fr
+  contact: atoo@atoosarl.fr
 ---
 
-This documentation is <Link to="/fr/apps/leo2" addLocalePrefix={false}>available in French only</Link>.
+---
+
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/leo2" addLocalePrefix={false}>in French only</Link>.
+
+---

@@ -82,12 +82,6 @@ content:
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
-        - website: https://www.pointone-epos.co.uk/
-          documentation: /apps/pointone
-          logo: pointone.png
-          title: pointOne
-          description: pointOne est une solution simple à utiliser et complète avec gestion de stock, rapports et analyses des données.
-          additional_info: Intégration en cours.
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png
@@ -105,6 +99,12 @@ content:
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
           additional_info: Documentation en anglais. Intégration par API Windows, réalisée par Slowey Systems.
+        - website: https://www.pointone-epos.co.uk/
+          documentation: /apps/pointone
+          logo: pointone.png
+          title: pointOne
+          description: pointOne est une solution d'encaissement complète et simple à utiliser, avec gestion de stock, rapports et analyse des données.
+          additional_info: Intégration en cours.
         - website: https://www.rmpos.com/
           documentation: /apps/restaurant-manager
           logo: restaurant-manager.png
@@ -136,11 +136,11 @@ content:
           title: Deliveroo
           description: Deliveroo est une plateforme de commande de repas et d'épicerie en ligne. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 12 pays and 500 villes.
           additional_info:
-        - website: https://www.deliveryhero.com/
-          documentation:
+        - website: https://www.deliveryhero.com
+          documentation: /apps/delivery-hero
           logo: delivery-hero.png
           title: Delivery Hero
-          description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 40 pays and 600 villes.
+          description: Delivery Hero est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans plus de 50 pays répartis sur quatre continents.
           additional_info: Intégration en cours.
         - website: https://www.eat.ch/fr/
           documentation: /apps/just-eat-takeaway
@@ -214,6 +214,12 @@ content:
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
+        - website: https://www.gonnaorder.com/?lang=fr
+          documentation:
+          logo: gonnaorder.png
+          title: GonnaOrder
+          description: GonnaOrder propose un système de commande en ligne économique, disponible dans 14 pays. Via un site personnalisé et des applications iOS et Android natives, GonnaOrder permet de commander à emporter, en livraison ou à table dans des restaurants, bars, pubs et cafés.
+          additional_info: Intégration en cours.
         - website: https://www.livepepper.fr
           documentation: /apps/livepepper
           logo: livepepper.png
@@ -221,7 +227,7 @@ content:
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
           additional_info: Documentation en anglais.
         - website: https://maakyo.com/
-          documentation:
+          documentation: /apps/maakyo
           logo: maakyo.png
           title: Maakyo
           description: Maakyo est une solution de commande à table. Le client scanne un QR code, accède au menu depuis son smartphone, commande et paye. Aucune app à installer. Menu disponible en plusieurs langues.
@@ -237,13 +243,13 @@ content:
           title: MynOber
           description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
           additional_info:
-        - website: https://obypay.fr/
-          documentation:
+        - website: https://obypay.fr
+          documentation: /apps/obypay
           logo: obypay.png
           title: Obypay
           description: Obypay est une solution de commande en ligne et de commande à table pour les restaurants avec une conciergierie digitale pour les hotels.
         - website: https://www.prestashop.com/fr
-          documentation:
+          documentation: /apps/prestashop
           logo: prestashop.png
           title: PrestaShop
           description: PrestaShop est une solution open source de création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop peut être hébergé ou fonctionner sur votre propre serveur. PrestaShop est personnalisable et s'adapte à vos besoins.
@@ -278,8 +284,8 @@ content:
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info: Documentation en anglais.
-        - website: https://storefactory.y-proximite.fr/
-          documentation:
+        - website: https://storefactory.y-proximite.fr
+          documentation: /apps/store-factory
           logo: storefactory.png
           title: Store Factory
           description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites marchand. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
@@ -289,8 +295,8 @@ content:
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
           additional_info: Documentation en anglais. Intégration en cours.
-        - website: https://www.zenorder.fr/
-          documentation:
+        - website: https://www.zenorder.fr
+          documentation: /apps/zenorder
           logo: zenorder.png
           title: Zenorder
           description: Zenorder est une solution de commande en ligne en marque blanche pour les métiers de bouche, couplée à une suite d'outils de marketing et de fidélisation client.
@@ -367,8 +373,8 @@ content:
           additional_info:
     - title: Gestion et Inventaire
       apps:
-        - website: https://barratio.fr/
-          documentation:
+        - website: https://barratio.fr
+          documentation: /apps/barratio
           logo: barratio.png
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
@@ -397,11 +403,11 @@ content:
           title: SATO
           description: SATO fournit des imprimantes thermiques intelligentes pour les commerces de proximité et les restaurants. Présent dans plus de 90 pays.
           additional_info: Intégration en cours.
-        - website: https://www.spleat.io
-          documentation:
-          logo: spleat.png
-          title: Spleat
-          description: Spleat est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition  depuis leur téléphone.
+        - website: https://spleatthebill.io
+          documentation: /apps/spleat-the-bill
+          logo: spleat-the-bill.png
+          title: Spleat the bill
+          description: Spleat the bill est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition depuis leur téléphone.
           additional_info: Intégration en cours.
         - website: https://tickncook.com
           documentation: /apps/tickncook

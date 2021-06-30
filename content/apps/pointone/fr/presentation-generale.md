@@ -10,12 +10,12 @@ app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni
   price_range:
-  website: https://pointone-epos.co.uk/
+  website: https://pointone-epos.co.uk
   contact: info@pointone.co.uk  / +44 345 862 0005
 ---
 
 ---
 
-**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/point-one" addLocalePrefix={false}>en anglais uniquement</Link>.
+**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/pointone" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---

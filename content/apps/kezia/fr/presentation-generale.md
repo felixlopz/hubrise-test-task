@@ -33,7 +33,7 @@ Kezia II est certifié NF525, et donc conforme à la loi française "anti-fraude
 
 ## Fonctionnalités de l'intégration
 
-Connecter Kezia II à HubRise permet à Kezia II de :
+Connecter Kezia II à HubRise permet à votre solution d'encaissement de :
 
 - Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
@@ -46,9 +46,9 @@ Kezia II peut être connecté à HubRise après l'installation d'un module par l
 
 ## Pourquoi se connecter ?
 
-En connectant Kezia II à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne.
+En connectant Kezia II à HubRise, vous permettez à votre solution d'encaissement de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, de commande à table, ou des plateformes de livraison de repas sur votre solution d'encaissement ou votre écran cuisine. Exportez votre menu vers d'autres applications.
 
-Synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, solution de gestion de livreurs, services de livraison, solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

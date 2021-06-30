@@ -1,6 +1,6 @@
 ---
 title: Terminology
-position: 4
+position: 5
 layout: documentation
 meta:
   title: Terminology | MyOrderBox | HubRise
@@ -9,7 +9,7 @@ meta:
 
 HubRise and MyOrderBox each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
 
-| MyOrderBox    | HubRise      | Description |
-| ------------- | ------------ | ----------- |
-| Options       | Option lists |             |
-| Option values | Options      |             |
+| MyOrderBox    | HubRise      |
+| ------------- | ------------ |
+| Options       | Option lists |
+| Option values | Options      |
