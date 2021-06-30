@@ -25,7 +25,7 @@ app_info:
 
 SATO fournit des imprimantes thermiques intelligentes pour les restaurants et les commerces de proximité. Ces imprimantes ne nécessitent pas d'ordinateurs, ni d'écrans. Elles sont compactes et peuvent être fixées au mur.
 
-Les imprimantes de chez SATO fonctionnent de manière autonome, et impriment automatiquement les nouvelles commandes provenant d'un site marchand ou d'une plateforme de livraison de repas.
+Les imprimantes SATO fonctionnent de manière autonome, et impriment automatiquement les nouvelles commandes provenant d'un site marchand ou d'une plateforme de livraison de repas.
 
 SATO est une société présente dans plus de 90 pays.
 
