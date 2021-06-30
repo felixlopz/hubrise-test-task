@@ -401,11 +401,11 @@ content:
           logo: tickncook.png
           title: TicknCook
           description: TicknCook is a Kitchen Display System that handles orders coming from all sales channels. TicknCook can be customised with specialised screens for bar, pastry or kitchen.
-        - website: http://1bot.io/
-          documentation:
+        - website: https://1bot.io
+          documentation: /apps/1bot
           logo: 1bot.png
-          title: 1bot
-          description: 1bot is a personal assistant. This chatbot can answer customers' questions and send a summary of the conversation by SMS to the store.
+          title: 1Bot
+          description: 1Bot is a personal assistant. This chatbot can answer customers' questions and send a summary of the conversation by SMS to the store.
   additional_sections:
     suggest_app:
       description: Your application is not in this list? Send us some details about your application. HubRise will contact the editor on your behalf to suggest an integration.
