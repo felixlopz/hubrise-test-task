@@ -25,7 +25,7 @@ app_info:
 
 GonnaOrder est une solution de commande en ligne destinée aux restaurateurs.
 
-GonnaOrder offre un back-office permettant d'éditer le menu, d'ajouter des photos aux produits, de mettre en avant les plats du jour, et de traduire le menu en plus de 80 langues. Il permet aussi de consulter la liste des commandes.
+GonnaOrder offre un back-office permettant d'éditer le menu, d'ajouter des photos aux produits, de mettre en avant les plats du jour, et de traduire le menu en plus de 80 langues. Il permet aussi de consulter la liste des commandes, et d'informer le client du statut en temps réel de sa commande.
 
 GonnaOrder permet au client de commander sur place, en emporté, ou en livraison.
 
