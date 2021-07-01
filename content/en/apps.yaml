@@ -212,8 +212,8 @@ content:
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
-        - website: https://www.gonnaorder.com/
-          documentation:
+        - website: https://www.gonnaorder.com
+          documentation: /apps/gonnaorder
           logo: gonnaorder.png
           title: GonnaOrder
           description: GonnaOrder offers a cost-effective online ordering and payment system available in 14 countries. Via a branded website and native iOS and Android apps, GonnaOrder supports takeaway, delivery and table service orders for restaurants, bars, pubs, and cafés.
