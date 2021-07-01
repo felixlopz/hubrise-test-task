@@ -223,7 +223,7 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
-        - website: https://maakyo.com/en/
+        - website: https://maakyo.com/en
           documentation: /apps/maakyo
           logo: maakyo.png
           title: Maakyo
@@ -233,8 +233,8 @@ content:
           logo: my-lemonade.png
           title: My Lemonade
           description: My Lemonade is a table ordering solution. Customers flash the QR code or use the NFC tag placed on their table, access the menu on their smartphone in their language, and order from it. No app installation required.
-        - website: https://mynober.nl/en/home-2/
-          documentation:
+        - website: https://mynober.nl/en/home-2
+          documentation: /apps/mynober
           logo: mynober.png
           title: MynOber
           description: MynOber provides QR ordering, online ordering and kiosk self-ordering solutions for hospitality businesses. MynOber can be used standalone or combined with a third party EPOS.

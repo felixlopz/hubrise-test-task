@@ -226,7 +226,7 @@ content:
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
           additional_info: Documentation en anglais.
-        - website: https://maakyo.com/
+        - website: https://maakyo.com
           documentation: /apps/maakyo
           logo: maakyo.png
           title: Maakyo
@@ -237,8 +237,8 @@ content:
           title: My Lemonade
           description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
           additional_info: Documentation en anglais.
-        - website: https://mynober.nl/en/home-2/
-          documentation:
+        - website: https://mynober.nl/en/home-2
+          documentation: /apps/mynober
           logo: mynober.png
           title: MynOber
           description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
