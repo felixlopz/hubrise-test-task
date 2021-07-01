@@ -315,7 +315,7 @@ content:
           title: OrderLord
           description: OrderLord delivery management solution can be used by restaurants, retails or delivery services agencies. Orderlord includes a dashboard for managers, an app for couriers and a tracking system for customers.
         - website: https://orkestro.com
-          documentation:
+          documentation: /apps/orkestro
           logo: orkestro.png
           title: Orkestro
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
