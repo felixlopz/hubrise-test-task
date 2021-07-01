@@ -27,7 +27,7 @@ Admins can grant access to other users provided they have an existing profile on
 To add a user:
 
 1. To grant access for the Account and all of its Locations, select **SETTINGS** > **ACCOUNTS**. Admins with multiple Accounts, select the Account to modify. To grant access only for a specific Location, select the location's name in the **Locations** section.
-2. In the Permissions section, select **Add**.
+2. In the **Permissions** section, select **Add**.
 3. Enter the user's email address in the column marked **EMAIL**.
 4. In the **ROLE** column, set the new user's role as Admin or Manager.
 5. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
