@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-iiko est une solution d'encaissement cloud destinée aux établissements de type F&B (food and beverage).
+iiko est une solution d'encaissement cloud destinée aux restaurants, aux bars et aux cafés.
 
 iiko permet de gérer votre menu, et d'enregistrer les commandes et les informations de vos clients. Il dispose aussi d'un écran cuisine intégré.
 
