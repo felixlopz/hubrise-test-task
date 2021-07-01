@@ -39,7 +39,7 @@ content:
           description: eTakeaway Max est une solution d'encaissement et de commande en ligne pour les restaurants.
           additional_info:
         - website: https://iikosoftware.com
-          documentation:
+          documentation: /apps/iiko
           logo: iiko.png
           title: iiko
           description: iiko est une solution cloud facile à déployer et à faire évoluer. Plus de 30.000 entreprises mono ou multisites l'utilisent pour automatiser leurs opérations.
