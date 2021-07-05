@@ -33,7 +33,7 @@ RestaJet permet de créer un site internet complet, ou d'ajouter un module de co
 
 Le back-office de RestaJet permet aux restaurateurs de créer et d'éditer leur menu, d'ajouter des offres promotionnelles, d'accéder à la liste des commandes, et de consulter les métriques liées à leur activité.
 
-Les restaurants utilisant actuellement RestaJet sont situés majoritairement en Turquie et au Royaume-Uni.
+Les clients de RestaJet sont situés au Royaume-Uni, en France, aux Etats-Unis, aux Émirats arabes unis et en Turquie.
 
 ## Fonctionnalités de l'intégration
 
