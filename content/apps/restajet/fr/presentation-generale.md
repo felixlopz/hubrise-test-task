@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | RestaJet | HubRise
-  description: Présentation générale de RestaJet, les raisons de connecter votre solution de commande à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de RestaJet, les raisons de connecter votre solution de commande en ligne à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
   - __gallery-en-001.png
   - __gallery-en-002.png
@@ -29,9 +29,9 @@ app_info:
 
 RestaJet est une solution de commande en ligne destinée aux restaurateurs.
 
-RestaJet leur propose de créer leur propre site internet ou d'intégrer leur site déjà existant. Il propose aussi une application mobile personnalisée aux couleurs de l'établissement.
+RestaJet permet de créer un site internet complet, ou d'ajouter un module de commande à un site existant. RestaJet propose aussi une application mobile personnalisée aux couleurs de l'établissement.
 
-Grâce à un back-office, les restaurateurs peuvent créer et éditer leur menu, ajouter des offres promotionnelles, accéder à la liste des commandes, et consulter les métriques liées à leur activité.
+Le back-office de RestaJet permet aux restaurateurs de créer et d'éditer leur menu, d'ajouter des offres promotionnelles, d'accéder à la liste des commandes, et de consulter les métriques liées à leur activité.
 
 Les restaurants utilisant actuellement RestaJet sont situés majoritairement en Turquie et au Royaume-Uni.
 
