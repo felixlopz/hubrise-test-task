@@ -255,7 +255,7 @@ content:
           description: PrestaShop est une solution open source de création de site e-commerce. Solution multilingue, multidevise, et omnicanale, PrestaShop peut être hébergé ou fonctionner sur votre propre serveur. PrestaShop est personnalisable et s'adapte à vos besoins.
           additional_info: Intégration en cours.
         - website: https://www.restajet.com/
-          documentation:
+          documentation: /apps/restajet
           logo: restajet.png
           title: RestaJet
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
