@@ -304,7 +304,7 @@ content:
     - title: Gestion de livreurs
       apps:
         - website: http://www.captain.ai
-          documentation:
+          documentation: /apps/captain
           logo: captain.png
           title: Captain
           description: Captain est une solution de traitement des commandes et de tracking des livreurs.
