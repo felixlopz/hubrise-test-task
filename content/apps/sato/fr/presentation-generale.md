@@ -46,4 +46,4 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 
 ## Prérequis
 
-Pour établir la connexion entre Solution et HubRise, vous devez avoir l'application HubRise installée sur votre imprimante intelligente.
+Pour établir la connexion entre Solution et HubRise, vous devez avoir l'application HubRise installée sur votre imprimante intelligente équipée de la technologie AEP (*Application Enabled Printing*).
