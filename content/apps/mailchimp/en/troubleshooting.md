@@ -3,8 +3,8 @@ title: Troubleshooting
 position: 5
 layout: documentation
 meta:
-  title: Mailchimp - Troubleshooting Connection Issues
-  description: Sometimes issues arise in the connection between Mailchimp and HubRise. Here's how to troubleshoot and fix these issues. 
+  title: Troubleshooting | Mailchimp | HubRise
+  description: Troubleshooting Mailchimp connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 From time to time it may be necessary to troubleshoot the connection between Mailchimp and HubRise.

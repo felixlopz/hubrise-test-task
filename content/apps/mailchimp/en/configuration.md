@@ -3,8 +3,8 @@ title: Configuration
 position: 3
 layout: documentation
 meta:
-  title: Mailchimp - Configuring the Connection
-  description: How to configure your Mailchimp connection to Hubrise for a perfect integration into the marketing pipeline for your business.
+  title: Configuration Guide | Mailchimp | HubRise
+  description: Instructions on configuring Mailchimp Bridge to work seamlessly with Mailchimp and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
 Once your HubRise account is connected to your Mailchimp account, your customer information will be pushed to Mailchimp automatically. Depending on your preferences, there are some options available to configure when the customer information is pushed to Mailchimp.

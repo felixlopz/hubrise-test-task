@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: Mailchimp - Overview & HubRise Integration
-  description: 'Connect Mailchimp to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.'
+  title: Overview | Mailchimp | HubRise
+  description: Mailchimp overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 008-en-2x-mailchimp-bridge-view.png
   - 012-en-mailchimp-contact-dashboard.png
