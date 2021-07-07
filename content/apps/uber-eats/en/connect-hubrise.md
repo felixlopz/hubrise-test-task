@@ -3,55 +3,71 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Uber Eats Connection to HubRise
-  description: Instructions for connecting Uber Eats to HubRise
+  title: Connection to HubRise | Uber Eats | HubRise
+  description: Instructions on connecting Uber Eats with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-To connect Uber Eats to HubRise, the Uber Eats team needs to log your HubRise location in their back office and assign you a unique store ID.
-
-Don't worry, HubRise will take care of all the paperwork for you!
-
-## Before Connecting Uber Eats
-
-To start receiving Uber Eats orders on HubRise, you should first contact us at <support@hubrise.com> and include in your email the following information:
-
-- The URL of your Uber Eats store(s) you wish to connect.
-- Your HubRise account and location IDs.
-
-We will then contact Uber Eats on your behalf to establish the connection and get you ready to receive orders in one business day.
-
-## Connect the Uber Eats Bridge to HubRise
+Connecting Uber Eats to HubRise can be done with a few simple steps.
 
 ---
 
-**IMPORTANT NOTE:** Uber Eats Bridge connects to HubRise at the location level.
+**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
-To connect Uber Eats to HubRise, you first need to log in to your HubRise account.
-If you don't have a HubRise account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions.
+## 1. Enable HubRise on Uber Eats
 
-1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**.
+As a first step, the HubRise integration must be enabled on your Uber Eats account.
+
+Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
+
+- The URL link of the Uber Eats store you wish to connect. For example: [https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA](https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA).
+- Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
+- The order acceptance mode you want to use for your store: manual accept or offered state mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+- The service provided by Uber Eats, with or without delivery.
+- If you use product-level comments on your Uber Eats store, inform us if you want to keep using them, otherwise they will be disabled by default. For more information on managing product-level comments on HubRise, see [Product-Level Comments](/apps/uber-eats/map-ref-codes#product-level-comments).
+
+With this information in hand, the Uber Eats integration team will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
+
+## 2. Connect the Bridge
+
+---
+
+**IMPORTANT NOTE:** Uber Eats Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
+
+---
+
+With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge:
+
+1. Log in to your HubRise account.
+1. Select the location you want to connect from the dropdown menu.
+1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Uber Eats** from the list of apps.
 1. Click **Connect**.
-1. Grant Uber Eats permission to access the location of your restaurant registered in HubRise.
-   1. If your account has not yet been created on HubRise, select **Create a new location**.
-   1. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**.
+1. Click **Allow** to grant Uber Eats Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. A new page asks you to provide your Uber Eats Store UUID. Enter your Store UUID, and click **Save** to complete the connection process.
 
-You have now added Uber Eats to your HubRise apps.
-The next step is configure the connection.
+![Uber Eats store UUID](../images/001-en-store-uuid.png)
 
-## Store ID
+## 3. Configure Your Preferences
 
----
+After connecting the bridge, you need to configure a few parameters on the Configuration page to send orders correctly to your EPOS.
 
-**IMPORTANT NOTE:** In order to connect your Uber Eats restaurant to HubRise, you need to provide a valid store ID.
+For more information about the Configuration page and how to navigate to it, see [Configuration page](/apps/uber-eats/user-interface/#configuration-page). For details on how to configure the parameters of the Uber Eats Bridge, see [Configuration](/apps/uber-eats/configuration).
 
----
+## 4. Map Products to Ref Codes
 
-In the first configuration page, you will need to enter the store ID that we will provide you after contacting Uber Eats.
-This is necessary to correctly route the incoming orders to your HubRise location.
+If you use Uber Eats with an EPOS, you need to map all the products in your Uber Eats menu to their corresponding ref codes. This ensures that your EPOS can identify every item correctly.
 
-![Uber Eats store ID](../images/001-en-store-id.png)
+To learn how to map ref codes on Uber Eats, see [Map Ref Codes](/apps/uber-eats/map-ref-codes).
 
-Once you are finished, click **Save**.
+## 5. Receive Test Orders
+
+Before you start receiving orders from real customers, we recommend that you test the whole integration workflow.
+
+You should place a few orders on your Uber Eats restaurant, make sure they are correctly received by your EPOS, and then cancel them to get a refund. This will ensure that your restaurant is ready to go live.
+
+If you want, you will also be able to get rid of your Uber Eats tablet by switching to a direct integration.
+For more details, see [Can Orders Be Sent Directly To My EPOS Without Using Uber Eats Tablets](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+
+If you encounter problems during the tests, contact us at support@hubrise.com.

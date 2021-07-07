@@ -3,7 +3,7 @@ title: Connections
 position: 4
 layout: documentation
 meta:
-  title: HubRise Connections
+  title: Connections | HubRise
   description: How connections to HubRise can be managed.
 ---
 
@@ -26,6 +26,8 @@ To connect a new app to your HubRise Account:
 3. Select **View available apps**.
 4. Select the app you want to install.
 5. Follow the instructions for the specific app. When installing a new app, you will be required to grant the app access to your HubRise Account.
+
+If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
 
 ## Open An App
 

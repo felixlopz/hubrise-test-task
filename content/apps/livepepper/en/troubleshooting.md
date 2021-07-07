@@ -1,10 +1,10 @@
 ---
 title: Troubleshooting
-position: 4
+position: 5
 layout: documentation
 meta:
-  title: LivePepper Connection to HubRise Troubleshooting
-  description: Instructions on how resolve connection issues.
+  title: Troubleshooting | LivePepper | HubRise
+  description: Troubleshooting LivePepper connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 ## Verify Product Mapping
@@ -31,7 +31,7 @@ These steps require that you have already connected LivePepper to HubRise. For m
 
 Once the connection is complete, test orders generated from LivePepper will be transmitted to HubRise. Follow this process to create a test order and verify it has been transmitted to HubRise.
 
-1. Login to your LivePepper back office.
+1. Log in to your LivePepper back office.
 2. Select **View your website** from the top of the page. This will open your Livepepper site in another browser tab or window.
 3. Generate an order.
 4. Return to LivePepper, and from the left navigation panel click **Orders**. The new order will be present.
@@ -40,8 +40,8 @@ Once the connection is complete, test orders generated from LivePepper will be t
 
 With the test order created in LivePepper, the next step is to verify that the order was transmitted to HubRise through the following steps:
 
-1. Login to your HubRise account. This can be done from your LivePepper back office by selecting **Settings > Add-ons**, then click **Go to your HubRise account**.
-2. If prompted, log into your HubRise user account.
+1. Log in to your HubRise account. This can be done from your LivePepper back office by selecting **Settings > Add-ons**, then click **Go to your HubRise account**.
+2. If prompted, log in to your HubRise user account.
 3. From HubRise, click **Data** > **Orders**. The new Order will be displayed.
 4. Click the new Order to verify the customer and order information is accurate.
 5. The **Logs** section will contain the detailed JSON records of the communication between LivePepper and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).

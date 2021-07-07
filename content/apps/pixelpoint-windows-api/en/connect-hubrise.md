@@ -1,19 +1,19 @@
 ---
-title: Connect to HubRise
+title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connecting the PixelPoint Windows API with HubRise
-  description: Informs users how to connect the PixelPoint Windows API created by Slowey Systems to HubRise. Once this connection is actived, your PAR PixelPoint EPOS solution will pull information from HubRise. It shows also how to read logs.
+  title: Connection to HubRise | PixelPoint Windows API | HubRise
+  description: Instructions on connecting PixelPoint Windows API with HubRise for your EPOS to work with other apps as a cohesive whole. Synchronise your data.
 ---
-
-## Setup
 
 The setup process for connecting PixelPoint Windows API to HubRise is typically performed by Slowey Systems, and is completely transparent to the user.
 
-The steps required are the following:
+If you plan to integrate your PAR PixelPoint EPOS with Deliveroo, you need to check that your Deliveroo products are correctly mapped in your EPOS. To learn more about the steps required, see [Integrating with Deliveroo](/apps/pixelpoint-windows-api/map-ref-codes/#integrating-with-deliveroo).
 
-[comment]: # 'It was LivePepper in the demo, but we asked John to change it'
+## Setup
+
+To set up the PixelPoint Windows API integration, follow these steps.
 
 - Create a `C:\HubRise` folder at the root level of the store server.
 - Copy all the relevant files needed for the connection inside this folder, including a configuration file called `HubRise.ini`.
@@ -88,16 +88,14 @@ To retrieve the value for `MethodNum`, follow these steps.
 The following table describes the parameters present in the settings section.
 
 | <div style="width:12rem">Parameter Name</div> | Description                                                                                                                                                                                                                                                                                            |
-| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `Token`                                       | The unique API token assigned to the store by HubRise. It is auto populated when the store server establishes its first connection with the Slowey server.                                                                                                                                             |
 | `Manual Accept`                               | This parameter has two possible values. When it is set to false, any incoming order is automatically accepted by the POS. When it is set to true, each order has to be manually accepted by the store manager. In this case, a separate application must be used to review and accept incoming orders. |
-| `Clear Hours`                                 | [To be completed]                                                                                                                                                                                                                                                                                      |
-| `QA`                                          | [To be completed]                                                                                                                                                                                                                                                                                      |
+| `Clear Hours`                                 | If an order is older than the Clear Hours offset, it is removed from HubRise.                                                                                                                                                                                                                          |
+| `QA`                                          |                                                                                                                                                                                                                                                                                                        |
 | `Refresh Interval`                            | The number of seconds PixelPoint Windows API must wait before checking again for new orders on HubRise.                                                                                                                                                                                                |
 | `Temp`                                        | The local folder where JSON requests coming from HubRise are saved and converted to XML.                                                                                                                                                                                                               |
 | `Ftp`                                         | The FTP address of the Slowey server.                                                                                                                                                                                                                                                                  |
 | `External IP`                                 | The IP address of the Slowey server.                                                                                                                                                                                                                                                                   |
-| `Datasource`                                  | [To be completed]                                                                                                                                                                                                                                                                                      |
-| `DateTime Format`                             | [To be completed]                                                                                                                                                                                                                                                                                      |
-
-[comment]: # 'Ask John on Clear Hours, QA & Datasource. Why is DateTime empty too?'
+| `Datasource`                                  | The Slowey System server settings.                                                                                                                                                                                                                                                                     |
+| `DateTime Format`                             | The date format settings.                                                                                                                                                                                                                                                                              |

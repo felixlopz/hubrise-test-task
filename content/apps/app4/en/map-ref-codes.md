@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: App4 Connection to HubRise Configuration
-  description: Instructions on how to configure App4 for optimal connection to HubRise and other platforms.
+  title: Map Ref Codes | App4 | HubRise
+  description: Instructions on mapping App4 product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 Once your App4 website is connected with HubRise, customer and order information are pushed into HubRise automatically.
@@ -15,7 +15,7 @@ In some cases, the EPOS will also require codes for payment methods, service typ
 
 ---
 
-**IMPORTANT NOTE**: App4 and HubRise have their own vocabulary, and may refer to the same things by different names. For example, the menu in App4 is a catalog in HubRise. For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs App4 Definitions](/apps/app4/app4-terms).
+**IMPORTANT NOTE:** App4 and HubRise have their own vocabulary, and may refer to the same things by different names. For example, the menu in App4 is a catalog in HubRise. For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs App4 Definitions](/apps/app4/app4-terms).
 
 ---
 
@@ -29,7 +29,7 @@ You can import a HubRise Catalog into your App4 menu. When you do this, the foll
 
 ---
 
-**IMPORTANT NOTE**: This will not create new categories and products in App4. As of this time, this will only update existing categories and products.
+**IMPORTANT NOTE:** This will not create new categories and products in App4. As of this time, this will only update existing categories and products.
 
 ---
 
@@ -47,7 +47,7 @@ To import a HubRise Catalog, contact App4 support and ask them to take the follo
 
 <!--
  - Does catalog import actually create products, categories, deals and options? Or it just updates names, prices, ... of already create items? In other words, if you import into a blank site, will it populate the whole menu from HubRise?
- - Does the user have access to a user interface similar to their admin dashboard, to synchronize their menu with HubRise?
+ - Does the user have access to a user interface similar to their admin dashboard, to synchronise their menu with HubRise?
  -->
 
 ## Product Mapping
@@ -79,7 +79,7 @@ Currently not supported by the integration.
 <!--
  - Is it possible to define charges, such as a tip, or a delivery charge?
  - Can you configure a ref code for each type of charge? How?
- - Are charges encoded in orders, along with their ref code? 
+ - Are charges encoded in orders, along with their ref code?
 -->
 
 ## Discounts Mapping

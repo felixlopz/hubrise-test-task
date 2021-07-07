@@ -3,11 +3,9 @@ title: How to Contribute
 position: 0
 layout: documentation
 meta:
-  title: How to Contribute to HubRise Technical Documentation
-  description: This guide provides guidelines on how to contribute to the HubRise technical documentation.
+  title: Contribution Guidelines | HubRise
+  description: This guide provides guidelines on how to contribute to the HubRise technical documentation in order to improve it or update it.
 ---
-
-## Introduction
 
 Our website includes various types of technical documentation. We try to provide sufficient detail to give all the necessary information to the reader but there is always a margin for improvement. You can help by contributing to:
 
@@ -19,10 +17,10 @@ Our website includes various types of technical documentation. We try to provide
 
 Anyone is welcome to contribute. Editors of integrated apps are proactively encouraged to review and keep its content updated but any HubRise users or stakeholders are welcome to give feedback. Motivation to contribute varies. It could be:
 
-- to make users of connected apps more autonomous.
-- to update the apps documentation with a new feature.
-- to help support teams troubleshoot any issues that may arise.
-- or to document frequently asked questions and avoid answering the same questions over and over again.
+- To make users of connected apps more autonomous.
+- To update the apps documentation with a new feature.
+- To help support teams troubleshoot any issues that may arise.
+- Or to document frequently asked questions and avoid answering the same questions over and over again.
 
 ## Process
 
@@ -36,7 +34,7 @@ A simple email can be sent but all our technical documentation is available in a
 
 The HubRise documentation follows a certain editorial style.
 
-The editorial style is defined in a style guide which sets out writing guidelines. These include, but is not limited to, the copy patterns, the voice and the tone to use. This guide is complemented with a glossary of terms to define spelling decisions and clarify the meaning of certain recurrent terms we use. For further guidance on the editorial style to use, refer to the [Style Guide](/contributing/style-guide) and the [Glossary of Terms](/contributing/glossary-of-terms).
+The editorial style is defined in a style guide which sets out writing guidelines. These include, but is not limited to, the copy patterns, the voice and the tone to use. For further guidance on the editorial style to use, refer to the [Style Guide](/contributing/style-guide).
 
 When it becomes necessary to supplement your documentation with screenshots, these screenshots have to comply with certain technical specifications. For more information, refer to the [Screenshots Guide](/contributing/screenshots-guide).
 

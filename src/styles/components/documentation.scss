@@ -3,6 +3,9 @@
 
   h2,
   h3 {
+    scroll-snap-align: start;
+    scroll-margin-top: 1rem;
+
     a {
       color: transparent;
       margin-left: 0.33rem;
@@ -89,10 +92,7 @@
     font-size: 1rem;
     color: $hr-green;
 
-    &:hover {
-      color: $hr-gray;
-      cursor: pointer;
-    }
+    @include hr-link-hover($hr-dark-gray);
   }
 
   ul,
@@ -128,6 +128,15 @@
       left: 0;
       position: absolute;
       top: 0.7rem;
+    }
+  }
+
+  details {
+    cursor: pointer;
+    margin: 1em 0 2em 0;
+
+    summary {
+      margin-bottom: 1em;
     }
   }
 
@@ -226,12 +235,21 @@
     padding: 0.6rem;
   }
 
-  .inline-image-container {
+  // For <InlineImage...>
+  .inline-image {
     display: inline-block;
 
     .gatsby-resp-image-wrapper {
       width: 100%;
       height: 100%;
+    }
+  }
+
+  // gatsby-remark-images creates a wrapper one pixel too short (in the Y-axis), which make images blurry.
+  // This property ensures the image ratio is preserved.
+  .gatsby-resp-image-wrapper {
+    .gatsby-resp-image-image {
+      object-fit: cover;
     }
   }
 }

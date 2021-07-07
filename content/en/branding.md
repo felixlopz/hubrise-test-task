@@ -1,8 +1,8 @@
 ---
 title: Branding Guidelines
-layout: simple
+layout: documentation-simple
 meta:
-  title: Branding Guidelines, Logos and Text to reuse | HuBRise
+  title: Branding Guidelines, Logos and Text to use | HubRise
   description:
 Did you mean: Download the HubRise logo. Find HubRise descriptions to adapt and reuse on your app's back office or website when referring to HubRise.
 ---
@@ -30,7 +30,7 @@ Long description (<200 words):
 > HubRise is a middleware used to facilitate technical integrations between third party solutions.
 > Transactions are saved in HubRise to provide apps with real-time access to your product catalogue, your customer data or your orders.
 >
-> Thanks to its integration with HubRise, [Integrated App's Name] can connect to an ever growing ecosystem of solutions: Point Of Sale, online ordering, delivery management, delivery services, eMarketing (SMS/e-mailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
+> Thanks to its integration with HubRise, [Integrated App's Name] can connect to an ever growing ecosystem of solutions: Point Of Sale, online ordering, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 >
 > If the app you want to use is not yet in the ecosystem, you can contact HubRise, who will contact the publisher to plan an integration. You can also create your own integrations thanks to HubRise’s public and open API.
 >

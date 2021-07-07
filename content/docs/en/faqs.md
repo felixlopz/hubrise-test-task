@@ -3,8 +3,8 @@ title: FAQs
 position: 16
 layout: documentation
 meta:
-  title: HubRise Frequently Asked Questions
-  description: Frequently asked questions and answers.
+  title: Frequently Asked Questions | HubRise
+  description: Frequently asked questions and answers on quotas, on plans, on user profile, on accounts, on connections and a lot more.
 ---
 
 - <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">What Happens If My Free Plan Quota Is Exceeded?</Link>
@@ -18,3 +18,5 @@ meta:
 - <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
 - <Link to="/docs/faqs/what-app-can-i-connect-to-hubrise/">What App Can I Connect to HubRise?</Link>
 - <Link to="/docs/faqs/create-a-user-profile-for-another-person/">How Do I Create a User Profile for Another Person?</Link>
+- <Link to="/docs/faqs/create-an-account-for-another-business/">How Do I Create an Account for Another Business?</Link>
+- <Link to="/docs/faqs/connect-multiple-instances-same-app/">How Do I Connect Multiple Instances of the Same App?</Link>

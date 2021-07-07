@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Zelty - Mapping Ref Codes in HubRise
-  description: 'Connect Zelty to the apps you use everyday: food ordering platforms, mobile apps, ordering sites, marketing and loyalty solutions, delivery services, and more.'
+  title: Map Ref Codes | Zelty | HubRise
+  description: Instructions on mapping Zelty product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 After connecting your Zelty EPOS to your HubRise account, you can sync information between them. For it to work however, certain steps need to be taken. Items in the Zelty EPOS are identified by unique codes. When you set up other apps to connect via HubRise, you need to provide these codes.
@@ -43,12 +43,12 @@ To export a subset of the menu:
 1. Go to **Catalogues** (Catalog).
 1. Next to the name of the catalog, click the down arrow and select **Envoyer vers** (Send to).
 1. Click on the **HubRise** button available under the heading **Partenaires disponibles** (Available partners).
-1. A message will indicate that the **Le catalogue est en cours de transfert vers Hubrise** (the catalog is being sent to HubRise).
+1. A message will indicate that the **Le catalogue est en cours de transfert vers HubRise** (the catalog is being sent to HubRise).
 1. Check the catalog import on HubRise. For more information on how to manage catalogs in HubRise, see our [Catalog Guide](/docs/catalog/).
 
 ---
 
-**IMPORTANT NOTE**: Zelty exports categories, products, options, pictures and deals into HubRise. Tags however are not exported.
+**IMPORTANT NOTE:** Zelty exports categories, products, options, pictures and deals into HubRise. Tags however are not exported.
 
 ---
 
@@ -58,7 +58,7 @@ If other apps connected to your HubRise account cannot use HubRise catalogs, you
 
 ---
 
-**IMPORTANT NOTE**: Ref codes cannot be seen in the Zelty user interface. You can only see them in HubRise catalogs and in CSV/Excel menu exports.
+**IMPORTANT NOTE:** Ref codes cannot be seen in the Zelty user interface. You can only see them in HubRise catalogs and in CSV/Excel menu exports.
 
 ---
 

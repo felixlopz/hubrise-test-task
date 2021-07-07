@@ -1,12 +1,10 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: HubRise PixelPoint Windows API Overview
-  description: Details the use and functionality of the HubRise PixelPoint Bridge.
-gallery:
-
+  title: Overview | PixelPoint Windows API | HubRise
+  description: PixelPoint Windows API overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 app_info:
   category: Point of Sales
@@ -16,13 +14,30 @@ app_info:
   contact: support@slowey.ie
 ---
 
-[comment]: # 'include screenshots nof the HubRise Bridge'
+[comment]: # 'include screenshots of the HubRise Bridge'
 
 ## Description
 
+PAR PixelPoint is an EPOS solution available worldwide.
+
 PixelPoint Windows API is an app developed by Slowey Systems that allows the communication between HubRise and the PAR PixelPoint EPOS.
 
-It takes any incoming order in HubRise, converts it into the PixelPoint format and sends it to the POS.
+It takes any incoming order in HubRise, converts it into the PixelPoint format and sends it to the EPOS.
+
+## Integration Features
+
+Connecting PAR PixelPoint to HubRise allows your EPOS to:
+
+- Pull orders from HubRise.
+- Pull customer information from HubRise.
+
+PixelPoint Windows API can be connected to HubRise via the Slowey Systems support line.
+
+## Why Connect ?
+
+Connecting PixelPoint Windows API to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, or food delivery platforms in your EPOS.
+
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 

@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: OrderLine Connection to HubRise
-  description: Instructions on connecting OrderLine with HubRise
+  title: Connection to HubRise | OrderLine | HubRise
+  description: Instructions on connecting OrderLine with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 OrderLine must be connected to your HubRise account before it can fetch orders. To connect OrderLine to your HubRise account:

@@ -3,7 +3,7 @@ title: Quick Start
 position: 1
 layout: documentation
 meta:
-  title: HubRise Quick Start Guide
+  title: Developers Quick Start | HubRise
   description:
 ---
 
@@ -15,9 +15,7 @@ This guide will help you to get started with the HubRise API. At the end of the 
 
 ### Create a HubRise Account
 
-First of all, you need to create a user profile on HubRise with an account and an associated location. It is free, and only takes a few minutes! Just click on the **Sign Up** button on the top of this page and follow the instructions.
-
-This account will be the first user of your application. It will be useful to have it for testing during the development process.
+First of all, you need to create a user profile on HubRise with an account and an associated location. It is free, and only takes a few minutes! Just click on the **Sign up** button on the top of this page and follow instructions.
 
 ### Set up Postman
 
@@ -60,13 +58,11 @@ https://manager.hubrise.com/oauth2/v1/authorize?
   scope=location[orders.write,customer_list.write,catalog.read]
 ```
 
-You will have the chance to review the connection details and to grant access permissions to your application.
+Review the connection details and grant access permissions to your application by clicking **Allow**.
 
-If everything goes well, you should see a page similar to the following.
+If everything goes well, you will see a page that displays an **authorisation code**. Copy it and head to the next section.
 
 ![authorisation code](../images/001-en-generate-user-code.png)
-
-This is the **authorisation code**. Copy it and head to the next section.
 
 ## Generate the Access Token
 
@@ -79,7 +75,13 @@ You now have three codes:
 With these, you can generate your access token with Postman.
 
 An access token is how you authenticate the requests you send to HubRise.
-Basically, you want your application (client id) to be authorised (via the client secret) to send requests to HubRise on behalf of the account owner (authorisation code), and you do this with the **Access Token**.
+Basically, you want your application (client id) to be authorised (via the client secret) to send requests to HubRise on behalf of the account owner (authorisation code), and you do this with the **access token**.
+
+---
+
+**IMPORTANT NOTE**: The HubRise access token never expires after being generated. In real scenarios, your application should generate a new access token for every new HubRise location it is connected to, and use it for all future requests.
+
+---
 
 ### Set up Variables in Postman
 

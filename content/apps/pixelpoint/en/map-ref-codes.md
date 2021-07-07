@@ -1,15 +1,15 @@
 ---
-title: Mapping Ref Codes
+title: Map Ref Codes
 position: 2
 layout: documentation
 meta:
-  title: Mapping the PAR Pixel EPOS Ref Codes on HubRise
-  description: Informs users on how to find EPOS ref codes on the PAR PixelPoint EPOS to map them on other apps in the context of an integration with HubRise.
+  title: Map Ref Codes | PixelPoint | HubRise
+  description: Instructions on mapping PixelPoint product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 ---
 
-**IMPORTANT NOTE**: This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
+**IMPORTANT NOTE:** This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
 
 ---
 
@@ -38,7 +38,7 @@ Combos are particular combinations of products and/or options that are sold as a
 
 ---
 
-**IMPORTANT NOTE**: The codes for products, options, and combos to use in the system you want to connect must correspond to those present in the EPOS. Order transfer issues often result from an incorrect configuration of the menu.
+**IMPORTANT NOTE:** The codes for products, options, and combos to use in the system you want to connect must correspond to those present in the EPOS. Order transfer issues often result from an incorrect configuration of the menu.
 
 ---
 
