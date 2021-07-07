@@ -339,7 +339,7 @@ content:
           title: dotdigital
           description: dotdigital is an omnichannel marketing automation system used to engage customers. Marketing campaigns messages are sent across email, SMS, push notifications, live chat, and social ads.
         - website: https://myemma.com
-          documentation:
+          documentation: /apps/emma
           logo: emma.png
           title: Emma
           description: Emma is an email campaign platform with support available in email marketing strategy, as well as content and design to help maximise results.
