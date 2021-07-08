@@ -366,7 +366,7 @@ content:
           description: SailPlay est une plateforme utilisée pour l'automatisation des campagnes d'e-mailing. Elle permet de mieux connaître ses clients afin de les fidéliser.
           additional_info:
         - website: https://www.smg.com
-          documentation:
+          documentation: /apps/smg
           logo: smg.png
           title: Service Management Group
           description: SMG associe la technologie et le service pour collecter et analyser vos données, afin de comprendre les comportements de vos clients et d'agir en conséquence.
