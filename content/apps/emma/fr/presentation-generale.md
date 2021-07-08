@@ -23,11 +23,19 @@ app_info:
 
 ## Description
 
+Emma est une solution d'envoi d'e-mails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
+
+Emma permet d'automatiser l'envoi de vos e-mails, de personnaliser leur apparence avec du contenu dynamique, ou encore de tester le contenu le plus pertinent en envoyant une version différente d'un e-mail à une partie de votre audience.
+
+Emma propose un éditeur simple d'utilisation, qui permet de personnaliser vos templates d'e-mails, et de créer une page d'accueil liée à vos e-mails.
+
 ## Fonctionnalités de l'intégration
 
 Connecter Emma à HubRise permet à votre solution de marketing de :
 
 - Recevoir les informations clients de HubRise.
+
+![Schéma du flux de connexion entre Emma, Emma Bridge et HubRise](../images/001-fr-2x-diagramme-connexion.png)
 
 Emma peut être connecté à HubRise depuis le back-office de HubRise.
 
