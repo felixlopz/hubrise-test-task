@@ -354,7 +354,7 @@ content:
           title: SailPlay
           description: SailPlay is a marketing automation platform that helps retailers to build loyalty programs and set mass and triggered email campaigns.
         - website: https://www.smg.com
-          documentation:
+          documentation: /apps/smg
           logo: smg.png
           title: Service Management Group
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
