@@ -390,7 +390,7 @@ content:
           documentation: /apps/expedy
           logo: expedy-print.png
           title: Expedy Print
-          description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 4G, Wifi ou USB.
+          description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 3G/4G, ou Wifi.
         - website:
           documentation: /apps/orderline
           logo: orderline.png
