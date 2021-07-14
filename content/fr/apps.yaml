@@ -354,7 +354,7 @@ content:
           description: Emma est une solution d'envoi d'e-mails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
           additional_info:
         - website: https://mailchimp.com
-          documentation:
+          documentation: /apps/mailchimp
           logo: mailchimp.png
           title: MailChimp
           description: MailChimp est une solution d'envoi d'e-mails, de newsletters personnalisés et de SMS.
