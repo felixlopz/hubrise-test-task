@@ -3,25 +3,31 @@ title: Food Ordering Platforms
 position: 6
 layout: documentation
 meta:
-  title: Food Ordering Platforms | iKentoo by Lightspeed | HubRise
-  description: Integrating iKentoo with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
+  title: Food Ordering Platforms | Lightspeed K Series | HubRise
+  description: Integrating Lightspeed K Series with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
-
-To connect iKentoo to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.
-
-By convention, Lightspeed support team uses these predefined codes when they set up the integration. If you configure the iKentoo back office autonomously, we recommend that you use the same codes, as this simplifies troubleshooting.
 
 ---
 
-**IMPORTANT NOTE:** These codes must be present in your iKentoo back office and must be included in the configuration page of the food platform bridge.
+**IMPORTANT NOTE:** Lightspeed K Series was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
 
 ---
 
-For detailed instructions on how to create ref codes in the iKentoo back office, see [Creating Ref Codes for Delivery Platforms](/apps/ikentoo-lightspeed/map-ref-codes/#creating-ref-codes-for-delivery-platforms).
+To connect Lightspeed K Series to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.
+
+By convention, Lightspeed support team uses these predefined codes when they set up the integration. If you configure the Lightspeed back office autonomously, we recommend that you use the same codes, as this simplifies troubleshooting.
+
+---
+
+**IMPORTANT NOTE:** These codes must be present in your Lightspeed back office and must be included in the configuration page of the food platform bridge.
+
+---
+
+For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes for Delivery Platforms](/apps/ikentoo-lightspeed/map-ref-codes/#creating-ref-codes-for-delivery-platforms).
 
 ## Deliveroo
 
-To receive Deliveroo orders in iKentoo, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+To receive Deliveroo orders in Lightspeed, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
 
 To correctly receive your orders, specify the following values in the Deliveroo Bridge configuration page. To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
 
@@ -38,28 +44,28 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 
 ## Uber Eats
 
-To receive Uber Eats orders in iKentoo, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Uber Eats orders in Lightspeed, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
 
 To correctly receive your orders, specify the following values in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
-| Section        | Name                              | Ref code or value                                 |
-| -------------- | --------------------------------- | ------------------------------------------------- |
-| Service types  | Uber delivery ref code            | `UEAP`                                            |
-| Service types  | Restaurant delivery ref code (\*) | `UENDAP`                                          |
-| Service types  | Takeaway ref code                 | `UEPUAP`                                          |
-| Service types  | Eat-in ref code                   | `UEDIAP`                                          |
-| Special items  | Disposable items ref code         | Create a product in iKentoo and use its **Code**. |
-| Discounts      | Discount ref code                 | `UE99`                                            |
-| Payments       | Payment ref code                  | `UEPM`                                            |
-| Order statuses | Mark the order as Accepted        | `When it is sent to HubRise`                      |
-| Order statuses | Mark the order as Denied          | `When HubRise status changes to "Rejected"`       |
-| Order statuses | Mark the order as Cancelled       | `When HubRise status changes to "Cancelled"`      |
+| Section        | Name                              | Ref code or value                                    |
+|----------------|-----------------------------------|------------------------------------------------------|
+| Service types  | Uber delivery ref code            | `UEAP`                                               |
+| Service types  | Restaurant delivery ref code (\*) | `UENDAP`                                             |
+| Service types  | Takeaway ref code                 | `UEPUAP`                                             |
+| Service types  | Eat-in ref code                   | `UEDIAP`                                             |
+| Special items  | Disposable items ref code         | Create a product in Lightspeed and use its **Code**. |
+| Discounts      | Discount ref code                 | `UE99`                                               |
+| Payments       | Payment ref code                  | `UEPM`                                               |
+| Order statuses | Mark the order as Accepted        | `When it is sent to HubRise`                         |
+| Order statuses | Mark the order as Denied          | `When HubRise status changes to "Rejected"`          |
+| Order statuses | Mark the order as Cancelled       | `When HubRise status changes to "Cancelled"`         |
 
 (\*) BYOC - Bring Your Own Courier
 
 ---
 
-**IMPORTANT NOTE:** Product-level comments are not supported on iKentoo. Therefore, if your customers include product-level comments in an order, you will not be able to see them. To prevent this, product-level comments are automatically disabled on your Uber Eats store when you connect it to HubRise.
+**IMPORTANT NOTE:** Product-level comments are not supported in Lightspeed K Series. Therefore, if your customers include product-level comments in an order, you will not be able to see them. To prevent this, product-level comments are automatically disabled on your Uber Eats store when you connect it to HubRise.
 
 If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
 
@@ -67,7 +73,7 @@ If you rely on these comments for cooking or serving instructions (for example, 
 
 ## Just Eat
 
-To receive Just Eat orders in iKentoo, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription.
+To receive Just Eat orders in Lightspeed, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription.
 
 To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page.
 
@@ -83,7 +89,7 @@ To correctly receive your orders, specify the following values in the Just Eat F
 
 ## Takeaway.com
 
-To receive Takeaway.com orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+To receive Takeaway.com orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
@@ -100,7 +106,7 @@ To correctly receive your orders, specify the following values in the Just Eat T
 
 ## Thuisbezorgd.nl
 
-To receive Thuisbezorgd.nl orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+To receive Thuisbezorgd.nl orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
@@ -117,7 +123,7 @@ To correctly receive your orders, specify the following values in the Just Eat T
 
 ## Eat.ch
 
-To receive Eat.ch orders in iKentoo, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+To receive Eat.ch orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
