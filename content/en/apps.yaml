@@ -349,7 +349,7 @@ content:
           title: MailChimp
           description: MailChimp all‑in‑one marketing platform from which customised emails, newsletters and SMS can be sent.
         - website: https://sailplay.com
-          documentation:
+          documentation: /apps/sailplay
           logo: sailplay.png
           title: SailPlay
           description: SailPlay is a marketing automation platform that helps retailers to build loyalty programs and set mass and triggered email campaigns.

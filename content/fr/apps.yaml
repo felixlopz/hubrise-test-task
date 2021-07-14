@@ -360,7 +360,7 @@ content:
           description: MailChimp est une solution d'envoi d'e-mails, de newsletters personnalisés et de SMS.
           additional_info:
         - website: https://sailplay.com
-          documentation:
+          documentation: /apps/sailplay
           logo: sailplay.png
           title: SailPlay
           description: SailPlay est une plateforme utilisée pour l'automatisation des campagnes d'e-mailing. Elle permet de mieux connaître ses clients afin de les fidéliser.
