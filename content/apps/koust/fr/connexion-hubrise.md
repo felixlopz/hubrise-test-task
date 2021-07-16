@@ -41,7 +41,7 @@ Il est conseillé de donner au support de Koust l'accès à votre compte HubRise
 1. Depuis votre espace HubRise, sélectionnez **CONFIGURATION** > **COMPTES** dans le menu de gauche. La liste de vos comptes s'affiche.
 1. Sélectionnez le compte auquel votre point de vente est rattaché.
 1. Dans la section **Points de vente**, sélectionnez votre point de vente.
-1. Dans la section **Permissions**, ajoutez *contact@koust.fr* en sélectionnant l'option **Manager** (et non **Admin**) dans la liste déroulante des rôles, puis cliquez sur l'icône *+*. L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente, le partage de mot de passe est déconseillé pour des raisons de sécurité.
+1. Dans la section **Permissions**, ajoutez *contact@koust.fr* en sélectionnant l'option **Manager** (et non **Admin**) dans la liste déroulante des rôles, puis cliquez sur l'icône _+_. L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente, le partage de mot de passe est déconseillé pour des raisons de sécurité.
 
 ## Se déconnecter
 

@@ -51,7 +51,7 @@ const Link = ({
     if (newTab && !to.startsWith(`#`)) {
       newTabProps = {
         target: `_blank`,
-        rel: `noopener noreferrer`
+        rel: `noopener`
       }
     }
 

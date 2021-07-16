@@ -10,7 +10,7 @@ path_override: /
 app_info:
   category: Gestion et Inventaire
   availability: France
-  price_range: 29-109€ / mois
+  price_range: de 29 à 109 € / mois
   website: https://koust.net
   contact: https://koust.net/contact / contact@koust.fr / +33 2 44 84 43 88
 ---

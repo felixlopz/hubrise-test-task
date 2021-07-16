@@ -20,7 +20,7 @@ Pour accepter, suivez les étapes suivantes :
 
 1. Dans la colonne **ACTION**, cliquez sur le bouton d'acceptation en forme de coche.
 1. Sélectionnez un véhicule et un mode de paiement dans la modale qui s'affiche :
-![Interface utilisateur - Accepter une course](../images/008-fr-accepter-course.png)
+   ![Interface utilisateur - Accepter une course](../images/008-fr-accepter-course.png)
 1. Cliquez sur **Confirmer**.
 
 Pour refuser :

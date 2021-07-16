@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-position: 5
+position: 6
 layout: documentation
 meta:
   title: Troubleshooting | MyOrderBox | HubRise
@@ -9,7 +9,7 @@ meta:
 
 ## What does "Item may be missing" on receipts mean?
 
-If a product or option ref code is missing or not recognised on an order MyOrderBox pulled from HubRise, the following note is included at the bottom of the order receipt.
+If a product or option ref code is missing or not recognised on an order that HubRise sends to MyOrderBox, the following note is included at the bottom of the order receipt.
 
 ![Invalid ref code in MyOrderBox receipt](../images/001-invalid-ref-code.png)
 
