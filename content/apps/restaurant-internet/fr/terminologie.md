@@ -9,8 +9,8 @@ meta:
 
 HubRise et Restaurant-internet utilisent chacun leur propre terminologie. Un même concept peut donc avoir une désignation différente dans chaque solution. La table de correspondance ci-dessous indique ces différences.
 
-| Restaurant-internet  | HubRise             | Description                              |
-| -------------------- | ------------------- | ---------------------------------------- |
-| Carte                | Catalogue           | Catalogue des produits.                  |
-| Type                 | Catégorie           | Catégorie du produit.                    |
-| Taille               | SKU                 | Variante de produit.                     |
+| Restaurant-internet | HubRise   | Description             |
+| ------------------- | --------- | ----------------------- |
+| Carte               | Catalogue | Catalogue des produits. |
+| Type                | Catégorie | Catégorie du produit.   |
+| Taille              | SKU       | Variante de produit.    |

@@ -36,8 +36,8 @@ Pour retrouver le code ref d'un produit :
 
 ## SKU
 
-Une SKU (*Stock Keeping Unit*) dans HubRise est un produit Restaurant-internet dans une taille donnée. Pour retrouver leur code ref, suivez tout d'abord les mêmes étapes que dans la section [Produits](/apps/restaurant-internet/associer-codes-ref#produits). Puis sur la même page, dans la partie **Tailles**, vous pouvez retrouver les valeurs de ces codes ref dans les champs appelés **Code réf de la taille (facultatif)*N***, N étant le numéro de la taille. Le nombre de tailles par produit est limité à 5.
-   ![Associer les codes ref - Codes ref tailles](../images/012-fr-restaurant-internet-tailles.png)
+Une SKU (_Stock Keeping Unit_) dans HubRise est un produit Restaurant-internet dans une taille donnée. Pour retrouver leur code ref, suivez tout d'abord les mêmes étapes que dans la section [Produits](/apps/restaurant-internet/associer-codes-ref#produits). Puis sur la même page, dans la partie **Tailles**, vous pouvez retrouver les valeurs de ces codes ref dans les champs appelés **Code réf de la taille (facultatif)_N_**, N étant le numéro de la taille. Le nombre de tailles par produit est limité à 5.
+![Associer les codes ref - Codes ref tailles](../images/012-fr-restaurant-internet-tailles.png)
 
 ## Options
 
@@ -48,14 +48,14 @@ Restaurant-internet supporte les options à choix unique et à choix multiple.
 Pour retrouver le code ref d'une option à choix unique, suivez tout d'abord les mêmes étapes que dans la section [Produits](/apps/restaurant-internet/associer-codes-ref#produits). Puis sur la même page, dans la partie **Options**, vous pouvez retrouver les valeurs de ces codes dans les différents champs.
 
 Dans l'exemple suivant, le produit est disponible en 3 tailles, chaque choix possible pour l'option **Sauce** est donc composé de 3 codes ref différents. Pour le choix de la sauce pimentée, les codes ref **piment|sm**, **piment|md**, et **piment|lg** correspondent respectivement aux 3 tailles du produit : **petite**, **moyenne**, et **grande**.
-   ![Associer les codes ref - Codes ref option à choix unique](../images/013-fr-restaurant-internet-option-choix-simple.png)
+![Associer les codes ref - Codes ref option à choix unique](../images/013-fr-restaurant-internet-option-choix-simple.png)
 
 ### Choix multiple
 
 Pour retrouver le code ref d'une option à choix multiple, suivez tout d'abord les mêmes étapes que dans la section [Produits](/apps/restaurant-internet/associer-codes-ref#produits). Puis sur la même page, dans la partie **Options**, vous pouvez retrouver les valeurs de ces codes dans les différents champs.
 
 Dans l'exemple suivant, le produit est disponible en 3 tailles, chaque choix possible pour l'option **Suppléments** est donc composé de 3 codes ref différents. Pour le choix du tofu, les codes ref **tofu|sm**, **tofu|md**, et **tofu|lg** correspondent respectivement aux 3 tailles du produit : **petite**, **moyenne**, et **grande**.
-   ![Associer les codes ref - Codes ref option à choix multiple](../images/014-fr-restaurant-internet-option-choix-multiple.png)
+![Associer les codes ref - Codes ref option à choix multiple](../images/014-fr-restaurant-internet-option-choix-multiple.png)
 
 ## Remises et promotions
 

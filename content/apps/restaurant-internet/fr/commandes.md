@@ -12,7 +12,7 @@ Après avoir importé votre catalogue HubRise, il est possible de passer des com
 ## Envoyer les commandes
 
 Pour accéder à la liste des commandes passées sur votre site internet mis à disposition par Restaurant-internet, dans la barre de menu principale, sélectionnez **Commandes**.
-   ![Commandes - Liste des commandes](../images/018-fr-restaurant-internet-liste-commandes.png)
+![Commandes - Liste des commandes](../images/018-fr-restaurant-internet-liste-commandes.png)
 
 Depuis cette page, vous pouvez accepter ou rejeter une commande en attente. Une fois acceptée, vous pouvez annuler ou clôturer la commande.
 
