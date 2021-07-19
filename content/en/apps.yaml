@@ -24,8 +24,8 @@ content:
           documentation: /apps/carre-pos
           logo: carrepos.png
           title: Carré POS
-          description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
-          additional_info:
+          description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
+          additional_info: Documentation in French.
         - website: https://www.epostechnologies.co.uk/
           documentation: /apps/epos-technologies
           logo: epostechnologies.png
