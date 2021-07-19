@@ -19,13 +19,11 @@ app_info:
 
 ## Description
 
-LEO2 est un logiciel de caisse sous Windows développé par la société Atoo. Il est utilisé en dans de nombreux domaines, tels que la restauration, la boulangerie, ou encore la coiffure.
+LEO2 est un logiciel de caisse sous Windows développé par la société Atoo, disponible en français et en anglais. Il est utilisé dans de nombreux domaines, tels que la restauration, la boulangerie, ou encore la coiffure.
 
 LEO2 permet la gestion du multi-sites, le suivi des stocks, la consultation de statistiques, ou encore la gestion de la fidélité client.
 
 LEO2 peut communiquer avec des périphériques spécialisés, tels que des doseurs électroniques, des balances, des monnayeurs, ou encore des écrans de production.
-
-LEO2 est disponible en français et en anglais.
 
 LEO2 est certifié NF525, et donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
 

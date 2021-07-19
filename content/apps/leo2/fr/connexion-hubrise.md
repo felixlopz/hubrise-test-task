@@ -7,16 +7,17 @@ meta:
   description: Étapes pour établir une connexion entre LEO2 et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
+---
+
+**REMARQUE IMPORTANTE :** Si vous ne possédez pas encore de compte HubRise, commencez par en ouvrir un sur la [page d'inscription à HubRise](https://manager.hubrise.com/signup). L'inscription ne prend que quelques minutes !
+
+---
+
 ## Connecter LEO2
-
----
-
-**REMARQUE IMPORTANTE :** Pour connecter LEO2 à HubRise, vous devez activer le module Vente Externe auprès de la société Atoo.
-
----
 
 Pour connecter votre solution d'encaissement LEO2 à HubRise, suivez les étapes suivantes :
 
+1. Vérifiez que le module **Vente Externe** est activé. Pour plus d'informations, contactez l'éditeur.
 1. Depuis l'écran d'accueil de LEO2, cliquez sur **Gestion**.
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
    ![Connexion - Écran de gestion](../images/002-fr-leo2-menu-gestion.png)
@@ -33,12 +34,6 @@ Pour connecter votre solution d'encaissement LEO2 à HubRise, suivez les étapes
    ![Connexion - HubRise connecté](../images/004-fr-leo2-hubrise-connecte.png)
 1. Cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel LEO2 peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/leo2/connexion-hubrise#donner-acc-s-au-support-de-leo2).
-
----
-
-**REMARQUE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour finaliser la connexion. Pour créer votre compte HubRise, consultez notre [Guide de prise en main](/docs/getting-started/).
-
----
 
 ## Donner accès au support de LEO2
 
