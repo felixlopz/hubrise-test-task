@@ -3,8 +3,8 @@ title: Associer les codes ref
 position: 4
 layout: documentation
 meta:
-  title: Associer les codes ref - Koust
-  description: Importer un catalogue depuis HubRise, et retrouver les codes ref des articles.
+  title: Associer les codes ref | Koust | HubRise
+  description: Instructions pour associer les codes ref des produits Koust avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
 Une fois Koust connecté à HubRise, les commandes provenant de HubRise sont importées automatiquement. Pour vous assurer de la bonne synchronisation des articles, suivez les instructions détaillées sur cette page.
@@ -39,7 +39,7 @@ Un produit dans HubRise correspond à un article dans Koust. Pour retrouver le c
 
 ## SKUs
 
-Une SKU (*Stock Keeping Unit*) dans HubRise correspond aussi à un article dans Koust. Par exemple, si un produit dans HubRise comprend 3 SKUs, 3 articles sont créés dans Koust lors de l'import du catalogue.
+Une SKU (_Stock Keeping Unit_) dans HubRise correspond aussi à un article dans Koust. Par exemple, si un produit dans HubRise comprend 3 SKUs, 3 articles sont créés dans Koust lors de l'import du catalogue.
 
 Pour retrouver le code ref d'un article, suivez les mêmes étapes que pour un [produit](/apps/koust/associer-codes-ref#produits).
 

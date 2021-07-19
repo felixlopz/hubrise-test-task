@@ -3,7 +3,7 @@ title: Catalog Management
 position: 4
 layout: documentation
 meta:
-  title:
+  title: Catalog Management | API | HubRise
   description:
 ---
 
@@ -22,9 +22,15 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
   accessLevel="location, account"
 />
 
-#### Example request:
+The response either contains a `location_id` (location level catalog) or an `account_id` (account level catalog) field.
+
+<details>
+
+<summary>Example request</summary>
 
 `GET /catalogs/87yu4`
+
+#### Response:
 
 ```json
 {
@@ -43,7 +49,7 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
 }
 ```
 
-The resource either has a `location_id` (location level catalog) or an `account_id` (account level catalog).
+</details>
 
 ### 1.2. List Catalogs
 
@@ -63,9 +69,22 @@ Return the account-level catalogs of an account:
   accessLevel="account"
 />
 
-#### Example request:
+
+Catalogs returned by the location level form of this request can be either location or account level catalogs:
+
+- For retrieval, this makes no practical difference. Both types of catalogs can be handled in the same way since the URL construction scheme is identical, eg: `/catalogs/:id`.
+
+- For update and delete operations, an account access token is required to modify an account level catalog. A `401` (unauthorized request) error code is returned otherwise.
+
+The `data` field of the catalogs is not returned by this request. To retrieve the actual content of catalogs, use the `/catalogs/:id` endpoint for each catalog.
+
+<details>
+
+<summary>Example request</summary>
 
 `GET /locations/3r4s3-1/catalogs`
+
+#### Response:
 
 ```json
 [
@@ -82,13 +101,7 @@ Return the account-level catalogs of an account:
 ]
 ```
 
-Catalogs returned by the location level form of this request (above example) can be either location or account level catalogs:
-
-- For retrieval, this makes no practical difference. Both types of catalogs can be handled in the same way since the URL construction scheme is identical, eg: `/catalogs/:id`.
-
-- For update and delete operations, an account access token is required to modify an account level catalog. A `401` (unauthorized request) error code is returned otherwise.
-
-The `data` field of the catalogs is not returned by this request. To retrieve the actual content of a catalog, you need to retrieve the catalog individually, using the `/catalogs/:id` resource URL.
+</details>
 
 ### 1.3. Create Catalog
 
@@ -122,7 +135,9 @@ To create an account-level catalog:
 | `data.discounts` <Label type="optional" />    | [Discount](#discounts)[]      | List of discounts.       |
 | `data.charges` <Label type="optional" />      | [Charge](#charges)[]          | List of charges.         |
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `POST /accounts/3r4s3/catalogs`
 
@@ -184,6 +199,8 @@ To create an account-level catalog:
 }
 ```
 
+</details>
+
 ### 1.4. Update Catalog
 
 Update a catalog.
@@ -195,7 +212,9 @@ If the `data` field is passed, the whole catalog content is cleared and recreate
   accessLevel="account"
 />
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `PUT /catalogs/87yu4`
 
@@ -209,7 +228,7 @@ If the `data` field is passed, the whole catalog content is cleared and recreate
 }
 ```
 
-Response:
+#### Response:
 
 ```json
 {
@@ -223,6 +242,8 @@ Response:
 }
 ```
 
+</details>
+
 ### 1.5. Delete Catalog
 
 Delete a catalog and all its content (ie categories, products, ...).
@@ -232,9 +253,13 @@ Delete a catalog and all its content (ie categories, products, ...).
   accessLevel="location, account"
 />
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `DELETE /catalogs/87yu4`
+
+</details>
 
 ## 2. Categories
 
@@ -449,7 +474,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | `name` <Label type="optional" />             | string                                                     | The name of the sku. Skus belonging to a same product must have unique names. One sku per product can have a null name. |
 | `restrictions` <Label type="optional" />     | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the sku to be available.                                         |
 | `price`                                      | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                                                                                   |
-| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Overrides for the price in different contexts, such as a specific service type.                                         |
+| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts, such as a specific service type.                                                 |
 | `option_list_refs` <Label type="optional" /> | string[]                                                   | The refs of the option lists this sku is attached to.                                                                   |
 | `tags` <Label type="optional" />             | string[]                                                   | List of tags.                                                                                                           |
 
@@ -481,17 +506,17 @@ A product contains one or several skus. A sku is always attached to a product.
   accessLevel="location, account"
 />
 
-| Name                                        | Type                                                       | Description                                          |
-| ------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
-| `id`                                        | string                                                     | The id of the sku.                                   |
-| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                  |
-| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                 |
-| `product_id`                                | string                                                     | The id of the sku's parent product.                  |
+| Name                                        | Type                                                       | Description                                                         |
+| ------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| `id`                                        | string                                                     | The id of the sku.                                                  |
+| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                                 |
+| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                                |
+| `product_id`                                | string                                                     | The id of the sku's parent product.                                 |
 | `restrictions` <Label type="optional" />    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
-| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                |
-| `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Overrides for the price in different contexts.      |
-| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to. |
-| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                        |
+| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                               |
+| `price_overrides`                           | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts.                              |
+| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to.                |
+| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                                       |
 
 #### Example request:
 
@@ -653,6 +678,7 @@ Retrieve an option list and the possible choices (options).
 | `ref` <Label type="optional" />     | string                                                     | The ref of the option.                                                                            |
 | `name`                              | string                                                     | The name of the option.                                                                           |
 | `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option. Should be set to `0.00 EUR` (adjust the currency) if the option is free. |
+| `price_overrides`                   | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts, such as a specific service type.                           |
 | `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default. Default is `false`.                                         |
 | `tags` <Label type="optional" />    | string[]                                                   | List of tags.                                                                                     |
 
@@ -663,7 +689,13 @@ Retrieve an option list and the possible choices (options).
   "name": "Blue",
   "ref": "BLU",
   "price": "250.00 EUR",
-  "default": true
+  "price_overrides": [
+    {
+      "start_date": "2020-08-20",
+      "price": "280.00 EUR"
+    }
+  ],
+  "default": false
 }
 ```
 
@@ -674,15 +706,16 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-| Name                                | Type                                                       | Description                           |
-| ----------------------------------- | ---------------------------------------------------------- | ------------------------------------- |
-| `id`                                | string                                                     | The id of the option.                 |
-| `ref` <Label type="optional" />     | string                                                     | The ref of the option.                |
-| `option_list_id`                    | string                                                     | The id of the option list.            |
-| `name`                              | string                                                     | The name of the option.               |
-| `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option.              |
-| `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default. |
-| `tags` <Label type="optional" />    | string[]                                                   | List of tags.                         |
+| Name                                | Type                                                       | Description                            |
+| ----------------------------------- | ---------------------------------------------------------- | -------------------------------------- |
+| `id`                                | string                                                     | The id of the option.                  |
+| `ref` <Label type="optional" />     | string                                                     | The ref of the option.                 |
+| `option_list_id`                    | string                                                     | The id of the option list.             |
+| `name`                              | string                                                     | The name of the option.                |
+| `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option.               |
+| `price_overrides`                   | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts. |
+| `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default.  |
+| `tags` <Label type="optional" />    | string[]                                                   | List of tags.                          |
 
 #### Example request:
 
@@ -1038,9 +1071,10 @@ All the fields above are optional. Fields with a `null` value are ignored. All c
   "max_per_order": "1"
 }
 ```
+
 ## 11. Price Overrides
 
-A `price_overrides` is an array of rules that can be used in [Skus](#skus) to override the price in different contexts.
+A `price_overrides` is an array of rules that can be used in [Skus](#skus) and [Options](#options) to override the price in different contexts.
 
 The structure of a rule is described below.
 
