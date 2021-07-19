@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connect App4 site to HubRise
-  description: Instructions on connecting an App4 online ordering website to HubRise.
+  title: Connection to HubRise | App4 | HubRise
+  description: App4 overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 ---
 
 At this stage you will need to contact the App4 support team and request them to complete the steps below. It is not yet possible for users to complete the connection autonomously.

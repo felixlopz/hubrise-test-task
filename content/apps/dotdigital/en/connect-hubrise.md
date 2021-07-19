@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: dotdigital Connection to HubRise
-  description: Instructions for connecting dotdigital to HubRise
+  title: Connection to HubRise | dotdigital | HubRise
+  description: Instructions on connecting dotdigital with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 Connecting dotdigital to HubRise requires valid credentials to access the dotdigital API.

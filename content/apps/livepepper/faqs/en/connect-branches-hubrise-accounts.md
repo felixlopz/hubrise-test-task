@@ -3,7 +3,7 @@ title: How Do I Connect Multiple LivePepper Branches to HubRise Locations ?
 position: 2
 layout: documentation
 meta:
-  title: Connect LivePepper to HubRise
+  title: Connect Multiple Branches | LivePepper FAQs | HubRise
   description: Connect multiple LivePepper branches to corresponding locations in HubRise.
 ---
 
