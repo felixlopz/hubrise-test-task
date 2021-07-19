@@ -26,7 +26,7 @@ This documentation presents the solution and the procedure to follow to connect 
 
 For the overview page, which is the first visible page of this documentation, you must provide the following elements:
 
-- A description containing 150-300 words (no superlatives) presenting the solution and its features in detail.
+- A description containing 150-250 words (no superlatives) presenting the solution and its features in detail.
 - 2-6 screenshots of the application, all with the same width-height ratio.
 
 The illustration below shows why screenshots must have the same width-height ratio.
@@ -38,13 +38,6 @@ The illustration below shows why screenshots must have the same width-height rat
 > Correct: all the images have the same width-height ratio.
 
 ![Correct image presentation](../images/010-correct-images.png)
-
----
-
-**IMPORTANT NOTE:** We need elements for the **Description** only. No need to send elements for the **Integration Features**, **Why Connect?** or **Prerequisites** sections.
-
----
-
 
 ## Partners Page
 
