@@ -3,18 +3,18 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Connecter Restaurant-internet à HubRise - Présentation générale
-  description: Présentation générale de Restaurant-internet, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  title: Présentation générale | Restaurant-internet | HubRise
+  description: Présentation générale de Restaurant-internet, les raisons de connecter votre solution de commande en ligne à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - 001-fr-restaurant-internet-apercu-prix.png
-  - 002-fr-restaurant-internet-apercu-paiement.png
-  - 003-fr-restaurant-internet-apercu-site.png
-  - 004-fr-restaurant-internet-apercu-plateformes.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 path_override: /
 app_info:
   category: Commande en ligne
   availability: France
-  price_range: 19€-39€/mois
+  price_range: De 19 à 39 €/mois
   website: https://restaurant-internet.com
   contact: contact@restaurant-internet.com / +33 6 25 09 41 44
 ---
@@ -27,19 +27,22 @@ Les restaurateurs peuvent modifier leur carte, ajouter des photos aux produits, 
 
 Restaurant-internet offre de nombreuses fonctionnalités répondant aux spécificités de la restauration, telles que la personnalisation des plats, la configuration du temps de préparation et des quotas horaires pour réguler le nombre de commandes, la modification de l'heure de livraison et des frais de livraison par zone géographique.
 
-Les clients de Restaurant-internet se trouvent en France, c'est pour cette raison qu'il n'est utilisable qu'en français.
-
 ## Fonctionnalités de l'intégration
 
-L'intégration de Restaurant-internet avec HubRise permet de :
+Connecter Restaurant-internet à HubRise permet à votre solution de commande en ligne de :
 
-- Recevoir le catalogue HubRise dans Restaurant-internet.
-- Envoyer les commandes et les informations client Restaurant-internet vers HubRise.
+- Envoyer les commandes à HubRise, dont les statuts de commande.
+- Envoyer les informations clients à HubRise.
+- Recevoir un catalogue de HubRise.
+
+Restaurant-internet peut être connecté à HubRise depuis le back-office de Restaurant-internet.
 
 ## Pourquoi se connecter ?
 
-En connectant Restaurant-internet à HubRise, vous enverrez les commandes faites sur votre site internet vers votre logiciel de caisse. Vous pourrez également connecter les applications intégrées à HubRise que vous utilisez de manière quotidienne. Pour voir les applications que vous pouvez connecter, consultez la page [Apps](/apps).
+En connectant Restaurant-internet à HubRise, vous permettez à votre solution de commande en ligne de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre solution d'encaissement, une imprimante connectée, un écran cuisine, ou votre système de gestion de stock. Importez le catalogue produit de votre solution d'encaissement dans Restaurant-internet.
+
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
-Pour établir la connexion entre Restaurant-internet et HubRise, vous devez disposer d'un compte Restaurant-internet et d'un compte HubRise.
+Pour établir la connexion entre Restaurant-internet et HubRise, vous devez disposer d'un compte Restaurant-internet.
