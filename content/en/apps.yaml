@@ -20,7 +20,7 @@ content:
           logo: 3spos.png
           title: 3S POS
           description: 3S POS offers a complete EPOS suite for all types of hospitality businesses. Suitable for single and multi-store businesses and feature-rich, 3S POS can be customised to fit specific business and operational requirements.
-        - website: https://www.carrepos-online.fr/f
+        - website: https://www.carrepos-online.fr/
           documentation: /apps/carre-pos
           logo: carrepos.png
           title: Carré POS
