@@ -379,6 +379,7 @@ content:
           logo: expedy-print.png
           title: Expedy Print
           description: Expedy Print is used to automate printing of orders received from e-commerce websites or any other web application to one or more printers simultaneously. Connection can be done by ETHERNET, 4G, Wifi or USB.
+          additional_info: Documentation in French.
         - website:
           documentation: /apps/orderline
           logo: orderline.png

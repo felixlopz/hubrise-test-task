@@ -16,12 +16,6 @@ app_info:
   contact: commercial@expedy.fr
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-
----
-
 ## Description
 
 Expedy propose des imprimantes thermiques intelligentes aux restaurateurs et aux commerces de proximité.
