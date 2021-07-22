@@ -1,5 +1,5 @@
 ---
-title: Create Ref Codes
+title: How Do I Create Ref Codes In Lightspeed?
 position: 5
 layout: documentation
 meta:
@@ -24,6 +24,14 @@ Service types are called _account profiles_ on Lightspeed. To create a service t
 1. In the **Base options** section, specify the ref code for your service type in the **Code** field.
 1. Fill in the other sections in the page as needed, then click **Save**.
 1. Repeat the process for all the service types you support for each delivery platform.
+
+The following account profile codes are typically used, but may vary depending on the specific Lightspeed setup:
+
+- `PICKUP`, for takeaway orders.
+- `DELIVERY`, for delivery orders.
+- `LOCAL`, for eat-in orders.
+
+Other specific service type ref codes must be used when you connect Lightspeed K Series to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Food Ordering Platforms](/apps/ikentoo-lightspeed/food-ordering-platforms).
 
 ## Discounts
 

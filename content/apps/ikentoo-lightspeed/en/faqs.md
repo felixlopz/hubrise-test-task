@@ -1,6 +1,6 @@
 ---
 title: FAQs
-position: 8
+position: 12
 layout: documentation
 meta:
   title: FAQs | Lightspeed K Series | HubRise
@@ -9,3 +9,4 @@ meta:
 
 - <Link to="/apps/ikentoo-lightspeed/faqs/troubleshooting-failed-orders/">Why Are Some Orders Not Received Correctly in Lightspeed K Series?</Link>
 - <Link to="/apps/ikentoo-lightspeed/faqs/migrating-from-deliverect/">I Just Migrated from Deliverect. What Should I Do To Receive Orders?</Link>
+- <Link to="/apps/ikentoo-lightspeed/faqs/create-ref-codes/">How Do I Create Ref Codes In Lightspeed?</Link>
