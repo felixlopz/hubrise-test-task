@@ -3,8 +3,8 @@ title: Pushing The Catalog
 position: 9
 layout: documentation
 meta:
-  title: Pushing The Catalog | Lightspeed Restaurant K Series | HubRise
-  description: Find out how to push the catalog from your Lightspeed Restaurant K Series EPOS to HubRise, what information is sent to HubRise and what is not.
+  title: Pushing The Catalog | Lightspeed Restaurant (K Series) | HubRise
+  description: Find out how to push the catalog from your Lightspeed Restaurant (K Series) EPOS to HubRise, what information is sent to HubRise and what is not.
 ---
 
 This page describes how to export your Lightspeed catalog and what information is sent to HubRise.

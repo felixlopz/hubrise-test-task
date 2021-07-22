@@ -1,6 +1,6 @@
 ---
 title: Terminology
-position: 7
+position: 11
 layout: documentation
 meta:
   title: Terminology | Lightspeed K Series | HubRise

@@ -1,10 +1,10 @@
 ---
-title: Why Are Some Orders Not Received Correctly in Lightspeed K Series?
+title: Why Are Some Orders Not Received Correctly in Lightspeed Restaurant (K Series)?
 position: 1
 layout: documentation
 meta:
-  title: Troubleshooting Orders | Lightspeed K Series | HubRise
-  description: Typical reasons why orders are not correctly sent to Lightspeed K Series, some troubleshooting strategies and how to fix the issues.
+  title: Troubleshooting Orders | Lightspeed Restaurant (K Series) | HubRise
+  description: Typical reasons why orders are not correctly sent to Lightspeed Restaurant (K Series), some troubleshooting strategies and how to fix the issues.
 ---
 
 ---
@@ -13,11 +13,11 @@ meta:
 
 ---
 
-There might be different reasons why an order is not successfully transferred to your Lightspeed K Series EPOS. In this page, we discuss some of the typical cases.
+There might be different reasons why an order is not successfully transferred to your Lightspeed Restaurant (K Series) EPOS. In this page, we discuss some of the typical cases.
 
 ## Incorrect Ref Codes
 
-If you receive orders from a connected app, for example a food delivery platform, you need to make sure that ref codes are properly configured there. An incorrect ref code in your food delivery platform menu can cause a whole order to be rejected by the Lightspeed K Series EPOS.
+If you receive orders from a connected app, for example a food delivery platform, you need to make sure that ref codes are properly configured there. An incorrect ref code in your food delivery platform menu can cause a whole order to be rejected by the Lightspeed Restaurant (K Series) EPOS.
 
 To troubleshoot an incorrect ref code in an order, you can look at the logs for iKentoo Bridge:
 
@@ -31,8 +31,8 @@ If you recently migrated from Deliverect to HubRise, some ref codes in your onli
 
 ## API Activation in the Tablet
 
-To connect with Lightspeed K Series, the Lightspeed API needs to be activated. You can simply contact Lightspeed support and request the activation.
-If you plan to connect Lightspeed K Series to food delivery platforms like Deliveroo, Uber Eats, and Just Eat, it is best to specify the platforms you will be connecting with. Lightspeed support will prepare the settings to receive this type of orders, too.
+To connect with Lightspeed Restaurant (K Series), the Lightspeed API needs to be activated. You can simply contact Lightspeed support and request the activation.
+If you plan to connect Lightspeed Restaurant (K Series) to food delivery platforms like Deliveroo, Uber Eats, and Just Eat, it is best to specify the platforms you will be connecting with. Lightspeed support will prepare the settings to receive this type of orders, too.
 
 If after this configuration you are still not able to receive orders in your tablet, you should check if the API connection is enabled on your tablet. On the main screen of the Lightspeed app, if you see a green pencil icon <InlineImage width="28" height="28">![Green pencil icon](../../images/011-ikentoo-api-icon.png)</InlineImage> at the top, then your API connection is activated. If that icon is not green, you can simply tap on it and tap the **Enable** button to activate the API.
 

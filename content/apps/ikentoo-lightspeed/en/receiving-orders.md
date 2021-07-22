@@ -3,27 +3,27 @@ title: Receiving Orders
 position: 7
 layout: documentation
 meta:
-  title: Receiving Orders | Lightspeed K Series | HubRise
+  title: Receiving Orders | Lightspeed Restaurant (K Series) | HubRise
   description: Find out the technical details of how orders are sent to Lightspeed from HubRise, which fields are passed and which are not.
 ---
 
 ---
 
-**IMPORTANT NOTE**: Lightspeed K Series was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
+**IMPORTANT NOTE**: Lightspeed Restaurant (K Series) was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
 
 ---
 
-Connecting Lightspeed K Series to HubRise allows you to receive orders from different connected solutions directly in your EPOS. As soon as you connect iKentoo Bridge, HubRise orders will be sent to your Lightspeed K Series EPOS, without any additional setup required.
+Connecting Lightspeed Restaurant (K Series) to HubRise allows you to receive orders from different connected solutions directly in your EPOS. As soon as you connect iKentoo Bridge, HubRise orders will be sent to your Lightspeed Restaurant (K Series) EPOS, without any additional setup required.
 
 This page explains what information iKentoo Bridge sends to your EPOS.
 
 ## Items and Options
 
-Lightspeed K Series can receive the complete information about items and options, including name, EPOS ref code, quantity, and price.
+Lightspeed Restaurant (K Series) can receive the complete information about items and options, including name, EPOS ref code, quantity, and price.
 
 ### Missing or Incorrect Ref Codes
 
-Every item on Lightspeed must have a ref code. Orders containing items with incorrect or missing ref codes are rejected by Lightspeed K Series. 
+Every item on Lightspeed must have a ref code. Orders containing items with incorrect or missing ref codes are rejected by Lightspeed Restaurant (K Series). 
 
 For this reason, when sending an order to the EPOS, iKentoo Bridge skips all items without a ref code.
 
@@ -48,7 +48,7 @@ When the total payment amount does not match the total price for the order as ca
 
 ## Service Types
 
-Lightspeed K Series requires each service type (delivery, collection, eat-in) to be defined as an account profile.
+Lightspeed Restaurant (K Series) requires each service type (delivery, collection, eat-in) to be defined as an account profile.
 
 The ref code of the service type is used to map the HubRise order to the correct account profile on Lightspeed.
 

@@ -3,17 +3,17 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: User Interface | Lightspeed K Series | HubRise
+  title: User Interface | Lightspeed Restaurant (K Series) | HubRise
   description: Instructions on how to navigate through the iKentoo Bridge user interface. Connect apps and synchronise your data.
 ---
 
 ---
 
-**IMPORTANT NOTE:** Lightspeed K Series was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
+**IMPORTANT NOTE:** Lightspeed Restaurant (K Series) was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
 
 ---
 
-The user interface for iKentoo Bridge provides basic diagnostic information about your connection with Lightspeed K Series.
+The user interface for iKentoo Bridge provides basic diagnostic information about your connection with Lightspeed Restaurant (K Series).
 It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
 
 ## Main Page
@@ -37,7 +37,7 @@ On the top right corner of the iKentoo Bridge main page, the HubRise user and lo
 
 ## Operation Page
 
-Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the Lightspeed K Series EPOS via iKentoo Bridge.
+Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the Lightspeed Restaurant (K Series) EPOS via iKentoo Bridge.
 
 Requests are ordered with the latest on top, and each of them displays the following information:
 

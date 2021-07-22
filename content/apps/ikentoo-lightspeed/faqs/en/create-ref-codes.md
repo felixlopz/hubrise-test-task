@@ -3,8 +3,8 @@ title: How Do I Create Ref Codes In Lightspeed?
 position: 5
 layout: documentation
 meta:
-  title: Create Ref Codes | Lightspeed K Series | HubRise
-  description: Instructions to create Lightspeed K Series ref codes needed for your EPOS to work with other connected apps, like online ordering platforms.
+  title: Create Ref Codes | Lightspeed Restaurant (K Series) | HubRise
+  description: Instructions to create Lightspeed Restaurant (K Series) ref codes needed for your EPOS to work with other connected apps, like online ordering platforms.
 ---
 
 If you connect Lightspeed to delivery platforms such as Deliveroo, Uber Eats, and Just Eat, you need to create special service types, payments, charges, and discounts for every delivery platform you support.
@@ -31,7 +31,7 @@ The following account profile codes are typically used, but may vary depending o
 - `DELIVERY`, for delivery orders.
 - `LOCAL`, for eat-in orders.
 
-Other specific service type ref codes must be used when you connect Lightspeed K Series to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Food Ordering Platforms](/apps/ikentoo-lightspeed/food-ordering-platforms).
+Other specific service type ref codes must be used when you connect Lightspeed Restaurant (K Series) to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Food Ordering Platforms](/apps/ikentoo-lightspeed/food-ordering-platforms).
 
 ## Discounts
 

@@ -3,13 +3,13 @@ title: Sending Local Orders
 position: 8
 layout: documentation
 meta:
-  title: Sending Local Orders | Lightspeed Restaurant K Series | HubRise
+  title: Sending Local Orders | Lightspeed Restaurant (K Series) | HubRise
   description: Find out the technical details of how local orders are sent from Lightspeed to HubRise, which fields are passed and which are not.
 ---
 
 ---
 
-**IMPORTANT NOTE**: Lightspeed K Series was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
+**IMPORTANT NOTE**: Lightspeed Restaurant (K Series) was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
 
 ---
 

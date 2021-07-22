@@ -3,13 +3,13 @@ title: Map Ref Codes
 position: 4
 layout: documentation
 meta:
-  title: Map Ref Codes | Lightspeed K Series | HubRise
-  description: Instructions on mapping Lightspeed K Series product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
+  title: Map Ref Codes | Lightspeed Restaurant (K Series) | HubRise
+  description: Instructions on mapping Lightspeed Restaurant (K Series) product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 ---
 
-**IMPORTANT NOTE:** Lightspeed K Series was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
+**IMPORTANT NOTE:** Lightspeed Restaurant (K Series) was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
 
 ---
 
@@ -69,7 +69,7 @@ To find the ref code for a specific discount, follow these steps.
 
 ### Payment Methods
 
-To create a payment method for a delivery platform, follow these steps.
+To find the ref code for a payment method, follow these steps.
 
 1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Payment methods**.
-1. For each payment method available under the **Name** column, you can find the corresponding ref code under the **Code** column.
+2. For each payment method available under the **Name** column, you can find the corresponding ref code under the **Code** column.
