@@ -9,7 +9,7 @@ meta:
 
 ---
 
-**IMPORTANT NOTE:** Lightspeed K Series was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
+**IMPORTANT NOTE:** Lightspeed Restaurant (K Series) was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
 
 ---
 
@@ -23,7 +23,7 @@ By convention, Lightspeed support team uses these predefined codes when they set
 
 ---
 
-For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes for Delivery Platforms](/apps/ikentoo-lightspeed/map-ref-codes/#creating-ref-codes-for-delivery-platforms).
+For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes](/apps/ikentoo-lightspeed/faqs/create-ref-codes).
 
 ## Deliveroo
 
