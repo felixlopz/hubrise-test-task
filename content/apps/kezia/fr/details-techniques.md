@@ -3,8 +3,8 @@ title: Informations techniques
 position: 7
 layout: documentation
 meta:
-  title: Connecter Kezia II à HubRise - Informations techniques
-  description: Informations techniques concernant l'intégration de Kezia II à HubRise. Connectez vos apps et synchronisez vos données.
+  title: Informations techniques | Kezia II | HubRise
+  description: Informations techniques concernant l'intégration de Kezia II à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
 ## Réception des commandes

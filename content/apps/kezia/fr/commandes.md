@@ -3,7 +3,7 @@ title: Commandes
 position: 4
 layout: documentation
 meta:
-  title: Connecter Kezia II à HubRise - Commandes
+  title: Commandes | Kezia II | HubRise
   description: Réceptionner et modifier le statut des commandes HubRise reçues dans Kezia II. Connectez vos apps et synchronisez vos données.
 ---
 

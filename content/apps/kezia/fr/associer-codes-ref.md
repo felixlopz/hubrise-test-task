@@ -3,23 +3,24 @@ title: Associer les codes ref
 position: 3
 layout: documentation
 meta:
-  title: Connecter Kezia II à HubRise - Associer les codes ref
+  title: Associer les codes ref | Kezia II | HubRise
   description: Instructions pour associer les codes ref des produits Kezia II avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
-Une fois votre logiciel de caisse Kezia II connecté à HubRise, une dernière étape de configuration est nécessaire. Les différents éléments présents dans Kezia II sont identifiés par des codes ref. Vous devez indiquer ces codes ref dans les applications connectées à HubRise, afin que les commandes puissent être réceptionnées dans Kezia II.
+Une fois votre logiciel de caisse Kezia II connecté à HubRise, vous devez configurer vos autres applications connectées, afin que les différents éléments présents dans les commandes soient bien identifiés par Kezia II.
+
+Kezia II identifie chaque élément d'une commande par un code ref. Vous devez indiquer les codes ref fournis par Kezia II dans vos autres applications, afin que les commandes puissent être réceptionnées.
 
 Il y a deux façons de procéder :
-- Exporter le catalogue Kezia II vers HubRise, puis importer ce catalogue dans les applications connectées qui le permettent.
-- Saisir manuellement les codes ref.
 
-Ces deux méthodes sont parfois complémentaires. Seules certaines applications connectées permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
+- Vous pouvez exporter le catalogue Kezia II vers HubRise, puis importer ce catalogue dans vos autres applications.
+- Ou vous pouvez saisir manuellement les codes ref dans vos autres applications.
 
-Cette page explique comment exporter un catalogue et trouver les codes ref depuis Kezia II. Pour plus d'informations sur l'import d'un catalogue et la saisie des codes ref dans une application connectée, référez-vous à la documentation de l'application sur le site de HubRise.
+Seules certaines applications permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
 
 ## Exporter le catalogue
 
-Lors de la première connexion, vous devez exporter votre catalogue manuellement vers HubRise en suivant les étapes suivantes :
+Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivantes :
 
 1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
    ![Associer les codes ref - Ouverture caisse](../images/011-fr-jdc-ouverture-caisse.png)
@@ -32,6 +33,8 @@ Lors de la première connexion, vous devez exporter votre catalogue manuellement
 1. Dans l'onglet **E/S**, sélectionnez **Envoi Articles sur HubRise**.
 
 Les informations client et les commandes sont envoyées automatiquement. En cas de problème avec la synchronisation automatique, vous pouvez vous rendre dans cet onglet pour faire ces exports manuellement.
+
+Vous devez maintenant importer le catalogue HubRise dans vos autres applications connectées à HubRise. Pour effectuer cette opération, référez-vous à la documentation de ces applications sur le site de HubRise.
 
 Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systématiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
 

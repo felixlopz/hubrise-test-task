@@ -3,7 +3,7 @@ title: F.A.Q.
 position: 6
 layout: documentation
 meta:
-  title: Connecter Kezia II à HubRise - F.A.Q.
+  title: F.A.Q. | Kezia II | HubRise
   description: Questions fréquentes posées sur la connexion de Kezia II à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
