@@ -3,9 +3,19 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Connect Kezia II to HubRise - Overview
+  title: Overview | Kezia II | HubRise
   description: Kezia II overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
+app_info:
+  category: Point of Sales
+  availability: France
+  price_range:
+  website: https://www.jdc.fr/caisse-enregistreuse/logiciel-de-caisse
+  contact: licencekezia@jdc.fr
 ---
 
-This documentation is [available in French only](/fr/apps/nestor).
+---
+
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/kezia" addLocalePrefix={false}>in French only</Link>.
+
+---

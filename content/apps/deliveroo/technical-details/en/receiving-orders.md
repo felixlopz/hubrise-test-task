@@ -3,7 +3,7 @@ title: Receiving Orders
 position: 1
 layout: documentation
 meta:
-  title: Receiving Orders - Deliveroo
+  title: Receiving Orders | Deliveroo Technical Details | HubRise
   description: Find out the technical details of how orders are sent from Deliveroo to HubRise, which fields are passed and which are not.
 ---
 

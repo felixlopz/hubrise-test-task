@@ -3,7 +3,7 @@ title: Getting Started
 position: 2
 layout: documentation
 meta:
-  title: HubRise Getting Started
+  title: Getting Started | HubRise
   description: Instructions on starting with LivePepper and HubRise connection.
 ---
 

@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: foodpanda Connection to HubRise - Instructions
-  description: See how to connect your foodpanda online store to HubRise. Connection is simple. Send the link of your foodpanda page to HubRise and follow a few steps to connect.
+  title: Connection to HubRise | foodpanda | HubRise
+  description: Instructions on connecting foodpanda with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 Connecting foodpanda to HubRise can be done with a few simple steps.

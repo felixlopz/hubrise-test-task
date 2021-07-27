@@ -1,10 +1,10 @@
 ---
-title: Integrate With Food Delivery Platforms
+title: Food Delivery Platforms
 position: 5
 layout: documentation
 meta:
-  title: Integrate With Food Delivery Platforms - PixelPoint Windows API
-  description: Instructions on how to integrate your PixelPoint EPOS with the main food delivery platforms, including Deliveroo, Uber Eats, and Just Eat.
+  title: Food Delivery Platforms | PixelPoint Windows API | HubRise
+  description: Instructions on how to integrate your PAR PixelPoint EPOS with the main food delivery platforms. Synchronise data between your EPOS and your apps.
 ---
 
 ## Integrating With Deliveroo

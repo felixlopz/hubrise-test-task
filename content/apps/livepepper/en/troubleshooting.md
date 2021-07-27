@@ -1,10 +1,10 @@
 ---
 title: Troubleshooting
-position: 4
+position: 5
 layout: documentation
 meta:
-  title: LivePepper Connection to HubRise Troubleshooting
-  description: Instructions on how resolve connection issues.
+  title: Troubleshooting | LivePepper | HubRise
+  description: Troubleshooting LivePepper connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 ## Verify Product Mapping

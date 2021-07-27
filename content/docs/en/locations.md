@@ -3,7 +3,7 @@ title: Locations
 position: 8
 layout: documentation
 meta:
-  title: HubRise Locations
+  title: Locations | HubRise
   description: How to manage HubRise Locations.
 ---
 

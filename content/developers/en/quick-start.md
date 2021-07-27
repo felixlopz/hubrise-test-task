@@ -3,7 +3,7 @@ title: Quick Start
 position: 1
 layout: documentation
 meta:
-  title: HubRise Quick Start Guide
+  title: Developers Quick Start | HubRise
   description:
 ---
 
@@ -30,7 +30,8 @@ Then, you need to create an OAuth 2.0 client for your application.
 
 - Log in to the [HubRise back office](https://manager.hubrise.com/).
 - Go to **SETTINGS** > **DEVELOPER**, then click on **Create an OAuth 2.0 client**.
-- Enter a name for your application, then click the **Create** button.
+- Enter a name for your client. We recommend using the name of your application.
+- Click the **Create** button.
 
 Download the client secret JSON, which should look like this:
 
