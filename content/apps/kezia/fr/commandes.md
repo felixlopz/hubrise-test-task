@@ -16,16 +16,16 @@ Kezia II vérifie toutes les 30 secondes si de nouvelles commandes ont été env
 Pour voir la liste des commandes web en cours, suivez les étapes suivantes :
 
 1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
-   ![Commandes - Ouverture caisse](../images/011-fr-jdc-ouverture-caisse.png)
 1. Sélectionnez un vendeur.
-   ![Commandes - Alerte commande web](../images/020-fr-jdc-alerte-commande-web.png)
 1. Cliquez sur **Commandes Web**.
-   ![Commandes - Nouvelle commande web](../images/021-fr-jdc-nouvelle-commande-web.png)
 
 ### Détail de la commande
 
-Depuis la liste des commandes web, cliquez sur le bouton en forme de loupe pour consulter le détail d'une commande.
-   ![Commandes - Détail commande web](../images/022-fr-jdc-details-commande-web.png)
+Pour consulter le détail d'une commande :
+
+1. Accédez à la liste des commandes web en suivant les étapes décrites dans la partie [Recevoir des commandes](/apps/kezia/commandes#recevoir-des-commandes).
+1. Sélectionnez la commande désirée.
+1. Cliquez sur **Détails commande**.
 
 ### Gestion de la commande
 
@@ -38,18 +38,11 @@ Le statut de la commande web est mis à jour sur HubRise quelques secondes aprè
 Par défaut, Kezia II n'envoie pas les commandes vers HubRise. Changez la configuration pour que les commandes soient envoyées automatiquement après création :
 
 1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
-   ![Commandes - Ouverture caisse](../images/011-fr-jdc-ouverture-caisse.png)
 1. Sélectionnez un vendeur.
-   ![Commandes - Caisse avec vendeur sélectionné](../images/012-fr-jdc-vendeur-selectionne.png)
-1. Cliquez sur **Paramètres Web**.
-   ![Commandes - Choix de la plateforme](../images/013-fr-jdc-choix-plateforme.png)
-1. Cliquez sur **HubRise**.
-   ![Commandes - Paramètres d'envoi](../images/014-fr-jdc-parametres-envoi.png)
+1. Cliquez sur **Commandes Web**.
+1. Cliquez sur le bouton en forme de roue dentée.
 1. Sélectionnez l'onglet **Personnalisation**.
-   ![Commandes - Personnalisation](../images/024-fr-jdc-parametres-personnalisation.png)
 1. Pour l'option **Envoi des commandes Kezia**, sélectionnez **Client web**.
-   ![Commandes - Option d'envoi des commandes](../images/025-fr-jdc-personnalisation-option-envoi.png)
-1. Cliquez sur **Fermer**.
 
 Pour envoyer une commande vers HubRise, suivez les étapes suivantes :
 

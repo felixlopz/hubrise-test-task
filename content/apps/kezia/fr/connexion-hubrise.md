@@ -9,13 +9,13 @@ meta:
 
 ---
 
-**REMARQUE IMPORTANTE :** Si vous ne possédez pas encore de compte HubRise, commencez par en ouvrir un sur la [page d'inscription à HubRise](https://manager.hubrise.com/signup). L'inscription ne prend que quelques minutes !
-
----
-
----
-
 **REMARQUE IMPORTANTE :** La connexion est faite par le support JDC, cette démarche n'est décrite ici qu'à titre d'information.
+
+---
+
+---
+
+**REMARQUE IMPORTANTE :** Si vous ne possédez pas encore de compte HubRise, commencez par en ouvrir un sur la [page d'inscription à HubRise](https://manager.hubrise.com/signup). L'inscription ne prend que quelques minutes !
 
 ---
 
@@ -32,6 +32,7 @@ Pour établir la connexion entre un point de vente Kezia II et HubRise, vous dev
 1. Copiez le code affiché et collez-le dans la fenêtre prévue à cet effet dans Kezia II.
 1. Cliquez sur **OK**.
 1. Cliquez sur **Enregistrer**.
+1. De nouveau, cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel Kezia II peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/kezia/connect-hubrise#donner-acc-s-au-support-de-kezia-ii).
 
 ## Donner accès au support de Kezia II
@@ -45,10 +46,10 @@ Il est conseillé de donner à l'éditeur du logiciel Kezia II l'accès à votre
 
 ## Configurer les actions de caisse
 
-Afin que vous ayiez accès à la liste des commandes venant de HubRise et aux paramètres de synchronisation avec HubRise, vous devez configurer les actions accessibles depuis la caisse de Kezia II. Pour cela, suivez les étapes suivantes :
+Afin que vous ayiez accès à la liste des commandes venant de HubRise, vous devez configurer les actions accessibles depuis la caisse de Kezia II. Pour cela, suivez les étapes suivantes :
 
 1. Dans la barre de menu, sélectionnez **Fichier** > **Paramètres** > **Commandes Web**.
-1. Dans la section **Paramètres**, pour le paramétrage de **Liste des commandes**, sélectionnez une touche et un libellé. Par exemple, sélectionnez *MCU 1* et entrez le nom *Commandes Web*.
+1. Dans la section **Paramètres**, dans la partie **Liste des commandes**, sélectionnez *MCU 1* pour **Liste des champs** et entrez le nom *Commandes Web* pour **Libellé du champ**.
 1. Cliquez sur **Enregistrer**.
 
 ## Déconnecter Kezia II

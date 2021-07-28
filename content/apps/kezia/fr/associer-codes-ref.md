@@ -23,14 +23,10 @@ Seules certaines applications permettent l'import d'un catalogue depuis HubRise.
 Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivantes :
 
 1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
-   ![Associer les codes ref - Ouverture caisse](../images/011-fr-jdc-ouverture-caisse.png)
 1. Sélectionnez un vendeur.
-   ![Associer les codes ref - Caisse avec vendeur sélectionné](../images/012-fr-jdc-vendeur-selectionne.png)
-1. Cliquez sur **Paramètres Web**.
-   ![Associer les codes ref - Choix de la plateforme](../images/013-fr-jdc-choix-plateforme.png)
-1. Cliquez sur **HubRise**.
-   ![Associer les codes ref - Paramètres d'envoi](../images/014-fr-jdc-parametres-envoi.png)
-1. Dans l'onglet **E/S**, sélectionnez **Envoi Articles sur HubRise**.
+1. Cliquez sur **Commandes Web**.
+1. Cliquez sur le bouton en forme de roue dentée.
+1. Cliquez sur **Envoi Articles sur HubRise**.
 
 Les informations client et les commandes sont envoyées automatiquement. En cas de problème avec la synchronisation automatique, vous pouvez vous rendre dans cet onglet pour faire ces exports manuellement.
 
@@ -42,18 +38,21 @@ Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systé
    ![Associer les codes ref - Sélection article](../images/015-fr-jdc-selection-article.png)
 1. Double-cliquez sur le produit à synchroniser.
    ![Associer les codes ref - Fiche article](../images/016-fr-jdc-fiche-article.png)
-1. Sélectionnez **Menu**.
+1. Cliquez sur **Menu**.
    ![Associer les codes ref - Onglets fiche article](../images/017-fr-jdc-fiche-article-onglets.png)
-1. Sélectionnez **Paramètres**.
+1. Cliquez sur **Paramètres**.
 1. Cochez l'option **Publication WEB**.
    ![Associer les codes ref - Onglets fiche article](../images/018-fr-jdc-fiche-article-publication-web.png)
-1. Sélectionnez **Appliq.**.
+1. Cliquez sur **Appliq.**.
 
 Vous pouvez ensuite exporter de nouveau votre catalogue en suivant les étapes décrites au début de [cette partie](/apps/kezia/associer-codes-ref#exporter-le-catalogue).
 
 ## Produits
 
-Un produit dans HubRise correspond à un article dans Kezia II. Pour en retrouver le code ref, sur l'écran d'accueil, sélectionnez **ARTICLES**. Le code ref de l'article s'affiche dans la colonne **IDART**. Ce code est généré automatiquement lors de la création d'un article et n'est pas modifiable.
+Un produit dans HubRise correspond à un article dans Kezia II. Pour en retrouver le code ref, suivez les étapes suivantes :
+
+1. Sur l'écran d'accueil, sélectionnez **ARTICLES**.
+1. Double-cliquez sur le produit désiré. Le code ref s'affiche en-dessous du titre de la fenêtre **Fiche Article**.
 
 ## SKUs
 
@@ -70,8 +69,8 @@ Une option dans HubRise correspond à un article option dans Kezia II. Pour vér
 
 1. Sur l'écran d'accueil, sélectionnez **ARTICLES**.
 1. Double-cliquez sur le produit désiré.
-1. Sélectionnez **Menu**.
-1. Sélectionnez **Préparation**. La case **Article Option** doit être cochée.
+1. Cliquez sur **Menu**.
+1. Cliquez sur **Préparation**. La case **Article Option** doit être cochée.
    ![Associer les codes ref - Article option](../images/019-fr-jdc-fiche-article-option.png)
 
 Pour trouver le code ref de cet article, suivez la procédure décrite dans la partie [Produits](/apps/kezia/associer-codes-ref#produits).
