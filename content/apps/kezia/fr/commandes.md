@@ -31,7 +31,7 @@ Pour consulter le détail d'une commande :
 
 ### Gestion de la commande
 
-À réception d'une nouvelle commande web, vous pouvez l'accepter ou la rejeter. Vous pouvez ensuite la facturer si elle n'est pas encore payée, puis la prendre en charge.
+À réception d'une nouvelle commande web, vous pouvez la valider ou la rejeter. Vous pouvez ensuite la facturer si elle n'est pas encore payée.
 
 Le statut de la commande web est mis à jour sur HubRise quelques secondes après changement dans Kezia II.
 
