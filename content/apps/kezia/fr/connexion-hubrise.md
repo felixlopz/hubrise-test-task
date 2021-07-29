@@ -31,6 +31,7 @@ Pour établir la connexion entre un point de vente Kezia II et HubRise, vous dev
 1. Cliquez sur **Autoriser**.
 1. Copiez le code affiché et collez-le dans la fenêtre prévue à cet effet dans Kezia II.
 1. Cliquez sur **OK**.
+   ![Connexion à HubRise - HubRise connecté](../images/001-fr-kezia-connexion-hubrise.png)
 1. Cliquez sur **Enregistrer**.
 1. De nouveau, cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel Kezia II peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/kezia/connect-hubrise#donner-acc-s-au-support-de-kezia-ii).
@@ -50,6 +51,7 @@ Afin que vous ayiez accès à la liste des commandes venant de HubRise, vous dev
 
 1. Dans la barre de menu, sélectionnez **Fichier** > **Paramètres** > **Commandes Web**.
 1. Dans la section **Paramètres**, dans la partie **Liste des commandes**, sélectionnez *MCU 1* pour **Liste des champs** et entrez le nom *Commandes Web* pour **Libellé du champ**.
+   ![Connexion à HubRise - Configuration des commandes](../images/002-fr-kezia-configuration-commandes.png)
 1. Cliquez sur **Enregistrer**.
 
 ## Déconnecter Kezia II
