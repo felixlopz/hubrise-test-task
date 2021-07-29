@@ -6,6 +6,7 @@ meta:
   title: Présentation générale | Kezia II | HubRise
   description: Présentation générale de Kezia II, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
+  - __gallery-001.png
 path_override: /
 app_info:
   category: Logiciels de caisse

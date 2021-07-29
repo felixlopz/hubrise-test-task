@@ -15,7 +15,7 @@ Kezia II vérifie toutes les 30 secondes si de nouvelles commandes ont été env
 
 Pour voir la liste des commandes web en cours, suivez les étapes suivantes :
 
-1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
+1. Depuis l'écran d'accueil, sélectionnez **CAISSE**.
 1. Sélectionnez un vendeur.
 1. Cliquez sur **Commandes Web**.
 
@@ -37,7 +37,7 @@ Le statut de la commande web est mis à jour sur HubRise quelques secondes aprè
 
 Par défaut, Kezia II n'envoie pas les commandes vers HubRise. Changez la configuration pour que les commandes soient envoyées automatiquement après création :
 
-1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
+1. Depuis l'écran d'accueil, sélectionnez **CAISSE**.
 1. Sélectionnez un vendeur.
 1. Cliquez sur **Commandes Web**.
 1. Cliquez sur le bouton en forme de roue dentée.
@@ -46,7 +46,7 @@ Par défaut, Kezia II n'envoie pas les commandes vers HubRise. Changez la config
 
 Pour envoyer une commande vers HubRise, suivez les étapes suivantes :
 
-1. Sur l'écran d'accueil, sélectionnez **COMMANDES**.
+1. Depuis l'écran d'accueil, sélectionnez **COMMANDES**.
    ![Commandes - Nouvelle commande](../images/023-fr-jdc-nouvelle-commande.png)
 1. Remplissez les champs selon vos besoins.
 1. Cliquez sur **OK**.
@@ -54,5 +54,5 @@ Pour envoyer une commande vers HubRise, suivez les étapes suivantes :
 Pour consulter la liste des commandes envoyées vers HubRise, vous pouvez utiliser une de ces méthodes :
 
 - Dans la barre de menu, sélectionnez **Client** > **Commande** > **Commandes en cours**.
-- Sur l'écran d'accueil, appuyez sur la touche **F3** de votre clavier.
+- Depuis l'écran d'accueil, appuyez sur la touche **F3** de votre clavier.
    ![Commandes - Commandes en cours](../images/026-fr-jdc-commandes-en-cours.png)

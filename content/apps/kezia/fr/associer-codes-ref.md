@@ -22,10 +22,11 @@ Seules certaines applications permettent l'import d'un catalogue depuis HubRise.
 
 Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivantes :
 
-1. Sur l'écran d'accueil, sélectionnez **CAISSE**.
+1. Depuis l'écran d'accueil, sélectionnez **CAISSE**.
 1. Sélectionnez un vendeur.
 1. Cliquez sur **Commandes Web**.
 1. Cliquez sur le bouton en forme de roue dentée.
+   ![Associer les codes ref - Paramètres HubRise](../images/001-fr-kezia-parametres-hubrise.png)
 1. Cliquez sur **Envoi Articles sur HubRise**.
 
 Les informations client et les commandes sont envoyées automatiquement. En cas de problème avec la synchronisation automatique, vous pouvez vous rendre dans cet onglet pour faire ces exports manuellement.
@@ -34,25 +35,23 @@ Vous devez maintenant importer le catalogue HubRise dans vos autres applications
 
 Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systématiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
 
-1. Sur l'écran d'accueil, sélectionnez **ARTICLES**.
-   ![Associer les codes ref - Sélection article](../images/015-fr-jdc-selection-article.png)
+1. Depuis l'écran d'accueil, sélectionnez **ARTICLES**.
 1. Double-cliquez sur le produit à synchroniser.
-   ![Associer les codes ref - Fiche article](../images/016-fr-jdc-fiche-article.png)
 1. Cliquez sur **Menu**.
-   ![Associer les codes ref - Onglets fiche article](../images/017-fr-jdc-fiche-article-onglets.png)
 1. Cliquez sur **Paramètres**.
 1. Cochez l'option **Publication WEB**.
-   ![Associer les codes ref - Onglets fiche article](../images/018-fr-jdc-fiche-article-publication-web.png)
+   ![Associer les codes ref - Article publication web](../images/002-fr-kezia-article-publication-web.png)
 1. Cliquez sur **Appliq.**.
 
 Vous pouvez ensuite exporter de nouveau votre catalogue en suivant les étapes décrites au début de [cette partie](/apps/kezia/associer-codes-ref#exporter-le-catalogue).
 
 ## Produits
 
-Un produit dans HubRise correspond à un article dans Kezia II. Pour en retrouver le code ref, suivez les étapes suivantes :
+Un produit dans HubRise correspond à un article dans Kezia II. Pour retrouver le code ref d'un article, suivez les étapes suivantes :
 
-1. Sur l'écran d'accueil, sélectionnez **ARTICLES**.
+1. Depuis l'écran d'accueil, sélectionnez **ARTICLES**.
 1. Double-cliquez sur le produit désiré. Le code ref s'affiche en-dessous du titre de la fenêtre **Fiche Article**.
+   ![Associer les codes ref - Fiche article](../images/003-fr-kezia-fiche-article.png)
 
 ## SKUs
 
@@ -67,11 +66,11 @@ Pour trouver le code ref d'un article, suivez la procédure décrite dans la par
 
 Une option dans HubRise correspond à un article option dans Kezia II. Pour vérifier qu'un article est considéré comme une option, vérifiez que la case nécessaire est cochée :
 
-1. Sur l'écran d'accueil, sélectionnez **ARTICLES**.
+1. Depuis l'écran d'accueil, sélectionnez **ARTICLES**.
 1. Double-cliquez sur le produit désiré.
 1. Cliquez sur **Menu**.
 1. Cliquez sur **Préparation**. La case **Article Option** doit être cochée.
-   ![Associer les codes ref - Article option](../images/019-fr-jdc-fiche-article-option.png)
+   ![Associer les codes ref - Article option](../images/004-fr-kezia-article-option.png)
 
 Pour trouver le code ref de cet article, suivez la procédure décrite dans la partie [Produits](/apps/kezia/associer-codes-ref#produits).
 
@@ -81,4 +80,8 @@ Une remise dans Kezia II peut seulement être créée lorsque le vendeur enregis
 
 ## Promotions
 
-Une promotion dans HubRise correspond à un menu dans Kezia II. Pour retrouver le code ref d'un menu, dans la barre de menu, sélectionnez **Article** > **Menus** > **Liste**. Le code ref du menu s'affiche dans la colonne **Idart** et correspond au code ref de l'article attribué au menu lors de sa création.
+<!-- Une promotion dans HubRise correspond à un menu dans Kezia II. Pour retrouver le code ref d'un menu, dans la barre de menu, sélectionnez **Article** > **Menus** > **Liste**. Le code ref du menu s'affiche dans la colonne **Idart** et correspond au code ref de l'article attribué au menu lors de sa création. -->
+
+## Méthodes de paiement
+
+Les codes ref des méthodes de paiement ne sont pas accessibles par l'utilisateur dans Kezia II. Pour obtenir les obtenir, contactez le support JDC.
