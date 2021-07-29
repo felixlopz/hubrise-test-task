@@ -81,12 +81,14 @@ Une remise dans Kezia II peut uniquement être créée lorsque le vendeur enregi
 ## Promotions
 
 Une promotion dans HubRise correspond à un menu dans Kezia II. Pour retrouver le code ref d'un menu, dans la barre de menu, sélectionnez **Article** > **Menus** > **Liste**. Le code ref du menu s'affiche dans la colonne **Idart** et correspond au code ref de l'article attribué au menu lors de sa création.
+   ![Associer les codes ref - Menus](../images/007-fr-kezia-menus.png)
 
 Si les menus ne sont pas accessibles, suivez les étapes suivantes :
 
 1. Dans la barre de menu, sélectionnez **Fichier** > **Paramètres** > **Configuration**.
 1. Cliquez sur **Article**.
 1. Dans la section **Options Articles**, cochez la case **Recherche Menu**.
+   ![Associer les codes ref - Recherche menu](../images/008-fr-kezia-recherche-menu.png)
 
 ## Méthodes de paiement
 
