@@ -84,4 +84,4 @@ Une remise dans Kezia II peut seulement être créée lorsque le vendeur enregis
 
 ## Méthodes de paiement
 
-Les codes ref des méthodes de paiement ne sont pas accessibles par l'utilisateur dans Kezia II. Pour obtenir les obtenir, contactez le support JDC.
+Les codes ref des méthodes de paiement ne sont pas accessibles par l'utilisateur dans Kezia II. Pour les obtenir, contactez le support JDC.
