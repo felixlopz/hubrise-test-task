@@ -29,6 +29,7 @@ Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
 - Just-Eat.co.uk
 - Just-Eat.ie
 - SkipTheDishes.com
+- Menulog
 
 ---
 
