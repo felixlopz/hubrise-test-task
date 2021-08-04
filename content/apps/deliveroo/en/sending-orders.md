@@ -1,43 +1,45 @@
 ---
-title: Receiving Orders
-position: 1
+title: Sending Orders
+position: 7
 layout: documentation
 meta:
-  title: Receiving Orders | Deliveroo Technical Details | HubRise
+  title: Sending Orders | Deliveroo Technical Details | HubRise
   description: Find out the technical details of how orders are sent from Deliveroo to HubRise, which fields are passed and which are not.
 ---
 
 Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS.
 This page describes the information that is passed by Deliveroo Bridge for the orders you receive.
 
-## Items and Options
+## Products and Options
 
-Deliveroo never provides the products and options names in their API.
-This means that products and options in a Deliveroo order can only be identified by their ref code.
+For products and options, Deliveroo provides either the ref code or the name, but never both at the same time.
+- If you specify the product or option ref code in your Deliveroo back office, Deliveroo API will only send this information to HubRise.
+- If you do not specify the product or option ref code in your Deliveroo back office, Deliveroo API will send the product or option name to HubRise, instead.
 
-Therefore, your EPOS solution should not rely on product and option names to parse the incoming orders.
-Also, make sure that products and options in your Deliveroo menu are mapped to the correct EPOS ref code. For more details, see [Map Ref Codes](/apps/deliveroo/map-ref-codes).
+If your EPOS solution relies on product and option ref codes to correctly parse the item, make sure that products and options in your Deliveroo menu are mapped to the correct EPOS ref code. For more details, see [Map Ref Codes](/apps/deliveroo/map-ref-codes).
+
+Otherwise, if your EPOS solution does not support ref codes, leave this information blank in your Deliveroo back office.
 
 Customers' comments on single products are not provided by Deliveroo API. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Deliveroo menu, so that they are correctly encoded.
 
-### Items Encoding
+### Products Encoding
 
-For every item in the order, Deliveroo Bridge provides the following information:
+For every product in the order, Deliveroo Bridge provides the following information:
 
-- `sku_ref`: The ref code of the item
-- `product_name`: The placeholder for the product name, in the format "Product `sku_ref`"
-- `price`: The price for a single item
+- `sku_ref`: The ref code of the product.
+- `product_name`: The ref code of the product, if present. Otherwise, the product name.
+- `price`: The price for a single product.
 - `quantity`: The quantity of items included in the order.
-- `options`: The array of options attached to the item.
+- `options`: The array of options attached to the product.
 
 ### Options Encoding
 
 For every option in the order, Deliveroo Bridge provides the following information:
 
-- `option_list_name`: The default value is "Options"
-- `ref`: The ref code of the option
-- `name`: The placeholder for the option name, in the format "Option `sku_ref`"
-- `price`: The price for a single item
+- `option_list_name`: The default value is "Options".
+- `ref`: The ref code of the option.
+- `name`: The ref code of the option, if present. Otherwise, the option name.
+- `price`: The price for a single option.
 
 Every option has single quantity. Multiple identical options are encoded in separate option objects.
 
