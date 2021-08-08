@@ -1,6 +1,6 @@
 ---
 title: Configuration
-position: 4
+position: 6
 layout: documentation
 meta:
   title: Just Eat Takeaway Connection to HubRise - Configuration

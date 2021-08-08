@@ -1,6 +1,6 @@
 ---
 title: User Interface
-position: 3
+position: 5
 layout: documentation
 meta:
   title: Just Eat Takeaway Connection to HubRise - User Interface
