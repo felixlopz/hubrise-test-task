@@ -3,7 +3,7 @@ title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Just Eat Takeaway Connection to HubRise - Instructions
+  title: Connect to HubRise | Just Eat Takeaway | HubRise
   description: See how to connect your Just Eat Takeaway online store to HubRise. Connection is simple. Send the link of your Just Eat Takeaway page to HubRise and follow a few steps to connect.
 ---
 

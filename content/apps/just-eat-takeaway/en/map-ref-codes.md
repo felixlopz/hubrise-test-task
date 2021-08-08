@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Just Eat Takeaway Connection to HubRise - Map Ref Codes
+  title: Map Ref Codes | Just Eat Takeaway | HubRise
   description: Instructions on mapping Just Eat Takeaway product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
