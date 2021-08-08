@@ -1,9 +1,9 @@
 ---
-title: Receiving Orders
+title: Sending Orders
 position: 5
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Receiving Orders
+  title: Sending Orders | Just Eat Flyt | HubRise
   description: Find out the technical details of how orders are sent from Just Eat to HubRise, which fields are passed and which are not.
 ---
 
