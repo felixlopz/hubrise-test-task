@@ -3,7 +3,7 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Configuration
+  title: Configuration | Just Eat Flyt | HubRise 
   description: See instructions to configure Just Eat Flyt Bridge to work seamlessly with Just Eat and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
