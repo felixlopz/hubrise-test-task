@@ -3,7 +3,7 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Just Eat Flyt Connection to HubRise - Overview
+  title: Overview | Just Eat Flyt | HubRise
   description: Just Eat overview and why restaurants and convenience stores should connect it to HubRise. With a connection orders are sent to your working tools - EPOS, KDS.
 gallery:
   - __gallery-001.png

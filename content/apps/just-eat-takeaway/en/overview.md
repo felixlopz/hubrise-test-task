@@ -3,7 +3,7 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Just Eat Takeaway.com Connection to HubRise - Overview
+  title: Overview | Just Eat Takeaway | HubRise
   description: Connect Just Eat Takeaway.com to HubRise, and receive your orders in your EPOS, Kitchen Display System (KDS), or Delivery Management Solution (DMS).
 gallery:
   - __gallery-001.png
