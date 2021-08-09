@@ -107,7 +107,11 @@ To add a ref code to a payment method, follow these steps.
 
 Service types such as delivery, collection or eat in might require a ref code. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-To change the ref codes for service types, contact your LivePepper support representative. You cannot perform this operation from the LivePepper back office.
+To add a ref code to a service type, follow these steps:
+
+1. From your LivePepper back office, select **Delivery settings** under **Settings**.
+1. Under **Delivery methods**, find the service type to update and add the ref code in the **POS code** field.
+1. Click **Save** to confirm.
 
 ## Delivery Charges
 
