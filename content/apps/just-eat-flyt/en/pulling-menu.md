@@ -3,7 +3,7 @@ title: Pulling The Menu
 position: 6
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Pulling The Menu
+  title: Pulling The Menu | Just Eat Flyt | HubRise
   description: Find out how to publish your menu to the Just Eat platform, how items and options are encoded, and which features are supported.
 ---
 
