@@ -163,7 +163,13 @@ content:
           documentation: /apps/just-eat-takeaway
           logo: lieferando.png
           title: lieferando.de and lieferando.at
-          description: lieferando is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Germany and Austria.
+          description: Lieferando is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. They operate in Germany and Austria.
+          additional_info:
+        - website: https://www.menulog.com.au/
+          documentation: /apps/just-eat-flyt
+          logo: menulog.png
+          title: Menulog
+          description: Menulog is an online food and beverage ordering and delivery platform. Customers can order food online or via a mobile app. They operate in Australian and New Zealand.
           additional_info:
         - website: https://www.pyszne.pl/en/
           documentation: /apps/just-eat-takeaway
