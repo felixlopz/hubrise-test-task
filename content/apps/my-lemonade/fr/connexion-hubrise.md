@@ -38,5 +38,5 @@ Il est conseillé de donner à l'éditeur de la solution My Lemonade l'accès à
 ## Déconnecter My Lemonade
 
 1. Dans le menu latéral, cliquez sur **Paramètres**.
-1. Sélectionnez l'onglet **Caisse**.
+1. Sélectionnez l'onglet **CAISSE**.
 1. Cliquez sur **DECONNECTER LA CAISSE**.
