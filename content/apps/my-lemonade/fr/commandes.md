@@ -14,8 +14,6 @@ Pour voir la liste des commandes envoyées depuis My Lemonade, suivez les étape
 1. Dans le menu latéral, cliquez sur **Commandes**.
 1. Sélectionnez l'onglet correspondant au statut de la commande désirée.
 
-### Statut de la commande
-
 Les statuts que My Lemonade envoie à HubRise sont les suivants :
 
 - _Reçue_ : la commande a été reçue.
@@ -24,3 +22,7 @@ Les statuts que My Lemonade envoie à HubRise sont les suivants :
 - _Annulée_ : la commande a été annulée.
 
 Pour modifier le statut d'une commande, cliquez sur le bouton correspondant au nouveau statut.
+
+## Recevoir des commandes
+
+Cette fonctionnalité est en cours de développement et sera disponible prochainement.
