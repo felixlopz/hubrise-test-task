@@ -3,7 +3,7 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Map Ref Codes | MynOber Cloud | HubRise
+  title: Map Ref Codes | MynOber | HubRise
   description: Instructions to map MynOber product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
@@ -17,7 +17,7 @@ Most EPOS solutions require a ref code for each product to correctly parse order
 
 ## Updating Ref Codes Manually
 
-### Product Ref Codes
+### Products
 
 If you already have a menu in your MynOber Cloud location, you can manually enter the ref codes for your products, so that they match those in your EPOS.
 
@@ -29,7 +29,7 @@ To manually assign ref codes to your MynOber products from the MynOber Cloud bac
 1. Click **Expand All** to reveal all the products available.
 1. For every product in the list, check the correct ref code in the EPOS and insert the value in the **PLU** column. The value is automatically saved when you click outside of the entry field.
 
-### Ref Codes For Service Types, Charges, And Payments
+### Service Types, Charges, And Payments
 
 Service types, charges, and payments might require special ref codes. Refer to your connected EPOS documentation on the HubRise website to verify.
 

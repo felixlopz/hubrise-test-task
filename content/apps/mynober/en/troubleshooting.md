@@ -3,7 +3,7 @@ title: Troubleshooting
 position: 4
 layout: documentation
 meta:
-  title: Troubleshooting | MynOber Cloud | HubRise
+  title: Troubleshooting | MynOber | HubRise
   description: Troubleshooting MynOber Cloud connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 

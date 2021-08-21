@@ -3,7 +3,7 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connection to HubRise | MynOber Cloud | HubRise
+  title: Connection to HubRise | MynOber | HubRise
   description: Instructions to connect MynOber with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 

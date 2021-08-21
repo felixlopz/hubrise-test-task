@@ -3,8 +3,8 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Overview | MynOber Cloud | HubRise
-  description: MynOber Cloud overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+  title: Overview | MynOber | HubRise
+  description: MynOber overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - 001-en-mynober-cloud-hubrise-module.png
   - 002-en-mynober-cloud-menu-items.png
