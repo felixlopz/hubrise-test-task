@@ -40,7 +40,7 @@ Vous pouvez configurer My Lemonade afin que les modifications faites sur le menu
 
 ## Produits
 
-Un produit est toujours composé d'au moins une variante, dont le code ref est pris en compte. Suivez les étapes détaillées dans la section suivante pour retrouver le code ref d'une [variante](/apps/my-lemonade/associer-codes-ref#skus).
+Un produit est toujours composé d'au moins une SKU. HubRise ignore le code ref du produit et prend en compte le code ref de la SKU. Suivez les étapes détaillées dans la [section suivante](/apps/my-lemonade/associer-codes-ref#skus) pour en retrouver le code ref.
 
 ## SKUs
 
