@@ -28,6 +28,7 @@ Vous pouvez configurer My Lemonade afin que les modifications faites sur le cata
 1. Dans le menu latéral, cliquez sur **Paramètres**.
 1. Sélectionnez l'onglet **Caisse**.
 1. Cochez l'option **Auto importation**.
+   ![Associer les codes ref - Importer le catalogue](../images/002-fr-import-catalogue.png)
 
 ## Exporter le catalogue
 
@@ -39,11 +40,7 @@ Vous pouvez configurer My Lemonade afin que les modifications faites sur le menu
 
 ## Produits
 
-Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
-
-1. Dans le menu latéral, cliquez sur **Gestion du Menu**.
-1. Dans la section **Carte**, sélectionnez la catégorie à laquelle appartient le produit.
-1. Sélectionnez le produit désiré. Le code ref s'affiche dans le champ **ref**.
+Un produit est toujours composé d'au moins une variante, dont le code ref est pris en compte. Suivez les étapes détaillées dans la section suivante pour retrouver le code ref d'une [variante](/apps/my-lemonade/associer-codes-ref#skus).
 
 ## SKUs
 
@@ -52,6 +49,7 @@ Une SKU dans HubRise correspond à une variante dans My Lemonade. Pour retrouver
 1. Dans le menu latéral, cliquez sur **Gestion du Menu**.
 1. Dans la section **Carte**, sélectionnez la catégorie à laquelle appartient le produit.
 1. Sélectionnez le produit désiré. Le code ref de la variante s'affiche dans la section **VARIANTES**, dans le champ **Référence**.
+   ![Associer les codes ref - Variantes d'un produit](../images/003-fr-variantes-produit.png)
 
 ## Options
 
@@ -60,6 +58,7 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 1. Dans le menu latéral, cliquez sur **Gestion du Menu**.
 1. Sélectionnez l'onglet **OPTIONS**.
 1. Dans la section **Options**, sélectionnez l'option désirée. Le code ref s'affiche dans le champ **ref**.
+   ![Associer les codes ref - Options](../images/004-fr-options.png)
 
 ## Promotions
 
@@ -68,6 +67,7 @@ Une promotion dans HubRise correspond à une offre dans My Lemonade. Pour retrou
 1. Dans le menu latéral, cliquez sur **Gestion du Menu**.
 1. Sélectionnez l'onglet **OFFRES**.
 1. Dans la section **Offres**, sélectionnez l'offre désirée. Le code ref s'affiche dans le champ **ref**.
+   ![Associer les codes ref - Offres](../images/005-fr-offres.png)
 
 ## Méthodes de paiement
 
@@ -75,6 +75,7 @@ Une méthode de paiement dans HubRise correspond à un service de paiement dans 
 
 1. Dans le menu latéral, cliquez sur **Paramètres**.
 1. Sélectionnez l'onglet **PAIEMENT**. Le code ref s'affiche dans le champ **Service**.
+   ![Associer les codes ref - Services de paiement](../images/006-fr-services-paiement.png)
 
 ## Types de service
 
@@ -83,3 +84,4 @@ Pour retrouver le code ref d'un type de service, suivez les étapes suivantes :
 1. Dans le menu latéral, cliquez sur **Paramètres**.
 1. Sélectionnez l'onglet **CAISSE**.
 1. Cliquez sur **EDITER LES TYPES DE SERVICE**. Le code ref s'affiche dans le champ éditable.
+   ![Associer les codes ref - Types de service](../images/007-fr-types-service.png)

@@ -12,7 +12,19 @@ meta:
 Pour voir la liste des commandes envoyées depuis My Lemonade, suivez les étapes suivantes :
 
 1. Dans le menu latéral, cliquez sur **Commandes**.
+   ![Commandes - Liste des commandes](../images/008-fr-liste-commandes.png)
 1. Sélectionnez l'onglet correspondant au statut de la commande désirée.
+
+### Détails de la commande
+
+Pour voir les détails d'une commande :
+
+1. Dans le menu latéral, cliquez sur **Commandes**.
+1. Sélectionnez l'onglet correspondant au statut de la commande désirée.
+1. Cliquez sur **Voir le détail**.
+   ![Commandes - Détails d'une commande](../images/009-fr-details-commande.png)
+
+### Statut de la commande
 
 Les statuts que My Lemonade envoie à HubRise sont les suivants :
 
