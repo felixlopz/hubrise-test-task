@@ -17,7 +17,7 @@ meta:
 
 Pour connecter votre solution de commande en ligne Toolkeat à HubRise, suivez les étapes suivantes :
 
-1. Dans votre espace Toolkeat, sélectionnez **RestoPress** > **Settings** dans le menu latéral.
+1. Dans votre espace Toolkeat, sélectionnez **RestroPress** > **Settings** dans le menu latéral.
 1. Sélectionnez l'onglet **HubRise**.
 1. Cliquez sur **Connect to HubRise**. Vous êtes redirigé vers l'interface HubRise.
 1. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
@@ -36,6 +36,6 @@ Il est conseillé de donner à l'éditeur de la solution Toolkeat l'accès à vo
 
 ## Déconnecter Toolkeat
 
-1. Dans le menu latéral, sélectionnez **RestoPress** > **Settings**.
+1. Dans le menu latéral, sélectionnez **RestroPress** > **Settings**.
 1. Sélectionnez l'onglet **HubRise**.
 1. Cliquez sur **Disconnect**.
