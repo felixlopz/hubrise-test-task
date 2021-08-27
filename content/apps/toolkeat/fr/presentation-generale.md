@@ -24,12 +24,6 @@ Connecter Toolkeat à HubRise permet à votre solution de commande en ligne de :
 - Envoyer les commandes à HubRise, dont les statuts de commande.
 - Envoyer les informations clients à HubRise.
 
----
-
-**REMARQUE IMPORTANTE :** La réception des commandes et des informations clients de HubRise, ainsi que la synchronisation du catalogue avec HubRise seront bientôt possibles. Contactez Toolkeat pour plus d'information à ce sujet.
-
----
-
 Toolkeat peut être connecté à HubRise depuis le back-office de Toolkeat.
 
 ## Pourquoi se connecter ?

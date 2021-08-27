@@ -14,4 +14,5 @@ HubRise et Toolkeat utilisent chacun leur propre terminologie. Un même concept 
 | Food item       | Produit             | Produit.                                 |
 | Option          | SKU                 | SKU du produit.                          |
 | Addon           | Option              | Option du produit.                       |
+| Discount code   | Remise              | Remise sur la totalité de la commande.   |
 | Payment gateway | Méthode de paiement | Méthode utilisée pour payer la commande. |
