@@ -25,5 +25,5 @@ Lors de l'envoi d'une commande My Lemonade, ses champs sont utilisés de la faç
 | `total`                               | Montant total de la commande.                                                       |
 | `collection_code`                     | Code permettant de récupérer la commande.                                           |
 | `customer`                            | Informations du client.                                                             |
-| `payment.type`                        | Méthode de paiement.                                                                |
+| `payments`                            | Méthodes de paiement.                                                               |
 | `custom_fields.restaurant.table_name` | Référence de la table.                                                              |
