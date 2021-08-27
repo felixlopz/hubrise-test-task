@@ -37,7 +37,7 @@ Il est conseillé de donner à l'éditeur de la solution My Lemonade l'accès à
 
 ## Déconnecter My Lemonade
 
-1. Dans le menu latéral, cliquez sur **Paramètres**.
+1. Dans le menu latéral, sélectionnez **Paramètres**.
 1. Sélectionnez l'onglet **CAISSE**.
    ![Connexion - Page de connexion](../images/001-fr-page-connexion.png)
 1. Cliquez sur **DECONNECTER LA CAISSE**.
