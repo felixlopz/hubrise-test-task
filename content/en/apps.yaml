@@ -24,8 +24,8 @@ content:
           documentation: /apps/carre-pos
           logo: carrepos.png
           title: Carré POS
-          description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
-          additional_info:
+          description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
+          additional_info: Documentation in French.
         - website: https://www.epostechnologies.co.uk/
           documentation: /apps/epos-technologies
           logo: epostechnologies.png
@@ -384,7 +384,7 @@ content:
           documentation: /apps/orderline
           logo: orderline.png
           title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
+          description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
         - website: https://www.satoeurope.com/?lang=true
           documentation:
           logo: sato.png
