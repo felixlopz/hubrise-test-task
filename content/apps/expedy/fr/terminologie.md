@@ -9,7 +9,7 @@ meta:
 
 HubRise et Expedy utilisent chacun leur propre terminologie. Un même concept peut donc avoir une désignation différente dans chaque solution. La table de correspondance ci-dessous indique ces différences.
 
-| Expedy     | HubRise        | Description               |
-| ---------- | -------------- | ------------------------- |
-| Enseigne   | Compte         | Appellation commerciale   |
-| Restaurant | Point de vente | Restaurant proprement dit |
+| Expedy     | HubRise        | Description                |
+| ---------- | -------------- | -------------------------- |
+| Enseigne   | Compte         | Appellation commerciale.   |
+| Restaurant | Point de vente | Restaurant proprement dit. |
