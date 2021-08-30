@@ -44,3 +44,21 @@ iKentoo Bridge connects to a HubRise location. You must repeat the process below
 **Related FAQ**: <Link to="/docs/faqs/troubleshooting-failed-orders/">Why Are Some Orders Not Received Correctly on Lightspeed Restaurant (K Series)?</Link>
 
 ---
+
+## Give Access to Lightspeed Support
+
+We recommend providing Lightspeed support with access to your HubRise location connected with Lightspeed Restaurant (K Series). If needed, they will be able to troubleshoot issues by inspecting the logs of iKentoo Bridge.
+
+To give Lightspeed support access to your location, follow these steps.
+
+1. If you have multiple accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/001-arrow.jpg)</InlineImage> next to **Account** to select the appropriate account.
+1. From your HubRise back office, select **CONFIGURATION**. 
+1. From the **Usage** section, select the location connected to Lightspeed from the **Location** column.
+1. In the **Permissions** section, add *k-series.support@lightspeedhq.com* to the list, and select **Manager** from the dropdown menu.
+1. Click on the **+** plus icon to confirm.
+
+---
+
+**IMPORTANT NOTE:** Sharing the username and password of your HubRise user profile is highly discouraged for security reasons.
+
+---
