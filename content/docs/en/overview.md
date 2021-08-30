@@ -16,18 +16,24 @@ app_info:
   contact: contact@hubrise.com / support@hubrise.com
 ---
 
-HubRise is a middleware that connects third party solutions. It provides a single interface to an ever growing ecosystem of integrated applications including: Point of Sale, online ordering, delivery management, delivery services, eMarketing (SMS/emailing), loyalty management, food ordering platforms, business intelligence, stock management, pay at the table, and more. HubRise also includes a robust system to allow developers to connect other apps using the HubRise Public API. For more information, see the HubRise <Link to="/developers/api/">API Reference</Link>.
+HubRise is a middleware platform that connects third party solutions. It provides a single interface to an ever growing ecosystem of integrated applications. Typical use cases include: 
+- point of sale systems
+- online ordering
+- delivery management
+- delivery services
+- eMarketing (SMS/emailing)
+- loyalty management
+- food ordering platforms
+- business intelligence
+- stock management
+- pay at the table
+- ... and more!
 
-Transactions are saved into HubRise to provide apps real-time access to your data.
+With HubRise, you can track orders from all connected solutions, keep track of your customers, and check your catalog of products from a single platform.
 
-With HubRise, you can track orders from all connected solutions, keep track of your customers, and check your catalog of products through one system.
-Logs are made available for users and support teams to understand the workflow and check the status on each transaction. These logs are primarily aimed at developers, but are designed to be understood by anyone.
+All the transactions are saved into HubRise to provide connected apps with real-time access to your data.
+Detailed logs allow users and support teams to understand the workflow and check the status on each transaction. Although primarily aimed at developers, logs are designed to be understood by anyone.
+
+HubRise also offers a robust system to allow developers to create new apps using the HubRise Public API. For more information, see the HubRise [API Reference](/developers/api/general-concepts).
 
 HubRise offers a paid plan per Location. A free plan is provided with a limited quota of transactions.
-
-The HubRise interface is organised into the following sections:
-
-- **Dashboard**: A quick overview of your organisation's sales, orders, and new customers.
-- **Connections**: Connect new applications to your HubRise Account, and manage your existing connections.
-- **Data**: View orders, catalogs, and customers across your locations.
-- **Settings**: Add new locations, manage employee access and roles, view payment history or payment methods, and developer access to integrate applications with HubRise.

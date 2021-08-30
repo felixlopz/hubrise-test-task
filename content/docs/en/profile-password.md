@@ -50,3 +50,15 @@ For more information, see [Permissions](/docs/permissions/).
 To create a new Account from the Profile page, select **Create Account**. For more information see [Create an Account](#account).
 
 ![HubRise My Permissions](../images/056-en-2x-my-permissions.png)
+
+## Resetting Lost Password
+
+If you are a registered user but you have lost or forgotten your password, go to the [HubRise Reset password page](https://manager.hubrise.com/reset_password/new). Enter the email address associated with your HubRise profile, and click **Reset Password**. You will receive an email with instructions on how to reset your password. Once complete, you will be able to log in again.
+
+---
+
+**IMPORTANT NOTE**: If you do not see the password reset instructions in your email's Inbox folder within a few minutes, refresh your Inbox and check your Spam or Trash folders.
+
+---
+
+![Reset password screen](../images/002-en-reset-password.png)
