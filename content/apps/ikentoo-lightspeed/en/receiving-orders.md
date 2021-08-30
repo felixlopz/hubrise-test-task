@@ -21,11 +21,7 @@ This page explains what information iKentoo Bridge sends to your EPOS.
 
 Lightspeed Restaurant (K Series) can receive the complete information about items and options, including name, EPOS ref code, quantity, and price.
 
-### Missing or Incorrect Ref Codes
-
-Every item on Lightspeed must have a ref code. Orders containing items with incorrect or missing ref codes are rejected by Lightspeed Restaurant (K Series). 
-
-For this reason, when sending an order to the EPOS, iKentoo Bridge skips all items without a ref code.
+Every item on Lightspeed must have a ref code. Orders containing items with incorrect or missing ref codes are rejected by the EPOS. For this reason, when sending an order to the EPOS, iKentoo Bridge skips all items without a ref code.
 
 ## Order Statuses
 

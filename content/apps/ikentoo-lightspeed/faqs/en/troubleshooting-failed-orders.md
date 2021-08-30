@@ -1,5 +1,5 @@
 ---
-title: Why Are Some Orders Not Received Correctly in Lightspeed Restaurant (K Series)?
+title: Why Are Some Orders Not Received Correctly in Lightspeed?
 position: 1
 layout: documentation
 meta:
