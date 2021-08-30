@@ -47,7 +47,7 @@ iKentoo Bridge connects to a HubRise location. You must repeat the process below
 
 ## Give Access to Lightspeed Support
 
-As good practice, you can provide Lightspeed support with access to your HubRise location connected with Lightspeed Restaurant (K Series). If needed, they can troubleshoot possible issues by inspecting the logs of iKentoo Bridge.
+We recommend providing Lightspeed support with access to your HubRise location connected with Lightspeed Restaurant (K Series). If needed, they will be able to troubleshoot issues by inspecting the logs of iKentoo Bridge.
 
 To give Lightspeed support access to your location, follow these steps.
 
