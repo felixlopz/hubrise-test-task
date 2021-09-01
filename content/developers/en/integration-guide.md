@@ -76,7 +76,7 @@ You should provide your users with an easy way to connect your solution to HubRi
 
 Once a user establishes a connection with HubRise, you should display all the relevant information about the account:
 
-- Location name and ID
+- Account name, Location name and Location ID
 - Catalog name and ID
 - Customer list name and ID
 
