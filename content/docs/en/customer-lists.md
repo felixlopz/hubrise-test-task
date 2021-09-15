@@ -1,6 +1,6 @@
 ---
 title: Customer Lists
-position: 13
+position: 23
 layout: documentation
 meta:
   title: Customer Lists | HubRise

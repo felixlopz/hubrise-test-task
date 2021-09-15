@@ -1,6 +1,6 @@
 ---
 title: Catalogs
-position: 12
+position: 22
 layout: documentation
 meta:
   title: Catalogs | HubRise

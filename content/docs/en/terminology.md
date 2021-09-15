@@ -1,6 +1,6 @@
 ---
 title: Terminology
-position: 20
+position: 2
 layout: documentation
 meta:
   title: Terminology | HubRise
@@ -22,5 +22,4 @@ For more information, see [Accounts](/docs/account/) and [Locations](/docs/locat
 
 ![Accounts and Locations example](../images/046-en-2x-accounts-locations.png)
 
-A User Profile can have access to multiple Accounts. On the other hand, different User Profiles can have access to the same Account with different permission levels. For more information, see [Permissions](/docs/permissions/)
-
+A User Profile can have access to multiple Accounts. On the other hand, different User Profiles can have access to the same Account with different permission levels. For more information, see [Permissions](/docs/permissions/).

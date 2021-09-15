@@ -1,6 +1,6 @@
 ---
 title: Profile and Password
-position: 6
+position: 16
 layout: documentation
 meta:
   title: Profile and Password | HubRise

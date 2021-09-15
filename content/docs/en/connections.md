@@ -1,6 +1,6 @@
 ---
 title: Connections
-position: 4
+position: 5
 layout: documentation
 meta:
   title: Connections | HubRise
