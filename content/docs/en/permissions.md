@@ -1,6 +1,6 @@
 ---
 title: Permissions
-position: 11
+position: 21
 layout: documentation
 meta:
   title: Permissions | HubRise

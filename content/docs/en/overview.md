@@ -32,7 +32,7 @@ HubRise is a middleware platform that connects third party solutions. It provide
 With HubRise, you can track orders from all connected solutions, keep track of your customers, and check your catalog of products from a single platform.
 
 All the transactions are saved into HubRise to provide connected apps with real-time access to your data.
-Detailed logs allow users and support teams to understand the workflow and check the status on each transaction. Although primarily aimed at developers, logs are designed to be understood by anyone.
+Detailed logs allow users and support teams to understand the workflow and check the status of each transaction. Although primarily aimed at developers, logs are designed to be understood by anyone.
 
 HubRise also offers a robust system to allow developers to create new apps using the HubRise Public API. For more information, see the HubRise [API Reference](/developers/api/general-concepts).
 

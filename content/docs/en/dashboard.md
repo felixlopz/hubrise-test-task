@@ -1,6 +1,6 @@
 ---
 title: Dashboard
-position: 3
+position: 4
 layout: documentation
 meta:
   title: Dashboard | HubRise

@@ -1,6 +1,6 @@
 ---
 title: Usage
-position: 9
+position: 19
 layout: documentation
 meta:
   title: Usage and Plans | HubRise

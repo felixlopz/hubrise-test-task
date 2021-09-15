@@ -1,6 +1,6 @@
 ---
 title: Developer
-position: 15
+position: 25
 layout: documentation
 meta:
   title: Developer | HubRise

@@ -1,6 +1,6 @@
 ---
 title: Locations
-position: 8
+position: 18
 layout: documentation
 meta:
   title: Locations | HubRise

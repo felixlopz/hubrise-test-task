@@ -1,6 +1,6 @@
 ---
 title: Account
-position: 7
+position: 17
 layout: documentation
 meta:
   title: Account | HubRise

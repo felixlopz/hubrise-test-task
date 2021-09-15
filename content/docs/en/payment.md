@@ -1,6 +1,6 @@
 ---
 title: Payment
-position: 10
+position: 20
 layout: documentation
 meta:
   title: Payment | HubRise
