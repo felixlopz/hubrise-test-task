@@ -9,7 +9,8 @@ meta:
 
 From Connections, you can connect new apps and see apps connected to your HubRise Account.
 
-Apps are connected either with a HubRise Account or Location depending on the app. Typically EPOS or Online Ordering System will connect to a Location, while marketing solutions connect to either the Account or Locations.
+Apps are connected either with a HubRise Account or Location, depending on the app.
+For example, EPOS or online ordering systems typically connect to a Location, while marketing solutions connect to either the Account or Locations.
 
 ---
 
@@ -53,13 +54,15 @@ To display a line chart with the number of transactions made in the last 30 days
 
 ## View Connection Logs
 
-Logs are stored for each app that has been connected. These logs are used to understand the communications between systems and detect issues. To view logs for a connection, select **CONNECTIONS** > **Action** > **View logs** for the specific app.
+Logs are stored for each app that has been connected. You can use logs to understand the communications between systems and detect issues.
 
-Logs record the requests from an app to HubRise. Each request is a transaction between an app and HubRise. It could be an order, a new customer registered, or any other communication between an app and HubRise.
+To view logs for a connection, select **CONNECTIONS** > **Action** > **View logs** for the specific app.
+
+Logs record the requests from an app to HubRise. Each request is a transaction between an app and HubRise, such as an order, a new customer registration, or any other communication between an app and HubRise.
 
 ![HubRise Connection logs](../images/050-en-2x-connection-logs.png)
 
-### General information
+### General Information
 
 At the top, the log page displays general information about the connection:
 
