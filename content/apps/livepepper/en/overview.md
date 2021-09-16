@@ -11,7 +11,7 @@ gallery:
   - __gallery-003.png
 path_override: /
 app_info:
-  category: Online ordering for restaurants
+  category: Online ordering
   availability: Worldwide
   price_range: €69-€109 / month
   website: https://www.livepepper.com
