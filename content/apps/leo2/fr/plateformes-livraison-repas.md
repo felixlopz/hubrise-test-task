@@ -1,4 +1,4 @@
-﻿---
+---
 title: Plateformes de livraison de repas
 position: 5
 layout: documentation
