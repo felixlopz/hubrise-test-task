@@ -59,8 +59,8 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 1. Cliquez sur **Produits**.
 1. Cliquez sur **Messages Cuisine**.
 1. Cliquez sur **Saisie Comment**.
-1. Dans le champ **Libellé**, sélectionnez la liste d'options à laquelle appartient l'option désirée. Le code ref de cette option est égal au préfixe `TEXT_`, suivi de la valeur du champ **Id** de la liste d'options, puis du symbole `_`, et enfin de la valeur de la colonne **ID** de l'option. Par exemple, dans la capture d'écran ci-dessous, le code ref de l'option _Sauce Ciboulette_ est égal à `TEXT_3_20`.
-   ![Associer les codes ref - Options](../images/007-fr-leo2-options.png)
+1. Dans le champ **Libellé**, sélectionnez la liste à laquelle appartient le message cuisine désiré. Le code ref s'affiche dans la colonne **ID**.
+   ![Associer les codes ref - Messages cuisine](../images/007-fr-leo2-messages-cuisine.png)
 
 ## Promotions
 
@@ -75,3 +75,14 @@ Les méthodes de paiement dans HubRise correspondent aux modes de règlement dan
 1. Cliquez sur **Paramètres et Réglages**.
 1. Cliquez sur **Modes de Règlement**. Le code ref s'affiche dans la colonne **No**.
    ![Associer les codes ref - Modes de règlement](../images/008-fr-leo2-modes-reglement.png)
+
+## Types de service
+
+Les types de service dans HubRise correspondent aux tarifs dans LEO2. Pour retrouver leur code ref, suivez les étapes suivantes :
+
+1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
+1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
+1. Cliquez sur **Ventilations et Tarifs**.
+1. Sélectionnez le tarif désiré.
+1. Cliquez sur **Modif**. Le code ref s'affiche dans le champ **Code**.
+   ![Associer les codes ref - Tarifs](../images/009-fr-leo2-tarifs.png)
