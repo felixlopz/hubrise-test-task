@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Expedy | HubRise
-  description: Présentation générale de Expedy, les raisons de connecter votre imprimante intelligente à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Expedy, les raisons de connecter votre imprimante intelligente à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
   - __gallery-001.png
 path_override: /
