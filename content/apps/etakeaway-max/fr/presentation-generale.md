@@ -38,7 +38,7 @@ Connecter eTakeaway Max à HubRise permet à votre solution d'encaissement de :
 
 ---
 
-eTakeaway Max peut être connecté à HubRise via la ligne d'assistance eTakeaway Max.
+eTakeaway Max peut être connecté à HubRise via le support eTakeaway Max.
 
 ## Pourquoi se connecter ?
 

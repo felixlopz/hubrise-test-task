@@ -24,11 +24,11 @@ app_info:
 
 ## Description
 
-PAR PixelPoint est une solution d'encaissement accessible dans le monde entier.
+PAR PixelPoint est une solution d'encaissement disponible dans le monde entier.
 
-L'API PixelPoint Windows est une application développée par Slowey Systems qui permet la communication entre HubRise et la solution d'encaissement PAR PixelPoint.
+PixelPoint Windows API est une application développée par Slowey Systems qui permet la communication entre HubRise et la solution d'encaissement PAR PixelPoint.
 
-Elle convertit n'importe quelle commande entrante dans HubRise au format PixelPoint, puis l'envoie vers la solution d'encaissement.
+Elle convertit les commandes HubRise au format PixelPoint, puis les envoie vers la solution d'encaissement.
 
 ## Fonctionnalités de l'intégration
 
@@ -37,17 +37,17 @@ Connecter PAR PixelPoint à HubRise permet à votre solution d'encaissement de 
 - Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
 
-L'API PixelPoint Windows peut être connectée à HubRise via la ligne d'assistance de Slowey Systems.
+PixelPoint Windows API peut être connecté à HubRise via le support de Slowey Systems.
 
 ## Pourquoi se connecter ?
 
-En connectant l'API PixelPoint Windows à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution d'encaissement.
+En connectant PixelPoint Windows API à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution d'encaissement.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS/eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
-Pour que la connexion à votre solution d'encaissement PAR PixelPoint s'établisse avec succès, l'API PixelPoint Windows nécessite l'exécution d'un serveur dans votre magasin avec les applications suivantes :
+Pour établir la connexion à votre solution d'encaissement PAR PixelPoint, les applications suivantes doivent être installées sur le serveur de votre magasin :
 
 - Système d'exploitation Windows
 - Pixel SQLbase
@@ -55,4 +55,4 @@ Pour que la connexion à votre solution d'encaissement PAR PixelPoint s'établis
 
 [comment]: # 'Système d'exploitation Windows : probablement Win10 ? Vérifier auprès de John.'
 
-L'API PixelPoint Windows nécessite en outre un serveur supplémentaire, géré par Slowey Systems, pour établir la connexion entre HubRise et le serveur du magasin.
+PixelPoint Windows API nécessite en outre un serveur supplémentaire, géré par Slowey Systems, pour établir la connexion entre HubRise et le serveur du magasin.

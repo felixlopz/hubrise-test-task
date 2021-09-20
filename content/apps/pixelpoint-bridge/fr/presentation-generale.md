@@ -25,9 +25,9 @@ app_info:
 
 ## Description
 
-PAR PixelPoint est une solution d'encaissement accessible dans le monde entier.
+PAR PixelPoint est une solution d'encaissement disponible dans le monde entier.
 
-PixelPoint Bridge est une application développée par HubRise qui permet la communication entre HubRise et la solution d'encaissement PAR PixelPoint via l'API Web conçue à cet effet. PixelPoint Bridge permet de transmettre n'importe quelle commande de HubRise à la solution d'encaissement. Ces commandes peuvent provenir de solutions de commande en ligne, de kiosques d'auto-commande, de plateformes de commande et livraison de repas en ligne, ou de toute autre solution de ce type connectée à votre compte HubRise.
+PixelPoint Bridge est une application développée par HubRise qui permet la communication entre HubRise et la solution d'encaissement PAR PixelPoint via son API Web. PixelPoint Bridge permet de transmettre n'importe quelle commande de HubRise à la solution d'encaissement. Ces commandes peuvent provenir de solutions de commande en ligne, de kiosques de commande, de plateformes de commande et livraison de repas en ligne, ou de toute autre solution de ce type connectée à votre compte HubRise.
 
 PixelPoint Bridge dispose également d'une interface utilisateur permettant de visualiser les requêtes envoyées à la solution d'encaissement et les réponses reçues. Pour plus de détails techniques sur les requêtes d'API et les réponses associées, voir la rubrique [Comprendre les logs](/apps/pixelpoint-bridge/understanding-logs) (en anglais uniquement).
 

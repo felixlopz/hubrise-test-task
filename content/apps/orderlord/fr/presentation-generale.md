@@ -41,7 +41,7 @@ Connecter OrderLord à HubRise permet à votre solution d'encaissement de :
 - Envoyer un catalogue à HubRise.
 - Synchroniser le délai de livraison avec HubRise.
 
-OrderLord peut être connecté à HubRise via la ligne d'assistance d'OrderLord.
+OrderLord peut être connecté à HubRise via le support d'OrderLord.
 
 ## Pourquoi se connecter ?
 

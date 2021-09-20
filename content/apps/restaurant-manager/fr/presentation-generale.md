@@ -22,7 +22,7 @@ app_info:
 
 ## Description
 
-L'intégration de Restaurant Manager est gérée par Crystal Mind. Crystal Mind est un prestataire de services d'ingénierie et un revendeur agréé de Restaurant Manager basé en Égypte.
+Le connecteur d'intégration de Restaurant Manager est maintenu par Crystal Mind. Crystal Mind est un prestataire de services d'ingénierie et un revendeur agréé de Restaurant Manager basé en Égypte.
 
 ## Fonctionnalités de l'intégration
 
@@ -32,7 +32,7 @@ Connecter Restaurant Manager à HubRise permet à votre solution d'encaissement 
 - Recevoir les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
 
-Restaurant Manager peut être connecté à HubRise via la ligne d'assistance de Crystal Mind.
+Restaurant Manager peut être connecté à HubRise via le support de Crystal Mind.
 
 ## Pourquoi se connecter ?
 

@@ -22,7 +22,7 @@ app_info:
 
 ## Description
 
-L'intégration de Sicom EPOS à HubRise est gérée par MyTec. MyTec est un prestataire de services d'ingénierie et un revendeur agréé de Sicom basé en Italie.
+Le connecteur d'intégration de Sicom EPOS à HubRise est maintenu par MyTec. MyTec est un prestataire de services d'ingénierie et un revendeur agréé de Sicom basé en Italie.
 
 ## Fonctionnalités de l'intégration
 
@@ -31,7 +31,7 @@ Connecter Sicom à HubRise permet à votre solution d'encaissement de :
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
 
-Sicom peut être connecté à HubRise via la ligne d'assistance de MyTec.
+Sicom peut être connecté à HubRise via le support de MyTec.
 
 ## Pourquoi se connecter ?
 

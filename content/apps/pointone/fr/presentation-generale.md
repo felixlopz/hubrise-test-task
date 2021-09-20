@@ -22,7 +22,7 @@ app_info:
 
 ## Description
 
-pointOne est une solution d'encaissement à écran tactile qui répond à tous les besoins du secteur des cafés hôtels restaurants (CHR). Elle comprend une série d'outils, dont la commande en ligne, l'auto-commande, des kiosques, des écrans de cuisine, ainsi que des fonctions de génération de rapports et de contrôle des stocks.
+pointOne est une solution d'encaissement à écran tactile qui répond à tous les besoins du secteur des cafés hôtels restaurants (CHR). Elle comprend une série d'outils, dont la commande en ligne, la commande sur kiosques, des écrans cuisine, ainsi que des fonctions de génération de rapports et de contrôle des stocks.
 
 ## Fonctionnalités de l'intégration
 
@@ -32,7 +32,7 @@ Connecter pointOne à HubRise permet à votre solution d'encaissement de :
 - Recevoir les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
 
-pointOne peut être connecté à HubRise via la ligne d'assistance de pointOne.
+pointOne peut être connecté à HubRise via le support de pointOne.
 
 ## Pourquoi se connecter ?
 

@@ -24,7 +24,7 @@ app_info:
 
 3S POS propose une série complète de solutions d'encaissement à l'intention des cafés hôtels restaurants (CHR). Adaptée aux établissements unitaires ou multiples, la solution 3S POS est personnalisable pour répondre aux exigences commerciales et opérationnelles spécifiques.
 
-Créée en 2005, et en constante évolution depuis, 3S POS est une solution d'encaissement dotée de riches fonctionnalités dont la gestion des stocks, la gestion de la relation client (CRM), la gestion de la fidélité et des promotions, des écrans d'affichage cuisine (KDS), la commande à distance, la gestion de siège social, de la présence et du personnel, la réservation et la gestion des tables, la commande en ligne, ainsi qu'une solution de paiement mobile.
+Créée en 2005, et en constante évolution depuis, 3S POS est une solution d'encaissement dotée de riches fonctionnalités dont la gestion des stocks, la gestion de la relation client (CRM), la gestion de la fidélité et des promotions, des écrans d'affichage cuisine (KDS), la commande à distance, la centralisation au niveau siège, la gestion de la présence et du personnel, la réservation et la gestion des tables, la commande en ligne, ainsi qu'une solution de paiement mobile.
 
 ## Fonctionnalités de l'intégration
 
@@ -34,7 +34,7 @@ Connecter 3S POS à HubRise permet à votre solution d'encaissement de :
 - Recevoir les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
 
-3S POS peut être connecté à HubRise via la ligne d'assistance de 3S POS.
+3S POS peut être connecté à HubRise via le support de 3S POS.
 
 ## Pourquoi se connecter ?
 
