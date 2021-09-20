@@ -1,9 +1,9 @@
-import * as React from 'react'
-import cx from 'classnames'
+import * as React from "react"
+import cx from "classnames"
 
-import { LocaleCode, localeCodes } from '@utils/locales'
-import { LanguagePaths } from '@utils/context'
-import Link from '@components/Link'
+import { LocaleCode, localeCodes } from "@utils/locales"
+import { LanguagePaths } from "@utils/context"
+import Link from "@components/Link"
 
 interface LanguageSwitcherProps {
   languagePaths: LanguagePaths
@@ -16,12 +16,12 @@ const LanguageLinks = ({
   languagePaths,
   liActiveClassname,
   liClassname,
-  linkClassname
+  linkClassname,
 }: LanguageSwitcherProps): JSX.Element => {
   function humanLocale(localeCode: LocaleCode): string {
     return {
-      en: 'English',
-      fr: 'Français'
+      en: "English",
+      fr: "Français",
     }[localeCode]
   }
 

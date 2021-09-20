@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import cx from 'classnames'
+import * as React from "react"
+import { faTimesCircle } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import cx from "classnames"
 
-import { animate, getIcon } from './helpers'
-import { IToast } from './helpers'
+import { animate, getIcon } from "./helpers"
+import { IToast } from "./helpers"
 
 type ToastProps = {
   toast: IToast
@@ -31,15 +31,13 @@ const Toast = ({ toast, onClose }: ToastProps): JSX.Element => {
   }, [hideToast, toast.timeout])
 
   return (
-    <div className={cx('toast__inner', toast.variant)} ref={toastRef}>
+    <div className={cx("toast__inner", toast.variant)} ref={toastRef}>
       <div className="toast__icon">
         <FontAwesomeIcon icon={getIcon(toast.variant)} color="white" />
       </div>
 
       <div className="toast__content">
-        {toast.title ? (
-          <span className="toast__title">{toast.title}</span>
-        ) : null}
+        {toast.title ? <span className="toast__title">{toast.title}</span> : null}
         <p className="toast__description">{toast.text}</p>
       </div>
 

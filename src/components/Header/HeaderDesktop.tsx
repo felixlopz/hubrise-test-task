@@ -1,22 +1,19 @@
-import * as React from 'react'
-import { useTranslation } from 'react-i18next'
+import * as React from "react"
+import { useTranslation } from "react-i18next"
 
-import Link from '@components/Link'
-import logo from '@images/logo.png'
-import { generateKey } from '@utils/misc'
-import { LanguagePaths } from '@utils/context'
-import { IHeaderLink } from './helpers'
-import LanguageLinks from './LanguageLinks'
+import Link from "@components/Link"
+import logo from "@images/logo.png"
+import { generateKey } from "@utils/misc"
+import { LanguagePaths } from "@utils/context"
+import { IHeaderLink } from "./helpers"
+import LanguageLinks from "./LanguageLinks"
 
 interface HeaderDesktopProps {
   languagePaths: LanguagePaths
   menuItems: Array<IHeaderLink>
 }
 
-const HeaderDesktop = ({
-  languagePaths,
-  menuItems
-}: HeaderDesktopProps): JSX.Element => {
+const HeaderDesktop = ({ languagePaths, menuItems }: HeaderDesktopProps): JSX.Element => {
   const { t } = useTranslation()
 
   return (
@@ -56,18 +53,10 @@ const HeaderDesktop = ({
       </ul>
 
       <div className="header__actions">
-        <Link
-          className="header__action-signup"
-          to="https://manager.hubrise.com/signup"
-          newTab={false}
-        >
+        <Link className="header__action-signup" to="https://manager.hubrise.com/signup" newTab={false}>
           {t(`layout.header.buttons.signup`)}
         </Link>
-        <Link
-          className="header__action-login"
-          to="https://manager.hubrise.com/login"
-          newTab={false}
-        >
+        <Link className="header__action-login" to="https://manager.hubrise.com/login" newTab={false}>
           {t(`layout.header.buttons.login`)}
         </Link>
       </div>

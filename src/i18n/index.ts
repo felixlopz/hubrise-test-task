@@ -1,9 +1,9 @@
-import i18n from 'i18next'
-import { initReactI18next } from 'react-i18next'
-import languageDetector from 'i18next-browser-languagedetector'
+import i18n from "i18next"
+import { initReactI18next } from "react-i18next"
+import languageDetector from "i18next-browser-languagedetector"
 
-import translationEn from '../../public/locales/en/translation.json'
-import translationFr from '../../public/locales/fr/translation.json'
+import translationEn from "../../public/locales/en/translation.json"
+import translationFr from "../../public/locales/fr/translation.json"
 
 i18n
   .use(languageDetector)
@@ -12,7 +12,7 @@ i18n
   .init({
     resources: {
       en: { translation: translationEn },
-      fr: { translation: translationFr }
+      fr: { translation: translationFr },
     },
     fallbackLng: `en`,
     whitelist: [`fr`, `en`],
@@ -23,8 +23,8 @@ i18n
     detection: {
       // All available parameters:
       // 'querystring', 'cookie', 'localStorage', 'navigator', 'path', 'subdomain'
-      order: ['path']
-    }
+      order: ["path"],
+    },
   })
 
 export default i18n

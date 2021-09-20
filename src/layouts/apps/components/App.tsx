@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { GatsbyImage } from 'gatsby-plugin-image'
-import { useTranslation } from 'react-i18next'
+import * as React from "react"
+import { GatsbyImage } from "gatsby-plugin-image"
+import { useTranslation } from "react-i18next"
 
-import { IAdditionalSections, IApp } from '../interface'
-import Link from '@components/Link'
-import { generateKey } from '@utils/misc'
-import { ImageNode } from '@utils/image'
+import { IAdditionalSections, IApp } from "../interface"
+import Link from "@components/Link"
+import { generateKey } from "@utils/misc"
+import { ImageNode } from "@utils/image"
 
 interface AppSectionProps {
   title: string
@@ -24,7 +24,7 @@ const App = ({
   apps,
   logoNodes,
   additionalSections,
-  hasSuggestApp
+  hasSuggestApp,
 }: AppSectionProps): JSX.Element => {
   const { t } = useTranslation()
 
@@ -38,40 +38,26 @@ const App = ({
           if (!logo) throw new Error(`${title} does not have a logo`)
 
           return (
-            <Link
-              key={generateKey(title, idx)}
-              to={app.documentation || app.website}
-              className="apps__box"
-            >
+            <Link key={generateKey(title, idx)} to={app.documentation || app.website} className="apps__box">
               <GatsbyImage
                 image={logo.childImageSharp.gatsbyImageData}
                 className="apps__logo"
-                imgStyle={{ objectFit: 'scale-down' }}
+                imgStyle={{ objectFit: "scale-down" }}
                 alt={title}
               />
 
               <div className="apps__documentation">
-                {app.documentation
-                  ? t('apps.view_documentation')
-                  : t('apps.visit_website')}
+                {app.documentation ? t("apps.view_documentation") : t("apps.visit_website")}
               </div>
 
               <div className="apps__description">{app.description}</div>
 
-              {app.additional_info && (
-                <div className="apps__additional-info">
-                  {app.additional_info}
-                </div>
-              )}
+              {app.additional_info && <div className="apps__additional-info">{app.additional_info}</div>}
             </Link>
           )
         })}
 
-        {hasSuggestApp && (
-          <SuggestApp
-            description={additionalSections.suggest_app.description}
-          />
-        )}
+        {hasSuggestApp && <SuggestApp description={additionalSections.suggest_app.description} />}
       </div>
     </section>
   )

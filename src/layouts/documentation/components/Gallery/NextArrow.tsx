@@ -1,6 +1,6 @@
-import * as React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import * as React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 interface NextArrowProps {
   currentImageNumber: number
@@ -8,16 +8,11 @@ interface NextArrowProps {
   onClick?: Function
 }
 
-const NextArrow = ({
-  currentImageNumber,
-  totalNumberOfImages,
-  onClick
-}: NextArrowProps): JSX.Element => {
+const NextArrow = ({ currentImageNumber, totalNumberOfImages, onClick }: NextArrowProps): JSX.Element => {
   return (
     <button
       style={{
-        visibility:
-          currentImageNumber < totalNumberOfImages ? `unset` : `hidden`
+        visibility: currentImageNumber < totalNumberOfImages ? `unset` : `hidden`,
       }}
       className="image-slider__arrow_next"
       onClick={(e) => {

@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { graphql } from 'gatsby'
+import * as React from "react"
+import { graphql } from "gatsby"
 
-import { IPricing } from './interface'
-import Offer from './components/Offer'
-import Specials from './components/Specials'
-import SEO from '@components/Seo'
-import { YamlContext } from '@utils/context'
+import { IPricing } from "./interface"
+import Offer from "./components/Offer"
+import Specials from "./components/Specials"
+import SEO from "@components/Seo"
+import { YamlContext } from "@utils/context"
 
 interface PricingProps {
   data: PricingData

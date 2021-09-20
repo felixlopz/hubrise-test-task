@@ -1,6 +1,6 @@
-import * as React from 'react'
+import * as React from "react"
 
-import Link from '@components/Link'
+import Link from "@components/Link"
 
 interface JoinProps {
   title: string
@@ -10,13 +10,7 @@ interface JoinProps {
   link_url?: string
 }
 
-const Join = ({
-  title,
-  button_label,
-  button_url,
-  link_label,
-  link_url
-}: JoinProps): JSX.Element => {
+const Join = ({ title, button_label, button_url, link_label, link_url }: JoinProps): JSX.Element => {
   return (
     <section className="frontpage-full frontpage-full_white">
       <div className="frontpage-full__inside">

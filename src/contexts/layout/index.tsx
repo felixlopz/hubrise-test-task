@@ -1,6 +1,6 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { useLayoutContextData, SiteMetadata } from './graphql'
+import { useLayoutContextData, SiteMetadata } from "./graphql"
 
 export interface LayoutContextInterface {
   siteMetadata: SiteMetadata
@@ -16,9 +16,7 @@ export interface LayoutContextInterface {
   }
 }
 
-const LayoutContext = React.createContext<LayoutContextInterface>(
-  {} as LayoutContextInterface
-)
+const LayoutContext = React.createContext<LayoutContextInterface>({} as LayoutContextInterface)
 
 interface LayoutContextProviderProps {
   children: React.ReactNode
@@ -37,13 +35,13 @@ function LayoutContextProvider({ children }: LayoutContextProviderProps) {
         forms: {
           contact: {
             isVisible: isContactVisible,
-            toggle: () => setContactVisibility(!isContactVisible)
+            toggle: () => setContactVisibility(!isContactVisible),
           },
           suggestApp: {
             isVisible: isSuggestAppVisible,
-            toggle: () => setSuggestAppVisibility(!isSuggestAppVisible)
-          }
-        }
+            toggle: () => setSuggestAppVisibility(!isSuggestAppVisible),
+          },
+        },
       }}
     >
       {children}
@@ -55,13 +53,11 @@ function useLayoutContext() {
   const context = React.useContext(LayoutContext)
 
   if (!context) {
-    throw new Error(
-      `useLayoutContext must be used within LayoutContextProvider`
-    )
+    throw new Error(`useLayoutContext must be used within LayoutContextProvider`)
   }
 
   return context
 }
 
 export { LayoutContextProvider, useLayoutContext }
-export type { SiteMetadata } from './graphql'
+export type { SiteMetadata } from "./graphql"

@@ -1,16 +1,16 @@
-import { graphql } from 'gatsby'
-import * as React from 'react'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
+import { graphql } from "gatsby"
+import * as React from "react"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import { ImageSharp } from '@utils/image'
-import SEO from '@components/Seo'
-import MDXProvider from '@components/MdxProvider'
-import Breadcrumbs from '@components/Breadcrumbs'
-import { AppInfo, Feedback, Gallery, SectionNavigation } from './components'
-import { DocumentationContext } from './interface'
-import { IAppInfo } from './components/AppInfo'
-import { Heading } from './components/SectionNavigation'
-import { useTranslation } from 'react-i18next'
+import { ImageSharp } from "@utils/image"
+import SEO from "@components/Seo"
+import MDXProvider from "@components/MdxProvider"
+import Breadcrumbs from "@components/Breadcrumbs"
+import { AppInfo, Feedback, Gallery, SectionNavigation } from "./components"
+import { DocumentationContext } from "./interface"
+import { IAppInfo } from "./components/AppInfo"
+import { Heading } from "./components/SectionNavigation"
+import { useTranslation } from "react-i18next"
 
 interface DocumentationProps {
   data: DocumentationData
@@ -51,10 +51,7 @@ interface DocumentationImage {
 }
 
 export const graphqlQuery = graphql`
-  query documentationData(
-    $mdXNodeId: String!
-    $imagesRelativeDirectory: String!
-  ) {
+  query documentationData($mdXNodeId: String!, $imagesRelativeDirectory: String!) {
     mdxNode: mdx(id: { eq: $mdXNodeId }) {
       body
       frontmatter {
@@ -101,20 +98,10 @@ export const graphqlQuery = graphql`
   }
 `
 
-const Documentation = ({
-  data,
-  path,
-  pageContext
-}: DocumentationProps): JSX.Element => {
+const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Element => {
   const { t } = useTranslation()
 
-  const {
-    breadcrumbs,
-    folderTitle,
-    folderPages,
-    localeCode,
-    logoImageName
-  } = pageContext
+  const { breadcrumbs, folderTitle, folderPages, localeCode, logoImageName } = pageContext
 
   const currentMdxNode = data.mdxNode
 
@@ -132,9 +119,8 @@ const Documentation = ({
   }
 
   const languageWarning =
-    pageContext.contentLocaleCode &&
-    pageContext.contentLocaleCode !== pageContext.localeCode
-      ? t('documentation.language_warning.' + pageContext.contentLocaleCode)
+    pageContext.contentLocaleCode && pageContext.contentLocaleCode !== pageContext.localeCode
+      ? t("documentation.language_warning." + pageContext.contentLocaleCode)
       : undefined
 
   return (
@@ -152,11 +138,7 @@ const Documentation = ({
           section__in_developers
         `}
         >
-          {languageWarning && (
-            <header className="section__language-warning">
-              {languageWarning}
-            </header>
-          )}
+          {languageWarning && <header className="section__language-warning">{languageWarning}</header>}
 
           <div className="section__content">
             <div className="documentation">
@@ -173,9 +155,7 @@ const Documentation = ({
             headings={headings}
           />
 
-          {galleryImageMap.size > 0 && (
-            <Gallery title={folderTitle} imageMap={galleryImageMap} />
-          )}
+          {galleryImageMap.size > 0 && <Gallery title={folderTitle} imageMap={galleryImageMap} />}
 
           {appInfo && <AppInfo appInfo={appInfo} />}
         </div>
@@ -188,14 +168,9 @@ const Documentation = ({
 
 export default Documentation
 
-function findImage(
-  images: DocumentationData['images'],
-  name?: string
-): ImageSharp | undefined {
-  const imageNode = images.nodes.find(
-    (node) => `${node.name}${node.ext}` === name
-  )
+function findImage(images: DocumentationData["images"], name?: string): ImageSharp | undefined {
+  const imageNode = images.nodes.find((node) => `${node.name}${node.ext}` === name)
   return imageNode?.childImageSharp
 }
 
-export type { DocumentationContext, FolderPage } from './interface'
+export type { DocumentationContext, FolderPage } from "./interface"

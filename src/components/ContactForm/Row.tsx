@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from "react"
 
-import Field, { IField } from './Field'
-import { generateKey } from '@utils/misc'
+import Field, { IField } from "./Field"
+import { generateKey } from "@utils/misc"
 
 interface RowProps {
   fields: Array<IField>
@@ -12,7 +12,7 @@ const Row = ({ fields, formikProps }: RowProps): JSX.Element => {
   const isSingleField = fields.length === 1
 
   return (
-    <div className={`form__block${isSingleField ? '' : '-row'}`}>
+    <div className={`form__block${isSingleField ? "" : "-row"}`}>
       {fields.map((fieldProps, idx) => {
         const key = generateKey(fieldProps.id, idx)
         return isSingleField ? (

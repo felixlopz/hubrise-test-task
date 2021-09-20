@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from "react"
 
-import Link from '@components/Link'
-import { Breadcrumb } from './interface'
+import Link from "@components/Link"
+import { Breadcrumb } from "./interface"
 
 interface BreadcrumbsProps {
   breadcrumbs: Array<Breadcrumb>
@@ -14,11 +14,7 @@ const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {
         {breadcrumbs.map((breadcrumb, index) => (
           <li key={index} className="breadcrumbs-wrapper__list-item">
             {breadcrumb.path ? (
-              <Link
-                to={breadcrumb.path}
-                addLocalePrefix={false}
-                className="breadcrumbs-wrapper__list-item_link"
-              >
+              <Link to={breadcrumb.path} addLocalePrefix={false} className="breadcrumbs-wrapper__list-item_link">
                 {breadcrumb.label}
               </Link>
             ) : (
@@ -33,4 +29,4 @@ const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {
 
 export default Breadcrumbs
 
-export type { Breadcrumb } from './interface'
+export type { Breadcrumb } from "./interface"

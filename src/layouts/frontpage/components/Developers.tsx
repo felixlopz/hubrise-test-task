@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { GatsbyImage } from 'gatsby-plugin-image'
+import * as React from "react"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-import { markdownToHtml } from '@utils/misc'
-import { ImageNode } from '@utils/image'
+import { markdownToHtml } from "@utils/misc"
+import { ImageNode } from "@utils/image"
 
 interface DevelopersProps {
   title: string
@@ -19,12 +19,7 @@ interface DevelopersProps {
 
 export type TeamImageNode = ImageNode & { base: string }
 
-const Developers = ({
-  title,
-  description,
-  team_members,
-  teamImages
-}: DevelopersProps): JSX.Element => {
+const Developers = ({ title, description, team_members, teamImages }: DevelopersProps): JSX.Element => {
   return (
     <section className="frontpage-developers">
       <div className="frontpage-developers__inside">
@@ -37,11 +32,8 @@ const Developers = ({
 
           <ul className="frontpage-developers__team">
             {team_members.map(({ name, filename }, idx) => {
-              const image = teamImages.nodes.find(
-                ({ base }) => base === filename
-              )
-              if (!image)
-                throw new Error(`Team member ${name} does not have a picture`)
+              const image = teamImages.nodes.find(({ base }) => base === filename)
+              if (!image) throw new Error(`Team member ${name} does not have a picture`)
 
               return (
                 <li className="frontpage-developers__team-member" key={idx}>
@@ -50,9 +42,7 @@ const Developers = ({
                     image={image.childImageSharp.gatsbyImageData}
                     alt={name}
                   />
-                  <div className="frontpage-developers__member-name">
-                    {name}
-                  </div>
+                  <div className="frontpage-developers__member-name">{name}</div>
                 </li>
               )
             })}

@@ -1,8 +1,8 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { ImageNode } from '@utils/image'
-import { markdownToHtml } from '@utils/misc'
-import { GatsbyImage } from 'gatsby-plugin-image'
+import { ImageNode } from "@utils/image"
+import { markdownToHtml } from "@utils/misc"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 interface DocumentationProps {
   title: string
@@ -10,11 +10,7 @@ interface DocumentationProps {
   image: ImageNode
 }
 
-const Documentation = ({
-  title,
-  description,
-  image
-}: DocumentationProps): JSX.Element => {
+const Documentation = ({ title, description, image }: DocumentationProps): JSX.Element => {
   return (
     <section className="frontpage__row frontpage__row_oneside">
       <div className="frontpage__row_oneside__in frontpage__row_oneside__in_right">
@@ -28,10 +24,7 @@ const Documentation = ({
           </div>
 
           <div className="frontpage-documentation__image">
-            <GatsbyImage
-              image={image.childImageSharp.gatsbyImageData}
-              alt="Documentation"
-            />
+            <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt="Documentation" />
           </div>
         </div>
       </div>

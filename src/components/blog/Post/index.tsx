@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { useTranslation } from 'react-i18next'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
+import * as React from "react"
+import { useTranslation } from "react-i18next"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import Link from '@components/Link'
-import { BlogNode } from './interface'
+import Link from "@components/Link"
+import { BlogNode } from "./interface"
 
 interface PostProps {
   mdxNode: BlogNode
@@ -22,20 +22,15 @@ const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
       <div className="blog-post">
         <h3 className="blog-post__title">{frontmatter.title}</h3>
         <div className="blog-post__date">
-          {t('misc.posted_on')}{' '}
-          <span className="blog-post__date-value">{dateAsString}</span>{' '}
-          {t('misc.by')} {frontmatter.author}
+          {t("misc.posted_on")} <span className="blog-post__date-value">{dateAsString}</span> {t("misc.by")}{" "}
+          {frontmatter.author}
         </div>
 
         {showMore && (
           <>
             <div className="blog-post__excerpt">{frontmatter.excerpt}</div>
-            <Link
-              to={fields.path}
-              addLocalePrefix={false}
-              className="blog-post__read-more"
-            >
-              {t('misc.read_more')}
+            <Link to={fields.path} addLocalePrefix={false} className="blog-post__read-more">
+              {t("misc.read_more")}
             </Link>
           </>
         )}
@@ -52,4 +47,4 @@ const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
 
 export default Post
 
-export type { BlogNode } from './interface'
+export type { BlogNode } from "./interface"

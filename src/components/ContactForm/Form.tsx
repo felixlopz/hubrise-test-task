@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { Form as FormikForm } from 'formik'
-import { TFunction } from 'i18next'
+import * as React from "react"
+import { Form as FormikForm } from "formik"
+import { TFunction } from "i18next"
 
-import Row from './Row'
-import { generateKey } from '@utils/misc'
+import Row from "./Row"
+import { generateKey } from "@utils/misc"
 
 interface FormProps {
   buttonClasses?: Array<string>
@@ -25,34 +25,21 @@ const Form = ({
   formProps = { classNames: null },
   structure,
   t,
-  formikProps
+  formikProps,
 }: FormProps): JSX.Element => {
   const { classNames: formClasses, ...otherFormProps } = formProps
 
   return (
-    <FormikForm
-      className={`form ${formClasses ? formClasses.join(' ') : ''}`}
-      {...otherFormProps}
-    >
+    <FormikForm className={`form ${formClasses ? formClasses.join(" ") : ""}`} {...otherFormProps}>
       {defineContent(structure, t).map(({ subtitle, rows }, idx) => (
         <section key={generateKey(subtitle, idx)}>
           {subtitle && <h6 className="form__sub-title">{subtitle}</h6>}
           {rows.map(({ fields }) => (
-            <Row
-              key={generateKey(`${subtitle}${fields[0].id}`, idx)}
-              fields={fields}
-              formikProps={formikProps}
-            />
+            <Row key={generateKey(`${subtitle}${fields[0].id}`, idx)} fields={fields} formikProps={formikProps} />
           ))}
         </section>
       ))}
-      <button
-        className={`form__button ${
-          buttonClasses ? buttonClasses.join(' ') : ''
-        }`}
-        type="submit"
-        name="submit"
-      >
+      <button className={`form__button ${buttonClasses ? buttonClasses.join(" ") : ""}`} type="submit" name="submit">
         {buttonText || t(`forms.${structure.formId}.button`)}
       </button>
     </FormikForm>

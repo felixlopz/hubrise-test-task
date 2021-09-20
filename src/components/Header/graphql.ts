@@ -1,6 +1,6 @@
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from "gatsby"
 
-import { IHeaderLink } from './helpers'
+import { IHeaderLink } from "./helpers"
 
 export interface HeaderData {
   allFile: {

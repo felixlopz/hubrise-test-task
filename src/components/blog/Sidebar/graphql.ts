@@ -1,6 +1,6 @@
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from "gatsby"
 
-import { LocaleCode } from '@utils/locales'
+import { LocaleCode } from "@utils/locales"
 
 export interface SidebarArticle {
   date: string
@@ -50,7 +50,7 @@ export function useSidebarData(): Array<SidebarArticle> {
       date,
       title,
       localeCode,
-      path
+      path,
     })
   }
   return result

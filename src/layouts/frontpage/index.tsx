@@ -1,19 +1,11 @@
-import * as React from 'react'
-import { graphql } from 'gatsby'
+import * as React from "react"
+import { graphql } from "gatsby"
 
-import { ImageNode } from '@utils/image'
-import {
-  Hero,
-  Apps,
-  Api,
-  Documentation,
-  Pricing,
-  Developers,
-  Join
-} from './components'
-import SEO from '@components/Seo'
-import { YamlContext } from '@utils/context'
-import { TeamImageNode } from './components/Developers'
+import { ImageNode } from "@utils/image"
+import { Hero, Apps, Api, Documentation, Pricing, Developers, Join } from "./components"
+import SEO from "@components/Seo"
+import { YamlContext } from "@utils/context"
+import { TeamImageNode } from "./components/Developers"
 
 interface FrontpageProps {
   data: FrontpageData
@@ -45,23 +37,17 @@ export const graphqlQuery = graphql`
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    appsHover: file(
-      absolutePath: { glob: "**/content/images/frontpage/apps-hover.png" }
-    ) {
+    appsHover: file(absolutePath: { glob: "**/content/images/frontpage/apps-hover.png" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    apiImage: file(
-      absolutePath: { glob: "**/content/images/frontpage/api.png" }
-    ) {
+    apiImage: file(absolutePath: { glob: "**/content/images/frontpage/api.png" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
     }
-    documentationImage: file(
-      absolutePath: { glob: "**/content/images/frontpage/documentation.png" }
-    ) {
+    documentationImage: file(absolutePath: { glob: "**/content/images/frontpage/documentation.png" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED)
       }
@@ -83,14 +69,7 @@ export const graphqlQuery = graphql`
 `
 
 const Frontpage = ({ data, pageContext }: FrontpageProps): JSX.Element => {
-  const {
-    file,
-    apps,
-    appsHover,
-    apiImage,
-    documentationImage,
-    teamImages
-  } = data
+  const { file, apps, appsHover, apiImage, documentationImage, teamImages } = data
   const { meta, hero, content } = file.childYaml.parsedContent
 
   return (

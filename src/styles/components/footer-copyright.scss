@@ -41,7 +41,7 @@
     @include hr-link-hover($hr-green);
 
     &:after {
-      content: '●';
+      content: "●";
       display: inline-block;
       margin-left: $foot-copyright-contact-gap;
       position: relative;

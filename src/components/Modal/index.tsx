@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from "react"
 
 interface ModalProps {
   title: string
@@ -12,7 +12,7 @@ const Modal = ({ title, onClose, children }: ModalProps) => {
       className="reveal-overlay"
       style={{
         display: `grid`,
-        placeItems: `center`
+        placeItems: `center`,
       }}
       onClick={onClose}
     >
@@ -24,7 +24,7 @@ const Modal = ({ title, onClose, children }: ModalProps) => {
         onClick={(e) => e.stopPropagation()}
         style={{
           display: `block`,
-          top: 0
+          top: 0,
         }}
       >
         <h5 className="modal__title">{title}</h5>

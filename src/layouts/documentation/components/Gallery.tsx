@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
-import { GatsbyImage } from 'gatsby-plugin-image'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import * as React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTimes } from "@fortawesome/free-solid-svg-icons"
+import { GatsbyImage } from "gatsby-plugin-image"
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
-import NextArrow from './Gallery/NextArrow'
-import PrevArrow from './Gallery/PrevArrow'
-import { generateKey } from '@utils/misc'
-import { ImageSharp } from '@utils/image'
+import NextArrow from "./Gallery/NextArrow"
+import PrevArrow from "./Gallery/PrevArrow"
+import { generateKey } from "@utils/misc"
+import { ImageSharp } from "@utils/image"
 
 interface GalleryProps {
   imageMap: Map<string, ImageSharp>
@@ -29,13 +29,8 @@ const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <PrevArrow currentImageNumber={currentImageNumber} />,
-    nextArrow: (
-      <NextArrow
-        currentImageNumber={currentImageNumber}
-        totalNumberOfImages={totalNumberOfImages}
-      />
-    ),
-    afterChange: (currentSlide) => setCurrentImageNumber(currentSlide + 1)
+    nextArrow: <NextArrow currentImageNumber={currentImageNumber} totalNumberOfImages={totalNumberOfImages} />,
+    afterChange: (currentSlide) => setCurrentImageNumber(currentSlide + 1),
   }
 
   React.useEffect(() => {
@@ -60,15 +55,15 @@ const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
       }
     }
 
-    window.addEventListener('keydown', handler)
-    return () => window.removeEventListener('keydown', handler)
+    window.addEventListener("keydown", handler)
+    return () => window.removeEventListener("keydown", handler)
   }, [isSliderVisible])
 
   React.useEffect(() => {
     if (isSliderVisible) {
-      document.body.classList.add('no-vertical-scroll')
+      document.body.classList.add("no-vertical-scroll")
     }
-    return () => document.body.classList.remove('no-vertical-scroll')
+    return () => document.body.classList.remove("no-vertical-scroll")
   }, [isSliderVisible])
 
   return (
@@ -76,41 +71,24 @@ const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
       <div
         className="image-slider"
         style={{
-          display: isSliderVisible ? 'grid' : 'none'
+          display: isSliderVisible ? "grid" : "none",
         }}
         onClick={() => setIsSliderVisible(false)}
       >
-        <section
-          className="image-slider__topbar"
-          onClick={(e) => e.stopPropagation()}
-        >
+        <section className="image-slider__topbar" onClick={(e) => e.stopPropagation()}>
           <div className="image-slider__title">{title}</div>
           <div className="image-slider__count">
             {currentImageNumber} / {totalNumberOfImages}
           </div>
-          <button
-            className="image-slider__close"
-            onClick={() => setIsSliderVisible(false)}
-          >
+          <button className="image-slider__close" onClick={() => setIsSliderVisible(false)}>
             <FontAwesomeIcon icon={faTimes} />
           </button>
         </section>
 
-        <Slider
-          ref={slider}
-          className="image-slider__content"
-          {...sliderSettings}
-        >
+        <Slider ref={slider} className="image-slider__content" {...sliderSettings}>
           {Array.from(imageMap).map(([imageName, image], idx) => (
-            <div
-              key={generateKey(imageName, idx)}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <GatsbyImage
-                className="image-slider__slide"
-                image={image.gatsbyImageData}
-                alt={imageName}
-              />
+            <div key={generateKey(imageName, idx)} onClick={(e) => e.stopPropagation()}>
+              <GatsbyImage className="image-slider__slide" image={image.gatsbyImageData} alt={imageName} />
             </div>
           ))}
         </Slider>

@@ -1,4 +1,4 @@
-import { LocaleCode } from '@utils/locales'
+import { LocaleCode } from "@utils/locales"
 
 export interface BlogNode {
   fields: {

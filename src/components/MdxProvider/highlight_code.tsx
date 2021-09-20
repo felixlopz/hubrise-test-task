@@ -1,8 +1,8 @@
-import * as React from 'react'
-import Prism from 'prismjs'
-import Highlight, { Language } from 'prism-react-renderer'
+import * as React from "react"
+import Prism from "prismjs"
+import Highlight, { Language } from "prism-react-renderer"
 
-import { generateKey } from '@utils/misc'
+import { generateKey } from "@utils/misc"
 
 interface HighlightCodeProps {
   code: string
@@ -10,11 +10,7 @@ interface HighlightCodeProps {
   inline?: boolean
 }
 
-const HighlightCode = ({
-  code,
-  language = 'json',
-  inline = false
-}: HighlightCodeProps): JSX.Element => {
+const HighlightCode = ({ code, language = "json", inline = false }: HighlightCodeProps): JSX.Element => {
   if (inline) {
     return (
       <Highlight code={code} language={language} Prism={Prism}>
@@ -37,11 +33,7 @@ const HighlightCode = ({
                 !line[0].empty && (
                   <span {...getLineProps({ line, key: i })}>
                     {line.map((token, key) => {
-                      return (
-                        token.content && (
-                          <span {...getTokenProps({ token, key })} />
-                        )
-                      )
+                      return token.content && <span {...getTokenProps({ token, key })} />
                     })}
                   </span>
                 )
@@ -49,9 +41,7 @@ const HighlightCode = ({
             })}
             <span aria-hidden className="line-numbers-rows">
               {tokens.map((line, idx) => {
-                return !line[0].empty ? (
-                  <span key={generateKey(line[0].content, idx)} />
-                ) : null
+                return !line[0].empty ? <span key={generateKey(line[0].content, idx)} /> : null
               })}
             </span>
           </div>

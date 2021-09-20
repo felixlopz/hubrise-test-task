@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { graphql } from 'gatsby'
+import * as React from "react"
+import { graphql } from "gatsby"
 
-import { generateKey } from '@utils/misc'
-import SEO, { Meta } from '@components/Seo'
-import Hero, { IHero } from './components/Hero'
-import Thumb from './components/Thumb'
-import { DocumentationIndexContext } from './interface'
+import { generateKey } from "@utils/misc"
+import SEO, { Meta } from "@components/Seo"
+import Hero, { IHero } from "./components/Hero"
+import Thumb from "./components/Thumb"
+import { DocumentationIndexContext } from "./interface"
 
 interface DocumentationIndexProps {
   data: DocumentationIndexData
@@ -62,10 +62,7 @@ export const graphqlQuery = graphql`
   }
 `
 
-const DocumentationIndex = ({
-  data,
-  pageContext
-}: DocumentationIndexProps): JSX.Element => {
+const DocumentationIndex = ({ data, pageContext }: DocumentationIndexProps): JSX.Element => {
   const { meta, content } = data.mdx.frontmatter
 
   return (

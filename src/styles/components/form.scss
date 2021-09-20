@@ -101,7 +101,7 @@
 
     &:after {
       position: absolute;
-      content: '\f00d';
+      content: "\f00d";
       font-family: FontAwesome !important;
       font-size: 1rem;
       color: red;
@@ -128,21 +128,21 @@
     position: absolute;
     top: 3px;
     right: 0;
-    content: '\f00c';
+    content: "\f00c";
     font-family: FontAwesome !important;
     font-size: 1rem;
     color: $hr-green;
   }
 }
 
-.form__input[aria-invalid='true'],
+.form__input[aria-invalid="true"],
 .error .form__input,
-.form__textarea[aria-invalid='true'],
+.form__textarea[aria-invalid="true"],
 .error .form__textarea {
   background: #f4e6e4;
 }
 
-.form__input[aria-invalid='false'],
-.form__textarea[aria-invalid='false'] {
+.form__input[aria-invalid="false"],
+.form__textarea[aria-invalid="false"] {
   background: #e9f4e4;
 }

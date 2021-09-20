@@ -1,8 +1,8 @@
-import * as React from 'react'
+import * as React from "react"
 
-import Link from '@components/Link'
-import { useLayoutContext } from '@contexts/layout'
-import { IHero } from '../interface'
+import Link from "@components/Link"
+import { useLayoutContext } from "@contexts/layout"
+import { IHero } from "../interface"
 
 interface HeroProps {
   hero: IHero
@@ -33,10 +33,7 @@ const Hero = ({ hero }: HeroProps): JSX.Element => {
           <p>
             {hero.description.paragraph_2_text}
             {` `}
-            <Link
-              className="section__description-link"
-              to={hero.description.paragraph_2_link_to}
-            >
+            <Link className="section__description-link" to={hero.description.paragraph_2_link_to}>
               {hero.description.paragraph_2_link_text}
             </Link>
           </p>

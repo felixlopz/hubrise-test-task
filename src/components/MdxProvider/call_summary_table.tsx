@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from "react"
 
 interface CallSummaryTableProps {
   endpoint: string
@@ -6,11 +6,7 @@ interface CallSummaryTableProps {
   accessLevel: string
 }
 
-const CallSummaryTable = ({
-  endpoint,
-  shortEndpoint,
-  accessLevel
-}: CallSummaryTableProps): JSX.Element => {
+const CallSummaryTable = ({ endpoint, shortEndpoint, accessLevel }: CallSummaryTableProps): JSX.Element => {
   let url: string
   let extra: string
 
@@ -33,9 +29,7 @@ const CallSummaryTable = ({
               <TableCell>Short endpoint:</TableCell>
               <TableCell>
                 <span className="call-summary__url">{url!}</span>
-                {extra! && (
-                  <span className="call-summary__extra">{`(${extra!}`}</span>
-                )}
+                {extra! && <span className="call-summary__extra">{`(${extra!}`}</span>}
               </TableCell>
             </tr>
           )}

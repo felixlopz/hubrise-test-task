@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { useLayoutContext } from '@contexts/layout'
-import { IHero } from './interface'
+import { useLayoutContext } from "@contexts/layout"
+import { IHero } from "./interface"
 
 const Hero = (hero: IHero): JSX.Element => {
   const { forms } = useLayoutContext()
@@ -16,10 +16,7 @@ const Hero = (hero: IHero): JSX.Element => {
           <br />
           {description.paragraph_2 ? (
             <>
-              <button
-                className="section__description-link"
-                onClick={forms.contact.toggle}
-              >
+              <button className="section__description-link" onClick={forms.contact.toggle}>
                 {description.paragraph_2.button}
               </button>
               {description.paragraph_2.text}
@@ -33,4 +30,4 @@ const Hero = (hero: IHero): JSX.Element => {
 
 export default Hero
 
-export type { IHero } from './interface'
+export type { IHero } from "./interface"

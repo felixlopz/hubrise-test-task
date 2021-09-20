@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { GatsbyImage } from 'gatsby-plugin-image'
+import * as React from "react"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-import { ImageNode } from '@utils/image'
-import Link from '@components/Link'
-import { markdownToHtml } from '@utils/misc'
+import { ImageNode } from "@utils/image"
+import Link from "@components/Link"
+import { markdownToHtml } from "@utils/misc"
 
 interface AppsProps {
   title: string
@@ -13,13 +13,7 @@ interface AppsProps {
   appsHover: ImageNode
 }
 
-const Apps = ({
-  title,
-  description,
-  categories,
-  apps,
-  appsHover
-}: AppsProps): JSX.Element => {
+const Apps = ({ title, description, categories, apps, appsHover }: AppsProps): JSX.Element => {
   return (
     <section className="frontpage__row frontpage__row_oneside">
       <div className="frontpage__row_oneside__in frontpage__row_oneside__in_right">
@@ -41,16 +35,10 @@ const Apps = ({
 
           <Link to="/apps" className="frontpage-apps__image">
             <div className="frontpage-apps__image-normal">
-              <GatsbyImage
-                image={apps.childImageSharp.gatsbyImageData}
-                alt="Apps"
-              />
+              <GatsbyImage image={apps.childImageSharp.gatsbyImageData} alt="Apps" />
             </div>
             <div className="frontpage-apps__image-hover">
-              <GatsbyImage
-                image={appsHover.childImageSharp.gatsbyImageData}
-                alt="Apps"
-              />
+              <GatsbyImage image={appsHover.childImageSharp.gatsbyImageData} alt="Apps" />
             </div>
           </Link>
         </div>

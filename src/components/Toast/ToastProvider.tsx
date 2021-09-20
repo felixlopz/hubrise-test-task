@@ -1,27 +1,20 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { ToastContext, ToastAdder } from './context'
-import Toast from './Toast'
-import { IToast } from './helpers'
+import { ToastContext, ToastAdder } from "./context"
+import Toast from "./Toast"
+import { IToast } from "./helpers"
 
 const ToastProvider: React.FC = ({ children }) => {
   const [toasts, setToasts] = React.useState<Array<IToast>>([])
 
   const addToast: ToastAdder = React.useCallback(
-    (partialToast) =>
-      setToasts((prevToasts) => [
-        ...prevToasts,
-        { id: Date.now(), ...partialToast }
-      ]),
-    []
+    (partialToast) => setToasts((prevToasts) => [...prevToasts, { id: Date.now(), ...partialToast }]),
+    [],
   )
 
   const removeToast = React.useCallback(
-    (toastId) =>
-      setToasts((prevToasts) =>
-        prevToasts.filter((toast) => toast.id !== toastId)
-      ),
-    []
+    (toastId) => setToasts((prevToasts) => prevToasts.filter((toast) => toast.id !== toastId)),
+    [],
   )
 
   return (

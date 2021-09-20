@@ -54,7 +54,7 @@
 
     &::before,
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       width: 100%;
@@ -86,7 +86,7 @@
     margin-left: 0.75rem;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0.75rem;
       transform: translateY(-50%);

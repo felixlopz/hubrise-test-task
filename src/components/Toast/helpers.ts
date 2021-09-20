@@ -1,12 +1,8 @@
-import {
-  faCheck,
-  faTimes,
-  IconDefinition
-} from '@fortawesome/free-solid-svg-icons'
+import { faCheck, faTimes, IconDefinition } from "@fortawesome/free-solid-svg-icons"
 
 export interface IToast {
   id: number
-  variant: 'success' | 'error'
+  variant: "success" | "error"
   title: string
   text: string
   timeout?: number
@@ -14,11 +10,7 @@ export interface IToast {
 
 type TimingFunction = (t: number) => number
 
-export async function animate(
-  draw,
-  duration: number,
-  timing: TimingFunction = (fraction) => fraction
-): Promise<void> {
+export async function animate(draw, duration: number, timing: TimingFunction = (fraction) => fraction): Promise<void> {
   return new Promise((resolve, _reject) => {
     let start = performance.now()
 
@@ -42,11 +34,11 @@ export async function animate(
   })
 }
 
-export function getIcon(variant: IToast['variant']): IconDefinition {
+export function getIcon(variant: IToast["variant"]): IconDefinition {
   switch (variant) {
-    case 'success':
+    case "success":
       return faCheck
-    case 'error':
+    case "error":
       return faTimes
   }
 }

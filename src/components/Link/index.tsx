@@ -1,8 +1,8 @@
-import React, { ReactNode } from 'react'
-import { useTranslation } from 'react-i18next'
-import { Link as GatsbyLink } from 'gatsby'
+import React, { ReactNode } from "react"
+import { useTranslation } from "react-i18next"
+import { Link as GatsbyLink } from "gatsby"
 
-import { defaultLocaleCode, getLocale } from '@utils/locales'
+import { defaultLocaleCode, getLocale } from "@utils/locales"
 
 interface LinkProps {
   to: string
@@ -22,7 +22,7 @@ const Link = ({
   if (!initialTo) return <></>
 
   const {
-    i18n: { language: localeCode }
+    i18n: { language: localeCode },
   } = useTranslation()
 
   let to = initialTo
@@ -51,7 +51,7 @@ const Link = ({
     if (newTab && !to.startsWith(`#`)) {
       newTabProps = {
         target: `_blank`,
-        rel: `noopener`
+        rel: `noopener`,
       }
     }
 

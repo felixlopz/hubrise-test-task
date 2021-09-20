@@ -1,5 +1,5 @@
-import { createHeaderAnchor } from '@utils/misc'
-import * as React from 'react'
+import { createHeaderAnchor } from "@utils/misc"
+import * as React from "react"
 
 /**
  * Defines custom h2-h3 headers with attached anchors.
@@ -19,11 +19,8 @@ export default function generateHeaders(headers: string[]): object {
         { id: headerAnchor },
         <>
           {headerText}
-          <a
-            href={`#${headerAnchor}`}
-            arial-label={`${headerText} permalink`}
-          />
-        </>
+          <a href={`#${headerAnchor}`} arial-label={`${headerText} permalink`} />
+        </>,
       )
     }
   }

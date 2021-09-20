@@ -1,13 +1,13 @@
-import * as React from 'react'
-import Helmet from 'react-helmet'
+import * as React from "react"
+import Helmet from "react-helmet"
 
-import AppleTouchIcon from '@images/favicons/apple-touch-icon.png'
-import SafariPinnedTab from '@images/favicons/safari-pinned-tab.svg'
-import Favicon32 from '@images/favicons/favicon-32x32.png'
-import Favicon16 from '@images/favicons/favicon-16x16.png'
-import { LocaleCode } from '@utils/locales'
-import { useLayoutContext } from '@contexts/layout'
-import { Meta } from './interface'
+import AppleTouchIcon from "@images/favicons/apple-touch-icon.png"
+import SafariPinnedTab from "@images/favicons/safari-pinned-tab.svg"
+import Favicon32 from "@images/favicons/favicon-32x32.png"
+import Favicon16 from "@images/favicons/favicon-16x16.png"
+import { LocaleCode } from "@utils/locales"
+import { useLayoutContext } from "@contexts/layout"
+import { Meta } from "./interface"
 
 interface SEOProps {
   localeCode: LocaleCode
@@ -23,46 +23,46 @@ const SEO = ({ localeCode, meta }: SEOProps): JSX.Element => {
   return (
     <Helmet
       htmlAttributes={{
-        localeCode
+        localeCode,
       }}
       title={metaTitle}
       meta={[
         {
           name: `description`,
-          content: metaDescription
+          content: metaDescription,
         },
         {
           property: `og:title`,
-          content: metaTitle
+          content: metaTitle,
         },
         {
           property: `og:description`,
-          content: metaDescription
+          content: metaDescription,
         },
         {
           property: `og:type`,
-          content: `website`
+          content: `website`,
         },
         {
           name: `twitter:card`,
-          content: `summary`
+          content: `summary`,
         },
         {
           name: `twitter:title`,
-          content: metaTitle
+          content: metaTitle,
         },
         {
           name: `twitter:description`,
-          content: metaDescription
+          content: metaDescription,
         },
         {
           name: `keywords`,
-          content: ``
+          content: ``,
         },
         {
           name: `copyright`,
-          content: `(c)`
-        }
+          content: `(c)`,
+        },
       ]}
     >
       <link rel="apple-touch-icon" sizes="180x180" href={AppleTouchIcon} />
@@ -75,4 +75,4 @@ const SEO = ({ localeCode, meta }: SEOProps): JSX.Element => {
 
 export default SEO
 
-export type { Meta } from './interface'
+export type { Meta } from "./interface"

@@ -1,16 +1,14 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { IOffer } from '../interface'
-import { generateKey } from '@utils/misc'
-import Link from '@components/Link'
+import { IOffer } from "../interface"
+import { generateKey } from "@utils/misc"
+import Link from "@components/Link"
 
 interface OfferProps {
   offer: IOffer
 }
 
-const Offer = ({
-  offer: { pricing, features, link }
-}: OfferProps): JSX.Element => {
+const Offer = ({ offer: { pricing, features, link } }: OfferProps): JSX.Element => {
   return (
     <div className="section section_full-width section_vw section_padding">
       <div className="section__in section__in_green section__in_padding">

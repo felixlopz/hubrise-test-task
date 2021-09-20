@@ -1,5 +1,5 @@
-import * as React from 'react'
-import { Field as FormikField, ErrorMessage } from 'formik'
+import * as React from "react"
+import { Field as FormikField, ErrorMessage } from "formik"
 
 interface FieldProps {
   fieldProps: IField
@@ -18,15 +18,7 @@ const Field = ({ fieldProps, formikProps }: FieldProps): JSX.Element => {
   const { touched, errors, submitCount } = formikProps
 
   return (
-    <div
-      className={`${
-        touched[name] && submitCount > 0
-          ? errors[name]
-            ? 'error'
-            : 'valid'
-          : ''
-      }`}
-    >
+    <div className={`${touched[name] && submitCount > 0 ? (errors[name] ? "error" : "valid") : ""}`}>
       <label htmlFor={name} />
       <FormikField
         className={`form__${component}`}
@@ -35,11 +27,7 @@ const Field = ({ fieldProps, formikProps }: FieldProps): JSX.Element => {
       />
       <ErrorMessage
         name={name}
-        render={(msg) =>
-          msg && submitCount > 0 ? (
-            <p className="error__message">{msg}</p>
-          ) : null
-        }
+        render={(msg) => (msg && submitCount > 0 ? <p className="error__message">{msg}</p> : null)}
       />
     </div>
   )

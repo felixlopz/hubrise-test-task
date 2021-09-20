@@ -1,10 +1,10 @@
-import * as React from 'react'
+import * as React from "react"
 
-import HeaderMobile from './HeaderMobile'
-import HeaderDesktop from './HeaderDesktop'
-import { getLocaleCodeFromAbsolutePath, LocaleCode } from '@utils/locales'
-import { LanguagePaths } from '@utils/context'
-import { useHeaderData } from './graphql'
+import HeaderMobile from "./HeaderMobile"
+import HeaderDesktop from "./HeaderDesktop"
+import { getLocaleCodeFromAbsolutePath, LocaleCode } from "@utils/locales"
+import { LanguagePaths } from "@utils/context"
+import { useHeaderData } from "./graphql"
 
 interface HeaderProps {
   languagePaths: LanguagePaths
@@ -13,11 +13,9 @@ interface HeaderProps {
 
 const Header = ({ languagePaths, localeCode }: HeaderProps): JSX.Element => {
   const headerNodeInLocale = useHeaderData().allFile.nodes.find(
-    ({ absolutePath }) =>
-      getLocaleCodeFromAbsolutePath(absolutePath) === localeCode
+    ({ absolutePath }) => getLocaleCodeFromAbsolutePath(absolutePath) === localeCode,
   )
-  if (!headerNodeInLocale)
-    throw `menu-header.yaml not defined for locale ${localeCode}`
+  if (!headerNodeInLocale) throw `menu-header.yaml not defined for locale ${localeCode}`
 
   const menuItems = headerNodeInLocale.childYaml.parsedContent
 

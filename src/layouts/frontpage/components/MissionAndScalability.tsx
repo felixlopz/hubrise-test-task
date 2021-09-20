@@ -1,6 +1,6 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { markdownToHtml } from '@utils/misc'
+import { markdownToHtml } from "@utils/misc"
 
 interface MissionAndScalabilityProps {
   // TODO: create proper type in src/data
@@ -14,10 +14,7 @@ interface MissionAndScalabilityProps {
   }
 }
 
-const MissionAndScalability = ({
-  mission,
-  scalability
-}: MissionAndScalabilityProps): JSX.Element => {
+const MissionAndScalability = ({ mission, scalability }: MissionAndScalabilityProps): JSX.Element => {
   return (
     <section className="frontpage-two-cols">
       <div className="frontpage-two-cols__first">
@@ -25,7 +22,7 @@ const MissionAndScalability = ({
         <div
           className="frontpage-two-cols__description"
           dangerouslySetInnerHTML={{
-            __html: markdownToHtml(mission.description)
+            __html: markdownToHtml(mission.description),
           }}
         />
       </div>
@@ -35,7 +32,7 @@ const MissionAndScalability = ({
         <div
           className="frontpage-two-cols__description"
           dangerouslySetInnerHTML={{
-            __html: markdownToHtml(scalability.description)
+            __html: markdownToHtml(scalability.description),
           }}
         />
       </div>

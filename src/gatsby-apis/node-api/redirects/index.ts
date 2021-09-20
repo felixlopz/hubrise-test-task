@@ -1,6 +1,6 @@
-import { CreatePagesArgs } from 'gatsby'
+import { CreatePagesArgs } from "gatsby"
 
-import { getRedirects } from './graphql'
+import { getRedirects } from "./graphql"
 
 export async function createPages({ graphql, actions }: CreatePagesArgs) {
   const redirects = await getRedirects(graphql)
@@ -10,7 +10,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs) {
       isPermanent: true,
       ...redirect,
       force: true,
-      redirectInBrowser: true
+      redirectInBrowser: true,
     })
   }
 }

@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { graphql, navigate } from 'gatsby'
-import { useTranslation } from 'react-i18next'
+import * as React from "react"
+import { graphql, navigate } from "gatsby"
+import { useTranslation } from "react-i18next"
 
-import SEO from '@components/Seo'
-import MDXProvider from '@components/MdxProvider'
-import Breadcrumbs, { Breadcrumb } from '@components/Breadcrumbs'
-import { Post, Sidebar } from '@components/blog'
-import { BlogNode } from '@components/blog/Post/interface'
-import { BlogPostContext } from './interface'
-import { Meta } from '@components/Seo'
-import { getLocalizedUrl } from '@utils/locales'
+import SEO from "@components/Seo"
+import MDXProvider from "@components/MdxProvider"
+import Breadcrumbs, { Breadcrumb } from "@components/Breadcrumbs"
+import { Post, Sidebar } from "@components/blog"
+import { BlogNode } from "@components/blog/Post/interface"
+import { BlogPostContext } from "./interface"
+import { Meta } from "@components/Seo"
+import { getLocalizedUrl } from "@utils/locales"
 
 export interface BlogPostProps {
   data: BlogPostData
@@ -21,7 +21,7 @@ interface BlogPostData {
 }
 
 interface BlogPostNode extends BlogNode {
-  frontmatter: BlogNode['frontmatter'] & {
+  frontmatter: BlogNode["frontmatter"] & {
     body: string
     meta: Meta
   }
@@ -56,16 +56,16 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
   const { t } = useTranslation()
 
   function handleQueryChange(newQuery: string): void {
-    let pathname = getLocalizedUrl('/blog', pageContext.localeCode)
+    let pathname = getLocalizedUrl("/blog", pageContext.localeCode)
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 
   const breadcrumbs: Array<Breadcrumb> = [
     {
       path: pageContext.mainBlogPath,
-      label: t('blog.title')
+      label: t("blog.title"),
     },
-    { label: mdxNode.frontmatter.title }
+    { label: mdxNode.frontmatter.title },
   ]
 
   return (

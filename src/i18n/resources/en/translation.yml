@@ -35,7 +35,7 @@ misc:
       part_3: We will reply to you.
     documentation:
       title: Feedback on this page
-      description: 'If you spotted an error or a need for improvement, you can:'
+      description: "If you spotted an error or a need for improvement, you can:"
       options:
         send_email: Send us an email
         edit_page: Or edit this page and submit a Pull Request

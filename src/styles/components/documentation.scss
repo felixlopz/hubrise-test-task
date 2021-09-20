@@ -1,5 +1,5 @@
 .documentation {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   h2,
   h3 {
@@ -12,7 +12,7 @@
       vertical-align: middle;
 
       &::after {
-        content: '#';
+        content: "#";
 
         @media print {
           display: none !important;
@@ -43,7 +43,7 @@
     }
 
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       right: inherit;
@@ -120,7 +120,7 @@
     padding-left: 1rem;
 
     &:before {
-      content: '';
+      content: "";
       width: 4px;
       height: 4px;
       background: $hr-gray;
@@ -150,7 +150,7 @@
     background-color: #fbfbfb;
     border-top: 1px solid $hr-light-gray;
     border-bottom: 1px solid $hr-light-gray;
-    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
     font-weight: normal;
 
     .prism-code_wrapper {
@@ -163,7 +163,7 @@
       display: block;
       border: none;
       padding: 0;
-      font-family: Consolas, 'Liberation Mono', Courier, monospace !important;
+      font-family: Consolas, "Liberation Mono", Courier, monospace !important;
       color: $hr-dark-gray;
 
       span:last-child {

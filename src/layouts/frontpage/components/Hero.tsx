@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { markdownToHtml } from '@utils/misc'
-import Link from '@components/Link'
+import { markdownToHtml } from "@utils/misc"
+import Link from "@components/Link"
 
 interface HeroProps {
   title: string
@@ -10,12 +10,7 @@ interface HeroProps {
   button_url: string
 }
 
-const Hero = ({
-  title,
-  description,
-  button_label,
-  button_url
-}: HeroProps): JSX.Element => {
+const Hero = ({ title, description, button_label, button_url }: HeroProps): JSX.Element => {
   return (
     <div className="frontpage-hero">
       <div className="frontpage-hero__image" />
@@ -27,7 +22,7 @@ const Hero = ({
             <div
               className="frontpage-hero__description"
               dangerouslySetInnerHTML={{
-                __html: markdownToHtml(description)
+                __html: markdownToHtml(description),
               }}
             />
             <Link className="frontpage-hero__button" to={button_url}>
