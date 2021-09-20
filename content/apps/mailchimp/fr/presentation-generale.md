@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Mailchimp | HubRise
-  description: Présentation générale de Mailchimp, les raisons de connecter votre solution de marketing à HubRise et fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Mailchimp, les raisons de connecter Mailchimp à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
   - __gallery-fr-002.png
 path_override: /

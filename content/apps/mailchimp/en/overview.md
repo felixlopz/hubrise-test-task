@@ -43,4 +43,4 @@ Thanks to HubRise, synchronise your menu, your customer and order information wi
 
 ## Prerequisites
 
-To establish a connection between Mailchimp and HubRise, you must have an existing Mailchimp account.
+To establish a connection between Mailchimp and HubRise, you must have a Mailchimp account.
