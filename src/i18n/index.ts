@@ -21,8 +21,6 @@ i18n
     returnObjects: true,
     react: { transSupportBasicHtmlNodes: false },
     detection: {
-      // All available parameters:
-      // 'querystring', 'cookie', 'localStorage', 'navigator', 'path', 'subdomain'
       order: ["path"],
     },
   })

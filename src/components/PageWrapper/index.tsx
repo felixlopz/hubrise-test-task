@@ -20,8 +20,9 @@ const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
 
   const pageContext = props.pageContext as Record<keyof RootContext, string> as RootContext
 
-  const isSSR = typeof window === "undefined"
-  if (isSSR) i18n.changeLanguage(pageContext.localeCode)
+  if (i18n.language !== pageContext.localeCode) {
+    i18n.changeLanguage(pageContext.localeCode)
+  }
 
   return (
     <>
