@@ -12,7 +12,7 @@ path_override: /
 app_info:
   category: Loyalty and Marketing
   availability: Worldwide
-  price_range: Monthly subscription based on volume. Free plan available for low usage.
+  price_range:
   website: https://www.mailchimp.com
   contact: https://mailchimp.com/contact
 ---
@@ -43,4 +43,4 @@ Thanks to HubRise, synchronise your menu, your customer and order information wi
 
 ## Prerequisites
 
-To establish a connection between Mailchimp and HubRise, you must have an existing Mailchimp account.
+To establish a connection between Mailchimp and HubRise, you must have a Mailchimp account.
