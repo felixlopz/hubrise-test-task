@@ -24,8 +24,7 @@ content:
           documentation: /apps/carre-pos
           logo: carrepos.png
           title: Carré POS
-          description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les boutiques, les coiffeurs ou encore les fleuristes.
-          additional_info:
+          description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les boutiques, les coiffeurs ou encore les fleuristes.
         - website: https://www.epostechnologies.co.uk/
           documentation:
           logo: epostechnologies.png
@@ -163,7 +162,13 @@ content:
           documentation: /apps/just-eat-takeaway
           logo: lieferando.png
           title: lieferando.de and lieferando.at
-          description: lieferando est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Allemagne et en Autriche.
+          description: Lieferando est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Allemagne et en Autriche.
+          additional_info:
+        - website: https://www.menulog.com.au/
+          documentation: /apps/just-eat-flyt
+          logo: menulog.png
+          title: Menulog
+          description: Menulog est une plateforme de commande de repas et de boissons avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Australie et en Nouvelle-Zélande.
           additional_info:
         - website: https://www.pyszne.pl/fr/
           documentation: /apps/just-eat-takeaway
@@ -390,7 +395,7 @@ content:
           documentation: /apps/expedy
           logo: expedy-print.png
           title: Expedy Print
-          description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 4G, Wifi ou USB.
+          description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 3G/4G, ou Wifi.
         - website:
           documentation: /apps/orderline
           logo: orderline.png
