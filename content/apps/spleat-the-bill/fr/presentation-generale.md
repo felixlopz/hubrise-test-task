@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Spleat the bill | HubRise
-  description: Présentation générale de Spleat the bill, les raisons de connecter votre solution de paiement à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Spleat the bill, les raisons de connecter votre solution de paiement à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:

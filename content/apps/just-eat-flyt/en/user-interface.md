@@ -3,7 +3,7 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - User Interface
+  title: User Interface | Just Eat Flyt | HubRise
   description: How to navigate the Just Eat Flyt Bridge main page to access information about the orders and customise the behaviour of the bridge.
 ---
 

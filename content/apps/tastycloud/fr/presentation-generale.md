@@ -4,9 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | TastyCloud | HubRise
-  description: Présentation générale de TastyCloud, les raisons de connecter votre solution de commande en ligne à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery:
-  - __gallery-001.png
+  description: Présentation générale de TastyCloud, les raisons de connecter votre site TastyCloud à HubRise et fonctionnalités de l'intégration avec HubRise.
 path_override: /
 app_info:
   category: Commande en ligne

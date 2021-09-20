@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | App4 | HubRise
-  description: Présentation générale d'App4, les raisons de connecter votre site à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale d'App4, les raisons de connecter votre site à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
   - __gallery-001.png
   - __gallery-002.png
