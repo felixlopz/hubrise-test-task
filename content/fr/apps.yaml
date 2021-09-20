@@ -340,8 +340,8 @@ content:
           additional_info:
     - title: Fidélité et marketing
       apps:
-        - website: https://www.como.com
-          documentation:
+        - website: https://fr.como.com
+          documentation: /apps/como
           logo: como.png
           title: Como
           description: Como est une solution de fidélité client pour les commerçants, les hôteliers et les restaurateurs permettant de personnaliser les offres grâce à l'analyse des données clients.

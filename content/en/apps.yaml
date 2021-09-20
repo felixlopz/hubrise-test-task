@@ -334,7 +334,7 @@ content:
     - title: Loyalty and Marketing
       apps:
         - website: https://www.como.com
-          documentation:
+          documentation: /apps/como
           logo: como.png
           title: Como
           description: Como is a loyalty programme solution for retail and hospitality companies. Como gathers data about purchases and preferences to approach customers with personalised offers.
