@@ -9,7 +9,7 @@ gallery:
   - __gallery-001.png
 path_override: /
 app_info:
-  category: Online ordering for restaurants
+  category: Online Ordering
   availability: France
   price_range:
   website: https://www.tastycloud.fr
