@@ -33,15 +33,16 @@ Como comprend aussi une Intelligence Artificielle capable d'analyser votre activ
 
 ## Fonctionnalités de l'intégration
 
-Connecter Como à HubRise permet à votre solution de fidélité client de :
+Connecter Como à HubRise permet à Como:
 
-- Recevoir les informations clients de HubRise, dont la fidélité.
+- De recevoir les commandes depuis HubRise.
+- De recevoir les informations clients depuis HubRise.
 
 Como peut être connecté à HubRise depuis le back-office de HubRise.
 
 ## Pourquoi se connecter ?
 
-En connectant Solution à HubRise, vous permettez à votre solution de fidélité client de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les informations clients provenant de votre solution d'encaissement, de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution de fidélité client.
+Connecter Como à HubRise vous permet de synchroniser votre programme de fidélité et votre base de clients entre Como, votre site ou application de commande en ligne, et votre solution d'encaissement.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
