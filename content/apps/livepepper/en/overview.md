@@ -11,7 +11,7 @@ gallery:
   - __gallery-003.png
 path_override: /
 app_info:
-  category: Online ordering for restaurants
+  category: Online Ordering
   availability: Worldwide
   price_range: €69-€109 / month
   website: https://www.livepepper.com
@@ -39,6 +39,7 @@ From the back office they can:
 - Add new payment methods.
 - Change many other settings to best fit their needs.
 
+Finally, customers can contract Livepepper to manually populate their catalog's ref codes by contacting their Livepepper support representative.
 
 ## Integration Features
 

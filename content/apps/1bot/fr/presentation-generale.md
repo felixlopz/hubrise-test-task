@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | 1Bot | HubRise
-  description: Présentation générale de 1Bot, les raisons de connecter votre solution à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de 1Bot, les raisons de connecter votre solution à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:

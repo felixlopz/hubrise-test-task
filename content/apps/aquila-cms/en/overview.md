@@ -10,7 +10,7 @@ gallery:
   - __gallery-002.png
 path_override: /
 app_info:
-  category: Online ordering
+  category: Online Ordering
   availability: France
   price_range:
   website: https://www.aquila-cms.com/
