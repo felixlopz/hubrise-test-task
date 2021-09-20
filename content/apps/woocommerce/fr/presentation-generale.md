@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | WooCommerce | HubRise
-  description: Présentation générale de WooCommerce, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de WooCommerce, les raisons de connecter votre site WooCommerce à HubRise et fonctionnalités de l'intégration avec HubRise.
 path_override: /
 app_info:
   category: Commande en ligne

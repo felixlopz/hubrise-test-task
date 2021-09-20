@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Shopify | HubRise
-  description: Présentation générale de Shopify, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Shopify, les raisons de connecter votre site Shopify à HubRise et fonctionnalités de l'intégration avec HubRise.
 path_override: /
 app_info:
   category: Commande en ligne
