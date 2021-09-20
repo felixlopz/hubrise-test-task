@@ -3,8 +3,7 @@ import { faTimesCircle } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import cx from "classnames"
 
-import { animate, getIcon } from "./helpers"
-import { IToast } from "./helpers"
+import { animate, getIcon, IToast } from "./helpers"
 
 type ToastProps = {
   toast: IToast
@@ -15,7 +14,7 @@ const Toast = ({ toast, onClose }: ToastProps): JSX.Element => {
   const toastRef = React.useRef<HTMLDivElement>(null)
 
   const hideToast = React.useCallback(() => {
-    const draw = (progress) => {
+    const draw = (progress: number) => {
       if (toastRef.current) {
         toastRef.current.style.opacity = String(1 - progress)
       }

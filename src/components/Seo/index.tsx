@@ -1,13 +1,14 @@
 import * as React from "react"
 import Helmet from "react-helmet"
 
+import { Meta } from "./interface"
+
 import AppleTouchIcon from "@images/favicons/apple-touch-icon.png"
 import SafariPinnedTab from "@images/favicons/safari-pinned-tab.svg"
 import Favicon32 from "@images/favicons/favicon-32x32.png"
 import Favicon16 from "@images/favicons/favicon-16x16.png"
 import { LocaleCode } from "@utils/locales"
 import { useLayoutContext } from "@contexts/layout"
-import { Meta } from "./interface"
 
 interface SEOProps {
   localeCode: LocaleCode

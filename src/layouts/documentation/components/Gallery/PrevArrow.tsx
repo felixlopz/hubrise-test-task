@@ -4,7 +4,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 
 interface PrevArrowProps {
   currentImageNumber: number
-  onClick?: Function
+  onClick?: () => void
 }
 
 const PrevArrow = ({ currentImageNumber, onClick }: PrevArrowProps): JSX.Element => {

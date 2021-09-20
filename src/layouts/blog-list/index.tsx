@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react"
 import { graphql, navigate } from "gatsby"
 import { useTranslation } from "react-i18next"
 
+import { sortMdxBlogNodesByDescendingDate } from "./helpers"
+
 import SEO, { Meta } from "@components/Seo"
 import MDXProvider from "@components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@components/Breadcrumbs"
@@ -9,7 +11,6 @@ import { Hero, Post, Sidebar } from "@components/blog"
 import { BlogListContext } from "@layouts/blog-list"
 import { getArchiveTitle } from "@components/blog/Sidebar"
 import { BlogNode } from "@components/blog/Post/interface"
-import { sortMdxBlogNodesByDescendingDate } from "./helpers"
 import { getLocalizedUrl } from "@utils/locales"
 
 interface BlogListProps {
@@ -74,7 +75,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 
   function handleQueryChange(newQuery) {
     setSearchQuery(newQuery)
-    let pathname = getLocalizedUrl("/blog", pageContext.localeCode)
+    const pathname = getLocalizedUrl("/blog", pageContext.localeCode)
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 

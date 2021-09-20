@@ -1,6 +1,7 @@
-import { Customization, CustomizationMap } from "./customization"
 import { GraphQLFunction } from "../util/types"
 import { defaultLocaleCode, LocaleCode } from "../../../utils/locales"
+
+import { Customization, CustomizationMap } from "./customization"
 import { applyCopyFilesFrom, buildFolderFiles, buildFolders } from "./folder.helpers"
 
 export interface Folder {

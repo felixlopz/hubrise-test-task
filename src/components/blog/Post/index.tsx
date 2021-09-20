@@ -2,8 +2,9 @@ import * as React from "react"
 import { useTranslation } from "react-i18next"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import Link from "@components/Link"
 import { BlogNode } from "./interface"
+
+import Link from "@components/Link"
 
 interface PostProps {
   mdxNode: BlogNode

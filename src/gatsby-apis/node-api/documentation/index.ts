@@ -1,6 +1,11 @@
 import { Actions, CreateNodeArgs } from "gatsby"
 import * as Gatsby from "gatsby"
 
+import { getLayoutPath } from "../util/layout"
+import { generateLanguagePaths, parseRelativePath } from "../util/locale"
+import { LocaleCode, localeCodes } from "../../../utils/locales"
+import { DocumentationContext } from "../../../layouts/documentation"
+
 import { generateCustomizationMap } from "./customization"
 import {
   Folder,
@@ -13,12 +18,8 @@ import {
 } from "./folder"
 import { getFolderPages, getPagePath } from "./page"
 import { getBreadcrumbs } from "./breadcrumbs"
-import { getLayoutPath } from "../util/layout"
-import { generateLanguagePaths, parseRelativePath } from "../util/locale"
-import { LocaleCode, localeCodes } from "../../../utils/locales"
-import { DocumentationContext } from "../../../layouts/documentation"
 
-export async function onCreateNode({ node, actions }: CreateNodeArgs) {
+export async function onCreateNode({ node, actions }: CreateNodeArgs): Promise<void> {
   if (node.internal.type === "Mdx") {
     const { localeCode } = parseRelativePath(node.fileAbsolutePath as string)
 
@@ -30,7 +31,7 @@ export async function onCreateNode({ node, actions }: CreateNodeArgs) {
   }
 }
 
-export const createPages = async ({ graphql, actions }: Gatsby.CreatePagesArgs) => {
+export const createPages = async ({ graphql, actions }: Gatsby.CreatePagesArgs): Promise<void> => {
   const customizationsMap = await generateCustomizationMap(graphql)
   const rootFolder = await generateFolders(graphql, customizationsMap)
 
@@ -38,16 +39,16 @@ export const createPages = async ({ graphql, actions }: Gatsby.CreatePagesArgs) 
 }
 
 function createDocumentationPagesInFolder(actions: Actions, folder: Folder): void {
-  for (let localeCode of localeCodes) {
+  for (const localeCode of localeCodes) {
     const folderFiles = getFolderFiles(folder, localeCode)
     if (!folderFiles) continue
 
-    for (let mdxNode of folderFiles.mdxNodes) {
+    for (const mdxNode of folderFiles.mdxNodes) {
       createDocumentationPage(actions, folder, localeCode, folderFiles, mdxNode)
     }
   }
 
-  for (let childFolder of folder.children) {
+  for (const childFolder of folder.children) {
     createDocumentationPagesInFolder(actions, childFolder)
   }
 }

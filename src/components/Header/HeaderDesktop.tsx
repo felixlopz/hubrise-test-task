@@ -1,12 +1,13 @@
 import * as React from "react"
 import { useTranslation } from "react-i18next"
 
+import { IHeaderLink } from "./helpers"
+import LanguageLinks from "./LanguageLinks"
+
 import Link from "@components/Link"
 import logo from "@images/logo.png"
 import { generateKey } from "@utils/misc"
 import { LanguagePaths } from "@utils/context"
-import { IHeaderLink } from "./helpers"
-import LanguageLinks from "./LanguageLinks"
 
 interface HeaderDesktopProps {
   languagePaths: LanguagePaths

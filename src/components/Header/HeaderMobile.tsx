@@ -2,13 +2,14 @@ import React, { useState } from "react"
 import { useTranslation } from "react-i18next"
 import classNames from "classnames"
 
+import { IHeaderLink } from "./helpers"
+import LanguageLinks from "./LanguageLinks"
+
 import { LanguagePaths } from "@utils/context"
 import { generateKey } from "@utils/misc"
 import button from "@images/bread_button.png"
 import logo from "@images/logo.png"
 import Link from "@components/Link"
-import { IHeaderLink } from "./helpers"
-import LanguageLinks from "./LanguageLinks"
 
 interface HeaderMobileProps {
   languagePaths: LanguagePaths

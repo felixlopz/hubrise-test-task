@@ -19,11 +19,11 @@ const Link = ({
   newTab = true,
   ...other
 }: LinkProps): JSX.Element => {
-  if (!initialTo) return <></>
-
   const {
     i18n: { language: localeCode },
   } = useTranslation()
+
+  if (!initialTo) return <></>
 
   let to = initialTo
 

@@ -6,7 +6,7 @@ interface ContactFormToggleProps {
   text: string
 }
 
-function ContactFormToggle({ text }: ContactFormToggleProps) {
+const ContactFormToggle = ({ text }: ContactFormToggleProps): JSX.Element => {
   const { forms } = useLayoutContext()
 
   return <a onClick={forms.contact.toggle}>{text}</a>

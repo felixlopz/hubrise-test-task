@@ -1,8 +1,8 @@
 import * as React from "react"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import { ImageNode } from "@utils/image"
 import { markdownToHtml } from "@utils/misc"
-import { GatsbyImage } from "gatsby-plugin-image"
 
 interface DocumentationProps {
   title: string

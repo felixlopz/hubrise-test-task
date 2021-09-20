@@ -1,5 +1,8 @@
-import { createHeaderAnchor } from "@utils/misc"
 import * as React from "react"
+
+import { createHeaderAnchor } from "@utils/misc"
+
+type HTMLTags = keyof HTMLElementTagNameMap
 
 /**
  * Defines custom h2-h3 headers with attached anchors.
@@ -7,11 +10,11 @@ import * as React from "react"
  *
  * @returns Object containing specified headers as React elements.
  */
-export default function generateHeaders(headers: string[]): object {
+export default function generateHeaders(headers: Array<HTMLTags>): { [key: string]: React.ReactElement } {
   const obj = {}
 
-  for (let header of headers) {
-    obj[header] = ({ children: headerText }) => {
+  for (const header of headers) {
+    const element = ({ children: headerText }) => {
       const headerAnchor = createHeaderAnchor(headerText)
 
       return React.createElement(
@@ -23,6 +26,8 @@ export default function generateHeaders(headers: string[]): object {
         </>,
       )
     }
+    element.displayName = header
+    obj[header] = element
   }
 
   return obj

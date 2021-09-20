@@ -1,5 +1,8 @@
-import { SidebarArticle } from "./graphql"
+import { TFunction } from "react-i18next"
+
 import { ArchiveInfo } from "../interface"
+
+import { SidebarArticle } from "./graphql"
 
 export function getRecentArticles(sidebarArticles: Array<SidebarArticle>): Array<SidebarArticle> {
   return sidebarArticles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 5)
@@ -13,13 +16,13 @@ function getArchiveInfoFromArticleDate(articleDate: Date): ArchiveInfo {
   }
 }
 
-export function getArchiveTitle(archiveInfo: ArchiveInfo, t) {
+export function getArchiveTitle(archiveInfo: ArchiveInfo, t: TFunction<"translation">): string {
   const monthList = t("misc.month_list")
   const { year, month, isCurrentYear } = archiveInfo
-  return isCurrentYear ? `${monthList[month]} ${year}` : year
+  return isCurrentYear ? `${monthList[month]} ${year}` : String(year)
 }
 
-export function getArchiveLink(archiveInfo: ArchiveInfo) {
+export function getArchiveLink(archiveInfo: ArchiveInfo): string {
   const { year, month, isCurrentYear } = archiveInfo
   return isCurrentYear ? `/blog/${year}/${month + 1}` : `/blog/${year}`
 }
@@ -32,7 +35,7 @@ export function generateArchiveList(postDateList: Array<Date>): Array<ArchiveInf
   const sortedDates = sortDates(postDateList)
   const archiveMap = new Map()
 
-  for (let date of sortedDates) {
+  for (const date of sortedDates) {
     const archiveInfo = getArchiveInfoFromArticleDate(date)
     const archiveKey = archiveInfo.isCurrentYear
       ? [archiveInfo.year, archiveInfo.month].join("_")

@@ -1,7 +1,8 @@
 import * as React from "react"
 
-import Link from "@components/Link"
 import { Breadcrumb } from "./interface"
+
+import Link from "@components/Link"
 
 interface BreadcrumbsProps {
   breadcrumbs: Array<Breadcrumb>

@@ -1,16 +1,17 @@
 import { graphql } from "gatsby"
 import * as React from "react"
+import { useTranslation } from "react-i18next"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+
+import { AppInfo, Feedback, Gallery, SectionNavigation } from "./components"
+import { DocumentationContext } from "./interface"
+import { IAppInfo } from "./components/AppInfo"
+import { Heading } from "./components/SectionNavigation"
 
 import { ImageSharp } from "@utils/image"
 import SEO from "@components/Seo"
 import MDXProvider from "@components/MdxProvider"
 import Breadcrumbs from "@components/Breadcrumbs"
-import { AppInfo, Feedback, Gallery, SectionNavigation } from "./components"
-import { DocumentationContext } from "./interface"
-import { IAppInfo } from "./components/AppInfo"
-import { Heading } from "./components/SectionNavigation"
-import { useTranslation } from "react-i18next"
 
 interface DocumentationProps {
   data: DocumentationData
@@ -112,7 +113,7 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
 
   const galleryImageMap = new Map<string, ImageSharp>()
   if (gallery) {
-    for (let imageName of gallery) {
+    for (const imageName of gallery) {
       const image = findImage(data.images, imageName)
       if (image) galleryImageMap.set(imageName, image)
     }

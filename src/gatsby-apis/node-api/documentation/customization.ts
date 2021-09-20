@@ -42,7 +42,7 @@ export async function generateCustomizationMap(graphql: GraphQLFunction): Promis
   if (!data) throw "GraphQL returned no data"
 
   const result = new Map<string, Customization>()
-  for (let node of data.allFile.nodes) {
+  for (const node of data.allFile.nodes) {
     if (!node.childYaml.parsedContent) {
       throw `The content/${node.relativeDirectory}/customization.yaml file is empty. It must at least define a "name".`
     }

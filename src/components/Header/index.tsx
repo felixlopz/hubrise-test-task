@@ -2,9 +2,10 @@ import * as React from "react"
 
 import HeaderMobile from "./HeaderMobile"
 import HeaderDesktop from "./HeaderDesktop"
+import { useHeaderData } from "./graphql"
+
 import { getLocaleCodeFromAbsolutePath, LocaleCode } from "@utils/locales"
 import { LanguagePaths } from "@utils/context"
-import { useHeaderData } from "./graphql"
 
 interface HeaderProps {
   languagePaths: LanguagePaths

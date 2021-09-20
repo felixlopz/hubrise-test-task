@@ -1,6 +1,7 @@
+import { localeCodes } from "../../../utils/locales"
+
 import { Folder, FolderFiles, MDXDocumentationNode } from "./folder"
 import { CustomizationMap } from "./customization"
-import { localeCodes } from "../../../utils/locales"
 
 export function findOrInsertFolder(rootFolder: Folder, path: string): Folder {
   let folder = rootFolder
@@ -35,9 +36,9 @@ export function buildFolderFiles(
     result.set(path, folderFiles)
   })
 
-  for (let mdxNode of nodes) {
+  for (const mdxNode of nodes) {
     const path = mdxNode.parent.relativeDirectory
-    let folderFiles = result.get(path)
+    const folderFiles = result.get(path)
     if (!folderFiles) {
       console.log(
         `Skipping ${mdxNode.parent.relativePath}: no customization.yaml file was found in this file's directory.`,
@@ -91,20 +92,20 @@ export function buildFolders(folderFilesByPath: Map<string, FolderFiles>): Folde
 }
 
 export function applyCopyFilesFrom(folder: Folder): void {
-  for (let localeCode of localeCodes) {
+  for (const localeCode of localeCodes) {
     const folderFiles = folder.folderFilesMap[localeCode]
     if (!folderFiles) continue
 
     const copyFilesFrom = folderFiles.customization?.copy_files_from
     if (copyFilesFrom) {
-      for (let node of folder.folderFilesMap[copyFilesFrom]?.mdxNodes || []) {
+      for (const node of folder.folderFilesMap[copyFilesFrom]?.mdxNodes || []) {
         if (node.frontmatter.layout !== "documentation") continue
         folderFiles.mdxNodes = [...folderFiles.mdxNodes, node]
       }
     }
   }
 
-  for (let childFolder of folder.children) {
+  for (const childFolder of folder.children) {
     applyCopyFilesFrom(childFolder)
   }
 }

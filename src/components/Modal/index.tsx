@@ -6,7 +6,7 @@ interface ModalProps {
   children: ReactNode
 }
 
-const Modal = ({ title, onClose, children }: ModalProps) => {
+const Modal = ({ title, onClose, children }: ModalProps): JSX.Element => {
   return (
     <div
       className="reveal-overlay"

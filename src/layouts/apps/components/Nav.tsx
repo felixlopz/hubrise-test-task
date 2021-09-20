@@ -3,6 +3,7 @@ import { useScrollRestoration } from "gatsby"
 import classNames from "classnames"
 
 import { ICategory } from "../interface"
+
 import Link from "@components/Link"
 
 interface NavProps {

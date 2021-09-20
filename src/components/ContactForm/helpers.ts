@@ -15,7 +15,7 @@ export const createContactSchema = (t: TFunction): any => {
   })
 }
 
-export const encodeFormData = (params: object): string => {
+export const encodeFormData = (params: Record<string, string>): string => {
   return Object.keys(params)
     .map((key) => {
       return encodeURIComponent(key) + "=" + encodeURIComponent(params[key])

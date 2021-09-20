@@ -1,11 +1,12 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import { generateKey } from "@utils/misc"
-import SEO, { Meta } from "@components/Seo"
 import Hero, { IHero } from "./components/Hero"
 import Thumb from "./components/Thumb"
 import { DocumentationIndexContext } from "./interface"
+
+import { generateKey } from "@utils/misc"
+import SEO, { Meta } from "@components/Seo"
 
 interface DocumentationIndexProps {
   data: DocumentationIndexData

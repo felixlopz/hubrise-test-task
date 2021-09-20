@@ -1,11 +1,12 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import { ImageNode } from "@utils/image"
 import { Hero, Apps, Api, Documentation, Pricing, Developers, Join } from "./components"
+import { TeamImageNode } from "./components/Developers"
+
+import { ImageNode } from "@utils/image"
 import SEO from "@components/Seo"
 import { YamlContext } from "@utils/context"
-import { TeamImageNode } from "./components/Developers"
 
 interface FrontpageProps {
   data: FrontpageData

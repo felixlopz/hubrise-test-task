@@ -6,7 +6,7 @@ import { generateLanguagePaths } from "../util/locale"
 import { RootContext } from "../../../utils/context"
 import { localeCodes } from "../../../utils/locales"
 
-export async function createPages({ actions }: CreatePagesArgs) {
+export async function createPages({ actions }: CreatePagesArgs): Promise<void> {
   const { createPage } = actions
 
   const getPath = (localeCode) => pathWithLocale(localeCode, "/404")

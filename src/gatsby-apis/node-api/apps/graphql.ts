@@ -47,7 +47,7 @@ export async function getAppsMap(graphql: GraphQLFunction): Promise<IAppsMap> {
 
 const APPS_PAGE_PATH = "/apps"
 
-export function getAppsPagePath(localeCode: LocaleCode, categoryTitle?: string) {
+export function getAppsPagePath(localeCode: LocaleCode, categoryTitle?: string): string {
   let path = pathWithLocale(localeCode, APPS_PAGE_PATH)
   if (categoryTitle) {
     const slug = categoryTitle.replace(/ +/g, "-").toLowerCase()
@@ -56,7 +56,7 @@ export function getAppsPagePath(localeCode: LocaleCode, categoryTitle?: string) 
   return path
 }
 
-function generatePaths(localeCode: LocaleCode, apps: IApps) {
+function generatePaths(localeCode: LocaleCode, apps: IApps): void {
   apps.path = getAppsPagePath(localeCode)
   apps.content.categories = apps.content.categories.map((category) => ({
     ...category,

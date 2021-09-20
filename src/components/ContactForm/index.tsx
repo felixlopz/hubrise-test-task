@@ -2,9 +2,11 @@ import * as React from "react"
 import { useTranslation } from "react-i18next"
 import { Formik } from "formik"
 
+import { useToast } from "../Toast"
+
 import Form from "./Form"
 import { createContactSchema, encodeFormData, FormikStructure } from "./helpers"
-import { useToast } from "../Toast"
+
 import { useLayoutContext } from "@contexts/layout"
 
 interface ContactFormProps {

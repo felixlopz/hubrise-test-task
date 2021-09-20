@@ -3,10 +3,11 @@ import cx from "classnames"
 import { useMedia } from "react-use"
 import { GatsbyImage } from "gatsby-plugin-image"
 
+import { FolderPage } from "../interface"
+
 import Link from "@components/Link"
 import { createHeaderAnchor, generateKey } from "@utils/misc"
 import { ImageSharp } from "@utils/image"
-import { FolderPage } from "../interface"
 
 interface SectionNavigationProps {
   currentPath: string

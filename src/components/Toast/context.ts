@@ -1,4 +1,5 @@
 import React, { useContext } from "react"
+
 import { IToast } from "./helpers"
 
 export type ToastAdder = (toast: Pick<IToast, "variant" | "title" | "text">) => void

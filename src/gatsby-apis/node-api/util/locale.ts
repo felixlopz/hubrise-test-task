@@ -19,7 +19,7 @@ export function parseRelativePath(relativePath: string): { localeCode: LocaleCod
 
 export function generateLanguagePaths(localeCode: LocaleCode, getPath: (code) => string): LanguagePaths {
   const languagePaths: LanguagePaths = {}
-  for (let otherLocaleCode of localeCodes) {
+  for (const otherLocaleCode of localeCodes) {
     if (otherLocaleCode === localeCode) continue
     languagePaths[otherLocaleCode] = getPath(otherLocaleCode)
   }

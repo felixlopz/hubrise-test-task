@@ -1,8 +1,9 @@
 import * as React from "react"
 
+import { IAppInfo } from "./interface"
+
 import { generateKey } from "@utils/misc"
 import Link from "@components/Link"
-import { IAppInfo } from "./interface"
 
 interface AppInfoProps {
   appInfo: IAppInfo

@@ -43,7 +43,7 @@ export function useSidebarData(): Array<SidebarArticle> {
   `)
 
   const result: Array<SidebarArticle> = []
-  for (let node of data.allMdx.nodes) {
+  for (const node of data.allMdx.nodes) {
     const { date, title } = node.frontmatter
     const { localeCode, path } = node.fields
     result.push({

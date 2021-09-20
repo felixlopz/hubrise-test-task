@@ -22,7 +22,7 @@ interface LayoutContextProviderProps {
   children: React.ReactNode
 }
 
-function LayoutContextProvider({ children }: LayoutContextProviderProps) {
+function LayoutContextProvider({ children }: LayoutContextProviderProps): JSX.Element {
   const [isContactVisible, setContactVisibility] = React.useState(false)
   const [isSuggestAppVisible, setSuggestAppVisibility] = React.useState(false)
 
@@ -49,7 +49,7 @@ function LayoutContextProvider({ children }: LayoutContextProviderProps) {
   )
 }
 
-function useLayoutContext() {
+function useLayoutContext(): LayoutContextInterface {
   const context = React.useContext(LayoutContext)
 
   if (!context) {
