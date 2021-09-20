@@ -7,11 +7,11 @@ meta:
   description: Instructions on connecting Mailchimp with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-The instructions below detail how to connect your Mailchimp account to a your HubRise account.
+Connecting Mailchimp to HubRise can be done with a few simple steps.
 
 ---
 
-**IMPORTANT NOTE**: Note that both Mailchimp and HubRise have their own vocabulary, and may refer to the same things by different names. For example, a list in HubRise refers to an audience in Mailchimp. For more information on the terms and definitions used between these two platforms, see [HubRise Definitions vs Mailchimp Definitions](/apps/mailchimp/mailchimp-terms).
+**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -33,11 +33,13 @@ To connect your Mailchimp account to your HubRise account:
 
 1. Once logged in, you will be asked whether you want to authorise HubRise. Select **Allow**.
 
-1. After authorization, you will be taken to the configuration page. You can close the window and log back into your HubRise back office. Select **CONNECTIONS** in the left navigation pane. You will see that your HubRise location is now connected to Mailchimp.
+1. After authorisation, you will be taken to the configuration page. You can close the window and log back into your HubRise back office. Select **CONNECTIONS** in the left navigation pane. You will see that your HubRise location is now connected to Mailchimp.
+
+Once your HubRise location is connected to Mailchimp, customer information is pushed to Mailchimp automatically.
 
 ---
 
-**IMPORTANT NOTE**: For every location in HubRise, you will need to perform a new connection to Mailchimp. Once all connections are set, you need to configure the Mailchimp Bridge for contacts to be synched. For more information, see [Configuration](/apps/mailchimp/configuration/).
+**IMPORTANT NOTE**: For every location in HubRise, you will need to perform a new connection to Mailchimp. Once all connections are set, you need to configure Mailchimp Bridge for contacts to be synced. For more information, see [Configuration](/apps/mailchimp/configuration/).
 
 ---
 

@@ -4,46 +4,41 @@ position: 5
 layout: documentation
 meta:
   title: Troubleshooting | Mailchimp | HubRise
-  description: Troubleshooting Mailchimp connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
+  description: How to troubleshoot your Mailchimp connection with HubRise. Follow these instructions to resolve common issues.
 ---
 
-From time to time it may be necessary to troubleshoot the connection between Mailchimp and HubRise.
+## Check the Connection Between HubRise and Mailchimp
 
-## Verify the Connection Between HubRise and Mailchimp
-
-When your contacts are not synced with Mailchimp, the first step is to verify that Mailchimp is connected.
+If contacts are not synced with Mailchimp, first check that Mailchimp is connected.
 
 1. Log in to you HubRise back office.
 1. Select **CONNECTIONS**.
-1. The Mailchimp Bridge will appear if it is connected to your HubRise location.
+1. The Mailchimp Bridge app should appear.
 
 If Mailchimp does not appear, connect your HubRise location to your Mailchimp account. For assistance, see [Connection to HubRise](/apps/mailchimp/connect-hubrise).
 
-## Verify that Contacts are pushed to Mailchimp
+## Check that Contacts are Pushed to Mailchimp
 
-In the even that your HubRise contacts do not synch with Mailchimp, you should verify that the contacts are pushed to Mailchimp.
+Depending on your configuration options, contacts are synced either on customer creation or when a new order is placed. To adjust this setup, see [Configuration](/apps/mailchimp/configuration).
 
-Depending on your configuration options, contacts may be synched to Mailchimp either on the creating of a new customer or when a new order is placed. To change this setup, see [Configuration](/apps/mailchimp/configuration).
-
-To verify that the contacts are successfully pushed to Mailchimp:
+To check that contacts are pushed to Mailchimp:
 
 1. Log in to your HubRise back office.
 1. Select **CONNECTIONS**.
-1. Find the Mailchimp location and select **Actions** > **Logs**.
-1. Here you will be able to see the logs of the activities.
-1. Clicking on the activity opens a drop-down with both the **Request** and **Response** logs of the activity.
+1. Find the Mailchimp location and select **Actions** > **Logs**. Each row corresponds to an activity.
+1. Click on a row to see the **Request** and **Response** logs associated with the activity.
 
-For a successful data transfer to have taken place, a status code of 200 will appear. If the data transfer was unsuccessful, another code will appear.
+A successful handling is indicated with a `200` response status code. Other status codes generally indicate a failure.
 
-An alternative way of inspecting the logs is to:
+To inspect the logs exchanged between HubRise and Mailchimp:
 
 1. Log in to your HubRise back office.
 1. Select **CONNECTIONS**.
-1. Find the Mailchimp location and click **Open**.
-1. A new window will open with. Click on any of the **Latest operations**. You will be able to see the date and time of the activity, the direction of the data transfer and the status.
-1. Clicking on the activity again, will open enough details to establish whether the transfer was successful.
-1. A status of `OK`, or status code of `200`, indicates that the transfer was successful.
+1. Find the Mailchimp app and click **Open**.
+1. A new window opens. Click on any of the **Latest operations**. You will be able to see the date and time of the activity, the direction of the data transfer and the status.
+1. Click on the activity again to show detailed logs.
+1. A response status of `OK`, or status code of `200`, generally indicate a successful transfer.
 
-In the event that the status is not OK, a code will be given. In the **Request** and **Response** drop-downs you will obtain more information of the transfer. More specifically, and if an error occurred, you will see more details of the error in the **Response** drop-down.
+If the status is not `OK`, check the **Response** drop-down to see the error.
 
-The information contained in the **Request** and **Response** logs are in JSON format. For more information on reading and understanding JSON documents, you can look at the [HubRise Documentation](/docs/hubrise-logs) on logs.
+The information contained in the **Request** and **Response** logs are in JSON format. For more information on reading and understanding JSON, check our [JSON logs documentation](/docs/hubrise-logs).

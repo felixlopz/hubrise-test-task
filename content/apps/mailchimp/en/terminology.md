@@ -9,7 +9,7 @@ meta:
 
 HubRise and Mailchimp each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
 
-| Mailchimp | HubRise  | Description                    |
-| --------- | -------- | ------------------------------ |
-| Contact   | Customer | A customer who placed an order |
-| Audience  | List     | A list of customers            |
+| Mailchimp | HubRise       | Description                     |
+| --------- | ------------- | ------------------------------- |
+| Audience  | Customer List | A list of customers.            |
+| Contact   | Customer      | A customer who placed an order. |
