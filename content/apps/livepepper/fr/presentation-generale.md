@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | LivePepper | HubRise
-  description: Présentation générale de LivePepper, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de LivePepper, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
 path_override: /
 app_info:
   category: Commande en ligne

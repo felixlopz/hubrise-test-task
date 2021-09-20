@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Just Eat Flyt | HubRise
-  description: Présentation générale de Just Eat Flyt Bridge, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Just Eat Flyt Bridge, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
 path_override: /
 app_info:
   category: Plateformes de livraison de repas

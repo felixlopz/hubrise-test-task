@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Aquila | HubRise
-  description: Présentation générale de Aquila, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale d'Aquila CMS, les raisons de connecter votre site Aquila CMS à HubRise et fonctionnalités de l'intégration avec HubRise.
 path_override: /
 app_info:
   category: Commande en ligne
