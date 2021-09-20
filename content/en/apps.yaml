@@ -350,7 +350,7 @@ content:
           title: Emma
           description: Emma is an email campaign platform with support available in email marketing strategy, as well as content and design to help maximise results.
         - website: https://mailchimp.com
-          documentation:
+          documentation: /apps/mailchimp
           logo: mailchimp.png
           title: MailChimp
           description: MailChimp all‑in‑one marketing platform from which customised emails, newsletters and SMS can be sent.
