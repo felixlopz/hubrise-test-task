@@ -3,7 +3,7 @@ import { CreateNodeArgs, CreatePagesArgs } from "gatsby"
 import { getLayoutPath } from "../util/layout"
 import { pathWithLocale } from "../util/urls"
 import { generateLanguagePaths, parseRelativePath } from "../util/locale"
-import { generateArchiveList } from "../../../components/blog/Sidebar/helpers"
+import { generateArchiveList } from "../../../components/Blog/Sidebar/helpers"
 import { BlogListContext } from "../../../layouts/blog-list/interface"
 import { BlogPostContext } from "../../../layouts/blog-post/interface"
 

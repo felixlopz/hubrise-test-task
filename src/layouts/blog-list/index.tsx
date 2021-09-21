@@ -4,14 +4,14 @@ import { useTranslation } from "react-i18next"
 
 import { sortMdxBlogNodesByDescendingDate } from "./helpers"
 
+import { BlogListContext } from "@layouts/blog-list"
+import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 import SEO, { Meta } from "@components/Seo"
 import MDXProvider from "@components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@components/Breadcrumbs"
-import { Hero, Post, Sidebar } from "@components/blog"
-import { BlogListContext } from "@layouts/blog-list"
-import { getArchiveTitle } from "@components/blog/Sidebar"
-import { BlogNode } from "@components/blog/Post/interface"
-import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
+import { Hero, Post, Sidebar } from "@components/Blog"
+import { getArchiveTitle } from "@components/Blog/Sidebar"
+import { BlogNode } from "@components/Blog/Post/interface"
 
 interface BlogListProps {
   data: BlogListData

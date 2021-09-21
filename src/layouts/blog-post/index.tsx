@@ -7,8 +7,8 @@ import { BlogPostContext } from "./interface"
 import SEO, { Meta } from "@components/Seo"
 import MDXProvider from "@components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@components/Breadcrumbs"
-import { Post, Sidebar } from "@components/blog"
-import { BlogNode } from "@components/blog/Post/interface"
+import { Post, Sidebar } from "@components/Blog"
+import { BlogNode } from "@components/Blog/Post/interface"
 import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 
 export interface BlogPostProps {
