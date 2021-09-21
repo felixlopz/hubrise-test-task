@@ -4,15 +4,16 @@ import HeaderMobile from "./HeaderMobile"
 import HeaderDesktop from "./HeaderDesktop"
 import { useHeaderData } from "./graphql"
 
-import { getLocaleCodeFromAbsolutePath, LocaleCode } from "@utils/locales"
+import { getLocaleCodeFromAbsolutePath, useLocaleCode } from "@utils/locales"
 import { LanguagePaths } from "@utils/context"
 
 interface HeaderProps {
   languagePaths: LanguagePaths
-  localeCode: LocaleCode
 }
 
-const Header = ({ languagePaths, localeCode }: HeaderProps): JSX.Element => {
+const Header = ({ languagePaths }: HeaderProps): JSX.Element => {
+  const localeCode = useLocaleCode()
+
   const headerNodeInLocale = useHeaderData().allFile.nodes.find(
     ({ absolutePath }) => getLocaleCodeFromAbsolutePath(absolutePath) === localeCode,
   )

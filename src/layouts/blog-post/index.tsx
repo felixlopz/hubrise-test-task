@@ -9,7 +9,7 @@ import MDXProvider from "@components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@components/Breadcrumbs"
 import { Post, Sidebar } from "@components/blog"
 import { BlogNode } from "@components/blog/Post/interface"
-import { getLocalizedUrl } from "@utils/locales"
+import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 
 export interface BlogPostProps {
   data: BlogPostData
@@ -50,13 +50,15 @@ export const graphqlQuery = graphql`
 `
 
 const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
+  const { t } = useTranslation()
+  const localeCode = useLocaleCode()
+
   const mdxNode = data.mdxNode
   const { frontmatter } = mdxNode
   const { meta } = frontmatter
-  const { t } = useTranslation()
 
   function handleQueryChange(newQuery: string): void {
-    const pathname = getLocalizedUrl("/blog", pageContext.localeCode)
+    const pathname = getLocalizedUrl("/blog", localeCode)
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 
@@ -70,7 +72,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
 
   return (
     <MDXProvider>
-      <SEO localeCode={pageContext.localeCode} meta={meta} />
+      <SEO meta={meta} />
 
       <Breadcrumbs breadcrumbs={breadcrumbs} />
 

@@ -7,6 +7,7 @@ import { useSidebarData } from "./graphql"
 import { generateArchiveList, getArchiveTitle, getArchiveLink, getRecentArticles } from "./helpers"
 
 import Link from "@components/Link"
+import { useLocaleCode } from "@utils/locales"
 
 interface SidebarProps {
   onQueryChange: (query: string) => void
@@ -15,9 +16,10 @@ interface SidebarProps {
 }
 
 const Sidebar = ({ onQueryChange, searchQuery, hideSearchInput = false }: SidebarProps): JSX.Element => {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
+  const localeCode = useLocaleCode()
 
-  const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === i18n.language)
+  const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === localeCode)
 
   const recentSidebarArticles = getRecentArticles(sidebarArticles)
 

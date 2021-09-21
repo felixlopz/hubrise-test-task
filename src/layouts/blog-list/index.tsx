@@ -11,7 +11,7 @@ import { Hero, Post, Sidebar } from "@components/blog"
 import { BlogListContext } from "@layouts/blog-list"
 import { getArchiveTitle } from "@components/blog/Sidebar"
 import { BlogNode } from "@components/blog/Post/interface"
-import { getLocalizedUrl } from "@utils/locales"
+import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 
 interface BlogListProps {
   data: BlogListData
@@ -45,9 +45,11 @@ export const graphqlQuery = graphql`
 
 const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
   const { t } = useTranslation()
+  const localeCode = useLocaleCode()
+
   const { archive } = pageContext
 
-  const mdxNodesInLocale = data.allMdx.nodes.filter((mdxNode) => mdxNode.fields.localeCode === pageContext.localeCode)
+  const mdxNodesInLocale = data.allMdx.nodes.filter((mdxNode) => mdxNode.fields.localeCode === localeCode)
 
   /** Display only articles from selected archive, and order them by date. */
   let mdxNodes = sortMdxBlogNodesByDescendingDate(mdxNodesInLocale)
@@ -75,7 +77,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 
   function handleQueryChange(newQuery) {
     setSearchQuery(newQuery)
-    const pathname = getLocalizedUrl("/blog", pageContext.localeCode)
+    const pathname = getLocalizedUrl("/blog", localeCode)
     navigate(`${pathname}?q=${newQuery.trim()}`)
   }
 
@@ -100,7 +102,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 
   return (
     <MDXProvider>
-      <SEO localeCode={pageContext.localeCode} meta={meta} />
+      <SEO meta={meta} />
 
       {archive ? <Breadcrumbs breadcrumbs={breadcrumbs} /> : <Hero title={hero.title} description={hero.description} />}
 

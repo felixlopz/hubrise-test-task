@@ -3,11 +3,9 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import SEO, { Meta } from "@components/Seo"
-import { DocumentationSimpleContext } from "@layouts/documentation-simple/interface"
 
 interface DocumentationSimpleProps {
   data: DocumentationSimpleData
-  pageContext: DocumentationSimpleContext
 }
 
 interface DocumentationSimpleData {
@@ -37,13 +35,13 @@ export const graphqlQuery = graphql`
   }
 `
 
-const DocumentationSimple = ({ data, pageContext }: DocumentationSimpleProps): JSX.Element => {
+const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element => {
   const { frontmatter, body } = data.mdx
   const { meta } = frontmatter
 
   return (
     <>
-      <SEO localeCode={pageContext.localeCode} meta={meta} />
+      <SEO meta={meta} />
 
       <section className="section faq">
         <div className="section__in section__in_padding section__in_reverse">

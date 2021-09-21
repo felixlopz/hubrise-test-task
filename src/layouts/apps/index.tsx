@@ -40,12 +40,12 @@ export const graphqlQuery = graphql`
 
 const Apps = ({ data, pageContext, path }: AppsProps): JSX.Element => {
   const { logos } = data
-  const { localeCode, apps, categoryTitle } = pageContext
+  const { apps, categoryTitle } = pageContext
   const { meta, content, path: allAppsPath } = apps
 
   return (
     <>
-      <SEO localeCode={localeCode} meta={meta} />
+      <SEO meta={meta} />
 
       <Hero hero={content.hero} />
 

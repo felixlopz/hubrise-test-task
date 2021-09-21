@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next"
+
 export type LocaleCode = "en" | "fr"
 
 const LocaleMapping: { [key in LocaleCode]: string } = {
@@ -23,4 +25,11 @@ export const getLocalizedUrl = (url: string, localeCode: LocaleCode): string => 
   } else {
     return `/${localeCode}${url}`
   }
+}
+
+export const useLocaleCode = (): LocaleCode => {
+  const {
+    i18n: { language: localeCode },
+  } = useTranslation()
+  return localeCode as LocaleCode
 }

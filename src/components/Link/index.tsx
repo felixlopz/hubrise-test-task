@@ -1,8 +1,7 @@
 import React, { ReactNode } from "react"
-import { useTranslation } from "react-i18next"
 import { Link as GatsbyLink } from "gatsby"
 
-import { defaultLocaleCode, getLocale } from "@utils/locales"
+import { defaultLocaleCode, getLocale, useLocaleCode } from "@utils/locales"
 
 interface LinkProps {
   to: string
@@ -19,9 +18,7 @@ const Link = ({
   newTab = true,
   ...other
 }: LinkProps): JSX.Element => {
-  const {
-    i18n: { language: localeCode },
-  } = useTranslation()
+  const localeCode = useLocaleCode()
 
   if (!initialTo) return <></>
 

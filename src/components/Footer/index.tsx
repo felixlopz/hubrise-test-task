@@ -5,19 +5,16 @@ import ScrollUpButton from "./ScrollUpButton"
 import FooterSection from "./FooterSection"
 import { useFooterData } from "./graphql"
 
-import { getLocaleCodeFromAbsolutePath } from "@utils/locales"
-import { RootContext } from "@utils/context"
+import { getLocaleCodeFromAbsolutePath, useLocaleCode } from "@utils/locales"
 
-export interface FooterProps {
-  pageContext: RootContext
-}
+const Footer: React.FC = (): JSX.Element => {
+  const localeCode = useLocaleCode()
 
-const Footer = ({ pageContext }: FooterProps): JSX.Element => {
   const footerData = useFooterData()
   const footerNodeInLocale = footerData.allFile.nodes.find(
-    ({ absolutePath }) => getLocaleCodeFromAbsolutePath(absolutePath) === pageContext.localeCode,
+    ({ absolutePath }) => getLocaleCodeFromAbsolutePath(absolutePath) === localeCode,
   )
-  if (!footerNodeInLocale) throw `menu-footer.yaml not defined for locale ${pageContext.localeCode}`
+  if (!footerNodeInLocale) throw `menu-footer.yaml not defined for locale ${localeCode}`
 
   const sections = footerNodeInLocale.childYaml.parsedContent.sections
 

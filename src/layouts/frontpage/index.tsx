@@ -6,11 +6,9 @@ import { TeamImageNode } from "./components/Developers"
 
 import { ImageNode } from "@utils/image"
 import SEO from "@components/Seo"
-import { YamlContext } from "@utils/context"
 
 interface FrontpageProps {
   data: FrontpageData
-  pageContext: YamlContext
 }
 
 interface FrontpageData {
@@ -69,13 +67,13 @@ export const graphqlQuery = graphql`
   }
 `
 
-const Frontpage = ({ data, pageContext }: FrontpageProps): JSX.Element => {
+const Frontpage = ({ data }: FrontpageProps): JSX.Element => {
   const { file, apps, appsHover, apiImage, documentationImage, teamImages } = data
   const { meta, hero, content } = file.childYaml.parsedContent
 
   return (
     <div className="frontpage">
-      <SEO localeCode={pageContext.localeCode} meta={meta} />
+      <SEO meta={meta} />
 
       <Hero {...hero} />
 

@@ -12,6 +12,7 @@ import { ImageSharp } from "@utils/image"
 import SEO from "@components/Seo"
 import MDXProvider from "@components/MdxProvider"
 import Breadcrumbs from "@components/Breadcrumbs"
+import { useLocaleCode } from "@utils/locales"
 
 interface DocumentationProps {
   data: DocumentationData
@@ -101,8 +102,9 @@ export const graphqlQuery = graphql`
 
 const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Element => {
   const { t } = useTranslation()
+  const localeCode = useLocaleCode()
 
-  const { breadcrumbs, folderTitle, folderPages, localeCode, logoImageName } = pageContext
+  const { breadcrumbs, folderTitle, folderPages, logoImageName } = pageContext
 
   const currentMdxNode = data.mdxNode
 
@@ -120,13 +122,13 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
   }
 
   const languageWarning =
-    pageContext.contentLocaleCode && pageContext.contentLocaleCode !== pageContext.localeCode
+    pageContext.contentLocaleCode && pageContext.contentLocaleCode !== localeCode
       ? t("documentation.language_warning." + pageContext.contentLocaleCode)
       : undefined
 
   return (
     <MDXProvider>
-      <SEO localeCode={localeCode} meta={meta} />
+      <SEO meta={meta} />
 
       <Breadcrumbs breadcrumbs={breadcrumbs} />
 
