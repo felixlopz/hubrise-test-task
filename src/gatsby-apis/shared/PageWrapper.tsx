@@ -3,10 +3,10 @@ import { WrapPageElementBrowserArgs } from "gatsby"
 import { useTranslation } from "react-i18next"
 import { Helmet } from "react-helmet"
 
-import Modal from "@components/Modal"
-import Layout from "@components/Layout"
-import ContactForm from "@components/ContactForm"
-import { useLayoutContext } from "@components/LayoutContext"
+import Modal from "@layouts/shared/components/Modal"
+import Layout from "@layouts/shared/components/Layout"
+import ContactForm from "@layouts/shared/components/ContactForm"
+import { useLayoutContext } from "@layouts/shared/components/LayoutContext"
 import { RootContext } from "@utils/context"
 
 interface PageWrapperProps {

@@ -5,7 +5,7 @@ import { Hero, Apps, Api, Documentation, Pricing, Developers, Join } from "./com
 import { TeamImageNode } from "./components/Developers"
 
 import { ImageNode } from "@utils/image"
-import SEO from "@components/Seo"
+import SEO from "@layouts/shared/components/Seo"
 
 interface FrontpageProps {
   data: FrontpageData

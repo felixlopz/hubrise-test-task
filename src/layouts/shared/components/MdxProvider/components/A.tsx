@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 interface AProps {
   href: string

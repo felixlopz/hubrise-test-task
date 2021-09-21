@@ -2,7 +2,7 @@ import * as React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 import { ImageNode } from "@utils/image"
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 import { markdownToHtml } from "@utils/misc"
 
 interface AppsProps {

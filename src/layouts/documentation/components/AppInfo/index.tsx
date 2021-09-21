@@ -3,7 +3,7 @@ import * as React from "react"
 import { IAppInfo } from "./interface"
 
 import { generateKey } from "@utils/misc"
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 interface AppInfoProps {
   appInfo: IAppInfo

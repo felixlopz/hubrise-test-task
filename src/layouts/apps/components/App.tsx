@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 
 import { IAdditionalSections, IApp } from "../interface"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 import { generateKey } from "@utils/misc"
 import { ImageNode } from "@utils/image"
 

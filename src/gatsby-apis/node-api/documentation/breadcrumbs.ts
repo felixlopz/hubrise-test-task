@@ -1,5 +1,5 @@
 import { LocaleCode } from "../../../utils/locales"
-import { Breadcrumb } from "../../../components/Breadcrumbs/interface"
+import { Breadcrumb } from "../../../layouts/shared/components/Breadcrumbs/interface"
 
 import { Folder, getFolderFiles, getFolderPath } from "./folder"
 

@@ -3,7 +3,7 @@ import cx from "classnames"
 
 import { LocaleCode, localeCodes } from "@utils/locales"
 import { LanguagePaths } from "@utils/context"
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 interface LanguageSwitcherProps {
   languagePaths: LanguagePaths

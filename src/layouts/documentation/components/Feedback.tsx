@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 export interface FeedbackProps {
   /** The path of the source file, relative to "content", with no leading slash

@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { IHero } from "./interface"
 
-import { useLayoutContext } from "@components/LayoutContext"
+import { useLayoutContext } from "@layouts/shared/components/LayoutContext"
 
 const Hero = (hero: IHero): JSX.Element => {
   const { forms } = useLayoutContext()

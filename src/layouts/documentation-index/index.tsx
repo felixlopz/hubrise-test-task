@@ -5,7 +5,7 @@ import Hero, { IHero } from "./components/Hero"
 import Thumb from "./components/Thumb"
 
 import { generateKey } from "@utils/misc"
-import SEO, { Meta } from "@components/Seo"
+import SEO, { Meta } from "@layouts/shared/components/Seo"
 
 interface DocumentationIndexProps {
   data: DocumentationIndexData

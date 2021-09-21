@@ -6,12 +6,12 @@ import { sortMdxBlogNodesByDescendingDate } from "./helpers"
 
 import { BlogListContext } from "@layouts/blog-list"
 import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
-import SEO, { Meta } from "@components/Seo"
-import MDXProvider from "@components/MdxProvider"
-import Breadcrumbs, { Breadcrumb } from "@components/Breadcrumbs"
-import { Hero, Post, Sidebar } from "@components/Blog"
-import { getArchiveTitle } from "@components/Blog/Sidebar"
-import { BlogNode } from "@components/Blog/Post/interface"
+import SEO, { Meta } from "@layouts/shared/components/Seo"
+import MDXProvider from "@layouts/shared/components/MdxProvider"
+import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
+import { Hero, Post, Sidebar } from "@layouts/shared/components/Blog"
+import { getArchiveTitle } from "@layouts/shared/components/Blog/Sidebar"
+import { BlogNode } from "@layouts/shared/components/Blog/Post/interface"
 
 interface BlogListProps {
   data: BlogListData

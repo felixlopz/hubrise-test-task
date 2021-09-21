@@ -1,7 +1,7 @@
 import * as React from "react"
 import { WrapRootElementNodeArgs } from "gatsby"
 
-import RootWrapper from "@components/RootWrapper"
+import RootWrapper from "../shared/RootWrapper"
 
 const wrapRootElement = ({ element }: WrapRootElementNodeArgs): any => <RootWrapper>{element}</RootWrapper>
 

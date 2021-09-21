@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import logo from "@assets/images/logo_footer.png"
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 const Copyright: React.FC = () => (
   <div className="footer__copyright-wrapper">

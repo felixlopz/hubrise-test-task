@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import { markdownToHtml } from "@utils/misc"
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 interface HeroProps {
   title: string

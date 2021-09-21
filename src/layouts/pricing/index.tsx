@@ -5,7 +5,7 @@ import { IPricing } from "./interface"
 import Offer from "./components/Offer"
 import Specials from "./components/Specials"
 
-import SEO from "@components/Seo"
+import SEO from "@layouts/shared/components/Seo"
 
 interface PricingProps {
   data: PricingData

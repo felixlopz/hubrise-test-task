@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 import { IHeaderLink } from "./helpers"
 import LanguageLinks from "./LanguageLinks"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 import logo from "@assets/images/logo.png"
 import { generateKey } from "@utils/misc"
 import { LanguagePaths } from "@utils/context"

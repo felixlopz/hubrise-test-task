@@ -5,7 +5,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 import { FolderPage } from "../interface"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 import { createHeaderAnchor, generateKey } from "@utils/misc"
 import { ImageSharp } from "@utils/image"
 

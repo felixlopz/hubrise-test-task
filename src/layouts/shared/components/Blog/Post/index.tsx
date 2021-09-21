@@ -4,7 +4,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import { BlogNode } from "./interface"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 interface PostProps {
   mdxNode: BlogNode

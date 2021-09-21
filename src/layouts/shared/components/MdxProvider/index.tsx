@@ -10,7 +10,7 @@ import Label from "./components/Label"
 import Pre from "./components/Pre"
 import Table from "./components/Table"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 const MDXProvider: React.FC = ({ children }) => (
   <DefaultMDXProvider

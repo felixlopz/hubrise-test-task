@@ -9,7 +9,7 @@ import { LanguagePaths } from "@utils/context"
 import { generateKey } from "@utils/misc"
 import button from "@assets/images/bread_button.png"
 import logo from "@assets/images/logo.png"
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 interface HeaderMobileProps {
   languagePaths: LanguagePaths

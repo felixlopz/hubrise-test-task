@@ -1,8 +1,8 @@
 import * as React from "react"
 
 import { generateKey } from "@utils/misc"
-import Link from "@components/Link"
-import { IFooter } from "@components/Footer/interface"
+import Link from "@layouts/shared/components/Link"
+import { IFooter } from "@layouts/shared/components/Footer/interface"
 
 const FooterSection = ({ title, links }: IFooter["sections"][number]): JSX.Element => (
   <div className="footer-nav__section">

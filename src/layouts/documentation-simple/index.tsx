@@ -2,7 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import SEO, { Meta } from "@components/Seo"
+import SEO, { Meta } from "@layouts/shared/components/Seo"
 
 interface DocumentationSimpleProps {
   data: DocumentationSimpleData

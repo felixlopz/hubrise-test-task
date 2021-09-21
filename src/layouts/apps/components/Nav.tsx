@@ -4,7 +4,7 @@ import classNames from "classnames"
 
 import { ICategory } from "../interface"
 
-import Link from "@components/Link"
+import Link from "@layouts/shared/components/Link"
 
 interface NavProps {
   categories: Array<ICategory>

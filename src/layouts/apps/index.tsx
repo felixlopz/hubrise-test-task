@@ -5,7 +5,7 @@ import { AppsContext } from "./interface"
 import { App, Developer, Hero, Nav } from "./components"
 import { AppImageNode } from "./components/App"
 
-import SEO from "@components/Seo"
+import SEO from "@layouts/shared/components/Seo"
 import { generateKey } from "@utils/misc"
 
 interface AppsProps {

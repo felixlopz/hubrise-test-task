@@ -2,8 +2,8 @@ import * as React from "react"
 import { useTranslation } from "react-i18next"
 
 import Image404 from "@assets/images/404.png"
-import SEO, { Meta } from "@components/Seo"
-import Link from "@components/Link"
+import SEO, { Meta } from "@layouts/shared/components/Seo"
+import Link from "@layouts/shared/components/Link"
 
 const NotFound = (): JSX.Element => {
   const { t } = useTranslation()

@@ -9,9 +9,9 @@ import { IAppInfo } from "./components/AppInfo"
 import { Heading } from "./components/SectionNavigation"
 
 import { ImageSharp } from "@utils/image"
-import SEO from "@components/Seo"
-import MDXProvider from "@components/MdxProvider"
-import Breadcrumbs from "@components/Breadcrumbs"
+import SEO from "@layouts/shared/components/Seo"
+import MDXProvider from "@layouts/shared/components/MdxProvider"
+import Breadcrumbs from "@layouts/shared/components/Breadcrumbs"
 import { useLocaleCode } from "@utils/locales"
 
 interface DocumentationProps {

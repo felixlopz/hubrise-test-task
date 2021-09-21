@@ -1,4 +1,4 @@
-import { Breadcrumb } from "@components/Breadcrumbs"
+import { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
 import { RootContext } from "@utils/context"
 
 export interface DocumentationContext extends RootContext {

@@ -4,11 +4,11 @@ import { useTranslation } from "react-i18next"
 
 import { BlogPostContext } from "./interface"
 
-import SEO, { Meta } from "@components/Seo"
-import MDXProvider from "@components/MdxProvider"
-import Breadcrumbs, { Breadcrumb } from "@components/Breadcrumbs"
-import { Post, Sidebar } from "@components/Blog"
-import { BlogNode } from "@components/Blog/Post/interface"
+import SEO, { Meta } from "@layouts/shared/components/Seo"
+import MDXProvider from "@layouts/shared/components/MdxProvider"
+import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
+import { Post, Sidebar } from "@layouts/shared/components/Blog"
+import { BlogNode } from "@layouts/shared/components/Blog/Post/interface"
 import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 
 export interface BlogPostProps {

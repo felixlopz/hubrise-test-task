@@ -3,8 +3,8 @@ import * as React from "react"
 import { ISpecial } from "../interface"
 
 import { generateKey } from "@utils/misc"
-import Link from "@components/Link"
-import { useLayoutContext } from "@components/LayoutContext"
+import Link from "@layouts/shared/components/Link"
+import { useLayoutContext } from "@layouts/shared/components/LayoutContext"
 
 interface SpecialsProps {
   specials: Array<ISpecial>
