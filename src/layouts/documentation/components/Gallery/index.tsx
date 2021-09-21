@@ -1,13 +1,9 @@
 import * as React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTimes } from "@fortawesome/free-solid-svg-icons"
 import { GatsbyImage } from "gatsby-plugin-image"
 import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
 
-import NextArrow from "./Gallery/NextArrow"
-import PrevArrow from "./Gallery/PrevArrow"
+import { Count, Topbar, Title, ImageSlider, StyledSlider, Slide, ImageGridItem, ImageGrid } from "./Styles"
+import { Close, NextArrow, PrevArrow } from "./Controls"
 
 import { generateKey } from "@utils/misc"
 import { ImageSharp } from "@utils/image"
@@ -69,46 +65,37 @@ const Gallery = ({ imageMap, title }: GalleryProps): JSX.Element => {
 
   return (
     <div className="section__content">
-      <div
-        className="image-slider"
-        style={{
-          display: isSliderVisible ? "grid" : "none",
-        }}
-        onClick={() => setIsSliderVisible(false)}
-      >
-        <section className="image-slider__topbar" onClick={(e) => e.stopPropagation()}>
-          <div className="image-slider__title">{title}</div>
-          <div className="image-slider__count">
+      <ImageSlider isVisible={isSliderVisible} onClick={() => setIsSliderVisible(false)}>
+        <Topbar onClick={(e) => e.stopPropagation()}>
+          <Title>{title}</Title>
+          <Count>
             {currentImageNumber} / {totalNumberOfImages}
-          </div>
-          <button className="image-slider__close" onClick={() => setIsSliderVisible(false)}>
-            <FontAwesomeIcon icon={faTimes} />
-          </button>
-        </section>
+          </Count>
+          <Close onClick={() => setIsSliderVisible(false)} />
+        </Topbar>
 
-        <Slider ref={slider} className="image-slider__content" {...sliderSettings}>
-          {Array.from(imageMap).map(([imageName, image], idx) => (
-            <div key={generateKey(imageName, idx)} onClick={(e) => e.stopPropagation()}>
-              <GatsbyImage className="image-slider__slide" image={image.gatsbyImageData} alt={imageName} />
+        <StyledSlider ref={slider} {...sliderSettings}>
+          {Array.from(imageMap).map(([imageName, image], index) => (
+            <div key={generateKey(imageName, index)} onClick={(e) => e.stopPropagation()}>
+              <Slide image={image.gatsbyImageData} alt={imageName} />
             </div>
           ))}
-        </Slider>
-      </div>
+        </StyledSlider>
+      </ImageSlider>
 
-      <section className="image-grid">
-        {Array.from(imageMap).map(([imageName, image], idx) => (
-          <div
-            className="image-grid__item-wrapper"
-            key={generateKey(imageName, idx)}
+      <ImageGrid>
+        {Array.from(imageMap).map(([imageName, image], index) => (
+          <ImageGridItem
+            key={generateKey(imageName, index)}
             onClick={() => {
-              slider.current.slickGoTo(idx)
+              slider.current.slickGoTo(index)
               setIsSliderVisible(!isSliderVisible)
             }}
           >
             <GatsbyImage image={image.gatsbyImageData} alt={title} />
-          </div>
+          </ImageGridItem>
         ))}
-      </section>
+      </ImageGrid>
     </div>
   )
 }

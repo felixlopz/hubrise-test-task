@@ -2,6 +2,8 @@ import * as React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
+import { StyledNextArrow } from "./Styles"
+
 interface NextArrowProps {
   currentImageNumber: number
   totalNumberOfImages: number
@@ -9,19 +11,15 @@ interface NextArrowProps {
 }
 
 const NextArrow = ({ currentImageNumber, totalNumberOfImages, onClick }: NextArrowProps): JSX.Element => {
+  const handleClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
+    event.stopPropagation()
+    onClick && onClick()
+  }
+
   return (
-    <button
-      style={{
-        visibility: currentImageNumber < totalNumberOfImages ? `unset` : `hidden`,
-      }}
-      className="image-slider__arrow_next"
-      onClick={(e) => {
-        e.stopPropagation()
-        if (onClick) onClick()
-      }}
-    >
+    <StyledNextArrow isVisible={currentImageNumber < totalNumberOfImages} onClick={handleClick}>
       <FontAwesomeIcon icon={faArrowRight} />
-    </button>
+    </StyledNextArrow>
   )
 }
 
