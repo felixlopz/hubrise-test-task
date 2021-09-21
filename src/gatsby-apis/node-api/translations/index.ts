@@ -9,7 +9,7 @@ export const onPostBootstrap = copyTranslationsToJson
 
 function copyTranslationsToJson(): void {
   try {
-    const sourcePath = path.resolve(process.cwd(), `src/i18n/resources`)
+    const sourcePath = path.resolve(process.cwd(), `src/i18n`)
     const targetPath = path.resolve(process.cwd(), `public/locales`)
 
     const locales = fs.readdirSync(sourcePath)
