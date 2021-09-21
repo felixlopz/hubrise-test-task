@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet"
 import Modal from "@components/Modal"
 import Layout from "@components/Layout"
 import ContactForm from "@components/ContactForm"
-import { useLayoutContext } from "@contexts/layout"
+import { useLayoutContext } from "@components/LayoutContext"
 import { RootContext } from "@utils/context"
 
 interface PageWrapperProps {

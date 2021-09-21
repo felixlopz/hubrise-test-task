@@ -3,7 +3,7 @@ import * as React from "react"
 import { IHero } from "../interface"
 
 import Link from "@components/Link"
-import { useLayoutContext } from "@contexts/layout"
+import { useLayoutContext } from "@components/LayoutContext"
 
 interface HeroProps {
   hero: IHero

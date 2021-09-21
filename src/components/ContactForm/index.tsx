@@ -7,7 +7,7 @@ import { useToast } from "../Toast"
 import Form from "./Form"
 import { createContactSchema, encodeFormData, FormikStructure } from "./helpers"
 
-import { useLayoutContext } from "@contexts/layout"
+import { useLayoutContext } from "@components/LayoutContext"
 
 interface ContactFormProps {
   recaptchaSiteKey?: string

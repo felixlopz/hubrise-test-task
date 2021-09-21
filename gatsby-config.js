@@ -75,7 +75,6 @@ module.exports = {
       options: {
         alias: {
           "@components": "src/components",
-          "@contexts": "src/contexts",
           "@images": "src/images",
           "@layouts": "src/layouts",
           "@utils": "src/utils",

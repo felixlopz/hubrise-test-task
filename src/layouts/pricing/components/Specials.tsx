@@ -4,7 +4,7 @@ import { ISpecial } from "../interface"
 
 import { generateKey } from "@utils/misc"
 import Link from "@components/Link"
-import { useLayoutContext } from "@contexts/layout"
+import { useLayoutContext } from "@components/LayoutContext"
 
 interface SpecialsProps {
   specials: Array<ISpecial>
