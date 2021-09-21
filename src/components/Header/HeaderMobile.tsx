@@ -7,8 +7,8 @@ import LanguageLinks from "./LanguageLinks"
 
 import { LanguagePaths } from "@utils/context"
 import { generateKey } from "@utils/misc"
-import button from "@images/bread_button.png"
-import logo from "@images/logo.png"
+import button from "@assets/images/bread_button.png"
+import logo from "@assets/images/logo.png"
 import Link from "@components/Link"
 
 interface HeaderMobileProps {

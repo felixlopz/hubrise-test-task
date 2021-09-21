@@ -1,7 +1,7 @@
 import * as React from "react"
 import { useTranslation } from "react-i18next"
 
-import Image404 from "@images/404.png"
+import Image404 from "@assets/images/404.png"
 import SEO, { Meta } from "@components/Seo"
 import Link from "@components/Link"
 

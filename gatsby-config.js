@@ -20,7 +20,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "source__src_images",
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     {
@@ -74,8 +74,8 @@ module.exports = {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
+          "@assets": "src/assets",
           "@components": "src/components",
-          "@images": "src/images",
           "@layouts": "src/layouts",
           "@utils": "src/utils",
         },

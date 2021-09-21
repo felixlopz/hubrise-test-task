@@ -5,7 +5,7 @@ import { IHeaderLink } from "./helpers"
 import LanguageLinks from "./LanguageLinks"
 
 import Link from "@components/Link"
-import logo from "@images/logo.png"
+import logo from "@assets/images/logo.png"
 import { generateKey } from "@utils/misc"
 import { LanguagePaths } from "@utils/context"
 

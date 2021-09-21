@@ -1,4 +1,4 @@
-import "./src/styles/global.scss"
+import "./src/assets/styles/global.scss"
 import { ssrAPI } from "./src/gatsby-apis/ssr-api"
 
 export const wrapRootElement = ssrAPI.wrapRootElement

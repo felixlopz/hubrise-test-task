@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import logo from "@images/logo_footer.png"
+import logo from "@assets/images/logo_footer.png"
 import Link from "@components/Link"
 
 const Copyright: React.FC = () => (

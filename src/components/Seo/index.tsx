@@ -3,10 +3,10 @@ import Helmet from "react-helmet"
 
 import { Meta } from "./interface"
 
-import AppleTouchIcon from "@images/favicons/apple-touch-icon.png"
-import SafariPinnedTab from "@images/favicons/safari-pinned-tab.svg"
-import Favicon32 from "@images/favicons/favicon-32x32.png"
-import Favicon16 from "@images/favicons/favicon-16x16.png"
+import AppleTouchIcon from "@assets/images/favicons/apple-touch-icon.png"
+import SafariPinnedTab from "@assets/images/favicons/safari-pinned-tab.svg"
+import Favicon32 from "@assets/images/favicons/favicon-32x32.png"
+import Favicon16 from "@assets/images/favicons/favicon-16x16.png"
 import { useLayoutContext } from "@components/LayoutContext"
 import { useLocaleCode } from "@utils/locales"
 

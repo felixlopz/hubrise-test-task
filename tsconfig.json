@@ -17,8 +17,8 @@
     "baseUrl": "./src",
     "outDir": "./dist",
     "paths": {
+      "@assets/*": ["./assets/*"],
       "@components/*": ["./components/*"],
-      "@images/*": ["./images/*"],
       "@layouts/*": ["./layouts/*"],
       "@utils/*": ["./utils/*"]
     },
