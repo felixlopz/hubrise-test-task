@@ -1,41 +1,35 @@
 describe(`website`, () => {
   it(`doesn't crash and burn`, () => {
     const englishPages = [
-      '/',
+      "/",
 
-      '/apps',
+      "/apps",
 
-      '/apps/livepepper',
-      '/apps/livepepper/configuration',
+      "/apps/livepepper",
+      "/apps/livepepper/configuration",
 
-      '/developers',
-      '/developers/authentication',
-      '/developers/integration',
-      '/developers/quick-start',
+      "/developers",
+      "/developers/authentication",
+      "/developers/integration",
+      "/developers/quick-start",
 
-      '/developers/api/account-management',
-      '/developers/api/callbacks',
-      '/developers/api/catalog-management',
-      '/developers/api/extensions',
-      '/developers/api/general-concepts',
-      '/developers/api/order-management',
+      "/developers/api/account-management",
+      "/developers/api/callbacks",
+      "/developers/api/catalog-management",
+      "/developers/api/extensions",
+      "/developers/api/general-concepts",
+      "/developers/api/order-management",
     ]
 
-    const frenchPages = englishPages.map((page) => '/fr' + page)
+    const frenchPages = englishPages.map((page) => "/fr" + page)
 
-    const englishOnlyPages = [
-      '/pricing',
-    ]
+    const englishOnlyPages = ["/pricing"]
 
-    const frenchOnlyPages = [
-      '/faq',
-      '/tarifs',
-    ].map((page) => '/fr' + page)
+    const frenchOnlyPages = ["/faq", "/tarifs"].map((page) => "/fr" + page)
 
-    englishPages.concat(englishOnlyPages, frenchPages, frenchOnlyPages)
-      .forEach((page) => {
-        cy.visit(page)
-      })
+    englishPages.concat(englishOnlyPages, frenchPages, frenchOnlyPages).forEach((page) => {
+      cy.visit(page)
+    })
   })
 
   it(`renders elements, allows interaction and navigation between various pages`, () => {

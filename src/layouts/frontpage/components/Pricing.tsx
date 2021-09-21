@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from "react"
 
-import Link from '@components/Link'
-import { markdownToHtml } from '@utils/misc'
+import Link from "@layouts/shared/components/Link"
+import { markdownToHtml } from "@utils/misc"
 
 interface PricingProps {
   title: string
@@ -12,14 +12,7 @@ interface PricingProps {
   link_url?: string
 }
 
-const Pricing = ({
-  title,
-  description,
-  button_label,
-  button_url,
-  link_label,
-  link_url
-}: PricingProps): JSX.Element => {
+const Pricing = ({ title, description, button_label, button_url, link_label, link_url }: PricingProps): JSX.Element => {
   return (
     <section className="frontpage-full frontpage-full_green">
       <div className="frontpage-full__inside">

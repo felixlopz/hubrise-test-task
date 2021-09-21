@@ -1,9 +1,10 @@
-import * as React from 'react'
-import { useScrollRestoration } from 'gatsby'
-import classNames from 'classnames'
+import * as React from "react"
+import { useScrollRestoration } from "gatsby"
+import classNames from "classnames"
 
-import { ICategory } from '../interface'
-import Link from '@components/Link'
+import { ICategory } from "../interface"
+
+import Link from "@layouts/shared/components/Link"
 
 interface NavProps {
   categories: Array<ICategory>
@@ -12,13 +13,8 @@ interface NavProps {
   allAppsLabel: string
 }
 
-const Nav = ({
-  categories,
-  currentPath,
-  allAppsPath,
-  allAppsLabel
-}: NavProps): JSX.Element => {
-  const ulScrollRestoration = useScrollRestoration('apps-nav')
+const Nav = ({ categories, currentPath, allAppsPath, allAppsLabel }: NavProps): JSX.Element => {
+  const ulScrollRestoration = useScrollRestoration("apps-nav")
 
   // Remove when https://github.com/gatsbyjs/gatsby/pull/27982 is merged
   const ulScrollRestorationPatchedType = ulScrollRestoration as {
@@ -33,10 +29,7 @@ const Nav = ({
           <Link
             to={allAppsPath}
             addLocalePrefix={false}
-            className={classNames(
-              'apps-nav__link',
-              allAppsPath === currentPath && 'apps-nav__link_active'
-            )}
+            className={classNames("apps-nav__link", allAppsPath === currentPath && "apps-nav__link_active")}
           >
             {allAppsLabel}
           </Link>
@@ -47,10 +40,7 @@ const Nav = ({
               <Link
                 to={category.path}
                 addLocalePrefix={false}
-                className={classNames(
-                  'apps-nav__link',
-                  category.path === currentPath && 'apps-nav__link_active'
-                )}
+                className={classNames("apps-nav__link", category.path === currentPath && "apps-nav__link_active")}
               >
                 {category.title}
               </Link>

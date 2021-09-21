@@ -1,8 +1,9 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { generateKey } from '@utils/misc'
-import Link from '@components/Link'
-import { IAppInfo } from './interface'
+import { IAppInfo } from "./interface"
+
+import { generateKey } from "@utils/misc"
+import Link from "@layouts/shared/components/Link"
 
 interface AppInfoProps {
   appInfo: IAppInfo
@@ -13,11 +14,10 @@ const AppInfo = ({ appInfo }: AppInfoProps): JSX.Element => {
     <div className="section__content app-info">
       <ul className="app-info__list">
         {Object.entries(appInfo).map(([label, value]) => {
-          if (!value) return ''
+          if (!value) return ""
 
           const labelWithSpaces = label.split(`_`).join(` `)
-          const capitalizedLabel =
-            labelWithSpaces[0].toUpperCase() + labelWithSpaces.slice(1)
+          const capitalizedLabel = labelWithSpaces[0].toUpperCase() + labelWithSpaces.slice(1)
 
           return (
             <li key={generateKey(label, value)} className="app-info__item">
@@ -35,4 +35,4 @@ const AppInfo = ({ appInfo }: AppInfoProps): JSX.Element => {
 
 export default AppInfo
 
-export type { IAppInfo } from './interface'
+export type { IAppInfo } from "./interface"

@@ -1,15 +1,14 @@
-import * as React from 'react'
-import { graphql } from 'gatsby'
+import * as React from "react"
+import { graphql } from "gatsby"
 
-import { generateKey } from '@utils/misc'
-import SEO, { Meta } from '@components/Seo'
-import Hero, { IHero } from './components/Hero'
-import Thumb from './components/Thumb'
-import { DocumentationIndexContext } from './interface'
+import Hero, { IHero } from "./components/Hero"
+import Thumb from "./components/Thumb"
+
+import { generateKey } from "@utils/misc"
+import SEO, { Meta } from "@layouts/shared/components/Seo"
 
 interface DocumentationIndexProps {
   data: DocumentationIndexData
-  pageContext: DocumentationIndexContext
 }
 
 interface DocumentationIndexData {
@@ -62,15 +61,12 @@ export const graphqlQuery = graphql`
   }
 `
 
-const DocumentationIndex = ({
-  data,
-  pageContext
-}: DocumentationIndexProps): JSX.Element => {
+const DocumentationIndex = ({ data }: DocumentationIndexProps): JSX.Element => {
   const { meta, content } = data.mdx.frontmatter
 
   return (
     <>
-      <SEO localeCode={pageContext.localeCode} meta={meta} />
+      <SEO meta={meta} />
 
       <div className="index">
         <Hero {...content.hero} />
