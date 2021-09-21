@@ -1,23 +1,15 @@
 import * as React from "react"
-import cx from "classnames"
 
 import { LocaleCode, localeCodes } from "@utils/locales"
 import { LanguagePaths } from "@utils/context"
-import Link from "@layouts/shared/components/Link"
 
 interface LanguageSwitcherProps {
   languagePaths: LanguagePaths
-  liActiveClassname: string
-  liClassname: string
-  linkClassname: string
+  MenuItem: ({ ...props }) => JSX.Element
+  MenuLink: ({ ...props }) => JSX.Element
 }
 
-const LanguageLinks = ({
-  languagePaths,
-  liActiveClassname,
-  liClassname,
-  linkClassname,
-}: LanguageSwitcherProps): JSX.Element => {
+const LanguageLinks = ({ languagePaths, MenuItem, MenuLink }: LanguageSwitcherProps): JSX.Element => {
   function humanLocale(localeCode: LocaleCode): string {
     return {
       en: "English",
@@ -31,17 +23,17 @@ const LanguageLinks = ({
         const path = languagePaths[localeCode]
         if (path === undefined) {
           return (
-            <li className={cx(liClassname, liActiveClassname)} key={index}>
+            <MenuItem className="is-active" key={index}>
               {humanLocale(localeCode)}
-            </li>
+            </MenuItem>
           )
         } else {
           return (
-            <li className={liClassname} key={index}>
-              <Link className={linkClassname} to={path} addLocalePrefix={false}>
+            <MenuItem key={index}>
+              <MenuLink to={path} addLocalePrefix={false}>
                 {humanLocale(localeCode)}
-              </Link>
-            </li>
+              </MenuLink>
+            </MenuItem>
           )
         }
       })}

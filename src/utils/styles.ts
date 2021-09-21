@@ -33,6 +33,21 @@ export const breakpoints = {
 }
 
 export const mixin = {
+  button: css`
+    padding: 0.4em 1.5em;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+  `,
+  buttonOver: (color: string, backgroundColor: string): FlattenSimpleInterpolation => css`
+    transition: color 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+      color: ${color};
+      background-color: ${backgroundColor};
+    }
+  `,
   clickable: css`
     cursor: pointer;
     user-select: none;
@@ -57,6 +72,19 @@ export const mixin = {
           color: ${colors.silverGray};
         }
       }
+    }
+  `,
+  headerStyle: css`
+    height: ${sizes.headerHeight};
+    z-index: ${zIndexValues.header};
+    background-color: ${colors.white};
+    border-bottom: 3px solid ${colors.primary};
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  `,
+  linkOver: (color: string): FlattenSimpleInterpolation => css`
+    transition: color 0.2s ease;
+    &:hover {
+      color: ${color};
     }
   `,
 }

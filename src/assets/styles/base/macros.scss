@@ -4,14 +4,6 @@
   margin: 0 auto;
 }
 
-@mixin hr-header-style {
-  height: $hr-header-height;
-  z-index: $hr-z-header;
-  background-color: $white;
-  border-bottom: 3px solid $hr-green;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
-}
-
 @mixin hr-button {
   padding: 0.4em 1.5em;
   font-size: 0.9375rem;
