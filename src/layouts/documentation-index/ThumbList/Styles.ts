@@ -3,7 +3,16 @@ import styled from "styled-components"
 import OriginalLink from "@layouts/shared/components/Link"
 import { breakpoints, colors } from "@utils/styles"
 
-export const StyledThumb = styled.div`
+export const StyledThumbList = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 1rem;
+`
+
+export const Thumb = styled.div`
   flex: 0 0 50%;
   max-width: 50%;
   margin-bottom: 1rem;
