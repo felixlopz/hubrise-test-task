@@ -3,7 +3,7 @@ import styled, { css } from "styled-components"
 import Link from "@layouts/shared/components/Link"
 import { colors, mixin, sizes, zIndexValues } from "@utils/styles"
 
-export const StyledNav = styled.div<{ isSticky: boolean }>`
+export const StyledNav = styled.div<{ $isSticky: boolean }>`
   position: sticky;
   top: ${sizes.headerHeight};
   z-index: ${zIndexValues.mobileBarMenu};
@@ -11,7 +11,7 @@ export const StyledNav = styled.div<{ isSticky: boolean }>`
   transition: background-color, color 0.3s;
 
   ${(props) =>
-    props.isSticky &&
+    props.$isSticky &&
     css`
       background-color: ${colors.primary};
       color: ${colors.white};
@@ -30,24 +30,24 @@ export const Item = styled.li`
   line-height: 2rem;
 `
 
-export const StyledLink = styled(Link)<{ isSticky: boolean; isActive: boolean }>`
+export const StyledLink = styled(Link)<{ $isSticky: boolean; $isActive: boolean }>`
   ${(props) =>
-    props.isActive &&
+    props.$isActive &&
     css`
       text-decoration: underline;
     `}
 
-  ${({ isSticky, isActive }) =>
-    isSticky
+  ${({ $isSticky, $isActive }) =>
+    $isSticky
       ? css`
-          color: ${isActive ? colors.white : "#eee"};
+          color: ${$isActive ? colors.white : "#eee"};
 
           :hover {
             color: ${colors.white};
           }
         `
       : css`
-          color: ${isActive ? colors.primary : colors.gray};
+          color: ${$isActive ? colors.primary : colors.gray};
 
           :hover {
             color: ${colors.primary};
