@@ -1,7 +1,7 @@
 import * as React from "react"
 import { useTranslation } from "react-i18next"
 
-import { IAdditionalSections, IApp } from "../../interface"
+import { IAdditionalSections, IApp } from "../interface"
 
 import {
   Group,

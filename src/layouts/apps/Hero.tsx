@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { IHero } from "../interface"
+import { IHero } from "./interface"
 
 import Link from "@layouts/shared/components/Link"
 import { useLayoutContext } from "@layouts/shared/components/LayoutContext"

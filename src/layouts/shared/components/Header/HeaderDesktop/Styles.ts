@@ -24,7 +24,7 @@ export const Menu = styled.ul`
 export const MenuItem = styled.li`
   ${mixin.dotSeparatedList("0.5rem")};
 
-  .is-active {
+  &.is-active {
     color: ${colors.primary};
   }
 `

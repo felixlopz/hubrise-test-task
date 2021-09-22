@@ -1,8 +1,8 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import Hero, { IHero } from "./components/Hero"
-import Thumb from "./components/Thumb"
+import Hero, { IHero } from "./Hero"
+import Thumb from "./Thumb"
 
 import { generateKey } from "@utils/misc"
 import SEO, { Meta } from "@layouts/shared/components/Seo"

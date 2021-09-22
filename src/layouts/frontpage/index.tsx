@@ -1,8 +1,13 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import { Hero, Apps, Api, Documentation, Pricing, Developers, Join } from "./components"
-import { TeamImageNode } from "./components/Developers"
+import Api from "./Api"
+import Apps from "./Apps"
+import Developers, { TeamImageNode } from "./Developers"
+import Documentation from "./Documentation"
+import Hero from "./Hero"
+import Join from "./Join"
+import Pricing from "./Pricing"
 
 import { ImageNode } from "@utils/image"
 import SEO from "@layouts/shared/components/Seo"

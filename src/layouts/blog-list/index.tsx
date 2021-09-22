@@ -3,8 +3,8 @@ import { graphql, navigate } from "gatsby"
 import { useTranslation } from "react-i18next"
 
 import { sortMdxBlogNodesByDescendingDate } from "./helpers"
+import { BlogListContext } from "./interface"
 
-import { BlogListContext } from "@layouts/blog-list"
 import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"

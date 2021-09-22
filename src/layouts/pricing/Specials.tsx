@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { ISpecial } from "../interface"
+import { ISpecial } from "./interface"
 
 import { generateKey } from "@utils/misc"
 import Link from "@layouts/shared/components/Link"

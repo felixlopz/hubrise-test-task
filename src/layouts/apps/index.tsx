@@ -2,8 +2,10 @@ import * as React from "react"
 import { graphql } from "gatsby"
 
 import { AppsContext } from "./interface"
-import { AppGroup, Developer, Hero, Nav } from "./components"
-import { AppImageNode } from "./components/AppGroup"
+import AppGroup, { AppImageNode } from "./AppGroup"
+import Developer from "./Developer"
+import Hero from "./Hero"
+import Nav from "./Nav"
 
 import SEO from "@layouts/shared/components/Seo"
 import { generateKey } from "@utils/misc"

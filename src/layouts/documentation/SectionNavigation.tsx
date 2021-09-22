@@ -3,7 +3,7 @@ import cx from "classnames"
 import { useMedia } from "react-use"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-import { FolderPage } from "../interface"
+import { FolderPage } from "./interface"
 
 import Link from "@layouts/shared/components/Link"
 import { createHeaderAnchor, generateKey } from "@utils/misc"
