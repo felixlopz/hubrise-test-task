@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Hero, { IHero } from "./Hero"
 import Thumb from "./Thumb"
+import { ThumbList } from "./Styles"
 
 import { generateKey } from "@utils/misc"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
@@ -79,11 +80,11 @@ const DocumentationIndex = ({ data }: DocumentationIndexProps): JSX.Element => {
             section__in_reverse
           `}
           >
-            <ul className="developers-thumbs">
+            <ThumbList>
               {content.thumbs.map((thumb, idx) => (
                 <Thumb key={generateKey(thumb.title, idx)} {...thumb} />
               ))}
-            </ul>
+            </ThumbList>
           </div>
         </section>
       </div>

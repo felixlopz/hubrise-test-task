@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import Link from "@layouts/shared/components/Link"
+import { Icon, Link, Title, StyledThumb, Description } from "./Styles"
 
 export interface ThumbProps {
   description: string
@@ -11,13 +11,13 @@ export interface ThumbProps {
 
 const Thumb = ({ description, icon, title, to }: ThumbProps): JSX.Element => {
   return (
-    <li className="developers-thumbs__item">
-      <Link className="developers-thumbs__link" to={to} addLocalePrefix={false}>
-        <i className={`developers-thumbs__icon fa ${icon}`} />
-        <span className="developers-thumbs__title">{title}</span>
-        <p className="developers-thumbs__description">{description}</p>
+    <StyledThumb>
+      <Link to={to} addLocalePrefix={false}>
+        <Icon className={`fa ${icon}`} />
+        <Title>{title}</Title>
+        <Description>{description}</Description>
       </Link>
-    </li>
+    </StyledThumb>
   )
 }
 
