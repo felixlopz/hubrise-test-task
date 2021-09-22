@@ -1,9 +1,11 @@
 import * as React from "react"
 
+import { StyledButton } from "./Styles"
+
 const ScrollUpButton: React.FC = () => (
-  <button className="footer__scroll-up" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+  <StyledButton onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
     <i className="fa fa-angle-up" />
-  </button>
+  </StyledButton>
 )
 
 export default ScrollUpButton
