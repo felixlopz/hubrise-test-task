@@ -1,9 +1,10 @@
 import * as React from "react"
 
-import { IOffer } from "./interface"
+import { IOffer } from "../interface"
+
+import { List, Item, Button } from "./Styles"
 
 import { generateKey } from "@utils/misc"
-import Link from "@layouts/shared/components/Link"
 
 interface OfferProps {
   offer: IOffer
@@ -18,17 +19,15 @@ const Offer = ({ offer: { pricing, features, link } }: OfferProps): JSX.Element 
           <span className="section__title-span">{pricing.chunk_2}</span>
         </h3>
 
-        <ul className="pricing__offer-list">
+        <List>
           {features.map((feature, idx) => (
-            <li key={generateKey(feature, idx)} className="pricing__offer-item">
-              {feature}
-            </li>
+            <Item key={generateKey(feature, idx)}>{feature}</Item>
           ))}
-        </ul>
+        </List>
 
-        <Link className="pricing__button" to={link.to} newTab={false}>
+        <Button to={link.to} newTab={false}>
           {link.text}
-        </Link>
+        </Button>
       </div>
     </div>
   )
