@@ -3,8 +3,7 @@ import { useTranslation } from "react-i18next"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import { BlogNode } from "./interface"
-
-import Link from "@layouts/shared/components/Link"
+import { Title, Header, DateValue, Excerpt, ReadMore, StyledPost } from "./Styles"
 
 interface PostProps {
   mdxNode: BlogNode
@@ -19,30 +18,28 @@ const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
   const dateAsString = new Date(frontmatter.date).toLocaleDateString()
 
   return (
-    <>
-      <div className="blog-post">
-        <h3 className="blog-post__title">{frontmatter.title}</h3>
-        <div className="blog-post__date">
-          {t("misc.posted_on")} <span className="blog-post__date-value">{dateAsString}</span> {t("misc.by")}{" "}
-          {frontmatter.author}
+    <StyledPost>
+      <Title>{frontmatter.title}</Title>
+
+      <Header>
+        {t("misc.posted_on")} <DateValue>{dateAsString}</DateValue> {t("misc.by")} {frontmatter.author}
+      </Header>
+
+      {showMore && (
+        <>
+          <Excerpt>{frontmatter.excerpt}</Excerpt>
+          <ReadMore to={fields.path} addLocalePrefix={false}>
+            {t("misc.read_more")}
+          </ReadMore>
+        </>
+      )}
+
+      {showBody && (
+        <div className="documentation">
+          <MDXRenderer>{body!}</MDXRenderer>
         </div>
-
-        {showMore && (
-          <>
-            <div className="blog-post__excerpt">{frontmatter.excerpt}</div>
-            <Link to={fields.path} addLocalePrefix={false} className="blog-post__read-more">
-              {t("misc.read_more")}
-            </Link>
-          </>
-        )}
-
-        {showBody && (
-          <div className="documentation">
-            <MDXRenderer>{body!}</MDXRenderer>
-          </div>
-        )}
-      </div>
-    </>
+      )}
+    </StyledPost>
   )
 }
 

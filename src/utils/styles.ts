@@ -3,11 +3,11 @@ import { css, FlattenSimpleInterpolation } from "styled-components"
 export const colors = {
   primary: "#6db24f",
 
-  darkGray: "#333333",
-  gray: "#555555",
-  lightGray: "#777777",
-  silverGray: "#cccccc",
-  white: "#ffffff",
+  darkGray: "#333",
+  gray: "#555",
+  lightGray: "#777",
+  silverGray: "#ccc",
+  white: "#fff",
 }
 
 export const sizes = {
@@ -22,6 +22,7 @@ export const zIndexValues = {
   mobileBarBackdrop: 20,
   mobileBarMenu: 30,
   slideshow: 100,
+  modalOverlay: 150,
   modal: 200,
 }
 

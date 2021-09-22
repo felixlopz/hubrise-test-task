@@ -1,6 +1,10 @@
-.faq {
+import styled from "styled-components"
+
+import { colors } from "@utils/styles"
+
+export const StyledFaq = styled.div`
   h4 {
-    color: $hr-dark-gray;
+    color: ${colors.darkGray};
     font-weight: bold;
     font-size: 1.5rem;
     position: relative;
@@ -23,7 +27,7 @@
 
   h5 {
     display: inline-block;
-    color: $hr-dark-gray;
+    color: ${colors.darkGray};
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 1.25rem;
@@ -33,7 +37,7 @@
 
   h6 {
     display: inline-block;
-    color: $hr-dark-gray;
+    color: ${colors.darkGray};
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 0.15rem;
@@ -43,7 +47,7 @@
 
   p {
     text-align: left;
-    color: $hr-light-gray;
+    color: ${colors.lightGray};
     font-weight: 400;
     margin-bottom: 2rem;
   }
@@ -66,4 +70,4 @@
   p + blockquote {
     margin-top: -1rem;
   }
-}
+`
