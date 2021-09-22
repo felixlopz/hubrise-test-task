@@ -14,6 +14,8 @@ const useSticky = (ref: React.RefObject<HTMLElement>, topOffset: number): boolea
 
   React.useLayoutEffect(() => {
     window.addEventListener("scroll", handleScroll)
+    handleScroll()
+
     return () => window.removeEventListener("scroll", handleScroll)
   }, [handleScroll])
 

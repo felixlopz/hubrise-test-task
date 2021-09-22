@@ -21,13 +21,13 @@ const Index = ({ categories, currentPath, allAppsPath, allAppsLabel }: NavProps)
   const isSticky = useSticky($navRef, headerHeightInPixels)
 
   const link = (path: string, isActive: boolean, label: string) => (
-    <StyledLink to={path} addLocalePrefix={false} {...{ isActive, isSticky }}>
+    <StyledLink to={path + "#layouts-nav"} addLocalePrefix={false} {...{ isActive, isSticky }}>
       {label}
     </StyledLink>
   )
 
   return (
-    <StyledNav ref={$navRef} isSticky={isSticky}>
+    <StyledNav ref={$navRef} isSticky={isSticky} id="layouts-nav">
       <List>
         <Item key={-1}>{link(allAppsPath, allAppsPath === currentPath, allAppsLabel)}</Item>
 
