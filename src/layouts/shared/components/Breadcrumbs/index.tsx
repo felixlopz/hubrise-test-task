@@ -1,8 +1,7 @@
 import * as React from "react"
 
 import { Breadcrumb } from "./interface"
-
-import Link from "@layouts/shared/components/Link"
+import { Item, ItemLink, List, Wrapper } from "./Styles"
 
 interface BreadcrumbsProps {
   breadcrumbs: Array<Breadcrumb>
@@ -10,21 +9,21 @@ interface BreadcrumbsProps {
 
 const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {
   return (
-    <section className="breadcrumbs-wrapper">
-      <ul className="breadcrumbs-wrapper__list">
+    <Wrapper>
+      <List>
         {breadcrumbs.map((breadcrumb, index) => (
-          <li key={index} className="breadcrumbs-wrapper__list-item">
+          <Item key={index}>
             {breadcrumb.path ? (
-              <Link to={breadcrumb.path} addLocalePrefix={false} className="breadcrumbs-wrapper__list-item_link">
+              <ItemLink to={breadcrumb.path} addLocalePrefix={false}>
                 {breadcrumb.label}
-              </Link>
+              </ItemLink>
             ) : (
               breadcrumb.label
             )}
-          </li>
+          </Item>
         ))}
-      </ul>
-    </section>
+      </List>
+    </Wrapper>
   )
 }
 
