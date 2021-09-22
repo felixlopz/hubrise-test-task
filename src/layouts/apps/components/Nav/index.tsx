@@ -1,11 +1,12 @@
 import * as React from "react"
-// import { useScrollRestoration } from "gatsby"
 
 import { ICategory } from "../../interface"
 
 import { Item, List, StyledNav, StyledLink } from "./Styles"
 
 import useSticky from "@utils/hooks/useSticky"
+import { sizes } from "@utils/styles"
+import { remIntoPixels } from "@utils/dom"
 
 interface NavProps {
   categories: Array<ICategory>
@@ -16,35 +17,22 @@ interface NavProps {
 
 const Index = ({ categories, currentPath, allAppsPath, allAppsLabel }: NavProps): JSX.Element => {
   const $navRef = React.useRef<HTMLDivElement>(null)
-  const isSticky = useSticky($navRef, 80)
+  const headerHeightInPixels = React.useMemo(() => remIntoPixels(sizes.headerHeight), [])
+  const isSticky = useSticky($navRef, headerHeightInPixels)
+
+  const link = (path: string, isActive: boolean, label: string) => (
+    <StyledLink to={path} addLocalePrefix={false} {...{ isActive, isSticky }}>
+      {label}
+    </StyledLink>
+  )
 
   return (
     <StyledNav ref={$navRef} isSticky={isSticky}>
       <List>
-        <Item key={-1}>
-          <StyledLink
-            to={allAppsPath}
-            addLocalePrefix={false}
-            isActive={allAppsPath === currentPath}
-            isSticky={isSticky}
-          >
-            {allAppsLabel}
-          </StyledLink>
-        </Item>
+        <Item key={-1}>{link(allAppsPath, allAppsPath === currentPath, allAppsLabel)}</Item>
 
         {categories.map((category, idx) => {
-          return (
-            <Item key={idx}>
-              <StyledLink
-                to={category.path}
-                addLocalePrefix={false}
-                isActive={category.path === currentPath}
-                isSticky={isSticky}
-              >
-                {category.title}
-              </StyledLink>
-            </Item>
-          )
+          return <Item key={idx}>{link(category.path, category.path === currentPath, category.title)}</Item>
         })}
       </List>
     </StyledNav>

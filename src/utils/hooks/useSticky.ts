@@ -1,22 +1,16 @@
 import * as React from "react"
 
 /**
- * Detect if an HTML element with position: sticky is actually stuck.
+ * Repaint the component each time the provided sticky HTML element transitions between stuck and non stuck modes.
  * @param ref The sticky element
- * @param topOffset The "top" CSS property
+ * @param topOffset The "top" CSS property of the sticky element, specified in pixels.
  */
 const useSticky = (ref: React.RefObject<HTMLElement>, topOffset: number): boolean => {
   const [isSticky, setIsSticky] = React.useState(false)
-  const offsetYRef = React.useRef<{ value?: number }>({})
 
   const handleScroll = React.useCallback((): void => {
-    if (offsetYRef.current.value) setIsSticky(window.scrollY + topOffset > offsetYRef.current.value)
-  }, [setIsSticky, topOffset])
-
-  React.useLayoutEffect(() => {
-    offsetYRef.current.value =
-      ref.current!.getBoundingClientRect().top + (window.pageYOffset || document.documentElement.scrollTop)
-  }, [ref])
+    if (ref.current) setIsSticky(ref.current.getBoundingClientRect().top === topOffset)
+  }, [setIsSticky, ref, topOffset])
 
   React.useLayoutEffect(() => {
     window.addEventListener("scroll", handleScroll)
