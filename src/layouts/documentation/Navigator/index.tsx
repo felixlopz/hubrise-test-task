@@ -11,7 +11,7 @@ import { createHeaderAnchor, generateKey } from "@utils/misc"
 import Link from "@layouts/shared/components/Link"
 import { ImageSharp } from "@utils/image"
 
-interface SectionNavigationProps {
+interface NavigatorProps {
   currentPath: string
   folderPages: Array<FolderPage>
   title: string
@@ -24,13 +24,13 @@ export interface Heading {
   value: string
 }
 
-const SectionNavigation = ({
+const Navigator = ({
   currentPath,
   folderPages,
   title,
   logo,
   headings,
-}: SectionNavigationProps): JSX.Element => {
+}: NavigatorProps): JSX.Element => {
   const [isExpanded, setIsExpanded] = React.useState(false)
   const [isFixed, setFixed] = React.useState(false)
   const containerRef = React.useRef<HTMLDivElement>(null)
@@ -141,7 +141,7 @@ const SectionNavigation = ({
   )
 }
 
-export default SectionNavigation
+export default Navigator
 
 function getCurrentTitle(): string | null {
   const titleNodeList = Array.from(document.querySelectorAll("h2")).reverse()

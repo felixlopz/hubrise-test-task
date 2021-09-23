@@ -6,7 +6,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import AppInfo, { IAppInfo } from "./AppInfo"
 import Feedback from "./Feedback"
 import Gallery from "./Gallery"
-import SectionNavigation, { Heading } from "./SectionNavigation"
+import Navigator, { Heading } from "./Navigator"
 import { DocumentationContext } from "./interface"
 
 import { ImageSharp } from "@utils/image"
@@ -151,7 +151,7 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
             </div>
           </div>
 
-          <SectionNavigation
+          <Navigator
             logo={logoImage}
             currentPath={path}
             title={folderTitle}
