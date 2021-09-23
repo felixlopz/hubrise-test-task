@@ -1,12 +1,14 @@
 import * as React from "react"
-import cx from "classnames"
+import classnames from "classnames"
 import { useMedia } from "react-use"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-import { FolderPage } from "./interface"
+import { FolderPage } from "../interface"
 
-import Link from "@layouts/shared/components/Link"
+import { List, ItemLink, Item, TitleLink, Title, ArrowIcon, SubList, SubListLink } from "./Styles"
+
 import { createHeaderAnchor, generateKey } from "@utils/misc"
+import Link from "@layouts/shared/components/Link"
 import { ImageSharp } from "@utils/image"
 
 interface SectionNavigationProps {
@@ -44,32 +46,25 @@ const SectionNavigation = ({
   }, [isDesktop, isFixed])
 
   React.useLayoutEffect(() => {
-    function listener() {
+    function onScroll() {
       const newTitle = getCurrentTitle() || title
-      if (currentTitle !== newTitle) {
-        setCurrentTitle(newTitle)
-      }
+      if (currentTitle !== newTitle) setCurrentTitle(newTitle)
 
       const rect = containerRef.current!.getBoundingClientRect()
       const top = rect.top + window.pageYOffset
+      const scrollTop = document.documentElement.scrollTop
 
-      if (top <= document.documentElement.scrollTop && !isFixed) {
-        setFixed(true)
-      }
-
-      if (top > document.documentElement.scrollTop && isFixed) {
-        setFixed(false)
-      }
+      if (top <= scrollTop && !isFixed) setFixed(true)
+      if (top > scrollTop && isFixed) setFixed(false)
     }
 
-    document.addEventListener("scroll", listener)
-
-    return () => document.removeEventListener("scroll", listener)
+    document.addEventListener("scroll", onScroll)
+    return () => document.removeEventListener("scroll", onScroll)
   }, [setCurrentTitle, currentTitle, isDesktop, isFixed, title])
 
   return (
     <div
-      className={cx(
+      className={classnames(
         "section__sidebar",
         "section__sidebar_right",
         "section__sidebar_small-padding",
@@ -84,71 +79,62 @@ const SectionNavigation = ({
           </Link>
         </div>
       )}
+
       <div ref={containerRef} className="section__sidebar-in-wrapper">
         <div
-          className={cx("section__sidebar-in", logo && "section__sidebar_sticky", isFixed && "section__sidebar_fixed")}
+          className={classnames(
+            "section__sidebar-in",
+            logo && "section__sidebar_sticky",
+            isFixed && "section__sidebar_fixed",
+          )}
         >
-          <h5 className="content-nav__title">
-            <Link to={chapterMainPath} addLocalePrefix={false} className="content-nav__title__link">
+          <Title>
+            <TitleLink to={chapterMainPath} addLocalePrefix={false}>
               {title}
-            </Link>
-          </h5>
+            </TitleLink>
+          </Title>
 
-          <h5
-            id="content-nav"
-            className={cx(
-              "content-nav__title",
-              "content-nav__title_small",
-              isExpanded ? "content-nav__title_small_bottom_border" : "",
-            )}
-            onClick={() => setIsExpanded(!isExpanded)}
-          >
+          <Title onClick={() => setIsExpanded((v) => !v)} $forMobile={true} $isExpanded={isExpanded}>
             {currentTitle}
-            <i className={cx("fa", isExpanded ? "fa-angle-up" : "fa-angle-down", "content-nav__arrow")} />
-          </h5>
+            <ArrowIcon className={classnames("fa", isExpanded ? "fa-angle-up" : "fa-angle-down")} />
+          </Title>
 
-          <ul id="content-nav-list" className={cx("content-nav__list", isExpanded ? "" : "content-nav__list_hidden")}>
+          <List $isExpanded={isExpanded}>
             {folderPages.map(({ title, path }, idx) => {
               const isCurrentPage = currentPath === path
 
               return (
-                <li
-                  key={generateKey(title, idx)}
-                  className={cx("content-nav__item", isCurrentPage ? "content-nav__item_active" : "")}
-                >
-                  <Link
+                <Item key={generateKey(title, idx)} $isActive={isCurrentPage}>
+                  <ItemLink
                     to={path}
                     addLocalePrefix={false}
-                    className="content-nav__link"
                     onClick={isDesktop ? undefined : () => setIsExpanded(false)}
+                    $isActive={isCurrentPage}
                   >
                     {title}
-                  </Link>
+                  </ItemLink>
 
                   {isCurrentPage && headings.length !== 0 && (
-                    <ol className="content-sublist">
+                    <SubList>
                       {headings
                         .filter(({ depth }) => depth === 2)
                         .map(({ value: headingText }, idx) => (
-                          <li
-                            key={generateKey(headingText, idx)}
-                            className="content-sublist-item content-sublist-level-2"
-                          >
-                            <Link
-                              className={cx("content-sublist-link", currentTitle === headingText ? "active" : "")}
+                          <li key={generateKey(headingText, idx)}>
+                            <SubListLink
                               to={`#${createHeaderAnchor(headingText)}`}
                               onClick={isDesktop ? undefined : () => setIsExpanded(false)}
+                              $isActive={currentTitle === headingText}
                             >
-                              <span className="content-sublist-text">{headingText}</span>
-                            </Link>
+                              <span>{headingText}</span>
+                            </SubListLink>
                           </li>
                         ))}
-                    </ol>
+                    </SubList>
                   )}
-                </li>
+                </Item>
               )
             })}
-          </ul>
+          </List>
         </div>
       </div>
     </div>
@@ -157,7 +143,7 @@ const SectionNavigation = ({
 
 export default SectionNavigation
 
-function getCurrentTitle() {
+function getCurrentTitle(): string | null {
   const titleNodeList = Array.from(document.querySelectorAll("h2")).reverse()
 
   const currentTitleNode = titleNodeList.find((titleNode) => {
