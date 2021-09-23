@@ -7,6 +7,7 @@ import Developers, { TeamImageNode } from "./Developers"
 import Documentation from "./Documentation"
 import Hero from "./Hero"
 import Join from "./Join"
+import MissionAndScalability from "./MissionAndScalability"
 import Pricing from "./Pricing"
 
 import { ImageNode } from "@utils/image"
@@ -92,7 +93,7 @@ const Frontpage = ({ data }: FrontpageProps): JSX.Element => {
 
       <Developers {...content.developers} teamImages={teamImages} />
 
-      {/*<MissionAndScalability {...content.mission_and_scalability} />*/}
+      <MissionAndScalability {...content.mission_and_scalability} />
 
       <Join {...content.join} />
     </div>
