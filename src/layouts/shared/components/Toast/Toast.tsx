@@ -1,9 +1,9 @@
 import * as React from "react"
 import { faTimesCircle } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import cx from "classnames"
 
 import { animate, getIcon, IToast } from "./helpers"
+import { StyledToast, Content, Description, Title, CloseButton, Icon } from "./Styles"
 
 type ToastProps = {
   toast: IToast
@@ -30,25 +30,20 @@ const Toast = ({ toast, onClose }: ToastProps): JSX.Element => {
   }, [hideToast, toast.timeout])
 
   return (
-    <div className={cx("toast__inner", toast.variant)} ref={toastRef}>
-      <div className="toast__icon">
+    <StyledToast ref={toastRef} $variant={toast.variant}>
+      <Icon>
         <FontAwesomeIcon icon={getIcon(toast.variant)} color="white" />
-      </div>
+      </Icon>
 
-      <div className="toast__content">
-        {toast.title ? <span className="toast__title">{toast.title}</span> : null}
-        <p className="toast__description">{toast.text}</p>
-      </div>
+      <Content>
+        {toast.title && <Title>{toast.title}</Title>}
+        <Description>{toast.text}</Description>
+      </Content>
 
-      <button
-        className="toast__close-button"
-        type="button"
-        onClick={() => onClose(toast.id)}
-        data-testid="close-toast-button"
-      >
+      <CloseButton type="button" onClick={() => onClose(toast.id)}>
         <FontAwesomeIcon icon={faTimesCircle} color="white" />
-      </button>
-    </div>
+      </CloseButton>
+    </StyledToast>
   )
 }
 

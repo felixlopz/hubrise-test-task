@@ -11,26 +11,24 @@ interface HeroProps {
   button_url: string
 }
 
-const Hero = ({ title, description, button_label, button_url }: HeroProps): JSX.Element => {
-  return (
-    <Container>
-      <Image />
+const Hero = ({ title, description, button_label, button_url }: HeroProps): JSX.Element => (
+  <Container>
+    <Image />
 
-      <TextContainer>
-        <TextWrapper>
-          <Text>
-            <Title>{title}</Title>
-            <Description
-              dangerouslySetInnerHTML={{
-                __html: markdownToHtml(description),
-              }}
-            />
-            <Button to={button_url}>{button_label}</Button>
-          </Text>
-        </TextWrapper>
-      </TextContainer>
-    </Container>
-  )
-}
+    <TextContainer>
+      <TextWrapper>
+        <Text>
+          <Title>{title}</Title>
+          <Description
+            dangerouslySetInnerHTML={{
+              __html: markdownToHtml(description),
+            }}
+          />
+          <Button to={button_url}>{button_label}</Button>
+        </Text>
+      </TextWrapper>
+    </TextContainer>
+  </Container>
+)
 
 export default Hero
