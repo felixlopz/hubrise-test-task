@@ -24,13 +24,7 @@ export interface Heading {
   value: string
 }
 
-const Navigator = ({
-  currentPath,
-  folderPages,
-  title,
-  logo,
-  headings,
-}: NavigatorProps): JSX.Element => {
+const Navigator = ({ currentPath, folderPages, title, logo, headings }: NavigatorProps): JSX.Element => {
   const [isExpanded, setIsExpanded] = React.useState(false)
   const [isFixed, setFixed] = React.useState(false)
   const containerRef = React.useRef<HTMLDivElement>(null)
