@@ -30,6 +30,8 @@ export const Extra = styled.span`
 `
 
 export const Cell = styled.td`
+  color: ${colors.gray};
+
   &:first-of-type {
     width: 33%;
   }

@@ -1,5 +1,35 @@
-.documentation {
+import styled from "styled-components"
+
+import { colors } from "@utils/styles"
+
+export const Container = styled.div`
   font-family: "Poppins", sans-serif;
+
+  h1 {
+    color: ${colors.darkGray};
+    font-weight: bold;
+    font-size: 2.125rem;
+    position: relative;
+    margin: 0 0 2.5rem 0;
+    width: 100%;
+    line-height: 120%;
+
+    @media screen and (min-width: 415px) {
+      font-size: 2.625rem;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: inherit;
+      top: 100%;
+      margin: 10px auto;
+      width: 15%;
+      height: 3px;
+      background: ${colors.primary};
+    }
+  }
 
   h2,
   h3 {
@@ -21,42 +51,16 @@
     }
 
     &:hover a {
-      color: $hr-green;
+      color: ${colors.primary};
 
       &:hover {
-        color: $hr-dark-gray;
+        color: ${colors.darkGray};
       }
     }
   }
 
-  h1 {
-    color: $hr-dark-gray;
-    font-weight: bold;
-    font-size: 2.125rem;
-    position: relative;
-    margin: 0 0 2.5rem 0;
-    width: 100%;
-    line-height: 120%;
-
-    @media screen and (min-width: 415px) {
-      font-size: 2.625rem;
-    }
-
-    &:after {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: inherit;
-      top: 100%;
-      margin: 10px auto;
-      width: 15%;
-      height: 3px;
-      background: $hr-green;
-    }
-  }
-
   h2 {
-    color: $hr-dark-gray;
+    color: ${colors.darkGray};
     font-size: 1.563rem;
     text-align: left;
     font-weight: 600;
@@ -64,7 +68,7 @@
   }
 
   h3 {
-    color: $hr-dark-gray;
+    color: ${colors.darkGray};
     font-weight: 500;
     font-size: 1rem;
     text-transform: uppercase;
@@ -73,7 +77,7 @@
   }
 
   h4 {
-    color: $hr-dark-gray;
+    color: ${colors.darkGray};
     font-weight: 500;
     font-size: 1rem;
     margin: 0.5rem 0;
@@ -82,7 +86,7 @@
 
   p {
     font-size: 1rem;
-    color: $hr-gray;
+    color: ${colors.gray};
     font-weight: 400;
     overflow: auto;
   }
@@ -90,9 +94,9 @@
   a {
     font-weight: 400;
     font-size: 1rem;
-    color: $hr-green;
+    color: ${colors.primary};
 
-    @include hr-link-hover($hr-dark-gray);
+    @include hr-link-hover(${colors.darkGray});
   }
 
   ul,
@@ -110,7 +114,7 @@
   li {
     font-size: 1rem;
     font-weight: 400;
-    color: $hr-gray;
+    color: ${colors.gray};
   }
 
   ul li {
@@ -123,20 +127,11 @@
       content: "";
       width: 4px;
       height: 4px;
-      background: $hr-gray;
+      background: ${colors.gray};
       border-radius: 50%;
       left: 0;
       position: absolute;
       top: 0.7rem;
-    }
-  }
-
-  details {
-    cursor: pointer;
-    margin: 1em 0 2em 0;
-
-    summary {
-      margin-bottom: 1em;
     }
   }
 
@@ -148,8 +143,8 @@
     padding: 2.5rem 1.25rem;
     margin: 1.5rem auto;
     background-color: #fbfbfb;
-    border-top: 1px solid $hr-light-gray;
-    border-bottom: 1px solid $hr-light-gray;
+    border-top: thin solid ${colors.lightGray};
+    border-bottom: thin solid ${colors.lightGray};
     font-family: Consolas, "Liberation Mono", Courier, monospace;
     font-weight: normal;
 
@@ -164,7 +159,7 @@
       border: none;
       padding: 0;
       font-family: Consolas, "Liberation Mono", Courier, monospace !important;
-      color: $hr-dark-gray;
+      color: ${colors.darkGray};
 
       span:last-child {
         margin-right: 1.25rem;
@@ -179,7 +174,7 @@
   .prism-code.prism-code_inline {
     padding: 0 2px;
     margin: 0 2px;
-    border: 1px solid #dddddd;
+    border: thin solid #dddddd;
     background-color: #eeeeee;
     color: #333333;
   }
@@ -191,8 +186,8 @@
     display: inline-block;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-top: 1px solid #cacaca;
-    border-bottom: 1px solid #cacaca;
+    border-top: thin solid #cacaca;
+    border-bottom: thin solid #cacaca;
 
     tbody {
       background: none;
@@ -203,48 +198,6 @@
     }
   }
 
-  video {
-    max-width: 100%;
-  }
-
-  &__optional {
-    font-weight: normal;
-    font-size: 0.625rem;
-    padding-left: 5px;
-  }
-
-  /* -----------
-      Table reset
-     ----------- */
-
-  .table-container {
-    overflow: auto;
-  }
-
-  tbody {
-    background: none;
-    color: $hr-gray;
-  }
-
-  tr {
-    border: none;
-  }
-
-  td,
-  td:first-child {
-    padding: 0.6rem;
-  }
-
-  // For <InlineImage...>
-  .inline-image {
-    display: inline-block;
-
-    .gatsby-resp-image-wrapper {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
   // gatsby-remark-images creates a wrapper one pixel too short (in the Y-axis), which make images blurry.
   // This property ensures the image ratio is preserved.
   .gatsby-resp-image-wrapper {
@@ -252,4 +205,4 @@
       object-fit: cover;
     }
   }
-}
+`

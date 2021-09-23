@@ -10,7 +10,7 @@ type HTMLTags = keyof HTMLElementTagNameMap
  *
  * @returns Object containing specified headers as React elements.
  */
-export default function generateHeaders(headers: Array<HTMLTags>): { [key: string]: React.ReactElement } {
+export function generate(headers: Array<HTMLTags>): { [key: string]: React.ReactElement } {
   const obj = {}
 
   for (const header of headers) {
@@ -22,7 +22,7 @@ export default function generateHeaders(headers: Array<HTMLTags>): { [key: strin
         { id: headerAnchor },
         <>
           {headerText}
-          <a href={`#${headerAnchor}`} arial-label={`${headerText} permalink`} />
+          <a href={`#${headerAnchor}`} aria-label={`${headerText} permalink`} />
         </>,
       )
     }

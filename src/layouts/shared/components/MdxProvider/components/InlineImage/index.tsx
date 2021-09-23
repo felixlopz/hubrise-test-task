@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import { Image } from "./Styles"
+
 interface InlineImageProps {
   children: React.ReactNode
   width?: string
@@ -12,8 +14,7 @@ const InlineImage = ({ children, width, height }: InlineImageProps): JSX.Element
     return Number.isNaN(num) ? undefined : num
   }
   return (
-    <div
-      className="inline-image"
+    <Image
       data-width={width}
       data-height={height}
       style={{
@@ -22,7 +23,7 @@ const InlineImage = ({ children, width, height }: InlineImageProps): JSX.Element
       }}
     >
       {children}
-    </div>
+    </Image>
   )
 }
 

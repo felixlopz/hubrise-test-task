@@ -1,9 +1,10 @@
 import * as React from "react"
 import { useTranslation } from "react-i18next"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import { BlogNode } from "./interface"
 import { Title, Header, DateValue, Excerpt, ReadMore, StyledPost } from "./Styles"
+
+import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
 
 interface PostProps {
   mdxNode: BlogNode
@@ -34,11 +35,7 @@ const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
         </>
       )}
 
-      {showBody && (
-        <div className="documentation">
-          <MDXRenderer>{body!}</MDXRenderer>
-        </div>
-      )}
+      {showBody && body && <DocumentationRenderer body={body} />}
     </StyledPost>
   )
 }

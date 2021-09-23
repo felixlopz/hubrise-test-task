@@ -1,7 +1,6 @@
 import { graphql } from "gatsby"
 import * as React from "react"
 import { useTranslation } from "react-i18next"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import AppInfo, { IAppInfo } from "./AppInfo"
 import Feedback from "./Feedback"
@@ -13,6 +12,7 @@ import { ImageSharp } from "@utils/image"
 import SEO from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs from "@layouts/shared/components/Breadcrumbs"
+import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
 import { useLocaleCode } from "@utils/locales"
 
 interface DocumentationProps {
@@ -145,10 +145,7 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
           {languageWarning && <header className="section__language-warning">{languageWarning}</header>}
 
           <div className="section__content">
-            <div className="documentation">
-              <h1>{title}</h1>
-              <MDXRenderer>{body}</MDXRenderer>
-            </div>
+            <DocumentationRenderer {...{ title, body }} />
           </div>
 
           <Navigator
