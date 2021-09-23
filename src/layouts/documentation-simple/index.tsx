@@ -2,7 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import { StyledFaq } from "./Styles"
+import { StyledMDX } from "./Styles"
 
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 
@@ -45,13 +45,15 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
     <>
       <SEO meta={meta} />
 
-      <StyledFaq className="section">
+      <div className="section">
         <div className="section__in section__in_padding section__in_reverse">
           <h3 className="section__title section__title_align-left">{frontmatter.title}</h3>
 
-          <MDXRenderer>{body}</MDXRenderer>
+          <StyledMDX>
+            <MDXRenderer>{body}</MDXRenderer>
+          </StyledMDX>
         </div>
-      </StyledFaq>
+      </div>
     </>
   )
 }

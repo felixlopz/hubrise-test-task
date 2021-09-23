@@ -71,9 +71,7 @@ const ContactForm = ({ recaptchaSiteKey, contactMessageUrl }: ContactFormProps):
       validationSchema={yupSchema(t)}
       onSubmit={onSubmit}
     >
-      {(formikProps) => (
-        <Form buttonText={t(`forms.contact.button`)} rows={rows(t)} formikProps={formikProps} />
-      )}
+      {(formikProps) => <Form buttonText={t(`forms.contact.button`)} rows={rows(t)} formikProps={formikProps} />}
     </Formik>
   )
 }

@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 import { colors } from "@utils/styles"
 
-export const StyledFaq = styled.div`
+export const StyledMDX = styled.div`
   h4 {
     color: ${colors.darkGray};
     font-weight: bold;
