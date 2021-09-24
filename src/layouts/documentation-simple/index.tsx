@@ -4,6 +4,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import { StyledMDX } from "./Styles"
 
+import MDXProvider from "@layouts/shared/components/MdxProvider"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 
 interface DocumentationSimpleProps {
@@ -42,7 +43,7 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
   const { meta } = frontmatter
 
   return (
-    <>
+    <MDXProvider>
       <SEO meta={meta} />
 
       <div className="section">
@@ -54,7 +55,7 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
           </StyledMDX>
         </div>
       </div>
-    </>
+    </MDXProvider>
   )
 }
 
