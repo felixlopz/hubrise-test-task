@@ -8,7 +8,6 @@
     "gatsby": "node ./node_modules/.bin/gatsby",
     "start:dev": "gatsby develop",
     "start:prod": "gatsby serve --port 9009",
-    "start:prod:ci": "gatsby serve --port 8000",
     "cy:open": "cypress open",
     "cy:run": "cross-env CYPRESS_BASE_URL=http://localhost:9009 cypress run",
     "test": "jest --config config/jest.config.js",
