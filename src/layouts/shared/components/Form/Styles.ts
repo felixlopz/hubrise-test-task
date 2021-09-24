@@ -51,6 +51,8 @@ export const Button = styled.button`
 `
 
 const field = (status: FieldStatus) => css`
+  width: 100%;
+  padding: 0.5rem;
   margin-bottom: 0.3rem;
   border: thin solid #f2f2f2;
   box-shadow: none;
@@ -72,15 +74,12 @@ const field = (status: FieldStatus) => css`
 export const StyledField = {
   input: styled(Formik.Field).attrs({ component: "input" })<{ $status: FieldStatus }>`
     ${(props) => field(props.$status)};
-    transition: none;
-    height: 36px;
+    line-height: 1.5;
     outline: 0;
-    border-radius: 3px;
   `,
 
   textarea: styled(Formik.Field).attrs({ component: "textarea" })<{ $status: FieldStatus }>`
     ${(props) => field(props.$status)};
-    width: 100%;
     height: 14rem;
     resize: none;
   `,
