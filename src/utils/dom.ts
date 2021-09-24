@@ -3,6 +3,6 @@
  */
 export const remIntoPixels = (rem: string): number => {
   const nbRem = Number(rem.replace("rem", ""))
-  const remPerPx = Number(window.getComputedStyle(document.documentElement).fontSize.replace("px", ""))
+  const remPerPx = 16
   return nbRem * remPerPx
 }
