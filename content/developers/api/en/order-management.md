@@ -732,7 +732,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
 1. `new` (order placed online)
 1. `received` (received in the POS)
 1. `accepted` (accepted by a store operator)
-1. `shipped`
+1. `in_delivery`
 1. `completed`
 
 #### Retail order created in the POS:

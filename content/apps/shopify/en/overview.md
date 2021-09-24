@@ -12,7 +12,7 @@ gallery:
   - __gallery-en-004.png
 path_override: /
 app_info:
-  category: Online ordering
+  category: Online Ordering
   availability: Worldwide
   price_range:
   website: https://www.shopify.com

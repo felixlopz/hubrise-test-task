@@ -9,7 +9,7 @@ gallery:
 path_override: /
 app_info:
   category: Online Ordering
-  availability: World
+  availability: Worldwide
   price_range:
   website: https://www.gonnaorder.com
   contact: https://www.gonnaorder.com/contact

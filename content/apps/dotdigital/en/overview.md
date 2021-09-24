@@ -7,7 +7,7 @@ meta:
   description: dotdigital overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
 app_info:
-  category: Customers management
+  category: Loyalty and Marketing
   availability:
   price_range:
   website: https://www.dotdigital.com
