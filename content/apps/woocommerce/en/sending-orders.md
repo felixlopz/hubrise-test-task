@@ -53,7 +53,7 @@ WooCommerce supports two service types:
 - Delivery
 - Customer collection
 
-// TODO
+[comment]: # 'TODO'
 
 ## Customer Details
 
@@ -177,4 +177,4 @@ The available fields in the payload are the following:
 
 The `custom_fields` object is used by WooCommerce Bridge to store additional information not provided by default by the WooCommerce API.
 
-// TODO
+[comment]: # 'TODO'

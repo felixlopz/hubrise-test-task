@@ -28,15 +28,15 @@ In this section, you can specify the ref code for delivery charges applied to or
 
 ## Catalog
 
-Specify if you want price updates in your HubRise catalog to be sent to WooCommerce when you push the catalog.
+Specify if you want price updates in your HubRise catalog to be sent to WooCommerce when you pull the catalog.
 
 ## Saving the Configuration
 
 Once you are happy with the configuration of WooCommerce Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Pushing the Menu
+## Pulling the Menu
 
-To push your HubRise catalog to WooCommerce, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**. For more information on how HubRise catalogs are mapped to WooCommerce, see [Pulling the Menu](/apps/woocommerce/pulling-menu).
+To pull your HubRise catalog into WooCommerce, from the **Actions** section at the bottom of the page, select **Push the catalog to WooCommerce**. For more information on how HubRise catalogs are mapped to WooCommerce, see [Pulling the Catalog](/apps/woocommerce/pulling-catalog).
 
 ## Resetting the Configuration
 
