@@ -26,9 +26,11 @@ const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
 
   return (
     <>
-      <Helmet>
-        <script src={`https://www.google.com/recaptcha/api.js?render=${siteMetadata.recaptchaSiteKey}`} />
-      </Helmet>
+      {siteMetadata.recaptchaSiteKey && (
+        <Helmet>
+          <script src={`https://www.google.com/recaptcha/api.js?render=${siteMetadata.recaptchaSiteKey}`} />
+        </Helmet>
+      )}
 
       <Layout pageContext={pageContext}>{children}</Layout>
 
