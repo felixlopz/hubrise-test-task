@@ -81,5 +81,6 @@ module.exports = {
         extensions: [],
       },
     },
+    "gatsby-plugin-styled-components",
   ],
 }

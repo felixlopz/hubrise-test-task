@@ -1,11 +1,10 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import Hero, { IHero } from "./components/Hero"
-import Thumb from "./components/Thumb"
+import Hero, { IHero } from "./Hero"
 
-import { generateKey } from "@utils/misc"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
+import ThumbList from "@layouts/documentation-index/ThumbList"
 
 interface DocumentationIndexProps {
   data: DocumentationIndexData
@@ -15,17 +14,19 @@ interface DocumentationIndexData {
   mdx: DocumentationIndexNode
 }
 
+export interface IThumb {
+  description: string
+  icon: string
+  title: string
+  to: string
+}
+
 interface DocumentationIndexNode {
   frontmatter: {
     meta?: Meta
     content: {
       hero: IHero
-      thumbs: Array<{
-        description: string
-        icon: string
-        title: string
-        to: string
-      }>
+      thumbs: Array<IThumb>
     }
   }
 }
@@ -79,11 +80,7 @@ const DocumentationIndex = ({ data }: DocumentationIndexProps): JSX.Element => {
             section__in_reverse
           `}
           >
-            <ul className="developers-thumbs">
-              {content.thumbs.map((thumb, idx) => (
-                <Thumb key={generateKey(thumb.title, idx)} {...thumb} />
-              ))}
-            </ul>
+            <ThumbList thumbs={content.thumbs} />
           </div>
         </section>
       </div>
