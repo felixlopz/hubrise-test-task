@@ -9,7 +9,7 @@ interface ModalProps {
 }
 
 const Modal = ({ title, onClose, children }: ModalProps): JSX.Element => (
-  <Overlay onClick={onClose}>
+  <Overlay onClick={onClose} role="modal">
     <StyledModal onClick={(e) => e.stopPropagation()}>
       <Title>{title}</Title>
 

@@ -1,4 +1,4 @@
-import { kebabify, generateKey, createHeaderAnchor } from "../misc"
+import { kebabify, generateKey, createHeaderAnchor } from "./misc"
 
 describe("kebabify", () => {
   it("should transform regular string", () => {
