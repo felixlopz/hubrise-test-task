@@ -272,7 +272,6 @@ content:
           logo: shopify.png
           title: Shopify
           description: Shopify is an e-commerce platform for any type of business. It offers an omnichannel user experience on the web, smartphones, social networks, marketplaces, and in-store.
-          additional_info: Integration in progress.
         - website: https://www.smilein.io/en/home
           documentation: /apps/smilein
           logo: smilein.png

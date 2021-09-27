@@ -276,7 +276,7 @@ content:
           logo: shopify.png
           title: Shopify
           description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
-          additional_info: Documentation en anglais. Intégration en cours.
+          additional_info: Documentation en anglais.
         - website: https://www.smilein.io
           documentation: /apps/smilein
           logo: smilein.png
