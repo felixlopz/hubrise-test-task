@@ -22,7 +22,7 @@ Pour connecter votre solution d'encaissement LEO2 à HubRise, suivez les étapes
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
    ![Connexion - Écran de gestion](../images/002-fr-leo2-menu-gestion.png)
 1. Cliquez sur **Paramètres et Réglages**.
-1. Cliquez sur **HubRise**.
+1. Dans l'onglet **Généraux**, cliquez sur **HubRise**.
    ![Connexion - Paramètres HubRise](../images/003-fr-leo2-parametres-hubrise.png)
 1. Si les champs **Nom de l'enseigne** et **Localisation (Ville)** sont vides, remplissez-les.
 1. Cliquez sur **Obtenir un code d'authentification**. Vous êtes redirigé vers l'interface HubRise.
