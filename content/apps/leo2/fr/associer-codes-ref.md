@@ -78,11 +78,9 @@ Les méthodes de paiement dans HubRise correspondent aux modes de règlement dan
 
 ## Types de service
 
-Les types de service dans HubRise correspondent aux tarifs dans LEO2. Pour retrouver leur code ref, suivez les étapes suivantes :
+Les types de service dans HubRise correspondent aux vendeurs dans LEO2. Pour retrouver leur code ref, suivez les étapes suivantes :
 
 1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
-1. Cliquez sur **Ventilations et Tarifs**.
-1. Sélectionnez le tarif désiré.
-1. Cliquez sur **Modif**. Le code ref s'affiche dans le champ **Code**.
-   ![Associer les codes ref - Tarifs](../images/009-fr-leo2-tarifs.png)
+1. Cliquez sur **Vendeurs**. Le code ref s'affiche dans la colonne **N°**.
+   ![Associer les codes ref - Vendeurs](../images/013-fr-leo2-vendeurs.png)
