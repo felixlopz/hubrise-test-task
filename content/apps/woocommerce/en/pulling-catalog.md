@@ -57,7 +57,7 @@ Products in a HubRise catalog are mapped to WooCommerce in two different ways.
 
 For every product in the HubRise catalog, the following information is sent to WooCommerce.
 
-- `ref`: The ref of the product, which will be passed along in orders         
+- `ref`: The ref code of the product, which will be passed along in orders         
 - `name`: The name of the product             
 - `description`: The description of the product    
 - `price`: The price of the product
@@ -65,9 +65,17 @@ For every product in the HubRise catalog, the following information is sent to W
 
 If skus are present, WooCommerce Bridge creates a list of attributes named "sku" attached to the product, where the values are the names of the skus.
 
+The bridge uses HubRise ref codes to detect existing products in WooCommerce and avoid duplicating them. 
+
+---
+
+**IMPORTANT NOTE:** Skus with no ref codes in the HubRise catalog are not pulled in WooCommerce.  
+
+---
+
 For every `sku` object in a product, WooCommerce Bridge creates a variation with this information:
 
-- `ref`: The ref of the sku, which will be passed along in orders         
+- `ref`: The ref code of the sku, which will be passed along in orders         
 - `name`: The name of the sku             
 - `price`: The price of the sku            
 
