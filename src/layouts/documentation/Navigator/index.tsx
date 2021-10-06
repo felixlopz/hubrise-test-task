@@ -5,7 +5,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 import { FolderPage } from "../interface"
 
-import { List, ItemLink, Item, TitleLink, Title, ArrowIcon, SubList, SubListLink } from "./Styles"
+import { List, ItemLink, Item, TitleLink, Title, ArrowIcon, SubList, SubItemLink } from "./Styles"
 
 import { createHeaderAnchor, generateKey } from "@utils/misc"
 import Link from "@layouts/shared/components/Link"
@@ -114,13 +114,13 @@ const Navigator = ({ currentPath, folderPages, title, logo, headings }: Navigato
                         .filter(({ depth }) => depth === 2)
                         .map(({ value: headingText }, idx) => (
                           <li key={generateKey(headingText, idx)}>
-                            <SubListLink
+                            <SubItemLink
                               to={`#${createHeaderAnchor(headingText)}`}
                               onClick={isDesktop ? undefined : () => setIsExpanded(false)}
                               $isActive={currentTitle === headingText}
                             >
                               <span>{headingText}</span>
-                            </SubListLink>
+                            </SubItemLink>
                           </li>
                         ))}
                     </SubList>
