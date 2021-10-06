@@ -46,11 +46,16 @@ Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 
 ## SKUs
 
-LEO2 ne permet pas de créer de SKU. Pour remplacer cette fonctionnalité, il est nécessaire de créer un nouveau produit pour chaque variante d'un même produit.
+LEO2 ne permet pas de créer de SKU. Pour remplacer cette fonctionnalité, vous devez associer chaque SKU d'un produit HubRise avec un produit distinct dans LEO2.
 
 ## Options
 
 Les options dans HubRise correspondent aux messages cuisine dans LEO2.
+
+LEO2 supporte deux types de messages cuisine :
+
+- Les messages simples, réservés aux options gratuites.
+- Les messages produits, qui peuvent être utilisés pour les options gratuites ou payantes.
 
 Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 
@@ -58,13 +63,29 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Produits**.
 1. Cliquez sur **Messages Cuisine**.
-1. Cliquez sur **Saisie Comment**.
-1. Dans le champ **Libellé**, sélectionnez la liste à laquelle appartient le message cuisine désiré. Le code ref s'affiche dans la colonne **ID**.
-   ![Associer les codes ref - Messages cuisine](../images/007-fr-leo2-messages-cuisine.png)
+1. Dans la table **Commentaires associés**, cliquez sur le commentaire auquel appartient le message cuisine désiré. Le code ref s'affiche dans la colonne **ID**.
+   ![Associer les codes ref - Messages cuisine](../images/014-fr-leo2-messages-cuisine.png)
+
+Les messages simples sont créés avec le bouton **Insère Ligne**. Leur code ref est au format **TEXT_xx_yy**.
+
+Les messages produits sont créés avec les boutons **Insère Produit Prix**, **Insère Produit Zéro**, ou **Insère Prod. Offert**. Leur code ref est au format **PROD_xx_yy_zz**.
+
+---
+
+**REMARQUE IMPORTANTE :** Le code ref d'une option payante, qui est un message produit, doit toujours être au format **PROD_xx_yy_zz**.
+
+---
 
 ## Promotions
 
-Les promotions dans HubRise correspondent aux menus dans LEO2, et sont gérés comme des produits. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#produits).
+Les promotions dans HubRise correspondent aux menus dans LEO2. Les lignes de promotion correspondent aux choix de menu. Pour retrouver le code ref et les choix de menu dans LEO2 :
+
+1. Ouvrez le produit correspondant au menu, en suivant les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#produits).
+1. Le code ref du menu s'affiche en haut à droite de la fenêtre **FICHE PRODUIT**, dans le champ **Clé unique**.
+   ![Associer les codes ref - Détails d'un menu](../images/015-fr-leo2-details-menu.png)
+1. Pour accéder aux choix de menu, cliquez sur **Faire un Menu**.
+1. Pour voir les produits associés à chaque choix de menu, cliquez sur l'onglet du choix correspondant.
+   ![Associer les codes ref - Consulter les choix de menu](../images/016-fr-leo2-choix-menu.png)
 
 ## Méthodes de paiement
 

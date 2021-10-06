@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components"
+import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
 import { breakpoints, colors, mixin } from "@utils/styles"
@@ -38,12 +38,16 @@ export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
     `}
 `
 
-export const TitleLink = styled(Link)`
-  &,
+const linkColor = (color: string): FlattenSimpleInterpolation => css`
+  color: ${color};
   :hover,
   :focus {
-    color: ${colors.darkGray};
+    color: ${color};
   }
+`
+
+export const TitleLink = styled(Link)`
+  ${linkColor(colors.darkGray)};
 `
 
 export const List = styled.ul<{ $isExpanded?: boolean }>`
@@ -94,7 +98,7 @@ export const Item = styled.li<{ $isActive: boolean }>`
 export const ItemLink = styled(Link)<{ $isActive: boolean }>`
   display: block;
   padding: 0.25rem 0 0.25rem 1rem;
-  color: ${colors.darkGray};
+  ${linkColor(colors.darkGray)};
   font-weight: 500;
   font-size: 0.9375rem;
 
@@ -103,7 +107,7 @@ export const ItemLink = styled(Link)<{ $isActive: boolean }>`
   ${(props) =>
     props.$isActive &&
     css`
-      color: ${colors.white};
+      ${linkColor(colors.white)};
       background: ${colors.primary};
 
       &:hover {
@@ -118,8 +122,8 @@ export const SubList = styled.ol`
   list-style: none;
 `
 
-export const SubListLink = styled(Link)<{ $isActive: boolean }>`
-  color: ${colors.darkGray};
+export const SubItemLink = styled(Link)<{ $isActive: boolean }>`
+  ${linkColor(colors.darkGray)};
   font-weight: 400;
   font-size: 0.9375rem;
   display: inline-block;
@@ -130,7 +134,7 @@ export const SubListLink = styled(Link)<{ $isActive: boolean }>`
   ${(props) =>
     props.$isActive &&
     css`
-      color: ${colors.primary};
+      ${linkColor(colors.primary)};
       font-weight: 500;
     `}
 `
