@@ -277,6 +277,12 @@ content:
           title: Shopify
           description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
           additional_info: Documentation en anglais.
+        - website: https://smartresto.net/
+          documentation: /apps/smartresto
+          logo: smartresto.png
+          title: SmartResto.Net
+          description: SmartResto.Net propose un menu digitalisé interactif disponible par QR code et un site de click & collect qui s'adapte aux besoins des cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de restauration.
+          additional_info:
         - website: https://www.smilein.io
           documentation: /apps/smilein
           logo: smilein.png
@@ -287,7 +293,7 @@ content:
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info: Documentation en anglais.
         - website: https://storefactory.y-proximite.fr
           documentation: /apps/store-factory
