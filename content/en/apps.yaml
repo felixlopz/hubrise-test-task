@@ -297,7 +297,7 @@ content:
           documentation: /apps/toolkeat
           logo: toolkeat.png
           title: Toolkeat
-          description: Toolkeat is an e-commerce solution intended for restaurants, small or large, allowing to create an online shop. Thanks to a complete back office, the restaurant owner can personalise their business.
+          description: Toolkeat offers a complete solution to create a white label online ordering website for restaurants. Thanks to its back office, the restaurant owner can personalise his site autonomously.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png

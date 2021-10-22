@@ -20,7 +20,7 @@ app_info:
 
 ## Description
 
-DOOD est une solution de commande en ligne destinée aux restaurateurs et aux commerces alimentaires, qu'ils soient indépendants, chaînes, franchises ou grands comptes. Il permet de vendre en Click & Collect, en livraison, et de digitaliser son service en salle/boutique.
+DOOD est une solution de commande en ligne destinée aux restaurateurs et aux commerces alimentaires, qu'ils soient indépendants, chaînes, franchises ou grands comptes. Il permet de vendre en Click & Collect, en livraison, et de digitaliser son service en salle ou en boutique.
 
 DOOD offre un back-office qui permet de gérer tous les paramètres de son e-commerce, tels que la gestion des commandes, l'édition de la carte produits (avec photos, suppléments, allergènes, prix, TVA, etc.), ainsi que la visualisation de rapports d'activité détaillés pour piloter son activité en ligne.  
 
