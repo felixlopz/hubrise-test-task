@@ -11,12 +11,6 @@ HubRise permet de connecter le logiciel de caisse LEO2 à Deliveroo, Uber Eats, 
 
 Vous trouverez ci-dessous les paramètres qui vous seront demandés lors de la configuration de ces plateformes.
 
----
-
-**REMARQUE IMPORTANTE :** Les commentaires produits sont supportés par LEO2. Si vos clients incluent des commentaires produits dans une commande provenant d'une de ces plateformes, vous pouvez les visualiser depuis votre caisse LEO2.
-
----
-
 ## Deliveroo
 
 Dans la page de configuration de Deliveroo Bridge, utilisez les codes ref suivants.
@@ -52,6 +46,8 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivan
 | Statuts de commande | Marquer la commande comme Annulée    | `Lorsque le statut HubRise passe à "Annulée"`                        |
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
+
+LEO2 peut afficher les commentaires produits indiqués par vos clients lors du passage de leur commande.
 
 ## Just Eat
 
