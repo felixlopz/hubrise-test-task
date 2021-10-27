@@ -18,11 +18,11 @@ content:
       text: Start now
       to: https://manager.hubrise.com/signup
   specials:
-    - paragraph_chunk_1: 'Free: '
-      paragraph_chunk_2: Up to 50 orders and 50 customers per month.
+    - highlight: "Free signup:"
+      text: No setup fee, no credit card required.
       link:
         text: Start Now
         to: https://manager.hubrise.com/signup
-    - paragraph_chunk_1: 'Large accounts: '
-      paragraph_chunk_2: prices are negotiable starting from 50 locations.
+    - highlight: "Large accounts:"
+      text: prices are negotiable starting from 50 locations.
       button: Contact Us
