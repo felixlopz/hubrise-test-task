@@ -6,13 +6,13 @@ meta:
   title: Overview | Shopify | HubRise
   description: Shopify overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 001-2x-backoffice-shopify.png
-  - 002-en-2x-shop-sample-1.png
-  - 003-en-2x-shop-sample-2.png
-  - 004-en-2x-shop-sample-3.png
+  - __gallery-en-001.png
+  - __gallery-en-002.png
+  - __gallery-en-003.png
+  - __gallery-en-004.png
 path_override: /
 app_info:
-  category: Online ordering
+  category: Online Ordering
   availability: Worldwide
   price_range:
   website: https://www.shopify.com
@@ -48,4 +48,4 @@ Shopify can be connected to HubRise for your website and other apps you use ever
 
 ## Prerequisites
 
-To establish a connection between Shopify and HubRise, you must have an existing Shopify online ordering website, that you can create from the [Shopify website](https://www.shopify.com). You must also have a HubRise user profile and account.
+To establish a connection between Shopify and HubRise, you must have an existing Shopify online ordering website, that you can create from the [Shopify website](https://www.shopify.com).

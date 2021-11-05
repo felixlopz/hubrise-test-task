@@ -6,6 +6,16 @@ meta:
   title: Overview | Nestor | HubRise
   description: Nestor overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 path_override: /
+app_info:
+  category: Point of Sales
+  availability: France
+  price_range:
+  website: http://www.nestor.fr
+  contact: info@svitex.com / +33 4 90 56 28 00
 ---
 
-This documentation is [available in French only](https://www.hubrise.com/fr/apps/nestor).
+---
+
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/nestor" addLocalePrefix={false}>in French only</Link>.
+
+---

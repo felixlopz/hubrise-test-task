@@ -3,42 +3,50 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Overview | iKentoo by Lightspeed | HubRise
-  description: iKentoo by Lightspeed overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+  title: Overview | Lightspeed Restaurant (K Series) | HubRise
+  description: Lightspeed Restaurant (K Series) overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 004-en-2x-main-page.png
-  - 005-en-2x-operations-page.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Point of Sales
   availability: Worldwide
-  price_range: iKentoo Bridge is included in your HubRise subscription. Contact Lightspeed to enquire about iKentoo pricing.
+  price_range: iKentoo Bridge is included in your HubRise subscription. Contact Lightspeed to enquire about Lightspeed Restaurant (K Series) pricing.
   website: https://www.lightspeedhq.co.uk
-  contact: k-series.support@lightspeedhq.com
+  contact: info@lightspeedhq.com
 ---
 
 ## Description
 
-iKentoo Bridge is an app developed by HubRise that allows the communication between HubRise and the iKentoo EPOS.
+Lightspeed Restaurant (K Series), formerly known as iKentoo, is an iPad and cloud Point of Sales system for restaurants and hoteliers. Lightspeed Restaurant (K Series) will keep expanding to new international markets.
 
-iKentoo is now **Lightspeed K-Series**. For more information, read the [announcement on Lightspeed blog](https://www.lightspeedhq.co.uk/blog/lightspeed-restaurant-k-series/).
+iKentoo Bridge is an app developed by HubRise used to connect Lightspeed Restaurant (K Series) EPOS with other apps.
+
+---
+
+**IMPORTANT NOTE:** iKentoo Bridge will soon be renamed Lightspeed Bridge.
+
+---
 
 ## Integration features
 
-iKentoo Bridge can forward any order from HubRise to iKentoo. These orders could come from online ordering solutions, self-ordering kiosks, online food ordering and delivery platforms or any other such solution connected to your HubRise account.
+Connecting iKentoo Bridge to HubRise allows your EPOS to:
 
-iKentoo Bridge also provides a user interface to see the requests sent to the EPOS and responses received. For more technical details about API requests and related responses, see the [HubRise documentation](/docs/hubrise-logs/).
+- Pull orders from HubRise, including order status.
+- Push paid orders into HubRise, including order status.
+- Pull customer information from HubRise.
+- Push customer information into HubRise.
+- Push a menu into a HubRise catalog.
 
-iKentoo Bridge is a one-way connection from HubRise to the EPOS (push only integration). This means that information only flows from HubRise to the EPOS, not vice versa.
-
-Therefore, iKentoo Bridge cannot transfer the menu from the EPOS to HubRise, which must then be inserted with a manual process in the online ordering system. For more information, see [Mapping EPOS Codes](/apps/ikentoo/mapping-pos-codes). Furthermore, it cannot transfer orders placed on the EPOS back to HubRise.
-
-![Connection Diagram](../images/008-en-2x-connection-diagram.png)
+iKentoo Bridge can be connected from the HubRise back office.
 
 ## Why Connect?
 
-Connecting iKentoo to HubRise makes your EPOS and your other apps work as a cohesive whole. Synchronise your menu, your customer and order information with mobile ordering apps, ordering websites, loyalty systems, marketing or business intelligence solutions, delivery services. For more information on HubRise, see the [HubRise User Guide](/docs).
+Connecting Lightspeed Restaurant (K Series) to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, food delivery platforms, table ordering, or pay at the table solution directly into your EPOS and Kitchen Display Screen. Export your menu into other apps.
+
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
-To connect Lightspeed K-Series to HubRise, you need the **iKentoo 3.0 by Lightspeed** application installed on your iPad. You can download it from Apple iOS App Store.
+You need a Lightspeed Restaurant (K Series) license to complete the connection.
