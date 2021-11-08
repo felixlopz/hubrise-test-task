@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | DOOD | HubRise
-  description: Présentation générale de DOOD, les raisons de connecter votre solution de commande en ligne à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de DOOD, les raisons de connecter votre solution de commande en ligne à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
   - __gallery-001.png
   - __gallery-002.png
