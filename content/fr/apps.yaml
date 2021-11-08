@@ -108,7 +108,7 @@ content:
           documentation: /apps/restaurant-manager
           logo: restaurant-manager.png
           title: Restaurant Manager
-          description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d’établissements de la restauration au bars.
+          description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d'établissements de la restauration au bars.
           additional_info: Intégration par Crystal Mind en cours.
         - website: https://www.sicom.com/
           documentation: /apps/sicom
@@ -219,6 +219,11 @@ content:
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
+        - website: https://www.dood.com/fr/
+          documentation: /apps/dood
+          logo: dood.png
+          title: DOOD
+          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le Click & Collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
         - website: https://www.gonnaorder.com/?lang=fr
           documentation: /apps/gonnaorder
           logo: gonnaorder.png
@@ -287,19 +292,24 @@ content:
           documentation: /apps/smilein
           logo: smilein.png
           title: smilein
-          description: smilein est une solution de commande pour l’hôtellerie et la restauration qui intègre tous les parcours clients. Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
+          description: smilein est une solution de commande pour l'hôtellerie et la restauration qui intègre tous les parcours clients. Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
           additional_info: Intégration en cours.
+        - website: https://storefactory.y-proximite.fr
+          documentation: /apps/store-factory
+          logo: storefactory.png
+          title: Store Factory
+          description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites marchand. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info: Documentation en anglais.
-        - website: https://storefactory.y-proximite.fr
-          documentation: /apps/store-factory
-          logo: storefactory.png
-          title: Store Factory
-          description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites marchand. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
+        - website:
+          documentation: /apps/toolkeat
+          logo: toolkeat.png
+          title: Toolkeat
+          description: Toolkeat est une solution complète permettant aux restaurateurs de créer un site de commande en ligne en marque blanche. Les restaurateurs peuvent personnaliser leur site de manière autonome depuis le back-office.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png

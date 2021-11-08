@@ -71,24 +71,15 @@ Deliveroo supports three service types:
 
 These are typically associated with specific ref codes in your EPOS. For more information, see your EPOS documentation in our [apps page](/apps).
 
-## Customer Details
+## Customer
 
-Deliveroo never provides the customer's full name and email address in their API. It only provides the customer's address for orders delivered by the restaurant.
+Deliveroo never provides the customer's full name and email address in their API. Therefore, Deliveroo Bridge never creates customers in HubRise, but includes the customer's details directly in the order.
 
-Therefore, Deliveroo Bridge never creates customers in HubRise for Deliveroo orders, but always includes the customer's details directly in the order.
+For restaurant delivery orders, Deliveroo Bridge retrieves the following information from Deliveroo:
 
-### Customer Name and Email
-
-Customer's name and email for Deliveroo orders have these default values for all types of orders:
-
-- `first_name`: Deliveroo
-- `last_name`: Order
+- `first_name`: The customer's first name.
+- `last_name`: The initial of the customer's last name.
 - `email`: orders@deliveroo.com
-
-### Customer Address
-
-For restaurant delivery orders only, Deliveroo Bridge retrieves the following information from Deliveroo:
-
 - `address_1`: The first line of the address.
 - `address_2`: The second line of the address.
 - `city`: The city of the address.
@@ -97,6 +88,12 @@ For restaurant delivery orders only, Deliveroo Bridge retrieves the following in
 - `longitude`: The longitude of the address.
 - `phone`: Deliveroo support number. Note: This is not the customer's phone number.
 - `delivery_notes`: The access code to identify the order when calling Deliveroo support and the delivery notes left by the customer, in the format "Phone access code: `access_code`. `note`".
+
+For other types of orders, Deliveroo Bridge provides the following default customer details:
+
+- `first_name`: Deliveroo
+- `last_name`: Order
+- `email`: orders@deliveroo.com
 
 ## Discounts
 
