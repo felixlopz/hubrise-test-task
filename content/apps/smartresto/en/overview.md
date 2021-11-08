@@ -21,17 +21,17 @@ app_info:
 
 ---
 
-
 ## Description
 
-SmartResto.Net is an interactive digital menu solution for table ordering or take-out and a Click & Collect online ordering solution. SmartResto.Net is accessible from any browser, there is nothing to install in your smartphone or your computer.
+SmartResto.Net is an interactive digital menu solution with a Click & Collection solution. The solution handles table ordering, take-out and online ordering. SmartResto.Net is accessible from the browser of a smartphone or a computer, there is nothing to install.
 
-The SmartResto.Net menu can be pulled from your integrated EPOS solution. Customers can access it by scanning a QR code placed on the tables or displayed elsewhere in the restaurant, by clicking on a link you sent via SMS or published on social networks. Customers can then check the menu, order and pay directly on the smartphone. Are your customers craving gluten-free, vegan, or other options? SmartResto.Net makes it easy for them to find them.
+The SmartResto.Net menu can be pulled from the integrated EPOS solution. Customers can access the menu by scanning a QR code placed on the tables or displayed elsewhere in the restaurant, by clicking on a link sent via SMS or published on social networks. Customers can check the menu, order and pay directly on the smartphone. SmartResto.Net makes it easy for customers craving for gluten-free or vegan options to find them.
 
-With SmartResto.Net you can display the menu in two languages (French and English) and create custom QR codes to the restaurant's image.
+SmartResto.Net can display the menu in two languages (French and English) and create custom QR codes branded to the restaurant's image.
 
-SmartResto.Net's online onboarding system allows you to create an account, download and test your menu, and generate your QR code.
-From the SmartResto.Net back office you can modify the menu, the product unique identifier, the price as well as product photos and other illustrative images. SmartResto.Net also allows you to define your opening and delivery times.
+From the SmartResto.Net back office you can modify the menu, and add product photos and other illustrative images. SmartResto.Net also allows you to define opening and delivery times.
+
+SmartResto.Net's free trial lets you create an account, setup and test your menu, and generate demo QR codes.
 
 ## Integration Features
 

@@ -281,7 +281,7 @@ content:
           documentation: /apps/smartresto
           logo: smartresto.png
           title: SmartResto.Net
-          description: SmartResto.Net offers an interactive digital menu solution available by QR code and a Click & Collect online ordering site. It adapts to the needs of cafes, restaurants, caterers, street food, hotels and any other catering profession.
+          description: SmartResto.Net offers interactive digital menus accessible via QR code and Click & Collect online ordering websites. The solution is designed for cafes, restaurants, caterers, street food, hotels and any other catering profession.
           additional_info:
         - website: https://www.smilein.io/en/home
           documentation: /apps/smilein

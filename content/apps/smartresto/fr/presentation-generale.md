@@ -4,14 +4,14 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | SmartResto.Net | HubRise
-  description: Présentation générale de SmartResto.Net, les raisons de connecter SmartResto.Net à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de SmartResto.Net, les raisons de connecter SmartResto.Net à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:
   category: Commande en ligne
   availability: France
-  price_range: 
-  website: https://smartresto.net/ 
+  price_range:
+  website: https://smartresto.net/
   contact: contact@smartresto.net
 ---
 
@@ -23,15 +23,15 @@ app_info:
 
 ## Description
 
-SmartResto.Net est une solution de menu digital interactif pour la commande table, à emporter ou en ligne grâce à un système de Click & Collect. SmartResto.Net est accessible depuis le navigateur d'un smartphone ou d’un ordinateur, aucune installation d'application n'est nécessaire.
+SmartResto.Net est une solution de menu digital interactif avec système de Click & Collect. Elle permet la commande table, à emporter ou en ligne. SmartResto.Net est accessible depuis le navigateur d'un smartphone ou d'un ordinateur, aucune installation d'application n'est nécessaire.
 
-SmartResto.Net propose un menu directement relié au système de caisse. Le client y accède en scannant un QR code disposé sur les tables ou affiché dans l'établissement, ou par un lien communiqué par SMS ou publié sur les réseaux sociaux. Le client peut ensuite consulter le menu, commander et payer depuis son smartphone. Vos clients ont-ils envie d'options sans gluten, végétaliennes ou autres ? SmartResto.Net leur permet de les trouver facilement.
+SmartResto.Net propose un menu directement relié au système de caisse. Le client y accède en scannant un QR code disposé sur les tables ou affiché dans l'établissement, ou par un lien communiqué par SMS ou publié sur les réseaux sociaux. Le client peut ensuite consulter le menu, commander et payer depuis son smartphone. SmartResto.Net permet aux clients de trouver facilement les plats sans gluten, végétaliens ou autres.
 
 SmartResto.Net propose d'afficher le menu en deux langues (français et anglais) et de personnaliser les QR codes à l'image de l'établissement.
 
-SmartResto.Net a mis à votre disposition un système en ligne de « Onboarding » qui vous permettra de créer votre compte, de télécharger et tester votre menu et de générer votre QR code.
-Depuis le back-office de SmartResto.Net vous pouvez modifier le menu, l’identifiant unique de chaque produit, le prix ainsi que les photos de produits et autres images illustratives. SmartResto.Net vous permet également de définir vos horaires d'ouverture et de livraison.
+Le back-office de SmartResto.Net permet de modifier le menu, et d'ajouter des photos ou images d'illustration sur les produits. SmartResto.Net permet également de définir les horaires d'ouverture et de livraison.
 
+SmartResto.Net propose un essai gratuit en ligne, qui permet de mettre en place et de tester le menu, et de générer un QR code de démonstration.
 
 ## Fonctionnalités de l'intégration
 
@@ -52,4 +52,3 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 ## Prérequis
 
 Pour établir la connexion entre SmartResto.Net et HubRise, vous devez disposer d'un compte SmartResto.Net.
-
