@@ -121,7 +121,7 @@ content:
           documentation: /apps/talc
           logo: talc.png
           title: T.A.L.C Informatique
-          description: T.A.L.C Informatique, adapted to the needs of restaurants, allows you to manage one or more locations. It includes courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
+          description: T.A.L.C Informatique is an EPOS adapted to the needs of restaurants. Its features include multistore management, courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
           additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
@@ -218,11 +218,11 @@ content:
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
-        - website: https://www.dood.com/fr/
+        - website: https://www.dood.com/
           documentation: /apps/dood
           logo: dood.png
           title: DOOD
-          description: DOOD is an e-commerce and e-marketing solution intended for the food retail industry. DOOD allows online ordering, Click & Collect, delivery, table ordering, and offers a suite of marketing tools in order to develop client loyalty.
+          description: DOOD is an e-commerce and e-marketing solution for the food retail industry. DOOD online ordering supports Click & Collect, delivery, and table ordering. DOOD's suite of marketing tools is designed to increase customer loyalty.
         - website: https://www.gonnaorder.com
           documentation: /apps/gonnaorder
           logo: gonnaorder.png
@@ -297,7 +297,7 @@ content:
           documentation: /apps/toolkeat
           logo: toolkeat.png
           title: Toolkeat
-          description: Toolkeat offers a complete solution to create a white label online ordering website for restaurants. Thanks to its back office, the restaurant owner can personalise his site autonomously.
+          description: Toolkeat is a complete solution for restaurants to create a white label online ordering website. Restaurant owners can personalise their site autonomously from the back office.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png

@@ -223,7 +223,7 @@ content:
           documentation: /apps/dood
           logo: dood.png
           title: DOOD
-          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, DOOD est une commande en ligne en marque blanche qui permet le Click & Collect, la livraison, et le service à table. DOOD inclus une suite d'outils marketing pour développer la fidélisation client.
+          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le Click & Collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
         - website: https://www.gonnaorder.com/?lang=fr
           documentation: /apps/gonnaorder
           logo: gonnaorder.png
@@ -303,7 +303,7 @@ content:
           documentation: /apps/toolkeat
           logo: toolkeat.png
           title: Toolkeat
-          description: Toolkeat offre une solution complète pour créer un site de commande en ligne en maque blanche pour les restaurants. Grâce à son back-office, le restaurateur peut personnaliser son site de manière autonome.
+          description: Toolkeat est une solution complète permettant aux restaurateurs de créer un site de commande en ligne en marque blanche. Les restaurateurs peuvent personnaliser leur site de manière autonome depuis le back-office.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
