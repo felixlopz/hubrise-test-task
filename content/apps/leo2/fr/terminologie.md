@@ -1,6 +1,6 @@
 ---
 title: Terminologie
-position: 5
+position: 6
 layout: documentation
 meta:
   title: Terminologie | LEO2 | HubRise
@@ -20,4 +20,4 @@ HubRise et LEO2 utilisent chacun leur propre terminologie. Un même concept peut
 | Message multiple | Option          | Liste d'options à choix unique         |
 | Message libre    | Option          | Liste d'options à choix multiple       |
 | Menu             | Promotion       | Remise sur des articles de la commande |
-| Tarif            | Type de service | Type de service                        |
+| Vendeur          | Type de service | Type de service                        |

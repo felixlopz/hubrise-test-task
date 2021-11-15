@@ -3,7 +3,7 @@ title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Instructions
+  title: Connect to HubRise | Just Eat Flyt | HubRise
   description: See how to connect your Just Eat online store to HubRise. Connection is simple. Send the link of your Just Eat page to HubRise and follow a few steps to connect.
 ---
 

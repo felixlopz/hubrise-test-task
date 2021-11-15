@@ -11,7 +11,7 @@ gallery:
   - __gallery-001.png
 path_override: /
 app_info:
-  category: Online ordering
+  category: Online Ordering
   availability: France
   price_range: From €9 monthly
   website: https://www.mylemonade.fr
