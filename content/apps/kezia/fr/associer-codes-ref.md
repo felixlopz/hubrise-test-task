@@ -33,7 +33,7 @@ Les informations client et les commandes sont envoyées automatiquement. En cas 
 
 Vous devez maintenant importer le catalogue HubRise dans vos autres applications connectées à HubRise. Pour effectuer cette opération, référez-vous à la documentation de ces applications sur le site de HubRise.
 
-Les produits que vous créez ou modifiez dans votre catalogue ne sont pas systématiquement exportés vers HubRise. Pour que ce soit le cas, cochez l'option correspondante en suivant les étapes suivantes :
+Les produits que vous créez ou modifiez dans votre catalogue ne sont pas tous exportés vers HubRise. Pour rendre un produit exportable, suivez les étapes suivantes :
 
 1. Depuis l'écran d'accueil, sélectionnez **ARTICLES**.
 1. Double-cliquez sur le produit à synchroniser.
@@ -55,7 +55,8 @@ Un produit dans HubRise correspond à un article dans Kezia II. Pour retrouver l
 
 ## SKUs
 
-Une SKU (*Stock Keeping Unit*) dans HubRise correspond au multi-tarif dans Kezia II, mais il est conseillé plutôt de créer un article différent pour chaque SKU. Par exemple, une pizza margherita en trois tailles différentes correspond dans Kezia II à trois articles distincts :
+Une SKU (_Stock Keeping Unit_) dans HubRise correspond au multi-tarif dans Kezia II, mais il est conseillé plutôt de créer un article différent pour chaque SKU. Par exemple, une pizza margherita en trois tailles différentes correspond dans Kezia II à trois articles distincts :
+
 - Margherita Grande
 - Margherita Medium
 - Margherita Petite
@@ -81,7 +82,7 @@ Une remise dans Kezia II peut uniquement être créée lorsque le vendeur enregi
 ## Promotions
 
 Une promotion dans HubRise correspond à un menu dans Kezia II. Pour retrouver le code ref d'un menu, dans la barre de menu, sélectionnez **Article** > **Menus** > **Liste**. Le code ref du menu s'affiche dans la colonne **Idart** et correspond au code ref de l'article attribué au menu lors de sa création.
-   ![Associer les codes ref - Menus](../images/007-fr-kezia-menus.png)
+![Associer les codes ref - Menus](../images/007-fr-kezia-menus.png)
 
 Si les menus ne sont pas accessibles, suivez les étapes suivantes :
 

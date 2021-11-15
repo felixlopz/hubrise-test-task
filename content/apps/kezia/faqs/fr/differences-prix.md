@@ -7,6 +7,4 @@ meta:
   description: Comment Kezia II traite les différences de prix dans les commandes venant de HubRise.
 ---
 
-Il peut arriver que les prix de certains articles dans une commande HubRise ne correspondent pas aux prix indiqués dans Kezia II.
-
-Dans ce cas, les prix indiqués dans HubRise remplacent ceux de Kezia II.
+Dans une commande HubRise, lorsque le prix d'un article  ne correspond pas au prix renseigné dans Kezia II, le prix de HubRise est utilisé.

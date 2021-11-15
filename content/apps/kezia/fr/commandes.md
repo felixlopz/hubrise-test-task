@@ -11,7 +11,7 @@ Lorsque Kezia II est connecté à HubRise, les commandes envoyées à HubRise ar
 
 ## Recevoir des commandes
 
-Kezia II vérifie toutes les 30 secondes si de nouvelles commandes ont été envoyées à HubRise. Une fenêtre d'avertissement vous signale l'arrivée d'une nouvelle commande dans Kezia II.
+Kezia II vérifie l'arrivée de nouvelles commandes toutes les 30 secondes. Une fenêtre d'avertissement vous signale l'arrivée d'une nouvelle commande.
 
 Pour voir la liste des commandes web en cours, suivez les étapes suivantes :
 
@@ -31,13 +31,13 @@ Pour consulter le détail d'une commande :
 
 ### Gestion de la commande
 
-À réception d'une nouvelle commande web, vous pouvez la valider ou la rejeter. Vous pouvez ensuite la facturer si elle n'est pas encore payée.
+À réception d'une nouvelle commande web, vous pouvez la valider ou la rejeter. Si elle n'est pas encore payée, vous pouvez la facturer.
 
 Le statut de la commande web est mis à jour sur HubRise quelques secondes après changement dans Kezia II.
 
 ## Envoyer les commandes
 
-Par défaut, Kezia II n'envoie pas les commandes vers HubRise. Changez la configuration pour que les commandes soient envoyées automatiquement après création :
+Par défaut, Kezia II n'envoie pas les commandes vers HubRise. Pour envoyer les commandes automatiquement vers HubRise, modifiez la configuration de la façon suivante :
 
 1. Depuis l'écran d'accueil, sélectionnez **CAISSE**.
 1. Sélectionnez un vendeur.
