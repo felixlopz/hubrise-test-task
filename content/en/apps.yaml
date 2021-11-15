@@ -60,6 +60,7 @@ content:
           logo: kezia.png
           title: Kezia II by JDC
           description: Kezia II by JDC offers the qualities sought by a traditional EPOS. It adapts to all types of businesses and offers multi-site, logistics, inventory, purchasing, loyalty, statistics and team management functions.
+          additional_info: Documentation in French.
         - website: http://www.leo2.co.uk/
           documentation: /apps/leo2
           logo: leo2.png
