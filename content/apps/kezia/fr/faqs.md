@@ -1,6 +1,6 @@
 ---
 title: F.A.Q.
-position: 6
+position: 7
 layout: documentation
 meta:
   title: F.A.Q. | Kezia II | HubRise

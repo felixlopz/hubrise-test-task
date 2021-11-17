@@ -9,7 +9,7 @@ meta:
 
 HubRise permet de connecter le logiciel de caisse Nestor à Deliveroo, Uber Eats, ou Just Eat. Pour plus d'informations, consultez les pages d'aide de ces plateformes, accessibles depuis notre [page Apps](/apps).
 
-Vous trouverez ci-dessous les paramètres qui vous seront demandés lors de la configuration de ces plateformes.
+Vous trouverez ci-dessous les paramètres à utiliser pour la configuration de ces plateformes.
 
 ## Deliveroo
 
