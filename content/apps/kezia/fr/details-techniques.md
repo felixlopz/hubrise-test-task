@@ -1,6 +1,6 @@
 ---
 title: Informations techniques
-position: 7
+position: 8
 layout: documentation
 meta:
   title: Informations techniques | Kezia II | HubRise
