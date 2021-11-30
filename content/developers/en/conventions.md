@@ -35,29 +35,30 @@ The following tag can be set at the SKU level:
 
 The following tags can be set at the product level. They apply to every SKU of the product.
 
-| Tag                         | Description             |
-| --------------------------- | ----------------------- |
-| `alcoholic`                 | Contains alcohol.       |
-| `spicy_1`                   | Midly spicy.            |
-| `spicy_2`                   | Spicy.                  |
-| `spicy_3`                   | Very spicy.             |
-| `vegan`                     | Vegan dish.             |
-| `vegetarian`                | Vegetarian dish.        |
-| `no_allergens`              | Contains no allergens.  |
-| `celery`                    | Contains this allergen. |
-| `crustaceans`               | Contains this allergen. |
-| `eggs`                      | Contains this allergen. |
-| `fish`                      | Contains this allergen. |
-| `gluten`                    | Contains this allergen. |
-| `lupin`                     | Contains this allergen. |
-| `milk`                      | Contains this allergen. |
-| `molluscs`                  | Contains this allergen. |
-| `mustard`                   | Contains this allergen. |
-| `nuts`                      | Contains this allergen. |
-| `peanuts`                   | Contains this allergen. |
-| `sesame_seeds`              | Contains this allergen. |
-| `soybeans`                  | Contains this allergen. |
-| `sulphur_dioxide_sulphites` | Contains this allergen. |
+| Tag                                  | Description                 |
+| ------------------------------------ | --------------------------- |
+| `alcoholic`                          | Contains alcohol.           |
+| `spicy_1`                            | Midly spicy.                |
+| `spicy_2`                            | Spicy.                      |
+| `spicy_3`                            | Very spicy.                 |
+| `gluten_free`                        | Contains no gluten.         |
+| `vegan`                              | Contains no animal product. |
+| `vegetarian`                         | Contains no meat.           |
+| `no_allergens`                       | Contains no allergens.      |
+| `allergen_celery`                    | Contains this allergen.     |
+| `allergen_crustaceans`               | Contains this allergen.     |
+| `allergen_eggs`                      | Contains this allergen.     |
+| `allergen_fish`                      | Contains this allergen.     |
+| `allergen_gluten`                    | Contains this allergen.     |
+| `allergen_lupin`                     | Contains this allergen.     |
+| `allergen_milk`                      | Contains this allergen.     |
+| `allergen_molluscs`                  | Contains this allergen.     |
+| `allergen_mustard`                   | Contains this allergen.     |
+| `allergen_nuts`                      | Contains this allergen.     |
+| `allergen_peanuts`                   | Contains this allergen.     |
+| `allergen_sesame_seeds`              | Contains this allergen.     |
+| `allergen_soybeans`                  | Contains this allergen.     |
+| `allergen_sulphur_dioxide_sulphites` | Contains this allergen.     |
 
 ### Half & half items
 
