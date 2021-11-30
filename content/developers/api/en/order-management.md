@@ -1,6 +1,6 @@
 ---
 title: Order Management
-position: 3
+position: 4
 layout: documentation
 meta:
   title: Order Management | API | HubRise

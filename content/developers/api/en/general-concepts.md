@@ -24,7 +24,7 @@ GET https://api.hubrise.com/v1/location/orders
 X-Access-Token: [your_access_token]
 ```
 
-Access tokens are created via OAuth 2.0. See [Authentication](/developers/authentication).
+Access tokens are created via OAuth 2.0. See [Authentication](/developers/api/authentication).
 
 **Note**: further in this documentation, the root part of the request URLs will be omitted. For example, we will use `GET /location/orders` in lieu of `GET https://api.hubrise.com/v1/location/orders`.
 

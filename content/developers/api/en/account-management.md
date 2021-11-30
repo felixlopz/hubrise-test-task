@@ -1,6 +1,6 @@
 ---
 title: Account Management
-position: 2
+position: 3
 layout: documentation
 meta:
   title: Account Management | API | HubRise
