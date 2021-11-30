@@ -66,8 +66,6 @@ content:
         filename: dan.jpg
       - name: Dimitri
         filename: dimitri.jpg
-      - name: Léo
-        filename: leo.jpg
       - name: Nick
         filename: nick.jpg
       - name: Vova
