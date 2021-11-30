@@ -13,10 +13,10 @@ gallery:
 path_override: /
 app_info:
   category: Commande en ligne
-  availability: Europe
+  availability: Europe, Turquie et le moyen orient
   price_range: De 39 à 99 $ / mois
   website: https://www.restajet.com
-  contact:
+  contact: info@restajet.com
 ---
 
 ---
