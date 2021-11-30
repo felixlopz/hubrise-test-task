@@ -229,7 +229,7 @@ content:
           logo: gonnaorder.png
           title: GonnaOrder
           description: GonnaOrder propose un système de commande en ligne économique, disponible dans 14 pays. Via un site personnalisé et des applications iOS et Android natives, GonnaOrder permet de commander à emporter, en livraison ou à table dans des restaurants, bars, pubs et cafés.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.livepepper.fr
           documentation: /apps/livepepper
           logo: livepepper.png
