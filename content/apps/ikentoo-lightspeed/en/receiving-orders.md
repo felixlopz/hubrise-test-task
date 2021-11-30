@@ -25,7 +25,7 @@ Every item on Lightspeed must have a ref code. Orders containing items with inco
 
 ## Order Statuses
 
-TODO
+To be done
 
 ## Payments
 

@@ -73,6 +73,8 @@ Half & half items are a relatively common occurrence in the restaurant industry,
 
 #### Catalogs
 
+To be done
+
 #### Orders
 
 The recipe and toppings on each half are passed in 4 option lists: `Side 1`, `Side 2`, `Toppings 1`, and `Toppings 2`. These names should be treated as reserved words. In particular, they should not be translated when used in the API.
@@ -132,3 +134,5 @@ The recipe and toppings on each half are passed in 4 option lists: `Side 1`, `Si
 </details>
 
 ## Conventions for delivery
+
+To be done
