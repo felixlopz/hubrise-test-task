@@ -399,7 +399,7 @@ content:
           logo: barratio.png
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
-          additional_info:
+          additional_info: Intégration en cours.
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
