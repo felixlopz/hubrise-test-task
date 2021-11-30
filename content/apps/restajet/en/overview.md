@@ -39,8 +39,8 @@ RestaJet has customers in the UK, France, the US, the United Arab Emirates and T
 
 Once connected to HubRise, you can use RestaJet to:
 
-- Push orders to HubRise, including order statuses.
-- Push customer information to HubRise.
+- Push orders into HubRise, including order statuses.
+- Push customer information into HubRise.
 - Pull the menu from a HubRise catalog.
 
 RestaJet can be connected to HubRise via the RestaJet support line.
