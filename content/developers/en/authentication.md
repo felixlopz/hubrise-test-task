@@ -28,24 +28,62 @@ Although it seems complicated at first, OAuth actually makes things simpler for 
 
 A _scope_ controls the set of resources an application has access to. Users can see the scope before granting access to an application. The good practice is to limit your application's scope to the minimum it needs: not only does this reduce the impact of a potential security breach, it also makes your users more comfortable authorising your application.
 
-A scope is a comma-separated list of:
+### Syntax
 
-- 0 or 1 **access-level set of permissions**
-- And **general permissions** (eg. `profile`, or `profile_with_email`)
+A scope combines an **access-level set of permissions** and **general permissions**. Both are optional, but at least one must be present. They are comma separated when used together.
 
-An **access-level set of permissions** is made of:
+An **access-level set of permissions** is made of an access-level keyword, which can be `location` or `account`, followed by a comma separated list of permissions between square brackets.
 
-- An access-level keyword: `location` or `account`
-- Followed by a comma separated list of permissions between square brackets. Each permission consists of:
-  - A resource: `orders`, `customer_list`, `all_customer_lists`, `catalog`, or `all_catalogs`
-  - A `.` character
-  - Access rights: `read` or `write`
+Each permission consists of a resource, which can be `orders`, `customer_list`, `catalog`, `all_customer_lists`, or `all_catalogs`, and an access right keyword, which can be `read` or `write`, separated with a dot.
 
-#### Examples of valid scopes:
+**General permissions** can be `profile`, or `profile_with_email`.
 
-- `profile_with_email`: your application can access the profile of the user, including their email.
-- `location[orders.write,customer_list.write]`: your application can create orders and customers in a chosen location.
-- `account[customer_list.read],profile`: your application can access the user profile and view all customers from a chosen customer list.
+### Example of scopes
+
+- `profile`: Gives your application access to the user profile.
+- `location[orders.read,customer_list.read]`: Gives your application read access to the orders and customers from the selected location and customer list.
+- `account[customer_list.read],profile`: Gives your application access to the user profile, and read access to the customers from the selected customer list.
+
+### User input and API allowances for each permission
+
+- `profile`:
+
+  - The user does not select any resource.
+  - Your application can access the profile of the user.
+
+- `profile_with_email`:
+
+  - The user does not select any resource.
+  - Your application can access the profile of the user, including their email.
+
+- `location[orders.read]` and `location[orders.write]`:
+  - The user selects a location.
+  - Your application can read the location's orders. With the `write` scope, it can also create orders in the location, and update any location's order.
+- `account[orders.read]` and `account[orders.write]`:
+
+  - The user selects an account.
+  - Your application can read the orders of any location of the account. With the `write` scope, it can also create and update orders in any location of the account.
+
+- `location[catalog.read]` and `location[catalog.write]`:
+
+  - The user selects a location, and a catalog belonging to the selected location or to the location's account.
+  - Your application can read the catalog. With the `write` scope, it can also update the catalog, even if it belongs to the account.
+
+- `account[catalog.read]` and `account[catalog.write]`:
+
+  - The user selects an account, and a catalog belonging to the account or to any location of the account.
+  - Your application can read the catalog. With the `write` scope, it can also update the catalog.
+
+- `location[all_catalogs.read]` and `location[all_catalogs.write]`:
+
+  - The user selects a location.
+  - Your application can read any catalog belonging to the location or the location's account. With the `write` scope, it can create catalogs in the location, update or delete any catalog belonging to the location, but it cannot update or delete catalogs belonging to the account.
+
+- `account[all_catalogs.read]` and `account[all_catalogs.write]`:
+  - The user selects an account.
+  - Your application can read any catalog belonging to the account or any of its locations. With the `write` scope, it can also update any of the catalogs, and it can create catalogs in the account or in any location of the account.
+
+The `customer_list` and `all_customer_lists` resources work similarly to `catalog` and `all_catalogs`.
 
 ## 3. Web application workflow
 
