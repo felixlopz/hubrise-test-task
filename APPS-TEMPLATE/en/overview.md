@@ -26,6 +26,7 @@ app_info:
 ---
 
 **IMPORTANT NOTE**:  This documentation is available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**:  The fulll documentation is available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French</Link>.
 
 ---
 
