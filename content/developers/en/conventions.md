@@ -35,46 +35,83 @@ The following tag can be set at the SKU level:
 
 The following tags can be set at the product level. They apply to every SKU of the product.
 
-| Tag                                  | Description                 |
-| ------------------------------------ | --------------------------- |
-| `alcoholic`                          | Contains alcohol.           |
-| `spicy_1`                            | Midly spicy.                |
-| `spicy_2`                            | Spicy.                      |
-| `spicy_3`                            | Very spicy.                 |
-| `gluten_free`                        | Contains no gluten.         |
-| `vegan`                              | Contains no animal product. |
-| `vegetarian`                         | Contains no meat.           |
-| `no_allergens`                       | Contains no allergens.      |
-| `allergen_celery`                    | Contains this allergen.     |
-| `allergen_crustaceans`               | Contains this allergen.     |
-| `allergen_eggs`                      | Contains this allergen.     |
-| `allergen_fish`                      | Contains this allergen.     |
-| `allergen_gluten`                    | Contains this allergen.     |
-| `allergen_lupin`                     | Contains this allergen.     |
-| `allergen_milk`                      | Contains this allergen.     |
-| `allergen_molluscs`                  | Contains this allergen.     |
-| `allergen_mustard`                   | Contains this allergen.     |
-| `allergen_nuts`                      | Contains this allergen.     |
-| `allergen_peanuts`                   | Contains this allergen.     |
-| `allergen_sesame_seeds`              | Contains this allergen.     |
-| `allergen_soybeans`                  | Contains this allergen.     |
-| `allergen_sulphur_dioxide_sulphites` | Contains this allergen.     |
+| Tag                                  | Description                                                           |
+| ------------------------------------ | --------------------------------------------------------------------- |
+| `alcoholic`                          | Contains alcohol.                                                     |
+| `spicy_1`                            | Midly spicy.                                                          |
+| `spicy_2`                            | Spicy.                                                                |
+| `spicy_3`                            | Very spicy.                                                           |
+| `gluten_free`                        | Contains no gluten.                                                   |
+| `vegan`                              | Contains no animal product.                                           |
+| `vegetarian`                         | Contains no meat.                                                     |
+| `no_allergens`                       | Contains no allergens.                                                |
+| `allergen_celery`                    | Contains this allergen.                                               |
+| `allergen_crustaceans`               | Contains this allergen.                                               |
+| `allergen_eggs`                      | Contains this allergen.                                               |
+| `allergen_fish`                      | Contains this allergen.                                               |
+| `allergen_gluten`                    | Contains this allergen.                                               |
+| `allergen_lupin`                     | Contains this allergen.                                               |
+| `allergen_milk`                      | Contains this allergen.                                               |
+| `allergen_molluscs`                  | Contains this allergen.                                               |
+| `allergen_mustard`                   | Contains this allergen.                                               |
+| `allergen_nuts`                      | Contains this allergen.                                               |
+| `allergen_peanuts`                   | Contains this allergen.                                               |
+| `allergen_sesame_seeds`              | Contains this allergen.                                               |
+| `allergen_soybeans`                  | Contains this allergen.                                               |
+| `allergen_sulphur_dioxide_sulphites` | Contains this allergen.                                               |
+| `half_half`                          | Half & half product. See [Half & half products](#half-half-products). |
 
-### Half & half items
+### Orders custom fields
 
-Half & half items are a relatively common occurrence in the restaurant industry, especially in the pizzeria industry. A half & half product lets you mix two recipes, and customise each of them separately. Think of a half & half pizza as a normal size pizza split in two halves, each half having its own ingredients.
+The following custom fields can be attached to an order:
+
+| Custom field            | Encoding | Description                                       |
+| ----------------------- | -------- | ------------------------------------------------- |
+| `restaurant.table_name` | `string` | A unique identifier of the table.                 |
+| `restaurant.staff.name` | `string` | The name of the employee looking after the order. |
+| `restaurant.staff.id`   | `string` | The id of the employee.                           |
+
+Typical uses:
+
+- The `restaurant.table_name` custom field is set by the ordering application when the order is created. It is used by the EPOS to associate the order to a specific table. It can also be used by a payment application to find an order associated with a table.
+- The `restaurant.staff.[name,id]` custom fields are typically set by the EPOS, and used by kitchen display screens and ordering applications.
+
+<details>
+
+<summary>Example of an order with restaurant information</summary>
+
+```json
+{
+  "status": "received",
+  "items": [
+    ...
+  ],
+  ...,
+  "custom_fields": {
+    "restaurant": {
+      "table_name": "13",
+      "staff": {
+        "name": "Michel",
+        "id": "6a1b8e55-55c7-47fb-8c1b-f39ae2eee4f5"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+### Half & half products
+
+Half & half products are a common occurrence in the restaurant industry, especially the pizzeria industry. A half & half product lets customers mix two recipes, and customise each of them separately. Think of a half & half pizza as a normal size pizza split in two halves, each half having its own ingredients.
 
 <details>
 
 <summary>Example of half & half pizza in an online ordering solution</summary>
 
-![Half & half pizza in an online ordering solution](../../images/004-half-half.png)
+![Half & half pizza in an online ordering solution](../images/004-half-half.png)
 
 </details>
-
-#### Catalogs
-
-To be done
 
 #### Orders
 
@@ -134,6 +171,122 @@ The recipe and toppings on each half are passed in 4 option lists: `Side 1`, `Si
 
 </details>
 
+#### Catalogs
+
+A half & half product is a product with one or more skus. It has the following features:
+
+- SKU prices are usually zero. The price of the item will come entirely from options, which include the two selected sides.
+- 2 mandatory option lists, named `Side 1` and `Side 2`. For each option list, the options are the recipes available on the half. Each option is generally priced half the amount of the full recipe.
+- 2 optional option lists, named `Toppings 1` and `Toppings 2`. For each option list, the options are the additions available on the half. They can be priced half the amount of the topping, or the full price of it, depending on restaurant preferences.
+- A `half_half` tag, to identify the product as a half & half. This allows the ordering solution to apply extra half & half pricing logic, and override the sides and toppings prices if needed.
+
 ## Conventions for delivery
 
-To be done
+### Location custom fields
+
+The following custom field can be set on a location:
+
+| Custom field         | Encoding                                                    | Description                                                       |
+| -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- |
+| `delivery.door_time` | [decimal](/developers/api/general-concepts/#decimal-values) | Minimum time in minutes between order creation and customer door. |
+
+Typical uses:
+
+- The EPOS sets the `delivery.door_time` custom field, and it is used by ordering apps and platforms.
+
+<details>
+
+<summary>Example of a location with delivery information</summary>
+
+```json
+{
+  "id": "3r4s3-1",
+  "name": "Paris",
+  ...,
+  "custom_fields": {
+    "delivery": {
+      "door_time": "35"
+    }
+  }
+}
+```
+
+</details>
+
+### Orders custom fields
+
+The following custom fields can be attached to an order to provide details about the delivery:
+
+| Custom field                  | Encoding | Description                                                                                                                       |
+| ----------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `delivery.driver_pickup_time` | `string` | The time in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) format when the driver is expected to pick up the delivery. |
+| `delivery.tracking_url`       | `string` | URL of the page showing the status of the delivery.                                                                               |
+| `delivery.driver.first_name`  | `string` | Driver's first name.                                                                                                              |
+| `delivery.driver.phone`       | `string` | Driver's phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164).                                                     |
+
+Typical uses:
+
+- The delivery solution sets the `delivery.driver_pickup_time` custom field, and it is displayed in the EPOS for the staff to prepare the order in time.
+- The delivery solution sets the `delivery.driver.first_name` and `delivery.driver.phone` custom fields, and they are displayed in the EPOS to provide the staff with a convenient way to reach out to the driver.
+- The delivery solution sets the `delivery.tracking_url` custom fields, and it is displayed in the ordering application for customers to track their delivery.
+
+<details>
+
+<summary>Example of an order with delivery information</summary>
+
+```json
+{
+  "status": "received",
+  "items": [
+    ...
+  ],
+  ...,
+  "custom_fields": {
+    "delivery": {
+      "driver_pickup_time": "2021-03-02T12:55:00+02:00",
+      "tracking_url": "https://delivery-service.com/track/664566410894-dbfqs",
+      "driver": {
+        "first_name": "John",
+        "phone": "+440123456789"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+## Conventions for EPOS
+
+### Orders custom fields
+
+The following custom fields can be attached to an order:
+
+| Custom field    | Encoding | Description                       |
+| --------------- | -------- | --------------------------------- |
+| `epos.order_id` | `string` | The EPOS identifier of the order. |
+
+Typical uses:
+
+- The EPOS sets the `epos.order_id` custom field. It can be used by ordering solutions to include the identifier in customer emails. It can also be used for troubleshooting.
+
+<details>
+
+<summary>Example of an order with EPOS information</summary>
+
+```json
+{
+  "status": "received",
+  "items": [
+    ...
+  ],
+  ...,
+  "custom_fields": {
+    "epos": {
+      "order_id": "645433012"
+    }
+  }
+}
+```
+
+</details>
