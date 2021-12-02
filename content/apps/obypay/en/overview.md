@@ -30,7 +30,7 @@ Obypay comes with a comprehensive back office that can be used to customise the 
 
 Once connected to HubRise, Obypay can be used to:
 
-- Push orders to HubRise.
+- Push orders into HubRise, including order status.
 - Pull order statuses from HubRise.
 - Pull customer information from HubRise.
 
