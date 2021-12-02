@@ -49,7 +49,7 @@ RestaJet can be connected to HubRise via the RestaJet support line.
 
 By connecting RestaJet to HubRise, your online ordering solution can communicate with your other everyday applications. Send online orders to your EPOS, to an intelligent printer, a kitchen display screen, or to your inventory management solution. Import the your EPOS solution's product catalog to RestaJet.
 
-Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications is constantly increasing. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions and delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications is constantly increasing. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
