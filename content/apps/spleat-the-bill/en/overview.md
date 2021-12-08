@@ -31,7 +31,7 @@ Spleat the bill communicates with the restaurateur's EPOS solution to automatica
 
 ## Integration features
 
-Once connected to HubRise, Spleat the bill can be used to:
+Connecting Spleat the bill to HubRise allows your payment solution to:
 
 - Pull orders from HubRise.
 - Pull the menu from a HubRise catalog.
