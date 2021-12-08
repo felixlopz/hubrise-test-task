@@ -14,13 +14,17 @@ app_info:
   contact: contact@tastycloud.fr / +33 1 88 32 06 70
 ---
 
+**REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/tastycloud" addLocalePrefix={false}>en anglais uniquement</Link>.
+
 ## Description
 
 TastyCloud est une solution de commande en ligne destinée aux restaurateurs sur le marché français.
 
 TastyCloud offre un back-office permettant de créer et d'éditer un menu avec descriptifs et images, de personnaliser le parcours de paiement, de configurer les horaires d'ouverture de l'établissement, de traduire le menu dans 25 langues au choix, et d'accéder à la liste des clients et au suivi des ventes.
 
-Le client peut consulter le menu du restaurant depuis sa table grâce à un QR code, ou commander en ligne depuis le site internet. Le restaurateur peut mettre en place un système de livraison et de click & collect.
+Le client peut consulter le menu du restaurant depuis sa table grâce à un QR code, ou commander en ligne depuis le site internet. 
+
+Le restaurateur peut mettre en place un système de livraison et de click & collect.
 
 ## Fonctionnalités de l'intégration
 
