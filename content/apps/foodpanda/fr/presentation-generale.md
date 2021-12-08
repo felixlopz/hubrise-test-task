@@ -5,6 +5,9 @@ layout: documentation
 meta:
   title: Présentation générale | foodpanda | HubRise
   description: Présentation générale de foodpanda Bridge, les raisons de connecter foodpanda à HubRise et fonctionnalités de l'intégration avec HubRise.
+gallery:
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Plateformes de livraison de repas
