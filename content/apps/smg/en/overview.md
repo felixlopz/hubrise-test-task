@@ -22,9 +22,9 @@ app_info:
 
 ## Description
 
-SMG, or Service Management Group, is a marketing solution used to collect and analyse a company's data in order to better understand how it functions, and thus improve its sales.
+SMG, or Service Management Group, is a marketing solution used to collect and analyse your company's data in order to better understand how it functions, and thus improve its sales.
 
-SMG includes a back office and a mobile app so that merchants can view the metrics of their activity, customer data or real-time data analyses.
+SMG includes a back office and a mobile app for merchants to view the metrics of their activity, customer data or real-time data analyses.
 
 ## Integration features
 
