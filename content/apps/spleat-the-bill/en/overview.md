@@ -25,9 +25,9 @@ app_info:
 
 Spleat the bill is a pay at the table solution for bars and restaurants, allowing customers to pay and share the bill using their smartphone.
 
-To pay their order, customers must install the Spleat the bill app. They scan a QR code or manually enter the table number in the app. They then choose the amount they want to pay. The payment is billed to their bank card, which they will have registered beforehand.
+To pay their order, customers install the Spleat the bill app. They scan a QR code or manually enter the table number in the app. They then choose the amount they want to pay. The payment is charged to the bank card account they will have registered beforehand.
 
-Spleat the bill communicates with the restaurateur's POS solution to automatically close orders that have been paid.
+Spleat the bill communicates with the restaurateur's EPOS solution to automatically close orders that have been paid.
 
 ## Integration features
 
