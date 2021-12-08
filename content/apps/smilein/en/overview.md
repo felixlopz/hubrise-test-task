@@ -40,6 +40,8 @@ When integrated with HubRise, smilein can be used to:
 
 ---
 
+smilein can be connected to HubRise via the smilein support line.
+
 ## Why connect?
 
 By connecting smilein to HubRise, orders placed on your website are sent to your POS solution or any other solution integrated in HubRise. 
