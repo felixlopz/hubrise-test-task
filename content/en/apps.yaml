@@ -295,16 +295,16 @@ content:
           logo: storefactory.png
           title: Store Factory
           description: Store Factory is used by SMEs and smaller retail stores with limited technical knowledge to create e-commerce websites. Technical support, maintenance and SEO services are provided by the publisher.
+        - website: http://superdigital.fr/
+          documentation: /apps/superdigital
+          logo: superdigital.png
+          title: SuperDigital.fr
+          description: SuperDigital.fr is a complete solution for restaurants to create a white label online ordering website. Restaurant owners can personalise their site autonomously from the back office.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud is a digital menu solution for restaurants and hotels. They offer digital menus, outdoor menu display cases, dynamic screens, click and collect online ordering, and smartphone ordering via QR code scanning.
-        - website:
-          documentation: /apps/superdigital
-          logo: superdigital.png
-          title: SuperDigital.fr
-          description: SuperDigital.fr is a complete solution for restaurants to create a white label online ordering website. Restaurant owners can personalise their site autonomously from the back office.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
