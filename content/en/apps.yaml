@@ -401,6 +401,11 @@ content:
           logo: expedy-print.png
           title: Expedy Print
           description: Expedy Print is used to automate printing of orders received from e-commerce websites or any other web application to one or more printers simultaneously. Connection can be done by ETHERNET, 3G/4G or Wifi.
+        - website: https://www.foodreport.fr
+          documentation: /apps/foodreport
+          logo: foodreport.png
+          title: FOODREPORT
+          description: FOODREPORT offers decision support tools for all types of restaurants. With FOODREPORT you can create real-time online reports from your HubRise customer and order data.
         - website:
           documentation: /apps/orderline
           logo: orderline.png
