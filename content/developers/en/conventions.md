@@ -262,13 +262,17 @@ Typical uses:
 
 The following custom fields can be attached to an order:
 
-| Custom field    | Encoding | Description                       |
-| --------------- | -------- | --------------------------------- |
-| `epos.order_id` | `string` | The EPOS identifier of the order. |
+ | Custom field           | Encoding         | Description                                                                                  |
+| ---------------------- | ---------------- | -------------------------------------------------------------------------------------------- |
+| `epos.order_id`        | `string`         | Order identifier on the EPOS.                                                                |
+| `epos.rejection`       | (see&nbsp;below) | Information about an order rejection. Can only be present if the order status is `rejected`. |
+| `epos.rejection.cause` | `string`         | Short description of the problem. Ideally includes resolution steps.                         |
+| `epos.rejection.info`  | `object`         | Free-format object with additional information about the problem.                            |
 
 Typical uses:
 
-- The EPOS sets the `epos.order_id` custom field. It can be used by ordering solutions to include the identifier in customer emails. It can also be used for troubleshooting.
+- The EPOS sets the `epos.order_id` custom field on order creation. Ordering solutions may use this field to include the order identifier in customer emails or in their back-office.
+- When the EPOS rejects an order, it sets the `epos.rejection` object. This field is visible in the HubRise back-office, and it helps support teams and users troubleshoot an issue.
 
 <details>
 
@@ -276,14 +280,22 @@ Typical uses:
 
 ```json
 {
-  "status": "received",
+  "status": "rejected",
   "items": [
     ...
   ],
   ...,
   "custom_fields": {
     "epos": {
-      "order_id": "645433012"
+      "order_id": "645433012",
+      "rejection": {
+        "cause": "At least one item in this order is not attached to a menu. See https://epos.com/info/35346",
+        "info": {
+          "status": "FAILED",
+          "reason": "Could not add item 117192477640169 (not found)",
+          "thirdPartyReference": "p81xp|719v7-2|52k399"
+        }
+      }
     }
   }
 }
