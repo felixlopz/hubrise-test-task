@@ -10,14 +10,13 @@ path_override: /
 
 ---
 
-**IMPORTANT NOTE**:  The fulll documentation is available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French</Link>.
 
 ---
 
-
 ## Description
 
-Coursicab is a delivery platform used for express or scheduled deliveries by taxi or bike. Customers can geo-track their orders in real time.
+Coursicab is a delivery platform for express or scheduled deliveries by taxi or bike. Thanks to geolocalisation, customers can track their deliveries in real time.
 
 Coursicab is present in 6 European countries: France, Spain, Belgium, the Netherlands, Luxembourg and Switzerland. Deliveries can be made 24/7.
 
@@ -41,4 +40,3 @@ You can also connect other solutions. The number of compatible applications is c
 ## Prerequisites
 
 You must have a CoursiCab account to establish a connection between CoursiCab and HubRise.
-
