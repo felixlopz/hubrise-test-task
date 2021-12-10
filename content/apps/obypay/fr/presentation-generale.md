@@ -37,7 +37,7 @@ Obypay offre un back-office complet, qui permet de personnaliser l'apparence de 
 
 Connecter Obypay à HubRise permet à Obypay de :
 
-- Envoyer les commandes à HubRise.
+- Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les statuts de commande de HubRise.
 - Recevoir les informations clients de HubRise.
 

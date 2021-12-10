@@ -13,7 +13,7 @@ path_override: /
 app_info:
   category: Online Ordering
   availability: France
-  price_range: From €9 monthly
+  price_range: From €9 per month
   website: https://www.mylemonade.fr
   contact: contact@mylemonade.app
 ---
