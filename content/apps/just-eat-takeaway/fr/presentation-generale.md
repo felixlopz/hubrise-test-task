@@ -25,13 +25,13 @@ app_info:
 
 ## Description
 
-Just Eat Takeaway.com est une plateforme de services de commande et de livraison de repas en ligne destinée aux restaurants et aux commerces de proximité. Les clients peuvent commander des plats sur Internet ou via une application mobile. L'équipe d'assistance à l'intégration est basée aux Pays-Bas, mais elle opère dans 21 pays différents en Europe, en Asie, en Amérique et en Océanie.
+Just Eat Takeaway.com est une plateforme de commande en ligne et de livraison pour les restaurants et les commerces de proximité. Les clients peuvent commander sur Internet ou via une application mobile. L'équipe d'assistance à l'intégration est basée aux Pays-Bas, mais l'entreprise opère dans 21 pays différents en Europe, en Asie, en Amérique et en Océanie.
 
 Just Eat Takeaway.com se connecte à votre compte HubRise via l'application Just Eat Takeaway Bridge développée par HubRise.
 
 ## Plateformes disponibles
 
-Just Eat Takeaway Bridge vous permet de vous connecter les plateformes suivantes à HubRise :
+Just Eat Takeaway Bridge vous permet de connecter les plateformes suivantes à HubRise :
 
 - Just-Eat.fr
 - Takeaway.com (Belgique, Luxembourg, Portugual, Bulgarie, Roumanie)
@@ -54,7 +54,7 @@ La connexion avec Just Eat Takeaway Bridge vous permet de :
 - Envoyer les commandes à HubRise, y compris le statut de la commande.
 - Recevoir les informations de livraison dans HubRise, lorsque les commandes sont livrées par votre personnel.
 
-![Schéma du flux de connexion entre Just Eat Takeaway, Just Eat Takeaway Bridge et HubRise](../images/000-fr-2x-jet-connection-diagram.png)
+![Flux de données entre Just Eat Takeaway, Just Eat Takeaway Bridge et HubRise](../images/000-fr-2x-jet-connection-diagram.png)
 
 Just Eat Takeaway Bridge peut être connecté à HubRise depuis le back-office de HubRise.
 
