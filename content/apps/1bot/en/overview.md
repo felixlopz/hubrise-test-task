@@ -23,13 +23,13 @@ app_info:
 
 ## Description
 
-1Bot allows restaurateurs and retailers to set up a personal assistant chatbot on their website.
+1Bot allows restaurateurs and retailers to set up personal assistant chatbots on their website.
 
-The chatbot can indicate the establishment's menu and business hours, take orders and bookings, or answer questions. All sorts of other features are available.
+1Bot chatbots can provide the establishment's menu and business hours, take orders and bookings, or answer questions. Many other features are available.
 
-The chatbot sends a summary of the conversation to the establishment by SMS.
+1Bot sends a summary of each conversation to the establishment by SMS.
 
-The chatbot is active 24/7, even outside the establishment's business hours.
+1Bot chatbots are active 24/7, even outside the establishment's business hours.
 
 ## Integration features
 
@@ -40,6 +40,6 @@ Once connected to HubRise, you can use 1Bot to:
 
 ## Why connect?
 
-By connecting 1Bot to HubRise, your application can communicate with your other everyday applications. You can push online orders to your EPOS, your connected printer, your kitchen display screen or your inventory management solution.
+By connecting 1Bot to HubRise, your application can communicate with your other everyday applications. You can push chatbot orders to your EPOS, your connected printer, your kitchen display screen or your inventory management solution.
 
 Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS solution, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management or delivery services solutions, eMarketing (SMS/emailing) solutions, business intelligence, stock management and customer loyalty systems, and more. The number of compatible applications is constantly increasing. To see which apps you can connect, see our [Apps page](/apps).
