@@ -58,6 +58,8 @@ When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and
 - `in_preparation`: The order is in the kitchen.
 - `awaiting_collection`: The order is ready for pickup by the customer or the rider.
 - `completed`: The order has been collected by the customer or the rider.
+- `rejected`: The order could not be sent to the EPOS. 
+- `cancelled`: Same as rejected.
 
 Other HubRise status values are not supported and are not sent on Deliveroo.
 
