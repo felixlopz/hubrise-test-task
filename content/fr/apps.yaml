@@ -412,6 +412,11 @@ content:
           logo: expedy-print.png
           title: Expedy Print
           description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 3G/4G, ou Wifi.
+        - website: https://www.foodreport.fr
+          documentation: /apps/foodreport
+          logo: foodreport.png
+          title: FOODREPORT
+          description: FOODREPORT propose des outils d'aide à la décision déstinés à la restauration rapide et traditionnelle. FOODREPORT permet de créer des rapports en ligne temps réel, à partir de vos données clients et commandes venant de HubRise.
         - website:
           documentation: /apps/orderline
           logo: orderline.png
