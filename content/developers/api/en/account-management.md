@@ -52,14 +52,14 @@ Get location details.
 Update the `custom_fields` of the location
 
 <CallSummaryTable
-  endpoint="PUT /locations/:id"
-  shortEndpoint="PUT /location (location only)"
+  endpoint="PATCH /locations/:id"
+  shortEndpoint="PATCH /location (location only)"
   accessLevel="location, account"
 />
 
 #### Example request:
 
-`PUT /locations/3r4s3-1`:
+`PATCH /locations/3r4s3-1`:
 
 ```json
 {
