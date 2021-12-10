@@ -269,7 +269,7 @@ content:
           logo: restajet.png
           title: RestaJet
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://restaurant-internet.com
           documentation:
           logo: restaurant-internet.png
@@ -299,17 +299,17 @@ content:
           logo: storefactory.png
           title: Store Factory
           description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites marchand. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
+        - website: http://superdigital.fr/
+          documentation: /apps/superdigital
+          logo: superdigital.png
+          title: SuperDigital.fr
+          description: SuperDigital.fr est une solution complète permettant aux restaurateurs de créer un site de commande en ligne en marque blanche. Les restaurateurs peuvent personnaliser leur site de manière autonome depuis le back-office.
         - website: https://www.tastycloud.fr
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info: Documentation en anglais.
-        - website:
-          documentation: /apps/toolkeat
-          logo: toolkeat.png
-          title: Toolkeat
-          description: Toolkeat est une solution complète permettant aux restaurateurs de créer un site de commande en ligne en marque blanche. Les restaurateurs peuvent personnaliser leur site de manière autonome depuis le back-office.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
@@ -399,7 +399,7 @@ content:
           logo: barratio.png
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
-          additional_info:
+          additional_info: Intégration en cours.
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
@@ -412,6 +412,11 @@ content:
           logo: expedy-print.png
           title: Expedy Print
           description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 3G/4G, ou Wifi.
+        - website: https://www.foodreport.fr
+          documentation: /apps/foodreport
+          logo: foodreport.png
+          title: FOODREPORT
+          description: FOODREPORT propose des outils d'aide à la décision déstinés à la restauration rapide et traditionnelle. FOODREPORT permet de créer des rapports en ligne temps réel, à partir de vos données clients et commandes venant de HubRise.
         - website:
           documentation: /apps/orderline
           logo: orderline.png

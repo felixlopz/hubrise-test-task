@@ -6,8 +6,8 @@ meta:
   title: Overview | Just Eat Takeaway | HubRise
   description: Just Eat Takeaway Bridge overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
+  - __gallery-001-en.png
+  - __gallery-002-en.png
 path_override: /
 app_info:
   category: Food Ordering Platforms
