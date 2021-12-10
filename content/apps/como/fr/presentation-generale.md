@@ -25,7 +25,7 @@ app_info:
 
 Como est une solution de fidélité client destinée aux commerçants, aux hôteliers et aux restaurateurs.
 
-Como permet de personnaliser votre programme de fidélité et l'apparence de votre application mobile. Il offre aussi la possibilité de communiquer avec vos clients en leur envoyant des SMS, des notifications push, ou encore des e-mails personnalisés.
+Como permet de créer un programme de fidélité avancé avec application mobile. Como permet de fidéliser vos clients, et de communiquer avec eux en leur envoyant des SMS, des notifications push, ou des e-mails personnalisés.
 
 Como offre un tableau de bord contenant de nombreuses informations et métriques liées à votre activité et vos données clients.
 

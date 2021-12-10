@@ -23,11 +23,11 @@ app_info:
 
 ## Description
 
-Como is a customer loyalty solution intended for retailers, hoteliers and restaurateurs.
+Como is a customer loyalty solution for restaurants, hotels, and retail stores.
 
-Como can be used to customise your loyalty programme and your mobile app's appearance. It also lets you communicate with your customers by sending them text messages, push notifications or personalised e-mails.
+Como offers advanced loyalty programs and loyalty mobile apps. It increases customer retention and enables you to communicate with your prospects via text messages, push notifications and personalised e-mails.
 
-Como provides a dashboard containing all sorts of details and metrics about your activity and your customer data.
+Como provides a dashboard with all sorts of details and metrics about your activity and your customer data.
 
 Como also uses Artificial Intelligence to analyse your activity, predict your customers' purchasing behaviour, before targeting them with a suitable offer.
 
