@@ -16,15 +16,15 @@ path_override: /
 
 ## Description
 
-Obypay is a mobile ordering solution for click & collect orders, on-site orders or delivery orders.
+Obypay is a mobile ordering solution for click & collect, on-site and delivery orders.
 
-For on-site orders, the customer scans a QR code placed on the table to access the menu from their smartphone browser, without having to install an app. The order can be placed and paid in just a few seconds.
+To order on-site, customers scan a QR code placed on the table to access the menu from their smartphone browser, without having to install an app. Orders can be placed and paid in just a few seconds.
 
-Obypay can also be used outside the restaurant for click & collect orders or delivery orders.
+Obypay can also be used outside the restaurant for click & collect or delivery orders.
 
-Obypay offers a number of advanced features, such as menu translation into different languages, or a customer loyalty programme.
+Obypay offers a number of advanced features, such as multilingual menus, or customer loyalty programmes.
 
-Obypay comes with a comprehensive back office that can be used to customise the mobile app's appearance and the product offering.
+Obypay comes with a comprehensive back office to customise the mobile app's appearance and the product offering.
 
 ## Integration features
 
