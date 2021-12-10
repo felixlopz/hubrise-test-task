@@ -37,8 +37,6 @@ Connecter Mailchimp à HubRise permet à votre solution d'e-marketing de :
 - Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
 
-La connexion de Mailchimp Bridge à HubRise permet à Mailchimp de transmettre les informations client à partir de HubRise conformément au flux d'activité suivant.
-
 ![Diagramme de flux de Mailchimp Bridge](../images/007-fr-2x-connection-diagram.png)
 
 Mailchimp Bridge peut être connecté à HubRise depuis le back-office de HubRise.

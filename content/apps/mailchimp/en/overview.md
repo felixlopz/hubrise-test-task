@@ -27,10 +27,8 @@ Mailchimp connects to your HubRise account through Mailchimp Bridge, an app deve
 
 Connecting Mailchimp to HubRise allows your eMarketing solution to:
 
-- Pull orders from HubRise, including order status.
+- Pull orders from HubRise.
 - Pull customer information from HubRise.
-
-Connecting Mailchimp Bridge to HubRise allows Mailchimp to push customer information from HubRise, according to the following workflow.
 
 ![Mailchimp Bridge Workflow](../images/007-en-2x-connection-diagram.png)
 
