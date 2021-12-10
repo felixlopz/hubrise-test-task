@@ -16,11 +16,11 @@ path_override: /
 
 ## Description
 
-Maakyo is a table ordering solution accessible from a smartphone browser. There is no app to be installed.
+Maakyo is a table ordering solution accessible from a smartphone browser. There is no app to install.
 
-Maakyo provides a menu linked directly to the restaurant's POS system. Customers can access the menu by scanning a QR code displayed inside the restaurant or on its tables. They can then place their order and pay via their smartphone.
+Maakyo provides an online menu linked to the restaurant's POS system. Customers can access the menu by scanning a QR code displayed inside the restaurant or on the tables. They can then place their order and pay via their smartphone.
 
-With Maakyo, you can display the menu in different languages (French, English, Spanish and Portuguese), associate photos with products, and customise the QR codes to reflect the establishment's image.
+With Maakyo, you can display your menu in different languages (French, English, Spanish and Portuguese), attach photos to products, and customise the QR codes to reflect your company's image.
 
 Maakyo also offers an integrated Click & Collect system.
 
