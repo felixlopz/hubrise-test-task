@@ -16,18 +16,18 @@ path_override: /
 
 ## Description
 
-Store Factory is an online ordering solution intended for restaurateurs and merchants.
+Store Factory is an online ordering solution for restaurateurs and merchants.
 
-Store Factory can be used to create a professional e-commerce site adapted to click & collect and delivery. It offers the following features:
+Store Factory can be used to create a professional e-commerce website optimised for click & collect and delivery workflows. It offers the following features:
 
-- A customisable homepage and shopping cart.
-- Product sheets with options, multiple product views, associated products, recommendations for friends, and dynamic prices depending on the options.
-- Freely definable information pages for content other than product-related information.
-- Customer account creation.
+- Customisable homepage and shopping cart.
+- Product sheets with options, multiple product views, associated products, recommendations for friends, and dynamic pricing depending on selected options.
+- Free text information pages.
+- Customer accounts.
 - Stock management.
-- Delivery time slot management.
+- Delivery time management.
 
-Store Factory is dedicated to the French market.
+Store Factory operates on the French market.
 
 ## Integration features
 
@@ -36,6 +36,8 @@ Once connected to HubRise, Store Factory can be used to:
 - Push orders into HubRise, including order statuses.
 - Push customer information into HubRise.
 - Pull the menu from a HubRise catalog.
+
+Store Factory can be connected to HubRise via the Store Factory support line.
 
 ## Why connect?
 
