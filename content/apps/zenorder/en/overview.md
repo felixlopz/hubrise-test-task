@@ -28,7 +28,7 @@ Zenorder includes an integrated Click & Collect system in which customer flows c
 
 Zenorder can also be used for deliveries, and can calculate delivery costs in line with distances, postal codes or even the order's weight.
 
-Zenorder incorporates a back office where you can customise the product offer, access the list of orders in real time, manage stocks and preparation times, or set up a customer loyalty programme.
+Zenorder incorporates a back office where you can customise the product offer, access the list of orders in real time, manage stocks and preparation times, or set up a customer loyalty program.
 
 ## Integration features
 

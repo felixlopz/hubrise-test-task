@@ -22,7 +22,7 @@ To order on-site, customers scan a QR code placed on the table to access the men
 
 Obypay can also be used outside the restaurant for click & collect or delivery orders.
 
-Obypay offers a number of advanced features, such as multilingual menus, or customer loyalty programmes.
+Obypay offers a number of advanced features, such as multilingual menus, or customer loyalty programs.
 
 Obypay comes with a comprehensive back office to customise the mobile app's appearance and the product offering.
 
