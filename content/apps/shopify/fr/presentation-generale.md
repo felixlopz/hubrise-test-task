@@ -21,15 +21,15 @@ app_info:
 
 ---
 
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
+**REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/shopify" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---
 
 ## Description
 
-Shopify est une plateforme d'e-commerce qui offre aux détaillants un ensemble de services pour créer des sites de commande en ligne. Avec Shopify, vous pouvez vendre n'importe quel type de produit sur Internet, mais aussi gérer vos stocks et vos livraisons, accepter les paiements en ligne et effectuer des analyses de données. La plateforme facilite également les ventes dans le monde entier grâce à ses fonctions de gestion des langues et des devises.
+Shopify est une plateforme e-commerce. Elle offre aux détaillants un ensemble de services pour créer des sites de commande en ligne. Avec Shopify, vous pouvez vendre n'importe quel type de produit sur Internet, mais aussi gérer vos stocks et vos livraisons, accepter les paiements en ligne et effectuer des analyses de données. La plateforme facilite également les ventes dans le monde entier grâce à ses fonctions de gestion des langues et des devises.
 
-Une gamme complète d'outils de développement comprenant une suite d'API vous permet de créer vos propres applications et les thèmes de votre site. Des modèles de boutique sont même disponibles pour personnaliser et créer votre propre site sans l'aide d'un développeur. Le nombre d'applications et de thèmes mis à votre disposition illustre à quel point Shopify est populaire parmi les solutions de commerce électronique.
+Une gamme complète d'outils de développement comprenant une suite d'API vous permet de créer vos propres applications et des thèmes pour votre site. Vous pouvez également utiliser les modèles de boutique disponibles pour personnaliser et créer votre propre site sans l'aide d'un développeur. Le nombre d'applications et de thèmes mis à disposition illustre à quel point Shopify est populaire parmi les solutions de commerce électronique.
 
 En 2020, la plateforme comptait plus d'un million de sites opérant dans quelque 175 pays du monde, qu'il s'agisse d'entreprises locales ou d'envergure internationale telles que Tesla, Nescafé ou Red Bull.
 
