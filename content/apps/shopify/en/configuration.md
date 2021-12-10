@@ -20,7 +20,7 @@ Only new products in the HubRise catalog will be sent to Shopify. The Bridge doe
 ## Order Statuses
 
 In this section, you can customise how to map order status changes in HubRise back to Shopify.
-To ignore an order status change in HubRise, select "Do nothing".
+To ignore an order status change in HubRise, select **Do nothing**.
 
 ## Saving the Configuration
 
