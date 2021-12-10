@@ -19,12 +19,6 @@ app_info:
   contact: https://www.shopify.com/contact
 ---
 
----
-
-**IMPORTANT NOTE**: A full documentation of this integration will be available soon.
-
----
-
 ## Description
 
 Shopify is an e-commerce platform. It offers retailers a suite of services to create online ordering websites. With Shopify you can sell any kind of product online as well as manage inventory and shipping, accept online payments, and handle analytics. It facilitates worldwide sales too with language and currency management features.
@@ -42,12 +36,6 @@ Connecting Shopify to HubRise allows Shopify to:
 - Push customer information into HubRise.
 - Pull a product catalog from HubRise.
 - Synchronise inventory with HubRise.
-
----
-
-**IMPORTANT NOTE:** We are currently looking for pilot testers. If you are interested, contact us at support@hubrise.com.
-
----
 
 ## Why Connect?
 
