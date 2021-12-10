@@ -71,7 +71,7 @@ content:
           documentation: /apps/ikentoo-lightspeed
           logo: lightspeed.png
           title: Lightspeed K-Series / iKentoo
-          description: Lightspeed offers cloud-based solutions for retail and restaurants in over 100 countries. Its sleek design and intuitive interface allows on site, remote or on-the-go management of single and multi-store businesses.
+          description: Lightspeed offers cloud-based solutions for retail and restaurants in over 100 countries. Its sleek design and intuitive interface allows on-site, remote or on-the-go management of single and multi-store businesses.
         - website: http://www.myorderboxhq.com
           documentation: /apps/myorderbox
           logo: myorderbox.png
@@ -229,7 +229,7 @@ content:
           logo: gonnaorder.png
           title: GonnaOrder
           description: GonnaOrder offers a cost-effective online ordering and payment system available in 14 countries. Via a branded website and native iOS and Android apps, GonnaOrder supports takeaway, delivery and table service orders for restaurants, bars, pubs, and cafes.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.livepepper.com
           documentation: /apps/livepepper
           logo: livepepper.png
