@@ -20,7 +20,7 @@ smilein is a mobile ordering and payment solution for hotels and restaurants. Wi
 
 Users can change their menu, customise their site and manage their orders independently.
 
-smilein is also a content management platform, offering content (video, press, games) and services so that brands can enhance their knowledge of their customers, include them in loyalty programmes and populate their customer databases.
+smilein is also a content management platform, offering content (video, press, games) and services so that brands can enhance their knowledge of their customers, include them in loyalty programs and populate their customer databases.
 
 The smilein suite comprises two solutions:
 
