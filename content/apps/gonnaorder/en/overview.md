@@ -23,13 +23,11 @@ app_info:
 
 ## Description
 
-GonnaOrder is an online ordering solution intended for restaurateurs.
+GonnaOrder is an online ordering solution for restaurants. It supports on-site, takeaway and delivery orders.
 
-GonnaOrder provides a back office where you can edit your menu, add photos to products, highlight dishes of the day, and translate the menu into more than 80 languages. It can also be used to view the list of orders, and inform the customer of their order's real-time status.
+GonnaOrder provides a back office to edit the menu, attach photos to products, highlight dishes of the day, and translate product descriptions into more than 80 languages. It can also be used to view orders, and inform customers of their order's real-time status.
 
-GonnaOrder allows the customer to order on site, for takeaway or for delivery.
-
-For on-site orders, the customer scans a QR code on the table to access the menu on their smartphone, and then order. There is no app to be installed.
+For on-site orders, customers scan a QR code on their table to open the menu on their smartphone, and then order. There is no app to install.
 
 ## Integration features
 
