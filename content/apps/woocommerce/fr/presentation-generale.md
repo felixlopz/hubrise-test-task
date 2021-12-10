@@ -26,11 +26,11 @@ app_info:
 
 ## Description
 
-WooCommerce est une plateforme d'e-commerce en open source, hébergée sur WordPress et conçue pour les commerçants en ligne de toute taille. Les entreprises peuvent vendre des produits physiques ou dématérialisés, gérer leurs stocks et leurs livraisons, effectuer des paiements sécurisés et régler les taxes automatiquement.
+WooCommerce est une solution e-commerce open source, hébergée sur WordPress et conçue pour les commerçants en ligne de toute envergure. Avec WooCommerce, les entreprises peuvent vendre des produits physiques ou dématérialisés, gérer leurs stocks et leurs livraisons, effectuer des paiements sécurisés et régler les taxes automatiquement.
 
 WooCommerce est un module d'extension (plug-in) qui doit être installé sur un site Internet WordPress. Bien qu'il offre de nombreuses fonctions prêtes à l'emploi, vous pouvez également étendre les fonctions de WooCommerce via des thèmes, des plug-ins ou des extensions, voire en éditant le code du module lui-même.
 
-WooCommerce a été lancé en 2011. Il s'agit de la solution d'e-commerce la plus utilisée en 2020, avec 4 sites de commande en ligne sur 10 alimentés par la plateforme.
+WooCommerce a été lancé en 2011. Il s'agit de la solution d'e-commerce la plus utilisée en 2020 : 4 sites de commande en ligne sur 10 dans le monde utilisent WooCommerce.
 
 ## Fonctionnalités de l'intégration
 
