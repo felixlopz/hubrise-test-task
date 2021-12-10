@@ -14,7 +14,7 @@ path_override: /
 app_info:
   category: Online Ordering
   availability: Europe, Turkey and the Middle East
-  price_range: From $39 to $99 monthly
+  price_range: From $39 to $99 per month
   website: https://www.restajet.com
   contact: info@restajet.com
 ---
@@ -27,11 +27,11 @@ app_info:
 
 ## Description
 
-RestaJet is an online ordering solution intended for restaurateurs.
+RestaJet is an online ordering solution for restaurateurs.
 
-RestaJet lets you create a comprehensive website, or add an ordering module to your existing site. RestaJet also offers a custom mobile app in the colours of your establishment.
+RestaJet lets you either create a comprehensive website, or an ordering module to add to your existing site. RestaJet also offers a custom mobile app in the colours of your establishment.
 
-Via the RestaJet back office, restaurateurs can create and edit their menu, add promotional offers, view the list of orders, and consult their activity's metrics.
+Via the RestaJet back office, restaurateurs can create and edit their menu, add promotional offers, view the list of orders, and check their activity's metrics.
 
 RestaJet has customers in the UK, France, the US, the United Arab Emirates and Turkey.
 
