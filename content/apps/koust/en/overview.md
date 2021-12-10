@@ -17,15 +17,15 @@ path_override: /
 
 ## Description
 
-Koust is an application that helps restaurateurs manage their costs and their inventory. Koust is intended for all types of restaurants, from independent establishments to restaurant chains and collective catering outlets.
+Koust is an application for restaurateurs to manage costs and inventory. Koust is designed for all types of food establishments, from independent restaurants to chains and collective catering outlets.
 
 It offers a broad range of features split into different branches:
 
 - The management branch provides dashboards to track your establishment's revenues and margins in real time.
-- The stock branch is used to place your supplier orders, make your inventories and analyse your purchases.
-- The production branch provides features for defining production schedules and the production of semi-finished products.
+- The stock branch allows you to place procurement orders, carry out inventories and analyse purchases.
+- The production branch offers production schedules and semi-finished products tracking.
 
-Koust was created in September 2016. Its main goals are to increase restaurateurs' gross margin, improve their productivity and reduce commodity costs.
+Koust was created in September 2016. Its main goals are to increase restaurateurs' gross margin, improve productivity and reduce commodity costs.
 
 ## Integration features
 
