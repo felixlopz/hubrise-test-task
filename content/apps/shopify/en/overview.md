@@ -35,12 +35,7 @@ Connecting Shopify to HubRise allows Shopify to:
 - Pull order status from HubRise into Shopify.
 - Push customer information into HubRise.
 - Pull a product catalog from HubRise.
-
----
-
-**IMPORTANT NOTE:** We are currently looking for pilot testers. If you are interested, contact us at support@hubrise.com.
-
----
+- Pull inventory availability from HubRise.
 
 ## Why Connect?
 
