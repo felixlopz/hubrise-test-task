@@ -209,7 +209,7 @@ HubRise allows API clients to attach their own internal references to various ob
 
 A private ref is only visible to the client that set it. For example, let's assume client A assigns a private ref to an order:
 
-**CLIENT A**: `PUT /location/orders/sd89mm`
+**CLIENT A**: `PATCH /location/orders/sd89mm`
 
 ```json
 {
