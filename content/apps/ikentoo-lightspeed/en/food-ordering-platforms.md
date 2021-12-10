@@ -31,16 +31,17 @@ To receive Deliveroo orders in Lightspeed, you first need to connect Deliveroo B
 
 To correctly receive your orders, specify the following values in the Deliveroo Bridge configuration page. To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
 
-| Section       | Name                          | Ref code      |
-| ------------- | ----------------------------- | ------------- |
-| Service types | Deliveroo fulfilled ref code  | `DVAP`        |
-| Service types | Restaurant fulfilled ref code | `DVMD`        |
-| Service types | Takeaway ref code             | `DVMTA`       |
-| Discounts     | Offer ref code                | `DELD99`      |
-| Charges       | Delivery charge ref code      | `DELD77`      |
-| Charges       | Surcharge ref code            | `DELD88`      |
-| Payments      | Deliveroo payment ref code    | `DVPM`        |
-| Payments      | Cash payment ref code         | (leave empty) |
+| Section       | Name                                  | Ref code          |
+| ------------- | ------------------------------------- | ----------------- |
+| Service types | Deliveroo fulfilled ref code          | `DVAP`            |
+| Service types | Restaurant fulfilled ref code         | `DVMD`            |
+| Service types | Takeaway ref code                     | `DVMTA`           |
+| Service types | Send orders delivered by Deliveroo as | `delivery orders` |
+| Discounts     | Offer ref code                        | `DELD99`          |
+| Charges       | Delivery charge ref code              | `DELD77`          |
+| Charges       | Surcharge ref code                    | `DELD88`          |
+| Payments      | Deliveroo payment ref code            | `DVPM`            |
+| Payments      | Cash payment ref code                 | (leave empty)     |
 
 ## Uber Eats
 
@@ -48,18 +49,19 @@ To receive Uber Eats orders in Lightspeed, you first need to connect Uber Eats B
 
 To correctly receive your orders, specify the following values in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
-| Section        | Name                              | Ref code or value                                    |
-|----------------|-----------------------------------|------------------------------------------------------|
-| Service types  | Uber delivery ref code            | `UEAP`                                               |
-| Service types  | Restaurant delivery ref code (\*) | `UENDAP`                                             |
-| Service types  | Takeaway ref code                 | `UEPUAP`                                             |
-| Service types  | Eat-in ref code                   | `UEDIAP`                                             |
-| Special items  | Disposable items ref code         | Create a product in Lightspeed and use its **Code**. |
-| Discounts      | Discount ref code                 | `UE99`                                               |
-| Payments       | Payment ref code                  | `UEPM`                                               |
-| Order statuses | Mark the order as Accepted        | `When it is sent to HubRise`                         |
-| Order statuses | Mark the order as Denied          | `When HubRise status changes to "Rejected"`          |
-| Order statuses | Mark the order as Cancelled       | `When HubRise status changes to "Cancelled"`         |
+| Section        | Name                                  | Ref code or value                                    |
+| -------------- | ------------------------------------- | ---------------------------------------------------- |
+| Service types  | Uber delivery ref code                | `UEAP`                                               |
+| Service types  | Restaurant delivery ref code (\*)     | `UENDAP`                                             |
+| Service types  | Takeaway ref code                     | `UEPUAP`                                             |
+| Service types  | Eat-in ref code                       | `UEDIAP`                                             |
+| Service types  | Send orders delivered by Uber Eats as | `delivery orders`                                    |
+| Special items  | Disposable items ref code             | Create a product in Lightspeed and use its **Code**. |
+| Discounts      | Discount ref code                     | `UE99`                                               |
+| Payments       | Payment ref code                      | `UEPM`                                               |
+| Order statuses | Mark the order as Accepted            | `When it is sent to HubRise`                         |
+| Order statuses | Mark the order as Denied              | `When HubRise status changes to "Rejected"`          |
+| Order statuses | Mark the order as Cancelled           | `When HubRise status changes to "Cancelled"`         |
 
 (\*) BYOC - Bring Your Own Courier
 
@@ -77,15 +79,16 @@ To receive Just Eat orders in Lightspeed, you first need to connect Just Eat Fly
 
 To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page.
 
-| Section       | Name                         | Ref code      |
-| ------------- | ---------------------------- | ------------- |
-| Service types | Just Eat delivery ref code   | `JEAP`        |
-| Service types | Restaurant delivery ref code | `JEDRAP`      |
-| Service types | Takeaway ref code            | `JETAAP`      |
-| Charges       | Delivery charge ref code     | `JE77`        |
-| Charges       | Service charge ref code      | `JE66`        |
-| Payments      | Just Eat payment ref code    | `JEPM`        |
-| Payments      | Cash payment ref code        | (leave empty) |
+| Section       | Name                                     | Ref code          |
+| ------------- | ---------------------------------------- | ----------------- |
+| Service types | Just Eat delivery ref code               | `JEAP`            |
+| Service types | Restaurant delivery ref code             | `JEDRAP`          |
+| Service types | Takeaway ref code                        | `JETAAP`          |
+| Service types | Send orders delivered by the platform as | `delivery orders` |
+| Charges       | Delivery charge ref code                 | `JE77`            |
+| Charges       | Service charge ref code                  | `JE66`            |
+| Payments      | Just Eat payment ref code                | `JEPM`            |
+| Payments      | Cash payment ref code                    | (leave empty)     |
 
 ## Takeaway.com
 
@@ -93,16 +96,17 @@ To receive Takeaway.com orders in Lightspeed, you first need to connect Just Eat
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
-| Section       | Name                           | Ref code      |
-| ------------- | ------------------------------ | ------------- |
-| Service types | Takeaway.com delivery ref code | `TAAP`        |
-| Service types | Restaurant delivery ref code   | `TADRAP`      |
-| Service types | Takeaway ref code              | `TATAAP`      |
-| Charges       | Delivery charge ref code       | `TA77`        |
-| Charges       | Service charge ref code        | `TA66`        |
-| Discounts     | Discount ref code              | `TA99`        |
-| Payments      | Takeaway.com payment ref code  | `TAPM`        |
-| Payments      | Cash payment ref code          | (leave empty) |
+| Section       | Name                                     | Ref code          |
+| ------------- | ---------------------------------------- | ----------------- |
+| Service types | Takeaway.com delivery ref code           | `TAAP`            |
+| Service types | Restaurant delivery ref code             | `TADRAP`          |
+| Service types | Takeaway ref code                        | `TATAAP`          |
+| Service types | Send orders delivered by the platform as | `delivery orders` |
+| Charges       | Delivery charge ref code                 | `TA77`            |
+| Charges       | Service charge ref code                  | `TA66`            |
+| Discounts     | Discount ref code                        | `TA99`            |
+| Payments      | Takeaway.com payment ref code            | `TAPM`            |
+| Payments      | Cash payment ref code                    | (leave empty)     |
 
 ## Thuisbezorgd.nl
 
@@ -110,16 +114,17 @@ To receive Thuisbezorgd.nl orders in Lightspeed, you first need to connect Just 
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
-| Section       | Name                              | Ref code      |
-| ------------- | --------------------------------- | ------------- |
-| Service types | Thuisbezorgd.nl delivery ref code | `THAP`        |
-| Service types | Restaurant delivery ref code      | `THDRAP`      |
-| Service types | Takeaway ref code                 | `THTHAP`      |
-| Charges       | Delivery charge ref code          | `TH77`        |
-| Charges       | Service charge ref code           | `TH66`        |
-| Discounts     | Discount ref code                 | `TH99`        |
-| Payments      | Thuisbezorgd.nl payment ref code  | `THPM`        |
-| Payments      | Cash payment ref code             | (leave empty) |
+| Section       | Name                                     | Ref code          |
+| ------------- | ---------------------------------------- | ----------------- |
+| Service types | Thuisbezorgd.nl delivery ref code        | `THAP`            |
+| Service types | Restaurant delivery ref code             | `THDRAP`          |
+| Service types | Takeaway ref code                        | `THTHAP`          |
+| Service types | Send orders delivered by the platform as | `delivery orders` |
+| Charges       | Delivery charge ref code                 | `TH77`            |
+| Charges       | Service charge ref code                  | `TH66`            |
+| Discounts     | Discount ref code                        | `TH99`            |
+| Payments      | Thuisbezorgd.nl payment ref code         | `THPM`            |
+| Payments      | Cash payment ref code                    | (leave empty)     |
 
 ## Eat.ch
 
@@ -127,13 +132,14 @@ To receive Eat.ch orders in Lightspeed, you first need to connect Just Eat Takea
 
 To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
-| Section       | Name                         | Ref code      |
-| ------------- | ---------------------------- | ------------- |
-| Service types | Eat.ch delivery ref code     | `EATAP`       |
-| Service types | Restaurant delivery ref code | `EATDRAP`     |
-| Service types | Takeaway ref code            | `EATEATAP`    |
-| Charges       | Delivery charge ref code     | `EAT77`       |
-| Charges       | Service charge ref code      | `EAT66`       |
-| Discounts     | Discount ref code            | `EAT99`       |
-| Payments      | Eat.ch payment ref code      | `EATPM`       |
-| Payments      | Cash payment ref code        | (leave empty) |
+| Section       | Name                                     | Ref code          |
+| ------------- | ---------------------------------------- | ----------------- |
+| Service types | Eat.ch delivery ref code                 | `EATAP`           |
+| Service types | Restaurant delivery ref code             | `EATDRAP`         |
+| Service types | Takeaway ref code                        | `EATEATAP`        |
+| Service types | Send orders delivered by the platform as | `delivery orders` |
+| Charges       | Delivery charge ref code                 | `EAT77`           |
+| Charges       | Service charge ref code                  | `EAT66`           |
+| Discounts     | Discount ref code                        | `EAT99`           |
+| Payments      | Eat.ch payment ref code                  | `EATPM`           |
+| Payments      | Cash payment ref code                    | (leave empty)     |

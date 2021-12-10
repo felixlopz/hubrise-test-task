@@ -19,7 +19,7 @@ This page explains how to find the ref codes by either downloading your Lightspe
 
 You can also export your Lightspeed catalog directly into HubRise with iKentoo Bridge.
 Some connected apps offer the ability to import the catalog directly from HubRise, and therefore to autopopulate the ref codes.
-For more details about this feature and its limitations in iKentoo Bridge, see [Pushing The Catalog](#).
+For more details about this feature and its limitations in iKentoo Bridge, see [Pushing the Catalog](/apps/ikentoo-lightspeed/pushing-catalog).
 
 ## Downloading The Catalog In Bulk
 
