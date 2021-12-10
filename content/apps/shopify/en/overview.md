@@ -35,11 +35,13 @@ Connecting Shopify to HubRise allows Shopify to:
 - Pull order status from HubRise into Shopify.
 - Push customer information into HubRise.
 - Pull a product catalog from HubRise.
-- Pull inventory availability from HubRise.
+- Synchronise inventory with HubRise.
 
 ## Why Connect?
 
-Shopify can be connected to HubRise for your website and other apps you use every day to work as a cohesive whole. It could be your EPOS or your preferred marketing solution. Connecting with HubRise allows you to sync your product catalog, your customer and order information. For more information on HubRise, see the [HubRise User Guide](/docs).
+Shopify can be connected to HubRise for your website and other apps you use every day to work as a cohesive whole. It could be your EPOS or your preferred marketing solution. Connecting with HubRise allows you to sync your product catalog, your stock, your customer and order information. 
+
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
