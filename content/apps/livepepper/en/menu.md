@@ -28,22 +28,34 @@ To pull a HubRise catalog into LivePepper:
 
 ---
 
+---
+
+**IMPORTANT NOTE:** LivePepper will not pull a HubRise catalog if a product ref code is missing.
+
+---
+
 In this example, we have removed a product size from LivePepper, and then restored it by pulling the menu from HubRise.
 
-<video controls title="Import HubRise Catalog">
-  <source src="../images/009-import-hubrise-catalog.webm" type="video/webm"/>
-</video>
 
 ## Pushing the Menu
 
-You can push your LivePepper menu to HubRise, if you want to share it with other connected apps.
+You can push your LivePepper menu into HubRise, if you want to share it with other connected apps.
 
-To push your menu to HubRise:
+To push your menu into HubRise:
 
 1. Log in to your LivePepper back office.
 1. Click **My menu** > **Import / Export**.
 1. In the **HubRise** section, click **Export**.
+1. Wait the time needed for the push to finish. It can take a bit of time, especially if you have product photos to transfer with it. 
 
-<video controls title="Export to HubRise Catalog">
-  <source src="../images/006-export-to-hubrise-catalog.webm" type="video/webm"/>
-</video>
+---
+
+**IMPORTANT NOTE:** Pulling a HubRise catalog will replace all your current products in LivePepper. This action cannot be reverted.
+
+---
+
+---
+
+**IMPORTANT NOTE:** If product ref codes are missing on HubRise, LivePepper will create a random product ref codes using product names. 
+
+---
