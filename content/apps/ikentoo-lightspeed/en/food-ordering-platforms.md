@@ -17,13 +17,28 @@ To connect Lightspeed Restaurant (K Series) to Deliveroo, Uber Eats, or Just Eat
 
 By convention, Lightspeed support team uses these predefined codes when they set up the integration. If you configure the Lightspeed back office autonomously, we recommend that you use the same codes, as this simplifies troubleshooting.
 
+For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes](/apps/ikentoo-lightspeed/faqs/create-ref-codes).
+
 ---
 
 **IMPORTANT NOTE:** These codes must be present in your Lightspeed back office and must be included in the configuration page of the food platform bridge.
 
 ---
 
-For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes](/apps/ikentoo-lightspeed/faqs/create-ref-codes).
+If you prefer to let Lightspeed support configure these ref codes for you, make sure to use the following channel names in support tickets to avoid any confusion:
+
+| Platform               | Channel name           |
+| ---------------------- | ---------------------- |
+| Deliveroo              | `Deliveroo`            |
+| Eat.ch                 | `Eat.ch (EAT)`         |
+| Other online platforms | `HUBOLO`               |
+| Just Eat               | `Just Eat (JE)`        |
+| LivePepper             | `LivePepper`           |
+| ObyPay                 | `ObyPay`               |
+| Smood                  | `Smood`                |
+| Takeaway.com           | `Takeaway.com (TA)`    |
+| Thuisbezorgd.nl        | `Thuisbezorgd.nl (TH)` |
+| Uber Eats              | `Uber Eats`            |
 
 ## Deliveroo
 
@@ -43,8 +58,6 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 | Payments      | Deliveroo payment ref code            | `DVPM`            |
 | Payments      | Cash payment ref code                 | (leave empty)     |
 
-If you prefer to let Lightspeed support configure these ref codes for you, ask them to set up the **Deliveroo** channel.
-
 ## Eat.ch
 
 To receive Eat.ch orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
@@ -63,8 +76,6 @@ To correctly receive your orders, specify the following values in the Just Eat T
 | Payments      | Eat.ch payment ref code                  | `EATPM`           |
 | Payments      | Cash payment ref code                    | (leave empty)     |
 
-If you prefer to let Lightspeed support configure these ref codes for you, ask them to set up the **Eat.ch (EAT)** channel.
-
 ## Just Eat
 
 To receive Just Eat orders in Lightspeed, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription.
@@ -81,8 +92,6 @@ To correctly receive your orders, specify the following values in the Just Eat F
 | Charges       | Service charge ref code                  | `JE66`            |
 | Payments      | Just Eat payment ref code                | `JEPM`            |
 | Payments      | Cash payment ref code                    | (leave empty)     |
-
-If you prefer to let Lightspeed support configure these ref codes for you, ask them to set up the **Just Eat (JE)** channel.
 
 ## Takeaway.com
 
@@ -102,8 +111,6 @@ To correctly receive your orders, specify the following values in the Just Eat T
 | Payments      | Takeaway.com payment ref code            | `TAPM`            |
 | Payments      | Cash payment ref code                    | (leave empty)     |
 
-If you prefer to let Lightspeed support configure these ref codes for you, ask them to set up the **Takeaway.com (TA)** channel.
-
 ## Thuisbezorgd.nl
 
 To receive Thuisbezorgd.nl orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
@@ -121,8 +128,6 @@ To correctly receive your orders, specify the following values in the Just Eat T
 | Discounts     | Discount ref code                        | `TH99`            |
 | Payments      | Thuisbezorgd.nl payment ref code         | `THPM`            |
 | Payments      | Cash payment ref code                    | (leave empty)     |
-
-If you prefer to let Lightspeed support configure these ref codes for you, ask them to set up the **Thuisbezorgd.nl (TH)** channel.
 
 ## Uber Eats
 
@@ -145,8 +150,6 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 | Order statuses | Mark the order as Cancelled           | `When HubRise status changes to "Cancelled"`         |
 
 (\*) BYOC - Bring Your Own Courier
-
-If you prefer to let Lightspeed support configure these ref codes for you, ask them to set up the **Uber Eats** channel.
 
 ---
 
