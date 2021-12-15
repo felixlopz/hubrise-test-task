@@ -42,17 +42,17 @@ The following screenshot shows the **Request utensils, straws, etc.** checkbox t
 
 ## Order Statuses
 
-Uber Eats supports the following three order statuses:
+Uber Eats supports three order statuses:
 
-- `accepted`: The order has been accepted by the EPOS.
-- `denied`: The order could not be sent to the EPOS.
-- `cancelled`: The order has been cancelled by the EPOS.
+- `Accepted`: The order has been accepted by the EPOS.
+- `Denied`: The order could not be sent to the EPOS.
+- `Cancelled`: The order has been cancelled by the EPOS.
 
-Uber Eats Bridge lets you decide which HubRise status triggers a certain status on Uber Eats.
-This is useful to handle different scenarios when your EPOS updates the order status.
-For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Uber Eats that the order has been accepted.
+When an order status changes to `rejected` or `cancelled` on HubRise, Uber Eats Bridge notifies Uber Eats that the order is respectively `Denied` or `Cancelled`. 
 
-For every Uber Eats order status, select from the dropdown menu the expected behaviour for your integration. Refer to your connected EPOS documentation on the HubRise website for your EPOS requirements.
+Uber Eats Bridge lets you decide which HubRise status triggers the `Accepted` status on Uber Eats. This is useful to handle different scenarios when your EPOS updates the order status. For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Uber Eats that the order has been accepted.
+
+Select from the dropdown menu the expected behaviour for your integration. Refer to your connected EPOS documentation on the HubRise website for your EPOS requirements.
 
 ## Saving the Configuration
 
