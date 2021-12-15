@@ -388,6 +388,12 @@ content:
           title: Barratio
           description: Barratio digitalises invoices and delivery slips. It tracks invoices discrepancies. The full Barratio suite offers a theoretical inventory and a global overview of your business by analysing purchases, costs per recipe and sales data.
           additional_info: Integration in progress.
+        - website: https://www.inpulse.ai/
+          documentation: /apps/inpulse
+          logo: inpulse.png
+          title: Inpulse
+          description: Inpulse is an AI platform that helps anticipate sales and automate the management of kitchen operations. Improve management of food costs with better stock management and informed procurement. Inpulse answer the needs of restaurants, dark kitchens and franchises.
+          additional_info: Integration in progress.
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
