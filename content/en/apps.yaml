@@ -219,6 +219,12 @@ content:
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
+        - website: https://dishop.co/
+          documentation: /apps/dishop
+          logo: dishop.png
+          title: Dishop
+          description: Dishop offers white labelled online ordering solutions with delivery management for restaurants franchises and dark kitchens. They provide mobile and web applications, as well as connections with independent delivery workers.
+          additional_info:
         - website: https://www.dood.com/
           documentation: /apps/dood
           logo: dood.png
