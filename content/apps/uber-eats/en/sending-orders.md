@@ -45,7 +45,7 @@ Uber Eats Bridge lets you decide which HubRise status triggers the `Accepted` st
 
 Other HubRise status values are not supported and are not sent on Uber Eats.
 
-New orders must be switched to one of the above statuses within 10 minutes. Orders which are still pending after this period of time are automatically cancelled.
+New orders must be switched to one of the above statuses within 10 minutes. Orders which are still pending after this period of time are automatically cancelled by Uber Eats.
 
 The status of an order can only be updated once. Further changes to an order status will be ignored by Uber Eats.
 
