@@ -386,7 +386,7 @@ content:
           logo: smg.png
           title: Service Management Group
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
-    - title: Operations and Inventory Management
+    - title: Operations and Inventory
       apps:
         - website: https://barratio.fr/en
           documentation: /apps/barratio
@@ -398,7 +398,7 @@ content:
           documentation: /apps/foodreport
           logo: foodreport.png
           title: Food Report
-          description: Food Report offers decision support tools for all types of restaurants. With Food Report you can create real-time online reports using your HubRise customer, order and product catalog data.
+          description: Food Report offers decision support tools for all types of restaurants. With Food Report you can create real-time online reports using your HubRise customer, order, and product data.
         - website: https://www.inpulse.ai/
           documentation: /apps/inpulse
           logo: inpulse.png
