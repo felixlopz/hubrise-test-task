@@ -48,7 +48,7 @@ content:
           logo: ikentoo-lightspeed.png
           title: Lightspeed K Series / iKentoo
           description: iKentoo Lightspeed K Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation: /apps/jalia
           logo: jalia.png
@@ -91,13 +91,13 @@ content:
           logo: par-pixelpoint-web-api.png
           title: PixelPoint (web API)
           description: PixelPoint, édité par PAR, intégré via son API web, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
-          additional_info: Documentation en anglais. Intégration par API web.
+          additional_info: Intégration par API web.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-windows-api
           logo: par-pixelpoint.png
           title: PixelPoint (Windows API)
           description: PixelPoint, édité par PAR, intégré via son API Windows, répond aux besoins de la restauration et du divertissement, avec un focus sur la gestion des coûts, la prévention des pertes et la fidélisation.
-          additional_info: Documentation en anglais. Intégration par API Windows, réalisée par Slowey Systems.
+          additional_info: Intégration par API Windows, réalisée par Slowey Systems.
         - website: https://www.pointone-epos.co.uk/
           documentation: /apps/pointone
           logo: pointone.png
@@ -152,7 +152,7 @@ content:
           logo: foodpanda.png
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://www.just-eat.fr/
           documentation: /apps/just-eat-flyt
           logo: just-eat.png
@@ -218,7 +218,7 @@ content:
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://dishop.co/
           documentation: /apps/dishop
           logo: dishop.png
@@ -241,7 +241,7 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://maakyo.com/
           documentation: /apps/maakyo
           logo: maakyo.png
@@ -252,7 +252,7 @@ content:
           logo: my-lemonade.png
           title: My Lemonade
           description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://mynober.nl/en/home-2/
           documentation:
           logo: mynober.png
@@ -287,7 +287,7 @@ content:
           logo: shopify.png
           title: Shopify
           description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://smartresto.net/
           documentation: /apps/smartresto
           logo: smartresto.png
@@ -299,7 +299,7 @@ content:
           logo: smilein.png
           title: smilein
           description: smilein est une solution de commande pour l'hôtellerie et la restauration qui intègre tous les parcours clients. Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://storefactory.y-proximite.fr
           documentation: /apps/store-factory
           logo: storefactory.png
@@ -315,19 +315,19 @@ content:
           logo: tastycloud.png
           title: TastyCloud
           description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
           title: WooCommerce
           description: WooCommerce est une extension WordPress open source pour créer une boutique en ligne. Personnalisable et facile à modifier, elle est utilisée par les petites et les grandes entreprises.
-          additional_info: Documentation en anglais. Intégration en cours.
+          additional_info:
         - website: https://www.zenorder.fr
           documentation: /apps/zenorder
           logo: zenorder.png
           title: Zenorder
           description: Zenorder est une solution de commande en ligne en marque blanche pour les métiers de bouche, couplée à une suite d'outils de marketing et de fidélisation client.
-          additional_info: Intégration en cours.
+          additional_info:
     - title: Gestion de livreurs
       apps:
         - website: http://www.captain.ai
@@ -373,7 +373,7 @@ content:
           logo: dotdigital.png
           title: dotdigital
           description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des campagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
-          additional_info: Documentation en anglais.
+          additional_info:
         - website: https://myemma.com
           documentation:
           logo: emma.png
@@ -398,7 +398,7 @@ content:
           title: Service Management Group
           description: SMG associe la technologie et le service pour collecter et analyser vos données, afin de comprendre les comportements de vos clients et d'agir en conséquence.
           additional_info:
-    - title: Gestion et Inventaire
+    - title: Gestion et inventaire
       apps:
         - website: https://barratio.fr
           documentation: /apps/barratio
@@ -406,6 +406,11 @@ content:
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
           additional_info: Intégration en cours.
+        - website: https://www.foodreport.fr
+          documentation: /apps/foodreport
+          logo: foodreport.png
+          title: Food Report
+          description: Food Report propose des outils d'aide à la décision destinés à la restauration rapide et traditionnelle. Food Report permet de créer des rapports en ligne temps réel, à partir de vos données clients, commandes et catalogues venant de HubRise.
         - website: https://www.inpulse.ai/
           documentation: /apps/inpulse
           logo: inpulse.png
@@ -424,11 +429,6 @@ content:
           logo: expedy-print.png
           title: Expedy Print
           description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 3G/4G, ou Wifi.
-        - website: https://www.foodreport.fr
-          documentation: /apps/foodreport
-          logo: foodreport.png
-          title: FOODREPORT
-          description: FOODREPORT propose des outils d'aide à la décision déstinés à la restauration rapide et traditionnelle. FOODREPORT permet de créer des rapports en ligne temps réel, à partir de vos données clients et commandes venant de HubRise.
         - website:
           documentation: /apps/orderline
           logo: orderline.png
