@@ -23,13 +23,13 @@ app_info:
 
 ## Description
 
-UltimaSOFT offers an EPOS solution adapted to the needs of all types of food stores, including restaurants, takeaways and fast-food outlets, bars, bakeries, butchers, and retail. Their solutions also addresses the needs of hairdressers, beauty institutes, dry cleaners and laundries.
+Since 2014, UltimaSOFT offers an EPOS solution adapted to the needs of all types of food stores, including restaurants, takeaways and fast-food outlets, bars, bakeries, butchers, and retail. Their solutions also address the needs of hairdressers, beauty institutes, dry cleaners and laundries.
 
-UltimaPOS from UltimaSOFT has direct integrations with complementary solutions (e-commerce website, coin mechanism, scale and customer loyalty) to better meet the specific needs of each activity sector it covers.
+UltimaPOS from UltimaSOFT has direct integrations with complementary solutions (e-commerce websites, coin mechanisms, scales, or customer loyalty cards) to better meet the specific needs of each activity sector it covers.
 
-A back office allows you to set up UltimaPOS and analyse your business at any time using statistics and reports. A number of features are available to improve operations management, including an inventory management solution and a delivery management system.
+A back office allows you to set up UltimaPOS and generate statistics and reports at any time. A number of features are available to improve operations management, including an inventory management solution and a delivery management system.
 
-A reseller network manages several thousand users and distributes UltimaPOS in France.
+UltimaPOS is available through a network of resellers in France, that work in proximity of their customer base.
 
 UltimaPOS is NF525 certified, and therefore complies with the January 2018 French "anti-fraud" regulations.
 

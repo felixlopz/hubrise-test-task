@@ -126,7 +126,7 @@ content:
           documentation: /apps/ultimapos
           logo: ultimapos.png
           title: UltimaPOS
-          description: UltimaPOS de UltimaSOFT propose des logiciels d’encaissement et de gestion de point de vente adaptés aux besoins des métiers de la bouche, dont les restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
+          description: UltimaPOS de UltimaSOFT propose des logiciels d’encaissement et de gestion de point de vente adaptés aux besoins des restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
           additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty

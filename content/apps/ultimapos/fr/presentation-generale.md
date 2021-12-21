@@ -23,13 +23,13 @@ app_info:
 
 ## Description
 
-Depuis 2014, UltimaSOFT édite des solutions d’encaissement adaptés aux besoins d'un restaurant, un snack, une boulangerie-pâtisserie, une boucherie, une épicerie ou tout autre commerce de bouche. Mais cela ne s'arrête pas là puisque leur solutions répondent également aux besoins d'un salon de coiffure coiffeur, d'un institut de beauté, d'un pressing ou d'une laverie.
+Depuis 2014, UltimaSOFT édite des solutions d'encaissement adaptées aux besoins des restaurants,  snacks,  boulangeries-pâtisseries,  boucheries, épiceries ou de tout autre commerce de bouche. Leurs solutions répondent également aux besoins des salons de coiffure, instituts de beauté, pressings ou laveries.
 
-Ultima POS de UltimaSOFT est interfacé en direct avec de nombreux services connexes (site marchand, monnayeur, balance, solution de fidélité client) afin de répondre précisément aux besoins de chaque activité.
+UltimaPOS de UltimaSOFT est interfacé en direct avec des services connexes (sites marchands, monnayeurs, balances, ou solutions de fidélité client) pour mieux adresser les besoins de chaque secteur d'activité.
 
-Un back office permet de paramétrer votre système d'encaissement UltimaPOS et d'analyser vos résultats à tout moment à l'aide de statistiques et de rapports. Des fonctionnalités sont disponibles pour une meilleure gestion, dont une solution d'inventaire, d'aide aux achats et à la livraison. 
+Un back office permet de paramétrer le système d'encaissement UltimaPOS, et d'éditer à tout moment statistiques et rapports. Des fonctionnalités d'inventaire, d'aide aux achats et de gestion de livraison, permettent une gestion quotidienne efficace.
 
-Un réseau de revendeur gère plusieurs milliers d’utilisateurs et distribue UltimaPOS pour davantage de proximité avec les utilisateurs.
+UltimaPOS est disponible à travers un réseau de revendeurs en France, en proximité des utilisateurs.
 
 UltimaPOS est certifié NF525, et donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
 
