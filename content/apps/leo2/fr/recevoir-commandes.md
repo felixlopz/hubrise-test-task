@@ -21,6 +21,8 @@ Pour voir la liste des commandes, suivez les étapes suivantes :
 1. Cliquez sur les flèches bleues pour faire défiler les boutons, puis cliquez sur **Leo2Click - Commandes**.
    ![Commandes - Liste des commandes externes](../images/010-fr-leo2-commandes-externes.png)
 
+Si vos commandes HubRise n'arrivent pas dans LEO2, consultez notre FAQ: [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/commandes-non-recues).
+
 ## Détails de la commande
 
 Pour voir les détails d'une commande :
