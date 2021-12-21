@@ -1,6 +1,6 @@
 ---
 title: Pushing The Catalog
-position: 4
+position: 5
 layout: documentation
 meta:
   title: MyOrderBox Connection to HubRise - Pushing The Catalog

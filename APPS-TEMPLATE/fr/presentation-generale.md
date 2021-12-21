@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Solution | HubRise
-  description: Présentation générale de Solution, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Solution, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:
@@ -17,6 +17,7 @@ app_info:
 
 ---
 
+**REMARQUE IMPORTANTE :** Intégration en cours. Une documentation complète sera publiée une fois ce travail terminé.
 **REMARQUE IMPORTANTE :** L'audit de l'intégration est en cours. Une documentation complète sera publiée une fois l'audit terminé.
 **REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
 **REMARQUE IMPORTANTE :** Une documentation complète de cette intégration est en cours de rédaction.

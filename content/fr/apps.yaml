@@ -108,7 +108,7 @@ content:
           documentation: /apps/restaurant-manager
           logo: restaurant-manager.png
           title: Restaurant Manager
-          description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d’établissements de la restauration au bars.
+          description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d'établissements de la restauration au bars.
           additional_info: Intégration par Crystal Mind en cours.
         - website: https://www.sicom.com/
           documentation: /apps/sicom
@@ -219,12 +219,17 @@ content:
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
+        - website: https://www.dood.com/fr/
+          documentation: /apps/dood
+          logo: dood.png
+          title: DOOD
+          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le Click & Collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
         - website: https://www.gonnaorder.com/?lang=fr
           documentation: /apps/gonnaorder
           logo: gonnaorder.png
           title: GonnaOrder
           description: GonnaOrder propose un système de commande en ligne économique, disponible dans 14 pays. Via un site personnalisé et des applications iOS et Android natives, GonnaOrder permet de commander à emporter, en livraison ou à table dans des restaurants, bars, pubs et cafés.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.livepepper.fr
           documentation: /apps/livepepper
           logo: livepepper.png
@@ -264,7 +269,7 @@ content:
           logo: restajet.png
           title: RestaJet
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://restaurant-internet.com
           documentation:
           logo: restaurant-internet.png
@@ -276,24 +281,35 @@ content:
           logo: shopify.png
           title: Shopify
           description: Shopify est une solution e-commerce pour tout type d'activité. Elle offre une expérience utilisateur omnicanale sur le web, les smartphones, les réseaux sociaux, les places de marché et en boutique.
-          additional_info: Documentation en anglais. Intégration en cours.
+          additional_info: Documentation en anglais.
+        - website: https://smartresto.net/
+          documentation: /apps/smartresto
+          logo: smartresto.png
+          title: SmartResto.Net
+          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de click & collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
+          additional_info:
         - website: https://www.smilein.io
           documentation: /apps/smilein
           logo: smilein.png
           title: smilein
-          description: smilein est une solution de commande pour l’hôtellerie et la restauration qui intègre tous les parcours clients. Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
+          description: smilein est une solution de commande pour l'hôtellerie et la restauration qui intègre tous les parcours clients. Son offre multi-sites, multi-stands et panier multi-convives en fait la référence reconnue des chaînes et des food courts.
           additional_info: Intégration en cours.
-        - website: https://www.tastycloud.fr
-          documentation: /apps/tastycloud
-          logo: tastycloud.png
-          title: TastyCloud
-          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click and collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
-          additional_info: Documentation en anglais.
         - website: https://storefactory.y-proximite.fr
           documentation: /apps/store-factory
           logo: storefactory.png
           title: Store Factory
           description: Store Factory est utilisé par les PME et les petits commerçants ayant une connaissance technique limitée pour la création de sites marchand. Le support technique, la maintenance et le conseil en référencement sont assurés par l'éditeur.
+        - website: http://superdigital.fr/
+          documentation: /apps/superdigital
+          logo: superdigital.png
+          title: SuperDigital.fr
+          description: SuperDigital.fr est une solution complète permettant aux restaurateurs de créer un site de commande en ligne en marque blanche. Les restaurateurs peuvent personnaliser leur site de manière autonome depuis le back-office.
+        - website: https://www.tastycloud.fr
+          documentation: /apps/tastycloud
+          logo: tastycloud.png
+          title: TastyCloud
+          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          additional_info: Documentation en anglais.
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
           logo: woocommerce.png
@@ -383,7 +399,13 @@ content:
           logo: barratio.png
           title: Barratio
           description: Barratio dématérialise vos factures ou bons de livraison et traque les erreurs de facturations. La gestion complète du cycle des achats, le calcul de la rentabilité par recette et la remontée de vos ventes, permet d'obtenir un inventaire théorique et une visibilité globale sur votre activité.
-          additional_info:
+          additional_info: Intégration en cours.
+        - website: https://www.inpulse.ai/
+          documentation: /apps/inpulse
+          logo: inpulse.png
+          title: Inpulse
+          description: Inpulse est une solution IA qui permet d'anticiper les ventes et d'améliorer ainsi la gestion des opérations en cuisine et des achats. Inpulse répond aux besoins des restaurants, dark kitchens et corners thématiques.
+          additional_info: Intégration en cours.
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
@@ -396,6 +418,11 @@ content:
           logo: expedy-print.png
           title: Expedy Print
           description: Expedy Print permet d'automatiser l'impression de commandes reçues de sites marchands ou toute autre application web à une ou plusieurs imprimantes en même temps. La connexion se fait par ETHERNET, 3G/4G, ou Wifi.
+        - website: https://www.foodreport.fr
+          documentation: /apps/foodreport
+          logo: foodreport.png
+          title: FOODREPORT
+          description: FOODREPORT propose des outils d'aide à la décision déstinés à la restauration rapide et traditionnelle. FOODREPORT permet de créer des rapports en ligne temps réel, à partir de vos données clients et commandes venant de HubRise.
         - website:
           documentation: /apps/orderline
           logo: orderline.png

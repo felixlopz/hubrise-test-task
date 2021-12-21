@@ -1,6 +1,6 @@
 ---
 title: Order Management
-position: 3
+position: 4
 layout: documentation
 meta:
   title: Order Management | API | HubRise
@@ -352,13 +352,13 @@ Orders of any location of the account:
 
 #### Parameters:
 
-| Name            | Type                                                      | Description                                                                                                                                      |
-| --------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `private_ref`   | string                                                    | Filters results by `private_ref`, for instance: `private_ref=13456`.                                                                             |
-| `status`        | string                                                    | Filters results by `status`, for instance: `status=accepted`.                                                                                    |
-| `created_by`    | string                                                    | Filters results by client name. For instance, `created_by=shopify` only returns the orders placed through this client.                           |
-| `after, before` | [Time](/developers/api/general-concepts/#dates-and-times) | `after` is inclusive, `before` is exclusive. For instance, `after=2020-07-01T00:00&before=2020-07-02T00:00` returns orders placed on 2020-07-01. |
-| `customer_id`   | string                                                    | Returns the orders placed by a customer, for instance: `customer_id=ve343`.                                                                      |
+| Name            | Type                                                      | Description                                                                                                                                                                                         |
+| --------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `private_ref`   | string                                                    | Filters orders by `private_ref`, for instance: `private_ref=13456`.                                                                                                                                 |
+| `status`        | string                                                    | Filters orders by `status`, for instance: `status=accepted`.                                                                                                                                        |
+| `created_by`    | string                                                    | Filters orders by client name. For instance, `created_by=shopify` only returns the orders placed through this client.                                                                               |
+| `after, before` | [Time](/developers/api/general-concepts/#dates-and-times) | Filters orders by creation time. `after` is inclusive, `before` is exclusive. For instance, `after=2020-07-01T00:00:00+02:00&before=2020-07-02T00:00:00+02:00` returns orders placed on 2020-07-01. |
+| `customer_id`   | string                                                    | Returns the orders placed by a customer, for instance: `customer_id=ve343`.                                                                                                                         |
 
 <details>
 
