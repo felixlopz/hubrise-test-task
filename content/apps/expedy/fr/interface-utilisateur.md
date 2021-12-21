@@ -11,9 +11,11 @@ Le back-office de Expedy permet de visualiser et de configurer les paramètres d
 
 ## Statut des dernières impressions
 
-L'imprimante imprime les commandes dès leur réception si elle est sous tension, ou alors met les commandes en attente jusqu'à sa mise sous tension.
+Lorsque votre imprimante est sous tension, les commandes HubRise sont imprimées dès réception, ou selon votre configuration, dès qu'elles passent dans un statut qui déclenche l'impression.
 
-Expedy affiche un graphique permettant de visualiser le volume d'impression en 30 jours, ainsi que les détails des 10 dernières commandes reçues. Pour y accéder, suivez les étapes suivantes :
+Si votre imprimante est hors tension, les commandes sont mises en attente jusqu'à la prochaine mise sous tension.
+
+Expedy permet de visualiser le volume d'impression en 30 jours, ainsi que les détails des 10 dernières commandes reçues. Pour y accéder, suivez les étapes suivantes :
 
 1. Depuis la page d'accueil de votre back-office Expedy, cliquez sur **Imprimantes**.
 1. Cliquez sur le nom de l'imprimante concernée.
@@ -41,7 +43,9 @@ Pour paramétrer ces actions, suivez les étapes suivantes :
 
 ## Paramètres d'impression
 
-Vous pouvez configurer le nom et le logo de votre société en entête des tickets. Vous pouvez également afficher l'adresse complète de votre établissement en pied de page. Pour les configurer, suivez les étapes suivantes :
+Vous pouvez configurer le nom et le logo de votre société en tête des tickets. Vous pouvez également afficher l'adresse complète de votre établissement en pied de page.
+
+Pour configurer la mise en page des tickets, suivez les étapes suivantes :
 
 1. Depuis la page d'accueil de votre back-office Expedy, cliquez sur **Imprimantes**.
 1. Cliquez sur le nom de l'imprimante concernée.

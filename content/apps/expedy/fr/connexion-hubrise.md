@@ -7,35 +7,39 @@ meta:
   description: Étapes pour établir une connexion entre Expedy et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
+---
+
+**REMARQUE IMPORTANTE :** Si vous ne possédez pas encore de compte HubRise, commencez par en ouvrir un sur la [page d'inscription à HubRise](https://manager.hubrise.com/signup). L'inscription ne prend que quelques minutes !
+
+---
+
 ## Connecter Expedy
 
-Pour connecter votre imprimante intelligente Expedy à HubRise, suivez les étapes suivantes :
+Pour connecter votre imprimante Expedy à HubRise, suivez les étapes suivantes :
 
-1. Depuis la page d'accueil de votre back-office Expedy, cliquez sur **Imprimantes**.
+1. Depuis la page d'accueil du back-office Expedy, cliquez sur **Imprimantes**.
 1. Cliquez sur le nom de l'imprimante à connecter.
-1. Faites défiler vers le bas jusqu'à la section **HubRise**.
+1. Défilez vers le bas jusqu'à la section **HubRise**.
    ![Connexion à HubRise - Connecter HubRise](../images/001-fr-expedy-hubrise-deconnecte.png)
 1. Cliquez sur **Cliquez pour connecter cette imprimante à un de vos comptes HubRise**. Vous êtes redirigé vers l'interface HubRise.
 1. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
 1. Cliquez sur **Autoriser**.
+1. La mention **Votre imprimante est connectée à votre compte HubRise** indique le succès de l'opération.
    ![Connexion à HubRise - HubRise connecté](../images/002-fr-expedy-hubrise-connecte.png)
 1. En cas de besoin, l'équipe de support de Expedy peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/expedy/connexion-hubrise#donner-acc-s-au-support-de-expedy).
 
----
-
-**REMARQUE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour finaliser la connexion. Pour créer votre compte HubRise, consultez notre [Guide de prise en main](/docs/getting-started/).
-
----
-
 ## Tester la connexion
 
-Pour tester la connexion entre Expedy et HubRise, utilisez une application connectée au même point de vente HubRise, et capable d'envoyer des commandes vers HubRise. Il peut s'agir par exemple d'une solution de commande en ligne ou de votre logiciel de caisse.
+Pour tester la connexion entre Expedy et HubRise, utilisez une application connectée au même point de vente HubRise pouvant envoyer des commandes vers HubRise. Il peut s'agir par exemple d'une solution de commande en ligne ou de votre logiciel de caisse.
 
-1. Passez une commande depuis l'autre application.
+1. Passez une commande depuis l'application.
+1. Vérifiez que la commande a bien été envoyée vers HubRise. Dans votre espace HubRise, dans le menu latéral, sélectionnez **DONNÉES** > **COMMANDES**. La commande doit apparaître dans la liste des commandes.
 1. Depuis la page d'accueil de votre back-office Expedy, cliquez sur **Imprimantes**.
 1. Cliquez sur le nom de l'imprimante concernée.
 1. Défilez vers le bas jusqu'à la section **10 dernières requêtes API**.
-1. Si la commande n'apparaît pas dans cette section, vérifiez qu'elle a bien été envoyée à HubRise. Pour cela, allez dans votre espace HubRise, dans le menu latéral, sélectionnez **DONNÉES** > **COMMANDES**. Vérifiez que la commande est présente dans la liste des commandes.
+1. La commande doit apparaître dans cette section.
+
+En cas de besoin, l'équipe de support de Expedy peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/expedy/connexion-hubrise#donner-acc-s-au-support-de-expedy).
 
 ## Donner accès au support de Expedy
 
