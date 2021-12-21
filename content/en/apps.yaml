@@ -124,6 +124,12 @@ content:
           title: T.A.L.C Informatique
           description: T.A.L.C Informatique is an EPOS adapted to the needs of restaurants. Its features include multistore management, courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
           additional_info:
+        - website: https://www.ultimapos.fr/
+          documentation: /apps/ultimapos
+          logo: ultimapos.png
+          title: UltimaPOS
+          description: UltimaPOS by UltimaSOFT offers an EPOS and operations management software adapted to the needs of restaurants, bakeries, butchers, and other food outlets as well as grocery stores, beauty institutes, dry cleaners and laundries. A back office can be used to edit settings and view results.
+          additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
           logo: zelty.png
