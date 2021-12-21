@@ -26,7 +26,8 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**:  This documentation is available <Link to="/fr/apps/[SOLUTION]" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**:  This documentation is available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/koust" addLocalePrefix={false}>in French</Link>.
 
 ---
 
@@ -36,7 +37,7 @@ Solution is a Windows / iPad / tablette / etc. EPOS.
 
 ## Integration Features
 
-Connecting [SOLUTION] to HubRise allows your [SOLUTION] to:
+Connecting [SOLUTION] to HubRise allows your EPOS to:
 
 - Push orders into HubRise, including order status.
 - Pull orders from HubRise, including order status.

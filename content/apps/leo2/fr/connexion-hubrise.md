@@ -32,6 +32,7 @@ Pour connecter votre solution d'encaissement LEO2 à HubRise, suivez les étapes
 1. Cliquez sur **Etablir Connexion**.
 1. Cliquez sur **OK**.
    ![Connexion - HubRise connecté](../images/004-fr-leo2-hubrise-connecte.png)
+1. Cochez la case **Lancement automatique du serveur HubRise**.
 1. Cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel LEO2 peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/leo2/connexion-hubrise#donner-acc-s-au-support-de-leo2).
 
