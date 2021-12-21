@@ -223,7 +223,7 @@ content:
           documentation: /apps/dishop
           logo: dishop.png
           title: Dishop
-          description: Dishop propose des solutions de commande en ligne en marque blanche avec gestion de livraison, destinées principalement aux franchises de la restauration et aux dark kitchens. L'offre inclus des applications mobile et web, ainsi que la mise en relation avec des livreurs indépendants.
+          description: Dishop est une solution de commande en ligne et de gestion de  livreurs, destinée principalement aux franchises de restauration et aux dark kitchens. L'offre inclut des applications mobile et web, et la mise en relation avec des livreurs indépendants.
           additional_info:
         - website: https://www.dood.com/fr/
           documentation: /apps/dood

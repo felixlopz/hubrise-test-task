@@ -223,7 +223,7 @@ content:
           documentation: /apps/dishop
           logo: dishop.png
           title: Dishop
-          description: Dishop offers white labelled online ordering solutions with delivery management for restaurants franchises and dark kitchens. They provide mobile and web applications, as well as connections with independent delivery workers.
+          description: Dishop is an online ordering and delivery management solution, mostly intended for chains of restaurants and dark kitchens. Their offer include mobile and web applications, as well as connections with independent delivery workers.
           additional_info:
         - website: https://www.dood.com/
           documentation: /apps/dood
