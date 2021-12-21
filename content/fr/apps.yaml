@@ -219,6 +219,12 @@ content:
           title: AquilaCMS
           description: Aquila CMS est une solution open source, disponible pour l'édition et la création de sites e-commerce. Aquila CMS peut être téléchargé, ou utilisé avec les services de développement et d'hébergement proposés par l'éditeur.
           additional_info: Documentation en anglais.
+        - website: https://dishop.co/
+          documentation: /apps/dishop
+          logo: dishop.png
+          title: Dishop
+          description: Dishop est une solution de commande en ligne et de gestion de  livreurs, destinée principalement aux franchises de restauration et aux dark kitchens. L'offre inclut des applications mobile et web, et la mise en relation avec des livreurs indépendants.
+          additional_info:
         - website: https://www.dood.com/fr/
           documentation: /apps/dood
           logo: dood.png
