@@ -58,6 +58,12 @@ For every `sku` object in a product, Just Eat Flyt Bridge pulls the following in
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
 
+---
+
+**IMPORTANT NOTE:** Products without a ref code are not pushed to Just Eat. For more information, see [Why Are Some Products Not Exported](/apps/just-eat-flyt/faqs/products-not-exported/).
+
+---
+
 ### Product Tags
 
 The table below lists the tags that can be set on products.
