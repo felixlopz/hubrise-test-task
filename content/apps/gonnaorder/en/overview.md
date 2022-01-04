@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Overview | GonnaOrder | HubRise
-  description: GonnaOrder overview, reasons for connecting Gonnaorder to HubRise and summary of integrated features. Synchronise data between Gonnaorder your EPOS and other apps.
+  description: GonnaOrder overview, reasons for connecting GonnaOrder to HubRise and summary of integrated features. Synchronise data between GonnaOrder, your EPOS and other apps.
 gallery:
 path_override: /
 app_info:
@@ -15,19 +15,13 @@ app_info:
   contact: https://www.gonnaorder.com/contact
 ---
 
----
-
-**IMPORTANT NOTE:** Full documentation of this integration will be available soon.
-
----
-
 ## Description
 
 GonnaOrder is an online ordering solution for restaurants. It supports on-site, takeaway and delivery orders.
 
 GonnaOrder provides a back office to edit the menu, attach photos to products, highlight dishes of the day, and translate product descriptions into more than 80 languages. It can also be used to view orders, and inform customers of their order's real-time status.
 
-For on-site orders, customers scan a QR code on their table to open the menu on their smartphone, and then order. There is no app to install.
+For on-site orders, customers scan a QR code at their table to open the menu on their smartphone, and then order. There is no app to install.
 
 ## Integration features
 
