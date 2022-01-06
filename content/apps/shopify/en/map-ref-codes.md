@@ -9,6 +9,8 @@ meta:
 
 Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, you need to make sure that each product on Shopify is assigned to the correct ref code.
 
+This page explains how to configure ref codes manually in Shopify. Some EPOS solutions however offer the ability to export their catalog to HubRise, allowing you to populate Shopify products automatically with the correct ref codes. For more details, see [Pulling the Catalog](/apps/shopify/pulling-catalog).
+
 To assign ref codes to your Shopify products, follow these steps:
 
 1. Log in to your Shopify back office.

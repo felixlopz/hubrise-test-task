@@ -34,7 +34,7 @@ LivePepper supports different types of optional changes to the products, called 
 The following table provides an overview all these features.
 
 | Name       | Description                                                                  | Level Definition     | Example                                               |
-|------------|------------------------------------------------------------------------------|----------------------|-------------------------------------------------------|
+| ---------- | ---------------------------------------------------------------------------- | -------------------- | ----------------------------------------------------- |
 | Variant    | Different choice of a product                                                | Category and Product | Choosing a pizza with thin crust or hand tossed crust |
 | Topping    | Ingredients not available by default that customers can add to their product | Category             | Adding mushrooms to a pizza                           |
 | Ingredient | An ingredient present by default that can be removed from the product        | Product              | Removing the pickles from a cheeseburger              |
