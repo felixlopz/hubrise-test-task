@@ -111,9 +111,9 @@ If no callback has been set, the response will be as follows:
 }
 ```
 
-### 1.2. Create Callback
+### 1.2. Create or Update Callback
 
-Creates a callback for the connection.
+Creates a callback if none exists, replace the existing callback otherwise.
 
 <CallSummaryTable
   endpoint="POST /callback"
