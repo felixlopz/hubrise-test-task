@@ -34,7 +34,7 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les codes ref suivan
 | Frais               | Code ref surcharge                                | Créer un article `Surcharge` dans UltimaPOS et utiliser son identifiant.          |
 | Paiements           | Code ref paiement sur Deliveroo                   | Créer un règlement `Deliveroo` dans UltimaPOS et utiliser son identifiant.        |
 | Paiements           | Code ref paiement en espèces                      | (laisser vide)                                                                    |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `dès qu'elles sont envoyées à HubRise`                                            |
+| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                                     |
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Deliveroo Bridge](/apps/deliveroo/configuration).
 
@@ -52,7 +52,7 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivan
 | Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans UltimaPOS et utiliser son code ref.        |
 | Remises             | Code ref remise                                   | Créer une promotion `Uber Eats` dans UltimaPOS et utiliser son identifiant. |
 | Paiements           | Code ref paiement                                 | Créer un règlement `Uber Eats` dans UltimaPOS et utiliser son identifiant.  |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `dès qu'elles sont envoyées à HubRise`                                      |
+| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                               |
 | Menu                | Activer les notes de préparation sur les articles | Cocher la case                                                              |
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
@@ -73,6 +73,6 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les codes re
 | Frais               | Code ref frais de livraison                           | Créer un article `Frais de livraison` dans UltimaPOS et utiliser son identifiant. |
 | Paiements           | Code ref paiement en ligne                            | Créer un règlement `Just Eat` dans UltimaPOS et utiliser son identifiant.         |
 | Paiements           | Code ref paiement en espèces                          | (laisser vide)                                                                    |
-| Statuts de commande | Marquer les commandes comme Acceptées                 | `dès qu'elles sont envoyées à HubRise`                                            |
+| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"`                                     |
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Just Eat Takeaway Bridge](/apps/just-eat-takeaway/configuration).
