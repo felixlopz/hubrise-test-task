@@ -394,6 +394,11 @@ content:
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
           additional_info: Documentation in French.
+        - website: https://www.somm-it.com/
+          documentation: /apps/somm-it
+          logo: somm-it.png
+          title: SOMM’IT
+          description: SOMM'IT helps you manage drinks with custom wine list editing and stock management which updates automatically as sales are registered online or in the restaurant. SOMM'IT facilitates staff training, and includes a dematerialised procurement system.  
     - title: Other Apps
       apps:
         - website: https://www.expedy.fr

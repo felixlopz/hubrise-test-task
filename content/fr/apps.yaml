@@ -405,6 +405,11 @@ content:
           logo: koust.png
           title: Koust
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
+        - website: https://www.somm-it.com/
+          documentation: /apps/somm-it
+          logo: somm-it.png
+          title: SOMM’IT
+          description: SOMM'IT vous accompagne dans la gestion de vos boissons avec édition de cartes des vins et gestion des stocks automatiquement mis à jour au fur et à mesure des ventes en ligne et en salle. SOMM'IT facilite la formation du personnel, et inclut un système d'aide à l'achat dématérialisé.
     - title: Autres applications
       apps:
         - website: https://www.expedy.fr
