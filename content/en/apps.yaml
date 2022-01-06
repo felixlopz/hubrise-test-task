@@ -421,7 +421,7 @@ content:
           documentation: /apps/somm-it
           logo: somm-it.png
           title: SOMM’IT
-          description: SOMM'IT helps you manage drinks with custom wine list editing and stock management which updates automatically as sales are registered online or in the restaurant. SOMM'IT facilitates staff training, and includes a dematerialised procurement system.  
+          description: SOMM'IT helps you manage your wine list. Sync your inventory with your EPOS to keep your wine list up to date. SOMM'IT includes a large wine library, and a dematerialised procurement system.
     - title: Other Apps
       apps:
         - website: https://www.expedy.fr
