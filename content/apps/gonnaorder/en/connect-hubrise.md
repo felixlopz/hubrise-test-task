@@ -48,7 +48,7 @@ To give GonnaOrder support access to your location, follow these steps.
 1. If you have multiple accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/arrow-icon.jpg)</InlineImage> next to **Account** to select the appropriate account.
 1. From your HubRise back office, select **CONFIGURATION**. 
 1. From the **Usage** section, select the location connected to GonnaOrder from the **Location** column.
-1. In the **Permissions** section, add *hubrise@gonnaorder.com* to the list, and select **Manager** from the dropdown menu.
+1. In the **Permissions** section, add *support@gonnaorder.com* to the list, and select **Manager** from the dropdown menu.
 1. Click on the **+** plus icon to confirm.
 
 ---
