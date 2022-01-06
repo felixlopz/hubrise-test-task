@@ -1,6 +1,6 @@
 ---
 title: Sending Orders
-position: 5
+position: 7
 layout: documentation
 meta:
   title: Sending Orders | WooCommerce | HubRise
