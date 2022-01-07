@@ -7,8 +7,7 @@ meta:
   description: Find out the technical details of how orders are sent from WooCommerce to HubRise, which fields are passed and which are not.
 ---
 
-Connecting WooCommerce to HubRise allows you to receive WooCommerce orders directly in your EPOS.
-This page describes the information that HubRise receives from WooCommerce for your orders.
+Connecting WooCommerce to HubRise allows you to receive WooCommerce orders directly in your EPOS. This page describes the information that HubRise receives from WooCommerce for your orders.
 
 ## Items and Options
 
