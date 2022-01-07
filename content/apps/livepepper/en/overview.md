@@ -41,7 +41,7 @@ From the back office they can:
 - Add new payment methods.
 - Change many other settings to best fit their needs.
 
-Finally, customers can contract Livepepper to manually populate their catalog's ref codes by contacting their Livepepper support representative.
+Finally, customers can contract LivePepper to manually populate their catalog's ref codes by contacting their LivePepper support representative.
 
 ## Integration Features
 

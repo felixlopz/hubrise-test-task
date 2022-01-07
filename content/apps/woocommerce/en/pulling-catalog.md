@@ -1,6 +1,6 @@
 ---
 title: Pulling The Catalog
-position: 6
+position: 5
 layout: documentation
 meta:
   title: Pulling The Catalog | WooCommerce | HubRise
