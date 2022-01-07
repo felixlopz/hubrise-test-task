@@ -27,8 +27,7 @@ Once your catalog is populated on HubRise, you can publish it on your WooCommerc
 1. From the WooCommerce Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
 1. On the configuration page, from the **Actions** section at the bottom of the page, select **Push the catalog to WooCommerce**.
 
-Note that WooCommerce Bridge creates new products or updates existing ones, but never deletes existing items from your WooCommerce catalog.
-If you select the checkbox **Update prices of existing products** in the Configuration page, WooCommerce Bridge will update the price of your WooCommerce products whenever this is different from the price of the corresponding HubRise product.
+Note that WooCommerce Bridge creates new products or updates existing ones, but never deletes existing items from your WooCommerce catalog. If you select the checkbox **Update prices of existing products** in the Configuration page, WooCommerce Bridge will update the price of your WooCommerce products whenever this is different from the price of the corresponding HubRise product.
 
 ## Technical Reference
 
