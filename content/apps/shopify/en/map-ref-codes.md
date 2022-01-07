@@ -17,7 +17,7 @@ To assign ref codes to your Shopify products, follow these steps:
 1. From the menu, select **Products** > **All products**.
 1. From the list of products, select the product for which you want to add the ref code.
 1. In the **Inventory** section, enter the ref code in the **SKU (Stock Keeping Unit)** field.
- 
+
    ![Entering the ref code in the SKU field for a Shopify product](../images/005-en-shopify-map-ref-codes.png)
 
 1. Click **Save** to confirm.

@@ -38,7 +38,7 @@ By default, you must keep your tablet on to be able to receive orders, even if y
 You can decide to automatically cancel orders that cannot be sent to your EPOS by enabling the **auto-cancel** feature.
 Your customers will be notified whenever their order is cancelled.
 
---- 
+---
 
 **IMPORTANT NOTE:** If you enable RD-optional, Uber Eats recommends to enable auto-cancel, too.
 

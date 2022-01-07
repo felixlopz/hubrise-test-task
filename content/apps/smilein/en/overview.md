@@ -44,7 +44,7 @@ smilein can be connected to HubRise via the smilein support line.
 
 ## Why connect?
 
-By connecting smilein to HubRise, orders placed on your website are sent to your POS solution or any other solution integrated in HubRise. 
+By connecting smilein to HubRise, orders placed on your website are sent to your POS solution or any other solution integrated in HubRise.
 
 Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 

@@ -39,7 +39,8 @@ These are typically associated with specific ref codes in your EPOS, which you c
 
 ## Customer Details
 
-The customer's details provided by Just Eat depend on the service type for the order. 
+The customer's details provided by Just Eat depend on the service type for the order.
+
 - For orders delivered by the restaurant, Just Eat sends the full customer details, including name and address.
 - For pick-up orders, only the name is provided.
 - For orders delivered by Just Eat, only the driver's information is provided.
@@ -52,7 +53,7 @@ Discounts are not supported on Just Eat, and no information is provided in the A
 
 Just Eat Flyt Bridge encodes two types of charges: Delivery charge, and service surcharge.
 
---- 
+---
 
 ## Technical Reference
 
@@ -60,7 +61,7 @@ This section describes how orders are encoded in the JSON payloads you receive f
 
 ### Just Eat Order ID
 
-When a new order is created on HubRise, the Just Eat order ID is stored in the `collection_code` field. 
+When a new order is created on HubRise, the Just Eat order ID is stored in the `collection_code` field.
 This is the order reference ID that the customer sees on the platform.
 
 ### Items Encoding
@@ -103,7 +104,7 @@ Below is a sample payload containing a single item with an option.
         "price": "0.35 EUR"
       }
     ]
-  } 
+  }
 ]
 ```
 
@@ -147,6 +148,7 @@ Below is a sample payload with customer details.
     "longitude": "-3.190822"
   }
 ```
+
 </details>
 
 ### Delivery Charges
@@ -162,7 +164,7 @@ The available fields in the payloads are the following:
 
 ### Just Eat Surcharge
 
-Just Eat applies a fixed surcharge to all the orders. 
+Just Eat applies a fixed surcharge to all the orders.
 
 The available fields in the payloads are the following:
 

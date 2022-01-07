@@ -3,7 +3,7 @@ title: Sending Orders
 position: 8
 layout: documentation
 meta:
-  title: Sending Orders | Shopify | HubRise 
+  title: Sending Orders | Shopify | HubRise
   description: Find out the technical details of how orders are sent from Shopify to HubRise, which fields are passed and which are not.
 ---
 
@@ -27,13 +27,13 @@ Shopify Bridge supports only delivery orders.
 ## Customer Details
 
 Shopify provides full customer's details for all orders.
-Shopify Bridge creates a customer in HubRise every time you receive an order from a new customer, and the customer's details are reused or updated in the following orders. 
+Shopify Bridge creates a customer in HubRise every time you receive an order from a new customer, and the customer's details are reused or updated in the following orders.
 
 ## Discounts and Charges
 
 Shopify Bridge sends to HubRise information about discounts and delivery charges, if present.
 
---- 
+---
 
 ## Technical Reference
 

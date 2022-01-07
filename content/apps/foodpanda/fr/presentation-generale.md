@@ -22,7 +22,6 @@ app_info:
 
 ---
 
-
 ## Description
 
 foodpanda est une plateforme de commande et de livraison de repas en ligne qui fait partie du réseau Delivery Hero. L'entreprise est présente dans plusieurs pays d'Asie, ainsi qu'en Bulgarie et en Roumanie.

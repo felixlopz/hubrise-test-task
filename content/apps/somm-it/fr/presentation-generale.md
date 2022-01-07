@@ -33,7 +33,7 @@ SOMM'IT lie votre inventaire à votre caisse et à vos solutions de commande en 
 
 Un accès direct à l'indice LIV-EX vous permettra d'optimiser votre immobilisation et d'ajuster le prix de vente, au verre ou en bouteille. Cet indicateur de prix du marché facilite la valorisation de votre stock.
 
-SOMM'IT permet aussi de minimiser l'impact de la rotation du personnel, grâce à l'historique des inventaires, aux cartes des vins précieusement archivées, et aux plus de 100 000 références validées par les meilleurs sommeliers. 
+SOMM'IT permet aussi de minimiser l'impact de la rotation du personnel, grâce à l'historique des inventaires, aux cartes des vins précieusement archivées, et aux plus de 100 000 références validées par les meilleurs sommeliers.
 
 ## Fonctionnalités de l'intégration
 
