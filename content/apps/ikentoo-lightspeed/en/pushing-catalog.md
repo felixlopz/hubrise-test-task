@@ -31,7 +31,7 @@ The following sections provide more details on how your Lightspeed catalog is ma
 
 ### Categories
 
-The categories in the Lightspeed catalog are mapped one-to-one to categories of products on HubRise. 
+The categories in the Lightspeed catalog are mapped one-to-one to categories of products on HubRise.
 
 The category name is sent to HubRise, while category ref code and descriptions are not supported on Lightspeed.
 
@@ -68,6 +68,7 @@ The following sections provide technical details on how your Lightspeed catalog 
 ### Categories
 
 For every category, the following fields are sent to HubRise:
+
 - `name`: The name of the category.
 - `ref`: A sequential numerical number is generated automatically for every category.
 
@@ -75,12 +76,12 @@ For every category, the following fields are sent to HubRise:
 
 For every sku, Lightspeed sends the following information to HubRise:
 
-- `name`: The name of the sku.             
+- `name`: The name of the sku.
 - `description`: The description of the sku.
 - `image_ids`: The list of image IDs associated with the sku.
 - `skus`: A list containing a single sku.
-  - `skus[0].ref`: The ref code of the sku, which will be passed along in orders.  
-  - `skus[0].price`: The price of the sku.            
+  - `skus[0].ref`: The ref code of the sku, which will be passed along in orders.
+  - `skus[0].price`: The price of the sku.
   - `skus[0].option_list_refs`: The list of options attached to the sku.
 
 ### Options

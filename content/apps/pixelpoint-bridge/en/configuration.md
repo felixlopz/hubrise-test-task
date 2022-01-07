@@ -43,6 +43,7 @@ Discounts that lack a ref code are not sent to your PixelPoint EPOS. PixelPoint 
 ---
 
 If you both specify a default ref code and select the checkbox, PixelPoint Bridge will perform the following actions.
+
 - When it receives an order containing a discount without a ref code, it will first try to match the discount name with the discounts available in your EPOS.
 - If a match is found, PixelPoint Bridge will send the discount with the correct ref code to your EPOS.
 - If a match is not found, PixelPoint Bridge will send the discount with the default ref code that you specified, instead.

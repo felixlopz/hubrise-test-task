@@ -13,7 +13,7 @@ meta:
 
 ---
 
-Lightspeed expects all incoming orders to contain specific ref codes for each sku, option, deal, discount, charge, service type, and payment present. You must ensure that all connected apps use the correct ref codes if you want your orders to be correctly processed. 
+Lightspeed expects all incoming orders to contain specific ref codes for each sku, option, deal, discount, charge, service type, and payment present. You must ensure that all connected apps use the correct ref codes if you want your orders to be correctly processed.
 
 This page explains how to find the ref codes by either downloading your Lightspeed catalog in bulk, or by checking individual items in the back office.
 
@@ -32,8 +32,8 @@ To download the Lightspeed catalog, follow these steps.
 1. ![Export button in the items page of the Lightspeed back office](../images/006-en-lightspeed-export-items.png)
 1. In the popup window, choose your operating system type: Mac or Windows (or Manual configuration), then click **Export**.
    ![Choosing the operating system when exporting the catalog in Lightspeed](../images/007-en-lightspeed-system-choice.png)
-2. After the export is complete, select **Click here to download the exported file** to download the CSV file with your menu.
-  ![Download items CSV](../images/008-en-2x-lightspeed-download-csv.png)
+1. After the export is complete, select **Click here to download the exported file** to download the CSV file with your menu.
+   ![Download items CSV](../images/008-en-2x-lightspeed-download-csv.png)
 
 To check the ref codes for the items, you can open the downloaded CSV file in Excel or a text editor. The ref codes appear under the **SKU** column.
 
@@ -47,7 +47,7 @@ To find the ref codes for specific skus and options, follow these steps.
 
 1. From the top menu in your Lightspeed back office, select **Configuration**, then **Items** > **Items**.
 1. The ref codes for skus and options appear under the **Code** column.
-  ![](../images/009-en-lightspeed-skus-options-codes.png)
+   ![](../images/009-en-lightspeed-skus-options-codes.png)
 
 You can then copy the codes in the connected app. For detailed instructions, follow the documentation for the connected app in the HubRise website.
 
@@ -65,11 +65,11 @@ Service types are called _account profiles_ on Lightspeed. To find the ref code 
 To find the ref code for a specific discount, follow these steps.
 
 1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Discounts**.
-2. For each discount, you can find the corresponding ref code under the **Code** column.
+1. For each discount, you can find the corresponding ref code under the **Code** column.
 
 ### Payment Methods
 
 To find the ref code for a payment method, follow these steps.
 
 1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Payment methods**.
-2. For each payment method available under the **Name** column, you can find the corresponding ref code under the **Code** column.
+1. For each payment method available under the **Name** column, you can find the corresponding ref code under the **Code** column.

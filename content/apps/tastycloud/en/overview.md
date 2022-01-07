@@ -22,7 +22,7 @@ TastyCloud is an online ordering solution intended for French restaurateurs.
 
 TastyCloud includes a back office that can be used to create and edit a menu with descriptions and images, customise the payment journey, configure the store's business hours, translate the menu in up to 25 languages of your choice, access the list of customers and track sales.
 
-Customers can consult the restaurant's menu from their table via a QR code, or order online via the website. 
+Customers can consult the restaurant's menu from their table via a QR code, or order online via the website.
 
 The restaurateur can set up delivery and click & collect systems.
 
@@ -30,7 +30,7 @@ The restaurateur can set up delivery and click & collect systems.
 
 Once connected to HubRise, TastyCloud can be used to:
 
-- Push orders into HubRise,  including order statuses.
+- Push orders into HubRise, including order statuses.
 - Push customer information into HubRise.
 - Pull the menu from a HubRise catalog.
 

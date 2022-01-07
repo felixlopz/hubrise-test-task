@@ -4,8 +4,9 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Expedy | HubRise
-  description: Présentation générale de Expedy, les raisons de connecter votre imprimante intelligente à HubRise et fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Expedy, les raisons de connecter votre imprimante connectée à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
+  - __gallery-001.png
 path_override: /
 app_info:
   category: Autres applications
@@ -15,19 +16,15 @@ app_info:
   contact: commercial@expedy.fr
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-
----
-
 ## Description
 
 Expedy propose des imprimantes thermiques connectées aux restaurateurs et aux commerces de proximité.
 
-Les imprimantes Expedy se connectent sur le réseau internet de l'établissement, et fonctionnent de manière autonome. La configuration et la connexion à des applications externes sont paramétrables depuis un back-office.
+Les imprimantes Expedy permettent d'imprimer les tickets de caisse de manière autonome, ainsi que les commandes reçues depuis un site marchand ou les plateformes de livraison de repas. Elles confirment aux solutions connectées l'impression sans encombre du ticket, et sont ainsi en mesure de changer le statut de la commande.
 
-Les imprimantes Expedy permettent d'imprimer les tickets de caisse, ainsi que les commandes reçues depuis un site marchand ou les plateformes de livraison de repas.
+Les imprimantes Expedy se connectent sur le réseau internet de l'établissement via le réseau WiFi ou Ethernet, ou au réseau téléphonique mobile avec une clé 4G. La configuration et la connexion aux applications externes se paramètrent depuis un back-office.
+
+Si vous souhaitez conserver votre imprimante existante, Expedy propose le module Expedy PrintBox, compatible avec les imprimantes ESC/POS (Epson, Star, Brother, Toshiba, Zebra...). Ce module rend votre imprimante connectée, avec des fonctionnalités similaires aux imprimantes Expedy.
 
 ## Fonctionnalités de l'intégration
 

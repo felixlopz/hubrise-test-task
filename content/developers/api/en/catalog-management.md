@@ -1118,8 +1118,8 @@ Images can be attached to products and deals, via their `image_ids` fields.
 Images must be uploaded before catalog data, since the images' `id`s must be passed in the products and deals. Upload sequence is as follows:
 
 1. create an empty catalog: `POST /catalogs` or reuse an existing catalog
-2. upload images: `POST /catalogs/:catalog_id/images`
-3. upload catalog data: `PUT /catalogs/:catalog_id`
+1. upload images: `POST /catalogs/:catalog_id/images`
+1. upload catalog data: `PUT /catalogs/:catalog_id`
 
 There is no endpoint to delete an image: when an image is left unattached for 30 days in a row, it is automatically removed.
 

@@ -43,10 +43,9 @@ La connexion de Shopify à HubRise permet à Shopify de :
 - Recevoir un catalogue de produits de HubRise.
 - Synchroniser l'inventaire avec HubRise.
 
-
 ## Pourquoi se connecter ?
 
-Shopify peut être connecté à HubRise afin que votre site Internet et les autres applications que vous utilisez au quotidien fonctionnent comme un tout cohérent. Il peut s'agir de votre solution d'encaissement ou de marketing préférée. La connexion à HubRise vous permet de synchroniser votre catalogue de produits, vos stocks, vos clients et les informations relatives à vos commandes. 
+Shopify peut être connecté à HubRise afin que votre site Internet et les autres applications que vous utilisez au quotidien fonctionnent comme un tout cohérent. Il peut s'agir de votre solution d'encaissement ou de marketing préférée. La connexion à HubRise vous permet de synchroniser votre catalogue de produits, vos stocks, vos clients et les informations relatives à vos commandes.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 

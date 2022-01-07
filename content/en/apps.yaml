@@ -25,7 +25,7 @@ content:
           logo: carrepos.png
           title: Carré POS
           description: Carré POS is a Point of Sales designed for fast ordering. It adapts to all types of businesses, including restaurants, bakeries, local stores, boutiques, hairdressers, and florists.
-          additional_info: Documentation in French.
+          additional_info:
         - website: https://www.epostechnologies.co.uk/
           documentation: /apps/epos-technologies
           logo: epostechnologies.png
@@ -60,7 +60,7 @@ content:
           logo: kezia.png
           title: Kezia II by JDC
           description: Kezia II by JDC offers the qualities sought by a traditional EPOS. It adapts to all types of businesses and offers multi-site, logistics, inventory, purchasing, loyalty, statistics and team management functions.
-          additional_info: Documentation in French.
+          additional_info:
         - website: http://www.leo2.co.uk/
           documentation: /apps/leo2
           logo: leo2.png
@@ -82,7 +82,7 @@ content:
           logo: nestor.png
           title: Nestor
           description: Nestor is a French Point of Sales solution designed for home delivery and takeaway restaurants.
-          additional_info: Documentation in French.
+          additional_info:
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png
@@ -123,6 +123,12 @@ content:
           logo: talc.png
           title: T.A.L.C Informatique
           description: T.A.L.C Informatique is an EPOS adapted to the needs of restaurants. Its features include multistore management, courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
+          additional_info:
+        - website: https://www.ultimapos.fr/
+          documentation: /apps/ultimapos
+          logo: ultimapos.png
+          title: UltimaPOS
+          description: UltimaPOS by UltimaSOFT offers an EPOS and operations management software adapted to the needs of restaurants, bakeries, butchers, and other food outlets as well as grocery stores, beauty institutes, dry cleaners and laundries. A back office can be used to edit settings and view results.
           additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
@@ -219,6 +225,12 @@ content:
           logo: aquila-cms.png
           title: AquilaCMS
           description: Aquila CMS is an open source solution used to create and edit e-commerce websites. Aquila CMS can be downloaded, or used as a hosted solution with development services provided by the editor.
+        - website: https://dishop.co/
+          documentation: /apps/dishop
+          logo: dishop.png
+          title: Dishop
+          description: Dishop is an online ordering and delivery management solution, mostly intended for chains of restaurants and dark kitchens. Their offer include mobile and web applications, as well as connections with independent delivery workers.
+          additional_info:
         - website: https://www.dood.com/
           documentation: /apps/dood
           logo: dood.png
@@ -289,7 +301,7 @@ content:
           logo: smilein.png
           title: smilein
           description: smilein is an ordering solution for hotels and restaurants that cares for all customer journeys. Their multi-site, multi-stand and multi-guest basket offer makes it the recognised benchmark for chains and food courts.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://storefactory.y-proximite.fr
           documentation: /apps/store-factory
           logo: storefactory.png
@@ -310,13 +322,13 @@ content:
           logo: woocommerce.png
           title: WooCommerce
           description: WooCommerce is an open-source e-commerce plugin for WordPress. Customisable and developer friendly, it is used by small to large businesses.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.zenorder.fr
           documentation: /apps/zenorder
           logo: zenorder.png
           title: Zenorder
           description: Zenorder is a white label online ordering solution for the food industry, coupled with a suite of marketing and customer loyalty tools.
-          additional_info: Integration in progress.
+          additional_info:
     - title: Delivery Management
       apps:
         - website: http://www.captain.ai
@@ -380,7 +392,7 @@ content:
           logo: smg.png
           title: Service Management Group
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
-    - title: Inventory Management
+    - title: Operations and Inventory
       apps:
         - website: https://barratio.fr/en
           documentation: /apps/barratio
@@ -388,6 +400,11 @@ content:
           title: Barratio
           description: Barratio digitalises invoices and delivery slips. It tracks invoices discrepancies. The full Barratio suite offers a theoretical inventory and a global overview of your business by analysing purchases, costs per recipe and sales data.
           additional_info: Integration in progress.
+        - website: https://www.foodreport.fr
+          documentation: /apps/foodreport
+          logo: foodreport.png
+          title: Food Report
+          description: Food Report offers decision support tools for all types of restaurants. With Food Report you can create real-time online reports using your HubRise customer, order, and product data.
         - website: https://www.inpulse.ai/
           documentation: /apps/inpulse
           logo: inpulse.png
@@ -400,6 +417,11 @@ content:
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
           additional_info: Documentation in French.
+        - website: https://www.somm-it.com/
+          documentation: /apps/somm-it
+          logo: somm-it.png
+          title: SOMM’IT
+          description: SOMM'IT helps you manage your wine list. Sync your inventory with your EPOS to keep your wine list up to date. SOMM'IT includes a large wine library, and a dematerialised procurement system.
     - title: Other Apps
       apps:
         - website: https://www.expedy.fr
@@ -407,11 +429,6 @@ content:
           logo: expedy-print.png
           title: Expedy Print
           description: Expedy Print is used to automate printing of orders received from e-commerce websites or any other web application to one or more printers simultaneously. Connection can be done by ETHERNET, 3G/4G or Wifi.
-        - website: https://www.foodreport.fr
-          documentation: /apps/foodreport
-          logo: foodreport.png
-          title: FOODREPORT
-          description: FOODREPORT offers decision support tools for all types of restaurants. With FOODREPORT you can create real-time online reports from your HubRise customer and order data.
         - website:
           documentation: /apps/orderline
           logo: orderline.png

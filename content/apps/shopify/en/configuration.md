@@ -15,7 +15,7 @@ These are divided into different sections for an easier navigation.
 ## Catalog
 
 To update your Shopify catalog every time this is updated on HubRise, select the checkbox in this section.
-Only new products in the HubRise catalog will be sent to Shopify. The Bridge does not update existing Shopify products. 
+Only new products in the HubRise catalog will be sent to Shopify. The Bridge does not update existing Shopify products.
 
 ## Order Statuses
 

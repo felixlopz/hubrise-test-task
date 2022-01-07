@@ -14,7 +14,7 @@ app_info:
   contact: support@slowey.ie
 ---
 
-[comment]: # 'include screenshots of the HubRise Bridge'
+[comment]: # "include screenshots of the HubRise Bridge"
 
 ## Description
 
@@ -47,6 +47,6 @@ To establish a successful connection with your PAR PixelPoint EPOS, PixelPoint W
 - Pixel SQLbase
 - Pixel License Manager
 
-[comment]: # 'Windows OS: Probably Win10? Check with John'
+[comment]: # "Windows OS: Probably Win10? Check with John"
 
 PixelPoint Windows API also requires another server, managed by Slowey Systems, which is necessary to establish the connection between HubRise and the store server.

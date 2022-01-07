@@ -3,7 +3,7 @@ title: Sending Orders
 position: 8
 layout: documentation
 meta:
-  title: Sending Orders | Just Eat Takeaway | HubRise 
+  title: Sending Orders | Just Eat Takeaway | HubRise
   description: Find out the technical details of how orders are sent from Just Eat Takeaway to HubRise, which fields are passed and which are not.
 ---
 
@@ -37,14 +37,14 @@ These are typically associated with specific ref codes in your EPOS, which you c
 
 ## Customer Details
 
-Full customer's details are provided by Just Eat Takeaway for all orders, regardless of the service type. 
+Full customer's details are provided by Just Eat Takeaway for all orders, regardless of the service type.
 Email address is never provided by Just Eat Takeaway, so this field is always missing on HubRise.
 
 ## Discounts and Charges
 
 In the order, you can find information about Just Eat Takeaway discounts and delivery charges, if present.
 
---- 
+---
 
 ## Technical Reference
 
@@ -52,7 +52,7 @@ This section describes how orders are encoded in the JSON payloads you receive f
 
 ### Just Eat Takeaway Order ID
 
-When a new order is created on HubRise, the Just Eat Takeaway order ID is stored in the `collection_code` field. 
+When a new order is created on HubRise, the Just Eat Takeaway order ID is stored in the `collection_code` field.
 This is the order reference ID that the customer sees on the platform.
 
 ### Supported Order Statuses
@@ -61,10 +61,10 @@ Just Eat Takeaway Bridge creates new orders with status `new`.
 
 The following status updates automatically trigger a request from Just Eat Takeaway Bridge to the platform:
 
-- `in_preparation`: The order is being prepared in the kitchen.               
-- `in_delivery`: The order is out for delivery.                             
-- `completed`: The order has been collected or delivered.                               
-- `rejected`, `cancelled`, `delivery_failed`: There was a problem with the order. The request body contains information about the error. 
+- `in_preparation`: The order is being prepared in the kitchen.
+- `in_delivery`: The order is out for delivery.
+- `completed`: The order has been collected or delivered.
+- `rejected`, `cancelled`, `delivery_failed`: There was a problem with the order. The request body contains information about the error.
 
 Other HubRise status updates are not supported and do not trigger any request to Just Eat Takeaway.
 
@@ -132,7 +132,7 @@ Below is a sample payload containing a single item with multiple options.
 
 Just Eat Takeaway Bridge always includes the customer's details in the `customer` object.
 
-The customer's name is provided as a single field by Just Eat Takeaway. 
+The customer's name is provided as a single field by Just Eat Takeaway.
 The `first_name` and `last_name` fields are created on HubRise by splitting the full name by the first space character.
 
 Just Eat Takeaway Bridge receives the following information from Just Eat about the customer's address, if available in the original payload:
@@ -190,7 +190,7 @@ Below is a sample payload for discounts.
 
 ### Delivery Charges
 
-Delivery charges are applied for orders delivered by the restaurant. 
+Delivery charges are applied for orders delivered by the restaurant.
 Just Eat Takeaway Bridge encodes this information in the `charges` array.
 
 The available fields in the payloads are the following:
