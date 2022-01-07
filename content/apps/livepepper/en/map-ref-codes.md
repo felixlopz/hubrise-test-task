@@ -19,9 +19,9 @@ Products can have different ref codes depending on the different skus available.
 To update the ref code for each sku, follow these steps.
 
 1. From your LivePepper back office, select **Products** under **My Menu**.
-2. Select the product to update.
-3. For each sku in the **Price & Availability** section, update the ref code under the **POS code** column.
-4. Click **Save** to confirm.
+1. Select the product to update.
+1. For each sku in the **Price & Availability** section, update the ref code under the **POS code** column.
+1. Click **Save** to confirm.
 
 ![Mapping ref codes for skus](../images/001-en-livepepper-skus-ref-codes.png)
 
@@ -45,8 +45,8 @@ To update the ref code for ingredients or variants defined at the product-level,
 1. Select the product.
 1. From the **Customization** section, select the item you want to update.
 1. If the ingredient or variant is used in other products and they share the same ref code, you can update the ref code everywhere with these additional steps.
-   1. From the **Quick Copy** section, select whether the change applies to **All menu** items or to all products in a category.
-   1. Select **Use POS codes above**.
+   - From the **Quick Copy** section, select whether the change applies to **All menu** items or to all products in a category.
+   - Select **Use POS codes above**.
 1. Click **Save** to confirm.
 
 To update the ref code for toppings, options, and variants defined at the category-level, follow these steps.
@@ -54,8 +54,8 @@ To update the ref code for toppings, options, and variants defined at the catego
 1. Select the category.
 1. From the **Customization** section, select the item you want to update.
 1. If the item is used in other products and they share the same ref code, you can update the ref code everywhere with these additional steps
-   1. From the **Quick Copy** section, select whether the change applies to **All menu** items or to all products in a category.
-   1. Select **Use POS codes above**.
+   - From the **Quick Copy** section, select whether the change applies to **All menu** items or to all products in a category.
+   - Select **Use POS codes above**.
 1. Click **Save** to confirm.
 
 At the end of the process you can check if all product values and attributes have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-product-mapping).
