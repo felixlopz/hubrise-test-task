@@ -23,7 +23,6 @@ app_info:
 
 ---
 
-
 ## Description
 
 Mailchimp est une plateforme d'automatisation marketing tout‑en‑un destinée aux petites entreprises.

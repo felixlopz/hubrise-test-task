@@ -13,6 +13,7 @@ This page describes the information that is passed by Deliveroo Bridge for the o
 ## Items and Options
 
 For items and options, Deliveroo provides either the ref code or the name, but never both at the same time.
+
 - If you specify the item or option ref code in your Deliveroo back office, Deliveroo API will only send this information to HubRise.
 - If you do not specify the item or option ref code in your Deliveroo back office, Deliveroo API will send the item or option name to HubRise, instead.
 
@@ -58,7 +59,7 @@ When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and
 - `in_preparation`: The order is in the kitchen.
 - `awaiting_collection`: The order is ready for pickup by the customer or the rider.
 - `completed`: The order has been collected by the customer or the rider.
-- `rejected`: The order could not be sent to the EPOS. 
+- `rejected`: The order could not be sent to the EPOS.
 - `cancelled`: Same as rejected.
 
 Other HubRise status values are not supported and are not sent on Deliveroo.

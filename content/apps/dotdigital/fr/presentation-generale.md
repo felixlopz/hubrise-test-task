@@ -20,7 +20,6 @@ app_info:
 
 ---
 
-
 ## Description
 
 dotdigital est une solution omnicanal de gestion de la clientèle et du marketing.

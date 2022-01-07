@@ -19,20 +19,14 @@ To assign ref codes to your WooCommerce products, follow these steps:
 1. From the menu, select **Products** > **All products**.
 1. From the list of products, find the product for which you want to add the ref code, and click **Edit**.
 1. If the product has no variations, follow these instructions:
-
-   1. Open the **Inventory** tab.
-   1. Enter the HubRise SKU ref code in the **SKU** field.
-
-      ![Entering the ref code in the SKU field for a WooCommerce product](../images/008-en-woocommerce-product-ref-code.png)
-
+   - Open the **Inventory** tab.
+   - Enter the HubRise SKU ref code in the **SKU** field.
+     ![Entering the ref code in the SKU field for a WooCommerce product](../images/008-en-woocommerce-product-ref-code.png)
 1. Otherwise, if the product uses variations, follow these instructions:
-
-   1. Open the **Variations** tab.
-   1. Click on the desired variation to expand the form.
-   1. Enter the HubRise SKU ref code in the **SKU** field.
-
-      ![Entering the ref code in the SKU field for a WooCommerce variation](../images/09-en-woocommerce-variation-ref-code.png)
-
+   - Open the **Variations** tab.
+   - Click on the desired variation to expand the form.
+   - Enter the HubRise SKU ref code in the **SKU** field.
+     ![Entering the ref code in the SKU field for a WooCommerce variation](../images/09-en-woocommerce-variation-ref-code.png)
 1. Click **Update** to confirm.
 
 You will need to repeat this manual procedure for all your available products.

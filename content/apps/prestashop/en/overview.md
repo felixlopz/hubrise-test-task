@@ -14,7 +14,6 @@ app_info:
   contact: https://www.prestashop.com/en/contact
 ---
 
-
 ---
 
 **IMPORTANT NOTE**: The integration is in progress. Full documentation will be published once the integration is complete.
