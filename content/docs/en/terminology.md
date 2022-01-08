@@ -23,3 +23,10 @@ For more information, see [Accounts](/docs/account/) and [Locations](/docs/locat
 ![Accounts and Locations example](../images/046-en-2x-accounts-locations.png)
 
 A User Profile can have access to multiple Accounts. On the other hand, different User Profiles can have access to the same Account with different permission levels. For more information, see [Permissions](/docs/permissions/).
+
+## Billing Cycles
+
+Billing Cycles are always a month in duration, and start on the same calendar day as the Account is created.
+
+For example, if you open your HubRise account on March 17, your Billing Cycle goes from that day to April 16.
+The next billing date is April 17, and you will always be billed on the 17th of every following month.

@@ -7,17 +7,19 @@ meta:
   description: How to manage payments and quotes on HubRise.
 ---
 
-Credit card payments can be set and tracked in the **SETTINGS** > **ACCOUNTS** > **Payment** section. Accounts with paid plans must have a credit card set as the payment method, or else the plan will not be processed. All payments will be debited in EUR, even if the Account currency setting is different.
+Credit card payments can be set and tracked in the **SETTINGS** > **Payment** section.
+Accounts with paid plans must have a credit card set as the payment method, or else the plan will not be processed.
+All payments will be debited in EUR, even if the Account currency setting is different.
 
 ## Account or Location Payment
 
-For Accounts with multiple Locations, we recommend you set the Account to pay for all plans. It means one payment method to update and one invoice to manage for all your Locations.
+For Accounts with multiple Locations, we recommend that you set the Account to pay for all plans. It means one payment method to update and one invoice to manage for all your Locations.
 
 Locations can be set to their own payment method rather than using the Account. This may be required for specific billing purposes or other business needs.
 
 To change whether your Location uses your HubRise Account payment method, or whether the Location will use a separate payment method, follow these steps:
 
-1. Go to **SETTINGS** > **ACCOUNTS**.
+1. Go to **SETTINGS**.
 2. For users with multiple Accounts, select the Account containing the specific Location.
 3. Click the Location to update.
 4. Under **Payment**:

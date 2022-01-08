@@ -17,4 +17,4 @@ If the payment method is not set two weeks after the first email alert is sent, 
 
 If you know that you will have more transactions than the current plan provides, you can upgrade the plan before being notified. The upgraded plan will not begin until your Account exceeds the free quota limitation, even if you have selected the upgraded tier level and set your payment method.
 
-For More information, see [Usage](/docs/usage-plan/).
+For more information, see [Usage](/docs/usage-plan/).

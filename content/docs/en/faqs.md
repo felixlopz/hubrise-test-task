@@ -8,6 +8,8 @@ meta:
 ---
 
 - <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">What Happens If My Free Plan Quota Is Exceeded?</Link>
+- <Link to="/docs/faqs/pay-first-invoice/">How Do I Pay For My First Invoice?</Link>
+- <Link to="/docs/faqs/reactivate-suspended-account/">How Do I Reactivate A Suspended Account?</Link>
 - <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">My Quota is Exceeded and I Have One Location. How do I Pay?</Link>
 - <Link to="/docs/faqs/quota-exceeded-multiple-locations-how-do-i-pay/">My Quota is Exceeded and I Have Multiple Locations, How Do I Pay?</Link>
 - <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">My Quota is Exceeded and I Have Multiple Locations with Different Payment Methods. How do I Pay?</Link>
@@ -20,3 +22,4 @@ meta:
 - <Link to="/docs/faqs/create-a-user-profile-for-another-person/">How Do I Create a User Profile for Another Person?</Link>
 - <Link to="/docs/faqs/create-an-account-for-another-business/">How Do I Create an Account for Another Business?</Link>
 - <Link to="/docs/faqs/connect-multiple-instances-same-app/">How Do I Connect Multiple Instances of the Same App?</Link>
+- <Link to="/docs/faqs/stop-paying-subscription/">How Do I Stop Paying For My Subscription?</Link>

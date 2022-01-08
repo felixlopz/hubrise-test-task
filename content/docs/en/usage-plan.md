@@ -7,7 +7,7 @@ meta:
   description: How to manage HubRise Usage and Plans.
 ---
 
-The **SETTINGS** > **ACCOUNTS** > **Usage** section displays the number of orders and customers that have been processed through HubRise in the current billing cycle. Billing cycles are always a month in duration, and starts on the same calendar day as the Account is created. It also shows the HubRise fee related to each of the Locations on your Account.
+The **SETTINGS** > **ACCOUNTS** > **Usage** section displays the number of orders and customers that have been processed through HubRise in the current [billing cycle](/docs/terminology#billing-cycles). It also shows the HubRise fee related to each of the Locations on your Account.
 
 To view Usage details for an Account or Location:
 
@@ -19,7 +19,7 @@ To view Usage details for an Account or Location:
 
 HubRise provides both free and paid plans for its services. For complete information on plans and pricing, see the [HubRise Price Page](/pricing/).
 
-Free plans are available for Locations with a limited number of transactions a month.Once this limit is reached, you must upgrade to the paid tier to continue service. When the free plan limit is reached, all Admin users for the Account and the specific Location will be notified.
+Free plans are available for Locations with a limited number of transactions a month. Once this limit is reached, you must upgrade to the paid tier to continue service. When the free plan limit is reached, all Admin users for the Account and the specific Location will be notified.
 
 If you know that you will have more than the free plan quota allows, you can set the plan to the paid tier before being notified. The plan will not begin until the free quota limit is surpassed, even if you have selected the paid tier level and set your payment method.
 
