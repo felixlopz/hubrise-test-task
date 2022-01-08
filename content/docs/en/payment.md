@@ -11,52 +11,69 @@ Credit card payments can be set and tracked in the **SETTINGS** > **Payment** se
 Accounts with paid plans must have a credit card set as the payment method, or else the plan will not be processed.
 All payments will be debited in EUR, even if the Account currency setting is different.
 
-## Account or Location Payment
+## Account or Location Payments
 
-For Accounts with multiple Locations, we recommend that you set the Account to pay for all plans. It means one payment method to update and one invoice to manage for all your Locations.
+You can pay your HubRise subscription at the Account-level, or at the Location-level.
 
-Locations can be set to their own payment method rather than using the Account. This may be required for specific billing purposes or other business needs.
+Account-level payments are the default and preferred choice. If you have multiple Locations, you can set up a single payment method and manage a single invoice for all your Locations at once.
 
-To change whether your Location uses your HubRise Account payment method, or whether the Location will use a separate payment method, follow these steps:
+However, if you have specific billing requirements or other business needs, you can set up a different payment method at the Location-level.
+
+### Switching To Location-level Payment
+
+To set up a Location-level payment for a specific Location, follow these steps:
+
+1. If you have multiple Accounts, select the **Account** containing the specific Location.
+1. Select the Location from the **Location** list.
+1. Go to **SETTINGS**.
+1. Under **Payment**, click **Make the location pay**.
+   ![Switch to Location-level payment](../images/071-en-make-location-pay.png)
+
+### Switching To Account-level Payment
+
+To set up an Account-level payment for a specific Location, follow these steps:
+
+1. If you have multiple Accounts, select the **Account** containing the specific Location.
+1. Select the Location from the **Location** list.
+1. Go to **SETTINGS**.
+1. Under **Payment**, click **Make the account pay the subscription**.
+   ![Switch to Location-level payment](../images/072-en-make-account-pay.png)
+
+The Location billing cycle will match the Account billing cycle.
+If the current billing date for the Location is different from that of the Account, the following situations can happen:
+
+- If the Location next billing date is before the Account next billing date, you immediately receive a prorated charge to align the Location next billing date to the Account's.
+- If the Location next billing date is after the Account next billing date, nothing changes until the Account next billing date. At that point, you receive a prorated charge and the Location next billing date aligns with the Account's.
+
+## Update a Payment Method
+
+To add or update a payment method at the Account-level, follow these steps:
 
 1. Go to **SETTINGS**.
-2. For users with multiple Accounts, select the Account containing the specific Location.
-3. Click the Location to update.
-4. Under **Payment**:
-   1. To set a location that uses its own payment method to use the same payment method as its Account, click **Make the account pay for the subscription**.
-   2. If the location uses the same payment method as the Account and you want it to have a separate payment method, click click **Make the location pay for it**.
-
-<video controls title="Payment by Account or Location example">
-  <source src="../images/042-en-settings-payment-byaccount-bylocation.webm" type="video/webm"/>
-</video>
-
-## Add a Payment Method
-
-To add a payment method for an Account or Location:
-
-1. Go to **SETTINGS** > **ACCOUNTS**.
-
-- To update the payment method for an Account, select the Account and scroll down to the Payment section.
-- To update the payment method for a Location, select the Account, then select the Location, and scroll down to the Payment section.
-
+1. If you have multiple Accounts, select the **Account**, then scroll down to the **Payment** section.
+   ![Add payment method at the Account-level](../images/073-en-add-account-payment.png)
 2. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
 3. Enter your credit card information. Credit cards must be valid to be accepted.
 4. When finished, click **Save**.
 
-<video controls title="Add payment type"><source src="../images/040-en-settings-payment-add-payment-type.webm" type="video/webm"/></video>
+To add or update a payment method at the Location-level, follow these steps:
+
+1. Go to **SETTINGS**.
+1. If you have multiple Accounts, select the **Account** containing the specific Location.
+1. Select the Location from the **Location** list, then scroll down to the **Payment** section.
+   ![Add payment method at the Location-level](../images/072-en-make-account-pay.png)
+2. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
+3. Enter your credit card information. Credit cards must be valid to be accepted.
+4. When finished, click **Save**.
 
 ## Process Pending Quotes
 
-When a plan has been changed, the payment must be authorized before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Usage Plans](/docs/usage-plan/#usage-plans).
+When you change your plan, the payment must be authorized before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Usage Plans](/docs/usage-plan/#usage-plans).
 
 To process a payment from the notification:
 
 1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
-2. Click **View the earliest quote **link, then click **Pay**. To check on all unpaid quotes, click **check your account** from the notification.
-
-<video controls title="Pay subscription example">
-  <source src="../images/041-en-process-pending-quotes.webm" type="video/webm"/>
-</video>
+2. Click **View the earliest quote**, then click **Pay**. To check on all unpaid quotes, click **Check your account** from the notification.
 
 ---
 
@@ -66,7 +83,8 @@ To process a payment from the notification:
 
 ## Payment History
 
-Payments made to HubRise are listed in the **SETTINGS** > **ACCOUNTS** > **Payment** > **Payment history** link. Payments are listed in reverse historical order, with the most recent payments displayed first.
+To view your payments history, go to **SETTINGS**, then under **Payment**, click on **Payment history**.
+Payments are listed in reverse historical order, with the most recent payments displayed first.
 
 Select **Payment history** to display all payments made for the selected HubRise Account or Location. Each payment will display:
 
