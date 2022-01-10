@@ -18,6 +18,7 @@ app_info:
 ---
 
 **REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/gonnaorder" addLocalePrefix={false}>en anglais uniquement</Link>.
+
 ---
 
 ## Description
