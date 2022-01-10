@@ -44,7 +44,7 @@ Stuart peut être connecté à HubRise depuis le back-office de HubRise.
 
 ## Pourquoi se connecter ?
 
-En connectant Stuart à HubRise, vous permettez à votre solution de gestion de livreurs de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution de gestion de livreurs.
+En connectant Stuart à HubRise, vous permettez à votre solution de gestion de livreurs de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, des plateformes de livraison de repas, ou de votre solutions d'encaissement sur votre solution de gestion de livreurs.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
