@@ -46,22 +46,41 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 
 ## Order Statuses
 
-A Deliveroo order goes through several statuses during its lifecycle.
+A Deliveroo order goes through several statuses during its lifecycle:
 
-Changes to the order status originating from Deliveroo are reflected in HubRise in the following way:
+- `Succeeded`: The order has been accepted by the EPOS, and is confirmed on Deliveroo.
+- `Failed`: The order could not be sent to the EPOS. Deliveroo sends a message to the Deliveroo tablet prompting staff to check their POS for the order, and enter manually into the till if needed.
+- `In Kitchen`: Cooking has started.
+- `Ready for Collection`: Food is cooked and packaged.
+- `Collected`: The order has been collected.
 
-- New orders are created on HubRise with status `new`.
-- When an order is cancelled on Deliveroo, it is automatically marked as `cancelled` on HubRise.
+New orders must be marked as `Succeeded` or `Failed` within 3 minutes, otherwise Deliveroo automatically marks them as `Failed`.
 
-When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the tablet. The supported status values are the following:
+---
 
-- `accepted`: The order has been accepted by the EPOS, and is confirmed on Deliveroo.
-- `in_preparation`: The order is in the kitchen.
-- `awaiting_collection` or `awaiting_shipment`: The order is ready for pickup by the customer or the rider.
-- `completed`: The order has been collected by the customer or the rider.
-- `rejected` or `cancelled`: The order could not be sent to the EPOS.
+**IMPORTANT NOTE:** Switching an order status to `Succeeded` or `Failed` is not reversible. Once an order is marked as `Failed`, it can no longer be changed to `Succeeded`, and vice-versa.
+
+---
+
+### Change the status of an order in Deliveroo
+
+When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the Deliveroo tablet. The correspondence between HubRise and Deliveroo statuses is as follows:
+
+| HubRise status                               | Deliveroo status                                                           |
+| -------------------------------------------- | -------------------------------------------------------------------------- |
+| `new`, `received` or `accepted`              | You can configure which one of these statuses makes the order `Succeeded`. |
+| `rejected` or `cancelled`                    | `Failed`                                                                   |
+| `in_preparation`                             | `In Kitchen`                                                               |
+| `awaiting_collection` or `awaiting_shipment` | `Ready for Collection`                                                     |
+| `completed`                                  | `Collected`                                                                |
+
+Deliveroo Bridge lets you decide which HubRise status triggers the `Succeeded` status on Deliveroo. This is useful to handle different scenarios when your EPOS updates the order status. For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Deliveroo that the order has been accepted.
 
 Other HubRise status values are not supported and are not sent on Deliveroo.
+
+### Change the status of an order in HubRise
+
+When an order is cancelled from the Deliveroo tablet, it is marked as `cancelled` on HubRise.
 
 ## Service Types
 
