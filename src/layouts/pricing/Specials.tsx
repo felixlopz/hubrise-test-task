@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import { ISpecial } from "./interface"
+import { Highlight, Paragraph } from "./Styles"
 
 import { generateKey } from "@utils/misc"
 import Link from "@layouts/shared/components/Link"
@@ -16,26 +17,29 @@ const Specials = ({ specials }: SpecialsProps): JSX.Element => {
   return (
     <>
       {specials.map((special, idx) => (
-        <div key={generateKey(special.paragraph_chunk_1, idx)} className="section__description">
-          <b>{special.paragraph_chunk_1}</b>
-          {special.paragraph_chunk_2}
-          {` `}
-          {special.link && special.link.to ? (
-            <Link className="section__description-link" to={special.link.to} newTab={false}>
-              {special.link.text}
-            </Link>
-          ) : (
-            <button
-              className="section__description-link"
-              data-open="contact-us"
-              aria-controls="contact-us"
-              aria-haspopup="true"
-              tabIndex={0}
-              onClick={forms.contact.toggle}
-            >
-              {special.button}
-            </button>
-          )}
+        <div key={generateKey(special.highlight, idx)} className="section__description">
+          <Paragraph>
+            <Highlight>{special.highlight}</Highlight>
+
+            {special.text}
+
+            {special.link && special.link.to ? (
+              <Link className="section__description-link" to={special.link.to} newTab={false}>
+                {special.link.text}
+              </Link>
+            ) : (
+              <button
+                className="section__description-link"
+                data-open="contact-us"
+                aria-controls="contact-us"
+                aria-haspopup="true"
+                tabIndex={0}
+                onClick={forms.contact.toggle}
+              >
+                {special.button}
+              </button>
+            )}
+          </Paragraph>
         </div>
       ))}
     </>

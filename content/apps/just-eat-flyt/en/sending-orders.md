@@ -18,14 +18,30 @@ Customers' comments on single products are not supported on Just Eat. If you rel
 
 ## Order Statuses
 
-New Just Eat orders are created on HubRise with status `new`.
+Just Eat orders can be marked as:
 
-When an order status changes on HubRise, Just Eat Flyt Bridge notifies Just Eat, and the change can be seen by the customer. The following status updates on HubRise automatically trigger a request to Just Eat.
+- `Successful`: The order has been accepted by the EPOS.
+- `Failed`: The order could not be sent to the EPOS.
 
-- When the status changes to `accepted` or `received`: The Bridge sends an "order successful" request to Just Eat, and the order is confirmed on the platform.
-- When the status changes to `rejected` or `cancelled`: The Bridge sends an "order failed" request to Just Eat, and the order is cancelled on the platform.
+New orders must be marked as `Successful` or `Failed` within 3 minutes, otherwise Just Eat automatically marks them as `Failed`.
 
-Other HubRise status updates are not supported and do not trigger any request to Just Eat.
+---
+
+**IMPORTANT NOTE:** You can only update the status of an order once. Further changes are ignored by Just Eat.
+
+---
+
+### Change the status of an order in Just Eat
+
+When the status of an order changes to `rejected` or `cancelled` in HubRise, Just Eat Bridge notifies Just Eat that the order is `Failed`.
+
+Just Eat Bridge lets you decide which HubRise status triggers the `Successful` status on Just Eat. This is useful to handle different scenarios when your EPOS updates the order status. For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Just Eat that the order has been accepted.
+
+Other HubRise status values are not supported and are not sent to Just Eat.
+
+### Change the status of an order in HubRise
+
+Just Eat Bridge does not change order statuses in HubRise.
 
 ## Service Types
 
@@ -39,7 +55,8 @@ These are typically associated with specific ref codes in your EPOS, which you c
 
 ## Customer Details
 
-The customer's details provided by Just Eat depend on the service type for the order. 
+The customer's details provided by Just Eat depend on the service type for the order.
+
 - For orders delivered by the restaurant, Just Eat sends the full customer details, including name and address.
 - For pick-up orders, only the name is provided.
 - For orders delivered by Just Eat, only the driver's information is provided.
@@ -52,7 +69,7 @@ Discounts are not supported on Just Eat, and no information is provided in the A
 
 Just Eat Flyt Bridge encodes two types of charges: Delivery charge, and service surcharge.
 
---- 
+---
 
 ## Technical Reference
 
@@ -60,7 +77,7 @@ This section describes how orders are encoded in the JSON payloads you receive f
 
 ### Just Eat Order ID
 
-When a new order is created on HubRise, the Just Eat order ID is stored in the `collection_code` field. 
+When a new order is created on HubRise, the Just Eat order ID is stored in the `collection_code` field.
 This is the order reference ID that the customer sees on the platform.
 
 ### Items Encoding
@@ -103,7 +120,7 @@ Below is a sample payload containing a single item with an option.
         "price": "0.35 EUR"
       }
     ]
-  } 
+  }
 ]
 ```
 
@@ -147,6 +164,7 @@ Below is a sample payload with customer details.
     "longitude": "-3.190822"
   }
 ```
+
 </details>
 
 ### Delivery Charges
@@ -162,7 +180,7 @@ The available fields in the payloads are the following:
 
 ### Just Eat Surcharge
 
-Just Eat applies a fixed surcharge to all the orders. 
+Just Eat applies a fixed surcharge to all the orders.
 
 The available fields in the payloads are the following:
 

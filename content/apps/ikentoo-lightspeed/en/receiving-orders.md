@@ -25,7 +25,7 @@ Every item on Lightspeed must have a ref code. Orders containing items with inco
 
 ## Order Statuses
 
-TODO
+To be done
 
 ## Payments
 
@@ -55,5 +55,6 @@ To check the ref codes of the service types available in your Lightspeed back of
 iKentoo Bridge sends to Lightspeed the complete customer information, when available, including name, email address, and delivery address.
 
 When customer information is not available, iKentoo Bridge creates an anonymous customer with these details:
+
 - First name: `Anonymous`.
 - Email address: `anonymous@ikentoo.com`.
