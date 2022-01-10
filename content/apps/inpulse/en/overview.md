@@ -20,4 +20,3 @@ app_info:
 **IMPORTANT NOTE**: This documentation is available <Link to="/fr/apps/inpulse" addLocalePrefix={false}>in French only</Link>. The integration is in progress. Full documentation will be published once the integration is complete.
 
 ---
-

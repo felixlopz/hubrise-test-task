@@ -14,7 +14,6 @@ path_override: /
 
 ---
 
-
 ## Description
 
 Koust is an application for restaurateurs to manage costs and inventory. Koust is designed for all types of food establishments, from independent restaurants to chains and collective catering outlets.
@@ -36,11 +35,10 @@ When connected with HubRise, Koust can be used to:
 
 ## Why connect?
 
-By connecting Koust to HubRise, you can manage purchases and sales from your EPOS, your website and your other applications. You can also manage your stocks and inventories, and synchronise your catalog and your orders. 
+By connecting Koust to HubRise, you can manage purchases and sales from your EPOS, your website and your other applications. You can also manage your stocks and inventories, and synchronise your catalog and your orders.
 
 Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, inventory management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
 You must have a Koust account to establish a connection between Koust and HubRise. To create your Koust account, visit https://koustapp.com.
-

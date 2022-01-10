@@ -262,7 +262,7 @@ Typical uses:
 
 The following custom fields can be attached to an order:
 
- | Custom field           | Encoding         | Description                                                                                  |
+| Custom field           | Encoding         | Description                                                                                  |
 | ---------------------- | ---------------- | -------------------------------------------------------------------------------------------- |
 | `epos.order_id`        | `string`         | Order identifier on the EPOS.                                                                |
 | `epos.rejection`       | (see&nbsp;below) | Information about an order rejection. Can only be present if the order status is `rejected`. |

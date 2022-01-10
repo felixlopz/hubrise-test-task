@@ -50,6 +50,6 @@ To push your menu into HubRise:
 1. Click **My menu** > **Import / Export**.
 1. In the **HubRise** section, click **Export**.
 
-The export can take a bit of time, especially if your menu contains pictures. 
+The export can take a bit of time, especially if your menu contains pictures.
 
 If some ref codes are missing in your menu, LivePepper will generate unique ref codes using product or option names.

@@ -18,6 +18,16 @@ For example, to connect Deliveroo:
 - If you operate a single Deliveroo account, use `DLO` as the service type ref code
 - If you operate multiple Deliveroo accounts, look up the virtual brand id for the account you need to connect in MyOrderBox. If the id is `123456789`, the service type ref code you need to enter is `DLO_123456789`.
 
+To find a virtual brand id:
+
+1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
+1. Check that no store is selected in the store selector dropdown at the top. If a store is selected, click on the cross icon to unselect. If you cannot unselect the store, check that you have account manager permissions.
+1. From the navigation menu, select **Management** > **Menu** > **Virtual Brands** > **Products**.
+1. Open the **Virtual brand** dropdown.
+1. The virtual brand id is the number next to the brand name, after the **-** character.
+
+![Finding virtual brand id in MyOrderBox back office](../images/006-en-find-virtual-brand-ids.png)
+
 ## Deliveroo
 
 To receive Deliveroo orders in MyOrderBox, you first need to connect Deliveroo Bridge, an app included in your HubRise
