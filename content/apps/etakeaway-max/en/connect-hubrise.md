@@ -7,8 +7,6 @@ meta:
   description: Instructions on connecting eTakeaway Max with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-Connecting eTakeaway Max to HubRise can be done with a few simple steps.
-
 ---
 
 **IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
@@ -17,9 +15,12 @@ Connecting eTakeaway Max to HubRise can be done with a few simple steps.
 
 ## Enable HubRise on eTakeaway Max
 
-As a first step, you need to contact eTakeaway Max support team to activate the HubRise module in your eTakeaway Max platform.
-Include [support@hubrise.com](mailto:support@hubrise.com) in the email recipients and add the following information in your email:
+To enable HubRise on your eTakeaway Max EPOS, you need to contact eTakeaway Max support team. Include [support@hubrise.com](mailto:support@hubrise.com) in the email recipients.
 
-- The HubRise location ID that you want to connect to eTakeaway Max.
+If you have already created your HubRise account, include your HubRise location ID in your email. Otherwise, eTakeaway Max will create a HubRise account for you and provide you with the required credentials to connect.
 
-With this information in hand, eTakeaway Max will enable the HubRise integration for your store and provide you with the required credentials to connect.
+## Connect Other Apps
+
+Once the HubRise integration is enabled, you can connect other apps, such as Deliveroo, Uber Eats, or Just Eat. To see which apps you can connect, check our [Apps](/apps) page.
+
+If you need support, contact the eTakeaway Max team.
