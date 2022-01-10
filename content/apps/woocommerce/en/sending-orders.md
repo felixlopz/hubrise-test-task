@@ -11,7 +11,7 @@ Connecting WooCommerce to HubRise allows you to receive WooCommerce orders direc
 
 ## Items and Options
 
-WooCommerce orders contain the complete information about items and options, including name, POS ref code, quantity, and price. Deals, however, are not supported on WooCommerce.
+WooCommerce orders contain the complete information about items and options, including name, POS ref code, quantity, and price. However, WooCommerce options have always zero as a price. Deals are not supported.
 
 Customers' comments on single products are not supported on WooCommerce. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the WooCommerce menu, so that they are correctly encoded.
 
@@ -47,16 +47,32 @@ Conversely, order status changes in HubRise trigger a status change in WooCommer
 
 ## Service Types
 
-WooCommerce supports two service types:
+In the default WooCommerce installation, the service type is always `delivery`. To support additional service types, you need to customise your WooCommerce installation to include this value in the order metadata.
 
-- Delivery
-- Customer collection
+---
 
-[comment]: # "TODO"
+**Related FAQ**: <Link to="/apps/woocommerce/faqs/encode-custom-metadata/">How Can I Encode Custom Metadata In An Order?</Link>
+
+---
 
 ## Customer Details
 
 WooCommerce Bridge provides full customer information about orders, including name, delivery address, and contact details, and saves it in HubRise.
+
+## Payments
+
+WooCommerce supports four types of payments in an order:
+
+- Cash on delivery
+- Check
+- Direct bank transfer
+- PayPal standard
+
+---
+
+**IMPORTANT NOTE**: Payment ref codes will soon be customisable from the configuration page. For more information, [contact HubRise support](mailto:support@hubrise.com).
+
+---
 
 ## Discounts
 
@@ -175,6 +191,6 @@ The available fields in the payload are the following:
 
 ## Custom Fields
 
-The `custom_fields` object is used by WooCommerce Bridge to store additional information not provided by default by the WooCommerce API.
+The `custom_fields` object is used by WooCommerce Bridge to store the metadata that WooCommerce sends in the order. This information is not provided by default by the WooCommerce API, but the actual format depends on the installed plugins and code customisation made on the website.
 
-[comment]: # "TODO"
+For example, the `custom_fields` object can encode the service type or the expected delivery time for the order.

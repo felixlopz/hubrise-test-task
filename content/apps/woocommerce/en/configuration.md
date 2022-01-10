@@ -32,7 +32,7 @@ In this section, you can specify the ref code for delivery charges applied to or
 
 When you pull a catalog from HubRise into WooCommerce, we create new products in WooCommerce and we optionally update prices of existing products. For more information, see [Pulling the Catalog](/apps/woocommerce/pulling-catalog).
 
-To update prices of existing products, tick the **Update prices of existing products** checkbox. 
+To update prices of existing products, tick the **Update prices of existing products** checkbox.
 
 ## Saving the Configuration
 
