@@ -7,13 +7,11 @@ meta:
   description: Instructions on mapping GonnaOrder product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
-Most EPOS solutions require a ref code for each product to correctly parse orders.
-Therefore, when you create your menu on GonnaOrder, you need to make sure that each product is assigned to the correct ref code.
-This applies also to service types, payments, and fees.
+Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, when you create your menu on GonnaOrder, you need to make sure that each product is assigned to the correct ref code. This applies also to service types, payments, and fees.
 
 This page explains how to map ref codes in your GonnaOrder back office.
 
-## Product Ref Codes
+## Products
 
 To assign ref codes to a specific product from the GonnaOrder dashboard, follow these steps:
 
@@ -32,18 +30,33 @@ To upload the ref codes for your products in bulk, follow these steps:
 1. Click on **Upload catalog via Excel**.
 1. Follow the instructions on screen to download an Excel file with your catalog in table form.
    ![The bulk upload page for products in the catalog](../images/005-en-gonnaorder-bulk-upload-page.png)
-2. Open the file with a spreadsheet editor, enter the ref codes for your products, then upload the file again to your GonnaOrder back office.
+1. Open the file with a spreadsheet editor, enter the ref codes for your products, then upload the file again to your GonnaOrder back office.
 
-## Service Types Ref Codes
+## Service Types
 
-To assign ref codes to your service types from the GonnaOrder dashboard, follow these steps:
+You can assign a different service type to each delivery mode in GonnaOrder.
+
+To assign ref codes to your delivery modes from the GonnaOrder dashboard, follow these steps:
 
 1. Log in to your [GonnaOrder back office](https://admin.gonnaorder.com/).
 1. From the dashboard, go to **Settings > Ordering**.
 1. Under the **Delivery Modes** section, specify the ref codes for your service types in the **External id** fields. Changes are automatically saved.
    ![Configuring service type ref codes from the GonnaOrder back office](../images/006-en-gonnaorder-service-type-payments.png)
 
-## Payment Methods Ref Codes
+## Charges
+
+GonnaOrder lets you set up delivery fees. Delivery fees are a charge in HubRise, whose ref code must be configured for your EPOS to handle it correctly.
+
+To assign a ref codes to your delivery fees from the GonnaOrder dashboard, follow these steps:
+
+1. Log in to your [GonnaOrder back office](https://admin.gonnaorder.com/).
+2. From the dashboard, go to **Settings > Delivery**.
+3. Specify the ref code for your delivery fees in the **Delivery fee external id** field. Changes are automatically saved.
+   ![Configuring delivery fees ref codes from the GonnaOrder back office](../images/007-en-gonnaorder-delivery-fees.png)
+
+For more details about configuring your GonnaOrder integration with HubRise, see the [GonnaOrder documentation](https://www.gonnaorder.com/help/store-settings/integrations/hubrise-integration/#special-hubrise-settings).
+
+## Payment Methods
 
 To assign ref codes to your payment methods from the GonnaOrder dashboard, follow these steps:
 
@@ -54,14 +67,3 @@ To assign ref codes to your payment methods from the GonnaOrder dashboard, follo
    - For cash payments, enter the ref code in the **External non online payment id** field.
 
 Changes are automatically saved.
-
-## Delivery Fees Ref Codes
-
-To assign ref codes to your delivery fees from the GonnaOrder dashboard, follow these steps:
-
-1. Log in to your [GonnaOrder back office](https://admin.gonnaorder.com/).
-2. From the dashboard, go to **Settings > Delivery**.
-3. Specify the ref codes for your delivery fees in the **Delivery fee external id** field. Changes are automatically saved.
-   ![Configuring delivery fees ref codes from the GonnaOrder back office](../images/007-en-gonnaorder-delivery-fees.png)
-
-For more details about configuring your GonnaOrder integration with HubRise, see the [GonnaOrder documentation](https://www.gonnaorder.com/help/store-settings/integrations/hubrise-integration/#special-hubrise-settings).
