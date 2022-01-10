@@ -26,7 +26,7 @@ content:
       to: /developers/integration-guide
       icon: fa-list-alt
     - title: Conventions and edge cases
-      description: Conventions used by other developers to cover edge cases 
+      description: Conventions used by other developers to cover edge cases
       to: /developers/conventions
       icon: fa-sign-out
 ---

@@ -61,9 +61,9 @@ Connecting [SOLUTION] to HubRise allows your EPOS to:
 
 ## Why Connect?
 
-Connecting [SOLUTION] to HubRise allows your EPOS to communicate with other applications you use every day. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Send online orders to your EPOS, to an intelligent printer, a Kitchen Display Screen, or to your inventory management solution. Export your menu into other apps.
+By connecting [SOLUTION] to HubRise, your [EPOS] can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Send online orders to your EPOS, to an intelligent printer, a Kitchen Display Screen, or to your inventory management solution. Export your menu into other apps.
 
-Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing) solutions, business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 

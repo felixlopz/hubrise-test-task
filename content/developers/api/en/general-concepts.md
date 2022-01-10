@@ -217,7 +217,7 @@ A private ref is only visible to the client that set it. For example, let's assu
 }
 ```
 
-When client A later retrieves the order, the `private_ref` is included in the response: 
+When client A later retrieves the order, the `private_ref` is included in the response:
 
 **CLIENT A**: `GET /location/orders/sd89mm`
 

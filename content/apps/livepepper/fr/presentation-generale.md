@@ -25,7 +25,6 @@ app_info:
 
 ---
 
-
 ## Description
 
 LivePepper est une solution de commande en ligne et une application de commande mobile destinée aux restaurants proposant la livraison à domicile et les plats à emporter. LivePepper aide également les restaurants à organiser, gérer et dispatcher la réception des commandes.
@@ -37,6 +36,7 @@ Conçu aussi bien pour les restaurants indépendants que franchisés, LivePepper
 LivePepper permet de créer un site Web complet comprenant des pages de marketing statiques et un système de commande en ligne. Les restaurants peuvent également intégrer le module de commande en ligne de LivePepper à un site Web de marketing existant. Les sites Web de LivePepper peuvent être personnalisés à partir d'un modèle, ou conçus de toutes pièces et adaptés à la charte graphique et aux particularités du restaurant.
 
 Les responsables des établissements de restauration ont toute latitude pour administrer leur site Web LivePepper. Ils peuvent, à partir du back-office :
+
 - Apporter des modifications au texte et aux ressources de leur site de marketing.
 - Créer et actualiser leur menu en ligne, avec une personnalisation des produits et une restriction des garnitures.
 - Mettre en place un système de promotions, de fidélisation et de parrainage.
@@ -71,4 +71,3 @@ Grâce à HubRise, synchronisez votre menu, vos informations clients et vos comm
 ## Prérequis
 
 Pour établir une connexion entre LivePepper et HubRise, vous devez disposer d'un site de commande en ligne LivePepper. Un site de test peut être créé à partir du [site Web de LivePepper](https://www.livepepper.fr).
-
