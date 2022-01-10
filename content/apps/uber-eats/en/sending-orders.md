@@ -8,6 +8,8 @@ meta:
 ---
 
 Connecting Uber Eats to HubRise allows you to receive Uber Eats orders directly in your EPOS. This page describes the information that is passed by Uber Eats Bridge for the orders you receive.
+ 
+## Items and Options
 
 ### Items Encoding
 
