@@ -16,14 +16,35 @@ Just Eat Takeaway orders contain the complete information about items and option
 
 ## Order Statuses
 
-When an order status changes on HubRise, Just Eat Takeaway Bridge notifies Just Eat, and the change can be seen by the customer.
+A Just Eat order goes through several statuses during its lifecycle:
 
-As a minimum requirement, Just Eat Takeaway expects every successful order to be marked as "confirmed".
-From the configuration page of Just Eat Takeaway Bridge, you can customise when the confirmation is sent to the platform. The following are the three possible scenarios:
+- `Confirmed`: The order was confirmed.
+- `Error`: There was an error. A Just Eat Takeaway agent calls the restaurant.
+- `Kitchen`: The restaurant started preparing the order.
+- `In Delivery`: The order is in delivery.
+- `Delivered`: The order has been delivered.
 
-- `Mark the order as Confirmed when it is sent to HubRise`: New orders are automatically confirmed on Just Eat Takeaway as soon as HubRise receives them.
-- `Mark the order as Confirmed when HubRise status changes to "Received"`: Orders are confirmed on Just Eat Takeaway only when the HubRise status changes to `received`.
-- `Mark the order as Confirmed when HubRise status changes to "Accepted"`: Orders are confirmed on Just Eat Takeaway only when the HubRise status changes to `accepted`. Only in this case, marking an order as `received` on HubRise informs the platform that the order has been received, but not yet confirmed.
+As a minimum requirement, Just Eat Takeaway expects every successful order to be marked as `Confirmed`.
+
+### Change the status of an order in Just Eat Takeaway
+
+When an order status changes on HubRise, Just Eat Takeaway Bridge notifies Just Eat Takeaway. The correspondence between HubRise and Just Eat Takeaway statuses is as follows:
+
+| HubRise status                               | Just Eat Takeaway status                                                   |
+| -------------------------------------------- | -------------------------------------------------------------------------- |
+| `new`, `received` or `accepted`              | You can configure which one of these statuses makes the order `Confirmed`. |
+| `rejected`, `cancelled` or `delivery_failed` | `Error`                                                                    |
+| `in_preparation`                             | `Kitchen`                                                                  |
+| `in_delivery`                                | `In Delivery`                                                              |
+| `completed`                                  | `Delivered`                                                                |
+
+Just Eat Takeaway Bridge lets you decide which HubRise status triggers the `Confirmed` status. This is useful to handle different scenarios when your EPOS updates the order status. For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Just Eat Takeaway that the order has been confirmed.
+
+Other HubRise status values are not supported and are not sent on Just Eat Takeaway.
+
+### Change the status of an order in HubRise
+
+Just Eat Takeaway Bridge does not change order statuses in HubRise.
 
 ## Service Types
 
@@ -54,19 +75,6 @@ This section describes how orders are encoded in the JSON payloads you receive f
 
 When a new order is created on HubRise, the Just Eat Takeaway order ID is stored in the `collection_code` field.
 This is the order reference ID that the customer sees on the platform.
-
-### Supported Order Statuses
-
-Just Eat Takeaway Bridge creates new orders with status `new`.
-
-The following status updates automatically trigger a request from Just Eat Takeaway Bridge to the platform:
-
-- `in_preparation`: The order is being prepared in the kitchen.
-- `in_delivery`: The order is out for delivery.
-- `completed`: The order has been collected or delivered.
-- `rejected`, `cancelled`, `delivery_failed`: There was a problem with the order. The request body contains information about the error.
-
-Other HubRise status updates are not supported and do not trigger any request to Just Eat Takeaway.
 
 ### Items
 
@@ -169,7 +177,7 @@ The discount applied to the order is passed as a single object in the HubRise `d
 The available fields in the payload are the following:
 
 - `name`: The name of the discount, which is "Discount" by default.
-- `ref`: The ref code of the discount. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
+- `ref`: The ref code of the discount. Its default value can be set from the Configuration page of Just Eat Takeaway Bridge and should match the value in your EPOS.
 - `price_off`: The total amount of the discount.
 
 <details>
@@ -216,10 +224,6 @@ Below is a sample payload for charges.
 ```
 
 </details>
-
-### Total Price
-
-The total price paid for the order, including charges and discounts applied, is encoded in the `total` field.
 
 ### Customers' Notes
 
