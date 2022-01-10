@@ -39,15 +39,25 @@ Uber Eats supports three order statuses:
 - `Denied`: The order could not be sent to the EPOS.
 - `Cancelled`: The order has been cancelled by the EPOS.
 
-When an order status changes to `rejected` or `cancelled` on HubRise, Uber Eats Bridge notifies Uber Eats that the order is respectively `Denied` or `Cancelled`.
+New orders must be switched to one of the above statuses within 10 minutes. Orders which are still pending after this period of time are automatically cancelled by Uber Eats.
+
+---
+
+**IMPORTANT NOTE:** You can only update the status of an order once. Further changes are ignored by Uber Eats. Therefore you cannot cancel or deny an order which has already been accepted.
+
+---
+
+### Change the status of an order in Uber Eats
+
+When the status of an order changes to `rejected` or `cancelled` in HubRise, Uber Eats Bridge notifies Uber Eats that the order is respectively `Denied` or `Cancelled`.
 
 Uber Eats Bridge lets you decide which HubRise status triggers the `Accepted` status on Uber Eats. This is useful to handle different scenarios when your EPOS updates the order status. For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Uber Eats that the order has been accepted.
 
-Other HubRise status values are not supported and are not sent on Uber Eats.
+Other HubRise status values are not supported and are not sent to Uber Eats.
 
-New orders must be switched to one of the above statuses within 10 minutes. Orders which are still pending after this period of time are automatically cancelled by Uber Eats.
+### Change the status of an order in HubRise
 
-The status of an order can only be updated once. Further changes to an order status will be ignored by Uber Eats.
+Uber Eats Bridge does not change order statuses in HubRise.
 
 ## Service Types
 
@@ -82,13 +92,13 @@ Additionally, for restaurant delivery orders, Uber Eats Bridge retrieves the fol
 
 ## Discounts
 
-The discount applied to the order is passed in a single object in the HubRise `discounts` array.
+The discounts applied to the order are passed in the HubRise `discounts` array.
 
 The available fields in the payload are the following:
 
 - `name`: The name of the discount, which is "Discount" by default.
-- `ref`: The ref code of the discount. Its default value can be set from the Configuration page of Uber Eats Bridge and should match the value in your EPOS.
-- `price_off`: The total amount of the discount.
+- `ref`: The ref code of the discount. Its value is set from the Configuration page of Uber Eats Bridge and should match the value in your EPOS.
+- `price_off`: The amount of the discount.
 
 ## Charges
 
