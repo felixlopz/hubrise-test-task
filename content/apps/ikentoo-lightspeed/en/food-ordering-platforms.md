@@ -17,13 +17,28 @@ To connect Lightspeed Restaurant (K Series) to Deliveroo, Uber Eats, or Just Eat
 
 By convention, Lightspeed support team uses these predefined codes when they set up the integration. If you configure the Lightspeed back office autonomously, we recommend that you use the same codes, as this simplifies troubleshooting.
 
+For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes](/apps/ikentoo-lightspeed/faqs/create-ref-codes).
+
 ---
 
 **IMPORTANT NOTE:** These codes must be present in your Lightspeed back office and must be included in the configuration page of the food platform bridge.
 
 ---
 
-For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes](/apps/ikentoo-lightspeed/faqs/create-ref-codes).
+If you prefer to let Lightspeed support configure these ref codes for you, make sure to use the following channel names in support tickets to avoid any confusion:
+
+| Platform               | Channel name           |
+| ---------------------- | ---------------------- |
+| Deliveroo              | `Deliveroo`            |
+| Eat.ch                 | `Eat.ch (EAT)`         |
+| Other online platforms | `HUBOLO`               |
+| Just Eat               | `Just Eat (JE)`        |
+| LivePepper             | `LivePepper`           |
+| ObyPay                 | `ObyPay`               |
+| Smood                  | `Smood`                |
+| Takeaway.com           | `Takeaway.com (TA)`    |
+| Thuisbezorgd.nl        | `Thuisbezorgd.nl (TH)` |
+| Uber Eats              | `Uber Eats`            |
 
 ## Deliveroo
 
@@ -43,35 +58,23 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 | Payments      | Deliveroo payment ref code            | `DVPM`            |
 | Payments      | Cash payment ref code                 | (leave empty)     |
 
-## Uber Eats
+## Eat.ch
 
-To receive Uber Eats orders in Lightspeed, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Eat.ch orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
 
-To correctly receive your orders, specify the following values in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
 
-| Section        | Name                                  | Ref code or value                                    |
-| -------------- | ------------------------------------- | ---------------------------------------------------- |
-| Service types  | Uber delivery ref code                | `UEAP`                                               |
-| Service types  | Restaurant delivery ref code (\*)     | `UENDAP`                                             |
-| Service types  | Takeaway ref code                     | `UEPUAP`                                             |
-| Service types  | Eat-in ref code                       | `UEDIAP`                                             |
-| Service types  | Send orders delivered by Uber Eats as | `delivery orders`                                    |
-| Special items  | Disposable items ref code             | Create a product in Lightspeed and use its **Code**. |
-| Discounts      | Discount ref code                     | `UE99`                                               |
-| Payments       | Payment ref code                      | `UEPM`                                               |
-| Order statuses | Mark the order as Accepted            | `When it is sent to HubRise`                         |
-| Order statuses | Mark the order as Denied              | `When HubRise status changes to "Rejected"`          |
-| Order statuses | Mark the order as Cancelled           | `When HubRise status changes to "Cancelled"`         |
-
-(\*) BYOC - Bring Your Own Courier
-
----
-
-**IMPORTANT NOTE:** Product-level comments are not supported in Lightspeed Restaurant (K Series). Therefore, if your customers include product-level comments in an order, you will not be able to see them. To prevent this, product-level comments are automatically disabled on your Uber Eats store when you connect it to HubRise.
-
-If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
-
----
+| Section       | Name                                     | Ref code          |
+| ------------- | ---------------------------------------- | ----------------- |
+| Service types | Eat.ch delivery ref code                 | `EATAP`           |
+| Service types | Restaurant delivery ref code             | `EATDRAP`         |
+| Service types | Takeaway ref code                        | `EATEATAP`        |
+| Service types | Send orders delivered by the platform as | `delivery orders` |
+| Charges       | Delivery charge ref code                 | `EAT77`           |
+| Charges       | Service charge ref code                  | `EAT66`           |
+| Discounts     | Discount ref code                        | `EAT99`           |
+| Payments      | Eat.ch payment ref code                  | `EATPM`           |
+| Payments      | Cash payment ref code                    | (leave empty)     |
 
 ## Just Eat
 
@@ -126,20 +129,32 @@ To correctly receive your orders, specify the following values in the Just Eat T
 | Payments      | Thuisbezorgd.nl payment ref code         | `THPM`            |
 | Payments      | Cash payment ref code                    | (leave empty)     |
 
-## Eat.ch
+## Uber Eats
 
-To receive Eat.ch orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+To receive Uber Eats orders in Lightspeed, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
 
-To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
+To correctly receive your orders, specify the following values in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
-| Section       | Name                                     | Ref code          |
-| ------------- | ---------------------------------------- | ----------------- |
-| Service types | Eat.ch delivery ref code                 | `EATAP`           |
-| Service types | Restaurant delivery ref code             | `EATDRAP`         |
-| Service types | Takeaway ref code                        | `EATEATAP`        |
-| Service types | Send orders delivered by the platform as | `delivery orders` |
-| Charges       | Delivery charge ref code                 | `EAT77`           |
-| Charges       | Service charge ref code                  | `EAT66`           |
-| Discounts     | Discount ref code                        | `EAT99`           |
-| Payments      | Eat.ch payment ref code                  | `EATPM`           |
-| Payments      | Cash payment ref code                    | (leave empty)     |
+| Section        | Name                                  | Ref code or value                                    |
+| -------------- | ------------------------------------- | ---------------------------------------------------- |
+| Service types  | Uber delivery ref code                | `UEAP`                                               |
+| Service types  | Restaurant delivery ref code (\*)     | `UENDAP`                                             |
+| Service types  | Takeaway ref code                     | `UEPUAP`                                             |
+| Service types  | Eat-in ref code                       | `UEDIAP`                                             |
+| Service types  | Send orders delivered by Uber Eats as | `delivery orders`                                    |
+| Special items  | Disposable items ref code             | Create a product in Lightspeed and use its **Code**. |
+| Discounts      | Discount ref code                     | `UE99`                                               |
+| Payments       | Payment ref code                      | `UEPM`                                               |
+| Order statuses | Mark the order as Accepted            | `When it is sent to HubRise`                         |
+| Order statuses | Mark the order as Denied              | `When HubRise status changes to "Rejected"`          |
+| Order statuses | Mark the order as Cancelled           | `When HubRise status changes to "Cancelled"`         |
+
+(\*) BYOC - Bring Your Own Courier
+
+---
+
+**IMPORTANT NOTE:** Product-level comments are not supported in Lightspeed Restaurant (K Series). Therefore, if your customers include product-level comments in an order, you will not be able to see them. To prevent this, product-level comments are automatically disabled on your Uber Eats store when you connect it to HubRise.
+
+If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
+
+---

@@ -1,6 +1,6 @@
 ---
 title: Callbacks
-position: 7
+position: 8
 layout: documentation
 meta:
   title: Callbacks | API | HubRise
@@ -65,9 +65,7 @@ import { createHmac } from "crypto"
 client_secret = "your_client_secret"
 payload = req.rawBody
 
-const calculatedHmac = createHmac("sha256", client_secret)
-        .update(payload)
-        .digest("hex");
+const calculatedHmac = createHmac("sha256", client_secret).update(payload).digest("hex")
 ```
 
 Compare the calculated HMAC to the value in the `X-HubRise-Hmac-SHA256` header of the event notification. If they match, then you can be sure that the event was sent from HubRise. Otherwise, simply return an error and ignore the event.
@@ -111,9 +109,9 @@ If no callback has been set, the response will be as follows:
 }
 ```
 
-### 1.2. Create Callback
+### 1.2. Create or Update Callback
 
-Creates a callback for the connection.
+Creates a callback if none exists, replace the existing callback otherwise.
 
 <CallSummaryTable
   endpoint="POST /callback"

@@ -1,6 +1,6 @@
 ---
 title: Pulling The Catalog
-position: 6
+position: 5
 layout: documentation
 meta:
   title: Pulling The Catalog | WooCommerce | HubRise
@@ -27,8 +27,7 @@ Once your catalog is populated on HubRise, you can publish it on your WooCommerc
 1. From the WooCommerce Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
 1. On the configuration page, from the **Actions** section at the bottom of the page, select **Push the catalog to WooCommerce**.
 
-Note that WooCommerce Bridge creates new products or updates existing ones, but never deletes existing items from your WooCommerce catalog. 
-If you select the checkbox **Update prices of existing products** in the Configuration page, WooCommerce Bridge will update the price of your WooCommerce products whenever this is different from the price of the corresponding HubRise product.
+Note that WooCommerce Bridge creates new products or updates existing ones, but never deletes existing items from your WooCommerce catalog. If you select the checkbox **Update prices of existing products** in the Configuration page, WooCommerce Bridge will update the price of your WooCommerce products whenever this is different from the price of the corresponding HubRise product.
 
 ## Technical Reference
 
@@ -42,42 +41,44 @@ The following sections describe in detail how HubRise catalogs are mapped to Woo
 
 ### Categories
 
-The categories in a HubRise catalog are mapped one-to-one to categories of products on WooCommerce. 
+The categories in a HubRise catalog are mapped one-to-one to categories of products on WooCommerce.
 The order in which categories and products appear on HubRise is maintained on WooCommerce.
 
 For every category, the following HubRise fields are pulled into WooCommerce:
+
 - `name`: The name of the category
 - `description`: The description of the category
 
 ### Products and Skus
 
 Products in a HubRise catalog are mapped to WooCommerce in two different ways.
+
 - A HubRise product without skus is mapped to a **Simple product** in WooCommerce.
 - A HubRise product with skus is mapped to a **Variable product** in WooCommerce.
 
 For every product in the HubRise catalog, the following information is sent to WooCommerce.
 
-- `ref`: The ref code of the product, which will be passed along in orders         
-- `name`: The name of the product             
-- `description`: The description of the product    
+- `ref`: The ref code of the product, which will be passed along in orders
+- `name`: The name of the product
+- `description`: The description of the product
 - `price`: The price of the product
-- `images`: The images associated with the product  
+- `images`: The images associated with the product
 
 If skus are present, WooCommerce Bridge creates a list of attributes named "sku" attached to the product, where the values are the names of the skus.
 
-The bridge uses HubRise ref codes to detect existing products in WooCommerce and avoid duplicating them. 
+The bridge uses HubRise ref codes to detect existing products in WooCommerce and avoid duplicating them.
 
 ---
 
-**IMPORTANT NOTE:** Skus with no ref codes in the HubRise catalog are not pulled in WooCommerce.  
+**IMPORTANT NOTE:** Skus with no ref codes in the HubRise catalog are not pulled in WooCommerce.
 
 ---
 
 For every `sku` object in a product, WooCommerce Bridge creates a variation with this information:
 
-- `ref`: The ref code of the sku, which will be passed along in orders         
-- `name`: The name of the sku             
-- `price`: The price of the sku            
+- `ref`: The ref code of the sku, which will be passed along in orders
+- `name`: The name of the sku
+- `price`: The price of the sku
 
 Lists of options attached to HubRise products are ignored.
 
