@@ -62,6 +62,7 @@ WooCommerce Bridge provides full customer information about orders, including na
 ## Payments
 
 WooCommerce supports four types of payments in an order:
+
 - Cash on delivery
 - Check
 - Direct bank transfer
