@@ -13,8 +13,4 @@ You can display information by Account, or narrow the results to a specific Loca
 
 Click the **SALES**, **ORDERS**, or **NEW CUSTOMERS** tabs to display the related content.
 
-<video controls title="Changing tabs from the Dashboard">
-  <source src="../images/010-en-dashboard-tab-switching.webm" type="video/webm"/>
-</video>
-
-[comment]: # 'poor video resolution'
+![HubRise dashboard](../images/078-en-hubrise-dashboard.png)

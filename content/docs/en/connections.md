@@ -83,7 +83,7 @@ Logs can be filtered by resource and method through the following process:
 
 ### Logs
 
-The log page then displays a summary list of requests in reverse chronological order.
+The logs page displays a summary list of requests in reverse chronological order.
 
 Each log record includes:
 
@@ -98,12 +98,6 @@ To download either the request or response, select the download icon <InlineImag
 
 For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 
-[comment]: # 'Understanding Logs in HubRise link not working'
-
-<video controls title="Log details">
-  <source src="../images/013-en-connections-view-logs.webm" type="video/webm"/>
-</video>
-
 ---
 
 **Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
@@ -112,8 +106,8 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ## Disconnect App
 
-Apps can be disconnected from your HubRise Account by selecting **CONNECTIONS** > **Actions**. Find the app in question, then click **Disconnect**.
+To disconnect a specific app from HubRise, follow these steps:
 
-<video controls title="Remove connection to an app">
-  <source src="../images/014-en-connections-remove-app.webm" type="video/webm"/>
-</video>
+1. Go to **CONNECTIONS**.
+2. Find the app you want to disconnect, then click **Actions** > **Disconnect**.
+3. Click **Confirm**.

@@ -36,10 +36,6 @@ To log in to HubRise, visit the [HubRise Login page](https://manager.hubrise.com
 
 You can set the language for your HubRise session by clicking the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and selecting your preferred language.
 
-<video controls title="Change language from Dashboard">
-  <source src="../images/007-en-change-language-from-dashboard.webm" type="video/webm"/>
-</video>
-
 ## Create an Account
 
 When you log in to HubRise for the first time, you will be asked to create an Account and a Location.
@@ -65,6 +61,8 @@ The HubRise interface is organised into the following sections:
 - **Connections**: Connect new applications to your HubRise Account, and manage your existing connections.
 - **Data**: View orders, catalogs, and customers across your locations.
 - **Settings**: Add new locations, manage employee access and roles, view payment history or payment methods, and developer access to integrate applications with HubRise.
+
+![HubRise dashboard](../images/078-en-hubrise-dashboard.png)
 
 If you want to get an overall view of an Account's performance, select all Locations. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
 
