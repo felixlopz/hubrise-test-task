@@ -25,7 +25,7 @@ app_info:
 
 SATO fournit des imprimantes thermiques intelligentes pour les restaurants et les commerces de proximité. Ces imprimantes ne nécessitent pas d'ordinateurs, ni d'écrans. Elles sont compactes et peuvent être fixées au mur.
 
-Les imprimantes SATO fonctionnent de manière autonome, et impriment automatiquement les nouvelles commandes provenant d'un site marchand ou d'une plateforme de livraison de repas.
+Les imprimantes SATO fonctionnent de manière autonome, impriment automatiquement les nouvelles commandes provenant d'un site marchand ou d'une plateforme de livraison de repas et confirme le changement de statut de commande en retour. Le contenu et le design des tickets peuvent être personnalisés. Différents types de papiers, autocollants, plastiques peuvent être utilisés pour l'impression. Plusieurs imprimantes peuvent être connectées en parallèle. Le contenu d'impression peut varier selon le poste opérationnel auquel l'imprimante a été attribué et les éléments prédéfinis du catalogue produit concerné par le poste. 
 
 SATO est une société présente dans plus de 90 pays.
 
@@ -33,14 +33,15 @@ SATO est une société présente dans plus de 90 pays.
 
 Connecter SATO à HubRise permet à votre imprimante intelligente de :
 
-- Recevoir les commandes de HubRise.
+- Recevoir les commandes de HubRise, dont les statuts de commande.
+- Envoyer les statuts de commande à HubRise.
 - Recevoir les informations clients de HubRise.
 
 SATO peut être connecté à HubRise depuis le back-office de SATO.
 
 ## Pourquoi se connecter ?
 
-En connectant SATO à HubRise, vous permettez à votre imprimante intelligente de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre imprimante intelligente.
+En connectant SATO à HubRise, vous permettez à votre imprimante intelligente de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre imprimante intelligente. Changement du statut des commandes automatisée pour minimiser toute opération manuelle par les équipes opérationnelles.  
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 

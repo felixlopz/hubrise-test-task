@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Overview | SATO | HubRise
-  description: SATO overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+  description: SATO overview, reasons for connecting SATO to HubRise and summary of integrated features. Synchronise data between your intelligent SATO printer and your apps.
 gallery:
 path_override: /
 app_info:
