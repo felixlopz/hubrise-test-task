@@ -19,7 +19,9 @@ app_info:
 
 ## Description
 
-Lightspeed Restaurant (K Series) is an iPad and cloud Point of Sales system for restaurants and hoteliers. Lightspeed Restaurant is available in many international markets.
+Lightspeed Restaurant (K Series) is an iPad and cloud Point of Sales system for restaurants and hoteliers. Its sleek design and intuitive interface allows on-site, remote or on-the-go management of single and multi-store businesses.
+
+Lightspeed Restaurant is available in more than 100 countries.
 
 Lightspeed Restaurant Bridge is an app developed by HubRise used to connect Lightspeed Restaurant EPOS with other apps.
 
