@@ -20,8 +20,8 @@ For example, **Baker Street z6q31-0** indicates the Location name of **Baker Str
 To view Location details:
 
 1. Go to **SETTINGS**.
-2. If you have multiple Accounts, select the Account for the Location
-3. In the **Locations** section, click on the Location's name.
+1. If you have multiple Accounts, select the Account for the Location
+1. In the **Locations** section, click on the Location's name.
 
 Locations are managed in the same way as Accounts, but the information is specific to the selected Location.
 

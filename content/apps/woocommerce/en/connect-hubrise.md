@@ -17,12 +17,6 @@ You can connect WooCommerce to HubRise with a few simple steps.
 
 ## 1. Connect the Bridge
 
----
-
-**IMPORTANT NOTE:** WooCommerce Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
-
 To connect WooCommerce Bridge to HubRise, follow these steps.
 
 1. Log in to your HubRise account.
@@ -34,12 +28,11 @@ To connect WooCommerce Bridge to HubRise, follow these steps.
 1. Enter the URL of your WooCommerce store, then click **Save** to confirm.
    ![Initial URL page for WooCommerce Bridge](../images/001-en-woocommerce-url.png)
 1. Click **Connect WooCommerce**. This will redirect you to the WooCommerce authorisation page.
-   1. If you are not logged in to WooCommerce, enter your username and password, then click **Login**.
-   ![WooCommerce login page](../images/006-en-woocommerce-login.png)
-   1. Click **Approve** to authorise the connection with HubRise.
-   ![WooCommerce authorisation page](../images/007-en-woocommerce-authorisation.png)
+   - If you are not logged in to WooCommerce, enter your username and password, then click **Login**.
+     ![WooCommerce login page](../images/006-en-woocommerce-login.png)
+   - Click **Approve** to authorise the connection with HubRise.
+     ![WooCommerce authorisation page](../images/007-en-woocommerce-authorisation.png)
 1. You will be redirected to the WooCommerce Bridge Configuration page, where you can customise your connection with HubRise.
-
 
 ## 2. Configure Your Preferences
 
@@ -49,7 +42,7 @@ For more information about the Configuration page and how to navigate to it, see
 
 ## 3. Upload Your Menu
 
-If you have a catalog of products on HubRise, you can upload it to your WooCommerce store with a single click. 
+If you have a catalog of products on HubRise, you can upload it to your WooCommerce store with a single click.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 To learn how to pull your HubRise catalog into WooCommerce, see [Pulling the Menu](/apps/woocommerce/configuration#pulling-the-menu).

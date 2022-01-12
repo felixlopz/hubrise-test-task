@@ -180,7 +180,8 @@ To create an account-level catalog:
       {
         "ref": "TES_COL",
         "name": "Tesla Color",
-        "type": "single",
+        "min_selections": 1,
+        "max_selections": 1,
         "options": [
           {
             "name": "White",
@@ -563,19 +564,19 @@ A product contains one or several skus. A sku is always attached to a product.
 
 An option list can be attached to one or several skus. It has one or several options.
 
-An option list is either of type `single` (a single option must be applied to a sku) or `multiple` (zero, one or several options can be applied to a sku).
-
 ### 5.1. Option List in Catalog Upload
 
 #### Parameters:
 
-| Name                             | Type                 | Description                                                                  |
-| -------------------------------- | -------------------- | ---------------------------------------------------------------------------- |
-| `ref`                            | string               | The ref of the option list. Must be unique among the catalog's option lists. |
-| `name`                           | string               | The name of the option list.                                                 |
-| `type`                           | string               | Either `single` or `multiple`.                                               |
-| `tags` <Label type="optional" /> | string[]             | List of tags.                                                                |
-| `options`                        | [Option](#options)[] | A list of options. An option list must contain at least one option.          |
+| Name                                                         | Type                 | Description                                                                                                                           |
+| ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `ref`                                                        | string               | The ref of the option list. Must be unique among the catalog's option lists.                                                          |
+| `name`                                                       | string               | The name of the option list.                                                                                                          |
+| `min_selections` <Label type="optional" />                   | integer              | The minimum number of selected options. Default: `0`.                                                                                 |
+| `max_selections` <Label type="optional" />                   | integer or `null`    | The maximum number of selected options. If the value is `null`, there is no upper limit on the number of selections. Default: `null`. |
+| `type` <Label type="deprecated" /> <Label type="optional" /> | string               | This field is deprecated. Use `min_selections` and `max_selections` instead.                                                          |
+| `tags` <Label type="optional" />                             | string[]             | List of tags.                                                                                                                         |
+| `options`                                                    | [Option](#options)[] | A list of options. An option list must contain at least one option.                                                                   |
 
 #### Example:
 
@@ -583,7 +584,8 @@ An option list is either of type `single` (a single option must be applied to a 
 {
   "ref": "COL",
   "name": "Color",
-  "type": "single",
+  "min_selections": 1,
+  "max_selections": 1,
   "tags": ["style"],
   "options": [
     {
@@ -601,7 +603,12 @@ An option list is either of type `single` (a single option must be applied to a 
 }
 ```
 
-If the list type is `single`, one single option should be set as default. A default option will be chosen arbitrarily otherwise.
+If `max_selections` is set, no more than `max_selections` options can have their `default` field set to `true`.
+
+The `type` field is deprecated and should be replaced with `min_selections` and `max_selections`. For compatibility purposes, when this field is present, it is mapped to the new fields:
+
+- If `type` = `single`, `min_selections` is set to `1` and `max_selections` is set to `1`.
+- If `type` = `multiple`, `min_selections` is set to `0` and `max_selections` is set to `null`.
 
 ### 5.2. Retrieve Option List
 
@@ -612,14 +619,16 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-| Name                             | Type                 | Description                    |
-| -------------------------------- | -------------------- | ------------------------------ |
-| `id`                             | string               | The id of the option list.     |
-| `ref`                            | string               | The ref of the option list.    |
-| `name`                           | string               | The name of the option list.   |
-| `type`                           | string               | Either `single` or `multiple`. |
-| `tags` <Label type="optional" /> | string[]             | List of tags.                  |
-| `options`                        | [Option](#options)[] | A list of options.             |
+| Name                               | Type                 | Description                                                                                                                       |
+| ---------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `id`                               | string               | The id of the option list.                                                                                                        |
+| `ref`                              | string               | The ref of the option list.                                                                                                       |
+| `name`                             | string               | The name of the option list.                                                                                                      |
+| `min_selections`                   | number               | The minimum number of selected options.                                                                                           |
+| `max_selections`                   | number or `null`     | The maximum number of selected options. If the value is `null`, there is no upper limit on the number of selections.              |
+| `type` <Label type="deprecated" /> | string               | Either `single` or `multiple`. This field is deprecated: the `min_selections` and `max_selections` fields should be used instead. |
+| `tags`                             | string[]             | List of tags.                                                                                                                     |
+| `options`                          | [Option](#options)[] | A list of options.                                                                                                                |
 
 #### Example request:
 
@@ -630,7 +639,9 @@ Retrieve an option list and the possible choices (options).
   "id": "e2sfj",
   "ref": "SAU-SM",
   "name": "Sauce",
-  "type": "single",
+  "min_selections": 0,
+  "max_selections": null,
+  "type": "multiple",
   "options": [
     {
       "id": "m9d6e",
@@ -1118,8 +1129,8 @@ Images can be attached to products and deals, via their `image_ids` fields.
 Images must be uploaded before catalog data, since the images' `id`s must be passed in the products and deals. Upload sequence is as follows:
 
 1. create an empty catalog: `POST /catalogs` or reuse an existing catalog
-2. upload images: `POST /catalogs/:catalog_id/images`
-3. upload catalog data: `PUT /catalogs/:catalog_id`
+1. upload images: `POST /catalogs/:catalog_id/images`
+1. upload catalog data: `PUT /catalogs/:catalog_id`
 
 There is no endpoint to delete an image: when an image is left unattached for 30 days in a row, it is automatically removed.
 

@@ -3,7 +3,7 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: Configuration | WooCommerce | HubRise 
+  title: Configuration | WooCommerce | HubRise
   description: See instructions to configure WooCommerce Bridge to work seamlessly with WooCommerce and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
@@ -18,7 +18,9 @@ From this section, you can customise how WooCommerce orders are sent to HubRise.
 
 ### Metadata Mapping
 
-If you want to send to HubRise the information about service type or expected time for an order, you need to specify the correct metadata fields to map. You must ensure that the values have the correct format that HubRise expects to encode the information correctly.
+WooCommerce has no built-in support for the service type and expected time of an order. To send this information to HubRise, you need to use WooCommerce metadata.
+
+In this section, you can specify the metadata fields to map. You must ensure that the values have the correct format that HubRise expects to encode the information correctly.
 
 ### Charges
 
@@ -28,7 +30,9 @@ In this section, you can specify the ref code for delivery charges applied to or
 
 ## Catalog
 
-Specify if you want price updates in your HubRise catalog to be sent to WooCommerce when you pull the catalog.
+When you pull a catalog from HubRise into WooCommerce, we create new products in WooCommerce and we optionally update prices of existing products. For more information, see [Pulling the Catalog](/apps/woocommerce/pulling-catalog).
+
+To update prices of existing products, tick the **Update prices of existing products** checkbox.
 
 ## Saving the Configuration
 

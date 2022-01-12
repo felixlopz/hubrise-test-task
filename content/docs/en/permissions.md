@@ -25,16 +25,16 @@ Admins can grant access to other users provided they have an existing profile on
 To grant a User permissions on an Account, follow these steps:
 
 1. Select **SETTINGS**.
-2. In the **Permissions** section, enter the User's email address in the column marked **EMAIL**.
-3. In the **ROLE** column, set the new user's role as Admin or Manager.
-4. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
+1. In the **Permissions** section, enter the User's email address in the column marked **EMAIL**.
+1. In the **ROLE** column, set the new user's role as Admin or Manager.
+1. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
 
 To grant a User permissions on a Location, follow these steps:
 
 1. Select **SETTINGS**.
 1. From the **Usage** section, click the Location to modify.
-2. In the **Permissions** section, enter the User's email address in the column marked **EMAIL**.
-3. In the **ROLE** column, set the new User's role as Admin or Manager.
+1. In the **Permissions** section, enter the User's email address in the column marked **EMAIL**.
+1. In the **ROLE** column, set the new User's role as Admin or Manager.
 1. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
 
 ## Remove a User
@@ -42,7 +42,7 @@ To grant a User permissions on a Location, follow these steps:
 To remove a user:
 
 1. In the **Permissions** section for either an Account or a Location, click the remove icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage> for the user you want to remove.
-2. When prompted, click **Delete** to confirm.
+1. When prompted, click **Delete** to confirm.
 
 ---
 

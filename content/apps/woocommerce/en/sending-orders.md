@@ -1,18 +1,17 @@
 ---
 title: Sending Orders
-position: 5
+position: 7
 layout: documentation
 meta:
   title: Sending Orders | WooCommerce | HubRise
   description: Find out the technical details of how orders are sent from WooCommerce to HubRise, which fields are passed and which are not.
 ---
 
-Connecting WooCommerce to HubRise allows you to receive WooCommerce orders directly in your EPOS.
-This page describes the information that HubRise receives from WooCommerce for your orders.
+Connecting WooCommerce to HubRise allows you to receive WooCommerce orders directly in your EPOS. This page describes the information that HubRise receives from WooCommerce for your orders.
 
 ## Items and Options
 
-WooCommerce orders contain the complete information about items and options, including name, POS ref code, quantity, and price. Deals, however, are not supported on WooCommerce.
+WooCommerce orders contain the complete information about items and options, including name, POS ref code, quantity, and price. However, WooCommerce options have always zero as a price. Deals are not supported.
 
 Customers' comments on single products are not supported on WooCommerce. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the WooCommerce menu, so that they are correctly encoded.
 
@@ -23,7 +22,7 @@ New WooCommerce orders are created on HubRise with status `new`.
 Order status changes in WooCommerce trigger a status change in HubRise according to the following rules:
 
 | WooCommerce status change | Corresponding HubRise status |
-|---------------------------|------------------------------|
+| ------------------------- | ---------------------------- |
 | processing                | accepted                     |
 | completed                 | completed                    |
 | cancelled                 | cancelled                    |
@@ -34,7 +33,7 @@ Order status changes in WooCommerce trigger a status change in HubRise according
 Conversely, order status changes in HubRise trigger a status change in WooCommerce according to the following rules:
 
 | HubRise status change | Corresponding WooCommerce status |
-|-----------------------|----------------------------------|
+| --------------------- | -------------------------------- |
 | received              | pending                          |
 | accepted              | processing                       |
 | in_preparation        | processing                       |
@@ -48,16 +47,32 @@ Conversely, order status changes in HubRise trigger a status change in WooCommer
 
 ## Service Types
 
-WooCommerce supports two service types:
+In the default WooCommerce installation, the service type is always `delivery`. To support additional service types, you need to customise your WooCommerce installation to include this value in the order metadata.
 
-- Delivery
-- Customer collection
+---
 
-[comment]: # 'TODO'
+**Related FAQ**: <Link to="/apps/woocommerce/faqs/encode-custom-metadata/">How Can I Encode Custom Metadata In An Order?</Link>
+
+---
 
 ## Customer Details
 
 WooCommerce Bridge provides full customer information about orders, including name, delivery address, and contact details, and saves it in HubRise.
+
+## Payments
+
+WooCommerce supports four types of payments in an order:
+
+- Cash on delivery
+- Check
+- Direct bank transfer
+- PayPal standard
+
+---
+
+**IMPORTANT NOTE**: Payment ref codes will soon be customisable from the configuration page. For more information, [contact HubRise support](mailto:support@hubrise.com).
+
+---
 
 ## Discounts
 
@@ -67,7 +82,7 @@ WooCommerce discounts are sent to HubRise, if present in an order.
 
 WooCommerce supports only delivery charges, which are sent to HubRise if present in an order.
 
---- 
+---
 
 ## Technical Reference
 
@@ -76,6 +91,7 @@ This section describes how orders are encoded in the JSON payloads you receive f
 ### Items Encoding
 
 WooCommerce products in an order are mapped to HubRise in three different ways.
+
 - Simple products are sent to HubRise as products without sku.
 - Variable products with an attributes list named "sku" are sent to HubRise as products with a sku.
 - Variable products with an attributes list name different from "sku" are sent to HubRise as products with options.
@@ -87,7 +103,7 @@ For every item in the order, WooCommerce Bridge provides the following informati
 - `sku_ref`: The ref code of the item
 - `price`: The price for a single item
 - `quantity`: The quantity of items included in the order
-- `options`: The array of options attached to the item, for WooCommerce variable products with attribute name other than "sku". Otherwise, the default value is an empty array. 
+- `options`: The array of options attached to the item, for WooCommerce variable products with attribute name other than "sku". Otherwise, the default value is an empty array.
 
 ### Options Encoding
 
@@ -175,6 +191,6 @@ The available fields in the payload are the following:
 
 ## Custom Fields
 
-The `custom_fields` object is used by WooCommerce Bridge to store additional information not provided by default by the WooCommerce API.
+The `custom_fields` object is used by WooCommerce Bridge to store the metadata that WooCommerce sends in the order. This information is not provided by default by the WooCommerce API, but the actual format depends on the installed plugins and code customisation made on the website.
 
-[comment]: # 'TODO'
+For example, the `custom_fields` object can encode the service type or the expected delivery time for the order.

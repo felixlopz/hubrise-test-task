@@ -65,9 +65,7 @@ import { createHmac } from "crypto"
 client_secret = "your_client_secret"
 payload = req.rawBody
 
-const calculatedHmac = createHmac("sha256", client_secret)
-        .update(payload)
-        .digest("hex");
+const calculatedHmac = createHmac("sha256", client_secret).update(payload).digest("hex")
 ```
 
 Compare the calculated HMAC to the value in the `X-HubRise-Hmac-SHA256` header of the event notification. If they match, then you can be sure that the event was sent from HubRise. Otherwise, simply return an error and ignore the event.

@@ -1,5 +1,5 @@
 ---
-title: Pulling the Catalog 
+title: Pulling the Catalog
 position: 6
 layout: documentation
 meta:
@@ -50,9 +50,9 @@ For every HubRise `product` object, Shopify Bridge pulls the following informati
 
 For every sku in the `skus` array, Shopify Bridge pulls the following information into Shopify:
 
-- `ref`: The ref of the sku, which will be passed along in orders         
-- `name`: The name of the sku             
-- `price`: The price of the sku            
+- `ref`: The ref of the sku, which will be passed along in orders
+- `name`: The name of the sku
+- `price`: The price of the sku
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
 

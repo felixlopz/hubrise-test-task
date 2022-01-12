@@ -16,7 +16,7 @@ The following screenshot illustrates how to enter ref codes in the back office.
 
 ![Entering ref codes in the Just Eat Takeaway portal](../images/006-fr-jet-entering-ref-codes.png)
 
---- 
+---
 
 **IMPORTANT NOTE:** The exact steps of the update procedure might vary between the local Just Eat Takeaway platforms. Contact your Just Eat Takeaway account manager to verify.
 

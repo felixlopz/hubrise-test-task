@@ -52,9 +52,9 @@ To add or update a payment method at the Account-level, follow these steps:
 1. Go to **SETTINGS**.
 1. If you have multiple Accounts, select the **Account**, then scroll down to the **Payment** section.
    ![Add payment method at the Account-level](../images/073-en-add-account-payment.png)
-2. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
-3. Enter your credit card information. Credit cards must be valid to be accepted.
-4. When finished, click **Save**.
+1. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
+1. Enter your credit card information. Credit cards must be valid to be accepted.
+1. When finished, click **Save**.
 
 To add or update a payment method at the Location-level, follow these steps:
 
@@ -62,9 +62,9 @@ To add or update a payment method at the Location-level, follow these steps:
 1. If you have multiple Accounts, select the **Account** containing the specific Location.
 1. Select the Location from the **Location** list, then scroll down to the **Payment** section.
    ![Add payment method at the Location-level](../images/072-en-make-account-pay.png)
-2. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
-3. Enter your credit card information. Credit cards must be valid to be accepted.
-4. When finished, click **Save**.
+1. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
+1. Enter your credit card information. Credit cards must be valid to be accepted.
+1. When finished, click **Save**.
 
 ## Process Pending Quotes
 
@@ -73,7 +73,7 @@ When you change your plan, the payment must be authorized before the credit card
 To process a payment from the notification:
 
 1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
-2. Click **View the earliest quote**, then click **Pay**. To check on all unpaid quotes, click **Check your account** from the notification.
+1. Click **View the earliest quote**, then click **Pay**. To check on all unpaid quotes, click **Check your account** from the notification.
 
 ---
 

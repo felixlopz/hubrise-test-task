@@ -23,10 +23,10 @@ The **Orders** page displays your recent orders, with the most recent on top. Fo
 To filter orders by start and end date:
 
 1. Select **From** and **To** fields in and set the date ranges to filter by.
-2. Select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage> to filter records by these dates.
-3. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
-4. Click on the date of the order to view full details.
-5. To view the full details of the request, click the date and time. For more information see [Logs](/docs/data/#logs).
+1. Select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage> to filter records by these dates.
+1. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
+1. Click on the date of the order to view full details.
+1. To view the full details of the request, click the date and time. For more information see [Logs](/docs/data/#logs).
 
 ---
 
@@ -48,11 +48,11 @@ The records on this page display the following attributes:
 To filter customers by name or email address:
 
 1. If there are multiple customer lists for the Account or Location, select the drop down list next to **Customers** and select the customer list to display.
-2. Click the **Search by name or email** field and enter the text to search for.
-3. Select the search icon to filter the customer records.
-4. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
-5. To see full details of a customer, click the customer name.
-6. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](/docs/data/#logs).
+1. Click the **Search by name or email** field and enter the text to search for.
+1. Select the search icon to filter the customer records.
+1. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
+1. To see full details of a customer, click the customer name.
+1. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](/docs/data/#logs).
 
 ## Catalogs
 
@@ -108,7 +108,6 @@ The log page displays a summary list of requests in reverse chronological order.
 Further log details are available for advanced users and developers to view app communications and troubleshoot issues. To view details for a log entry:
 
 1. Click the row to display. A full list of the query and response will be displayed.
-
-2. To download either the query or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected query or response will be provided as a JSON file.
+1. To download either the query or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected query or response will be provided as a JSON file.
 
 For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).

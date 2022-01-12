@@ -14,8 +14,8 @@ To access the Profile page, click your name at the top right corner of the back 
 To update your User Profile:
 
 1. Click **Modify**.
-2. Update your name, email address, or correspondence language. The **Correspondence Language** sets the language for all communications from HubRise to you.
-3. Select **Update**.
+1. Update your name, email address, or correspondence language. The **Correspondence Language** sets the language for all communications from HubRise to you.
+1. Select **Update**.
 
 ---
 

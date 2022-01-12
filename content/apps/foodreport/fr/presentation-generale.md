@@ -21,7 +21,6 @@ app_info:
 
 ---
 
-
 ## Description
 
 Food Report propose des outils d'aide à la décision pour la restauration rapide et la restauration traditionnelle. Il se présente sous la forme d'un tableau de bord ergonomique dans lequel vous retrouverez tous vos indicateurs clés.
@@ -35,7 +34,7 @@ Food Report est accessible sur ordinateur, tablette ou smartphone.
 Connecter Food Report à HubRise permet à votre solution d'analyse de données de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
-- Recevoir les informations clients de HubRise. 
+- Recevoir les informations clients de HubRise.
 
 ---
 
