@@ -7,13 +7,11 @@ meta:
   description: How to manage HubRise Usage and Plans.
 ---
 
-The **SETTINGS** > **ACCOUNTS** > **Usage** section displays the number of orders and customers that have been processed through HubRise in the current [billing cycle](/docs/terminology#billing-cycles). It also shows the HubRise fee related to each of the Locations on your Account.
+The **SETTINGS** > **Usage** section displays the number of orders and customers that have been processed through HubRise in the current [billing cycle](/docs/terminology#billing-cycles). It also shows the HubRise fee related to each of the Locations on your Account.
 
-To view Usage details for an Account or Location:
-
-1. Select **SETTINGS** > **ACCOUNTS**.
-2. For profiles with multiple Accounts, select the specific Account to view. The **Usage** section will display across the entire Account and all of its Locations.
-3. To view information for one location, select the specific Location.
+To view Usage details for an Account or Location, go to **SETTINGS**.
+The **Usage** section shows the usage information about all of your Locations.
+To view information for one Location, select the specific Location.
 
 ## Usage Plans
 
@@ -27,12 +25,12 @@ It is possible to contact HubRise at [support@hubrise.com](mailto:support@hubris
 
 ## Plan Notifications
 
-When there is an issue with a plan, Account admins will receive an email and have a notification displayed when they log in to HubRise. Notifications can be sent and displayed in the HubRise back office for any reason involving payments or plan issues, such as:
+When there is an issue with a plan, Account admins will receive an email and have a notification displayed when they log in to HubRise. You might see notifications in the HubRise back office for any reason involving payments or plan issues, such as:
 
-- When a location has exceeded its free transactions limits and no payment method was saved in HubRise.
-- Credit card has expired and needs an update.
+- A Location has exceeded its free transactions limits and no payment method was saved in HubRise.
+- The credit card has expired and you need to update it.
 - The credit card cannot be processed after a couple of automated payment attempts. For safety reasons, your bank might require you to enter the 3-digit security code again.
-- A credit card has been saved in HubRise for payments but outstanding quotes have not been paid. For more information, see [Process Pending Quotes](/docs/payment/#process-pending-quotes).
+- The credit card has been saved in HubRise for payments but outstanding quotes have not been paid. For more information, see [Process Pending Quotes](/docs/payment/#process-pending-quotes).
 
 If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information on available plans, see [Usage Plans](#usage-plans).
 
@@ -48,9 +46,9 @@ If a payment notification appears, click the link and follow the instructions to
 
 You can change your plan to best meet your needs and the traffic of your business at any time without being over charged. For more details, see [Usage Plans](#usage-plans).
 
-To change your plan for a location:
+To change your plan for a Location, follow these steps:
 
-1. Select **SETTINGS** > **ACCOUNTS**.
+1. Select **SETTINGS**.
 2. For users with multiple Accounts, select the Account containing the specific Location.
 3. Click the Location to update.
 4. Under **Usage**, select **Change plan**.

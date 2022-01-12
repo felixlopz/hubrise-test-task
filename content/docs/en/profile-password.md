@@ -7,12 +7,13 @@ meta:
   description: How to manage your profile and password on HubRise.
 ---
 
-The profile page on **SETTINGS** > **PROFILE** displays your user information, and allows you to update it or change your password.
+The Profile page displays your User profile information, and allows you to update it or change your password.
+To access the Profile page, click your name at the top right corner of the back office, then click **Profile**.
 
-To update your user profile:
+To update your User profile:
 
 1. Click **Modify**.
-2. Update your name, email address, or correspondence language. The **Correspondence Language** sets all communications (emails, etc) from HubRise to you as the specified language.
+2. Update your name, email address, or correspondence language. The **Correspondence Language** sets all communications from HubRise to you as the specified language.
 3. Select **Update**.
 
 ---
@@ -25,10 +26,9 @@ To update your user profile:
 
 To update your password:
 
-1. Select **SETTINGS** > **PROFILE**.
-2. Enter your current password in the **Current password** field.
-3. Enter your new password in **New password** and **Confirm new password** fields. Both fields must match.
-4. Click **Update**.
+1. Enter your current password in the **Current password** field.
+1. Enter your new password in **New password** and **Confirm new password** fields. Both fields must match.
+1. Click **Update**.
 
 ![HubRise Change password](../images/055-en-2x-change-password.png)
 
@@ -47,7 +47,7 @@ To remove your granted permission to an Account, select the trash icon <InlineIm
 
 For more information, see [Permissions](/docs/permissions/).
 
-To create a new Account from the Profile page, select **Create Account**. For more information see [Create an Account](#account).
+To create a new Account from the Profile page, select **Create Account**. For more information see [Create an Account](/docs/account#create-an-account).
 
 ![HubRise My Permissions](../images/056-en-2x-my-permissions.png)
 
