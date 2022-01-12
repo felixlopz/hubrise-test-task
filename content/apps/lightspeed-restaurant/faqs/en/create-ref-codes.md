@@ -3,12 +3,12 @@ title: How Do I Create Ref Codes In Lightspeed?
 position: 5
 layout: documentation
 meta:
-  title: Create Ref Codes | Lightspeed Restaurant (K Series) | HubRise
-  description: Instructions to create Lightspeed Restaurant (K Series) ref codes needed for your EPOS to work with other connected apps, like online ordering platforms.
+  title: Create Ref Codes | Lightspeed Restaurant | HubRise
+  description: Instructions to create Lightspeed Restaurant ref codes needed for your EPOS to work with other connected apps, like online ordering platforms.
 ---
 
-If you connect iKentoo to delivery platforms such as Deliveroo, Uber Eats, and Just Eat, or to other online ordering solutions, you need to create special service types, payments, charges, and discounts for every platform you support.
-To simplify troubleshooting, we recommend that you use the specific codes provided in the page [Food ordering platforms](/apps/ikentoo-lightspeed/food-ordering-platforms).
+If you connect Lightspeed Restaurant to delivery platforms such as Deliveroo, Uber Eats, and Just Eat, or to other online ordering solutions, you need to create special service types, payments, charges, and discounts for every platform you support.
+To simplify troubleshooting, we recommend that you use the specific codes provided in the page [Food ordering platforms](/apps/lightspeed-restaurant/food-ordering-platforms).
 
 To create the ref codes in your Lightspeed account, you have these two options:
 
@@ -31,7 +31,7 @@ The following account profile codes are typically used, but may vary depending o
 - `DELIVERY`, for delivery orders.
 - `LOCAL`, for eat-in orders.
 
-Other specific service type ref codes must be used when you connect Lightspeed Restaurant (K Series) to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Food Ordering Platforms](/apps/ikentoo-lightspeed/food-ordering-platforms).
+Other specific service type ref codes must be used when you connect Lightspeed Restaurant to delivery platforms such as Deliveroo, Uber Eats, and Just Eat. For more details, see [Food Ordering Platforms](/apps/lightspeed-restaurant/food-ordering-platforms).
 
 ## Discounts
 

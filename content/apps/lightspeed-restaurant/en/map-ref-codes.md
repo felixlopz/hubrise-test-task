@@ -3,23 +3,17 @@ title: Map Ref Codes
 position: 4
 layout: documentation
 meta:
-  title: Map Ref Codes | Lightspeed Restaurant (K Series) | HubRise
-  description: Instructions on mapping Lightspeed Restaurant (K Series) product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
----
-
----
-
-**IMPORTANT NOTE:** Lightspeed Restaurant (K Series) was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
-
+  title: Map Ref Codes | Lightspeed Restaurant | HubRise
+  description: Instructions on mapping Lightspeed Restaurant product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 Lightspeed expects all incoming orders to contain specific ref codes for each sku, option, deal, discount, charge, service type, and payment present. You must ensure that all connected apps use the correct ref codes if you want your orders to be correctly processed.
 
 This page explains how to find the ref codes by either downloading your Lightspeed catalog in bulk, or by checking individual items in the back office.
 
-You can also export your Lightspeed catalog directly into HubRise with iKentoo Bridge.
+You can also export your Lightspeed catalog directly into HubRise with Lightspeed Restaurant Bridge.
 Some connected apps offer the ability to import the catalog directly from HubRise, and therefore to autopopulate the ref codes.
-For more details about this feature and its limitations in iKentoo Bridge, see [Pushing the Catalog](/apps/ikentoo-lightspeed/pushing-catalog).
+For more details about this feature and its limitations in Lightspeed Restaurant Bridge, see [Pushing the Catalog](/apps/lightspeed-restaurant/pushing-catalog).
 
 ## Downloading The Catalog In Bulk
 
@@ -51,7 +45,7 @@ To find the ref codes for specific skus and options, follow these steps.
 
 You can then copy the codes in the connected app. For detailed instructions, follow the documentation for the connected app in the HubRise website.
 
-If you created charges as skus, as described in [Create Ref Codes](/apps/ikentoo-lightspeed/create-ref-codes#charges), you will find their ref codes in the same way as above.
+If you created charges as skus, as described in [Create Ref Codes](/apps/lightspeed-restaurant/create-ref-codes#charges), you will find their ref codes in the same way as above.
 
 ### Service Types
 
