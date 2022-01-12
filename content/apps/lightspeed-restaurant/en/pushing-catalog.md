@@ -3,8 +3,8 @@ title: Pushing The Catalog
 position: 9
 layout: documentation
 meta:
-  title: Pushing The Catalog | Lightspeed Restaurant (K Series) | HubRise
-  description: Find out how to push the catalog from your Lightspeed Restaurant (K Series) EPOS to HubRise, what information is sent to HubRise and what is not.
+  title: Pushing The Catalog | Lightspeed Restaurant | HubRise
+  description: Find out how to push the catalog from your Lightspeed Restaurant EPOS to HubRise, what information is sent to HubRise and what is not.
 ---
 
 This page describes how to export your Lightspeed catalog and what information is sent to HubRise.
@@ -13,8 +13,8 @@ This page describes how to export your Lightspeed catalog and what information i
 
 To export your Lightspeed catalog to HubRise, follow these steps.
 
-1. From the iKentoo Bridge main page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/001-arrow.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
-1. From the **Actions** section at the bottom of the page, click on **Pull menu from iKentoo**.
+1. From the Lightspeed Restaurant Bridge main page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/001-arrow.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
+1. From the **Actions** section at the bottom of the page, click on **Pull menu from Lightspeed Restaurant**.
 1. Click **Confirm** when prompted.
 
 ---
@@ -37,7 +37,7 @@ The category name is sent to HubRise, while category ref code and descriptions a
 
 ### Products and Skus
 
-Lightspeed supports skus, but not products. For every item in the Lightspeed catalog, iKentoo Bridge creates a corresponding sku in HubRise with the following information (if available):
+Lightspeed supports skus, but not products. For every item in the Lightspeed catalog, Lightspeed Restaurant Bridge creates a corresponding sku in HubRise with the following information (if available):
 
 - Sku name.
 - Sku ref code.

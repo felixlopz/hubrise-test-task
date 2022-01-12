@@ -43,12 +43,6 @@ content:
           title: iiko
           description: iiko est une solution cloud facile à déployer et à faire évoluer. Plus de 30.000 entreprises mono ou multisites l'utilisent pour automatiser leurs opérations.
           additional_info: Intégration en cours.
-        - website: https://www.ikentoo.com
-          documentation: /apps/ikentoo-lightspeed
-          logo: ikentoo-lightspeed.png
-          title: Lightspeed K Series / iKentoo
-          description: iKentoo Lightspeed K Series est une caisse enregistreuse cloud sur iPad pour la restauration et l'hôtellerie, avec une forte présence à l'international.
-          additional_info:
         - website: https://www.jdc.fr/caisse-enregistreuse
           documentation: /apps/jalia
           logo: jalia.png
@@ -67,10 +61,10 @@ content:
           description: LEO2 est un logiciel de caisse développé par Atoo. LEO2 s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les épiceries, les bouchers ou encore les fleuristes.
           additional_info:
         - website: https://www.lightspeedhq.com
-          documentation: /apps/ikentoo-lightspeed
-          logo: lightspeed.png
-          title: Lightspeed K-Series / iKentoo
-          description: Lightspeed propose des solutions de gestion sur le cloud pour les commerces et les restaurants dans plus de 100 pays. Son design soigné et son interface intuitive permettent la gestion sur site, à distance ou en déplacement pour des entreprises mono et multisites.
+          documentation: /apps/lightspeed-restaurant
+          logo: lightspeed-restaurant.png
+          title: Lightspeed Restaurant (K-Series)
+          description: Lightspeed Restaurant est une solution de gestion cloud pour les restaurants, disponible dans plus de 100 pays. Son design soigné et son interface intuitive permettent la gestion sur site, à distance ou en déplacement pour des entreprises mono et multisites.
         - website: http://www.myorderboxhq.com
           documentation: /apps/myorderbox
           logo: myorderbox.png

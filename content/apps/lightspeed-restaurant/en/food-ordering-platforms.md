@@ -3,21 +3,15 @@ title: Food Ordering Platforms
 position: 6
 layout: documentation
 meta:
-  title: Food Ordering Platforms | Lightspeed Restaurant (K Series) | HubRise
-  description: Integrating Lightspeed Restaurant (K Series) with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
+  title: Food Ordering Platforms | Lightspeed Restaurant | HubRise
+  description: Integrating Lightspeed Restaurant with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 
----
-
-**IMPORTANT NOTE:** Lightspeed Restaurant (K Series) was formerly known as iKentoo. iKentoo Bridge will soon be renamed Lightspeed Bridge to align with the new name.
-
----
-
-To connect Lightspeed Restaurant (K Series) to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.
+To connect Lightspeed Restaurant to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.
 
 By convention, Lightspeed support team uses these predefined codes when they set up the integration. If you configure the Lightspeed back office autonomously, we recommend that you use the same codes, as this simplifies troubleshooting.
 
-For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes](/apps/ikentoo-lightspeed/faqs/create-ref-codes).
+For detailed instructions on how to create ref codes in the Lightspeed back office, see [Creating Ref Codes](/apps/lightspeed-restaurant/faqs/create-ref-codes).
 
 ---
 
@@ -153,7 +147,7 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 
 ---
 
-**IMPORTANT NOTE:** Product-level comments are not supported in Lightspeed Restaurant (K Series). Therefore, if your customers include product-level comments in an order, you will not be able to see them. To prevent this, product-level comments are automatically disabled on your Uber Eats store when you connect it to HubRise.
+**IMPORTANT NOTE:** Product-level comments are not supported in Lightspeed Restaurant. Therefore, if your customers include product-level comments in an order, you will not be able to see them. To prevent this, product-level comments are automatically disabled on your Uber Eats store when you connect it to HubRise.
 
 If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
 
