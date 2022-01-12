@@ -15,7 +15,7 @@ First, set your payment method:
 4. If there is no existing payment method, click **Add payment method**. Enter your credit card information. Credit cards must be valid to be accepted.
 5. When finished, click **Save**.
 
-<video controls title="Add payment type"><source src="../images/040-en-settings-payment-add-payment-type.webm" type="video/webm"/></video>
+<video controls title="Add payment type"><source src="../../images/040-en-settings-payment-add-payment-type.webm" type="video/webm"/></video>
 
 Once you have your credit card saved, your plan will upgrade automatically if you exceed your current plan. To validate the first payment, it is recommended for you to upgrade the plan manually and enter your CVC code when prompted.
 

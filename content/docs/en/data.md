@@ -7,7 +7,7 @@ meta:
   description: How connections to HubRise can be managed.
 ---
 
-The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](/docs/getting-started/#accounts-and-locations).
+The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](/docs/get-started/#accounts-and-locations).
 
 ## Orders
 

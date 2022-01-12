@@ -1,13 +1,13 @@
 ---
-title: Connections
+title: Apps and Connections
 position: 5
 layout: documentation
 meta:
-  title: Connections | HubRise
+  title: Apps and Connections | HubRise
   description: How connections to HubRise can be managed.
 ---
 
-From Connections, you can connect new apps and see apps connected to your HubRise Account.
+You can connect new apps and see apps connected to your HubRise Account from the **CONNECTIONS** page.
 
 Apps are connected either with a HubRise Account or Location, depending on the app.
 For example, EPOS or online ordering systems typically connect to a Location, while marketing solutions connect to either the Account or Locations.
@@ -18,7 +18,7 @@ For example, EPOS or online ordering systems typically connect to a Location, wh
 
 ---
 
-## Connecting a New App
+## Connect a New App
 
 To connect a new app to your HubRise Account:
 

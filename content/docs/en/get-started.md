@@ -1,14 +1,13 @@
 ---
-title: Getting Started
+title: Get Started
 position: 3
 layout: documentation
 meta:
-  title: Getting Started | HubRise
+  title: Get Started | HubRise
   description: Instructions on starting with LivePepper and HubRise connection.
 ---
 
 You can access HubRise from a web browser on any device: your desktop, tablet, or smartphone.
-
 
 ## Create a User Profile
 
@@ -57,21 +56,17 @@ To create a new Account and its first associated location, enter the information
 
 The HubRise interface is organised into the following sections:
 
-- **Dashboard**: A quick overview of your organisation's sales, orders, and new customers.
+- **Dashboard**: Get an overview of your organisation's sales, orders, and new customers.
 - **Connections**: Connect new applications to your HubRise Account, and manage your existing connections.
 - **Data**: View orders, catalogs, and customers across your locations.
 - **Settings**: Add new locations, manage employee access and roles, view payment history or payment methods, and developer access to integrate applications with HubRise.
 
 ![HubRise dashboard](../images/078-en-hubrise-dashboard.png)
 
-If you want to get an overall view of an Account's performance, select all Locations. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
+If you want to get an overall view of an Account's performance, select **All locations**. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
 
 - For users with multiple Accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Account** and select the Account to display.
 - To display data on all Locations or for a specific Location, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Location** and select either **All locations** or the specific location.
-
-<video controls title="Display account from Dashboard">
-  <source src="../images/008-en-access-account-from-dashboard.webm" type="video/webm"/>
-</video>
 
 ## Log Out
 

@@ -9,11 +9,12 @@ meta:
 
 Permissions are a way to control the actions that Users can take on your Account and Locations. You can change the permissions level for a User by assigning different roles from the **Permissions** section in the **SETTINGS** page.
 
- HubRise supports the following roles:
+## HubRise Roles
 
-- **Admin**: Admins have access to all areas of HubRise, including invoices. They are responsible for keeping the payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users.
-- **Manager**: Managers have access to all areas except HubRise invoices. They will not receive notifications emails on outstanding payments to HubRise.
+HubRise supports two roles: Admins and Managers.
 
+- **Admin** have access to all areas of HubRise, including invoices. They are responsible for keeping the payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users.
+- **Manager** have access to all areas except HubRise invoices. They will not receive notifications emails on outstanding payments to HubRise.
 
 You can also view and edit your own permissions from your User profile. For more information, see [Profile and Password](/docs/profile-password/).
 

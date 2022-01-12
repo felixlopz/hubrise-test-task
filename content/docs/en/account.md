@@ -7,7 +7,7 @@ meta:
   description: How to manage HubRise Accounts.
 ---
 
-As described in [Accounts and Locations](/docs/terminology/#accounts-and-locations), Accounts refers to the brand, and contains one or more Locations.
+As described in [Accounts and Locations](/docs/terminology/#accounts-and-locations), an Account refers to the brand, and contains one or more Locations.
 
 The **SETTINGS** page displays information about your Account and allows you to make configuration changes.
 You can also make changes to any individual Location that is part of the Account.
