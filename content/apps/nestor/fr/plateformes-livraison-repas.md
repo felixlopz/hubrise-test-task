@@ -32,20 +32,23 @@ Pour savoir comment accéder à cette page, consultez l'aide sur la [configurati
 
 Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivants.
 
-| Section             | Nom                                  | Code ref                                                          |
-| ------------------- | ------------------------------------ | ----------------------------------------------------------------- |
-| Types de service    | Code ref livraison Uber              | `UELIV`                                                           |
-| Types de service    | Code ref livraison par le restaurant | `UELIVR`                                                          |
-| Types de service    | Code ref à emporter                  | `UEEMP`                                                           |
-| Types de service    | Code ref sur place                   | `UEPLA`                                                           |
-| Articles spéciaux   | Code ref jetables                    | Créer un article `Jetables` dans Nestor et utiliser son code ref. |
-| Remises             | Code ref remise                      | (laisser vide)                                                    |
-| Paiements           | Code ref paiement                    | `UE`                                                              |
-| Statuts de commande | Marquer la commande comme Acceptée   | `Lorsque le statut HubRise passe à "Reçue"`                       |
-| Statuts de commande | Marquer la commande comme Rejetée    | `Lorsque le statut HubRise passe à "Rejetée"`                     |
-| Statuts de commande | Marquer la commande comme Annulée    | `Lorsque le statut HubRise passe à "Annulée"`                     |
+| Section             | Nom                                               | Code ref                                                          |
+| ------------------- | ------------------------------------------------- | ----------------------------------------------------------------- |
+| Types de service    | Code ref livraison Uber                           | `UELIV`                                                           |
+| Types de service    | Code ref livraison par le restaurant              | `UELIVR`                                                          |
+| Types de service    | Code ref à emporter                               | `UEEMP`                                                           |
+| Types de service    | Code ref sur place                                | `UEPLA`                                                           |
+| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans Nestor et utiliser son code ref. |
+| Remises             | Code ref remise                                   | (laisser vide)                                                    |
+| Paiements           | Code ref paiement                                 | `UE`                                                              |
+| Statuts de commande | Marquer la commande comme Acceptée                | `Lorsque le statut HubRise passe à "Reçue"`                       |
+| Statuts de commande | Marquer la commande comme Rejetée                 | `Lorsque le statut HubRise passe à "Rejetée"`                     |
+| Statuts de commande | Marquer la commande comme Annulée                 | `Lorsque le statut HubRise passe à "Annulée"`                     |
+| Menu                | Activer les notes de préparation sur les articles | Cocher la case                                                    |
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
+
+Nestor peut afficher les commentaires produits indiqués par vos clients lors du passage de leur commande.
 
 ## Just Eat
 
