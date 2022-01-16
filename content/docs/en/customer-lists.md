@@ -28,7 +28,7 @@ To add a customer list, follow these steps:
 1. Select **SETTINGS**.
 1. From the **Customer lists** section, click **Add a customer list**.
 1. Enter the name for the new customer list. The recommended naming convention is to name the Account customer list with the same name as your Account, and location customer lists as **Account Name - Location Name**. For example, your default Account customer list might be **Fast Pizza**, and the customer list for a location might be **Fast Pizza - Baker Street**.
-1. Click **Add a customer list** to save the new list.
+1. Click **Create** to save the new list.
 
 ## Customer List Details
 
@@ -46,7 +46,7 @@ To change the name of a customer list:
 1. In **SETTINGS**.
 1. In the **Customer lists** section, click the edit icon <InlineImage width="15" height="15">![Edit Icon](../images/028-en-pen-icon.png)</InlineImage> for the customer list to update.
 1. Enter the new name of the customer list.
-1. Click **Edit customer list** to save the changes.
+1. Click **Update** to save the changes.
 
 ![Edit or remove a customer list](../images/074-en-edit-remove-customer-list.png)
 
