@@ -59,7 +59,7 @@ Other HubRise status values are not supported and are not sent to Uber Eats.
 
 ### Change the status of an order in HubRise
 
-Uber Eats Bridge does not change order statuses in HubRise.
+When an order is cancelled by the eater on Uber Eats, it is marked as `cancelled` on HubRise.
 
 ## Service Types
 
