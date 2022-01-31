@@ -1,6 +1,6 @@
 .section {
   margin: $hr-block-padding auto;
-  @include flex();
+  display: flex;
   @include flex-grid-row();
   justify-content: center;
 

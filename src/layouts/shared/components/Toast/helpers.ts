@@ -1,8 +1,10 @@
 import { faCheck, faTimes, IconDefinition } from "@fortawesome/free-solid-svg-icons"
 
+export type ToastVariant = "success" | "error"
+
 export interface IToast {
   id: number
-  variant: "success" | "error"
+  variant: ToastVariant
   title: string
   text: string
   timeout?: number

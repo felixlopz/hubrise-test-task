@@ -2,8 +2,10 @@ import * as React from "react"
 import { graphql } from "gatsby"
 
 import { AppsContext } from "./interface"
-import { App, Developer, Hero, Nav } from "./components"
-import { AppImageNode } from "./components/App"
+import AppGroup, { AppImageNode } from "./AppGroup"
+import Developer from "./Developer"
+import Hero from "./Hero"
+import Nav from "./Nav"
 
 import SEO from "@layouts/shared/components/Seo"
 import { generateKey } from "@utils/misc"
@@ -59,7 +61,7 @@ const Apps = ({ data, pageContext, path }: AppsProps): JSX.Element => {
       {content.categories.map(({ title, apps, has_suggest_app }, idx) => {
         if (!categoryTitle || categoryTitle === title) {
           return (
-            <App
+            <AppGroup
               key={generateKey(title, idx)}
               title={title}
               showTitle={!categoryTitle}

@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react"
-import classNames from "classnames"
 import { useMedia } from "react-use"
 import { useTranslation } from "react-i18next"
 
 import { useSidebarData } from "./graphql"
 import { generateArchiveList, getArchiveTitle, getArchiveLink, getRecentArticles } from "./helpers"
+import { ArrowIcon, Menu, MenuItem, ItemLink, MenuList, MenuTitle, SearchIcon, SearchForm, SearchInput } from "./Styles"
 
-import Link from "@layouts/shared/components/Link"
 import { useLocaleCode } from "@utils/locales"
 
 interface SidebarProps {
@@ -52,61 +51,52 @@ const Sidebar = ({ onQueryChange, searchQuery, hideSearchInput = false }: Sideba
   }
 
   return (
-    <aside className="section__sidebar blog-sidebar">
+    <aside className="section__sidebar">
       {hideSearchInput ? null : (
-        <form className="blog-sidebar__search" onSubmit={handleSearchSubmit}>
-          <input
-            className="blog-sidebar__search-input"
+        <SearchForm onSubmit={handleSearchSubmit}>
+          <SearchInput
             type="text"
             placeholder={t("misc.search")}
             value={query}
             onChange={(event) => setQuery(event.target.value)}
           />
-          <i className="blog-sidebar__search-button fa fa-search" onClick={handleSearchSubmit} />
-        </form>
+          <SearchIcon className="fa fa-search" onClick={handleSearchSubmit} />
+        </SearchForm>
       )}
 
-      <div className={classNames("blog-sidebar__menu", !isRecentPostsExpanded && "blog-sidebar__menu_hidden")}>
-        <h5 className="blog-sidebar__menu-title" onClick={() => !isDesktop && setRecentPostsExpanded((prev) => !prev)}>
+      <Menu>
+        <MenuTitle onClick={() => !isDesktop && setRecentPostsExpanded((prev) => !prev)}>
           {t("misc.recent_posts")}
-          <i
-            className={classNames(
-              "blog-sidebar__menu-arrow",
-              isRecentPostsExpanded ? "fa fa-angle-up" : "fa fa-angle-down",
-            )}
-          />
-        </h5>
-        <ul className="blog-sidebar__menu-list">
-          {recentSidebarArticles.map((sidebarArticle, idx) => (
-            <li className="blog-sidebar__menu-item" key={idx}>
-              <Link to={sidebarArticle.path} addLocalePrefix={false} activeClassName="active">
-                {sidebarArticle.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+          <ArrowIcon className={isRecentPostsExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
+        </MenuTitle>
 
-      <div className={classNames("blog-sidebar__menu", !isArchiveExpanded && "blog-sidebar__menu_hidden")}>
-        <h5 className="blog-sidebar__menu-title" onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}>
-          {t("misc.archives")}
-          <i
-            className={classNames(
-              "blog-sidebar__menu-arrow",
-              isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down",
-            )}
-          />
-        </h5>
-        <ul className="blog-sidebar__menu-list">
-          {archiveList.map((archiveInfo) => (
-            <li className="blog-sidebar__menu-item" key={[archiveInfo.year, archiveInfo.month].join("_")}>
-              <Link to={getArchiveLink(archiveInfo)} activeClassName="active">
-                {getArchiveTitle(archiveInfo, t)}
-              </Link>
-            </li>
+        <MenuList $isSelected={isRecentPostsExpanded}>
+          {recentSidebarArticles.map((sidebarArticle, index) => (
+            <MenuItem key={index}>
+              <ItemLink to={sidebarArticle.path} addLocalePrefix={false} activeClassName="active">
+                {sidebarArticle.title}
+              </ItemLink>
+            </MenuItem>
           ))}
-        </ul>
-      </div>
+        </MenuList>
+      </Menu>
+
+      <Menu>
+        <MenuTitle onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}>
+          {t("misc.archives")}
+          <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
+        </MenuTitle>
+
+        <MenuList $isSelected={isArchiveExpanded}>
+          {archiveList.map((archiveInfo) => (
+            <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
+              <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">
+                {getArchiveTitle(archiveInfo, t)}
+              </ItemLink>
+            </MenuItem>
+          ))}
+        </MenuList>
+      </Menu>
     </aside>
   )
 }

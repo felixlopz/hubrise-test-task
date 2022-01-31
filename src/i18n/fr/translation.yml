@@ -71,30 +71,15 @@ forms:
     min: Ce champ doit contenir une valeur d'au moins {{ length }} caractères.
     required: Ce champ est obligatoire.
     # }
-    app_contact_required: Veuillez indiquer un contact.
-    app_name_required: Veuillez indiquer une société
     email: L'adresse email est invalide.
     email_required: Veuillez indiquer une adresse email.
-    first_name_required: Veuillez indiquer votre prénom.
-    last_name_required: Veuillez indiquer votre nom.
     message_min: Votre message doit contenir au moins {{ length }} caractères.
     message_required: Un message vide ?
     name_required: Veuillez indiquer votre nom.
-    password_min: Votre mot de passe doit contenir au moins {{ length }} symboles.
-    password_required: Veuillez choisir un mot de passe.
-  placeholders:
-    app_contact: Qui devons-nous contacter ?
-    app_extra: Quelque chose à ajouter ?
-    app_name: Nom de l'application
-    app_site: Site internet de l'application
-    company: Votre société
-    email: Votre email
-    first_name: Prénom
-    last_name: Nom
-    message: Votre message
-    name: Votre nom
-    password: Mot de passe
-    phone: Votre numéro de téléphone
   contact:
     button: Envoyer
     modal_title: Contactez-nous
+    placeholders:
+      email: Votre email
+      message: Votre message
+      name: Votre nom

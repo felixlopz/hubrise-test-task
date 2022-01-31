@@ -3,6 +3,7 @@ import * as React from "react"
 import { ToastContext, ToastAdder } from "./context"
 import Toast from "./Toast"
 import { IToast } from "./helpers"
+import { ToastGroup } from "./Styles"
 
 const ToastProvider: React.FC = ({ children }) => {
   const [toasts, setToasts] = React.useState<Array<IToast>>([])
@@ -19,11 +20,11 @@ const ToastProvider: React.FC = ({ children }) => {
 
   return (
     <ToastContext.Provider value={addToast}>
-      <div className="toast" data-test-id="toast-list">
+      <ToastGroup>
         {toasts.map((toast) => (
           <Toast key={toast.id} toast={toast} onClose={removeToast} />
         ))}
-      </div>
+      </ToastGroup>
 
       {children}
     </ToastContext.Provider>

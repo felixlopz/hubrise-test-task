@@ -41,7 +41,8 @@ const Link = ({
 
     // Add ?locale=xxx for HubRise back office.
     if (to.includes(`manager.hubrise.com`)) {
-      to = to + `?locale=${getLocale(localeCode)}`
+      const separator = to.includes("?") ? "&" : "?"
+      to = to + separator + `locale=${getLocale(localeCode)}`
     }
 
     let newTabProps = {}

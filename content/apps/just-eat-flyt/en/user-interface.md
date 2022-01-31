@@ -29,7 +29,6 @@ Clicking on a row will open a new page displaying the logs associated with the o
 
 ## Orders Page
 
-
 Selecting an order operation from the list in the main page will display all the logs of the API requests exchanged between HubRise and Just Eat via Just Eat Flyt Bridge.
 
 Requests are ordered with the latest on top, and those related to the same order event (order received, order cancelled, etc.) are visually grouped together.

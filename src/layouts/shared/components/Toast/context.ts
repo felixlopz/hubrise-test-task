@@ -2,7 +2,7 @@ import React, { useContext } from "react"
 
 import { IToast } from "./helpers"
 
-export type ToastAdder = (toast: Pick<IToast, "variant" | "title" | "text">) => void
+export type ToastAdder = (toast: Pick<IToast, "variant" | "title" | "text" | "timeout">) => void
 
 export const ToastContext = React.createContext<ToastAdder | undefined>(undefined)
 
