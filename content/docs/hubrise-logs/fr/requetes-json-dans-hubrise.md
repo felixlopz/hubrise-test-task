@@ -54,13 +54,13 @@ La méthode et l'URL constituent ensemble le point d'extrémité de la requête.
 
 La méthode HTTP de la requête est l'action qui doit être exécutée avec les données contenues dans la requête. Les méthodes typiques rencontrées dans les requêtes HubRise sont les suivantes.
 
-| Méthode HTTP | Description                                                                                                      |
-| ----------- | ---------------------------------------------------------------------------------------------------------------- |
-| GET         | Permet d'extraire des informations, généralement les détails relatifs à une commande ou un client.                          |
-| POST        | Permet de créer de nouvelles informations, généralement une nouvelle commande.                                                     |
-| PUT         | Permet de remplacer entièrement les informations déjà présentes dans le système par les données constitutives de la requête. |
-| PATCH       | Permet de remplacer partiellement les informations déjà présentes dans le système par les données constitutives de la requête.  |
-| DELETE      | Permet par exemple de définir des rappels passifs afin de supprimer des événements existants.                                         |
+| Méthode HTTP | Description                                                                                                                    |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| GET          | Permet d'extraire des informations, généralement les détails relatifs à une commande ou un client.                             |
+| POST         | Permet de créer de nouvelles informations, généralement une nouvelle commande.                                                 |
+| PUT          | Permet de remplacer entièrement les informations déjà présentes dans le système par les données constitutives de la requête.   |
+| PATCH        | Permet de remplacer partiellement les informations déjà présentes dans le système par les données constitutives de la requête. |
+| DELETE       | Permet par exemple de définir des rappels passifs afin de supprimer des événements existants.                                  |
 
 ### URL, domaine et chemin d'accès
 

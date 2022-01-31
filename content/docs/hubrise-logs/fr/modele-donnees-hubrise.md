@@ -15,40 +15,40 @@ Toutes les commandes reçues par HubRise sont enregistrées dans le back-office.
 
 Les clés suivantes peuvent apparaître dans une requête de commande HubRise.
 
-| Clé                  | Description                                                                                                                                                                                               |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `private_ref`        | ID interne de la commande. Ce paramètre permet de trouver une commande.                                                                                                                                           |
-| `service_type`       | Type du service demandé par le client. Les valeurs typiques sont « delivery » (livraison), « collection » (à emporter), « eat_in » (sur place).                                                                                                     |
-| `service_type_ref`   | Code associé au type de service (« service_type ») dans le système EPOS.                                                                                                                                                 |
-| `expected_time`      | Date et heure auxquelles le client s'attend à recevoir la commande.                                                                                                                                              |
-| `confirmed_time`     | Date et heure de livraison confirmées par l'expéditeur. Ce paramètre peut être spécifié dans le cas où il diffère de l'heure de livraison prévue par le client.                                                             |
+| Clé                  | Description                                                                                                                                                                                                                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `private_ref`        | ID interne de la commande. Ce paramètre permet de trouver une commande.                                                                                                                                                                                                                       |
+| `service_type`       | Type du service demandé par le client. Les valeurs typiques sont « delivery » (livraison), « collection » (à emporter), « eat_in » (sur place).                                                                                                                                               |
+| `service_type_ref`   | Code associé au type de service (« service_type ») dans le système EPOS.                                                                                                                                                                                                                      |
+| `expected_time`      | Date et heure auxquelles le client s'attend à recevoir la commande.                                                                                                                                                                                                                           |
+| `confirmed_time`     | Date et heure de livraison confirmées par l'expéditeur. Ce paramètre peut être spécifié dans le cas où il diffère de l'heure de livraison prévue par le client.                                                                                                                               |
 | `status`             | Statut de la commande. Les valeurs typiques sont par exemple « new » (nouvelle), « accepted » (acceptée), « received » (reçue) ou « rejected » (rejetée). Pour obtenir une liste complète, reportez-vous à la [Documentation du développeur](/developers/api/order-management/#order-status). |
-| `total`              | Montant réglé par le client.                                                                                                                                                                          |
-| `coupon_codes`       | Codes des coupons utilisés par le client.                                                                                                                                                                    |
-| `customer_id`        | ID client unique. Permet d'extraire les détails relatifs au client dans la base de données.                                                                                                                 |
-| `items`              | Liste des articles contenus dans la commande. Pour plus d'informations sur chaque article, voir [L'objet « item »](/docs/hubrise-logs/modele-donnees-hubrise#l-objet-item).                                                          |
-| `payments`           | Liste des moyens de paiement utilisés par le client. Pour plus d'informations sur chaque moyen de paiement, voir [L'objet « payment »](/docs/hubrise-logs/modele-donnees-hubrise#l-objet-payment).                        |
-| `deals`              | Liste des promotions présentes dans la commande. Une promotion est une combinaison de produits dont le prix est réduit lorsqu'ils sont achetés ensemble.                                                                            |
-| `discounts`          | Liste des codes de remise appliqués à l'ensemble de la commande. Une remise est soit un pourcentage, soit une valeur fixe qui est déduite du prix total de la commande.                                          |
-| `loyalty_operations` | Liste des opérations appliquées à la carte de fidélité du client. Chaque objet de la liste spécifie le nombre de points ajoutés ou retirés, ainsi que le motif.                                                    |
-| `charges`            | Liste des frais supplémentaires appliqués à la commande. Les cas typiques peuvent être les frais de livraison, frais de paiement, taxes, etc.                                                                                   |
+| `total`              | Montant réglé par le client.                                                                                                                                                                                                                                                                  |
+| `coupon_codes`       | Codes des coupons utilisés par le client.                                                                                                                                                                                                                                                     |
+| `customer_id`        | ID client unique. Permet d'extraire les détails relatifs au client dans la base de données.                                                                                                                                                                                                   |
+| `items`              | Liste des articles contenus dans la commande. Pour plus d'informations sur chaque article, voir [L'objet « item »](/docs/hubrise-logs/modele-donnees-hubrise#l-objet-item).                                                                                                                   |
+| `payments`           | Liste des moyens de paiement utilisés par le client. Pour plus d'informations sur chaque moyen de paiement, voir [L'objet « payment »](/docs/hubrise-logs/modele-donnees-hubrise#l-objet-payment).                                                                                            |
+| `deals`              | Liste des promotions présentes dans la commande. Une promotion est une combinaison de produits dont le prix est réduit lorsqu'ils sont achetés ensemble.                                                                                                                                      |
+| `discounts`          | Liste des codes de remise appliqués à l'ensemble de la commande. Une remise est soit un pourcentage, soit une valeur fixe qui est déduite du prix total de la commande.                                                                                                                       |
+| `loyalty_operations` | Liste des opérations appliquées à la carte de fidélité du client. Chaque objet de la liste spécifie le nombre de points ajoutés ou retirés, ainsi que le motif.                                                                                                                               |
+| `charges`            | Liste des frais supplémentaires appliqués à la commande. Les cas typiques peuvent être les frais de livraison, frais de paiement, taxes, etc.                                                                                                                                                 |
 
 ### L'objet « item »
 
 Chaque objet « item » inclus dans la liste des articles contient des informations sur un produit acheté par le client. Les clés suivantes peuvent apparaître dans l'objet « item » d'une commande.
 
-| Clé             | Description                                                                                              |
-| --------------- | -------------------------------------------------------------------------------------------------------- |
-| `product_name`  | Dénomination du produit.                                                                                 |
-| `sku_name`      | Nom de la référence du produit, indiquant généralement la taille ou le coloris.                                    |
-| `sku_ref`       | Code associé au produit. Indique le code de la solution d'encaissement.                                        |
-| `price`         | Prix d'un produit unitaire.                                                                           |
-| `quantity`      | Quantité commandée.                                                                                    |
+| Clé             | Description                                                                                                            |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `product_name`  | Dénomination du produit.                                                                                               |
+| `sku_name`      | Nom de la référence du produit, indiquant généralement la taille ou le coloris.                                        |
+| `sku_ref`       | Code associé au produit. Indique le code de la solution d'encaissement.                                                |
+| `price`         | Prix d'un produit unitaire.                                                                                            |
+| `quantity`      | Quantité commandée.                                                                                                    |
 | `subtotal`      | Prix total du produit (prix unitaire multiplié par la quantité).                                                       |
-| `options`       | Changements facultatifs (ingrédients ou garnitures) associés au produit.                              |
-| `deal_line`     | Si l'article fait partie d'une promotion, les informations relatives à celle-ci figurent sur cette ligne.                              |
+| `options`       | Changements facultatifs (ingrédients ou garnitures) associés au produit.                                               |
+| `deal_line`     | Si l'article fait partie d'une promotion, les informations relatives à celle-ci figurent sur cette ligne.              |
 | `points_earned` | Points cumulés par le client grâce à ce produit. Les points sont comptabilisés dans des objets « loyalty_operations ». |
-| `points_used`   | Points utilisés par le client avec à ce produit. Les points sont comptabilisés dans des objets « loyalty_operations ».   |
+| `points_used`   | Points utilisés par le client avec à ce produit. Les points sont comptabilisés dans des objets « loyalty_operations ». |
 
 ### L'objet « payment »
 
@@ -56,10 +56,10 @@ La liste des paiements indique les moyens de paiement utilisés par le client. D
 
 Les clés suivantes peuvent apparaître dans un objet « payment ».
 
-| Clé      | Description                                                                                                                                                                                                                                                   |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `type`   | Le type de paiement. Les options possibles sont `cash` (en espèces) ou `online` (en ligne).                                                                                                                                                                                                                  |
-| `name`   | Nom associé au mode de paiement.                                                                                                                                                                                                                  |
+| Clé      | Description                                                                                                                                                                                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `type`   | Le type de paiement. Les options possibles sont `cash` (en espèces) ou `online` (en ligne).                                                                                                                                                                                        |
+| `name`   | Nom associé au mode de paiement.                                                                                                                                                                                                                                                   |
 | `info`   | Informations supplémentaires associées au paiement, qui dépendent du mode de paiement effectif. Un paiement via PayPal, par exemple, comprend l'adresse électronique associée au compte ; pour les paiements par carte bancaire, il contient tous les détails concernant la carte. |
-| `ref`    | Code de la solution d'encaissement associée au mode de paiement concerné.                                                                                                                                                                                                              |
-| `amount` | Montant total réglé par le client.                                                                                                                                                                                                                        |
+| `ref`    | Code de la solution d'encaissement associée au mode de paiement concerné.                                                                                                                                                                                                          |
+| `amount` | Montant total réglé par le client.                                                                                                                                                                                                                                                 |
