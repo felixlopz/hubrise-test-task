@@ -32,7 +32,7 @@ Connecter Zelty à HubRise permet à votre solution d'encaissement de :
 
 ---
 
-**REMARQUE IMPORTANTE :** l'envoi des commandes et des informations clients à HubRise sera bientôt possible. Contactez Zelty pour plus d'information à ce sujet.
+**REMARQUE IMPORTANTE :** L'envoi des commandes et des informations clients à HubRise sera bientôt possible. Contactez Zelty pour plus d'information à ce sujet.
 
 ---
 
@@ -40,8 +40,8 @@ Connecter Zelty à HubRise permet à votre solution d'encaissement de :
 
 En connectant Zelty à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne.
 
-Synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat) et bien d'autres fonctions encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre page [Apps](/apps).
+Synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), et d'autres applications. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre page [Apps](/apps).
 
 ## Prérequis
 
-Pour établir la connexion entre Zelty et HubRise, vous devez disposer d'un compte Zelty existant.
+Pour établir la connexion entre Zelty et HubRise, vous devez disposer d'un compte Zelty.

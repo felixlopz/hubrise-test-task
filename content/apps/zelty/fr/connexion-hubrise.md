@@ -21,7 +21,7 @@ Pour activer la connexion entre Zelty et HubRise, procédez comme suit :
 
 ---
 
-**REMARQUE IMPORTANTE :** il se peut que vous deviez vous connecter à votre compte HubRise existant ou créer un nouveau compte HubRise pour mener le processus de connexion à son terme. Pour plus d'informations sur la création d'un profil utilisateur ou la connexion à HubRise, consultez notre [Guide de mise en route](/docs/getting-started).
+**REMARQUE IMPORTANTE :** Pour établir la connexion, vous devrez soit vous connecter à un compte HubRise existant, soit créer un nouveau compte HubRise. Pour plus d'informations sur la création d'un profil utilisateur ou la connexion à HubRise, consultez notre [Guide de démarrage](/docs/getting-started/).
 
 ---
 

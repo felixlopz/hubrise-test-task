@@ -7,8 +7,6 @@ meta:
   description: Troubleshooting Zelty connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-From time to time it may be necessary to troubleshoot certain issues with the connection between Zelty or HubRise. Should this need arise, the following information may be helpful.
-
 ## Verify the Connection to HubRise
 
 The first step when connection issues between Zelty and HubRise arise is to verify the connection.
