@@ -11,14 +11,8 @@ import { Folder, FolderFiles, getFolderPath, MDXDocumentationNode } from "./fold
  */
 export function getPagePath(folder: Folder, mdxNode: MDXDocumentationNode, localeCode: LocaleCode): string {
   const path = getFolderPath(folder, localeCode)
-
   const name = mdxNode.frontmatter.path_override || mdxNode.parent.name
-
-  if (name === "/") {
-    return path
-  } else {
-    return `${path}/${name}`
-  }
+  return mergePaths(path, name)
 }
 
 export function getFolderPages(folder: Folder, folderFiles: FolderFiles, localeCode: LocaleCode): Array<FolderPage> {
@@ -27,4 +21,14 @@ export function getFolderPages(folder: Folder, folderFiles: FolderFiles, localeC
     path: getPagePath(folder, node, localeCode),
     title: node.frontmatter.title,
   }))
+}
+
+export function mergePaths(...paths: Array<string>): string {
+  return (
+    "/" +
+    paths
+      .map((path) => path.replace(/(^\/)|(\/$)/g, ""))
+      .filter((path) => path.length > 0)
+      .join("/")
+  )
 }

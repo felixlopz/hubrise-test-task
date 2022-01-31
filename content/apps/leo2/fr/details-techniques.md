@@ -14,7 +14,7 @@ Les champs d'une commande HubRise sont utilisés de la façon suivante dans LEO2
 | Nom du champ HubRise | Utilisation dans LEO2                                                                                                                 |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | `service_type`       | Permet de savoir si la commande est en livraison, sur place, ou à emporter.                                                           |
-| `service_type_ref`   | Non utilisé.                                                                                                                          |
+| `service_type_ref`   | Identifiant du vendeur. Si vide, la commande est associée à un vendeur par défaut.                                                    |
 | `created_at`         | Date de création de la commande.                                                                                                      |
 | `expected_time`      | Heure et date auxquelles la commande sera prête ou livrée.                                                                            |
 | `item.sku_ref`       | Code permettant de retrouver le produit dans le catalogue LEO2.                                                                       |

@@ -68,7 +68,7 @@ When you first create your integration client, you should typically connect to H
 
 In more advanced scenarios where you read or modify the catalog of products, your solution should request `read` or `write` permission for the catalog, as well.
 
-For more information about scopes, see [OAuth scopes](/developers/authentication#oauth-scopes).
+For more information about scopes, see [OAuth scopes](/developers/api/authentication#oauth-scopes).
 
 ### Connection Workflow
 

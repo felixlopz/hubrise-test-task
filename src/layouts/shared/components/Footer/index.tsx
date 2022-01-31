@@ -1,8 +1,9 @@
 import * as React from "react"
 
+import { StyledFooter, Wrapper, Nav } from "./Styles"
 import Copyright from "./Copyright"
 import ScrollUpButton from "./ScrollUpButton"
-import FooterSection from "./FooterSection"
+import Section from "./Section"
 import { useFooterData } from "./graphql"
 
 import { getLocaleCodeFromAbsolutePath, useLocaleCode } from "@utils/locales"
@@ -19,19 +20,19 @@ const Footer: React.FC = (): JSX.Element => {
   const sections = footerNodeInLocale.childYaml.parsedContent.sections
 
   return (
-    <footer className="footer">
-      <div className="footer__nav-wrapper">
-        <div className="footer__nav footer-nav">
+    <StyledFooter>
+      <Wrapper>
+        <Nav>
           {sections.map((section, idx) => (
-            <FooterSection key={idx} {...section} />
+            <Section key={idx} {...section} />
           ))}
-        </div>
+        </Nav>
 
         <ScrollUpButton />
-      </div>
+      </Wrapper>
 
       <Copyright />
-    </footer>
+    </StyledFooter>
   )
 }
 

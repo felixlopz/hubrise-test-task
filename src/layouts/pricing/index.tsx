@@ -2,8 +2,8 @@ import * as React from "react"
 import { graphql } from "gatsby"
 
 import { IPricing } from "./interface"
-import Offer from "./components/Offer"
-import Specials from "./components/Specials"
+import Offer from "./Offer"
+import Specials from "./Specials"
 
 import SEO from "@layouts/shared/components/Seo"
 
