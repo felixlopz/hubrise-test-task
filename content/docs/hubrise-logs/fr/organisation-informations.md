@@ -4,12 +4,12 @@ position: 2
 layout: documentation
 meta:
   title: Organisation des informations | Comment lire les logs HubRise
-  description: Courte introduction aux clés/valeurs, objets et listes d'éléments en JSON afin de comprendre les logs et requêtes HubRise.
+  description: Introduction aux clés/valeurs, objets et listes d'éléments en JSON.
 ---
 
 ## Paires clé/valeur
 
-JSON est un format qui peut être utilisé pour décrire la relation entre un objet et ses caractéristiques. Par exemple, dans la phrase « La pizza est ronde », le mot « pizza » est l'objet, tandis que « ronde » est sa caractéristique.
+Le JSON est un format utilisé pour décrire la relation entre un objet et ses caractéristiques. Par exemple, dans la phrase « La pizza est ronde », le mot « pizza » est l'objet, tandis que « ronde » est l"une de ses caractéristiques.
 
 En des termes plus techniques, JSON est capable de stocker et de transférer des informations structurées en utilisant des nœuds constitués de paires clé/valeur. Chaque information élémentaire se divise en deux parties :
 
@@ -28,7 +28,7 @@ Dans le cas présent, « pizza » est la clé et « ronde » sa valeur. Note
 
 ## Imbrication d'objets JSON
 
-Dans le monde réel, un objet unique peut être associé à de nombreuses caractéristiques. Chaque caractéristique peut être liée à ses propres caractéristiques, en créant ainsi une structure profonde de connexions.
+Dans le monde réel, un objet unique peut être associé à de nombreuses caractéristiques. Et chaque caractéristique peut être liée aux caractéristiques elles-mêmes de l'objet, créant ainsi une structure arborescente de relations.
 
 Prenons par exemple la phrase : « La pizza margherita a une taille de 30 cm et un prix de 8 euros ». L'information principale, ou la clé principale, est « pizza margherita ». Elle est associée à deux caractéristiques : la taille et le prix, chacune ayant sa propre valeur.
 
@@ -53,7 +53,7 @@ Dans ce cas, un objet JSON est imbriqué dans l'objet principal. Sa présence es
 
 ## Listes d'éléments
 
-Dans certains cas, une même clé peut comporter plusieurs valeurs. Prenons par exemple la phrase : « Une pizza margherita a pour ingrédients des tomates et de la mozzarella ». La clé « ingrédients » est ici associée à deux valeurs concomitantes : « tomates » et « mozzarella ».
+Dans certains cas, une même clé peut comporter plusieurs valeurs. Prenons par exemple la phrase : « Une pizza margherita a pour ingrédients des tomates et de la mozzarella ». La clé « ingrédients » est ici associée à deux valeurs à la fois  : « tomates » et « mozzarella ».
 
 Cette situation est illustrée dans le diagramme suivant.
 
@@ -71,4 +71,4 @@ L'objet JSON correspondant à cet exemple serait le suivant.
 }
 ```
 
-Les crochets [] qui entourent les valeurs de la liste correspondent à la parenthèse utilisée dans le diagramme.
+Les crochets [] qui entourent les valeurs de la liste correspondent au crochet utilisé dans le diagramme.

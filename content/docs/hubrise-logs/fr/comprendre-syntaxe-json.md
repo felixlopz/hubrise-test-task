@@ -44,9 +44,9 @@ Une transcription possible de cette commande au format JSON est la suivante.
 
 ## Indentation
 
-Le premier aspect notable dans la requête JSON ci-dessus est l'indentation, c'est-à-dire la quantité d'espaces vides à gauche avant le début de la ligne.
+Une première remarque concernant la requête JSON ci-dessus est l'indentation, c'est-à-dire la quantité d'espace vide à gauche de chaque ligne.
 
-Au niveau 0 de l'indentation, les deux accolades marquent le début et la fin de la requête. Au niveau 1, on trouve les nœuds correspondant aux types d'article, de paiement et de service. Plus le niveau d'indentation est élevé, plus l'élément s'inscrit en profondeur dans la structure de l'objet JSON. Il est à noter que ces niveaux coïncident avec ceux du diagramme présenté précédemment. Pour plus de détails, voir [Organisation des informations](/docs/hubrise-logs/organisation-informations).
+Au niveau 0 de l'indentation, les deux accolades marquent le début et la fin de la requête. Au niveau 1, on trouve les nœuds correspondant aux types d'article, de paiement et de service. Plus le niveau d'indentation est élevé, plus l'élément s'inscrit en profondeur dans la structure de l'objet JSON. Notez que ces niveaux coïncident avec ceux du diagramme que nous avons créé précédemment. Pour plus de détails, voir [Organisation des informations](/docs/hubrise-logs/organisation-informations).
 
 Chaque niveau d'indentation dépend du niveau qui lui est hiérarchiquement supérieur. Pour savoir par exemple combien de hamburgers au bacon contient la commande, procédez comme suit :
 
@@ -56,11 +56,11 @@ Chaque niveau d'indentation dépend du niveau qui lui est hiérarchiquement sup�
 - Une fois que vous avez trouvé cet objet, cherchez le nœud correspondant à la quantité qui se trouve à l'intérieur.
 - Lisez la valeur associée au nœud de quantité.
 
-Cette méthode peut être suffisante pour vous permettre de parcourir n'importe quelle requête JSON afin de trouver les valeurs associées à une clé spécifique.
+Cette méthode vous permet de parcourir n'importe quelle requête JSON et de trouver les valeurs associées à une clé spécifique.
 
 ## Détails techniques
 
-Quelques détails techniques peuvent aider à la compréhension du fonctionnement des requêtes JSON.
+Quelques informations techniques peuvent vous aider à mieux comprendre le fonctionnement du JSON.
 
 Les accolades {} délimitent le début et la fin d'un objet JSON. Elles se trouvent donc toujours sur la première et la dernière lignes d'une requête.
 
@@ -70,7 +70,7 @@ Chaque clé doit être composée d'une chaîne de caractères, qui est général
 
 La valeur associée à une clé peut être l'une des options suivantes :
 
-- Une chaîne
+- Une chaîne de caractères
 - Une valeur numérique
 - Une valeur booléenne (True ou False)
 - Un objet JSON
