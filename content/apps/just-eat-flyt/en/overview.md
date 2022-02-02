@@ -37,6 +37,12 @@ Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
 
 ---
 
+---
+
+**IMPORTANT NOTE:** Tabletless integration is supported in certain markets, such as the UK market. To check if your market is supported, contact us. 
+
+---
+
 ## Integration Features
 
 Connecting Just Eat Flyt Bridge allows you to:
