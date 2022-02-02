@@ -1,15 +1,16 @@
 ---
 title: Profile and Password
-position: 16
+position: 6
 layout: documentation
 meta:
   title: Profile and Password | HubRise
   description: How to manage your profile and password on HubRise.
 ---
 
-The **Profile** page displays your User Profile information, and allows you to update it or change your password.
+The **Profile** page on HubRise displays your User Profile information, and allows you to update it or change your password.
+To access the Profile page, click your name at the top right corner of HubRise the back office, then click **Profile**.
 
-To access the Profile page, click your name at the top right corner of the back office, then click **Profile**.
+## Profile
 
 To update your User Profile:
 
@@ -25,6 +26,8 @@ To update your User Profile:
 
 ![HubRise User Profile](../images/054-en-2x-profile.png)
 
+## Password
+
 To update your password:
 
 1. Enter your current password in the **Current password** field.
@@ -33,22 +36,26 @@ To update your password:
 
 ![HubRise Change password](../images/055-en-2x-change-password.png)
 
-The Profile page includes information on your **Permissions**. This includes:
+## User Permissions
+
+The Profile page includes information on your User Profile **Permissions**. This includes:
 
 - The **Account** and **Location** that you have access to.
-- The **Role** you have been assigned for the Account or Location.
+- The **Role** you have been assigned for the Account or Location. It could be a Manager or an Admin role.
 
 To remove your granted permission to an Account, select the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>
 
 ---
 
-**IMPORTANT NOTE**: You cannot remove yourself from an Account if you are the last Admin. If you attempt to do so, an error message will be displayed. If you need to remove yourself as the last Admin for an Account, create another user as an Admin for that Account, then remove yourself.
+**IMPORTANT NOTE**: You cannot remove yourself from an Account if you are the only Admin. If you attempt to do so, an error message will be displayed. If you need to remove yourself as the last Admin for an Account, create another user as an Admin for that Account, then remove yourself.
 
 ---
 
 For more information, see [Permissions](/docs/permissions/).
 
-To create a new Account from the Profile page, select **Create Account**. For more information see [Create an Account](/docs/account#create-an-account).
+## User Account Creation
+
+To create a new Account from the Profile page, select **Create Account**. For more information, see [Create an Account](/docs/account#create-an-account).
 
 ![HubRise My Permissions](../images/056-en-2x-my-permissions.png)
 

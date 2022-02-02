@@ -1,34 +1,48 @@
 ---
 title: Apps and Connections
-position: 5
+position: 4
 layout: documentation
 meta:
   title: Apps and Connections | HubRise
   description: How connections to HubRise can be managed.
 ---
 
-You can connect new apps and see apps connected to your HubRise Account from the **CONNECTIONS** page.
+You can connect new apps and see apps connected to your HubRise Account from the **CONNECTIONS** page. From this same page you can view apps activity, and logs. You can also block apps activity or completely disconnect them.
 
-Apps are connected either with a HubRise Account or Location, depending on the app.
-For example, EPOS or online ordering systems typically connect to a Location, while marketing solutions connect to either the Account or Locations.
+## Available Apps
 
----
+HubRise is used to connect an ever growing ecosystem of solutions: EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), self ordering solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 
-**Related FAQ**: <Link to="/docs/faqs/what-app-can-i-connect-to-hubrise/">What App Can I Connect to HubRise?</Link>
-
----
+You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact [contact@hubrise.com](mailto:contact@hubrise.com) to find out if an integration is planned.
 
 ## Connect a New App
 
-To connect a new app to your HubRise Account:
+Apps are connected either with a HubRise Account or Location, depending on the app.
+For example, EPOS or online ordering systems typically connect to a Location, while marketing solutions connect to either the Account or Locations. Connection level depends on the data you need to share with the app.
+
+Some apps can be connected directly from the HubRise back office, while others require configuration from within the app before connection. For complete details, see the app documentation in the HubRise [Apps](/apps) page.
+
+To connect a new app to your HubRise Account from the HubRise back office:
 
 1. Log in to HubRise from the [HubRise Login page](https://manager.hubrise.com/login).
 1. Click **CONNECTIONS** on the left navigation panel.
 1. Select **View available apps**.
-1. Select the app you want to install.
-1. Follow the instructions for the specific app. When installing a new app, you will be required to grant the app access to your HubRise Account.
+1. Select **All locations** or the **Location** to connect.
+1. Select the app you want to install. If the app is not on this list, check the app documentation in the HubRise [Apps](/apps) page.
+1. Check instructions for the specific app and click **Connect**. When installing a new app, you will be required to grant the app access to your HubRise Account.
 
+-----
+
+**IMPORTANT NOTE**: Some apps can be connected at the **All locations** level, while others require a connection to the specific Location. The Connect button will be greyed-out if you have not selected the corresponding level.
+
+-----
+
+-----
+
+**IMPORTANT NOTE**:
 If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
+
+-----
 
 ## Open An App
 
@@ -40,7 +54,7 @@ Some apps can be accessed from HubRise. If so, you can open the app by clicking 
 
 ## View Connection Activity
 
-To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
+To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity** for the specific app. This is a handy way to see if transactions are going through the connection.
 
 <video controls title="Display activity for a connected app">
   <source src="../images/012-en-connections-display-activity.webm" type="video/webm"/>
@@ -109,5 +123,5 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 To disconnect a specific app from HubRise, follow these steps:
 
 1. Go to **CONNECTIONS**.
-2. Find the app you want to disconnect, then click **Actions** > **Disconnect**.
+2. Find the app you want to disconnect, then click **Actions** > **Disconnect** or **Block**.
 3. Click **Confirm**.

@@ -1,17 +1,17 @@
 ---
 title: Data
-position: 15
+position: 5
 layout: documentation
 meta:
   title: Data | HubRise
   description: How connections to HubRise can be managed.
 ---
 
-The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](/docs/get-started/#accounts-and-locations).
+The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display.
 
 ## Orders
 
-The **Orders** page displays your recent orders, with the most recent on top. For every order on the list, you can find the following attributes:
+The **ORDERS** page displays your recent orders, with the most recent on top. For every order on the list, you can find the following attributes:
 
 - **Date, time and unique ID**: The date, time, and unique identifier for the order.
 - **Location**: If you select **All locations**, this column shows the Location that received the order.
@@ -25,8 +25,9 @@ To filter orders by start and end date:
 1. Select **From** and **To** fields in and set the date ranges to filter by.
 1. Select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage> to filter records by these dates.
 1. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
-1. Click on the date of the order to view full details.
-1. To view the full details of the request, click the date and time. For more information see [Logs](/docs/data/#logs).
+
+Click on the date of the order to view full details.
+To view the full details of the request, click the date and time in the **Logs** section. For more information, see [Logs](/docs/data/#logs).
 
 ---
 
@@ -36,7 +37,7 @@ To filter orders by start and end date:
 
 ## Customers
 
-The **Customers** page displays the selected customer lists for the selected Account. Customers are ordered by reverse creation date.
+The **CUSTOMERS** page displays the selected customer lists for the selected Account. At any time, you can select which Account and Locations to display. Customers are ordered by reverse creation date.
 
 The records on this page display the following attributes:
 
@@ -51,17 +52,20 @@ To filter customers by name or email address:
 1. Click the **Search by name or email** field and enter the text to search for.
 1. Select the search icon to filter the customer records.
 1. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
-1. To see full details of a customer, click the customer name.
-1. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](/docs/data/#logs).
+
+To see full details of a customer, click the customer name.
+To see full log file details of all requests effecting customers, click **View logs**. For more information, see [Logs](/docs/data/#logs).
+
+To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-lists).
 
 ## Catalogs
 
-The **Catalogs** page displays the products offered in the selected Catalog.
+The **CATALOGS** page displays the products included in the selected Catalog.
 
-Connected apps that have access to your catalog can update the product list or import products into HubRise.
-For example, a connected EPOS would manage its catalog and transmit its information to HubRise.
+Connected apps that have access to your HubRise catalog can pull its product list or push new products into it.
+For example, a connected EPOS can push its product catalog into HubRise for an e-commerce website to use it.
 
-From the Catalogs page, you can view the catalogs imported into HubRise and the logs of the requests that made changes to the catalog.
+From the Catalogs page, you can view catalogs pushed into HubRise and logs of the requests that made changes to the catalog.
 
 ### View Catalog
 
@@ -90,7 +94,9 @@ For Deals and Discounts, you can see the following attributes:
 - **NAME**: The Deal or Discount name.
 - **REF CODE**: The unique identifier of the Deal or Discount from the source product management system.
 
-To see the full logs of all the requests that make changes to the catalogs, click **View logs**. For more information see [Logs](/docs/data/#logs).
+To see the full logs of all the requests that make changes to the catalogs, click **View logs**. For more information, see [Logs](/docs/data/#logs).
+
+To create, edit or remove a catalogs, see [Catalogs](/docs/catalog).
 
 ## Logs
 

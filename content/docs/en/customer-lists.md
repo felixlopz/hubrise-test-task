@@ -1,6 +1,6 @@
 ---
 title: Customer Lists
-position: 23
+position: 13
 layout: documentation
 meta:
   title: Customer Lists | HubRise
@@ -26,6 +26,7 @@ Adding or editing a customer list does not affect third party applications.
 To add a customer list, follow these steps:
 
 1. Select **SETTINGS**.
+1. To add the Customer list at Account level, verify **All locations** is selected. To add it to a Location, select the Location from the **Location** list.
 1. From the **Customer lists** section, click **Add a customer list**.
 1. Enter the name for the new customer list. The recommended naming convention is to name the Account customer list with the same name as your Account, and location customer lists as **Account Name - Location Name**. For example, your default Account customer list might be **Fast Pizza**, and the customer list for a location might be **Fast Pizza - Baker Street**.
 1. Click **Add a customer list** to save the new list.

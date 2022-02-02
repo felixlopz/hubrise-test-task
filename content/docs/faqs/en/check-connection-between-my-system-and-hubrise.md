@@ -11,10 +11,11 @@ There are a few different ways of verifying that the connection between your sys
 
 ### Check the Orders Coming In
 
-If orders are being made in an connected app, they can be viewed in HubRise through the following process:
+If orders are being made in a connected app, they can be viewed in HubRise through the following process:
 
-1. Click **DATA**, then **Orders**.
-1. At the top of the page, select the **Account** and in **Location** choose either **All locations** or the specific location to view.
+1. Click **ORDERS**.
+1. If you have access to multiple Accounts, select the Account you need to see.
+1. To see all Orders going through the Account, verify **All locations** is selected. You could select the location you want to view from the **Location** list to narrow the search down.
 1. If transactions are coming through you will see them here. Orders are displayed in reverse chronological order.
 
 For more details, see [Orders](/docs/data/#orders).
@@ -35,7 +36,7 @@ Apps connected to HubRise provide logs that help display the most recent request
 1. Click **CONNECTIONS**.
 1. For the specific App, click **Actions > View logs**.
 
-For more information, view [View Connection Logs](docs/connections/#view-connection-logs)
+For more information, view [View Connection Logs](/docs/connections/#view-connection-logs)
 
 ### Still Need Help?
 
