@@ -18,9 +18,9 @@ app_info:
 
 ## Description
 
-Expedy propose des imprimantes thermiques connectées aux restaurateurs et aux commerces de proximité.
+Expedy propose des imprimantes thermiques connectées aux restaurateurs et aux commerces de proximité. Les imprimantes Expedy permettent d'imprimer les tickets de commandes reçues depuis un site marchand ou depuis les plateformes de livraison de repas. Les tickets s'impriment sur une seule et même imprimante et le format d'impression peut-être personnalisé.
 
-Les imprimantes Expedy permettent d'imprimer les tickets de caisse de manière autonome, ainsi que les commandes reçues depuis un site marchand ou les plateformes de livraison de repas. Elles confirment aux solutions connectées l'impression sans encombre du ticket, et sont ainsi en mesure de changer le statut de la commande.
+Expedy Print est une solution d’impression autonome et à distance, elle confirme aux solutions connectées l'impression sans encombre du ticket et sont ainsi en mesure de changer le statut de la commande. La commande peut être imprimée en plusieurs exemplaires pour faciliter les tâches de transmission. Tout se fait automatiquement sans qu'une intervention humaine ne soit nécessaire. 
 
 Les imprimantes Expedy se connectent sur le réseau internet de l'établissement via le réseau WiFi ou Ethernet, ou au réseau téléphonique mobile avec une clé 4G. La configuration et la connexion aux applications externes se paramètrent depuis un back-office.
 
