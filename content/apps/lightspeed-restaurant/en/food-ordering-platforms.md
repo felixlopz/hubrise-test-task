@@ -25,14 +25,16 @@ If you prefer to let Lightspeed support configure these ref codes for you, make 
 | ---------------------- | ---------------------- |
 | Deliveroo              | `Deliveroo`            |
 | Eat.ch                 | `Eat.ch (EAT)`         |
-| Other online platforms | `HUBOLO`               |
 | Just Eat               | `Just Eat (JE)`        |
-| LivePepper             | `LivePepper`           |
-| ObyPay                 | `ObyPay`               |
-| Smood                  | `Smood`                |
 | Takeaway.com           | `Takeaway.com (TA)`    |
 | Thuisbezorgd.nl        | `Thuisbezorgd.nl (TH)` |
 | Uber Eats              | `Uber Eats`            |
+
+---
+
+**IMPORTANT NOTE:** For the codes for online ordering platforms such as LivePepper and ObiPay, see [Online Ordering Platforms](/apps/lightspeed-restaurant/online-ordering-platforms).
+
+---
 
 ## Deliveroo
 
