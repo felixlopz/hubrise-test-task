@@ -12,7 +12,7 @@ A suspended account cannot receive orders and cannot communicate with the connec
 
 To reactivate a suspended account, you need to pay for the subscription, and then reestablish the service. 
 
-### Register a Payment Method
+## Register a Payment Method
 
 To verify your registered payment method or add a new one to your HubRise Account, follow these steps:
 
@@ -23,7 +23,7 @@ To verify your registered payment method or add a new one to your HubRise Accoun
 1. Enter your credit card details.
 1. Click **Save**.
 
-### Pay the Outstanding Request for Payment
+## Pay the Outstanding Request for Payment
 
 To pay the outstanding payment request after you set up the payment method, follow these steps:
 
@@ -41,11 +41,11 @@ To pay the outstanding payment request after you set up the payment method, foll
 
 For more information about HubRise usage plans, see [Usage](/docs/usage-plan/).
 
-### Reestablish the service
+## Reestablish the service
 
 Once the payment of the outstanding **Requests for payment** is effective you can reactivate your **Account**, or your **Location**. 
 
 1. In your HubRise back office, click on **SETTINGS**.
-2. Depending on your set up, you might need to re-establish the at Account or Location levels. For Account level, verify **All locations** is selected.For Location level, select the Location from the **Location** list.
+2. Depending on your set up, you might need to re-establish the at Account or Location levels. For Account level, verify that **All locations** is selected. For Location level, select the Location from the **Location** list.
 3. Click **Re-establish the service immediately**.
 

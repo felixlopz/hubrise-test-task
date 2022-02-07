@@ -11,18 +11,18 @@ When you switch from a free plan to a paid plan, an email and a notice on the Hu
 
 To pay your first request for payment, you must register a payment method, check your billing details and pay online. 
 
-### Register a Payment Method
+## Register a Payment Method
 
 To verify your registered payment method or add a new one to your HubRise Account, follow these steps:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com/login).
 1. Click on **SETTINGS**.
-1. To pay all at Account level, verify **All locations** is selected. To pay invoices per Location, select the Location from the **Location** list.  For more information, see [Account or Location Payments](/docs/payment#account-or-location-payments).
+1. To pay all at Account level, verify that **All locations** is selected. To pay invoices per Location, select the Location from the **Location** list.  For more information, see [Account or Location Payments](/docs/payment#account-or-location-payments).
 1. In the **Payment** section, review your payment method details. If there is no existing payment method, click **Add payment method**.
 1. Enter your credit card details.
 1. Click **Save**.
 
-### Check Your Billing Information
+## Check Your Billing Information
 
 To verify your billing information at Account level, follow these steps:
 
@@ -34,12 +34,12 @@ To verify your billing information at Account level, follow these steps:
 
 Follow the exact same steps to verify your billing information for payment at Location level but click **Modify location**. For step by step information, see [Account or Location Payments](/docs/payment#billing-information-at-location-level).
 
-### Pay the Request for Payment
+## Pay the Request for Payment
 
 After you set up the payment method, you can manually pay for your first invoice. Follow these steps:
 
 1. In your HubRise back office, click on **SETTINGS**.
-2. In the **Requests for payment** section, review the details of the outstanding payment. You can see the description of the payment, the payment deadline, and the total amount due. Depending on your set up, requests for payment might be available at Account or Location levels.
+2. In the **Requests for payment** section, review the details of the outstanding payment. You can see the description of the payment, the payment deadline, and the total amount due. Depending on your setup, requests for payment might be available at Account or Location levels.
 3. To pay your invoice, click on the <InlineImage width="17" height="17">![Cart icon](../../images/068-cart-icon.png)</InlineImage> cart icon under **PAY**.
    ![Pay your first invoice for an outstanding HubRise invoice](../../images/069-en-outstanding-payment.png)
 4. Follow the instructions on screen to authorise the payment.

@@ -13,8 +13,8 @@ Permissions are a way to control the actions that Users can take on your Account
 
 HubRise supports two roles: Admins and Managers.
 
-- **Admin** have access to all areas of HubRise, including invoices. They are responsible for keeping the payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users and disconnect apps from HubRise.
-- **Manager** have access to all areas except HubRise invoices. They will not receive notifications emails on outstanding payments to HubRise. They can connect apps to HuBRise but not disconnect them.
+- **Admins** have access to all areas of HubRise, including invoices. They are responsible for keeping the payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users and disconnect apps from HubRise.
+- **Managers** have access to all areas except HubRise invoices. They will not receive notifications emails on outstanding payments to HubRise. They can connect apps to HubRise but not disconnect them.
 
 You can also view and edit your own permissions from your User profile. For more information, see [Profile and Password](/docs/profile-password/).
 

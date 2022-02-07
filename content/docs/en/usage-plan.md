@@ -13,13 +13,13 @@ In the **SETTINGS** > **Usage** section you can see the number of orders and cus
 
 To view Usage details for an Account or Location: 
 1. Go to **SETTINGS**.
-1. For users with access to multiple Accounts, select the Account in the **Account** dropdown.  
+1. For users with access to multiple Accounts, select the Account from the **Account** dropdown.  
 1. Select **All locations**. The **Usage** section shows the usage information for all Locations for which the HubRise subscription is paid at Account level.
 1. Select the specific Location using the **Location** dropdown to see Locations for which the HubRise subscription is paid at the Location level. 
 
 ----
 
-**IMPORTANT NOTE**: You will not necessarily see all Locations in the **Usage** section if **All locations** is selected. If a location is missing from this list, select the missing location in the **Location** dropdown. It means the subscription [payment](/docs/payment) is set at Location level.
+**IMPORTANT NOTE**: You will not necessarily see all Locations in the **Usage** section if **All locations** is selected. If a location is missing from this list, select the missing location from the **Location** dropdown. It means the subscription [payment](/docs/payment) is set at Location level.
 
 ----
 
@@ -61,7 +61,7 @@ To change your plan for a Location, follow these steps:
 
 1. Select **SETTINGS**.
 1. For users with access to multiple Accounts, select the Account containing the specific Location.
-1. Select the Location using the **Location** dropdown
+1. Select the Location from the **Location** dropdown.
 1. Under **Usage**, select **Change plan**.
 1. To set your plan to use the paid plan that allows more transactions a month, click **Upgrade**. To change the plan to one that allows fewer orders and customers a month, click **Downgrade**. Once you have reached the transaction limit for a free plan, the plan will automatically upgrade to the paid plan again.
 

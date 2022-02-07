@@ -7,11 +7,9 @@ meta:
   description: How to manage HubRise Locations.
 ---
 
-Locations are the different points of sales for an Account. It identifies the physical outlet. An Account might be associated with one or multiple Locations. You can switch from one Location to the other using the **Location** dropdown at the very top of the HubRise back office.
+Locations are the different points of sales for an Account. They identify the physical outlets. An Account might be associated with one or multiple Locations. You can switch from one Location to another using the **Location** dropdown at the very top of the HubRise back office.
 
-The **SETTINGS** page displays information about your Location and allows you to make configuration changes. You can also make changes to the Account by selecting **All locations** in the **Location** dorpdown.
-
-
+The **SETTINGS** page displays information about your Location and allows you to make configuration changes. You can also make changes to the Account by selecting **All locations** from the **Location** dropdown.
 
 ## Location Name and ID
 
@@ -21,7 +19,7 @@ Locations are displayed with:
 - The unique identifier for the Account they are associated with.
 - The number indicating in what order the Location was added (starting at zero).
 
-For example, **Baker Street z6q31-0** indicates the Location name of **Baker Street**, that it belongs to Account **z6q31**, and **-0** signifies it was the first Location added to this Account.
+For example, `Baker Street z6q31-0` indicates the Location name of `Baker Street`, that it belongs to Account `z6q31`, and `-0` signifies it was the first Location added to this Account.
 
 ------
 
@@ -35,7 +33,7 @@ To view Location details:
 
 1. Go to **SETTINGS**.
 1. If you have access to multiple Accounts, select the Account for the Location you need.
-1. In the **Location** dropdown, click on the Location's name.
+1. From the **Location** dropdown, click on the Location's name.
 
 Locations are managed in the same way as Accounts, but the information is specific to the selected Location.
 
@@ -54,8 +52,8 @@ The first Location must be created with the Account. For more information, see [
 To add a new Location to an existing Account:
 
 1. Click **SETTINGS**.
-1. If you have access to multiple Accounts, select the Account you need to add a Location into.
-1. In the **Account** section, click on **Add a location**.
+1. If you have access to multiple Accounts, select the Account you need to add a Location to.
+1. In the **Account** section, click **Add a location**.
 1. Enter the required information.
 1. Click **Create** to save the new Location.
 

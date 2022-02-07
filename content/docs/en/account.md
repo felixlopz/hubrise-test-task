@@ -7,7 +7,7 @@ meta:
   description: How to manage HubRise Accounts.
 ---
 
-An Account refers to the brand, and contains one or more Locations. Users on HubRise might have access to one to multiple Accounts. You can switch from one Account to the other using the **Account** dropdown at the very top of the HubRise back office.
+An Account refers to the brand, and contains one or more Locations. Users on HubRise might have access to one or multiple Accounts. You can switch from one Account to another using the **Account** dropdown at the very top of the HubRise back office.
 
 
 The **SETTINGS** page displays information about your Account and allows you to make configuration changes.
@@ -44,7 +44,7 @@ When creating a new Account, the first Location must be created at the same time
 
 The **Account Name** is the name you give your business or brand. For example, if your brand is called Fast Pizza, the **Account Name** will be `Fast Pizza`.
 
-The **Location Name** could be the city, the area, or the street name. For example, if the location is the only one in a town like London, the location could be named `London`. If you have multiple locations in London, you could name it after their street address `Baker Street`, `Dublin Street`, and `Duncannon Street`.
+The **Location Name** could be the city, the area, or the street name. For example, if the location is the only one in a town like London, the location could be named `London`. If you have multiple locations in London, you could name it after their street address, for example `Baker Street`, `Dublin Street`, and `Duncannon Street`.
 
 Finally, enter the correct **Currency** for the market that you operate in.
 

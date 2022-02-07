@@ -22,7 +22,7 @@ Account level payments are the default and preferred choice. If you have multipl
 
 However, if you have specific billing requirements or other business needs, you can set up a different payment method at the Location level. 
 
-### Switching To Location level Payment
+### Switching To Location Level Payment
 
 To set up a Location level payment for a specific Location, follow these steps:
 
@@ -32,7 +32,7 @@ To set up a Location level payment for a specific Location, follow these steps:
 1. Under **Payment**, click **Make the location pay**.
    ![Switch to Location level payment](../images/071-en-make-location-pay.png)
 
-### Switching To Account level Payment
+### Switching To Account Level Payment
 
 To set up an Account level payment for a specific Location, follow these steps:
 
@@ -49,7 +49,7 @@ Billing Cycles are always a month in duration, and start on the same calendar da
 For example, if you open your HubRise Account on March 17, your Billing Cycle goes from that day to April 16.
 The next billing date is April 17, and you will always be billed on the 17th of every following month.
 
-If you have set up a Location level payment for a specific Location, the Location billing cycle will match the Account billing cycle.
+If you have set up a Location level payment for a specific Location, the Location Billing Cycle will match the Account Billing Cycle.
 If the current billing date for the Location is different from that of the Account, the following situations can happen:
 
 - If the Location next billing date is before the Account next billing date, you immediately receive a prorated charge to align the Location next billing date to the Account's.
@@ -57,7 +57,7 @@ If the current billing date for the Location is different from that of the Accou
 
 ## Billing Information
 
-Depending on your set up, you might want to edit or verify your billing information at Account level or Location level. For more information, see [Account or Location Payments](/docs/payment#account-or-location-payments).
+Depending on your setup, you might want to edit or verify your billing information at Account level or Location level. For more information, see [Account or Location Payments](/docs/payment#account-or-location-payments).
 
 ### Billing Information at Account Level 
 
@@ -65,7 +65,7 @@ To edit or verify your billing inormation at Account level, follow these steps:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com/login).
 1. Click on **SETTINGS**.
-1. For billing details at Account level, verify **All locations** is selected. 
+1. For billing details at Account level, verify that **All locations** is selected. 
 1. In the **Account** section, click **Modify account**.
 1. Fill in the information required under **Billing details**. It is a legal requirement to include the Intra-Community VAT number.
 1. Click **Update**.
@@ -125,7 +125,7 @@ To view your payments history:
 
 1. Go to **SETTINGS**.
 1. If you have access to multiple Accounts, select the **Account** you are interested in.
-1. If payment is done at Account level, verify **All locations** is selected. If payment is done at Location level, select the Location from the **Location** list.
+1. If payment is done at Account level, verify that **All locations** is selected. If payment is done at Location level, select the Location from the **Location** list.
 1. Under **Payment**, click on **Payment history**. Payments are listed in reverse historical order, with the most recent payments displayed first. 
 
 The first time you make a payment, the payment is listed as an upgrade. Subsequent payments will be listed for the date of the [billing period](docs/payment#billing-cycles). Once you have a valid payment method saved, payments are automated.

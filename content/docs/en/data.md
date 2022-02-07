@@ -63,7 +63,7 @@ To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-
 The **CATALOGS** page displays the products included in the selected Catalog.
 
 Connected apps that have access to your HubRise catalog can pull its product list or push new products into it.
-For example, a connected EPOS can push its product catalog into HubRise for an e-commerce website to use it.
+For example, a connected EPOS can push its products catalog into HubRise for an e-commerce website to use it.
 
 From the Catalogs page, you can view catalogs pushed into HubRise and logs of the requests that made changes to the catalog.
 

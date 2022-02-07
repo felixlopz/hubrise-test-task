@@ -9,7 +9,7 @@ meta:
 
 There are a few different ways of verifying that the connection between your system or app to HubRise is working properly. The first step for all of these recommendations is to log in to HubRise through the [HubRise Login page](https://manager.hubrise.com/login).
 
-### Check the Orders Coming In
+## Check the Orders Coming In
 
 If orders are being made in a connected app, they can be viewed in HubRise through the following process:
 
@@ -20,7 +20,7 @@ If orders are being made in a connected app, they can be viewed in HubRise throu
 
 For more details, see [Orders](/docs/data/#orders).
 
-### View the App Activity
+## View the App Activity
 
 Each app displays the most recent activity as a graph. To check the activity for a specific app:
 
@@ -29,7 +29,7 @@ Each app displays the most recent activity as a graph. To check the activity for
 
 For more information, see [View Connection Activity](/docs/connections/#view-connection-activity).
 
-### View the App Logs
+## View the App Logs
 
 Apps connected to HubRise provide logs that help display the most recent requests, and the details behind it. To view an App's log files:
 
@@ -38,7 +38,7 @@ Apps connected to HubRise provide logs that help display the most recent request
 
 For more information, view [View Connection Logs](/docs/connections/#view-connection-logs)
 
-### Still Need Help?
+## Still Need Help?
 
 HubRise provides several different resources to help you.
 
