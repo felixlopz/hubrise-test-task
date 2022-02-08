@@ -1,5 +1,5 @@
 ---
-title: Why Are Some Products Not Exported To Just Eat?
+title: Do I Want Auto-Accept Activated on Just Eat?
 position: 1
 layout: documentation
 meta:

@@ -21,8 +21,9 @@ As a first step, the HubRise Flyt API integration must be enabled on your Just E
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
-- Your Just Eat Account Manager email address.
+- The email address of your Just Eat Account Manager.
 - The URL link of the Just Eat store you wish to connect. For example: [https://www.just-eat.ie/restaurants-saba-to-go-rathmines/](https://www.just-eat.ie/restaurants-saba-to-go-rathmines/).
+- The order acceptance mode you want to use for your store: `Activated` or `Deactivated`. For more details, see our [FAQ](/apps/just-eat-flyt/faqs/auto-accept).
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 
 With this information in hand, HubRise will request the Flyt integration team to enable the HubRise Flyt API integration for your store. Once this is done, the Flyt team will provide the required credentials to connect.
