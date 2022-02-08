@@ -20,7 +20,9 @@ app_info:
 
 Just Eat is an online food ordering and delivery service platform for restaurants and convenience stores. Customers can order food online or via a mobile app. The Just Eat headquarters is based in the United Kingdom, but the company operates in 13 different countries in Europe, Asia, America, and Oceania.
 
-In the UK, Ireland and Canada, Just Eat connects to your HubRise account through Just Eat Flyt Bridge, an app developed by HubRise.
+Flyt is the Just Eat Takeaway.com integration platform used to connect food delivery and ordering websites operated by Just Eat Takeaway.com. Flyt recently changed its name for Jet Connect.
+
+In the UK, Ireland and Canada, Just Eat connects to your HubRise account through Just Eat Flyt Bridge, an app developed by HubRise. 
 
 ## Available Platforms
 
@@ -33,7 +35,9 @@ Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
 
 ---
 
-**IMPORTANT NOTE:** If you wish to connect a store of the Just Eat Takeaway chain outside Ireland or the United Kingdom, you should use [Just Eat Takeaway Bridge](/apps/just-eat-takeaway/) instead.
+**IMPORTANT NOTE:** If you wish to connect a store of the Just Eat Takeaway.com chain outside the United Kingdom, Ireland or Canada, you should use [Just Eat Takeaway Bridge](/apps/just-eat-takeaway/) instead. 
+
+It is possible to connect other food delivery and ordering websites operated by Just Eat Takeaway.com in other European markets through the HubRise Just Eat Flyt Bridge if the Just Eat Flyt team validates it. Integration features might however differ from market to market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
 
 ---
 
