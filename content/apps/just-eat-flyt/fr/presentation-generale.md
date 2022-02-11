@@ -19,6 +19,12 @@ app_info:
 
 ---
 
+---
+
+**REMARQUE IMPORTANTE :** La tablette Just Eat ne peut être éteinte que pour le marché anglais. Just Eat Flyt ne permet pas l'intégration sans tablette sur les autres marchés.
+
+---
+
 ## Description
 
 Just Eat est une plateforme de services de commande et de livraison de repas en ligne destinée aux restaurants et aux commerces de proximité. Les clients peuvent commander des plats sur Internet ou via une application mobile. Le siège de Just Eat est situé au Royaume-Uni, mais l'entreprise est présente dans 13 pays différents en Europe, en Asie, en Amérique et en Océanie.

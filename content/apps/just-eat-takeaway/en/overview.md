@@ -40,6 +40,12 @@ Just Eat Takeaway Bridge allows you to connect the following platforms to HubRis
 
 ---
 
+---
+
+**IMPORTANT NOTE:** Tablets must remain switched on to receive orders in HubRise with the Just Eat Takeaway integration.
+
+---
+
 ## Integration Features
 
 Connecting Just Eat Takeaway Bridge allows you to:
