@@ -39,7 +39,7 @@ Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
 
 ---
 
-**IMPORTANT NOTE:** Tabletless integration is supported in certain markets, such as the UK market. To check if your market is supported, contact us. 
+**IMPORTANT NOTE:** The OrderPad can be switched off in the UK market only. The Just Eat Flyt integration does not support tabletless integrations in other markets.
 
 ---
 

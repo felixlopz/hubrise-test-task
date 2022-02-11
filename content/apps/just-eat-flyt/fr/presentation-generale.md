@@ -21,7 +21,7 @@ app_info:
 
 ---
 
-**REMARQUE IMPORTANTE :** L'intégration sans tablette est possible pour certains marchés, comme le marché anglais. Pour savoir si votre marché est couvert, contactez-nous.
+**REMARQUE IMPORTANTE :** La tablette Just Eat ne peut être éteinte que pour le marché anglais. Just Eat Flyt ne permet pas l'intégration sans tablette sur les autres marchés.
 
 ---
 

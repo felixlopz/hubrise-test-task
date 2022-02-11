@@ -24,7 +24,7 @@ app_info:
 
 ---
 
-**REMARQUE IMPORTANTE:** Les tablettes de commande doivent rester allumées pour recevoir les commandes dans HubRise avec l'intégration Just Eat Takeaway. Cependant, l'intégration Just Eat Flyt permet d'éteindre les tablettes, pour certains marchés. Contactez-nous pour vérifier votre éligibilité à cette intégration.
+**REMARQUE IMPORTANTE:** Les tablettes de commande doivent rester allumées pour recevoir les commandes dans HubRise avec l'intégration Just Eat Takeaway. 
 
 ---
 
