@@ -39,7 +39,7 @@ Flyt is available on the following Just Eat Takeaway.com platforms:
 
 ---
 
-It may be possible to connect a store operated by Just Eat Takeaway.com on another European market through Flyt, if the Just Eat Flyt team validates it. Integration features might however differ from market to market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
+Flyt is a more capable integration platform than the legacy Just Eat Takeaway integration platform. If you operate on a market not served by Flyt, it may still be possible to connect your store through Flyt if the Flyt team approves it. Not all integration features might however be available, depending on your market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
 
 ## Integration Features
 
