@@ -237,6 +237,11 @@ content:
           title: GonnaOrder
           description: GonnaOrder offers a cost-effective online ordering and payment system available in 14 countries. Via a branded website and native iOS and Android apps, GonnaOrder supports takeaway, delivery and table service orders for restaurants, bars, pubs, and cafes.
           additional_info:
+        - website: https://latoquemagique.com/
+          documentation: /apps/la-toque-magique
+          logo: la-toque-magique.png
+          title: La Toque Magique
+          description: La Toque Magique is an online ordering solution, optimised for SEO and social media. It lets you manage orders and deliveries from all channels including food ordering platforms in a single interface.
         - website: https://www.livepepper.com
           documentation: /apps/livepepper
           logo: livepepper.png
