@@ -236,11 +236,16 @@ content:
           title: GonnaOrder
           description: GonnaOrder propose un système de commande en ligne économique, disponible dans 14 pays. Via un site personnalisé et des applications iOS et Android natives, GonnaOrder permet de commander à emporter, en livraison ou à table dans des restaurants, bars, pubs et cafés.
           additional_info:
+        - website: https://latoquemagique.com/
+          documentation: /apps/la-toque-magique
+          logo: la-toque-magique.png
+          title: La Toque Magique
+          description: La Toque Magique est une solution de commande en ligne optimisée pour le SEO et les réseaux sociaux. Elle permet de regrouper sur une seule interface les commandes et les livraisons de tous les canaux, dont les plateformes de livraison de repas.
         - website: https://www.livepepper.fr
           documentation: /apps/livepepper
           logo: livepepper.png
           title: LivePepper
-          description: LivePepper est un solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
+          description: LivePepper est une solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
           additional_info:
         - website: https://maakyo.com/
           documentation: /apps/maakyo

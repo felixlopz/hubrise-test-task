@@ -1,6 +1,6 @@
 ---
 title: Map Ref Codes
-position: 4
+position: 5
 layout: documentation
 meta:
   title: Map Ref Codes | Lightspeed Restaurant | HubRise
