@@ -5,19 +5,23 @@ layout: documentation
 meta:
   title: Auto-Accept | Just Eat Flyt FAQs | HubRise
   description: This page explains the Just Eat Auto-Accept function when connecting the HubRise Just Eat Flyt Bridge.
+---
+
+if you don't want to use the Just Eat OrderPad, ask for Auto-Accept to be activated. When Auto-Accept is activated, orders are sent through HubRise directly to your connected EPOS, and you don't need to accept each order manually on the tablet.
+
+Just Eat does not encourage Auto-Accept, because of the risk of missing orders.
 
 ---
 
-By default Auto-Accept will be `Deactivated` when connecting the HubRise Just Eat Flyt Bridge.
+**IMPORTANT NOTE:** Even with Auto-Accept activated, the OrderPad will need to remain switched on to keep the store open.
 
-Ask for Auto-Accept to be `Activated` if you don't want to use the Just Eat OrderPad. When Auto-Accept is activated, orders are sent through HubRise directly to your connected EPOS. The OrderPad needs to be on to keep the store open.
+---
 
-Just Eat does not encourage Auto-Accept. There is an additional risk of missing orders.
+Auto-Accept is only available in some markets:
 
+- Ireland
+- Italy
+- Spain
+- The UK
 
-
------
-
-**IMPORTANT NOTE:** Auto-Accept possible in Ireland, Italy, Spain and the UK only. France, Netherlands, Belgium and Switzerland are on the Takeaway tech stack, Auto-Accept is not possible for these markets even if the Flyt API is used.
-
------
+France, Netherlands, Belgium, and Switzerland are on the Takeaway tech stack. Auto-Accept is not possible for these markets, even with the Just Eat Flyt integration.

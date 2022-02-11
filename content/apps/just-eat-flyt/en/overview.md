@@ -20,13 +20,13 @@ app_info:
 
 Just Eat is an online food ordering and delivery service platform for restaurants and convenience stores. Customers can order food online or via a mobile app. The Just Eat headquarters is based in the United Kingdom, but the company operates in 13 different countries in Europe, Asia, America, and Oceania.
 
-Flyt is the Just Eat Takeaway.com integration platform used to connect food delivery and ordering websites operated by Just Eat Takeaway.com. Flyt recently changed its name for Jet Connect.
+Flyt is the integration platform used to connect food delivery and ordering websites operated by Just Eat Takeaway.com on some markets. Flyt recently changed its name for JET Connect.
 
-In the UK, Ireland and Canada, Just Eat connects to your HubRise account through Just Eat Flyt Bridge, an app developed by HubRise. 
+In the UK, Ireland and Canada, Just Eat connects to your HubRise account through Just Eat Flyt Bridge, an app developed by HubRise.
 
 ## Available Platforms
 
-Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
+Flyt is available on the following Just Eat Takeaway.com platforms:
 
 - Just-Eat.co.uk
 - Just-Eat.ie
@@ -35,17 +35,11 @@ Just Eat Flyt Bridge allows you to connect to HubRise the following platforms:
 
 ---
 
-**IMPORTANT NOTE:** If you wish to connect a store of the Just Eat Takeaway.com chain outside the United Kingdom, Ireland or Canada, you should use [Just Eat Takeaway Bridge](/apps/just-eat-takeaway/) instead. 
-
-It is possible to connect other food delivery and ordering websites operated by Just Eat Takeaway.com in other European markets through the HubRise Just Eat Flyt Bridge if the Just Eat Flyt team validates it. Integration features might however differ from market to market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
+**IMPORTANT NOTE:** To connect a store on a different Just Eat Takeaway.com platform, you should use [Just Eat Takeaway Bridge](/apps/just-eat-takeaway/) instead.
 
 ---
 
----
-
-**IMPORTANT NOTE:** The OrderPad can be switched off in the UK market only. The Just Eat Flyt integration does not support tabletless integrations in other markets.
-
----
+It may be possible to connect a store operated by Just Eat Takeaway.com on another European market through Flyt, if the Just Eat Flyt team validates it. Integration features might however differ from market to market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
 
 ## Integration Features
 
@@ -57,6 +51,12 @@ Connecting Just Eat Flyt Bridge allows you to:
   ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for handling delivery information](../images/009-en-2x-just-eat-delivery-fleet-diagram.png)
 - Pull the menu from a HubRise catalog directly into your Just Eat store.
   ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for pulling the menu](../images/010-en-2x-just-eat-menu-push-diagram.png)
+
+---
+
+**IMPORTANT NOTE:** The Just Eat OrderPad will need to remain switched on to receive orders in HubRise.
+
+---
 
 Just Eat Flyt Bridge can be connected to HubRise from the HubRise back office.
 
