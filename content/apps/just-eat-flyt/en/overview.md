@@ -41,6 +41,12 @@ It is possible to connect other food delivery and ordering websites operated by 
 
 ---
 
+---
+
+**IMPORTANT NOTE:** The OrderPad can be switched off in the UK market only. The Just Eat Flyt integration does not support tabletless integrations in other markets.
+
+---
+
 ## Integration Features
 
 Connecting Just Eat Flyt Bridge allows you to:

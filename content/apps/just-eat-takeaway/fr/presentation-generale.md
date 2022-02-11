@@ -22,6 +22,12 @@ app_info:
 
 ---
 
+---
+
+**REMARQUE IMPORTANTE:** Les tablettes de commande doivent rester allumées pour recevoir les commandes dans HubRise avec l'intégration Just Eat Takeaway. 
+
+---
+
 ## Description
 
 Just Eat Takeaway.com est une plateforme de commande en ligne et de livraison pour les restaurants et les commerces de proximité. Les clients peuvent commander sur Internet ou via une application mobile. L'équipe d'assistance à l'intégration est basée aux Pays-Bas, mais l'entreprise opère dans 21 pays différents en Europe, en Asie, en Amérique et en Océanie.
