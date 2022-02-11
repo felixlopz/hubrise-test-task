@@ -48,7 +48,7 @@ Le dernier nœud situé au niveau supérieur de la commande est le type de servi
 
 Nous avons décomposé la commande initiale en trois nœuds d'information principaux. Pour chacun d'eux, nous avons énuméré leurs différentes caractéristiques. Nous avons organisé les informations de manière hiérarchique.
 
-Pour rendre la structure de la commande encore plus compréhensible, nous pouvons nous aider du schéma suivant. ![Structure des informations JSON](../images/003-en-2x-sample-order.png)
+Pour rendre la structure de la commande encore plus compréhensible, nous pouvons nous aider du schéma suivant. ![Structure des informations JSON](../images/003-fr-2x-sample-order.png)
 
 Les principaux nœuds situés au sommet de la commande concernent les « articles », le « paiement » et le « type de service ». Chacun de ces nœuds constitue le point de départ d'une connexion vers des niveaux d'information de plus en plus détaillés.
 

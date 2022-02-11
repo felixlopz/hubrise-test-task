@@ -1,6 +1,6 @@
 ---
 title: How Do I Create Ref Codes In Lightspeed?
-position: 5
+position: 3
 layout: documentation
 meta:
   title: Create Ref Codes | Lightspeed Restaurant | HubRise
@@ -8,12 +8,12 @@ meta:
 ---
 
 If you connect Lightspeed Restaurant to delivery platforms such as Deliveroo, Uber Eats, and Just Eat, or to other online ordering solutions, you need to create special service types, payments, charges, and discounts for every platform you support.
-To simplify troubleshooting, we recommend that you use the specific codes provided in the page [Food ordering platforms](/apps/lightspeed-restaurant/food-ordering-platforms).
+To simplify troubleshooting, we recommend that you use the specific codes provided in the [Food ordering platforms](/apps/lightspeed-restaurant/food-ordering-platforms) page.
 
-To create the ref codes in your Lightspeed account, you have these two options:
+To create the ref codes in your Lightspeed account, you have two options:
 
 1. You can contact Lightspeed support and ask them to include the codes in your back office for you.
-1. You can include these codes in your back office autonomously. In this case, follow the procedures below.
+1. You can include the ref codes in your back office autonomously. In this case, follow the procedures below.
 
 ## Service Types
 
