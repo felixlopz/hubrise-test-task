@@ -58,7 +58,7 @@ Si les autres applications connectées à votre compte HubRise ne vous permetten
 
 ---
 
-**REMARQUE IMPORTANTE :** les codes ref ne sont pas visibles dans l'interface utilisateur de Zelty. Vous pouvez les visualiser uniquement dans les catalogues HubRise et dans les exportations de cartes au format CSV ou Excel.
+**REMARQUE IMPORTANTE :** Les codes ref ne sont pas visibles dans l'interface utilisateur de Zelty. Vous pouvez les visualiser uniquement dans les catalogues HubRise et dans les exportations de cartes au format CSV ou Excel.
 
 ---
 
