@@ -37,7 +37,7 @@ Uber Eats Bridge permet de recevoir les commandes avec la tablette Uber Eats ét
 
 ---
 
-**REMARQUE IMPORTANTE :** le catalogue et la disponibilité des produits ne peuvent pas encore être synchronisés, mais HubRise prévoit de mettre en place cette fonctionnalité prochainement.
+**REMARQUE IMPORTANTE :** Le catalogue et la disponibilité des produits ne peuvent pas encore être synchronisés, mais HubRise prévoit de mettre en place cette fonctionnalité prochainement.
 
 ---
 
