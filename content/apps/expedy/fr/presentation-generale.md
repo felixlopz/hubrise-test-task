@@ -20,9 +20,9 @@ app_info:
 
 Expedy propose des imprimantes thermiques connectées aux restaurateurs et aux commerces de proximité. Les imprimantes Expedy permettent d'imprimer les tickets de commandes reçues depuis un site marchand ou depuis les plateformes de livraison de repas. Les tickets s'impriment sur une seule et même imprimante et le format d'impression peut-être personnalisé.
 
-Expedy Print est une solution d’impression autonome et à distance, elle confirme aux solutions connectées l'impression sans encombre du ticket et sont ainsi en mesure de changer le statut de la commande. La commande peut être imprimée en plusieurs exemplaires pour faciliter les tâches de transmission. Tout se fait automatiquement sans qu'une intervention humaine ne soit nécessaire. 
+Expedy Print est une solution d'impression autonome. Elle peut ainsi confirmer aux solutions connectées l'impression du ticket et changer le statut de la commande. La commande peut être imprimée en plusieurs exemplaires pour faciliter la préparation des commandes.
 
-Les imprimantes Expedy se connectent sur le réseau internet de l'établissement via le réseau WiFi ou Ethernet, ou au réseau téléphonique mobile avec une clé 4G. La configuration et la connexion aux applications externes se paramètrent depuis un back-office.
+Les imprimantes Expedy se connectent sur le réseau internet de l'établissement via le réseau WiFi ou Ethernet, ou au réseau téléphonique mobile avec une clé 4G. La configuration et la connexion aux applications externes se paramètrent depuis un back-office. Une fois configurées, les imprimantes Expedy fonctionnent sans intervention humaine.
 
 Si vous souhaitez conserver votre imprimante existante, Expedy propose le module Expedy PrintBox, compatible avec les imprimantes ESC/POS (Epson, Star, Brother, Toshiba, Zebra...). Ce module rend votre imprimante connectée, avec des fonctionnalités similaires aux imprimantes Expedy.
 
