@@ -37,7 +37,7 @@ To view the full details of the request, click the date and time in the **Logs**
 
 ## Customers
 
-The **CUSTOMERS** page displays the selected customer lists for the selected Account. At any time, you can select which Account and Locations to display. Customers are ordered by reverse creation date.
+The **CUSTOMERS** page displays the selected customer lists for the selected Account. Customers are ordered by reverse creation date.
 
 The records on this page display the following attributes:
 
@@ -65,7 +65,7 @@ The **CATALOGS** page displays the products included in the selected Catalog.
 Connected apps that have access to your HubRise catalog can pull its product list or push new products into it.
 For example, a connected EPOS can push its products catalog into HubRise for an e-commerce website to use it.
 
-From the Catalogs page, you can view catalogs pushed into HubRise and logs of the requests that made changes to the catalog.
+From the Catalogs page, you can view the catalogs pushed into HubRise and the logs of the requests that made changes to the catalog.
 
 ### View Catalog
 
@@ -74,7 +74,7 @@ Accounts and Locations can contain multiple Catalogs. To view a specific Catalog
 Catalogs are presented in three tabs:
 
 - **SKUS**: The items that you sell to the customers.
-- **DEALS**: The deals available in the catalog. 
+- **DEALS**: The deals available in the catalog.
   A deal provides a price reduction on combinations of Products bought together. For instance, **Buy One Get One Free** is a deal that applies to two Products. It applies to two Products and provides a price reduction equal to the price of the cheapest Product.
 - **DISCOUNTS**: The discounts available in the catalog.
   Discount codes apply savings to the overall order rather than specific products. For example, **FREEDELIVERY** might remove the delivery fee for the entire order, or **FRIYAY** might provide a 10% discount to the entire order on Friday.
@@ -83,9 +83,9 @@ Catalogs are presented in three tabs:
 
 For SKUs, you can see the following attributes:
 
-- **CATEGORY**: The category for the product, for example *Boots*.
-- **PRODUCT**: The name displayed to the customer. Product names do not need to be unique. For example, you may sell shoes of different sizes, but with the same product name *Waterproof boots*.
-- **SKU**: The SKU or product size. For example, in the case of *Waterproof boots*, you might sell a SKU with size 28 and black colour, and another SKU with size 32 and brown colour.
+- **CATEGORY**: The category for the product, for example _Boots_.
+- **PRODUCT**: The name displayed to the customer. Product names do not need to be unique. For example, you may sell shoes of different sizes, but with the same product name _Waterproof boots_.
+- **SKU**: The SKU or product size. For example, in the case of _Waterproof boots_, you might sell a SKU with size 28 and black colour, and another SKU with size 32 and brown colour.
 - **PRICE**: The price of the product, and the currency used.
 - **REF CODE**: The unique identifier of the product from the source product management system. This identifies the item across all apps. Identifiers are alphanumeric with special characters. For example, `boots_waterproof_size_28_black` can refer to a pair of boots with size 28 and black colour.
 

@@ -16,7 +16,8 @@ app_info:
   contact: contact@hubrise.com / support@hubrise.com
 ---
 
-HubRise is a middleware platform that connects third party solutions. It provides a single interface to an ever growing ecosystem of integrated applications. Typical use cases include: 
+HubRise is a middleware platform that connects third party solutions. It provides a single interface to an ever growing ecosystem of integrated applications. Typical use cases include:
+
 - point of sale systems
 - online ordering
 - delivery management
@@ -29,7 +30,7 @@ HubRise is a middleware platform that connects third party solutions. It provide
 - pay at the table
 - ... and more!
 
-With HubRise, you can track orders from all connected solutions, check your customers lists, and manage your product catalogs from a single platform.
+With HubRise, you can track orders from all connected solutions, share customer lists between your solutions, and manage your product catalogs from a single platform.
 
 All the transactions are saved into HubRise to provide connected apps with real-time access to your data.
 Detailed logs allow users and support teams to understand the workflow and check the status of each transaction. Although primarily aimed at developers, logs are designed to be understood by anyone.

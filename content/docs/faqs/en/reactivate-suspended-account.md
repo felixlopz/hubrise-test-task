@@ -18,7 +18,7 @@ To verify your registered payment method or add a new one to your HubRise Accoun
 
 1. Log in to your [HubRise account](https://manager.hubrise.com/login).
 1. Click on **SETTINGS**.
-1. To pay all at Account level, verify **All locations** is selected. To pay invoices per Location, select the Location from the **Location** list.
+1. To pay all at Account level, verify **All locations** is selected. To pay invoices per Location, select the Location from the **Location** dropdown.
 1. In the **Payment** section, review your payment method details. If there is no existing payment method, click **Add payment method**.
 1. Enter your credit card details.
 1. Click **Save**.
@@ -46,6 +46,6 @@ For more information about HubRise usage plans, see [Usage](/docs/usage-plan/).
 Once the payment of the outstanding **Requests for payment** is effective you can reactivate your **Account**, or your **Location**. 
 
 1. In your HubRise back office, click on **SETTINGS**.
-2. Depending on your set up, you might need to re-establish the at Account or Location levels. For Account level, verify that **All locations** is selected. For Location level, select the Location from the **Location** list.
+2. Depending on your set up, you might need to re-establish the at Account or Location levels. For Account level, verify that **All locations** is selected. For Location level, select the Location from the **Location** dropdown.
 3. Click **Re-establish the service immediately**.
 

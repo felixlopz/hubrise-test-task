@@ -13,7 +13,7 @@ If you no longer wish to pay for your HubRise subscription, remove your payment 
 
 1. Log in to your [HubRise account](https://manager.hubrise.com/login).
 1. Click on **SETTINGS**.
-1. To check for payment set at Account level, verify that **All locations** is selected. To check for payment set at Location level, select the Location from the **Location** list.
+1. To check for payment set at Account level, verify that **All locations** is selected. To check for payment set at Location level, select the Location from the **Location** dropdown.
 1. In the **Payment** section, click **Delete** and **Confirm** in the dialog prompt.
 
 ## Disconnect Apps From Your Account and Locations
@@ -29,7 +29,7 @@ If you no longer wish to pay for your HubRise subscription, remove your payment 
 
 1. Log in to your [HubRise account](https://manager.hubrise.com/login).
 1. Click on **SETTINGS**.
-1. To check usage for Locations with payment set at Account level, verify that **All locations** is selected. To check usage for Locations set for payment per Location, select the Location from the **Location** list.
+1. To check usage for Locations with payment set at Account level, verify that **All locations** is selected. To check usage for Locations set for payment per Location, select the Location from the **Location** dropdown.
 1. Under **Usage**, click on the location that you want to downgrade.
 1. In the **Location** page, under **Usage**, click on **Change plan**.
 1. In the **Change plan** page, click **Downgrade**.

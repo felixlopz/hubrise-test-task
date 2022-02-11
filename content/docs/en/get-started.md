@@ -13,7 +13,6 @@ You can access HubRise from a web browser on any device: your desktop, tablet, o
 
 To start using HubRise, create a User Profile. Registration is free, and only takes a minute. All you need is a name, email address, and secure password. Visit the [HubRise Registration page](https://manager.hubrise.com/signup) to create a new user profile.
 
-
 ---
 
 **Related FAQ**: How Do I Create a User Profile for [Another Person](/docs/faqs/create-a-user-profile-for-another-person/) or for [Another Business?](/docs/faqs/create-an-account-for-another-business/)
@@ -36,8 +35,7 @@ A HubRise Account identifies your brand, while a Location refers to the point of
 
 ![Create an account on HubRise](../images/064-en-2x-create-account.png)
 
-A small business might have one Account with one Location, while a larger business might have one Account with multiple Locations tied to the same Account.
-For more information, see [Accounts](/docs/account/) and [Locations](/docs/locations/).
+A small business will have one Account with one Location, while a larger business will have one Account with multiple Locations. For more information, see [Accounts](/docs/account/) and [Locations](/docs/locations/).
 
 ![Accounts and Locations example](../images/046-en-2x-accounts-locations.png)
 
@@ -45,7 +43,7 @@ A User Profile can have access to multiple Accounts. On the other hand, differen
 
 ## Set Language Preference
 
-You can set the language for your HubRise session by clicking the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and selecting your preferred language. HubRise is available both English and French.
+You can set the language for your HubRise session by clicking the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to your name in the upper right hand corner, and selecting your preferred language. HubRise is available in English and French.
 
 ## Get Familiar With the Platform
 
@@ -63,7 +61,6 @@ If you want to get an overall view of an Account's performance, select **All loc
 
 - For users with access to multiple Accounts, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Account** and select the Account to display.
 - To display data on all Locations or for a specific Location, click the down arrow <InlineImage width="28" height="21">![Down arrow icon](../images/063-arrow.jpg)</InlineImage> next to **Location** and select either **All locations** or the specific location.
-
 
 ## Log In
 

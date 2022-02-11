@@ -7,13 +7,13 @@ meta:
   description: How to manage your profile and password on HubRise.
 ---
 
-The **Profile** page on HubRise displays your User Profile information, and allows you to update it or change your password.
-To access the Profile page, click your name at the top right corner of HubRise the back office, then click **Profile**.
+The Profile page on HubRise displays your User Profile information, and allows you to update it or change your password.
 
-## Profile
+## Edit Profile
 
 To update your User Profile:
 
+1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
 1. Click **Modify**.
 1. Update your name, email address, or correspondence language. The **Correspondence Language** sets the language for all communications from HubRise to you.
 1. Select **Update**.
@@ -26,10 +26,11 @@ To update your User Profile:
 
 ![HubRise User Profile](../images/054-en-2x-profile.png)
 
-## Password
+## Update Password
 
 To update your password:
 
+1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
 1. Enter your current password in the **Current password** field.
 1. Enter your new password in **New password** and **Confirm new password** fields. Both fields must match.
 1. Click **Update**.
@@ -43,7 +44,10 @@ The Profile page includes information on your User Profile **Permissions**. This
 - The **Account** and **Location** that you have access to.
 - The **Role** you have been assigned for the Account or Location. It could be a Manager or an Admin role.
 
-To remove your granted permission to an Account, select the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>
+To remove your access to an Account or a Location:
+
+1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
+1. Find the granted permission in the **Permissions** section, and click the trash icon <InlineImage width="15" height="16">![Trash icon](../images/057-2x-trash-icon.png)</InlineImage>
 
 ---
 
@@ -53,9 +57,12 @@ To remove your granted permission to an Account, select the trash icon <InlineIm
 
 For more information, see [Permissions](/docs/permissions/).
 
-## User Account Creation
+## Create an Account
 
-To create a new Account from the Profile page, select **Create Account**. For more information, see [Create an Account](/docs/account#create-an-account).
+To create a new Account:
+
+1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
+1. In the **Permissions** section, click **Create Account**. For more information, see [Create an Account](/docs/account#create-an-account).
 
 ![HubRise My Permissions](../images/056-en-2x-my-permissions.png)
 

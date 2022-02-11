@@ -32,7 +32,7 @@ To grant a User permissions on an Account, follow these steps:
 To grant a User permissions on a Location, follow these steps:
 
 1. Select **SETTINGS**.
-1. Select the Location from the **Location** list.
+1. Select the Location from the **Location** dropdown.
 1. In the **Permissions** section, enter the User's email address in the column marked **EMAIL**.
 1. In the **ROLE** column, set the new User's role as Admin or Manager.
 1. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.

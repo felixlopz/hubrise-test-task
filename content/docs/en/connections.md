@@ -7,7 +7,7 @@ meta:
   description: How connections to HubRise can be managed.
 ---
 
-You can connect new apps and see apps connected to your HubRise Account from the **CONNECTIONS** page. From this same page you can view apps activity, and logs. You can also block apps activity or completely disconnect them.
+You can connect new apps and see apps connected to your HubRise Account from the **CONNECTIONS** page. From this page, you can also view apps activity and logs, and block or disconnect apps.
 
 ## Available Apps
 
@@ -17,8 +17,7 @@ You can connect all apps available in the HubRise [Apps](/apps) page. If you can
 
 ## Connect a New App
 
-Apps are connected either with a HubRise Account or Location, depending on the app.
-For example, EPOS or online ordering systems typically connect to a Location, while marketing solutions connect to either the Account or Locations. Connection level depends on the data you need to share with the app.
+Apps are connected to either a HubRise Account or Location. Connection level depends on the data you need to share with the app. For example, EPOS or online ordering systems typically connect to Locations, while marketing solutions connect to Accounts or Locations.
 
 Some apps can be connected directly from the HubRise back office, while others require configuration from within the app before connection. For complete details, see the app documentation in the HubRise [Apps](/apps) page.
 
@@ -31,18 +30,13 @@ To connect a new app to your HubRise Account from the HubRise back office:
 1. Select the app you want to install. If the app is not on this list, check the app documentation in the HubRise [Apps](/apps) page.
 1. Check instructions for the specific app and click **Connect**. When installing a new app, you will be required to grant the app access to your HubRise Account.
 
------
+Some apps must be connected at the **All locations** level, while others connect to a specific Location. The **Connect** button will be greyed-out if you have not selected the corresponding level.
 
-**IMPORTANT NOTE**: Some apps can be connected at the **All locations** level, while others require a connection to the specific Location. The Connect button will be greyed-out if you have not selected the corresponding level.
+---
 
------
+**IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
 
------
-
-**IMPORTANT NOTE**:
-If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
-
------
+---
 
 ## Open An App
 
@@ -54,7 +48,7 @@ Some apps can be accessed from HubRise. If so, you can open the app by clicking 
 
 ## View Connection Activity
 
-To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity** for the specific app. This is a handy way to see if transactions are going through the connection.
+To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
 <video controls title="Display activity for a connected app">
   <source src="../images/012-en-connections-display-activity.webm" type="video/webm"/>

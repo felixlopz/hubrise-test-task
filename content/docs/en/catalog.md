@@ -20,18 +20,18 @@ The rules for Catalogs are as follows:
 ![Catalog Rules example](../images/047-en-2x-catalog-rules.png)
 
 You can connect integrated apps to a specific Catalog to push data into it or pull data from it.
-You can edit and manage products in a HubRise Catalog only from third party apps, or with the HubRise **Catalog Manager** connected to your HubRise Account. 
+You can edit and manage products in a HubRise Catalog only from third party apps, or with the HubRise **Catalog Manager** connected to your HubRise Account.
 
-Removing a catalog from HubRise does not effect the product list in third party apps.
+Removing a catalog from HubRise does not affect the product list in third party apps.
 
 ## Add a Catalog
 
 To add a catalog, follow these steps:
 
 1. Select **SETTINGS**.
-1. To add the Catalog at Account level, verify that **All locations** is selected. To add it to a Location, select the Location from the **Location** list.
+1. To add the Catalog at Account level, verify that **All locations** is selected. To add it to a Location, select the Location from the **Location** dropdown.
 1. From the **Catalogs** section, click **Add a catalog**.
-1. Enter the name for the catalog. To avoid confusion, Catalogs should have the same name as your Account. If you have multiple Locations with their own different catalogs, it is preferable to follow a strict naming convention such as: **Account Name - Location Name**. For example, your default Account catalog might be `Fast Pizza`, and the catalog for a location might be `Fast Pizza - Baker Street`.
+1. Enter the name for the catalog. If you only have one Catalog, we recommend using your Account or Location name. If you have multiple Catalogs, use a descriptive name, such as `Website` or `Food platforms`. Do not include `Catalog` in your catalog name. For example: use `Fast Pizza`, not `Fast Pizza Catalog`.
 1. Click **Create** to save the new catalog.
 
 ## Catalog Details
@@ -46,7 +46,7 @@ To view the contents of a Catalog, click the name of the Catalog. It will connec
 
 ## Edit a Catalog Name
 
-Catalogs can be renamed to reflect special needs, such as labeling a Catalog for testing purposes, or for the products offered by a specific Location or solution. Changing the name of a Catalog does not affect the connection with apps that use it. 
+Catalogs can be renamed to reflect special needs, such as labeling a Catalog for testing purposes, or for the products offered by a specific Location or solution. Changing the name of a Catalog does not affect the apps that use it.
 
 To change the name of a Catalog:
 
