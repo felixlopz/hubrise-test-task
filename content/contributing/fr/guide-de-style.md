@@ -4,14 +4,14 @@ position: 1
 layout: documentation
 meta:
   title: Guide de style | HubRise
-  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style contient des recommendations éditoriales pour contribuer à la documentation.
+  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style contient des recommandations éditoriales pour contribuer à la documentation.
 ---
 
-Ce guide de style contient des recommendations éditoriales pour les contributeurs de la documentation HubRise.
+Ce guide de style contient des recommandations éditoriales pour les contributeurs de la documentation HubRise.
 
 ## Introduction
 
-Lorsque le guide de style HubRise ne donne pas de recommendation particulière sur un cas spécifique, le [Guide de Style des Développeurs Google](https://developers.google.com/style) peut être utilisé comme référence.
+Lorsque le guide de style HubRise ne donne pas de recommandation particulière sur un cas spécifique, le [Guide de Style des Développeurs Google](https://developers.google.com/style) peut être utilisé comme référence.
 
 ## Langue
 
@@ -55,7 +55,7 @@ Ne pas mettre de majuscule aux titres. Accentuer les majuscules.
 
 Dans une liste à puces, chaque élément de la liste commence par une majuscule et se termine par un point, et non par un point-virgule. S'il s'agit d'un mot isolé, ne mettez aucune ponctuation à la fin de l'élément de la liste.
 
-Par exemple, écrivez ainsi une courte liste : _Une commande prend successivement les statuts **Reçue**, **En attente**, et **Validée**._
+Par exemple, écrivez ainsi une courte liste : _Une commande prend successivement les statuts **Reçue**, **En attente** et **Validée**._
 
 Pour une liste plus longue, procédez comme suit :
 
@@ -92,7 +92,7 @@ Utilisez des chemins relatifs pour les liens internes ou les renvois, et des che
 
 ## Lisibilité
 
-La documentation doit être facile à "scanner". Assurez-vous que les lecteurs trouvent rapidement l'aide nécessaire. Adoptez un style concis, simple, et objectif.
+La documentation doit être facile à "scanner". Assurez-vous que les lecteurs trouvent rapidement l'aide nécessaire. Adoptez un style concis, simple et objectif.
 
 Pour rendre votre texte plus lisible, utilisez :
 
@@ -152,7 +152,7 @@ Utilisez l'écriture italique pour définir les acronymes, et pour les exemples.
 
 ### Virgules
 
-Pour les listes de trois éléments ou plus, ajoutez une virgule avant le dernier élément. Par exemple : _Mon repas était composé d'une entrée, d'un plat principal, d'un dessert, et d'un café._
+Pour les listes de trois éléments ou plus, n'ajoutez pas de virgule avant le dernier élément. Par exemple : _Mon repas était composé d'une entrée, d'un plat principal, d'un dessert et d'un café._
 
 ### Parenthèses
 
