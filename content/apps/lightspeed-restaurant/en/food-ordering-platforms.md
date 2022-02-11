@@ -21,18 +21,18 @@ For detailed instructions on how to create ref codes in the Lightspeed back offi
 
 If you prefer to let Lightspeed support configure these ref codes for you, make sure to use the following channel names in support tickets to avoid any confusion:
 
-| Platform               | Channel name           |
-| ---------------------- | ---------------------- |
-| Deliveroo              | `Deliveroo`            |
-| Eat.ch                 | `Eat.ch (EAT)`         |
-| Just Eat               | `Just Eat (JE)`        |
-| Takeaway.com           | `Takeaway.com (TA)`    |
-| Thuisbezorgd.nl        | `Thuisbezorgd.nl (TH)` |
-| Uber Eats              | `Uber Eats`            |
+| Platform        | Channel name           |
+| --------------- | ---------------------- |
+| Deliveroo       | `Deliveroo`            |
+| Eat.ch          | `Eat.ch (EAT)`         |
+| Just Eat        | `Just Eat (JE)`        |
+| Takeaway.com    | `Takeaway.com (TA)`    |
+| Thuisbezorgd.nl | `Thuisbezorgd.nl (TH)` |
+| Uber Eats       | `Uber Eats`            |
 
 ---
 
-**IMPORTANT NOTE:** For the codes for online ordering platforms such as LivePepper and ObiPay, see [Online Ordering Platforms](/apps/lightspeed-restaurant/online-ordering-platforms).
+**IMPORTANT NOTE:** For the codes for online ordering platforms, see [Online Ordering Platforms](/apps/lightspeed-restaurant/online-ordering-platforms).
 
 ---
 
