@@ -23,7 +23,7 @@ Si l'interface de la solution documentée n'est pas disponible en français, uti
 
 ### Vouvoiement
 
-Utilisez le vouvoiement, et pour les instructions, privilégiez l'impératif.
+Utilisez le vouvoiement. Pour les instructions, privilégiez l'impératif.
 
 > Incorrect : Vous devez cliquer sur **Se connecter**.
 
@@ -88,7 +88,7 @@ Utilisez Les renvois pour guider les lecteurs vers une information ciblée dans 
 
 ### Liens
 
-Utilisez des chemins relatifs pour les liens internes ou les renvois, et des chemins absolus pour les liens externes. Les chemins relatifs ouvrent le lien dans le même onglet, et les chemins absolus dans un nouvel onglet.
+Utilisez des chemins relatifs pour les liens internes ou les renvois et des chemins absolus pour les liens externes. Les chemins relatifs ouvrent le lien dans le même onglet et les chemins absolus dans un nouvel onglet.
 
 ## Lisibilité
 
@@ -134,11 +134,11 @@ Positionnez les conditions avant les instructions, afin de permettre au lecteur 
 
 ### Synonymes
 
-Choisissez un terme unique pour chaque concept, et utilisez toujours ce terme. Évitez d'employer des synonymes, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
+Choisissez un terme unique pour chaque concept et utilisez toujours ce terme. Évitez d'employer des synonymes, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
 
 ### Verbe "faire"
 
-Evitez l'emploi du verbe "faire", et préférez-lui un verbe décrivant précisément l'action à réaliser.
+Evitez l'emploi du verbe "faire" et préférez-lui un verbe décrivant précisément l'action à réaliser.
 
 ## Mise en forme
 
@@ -148,7 +148,7 @@ Utilisez l'écriture en gras pour les éléments d'interface, tels que les bouto
 
 ### Italique
 
-Utilisez l'écriture italique pour définir les acronymes, et pour les exemples.
+Utilisez l'écriture italique pour définir les acronymes et pour les exemples.
 
 ### Virgules
 
