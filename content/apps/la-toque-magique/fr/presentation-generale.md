@@ -6,11 +6,11 @@ meta:
   title: Présentation générale | La Toque Magique | HubRise
   description: Présentation générale de La Toque Magique, les raisons de connecter La Toque Magique à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-004.png
-- __gallery-005.png
-- __gallery-006.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-004.png
+  - __gallery-005.png
+  - __gallery-006.png
 path_override: /
 app_info:
   category: Commande en ligne
@@ -28,26 +28,24 @@ app_info:
 
 ## Description
 
-La Toque Magique est un logiciel SAAS (100% en ligne) pour gérer les commandes passées dans votre restaurant.
+La Toque Magique est une solution de commande en ligne pour les restaurants. La Toque Magique fournit un site web e-commerce personnalisable, optimisé pour le SEO et pour le partage sur les réseaux sociaux. Les clients peuvent consulter le site en ligne, ou l'installer comme une application mobile.
 
-La Toque Magique fournit un système de gestion (back-office) permettant de :
+La Toque Magique fournit aussi un système de gestion (back-office) permettant de :
 
-- Gérer votre carte.
 - Prendre des commandes par téléphone ou sur place.
-- Regrouper toutes vos commandes depuis tous les canaux (site web, plateforme de livraison, etc).
-- Synchroniser les commandes de vos clients avec votre caisse et les autres applications connectées à HubRise.
-- Offrir à vos livreurs une application mobile connectée contenant les informations de leur tournée.
-- Visualiser les statistiques de vos ventes.
-
-La Toque Magique fournit aussi un site web e-commerce personnalisable connecté au back-office. Votre site est optimisé pour le SEO et pour le partage sur les réseaux sociaux. Votre site est aussi installable comme une application sur mobile.
+- Regrouper les commandes depuis tous les canaux (site web, plateforme de livraison, etc).
+- Gérer la carte.
+- Offrir aux livreurs une application mobile connectée contenant les informations de leur tournée.
+- Visualiser les statistiques de ventes.
 
 ## Fonctionnalités de l'intégration
 
 Connecter La Toque Magique à HubRise permet à La Toque Magique de :
 
-- Envoyer les commandes à HubRise.
+- Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Envoyer les informations clients à HubRise.
+- Recevoir les informations clients de HubRise.
 - Recevoir un catalogue de HubRise.
 
 La Toque Magique peut être connecté à HubRise depuis le back-office de La Toque Magique.
