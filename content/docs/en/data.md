@@ -1,17 +1,17 @@
 ---
 title: Data
-position: 15
+position: 5
 layout: documentation
 meta:
   title: Data | HubRise
   description: How connections to HubRise can be managed.
 ---
 
-The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display. For more information see [Accounts and Locations](/docs/get-started/#accounts-and-locations).
+The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display.
 
 ## Orders
 
-The **Orders** page displays your recent orders, with the most recent on top. For every order on the list, you can find the following attributes:
+The **ORDERS** page displays your recent orders, with the most recent on top. For every order on the list, you can find the following attributes:
 
 - **Date, time and unique ID**: The date, time, and unique identifier for the order.
 - **Location**: If you select **All locations**, this column shows the Location that received the order.
@@ -25,8 +25,9 @@ To filter orders by start and end date:
 1. Select **From** and **To** fields in and set the date ranges to filter by.
 1. Select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage> to filter records by these dates.
 1. To clear the date filters, remove the dates from the **From** and **To** fields, then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
-1. Click on the date of the order to view full details.
-1. To view the full details of the request, click the date and time. For more information see [Logs](/docs/data/#logs).
+
+Click on the date of the order to view full details.
+To view the full details of the request, click the date and time in the **Logs** section. For more information, see [Logs](/docs/data/#logs).
 
 ---
 
@@ -36,7 +37,7 @@ To filter orders by start and end date:
 
 ## Customers
 
-The **Customers** page displays the selected customer lists for the selected Account. Customers are ordered by reverse creation date.
+The **CUSTOMERS** page displays the selected customer lists for the selected Account. Customers are ordered by reverse creation date.
 
 The records on this page display the following attributes:
 
@@ -51,17 +52,20 @@ To filter customers by name or email address:
 1. Click the **Search by name or email** field and enter the text to search for.
 1. Select the search icon to filter the customer records.
 1. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
-1. To see full details of a customer, click the customer name.
-1. To see full log file details of all requests effecting customers, click **View logs**. For more information see [Logs](/docs/data/#logs).
+
+To see full details of a customer, click the customer name.
+To see full log file details of all requests effecting customers, click **View logs**. For more information, see [Logs](/docs/data/#logs).
+
+To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-lists).
 
 ## Catalogs
 
-The **Catalogs** page displays the products offered in the selected Catalog.
+The **CATALOGS** page displays the products included in the selected Catalog.
 
-Connected apps that have access to your catalog can update the product list or import products into HubRise.
-For example, a connected EPOS would manage its catalog and transmit its information to HubRise.
+Connected apps that have access to your HubRise catalog can pull its product list or push new products into it.
+For example, a connected EPOS can push its products catalog into HubRise for an e-commerce website to use it.
 
-From the Catalogs page, you can view the catalogs imported into HubRise and the logs of the requests that made changes to the catalog.
+From the Catalogs page, you can view the catalogs pushed into HubRise and the logs of the requests that made changes to the catalog.
 
 ### View Catalog
 
@@ -70,7 +74,7 @@ Accounts and Locations can contain multiple Catalogs. To view a specific Catalog
 Catalogs are presented in three tabs:
 
 - **SKUS**: The items that you sell to the customers.
-- **DEALS**: The deals available in the catalog. 
+- **DEALS**: The deals available in the catalog.
   A deal provides a price reduction on combinations of Products bought together. For instance, **Buy One Get One Free** is a deal that applies to two Products. It applies to two Products and provides a price reduction equal to the price of the cheapest Product.
 - **DISCOUNTS**: The discounts available in the catalog.
   Discount codes apply savings to the overall order rather than specific products. For example, **FREEDELIVERY** might remove the delivery fee for the entire order, or **FRIYAY** might provide a 10% discount to the entire order on Friday.
@@ -79,9 +83,9 @@ Catalogs are presented in three tabs:
 
 For SKUs, you can see the following attributes:
 
-- **CATEGORY**: The category for the product, for example *Boots*.
-- **PRODUCT**: The name displayed to the customer. Product names do not need to be unique. For example, you may sell shoes of different sizes, but with the same product name *Waterproof boots*.
-- **SKU**: The SKU or product size. For example, in the case of *Waterproof boots*, you might sell a SKU with size 28 and black colour, and another SKU with size 32 and brown colour.
+- **CATEGORY**: The category for the product, for example _Boots_.
+- **PRODUCT**: The name displayed to the customer. Product names do not need to be unique. For example, you may sell shoes of different sizes, but with the same product name _Waterproof boots_.
+- **SKU**: The SKU or product size. For example, in the case of _Waterproof boots_, you might sell a SKU with size 28 and black colour, and another SKU with size 32 and brown colour.
 - **PRICE**: The price of the product, and the currency used.
 - **REF CODE**: The unique identifier of the product from the source product management system. This identifies the item across all apps. Identifiers are alphanumeric with special characters. For example, `boots_waterproof_size_28_black` can refer to a pair of boots with size 28 and black colour.
 
@@ -90,7 +94,9 @@ For Deals and Discounts, you can see the following attributes:
 - **NAME**: The Deal or Discount name.
 - **REF CODE**: The unique identifier of the Deal or Discount from the source product management system.
 
-To see the full logs of all the requests that make changes to the catalogs, click **View logs**. For more information see [Logs](/docs/data/#logs).
+To see the full logs of all the requests that make changes to the catalogs, click **View logs**. For more information, see [Logs](/docs/data/#logs).
+
+To create, edit or remove a catalogs, see [Catalogs](/docs/catalog).
 
 ## Logs
 

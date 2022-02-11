@@ -1,6 +1,6 @@
 ---
 title: Permissions
-position: 21
+position: 11
 layout: documentation
 meta:
   title: Permissions | HubRise
@@ -13,8 +13,8 @@ Permissions are a way to control the actions that Users can take on your Account
 
 HubRise supports two roles: Admins and Managers.
 
-- **Admin** have access to all areas of HubRise, including invoices. They are responsible for keeping the payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users.
-- **Manager** have access to all areas except HubRise invoices. They will not receive notifications emails on outstanding payments to HubRise.
+- **Admins** have access to all areas of HubRise, including invoices. They are responsible for keeping the payment information up to date. They will receive invoices by email when a payment is made or notifications regarding HubRise pending payments. They can also grant access to other users and disconnect apps from HubRise.
+- **Managers** have access to all areas except HubRise invoices. They will not receive notifications emails on outstanding payments to HubRise. They can connect apps to HubRise but not disconnect them.
 
 You can also view and edit your own permissions from your User profile. For more information, see [Profile and Password](/docs/profile-password/).
 
@@ -32,7 +32,7 @@ To grant a User permissions on an Account, follow these steps:
 To grant a User permissions on a Location, follow these steps:
 
 1. Select **SETTINGS**.
-1. From the **Usage** section, click the Location to modify.
+1. Select the Location from the **Location** dropdown.
 1. In the **Permissions** section, enter the User's email address in the column marked **EMAIL**.
 1. In the **ROLE** column, set the new User's role as Admin or Manager.
 1. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.

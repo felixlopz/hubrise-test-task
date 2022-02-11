@@ -1,13 +1,13 @@
 ---
 title: Account
-position: 17
+position: 7
 layout: documentation
 meta:
   title: Account | HubRise
   description: How to manage HubRise Accounts.
 ---
 
-As described in [Accounts and Locations](/docs/terminology/#accounts-and-locations), an Account refers to the brand, and contains one or more Locations.
+An Account refers to the brand, and contains one or more Locations. Users on HubRise might have access to one or multiple Accounts. You can switch from one Account to another using the **Account** dropdown at the very top of the HubRise back office.
 
 The **SETTINGS** page displays information about your Account and allows you to make configuration changes.
 You can also make changes to any individual Location that is part of the Account.
@@ -18,11 +18,11 @@ Accounts and Locations have many of the same sub-sections and settings. Dependin
 
 You can have different settings for Accounts and Locations in the following scenarios:
 
-- You have one payment method setup for all Locations, or you can have different payment methods for different Locations.
+- You have one payment method set up at **All Locations** level, or you can have different payment methods for different Locations.
   This is useful if you need to have a Location use a different payment method for accounting purposes.
-- You can grant users permissions at either the Account level or the Location level.
+- You can grant users permissions to the whole Account or to specific Locations.
   For example, you can grant one user complete access to an Account as an Admin, but allow another user only to view and manage a specific Location.
-- You can view data across the whole Account, or filter information based on a specific Location.
+- You can view data across the Account, or filter information based on a specific Location.
 - You can modify your Account and Locations in ways that best fit your business needs.
 
 The main differences between the settings for Accounts and Locations are the following:
@@ -35,15 +35,15 @@ The main differences between the settings for Accounts and Locations are the fol
 
 When creating a new Account, the first Location must be created at the same time through the following steps:
 
-1. Click your name at the top right corner of the back office, then click **Profile**.
+1. Click your name in the top right corner of the back office, then click **Profile**.
 2. From the **Permissions** section, click **Create Account**.
 3. Enter the information required, then click **Create**.
 
 ![Create an account on HubRise](../images/064-en-2x-create-account.png)
 
-The **Account Name** is the name you give your business or brand. For example, if your brand is called Fast Pizza, the **Account Name** will be **Fast Pizza**.
+The **Account Name** is the name you give your business or brand. For example, if your brand is called Fast Pizza, the **Account Name** will be `Fast Pizza`.
 
-The **Location Name** could be the city, the area, or the street name. For example, if the location is the only one in a town like London, the location could be named **London**. If you have multiple locations in London, you could name it after their street address **Baker Street**, **Dublin Street**, and **Duncannon Street**.
+The **Location Name** could be the city, the area, or the street name. For example, if the location is the only one in a town like London, the location could be named `London`. If you have multiple locations in London, you could name it after their street address, for example `Baker Street`, `Dublin Street`, and `Duncannon Street`.
 
 Finally, enter the correct **Currency** for the market that you operate in.
 
@@ -64,11 +64,11 @@ Finally, enter the correct **Currency** for the market that you operate in.
 To modify an existing Account, follow these steps:
 
 1. Select **SETTINGS**.
-3. From the **Account** section, click **Modify Account**.
-4. Update the fields as required, then click **Update**.
+2. From the **Account** section, click **Modify Account**.
+3. Update the fields as required, then click **Update**.
 
 ---
 
-**IMPORTANT NOTE**: It is a legal requirement to include the Intra-Community VAT number. HubRise will display a notification to update the VAT number if this information is missing from your Account.
+**IMPORTANT NOTE**: In some countries, providing your Intra-Community VAT number is a legal requirement. HubRise will display a notification to update the VAT number if this information is missing from your Account.
 
 ---

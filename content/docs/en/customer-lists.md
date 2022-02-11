@@ -1,6 +1,6 @@
 ---
 title: Customer Lists
-position: 23
+position: 13
 layout: documentation
 meta:
   title: Customer Lists | HubRise
@@ -26,15 +26,16 @@ Adding or editing a customer list does not affect third party applications.
 To add a customer list, follow these steps:
 
 1. Select **SETTINGS**.
+1. To add the Customer list at Account level, verify that **All locations** is selected. To add it to a Location, select the Location from the **Location** dropdown.
 1. From the **Customer lists** section, click **Add a customer list**.
-1. Enter the name for the new customer list. The recommended naming convention is to name the Account customer list with the same name as your Account, and location customer lists as **Account Name - Location Name**. For example, your default Account customer list might be **Fast Pizza**, and the customer list for a location might be **Fast Pizza - Baker Street**.
+1. Enter the name for the customer list. If you only have one customer list, we recommend using your Account or Location name.
 1. Click **Create** to save the new list.
 
 ## Customer List Details
 
 The **Customer lists** section displays the following information:
 
-- **Name**: The name of the customer list, followed by its unique identifier. This unique identifier does not change even if the name of the customer list is changed. For example: The customer list **Baker Street** would be displayed as **Baker Street - abc123**. If the catalog **Baker Street** is renamed to **Dunning Street**, it will be displayed as **Dunning Street - abc123**.
+- **Name**: The name of the customer list, followed by its unique identifier. This unique identifier does not change even if the name of the customer list is changed. For example: The customer list `Baker Street` would be displayed as `Baker Street - abc123`. If the catalog `Baker Street` is renamed to `Dunning Street`, it will be displayed as `Dunning Street - abc123`.
 - **Customer Count**: The number of customers imported into HubRise. To view customer list details, see [Customers](/docs/data/#customers).
 
 To view the details of a customer list, click the name of the list. It will automatically link you to the **DATA** > **Customers** page for the specific list.
