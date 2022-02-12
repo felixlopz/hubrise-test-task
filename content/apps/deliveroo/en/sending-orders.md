@@ -13,6 +13,7 @@ This page describes the information that is passed by Deliveroo Bridge for the o
 ## Items and Options
 
 For items and options, Deliveroo provides either the ref code or the name, but never both at the same time.
+
 - If you specify the item or option ref code in your Deliveroo back office, Deliveroo API will only send this information to HubRise.
 - If you do not specify the item or option ref code in your Deliveroo back office, Deliveroo API will send the item or option name to HubRise, instead.
 
@@ -45,21 +46,41 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 
 ## Order Statuses
 
-A Deliveroo order goes through several statuses during its lifecycle.
+A Deliveroo order goes through several statuses during its lifecycle:
 
-Changes to the order status originating from Deliveroo are reflected in HubRise in the following way:
+- `Succeeded`: The order has been accepted by the EPOS, and is confirmed on Deliveroo.
+- `Failed`: The order could not be sent to the EPOS. Deliveroo sends a message to the Deliveroo tablet prompting staff to check their POS for the order, and enter manually into the till if needed.
+- `In Kitchen`: Cooking has started.
+- `Ready for Collection`: Food is cooked and packaged.
+- `Collected`: The order has been collected.
 
-- New orders are created on HubRise with status `new`.
-- When an order is cancelled on Deliveroo, it is automatically marked as `cancelled` on HubRise.
+New orders must be marked as `Succeeded` or `Failed` within 3 minutes, otherwise Deliveroo automatically marks them as `Failed`.
 
-When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the tablet. The supported status values are the following:
+---
 
-- `accepted`: The order has been accepted by the EPOS, and is confirmed on Deliveroo.
-- `in_preparation`: The order is in the kitchen.
-- `awaiting_collection`: The order is ready for pickup by the customer or the rider.
-- `completed`: The order has been collected by the customer or the rider.
+**IMPORTANT NOTE:** Switching an order status to `Succeeded` or `Failed` is not reversible. Once an order is marked as `Failed`, it can no longer be changed to `Succeeded`, and vice-versa.
+
+---
+
+### Change the status of an order in Deliveroo
+
+When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the Deliveroo tablet. The correspondence between HubRise and Deliveroo statuses is as follows:
+
+| HubRise status                               | Deliveroo status                                                           |
+| -------------------------------------------- | -------------------------------------------------------------------------- |
+| `new`, `received` or `accepted`              | You can configure which one of these statuses makes the order `Succeeded`. |
+| `rejected` or `cancelled`                    | `Failed`                                                                   |
+| `in_preparation`                             | `In Kitchen`                                                               |
+| `awaiting_collection` or `awaiting_shipment` | `Ready for Collection`                                                     |
+| `completed`                                  | `Collected`                                                                |
+
+Deliveroo Bridge lets you decide which HubRise status triggers the `Succeeded` status on Deliveroo. This is useful to handle different scenarios when your EPOS updates the order status. For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Deliveroo that the order has been accepted.
 
 Other HubRise status values are not supported and are not sent on Deliveroo.
+
+### Change the status of an order in HubRise
+
+When an order is cancelled from the Deliveroo tablet, it is marked as `cancelled` on HubRise.
 
 ## Service Types
 
@@ -71,24 +92,15 @@ Deliveroo supports three service types:
 
 These are typically associated with specific ref codes in your EPOS. For more information, see your EPOS documentation in our [apps page](/apps).
 
-## Customer Details
+## Customer
 
-Deliveroo never provides the customer's full name and email address in their API. It only provides the customer's address for orders delivered by the restaurant.
+Deliveroo never provides the customer's full name and email address in their API. Therefore, Deliveroo Bridge never creates customers in HubRise, but includes the customer's details directly in the order.
 
-Therefore, Deliveroo Bridge never creates customers in HubRise for Deliveroo orders, but always includes the customer's details directly in the order.
+For restaurant delivery orders, Deliveroo Bridge retrieves the following information from Deliveroo:
 
-### Customer Name and Email
-
-Customer's name and email for Deliveroo orders have these default values for all types of orders:
-
-- `first_name`: Deliveroo
-- `last_name`: Order
+- `first_name`: The customer's first name.
+- `last_name`: The initial of the customer's last name.
 - `email`: orders@deliveroo.com
-
-### Customer Address
-
-For restaurant delivery orders only, Deliveroo Bridge retrieves the following information from Deliveroo:
-
 - `address_1`: The first line of the address.
 - `address_2`: The second line of the address.
 - `city`: The city of the address.
@@ -97,6 +109,12 @@ For restaurant delivery orders only, Deliveroo Bridge retrieves the following in
 - `longitude`: The longitude of the address.
 - `phone`: Deliveroo support number. Note: This is not the customer's phone number.
 - `delivery_notes`: The access code to identify the order when calling Deliveroo support and the delivery notes left by the customer, in the format "Phone access code: `access_code`. `note`".
+
+For other types of orders, Deliveroo Bridge provides the following default customer details:
+
+- `first_name`: Deliveroo
+- `last_name`: Order
+- `email`: orders@deliveroo.com
 
 ## Discounts
 

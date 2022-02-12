@@ -22,8 +22,10 @@ Include [support@hubrise.com](mailto:support@hubrise.com) in the email recipient
 
 - The API workflow you want to activate: POSAPI
 - The POS system you want to connect: HubRise
-- The URL link of the Just Eat Takeaway store you wish to connect. For example: [change URL](https://www.just-eat.ie/restaurants-saba-to-go-rathmines/).
+- The type of connection to set up: Primary
+- The URL link of the Just Eat Takeaway store you wish to connect. For example: https://www.just-eat.ch/en/menu/blaqk-2.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
+- The Restaurant ExtID: This is the Restaurant ID of your Just Eat Takeaway store, for example: `8736550`.
 
 With this information in hand, Just Eat Takeaway will enable the HubRise integration for your store and provide you with the required credentials to connect.
 
