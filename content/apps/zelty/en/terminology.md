@@ -11,11 +11,11 @@ HubRise and Zelty each use their own terminology. The same concept can therefore
 
 | Zelty (fr)      | HubRise     | Description                           |
 | --------------- | ----------- | ------------------------------------- |
+| Enseigne        | Account     | The business brand.                   |
+| Restaurant      | Location    | The actual restaurant.                |
 | Carte           | Catalog     | The entire menu.                      |
 | Catalogue       | n/a         | Subset of the entire menu for export. |
-| Enseigne        | Account     | The business brand.                   |
+| Tag             | Category    | Product type (starter, main, etc.).   |
 | Menu            | Deal        | A deal or discount offered.           |
 | Option          | Option List | A list of options.                    |
-| Restaurant      | Location    | The actual restaurant.                |
-| Tag             | Category    | Product type (starter, main, etc.).   |
 | Valeur possible | Option      | An option from the option list.       |
