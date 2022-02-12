@@ -445,12 +445,11 @@ content:
           title: OrderLine
           description: OrderLine édité par HubRise centralise les commandes passées depuis un site marchand ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
           additional_info:
-        - website: https://www.satoeurope.com/fr/?lang=true
-          documentation:
+        - website: https://www.satoeurope.com/fr
+          documentation: /apps/sato
           logo: sato.png
           title: SATO
-          description: SATO fournit des imprimantes thermiques intelligentes pour les commerces de proximité et les restaurants. Présent dans plus de 90 pays.
-          additional_info: Intégration en cours.
+          description: SATO fournit des imprimantes autonomes personnalisables pour les commerces de proximité et les restaurants. Les imprimantes sont utilisées dans plus de 90 pays.
         - website: https://spleatthebill.io
           documentation: /apps/spleat-the-bill
           logo: spleat-the-bill.png

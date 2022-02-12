@@ -47,7 +47,7 @@ SuperDigital.fr can be connected to HubRise from the SuperDigital.fr back office
 
 ## Why Connect?
 
-Connecting SuperDigital.fr to HubRise allows your online ordering solution to communicate with other applications you use every day. Send online orders to your EPOS, to an intelligent printer, a Kitchen Display Screen, or to your inventory management solution.
+Connecting SuperDigital.fr to HubRise allows your online ordering solution to communicate with other applications you use every day. Send online orders to your EPOS, to an autonomous printer, a Kitchen Display Screen, or to your inventory management solution.
 
 Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
