@@ -23,22 +23,27 @@ app_info:
 
 ## Description
 
-Smood est une plateforme de livraison de repas qui est présente dans toute la Suisse.
+Smood est une plateforme de livraison de repas présente dans plus de 25 villes en Suisse. Smood livre uniquement en voiture.
 
-Les restaurants peuvent devenir partenaires Smood pour élargir leur base clientèle grâce à son large réseau. Les restaurateurs peuvent alors se concentrer sur leur activité principale, qui est la préparation de plats.
+En devenant partenaires avec Smood, les restaurateurs élargissent leur clientèle et augmentent leur volume de commandes. Smood assure le marketing, la prise de commandes et la livraison. Les restaurateurs peuvent ainsi se concentrer sur la préparation des plats.
 
-Les livraisons Smood se font uniquement en voiture.
-
-HubRise est intégré avec Dismatch, le service de livraison de Smood.
+Smood propose également un service de livraison en marque blanche, appelé Dismatch. Ce service permet aux restaurateurs d'externaliser leurs livraisons. 
 
 ## Fonctionnalités de l'intégration
+
+HubRise est intégré à Dismatch, le service de livraison en marque blanche de Smoode.
+
+---
+
+**REMARQUE IMPORTANTE :** HubRise n'est pas intégré à la plateforme de commandes Smood. Si vous êtes intéressé par cette intégration, contactez-nous sur [support@hubrise.com](mailto:support@hubrise.com).
+
+---
+
 
 Connecter Dismatch à HubRise permet à votre plateforme de livraison de repas de :
 
 - Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
-
-![Diagramme du flux de connexion entre Dismatch, Dismatch Bridge, et HubRise](../images/000-fr-2x-dismatch-diagramme-connexion.png)
 
 Dismatch peut être connecté à HubRise depuis le back-office de HubRise.
 
@@ -50,4 +55,4 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 
 ## Prérequis
 
-Pour établir la connexion entre Dismatch et HubRise, vous devez disposer d'un compte Dismatch.
+Pour établir la connexion entre Dismatch et HubRise, vous devez être un restaurateur partenaire de Smood.
