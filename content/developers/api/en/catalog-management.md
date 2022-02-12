@@ -1,6 +1,6 @@
 ---
 title: Catalog Management
-position: 4
+position: 5
 layout: documentation
 meta:
   title: Catalog Management | API | HubRise
@@ -22,9 +22,15 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
   accessLevel="location, account"
 />
 
-#### Example request:
+The response either contains a `location_id` (location level catalog) or an `account_id` (account level catalog) field.
+
+<details>
+
+<summary>Example request</summary>
 
 `GET /catalogs/87yu4`
+
+#### Response:
 
 ```json
 {
@@ -43,7 +49,7 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
 }
 ```
 
-The resource either has a `location_id` (location level catalog) or an `account_id` (account level catalog).
+</details>
 
 ### 1.2. List Catalogs
 
@@ -63,9 +69,21 @@ Return the account-level catalogs of an account:
   accessLevel="account"
 />
 
-#### Example request:
+Catalogs returned by the location level form of this request can be either location or account level catalogs:
+
+- For retrieval, this makes no practical difference. Both types of catalogs can be handled in the same way since the URL construction scheme is identical, eg: `/catalogs/:id`.
+
+- For update and delete operations, an account access token is required to modify an account level catalog. A `401` (unauthorized request) error code is returned otherwise.
+
+The `data` field of the catalogs is not returned by this request. To retrieve the actual content of catalogs, use the `/catalogs/:id` endpoint for each catalog.
+
+<details>
+
+<summary>Example request</summary>
 
 `GET /locations/3r4s3-1/catalogs`
+
+#### Response:
 
 ```json
 [
@@ -82,13 +100,7 @@ Return the account-level catalogs of an account:
 ]
 ```
 
-Catalogs returned by the location level form of this request (above example) can be either location or account level catalogs:
-
-- For retrieval, this makes no practical difference. Both types of catalogs can be handled in the same way since the URL construction scheme is identical, eg: `/catalogs/:id`.
-
-- For update and delete operations, an account access token is required to modify an account level catalog. A `401` (unauthorized request) error code is returned otherwise.
-
-The `data` field of the catalogs is not returned by this request. To retrieve the actual content of a catalog, you need to retrieve the catalog individually, using the `/catalogs/:id` resource URL.
+</details>
 
 ### 1.3. Create Catalog
 
@@ -122,7 +134,9 @@ To create an account-level catalog:
 | `data.discounts` <Label type="optional" />    | [Discount](#discounts)[]      | List of discounts.       |
 | `data.charges` <Label type="optional" />      | [Charge](#charges)[]          | List of charges.         |
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `POST /accounts/3r4s3/catalogs`
 
@@ -166,7 +180,8 @@ To create an account-level catalog:
       {
         "ref": "TES_COL",
         "name": "Tesla Color",
-        "type": "single",
+        "min_selections": 1,
+        "max_selections": 1,
         "options": [
           {
             "name": "White",
@@ -184,6 +199,8 @@ To create an account-level catalog:
 }
 ```
 
+</details>
+
 ### 1.4. Update Catalog
 
 Update a catalog.
@@ -195,7 +212,9 @@ If the `data` field is passed, the whole catalog content is cleared and recreate
   accessLevel="account"
 />
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `PUT /catalogs/87yu4`
 
@@ -209,7 +228,7 @@ If the `data` field is passed, the whole catalog content is cleared and recreate
 }
 ```
 
-Response:
+#### Response:
 
 ```json
 {
@@ -223,6 +242,8 @@ Response:
 }
 ```
 
+</details>
+
 ### 1.5. Delete Catalog
 
 Delete a catalog and all its content (ie categories, products, ...).
@@ -232,9 +253,13 @@ Delete a catalog and all its content (ie categories, products, ...).
   accessLevel="location, account"
 />
 
-#### Example request:
+<details>
+
+<summary>Example request</summary>
 
 `DELETE /catalogs/87yu4`
+
+</details>
 
 ## 2. Categories
 
@@ -274,14 +299,14 @@ The tree is sorted. Categories and products are retrieved in the same order as t
   accessLevel="location, account"
 />
 
-| Name                                    | Type     | Description                                                                                                     |
-| --------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------- |
-| `id`                                    | string   | The id of the category.                                                                                         |
-| `ref`                                   | string   | The ref of the category.                                                                                        |
-| `parent_id` <Label type="optional" />   | string   | The id of the parent category, or `null` if the category is a root category.                                    |
-| `name`                                  | string   | The name of the category.                                                                                       |
-| `description` <Label type="optional" /> | string   | The description of the category.                                                                                |
-| `tags` <Label type="optional" />        | string[] | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
+| Name          | Type             | Description                                                                                                     |
+| ------------- | ---------------- | --------------------------------------------------------------------------------------------------------------- |
+| `id`          | string           | The id of the category.                                                                                         |
+| `ref`         | string           | The ref of the category.                                                                                        |
+| `parent_id`   | string or `null` | The id of the parent category, or `null` if the category is a root category.                                    |
+| `name`        | string           | The name of the category.                                                                                       |
+| `description` | string or `null` | The description of the category.                                                                                |
+| `tags`        | string[]         | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
 
 #### Example request:
 
@@ -370,16 +395,16 @@ A product belongs to a category. A product has one or several skus.
   accessLevel="location, account"
 />
 
-| Name                                    | Type           | Description                               |
-| --------------------------------------- | -------------- | ----------------------------------------- |
-| `id`                                    | string         | The id of the product.                    |
-| `ref` <Label type="optional" />         | string         | The ref of the product.                   |
-| `category_id`                           | string         | The id of the parent category.            |
-| `name`                                  | string         | The name of the product.                  |
-| `description` <Label type="optional" /> | string         | The description of the product.           |
-| `tags` <Label type="optional" />        | string[]       | List of tags.                             |
-| `image_ids` <Label type="optional" />   | string[]       | List of image ids attached to the product |
-| `skus`                                  | [Sku](#skus)[] | List of skus of this product.             |
+| Name          | Type             | Description                               |
+| ------------- | ---------------- | ----------------------------------------- |
+| `id`          | string           | The id of the product.                    |
+| `ref`         | string or `null` | The ref of the product.                   |
+| `category_id` | string           | The id of the parent category.            |
+| `name`        | string           | The name of the product.                  |
+| `description` | string or `null` | The description of the product.           |
+| `tags`        | string[]         | List of tags.                             |
+| `image_ids`   | string[]         | List of image ids attached to the product |
+| `skus`        | [Sku](#skus)[]   | List of skus of this product.             |
 
 #### Example request:
 
@@ -481,17 +506,17 @@ A product contains one or several skus. A sku is always attached to a product.
   accessLevel="location, account"
 />
 
-| Name                                        | Type                                                       | Description                                                         |
-| ------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
-| `id`                                        | string                                                     | The id of the sku.                                                  |
-| `ref` <Label type="optional" />             | string                                                     | The ref of the sku.                                                 |
-| `name` <Label type="optional" />            | string                                                     | The name of the sku.                                                |
-| `product_id`                                | string                                                     | The id of the sku's parent product.                                 |
-| `restrictions` <Label type="optional" />    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
-| `price`                                     | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                               |
-| `price_overrides`                           | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts.                              |
-| `option_list_ids` <Label type="optional" /> | string[]                                                   | The ids of the option lists this sku is attached to.                |
-| `tags` <Label type="optional" />            | string[]                                                   | List of tags.                                                       |
+| Name              | Type                                                       | Description                                                         |
+| ----------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| `id`              | string                                                     | The id of the sku.                                                  |
+| `ref`             | string or `null`                                           | The ref of the sku.                                                 |
+| `name`            | string or `null`                                           | The name of the sku.                                                |
+| `product_id`      | string                                                     | The id of the sku's parent product.                                 |
+| `restrictions`    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
+| `price`           | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                               |
+| `price_overrides` | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts.                              |
+| `option_list_ids` | string[]                                                   | The ids of the option lists this sku is attached to.                |
+| `tags`            | string[]                                                   | List of tags.                                                       |
 
 #### Example request:
 
@@ -539,19 +564,19 @@ A product contains one or several skus. A sku is always attached to a product.
 
 An option list can be attached to one or several skus. It has one or several options.
 
-An option list is either of type `single` (a single option must be applied to a sku) or `multiple` (zero, one or several options can be applied to a sku).
-
 ### 5.1. Option List in Catalog Upload
 
 #### Parameters:
 
-| Name                             | Type                 | Description                                                                  |
-| -------------------------------- | -------------------- | ---------------------------------------------------------------------------- |
-| `ref`                            | string               | The ref of the option list. Must be unique among the catalog's option lists. |
-| `name`                           | string               | The name of the option list.                                                 |
-| `type`                           | string               | Either `single` or `multiple`.                                               |
-| `tags` <Label type="optional" /> | string[]             | List of tags.                                                                |
-| `options`                        | [Option](#options)[] | A list of options. An option list must contain at least one option.          |
+| Name                                                         | Type                 | Description                                                                                                                           |
+| ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `ref`                                                        | string               | The ref of the option list. Must be unique among the catalog's option lists.                                                          |
+| `name`                                                       | string               | The name of the option list.                                                                                                          |
+| `min_selections` <Label type="optional" />                   | integer              | The minimum number of selected options. Default: `0`.                                                                                 |
+| `max_selections` <Label type="optional" />                   | integer or `null`    | The maximum number of selected options. If the value is `null`, there is no upper limit on the number of selections. Default: `null`. |
+| `type` <Label type="deprecated" /> <Label type="optional" /> | string               | This field is deprecated. Use `min_selections` and `max_selections` instead.                                                          |
+| `tags` <Label type="optional" />                             | string[]             | List of tags.                                                                                                                         |
+| `options`                                                    | [Option](#options)[] | A list of options. An option list must contain at least one option.                                                                   |
 
 #### Example:
 
@@ -559,7 +584,8 @@ An option list is either of type `single` (a single option must be applied to a 
 {
   "ref": "COL",
   "name": "Color",
-  "type": "single",
+  "min_selections": 1,
+  "max_selections": 1,
   "tags": ["style"],
   "options": [
     {
@@ -577,7 +603,12 @@ An option list is either of type `single` (a single option must be applied to a 
 }
 ```
 
-If the list type is `single`, one single option should be set as default. A default option will be chosen arbitrarily otherwise.
+If `max_selections` is set, no more than `max_selections` options can have their `default` field set to `true`.
+
+The `type` field is deprecated and should be replaced with `min_selections` and `max_selections`. For compatibility purposes, when this field is present, it is mapped to the new fields:
+
+- If `type` = `single`, `min_selections` is set to `1` and `max_selections` is set to `1`.
+- If `type` = `multiple`, `min_selections` is set to `0` and `max_selections` is set to `null`.
 
 ### 5.2. Retrieve Option List
 
@@ -588,14 +619,16 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-| Name                             | Type                 | Description                    |
-| -------------------------------- | -------------------- | ------------------------------ |
-| `id`                             | string               | The id of the option list.     |
-| `ref`                            | string               | The ref of the option list.    |
-| `name`                           | string               | The name of the option list.   |
-| `type`                           | string               | Either `single` or `multiple`. |
-| `tags` <Label type="optional" /> | string[]             | List of tags.                  |
-| `options`                        | [Option](#options)[] | A list of options.             |
+| Name                               | Type                 | Description                                                                                                                       |
+| ---------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `id`                               | string               | The id of the option list.                                                                                                        |
+| `ref`                              | string               | The ref of the option list.                                                                                                       |
+| `name`                             | string               | The name of the option list.                                                                                                      |
+| `min_selections`                   | number               | The minimum number of selected options.                                                                                           |
+| `max_selections`                   | number or `null`     | The maximum number of selected options. If the value is `null`, there is no upper limit on the number of selections.              |
+| `type` <Label type="deprecated" /> | string               | Either `single` or `multiple`. This field is deprecated: the `min_selections` and `max_selections` fields should be used instead. |
+| `tags`                             | string[]             | List of tags.                                                                                                                     |
+| `options`                          | [Option](#options)[] | A list of options.                                                                                                                |
 
 #### Example request:
 
@@ -606,7 +639,9 @@ Retrieve an option list and the possible choices (options).
   "id": "e2sfj",
   "ref": "SAU-SM",
   "name": "Sauce",
-  "type": "single",
+  "min_selections": 0,
+  "max_selections": null,
+  "type": "multiple",
   "options": [
     {
       "id": "m9d6e",
@@ -681,16 +716,16 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-| Name                                | Type                                                       | Description                            |
-| ----------------------------------- | ---------------------------------------------------------- | -------------------------------------- |
-| `id`                                | string                                                     | The id of the option.                  |
-| `ref` <Label type="optional" />     | string                                                     | The ref of the option.                 |
-| `option_list_id`                    | string                                                     | The id of the option list.             |
-| `name`                              | string                                                     | The name of the option.                |
-| `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option.               |
-| `price_overrides`                   | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts. |
-| `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default.  |
-| `tags` <Label type="optional" />    | string[]                                                   | List of tags.                          |
+| Name              | Type                                                       | Description                            |
+| ----------------- | ---------------------------------------------------------- | -------------------------------------- |
+| `id`              | string                                                     | The id of the option.                  |
+| `ref`             | string or `null`                                           | The ref of the option.                 |
+| `option_list_id`  | string                                                     | The id of the option list.             |
+| `name`            | string                                                     | The name of the option.                |
+| `price`           | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option.               |
+| `price_overrides` | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts. |
+| `default`         | boolean                                                    | Whether this option is on by default.  |
+| `tags`            | string[]                                                   | List of tags.                          |
 
 #### Example request:
 
@@ -748,7 +783,7 @@ Retrieve an option list and the possible choices (options).
 | `image_ids` <Label type="optional" />               | string[]                                                   | List of image ids attached to the deal.                                                                                                                                                                                                                                                                       |
 | `lines`                                             | array                                                      | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                                                                                                           |
 | `lines.skus`                                        | array                                                      | The skus eligible for this line. Skus are referenced by their `ref`.                                                                                                                                                                                                                                          |
-| `lines.skus.ref`                                    | string                                                     | The `ref`of the eligible sku.                                                                                                                                                                                                                                                                                 |
+| `lines.skus.ref`                                    | string                                                     | The `ref` of the eligible sku. Skus with no `ref` cannot be included in deals.                                                                                                                                                                                                                                |
 | `lines.skus.extra_charge` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | An optional extra charge applied when the sku is selected.                                                                                                                                                                                                                                                    |
 | `lines.pricing_effect`                              | string                                                     | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                                                            |
 | `lines.pricing_value` <Label type="optional" />     | depends                                                    | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`, and `null` for `unchanged`. |
@@ -776,10 +811,7 @@ Retrieve an option list and the possible choices (options).
     },
     {
       "label": "Drink",
-      "skus": [
-        { "ref": "COK33" },
-        { "ref": "COK50", "extra_charge": "0.50 EUR" }
-      ],
+      "skus": [{ "ref": "COK33" }, { "ref": "COK50", "extra_charge": "0.50 EUR" }],
       "pricing_effect": "fixed_price",
       "pricing_value": "0.50 EUR"
     }
@@ -963,13 +995,13 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 
 #### Parameters:
 
-| Name                              | Type                                                       | Description                                                 |
-| --------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
-| `id` <Label type="optional" />    | string                                                     | The id of the charge.                                       |
-| `ref` <Label type="optional" />   | string                                                     | The ref of the charge.                                      |
-| `name`                            | string                                                     | The name of the charge.                                     |
-| `type`                            | string                                                     | One of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
-| `price` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | The charge price.                                           |
+| Name    | Type                                                                 | Description                                                 |
+| ------- | -------------------------------------------------------------------- | ----------------------------------------------------------- |
+| `id`    | string                                                               | The id of the charge.                                       |
+| `ref`   | string or `null`                                                     | The ref of the charge.                                      |
+| `name`  | string                                                               | The name of the charge.                                     |
+| `type`  | string                                                               | One of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
+| `price` | [Money](/developers/api/general-concepts/#monetary-values) or `null` | The charge amount, or `null` for variable amount.           |
 
 #### Example request:
 
@@ -1097,8 +1129,8 @@ Images can be attached to products and deals, via their `image_ids` fields.
 Images must be uploaded before catalog data, since the images' `id`s must be passed in the products and deals. Upload sequence is as follows:
 
 1. create an empty catalog: `POST /catalogs` or reuse an existing catalog
-2. upload images: `POST /catalogs/:catalog_id/images`
-3. upload catalog data: `PUT /catalogs/:catalog_id`
+1. upload images: `POST /catalogs/:catalog_id/images`
+1. upload catalog data: `PUT /catalogs/:catalog_id`
 
 There is no endpoint to delete an image: when an image is left unattached for 30 days in a row, it is automatically removed.
 

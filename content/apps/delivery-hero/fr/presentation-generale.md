@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Delivery Hero | HubRise
-  description: Présentation générale de Delivery Hero, les raisons de connecter votre plateforme de livraison à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Delivery Hero, les raisons de connecter votre plateforme de livraison à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:
@@ -38,7 +38,7 @@ Connecter Delivery Hero à HubRise permet à votre plateforme de livraison de re
 - Envoyer les commandes à HubRise, dont les statuts de commande.
 - Envoyer les informations de livraison, pour les commandes livrées par votre équipe.
 
-![Diagramme du flux de connexion entre Delivery Hero, Delivero Hero Bridge, et HubRise](../images/000-fr-2x-delivery-hero-diagramme-connexion.png)
+![Diagramme du flux de connexion entre Delivery Hero, Delivery Hero Bridge, et HubRise](../images/000-fr-2x-delivery-hero-diagramme-connexion.png)
 
 ## Pourquoi se connecter ?
 
