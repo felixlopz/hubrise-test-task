@@ -17,21 +17,19 @@ app_info:
   contact: info@orkestro.com
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-
----
-
 ## Description
 
-Orkestro s'adresse aux restaurateurs et aux commerçants en facilitant la gestion du dernier kilomètre de livraison grâce a de nombreuses intégrations avec des services de livraison. Leur réseau de partenaires, présent à Londres mais aussi d'autres villes du Royaume-Uni, inclus des entreprises comme Gophr, Zedify, urb-it, Stuart, Ryders, Addison Lee et bien d'autres encore. Les livreurs sont à pied, à vélo, en moto, en voiture ou en van pour couvrir tous les besoins. 
+Orkestro est une plateforme logicielle qui permet aux restaurateurs et commerçants de gérer le dernier kilomètre de livraison.
 
-Orkestro est aussi une solution de gestion de livreurs qui permet de gérer les livraisons avec sa propre flotte de livreurs sans forcément externaliser ce service. 
+Orkestro dispose d'intégrations avec des services de livraison, tels que Gophr, Zedify, urb-it, Stuart, Ryders, Addison Lee et d'autres encore. Les livreurs peuvent être à pied, à vélo, en moto, en voiture ou en van, selon les besoins.
 
-Le back-office de Orkestro permet de recevoir les commandes, changer leur statut, de les attribuer à des livreurs (internes ou externes), et de suivre leur cheminement en temps réel sur la carte.
+Orkestro permet aussi de gérer les livraisons avec sa propre flotte de livreurs, sans externalisation.
 
-L'application Orkestro destinée aux livreurs permet de visualiser les informations nécessaires aux livraisons, et de mettre à jour leur statut.
+Le back-office de Orkestro permet de visualiser les commandes, les attribuer à des livreurs internes ou externes, mettre à jour leur statut, et suivre leur cheminement en temps réel.
+
+L'application Orkestro destinée aux livreurs permet de visualiser les informations nécessaires aux livraisons et de mettre à jour leur statut.
+
+Orkestro est présent dans plusieurs villes au Royaume-Uni, dont Londres.
 
 ## Fonctionnalités de l'intégration
 
