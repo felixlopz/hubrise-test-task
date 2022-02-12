@@ -3,7 +3,7 @@ title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Instructions
+  title: Connect to HubRise | Just Eat Flyt | HubRise
   description: See how to connect your Just Eat online store to HubRise. Connection is simple. Send the link of your Just Eat page to HubRise and follow a few steps to connect.
 ---
 
@@ -17,13 +17,16 @@ Connecting Just Eat to HubRise can be done with a few simple steps.
 
 ## 1. Enable the API integration
 
-As a first step, you need to contact your Just Eat account manager and ask them to activate the Flyt API for your stores.
-Include [support@hubrise.com](mailto:support@hubrise.com) in the email recipients and add the following information in your email:
+As a first step, the HubRise Flyt API integration must be enabled on your Just Eat account.
 
+Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
+
+- The email address of your Just Eat Account Manager.
 - The URL link of the Just Eat store you wish to connect. For example: [https://www.just-eat.ie/restaurants-saba-to-go-rathmines/](https://www.just-eat.ie/restaurants-saba-to-go-rathmines/).
+- The order acceptance mode you want to use for your store: `Activated` or `Deactivated`. For more details, see our [FAQ](/apps/just-eat-flyt/faqs/auto-accept).
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 
-With this information in hand, Flyt integration team will enable the HubRise integration for your store and provide you with the required credentials to connect.
+With this information in hand, HubRise will request the Flyt integration team to enable the HubRise Flyt API integration for your store. Once this is done, the Flyt team will provide the required credentials to connect.
 
 ## 2. Connect the Bridge
 
@@ -45,7 +48,7 @@ To connect Just Eat Flyt Bridge to HubRise, follow these steps.
    - The API key for uploading the menu
    - The POS business name
    - Flyt location ID
-   Enter the credentials in the page, then click **Save** to complete the connection process.
+     Enter the credentials in the page, then click **Save** to complete the connection process.
 
 ![Credentials page for Just Eat Flyt Bridge](../images/001-en-just-eat-credentials.png)
 
@@ -57,7 +60,7 @@ For more information about the Configuration page and how to navigate to it, see
 
 ## 4. Upload Your Menu
 
-If you have a catalog of products on HubRise, you can upload it to your Just Eat store with a single click. 
+If you have a catalog of products on HubRise, you can upload it to your Just Eat store with a single click.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 To learn how to pull your HubRise catalog into Just Eat, see [Pulling the Menu](/apps/just-eat-flyt/configuration#pulling-the-menu).
