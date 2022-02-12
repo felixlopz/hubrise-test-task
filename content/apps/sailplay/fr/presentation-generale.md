@@ -15,32 +15,26 @@ app_info:
   contact: https://sailplay.com/contact-us
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-
----
-
 ## Description
 
-SailPlay est une plateforme d'automatisation des envois d'e-mails et de SMS destinée à toutes sortes de commerces.
+SailPlay est une plateforme automatisée d'envoi d'e-mails et de SMS, spécialisée pour les commerçants et e-commerçants.
 
-SailPlay permet de collecter des données sur les clients d'un commerce dans le but de créer des programmes de fidélité et des e-mails personnalisés.
+SailPlay collecte des données sur les clients et leurs actions depuis des sources variées. Ces données, consultables depuis le back-office SailPlay, permettent d'optimiser le programme de fidélité et l'envoi de messages personnalisés.
+
+SailPlay permet également de déterminer la rentabilité de vos actions marketing, grâce à des outils d'analyse évolués. 
 
 ## Fonctionnalités de l'intégration
 
 Connecter SailPlay à HubRise permet à votre solution de marketing de :
 
-- Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
-
-![Diagramme du flux de connexion entre SailPlay, SailPlay Bridge, et HubRise](../images/000-fr-2x-diagramme-connexion.png)
+- Recevoir les commandes de HubRise.
 
 SailPlay peut être connecté à HubRise depuis le back-office de HubRise.
 
 ## Pourquoi se connecter ?
 
-En connectant SailPlay à HubRise, vous permettez à votre solution de marketing de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution d'encaissement, de commande en ligne, ou des plateformes de livraison de repas sur votre solution de marketing.
+En connectant SailPlay à HubRise, vous permettez à votre solution de marketing de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution d'encaissement, de commande en ligne sur votre solution de marketing.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
