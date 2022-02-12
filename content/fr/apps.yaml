@@ -358,12 +358,12 @@ content:
           logo: orkestro.png
           title: Orkestro
           description: Orkestro permet de gérer les livraisons en interne ou de les externaliser à des opérateurs offrant des services de livraison à la demande.
-          additional_info:
-        - website: https://stuart.com/fr/
+          additional_info: /apps/stuart
+        - website: https://stuart.com/fr
           documentation:
           logo: stuart.png
           title: Stuart
-          description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée. Disponible dans 3 pays et 80 villes.
+          description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée. Disponible dans 4 pays et 100 villes.
           additional_info:
     - title: Fidélité et marketing
       apps:
