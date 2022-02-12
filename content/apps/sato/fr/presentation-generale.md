@@ -47,4 +47,4 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 
 ## Prérequis
 
-Pour établir la connexion entre Solution et HubRise, vous devez avoir l'application HubRise installée sur votre imprimante intelligente équipée de la technologie AEP (*Application Enabled Printing*).
+Pour connecter votre imprimante SATO à HubRise, celle-ci doit être équipée de la technologie AEP (*Application Enabled Printing*), dont seuls les modèles FX3-LX et CT4-LX disposent. Vous devez également faire installer l'application HubRise sur votre imprimante par le support de SATO, opération facturée 90€ HT.
