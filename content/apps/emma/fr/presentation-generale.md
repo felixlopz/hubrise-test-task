@@ -15,29 +15,22 @@ app_info:
   contact:
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-
----
-
 ## Description
 
-Emma est une solution d'envoi d'e-mails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing. Leur équipe vous aident à développer votre liste, à créer un contenu attrayant, et à tester des stratégies pour stimuler l'engagement. 
+Emma est une solution d'envoi d'e-mails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
 
-Emma permet d'automatiser l'envoi de vos e-mails, de personnaliser leur apparence avec du contenu dynamique, ou encore de tester le contenu le plus pertinent en envoyant une version différente d'un même e-mail à une partie de votre audience.
+Emma permet d'automatiser l'envoi d'e-mails, de personnaliser leur apparence avec du contenu dynamique, ou encore de tester le contenu le plus pertinent en envoyant des versions différentes à des parties de votre liste. Emma propose un éditeur simple d'utilisation, qui permet de personnaliser vos modèles d'e-mails, et de créer une page d'accueil liée à l'email.
 
-Emma propose un éditeur simple d'utilisation, qui permet de personnaliser vos modèles d'e-mails, et de créer une page d'accueil liée à vos e-mails. 
+Emma fournit une assistance à la création de contenu attrayant, au développement des listes, et à la mise en place de tests pour choisir la meilleure stratégie.
 
-L'interface utilisateur Emma est en anglais et les échanges avec leur équipe aussi. 
+L'interface utilisateur Emma est en anglais, tout comme les échanges avec leur support.
 
 ## Fonctionnalités de l'intégration
 
 Connecter Emma à HubRise permet à votre solution de marketing de :
 
 - Recevoir les informations clients de HubRise.
-
-![Schéma du flux de connexion entre Emma, Emma Bridge et HubRise](../images/001-fr-2x-diagramme-connexion.png)
+- Recevoir les commandes de HubRise.
 
 Emma peut être connecté à HubRise depuis le back-office de HubRise.
 
