@@ -449,8 +449,7 @@ content:
           documentation: /apps/sato
           logo: sato.png
           title: SATO
-          description: SATO fournit des imprimantes thermiques intelligentes pour les commerces de proximité et les restaurants. Présent dans plus de 90 pays.
-          additional_info: Intégration en cours.
+          description: SATO fournit des imprimantes autonomes personnalisables pour les commerces de proximité et les restaurants. Les imprimantes sont utilisées dans plus de 90 pays.
         - website: https://spleatthebill.io
           documentation: /apps/spleat-the-bill
           logo: spleat-the-bill.png
