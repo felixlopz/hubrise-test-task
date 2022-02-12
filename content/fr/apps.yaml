@@ -354,7 +354,7 @@ content:
           description: OrderLord est une solution conçue pour les entreprises de livraison et les restaurants, permettant de suivre les livraisons grâce à une application mobile utilisant le GPS. OrderLord apporte aux clients une expérience de livraison transparente.
           additional_info:
         - website: https://orkestro.com
-          documentation:
+          documentation: /apps/orkestro
           logo: orkestro.png
           title: Orkestro
           description: Orkestro permet de gérer les livraisons en interne ou de les externaliser à des opérateurs offrant des services de livraison à la demande.
