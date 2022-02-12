@@ -26,20 +26,20 @@ Pour voir les détails d'une commande :
 
 ### Statut de la commande
 
-Les statuts que My Lemonade envoie à HubRise sont les suivants :
+My Lemonade envoie les statuts suivants à HubRise :
 
-- _Nouvelle_ : la commande a été créée.
-- _Reçue_ : la commande a été reçue.
-- _En préparation_ : la commande est en cours de préparation.
-- _Attente de transport_ : la commande est en attente de transport.
-- _Attente de collecte_ : la commande est en attente de récupération.
-- _En livraison_ : la commande est en cours de livraison.
-- _Terminée_ : la commande est terminée.
-- _Rejetée_ : la commande a été rejetée.
-- _Annulée_ : la commande a été annulée.
-- _Échec de livraison_ : la commande n'a pas pu être livrée.
+- _new_ : la commande a été créée.
+- _received_ : la commande a été reçue.
+- _in_preparation_ : la commande est en cours de préparation.
+- _awaiting_shipment_ : la commande est en attente de transport.
+- _awaiting_collection_ : la commande est en attente de récupération.
+- _in_delivery_ : la commande est en cours de livraison.
+- _completed_ : la commande est terminée.
+- _rejected_ : la commande a été rejetée.
+- _cancelled_ : la commande a été annulée.
+- _delivery_failed_ : la commande n'a pas pu être livrée.
 
-Pour modifier le statut d'une commande, cliquez sur le bouton correspondant au nouveau statut.
+Pour modifier le statut d'une commande, cliquez sur le bouton correspondant dans le détail de la commande.
 
 My Lemonade reçoit aussi les mises à jour de statut provenant de HubRise.
 

@@ -11,19 +11,15 @@ Une fois My Lemonade connecté à HubRise, vous devez configurer My Lemonade afi
 
 ## Importer le catalogue
 
-À tout moment, vous pouvez importer manuellement le catalogue depuis HubRise :
+Le catalogue est importé automatiquement dans My Lemonade au moment de la connexion avec HubRise.
+
+À tout moment, vous pouvez ré-importer manuellement le catalogue depuis HubRise :
 
 1. Dans le menu latéral, sélectionnez **Paramètres**.
 1. Sélectionnez l'onglet **Caisse**.
 1. Cliquez sur **FORCER LA RÉIMPORTATION**.
 
----
-
-**REMARQUE IMPORTANTE :** Le catalogue est importé automatiquement dans My Lemonade au moment de la connexion avec HubRise.
-
----
-
-Vous pouvez configurer My Lemonade afin que les modifications faites sur le catalogue HubRise mettent à jour automatiquement le menu My Lemonade :
+Pour que les mises à jour de catalogue dans HubRise soient automatiquement importées dans votre menu My Lemonade :
 
 1. Dans le menu latéral, sélectionnez **Paramètres**.
 1. Sélectionnez l'onglet **Caisse**.
@@ -32,7 +28,7 @@ Vous pouvez configurer My Lemonade afin que les modifications faites sur le cata
 
 ## Exporter le catalogue
 
-Vous pouvez configurer My Lemonade afin que les modifications faites sur le menu My Lemonade mettent à jour automatiquement le catalogue HubRise :
+My Lemonade permet d'exporter la carte vers votre catalogue HubRise. Lorsque vous activez cette option, chaque modification de la carte My Lemonade entraîne une mise à jour du catalogue HubRise.
 
 1. Dans le menu latéral, sélectionnez **Paramètres**.
 1. Sélectionnez l'onglet **CAISSE**.
@@ -40,11 +36,11 @@ Vous pouvez configurer My Lemonade afin que les modifications faites sur le menu
 
 ## Produits
 
-Un produit est toujours composé d'au moins une SKU. HubRise ignore le code ref du produit et prend en compte le code ref de la SKU. Suivez les étapes détaillées dans la [section suivante](/apps/my-lemonade/associer-codes-ref#skus) pour en retrouver le code ref.
+Un produit est toujours composé d'au moins une SKU. HubRise ignore le code ref du produit et prend en compte le code ref de la SKU. Suivez les étapes détaillées dans la section suivante pour en trouver le code ref.
 
 ## SKUs
 
-Une SKU dans HubRise correspond à une variante dans My Lemonade. Pour retrouver le code ref d'une variante, suivez les étapes suivantes :
+Une SKU dans HubRise correspond à une variante dans My Lemonade. Pour trouver le code ref d'une variante, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Gestion du Menu**.
 1. Dans la section **Carte**, sélectionnez la catégorie à laquelle appartient le produit.
@@ -53,7 +49,7 @@ Une SKU dans HubRise correspond à une variante dans My Lemonade. Pour retrouver
 
 ## Options
 
-Pour retrouver le code ref d'une option, suivez les étapes suivantes :
+Pour trouver le code ref d'une option, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Gestion du Menu**.
 1. Sélectionnez l'onglet **OPTIONS**.
@@ -62,7 +58,7 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 
 ## Promotions
 
-Une promotion dans HubRise correspond à une offre dans My Lemonade. Pour retrouver le code ref d'une offre, suivez les étapes suivantes :
+Une promotion dans HubRise correspond à une offre dans My Lemonade. Pour trouver le code ref d'une offre, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Gestion du Menu**.
 1. Sélectionnez l'onglet **OFFRES**.
@@ -71,7 +67,7 @@ Une promotion dans HubRise correspond à une offre dans My Lemonade. Pour retrou
 
 ## Méthodes de paiement
 
-Une méthode de paiement dans HubRise correspond à un service de paiement dans My Lemonade. Pour retrouver le code ref d'un service de paiement, suivez les étapes suivantes :
+Une méthode de paiement dans HubRise correspond à un service de paiement dans My Lemonade. Pour trouver le code ref d'un service de paiement, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Paramètres**.
 1. Sélectionnez l'onglet **PAIEMENT**. Le code ref s'affiche dans le champ **Service**.
@@ -79,7 +75,7 @@ Une méthode de paiement dans HubRise correspond à un service de paiement dans 
 
 ## Types de service
 
-Pour retrouver le code ref d'un type de service, suivez les étapes suivantes :
+Pour trouver le code ref d'un type de service, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Paramètres**.
 1. Sélectionnez l'onglet **CAISSE**.

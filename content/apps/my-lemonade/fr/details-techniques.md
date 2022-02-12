@@ -9,21 +9,20 @@ meta:
 
 ## Envoi des commandes
 
-Lors de l'envoi d'une commande My Lemonade, ses champs sont utilisés de la façon suivante :
+Les commandes envoyées par My Lemonade à HubRise possèdent les champs suivants :
 
-| Nom du champ HubRise                  | Utilisation dans My Lemonade                                                        |
-| ------------------------------------- | ----------------------------------------------------------------------------------- |
-| `service_type`                        | Indique si la commande est en livraison, sur place, à emporter, ou en consultation. |
-| `service_type_ref`                    | Identique à `service_type`.                                                         |
-| `expected_time`                       | Heure et date auxquelles la commande sera prête ou livrée.                          |
-| `item.sku_ref`                        | Code ref du produit.                                                                |
-| `item.price`                          | Prix du produit.                                                                    |
-| `item.product_name`                   | Nom du produit.                                                                     |
-| `item.options`                        | Options ajoutées au produit.                                                        |
-| `deals`                               | Promotions ajoutées à la commande.                                                  |
-| `charges`                             | Charges ajoutées à la commande.                                                     |
-| `total`                               | Montant total de la commande.                                                       |
-| `collection_code`                     | Code permettant de récupérer la commande.                                           |
-| `customer`                            | Informations du client.                                                             |
-| `payments`                            | Méthodes de paiement.                                                               |
-| `custom_fields.restaurant.table_name` | Référence de la table.                                                              |
+| Nom du champ HubRise                  | Utilisation dans My Lemonade                                       |
+| ------------------------------------- | ------------------------------------------------------------------ |
+| `service_type`                        | Indique si la commande est en livraison, sur place, ou à emporter. |
+| `service_type_ref`                    | Identique à `service_type`.                                        |
+| `expected_time`                       | Heure et date auxquelles la commande sera prête ou livrée.         |
+| `item.sku_ref`                        | Code ref du produit.                                               |
+| `item.price`                          | Prix du produit.                                                   |
+| `item.product_name`                   | Nom du produit.                                                    |
+| `item.options`                        | Options ajoutées au produit.                                       |
+| `deals`                               | Promotions de la commande.                                         |
+| `charges`                             | Frais de la commande.                                              |
+| `collection_code`                     | Code permettant de récupérer la commande.                          |
+| `customer`                            | Informations du client.                                            |
+| `payments`                            | Méthode de paiement.                                              |
+| `custom_fields.restaurant.table_name` | Référence de la table.                                             |

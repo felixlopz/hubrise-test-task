@@ -9,8 +9,10 @@ meta:
 
 HubRise et My Lemonade utilisent chacun leur propre terminologie. Un même concept peut donc avoir une désignation différente dans chaque solution. La table de correspondance ci-dessous indique ces différences.
 
-| My Lemonade         | HubRise             | Description                              |
-| ------------------- | ------------------- | ---------------------------------------- |
-| Établissement       | Point de vente      | Restaurant proprement dit.               |
-| Offre               | Promotion           | Remise sur des articles de la commande.  |
-| Service de paiement | Méthode de paiement | Méthode utilisée pour payer la commande. |
+| My Lemonade         | HubRise             | Description                             |
+| ------------------- | ------------------- | --------------------------------------- |
+| Établissement       | Point de vente      | Restaurant proprement dit.              |
+| Menu                | Catalogue           | L'ensemble de la carte.                 |
+| Offre               | Promotion           | Remise sur des articles de la commande. |
+| Service de paiement | Méthode de paiement | Méthode de paiement de la commande.     |
+| Variante            | SKU                 | Variante de produit.                    |
