@@ -3,11 +3,11 @@ title: Video Guide (en anglais)
 position: 4
 layout: documentation
 meta:
-  title: Video Guide - HubRise
+  title: Video Guide | HubRise
   description:
 ---
 
-[comment]: # 'This page is a duplicate from .../contributing/en'
+[comment]: # "This page is a duplicate from .../contributing/en"
 
 ## General Recommendations
 
