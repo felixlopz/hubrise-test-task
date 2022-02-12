@@ -380,7 +380,7 @@ content:
           description: dotdigital est un outil d'automatisation marketing omnicanal utilisé pour engager et créer des relations avec ses clients grâce à des campagnes marketing par e-mail, SMS, notifications en push, chat et annonces sur les réseaux sociaux.
           additional_info:
         - website: https://myemma.com
-          documentation:
+          documentation: /apps/emma
           logo: emma.png
           title: Emma
           description: Emma est une solution d'envoi d'e-mails et de newsletters personnalisés, avec support à la stratégie et à la conception de la campagne marketing.
