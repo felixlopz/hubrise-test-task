@@ -31,7 +31,7 @@ Smood propose également un service de livraison en marque blanche, appelé Dism
 
 ## Fonctionnalités de l'intégration
 
-HubRise est intégré à Dismatch, le service de livraison en marque blanche de Smoode.
+HubRise est intégré à Dismatch, le service de livraison en marque blanche de Smood.
 
 ---
 

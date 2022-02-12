@@ -38,8 +38,6 @@ Connecter Stuart à HubRise permet à votre solution de gestion de livreurs de :
 - Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
 
-![Diagramme du flux de connexion entre Stuart, Stuart Bridge, et HubRise](../images/000-fr-2x-stuart-diagramme-connexion.png)
-
 Stuart peut être connecté à HubRise depuis le back-office de HubRise.
 
 ## Pourquoi se connecter ?
