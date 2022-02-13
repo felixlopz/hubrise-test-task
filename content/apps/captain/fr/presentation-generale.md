@@ -23,11 +23,15 @@ app_info:
 
 ## Description
 
-Captain est une solution de gestion de livreurs proposant une suite d'applications mobiles, pour les restaurateurs, les livreurs, et les clients.
+Captain est une suite d'applications permettant aux restaurateurs de gérer leurs livraisons.
 
-Captain permet aux restaurateurs de visualiser en temps réel sur une carte les adresses de livraison dès qu'une commande est reçue par le restaurant, de regrouper les livraisons et les distribuer à leurs livreurs selon les besoins, de visualiser le cheminement des livraisons en temps réel, et de consulter les métriques liées aux livraisons.
+L'application Dispatch de Captain permet au restaurateur de visualiser les livraisons en temps réel et de les assigner à leurs livreurs. Les restaurateurs peuvent aussi laisser Captain regrouper et assigner automatiquement les livraisons, afin de gagner du temps et d'éviter les interventions manuelles.
 
-Captain propose aussi un écran cuisine pour améliorer la communication entre l'équipe de préparation et les livreurs.
+L'application Driver de Captain est dédiée aux livreurs. Elle guide les livreurs à leur destination et les informe de leurs prochaine livraisons.
+
+L'application Kitchen de Captain est un écran cuisine conçu pour fluidifier la communication entre cuisiniers et livreurs.
+
+Captain informe les clients finaux de leur livraison en cours par un SMS contenant un lien vers une page de suivi en temps réel. La page les invite également à laisser leur avis, ce qui permet aux responsables du restaurant de mesurer la qualité de service et de réagir rapidement en cas de problème.
 
 ## Fonctionnalités de l'intégration
 
@@ -40,7 +44,7 @@ Captain peut être connecté à HubRise via le support de Captain.
 
 ## Pourquoi se connecter ?
 
-En connectant Captain à HubRise, vous permettez à votre solution de gestion de livreurs de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, des plateformes de livraison de repas, ou de la caisse sur votre solution de gestion de livreurs.
+En connectant Captain à HubRise, vous permettez à votre solution de gestion de livreurs de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution d'encaissement, de commande en ligne ou des plateformes de livraison de repas, directement dans votre solution de gestion de livreurs.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
