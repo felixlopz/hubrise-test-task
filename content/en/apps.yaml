@@ -332,7 +332,7 @@ content:
     - title: Delivery Management
       apps:
         - website: http://www.captain.ai
-          documentation:
+          documentation: /apps/captain
           logo: captain.png
           title: Captain
           description: Captain delivery management suite of solutions has been designed to support restaurant delivery through order management and live customer order tracking.
