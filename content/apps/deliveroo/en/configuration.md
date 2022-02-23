@@ -10,8 +10,6 @@ meta:
 The configuration page allows you to customise the behaviour of Deliveroo Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Deliveroo Bridge configuration page](../images/002-en-configuration-page.png)
-
 ## Language
 
 From this section, you can decide which language is used to localise your receipts.
@@ -19,6 +17,9 @@ From this section, you can decide which language is used to localise your receip
 ## Service Types
 
 Service types such as delivery by Deliveroo, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+
+Additionally, from this section you can choose to mark Deliveroo orders as delivery orders or collection orders.
+This is useful if you have specific business requirements for financial reporting.
 
 ## Discounts
 
@@ -40,9 +41,33 @@ Deliveroo customers can pay for their order either online or by cash for restaur
 
 This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
 
+## Order Statuses
+
+Deliveroo requires you to acknowledge every order you receive.
+In this section, you can select which HubRise status sends an order confirmation back to Deliveroo.
+Refer to your connected EPOS documentation on the HubRise website to verify the correct value. 
+
+## Menu
+
+In this section, you can choose to automatically publish the menu every time it is updated on HubRise. By default, this feature is turned off.
+
+Additionally, you can customize the brand ID and menu ID values, even though the default values generally work for most customers.
+
+Finally, include the menu description and URL for the banner image that you want to show on your Deliveroo store.
+
 ## Saving the Configuration
 
 Once you are happy with the configuration of Deliveroo Bridge, click **Save** at the top of the page to go back to the Operations page.
+
+## Publishing the Menu
+
+To publish your HubRise menu to Deliveroo, from the **Actions** section at the bottom of the page, select **Publish the menu on Deliveroo**. For more information on how HubRise menus are mapped to Deliveroo, see [Pulling the Menu](/apps/deliveroo/pulling-menu).
+
+---
+
+**IMPORTANT NOTE:** Publishing the HubRise menu to Deliveroo will erase your current menu on your Deliveroo store. This action cannot be reverted.
+
+---
 
 ## Resetting the Configuration
 
