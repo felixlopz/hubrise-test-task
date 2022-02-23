@@ -13,3 +13,4 @@ This pages contains a list of common errors you might find with Lightspeed Resta
 - <Link to="/apps/lightspeed-restaurant/common-errors/check-restrictions-error/">Check Restrictions Error</Link>
 - <Link to="/apps/lightspeed-restaurant/common-errors/price-differences-errors/">Price Difference Errors</Link>
 - <Link to="/apps/lightspeed-restaurant/common-errors/ipad-disconnected-errors/">iPad Disconnected Errors</Link>
+- <Link to="/apps/lightspeed-restaurant/common-errors/orders-not-received-errors/">Orders Not Received</Link>
