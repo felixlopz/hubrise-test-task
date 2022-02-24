@@ -353,6 +353,7 @@ content:
           logo: orkestro.png
           title: Orkestro
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
+          additional_info:
         - website: https://stuart.com
           documentation: /apps/stuart
           logo: stuart.png

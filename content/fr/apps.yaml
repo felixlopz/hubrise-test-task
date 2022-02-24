@@ -358,7 +358,7 @@ content:
           logo: orkestro.png
           title: Orkestro
           description: Orkestro permet de gérer les livraisons en interne ou de les externaliser à des opérateurs offrant des services de livraison à la demande.
-          additional_info: /apps/stuart
+          additional_info:
         - website: https://stuart.com/fr
           documentation:
           logo: stuart.png
