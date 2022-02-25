@@ -17,3 +17,13 @@ HubRise and Uber Eats each use their own terminology. The same concept can there
 | Partner       | Account     | Business brand.                     |
 | Store         | Location    | The actual restaurant.              |
 | Store UUID    | Location ID | ID of the restaurant.               |
+
+## Service Types
+
+Uber Eats offers three types of services to its customers.
+
+- **Delivery by Uber Eats**: Uber Eats delivers the order to the customer.
+- **Restaurant delivery**: You are responsible for delivering the order to the customer.
+- **Takeaway**: The customer collects the order from your restaurant.
+
+

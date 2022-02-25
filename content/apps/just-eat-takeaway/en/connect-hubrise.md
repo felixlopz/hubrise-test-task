@@ -17,19 +17,24 @@ Connecting Just Eat Takeaway to HubRise can be done with a few simple steps.
 
 ## 1. Enable HubRise on Just Eat Takeaway
 
-As a first step, you need to contact your Just Eat Takeaway account manager and ask them to activate the API integration for your stores.
-Include [support@hubrise.com](mailto:support@hubrise.com) in the email recipients and add the following information in your email:
+As a first step, you need to contact your Just Eat Takeaway support and ask them to activate the API integration for your stores. Include [support@hubrise.com](mailto:support@hubrise.com) and your Just Eat account manager in the email recipients. Include the following information in your email:
 
-- The API workflow you want to activate: POSAPI
-- The POS system you want to connect: HubRise
-- The type of connection to set up: Primary
-- The URL link of the Just Eat Takeaway store you wish to connect. For example: https://www.just-eat.ch/en/menu/blaqk-2.
-- Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
-- The Restaurant ExtID: This is the Restaurant ID of your Just Eat Takeaway store, for example: `8736550`.
+> - The API workflow you want to activate: **POSAPI**
+> - The POS system you want to connect: **HubRise**
+> - The type of connection to set up: **Primary**
+> - The URL link to your restaurant store on the Just Eat website. For example: [https://www.just-eat.ch/en/menu/blaqk-2](https://www.just-eat.ch/en/menu/blaqk-2).
+> - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
+>
+> We need the Just Eat Takeaway identification code to finalise the connection. We also need access to the Just Eat Takeaway back office to enter product ref codes autonomously.
 
-With this information in hand, Just Eat Takeaway will enable the HubRise integration for your store and provide you with the required credentials to connect.
 
-## 2. Connect the Bridge
+With this information in hand, Just Eat Takeaway will enable the HubRise integration for your store and provide you with the Just Eat Takeaway identification code, for example: `8736550`. You need this ID to connect the Just Eat Takeaway Bridge to HubRise.
+
+## 2. Map Product Ref Codes
+
+Most apps require a ref code for each product to identify every item and process orders correctly. As a result, each item on your Just Eat Takeaway menu should have a corresponding product ref code. For more information, see [Map Ref Codes](/apps/just-eat-takeaway/connect-hubrise).
+
+## 3. Connect the Bridge
 
 ---
 
@@ -49,8 +54,9 @@ To connect Just Eat Takeaway Bridge to HubRise, follow these steps.
 
 ![Just Eat Takeaway Restaurant ID](../images/001-en-jet-restaurant-id.png)
 
-## 3. Configure Your Preferences
+## 4. Configure Your Preferences
 
 After connecting the bridge, you need to configure a few parameters on the Configuration page to send orders correctly to your EPOS.
 
 For more information about the Configuration page and how to navigate to it, see [User Interface](/apps/just-eat-takeaway/user-interface/#configuration-page). For details on how to configure the parameters of Just Eat Takeaway Bridge, see [Configuration](/apps/just-eat-takeaway/configuration).
+
