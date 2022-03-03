@@ -104,13 +104,13 @@ To receive your HOP Delivery orders in Lightspeed, use the following values to c
 
 | Section       | Name                          | Ref code      |
 | ------------- | ----------------------------- | ------------- |
-| Service types | HOP fulfilled ref code        | HOPDEL        |
-| Service types | Restaurant fulfilled ref code | HOPREST       |
-| Service types | Takeaway ref code             | HOPCOL        |
-| Discounts     | Offer ref code                | HOP99         |
-| Charges       | Delivery charge ref code      | HOP77         |
-| Charges       | Service fee ref code          | HOP88         |
-| Payments      | HOP payment ref code          | HOPPM         |
+| Service types | HOP fulfilled ref code        | `HOPDEL`      |
+| Service types | Restaurant fulfilled ref code | `HOPREST`     |
+| Service types | Takeaway ref code             | `HOPCOL`      |
+| Discounts     | Offer ref code                | `HOP99`       |
+| Charges       | Delivery charge ref code      | `HOP77`       |
+| Charges       | Service fee ref code          | `HOP88`       |
+| Payments      | HOP payment ref code          | `HOPPM`       |
 | Payments      | Cash payment ref code         | (leave empty) |
 
 ## Takeaway.com
