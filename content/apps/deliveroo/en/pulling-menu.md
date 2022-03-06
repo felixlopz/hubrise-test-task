@@ -24,8 +24,7 @@ Once your catalog is populated on HubRise, you can publish it on your Deliveroo 
 1. Log in to your HubRise account.
 1. Select the location connected with your Deliveroo store.
 1. Select **Deliveroo Bridge** from the list of connected apps.
-1. From the Deliveroo Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
-1. On the configuration page, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**.
+1. In Deliveroo Bridge, click the **Actions** tab, then select **Publish the menu on Deliveroo**.
 
 ## Information Sent to Deliveroo
 
