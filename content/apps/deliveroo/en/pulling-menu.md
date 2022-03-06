@@ -146,7 +146,7 @@ For every option in an option list, Deliveroo Bridge sends the following informa
 
 ### Deals
 
-For each deal in the catalog, Deliveroo Bridge creates a Deliveroo product with this details:
+For each deal in the catalog, Deliveroo Bridge creates a Deliveroo product with the following details:
 
 - `name`: The name of the deal becomes the name of the product.
 - `category_ref`: If empty, Deliveroo Bridge creates a default category in Deliveroo called "Offers".
