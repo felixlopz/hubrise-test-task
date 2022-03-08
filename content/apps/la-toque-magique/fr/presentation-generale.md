@@ -15,7 +15,7 @@ path_override: /
 app_info:
   category: Commande en ligne
   availability: France
-  price_range:
+  price_range: De 5 à 79 € / mois
   website: https://latoquemagique.com/
   contact: support@latoquemagique.com
 ---
