@@ -55,6 +55,18 @@ Additionally, you can customize the brand ID and menu ID values, even though the
 
 Finally, include the menu description and URL for the banner image that you want to show on your Deliveroo store.
 
+To obtain a public URL for your banner image, send an email to [support@hubrise.com](mailto:support@hubrise.com) including an image with the following requirements:
+
+- at least 1920x1080 pixels, 16:9 ratio
+- JPG or PNG format
+- less than 2 Mb
+
+---
+
+**IMPORTANT NOTE:** The menu description and banner image are required to successfully publish your menu to Deliveroo.
+
+---
+
 ## Saving the Configuration
 
 Once you are happy with the configuration of Deliveroo Bridge, click **Save** at the top of the page to go back to the Operations page.
