@@ -113,6 +113,12 @@ content:
           title: SICOM
           description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
           additional_info: Integration by MyTec in progress.
+        - website: https://swoopos.com
+          documentation: /apps/swoopos
+          logo: swoopos.png
+          title: Swoopos
+          description: Swoopos is a cost efficient, multifunctional and easy to use mobile Point of Sales system designed for the hospitality and retail sectors. It comes with split the bill, table booking, QR code table ordering and more.
+          additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc
           logo: talc.png
