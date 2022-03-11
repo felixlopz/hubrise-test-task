@@ -354,6 +354,12 @@ content:
           title: Orkestro
           description: Orkestro is a delivery operations manager solution used to organise inhouse deliveries or outsource to delivery companies on-demand and on the same day.
           additional_info:
+        - website: https://useseconds.com
+          documentation: /apps/seconds
+          logo: seconds.png
+          title: Seconds
+          description: Seconds makes it easy for restaurants or retailers to use on-demand and same-day delivery services offered by third party delivery fleet providers. Auto-dispatch orders to Seconds internal driver fleet or another outsourced fleet of drivers.
+          additional_info:
         - website: https://stuart.com
           documentation: /apps/stuart
           logo: stuart.png

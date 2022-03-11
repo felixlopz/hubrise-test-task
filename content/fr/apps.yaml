@@ -359,6 +359,12 @@ content:
           title: Orkestro
           description: Orkestro permet de gérer les livraisons en interne ou de les externaliser à des opérateurs offrant des services de livraison à la demande.
           additional_info:
+        - website: https://useseconds.com
+          documentation: /apps/seconds
+          logo: seconds.png
+          title: Seconds
+          description: Seconds permet aux retaurateurs et aux commerçants d'utiliser, avec plus de faclité, les services de livraison express ou sur rendez-vous proposés par des services de livraison tiers. Envoi automatique des commandes aux livreurs de Seconds ou à un autre service de livraison partenaire.
+          additional_info:
         - website: https://stuart.com/fr
           documentation:
           logo: stuart.png
