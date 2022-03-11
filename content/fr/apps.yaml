@@ -75,6 +75,11 @@ content:
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
+        - website: https://nextorder.com/fr-fr
+          documentation: /apps/next-order
+          logo: next-order.png
+          title: Next Order
+          description: Next Order propose une suite logicielle complète pour tout type de restaurant. Solution d'encaissement cloud, Next Order peut être utilisé sur n'importe quel appareil. Riche en fonctionnalités, Next Order aide à rationaliser les opérations.
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png
