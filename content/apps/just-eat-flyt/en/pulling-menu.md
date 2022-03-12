@@ -25,7 +25,7 @@ Once your catalog is populated on HubRise, you can publish it on your Just Eat s
 1. Log in to your HubRise account.
 1. Select the location connected with your Just Eat store.
 1. Select **Just Eat Flyt Bridge** from the list of connected apps.
-1. In Just Eat Bridge, click the **Actions** tab, then select **Publish menu on the platform**.
+1. In Just Eat Flyt Bridge, click the **Actions** tab, then select **Publish menu on the platform**.
 
 ---
 
