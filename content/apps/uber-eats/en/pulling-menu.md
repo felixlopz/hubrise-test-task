@@ -136,3 +136,7 @@ For each deal in the catalog, Uber Eats Bridge creates a Uber Eats product with 
 - `lines`: For each object in the array, Uber Eats Bridge creates a list of modifiers, with `lines.name` as the name.
 
 By default, when customers order a deal, they must choose one product for every deal line.
+
+### Availability
+
+Every time you push your HubRise catalog to Uber Eats, you also update the availability of your menu, based on the values you set from the [Configuration page](/apps/uber-eats/configuration/#menu) of Uber Eats Bridge.

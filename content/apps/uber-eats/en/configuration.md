@@ -13,6 +13,8 @@ The Configuration page allows you to customise the behaviour of Uber Eats Bridge
 
 These are divided into different sections for an easier navigation.
 
+![Uber Eats Bridge configuration page](../images/010-en-configuration-page-cropped.png)
+
 ## Language
 
 From this section, you can decide which language is used to localise your receipts.
@@ -56,14 +58,18 @@ Select from the dropdown menu the HubRise status which should make the order acc
 
 ## Menu
 
+![Uber Eats Bridge configuration page, Menu section](../images/011-en-configuration-page-menu.png)
+
 In this section, choose if you want to update your Uber Eats catalog every time it is updated on HubRise.
 By default, this option it turned off.
 
 ### Availability
 
-For each day of the week, select your opening times by specifying one or two time shifts.
-If your restaurant is closed on a specific day, click **Close the day**.
+In the **Availability** section, set the availability for your Uber Eats store.
 
+For each day of the week, set the opening and closing times of your store by specifying one or two time shifts. Customers will not be able to order from your Just Eat store outside of these time windows.
+
+If your restaurant is closed on a specific day, click **Close the day**.
 To quickly copy the availability to all the following days on the list, click **Copy to bottom**.
 
 ### Preparation Notes
