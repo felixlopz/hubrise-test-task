@@ -119,17 +119,4 @@ Deals and discounts are not supported on Just Eat. Therefore, deals and discount
 
 ### Availability
 
-From the [configuration page](/apps/just-eat-flyt/configuration/#menu) of Just Eat Flyt Bridge, you can set the availability for your menu.
-
-You can choose to make your products available for delivery, collection, or both.
-
-For each day of the week, set the opening and closing times of your store by specifying one or two time shifts. Customers will not be able to order from your Just Eat store outside of these time windows.
-
-If your restaurant is closed on a specific day, click **Close the day**.
-To quickly copy the availability to all the following days on the list, click **Copy to bottom**.
-
----
-
-**IMPORTANT NOTE:** By default, closing times for delivery will be set half an hour earlier on the Just Eat store than the value you set on Just Eat Flyt Bridge. Closing times for collection, instead, are not modified.
-
----
+Every time you push your HubRise catalog to Just Eat, you also update the availability of your menu, based on the values you set from the [configuration page](/apps/just-eat-flyt/configuration/#menu) of Just Eat Flyt Bridge.
