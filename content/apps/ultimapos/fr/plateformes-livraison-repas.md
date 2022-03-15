@@ -1,6 +1,6 @@
 ---
 title: Plateformes de livraison de repas
-position: 2
+position: 3
 layout: documentation
 meta:
   title: Plateformes de livraison de repas | UltimaPOS | HubRise
