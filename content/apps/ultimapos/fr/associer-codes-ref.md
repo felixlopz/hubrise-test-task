@@ -24,7 +24,6 @@ Pour retrouver le code ref d'un produit, suivez ces étapes :
 
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, **Articles**, puis dans **Paramètres Articles**, cliquez sur **Articles**.
    ![Connexion à HubRise - Accueil UltimaPOS](../images/001-fr-ultimapos-accueil.png)
-   ![Associer les codes ref - Articles](../images/004-fr-ultimapos-articles.png)
 2. Le code ref d'un produit est indiqué en haut à droite, dans le champ **ID**.
 
    ![Associer les codes ref - Articles](../images/005-fr-ultimapos-articles-articles.png)
@@ -55,7 +54,6 @@ Les promotions sur UltimaPOS proposent davantage de possibilités, dont la restr
 Pour ajouter un code ref à une remise, suivez ces étapes :
 
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, **Financier**, puis dans **Paramètres Financiers**, cliquez sur **Remises**.
-   ![Associer les codes ref - Financier](../images/006-fr-ultimapos-financier.png)
 2. Le code ref d'une remise est indiqué en haut à droite, dans le champ **ID**.
    ![Associer les codes ref - Remises](../images/007-fr-ultimapos-remises.png)
 

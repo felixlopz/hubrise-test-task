@@ -18,7 +18,6 @@ Pour connecter votre solution d'encaissement UltimaPOS à HubRise, suivez ces é
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Paramètres**, **Paramètres Cloud**, **Click & Collect**, puis dans l'onglet **HubRise**.
    ![Connexion à HubRise - Accueil UltimaPOS](../images/001-fr-ultimapos-accueil.png)
 
-   ![Connexion à HubRise - HubRise déconnecté](../images/002-fr-ultimapos-hubrise-deconnecte.png)
 2. Cliquez sur **Se connecter à HubRise**.
 3. Dans l'encart HubRise, vérifiez le nom du point de vente et cliquez sur **Autoriser**.
 4. Copiez le code affiché et collez-le dans le champ **Auth. Code**. Cliquez sur **Valider la connexion**.
