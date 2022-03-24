@@ -103,7 +103,13 @@ content:
           logo: restaurant-manager.png
           title: Restaurant Manager
           description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d'établissements de la restauration au bars.
-          additional_info: Intégration par Crystal Mind en cours.
+          additional_info: Intégration par Crystal Mind.
+        - website: https://www.synapsy.fr/
+          documentation: /apps/synapsy
+          logo: synapsy.png
+          title: Synapsy
+          description: Synapsy, solution de gestion pour les métiers de bouche et de commerce de détail, inclut de l’encaissement, des bornes de commande sur place et du Click & Collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels et marketing.
+          additional_info: Integration in progress.
         - website: https://www.sicom.com/
           documentation: /apps/sicom
           logo: sicom.png
@@ -297,7 +303,7 @@ content:
           documentation: /apps/smartresto
           logo: smartresto.png
           title: SmartResto.Net
-          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de click & collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
+          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de Click & Collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
           additional_info:
         - website: https://www.smilein.io
           documentation: /apps/smilein
@@ -319,7 +325,7 @@ content:
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de Click & Collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info:
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
