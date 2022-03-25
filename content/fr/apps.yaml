@@ -20,6 +20,12 @@ content:
           logo: 3spos.png
           title: 3S POS
           description: 3S POS est une suite complète aux fonctionnalités personnalisables pour répondre aux besoins de chaque restaurant ou hôtelier.
+        - website: https://adipos.fr/
+          documentation: /apps/adipos
+          logo: adipos.png
+          title: Adipos
+          description: Adipos est une solution de caisse cloud, sous iOS et Android, dédiée à la restauration en salle, livraison ou click & collect, mono ou multi établissement. Adipos propose des applications interconnectées, comme des bornes de commande, une solution de commande en ligne et un écran cuisine.
+          additional_info: Intégration en cours.
         - website: https://www.carrepos-online.fr/
           documentation: /apps/carre-pos
           logo: carrepos.png
