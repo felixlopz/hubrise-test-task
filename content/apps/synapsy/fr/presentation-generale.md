@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-Synapsy, solution de gestion pour les métiers de bouche et de commerce de détail, inclut de l’encaissement, des bornes de commande sur place et du Click & Collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels, mais aussi à des fonctionnalités facilitant le marketing et la mise en place de programme de fidélité.
+Synapsy, solution de gestion pour les métiers de bouche et de commerce de détail, inclut de l’encaissement, des bornes de commande sur place et du click & collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels, mais aussi à des fonctionnalités facilitant le marketing et la mise en place de programme de fidélité.
 
 Pour plus de flexibilité, les données sont hébergées dans le cloud et accessibles ou que vous soyez, et sur tout type d'appareil.
 

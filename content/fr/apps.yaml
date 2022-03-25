@@ -108,7 +108,7 @@ content:
           documentation: /apps/synapsy
           logo: synapsy.png
           title: Synapsy
-          description: Synapsy, solution de gestion pour les métiers de bouche et de commerce de détail, inclut de l’encaissement, des bornes de commande sur place et du Click & Collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels et marketing.
+          description: Synapsy, solution de gestion pour les métiers de bouche et de commerce de détail, inclut de l’encaissement, des bornes de commande sur place et du click & collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels et marketing.
           additional_info: Integration in progress.
         - website: https://www.sicom.com/
           documentation: /apps/sicom
@@ -235,7 +235,7 @@ content:
           documentation: /apps/dood
           logo: dood.png
           title: DOOD
-          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le Click & Collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
+          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le click & collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
         - website: https://www.gonnaorder.com/?lang=fr
           documentation: /apps/gonnaorder
           logo: gonnaorder.png
@@ -303,7 +303,7 @@ content:
           documentation: /apps/smartresto
           logo: smartresto.png
           title: SmartResto.Net
-          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de Click & Collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
+          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de click & collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
           additional_info:
         - website: https://www.smilein.io
           documentation: /apps/smilein
@@ -325,7 +325,7 @@ content:
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de Click & Collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info:
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
