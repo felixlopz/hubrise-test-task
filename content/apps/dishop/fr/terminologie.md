@@ -9,7 +9,7 @@ meta:
 
 HubRise et Dishop utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
-| Solution          | HubRise          | Description                  |
+| Dishop            | HubRise          | Description                  |
 |-------------------|------------------|------------------------------|
 | Référence         | Code ref         | Code produit                 |
 | Section           | Catégorie        | Catégorie du produit         |
