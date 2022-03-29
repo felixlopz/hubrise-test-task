@@ -35,8 +35,8 @@ Pour mettre à jour le code ref d'une option, suivez ces étapes :
 
 ## Promotions et offres
 
-Les réductions sur La Toque Magique correspondent aux promotions sur HubRise. Elles s'appliquent sur toute la commande.
-Les offres s'appliquent quant à elles sur certains produits.
+Les réductions sur La Toque Magique correspondent aux remises sur HubRise. Elles s'appliquent à toute la commande.
+Les offres sur La Toque Magique correspondent aux promotions sur HubRise et s'appliquent quant à elles à certains produits.
 
 Pour ajouter un code ref à une réduction, suivez ces étapes :
 

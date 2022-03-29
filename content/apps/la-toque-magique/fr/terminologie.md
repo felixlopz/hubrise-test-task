@@ -10,9 +10,10 @@ meta:
 HubRise et La Toque Magique utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
 | La Toque Magique  | HubRise        | Description                             |
-|-------------------| -------------- | --------------------------------------- |
+|-------------------|----------------|-----------------------------------------|
 | Référence externe | Code ref       | Code produit.                           |
-| Réduction         | Promotion      | Offre spéciale sur la commande globale. |
+| Réduction         | Remise         | Offre spéciale sur la commande globale. |
+| Offre             | Promotion      | Offre spéciale sur des produits.        |
 | Établissement     | Point de vente | Le restaurant proprement dit.           |
 | Marque            | Compte         | Appellation commerciale.                |
 | Menu              | Catalogue      | Liste de produits.                      |
