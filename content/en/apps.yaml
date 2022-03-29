@@ -435,6 +435,11 @@ content:
           logo: orderline.png
           title: OrderLine
           description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
+        - website:
+          documentation: /apps/catalog-manager
+          logo: orderline.png
+          title: Catalog Manager
+          description: Catalog Manager by HubRise is used to create and manage products in your store catalogs and integrate the data between different systems, such as EPOS and online ordering systems or food platforms.
         - website: https://www.satoeurope.com
           documentation: /apps/sato
           logo: sato.png
