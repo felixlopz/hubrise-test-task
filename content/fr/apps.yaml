@@ -193,6 +193,12 @@ content:
           title: Takeaway.com
           description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, au Luxembourg, au Portugal, en Roumanie, et en Bulgarie.
           additional_info:
+        - website: https://www.talabat.com
+          documentation: /apps/talabat
+          logo: talabat.png
+          title: Talabat
+          description: Talabat est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible au Koweït, en Arabie saoudite, au Bahreïn, aux Émirats Arabes Unis, à Oman, au Qatar, en Jordanie, en Égypte et en Irak.
+          additional_info: Intégration en cours.
         - website: https://www.thuisbezorgd.nl/fr/
           documentation: /apps/just-eat-takeaway
           logo: thuisbezorgd.png
@@ -456,12 +462,6 @@ content:
           logo: sato.png
           title: SATO
           description: SATO fournit des imprimantes autonomes personnalisables pour les commerces de proximité et les restaurants. Les imprimantes sont utilisées dans plus de 90 pays.
-        - website: https://spleatthebill.io
-          documentation: /apps/spleat-the-bill
-          logo: spleat-the-bill.png
-          title: Spleat the bill
-          description: Spleat the bill est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition depuis leur téléphone.
-          additional_info: Intégration en cours.
         - website: https://tickncook.com
           documentation: /apps/tickncook
           logo: tickncook.png
