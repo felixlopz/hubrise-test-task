@@ -450,6 +450,7 @@ content:
           logo: sato.png
           title: SATO
           description: SATO fournit des imprimantes autonomes personnalisables pour les commerces de proximité et les restaurants. Les imprimantes sont utilisées dans plus de 90 pays.
+        - website: https://tickncook.com
           documentation: /apps/tickncook
           logo: tickncook.png
           title: TicknCook
