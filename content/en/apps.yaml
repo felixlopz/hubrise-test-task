@@ -196,6 +196,12 @@ content:
           title: Takeaway.com
           description: Takeaway.com is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. Available in Belgium, Luxembourg, Portugal, Romania, and in Bulgaria.
           additional_info:
+        - website: https://www.talabat.com
+          documentation: /apps/talabat
+          logo: talabat.png
+          title: Talabat
+          description: Talabat is a food ordering and delivery platform. Customers can order food online or via a mobile app. Available in Kuwait, Saudi Arabia, Bahrain, the United Arab Emirates, Oman, Qatar, Jordan, Egypt, and Iraq.
+          additional_info: Integration in progress.
         - website: https://www.thuisbezorgd.nl/en/
           documentation: /apps/just-eat-takeaway
           logo: thuisbezorgd.png
