@@ -44,4 +44,4 @@ Thanks to HubRise, you can synchronise your menu, your customer information and 
 
 ## Prerequisites
 
-To establish a connection between Talabat and HubRise, you must have an existing Talabat account.
+To establish a connection between Talabat and HubRise, your restaurant must be a Talabat partner.

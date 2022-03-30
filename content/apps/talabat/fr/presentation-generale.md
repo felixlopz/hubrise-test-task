@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-Talabat est une plateforme de commande et de livraison de repas fondée au Koweït en 2004. Depuis avril 2021, Talabat opère au Koweït, en Arabie saoudite, à Bahreïn, aux Émirats arabes unis, à Oman, au Qatar, en Jordanie, en Égypte et en Irak. Filiale de Delivery Hero depuis 2016, Talabat est devenue plateforme incontournable au Moyen-Orient.
+Talabat est une plateforme de commande et de livraison de repas fondée au Koweït en 2004. Depuis avril 2021, Talabat opère au Koweït, en Arabie saoudite, à Bahreïn, aux Émirats arabes unis, à Oman, au Qatar, en Jordanie, en Égypte et en Irak. Filiale de Delivery Hero depuis 2016, Talabat est devenue une plateforme incontournable au Moyen-Orient.
 
 ## Fonctionnalités de l'intégration
 
@@ -44,4 +44,4 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 
 ## Prérequis
 
-Pour établir la connexion entre Talabet et HubRise, vous devez disposer d'un compte Talabat.
+Pour établir la connexion entre Talabet et HubRise, votre restaurant doit être partenaire Talabat.
