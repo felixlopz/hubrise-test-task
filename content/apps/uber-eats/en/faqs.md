@@ -1,6 +1,6 @@
 ---
 title: FAQs
-position: 8
+position: 9
 layout: documentation
 meta:
   title: FAQs | Uber Eats | HubRise
