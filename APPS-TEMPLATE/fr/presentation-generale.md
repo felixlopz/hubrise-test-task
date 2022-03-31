@@ -29,7 +29,7 @@ app_info:
 ---
 
 **REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/[SOLUTION]" addLocalePrefix={false}>en anglais uniquement</Link>.
-**REMARQUE IMPORTANTE :** Cette documentation est disponible <Link to="/apps/[SOLUTION]" addLocalePrefix={false}>en anglais uniquement</Link>. Intégration en cours. Une documentation complète sera publiée une fois ce travail terminé.
+**REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/[SOLUTION]" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---
 

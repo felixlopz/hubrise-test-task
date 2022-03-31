@@ -28,8 +28,8 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: This documentation is available <Link to="/fr/apps/solution" addLocalePrefix={false}>in French only</Link>.
-**IMPORTANT NOTE**: This documentation is available <Link to="/fr/apps/koust" addLocalePrefix={false}>in French</Link>. The integration is in progress. Full documentation will be published once the integration is complete.
+**IMPORTANT NOTE**: This documentation is available <Link to="/fr/apps/[SOLUTION]" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/[SOLUTION]" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
