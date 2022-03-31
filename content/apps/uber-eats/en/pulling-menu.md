@@ -9,6 +9,8 @@ meta:
 
 With Uber Eats Bridge, you can pull your HubRise catalog directly into your Uber Eats store with a single click.
 
+You can also configure the bridge to pull your catalog into Uber Eats every time it is updated on HubRise. For more information, see [Menu](/apps/uber-eats/configuration#menu). 
+
 This page explains how you can pull and update your menu on Uber Eats, and what information about HubRise catalogs can be pulled into the platform.
 
 ## Populating a HubRise Catalog
