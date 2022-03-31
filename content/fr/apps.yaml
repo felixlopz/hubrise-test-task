@@ -113,8 +113,8 @@ content:
           documentation: /apps/synapsy
           logo: synapsy.png
           title: Synapsy
-          description: Synapsy, solution de gestion pour les métiers de bouche et de commerce de détail, inclut de l’encaissement, des bornes de commande sur place et du click & collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels et marketing.
-          additional_info: Integration in progress.
+          description: Synapsy est une solution de gestion pour les métiers de bouche et de commerce de détail, qui inclut l'encaissement, les bornes de commande et le click & collect. Synapsy intègre des outils décisionnels et marketing, et répond aux besoins des indépendants et des réseaux de magasins.
+          additional_info: Intégration en cours.
         - website: https://www.sicom.com/
           documentation: /apps/sicom
           logo: sicom.png
@@ -131,7 +131,7 @@ content:
           documentation: /apps/ultimapos
           logo: ultimapos.png
           title: UltimaPOS
-          description: UltimaPOS de UltimaSOFT propose des logiciels d’encaissement et de gestion de point de vente adaptés aux besoins des restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
+          description: UltimaPOS de UltimaSOFT propose des logiciels d'encaissement et de gestion de point de vente adaptés aux besoins des restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
           additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
@@ -453,7 +453,7 @@ content:
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it
           logo: somm-it.png
-          title: SOMM’IT
+          title: SOMM'IT
           description: SOMM'IT vous accompagne dans la gestion de votre carte des vins. Synchronisez votre inventaire avec votre EPOS, et éditez une carte des vins à jour. SOMM'IT inclut une large bibliothèque de vins, et un module de gestion des commandes fournisseurs.
     - title: Autres applications
       apps:

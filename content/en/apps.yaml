@@ -117,7 +117,7 @@ content:
           documentation: /apps/synapsy
           logo: synapsy.png
           title: Synapsy
-          description: Synapsy operations management solution for food catering professionals and retail stores, includes an EPOS, a self-service kiosk and Click & Collect. Synapsy meets the needs of businesses of all sizes thanks to decision-making and marketing tools.
+          description: Synapsy is an operations management solution for food catering professionals and retail stores, that includes EPOS, self-service kiosks, and Click & Collect. Synapsy offers decision-making and marketing tools, and meets the needs of businesses of all sizes.
           additional_info: Integration in progress.
         - website: https://www.sicom.com/
           documentation: /apps/sicom

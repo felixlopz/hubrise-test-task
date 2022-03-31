@@ -23,9 +23,9 @@ app_info:
 
 ## Description
 
-Synapsy, solution de gestion pour les métiers de bouche et de commerce de détail, inclut de l’encaissement, des bornes de commande sur place et du click & collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels, mais aussi à des fonctionnalités facilitant le marketing et la mise en place de programme de fidélité.
+Synapsy est une solution de gestion pour les métiers de bouche et de commerce de détail. Synapsy intègre l'encaissement, les bornes de commande sur place et le click & collect. Synapsy répond aux besoins des indépendants, des réseaux de magasins ou franchisés grâce à des outils décisionnels et aux fonctionnalités de marketing et de fidélité.
 
-Pour plus de flexibilité, les données sont hébergées dans le cloud et accessibles ou que vous soyez, et sur tout type d'appareil.
+Pour plus de flexibilité, les données sont hébergées dans le cloud et accessibles de n'importe où et sur tout type d'appareil.
 
 Société éditrice de logiciel de caisse créée en 2005, Synapsy est certifiée LNE, et donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
 

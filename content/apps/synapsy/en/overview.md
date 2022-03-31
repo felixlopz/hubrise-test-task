@@ -23,9 +23,9 @@ app_info:
 
 ## Description
 
-Synapsy operations management solution for food catering professionals and retail stores, includes an EPOS, a self-service kiosk and Click & Collect. Synapsy meets the needs of businesses of all sizes with embedded decision-making, marketing and loyalty management tools. 
+Synapsy is an operations management solution for food catering professionals and retail stores. It includes EPOS, self-service kiosks, and Click & Collect. Synapsy meets the needs of businesses of all sizes with embedded decision-making, marketing and loyalty management tools. 
 
-For more flexibilité, data can be accessed from anywhere, on any device.
+For more flexibility, data can be accessed from anywhere, on any device.
 
 Founded in 2005 as an EPOS software publisher, Synapsy is LNE certified, and therefore complies with the January 2018 French "anti-fraud" regulations.
 
