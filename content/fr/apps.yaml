@@ -108,7 +108,13 @@ content:
           logo: restaurant-manager.png
           title: Restaurant Manager
           description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d'établissements de la restauration au bars.
-          additional_info: Intégration par Crystal Mind en cours.
+          additional_info: Intégration par Crystal Mind.
+        - website: https://www.synapsy.fr/
+          documentation: /apps/synapsy
+          logo: synapsy.png
+          title: Synapsy
+          description: Synapsy est une solution de gestion pour les métiers de bouche et de commerce de détail, qui inclut l'encaissement, les bornes de commande et le click & collect. Synapsy intègre des outils décisionnels et marketing, et répond aux besoins des indépendants et des réseaux de magasins.
+          additional_info: Intégration en cours.
         - website: https://www.sicom.com/
           documentation: /apps/sicom
           logo: sicom.png
@@ -125,7 +131,7 @@ content:
           documentation: /apps/ultimapos
           logo: ultimapos.png
           title: UltimaPOS
-          description: UltimaPOS de UltimaSOFT propose des logiciels d’encaissement et de gestion de point de vente adaptés aux besoins des restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
+          description: UltimaPOS de UltimaSOFT propose des logiciels d'encaissement et de gestion de point de vente adaptés aux besoins des restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
           additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
@@ -240,7 +246,7 @@ content:
           documentation: /apps/dood
           logo: dood.png
           title: DOOD
-          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le Click & Collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
+          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le click & collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
         - website: https://www.gonnaorder.com/?lang=fr
           documentation: /apps/gonnaorder
           logo: gonnaorder.png
@@ -308,7 +314,7 @@ content:
           documentation: /apps/smartresto
           logo: smartresto.png
           title: SmartResto.Net
-          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de click & collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
+          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de click & collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
           additional_info:
         - website: https://www.smilein.io
           documentation: /apps/smilein
@@ -330,7 +336,7 @@ content:
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info:
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
@@ -447,7 +453,7 @@ content:
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it
           logo: somm-it.png
-          title: SOMM’IT
+          title: SOMM'IT
           description: SOMM'IT vous accompagne dans la gestion de votre carte des vins. Synchronisez votre inventaire avec votre EPOS, et éditez une carte des vins à jour. SOMM'IT inclut une large bibliothèque de vins, et un module de gestion des commandes fournisseurs.
     - title: Autres applications
       apps:
