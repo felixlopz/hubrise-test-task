@@ -411,6 +411,12 @@ content:
           additional_info:
     - title: Gestion et inventaire
       apps:
+        - website: https://get.apicbase.com/fr/
+          documentation: /apps/apicbase
+          logo: apicbase.png
+          title: Apicbase
+          description: Apicbase est un logiciel de gestion pour les restaurants et les hôtels à plusieurs points de vente. Apicbase vous permet de contrôler les coûts des produits finis, l'inventaire et les achats. Vos données sont disponibles à tout moment, où que vous soyez et sur tout type d'appareil.
+          additional_info:
         - website: https://barratio.fr
           documentation: /apps/barratio
           logo: barratio.png
