@@ -81,6 +81,11 @@ content:
           logo: nestor.png
           title: Nestor
           description: Nestor est un logiciel de caisse conçu pour la livraison à domicile et la vente à emporter.
+        - website: https://nextorder.com/fr-fr
+          documentation: /apps/next-order
+          logo: next-order.png
+          title: Next Order
+          description: Next Order propose une suite logicielle complète pour tout type de restaurant. Next Order fonctionne en mode Cloud et peut être utilisé sur n'importe quel appareil. Riche en fonctionnalités, Next Order aide à rationaliser les opérations.
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png
@@ -109,7 +114,13 @@ content:
           logo: restaurant-manager.png
           title: Restaurant Manager
           description: Restaurant Manager, vendu dans le monde entier par des revendeurs agréés, est conçu pour répondre aux besoins de tous types d'établissements de la restauration au bars.
-          additional_info: Intégration par Crystal Mind en cours.
+          additional_info: Intégration par Crystal Mind.
+        - website: https://www.synapsy.fr/
+          documentation: /apps/synapsy
+          logo: synapsy.png
+          title: Synapsy
+          description: Synapsy est une solution de gestion pour les métiers de bouche et de commerce de détail, qui inclut l'encaissement, les bornes de commande et le click & collect. Synapsy intègre des outils décisionnels et marketing, et répond aux besoins des indépendants et des réseaux de magasins.
+          additional_info: Intégration en cours.
         - website: https://www.sicom.com/
           documentation: /apps/sicom
           logo: sicom.png
@@ -126,7 +137,7 @@ content:
           documentation: /apps/ultimapos
           logo: ultimapos.png
           title: UltimaPOS
-          description: UltimaPOS de UltimaSOFT propose des logiciels d’encaissement et de gestion de point de vente adaptés aux besoins des restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
+          description: UltimaPOS de UltimaSOFT propose des logiciels d'encaissement et de gestion de point de vente adaptés aux besoins des restaurants, ainsi que des épiceries, instituts de beauté, pressing et laveries. Un back office permet de paramétrer son système et consulter ses résultats.
           additional_info:
         - website: https://zelty.fr
           documentation: /apps/zelty
@@ -199,6 +210,12 @@ content:
           title: Takeaway.com
           description: Takeaway.com est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible en Belgique, au Luxembourg, au Portugal, en Roumanie, et en Bulgarie.
           additional_info:
+        - website: https://www.talabat.com
+          documentation: /apps/talabat
+          logo: talabat.png
+          title: Talabat
+          description: Talabat est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible au Koweït, en Arabie saoudite, au Bahreïn, aux Émirats Arabes Unis, à Oman, au Qatar, en Jordanie, en Égypte et en Irak.
+          additional_info: Intégration en cours.
         - website: https://www.thuisbezorgd.nl/fr/
           documentation: /apps/just-eat-takeaway
           logo: thuisbezorgd.png
@@ -235,7 +252,7 @@ content:
           documentation: /apps/dood
           logo: dood.png
           title: DOOD
-          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le Click & Collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
+          description: DOOD est une solution e-commerce et e-marketing destinés au food retail. Adaptée aux indépendants comme aux chaînes, la solution de commande en ligne en marque blanche de DOOD permet le click & collect, la livraison, et le service à table. DOOD inclut une suite d'outils marketing pour développer la fidélisation client.
         - website: https://www.gonnaorder.com/?lang=fr
           documentation: /apps/gonnaorder
           logo: gonnaorder.png
@@ -303,7 +320,7 @@ content:
           documentation: /apps/smartresto
           logo: smartresto.png
           title: SmartResto.Net
-          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de click & collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
+          description: SmartResto.Net propose des menu digitalisés interactifs accessibles par QR code, et des sites de click & collect. La solution est conçue pour les cafés, restaurants, traiteurs, street food, hôtels et tout autre métier de la restauration.
           additional_info:
         - website: https://www.smilein.io
           documentation: /apps/smilein
@@ -325,7 +342,7 @@ content:
           documentation: /apps/tastycloud
           logo: tastycloud.png
           title: TastyCloud
-          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
+          description: TastyCloud propose des menus digitalisés in et out store pour les restaurants et les hôtels. L'offre comprend des menus sur tablettes, des porte-menus extérieurs, un site de click & collect, des écrans dynamiques, et une application mobile de prise de commande par scan de QR codes.
           additional_info:
         - website: https://woocommerce.com/
           documentation: /apps/woocommerce
@@ -411,6 +428,12 @@ content:
           additional_info:
     - title: Gestion et inventaire
       apps:
+        - website: https://get.apicbase.com/fr/
+          documentation: /apps/apicbase
+          logo: apicbase.png
+          title: Apicbase
+          description: Apicbase est un logiciel de gestion pour les restaurants et les hôtels à plusieurs points de vente. Apicbase vous permet de contrôler les coûts des produits finis, l'inventaire et les achats. Vos données sont disponibles à tout moment, où que vous soyez et sur tout type d'appareil.
+          additional_info:
         - website: https://barratio.fr
           documentation: /apps/barratio
           logo: barratio.png
@@ -436,7 +459,7 @@ content:
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it
           logo: somm-it.png
-          title: SOMM’IT
+          title: SOMM'IT
           description: SOMM'IT vous accompagne dans la gestion de votre carte des vins. Synchronisez votre inventaire avec votre EPOS, et éditez une carte des vins à jour. SOMM'IT inclut une large bibliothèque de vins, et un module de gestion des commandes fournisseurs.
     - title: Autres applications
       apps:
@@ -456,12 +479,6 @@ content:
           logo: sato.png
           title: SATO
           description: SATO fournit des imprimantes autonomes personnalisables pour les commerces de proximité et les restaurants. Les imprimantes sont utilisées dans plus de 90 pays.
-        - website: https://spleatthebill.io
-          documentation: /apps/spleat-the-bill
-          logo: spleat-the-bill.png
-          title: Spleat the bill
-          description: Spleat the bill est une solution de paiement à table pour les bars et restaurants, qui permet aux clients de payer et de partager l'addition depuis leur téléphone.
-          additional_info: Intégration en cours.
         - website: https://tickncook.com
           documentation: /apps/tickncook
           logo: tickncook.png
