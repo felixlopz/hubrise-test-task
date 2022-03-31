@@ -79,7 +79,7 @@ content:
           documentation: /apps/next-order
           logo: next-order.png
           title: Next Order
-          description: Next Order propose une suite logicielle complète pour tout type de restaurant. Solution d'encaissement cloud, Next Order peut être utilisé sur n'importe quel appareil. Riche en fonctionnalités, Next Order aide à rationaliser les opérations.
+          description: Next Order propose une suite logicielle complète pour tout type de restaurant. Next Order fonctionne en mode Cloud et peut être utilisé sur n'importe quel appareil. Riche en fonctionnalités, Next Order aide à rationaliser les opérations.
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png

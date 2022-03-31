@@ -35,7 +35,7 @@ Utilisé principalement au Royaume-Uni, en Australie et en Nouvelle-Zélande, Ne
 - Une solution de réservation de table et de gestion de table.
 - Un reporting consolidé, avec intégration des commandes, des réservations et des solutions de gestion de personnel.
 
-Avec des bureaux à Melbourne, Manille et Bangalore, Next Order offre une assistance gratuite 24h/24 et 7j/7 et publie régulièrement des fonctionnalités et d'améliorations. La mission de Next Order est de permettre aux restaurants de gérer l'ensemble de leur activité avec l'aide d'un logiciel.
+Avec des bureaux à Melbourne, Manille et Bangalore, Next Order offre une assistance gratuite 24h/24 et 7j/7 et publie régulièrement des fonctionnalités et d'améliorations. La mission de Next Order est de permettre aux restaurants de digitaliser l'ensemble de leur activité.
 
 ## Fonctionnalités de l'intégration
 
