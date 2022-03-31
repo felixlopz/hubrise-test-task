@@ -405,7 +405,7 @@ content:
           documentation: /apps/apicbase
           logo: apicbase.png
           title: Apicbase
-          description: Apicbase is a Food and Beverage management software for multi-store food businesses and hotels. Apicbase is used for food cost control, recipe management, inventory, purchasing and sales analytics. Data is available at any given moment, wherever you are, on any device.
+          description: Apicbase is a Food and Beverage management software for multi-store food businesses and hotels. Apicbase helps you control food costs, inventory, and purchasing. Access your data at any time, wherever you are, on any device.
           additional_info:
         - website: https://barratio.fr/en
           documentation: /apps/barratio
