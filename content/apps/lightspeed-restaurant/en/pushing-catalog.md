@@ -1,6 +1,6 @@
 ---
 title: Pushing The Catalog
-position: 9
+position: 12
 layout: documentation
 meta:
   title: Pushing The Catalog | Lightspeed Restaurant | HubRise
@@ -14,7 +14,7 @@ This page describes how to export your Lightspeed catalog and what information i
 To export your Lightspeed catalog to HubRise, follow these steps.
 
 1. From the Lightspeed Restaurant Bridge main page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/001-arrow.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
-1. From the **Actions** section at the bottom of the page, click on **Pull menu from Lightspeed Restaurant**.
+1. From the **Actions** section at the bottom of the page, click on **Pull menu from Lightspeed**.
 1. Click **Confirm** when prompted.
 
 ---
