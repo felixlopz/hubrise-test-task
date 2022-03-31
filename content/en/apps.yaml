@@ -24,7 +24,7 @@ content:
           documentation: /apps/adipos
           logo: adipos.png
           title: Adipos
-          description: Adipos is a cloud Point of Sales created for iOS and Android. Dedicated to catering, Adipos covers the needs of dine-in, delivery or Click & Collect, for single or multi-store. This EPOS comes with a number of interconnected applications, including a self ordering kiosk, online ordering and Kitchen Display Screen.
+          description: Adipos is a Point of Sales for iOS and Android dedicated to catering. It covers the needs of dine-in, delivery and Click & Collect, for single or multi-store setups. Adipos comes with a number of interconnected applications, including self ordering kiosks, online ordering and a Kitchen Display System.
           additional_info: Integration in progress.
         - website: https://www.carrepos-online.fr/
           documentation: /apps/carre-pos

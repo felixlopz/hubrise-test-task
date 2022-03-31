@@ -23,15 +23,13 @@ app_info:
 
 ## Description
 
+The Adipos Point of Sales offers a complete suite to manage restaurant operations. The solution is built around modular applications to meet the merchant's operational needs. All apps are available for iOS and Android.
 
-Designed and developed in the heart of Paris by Adixon, the Adipos Point of Sales offers a complete suite to manage restaurant operations. Adipos includes various interconnected applications with functionalities that covers all operational needs. All mobile applications are available on iOS and Android, to choose based on preferences or constraints.
+The EPOS has been designed for all types of catering businesses, restaurant with table service, quick-service, delivery and Click & Collect as well as food trucks and bakeries. Adipos has been designed for single or multi-store and franchise restaurants. When connected, Adipos provides real-time monitoring, but it can also work offline. A back office is available for administration and management. 
 
-The EPOS has been designed for all types of catering businesses, restaurant with table service, quick-service, delivery and Click & Collect as well as food trucks and bakeries. Adipos has been designed for single or multi-store and franchise restaurants.
-A back office is available for administration and management. Connected, Adipos provides real-time monitoring, but it can also work offline.
+Adipos offers multiple functionalities in addition to the EPOS, including floor plans, management of an order quota by product category, customer loyalty with or without coupons, delivery and click & collect management, order display in the kitchen and in preparation areas, display on promotional screens, self ordering kiosks, online ordering, and an ordering app.
 
-Various functionalities are available in addition to the EPOS, including the floor plan, management of an order quota by product category, customer loyalty with or without coupons, delivery and click & collect management, order display in the kitchen and in preparation areas, display on promotional screens, self ordering kiosks, online ordering or ordering app, and much more.
-
-Adipos is NF525 certified, and therefore complies with the French anti-fraud regulations which came into force on January 1, 2018
+Adipos is developed in France by Adixon, and has received NF525 certification, making it compliant with the French "anti-fraud" law of January 1, 2018.
 
 ## Integration Features
 

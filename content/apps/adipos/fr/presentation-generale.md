@@ -23,18 +23,17 @@ app_info:
 
 ## Description
 
-Conçu et développé en plein coeur de Paris, par Adixon, la solution d'encaissement Adipos offre un univers complet de gestion pour tout type de restaurant. L’ensemble s’articule autour d'applicatifs interconnectés, dont les fonctionnalités permettent de répondre aux besoins opérationnels du commerçant. Les différentes applications mobiles sont disponibles sous iOS et Android, à choisir selon les habitudes et contraintes de chacun.
+La solution d'encaissement Adipos offre une solution complète de gestion pour tout type de restaurant. La solution s’articule autour d'applications modulaires, dont chacune permet de répondre à un besoin opérationnel du commerçant. Les différentes applications sont disponibles sous iOS et Android.
 
-La solution de caisse est conçue pour le monde de la restauration avec service à table, restauration rapide, livraison et Click & Collect, ainsi que food truck ou boulangerie. Elle a été pensée pour les enseignes indépendantes ou les franchises en multi établissements.
-Un back-office d’administration et de pilotage est disponible. Connecté, Adipos permet d’assurer un suivi du service en temps réel, mais elle peut fonctionner en offline également.
+La solution de caisse est conçue pour la restauration avec service à table, restauration rapide, livraison et Click & Collect, ainsi que pour les food trucks et les boulangeries. Elle est adaptée aux besoins des enseignes indépendantes comme des franchises multi établissements. Lorsqu'elle est connectée, la solution Adipos permet le suivi du service en temps réel, mais elle peut également fonctionner hors connexion. Un back-office d’administration et de pilotage est disponible.
 
-Différentes fonctionnalités sont disponibles outre le plan de salle, la gestion d’un quota de commande par catégories de produit, la fidélité client avec ou sans coupons, la gestion de la livraison et du click & collect, l’affichage en cuisine et en zone de préparation, la diffusion sur écrans promotionnels, borne de commande sur place, commande en ligne ou app de commande, et bien plus encore.
+Adipos propose de multiples fonctionnalités, dont les plans de salle, la gestion d’un quota de commande par catégories de produit, la fidélité client avec ou sans coupons, la gestion de la livraison et du click & collect, l’affichage en cuisine et en zone de préparation, la diffusion sur écrans promotionnels, les bornes de commande, la commande en ligne, une app de commande.
 
-Adipos est certifié NF525, et donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
+Adipos est développé en France par Adixon, et a reçu la certification NF525, le rendant conforme à la loi française "anti-fraudes" du 1er janvier 2018.
 
 ## Fonctionnalités de l'intégration
 
-Connecter Adipos à HubRise permet à votre d'encaissement de :
+Connecter Adipos à HubRise permet à votre solution d'encaissement de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
