@@ -24,8 +24,8 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 - The URL link to your restaurant page on the Just Eat website. For example: [https://www.just-eat.ie/restaurants-saba-to-go-rathmines/](https://www.just-eat.ie/restaurants-saba-to-go-rathmines/).
 - The order acceptance mode you want to use for your store: Auto-accept `Activated` or `Deactivated`. For more details, see our [FAQ](/apps/just-eat-flyt/faqs/auto-accept).
 - The email address of your Just Eat Account Manager.
-- If your Just Eat store is connected to another middleware or EPOS.
-- The type of Just Eat services you have with the platform: Delivery by Just Eat, takeaway or delivery by the restaurant. For more information, see [Service Types](/apps/just-eat-flyt/terminology#service-types).
+- Whether your Just Eat store is already connected to another middleware or EPOS.
+- The service type(s) you support on Just Eat: platform delivery, restaurant delivery, takeaway. For more information, see [Service Types](/apps/just-eat-flyt/configuration#service-types).
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 
 With this information in hand, HubRise will request the Flyt integration team to enable the HubRise Flyt API integration for your store. Once this is done, the Flyt team will provide the required credentials to connect.

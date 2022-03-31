@@ -20,7 +20,13 @@ From this section, you can decide which language is used to localise your receip
 
 ### Service Types
 
-Service types such as delivery by Just Eat, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Just Eat Flyt offers three service types:
+
+- **Platform delivery**: The platform dispatches a driver. Available in a limited number of markets and cities.
+- **Restaurant delivery**: The restaurant is responsible for delivering the order.
+- **Takeaway**: The customer collects the order from the restaurant.
+
+Each service type might require a ref code to be specified. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 ### Discounts
 
@@ -49,7 +55,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ![Just Eat Flyt Bridge configuration page, Menu section](../images/012-en-just-eat-configuration-page-menu.png)
 
-From this section, choose if you want to update your Just Eat menu every time you update the HubRise catalog. By default, this option is turned off. 
+From this section, choose if you want to update your Just Eat menu every time you update the HubRise catalog. By default, this option is turned off.
 
 ### Availability
 
@@ -65,7 +71,6 @@ To quickly copy the availability to all the following days on the list, click **
 **IMPORTANT NOTE:** By default, closing times for delivery will be set half an hour earlier on the Just Eat store than the value you set on Just Eat Flyt Bridge. Closing times for collection, instead, are not modified.
 
 ---
-
 
 ## Saving the Configuration
 

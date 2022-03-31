@@ -1,6 +1,6 @@
 ---
 title: FAQs
-position: 8
+position: 7
 layout: documentation
 meta:
   title: FAQs | Just Eat Flyt | HubRise
