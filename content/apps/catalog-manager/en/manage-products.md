@@ -9,7 +9,7 @@ meta:
 
 A **Catalog** contains products, deals, discounts and charges.  The product items themselves contain details about the products, including variations and optional extras.  Managing this information in a central place is one of the key objectives of Catalog Manager.
 
-## Create or Edit a Product
+## Create a Product
 
 To create a product, select the category where the product should be located, click on **New product** and enter a descriptive name for the product.
 
@@ -21,7 +21,7 @@ Once you've created the new product, you can add details to it and relate it to 
 
 1. In the **Description** field enter the product description.
 2. Add one or more **Photos** of the product by clicking on the **Add** icon.
-3. If the product has variations that a customer needs to choose from, tick the multiple SKU check box.  You will then need to enter the SKU, Price and Ref code for each variation.  If there are no variations, then you can enter the Price and Ref code.
+3. If the product has variations that a customer needs to choose from, tick the **multiple SKU** check box.  You will then need to enter the SKU, **Price** and **Ref code** for each variation.  If there are no variations, then you can enter the price and ref code.
 
 ![Catalog Manager Add Product Details](../images/010-en-new-product-details.png)
 

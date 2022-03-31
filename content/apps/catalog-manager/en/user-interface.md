@@ -9,9 +9,11 @@ meta:
 
 ## Catalogs
 
-A **Catalog** is simply a container for your products and their associated details.  In Catalog Manager you can create multiple catalogs to cater for different business scenarios. Catalogs can also be created globally across all locations, or at specific locations.  At one location, you may, for example, create one catalog that imports products from your EPOS and synchronises with an online ordering system.  At another location, you may create a catalog which is manually maintained and is used only to populate and maintain an online menu.
+A **Catalog** is simply a container for your products and their associated details.  In Catalog Manager you can edit or create multiple catalogs to cater for different business scenarios. 
 
-When you open Catalog Manager from the Connections console, the **Catalogs** page is displayed.  From here you can add new catalogs, rename, duplicate or delete existing ones.
+Catalogs can be created globally across all locations, or at specific locations. For more information, see [Accounts](https://www.hubrise.com/docs/account) and [Locations](https://www.hubrise.com/docs/locations).  At one location, you may, for example, create one catalog that imports products from your EPOS and synchronises with an online ordering system.  At another location, you may create a catalog which is manually maintained and is used only to populate and maintain an online menu.
+
+When you open Catalog Manager from the **CONNECTIONS** console, the **Catalogs** page is displayed.  From here you can create new catalogs. You can also use the **Actions** dropdown to rename, duplicate or delete existing ones.
 
 ![Catalog Manager Catalog list](../images/001-en-catalog-list.png)
 
@@ -19,22 +21,22 @@ When you open Catalog Manager from the Connections console, the **Catalogs** pag
 
 When you open a Catalog, the Product page is displayed.  This lists all your products grouped by Category. To add a new category, click **New category** and enter a name.  
 
-For each product, the following can be viewed/edited in the details pane:
+For each product, the following can be viewed/edited in the product's details pane:
 
 - Description
 - Images
 - Variations
 - Options List
 
-Variations are typically used to provide different varieties of the base product, such as size.  Options allow you to specify optional items over and above the varations.
+Variations are typically used to provide different varieties of the base product, such as size or colour.  Options allow you to specify optional items over and above the varations.
 
 ---
 
-**IMPORTANT NOTE:** Each variation has its own Ref code and price which must be entered. If a product has no variations, then a Ref code (and price) for the base product needs to be entered.
+**IMPORTANT NOTE:** Each variation has its own product ref code and price which must be entered if you are connecting an EPOS. If a product has no variations, then the ref code for the base product needs to be entered.
 
 ---
 
-You can re-arrange the order in which items are displayed in each category by using the drag handle to drag and drop products.
+You can rearrange the order in which items are displayed in each category by using the drag handle to drag and drop products.
 
 ![Catalog Manager Product List](../images/002-en-product-list.png)
 
@@ -51,13 +53,13 @@ To create an Options List, click on **Options Lists** > **New option** list.  Th
 - Maximum number a customer can select
 - For each option, enter a name, price, Ref code and default flag
 
-Keep in mind that and Options Lists are related to specific products (or product variations), so it is useful to name your Options List appropriately.  For example, for a medium pizza variation you may have 2 sauce options which you would include in an Options List called 'Sauce - Medium Pizza'.
+Keep in mind that and Options Lists are related to specific products, or product variations, so it is useful to name your Options List appropriately.  For example, for a medium pizza variation you may have 2 sauce options which you would include in an Options List called `Sauce - Medium Pizza`.
 
 ![Catalog Manager Options List details](../images/004-en-option-list-details.png)
 
 ## Deals
 
-Deals are special offers that you can configure for your menu. A typical example could be a 'buy one get one free' deal. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products.
+Deals are special offers that you can configure for your menu. A typical example could be a `Buy One Get One Free` deal. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products.
 
 ![Catalog Manager Deals list](../images/005-en-deals-list.png)
 

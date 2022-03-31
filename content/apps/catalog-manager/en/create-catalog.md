@@ -9,27 +9,21 @@ meta:
 
 A **Catalog** is simply a container for your products and their associated details. There are 3 ways you can create a catalog:
 
-1. From an EPOS
-2. From an Online Ordering System or Food Ordering Platform
-3. Using Catalog Manager
+- From an EPOS
+- From an Online Ordering System or Food Ordering Platform
+- Using Catalog Manager
 
-## Create a Catalog from an EPOS
+## Create a Catalog from Another App
 
-Some EPOS solutions allow you to push your menu to a Hubrise catalog. You can then use Catalog Manager to augment the details for your product items by adding photos or more detailed descriptions.
+Some EPOS solutions allow you to push your product catalog or menu into a HubRise catalog. Same for some online ordering solutions or food ordering and delivery platforms. You can then use Catalog Manager to augment the details for your product items by adding photos or more detailed descriptions.
 
-For information on how to export a menu to a Hubrise catalog, see the documentation for your EPOS.
-
----
-
-**IMPORTANT NOTE:** Exporting a menu from your EPOS into a Hubrise catalog will replace all the items in the existing catalog.
+For information on how to export your product catalog or menu into a HubRise catalog, refer to your EPOS or other app documentation on the HubRise website.
 
 ---
 
-## Create a Catalog from an Online Ordering System or Food Ordering Platform
+**IMPORTANT NOTE:** Exporting a menu from your EPOS into a HubRise catalog will replace all the items in the existing catalog.
 
-Some online ordering systems or food ordering platform  solutions allow you to push your menu to a Hubrise catalog. You can then use Catalog Manager to augment the details for your product items by adding photos or more detailed descriptions.
-
-For information on how to export a menu to a Hubrise catalog, see the documentation for your online ordering systems or food ordering platform.
+---
 
 ## Create a Catalog using Catalog Manager
 

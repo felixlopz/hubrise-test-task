@@ -7,7 +7,7 @@ meta:
   description: Instructions on connecting Catalog Manager with HubRise to synchronise catalogs from your ePOS and other systems.
 ---
 
-Catalog Manager must be connected to your HubRise account before you can import catalogs. To connect Catalog Manager to your HubRise account:
+Catalog Manager must be connected to your HubRise account to create a catalog on HubRise, or edit the content of a catalog you already have in HubRise. To connect Catalog Manager to your HubRise account:
 
 1. Log in to your HubRise Account. To create a HubRise Account, visit the HubRise [HubRise Registration Page](https://manager.hubrise.com/signup?locale=en-GB) and follow instructions. For more information on HubRise, see [HubRise Getting Started](https://www.hubrise.com/docs/get-started).
 

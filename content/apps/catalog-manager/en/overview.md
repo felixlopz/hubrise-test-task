@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Overview | Catalog Manager | HubRise
-  description: Catalog Manager overview, reasons for connecting it to HubRise and summary of integrated features. Create and manage catalogs and product details.
+  description: Catalog Manager overview, reasons for connecting Catalog Manager to HubRise and summary of integrated features. Create and manage catalogs and product details.
 gallery:
   - __gallery-001.png
 path_override: /
@@ -13,16 +13,17 @@ app_info:
   availability: Worldwide
   price_range: Included in your HubRise subscription
   website: https://www.hubrise.com
-  contact: support@hubrise.com
+  contact: contact@hubrise.com
 ---
 
-Catalog Manager is used to create and manage products in your store catalogs and integrate the data between different systems. With Catalog Manager you can synchronise product items from your EPOS and online ordering systems or food platforms.
+Catalog Manager is used to create, edit and manage products you have in your HubRise Catalogs. 
+
+Catalogs on HubRise can be pullsed from your EPOS and pushed into other apps you use every day, online ordering solutions, table ordering apps or digital menus, food ordering and delivery platforms (including Deliveroo, Uber Eats and Just Eat), operations and inventory management solutions, reporting dashboards, Kitchen Display Screens, and more. 
 
 Catalog Manager has the following features:
 
-- Automatically create catalogs and product details from certain EPOS.
-- Add additional information to imported ePOS product, such as pictures and descriptions.
-- Push catalogs to online ordering systems or food ordering platforms.
-- Option to create catalogs and product details manually.
+- Automatically create catalogs and product details using catalogs pulled from your EPOS or your other apps connected to HubRise.
+- Edit catalogs with additional information, such as options, pictures and descriptions.
+- Option to create catalogs and product details manually, from scratch.
 
-OrderLine is available on computers, tablets and smartphones.
+Catalog Manager is a cloud based solution, available anywhere and on any device, computers, tablets and smartphones.

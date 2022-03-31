@@ -425,6 +425,11 @@ content:
           description: SOMM'IT helps you manage your wine list. Sync your inventory with your EPOS to keep your wine list up to date. SOMM'IT includes a large wine library, and a dematerialised procurement system.
     - title: Other Apps
       apps:
+        - website:
+          documentation: /apps/catalog-manager
+          logo: orderline.png
+          title: Catalog Manager
+          description: Catalog Manager by HubRise is used to create, edit and manage products in your HubRise catalogs. Catalogs can be pulled from or pushed into integrated solutions, such as EPOS, and online ordering solutions or food ordering and delivery platforms.
         - website: https://www.expedy.fr
           documentation: /apps/expedy
           logo: expedy-print.png
@@ -434,12 +439,7 @@ content:
           documentation: /apps/orderline
           logo: orderline.png
           title: OrderLine
-          description: OrderLine by HubRise centralises orders received from an e-commerce website and food ordering platforms. Orders can be managed and printed.
-        - website:
-          documentation: /apps/catalog-manager
-          logo: orderline.png
-          title: Catalog Manager
-          description: Catalog Manager by HubRise is used to create and manage products in your store catalogs and integrate the data between different systems, such as EPOS and online ordering systems or food platforms.
+          description: OrderLine by HubRise is used to centralise orders received from an e-commerce website and food ordering and delivery platforms. Orders can be managed and printed from OderLine.
         - website: https://www.satoeurope.com
           documentation: /apps/sato
           logo: sato.png
