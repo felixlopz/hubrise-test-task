@@ -386,7 +386,7 @@ content:
           documentation: /apps/seconds
           logo: seconds.png
           title: Seconds
-          description: Seconds permet aux retaurateurs et aux commerçants d'utiliser, avec plus de faclité, les services de livraison express ou sur rendez-vous proposés par des services de livraison tiers. Envoi automatique des commandes aux livreurs de Seconds ou à un autre service de livraison partenaire.
+          description: Seconds permet aux commerçants de gérer leurs livraisons avec leur propre flotte ou d'utiliser  des services de livraison tiers. Seconds transmet automatiquement les commandes aux services de livraison ou aux livreurs du magasin via une app dédiée.
           additional_info:
         - website: https://stuart.com/fr
           documentation:
