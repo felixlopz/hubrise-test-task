@@ -23,6 +23,6 @@ HubRise and Deliveroo each use their own terminology. The same concept can there
 
 Deliveroo offers three types of services to its customers:
 
-- **Delivery by Deliveroo**: Deliveroo dispatches a driver.
+- **Delivery by Deliveroo**: Deliveroo dispatches a driver to collect the order from the restaurant.
 - **Restaurant delivery**: The restaurant is responsible for delivering the order to the customer. This service is also referred to as Deliveroo M+.
 - **Takeaway**: The customer collects the order from the restaurant.

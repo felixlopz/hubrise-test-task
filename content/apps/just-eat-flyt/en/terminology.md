@@ -7,10 +7,19 @@ meta:
   description: Correspondence table showing terms used by Just Eat Flyt and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
+## Correspondence table
+
+HubRise and Just Eat Flyt each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
+
+| Just Eat Flyt | HubRise  | Description            |
+| ------------- | -------- | ---------------------- |
+| Restaurant    | Location | The actual restaurant. |
+| Menu          | Catalog  | List of products.      |
+
 ## Service Types
 
 Just Eat Flyt offers three types of services to its customers:
 
-- **Platform delivery**: The platform dispatches a driver. Available in a limited number of markets and cities.
+- **Platform delivery**: The platform (Just Eat, MenuLog, or SkipTheDishes) dispatches a driver to collect the order from the restaurant. Available in a limited number of markets and cities.
 - **Restaurant delivery**: The restaurant is responsible for delivering the order.
 - **Takeaway**: The customer collects the order from the restaurant.
