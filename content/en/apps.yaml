@@ -20,6 +20,12 @@ content:
           logo: 3spos.png
           title: 3S POS
           description: 3S POS offers a complete EPOS suite for all types of hospitality businesses. Suitable for single and multi-store businesses and feature-rich, 3S POS can be customised to fit specific business and operational requirements.
+        - website: https://adipos.fr/en
+          documentation: /apps/adipos
+          logo: adipos.png
+          title: Adipos
+          description: Adipos is a Point of Sales for iOS and Android dedicated to catering. It covers the needs of dine-in, delivery and Click & Collect, for single or multi-store setups. Adipos comes with a number of interconnected applications, including self ordering kiosks, online ordering and a Kitchen Display System.
+          additional_info: Integration in progress.
         - website: https://www.carrepos-online.fr/
           documentation: /apps/carre-pos
           logo: carrepos.png
@@ -66,7 +72,7 @@ content:
           documentation: /apps/lightspeed-restaurant
           logo: lightspeed-restaurant.png
           title: Lightspeed Restaurant (K-Series)
-          description: Lightspeed Restaurant is a cloud-based solution for restaurants, available in over 100 countries. Its sleek design and intuitive interface allows on-site, remote or on-the-go management of single and multi-store businesses.
+          description: Lightspeed Restaurant is a cloud based solution for restaurants, available in over 100 countries. Its sleek design and intuitive interface allows on-site, remote or on-the-go management of single and multi-store businesses.
         - website: http://www.myorderboxhq.com
           documentation: /apps/myorderbox
           logo: myorderbox.png
@@ -129,7 +135,7 @@ content:
           documentation: /apps/talc
           logo: talc.png
           title: T.A.L.C Informatique
-          description: T.A.L.C Informatique is an EPOS adapted to the needs of restaurants. Its features include multistore management, courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
+          description: T.A.L.C Informatique is an EPOS adapted to the needs of restaurants. Its features include multi-store management, courier dispatching, inventory and procurement management, client geolocalisation and sending of SMS.
           additional_info:
         - website: https://www.ultimapos.fr/
           documentation: /apps/ultimapos
@@ -141,7 +147,7 @@ content:
           documentation: /apps/zelty
           logo: zelty.png
           title: Zelty
-          description: Zelty is a complete suite of solutions designed for multisite. Zelty is suitable for any type of restaurant from fast food to traditional catering.
+          description: Zelty is a complete suite of solutions designed for multi-site. Zelty is suitable for any type of restaurant from fast food to traditional catering.
           additional_info:
     - title: Food Ordering Platforms
       apps:
@@ -279,7 +285,7 @@ content:
           documentation:
           logo: mynober.png
           title: MynOber
-          description: MynOber provides QR ordering, online ordering and kiosk self-ordering solutions for hospitality businesses. MynOber can be used standalone or combined with a third party EPOS.
+          description: MynOber provides QR ordering, online ordering and kiosk self ordering solutions for hospitality businesses. MynOber can be used standalone or combined with a third party EPOS.
           additional_info:
         - website: https://obypay.fr
           documentation: /apps/obypay
@@ -290,7 +296,7 @@ content:
           documentation: /apps/prestashop
           logo: prestashop.png
           title: PrestaShop
-          description: PrestaShop is an open source e-commerce solution. Multilingual, multicurrency, and omnichannel, PrestaShop can be hosted or deployed on your own server. It can be tailored to meet the needs of most businesses.
+          description: PrestaShop is an open source e-commerce solution. Multilingual, multi-currency, and omnichannel, PrestaShop can be hosted or deployed on your own server. It can be tailored to meet the needs of most businesses.
           additional_info: Integration in progress.
         - website: https://www.restajet.com/
           documentation: /apps/restajet
