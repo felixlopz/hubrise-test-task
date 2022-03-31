@@ -9,6 +9,8 @@ meta:
 
 With Deliveroo Bridge, you can pull your HubRise catalog directly into your Deliveroo store with a single click.
 
+You can also configure the bridge to pull your catalog into Deliveroo every time it is updated on HubRise. For more information, see [Menu](/apps/deliveroo/configuration#menu).
+
 This page explains how you can pull and update your menu on Deliveroo, and what information about HubRise catalogs can be pulled into the platform.
 
 ## Populating a HubRise Catalog
