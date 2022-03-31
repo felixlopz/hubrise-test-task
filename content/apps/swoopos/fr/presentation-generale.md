@@ -23,7 +23,18 @@ app_info:
 
 ## Description
 
-Swoopos est une solution d'encaissement mobile, multifonctionnelle, facile à utiliser et économique conçu pour la restauration et le commerce de proximité. Elle inclut une solution de paiement, de reservation et de commande commande à table par QR code.
+Swoopos est une solution d'encaissement mobile, multi-fonctions, facile à utiliser et économique conçue pour la restauration et le commerce de proximité. La migration à Swoopos, ainsi que l'installation et les mises à jour sont gratuites.
+
+Swoopos combine la technologie traditionnelle des EPOS avec une approche Cloud, afin que la solution continue à fonctionner avec une connexion réseau WiFi dégradée ou coupée. Les fonctionnalités incluent :
+
+- Solution de paiement intégrée.
+- Paiement fractionné des tickets.
+- Réservation de table en itinérance à partir du numéro de mobile, et envoi de SMS automatisé avec les détails de la réservation.
+- Gestion de tables, permettant l'identification des commandes envoyées au bar et en cuisine.
+- Commande depuis le mobile, en scannant un QR code disposé sur chaque table.
+- Analyses et rapports marketing et de gestion.
+
+Swoopos est entièrement développé en interne. Leur équipe de support assure la formation et le support à distance du personnel.
 
 ## Fonctionnalités de l'intégration
 

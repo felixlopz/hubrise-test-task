@@ -135,7 +135,7 @@ content:
           documentation: /apps/swoopos
           logo: swoopos.png
           title: Swoopos
-          description: Swoopos is a cost efficient, multifunctional and easy to use mobile Point of Sales system designed for the hospitality and retail sectors. It comes with split the bill, table booking, QR code table ordering and more.
+          description: Swoopos is a cost efficient, multifunctional and easy to use mobile Point of Sales system designed for the hospitality and retail sectors. It comes with payment, table booking, and QR code table ordering solutions.
           additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc

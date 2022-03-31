@@ -131,7 +131,7 @@ content:
           documentation: /apps/swoopos
           logo: swoopos.png
           title: Swoopos
-          description: Swoopos est une solution d'encaissement mobile, multifonctionnelle, facile à utiliser et économique conçu pour la restauration et le commerce de proximité. Elle inclus une solution de paiement, de reservation et de commande commande à table par QR code.
+          description: Swoopos est une solution d'encaissement mobile, multi-fonctions, facile à utiliser et économique conçue pour la restauration et le commerce de proximité. Elle inclut une solution de paiement, de réservation et de commande commande à table par QR code.
           additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc

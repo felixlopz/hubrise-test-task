@@ -23,19 +23,18 @@ app_info:
 
 ## Description
 
-Swoopos is a cost efficient, multifunctional and easy-to-use mobile Point of Sales system designed for the hospitality and retail sectors. Migration to Swoopos,  setup and system upgrades are free. 
+Swoopos is a cost efficient, multifunctional and easy-to-use mobile Point of Sales system designed for the hospitality and retail sectors. Migration to Swoopos, setup and system upgrades are free.
 
 Swoopos combines a traditional EPOS and cloud-based technology to work online and offline when the internet goes down, or when you experience poor WiFi connectivity. It comes with a comprehensive set of features, including:
 
 - Payment.
 - Split the bill by creating multiple customer tabs per table.
 - Table booking on the go with the customer mobile number and automated SMS sent with reservation details.
-- Table Management to manage customers, and identify orders sent to the bar and kitchen. 
+- Table Management to manage customers, and identify orders sent to the bar and kitchen.
 - Mobile ordering app with a QR code on each table for customers to order autonomously.
 - Analytics and reports for operations management and marketing programs.
 
-Their customer service provides remote staff training and technical support.
-Swoopos is proud to have their own internal software development team.
+Swoopos is entirely developed in-house. Their customer service provides remote staff training and technical support. 
 
 ## Integration Features
 
