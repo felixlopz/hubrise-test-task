@@ -22,7 +22,7 @@ As a first step, the HubRise Flyt API integration must be enabled on your Just E
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
 - The URL link to your restaurant page on the Just Eat website. For example: [https://www.just-eat.ie/restaurants-saba-to-go-rathmines/](https://www.just-eat.ie/restaurants-saba-to-go-rathmines/).
-- The order acceptance mode you want to use for your store: Auto-accept `Activated` or `Deactivated`. For more details, see our [FAQ](/apps/just-eat-flyt/faqs/auto-accept).
+- Whether Auto-Accept should be `Activated` or `Deactivated`. For more details, see our [FAQ](/apps/just-eat-flyt/faqs/auto-accept).
 - The email address of your Just Eat Account Manager.
 - Whether your Just Eat store is already connected to another middleware or EPOS.
 - The service type(s) you support on Just Eat: platform delivery, restaurant delivery, takeaway. For more information, see [Service Types](/apps/just-eat-flyt/configuration#service-types).
