@@ -27,7 +27,7 @@ app_info:
 
 ## Description
 
-Apicbase est un logiciel de gestion pour la restauration, les Ghost Kitchens et l'hôtellerie. Il s'intègre aux solutions que vous utilisez et aide à contrôler le coût des produits finis. Apicbase répond aux besoins d'entreprises avec plusieurs établissements, et gère toutes les données de la cuisine, des recettes à l'approvisionnement.
+Apicbase est un logiciel de gestion pour la restauration, les dark kitchens et l'hôtellerie. Il s'intègre aux solutions que vous utilisez et vous aide à contrôler le coût des produits finis. Apicbase répond aux besoins d'entreprises avec plusieurs établissements, et gère toutes les données de la cuisine, des recettes à l'approvisionnement.
 
 L'arrière-boutique d'un restaurant est notoirement difficile à gérer. La raison est simple : il se passe beaucoup de choses en même temps et ça ne s'arrête jamais. C'est une boucle continue de développement de recettes, d'ingénierie de menus, de contrôle des stocks et d'approvisionnement. Une gestion méticuleuse est indispensable pour maintenir la qualité et les coûts mais c'est un travail qui peut vite devenir stressant et chronophage.
 
