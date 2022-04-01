@@ -42,14 +42,14 @@ Dans certains cas, vous pouvez néanmoins utiliser des produits avec options pou
 
 ## Remises
 
-Les remises dans HubRise sont les offres spéciales qui s'appliquent à l'ensemble de la commande. Elles correspondent aux codes promos dans Dishop.
+Les remises dans HubRise sont les offres spéciales qui s'appliquent à l'ensemble de la commande. Elles correspondent aux codes promotionnels dans Dishop.
 
-Pour modifier le code ref d'un code promo, suivez ces étapes :
+Pour modifier le code ref d'un code promotionnel, suivez ces étapes :
 
 1. Depuis le back office Dishop, dans le menu de gauche, sélectionnez **Codes promo**.
-1. Cliquez sur un code promo. Le code ref s'affiche dans le champ **Référence du code promo**.
+1. Cliquez sur un code promotionnel. Le code ref s'affiche dans le champ **Référence du code promo**.
    ![Associer les codes ref - Codes promo](../images/006-fr-dishop-code-promo.png)
-1. Modifiez le code ref du code promo et cliquez sur le bouton **Enregistrer** pour sauvegarder.
+1. Modifiez le code ref du code promotionnel et cliquez sur le bouton **Enregistrer** pour sauvegarder.
 
 ## Méthodes de paiement
 
