@@ -13,18 +13,22 @@ meta:
 
 ---
 
-## Se connecter
+## Connecter Dishop
 
 Pour établir la connexion entre Dishop et HubRise :
-1. Dans le menu à gauche, cliquez sur **Réglages**.
-   ![Connexion HubRise - Déconnecté](../images/001-fr-dishop-deconnecte.png)
-2. Sous **Configuration générale**, cliquez sur le bouton **Se connecter**. La page HubRise s'affiche.
-3. Choisissez le point de vente et cliquez sur **Autoriser**.
 
-## Se déconnecter
+1. Ouvrez le back office Dishop.
+2. Dans le menu à gauche, cliquez sur **Réglages**.
+   ![Connexion HubRise - Déconnecté](../images/001-fr-dishop-deconnecte.png)
+3. Sous **Configuration générale**, dans la section **Intégration HubRise**, cliquez sur le bouton **Se connecter**. La page HubRise s'ouvre dans votre navigateur.
+4. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
+5. Cliquez sur **Autoriser**.
+
+## Déconnecter Dishop
 
 Pour déconnecter Dishop de HubRise, suivez ces étapes :
 
-1. Dans le menu à gauche, cliquez sur **Réglages**.
+1. Ouvrez le back office Dishop.
+2. Dans le menu à gauche, cliquez sur **Réglages**.
    ![Connexion HubRise - Connecté](../images/002-fr-dishop-connecte.png)
-2. Sous **Configuration générale**, cliquez sur le bouton **Se déconnecter**.
+3. Sous **Configuration générale**, cliquez sur le bouton **Se déconnecter**.

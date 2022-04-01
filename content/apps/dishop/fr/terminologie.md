@@ -9,11 +9,11 @@ meta:
 
 HubRise et Dishop utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
-| Dishop            | HubRise          | Description                  |
-|-------------------|------------------|------------------------------|
-| Référence         | Code ref         | Code produit                 |
-| Section           | Catégorie        | Catégorie du produit         |
-| Code promotionnel | Remise           | Offre sur la commande totale |
-| Magasin           | Point de vente   | Le restaurant proprement dit |
-| Modes de paiement | Paiements        | Méthodes de paiement         |
-| Modes de vente    | Types de service | Types de service             |
+| Dishop            | HubRise              | Description                             |
+| ----------------- | -------------------- | --------------------------------------- |
+| Référence         | Code ref             | Code produit.                           |
+| Section           | Catégorie            | Catégorie du produit.                   |
+| Code promo        | Remise               | Offre spéciale sur la commande globale. |
+| Magasin           | Point de vente       | Le restaurant proprement dit.           |
+| Modes de paiement | Méthodes de paiement | Méthodes de paiement.                   |
+| Modes de vente    | Types de service     | Types de service.                       |
