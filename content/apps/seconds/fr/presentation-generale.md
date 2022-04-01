@@ -13,7 +13,7 @@ gallery:
 path_override: /
 app_info:
   category: Gestion de livreurs
-  availability: Royaume-Uni 
+  availability: Royaume-Uni
   price_range:
   website: https://useseconds.com
   contact: ola@useseconds.com
@@ -27,13 +27,11 @@ app_info:
 
 ## Description
 
-Seconds permet aux restaurateurs et aux commerçants d'utiliser, avec plus de facilité, les services de livraison express ou sur rendez-vous proposés par des services de livraison tiers.
-Vous pouvez sélectionner vos préférences de livraison sur le back office Seconds. Elles s'expriment en terme de prix, de délai, de rapidité, d'horaire d'arrivée, ou de notation des livreurs par les clients.
-Le moteur Seconds et l'analyse en temps réel des données mises à disposition par les services de livraison tiers sont utilisés pour vous proposer l'option de livraison la plus appropriée à votre besoin.
+Seconds permet aux restaurateurs et aux commerçants d'optimiser leur gestion des services de livraison tiers, qu'il s'agisse de services express ou sur rendez-vous. Sur le back office de Seconds, vous sélectionnez vos critères de prix, de délai, de rapidité, d'horaire d'arrivée, ou de notation des livreurs par les clients. Le moteur de Seconds analyse en temps réel les données mises à disposition par les services de livraison tiers pour vous proposer l'option de livraison la plus appropriée. 
 
+Le flux commence lorsque votre client passe une commande en livraison sur votre site, lorsque vous enregistrez une commande en livraison sur votre solution d'encaissement, ou lorsque vous faites une demande de livraison sur le tableau de bord de Seconds. Seconds regroupe les devis de tous les fournisseurs de service de livraison intégrés qui se trouvent dans la zone de couverture et propose une option de livraison tenant compte de vos critères. Une fois le livreur sélectionné, vous pouvez suivre le statut des livraisons en temps réel depuis le tableau de bord de Seconds.
 
-Voici comment cela fonctionne :
-Le flux commence lorsque votre client passe une commande en livraison sur votre site, lorsque vous enregistrez une commande en livraison sur votre solution d'encaissement ou lorsque vous faites une demande de livraison sur le tableau de bord Seconds. Les informations de livraison sont transmises à Seconds via l'API ou le tableau de bord. Seconds regroupe les devis de tous les fournisseurs de service de livraison intégrés qui se trouvent dans la zone de couverture de la livraison et propose des livreurs en tenant compte de vos préférences de livraison. Une fois le livreur sélectionné, vous pouvez suivre l'état des commandes directement depuis le tableau de bord Seconds.
+Seconds vous permet également de gérer votre propre flotte de livreurs.
 
 ## Fonctionnalités de l'intégration
 

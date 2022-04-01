@@ -27,10 +27,11 @@ app_info:
 
 ## Description
 
-Seconds is a delivery service platform that helps restaurants and retailers use on-demand and same day delivery services offered by third party delivery fleet providers.  With Seconds, you can select your delivery preferences on the Seconds back office. Preferences could be: lowest price, fastest delivery time, highest fleet rating, estimated time of arrival, and so on. Seconds optimisation engine and real-time analysis of delivery providers data are used to present you with the most suitable delivery option on an order to order basis. 
+Seconds is a delivery service platform that helps restaurants and retailers use on-demand and same day delivery services offered by third party delivery fleet providers. With Seconds, you can select your delivery preferences on the Seconds back office. Preferences could be: lowest price, fastest delivery time, highest fleet rating, estimated time of arrival, and so on. Seconds optimisation engine and real-time analysis of delivery providers data are used to present you with the most suitable delivery option on an order to order basis.
 
-Here is how it works:
-The flow begins when your customer makes a delivery order online, when your staff creates a delivery order on the EPOS or a delivery request on the Seconds dashboard. The delivery information is passed on to Seconds through the API or dashboard. Seconds aggregates quotes from all integrated delivery fleet providers that are within the coverage area of the delivery and optimises fleet selection based on your delivery preferences. Once the drive is selected, you can track the status of the orders directly from the Seconds dashboard.
+The flow begins when your customer makes a delivery order online, when your staff creates a delivery order on the EPOS or a delivery request on the Seconds dashboard. Seconds aggregates quotes from all integrated delivery fleet providers that are within the coverage area of the delivery and optimises fleet selection based on your delivery preferences. Once the drive is selected, you can track the status of the orders directly from the Seconds dashboard.
+
+Seconds also lets you manage your own delivery fleet.
 
 ## Integration Features
 
