@@ -3,7 +3,7 @@ title: Terminology
 position: 15
 layout: documentation
 meta:
-  title: Terminology | Lightspeed K Series | HubRise
+  title: Terminology | Lightspeed Restaurant | HubRise
   description: Correspondence table showing terms used by Lightspeed and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 

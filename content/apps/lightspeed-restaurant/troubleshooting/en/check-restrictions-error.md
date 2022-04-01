@@ -1,5 +1,5 @@
 ---
-title: How Do I Troubleshoot The "Check Restrictions" Error?
+title: Check Restrictions Error
 position: 5
 layout: documentation
 meta:
@@ -9,7 +9,7 @@ meta:
 
 This page explains how to troubleshoot failed orders that are caused by products with sales restrictions.
 
-## The "Check Restrictions" Error
+## "Check Restrictions" Error
 
 In some cases, orders sent to Lightspeed Restaurant might fail with the following error in the [logs of Lightspeed Resturant Bridge](/apps/lightspeed-restaurant/user-interface/#operation-page):
 
