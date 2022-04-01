@@ -22,12 +22,12 @@ Seules certaines applications permettent l'import d'un catalogue depuis HubRise.
 
 Pour retrouver le code ref d'un produit, suivez ces étapes :
 
-1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, **Articles**, puis dans **Paramètres Articles**, cliquez sur **Articles**.
+1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Articles**.
+2. Dans la section **Paramètres Articles**, cliquez sur **Articles**.
    ![Connexion à HubRise - Accueil UltimaPOS](../images/001-fr-ultimapos-accueil.png)
-2. Le code ref d'un produit est indiqué en haut à droite, dans le champ **ID**.
 
-   ![Associer les codes ref - Articles](../images/005-fr-ultimapos-articles-articles.png)
-
+3. Le code ref du produit est indiqué en haut à droite, dans le champ **ID**.
+   ![Associer les codes ref - Articles](../images/005-fr-ultimapos-articles-article.png)
 
 ## SKUs
 
@@ -48,34 +48,37 @@ Pour retrouver le code ref d'un type de frais, suivez les étapes de la section 
 Les remises s'appliquent à toute la commande. Elles peuvent être en pourcentage ou en valeur.
 
 Les formules et promotions sur UltimaPOS correspondent aux promotions sur HubRise. Elles s'appliquent à certains produits.
-Les formules sur UltimaPOS sont des articles dont le prix est fixe, liés à d'autres produits. 
+Les formules sur UltimaPOS sont des articles dont le prix est fixe, liés à d'autres produits.
 Les promotions sur UltimaPOS proposent davantage de possibilités, dont la restriction sur le jour et l'heure, la possibilité d'offrir le produit le moins cher ou de changer le prix d'un produit, mais elles n'ont pas de codes ref.
 
 Pour ajouter un code ref à une remise, suivez ces étapes :
 
-1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, **Financier**, puis dans **Paramètres Financiers**, cliquez sur **Remises**.
-2. Le code ref d'une remise est indiqué en haut à droite, dans le champ **ID**.
-   ![Associer les codes ref - Remises](../images/007-fr-ultimapos-remises.png)
+1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Financier**.
+2. Dans la section **Paramètres Financiers**, cliquez sur **Remises**.
+3. Le code ref de la remise est indiqué en haut à droite, dans le champ **ID**.
+   ![Associer les codes ref - Remises](../images/007-fr-ultimapos-remise.png)
 
 Pour ajouter un code ref à une formule, suivez ces étapes :
 
-1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, **Articles**, puis dans **Paramètres Articles**, cliquez sur **Formules**.
-2. Le code ref d'une formule est indiqué en haut à droite, dans le champ **ID**.
+1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Articles**.
+2. Dans la section **Paramètres Articles**, cliquez sur **Formules**.
+3. Le code ref de la formule est indiqué en haut à droite, dans le champ **ID**.
    ![Associer les codes ref - Formules](../images/008-fr-ultimapos-formules.png)
 
 ## Méthodes de paiement
 
 Les méthodes de paiement dans HubRise correspondent aux règlements dans UltimaPOS. Pour retrouver leur code ref, suivez ces étapes :
 
-1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, **Financier**, puis dans **Paramètres Financiers**, cliquez sur **Règlements**.
-2. Le code ref d'un règlement est indiqué en haut à droite, dans le champ **ID**.
-  
+1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Financier**.
+2. Dans la section **Paramètres Financiers**, cliquez sur **Règlements**.
+3. Le code ref du règlement est indiqué en haut à droite, dans le champ **ID**.
+
 ## Types de service
 
 Les types de service dans HubRise correspondent aux centres de profit dans UltimaPOS. Pour plus d'informations sur les centres de profit, voir [Centres de profit](plateformes-livraison-repas#centres-de-profit).
-Pour retrouver leur code ref, suivez ces étapes :
 
-1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, **Financier**, puis dans **Paramètres Financiers**, cliquez sur **Centres de profits**.
-2. Le code ref d'un centre de profit est indiqué en haut à droite, dans le champ **ID**.
+Pour trouver le code ref des types de service, suivez ces étapes :
 
-
+1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Financier**.
+2. Dans la section **Paramètres Financiers**, cliquez sur **Centres de profits**.
+3. Le code ref du centre de profit est indiqué en haut à droite, dans le champ **ID**.
