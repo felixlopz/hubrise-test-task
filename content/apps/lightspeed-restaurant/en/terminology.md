@@ -9,10 +9,11 @@ meta:
 
 HubRise and Lightspeed each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
 
-| Lightspeed      | HubRise      | Description                                                                                               |
-| --------------- | ------------ | --------------------------------------------------------------------------------------------------------- |
-| Account profile | Service type | Type of service associated with an order. For example: restaurant delivery, food platform, or collection. |
-| Menu            | Catalog      | The products and variants sold by the store.                                                              |
-| Item            | SKU          | A product variant.                                                                                        |
-| Sku             | Ref code     | The unique code that designates a product or an option.                                                   |
-| Sequence        | Options      | Options for a product.                                                                                    |
+| Lightspeed        | HubRise      | Description                                                                                               |
+| ----------------- | ------------ | --------------------------------------------------------------------------------------------------------- |
+| Business Location | Location     | The actual restaurant.                                                                                    |
+| Menu              | Catalog      | The products and variants sold by the store.                                                              |
+| Account profile   | Service type | Type of service associated with an order. For example: restaurant delivery, food platform, or collection. |
+| Item              | SKU          | A product variant.                                                                                        |
+| Sku               | Ref code     | The unique code that designates a product or an option.                                                   |
+| Sequence          | Options      | Options for a product.                                                                                    |
