@@ -127,6 +127,12 @@ content:
           title: SICOM
           description: SICOM propose une suite complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
           additional_info: Intégration par MyTec en cours.
+        - website: https://swoopos.com
+          documentation: /apps/swoopos
+          logo: swoopos.png
+          title: Swoopos
+          description: Swoopos est une solution d'encaissement mobile, multi-fonctions, facile à utiliser et économique conçue pour la restauration et le commerce de proximité. Elle inclut une solution de paiement, de réservation et de commande commande à table par QR code.
+          additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc
           logo: talc.png
