@@ -19,7 +19,7 @@ to view and modify the configuration page for Deliveroo Bridge, see
 the [Deliveroo Configuration page](/apps/deliveroo/configuration).
 
 | Section        | Name                                  | Ref code                                          |
-| -------------- | ------------------------------------- |---------------------------------------------------|
+| -------------- | ------------------------------------- | ------------------------------------------------- |
 | Service types  | Deliveroo fulfilled ref code          | `DLVRCLCT`                                        |
 | Service types  | Restaurant fulfilled ref code         | `DLVRDEL`                                         |
 | Service types  | Takeaway ref code                     | `DLVRTKWY`                                        |
@@ -41,7 +41,7 @@ to view and modify the configuration page for Uber Eats Bridge, see
 the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
 | Section        | Name                                  | Ref code or value                                       |
-| -------------- |---------------------------------------|---------------------------------------------------------|
+| -------------- | ------------------------------------- | ------------------------------------------------------- |
 | Service types  | Uber delivery ref code                | `UBECLCT`                                               |
 | Service types  | Restaurant delivery ref code          | `UBEDEL`                                                |
 | Service types  | Takeaway ref code                     | `UBETKWY`                                               |
@@ -64,23 +64,18 @@ HubRise subscription.
 
 To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page.
 
-| Section        | Name                                     | Ref code                                            |
-| -------------- | ---------------------------------------- |-----------------------------------------------------|
-| Service types  | Just Eat delivery ref code               | `COLLECT`                                           |
-| Service types  | Restaurant delivery ref code             | `DEL`                                               |
-| Service types  | Takeaway ref code                        | `COLLECT`                                           |
-| Service types  | Send orders delivered by the platform as | `collection orders`                                 |
-| Discounts      | Discount ref code                        | (leave empty)                                       |
-| Charges        | Delivery charge ref code                 | (leave empty)                                       |
-| Charges        | Service charge ref code                  | (leave empty)                                       |
-| Charges        | Bag fee ref code                         | (leave empty)                                       |
-| Charges        | Driver tip ref code                      | (leave empty)                                       |
-| Charges        | Other charge ref code                    | (leave empty)                                       |
-| Payments       | Online payment ref code                  | (leave empty)                                       |
-| Payments       | Cash payment ref code                    | (leave empty)                                       |
-| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"`   |
-
----
-
-**IMPORTANT NOTE:** If needed, Service type ref can be dynamically added from HubRise module: **Extensions** > **Modules** > **Hubrise API**.
-![Adding service type ref](../images/012-en-etm-adding-service-type-ref.png)
+| Section        | Name                                     | Ref code                                          |
+| -------------- | ---------------------------------------- | ------------------------------------------------- |
+| Service types  | Just Eat delivery ref code               | `COLLECT`                                         |
+| Service types  | Restaurant delivery ref code             | `DEL`                                             |
+| Service types  | Takeaway ref code                        | `COLLECT`                                         |
+| Service types  | Send orders delivered by the platform as | `collection orders`                               |
+| Discounts      | Discount ref code                        | (leave empty)                                     |
+| Charges        | Delivery charge ref code                 | (leave empty)                                     |
+| Charges        | Service charge ref code                  | (leave empty)                                     |
+| Charges        | Bag fee ref code                         | (leave empty)                                     |
+| Charges        | Driver tip ref code                      | (leave empty)                                     |
+| Charges        | Other charge ref code                    | (leave empty)                                     |
+| Payments       | Online payment ref code                  | (leave empty)                                     |
+| Payments       | Cash payment ref code                    | (leave empty)                                     |
+| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |

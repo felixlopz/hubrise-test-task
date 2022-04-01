@@ -15,7 +15,7 @@ Some connected apps offer the ability to import the catalog directly from HubRis
 
 ## Products
 
-To find the ref codes for your products, follow these stpes:
+To find the ref codes for your products, follow these steps:
 
 1. Log in to your eTakeaway Max back office with your store manager account.
 1. From the main dashboard, select **Menu > Products**.
