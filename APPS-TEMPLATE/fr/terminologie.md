@@ -10,7 +10,7 @@ meta:
 HubRise et Solution utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
 | Solution   | HubRise        | Description                             |
-|------------|----------------|-----------------------------------------|
+| ---------- | -------------- | --------------------------------------- |
 | Code PLU   | Code ref       | Code produit.                           |
 | Formule    | Promotion      | Offre spéciale sur des produits.        |
 | Réduction  | Remise         | Offre spéciale sur la commande globale. |
