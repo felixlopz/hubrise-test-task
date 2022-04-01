@@ -43,27 +43,34 @@ Pour retrouver le code ref d'une option, suivez les étapes de la section [Produ
 Les frais dans HubRise sont des articles dans UltimaPOS.
 Pour retrouver le code ref d'un type de frais, suivez les étapes de la section [Produits](#produits).
 
-## Promotions et remises
+## Promotions
 
-Les remises s'appliquent à toute la commande. Elles peuvent être en pourcentage ou en valeur.
+Les promotions dans HubRise sont les offres spéciales qui s'appliquent à certains articles.
 
-Les formules et promotions sur UltimaPOS correspondent aux promotions sur HubRise. Elles s'appliquent à certains produits.
-Les formules sur UltimaPOS sont des articles dont le prix est fixe, liés à d'autres produits.
-Les promotions sur UltimaPOS proposent davantage de possibilités, dont la restriction sur le jour et l'heure, la possibilité d'offrir le produit le moins cher ou de changer le prix d'un produit, mais elles n'ont pas de codes ref.
+Il s'agit des formules et des promotions dans UltimaPOS :
 
-Pour ajouter un code ref à une remise, suivez ces étapes :
+- Les formules sur UltimaPOS sont des articles dont le prix est fixe, liés à d'autres produits.
+- Les promotions sur UltimaPOS proposent davantage de possibilités, dont la restriction sur le jour et l'heure, la possibilité d'offrir le produit le moins cher ou de changer le prix d'un produit, mais elles n'ont pas de codes ref et ne peuvent pas être associées dans HubRise.
 
-1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Financier**.
-2. Dans la section **Paramètres Financiers**, cliquez sur **Remises**.
-3. Le code ref de la remise est indiqué en haut à droite, dans le champ **ID**.
-   ![Associer les codes ref - Remises](../images/007-fr-ultimapos-remise.png)
-
-Pour ajouter un code ref à une formule, suivez ces étapes :
+Pour retrouver le code ref d'une formule dans UltimaPOS, suivez ces étapes :
 
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Articles**.
 2. Dans la section **Paramètres Articles**, cliquez sur **Formules**.
 3. Le code ref de la formule est indiqué en haut à droite, dans le champ **ID**.
    ![Associer les codes ref - Formules](../images/008-fr-ultimapos-formules.png)
+
+## Remises
+
+Les remises dans HubRise sont les offres spéciales qui s'appliquent à l'ensemble de la commande. Elles peuvent être en pourcentage ou en valeur.
+
+Leur équivalent dans UltimaPOS est également appelée remise.
+
+Pour retrouver le code ref d'une remise dans UltimaPOS, suivez ces étapes :
+
+1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Financier**.
+2. Dans la section **Paramètres Financiers**, cliquez sur **Remises**.
+3. Le code ref de la remise est indiqué en haut à droite, dans le champ **ID**.
+   ![Associer les codes ref - Remises](../images/007-fr-ultimapos-remise.png)
 
 ## Méthodes de paiement
 

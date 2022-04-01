@@ -13,7 +13,7 @@ meta:
 
 ---
 
-## Se connecter
+## Connecter UltimaPOS
 
 Pour connecter votre solution d'encaissement UltimaPOS à HubRise, suivez ces étapes :
 
@@ -28,7 +28,7 @@ Pour connecter votre solution d'encaissement UltimaPOS à HubRise, suivez ces é
 7. Cliquez sur **Valider la connexion**.
 8. Redémarrez UltimaPOS pour que la connexion soit prise en compte.
 
-## Se déconnecter
+## Déconnecter UltimaPOS
 
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Paramètres**, **Paramètres Cloud**, **Click & Collect**, puis dans l'onglet **HubRise**.
 2. Cliquez sur **Se déconnecter**.
