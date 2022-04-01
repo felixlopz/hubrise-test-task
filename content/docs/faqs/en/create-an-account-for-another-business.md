@@ -21,3 +21,20 @@ To create an account for another business:
 1. Enter the email address for the new user and click **Reset Password**. The user will receive an email with instructions on entering their own password.
 1. Logout as the newly created user, then login as your actual user profile. You will have access to the account for support purposes.
 
+It is recommended send the business a follow up email to notify them about the Account creation. This email can be formulated as follows : 
+
+--------------
+
+Hi [Business Contact Name], 
+
+I just created your HubRise account, to login: 
+
+- go to: https://manager.hubrise.com/login
+- login: [Business user profile email on HubRise]
+- password: I just sent it via an automated email. If you haven't received it, think of checking your spam folder. It is possible to reset your password again from this page: https://manager.hubrise.com/reset_password/new 
+
+Regards, [Your Name]
+
+--------------
+
+
