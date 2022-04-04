@@ -1,5 +1,5 @@
 ---
-title: How Do I Troubleshoot Price Difference Errors?
+title: Price Difference Errors
 position: 6
 layout: documentation
 meta:
