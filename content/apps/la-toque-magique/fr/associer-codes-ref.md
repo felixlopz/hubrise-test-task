@@ -9,23 +9,25 @@ meta:
 
 ---
 
-**REMARQUE IMPORTANTE :** Pour accéder à certains codes ref dans le back office La Toque Magique, vous devez être connecté en mode gestion d'enseigne. Pour activer ce mode, cliquez en haut à droite sur l'icône en forme d'épingle, puis sélectionnez **Gérer l'enseigne**.
+**REMARQUE IMPORTANTE :** Pour accéder à certains codes ref dans le back office La Toque Magique, vous devez être connecté en mode gestion d'enseigne. Pour activer ce mode, cliquez en haut à droite sur l'icône en forme d'épingle, puis sélectionnez **Gérer l'enseigne**. Pour revenir en mode gestion d'établissement, cliquez en haut à droite sur l'icône en forme d'épingle, puis sélectionnez l'établissement.
 
 ---
 
-## Produits
+## Produits et SKUs
 
-Les produits peuvent avoir différents codes ref selon les différentes skus disponibles.
+Les SKUs dans HubRise correspondent aux items de variation dans La Toque Magique.
 
-Pour modifier le code ref d'un article, suivez ces étapes :
+Pour modifier le code ref d'une SKU, suivez ces étapes :
 
 1. En mode gestion d'enseigne, sélectionnez **Produit** dans le menu latéral, puis **Liste des Produits**.
    ![Associer les codes ref - Liste de produits](../images/006-fr-liste-produits.png)
 2. Cliquez sur l'icône éditer du produit.
-3. Dans la page d'édition du produit, cliquez sur l'icône éditer.
+3. Dans la page d'édition du produit, dans la section **Liste des items de variation**, cliquez sur l'icône éditer de la SKU choisie.
    ![Associer les codes ref - Éditer un produit](../images/007-fr-editer-produit.png)
 4. Renseignez le code ref dans le champ **Référence externe**.
 5. Cliquez à gauche sur l'icône en forme de **v** pour valider.
+
+La Toque Magique permet de saisir un code ref sur le produit. Ce code n'est pas utilisé en pratique, et seuls les codes refs des SKUs doivent être renseignés.
 
 ## Options
 
