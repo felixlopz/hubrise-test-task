@@ -7,7 +7,6 @@ meta:
   description: Instructions to solve errors due to disconnected or not properly configured iPads.
 ---
 
-
 This page describes how to troubleshoot errors due to a disconnected or misconfigured iPad.
 
 ## iPad EPOS Not Available
@@ -15,7 +14,7 @@ This page describes how to troubleshoot errors due to a disconnected or misconfi
 In some cases, orders can fail with error messages similar to the following:
 
 - The specified business location doesn't accept online orders at the moment.
-  
+
   ```
   {
     "status": "FAILURE",
@@ -25,7 +24,7 @@ In some cases, orders can fail with error messages similar to the following:
   ```
 
 - No devices available to handle the task, the task has been rejected.
-  
+
   ```
   {
     "reason": "No devices available to handle the task, the task has been rejected.",

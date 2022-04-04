@@ -33,7 +33,7 @@ Mainly focussed on the UK, Australia and New Zealand, Next Order offers a softwa
 - Loyalty program and embedded e-marketing tools.
 - Driver management and real-time driver tracking by the end client.
 - Table reservation and a built-in table management solution.
-- Consolidated reporting, with integration of online orders, reservations and rostering apps. 
+- Consolidated reporting, with integration of online orders, reservations and rostering apps.
 
 With offices in Melbourne, Manilla and Bengaluru, Next Order includes free 24/7 support and frequently releases new features and improvements. Next Order's mission is to enable restaurants to embrace every part of their business with software.
 
@@ -56,4 +56,3 @@ Thanks to HubRise, you can synchronise your menu, your customer information and 
 ## Prerequisites
 
 To establish a connection between Next Order and HubRise, you must have an existing Next Order account and the optional integrations add-on.
-

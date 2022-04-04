@@ -10,7 +10,7 @@ meta:
 HubRise et Hop Delivery utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
 | Hop Delivery                                                                                        | HubRise         | Description                             |
-|-----------------------------------------------------------------------------------------------------| --------------- | --------------------------------------- |
+| --------------------------------------------------------------------------------------------------- | --------------- | --------------------------------------- |
 | Élément                                                                                             | Produit         | Produit.                                |
 | Modificateur                                                                                        | Liste d'options | Liste d'options.                        |
 | Promotion de types **1 acheté = 1 offert** et **Réduction sur produit(s) spécifique(s)**            | Promotion       | Offre spéciale sur certains produits.   |

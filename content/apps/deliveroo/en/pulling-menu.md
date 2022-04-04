@@ -76,7 +76,6 @@ Deliveroo Bridge maps HubRise deals to products with modifiers on Deliveroo.
 
 Deliveroo requires images to be 1200x800 pixels.
 
-
 ## Technical Reference
 
 The following sections describe in detail how Deliveroo Bridge maps HubRise catalogs to Deliveroo.
@@ -112,7 +111,6 @@ For every `sku` object in a product, Deliveroo Bridge sends the following inform
 - `option_list_refs`: The list of options attached to the sku
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
-
 
 ### Product Tags
 
@@ -160,4 +158,3 @@ For each deal in the catalog, Deliveroo Bridge creates a Deliveroo product with 
 - `category_ref`: If empty, Deliveroo Bridge creates a default category in Deliveroo called "Offers".
 - `ref`: The ref code of the deal becomes the ref of the product, preceeded by `DEAL-`. For example, for a deal with ref code `abc123`, Deliveroo Bridge creates a Deliveroo product with plu `DEAL-abc123`.
 - `lines`: For each object in the array, Deliveroo Bridge creates a list of modifiers, with `lines.name` as the name.
-

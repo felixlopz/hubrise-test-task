@@ -9,6 +9,6 @@ meta:
 
 HubRise et DOOD utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
-| DOOD                  | HubRise            | Description       |
-|-----------------------|--------------------|-------------------|
-| Modes de distribution | Types de service   | Types de service. |
+| DOOD                  | HubRise          | Description       |
+| --------------------- | ---------------- | ----------------- |
+| Modes de distribution | Types de service | Types de service. |

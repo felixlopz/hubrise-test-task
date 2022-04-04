@@ -7,7 +7,6 @@ meta:
   description: Instructions to solve errors due to differences between the total amount paid and the total price of items in a Lightspeed order.
 ---
 
-
 This page describes possible scenarios when the total amount paid by the customer does not match the total price of the items calculated by Lightspeed Restaurant.
 
 ## Total payment amount greater than the expected amount
@@ -27,7 +26,6 @@ This error typically happens when some products or options do not have a ref cod
 To solve the issue, ensure that all items available in the online ordering or food delivery platform have a ref code.
 
 ## Total payment amount less than the expected amount
-
 
 When the total payment amount in the order is less than the expected amount, Lightspeed accepts the order.
 However, the order remains open for payment in the EPOS.

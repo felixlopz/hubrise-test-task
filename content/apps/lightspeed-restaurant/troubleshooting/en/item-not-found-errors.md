@@ -35,7 +35,7 @@ The `reason` field in the error message indicates the missing ref code in the Li
 ### iPad Not Updated
 
 If the iPad you are using does not have the updated menu, you might see the error even if the item is available in the main Lightspeed catalog.
-If you experience this error intermittently and have multiple iPads in your store, the error might be caused by a single iPad that is not up to date when it receives the order. 
+If you experience this error intermittently and have multiple iPads in your store, the error might be caused by a single iPad that is not up to date when it receives the order.
 
 To solve the issue, make sure that all your iPads are up to date.
 

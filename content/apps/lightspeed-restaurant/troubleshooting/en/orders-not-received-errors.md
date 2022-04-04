@@ -7,7 +7,6 @@ meta:
   description: Instructions to troubleshoot orders not received in the EPOS.
 ---
 
-
 This page describes how to troubleshoot orders not received in the EPOS
 
 ## HubRise Not Enabled
@@ -15,7 +14,7 @@ This page describes how to troubleshoot orders not received in the EPOS
 In some cases, you might not receive HubRise orders even if no apparent error is displayed in the logs.
 
 Looking at the [order logs](/apps/lightspeed-restaurant/user-interface#operation-page), the affected orders display the following message:
-  
+
 ```
 {
   "status": "received"

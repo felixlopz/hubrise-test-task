@@ -21,7 +21,7 @@ SailPlay est une plateforme automatisée d'envoi d'e-mails et de SMS, spécialis
 
 SailPlay collecte des données sur les clients et leurs actions depuis des sources variées. Ces données, consultables depuis le back-office SailPlay, permettent d'optimiser le programme de fidélité et l'envoi de messages personnalisés.
 
-SailPlay permet également de déterminer la rentabilité de vos actions marketing, grâce à des outils d'analyse évolués. 
+SailPlay permet également de déterminer la rentabilité de vos actions marketing, grâce à des outils d'analyse évolués.
 
 ## Fonctionnalités de l'intégration
 

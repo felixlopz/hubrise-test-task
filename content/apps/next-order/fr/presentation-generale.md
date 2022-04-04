@@ -56,4 +56,3 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 ## Prérequis
 
 Pour établir la connexion entre Next Order et HubRise, vous devez disposer d'une licence Next Order et du module intégrations en option.
-

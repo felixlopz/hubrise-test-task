@@ -27,7 +27,7 @@ app_info:
 
 ## Description
 
-Seconds permet aux restaurateurs et aux commerçants d'optimiser leur gestion des services de livraison tiers, qu'il s'agisse de services express ou sur rendez-vous. Sur le back office de Seconds, vous sélectionnez vos critères de prix, de délai, de rapidité, d'horaire d'arrivée, ou de notation des livreurs par les clients. Le moteur de Seconds analyse en temps réel les données mises à disposition par les services de livraison tiers pour vous proposer l'option de livraison la plus appropriée. 
+Seconds permet aux restaurateurs et aux commerçants d'optimiser leur gestion des services de livraison tiers, qu'il s'agisse de services express ou sur rendez-vous. Sur le back office de Seconds, vous sélectionnez vos critères de prix, de délai, de rapidité, d'horaire d'arrivée, ou de notation des livreurs par les clients. Le moteur de Seconds analyse en temps réel les données mises à disposition par les services de livraison tiers pour vous proposer l'option de livraison la plus appropriée.
 
 Le flux commence lorsque votre client passe une commande en livraison sur votre site, lorsque vous enregistrez une commande en livraison sur votre solution d'encaissement, ou lorsque vous faites une demande de livraison sur le tableau de bord de Seconds. Seconds regroupe les devis de tous les fournisseurs de service de livraison intégrés qui se trouvent dans la zone de couverture et propose une option de livraison tenant compte de vos critères. Une fois le livreur sélectionné, vous pouvez suivre le statut des livraisons en temps réel depuis le tableau de bord de Seconds.
 

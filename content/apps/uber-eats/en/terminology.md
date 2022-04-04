@@ -26,5 +26,3 @@ Uber Eats offers three types of services to its customers:
 - **Restaurant delivery**: You are responsible for delivering the order to the customer.
 - **Takeaway**: The customer collects the order from your restaurant.
 - **Eat-in**: The customer eats on site.
-
-

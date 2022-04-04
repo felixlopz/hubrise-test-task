@@ -33,7 +33,7 @@ Uber Eats Bridge permet de :
 
 ![Schéma du flux de connexion entre Uber Eats, Uber Eats Bridge et HubRise](../images/000-fr-2x-connection-diagram.png)
 
-Uber Eats Bridge permet de recevoir les commandes avec la tablette Uber Eats éteinte.   
+Uber Eats Bridge permet de recevoir les commandes avec la tablette Uber Eats éteinte.
 
 ---
 
