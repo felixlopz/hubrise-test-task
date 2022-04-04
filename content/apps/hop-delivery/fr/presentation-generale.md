@@ -13,7 +13,6 @@ app_info:
   price_range:
   website: https://www.hop.delivery
   contact: +41 22 518 70 47 / hello@hop.delivery
-
 ---
 
 ## Description
@@ -33,7 +32,7 @@ Connecter Hop Delivery à HubRise permet à votre plateforme de commande et de 
 
 ---
 
-Hop Delivery peut être connecté à HubRise via le support de Hop Delivery.
+Hop Delivery peut être connecté à HubRise via le support de Hop Delivery, ou via le back office si vous êtes administrateur du compte.
 
 ## Pourquoi se connecter ?
 

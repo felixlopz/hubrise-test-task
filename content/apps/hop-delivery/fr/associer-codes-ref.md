@@ -7,10 +7,9 @@ meta:
   description: Comment afficher ou saisir les codes ref de votre solution d'encaissement dans votre menu Hop Delivery, en utilisant le gestionnaire de menu de Hop Delivery.
 ---
 
+## Produits et SKUs
 
-## Produits
-
-Chaque produit dispose d'un code ref.
+Les produits et les SKUs sur HubRise correspondent aux produits sur Hop Delivery. Les produits sur Hop Delivery ne peuvent avoir qu'une seule SKU.
 
 Pour modifier le code ref d'un produit, suivez ces étapes :
 
@@ -22,9 +21,9 @@ Pour modifier le code ref d'un produit, suivez ces étapes :
 
 ## Options
 
-Les modificateurs sur Hop Delivery correspondent aux listes d'options sur HubRise. Ils sont créés au niveau du menu et rattachés ensuite à des produits.
+Les listes d'options sur HubRise correspondent aux modificateurs sur Hop Delivery. Les modificateurs sont créés indépendamment des produits et rattachés ensuite à un ou plusieurs produits.
 
-Les options sur Hop Delivery sont également des options sur HubRise.
+Les options sur HubRise correspondent aux options sur Hop Delivery.
 
 Pour modifier le code ref d'un modificateur, suivez ces étapes :
 
@@ -38,7 +37,6 @@ Pour modifier le code ref d'une option, suivez ces étapes :
 1. Depuis le back office Hop Delivery, dans le menu de gauche, cliquez sur **Menu** > **Liste**.
 2. Cliquez sur l'en-tête **Options**. Le code ref de chaque option se trouve dans le champ **Réf.**.
 3. Modifiez le code ref de l'option. Le changement est automatiquement sauvegardé.
-
 
 ## Promotions et remises
 
@@ -55,13 +53,13 @@ Pour modifier le code ref d'une promotion, suivez ces étapes :
 3. Pour modifier le code ref d'une promotion, dans la liste des promotions en cours, cliquez sur le bouton **Modifier** d'une promotion.
    ![Associer les codes ref - Promotion](../images/007-fr-hop-delivery-promotion.png)
 4. Selon le type de promotion :
-    - pour une promotion de type **1 acheté = 1 offert** : cliquez sur **Suivant**. Modifiez le code ref, puis cliquez sur **Créer la promotion** pour sauvegarder.
-    - pour une promotion de type **Réduction sur produit(s) spécifique(s)** : cliquez deux fois sur **Suivant**. Modifiez le code ref, puis cliquez sur **Créer la promotion** pour sauvegarder.
-    - pour une promotion de type **Réduction sur frais de livraison** ou **Réduction sur prix total de commande** : cliquez sur **Suivant**, puis sur **Créer la promotion**. Modifiez le code ref, puis cliquez sur **Créer la promotion** pour sauvegarder.
+   - pour une promotion de type **1 acheté = 1 offert** : cliquez sur **Suivant**. Modifiez le code ref, puis cliquez sur **Créer la promotion** pour sauvegarder.
+   - pour une promotion de type **Réduction sur produit(s) spécifique(s)** : cliquez deux fois sur **Suivant**. Modifiez le code ref, puis cliquez sur **Créer la promotion** pour sauvegarder.
+   - pour une promotion de type **Réduction sur frais de livraison** ou **Réduction sur prix total de commande** : cliquez sur **Suivant**, puis sur **Créer la promotion**. Modifiez le code ref, puis cliquez sur **Créer la promotion** pour sauvegarder.
 
 ## Frais
 
-Les frais supplémentaires sur Hop Delivery correspondent aux frais sur HubRise. Un seul code ref existe pour ces frais.
+Les frais supplémentaires sur Hop Delivery correspondent aux frais sur HubRise.
 
 Pour modifier le code ref des frais, suivez ces étapes :
 
@@ -81,7 +79,7 @@ Pour modifier le code ref d'une méthode de paiement, suivez ces étapes :
 
 ## Types de service
 
-Les types de service tels que la livraison et le *click & collect* peuvent nécessiter un code ref.
+Les types de service tels que la livraison et le _click & collect_ peuvent nécessiter un code ref.
 
 Pour modifier le code ref d'un type de service, suivez ces étapes :
 
