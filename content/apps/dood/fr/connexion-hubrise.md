@@ -13,4 +13,6 @@ meta:
 
 ---
 
-Vous pourrez prochainement vous connecter et vous déconnecter d'HubRise de manière autonome depuis votre back office DOOD. En attendant, contactez le support de DOOD.
+Vous pourrez prochainement vous connecter et vous déconnecter d'HubRise de manière autonome depuis votre back office DOOD.
+
+En attendant, vous devez contacter le support de DOOD pour connecter HubRise.

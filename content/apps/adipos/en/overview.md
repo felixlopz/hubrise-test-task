@@ -25,7 +25,7 @@ app_info:
 
 The Adipos Point of Sales offers a complete suite to manage restaurant operations. The solution is built around modular applications to meet the merchant's operational needs. All apps are available for iOS and Android.
 
-The EPOS has been designed for all types of catering businesses, restaurant with table service, quick-service, delivery and Click & Collect as well as food trucks and bakeries. Adipos has been designed for single or multi-store and franchise restaurants. When connected, Adipos provides real-time monitoring, but it can also work offline. A back office is available for administration and management. 
+The EPOS has been designed for all types of catering businesses, restaurant with table service, quick-service, delivery and Click & Collect as well as food trucks and bakeries. Adipos has been designed for single or multi-store and franchise restaurants. When connected, Adipos provides real-time monitoring, but it can also work offline. A back office is available for administration and management.
 
 Adipos offers multiple functionalities in addition to the EPOS, including floor plans, management of an order quota by product category, customer loyalty with or without coupons, delivery and click & collect management, order display in the kitchen and in preparation areas, display on promotional screens, self ordering kiosks, online ordering, and an ordering app.
 

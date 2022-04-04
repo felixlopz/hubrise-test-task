@@ -49,7 +49,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ![Just Eat Flyt Bridge configuration page, Menu section](../images/012-en-just-eat-configuration-page-menu.png)
 
-From this section, choose if you want to update your Just Eat menu every time you update the HubRise catalog. By default, this option is turned off. 
+From this section, choose if you want to update your Just Eat menu every time you update the HubRise catalog. By default, this option is turned off.
 
 ### Availability
 
@@ -65,7 +65,6 @@ To quickly copy the availability to all the following days on the list, click **
 **IMPORTANT NOTE:** By default, closing times for delivery will be set half an hour earlier on the Just Eat store than the value you set on Just Eat Flyt Bridge. Closing times for collection, instead, are not modified.
 
 ---
-
 
 ## Saving the Configuration
 

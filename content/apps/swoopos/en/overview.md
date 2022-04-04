@@ -34,7 +34,7 @@ Swoopos combines a traditional EPOS and cloud-based technology to work online an
 - Mobile ordering app with a QR code on each table for customers to order autonomously.
 - Analytics and reports for operations management and marketing programs.
 
-Swoopos is entirely developed in-house. Their customer service provides remote staff training and technical support. 
+Swoopos is entirely developed in-house. Their customer service provides remote staff training and technical support.
 
 ## Integration Features
 

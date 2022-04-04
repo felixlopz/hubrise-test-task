@@ -9,7 +9,7 @@ meta:
 
 With Uber Eats Bridge, you can pull your HubRise catalog directly into your Uber Eats store with a single click.
 
-You can also configure the bridge to pull your catalog into Uber Eats every time it is updated on HubRise. For more information, see [Menu](/apps/uber-eats/configuration#menu). 
+You can also configure the bridge to pull your catalog into Uber Eats every time it is updated on HubRise. For more information, see [Menu](/apps/uber-eats/configuration#menu).
 
 This page explains how you can pull and update your menu on Uber Eats, and what information about HubRise catalogs can be pulled into the platform.
 
@@ -65,7 +65,6 @@ Uber Eats Bridge maps HubRise deals to products with modifiers on Uber Eats.
 
 Uber Eats requires images to be 320x320 pixels.
 
-
 ## Technical Reference
 
 The following sections describe in detail how Uber Eats Bridge maps HubRise catalogs to Uber Eats.
@@ -107,12 +106,11 @@ For more information about skus in the HubRise catalog, see [Skus](/developers/a
 The table below lists the tags that can be set on products.
 
 | Tag           | Description                 |
-|---------------|-----------------------------|
+| ------------- | --------------------------- |
 | `alcoholic`   | Contains alcohol.           |
 | `gluten_free` | Contains no gluten.         |
 | `vegan`       | Contains no animal product. |
 | `vegetarian`  | Contains no meat.           |
-
 
 ### Options
 

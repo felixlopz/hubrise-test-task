@@ -20,10 +20,9 @@ If you no longer wish to pay for your HubRise subscription, remove your payment 
 
 1. Log in to your [HubRise account](https://manager.hubrise.com/login).
 1. Go to **CONNECTIONS**.
-1. To see all connected apps, verify that **All locations** is selected. 
+1. To see all connected apps, verify that **All locations** is selected.
 1. Find the app you want to disconnect, then click **Actions** > **Disconnect** or **Block**.
 1. Click **Confirm**.
-
 
 ## Downgrade to a Free Plan
 

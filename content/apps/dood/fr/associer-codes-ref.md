@@ -35,7 +35,6 @@ Les options sont également des produits cachés.
 
 Pour modifier le code ref d'une option, suivez les étapes de la section produit [Produits](#produits).
 
-
 ## Promotions
 
 Les promotions dans HubRise sont les offres spéciales qui s'appliquent à certains produits. DOOD ne supporte pas les promotions sur les produits. Dans certains cas, vous pouvez néanmoins utiliser des produits avec options pour les promotions.
@@ -48,20 +47,17 @@ Les remises dans HubRise et DOOD sont les offres spéciales qui s'appliquent à 
 
 Actuellement, les codes ref des remises ne sont pas directement éditables dans votre back office. Ils le seront prochainement. En attendant, pour les modifier, contactez le support de DOOD.
 
-
 ## Frais
 
 DOOD ne supporte que les frais de livraison.
 
 Actuellement, les codes ref des frais de livraison ne sont pas directement éditables dans votre back office. Ils le seront prochainement. En attendant, pour les modifier, contactez le support de DOOD.
 
-
 ## Méthodes de paiement
 
 Chaque méthode de paiement utilisée sur DOOD dispose d'un code ref.
 
 Actuellement, les codes ref des méthodes de paiement ne sont pas directement éditables dans votre back office. Ils le seront prochainement. En attendant, pour les modifier, contactez le support de DOOD.
-
 
 ## Types de service
 

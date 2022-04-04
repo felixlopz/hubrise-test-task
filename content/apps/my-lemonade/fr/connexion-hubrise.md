@@ -41,5 +41,5 @@ L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers �
 ## Déconnecter My Lemonade
 
 1.  Dans le menu latéral du back office, sélectionnez **Paramètres**.
-1. Sélectionnez l'onglet **CAISSE**.
-1. Cliquez sur **DECONNECTER LA CAISSE**.
+1.  Sélectionnez l'onglet **CAISSE**.
+1.  Cliquez sur **DECONNECTER LA CAISSE**.
