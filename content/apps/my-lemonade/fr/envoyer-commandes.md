@@ -1,5 +1,5 @@
 ---
-title: Envoyer les Commandes
+title: Envoyer les commandes
 position: 4
 layout: documentation
 meta:
