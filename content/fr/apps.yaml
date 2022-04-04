@@ -176,6 +176,12 @@ content:
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
           additional_info:
+        - website:
+          documentation: /apps/hop-delivery
+          logo: hop-delivery.png
+          title: Hop Delivery
+          description: Hop Delivery est un service de commande en ligne et de livraison pour les restaurants et autres commerces. Les clients  commandent en ligne, soit depuis la plateforme Hop Delivery, soit sur le site en marque blanche fourni par Hop Delivery. Hop Delivery livre à Genève, en Suisse.
+          additional_info:
         - website: https://www.just-eat.fr/
           documentation: /apps/just-eat-flyt
           logo: just-eat.png

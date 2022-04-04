@@ -180,6 +180,12 @@ content:
           title: Foodpanda
           description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. Available in 14 markets.
           additional_info:
+        - website:
+          documentation: /apps/hop-delivery
+          logo: hop-delivery.png
+          title: Hop Delivery
+          description: Hop Delivery is an online ordering and delivery platform for restaurants and retail stores. Customers can order online from the Hop Delivery or the restaurant white branded website. Hop Delivery operates in Geneva, Switzerland.
+          additional_info:
         - website: https://www.just-eat.co.uk/
           documentation: /apps/just-eat-flyt
           logo: just-eat.png
