@@ -15,12 +15,6 @@ app_info:
   contact: +41 22 518 70 47 / hello@hop.delivery
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-
----
-
 ## Description
 
 Hop Delivery est un service de commande en ligne et de livraison pour les restaurants, les magasins de santé et de bien-être, les épiceries, les confiseries et les fleuristes à livrer partout à Genève, en Suisse. Les clients peuvent commander en ligne sur la plateforme Hop Delivery, via une app mobile ou sur le site Hop Delivery en marque blanche du commerçant.
@@ -38,7 +32,7 @@ Connecter Hop Delivery à HubRise permet à votre plateforme de commande et de 
 
 ---
 
-Hop Delivery peut être connecté à HubRise via le support de Hop Delivery.
+Hop Delivery peut être connecté à HubRise via le support de Hop Delivery, ou via le back office si vous êtes administrateur du compte.
 
 ## Pourquoi se connecter ?
 
@@ -48,4 +42,4 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 
 ## Prérequis
 
-Pour établir la connexion entre Hop Delivery et HubRise, vous devez disposer d'un compte Hop Delivery.
+Pour établir la connexion entre Hop Delivery et HubRise, vous devez disposer d'un compte Hop Delivery.

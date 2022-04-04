@@ -17,7 +17,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: Full documentation of this integration will be available soon.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/hop-delivery" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
