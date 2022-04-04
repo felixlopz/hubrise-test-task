@@ -7,11 +7,14 @@ meta:
   description: Instructions on how to create Catalogs in Catalog Manager. Synchronise catalogs between your EPOS and your apps.
 ---
 
-A **Catalog** is simply a container for your products and their associated details. There are 3 ways you can create a catalog:
+A **Catalog** is simply a container for your products and their associated details. Catalogs are stored in Hubrise and managed using Catalog Manager.  
+
+There are several ways you can create a catalog:
 
 - From an EPOS
 - From an Online Ordering System or Food Ordering Platform
-- Using Catalog Manager
+- From the Settings page in your Hubrise account
+- Using the Catalog Manager app
 
 ## Create a Catalog from Another App
 
@@ -33,4 +36,4 @@ Go to **Connections** and click on **Open** in Catalog Manager.
 
 In Catalog Manager, click on **New catalog** and enter a name.
 
-Once the new catalog has been created you can add products, options, deals, discounts and charges.
+Once the new catalog has been created you can add categories, products, options, deals, discounts and charges. 

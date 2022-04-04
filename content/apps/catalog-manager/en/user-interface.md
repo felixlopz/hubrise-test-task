@@ -28,7 +28,7 @@ For each product, the following can be viewed/edited in the product's details pa
 - Variations
 - Options List
 
-Variations are typically used to provide different varieties of the base product, such as size or colour.  Options allow you to specify optional items over and above the varations.
+Variations are typically used to provide different varieties of the base product, such as size or colour.  Options allow you to specify optional additional items, such as extras.
 
 ---
 
@@ -36,26 +36,15 @@ Variations are typically used to provide different varieties of the base product
 
 ---
 
-You can rearrange the order in which items are displayed in each category by using the drag handle to drag and drop products.
+You can rearrange the order in which items are displayed in each category by using the drag handle to drag and drop products. The order in which products display in the Catalog Manager is the oder in which they will display in the app you push the catalog into.
 
 ![Catalog Manager Product List](../images/002-en-product-list.png)
 
 ## Option Lists
 
-Options are additional items which customers can add to a product when ordering.  When you create a product, you can choose to create a relationship between the product and an Options List.  The Options List needs to be created before you can relate them to a product item.
+Options are additional items which customers can add to a product when ordering.  When you create a product, you can choose to create a relationship between the product and an Options List. The Options List needs to be created before you can relate them to a product item. 
 
 ![Catalog Manager Options List](../images/003-en-option-lists.png)
-
-To create an Options List, click on **Options Lists** > **New option** list.  The following information is required:
-
-- Name
-- Minimum number a customer can select
-- Maximum number a customer can select
-- For each option, enter a name, price, Ref code and default flag
-
-Keep in mind that and Options Lists are related to specific products, or product variations, so it is useful to name your Options List appropriately.  For example, for a medium pizza variation you may have 2 sauce options which you would include in an Options List called `Sauce - Medium Pizza`.
-
-![Catalog Manager Options List details](../images/004-en-option-list-details.png)
 
 ## Deals
 
