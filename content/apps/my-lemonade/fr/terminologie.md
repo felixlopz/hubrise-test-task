@@ -1,6 +1,6 @@
 ---
 title: Terminologie
-position: 5
+position: 7
 layout: documentation
 meta:
   title: Terminologie | My Lemonade | HubRise
@@ -11,8 +11,9 @@ HubRise et My Lemonade utilisent chacun leur propre terminologie. Un même conce
 
 | My Lemonade         | HubRise             | Description                             |
 | ------------------- | ------------------- | --------------------------------------- |
+| Société             | Compte              | Appellation commerciale.                |
 | Établissement       | Point de vente      | Restaurant proprement dit.              |
 | Menu                | Catalogue           | L'ensemble de la carte.                 |
+| Variante            | SKU                 | Variante de produit.                    |
 | Offre               | Promotion           | Remise sur des articles de la commande. |
 | Service de paiement | Méthode de paiement | Méthode de paiement de la commande.     |
-| Variante            | SKU                 | Variante de produit.                    |
