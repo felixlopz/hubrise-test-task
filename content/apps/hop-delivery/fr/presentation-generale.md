@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-Hop Delivery aide les restaurants, les magasins de santé et de bien-être, les épiceries, les confiseries et les fleuristes à livrer partout à Genève, en Suisse. Les clients peuvent commander en ligne sur la plateforme Hop Delivery, via une app mobile ou directement sur le site Hop Delivery en marque blanche du commerçant.
+Hop Delivery est un service de commande en ligne et de livraison pour les restaurants, les magasins de santé et de bien-être, les épiceries, les confiseries et les fleuristes à livrer partout à Genève, en Suisse. Les clients peuvent commander en ligne sur la plateforme Hop Delivery, via une app mobile ou sur le site Hop Delivery en marque blanche du commerçant.
 
 ## Fonctionnalités de l'intégration
 
@@ -38,7 +38,7 @@ Connecter Hop Delivery à HubRise permet à votre plateforme de commande et de 
 
 ---
 
-Hop Delivery peut être connecté à HubRise via le support de Hop Delivery. Le bouton HubRise disponible dans le back office de Hop Delivery n'est visible que par les utilisateurs Hop Delivery Admin.
+Hop Delivery peut être connecté à HubRise via le support de Hop Delivery.
 
 ## Pourquoi se connecter ?
 

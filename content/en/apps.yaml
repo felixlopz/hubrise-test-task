@@ -183,8 +183,8 @@ content:
         - website:
           documentation: /apps/hop-delivery
           logo: hop-delivery.png
-          title: Hop Delivery
-          description: Hop Delivery helps restaurants as well as florists, confectionery, health & wellness and grocery stores with home delivery anywhere in Geneva, Switzerland. Customers can order online on the Hop Delivery platform, via a mobile app or directly in the store's branded online ordering website powered by Hop Delivery.
+          title: Hop Delivery
+          description: Hop Delivery is an online ordering and delivery platform for restaurants and retail stores. Customers can order online from the Hop Delivery or the restaurant white branded website. Hop Delivery operates in Geneva, Switzerland.
           additional_info:
         - website: https://www.just-eat.co.uk/
           documentation: /apps/just-eat-flyt
