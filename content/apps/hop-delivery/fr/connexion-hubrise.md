@@ -18,16 +18,17 @@ Seuls les utilisateurs administrateurs peuvent accéder à cette fonctionnalité
 ## Se connecter
 
 Pour établir la connexion entre Hop Delivery et HubRise :
-1. Dans le menu à gauche, cliquez sur **Paramètres**, puis sur **HubRise**.
+1. Depuis le back office Hop Delivery, dans le menu de gauche, cliquez sur **Paramètres**, puis sur **HubRise**.
   ![Connexion HubRise - Déconnecté](../images/001-fr-hop-delivery-hubrise-deconnecte.png)
-2. À droite, cliquez sur le bouton **Connecter HubRise**. La page HubRise s'affiche.
-3. Choisissez le point de vente et le catalogue à connecter, puis cliquez sur **Autoriser**.
+2. À droite, cliquez sur le bouton **Connecter HubRise**. La page HubRise s'ouvre dans votre navigateur.
+3. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
+4. Cliquez sur **Autoriser**.
 
 
 ## Se déconnecter
 
 Pour déconnecter Hop Delivery de HubRise, suivez ces étapes :
 
-1. Dans le menu à gauche, cliquez sur **Paramètres**, puis sur **HubRise**.
+1. Depuis le back office Hop Delivery, dans le menu de gauche, cliquez sur **Paramètres**, puis sur **HubRise**.
    ![Connexion HubRise - Connecté](../images/002-fr-hop-delivery-hubrise-connecte.png)
 2. À droite, cliquez sur le bouton **Déconnecter**.
