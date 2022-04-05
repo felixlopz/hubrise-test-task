@@ -281,8 +281,8 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est une solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
-          additional_info:
-        - website: https://maakyo.com/
+          additional_info: Documentation en anglais.
+        - website: https://maakyo.com
           documentation: /apps/maakyo
           logo: maakyo.png
           title: Maakyo
@@ -294,10 +294,10 @@ content:
           description: My Lemonade est une solution de commande à table. Le client scanne le QR code ou le tag NFC placés sur la table, accède au menu dans sa langue sur son smartphone, et commande en ligne. Aucune app à installer.
           additional_info:
         - website: https://mynober.nl/en/home-2/
-          documentation:
+          documentation: /apps/mynober
           logo: mynober.png
           title: MynOber
-          description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
+          description: MynOber propose une solution de commande en ligne, un kiosque de commande et un système d'encaissement simplifié pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une autre solution d'encaissement.
           additional_info:
         - website: https://obypay.fr
           documentation: /apps/obypay
@@ -317,7 +317,7 @@ content:
           description: RestaJet propose une application mobile pour les réservations et un site de commande en ligne pour les restaurants. Des outils de gestion de contenu et de marketing sont disponibles sur la console RestaJet.
           additional_info:
         - website: https://restaurant-internet.com
-          documentation:
+          documentation: /apps/restaurant-internet
           logo: restaurant-internet.png
           title: Restaurant-internet
           description: Restaurant-internet propose un site vitrine avec réservation de table et solution de commande en ligne. La solution couvre en particulier les besoins de la livraison à domicile et la vente à emporter.

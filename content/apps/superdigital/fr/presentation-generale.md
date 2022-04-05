@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Présentation générale | Toolkeat | HubRise
-  description: Présentation générale de Toolkeat, les raisons de connecter votre site Toolkeat à HubRise et fonctionnalités de l'intégration avec HubRise.
+  title: Présentation générale | SuperDigital.fr | HubRise
+  description: Présentation générale de SuperDigital.fr, les raisons de connecter votre site SuperDigital.fr à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:
@@ -15,15 +15,9 @@ app_info:
   contact: contact@superdigital.fr
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
-
----
-
 SuperDigital.fr est une solution de commande en ligne pour les restaurants, en livraison ou à emporter. Grâce à son partenariat avec LightSpeed et son intégration avec HubRise, SuperDigital.fr permet de centraliser et d'organiser les ventes provenant de différents canaux. SuperDigital.fr s'occupe de toute l'installation pour ses clients restaurateurs.
 
-La solution de commande SuperDigital.fr a été conçue et optimisée pour le marché français. Elle a la structure d'un site internet, avec un nom de domaine propre, un hébergement sécurisé, et une page d'accueil contenant toutes les informations nécessaires au client ou prospect d'un restaurant. SuperDigital.fr offre aussi la possibilité d'ajouter des pages avec du contenu, indispensable au référencement, ainsi que des images, des vidéos, des cartes, des liens vers les réseaux sociaux, et bien d'autres choses encore.
+La solution de commande en ligne SuperDigital.fr a été conçue et optimisée pour le marché français. Elle a la structure d'un site internet, avec un nom de domaine propre, un hébergement sécurisé, et une page d'accueil contenant toutes les informations nécessaires au client ou prospect d'un restaurant. SuperDigital.fr offre aussi la possibilité d'ajouter des pages avec du contenu, indispensable au référencement, ainsi que des images, des vidéos, des cartes, des liens vers les réseaux sociaux, et bien d'autres choses encore.
 
 Le site s'adapte et reproduit l'identité visuelle du restaurant.
 

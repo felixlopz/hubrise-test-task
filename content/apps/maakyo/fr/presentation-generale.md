@@ -33,7 +33,7 @@ Maakyo propose aussi un système de Click & Collect intégré.
 
 ## Fonctionnalités de l'intégration
 
-Connecter Maakyo à HubRise permet à Maakyo de :
+Connecter Maakyo à HubRise permet à votre solution de commande en ligne de :
 
 - Envoyer les commandes à HubRise.
 - Recevoir un catalogue de HubRise.
