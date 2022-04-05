@@ -23,12 +23,6 @@ Contact MynOber Support at [support@mynober.nl](mailto:support@mynober.nl) and a
 
 ## 2. Connect MynOber Cloud
 
----
-
-**IMPORTANT NOTE:** MynOber Cloud connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
-
 To connect MynOber Cloud to HubRise, follow these steps.
 
 1. Log in to your [MynOber Cloud account](https://cloud.mynober.nl/).

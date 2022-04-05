@@ -12,11 +12,12 @@ meta:
 To find the ref codes assigned to your MynOber menu items, follow these steps:
 
 1. Log in to your [MynOber Cloud account](https://cloud.mynober.nl/).
-1. Select the location.
-1. Click **Articles** > **Articles**.
-1. Click **Expand All** to reveal all the products available.
-1. The ref codes of your products appear in the **PLU** column.
+2. Select the location.
+3. Click **Articles** > **Articles**.
+4. Click **Expand All** to reveal all the products available.
+5. The ref codes of your products appear in the **PLU** column.
 
 ## MynOber Support
 
 For issues with the configuration of MynOber Cloud, you can contact MynOber support team at [support@mynober.nl](mailto:support@mynober.nl).
+
