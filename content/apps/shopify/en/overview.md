@@ -1,18 +1,18 @@
 ---
-position: 1
 title: Overview
+position: 1
 layout: documentation
 meta:
-  title: Shopify Connection to HubRise - Overview
-  description: Shopify overview and why you should connect it to HubRise. With a connection to HubRise, orders are sent to tools you use every day including your EPOS.
+  title: Overview | Shopify | HubRise
+  description: Shopify overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 001-2x-backoffice-shopify.png
-  - 002-en-2x-shop-sample-1.png
-  - 003-en-2x-shop-sample-2.png
-  - 004-en-2x-shop-sample-3.png
+  - __gallery-en-001.png
+  - __gallery-en-002.png
+  - __gallery-en-003.png
+  - __gallery-en-004.png
 path_override: /
 app_info:
-  category: Online ordering
+  category: Online Ordering
   availability: Worldwide
   price_range:
   website: https://www.shopify.com
@@ -35,17 +35,14 @@ Connecting Shopify to HubRise allows Shopify to:
 - Pull order status from HubRise into Shopify.
 - Push customer information into HubRise.
 - Pull a product catalog from HubRise.
-
----
-
-**IMPORTANT NOTE:** We are currently looking for pilot testers. If you are interested, contact us at support@hubrise.com.
-
----
+- Synchronise inventory with HubRise.
 
 ## Why Connect?
 
-Shopify can be connected to HubRise for your website and other apps you use every day to work as a cohesive whole. It could be your EPOS or your preferred marketing solution. Connecting with HubRise allows you to sync your product catalog, your customer and order information. For more information on HubRise, see the [HubRise User Guide](/docs).
+Shopify can be connected to HubRise for your website and other apps you use every day to work as a cohesive whole. It could be your EPOS or your preferred marketing solution. Connecting with HubRise allows you to sync your product catalog, your stock, your customer and order information.
+
+Thanks to HubRise, synchronise your menu, your customer and order information with your EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
-To establish a connection between Shopify and HubRise, you must have an existing Shopify online ordering website, that you can create from the [Shopify website](https://www.shopify.com). You must also have a HubRise user profile and account.
+To establish a connection between Shopify and HubRise, you must have an existing Shopify online ordering website, that you can create from the [Shopify website](https://www.shopify.com).

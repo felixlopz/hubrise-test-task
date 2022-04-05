@@ -3,8 +3,8 @@ title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: dotdigital Connection to HubRise
-  description: Instructions for connecting dotdigital to HubRise
+  title: Connection to HubRise | dotdigital | HubRise
+  description: Instructions on connecting dotdigital with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 Connecting dotdigital to HubRise requires valid credentials to access the dotdigital API.
@@ -42,7 +42,7 @@ If you don't have a HubRise account, go to the [HubRise Signup Page](https://man
 1. Select **dotdigital** from the list of apps.
 1. Click **Connect**.
 1. Grant dotdigital permission to access the location of your restaurant registered in HubRise.
-   1. If your account has not yet been created on HubRise, select **Create a new location**.
-   1. For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**.
+   - If your account has not yet been created on HubRise, select **Create a new location**.
+   - For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**.
 
 You have now added dotdigital to your HubRise apps.

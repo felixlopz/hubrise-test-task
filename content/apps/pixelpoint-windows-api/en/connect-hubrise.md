@@ -1,10 +1,10 @@
 ---
-title: Connect to HubRise
+title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connecting the PixelPoint Windows API with HubRise
-  description: Informs users how to connect the PixelPoint Windows API created by Slowey Systems to HubRise. Once this connection is actived, your PAR PixelPoint EPOS solution will pull information from HubRise. It shows also how to read logs.
+  title: Connection to HubRise | PixelPoint Windows API | HubRise
+  description: Instructions on connecting PixelPoint Windows API with HubRise for your EPOS to work with other apps as a cohesive whole. Synchronise your data.
 ---
 
 The setup process for connecting PixelPoint Windows API to HubRise is typically performed by Slowey Systems, and is completely transparent to the user.
@@ -68,7 +68,7 @@ To retrieve these values, follow these steps.
 - Select **Sales Type Setup**.
 - Copy each value in the configuration file.
 
-[comment]: # 'Get screenshots from John'
+[comment]: # "Get screenshots from John"
 
 ### Payment
 
@@ -81,7 +81,7 @@ To retrieve the value for `MethodNum`, follow these steps.
 - Select **Payment Method Setup**.
 - Copy the value in the configuration file.
 
-[comment]: # 'Get screenshots from John'
+[comment]: # "Get screenshots from John"
 
 ### Settings
 

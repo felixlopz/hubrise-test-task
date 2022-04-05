@@ -1,10 +1,10 @@
 ---
 title: Understanding Logs
-position: 5
+position: 8
 layout: documentation
 meta:
-  title: Understanding Logs on the HubRise PixelPoint Bridge
-  description: Informs users on how to read the output in the Logs.
+  title: Understanding Logs | PixelPoint Bridge | HubRise
+  description: Instructions on how to read the output in the logs coming from PixelPoint Bridge. Synchronise data between your EPOS and your apps.
 ---
 
 The logs page on PixelPoint Bridge is divided into two parts: Request and Response. The former displays the information sent from HubRise to PixelPoint, the latter the response sent from the PAR PixelPoint EPOS back to PixelPoint Bridge.

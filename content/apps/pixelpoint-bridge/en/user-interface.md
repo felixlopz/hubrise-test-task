@@ -1,15 +1,15 @@
 ---
-title: User Interface Walkthrough
-position: 3
+title: User Interface
+position: 4
 layout: documentation
 meta:
-  title: User Interface Guide for the HubRise PixelPoint Bridge
-  description: Informs users on how navigate through the PixelPoint Bridge created by HubRise to connect the PAR PixelPoint EPOS solution to HubRise.
+  title: User Interface | PixelPoint Bridge | HubRise
+  description: Informs users on how navigate through PixelPoint Bridge created by HubRise to connect the PAR PixelPoint EPOS solution to HubRise. Synchronise your data.
 ---
 
-The user interface for the PixelPoint Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
+The user interface for PixelPoint Bridge provides basic diagnostic information about your connection. It also provides a link to the logs of the latest HubRise requests sent to the EPOS.
 
-## Main page
+## Main Page
 
 The main page of PixelPoint Bridge displays the latest received orders. Each row shows:
 
@@ -29,9 +29,9 @@ On the top right corner of the PixelPoint Bridge main page, the HubRise user and
 
 ![Main page](../images/004-en-main-page.png)
 
-## Order page
+## Order Page
 
-Selecting an order from the list will display all the logs of the API requests exchanged between HubRise and the PixelPoint EPOS via the PixelPoint Bridge.
+Selecting an order from the list will display all the logs of the API requests exchanged between HubRise and the PixelPoint EPOS via PixelPoint Bridge.
 
 Requests are ordered with the latest on top, and each of them displays the following information:
 
@@ -41,8 +41,16 @@ Requests are ordered with the latest on top, and each of them displays the follo
 
 ![Order page](../images/002-en-orders-page.png)
 
-## Configuration page
+## Language and Navigation
 
-In the **Configuration page**, it is possible to change or reset the API token associated with the location.
+At the top right corner of the main page, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/007-arrow.jpg)</InlineImage> to expand the menu. From there, you can change the language of the page to English or French.
 
-![Configuration page](../images/003-en-configuration-page.png)
+Clicking on the PixelPoint and HubRise logos on top of any page of PixelPoint Bridge will bring you back to the main page.
+
+## Configuration Page
+
+To access the PixelPoint Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/007-arrow.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
+
+![PixelPoint Bridge configuration page](../images/003-en-pixelpoint-configuration-page.png)
+
+From this page, you will be able to customise the behaviour of PixelPoint Bridge. For more details, see [Configuration](/apps/pixelpoint-bridge/configuration).

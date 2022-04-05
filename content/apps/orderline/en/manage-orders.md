@@ -3,8 +3,8 @@ title: Manage Orders
 position: 5
 layout: documentation
 meta:
-  title: Manage Orders within OrderLine
-  description: View order details, update the order status, and print a receipt.
+  title: Manage Orders | OrderLine | HubRise
+  description: Instructions on how to view order details, to update the order status, and to print a receipt. Connect apps and synchronise your data.
 ---
 
 OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Set Order Statuses](/apps/orderline/settings/#set-order-statuses).
@@ -40,7 +40,7 @@ Users can add a personalised message to the customer, adjust the delivery time, 
 
 ---
 
-Once accepted, the Order status changes to Accepted. You may print the order receipt and change the status again when you are ready.
+Once accepted, the Order status changes to **Accepted**. You may print the order receipt and change the status again when you are ready.
 
 <video controls title="OrderLine Accept Order Example">
   <source src="../images/020-en-accept-order.webm" type="video/webm"/>
@@ -58,7 +58,7 @@ Once rejected, the order disappears from **Today's Orders** list and becomes hid
 
 ## Mark Order as In Delivery
 
-With the order in Accepted status, select **IN DELIVERY** when the Order is being delivered to the customer.
+With the order in **Accepted** status, select **IN DELIVERY** when the Order is being delivered to the customer.
 
 <video controls title="OrderLine Order in Delivery Example">
   <source src="../images/022-en-order-set-status-in-delivery.webm" type="video/webm"/>
@@ -66,7 +66,7 @@ With the order in Accepted status, select **IN DELIVERY** when the Order is bein
 
 ## Complete Order
 
-Orders set with the status In Delivery can be updated to the following:
+Orders set with the status **In Delivery** can be updated to the following:
 
 - Click **COMPLETED** when the Order has been delivered finished. Once set to completed, you can print the order receipt but not change its status again.
 - Click **DELIVERY FAILED** if the Order can not be successfully delivered.
@@ -77,14 +77,6 @@ Completed Orders are hidden from **Today's Orders** by default. Click the **Toda
   <source src="../images/023-en-order-set-completed.webm" type="video/webm"/>
 </video>
 
-## Mark Delivery as Failed
-
-Orders with the status **In delivery** can print the Order receipt.
-
-<video controls title="OrderLine Failed Delivery Example">
-  <source src="../images/024-en-order-set-delivery-failed.webm" type="video/webm"/>
-</video>
-
 ## Print Order
 
 OrderLine connects to printers recognised by the operating system. It uses the system print dialog to print receipts.
@@ -92,8 +84,8 @@ OrderLine connects to printers recognised by the operating system. It uses the s
 To print an Order receipt from a local printer, follow these steps:
 
 1. View order details.
-2. Click **PRINT**.
-3. Follow the instructions on the browser print dialog.
+1. Click **PRINT**.
+1. Follow the instructions on the browser print dialog.
 
 OrderLine also prints order receipts automatically upon order reception, skipping the print dialog. Auto printing requires the printer to be registered in Google Cloud Print. For more details, see [Printing](/apps/orderline/settings/#printing).
 

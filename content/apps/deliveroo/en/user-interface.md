@@ -3,8 +3,8 @@ title: User Interface
 position: 3
 layout: documentation
 meta:
-  title: Deliveroo Connection to HubRise - User Interface
-  description: How to navigate the Deliveroo Bridge main page to access information about the orders and customise the behaviour of the bridge.
+  title: User Interface | Deliveroo | HubRise
+  description: How to navigate the Deliveroo Bridge main page to access information about the orders and customise the behaviour of the bridge. Synchronise your data.
 ---
 
 From the main page of Deliveroo Bridge, you can read the logs of all the operations between HubRise and Deliveroo, and access the configuration settings of the integration.
@@ -19,7 +19,7 @@ Each row in the page shows the following information about an operation:
 
 - **TIME**: The date and time of the order.
 - **ORDER**: The HubRise order ID, for order operations.
-- **STATUS**: The status of the order. The value OK indicates that the order has been successfully sent, otherwise a message will explain the type of error occurred.
+- **STATUS**: The status of the order. The value **OK** indicates that the order has been successfully sent, otherwise a message will explain the type of error occurred.
 
 The **System request** label indicates that the operation is not related to a specific order.
 
@@ -37,7 +37,7 @@ Each row in the logs displays the following information:
 
 - **TIME**: The date and time the request was sent.
 - **DIRECTION**: The apps sending and receiving the request, in the format Origin → Destination.
-- **STATUS**: The status of the request. The value OK indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
+- **STATUS**: The status of the request. The value **OK** indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
@@ -64,7 +64,5 @@ Clicking on the Deliveroo and HubRise logos on top of any page of Deliveroo Brid
 ## Configuration Page
 
 To access the Deliveroo Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
-
-![Deliveroo Bridge configuration page](../images/002-en-configuration-page.png)
 
 From this page, you will be able to customise the behaviour of Deliveroo Bridge. For more details, see [Configuration](/apps/deliveroo/configuration).

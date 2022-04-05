@@ -1,10 +1,10 @@
 ---
-title: Connect to HubRise
+title: Connection to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Uber Eats Connection to HubRise - Instructions
-  description: See how to connect your Uber Eats online store to HubRise. Connection is simple. Send the link to your Uber Eats page to HubRise and follow a few steps to connect.
+  title: Connection to HubRise | Uber Eats | HubRise
+  description: Instructions on connecting Uber Eats with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 Connecting Uber Eats to HubRise can be done with a few simple steps.
@@ -21,11 +21,15 @@ As a first step, the HubRise integration must be enabled on your Uber Eats accou
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
 
-- The URL link of the Uber Eats store you wish to connect. For example: [https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA](https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA).
-- Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
-- The order acceptance mode you want to use for your store: manual accept or offered state mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
-- The service provided by Uber Eats, with or without delivery.
+- The URL link to your restaurant page on the Uber Eats website. For example: [https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA](https://www.ubereats.com/gb/london/food-delivery/basilico-lavender-hill/tG_8KYb4RkaRPKOmZuERUA).
+- The order acceptance mode you want to use for your store: `Manual accept` or `Offered state` mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+- If you intend to switch off your Uber Eats tablet and only rely on your EPOS to accept orders, ask to `enable RD-optional`. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+- If you want to automatically cancel orders that cannot be sent to the EPOS, ask to `Enable auto-cancel`. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+- The service type(s) you support on Uber Eats: Uber Delivery, Restaurant delivery, Takeaway, Eat-in. For more information, see [Service Types](/apps/uber-eats/terminology#service-types).
+- If your clients can select Disposable Items on your Uber Eats store, inform us as it needs to be configured to reach your EPOS. For more information, see [Special Items](/apps/uber-eats/configuration#special-items).
 - If you use product-level comments on your Uber Eats store, inform us if you want to keep using them, otherwise they will be disabled by default. For more information on managing product-level comments on HubRise, see [Product-Level Comments](/apps/uber-eats/map-ref-codes#product-level-comments).
+- If your Uber Eats store is already connected to another middleware or EPOS.
+- Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
 
 With this information in hand, the Uber Eats integration team will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
 
@@ -53,13 +57,11 @@ With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge
 
 After connecting the bridge, you need to configure a few parameters on the Configuration page to send orders correctly to your EPOS.
 
-For more information about the Configuration page and how to navigate to it, see [User Interface](/apps/uber-eats/user-interface/#configuration-page). For details on how to configure the parameters of the Uber Eats Bridge, see [Configuration](/apps/uber-eats/configuration).
+For more information about the Configuration page and how to navigate to it, see [Configuration page](/apps/uber-eats/user-interface/#configuration-page). For details on how to configure the parameters of the Uber Eats Bridge, see [Configuration](/apps/uber-eats/configuration).
 
-## 4. Map Products to Ref Codes
+## 4. Map Products Ref Codes
 
-If you use Uber Eats with an EPOS, you need to map all the products in your Uber Eats menu to their corresponding ref codes. This ensures that your EPOS can identify every item correctly.
-
-To learn how to map ref codes on Uber Eats, see [Map Ref Codes](/apps/uber-eats/map-ref-codes).
+Most apps require a ref code for each product to process orders correctly. To learn how to map ref codes on Uber Eats, see [Map Ref Codes](/apps/uber-eats/map-ref-codes).
 
 ## 5. Receive Test Orders
 

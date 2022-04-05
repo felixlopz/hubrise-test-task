@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: Zelty - Mapping Ref Codes in HubRise
-  description: The mapping ref codes page informs users on how to find ref codes on Zelty EPOS to map them on other apps in the context of an integration via HubRise.
+  title: Map Ref Codes | Zelty | HubRise
+  description: Instructions on mapping Zelty product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 After connecting your Zelty EPOS to your HubRise account, you can sync information between them. For it to work however, certain steps need to be taken. Items in the Zelty EPOS are identified by unique codes. When you set up other apps to connect via HubRise, you need to provide these codes.
@@ -72,7 +72,7 @@ To export the entire menu in an external file:
 ## Payment Methods
 
 Your Zelty EPOS offers various payment methods, including cash and online payment as well as client account.
-It might be necessary to specify the corresponding payment method code for each payment method allowed in the system to connect via HubRise. You will need ask Zelty for it.
+It might be necessary to specify the corresponding payment method code for each payment method allowed in the system to connect via HubRise. You will need to ask Zelty for it.
 
 ## Service Types
 

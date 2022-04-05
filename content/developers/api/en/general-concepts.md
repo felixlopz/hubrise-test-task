@@ -3,7 +3,7 @@ title: General Concepts
 position: 1
 layout: documentation
 meta:
-  title:
+  title: General Concepts | API | HubRise
   description:
 ---
 
@@ -11,7 +11,7 @@ This chapter takes a close look at the API. If you're looking for a brief introd
 
 ## 1. Endpoints
 
-HubRise API is based on a REST protocol, where methods such as POST, GET, PATCH/PUT and DELETE let you create, retrieve, list, update and delete resources. Data is transmitted in the JSON format.
+HubRise API is based on REST. It uses POST, GET, PATCH, PUT and DELETE HTTP methods to create, retrieve, list, update and delete resources. Data is transmitted in the JSON format.
 
 An **endpoint** is an API operation. It comprises a URL and HTTP method. Endpoints URLs are rooted at https://api.hubrise.com/v1.
 
@@ -24,17 +24,19 @@ GET https://api.hubrise.com/v1/location/orders
 X-Access-Token: [your_access_token]
 ```
 
-Access tokens are acquired via OAuth 2.0. See [Authentication](/developers/authentication).
+Access tokens are created via OAuth 2.0. See [Authentication](/developers/api/authentication).
 
-**Note**: further in this documentation, the root part of the request URLs will be omitted. In the example above, we would simply use: _GET /location/orders_
+**Note**: further in this documentation, the root part of the request URLs will be omitted. For example, we will use `GET /location/orders` in lieu of `GET https://api.hubrise.com/v1/location/orders`.
 
 ## 2. Pagination
 
-Index endpoints (eg `GET /location/orders`) paginate the results. A maximum of 100 results are returned.
+**Index endpoints** return a collection of results. For example, `GET /location/orders` is an index endpoint.
 
-If the results cannot be returned in a single response, the endpoint returns the first set of results, along with a `X-Cursor-Next` response header. To get the next set of results, a new request including the previously returned header must be made. Repeat until no `X-Cursor-Next` header is sent back, which indicates that the last set has been returned.
+Index endpoints paginate results. A maximum of 100 results are returned in a response. If more results exist, the request returns the first set of results along with a `X-Cursor-Next` response header.
 
-Every index endpoint accepts 2 optional parameters:
+To get the next set of results, send a new request and include the previously returned cursor value in the `cursor` URL query parameter. Repeat until the request returns no cursor value, which indicates the last set has been returned.
+
+Index endpoints accept 2 optional parameters:
 
 - `count`: the maximum number of results to return per request. The default (and maximum) value is 100. Decrease this value if needed.
 
@@ -72,9 +74,19 @@ Body:
 
 ## 3. Rate Limiting
 
-If a connection makes too many requests in a short time window, HubRise will return a `429` (Too Many Requests) HTTP status code.
+If a connection makes too many requests over a defined time window, HubRise will return a `429` (Too Many Requests) HTTP status code. This keeps HubRise performance consistent for all users.
 
-A connection is limited to 500 requests per 60-second window.
+A connection should not exceed any of the following limits:
+
+- 500 requests over a 1-minute window
+- 2,500 requests over a 1-hour window
+- 10,000 requests over a 1-day window
+
+There is an additional limit of 10 requests per minute that applies to high load queries such as `GET /catalogs/:id`, `GET /orders` or `GET /customer_lists/:id/customers`. Make sure to throttle your request speed if you need to retrieve many orders or customers in a row.
+
+Time windows start at a round minute, hour, and day respectively. For example, 1-hour windows begin at the start of an hour. So if a connection has used its hourly limit by 10:35, it will remain throttled until the start of the next hour, ie 11:00.
+
+If you need to send more requests, you may be doing something wrong! Contact us at integration@hubrise.com for advice.
 
 ## 4. Overriding HTTP Method
 
@@ -189,4 +201,64 @@ The response may also include a field breakdown, like this:
   ],
   "error_type": "unprocessable_entity"
 }
+```
+
+## 8. Private Refs
+
+HubRise allows API clients to attach their own internal references to various objects, such as orders, order items, customers, and a few others. This can be convenient when clients need to link HubRise objects to their internal objects, but they cannot store HubRise ids.
+
+A private ref is only visible to the client that set it. For example, let's assume client A assigns a private ref to an order:
+
+**CLIENT A**: `PATCH /location/orders/sd89mm`
+
+```json
+{
+  "private_ref": "6986"
+}
+```
+
+When client A later retrieves the order, the `private_ref` is included in the response:
+
+**CLIENT A**: `GET /location/orders/sd89mm`
+
+#### Response:
+
+```json
+{
+  "private_ref": "6986",
+  "status": "new",
+  ...
+}
+```
+
+However, when client B retrieves that same order, no `private_ref` is included in the response:
+
+**CLIENT B**: `GET /location/orders/sd89mm`
+
+#### Response:
+
+```json
+{
+  "private_ref": null,
+  "status": "new",
+  ...
+}
+```
+
+Furthermore, client B can set its own private ref on this order, without affecting client A's private ref. They are indeed private!
+
+HubRise indexes private refs efficiently, which allows clients to use private refs in lieu of ids in some endpoints:
+
+**CLIENT A**: `GET /location/orders?private_ref=6986`
+
+#### Response:
+
+```json
+[
+  {
+    "private_ref": "6986",
+    "status": "new",
+    ...
+  }
+]
 ```

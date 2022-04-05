@@ -3,8 +3,8 @@ title: Map Ref Codes
 position: 3
 layout: documentation
 meta:
-  title: TastyCloud Connection to HubRise Configuration
-  description: Instructions on how to configure TastyCloud for optimal connection to HubRise and other platforms.
+  title: Map Ref Codes | TastyCloud | HubRise
+  description: Instructions on mapping TastyCloud product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
 Once your TastyCloud website is connected with HubRise, some configuration is required on TastyCloud to ensure that orders can be processed by the other apps connected to HubRise.
@@ -56,7 +56,7 @@ Follow the instructions in the previous section. In the **Mapping des produits**
 
 ## Discounts (Promotions)
 
-Promotions in TastyCloud are called discounts in HubRise. Discounts cannot need be mapped on TastyCloud, which means that they are sent ot HubRise without a ref code. This may create issues with some EPOS systems. Refer to your connected EPOS documentation on the HubRise website to verify if this works for you, or contact TastyCloud support.
+Promotions in TastyCloud are called discounts in HubRise. Discounts cannot be mapped on TastyCloud, which means that they are sent to HubRise without a ref code. This may create issues with some EPOS systems. Refer to your connected EPOS documentation on the HubRise website to verify if this works for you, or contact TastyCloud support.
 
 ## Payment Methods
 
