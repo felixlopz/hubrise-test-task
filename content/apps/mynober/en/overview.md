@@ -5,6 +5,10 @@ layout: documentation
 meta:
   title: Overview | MynOber | HubRise
   description: MynOber overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+gallery:
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
 path_override: /
 app_info:
   category: Online Ordering
@@ -32,7 +36,7 @@ MynOber is available in several European countries. It is not yet available in F
 
 ## Integration Features
 
-Connecting MynOber to HubRise allows your EPOS to:
+Connecting MynOber to HubRise allows your online ordering solution to:
 
 - Push orders into HubRise, including order status.
 - Pull orders from HubRise, including order status.

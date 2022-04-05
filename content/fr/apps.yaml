@@ -297,7 +297,7 @@ content:
           documentation: /apps/mynober
           logo: mynober.png
           title: MynOber
-          description: MynOber est une solution de commande par QR code, commande en ligne et commande sur kiosque pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une solution d'encaissement tierce.
+          description: MynOber propose une solution de commande en ligne, un kiosque de commande et un système d'encaissement simplifié pour l'hôtellerie et la restauration. MynOber peut être utilisé comme solution autonome ou combiné avec une autre solution d'encaissement.
           additional_info:
         - website: https://obypay.fr
           documentation: /apps/obypay
