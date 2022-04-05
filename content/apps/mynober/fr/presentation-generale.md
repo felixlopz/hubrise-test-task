@@ -23,15 +23,13 @@ app_info:
 
 ## Description
 
-MynOber est une solution de commande en ligne destinée aux restaurateurs.
+MynOber est une solution de commande en ligne pour les restaurateurs et les commerces de détail. Le back office de MynOber fait également office de POS avec fonctionnalités limitées, mais simple d'utilisation.
 
-Le client peut installer une application sur son smartphone, sans créer de compte, ou visiter le site internet de l'établissement, pour accéder au menu et commander.
+Les consommateurs commandent en ligne depuis leur smartphone, ou en téléchargeant l'application mobile MynOber. Depuis l'application, les consommateurs peuvent appeler un serveur ou un vendeur, demander la note, payer en ligne et consulter l'historique des commandes. Ils peuvent également recevoir une notification dès que leur commande est prête.
 
-L'application MynOber permet d'appeler un serveur, de demander l'addition, de payer en ligne, et de consulter l'historique des commandes. Le client peut choisir de recevoir une notification quand sa commande est prête.
+MynOber propose aussi aux commerçants d'installer un kiosque de commande dans leur établissement.
 
-MynOber propose aussi aux restaurateurs d'installer un kiosque dans leur établissement, permettant au client de réaliser et payer sa commande en toute autonomie.
-
-MynOber est présent dans plusieurs pays européens, mais n'est pas présent en France.
+MynOber est présent dans plusieurs pays européens. Il n'est pas commercialisé en France pour le moment.
 
 ## Fonctionnalités de l'intégration
 
