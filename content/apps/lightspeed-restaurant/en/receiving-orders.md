@@ -1,6 +1,6 @@
 ---
 title: Receiving Orders
-position: 7
+position: 9
 layout: documentation
 meta:
   title: Receiving Orders | Lightspeed Restaurant | HubRise
@@ -17,9 +17,11 @@ Lightspeed Restaurant can receive the complete information about items and optio
 
 Every item on Lightspeed must have a ref code. Orders containing items with incorrect or missing ref codes are rejected by the EPOS. For this reason, when sending an order to the EPOS, Lightspeed Restaurant Bridge skips all items without a ref code.
 
-## Order Statuses
+## Order Status
 
-To be done
+Lightspeed notifies HubRise when an order is received or rejected by sending the statuses `SUCCESS` and `FAILURE`, respectively.
+
+Additionally, Lightspeed notifies HubRise when an order is ready for pick-up.
 
 ## Payments
 
@@ -27,7 +29,7 @@ Lightspeed does not support split payments. Therefore, when an order contains mu
 
 The ref code of the payment is used to map the HubRise order to the correct payment method in Lightspeed. Lightspeed Restaurant Bridge ignores payments without a ref code.
 
-To check the ref codes of the payment methods available in your Lightspeed back office, follow the steps in [Map Ref Codes](/apps/lightspeed-restaurant/map-ref-codes#payment-methods).
+To learn how to check the ref codes of the payment methods available in your Lightspeed back office, see [Map Ref Codes](/apps/lightspeed-restaurant/map-ref-codes#payment-methods).
 
 ### Handling Price Differences
 
@@ -36,13 +38,19 @@ When the total payment amount does not match the total price for the order as ca
 - If the total payment amount is greater than the expected amount, Lightspeed rejects the order.
 - If the total payment amount is less than the expected amount, Lightspeed accepts the order. However, the order remains open for payment in the EPOS.
 
+---
+
+**Related FAQ**: <Link to="/apps/lightspeed-restaurant/faqs/handle-price-differences/">How Do I Troubleshoot Price Difference Errors?</Link>
+
+---
+
 ## Service Types
 
 Lightspeed Restaurant requires each service type (delivery, collection, eat-in) to be defined as an account profile.
 
 The ref code of the service type is used to map the HubRise order to the correct account profile on Lightspeed.
 
-To check the ref codes of the service types available in your Lightspeed back office, follow the steps in [Map Ref Codes](/apps/lightspeed-restaurant/map-ref-codes#service-types).
+To learn how to check the ref codes of the service types available in your Lightspeed back office, see [Map Ref Codes](/apps/lightspeed-restaurant/map-ref-codes#service-types).
 
 ## Customer Information
 

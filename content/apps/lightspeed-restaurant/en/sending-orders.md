@@ -1,6 +1,6 @@
 ---
 title: Sending Local Orders
-position: 8
+position: 10
 layout: documentation
 meta:
   title: Sending Local Orders | Lightspeed Restaurant | HubRise
@@ -18,7 +18,7 @@ To start pulling local Lightspeed orders into HubRise, you need to activate this
 1. From the **Orders pulled from Lightspeed** section, select the behaviour **Pull Lightspeed sales on payment**.
 1. Click **Save** to confirm.
 
-![Enable the feature to pull local Lightspeed orders to HubRise from the configuration page of Lightspeed Restaurant Bridge](../images/020-en-bridge-configuration.png)
+![Enable the feature to pull local Lightspeed orders to HubRise from the configuration page of Lightspeed Restaurant Bridge](../images/014-en-configuration-page.png)
 
 Lightspeed Restaurant Bridge fetches new orders every 30 seconds.
 

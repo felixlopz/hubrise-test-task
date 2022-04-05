@@ -1,13 +1,13 @@
 ---
 title: Why Are Some Orders Not Received Correctly in Lightspeed?
-position: 1
+position: 4
 layout: documentation
 meta:
   title: Troubleshooting Orders | Lightspeed Restaurant | HubRise
   description: Typical reasons why orders are not correctly sent to Lightspeed Restaurant, some troubleshooting strategies and how to fix the issues.
 ---
 
-There might be different reasons why an order is not successfully transferred to your Lightspeed Restaurant EPOS. In this page, we discuss some of the typical cases.
+There might be different reasons why an order is not successfully sent to your Lightspeed Restaurant EPOS. In this page, we discuss some of the typical cases.
 
 ## Incorrect Ref Codes
 

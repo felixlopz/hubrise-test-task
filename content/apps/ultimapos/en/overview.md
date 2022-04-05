@@ -17,7 +17,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/ultimapos" addLocalePrefix={false}>in French</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/ultimapos" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
