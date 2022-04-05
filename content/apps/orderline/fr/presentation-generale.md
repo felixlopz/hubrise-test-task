@@ -6,7 +6,7 @@ meta:
   title: Présentation générale | OrderLine | HubRise
   description: Présente l'utilisation et les fonctionnalités d'OrderLine permettant de gérer les boutiques physiques ou en ligne.
 gallery:
-  - 001-en-2x-desktop-view.png
+  - __gallery-001.png
 path_override: /
 app_info:
   category: Gestion des commandes
@@ -16,7 +16,7 @@ app_info:
   contact: support@hubrise.com
 ---
 
-[comment]: # 'Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware'
+[comment]: # "Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware"
 
 OrderLine permet de recevoir et d'imprimer les commandes venant d'autres applications connectées à HubRise, telles que :
 

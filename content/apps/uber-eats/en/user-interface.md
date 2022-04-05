@@ -43,7 +43,7 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 ![Order logs page on Uber Eats Bridge](../images/004-en-order-logs.png)
 
-Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see the [HubRise documentation](/docs/hubrise-logs/).
+Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
 ## System Request Page
 
@@ -64,7 +64,5 @@ Clicking on the Uber Eats and HubRise logos on top of any page of Uber Eats Brid
 ## Configuration Page
 
 To access the Uber Eats Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
-
-![Configuration page on Uber Eats Bridge](../images/002-en-configuration-page.png)
 
 From this page, you will be able to customise the behaviour of Uber Eats Bridge. For more details, see [Configuration](/apps/uber-eats/configuration).

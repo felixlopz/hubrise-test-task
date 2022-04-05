@@ -4,14 +4,14 @@ position: 1
 layout: documentation
 meta:
   title: Guide de style | HubRise
-  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style contient des recommendations éditoriales pour contribuer à la documentation.
+  description: Tout le monde peut contribuer à la documentation en ligne HubRise. Le guide de style contient des recommandations éditoriales pour contribuer à la documentation.
 ---
 
-Ce guide de style contient des recommendations éditoriales pour les contributeurs de la documentation HubRise.
+Ce guide de style contient des recommandations éditoriales pour les contributeurs de la documentation HubRise.
 
 ## Introduction
 
-Lorsque le guide de style HubRise ne donne pas de recommendation particulière sur un cas spécifique, le [Guide de Style des Développeurs Google](https://developers.google.com/style) peut être utilisé comme référence.
+Lorsque le guide de style HubRise ne donne pas de recommandation particulière sur un cas spécifique, le [Guide de Style des Développeurs Google](https://developers.google.com/style) peut être utilisé comme référence.
 
 ## Langue
 
@@ -23,7 +23,7 @@ Si l'interface de la solution documentée n'est pas disponible en français, uti
 
 ### Vouvoiement
 
-Utilisez le vouvoiement, et pour les instructions, privilégiez l'impératif.
+Utilisez le vouvoiement. Pour les instructions, privilégiez l'impératif.
 
 > Incorrect : Vous devez cliquer sur **Se connecter**.
 
@@ -53,9 +53,9 @@ Ne pas mettre de majuscule aux titres. Accentuer les majuscules.
 
 Écrivez une courte liste sous forme de phrase. Si la liste a plus de trois éléments ou qu'elle contient des instructions longues, écrivez-la sous forme de liste à puces.
 
-Dans une liste à puces, chaque élément de la liste commence par une majuscule et se termine par un point, et non par un point-virgule. S'il s'agit d'un mot isolé, ne mettez aucune ponctuation à la fin de l'élément de la liste. 
+Dans une liste à puces, chaque élément de la liste commence par une majuscule et se termine par un point, et non par un point-virgule. S'il s'agit d'un mot isolé, ne mettez aucune ponctuation à la fin de l'élément de la liste.
 
-Par exemple, écrivez ainsi une courte liste : _Une commande prend successivement les statuts **Reçue**, **En attente**, et **Validée**._
+Par exemple, écrivez ainsi une courte liste : _Une commande prend successivement les statuts **Reçue**, **En attente** et **Validée**._
 
 Pour une liste plus longue, procédez comme suit :
 
@@ -88,11 +88,11 @@ Utilisez Les renvois pour guider les lecteurs vers une information ciblée dans 
 
 ### Liens
 
-Utilisez des chemins relatifs pour les liens internes ou les renvois, et des chemins absolus pour les liens externes. Les chemins relatifs ouvrent le lien dans le même onglet, et les chemins absolus dans un nouvel onglet.
+Utilisez des chemins relatifs pour les liens internes ou les renvois et des chemins absolus pour les liens externes. Les chemins relatifs ouvrent le lien dans le même onglet et les chemins absolus dans un nouvel onglet.
 
 ## Lisibilité
 
-La documentation doit être facile à "scanner". Assurez-vous que les lecteurs trouvent rapidement l'aide nécessaire. Adoptez un style concis, simple, et objectif.
+La documentation doit être facile à "scanner". Assurez-vous que les lecteurs trouvent rapidement l'aide nécessaire. Adoptez un style concis, simple et objectif.
 
 Pour rendre votre texte plus lisible, utilisez :
 
@@ -134,11 +134,11 @@ Positionnez les conditions avant les instructions, afin de permettre au lecteur 
 
 ### Synonymes
 
-Choisissez un terme unique pour chaque concept, et utilisez toujours ce terme. Évitez d'employer des synonymes, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
+Choisissez un terme unique pour chaque concept et utilisez toujours ce terme. Évitez d'employer des synonymes, qui pourraient perdre le lecteur. Votre texte n'a pas un objectif littéraire, mais explicatif.
 
 ### Verbe "faire"
 
-Evitez l'emploi du verbe "faire", et préférez-lui un verbe décrivant précisément l'action à réaliser.
+Evitez l'emploi du verbe "faire" et préférez-lui un verbe décrivant précisément l'action à réaliser.
 
 ## Mise en forme
 
@@ -148,11 +148,11 @@ Utilisez l'écriture en gras pour les éléments d'interface, tels que les bouto
 
 ### Italique
 
-Utilisez l'écriture italique pour définir les acronymes, et pour les exemples.
+Utilisez l'écriture italique pour définir les acronymes et pour les exemples.
 
 ### Virgules
 
-Pour les listes de trois éléments ou plus, ajoutez une virgule avant le dernier élément. Par exemple : _Mon repas était composé d'une entrée, d'un plat principal, d'un dessert, et d'un café._
+Pour les listes de trois éléments ou plus, n'ajoutez pas de virgule avant le dernier élément. Par exemple : _Mon repas était composé d'une entrée, d'un plat principal, d'un dessert et d'un café._
 
 ### Parenthèses
 
@@ -174,7 +174,7 @@ Lorsque vous décrivez une action à réaliser, indiquez d'abord l'endroit où l
 
 ### Actions optionnelles
 
-Si une action à réaliser est optionnelle, ajoutez *Optionnel :* avant la description de cette action.
+Si une action à réaliser est optionnelle, ajoutez _Optionnel :_ avant la description de cette action.
 
 > Incorrect : (Optionnel) Cliquez sur **Se connecter**.
 
@@ -190,7 +190,7 @@ Pour les pages de la documentation, le méta-titre est composé du titre de la p
 
 Si le méta-titre ainsi obtenu comporte plus de 60 caractères, essayez d'en raccourcir la première partie, en résumant le titre de la page.
 
-Les méta-titres suivent les même règles de capitalisation et de ponctuation que les autres titres. 
+Les méta-titres suivent les même règles de capitalisation et de ponctuation que les autres titres.
 
 > Correct: Présentation générale | Lightspeed K Series | HubRise
 

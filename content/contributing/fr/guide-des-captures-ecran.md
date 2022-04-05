@@ -3,15 +3,15 @@ title: Screenshots Guide (en anglais)
 position: 3
 layout: documentation
 meta:
-  title: Screenshots Guide - HubRise
+  title: Screenshots Guide | HubRise
   description: Guidelines to include screenshots in the HubRise documentation.
 ---
 
-[comment]: # (This page is a duplicate from .../contributing/en)
+[comment]: # "This page is a duplicate from .../contributing/en"
 
 ## General Recommendations
 
-For website screenshots,  always resize your browser width to 1200px before taking the capture.
+For website screenshots, always resize your browser width to 1200px before taking the capture.
 
 Screenshots should ideally be taken on 4K High Definition screens.
 
@@ -27,7 +27,7 @@ Placing a screenshot or animated GIF may be accompanied by "_This example demons
 
 When working on a document, store source images in the **Screenshots** folder of the corresponding app in the Drive.
 
-Screenshots should always be taken in both English and French when applicable. Follow the image file naming convention and add [screenshot] at the very beginning of the file name. For more information see [Image Naming Convention](#naming-convention).
+Screenshots should always be taken in both English and French when applicable. Follow the image file naming convention and add [screenshot] at the very beginning of the file name. For more information, see [Image Naming Convention](#naming-convention).
 
 ## Naming Convention
 

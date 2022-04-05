@@ -3,33 +3,51 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Overview | MynOber | HubRise
-  description: MynOber overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+title: Overview | MynOber | HubRise
+description: MynOber overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - 001-en-mynober-cloud-hubrise-module.png
-  - 002-en-mynober-cloud-menu-items.png
-path_override: /
-app_info:
-  category: Food Ordering Platforms
-  availability: Netherlands
-  website: https://mynober.nl
-  contact: support@mynober.nl
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
+  path_override: /
+  app_info:
+  category: Online Ordering
+  availability: Europe
+  price_range:
+  website: https://mynober.nl/en
+  contact: info@mynober.nl / +31 88 923 8300
+---
+
+---
+
+**IMPORTANT NOTE**: Full documentation of this integration will be available soon.
+
 ---
 
 ## Description
 
-MynOber provides several services for hospitality businesses, including QR ordering, online ordering and kiosk self-ordering solutions, as well as EPOS solutions. MynOber simplifies online ordering by letting customers place orders from mobile apps and self-ordering kiosks, alongside traditional web channels.
+MynOber is an ordering solution for restaurants and retail stores. MynOber back-office includes a lightweight and easy-to-use EPOS.
+
+With MynOber, customers can order online from their smartphone or download the MynOber mobile application. From the application, customers can call a waiter, request the bill, pay online and view their order history. They can also receive notifications when their order is ready.
+
+MynOber also offers self ordering kiosks.
+
+MynOber is available in several European countries. It is not yet available in France.
 
 ## Integration Features
 
 MynOber connects to your HubRise account through the MynOber Cloud web app.
 
-Connecting MynOber Cloud allows you to:
+Connecting MynOber to HubRise allows your online ordering solution to:
 
-- Push orders from MynOber to HubRise.
-- Pull orders from HubRise to your MynOber connected EPOS.
-- Push the catalog from HubRise to MynOber.
-- Pull the catalog from MynOber to HubRise.
+- Push orders into HubRise, including order status.
+- Pull orders from HubRise, including order status.
+- Push customer information into HubRise.
+- Pull customer information from HubRise.
+- Push the menu into a HubRise catalog.
+- Pull the menu from a HubRise catalog.
+
+MynOber can be connected to HubRise from the MynOber back office.
 
 ## Why Connect?
 
@@ -37,6 +55,8 @@ Connecting your MynOber solution to HubRise allows you to receive MynOber orders
 
 You will be able to manage MynOber orders alongside other orders, using your own tools. MynOber orders will flow through your existing setup, as all other orders already do.
 
+Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing) solutions, business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+
 ## Prerequisites
 
-To establish a connection between MynOber and HubRise, you should contact MynOber support at [support@mynober.nl](mailto:support@mynober.nl).
+To establish a connection between MynOber and HubRise, you must have an existing MynOber account.
