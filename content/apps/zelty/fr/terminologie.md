@@ -1,6 +1,6 @@
 ---
 title: Terminologie
-position: 6
+position: 7
 layout: documentation
 meta:
   title: Terminologie | Zelty | HubRise
@@ -13,8 +13,8 @@ HubRise et Zelty utilisent chacun leur propre terminologie. Un même concept peu
 | --------------- | --------------- | ---------------------------------------------- |
 | Enseigne        | Compte          | Appellation commerciale.                       |
 | Restaurant      | Point de vente  | Le restaurant proprement dit.                  |
-| Carte           | Catalogue       | L'ensemble de la carte.                        |
-| Catalogue       | Sans objet      | Sous-ensemble de la carte complète à exporter. |
+| Carte           | Catalogue       | Tous vos produits.                             |
+| Catalogue       | Catalogue       | Une partie de vos produits.                    |
 | Tag             | Catégorie       | Type de produit (entrée, plat principal, etc.) |
 | Menu            | Promotion       | Offre spéciale ou remise offerte.              |
 | Option          | Liste d'options | Liste des options disponibles.                 |
