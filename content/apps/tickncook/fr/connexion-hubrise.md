@@ -3,35 +3,40 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connecter TicknCook à HubRise - Connexion
-  description: Étapes pour établir une connexion entre TicknCook et HubRise. Connectez votre caisse et synchronisez vos données avec d'autres applications.
+  title: Connexion à HubRise | TicknCook | HubRise
+  description: Comment connecter TicknCook et HubRise en quelques étapes simples. Connectez votre caisse et synchronisez vos données avec d'autres applications.
 ---
 
-Pour connecter TicknCook à HubRise, il suffit de suivre quelques étapes.
+---
+
+**REMARQUE IMPORTANTE :** Si vous ne possédez pas encore de compte HubRise, commencez par en ouvrir un sur la [page d'inscription à HubRise](https://manager.hubrise.com/signup). L'inscription ne prend que quelques minutes !
+
+---
 
 ## Connecter TicknCook
 
-Il existe deux manières d'établir la connexion entre TicknCook et HubRise. Pour la première, suivez les étapes suivantes :
+Vous pouvez connecter TicknCook à HubRise de deux manières différentes :
+
+- Connexion depuis HubRise.
+- Connexion depuis TicknCook, si vous avez déjà un compte TicknCook.
+
+Pour établir la connexion depuis HubRise, suivez les étapes suivantes :
 
 1. Depuis votre espace HubRise, sélectionnez **CONNEXIONS** dans le menu de gauche.
-1. Sélectionnez **Voir les apps disponibles**.
-1. Sélectionnez **TicknCook**. Une modale de confirmation s'affiche.
-1. Sélectionnez **Connecter**.
-1. Choisissez le point de vente que vous désirez connecter et sélectionnez **Autoriser** pour donner à Nestor l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, sélectionnez **Suivant** afin d'afficher les listes déroulantes correspondantes avant de sélectionner **Autoriser**.
-1. En cas de besoin, le support de TicknCook peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/tickncook/connexion-hubrise#donner-acc-s-au-support-de-tickncook).
+2. Sélectionnez **Voir les apps disponibles**.
+3. Sélectionnez **TicknCook**. Une modale de confirmation s'affiche.
+4. Sélectionnez **Connecter**.
+5. Choisissez le point de vente que vous désirez connecter et sélectionnez **Autoriser** pour donner à Nestor l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, sélectionnez **Suivant** afin d'afficher les listes déroulantes correspondantes avant de sélectionner **Autoriser**.
 
-Un autre procédé est le suivant :
+Pour établir la connexion depuis TicknCook, suivez les étapes suivantes :
 
-1. Sur TicknCook, dans le menu latéral, sélectionnez **POINTS DE VENTE**.
-1. Sélectionnez **Ajouter un point de vente HubRise**.
-1. Choisissez le point de vente que vous désirez connecter et sélectionnez **Autoriser** pour donner à Nestor l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, sélectionnez **Suivant** afin d'afficher les listes déroulantes correspondantes avant de sélectionner **Autoriser**.
-1. En cas de besoin, le support de TicknCook peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/tickncook/connexion-hubrise#donner-acc-s-au-support-de-tickncook).
+1. Dans le back office TicknCook, ouvrez le menu burger et sélectionnez **SERVICES TIERS**.
+2. Dans la section **HUBRISE**, cliquez sur **Ajouter un point de vente**.
+3. Choisissez le point de vente à connecter puis cliquez sur **Autoriser**. Vous êtes redirigé vers l'interface HubRise.
+4. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
+5. Cliquez sur **Autoriser**.
 
----
-
-**REMARQUE IMPORTANTE :** Vous devrez vous connecter à un compte HubRise existant, ou créer un nouveau compte pour terminer d'établir la connexion. Pour plus d'informations sur la manière de créer un profil utilisateur ou vous connecter à HubRise, consultez notre [Guide de prise en main](/docs/getting-started/).
-
----
+En cas de besoin, le support de TicknCook peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/tickncook/connexion-hubrise#donner-acc-s-au-support-de-tickncook).
 
 ## Donner accès au support de TicknCook
 
@@ -44,6 +49,6 @@ Il est conseillé de donner au support de TicknCook l'accès à votre compte Hub
 
 ## Déconnecter TicknCook
 
-1. Dans le menu latéral, sélectionnez **POINTS DE VENTE**.
-1. Sur la ligne de votre point de vente, sélectionnez **Supprimer**. Une modale de confirmation s'affiche.
-1. Sélectionnez **Confirmer**.
+1. Dans le back office TicknCook, ouvrez le menu burger et sélectionnez **POINTS DE VENTE**.
+2. Sur la ligne de votre point de vente, sélectionnez **Supprimer**. Une modale de confirmation s'affiche.
+3. Sélectionnez **Confirmer**.
