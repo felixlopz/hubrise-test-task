@@ -30,7 +30,7 @@ Pour établir la connexion depuis HubRise, suivez les étapes suivantes :
 
 Pour établir la connexion depuis TicknCook, suivez les étapes suivantes :
 
-1. Dans le back office TicknCook, ouvrez le menu burger et sélectionnez **SERVICES TIERS**.
+1. Dans TicknCook, ouvrez le menu burger et sélectionnez **SERVICES TIERS**.
 2. Dans la section **HUBRISE**, cliquez sur **Ajouter un point de vente**.
 3. Choisissez le point de vente à connecter puis cliquez sur **Autoriser**. Vous êtes redirigé vers l'interface HubRise.
 4. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
@@ -49,6 +49,6 @@ Il est conseillé de donner au support de TicknCook l'accès à votre compte Hub
 
 ## Déconnecter TicknCook
 
-1. Dans le back office TicknCook, ouvrez le menu burger et sélectionnez **POINTS DE VENTE**.
-2. Sur la ligne de votre point de vente, sélectionnez **Supprimer**. Une modale de confirmation s'affiche.
-3. Sélectionnez **Confirmer**.
+1. Dans TicknCook, ouvrez le menu burger et sélectionnez **POINTS DE VENTE**.
+2. Sur la ligne correspondant au point de vente, cliquez sur **Supprimer**.
+3. Cliquez sur **Confirmer**.
