@@ -3,11 +3,11 @@ title: Pulling The Menu
 position: 6
 layout: documentation
 meta:
-  title: Just Eat Connection to HubRise - Pulling The Menu
+  title: Pulling The Menu | Just Eat Flyt | HubRise
   description: Find out how to publish your menu to the Just Eat platform, how items and options are encoded, and which features are supported.
 ---
 
-Just Eat does not provide a back office to populate and customise the items in your menu. 
+Just Eat does not provide a back office to populate and customise the items in your menu.
 You can use Just Eat Flyt Bridge to pull your HubRise catalog directly into your Just Eat store with a single click.
 
 This page explains how you can pull and update your menu on Just Eat, and what information about HubRise catalogs can be pulled into the platform.
@@ -25,8 +25,13 @@ Once your catalog is populated on HubRise, you can publish it on your Just Eat s
 1. Log in to your HubRise account.
 1. Select the location connected with your Just Eat store.
 1. Select **Just Eat Flyt Bridge** from the list of connected apps.
-1. From the Just Eat Flyt Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
-1. On the configuration page, from the **Actions** section at the bottom of the page, select **Publish menu on the platform**.
+1. In Just Eat Flyt Bridge, click the **Actions** tab, then select **Publish menu on the platform**.
+
+---
+
+**IMPORTANT NOTE:** Publishing the HubRise catalog to Just Eat will erase your current menu on your Just Eat store. This action cannot be reverted.
+
+---
 
 ## Technical Reference
 
@@ -34,10 +39,11 @@ The following sections describe in detail how HubRise catalogs are mapped to Jus
 
 ### Categories
 
-The categories in a HubRise catalog are mapped one-to-one to categories of products on Just Eat. 
+The categories in a HubRise catalog are mapped one-to-one to categories of products on Just Eat.
 The order in which categories and products appear on HubRise is maintained on Just Eat.
 
 For every category, the following HubRise fields are pulled into Just Eat:
+
 - `name`: The name of the category
 - `description`: The description of the category
 
@@ -47,14 +53,52 @@ Products in the `products` array of a HubRise catalog can have several skus. Thi
 
 For every `sku` object in a product, Just Eat Flyt Bridge pulls the following information into Just Eat:
 
-- `ref`: The ref of the sku, which will be passed along in orders         
-- `name`: The name of the sku             
-- `description`: The description of the parent product    
-- `price`: The price of the sku            
+- `ref`: The ref of the sku, which will be passed along in orders
+- `name`: The name of the sku
+- `description`: The description of the parent product
+- `price`: The price of the sku
 - `option_list_refs`: The list of options attached to the sku
-- image: The URL of the image of the parent product
+- `tags`: Tags describing the characteristics and restrictions of the product, such as allergens or spiciness. See [Product Tags](#product-tags).
+- `image`: The URL of the image of the parent product
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
+
+---
+
+**IMPORTANT NOTE:** Products without a ref code are not pushed to Just Eat. For more information, see [Why Are Some Products Not Exported](/apps/just-eat-flyt/faqs/products-not-exported/).
+
+---
+
+### Images
+
+Just Eat requires images to be 1024x768 pixels.
+
+### Product Tags
+
+The table below lists the tags that can be set on products.
+
+| Tag                                  | Description             |
+| ------------------------------------ | ----------------------- |
+| `alcoholic`                          | Contains alcohol.       |
+| `spicy_1`                            | Midly spicy.            |
+| `spicy_2`                            | Spicy.                  |
+| `spicy_3`                            | Very spicy.             |
+| `vegan`                              | Vegan dish.             |
+| `vegetarian`                         | Vegetarian dish.        |
+| `allergen_celery`                    | Contains this allergen. |
+| `allergen_crustaceans`               | Contains this allergen. |
+| `allergen_eggs`                      | Contains this allergen. |
+| `allergen_fish`                      | Contains this allergen. |
+| `allergen_gluten`                    | Contains this allergen. |
+| `allergen_lupin`                     | Contains this allergen. |
+| `allergen_milk`                      | Contains this allergen. |
+| `allergen_molluscs`                  | Contains this allergen. |
+| `allergen_mustard`                   | Contains this allergen. |
+| `allergen_nuts`                      | Contains this allergen. |
+| `allergen_peanuts`                   | Contains this allergen. |
+| `allergen_sesame_seeds`              | Contains this allergen. |
+| `allergen_soybeans`                  | Contains this allergen. |
+| `allergen_sulphur_dioxide_sulphites` | Contains this allergen. |
 
 ### Options
 
@@ -75,14 +119,4 @@ Deals and discounts are not supported on Just Eat. Therefore, deals and discount
 
 ### Availability
 
-From the configuration page of Just Eat Flyt Bridge, you can select the availability for your menu.
-
-You can choose to make your products available for delivery, collection, or both.
-
-You can also set the opening and closing times of your store for each day of the week. Customers will not be able to order from your Just Eat store outside of these time windows.
-
----
-
-**IMPORTANT NOTE:** By default, closing times for delivery will be set half an hour earlier on the Just Eat store than the value you set on Just Eat Flyt Bridge. Closing times for collection, instead, are not modified.
-
---- 
+Every time you push your HubRise catalog to Just Eat, you also update the availability of your menu, based on the values you set from the [configuration page](/apps/just-eat-flyt/configuration/#menu) of Just Eat Flyt Bridge.

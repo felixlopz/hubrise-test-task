@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Obypay | HubRise
-  description: Présentation générale de Obypay, les raisons de connecter votre caisse à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de Obypay, les raisons de connecter Obypay à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
 path_override: /
 app_info:
@@ -37,7 +37,7 @@ Obypay offre un back-office complet, qui permet de personnaliser l'apparence de 
 
 Connecter Obypay à HubRise permet à Obypay de :
 
-- Envoyer les commandes à HubRise.
+- Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les statuts de commande de HubRise.
 - Recevoir les informations clients de HubRise.
 
@@ -45,7 +45,7 @@ Obypay peut être connecté à HubRise depuis le back-office de Obypay.
 
 ## Pourquoi se connecter ?
 
-En connectant Obypay à HubRise, vos commandes ObyPay sont envoyées aux autres applications que vous utilisez de manière quotidienne, telles que votre logiciel de caisse, votre solution d'inventaire, ou votre imprimante connectée.
+En connectant Obypay à HubRise, vos commandes ObyPay sont envoyées aux autres applications que vous utilisez de manière quotidienne, telles que votre logiciel de caisse, votre solution d'inventaire, ou votre imprimante autonome.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
