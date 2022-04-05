@@ -9,7 +9,7 @@ meta:
 
 Dès que My Lemonade est connecté à HubRise, les commandes enregistrées sur My Lemonade sont envoyées automatiquement vers HubRise.
 
-### Liste des commandes
+## Liste des commandes
 
 Pour voir la liste des commandes sur My Lemonade :
 
@@ -17,7 +17,7 @@ Pour voir la liste des commandes sur My Lemonade :
 1.  Sélectionnez l'onglet correspondant au statut de la commande désirée : **Reçu**, **En préparation**, **Terminé** ou **Annulé**.
     ![Commandes - Liste des commandes](../images/008-fr-liste-commandes.png)
 
-### Détails d'une commande
+## Détails d'une commande
 
 Pour voir les détails d'une commande :
 
@@ -26,7 +26,7 @@ Pour voir les détails d'une commande :
 1.  Cliquez sur **Voir le détail**.
     ![Commandes - Détails d'une commande](../images/009-fr-details-commande.png)
 
-### Synchronisation des statuts de commande
+## Synchronisation des statuts de commande
 
 Les statuts de commande sont synchronisés dans les deux sens entre My Lemonade et HubRise :
 
