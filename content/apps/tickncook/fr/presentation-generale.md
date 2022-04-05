@@ -8,8 +8,6 @@ meta:
 gallery:
   - __gallery-fr-001.jpg
   - __gallery-fr-002.jpg
-  - 002-fr-tickncook-counter.jpg
-  - 003-fr-tickncook-kitchen.jpg
 path_override: /
 app_info:
   category: Ecran cuisine (KDS)
