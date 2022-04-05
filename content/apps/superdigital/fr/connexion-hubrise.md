@@ -17,13 +17,14 @@ meta:
 
 Pour connecter votre solution de commande en ligne SuperDigital.fr à HubRise, suivez les étapes suivantes :
 
-1. Dans votre espace SuperDigital.fr, sélectionnez **RestroPress** > **Settings** dans le menu latéral.
-1. Sélectionnez l'onglet **HubRise**.
-1. Cliquez sur **Connect to HubRise**. Vous êtes redirigé vers l'interface HubRise.
-1. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
-1. Cliquez sur **Autoriser**.
+1. Dans le menu latéral de votre espace SuperDigital.fr, sélectionnez **RestroPress** > **Settings**.
+2. Sélectionnez l'onglet **HubRise**.
+3. Cliquez sur **Connect to HubRise**. Vous êtes redirigé vers l'interface HubRise.
+4. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
+5. Cliquez sur **Autoriser**.
    ![Connexion - Page de connexion](../images/001-fr-page-connexion.png)
-1. En cas de besoin, l'éditeur de la solution SuperDigital.fr peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/superdigital/connexion-hubrise#donner-acc-s-au-support-de-superdigital-fr).
+
+En cas de besoin, l'éditeur de la solution SuperDigital.fr peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/superdigital/connexion-hubrise#donner-acc-s-au-support-de-superdigital-fr).
 
 ## Donner accès au support de SuperDigital.fr
 
@@ -36,6 +37,6 @@ Il est conseillé de donner à l'éditeur de la solution SuperDigital.fr l'accè
 
 ## Déconnecter SuperDigital.fr
 
-1. Dans le menu latéral, sélectionnez **RestroPress** > **Settings**.
-1. Sélectionnez l'onglet **HubRise**.
-1. Cliquez sur **Disconnect**.
+1. Dans le menu latéral de votre espace SuperDigital.fr, sélectionnez **RestroPress** > **Settings**.
+2. Sélectionnez l'onglet **HubRise**.
+3. Cliquez sur **Disconnect**.

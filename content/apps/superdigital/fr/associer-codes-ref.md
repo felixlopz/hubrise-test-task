@@ -7,21 +7,18 @@ meta:
   description: Instructions pour associer les codes ref des produits SuperDigital.fr avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
-Une fois SuperDigital.fr connecté à HubRise, vous devez configurer SuperDigital.fr afin que les différents éléments présents dans les commandes envoyées soient bien identifiés par vos autres applications connectées, telles que votre solution d'encaissement.
+Une fois SuperDigital.fr connecté à HubRise, vous devez configurer SuperDigital.fr afin que les différents éléments présents dans les commandes envoyées soient bien identifiés par les applications connectées, telles que votre solution d'encaissement.
 
-## Produits
+## Produits et SKUs
 
-Un produit dans HubRise correspond à un food item dans SuperDigital.fr. Pour retrouver le code ref d'un food item, suivez les étapes suivantes :
+Un produit dans HubRise correspond à un food item dans SuperDigital.fr, et une SKU correspond à une option.
 
-1. Dans le menu latéral, sélectionnez **Food Items**.
-1. Cliquez sur le nom du food item désiré. Le code ref s'affiche dans la section **Food Item Data**, dans le champ **Ref**.
+Pour modifier le code ref d'une option, suivez les étapes suivantes :
 
-## SKUs
-
-Une SKU dans HubRise correspond à une option dans SuperDigital.fr. Pour retrouver le code ref d'une option, suivez les étapes suivantes :
-
-1. Dans le menu latéral, sélectionnez **Food Items**.
-1. Cliquez sur le nom du food item désiré. Le code ref de l'option s'affiche dans la section **Food Item Data**, dans le champ **Ref**.
+1. Dans le menu latéral de SuperDigital.fr, sélectionnez **Food Items**.
+2. Cliquez sur le nom du food item souhaité.
+3. Le code ref s'affiche dans la section **Food Item Data**, dans le champ **Ref**.
+4. Modifiez le code ref, puis cliquez sur le bouton **Save**.
 
 ---
 
@@ -31,28 +28,34 @@ Une SKU dans HubRise correspond à une option dans SuperDigital.fr. Pour retrouv
 
 ## Options
 
-Une option dans HubRise correspond à un addon dans SuperDigital.fr. Pour retrouver le code ref d'un addon, suivez les étapes suivantes :
+Une option dans HubRise correspond à un addon dans SuperDigital.fr.
+
+Pour modifier le code ref d'un addon, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Food Items** > **Addons**.
-1. Cliquez sur le nom de l'addon désiré. Le code ref s'affiche dans le champ **Ref**.
+2. Cliquez sur le nom de l'addon souhaité. Le code ref s'affiche dans le champ **Ref**.
+3. Modifiez le code ref, puis cliquez sur le bouton **Save**.
 
 ## Remises
 
-Une remise dans HubRise correspond à un discount code dans SuperDigital.fr. Pour retrouver le code ref d'un discount code, suivez les étapes suivantes :
+Une remise dans HubRise correspond à un discount code dans SuperDigital.fr. Pour modifier le code ref d'un discount code, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **RestroPress** > **Discount Codes**.
-1. Cliquez sur **Edit**, en-dessous du nom du discount code désiré. Le code ref s'affiche dans le champ **Ref**.
+1. Cliquez sur **Edit**, en-dessous du nom du discount code souhaité. Le code ref s'affiche dans le champ **Ref**.
+1. Modifiez le code ref, puis cliquez sur le bouton **Save**.
 
 ## Méthodes de paiement
 
-Une méthode de paiement dans HubRise correspond à un payment gateway dans SuperDigital.fr. Pour retrouver le code ref d'un payment gateway, suivez les étapes suivantes :
+Une méthode de paiement dans HubRise correspond à un payment gateway dans SuperDigital.fr. Pour modifier le code ref d'un payment gateway, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **RestroPress** > **Settings**.
 1. Sélectionnez l'onglet **Payment Gateways**. Le code ref s'affiche dans le champ éditable.
+1. Modifiez le code ref, puis cliquez sur le bouton **Save**.
 
 ## Types de service
 
-Pour retrouver le code ref d'un type de service, suivez les étapes suivantes :
+Pour modifier le code ref d'un type de service, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **RestroPress** > **Settings**.
 1. Dans l'onglet **Général**, cliquez sur **Service Options**. Le code ref s'affiche dans le champ éditable.
+1. Modifiez le code ref, puis cliquez sur le bouton **Save**.

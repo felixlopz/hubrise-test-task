@@ -9,7 +9,7 @@ meta:
 
 HubRise et SuperDigital.fr utilisent chacun leur propre terminologie. Un même concept peut donc avoir une désignation différente dans chaque solution. La table de correspondance ci-dessous indique ces différences.
 
-| SuperDigital.fr        | HubRise             | Description                              |
+| SuperDigital.fr | HubRise             | Description                              |
 | --------------- | ------------------- | ---------------------------------------- |
 | Food item       | Produit             | Produit.                                 |
 | Option          | SKU                 | SKU du produit.                          |
