@@ -20,7 +20,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** A full documentation of this integration is in progress.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/my-lemonade" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
