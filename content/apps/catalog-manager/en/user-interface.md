@@ -21,8 +21,9 @@ When you open Catalog Manager from the **CONNECTIONS** console, the **Catalogs**
 
 When you open a Catalog, the Product page is displayed.  This lists all your products grouped by Category. To add a new category, click **New category** and enter a name.  
 
-For each product, the following can be viewed/edited in the product's details pane:
+For each product, the following can be viewed and edited in the product's details pane:
 
+- Product name
 - Description
 - Images
 - Variations
@@ -42,13 +43,13 @@ You can rearrange the order in which items are displayed in each category by usi
 
 ## Option Lists
 
-Options are additional items which customers can add to a product when ordering.  When you create a product, you can choose to create a relationship between the product and an Options List. The Options List needs to be created before you can relate them to a product item. 
+Options are additional items which customers can add to a product when ordering.  When you create a product, you can choose to create a relationship between the product and an Options List. The Options List needs to be created before you can relate them to a product item. Options list might differ from a product variation to another. Additional toppings on a medium pizza can thus be cheaper and different than those offered on a large pizza.
 
 ![Catalog Manager Options List](../images/003-en-option-lists.png)
 
 ## Deals
 
-Deals are special offers that you can configure for your menu. A typical example could be a `Buy One Get One Free` deal. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products.
+Deals are special offers that you can configure for your menu. A typical example could be a `Buy One Get One FREE` deal. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products.
 
 ![Catalog Manager Deals list](../images/005-en-deals-list.png)
 

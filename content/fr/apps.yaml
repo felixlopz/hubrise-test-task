@@ -436,9 +436,9 @@ content:
       apps:
         - website:
           documentation: /apps/catalog-manager
-          logo: orderline.png
+          logo: catalog-manager.png
           title: Catalog Manager
-          description: Catalog Manager édité par HubRise permet de créer, modifier et gérer des produits de vos catalogues HubRise. Ces catalogues peuvent être reçus de ou envoyés à des solutions connectées telles que votre caisse, votre solutions de commande en ligne ou des plateformes de livraison de repas.
+          description: Catalog Manager édité par HubRise permet de créer, modifier et gérer les produits de vos catalogues HubRise. Ces catalogues peuvent être reçus de ou envoyés à des solutions connectées telles que votre caisse, votre solutions de commande en ligne ou des plateformes de livraison de repas.
         - website: https://www.expedy.fr
           documentation: /apps/expedy
           logo: expedy-print.png

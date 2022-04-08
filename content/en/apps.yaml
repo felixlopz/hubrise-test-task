@@ -427,9 +427,9 @@ content:
       apps:
         - website:
           documentation: /apps/catalog-manager
-          logo: orderline.png
+          logo: catalog-manager.png
           title: Catalog Manager
-          description: Catalog Manager by HubRise is used to create, edit and manage products in your HubRise catalogs. Catalogs can be pulled from or pushed into integrated solutions, such as EPOS, and online ordering solutions or food ordering and delivery platforms.
+          description: Catalog Manager by HubRise is used to create, edit and manage products in your HubRise catalogs. Catalogs can be pulled from or pushed into integrated solutions, such as EPOS, online ordering solutions or food ordering and delivery platforms.
         - website: https://www.expedy.fr
           documentation: /apps/expedy
           logo: expedy-print.png

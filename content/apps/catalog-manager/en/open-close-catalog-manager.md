@@ -11,5 +11,8 @@ We recommend using Google Chrome.
 
 To access Catalog Manager, log in to [HubRise](https://manager.hubrise.com), select **CONNECTIONS** then **Open** next to the Catalog Manager app. Catalog Manager will open in a new browser tab.
 
+![Catalog Manager Connections](../images/008-en-Connections-Catalog-Manager.png)
+
 To terminate your Catalog Manager session, close the browser tab.
 
+For more information on how to open, view app activity or logs on HubRise, see [Apps and Connections](https://www.hubrise.com/docs/connections).

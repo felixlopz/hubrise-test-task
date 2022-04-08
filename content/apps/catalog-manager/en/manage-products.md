@@ -20,8 +20,9 @@ Once you've created the new product, you can add details to it and relate it to 
 ### Add or Edit Product Details
 
 - In the **Description** field enter the product description.
-- Add one or more **Photos** of the product by clicking on the **Add** icon.  For Food Ordering and Delivery platforms, we recommend that images should be jpg or png, 1920x1080 pixels, with a ratio of 16:9.
-- If the product has variations that a customer needs to choose from, tick the **multiple SKU** check box.  You will then need to enter the SKU, **Price** and **Ref code** for each variation.  If there are no variations, then you can enter the price and ref code.
+- Add one or more photos of the product by clicking on the **+** icon.  For food ordering and delivery platforms, we recommend that images should be jpg or png, 1920x1080 pixels, with a ratio of 16:9.
+- If the product has variations that a customer needs to choose from, tick the **multiple SKU** check box.  You will then need to enter the SKU **Name**, **Price** and **Ref code** for each variation.  If there are no variations, then you can enter the price and ref code.
+- You can include more variations by selecting **+ New SKU**.
 
 ![Catalog Manager Add Product Details](../images/010-en-new-product-details.png)
 
@@ -29,7 +30,7 @@ Once you've created the new product, you can add details to it and relate it to 
 
 Option Lists can be added to the base product, if there are no variations, or to each variation when these are present. 
 
-The Options List needs to be created before you can relate them to a product item. To create an Options List, click on **Options Lists** > **New option** list.  The following information is required:
+The Options List needs to be created before you can relate them to a product item. To create an Options List, click on **Options Lists** > **New option list**.  The following information is required:
 
 - Name
 - Minimum number a customer can select.
@@ -42,8 +43,8 @@ Keep in mind that and Options Lists are related to specific products, or product
 
 Once you have created one or more Option Lists, you can add them to your products:
 
-1. Select the tab for the variation that you want to add options to, then click **Attach Option List**.  You can now select from any previously added Option Lists
-2. For each of the product variations, lick **Attach Option List** and select the appropriate Options List.
+1. Select the tab for the variation that you want to add options to, then click **Attach option list**.  You can now select from any previously added Option Lists
+2. For each of the product variations, click **Attach option list** and select the appropriate Options List.
 
 ![Catalog Manager Add Options List](../images/011-en-product-option-list-tabs.png)
 
