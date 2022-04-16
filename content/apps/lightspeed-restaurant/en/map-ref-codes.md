@@ -47,6 +47,22 @@ You can then copy the codes in the connected app. For detailed instructions, fol
 
 Note that charges and discounts must be created as items to be compatible with the HubRise data model. For more information see [Create Ref Codes](/apps/lightspeed-restaurant/create-ref-codes).
 
+### Production Instructions
+
+Production instructions in Lightspeed can be mapped to HubRise options. To find the ref codes for production instructions, follow these steps:
+
+1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Production instructions**.
+1. To download the complete list of production instructions, click **Export to csv**.
+1. In the CSV file, ref codes appear under the **identifier** column.
+
+When you map production instructions to connected apps, add `+` before the ref code. For example, if your instruction has ref code `52355651338378`, use `+52355651338378` to map it to connected apps.
+
+---
+
+**IMPORTANT NOTE:** Production instructions have no associated price. Adding a price in a connected app can cause [price differences errors](/apps/lightspeed-restaurant/troubleshooting/price-differences-errors/).
+
+---
+
 ### Service Types
 
 Service types are called _account profiles_ on Lightspeed. To find the ref code for a specific service type, follow these steps:
