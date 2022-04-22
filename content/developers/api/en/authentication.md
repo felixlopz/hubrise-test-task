@@ -161,7 +161,7 @@ The response also contains the ids and names of the resources your application h
 }
 ```
 
-The request fails with a `403` status code if the authorisation code has expired, has already been used, or if the client id or secret are incorrect.
+The request fails with a `400` status code if the authorisation code has expired or has already been used. It fails with a `401` status code if the client id or secret are incorrect.
 
 ### 3.3. Connect to the API
 
