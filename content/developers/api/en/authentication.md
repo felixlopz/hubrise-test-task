@@ -176,6 +176,20 @@ X-Access-Token: b9922a78d3ffab6b95e9d72e88
 
 Note that you don't need to specify a location's id, because your connection is bound to a single location.
 
+### 3.4 Revoke an access token
+
+When you no longer need an access token, you can revoke it. This is done by sending a `POST` request to the `/oauth2/v1/revoke` endpoint, passing the access token in the request body.
+
+```http
+POST https://manager.hubrise.com/oauth2/v1/revoke HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic Y2xpZW50X2lkOmNsaWVudF9zZWNyZXQ=
+---
+access_token=b9922a78d3ffab6b95e9d72e88
+```
+
+If the server returns a `200` response, the access token is revoked and can no longer be used.
+
 ## 4. Installed app workflow
 
 The preceding workflow is not convenient for installed apps, as they generally cannot expose a callback URL to the outside.
