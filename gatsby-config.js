@@ -52,10 +52,12 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: "UA-104746398-1",
-        respectDNT: true,
+        trackingIds: ["G-T7XGRWR3SN"],
+        pluginConfig: {
+          respectDNT: true,
+        },
       },
     },
     {

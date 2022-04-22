@@ -29,7 +29,7 @@
     "gatsby": "^3.6.2",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-client-side-redirect": "^1.1.0",
-    "gatsby-plugin-google-analytics": "^3.6.0",
+    "gatsby-plugin-google-gtag": "^4.12.1",
     "gatsby-plugin-image": "^1.6.0",
     "gatsby-plugin-manifest": "^3.6.0",
     "gatsby-plugin-mdx": "^2.6.0",
