@@ -1,10 +1,10 @@
 ---
-title: Sending Orders
+title: Receive Orders
 position: 6
 layout: documentation
 meta:
-  title: Sending Orders | Uber Eats Technical Details | HubRise
-  description: Find out the technical details of how orders are sent from Uber Eats to HubRise, which fields are passed and which are not.
+  title: Receive Orders | Uber Eats | HubRise
+  description: Find out the technical details of how orders are received from Uber Eats into HubRise, which fields are passed and which are not.
 ---
 
 Connecting Uber Eats to HubRise allows you to receive Uber Eats orders directly in your EPOS. This page describes the information that is passed by Uber Eats Bridge for the orders you receive.

@@ -63,23 +63,23 @@ Select from the dropdown menu the HubRise status which should make the order acc
 In this section, choose if you want to update your Uber Eats catalog every time it is updated on HubRise.
 By default, this option it turned off.
 
-### Availability
+### Opening Hours
 
-In the **Availability** section, set the availability for your Uber Eats store.
+In the **Opening hours** section, set the opening times for your Uber Eats store.
 
 For each day of the week, set the opening and closing times of your store by specifying one or two time shifts. Customers will not be able to order from your Uber Eats store outside of these time windows.
 
 If your restaurant is closed on a specific day, click **Close the day**.
 To quickly copy the availability to all the following days on the list, click **Copy to bottom**.
 
-### Preparation Notes
+### Customer Notes
 
-Select if you want to enable preparation notes for individual products.
+Select if you want to enable customer notes for individual products.
 If you enable this option, make sure that your connected EPOS supports product level comments.
 
 ---
 
-**IMPORTANT NOTE:** To apply the updated availability and preparation notes choice, publish the menu to your Uber Eats store. For more details, see [Pulling The Menu](/apps/uber-eats/pulling-menu).
+**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, publish the menu to your Uber Eats store. For more details, see [Push The Catalog](/apps/uber-eats/push-catalog).
 
 ---
 

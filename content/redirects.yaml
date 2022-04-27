@@ -9,6 +9,12 @@
   toPath: /fr/developers/api/authentication
 
 # Apps
+## aquila -> aquila-cms
+  - fromPath: /apps/aquila
+    toPath: /apps/aquila-cms
+  - fromPath: /fr/apps/aquila
+    toPath: /fr/apps/aquila-cms
+
 ## ikentoo -> lightspeed-restaurant
 - fromPath: /apps/ikentoo
   toPath: /apps/lightspeed-restaurant
@@ -53,8 +59,8 @@
 - fromPath: /fr/apps/ikentoo-lightspeed/faqs/mettre-a-jour-ikentoo-bridge
   toPath: /fr/apps/lightspeed-restaurant/faqs/mettre-a-jour-lightspeed-restaurant-bridge
 
-## aquila -> aquila-cms
-- fromPath: /apps/aquila
-  toPath: /apps/aquila-cms
-- fromPath: /fr/apps/aquila
-  toPath: /fr/apps/aquila-cms
+## /apps/uber-eats
+- fromPath: /apps/uber-eats/sending-orders
+  toPath: /apps/uber-eats/receive-orders
+- fromPath: /apps/uber-eats/pulling-menu
+  toPath: /apps/uber-eats/push-catalog
