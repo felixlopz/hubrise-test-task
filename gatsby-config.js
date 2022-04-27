@@ -52,7 +52,14 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-gtag",
+      resolve: "gatsby-plugin-google-analytics", // Universal Analytics (old tool)
+      options: {
+        trackingId: "UA-104746398-1",
+        respectDNT: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-gtag", // Google Analytics 4 (new tool)
       options: {
         trackingIds: ["G-T7XGRWR3SN"],
         pluginConfig: {
