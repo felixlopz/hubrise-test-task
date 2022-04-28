@@ -30,7 +30,7 @@ The restaurateur can set up delivery and click & collect systems.
 
 Once connected to HubRise, TastyCloud can be used to:
 
-- Push orders into HubRise, including order statuses.
+- Push orders into HubRise, including order status.
 - Push customer information into HubRise.
 - Pull the menu from a HubRise catalog.
 
