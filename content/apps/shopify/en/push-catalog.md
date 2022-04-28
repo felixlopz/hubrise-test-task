@@ -17,7 +17,7 @@ To be able to push your catalog into Shopify, you must populate a HubRise catalo
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Push your Catalog
+## Push the Catalog
 
 Once your catalog is populated on HubRise, you can publish it on your Shopify store by following these steps.
 
@@ -26,6 +26,8 @@ Once your catalog is populated on HubRise, you can publish it on your Shopify st
 1. Select **Shopify Bridge** from the list of connected apps.
 1. From the Shopify Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
 1. On the configuration page, from the **Actions** section at the bottom of the page, select **Push the catalog**.
+
+When you push your catalog to Shopify, only new products are added. Your existing Shopify products are neither updated nor replaced.
 
 ## Technical Reference
 
