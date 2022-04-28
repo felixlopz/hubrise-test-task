@@ -90,3 +90,13 @@
   toPath: /apps/woocommerce/pull-orders
 - fromPath: /apps/woocommerce/pulling-catalog
   toPath: /apps/woocommerce/push-catalog
+
+## /apps/just-eat-takeaway
+- fromPath: /apps/just-eat-takeaway/sending-orders
+  toPath: /apps/just-eat-takeaway/receive-orders
+
+## /apps/just-eat-flyt
+- fromPath: /apps/just-eat-flyt/pulling-menu
+  toPath: /apps/just-eat-flyt/push-catalog
+- fromPath: /apps/just-eat-flyt/sending-orders
+  toPath: /apps/just-eat-flyt/receive-orders

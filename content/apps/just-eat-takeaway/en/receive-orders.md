@@ -1,14 +1,13 @@
 ---
-title: Sending Orders
+title: Receive Orders
 position: 8
 layout: documentation
 meta:
-  title: Sending Orders | Just Eat Takeaway | HubRise
-  description: Find out the technical details of how orders are sent from Just Eat Takeaway to HubRise, which fields are passed and which are not.
+  title: Receive Orders | Just Eat Takeaway | HubRise
+  description: Find out the technical details of how orders are received from Just Eat Takeaway to HubRise, which fields are passed and which are not.
 ---
 
-Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS.
-This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
+Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS. This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
 
 ## Items and Options
 
