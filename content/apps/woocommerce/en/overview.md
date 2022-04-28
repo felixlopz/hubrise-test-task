@@ -28,12 +28,11 @@ WooCommerce was launched in 2011. It is the most widely used e-commerce solution
 
 ## Integration Features
 
-Connecting WooCommerce to HubRise allows WooCommerce to:
+Connecting WooCommerce Bridge allows HubRise to:
 
-- Push orders into HubRise.
-- Pull order status from HubRise into WooCommerce.
-- Push customer information into HubRise.
-- Pull a product catalog from HubRise.
+- Pull orders from WooCommerce, including order status.
+- Pull customer information from WooCommerce.
+- Push a catalog into WooCommerce.
 
 ## Why Connect?
 
