@@ -60,8 +60,9 @@ Select from the dropdown menu the HubRise status which should make the order acc
 
 ![Uber Eats Bridge configuration page, Menu section](../images/011-en-configuration-page-menu.png)
 
-In this section, choose if you want to update your Uber Eats catalog every time it is updated on HubRise.
-By default, this option it turned off.
+### Automatic Catalog Push
+
+In this section, choose if you want to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option it turned off.
 
 ### Opening Hours
 
@@ -75,11 +76,11 @@ To quickly copy the availability to all the following days on the list, click **
 ### Customer Notes
 
 Select if you want to enable customer notes for individual products.
-If you enable this option, make sure that your connected EPOS supports product level comments.
+If you enable this option, make sure that your connected EPOS supports product level customer notes.
 
 ---
 
-**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, publish the menu to your Uber Eats store. For more details, see [Push The Catalog](/apps/uber-eats/push-catalog).
+**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, push your catalog to Uber Eats. For more details, see [Push The Catalog](/apps/uber-eats/push-catalog).
 
 ---
 
