@@ -78,3 +78,15 @@
   toPath: /apps/lightspeed-restaurant/push-orders
 - fromPath: /apps/lightspeed-restaurant/sending-orders
   toPath: /apps/lightspeed-restaurant/pull-orders
+
+## /apps/shopify
+- fromPath: /apps/shopify/sending-orders
+  toPath: /apps/shopify/pull-orders
+- fromPath: /apps/shopify/pulling-catalog
+  toPath: /apps/shopify/push-catalog
+
+## /apps/woocommerce
+- fromPath: /apps/woocommerce/sending-orders
+  toPath: /apps/woocommerce/pull-orders
+- fromPath: /apps/woocommerce/pulling-catalog
+  toPath: /apps/woocommerce/push-catalog

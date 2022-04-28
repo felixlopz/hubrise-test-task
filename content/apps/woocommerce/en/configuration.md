@@ -30,17 +30,13 @@ In this section, you can specify the ref code for delivery charges applied to or
 
 ## Catalog
 
-When you pull a catalog from HubRise into WooCommerce, we create new products in WooCommerce and we optionally update prices of existing products. For more information, see [Pulling the Catalog](/apps/woocommerce/pulling-catalog).
+When you push a catalog into WooCommerce, the bridge creates new products in WooCommerce and optionally updates prices of existing products. For more information, see [Push the Catalog](/apps/woocommerce/push-catalog).
 
 To update prices of existing products, tick the **Update prices of existing products** checkbox.
 
 ## Saving the Configuration
 
 Once you are happy with the configuration of WooCommerce Bridge, click **Save** at the top of the page to go back to the Operations page.
-
-## Pulling the Menu
-
-To pull your HubRise catalog into WooCommerce, from the **Actions** section at the bottom of the page, select **Push the catalog to WooCommerce**. For more information on how HubRise catalogs are mapped to WooCommerce, see [Pulling the Catalog](/apps/woocommerce/pulling-catalog).
 
 ## Resetting the Configuration
 
