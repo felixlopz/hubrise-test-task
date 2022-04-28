@@ -16,19 +16,17 @@ These are divided into different sections for an easier navigation.
 
 From this section, you can decide which language is used to localise your receipts.
 
-## Menu
+## Catalog
 
-This section allows you to choose which Lightspeed menu to use when you want to pull your catalog to HubRise.
-Select a value from the drop-down list.
+This section allows you to choose which Lightspeed menu to use when you want to pull your catalog to HubRise. Select a value from the drop-down list.
 
 ## Orders
 
 From this section, you can customise how Lightspeed Restaurant Bridge handles orders.
 
-If you want to delay all orders by a specific amount, enter the value in minutes in the **Delay future orders** field.
+If you want to delay orders until shortly before the delivery time, you can set the **Display time** field. If you leave it empty, orders will be displayed immediately on Lightspeed.
 
-By default, Lightspeed Restaurant Bridge does not pull local orders into HubRise.
-If you want to pull local orders to HubRise as soon as they are paid, from **Behaviour** select **Pull sales from Lightspeed on payment**.
+By default, Lightspeed Restaurant Bridge does not pull Lightspeed sales into HubRise. If you want to enable this feature, select**Enabled for paid sales** from **Pull orders**.
 
 ## Saving the Configuration
 

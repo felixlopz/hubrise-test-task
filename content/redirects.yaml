@@ -64,3 +64,17 @@
   toPath: /apps/uber-eats/receive-orders
 - fromPath: /apps/uber-eats/pulling-menu
   toPath: /apps/uber-eats/push-catalog
+
+## /apps/deliveroo
+- fromPath: /apps/deliveroo/sending-orders
+  toPath: /apps/deliveroo/receive-orders
+- fromPath: /apps/deliveroo/pulling-menu
+  toPath: /apps/deliveroo/push-catalog
+
+## /apps/lightspeed-restaurant
+- fromPath: /apps/lightspeed-restaurant/pushing-catalog
+  toPath: /apps/lightspeed-restaurant/pull-catalog
+- fromPath: /apps/lightspeed-restaurant/receiving-orders
+  toPath: /apps/lightspeed-restaurant/push-orders
+- fromPath: /apps/lightspeed-restaurant/sending-orders
+  toPath: /apps/lightspeed-restaurant/pull-orders
