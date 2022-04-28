@@ -28,11 +28,11 @@ If you want to delay orders until shortly before the delivery time, you can set 
 
 By default, Lightspeed Restaurant Bridge does not pull Lightspeed sales into HubRise. If you want to enable this feature, select**Enabled for paid sales** from **Pull orders**.
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of Lightspeed Restaurant Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration**.
 

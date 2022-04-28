@@ -40,11 +40,11 @@ This section of the configuration page allows you to specify the ref codes for t
 
 Just Eat Takeaway requires you to mark every successful order as "confirmed". In this section, you can select which HubRise status change is used to send the confirmation to Just Eat Takeaway.
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of Just Eat Takeaway Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
 

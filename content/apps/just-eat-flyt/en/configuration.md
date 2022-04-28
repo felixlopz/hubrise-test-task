@@ -66,11 +66,11 @@ To quickly copy the availability to all the following days on the list, click **
 
 ---
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of Just Eat Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
 
