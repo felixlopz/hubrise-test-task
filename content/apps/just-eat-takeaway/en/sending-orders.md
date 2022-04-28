@@ -225,6 +225,6 @@ Below is a sample payload for charges.
 
 </details>
 
-### Customers' Notes
+## Customer Notes
 
-Customers' notes about the order are encoded in the `customer_notes` field.
+Product-level customer notes are encoded in the `customer_notes` field.

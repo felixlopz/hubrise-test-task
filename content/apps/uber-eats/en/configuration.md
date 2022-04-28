@@ -3,7 +3,7 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: Configuration Guide | Uber Eats | HubRise
+  title: Configuration | Uber Eats | HubRise
   description: Instructions on configuring Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
@@ -56,9 +56,9 @@ The ref codes in this section are only applied to orders delivered by your resta
 
 Select from the dropdown menu the HubRise status which should make the order accepted in Uber Eats. Refer to your connected EPOS documentation on the HubRise website for your EPOS requirements.
 
-## Menu
+## Catalog
 
-![Uber Eats Bridge configuration page, Menu section](../images/011-en-configuration-page-menu.png)
+![Uber Eats Bridge configuration page, Catalog section](../images/011-en-configuration-page-menu.png)
 
 ### Automatic Catalog Push
 

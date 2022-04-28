@@ -117,6 +117,6 @@ For each charge present in the order, the available fields are the following:
 - `ref`: The charge ref code. Its value can be set from the Configuration page of Uber Eats Bridge and should match the value in your EPOS.
 - `price`: The charge amount.
 
-## Customers' Notes
+## Customer Notes
 
-Customers' notes about the order are encoded in the `customer_notes` field.
+Product-level customer notes are encoded in the `customer_notes` field.
