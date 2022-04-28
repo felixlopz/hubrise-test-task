@@ -4,11 +4,10 @@ position: 7
 layout: documentation
 meta:
   title: Receive Orders | Deliveroo | HubRise
-  description: Find out the technical details of how orders are sent from Deliveroo to HubRise, which fields are passed and which are not.
+  description: Find out the technical details of how orders are received from Deliveroo into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS.
-This page describes the information that is passed by Deliveroo Bridge for the orders you receive.
+Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS. This page describes the information that is passed by Deliveroo Bridge for the orders you receive.
 
 ## Items and Options
 

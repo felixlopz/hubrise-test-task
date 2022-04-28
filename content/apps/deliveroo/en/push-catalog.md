@@ -26,11 +26,11 @@ Once your catalog is populated on HubRise, you can push it to your Deliveroo sto
 1. Log in to your HubRise account.
 1. Select the location connected with your Deliveroo store.
 1. Select **Deliveroo Bridge** from the list of connected apps.
-1. In Deliveroo Bridge, click the **Actions** tab, then select **Push Catalog**.
+1. In Deliveroo Bridge, click the **Actions** tab, then select **Push catalog**.
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog to Deliveroo will erase the menu on your Deliveroo store. This action cannot be reverted.
+**IMPORTANT NOTE:** Pushing your HubRise catalog into Deliveroo will erase the menu on your Deliveroo store. This action cannot be reverted.
 
 ---
 

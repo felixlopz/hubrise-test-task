@@ -26,7 +26,7 @@ Once your catalog is populated on HubRise, you can push it to your Uber Eats sto
 1. Log in to your HubRise account.
 1. Select the location connected with your Uber Eats store.
 1. Select **Uber Eats Bridge** from the list of connected apps.
-1. In Uber Eats Bridge, click the **Actions** tab, then select **Push Catalog**.
+1. In Uber Eats Bridge, click the **Actions** tab, then select **Push catalog**.
 
 ---
 

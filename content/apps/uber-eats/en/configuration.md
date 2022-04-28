@@ -71,7 +71,7 @@ In the **Opening hours** section, set the opening times for your Uber Eats store
 For each day of the week, set the opening and closing times of your store by specifying one or two time shifts. Customers will not be able to order from your Uber Eats store outside of these time windows.
 
 If your restaurant is closed on a specific day, click **Close the day**.
-To quickly copy the availability to all the following days on the list, click **Copy to bottom**.
+To quickly copy opening hours to all the following days on the list, click **Copy to bottom**.
 
 ### Customer Notes
 
