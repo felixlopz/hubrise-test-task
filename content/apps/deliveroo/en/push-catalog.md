@@ -1,36 +1,36 @@
 ---
-title: Pulling The Menu
+title: Push The Catalog
 position: 6
 layout: documentation
 meta:
-  title: Pulling The Menu | Deliveroo | HubRise
-  description: Find out how to publish your menu to the Deliveroo platform, how items and options are encoded, and which features are supported.
+  title: Push The Catalog | Deliveroo | HubRise
+  description: Find out how to push a catalog from HubRise to Deliveroo, how items and options are encoded, and which features are supported.
 ---
 
-With Deliveroo Bridge, you can pull your HubRise catalog directly into your Deliveroo store with a single click.
+With Deliveroo Bridge, you can push your HubRise catalog into your Deliveroo store with a single click.
 
-You can also configure the bridge to pull your catalog into Deliveroo every time it is updated on HubRise. For more information, see [Menu](/apps/deliveroo/configuration#menu).
+You can also configure the bridge to push your catalog into Deliveroo every time it is updated on HubRise. For more information, see [Catalog](/apps/deliveroo/configuration#catalog).
 
-This page explains how you can pull and update your menu on Deliveroo, and what information about HubRise catalogs can be pulled into the platform.
+This page explains how you can update your menu on Deliveroo, and what information about HubRise catalogs can be pushed to the platform.
 
-## Populating a HubRise Catalog
+## Populate a HubRise Catalog
 
-To be able to pull your menu into Deliveroo, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To be able to update your menu in Deliveroo, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Publishing the Menu From the Configuration Page
+## Push the Catalog
 
-Once your catalog is populated on HubRise, you can publish it on your Deliveroo store by following these steps.
+Once your catalog is populated on HubRise, you can push it to your Deliveroo store by following these steps:
 
 1. Log in to your HubRise account.
 1. Select the location connected with your Deliveroo store.
 1. Select **Deliveroo Bridge** from the list of connected apps.
-1. In Deliveroo Bridge, click the **Actions** tab, then select **Publish the menu on Deliveroo**.
+1. In Deliveroo Bridge, click the **Actions** tab, then select **Push Catalog**.
 
 ---
 
-**IMPORTANT NOTE:** Publishing the HubRise menu to Deliveroo will erase your current menu on your Deliveroo store. This action cannot be reverted.
+**IMPORTANT NOTE:** Pushing your HubRise catalog to Deliveroo will erase the menu on your Deliveroo store. This action cannot be reverted.
 
 ---
 
@@ -42,7 +42,7 @@ The following sections provide more details on how your HubRise catalog is mappe
 
 You can specify the menu description and provide the URL for your banner image directly from the [Configuration page](/apps/deliveroo/configuration).
 
-Deliveroo Bridge pushes this information to Deliveroo with every menu upload.
+Deliveroo Bridge sends this information to Deliveroo with every catalog push.
 
 ### Categories
 

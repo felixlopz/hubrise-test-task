@@ -51,11 +51,11 @@ Deliveroo requires you to acknowledge every order you receive.
 In this section, you can select which HubRise status sends an order confirmation back to Deliveroo.
 Refer to your connected EPOS documentation on the HubRise website to verify the correct value.
 
-## Menu
+## Catalog
 
-![Deliveroo Bridge configuration page, Menu section](../images/015-en-configuration-page-menu.png)
+![Deliveroo Bridge configuration page, Catalog section](../images/015-en-configuration-page-menu.png)
 
-In this section, you can choose to automatically publish the menu every time it is updated on HubRise. By default, this feature is turned off.
+In this section, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option it turned off.
 
 Additionally, you can customize the brand ID and menu ID values, even though the default values generally work for most customers.
 
@@ -69,7 +69,7 @@ To obtain a public URL for your banner image, send an email to [support@hubrise.
 
 ---
 
-**IMPORTANT NOTE:** The menu description and banner image are required to successfully publish your menu to Deliveroo.
+**IMPORTANT NOTE:** The menu description and banner image are required to successfully push your catalog to Deliveroo.
 
 ---
 
