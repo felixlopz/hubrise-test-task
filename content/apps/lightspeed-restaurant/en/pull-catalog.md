@@ -1,9 +1,9 @@
 ---
-title: Pull The Catalog
+title: Pull the Catalog
 position: 12
 layout: documentation
 meta:
-  title: Pull The Catalog | Lightspeed Restaurant | HubRise
+  title: Pull the Catalog | Lightspeed Restaurant | HubRise
   description: Find out how to pull the catalog from your Lightspeed Restaurant EPOS to HubRise, what information is received in HubRise and what is not.
 ---
 

@@ -80,7 +80,7 @@ If you enable this option, make sure that your connected EPOS supports product l
 
 ---
 
-**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, push your catalog to Uber Eats. For more details, see [Push The Catalog](/apps/uber-eats/push-catalog).
+**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, push your catalog to Uber Eats. For more details, see [Push the Catalog](/apps/uber-eats/push-catalog).
 
 ---
 

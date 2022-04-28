@@ -1,9 +1,9 @@
 ---
-title: Push The Catalog
+title: Push the Catalog
 position: 6
 layout: documentation
 meta:
-  title: Push The Catalog | Deliveroo | HubRise
+  title: Push the Catalog | Deliveroo | HubRise
   description: Find out how to push a catalog from HubRise to Deliveroo, how items and options are encoded, and which features are supported.
 ---
 
@@ -11,7 +11,7 @@ With Deliveroo Bridge, you can push your HubRise catalog into your Deliveroo sto
 
 You can also configure the bridge to push your catalog into Deliveroo every time it is updated on HubRise. For more information, see [Catalog](/apps/deliveroo/configuration#catalog).
 
-This page explains how you can update your menu on Deliveroo, and what information about HubRise catalogs can be pushed to the platform.
+This page explains how to push your catalog, and what information is sent to Deliveroo.
 
 ## Populate a HubRise Catalog
 

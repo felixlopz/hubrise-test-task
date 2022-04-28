@@ -1,9 +1,9 @@
 ---
-title: Push The Catalog
+title: Push the Catalog
 position: 7
 layout: documentation
 meta:
-  title: Push The Catalog | Uber Eats | HubRise
+  title: Push the Catalog | Uber Eats | HubRise
   description: Find out how to push a catalog from HubRise to Uber Eats, how items and options are encoded, and which features are supported.
 ---
 
@@ -11,7 +11,7 @@ With Uber Eats Bridge, you can push your HubRise catalog into your Uber Eats sto
 
 You can also configure the bridge to push your catalog to Uber Eats every time it is updated on HubRise. For more information, see [Catalog](/apps/uber-eats/configuration#catalog).
 
-This page explains how you can update your menu on Uber Eats, and what information about HubRise catalogs can be pushed to the platform.
+This page explains how to push your catalog, and what information is sent to Uber Eats.
 
 ## Populate a HubRise Catalog
 
