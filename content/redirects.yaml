@@ -10,10 +10,10 @@
 
 # Apps
 ## aquila -> aquila-cms
-  - fromPath: /apps/aquila
-    toPath: /apps/aquila-cms
-  - fromPath: /fr/apps/aquila
-    toPath: /fr/apps/aquila-cms
+- fromPath: /apps/aquila
+  toPath: /apps/aquila-cms
+- fromPath: /fr/apps/aquila
+  toPath: /fr/apps/aquila-cms
 
 ## ikentoo -> lightspeed-restaurant
 - fromPath: /apps/ikentoo
