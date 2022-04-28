@@ -28,7 +28,7 @@ Once you are happy with the configuration of Shopify Bridge, click **Save** at t
 
 ## Pulling the Catalog
 
-To pull your HubRise catalog into Shopify, from the **Actions** section at the bottom of the page, select **Export the HubRise catalog to Shopify**. For more information on how HubRise catalogs are mapped to Shopify, see [Pulling the Catalog](/apps/shopify/pulling-catalog).
+To pull your HubRise catalog into Shopify, from the **Actions** section at the bottom of the page, select **Export the HubRise catalog to Shopify**. For more information on how HubRise catalogs are mapped to Shopify, see [Push the Catalog](/apps/shopify/push-catalog).
 
 When you pull your HubRise catalog to Shopify, only new products will be added. Your existing Shopify products will not be updated or replaced.
 
