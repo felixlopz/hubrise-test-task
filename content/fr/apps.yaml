@@ -85,12 +85,18 @@ content:
           documentation: /apps/next-order
           logo: next-order.png
           title: Next Order
-          description: Next Order propose une suite logicielle complète pour tout type de restaurant. Next Order fonctionne en mode Cloud et peut être utilisé sur n'importe quel appareil. Riche en fonctionnalités, Next Order aide à rationaliser les opérations.
+          description: Next Order propose une suite logicielle complète pour tout type de restaurant. Next Order fonctionne en mode Cloud et peut être utilisé sur n'importe quel appareil. Riche en fonctionnalités, Next Order aide à rationaliser les opérations.
         - website: https://www.orderlord.com
           documentation: /apps/orderlord
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
+        - website: hhttps://pandaepos.com/
+          documentation: /apps/panda-epos
+          logo: panda-epos.png
+          title: Panda EPOS
+          description: Panda EPOS centralise les commandes de tous les canaux, analyse les données et permet de gérer les commandes, les clients et le contenu.
+          additional_info: Intégration en cours.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-bridge
           logo: par-pixelpoint-web-api.png

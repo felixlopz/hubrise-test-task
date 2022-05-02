@@ -94,7 +94,13 @@ content:
           documentation: /apps/orderlord
           logo: orderlord.png
           title: OrderLord POS
-          description: OrderLord provides a Point of Sale combined with a Delivery Management solution, kitchen screens and advanced reporting.
+          description: OrderLord is a cloud based EPOS solution. It provides a Point of Sale combined with a Delivery Management Solution with auto-dispatch, Kitchen Display Screens and advanced reporting.
+        - website: hhttps://pandaepos.com/
+          documentation: /apps/panda-epos
+          logo: panda-epos.png
+          title: Panda EPOS
+          description: Panda EPOS is used to centralise orders from all channels, analyse the data and manage orders, customers and content. It offers a single platform to manage delivery and takeaway orders for restaurants with one or multiple locations.
+          additional_info: Integration in progress.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-bridge
           logo: par-pixelpoint-web-api.png
