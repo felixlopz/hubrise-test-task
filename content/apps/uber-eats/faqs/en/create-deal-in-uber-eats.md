@@ -10,7 +10,7 @@ meta:
 Uber Eats does not natively support deals.
 However, you can use Uber Eats items and modifiers to create a product that is sent to HubRise as a deal.
 
-If you [upload your HubRise catalog](/apps/uber-eats/pulling-menu) to Uber Eats with Uber Eats Bridge, deals are automatically created with the correct format on Uber Eats.
+If you [push your HubRise catalog](/apps/uber-eats/pulling-menu) into Uber Eats with Uber Eats Bridge, deals are automatically created with the correct format on Uber Eats.
 This page describes how you can achieve the same results when you manually create your menu with [Menu Maker](https://merchants.ubereats.com/us/en/technology/simplify-operations/menu-management/), the catalog management tool in Uber Eats back office. 
 
 
@@ -38,22 +38,21 @@ For example, if you have a deal with pizzas and drinks, the product's structure 
     - Pepsi
     - Beer
 
-To be correctly parsed by Uber Eats Bridge, the ref code of the parent product, which represents the deal, must start with `DEAL-`, followed by the ref code of the deal in your EPOS. Skus must have the same ref code they have in your EPOS.
+To be correctly parsed in HubRise by Uber Eats Bridge, the ref code of the parent product, which represents the deal, must start with `DEAL-`, followed by the ref code of the deal in your EPOS. Skus must have the same ref code they have in your EPOS.
 
 
-## Step-by-step Guide To Create A Deal
+## Step-By-Step Guide to Create a Deal
 
 The following sections explains the steps required to create deals.
 
-### 1. Create The Skus
+### 1. Create the Skus
 
-Start by creating the individual skus that are part of every deal line.
-Follow these steps:
+To create the individual skus that are part of every deal line follow these steps:
 
 1. Log in to your [Uber Eats back office](https://restaurant.uber.com/).
-1. Select **Menu > Items**, then click **New item**.
+1. Select **Menu** > **Items**, then click **New item**.
 1. Fill in the details for your sku.
-   - Enter the name of the sku, for example *Pizza Margherita 8"*.
+   - Enter the name of the sku, for example `Pizza Margherita 8"`.
    - Under **Sell item on its own**, select **No**.
      ![Sku name and sell item on its own choice](../../images/012-en-product-name-menu-maker.png)
    - Under **Default price**, if choosing this sku requires a surcharge, enter the surcharge amount. Otherwise, enter 0.
@@ -63,14 +62,13 @@ Follow these steps:
 1. To confirm the sku, click **Save**.
 1. Repeat the process for all the other skus that are part of the deal lines. Click **Duplicate** to use the current sku as a starting point for the next ones.
 
-### 2. Create The Modifier Groups
+### 2. Create the Modifier Groups
 
-After creating all the skus, the second step is to group them together within a modifier group.
-Follow these steps:
+After creating all the skus, to group them together within a modifier group follow these steps:
 
-1. Select **Menu > Modifier groups**, then click **New group**.
+1. Select **Menu** > **Modifier groups**, then click **New group**.
 2. Fill in the details of your modifier group.
-   - Enter the name of the modifier group, for example *Choose your pizza*.
+   - Enter the name of the modifier group, for example `Choose your pizza`.
    - In the **Add item** field, select all the skus that are part of the product, then click **Add**.
      ![Modifier group name and skus](../../images/019-en-modifier-group-name-menu-maker.png)
    - Drag the skus in the order you want them to appear on the list.
@@ -82,14 +80,13 @@ Follow these steps:
 1. To confirm the modifiers group, click **Save**.
 2. Repeat the process for all the deal lines that are part of the deal. Click **Duplicate** to use the current modifier group as a starting point for the next ones.
 
-### 3. Create The Deal
+### 3. Create the Deal
 
-Finally, create the product that represents the deal and attach the modifier groups to it.
-Follow these steps:
+Finally, to create the product that represents the deal and attach the modifier groups to it follow these steps:
 
-1. Select **Menu > Items**, then click **New item**.
+1. Select **Menu** > **Items**, then click **New item**.
 1. Fill in the details for the deal.
-   - Enter the name of the product, for example *Pizza + Drink Deal*.
+   - Enter the name of the product, for example `Pizza + Drink Deal`.
    - Under **Sell item on its own**, select **Yes**.
    - Under **Categories**, select the category that contains the deal.
    - Under **Default price**, enter the total price of the deal.

@@ -30,22 +30,21 @@ For example, if you have a pizza with multiple sizes, the product's structure wi
     - Pizza Margherita 10"
     - Pizza Margherita 12"
 
-To be correctly parsed by Uber Eats Bridge, the ref code of the parent product must be `MULTISKU`, while skus must have the same ref code they have in your EPOS.
+To be correctly parsed on HubRise by Uber Eats Bridge, the ref code of the parent product must be `MULTISKU`, while skus must have the same ref code they have in your EPOS.
 
 
-## Step-by-step Guide To Create A Product With Skus
+## Step-By-Step Guide to Create a Product With Skus
 
-The following sections explains the steps required to create a product with multiple skus.
+The following sections explains the steps required to create a product with multiple skus on Uber Eats Menu Maker.
 
-### 1. Create The Skus
+### 1. Create the Skus
 
-Start by creating the individual skus that are part of the product.
-Follow these steps:
+To create the individual skus that are part of the product, follow these steps:
 
 1. Log in to your [Uber Eats back office](https://restaurant.uber.com/).
-1. Select **Menu > Items**, then click **New item**.
+1. Select **Menu** > **Items**, then click **New item**.
 1. Fill in the details for your sku.
-   - Enter the name of the sku, for example *Pizza Margherita 8"*.
+   - Enter the name of the sku, for example `Pizza Margherita 8"`.
    - Under **Sell item on its own**, select **No**.
      ![Sku name and sell item on its own choice](../../images/012-en-product-name-menu-maker.png)
    - Under **Default price**, enter the difference with the price of the main product, or 0.
@@ -55,32 +54,31 @@ Follow these steps:
 1. To confirm the sku, click **Save**.
 1. Repeat the process for all the other skus that are part of the product. Click **Duplicate** to use the current sku as a starting point for the next ones.
 
-### 2. Create The Modifier Group
+### 2. Create the Modifier Group
 
-After creating all the skus, the second step is to group them together within a modifier group.
-Follow these steps:
+After creating all the skus, to group them together within a modifier group follow these steps:
 
-1. Select **Menu > Modifier groups**, then click **New group**.
+1. Select **Menu** > **Modifier groups**, then click **New group**.
 2. Fill in the details of your modifier group.
-   - Enter the name of the modifier group, for example *Choose your Margherita size*.
+   - Enter the name of the modifier group, for example `Choose your Margherita size`.
    - In the **Add item** field, select all the skus that are part of the product, then click **Add**.
      ![Modifier group name and skus](../../images/014-en-modifier-group-name-menu-maker.png)
    - Drag the skus in the order you want them to appear on the list.
    - In the **Rules** section, enter the following values:
-     - **Minimum number of options a customer must select**: 1
-     - **Maximum number of options a customer can select**: 1
-     - **How many times can customers select any single option**: 1
+     - **Minimum number of options a customer must select**: `1`
+     - **Maximum number of options a customer can select**: `1`
+     - **How many times can customers select any single option**: `1`
      ![Modifier group rules](../../images/015-en-modifier-group-rules-menu-maker.png)
 1. To confirm the modifiers group, click **Save**.
 
-### 3. Create The Main Product
+### 3. Create the Main Product
 
 Finally, create the product and attach the modifier group to it.
 Follow these steps:
 
-1. Select **Menu > Items**, then click **New item**.
+1. Select **Menu** > **Items**, then click **New item**.
 1. Fill in the details for the main product.
-   - Enter the name of the product, for example *Pizza Margherita*.
+   - Enter the name of the product, for example `Pizza Margherita`.
    - Under **Sell item on its own**, select **Yes**.
    - Under **Categories**, select the category that contains the product.
    - Under **Default price**, enter the price of the cheapest sku.
