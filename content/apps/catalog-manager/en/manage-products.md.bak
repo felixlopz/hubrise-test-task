@@ -17,7 +17,7 @@ To create a product, select the category where the product should be located, cl
 
 Once you've created the new product, you can add details to it and relate it to optional items and deals.  You can also move the product to a different category by dragging and dropping with the drag handles on the right-hand side of the product entry.
 
-## Add or Edit Product Details
+### Add or Edit Product Details
 
 - In the **Description** field enter the product description.
 - Add one or more photos of the product by clicking on the **+** icon.  For food ordering and delivery platforms, we recommend that images should be jpg or png, 1920x1080 pixels, with a ratio of 16:9.
@@ -26,7 +26,7 @@ Once you've created the new product, you can add details to it and relate it to 
 
 ![Catalog Manager Add Product Details](../images/010-en-new-product-details.png)
 
-## Manage Option Lists
+### Add or Edit Option Lists
 
 Option Lists can be added to the base product, if there are no variations, or to each variation when these are present. 
 

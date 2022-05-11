@@ -43,9 +43,7 @@ You can rearrange the order in which items are displayed in each category by usi
 
 ## Option Lists
 
-Options are additional items which customers can add to a product when ordering.  When you create a product, you can choose to create a relationship between the product and an Options List. The Options List needs to be created before you can relate them to a product item. Options list might differ from one product variation to another; for example, additional toppings on a medium pizza could be cheaper and different than those offered on a large pizza.
-
-When viewing option lists, you can see the products that the option list is used in. This helps you to keep track of which options are used in which products.
+Options are additional items which customers can add to a product when ordering.  When you create a product, you can choose to create a relationship between the product and an Options List. The Options List needs to be created before you can relate them to a product item. Options list might differ from a product variation to another. Additional toppings on a medium pizza can thus be cheaper and different than those offered on a large pizza.
 
 ![Catalog Manager Options List](../images/003-en-option-lists.png)
 
