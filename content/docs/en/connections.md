@@ -42,13 +42,13 @@ Some apps must be connected at the **All locations** level, while others connect
 
 Some apps can be accessed from HubRise. If so, you can open the app by clicking on **CONNECTIONS** and selecting **Open** for the specific app. The app will open in a new browser window.
 
-![HubRise Connection - Open an app](../images/011-en-connections-open-app.png)
+![HubRise Connection - Open an app](../images/011-en-2x-connections-open-app.png)
 
 ## View Connection Activity
 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
-![HubRise Connection - Display Activity](../images/012-en-connections-display-activity.png)
+![HubRise Connection - Display Activity](../images/012-en-2x-connections-display-activity.png)
 ![HubRise Connection - Activity Displayed](../images/080-en-connections-activity-displayed.png)
 
 ---
@@ -117,4 +117,4 @@ To disconnect a specific app from HubRise, follow these steps:
 2. Find the app you want to disconnect, then click **Actions** > **Disconnect** or **Block**.
 3. Click **Confirm**.
 
-![HubRise Connection - Remove an app](../images/014-en-connections-disconnect-app.png)
+![HubRise Connection - Remove an app](../images/014-en-2x-connections-disconnect-app.png)
