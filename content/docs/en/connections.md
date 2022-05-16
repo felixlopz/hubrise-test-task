@@ -117,7 +117,7 @@ Disconnecting an app removes the connection between the app and HubRise. The app
 
 ---
 
-**IMPORTANT NOTE**: If you may use the app again, you should prefer to block it rather than disconnect it.
+**IMPORTANT NOTE**: If you may use the app again, you should block it rather than disconnect it.
 
 ---
 
