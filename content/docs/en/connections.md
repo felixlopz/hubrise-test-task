@@ -113,11 +113,11 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 Blocking an app temporarily prevents it from accessing HubRise API. At any time, you can unblock the app to restore access.
 
-Disconnecting an app removes the connection between the app and HubRise. It notifies the app that it has been disconnected, which may result in your account on the app to be reset or deleted.
+Disconnecting an app removes the connection between the app and HubRise. The app is notified of the disconnection, which may result in your account being reset or deleted on the app.
 
 ---
 
-**IMPORTANT NOTE**: If you may use the app again, you should prefer to block rather than disconnect it.
+**IMPORTANT NOTE**: If you may use the app again, you should prefer to block it rather than disconnect it.
 
 ---
 
