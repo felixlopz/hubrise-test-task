@@ -109,12 +109,22 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ---
 
-## Disconnect App
+## Block or Disconnect App
 
-To disconnect a specific app from HubRise, follow these steps:
+Blocking an app temporarily prevents it from accessing HubRise API. At any time, you can unblock the app to restore access.
+
+Disconnecting an app removes the connection between the app and HubRise. It notifies the app that it has been disconnected, which may result in your account on the app to be reset or deleted.
+
+---
+
+**IMPORTANT NOTE**: If you may use the app again, you should prefer to block rather than disconnect it.
+
+---
+
+To block or disconnect an app from HubRise, follow these steps:
 
 1. Go to **CONNECTIONS**.
-2. Find the app you want to disconnect, then click **Actions** > **Disconnect** or **Block**.
+2. Find the app you want, then click **Actions** > **Block** or **Disconnect**.
 3. Click **Confirm**.
 
 ![HubRise Connection - Remove an app](../images/014-en-2x-connections-disconnect-app.png)
