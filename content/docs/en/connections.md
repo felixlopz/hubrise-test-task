@@ -48,8 +48,7 @@ Some apps can be accessed from HubRise. If so, you can open the app by clicking 
 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
-![HubRise Connection - Display Activity](../images/012-en-2x-connections-display-activity.png)
-![HubRise Connection - Activity Displayed](../images/080-en-connections-activity-displayed.png)
+![HubRise Connection - Activity Displayed](../images/080-en-connection-activity.png)
 
 ---
 
