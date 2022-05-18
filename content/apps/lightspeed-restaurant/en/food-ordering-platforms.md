@@ -171,12 +171,6 @@ Depending on your needs, you may have to create some products in Lightspeed. If 
 | Charges        | Tip ref code                                 | Create a product with variable positive price and use its **Code**. |
 | Payments       | Payment ref code                             | `UEPM`                                                              |
 | Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`                   |
-| Menu           | Enable preparation notes on individual items | Leave unchecked                                                     |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox                                                   |
 
 (\*) BYOC - Bring Your Own Courier
-
----
-
-**IMPORTANT NOTE:** Preparation notes on individual items are not supported in Lightspeed Restaurant. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
-
----
