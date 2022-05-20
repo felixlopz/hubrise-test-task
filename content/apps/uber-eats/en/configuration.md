@@ -25,6 +25,9 @@ From this section, you can decide which language is used to localise your receip
 
 Service types such as Uber Eats delivery, restaurant delivery, takeaway, or eat-in might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
+Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
+This is useful if you have specific business requirements for financial reporting.
+
 ### Special Items
 
 **Disposable items ref code** is the ref code that is used when customers include disposable items in their orders.
