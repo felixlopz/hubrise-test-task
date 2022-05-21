@@ -30,7 +30,7 @@ New orders must be marked as `Successful` or `Failed` within 3 minutes, otherwis
 
 ---
 
-### Change the status of an order in Just Eat
+### Change the Status of an Order in Just Eat
 
 When the status of an order changes to `rejected` or `cancelled` in HubRise, Just Eat Bridge notifies Just Eat that the order is `Failed`.
 
@@ -38,7 +38,7 @@ Just Eat Bridge lets you decide which HubRise status triggers the `Successful` s
 
 Other HubRise status values are not supported and are not sent to Just Eat.
 
-### Change the status of an order in HubRise
+### Change the Status of an Order in HubRise
 
 Just Eat Bridge does not change order statuses in HubRise.
 
