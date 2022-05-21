@@ -73,7 +73,21 @@ For more information about skus in the HubRise catalog, see [Skus](/developers/a
 
 ### Images
 
-Just Eat requires images to be 1024x768 pixels.
+Images that you upload on Just Eat must meet the following requirements:
+
+- Landscape orientation (not portrait nor square).
+- At least 1024 x 768 pixels, in 4:3 format.
+- Between 1 Mb and 10 Mb in size.
+- JPG or PNG format.
+
+Just Eat guidelines suggest to save your images with the same name as the dish they represent, for example `LargeChickenNuggetsAndChips.jpg`.
+
+---
+
+**IMPORTANT NOTE:** Just Eat reviews all new pictures uploaded to their stores. After you push an image into Just Eat, it usually takes between two and five days for the image to appear on the menu. If your images don't meet the guidelines, Just Eat will ask you to upload them again.
+
+---
+
 
 ### Product Tags
 
