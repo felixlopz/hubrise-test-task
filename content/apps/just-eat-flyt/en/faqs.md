@@ -9,3 +9,4 @@ meta:
 
 - <Link to="/apps/just-eat-flyt/faqs/products-not-exported/">Why Are Some Products Not Exported To Just Eat?</Link>
 - <Link to="/apps/just-eat-flyt/faqs/auto-accept/">Do I Want Auto-Accept Activated on Just Eat?</Link>
+- <Link to="/apps/just-eat-flyt/faqs/orderpad/">Can I Turn Off Orderpad?</Link>
