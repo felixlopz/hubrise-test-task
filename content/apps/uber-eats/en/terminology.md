@@ -7,6 +7,16 @@ meta:
   description: Correspondence table showing terms used by Uber Eats and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
+## Uber Eats Terms
+
+The following table explains the terms that are specific to Uber Eats.
+
+| Term        | Description                                                 |
+|-------------|-------------------------------------------------------------|
+| Menu Maker  | App used to manage the menu in Uber Eats.                   |
+
+## Correspondence Table
+
 HubRise and Uber Eats each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
 
 | Uber Eats     | HubRise     | Description                         |
