@@ -1,0 +1,150 @@
+---
+title: Food Ordering Platforms
+position: 5
+layout: documentation
+meta:
+  title: Food Ordering Platforms | OrderLord | HubRise
+  description: Integrating OrderLord with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
+---
+
+To connect OrderLord to Deliveroo, Uber Eats, Just Eat or any other platform, use the configuration parameters provided below.
+
+
+## Deliveroo
+
+To receive Deliveroo orders in OrderLord, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+
+To correctly receive your orders, specify the following values in the Deliveroo Bridge configuration page. To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
+
+| Section        | Name                                  | Ref code                                          |
+| -------------- | ------------------------------------- | ------------------------------------------------- |
+| Service types  | Deliveroo fulfilled ref code          | (leave empty)                                     |
+| Service types  | Restaurant fulfilled ref code         | (leave empty)                                     |
+| Service types  | Takeaway ref code                     | (leave empty)                                     |
+| Service types  | Send orders delivered by Deliveroo as | `delivery orders`                                 |
+| Discounts      | Offer ref code                        | (leave empty)                                     |
+| Charges        | Delivery charge ref code              | (leave empty)                                     |
+| Charges        | Surcharge ref code                    | (leave empty)                                     |
+| Payments       | Deliveroo payment ref code            | (leave empty)                                     |
+| Payments       | Cash payment ref code                 | (leave empty)                                     |
+| Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |
+
+## Eat.ch
+
+To receive Eat.ch orders in OrderLord, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway). 
+
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Takeaway Bridge, see the [Just Eat Takeaway Configuration page](/apps/just-eat-takeaway/configuration).
+
+| Section        | Name                                     | Ref code                                          |
+| -------------- | ---------------------------------------- | ------------------------------------------------- |
+| Service types  | Eat.ch delivery ref code                 | (leave empty)                                     |
+| Service types  | Restaurant delivery ref code             | (leave empty)                                     |
+| Service types  | Takeaway ref code                        | (leave empty)                                     |
+| Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
+| Discounts      | Discount ref code                        | (leave empty)                                     |
+| Charges        | Delivery charge ref code                 | (leave empty)                                     |
+| Payments       | Eat.ch payment ref code                  | (leave empty)                                     |
+| Payments       | Cash payment ref code                    | (leave empty)                                     |
+| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
+
+## Just Eat
+
+To receive Just Eat orders in OrderLord, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
+
+To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Flyt Bridge, see the [Just Eat flyt Configuration page](/apps/just-eat-flyt/configuration).
+
+Depending on your needs, you may have to create some products in OrderLord. If you don't use these features, you can skip creating the products and leave the corresponding fields empty.
+
+
+| Section        | Name                                     | Ref code                                                            |
+| -------------- | ---------------------------------------- | ------------------------------------------------------------------- |
+| Service types  | Just Eat delivery ref code               | (leave empty)                                                       |
+| Service types  | Restaurant delivery ref code             | (leave empty)                                                       |
+| Service types  | Takeaway ref code                        | (leave empty)                                                       |
+| Service types  | Send orders delivered by the platform as | `delivery orders`                                                   |
+| Discounts      | Discount ref code                        | (leave empty)                                                       |
+| Charges        | Delivery charge ref code                 | (leave empty)                                                       |
+| Charges        | Service charge ref code                  | (leave empty)                                                       |
+| Charges        | Bag fee ref code                         | Create a product and use its **Code**.                              |
+| Charges        | Driver tip ref code                      | Create a product and use its **Code**.                              |
+| Charges        | Other charge ref code                    | Create a product and use its **Code**.                              |
+| Payments       | Online payment ref code                  | (leave empty)                                                       |
+| Payments       | Cash payment ref code                    | (leave empty)                                                       |
+| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"`                   |
+
+## HOP Delivery
+
+To receive your HOP Delivery orders in OrderLord, use the following values to configure HOP Delivery. For assistance, contact HOP Delivery support team.
+
+| Section       | Name                          | Ref code      |
+| ------------- | ----------------------------- | ------------- |
+| Service types | HOP fulfilled ref code        | (leave empty) |
+| Service types | Restaurant fulfilled ref code | (leave empty) |
+| Service types | Takeaway ref code             | (leave empty) |
+| Discounts     | Offer ref code                | (leave empty) |
+| Charges       | Delivery charge ref code      | (leave empty) |
+| Charges       | Service fee ref code          | (leave empty) |
+| Payments      | HOP payment ref code          | (leave empty) |
+| Payments      | Cash payment ref code         | (leave empty) |
+
+## Takeaway.com
+
+To receive Takeaway.com orders in OrderLord, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
+
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Takeaway Bridge, see the [Just Eat Takeaway Configuration page](/apps/just-eat-takeaway/configuration).
+
+| Section        | Name                                     | Ref code                                          |
+| -------------- | ---------------------------------------- | ------------------------------------------------- |
+| Service types  | Takeaway.com delivery ref code           | (leave empty)                                     |
+| Service types  | Restaurant delivery ref code             | (leave empty)                                     |
+| Service types  | Takeaway ref code                        | (leave empty)                                     |
+| Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
+| Discounts      | Discount ref code                        | (leave empty)                                     |
+| Charges        | Delivery charge ref code                 | (leave empty)                                     |
+| Payments       | Online payment ref code                  | (leave empty)                                     |
+| Payments       | Cash payment ref code                    | (leave empty)                                     |
+| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
+
+## Thuisbezorgd.nl
+
+To receive Thuisbezorgd.nl orders in OrderLord, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
+
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Takeaway Bridge, see the [Just Eat Takeaway Configuration page](/apps/just-eat-takeaway/configuration).
+
+| Section        | Name                                     | Ref code                                          |
+| -------------- | ---------------------------------------- | ------------------------------------------------- |
+| Service types  | Thuisbezorgd.nl delivery ref code        | (leave empty)                                     |
+| Service types  | Restaurant delivery ref code             | (leave empty)                                     |
+| Service types  | Takeaway ref code                        | (leave empty)                                     |
+| Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
+| Discounts      | Discount ref code                        | (leave empty)                                     |
+| Charges        | Delivery charge ref code                 | (leave empty)                                     |
+| Payments       | Online payment ref code                  | (leave empty)                                     |
+| Payments       | Cash payment ref code                    | (leave empty)                                     |
+| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
+
+## Uber Eats
+
+To receive Uber Eats orders in OrderLord, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+
+To correctly receive your orders, specify the following values in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
+
+Depending on your needs, you may have to create some products in OrderLord. If you don't use these features, you can skip creating the products and leave the corresponding fields empty.
+
+| Section        | Name                                         | Ref code or value                                 |
+| -------------- | -------------------------------------------- | --------------------------------------------------|
+| Service types  | Uber delivery ref code                       | (leave empty)                                     |
+| Service types  | Restaurant delivery ref code (\*)            | (leave empty)                                     |
+| Service types  | Takeaway ref code                            | (leave empty)                                     |
+| Service types  | Eat-in ref code                              | (leave empty)                                     |
+| Service types  | Send orders delivered by Uber Eats as        | `delivery orders`                                 |
+| Special items  | Disposable items ref code                    | Create a product and use its **Code**.            |
+| Discounts      | Discount ref code                            | (leave empty)                                     |
+| Charges        | Delivery charge ref code                     | (leave empty)                                     |
+| Charges        | Small order fee ref code                     | Create a product and use its **Code**.            |
+| Charges        | Tip ref code                                 | Create a product and use its **Code**.            |
+| Payments       | Payment ref code                             | (leave empty)                                     |
+| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"` |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox                                 |
+
+(\*) BYOC - Bring Your Own Courier
