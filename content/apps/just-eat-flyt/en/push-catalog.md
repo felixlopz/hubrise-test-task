@@ -39,6 +39,23 @@ Once your catalog is populated on HubRise, you can push it to your Just Eat stor
 
 The following sections describe in detail how HubRise catalogs are mapped to Just Eat menus.
 
+### Images
+
+Images that you upload on Just Eat must meet the following requirements:
+
+- Landscape orientation (not portrait nor square).
+- At least 1024 x 768 pixels, in 4:3 format.
+- Between 1 Mb and 10 Mb in size.
+- JPG or PNG format.
+
+Just Eat guidelines suggest to save your images with the same name as the dish they represent, for example `LargeChickenNuggetsAndChips.jpg`.
+
+---
+
+**IMPORTANT NOTE:** Just Eat reviews all new pictures uploaded to their stores. After you push an image into Just Eat, it usually takes between two and five days for the image to appear on the menu. If your images don't meet the guidelines, Just Eat will ask you to upload them again.
+
+---
+
 ### Categories
 
 The categories in a HubRise catalog are mapped one-to-one to categories of products on Just Eat.
@@ -70,24 +87,6 @@ For more information about skus in the HubRise catalog, see [Skus](/developers/a
 **IMPORTANT NOTE:** Products without a ref code are not pushed to Just Eat. For more information, see [Why Are Some Products Not Exported](/apps/just-eat-flyt/faqs/products-not-exported/).
 
 ---
-
-### Images
-
-Images that you upload on Just Eat must meet the following requirements:
-
-- Landscape orientation (not portrait nor square).
-- At least 1024 x 768 pixels, in 4:3 format.
-- Between 1 Mb and 10 Mb in size.
-- JPG or PNG format.
-
-Just Eat guidelines suggest to save your images with the same name as the dish they represent, for example `LargeChickenNuggetsAndChips.jpg`.
-
----
-
-**IMPORTANT NOTE:** Just Eat reviews all new pictures uploaded to their stores. After you push an image into Just Eat, it usually takes between two and five days for the image to appear on the menu. If your images don't meet the guidelines, Just Eat will ask you to upload them again.
-
----
-
 
 ### Product Tags
 

@@ -3,8 +3,8 @@ title: What Are Primary and Secondary Connections?
 position: 1
 layout: documentation
 meta:
-  title: Primary and Secondary Connections | Just Eat Takeaway FAQs | HubRise
-  description: This page explains what are primary and secondary connections on Just Eat Takeaway, and how to solve possible issues that arise from a wrong configuration of your store.
+  title: Primary Connection | Just Eat Takeaway FAQs | HubRise
+  description: This page explains what are primary and secondary connections on Just Eat Takeaway, and how to solve possible issues that arise from a wrong configuration.
 ---
 
 Just Eat Takeaway can enable multiple connections to your store.

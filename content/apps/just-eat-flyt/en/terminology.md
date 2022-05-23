@@ -14,7 +14,7 @@ The following table explains the terms that are specific to Just Eat Flyt.
 | Term     | Description                                        |
 |----------|----------------------------------------------------|
 | Orderpad | Just Eat's official app to manage incoming orders. |
-| Scoober  | Just Eat delivery model.                           |
+| Scoober  | Just Eat delivery service.                         |
 
 ## Correspondence Table
 
