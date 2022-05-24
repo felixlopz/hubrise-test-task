@@ -1,0 +1,33 @@
+---
+position: 1
+title: Overview
+layout: documentation
+meta:
+  title: Technical Documentation Overview \| HubRise
+  description: Orders, customers and product catalogs are saved into HubRise to provide connected apps with real-time access to your data. Integrate third party solutions.
+gallery:
+  - __gallery-001-en.png
+  - __gallery-002-en.png path_override: / app_info: category: Middleware availability: Worldwide price_range: €25 / month. contact: contact@hubrise.com / support@hubrise.com
+---
+
+HubRise est une plateforme logicielle intermédiaire (middleware) qui permet de connecter des solutions tierces. Le système fournit une interface unique destiné à un écosystème d'applications intégrées en constante évolution. Les situations d'utilisation typiques incluent les suivantes :
+
+- Solutions d'encaissement
+- Commandes en ligne
+- Gestion de livraison
+- Services de livraison
+- Marketing numérique (SMS/e-mail)
+- Gestion de fidélité
+- Plateformes de livraison de repas
+- Veille économique
+- Gestion des stocks
+- Paiement à table
+- ... et bien plus encore !
+
+Avec HubRise, vous pouvez suivre les commandes de toutes les solutions connectées, partager des listes de clients entre vos solutions et gérer vos catalogues de produits, le tout depuis une plateforme unique.
+
+Toutes les transactions sont enregistrées dans HubRise afin de fournir aux applications connectées un accès en temps réel à vos données. Des fichiers journaux détaillés permettent aux utilisateurs et aux équipes d'assistance de comprendre le flux d'activité et de contrôler le statut de chaque transaction. Bien que principalement destinés aux développeurs, les journaux sont conçus pour être compréhensibles par n'importe quel utilisateur.
+
+HubRise met également à la disposition des développeurs un système robuste leur permettant de créer de nouvelles applications via l'API publique HubRise. Pour plus d'informations, consultez la [référence API de HubRise](/developers/api/general-concepts).
+
+HubRise propose une formule payante calculée sur chaque point de vente. Pour plus d'informations, voir la rubrique [Tarification](/pricing) de HubRise.
