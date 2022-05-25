@@ -13,7 +13,7 @@ meta:
 
 ---
 
-## Enable the HubRise integration
+## Enable the HubRise Integration
 
 You cannot connect OrderLord autonomously. OrderLord support will do this for you. Before you contact them, you need to give OrderLord permission to your HubRise Account by following these steps:
 
