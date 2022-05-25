@@ -1,14 +1,13 @@
 ---
-title: Sending Orders
+title: Receive Orders
 position: 5
 layout: documentation
 meta:
-  title: Sending Orders | Just Eat Flyt | HubRise
-  description: Find out the technical details of how orders are sent from Just Eat to HubRise, which fields are passed and which are not.
+  title: Receive Orders | Just Eat Flyt | HubRise
+  description: Find out the technical details of how orders are received from Just Eat into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Just Eat to HubRise allows you to receive Just Eat orders directly in your EPOS.
-This page describes the information that HubRise receives from Just Eat for your orders.
+Connecting Just Eat to HubRise allows you to receive Just Eat orders directly in your EPOS. This page describes the information that HubRise receives from Just Eat for your orders.
 
 ## Items and Options
 
@@ -31,7 +30,7 @@ New orders must be marked as `Successful` or `Failed` within 3 minutes, otherwis
 
 ---
 
-### Change the status of an order in Just Eat
+### Change the Status of an Order in Just Eat
 
 When the status of an order changes to `rejected` or `cancelled` in HubRise, Just Eat Bridge notifies Just Eat that the order is `Failed`.
 
@@ -39,7 +38,7 @@ Just Eat Bridge lets you decide which HubRise status triggers the `Successful` s
 
 Other HubRise status values are not supported and are not sent to Just Eat.
 
-### Change the status of an order in HubRise
+### Change the Status of an Order in HubRise
 
 Just Eat Bridge does not change order statuses in HubRise.
 
@@ -57,7 +56,7 @@ These are typically associated with specific ref codes in your EPOS, which you c
 
 The customer's details provided by Just Eat depend on the service type for the order.
 
-- For orders delivered by the restaurant, Just Eat sends the full customer details, including name and address.
+- For orders delivered by the restaurant, HubRise receives the full customer details, including name and address.
 - For pick-up orders, only the name is provided.
 - For orders delivered by Just Eat, only the driver's information is provided.
 

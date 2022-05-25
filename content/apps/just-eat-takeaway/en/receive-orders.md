@@ -1,14 +1,13 @@
 ---
-title: Sending Orders
-position: 8
+title: Receive Orders
+position: 6
 layout: documentation
 meta:
-  title: Sending Orders | Just Eat Takeaway | HubRise
-  description: Find out the technical details of how orders are sent from Just Eat Takeaway to HubRise, which fields are passed and which are not.
+  title: Receive Orders | Just Eat Takeaway | HubRise
+  description: Find out the technical details of how orders are received from Just Eat Takeaway to HubRise, which fields are passed and which are not.
 ---
 
-Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS.
-This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
+Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS. This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
 
 ## Items and Options
 
@@ -26,7 +25,7 @@ A Just Eat order goes through several statuses during its lifecycle:
 
 As a minimum requirement, Just Eat Takeaway expects every successful order to be marked as `Confirmed`.
 
-### Change the status of an order in Just Eat Takeaway
+### Change the Status of an Order in Just Eat Takeaway
 
 When an order status changes on HubRise, Just Eat Takeaway Bridge notifies Just Eat Takeaway. The correspondence between HubRise and Just Eat Takeaway statuses is as follows:
 
@@ -42,7 +41,7 @@ Just Eat Takeaway Bridge lets you decide which HubRise status triggers the `Conf
 
 Other HubRise status values are not supported and are not sent on Just Eat Takeaway.
 
-### Change the status of an order in HubRise
+### Change the Status of an Order in HubRise
 
 Just Eat Takeaway Bridge does not change order statuses in HubRise.
 
@@ -225,6 +224,6 @@ Below is a sample payload for charges.
 
 </details>
 
-### Customers' Notes
+## Customer Notes
 
-Customers' notes about the order are encoded in the `customer_notes` field.
+Product-level customer notes are encoded in the `customer_notes` field.

@@ -25,17 +25,19 @@ You will need to repeat this manual procedure for all your available items.
 
 Note that items in the **Modifier Groups** tab also have the **External Data** field, but you generally do not need to enter any value as this is not sent to the EPOS.
 
-## Product-Level Comments
+## Customer Notes
+
+Customer notes are comments that customers can add to individual products when placing an order. They are generally used for cooking instructions.
 
 ---
 
-**IMPORTANT NOTE:** Product-level comments are automatically disabled on your Uber Eats store when you connect to HubRise.
+**IMPORTANT NOTE:** Customer notes are automatically disabled on your Uber Eats store when you connect to HubRise.
 
 ---
 
-Even though HubRise supports product-level comments, most EPOS systems and integrations do not.
-To avoid poor customer experience resulting from product-level comments not being sent to the EPOS, these are automatically disabled when you first connect your Uber Eats store to HubRise.
+Even though HubRise supports customer notes, most EPOS systems and integrations do not.
+To avoid poor customer experience resulting from customer notes not being sent to the EPOS, these are automatically disabled when you first connect your Uber Eats store to HubRise.
 
 If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
 
-However, if your EPOS integration supports product-level comments, or if you have an alternative way to read them, for example from your Uber Eats tablet, you can always request Uber Eats support to re-enable product-level comments on your store.
+However, if your EPOS integration supports customer notes, or if you have an alternative way to read them, for example from your Uber Eats tablet, you can always request Uber Eats support to re-enable customer notes on your store.

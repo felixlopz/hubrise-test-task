@@ -13,7 +13,7 @@ This page explains how to find the ref codes by either downloading your Lightspe
 
 You can also export your Lightspeed catalog directly into HubRise with Lightspeed Restaurant Bridge.
 Some connected apps offer the ability to import the catalog directly from HubRise, and therefore to autopopulate the ref codes.
-For more details about this feature and its limitations in Lightspeed Restaurant Bridge, see [Pushing the Catalog](/apps/lightspeed-restaurant/pushing-catalog).
+For more details about this feature and its limitations in Lightspeed Restaurant Bridge, see [Pull the Catalog](/apps/lightspeed-restaurant/pull-catalog).
 
 ## Downloading The Catalog In Bulk
 

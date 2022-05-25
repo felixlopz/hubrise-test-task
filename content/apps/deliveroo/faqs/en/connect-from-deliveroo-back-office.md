@@ -18,7 +18,7 @@ To enable HubRise, follow these steps:
 1. Under **Webhook URL**, copy the following value:
    `https://deliveroo.hubrise-apps.com/deliveroo_webhook`.
 1. Choose if you want to manage your Deliveroo menu from the till:
-   - To update your menu by [pushing the HubRise catalog](/apps/deliveroo/pulling-menu) to Deliveroo, select **Yes**.
+   - To update your menu by [pushing the HubRise catalog](/apps/deliveroo/push-catalog) to Deliveroo, select **Yes**.
    - To update your menu manually from the Deliveroo back office, select **No**. Make sure all the products in your menu have a PLU code.
 1. Confirm that your products have a PLU code.
 1. Click **Connect your till (POS)** to confirm.
