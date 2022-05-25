@@ -184,7 +184,7 @@ content:
           documentation: /apps/hop-delivery
           logo: hop-delivery.png
           title: Hop Delivery
-          description: Hop Delivery is an online ordering and delivery platform for restaurants and retail stores. Customers can order online from the Hop Delivery or the restaurant white branded website. Hop Delivery operates in Geneva, Switzerland.
+          description: Hop Delivery is an online ordering and delivery platform for restaurants and retail stores. Customers can order online from the Hop Delivery platform or from the white branded website. Hop Delivery operates in Geneva, Switzerland.
           additional_info:
         - website: https://www.just-eat.co.uk/
           documentation: /apps/just-eat-flyt
@@ -215,11 +215,6 @@ content:
           title: Skip The Dishes
           description: Skip The Dishes is an online food ordering and delivery platform for local restaurants. Customers can order food or alcohol online or via a mobile app. Available in Canada.
           additional_info:
-        - website: https://www.smood.ch/en
-          documentation: /apps/smood
-          logo: smood.png
-          title: Smood
-          description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros. HubRise is integrated with Dismatch, their delivery service.
         - website: https://www.justeattakeaway.com/
           documentation: /apps/just-eat-takeaway
           logo: takeaway.png
@@ -396,6 +391,11 @@ content:
           title: Seconds
           description: Seconds powers businesses to offer same day delivery by managing deliveries with their own drivers, or connecting them to third-party delivery providers. Seconds dispatchs orders automatically to third-parties and internal drivers via a dedicated app.
           additional_info:
+        - website: https://www.smood.ch/en
+          documentation: /apps/smood
+          logo: smood.png
+          title: Smood
+          description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros. HubRise is integrated with Dismatch, their delivery service.
         - website: https://stuart.com
           documentation: /apps/stuart
           logo: stuart.png
