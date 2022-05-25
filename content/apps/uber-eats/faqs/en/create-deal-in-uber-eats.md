@@ -1,5 +1,5 @@
 ---
-title: Can I Create a Deal in Uber Eats?
+title: How to Create a Deal in Uber Eats?
 position: 7
 layout: documentation
 meta:

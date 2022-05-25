@@ -25,6 +25,18 @@ You will need to repeat this manual procedure for all your available items.
 
 Note that items in the **Modifier Groups** tab also have the **External Data** field, but you generally do not need to enter any value as this is not sent to the EPOS.
 
+## SKUs
+
+SKUs in HubRise are variations of a same product, such as the sizes of a pizza.
+
+While Uber Eats menus do not natively support variations, you can use modifiers to create a product with variations. For a step-by-step guide on how to do this, see [How To Create a Product With Variations in Uber Eats?](/apps/uber-eats/faqs/create-product-with-skus).
+
+## Deals
+
+Uber Eats menus do not natively support deals, such as a pizza + drink combination at a discounted price.
+
+However, you can use modifiers with a special structure to create a product that works as a deal. For a step-by-step guide on how to do this, see [How To Create a Deal in Uber Eats?](/apps/uber-eats/faqs/create-deal-in-uber-eats).
+
 ## Customer Notes
 
 Customer notes are comments that customers can add to individual products when placing an order. They are generally used for cooking instructions.
@@ -35,8 +47,7 @@ Customer notes are comments that customers can add to individual products when p
 
 ---
 
-Even though HubRise supports customer notes, most EPOS systems and integrations do not.
-To avoid poor customer experience resulting from customer notes not being sent to the EPOS, these are automatically disabled when you first connect your Uber Eats store to HubRise.
+HubRise supports customer notes, but not all EPOS systems and integrations do. To avoid poor customer experience resulting from customer notes not being sent to the EPOS, these are automatically disabled when you first connect your Uber Eats store to HubRise.
 
 If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
 

@@ -1,5 +1,5 @@
 ---
-title: Can I Create a Product With Variations in Uber Eats?
+title: How to Create a Product With Variations in Uber Eats?
 position: 6
 layout: documentation
 meta:
