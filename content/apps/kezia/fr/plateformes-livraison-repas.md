@@ -34,21 +34,21 @@ Pour savoir comment accéder à cette page, consultez l'aide sur la [configurati
 
 Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivants.
 
-| Section             | Nom                                               | Code ref                                                 |
-| ------------------- | ------------------------------------------------- | -------------------------------------------------------- |
-| Types de service    | Code ref livraison Uber                           | (laisser vide)                                           |
-| Types de service    | Code ref livraison par le restaurant              | (laisser vide)                                           |
-| Types de service    | Code ref à emporter                               | (laisser vide)                                           |
-| Types de service    | Code ref sur place                                | (laisser vide)                                           |
-| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes en livraison`                                 |
-| Articles spéciaux   | Code ref jetables                                 | COUV                                                     |
-| Remises             | Code ref remise                                   | (laisser vide)                                           |
-| Frais               | Code ref frais de livraison                       | (laisser vide)                                           |
-| Frais               | Code ref supplément petite commande               | (laisser vide)                                           |
-| Frais               | Code ref pourboire                                | (laisser vide)                                           |
-| Paiements           | Code ref paiement                                 | (laisser vide)                                           |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`            |
-| Menu                | Activer les notes de préparation sur les articles | Cocher la case                                           |
+| Section             | Nom                                               | Code ref                                      |
+| ------------------- | ------------------------------------------------- | --------------------------------------------- |
+| Types de service    | Code ref livraison Uber                           | (laisser vide)                                |
+| Types de service    | Code ref livraison par le restaurant              | (laisser vide)                                |
+| Types de service    | Code ref à emporter                               | (laisser vide)                                |
+| Types de service    | Code ref sur place                                | (laisser vide)                                |
+| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes en livraison`                      |
+| Articles spéciaux   | Code ref jetables                                 | COUV                                          |
+| Remises             | Code ref remise                                   | (laisser vide)                                |
+| Frais               | Code ref frais de livraison                       | (laisser vide)                                |
+| Frais               | Code ref supplément petite commande               | (laisser vide)                                |
+| Frais               | Code ref pourboire                                | (laisser vide)                                |
+| Paiements           | Code ref paiement                                 | (laisser vide)                                |
+| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"` |
+| Menu                | Activer les notes de préparation sur les articles | Cocher la case                                |
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
 
