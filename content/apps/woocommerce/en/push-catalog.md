@@ -1,25 +1,25 @@
 ---
-title: Pulling The Catalog
+title: Push the Catalog
 position: 5
 layout: documentation
 meta:
-  title: Pulling The Catalog | WooCommerce | HubRise
-  description: Find out how to publish your catalog to the WooCommerce platform, how items and options are encoded, and which features are supported.
+  title: Push the Catalog | WooCommerce | HubRise
+  description: Find out how to push your HubRise catalog to WooCommerce, how items and options are encoded, and which features are supported.
 ---
 
-With WooCommerce Bridge, you can pull your HubRise catalog directly into your WooCommerce store with a single click.
+With WooCommerce Bridge, you can push your HubRise catalog directly into your WooCommerce store with a single click.
 
-You can also configure the bridge to pull your catalog into WooCommerce every time it is updated on HubRise. For more information, see [Catalog](/apps/woocommerce/configuration#catalog).
+You can also configure the bridge to push your catalog to WooCommerce every time it is updated on HubRise. For more information, see [Catalog](/apps/woocommerce/configuration#catalog).
 
-This page explains how you can pull and update your products on WooCommerce, and what information about HubRise catalogs can be pulled into the platform.
+This page explains how you can push your catalog and what information is sent to WooCommerce.
 
-## Populating a HubRise Catalog
+## Populate a HubRise Catalog
 
-To be able to pull your products into WooCommerce, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To be able to push your catalog into WooCommerce, you must populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Pulling the Catalog From the Configuration Page
+## Push the Catalog
 
 Once your catalog is populated on HubRise, you can publish it on your WooCommerce store by following these steps.
 
@@ -27,9 +27,9 @@ Once your catalog is populated on HubRise, you can publish it on your WooCommerc
 1. Select the location connected with your WooCommerce store.
 1. Select **WooCommerce Bridge** from the list of connected apps.
 1. From the WooCommerce Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
-1. On the configuration page, from the **Actions** section at the bottom of the page, select **Push the catalog to WooCommerce**.
+1. On the configuration page, from the **Actions** section at the bottom of the page, select **Push the catalog**.
 
-Note that WooCommerce Bridge creates new products or updates existing ones, but never deletes existing items from your WooCommerce catalog. If you select the checkbox **Update prices of existing products** in the Configuration page, WooCommerce Bridge will update the price of your WooCommerce products whenever this is different from the price of the corresponding HubRise product.
+WooCommerce Bridge creates new products or updates existing ones, but never deletes existing items from your WooCommerce catalog. If you select the checkbox **Update prices of existing products** in the Configuration page, WooCommerce Bridge will update the price of your WooCommerce products whenever this is different from the price of the corresponding HubRise product.
 
 ## Technical Reference
 
@@ -46,7 +46,7 @@ The following sections describe in detail how HubRise catalogs are mapped to Woo
 The categories in a HubRise catalog are mapped one-to-one to categories of products on WooCommerce.
 The order in which categories and products appear on HubRise is maintained on WooCommerce.
 
-For every category, the following HubRise fields are pulled into WooCommerce:
+For every category, the following HubRise fields are sent to WooCommerce:
 
 - `name`: The name of the category
 - `description`: The description of the category
@@ -72,7 +72,7 @@ The bridge uses HubRise ref codes to detect existing products in WooCommerce and
 
 ---
 
-**IMPORTANT NOTE:** Skus with no ref codes in the HubRise catalog are not pulled in WooCommerce.
+**IMPORTANT NOTE:** Skus with no ref codes in the HubRise catalog are not sent to WooCommerce.
 
 ---
 

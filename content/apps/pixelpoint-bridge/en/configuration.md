@@ -48,7 +48,7 @@ If you both specify a default ref code and select the checkbox, PixelPoint Bridg
 - If a match is found, PixelPoint Bridge will send the discount with the correct ref code to your EPOS.
 - If a match is not found, PixelPoint Bridge will send the discount with the default ref code that you specified, instead.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
 

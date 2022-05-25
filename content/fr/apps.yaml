@@ -32,13 +32,13 @@ content:
           title: Carré POS
           description: Carré POS est un logiciel de caisse qui permet une prise de commande rapide et s'adapte à tous les types de commerces, dont les restaurants, les boulangeries, les boutiques, les coiffeurs ou encore les fleuristes.
         - website: https://www.epostechnologies.co.uk/
-          documentation:
+          documentation: /apps/epos-technologies
           logo: epostechnologies.png
           title: EPOS Technologies
           description: Epos Technologies, adapté à tout type de commerce, offre de nombreuses fonctionnalités dont un système de gestion de livreurs, un kiosque, un écran cuisine, ainsi qu'une solution de commande en ligne et de commande à table.
           additional_info:
         - website: https://www.etakeawaymax.co.uk/
-          documentation:
+          documentation: /apps/etakeaway-max
           logo: etakeawaymax.png
           title: eTakeaway Max
           description: eTakeaway Max est une solution d'encaissement et de commande en ligne pour les restaurants.
@@ -401,7 +401,7 @@ content:
           description: Seconds permet aux commerçants de gérer leurs livraisons avec leur propre flotte ou d'utiliser  des services de livraison tiers. Seconds transmet automatiquement les commandes aux services de livraison ou aux livreurs du magasin via une app dédiée.
           additional_info:
         - website: https://stuart.com/fr
-          documentation:
+          documentation: /apps/stuart
           logo: stuart.png
           title: Stuart
           description: Stuart propose aux commerces de toutes tailles et de tous secteurs, des services de livraison rapide sur demande avec une méthode de transport personnalisée. Disponible dans 4 pays et 100 villes.

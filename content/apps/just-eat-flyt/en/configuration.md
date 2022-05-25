@@ -45,20 +45,20 @@ Just Eat customers can pay for their order either online or by cash for restaura
 
 This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
 
-## Menu
+## Catalog
 
-![Just Eat Flyt Bridge configuration page, Menu section](../images/012-en-just-eat-configuration-page-menu.png)
+![Just Eat Flyt Bridge configuration page, Catalog section](../images/012-en-just-eat-configuration-page-menu.png)
 
-From this section, choose if you want to update your Just Eat menu every time you update the HubRise catalog. By default, this option is turned off.
+From this section, choose if you want to push your HubRise catalog to Just Eat every time you update the HubRise catalog. By default, this option is turned off.
 
-### Availability
+### Opening Hours
 
-In the **Availability** section, you can choose to make your products available for delivery, collection, or both.
+In the **Opening hours** section, you can choose to make your products available for delivery, collection, or both.
 
 For each day of the week, set the opening and closing times of your store by specifying one or two time shifts. Customers will not be able to order from your Just Eat store outside of these time windows.
 
 If your restaurant is closed on a specific day, click **Close the day**.
-To quickly copy the availability to all the following days on the list, click **Copy to bottom**.
+To quickly copy opening hours to all the following days on the list, click **Copy to bottom**.
 
 ---
 
@@ -66,11 +66,11 @@ To quickly copy the availability to all the following days on the list, click **
 
 ---
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of Just Eat Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
 

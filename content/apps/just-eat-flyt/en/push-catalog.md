@@ -1,35 +1,37 @@
 ---
-title: Pulling The Menu
+title: Push the Catalog
 position: 6
 layout: documentation
 meta:
-  title: Pulling The Menu | Just Eat Flyt | HubRise
-  description: Find out how to publish your menu to the Just Eat platform, how items and options are encoded, and which features are supported.
+  title: Push the Catalog | Just Eat Flyt | HubRise
+  description: Find out how to push a catalog from HubRise to the Just Eat platform, how items and options are encoded, and which features are supported.
 ---
 
 Just Eat does not provide a back office to populate and customise the items in your menu.
-You can use Just Eat Flyt Bridge to pull your HubRise catalog directly into your Just Eat store with a single click.
+You can use Just Eat Flyt Bridge to push your HubRise catalog into your Just Eat store with a single click.
 
-This page explains how you can pull and update your menu on Just Eat, and what information about HubRise catalogs can be pulled into the platform.
+You can also configure the bridge to push your catalog into the platform every time it is updated on HubRise. For more information, see [Catalog](/apps/just-eat-flyt/configuration#catalog).
 
-## Populating a HubRise Catalog
+This page explains how to push your catalog, and what information is sent to the platform.
 
-To be able to pull your menu into Just Eat, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+## Populate a HubRise Catalog
+
+To be able to update your menu in Just Eat, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Publishing the Menu From the Configuration Page
+## Push the Catalog
 
-Once your catalog is populated on HubRise, you can publish it on your Just Eat store by following these steps.
+Once your catalog is populated on HubRise, you can push it to your Just Eat store by following these steps.
 
 1. Log in to your HubRise account.
 1. Select the location connected with your Just Eat store.
 1. Select **Just Eat Flyt Bridge** from the list of connected apps.
-1. In Just Eat Flyt Bridge, click the **Actions** tab, then select **Publish menu on the platform**.
+1. In Just Eat Flyt Bridge, click the **Actions** tab, then select **Push catalog**.
 
 ---
 
-**IMPORTANT NOTE:** Publishing the HubRise catalog to Just Eat will erase your current menu on your Just Eat store. This action cannot be reverted.
+**IMPORTANT NOTE:** Pushing your HubRise catalog into Just Eat will erase the current menu on your Just Eat store. This action cannot be reverted.
 
 ---
 
@@ -119,4 +121,4 @@ Deals and discounts are not supported on Just Eat. Therefore, deals and discount
 
 ### Availability
 
-Every time you push your HubRise catalog to Just Eat, you also update the availability of your menu, based on the values you set from the [configuration page](/apps/just-eat-flyt/configuration/#menu) of Just Eat Flyt Bridge.
+Every time you push your HubRise catalog to Just Eat, you also update the availability of your menu, based on the values you set from the [configuration page](/apps/just-eat-flyt/configuration/#catalog) of Just Eat Flyt Bridge.

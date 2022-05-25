@@ -1,14 +1,13 @@
 ---
-title: Sending Orders
+title: Receive Orders
 position: 5
 layout: documentation
 meta:
-  title: Sending Orders | Just Eat Flyt | HubRise
-  description: Find out the technical details of how orders are sent from Just Eat to HubRise, which fields are passed and which are not.
+  title: Receive Orders | Just Eat Flyt | HubRise
+  description: Find out the technical details of how orders are received from Just Eat into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Just Eat to HubRise allows you to receive Just Eat orders directly in your EPOS.
-This page describes the information that HubRise receives from Just Eat for your orders.
+Connecting Just Eat to HubRise allows you to receive Just Eat orders directly in your EPOS. This page describes the information that HubRise receives from Just Eat for your orders.
 
 ## Items and Options
 
@@ -57,7 +56,7 @@ These are typically associated with specific ref codes in your EPOS, which you c
 
 The customer's details provided by Just Eat depend on the service type for the order.
 
-- For orders delivered by the restaurant, Just Eat sends the full customer details, including name and address.
+- For orders delivered by the restaurant, HubRise receives the full customer details, including name and address.
 - For pick-up orders, only the name is provided.
 - For orders delivered by Just Eat, only the driver's information is provided.
 

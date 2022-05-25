@@ -1,19 +1,19 @@
 ---
-title: Receiving Orders
+title: Push Orders
 position: 9
 layout: documentation
 meta:
-  title: Receiving Orders | Lightspeed Restaurant | HubRise
+  title: Push Orders | Lightspeed Restaurant | HubRise
   description: Find out the technical details of how orders are sent to Lightspeed from HubRise, which fields are passed and which are not.
 ---
 
-Connecting Lightspeed Restaurant to HubRise allows you to receive orders from different connected solutions directly in your EPOS. As soon as you connect Lightspeed Restaurant Bridge, HubRise orders will be sent to your Lightspeed Restaurant EPOS, without any additional setup required.
+HubRise can push orders from different connected solutions directly into your Lightspeed Restaurant EPOS. You just need to connect Lightspeed Restaurant Bridge to HubRise for orders to be sent to your EPOS, with no additional configuration.
 
-This page explains what information Lightspeed Restaurant Bridge sends to your EPOS.
+This page explains what information HubRise sends to your EPOS.
 
 ## Items and Options
 
-Lightspeed Restaurant can receive the complete information about items and options, including name, EPOS ref code, quantity, and price.
+Lightspeed Restaurant Bridge sends your EPOS the complete information about items and options, including name, EPOS ref code, quantity, and price.
 
 Every item on Lightspeed must have a ref code. Orders containing items with incorrect or missing ref codes are rejected by the EPOS. For this reason, when sending an order to the EPOS, Lightspeed Restaurant Bridge skips all items without a ref code.
 

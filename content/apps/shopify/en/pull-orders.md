@@ -1,14 +1,13 @@
 ---
-title: Sending Orders
+title: Pull Orders
 position: 8
 layout: documentation
 meta:
-  title: Sending Orders | Shopify | HubRise
-  description: Find out the technical details of how orders are sent from Shopify to HubRise, which fields are passed and which are not.
+  title: Pull Orders | Shopify | HubRise
+  description: Find out the technical details of how orders are pulled from Shopify into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Shopify to HubRise allows you to receive orders directly in your EPOS.
-This page describes the information that HubRise receives from Shopify for your orders.
+Connecting Shopify to HubRise allows you to receive orders directly in your EPOS. This page describes the information that HubRise receives from Shopify for your orders.
 
 ## Items, Options, and Deals
 
@@ -31,9 +30,7 @@ Shopify Bridge creates a customer in HubRise every time you receive an order fro
 
 ## Discounts and Charges
 
-Shopify Bridge sends to HubRise information about discounts and delivery charges, if present.
-
----
+Shopify Bridge provides information about discounts and delivery charges, if present.
 
 ## Technical Reference
 
