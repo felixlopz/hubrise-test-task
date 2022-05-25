@@ -3,11 +3,17 @@ position: 1
 title: Overview
 layout: documentation
 meta:
-  title: Technical Documentation Overview \| HubRise
+  title: Technical Documentation Overview | HubRise
   description: Orders, customers and product catalogs are saved into HubRise to provide connected apps with real-time access to your data. Integrate third party solutions.
 gallery:
   - __gallery-001-en.png
-  - __gallery-002-en.png path_override: / app_info: category: Middleware availability: Worldwide price_range: €25 / month. contact: contact@hubrise.com / support@hubrise.com
+  - __gallery-002-en.png
+path_override: /
+app_info:
+  category: Middleware
+  availability: Worldwide
+  price_range: €25 / month.
+  contact: contact@hubrise.com / support@hubrise.com
 ---
 
 HubRise est une plateforme logicielle intermédiaire (middleware) qui permet de connecter des solutions tierces. Le système fournit une interface unique destiné à un écosystème d'applications intégrées en constante évolution. Les situations d'utilisation typiques incluent les suivantes :

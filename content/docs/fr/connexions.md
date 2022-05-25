@@ -3,7 +3,7 @@ title: Apps and Connections
 position: 4
 layout: documentation
 meta:
-  title: Apps and Connections \| HubRise
+  title: Apps and Connections | HubRise
   description: How connections to HubRise can be managed.
 ---
 

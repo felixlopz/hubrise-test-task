@@ -3,7 +3,7 @@ title: FAQs
 position: 40
 layout: documentation
 meta:
-  title: Frequently Asked Questions \| HubRise
+  title: Frequently Asked Questions | HubRise
   description: Frequently asked questions and answers on quotas, on plans, on user profile, on accounts, on connections and a lot more.
 ---
 

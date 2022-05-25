@@ -3,7 +3,7 @@ title: Payment
 position: 10
 layout: documentation
 meta:
-  title: Payment \| HubRise
+  title: Payment | HubRise
   description: How to manage payments and quotes on HubRise.
 ---
 

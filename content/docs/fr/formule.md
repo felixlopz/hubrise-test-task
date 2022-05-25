@@ -3,7 +3,7 @@ title: Usage
 position: 9
 layout: documentation
 meta:
-  title: Usage and Plans \| HubRise
+  title: Usage and Plans | HubRise
   description: How to manage HubRise Usage and Plans.
 ---
 
