@@ -58,9 +58,9 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 
 ## Eat.ch
 
-To receive Eat.ch orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+To receive Eat.ch orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
 
-To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Takeaway Bridge, see the [Just Eat Takeaway Configuration page](/apps/just-eat-takeaway/configuration).
 
 | Section        | Name                                     | Ref code                                          |
 | -------------- | ---------------------------------------- | ------------------------------------------------- |
@@ -76,9 +76,9 @@ To correctly receive your orders, specify the following values in the Just Eat T
 
 ## Just Eat
 
-To receive Just Eat orders in Lightspeed, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription.
+To receive Just Eat orders in Lightspeed, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
 
-To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page.
+To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Flyt Bridge, see the [Just Eat flyt Configuration page](/apps/just-eat-flyt/configuration).
 
 Depending on your needs, you may have to create some products in Lightspeed. If you don't use these features, you can skip creating the products and leave the corresponding fields empty.
 
@@ -115,9 +115,9 @@ To receive your HOP Delivery orders in Lightspeed, use the following values to c
 
 ## Takeaway.com
 
-To receive Takeaway.com orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+To receive Takeaway.com orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
 
-To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Takeaway Bridge, see the [Just Eat Takeaway Configuration page](/apps/just-eat-takeaway/configuration).
 
 | Section        | Name                                     | Ref code                                          |
 | -------------- | ---------------------------------------- | ------------------------------------------------- |
@@ -133,9 +133,9 @@ To correctly receive your orders, specify the following values in the Just Eat T
 
 ## Thuisbezorgd.nl
 
-To receive Thuisbezorgd.nl orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription.
+To receive Thuisbezorgd.nl orders in Lightspeed, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
 
-To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page.
+To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Takeaway Bridge, see the [Just Eat Takeaway Configuration page](/apps/just-eat-takeaway/configuration).
 
 | Section        | Name                                     | Ref code                                          |
 | -------------- | ---------------------------------------- | ------------------------------------------------- |
