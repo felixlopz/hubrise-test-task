@@ -45,10 +45,7 @@ Images that you upload on Just Eat must meet the following requirements:
 
 - Landscape orientation (not portrait nor square).
 - At least 1024 x 768 pixels, in 4:3 format.
-- Between 1 Mb and 10 Mb in size.
 - JPG or PNG format.
-
-Just Eat guidelines suggest to save your images with the same name as the dish they represent, for example `LargeChickenNuggetsAndChips.jpg`.
 
 ---
 
