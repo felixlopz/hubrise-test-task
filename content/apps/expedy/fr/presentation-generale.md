@@ -24,7 +24,7 @@ Expedy Print est une solution d'impression autonome. Elle peut ainsi confirmer a
 
 Les imprimantes Expedy se connectent sur le réseau internet de l'établissement via le réseau WiFi ou Ethernet, ou au réseau téléphonique mobile avec une clé 4G. La configuration et la connexion aux applications externes se paramètrent depuis un back-office. Une fois configurées, les imprimantes Expedy fonctionnent sans intervention humaine.
 
-Si vous souhaitez conserver votre imprimante existante, Expedy propose le module Expedy PrintBox, compatible avec les imprimantes ESC/POS (Epson, Star, Brother, Toshiba, Zebra...). Ce module rend votre imprimante autonome, avec des fonctionnalités similaires aux imprimantes Expedy.
+Si vous souhaitez conserver votre imprimante existante, Expedy propose le module Expedy PrintBox, compatible avec les imprimantes ESC/POS (Epson, Star, Brother, Toshiba, Zebra...). Avec ce module votre imprimante autonome, bénéficie de fonctionnalités similaires aux imprimantes Expedy.
 
 ## Fonctionnalités de l'intégration
 
