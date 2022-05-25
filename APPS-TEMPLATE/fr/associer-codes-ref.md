@@ -3,6 +3,6 @@ title: Associer les codes ref
 position: 5
 layout: documentation
 meta:
-  title: Associer les codes ref | Solution | HubRise
-  description: Comment saisir les codes ref de votre solution d'encaissement dans votre menu Solution, en utilisant le gestionnaire de menu de Solution.
+  title: Associer les codes ref | SOLUTION | HubRise
+  description: Comment saisir les codes ref de votre SOLUTION d'encaissement dans votre menu SOLUTION, en utilisant le gestionnaire de menu de SOLUTION.
 ---
