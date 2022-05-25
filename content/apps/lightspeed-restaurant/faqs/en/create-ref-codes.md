@@ -17,7 +17,7 @@ To create the ref codes in your Lightspeed account, you have two options:
 
 ## Service Types
 
-Service types are called _account profiles_ on Lightspeed. To create a service type, follow these steps.
+Service types are called _account profiles_ on Lightspeed. To create a service type, follow these steps:
 
 1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Account profiles**.
 1. Click **Add an account profile**, then click **OK**.
@@ -35,29 +35,55 @@ Other specific service type ref codes must be used when you connect Lightspeed R
 
 ## Discounts
 
-To create a discount, follow these steps.
-
-1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Discounts**.
-1. Click **Add a discount**.
-1. In the **Add new discount** page, specify the discount code in the first field.
-1. Fill in the other sections in the page as needed, then click **Save**.
-1. Repeat the process for all the discounts you support on every platform.
-
-## Charges
-
-To create a charge, you need to create an item by following these steps.
+To create a discount that is compatible with the HubRise data model, follow these steps:
 
 1. From your Lightspeed back office, select **Configuration**, then select **Items** > **Items**.
 1. Click **Add item**.
-1. Next to **Sku**, select **Click here to add your custom SKU manually**.
-1. A field appears where you can include the ref code for your charge.
-1. For **Price structure**, make sure you select **Single price** from the dropdown menu.
-1. Fill in the other sections in the page as needed, then click **Save**.
+1. In the **Create new item** page, enter the following values:
+   - In the **Item receipt name** field, enter the name of the discount.
+   - Next to **Sku**, select **Click here to add your custom SKU manually**. A field appears where you can include the ref code for your discount.
+   - From the **Price structure** list, select **Interactive negative price**.
+   - Leave the **Cost price** field empty.
+   - Optionally, fill in the other sections in the page.
+1. To finish, click **Save**.
+1. Repeat the process for all the discounts you support on every platform.
+
+## Deals
+
+To create a deal that is compatible with the HubRise data model, follow these steps:
+
+1. From your Lightspeed back office, select **Configuration**, then select **Items** > **Items**.
+1. Click **Add item sequence**.
+1. In the **Create new item sequence** page, enter the following values:
+   - In the **Sequence receipt name** field, enter the name of the deal.
+   - Next to **Sku**, select **Click here to add your custom SKU manually**. A field appears where you can include the ref code for your deal.
+   - From the **Price structure** list, select **Interactive negative price**.
+   - Leave the **Cost price** field empty.
+   - Optionally, fill in the other sections in the page.
+1. Click **Save**. A page opens where you can further configure the deal.
+1. In the **Edit item sequence** page, under **Items that are part of this sequence**, click **Edit the item list**.
+1. In the **Item list** section, enter the name of the products that are part of the deal, and click the **+ Add** icon to add them.
+1. To finish, click **Save**.
+1. Repeat the process for all the deals you support on every platform.
+
+## Charges
+
+To create a charge, you need to create an item by following these steps:
+
+1. From your Lightspeed back office, select **Configuration**, then select **Items** > **Items**.
+1. Click **Add item**.
+1. In the **Create new item** page, enter the following values:
+   - In the **Item receipt name** field, enter the name of the discount.
+   - Next to **Sku**, select **Click here to add your custom SKU manually**. A field appears where you can include the ref code for your charge.
+   - From the **Price structure** list, select **Single price**.
+   - In the **Cost price** field, enter the price of the charge.
+   - Optionally, fill in the other sections in the page.
+1. To finish, click **Save**.
 1. Repeat the process for all the charges you support on every platform.
 
 ## Payment Methods
 
-To create a payment method, follow these steps.
+To create a payment method, follow these steps:
 
 1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Payment methods**.
 1. Click **Add a payment method**.
