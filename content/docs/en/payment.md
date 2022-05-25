@@ -128,7 +128,7 @@ To view your payments history:
 
 Payment history for Accounts will group Location payments for the date.
 
-![Payment history example](../images/044-en-payment-history.png)
+![Payment history example](../images/044-en-2x-payment-history.png)
 
 The first time you make a payment, the payment is listed as an upgrade. Subsequent payments will be listed with the date of the [billing period](docs/payment#billing-cycles). Once you have a valid payment method saved, payments are automated.
 

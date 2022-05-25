@@ -88,7 +88,7 @@ docker-compose -f docker-compose.mac.yml up --build website_prod
 
 For HubRise system administrators.
 
-Use the same process as a the other apps (see cluster/doc/build_deploy_app.md)
+Use the same process as the other apps (see cluster/doc/build_deploy_app.md)
 
 # Test email-sending forms locally
 

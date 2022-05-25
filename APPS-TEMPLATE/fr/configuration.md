@@ -3,6 +3,6 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: Configuration | Solution | HubRise
-  description: Configurer Solution pour recevoir vos commandes Solution dans votre solution d'encaissement ou d'autres applications connectées à HubRise.
+  title: Configuration | SOLUTION | HubRise
+  description: Configurer SOLUTION pour recevoir vos commandes SOLUTION dans votre SOLUTION d'encaissement ou d'autres applications connectées à HubRise.
 ---
