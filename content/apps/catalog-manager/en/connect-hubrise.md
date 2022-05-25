@@ -23,7 +23,7 @@ To connect Catalog Manager to your HubRise account:
 
 1. You have now added Catalog Manager to your HubRise Account.
 
-![Catalog Manager Block](../images/014-en-catalog-manager-block.png.png)
+![Catalog Manager Block](../images/014-en-catalog-manager-block.png)
 
 For more information on how to connect, block and disconnect an app on HubRise, see [Apps and Connections](https://www.hubrise.com/docs/connections).
 
