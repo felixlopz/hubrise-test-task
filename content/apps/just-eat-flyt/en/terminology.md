@@ -7,7 +7,16 @@ meta:
   description: Correspondence table showing terms used by Just Eat Flyt and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
-## Correspondence table
+## Just Eat Flyt Terms
+
+The following table explains the terms that are specific to Just Eat Flyt.
+
+| Term     | Description                                        |
+|----------|----------------------------------------------------|
+| Orderpad | Just Eat's official app to manage incoming orders. |
+| Scoober  | Just Eat delivery service.                         |
+
+## Correspondence Table
 
 HubRise and Just Eat Flyt each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.
 
