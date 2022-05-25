@@ -1,14 +1,13 @@
 ---
-title: Sending Orders
+title: Receive Orders
 position: 7
 layout: documentation
 meta:
-  title: Sending Orders | Deliveroo Technical Details | HubRise
-  description: Find out the technical details of how orders are sent from Deliveroo to HubRise, which fields are passed and which are not.
+  title: Receive Orders | Deliveroo | HubRise
+  description: Find out the technical details of how orders are received from Deliveroo into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS.
-This page describes the information that is passed by Deliveroo Bridge for the orders you receive.
+Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS. This page describes the information that is passed by Deliveroo Bridge for the orders you receive.
 
 ## Items and Options
 
@@ -152,6 +151,6 @@ The available fields in the payloads are the following:
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
 - `price`: The total amount of the small order surcharge.
 
-## Customers' Notes
+## Customer Notes
 
-Customers' notes about the order are encoded in the `customer_notes` field.
+Product-level customer notes are encoded in the `customer_notes` field.

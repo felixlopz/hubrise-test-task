@@ -1,13 +1,13 @@
 ---
-title: Sending Orders
+title: Pull Orders
 position: 7
 layout: documentation
 meta:
-  title: Sending Orders | WooCommerce | HubRise
-  description: Find out the technical details of how orders are sent from WooCommerce to HubRise, which fields are passed and which are not.
+  title: Pull Orders | WooCommerce | HubRise
+  description: Find out the technical details of how orders are pulled from WooCommerce into HubRise, which fields are passed and which are not.
 ---
 
-Connecting WooCommerce to HubRise allows you to receive WooCommerce orders directly in your EPOS. This page describes the information that HubRise receives from WooCommerce for your orders.
+Connecting WooCommerce to HubRise allows you to receive orders directly in your EPOS. This page describes the information that HubRise receives from WooCommerce for your orders.
 
 ## Items and Options
 
@@ -88,7 +88,7 @@ WooCommerce supports only delivery charges, which are sent to HubRise if present
 
 This section describes how orders are encoded in the JSON payloads you receive from WooCommerce Bridge.
 
-### Items Encoding
+### Items
 
 WooCommerce products in an order are mapped to HubRise in three different ways.
 
@@ -105,7 +105,7 @@ For every item in the order, WooCommerce Bridge provides the following informati
 - `quantity`: The quantity of items included in the order
 - `options`: The array of options attached to the item, for WooCommerce variable products with attribute name other than "sku". Otherwise, the default value is an empty array.
 
-### Options Encoding
+### Options
 
 If a product contains an option, WooCommerce Bridge provides the following information:
 

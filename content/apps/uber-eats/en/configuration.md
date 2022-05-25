@@ -3,7 +3,7 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-  title: Configuration Guide | Uber Eats | HubRise
+  title: Configuration | Uber Eats | HubRise
   description: Instructions on configuring Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
@@ -24,6 +24,9 @@ From this section, you can decide which language is used to localise your receip
 ### Service Types
 
 Service types such as Uber Eats delivery, restaurant delivery, takeaway, or eat-in might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+
+Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
+This is useful if you have specific business requirements for financial reporting.
 
 ### Special Items
 
@@ -56,38 +59,39 @@ The ref codes in this section are only applied to orders delivered by your resta
 
 Select from the dropdown menu the HubRise status which should make the order accepted in Uber Eats. Refer to your connected EPOS documentation on the HubRise website for your EPOS requirements.
 
-## Menu
+## Catalog
 
-![Uber Eats Bridge configuration page, Menu section](../images/011-en-configuration-page-menu.png)
+![Uber Eats Bridge configuration page, Catalog section](../images/011-en-configuration-page-menu.png)
 
-In this section, choose if you want to update your Uber Eats catalog every time it is updated on HubRise.
-By default, this option it turned off.
+### Automatic Catalog Push
 
-### Availability
+In this section, choose if you want to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option it turned off.
 
-In the **Availability** section, set the availability for your Uber Eats store.
+### Opening Hours
+
+In the **Opening hours** section, set the opening times for your Uber Eats store.
 
 For each day of the week, set the opening and closing times of your store by specifying one or two time shifts. Customers will not be able to order from your Uber Eats store outside of these time windows.
 
 If your restaurant is closed on a specific day, click **Close the day**.
-To quickly copy the availability to all the following days on the list, click **Copy to bottom**.
+To quickly copy opening hours to all the following days on the list, click **Copy to bottom**.
 
-### Preparation Notes
+### Customer Notes
 
-Select if you want to enable preparation notes for individual products.
-If you enable this option, make sure that your connected EPOS supports product level comments.
-
----
-
-**IMPORTANT NOTE:** To apply the updated availability and preparation notes choice, publish the menu to your Uber Eats store. For more details, see [Pulling The Menu](/apps/uber-eats/pulling-menu).
+Select if you want to enable customer notes for individual products.
+If you enable this option, make sure that your connected EPOS supports product level customer notes.
 
 ---
 
-## Saving the Configuration
+**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, push your catalog to Uber Eats. For more details, see [Push the Catalog](/apps/uber-eats/push-catalog).
+
+---
+
+## Save the Configuration
 
 Once you are happy with the configuration of Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
 

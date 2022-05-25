@@ -47,7 +47,7 @@ One exception is when referring to a specific item in HubRise. For example, if w
 
 Also, if it is an expression that has a well known acronym amongst your target audience, you should capitalise the word.
 
-Words such as a, an, and, but, for, nor, of, or, so, to, and yet must not be capitalised.
+Words such as a, an, and, but, for, nor, of, or, so, the, to, and yet must not be capitalised.
 
 > Wrong: If You Are Unsure On Whether To Capitalise Something Or Not, Do Not Capitalise It
 

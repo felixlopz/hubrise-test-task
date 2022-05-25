@@ -1,32 +1,38 @@
 ---
-title: Pulling The Menu
+title: Push the Catalog
 position: 7
 layout: documentation
 meta:
-  title: Pulling The Menu | Uber Eats | HubRise
-  description: Find out how to publish your menu to the Uber Eats platform, how items and options are encoded, and which features are supported.
+  title: Push the Catalog | Uber Eats | HubRise
+  description: Find out how to push a catalog from HubRise to Uber Eats, how items and options are encoded, and which features are supported.
 ---
 
-With Uber Eats Bridge, you can pull your HubRise catalog directly into your Uber Eats store with a single click.
+With Uber Eats Bridge, you can push your HubRise catalog into your Uber Eats store with a single click.
 
-You can also configure the bridge to pull your catalog into Uber Eats every time it is updated on HubRise. For more information, see [Menu](/apps/uber-eats/configuration#menu).
+You can also configure the bridge to push your catalog to Uber Eats every time it is updated on HubRise. For more information, see [Catalog](/apps/uber-eats/configuration#catalog).
 
-This page explains how you can pull and update your menu on Uber Eats, and what information about HubRise catalogs can be pulled into the platform.
+This page explains how to push your catalog, and what information is sent to Uber Eats.
 
-## Populating a HubRise Catalog
+## Populate a HubRise Catalog
 
-To be able to pull your menu into Uber Eats, populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To be able to update your menu in Uber Eats, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Publishing the Menu From the Configuration Page
+## Push the Catalog
 
-After your catalog is populated on HubRise, you can publish it on your Uber Eats store by following these steps:
+Once your catalog is populated on HubRise, you can push it to your Uber Eats store by following these steps:
 
 1. Log in to your HubRise account.
 1. Select the location connected with your Uber Eats store.
 1. Select **Uber Eats Bridge** from the list of connected apps.
-1. In Uber Eats Bridge, click the **Actions** tab, then select **Publish the menu on Uber Eats**.
+1. In Uber Eats Bridge, click the **Actions** tab, then select **Push catalog**.
+
+---
+
+**IMPORTANT NOTE:** Pushing your HubRise catalog to Uber Eats will erase the menu on your Uber Eats store. This action cannot be reverted.
+
+---
 
 ## Information Sent to Uber Eats
 

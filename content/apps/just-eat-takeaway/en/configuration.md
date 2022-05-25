@@ -1,6 +1,6 @@
 ---
 title: Configuration
-position: 6
+position: 5
 layout: documentation
 meta:
   title: Configuration | Just Eat Takeaway | HubRise
@@ -19,6 +19,9 @@ From this section, you can decide which language is used to localise your receip
 ## Service Types
 
 Service types such as delivery by the platform, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+
+Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
+This is useful if you have specific business requirements for financial reporting.
 
 ## Discounts
 
@@ -40,11 +43,11 @@ This section of the configuration page allows you to specify the ref codes for t
 
 Just Eat Takeaway requires you to mark every successful order as "confirmed". In this section, you can select which HubRise status change is used to send the confirmation to Just Eat Takeaway.
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of Just Eat Takeaway Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
 

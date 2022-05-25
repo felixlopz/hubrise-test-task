@@ -1,19 +1,19 @@
 ---
-title: Pushing The Catalog
+title: Pull the Catalog
 position: 12
 layout: documentation
 meta:
-  title: Pushing The Catalog | Lightspeed Restaurant | HubRise
-  description: Find out how to push the catalog from your Lightspeed Restaurant EPOS to HubRise, what information is sent to HubRise and what is not.
+  title: Pull the Catalog | Lightspeed Restaurant | HubRise
+  description: Find out how to pull the catalog from your Lightspeed Restaurant EPOS to HubRise, what information is received in HubRise and what is not.
 ---
 
-This page describes how to export your Lightspeed catalog and what information is sent to HubRise.
+This page describes how to pull a catalog from Lightspeed into HubRise and what information is received in HubRise.
 
-## Exporting the Catalog to HubRise
+## Pull the Catalog into HubRise
 
-To export your Lightspeed catalog to HubRise, follow these steps:
+To pull a catalog from Lightspeed, follow these steps:
 
-1. From the Lightspeed Restaurant Bridge main page, select the **Actions** tab, then click **Pull menu from Lightspeed**.
+1. From the Lightspeed Restaurant Bridge main page, select the **Actions** tab, then click **Pull catalog**.
 2. Click **Confirm** when prompted.
 
 ---
