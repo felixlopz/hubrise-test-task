@@ -1,18 +1,18 @@
 ---
 position: 1
-title: Overview
+title: Présentation Générale
 layout: documentation
 meta:
-  title: Technical Documentation Overview | HubRise
-  description: Orders, customers and product catalogs are saved into HubRise to provide connected apps with real-time access to your data. Integrate third party solutions.
+  title: Présentation générale du guide utilisateur | HubRise
+  description: Les commandes, les listes de clients et les catalogues sont enregistrés dans HubRise pour fournir aux applications connectées un accès en temps réel à vos données.
 gallery:
   - __gallery-001-en.png
   - __gallery-002-en.png
 path_override: /
 app_info:
-  category: Middleware
-  availability: Worldwide
-  price_range: €25 / month.
+  category: Middleware (plateforme logicielle intermédiaire)
+  availability: Monde
+  price_range: €25 / par mois
   contact: contact@hubrise.com / support@hubrise.com
 ---
 
@@ -27,7 +27,7 @@ Les situations d'utilisation typiques incluent les suivantes :
 - Marketing numérique (SMS/e-mail)
 - Gestion de fidélité
 - Plateformes de livraison de repas
-- Veille économique
+- Système de gestion
 - Gestion des stocks
 - Paiement à table
 - ... et bien plus encore !
