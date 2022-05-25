@@ -22,6 +22,9 @@ From this section, you can decide which language is used to localise your receip
 
 Service types such as platform delivery, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
+Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
+This is useful if you have specific business requirements for financial reporting.
+
 ### Discounts
 
 In this section, include the ref code associated with Just Eat discounts on your EPOS.

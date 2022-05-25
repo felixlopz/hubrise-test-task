@@ -1,6 +1,6 @@
 ---
 title: Receive Orders
-position: 8
+position: 6
 layout: documentation
 meta:
   title: Receive Orders | Just Eat Takeaway | HubRise
@@ -25,7 +25,7 @@ A Just Eat order goes through several statuses during its lifecycle:
 
 As a minimum requirement, Just Eat Takeaway expects every successful order to be marked as `Confirmed`.
 
-### Change the status of an order in Just Eat Takeaway
+### Change the Status of an Order in Just Eat Takeaway
 
 When an order status changes on HubRise, Just Eat Takeaway Bridge notifies Just Eat Takeaway. The correspondence between HubRise and Just Eat Takeaway statuses is as follows:
 
@@ -41,7 +41,7 @@ Just Eat Takeaway Bridge lets you decide which HubRise status triggers the `Conf
 
 Other HubRise status values are not supported and are not sent on Just Eat Takeaway.
 
-### Change the status of an order in HubRise
+### Change the Status of an Order in HubRise
 
 Just Eat Takeaway Bridge does not change order statuses in HubRise.
 
