@@ -9,6 +9,8 @@ gallery:
   - __gallery-001.png
   - __gallery-002.png
   - __gallery-003.png
+  - __gallery-004.png
+
 path_override: /
 app_info:
   category: Commande en ligne
@@ -20,11 +22,11 @@ app_info:
 
 ## Description
 
-DOOD est une solution de commande en ligne destinée aux restaurateurs et aux commerces alimentaires, qu'ils soient indépendants, chaînes, franchises ou grands comptes. Elle permet de vendre en Click & Collect et en livraison, et de digitaliser son service en salle ou en boutique.
+DOOD est une solution de commande en ligne destinée aux restaurateurs et aux commerces alimentaires, qu'ils soient indépendants, chaînes, franchises ou grands comptes. Elle permet de vendre en Click & Collect et en livraison, et de digitaliser son service en salle ou en boutique avec la commande et le paiement à table.
 
-DOOD offre un back-office de gestion du site e-commerce, comprenant une page pour la réception des commandes, un outil d'édition de la carte (avec photos, suppléments, allergènes, prix, TVA, etc.), et des rapports d'activité détaillés pour piloter son activité en ligne.
+DOOD offre un back-office de gestion du site e-commerce, comprenant : le suivi des commandes, l'édition du menu (photos, suppléments, allergènes, prix, TVA, etc.) et un dashboard de suivi des performances avec reporting détaillé pour piloter son activité en ligne.
 
-DOOD intègre une suite d'outils marketing permettant d'analyser le comportement client et de créer un programme de fidélisation ciblé et des campagnes de marketing automatisées (mailing, SMS, push).
+DOOD intègre également une suite d'outils marketing permettant d'attirer de nouveaux clients en optimisant son référencement internet, ainsi que d'analyser le comportement de ses clients, de créer un programme de fidélisation sur mesure et des campagnes de marketing automatisées (mailing, SMS, push).
 
 ## Fonctionnalités de l'intégration
 
