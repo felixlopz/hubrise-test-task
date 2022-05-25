@@ -1,6 +1,6 @@
 ---
 title: Receive Orders
-position: 8
+position: 6
 layout: documentation
 meta:
   title: Receive Orders | Just Eat Takeaway | HubRise

@@ -25,10 +25,6 @@ If you want to manage orders directly from your connected EPOS without interatio
 
 ## Manage Orders With Orderpad
 
-When Orderpad is on and an order arrives, you will hear a beep until you accept the order.
-When you press the **Accept** button, you change the status of the order to `Accepted`. From Orderpad, you can also change the status to `Prepared`.
+When Orderpad is on and an order arrives, you will hear a beep until you accept the order. When you press the **Accept** button, you change the status of the order to `Accepted`. From Orderpad, you can also change the status to `Prepared`.
 
-By default, when you accept an order, a ticket is printed automatically.
-However, you can also configure your Orderpad to print orders when they reach the following statuses: `Time to start cooking the order`, or `Accepted and time to cook`.
-If you want to print an order again, use the **Print receipt** option for the corresponding order.
-
+By default, when you accept an order, a ticket is printed automatically. However, you can also configure your Orderpad to print orders when they reach the following statuses: `Time to start cooking the order`, or `Accepted and time to cook`. If you want to print an order again, use the **Print receipt** option for the corresponding order.

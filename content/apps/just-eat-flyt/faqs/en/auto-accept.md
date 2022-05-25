@@ -17,7 +17,7 @@ Just Eat does not encourage Auto-Accept, because of the risk of missing orders.
 
 ---
 
-Auto-accept is only available in the following markets:
+Auto-Accept is only available in the following markets:
 
 - Ireland
 - Italy
