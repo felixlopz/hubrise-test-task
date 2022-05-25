@@ -15,7 +15,7 @@ You can also export your Lightspeed catalog directly into HubRise with Lightspee
 Some connected apps offer the ability to import the catalog directly from HubRise, and therefore to autopopulate the ref codes.
 For more details about this feature and its limitations in Lightspeed Restaurant Bridge, see [Pull the Catalog](/apps/lightspeed-restaurant/pull-catalog).
 
-## Downloading the Catalog in Bulk
+## Download the Catalog in Bulk
 
 You can download your Lightspeed catalog to manage the items and the ref codes with a separate software.
 
@@ -31,7 +31,7 @@ To download the Lightspeed catalog, follow these steps:
 
 To check the ref codes for the items, you can open the downloaded CSV file in Excel or a text editor. The ref codes appear under the **SKU** column.
 
-## Finding Ref Codes for Individual Items
+## Find Ref Codes for Individual Items
 
 You can find the ref codes for skus, options, deals, discounts, charges, service types, and payments from your Lightspeed back office.
 
