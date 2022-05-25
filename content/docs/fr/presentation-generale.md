@@ -16,7 +16,9 @@ app_info:
   contact: contact@hubrise.com / support@hubrise.com
 ---
 
-HubRise est une plateforme logicielle intermédiaire (middleware) qui permet de connecter des solutions tierces. Le système fournit une interface unique destiné à un écosystème d'applications intégrées en constante évolution. Les situations d'utilisation typiques incluent les suivantes :
+HubRise est un middleware (plateforme logicielle intermédiaire) qui permet de connecter des solutions tierces. Le système fournit une interface unique destiné à un écosystème d'applications intégrées en constante évolution. 
+
+Les situations d'utilisation typiques incluent les suivantes :
 
 - Solutions d'encaissement
 - Commandes en ligne
@@ -34,6 +36,6 @@ Avec HubRise, vous pouvez suivre les commandes de toutes les solutions connecté
 
 Toutes les transactions sont enregistrées dans HubRise afin de fournir aux applications connectées un accès en temps réel à vos données. Des fichiers journaux détaillés permettent aux utilisateurs et aux équipes d'assistance de comprendre le flux d'activité et de contrôler le statut de chaque transaction. Bien que principalement destinés aux développeurs, les journaux sont conçus pour être compréhensibles par n'importe quel utilisateur.
 
-HubRise met également à la disposition des développeurs un système robuste leur permettant de créer de nouvelles applications via l'API publique HubRise. Pour plus d'informations, consultez la [référence API de HubRise](/developers/api/general-concepts).
+HubRise met également à la disposition des développeurs un système robuste leur permettant de créer de nouvelles applications via l'API publique HubRise. Pour plus d'informations, consultez la [référence API de HubRise](/developers/api/general-concepts) (en anglais).
 
-HubRise propose une formule payante calculée sur chaque point de vente. Pour plus d'informations, voir la rubrique [Tarification](/pricing) de HubRise.
+HubRise propose une formule payante calculée sur chaque point de vente. Pour plus d'informations, voir la rubrique [Tarification](/tarifs) de HubRise.
