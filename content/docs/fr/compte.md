@@ -52,7 +52,7 @@ Enfin, saisissez la **devise** correcte du marché sur lequel vous opérez.
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/how-can-i-clear-accounts/">J'ai trop de comptes pour mon entreprise sur HubRise. Comment puis-je simplifier le système ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/comment-effacer-des-comptes/">J'ai trop de comptes pour mon entreprise sur HubRise. Comment faire un nettoyage ?</Link>
 
 ---
 

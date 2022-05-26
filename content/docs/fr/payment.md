@@ -91,7 +91,7 @@ Pour supprimer un mode de paiement, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/stop-paying-subscription/">Que dois-je faire pour cesser le paiement de mon abonnement ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/arreter-de-payer-abonnement/">Comment cesser le paiement de mon abonnement ?</Link>
 
 ---
 
@@ -107,7 +107,7 @@ Pour traiter un paiement à partir de la notification, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">Que se passe-t-il en cas de dépassement de mon quota de plans gratuits ?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment dois-je effectuer mon paiement ?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment dois-je effectuer mon paiement ?</Link>, <Link to="/docs/faqs/pause-plan-during-setup-and-test-phases/">Mon plan peut-il être interrompu durant les phases de configuration et de test ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/">Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment dois-je effectuer mon paiement ?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment dois-je effectuer mon paiement ?</Link>, <Link to="/docs/faqs/formule-en-pause-pendant-les-phases-de-configuration-et-de-test/">Ma formule peut-elle être mise en pause pendant les phases de configuration et de test ?</Link>
 
 ---
 

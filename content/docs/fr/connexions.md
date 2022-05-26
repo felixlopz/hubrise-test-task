@@ -34,7 +34,7 @@ Certaines applications doivent être connectées au niveau de **tous les points 
 
 ---
 
-**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs instances de la même application à un point de vente HubRise unique, consultez la section [Connexion de plusieurs instances de la même application](/docs/faqs/connect-multiple-instances-same-app).
+**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs instances de la même application à un point de vente HubRise unique, consultez la section [Comment connecter plusieurs fois la même application](/docs/faqs/connecter-plusieurs-fois-la-meme-application).
 
 ---
 
@@ -52,7 +52,7 @@ Pour afficher un graphique linéaire indiquant le nombre de transactions accompl
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
 
 ---
 
@@ -103,7 +103,7 @@ Pour plus d'informations, voir la rubrique [Interprétation des journaux dans Hu
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
 
 ---
 

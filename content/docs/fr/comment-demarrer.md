@@ -1,21 +1,21 @@
 ---
-title: Get Started
+title: Comment démarrer
 position: 2
 layout: documentation
 meta:
-  title: Get Started | HubRise
-  description: Instructions on starting with LivePepper and HubRise connection.
+  title: Comment démarrer | HubRise
+  description: Instructions pour démarrer avec HubRise. Créer un profil utilisateur et un compte sur HubRise. Définir vos préférences et se familiariser avec la plateforme.
 ---
 
 Vous pouvez accéder à HubRise depuis un navigateur Web sur n'importe quel appareil, tel que votre ordinateur de bureau, tablette ou smartphone.
 
 ## Créer un profil utilisateur
 
-Pour pouvoir commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'inscription est gratuite et ne prend qu'une minute. Tout ce dont vous avez besoin, c'est un nom, une adresse e-mail et un mot de passe sécurisé. Pour créer un profil utilisateur, consultez la [page d'inscription à HubRise](https://manager.hubrise.com/signup).
+Pour commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'inscription est gratuite et ne prend qu'une minute. Tout ce dont vous avez besoin, c'est un nom, une adresse e-mail et un mot de passe sécurisé. Pour créer un profil utilisateur, consultez la [page d'inscription à HubRise](https://manager.hubrise.com/signup).
 
 ---
 
-**FAQ connexe** : Comment créer un profil utilisateur pour [quelqu'un d'autre](/docs/faqs/create-a-user-profile-for-another-person/) ou pour une [autre entreprise ?](/docs/faqs/create-an-account-for-another-business/)
+**FAQ connexe** : Comment créer un profil utilisateur pour [quelqu'un d'autre](/docs/faqs/creer-profil-utilisateur-pour-une-autre-personne/) ou pour une [autre entreprise ?](/docs/faqs/creer-compte-pour-une-autre-entreprise/)
 
 ---
 
@@ -69,7 +69,7 @@ Pour vous connecter à HubRise, consultez la [page de connexion à HubRise](http
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/check-if-i-already-have-a-user-profile-in-hubrise/">Comment puis-je vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/">Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
 
 ---
 

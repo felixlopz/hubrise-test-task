@@ -30,7 +30,7 @@ Cliquez sur la date de la commande pour afficher les détails complets. Pour aff
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
 
 ---
 
