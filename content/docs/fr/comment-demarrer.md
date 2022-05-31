@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Comment démarrer | HubRise
-  description: Instructions pour démarrer avec HubRise. Créer un profil utilisateur et un compte sur HubRise. Définir vos préférences et se familiariser avec la plateforme.
+  description: Instructions pour démarrer avec HubRise. Créer un profil utilisateur et un compte sur HubRise. Définir vos préférences et se familiariser avec le back office.
 ---
 
 Vous pouvez accéder à HubRise depuis un navigateur Web sur n'importe quel appareil, tel que votre ordinateur de bureau, tablette ou smartphone.

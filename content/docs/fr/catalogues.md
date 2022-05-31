@@ -1,10 +1,10 @@
 ---
-title: Catalogs
+title: Catalogues
 position: 12
 layout: documentation
 meta:
-  title: Catalogs | HubRise
-  description: How to manage HubRise catalogs.
+  title: Catalogues | HubRise
+  description: Gestion des catalogues sur HubRise. Visualiser leur contenu. Ajouter ou supprimer des catalogues. Convention de nommage des catalogues pour mieux s'y retrouver.
 ---
 
 La section **Catalogues** de la page **PARAMÈTRES** vous permet de créer, modifier ou supprimer les catalogues utilisés par votre compte HubRise.

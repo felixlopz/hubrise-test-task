@@ -1,10 +1,10 @@
 ---
-title: Apps and Connections
+title: Apps et connections
 position: 4
 layout: documentation
 meta:
-  title: Apps and Connections | HubRise
-  description: How connections to HubRise can be managed.
+  title: Applications et connexions | HubRise
+  description: Gestion des applications et des connexions sur votre compte et vos points de vente sur HubRise. Connecter, ouvrir, bloquer ou déconnecter des applications.
 ---
 
 Vous pouvez connecter de nouvelles applications et visualiser les applications connectées à votre compte HubRise depuis la page **CONNEXIONS**. Cette page vous permet également d'afficher l'activité et les journaux des applications, ou de bloquer et déconnecter des applications.
