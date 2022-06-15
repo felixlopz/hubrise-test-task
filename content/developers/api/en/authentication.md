@@ -185,7 +185,7 @@ POST https://manager.hubrise.com/oauth2/v1/revoke HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 Authorization: Basic Y2xpZW50X2lkOmNsaWVudF9zZWNyZXQ=
 ---
-access_token=b9922a78d3ffab6b95e9d72e88
+token=b9922a78d3ffab6b95e9d72e88
 ```
 
 If the server returns a `200` response, the access token is revoked and can no longer be used.
