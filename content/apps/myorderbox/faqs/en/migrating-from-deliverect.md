@@ -1,5 +1,5 @@
 ---
-title: I'm Migrating from Deliverect to HubRise. What Do I Need to Know?
+title: Migrating MyOrderBox from Deliverect to HubRise. What Do I Need to Know?
 position: 2
 layout: documentation
 meta:
