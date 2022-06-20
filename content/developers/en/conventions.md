@@ -33,9 +33,9 @@ The following tag can be set at the SKU level:
 
 The following custom field can be attached to a customer:
 
-| Custom field         | Encoding | Description                                                                                      |
-| -------------------- | -------- | ------------------------------------------------------------------------------------------------ |
-| `contact.phone_code` | `string` | The access code to reach the customer. Used when the customer's `phone` is a call center number. |
+| Custom field                | Encoding | Description                                                                                      |
+| --------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
+| `contact.phone_access_code` | `string` | The access code to reach the customer. Used when the customer's `phone` is a call center number. |
 
 ## Conventions for restaurants
 
