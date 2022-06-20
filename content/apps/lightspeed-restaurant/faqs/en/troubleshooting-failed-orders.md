@@ -21,8 +21,6 @@ To troubleshoot an incorrect ref code in an order, you can look at the logs for 
 - Click the corresponding row and identify the transaction coming from Lightspeed, that is the one whose direction is "Lightspeed -> Bridge".
 - In the request boby, if you see `FAILURE` as the status value and `Could not add item <id> (not found)` as the reason for the error, then the order rejection is probably due to an incorrect ref code in your integrated app. The `<id>` value in the error message will indicate the problematic item.
 
-If you recently migrated from Deliverect to HubRise, some ref codes in your online ordering platforms menus might be incorrect due to how Deliverect exports menus. For more details on this issue and how to solve it, see our [FAQ about migrating from Deliverect](/apps/lightspeed-restaurant/faqs/migrating-from-deliverect/).
-
 ## API Activation in the Tablet
 
 To connect with Lightspeed Restaurant, the Lightspeed API needs to be activated. You can simply contact Lightspeed support and request the activation.
