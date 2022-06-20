@@ -46,8 +46,6 @@
   toPath: /apps/lightspeed-restaurant/user-interface
 - fromPath: /apps/ikentoo-lightspeed/faqs/create-ref-codes
   toPath: /apps/lightspeed-restaurant/faqs/create-ref-codes
-- fromPath: /apps/ikentoo-lightspeed/faqs/migrating-from-deliverect
-  toPath: /apps/lightspeed-restaurant/faqs/migrating-from-deliverect
 - fromPath: /apps/ikentoo-lightspeed/faqs/troubleshooting-failed-orders
   toPath: /apps/lightspeed-restaurant/faqs/troubleshooting-failed-orders
 
