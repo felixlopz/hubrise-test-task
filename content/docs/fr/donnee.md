@@ -1,10 +1,10 @@
 ---
-title: Data
+title: Données
 position: 5
 layout: documentation
 meta:
-  title: Data | HubRise
-  description: How connections to HubRise can be managed.
+  title: Données commandes, clients et catalogues | HubRise
+  description: Enregistrements concernant les commandes, les clients et les catalogues dans HubRise. Comment les consulter et comprendre leur contenu.
 ---
 
 La section Données fournit des enregistrements concernant les commandes, les clients et les catalogues. Vous pouvez à tout moment sélectionner le compte et les points de vente à afficher.
