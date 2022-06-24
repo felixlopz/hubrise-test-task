@@ -42,7 +42,7 @@ UPXP peut être connecté à HubRise depuis le back-office de UPXP.
 
 En connectant UPXP à HubRise, vous permettez à votre solution de fidélité basée sur de la cryptomonnaie de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes enregistrées dans votre caisse ou provenant de votre solution de commande en ligne sur UPXP. 
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre SOLUTION d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les SOLUTIONs de gestion de livreurs ou de services de livraison, les SOLUTIONs eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre caisse, de solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
