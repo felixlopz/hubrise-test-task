@@ -435,6 +435,11 @@ content:
           logo: smg.png
           title: Service Management Group
           description: SMG combines technology and services to collect, analyse, and share feedback on data for brands to make decisions with insights across their enterprise.
+        - website: https://upxp.io
+          documentation: /apps/upxp
+          logo: upxp.png
+          title: UPXP
+          description: UPXP is the first cryptocurrency dedicated to restaurateurs. UPXP rewards customers with cryptocurrency they can use in other businesses. Engage clients and avoid paying commissions to banks and third-parties.
     - title: Operations and Inventory
       apps:
         - website: https://get.apicbase.com
