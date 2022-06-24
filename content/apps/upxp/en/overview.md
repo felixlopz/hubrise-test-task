@@ -24,7 +24,7 @@ app_info:
 
 ## Description
 
-As an alternative to paying commissions to food delivery platforms and banks, UPXP offers an innovative loyalty management program based on cryptocurrency to reward customers. Customers who order and book directly on the restaurant's own while label website receive UPXP cryptocurrency, which they can use anywhere.
+To change the current model where restaurants are paying commissions to food delivery platforms and banks, UPXP offers an innovative loyalty management program based on cryptocurrency to reward customers. Customers who order and book directly on the restaurant's own while label website receive UPXP cryptocurrency, which they can use anywhere.
 
 UPXP is the first cryptocurrency dedicated to restaurateurs.
 It is a community project that aims to reward restaurant customers rather than intermediaries and third-party solutions.
