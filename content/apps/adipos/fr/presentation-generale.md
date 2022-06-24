@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-La solution d'encaissement Adipos offre une solution complète de gestion pour tout type de restaurant. La solution s’articule autour d'applications modulaires, dont chacune permet de répondre à un besoin opérationnel du commerçant. Les différentes applications sont disponibles sous iOS et Android.
+La logiciel de caisse Adipos offre une solution complète de gestion pour tout type de restaurant. La solution s’articule autour d'applications modulaires, dont chacune permet de répondre à un besoin opérationnel du commerçant. Les différentes applications sont disponibles sous iOS et Android.
 
 La solution de caisse est conçue pour la restauration avec service à table, restauration rapide, livraison et Click & Collect, ainsi que pour les food trucks et les boulangeries. Elle est adaptée aux besoins des enseignes indépendantes comme des franchises multi établissements. Lorsqu'elle est connectée, la solution Adipos permet le suivi du service en temps réel, mais elle peut également fonctionner hors connexion. Un back-office d’administration et de pilotage est disponible.
 
@@ -33,7 +33,7 @@ Adipos est développé en France par Adixon, et a reçu la certification NF525, 
 
 ## Fonctionnalités de l'intégration
 
-Connecter Adipos à HubRise permet à votre solution d'encaissement de :
+Connecter Adipos à HubRise permet à votre logiciel de caisse de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
@@ -44,9 +44,9 @@ Adipos peut être connecté à HubRise depuis le back-office de Adipos.
 
 ## Pourquoi se connecter ?
 
-En connectant Adipos à HubRise, vous permettez à votre caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution d'encaissement. Envoyez le menu de votre caisse vers d'autres applications.
+En connectant Adipos à HubRise, vous permettez à votre caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre logiciel de caisse. Envoyez le menu de votre caisse vers d'autres applications.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

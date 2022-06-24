@@ -4,7 +4,7 @@ position: 3
 layout: documentation
 meta:
   title: Associer les codes ref | Restaurant-internet | HubRise
-  description: Comment saisir les codes ref de votre solution d'encaissement dans votre menu Restaurant-internet, en utilisant le gestionnaire de menu de Restaurant-internet.
+  description: Comment saisir les codes ref de votre logiciel de caisse dans votre menu Restaurant-internet, en utilisant le gestionnaire de menu de Restaurant-internet.
 ---
 
 ---

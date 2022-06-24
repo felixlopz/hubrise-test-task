@@ -4,7 +4,7 @@ position: 4
 layout: documentation
 meta:
   title: Configuration | Deliveroo | HubRise
-  description: Configurer Deliveroo Eats Bridge pour recevoir vos commandes Deliveroo dans votre solution d'encaissement ou d'autres applications connectées à HubRise.
+  description: Configurer Deliveroo Eats Bridge pour recevoir vos commandes Deliveroo dans votre logiciel de caisse ou d'autres applications connectées à HubRise.
 ---
 
 La page de configuration permet de personnaliser le comportement de Deliveroo Bridge. Elle est divisée en plusieurs sections pour faciliter la navigation.
@@ -17,11 +17,11 @@ Dans cette section, vous pouvez choisir la langue d'édition de vos reçus.
 
 ## Types de service
 
-Les types de service tels que la livraison par Deliveroo, la livraison par le restaurant ou la vente à emporter peuvent nécessiter la saisie du code ref correspondant. Reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
+Les types de service tels que la livraison par Deliveroo, la livraison par le restaurant ou la vente à emporter peuvent nécessiter la saisie du code ref correspondant. Reportez-vous à la documentation de votre logiciel de caisse sur le site Web de HubRise.
 
 ## Remises
 
-Cette section permet de spécifier le code ref de la remise appliquée à vos produits, dans le cas où vous auriez une remise active sur Deliveroo. Pour obtenir le code ref correspondant, reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
+Cette section permet de spécifier le code ref de la remise appliquée à vos produits, dans le cas où vous auriez une remise active sur Deliveroo. Pour obtenir le code ref correspondant, reportez-vous à la documentation de votre logiciel de caisse sur le site Web de HubRise.
 
 Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les offres** de votre back-office Deliveroo.
 
@@ -29,7 +29,7 @@ Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les o
 
 ## Frais
 
-Si des frais s'appliquent, un code ref peut être nécessaire. Reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
+Si des frais s'appliquent, un code ref peut être nécessaire. Reportez-vous à la documentation de votre logiciel de caisse sur le site Web de HubRise.
 
 Dans cette section, vous pouvez spécifier le code ref des frais de livraison, ainsi que des suppléments appliqués aux commandes inférieures au prix minimum.
 
@@ -37,7 +37,7 @@ Dans cette section, vous pouvez spécifier le code ref des frais de livraison, a
 
 Les clients de Deliveroo peuvent régler leur commande en espèces lorsque le restaurant prend en charge la livraison.
 
-Cette section de la page de configuration permet de spécifier les codes ref pour les paiements en ligne et en espèces. Pour connaître les codes à utiliser, consultez la documentation de votre solution d'encaissement sur le site Web de HubRise.
+Cette section de la page de configuration permet de spécifier les codes ref pour les paiements en ligne et en espèces. Pour connaître les codes à utiliser, consultez la documentation de votre logiciel de caisse sur le site Web de HubRise.
 
 ## Sauvegarde de la configuration
 

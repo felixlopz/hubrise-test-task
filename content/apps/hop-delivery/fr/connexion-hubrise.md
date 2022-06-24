@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | Hop Delivery | HubRise
-  description: "Processus de connexion de Hop Delivery à HubRise : étapes à suivre pour recevoir vos commandes Hop Delivery dans votre solution d'encaissement."
+  description: "Processus de connexion de Hop Delivery à HubRise : étapes à suivre pour recevoir vos commandes Hop Delivery dans votre logiciel de caisse."
 ---
 
 ---

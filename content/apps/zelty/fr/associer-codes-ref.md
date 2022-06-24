@@ -28,7 +28,7 @@ Dans l'export CSV, les options correspondent aux lignes dont la deuxième colonn
 
 ## Méthodes de paiement
 
-Votre solution d'encaissement Zelty offre différentes options de paiement, dont le règlement en espèces ou en ligne, ou le paiement par compte client. Il n'est pas nécessaire de configurer les codes ref des méthodes de paiement sur les applications connectées à Zelty.
+Votre logiciel de caisse Zelty offre différentes options de paiement, dont le règlement en espèces ou en ligne, ou le paiement par compte client. Il n'est pas nécessaire de configurer les codes ref des méthodes de paiement sur les applications connectées à Zelty.
 
 ## Types de service
 

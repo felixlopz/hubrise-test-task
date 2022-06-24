@@ -1,5 +1,5 @@
 ---
-title: Puis-je recevoir les commandes dans ma solution d'encaissement sans passer par les tablettes Uber Eats ?
+title: Puis-je recevoir les commandes dans ma logiciel de caisse sans passer par les tablettes Uber Eats ?
 position: 2
 layout: documentation
 meta:
@@ -9,8 +9,8 @@ meta:
 
 Uber Eats propose deux modes de réception de commandes : **manual accept** (acceptation manuelle) ou **offered state** (état proposé).
 
-- En mode **manual accept** (acceptation manuelle), les nouvelles commandes doivent d'abord être acceptées sur la tablette Uber Eats, avant d'être transmises à votre solution d'encaissement.
-- En mode **offered state** (état proposé), les nouvelles commandes sont directement envoyées à votre solution d'encaissement, où elles doivent être soit acceptées, soit rejetées.
+- En mode **manual accept** (acceptation manuelle), les nouvelles commandes doivent d'abord être acceptées sur la tablette Uber Eats, avant d'être transmises à votre logiciel de caisse.
+- En mode **offered state** (état proposé), les nouvelles commandes sont directement envoyées à votre logiciel de caisse, où elles doivent être soit acceptées, soit rejetées.
 
 Le support Uber Eats peut modifier le mode utilisé pour votre magasin.
 

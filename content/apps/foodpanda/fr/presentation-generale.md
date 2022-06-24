@@ -47,7 +47,7 @@ foodpanda Bridge peut être connecté à HubRise depuis le back-office de HubRis
 
 ## Pourquoi se connecter ?
 
-Le fait de connecter votre restaurant en ligne ou votre magasin de proximité foodpanda à HubRise vous permet de recevoir vos commandes foodpanda directement dans votre solution d'encaissement ou sur votre système d'écran de cuisine connecté à HubRise. Vous pouvez gérer les commandes foodpanda parallèlement à vos autres commandes en utilisant vos propres outils. Les commandes foodpanda transitent par votre configuration existante, de même que toutes vos autres commandes.
+Le fait de connecter votre restaurant en ligne ou votre magasin de proximité foodpanda à HubRise vous permet de recevoir vos commandes foodpanda directement dans votre logiciel de caisse ou sur votre système d'écran de cuisine connecté à HubRise. Vous pouvez gérer les commandes foodpanda parallèlement à vos autres commandes en utilisant vos propres outils. Les commandes foodpanda transitent par votre configuration existante, de même que toutes vos autres commandes.
 
 Avec HubRise, synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions d'e-marketing (SMS/e-mailing) et de business intelligence, les systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
