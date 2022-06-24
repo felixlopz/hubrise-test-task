@@ -117,7 +117,7 @@ content:
           documentation: /apps/pos-helper
           logo: pos-helper.png
           title: POS HELPER
-          description:
+          description: POS HELPER is a Point of Sales for restaurants. It includes production, cost control and payment functionalities. They also offer Kitchen Display Systems, self-service kiosks, and online ordering.
           additional_info:
         - website: https://www.rmpos.com/
           documentation: /apps/restaurant-manager

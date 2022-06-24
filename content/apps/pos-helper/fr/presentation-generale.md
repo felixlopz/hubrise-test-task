@@ -4,7 +4,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | POS HELPER | HubRise
-  description: Présentation générale de POS HELPER, pourquoi connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise. Synchronisez vos données.
+  description: Présentation générale de POS HELPER, pourquoi connecter votre logiciel de caisse à HubRise et les fonctionnalités de l'intégration avec HubRise. Synchronisez vos données.
 gallery:
 
 path_override: /
@@ -24,11 +24,15 @@ app_info:
 
 ## Description
 
-Caisse cloud pour la production, la gestion, le pilotage et la facturation. Adapté aux commerces et aux TPE, POS HELPER vous permet d'accéder à vos données où que vous soyez depuis tout type de terminal (smartphone, tablette, PC...).
+POS HELPER est un logiciel de caisse conçu pour les restaurants. POS HELPER permet d'organiser la production, la gestion, le pilotage et la facturation.
+
+POS HELPER propose aussi un écran cuisine, une borne de commande et un système de commande en ligne.
+
+Fonctionnant en mode cloud, POS HELPER permet d'accéder à vos données où que vous soyez, et depuis tout type de terminal (smartphone, tablette, PC...).
 
 ## Fonctionnalités de l'intégration
 
-Connecter POS HELPER à HubRise permet à votre caisse de :
+Connecter POS HELPER à HubRise permet à votre logiciel de caisse de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
@@ -37,9 +41,9 @@ POS HELPER peut être connecté à HubRise depuis le back-office de POS HELPER.
 
 ## Pourquoi se connecter ?
 
-En connectant POS HELPER à HubRise, vous permettez à votre caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre caisse.
+En connectant POS HELPER à HubRise, vous permettez à votre logiciel de caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre logiciel de caisse.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre caisse, votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
