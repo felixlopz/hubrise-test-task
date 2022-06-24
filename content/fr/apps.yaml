@@ -109,6 +109,12 @@ content:
           title: pointOne
           description: pointOne est une solution d'encaissement complète et simple à utiliser, avec gestion de stock, rapports et analyse des données.
           additional_info: Intégration en cours.
+        - website: https://poshelper.fr/
+          documentation: /apps/pos-helper
+          logo: pos-helper.png
+          title: POS HELPER
+          description: Caisse cloud pour la production, la gestion, le pilotage et la facturation. POS HELPER est adapté aux commerces et aux TPE. Accédez à vos données où que vous soyez depuis tout type de terminal.
+          additional_info:
         - website: https://www.rmpos.com/
           documentation: /apps/restaurant-manager
           logo: restaurant-manager.png
