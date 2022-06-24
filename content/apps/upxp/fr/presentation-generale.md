@@ -24,10 +24,9 @@ app_info:
 
 ## Description
 
-En rupture avec le modèle actuel de paiement de commissions aux plateformes de livraison de repas et aux banques, UPXP propose une offre innovante basée sur la cryptomonnaie pour fidéliser ses clients. Les clients qui commandent et réservent directement sur le site marchand en maque blanche du restaurant reçoivent en échange de la cryptomonnaie UPXP qu'ils peuvent utiliser n'importe ou. 
+UPXP propose une solution de fidélisation innovante basée sur la cryptomonnaie. UPXP récompense les clients qui commandent et réservent sur le site de leur restaurant en leur versant de la cryptomonnaie UPXP, utilisable dans d'autres commerces.
 
-UPXP est la première cryptomonnaie entièrement dédiée aux restaurateurs.
-C'est un projet communautaire qui a pour objectif de récompenser les clients des restaurateurs plutôt que les intermédiaires et les solution tiers. 
+UPXP est la première cryptomonnaie entièrement dédiée aux restaurateurs. C'est un projet communautaire, dont la mission est de récompenser les clients plutôt que les banques et les intermédiaires.
 
 ## Fonctionnalités de l'intégration
 
@@ -40,7 +39,7 @@ UPXP peut être connecté à HubRise depuis le back-office de UPXP.
 
 ## Pourquoi se connecter ?
 
-En connectant UPXP à HubRise, vous permettez à votre solution de fidélité basée sur de la cryptomonnaie de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes enregistrées dans votre caisse ou provenant de votre solution de commande en ligne sur UPXP. 
+En connectant UPXP à HubRise, vous permettez à votre solution de fidélité de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes enregistrées dans votre caisse ou provenant de votre solution de commande en ligne sur UPXP.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre caisse, de solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 

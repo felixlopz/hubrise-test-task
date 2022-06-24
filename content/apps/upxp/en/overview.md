@@ -24,10 +24,9 @@ app_info:
 
 ## Description
 
-To change the current model where restaurants are paying commissions to food delivery platforms and banks, UPXP offers an innovative loyalty management program based on cryptocurrency to reward customers. Customers who order and book directly on the restaurant's own while label website receive UPXP cryptocurrency, which they can use anywhere.
+UPXP offers an innovative loyalty solution based on cryptocurrency. UPXP rewards customers who order and book on their restaurant's website by paying them UPXP cryptocurrency, which can be used in other businesses.
 
-UPXP is the first cryptocurrency dedicated to restaurateurs.
-It is a community project that aims to reward restaurant customers rather than intermediaries and third-party solutions.
+UPXP is the first cryptocurrency entirely dedicated to restaurateurs. It is a community project, whose mission is to reward customers rather than banks and intermediaries.
 
 ## Integration Features
 
@@ -40,7 +39,7 @@ UPXP can be connected to HubRise from the UPXP back office.
 
 ## Why Connect?
 
-By connecting UPXP to HubRise, your loyalty management solution can communicate with your other everyday applications. Receive orders from your EPOS and your online ordering in UPXP.
+By connecting UPXP to HubRise, your loyalty solution can communicate with your other everyday applications. Receive orders from your EPOS and your online ordering in UPXP.
 
 Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing) solutions, business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 

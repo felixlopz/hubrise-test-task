@@ -448,7 +448,7 @@ content:
           documentation: /apps/upxp
           logo: upxp.png
           title: UPXP
-          description: UPXP est la première crypto-monnaie dédiée aux restaurateurs. La solution de fidélité UPXP permet de récompenser les clients avec une crypto-monnaie qu'ils peuvent utiliser n'importe où. Fidéliser les clients pour éviter de payer des commissions aux banques et aux solutions tiers.
+          description: UPXP est la première crypto-monnaie dédiée aux restaurateurs. La solution de fidélité UPXP récompense les clients avec une crypto-monnaie qu'ils peuvent utiliser dans d'autres commerces. Fidélisez les clients sans verser de commissions aux banques et aux solutions tierces.
     - title: Gestion et inventaire
       apps:
         - website: https://get.apicbase.com/fr/
