@@ -4,7 +4,7 @@ position: 3
 layout: documentation
 meta:
   title: Associer les codes ref | Hop Delivery | HubRise
-  description: Comment afficher ou saisir les codes ref de votre solution d'encaissement dans votre menu Hop Delivery, en utilisant le gestionnaire de menu de Hop Delivery.
+  description: Comment afficher ou saisir les codes ref de votre logiciel de caisse dans votre menu Hop Delivery, en utilisant le gestionnaire de menu de Hop Delivery.
 ---
 
 ## Produits et SKUs

@@ -24,7 +24,7 @@ My Lemonade est une solution de commande à table. Les clients scannent un QR co
 
 My Lemonade peut aussi être utilisé pour le click & collect. My Lemonade propose des fonctionnalités telles que la gestion de salle, ou la validation de présence pour limiter les risques de commandes abusives.
 
-Le back office de My Lemonade permet de mettre à jour le menu du restaurant, définir des promotions ou mettre à jour les disponibilités des produits. Les restaurants qui n'ont pas d'intégration avec une solution d'encaissement peuvent recevoir les commandes directement dans le back office.
+Le back office de My Lemonade permet de mettre à jour le menu du restaurant, définir des promotions ou mettre à jour les disponibilités des produits. Les restaurants qui n'ont pas d'intégration avec une logiciel de caisse peuvent recevoir les commandes directement dans le back office.
 
 ## Fonctionnalités de l'intégration
 
@@ -45,9 +45,9 @@ My Lemonade peut être connecté à HubRise depuis le back-office de My Lemonade
 
 ## Pourquoi se connecter ?
 
-En connectant My Lemonade à HubRise, vous permettez à votre solution de commande à table de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre solution d'encaissement, une imprimante autonome, un écran cuisine, ou votre système de gestion de stock. Importez le catalogue produit de votre solution d'encaissement dans My Lemonade.
+En connectant My Lemonade à HubRise, vous permettez à votre solution de commande à table de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre logiciel de caisse, une imprimante autonome, un écran cuisine, ou votre système de gestion de stock. Importez le catalogue produit de votre logiciel de caisse dans My Lemonade.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

@@ -31,4 +31,4 @@ Assurez-vous également que votre connexion Zelty est visible dans HubRise en pr
 
 ## Assistance de Zelty
 
-Vous pouvez contacter l'équipe d'assistance de Zelty à l'adresse [support@zelty.fr ](mailto:support@zelty.fr) en cas de problème concernant la configuration de la solution d'encaissement.
+Vous pouvez contacter l'équipe d'assistance de Zelty à l'adresse [support@zelty.fr ](mailto:support@zelty.fr) en cas de problème concernant la configuration de la logiciel de caisse.
