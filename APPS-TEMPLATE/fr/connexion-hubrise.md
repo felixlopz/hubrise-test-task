@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | SOLUTION | HubRise
-  description: "Processus de connexion de votre restaurant SOLUTION à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes SOLUTION dans votre SOLUTION d'encaissement."
+  description: "Processus de connexion de votre restaurant SOLUTION à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes SOLUTION dans votre caisse."
 ---
 
 ---
