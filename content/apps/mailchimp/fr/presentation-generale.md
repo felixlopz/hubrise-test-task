@@ -42,9 +42,9 @@ Mailchimp Bridge peut être connecté à HubRise depuis le back-office de HubRis
 
 ## Pourquoi se connecter ?
 
-La connexion de Mailchimp à HubRise permet de synchroniser vos audiences Mailchimp avec vos solutions de commande en ligne et d'encaissement.
+La connexion de Mailchimp à HubRise permet de synchroniser vos audiences Mailchimp avec vos solutions de commande en ligne et votre logiciel de caisse.
 
-Grâce à HubRise, synchronisez votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions d'e-marketing (SMS/e-mailing) et de business intelligence, les systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, synchronisez votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions d'e-marketing (SMS/e-mailing) et de business intelligence, les systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
