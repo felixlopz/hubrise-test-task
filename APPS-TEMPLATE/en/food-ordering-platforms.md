@@ -3,17 +3,22 @@ title: Food Ordering Platforms
 position: 6
 layout: documentation
 meta:
-title: Food Ordering Platforms | SOLUTION | HubRise
-description: Integrating SOLUTION with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
+  title: Food Ordering Platforms | SOLUTION | HubRise
+  description: Integrating SOLUTION with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 
-To connect SOLUTION to Deliveroo, Just Eat, or Uber Eats, use the configuration parameters provided below.
+With HubRise, you can receive food platform orders in SOLUTION.
+With HubRise, you can receive food platform orders in SOLUTION, and synchronise your menu with food platforms.
+
+For more information, check the documentation of these platforms from our [Apps page](/apps/food-ordering-platforms).
+
+Below are the parameters to use to connect these platforms with SOLUTION.
 
 ## Deliveroo
 
 To receive Deliveroo orders in SOLUTION, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
 
-To correctly receive your orders, specify the following values in the Deliveroo Bridge configuration page. To learn how to view and modify the configuration page for Deliveroo Bridge, see the [Deliveroo Configuration page](/apps/deliveroo/configuration).
+In the Deliveroo Bridge configuration page, use the following values:
 
 | Section        | Name                                  | Ref code                                          |
 | -------------- | ------------------------------------- | ------------------------------------------------- |
@@ -32,7 +37,7 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 
 To receive Just Eat orders in SOLUTION, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
 
-To correctly receive your orders, specify the following values in the Just Eat Flyt Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Flyt Bridge, see the [Just Eat Flyt Configuration page](/apps/just-eat-flyt/configuration).
+In the Just Eat Flyt Bridge configuration page, use the following values:
 
 | Section        | Name                                     | Ref code                                          |
 | -------------- | ---------------------------------------- | ------------------------------------------------- |
@@ -54,7 +59,7 @@ To correctly receive your orders, specify the following values in the Just Eat F
 
 To receive Just Eat orders in SOLUTION, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
 
-To correctly receive your orders, specify the following values in the Just Eat Takeaway Bridge configuration page. To learn how to view and modify the configuration page for Just Eat Takeaway Bridge, see the [Just Eat Takeaway Configuration page](/apps/just-eat-takeaway/configuration).
+In the Just Eat Takeaway Bridge configuration page, use the following values:
 
 | Section        | Name                                     | Ref code                                          |
 | -------------- | ---------------------------------------- | ------------------------------------------------- |
@@ -72,22 +77,23 @@ To correctly receive your orders, specify the following values in the Just Eat T
 
 To receive Uber Eats orders in SOLUTION, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
 
-To correctly receive your orders, specify the following values in the Uber Eats Bridge configuration page. To learn how to view and modify the configuration page for Uber Eats Bridge, see the [Uber Eats Configuration page](/apps/uber-eats/configuration).
+In the Uber Eats Bridge configuration page, use the following values:
 
-| Section        | Name                                  | Ref code or value                                 |
-| -------------- | ------------------------------------- | ------------------------------------------------- |
-| Service types  | Uber delivery ref code                |                                                   |
-| Service types  | Restaurant delivery ref code (\*)     |                                                   |
-| Service types  | Takeaway ref code                     |                                                   |
-| Service types  | Eat-in ref code                       |                                                   |
-| Service types  | Send orders delivered by Uber Eats as | `collection orders`                               |
-| Special items  | Disposable items ref code             |                                                   |
-| Discounts      | Discount ref code                     |                                                   |
-| Charges        | Delivery charge ref code              |                                                   |
-| Charges        | Small order fee ref code              |                                                   |
-| Charges        | Tip ref code                          |                                                   |
-| Payments       | Payment ref code                      |                                                   |
-| Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |
+| Section        | Name                                         | Ref code or value                                 |
+| -------------- | -------------------------------------------- | ------------------------------------------------- |
+| Service types  | Uber delivery ref code                       |                                                   |
+| Service types  | Restaurant delivery ref code (\*)            |                                                   |
+| Service types  | Takeaway ref code                            |                                                   |
+| Service types  | Eat-in ref code                              |                                                   |
+| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                               |
+| Special items  | Disposable items ref code                    |                                                   |
+| Discounts      | Discount ref code                            |                                                   |
+| Charges        | Delivery charge ref code                     |                                                   |
+| Charges        | Small order fee ref code                     |                                                   |
+| Charges        | Tip ref code                                 |                                                   |
+| Payments       | Payment ref code                             |                                                   |
+| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"` |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox / Leave unchecked               |
 
 (\*) BYOC - Bring Your Own Courier
 
