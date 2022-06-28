@@ -24,6 +24,7 @@ Order Cards display all the details needed to process the Order, including the f
 - Expected date and time for delivery or collection requested by the customer.
 - Confirmed date and time will equal the expected time until an OrderLine user updates this to the actual delivery time the order can be processed.
 - Type indicates how the Order will be processed. Types include **DELIVERY**, **COLLECTION** or **EAT-IN**.
+- List of products to prepare, including customer notes if any.
 - The order's current status. Users can update the status for an order, or print the order receipt by selecting the corresponding button.
 
 ![OrderLine Order Card Details](../images/019-en-order-card-details.png)
