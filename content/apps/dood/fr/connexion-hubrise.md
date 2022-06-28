@@ -15,4 +15,4 @@ meta:
 
 Vous pourrez prochainement vous connecter et vous déconnecter d'HubRise de manière autonome depuis votre back office DOOD.
 
-En attendant, vous devez contacter le support de DOOD pour connecter HubRise.
+En attendant, vous devez contacter le support de DOOD sur [support@dood.com](support@dood.com) pour demander une connexion à HubRise. Pensez à inclure [support@hubrise.com](support@hubrise.com) de HubRise en copie du mail.
