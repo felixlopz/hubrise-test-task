@@ -12,8 +12,8 @@ app_info:
   category: Loyalty and Marketing
   availability: United Kingdom, France
   price_range:
-  website: https://upxp.io
-  contact: https://upxp.io/contact/
+  website: https://upxp.pro
+  contact: contact@upxp.pro
 ---
 
 ---
@@ -24,9 +24,10 @@ app_info:
 
 ## Description
 
-UPXP offers an innovative loyalty solution based on cryptocurrency. UPXP rewards customers who order and book on their restaurant's website by paying them UPXP cryptocurrency, which can be used in other businesses.
+UPXP offers an innovative loyalty solution based on cryptocurrency.
+UPXP rewards customers who order and book directly from partner restaurant websites in UPXP cryptocurrency, which can be used across the UPXP ecosystem.
 
-UPXP is the first cryptocurrency entirely dedicated to restaurateurs. It is a community project, whose mission is to reward customers rather than banks and intermediaries.
+UPXP is the first cryptocurrency dedicated to restaurateurs and hoteliers, it is a community project, whose mission is to reward customers rather than intermediary applications. UPXP connects its users directly with points of sale without commission.
 
 ## Integration Features
 
@@ -39,7 +40,7 @@ UPXP can be connected to HubRise from the UPXP back office.
 
 ## Why Connect?
 
-By connecting UPXP to HubRise, your loyalty solution can communicate with your other everyday applications. Receive orders from your EPOS and your online ordering in UPXP.
+By connecting UPXP to HubRise, you allow your loyalty solution to communicate with the other applications you use on a daily basis. Receive orders recorded in your checkout or from your online ordering solution on UPXP.
 
 Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing) solutions, business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
