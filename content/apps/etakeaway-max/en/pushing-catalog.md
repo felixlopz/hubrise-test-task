@@ -14,8 +14,10 @@ This page describes how to export your eTakeaway Max catalog and what informatio
 To export your catalog to HubRise, follow these steps:
 
 1. From the main dashboard, select **Menu > Categories**.
-2. From the **Categories** page, click **Export to HubRise**.
-   ![eTakeaway Max categories page for store managers](../images/011-en-etm-export-storeman.png)
+1. From the **Categories** page, click **Export to HubRise**.
+1. Double check that the selected HubRise Location and the connected HubRise Catalog are correct.
+   
+![eTakeaway Max categories page for store managers](../images/011-en-etm-export-storeman.png)
 
 ---
 
