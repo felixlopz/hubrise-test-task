@@ -99,7 +99,7 @@ content:
           documentation: /apps/panda-epos
           logo: panda-epos.png
           title: Panda EPOS
-          description: Panda EPOS is used to centralise orders from all channels, analyse the data and manage orders, customers and content. It offers a single platform to manage delivery and takeaway orders for restaurants with one or multiple locations.
+          description: Panda EPOS centralises orders from all channels, and manages customers and content. It offers a single platform for restaurants with one or multiple locations to manage delivery and takeaway orders.
           additional_info: Integration in progress.
         - website: https://www.partech.com/pixel-point-software/
           documentation: /apps/pixelpoint-bridge
