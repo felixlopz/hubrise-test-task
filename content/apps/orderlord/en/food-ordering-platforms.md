@@ -132,13 +132,13 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 Depending on your needs, you may have to create some products in OrderLord. If you don't use these features, you can skip creating the products and leave the corresponding fields empty.
 
 | Section        | Name                                         | Ref code or value                                 |
-| -------------- | -------------------------------------------- | ------------------------------------------------- |
+| -------------- | -------------------------------------------- |---------------------------------------------------|
 | Service types  | Uber delivery ref code                       | (leave empty)                                     |
 | Service types  | Restaurant delivery ref code (\*)            | (leave empty)                                     |
 | Service types  | Takeaway ref code                            | (leave empty)                                     |
 | Service types  | Eat-in ref code                              | (leave empty)                                     |
 | Service types  | Send orders delivered by Uber Eats as        | `collection orders`                               |
-| Special items  | Disposable items ref code                    | Create a product and use its **Code**.            |
+| Special items  | Disposable items ref code                    | Create a product and use its ref code.            |
 | Discounts      | Discount ref code                            | (leave empty)                                     |
 | Charges        | Delivery charge ref code                     | `delivery`                                        |
 | Charges        | Small order fee ref code                     | (leave empty)                                     |
