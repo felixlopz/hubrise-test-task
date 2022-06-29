@@ -24,10 +24,9 @@ app_info:
 
 ## Description
 
-UPXP offers an innovative loyalty solution based on cryptocurrency.
-UPXP rewards customers who order and book directly from partner restaurant websites in UPXP cryptocurrency, which can be used across the UPXP ecosystem.
+UPXP offers an innovative loyalty solution based on cryptocurrency. UPXP rewards customers who order and book directly from partner restaurant websites in UPXP cryptocurrency, which can be used across the UPXP ecosystem.
 
-UPXP is the first cryptocurrency dedicated to restaurateurs and hoteliers, it is a community project, whose mission is to reward customers rather than intermediary applications. UPXP connects its users directly with points of sale without commission.
+UPXP is the first cryptocurrency dedicated to restaurateurs and hoteliers. It is a community project, whose mission is to reward customers rather than intermediary applications. UPXP connects its users directly with points of sale without commission.
 
 ## Integration Features
 
