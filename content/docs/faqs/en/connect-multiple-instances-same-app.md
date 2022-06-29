@@ -44,8 +44,9 @@ In `device_id=BrandName&`, BrandName can include any combination of the followin
 
 - Letters, both lowercase and uppercase
 - Numbers
-- Spaces
 - Underscores
 - Hyphens
 - Round, square, and curly parentheses
 - Dots
+
+If you need to include a space in the BrandName for more clarity, replace the space by a `+`. For instance, the Papa John's Morocco becomes `Papa+John's+Morocco`.

@@ -35,6 +35,7 @@ Connecter LEO2 à HubRise permet à votre logiciel de caisse de :
 - Recevoir les informations clients de HubRise.
 - Envoyer les changements de statuts de commandes à HubRise.
 - Envoyer un catalogue à HubRise.
+- Synchroniser l'inventaire avec HubRise.
 
 ---
 
