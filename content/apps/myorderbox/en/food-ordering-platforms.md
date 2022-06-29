@@ -7,26 +7,11 @@ meta:
   description: Integrating MyOrderBox with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 
-To connect MyOrderBox to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.
+With HubRise, you can receive food platform orders in MyOrderBox, and synchronise your menu with food platforms.
 
-## Virtual Brands
+For more information, check the documentation of these platforms from our [Apps page](/apps/food-ordering-platforms).
 
-MyOrderBox uses service type ref codes to identify the source of orders. To connect several virtual brands to a single MyOrderBox EPOS, you need to include virtual brand identification information in the service type ref codes. To connect a single brand, just use the service type ref codes provided in the sections below.
-
-For example, to connect Deliveroo:
-
-- If you operate a single Deliveroo account, use `DLO` as the service type ref code
-- If you operate multiple Deliveroo accounts, look up the virtual brand id for the account you need to connect in MyOrderBox. If the id is `123456789`, the service type ref code you need to enter is `DLO_123456789`.
-
-To find a virtual brand id:
-
-1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
-1. Check that no store is selected in the store selector dropdown at the top. If a store is selected, click on the cross icon to unselect. If you cannot unselect the store, check that you have account manager permissions.
-1. From the navigation menu, select **Management** > **Menu** > **Virtual Brands** > **Products**.
-1. Open the **Virtual brand** dropdown.
-1. The virtual brand id is the number next to the brand name, after the **-** character.
-
-![Finding virtual brand id in MyOrderBox back office](../images/006-en-find-virtual-brand-ids.png)
+Below are the parameters to use to connect these platforms with MyOrderBox.
 
 ## Deliveroo
 
@@ -100,3 +85,22 @@ To correctly receive your orders, specify the following values in the Just Eat F
 | Payments       | Online payment ref code                  | (leave empty)                                              |
 | Payments       | Cash payment ref code                    | (leave empty)                                              |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Accepted"`          |
+
+## Virtual Brands
+
+MyOrderBox uses service type ref codes to identify the source of orders. To connect several virtual brands to a single MyOrderBox EPOS, you need to include virtual brand identification information in the service type ref codes. To connect a single brand, just use the service type ref codes provided in the sections below.
+
+For example, to connect Deliveroo:
+
+- If you operate a single Deliveroo account, use `DLO` as the service type ref code
+- If you operate multiple Deliveroo accounts, look up the virtual brand id for the account you need to connect in MyOrderBox. If the id is `123456789`, the service type ref code you need to enter is `DLO_123456789`.
+
+To find a virtual brand id:
+
+1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
+1. Check that no store is selected in the store selector dropdown at the top. If a store is selected, click on the cross icon to unselect. If you cannot unselect the store, check that you have account manager permissions.
+1. From the navigation menu, select **Management** > **Menu** > **Virtual Brands** > **Products**.
+1. Open the **Virtual brand** dropdown.
+1. The virtual brand id is the number next to the brand name, after the **-** character.
+
+![Finding virtual brand id in MyOrderBox back office](../images/006-en-find-virtual-brand-ids.png)

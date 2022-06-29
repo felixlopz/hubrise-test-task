@@ -15,7 +15,7 @@ Connecting Just Eat to HubRise can be done with a few simple steps.
 
 ---
 
-## 1. Enable the API integration
+## 1. Enable the API Integration
 
 As a first step, the HubRise Flyt API integration must be enabled on your Just Eat account.
 

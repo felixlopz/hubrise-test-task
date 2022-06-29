@@ -34,11 +34,11 @@ foodpanda customers can pay their orders either online or by cash on delivery.
 
 This section of the Configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct values to enter.
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of the foodpanda Bridge, click **Save** at the top of the page to continue to the main page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 You can always restore the Configuration page to its default values and change the foodpanda location ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.
 

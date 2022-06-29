@@ -22,17 +22,11 @@ Only new products in the HubRise catalog will be sent to Shopify. The Bridge doe
 In this section, you can customise how to map order status changes in HubRise back to Shopify.
 To ignore an order status change in HubRise, select **Do nothing**.
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of Shopify Bridge, click **Save** at the top of the page to go back to the Operations page.
 
-## Pulling the Catalog
-
-To pull your HubRise catalog into Shopify, from the **Actions** section at the bottom of the page, select **Export the HubRise catalog to Shopify**. For more information on how HubRise catalogs are mapped to Shopify, see [Pulling the Catalog](/apps/shopify/pulling-catalog).
-
-When you pull your HubRise catalog to Shopify, only new products will be added. Your existing Shopify products will not be updated or replaced.
-
-## Resetting the Configuration
+## Reset the Configuration
 
 If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
 

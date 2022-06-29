@@ -38,9 +38,9 @@ Talabat peut être connecté à HubRise depuis le back-office de HubRise.
 
 ## Pourquoi se connecter ?
 
-En connectant Talabat à HubRise, vous permettez à votre plateforme de commande et de livraison de repas de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes Talabat sur votre solution d'encaissement, une imprimante autonome, un écran cuisine, ou votre système de gestion de stock. Importez le menu de votre solution d'encaissement vers Talabat.
+En connectant Talabat à HubRise, vous permettez à votre plateforme de commande et de livraison de repas de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes Talabat sur votre logiciel de caisse, une imprimante autonome, un écran cuisine, ou votre système de gestion de stock. Importez le menu de votre logiciel de caisse vers Talabat.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

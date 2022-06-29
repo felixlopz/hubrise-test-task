@@ -29,6 +29,33 @@ The following tag can be set at the SKU level:
 | ----------- | -------------------------------------------- |
 | `deal_only` | The SKU is only available as part of a deal. |
 
+### Customer custom fields
+
+The following custom field can be attached to a customer:
+
+| Custom field                | Encoding | Description                                                                                      |
+| --------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
+| `contact.phone_access_code` | `string` | The access code to reach the customer. Used when the customer's `phone` is a call center number. |
+
+<details>
+
+<summary>Example of a customer with contact information</summary>
+
+```json
+{
+  "first_name": "Charles",
+  "last_name": "Moore",
+  "phone": "+44123456789",
+  "custom_fields": {
+    "contact": {
+      "phone_access_code": "821 645 884"
+    }
+  }
+}
+```
+
+</details>
+
 ## Conventions for restaurants
 
 ### Tags on products
