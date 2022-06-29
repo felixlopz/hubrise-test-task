@@ -7,12 +7,11 @@ meta:
   description: Integrating SOLUTION with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 
-With HubRise, you can receive food platform orders in SOLUTION.
-With HubRise, you can receive food platform orders in SOLUTION, and synchronise your menu with food platforms.
+With HubRise, you can receive orders from Deliveroo, Just Eat, Uber Eats and other food platforms in SOLUTION. You can also push your menu from SOLUTION to food platforms.
 
-For more information, check the documentation of these platforms from our [Apps page](/apps/food-ordering-platforms).
+For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-Below are the parameters to use to connect these platforms with SOLUTION.
+Below are the parameters to use to connect food platforms to SOLUTION.
 
 ## Deliveroo
 
@@ -102,5 +101,3 @@ In the Uber Eats Bridge configuration page, use the following values:
 **IMPORTANT NOTE:** Preparation notes on individual items are not supported in SOLUTION. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
 
 ---
-
-SOLUTION can display the product-level comments included by your customers in their orders.

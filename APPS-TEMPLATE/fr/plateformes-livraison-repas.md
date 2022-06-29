@@ -7,12 +7,11 @@ meta:
   description: HubRise permet de connecter SOLUTION à Deliveroo, Uber Eats, ou Just Eat. Paramètres à utiliser pour configurer la connexion de ces plateformes.
 ---
 
-HubRise permet de recevoir les commandes des plateformes de livraison de repas dans votre logiciel de caisse SOLUTION.
-HubRise permet de recevoir les commandes des plateformes de livraison de repas dans votre logiciel de caisse SOLUTION, et de synchroniser votre menu.
+HubRise permet de recevoir les commandes de Deliveroo, Just Eat, Uber Eats et autres plateformes de livraison dans votre logiciel de caisse SOLUTION. HubRise permet aussi d'envoyer votre menu de SOLUTION vers ces plateformes.
 
-Pour plus d'informations, consultez les pages d'aide de ces plateformes depuis notre [page Apps](/apps/plateformes-de-livraison-de-repas).
+Pour plus d'informations, consultez les pages d'aide de ces plateformes sur notre [page Apps](/apps/plateformes-de-livraison-de-repas).
 
-Vous trouverez ci-dessous les paramètres à utiliser pour connecter ces plateformes à SOLUTION.
+Vous trouverez ci-dessous les paramètres à utiliser pour connecter les plateformes de livraison de repas à SOLUTION.
 
 ## Deliveroo
 
