@@ -13,7 +13,7 @@ meta:
 
 ---
 
-## Enable the HubRise integration
+## Enable the HubRise Integration
 
 Before you connect to HubRise, contact Lightspeed support on [k-series.support@lightspeedhq.com](mailto:k-series.support@lightspeedhq.com) and ask them to enable the integration with HubRise. Data will not flow from HubRise to Lightspeed Restaurant until they activate the API.
 

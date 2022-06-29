@@ -15,7 +15,7 @@ meta:
 
 ## Connecter LEO2
 
-Pour connecter votre solution d'encaissement LEO2 à HubRise, suivez les étapes suivantes :
+Pour connecter votre logiciel de caisse LEO2 à HubRise, suivez les étapes suivantes :
 
 1. Vérifiez que le module **Vente Externe** est activé. Pour plus d'informations, contactez l'éditeur.
 1. Depuis l'écran d'accueil de LEO2, cliquez sur **Gestion**.

@@ -28,7 +28,7 @@ app_info:
 
 ## Description
 
-Carré POS est un logiciel d'encaissement qui fonctionne sous Windows.
+Carré POS est un logiciel de caisse qui fonctionne sous Windows.
 
 Carré POS enregistre les informations client et l'historique de commandes. Il peut se connecter à de nombreux périphériques métiers tels que des imprimantes de préparation, des monnayeurs automatiques, et des terminaux bancaires.
 
@@ -38,7 +38,7 @@ Carré POS est certifié NF525, et donc conforme à la loi française "anti-fra
 
 ## Fonctionnalités de l'intégration
 
-Connecter Carré POS à HubRise permet à votre solution d'encaissement de :
+Connecter Carré POS à HubRise permet à votre logiciel de caisse de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
@@ -48,9 +48,9 @@ Carré POS peut être connecté à HubRise via le support de Carré POS.
 
 ## Pourquoi se connecter ?
 
-En connectant Carré POS à HubRise, vous permettez à votre solution d'encaissement de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution d'encaissement. Exportez votre menu vers d'autres applications.
+En connectant Carré POS à HubRise, vous permettez à votre logiciel de caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre logiciel de caisse. Exportez votre menu vers d'autres applications.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

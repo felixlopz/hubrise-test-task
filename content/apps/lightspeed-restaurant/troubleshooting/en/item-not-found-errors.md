@@ -21,23 +21,20 @@ In some cases, orders can fail with an error message similar to the following:
 }
 ```
 
-This is generally due to two possible reasons:
+The cause of the error depends on the identifier included in the `reason` field of the error message (e.g. `6644662335523` in the example above).
 
-- Incorrect ref codes
-- iPad not updated
+- If the identifier is one of the ref codes used in the order, the error is caused by an invalid ref code.
+- Otherwise, the error is caused by a disconnected item in Lightspeed.
 
-### Incorrect Ref Codes
+### Invalid ref code
 
-If you receive orders from a connected app, for example a food delivery platform, you need to make sure that ref codes are properly configured there. An incorrect ref code in your food delivery platform menu can cause a whole order to be rejected by the Lightspeed Restaurant EPOS.
+The item whose ref code is indicated in the `reason` field of the error message is not in Lightspeed. To resolve this issue, find the correct ref code in Lightspeed, and include it in the third party app that sent the order.
 
-The `reason` field in the error message indicates the missing ref code in the Lightspeed EPOS. To solve the issue, include the correct ref code in the third party app that sent the order.
+### Disconnected item
 
-### iPad Not Updated
+One of the items in the order has a **Disconnected** status in Lightspeed. To fix the issue, check each item of the order in Lightspeed, and make sure they are all linked to a menu. Alternatively, check the disconnected items in Lightspeed and make sure they are not used in any orders.
 
-If the iPad you are using does not have the updated menu, you might see the error even if the item is available in the main Lightspeed catalog.
-If you experience this error intermittently and have multiple iPads in your store, the error might be caused by a single iPad that is not up to date when it receives the order.
-
-To solve the issue, make sure that all your iPads are up to date.
+Unfortunately, the error message does not indicate which item is causing the error.
 
 ## "No such item" Error
 
@@ -51,5 +48,19 @@ In some cases, orders can fail with an error message similar to the following:
 }
 ```
 
-The error is due to a product with an incorrect ref code.
-To solve the issue, find the correct ref code in Lightspeed, and update the product ref code in the third party app that sent the order.
+This is generally due to two possible reasons:
+
+- Incorrect ref codes
+- iPad not updated
+
+### Incorrect Ref Codes
+
+If you receive orders from a connected app, for example a food delivery platform, you need to make sure that ref codes are properly configured there. An incorrect ref code in your food delivery platform menu can cause a whole order to be rejected by the Lightspeed Restaurant EPOS.
+
+In the error message, the `sku` in the `reason` field (e.g. `abc123` in the example above) indicates the missing ref code in the Lightspeed EPOS. To solve the issue, include the correct ref code in the third party app that sent the order.
+
+### iPad Not Updated
+
+If the iPad you are using does not have the updated menu, you might see the error even if the item is available in Lightspeed. If you experience this error intermittently and have multiple iPads in your store, the error might be caused by a single iPad that is not up to date when it receives the order.
+
+To solve the issue, make sure that all your iPads are up to date.

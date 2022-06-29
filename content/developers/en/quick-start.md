@@ -96,8 +96,12 @@ Select the **Generate Access Token** request and click the **Send** button.
 
 Postman will send the following request to the API:
 
-```json
-POST https://manager.hubrise.com/oauth2/v1/token?code={{auth_code}}&client_id={{client_id}}&client_secret={{client_secret}}
+```
+POST https://manager.hubrise.com/oauth2/v1/token
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic ************
+---
+code={{auth_code}}
 ```
 
 If the request is successful, Postman will automatically populate the `X-Access-Token` variable in the environment, and this will be used as access token for all of the following requests.

@@ -7,26 +7,11 @@ meta:
   description: Integrating MyOrderBox with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 
-To connect MyOrderBox to Deliveroo, Uber Eats, or Just Eat, use the configuration parameters provided below.
+With HubRise, you can receive orders from Deliveroo, Just Eat, Uber Eats and other food ordering platforms in MyOrderBox. You can also push your menu from MyOrderBox to food platforms.
 
-## Virtual Brands
+For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-MyOrderBox uses service type ref codes to identify the source of orders. To connect several virtual brands to a single MyOrderBox EPOS, you need to include virtual brand identification information in the service type ref codes. To connect a single brand, just use the service type ref codes provided in the sections below.
-
-For example, to connect Deliveroo:
-
-- If you operate a single Deliveroo account, use `DLO` as the service type ref code
-- If you operate multiple Deliveroo accounts, look up the virtual brand id for the account you need to connect in MyOrderBox. If the id is `123456789`, the service type ref code you need to enter is `DLO_123456789`.
-
-To find a virtual brand id:
-
-1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
-1. Check that no store is selected in the store selector dropdown at the top. If a store is selected, click on the cross icon to unselect. If you cannot unselect the store, check that you have account manager permissions.
-1. From the navigation menu, select **Management** > **Menu** > **Virtual Brands** > **Products**.
-1. Open the **Virtual brand** dropdown.
-1. The virtual brand id is the number next to the brand name, after the **-** character.
-
-![Finding virtual brand id in MyOrderBox back office](../images/006-en-find-virtual-brand-ids.png)
+Below are the parameters to use to connect platforms to MyOrderBox.
 
 ## Deliveroo
 
@@ -59,24 +44,23 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 to view and modify the configuration page for Uber Eats Bridge, see
 the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
-| Section        | Name                                  | Ref code or value                                          |
-| -------------- | ------------------------------------- | ---------------------------------------------------------- |
-| Service types  | Uber delivery ref code                | `UBE` or `UBE_xxx` - see [Virtual Brands](#virtual-brands) |
-| Service types  | Restaurant delivery ref code (\*)     | (same as above)                                            |
-| Service types  | Takeaway ref code                     | (same as above)                                            |
-| Service types  | Eat-in ref code                       | (same as above)                                            |
-| Service types  | Send orders delivered by Uber Eats as | `collection orders`                                        |
-| Special items  | Disposable items ref code             | Create a product in MyOrderBox and use its ref code.       |
-| Discounts      | Discount ref code                     | (leave empty)                                              |
-| Charges        | Delivery charge ref code              | (leave empty)                                              |
-| Charges        | Small order fee ref code              | (leave empty)                                              |
-| Charges        | Tip ref code                          | (leave empty)                                              |
-| Payments       | Payment ref code                      | (leave empty)                                              |
-| Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Accepted"`          |
+| Section        | Name                                         | Ref code or value                                          |
+| -------------- | -------------------------------------------- | ---------------------------------------------------------- |
+| Service types  | Uber delivery ref code                       | `UBE` or `UBE_xxx` - see [Virtual Brands](#virtual-brands) |
+| Service types  | Restaurant delivery ref code (\*)            | (same as above)                                            |
+| Service types  | Takeaway ref code                            | (same as above)                                            |
+| Service types  | Eat-in ref code                              | (same as above)                                            |
+| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                                        |
+| Special items  | Disposable items ref code                    | Create a product in MyOrderBox and use its ref code.       |
+| Discounts      | Discount ref code                            | (leave empty)                                              |
+| Charges        | Delivery charge ref code                     | (leave empty)                                              |
+| Charges        | Small order fee ref code                     | (leave empty)                                              |
+| Charges        | Tip ref code                                 | (leave empty)                                              |
+| Payments       | Payment ref code                             | (leave empty)                                              |
+| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Accepted"`          |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox                                          |
 
 (\*) BYOC - Bring Your Own Courier
-
-MyOrderBox can display the product-level comments included by your customers in their orders.
 
 ## Just Eat
 
@@ -100,3 +84,22 @@ To correctly receive your orders, specify the following values in the Just Eat F
 | Payments       | Online payment ref code                  | (leave empty)                                              |
 | Payments       | Cash payment ref code                    | (leave empty)                                              |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Accepted"`          |
+
+## Virtual Brands
+
+MyOrderBox uses service type ref codes to identify the source of orders. To connect several virtual brands to a single MyOrderBox EPOS, you need to include virtual brand identification information in the service type ref codes. To connect a single brand, just use the service type ref codes provided in the sections below.
+
+For example, to connect Deliveroo:
+
+- If you operate a single Deliveroo account, use `DLO` as the service type ref code
+- If you operate multiple Deliveroo accounts, look up the virtual brand id for the account you need to connect in MyOrderBox. If the id is `123456789`, the service type ref code you need to enter is `DLO_123456789`.
+
+To find a virtual brand id:
+
+1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
+1. Check that no store is selected in the store selector dropdown at the top. If a store is selected, click on the cross icon to unselect. If you cannot unselect the store, check that you have account manager permissions.
+1. From the navigation menu, select **Management** > **Menu** > **Virtual Brands** > **Products**.
+1. Open the **Virtual brand** dropdown.
+1. The virtual brand id is the number next to the brand name, after the **-** character.
+
+![Finding virtual brand id in MyOrderBox back office](../images/006-en-find-virtual-brand-ids.png)

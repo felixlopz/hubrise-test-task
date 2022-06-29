@@ -7,11 +7,11 @@ meta:
   description: Réceptionner et modifier le statut des commandes HubRise reçues dans Zelty. Connectez vos apps et synchronisez vos données.
 ---
 
-Une fois HubRise connecté à Zelty et les codes ref associés, aucune autre action n'est nécessaire. Votre solution d'encaissement Zelty reçoit automatiquement toutes les commandes envoyées à HubRise par d'autres applications.
+Une fois HubRise connecté à Zelty et les codes ref associés, aucune autre action n'est nécessaire. Votre logiciel de caisse Zelty reçoit automatiquement toutes les commandes envoyées à HubRise par d'autres applications.
 
 ## Recevoir des commandes
 
-Lorsque vous recevez une commande dans votre solution d'encaissement, une notification apparaît et la commande devient disponible dans la liste des commandes.
+Lorsque vous recevez une commande dans votre logiciel de caisse, une notification apparaît et la commande devient disponible dans la liste des commandes.
 
 Pour afficher la liste des commandes :
 

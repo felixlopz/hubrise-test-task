@@ -54,11 +54,11 @@ When you upload a customer's details to dotdigital, your dotdigital data model m
 
 This section of the Configuration page allows you to decide how to map your dotdigital data fields to HubRise. You can also decide not to map a specific field by selecting the **-- Do not map --** value from the dropdown menu.
 
-### Saving the Configuration
+### Save the Configuration
 
 Once you are happy with the configuration of the dotdigital Bridge, click **Save** at the top of the page to continue to the main page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 You can always restore the Configuration page to its default values and change the dotdigital API credentials associated with your HubRise location by clicking on **Reset the configuration**.
 
