@@ -4,7 +4,8 @@ position: 2
 layout: documentation
 meta:
   title: Connection to HubRise | SOLUTION | HubRise
-  description: Instructions on connecting SOLUTION with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
+  description: "Connect SOLUTION to HubRise: steps to follow to receive your orders in your SOLUTION EPOS."
+  description: "Connect SOLUTION to HubRise: steps to follow to receive your SOLUTION orders in your EPOS."
 ---
 
 ---
