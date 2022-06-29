@@ -12,8 +12,8 @@ app_info:
   category: Fidélité et marketing
   availability: Royaume-Uni, France
   price_range:
-  website: https://upxp.io
-  contact: https://upxp.io/contact/
+  website: https://upxp.pro
+  contact: contact@upxp.pro
 ---
 
 ---
@@ -24,9 +24,9 @@ app_info:
 
 ## Description
 
-UPXP propose une solution de fidélisation innovante basée sur la cryptomonnaie. UPXP récompense les clients qui commandent et réservent sur le site de leur restaurant en leur versant de la cryptomonnaie UPXP, utilisable dans d'autres commerces.
+UPXP propose une solution de fidélisation innovante basée sur la cryptomonnaie. UPXP récompense les clients qui commandent et réservent directement depuis le site des restaurants partenaires en leur versant de la cryptomonnaie UPXP, utilisable dans tout l'écosystème UPXP.
 
-UPXP est la première cryptomonnaie entièrement dédiée aux restaurateurs. C'est un projet communautaire, dont la mission est de récompenser les clients plutôt que les banques et les intermédiaires.
+UPXP est la première cryptomonnaie dédiée aux restaurateurs et aux hôteliers. C'est un projet communautaire dont la mission est de récompenser les clients plutôt que les applications intermédiaires. UPXP connecte directement ses utilisateurs avec les points de vente sans commission.
 
 ## Fonctionnalités de l'intégration
 
