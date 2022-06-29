@@ -11,7 +11,7 @@ With HubRise, you can receive orders from Deliveroo, Just Eat, Uber Eats and oth
 
 For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-Below are the parameters to use to connect food platforms to SOLUTION.
+Below are the parameters to use to connect platforms to SOLUTION.
 
 ## Deliveroo
 

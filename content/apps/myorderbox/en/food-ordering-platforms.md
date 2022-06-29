@@ -7,11 +7,11 @@ meta:
   description: Integrating MyOrderBox with food ordering platforms requires you to specify particular ref codes in the configuration page of the delivery platform bridge.
 ---
 
-With HubRise, you can receive food platform orders in MyOrderBox, and synchronise your menu with food platforms.
+With HubRise, you can receive orders from Deliveroo, Just Eat, Uber Eats and other food ordering platforms in MyOrderBox. You can also push your menu from MyOrderBox to food platforms.
 
-For more information, check the documentation of these platforms from our [Apps page](/apps/food-ordering-platforms).
+For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-Below are the parameters to use to connect these platforms with MyOrderBox.
+Below are the parameters to use to connect platforms to MyOrderBox.
 
 ## Deliveroo
 
