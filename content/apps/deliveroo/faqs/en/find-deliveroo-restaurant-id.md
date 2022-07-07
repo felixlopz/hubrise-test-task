@@ -1,6 +1,6 @@
 ---
 title: How Do I Find My Deliveroo Restaurant ID?
-position: 1
+position: 2
 layout: documentation
 meta:
   title: Find My Restaurant ID | Deliveroo FAQs | HubRise

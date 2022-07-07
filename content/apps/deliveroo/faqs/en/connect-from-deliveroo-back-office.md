@@ -1,6 +1,6 @@
 ---
 title: Can I Connect to HubRise From Deliveroo Back Office?
-position: 4
+position: 5
 layout: documentation
 meta:
   title: Connect From Deliveroo Back Office | Deliveroo FAQs | HubRise
