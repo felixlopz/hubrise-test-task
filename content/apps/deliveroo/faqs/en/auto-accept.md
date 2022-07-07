@@ -17,10 +17,10 @@ You can however enable auto-accept to free up staff from managing the tablet, an
 
 ---
 
-To enable auto-accept, you need to turn it on every day when you open your restaurant. Simply select **Turn on Auto-accept** when you see this page in your tablet:
+To enable auto-accept, you need to turn it on every day when you open your restaurant. Simply select **Turn on Auto-accept** when you see this page on your tablet:
 
 ![Turn on auto-accept when you open your restaurant](../../images/016-en-auto-accept-open-restaurant.png)
 
-At any time, you can also turn auto-accept on or off from the **Settings** page in the tablet.
+At any time, you can also turn auto-accept on or off from the **Settings** page on the tablet.
 
-![Turn on auto-accept in the Settings page in the tablet](../../images/017-en-auto-accept-settings.png)
+![Turn on auto-accept on the Settings page in the tablet](../../images/017-en-auto-accept-settings.png)
