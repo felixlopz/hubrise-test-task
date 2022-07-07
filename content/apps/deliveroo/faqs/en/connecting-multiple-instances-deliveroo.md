@@ -1,6 +1,6 @@
 ---
 title: Can I Connect Multiple Deliveroo Stores to the Same HubRise Location?
-position: 3
+position: 1
 layout: documentation
 meta:
   title: Connect Multiple Stores | Deliveroo FAQs | HubRise
