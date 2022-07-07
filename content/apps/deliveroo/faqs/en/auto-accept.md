@@ -9,20 +9,18 @@ meta:
 
 Deliveroo does not currently support tabletless integrations. The Deliveroo tablet needs to be on and connected to receive orders in HubRise.
 
-You can however enable auto-accept to free up staff from managing the tablet, and avoid the risk of orders being rejected.
+You can however enable auto-accept to free up staff from managing the tablet, and avoid the risk of orders being rejected. HubRise recommends to enable auto-accept.
 
-To use auto-accept, you need to turn it on every day when you open your restaurant. Simply select **Turn on Auto-accept** when you see this page in your tablet:
+---
+
+**IMPORTANT NOTE:** Even with auto-accept enabled, you need to keep the tablet turned on to receive orders.
+
+---
+
+To enable auto-accept, you need to turn it on every day when you open your restaurant. Simply select **Turn on Auto-accept** when you see this page in your tablet:
 
 ![Turn on auto-accept when you open your restaurant](../../images/016-en-auto-accept-open-restaurant.png)
 
 At any time, you can also turn auto-accept on or off from the **Settings** page in the tablet.
 
 ![Turn on auto-accept in the Settings page in the tablet](../../images/017-en-auto-accept-settings.png)
-
-HubRise recommends to enable auto-accept, to avoid orders being rejected.
-
----
-
-**IMPORTANT NOTE:** Even with Auto-Accept enabled, you need to keep the tablet turned on to receive orders.
-
----
