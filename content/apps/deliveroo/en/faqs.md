@@ -10,5 +10,4 @@ meta:
 - <Link to="/apps/deliveroo/faqs/connecting-multiple-instances-deliveroo/">Can I Connect Multiple Deliveroo Stores to the Same HubRise Location?</Link>
 - <Link to="/apps/deliveroo/faqs/find-deliveroo-restaurant-id/">How Do I Find My Deliveroo Restaurant ID?</Link>
 - <Link to="/apps/deliveroo/faqs/auto-accept/">How Can I Auto-Accept Orders?</Link>
-- <Link to="/apps/deliveroo/faqs/orders-not-received/">Why Are My Orders Not Received on HubRise?</Link>
 - <Link to="/apps/deliveroo/faqs/connect-from-deliveroo-back-office/">Can I Connect to HubRise From Deliveroo Back Office?</Link>
