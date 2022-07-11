@@ -27,7 +27,6 @@ app_info:
 
 ---
 
-
 ## Description
 
 OrderWire is a modern restaurant management system and Point of Sale application designed from the ground-up for the delivery world. 100% web-based, OrderWire supports many deployment configurations from the simple coffee-shops to multi-location chains. With OrderWire, delivery channels are first-class citizens, and via integration with HubRise, restaurants gain an end-to-end view of their sales and costs, including food cost and channel commission.
@@ -37,20 +36,20 @@ Ideally suited for ghost and cloud kitchen environments, multiple physical or vi
 Flexible web-based deployment and a generous free tier make getting started easy.
 
 Core OrderWire features include:
+
 - Order input and payments for both on-premises and online channels.
 - Multi-location (traditional and ghost kitchen) support with optionally shared data.
-- Built-In Kitchen Display (KDS).  
-- Dynamic order routing from all channels into kitchen displays.  
-- Drag-and-drop menu builder.  
+- Built-In Kitchen Display (KDS).
+- Dynamic order routing from all channels into kitchen displays.
+- Drag-and-drop menu builder.
 - Adjustable Pricelists to manage menu pricing.
 - Smart product definition with variants and multi-level options and modifiers.
 - Nutritional, allergen, and dietary tags.
-- Ingredient-level costing of product recipes.  
+- Ingredient-level costing of product recipes.
 - Inventory management.
 - Easy online store setup, including menu and inventory synchronisation.
 - Custom notification events via SMS and email.
 - Support for leading printers, including Epson TM, Star MC, Citizen, and Fujitsu.
-
 
 ## Integration Features
 
@@ -62,7 +61,6 @@ Connecting OrderWire to HubRise allows your EPOS to:
 - Synchronise inventory with HubRise.
 
 OrderWire can be connected to HubRise from the OrderWire back office.
-
 
 ## Why Connect?
 
