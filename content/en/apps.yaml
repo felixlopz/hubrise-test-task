@@ -95,6 +95,11 @@ content:
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord is a cloud based EPOS solution. It provides a Point of Sale combined with a Delivery Management Solution with auto-dispatch, Kitchen Display Screens and advanced reporting.
+        - website: https://orderwire.com/
+          documentation: /apps/orderwire
+          logo: orderwire.png
+          title: OrderWire
+          description: OrderWire is a cloud based EPOS designed for delivery. OrderWire supports many types of deployment configurations from the simple coffee-shops to multi-location chains, from traditional restaurants to Ghost Kitchens.
         - website: hhttps://pandaepos.com/
           documentation: /apps/panda-epos
           logo: panda-epos.png

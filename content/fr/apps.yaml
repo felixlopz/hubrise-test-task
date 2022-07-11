@@ -91,6 +91,11 @@ content:
           logo: orderlord.png
           title: OrderLord POS
           description: OrderLord est un logiciel de caisse spécialisé pour la livraison. OrderLord offre de nombreuses fonctionnalités pour faciliter le travail en cuisine, la gestion de livreurs et l'analyse des données.
+        - website: https://orderwire.com/
+          documentation: /apps/orderwire
+          logo: orderwire.png
+          title: OrderWire
+          description: OrderWire est une solution de caisse cloud conçue pour la livraison. OrderWire se déploie aussi bien dans de simples cafés que dans des chaînes de restauration multi établissements, des restaurants traditionnels ou des Dark Kitchens.
         - website: hhttps://pandaepos.com/
           documentation: /apps/panda-epos
           logo: panda-epos.png
