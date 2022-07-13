@@ -15,14 +15,25 @@ For a full list of compatible apps, see our [Apps page](/apps).
 
 HubRise works mostly the same way as Deliverect:
 
-- Receive all your orders from multiple sources into your MyOrderBox EPOS.
-- Edit your menu directly from your MyOrderBox back office.
-- Synchronise your virtual brand menus in one click.
+- Receive all orders from multiple channels into one User Interface.
+- Edit all online ordering channels menus from the same User Interface.
 
 HubRise offers a [competitive pricing](/pricing), with no setup fees and no commitment.
+
+## How HubRise Works in Conjunction with MyOrderBox EPOS
+
+When integrating online ordering solutions or food ordering and delivery platforms to MyOrderBox via HubRise, most actions can be done on MyOrderBox back office to ease restaurant owner day to day operations. 
+
+See actions done on MyOrderBox:
+
+- Receive all orders from multiple channels into MyOrderBox.
+- Edit menus for all your ordering channels on MyOrderBox.
+- Synchronise all online menus in one click on MyOrderBox.
+
+You will connect to HubRise to change your Uber Eats and Just Eat opening hours.
 
 ## Connecting MyOrderBox to HubRise
 
 To migrate from Deliverect to HubRise, contact [MyOrderBox support](mailto:support@myorderboxhq.com) to request a migration.
 
-Alternatively, you can follow the steps described in [Connection to HubRise](/apps/myorderbox/connect-hubrise) to connect MyOrderBox to HubRise. You will then need to [contact us](mailto:support@hubrise.com) to connect your apps. Just make sure to mention that you are currently with Deliverect to ease the migration.
+Alternatively, you can follow the steps described in [Connection to HubRise](/apps/myorderbox/connect-hubrise) to connect MyOrderBox to HubRise. You will then need to [contact us](mailto:support@hubrise.com) to connect your apps. Make sure to mention that you are currently with Deliverect to ease the migration.
