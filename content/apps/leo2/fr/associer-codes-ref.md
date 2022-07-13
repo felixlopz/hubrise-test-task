@@ -99,7 +99,22 @@ Les méthodes de paiement dans HubRise correspondent aux modes de règlement dan
 
 ## Types de service
 
-Les types de service dans HubRise correspondent aux vendeurs dans LEO2. Pour retrouver leur code ref, suivez les étapes suivantes :
+Les types de service dans HubRise sont **Sur place**, **Emporter** et **Livraison**. Chaque type de service doit être associé à un tarif dans LEO2.
+
+Pour associer un type de service à un tarif, suivez les étapes suivantes :
+
+1. Depuis l'écran d'accueil de LEO2, cliquez sur **Gestion**.
+2. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
+3. Cliquez sur **Paramètres et Réglages**.
+4. Dans l'onglet **Généraux**, cliquez sur **HubRise**.
+   ![Connexion - Paramètres HubRise](../images/003-fr-leo2-parametres-hubrise.png)
+5. Dans les champs **Tarif sur place**, **Tarif à emporter** et **Tarif à livrer**, choisissez le tarif correspondant dans la liste déroulante.
+
+## Codes ref des types de service
+
+Les codes refs des types de service dans HubRise correspondent aux vendeurs dans LEO2. Les vendeurs permettent de connaître la provenance des commandes. Selon vos besoins, vous pouvez par exemple créer un vendeur "Uber Eats" et un vendeur "WooCommerce".
+
+Une fois le vendeur créé, vous pouvez trouver son code ref en suivant les étapes suivantes :
 
 1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
