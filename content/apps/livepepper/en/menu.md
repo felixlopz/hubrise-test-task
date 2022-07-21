@@ -24,21 +24,18 @@ Before pulling your menu into LivePepper, you first need to populate a HubRise c
 To pull a HubRise catalog into LivePepper:
 
 1. Log in to your LivePepper back office.
-1. Click **My menu** > **Import / Export**.
-1. In the **HubRise** section, click **Import**.
-1. Enter your LivePepper password and click **Import from HubRise**.
+2. Click **My menu** > **Import / Export**.
+   ![Pulling the menu - Import and Export menu](../images/009-en-menu-import-export.png)
+3. In the **HubRise** section, click **Import**.
+   ![Pulling the menu - Menu Import](../images/010-en-hubrise-menu-import.png)
+4. Enter your LivePepper password and click **Import from HubRise**.
+   ![Pulling the menu - Confirm with password](../images/011-en-menu-import-password.png)
 
 ---
 
 **IMPORTANT NOTE:** Pulling a HubRise catalog will replace all your current products in LivePepper. This action cannot be reverted.
 
 ---
-
-In this example, we have removed a product size from LivePepper, and then restored it by pulling the menu from HubRise.
-
-<video controls title="Import HubRise Catalog">
-  <source src="../images/009-import-hubrise-catalog.webm" type="video/webm"/>
-</video>
 
 ## Pushing the Menu
 
@@ -47,9 +44,10 @@ You can push your LivePepper menu into HubRise, if you want to share it with oth
 To push your menu into HubRise:
 
 1. Log in to your LivePepper back office.
-1. Click **My menu** > **Import / Export**.
-1. In the **HubRise** section, click **Export**.
-
+2. Click **My menu** > **Import / Export**.
+   ![Pulling the menu - Import and Export menu](../images/009-en-menu-import-export.png)
+3. In the **HubRise** section, click **Export**.
+   ![Pulling the menu - Import and Export menu](../images/012-en-export-menu-to-hubrise.png)
 The export can take a bit of time, especially if your menu contains pictures.
 
 If some ref codes are missing in your menu, LivePepper will generate unique ref codes using product or option names.
