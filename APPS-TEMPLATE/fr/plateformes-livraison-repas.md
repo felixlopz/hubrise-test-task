@@ -54,21 +54,23 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les codes ref su
 
 Pour recevoir les commandes de Uber Eats dans SOLUTION, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour configurer Uber Eats Bridge, consultez l'aide sur la [configuration de Uber Eats Bridge](/fr/apps/uber-eats/configuration).
 
-| Section             | Nom                                               | Code ref                                                            |
-| ------------------- | ------------------------------------------------- | ------------------------------------------------------------------- |
-| Types de service    | Code ref livraison Uber                           |                                                                     |
-| Types de service    | Code ref livraison par le restaurant              |                                                                     |
-| Types de service    | Code ref à emporter                               |                                                                     |
-| Types de service    | Code ref sur place                                |                                                                     |
-| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                              |
-| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans SOLUTION et utiliser son code ref. |
-| Remises             | Code ref remise                                   |                                                                     |
-| Frais               | Code ref frais de livraison                       |                                                                     |
-| Frais               | Code ref supplément petite commande               |                                                                     |
-| Frais               | Code ref pourboire                                |                                                                     |
-| Paiements           | Code ref paiement                                 |                                                                     |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                       |
-| Menu                | Activer les notes de préparation sur les articles | Cocher la case / Laisser la case décochée                           |
+| Section             | Nom                                               | Code ref                                                                 |
+| ------------------- | ------------------------------------------------- | ------------------------------------------------------------------------ |
+| Types de service    | Code ref livraison Uber                           |                                                                          |
+| Types de service    | Code ref livraison par le restaurant              |                                                                          |
+| Types de service    | Code ref à emporter                               |                                                                          |
+| Types de service    | Code ref sur place                                |                                                                          |
+| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                                   |
+| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans SOLUTION et utiliser son code ref. (\*) |
+| Remises             | Code ref remise                                   |                                                                          |
+| Frais               | Code ref frais de livraison                       |                                                                          |
+| Frais               | Code ref supplément petite commande               |                                                                          |
+| Frais               | Code ref pourboire                                |                                                                          |
+| Paiements           | Code ref paiement                                 |                                                                          |
+| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                            |
+| Menu                | Activer les notes de préparation sur les articles | Cocher la case / Laisser la case décochée                                |
+
+(\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
 
 ---
 

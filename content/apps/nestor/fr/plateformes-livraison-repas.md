@@ -52,21 +52,23 @@ Pour savoir comment accéder à cette page, consultez l'aide sur la [configurati
 
 Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivants.
 
-| Section             | Nom                                               | Code ref                                                          |
-| ------------------- | ------------------------------------------------- | ----------------------------------------------------------------- |
-| Types de service    | Code ref livraison Uber                           | `UELIV`                                                           |
-| Types de service    | Code ref livraison par le restaurant              | `UELIVR`                                                          |
-| Types de service    | Code ref à emporter                               | `UEEMP`                                                           |
-| Types de service    | Code ref sur place                                | `UEPLA`                                                           |
-| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                            |
-| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans Nestor et utiliser son code ref. |
-| Remises             | Code ref remise                                   | (laisser vide)                                                    |
-| Frais               | Code ref frais de livraison                       | (laisser vide)                                                    |
-| Frais               | Code ref supplément petite commande               | (laisser vide)                                                    |
-| Frais               | Code ref pourboire                                | (laisser vide)                                                    |
-| Paiements           | Code ref paiement                                 | `UE`                                                              |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                     |
-| Menu                | Activer les notes de préparation sur les articles | Cocher la case                                                    |
+| Section             | Nom                                               | Code ref                                                               |
+| ------------------- | ------------------------------------------------- | ---------------------------------------------------------------------- |
+| Types de service    | Code ref livraison Uber                           | `UELIV`                                                                |
+| Types de service    | Code ref livraison par le restaurant              | `UELIVR`                                                               |
+| Types de service    | Code ref à emporter                               | `UEEMP`                                                                |
+| Types de service    | Code ref sur place                                | `UEPLA`                                                                |
+| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                                 |
+| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans Nestor et utiliser son code ref. (\*) |
+| Remises             | Code ref remise                                   | (laisser vide)                                                         |
+| Frais               | Code ref frais de livraison                       | (laisser vide)                                                         |
+| Frais               | Code ref supplément petite commande               | (laisser vide)                                                         |
+| Frais               | Code ref pourboire                                | (laisser vide)                                                         |
+| Paiements           | Code ref paiement                                 | `UE`                                                                   |
+| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                          |
+| Menu                | Activer les notes de préparation sur les articles | Cocher la case                                                         |
+
+(\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
 

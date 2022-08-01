@@ -78,23 +78,24 @@ To receive Uber Eats orders in SOLUTION, you first need to connect Uber Eats Bri
 
 In the Uber Eats Bridge configuration page, use the following values:
 
-| Section        | Name                                         | Ref code or value                                 |
-| -------------- | -------------------------------------------- | ------------------------------------------------- |
-| Service types  | Uber delivery ref code                       |                                                   |
-| Service types  | Restaurant delivery ref code (\*)            |                                                   |
-| Service types  | Takeaway ref code                            |                                                   |
-| Service types  | Eat-in ref code                              |                                                   |
-| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                               |
-| Special items  | Disposable items ref code                    |                                                   |
-| Discounts      | Discount ref code                            |                                                   |
-| Charges        | Delivery charge ref code                     |                                                   |
-| Charges        | Small order fee ref code                     |                                                   |
-| Charges        | Tip ref code                                 |                                                   |
-| Payments       | Payment ref code                             |                                                   |
-| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"` |
-| Menu           | Enable preparation notes on individual items | Tick the checkbox / Leave unchecked               |
+| Section        | Name                                         | Ref code or value                                         |
+| -------------- | -------------------------------------------- | --------------------------------------------------------- |
+| Service types  | Uber delivery ref code                       |                                                           |
+| Service types  | Restaurant delivery ref code (\*)            |                                                           |
+| Service types  | Takeaway ref code                            |                                                           |
+| Service types  | Eat-in ref code                              |                                                           |
+| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                                       |
+| Special items  | Disposable items ref code                    | Create a product in SOLUTION and use its ref code. (\*\*) |
+| Discounts      | Discount ref code                            |                                                           |
+| Charges        | Delivery charge ref code                     |                                                           |
+| Charges        | Small order fee ref code                     |                                                           |
+| Charges        | Tip ref code                                 |                                                           |
+| Payments       | Payment ref code                             |                                                           |
+| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`         |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox / Leave unchecked                       |
 
 (\*) BYOC - Bring Your Own Courier
+(\*\*) Only applies if you offer disposable items, such as cutlery, napkins, etc.
 
 ---
 

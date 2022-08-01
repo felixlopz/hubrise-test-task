@@ -40,21 +40,24 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 to view and modify the configuration page for Uber Eats Bridge, see
 the [Uber Eats Configuration page](/apps/uber-eats/configuration).
 
-| Section        | Name                                         | Ref code or value                                       |
-| -------------- | -------------------------------------------- | ------------------------------------------------------- |
-| Service types  | Uber delivery ref code                       | `UBECLCT`                                               |
-| Service types  | Restaurant delivery ref code                 | `UBEDEL`                                                |
-| Service types  | Takeaway ref code                            | `UBETKWY`                                               |
-| Service types  | Eat-in ref code                              | `eatin_ref`                                             |
-| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                                     |
-| Special items  | Disposable items ref code                    | Create a product in eTakeaway Max and use its ref code. |
-| Discounts      | Discount ref code                            | (leave empty)                                           |
-| Charges        | Delivery charge ref code                     | (leave empty)                                           |
-| Charges        | Small order fee ref code                     | (leave empty)                                           |
-| Charges        | Tip ref code                                 | (leave empty)                                           |
-| Payments       | Payment ref code                             | (leave empty)                                           |
-| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`       |
-| Menu           | Enable preparation notes on individual items | Tick the checkbox                                       |
+| Section        | Name                                         | Ref code or value                                              |
+| -------------- | -------------------------------------------- | -------------------------------------------------------------- |
+| Service types  | Uber delivery ref code                       | `UBECLCT`                                                      |
+| Service types  | Restaurant delivery ref code (\*)            | `UBEDEL`                                                       |
+| Service types  | Takeaway ref code                            | `UBETKWY`                                                      |
+| Service types  | Eat-in ref code                              | `eatin_ref`                                                    |
+| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                                            |
+| Special items  | Disposable items ref code                    | Create a product in eTakeaway Max and use its ref code. (\*\*) |
+| Discounts      | Discount ref code                            | (leave empty)                                                  |
+| Charges        | Delivery charge ref code                     | (leave empty)                                                  |
+| Charges        | Small order fee ref code                     | (leave empty)                                                  |
+| Charges        | Tip ref code                                 | (leave empty)                                                  |
+| Payments       | Payment ref code                             | (leave empty)                                                  |
+| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`              |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox                                              |
+
+(\*) BYOC - Bring Your Own Courier
+(\*\*) Only applies if you offer disposable items, such as cutlery, napkins, etc.
 
 ## Just Eat
 

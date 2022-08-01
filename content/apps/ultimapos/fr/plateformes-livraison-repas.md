@@ -53,7 +53,7 @@ En fonction de vos besoins, vous devez créer des articles, promotions et centre
 | Types de service    | Code ref à emporter                               | Voir [Centres de profit](#centres-de-profit)                       |
 | Types de service    | Code ref sur place                                | Voir [Centres de profit](#centres-de-profit)                       |
 | Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes en livraison`                                           |
-| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` et utiliser son code ref.              |
+| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` et utiliser son code ref. (\*)         |
 | Remises             | Code ref remise                                   | Créer une promotion `Uber Eats` et utiliser son identifiant.       |
 | Frais               | Code ref frais de livraison                       | Créer un article `Frais de livraison` et utiliser son identifiant. |
 | Frais               | Code ref supplément petite commande               | Créer un article `Petite commande` et utiliser son identifiant.    |
@@ -61,6 +61,8 @@ En fonction de vos besoins, vous devez créer des articles, promotions et centre
 | Paiements           | Code ref paiement                                 | Créer un règlement `Uber Eats` et utiliser son identifiant.        |
 | Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                      |
 | Menu                | Activer les notes de préparation sur les articles | Cocher la case                                                     |
+
+(\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
 

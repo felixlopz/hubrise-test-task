@@ -60,20 +60,21 @@ To receive Uber Eats orders in EPOS Technologies, you first need to connect Uber
 
 In the Uber Eats Bridge configuration page, use the following values:
 
-| Section        | Name                                         | Ref code or value                                 |
-| -------------- | -------------------------------------------- | ------------------------------------------------- |
-| Service types  | Uber delivery ref code                       | `UE_ST_PLATFORM`                                  |
-| Service types  | Restaurant delivery ref code (\*)            | `UE_ST_RESTAURANT`                                |
-| Service types  | Takeaway ref code                            | `UE_ST_TAKEAWAY`                                  |
-| Service types  | Eat-in ref code                              | `UE_ST_EATIN`                                     |
-| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                               |
-| Special items  | Disposable items ref code                    | (leave empty)                                     |
-| Discounts      | Discount ref code                            | `UE_DC`                                           |
-| Charges        | Delivery charge ref code                     | `UE_CH_DELIVERY`                                  |
-| Charges        | Small order fee ref code                     | `UE_CH_SURCHARGE`                                 |
-| Charges        | Tip ref code                                 | (leave empty)                                     |
-| Payments       | Payment ref code                             | `UE_PM_PLATFORM`                                  |
-| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"` |
-| Menu           | Enable preparation notes on individual items | Tick the checkbox                                 |
+| Section        | Name                                         | Ref code or value                                                  |
+| -------------- | -------------------------------------------- | ------------------------------------------------------------------ |
+| Service types  | Uber delivery ref code                       | `UE_ST_PLATFORM`                                                   |
+| Service types  | Restaurant delivery ref code (\*)            | `UE_ST_RESTAURANT`                                                 |
+| Service types  | Takeaway ref code                            | `UE_ST_TAKEAWAY`                                                   |
+| Service types  | Eat-in ref code                              | `UE_ST_EATIN`                                                      |
+| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                                                |
+| Special items  | Disposable items ref code                    | Create a product in EPOS Technologies and use its ref code. (\*\*) |
+| Discounts      | Discount ref code                            | `UE_DC`                                                            |
+| Charges        | Delivery charge ref code                     | `UE_CH_DELIVERY`                                                   |
+| Charges        | Small order fee ref code                     | `UE_CH_SURCHARGE`                                                  |
+| Charges        | Tip ref code                                 | (leave empty)                                                      |
+| Payments       | Payment ref code                             | `UE_PM_PLATFORM`                                                   |
+| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`                  |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox                                                  |
 
 (\*) BYOC - Bring Your Own Courier
+(\*\*) Only applies if you offer disposable items, such as cutlery, napkins, etc.

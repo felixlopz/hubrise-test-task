@@ -56,21 +56,23 @@ Pour recevoir les commandes Uber Eats dans POS HELPER, vous devez d'abord connec
 
 Dans la page de configuration Uber Eats Bridge, utilisez les codes ref suivants :
 
-| Section             | Nom                                               | Code ref                                                              |
-| ------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
-| Types de service    | Code ref livraison Uber                           | `Plateforme` - Voir [Types de Service](#types-de-service)             |
-| Types de service    | Code ref livraison par le restaurant              | `Livraison`                                                           |
-| Types de service    | Code ref à emporter                               | `A emporter`                                                          |
-| Types de service    | Code ref sur place                                | `Sur place`                                                           |
-| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                                |
-| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans POS HELPER et utiliser son code ref. |
-| Remises             | Code ref remise                                   | (laisser vide)                                                        |
-| Frais               | Code ref frais de livraison                       | (laisser vide)                                                        |
-| Frais               | Code ref supplément petite commande               | (laisser vide)                                                        |
-| Frais               | Code ref pourboire                                | (laisser vide)                                                        |
-| Paiements           | Code ref paiement                                 | `ONLINE`                                                              |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                         |
-| Menu                | Activer les notes de préparation sur les articles | Laisser la case décochée                                              |
+| Section             | Nom                                               | Code ref                                                                   |
+| ------------------- | ------------------------------------------------- | -------------------------------------------------------------------------- |
+| Types de service    | Code ref livraison Uber                           | `Plateforme` - Voir [Types de Service](#types-de-service)                  |
+| Types de service    | Code ref livraison par le restaurant              | `Livraison`                                                                |
+| Types de service    | Code ref à emporter                               | `A emporter`                                                               |
+| Types de service    | Code ref sur place                                | `Sur place`                                                                |
+| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                                     |
+| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans POS HELPER et utiliser son code ref. (\*) |
+| Remises             | Code ref remise                                   | (laisser vide)                                                             |
+| Frais               | Code ref frais de livraison                       | (laisser vide)                                                             |
+| Frais               | Code ref supplément petite commande               | (laisser vide)                                                             |
+| Frais               | Code ref pourboire                                | (laisser vide)                                                             |
+| Paiements           | Code ref paiement                                 | `ONLINE`                                                                   |
+| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                              |
+| Menu                | Activer les notes de préparation sur les articles | Laisser la case décochée                                                   |
+
+(\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
 
 Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
 

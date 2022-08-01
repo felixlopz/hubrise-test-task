@@ -157,20 +157,21 @@ To correctly receive your orders, specify the following values in the Uber Eats 
 
 Depending on your needs, you may have to create some products in Lightspeed. If you don't use these features, you can skip creating the products and leave the corresponding fields empty.
 
-| Section        | Name                                         | Ref code or value                                                   |
-| -------------- | -------------------------------------------- | ------------------------------------------------------------------- |
-| Service types  | Uber delivery ref code                       | `UEAP`                                                              |
-| Service types  | Restaurant delivery ref code (\*)            | `UENDAP`                                                            |
-| Service types  | Takeaway ref code                            | `UEPUAP`                                                            |
-| Service types  | Eat-in ref code                              | `UEDIAP`                                                            |
-| Service types  | Send orders delivered by Uber Eats as        | `delivery orders`                                                   |
-| Special items  | Disposable items ref code                    | Create a product with price = 0 in Lightspeed and use its **Code**. |
-| Discounts      | Discount ref code                            | `UE99`                                                              |
-| Charges        | Delivery charge ref code                     | `UE77`                                                              |
-| Charges        | Small order fee ref code                     | Create a product with variable positive price and use its **Code**. |
-| Charges        | Tip ref code                                 | Create a product with variable positive price and use its **Code**. |
-| Payments       | Payment ref code                             | `UEPM`                                                              |
-| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`                   |
-| Menu           | Enable preparation notes on individual items | Tick the checkbox                                                   |
+| Section        | Name                                         | Ref code or value                                                          |
+| -------------- | -------------------------------------------- | -------------------------------------------------------------------------- |
+| Service types  | Uber delivery ref code                       | `UEAP`                                                                     |
+| Service types  | Restaurant delivery ref code (\*)            | `UENDAP`                                                                   |
+| Service types  | Takeaway ref code                            | `UEPUAP`                                                                   |
+| Service types  | Eat-in ref code                              | `UEDIAP`                                                                   |
+| Service types  | Send orders delivered by Uber Eats as        | `delivery orders`                                                          |
+| Special items  | Disposable items ref code                    | Create a product with price = 0 in Lightspeed and use its **Code**. (\*\*) |
+| Discounts      | Discount ref code                            | `UE99`                                                                     |
+| Charges        | Delivery charge ref code                     | `UE77`                                                                     |
+| Charges        | Small order fee ref code                     | Create a product with variable positive price and use its **Code**.        |
+| Charges        | Tip ref code                                 | Create a product with variable positive price and use its **Code**.        |
+| Payments       | Payment ref code                             | `UEPM`                                                                     |
+| Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`                          |
+| Menu           | Enable preparation notes on individual items | Tick the checkbox                                                          |
 
 (\*) BYOC - Bring Your Own Courier
+(\*\*) Only applies if you offer disposable items, such as cutlery, napkins, etc.
