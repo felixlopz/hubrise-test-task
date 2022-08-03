@@ -485,7 +485,7 @@ content:
           logo: foodreport.png
           title: Food Report
           description: Food Report propose des outils d'aide à la décision destinés à la restauration rapide et traditionnelle. Food Report permet de créer des rapports en ligne temps réel, à partir de vos données clients, commandes et catalogues venant de HubRise.
-        - website: https://www.inpulse.ai/
+        - website: https://link.inpulse.ai/hubrise
           documentation: /apps/inpulse
           logo: inpulse.png
           title: Inpulse

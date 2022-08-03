@@ -13,7 +13,7 @@ app_info:
   category: Gestion et Inventaire
   availability: France
   price_range:
-  website: https://www.inpulse.ai
+  website: https://link.inpulse.ai/hubrise
   contact: sales@inpulse.ai
 ---
 

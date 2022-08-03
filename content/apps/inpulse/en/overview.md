@@ -13,7 +13,7 @@ app_info:
   category: Inventory and Operations Management
   availability: France
   price_range:
-  website: https://www.inpulse.ai
+  website: https://link.inpulse.ai/hubrise
   contact: +33 1 87 66 15 91 / support@inpulse.ai
 ---
 
