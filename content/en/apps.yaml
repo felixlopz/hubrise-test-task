@@ -480,8 +480,8 @@ content:
           documentation: /apps/inpulse
           logo: inpulse.png
           title: Inpulse
-          description: Inpulse is an AI solution that forecasts sales in order to improve kitchen operations and procurement. Inpulse answers the needs of restaurants, dark kitchens and franchises.
-          additional_info: Integration in progress.
+          description: Inpulse is an AI solution that helps forecasts sales and optimise stock management and procurement. Inpulse answers the needs of restaurants, dark kitchens and franchises which assisted with AI will gain margin on food costs.
+          additional_info:
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png

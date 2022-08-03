@@ -489,8 +489,8 @@ content:
           documentation: /apps/inpulse
           logo: inpulse.png
           title: Inpulse
-          description: Inpulse est une solution IA qui permet d'anticiper les ventes et d'améliorer ainsi la gestion des opérations en cuisine et des achats. Inpulse répond aux besoins des restaurants, dark kitchens et corners thématiques.
-          additional_info: Intégration en cours.
+          description: Inpulse est une solution IA qui permet d'anticiper les ventes pour une meilleure gestion des stocks et des commandes fournisseurs. Inpulse répond aux besoins des restaurants, dark kitchens et corners thématiques qui assistés par l’IA gagnent des marge sur le coût matière.
+          additional_info:
         - website: https://koust.net/
           documentation: /apps/koust
           logo: koust.png
