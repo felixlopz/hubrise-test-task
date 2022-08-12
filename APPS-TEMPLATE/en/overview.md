@@ -50,7 +50,7 @@ Connecting SOLUTION to HubRise allows your [EPOS] to:
 - Pull customer information from HubRise. - OR- Pull customer information from HubRise, including loyalty.
 - Push the menu into a HubRise catalog.
 - Pull the menu from a HubRise catalog.
-- Synchronise inventory with HubRise.
+- Synchronise inventory with HubRise. - OR- Synchronise inventory with HubRise, including inventory.
 - Synchronise final delivery time with HubRise.
 
 ---

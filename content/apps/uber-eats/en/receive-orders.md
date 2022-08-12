@@ -9,6 +9,10 @@ meta:
 
 Connecting Uber Eats to HubRise allows you to receive Uber Eats orders directly in your EPOS. This page describes the information that is passed by Uber Eats Bridge for the orders you receive.
 
+## Uber Eats Tablets
+
+Two order acceptance modes can be  set up for your store during the Uber Eats to HubRise connection process: `Manual accept` or `Offered state` mode. With manual accept, orders should be accepted on the tablet to receive orders in HubRise. With offered state, your Uber Eats tablet can be switched off, and you will still receive orders in HubRise. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
+
 ## Items and Options
 
 ### Items Encoding

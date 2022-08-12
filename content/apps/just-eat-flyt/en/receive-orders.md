@@ -9,6 +9,12 @@ meta:
 
 Connecting Just Eat to HubRise allows you to receive Just Eat orders directly in your EPOS. This page describes the information that HubRise receives from Just Eat for your orders.
 
+## Just Eat OrderPad
+
+The Just Eat OrderPad will need to remain switched on to receive orders in HubRise. For more information, see [Can I Turn Off the Orderpad?](/apps/just-eat-flyt/faqs/auto-accept/)
+
+Orders can be accepted on the OrderPad, or auto-accept can be activated to ease the production process, but it works for some Just Eat markets only. For more information, see [Do I Want Auto-Accept Activated?](/apps/just-eat-flyt/faqs/auto-accept/)
+
 ## Items and Options
 
 Just Eat orders contain the complete information about items and options, including name, POS ref code, quantity, and price. Deals, however, are not supported on Just Eat.
