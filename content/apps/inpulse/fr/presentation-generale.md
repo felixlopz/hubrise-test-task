@@ -25,15 +25,13 @@ app_info:
 
 ## Description
 
-Inpulse utilise l'IA pour anticiper les ventes, optimiser la gestion des stocks et automatiser les commandes fournisseurs.
-Cet outil de gestion est conçu pour les restaurants, dark kitchens et corners thématiques qui assistés par l’IA gagnent des marge sur le coût matière.
+Inpulse utilise l'IA pour anticiper les ventes et automatiser la gestion des achats et optimiser les opérations en cuisine. Inpulse permet d'augmenter la marge sur le coût des matières premières grâce à une bonne gestion des stocks et des achats. Inpulse est conçu pour les restaurants, dark kitchens et corners thématiques.
 
 La prévision de ventes est importante dans la gestion quotidienne d'un restaurant. Elle permet d'établir un plan de production réaliste, de fournir des recommandations d'achats, et de mesurer les écarts de stocks pour évaluer la perte et la consommation réelle. Inpulse permet au manager d'acheter au bon moment, et au cuisinier de produire à temps ce qu'il faut. Inpulse évite les pertes et améliore la marge.
 
 Dans le cas d'un réseau, les données sont centralisées. Le siège peut ainsi analyser les données de tous les points de vente et garder la marge sous contrôle, quel que soit le niveau d'expérience des managers. Le back office d'Inpulse permet d'éditer les fiches techniques et fournisseurs, les mercuriales et les promotions, pour réagir instantanément sur les points de vente.
 
 Inpulse est une solution SaaS qui peut s'implémenter en 4 semaines.
-L'intégration avec la caisse et tous les canaux de ventes est indispensable pour Synchroniser récupérer les données, et ainsi affiner ses prévisions.
 
 ## Fonctionnalités de l'intégration
 
