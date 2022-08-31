@@ -34,7 +34,7 @@ Certaines applications doivent être connectées au niveau de **tous les points 
 
 ---
 
-**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs instances de la même application à un point de vente HubRise unique, consultez la section [Comment connecter plusieurs fois la même application](/docs/faqs/connecter-plusieurs-fois-la-meme-application).
+**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs instances de la même application à un point de vente HubRise unique, consultez la section [Comment connecter plusieurs fois la même application](/docs/faqs/connecter-plusieurs-instances-de-la-meme-application/).
 
 ---
 

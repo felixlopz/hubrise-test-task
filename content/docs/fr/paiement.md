@@ -7,7 +7,7 @@ meta:
   description: Comment gérer les paiements et les factures sur HubRise.
 ---
 
-Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/usage-plan#usage-plans) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/pricing/).
+Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/formule#plans-d-utilisation/) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/pricing/).
 
 Vous pouvez configurer votre mode de paiement dans la section **PARAMÈTRES** > **Paiement**. Pour automatiser les paiements, vous devez disposer d'une carte de crédit. L'option de prélèvement automatique n'est pas disponible. Le virement bancaire est accepté en cas d'utilisation pendant 12 mois minimum.
 
@@ -97,7 +97,7 @@ Pour supprimer un mode de paiement, procédez comme suit :
 
 ## Traiter les devis en attente
 
-Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications de la formule](/docs/usage-plan/#plan-notifications).
+Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications de la formule](/docs/formule#notifications-concernant-les-formules/).
 
 Pour traiter un paiement à partir de la notification, procédez comme suit :
 

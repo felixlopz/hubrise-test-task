@@ -26,7 +26,7 @@ Pour filtrer les commandes par dates de début et de fin, procédez comme suit 
 1. Sélectionnez l'icône de recherche <InlineImage width="17" height="17">![Icône Rechercher](../images/061-search.png)</InlineImage> pour filtrer les enregistrements d'après ces dates.
 1. Pour effacer les filtres de date, supprimez les dates contenues dans les champs **De** et **À**, puis sélectionnez l'icône de recherche <InlineImage width="17" height="17">![Icône Rechercher](../images/061-search.png)</InlineImage>.
 
-Cliquez sur la date de la commande pour afficher les détails complets. Pour afficher les détails complets de la requête, cliquez sur la date et l'heure dans la section **Journaux**. Pour plus d'informations, voir [Journaux](/docs/data/#logs).
+Cliquez sur la date de la commande pour afficher les détails complets. Pour afficher les détails complets de la requête, cliquez sur la date et l'heure dans la section **Journaux**. Pour plus d'informations, voir [Journaux](/docs/donnee#journaux/).
 
 ---
 
@@ -52,9 +52,9 @@ Pour filtrer les clients par leur nom ou leur adresse e-mail, procédez comme su
 1. Sélectionnez l'icône de recherche pour filtrer les enregistrements de client.
 1. Pour effacer le fichier client, supprimez tout le texte contenu dans le champ **Rechercher par nom ou par adresse e-mail**, puis sélectionnez l'icône de recherche <InlineImage width="17" height="17">![Icône Rechercher](../images/061-search.png)</InlineImage>.
 
-Pour afficher les détails complets d'un client, cliquez sur le nom de celui-ci. Pour voir le détail complet des fichiers journaux de toutes les requêtes concernant les clients, cliquez sur **Afficher les journaux**. Pour plus d'informations, voir [Journaux](/docs/data/#logs).
+Pour afficher les détails complets d'un client, cliquez sur le nom de celui-ci. Pour voir le détail complet des fichiers journaux de toutes les requêtes concernant les clients, cliquez sur **Afficher les journaux**. Pour plus d'informations, voir [Journaux](/docs/donnee#journaux/).
 
-Pour créer, modifier ou supprimer une liste de clients, voir [Listes de clients](/docs/customer-lists).
+Pour créer, modifier ou supprimer une liste de clients, voir [Listes de clients](/docs/clients/).
 
 ## Catalogues
 
@@ -89,9 +89,9 @@ Pour les promotions et les remises, les attributs suivants s'affichent :
 - **NOM** : intitulé de la promotion ou de la remise.
 - **CODE RÉF** : identifiant unique de la promotion ou de la remise provenant du système de gestion du produit source.
 
-Pour voir les journaux complets de toutes les requêtes qui apportent des modifications aux catalogues, cliquez sur **Afficher les journaux**. Pour plus d'informations, voir [Journaux](/docs/data/#logs).
+Pour voir les journaux complets de toutes les requêtes qui apportent des modifications aux catalogues, cliquez sur **Afficher les journaux**. Pour plus d'informations, voir [Journaux](/docs/donnee#journaux/).
 
-Pour créer, modifier ou supprimer un catalogue, voir [Catalogues](/docs/catalog).
+Pour créer, modifier ou supprimer un catalogue, voir [Catalogues](/docs/catalogues/).
 
 ## Journaux
 

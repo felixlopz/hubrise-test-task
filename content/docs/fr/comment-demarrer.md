@@ -34,7 +34,7 @@ Lorsque vous vous connectez à HubRise pour la première fois, vous êtes invit�
 
 ![Créer un compte sur HubRise](../images/064-fr-2x-create-account.png)
 
-Une petite entreprise aura un compte avec un seul point de vente, tandis qu'une grande entreprise possédera un compte avec des points de vente multiples. Pour plus d'informations, voir les rubriques [Comptes](/docs/account/) et [Points de vente](/docs/locations/).
+Une petite entreprise aura un compte avec un seul point de vente, tandis qu'une grande entreprise possédera un compte avec des points de vente multiples. Pour plus d'informations, voir les rubriques [Comptes](/docs/compte/) et [Points de vente](/docs/point-de-vente/).
 
 ![Exemples de comptes et de points de vente](../images/046-fr-2x-accounts-locations.png)
 
