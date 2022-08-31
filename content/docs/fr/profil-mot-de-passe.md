@@ -1,10 +1,10 @@
 ---
-title: Profile and Password
+title: Profil et mot de passe
 position: 6
 layout: documentation
 meta:
-  title: Profile and Password | HubRise
-  description: How to manage your profile and password on HubRise.
+  title: Profil et mot de passe | HubRise
+  description: Comment gérer votre profil et votre mot de passe sur HubRise.
 ---
 
 La page Profil de HubRise affiche les informations relatives à votre profil utilisateur et vous permet de les mettre à jour ou de changer votre mot de passe.

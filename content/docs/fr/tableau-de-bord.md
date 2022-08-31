@@ -1,10 +1,10 @@
 ---
-title: Dashboard
+title: Le tableau de bord
 position: 3
 layout: documentation
 meta:
-  title: Dashboard | HubRise
-  description: How to use the HubRise Dashboard.
+  title: Le tableau de bord | HubRise
+  description: Comment utiliser et comprendre le tableau de bord HubRise.
 ---
 
 Le tableau de bord affiche une vue d'ensemble rapide des transactions passées sur votre compte HubRise. En un seul coup d'œil, vous pouvez visualiser les performances des 30 derniers jours en termes de ventes réalisées, de commandes créées, de nouveaux clients et de revenu de ces ventes.

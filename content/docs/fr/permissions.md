@@ -4,7 +4,7 @@ position: 11
 layout: documentation
 meta:
   title: Permissions | HubRise
-  description: How to manage HubRise permissions.
+  description: Comment gérer les permissions sur HubRise.
 ---
 
 Les autorisations sont un moyen de contrôler les actions que les utilisateurs peuvent accomplir au niveau de votre compte et de vos points de vente. Vous pouvez modifier le niveau d'autorisation d'un utilisateur en lui attribuant différents rôles à la section **Autorisations** de la page **PARAMÈTRES**.

@@ -1,10 +1,10 @@
 ---
-title: Usage
+title: Formule
 position: 9
 layout: documentation
 meta:
-  title: Usage and Plans | HubRise
-  description: How to manage HubRise Usage and Plans.
+  title: Utilisation et formule | HubRise
+  description: Comment gérer l'utilisation et les formules sur HubRise.
 ---
 
 À la section **PARAMÈTRES** > **Utilisation**, vous pouvez voir le nombre de commandes et de clients qui ont été traités par HubRise dans le [cycle de facturation en cours](/docs/payment#billing-cycles). Cette section indique également les frais d'abonnement à HubRise liés à chacun des points de vente de votre compte.

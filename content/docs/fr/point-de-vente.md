@@ -1,10 +1,10 @@
 ---
-title: Locations
+title: Points de vente
 position: 8
 layout: documentation
 meta:
-  title: Locations | HubRise
-  description: How to manage HubRise Locations.
+  title: Points de vente | HubRise
+  description: Comment gérer les Points de vente sur HubRise.
 ---
 
 Les points de vente désignent les différents lieux de vente d'un compte. Chaque point de vente identifie un lieu de commercialisation physique. Les comptes peuvent être associés à un ou plusieurs points de vente. Pour passer d'un point de vente à un autre, utilisez la liste déroulante **Point de vente** située tout en haut du back-office de HubRise.

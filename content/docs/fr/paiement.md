@@ -1,10 +1,10 @@
 ---
-title: Payment
+title: Paiement
 position: 10
 layout: documentation
 meta:
-  title: Payment | HubRise
-  description: How to manage payments and quotes on HubRise.
+  title: Paiement | HubRise
+  description: Comment gérer les paiements et les factures sur HubRise.
 ---
 
 Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/usage-plan#usage-plans) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/pricing/).
