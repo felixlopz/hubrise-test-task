@@ -45,7 +45,7 @@ To view the details of a customer list, click the name of the list. It will auto
 To change the name of a customer list:
 
 1. In **SETTINGS**.
-1. In the **Customer lists** section, click the edit icon <InlineImage width="15" height="15">![Edit Icon](../images/028-en-pen-icon.png)</InlineImage> for the customer list to update.
+1. In the **Customer lists** section, click the edit icon <InlineImage width="15" height="15">![Edit Icon](../images/028-pen-icon.png)</InlineImage> for the customer list to update.
 1. Enter the new name of the customer list.
 1. Click **Update** to save the changes.
 
