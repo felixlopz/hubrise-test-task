@@ -11,8 +11,8 @@ meta:
 - <Link to="/docs/faqs/payer-la-premiere-facture/">Comment payer ma première facture ?</Link>
 - <Link to="/docs/faqs/arreter-de-payer-abonnement/">Comment cesser le paiement de mon abonnement ?</Link>
 - <Link to="/docs/faqs/reactiver-un-compte-suspendu/">Comment réactiver un compte qui a été suspendu ?</Link>
-- <Link to="/docs/faqs/formule-en-pause-pendant-les-phases-de-configuration-et-de-test/">Ma formule peut-elle être mise en pause pendant les phases de configuration et de test ?</Link>
-- <Link to="/docs/faqs/comment-effacer-des-comptes/">J'ai trop de comptes pour mon entreprise sur HubRise. Comment faire un nettoyage ?</Link>
+- <Link to="/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/">Ma formule peut-elle être interrompue pendant les phases de configuration et de test ?</Link>
+- <Link to="/docs/faqs/comment-effacer-des-comptes/">Il y a trop de comptes pour mon entreprise sur HubRise. Comment simplifier le système ?</Link>
 - <Link to="/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/">Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
 - <Link to="/docs/faqs/reinitialiser-mot-de-passe-hubrise-perdu/">J'ai perdu mon mot de passe. Comment le réinitialiser ?</Link>
 - <Link to="/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
