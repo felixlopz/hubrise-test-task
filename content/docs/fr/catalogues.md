@@ -7,7 +7,7 @@ meta:
   description: Gestion des catalogues sur HubRise. Visualiser leur contenu. Ajouter ou supprimer des catalogues. Convention de nommage des catalogues pour mieux s'y retrouver.
 ---
 
-La section **Catalogues** de la page **PARAMÈTRES** vous permet de créer, modifier ou supprimer les catalogues utilisés par votre compte HubRise.
+La section **Catalogues** de la page **CONFIGURATION** vous permet de créer, modifier ou supprimer les catalogues utilisés par votre compte HubRise.
 
 Les règles applicables aux catalogues sont les suivantes :
 
@@ -27,7 +27,7 @@ La suppression d'un catalogue de HubRise n'affecte pas la liste des produits con
 
 Pour ajouter un catalogue, procédez comme suit :
 
-1. Sélectionnez l'option **PARAMÈTRES**.
+1. Sélectionnez **CONFIGURATION**.
 1. Pour ajouter le catalogue au niveau du compte, vérifiez que l'option **Tous les points de vente** est sélectionnée. Pour ajouter un catalogue à un point de vente, sélectionnez une entrée dans la liste déroulante **Point de vente**.
 1. Dans la section **Catalogues**, cliquez sur **Ajouter un catalogue**.
 1. Saisissez le nom du catalogue. Si vous n'avez qu'un seul catalogue, nous vous recommandons d'utiliser le nom de votre compte ou de votre point de vente. Si vous avez plusieurs catalogues, utilisez un nom descriptif, tel que `Site web` ou `Plateformes alimentaires`. Veillez à ne pas inclure le mot `Catalogue` dans le nom de votre catalogue. Par exemple, utilisez `Fast Pizza` et non `Catalogue Fast Pizza`.
@@ -35,7 +35,7 @@ Pour ajouter un catalogue, procédez comme suit :
 
 ## Détails du catalogue
 
-Les informations suivantes apparaissent dans la section **PARAMÈTRES** > **Catalogues** :
+Les informations suivantes apparaissent dans la section **CONFIGURATION** > **Catalogues** :
 
 - **Nom** : appellation du catalogue, suivie de son identifiant unique. Cet identifiant unique ne change pas même si le nom du catalogue est modifié. Exemple : le catalogue `Avenue d'Italie` apparaîtra comme `Avenue d'Italie - abc123`. Si le catalogue `Avenue d'Italie` est renommé `Rue Denfert-Rochereau`, il apparaîtra comme `Rue Denfert-Rochereau - abc123`.
 - **Créé** : date à laquelle le catalogue a été créé dans HubRise.
@@ -49,10 +49,10 @@ Les catalogues peuvent être renommés afin de répondre à des besoins particul
 
 Pour modifier le nom d'un catalogue, procédez comme suit :
 
-1. Sélectionnez l'option **PARAMÈTRES**.
-2. Dans la section **Catalogues**, cliquez sur l'icône Modifier <InlineImage width="15" height="15">![Icône Modifier](../images/028-fr-pen-icon.png)</InlineImage> pour le catalogue à éditer.
+1. Sélectionnez **CONFIGURATION**.
+2. Dans la section **Catalogues**, cliquez sur l'icône Modifier <InlineImage width="15" height="15">![Icône Modifier](../images/028-pen-icon.png)</InlineImage> pour le catalogue à éditer.
 3. Saisissez le nouveau nom du catalogue.
-4. Cliquez sur **Mettre à jour** pour enregistrer les nouveaux paramètres.
+4. Cliquez sur **Mettre à jour** pour enregistrer les nouvelles configurations.
 
 ![Modifier un catalogue HubRise](../images/065-fr-2x-edit-remove-catalog.png)
 
@@ -69,6 +69,6 @@ La suppression d'un catalogue dans HubRise n'affecte pas la liste des produits c
 
 Pour supprimer un catalogue, procédez comme suit :
 
-1. Sélectionnez l'option **PARAMÈTRES**.
+1. Sélectionnez **CONFIGURATION**.
 1. Dans la section **Catalogues**, cliquez sur l'icône Supprimer <InlineImage width="15" height="16">![Icône de corbeille](../images/057-2x-trash-icon.png)</InlineImage> pour le catalogue à supprimer.
 1. Cliquez sur **Supprimer** pour confirmer la suppression du catalogue.

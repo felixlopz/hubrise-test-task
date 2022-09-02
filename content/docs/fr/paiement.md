@@ -7,9 +7,9 @@ meta:
   description: Comment gérer les paiements et les factures sur HubRise.
 ---
 
-Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/formule#plans-d-utilisation/) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/pricing/).
+Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/formule#plans-d-utilisation/) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/tarifs/).
 
-Vous pouvez configurer votre mode de paiement dans la section **PARAMÈTRES** > **Paiement**. Pour automatiser les paiements, vous devez disposer d'une carte de crédit. L'option de prélèvement automatique n'est pas disponible. Le virement bancaire est accepté en cas d'utilisation pendant 12 mois minimum.
+Vous pouvez configurer votre mode de paiement dans la section **CONFIGURATION** > **Paiement**. Pour automatiser les paiements, vous devez disposer d'une carte de crédit. L'option de prélèvement automatique n'est pas disponible. Le virement bancaire est accepté en cas d'utilisation pendant 12 mois minimum.
 
 Le paiement d'un abonnement s'effectue toujours en euros, quelle que soit la devise du compte.
 
@@ -27,7 +27,7 @@ Pour configurer le paiement au niveau d'un point de vente spécifique, procédez
 
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** associé au point de vente spécifique.
 1. Sélectionnez une entrée dans la liste déroulante **Point de vente**.
-1. Rendez-vous dans **PARAMÈTRES**.
+1. Rendez-vous dans **CONFIGURATION**.
 1. Dans la section **Paiement**, cliquez sur **Faire payer le point de vente**. ![Sélection du paiement au niveau du point de vente](../images/071-fr-make-location-pay.png)
 
 ### Sélection du paiement au niveau du compte
@@ -36,7 +36,7 @@ Pour configurer le paiement au niveau du compte pour un point de vente spécifiq
 
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** associé au point de vente spécifique.
 1. Sélectionnez une entrée dans la liste déroulante **Point de vente**.
-1. Rendez-vous dans **PARAMÈTRES**.
+1. Rendez-vous dans **CONFIGURATION**.
 1. Dans la section **Paiement**, cliquez sur **Faire payer l'abonnement par le compte**. ![Sélection du paiement au niveau du point de vente](../images/072-fr-make-account-pay.png)
 
 Le cycle de facturation du point de vente correspondra au cycle de facturation du compte. Si la date de facturation actuelle du point de vente diffère de celle du compte, les situations suivantes peuvent se produire :
@@ -54,7 +54,7 @@ Ainsi, si vous ouvrez votre compte HubRise le 17 mars, vous serez facturé le 
 
 Les informations de facturation incluses dans les factures peuvent être configurées au niveau du compte et du point de vente.
 
-1. Rendez-vous dans **PARAMÈTRES**.
+1. Rendez-vous dans **CONFIGURATION**.
 1. Dans la liste déroulante **Point de vente**, sélectionnez le point de vente que vous souhaitez modifier, ou sélectionnez **Tous les points de vente** pour modifier les informations de facturation de votre compte.
 1. Cliquez sur **Modifier le compte** ou **Modifier le point de vente**.
 1. Renseignez les informations requises à la section **Détails de facturation**.
@@ -64,7 +64,7 @@ Les informations de facturation incluses dans les factures peuvent être configu
 
 Pour ajouter ou mettre à jour un mode de paiement au niveau du compte, procédez comme suit :
 
-1. Rendez-vous dans **PARAMÈTRES**.
+1. Rendez-vous dans **CONFIGURATION**.
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** concerné, puis faites défiler la page jusqu'à la section **Paiement**. ![Ajouter un mode de paiement au niveau du compte](../images/073-fr-add-account-payment.png)
 1. Si aucun mode de paiement n'existe actuellement, cliquez sur **Ajouter un mode de paiement**. Si un mode de paiement est déjà défini, cliquez sur **Modifier votre mode de paiement**.
 1. Saisissez les informations relatives à votre carte de crédit. Les cartes de crédit doivent être valides pour être acceptées.
@@ -72,7 +72,7 @@ Pour ajouter ou mettre à jour un mode de paiement au niveau du compte, procéde
 
 Pour ajouter ou mettre à jour un mode de paiement au niveau du point de vente, procédez comme suit :
 
-1. Rendez-vous dans **PARAMÈTRES**.
+1. Rendez-vous dans **CONFIGURATION**.
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** associé au point de vente spécifique.
 1. Sélectionnez une entrée dans la liste déroulante **Point de vente**, puis faites défiler la page jusqu'à la section **Paiement**. ![Ajouter un mode de paiement au niveau du point de vente](../images/072-fr-make-account-pay.png)
 1. Si aucun mode de paiement n'existe actuellement, cliquez sur **Ajouter un mode de paiement**. Si un mode de paiement est déjà défini, cliquez sur **Modifier votre mode de paiement**.
@@ -85,13 +85,13 @@ Pour supprimer un mode de paiement, procédez comme suit :
 
 1. Connectez-vous à votre compte HubRise.
 1. Si vous avez accès à plusieurs comptes, sélectionnez le compte concerné.
-1. Rendez-vous dans **PARAMÈTRES**.
+1. Rendez-vous dans **CONFIGURATION**.
 1. Pour vérifier le paiement défini au niveau du compte, assurez-vous que l'option **Tous les points de vente** est sélectionnée. Pour vérifier le paiement défini au niveau du pointe de vente, sélectionnez celui-ci dans la liste déroulante des points de vente.
 1. À la section Paiement, cliquez sur **Supprimer**, puis sur **Confirmer** dans la boîte de dialogue.
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/arreter-de-payer-abonnement/">Comment cesser le paiement de mon abonnement ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/stop-paying-subscription/">Comment cesser le paiement de mon abonnement ?</Link>
 
 ---
 
@@ -107,7 +107,7 @@ Pour traiter un paiement à partir de la notification, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/">Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment dois-je effectuer mon paiement ?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment dois-je effectuer mon paiement ?</Link>, <Link to="/docs/faqs/formule-en-pause-pendant-les-phases-de-configuration-et-de-test/">Ma formule peut-elle être mise en pause pendant les phases de configuration et de test ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/pause-plan-during-setup-and-test-phases/">Mon plan peut-il être interrompu durant les phases de configuration et de test ?</Link>
 
 ---
 
@@ -117,7 +117,7 @@ Les utilisateurs de niveau administrateur reçoivent les notifications de paieme
 
 Pour afficher l'historique de vos paiements, procédez comme suit :
 
-1. Rendez-vous dans **PARAMÈTRES**.
+1. Rendez-vous dans **CONFIGURATION**.
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** qui vous intéresse.
 1. Si le paiement est effectué au niveau du compte, assurez-vous que l'option **Tous les points de vente** est sélectionnée. Si le paiement est effectué au niveau du pointe de vente, sélectionnez celui-ci dans la liste déroulante **Point de vente**.
 1. À la section **Paiement**, cliquez sur **Historique de paiement**. Les paiements sont classés par ordre historique inverse, les plus récents étant affichés en premier.

@@ -1,13 +1,13 @@
 ---
 position: 1
-title: Présentation Générale
+title: Présentation générale
 layout: documentation
 meta:
   title: Présentation générale du guide utilisateur | HubRise
   description: Les commandes, les listes de clients et les catalogues sont enregistrés dans HubRise pour fournir aux applications connectées un accès en temps réel à vos données.
 gallery:
-  - __gallery-001-en.png
-  - __gallery-002-en.png
+  - __gallery-001-fr.png
+  - __gallery-002-fr.png
 path_override: /
 app_info:
   category: Middleware (plateforme logicielle intermédiaire)

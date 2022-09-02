@@ -17,7 +17,7 @@ La page **COMMANDES** affiche vos commandes récentes par ordre de date décrois
 - **Point de vente** : si vous sélectionnez l'option **Tous les points de vente**, cette colonne indique le site qui a réceptionné la commande.
 - **Client** : client qui a passé la commande.
 - **Montant** : montant total de la commande.
-- **Statut** : statut actuel de la commande. Pour une vue d'ensemble des statuts possibles, voir la section [Statut de la commande](/developers/api/order-management/#order-status) (en anglais) sur la page Gestion des commandes de l'API HubRise.
+- **Statut** : statut actuel de la commande. Pour une vue d'ensemble des statuts possibles, voir la section [Statut de la commande](/developers/api/order-management/#order-status) sur la page Gestion des commandes de l'API HubRise.
 - **Origine** : application à partir de laquelle la commande a été générée.
 
 Pour filtrer les commandes par dates de début et de fin, procédez comme suit :
@@ -111,4 +111,4 @@ D'autres détails du journal sont disponibles à l'intention des utilisateurs av
 1. Cliquez sur la ligne à afficher. La liste complète des détails relatifs à la requête et à la réponse s'affiche.
 1. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
 
-Pour plus d'informations, voir la rubrique [Interprétation des journaux dans HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts).
+Pour plus d'informations, voir la rubrique [Interprétation des journaux dans HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).

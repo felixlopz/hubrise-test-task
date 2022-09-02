@@ -37,9 +37,9 @@ Pour mettre à jour votre mot de passe, procédez comme suit :
 
 ![Modifier le mot de passe de HubRise](../images/055-fr-2x-change-password.png)
 
-## Autorisations des utilisateurs
+## Permissions des utilisateurs
 
-La page Profil contient des informations relatives aux **autorisations** de votre profil utilisateur. Celles-ci comprennent :
+La page Profil contient des informations relatives aux **permissions** de votre profil utilisateur. Celles-ci comprennent :
 
 - Le **Compte** et le **Point de vente** auxquels vous avez accès.
 - Le **Rôle** qui vous a été attribué pour le compte ou le point de vente. Il peut s'agir d'un rôle de gestionnaire ou d'administrateur.
@@ -47,7 +47,7 @@ La page Profil contient des informations relatives aux **autorisations** de votr
 Pour supprimer votre accès à un compte ou à un point de vente, procédez comme suit :
 
 1. Cliquez sur votre nom dans le coin supérieur droit du back-office de HubRise, puis cliquez sur **Profil**.
-1. Recherchez l'autorisation accordée dans la section **Autorisations**, puis cliquez sur l'icône de corbeille <InlineImage width="15" height="16">![Icône de corbeille](../images/057-2x-trash-icon.png)</InlineImage>
+1. Recherchez la permission accordée dans la section **Permissions**, puis cliquez sur l'icône de corbeille <InlineImage width="15" height="16">![Icône de corbeille](../images/057-2x-trash-icon.png)</InlineImage>
 
 ---
 
@@ -55,20 +55,20 @@ Pour supprimer votre accès à un compte ou à un point de vente, procédez comm
 
 ---
 
-Pour plus d'informations, voir la rubrique [Autorisations](/docs/permissions/).
+Pour plus d'informations, voir la rubrique [permissions](/docs/permissions/).
 
 ## Créer un compte
 
 Pour créer un nouveau compte, procédez comme suit :
 
 1. Cliquez sur votre nom dans le coin supérieur droit du back-office de HubRise, puis cliquez sur **Profil**.
-1. Dans la section **Autorisations**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/compte#cr-er-un-compte/).
+1. Dans la section **permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/compte#cr-er-un-compte/).
 
-![Mes autorisations dans HubRise](../images/056-fr-2x-my-permissions.png)
+![Mes permissions dans HubRise](../images/056-fr-2x-my-permissions.png)
 
 ## Réinitialiser un mot de passe perdu
 
-Si vous êtes un utilisateur enregistré mais que vous avez perdu ou oublié votre mot de passe, rendez-vous sur la [page de réinitialisation du mot de passe de HubRise](https://manager.hubrise.com/reset_password/new). Saisissez l'adresse e-mail associée à votre profil HubRise, puis cliquez sur **Réinitialiser le mot de passe**. Vous recevrez un e-mail contenant des instructions de réinitialisation de votre mot de passe. Une fois cette opération terminée, vous pourrez vous reconnecter.
+Si vous êtes un utilisateur enregistré mais que vous avez perdu ou oublié votre mot de passe, rendez-vous sur la [page de réinitialisation du mot de passe de HubRise](https://manager.hubrise.com/reset_password/new?locale=fr-FR). Saisissez l'adresse e-mail associée à votre profil HubRise, puis cliquez sur **Réinitialiser le mot de passe**. Vous recevrez un e-mail contenant des instructions de réinitialisation de votre mot de passe. Une fois cette opération terminée, vous pourrez vous reconnecter.
 
 ---
 

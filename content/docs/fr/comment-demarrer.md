@@ -7,15 +7,15 @@ meta:
   description: Instructions pour démarrer avec HubRise. Créer un profil utilisateur et un compte sur HubRise. Définir vos préférences et se familiariser avec le back office.
 ---
 
-Vous pouvez accéder à HubRise depuis un navigateur Web sur n'importe quel appareil, tel que votre ordinateur de bureau, tablette ou smartphone.
+Vous pouvez accéder à HubRise depuis un navigateur web sur n'importe quel appareil, tel que votre ordinateur de bureau, tablette ou smartphone.
 
 ## Créer un profil utilisateur
 
-Pour commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'inscription est gratuite et ne prend qu'une minute. Tout ce dont vous avez besoin, c'est un nom, une adresse e-mail et un mot de passe sécurisé. Pour créer un profil utilisateur, consultez la [page d'inscription à HubRise](https://manager.hubrise.com/signup).
+Pour commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'inscription est gratuite et ne prend qu'une minute. Tout ce dont vous avez besoin, c'est un nom, une adresse e-mail et un mot de passe sécurisé. Pour créer un profil utilisateur, consultez la [page d'inscription à HubRise](https://manager.hubrise.com/signup?locale=fr-FR).
 
 ---
 
-**FAQ connexe** : Comment créer un profil utilisateur pour [quelqu'un d'autre](/docs/faqs/creer-profil-utilisateur-pour-une-autre-personne/) ou pour une [autre entreprise ?](/docs/faqs/creer-compte-pour-une-autre-entreprise/)
+**Questions fréquentes associées** : Comment créer un profil utilisateur pour [quelqu'un d'autre](/docs/faqs/creer-profil-utilisateur-pour-une-autre-personne/) ou pour une [autre entreprise ?](/docs/faqs/creer-compte-pour-une-autre-entreprise/)
 
 ---
 
@@ -38,7 +38,7 @@ Une petite entreprise aura un compte avec un seul point de vente, tandis qu'une 
 
 ![Exemples de comptes et de points de vente](../images/046-fr-2x-accounts-locations.png)
 
-Un profil utilisateur peut avoir accès à plusieurs comptes. Par ailleurs, différents profils d'utilisateurs peuvent avoir accès au même compte avec des niveaux d'autorisation distincts. Pour plus d'informations, voir la rubrique [Autorisations](/docs/permissions/).
+Un profil utilisateur peut avoir accès à plusieurs comptes. Par ailleurs, différents profils d'utilisateurs peuvent avoir accès au même compte avec des niveaux de permissions distincts. Pour plus d'informations, voir la rubrique [Permissions](/docs/permissions/).
 
 ## Définir la préférence de langue
 
@@ -51,7 +51,7 @@ L'interface HubRise est organisée selon les sections suivantes :
 - **Tableau de bord** : obtenez une vue d'ensemble des ventes, des commandes et des nouveaux clients de votre organisation.
 - **Connexions** : connectez de nouvelles applications à votre compte HubRise et gérez vos connexions existantes.
 - **Données** : visualisez les commandes, les catalogues, les clients et les journaux correspondants sur l'ensemble de vos sites.
-- **Paramètres** : ajoutez de nouveaux points de vente, gérez l'accès et les rôles des employés, consultez l'utilisation de la plateforme, et vérifiez l'historique ou les modes de paiement.
+- **Configuration** : ajoutez de nouveaux points de vente, gérez l'accès et les rôles des employés, consultez l'utilisation de la plateforme, et vérifiez l'historique ou les modes de paiement.
 - **Développeur** : accès destiné aux développeurs, afin de leur permettre d'intégrer de nouvelles applications à HubRise.
 
 ![Tableau de bord de HubRise](../images/078-fr-hubrise-dashboard.png)
@@ -63,13 +63,13 @@ Si vous souhaitez obtenir une vue d'ensemble des performances d'un compte, séle
 
 ## Connexion
 
-Pour vous connecter à HubRise, consultez la [page de connexion à HubRise](https://manager.hubrise.com/login) ou la [page d'accueil de HubRise](https://www.hubrise.com). Saisissez votre adresse e-mail et votre mot de passe, puis cliquez sur **Connexion**.
+Pour vous connecter à HubRise, consultez la [page de connexion à HubRise](https://manager.hubrise.com/login?locale=fr-FR) ou la [page d'accueil de HubRise](https://www.hubrise.com/fr/). Saisissez votre adresse e-mail et votre mot de passe, puis cliquez sur **Connexion**.
 
 ![Écran de connexion de HubRise](../images/001-fr-hubrise-login.png)
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/">Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/check-if-i-already-have-a-user-profile-in-hubrise/">Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
 
 ---
 

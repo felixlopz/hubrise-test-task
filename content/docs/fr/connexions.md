@@ -13,7 +13,7 @@ Vous pouvez connecter de nouvelles applications et visualiser les applications c
 
 HubRise vous permet de connecter un écosystème de solutions en constante évolution : solutions d'encaissement, plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), solutions de gestion de livreurs ou de services de livraison, solutions d'e-marketing (SMS/e-mailing) et de business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois.
 
-Vous pouvez connecter toutes les applications disponibles sur la page [Applications](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, veuillez contacter [contact@hubrise.com](mailto:contact@hubrise.com) pour savoir si une intégration est prévue.
+Vous pouvez connecter toutes les applications disponibles sur la page [Apps](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, veuillez contacter [contact@hubrise.com](mailto:contact@hubrise.com) pour savoir si une intégration est prévue.
 
 ## Connecter une nouvelle application
 
@@ -23,18 +23,18 @@ Certaines applications sont connectables directement depuis le back-office de Hu
 
 Pour connecter une nouvelle application à votre compte HubRise à partir du back-office de HubRise, procédez comme suit :
 
-1. Connectez-vous à HubRise à partir de la [page de connexion à HubRise] (https://manager.hubrise.com/login).
+1. Connectez-vous à HubRise à partir de la [page de connexion à HubRise](https://manager.hubrise.com/login?locale=fr-FR).
 1. Cliquez sur **CONNEXIONS** dans la barre de navigation de gauche.
 1. Sélectionnez **Voir les apps disponibles**.
 1. Sélectionnez **Tous les points de vente**, ou sélectionnez le **point de vente** à connecter.
-1. Sélectionnez l'application que vous souhaitez installer. Si l'application ne figure pas dans cette liste, consultez la documentation relative à l'application sur la page [Applications](/apps) de HubRise.
+1. Sélectionnez l'application que vous souhaitez installer. Si l'application ne figure pas dans cette liste, consultez la documentation relative à l'application sur la page [Apps](/apps) de HubRise.
 1. Consultez les instructions relatives à l'application spécifique et cliquez sur **Connecter**. Lors de l'installation d'une nouvelle application, il vous sera demandé d'octroyer à l'application l'accès à votre compte HubRise.
 
 Certaines applications doivent être connectées au niveau de **tous les points de vente**, tandis que d'autres se connectent à un point de vente spécifique. Si vous n'avez pas sélectionné le niveau correspondant, le bouton **Connecter** apparaîtra grisé.
 
 ---
 
-**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs instances de la même application à un point de vente HubRise unique, consultez la section [Comment connecter plusieurs fois la même application](/docs/faqs/connecter-plusieurs-instances-de-la-meme-application/).
+**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs instances de la même application à un point de vente HubRise unique, consultez la section [Connexion de plusieurs instances de la même application](/docs/faqs/connecter-plusieurs-instances-de-la-meme-application/).
 
 ---
 
@@ -71,7 +71,7 @@ Les journaux consignent les requêtes de connexion adressées à HubRise par une
 En haut de la page du journal figurent des informations générales relatives à la connexion :
 
 - **Jeton d'accès** : jeton utilisé par l'application pour s'authentifier sur HubRise.
-- **Portée** : autorisations de connexion, par exemple le fait que la connexion accède au compte ou à un point de vente unique, l'accès en lecture/écriture défini sur les données, etc.
+- **Portée** : permissions de connexion, par exemple le fait que la connexion accède au compte ou à un point de vente unique, l'accès en lecture/écriture défini sur les données, etc.
 - **Liste des clients** et **Catalogue** : selon la portée, des lignes supplémentaires peuvent indiquer l'identifiant des ressources auxquelles l'accès a été octroyé, telles que la liste de clients ou le catalogue.
 
 ![Journaux d'informations générales de HubRise](../images/051-fr-2x-general-information-logs.png)
@@ -99,7 +99,7 @@ Chaque enregistrement de journal comprend les informations suivantes :
 
 Vous pouvez afficher des détails supplémentaires en cliquant sur un journal, notamment la requête et la réponse correspondante. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
 
-Pour plus d'informations, voir la rubrique [Interprétation des journaux dans HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts).
+Pour plus d'informations, voir la rubrique [Interprétation des journaux dans HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
 
 ---
 

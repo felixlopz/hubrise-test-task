@@ -7,7 +7,7 @@ meta:
   description: Gestion des listes de clients sur HubRise. Visualiser leur contenu. Ajouter ou supprimer des listes de clients. Convention de nommage pour mieux s'y retrouver.
 ---
 
-La section **Liste de clients** de la page **PARAMÈTRES** vous permet d'ajouter, modifier et supprimer des listes de clients.
+La section **Liste de clients** de la page **CONFIGURATION** vous permet d'ajouter, modifier et supprimer des listes de clients.
 
 Des listes de clients peuvent être ajoutées aux comptes et aux points de vente dans les cas suivants :
 
@@ -25,7 +25,7 @@ L'ajout ou la modification d'une liste de clients n'a aucune incidence sur les a
 
 Pour ajouter une liste de clients, procédez comme suit :
 
-1. Sélectionnez l'option **PARAMÈTRES**.
+1. Sélectionnez **CONFIGURATION**.
 1. Pour ajouter la liste de clients au niveau du compte, vérifiez que l'option **Tous les points de vente** est sélectionnée. Pour l'ajouter à un point de vente, sélectionnez une entrée dans la liste déroulante **Point de vente**.
 1. Dans la section **Liste de clients**, cliquez sur **Ajouter une liste de clients**.
 1. Saisissez le nom de la liste de clients. Si vous n'avez qu'une seule liste de clients, nous vous recommandons d'utiliser le nom de votre compte ou de votre point de vente.
@@ -44,10 +44,10 @@ Pour afficher les détails d'une liste de clients, cliquez sur le nom de la list
 
 Pour modifier le nom d'une liste de clients, procédez comme suit :
 
-1. Rendez-vous dans **PARAMÈTRES**.
-1. Dans la section **Liste de clients**, cliquez sur l'icône Modifier <InlineImage width="15" height="15">![Icône Modifier](../images/028-fr-pen-icon.png)</InlineImage> pour la liste des clients à mettre à jour.
+1. Rendez-vous dans **CONFIGURATION**.
+1. Dans la section **Liste de clients**, cliquez sur l'icône Modifier <InlineImage width="15" height="15">![Icône Modifier](../images/028-pen-icon.png)</InlineImage> pour la liste des clients à mettre à jour.
 1. Saisissez le nouveau nom de la liste de clients.
-1. Cliquez sur **Mettre à jour** pour enregistrer les paramètres.
+1. Cliquez sur **Mettre à jour** pour enregistrer la configuration.
 
 ![Modifier ou supprimer une liste de clients](../images/074-fr-edit-remove-customer-list.png)
 
@@ -55,6 +55,6 @@ Pour modifier le nom d'une liste de clients, procédez comme suit :
 
 Les listes de clients ne peuvent être supprimées que lorsque aucune connexion à ces listes à partir d'une application n'est active, ou que leur suppression ne laisse aucune liste de clients connectée au compte.
 
-1. Sélectionnez l'option **PARAMÈTRES**.
+1. Sélectionnez **CONFIGURATION**.
 1. Dans la section **Liste de clients**, cliquez sur l'icône Supprimer <InlineImage width="15" height="16">![Icône de corbeille](../images/057-2x-trash-icon.png)</InlineImage> pour la liste des clients à supprimer.
 1. Cliquez sur **Supprimer** pour confirmer votre action.
