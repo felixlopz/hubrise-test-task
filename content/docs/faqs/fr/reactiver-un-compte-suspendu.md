@@ -33,15 +33,15 @@ Pour régler la demande de paiement en suspens après avoir configuré le mode d
 
 ---
 
-**REMARQUE IMPORTANTE** : durant le processus d'autorisation du paiement, il se peut que votre banque vérifie le règlement via 3D Secure ou d'autres processus nécessaires afin de valider le prélèvement automatique sur votre carte. Veuillez vérifier la procédure d'autorisation standard adoptée par votre établissement bancaire.
+**REMARQUE IMPORTANTE : **pendant le processus d'autorisation de paiement, il se peut que votre banque vérifie le règlement via 3D Secure ou d'autres processus nécessaires afin de valider le prélèvement automatique sur votre carte. Veuillez vérifier la procédure d'autorisation standard adoptée par votre établissement bancaire.
 
 ---
 
-Pour plus d'informations sur les plans d'utilisation de HubRise, voir la rubrique [Utilisation](/docs/usage-plan/).
+Pour plus d'informations sur les formules d'utilisation de HubRise, voir la rubrique [Utilisation](/docs/formule/).
 
 ## Rétablir le service
 
-Une fois que le règlement des **demandes de paiement** en instance est effectif, vous pouvez réactiver votre **compte** ou votre **point de vente**.
+Une fois que le règlement des **demandes de paiement** en attente est effectif, vous pouvez réactiver votre **compte** ou votre **point de vente**.
 
 1. Dans votre back-office HubRise, cliquez sur **CONFIGURATION**.
 2. En fonction de votre configuration, il se peut que vous deviez rétablir l'accès au niveau du compte ou du point de vente. Pour effectuer le paiement au niveau du compte, vérifiez que l'option **Tous les points de vente** est sélectionnée. Pour effectuer le paiement au niveau du point de vente, sélectionnez celui-ci dans la liste déroulante **Point de vente**.

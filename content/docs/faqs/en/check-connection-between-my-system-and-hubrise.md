@@ -25,7 +25,7 @@ For more details, see [Orders](/docs/data/#orders).
 Each app displays the most recent activity as a graph. To check the activity for a specific app:
 
 1. Click **CONNECTIONS**.
-1. For the specific App, click **Actions > View activity**.
+1. For the specific App, click **Actions** > **View activity**.
 
 For more information, see [View Connection Activity](/docs/connections/#view-connection-activity).
 

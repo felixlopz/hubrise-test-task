@@ -11,7 +11,7 @@ Si vous êtes un utilisateur enregistré mais que vous avez perdu ou oublié vot
 
 ---
 
-**REMARQUE IMPORTANTE** : si les instructions de réinitialisation du mot de passe ne s'affichent pas dans le dossier de réception de votre messagerie au bout de quelques minutes, actualisez votre boîte de réception et vérifiez vos dossiers Courrier indésirable ou Corbeille.
+**REMARQUE IMPORTANTE** : si les instructions de réinitialisation du mot de passe ne s'affichent pas dans le dossier de réception de votre messagerie au bout de quelques minutes, actualisez votre boîte de réception et vérifiez vos dossiers courrier indésirable ou corbeille.
 
 ---
 

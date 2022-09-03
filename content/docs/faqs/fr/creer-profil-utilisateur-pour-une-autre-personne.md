@@ -20,7 +20,7 @@ Comment créer un profil utilisateur pour quelqu'un d'autre ?
 1. Cliquez sur **Créer un compte**.
 1. Pour inviter l'utilisateur à saisir son propre mot de passe sécurisé, rendez-vous sur la [page de réinitialisation du mot de passe](https://manager.hubrise.com/reset_password/new?locale=fr-FR/).
 1. Saisissez l'adresse e-mail du nouvel utilisateur et cliquez sur **Réinitialiser le mot de passe**. L'utilisateur recevra un e-mail contenant des instructions pour saisir son propre mot de passe.
-1. Déconnectez-vous en tant qu'utilisateur nouvellement créé, puis reconnectez-vous avec votre profil utilisateur existant.
+1. Déconnectez-vous en tant qu'utilisateur nouvellement créé, puis reconnectez-vous avec votre propre profil utilisateur.
 
 Une fois le nouveau profil utilisateur créé, vous pouvez accorder à ce nouvel utilisateur la permission d'accéder à un compte ou à un point de vente. Pour plus d'informations sur l'octroi de permissions, voir la rubrique [Ajouter un utilisateur](/docs/permissions#add-a-user).
 
