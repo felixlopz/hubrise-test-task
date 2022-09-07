@@ -9,7 +9,7 @@ meta:
 
 Les points de vente désignent les différents lieux de vente d'un compte. Chaque point de vente identifie un lieu de commercialisation physique. Les comptes peuvent être associés à un ou plusieurs points de vente. Pour passer d'un point de vente à un autre, utilisez la liste déroulante **Point de vente** située tout en haut du back-office de HubRise.
 
-La page **CONFIGURATION** affiche des informations sur votre point de vente et vous permet d'effectuer des changements de configuration. Vous pouvez également apporter des modifications au compte en sélectionnant l'option **Tous les points de vente** dans la liste déroulante **Point de vente**.
+La page **CONFIGURATION** affiche des informations sur votre point de vente et vous permet d'effectuer des changements de paramètrage. Vous pouvez également apporter des modifications au compte en sélectionnant **Tous les points de vente** dans la liste déroulante **Point de vente**.
 
 ## Nom et identifiant du point de vente
 
@@ -19,7 +19,7 @@ Les points de vente sont affichés avec :
 - L'identifiant unique du compte auquel ils sont associés.
 - Le numéro indiquant l'ordre dans lequel le point de vente a été ajouté (la numérotation commençant par zéro).
 
-À titre d'exemple, `Avenue d'Italie z6q31-0` indique le nom du point de vente `Avenue d'Italie`, son appartenance au compte `z6q31`, et le `-0` signifie qu'il s'agit du premier point de vente ajouté à ce compte.
+À titre d'exemple, `Montmartre z6q31-0` indique le nom du point de vente `Montmartre`, son appartenance au compte `z6q31`, et le `-0` signifie qu'il s'agit du premier point de vente ajouté à ce compte.
 
 ---
 
@@ -59,7 +59,7 @@ Pour ajouter un nouveau point de vente à un compte existant, procédez comme su
 1. Saisissez les informations requises.
 1. Cliquez sur **Créer** pour sauvegarder le nouveau point de vente.
 
-Il est recommandé de nommer le point de vente d'après la ville, le quartier ou la rue où il se trouve. À titre d'exemple, si vous exploitez un seul point de vente à Paris, vous pouvez le nommer `Paris`. Si vous exploitez plusieurs points de vente à Paris, vous pouvez nommer ceux-ci d'après leur adresse, par exemple `Avenue d'Italie`, `Boulevard Malesherbes` et `Place de Clichy`.
+Il est recommandé de nommer le point de vente d'après la ville, le quartier ou la rue où il se trouve. À titre d'exemple, si vous exploitez un seul point de vente à Paris, vous pouvez le nommer `Paris`. Si vous exploitez plusieurs points de vente à Paris, vous pouvez nommer ceux-ci d'après leur adresse, par exemple `Montmartre`, `Montparnasse` et `Le Marais`.
 
 ## Modifier les détails du point de vente
 

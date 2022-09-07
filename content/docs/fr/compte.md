@@ -17,7 +17,7 @@ Les comptes et les points de vente comportent un grand nombre de sous-sections e
 
 Vous pouvez définir des configurations différentes pour les comptes et les points de vente lorsque les cas suivants se présentent :
 
-- Vous pouvez configurer une méthode de paiement unique au niveau de **tous les sites**, ou configurer différents modes de paiement en fonction de chaque site. Cette option est utile si vous devez faire en sorte qu'un site utilise un mode de paiement différent pour des raisons de comptabilité.
+- Vous pouvez configurer une méthode de paiement unique au niveau de **tous les points de vente**, ou configurer différents modes de paiement en fonction de chaque point de vente. Cette option est utile si vous devez faire en sorte qu'un point de vente utilise un mode de paiement différent pour des raisons de comptabilité.
 - Vous pouvez accorder aux utilisateurs des permissions valables pour l'ensemble du compte ou pour des points de vente spécifiques. Vous pouvez par exemple accorder à un utilisateur l'accès complet à un compte en tant qu'administrateur, mais autoriser un autre utilisateur uniquement à visualiser et gérer un point de vente spécifique.
 - Vous pouvez également visualiser les données sur l'ensemble du compte ou filtrer les informations en fonction d'un point de vente spécifique.
 - Vous pouvez modifier votre compte et vos points de vente de la manière la mieux adaptée aux besoins de votre entreprise.
@@ -40,7 +40,7 @@ Lors de la création d'un nouveau compte, le premier point de vente doit être d
 
 Le **nom du compte** correspond à celui que vous attribuez à votre entreprise ou à votre marque. À titre d'exemple, si votre marque s'appelle Fast Pizza, le **nom du compte** sera `Fast Pizza`.
 
-Le **nom du point de vente** peut être la ville, le quartier ou le nom de la rue. Si le point de vente est unique dans une ville comme Paris, il peut être nommé `Paris`. Si vous exploitez plusieurs points de vente à Paris, vous pouvez nommer ceux-ci d'après leur adresse, par exemple `Avenue d'Italie`, `Boulevard Malesherbes` et `Place de Clichy`.
+Le **nom du point de vente** peut être la ville, le quartier ou le nom de la rue. Si le point de vente est unique dans une ville comme Paris, il peut être nommé `Paris`. Si vous exploitez plusieurs points de vente à Paris, vous pouvez nommer ceux-ci d'après leur adresse, ou le nom du quartier, par exemple `Montmartre`, `Montparnasse` et `Le Marais`.
 
 Enfin, saisissez la **devise** correcte du marché sur lequel vous opérez.
 
@@ -52,7 +52,7 @@ Enfin, saisissez la **devise** correcte du marché sur lequel vous opérez.
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/comment-effacer-des-comptes/">J'ai trop de comptes pour mon entreprise sur HubRise. Comment puis-je simplifier le système ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/comment-effacer-des-comptes/">J'ai trop de comptes pour mon entreprise sur HubRise. Comment faire un nettoyage ?</Link>
 
 ---
 

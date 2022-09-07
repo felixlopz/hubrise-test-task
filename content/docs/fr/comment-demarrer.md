@@ -23,8 +23,8 @@ Pour commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'i
 
 Lorsque vous vous connectez à HubRise pour la première fois, vous êtes invité à créer un compte et un point de vente. Un compte HubRise identifie votre marque, tandis qu'un point de vente fait référence au lieu de vente de cette marque, c'est-à-dire généralement le lieu commercial physique.
 
-- Le **nom du compte** correspond au nom de votre entreprise ou de votre marque, par exemple `Fast Pizza`.
-- Le **nom du point de vente** identifie votre lieu de commercialisation physique, qui peut être la ville, le quartier ou le nom de la rue. Si, par exemple, le point de vente est unique dans Paris, il peut être nommé `Paris`. Si vous exploitez plusieurs points de vente à Paris, vous pouvez nommer ceux-ci d'après leur adresse, par exemple `Avenue d'Italie`, `Boulevard Malesherbes` et `Place de Clichy`.
+- Le **nom du compte** correspond au nom de votre entreprise ou de votre marque, par exemple `Pizza Express`.
+- Le **nom du point de vente** identifie votre lieu de commercialisation physique, qui peut être la ville, le quartier ou le nom de la rue. Si, par exemple, le point de vente est unique dans Paris, il peut être nommé `Paris`. Si vous exploitez plusieurs points de vente à Paris, vous pouvez nommer ceux-ci d'après leur adresse, par exemple `Montmartre`, `Montparnasse` et `Le Marais`.
 
 ---
 
@@ -34,23 +34,23 @@ Lorsque vous vous connectez à HubRise pour la première fois, vous êtes invit�
 
 ![Créer un compte sur HubRise](../images/064-fr-2x-create-account.png)
 
-Une petite entreprise aura un compte avec un seul point de vente, tandis qu'une grande entreprise possédera un compte avec des points de vente multiples. Pour plus d'informations, voir les rubriques [Comptes](/docs/compte/) et [Points de vente](/docs/point-de-vente/).
+Une petite entreprise aura un compte avec un seul point de vente, tandis qu'une grande entreprise possédera un compte avec plusieurs points de vente. Pour plus d'informations, voir les rubriques [Comptes](/docs/compte/) et [Points de vente](/docs/point-de-vente/).
 
 ![Exemples de comptes et de points de vente](../images/046-fr-2x-accounts-locations.png)
 
 Un profil utilisateur peut avoir accès à plusieurs comptes. Par ailleurs, différents profils d'utilisateurs peuvent avoir accès au même compte avec des niveaux de permissions distincts. Pour plus d'informations, voir la rubrique [Permissions](/docs/permissions/).
 
-## Définir la préférence de langue
+## Définir la langue
 
-Vous pouvez définir la langue de votre session HubRise en cliquant sur la flèche vers le bas <InlineImage width="28" height="21">![Icône de flèche vers le bas](../images/063-arrow.jpg)</InlineImage> située en regard de votre nom dans le coin supérieur droit, puis en sélectionnant votre langue préférée. HubRise est disponible en anglais et en français.
+Vous pouvez définir la langue de votre session HubRise en cliquant sur la flèche vers le bas <InlineImage width="28" height="21">![Icône de flèche vers le bas](../images/063-arrow.jpg)</InlineImage> située en regard de votre nom dans le coin supérieur droit, puis en sélectionnant la langue de votre choix. HubRise est disponible en anglais et en français.
 
-## Familiarisez-vous avec la plateforme
+## Voir l'interface
 
 L'interface HubRise est organisée selon les sections suivantes :
 
 - **Tableau de bord** : obtenez une vue d'ensemble des ventes, des commandes et des nouveaux clients de votre organisation.
 - **Connexions** : connectez de nouvelles applications à votre compte HubRise et gérez vos connexions existantes.
-- **Données** : visualisez les commandes, les catalogues, les clients et les journaux correspondants sur l'ensemble de vos sites.
+- **Données** : visualisez les commandes, les catalogues, les clients et les logs correspondants sur l'ensemble de vos points de vente.
 - **Configuration** : ajoutez de nouveaux points de vente, gérez l'accès et les rôles des employés, consultez l'utilisation de la plateforme, et vérifiez l'historique ou les modes de paiement.
 - **Développeur** : accès destiné aux développeurs, afin de leur permettre d'intégrer de nouvelles applications à HubRise.
 

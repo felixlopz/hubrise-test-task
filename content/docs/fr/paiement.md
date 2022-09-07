@@ -97,17 +97,17 @@ Pour supprimer un mode de paiement, procédez comme suit :
 
 ## Traiter les devis en attente
 
-Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications de la formule](/docs/formule#notifications-concernant-les-formules/).
+Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications concernant les formules](/docs/formule#notifications-concernant-les-formules/).
 
 Pour traiter un paiement à partir de la notification, procédez comme suit :
 
 1. Connectez-vous à votre back-office HubRise.
-1. Assurez-vous qu'une carte de crédit est enregistrée sur votre compte ou votre point de vente. Si tel n'est pas le cas, consultez les instructions indiquées à la rubrique [Ajouter un mode de paiement](#add-a-payment-method).
+1. Assurez-vous qu'une carte de crédit est enregistrée sur votre compte ou votre point de vente. Si tel n'est pas le cas, consultez les instructions indiquées à la rubrique [Ajouter un mode de paiement](#ajouter-un-mode-de-paiement).
 1. Cliquez sur **Afficher le devis le plus ancien**, puis sur **Payer**. Pour consulter tous les devis non payés, cliquez sur **Vérifier votre compte** à partir de la notification.
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/pause-plan-during-setup-and-test-phases/">Mon plan peut-il être interrompu durant les phases de configuration et de test ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/">Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/">Ma formule peut-elle être interrompu durant les phases de configuration et de test ?</Link>
 
 ---
 
@@ -118,7 +118,7 @@ Les utilisateurs de niveau administrateur reçoivent les notifications de paieme
 Pour afficher l'historique de vos paiements, procédez comme suit :
 
 1. Rendez-vous dans **CONFIGURATION**.
-1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** qui vous intéresse.
+1. Si vous avez accès à plusieurs comptes, sélectionnez le **Compte** qui vous intéresse.
 1. Si le paiement est effectué au niveau du compte, assurez-vous que l'option **Tous les points de vente** est sélectionnée. Si le paiement est effectué au niveau du pointe de vente, sélectionnez celui-ci dans la liste déroulante **Point de vente**.
 1. À la section **Paiement**, cliquez sur **Historique de paiement**. Les paiements sont classés par ordre historique inverse, les plus récents étant affichés en premier.
 
@@ -126,9 +126,9 @@ L'historique de paiement relatif aux comptes regroupe les paiements au niveau du
 
 ![Exemple d'historique de paiement](../images/044-fr-2x-payment-history.png)
 
-La première fois que vous effectuez un paiement, celui-ci est indiqué en tant que mise à niveau. Par la suite, les paiements seront répertoriés selon la date de la [période de facturation](docs/payment#billing-cycles). Une fois que vous avez enregistré un mode de paiement valide, les paiements sont automatisés.
+La première fois que vous effectuez un paiement, celui-ci est indiqué en tant que Changement de formule. Par la suite, les paiements seront répertoriés selon la date de la [période de facturation](docs/payment#billing-cycles). Une fois que vous avez enregistré un mode de paiement valide, les paiements sont automatisés.
 
-Le détail de chaque facture est consultable directement sur le back-office HubRise en cliquant sur la date correspondante. Pour chaque paiement, les informations suivantes sont indiquées :
+Le détail de chaque facture est consultable directement sur le back-office de HubRise en cliquant sur la date. Pour chaque paiement, les informations suivantes sont indiquées :
 
 - **Date** : la date du paiement.
 - **Montant hors TVA** : montant du paiement hors taxe sur la valeur ajoutée (TVA). HubRise ayant son siège en France, la TVA s'applique uniquement aux entreprises implantées en France et à Monaco.

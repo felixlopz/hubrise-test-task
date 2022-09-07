@@ -7,7 +7,7 @@ meta:
   description: Gestion des applications et des connexions sur votre compte et vos points de vente sur HubRise. Connecter, ouvrir, bloquer ou déconnecter des applications.
 ---
 
-Vous pouvez connecter de nouvelles applications et visualiser les applications connectées à votre compte HubRise depuis la page **CONNEXIONS**. Cette page vous permet également d'afficher l'activité et les journaux des applications, ou de bloquer et déconnecter des applications.
+Vous pouvez connecter de nouvelles applications et visualiser les applications connectées à votre compte HubRise depuis la page **CONNEXIONS**. Cette page vous permet également d'afficher l'activité et les logs des applications, ou de bloquer et déconnecter des applications.
 
 ## Applications disponibles
 
@@ -34,7 +34,7 @@ Certaines applications doivent être connectées au niveau de **tous les points 
 
 ---
 
-**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs instances de la même application à un point de vente HubRise unique, consultez la section [Connexion de plusieurs instances de la même application](/docs/faqs/connecter-plusieurs-fois-la-meme-application/).
+**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs fois de la même application à un point de vente HubRise unique, consultez la section [Comment connecter plusieurs fois la même application ?](/ docs/faqs/connecter-plusieurs-fois-la-meme-application/).
 
 ---
 
@@ -56,50 +56,50 @@ Pour afficher un graphique linéaire indiquant le nombre de transactions accompl
 
 ---
 
-## Afficher les journaux de connexion
+## Afficher les logs de connexion
 
-Des journaux sont consignés pour chaque application qui a été connectée. Vous pouvez utiliser ces journaux afin de mieux cerner les communications entre les systèmes et détecter les incidents éventuels.
+Des logs sont enregistrés pour chaque application qui a été connectée. Vous pouvez utiliser ces logs afin de mieux cerner les communications entre les systèmes et détecter les incidents éventuels.
 
-Pour afficher les journaux relatifs à une connexion, sélectionnez **CONNEXIONS** > **Actions** > **Afficher les journaux** pour l'application en question.
+Pour afficher les logs relatifs à une connexion, sélectionnez **CONNEXIONS** > **Actions** > **Voir les logs** pour l'application en question.
 
-Les journaux consignent les requêtes de connexion adressées à HubRise par une application. Chaque requête constitue une transaction entre une application et HubRise, telle qu'une commande, l'enregistrement d'un nouveau client ou toute autre communication entre une application et HubRise.
+Les logs enregistrent les requêtes de connexion adressées à HubRise par une application. Chaque requête constitue une transaction entre une application et HubRise, telle qu'une commande, l'enregistrement d'un nouveau client ou toute autre communication entre une application et HubRise.
 
-![Journaux de connexion à HubRise](../images/050-fr-2x-connection-logs.png)
+![Logs de connexion à HubRise](../images/050-fr-2x-connection-logs.png)
 
 ### Informations générales
 
-En haut de la page du journal figurent des informations générales relatives à la connexion :
+En haut de la page Logs de connexion figurent des informations générales relatives à la connexion :
 
 - **Jeton d'accès** : jeton utilisé par l'application pour s'authentifier sur HubRise.
 - **Portée** : permissions de connexion, par exemple le fait que la connexion accède au compte ou à un point de vente unique, l'accès en lecture/écriture défini sur les données, etc.
-- **Liste des clients** et **Catalogue** : selon la portée, des lignes supplémentaires peuvent indiquer l'identifiant des ressources auxquelles l'accès a été octroyé, telles que la liste de clients ou le catalogue.
+- **Liste de clients** et **Catalogue** : selon la portée, des lignes supplémentaires peuvent indiquer l'identifiant des ressources auxquelles l'accès a été octroyé, telles que la liste de clients ou le catalogue.
 
-![Journaux d'informations générales de HubRise](../images/051-fr-2x-general-information-logs.png)
+![Logs d'informations générales de HubRise](../images/051-fr-2x-general-information-logs.png)
 
 ### Filtre
 
-Les journaux peuvent être filtrés par ressource et par méthode en procédant comme suit :
+Les logs peuvent être filtrés par ressource et par méthode en procédant comme suit :
 
-1. Sélectionnez **Modifier**.
-1. Sélectionnez les ressources et les méthodes que vous souhaitez afficher. Pour afficher tous les enregistrements du journal, désélectionnez l'ensemble des ressources et des méthodes, ou cliquez sur **Réinitialiser**.
+1. Sélectionnez **Éditer**.
+1. Sélectionnez les ressources et les méthodes que vous souhaitez afficher. Pour afficher tous les enregistrements disponibles dans les logs, désélectionnez l'ensemble des ressources et des méthodes, ou cliquez sur **Réinitialiser**.
 
 ![Filtre de connexion à HubRise](../images/052-fr-2x-filter-logs.png)
 
-### Journaux
+### Les logs
 
-La page des journaux affiche une liste récapitulative des requêtes par ordre chronologique inverse.
+La page des logs affiche une liste récapitulative des requêtes par ordre chronologique inverse.
 
-Chaque enregistrement de journal comprend les informations suivantes :
+Chaque enregistrement de log comprend les informations suivantes :
 
-- **DATE** : date et heure de la requête.
-- **Ressource** : cible de la requête.
-- **Méthode** : méthode HTTP utilisée pour communiquer la requête.
-- **Chemin d'accès** : adresse URL d'accès à la requête.
-- **Réponse** : code de réponse HTTP.
+- **HEURE (UTC+02:00)** : date et heure de la requête.
+- **RESSOURCE** : cible de la requête.
+- **MÉTHODE** : méthode HTTP utilisée pour communiquer la requête.
+- **URL** : adresse URL d'accès à la requête.
+- **RÉPONSE** : code de réponse HTTP.
 
-Vous pouvez afficher des détails supplémentaires en cliquant sur un journal, notamment la requête et la réponse correspondante. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
+Vous pouvez afficher des détails supplémentaires en cliquant sur un log, notamment la requête et la réponse correspondante. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
 
-Pour plus d'informations, voir la rubrique [Interprétation des journaux dans HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
+Pour plus d'informations, voir la rubrique [Interprétation des logs dans HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
 
 ---
 
@@ -122,7 +122,7 @@ La déconnexion d'une application supprime la connexion entre celle-ci et HubRis
 Pour bloquer ou déconnecter une application dans HubRise, procédez comme suit :
 
 1. Rendez-vous dans **CONNEXIONS**.
-2. Recherchez l'application souhaitée, puis cliquez sur **Actions** > **Bloquer** or **Déconnecter**.
+2. Recherchez l'application souhaitée, puis cliquez sur **Actions** > **Bloquer** ou **Déconnecter**.
 3. Cliquez sur **Confirmer**.
 
 ![Connexion à HubRise - Supprimer une application](../images/014-fr-2x-connections-disconnect-app.png)

@@ -41,8 +41,8 @@ Pour mettre à jour votre mot de passe, procédez comme suit :
 
 La page Profil contient des informations relatives aux **permissions** de votre profil utilisateur. Celles-ci comprennent :
 
-- Le **Compte** et le **Point de vente** auxquels vous avez accès.
-- Le **Rôle** qui vous a été attribué pour le compte ou le point de vente. Il peut s'agir d'un rôle de gestionnaire ou d'administrateur.
+- Le **COMPTE** et le **POINT DE VENTE** auxquels vous avez accès.
+- Le **RÔLE** qui vous a été attribué pour le compte ou le point de vente. Il peut s'agir d'un rôle de gestionnaire ou d'administrateur.
 
 Pour supprimer votre accès à un compte ou à un point de vente, procédez comme suit :
 
@@ -62,7 +62,7 @@ Pour plus d'informations, voir la rubrique [permissions](/docs/permissions/).
 Pour créer un nouveau compte, procédez comme suit :
 
 1. Cliquez sur votre nom dans le coin supérieur droit du back-office de HubRise, puis cliquez sur **Profil**.
-1. Dans la section **permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/compte#cr-er-un-compte/).
+1. Dans la section **Permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/compte#cr-er-un-compte/).
 
 ![Mes permissions dans HubRise](../images/056-fr-2x-my-permissions.png)
 
@@ -72,7 +72,7 @@ Si vous êtes un utilisateur enregistré mais que vous avez perdu ou oublié vot
 
 ---
 
-**REMARQUE IMPORTANTE** : si les instructions de réinitialisation du mot de passe ne s'affichent pas dans le dossier de réception de votre messagerie au bout de quelques minutes, actualisez votre boîte de réception et vérifiez vos dossiers Courrier indésirable ou Corbeille.
+**REMARQUE IMPORTANTE** : si les instructions de réinitialisation du mot de passe ne s'affichent pas dans le dossier de réception de votre messagerie au bout de quelques minutes, actualisez votre boîte de réception et vérifiez vos dossiers courrier indésirable ou corbeille.
 
 ---
 
