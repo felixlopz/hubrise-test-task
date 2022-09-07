@@ -15,11 +15,11 @@ HubRise vous permet de connecter un écosystème de solutions en constante évol
 
 Vous pouvez connecter toutes les applications disponibles sur la page [Apps](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, veuillez contacter [contact@hubrise.com](mailto:contact@hubrise.com) pour savoir si une intégration est prévue.
 
-## Connecter une nouvelle application
+## Connecter une application
 
 Les applications sont connectées soit à un compte HubRise, soit à un point de vente. Le niveau de connexion dépend des données que vous devez partager avec l'application : à titre d'exemple, les solutions d'encaissement ou de commande en ligne se connectent généralement aux points de vente, tandis que les solutions de marketing se connectent indifféremment aux comptes ou aux points de vente.
 
-Certaines applications sont connectables directement depuis le back-office de HubRise, tandis que d'autres exigent une configuration depuis l'application avant l'établissement de la connexion. Pour plus de détails, veuillez consulter la documentation de l'application sur la page [Applications](/apps) de HubRise.
+Certaines applications sont connectables directement depuis le back-office de HubRise, tandis que d'autres exigent une configuration depuis l'application avant l'établissement de la connexion. Pour plus de détails, veuillez consulter la documentation de l'application sur la page [Apps](/apps) de HubRise.
 
 Pour connecter une nouvelle application à votre compte HubRise à partir du back-office de HubRise, procédez comme suit :
 
@@ -34,7 +34,7 @@ Certaines applications doivent être connectées au niveau de **tous les points 
 
 ---
 
-**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs fois de la même application à un point de vente HubRise unique, consultez la section [Comment connecter plusieurs fois la même application ?](/ docs/faqs/connecter-plusieurs-fois-la-meme-application/).
+**REMARQUE IMPORTANTE** : si vous devez connecter plusieurs fois de la même application à un point de vente HubRise unique, consultez la section [Comment connecter plusieurs fois la même application ?](/docs/faqs/connecter-plusieurs-fois-la-meme-application/)
 
 ---
 
@@ -99,7 +99,7 @@ Chaque enregistrement de log comprend les informations suivantes :
 
 Vous pouvez afficher des détails supplémentaires en cliquant sur un log, notamment la requête et la réponse correspondante. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
 
-Pour plus d'informations, voir la rubrique [Interprétation des logs dans HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
+Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
 
 ---
 

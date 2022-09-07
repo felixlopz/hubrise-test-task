@@ -12,7 +12,7 @@ La section **Liste de clients** de la page **CONFIGURATION** vous permet d'ajout
 Des listes de clients peuvent être ajoutées aux comptes et aux points de vente dans les cas suivants :
 
 - Par défaut, les comptes définissent une seule liste de clients qui porte le nom du compte. Les points de vente ne comportent aucune liste de clients définie par défaut.
-- Un compte doit **impérativement** comporter au moins une liste de clients. Si vous tentez de supprimer la dernière liste de clients d'un compte, une notification d'erreur s'affiche.
+- Un compte doit impérativement comporter au moins une liste de clients. Si vous tentez de supprimer la dernière liste de clients d'un compte, une notification d'erreur s'affiche.
 - Vous pouvez créer autant de listes de clients que vous le souhaitez. Exemple :
   - vous pouvez créer une liste de clients à des fins de test, dont l'utilisation n'aura aucune conséquence sur la production.
   - Vous pouvez créer une liste de clients pour un point de vente qui comporte des clients différents de ceux d'autres points de vente.

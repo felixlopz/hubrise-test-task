@@ -16,7 +16,7 @@ app_info:
   contact: contact@hubrise.com / support@hubrise.com
 ---
 
-HubRise est un middleware (plateforme logicielle intermédiaire) qui permet de connecter des solutions tierces. Le système fournit une interface unique pour connecter un écosystème d'applications intégrées via HubRise dont le nombre est en constante évolution. Les situations d'utilisation typiques incluses sont les suivantes :
+HubRise est un middleware (plateforme logicielle intermédiaire) qui permet de connecter des solutions tierces. Le système fournit une interface unique à un écosystème d'applications intégrées en constante évolution. Les situations d'utilisation typiques incluses sont les suivantes :
 
 - Solutions d'encaissement
 - Commandes en ligne

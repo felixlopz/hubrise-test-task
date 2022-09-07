@@ -16,7 +16,7 @@ Pour créer un compte pour une autre entreprise :
 1. Entrez les détails de l'utilisateur et cliquez sur **Créer un compte**.
 1. Entrez les détails commerciaux du compte et du premier point de vente associé, puis cliquez sur **Créer**.
 1. Accédez à la section **CONFIGURATION** > **Permissions**.
-1. Pour conserver l'accès au compte que vous venez de créer, incluez l'**e-mail** de votre profil utilisateur HubRise, changez le rôle en **Gestionnaire** et cliquez sur l'icône Plus <InlineImage width="13" height="13">![Icône Plus](../images/059-add-icon.png)</InlineImage>.
+1. Pour conserver l'accès au compte que vous venez de créer, incluez l'**e-mail** de votre profil utilisateur HubRise, changez le rôle en **Manager** et cliquez sur l'icône Plus <InlineImage width="13" height="13">![Icône Plus](../../images/059-add-icon.png)</InlineImage>.
 1. Pour inviter l'utilisateur à saisir son propre mot de passe sécurisé, rendez-vous sur la [page de réinitialisation du mot de passe](https://manager.hubrise.com/reset_password/new?locale=fr-FR).
 1. Saisissez l'adresse e-mail du nouvel utilisateur et cliquez sur **Réinitialiser le mot de passe**. L'utilisateur recevra un e-mail contenant des instructions pour saisir son propre mot de passe.
 1. Déconnectez-vous en tant qu'utilisateur nouvellement créé, puis reconnectez-vous avec votre propre profil utilisateur. Vous pourrez alors accéder à votre compte pour les demandes de support.

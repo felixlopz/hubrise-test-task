@@ -11,10 +11,10 @@ Les permissions sont un moyen de contrôler les actions que les utilisateurs peu
 
 ## Rôles HubRise
 
-Deux types de rôles sont pris en charge dans HubRise : les administrateurs et les gestionnaires.
+Deux types de rôles sont pris en charge dans HubRise : les administrateurs et les managers.
 
-- Les **administrateurs** ont accès à tous les domaines de HubRise, y compris les factures. Ils sont responsables du maintien à jour des informations relatives aux paiements. Ils reçoivent des factures par e-mail lorsqu'un paiement est effectué, ou des notifications concernant les paiements en attente dans HubRise. Ils peuvent également octroyer l'accès à d'autres utilisateurs et déconnecter des applications de HubRise.
-- Les **gestionnaires** ont accès à tous les domaines, à l'exception des factures de HubRise. Ils ne reçoivent pas d'e-mails de notification concernant les paiements en souffrance dans HubRise. Ils peuvent connecter des applications à HubRise, mais ne peuvent pas les déconnecter.
+- Les **Admins** ont accès à tous les domaines de HubRise, y compris les factures. Ils sont responsables du maintien à jour des informations relatives aux paiements. Ils reçoivent des factures par e-mail lorsqu'un paiement est effectué, ou des notifications concernant les paiements en attente dans HubRise. Ils peuvent également octroyer l'accès à d'autres utilisateurs et déconnecter des applications de HubRise.
+- Les **Managers** ont accès à tous les domaines, à l'exception des factures de HubRise. Ils ne reçoivent pas d'e-mails de notification concernant les paiements en souffrance dans HubRise. Ils peuvent connecter des applications à HubRise, mais ne peuvent pas les déconnecter.
 
 Vous pouvez également consulter et modifier vos propres permissions à partir de votre profil utilisateur. Pour plus d'informations, voir [Profil et mot de passe](/docs/profil-mot-de-passe/).
 
@@ -26,7 +26,7 @@ Pour accorder à un utilisateur des permissions sur un compte, procédez comme s
 
 1. Sélectionnez **CONFIGURATION**.
 1. À la section **Permissions**, saisissez l'adresse e-mail de l'utilisateur dans la colonne intitulée **E-MAIL**.
-1. Dans la colonne **RÔLE**, définissez le rôle du nouvel utilisateur en tant qu'Administrateur ou Gestionnaire.
+1. Dans la colonne **RÔLE**, définissez le rôle du nouvel utilisateur en tant qu'Admin ou Manager.
 1. Cliquez sur l'icône Plus <InlineImage width="13" height="13">![Icône Plus](../images/059-add-icon.png)</InlineImage> pour ajouter le nouvel utilisateur.
 
 Pour octroyer à un utilisateur des permissions sur un point de vente, procédez comme suit :
@@ -34,7 +34,7 @@ Pour octroyer à un utilisateur des permissions sur un point de vente, procédez
 1. Sélectionnez **CONFIGURATION**.
 1. Sélectionnez une entrée dans la liste déroulante **Point de vente**.
 1. À la section **Permissions**, saisissez l'adresse e-mail de l'utilisateur dans la colonne intitulée **E-MAIL**.
-1. Dans la colonne **RÔLE**, définissez le rôle du nouvel utilisateur en tant qu'Administrateur ou Gestionnaire.
+1. Dans la colonne **RÔLE**, définissez le rôle du nouvel utilisateur en tant qu'Admin ou Manager.
 1. Cliquez sur l'icône Plus <InlineImage width="13" height="13">![Icône Plus](../images/059-add-icon.png)</InlineImage> pour ajouter le nouvel utilisateur.
 
 ## Supprimer un utilisateur

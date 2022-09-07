@@ -17,7 +17,7 @@ Les comptes et les points de vente comportent un grand nombre de sous-sections e
 
 Vous pouvez définir des configurations différentes pour les comptes et les points de vente lorsque les cas suivants se présentent :
 
-- Vous pouvez configurer une méthode de paiement unique au niveau de **tous les points de vente**, ou configurer différents modes de paiement en fonction de chaque point de vente. Cette option est utile si vous devez faire en sorte qu'un point de vente utilise un mode de paiement différent pour des raisons de comptabilité.
+- Vous pouvez configurer une méthode de paiement unique au niveau de **tous les points de vente**, ou configurer différents modes de paiement en fonction de chaque point de vente. Cette option est utile si vous devez faire en sorte qu'un point de vente utilise une méthode de paiement différente pour des raisons de comptabilité.
 - Vous pouvez accorder aux utilisateurs des permissions valables pour l'ensemble du compte ou pour des points de vente spécifiques. Vous pouvez par exemple accorder à un utilisateur l'accès complet à un compte en tant qu'administrateur, mais autoriser un autre utilisateur uniquement à visualiser et gérer un point de vente spécifique.
 - Vous pouvez également visualiser les données sur l'ensemble du compte ou filtrer les informations en fonction d'un point de vente spécifique.
 - Vous pouvez modifier votre compte et vos points de vente de la manière la mieux adaptée aux besoins de votre entreprise.

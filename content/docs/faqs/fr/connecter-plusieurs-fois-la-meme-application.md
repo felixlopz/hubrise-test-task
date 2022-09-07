@@ -9,16 +9,16 @@ meta:
 
 Dans certains cas, il se peut que vous ayez besoin de connecter plusieurs fois de la même application à un seul et même point de vente HubRise. Vous pouvez par exemple exploiter plusieurs magasins sur une plateforme de livraison de repas et souhaiter les connecter au même logiciel de caisse.
 
-Pour connecter la première application, voir la rubrique [Connecter une nouvelle application](/docs/connexions#connecter-une-nouvelle-application). Si vous avez déjà connecté l'application, il est inutile d'accomplir à nouveau cette étape.
+Pour connecter la première application, voir la rubrique [Connecter une nouvelle application](/docs/connexions#connecter-une-application). Si vous avez déjà connecté l'application, il est inutile d'accomplir à nouveau cette étape.
 
 Pour connecter une deuxième fois la même application, procédez comme suit :
 
-1. Connectez-vous à HubRise à partir de la [page de connexion à HubRise] (https://manager.hubrise.com/login?locale=fr-FR).
+1. Connectez-vous à HubRise à partir de la [page de connexion à HubRise](https://manager.hubrise.com/login?locale=fr-FR).
 1. Cliquez sur **CONNEXIONS** dans la barre de navigation de gauche.
 1. Sélectionnez **Voir les apps disponibles**.
 1. Sélectionnez la même application que celle que vous avez installée précédemment, puis cliquez sur **Connecter**.
 1. Sur la page d'autorisation, sélectionnez le point de vente HubRise correct dans le menu déroulant.
-1. Cliquez sur l'adresse URL dans la barre de navigation et incluez l'instruction `device_id=BrandName&` après la portion initiale de l'URL : `https://manager.hubrise.com/oauth2/v1/authorize?`, et avant `account_id=`. Le paramètre « BrandName » dans l'instruction `device_id=BrandName&` doit être remplacé par le nom de la marque. Pour plus d'informations, voir la rubrique [Règles de nommage](#naming-rules). \![Page d'autorisation avec adresse URL comprenant la chaîne `device_id=2&`.](../../images/066-fr-autorisation-page-device-id.png)
+1. Cliquez sur l'adresse URL dans la barre de navigation et incluez l'instruction `device_id=BrandName&` après la portion initiale de l'URL : `https://manager.hubrise.com/oauth2/v1/authorize?`, et avant `account_id=`. Le paramètre « BrandName » dans l'instruction `device_id=BrandName&` doit être remplacé par le nom de la marque. Pour plus d'informations, voir la rubrique [Règles de nommage](#r-gles-de-nommage). ![Page d'autorisation avec adresse URL comprenant la chaîne `device_id=2&`.](../../images/066-fr-autorisation-page-device-id.png)
 1. Puis, appuyez sur la touche Retour de votre clavier.
 1. Cliquez sur **Autoriser** pour connecter l'application.
 1. Suivez les instructions à l'écran pour configurer la nouvelle instance de l'application. Pour plus de détails, cliquez sur le lien **Afficher la documentation** de l'application correspondante sur la [page des applications HubRise](/apps/).

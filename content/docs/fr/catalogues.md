@@ -12,14 +12,14 @@ La section **Catalogues** de la page **CONFIGURATION** vous permet de créer, mo
 Les règles applicables aux catalogues sont les suivantes :
 
 - Par défaut, les comptes définissent un seul catalogue qui porte le nom du compte. Les points de vente ne comportent aucun catalogue défini par défaut.
-- Un compte doit **impérativement** comporter au moins un catalogue. Si vous tentez de supprimer le dernier catalogue d'un compte, une notification d'erreur s'affiche.
+- Un compte doit impérativement comporter au moins un catalogue. Si vous tentez de supprimer le dernier catalogue d'un compte, une notification d'erreur s'affiche.
 - Vous pouvez créer autant de catalogues que vous le souhaitez. Exemple :
   - vous pouvez créer un catalogue à des fins de test, dont l'utilisation n'aura aucune conséquence sur la production.
   - Vous pouvez créer des catalogues pour un point de vente particulier qui propose des produits différents de ceux d'autres points de vente.
 
 ![Exemple de règles de catalogue](../images/047-fr-2x-catalog-rules.png)
 
-Vous pouvez connecter des applications intégrées à un catalogue spécifique afin d'y transférer ou d'en extraire des données. Vous pouvez modifier et gérer les produits d'un catalogue HubRise uniquement à partir d'applications tierces, ou avec le **gestionnaire de catalogue** HubRise connecté à votre compte HubRise.
+Vous pouvez connecter des applications intégrées à un catalogue spécifique afin d'y transférer ou d'en extraire des données. Vous pouvez modifier et gérer les produits d'un catalogue HubRise uniquement à partir d'applications tierces, ou avec le **Catalog Manager** HubRise connecté à votre compte HubRise.
 
 La suppression d'un catalogue de HubRise n'affecte pas la liste des produits contenus dans les applications tierces.
 
@@ -30,7 +30,7 @@ Pour ajouter un catalogue, procédez comme suit :
 1. Sélectionnez **CONFIGURATION**.
 1. Pour ajouter le catalogue au niveau du compte, vérifiez que l'option **Tous les points de vente** est sélectionnée. Pour ajouter un catalogue à un point de vente, sélectionnez une entrée dans la liste déroulante **Point de vente**.
 1. Dans la section **Catalogues**, cliquez sur **Ajouter un catalogue**.
-1. Saisissez le nom du catalogue. Si vous n'avez qu'un seul catalogue, nous vous recommandons d'utiliser le nom de votre compte ou de votre point de vente. Si vous avez plusieurs catalogues, utilisez un nom descriptif, tel que `Site web` ou `Plateformes alimentaires`. Veillez à ne pas inclure le mot `Catalogue` dans le nom de votre catalogue. Par exemple, utilisez `Fast Pizza` et non `Catalogue Fast Pizza`.
+1. Saisissez le nom du catalogue. Si vous n'avez qu'un seul catalogue, nous vous recommandons d'utiliser le nom de votre compte ou de votre point de vente. Si vous avez plusieurs catalogues, utilisez un nom descriptif, tel que `Site web` ou `Plateformes de livraison de repas`. Veillez à ne pas inclure le mot `Catalogue` dans le nom de votre catalogue. Par exemple, utilisez `Fast Pizza` et non `Catalogue Fast Pizza`.
 1. Cliquez sur **Créer** pour sauvegarder le nouveau catalogue.
 
 ## Détails du catalogue

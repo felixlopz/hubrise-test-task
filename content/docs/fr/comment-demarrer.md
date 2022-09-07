@@ -48,11 +48,11 @@ Vous pouvez définir la langue de votre session HubRise en cliquant sur la flèc
 
 L'interface HubRise est organisée selon les sections suivantes :
 
-- **Tableau de bord** : obtenez une vue d'ensemble des ventes, des commandes et des nouveaux clients de votre organisation.
-- **Connexions** : connectez de nouvelles applications à votre compte HubRise et gérez vos connexions existantes.
-- **Données** : visualisez les commandes, les catalogues, les clients et les logs correspondants sur l'ensemble de vos points de vente.
-- **Configuration** : ajoutez de nouveaux points de vente, gérez l'accès et les rôles des employés, consultez l'utilisation de la plateforme, et vérifiez l'historique ou les modes de paiement.
-- **Développeur** : accès destiné aux développeurs, afin de leur permettre d'intégrer de nouvelles applications à HubRise.
+- **TABLEAU DE BORD** : obtenez une vue d'ensemble des ventes, des commandes et des nouveaux clients de votre organisation.
+- **CONNEXIONS** : connectez de nouvelles applications à votre compte HubRise et gérez vos connexions existantes.
+- **DONNÉES** : visualisez les commandes, les catalogues, les clients et les logs correspondants sur l'ensemble de vos points de vente.
+- **CONFIGURATION** : ajoutez de nouveaux points de vente, gérez l'accès et les rôles des employés, consultez l'utilisation de la plateforme, et vérifiez l'historique ou les modes de paiement.
+- **DÉVELOPPEUR** : accès destiné aux développeurs, afin de leur permettre d'intégrer de nouvelles applications à HubRise.
 
 ![Tableau de bord de HubRise](../images/078-fr-hubrise-dashboard.png)
 
@@ -69,7 +69,7 @@ Pour vous connecter à HubRise, consultez la [page de connexion à HubRise](http
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/check-if-i-already-have-a-user-profile-in-hubrise/">Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
+**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/">Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
 
 ---
 
