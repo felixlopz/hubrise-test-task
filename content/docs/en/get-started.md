@@ -49,11 +49,11 @@ You can set the language for your HubRise session by clicking the down arrow <In
 
 The HubRise interface is organised into the following sections:
 
-- **Dashboard**: Get an overview of your organisation's sales, orders, and new customers.
-- **Connections**: Connect new applications to your HubRise Account, and manage your existing connections.
-- **Data**: View orders, catalogs, customers and corresponding logs across your locations.
-- **Settings**: Add new locations, manage employee access and roles, view platform usage, check payment history or payment methods.
-- **Developer**: Access for developers to integrate new applications with HubRise.
+- **DASHBOARD**: Get an overview of your organisation's sales, orders, and new customers.
+- **CONNECTIONS**: Connect new applications to your HubRise Account, and manage your existing connections.
+- **DATA**: View orders, catalogs, customers and corresponding logs across your locations.
+- **SETTINGS**: Add new locations, manage employee access and roles, view platform usage, check payment history or payment methods.
+- **DEVELOPER**: Access for developers to integrate new applications with HubRise.
 
 ![HubRise dashboard](../images/078-en-hubrise-dashboard.png)
 

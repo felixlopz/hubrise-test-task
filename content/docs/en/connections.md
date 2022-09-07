@@ -68,7 +68,7 @@ Logs record the requests from an app to HubRise. Each request is a transaction b
 
 ### General Information
 
-At the top, the log page displays general information about the connection:
+At the top, the **Connection logs** page displays general information about the connection:
 
 - **Access token**: The token used by the app to authenticate to HubRise.
 - **Scope**: The connection permissions, such as whether the connection can access the Account or a single Location, what read/write access it has on the data, etc.
@@ -91,11 +91,11 @@ The logs page displays a summary list of requests in reverse chronological order
 
 Each log record includes:
 
-- **Date**: The date and time of the request.
-- **Resource**: The target of the request.
-- **Method**: The HTTP method used in communicating the request.
-- **Path**: The URL path for the request.
-- **Response**: The HTTP response code.
+- **TIME (UTC)**: The date and time of the request.
+- **RESOURCE**: The target of the request.
+- **METHOD**: The HTTP method used in communicating the request.
+- **URL**: The URL path for the request.
+- **RESPONSE**: The HTTP response code.
 
 You can see additional details by clicking on a log, including the request and the corresponding response.
 To download either the request or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected request or response will be provided as a JSON file.

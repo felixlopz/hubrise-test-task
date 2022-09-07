@@ -12,7 +12,7 @@ The **Catalogs** section in the **SETTINGS** page allows you to create, edit, or
 The rules for Catalogs are as follows:
 
 - By default, Accounts define one Catalog named after the Account. Locations do not have a Catalog defined by default.
-- An Account **must** have at least one Catalog. If you attempt to delete the last Catalog of an Account, an error notification will be displayed.
+- An Account must have at least one Catalog. If you attempt to delete the last Catalog of an Account, an error notification will be displayed.
 - You can create as many Catalogs as you need. For example:
   - You can create a test Catalog to be used without impacting production.
   - You can create Catalogs for a Location that offers different products than other Locations.
