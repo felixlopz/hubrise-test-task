@@ -31,7 +31,7 @@ To view the full details of the request, click the date and time in the **Logs**
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise)
 
 ---
 

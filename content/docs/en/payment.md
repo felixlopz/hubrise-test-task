@@ -95,7 +95,7 @@ To remove a payment method, follow these steps:
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/stop-paying-subscription/">How Do I Stop Paying For My Subscription?</Link>
+**Related FAQ**: [How Do I Stop Paying For My Subscription?](/docs/faqs/stop-paying-subscription/)
 
 ---
 
@@ -111,7 +111,7 @@ To process a payment from the notification:
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/free-plan-quota-exceeded-what-happens/">What Happens If My Free Plan Quota Is Exceeded?</Link>, <Link to="/docs/faqs/pay-first-invoice/">How Do I Pay For My First Invoice?</Link>, <Link to="/docs/faqs/pause-plan-during-setup-and-test-phases/">Can My Plan Be Paused During Setup and Test Phases?</Link>
+**Related FAQ**: [What Happens If My Free Plan Quota Is Exceeded?](/docs/faqs/free-plan-quota-exceeded-what-happens/), [How Do I Pay For My First Invoice?](/docs/faqs/pay-first-invoice/), [Can My Plan Be Paused During Setup and Test Phases?](/docs/faqs/pause-plan-during-setup-and-test-phases/)
 
 ---
 

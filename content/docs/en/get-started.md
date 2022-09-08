@@ -70,7 +70,7 @@ To log in to HubRise, visit the [HubRise Login page](https://manager.hubrise.com
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/check-if-i-already-have-a-user-profile-in-hubrise/">How Do I Check If I Already Have a User Profile in HubRise?</Link>
+**Related FAQ**: [How Do I Check If I Already Have a User Profile in HubRise?](/docs/faqs/check-if-i-already-have-a-user-profile-in-hubrise/)
 
 ---
 

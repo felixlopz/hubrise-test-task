@@ -34,8 +34,7 @@ Some apps must be connected at the **All locations** level, while others connect
 
 ---
 
-**IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
-
+**IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app/).
 ---
 
 ## Open An App
@@ -52,7 +51,7 @@ To display a line chart with the number of transactions made in the last 30 days
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
 
 ---
 
@@ -104,7 +103,7 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
 
 ---
 
