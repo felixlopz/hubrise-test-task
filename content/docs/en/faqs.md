@@ -10,7 +10,7 @@ meta:
 - [What Happens If My Free Plan Quota Is Exceeded?](/docs/faqs/free-plan-quota-exceeded-what-happens/)
 - [How Do I Pay For My First Invoice?](/docs/faqs/pay-first-invoice/)
 - [How Do I Stop Paying For My Subscription?](/docs/faqs/stop-paying-subscription/)
-- [How Do I Reactivate A Suspended Account?](/docs/faqs/reactivate-suspended-account/)
+- [How Do I Reactivate a Suspended Account?](/docs/faqs/reactivate-suspended-account/)
 - [Can My Plan Be Paused During Setup and Test Phases?](/docs/faqs/pause-plan-during-setup-and-test-phases/)
 - [Too Many Accounts for My Business on HubRise. How Can I Clear the System?](/docs/faqs/how-can-i-clear-accounts/)
 - [How Do I Check If I Already Have a User Profile in HubRise?](/docs/faqs/check-if-i-already-have-a-user-profile-in-hubrise/)
