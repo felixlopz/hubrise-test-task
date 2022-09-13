@@ -3,8 +3,8 @@ title: Interface utilisateur
 position: 3
 layout: documentation
 meta:
-title: Interface utilisateur | Just Eat Flyt | HubRise
-description: Comment naviguer sur la page principale de Just Eat Flyt Bridge pour accéder aux informations sur les commandes et personnaliser le comportement de Bridge.
+  title: Interface utilisateur | Just Eat Flyt | HubRise
+  description: Comment naviguer sur la page principale de Just Eat Flyt Bridge pour accéder aux informations sur les commandes et personnaliser le comportement de Bridge.
 ---
 
 Sur la page principale de Just Eat Flyt Bridge, vous pouvez consulter les requêtes d'API échangées entre HubRise et Just Eat Flyt, et accéder à la page de configuration de l'intégration.

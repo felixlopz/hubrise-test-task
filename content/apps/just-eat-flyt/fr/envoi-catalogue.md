@@ -3,8 +3,8 @@ title: Envoi du catalogue
 position: 6
 layout: documentation
 meta:
-title: Envoi du catalogue | Just Eat Flyt | HubRise
-description: Voir comment envoyer un catalogue de HubRise vers Just Eat, de quelle manière les articles et les options sont encodés, ainsi que les fonctionnalités intégrées.
+  title: Envoi du catalogue | Just Eat Flyt | HubRise
+  description: Voir comment envoyer un catalogue de HubRise vers Just Eat, de quelle manière les articles et les options sont encodés, et quelles fonctionnalités sont intégrées.
 ---
 
 Just Eat ne dispose pas d'un back-office permettant de remplir et personnaliser votre menu. Vous pouvez utiliser Just Eat Flyt Bridge pour extraire votre catalogue HubRise dans votre commerce Just Eat en un seul clic.
@@ -13,13 +13,13 @@ Vous pouvez également configurer la passerelle de manière à ce qu'elle extrai
 
 Cette page explique comment extraire votre catalogue, et quelles informations sont envoyées à la plateforme.
 
-## Approvisionnement d'un catalogue HubRise
+## Approvisionnement d'un catalogue HubRise.
 
 Pour pouvoir mettre à jour votre menu dans Just Eat, vous devez préalablement remplir un catalogue HubRise. De nombreuses applications connectées à HubRise, y compris des solutions d'encaissement, offrent la possibilité d'exporter le menu vers HubRise. Reportez-vous à la documentation de votre solution d'encaissement sur le site Web de HubRise.
 
 Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalog/).
 
-## Extraction du catalogue
+## Envoi du catalogue
 
 Une fois que votre catalogue a été alimenté sur HubRise, vous pouvez l'extraire dans votre magasin Just Eat en procédant comme suit.
 

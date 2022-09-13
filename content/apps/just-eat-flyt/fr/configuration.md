@@ -3,8 +3,8 @@ title: Configuration
 position: 4
 layout: documentation
 meta:
-title: Configuration | Just Eat Flyt | HubRise
-description: Voir les instructions de configuration pour que Just Eat Flyt Bridge fonctionne en toute transparence avec Just Eat et votre solution d'encaissement ou les autres applications connectées à HubRise. La configuration est simple.
+  title: Configuration | Just Eat Flyt | HubRise
+  description: Voir les instructions de configuration pour que Just Eat Flyt Bridge fonctionne en toute transparence avec Just Eat et votre solution d'encaissement ou les autres applications connectées à HubRise. La configuration est simple.
 ---
 
 Cette page de configuration vous permet de personnaliser le comportement de Just Eat Flyt Bridge selon vos préférences. Elle est divisée en plusieurs sections pour faciliter la navigation.

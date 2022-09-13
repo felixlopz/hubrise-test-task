@@ -3,8 +3,8 @@ title: Terminologie
 position: 7
 layout: documentation
 meta:
-title: Terminologie | Just Eat Flyt | HubRise
-description: Tableau de correspondance entre les termes employés dans Just Eat Flyt et HubRise pour le même concept. Connectez vos applications et synchronisez vos données.
+  title: Terminologie | Just Eat Flyt | HubRise
+  description: Tableau de correspondance entre les termes employés dans Just Eat Flyt et HubRise pour le même concept. Connectez vos applications et synchronisez vos données.
 ---
 
 ## Terminologie de Just Eat Flyt

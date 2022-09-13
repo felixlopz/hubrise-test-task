@@ -3,8 +3,8 @@ title: Recevoir les commandes
 position: 5
 layout: documentation
 meta:
-title: Recevoir les commandes | Just Eat Flyt | HubRise
-description: Découvrez le détail technique de la réception des commandes Just Eat dans HubRise, y compris les champs transmis ou non.
+  title: Recevoir les commandes | Just Eat Flyt | HubRise
+  description: Découvrez le détail technique de la réception des commandes Just Eat dans HubRise, y compris les champs transmis ou non.
 ---
 
 La connexion de Just Eat à HubRise vous permet de recevoir les commandes Just Eat directement dans votre solution d’encaissement. Cette page décrit les informations reçues par HubRise en provenance de Just Eat pour vos commandes.

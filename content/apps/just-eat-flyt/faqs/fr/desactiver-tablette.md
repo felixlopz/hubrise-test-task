@@ -1,10 +1,10 @@
 ---
-title: Puis-je désactiver le carnet de commandes Orderpad ?
+title: Puis-je désactiver la tablette ?
 position: 3
 layout: documentation
 meta:
-title: Orderpad | FAQ sur Just Eat Flyt | HubRise
-description: Cette page explique pourquoi vous ne pouvez pas désactiver Orderpad lorsque vous connectez votre magasin à HubRise avec Just Eat Flyt Bridge.
+ title: Tablette | FAQ sur Just Eat Flyt | HubRise
+ description: Cette page explique pourquoi vous ne pouvez pas désactiver la tablette Just Eat lorsque vous connectez votre enseigne à HubRise avec Just Eat Flyt Bridge.
 ---
 
 Vous devez laisser l'application Orderpad de Just Eat activée pour pouvoir recevoir des commandes, même après avoir connecté votre magasin à HubRise. Si vous éteignez Orderpad, les commandes n'apparaîtront pas sur votre compte HubRise.
