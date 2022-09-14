@@ -18,7 +18,7 @@ Si des commandes sont passées dans une application connectée, elles peuvent ê
 1. Pour voir toutes les commandes qui transitent par le compte, vérifiez que **Tous les points de vente** est sélectionné. Vous pouvez aussi sélectionner le lieu à visualiser dans la liste des **points de vente** pour affiner votre recherche.
 1. Si des transactions sont effectuées, vous les verrez apparaître ici. Les commandes sont indiquées par ordre chronologique inverse.
 
-Pour plus de détails, voir la rubrique [Commandes](/docs/donnee#commandes).
+Pour plus de détails, voir la rubrique [Commandes](/docs/donnees#commandes).
 
 ## Afficher l'activité dans l'application
 

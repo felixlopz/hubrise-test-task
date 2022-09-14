@@ -7,11 +7,11 @@ meta:
   description: Instructions pour démarrer avec HubRise. Créer un profil utilisateur et un compte sur HubRise. Définir vos préférences et se familiariser avec le back office.
 ---
 
-Vous pouvez accéder à HubRise depuis un navigateur web sur n'importe quel appareil, tel que votre ordinateur de bureau, tablette ou smartphone.
+Vous pouvez accéder à HubRise depuis un navigateur web sur n'importe quel appareil : votre ordinateur de bureau, tablette ou smartphone.
 
 ## Créer un profil utilisateur
 
-Pour commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'inscription est gratuite et ne prend qu'une minute. Tout ce dont vous avez besoin, c'est un nom, une adresse e-mail et un mot de passe sécurisé. Pour créer un profil utilisateur, consultez la [page d'inscription à HubRise](https://manager.hubrise.com/signup?locale=fr-FR).
+Pour commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'inscription est gratuite et ne prend qu'une minute. Vous avez seulement besoin de fournir un nom, une adresse e-mail et un mot de passe. Pour créer un profil utilisateur, allez sur la [page d'inscription à HubRise](https://manager.hubrise.com/signup?locale=fr-FR).
 
 ---
 
@@ -40,11 +40,11 @@ Une petite entreprise aura un compte avec un seul point de vente, tandis qu'une 
 
 Un profil utilisateur peut avoir accès à plusieurs comptes. Par ailleurs, différents profils d'utilisateurs peuvent avoir accès au même compte avec des niveaux de permissions distincts. Pour plus d'informations, voir la rubrique [Permissions](/docs/permissions/).
 
-## Définir la langue
+## Choisir la langue
 
-Vous pouvez définir la langue de votre session HubRise en cliquant sur la flèche vers le bas <InlineImage width="28" height="21">![Icône de flèche vers le bas](../images/063-arrow.jpg)</InlineImage> située en regard de votre nom dans le coin supérieur droit, puis en sélectionnant la langue de votre choix. HubRise est disponible en anglais et en français.
+Vous pouvez choisir la langue de votre session HubRise en cliquant sur la flèche vers le bas <InlineImage width="28" height="21">![Icône de flèche vers le bas](../images/063-arrow.jpg)</InlineImage> située en regard de votre nom dans le coin supérieur droit, puis en sélectionnant la langue de votre choix. HubRise est disponible en anglais et en français.
 
-## Voir l'interface
+## Découvrir l'interface
 
 L'interface HubRise est organisée selon les sections suivantes :
 

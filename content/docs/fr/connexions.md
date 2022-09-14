@@ -1,5 +1,5 @@
 ---
-title: Apps et connections
+title: Apps et connexions
 position: 4
 layout: documentation
 meta:
@@ -11,13 +11,13 @@ Vous pouvez connecter de nouvelles applications et visualiser les applications c
 
 ## Applications disponibles
 
-HubRise vous permet de connecter un écosystème de solutions en constante évolution : solutions d'encaissement, plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), solutions de gestion de livreurs ou de services de livraison, solutions d'e-marketing (SMS/e-mailing) et de business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois.
+HubRise vous permet de connecter un écosystème de solutions en constante évolution : logiciels de caisse, plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), solutions de gestion de livreurs ou de services de livraison, solutions d'e-marketing (SMS/e-mailing) et de business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois.
 
-Vous pouvez connecter toutes les applications disponibles sur la page [Apps](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, veuillez contacter [contact@hubrise.com](mailto:contact@hubrise.com) pour savoir si une intégration est prévue.
+Vous pouvez connecter toutes les applications disponibles sur la page [Apps](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, vous pouvez contacter [contact@hubrise.com](mailto:contact@hubrise.com) pour savoir si une intégration est prévue.
 
 ## Connecter une application
 
-Les applications sont connectées soit à un compte HubRise, soit à un point de vente. Le niveau de connexion dépend des données que vous devez partager avec l'application : à titre d'exemple, les solutions d'encaissement ou de commande en ligne se connectent généralement aux points de vente, tandis que les solutions de marketing se connectent indifféremment aux comptes ou aux points de vente.
+Les applications sont connectées soit à un compte HubRise, soit à un point de vente. Le niveau de connexion dépend des données que vous devez partager avec l'application : par exemple, les logiciels de caisse ou de commande en ligne se connectent généralement aux points de vente, tandis que les solutions de marketing se connectent indifféremment aux comptes ou aux points de vente.
 
 Certaines applications sont connectables directement depuis le back-office de HubRise, tandis que d'autres exigent une configuration depuis l'application avant l'établissement de la connexion. Pour plus de détails, veuillez consulter la documentation de l'application sur la page [Apps](/apps) de HubRise.
 
@@ -40,13 +40,13 @@ Certaines applications doivent être connectées au niveau de **tous les points 
 
 ## Ouvrir une application
 
-Certaines applications sont accessibles depuis HubRise. Si tel est le cas, vous pouvez ouvrir l'application en cliquant sur **CONNEXIONS** et en sélectionnant **Ouvrir** pour l'application en question. Celle-ci s'ouvrira alors dans une nouvelle fenêtre de navigateur.
+Certaines applications sont accessibles depuis HubRise. Si tel est le cas, vous pouvez ouvrir l'application en cliquant sur **CONNEXIONS** et en sélectionnant **Ouvrir** pour l'application en question. Celle-ci s'ouvrira alors dans une nouvelle fenêtre de votre navigateur.
 
 ![Connexion à HubRise - Ouvrir une application](../images/011-fr-2x-connections-open-app.png)
 
 ## Afficher l'activité de connexion
 
-Pour afficher un graphique linéaire indiquant le nombre de transactions accomplies au cours des 30 derniers jours, sélectionnez **CONNEXIONS** > **Actions** > **Afficher l'activité**. Il s'agit d'un moyen pratique de voir si des transactions transitent via la connexion.
+Pour afficher un graphique montrant le nombre de transactions enregistrées au cours des 30 derniers jours, sélectionnez **CONNEXIONS** > **Actions** > **Afficher l'activité**. C'est un moyen pratique de vérifier si des transactions transitent via la connexion.
 
 ![Connexion à HubRise - Activité affichée](../images/080-fr-connection-activity.png)
 
@@ -58,7 +58,7 @@ Pour afficher un graphique linéaire indiquant le nombre de transactions accompl
 
 ## Afficher les logs de connexion
 
-Des logs sont enregistrés pour chaque application qui a été connectée. Vous pouvez utiliser ces logs afin de mieux cerner les communications entre les systèmes et détecter les incidents éventuels.
+Chaque application connectée génère des logs, qui sont enregistrés. Vous pouvez utiliser ces logs pour analyser les communications entre les systèmes et déterminer la cause des incidents éventuels.
 
 Pour afficher les logs relatifs à une connexion, sélectionnez **CONNEXIONS** > **Actions** > **Voir les logs** pour l'application en question.
 
@@ -87,9 +87,9 @@ Les logs peuvent être filtrés par ressource et par méthode en procédant comm
 
 ### Les logs
 
-La page des logs affiche une liste récapitulative des requêtes par ordre chronologique inverse.
+La page des logs affiche la liste des requêtes par ordre chronologique inverse, les plus récents apparaissant en premier.
 
-Chaque enregistrement de log comprend les informations suivantes :
+Chaque entrée comprend les informations suivantes :
 
 - **HEURE (UTC+02:00)** : date et heure de la requête.
 - **RESSOURCE** : cible de la requête.
@@ -97,7 +97,7 @@ Chaque enregistrement de log comprend les informations suivantes :
 - **URL** : adresse URL d'accès à la requête.
 - **RÉPONSE** : code de réponse HTTP.
 
-Vous pouvez afficher des détails supplémentaires en cliquant sur un log, notamment la requête et la réponse correspondante. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
+Vous pouvez afficher des détails supplémentaires en cliquant sur un log, notamment le contenu de la requête et de la réponse correspondante. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
 
 Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
 
@@ -109,9 +109,11 @@ Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/h
 
 ## Bloquer ou déconnecter une application
 
-Le blocage d'une application empêche temporairement celle-ci d'accéder à l'API de HubRise. Vous pouvez débloquer l'application à tout moment afin de rétablir l'accès.
+HubRise permet de bloquer ou déconnecter les applications :
 
-La déconnexion d'une application supprime la connexion entre celle-ci et HubRise. L'application est informée de la déconnexion, ce qui peut entraîner la réinitialisation ou la suppression de votre compte dans l'application.
+- **Bloquer** une application l'empêche temporairement d'accéder à l'API de HubRise. Vous pouvez débloquer l'application à tout moment afin de rétablir l'accès.
+
+- **Déconnecter** une application supprime la connexion entre celle-ci et HubRise. L'application est informée de la déconnexion, ce qui peut entraîner la réinitialisation ou la suppression de votre compte dans l'application.
 
 ---
 
