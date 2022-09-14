@@ -1,24 +1,24 @@
 ---
-title: Compte
+title: Comptes
 position: 7
 layout: documentation
 meta:
-  title: Compte | HubRise
+  title: Comptes | HubRise
   description: Gestion des comptes sur HubRise. Créer son compte, le paramétrer et le modifier. Conventions de nommage d'un compte HubRise pour faciliter le travail de support.
 ---
 
-Un compte fait référence à la marque et comprend un ou plusieurs points de vente. Les utilisateurs de HubRise peuvent se voir octroyer l'accès à un ou plusieurs comptes. Pour passer d'un compte à un autre, utilisez la liste déroulante **Compte** située tout en haut du back-office de HubRise.
+Un compte correspond à votre marque et comprend un ou plusieurs points de vente. Les utilisateurs de HubRise peuvent avoir accès à un ou plusieurs comptes. Pour passer d'un compte à un autre, utilisez la liste déroulante **Compte** située tout en haut du back-office de HubRise.
 
-La page **CONFIGURATION** affiche des informations sur votre compte et vous permet d'effectuer des changements de paramètre. Vous pouvez également apporter des modifications à n'importe quel point de vente individuel qui fait partie de ce compte.
+La page **CONFIGURATION** affiche des informations sur votre compte et vous permet d'en changer la configuration. Vous pouvez également modifier la configuration de n'importe quel point de vente individuel qui fait partie de ce compte.
 
-## Configuration de compte
+## Configuration du compte
 
-Les comptes et les points de vente comportent un grand nombre de sous-sections et de configurations identiques. En fonction de votre situation, vous pouvez attribuer à vos points de vente des configurations différents de ceux du compte auquel ils appartiennent.
+Les comptes et les points de vente présentent des sous-sections et des paramètres pour la plupart identiques. En fonction de votre situation, vous pouvez attribuer à vos points de vente des configurations différents de ceux du compte auquel ils appartiennent.
 
 Vous pouvez définir des configurations différentes pour les comptes et les points de vente lorsque les cas suivants se présentent :
 
-- Vous pouvez configurer une méthode de paiement unique au niveau de **tous les points de vente**, ou configurer différents modes de paiement en fonction de chaque point de vente. Cette option est utile si vous devez faire en sorte qu'un point de vente utilise une méthode de paiement différente pour des raisons de comptabilité.
-- Vous pouvez accorder aux utilisateurs des permissions valables pour l'ensemble du compte ou pour des points de vente spécifiques. Vous pouvez par exemple accorder à un utilisateur l'accès complet à un compte en tant qu'administrateur, mais autoriser un autre utilisateur uniquement à visualiser et gérer un point de vente spécifique.
+- Vous pouvez configurer une méthode de paiement unique au niveau de **tous les points de vente**, ou configurer des méthodes de paiement différentes sur certains points de vente. Cette option est utile si vous devez faire en sorte qu'un point de vente utilise une méthode de paiement différente pour des raisons de comptabilité.
+- Vous pouvez accorder aux utilisateurs des permissions valables pour l'ensemble du compte ou pour des points de vente spécifiques. Vous pouvez par exemple accorder à un utilisateur l'accès complet à un compte en tant qu'administrateur, mais autoriser un autre utilisateur à uniquement visualiser et gérer un point de vente spécifique.
 - Vous pouvez également visualiser les données sur l'ensemble du compte ou filtrer les informations en fonction d'un point de vente spécifique.
 - Vous pouvez modifier votre compte et vos points de vente de la manière la mieux adaptée aux besoins de votre entreprise.
 

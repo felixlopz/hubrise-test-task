@@ -51,7 +51,7 @@ Pour supprimer votre accès à un compte ou à un point de vente, procédez comm
 
 ---
 
-**REMARQUE IMPORTANTE** : vous ne pouvez pas vous supprimer vous-même d'un compte si vous en êtes le seul administrateur. Si vous tentez néanmoins de le faire, un message d'erreur s'affichera. Si vous devez vous supprimer vous-même en tant que dernier administrateur d'un compte, créez d'abord un autre utilisateur avec le rôle d'administrateur pour ce compte, puis supprimez votre entrée.
+**REMARQUE IMPORTANTE** : vous ne pouvez pas vous supprimer vous-même d'un compte si vous en êtes le seul administrateur. Si vous tentez de le faire, un message d'erreur s'affichera. Si vous devez vous supprimer vous-même en tant que dernier administrateur d'un compte, créez d'abord un autre utilisateur avec le rôle d'administrateur pour ce compte, puis enlevez-vous comme administrateur.
 
 ---
 
@@ -62,17 +62,17 @@ Pour plus d'informations, voir la rubrique [Permissions](/docs/permissions/).
 Pour créer un nouveau compte, procédez comme suit :
 
 1. Cliquez sur votre nom dans le coin supérieur droit du back-office de HubRise, puis cliquez sur **Profil**.
-1. Dans la section **Permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/compte#cr-er-un-compte).
+1. Dans la section **Permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/comptes#cr-er-un-compte/).
 
 ![Mes permissions dans HubRise](../images/056-fr-2x-my-permissions.png)
 
-## Réinitialiser un mot de passe
+## Réinitialiser le mot de passe
 
 Si vous êtes un utilisateur enregistré mais que vous avez perdu ou oublié votre mot de passe, rendez-vous sur la [page de réinitialisation du mot de passe de HubRise](https://manager.hubrise.com/reset_password/new?locale=fr-FR). Saisissez l'adresse e-mail associée à votre profil HubRise, puis cliquez sur **Réinitialiser le mot de passe**. Vous recevrez un e-mail contenant des instructions de réinitialisation de votre mot de passe. Une fois cette opération terminée, vous pourrez vous reconnecter.
 
 ---
 
-**REMARQUE IMPORTANTE** : si les instructions de réinitialisation du mot de passe ne s'affichent pas dans le dossier de réception de votre messagerie au bout de quelques minutes, actualisez votre boîte de réception et vérifiez vos dossiers courrier indésirable ou corbeille.
+**REMARQUE IMPORTANTE** : si vous n'avez pas reçu les instructions de réinitialisation du mot de passe par email au bout de quelques minutes, actualisez votre boîte de réception et vérifiez vos dossiers courrier indésirable ou corbeille.
 
 ---
 
