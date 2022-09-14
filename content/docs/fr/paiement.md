@@ -7,7 +7,7 @@ meta:
   description: Comment gérer les paiements et les factures sur HubRise.
 ---
 
-Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/formule#plans-d-utilisation) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/tarifs/).
+Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/utilisation-formule#plans-d-utilisation) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/tarifs/).
 
 Vous pouvez configurer votre méthode de paiement dans la section **CONFIGURATION** > **Paiement**. Pour automatiser les paiements, vous devez disposer d'une carte de crédit. L'option de prélèvement automatique n'est pas disponible. Le virement bancaire est accepté en cas d'utilisation pendant 12 mois minimum.
 
@@ -97,7 +97,7 @@ Pour supprimer une méthode de paiement, procédez comme suit :
 
 ## Traiter les devis en attente
 
-Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications sur les formules](/docs/formule#notifications-sur-les-formules).
+Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications sur les formules](/docs/utilisation-formule#notifications-sur-les-formules).
 
 Pour traiter un paiement à partir de la notification, procédez comme suit :
 

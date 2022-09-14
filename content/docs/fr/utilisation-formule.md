@@ -1,5 +1,5 @@
 ---
-title: Formule
+title: Utilisation et formule
 position: 9
 layout: documentation
 meta:
