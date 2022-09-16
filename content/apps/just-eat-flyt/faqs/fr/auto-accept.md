@@ -3,17 +3,17 @@ title: Dois-je activer l'auto-acceptation sur Just Eat ?
 position: 2
 layout: documentation
 meta:
-  title: Auto-acceptation | FAQ sur Just Eat Flyt | HubRise
+  title: Auto-accept | Questions fréquentes sur Just Eat Flyt | HubRise
   description: Cette page explique la fonction d'auto-acceptation de Just Eat lors de la connexion de HubRise à Just Eat Flyt Bridge.
 ---
 
-Si vous ne souhaitez pas utiliser l'application de carnet de commandes Just Eat OrderPad, demandez l'activation de l'auto-acceptation. Lorsque l'auto-acceptation est activée, les commandes sont envoyées directement par HubRise à votre solution d'encaissement connectée, ce qui vous dispense d'avoir à accepter chaque commande manuellement sur votre tablette.
+Si vous ne souhaitez pas la tablette Just Eat, demandez l'activation de l'auto-acceptation. Lorsque l'auto-acceptation est activée, les commandes sont envoyées directement par HubRise à votre logiciel de caisse connecté, ce qui vous dispense d'avoir à accepter chaque commande manuellement sur votre tablette.
 
 Compte tenu du risque que certaines commandes soient manquées, Just Eat ne recommande pas d'activer l'auto-acceptation.
 
 ---
 
-**REMARQUE IMPORTANTE** : même si la fonction d'auto-acceptation est activée, l'application OrderPad doit rester activée pour que le point de vente reste ouvert.
+**REMARQUE IMPORTANTE** : même si la fonction d'auto-acceptation est activée, la tablette doit rester allumée pour que le point de vente reste ouvert.
 
 ---
 

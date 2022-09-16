@@ -4,25 +4,25 @@ position: 5
 layout: documentation
 meta:
   title: Recevoir les commandes | Just Eat Flyt | HubRise
-  description: Découvrez le détail technique de la réception des commandes Just Eat dans HubRise, y compris les champs transmis ou non.
+  description: Découvrez le détail technique sur la réception des commandes Just Eat dans HubRise, y compris le temps de réponse, et les champs transmis ou non.
 ---
 
-La connexion de Just Eat à HubRise vous permet de recevoir les commandes Just Eat directement dans votre solution d’encaissement. Cette page décrit les informations reçues par HubRise en provenance de Just Eat pour vos commandes.
+La connexion de Just Eat à HubRise vous permet de recevoir les commandes Just Eat directement dans votre logiciel de caisse. Cette page décrit les informations reçues par HubRise en provenance de Just Eat pour vos commandes.
 
 ## Articles et options
 
-Les commandes Just Eat contiennent des informations complètes sur les articles et les options, y compris le nom, le code ref du point de vente, la quantité et le prix. Toutefois, les promotions ne sont pas prises en charge dans Just Eat.
+Les commandes Just Eat contiennent des informations complètes sur les articles et les options, y compris le nom, le code ref du produit, la quantité et le prix. Toutefois, les promotions ne sont pas prises en charge dans Just Eat.
 
-De même, les avis formulés par les clients sur des produits individuels ne sont pas pris en charge dans Just Eat. Si vous utilisez ces commentaires pour la préparation de vos plats, vous devez créer un article pour chaque demande habituelle dans votre solution d'encaissement (par exemple « Cuisson à point » ou « Couper en tranches »), puis les inclure en tant qu'options dans votre menu Just Eat.
+De même, les avis formulés par les clients sur des produits individuels ne sont pas pris en charge dans Just Eat. Si vous utilisez des commentaires pour la préparation de vos plats, vous devez créer un article pour chaque demande habituelle dans votre logiciel de caisse (par exemple « Cuisson à point » ou « Couper en tranches »), puis les inclure en tant qu'options dans votre menu Just Eat.
 
 ## Statuts des commandes
 
 Les commandes Just Eat peuvent être marquées comme suit :
 
-- `Succès` : la commande a été acceptée par la solution d'encaissement.
-- `Échec` : l'envoi de la commande à la solution d'encaissement a échoué.
+- `Successful` : la commande a été acceptée par le logiciel de caisse.
+- `Failed` : l'envoi de la commande au logiciel de caisse a échoué.
 
-Les nouvelles commandes doivent être marquées comme `Successful` (succès) ou `Failed` (échec) dans les 3 minutes. Dans le cas contraire, Just Eat les marquera automatiquement comme `Failed`.
+Les nouvelles commandes doivent être marquées comme `Successful` (succès) ou `Failed` (échec) en moins de 3 minutes. Dans le cas contraire, Just Eat les marquera automatiquement comme `Failed`.
 
 ---
 
@@ -32,9 +32,9 @@ Les nouvelles commandes doivent être marquées comme `Successful` (succès) ou 
 
 ### Modification du statut d'une commande dans Just Eat
 
-Lorsque le statut d'une commande passe à `rejected`(rejeté) ou `cancelled` (annulé) dans HubRise, Just Eat Bridge notifie à Just Eat que la commande a le statut `Failed` (échec).
+Lorsque le statut d'une commande passe à `rejected`(rejeté) ou `cancelled` (annulé) dans HubRise, Just Eat Bridge notifie Just Eat du changement de statut de commande à `Failed` (échec).
 
-Just Eat Bridge vous permet de décider quel statut de HubRise déclenche l'état `Successful` (succès) dans Just Eat. Cette option est utile pour gérer différents scénarios lorsque votre solution d'encaissement actualise le statut de la commande. Par exemple, si votre solution d'encaissement marque une commande acceptée comme ayant le statut `received` (reçu) dans HubRise, vous pouvez toujours faire en sorte que Just Eat reconnaisse que la commande a été acceptée.
+Just Eat Bridge vous permet de décider quel statut de HubRise déclenche l'état `Successful` (succès) dans Just Eat. Cette option est utile pour gérer différents scénarios lorsque votre logiciel de caisse actualise le statut de la commande. Par exemple, si votre logiciel de caisse marque une commande acceptée comme ayant le statut `received` (reçu) dans HubRise, vous pouvez toujours faire en sorte que Just Eat reconnaisse que la commande a été acceptée.
 
 Les autres valeurs de statut dans HubRise ne sont pas prises en charge ni envoyées à Just Eat.
 
@@ -47,10 +47,10 @@ Just Eat Bridge ne modifie pas le statut des commandes dans HubRise.
 Just Eat prend en charge trois types de service :
 
 - Livraison par coursier Just Eat
-- Livraison par la flotte du restaurant
+- Livraison par la flotte de livreurs du restaurant
 - Retrait par les clients
 
-Ces types sont généralement associés à des codes ref spécifiques dans votre solution d’encaissement, que vous pouvez définir sur la page de configuration de l'instance Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre solution d’encaissement sur notre [page d'applications](/apps).
+Ces types de service sont généralement associés à des codes ref spécifiques dans votre logiciel de caisse, que vous pouvez définir sur la page de configuration du Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre logiciel de caisse sur notre [page d'Apps](/apps).
 
 ## Coordonnées client
 
@@ -72,7 +72,7 @@ Just Eat Flyt Bridge encode deux types de frais : les frais de livraison et les
 
 ## Références techniques
 
-Cette section décrit la manière dont les commandes sont encodées dans les données utiles JSON reçues en provenance de Just Eat Flyt Bridge.
+Cette section décrit la manière dont les commandes sont encodées dans les requêtes JSON reçues en provenance de Just Eat Flyt Bridge.
 
 ### Identifiant de commande Just Eat
 
@@ -101,7 +101,7 @@ Chaque option se caractérise par une quantité unique. Les options multiples id
 
 <details>
 
-Vous trouverez ci-dessous un exemple de données utiles contenant un article unique avec une option.
+Vous trouverez ci-dessous un exemple de requête contenant un article unique avec une option.
 
 ```json
 "items": [
@@ -128,7 +128,7 @@ Vous trouverez ci-dessous un exemple de données utiles contenant un article uni
 
 Just Eat Flyt Bridge ne crée jamais de clients dans HubRise pour les commandes Just Eat, mais inclut toujours les coordonnées du client dans l'objet `customer`, lorsqu'elles sont disponibles.
 
-Le nom et le prénom du client sont indiqués dans les champs `first_name` et `last_name`. Un client peut décider de ne pas renseigner l'un des deux champs, auquel cas le champ reste vide dans les données utiles.
+Le nom et le prénom du client sont indiqués dans les champs `first_name` et `last_name`. Un client peut décider de ne pas renseigner l'un des deux champs, auquel cas le champ reste vide dans les requêtes.
 
 L'emplacement par défaut `customer@email.hidden` sert à alimenter le champ `email` pour tous les clients.
 
@@ -145,7 +145,7 @@ Pour les commandes avec livraison par le restaurant uniquement, Just Eat Flyt Br
 
 <details>
 
-Vous trouverez ci-dessous un exemple de données utiles contenant les coordonnées du client.
+Vous trouverez ci-dessous un exemple de requête contenant les coordonnées du client.
 
 ```json
 "customer": {
@@ -169,42 +169,42 @@ Vous trouverez ci-dessous un exemple de données utiles contenant les coordonné
 
 Des frais de livraison sont appliqués aux commandes livrées par le restaurant.
 
-Les champs disponibles dans les données utiles sont les suivants :
+Les champs disponibles dans les requêtes sont les suivants :
 
 - `name` : intitulé des frais de livraison (par défaut, « Frais de livraison »).
 - `type` : type de frais. Ce paramètre est toujours défini sur la valeur `delivery`.
-- `ref` : code ref des frais. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Bridge. Elle doit correspondre à la valeur définie dans votre solution d’encaissement.
+- `ref` : code ref des frais. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price` : montant total des frais de livraison.
 
 ### Supplément Just Eat
 
 Just Eat applique un supplément forfaitaire à toutes les commandes.
 
-Les champs disponibles dans les données utiles sont les suivants :
+Les champs disponibles dans les requêtes sont les suivants :
 
 - `name` : intitulé des frais (par défaut, « Frais de service »).
 - `type` : type de frais. Ce paramètre est toujours défini sur la valeur `other`.
-- `ref` : code ref des frais. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Bridge. Elle doit correspondre à la valeur définie dans votre solution d’encaissement.
+- `ref` : code ref des frais. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price` : montant total du petit supplément à la commande.
 
 <details>
 
-Voici un exemple de données utiles pour les frais.
+Voici un exemple de requête pour les frais.
 
 ```json
 "charges": [
-  {
-    "type": "delivery",
-    "name": "Delivery charge",
-    "ref": "1111",
-    "price": "3.50 EUR"
-  },
-  {
-    "type": "other",
-    "name": "Service charge",
-    "ref": 2222,
-    "price": "0.50 EUR"
-  }
+{
+"type": "delivery",
+"name": "Delivery charge",
+"ref": "1111",
+"price": "3.50 EUR"
+},
+{
+"type": "other",
+"name": "Service charge",
+"ref": 2222,
+"price": "0.50 EUR"
+}
 ]
 ```
 

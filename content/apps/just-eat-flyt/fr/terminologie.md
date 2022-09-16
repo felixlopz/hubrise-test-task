@@ -13,7 +13,7 @@ Le tableau suivant explique les termes spécifiques à Just Eat Flyt.
 
 | Terme     | Description                                        |
 |----------|----------------------------------------------------|
-| Orderpad | Application officielle de Just Eat qui permet de gérer les commandes entrantes. |
+| tablette Just Eat | Application officielle de Just Eat qui permet de gérer les commandes entrantes. |
 | Scoober  | Service de livraison de Just Eat.                         |
 
 ## Tableau de correspondance
