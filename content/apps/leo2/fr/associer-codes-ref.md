@@ -1,6 +1,6 @@
 ---
 title: Associer les codes ref
-position: 3
+position: 5
 layout: documentation
 meta:
   title: Associer les codes ref | LEO2 | HubRise
@@ -26,7 +26,7 @@ Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivant
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Paramètres et Réglages**.
 1. Cliquez sur **HubRise**.
-   ![Associer les codes ref - Paramètres HubRise](../images/003-fr-leo2-parametres-hubrise.png)
+   ![Associer les codes ref - Paramètres HubRise](../images/017-fr-leo2-parametres-hubrise.png)
 1. Cliquez sur **Envoi catalogue**.
 1. Cliquez sur **Oui**.
 
@@ -107,7 +107,7 @@ Pour associer un type de service à un tarif, suivez les étapes suivantes :
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Paramètres et Réglages**.
 1. Dans l'onglet **Généraux**, cliquez sur **HubRise**.
-   ![Connexion - Paramètres HubRise](../images/003-fr-leo2-parametres-hubrise.png)
+   ![Connexion - Paramètres HubRise](../images/017-fr-leo2-parametres-hubrise.png)
 1. Dans les champs **Tarif sur place**, **Tarif à emporter** et **Tarif à livrer**, choisissez le tarif correspondant dans la liste déroulante.
 
 ## Codes ref des types de service

@@ -1,6 +1,6 @@
 ---
 title: Plateformes de livraison de repas
-position: 5
+position: 7
 layout: documentation
 meta:
   title: Plateformes de livraison de repas | LEO2 | HubRise

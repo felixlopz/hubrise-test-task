@@ -1,6 +1,6 @@
 ---
 title: F.A.Q.
-position: 7
+position: 9
 layout: documentation
 meta:
   title: F.A.Q. | LEO2 | HubRise

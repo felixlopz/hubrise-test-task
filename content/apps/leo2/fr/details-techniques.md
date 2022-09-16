@@ -1,6 +1,6 @@
 ---
 title: Informations techniques
-position: 8
+position: 10
 layout: documentation
 meta:
   title: Informations techniques | LEO2 | HubRise
