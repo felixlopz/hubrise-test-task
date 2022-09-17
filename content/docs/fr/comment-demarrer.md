@@ -69,7 +69,7 @@ Pour vous connecter à HubRise, consultez la [page de connexion à HubRise](http
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/">Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?</Link>
+**Questions fréquentes associées** : [Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?](/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/)
 
 ---
 

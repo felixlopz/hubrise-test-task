@@ -91,7 +91,7 @@ Pour supprimer une méthode de paiement, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/arreter-de-payer-abonnement/">Comment cesser le paiement de mon abonnement ?</Link>
+**Questions fréquentes associées** : [Comment cesser le paiement de mon abonnement ?](/docs/faqs/arreter-de-payer-abonnement/)
 
 ---
 
@@ -107,7 +107,7 @@ Pour traiter un paiement à partir de la notification, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/">Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?</Link>, <Link to="/docs/faqs/quota-exceeded-one-location-how-do-i-pay/">Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/">Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment effectuer le paiement ?</Link>, <Link to="/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/">Ma formule peut-elle être interrompu durant les phases de configuration et de test ?</Link>
+**Questions fréquentes associées** : [Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?](/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/), [Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment effectuer le paiement ?](/docs/faqs/quota-exceeded-one-location-how-do-i-pay/), [Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment effectuer le paiement ?](/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/), [Ma formule peut-elle être interrompu durant les phases de configuration et de test ?](/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/)
 
 ---
 
