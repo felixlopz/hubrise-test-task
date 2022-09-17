@@ -35,6 +35,7 @@ Some apps must be connected at the **All locations** level, while others connect
 ---
 
 **IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app/).
+
 ---
 
 ## Open An App

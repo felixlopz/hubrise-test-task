@@ -56,17 +56,13 @@ To filter customers by name or email address:
 To see full details of a customer update, click the customer name.
 To view the full details of the request, click the date and time in the **Logs** section. For more information, see [Logs](/docs/data/#logs).
 
-
 To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-lists).
 
 ## Catalogs
 
-The **CATALOGS** page displays the products included in the selected Catalog.
-
-Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. 
-For example, a connected EPOS can push its products catalog into HubRise for an e-commerce website to use it. Before the push, you can edit the catalog on HubRise using Catalog Manager, a free app available on HubRise.
-
 From the **CATALOGS** page, you can view the catalogs pushed into HubRise and the logs of the requests that made changes to the catalog.
+
+Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its products catalog into HubRise for an e-commerce website to use it. Before the push, you can edit the catalog on HubRise using Catalog Manager, a free app available on HubRise.
 
 ### View Catalog
 
@@ -105,7 +101,7 @@ Each page in the **DATA** section provides more information through its log page
 
 Logs record the requests from an app to HubRise. Each request is a transaction between an app and HubRise, such as an order, a new customer registered, or a catalog update.
 
-The log page displays a summary list of requests in reverse chronological order. When you open an order in the **ORDERS** page, select a log on the **CUSTOMERS** page or decide to **View logs** on the **CATALOGS** page, the following information is displayed:
+The log page displays a summary list of requests in reverse chronological order. When you open an order in the **ORDERS** page, select a log on the **CUSTOMERS** page or click on **View logs** on the **CATALOGS** page, the following information is displayed:
 
 - **TIME (UTC+02:00)**: The date and time of the request, in UTC format.
 - **ORIGIN**: The app that created the request.
