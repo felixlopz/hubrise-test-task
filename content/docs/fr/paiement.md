@@ -7,9 +7,9 @@ meta:
   description: Comment gérer les paiements et les factures sur HubRise.
 ---
 
-Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/formule#plans-d-utilisation) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/tarifs/).
+Les comptes et les points de vente configurés avec une formule payante font l'objet d'un paiement mensuel à HubRise lorsqu'ils dépassent la limite d'[utilisation](/docs/utilisation-formule#plans-d-utilisation) gratuite. Pour obtenir des informations complètes sur les prix, consultez la [page de tarifs de HubRise](/tarifs/).
 
-Vous pouvez configurer votre méthode de paiement dans la section **CONFIGURATION** > **Paiement**. Pour automatiser les paiements, vous devez disposer d'une carte de crédit. L'option de prélèvement automatique n'est pas disponible. Le virement bancaire est accepté en cas d'utilisation pendant 12 mois minimum.
+Vous pouvez configurer votre méthode de paiement dans la section **CONFIGURATION** > **Paiement**. Pour automatiser les paiements, vous devez disposer d'une carte de crédit. Les prélèvements SEPA ne sont pas possibles. Le virement bancaire est accepté en cas d'engagement sur 12 mois minimum.
 
 Le paiement d'un abonnement s'effectue toujours en euros, quelle que soit la devise du compte.
 
@@ -17,11 +17,11 @@ Le paiement d'un abonnement s'effectue toujours en euros, quelle que soit la dev
 
 Vous pouvez payer votre abonnement à HubRise au niveau du compte ou du point de vente.
 
-Les paiements au niveau du compte sont le choix préférentiel par défaut. Si vous exploitez plusieurs points de vente, vous pouvez mettre en place une méthode de paiement unique et gérer une seule facture pour tous vos points de vente.
+Les paiements au niveau du compte sont le choix par défaut et le plus courant. Si vous exploitez plusieurs points de vente, vous pouvez mettre en place une méthode de paiement unique et gérer une seule facture pour tous vos points de vente.
 
 Si, au contraire, vous avez des exigences spécifiques en matière de facturation ou d'autres besoins commerciaux, vous pouvez configurer une méthode de paiement différente au niveau du point de vente.
 
-### Sélection du paiement au niveau du point de vente
+### Passage en paiement au niveau du point de vente
 
 Pour configurer le paiement au niveau d'un point de vente spécifique, procédez comme suit :
 
@@ -30,14 +30,14 @@ Pour configurer le paiement au niveau d'un point de vente spécifique, procédez
 1. Rendez-vous dans **CONFIGURATION**.
 1. Dans la section **Paiement**, cliquez sur **Le faire régler par le point de vente**. ![Sélection du paiement au niveau du point de vente](../images/071-fr-make-location-pay.png)
 
-### Sélection du paiement au niveau du compte
+### Passage en paiement au niveau du compte
 
 Pour configurer le paiement au niveau du compte pour un point de vente spécifique, procédez comme suit :
 
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** associé au point de vente spécifique.
 1. Sélectionnez une entrée dans la liste déroulante **Point de vente**.
 1. Rendez-vous dans **CONFIGURATION**.
-1. Dans la section **Paiement**, cliquez sur **Le faire régler par l'abonnement par le compte**. ![Sélection du paiement au niveau du point de vente](../images/072-fr-make-account-pay.png)
+1. Dans la section **Paiement**, cliquez sur **Faire régler l'abonnement par le compte**. ![Sélection du paiement au niveau du point de vente](../images/072-fr-make-account-pay.png)
 
 Le cycle de facturation du point de vente correspondra au cycle de facturation du compte. Si la date de facturation actuelle du point de vente diffère de celle du compte, les situations suivantes peuvent se produire :
 
@@ -97,7 +97,7 @@ Pour supprimer une méthode de paiement, procédez comme suit :
 
 ## Traiter les devis en attente
 
-Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications sur les formules](/docs/formule#notifications-sur-les-formules).
+Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avant que la carte de crédit ne puisse être débitée. Les utilisateurs de niveau administrateur recevront des notifications leur rappelant d'achever le processus de paiement. Pour plus d'informations sur les notifications, voir la rubrique [Notifications sur les formules](/docs/utilisation-formule#notifications-sur-les-formules/).
 
 Pour traiter un paiement à partir de la notification, procédez comme suit :
 

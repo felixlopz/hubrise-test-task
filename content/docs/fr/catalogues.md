@@ -12,7 +12,7 @@ La section **Catalogues** de la page **CONFIGURATION** vous permet de créer, mo
 Les règles applicables aux catalogues sont les suivantes :
 
 - Par défaut, les comptes définissent un seul catalogue qui porte le nom du compte. Les points de vente ne comportent aucun catalogue défini par défaut.
-- Un compte doit impérativement comporter au moins un catalogue. Si vous tentez de supprimer le dernier catalogue d'un compte, une notification d'erreur s'affiche.
+- Un compte **doit**impérativement comporter au moins un catalogue. Si vous tentez de supprimer le dernier catalogue d'un compte, une notification d'erreur s'affiche.
 - Vous pouvez créer autant de catalogues que vous le souhaitez. Exemple :
   - vous pouvez créer un catalogue à des fins de test, dont l'utilisation n'aura aucune conséquence sur la production.
   - Vous pouvez créer des catalogues pour un point de vente particulier qui propose des produits différents de ceux d'autres points de vente.
@@ -39,7 +39,7 @@ Les informations suivantes apparaissent dans la section **CONFIGURATION** > **Ca
 
 - **Nom** : appellation du catalogue, suivie de son identifiant unique. Cet identifiant unique ne change pas même si le nom du catalogue est modifié. Exemple : le catalogue `Avenue d'Italie` apparaîtra comme `Avenue d'Italie - abc123`. Si le catalogue `Avenue d'Italie` est renommé `Rue Denfert-Rochereau`, il apparaîtra comme `Rue Denfert-Rochereau - abc123`.
 - **Créé** : date à laquelle le catalogue a été créé dans HubRise.
-- **Produits** : nombre de produits inclus dans ce catalogue. Pour afficher les détails du catalogue, voir [Catalogues](/docs/donnee#catalogues).
+- **Produits** : nombre de produits inclus dans ce catalogue. Pour afficher les détails du catalogue, voir [Catalogues](/docs/donnees#catalogues).
 
 Pour afficher le contenu d'un catalogue, cliquez sur le nom de celui-ci. Vous serez alors redirigé vers l'écran **DONNÉES** > **Catalogue** du catalogue concerné.
 

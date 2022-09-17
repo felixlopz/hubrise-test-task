@@ -11,7 +11,7 @@ You can connect new apps and see apps connected to your HubRise Account from the
 
 ## Available Apps
 
-HubRise is used to connect an ever growing ecosystem of solutions: EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), self ordering solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
+HubRise is used to connect an ever-growing ecosystem of solutions: EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), self ordering solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 
 You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact [contact@hubrise.com](mailto:contact@hubrise.com) to find out if an integration is planned.
 
@@ -110,9 +110,11 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ## Block or Disconnect App
 
-Blocking an app temporarily prevents it from accessing HubRise API. At any time, you can unblock the app to restore access.
+HubRise allows you to block or disconnect apps:
 
-Disconnecting an app removes the connection between the app and HubRise. The app is notified of the disconnection, which may result in your account being reset or deleted on the app.
+- **Blocking** an app temporarily prevents it from accessing HubRise API. At any time, you can unblock the app to restore access.
+
+- **Disconnecting** an app removes the connection between the app and HubRise. The app is notified of the disconnection, which may result in your account being reset or deleted on the app.
 
 ---
 
