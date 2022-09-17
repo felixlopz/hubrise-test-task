@@ -110,7 +110,7 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ## Block or Disconnect App
 
-HubRise lets you block or disconnect apps:
+HubRise allows you to block or disconnect apps:
 
 - **Blocking** an app temporarily prevents it from accessing HubRise API. At any time, you can unblock the app to restore access.
 
