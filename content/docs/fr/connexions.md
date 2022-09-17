@@ -103,7 +103,7 @@ Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/h
 
 ---
 
-**Questions fréquentes associées**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
+**Questions fréquentes associées**: [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
 
 ---
 
