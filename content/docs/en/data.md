@@ -53,8 +53,7 @@ To filter customers by name or email address:
 1. Select the search icon to filter the customer records.
 1. To clear the customer filer, remove all text from the **Search by name or email** field then select the search icon <InlineImage width="17" height="17">![Search icon](../images/061-search.png)</InlineImage>.
 
-To see full details of a customer update, click the customer name.
-To view the full details of the request, click the date and time in the **Logs** section. For more information, see [Logs](/docs/data/#logs).
+To see full details of a customer, click the customer name. To see the full logs of all the requests that make changes to the customer list, click **View logs**. 
 
 To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-lists).
 
@@ -62,7 +61,7 @@ To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-
 
 From the **CATALOGS** page, you can view the catalogs pushed into HubRise and the logs of the requests that made changes to the catalog.
 
-Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its products catalog into HubRise for an e-commerce website to use it. Before the push, you can edit the catalog on HubRise using Catalog Manager, a free app available on HubRise.
+Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its catalog into HubRise for an e-commerce website to use it. If required, you can also edit the catalog using Catalog Manager, a free app available on HubRise.
 
 ### View Catalog
 
@@ -91,7 +90,7 @@ For Deals and Discounts, you can see the following attributes:
 - **NAME**: The Deal or Discount name.
 - **REF CODE**: The unique identifier of the Deal or Discount from the source product management system.
 
-To see the full logs of all the requests that make changes to the catalogs, click **View logs**. For more information, see [Logs](/docs/data/#logs).
+To see the full logs of all the requests that make changes to the catalog, click **View logs**. For more information, see [Logs](/docs/data/#logs).
 
 To create, edit or remove a catalogs, see [Catalogs](/docs/catalog).
 

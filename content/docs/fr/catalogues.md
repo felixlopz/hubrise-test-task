@@ -12,9 +12,9 @@ La section **Catalogues** de la page **CONFIGURATION** vous permet de créer, mo
 Les règles applicables aux catalogues sont les suivantes :
 
 - Par défaut, les comptes définissent un seul catalogue qui porte le nom du compte. Les points de vente ne comportent aucun catalogue défini par défaut.
-- Un compte **doit**impérativement comporter au moins un catalogue. Si vous tentez de supprimer le dernier catalogue d'un compte, une notification d'erreur s'affiche.
+- Un compte doit impérativement comporter au moins un catalogue. Si vous tentez de supprimer le dernier catalogue d'un compte, une notification d'erreur s'affiche.
 - Vous pouvez créer autant de catalogues que vous le souhaitez. Exemple :
-  - vous pouvez créer un catalogue à des fins de test, dont l'utilisation n'aura aucune conséquence sur la production.
+  - Vous pouvez créer un catalogue à des fins de test, dont l'utilisation n'aura aucune conséquence sur la production.
   - Vous pouvez créer des catalogues pour un point de vente particulier qui propose des produits différents de ceux d'autres points de vente.
 
 ![Exemple de règles de catalogue](../images/047-fr-2x-catalog-rules.png)

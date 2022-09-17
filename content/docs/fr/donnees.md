@@ -17,7 +17,7 @@ La page **COMMANDES** affiche les commandes dans l'ordre inverse de leur date de
 - **POINT DE VENTE** : si vous sélectionnez l'option **Tous les points de vente**, cette colonne indique le point de vente qui a réceptionné la commande.
 - **CLIENT** : client qui a passé la commande.
 - **MONTANT** : montant total de la commande.
-- **STATUT** : statut actuel de la commande. Pour une liste des statuts possibles, voir la section [Statut de la commande](/developers/api/order-management/#order-status) (en anglais) de la page Order Management (Gestion des commandes) de l'API HubRise.
+- **STATUT** : statut actuel de la commande. Pour une liste des statuts possibles, voir la section [Statut de la commande](/developers/api/order-management/#order-status) (en anglais) de la page **Order Management** (Gestion des commandes) de l'API HubRise.
 - **ORIGINE** : application à partir de laquelle la commande a été générée.
 
 Pour filtrer les commandes par dates de début et de fin, procédez comme suit :
@@ -30,7 +30,7 @@ Cliquez sur la date de la commande pour afficher les détails complets. Pour aff
 
 ---
 
-**Questions fréquentes associées** : <Link to="/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/">Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?</Link>
+**Questions fréquentes associées** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
 
 ---
 
@@ -52,17 +52,15 @@ Pour filtrer les clients par nom ou adresse e-mail, procédez comme suit :
 1. Sélectionnez l'icône de recherche pour filtrer les enregistrements de client.
 1. Pour revenir à la liste clients complète et non filtrée, supprimez tout le texte contenu dans le champ **Rechercher par nom ou email**, puis sélectionnez l'icône de recherche <InlineImage width="17" height="17">![Icône Rechercher](../images/061-search.png)</InlineImage>.
 
-Pour afficher les détails complets d'un client, cliquez sur le nom de celui-ci. Pour voir tous les logs concernant les clients de la liste, cliquez sur **Voir les logs**. Pour plus d'informations, voir [Logs](/docs/donnees#logs).
+Pour afficher les détails complets d'un client, cliquez sur le nom de celui-ci. Pour voir les logs complets de toutes les requêtes liées à la liste de clients, cliquez sur **Voir les logs**.
 
 Pour créer, modifier ou supprimer une liste de clients, voir [Listes de clients](/docs/listes-clients/).
 
 ## Catalogues
 
-La page **CATALOGUES** affiche les produits inclus dans le catalogue sélectionné.
+À partir de la page **CATALOGUES**, vous pouvez afficher les catalogues présents dans HubRise et les logs des requêtes liées à chacun des catalogues.
 
-Les applications connectées qui ont accès à votre catalogue HubRise peuvent télécharger ou modifier les catalogues. Un logiciel de caisse connecté peut par exemple pousser son catalogue de produits dans HubRise pour qu'un site internet d'e-commerce puisse l'utiliser.
-
-À partir de la page CATALOGUES, vous pouvez afficher les catalogues présents dans HubRise et les logs des requêtes liées à chacun des catalogues.
+Les applications connectées qui ont accès à votre catalogue HubRise peuvent télécharger ou modifier les catalogues. Un logiciel de caisse connecté peut par exemple pousser son catalogue de produits dans HubRise pour qu'un site internet d'e-commerce puisse l'utiliser. Si nécessaire, vous pouvez aussi éditer le catalogue dans Catalog Manager, une application gratuite disponible sur HubRise.
 
 ### Afficher le catalogue
 
@@ -89,7 +87,7 @@ Pour les promotions et les remises, les attributs suivants s'affichent :
 - **NOM** : intitulé de la promotion ou de la remise.
 - **CODE REF** : identifiant unique de la promotion ou de la remise provenant du système de gestion du produit source.
 
-Pour voir les logs complets de toutes les requêtes liées aux catalogues, cliquez sur **Voir les logs**. Pour plus d'informations, voir [Logs](/docs/donnees#logs).
+Pour voir les logs complets de toutes les requêtes liées au catalogue, cliquez sur **Voir les logs**. Pour plus d'informations, voir [Logs](/docs/donnees#logs).
 
 Pour créer, modifier ou supprimer un catalogue, voir [Catalogues](/docs/catalogues/).
 
@@ -99,7 +97,7 @@ Chaque page de la section **DONNÉES** fournit des informations complémentaires
 
 Les logs enregistrent les requêtes de connexion adressées à HubRise par une application. Chaque requête constitue une transaction entre une application et HubRise, telle qu'une commande, l'inscription d'un nouveau client ou une mise à jour du catalogue.
 
-La page de logs affiche une liste récapitulative des requêtes par ordre chronologique inverse. Lorsque vous ouvrez une commande dans la page **COMMANDES**, ou que vous sélectionnez l'option **Voir les logs** sur les pages **CLIENTS** ou **CATALOGUES**, les informations suivantes s'affichent :
+La page de logs affiche une liste récapitulative des requêtes par ordre chronologique inverse. Lorsque vous ouvrez une commande dans la page **COMMANDES**, que vous sélectionnez un log sur la page **CLIENTS**, ou cliquez sur **Voir les logs** sur la page **CATALOGUES**, les informations suivantes s'affichent :
 
 - **HEURE (UTC+02:00)** : date et heure de la requête au format UTC.
 - **ORIGINE** : application à partir de laquelle la requête a été créée.
