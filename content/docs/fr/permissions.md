@@ -14,7 +14,7 @@ Les permissions sont un moyen de contrôler les actions que les utilisateurs peu
 Deux types de rôles sont pris en charge dans HubRise : les administrateurs et les managers.
 
 - Les **Admins** ont accès à tous les domaines de HubRise, y compris les factures. Ils sont responsables du maintien à jour des informations relatives aux paiements. Ils reçoivent des factures par e-mail lorsqu'un paiement est effectué, ou des notifications concernant les paiements en attente dans HubRise. Ils peuvent également octroyer l'accès à d'autres utilisateurs et déconnecter des applications de HubRise.
-- Les **Managers** ont accès à tous les domaines, à l'exception des factures de HubRise. Ils ne reçoivent pas d'e-mails de notification concernant les paiements en souffrance dans HubRise. Ils peuvent connecter des applications à HubRise, mais ne peuvent pas les déconnecter.
+- Les **Managers** ont accès à tous les domaines, à l'exception des factures de HubRise. Ils ne reçoivent pas d'e-mails de notification concernant les paiements en attente dans HubRise. Ils peuvent connecter des applications à HubRise, mais ne peuvent pas les déconnecter.
 
 Vous pouvez également consulter et modifier vos propres permissions à partir de votre profil utilisateur. Pour plus d'informations, voir [Profil et mot de passe](/docs/profil-mot-de-passe/).
 

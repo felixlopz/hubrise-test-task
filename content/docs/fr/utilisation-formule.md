@@ -1,9 +1,9 @@
 ---
-title: Utilisation et formule
+title: Utilisation et formules
 position: 9
 layout: documentation
 meta:
-  title: Utilisation et formule | HubRise
+  title: Utilisation et formules | HubRise
   description: Comment gérer l'utilisation et les formules sur HubRise.
 ---
 
@@ -36,9 +36,9 @@ Pendant la phase de test qui précède le lancement, vous pouvez demander à sou
 
 En cas de problème rencontré avec une formule, les utilisateurs qui disposent d'une permission de niveau Administrateur pour le compte ou le point de vente concerné reçoivent un e-mail. Une notification s'affiche également lorsqu'ils se connectent à HubRise.
 
-Les notifications émises dans le back-office de HubRise peuvent être affichées pour n'importe quel motif impliquant des paiements ou des problèmes liés aux formules. C'est par exemple le cas lorsque :
+Des notifications peuvent être affichées dans le back-office de HubRise pour tout motif impliquant des paiements ou des problèmes liés aux formules. C'est par exemple le cas lorsque :
 
-- Un point de vente a dépassé ses limites de transactions gratuites alors qu'aucune méthode paiement n'est enregistré dans HubRise.
+- Un point de vente a dépassé ses limites de transactions gratuites alors qu'aucune méthode de paiement n'est enregistré dans HubRise.
 - La carte de crédit a expiré et vous devez la mettre à jour.
 - Le traitement de la carte de crédit a échoué après plusieurs tentatives de paiement automatisé. Pour des raisons de sécurité, il se peut que votre banque vous demande de saisir à nouveau le code de sécurité à 3 chiffres.
 - La carte de crédit a été enregistrée pour les paiements dans HubRise mais les devis en cours n'ont pas été réglés. Pour plus d'informations, voir la rubrique [Traiter les devis en attente](/docs/paiement#traiter-les-devis-en-attente).
