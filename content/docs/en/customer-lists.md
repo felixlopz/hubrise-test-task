@@ -12,7 +12,7 @@ The **Customer lists** section in the **SETTINGS** page allows you to add, edit,
 Customer Lists can be added to Accounts and Locations with the following conditions:
 
 - By default, Accounts define one Customer list named after the Account. Locations do not have a Customer list defined by default.
-- An Account **must** have at least one Customer list. If you attempt to delete the last Customer list of an Account, an error notification will be displayed.
+- An Account must have at least one Customer list. If you attempt to delete the last Customer list of an Account, an error notification will be displayed.
 - You can create as many Customer lists as you need. For example:
   - You can create a test Customer list to be used without impacting production.
   - You can create a Customer list for a Location that have different Customers than other Locations.
