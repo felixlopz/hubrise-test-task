@@ -51,7 +51,7 @@ Catalogs can be renamed to reflect special needs, such as labeling a Catalog for
 To change the name of a Catalog:
 
 1. Select **SETTINGS**.
-2. In the **Catalogs** section, click the edit icon <InlineImage width="15" height="15">![Edit Icon](../images/028-en-pen-icon.png)</InlineImage> for the catalog to edit.
+2. In the **Catalogs** section, click the edit icon <InlineImage width="15" height="15">![Edit Icon](../images/028-pen-icon.png)</InlineImage> for the catalog to edit.
 3. Enter the new name for the Catalog.
 4. Click **Update** to save the new settings.
 

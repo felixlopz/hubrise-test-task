@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Get Started | HubRise
-  description: Instructions on starting with LivePepper and HubRise connection.
+  description: Instructions on how to get started with HubRise. Create a user profile and an account on HubRise. Set your preferences and get familiar with the platform.
 ---
 
 You can access HubRise from a web browser on any device: your desktop, tablet, or smartphone.
