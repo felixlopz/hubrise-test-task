@@ -107,7 +107,7 @@ Pour traiter un paiement à partir de la notification, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : [Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?](/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/), [Mon quota est dépassé et je n'ai qu'un seul point de vente. Comment effectuer le paiement ?](/docs/faqs/quota-exceeded-one-location-how-do-i-pay/), [Mon quota est dépassé et j'ai plusieurs points de vente associés à des modes de paiement différents. Comment effectuer le paiement ?](/docs/faqs/quota-exceeded-multiple-locations-with-different-payment-methods-how-do-i-pay/), [Ma formule peut-elle être interrompu durant les phases de configuration et de test ?](/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/)
+**Questions fréquentes associées** : [Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?](/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/), [Comment payer ma première facture ?](/docs/faqs/payer-la-premiere-facture/), [Ma formule peut-elle être interrompue durant les phases de configuration et de test ?](/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/)
 
 ---
 
@@ -126,7 +126,7 @@ L'historique de paiement relatif aux comptes regroupe les paiements au niveau du
 
 ![Exemple d'historique de paiement](../images/044-fr-2x-payment-history.png)
 
-La première fois que vous effectuez un paiement, celui-ci est indiqué en tant que Changement de formule. Par la suite, les paiements seront répertoriés selon la date de la [période de facturation](docs/payment#billing-cycles). Une fois que vous avez enregistré une méthode de paiement valide, les paiements sont automatisés.
+La première fois que vous effectuez un paiement, celui-ci est indiqué en tant que **Changement de formule**. Par la suite, les paiements seront répertoriés selon la date de la [période de facturation](docs/payment#billing-cycles). Une fois que vous avez enregistré une méthode de paiement valide, les paiements sont automatisés.
 
 Le détail de chaque facture est consultable directement sur le back-office de HubRise en cliquant sur la date. Pour chaque paiement, les informations suivantes sont indiquées :
 

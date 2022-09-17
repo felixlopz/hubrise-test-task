@@ -52,7 +52,7 @@ Pour afficher un graphique montrant le nombre de transactions enregistrées au c
 
 ---
 
-**Questions fréquentes associées** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise)
+**Questions fréquentes associées** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
 
 ---
 
@@ -68,7 +68,7 @@ Les logs enregistrent les requêtes de connexion adressées à HubRise par une a
 
 ### Informations générales
 
-En haut de la page Logs de connexion figurent des informations générales relatives à la connexion :
+En haut de la page **Logs de connexion** figurent des informations générales relatives à la connexion :
 
 - **Jeton d'accès** : jeton utilisé par l'application pour s'authentifier sur HubRise.
 - **Portée** : permissions de connexion, par exemple le fait que la connexion accède au compte ou à un point de vente unique, l'accès en lecture/écriture défini sur les données, etc.
@@ -97,13 +97,13 @@ Chaque entrée comprend les informations suivantes :
 - **URL** : adresse URL d'accès à la requête.
 - **RÉPONSE** : code de réponse HTTP.
 
-Vous pouvez afficher des détails supplémentaires en cliquant sur un log, notamment le contenu de la requête et de la réponse correspondante. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
+Vous pouvez afficher des détails supplémentaires en cliquant sur un log, notamment le contenu de la requête et de la réponse correspondante. Pour télécharger le contenu de la requête ou de la réponse, sélectionnez l'icône de téléchargement. <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
 
 Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
 
 ---
 
-**Questions fréquentes associées** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
+**Questions fréquentes associées**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
 
 ---
 
