@@ -34,7 +34,7 @@ Pour une description détaillée des paramètres de l'interface, consultez la pa
 
 Le fonctionnement d'HubRise nécessite que le serveur HubRise soit démarré sur le même ordinateur que LEO2.
 
-Pour faciliter l'accès au serveur HubRise, créez  un raccourci sur le bureau de votre ordinateur en suivant les étapes suivantes :
+Pour faciliter le démarrage du serveur HubRise, vous pouvez créer  un raccourci sur le bureau de votre ordinateur en suivant les étapes suivantes :
 
 1. Ouvrez le dossier d'installation de LEO2.
 1. Cliquez avec le bouton droit sur l'exécutable **LEO250.exe**.
