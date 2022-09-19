@@ -13,10 +13,10 @@ For a full list of compatible apps, see our [Apps page](/apps).
 
 ## Comparison between Deliverect and HubRise
 
-HubRise works mostly the same way as Deliverect:
+HubRise is an alternative to Deliverect which allows you to:
 
-- Receive all orders from multiple channels into one User Interface.
-- Edit all online ordering channels menus from the same User Interface.
+- Receive orders from multiple channels (Uber Eats, Deliveroo, your own website...) into your EPOS.
+- Edit and synchronise all your online ordering menus from your EPOS user interface.
 
 HubRise offers a [competitive pricing](/pricing), with no setup fees and no commitment.
 
