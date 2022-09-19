@@ -11,7 +11,7 @@ gallery:
 path_override: /
 app_info:
   category: Food Ordering Platforms
-  availability: Australia with Menulog, Canada with Skip The Dishes, Ireland, Italy, Spain, United Kingdom
+  availability: Australia (Menulog), Canada (Skip The Dishes), Ireland, Italy, Spain, United Kingdom
   website: https://just-eat.co.uk
   contact:
 ---
@@ -45,13 +45,12 @@ Flyt is a more capable integration platform than the legacy Just Eat Takeaway in
 
 Connecting Just Eat Flyt Bridge allows you to:
 
-- Pull orders from Just Eat, including order status. 
-- Pull customer information from Just Eat, for orders delivered by the restaurant. 
+- Pull orders from Just Eat, including order status.
+- Pull customer information from Just Eat, for orders delivered by the restaurant.
 - Push a catalog into Just Eat.
 - Synchronise inventory with HubRise.
 
-
-  ![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](../images/000-en-2x-just-eat-connection-diagram.png)
+![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](../images/000-en-2x-just-eat-connection-diagram.png)
 
 ---
 
