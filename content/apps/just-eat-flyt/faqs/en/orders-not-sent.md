@@ -7,7 +7,11 @@ meta:
   description: This page explains why Just Eat orders are not being sent to HubRise and how to fix the issue.
 ---
 
-If Just Eat Flyt Bridge is configured and you are not receiving orders, you can check the following.
+If Just Eat Flyt Bridge is configured and you are not receiving orders, here are the most common reasons.
+
+### Menu not Pushed
+
+If you have not pushed your menu to Just Eat, you will not receive any orders. For more information on how to push your menu, see [Push the Catalog](/apps/just-eat-flyt/push-catalog).
 
 ### OrderPad not Switched on
 
@@ -15,9 +19,11 @@ The Just Eat OrderPad needs to remain switched on to receive orders in HubRise. 
 
 ### Orders not Accepted
 
-On Just Eat Flyt markets, you can accept orders manually or activate auto-accept for orders to be automatically sent to HubRise. For more information, see [Do I Want Auto-Accept Activated?](/apps/just-eat-flyt/faqs/auto-accept/).
+Orders must either be accepted manually in the OrderPad, or auto-accepted for them to be sent to HubRise. For more information, see [Do I Want Auto-Accept Activated?](/apps/just-eat-flyt/faqs/auto-accept/).
 
-For some markets under the Takeaway.com tech stack, orders also need to be sent to the kitchen before they are sent to HubRise. This applies to the following markets:
+### Orders not Sent to Kitchen
+
+For markets under the Takeaway.com tech stack, orders need to be sent to the kitchen before they are sent to HubRise. This applies to the following markets:
 
 - Just-Eat.fr
 - Takeaway.com (Belgium, Luxembourg, Portugual, Bulgaria, Romania)
