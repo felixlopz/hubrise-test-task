@@ -10,4 +10,4 @@ meta:
 - <Link to="/apps/just-eat-flyt/faqs/turn-off-orderpad/">Can I Turn Off the Orderpad?</Link>
 - <Link to="/apps/just-eat-flyt/faqs/auto-accept/">Do I Want Auto-Accept Activated on Just Eat?</Link>
 - <Link to="/apps/just-eat-flyt/faqs/orders-not-sent/">Why Are Some Orders Not Sent to HubRise?</Link>
-- <Link to="/apps/just-eat-flyt/faqs/products-not-exported/">Why Are Some Products Not Exported To Just Eat?</Link>
+- <Link to="/apps/just-eat-flyt/faqs/products-not-pushed/">Why Are Some Products Not Exported To Just Eat?</Link>
