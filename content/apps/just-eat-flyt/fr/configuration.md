@@ -36,7 +36,7 @@ Dans cette section, vous pouvez spécifier les codes ref relatifs aux frais suiv
 - Frais de livraison
 - Frais de service
 - Frais d'emballage
-- Pourboires de chauffeur
+- Pourboire pour le livreur
 - Autres frais
 
 ### Paiements
@@ -49,7 +49,7 @@ Cette section de la page de configuration permet de spécifier les codes ref pou
 
 ![Page de configuration de Just Eat Flyt Bridge, section Catalogue](../images/012-fr-just-eat-configuration-page-menu.png)
 
-Cette section vous permet d'inclure votre catalogue HubRise dans Just Eat chaque fois que vous actualisez le catalogue HubRise. Par défaut, cette option est désactivée.
+Cette section vous permet de pousser votre catalogue HubRise dans Just Eat chaque fois que vous actualisez le catalogue HubRise. Par défaut, cette option est désactivée.
 
 ### Heures d'ouverture
 

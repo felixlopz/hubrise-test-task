@@ -15,14 +15,14 @@ La connexion de Just Eat à HubRise s'effectue en quelques étapes simples.
 
 ---
 
-## 1\. Activez l'intégration de l'API
+## 1. Activez l'intégration de l'API
 
 Dans un premier temps, l'intégration de HubRise à l'API Flyt doit être activée sur votre compte Just Eat.
 
 Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubrise.com) en précisant les informations suivantes :
 
 - Le lien URL renvoyant à la page de votre restaurant sur le site internet de Just Eat. Exemple : [https://www.just-eat.fr/menu/asian-lover](https://www.just-eat.fr/menu/asian-lover).
-- Indiquez si l'acceptation automatique doit être `activée` ou `désactivée`. Pour plus de détails, consultez notre [Questions fréquentes](/apps/just-eat-flyt/questions-frequentes/auto-accept).
+- Indiquez si l'acceptation automatique doit être `activée` ou `désactivée`. Pour plus de détails, consultez nos [Questions fréquentes](/apps/just-eat-flyt/questions-frequentes/auto-accept).
 - L'adresse e-mail de votre responsable de compte Just Eat.
 - Indiquez si votre enseigne sur le site internet de Just Eat est déjà connectée à une caisse ou un autre middleware.
 - Les différents types de service que vous prenez en charge sur Just Eat : livraison via la plateforme, livraison par le restaurant, vente à emporter. Pour plus d'informations, voir la rubrique [Types de service](/apps/just-eat-flyt/terminologie#types-de-service).
@@ -30,11 +30,11 @@ Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubr
 
 Avec ces informations, HubRise pourra demander à l'équipe d'intégration de Flyt d'activer l'intégration faite par HubRise à l'API Flyt pour votre enseigne. Une fois cette opération terminée, l'équipe de Flyt fournira les informations d'identification nécessaires pour vous connecter.
 
-## 2\. Connectez le Bridge
+## 2. Connectez le Bridge
 
 ---
 
-**REMARQUE IMPORTANTE :** Just Eat Flyt Bridge se connecte à HubRise au niveau du point de vente. Pour plus d'informations, voir la page [Points de vente (en anglais)](/docs/locations/).
+**REMARQUE IMPORTANTE :** Just Eat Flyt Bridge se connecte à HubRise au niveau du point de vente. Pour plus d'informations, voir la page [Points de vente](/docs/points-de-vente/).
 
 ---
 
@@ -53,14 +53,14 @@ Pour connecter Just Eat Flyt Bridge à HubRise, procédez comme suit :
 
 ![Page d'informations d'identification pour Just Eat Flyt Bridge](../images/001-fr-just-eat-credentials.png)
 
-## 3\. Configurez vos préférences
+## 3. Configurez vos préférences
 
 Une fois la connexion effectuée, vous devez renseigner quelques paramètres sur la page Configuration afin que les commandes soient transmises correctement à votre logiciel de caisse.
 
 Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Interface utilisateur](/apps/just-eat-flyt/interface-utilisateur#page-de-configuration). Pour plus de détails sur la configuration des paramètres de Just Eat Flyt Bridge, voir la rubrique [Configuration](/apps/just-eat-flyt/configuration).
 
-## 4\. Chargez votre menu
+## 4. Chargez votre menu
 
 Pour que l'intégration de Just Eat Flyt soit activée, vous devez charger votre catalogue HubRise dans Just Eat Flyt.
 
-Pour savoir comment charger votre catalogue HubRise dans Just Eat, voir la rubrique [Envoi du catalogue](/apps/just-eat-flyt/envoi-catalogue#envoi-du-catalogue). Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalog/).
+Pour savoir comment charger votre catalogue HubRise dans Just Eat, voir la rubrique [Envoi du catalogue](/apps/just-eat-flyt/envoi-catalogue#envoi-du-catalogue). Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalogues/).

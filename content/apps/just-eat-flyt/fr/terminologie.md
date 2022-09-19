@@ -27,7 +27,7 @@ HubRise et Just Eat Flyt utilisent chacun leur propre terminologie. Un même con
 
 ## Types de service
 
-Just eat Flyt propose trois types de service à ses clients.
+Just Eat Flyt propose trois types de service à ses clients.
 
 - **Livraison via la plateforme** : la plateforme (Just Eat, MenuLog ou SkipTheDishes) dépêche un chauffeur afin de récupérer la commande auprès du restaurant. Option disponible dans un nombre limité de marchés et de villes.
 - **Livraison par le restaurant** : c'est l'établissement qui est responsable de la livraison de la commande.

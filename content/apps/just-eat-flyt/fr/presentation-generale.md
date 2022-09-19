@@ -13,12 +13,6 @@ app_info:
   contact:
 ---
 
----
-
-**REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/just-eat-flyt" addLocalePrefix={false}>en anglais uniquement</Link>.
-
----
-
 ## Description
 
 Just Eat est une plateforme de commande et de livraison de repas en ligne destinée aux restaurants et aux commerces de proximité. Les clients peuvent commander des plats sur internet ou via une application mobile. Le siège de Just Eat est situé au Royaume-Uni, mais l'entreprise est présente dans 13 pays différents situés en Europe, en Asie, en Amérique et en Océanie.

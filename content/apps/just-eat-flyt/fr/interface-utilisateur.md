@@ -43,7 +43,7 @@ Cliquez sur une requête pour la développer et révéler le détail des échang
 
 ![Page de commande sur Just Eat Flyt Bridge](../images/004-fr-just-eat-order-logs.png)
 
-Les requêtes d'API sont un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise ](/docs/hubrise-logs/).
+Les requêtes d'API sont un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise](/docs/hubrise-logs/).
 
 ## Page de requête système
 

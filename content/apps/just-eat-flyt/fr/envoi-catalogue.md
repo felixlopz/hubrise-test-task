@@ -79,7 +79,7 @@ Pour plus d'informations sur les références contenues dans les catalogues HubR
 
 ---
 
-**REMARQUE IMPORTANTE :** les produits sans code ref ne sont pas envoyés dans Just Eat. Pour plus d'informations, voir la rubrique [Pourquoi certains produits ne sont pas envoyés](/apps/just-eat-flyt/faqs/produits-non-exportes/).
+**REMARQUE IMPORTANTE :** les produits sans code ref ne sont pas envoyés dans Just Eat. Pour plus d'informations, voir la rubrique [Pourquoi certains produits ne sont pas envoyés](/apps/just-eat-flyt/questions-frequentes/produits-non-envoyes/).
 
 ---
 

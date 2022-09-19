@@ -46,9 +46,9 @@ Just Eat Bridge ne modifie pas le statut des commandes dans HubRise.
 
 Just Eat prend en charge trois types de service :
 
-- Livraison par coursier Just Eat
-- Livraison par la flotte de livreurs du restaurant
-- Retrait par les clients
+- Livraison par coursier Just Eat.
+- Livraison par les livreurs du restaurant.
+- Retrait par les clients.
 
 Ces types de service sont généralement associés à des codes ref spécifiques dans votre logiciel de caisse, que vous pouvez définir sur la page de configuration du Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre logiciel de caisse sur notre [page d'Apps](/apps).
 
@@ -68,7 +68,7 @@ Les remises ne sont pas prises en charge dans Just Eat et aucune information n'e
 
 Just Eat Flyt Bridge encode deux types de frais : les frais de livraison et les frais de service supplémentaires.
 
----
+**---**
 
 ## Références techniques
 
@@ -85,7 +85,7 @@ Pour chaque article inclus dans la commande, Just Eat Flyt Bridge indique les in
 - `sku_ref` : code ref de l'article.
 - `product_name` : nom du produit.
 - `price` : prix d'un article unique.
-- `quantity` : quantité d'articles incluse dans la commande.
+- `quantity` : quantité d'articles inclus dans la commande.
 - `options` : sélection des options rattachées à l'article.
 
 ### Encodage des options

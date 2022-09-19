@@ -7,7 +7,7 @@ meta:
   description: Cette page explique la fonction d'auto-acceptation de Just Eat lors de la connexion de HubRise à Just Eat Flyt Bridge.
 ---
 
-Si vous ne souhaitez pas la tablette Just Eat, demandez l'activation de l'auto-acceptation. Lorsque l'auto-acceptation est activée, les commandes sont envoyées directement par HubRise à votre logiciel de caisse connecté, ce qui vous dispense d'avoir à accepter chaque commande manuellement sur votre tablette.
+Si vous ne souhaitez pas utiliser la tablette Just Eat, demandez l'activation de l'auto-acceptation. Lorsque l'auto-acceptation est activée, les commandes sont envoyées directement par HubRise à votre logiciel de caisse connecté, ce qui vous dispense d'avoir à accepter chaque commande manuellement sur votre tablette.
 
 Compte tenu du risque que certaines commandes soient manquées, Just Eat ne recommande pas d'activer l'auto-acceptation.
 
