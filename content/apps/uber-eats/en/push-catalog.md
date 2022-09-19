@@ -15,10 +15,9 @@ This page explains how to push your catalog, and what information is sent to Ube
 
 ## Populate a HubRise Catalog
 
-To be able to update your menu in Uber Eats, you should populate a HubRise catalog first. 
+To be able to update your menu in Uber Eats, you should populate a HubRise catalog first.
 
-Many apps connected with HubRise, including EPOS solutions, offer the ability to export their catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
-You can also create a catalog from scratch using HubRise Catalog Manager, an app included in your HubRise subscription. 
+Many apps connected with HubRise, including EPOS solutions, offer the ability to export their catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify. You can also create a catalog from scratch using Catalog Manager, an app included in your HubRise subscription.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -34,11 +33,11 @@ Once your catalog is populated on HubRise, you can push it to your Uber Eats sto
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog to Uber Eats will erase the menu on your Uber Eats store. It will also update your Uber Eats **Opening hours** and **Customer notes** settings as defined in the Uber Eats Bridge **Configuration** page. This action cannot be reverted. 
+**IMPORTANT NOTE:** Pushing your HubRise catalog to Uber Eats will erase the menu on your Uber Eats store. It will also update your Uber Eats **Opening hours** and **Customer notes** settings as defined in the Uber Eats Bridge **Configuration** page. This action cannot be reverted.
 
 ---
 
-You can automate the catalog push into Uber Eats every time it is updated in HubRise. For more information, see the configuration of the [Automatic Catalog Push](/apps/uber-eats/configuration#automatic-catalog-push).
+You can automate the catalog push into Uber Eats every time it is updated in HubRise. For more information, see [Automatic Catalog Push](/apps/uber-eats/configuration#automatic-catalog-push).
 
 ## Information Sent to Uber Eats
 

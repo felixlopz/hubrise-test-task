@@ -30,13 +30,11 @@ This is useful if you have specific business requirements for financial reportin
 
 ### Special Items
 
-**Disposable items ref code** is the ref code that is used when customers include disposable items in their orders.
-
-Uber Eats activates by default a check box in the Uber Eats checkout flow for costumers of the platform to **Request utensils, straws, etc.** You can ask Uber Eats to disable this functionality but if you have it enabled, you need to provide a ref code. Create a "Disposable items" product in your EPOS, and use that ref code here.
-
-The following screenshot shows the **Request utensils, straws, etc.** checkbox that customers can use to request disposable items.
+By default, Uber Eats activates a checkbox in the checkout flow for costumers to **Request utensils, straws, etc.**, as shown in the screenshot below.
 
 ![Disposable items checkbox in Uber Eats checkout](../images/009-en-disposable-items.png)
+
+You can request Uber Eats to disable this functionality. But if you prefer to keep it, create a "Disposable items" product in your EPOS, and use its ref code in the **Disposable items ref code** field.
 
 ### Discounts
 
@@ -66,7 +64,7 @@ Select from the dropdown menu the HubRise status which should make the order acc
 
 ### Automatic Catalog Push
 
-In this section, choose if you want to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option it turned off. Tick **Publish the menu on Uber Eats when it is updated in HubRise** to enable it.
+Tick **Publish the menu on Uber Eats when it is updated in HubRise** to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option it turned off.
 
 ### Opening Hours
 
@@ -79,12 +77,11 @@ To quickly copy opening hours to all the following days on the list, click **Cop
 
 ### Customer Notes
 
-Select if you want to enable customer notes for individual products on the Uber Eats platform.
-If you enable this option, make sure that your connected EPOS supports product level customer notes.
+Select if you want to enable customer notes for individual products in Uber Eats. If you enable this option, make sure that your connected EPOS supports product level customer notes.
 
 ---
 
-**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, push your catalog to Uber Eats. The configuration on this page will overwrite the current configuration on the Uber Eats platform. For more details, see [Push the Catalog](/apps/uber-eats/push-catalog). 
+**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, push your catalog to Uber Eats. For more details, see [Push the Catalog](/apps/uber-eats/push-catalog).
 
 ---
 

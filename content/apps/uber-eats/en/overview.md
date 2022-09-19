@@ -30,7 +30,7 @@ Connecting Uber Eats Bridge allows HubRise to:
 - Pull orders from Uber Eats, including order status.
 - Pull customer information from Uber Eats, for orders delivered by the restaurant.
 - Push a catalog into Uber Eats.
-- Pull the menu into a HubRise catalog, including inventory.
+- Pull your Uber Eats menu into a HubRise catalog.
 - Synchronise inventory with HubRise.
 
 ![Diagram of the connection flow between Uber Eats, Uber Eats Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
