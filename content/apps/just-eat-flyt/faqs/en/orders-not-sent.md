@@ -7,9 +7,7 @@ meta:
   description: This page explains why Just Eat orders are not being sent to HubRise and how to fix the issue.
 ---
 
-If Just Eat Flyt Bridge is connected and your HubRise catalog is pushed into your Just Eat store, it could happen that orders are not being sent to HubRise.
-
-On this page, we discuss the most common reasons for this issue and how to fix it.
+If Just Eat Flyt Bridge is configured and you are not receiving orders, you can check the following.
 
 ### OrderPad not Switched on
 
