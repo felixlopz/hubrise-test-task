@@ -36,4 +36,3 @@ Je viens de créer votre compte HubRise. Pour vous connecter :
 Cordialement, [Votre nom]
 
 ---
-

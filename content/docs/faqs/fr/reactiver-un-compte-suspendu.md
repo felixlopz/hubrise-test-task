@@ -37,7 +37,7 @@ Pour régler la demande de paiement en suspens après avoir configuré le mode d
 
 ---
 
-Pour plus d'informations sur les formules d'utilisation de HubRise, voir la rubrique [Utilisation](/docs/utilisation-formule/).
+Pour plus d'informations sur les formules d'utilisation de HubRise, voir la rubrique [Utilisation et formule](/docs/utilisation-formule/).
 
 ## Rétablir le service
 
