@@ -35,7 +35,7 @@ Pour connecter votre logiciel de caisse LEO2 à HubRise, suivez les étapes suiv
 1. Cochez la case **Lancement automatique du serveur HubRise**.
 1. Cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel LEO2 peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/leo2/connexion-hubrise#donner-acc-s-au-support-de-leo2).
-1. Pour pouvoir redémarrer facilement le serveur d'HubRise, nous vous recommandons de [créer un raccourci sur votre bureau](/apps/leo2/interface-utilisateur#cr-er-un-raccourci-sur-le-bureau).
+1. Pour pouvoir redémarrer facilement le serveur d'HubRise, nous vous recommandons de [créer un raccourci sur votre bureau](/apps/leo2/connexion-hubrise#cr-er-un-raccourci-sur-le-bureau).
 
 ## Donner accès au support de LEO2
 
@@ -45,6 +45,21 @@ Il est conseillé de donner à l'éditeur du logiciel LEO2 l'accès à votre com
 1. Sélectionnez le compte auquel votre point de vente est rattaché.
 1. Dans la section **Points de vente**, sélectionnez votre point de vente.
 1. Dans la section **Permissions**, ajoutez *atoo@atoosarl.fr* en sélectionnant l'option **Manager** (et non **Admin**) dans la liste déroulante des rôles, puis cliquez sur l'icône _+_. L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente, le partage de mot de passe étant déconseillé pour des raisons de sécurité.
+
+## Créer un raccourci sur le bureau
+
+Le fonctionnement d'HubRise nécessite que le serveur HubRise soit démarré sur le même ordinateur que LEO2.
+
+Pour faciliter le démarrage du serveur HubRise, vous pouvez créer un raccourci sur le bureau de votre ordinateur en suivant les étapes suivantes :
+
+1. Ouvrez le dossier d'installation de LEO2.
+1. Cliquez avec le bouton droit sur l'exécutable **LEO250.exe**.
+1. Sélectionnez **Envoyer vers** > **Bureau (créer un raccourci)**.
+1. Une fois le raccourci créé, cliquez avec le bouton droit sur le raccourci
+1. Sélectionnez **Propriétés**.
+1. Dans l'onglet **Raccourci**, ajoutez **SERVEUR_HUBRISE** à la fin de la ligne **Cible**, en laisant un espace. Par exemple, si la ligne **Cible** est `C:\atoo_leo250\LEO250.exe`, elle deviendra:
+   `C:\atoo_leo250\LEO250.exe SERVEUR_HUBRISE`.
+1. Cliquez sur **OK**.
 
 ## Déconnecter LEO2
 

@@ -87,6 +87,14 @@ Les promotions dans HubRise correspondent aux menus dans LEO2. Les lignes de pro
 1. Pour voir les produits associés à chaque choix de menu, cliquez sur l'onglet du choix correspondant.
    ![Associer les codes ref - Consulter les choix de menu](../images/016-fr-leo2-choix-menu.png)
 
+## Remises
+
+Les remises sont appliquées par LEO2 sans tenir compte des codes ref. Il n'est donc pas nécessaire de les associer.
+
+## Frais
+
+Les frais de livraison ou de service doivent être créés comme des produits dans LEO2. Pour trouver le code ref des frais, procédez comme pour les [produits](#produits). 
+
 ## Méthodes de paiement
 
 Les méthodes de paiement dans HubRise correspondent aux modes de règlement dans LEO2. Pour retrouver leur code ref, suivez les étapes suivantes :

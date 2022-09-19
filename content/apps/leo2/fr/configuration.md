@@ -7,17 +7,24 @@ meta:
   description: Configurer votre connexion HubRise depuis la page de configuration LEO2. HubRise vous permet de synchroniser vos commandes, clients et produits entre LEO2 et les logiciels de votre choix.
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Toute modification de la configuration nécessite le redémarrage du serveur HubRise pour être prise en compte. Pour redémarrer le serveur, double-cliquez sur le raccourci vers le serveur, créé en suivant les étapes décrites dans la section [Créer un raccourci sur le bureau](/apps/leo2/interface-utilisateur/#cr-er-un-raccourci-sur-le-bureau).
+La page de paramétrage de l'interface HubRise permet de connecter LEO2 à HubRise et de personnaliser le fonctionnement de l'intégration. Après avoir modifié les paramètres, cliquez sur **Enregistrer** pour enregistrer les modifications.
 
 ---
 
-Pour consulter ou modifier la configuration de l'intégration, ouvrez la page de Paramétrage de l'interface de LEO2. Pour y accéder, voir la rubrique [Paramétrage de l'interface](/apps/leo2/interface-utilisateur/#param-trage-de-l-interface).
+**REMARQUE IMPORTANTE :** Toute modification de la configuration nécessite le redémarrage du serveur HubRise pour être prise en compte. Pour redémarrer le serveur, double-cliquez sur le raccourci vers le serveur, créé en suivant les étapes décrites dans la section [Créer un raccourci sur le bureau](/apps/leo2/connexion-hubrise/#cr-er-un-raccourci-sur-le-bureau).
 
-Cette page est divisée en plusieurs sections.
+---
+
+Pour accéder à la page de paramétrage de l'interface HubRise, suivez les étapes suivantes :
+
+1. Depuis l'écran d'accueil de LEO2, cliquez sur **Gestion**.
+1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
+1. Cliquez sur **Paramètres et Réglages**.
+1. Dans l'onglet **Généraux**, cliquez sur **HubRise**.
 
 ![Connexion - Paramètres HubRise](../images/017-fr-leo2-parametres-hubrise.png)
+
+Cette page est divisée en plusieurs sections.
 
 ## Connexion à HubRise
 
