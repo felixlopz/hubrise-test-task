@@ -28,6 +28,3 @@ content:
     - highlight: "Dark kitchen :"
       text: Des frais additionnels peuvent s'appliquer.
       button: Nous contacter
-  faq:
-    text: Voir notre F.A.Q. concernant l'abonnement
-    to: /faq#abonnement

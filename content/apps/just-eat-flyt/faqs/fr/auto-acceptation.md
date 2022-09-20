@@ -3,7 +3,7 @@ title: Dois-je activer l'auto-acceptation sur Just Eat ?
 position: 2
 layout: documentation
 meta:
-  title: Auto-accept | Questions fréquentes sur Just Eat Flyt | HubRise
+  title: Auto-accept | FAQs Just Eat Flyt | HubRise
   description: Cette page explique la fonction d'auto-acceptation de Just Eat lors de la connexion de HubRise à Just Eat Flyt Bridge.
 ---
 

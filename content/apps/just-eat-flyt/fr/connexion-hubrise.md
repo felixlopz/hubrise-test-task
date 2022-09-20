@@ -22,7 +22,7 @@ Dans un premier temps, l'intégration de HubRise à l'API Flyt doit être activ�
 Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubrise.com) en précisant les informations suivantes :
 
 - Le lien URL renvoyant à la page de votre restaurant sur le site internet de Just Eat. Exemple : [https://www.just-eat.fr/menu/asian-lover](https://www.just-eat.fr/menu/asian-lover).
-- Indiquez si l'acceptation automatique doit être `activée` ou `désactivée`. Pour plus de détails, consultez nos [Questions fréquentes](/apps/just-eat-flyt/faqs/auto-acceptation).
+- Indiquez si l'acceptation automatique doit être `activée` ou `désactivée`. Pour plus de détails, consultez [Dois-je activer l'auto-acceptation sur Just Eat ?](/apps/just-eat-flyt/faqs/auto-acceptation).
 - L'adresse e-mail de votre responsable de compte Just Eat.
 - Indiquez si votre enseigne sur le site internet de Just Eat est déjà connectée à une caisse ou un autre middleware.
 - Le nom et l'identifiant de votre point de vente HubRise. Exemple : `Sushi Shop Colbert z6q31-0`.
