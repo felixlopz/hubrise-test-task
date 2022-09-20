@@ -1,9 +1,9 @@
 ---
-title: F.A.Q.
+title: FAQ
 position: 7
 layout: documentation
 meta:
-  title: F.A.Q. | Kezia II | HubRise
+  title: FAQ | Kezia II | HubRise
   description: Questions fréquentes posées sur la connexion de Kezia II à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 

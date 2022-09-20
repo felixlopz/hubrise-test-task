@@ -1,9 +1,9 @@
 ---
-title: F.A.Q.
+title: FAQ
 position: 6
 layout: documentation
 meta:
-  title: F.A.Q. | Carré POS | HubRise
+  title: FAQ | Carré POS | HubRise
   description: Questions fréquentes posées sur la connexion de Carré POS à HubRise. Connectez vos applications à HubRise avec facilité et synchronisez vos données.
 ---
 
