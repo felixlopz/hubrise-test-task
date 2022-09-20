@@ -197,20 +197,22 @@ The available fields in the payloads are the following:
 Below is a sample payload for charges.
 
 ```json
-"charges": [
-  {
-    "type": "delivery",
-    "name": "Delivery charge",
-    "ref": "1111",
-    "price": "3.50 EUR"
-  },
-  {
-    "type": "other",
-    "name": "Service charge",
-    "ref": 2222,
-    "price": "0.50 EUR"
-  }
-]
+{
+  "charges": [
+    {
+      "type": "delivery",
+      "name": "Delivery charge",
+      "ref": "1111",
+      "price": "3.50 EUR"
+    },
+    {
+      "type": "other",
+      "name": "Service charge",
+      "ref": 2222,
+      "price": "0.50 EUR"
+    }
+  ]
+}
 ```
 
 </details>
