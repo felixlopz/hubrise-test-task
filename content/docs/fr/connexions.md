@@ -52,7 +52,7 @@ Pour afficher un graphique montrant le nombre de transactions enregistrées au c
 
 ---
 
-**FAQs associées** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
+**FAQ associée** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
 
 ---
 
@@ -103,7 +103,7 @@ Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/h
 
 ---
 
-**FAQs associées** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
+**FAQ associée** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
 
 ---
 

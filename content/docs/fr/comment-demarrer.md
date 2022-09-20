@@ -15,7 +15,7 @@ Pour commencer à utiliser HubRise, vous devez créer un profil utilisateur. L'i
 
 ---
 
-**FAQs associées** : Comment créer un profil utilisateur pour [quelqu'un d'autre](/docs/faqs/creer-profil-utilisateur-pour-une-autre-personne/) ou pour une [autre entreprise ?](/docs/faqs/creer-compte-pour-une-autre-entreprise/)
+**FAQ associée** : Comment créer un profil utilisateur pour [quelqu'un d'autre](/docs/faqs/creer-profil-utilisateur-pour-une-autre-personne/) ou pour une [autre entreprise ?](/docs/faqs/creer-compte-pour-une-autre-entreprise/)
 
 ---
 
@@ -69,7 +69,7 @@ Pour vous connecter à HubRise, consultez la [page de connexion à HubRise](http
 
 ---
 
-**FAQs associées** : [Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?](/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/)
+**FAQ associée** : [Comment vérifier si j'ai déjà un profil d'utilisateur dans HubRise ?](/docs/faqs/verifier-si-j-ai-deja-un-profil-utilisateur-dans-hubrise/)
 
 ---
 
