@@ -42,13 +42,16 @@ Flyt est un middleware permettant une intégration plus performante, avec davant
 
 La connexion avec Just Eat Flyt Bridge vous permet de :
 
-- Envoyer les commandes à HubRise, en incluant le statut des commandes. ![Schéma du flux de connexion entre Just Eat, Just Eat Flyt Bridge et HubRise pour la réception de commandes](../images/000-fr-2x-just-eat-connection-diagram.png)
-- Recevoir les informations de livraison dans HubRise, lorsque les commandes sont livrées par votre restaurant. ![Schéma du flux de connexion entre Just Eat, Just Eat Flyt Bridge et HubRise pour la gestion des informations de livraison](../images/009-fr-2x-just-eat-delivery-fleet-diagram.png)
-- Recevoir la carte des mets dans un catalogue HubRise et l'incorporer directement à votre magasin Just Eat. ![Schéma du flux de connexion entre Just Eat, Just Eat Flyt Bridge et HubRise pour l'extraction de la carte](../images/010-fr-2x-just-eat-menu-push-diagram.png)
+- Recevoir les commandes de Just Eat, y compris le statut de commande.
+- Recevoir les informations de livraison de Just Eat, pour les commandes livrées par le restaurant.
+- Envoyer un catalogue vers Just Eat.
+- Synchroniser l'inventaire avec HubRise.
+
+![Schéma du flux de connexion entre Just Eat, Just Eat Flyt Bridge et HubRise pour la réception de commandes](../images/000-fr-2x-just-eat-connection-diagram.png)
 
 ---
 
-**REMARQUE IMPORTANTE** : La tablette Just Eat doit rester allumée pour recevoir les commandes dans HubRise.
+**REMARQUE IMPORTANTE** : La tablette Just Eat doit rester allumée pour recevoir les commandes dans HubRise. Sur certains marchés, l'acceptation automatique peut être activée.  Pour plus d'informations, voir [Puis-je désactiver la tablette ?](/apps/just-eat-flyt/faqs/desactiver-tablette/).
 
 ---
 

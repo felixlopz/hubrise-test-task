@@ -7,7 +7,11 @@ meta:
   description: Découvrez le détail technique sur la réception des commandes Just Eat dans HubRise, y compris le temps de réponse, et les champs transmis ou non.
 ---
 
-La connexion de Just Eat à HubRise vous permet de recevoir les commandes Just Eat directement dans votre logiciel de caisse. Cette page décrit les informations reçues par HubRise en provenance de Just Eat pour vos commandes.
+La connexion de Just Eat à HubRise vous permet de recevoir les commandes Just Eat directement dans votre logiciel de caisse.
+
+L'OrderPad Just Eat doit rester allumé pour recevoir les commandes dans HubRise. Pour plus d'informations, voir [Puis-je désactiver la tablette ?](/apps/just-eat-flyt/faqs/desactiver-tablette/). Les commandes doivent être acceptées, soit manuellement depuis l'OrderPad, soit automatiquement sur certains marchés. Pour plus d'informations, voir [Dois-je activer l'auto-acceptation sur Just Eat ?](/apps/just-eat-flyt/faqs/auto-acceptation/)
+
+Cette page décrit les informations que Just Eat envoie à HubRise. Elle peut vous aider à comprendre comment les commandes seront reçues dans votre logiciel de caisse.
 
 ## Articles et options
 
@@ -50,7 +54,7 @@ Just Eat prend en charge trois types de service :
 - Livraison par les livreurs du restaurant.
 - Retrait par les clients.
 
-Ces types de service sont généralement associés à des codes ref spécifiques dans votre logiciel de caisse, que vous pouvez définir sur la page de configuration du Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre logiciel de caisse sur notre [page d'Apps](/apps).
+Ces types de service sont généralement associés à des codes ref spécifiques dans votre logiciel de caisse, que vous pouvez définir sur la page de configuration du Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre logiciel de caisse sur notre [page d'apps](/apps).
 
 ## Coordonnées client
 
@@ -68,9 +72,9 @@ Les remises ne sont pas prises en charge dans Just Eat et aucune information n'e
 
 Just Eat Flyt Bridge encode deux types de frais : les frais de livraison et les frais de service supplémentaires.
 
-**---**
+---
 
-## Références techniques
+## Référence technique
 
 Cette section décrit la manière dont les commandes sont encodées dans les requêtes JSON reçues en provenance de Just Eat Flyt Bridge.
 
@@ -192,20 +196,22 @@ Les champs disponibles dans les requêtes sont les suivants :
 Voici un exemple de requête pour les frais.
 
 ```json
-"charges": [
 {
-"type": "delivery",
-"name": "Delivery charge",
-"ref": "1111",
-"price": "3.50 EUR"
-},
-{
-"type": "other",
-"name": "Service charge",
-"ref": 2222,
-"price": "0.50 EUR"
+  "charges": [
+    {
+      "type": "delivery",
+      "name": "Delivery charge",
+      "ref": "1111",
+      "price": "3.50 EUR"
+    },
+    {
+      "type": "other",
+      "name": "Service charge",
+      "ref": 2222,
+      "price": "0.50 EUR"
+    }
+  ]
 }
-]
 ```
 
 </details>
