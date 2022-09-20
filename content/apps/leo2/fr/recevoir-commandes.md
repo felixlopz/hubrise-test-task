@@ -9,7 +9,7 @@ meta:
 
 Lorsque LEO2 est connecté à HubRise, les commandes envoyées à HubRise arrivent automatiquement dans votre logiciel de caisse.
 
-LEO2 vérifie l'arrivée de nouvelles commandes toutes les 30 secondes. Si vous ne recevez aucune commande, consultez la F.A.Q. [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/commandes-non-recues).
+LEO2 vérifie l'arrivée de nouvelles commandes toutes les 30 secondes. Si vous ne recevez aucune commande, consultez la FAQ [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/commandes-non-recues).
 
 ## Interface utilisateur
 
