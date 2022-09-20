@@ -26,7 +26,7 @@ Jalia est une logiciel de caisse cloud sur tablette iOS ou Android pour les rest
 
 La solution Jalia est éditée par JDC, une société créée en 1989 possédant des agences réparties dans toute la France. JDC intervient dans cinq secteurs d'activité, dont celui des caisses enregistreuses et des terminaux points de vente.
 
-Jalia a été conçu pour le marché français. Il est donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
+Jalia, conçu pour le marché français, est conforme à la loi française anti-fraude 2018.
 
 ## Fonctionnalités de l'intégration
 
