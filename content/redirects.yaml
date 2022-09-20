@@ -1,3 +1,7 @@
+# Main pages
+- fromPath: /fr/faq
+  toPath: /fr/faqs
+
 # Developers
 - fromPath: /developers/api
   toPath: /developers/api/general-concepts
