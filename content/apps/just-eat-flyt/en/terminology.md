@@ -29,6 +29,6 @@ HubRise and Just Eat Flyt each use their own terminology. The same concept can t
 
 Just Eat Flyt offers three types of services to its customers:
 
-- **Platform delivery**: The platform (Just Eat, MenuLog, or SkipTheDishes) dispatches a driver to collect the order from the restaurant. Available in a limited number of markets and cities.
+- **Platform delivery**: Just Eat dispatches a driver to collect the order from the restaurant or the store. Available in a limited number of markets and cities.
 - **Restaurant delivery**: The restaurant is responsible for delivering the order.
 - **Takeaway**: The customer collects the order from the restaurant.

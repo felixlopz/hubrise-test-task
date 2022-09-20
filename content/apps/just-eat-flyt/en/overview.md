@@ -26,10 +26,12 @@ In the UK, Ireland and Canada, Just Eat connects to your HubRise account through
 
 ## Available Platforms
 
-Flyt is available on the following Just Eat Takeaway.com platforms:
+Flyt is available on the following Just Eat platforms:
 
 - Just-Eat.co.uk
 - Just-Eat.ie
+- Just-Eat.it
+- Just-Eat.es
 - Menulog.com.au
 - SkipTheDishes.com
 
@@ -39,7 +41,7 @@ Flyt is available on the following Just Eat Takeaway.com platforms:
 
 ---
 
-Flyt is a more capable integration platform than the legacy Just Eat Takeaway integration platform. If you operate on a market not served by Flyt, it may still be possible to connect your store through Flyt if the Flyt team approves it. Not all integration features might however be available, depending on your market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
+Flyt is a more capable integration platform, offering more integration features than the legacy Just Eat Takeaway integration platform. Using Flyt, you can push a menu into your Just Eat Store. You might also set up auto-accept. If you operate on a market not served by Flyt, it may still be possible to connect your store through Flyt if the Flyt team approves it. Not all integration features might however be available, depending on your market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
 
 ## Integration Features
 
@@ -69,4 +71,4 @@ Via HubRise, synchronise your menu, your customer and order information with you
 
 ## Prerequisites
 
-To establish a connection between Just Eat and HubRise via Just Eat Flyt Bridge, your restaurant must be a Just Eat partner with a store in Ireland or in the United Kingdom.
+To establish a connection between Just Eat and HubRise via Just Eat Flyt Bridge, your restaurant must be a Just Eat partner with a store in  Ireland, in the United Kingdom, in Spain or Italy as well as Canada and Australia. Other markets might connect if the Just Eat integration team gives the go ahead. It happens on a case per case basis depending on their internal capacity. Independent stores might be connected but chains and franchises are given priority.
