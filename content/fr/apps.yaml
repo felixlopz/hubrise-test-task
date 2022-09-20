@@ -47,7 +47,7 @@ content:
           documentation: /apps/french-caisse
           logo: french-caisse.png
           title: French Caisse
-          description: French Caisse est une caisse enregistreuse tactile qui peut-être utilisée dans de nombreux types commerces. Elle est accompagnée d'une borne de commande, d'un site e-commerce et d'une carte de fidélité.
+          description: French Caisse est une caisse enregistreuse tactile utilisable dans de nombreux types de commerces. L'éditeur propose également une borne de commande, un site e-commerce et une carte de fidélité.
           additional_info:
         - website: https://iikosoftware.com
           documentation: /apps/iiko

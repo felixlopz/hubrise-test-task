@@ -38,7 +38,7 @@ Connecter French Caisse à HubRise permet à votre logiciel de caisse de :
 
 ---
 
-**REMARQUE IMPORTANTE :** Les commandes sont reçues dans French Caisse pour centraliser la réception dans une même interface utilisateur. Elles ne sont pas enregistrées dans French Caisse à des fins comptables. Elles ne seront pas décomptées des stocks ou incluses dans les analyses de données commerciales.
+**REMARQUE IMPORTANTE :** Les commandes reçues de HubRise ne sont pas décomptées des stocks ou incluses dans les analyses de données commerciales.
 
 ---
 

@@ -23,9 +23,9 @@ app_info:
 
 ## Description
 
-French Caisse is an EPOS solution designed in France for the French market. French Caisse meet the needs of the Swiss market also. 
+French Caisse is an EPOS solution designed in France for the French and Switzerland markets.
 
-French Caisse cash register can be used in all types of businesses, including restaurants, bakeries, grocery stores and hairdressers. The touch screen EPOS can be completed by a self ordering kiosk, an e-commerce website, and a loyalty card. It includes a Kitchen Display Screen, a production screen and a specific application used by the delivery staff. Orders can be taken on a tablet and stock management facilitate day-to-day operations.
+French Caisse cash register can be used in all types of businesses, including restaurants, bakeries, grocery stores and hairdressers. The touch screen EPOS can be completed by a self ordering kiosk, an e-commerce website, and a loyalty card. It includes a Kitchen Display Screen, a production screen and a specific application used by the delivery staff. The tablet ordering app and stock management facilitate day-to-day operations.
 
 French Caisse complies with the 2018 French Anti-Fraud Act. The publisher provides a certificate of compliance.
 
@@ -38,7 +38,7 @@ Connecting French Caisse to HubRise allows your EPOS to:
 
 ---
 
-**IMPORTANT NOTE**: Orders are pulled in French Caisse to be centralised in a single user interface. They are not registered in the French Caisse database for accounting purposes. They are not taken into account for stock management or included in your business data analyses. 
+**IMPORTANT NOTE**: Orders received from HubRise are not taken into account in stock management or included in your business data analysis. 
 
 ---
 
