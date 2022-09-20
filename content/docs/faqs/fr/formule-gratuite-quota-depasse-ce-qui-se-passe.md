@@ -15,5 +15,4 @@ Si aucun mode de paiement n'est enregistré lorsque le quota d'utilisation de la
 
 Si vous ne configurez pas de mode de paiement dans les deux semaines qui suivent la première alerte par e-mail, le compte sera suspendu. Pour éviter ces désagréments, vous pouvez inclure un mode de paiement dès que vous commencez à utiliser HubRise. Votre compte ne sera pas débité tant qu'il n'aura pas dépassé la limite du quota gratuit.
 
-Pour plus d'informations, voir la rubrique [Formule](/docs/utilisation-formule/).
-
+Pour plus d'informations, voir la rubrique [Utilisation et formule](/docs/utilisation-formule/).

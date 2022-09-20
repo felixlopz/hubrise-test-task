@@ -40,6 +40,8 @@ app_info:
 
 SOLUTION is a Windows / iPad / tablette / etc. EPOS.
 
+SOLUTION complies with the 2018 French Anti-Fraud Act.
+
 ## Integration Features
 
 Connecting SOLUTION to HubRise allows your [EPOS] to:

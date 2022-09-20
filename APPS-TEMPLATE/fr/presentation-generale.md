@@ -37,6 +37,8 @@ app_info:
 
 SOLUTION est un logiciel de caisse sous Windows / iPad / tablette / etc.
 
+SOLUTION est conforme à la loi française anti-fraude 2018.
+
 ## Fonctionnalités de l'intégration
 
 Connecter SOLUTION à HubRise permet à votre [logiciel de caisse] de :

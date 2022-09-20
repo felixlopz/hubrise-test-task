@@ -29,7 +29,7 @@ La solution de caisse est conçue pour la restauration avec service à table, re
 
 Adipos propose de multiples fonctionnalités, dont les plans de salle, la gestion d’un quota de commande par catégories de produit, la fidélité client avec ou sans coupons, la gestion de la livraison et du click & collect, l’affichage en cuisine et en zone de préparation, la diffusion sur écrans promotionnels, les bornes de commande, la commande en ligne, une app de commande.
 
-Adipos est développé en France par Adixon, et a reçu la certification NF525, le rendant conforme à la loi française "anti-fraudes" du 1er janvier 2018.
+Adipos est développé en France par Adixon, et a reçu la certification NF525, le rendant conforme à la loi française anti-fraude 2018.
 
 ## Fonctionnalités de l'intégration
 

@@ -49,4 +49,4 @@ Une fois votre mode de paiement configuré, la première demande de paiement dev
 
 ---
 
-Les paiements ultérieurs au profit de HubRise seront automatisés jusqu'à ce que vous changiez de formule d'utilisation ou que votre moyen de paiement arrive à expiration. Pour plus d'informations sur les formules d'utilisation de HubRise, voir la rubrique [Formule](/docs/utilisation-formule/).
+Les paiements ultérieurs au profit de HubRise seront automatisés jusqu'à ce que vous changiez de formule d'utilisation ou que votre moyen de paiement arrive à expiration. Pour plus d'informations sur les formules d'utilisation de HubRise, voir la rubrique [Utilisation et formule](/docs/utilisation-formule/).

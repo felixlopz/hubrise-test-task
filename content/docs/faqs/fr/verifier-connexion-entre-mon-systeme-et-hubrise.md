@@ -25,16 +25,16 @@ Pour plus de détails, voir la rubrique [Commandes](/docs/donnees#commandes).
 Chaque application affiche l'activité la plus récente sous forme de graphique. Pour contrôler l'activité d'une application spécifique, procédez comme suit :
 
 1. Cliquez sur **CONNEXIONS**.
-1. Pour l'application concernée, cliquez sur **Actions > Voir l'activité**.
+1. Pour l'application concernée, cliquez sur **Actions** > **Voir l'activité**.
 
 Pour plus d'informations, voir la rubrique [Afficher l'activité de connexion](/docs/connexions#afficher-l-activit-de-connexion).
 
-## Afficher les journaux des applications
+## Afficher les logs des applications
 
-Les applications connectées à HubRise génèrent des fichiers journaux qui permettent d'afficher les demandes les plus récentes, ainsi que les détails correspondants. Pour afficher les fichiers journaux d'une application, procédez comme suit :
+Les applications connectées à HubRise génèrent des fichiers journaux qui permettent d'afficher les demandes les plus récentes, ainsi que les détails correspondants. Pour afficher les logs d'une application, procédez comme suit :
 
 1. Cliquez sur **CONNEXIONS**.
-1. Pour l'application concernée, cliquez sur **Actions > Afficher les journaux**.
+1. Pour l'application concernée, cliquez sur **Actions** > **Voir les logs**.
 
 Pour plus d'informations, voir la rubrique [Afficher les logs de connexion](/docs/connexions#afficher-les-logs-de-connexion).
 

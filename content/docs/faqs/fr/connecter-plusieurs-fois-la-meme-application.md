@@ -18,7 +18,7 @@ Pour connecter une deuxième fois la même application, procédez comme suit :
 1. Sélectionnez **Voir les apps disponibles**.
 1. Sélectionnez la même application que celle que vous avez installée précédemment, puis cliquez sur **Connecter**.
 1. Sur la page d'autorisation, sélectionnez le point de vente HubRise correct dans le menu déroulant.
-1. Cliquez sur l'adresse URL dans la barre de navigation et incluez l'instruction `device_id=BrandName&` après la portion initiale de l'URL : `https://manager.hubrise.com/oauth2/v1/authorize?`, et avant `account_id=`. Le paramètre « BrandName » dans l'instruction `device_id=BrandName&` doit être remplacé par le nom de la marque. Pour plus d'informations, voir la rubrique [Règles de nommage](#r-gles-de-nommage). ![Page d'autorisation avec adresse URL comprenant la chaîne `device_id=2&`.](../../images/066-fr-autorisation-page-device-id.png)
+1. Cliquez sur l'adresse URL dans la barre de navigation et incluez l'instruction `device_id=NomDeLaMarque&` après la portion initiale de l'URL : `https://manager.hubrise.com/oauth2/v1/authorize?`, et avant `account_id=`. Le paramètre « NomDeLaMarque » dans l'instruction `device_id=NomDeLaMarque&` doit être remplacé par le nom de la marque. Pour plus d'informations, voir la rubrique [Règles de nommage](#r-gles-de-nommage). ![Page d'autorisation avec adresse URL comprenant la chaîne `device_id=2&`.](../../images/066-fr-autorisation-page-device-id.png)
 1. Puis, appuyez sur la touche Retour de votre clavier.
 1. Cliquez sur **Autoriser** pour connecter l'application.
 1. Suivez les instructions à l'écran pour configurer la nouvelle instance de l'application. Pour plus de détails, cliquez sur le lien **Afficher la documentation** de l'application correspondante sur la [page des applications HubRise](/apps/).
@@ -37,12 +37,13 @@ Une fois connectée, la nouvelle l'application apparaît sur la page **CONNEXION
 
 ## Règles de nommage
 
-Pour identifier plus facilement les différentes connexions de la même application, vous pouvez choisir librement la valeur de l'identifiant de l’application lors de la configuration initiale. Dans `device_id=BrandName&`, « BrandName » peut inclure une combinaison quelconque des caractères suivants :
+Pour identifier plus facilement les différentes connexions de la même application, vous pouvez choisir librement la valeur de l'identifiant de l’application lors de la configuration initiale. Dans `device_id=NomDeLaMarque&`, « NomDeLaMarque » peut inclure une combinaison quelconque des caractères suivants :
 
 - Lettres majuscules et minuscules
 - Chiffres
-- Espaces
 - Traits de soulignement
 - Tirets
 - Parenthèses, crochets et accolades
 - Points
+
+Si vous souhaitez inclure un espace dans NomDeLaMarque pour des raisons de lisibilité, remplacez l'espace par un `+`. Par exemple, Papa John's Maroc deviendra `Papa+John's+Maroc`.
