@@ -38,6 +38,12 @@ content:
           title: EPOS Technologies
           description: Epos Technologies, suitable for retail and hospitality businesses, offers many features including delivery management, self-service kiosk, Kitchen Display System, as well as online ordering and table ordering. Available in several countries.
           additional_info:
+        - website: https://www.frenchcaisse.fr/
+          documentation: /apps/french-caisse
+          logo: french-caisse.png
+          title: French Caisse
+          description: French Caisse is a touchscreen cash register that can be used in many types of businesses. It comes with a self ordering kiosk, an e-commerce site and a loyalty card.
+          additional_info:
         - website: https://www.etakeawaymax.co.uk/
           documentation: /apps/etakeaway-max
           logo: etakeawaymax.png
