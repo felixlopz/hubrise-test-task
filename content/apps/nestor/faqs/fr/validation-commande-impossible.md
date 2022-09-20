@@ -3,7 +3,7 @@ title: Pourquoi ne puis-je pas valider une commande web dans Nestor ?
 position: 4
 layout: documentation
 meta:
-  title: Valider une commande | Nestor FAQ | HubRise
+  title: Valider une commande | FAQs Nestor | HubRise
   description: Comprendre pourquoi il est impossible de valider une commande web dans Nestor.
 ---
 

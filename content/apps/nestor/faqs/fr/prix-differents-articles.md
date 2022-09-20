@@ -3,7 +3,7 @@ title: Comment Nestor traite les différences de prix dans les articles ?
 position: 1
 layout: documentation
 meta:
-  title: Différences de prix dans les articles | Nestor FAQ | HubRise
+  title: Différences de prix dans les articles | FAQs Nestor | HubRise
   description: Comprendre comment Nestor traite les différences de prix dans les commandes HubRise.
 ---
 

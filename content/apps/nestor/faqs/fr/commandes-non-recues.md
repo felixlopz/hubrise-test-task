@@ -3,7 +3,7 @@ title: Les commandes HubRise n'arrivent pas dans Nestor, que faire ?
 position: 3
 layout: documentation
 meta:
-  title: Commandes HubRise non reçues | Nestor FAQ | HubRise
+  title: Commandes HubRise non reçues | FAQs Nestor | HubRise
   description: Que faire lorsque les commandes HubRise n'arrivent pas dans Nestor.
 ---
 
