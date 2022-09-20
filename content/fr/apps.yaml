@@ -43,6 +43,12 @@ content:
           title: eTakeaway Max
           description: eTakeaway Max est un logiciel de caisse et de commande en ligne pour les restaurants.
           additional_info:
+        - website: https://www.frenchcaisse.fr/
+          documentation: /apps/french-caisse
+          logo: french-caisse.png
+          title: French Caisse
+          description: French Caisse est une caisse enregistreuse tactile utilisable dans de nombreux types de commerces. L'éditeur propose également une borne de commande, un site e-commerce et une carte de fidélité.
+          additional_info:
         - website: https://iikosoftware.com
           documentation: /apps/iiko
           logo: iiko.png
