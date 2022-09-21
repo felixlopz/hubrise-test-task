@@ -9,11 +9,21 @@ meta:
 
 HubRise permet de connecter le logiciel de caisse LEO2 à Deliveroo, Uber Eats, ou Just Eat. Pour plus d'informations, consultez les pages d'aide de ces plateformes, accessibles depuis notre [page Apps](/apps).
 
-Vous trouverez ci-dessous les paramètres à utiliser pour la configuration de ces plateformes.
+Cette page décrit les paramètres à utiliser pour connecter les plateformes de livraison de repas à LEO2.
+
+Pour plus d'informations, consultez les pages d'aide de ces plateformes sur notre [page Apps](/apps/plateformes-de-livraison-de-repas).
+
+## Configuration LEO2
+
+En fonction de vos besoins, vous devrez créer des vendeurs, des produits et modes de règlement spécifiques aux plateformes dans LEO2.
+
+Si vous n'utilisez pas ces fonctionnalités, il est inutile de créer ces éléments, et vous pouvez alors laisser vides les champs correspondants.
 
 ## Deliveroo
 
-Dans la page de configuration de Deliveroo Bridge, utilisez les codes ref suivants.
+Pour recevoir les commandes de Deliveroo dans LEO2, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
+
+Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suivants.
 
 | Section             | Nom                                               | Code ref                                                             |
 | ------------------- | ------------------------------------------------- | -------------------------------------------------------------------- |
@@ -21,21 +31,70 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les codes ref suivan
 | Types de service    | Code ref livraison par le restaurant              | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
 | Types de service    | Code ref à emporter                               | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
 | Types de service    | Envoyer les commandes livrées par Deliveroo [...] | `commandes en livraison`                                             |
-| Remises             | Code ref promotion                                | (laisser vide)                                                       |
+| Remises             | Code ref remise                                   | (laisser vide)                                                       |
 | Frais               | Code ref frais de livraison                       | Créer un produit dans LEO2 et utiliser son code ref.                 |
 | Frais               | Code ref surcharge                                | Créer un produit dans LEO2 et utiliser son code ref.                 |
 | Paiements           | Code ref paiement sur Deliveroo                   | Créer un mode de règlement dans LEO2 et utiliser son code ref.       |
 | Paiements           | Code ref paiement en espèces                      | (laisser vide)                                                       |
 | Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                        |
 
-Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Deliveroo Bridge](/apps/deliveroo/configuration).
+## Just Eat
+
+Just Eat possède deux APIs:
+
+- L'API Flyt est utilisée sur les plateformes Just-Eat.co.uk, Just-Eat.ie, Menulog et SkipTheDishes, et pour les chaînes sur les autres marchés. Cette API permet de synchroniser les commandes et le menu.
+- L'API Takeaway, plus ancienne, est utilisée pour les indépendants sur les autres marchés. Elle permet de recevoir les commandes, mais pas d'envoyer le menu.
+
+En cas de doute sur l'API à utiliser, contactez [support@hubrise.com](mailto:support@hubrise.com).
+
+### Just Eat avec l'API Takeaway
+
+Pour recevoir les commandes de Just Eat dans LEO2 avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
+
+Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramètres suivants.
+
+| Section             | Nom                                                   | Code ref                                                             |
+| ------------------- | ----------------------------------------------------- | -------------------------------------------------------------------- |
+| Types de service    | Code ref livraison par la plateforme                  | Créer un vendeur dans LEO2 et utiliser son code ref.                 |
+| Types de service    | Code ref livraison par le restaurant                  | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
+| Types de service    | Code ref à emporter                                   | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
+| Types de service    | Envoyer les commandes livrées par la plateforme [...] | `commandes en livraison`                                             |
+| Remises             | Code ref remise                                       | (laisser vide)                                                       |
+| Frais               | Code ref frais de livraison                           | Créer un produit dans LEO2 et utiliser son code ref.                 |
+| Paiements           | Code ref paiement en ligne                            | Créer un mode de règlement dans LEO2 et utiliser son code ref.       |
+| Paiements           | Code ref paiement en espèces                          | (laisser vide)                                                       |
+| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"`                        |
+
+### Just Eat avec l'API Flyt
+
+Pour recevoir les commandes de Just Eat dans LEO2 avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt).
+
+Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres suivants.
+
+| Section             | Nom                                                   | Code ref                                                             |
+| ------------------- | ----------------------------------------------------- | -------------------------------------------------------------------- |
+| Types de service    | Code ref livraison par la plateforme                  | Créer un vendeur dans LEO2 et utiliser son code ref.                 |
+| Types de service    | Code ref livraison par le restaurant                  | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
+| Types de service    | Code ref à emporter                                   | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
+| Types de service    | Envoyer les commandes livrées par la plateforme comme | `commandes en livraison`                                             |
+| Remises             | Code ref remise                                       | (laisser vide)                                                       |
+| Frais               | Code ref frais de livraison                           | Créer un produit dans LEO2 et utiliser son code ref.                 |
+| Frais               | Code ref surcharge                                    | Créer un produit dans LEO2 et utiliser son code ref.                 |
+| Frais               | Code ref frais d'emballage                            | Créer un produit dans LEO2 et utiliser son code ref.                 |
+| Frais               | Code ref pourboire livreur                            | Créer un produit dans LEO2 et utiliser son code ref.                 |
+| Frais               | Code ref autres frais                                 | Créer un produit dans LEO2 et utiliser son code ref.                 |
+| Paiements           | Code ref paiement en ligne                            | Créer un mode de règlement dans LEO2 et utiliser son code ref.       |
+| Paiements           | Code ref paiement en espèces                          | (laisser vide)                                                       |
+| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"`                        |
 
 ## Uber Eats
 
-Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivants.
+Pour recevoir les commandes de Uber Eats dans LEO2, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats).
+
+Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suivants.
 
 | Section             | Nom                                               | Code ref                                                             |
-| ------------------- | ------------------------------------------------- |----------------------------------------------------------------------|
+| ------------------- | ------------------------------------------------- | -------------------------------------------------------------------- |
 | Types de service    | Code ref livraison Uber                           | Créer un vendeur dans LEO2 et utiliser son code ref.                 |
 | Types de service    | Code ref livraison par le restaurant              | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
 | Types de service    | Code ref à emporter                               | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
@@ -52,24 +111,4 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivan
 
 (\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
 
-Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Uber Eats Bridge](/apps/uber-eats/configuration).
-
-LEO2 peut afficher les commentaires produits indiqués par vos clients lors du passage de leur commande.
-
-## Just Eat
-
-Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les codes ref suivants.
-
-| Section             | Nom                                                   | Code ref                                                             |
-| ------------------- | ----------------------------------------------------- | -------------------------------------------------------------------- |
-| Types de service    | Code ref livraison par la plateforme                  | Créer un vendeur dans LEO2 et utiliser son code ref.                 |
-| Types de service    | Code ref livraison par le restaurant                  | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
-| Types de service    | Code ref à emporter                                   | Créer un vendeur dans LEO2 et utiliser son code ref (si applicable). |
-| Types de service    | Envoyer les commandes livrées par la plateforme [...] | `commandes en livraison`                                             |
-| Remises             | Code ref promotion                                    | (laisser vide)                                                       |
-| Frais               | Code ref frais de livraison                           | Créer un produit dans LEO2 et utiliser son code ref.                 |
-| Paiements           | Code ref paiement en ligne                            | Créer un mode de règlement dans LEO2 et utiliser son code ref.       |
-| Paiements           | Code ref paiement en espèces                          | (laisser vide)                                                       |
-| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"`                        |
-
-Pour savoir comment accéder à cette page, consultez l'aide sur la [configuration de Just Eat Takeaway Bridge](/apps/just-eat-takeaway/configuration).
+LEO2 peut afficher les notes de préparation indiquées par vos clients lors du passage de leur commande.
