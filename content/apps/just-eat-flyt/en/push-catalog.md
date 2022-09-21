@@ -16,7 +16,9 @@ This page explains how to push your catalog, and what information is sent to the
 
 ## Populate a HubRise Catalog
 
-To update your menu in Just Eat, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your connected EPOS documentation on the HubRise website to verify. To populate your HubRise catalog, you can also pull your menu from Uber Eats or Deliveroo.
+To update your menu in Just Eat, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+
+Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats or Deliveroo.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -65,7 +67,7 @@ For every category, the following HubRise fields are pushed into Just Eat:
 
 ### Products and Skus
 
-Products in the `products` array of a HubRise catalog can have several skus. This notion of products/skus is not supported on Just Eat. Every sku is mapped to an individual product on Just Eat. For more information about products in HubRise, see our [API documentation, Products](/developers/api/catalog-management/#products) section.
+Products in the `products` array of a HubRise catalog can have several skus. This notion of products/skus is not supported on Just Eat. Every sku is mapped to an individual product on Just Eat. For more information about products in HubRise, see the [Products](/developers/api/catalog-management/#products) section of our API documentation.
 
 For every `sku` object in a product, Just Eat Flyt Bridge pushes the following information into Just Eat:
 
@@ -77,7 +79,7 @@ For every `sku` object in a product, Just Eat Flyt Bridge pushes the following i
 - `tags`: Tags describing the characteristics and restrictions of the product, such as allergens or spiciness. See [Product Tags](#product-tags).
 - `image`: The URL of the image of the parent product
 
-For more information about skus in the HubRise catalog, see our [API documentation, Skus](/developers/api/catalog-management/#skus) section.
+For more information about skus in the HubRise catalog, see the [Skus](/developers/api/catalog-management/#skus) section of our API documentation.
 
 ---
 
@@ -131,4 +133,4 @@ Deals and discounts are not supported on Just Eat. Therefore, deals and discount
 
 ### Opening hours
 
-Every time you push your HubRise catalog to Just Eat, you also update the opening hours of your store, based on the values set on the [configuration page](/apps/just-eat-flyt/configuration/#catalog) of your Just Eat Flyt Bridge.
+When you push your HubRise catalog to Just Eat, you also update the opening hours of your store, based on the values set on the [configuration page](/apps/just-eat-flyt/configuration/#catalog).

@@ -19,7 +19,7 @@ Each row in the page shows the following information about an operation:
 
 - **TIME**: The date and time of the order.
 - **ORDER**: The HubRise order ID, for order operations.
-- **DESCRIPTION**: The description of operations that are not related for a specific order. It could be empty, inform of a `System request` or a `Catalog push`.
+- **DESCRIPTION**: An optional description for operations that are not related to a specific order. It could be empty, or inform of a `System request` or a `Catalog push`.
 - **STATUS**: The status of the order. The value `OK` indicates that the order has been successfully sent, otherwise an error code will be displayed in red.
 
 ![Operations page of Just Eat Flyt Bridge developed by HubRise](../images/003-en-just-eat-main-page.png)
@@ -48,7 +48,7 @@ Logs are a powerful debugging tool in case of issues. To understand in detail ho
 
 The layout of a system request page is identical to that of an order page.
 
-System requests are generally sent by Just Eat Flyt Bridge to notify HubRise about a change in the configuration or to populate the HubRise User Interface with the most up-to-date information. As an example, the following image displays a request to update the Just Eat Flyt Bridge callback after a configuration change.
+System requests are generally sent by Just Eat Flyt Bridge to notify HubRise about a change in the configuration or to fetch the most up-to-date information. As an example, the following image displays a request to update the Just Eat Flyt Bridge callback after a configuration change.
 
 ![System request page on Just Eat Flyt Bridge](../images/005-en-just-eat-system-request.png)
 
@@ -59,7 +59,6 @@ System request pages can provide useful debugging insights to support teams, but
 At the top right corner of the main page, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> to expand the menu. From there, you can change the language of the page to English or French.
 
 Clicking on the Just Eat and HubRise logos on top of any page of Just Eat Flyt Bridge will bring you back to the main page.
-
 
 ## Configuration Page
 

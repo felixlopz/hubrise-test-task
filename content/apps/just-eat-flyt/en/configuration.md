@@ -50,9 +50,9 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ## Catalog
 
-From this section, choose if you want to push your HubRise catalog to Just Eat every time you update the HubRise catalog. By default, this option is turned off.
-
 ![Just Eat Flyt Bridge configuration page, Catalog section](../images/012-en-just-eat-configuration-page-menu.png)
+
+From this section, choose if you want to push your HubRise catalog to Just Eat every time you update the HubRise catalog. By default, this option is turned off.
 
 ### Opening Hours
 
@@ -71,8 +71,9 @@ To quickly copy opening hours to all the following days on the list, click **Cop
 
 ## Inventory
 
-The inventory data in HubRise can be manually pushed into Just Eat Flyt from the Just Eat Flyt Bridge **Actions** page. 
-You might also set the Just Eat Flyt Bridge to automatically hide products on your Just Eat store when they are set as unavailable in your HubRise inventory by ticking the **Enable automatic inventory push** box.
+You can push inventory data into Just Eat from the **Actions** page. When you do so, products set as out of stock in HubRise are hidden on Just Eat.
+
+You might also set the Just Eat Flyt Bridge to automatically push inventory to Just Eat whenever your HubRise inventory is updated. This is done by ticking the **Enable automatic inventory push** checkbox.
 
 ## Save the Configuration
 
