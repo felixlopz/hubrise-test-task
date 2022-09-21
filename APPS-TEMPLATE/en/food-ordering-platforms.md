@@ -32,9 +32,36 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |
 
-## Just Eat (JUST EAT FLYT)
+## Just Eat
 
-To receive Just Eat orders in SOLUTION, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
+Just Eat offers two APIs:
+
+- The Flyt API is used on the Just-Eat.co.uk, Just-Eat.ie, Menulog and SkipTheDishes platforms, and for chains on other markets. This API allows you to synchronise the orders and the menu.
+- The Takeaway API, the older one, is used for independents on other markets. It allows you to receive orders, but not to send the menu.
+
+If you are not sure which API to use, contact [support@hubrise.com](mailto:support@hubrise.com).
+
+### Just Eat via Takeaway API
+
+To receive Just Eat orders in SOLUTION via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
+
+In the Just Eat Takeaway Bridge configuration page, use the following settings:
+
+| Section        | Name                                     | Ref code                                          |
+| -------------- | ---------------------------------------- | ------------------------------------------------- |
+| Service types  | Just Eat delivery ref code               | (leave empty)                                     |
+| Service types  | Restaurant delivery ref code             | (leave empty)                                     |
+| Service types  | Takeaway ref code                        | (leave empty)                                     |
+| Service types  | Send orders delivered by the platform as | `collection orders`                               |
+| Discounts      | Discount ref code                        | (leave empty)                                     |
+| Charges        | Delivery charge ref code                 | (leave empty)                                     |
+| Payments       | Just Eat payment ref code                | (leave empty)                                     |
+| Payments       | Cash payment ref code                    | (leave empty)                                     |
+| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
+
+### Just Eat via Flyt API
+
+To receive Just Eat orders in SOLUTION via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
 
 In the Just Eat Flyt Bridge configuration page, use the following settings:
 
@@ -51,24 +78,6 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 | Charges        | Driver tip ref code                      | (leave empty)                                     |
 | Charges        | Other charge ref code                    | (leave empty)                                     |
 | Payments       | Online payment ref code                  | (leave empty)                                     |
-| Payments       | Cash payment ref code                    | (leave empty)                                     |
-| Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
-
-## Eat.ch / Takeaway.com / Thuisbezorgd.nl (JUST EAT TAKEAWAY)
-
-To receive Just Eat orders in SOLUTION, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
-
-In the Just Eat Takeaway Bridge configuration page, use the following settings:
-
-| Section        | Name                                     | Ref code                                          |
-| -------------- | ---------------------------------------- | ------------------------------------------------- |
-| Service types  | Just Eat delivery ref code               | (leave empty)                                     |
-| Service types  | Restaurant delivery ref code             | (leave empty)                                     |
-| Service types  | Takeaway ref code                        | (leave empty)                                     |
-| Service types  | Send orders delivered by the platform as | `collection orders`                               |
-| Discounts      | Discount ref code                        | (leave empty)                                     |
-| Charges        | Delivery charge ref code                 | (leave empty)                                     |
-| Payments       | Just Eat payment ref code                | (leave empty)                                     |
 | Payments       | Cash payment ref code                    | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
 
