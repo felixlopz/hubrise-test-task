@@ -19,22 +19,38 @@ To be able to update your menu in Deliveroo, you should populate a HubRise catal
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Push the Catalog
+## Manual Catalog Push
 
 Once your catalog is populated on HubRise, you can push it to your Deliveroo store by following these steps:
 
 1. Log in to your HubRise account.
-1. Select the location connected with your Deliveroo store.
+1. Select the HubRise account and location connected with your Deliveroo store.
 1. Select **Deliveroo Bridge** from the list of connected apps.
-1. In Deliveroo Bridge, click the **Actions** tab, then select **Push catalog**.
+1. In Deliveroo Bridge, select the **Actions** tab, then click **Push catalog**.
+1. Check your Deliveroo online menu.
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog into Deliveroo will erase the menu on your Deliveroo store. This action cannot be reverted.
+**IMPORTANT NOTE:** Pushing your HubRise catalog into Deliveroo will erase the current menu on your Just Eat store. A catalog push will also update your Deliveroo **Menu description** and **Menu banner** as defined in the Deliveroo Bridge **Configuration** page. This action cannot be reverted. For more information, see [Catalog Configuration](/apps/deliveroo/configuration#catalog).
 
 ---
 
-You can automate the catalog push into Uber Eats every time it is updated in HubRise. For more information, see [Automatic Catalog Push](/apps/deliveroo/configuration#automatic-catalog-push).
+## Automatic Catalog Push
+
+You can automatically push your HubRise catalog into Deliveroo every time you update the HubRise catalog. By default, this option is turned off. You can enable it by following these steps:
+
+1. Log in to your HubRise account.
+1. Select the HubRise account and location connected with your Deliveroo store.
+1. Select **Deliveroo Bridge** from the list of connected apps.
+1. In Deliveroo Bridge, select the **Configuration** tab.
+1. In the **Catalog** section, tick the **Enable automatic catalog push** box.
+1. Click **Save**.
+
+---
+
+**IMPORTANT NOTE:** It is recommended to always check your Deliveroo online menu after pushing a HubRise catalog. Pushing your HubRise catalog into Deliveroo will erase the current menu on your Just Eat store. A catalog push will also update your Deliveroo **Menu description** and **Menu banner** as defined in the Deliveroo Bridge **Configuration** page. This action cannot be reverted. For more information, see [Catalog Configuration](/apps/deliveroo/configuration#catalog).
+
+---
 
 ## Information Sent to Deliveroo
 
