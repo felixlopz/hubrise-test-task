@@ -8,5 +8,5 @@ meta:
 ---
 
 
-- <Link to="/apps/just-eat-takeaway/faqs/primary-secondary-connections/">Que sont les connexions primaires et secondaires&nbsp;?</Link>
+- <Link to="/apps/just-eat-takeaway/faqs/connexion-primaire-secondaire/">Que sont les connexions primaires et secondaires&nbsp;?</Link>
 

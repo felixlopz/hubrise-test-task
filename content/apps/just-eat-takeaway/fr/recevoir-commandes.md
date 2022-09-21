@@ -7,13 +7,13 @@ meta:
   description: Découvrez le détail technique sur la réception des commandes Just Eat Takeaway dans HubRise, y compris le temps de réponse, et les champs transmis ou non.
 ---
 
-La connexion de Just Eat Takeaway à HubRise vous permet de recevoir les commandes directement dans votre solution d'encaissement. Cette page décrit les informations reçues par HubRise en provenance de Just Eat Takeaway pour vos commandes.
+La connexion de Just Eat Takeaway à HubRise vous permet de recevoir les commandes directement dans votre logiciel de caisse. Cette page décrit les informations reçues par HubRise en provenance de Just Eat Takeaway pour vos commandes.
 
 ## Articles et options
 
 Les commandes Just Eat Takeaway contiennent des informations complètes sur les articles et les options, y compris le nom, le code ref du point de vente, la quantité et le prix. Toutefois, les promotions ne sont pas prises en charge.
 
-## Autres statuts
+## Statuts de commande
 
 Une commande Just Eat passe par plusieurs statuts au cours de son cycle de vie :
 
@@ -37,7 +37,7 @@ Lorsque le statut d'une commande change dans HubRise, Just Eat Takeaway Bridge e
 | `in_delivery (en cours de livraison)`                                | `En livraison`                                                              |
 | `completed (terminé)`                                  | `Livré`                                                                |
 
-Just Eat Takeaway Bridge vous permet de décider quel statut de HubRise déclenche l'état `Confirmé`. Cette option est utile pour gérer différents scénarios lorsque votre solution d'encaissement actualise le statut de la commande. Par exemple, si votre solution d'encaissement marque une commande acceptée comme ayant le statut `received` (reçu) dans HubRise, vous pouvez toujours faire en sorte que Just Eat Takeaway reconnaisse que la commande a été confirmée.
+Just Eat Takeaway Bridge vous permet de décider quel statut de HubRise déclenche l'état `Confirmé`. Cette option est utile pour gérer différents scénarios lorsque votre logiciel de caisse actualise le statut de la commande. Par exemple, si votre logiciel de caisse marque une commande acceptée comme ayant le statut `received` (reçu) dans HubRise, vous pouvez toujours faire en sorte que Just Eat Takeaway reconnaisse que la commande a été confirmée.
 
 Les autres valeurs de statut dans HubRise ne sont pas prises en charge ni envoyées à Just Eat Takeaway.
 
@@ -53,7 +53,7 @@ Just Eat Takeaway prend en charge trois types de service :
 - Livraison par la flotte du restaurant
 - Retrait par les clients
 
-Ces types sont généralement associés à des codes ref spécifiques dans votre solution d'encaissement, que vous pouvez définir sur la page de configuration de l'instance Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre solution d'encaissement sur notre [page d'applications](/apps).
+Ces types sont généralement associés à des codes ref spécifiques dans votre logiciel de caisse, que vous pouvez définir sur la page de configuration de l'instance Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre logiciel de caisse sur la [page Apps](/apps) de notre site internet.
 
 ## Coordonnées client
 
@@ -67,7 +67,7 @@ Dans la commande, vous pouvez trouver des informations sur les remises et les fr
 
 ## Références techniques
 
-Cette section décrit la manière dont les commandes sont encodées dans les données utiles JSON reçues en provenance de Just Eat Takeaway Bridge.
+Cette section décrit la manière dont les commandes sont encodées dans les requêtes JSON reçues en provenance de Just Eat Takeaway Bridge.
 
 ### Identifiant de commande Just Eat Takeaway
 
@@ -97,7 +97,7 @@ Chaque option se caractérise par une quantité unique. Les options multiples id
 
 <details>
 
-Vous trouverez ci-dessous un exemple de données utiles contenant un article unique avec une option.
+Vous trouverez ci-dessous un exemple de requêtes contenant un article unique avec une option.
 
 ```json
 "items": [
@@ -137,9 +137,9 @@ Vous trouverez ci-dessous un exemple de données utiles contenant un article uni
 
 Just Eat Takeaway Bridge inclut toujours les coordonnées du client dans l'objet `customer`.
 
-Le nom du client est fourni sous forme champ unique par Just Eat Takeaway. Les champs `first_name` et `last_name` sont créés dans HubRise en séparant le nom complet par le premier caractère d'espace.
+Le nom du client est fourni sous la forme d'un champ unique par Just Eat Takeaway. Les champs `first_name` et `last_name` sont créés dans HubRise en séparant le nom complet par le premier caractère d'espace.
 
-Just Eat Takeaway Bridge reçoit de Just Eat les informations suivantes concernant l'adresse du client, si elles sont disponibles dans les données utiles d'origine :
+Just Eat Takeaway Bridge reçoit de Just Eat les informations suivantes concernant l'adresse du client, si elles sont disponibles dans les requêtes d'origine :
 
 - `address_1` : rue et numéro.
 - `city` : ville de l'adresse.
@@ -150,7 +150,7 @@ Just Eat Takeaway Bridge reçoit de Just Eat les informations suivantes concerna
 
 <details>
 
-Vous trouverez ci-dessous un exemple de données utiles contenant les coordonnées du client.
+Vous trouverez ci-dessous un exemple de requête contenant les coordonnées du client.
 
 ```json
 "customer": {
@@ -170,15 +170,15 @@ Vous trouverez ci-dessous un exemple de données utiles contenant les coordonné
 
 La remise appliquée à la commande est transmise sous forme d'objet unique contenu dans le tableau `discounts` de HubRise.
 
-Les champs disponibles dans les données utiles sont les suivants :
+Les champs disponibles dans la requête sont les suivants :
 
-- `name` : nom de la remise, soit « Remise » par défaut.
-- `ref` : code ref de la remise. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Takeaway Bridge. Elle doit correspondre à la valeur définie dans votre solution d’encaissement.
+- `name` : nom de la remise, comprenant la valeur par défaut « Remise ».
+- `ref` : code ref de la remise. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Takeaway Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price_off` : montant total de la remise.
 
 <details>
 
-Voici un exemple de données utiles pour les remises.
+Voici un exemple de requête pour les remises.
 
 ```json
 "discounts": [
@@ -196,16 +196,16 @@ Voici un exemple de données utiles pour les remises.
 
 Des frais de livraison sont appliqués aux commandes livrées par le restaurant. Just Eat Takeaway Bridge encode cette information dans le tableau `charges`.
 
-Les champs disponibles dans les données utiles sont les suivants :
+Les champs disponibles dans les requêtes sont les suivants :
 
-- `name` : intitulé des frais de livraison (par défaut, « Frais de livraison »).
+- `name` : intitulé des frais de livraison, comprenant la valeur par défaut « Frais de livraison ».
 - `type` : type de frais. Ce paramètre est toujours défini sur la valeur `delivery`.
-- `ref` : code ref des frais. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Bridge. Elle doit correspondre à la valeur définie dans votre solution d’encaissement.
+- `ref` : code ref des frais. La valeur par défaut peut être définie à partir de la page de configuration de Just Eat Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price` : montant total des frais de livraison.
 
 <details>
 
-Voici un exemple de données utiles pour les frais.
+Voici un exemple de requête pour les frais.
 
 ```json
 "charges": [
@@ -220,7 +220,6 @@ Voici un exemple de données utiles pour les frais.
 
 </details>
 
-## Notes du client
+## Notes de préparation du client
 
 Les notes du client au niveau du produit sont encodées dans le champ `customer_notes`.
-

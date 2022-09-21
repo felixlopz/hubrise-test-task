@@ -18,7 +18,7 @@ app_info:
 
 ## Description
 
-Just Eat Takeaway.com est une plateforme de commande en ligne et de livraison de repas destinée aux restaurants et aux commerces de proximité. Les clients peuvent commander des plats, ou d'autres types de denrées alimentaires sur Internet ou via une application mobile. L'équipe d'assistance à l'intégration est basée aux Pays-Bas, mais elle opère dans 21 pays différents en Europe, en Asie, en Amérique et en Océanie.
+Just Eat Takeaway.com est une plateforme de commande en ligne et de livraison de repas destinée aux restaurants et aux commerces de proximité. Les clients peuvent commander des plats, ou d'autres types de denrées alimentaires sur internet ou via une application mobile. L'équipe d'assistance à l'intégration est basée aux Pays-Bas, mais elle opère dans 21 pays différents en Europe, en Asie, en Amérique et en Océanie.
 
 Just Eat Takeaway.com se connecte à votre compte HubRise via l'application Just Eat Takeaway Bridge développée par HubRise.
 
@@ -59,7 +59,7 @@ Just Eat Takeaway Bridge peut être connecté à HubRise depuis le back-office d
 
 ## Pourquoi se connecter ?
 
-Le fait de connecter votre restaurant en ligne ou votre magasin de proximité Just Eat Takeaway à HubRise vous permet de recevoir vos commandes Just Eat Takeaway directement dans votre logiciel de caisse, sur votre système d'écran de cuisine ou dans votre système de gestion de livraison également connecté à HubRise. Vous pouvez ainsi gérer les commandes Just Eat Takeaway parallèlement à vos autres commandes, en utilisant vos outils habituels. Les commandes Just Eat Takeaway transiteront par votre installation existante, comme vos autres commandes.
+Le fait de connecter votre restaurant en ligne ou votre commerce de proximité Just Eat Takeaway à HubRise vous permet de recevoir vos commandes Just Eat Takeaway directement dans votre logiciel de caisse, sur votre système d'écran de cuisine ou dans votre système de gestion de livraison également connecté à HubRise. Vous pouvez ainsi gérer les commandes Just Eat Takeaway parallèlement à vos autres commandes, en utilisant vos outils habituels. Les commandes Just Eat Takeaway transiteront par votre installation existante, comme vos autres commandes.
 
 Grâce à HubRise, synchronisez votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions d'e-marketing (SMS/e-mailing) et de business intelligence, les systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
