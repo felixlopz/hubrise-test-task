@@ -49,7 +49,7 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 | Service types  | Restaurant fulfilled ref code         | `DVMD`                                            |
 | Service types  | Takeaway ref code                     | `DVMTA`                                           |
 | Service types  | Send orders delivered by Deliveroo as | `delivery orders`                                 |
-| Discounts      | Offer ref code                        | `DELD99`                                          |
+| Discounts      | Discount ref code                        | `DELD99`                                          |
 | Charges        | Delivery charge ref code              | `DELD77`                                          |
 | Charges        | Surcharge ref code                    | `DELD88`                                          |
 | Payments       | Deliveroo payment ref code            | `DVPM`                                            |
@@ -107,7 +107,7 @@ To receive your HOP Delivery orders in Lightspeed, use the following values to c
 | Service types | HOP fulfilled ref code        | `HOPDEL`      |
 | Service types | Restaurant fulfilled ref code | `HOPREST`     |
 | Service types | Takeaway ref code             | `HOPCOL`      |
-| Discounts     | Offer ref code                | `HOP99`       |
+| Discounts     | Discount ref code                | `HOP99`       |
 | Charges       | Delivery charge ref code      | `HOP77`       |
 | Charges       | Service fee ref code          | `HOP88`       |
 | Payments      | HOP payment ref code          | `HOPPM`       |

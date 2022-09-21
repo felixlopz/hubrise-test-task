@@ -25,7 +25,7 @@ To correctly receive your orders, specify the following values in the Deliveroo 
 | Service types  | Restaurant fulfilled ref code         | (leave empty)                                     |
 | Service types  | Takeaway ref code                     | (leave empty)                                     |
 | Service types  | Send orders delivered by Deliveroo as | `collection orders`                               |
-| Discounts      | Offer ref code                        | (leave empty)                                     |
+| Discounts      | Discount ref code                        | (leave empty)                                     |
 | Charges        | Delivery charge ref code              | `delivery`                                        |
 | Charges        | Surcharge ref code                    | (leave empty)                                     |
 | Payments       | Deliveroo payment ref code            | (leave empty)                                     |
@@ -81,7 +81,7 @@ To receive your HOP Delivery orders in OrderLord, use the following values to co
 | Service types | HOP fulfilled ref code        | (leave empty) |
 | Service types | Restaurant fulfilled ref code | (leave empty) |
 | Service types | Takeaway ref code             | (leave empty) |
-| Discounts     | Offer ref code                | (leave empty) |
+| Discounts     | Discount ref code                | (leave empty) |
 | Charges       | Delivery charge ref code      | `delivery`    |
 | Charges       | Service fee ref code          | (leave empty) |
 | Payments      | HOP payment ref code          | (leave empty) |

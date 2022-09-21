@@ -25,7 +25,7 @@ In the Deliveroo Bridge configuration page, use the following values:
 | Service types  | Restaurant fulfilled ref code         | `DV_ST_RESTAURANT`                                |
 | Service types  | Takeaway ref code                     | `DV_ST_TAKEAWAY`                                  |
 | Service types  | Send orders delivered by Deliveroo as | `collection orders`                               |
-| Discounts      | Offer ref code                        | `DV_DC`                                           |
+| Discounts      | Discount ref code                        | `DV_DC`                                           |
 | Charges        | Delivery charge ref code              | `DV_CH_DELIVERY`                                  |
 | Charges        | Surcharge ref code                    | `DV_CH_SURCHARGE`                                 |
 | Payments       | Deliveroo payment ref code            | `DV_PM_PLATFORM`                                  |

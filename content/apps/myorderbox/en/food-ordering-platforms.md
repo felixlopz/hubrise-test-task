@@ -28,7 +28,7 @@ the [Deliveroo Configuration page](/apps/deliveroo/configuration).
 | Service types  | Restaurant fulfilled ref code         | (same as above)                                            |
 | Service types  | Takeaway ref code                     | (same as above)                                            |
 | Service types  | Send orders delivered by Deliveroo as | `collection orders`                                        |
-| Discounts      | Offer ref code                        | (leave empty)                                              |
+| Discounts      | Discount ref code                        | (leave empty)                                              |
 | Charges        | Delivery charge ref code              | (leave empty)                                              |
 | Charges        | Surcharge ref code                    | (leave empty)                                              |
 | Payments       | Deliveroo payment ref code            | (leave empty)                                              |
