@@ -9,9 +9,19 @@ meta:
 
 With HubRise, you can receive orders from Deliveroo, Just Eat, Uber Eats and other food platforms in SOLUTION. You can also push your menu from SOLUTION to food platforms.
 
+This page describes the settings to use to connect food ordering platforms to SOLUTION.
+
 For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-Below are the settings to use to connect food ordering platforms to SOLUTION.
+## Configuration on SOLUTION
+
+Depending on your needs, you will need to create PRODUCTS, PROMOTIONS, PAYMENT METHODS... specific to the platforms in SOLUTION.
+
+If you don't use these features, you can skip the creation of these items, and leave the corresponding fields empty.
+
+### PRODUCTS, PROMOTIONS...
+
+Describe the items to create before connecting food platforms.
 
 ## Deliveroo
 
@@ -101,12 +111,12 @@ In the Uber Eats Bridge configuration page, use the following settings:
 | Charges        | Tip ref code                                 | (leave empty)                                           |
 | Payments       | Payment ref code                             | (leave empty)                                           |
 | Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`       |
-| Menu           | Enable preparation notes on individual items | Tick the checkbox / Leave unchecked                     |
+| Menu           | Enable preparation notes on individual items | Tick if you wish to enable them / Leave unchecked       |
 
 (\*) Only applies if you offer disposable items, such as cutlery, napkins, etc.
 
 ---
 
-**IMPORTANT NOTE:** Preparation notes on individual items are not supported in SOLUTION. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Uber Eats menu, so that they are correctly encoded.
+**IMPORTANT NOTE:** Preparation notes on individual items are not supported in SOLUTION. If you rely on these comments for cooking or serving instructions (for example, "Medium cooking", or "Cut in slices"), you need to replace them by options in your Uber Eats menu.
 
 ---

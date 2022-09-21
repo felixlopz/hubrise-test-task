@@ -3,8 +3,8 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Overview | SOLUTION | HubRise
-  description: SOLUTION overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your [EPOS] and your other apps.
+  title: Overview | French Caisse | HubRise
+  description: French Caisse overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your [EPOS] and your other apps.
 gallery:
 path_override: /
 app_info:
