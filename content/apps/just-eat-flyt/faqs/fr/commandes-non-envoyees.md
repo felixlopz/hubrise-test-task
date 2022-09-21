@@ -3,7 +3,7 @@ title: Pourquoi certains commandes ne sont-elles pas envoyés vers Just Eat ?
 position: 3
 layout: documentation
 meta:
-  title: Commandes non envoyés | Questions fréquentes Just Eat Flyt | HubRise
+  title: Commandes non envoyés | FAQs Just Eat Flyt | HubRise
   description: Si vos commandes Just Eat n'arrivent pas dans HubRise, cette page explique les raisons possibles et les solutions.
 ---
 

@@ -91,7 +91,7 @@ Pour supprimer une méthode de paiement, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : [Comment cesser le paiement de mon abonnement ?](/docs/faqs/arreter-de-payer-abonnement/)
+**FAQ associée** : [Comment cesser le paiement de mon abonnement ?](/docs/faqs/arreter-de-payer-abonnement/)
 
 ---
 
@@ -107,7 +107,7 @@ Pour traiter un paiement à partir de la notification, procédez comme suit :
 
 ---
 
-**Questions fréquentes associées** : [Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?](/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/), [Comment payer ma première facture ?](/docs/faqs/payer-la-premiere-facture/), [Ma formule peut-elle être interrompue durant les phases de configuration et de test ?](/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/)
+**FAQ associée** : [Que se passe-t-il en cas de dépassement de quota de ma formule gratuite ?](/docs/faqs/formule-gratuite-quota-depasse-ce-qui-se-passe/), [Comment payer ma première facture ?](/docs/faqs/payer-la-premiere-facture/), [Ma formule peut-elle être interrompue durant les phases de configuration et de test ?](/docs/faqs/formule-interrompue-pendant-les-phases-de-configuration-et-de-test/)
 
 ---
 

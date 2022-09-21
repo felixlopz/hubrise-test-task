@@ -3,7 +3,7 @@ title: Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?
 position: 1
 layout: documentation
 meta:
-  title: Commandes HubRise non reçues | LEO2 F.A.Q. | HubRise
+  title: Commandes HubRise non reçues | FAQs LEO2 | HubRise
   description: Que faire lorsque les commandes HubRise n'arrivent pas dans LEO2 ?
 ---
 

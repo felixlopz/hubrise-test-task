@@ -1,9 +1,9 @@
 ---
-title: Questions fréquentes
+title: FAQs
 position: 8
 layout: documentation
 meta:
-  title: Questions fréquentes | Just Eat Flyt | HubRise
+  title: FAQs | Just Eat Flyt | HubRise
   description: Questions fréquentes sur la connexion de Just Eat Flyt à HubRise afin que votre logiciel de caisse fonctionne avec d'autres applications comme un tout cohérent.
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: F.A.Q
+title: FAQs
 layout: documentation-simple
 meta:
-  title: F.A.Q. | HubRise
+  title: FAQs | HubRise
   description:
 ---
 

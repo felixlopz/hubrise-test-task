@@ -3,7 +3,7 @@ title: Pourquoi certains produits ne sont-ils pas envoyés vers Just Eat ?
 position: 4
 layout: documentation
 meta:
- title: Produits non envoyés | Questions fréquentes Just Eat Flyt | HubRise
+ title: Produits non envoyés | FAQs Just Eat Flyt | HubRise
  description: Cette page explique pourquoi certains produits ne sont pas envoyés à Just Eat lorsque vous envoyez le catalogue sur la plateforme.
 ---
 
