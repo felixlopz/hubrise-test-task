@@ -76,7 +76,7 @@ Pour recevoir les commandes de Just Eat Flyt dans SOLUTION avec l'API Flyt, vous
 Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres suivants.
 
 | Section             |     | Nom                                                   | Code ref                                      |
-| ------------------- |-----| ----------------------------------------------------- | --------------------------------------------- |
+| ------------------- | --- | ----------------------------------------------------- | --------------------------------------------- |
 | Types de service    |     | Code ref livraison par la plateforme                  | (laisser vide)                                |
 | Types de service    |     | Code ref livraison par le restaurant                  | (laisser vide)                                |
 | Types de service    |     | Code ref à emporter                                   | (laisser vide)                                |
@@ -111,14 +111,12 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 | Frais               | Code ref pourboire                                | (laisser vide)                                                           |
 | Paiements           | Code ref paiement                                 | (laisser vide)                                                           |
 | Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                            |
-| Menu                | Activer les notes de préparation sur les articles | Cocher la case / Laisser la case décochée                                |
+| Menu                | Activer les notes de préparation sur les articles | Cocher si vous souhaitez les activer / Laisser la case décochée          |
 
 (\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
 
 ---
 
-**REMARQUE IMPORTANTE :** Les notes de préparation sur les articles ne sont pas supportées par SOLUTION. Si vous utilisez ces notes pour des instructions de cuisson ou de service (par exemple, "Moyen rare cuisson", ou "Coupez en tranches"), vous devez ajouter les options correspondantes dans votre EPOS et les inclure dans votre menu Uber Eats.
+**REMARQUE IMPORTANTE :** Les notes de préparation sur les articles ne sont pas supportées par SOLUTION. Si vous utilisez ces notes pour des instructions de cuisson ou de service (par exemple, "Cuisson à point", ou "Coupez en tranches"), vous devez les remplacer par des options dans votre menu Uber Eats.
 
 ---
-
-SOLUTION peut afficher les notes de préparation indiquées par vos clients lors du passage de leur commande.

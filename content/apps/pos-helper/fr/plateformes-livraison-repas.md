@@ -120,6 +120,6 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 
 ---
 
-**REMARQUE IMPORTANTE :** Les notes de préparation sur les articles ne sont pas supportées par POS HELPER. Si vous utilisez ces notes pour des instructions de cuisson ou de service (par exemple, "Moyen rare cuisson", ou "Coupez en tranches"), vous devez ajouter les options correspondantes dans votre EPOS et les inclure dans votre menu Uber Eats.
+**REMARQUE IMPORTANTE :** Les notes de préparation sur les articles ne sont pas supportées par POS HELPER. Si vous utilisez ces notes pour des instructions de cuisson ou de service (par exemple, "Cuisson à point", ou "Coupez en tranches"), vous devez les remplacer par des options dans votre menu Uber Eats.
 
 ---
