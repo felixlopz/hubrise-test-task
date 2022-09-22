@@ -6,8 +6,8 @@ meta:
   title: Présentation générale | Just Eat Takeaway | HubRise
   description: Présentation générale de Just Eat Takeaway Bridge, les raisons de connecter Just Eat Takeaway à HubRise et récapitulatif des fonctionnalités intégrées avec HubRise.
 gallery:
-  - __gallery-001-en.png
-  - __gallery-002-en.png
+  - __gallery-001-fr.png
+  - __gallery-002-fr.png
 path_override: /
 app_info:
   category: Plateformes de livraison de repas

@@ -17,13 +17,13 @@ Les commandes Just Eat Takeaway contiennent des informations complètes sur les 
 
 Une commande Just Eat passe par plusieurs statuts au cours de son cycle de vie :
 
-- `Confirmé` : la commande a été confirmée.
-- `Erreur` : une erreur s'est produite. Un représentant de Just Eat Takeaway appelle le restaurant.
-- `Cuisine` : le restaurant a commencé à préparer la commande.
-- `En cours de livraison` : la commande est en cours de livraison.
-- `Livré` : la commande a été livrée.
+- `Confirmed` : la commande a été confirmée.
+- `Error` : une erreur s'est produite. Un représentant de Just Eat Takeaway appelle le restaurant.
+- `Kitchen` : le restaurant a commencé à préparer la commande.
+- `In Delivery` : la commande est en cours de livraison.
+- `Delivered` : la commande a été livrée.
 
-Just Eat Takeaway attend au minimum que chaque commande réussie soit marquée comme ayant le statut `Confirmé`.
+Just Eat Takeaway attend au minimum que chaque commande réussie soit marquée comme ayant le statut `Confirmed`.
 
 ### Modification du statut d'une commande dans Just Eat Takeaway
 
@@ -31,13 +31,13 @@ Lorsque le statut d'une commande change dans HubRise, Just Eat Takeaway Bridge e
 
 | Statut dans HubRise                               | Statut dans Just Eat Takeaway                                                   |
 | -------------------------------------------- | -------------------------------------------------------------------------- |
-| `new` (nouveau), `received` (reçu) ou `accepted` (accepté)              | Vous pouvez déterminer quel statut fait passer la commande en mode `Confirmé`. |
-| `rejected` (rejeté), `cancelled` (annulé) ou `delivery_failed` (échec de la livraison) | `Erreur`                                                                    |
-| `in_preparation (en cours de préparation)`                             | `Cuisine`                                                                  |
-| `in_delivery (en cours de livraison)`                                | `En livraison`                                                              |
-| `completed (terminé)`                                  | `Livré`                                                                |
+| `new`, `received` ou `accepted`              | Vous pouvez déterminer quel statut fait passer la commande en mode `Confirmed`. |
+| `rejected`, `cancelled` ou `delivery_failed` | `Error`                                                                    |
+| `in_preparation`                             | `Kitchen`                                                                  |
+| `in_delivery`                                | `In Delivery`                                                              |
+| `completed`                                  | `Delivered`                                                                |
 
-Just Eat Takeaway Bridge vous permet de décider quel statut de HubRise déclenche l'état `Confirmé`. Cette option est utile pour gérer différents scénarios lorsque votre logiciel de caisse actualise le statut de la commande. Par exemple, si votre logiciel de caisse marque une commande acceptée comme ayant le statut `received` (reçu) dans HubRise, vous pouvez toujours faire en sorte que Just Eat Takeaway reconnaisse que la commande a été confirmée.
+Just Eat Takeaway Bridge vous permet de décider quel statut de HubRise déclenche l'état `Confirmed`. Cette option est utile pour gérer différents scénarios lorsque votre logiciel de caisse actualise le statut de la commande. Par exemple, si votre logiciel de caisse marque une commande acceptée comme ayant le statut `received` (reçu) dans HubRise, vous pouvez toujours faire en sorte que Just Eat Takeaway reconnaisse que la commande a été confirmée.
 
 Les autres valeurs de statut dans HubRise ne sont pas prises en charge ni envoyées à Just Eat Takeaway.
 
@@ -50,7 +50,7 @@ Just Eat Takeaway Bridge ne modifie pas le statut des commandes dans HubRise.
 Just Eat Takeaway prend en charge trois types de service :
 
 - Livraison par coursier Just Eat Takeaway
-- Livraison par la flotte du restaurant
+- Livraison par les livreurs du restaurant
 - Retrait par les clients
 
 Ces types sont généralement associés à des codes ref spécifiques dans votre logiciel de caisse, que vous pouvez définir sur la page de configuration de l'instance Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre logiciel de caisse sur la [page Apps](/apps) de notre site internet.
@@ -62,8 +62,6 @@ Les coordonnées complètes du client sont fournies par Just Eat Takeaway pour t
 ## Remises et frais
 
 Dans la commande, vous pouvez trouver des informations sur les remises et les frais de livraison de Just Eat Takeaway, s'ils sont présents.
-
----
 
 ## Références techniques
 
@@ -222,4 +220,4 @@ Voici un exemple de requête pour les frais.
 
 ## Notes de préparation du client
 
-Les notes du client au niveau du produit sont encodées dans le champ `customer_notes`.
+Les notes de préparation du client au niveau du produit sont encodées dans le champ `customer_notes`.
