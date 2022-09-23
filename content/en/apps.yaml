@@ -203,6 +203,12 @@ content:
           title: Foodpanda
           description: Foodpanda is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. Available in 14 markets.
           additional_info:
+        - website: https://glovoapp.com
+          documentation: /apps/glovo
+          logo: glovo.png
+          title: Glovo
+          description: Glovo is an online food ordering and delivery platform for local restaurants. Customers can order food online or via a mobile app. Glovo also offers on demand delivery services. Available in 25 countries in Europe, Western Asia and Africa.
+          additional_info:
         - website:
           documentation: /apps/hop-delivery
           logo: hop-delivery.png
