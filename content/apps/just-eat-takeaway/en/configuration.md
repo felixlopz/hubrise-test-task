@@ -18,18 +18,18 @@ From this section, you can decide which language is used to localise your receip
 
 ## Service Types
 
-Service types such as delivery by the platform, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as delivery by the platform, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website [Apps page](/apps) to verify.
 
 Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
 This is useful if you have specific business requirements for financial reporting.
 
 ## Discounts
 
-This section allows you to specify the discount ref code applied to your products, in case you have one active on your Just Eat Takeaway store. Refer to your connected EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
+This section allows you to specify the discount ref code applied to your products, in case you have one active on your Just Eat Takeaway store. Refer to your connected EPOS documentation on the HubRise website [Apps page](/apps) to see how to obtain the corresponding ref code.
 
 ## Charges
 
-If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website [Apps page](/apps) to verify.
 
 In this section, you can specify the ref code for delivery charges applied by the delivery platform.
 
@@ -37,15 +37,15 @@ In this section, you can specify the ref code for delivery charges applied by th
 
 Just Eat Takeaway customers can pay for their order either online or by cash for restaurant delivery orders.
 
-This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
+This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website [Apps page](/apps) to verify the correct codes to use.
 
 ## Order Statuses
 
-Just Eat Takeaway requires you to mark every successful order as "confirmed". In this section, you can select which HubRise status change is used to send the confirmation to Just Eat Takeaway.
+Just Eat Takeaway requires you to mark every successful order as `confirmed`. In this section, you can select which HubRise status change is used to send the confirmation to Just Eat Takeaway.
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Just Eat Takeaway Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Just Eat Takeaway Bridge, click **Save** at the top of the page to go back to the **Latest operatins** page.
 
 ## Reset the Configuration
 

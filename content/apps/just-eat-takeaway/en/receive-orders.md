@@ -7,7 +7,7 @@ meta:
   description: Find out the technical details of how orders are received from Just Eat Takeaway to HubRise, which fields are passed and which are not.
 ---
 
-Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS. This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
+Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS or other connected apps. This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
 
 ## Items and Options
 
@@ -90,7 +90,7 @@ For every item in the order, Just Eat Takeaway Bridge provides the following inf
 
 For every option in the order, Just Eat Bridge provides the following information:
 
-- `option_list_name`: The placeholder for the option list name, with default value "Options"
+- `option_list_name`: The placeholder for the option list name, with default value `Options`
 - `ref`: The ref code of the option
 - `name`: The option name
 - `price`: The price for a single item
@@ -175,7 +175,7 @@ The discount applied to the order is passed as a single object in the HubRise `d
 
 The available fields in the payload are the following:
 
-- `name`: The name of the discount, which is "Discount" by default.
+- `name`: The name of the discount, which is `Discount` by default.
 - `ref`: The ref code of the discount. Its default value can be set from the Configuration page of Just Eat Takeaway Bridge and should match the value in your EPOS.
 - `price_off`: The total amount of the discount.
 
@@ -202,7 +202,7 @@ Just Eat Takeaway Bridge encodes this information in the `charges` array.
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the delivery charge, which is "Delivery charge" by default.
+- `name`: The name of the delivery charge, which is `Delivery charge` by default.
 - `type`: The type of charge. It has always the value `delivery`.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Just Eat Bridge and should match the value in your EPOS.
 - `price`: The total amount of the delivery charge.
