@@ -7,7 +7,7 @@ meta:
   description: See how to connect your Just Eat Takeaway online store to HubRise. Connection is simple. Send the link of your Just Eat Takeaway page to HubRise and follow a few steps to connect.
 ---
 
-Connecting Just Eat Takeaway to HubRise can be done with a few simple steps.
+Connecting Just Eat Takeaway to HubRise can be done with a few steps.
 
 ---
 
@@ -46,7 +46,7 @@ Most apps require products ref codes to process orders correctly. You can either
 
 For more information, see [Map Ref Codes](/apps/just-eat-takeaway/connect-hubrise).
 
-## 3. Connect the Bridge
+## 3. Connect Just Eat Takeaway Bridge
 
 ---
 

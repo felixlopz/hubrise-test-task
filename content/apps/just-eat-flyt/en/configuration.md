@@ -14,7 +14,7 @@ These are divided into different sections for an easier navigation.
 
 ## Language
 
-From this section, you can decide which language is used to localise your receipts.
+Choose the language to use for generic items such as `Delivery charge`. These names may appear in your EPOS and in customer receipts.
 
 ## Orders
 
@@ -69,9 +69,15 @@ To quickly copy opening hours to all the following days on the list, click **Cop
 
 ---
 
+## Inventory
+
+You can push inventory data into Just Eat from the **Actions** page. When you do so, products set as out of stock in HubRise are hidden on Just Eat.
+
+You might also set the Just Eat Flyt Bridge to automatically push inventory to Just Eat whenever your HubRise inventory is updated. This is done by ticking the **Enable automatic inventory push** checkbox.
+
 ## Save the Configuration
 
-Once you are happy with the configuration of Just Eat Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Just Eat Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
 
 ## Reset the Configuration
 

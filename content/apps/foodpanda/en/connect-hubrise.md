@@ -7,7 +7,7 @@ meta:
   description: Instructions on connecting foodpanda with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-Connecting foodpanda to HubRise can be done with a few simple steps.
+Connecting foodpanda to HubRise can be done with a few steps.
 
 ---
 
@@ -27,7 +27,7 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 We will then contact foodpanda on your behalf to enable the connection.
 The activation typically takes a few days.
 
-## 2. Connect the Bridge
+## 2. Connect foodpanda Bridge
 
 ---
 

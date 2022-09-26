@@ -7,7 +7,7 @@ meta:
   description: Find out the technical details of how orders are received from Deliveroo into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS.
+Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS or any other solution connected to your HubRise account.
 
 Your Deliveroo tablet needs to remain switched on to receive orders. Orders can either be manually accepted on the tablet, or auto-accepted. For more information, see [How Can I Auto-Accept Orders?](/apps/deliveroo/faqs/auto-accept/). Deliveroo is planning to support tabletless integration in the future.
 
@@ -139,7 +139,7 @@ Delivery charges are applied for orders delivered by the restaurant.
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the delivery charge, which is "Delivery charge" by default.
+- `name`: The name of the delivery charge, which is `Delivery charge` by default.
 - `type`: The type of charge. It has always the value `delivery`.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
 - `price`: The total amount of the delivery charge.
@@ -150,7 +150,7 @@ Small order surcharges, applied when the total price for an order is below the m
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the charge, which is "Surcharge" by default.
+- `name`: The name of the charge, which is `Surcharge` by default.
 - `type`: The type of charge. It has always the value `other`.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
 - `price`: The total amount of the small order surcharge.

@@ -7,7 +7,7 @@ meta:
   description: Instructions on connecting Shopify with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-Connecting Shopify to HubRise can be done with a few simple steps.
+Connecting Shopify to HubRise can be done with a few steps.
 
 ---
 

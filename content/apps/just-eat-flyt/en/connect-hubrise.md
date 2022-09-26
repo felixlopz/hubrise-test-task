@@ -7,7 +7,7 @@ meta:
   description: See how to connect your Just Eat online store to HubRise. Connection is simple. Send the link of your Just Eat page to HubRise and follow a few steps to connect.
 ---
 
-Connecting Just Eat to HubRise can be done with a few simple steps.
+Connecting Just Eat to HubRise can be done with a few steps.
 
 ---
 
@@ -15,9 +15,9 @@ Connecting Just Eat to HubRise can be done with a few simple steps.
 
 ---
 
-## 1. Enable the API Integration
+## 1. Enable HubRise on Just Eat Flyt
 
-As a first step, the HubRise Flyt API integration must be enabled on your Just Eat account.
+As a first step, the HubRise integration must be enabled on your Just Eat account.
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
@@ -27,9 +27,9 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 - Whether your Just Eat store is already connected to another middleware or EPOS.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 
-With this information in hand, HubRise will request the Flyt integration team to enable the HubRise Flyt API integration for your store. Once this is done, the Flyt team will provide the required credentials to connect.
+With this information in hand, HubRise will request the Just Eat integration team to enable the HubRise Flyt API integration for your store. Once this is done, the Flyt team will provide the required credentials to connect.
 
-## 2. Connect the Bridge
+## 2. Connect Just Eat Flyt Bridge
 
 ---
 
@@ -44,12 +44,12 @@ To connect Just Eat Flyt Bridge to HubRise, follow these steps.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Just Eat Flyt Bridge** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant Just Eat Flyt Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
-1. A new page asks you to provide your Just Eat credentials:
-   - The API key for uploading the menu
-   - The POS business name
-   - Flyt location ID
-     Enter the credentials in the page, then click **Save** to complete the connection process.
+1. Click **Allow** to grant Just Eat Flyt Bridge permission to access the location of your store registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. A new page asks you to enter your credentials:
+   - **Menu API key**: The API key used by HubRise for uploading the menu.
+   - **Order API key**: The API key used by HubRise for receiving and updating orders.
+   - **Restaurant ID**: Your store unique identifier.
+     HubRise will provide the above credentials. Once you have them, copy and paste them into the corresponding fields, then click **Save** to complete the connection process.
 
 ![Credentials page for Just Eat Flyt Bridge](../images/001-en-just-eat-credentials.png)
 
@@ -59,8 +59,8 @@ After connecting the bridge, you need to configure a few parameters on the Confi
 
 For more information about the Configuration page and how to navigate to it, see [User Interface](/apps/just-eat-flyt/user-interface/#configuration-page). For details on how to configure the parameters of Just Eat Flyt Bridge, see [Configuration](/apps/just-eat-flyt/configuration).
 
-## 4. Upload Your Menu
+## 4. Push Your Menu
 
-For the Just Eat Flyt integration to be activated, you need to upload your HubRise catalog into Just Eat Flyt.
+For the Just Eat Flyt integration to be activated, you need to push your HubRise catalog into Just Eat Flyt.
 
-To learn how to upload your HubRise catalog into Just Eat, see [Pulling the Menu](/apps/just-eat-flyt/configuration#pulling-the-menu). For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+To learn how to push your HubRise catalog into Just Eat, see [Push the Catalog](/apps/just-eat-flyt/push-catalog). For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).

@@ -7,7 +7,7 @@ meta:
   description: Find out the technical details of how orders are received from Just Eat into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Just Eat to HubRise allows you to receive Just Eat orders directly in your EPOS.
+Connecting Just Eat to HubRise allows you to receive Just Eat orders directly in your EPOS or any other solution connected to your HubRise account.
 
 The Just Eat OrderPad will need to remain switched on to receive orders in HubRise. For more information, see [Can I Turn Off the Orderpad?](/apps/just-eat-flyt/faqs/turn-off-orderpad/). Orders can either be manually accepted on the OrderPad, or auto-accepted in some Just Eat markets. For more information, see [Do I Want Auto-Accept Activated?](/apps/just-eat-flyt/faqs/auto-accept/)
 
@@ -15,7 +15,7 @@ This page describes the information Just Eat sends to HubRise. It helps you unde
 
 ## Items and Options
 
-Just Eat orders contain the complete information about items and options, including name, POS ref code, quantity, and price. Deals, however, are not supported on Just Eat.
+Just Eat orders contain the complete information about items and options, including name, POS ref code, quantity, and price.
 
 Customers' comments on single products are not supported on Just Eat. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Just Eat menu, so that they are correctly encoded.
 
@@ -44,7 +44,7 @@ Other HubRise status values are not supported and are not sent to Just Eat.
 
 ### Change the Status of an Order in HubRise
 
-Just Eat Bridge does not change order statuses in HubRise.
+Just Eat Bridge does not change order statuses in HubRise. If an order is cancelled by Just Eat, HubRise will not be notified. 
 
 ## Service Types
 
@@ -72,8 +72,6 @@ Discounts are not supported on Just Eat, and no information is provided in the A
 
 Just Eat Flyt Bridge encodes two types of charges: Delivery charge, and service surcharge.
 
----
-
 ## Technical Reference
 
 This section describes how orders are encoded in the JSON payloads you receive from Just Eat Flyt Bridge.
@@ -97,7 +95,7 @@ For every item in the order, Just Eat Flyt Bridge provides the following informa
 
 For every option in the order, Just Eat Flyt Bridge provides the following information:
 
-- `option_list_name`: The placeholder for the option list name, with default value "Options"
+- `option_list_name`: The placeholder for the option list name, with default value `Options`
 - `ref`: The ref code of the option
 - `name`: The option name
 - `price`: The price for a single option
@@ -176,7 +174,7 @@ Delivery charges are applied for orders delivered by the restaurant.
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the delivery charge, which is "Delivery charge" by default.
+- `name`: The name of the delivery charge, which is `Delivery charge` by default.
 - `type`: The type of charge. It has always the value `delivery`.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Just Eat Bridge and should match the value in your EPOS.
 - `price`: The total amount of the delivery charge.
@@ -187,7 +185,7 @@ Just Eat applies a fixed surcharge to all the orders.
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the charge, which is "Service charge" by default.
+- `name`: The name of the charge, which is `Service charge` by default.
 - `type`: The type of charge. It has always the value `other`.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Just Eat Bridge and should match the value in your EPOS.
 - `price`: The total amount of the small order surcharge.
