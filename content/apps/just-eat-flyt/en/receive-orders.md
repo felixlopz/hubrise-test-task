@@ -15,7 +15,7 @@ This page describes the information Just Eat sends to HubRise. It helps you unde
 
 ## Items and Options
 
-Just Eat orders contain the complete information about items and options, including name, POS ref code, quantity, and price. Deals, however, are not supported on Just Eat.
+Just Eat orders contain the complete information about items and options, including name, POS ref code, quantity, and price.
 
 Customers' comments on single products are not supported on Just Eat. If you rely on these comments for cooking or serving instructions (for example, "Medium rare cooking", or "Cut in slices"), you should add the corresponding items in your EPOS and include them as options in the Just Eat menu, so that they are correctly encoded.
 

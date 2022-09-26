@@ -127,9 +127,18 @@ For every option in an option list, the following information is sent to Just Ea
 - `name`: The option name
 - `price`: The price for a single option
 
-### Deals and Discounts
+### Deals
 
-Deals and discounts are not supported on Just Eat. Therefore, deals and discounts present in your HubRise catalog are ignored and are not pulled into Just Eat.
+For each deal in the catalog, Just Eat Flyt Bridge creates a product on Just Eat with the following details:
+
+- `name`: The name of the deal becomes the name of the product.
+- `category_ref`: If empty, Just Eat Flyt Bridge creates a default category in Just Eat called "Offers".
+- `ref`: The ref code of the deal becomes the ref of the product, preceded by `DEAL-`. For example, for a deal with ref code `abc123`, Just Eat Flyt Bridge creates a Just Eat product with ref code `DEAL-abc123`.
+- `lines`: For each object in the array, Just Eat Flyt Bridge creates a list of modifiers, with `lines.name` as the name.
+
+### Discounts
+
+Discounts are not supported on Just Eat. Therefore, discounts present in your HubRise catalog are ignored and are not pulled into Just Eat.
 
 ### Opening hours
 
