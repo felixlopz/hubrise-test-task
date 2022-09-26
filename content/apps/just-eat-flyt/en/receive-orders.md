@@ -44,7 +44,7 @@ Other HubRise status values are not supported and are not sent to Just Eat.
 
 ### Change the Status of an Order in HubRise
 
-Just Eat Bridge does not change order statuses in HubRise. If an order is cancelled by Just Eat, HubRise will not be notified. 
+Just Eat Bridge does not change order statuses in HubRise. If an order is cancelled by Just Eat, HubRise will not be notified.
 
 ## Service Types
 

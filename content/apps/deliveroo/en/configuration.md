@@ -72,7 +72,6 @@ To obtain a public URL for your banner image, send an email to [support@hubrise.
 
 ---
 
-
 ## Inventory
 
 You can push inventory data into Deliveroo from the **Actions** page. When you do so, products set as out of stock in HubRise are hidden on Deliveroo.
