@@ -15,9 +15,9 @@ This page explains how to push your catalog, and what information is sent to Ube
 
 ## Populate a HubRise Catalog
 
-To be able to update your menu in Uber Eats, you should populate a HubRise catalog first.
+To update your menu in Uber Eats, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-Many apps connected with HubRise, including EPOS solutions, offer the ability to export their catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify. You can also create a catalog from scratch using Catalog Manager, an app included in your HubRise subscription.
+Alternatively, you can populate a HubRise catalog by pulling your menu from Deliveroo.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -143,7 +143,7 @@ For each deal in the catalog, Uber Eats Bridge creates a Uber Eats product with 
 
 - `name`: The name of the deal becomes the name of the product.
 - `category_ref`: If empty, Uber Eats Bridge creates a default category in Uber Eats called "Offers".
-- `ref`: The ref code of the deal becomes the ref of the product, preceeded by `DEAL-`. For example, for a deal with ref code `abc123`, Uber Eats Bridge creates a Uber Eats product with plu `DEAL-abc123`.
+- `ref`: The ref code of the deal becomes the ref of the product, preceded by `DEAL-`. For example, for a deal with ref code `abc123`, Uber Eats Bridge creates a Uber Eats product with plu `DEAL-abc123`.
 - `lines`: For each object in the array, Uber Eats Bridge creates a list of modifiers, with `lines.name` as the name.
 
 By default, when customers order a deal, they must choose one product for every deal line.

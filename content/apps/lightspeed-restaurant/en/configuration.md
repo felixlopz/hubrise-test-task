@@ -14,7 +14,7 @@ These are divided into different sections for an easier navigation.
 
 ## Language
 
-From this section, you can decide which language is used to localise your receipts.
+Choose the language to use for generic items such as `Delivery charge`. These names may appear in customer receipts.
 
 ## Catalog
 
