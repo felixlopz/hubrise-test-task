@@ -10,7 +10,7 @@ gallery:
   - __gallery-002.png
 path_override: /
 app_info:
-  category: Food Ordering Platforms 
+  category: Food Ordering Platforms
   availability: 25+ countries
   price_range:
   website: https://glovoapp.com
@@ -27,19 +27,18 @@ app_info:
 
 Glovo is an online food ordering and delivery service platform for restaurants and convenience stores. Customers can order food online or via a mobile app. Glovo also offers on demand courier services for pharmacy, or other goods. They aim to give anyone access to anything in their city.
 
-Glovo headquarters is based in spain, but the company operates in 25 different countries in Europe, Western Asia and Africa.
+Glovo is headquartered in Barcelona, Spain, but the company operates in 25 different countries in Europe, Western Asia and Africa.
 
 ## Integration Features
 
-Connecting Glovo to HubRise allows HubRise to:
+Connecting Glovo Bridge allows HubRise to:
 
 - Pull orders from Glovo, including order status.
 - Pull customer information from Glovo, for orders delivered by the restaurant.
 - Push a catalog into Glovo.
 - Synchronise inventory with HubRise.
-  
-![Diagram of the connection flow between Glovo, Glovo Bridge, and HubRise](../images/000-en-2x-glovo-connection-diagram.png)
 
+![Diagram of the connection flow between Glovo, Glovo Bridge, and HubRise](../images/000-en-2x-glovo-connection-diagram.png)
 
 Glovo Bridge can be connected to HubRise from the HubRise back office.
 
@@ -51,4 +50,4 @@ Thanks to HubRise, you can synchronise your menu, your customer information and 
 
 ## Prerequisites
 
-To establish a connection between Glovo and HubRise via Glovo Bridge, your restaurant must be a Glovo partner. 
+To establish a connection between Glovo and HubRise via Glovo Bridge, your restaurant must be a Glovo partner.

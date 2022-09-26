@@ -17,7 +17,6 @@ app_info:
   contact:
 ---
 
-
 ---
 
 **REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
@@ -26,21 +25,20 @@ app_info:
 
 ## Description
 
-Glovo est une plateforme de commande et de livraison de repas en ligne destinée aux restaurants et aux commerces de proximité. Glovo offre également un service de livraison pour les pharmacies et d'autres types de biens. Ils visent à donner à tous accès à tout type de bien dans leur ville.
+Glovo est une plateforme de commande et de livraison de repas en ligne destinée aux restaurants et aux commerces de proximité. Glovo offre également un service de livraison pour les pharmacies et d'autres types de biens. Ils visent à donner à tous accès à tout type de biens dans leur ville.
 
-Le siège de Glovo est situé en Espagne mais l'entreprise est présente dans 25 pays différents situés en Europe, en Asie occidentale et en Afrique.
+Glovo est basée à Barcelone en Espagne, mais l'entreprise est présente dans 25 pays en Europe, en Asie occidentale et en Afrique.
 
 ## Fonctionnalités de l'intégration
 
-Connecter Glovo à HubRise permet à HubRise de :
+Connecter Glovo Bridge permet à HubRise de :
 
 - Recevoir les commandes de Glovo, y compris le statut de commande.
 - Recevoir les informations de livraison de Glovo, pour les commandes livrées par le restaurant.
-- nvoyer un catalogue vers Glovo.
+- Envoyer un catalogue vers Glovo.
 - Synchroniser l'inventaire avec HubRise.
 
 ![Schéma du flux de connexion entre Glovo, Glovo Bridge et HubRise](../images/000-fr-2x-glovo-connection-diagram.png)
-
 
 Glovo Bridge peut être connecté à HubRise depuis le back-office de HubRise.
 
@@ -52,4 +50,4 @@ Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients
 
 ## Prérequis
 
-Pour permettre la connexion entre Glovo et HubRise, via Glovo Bridge, votre restaurant doit être partenaire de Glovo.  
+Pour permettre la connexion entre Glovo et HubRise, via Glovo Bridge, votre restaurant doit être partenaire de Glovo.
