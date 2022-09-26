@@ -7,7 +7,9 @@ meta:
   description: Find out the technical details of how orders are pulled from WooCommerce into HubRise, which fields are passed and which are not.
 ---
 
-Connecting WooCommerce to HubRise allows you to receive orders directly in your EPOS. This page describes the information that HubRise receives from WooCommerce for your orders.
+Connecting WooCommerce to HubRise allows you to receive orders directly in your EPOS or any other solution connected to your HubRise account.
+
+This page describes the information that HubRise receives from WooCommerce for your orders.
 
 ## Items and Options
 
@@ -109,7 +111,7 @@ For every item in the order, WooCommerce Bridge provides the following informati
 
 If a product contains an option, WooCommerce Bridge provides the following information:
 
-- `option_list_name`: The placeholder for the option list name, with default value "Options"
+- `option_list_name`: The placeholder for the option list name, with default value `Options`
 - `name`: The option name
 
 A product can have at most one attached option.
@@ -160,7 +162,7 @@ Delivery charges are applied for orders delivered by the restaurant.
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the delivery charge, which is "Delivery charge" by default.
+- `name`: The name of the delivery charge, which is `Delivery charge` by default.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of WooCommerce Bridge and should match the value in your EPOS.
 - `price`: The total amount of the delivery charge.
 

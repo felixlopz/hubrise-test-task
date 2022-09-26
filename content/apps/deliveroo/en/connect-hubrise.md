@@ -7,7 +7,7 @@ meta:
   description: Instructions on connecting Deliveroo with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-Connecting Deliveroo to HubRise can be done with a few simple steps.
+Connecting Deliveroo to HubRise can be done with a few steps.
 
 ---
 
@@ -31,7 +31,7 @@ With this information in hand, the Deliveroo integration team will enable the Hu
 
 Alternatively, [enable HubRise directly from your Deliveroo back office](/apps/deliveroo/faqs/connect-from-deliveroo-back-office).
 
-## 2. Connect the Bridge
+## 2. Connect Deliveroo Bridge
 
 ---
 

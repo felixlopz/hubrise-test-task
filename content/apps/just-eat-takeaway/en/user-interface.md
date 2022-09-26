@@ -19,7 +19,8 @@ Each row in the page shows the following information about an operation:
 
 - **TIME**: The date and time of the order.
 - **ORDER**: The HubRise order ID, for order operations.
-- **STATUS**: The status of the order. The value OK indicates that the order has been successfully sent, otherwise an error code will be displayed in red.
+- **DESCRIPTION**: An optional description for operations that are not related to a specific order. It could be empty, or inform of a `System request` or a `Catalog push`.
+- **STATUS**: The status of the order. The value `OK` indicates that the order has been successfully sent, otherwise an error code will be displayed in red.
 
 The **System request** label indicates that the operation is not related to a specific order.
 
@@ -35,9 +36,9 @@ Requests are ordered with the latest on top, and those related to the same order
 
 Each row in the logs displays the following information:
 
-- **TIME**: The date and time the request was sent.
-- **DIRECTION**: The apps sending and receiving the request, in the format Origin → Destination.
-- **STATUS**: The status of the request. The value OK indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
+- **Time**: The date and time the request was sent.
+- **Direction**: The apps sending and receiving the request, in the format Origin → Destination.
+- **Endpoint**: The status of the request. The value `OK` indicates that the request has been successfully received, otherwise a message will explain the type of error occurred.
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
@@ -49,7 +50,7 @@ Logs are a powerful debugging tool in case of issues. To understand in detail ho
 
 The layout of a system request page is identical to that of an order page.
 
-System requests are generally sent by Just Eat Takeaway Bridge to notify HubRise about a change in the configuration or to populate the UI with the most up-to-date information. As an example, the following image displays a request to update the Just Eat Takeaway Bridge callback after a configuration change.
+System requests are generally sent by Just Eat Takeaway Bridge to notify HubRise about a change in the configuration or to fetch the most up-to-date information. As an example, the following image displays a request to update the Just Eat Takeaway Bridge callback after a configuration change.
 
 ![System request page on Just Eat Takeaway Bridge](../images/005-en-jet-system-request.png)
 
@@ -63,7 +64,7 @@ Clicking on the Just Eat and HubRise logos on top of any page of Just Eat Takeaw
 
 ## Configuration Page
 
-To access the Just Eat Takeaway Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
+To access the Just Eat Takeaway Bridge configuration page, open the **Configuration** tab or click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right hand corner of the page to expand the menu, then click **Configuration**.
 
 ![Just Eat Takeaway Bridge configuration page](../images/002-en-jet-configuration-page.png)
 

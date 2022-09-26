@@ -17,7 +17,7 @@ These are divided into different sections for an easier navigation.
 
 ## Language
 
-From this section, you can decide which language is used to localise your receipts.
+Choose the language to use for generic items such as `Delivery charge`. These names may appear in your EPOS and in customer receipts.
 
 ## Orders
 
@@ -25,7 +25,7 @@ From this section, you can decide which language is used to localise your receip
 
 Service types such as Uber Eats delivery, restaurant delivery, takeaway, or eat-in might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
 
-Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
+Additionally, from this section you can choose to mark Uber Eats orders as delivery orders or collection orders.
 This is useful if you have specific business requirements for financial reporting.
 
 ### Special Items
@@ -85,9 +85,15 @@ Select if you want to enable customer notes for individual products in Uber Eats
 
 ---
 
+## Inventory
+
+You can push inventory data into Uber Eats from the **Actions** page. When you do so, products set as out of stock in HubRise are hidden on Uber Eats.
+
+You might also set the Uber Eats Bridge to automatically push inventory to Uber Eats whenever your HubRise inventory is updated. This is done by ticking the **Enable automatic inventory push** checkbox.
+
 ## Save the Configuration
 
-Once you are happy with the configuration of Uber Eats Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Uber Eats Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
 
 ## Reset the Configuration
 
