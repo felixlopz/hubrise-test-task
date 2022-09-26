@@ -25,7 +25,11 @@ app_info:
 
 French Caisse est une caisse enregistreuse conçue en France pour le marché français. French Caisse répond également aux besoins du marché Suisse. 
 
-French Caisse peut être utilisée dans de nombreux types commerces, dont la restauration, les boulangeries, les épiceries et les coiffeurs. La caisse tactile peut être accompagnée d'une borne de commande sur place, d'un site marchand et d'une carte de fidélité. Elle vient avec un écran cuisine, un écran de production et une application spécifique pour les livreurs. Une prise de commande sur tablette et la gestion de stock permettent de faciliter les opérations au quotidien. 
+French Caisse peut être utilisée dans de nombreux types commerces, dont la restauration, les boulangeries, les épiceries et les coiffeurs. La caisse tactile peut être accompagnée d'un monnayeur, d'une borne de commande sur place, d'un site marchand et d'une carte de fidélité.
+
+French Caisse est fourni avec un écran cuisine, un écran de production et une application spécifique pour les livreurs. Une prise de commande sur tablette et un outil de gestion de stock permettent de faciliter les opérations au quotidien. 
+
+French Caisse est personnalisable et offre une prise en mains rapide, sans formation préalable.
 
 French Caisse est conforme à la loi française "anti-fraudes" du 1er janvier 2018. L'éditeur fournit une attestation de conformité.
 
