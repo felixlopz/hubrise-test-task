@@ -199,6 +199,12 @@ content:
           title: Foodpanda
           description: Foodpanda est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Disponible dans 14 pays.
           additional_info:
+        - website: https://glovoapp.com
+          documentation: /apps/glovo
+          logo: glovo.png
+          title: Glovo
+          description: Glovo est une plateforme de commande de repas avec service de livraison à domicile. Les clients peuvent commander en ligne ou via une app mobile. Glovo propose également des services de livraison sur demande. Disponible dans 25 pays en Europe, en Asie occidentale et en Afrique.
+          additional_info:
         - website:
           documentation: /apps/hop-delivery
           logo: hop-delivery.png
