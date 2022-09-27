@@ -50,7 +50,7 @@ For more information, see [Map Ref Codes](/apps/just-eat-takeaway/map-ref-codes)
 
 ---
 
-**IMPORTANT NOTE:** Just Eat Takeaway Bridge connects to HubRise at the location level. For more information, see our online help page [Locations](/docs/locations/).
+**IMPORTANT NOTE:** Just Eat Takeaway Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
 
 ---
 

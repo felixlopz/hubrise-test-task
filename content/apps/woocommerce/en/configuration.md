@@ -36,7 +36,7 @@ To update prices of existing products, tick the **Update prices of existing prod
 
 ## Save the Configuration
 
-Once you are happy with the configuration of WooCommerce Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of WooCommerce Bridge, click **Save** at the top of the page to go back to the **Latest operatins** page.
 
 ## Reset the Configuration
 

@@ -1,6 +1,6 @@
 ---
 title: Map Ref Codes
-position: 3
+position: 5
 layout: documentation
 meta:
   title: Map Ref Codes | Just Eat Takeaway | HubRise
@@ -11,12 +11,8 @@ Most EPOS solutions require a ref code for each product to correctly parse order
 
 To assign ref codes to your products, contact your Just Eat Takeaway account manager and provide them with the list of products and ref codes from your EPOS.
 
-Alternatively, you can map ref codes autonomously from the Just Eat Takeaway back office. Navigate to the **Menu** tab and fill in the ref codes in the empty fields. The following screenshot illustrates how to enter ref codes in the back office.
+Alternatively, you can map ref codes autonomously from the Just Eat Takeaway back office. Navigate to the **Menu** tab and fill in the ref codes in the empty fields. The following screenshot illustrates how to enter ref codes in the back office. The exact design may vary depending on your local Just Eat Takeaway platform.
 
 ![Entering ref codes in the Just Eat Takeaway portal](../images/006-fr-jet-entering-ref-codes.png)
 
----
-
-**IMPORTANT NOTE:** The exact steps of the update procedure might vary between the local Just Eat Takeaway platforms and features activated in your back office. Contact your Just Eat Takeaway account manager to verify if you can have access to a full menu editor and not only access to enter product ref codes.
-
----
+Mid-2022, Just Eat launched a full menu editor, available for some clients. To activate this feature, contact your Just Eat Takeaway account manager.

@@ -46,6 +46,6 @@ To connect foodpanda Bridge to HubRise, follow these steps.
 
 ## 3. Configure Your Preferences
 
-After connecting the bridge, you need to configure a few parameters on the Configuration page to send orders correctly to your EPOS.
+After connecting the bridge, you need to configure a few parameters on the **Configuration** page to send orders correctly to your EPOS.
 
-For more information about the Configuration page and how to navigate to it, see [User Interface](/apps/foodpanda/user-interface/#configuration-page). For details on how to configure the parameters of foodpanda Bridge, see [Configuration](/apps/foodpanda/configuration).
+For more information about the configuration page and how to navigate to it, see [Configuration Page](/apps/foodpanda/user-interface/#configuration-page). For details on how to configure the parameters of foodpanda Bridge, see [Configuration](/apps/foodpanda/configuration).

@@ -30,7 +30,7 @@ By default, Lightspeed Restaurant Bridge does not pull Lightspeed sales into Hub
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Lightspeed Restaurant Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Lightspeed Restaurant Bridge, click **Save** at the top of the page to go back to the **Latest operatins** page.
 
 ## Reset the Configuration
 

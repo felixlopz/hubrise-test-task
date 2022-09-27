@@ -125,7 +125,7 @@ The discount applied to the order is passed in a single object in the HubRise `d
 
 The available fields in the payload are the following:
 
-- `name`: The name of the discount, which is "Discount" by default.
+- `name`: The name of the discount, which is `Discount` by default.
 - `ref`: The ref code of the discount. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
 - `price_off`: The total amount of the discount.
 
