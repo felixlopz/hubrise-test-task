@@ -7,11 +7,11 @@ meta:
   description: Instructions on navigating Uber Eats Bridge main page to access information about the orders and customise the behaviour of the bridge. Synchronise your data.
 ---
 
-From the main page of Uber Eats Bridge, you can read the logs of all the operations between HubRise and Uber Eats, and access the configuration settings of the integration.
+From Uber Eats Bridge, you can read the logs of all the operations between HubRise and Uber Eats, and access the configuration settings of the integration.
 
-## Operations Page
+## Latest Operations
 
-The main page displays the latest API operations between HubRise, Uber Eats, and Uber Eats Bridge.
+This is the default page when you open the bridge. It displays the latest API operations between HubRise, Uber Eats, and Uber Eats Bridge.
 
 Operations can either be related to a specific order, or be generic system requests performed by Uber Eats Bridge.
 
@@ -28,7 +28,7 @@ The "System request" label indicates that the operation is not related to a spec
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
-## Orders Page
+### Order Operation
 
 Selecting an order operation from the list in the main page will display all the logs of the API requests exchanged between HubRise and Uber Eats via Uber Eats Bridge.
 
@@ -46,7 +46,7 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
-## System Request Page
+### System Request Operation
 
 The layout of a system request page is identical to that of an order page.
 
@@ -56,14 +56,14 @@ System requests are generally sent by Uber Eats Bridge to notify HubRise about a
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
-## Language and Navigation
-
-At the top right corner of the main page, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> to expand the menu. From there, you can change the language of the page to English or French.
-
-Clicking on the Uber Eats and HubRise logos on top of any page of Uber Eats Bridge will bring you back to the main page.
-
-## Configuration Page
+## Configuration
 
 To access the Uber Eats Bridge configuration page, open the **Configuration** tab or click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right hand corner of the page to expand the menu, then click **Configuration**.
 
 From this page, you will be able to customise the behaviour of Uber Eats Bridge. For more details, see [Configuration](/apps/uber-eats/configuration).
+
+## Language and Navigation
+
+In the top right corner of the screen, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> to expand the menu. From there, you can change the language of the page to English or French.
+
+Clicking on the Uber Eats and HubRise logos on top of any page of Uber Eats Bridge will bring you back to the **Latest Operations** page.

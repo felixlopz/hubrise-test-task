@@ -7,7 +7,7 @@ meta:
   description: Instructions on configuring Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-The Configuration page can be accessed by clicking on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the main page. For more details, see [User Interface](/apps/uber-eats/user-interface).
+The Configuration page can be accessed by clicking on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> In the top right corner of the screen. For more details, see [User Interface](/apps/uber-eats/user-interface).
 
 The Configuration page allows you to customise the behaviour of Uber Eats Bridge based on your preferences.
 

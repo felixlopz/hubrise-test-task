@@ -46,16 +46,16 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 A detailed description of the logs can be found in [Understanding Logs](/apps/pixelpoint-bridge/understanding-logs).
 
-## Language and Navigation
+## Configuration
 
-At the top right corner of the main page, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/007-arrow.jpg)</InlineImage> to expand the menu. From there, you can change the language of the page to English or French.
-
-Clicking on the PixelPoint and HubRise logos on top of any page of PixelPoint Bridge will bring you back to the main page.
-
-## Configuration Page
-
-To access the PixelPoint Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/007-arrow.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
+To access the PixelPoint Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/007-arrow.jpg)</InlineImage> in the top right corner of the page to expand the menu, then click **Configuration**.
 
 ![PixelPoint Bridge configuration page](../images/003-en-pixelpoint-configuration-page.png)
 
 From this page, you will be able to customise the behaviour of PixelPoint Bridge. For more details, see [Configuration](/apps/pixelpoint-bridge/configuration).
+
+## Language and Navigation
+
+In the top right corner of the screen, you can click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/007-arrow.jpg)</InlineImage> to expand the menu. From there, you can change the language of the page to English or French.
+
+Clicking on the PixelPoint and HubRise logos on top of any page of PixelPoint Bridge will bring you back to the **Latest Operations** page.
