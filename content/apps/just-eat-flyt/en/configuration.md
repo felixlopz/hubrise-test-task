@@ -20,7 +20,7 @@ Choose the language to use for generic items such as `Delivery charge`. These na
 
 ### Service Types
 
-Service types such as platform delivery, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as platform delivery, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify.
 
 Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
 This is useful if you have specific business requirements for financial reporting.
@@ -28,11 +28,11 @@ This is useful if you have specific business requirements for financial reportin
 ### Discounts
 
 In this section, include the ref code associated with Just Eat discounts on your EPOS.
-Refer to your connected EPOS documentation on the HubRise website to know how to handle discounts in your EPOS.
+Refer to your EPOS documentation on the HubRise website to know how to handle discounts in your EPOS.
 
 ### Charges
 
-If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
 In this section, you can specify the ref codes for the following charges:
 
@@ -46,7 +46,7 @@ In this section, you can specify the ref codes for the following charges:
 
 Just Eat customers can pay for their order either online or by cash for restaurant delivery orders.
 
-This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
+This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct codes to use.
 
 ## Catalog
 

@@ -18,18 +18,18 @@ Choose the language to use for generic items such as `Delivery charge`. These na
 
 ## Service Types
 
-Service types such as delivery by the platform, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as delivery by the platform, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify.
 
 Additionally, from this section you can choose to mark Just Eat orders as delivery orders or collection orders.
 This is useful if you have specific business requirements for financial reporting.
 
 ## Discounts
 
-This section allows you to specify the discount ref code applied to your products, in case you have one active on your Just Eat Takeaway store. Refer to your connected EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
+This section allows you to specify the discount ref code applied to your products, in case you have one active on your Just Eat Takeaway store. Refer to your EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
 
 ## Charges
 
-If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
 In this section, you can specify the ref code for delivery charges applied by the delivery platform.
 

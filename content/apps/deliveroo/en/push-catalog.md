@@ -15,7 +15,7 @@ This page explains how to push your catalog, and what information is sent to Del
 
 ## Populate a HubRise Catalog
 
-To update your menu in Deliveroo, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To update your menu in Deliveroo, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your EPOS documentation on the HubRise website to verify.
 
 Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats.
 

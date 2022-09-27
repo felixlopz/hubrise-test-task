@@ -24,7 +24,7 @@ In this section, you can specify the metadata fields to map. You must ensure tha
 
 ### Charges
 
-If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
 In this section, you can specify the ref code for delivery charges applied to orders.
 

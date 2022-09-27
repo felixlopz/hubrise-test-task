@@ -20,13 +20,13 @@ Choose the language to use for generic items such as `Delivery charge`. These na
 
 ### Service Types
 
-Service types such as delivery by Deliveroo, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as delivery by Deliveroo, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify.
 
 Additionally, from this section you can choose to mark Deliveroo orders as delivery orders or collection orders. This is useful if you have specific business requirements for financial reporting.
 
 ### Discounts
 
-This section allows you to specify the discount ref code applied to your products, in case you have one active on your Deliveroo page. Refer to your connected EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
+This section allows you to specify the discount ref code applied to your products, in case you have one active on your Deliveroo page. Refer to your EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
 
 Available discounts on Deliveroo appear in the **All offers** page in your Deliveroo back office.
 
@@ -34,7 +34,7 @@ Available discounts on Deliveroo appear in the **All offers** page in your Deliv
 
 ### Charges
 
-If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
 In this section, you can specify the ref code for delivery charges, and for surcharges applied to orders below the minimum price.
 
@@ -42,13 +42,13 @@ In this section, you can specify the ref code for delivery charges, and for surc
 
 Deliveroo customers can pay for their order either online or by cash for restaurant delivery orders.
 
-This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
+This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct codes to use.
 
 ### Order Statuses
 
 Deliveroo requires you to acknowledge every order you receive.
 In this section, you can select which HubRise status sends an order confirmation back to Deliveroo.
-Refer to your connected EPOS documentation on the HubRise website to verify the correct value.
+Refer to your EPOS documentation on the HubRise website to verify the correct value.
 
 ## Catalog
 

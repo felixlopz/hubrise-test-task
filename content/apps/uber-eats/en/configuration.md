@@ -23,7 +23,7 @@ Choose the language to use for generic items such as `Delivery charge`. These na
 
 ### Service Types
 
-Service types such as Uber Eats delivery, restaurant delivery, takeaway, or eat-in might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as Uber Eats delivery, restaurant delivery, takeaway, or eat-in might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify.
 
 Additionally, from this section you can choose to mark Uber Eats orders as delivery orders or collection orders.
 This is useful if you have specific business requirements for financial reporting.
@@ -38,7 +38,7 @@ You can request Uber Eats to disable this functionality. But if you prefer to ke
 
 ### Discounts
 
-**Discount ref code** is the ref code associated with Uber Eats discounts in your EPOS. Refer to your connected EPOS documentation on the HubRise website to know how to handle discounts in your EPOS.
+**Discount ref code** is the ref code associated with Uber Eats discounts in your EPOS. Refer to your EPOS documentation on the HubRise website to know how to handle discounts in your EPOS.
 
 ### Charges
 
@@ -52,11 +52,11 @@ The ref codes in this section are only applied to orders delivered by your resta
 
 ### Payments
 
-**Payment ref code** is the ref code associated with Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify and process Uber Eats payments. Refer to your connected EPOS documentation on the HubRise website to know how to handle Uber Eats payments in your EPOS.
+**Payment ref code** is the ref code associated with Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify and process Uber Eats payments. Refer to your EPOS documentation on the HubRise website to know how to handle Uber Eats payments in your EPOS.
 
 ### Order Statuses
 
-Select from the dropdown menu the HubRise status which should make the order accepted in Uber Eats. Refer to your connected EPOS documentation on the HubRise website for your EPOS requirements.
+Select from the dropdown menu the HubRise status which should make the order accepted in Uber Eats. Refer to your EPOS documentation on the HubRise website for your EPOS requirements.
 
 ## Catalog
 
