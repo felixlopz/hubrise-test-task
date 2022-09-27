@@ -62,4 +62,4 @@ Pour plus d'informations sur la page Configuration et la manière d'y accéder, 
 
 Pour que l'intégration de Just Eat Flyt soit activée, vous devez charger votre catalogue HubRise dans Just Eat Flyt.
 
-Pour savoir comment charger votre catalogue HubRise dans Just Eat, voir la rubrique [Envoi du catalogue](/apps/just-eat-flyt/envoi-catalogue#envoi-du-catalogue). Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalog/).
+Pour savoir comment charger votre catalogue HubRise dans Just Eat, voir la rubrique [Envoi du catalogue](/apps/just-eat-flyt/envoi-catalogue#envoi-du-catalogue). Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalogues/).
