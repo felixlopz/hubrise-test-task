@@ -32,10 +32,10 @@ For information on how to export your product catalog or menu into a HubRise cat
 
 Go to **Connections** and click on **Open** in Catalog Manager.
 
-![Catalog Manager Connections](../images/008-en-Connections-Catalog-Manager.png)
+![Catalog Manager Connections](../images/008-en-2x-Connections-Catalog-Manager.png)
 
 In Catalog Manager, click on **New catalog** and enter a name.
 
-![Catalog Manager Catalog list](../images/001-en-catalog-list.png)
+![Catalog Manager Catalog list](../images/001-en-2x-catalog-list.png)
 
 Once the new catalog has been created you can add categories, products, options, deals, discounts and charges. 

@@ -6,7 +6,7 @@ meta:
   title: Overview | Catalog Manager | HubRise
   description: Catalog Manager overview, reasons for connecting Catalog Manager to HubRise and summary of integrated features. Create and manage catalogs and product details.
 gallery:
-  - __gallery-001.png
+  - __gallery-en-001.png
 path_override: /
 app_info:
   category: Other Apps
@@ -27,8 +27,6 @@ Catalog Manager has the following features:
 - Option to create catalogs and product details manually, from scratch.
 
 Catalog Manager is a cloud based solution, available anywhere and on any device, computers, tablets and smartphones.
-
-![Catalog Manager Product Example](../images/015-en-product-example.png)
 
 ---
 

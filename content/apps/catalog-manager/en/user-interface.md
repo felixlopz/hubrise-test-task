@@ -15,7 +15,7 @@ Catalogs can be created globally across all locations, or at specific locations.
 
 When you open Catalog Manager from the **CONNECTIONS** console, the **Catalogs** page is displayed.  From here you can create new catalogs. You can also use the **Actions** dropdown to rename, duplicate or delete existing ones.
 
-![Catalog Manager Catalog list](../images/001-en-catalog-list.png)
+![Catalog Manager Catalog list](../images/001-en-2x-catalog-list.png)
 
 ## Products
 
@@ -39,7 +39,7 @@ Variations are typically used to provide different varieties of the base product
 
 You can rearrange the order in which items are displayed in each category by using the drag handle to drag and drop products. The order in which products display in the Catalog Manager is the oder in which they will display in the app you push the catalog into.
 
-![Catalog Manager Product List](../images/002-en-product-list.png)
+![Catalog Manager Product List](../images/002-en-2x-product-list.png)
 
 ## Option Lists
 
@@ -47,25 +47,25 @@ Options are additional items which customers can add to a product when ordering.
 
 When viewing option lists, you can see the products that the option list is used in. This helps you to keep track of which options are used in which products.
 
-![Catalog Manager Options List](../images/003-en-option-lists.png)
+![Catalog Manager Options List](../images/003-en-2x-option-lists.png)
 
 ## Deals
 
 Deals are special offers that you can configure for your menu. A typical example could be a `Buy One Get One FREE` deal. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products.
 
-![Catalog Manager Deals list](../images/005-en-deals-list.png)
+![Catalog Manager Deals list](../images/005-en-2x-deals-list.png)
 
 ## Discounts
 
 Discounts are simple percentage or amount discounts that can be applied on a total purchase, as opposed to a specific product item.
 
-![Catalog Manager Discounts list](../images/006-en-discounts-list.png)
+![Catalog Manager Discounts list](../images/006-en-2x-discounts-list.png)
 
 ## Charges
 
 Charges are flat fees that you can apply to a total purchase for things like delivery, fees, tips or other costs.
 
-![Catalog Manager Charges list](../images/007-en-charges-list.png)
+![Catalog Manager Charges list](../images/007-en-2x-charges-list.png)
 
 
 
