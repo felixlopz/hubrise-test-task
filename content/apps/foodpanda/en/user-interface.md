@@ -11,7 +11,7 @@ From foodpanda Bridge, you can read the logs of all the operations between HubRi
 
 ## Latest Operations
 
-This is the default page when you open the bridge. It displays the latest API operations between HubRise, foodpanda, and foodpanda Bridge.
+This is the default page when you open foodpanda Bridge. It displays the latest API operations between HubRise, foodpanda, and foodpanda Bridge.
 
 Operations can either be related to a specific order, or be generic system requests performed by foodpanda Bridge.
 
@@ -58,7 +58,7 @@ System request pages can provide useful debugging insights to support teams, but
 
 ## Configuration
 
-To access the foodpanda Bridge configuration page, open the **Configuration** tab or click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right hand corner of the page to expand the menu, then click **Configuration**.
+To access the foodpanda Bridge configuration page, click **Configuration** at the top of the screen.
 
 ![foodpanda Bridge configuration page](../images/002-en-configuration-page.png)
 

@@ -11,7 +11,7 @@ From Uber Eats Bridge, you can read the logs of all the operations between HubRi
 
 ## Latest Operations
 
-This is the default page when you open the bridge. It displays the latest API operations between HubRise, Uber Eats, and Uber Eats Bridge.
+This is the default page when you open Uber Eats bridge. It displays the latest API operations between HubRise, Uber Eats, and Uber Eats Bridge.
 
 Operations can either be related to a specific order, or be generic system requests performed by Uber Eats Bridge.
 
@@ -58,9 +58,19 @@ System request pages can provide useful debugging insights to support teams, but
 
 ## Configuration
 
-To access the Uber Eats Bridge configuration page, open the **Configuration** tab or click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right hand corner of the page to expand the menu, then click **Configuration**.
+To access the Uber Eats Bridge configuration page, click **Configuration** at the top of the screen.
 
 From this page, you will be able to customise the behaviour of Uber Eats Bridge. For more details, see [Configuration](/apps/uber-eats/configuration).
+
+## Actions
+
+To access the actions page, click **Actions** at the top of the screen. If the link is not visible, first complete the configuration of Uber Eats Bridge.
+
+From the actions page, you can perform the following actions:
+
+- **Push Catalog**: Push the catalog to Uber Eats. For more details, see [Push Catalog](/apps/uber-eats/push-catalog).
+- **Pull Catalog**: Pull the catalog from Uber Eats. For more details, see [Pull Catalog](/apps/uber-eats/pull-catalog).
+- **Push Inventory**: Sync the inventory from HubRise to Uber Eats.
 
 ## Language and Navigation
 

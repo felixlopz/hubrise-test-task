@@ -11,7 +11,7 @@ From Just Eat Takeaway Bridge, you can read the logs of all the operations betwe
 
 ## Latest Operations
 
-This is the default page when you open the bridge. It displays the latest API operations between HubRise, Just Eat, and Just Eat Takeaway Bridge.
+This is the default page when you open Just Eat Takeaway bridge. It displays the latest API operations between HubRise, Just Eat, and Just Eat Takeaway Bridge.
 
 Operations can either be related to a specific order, or be generic system requests performed by Just Eat Takeaway Bridge.
 
@@ -58,7 +58,7 @@ System request pages can provide useful debugging insights to support teams, but
 
 ## Configuration
 
-To access the Just Eat Takeaway Bridge configuration page, open the **Configuration** tab or click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right hand corner of the page to expand the menu, then click **Configuration**.
+To access the Just Eat Takeaway Bridge configuration page, click **Configuration** at the top of the screen.
 
 ![Just Eat Takeaway Bridge configuration page](../images/002-en-jet-configuration-page.png)
 

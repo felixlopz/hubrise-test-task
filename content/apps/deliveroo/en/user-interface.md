@@ -11,7 +11,7 @@ From Deliveroo Bridge, you can read the logs of all the operations between HubRi
 
 ## Latest Operations
 
-This is the default page when you open the bridge. It displays the latest API operations between HubRise, Deliveroo, and Deliveroo Bridge.
+This is the default page when you open Deliveroo Bridge. It displays the latest API operations between HubRise, Deliveroo, and Deliveroo Bridge.
 
 Operations can either be related to a specific order, or be generic system requests performed by Deliveroo Bridge.
 
@@ -58,9 +58,18 @@ System request pages can provide useful debugging insights to support teams, but
 
 ## Configuration
 
-To access the Deliveroo Bridge configuration page, open the **Configuration** tab or click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right hand corner of the page to expand the menu, then click **Configuration**.
+To access the configuration page, click **Configuration** at the top of the screen.
 
 From this page, you will be able to customise the behaviour of Deliveroo Bridge. For more details, see [Configuration](/apps/deliveroo/configuration).
+
+## Actions
+
+To access the actions page, click **Actions** at the top of the screen. If the link is not visible, first complete the configuration of Deliveroo Bridge.
+
+From the actions page, you can perform the following actions:
+
+- **Push Catalog**: Push the catalog to Deliveroo. For more details, see [Push Catalog](/apps/deliveroo/push-catalog).
+- **Push Inventory**: Sync the inventory from HubRise to Deliveroo.
 
 ## Language and Navigation
 

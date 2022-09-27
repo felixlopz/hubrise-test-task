@@ -11,7 +11,7 @@ From WooCommerce Bridge, you can read the logs of all the operations between Hub
 
 ## Latest Operations
 
-This is the default page when you open the bridge. It displays the latest API operations between HubRise, WooCommerce, and WooCommerce Bridge.
+This is the default page when you open WooCommerce bridge. It displays the latest API operations between HubRise, WooCommerce, and WooCommerce Bridge.
 
 Operations can either be related to a specific order, or be generic system requests performed by WooCommerce Bridge.
 
@@ -56,9 +56,15 @@ System requests are generally sent by WooCommerce Bridge to notify HubRise about
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
+## Actions
+
+To access the actions page, click **Actions** at the top of the screen. If the link is not visible, first complete the configuration of WooCommerce Bridge.
+
+From the actions page, you can push the catalog to WooCommerce. For more details, see [Push Catalog](/apps/woocommerce/push-catalog).
+
 ## Configuration
 
-To access the WooCommerce Bridge configuration page, open the **Configuration** tab or click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right hand corner of the page to expand the menu, then click **Configuration**.
+To access the WooCommerce Bridge configuration page, click **Configuration** at the top of the screen.
 
 ![WooCommerce Bridge configuration page](../images/005-en-woocommerce-configuration-page.png)
 
