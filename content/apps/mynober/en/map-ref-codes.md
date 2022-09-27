@@ -31,7 +31,7 @@ To manually assign ref codes to your MynOber products from the MynOber Cloud bac
 
 ### Service Types, Charges, And Payments
 
-Service types, charges, and payments might require special ref codes. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types, charges, and payments might require special ref codes. Refer to your EPOS documentation on the HubRise website to verify.
 
 To assign ref codes to service types, charges, and payments, follow these steps:
 

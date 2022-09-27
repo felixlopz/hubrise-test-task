@@ -1,6 +1,6 @@
 ---
 title: User Interface
-position: 4
+position: 3
 layout: documentation
 meta:
   title: User Interface | Just Eat Takeaway | HubRise
@@ -9,7 +9,7 @@ meta:
 
 From the main page of Just Eat Takeaway Bridge, you can read the logs of all the operations between HubRise and Just Eat, and access the configuration settings of the integration.
 
-## Operations Page
+## Latest Operations
 
 The main page displays the latest API operations between HubRise, Just Eat, and Just Eat Takeaway Bridge.
 
@@ -44,7 +44,7 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 ![Order logs page on Just Eat Takeaway Bridge](../images/004-en-jet-order-logs.png)
 
-Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see the [HubRise documentation](/docs/hubrise-logs/).
+Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
 ## System Request Page
 
