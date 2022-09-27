@@ -17,19 +17,23 @@ Just Eat Takeaway orders contain the complete information about items and option
 
 ## Order Statuses
 
+In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Confirmed` is a Just Eat status, while `accepted` is a HubRise status.
+
+### Just Eat Statuses
+
 A Just Eat order goes through several statuses during its lifecycle:
 
 - `Confirmed`: The order was confirmed.
-- `Error`: There was an error. A Just Eat Takeaway agent calls the restaurant.
+- `Error`: There was an error. A Just Eat Takeaway agent will call the restaurant.
 - `Kitchen`: The restaurant started preparing the order.
 - `In Delivery`: The order is in delivery.
 - `Delivered`: The order has been delivered.
 
 As a minimum requirement, Just Eat Takeaway expects every successful order to be marked as `Confirmed`.
 
-### Change the Status of an Order in Just Eat Takeaway
+### When the Status Changes in HubRise
 
-When an order status changes on HubRise, Just Eat Takeaway Bridge notifies Just Eat Takeaway. The correspondence between HubRise and Just Eat Takeaway statuses is as follows:
+When an order status changes in HubRise, Just Eat Takeaway Bridge notifies Just Eat Takeaway. The correspondence between HubRise and Just Eat Takeaway statuses is as follows:
 
 | HubRise status                               | Just Eat Takeaway status                                                   |
 | -------------------------------------------- | -------------------------------------------------------------------------- |
@@ -43,9 +47,9 @@ Just Eat Takeaway Bridge lets you decide which HubRise status triggers the `Conf
 
 Other HubRise status values are not supported and are not sent on Just Eat Takeaway.
 
-### Change the Status of an Order in HubRise
+### When the Status Changes in Just Eat
 
-Just Eat Takeaway Bridge does not change order statuses in HubRise.
+Just Eat Bridge does not change order statuses in HubRise. If an order is cancelled by Just Eat, HubRise will not be notified.
 
 ## Service Types
 

@@ -19,33 +19,39 @@ Customers' comments on single products are not supported on WooCommerce. If you 
 
 ## Order Statuses
 
-New WooCommerce orders are created on HubRise with status `new`.
+In this section, we capitalise the first letter of WooCommerce statuses to make them easier to distinguish from HubRise status names. For example, `Processing` is a WooCommerce status, while `accepted` is a HubRise status.
 
-Order status changes in WooCommerce trigger a status change in HubRise according to the following rules:
+### When the Status Changes in HubRise
 
-| WooCommerce status change | Corresponding HubRise status |
-| ------------------------- | ---------------------------- |
-| processing                | accepted                     |
-| completed                 | completed                    |
-| cancelled                 | cancelled                    |
-| refunded                  | cancelled                    |
-| failed                    | rejected                     |
-| trash                     | cancelled                    |
+When the order status changes in HubRise, the status in WooCommerce changes according to the following correspondence:
 
-Conversely, order status changes in HubRise trigger a status change in WooCommerce according to the following rules:
+| HubRise status        | WooCommerce status |
+| --------------------- | ------------------ |
+| `received`            | `Pending`          |
+| `accepted`            | `Processing`       |
+| `in_preparation`      | `Processing`       |
+| `awaiting_shipment`   | `Processing`       |
+| `awaiting_collection` | `Processing`       |
+| `in_delivery`         | `Processing`       |
+| `completed`           | `Completed`        |
+| `rejected`            | `Failed`           |
+| `cancelled`           | `Cancelled`        |
+| `delivery_failed`     | `Failed`           |
 
-| HubRise status change | Corresponding WooCommerce status |
-| --------------------- | -------------------------------- |
-| received              | pending                          |
-| accepted              | processing                       |
-| in_preparation        | processing                       |
-| awaiting_shipment     | processing                       |
-| awaiting_collection   | processing                       |
-| in_delivery           | processing                       |
-| completed             | completed                        |
-| rejected              | failed                           |
-| cancelled             | cancelled                        |
-| delivery_failed       | failed                           |
+WooCommerce's orders are created on HubRise with status `new`.
+
+### When the Status Changes in WooCommerce
+
+When the order status changes in WooCommerce, the status in HubRise changes according to the following correspondence:
+
+| WooCommerce status | HubRise status |
+| ------------------ | -------------- |
+| `Processing`       | `accepted`     |
+| `Completed`        | `completed`    |
+| `Cancelled`        | `cancelled`    |
+| `Refunded`         | `cancelled`    |
+| `Failed`           | `rejected`     |
+| `Trash`            | `cancelled`    |
 
 ## Service Types
 

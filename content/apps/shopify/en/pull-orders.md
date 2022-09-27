@@ -17,7 +17,7 @@ Shopify orders contain the complete information about items, including name, POS
 
 ## Order Statuses
 
-When an order status changes on HubRise, Shopify Bridge notifies Shopify, and the change can be seen by the customer.
+When an order status changes in HubRise, Shopify Bridge notifies Shopify, and the change can be seen by the customer.
 
 From the configuration page of Shopify Bridge, you can customise how to map the different HubRise order statuses to Shopify. For more information, see [Order Statuses](/apps/shopify/configuration#order-statuses).
 
