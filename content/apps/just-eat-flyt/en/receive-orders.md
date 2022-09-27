@@ -21,6 +21,10 @@ Customers' comments on single products are not supported on Just Eat. If you rel
 
 ## Order Statuses
 
+In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Successful` is a Just Eat status, while `accepted` is a HubRise status.
+
+### Just Eat Statuses
+
 Just Eat orders can be marked as:
 
 - `Successful`: The order has been accepted by the EPOS.
@@ -28,13 +32,9 @@ Just Eat orders can be marked as:
 
 New orders must be marked as `Successful` or `Failed` within 3 minutes, otherwise Just Eat automatically marks them as `Failed`.
 
----
+You can only update the status of an order once. Further changes are ignored by Just Eat.
 
-**IMPORTANT NOTE:** You can only update the status of an order once. Further changes are ignored by Just Eat.
-
----
-
-### Change the Status of an Order in Just Eat
+### When the Status Changes in HubRise
 
 When the status of an order changes to `rejected` or `cancelled` in HubRise, Just Eat Bridge notifies Just Eat that the order is `Failed`.
 
@@ -42,7 +42,7 @@ Just Eat Bridge lets you decide which HubRise status triggers the `Successful` s
 
 Other HubRise status values are not supported and are not sent to Just Eat.
 
-### Change the Status of an Order in HubRise
+### When the Status Changes in Just Eat
 
 Just Eat Bridge does not change order statuses in HubRise. If an order is cancelled by Just Eat, HubRise will not be notified.
 

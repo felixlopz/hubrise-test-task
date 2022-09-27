@@ -39,6 +39,10 @@ Every option has single quantity. Multiple identical modifiers are encoded in se
 
 ## Order Statuses
 
+In this section, we capitalise the first letter of Uber Eats statuses to make them easier to distinguish from HubRise status names. For example, `Accepted` is a Uber Eats status, while `accepted` is a HubRise status.
+
+### Uber Eats Statuses
+
 Uber Eats supports three order statuses:
 
 - `Accepted`: The order has been accepted by the EPOS.
@@ -47,13 +51,9 @@ Uber Eats supports three order statuses:
 
 New orders must be switched to one of the above statuses within 10 minutes. Orders which are still pending after this period of time are automatically cancelled by Uber Eats.
 
----
+You can only update the status of an order once. Further changes are ignored by Uber Eats. Therefore you cannot cancel or deny an order which has already been accepted.
 
-**IMPORTANT NOTE:** You can only update the status of an order once. Further changes are ignored by Uber Eats. Therefore you cannot cancel or deny an order which has already been accepted.
-
----
-
-### Change the status of an order in Uber Eats
+### When the Status Changes in HubRise
 
 When the status of an order changes to `rejected` or `cancelled` in HubRise, Uber Eats Bridge notifies Uber Eats that the order is respectively `Denied` or `Cancelled`.
 
@@ -61,7 +61,7 @@ Uber Eats Bridge lets you decide which HubRise status triggers the `Accepted` st
 
 Other HubRise status values are not supported and are not sent to Uber Eats.
 
-### Change the status of an order in HubRise
+### When the Status Changes in Uber Eats
 
 When eaters cancel their orders, Uber Eats immediately marks them as `cancelled` on HubRise.
 

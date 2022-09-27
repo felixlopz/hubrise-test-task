@@ -49,6 +49,10 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 
 ## Order Statuses
 
+In this section, we capitalise the first letter of Deliveroo statuses to make them easier to distinguish from HubRise status names. For example, `Succeeded` is a Deliveroo status, while `accepted` is a HubRise status.
+
+### Deliveroo Statuses
+
 A Deliveroo order goes through several statuses during its lifecycle:
 
 - `Succeeded`: The order has been accepted by the EPOS, and is confirmed on Deliveroo.
@@ -65,9 +69,9 @@ New orders must be marked as `Succeeded` or `Failed` within 3 minutes, otherwise
 
 ---
 
-### Change the status of an order in Deliveroo
+### When the Status Changes in HubRise
 
-When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the Deliveroo tablet. The correspondence between HubRise and Deliveroo statuses is as follows:
+When an order status changes in HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the Deliveroo tablet. The correspondence between HubRise and Deliveroo statuses is as follows:
 
 | HubRise status                               | Deliveroo status                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- |
@@ -81,7 +85,7 @@ Deliveroo Bridge lets you decide which HubRise status triggers the `Succeeded` s
 
 Other HubRise status values are not supported and are not sent on Deliveroo.
 
-### Change the status of an order in HubRise
+### When the Status Changes in Deliveroo
 
 When an order is cancelled from the Deliveroo tablet, it is marked as `cancelled` on HubRise.
 
