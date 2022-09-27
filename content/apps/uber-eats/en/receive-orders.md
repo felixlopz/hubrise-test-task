@@ -104,7 +104,7 @@ The discounts applied to the order are passed in the HubRise `discounts` array.
 
 The available fields in the payload are the following:
 
-- `name`: The name of the discount, which is "Discount" by default.
+- `name`: The name of the discount, which is `Discount` by default.
 - `ref`: The ref code of the discount. Its value is set from the Configuration page of Uber Eats Bridge and should match the value in your EPOS.
 - `price_off`: The amount of the discount.
 

@@ -89,7 +89,7 @@ At the end of the process you can check if all deals have been mapped. For more 
 
 ## Payment Methods
 
-Payment methods you set up on LivePepper may require a ref code. Refer to your connected EPOS documentation on the HubRise website to verify.
+Payment methods you set up on LivePepper may require a ref code. Refer to your EPOS documentation on the HubRise website to verify.
 
 To add a ref code to a payment method, follow these steps.
 
@@ -105,7 +105,7 @@ To add a ref code to a payment method, follow these steps.
 
 ## Service Types
 
-Service types such as delivery, collection or eat in might require a ref code. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as delivery, collection or eat in might require a ref code. Refer to your EPOS documentation on the HubRise website to verify.
 
 To add a ref code to a service type, follow these steps:
 
@@ -115,7 +115,7 @@ To add a ref code to a service type, follow these steps:
 
 ## Delivery Charges
 
-If delivery charges apply for the service offered, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If delivery charges apply for the service offered, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
 To add a ref code to a delivery charge, follow these steps:
 
