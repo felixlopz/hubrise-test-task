@@ -11,12 +11,15 @@ A **Catalog** is simply a container for your products and their associated detai
 
 There are several ways you can create a catalog on HubRise:
 
-- From an EPOS, or another app connected to HubRise
-- From an online ordering system or food ordering platform
-- From the **SETTINGS** page in your HubRise back office
-- Using the Catalog Manager app
+- Using the Catalog Manager app.
+- From the **SETTINGS** page in your HubRise back office, refer to the HubRise Help page [Add Catalog](https://www.hubrise.com/docs/catalog#add-a-catalog).
+ 
+There are even more ways of populating your catalogs on HubRise: 
+- Using the Catalog Manager app.
+- From an EPOS connected to HubRise.
+- From an online ordering solution or a food ordering and delivery platform connected to HubRise.
 
-## Create a Catalog from Another App
+## Populate a Catalog from Another App
 
 Some EPOS solutions allow you to push your product catalog or menu into a HubRise catalog. Same for some online ordering solutions or food ordering and delivery platforms. You can then use Catalog Manager to augment the details for your product items by adding photos or more detailed descriptions.
 
@@ -30,12 +33,13 @@ For information on how to export your product catalog or menu into a HubRise cat
 
 ## Create a Catalog using Catalog Manager
 
-Go to **Connections** and click on **Open** in Catalog Manager.
+Go to **CONNECTIONS**, find the Catalog Manager app and click on **Open**.
 
 ![Catalog Manager Connections](../images/008-en-2x-Connections-Catalog-Manager.png)
 
-In Catalog Manager, click on **New catalog** and enter a name.
+In Catalog Manager, click on **New catalog** and enter a name. Once the new catalog has been created you can add categories, products, options, deals, discounts and charges.
+
+You could also **Duplicate** an existing catalog. 
 
 ![Catalog Manager Catalog list](../images/001-en-2x-catalog-list.png)
 
-Once the new catalog has been created you can add categories, products, options, deals, discounts and charges. 

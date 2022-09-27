@@ -16,13 +16,13 @@ app_info:
   contact: contact@hubrise.com
 ---
 
-Catalog Manager is used to create, edit and manage products you have in your HubRise Catalogs. 
+Catalog Manager is used to create, edit and manage products you have in your HubRise Catalogs. It can be used free of charge, it is included in your HubRise subscription.
 
 Catalogs on HubRise can be pulled from an app and pushed into other apps you use every day, EPOS and online ordering solutions, table ordering apps, self ordering kiosks or digital menus, food ordering and delivery platforms (including Deliveroo, Uber Eats and Just Eat), operations and inventory management solutions, reporting dashboards, Kitchen Display Screens, and more. 
 
 Catalog Manager has the following features:
 
-- Automatically create catalogs and product details using catalogs pulled from your EPOS, or your other apps connected to HubRise.
+- Automatically create catalogs and product details using catalogs pulled from your EPOS, a food delivery platform or your other apps connected to HubRise.
 - Edit catalogs with additional information, such as options, pictures and descriptions.
 - Option to create catalogs and product details manually, from scratch.
 
