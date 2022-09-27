@@ -101,6 +101,6 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 | Frais               | Code ref pourboire                                | (laisser vide)                                                         |
 | Paiements           | Code ref paiement                                 | `UE`                                                                   |
 | Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                          |
-| Menu                | Activer les notes de préparation sur les articles | Cocher si vous souhaitez les activer                                 |
+| Menu                | Activer les notes de préparation sur les articles | Cocher si vous souhaitez les activer                                   |
 
 (\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.

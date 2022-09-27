@@ -15,7 +15,9 @@ This page explains how to push your catalog, and what information is sent to Del
 
 ## Populate a HubRise Catalog
 
-To be able to update your menu in Deliveroo, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To update your menu in Deliveroo, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+
+Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -158,5 +160,5 @@ For each deal in the catalog, Deliveroo Bridge creates a Deliveroo product with 
 
 - `name`: The name of the deal becomes the name of the product.
 - `category_ref`: If empty, Deliveroo Bridge creates a default category in Deliveroo called "Offers".
-- `ref`: The ref code of the deal becomes the ref of the product, preceeded by `DEAL-`. For example, for a deal with ref code `abc123`, Deliveroo Bridge creates a Deliveroo product with plu `DEAL-abc123`.
+- `ref`: The ref code of the deal becomes the ref of the product, preceded by `DEAL-`. For example, for a deal with ref code `abc123`, Deliveroo Bridge creates a Deliveroo product with plu `DEAL-abc123`.
 - `lines`: For each object in the array, Deliveroo Bridge creates a list of modifiers, with `lines.name` as the name.

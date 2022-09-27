@@ -7,7 +7,7 @@ meta:
   description: Find out the technical details of how orders are received from Uber Eats into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Uber Eats to HubRise allows you to receive Uber Eats orders directly in your EPOS.
+Connecting Uber Eats to HubRise allows you to receive Uber Eats orders directly in your EPOS or any other solution connected to your HubRise account.
 
 Your Uber Eats tablet can be switched off if you have enabled tabletless integration. For more information, see [Can Orders Be Sent Directly To My EPOS Without Using Uber Eats Tablets?](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 
@@ -116,7 +116,7 @@ Uber Eats Bridge encodes the following types of charges: delivery charges, and s
 
 For each charge present in the order, the available fields are the following:
 
-- `name`: The name of the charge, which is "Delivery charge", "Tip", or "Small order fee".
+- `name`: The name of the charge, which is `Delivery charge`, `Tip`, or `Small order fee`.
 - `type`: The type of charge.
 - `ref`: The charge ref code. Its value can be set from the Configuration page of Uber Eats Bridge and should match the value in your EPOS.
 - `price`: The charge amount.

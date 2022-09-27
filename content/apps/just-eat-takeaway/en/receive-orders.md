@@ -7,7 +7,9 @@ meta:
   description: Find out the technical details of how orders are received from Just Eat Takeaway to HubRise, which fields are passed and which are not.
 ---
 
-Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS or other connected apps. This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
+Connecting Just Eat Takeaway to HubRise allows you to receive orders directly in your EPOS or any other solution connected to your HubRise account.
+
+This page describes the information that HubRise receives from Just Eat Takeaway for your orders.
 
 ## Items and Options
 
