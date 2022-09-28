@@ -51,19 +51,19 @@ When viewing option lists, you can see the number of SKUs or the products that t
 
 ## Deals
 
-Deals are special offers that you can configure for your menu. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products. A typical example could be a `Buy One Get One FREE` deal. For more information, see [Manage Deals](/apps/catalog-manager/manage-deals-%20discounts-charges#manage-deals).
+Deals are special offers that you can configure for your menu. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products. A typical example could be a `Buy One Get One FREE` deal. For more information, see [Manage Deals](/apps/catalog-manager/manage-deals-discounts-charges#manage-deals).
 
 ![Catalog Manager Deals list](../images/005-en-2x-deals-list.png)
 
 ## Discounts
 
-Discounts are simple percentage or amount discounts that can be applied on a total purchase, as opposed to a specific product item. For more information, see [Manage Discounts](apps/catalog-manager/manage-deals-%20discounts-charges#manage-discounts).
+Discounts are simple percentage or amount discounts that can be applied on a total purchase, as opposed to a specific product item. For more information, see [Manage Discounts](apps/catalog-manager/manage-deals-discounts-charges#manage-discounts).
 
 ![Catalog Manager Discounts list](../images/006-en-2x-discounts-list.png)
 
 ## Charges
 
-Charges are flat fees that you can apply to a total purchase for things like delivery fees, tips or other costs. For more information, see [Manage Charges](/apps/catalog-manager/manage-deals-%20discounts-charges#manage-charges).
+Charges are flat fees that you can apply to a total purchase for things like delivery fees, tips or other costs. For more information, see [Manage Charges](/apps/catalog-manager/manage-deals-discounts-charges#manage-charges).
 
 ![Catalog Manager Charges list](../images/007-en-2x-charges-list.png)
 
