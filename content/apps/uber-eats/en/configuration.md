@@ -64,7 +64,7 @@ Select from the dropdown menu the HubRise status which should make the order acc
 
 ### Automatic Catalog Push
 
-Tick **Publish the menu on Uber Eats when it is updated in HubRise** to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option it turned off.
+Tick **Publish the menu on Uber Eats when it is updated in HubRise** to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option is turned off.
 
 ### Opening Hours
 

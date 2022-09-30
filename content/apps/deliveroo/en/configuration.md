@@ -56,7 +56,7 @@ Refer to your EPOS documentation on the HubRise website to verify the correct va
 
 In this section, select the brand ID and menu ID of the Deliveroo menu you want to push your HubRise catalog into. The default values generally work for most users.
 
-Additionally, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option it turned off.
+Additionally, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option is turned off.
 
 Finally, include the menu description and URL for the banner image that you want to show on your Deliveroo store.
 
