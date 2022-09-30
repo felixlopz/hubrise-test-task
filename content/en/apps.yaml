@@ -307,6 +307,12 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper is an online ordering solution for home delivery and takeaway restaurants. LivePepper is used by independent restaurants and large franchises based in France, in the UK and internationally.
+        - website: https://locatouch.com/
+          documentation: /apps/locatouch
+          logo: locatouch.png
+          title: Loca'Touch
+          description: Loca'Touch offers self ordering kiosks for leasing. Customers can order and pay autonomously. Complementary products suggestions during purchase. Regular system software updates.
+          additional_info:
         - website: https://maakyo.com/en
           documentation: /apps/maakyo
           logo: maakyo.png

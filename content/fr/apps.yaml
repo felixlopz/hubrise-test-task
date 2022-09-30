@@ -305,7 +305,13 @@ content:
           logo: livepepper.png
           title: LivePepper
           description: LivePepper est une solution de commande en ligne pour les restaurants, conçue pour la livraison à domicile et la vente à emporter. Adaptée aux indépendants comme aux chaînes. LivePepper est untilisé en France, en Grande-Bretagne et à l'international.
-          additional_info: Documentation en anglais.
+          additional_info:
+        - website: https://locatouch.com/
+          documentation: /apps/locatouch
+          logo: locatouch.png
+          title: Loca'Touch
+          description: Loca'Touch propose des bornes de commande en location. Le client passe commande et paye en toute autonomie. Loca'Touch propose des produits complémentaires pendant le cycle d'achat. Mises à jour régulières du logiciel système.
+          additional_info:
         - website: https://maakyo.com
           documentation: /apps/maakyo
           logo: maakyo.png
