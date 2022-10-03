@@ -22,7 +22,7 @@ app_info:
 
 ## Description
 
-Loca'Touch offers self ordering kiosks systems for leasing. With a self ordering kiosks, your customers can view your restaurant menu, order and pay autonomously. Suggestions for complementary products are made during the purchasing cycle in order to increase the average basket. Loca'Touch regular updates to the system software guarantees a better service and offers long term performance.
+Loca'Touch offers self ordering kiosks systems for leasing or sale. With a self ordering kiosks, your customers can view your restaurant menu, order and pay autonomously. Suggestions for complementary products are made during the purchasing cycle in order to increase the average basket. Loca'Touch regular updates to the system software guarantees a better service and offers long term performance.
 
 
 ## Integration Features
@@ -34,6 +34,12 @@ Connecting Loca'Touch to HubRise allows your self ordering kiosk to:
 - Push the menu into a HubRise catalog.
 - Pull the menu from a HubRise catalog.
 - Synchronise inventory with HubRise.
+
+---
+
+**IMPORTANT NOTE** : Pulling order and customer information from HubRise will be supported in the future. Contact Loca'Touch for more information.Once this new integration feature is available you will be able to use Loca'Touch to centralise, manage and print orders that originate from other systems connected to your HubRise Account, including food ordering and delivery platforms.
+
+---
 
 Loca'Touch can be connected to HubRise from the Loca'Touch back office.
 

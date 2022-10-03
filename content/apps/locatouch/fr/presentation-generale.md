@@ -22,17 +22,24 @@ app_info:
 
 ## Description
 
-Loca'Touch propose des bornes de commande en location. Grâce à la mise en place d'une borne de commande en libre-service, vos clients peuvent consulter la carte de votre restaurant, commander et payer en toute autonomie. Des suggestions de produits complémentaires sont faites pendant le processus d'achat afin d'augmenter le panier moyen. Des mises à jour régulières du logiciel système de Loca'Touch garantissent un meilleur service et un système performant sur le long terme.
+Loca'Touch propose des bornes de commande en location ou en location. Grâce à la mise en place d'une borne de commande en libre-service, vos clients peuvent consulter la carte de votre restaurant, commander et payer en toute autonomie. Des suggestions de produits complémentaires sont faites pendant le processus d'achat afin d'augmenter le panier moyen. Des mises à jour régulières du logiciel système de Loca'Touch garantissent un meilleur service et un système performant sur le long terme.
 
 ## Fonctionnalités de l'intégration
 
 Connecter Loca'Touch à HubRise permet à votre borne de commande en libre-service de :
 
-- Recevoir les commandes de HubRise, dont les statuts de commande.
-- Recevoir les informations clients de HubRise.
+- Envoyer les commandes de HubRise, dont les statuts de commande.
+- Envoyer les informations clients de HubRise.
 - Envoyer un catalogue à HubRise.
 - Recevoir un catalogue de HubRise.
 - Synchroniser l'inventaire avec HubRise.
+
+---
+
+**REMARQUE IMPORTANTE :** La réception des commandes et des informations clients reçue dans HubRise sera bientôt possible. Contactez Loca'Touch pour plus d'information à ce sujet. Une fois cette nouvelle fonctionnalité d'intégration disponible, vous pourrez utiliser Loca'Touch pour centraliser, gérer et imprimer des commandes provenant d'autres systèmes connectés à votre compte HubRise, y compris les plateformes de commande et de livraison de repas.
+
+---
+
 
 Loca'Touch peut être connecté à HubRise depuis le back-office de Loca'Touch.
 
