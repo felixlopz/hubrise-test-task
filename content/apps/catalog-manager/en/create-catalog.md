@@ -17,7 +17,7 @@ To create a catalog using Catalog Manager instead, go to **CONNECTIONS**, find t
 
 ![Catalog Manager Connections](../images/008-en-2x-Connections-Catalog-Manager.png)
 
-In Catalog Manager, click on **New catalog** and enter a name. Once the new catalog has been created you can add categories, products, options, deals, discounts and charges. For more information, see [Manage Products](https://www.hubrise.com/apps).
+In Catalog Manager, click on **New catalog** and enter a name. Once the new catalog has been created you can add categories, products, options, deals, discounts and charges. For more information, see [Manage Products](/apps/catalog-manager/manage-products).
 
 ## Catalog Actions
 
@@ -29,13 +29,13 @@ You can **Rename**, **Duplicate** an existing catalog or **Delete** existing cat
 
 There are two ways to populate your catalogs on HubRise. 
 
-You can populate it using the Catalog Manager app. For more information, see [Manage Products](https://www.hubrise.com/apps). 
+You can populate it using the Catalog Manager app. For more information, see [Manage Products](/apps/catalog-manager/manage-products). 
 
 You can also push a product catalog or menu into a HubRise catalog using an EPOS, an online ordering solution, a food ordering platform or any other app connected to your HubRise account. To find out if the app you want to use integrated the catalog push feature, refer to your app documentation on the HubRise website [Apps page](https://www.hubrise.com/apps). After a push, you might in some cases, need to rearrange or augment the details for your product items by adding photos or more detailed descriptions using Catalog Manager.
 
 ---
 
-**IMPORTANT NOTE:** Pushing a menu from your EPOS or other app into a HubRise catalog will replace all the items in the existing catalog. Some apps will push the updated menu automatically with every menu update.
+**IMPORTANT NOTE:** A catalogs can be associated with apps connected to your HubRise account. Pushing a product catalog from your EPOS or other app into a HubRise catalog will populate an empty catalog or replace all the items in the existing catalog. Some apps will push updates automatically with every menu update.
 
 ---
 
