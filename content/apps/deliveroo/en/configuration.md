@@ -36,7 +36,7 @@ Available discounts on Deliveroo appear in the **All offers** page in your Deliv
 
 If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
-In this section, you can specify the ref code for delivery charges, and for surcharges applied to orders below the minimum price.
+In this section, you can specify the ref code for delivery charges, for surcharges applied to orders below the minimum price, and for bag fees.
 
 ### Payments
 

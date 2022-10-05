@@ -42,6 +42,7 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suiv
 | Remises             | Code ref remise                                   | Créer une promotion `Deliveroo` dans UltimaPOS et utiliser son identifiant.       |
 | Frais               | Code ref frais de livraison                       | Créer un article `Frais de livraison` dans UltimaPOS et utiliser son identifiant. |
 | Frais               | Code ref surcharge                                | Créer un article `Surcharge` dans UltimaPOS et utiliser son identifiant.          |
+| Frais               | Code ref frais d'emballage                        | Créer un article `Frais d'emballage` dans UltimaPOS et utiliser son identifiant.  |
 | Paiements           | Code ref paiement sur Deliveroo                   | Créer un règlement `Deliveroo` dans UltimaPOS et utiliser son identifiant.        |
 | Paiements           | Code ref paiement en espèces                      | (laisser vide)                                                                    |
 | Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                                     |

@@ -40,7 +40,7 @@ To receive Deliveroo orders in Lightspeed Restaurant, you first need to connect 
 In the Deliveroo Bridge configuration page, use the following settings:
 
 | Section        | Name                                  | Ref code                                          |
-| -------------- | ------------------------------------- | ------------------------------------------------- |
+| -------------- | ------------------------------------- |---------------------------------------------------|
 | Service types  | Deliveroo fulfilled ref code          | `DVAP`                                            |
 | Service types  | Restaurant fulfilled ref code         | `DVMD`                                            |
 | Service types  | Takeaway ref code                     | `DVMTA`                                           |
@@ -48,6 +48,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Discounts      | Discount ref code                     | `DELD99`                                          |
 | Charges        | Delivery charge ref code              | `DELD77`                                          |
 | Charges        | Surcharge ref code                    | `DELD88`                                          |
+| Charges        | Bag fee ref code                      | (ask support@hubrise.com if you need it)          |
 | Payments       | Deliveroo payment ref code            | `DVPM`                                            |
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |

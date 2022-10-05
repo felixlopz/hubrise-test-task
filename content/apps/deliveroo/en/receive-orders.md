@@ -135,29 +135,18 @@ The available fields in the payload are the following:
 
 ## Charges
 
-Deliveroo Bridge encodes two types of charges: Delivery charges, and small order surcharges.
+Deliveroo Bridge can encode three types of charges:
 
-### Delivery Charges
-
-Delivery charges are applied for orders delivered by the restaurant.
-
-The available fields in the payloads are the following:
-
-- `name`: The name of the delivery charge, which is `Delivery charge` by default.
-- `type`: The type of charge. It has always the value `delivery`.
-- `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
-- `price`: The total amount of the delivery charge.
-
-### Small Order Surcharges
-
-Small order surcharges, applied when the total price for an order is below the minimum order price.
+- Delivery charges are applied for orders delivered by the restaurant.
+- Small order surcharges apply to orders below the minimum price.
+- Bag fees are required by regulations in some countries.
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the charge, which is `Surcharge` by default.
-- `type`: The type of charge. It has always the value `other`.
+- `name`: The name of the delivery charge, which is either `Delivery charge`, `Surcharge` or `Bag fee`.
+- `type`: The type of charge. It has the value `delivery` for delivery charges, and `other` for small order surcharges and bag fees.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
-- `price`: The total amount of the small order surcharge.
+- `price`: The amount of the charge.
 
 ## Customer Notes
 

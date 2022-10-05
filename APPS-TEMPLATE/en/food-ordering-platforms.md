@@ -30,7 +30,7 @@ To receive Deliveroo orders in SOLUTION, you first need to connect Deliveroo Bri
 In the Deliveroo Bridge configuration page, use the following settings:
 
 | Section        | Name                                  | Ref code                                          |
-| -------------- | ------------------------------------- | ------------------------------------------------- |
+| -------------- |---------------------------------------| ------------------------------------------------- |
 | Service types  | Deliveroo fulfilled ref code          | (leave empty)                                     |
 | Service types  | Restaurant fulfilled ref code         | (leave empty)                                     |
 | Service types  | Takeaway ref code                     | (leave empty)                                     |
@@ -38,6 +38,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Discounts      | Offer ref code                        | (leave empty)                                     |
 | Charges        | Delivery charge ref code              | (leave empty)                                     |
 | Charges        | Surcharge ref code                    | (leave empty)                                     |
+| Charges        | Bag fee ref code                      | (leave empty)                                     |
 | Payments       | Deliveroo payment ref code            | (leave empty)                                     |
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |

@@ -41,6 +41,7 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suiv
 | Remises             | Code ref remise                                   | (laisser vide)                                            |
 | Frais               | Code ref frais de livraison                       | (laisser vide)                                            |
 | Frais               | Code ref surcharge                                | (laisser vide)                                            |
+| Frais               | Code ref frais d'emballage                        | (laisser vide)                                |
 | Paiements           | Code ref paiement sur Deliveroo                   | `ONLINE`                                                  |
 | Paiements           | Code ref paiement en espèces                      | (laisser vide)                                            |
 | Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`             |
