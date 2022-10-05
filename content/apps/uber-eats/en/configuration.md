@@ -52,7 +52,9 @@ The ref codes in this section are only applied to orders delivered by your resta
 
 ### Payments
 
-**Payment ref code** is the ref code associated with Uber Eats payments in your EPOS. Without such reference, your EPOS will not know how to correctly identify and process Uber Eats payments. Refer to your EPOS documentation on the HubRise website to know how to handle Uber Eats payments in your EPOS.
+Uber Eats customers can pay for their order either online or by cash for restaurant delivery orders.
+
+This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct codes to use.
 
 ### Order Statuses
 
