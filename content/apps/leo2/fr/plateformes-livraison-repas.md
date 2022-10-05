@@ -35,7 +35,7 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suiv
 | Frais               | Code ref frais de livraison                       | Créer un produit dans LEO2 et utiliser son code ref.                 |
 | Frais               | Code ref surcharge                                | Créer un produit dans LEO2 et utiliser son code ref.                 |
 | Frais               | Code ref frais d'emballage                        | Créer un produit dans LEO2 et utiliser son code ref.                 |
-| Paiements           | Code ref paiement sur Deliveroo                   | Créer un mode de règlement dans LEO2 et utiliser son code ref.       |
+| Paiements           | Code ref paiement en ligne                        | Créer un mode de règlement dans LEO2 et utiliser son code ref.       |
 | Paiements           | Code ref paiement en espèces                      | (laisser vide)                                                       |
 | Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                        |
 
