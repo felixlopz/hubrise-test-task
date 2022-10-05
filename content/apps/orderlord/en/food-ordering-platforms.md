@@ -29,7 +29,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Charges        | Delivery charge ref code              | `delivery`                                        |
 | Charges        | Surcharge ref code                    | (leave empty)                                     |
 | Charges        | Bag fee ref code                      | (leave empty)                                     |
-| Payments       | Online payment ref code            | (leave empty)                                     |
+| Payments       | Online payment ref code               | (leave empty)                                     |
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |
 

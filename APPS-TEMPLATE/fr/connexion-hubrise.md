@@ -39,4 +39,3 @@ L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers �
 
 1. Depuis le back-office de SOLUTION, cliquez sur ...
 2. SOLUTION est déconnecté de HubRise.
-
