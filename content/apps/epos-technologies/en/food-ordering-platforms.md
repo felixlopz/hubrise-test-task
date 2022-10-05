@@ -100,7 +100,8 @@ In the Uber Eats Bridge configuration page, use the following settings:
 | Charges        | Delivery charge ref code                     | `UE_CH_DELIVERY`                                                 |
 | Charges        | Small order fee ref code                     | `UE_CH_SURCHARGE`                                                |
 | Charges        | Tip ref code                                 | (leave empty)                                                    |
-| Payments       | Payment ref code                             | `UE_PM_PLATFORM`                                                 |
+| Payments       | Online payment ref code                      | `UE_PM_PLATFORM`                                                 |
+| Payments       | Cash payment ref code                        | (leave empty)                                                    |
 | Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`                |
 | Menu           | Enable preparation notes on individual items | Tick if you wish to enable them                                  |
 

@@ -171,7 +171,8 @@ In the Uber Eats Bridge configuration page, use the following settings:
 | Charges        | Delivery charge ref code                     | `UE77`                                                                   |
 | Charges        | Small order fee ref code                     | Create a product with variable positive price and use its **Code**.      |
 | Charges        | Tip ref code                                 | Create a product with variable positive price and use its **Code**.      |
-| Payments       | Payment ref code                             | `UEPM`                                                                   |
+| Payments       | Online payment ref code                      | `UEPM`                                                                   |
+| Payments       | Cash payment ref code                        | (leave empty)                                                            |
 | Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`                        |
 | Menu           | Enable preparation notes on individual items | Tick if you wish to enable them                                          |
 
