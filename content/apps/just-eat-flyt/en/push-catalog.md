@@ -16,7 +16,9 @@ This page explains how to push your catalog, and what information is sent to the
 
 ## Populate a HubRise Catalog
 
-To be able to update your menu in Just Eat, you should populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the menu to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To update your menu in Just Eat, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your EPOS documentation on the HubRise website to verify.
+
+Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats or Deliveroo.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -77,16 +79,18 @@ Images that you upload on Just Eat must meet the following requirements:
 The categories in a HubRise catalog are mapped one-to-one to categories of products on Just Eat.
 The order in which categories and products appear on HubRise is maintained on Just Eat.
 
-For every category, the following HubRise fields are pulled into Just Eat:
+For every category, the following HubRise fields are pushed into Just Eat:
 
 - `name`: The name of the category
 - `description`: The description of the category
 
 ### Products and Skus
 
-Products in the `products` array of a HubRise catalog can have several skus. This notion of products/skus is not supported on Just Eat. Every sku is mapped to an individual product on Just Eat. For more information about products in HubRise catalogs, see [Products](/developers/api/catalog-management/#products).
+Products in the `products` array of a HubRise catalog can have several skus. This notion of products/skus is not supported on Just Eat. Every sku is mapped to an individual product on Just Eat. For more information about products in HubRise, see the [Products](/developers/api/catalog-management/#products) section of our API documentation.
 
-For every `sku` object in a product, Just Eat Flyt Bridge pulls the following information into Just Eat:
+Emojis are not supported in Just Eat. If you use emojis in your HubRise catalog, they will be removed when pushed to Just Eat.
+
+For every `sku` object in a product, Just Eat Flyt Bridge pushes the following information into Just Eat:
 
 - `ref`: The ref of the sku, which will be passed along in orders
 - `name`: The name of the sku
@@ -96,7 +100,7 @@ For every `sku` object in a product, Just Eat Flyt Bridge pulls the following in
 - `tags`: Tags describing the characteristics and restrictions of the product, such as allergens or spiciness. See [Product Tags](#product-tags).
 - `image`: The URL of the image of the parent product
 
-For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
+For more information about skus in the HubRise catalog, see the [Skus](/developers/api/catalog-management/#skus) section of our API documentation.
 
 ---
 
@@ -144,10 +148,19 @@ For every option in an option list, the following information is sent to Just Ea
 - `name`: The option name
 - `price`: The price for a single option
 
-### Deals and Discounts
+### Deals
 
-Deals and discounts are not supported on Just Eat. Therefore, deals and discounts present in your HubRise catalog are ignored and are not pulled into Just Eat.
+For each deal in the catalog, Just Eat Flyt Bridge creates a product on Just Eat with the following details:
 
-### Availability
+- `name`: The name of the deal becomes the name of the product.
+- `category_ref`: If empty, Just Eat Flyt Bridge creates a default category in Just Eat called "Offers".
+- `ref`: The ref code of the deal becomes the ref of the product, preceded by `DEAL-`. For example, for a deal with ref code `abc123`, Just Eat Flyt Bridge creates a Just Eat product with ref code `DEAL-abc123`.
+- `lines`: For each object in the array, Just Eat Flyt Bridge creates a list of modifiers, with `lines.name` as the name.
 
-Every time you push your HubRise catalog to Just Eat, you also update the availability of your menu, based on the values you set from the [configuration page](/apps/just-eat-flyt/configuration/#catalog) of Just Eat Flyt Bridge.
+### Discounts
+
+Discounts are not supported on Just Eat. Therefore, discounts present in your HubRise catalog are ignored and are not pulled into Just Eat.
+
+### Opening hours
+
+When you push your HubRise catalog to Just Eat, you also update the opening hours of your store, based on the values set on the [configuration page](/apps/just-eat-flyt/configuration/#catalog).

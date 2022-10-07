@@ -7,7 +7,7 @@ meta:
   description: Instructions on connecting Uber Eats with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-Connecting Uber Eats to HubRise can be done with a few simple steps.
+Connecting Uber Eats to HubRise can be done with a few steps.
 
 ---
 
@@ -30,7 +30,7 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 
 With this information in hand, the Uber Eats integration team will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
 
-## 2. Connect the Bridge
+## 2. Connect Uber Eats Bridge
 
 ---
 
@@ -52,9 +52,9 @@ With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge
 
 ## 3. Configure Your Preferences
 
-After connecting the bridge, you need to configure a few parameters on the Configuration page to send orders correctly to your EPOS.
+After connecting the bridge, you need to configure a few parameters on the **Configuration** page to send orders correctly to your EPOS.
 
-For more information about the Configuration page and how to navigate to it, see [Configuration page](/apps/uber-eats/user-interface/#configuration-page). For details on how to configure the parameters of the Uber Eats Bridge, see [Configuration](/apps/uber-eats/configuration).
+For more information about the configuration page and how to navigate to it, see [Configuration page](/apps/uber-eats/user-interface/#configuration-page). For details on how to configure the parameters of the Uber Eats Bridge, see [Configuration](/apps/uber-eats/configuration).
 
 ## 4. Map Products Ref Codes
 

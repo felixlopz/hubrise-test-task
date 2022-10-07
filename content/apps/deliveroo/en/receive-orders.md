@@ -7,7 +7,7 @@ meta:
   description: Find out the technical details of how orders are received from Deliveroo into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS.
+Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS or any other solution connected to your HubRise account.
 
 Your Deliveroo tablet needs to remain switched on to receive orders. Orders can either be manually accepted on the tablet, or auto-accepted. For more information, see [How Can I Auto-Accept Orders?](/apps/deliveroo/faqs/auto-accept/). Deliveroo is planning to support tabletless integration in the future.
 
@@ -49,6 +49,10 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 
 ## Order Statuses
 
+In this section, we capitalise the first letter of Deliveroo statuses to make them easier to distinguish from HubRise status names. For example, `Succeeded` is a Deliveroo status, while `accepted` is a HubRise status.
+
+### Deliveroo Statuses
+
 A Deliveroo order goes through several statuses during its lifecycle:
 
 - `Succeeded`: The order has been accepted by the EPOS, and is confirmed on Deliveroo.
@@ -65,9 +69,9 @@ New orders must be marked as `Succeeded` or `Failed` within 3 minutes, otherwise
 
 ---
 
-### Change the status of an order in Deliveroo
+### When the Status Changes in HubRise
 
-When an order status changes on HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the Deliveroo tablet. The correspondence between HubRise and Deliveroo statuses is as follows:
+When an order status changes in HubRise, Deliveroo Bridge notifies Deliveroo and the change is reflected in the Deliveroo tablet. The correspondence between HubRise and Deliveroo statuses is as follows:
 
 | HubRise status                               | Deliveroo status                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- |
@@ -81,7 +85,7 @@ Deliveroo Bridge lets you decide which HubRise status triggers the `Succeeded` s
 
 Other HubRise status values are not supported and are not sent on Deliveroo.
 
-### Change the status of an order in HubRise
+### When the Status Changes in Deliveroo
 
 When an order is cancelled from the Deliveroo tablet, it is marked as `cancelled` on HubRise.
 
@@ -125,35 +129,24 @@ The discount applied to the order is passed in a single object in the HubRise `d
 
 The available fields in the payload are the following:
 
-- `name`: The name of the discount, which is "Discount" by default.
+- `name`: The name of the discount, which is `Discount` by default.
 - `ref`: The ref code of the discount. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
 - `price_off`: The total amount of the discount.
 
 ## Charges
 
-Deliveroo Bridge encodes two types of charges: Delivery charges, and small order surcharges.
+Deliveroo Bridge can encode three types of charges:
 
-### Delivery Charges
-
-Delivery charges are applied for orders delivered by the restaurant.
-
-The available fields in the payloads are the following:
-
-- `name`: The name of the delivery charge, which is "Delivery charge" by default.
-- `type`: The type of charge. It has always the value `delivery`.
-- `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
-- `price`: The total amount of the delivery charge.
-
-### Small Order Surcharges
-
-Small order surcharges, applied when the total price for an order is below the minimum order price.
+- Delivery charges are applied for orders delivered by the restaurant.
+- Small order surcharges apply to orders below the minimum price.
+- Bag fees are required by regulations in some countries.
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the charge, which is "Surcharge" by default.
-- `type`: The type of charge. It has always the value `other`.
+- `name`: The name of the delivery charge, which is either `Delivery charge`, `Surcharge` or `Bag fee`.
+- `type`: The type of charge. It has the value `delivery` for delivery charges, and `other` for small order surcharges and bag fees.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
-- `price`: The total amount of the small order surcharge.
+- `price`: The amount of the charge.
 
 ## Customer Notes
 

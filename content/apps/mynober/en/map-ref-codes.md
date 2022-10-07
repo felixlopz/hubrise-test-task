@@ -31,7 +31,7 @@ To manually assign ref codes to your MynOber products from the MynOber Cloud bac
 
 ### Service Types, Charges, And Payments
 
-Service types, charges, and payments might require special ref codes. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types, charges, and payments might require special ref codes. Refer to your EPOS documentation on the HubRise website to verify.
 
 To assign ref codes to service types, charges, and payments, follow these steps:
 
@@ -49,13 +49,12 @@ To import your HubRise catalog to MynOber Cloud, follow these steps:
 1. Log in to your [MynOber Cloud account](https://cloud.mynober.nl/).
 1. Select the location from the list.
 1. Click **External tools** > **HubRise**.
-1. Click **Sync Catalog From HubRise**. If you do not see this button, make sure the **Online Ordering** toggle is active. 
+1. Click **Sync Catalog From HubRise**. If you do not see this button, make sure the **Online Ordering** toggle is active.
 
 To check that the products have been correctly imported, follow these steps:
 
 1. Click **Articles** > **Articles**.
 1. Click **Expand All** to reveal all the products available.
-1. Check that every product has a ref code under the **PLU** column. 
+1. Check that every product has a ref code under the **PLU** column.
 
 ![MynOber Cloud Menu Items Page](../images/002-en-mynober-cloud-menu-items.png)
-

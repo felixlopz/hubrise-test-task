@@ -15,7 +15,7 @@ This page explains how you can push your catalog and what information is sent to
 
 ## Populate a HubRise Catalog
 
-To be able to push your catalog into WooCommerce, you must populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your connected EPOS documentation on the HubRise website to verify.
+To be able to push your catalog into WooCommerce, you must populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -26,7 +26,7 @@ Once your catalog is populated on HubRise, you can publish it on your WooCommerc
 1. Log in to your HubRise account.
 1. Select the location connected with your WooCommerce store.
 1. Select **WooCommerce Bridge** from the list of connected apps.
-1. From the WooCommerce Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> at the top right corner of the page to expand the menu, then click **Configuration**.
+1. From the WooCommerce Bridge operations page, click the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> in the top right corner of the page to expand the menu, then click **Configuration**.
 1. On the configuration page, from the **Actions** section at the bottom of the page, select **Push the catalog**.
 
 WooCommerce Bridge creates new products or updates existing ones, but never deletes existing items from your WooCommerce catalog. If you select the checkbox **Update prices of existing products** in the Configuration page, WooCommerce Bridge will update the price of your WooCommerce products whenever this is different from the price of the corresponding HubRise product.
