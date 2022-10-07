@@ -70,7 +70,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 | Paiements           | Code ref paiement en espèces                          | (laisser vide)                                |
 | Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"` |
 
-## Just Eat avec l'API Flyt
+### Just Eat avec l'API Flyt
 
 Pour recevoir les commandes de Just Eat Flyt dans SOLUTION avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt).
 
