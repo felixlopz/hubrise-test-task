@@ -22,20 +22,32 @@ Alternatively, you can populate a HubRise catalog by pulling your menu from Uber
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-## Push the Catalog
+## Manual Catalog Push
 
-Once your catalog is populated on HubRise, you can push it to your Just Eat store by following these steps.
+Once your catalog is populated on HubRise, you can push it manually to your Just Eat store by following these steps:
 
 1. Log in to your HubRise account.
-1. Select the location connected with your Just Eat store.
-1. Select **Just Eat Flyt Bridge** from the list of connected apps.
-1. In Just Eat Flyt Bridge, click the **Actions** tab, then select **Push catalog**.
+1. Select the HubRise account and location connected with your Just Eat store.
+1. Open the **CONNECTIONS** page, then select **Just Eat Flyt Bridge** from the list of connected apps.
+1. In Just Eat Flyt Bridge, select the **Actions** tab, then click **Push catalog**.
+1. Check your Just Eat online menu.
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog into Just Eat will erase the current menu on your Just Eat store. This action cannot be reverted.
+**IMPORTANT NOTE:** Pushing your HubRise catalog into Just Eat will erase the current menu on your Just Eat store. A catalog push will also update your Just Eat **Opening hours** settings as defined in the Just Eat Flyt Bridge **Configuration** page. This action cannot be reverted.
 
 ---
+
+## Automatic Catalog Push
+
+Just Eat Flyt Bridge can automatically push your HubRise catalog into Just Eat every time it is updated. By default, this option is turned off. You can enable it by following these steps:
+
+1. Log in to your HubRise account.
+1. Select the HubRise account and location connected with your Just Eat store.
+1. Open the **CONNECTIONS** page, then select **Just Eat Flyt Bridge** from the list of connected apps.
+1. In Just Eat Flyt Bridge, select the **Configuration** tab.
+1. In the **Catalog** section, tick **Enable automatic catalog push**.
+1. Click **Save**.
 
 ## Technical Reference
 
