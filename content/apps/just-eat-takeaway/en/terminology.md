@@ -7,7 +7,7 @@ meta:
   description: Correspondence table showing terms used by Just Eat Takeaway and those used on HubRise for the same concept. Connect apps and synchronise your data.
 ---
 
-## Just Eat Takeaway Terms
+## Just Eat Terms
 
 The following table explains the terms that are specific to Just Eat Takeaway.
 

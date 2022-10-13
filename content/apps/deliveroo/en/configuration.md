@@ -14,19 +14,19 @@ These are divided into different sections for an easier navigation.
 
 ## Language
 
-From this section, you can decide which language is used to localise your receipts.
+Choose the language to use for generic items such as `Delivery charge`. These names may appear in your EPOS and in customer receipts.
 
 ## Orders
 
 ### Service Types
 
-Service types such as delivery by Deliveroo, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your connected EPOS documentation on the HubRise website to verify.
+Service types such as delivery by Deliveroo, restaurant delivery or takeaway might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify.
 
 Additionally, from this section you can choose to mark Deliveroo orders as delivery orders or collection orders. This is useful if you have specific business requirements for financial reporting.
 
 ### Discounts
 
-This section allows you to specify the discount ref code applied to your products, in case you have one active on your Deliveroo page. Refer to your connected EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
+This section allows you to specify the discount ref code applied to your products, in case you have one active on your Deliveroo page. Refer to your EPOS documentation on the HubRise website to see how to obtain the corresponding ref code.
 
 Available discounts on Deliveroo appear in the **All offers** page in your Deliveroo back office.
 
@@ -34,21 +34,21 @@ Available discounts on Deliveroo appear in the **All offers** page in your Deliv
 
 ### Charges
 
-If charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify.
+If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
-In this section, you can specify the ref code for delivery charges, and for surcharges applied to orders below the minimum price.
+In this section, you can specify the ref code for delivery charges, for surcharges applied to orders below the minimum price, and for bag fees.
 
 ### Payments
 
 Deliveroo customers can pay for their order either online or by cash for restaurant delivery orders.
 
-This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct codes to use.
+This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct codes to use.
 
 ### Order Statuses
 
 Deliveroo requires you to acknowledge every order you receive.
 In this section, you can select which HubRise status sends an order confirmation back to Deliveroo.
-Refer to your connected EPOS documentation on the HubRise website to verify the correct value.
+Refer to your EPOS documentation on the HubRise website to verify the correct value.
 
 ## Catalog
 
@@ -56,7 +56,7 @@ Refer to your connected EPOS documentation on the HubRise website to verify the 
 
 In this section, select the brand ID and menu ID of the Deliveroo menu you want to push your HubRise catalog into. The default values generally work for most users.
 
-Additionally, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option it turned off.
+Additionally, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option is turned off.
 
 Finally, include the menu description and URL for the banner image that you want to show on your Deliveroo store.
 
@@ -72,9 +72,15 @@ To obtain a public URL for your banner image, send an email to [support@hubrise.
 
 ---
 
+## Inventory
+
+You can push inventory data into Deliveroo from the **Actions** page. When you do so, products set as out of stock in HubRise are hidden on Deliveroo.
+
+You might also set the Deliveroo Flyt Bridge to automatically push inventory to Deliveroo whenever your HubRise inventory is updated. This is done by ticking the **Enable automatic inventory push** checkbox.
+
 ## Save the Configuration
 
-Once you are happy with the configuration of Deliveroo Bridge, click **Save** at the top of the page to go back to the Operations page.
+Once you are happy with the configuration of Deliveroo Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
 
 ## Reset the Configuration
 
