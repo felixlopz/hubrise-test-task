@@ -24,7 +24,7 @@ app_info:
 
 Loca'Touch offers self ordering kiosks systems for leasing or for sale.
 
-With a Loca'Touch self ordering kiosk, your customers can view your restaurant menu, order and pay autonomously. They also receive suggestions for complementary products during the purchasing cycle in order to increase the average basket.
+Loca'Touch self ordering kiosk allow your customers to view your restaurant menu, to order and pay autonomously. Your customers also receive suggestions for complementary products during the purchasing cycle in order to increase the average basket.
 
 Loca'Touch regularly updates the system software to guarantee a better service and offer long term performance.
 
