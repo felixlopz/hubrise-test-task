@@ -36,7 +36,7 @@ Available discounts on Deliveroo appear in the **All offers** page in your Deliv
 
 If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
-In this section, you can specify the ref code for delivery charges, and for surcharges applied to orders below the minimum price.
+In this section, you can specify the ref code for delivery charges, for surcharges applied to orders below the minimum price, and for bag fees.
 
 ### Payments
 
@@ -56,7 +56,7 @@ Refer to your EPOS documentation on the HubRise website to verify the correct va
 
 In this section, select the brand ID and menu ID of the Deliveroo menu you want to push your HubRise catalog into. The default values generally work for most users.
 
-Additionally, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option it turned off.
+Additionally, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option is turned off.
 
 Finally, include the menu description and URL for the banner image that you want to show on your Deliveroo store.
 

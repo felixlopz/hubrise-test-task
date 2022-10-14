@@ -48,7 +48,8 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Discounts      | Discount ref code                     | `DELD99`                                          |
 | Charges        | Delivery charge ref code              | `DELD77`                                          |
 | Charges        | Surcharge ref code                    | `DELD88`                                          |
-| Payments       | Deliveroo payment ref code            | `DVPM`                                            |
+| Charges        | Bag fee ref code                      | (ask support@hubrise.com if you need it)          |
+| Payments       | Online payment ref code               | `DVPM`                                            |
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |
 
@@ -81,7 +82,7 @@ Eat.ch uses the Just Eat via TakeawayAPI. In the Just Eat Takeaway Bridge config
 | Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
 | Discounts      | Discount ref code                        | `EAT99`                                           |
 | Charges        | Delivery charge ref code                 | `EAT77`                                           |
-| Payments       | Eat.ch payment ref code                  | `EATPM`                                           |
+| Payments       | Online payment ref code                  | `EATPM`                                           |
 | Payments       | Cash payment ref code                    | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
 
@@ -170,7 +171,8 @@ In the Uber Eats Bridge configuration page, use the following settings:
 | Charges        | Delivery charge ref code                     | `UE77`                                                                   |
 | Charges        | Small order fee ref code                     | Create a product with variable positive price and use its **Code**.      |
 | Charges        | Tip ref code                                 | Create a product with variable positive price and use its **Code**.      |
-| Payments       | Payment ref code                             | `UEPM`                                                                   |
+| Payments       | Online payment ref code                      | `UEPM`                                                                   |
+| Payments       | Cash payment ref code                        | (leave empty)                                                            |
 | Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`                        |
 | Menu           | Enable preparation notes on individual items | Tick if you wish to enable them                                          |
 
