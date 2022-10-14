@@ -1,13 +1,11 @@
 ---
-title: Manage Products
+title: Products and Options
 position: 6
 layout: documentation
 meta:
-  title: Manage Products | Catalog Manager | HubRise
+  title: Products and Options | Catalog Manager | HubRise
   description: Instructions on how to create and edit products in Catalog Manager. Synchronise catalogs between your EPOS and your apps.
 ---
-
-A catalog contains products, deals, discounts and charges.  The product items themselves contain details about the products, including variations and optional extras.  Managing this information in a central place is one of the key objectives of Catalog Manager.
 
 ## Create a Product
 

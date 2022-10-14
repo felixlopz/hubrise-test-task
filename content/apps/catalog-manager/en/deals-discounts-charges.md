@@ -1,13 +1,13 @@
 ---
-title: Manage Deals, Discounts and Charges
+title: Deals, Discounts and Charges
 position: 7
 layout: documentation
 meta:
-  title: Manage Deals, Discounts and Charges | Catalog Manager | HubRise
+  title: Deals, Discounts and Charges | Catalog Manager | HubRise
   description: Instructions on how to create and edit Deals, Discounts and Charges in Catalog Manager. Synchronise catalogs between your EPOS and your apps.
 ---
 
-## Manage Deals
+## Deals
 
 To create a deal, click on **Deals** > **New deal** and enter a name.  Once the deal is created, you can add the details and relate it to one or more products.
 
@@ -25,13 +25,13 @@ As an example, for a `Buy One Get One FREE` deal, you would enter one line item 
 
 Another example would be a `Three-course meal for £20`. You will need three lines, one for the `Appetiser`, another for the `Main dish`, and the last one for the `Dessert`. The first item would be set to a `£20` **Fixed price**. The two others would be set to `£0`. The choice of items available for each of the lines can be selected in the **Deal lines** section thanks to the **Attach SKUs** feature.
 
-## Manage Discounts
+## Discounts
 
 Discounts are simple percentage or amount discounts that can be applied on a total purchase, as opposed to a specific product item.
 
 To create a discount, click on **Discounts** > **New discount** and enter a name.  Once the discount is created, you can add the details.
 
-## Manage Charges
+## Charges
 
 Charges are flat fees that you can apply to a total purchase for things like delivery, fees, tips or other costs.
 
