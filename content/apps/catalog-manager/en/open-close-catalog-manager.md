@@ -7,10 +7,14 @@ meta:
   description: Instructions on how to open Catalog Manager and log out from it. Synchronise catalogs between your EPOS and your other apps.
 ---
 
-To access Catalog Manager, log in to [HubRise](https://manager.hubrise.com), select **CONNECTIONS** then **Open** next to the Catalog Manager app. Catalog Manager will open in a new browser tab. We recommend using Google Chrome.
+To open Catalog Manager, follow these steps:
+
+- Log in to [HubRise](https://manager.hubrise.com)
+- Select **CONNECTIONS**
+- Click **Open** next to the Catalog Manager app. Catalog Manager will open in a new browser tab.
 
 ![Catalog Manager Connections](../images/008-en-2x-Connections-Catalog-Manager.png)
 
-To terminate your Catalog Manager session, close the browser tab.
+To close Catalog Manager, simply close the browser tab. This will terminate your session.
 
-For more information on how to open, view app activity or logs on HubRise, refer to the HubRise Help page [Apps and Connections](https://www.hubrise.com/docs/connections).
+While Catalog Manager is tested and supported on all major browsers, we recommend using Google Chrome.
