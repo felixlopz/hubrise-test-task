@@ -33,7 +33,7 @@ Store Factory operates on the French market.
 
 Once connected to HubRise, Store Factory can be used to:
 
-- Push orders into HubRise, including order statuses.
+- Push orders into HubRise, including order status.
 - Push customer information into HubRise.
 - Pull the menu from a HubRise catalog.
 

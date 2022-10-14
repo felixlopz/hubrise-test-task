@@ -14,8 +14,12 @@ This page describes how to export your eTakeaway Max catalog and what informatio
 To export your catalog to HubRise, follow these steps:
 
 1. From the main dashboard, select **Menu > Categories**.
-2. From the **Categories** page, click **Export to HubRise**.
+1. From the **Categories** page, click **Export to HubRise**.
    ![eTakeaway Max categories page for store managers](../images/011-en-etm-export-storeman.png)
+1. You will redirect to the catalog export page.
+1. Double check that the selected HubRise Location and the connected HubRise Catalog are correct.
+   ![eTakeaway Max HubRise Menu page for store managers](../images/012-en-etm-hubrise-menu-log.png)
+1. Click on **Export** to push the menu to HubRise.
 
 ---
 
@@ -31,7 +35,7 @@ The following sections provide more details on how your eTakeaway Max catalog is
 
 ### Categories
 
-The categories in the eTakeaway Max catalog are mapped one-to-one to categories of products on HubRise. 
+The categories in the eTakeaway Max catalog are mapped one-to-one to categories of products on HubRise.
 
 eTakeaway Max sends to HubRise the category name, ref code, and description.
 
@@ -61,6 +65,7 @@ The following sections provide technical details on how your eTakeaway Max catal
 ### Categories
 
 For every category, the following fields are sent to HubRise:
+
 - `name`: The name of the category.
 - `ref`: The category ref code.
 - `description`: The category description.
@@ -69,12 +74,12 @@ For every category, the following fields are sent to HubRise:
 
 For every sku, eTakeaway Max sends the following information to HubRise:
 
-- `name`: The name of the sku.             
+- `name`: The name of the sku.
 - `description`: The description of the sku.
 - `image_ids`: The list of image IDs associated with the sku.
 - `skus`: A list containing a single sku.
-  - `skus[0].ref`: The ref code of the sku, which will be passed along in orders.  
-  - `skus[0].price`: The price of the sku.            
+  - `skus[0].ref`: The ref code of the sku, which will be passed along in orders.
+  - `skus[0].price`: The price of the sku.
   - `skus[0].option_list_refs`: The list of options attached to the sku.
 
 ### Options

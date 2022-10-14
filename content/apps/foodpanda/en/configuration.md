@@ -22,23 +22,23 @@ This section allows also to specify the email address that will be used for all 
 
 ## Service Types
 
-This section allows you to specify the ref codes used for foodpanda delivery and takeaway. Refer to your connected EPOS documentation on the HubRise website to verify the correct values to enter.
+This section allows you to specify the ref codes used for foodpanda delivery and takeaway. Refer to your EPOS documentation on the HubRise website to verify the correct values to enter.
 
 ## Charges
 
-If delivery charges apply, a ref code might be required. Refer to your connected EPOS documentation on the HubRise website to verify which value you should enter in the **Delivery charge ref code** field.
+If delivery charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify which value you should enter in the **Delivery charge ref code** field.
 
 ## Payments
 
 foodpanda customers can pay their orders either online or by cash on delivery.
 
-This section of the Configuration page allows you to specify the ref codes for these two payment methods. Refer to your connected EPOS documentation on the HubRise website to verify the correct values to enter.
+This section of the Configuration page allows you to specify the ref codes for these two payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct values to enter.
 
-## Saving the Configuration
+## Save the Configuration
 
 Once you are happy with the configuration of the foodpanda Bridge, click **Save** at the top of the page to continue to the main page.
 
-## Resetting the Configuration
+## Reset the Configuration
 
 You can always restore the Configuration page to its default values and change the foodpanda location ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.
 

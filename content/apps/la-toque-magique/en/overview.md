@@ -10,7 +10,7 @@ path_override: /
 app_info:
   category: Online Ordering
   availability: France
-  price_range:
+  price_range: €5-€79 / month
   website: https://latoquemagique.com/
   contact: support@latoquemagique.com
 ---

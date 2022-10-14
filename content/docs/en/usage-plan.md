@@ -1,5 +1,5 @@
 ---
-title: Usage
+title: Usage and Plans
 position: 9
 layout: documentation
 meta:
@@ -45,7 +45,7 @@ Notifications in the HubRise back office can be displayed for any reason involvi
 
 If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information on available plans, see [Usage Plans](#usage-plans).
 
-![Pay subscription](../images/022-en-pay-subscription.png)
+![Pay subscription](../images/022-en-2x-pay-subscription.png)
 
 ---
 

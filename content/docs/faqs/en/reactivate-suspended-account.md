@@ -1,6 +1,6 @@
 ---
 title: How Do I Reactivate A Suspended Account?
-position: 16 
+position: 16
 layout: documentation
 meta:
   title: Reactivate A Suspended Account | HubRise
@@ -10,7 +10,7 @@ meta:
 An account is suspended if you do not pay for your HubRise subscription, or if your payment is unsuccessful.
 A suspended account cannot receive orders and cannot communicate with the connected apps.
 
-To reactivate a suspended account, you need to pay for the subscription, and then reestablish the service. 
+To reactivate a suspended account, you need to pay for the subscription, and then reestablish the service.
 
 ## Register a Payment Method
 
@@ -43,9 +43,8 @@ For more information about HubRise usage plans, see [Usage](/docs/usage-plan/).
 
 ## Reestablish the service
 
-Once the payment of the outstanding **Requests for payment** is effective you can reactivate your **Account**, or your **Location**. 
+Once the payment of the outstanding **Requests for payment** is effective you can reactivate your **Account**, or your **Location**.
 
 1. In your HubRise back office, click on **SETTINGS**.
 2. Depending on your set up, you might need to re-establish the at Account or Location levels. For Account level, verify that **All locations** is selected. For Location level, select the Location from the **Location** dropdown.
 3. Click **Re-establish the service immediately**.
-

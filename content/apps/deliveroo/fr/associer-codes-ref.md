@@ -4,10 +4,10 @@ position: 5
 layout: documentation
 meta:
   title: Associer les codes ref | Deliveroo | HubRise
-  description: Comment saisir les codes ref de votre solution d'encaissement dans votre menu Deliveroo, en utilisant le gestionnaire de menu de Deliveroo.
+  description: Comment saisir les codes ref de votre logiciel de caisse dans votre menu Deliveroo, en utilisant le gestionnaire de menu de Deliveroo.
 ---
 
-Pour traiter correctement les commandes, la plupart des solution d'encaissement exigent un code ref pour chaque produit. Lorsque vous créez votre menu sur Deliveroo, vous devez donc vous assurer que chaque produit est associé à un code ref correct.
+Pour traiter correctement les commandes, la plupart des logiciel de caisse exigent un code ref pour chaque produit. Lorsque vous créez votre menu sur Deliveroo, vous devez donc vous assurer que chaque produit est associé à un code ref correct.
 
 ---
 

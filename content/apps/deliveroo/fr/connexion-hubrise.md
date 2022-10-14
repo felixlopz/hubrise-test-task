@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | Deliveroo | HubRise
-  description: "Processus de connexion de votre restaurant Deliveroo à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes Deliveroo dans votre solution d'encaissement."
+  description: "Processus de connexion de votre restaurant Deliveroo à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes Deliveroo dans votre logiciel de caisse."
 ---
 
 La connexion de Deliveroo à HubRise s'effectue en quelques étapes.
@@ -58,12 +58,12 @@ Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 
 ## 3. Configurez vos préférences
 
-Une fois la connexion effectuée, vous devez renseigner quelques paramètres sur la page Configuration afin que les commandes soient transmises correctement à votre solution d'encaissement.
+Une fois la connexion effectuée, vous devez renseigner quelques paramètres sur la page Configuration afin que les commandes soient transmises correctement à votre logiciel de caisse.
 
 Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Interface utilisateur](/apps/deliveroo/interface-utilisateur/#page-de-configuration). Pour plus de détails sur la configuration des paramètres de Deliveroo Bridge, voir la rubrique [Configuration](/apps/deliveroo/configuration).
 
 ## 4. Renseigner les codes ref des produits
 
-Si vous utilisez Deliveroo avec une solution d'encaissement, vous devez renseigner les codes ref de tous les produits de votre menu Deliveroo. Vous permettrez ainsi à votre solution d'encaissement d'identifier correctement chaque article.
+Si vous utilisez Deliveroo avec une logiciel de caisse, vous devez renseigner les codes ref de tous les produits de votre menu Deliveroo. Vous permettrez ainsi à votre logiciel de caisse d'identifier correctement chaque article.
 
 Pour savoir comment associer les codes ref sur Deliveroo, voir la rubrique [Associer les codes ref](/apps/deliveroo/associer-codes-ref).

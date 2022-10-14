@@ -24,6 +24,7 @@ La vue Carte de commande affiche toutes les informations nécessaires au traitem
 - La date et l'heure souhaitées de livraison ou de récupération par le client.
 - La date et l'heure confirmées, qui correspondent à l'horaire souhaité sauf si vous l'avez modifié.
 - Le type de commande. Les types possibles sont **LIVRAISON**, **RÉCUPÉRATION** et **SUR PLACE**.
+- Liste des produits à préparer, avec les commentaires clients éventuels.
 - Le statut de la commande. Vous pouvez modifier le statut d'une commande ou imprimer le reçu en sélectionnant le bouton correspondant.
 
 ![Détails de la carte de commande OrderLine](../images/019-fr-carte-commande-details.png)
@@ -98,7 +99,7 @@ Les reçus contiennent les informations suivantes :
 - Le type de commande. Les types possibles sont **LIVRAISON**, **RÉCUPÉRATION** ou **SUR PLACE**.
 - Le mode de paiement.
 - L'adresse et le commentaire de livraison, ainsi que les coordonnées GPS si elles sont présentes dans la commande.
-- L'heure de livraison confirmée, qui correspond à l'heure de livraison réelle, si cette donnée est prise en charge par le système d'encaissement. Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/parametres/#saisies-compl-mentaires).
+- L'heure de livraison confirmée, qui correspond à l'heure de livraison réelle, si cette donnée est prise en charge par le logiciel de caisse. Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/parametres/#saisies-compl-mentaires).
 - Les menus et promotions sont énumérés avec leur nom, suivi de la liste des produits qu'elles contiennent.
 - Les produits commandés par le client sont regroupés. Les options ajoutées ou supprimées sont indiquées dans une liste à puces :
   - Les articles standard retirés du produit sont biffés par un trait plein.

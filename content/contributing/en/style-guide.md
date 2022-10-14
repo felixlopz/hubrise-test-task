@@ -47,7 +47,7 @@ One exception is when referring to a specific item in HubRise. For example, if w
 
 Also, if it is an expression that has a well known acronym amongst your target audience, you should capitalise the word.
 
-Words such as a, an, and, but, for, nor, of, or, so, to, and yet must not be capitalised.
+Words such as a, an, and, but, for, nor, of, or, so, the, to, and yet must not be capitalised.
 
 > Wrong: If You Are Unsure On Whether To Capitalise Something Or Not, Do Not Capitalise It
 
@@ -365,7 +365,7 @@ The content should be relevant and unique from other pages. It should be easy to
 > - **Map Ref Codes**: Instructions on mapping Lightspeed K Series product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 > - **Troubleshooting**: Troubleshooting Lightspeed K Series connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 > - **Terminology**: Correspondence table showing terms used by Lightspeed K Series and those used on HubRise for the same concept. Connect apps and synchronise your data.
-> - **FAQ**: FAQs on connecting Lightspeed K Series with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
+> - **FAQs**: FAQs on connecting Lightspeed K Series with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 
 To complete a meta description and maximise the number of characters, it is possible to add a small sentence at the end:
 

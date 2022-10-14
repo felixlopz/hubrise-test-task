@@ -25,11 +25,11 @@ JDC est une société créée en 1989 possédant des agences réparties dans tou
 
 Kezia II est un outil de gestion centralisé permettant la gestion des stocks et des achats, la synchronisation des données multipostes & multisites, l'édition de statistiques avancées et la gestion des ressources humaines. La société JDC propose en complément des solutions de cartes de fidélité, de vidéosurveillance, ou encore de monétique intégrée.
 
-Kezia II est certifié NF525, et donc conforme à la loi française "anti-fraudes" du 1er janvier 2018.
+Kezia II est certifié NF525, et donc conforme à la loi française anti-fraude 2018.
 
 ## Fonctionnalités de l'intégration
 
-Connecter Kezia II à HubRise permet à votre solution d'encaissement de :
+Connecter Kezia II à HubRise permet à votre logiciel de caisse de :
 
 - Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
@@ -42,9 +42,9 @@ Pour connecter Kezia II à HubRise, vous devez demander au support de JDC l'inst
 
 ## Pourquoi se connecter ?
 
-En connectant Kezia II à HubRise, vous permettez à votre solution d'encaissement de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, de commande à table, ou des plateformes de livraison de repas sur votre solution d'encaissement. Exportez vos produits vers d'autres applications.
+En connectant Kezia II à HubRise, vous permettez à votre logiciel de caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, de commande à table, ou des plateformes de livraison de repas sur votre logiciel de caisse. Exportez vos produits vers d'autres applications.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

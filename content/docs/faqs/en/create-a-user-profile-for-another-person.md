@@ -14,7 +14,7 @@ There are many reasons for creating user profiles for other people:
 
 To create a user profile for another person:
 
-1. If you are already logged in to HubRise, log out or open a browser in incognito mode. 
+1. If you are already logged in to HubRise, log out or open a browser in incognito mode.
 1. Access the [HubRise registration page](https://manager.hubrise.com/signup).
 1. Enter the **User details** and click on **Create account**.
 1. Click on **Create account**.

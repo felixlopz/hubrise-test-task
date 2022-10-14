@@ -22,6 +22,12 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
   accessLevel="location, account"
 />
 
+#### Request parameters:
+
+| Name                                  | Type   | Description                                      |
+| ------------------------------------- | ------ | ------------------------------------------------ |
+| `hide_data` <Label type="optional" /> | `true` | If present, return the catalog without the data. |
+
 The response either contains a `location_id` (location level catalog) or an `account_id` (account level catalog) field.
 
 <details>

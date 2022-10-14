@@ -42,10 +42,10 @@ Just Eat Takeaway Bridge allows you to connect the following platforms to HubRis
 
 ## Integration Features
 
-Connecting Just Eat Takeaway Bridge allows you to:
+Connecting Just Eat Takeaway Bridge allows HubRise to:
 
-- Push orders to HubRise, including order status.
-- Push delivery information into HubRise, for orders delivered by your team.
+- Pull orders from Just Eat, including order status.
+- Pull delivery information from Just Eat, for orders delivered by the restaurant.
 
 ![Diagram of the connection flow between Just Eat Takeaway, Just Eat Takeaway Bridge, and HubRise](../images/000-en-2x-jet-connection-diagram.png)
 

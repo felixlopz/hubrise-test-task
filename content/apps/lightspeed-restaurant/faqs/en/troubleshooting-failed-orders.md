@@ -21,8 +21,6 @@ To troubleshoot an incorrect ref code in an order, you can look at the logs for 
 - Click the corresponding row and identify the transaction coming from Lightspeed, that is the one whose direction is "Lightspeed -> Bridge".
 - In the request boby, if you see `FAILURE` as the status value and `Could not add item <id> (not found)` as the reason for the error, then the order rejection is probably due to an incorrect ref code in your integrated app. The `<id>` value in the error message will indicate the problematic item.
 
-If you recently migrated from Deliverect to HubRise, some ref codes in your online ordering platforms menus might be incorrect due to how Deliverect exports menus. For more details on this issue and how to solve it, see our [FAQ about migrating from Deliverect](/apps/lightspeed-restaurant/faqs/migrating-from-deliverect/).
-
 ## API Activation in the Tablet
 
 To connect with Lightspeed Restaurant, the Lightspeed API needs to be activated. You can simply contact Lightspeed support and request the activation.
@@ -31,20 +29,3 @@ If you plan to connect Lightspeed Restaurant to food delivery platforms like Del
 If after this configuration you are still not able to receive orders in your tablet, you should check if the API connection is enabled on your tablet. On the main screen of the Lightspeed app, if you see a green pencil icon <InlineImage width="28" height="28">![Green pencil icon](../../images/011-lightspeed-restaurant-api-icon.png)</InlineImage> at the top, then your API connection is activated. If that icon is not green, you can simply tap on it and tap the **Enable** button to activate the API.
 
 ![Main screen of the Lightspeed app with the green icon indicating that API connection is enabled.](../../images/010-lightspeed-restaurant-main-screen.png)
-
-## "Could Not Add Item (Not Found)" Error
-
-In some cases, orders can fail with the following error message:
-
-```
-{
-  "status": "FAILURE",
-  "reason": "Could not add item 6644662335523 (not found)",
-  "thirdPartyReference": "zvv25|w9988-0|qdvrjd"
-}
-```
-
-You might see this error when the item does not exist in the iPad because the iPad does not have the updated menu.
-If you experience this error intermittently and have multiple iPads in your store, the error might be caused by a single iPad that is not up to date when it receives the order. 
-
-To solve the issue, make sure that all your iPads are up to date.
