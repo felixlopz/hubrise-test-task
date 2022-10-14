@@ -124,7 +124,13 @@ content:
           documentation: /apps/pointone
           logo: pointone.png
           title: pointOne
-          description: pointOne est un logiciel de caisse complète et simple à utiliser, avec gestion de stock, rapports et analyse des données.
+          description: pointOne est un logiciel de caisse complète et simple à utiliser, avec gestion de stock, rapports et analyse des données.
+          additional_info: Intégration en cours.
+        - website: https://www.popina.com/fr/
+          documentation: /apps/popina
+          logo: popina.png
+          title: Popina
+          description: Popina est une caisse iPad pour les restaurants, simple et intuitive à utiliser. Popina est accompagnée d'un système de gestion et de nombreux accessoires pour enrichir l'expérience utilisateur et client.
           additional_info: Intégration en cours.
         - website: https://poshelper.fr/
           documentation: /apps/pos-helper
