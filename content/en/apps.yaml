@@ -529,7 +529,7 @@ content:
           documentation: /apps/catalog-manager
           logo: catalog-manager.png
           title: Catalog Manager
-          description: Catalog Manager by HubRise is used to create, edit and manage products in your HubRise catalogs. Catalogs can be pulled from or pushed into integrated solutions, such as EPOS, online ordering solutions or food ordering and delivery platforms.
+          description: Catalog Manager allows you to create, edit and manage your HubRise catalogs. Catalogs can be pulled from or pushed into integrated solutions, such as EPOS, online ordering solutions or food ordering and delivery platforms. Catalog Manager is a free app edited by HubRise.
         - website: https://www.expedy.fr
           documentation: /apps/expedy
           logo: expedy-print.png
@@ -539,7 +539,7 @@ content:
           documentation: /apps/orderline
           logo: orderline.png
           title: OrderLine
-          description: OrderLine by HubRise is used to centralise orders received from an e-commerce website and food ordering and delivery platforms. Orders can be managed and printed from OderLine.
+          description: OrderLine centralises orders received from an e-commerce website and food ordering and delivery platforms. Orders can be managed and printed from OderLine. OrderLine is free app edited by HubRise.
         - website: https://www.satoeurope.com
           documentation: /apps/sato
           logo: sato.png

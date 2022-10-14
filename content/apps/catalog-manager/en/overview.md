@@ -16,22 +16,17 @@ app_info:
   contact: contact@hubrise.com
 ---
 
-Catalog Manager is used to create, edit and manage products you have in your HubRise Catalogs. It can be used free of charge, it is included in your HubRise subscription.
-
-Catalogs on HubRise can be pulled from an app and pushed into other apps you use every day, EPOS and online ordering solutions, table ordering apps, self ordering kiosks or digital menus, food ordering and delivery platforms (including Deliveroo, Uber Eats and Just Eat), operations and inventory management solutions, reporting dashboards, Kitchen Display Screens, and more. 
+Catalog Manager allows you to create, edit and manage your HubRise catalogs for different locations or channels. Catalog Manager is edited by HubRise and can be used free of charge.
 
 Catalog Manager has the following features:
 
-- Automatically create catalogs and product details using catalogs pulled from your EPOS, a food delivery platform or your other apps connected to HubRise.
-- Edit catalogs with additional information, such as options, pictures and descriptions.
-- Option to create catalogs and product details manually, from scratch.
+- Create, edit and manage your HubRise catalogs.
+- Edit your products, options, deals, discounts and charges.
+- Add pictures and descriptions.
 
-Catalog Manager is a cloud based solution, available anywhere and on any device, computers, tablets and smartphones.
+This is the first version of Catalog Manager. In a future release, you will also be able to:
 
----
+- Manage a single catalog with different prices and product availability per channel.
+- Make manual changes to a catalog while keeping track of the differences with the original catalog.
 
-**IMPORTANT NOTE:** This is the first Catalog Manager version.  The next release will include a feature that allows you to create a catalog at an account level and have different prices and product availability at a location or channel level.
-
-Also, for catalogs that are pulled from other apps connected to HubRise, catalog changes made to it will be highlighted in Catalog Manager for business owners to decide if they apply to any of the locations or channels the catalog is used for.
-
----
+Catalog Manager is a cloud based solution, available anywhere. While you can use it from any device, we recommend using a desktop or laptop computer for the best experience.
