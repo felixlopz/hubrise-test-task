@@ -50,7 +50,7 @@ Just Eat Takeaway Bridge ne modifie pas le statut des commandes dans HubRise.
 Just Eat Takeaway prend en charge trois types de service :
 
 - Livraison par coursier Just Eat Takeaway
-- Livraison par les livreurs du restaurant
+- Livraison par la flotte du restaurant
 - Retrait par les clients
 
 Ces types sont généralement associés à des codes ref spécifiques dans votre logiciel de caisse, que vous pouvez définir sur la page de configuration de l'instance Bridge. Pour plus d'informations sur les codes ref, veuillez consulter la documentation de votre logiciel de caisse sur la [page Apps](/apps) de notre site internet.

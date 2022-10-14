@@ -39,11 +39,11 @@ Just Eat Takeaway activera l'intégration HubRise pour votre enseigne et vous fo
 
 ## 2. Associez les codes ref des produits
 
-La plupart des applications ont besoin du codes ref des produits pour que les commandes soient correctement traitées. Vous pouvez soit saisir les codes ref des produits manuellement dans le back-office de Just Eat Takeaway, soit confier cette tâche à leur équipe d'assistance.
+La plupart des applications ont besoin des codes ref des produits pour que les commandes soient correctement traitées. Vous pouvez soit saisir les codes ref des produits manuellement dans le back-office de Just Eat Takeaway, soit confier cette tâche à leur équipe d'assistance.
 
-Pour plus d'informations, voir la rubrique [Associer les codes ref](/apps/just-eat-takeaway/associer-code-ref).
+Pour plus d'informations, voir la rubrique [Associer les codes ref](/apps/just-eat-takeaway/associer-codes-ref).
 
-## 3. Connectez le Bridge
+## 3. Connectez le bridge
 
 ---
 

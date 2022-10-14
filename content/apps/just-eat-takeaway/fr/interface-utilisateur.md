@@ -17,7 +17,7 @@ Ces opérations peuvent soit être liées à une commande spécifique, soit êtr
 
 Chaque ligne de cette page affiche les informations relatives à une opération :
 
-- **HEURE  **: date et heure de la commande.
+- **HEURE** : date et heure de la commande.
 - **COMMANDE** : identifiant de la commande HubRise, pour les opérations de commande.
 - **STATUT** : statut de la commande. La valeur OK indique que la commande a été envoyée avec succès. Dans le cas contraire, un code d'erreur s'affiche en rouge.
 
