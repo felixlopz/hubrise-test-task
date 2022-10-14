@@ -17,4 +17,4 @@ To open Catalog Manager, follow these steps:
 
 To close Catalog Manager, simply close the browser tab. This will terminate your session.
 
-While Catalog Manager is tested and supported on all major browsers, we recommend using Google Chrome.
+Catalog Manager is tested and supported on all major browsers, however we recommend using Google Chrome on a desktop or laptop computer for the best experience

@@ -16,7 +16,7 @@ app_info:
   contact: contact@hubrise.com
 ---
 
-Catalog Manager allows you to create, edit and manage your HubRise catalogs for different locations or channels. Catalog Manager is edited by HubRise and can be used free of charge.
+Catalog Manager allows you to manage and edit your HubRise catalogs, for different locations or channels. Catalog Manager is edited by HubRise and can be used free of charge.
 
 Catalog Manager has the following features:
 
