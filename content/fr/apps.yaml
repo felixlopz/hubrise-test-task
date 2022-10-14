@@ -310,7 +310,7 @@ content:
           documentation: /apps/locatouch
           logo: locatouch.png
           title: Loca'Touch
-          description: Loca'Touch propose des bornes de commande en location ou en vente. Le client passe commande et paye en toute autonomie. Loca'Touch propose des produits complémentaires pendant le cycle d'achat. Mises à jour régulières du logiciel système.
+          description: Loca'Touch propose des bornes de commande en location ou en vente. Le client passe commande et paye en toute autonomie, et reçoit des propositions de produits complémentaires pendant le cycle d'achat. Mises à jour régulières du logiciel système.
           additional_info:
         - website: https://maakyo.com
           documentation: /apps/maakyo

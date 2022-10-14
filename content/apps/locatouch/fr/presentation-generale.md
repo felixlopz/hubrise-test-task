@@ -22,7 +22,11 @@ app_info:
 
 ## Description
 
-Loca'Touch propose des bornes de commande en location ou en location. Grâce à la mise en place d'une borne de commande en libre-service, vos clients peuvent consulter la carte de votre restaurant, commander et payer en toute autonomie. Des suggestions de produits complémentaires sont faites pendant le processus d'achat afin d'augmenter le panier moyen. Des mises à jour régulières du logiciel système de Loca'Touch garantissent un meilleur service et un système performant sur le long terme.
+Loca'Touch propose des bornes de commande en location ou en location.
+
+Les bornes de commande en libre-service Loca'Touch permettent à vos clients de consulter la carte de votre restaurant, de commander et payer en toute autonomie. Vos clients reçoivent des suggestions de produits complémentaires pendant le processus d'achat afin d'augmenter le panier moyen.
+
+Loca'Touch met régulièrement à jour son logiciel système pour garantir un meilleur service et un système performant sur le long terme.
 
 ## Fonctionnalités de l'intégration
 
@@ -39,7 +43,6 @@ Connecter Loca'Touch à HubRise permet à votre borne de commande en libre-servi
 **REMARQUE IMPORTANTE :** La réception des commandes et des informations clients reçues dans HubRise sera bientôt possible. Une fois cette nouvelle fonctionnalité d'intégration disponible, vous pourrez utiliser Loca'Touch pour centraliser, gérer et imprimer des commandes provenant d'autres systèmes connectés à votre compte HubRise, y compris les plateformes de commande et de livraison de repas. Contactez Loca'Touch pour plus d'information à ce sujet.
 
 ---
-
 
 Loca'Touch peut être connecté à HubRise depuis le back-office de Loca'Touch.
 
