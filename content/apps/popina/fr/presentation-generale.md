@@ -24,13 +24,13 @@ app_info:
 
 ## Description
 
-Popina est une caisse enregistreuse sur iPAD pour restaurant, snacking, bar et boulangeries. Simple et intuitive à utiliser, Popina est accompagné d'un système de gestion et de nombreux accessoires pour enrichir l'expérience utilisateur et client.
+Popina est une caisse enregistreuse sur iPad pour restaurants, snacks, bars et boulangeries. Simple et intuitive à utiliser, Popina est accompagnée d'un système de gestion et de nombreux accessoires pour enrichir l'expérience utilisateur et client.
 
-Popipa peut être complétée de plusieurs solutions : 
-- PopDisplay : borne dans laquelle vos clients peuvent passer commande et payer de manière autonome.
+Popipa propose plusieurs solutions complémentaires : 
+- PopDisplay : borne permettant à vos clients de passer commande et payer de manière autonome.
 - PopFid : un programme de fidélité.
 - PopOrder : une solution de commande en ligne.
-- PopLive : une application utilisée pour visualiser les données de votre restaurant en temps réel depuis votre smartphone.
+- PopLive : une application pour visualiser les données du restaurant en temps réel depuis un smartphone.
 
 Popina est conforme à la loi française anti-fraude 2018.
 

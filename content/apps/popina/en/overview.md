@@ -24,13 +24,13 @@ app_info:
 
 ## Description
 
-Popina is an iPAD cash register for restaurants, bars and bakeries. Simple and intuitive to use, Popina is complemented with an operations management system and a number of accessories that help enrich the user and the customer experience.
+Popina is an iPad EPOS for restaurants, bars and bakeries. Simple and intuitive to use, Popina is complemented with an operations management system and a number of accessories that help enrich the user and the customer experience.
 
 Popipa can be supplemented with several complementary solutions:
 - PopDisplay: Self ordering kiosks for customers to order and pay autonomously.
 - PopFid: A customer loyalty program.
 - PopOrder: An online ordering solution.
-- PopLive: A mobile app you can use to view your restaurant data in real time from your smartphone.
+- PopLive: A mobile app to view restaurant data in real time from a smartphone.
 
 Popina complies with the 2018 French Anti-Fraud Act.
 

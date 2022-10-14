@@ -130,7 +130,7 @@ content:
           documentation: /apps/popina
           logo: popina.png
           title: Popina
-          description: Popina est une caisse enregistreuse sur iPAD pour restaurant simple et intuitive à utiliser. Popina est accompagné d'un système de gestion et de nombreux accessoires pour enrichir l'expérience utilisateur et client.
+          description: Popina est une caisse iPad pour les restaurants, simple et intuitive à utiliser. Popina est accompagnée d'un système de gestion et de nombreux accessoires pour enrichir l'expérience utilisateur et client.
           additional_info: Intégration en cours.
         - website: https://poshelper.fr/
           documentation: /apps/pos-helper
