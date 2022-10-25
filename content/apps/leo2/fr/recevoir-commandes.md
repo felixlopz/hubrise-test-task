@@ -49,7 +49,7 @@ Pour modifier le statut d'une commande, suivez les étapes suivantes :
 
 Si une commande contient un article dont le code ref est inconnu, LEO2 permet de choisir un article par défaut pour le remplacer. Pour configurer cet article, consultez la section [Configuration](/apps/leo2/configuration#comportement-en-cas-de-code-ref-absent-ou-invalide). Si aucun article par défaut n'est configuré, LEO2 ignore la commande.
 
-Si une commande contient une option payante dont le code ref est inconnu, LEO2 ae remplace par le message produit par défaut, si celui-ci est configuré comme indiqué à la section [Configuration](/apps/leo2/configuration#comportement-en-cas-de-code-ref-absent-ou-invalide). Si aucun message par défaut n'est configuré, LEO2 ignore l'option.
+Si une commande contient une option payante dont le code ref est inconnu, LEO2 le remplace par le message produit par défaut, si celui-ci est configuré comme indiqué à la section [Configuration](/apps/leo2/configuration#comportement-en-cas-de-code-ref-absent-ou-invalide). Si aucun message par défaut n'est configuré, LEO2 ignore l'option.
 
 ### Traitement des différences de prix
 
