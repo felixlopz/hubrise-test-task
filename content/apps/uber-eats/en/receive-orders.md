@@ -61,7 +61,7 @@ When the status of an order changes to `rejected` or `cancelled` in HubRise, Ube
 
 When the status of an order changes to `awaiting_shipment`, Uber Eats Bridge notifies Uber Eats that the order is ready for delivery. Marking orders ready only affects orders delivered by Uber. For such orders, the effects are identical to pressing the **Order Ready** button on the Uber Eats tablet:
 
-1. If Uber has not yet dispatched a driver because the preparation time did not run out, this will let Uber know that the order is ready.
+1. If Uber has not yet dispatched a driver because the preparation time did not run out, this will let Uber know that it can dispatch a driver immediately.
 2. It improves preparation time predictions for future orders.
 
 Marking orders ready is optional. By default, Uber Eats will mark orders ready automatically after the preparation time runs out.
