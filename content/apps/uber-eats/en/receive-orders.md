@@ -51,7 +51,7 @@ Uber Eats supports three order statuses:
 
 New orders must be switched to one of the above statuses within 10 minutes. Orders which are still pending after this period of time are automatically cancelled by Uber Eats.
 
-You can only update the status of an order once. Further changes are ignored by Uber Eats. Therefore you cannot cancel or deny an order which has already been accepted.
+You can only update the status of an order once. Further changes are ignored by Uber Eats. Therefore, you cannot cancel or deny an order which has already been accepted.
 
 ### When the Status Changes in HubRise
 
@@ -59,7 +59,7 @@ Uber Eats Bridge lets you decide which HubRise status triggers the `Accepted` st
 
 When the status of an order changes to `rejected` or `cancelled` in HubRise, Uber Eats Bridge notifies Uber Eats that the order is respectively `Denied` or `Cancelled`.
 
-When the status of an order changes to `awaiting_shipment`, Uber Eats Bridge notifies Uber Eats that the order is ready for delivery. Marking orders ready only affect orders delivered by Uber. For such orders, the effects are identical to pressing the **Order Ready** button on the Uber Eats tablet:
+When the status of an order changes to `awaiting_shipment`, Uber Eats Bridge notifies Uber Eats that the order is ready for delivery. Marking orders ready only affects orders delivered by Uber. For such orders, the effects are identical to pressing the **Order Ready** button on the Uber Eats tablet:
 
 1. If Uber has not yet dispatched a driver because the preparation time did not run out, this will let Uber know that the order is ready.
 2. It improves preparation time predictions for future orders.
