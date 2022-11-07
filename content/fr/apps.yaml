@@ -404,6 +404,12 @@ content:
           title: Zenorder
           description: Zenorder est une solution de commande en ligne en marque blanche pour les métiers de bouche, couplée à une suite d'outils de marketing et de fidélisation client.
           additional_info:
+        - website: https://www.zuplyit.com
+          documentation: /apps/zuplyit
+          logo: zuplyit.png
+          title: Zuplyit
+          description: Zuplyit de AirTouchMedia est une solution de commande en ligne en marque blanche pour les métiers de bouche, combinée avec une solution de gestion de livreurs, et une suite d'outils de fidélisation et de promotion.
+          additional_info:
     - title: Gestion de livreurs
       apps:
         - website: http://www.captain.ai
