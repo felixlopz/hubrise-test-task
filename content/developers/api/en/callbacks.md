@@ -21,13 +21,22 @@ There are 2 types of callbacks:
 
 ---
 
-Active callbacks receive a `POST` HTTP request each time an event occurs. The request body includes the JSON representation of the previous and new states of the affected resource:
+Active callbacks receive a POST HTTP request each time an event occurs.
+
+The body of the request includes the resource and event types, the id of the affected resource, the timestamp of the event, and in some cases, the previous and new values of the resource. The JSON is identical to the response of the `GET /callback/events/:id` request, and is described in greater detail in the [Retrieve Event](#retrieve-event) section.
+
+See an example of a customer update event:
 
 ```json
+POST https://your-domain.com/hubrise_callback
+Body:
 {
+  "id": "ks8f6",
   "resource_type": "customer",
-  "resource_id": "sdakm",
   "event_type": "update",
+  "created_at": "2020-06-25T11:43:51+02:00",
+  "customer_id": "ve343",
+  "customer_list_id": "sdakm",
   "previous_state": {
     "id": "jdj9v",
     "email": "tom@dummy-mail.org",
@@ -38,8 +47,6 @@ Active callbacks receive a `POST` HTTP request each time an event occurs. The re
     "email": "jim@dummy-mail.org",
     ...
   },
-  "account_id": "3r4s3",
-  "location_id": "3r4s3-1"
 }
 ```
 
@@ -169,7 +176,7 @@ HubRise will no longer trigger events or call the callback URL.
 
 ### 2.1. Retrieve Event
 
-Returns the event.
+Returns an event by its id.
 
 <CallSummaryTable
   endpoint="GET /callback/events/:event_id"
@@ -183,19 +190,17 @@ Returns the event.
 ```json
 {
   "id": "ks8f6",
-  "created_at": "2020-06-25T11:43:51+02:00",
   "resource_type": "customer",
   "event_type": "update",
-  "customer_list_id": "sdakm",
+  "created_at": "2020-06-25T11:43:51+02:00",
   "customer_id": "ve343",
+  "customer_list_id": "sdakm",
   "previous_state": {
-    "id": "sdakm",
-    "first_name": "Thomas"
+    "first_name": "Thomas",
     ...
   },
   "new_state": {
-    "id": "sdakm",
-    "first_name": "Tomas"
+    "first_name": "Tom",
     ...
   }
 }
@@ -203,10 +208,21 @@ Returns the event.
 
 The returned event contains:
 
-- the time of the resource modification
-- the resource and event types
-- the ids of the affected resource and the parent resources
-- a copy of the state of the resource before and after the change (for update and create), or the difference between both states (for patch)
+- The id of the event.
+- The resource type, eg. `order`, `customer`, `catalog`, ...
+- The event type, which is one of: `create`, `update`, `patch`, and `delete`.
+- The time when the resource modification occurred.
+- The ids of the affected resource and its parent resources.
+- The state of the resource, before and/or the modification, when applicable.
+
+The state(s) of the resource included in the event depends on the resource and the event types, due to semantic and performance reasons:
+
+- The `new_state` field is only present for `create` and `update` event types.
+- The `previous_state` field is only present for `update` and `delete` event types.
+- Catalog events contain no state fields, for any event type.
+- Inventory events only contain a state field for `patch` event type. In this case, the field is named `state_change` and it contains the list of changes.
+
+When an event affects a catalog or an inventory, you will need to send a `GET` request to the HubRise API to retrieve the full state of the resource.
 
 ### 2.2. List Events
 
