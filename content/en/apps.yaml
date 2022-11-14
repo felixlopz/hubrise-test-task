@@ -401,6 +401,12 @@ content:
           title: Zenorder
           description: Zenorder is a white label online ordering solution for the food industry, coupled with a suite of marketing and customer loyalty tools.
           additional_info:
+        - website: https://www.zuplyit.com
+          documentation: /apps/zuplyit
+          logo: zuplyit.png
+          title: Zuplyit
+          description: Zuplyit by AirTouchMedia is a white label online ordering solution for the food industry, combined with a Delivery Management Solution, as well as a suite of customer loyalty and promotion tools.
+          additional_info:
     - title: Delivery Management
       apps:
         - website: http://www.captain.ai
