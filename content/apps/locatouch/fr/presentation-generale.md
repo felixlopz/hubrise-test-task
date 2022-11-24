@@ -22,7 +22,7 @@ app_info:
 
 ## Description
 
-Loca'Touch propose des bornes de commande en location ou en vente.
+Loca'Touch propose des bornes de commande en location ou à l'achat.
 
 Les bornes de commande en libre-service Loca'Touch permettent à vos clients de consulter la carte de votre restaurant, de commander et payer en toute autonomie. Vos clients reçoivent des suggestions de produits complémentaires pendant le processus d'achat afin d'augmenter le panier moyen.
 
