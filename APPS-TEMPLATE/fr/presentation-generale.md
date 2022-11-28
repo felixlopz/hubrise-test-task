@@ -43,10 +43,12 @@ SOLUTION est conforme à la loi française anti-fraude 2018.
 
 Connecter SOLUTION à HubRise permet à votre [logiciel de caisse] de :
 
-- Envoyer les commandes à HubRise, dont les statuts de commande.
 - Recevoir les commandes de HubRise, dont les statuts de commande.
-- Envoyer les informations clients à HubRise. -OU- Envoyer les informations clients à HubRise, dont la fidélité.
+- Recevoir les modifications de commandes de HubRise : paiements et changements d'article.
 - Recevoir les informations clients de HubRise. -OU- Recevoir les informations clients de HubRise, dont la fidélité.
+- Envoyer les commandes à HubRise, dont les statuts de commande.
+- Envoyer les modifications de commandes à HubRise : paiements et changements d'article.
+- Envoyer les informations clients à HubRise. -OU- Envoyer les informations clients à HubRise, dont la fidélité.
 - Envoyer un catalogue à HubRise.
 - Recevoir un catalogue de HubRise.
 - Synchroniser l'inventaire avec HubRise.

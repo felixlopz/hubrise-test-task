@@ -32,16 +32,13 @@ LEO2 est certifié NF525, et donc conforme à la loi française anti-fraude 2018
 Connecter LEO2 à HubRise permet à votre logiciel de caisse de :
 
 - Recevoir les commandes de HubRise.
+- Recevoir les modifications de commandes de HubRise : paiements et changements d'article.
 - Recevoir les informations clients de HubRise.
-- Envoyer les changements de statuts de commandes à HubRise.
+- Envoyer les commandes à HubRise.
+- Envoyer les modifications de commandes à HubRise : paiements et changements d'article.
+- Envoyer les informations clients à HubRise.
 - Envoyer un catalogue à HubRise.
 - Synchroniser l'inventaire avec HubRise.
-
----
-
-**REMARQUE IMPORTANTE :** LEO2 pourra bientôt envoyer les commandes vers HubRise, et supportera aussi les commandes modifiables. Pour plus d'informations, contactez la société Atoo.
-
----
 
 LEO2 peut être connecté à HubRise depuis le back-office de LEO2.
 
