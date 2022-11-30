@@ -345,7 +345,7 @@ content:
           logo: prestashop.png
           title: PrestaShop
           description: PrestaShop is an open source e-commerce solution. Multilingual, multi-currency, and omnichannel, PrestaShop can be hosted or deployed on your own server. It can be tailored to meet the needs of most businesses.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.restajet.com/
           documentation: /apps/restajet
           logo: restajet.png
@@ -523,7 +523,7 @@ content:
           logo: koust.png
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
-          additional_info: Documentation in French.
+          additional_info:
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it
           logo: somm-it.png
