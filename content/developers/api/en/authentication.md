@@ -190,6 +190,8 @@ Authorization: Basic Y2xpZW50X2lkOmNsaWVudF9zZWNyZXQ=
 token=b9922a78d3ffab6b95e9d72e88
 ```
 
+As in the previous section, the request must be sent from a server, not a browser, to prevent a CORS error and protect your client secret. 
+
 If the server returns a `200` response, the access token is revoked and can no longer be used.
 
 ## 4. Installed app workflow
