@@ -141,7 +141,7 @@ code=ffae0047c4d6b9e02f95e76a3f6e906d
 
 The `Authorization` header is the base64-encoded concatenation of the client id and secret, separated by a colon. If you cannot use HTTP Basic, you can pass `client_id` and `client_secret` in the request body instead, but this is not recommended and only supported for backwards compatibility.
 
-The request must be sent from a server, not a browser, to prevent a CORS error. This is because sending the request from a browser would expose your client secret to malicious users.
+The request must be sent from a server, not a browser, to prevent a CORS error. This is because sending the request from a browser would expose your client secret to malicious users. For more information about our CORS policies, see [CORS](/developers/api/general-concepts#cors).
 
 If the request succeeds, the server returns a `200` response containing the access token. You must save this token, as you will need to include it in all further requests to the API.
 
@@ -190,7 +190,7 @@ Authorization: Basic Y2xpZW50X2lkOmNsaWVudF9zZWNyZXQ=
 token=b9922a78d3ffab6b95e9d72e88
 ```
 
-This request must be sent from a server, not a browser, to prevent a CORS error and protect your client secret. 
+This request must be sent from a server, not a browser, to prevent a CORS error and protect your client secret. For more information about our CORS policies, see [CORS](/developers/api/general-concepts#cors).
 
 If the server returns a `200` response, the access token is revoked and can no longer be used.
 
