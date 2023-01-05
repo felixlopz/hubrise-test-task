@@ -25,7 +25,7 @@ content:
           logo: adipos.png
           title: Adipos
           description: Adipos is a Point of Sales for iOS and Android dedicated to catering. It covers the needs of dine-in, delivery and Click & Collect, for single or multi-store setups. Adipos comes with a number of interconnected applications, including self ordering kiosks, online ordering and a Kitchen Display System.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.carrepos-online.fr/
           documentation: /apps/carre-pos
           logo: carrepos.png
@@ -153,7 +153,7 @@ content:
           logo: synapsy.png
           title: Synapsy
           description: Synapsy is an operations management solution for food catering professionals and retail stores, that includes EPOS, self-service kiosks, and Click & Collect. Synapsy offers decision-making and marketing tools, and meets the needs of businesses of all sizes.
-          additional_info: Integration in progress.
+          additional_info:
         - website: https://www.sicom.com/
           documentation: /apps/sicom
           logo: sicom.png
@@ -492,7 +492,7 @@ content:
           documentation: /apps/upxp
           logo: upxp.png
           title: UPXP
-          description: UPXP is the first cryptocurrency dedicated to restaurateurs. UPXP rewards customers with cryptocurrency they can use in other businesses. Engage clients and avoid paying commissions to banks and third-parties.
+          description: UPXP is the first cryptocurrency dedicated to restaurateurs. UPXP rewards customers with cryptocurrency they can use in other businesses. Engage clients and avoid paying commissions to banks and third-parties.
     - title: Operations and Inventory
       apps:
         - website: https://get.apicbase.com
