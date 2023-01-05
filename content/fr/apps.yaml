@@ -25,7 +25,7 @@ content:
           logo: adipos.png
           title: Adipos
           description: Adipos est une solution de caisse pour iOS et Android. Elle est adaptée aux besoins de la restauration en salle, livraison et click & collect, pour les entreprises mono ou multi établissements. Adipos propose des applications interconnectées, dont des bornes de commande, une solution de commande en ligne et un écran cuisine.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.carrepos-online.fr/
           documentation: /apps/carre-pos
           logo: carrepos.png
@@ -149,7 +149,7 @@ content:
           logo: synapsy.png
           title: Synapsy
           description: Synapsy est une solution de gestion pour les métiers de bouche et de commerce de détail, qui inclut logiciel de caisse, bornes de commande et click & collect. Synapsy intègre des outils décisionnels et marketing, et répond aux besoins des indépendants et des réseaux de magasins.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.sicom.com/
           documentation: /apps/sicom
           logo: sicom.png
@@ -495,7 +495,7 @@ content:
           documentation: /apps/upxp
           logo: upxp.png
           title: UPXP
-          description: UPXP est la première crypto-monnaie dédiée aux restaurateurs. La solution de fidélité UPXP récompense les clients avec une crypto-monnaie qu'ils peuvent utiliser dans d'autres commerces. Fidélisez les clients sans verser de commissions aux banques et aux solutions tierces.
+          description: UPXP est la première crypto-monnaie dédiée aux restaurateurs. La solution de fidélité UPXP récompense les clients avec une crypto-monnaie qu'ils peuvent utiliser dans d'autres commerces. Fidélisez les clients sans verser de commissions aux banques et aux solutions tierces.
     - title: Gestion et inventaire
       apps:
         - website: https://get.apicbase.com/fr/
