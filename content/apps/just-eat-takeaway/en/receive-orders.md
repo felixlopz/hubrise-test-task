@@ -65,6 +65,12 @@ Just Eat Takeaway supports three service types:
 
 These are typically associated with specific ref codes in your EPOS, which you can set in the Configuration page of the Bridge. For more information about ref codes, see your EPOS documentation in our [apps page](/apps).
 
+## Order Times
+
+Just Eat Takeaway provides the time when the eater expects to receive or collect the order. Just Eat Takeaway Bridge sends this time to HubRise as the `expected_time` field.
+
+To specify a different time, you can update the `confirmed_time` field in HubRise. Just Eat Takeaway Bridge will send the updated time to Just Eat Takeaway when the order status changes to `Confirmed`. Attempting to update this field after the order has been confirmed will have no effect.
+
 ## Customer Details
 
 Full customer's details are provided by Just Eat Takeaway for all orders, regardless of the service type.

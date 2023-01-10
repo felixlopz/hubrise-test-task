@@ -78,12 +78,6 @@ When eaters cancel their orders, Uber Eats immediately marks them as `cancelled`
 
 When Uber Eats rejects orders because you fail to acknowledge them in time, it does not update their status on HubRise.
 
-## Order Times
-
-Uber Eats provides the time when the eater expects to receive or collect the order. Uber Eats Bridge sends this time to HubRise as the `expected_time` field.
-
-To specify a different time, you can update the `confirmed_time` field in HubRise. Uber Eats Bridge will send the updated time to Uber Eats when the order status changes to `Accepted`. Attempting to update this field after the order has been accepted will have no effect.
-
 ## Service Types
 
 Uber Eats supports four service types:
@@ -94,6 +88,12 @@ Uber Eats supports four service types:
 - Eat-in
 
 These are typically associated with specific ref codes in your EPOS. For more information, see your EPOS documentation in our [apps page](/apps).
+
+## Order Times
+
+Uber Eats provides the time when the eater expects to receive or collect the order. Uber Eats Bridge sends this time to HubRise as the `expected_time` field.
+
+To specify a different time, you can update the `confirmed_time` field in HubRise. Uber Eats Bridge will send the updated time to Uber Eats when the order status changes to `Accepted`. Attempting to update this field after the order has been accepted will have no effect.
 
 ## Customer
 

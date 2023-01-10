@@ -103,6 +103,10 @@ Deliveroo supports three service types:
 
 These are typically associated with specific ref codes in your EPOS. For more information, see your EPOS documentation in our [apps page](/apps).
 
+## Order Times
+
+Deliveroo provides the time when the eater expects to receive or collect the order. Deliveroo Bridge sends this time to HubRise as the `expected_time` field. This time cannot be changed by the EPOS.
+
 ## Customer
 
 Deliveroo never provides the customer's full name and email address in their API. Therefore, Deliveroo Bridge never creates customers in HubRise, but includes the customer's details directly in the order.
