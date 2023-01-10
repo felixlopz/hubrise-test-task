@@ -49,7 +49,11 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 
 ## Order Statuses
 
-In this section, we capitalise the first letter of Deliveroo statuses to make them easier to distinguish from HubRise status names. For example, `Succeeded` is a Deliveroo status, while `accepted` is a HubRise status.
+---
+
+**IMPORTANT NOTE:** In this section, we capitalise the first letter of Deliveroo statuses to make them easier to distinguish from HubRise status names. For example, `Succeeded` is a Deliveroo status, while `accepted` is a HubRise status. 
+
+---
 
 ### Deliveroo Statuses
 

@@ -21,7 +21,11 @@ Customers' comments on single products are not supported on Just Eat. If you rel
 
 ## Order Statuses
 
-In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Successful` is a Just Eat status, while `accepted` is a HubRise status.
+---
+
+**IMPORTANT NOTE:** In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Successful` is a Just Eat status, while `accepted` is a HubRise status.
+
+---
 
 ### Just Eat Statuses
 

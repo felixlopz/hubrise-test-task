@@ -17,7 +17,11 @@ Just Eat Takeaway orders contain the complete information about items and option
 
 ## Order Statuses
 
-In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Confirmed` is a Just Eat status, while `accepted` is a HubRise status.
+---
+
+**IMPORTANT NOTE:** In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Confirmed` is a Just Eat status, while `accepted` is a HubRise status.
+
+---
 
 ### Just Eat Statuses
 

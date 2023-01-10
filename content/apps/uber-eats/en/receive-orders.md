@@ -39,7 +39,11 @@ Every option has single quantity. Multiple identical modifiers are encoded in se
 
 ## Order Statuses
 
-In this section, we capitalise the first letter of Uber Eats statuses to make them easier to distinguish from HubRise status names. For example, `Accepted` is a Uber Eats status, while `accepted` is a HubRise status.
+---
+
+**IMPORTANT NOTE:** In this section, we capitalise the first letter of Uber Eats statuses to make them easier to distinguish from HubRise status names. For example, `Accepted` is a Uber Eats status, while `accepted` is a HubRise status.
+
+---
 
 ### Uber Eats Statuses
 
