@@ -13,3 +13,4 @@ meta:
 - <Link to="/apps/uber-eats/faqs/uber-eats-disposable-items/">How Do I Configure HubRise for Uber Eats Disposable Items to Show In My EPOS?</Link>
 - <Link to="/apps/uber-eats/faqs/create-product-with-skus/">How to Create a Product With Variations in Uber Eats?</Link>
 - <Link to="/apps/uber-eats/faqs/create-deal-in-uber-eats/">How to Create a Deal in Uber Eats?</Link>
+- <Link to="/apps/uber-eats/faqs/find-uber-eats-uuid/">How Do I Find My Uber Eats UUID?</Link>
