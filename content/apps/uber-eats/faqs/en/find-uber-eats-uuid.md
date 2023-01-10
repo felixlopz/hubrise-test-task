@@ -1,17 +1,15 @@
 ---
 title: How Do I Find My Uber Eats UUID?
-position: 2
+position: 7
 layout: documentation
 meta:
   title: Find My Uber Eats UUID | Uber Eats FAQs | HubRise
   description: Instructions on how to find your Uber Eats UUI to connect your restaurant and start receiving orders on HubRise.
 ---
 
-The Uber Eats UUID is the unique identifier for your Uber Eats store. It is also referred to as Uber Eats ID.
+The Uber Eats UUID is the unique identifier for your Uber Eats store. It is also referred to as the Uber Eats ID.
 
-To find your Uber Eats UUID, follow these steps.
-
-On your browser:
+To find your Uber Eats UUID, follow these steps in your browser:
 
 1. Log in to your [Uber Eats back office](https://merchants.ubereats.com/).
 1. Select the correct location from the dropdown menu.
