@@ -15,9 +15,9 @@ This page explains how to push your catalog, and what information is sent to Ube
 
 ## Populate a HubRise Catalog
 
-To update your menu in Uber Eats, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your EPOS documentation on the HubRise website to verify.
+To update your menu in Uber Eats, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, online ordering solutions and food ordering and delivery platforms offer the ability to push their menu into HubRise. Refer to your app documentation on the HubRise [Apps page](/apps) to verify.
 
-Alternatively, you can populate a HubRise catalog by pulling your menu from Deliveroo.
+Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -35,7 +35,7 @@ Once your catalog is populated on HubRise, you can push it manually to your Uber
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog to Uber Eats will erase the menu on your Uber Eats store. A catalog push will also update your Uber Eats **Opening hours** and **Customer notes** settings as defined in the Uber Eats Bridge **Configuration** page. This action cannot be reverted.
+**IMPORTANT NOTE:** Pushing your HubRise catalog into Uber Eats will erase the menu on your Uber Eats store. A catalog push will also update your Uber Eats **Opening hours** and **Customer notes** settings as defined in the Uber Eats Bridge **Configuration** page. This action cannot be reverted.
 
 ---
 
