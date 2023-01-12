@@ -62,6 +62,18 @@ To access the Uber Eats Bridge configuration page, click **Configuration** at th
 
 From this page, you will be able to customise the behaviour of Uber Eats Bridge. For more details, see [Configuration](/apps/uber-eats/configuration).
 
+## Status
+
+The information available on the **Status** page is pulled from the Uber Eats API. It shows the configuration of the integration on Uber Eats' side. 
+
+To view the current status, you need to refresh the page by clicking **Refresh**, in the top right corner. The **Latest refresh** date will update when the information is retrieved. 
+
+The **Location** section clearly identifies the Uber Eats store connected to the Uber Eats Bridge, with its URL link, its postal address and contact eMail. It shows if the restaurant is `open` as well as the banner used to illustrate it.
+
+The **Integration** section shows if the HubRise integration is `enabled` and if HubRise, considered by Uber Eats as an EPOS, is `online`. It also confirms if an Uber Eats menu has been `uploaded from HubRise`. 
+
+![System request page on Uber Eats Bridge](../images/026-en-2x-uber-eats-status-page.png)
+
 ## Actions
 
 To access the actions page, click **Actions** at the top of the screen. If the link is not visible, first complete the configuration of Uber Eats Bridge.
