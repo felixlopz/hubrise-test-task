@@ -526,6 +526,12 @@ content:
           logo: koust.png
           title: Koust
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
+        - website: https://rapidbarapp.com/fr
+          documentation: /apps/rapidbar
+          logo: rapidbar.png
+          title: RapidBar
+          description: RapidBar est un outil informatique qui vous permet de gérer les inventaires de votre restaurant, hôtel ou bar. Il vous aide à surveiller les aspects de votre chaîne d'approvisionnement, tels que les menus, les inventaires et les commandes de fournisseurs, et le tout dans une seule application basée sur le cloud.
+          additional_info: Intégration en cours.
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it
           logo: somm-it.png
