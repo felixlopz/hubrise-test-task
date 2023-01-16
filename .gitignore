@@ -75,3 +75,6 @@ server/.env
 
 # Cypress screenshots
 cypress/screenshots
+
+# VS Code files
+.vscode/

@@ -41,6 +41,8 @@ Connecting PrestaShop Bridge allows HubRise to:
 
 PrestaShop can be connected to HubRise from the HubRise back office.
 
+![Diagram of the connection flow between PrestaShop, PrestaShop Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
+
 ## Why Connect?
 
 By connecting PrestaShop to HubRise, your e-commerce website can communicate with your other everyday applications. Receive orders in your EPOS. Send orders to your intelligent printer, or to your inventory management solution. Push your HubRise catalog into PrestaShop.
