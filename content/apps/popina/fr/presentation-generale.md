@@ -24,7 +24,7 @@ app_info:
 
 ## Description
 
-Popina est une caisse enregistreuse sur iPad pour restaurants, snacks, bars et boulangeries. Simple et intuitive à utiliser, Popina est accompagnée d'un système de gestion et de nombreux accessoires pour enrichir l'expérience utilisateur et client.
+Popina est un logiciel de caisse sur iPad pour restaurants, snacks, bars et boulangeries. Simple et intuitive à utiliser, Popina est accompagnée d'un système de gestion et de nombreux accessoires pour enrichir l'expérience utilisateur et client.
 
 Popipa propose plusieurs solutions complémentaires : 
 - PopDisplay : borne permettant à vos clients de passer commande et payer de manière autonome.
@@ -46,7 +46,7 @@ Popina peut être connecté à HubRise depuis le back-office de Popina.
 
 ## Pourquoi se connecter ?
 
-En connectant Popina à HubRise, vous permettez à votre caisse enregistreuse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur Popina. Envoyez votre menu vers d'autres applications.
+En connectant Popina à HubRise, vous permettez à votre logiciel de caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur Popina. Envoyez votre menu vers d'autres applications.
 
 Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
