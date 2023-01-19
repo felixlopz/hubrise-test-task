@@ -39,7 +39,7 @@ RapidBar key features include:
 - **Recipes**: You can use RapidBar to calculate recipe costs and related margins in real-time, create batch recipes, and print them for your staff to follow.
 - **Supply**: You can add unlimited suppliers, receive automatic supplier order suggestions to optimise inventory levels, and include received orders to your inventory.
 - **Reporting**: You have access to customisable reporting capabilities to help make informed decisions.
-- **Onboarding**: RapidBar's customers receive personalised onboarding support to fully utilise RapidBar and make most of your investment.
+- **Onboarding**: You will receive personalised onboarding support to fully utilise RapidBar and make most of your investment.
 
 ## Integration Features
 
