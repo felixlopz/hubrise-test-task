@@ -530,7 +530,7 @@ content:
           documentation: /apps/rapidbar
           logo: rapidbar.png
           title: RapidBar
-          description: RapidBar est un outil informatique qui vous permet de gérer les inventaires de votre restaurant, hôtel ou bar. Il vous aide à surveiller les aspects de votre chaîne d'approvisionnement, tels que les menus, les inventaires et les commandes de fournisseurs, et le tout dans une seule application basée sur le cloud.
+          description: RapidBar simplifie la gestion des inventaires de votre restaurant, hôtel ou bar. RapidBar vous aide à contrôler votre chaîne d'approvisionnement, en centralisant les menus, les inventaires et les commandes fournisseurs dans une seule application cloud.
           additional_info: Intégration en cours.
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it

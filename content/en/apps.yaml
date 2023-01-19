@@ -522,7 +522,7 @@ content:
           documentation: /apps/rapidbar
           logo: rapidbar.png
           title: RapidBar
-          description: RapidBar simplifies inventory management of your restaurant, hotel or bar. It helps you manage your supply chain from menus to inventories and supplier orders, all in one convenient, cloud-based application.
+          description: RapidBar simplifies inventory management of your restaurant, hotel or bar. RapidBar helps you to control your supply chain, by centralizing menus, inventories and supplier orders in a single, cloud-based application.
           additional_info: Integration in progress.
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it

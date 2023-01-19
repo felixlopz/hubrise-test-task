@@ -4,12 +4,12 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | RapidBar | HubRise
-  description: Présentation générale de SOLUTION, les raisons de connecter votre solution de gestion des inventaires à HubRise et les fonctionnalités de l'intégration avec HubRise.
+  description: Présentation générale de RapidBar, les raisons de connecter votre solution de gestion des inventaires à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
   - __gallery-003.png
   - __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Gestion et inventaire
@@ -27,19 +27,19 @@ app_info:
 
 ## Description
 
-RapidBar simplifie la gestion des inventaires de votre restaurant, bar ou hôtel. Que vous soyez un indépendant ou une chaîne de restaurant, RapidBar s'adapte et vous permet de gérer de manière centralisée toutes vos données de stock sur une seule plateforme basée sur le cloud.
+RapidBar simplifie la gestion des inventaires de votre restaurant, bar ou hôtel. Que vous soyez un indépendant ou une chaîne de restaurant, RapidBar s'adapte et vous permet de gérer de manière centralisée toutes vos données de stock sur une seule plateforme cloud.
 
-Les managers ont accès à un back-office qui combine toutes les fonctionnalités nécessaires au monitoring et à l'exécution d'une stratégie de gestion des stocks optimale. RapidBar permet d'éliminer les problèmes d'inventaire courants tels que les ruptures de stock et les excédents, et aide à rester au fait des fluctuations de coûts et des pénuries de main-d'œuvre.
+Les managers ont accès à un back-office qui offre les fonctionnalités nécessaires à la gestion des stocks et au suivi des facteurs clés (KPIs). RapidBar élimine les problèmes d'inventaire classiques, tels que les ruptures de stock et les excédents, et aide à surmonter les fluctuations de coûts et les pénuries de main-d'œuvre.
 
-L'application mobile de RapidBar est également un outil de comptage facile à utiliser qui ne nécessite aucune formation particulière. Elle élimine le besoin d'utiliser des feuilles de calcul et de faire des transcriptions avec les risques d'erreurs humaines qui en découlent.
+L'application mobile de RapidBar permet de réaliser un inventaire complet sans formation particulière. Plus besoin d'utiliser des feuilles de calcul et de commettre des erreurs de transcription.
 
-Points importants concernant RapidBar :
+Les fonctionnalités importantes de RapidBar incluent :
 
-- **Produits** : vous pouvez stocker tous vos ingrédients dans votre propre base de données et accéder à des données techniques pertinentes telles que les poids et les unités de gestion des stocks (SKUs) grâce à la communauté d’utilisateurs de RapidBar.
-- **Recettes** : vous pouvez utiliser RapidBar pour calculer les coûts de vos recettes et les marges associées en temps réel, ajouter des recettes de préparation par lots et les imprimer en guise de référence pour vos employés.
-- **Approvisionnement** : vous pouvez ajouter un nombre illimité de fournisseurs, recevoir des suggestions de commandes fournisseur automatiques pour optimiser les niveaux de stock, et inclure les commandes reçues dans votre inventaire.
-- **Rapports** : vous avez accès à des rapports qui peuvent être configurés pour vous aider à prendre des décisions éclairées.
-- **Accompagnement** : les clients de RapidBar reçoivent un accompagnement personnalisé pour utiliser pleinement RapidBar et tirer le meilleur parti de votre investissement.
+- **Produits** : vous pouvez renseigner tous les ingrédients dans votre base de données, et obtenir des données techniques pertinentes telles que les poids et les unités de gestion des stocks (SKUs) grâce à la communauté d’utilisateurs de RapidBar.
+- **Recettes** : vous pouvez utiliser RapidBar pour calculer les coûts de vos recettes et les marges associées, ajouter des recettes de préparation par lots, et imprimer un guide de référence pour vos employés.
+- **Approvisionnement** : vous pouvez gérer un nombre illimité de fournisseurs, recevoir des suggestions de commandes fournisseur pour optimiser les niveaux de stock, et inclure les commandes reçues dans votre inventaire.
+- **Rapports** : vous avez accès à des rapports qui peuvent être configurés pour vous aider à prendre de bonnes décisions.
+- **Accompagnement** : vous bénéficiez d'un accompagnement personnalisé pour utiliser pleinement RapidBar et tirer le meilleur parti de votre investissement.
 
 ## Fonctionnalités de l'intégration
 
@@ -50,7 +50,7 @@ Connecter RapidBar à HubRise permet à votre solution de gestion des inventaire
 
 ---
 
-**REMARQUE IMPORTANTE :** RapidBar prévoit de mettre à jour son intégration avec HubRise pour une synchronisation automatique de l'inventaire avec d'autres applications connectées, offrant ainsi un ajustement en temps réel de la disponibilité des produits sur votre site de commande en ligne et les plateformes de livraison de repas, entre autres. Contactez RapidBar pour plus d'information à ce sujet.
+**REMARQUE IMPORTANTE :** RapidBar prévoit de mettre à jour son intégration avec HubRise pour une synchronisation automatique de l'inventaire avec d'autres applications connectées, offrant ainsi un ajustement en temps réel de la disponibilité des produits sur votre site de commande en ligne et vos plateformes de livraison de repas. Contactez RapidBar pour plus d'information à ce sujet.
 
 ---
 
