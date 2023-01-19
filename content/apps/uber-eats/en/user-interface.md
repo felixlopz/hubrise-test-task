@@ -68,9 +68,9 @@ The information available on the **Status** page is pulled from the Uber Eats AP
 
 To view the current status, you need to refresh the page by clicking **Refresh**, in the top right corner. The **Latest refresh** date will update when the information is retrieved. 
 
-The **Location** section clearly identifies the Uber Eats store connected to the Uber Eats Bridge, with its URL link, its postal address and contact eMail. It shows if the restaurant is `open` as well as the banner used to illustrate it.
+The **Location** section identifies the Uber Eats store connected to the Uber Eats Bridge, with its URL link, postal address, contact email and the banner displayed on the Uber Eats website. It indicates whether the restaurant is open or closed at the time of the refresh.
 
-The **Integration** section shows if the HubRise integration is `enabled` and if HubRise, considered by Uber Eats as an EPOS, is `online`. It also confirms if an Uber Eats menu has been `uploaded from HubRise`. 
+The **Integration** section shows if the HubRise integration is enabled and if HubRise, considered by Uber Eats as an EPOS, is online. It also confirms whether an Uber Eats menu has been uploaded from HubRise. HubRise can only update one menu per restaurant: if you have more than one menu on Uber Eats, this section will show a warning.
 
 ![System request page on Uber Eats Bridge](../images/026-en-2x-uber-eats-status-page.png)
 

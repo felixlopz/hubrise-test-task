@@ -22,8 +22,8 @@ As a first step, the HubRise integration must be enabled on your Uber Eats accou
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
 
 - The URL link to your restaurant page on the Uber Eats website. For example: [https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg](https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg).
-- The order acceptance mode you want to use for your store: `Manual accept` or `Offered state` mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 - Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
+- The order acceptance mode you want to use for your store: `Manual accept` or `Offered state` mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 
 With this information in hand, the Uber Eats integration team will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
 
