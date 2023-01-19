@@ -24,7 +24,7 @@ Each row in the page shows the following information about an operation:
 
 The "System request" label indicates that the operation is not related to a specific order.
 
-![Operations page of Uber Eats Bridge developed by HubRise](../images/003-en-main-page.png)
+![Operations page of Uber Eats Bridge developed by HubRise](../images/003-en-2x-main-page.png)
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
