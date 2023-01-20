@@ -46,7 +46,7 @@ Avec ces informations, l'équipe d'intégration de Deliveroo pourra activer la c
 
 Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 
-1. Connectez-vous à votre compte HubRise.
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Sélectionnez le point de vente que vous souhaitez connecter dans le menu déroulant.
 1. Sélectionnez **CONNEXIONS**, puis **Voir les apps disponibles**.
 1. Dans la liste des apps, sélectionnez **Deliveroo Bridge**.

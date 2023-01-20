@@ -105,7 +105,7 @@ To add a ref code to a payment method, follow these steps.
 
 ## Service Types
 
-Service types such as delivery, collection or eat in might require a ref code. Refer to your EPOS documentation on the HubRise website to verify.
+Service types such as delivery, collection or eat-in might require a ref code. Refer to your EPOS documentation on the HubRise website to verify.
 
 To add a ref code to a service type, follow these steps:
 
