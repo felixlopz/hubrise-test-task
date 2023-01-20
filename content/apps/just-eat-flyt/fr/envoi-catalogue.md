@@ -23,7 +23,7 @@ Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogue
 
 Une fois que votre catalogue a été alimenté sur HubRise, vous pouvez l'envoyer dans Just Eat en procédant comme suit.
 
-1. Connectez-vous à votre compte HubRise.
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Sélectionnez le point de vente relié à Just Eat.
 1. Sélectionnez **Just Eat Flyt Bridge** dans la liste des applications connectées.
 1. Dans Just Eat Flyt Bridge, cliquez sur l'onglet **Actions**, puis sélectionnez **Envoyer le catalogue**.
