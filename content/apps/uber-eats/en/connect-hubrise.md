@@ -37,7 +37,7 @@ With this information in hand, the Uber Eats integration team will enable the Hu
 
 With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge:
 
-1. Log in to your [HubRise account](https://manager.hubrise.com)
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the location you want to connect from the dropdown menu.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Uber Eats** from the list of apps.

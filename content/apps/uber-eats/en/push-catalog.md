@@ -25,7 +25,7 @@ For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
 Once your catalog is populated on HubRise, you can push it manually to your Uber Eats store by following these steps:
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Uber Eats store.
 1. Open the **CONNECTIONS** page, then select **Uber Eats Bridge** from the list of connected apps.
 1. In Uber Eats Bridge, select the **Actions** tab, check the name and the ID of the HubRise catalog, then click **Push catalog**.
@@ -35,7 +35,7 @@ Once your catalog is populated on HubRise, you can push it manually to your Uber
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog into Uber Eats will erase the menu on your Uber Eats store. A catalog push will also update your Uber Eats **Opening hours** and **Customer notes** settings as defined in the Uber Eats Bridge **Configuration** page. This action cannot be reverted.
+**IMPORTANT NOTE:** A catalog push also updates your Uber Eats **Opening hours** and **Customer notes** settings, as defined in the **Configuration** page. Before pushing the catalog, make sure that these settings are correct.
 
 ---
 
@@ -43,7 +43,7 @@ Once your catalog is populated on HubRise, you can push it manually to your Uber
 
 Uber Eats Bridge can automatically push your catalog to Uber Eats every time it is updated on HubRise. By default, this option is turned off. You can enable it by following these steps:
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Uber Eats store.
 1. Open the **CONNECTIONS** page, then select **Uber Eats Bridge** from the list of connected apps.
 1. In Uber Eats Bridge, select the **Configuration** tab.
