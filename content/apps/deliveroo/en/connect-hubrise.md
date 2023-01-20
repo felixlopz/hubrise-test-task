@@ -41,7 +41,7 @@ Alternatively, [enable HubRise directly from your Deliveroo back office](/apps/d
 
 To connect Deliveroo Bridge to HubRise, follow these steps.
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the location you want to connect from the dropdown menu.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Deliveroo** from the list of apps.

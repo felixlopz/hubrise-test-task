@@ -35,7 +35,7 @@ Your API managed user will now appear in the list.
 
 ---
 
-To connect dotdigital to HubRise, you first need to log in to your HubRise account.
+To connect dotdigital to HubRise, you first need to log in to your [HubRise account](https://manager.hubrise.com).
 If you don't have a HubRise account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions.
 
 1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**.

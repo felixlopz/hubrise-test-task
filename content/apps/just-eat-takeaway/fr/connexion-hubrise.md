@@ -53,7 +53,7 @@ Pour plus d'informations, voir la rubrique [Associer les codes ref](/apps/just-e
 
 Pour connecter Just Eat Takeaway Bridge à HubRise, procédez comme suit :
 
-1. Connectez-vous à votre compte HubRise.
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Sélectionnez le point de vente que vous souhaitez connecter dans le menu déroulant.
 1. Sélectionnez **CONNEXIONS**, puis **Voir les apps disponibles**.
 1. Sélectionnez **Just Eat Takeaway Bridge** dans la liste des applications.
