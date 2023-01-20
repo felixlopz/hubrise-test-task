@@ -22,7 +22,7 @@ As a first step, the HubRise integration must be enabled on your foodpanda accou
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
 - The URL link(s) of your foodpanda store(s) you wish to connect. For example: [https://www.foodpanda.pk/restaurant/n7yx/papa-johns-model-town](https://www.foodpanda.pk/restaurant/n7yx/papa-johns-model-town).
-- Your HubRise account and location IDs. If you don't have a HubRise Account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions. If your restaurant called Fast Pizza is located in Baker Street, your location ID may be `Fast Pizza Baker Street z6q31-0`.
+- Your HubRise account and location IDs. If your restaurant called Fast Pizza is located in Baker Street, your location ID may be `Fast Pizza Baker Street z6q31-0`.
 
 We will then contact foodpanda on your behalf to enable the connection.
 The activation typically takes a few days.
