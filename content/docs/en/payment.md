@@ -87,7 +87,7 @@ To add or update a payment method at the Location level, follow these steps:
 
 To remove a payment method, follow these steps:
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. If you have access to multiple Accounts, select the relevant Account.
 1. Go to **SETTINGS**.
 1. To check for payment set at Account level, verify that **All locations** is selected. To check for payment set at Location level, select the Location from the Location dropdown.
