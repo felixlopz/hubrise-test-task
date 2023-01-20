@@ -1,6 +1,6 @@
 ---
 title: Catalogs
-position: 5
+position: 4
 layout: documentation
 meta:
   title: Create Catalog | Catalog Manager | HubRise
