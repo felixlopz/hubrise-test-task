@@ -17,4 +17,6 @@ To duplicate a catalog, follow these steps:
 1. Find the catalog you want to duplicate, open the **Actions** dropdown and select **Duplicate**.
 1. Provide a name for the new catalog and click **Duplicate**.
 
-Use clearly identifiable names for your catalogs. For example, if you create a catalog for Uber Eats, you could name it "Uber Eats". For a catalog backup, you could name it "Uber Eats - Backup" to make it clear that it should not be edited.
+![Duplicate a catalog](../../images/018-en-2x-duplicate-catalog.png)
+
+Use clearly identifiable names for your catalogs. For example, if you create a catalog for Uber Eats, you could name it **Uber Eats**. If you create a backup catalog, include **Backup** or **Do not edit!** in the name, to make it clear that it should not be edited.

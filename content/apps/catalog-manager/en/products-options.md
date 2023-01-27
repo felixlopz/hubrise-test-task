@@ -1,6 +1,6 @@
 ---
 title: Products and Options
-position: 6
+position: 5
 layout: documentation
 meta:
   title: Products and Options | Catalog Manager | HubRise

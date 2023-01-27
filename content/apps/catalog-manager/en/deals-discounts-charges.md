@@ -1,6 +1,6 @@
 ---
 title: Deals, Discounts and Charges
-position: 5
+position: 6
 layout: documentation
 meta:
   title: Deals, Discounts and Charges | Catalog Manager | HubRise
