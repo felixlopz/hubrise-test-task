@@ -19,19 +19,15 @@ PrestaShop orders contain the complete information about items, including name, 
 
 When an order status changes in HubRise, PrestaShop Bridge notifies PrestaShop, and the change can be seen by the customer.
 
-From the Configuration page of PrestaShop Bridge, you can customise how to map the different HubRise order statuses to PrestaShop.
-To learn how to map order statuses in the Configuration page, see [Order Statuses](/apps/prestashop/configuration#order-statuses).
+From the Configuration page of PrestaShop Bridge, you can customise how to map the different HubRise order statuses to PrestaShop. To learn how to map order statuses in the Configuration page, see [Order Statuses](/apps/prestashop/configuration#order-statuses).
 
 ## Service Types
 
-PrestaShop Bridge sends to HubRise the information about the carrier used for the delivery.
-From the Configuration page, you can customise the ref code associated with each carrier.
-To learn how to set ref code for service types, see [Service Types](/apps/prestashop/configuration#service-types).
+PrestaShop Bridge sends to HubRise the information about the carrier used for the delivery. From the Configuration page, you can customise the ref code associated with each carrier. To learn how to set ref code for service types, see [Service Types](/apps/prestashop/configuration#service-types).
 
 ## Customer Details
 
-PrestaShop provides full customer's details for all orders.
-PrestaShop Bridge creates a customer in HubRise every time you receive an order from a new customer, and the customer's details are reused or updated in the following orders.
+PrestaShop provides full customer's details for all orders. PrestaShop Bridge creates a customer in HubRise every time you receive an order from a new customer, and the customer's details are reused or updated in the following orders.
 
 ## Discounts and Charges
 
@@ -70,9 +66,7 @@ Below is a sample payload containing a single item.
 
 ### Customer
 
-PrestaShop Bridge always includes all the personal details provided by the customer in the `customer` object.
-This information is stored in a HubRise customer and can be retrieved using the HubRise customer ID.
-For more information, see [how to retrieve customer's details](/developers/api/customer-management#retrieve-customer).
+PrestaShop Bridge always includes all the personal details provided by the customer in the `customer` object. This information is stored in a HubRise customer and can be retrieved using the HubRise customer ID. For more information, see [how to retrieve customer's details](/developers/api/customer-management#retrieve-customer).
 
 ### Discounts
 

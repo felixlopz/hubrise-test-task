@@ -27,7 +27,7 @@ To install the HubRise module, follow these steps:
 2. Log in to your PrestaShop back office.
 3. From the menu, select **Modules** > **Modules manager**, then click **Upload a module**.
 4. On the upload page, to install the module, drag the ZIP file of the module that you just downloaded. Then, click **Configure**.
-6. In the **HubRise** module page, take note of the **PrestaShop API key** value that you will need to activate PrestaShop Bridge in the following step.
+5. In the **HubRise** module page, take note of the **PrestaShop API key** value that you will need to activate PrestaShop Bridge in the following step.
 
 ## 2. Connect PrestaShop Bridge
 
@@ -40,17 +40,14 @@ To can connect PrestaShop to HubRise, follow these steps.
 1. Click **Connect**.
 1. Click **Allow** to grant PrestaShop Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
 1. A new page asks you to configure PrestaShop Bridge.
-   1. Under **Website URL**, enter the URL of your PrestaShop store.
-   1. Under **PrestaShop API key**, enter the value you copied from the HubRise module in PrestaShop.
-   1. Click **Save** to confirm.
-
-   ![PrestaShop URL and API key](../images/001-en-prestashop-initial-config.png)
-
+   - Under **Website URL**, enter the URL of your PrestaShop store.
+   - Under **PrestaShop API key**, enter the value you copied from the HubRise module in PrestaShop.
+   - Click **Save** to confirm.
+     ![PrestaShop URL and API key](../images/001-en-prestashop-initial-config.png)
 1. Configure the behaviour of PrestaShop Bridge, then click **Save** to complete the connection. For more information about configuring your PrestaShop Bridge, see [Configuration](/apps/prestashop/configuration).
 
-## 2. Upload Your Menu
+## 3. Upload Your Catalog
 
 If you have a catalog of products on HubRise, you can upload it to your PrestaShop store with a single click.
 
-For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
-To learn how to pull your HubRise catalog into PrestaShop, see [Pulling the Catalog](/apps/prestashop/configuration#pulling-the-menu).
+For more information on HubRise catalogs, see [Catalogs](/docs/catalog/). To learn how to push your HubRise catalog into PrestaShop, see [Push the Catalog](/apps/prestashop/push-catalog).

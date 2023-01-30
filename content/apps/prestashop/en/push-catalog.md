@@ -7,16 +7,13 @@ meta:
   description: Find out how to push your HubRise catalog to PrestaShop, how items and options are encoded, and which features are supported.
 ---
 
-You can use PrestaShop Bridge to push your HubRise catalog directly into your PrestaShop store with a single click.
-Also, you can update the availability of your items on PrestaShop every time this changes on HubRise.
+You can use PrestaShop Bridge to push your HubRise catalog directly into your PrestaShop store. Also, you can update the availability of your items on PrestaShop every time this changes on HubRise.
 
-This page explains how you can push your catalog, what information is sent to PrestaShop, and how you can update your inventory availability.
-
+This page explains how you can push your catalog, what information is sent to PrestaShop, and how you can synchronise your inventory.
 
 ## Push Your Catalog
 
-PrestaShop Bridge lets you push your HubRise catalog to PrestaShop.
-You can let PrestaShop Bridge push your catalog automatically every time it is updated on HubRise, or manually push it when needed.
+PrestaShop Bridge lets you push your HubRise catalog to PrestaShop. You can let PrestaShop Bridge push your catalog automatically every time it is updated on HubRise, or push it manually when needed.
 
 ### Populate a HubRise Catalog
 
@@ -53,9 +50,7 @@ The following sections describe in detail how HubRise catalogs are mapped to Pre
 
 ### Categories
 
-PrestaShop Bridge maps HubRise categories one-to-one to categories of products on PrestaShop.
-
-The category name and description are sent to PrestaShop, however the ref code is ignored, since PrestaShop does not support ref codes for categories.
+PrestaShop Bridge maps HubRise categories one-to-one to categories of products on PrestaShop. The category name and description are sent to PrestaShop.
 
 ### Products and Skus
 
@@ -85,15 +80,13 @@ Options are not supported on PrestaShop. The options present in your HubRise cat
 
 Deals and discounts are not supported on PrestaShop. Deals and discounts present in your HubRise catalog are ignored and are not sent to PrestaShop.
 
-## Update Inventory Availability
+## Synchronise Inventory
 
-PrestaShop Bridge lets you update the inventory availability of your PrestaShop catalog based on the stocks in your HubRise catalog.
-You can let PrestaShop Bridge update your inventory availability automatically, or manually update the availability of all items.
+PrestaShop Bridge lets you update the inventory counters of your PrestaShop products, based on your HubRise inventory. You can let PrestaShop Bridge update the inventory automatically, or update it manually.
 
 ### Automatic Inventory Update
 
-PrestaShop Bridge can automatically update your PrestaShop inventory every time it is updated on HubRise.
-By default, this option is turned off. To turn it on, follow these steps:
+PrestaShop Bridge can automatically update your PrestaShop inventory every time it is updated on HubRise. By default, this option is turned off. To turn it on, follow these steps:
 
 1. Log in to your HubRise account.
 2. Select the HubRise account and location connected with your PrestaShop store.
@@ -104,7 +97,7 @@ By default, this option is turned off. To turn it on, follow these steps:
 
 ### Manually Update Inventory Availability
 
-To manually push your inventory availability to your PrestaShop store, follow these steps:
+To manually update your inventory on PrestaShop, follow these steps:
 
 1. Log in to your HubRise account.
 1. Select the HubRise account and location connected with your PrestaShop store.

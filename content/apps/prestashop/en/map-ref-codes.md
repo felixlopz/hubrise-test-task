@@ -18,7 +18,6 @@ To assign ref codes to your PrestaShop products, follow these steps:
 3. From the list of products, select the product for which you want to add the ref code.
 4. On the product page, under **Basic settings**, enter the ref code for the product in the **Reference** field.
    ![Entering ref codes for a PrestaShop product](../images/002-en-prestashop-product-ref.png)
-
 5. To confirm, click **Save**.
 
 If your product contains SKUs, you need to enter the ref codes for each combination in your product. Follow these steps:

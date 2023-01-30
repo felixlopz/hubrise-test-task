@@ -20,7 +20,7 @@ app_info:
 
 ---
 
-**REMARQUE IMPORTANTE :** L'intégration est en cours. Une documentation complète sera publiée une fois l'intégration terminée.
+**REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/prestashop" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---
 

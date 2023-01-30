@@ -14,12 +14,6 @@ app_info:
   contact: https://www.prestashop.com/en/contact
 ---
 
----
-
-**IMPORTANT NOTE**: The integration is in progress. Full documentation will be published once the integration is complete.
-
----
-
 ## Description
 
 PrestaShop is an open-source solution to create e-commerce websites. You can use PrestaShop to sell any type of product, accept online payments, manage deliveries, and keep track of the inventory. You can also view the metrics of your online store.

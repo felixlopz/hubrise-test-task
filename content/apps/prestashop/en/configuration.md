@@ -7,8 +7,7 @@ meta:
   description: Instructions on configuring PrestaShop to work seamlessly with HubRise and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-The configuration page allows you to customise the behaviour of PrestaShop Bridge based on your preferences.
-These are divided into different sections for an easier navigation.
+The configuration page allows you to customise the behaviour of PrestaShop Bridge based on your preferences. The settings are divided into different sections for an easier navigation.
 
 ![PrestaShop Bridge configuration page](../images/005-en-prestashop-configuration-page.png)
 
@@ -49,9 +48,9 @@ PrestaShop customers can pay for their order either online or by cash on deliver
 
 This section of the configuration page allows you to specify the ref codes for online and cash payments. Refer to your EPOS documentation on the HubRise website to verify the correct codes to use.
 
-![Deliveroo Bridge configuration page, Catalog section](../images/006-en-configuration-catalog.png)
-
 ## Catalog
+
+![PrestaShop Bridge configuration page, Catalog section](../images/006-en-configuration-catalog.png)
 
 To update your PrestaShop catalog every time this is updated on HubRise, select the checkbox in this section.
 Only new products in the HubRise catalog will be sent to PrestaShop. The Bridge does not update existing PrestaShop products.
