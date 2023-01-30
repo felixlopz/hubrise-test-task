@@ -21,7 +21,11 @@ Customers' comments on single products are not supported on Just Eat. If you rel
 
 ## Order Statuses
 
-In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Successful` is a Just Eat status, while `accepted` is a HubRise status.
+---
+
+**IMPORTANT NOTE:** In this section, we capitalise the first letter of Just Eat statuses to make them easier to distinguish from HubRise status names. For example, `Successful` is a Just Eat status, while `accepted` is a HubRise status.
+
+---
 
 ### Just Eat Statuses
 
@@ -55,6 +59,10 @@ Just Eat supports three service types:
 - Customer collection
 
 These are typically associated with specific ref codes in your EPOS, which you can set in the Configuration page of the Bridge. For more information about ref codes, see your EPOS documentation in our [apps page](/apps).
+
+## Order Times
+
+Just Eat provides the time when the eater expects to receive or collect the order. Just Eat Flyt Bridge sends this time to HubRise as the `expected_time` field. This time cannot be changed by the EPOS. 
 
 ## Customer Details
 

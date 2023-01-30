@@ -25,7 +25,7 @@ content:
           logo: adipos.png
           title: Adipos
           description: Adipos est une solution de caisse pour iOS et Android. Elle est adaptée aux besoins de la restauration en salle, livraison et click & collect, pour les entreprises mono ou multi établissements. Adipos propose des applications interconnectées, dont des bornes de commande, une solution de commande en ligne et un écran cuisine.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.carrepos-online.fr/
           documentation: /apps/carre-pos
           logo: carrepos.png
@@ -149,7 +149,7 @@ content:
           logo: synapsy.png
           title: Synapsy
           description: Synapsy est une solution de gestion pour les métiers de bouche et de commerce de détail, qui inclut logiciel de caisse, bornes de commande et click & collect. Synapsy intègre des outils décisionnels et marketing, et répond aux besoins des indépendants et des réseaux de magasins.
-          additional_info: Intégration en cours.
+          additional_info:
         - website: https://www.sicom.com/
           documentation: /apps/sicom
           logo: sicom.png
@@ -495,7 +495,7 @@ content:
           documentation: /apps/upxp
           logo: upxp.png
           title: UPXP
-          description: UPXP est la première crypto-monnaie dédiée aux restaurateurs. La solution de fidélité UPXP récompense les clients avec une crypto-monnaie qu'ils peuvent utiliser dans d'autres commerces. Fidélisez les clients sans verser de commissions aux banques et aux solutions tierces.
+          description: UPXP est la première crypto-monnaie dédiée aux restaurateurs. La solution de fidélité UPXP récompense les clients avec une crypto-monnaie qu'ils peuvent utiliser dans d'autres commerces. Fidélisez les clients sans verser de commissions aux banques et aux solutions tierces.
     - title: Gestion et inventaire
       apps:
         - website: https://get.apicbase.com/fr/
@@ -526,6 +526,12 @@ content:
           logo: koust.png
           title: Koust
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
+        - website: https://rapidbarapp.com/fr
+          documentation: /apps/rapidbar
+          logo: rapidbar.png
+          title: RapidBar
+          description: RapidBar simplifie la gestion des inventaires de votre restaurant, hôtel ou bar. RapidBar vous aide à contrôler votre chaîne d'approvisionnement, en centralisant les menus, les inventaires et les commandes fournisseurs dans une seule application cloud.
+          additional_info: Intégration en cours.
         - website: https://www.somm-it.com/
           documentation: /apps/somm-it
           logo: somm-it.png
@@ -533,6 +539,11 @@ content:
           description: SOMM'IT vous accompagne dans la gestion de votre carte des vins. Synchronisez votre inventaire avec votre EPOS, et éditez une carte des vins à jour. SOMM'IT inclut une large bibliothèque de vins, et un module de gestion des commandes fournisseurs.
     - title: Autres applications
       apps:
+        - website:
+          documentation: /apps/catalog-manager
+          logo: catalog-manager.png
+          title: Catalog Manager
+          description: Catalog Manager permet de créer, modifier et gérer vos catalogues HubRise. Ces catalogues peuvent être reçus de ou envoyés à des solutions connectées telles que votre caisse, votre solutions de commande en ligne ou des plateformes de livraison de repas. Catalog Manager est un logiciel gratuit édité par HubRise.
         - website: https://www.expedy.fr
           documentation: /apps/expedy
           logo: expedy-print.png
@@ -542,7 +553,7 @@ content:
           documentation: /apps/orderline
           logo: orderline.png
           title: OrderLine
-          description: OrderLine édité par HubRise centralise les commandes passées depuis un site marchand ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés.
+          description: OrderLine centralise les commandes passées depuis un site marchand ou autre plateforme de commande en ligne. Les commandes sont ainsi gérées et imprimés. OrderLine est un logiciel gratuit édité par HubRise.
           additional_info:
         - website: https://www.satoeurope.com/fr
           documentation: /apps/sato

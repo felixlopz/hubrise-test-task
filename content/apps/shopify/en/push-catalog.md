@@ -21,7 +21,7 @@ For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
 Once your catalog is populated on HubRise, you can push it manually to your Shopify store by following these steps.
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Shopify store.
 1. Open the **CONNECTIONS** page, then select **Shopify Bridge** from the list of connected apps.
 1. In Shopify Bridge, select the **Actions** tab, then click **Push catalog**.
@@ -32,7 +32,7 @@ When you push your catalog, Shopify Bridge creates the products that do not yet 
 
 Shopify Bridge can automatically push your HubRise catalog into Shopify every time it is updated. By default, this option is turned off. You can enable it by following these steps:
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Shopify store.
 1. Open the **CONNECTIONS** page, then select **Shopify Bridge** from the list of connected apps.
 1. In Shopify Bridge, select the **Configuration** tab.

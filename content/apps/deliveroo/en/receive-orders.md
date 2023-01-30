@@ -49,7 +49,11 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 
 ## Order Statuses
 
-In this section, we capitalise the first letter of Deliveroo statuses to make them easier to distinguish from HubRise status names. For example, `Succeeded` is a Deliveroo status, while `accepted` is a HubRise status.
+---
+
+**IMPORTANT NOTE:** In this section, we capitalise the first letter of Deliveroo statuses to make them easier to distinguish from HubRise status names. For example, `Succeeded` is a Deliveroo status, while `accepted` is a HubRise status. 
+
+---
 
 ### Deliveroo Statuses
 
@@ -98,6 +102,10 @@ Deliveroo supports three service types:
 - Customer collection
 
 These are typically associated with specific ref codes in your EPOS. For more information, see your EPOS documentation in our [apps page](/apps).
+
+## Order Times
+
+Deliveroo provides the time when the eater expects to receive or collect the order. Deliveroo Bridge sends this time to HubRise as the `expected_time` field. This time cannot be changed by the EPOS.
 
 ## Customer
 
