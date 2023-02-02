@@ -7,7 +7,7 @@ meta:
   description: Troubleshooting OrderLine connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-## I Don't Receive Notifications On Mobile Devices
+## I Do Not Receive Notifications On Mobile Devices
 
 On mobile devices, make sure to disable Auto-Lock in your display settings. Plugging in your device might also help.
 
