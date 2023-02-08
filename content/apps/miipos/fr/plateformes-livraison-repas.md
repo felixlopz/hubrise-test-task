@@ -13,28 +13,25 @@ Cette page décrit les paramètres à utiliser pour connecter les plateformes de
 
 Pour plus d'informations, consultez les pages d'aide de ces plateformes sur notre [page Apps](/apps/plateformes-de-livraison-de-repas).
 
-## Configuration de SOLUTION
+## Configuration de MiiPos
 
-En fonction de vos besoins, vous devrez créer des PRODUITS, PROMOTIONS, MÉTHODES DE PAIEMENT... spécifiques aux plateformes dans SOLUTION.
+Il n'est pas nécessaire d'associer les codes ref de votre caisse MiiPos avec les plateformes de commande et de livraison de repas.
 
-Si vous n'utilisez pas ces fonctionnalités, vous pouvez sauter la création de ces éléments et laisser vides les champs correspondants.
-
-### PRODUITS, PROMOTIONS, ...
-
-Décrire les éléments à créer avant de connecter les plateformes de livraison de repas.
+MiiPos n'exige pas l'utilisation de code ref pour les produits, les promotions, les méthodes de paiement ou autres.
+Comme vous n'utilisez pas ces fonctionnalités, vous pouvez sauter la création de ces éléments et laisser vides les champs correspondants.
 
 ## Deliveroo
 
-Pour recevoir les commandes de Deliveroo dans SOLUTION, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
+Pour recevoir les commandes de Deliveroo dans MiiPos, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
 
 Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suivants.
 
 | Section             | Nom                                               | Code ref                                      |
-| ------------------- | ------------------------------------------------- | --------------------------------------------- |
+| ------------------- | ------------------------------------------------- |-----------------------------------------------|
 | Types de service    | Code ref livraison par Deliveroo                  | (laisser vide)                                |
 | Types de service    | Code ref livraison par le restaurant              | (laisser vide)                                |
 | Types de service    | Code ref à emporter                               | (laisser vide)                                |
-| Types de service    | Envoyer les commandes livrées par Deliveroo [...] | `commandes à emporter`                        |
+| Types de service    | Envoyer les commandes livrées par Deliveroo [...] | `commandes en livraison`                      |
 | Remises             | Code ref remise                                   | (laisser vide)                                |
 | Frais               | Code ref frais de livraison                       | (laisser vide)                                |
 | Frais               | Code ref surcharge                                | (laisser vide)                                |
@@ -54,7 +51,7 @@ En cas de doute sur l'API à utiliser, contactez [support@hubrise.com](mailto:su
 
 ### Just Eat avec l'API Takeaway
 
-Pour recevoir les commandes de Just Eat dans SOLUTION avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
+Pour recevoir les commandes de Just Eat dans MiiPos avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
 
 Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramètres suivants.
 
@@ -63,7 +60,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 | Types de service    | Code ref livraison par la plateforme                  | (laisser vide)                                |
 | Types de service    | Code ref livraison par le restaurant                  | (laisser vide)                                |
 | Types de service    | Code ref à emporter                                   | (laisser vide)                                |
-| Types de service    | Envoyer les commandes livrées par la plateforme [...] | `commandes à emporter`                        |
+| Types de service    | Envoyer les commandes livrées par la plateforme [...] | `commandes en livraison`                        |
 | Remises             | Code ref remise                                       | (laisser vide)                                |
 | Frais               | Code ref frais de livraison                           | (laisser vide)                                |
 | Paiements           | Code ref paiement en ligne                            | (laisser vide)                                |
@@ -72,7 +69,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 
 ### Just Eat avec l'API Flyt
 
-Pour recevoir les commandes de Just Eat Flyt dans SOLUTION avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt).
+Pour recevoir les commandes de Just Eat Flyt dans MiiPos avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt).
 
 Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres suivants.
 
@@ -81,7 +78,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 | Types de service    |     | Code ref livraison par la plateforme                  | (laisser vide)                                |
 | Types de service    |     | Code ref livraison par le restaurant                  | (laisser vide)                                |
 | Types de service    |     | Code ref à emporter                                   | (laisser vide)                                |
-| Types de service    |     | Envoyer les commandes livrées par la plateforme comme | `commandes à emporter`                        |
+| Types de service    |     | Envoyer les commandes livrées par la plateforme comme | `commandes en livraison`                        |
 | Remises             |     | Code ref remise                                       | (laisser vide)                                |
 | Frais               |     | Code ref frais de livraison                           | (laisser vide)                                |
 | Frais               |     | Code ref surcharge                                    | (laisser vide)                                |
@@ -94,7 +91,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 
 ## Uber Eats
 
-Pour recevoir les commandes de Uber Eats dans SOLUTION, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats).
+Pour recevoir les commandes de Uber Eats dans MiiPos, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats).
 
 Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suivants.
 
@@ -104,8 +101,8 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 | Types de service    | Code ref livraison par le restaurant              | (laisser vide)                                                           |
 | Types de service    | Code ref à emporter                               | (laisser vide)                                                           |
 | Types de service    | Code ref sur place                                | (laisser vide)                                                           |
-| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                                   |
-| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans SOLUTION et utiliser son code ref. (\*) |
+| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes en livraison`                                                   |
+| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans MiiPos et utiliser son code ref. (\*) |
 | Remises             | Code ref remise                                   | (laisser vide)                                                           |
 | Frais               | Code ref frais de livraison                       | (laisser vide)                                                           |
 | Frais               | Code ref supplément petite commande               | (laisser vide)                                                           |
@@ -116,9 +113,3 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 | Menu                | Activer les notes de préparation sur les articles | Cocher si vous souhaitez les activer / Laisser la case décochée          |
 
 (\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
-
----
-
-**REMARQUE IMPORTANTE :** Les notes de préparation sur les articles ne sont pas supportées par SOLUTION. Si vous utilisez ces notes pour des instructions de cuisson ou de service (par exemple, "Cuisson à point", ou "Coupez en tranches"), vous devez les remplacer par des options dans votre menu Uber Eats.
-
----

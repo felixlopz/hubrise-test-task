@@ -17,8 +17,7 @@ For more information, check the documentation of these platforms in our [Apps pa
 
 No ref code mapping between WiiPos and food ordering platforms is needed.
 
-WiiPos does not require the use of individual product ref codes. It does not require the use of ref codes for promotions, payment methods and so on either. 
-
+WiiPos does not require the use of ref codes for individual product, promotions, payment methods and so on either.
 As you don't use these features, you can skip the creation of these items, and leave the corresponding fields empty.
 
 ## Deliveroo
