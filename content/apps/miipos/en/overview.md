@@ -18,7 +18,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: Full documentation of this integration is in progress.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/miipos" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
