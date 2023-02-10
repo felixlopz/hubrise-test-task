@@ -6,7 +6,7 @@ meta:
   title: Présentation générale | Popina | HubRise
   description: Présentation générale de Popina, les raisons de connecter Popina à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
+  - __gallery-001.jpeg
 path_override: /
 app_info:
   category: Logiciels de caisse
