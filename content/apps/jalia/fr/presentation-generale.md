@@ -5,6 +5,8 @@ layout: documentation
 meta:
   title: Présentation générale | Jalia | HubRise
   description: Présentation générale de Jalia, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
+gallery:
+  - __gallery-001.jpeg
 path_override: /
 app_info:
   category: Logiciels de caisse
