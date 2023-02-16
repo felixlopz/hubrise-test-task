@@ -136,6 +136,16 @@ See the following video as an example of how to set the Notifications settings.
   <source src="../images/025-en-settings-notifications.webm" type="video/webm"/>
 </video>
 
+### Keep the sound notifications always active on your device
+
+By default, web-browers will not activate the notification sound for OrderLine when you open it, and a red pop-up will show to request manual sound activation.
+If you are using OrderLine on a Windows device and Google Chrome, you will be able to always keep your sound notifications enabled by following the below steps:
+
+1. Right-click on the Chrome desktop icon
+1. Open the **Properties** tab
+1. Append chrome.exe `--autoplay-policy=no-user-gesture-required` to the end of the **Target** field
+2. Click on **Apply** then **OK**.
+
 ## Printing
 
 ### Local printer
