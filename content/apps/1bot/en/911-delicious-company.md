@@ -9,7 +9,7 @@ meta:
 
 **Comment 911 Pizza est devenu 911 Delicious Company et comment le réseau de franchise a réussi sa mutation numérique, informatique et technologique grâce à Hubrise ?**
 
-
+![911 Delicious Company, la parole à **Abderrahim Baka](../images/911-fr-delicious-company-abderrahim-baka.jpeg)
 
 Qui de mieux placé que nos clients et partenaires pour vous parler d’intégration, de systèmes informatiques intégrés et de mutation technologique ?
 Nous avons donné la parole à **Abderrahim Baka**, responsable marketing et responsable technique & informatique au sein du réseau [911 Delicious Company](https://www.911dc.com/) : il a accepté de revenir pour nous sur les étapes et les challenges de leur transformation (il parle même de « révolution ») et sur les bénéfices dont lui et ses équipes profitent aujourd’hui et qu’il pourra, demain, offrir à ses futurs franchisés.
