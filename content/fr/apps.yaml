@@ -181,6 +181,11 @@ content:
           description: Zelty est une caisse enregistreuse sur iPad, offrant une solution complète et pensée pour les chaînes. La solution s'adapte cependant à tout type de restaurant.
     - title: Plateformes de livraison de repas
       apps:
+        - website: https://delicity.com
+          documentation: /apps/delicity
+          logo: delicity.png
+          title: Delicity
+          description: Delicity est une plateforme de commande et de livraison de repas disponible sur Play Store et sur l'Appstore. Delicity n'applique pas de commission sur les commandes, mais facture un coût fixe par commande ainsi qu'un coût de livraison. Disponible en France.
         - website: https://www.deliveroo.com
           documentation: /apps/deliveroo
           logo: deliveroo.png
