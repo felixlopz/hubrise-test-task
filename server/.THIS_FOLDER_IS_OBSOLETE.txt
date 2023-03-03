@@ -1,0 +1,3 @@
+`server` was a proxy to relay requests from the user browser to SendGrid.
+
+It is no longer used. Instead, we now use https://manager.hubrise.com/api/contact_message for the same purpose.
