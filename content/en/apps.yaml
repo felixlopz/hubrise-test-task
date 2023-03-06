@@ -249,6 +249,11 @@ content:
           title: Skip The Dishes
           description: Skip The Dishes is an online food ordering and delivery platform for local restaurants. Customers can order food or alcohol online or via a mobile app. Available in Canada.
           additional_info:
+        - website: https://www.smood.ch/en
+          documentation: /apps/smood
+          logo: smood.png
+          title: Smood
+          description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their local Migros.
         - website: https://www.justeattakeaway.com/
           documentation: /apps/just-eat-takeaway
           logo: takeaway.png
@@ -441,13 +446,13 @@ content:
           documentation: /apps/seconds
           logo: seconds.png
           title: Seconds
-          description: Seconds powers businesses to offer same day delivery by managing deliveries with their own drivers, or connecting them to third-party delivery providers. Seconds dispatchs orders automatically to third-parties and internal drivers via a dedicated app.
+          description: Seconds powers businesses to offer same day delivery by managing deliveries with their own drivers, or connecting them to third-party delivery providers. Seconds dispatches orders automatically to third-parties and internal drivers via a dedicated app.
           additional_info:
         - website: https://www.smood.ch/en
-          documentation: /apps/smood
+          documentation: /apps/smood-dismatch
           logo: smood.png
           title: Smood
-          description: Smood is an online food ordering and delivery platform that operates throughout the Swiss market. Customers can order food online or via a mobile app from their favorite restaurants or from their Migros. HubRise is integrated with Dismatch, their delivery service.
+          description: Dismatch is an independent home delivery service offered by Smood, which covers the entire Swiss market. With Dismatch, non-Smood partners can benefit from their delivery service.
         - website: https://stuart.com
           documentation: /apps/stuart
           logo: stuart.png
