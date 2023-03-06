@@ -452,7 +452,7 @@ content:
           documentation: /apps/smood-dismatch
           logo: smood.png
           title: Smood
-          description: Dismatch is an independent home delivery service offered by Smood, which covers the entire Swiss market. With Dismatch non-Smood partners can benefit from their delivery service.
+          description: Dismatch is an independent home delivery service offered by Smood, which covers the entire Swiss market. With Dismatch, non-Smood partners can benefit from their delivery service.
         - website: https://stuart.com
           documentation: /apps/stuart
           logo: stuart.png

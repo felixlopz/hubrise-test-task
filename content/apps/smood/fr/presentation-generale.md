@@ -27,7 +27,7 @@ Smood est une plateforme de livraison de repas présente dans plus de 25 villes 
 
 En devenant partenaires avec Smood, les restaurateurs élargissent leur clientèle et augmentent leur volume de commandes. Smood assure le marketing, la prise de commandes et la livraison. Les restaurateurs peuvent ainsi se concentrer sur la préparation des plats.
 
-Smood propose également un service de livraison en marque blanche, appelé Dismatch. Ce service permet aux restaurateurs d'externaliser leurs livraisons.
+Smood propose également un service de livraison en marque blanche, appelé Dismatch, qui est [également intégré à HubRise](/apps/smood-dismatch). Ce service permet aux restaurateurs d'externaliser leurs livraisons.
 
 ## Fonctionnalités de l'intégration
 
@@ -38,7 +38,7 @@ Connecter Smood à HubRise permet à votre plateforme de commande et de livraiso
 - Recevoir un catalogue de HubRise.
 - Synchroniser l'inventaire avec HubRise.
 
-Smood peut être connecté à HubRise via le support de Smood.
+Smood peut être connecté à HubRise depuis le back-office de Smood, après en avoir fait la demande au support de Smood.
 
 ## Pourquoi se connecter ?
 

@@ -16,6 +16,6 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/smood" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/smood-dismatch" addLocalePrefix={false}>in French only</Link>.
 
 ---
