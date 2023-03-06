@@ -190,7 +190,7 @@ content:
           documentation: /apps/delicity
           logo: delicity.png
           title: Delicity
-          description: Delicity is a food ordering and delivery service platform available on the App Store and Play Store. Delicity does not charge a commission on orders but instead bills a fixed cost per order, along with a delivery cost. Delicity is present in several major cities in France.
+          description: Delicity is a food ordering and delivery service platform available. Instead of charging restaurants a commission on orders, Delicity bills a fixed cost per order, along with a delivery cost. Delicity is present in several major cities in France.
         - website: https://www.deliveroo.com
           documentation: /apps/deliveroo
           logo: deliveroo.png

@@ -14,7 +14,7 @@ app_info:
   availability: France
   price_range:
   website: https://delicity.com
-  contact:  04 83 58 06 48
+  contact: 04 83 58 06 48
 ---
 
 ---
@@ -25,13 +25,11 @@ app_info:
 
 ## Description
 
-Delicity est une plateforme de commande et de livraison de repas disponible sur l'Appstore et le Play Store. 
-Contrairement aux plateformes traditionnelles, Delicity n'applique pas de commission sur les commandes, mais facture un coût fixe par commande ainsi qu'un coût de livraison 20% moins élevé qu'avec des coursiers indépendants. 
+Delicity est une plateforme de commande et de livraison de repas disponible sur Internet, App Store et Play Store. Contrairement aux plateformes traditionnelles, Delicity n'applique pas de commission sur les commandes, mais facture un coût fixe par commande ainsi qu'un coût de livraison 20% moins élevé qu'avec des coursiers indépendants.
 
-Les clients ont la possibilité de passer leur commande directement auprès du restaurant ou via l'application Delicity, qui propose des services de livraison à la demande responsable, permettant aux livreurs d’être mieux rémunérés.
+Les clients peuvent passer leur commande directement auprès du restaurant ou via l'application ou le site Internet Delicity, qui proposent des services de livraison à la demande responsables, offrant une meilleure rémunération aux livreurs.
 
-Delicity présent dans plusieurs grandes villes en France.
-
+Delicity est présent dans plusieurs grandes villes en France.
 
 ## Fonctionnalités de l'intégration
 
