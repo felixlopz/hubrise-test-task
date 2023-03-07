@@ -79,6 +79,11 @@ content:
           logo: lightspeed-restaurant.png
           title: Lightspeed Restaurant (K-Series)
           description: Lightspeed Restaurant is a cloud based solution for restaurants, available in over 100 countries. Its sleek design and intuitive interface allows on-site, remote or on-the-go management of single and multi-store businesses.
+        - website: https://www.miipos.fr
+          documentation: /apps/miipos
+          logo: miipos.png
+          title: MiiPos
+          description: MiiPos by Arcsolu is a multi-platform (Windows, Android, iOS, Linux) EPOS, with a cloud technology boost, available in Chinese, and designed to meet the needs of many types of businesses. It includes all necessary features to manage businesses and assist decision making.
         - website: http://www.myorderboxhq.com
           documentation: /apps/myorderbox
           logo: myorderbox.png
