@@ -4,8 +4,8 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | SOLUTION | HubRise
-  description: "Connecter SOLUTION à HubRise : étapes à suivre pour recevoir vos commandes dans votre logiciel de caisse SOLUTION."
-  description: "Connecter SOLUTION à HubRise : étapes à suivre pour recevoir vos commandes SOLUTION dans votre logiciel de caisse."
+  description: Connecter SOLUTION à HubRise, étapes à suivre pour recevoir vos commandes dans votre logiciel de caisse SOLUTION.
+  description: Connecter SOLUTION à HubRise, étapes à suivre pour recevoir vos commandes SOLUTION dans votre logiciel de caisse.
 ---
 
 ---
