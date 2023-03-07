@@ -6,7 +6,7 @@ meta:
   title: Overview | MiiPos | HubRise
   description: MiiPos overview, reasons for connecting your MiiPos EPOS to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps.
 gallery:
-- __gallery-001.png
+  - __gallery-001.png
 path_override: /
 app_info:
   category: Point of Sales
@@ -18,13 +18,13 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: Full documentation of this integration is in progress.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/miipos" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
 ## Description
 
-MiiPos by Arcsoft is an EPOS solution available on multiple platforms such as Windows, Android, iOS, and Linux. It is designed to meet the needs of many types of businesses, including restaurants, bars, bakeries, hair dressers, grocery stores and food trucks. 
+MiiPos by Arcsoft is an EPOS solution available on multiple platforms such as Windows, Android, iOS, and Linux. It is designed to meet the needs of many types of businesses, including restaurants, bars, bakeries, hair dressers, grocery stores and food trucks.
 
 This cash register, available in Chinese, is suitable for both independent businesses and franchises, thanks to its clear settings and large touch screen.
 
@@ -57,7 +57,7 @@ MiiPos can be connected to HubRise via the MiiPos support line.
 
 ## Why Connect?
 
-By connecting MiiPos to HubRise, your EPOS can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. 
+By connecting MiiPos to HubRise, your EPOS can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your EPOS.
 
 Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing), business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 

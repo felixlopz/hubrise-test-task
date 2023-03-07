@@ -6,6 +6,13 @@ blog:
   title: Blog
 
 documentation:
+  app_info:
+    availability: Availability
+    category: Category
+    contact: Contact
+    price_range: Price range
+    website: Website
+
   language_warning:
     en: This documentation is available in English only.
     fr: This documentation is available in French only.
@@ -54,6 +61,7 @@ misc:
     - December
   archive: Archive
   archives: Archives
+  colon: ':'
   recent_posts: Recent posts
   read_more: Read More
   posted_on: Posted on
