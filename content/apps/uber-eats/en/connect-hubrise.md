@@ -17,7 +17,7 @@ Connecting Uber Eats to HubRise can be done with a few steps.
 
 ## 1. Enable HubRise on Uber Eats
 
-As a first step, the HubRise integration must be enabled on your Uber Eats account.
+As a first step, the HubRise integration must be enabled on your Uber Eats store.
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
 
@@ -25,7 +25,8 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 - Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
 - The order acceptance mode you want to use for your store: `Manual accept` or `Offered state` mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 
-With this information in hand, the Uber Eats integration team will enable the HubRise connection for your store. HubRise will provide you with the Uber Eats Store UUID needed to connect and inform you of the next step.
+With this information in hand, we will ask Uber Eats support to enable the HubRise connection for your store and provide the Uber Eats Store UUID, for example: `dc638853-bff1-411c-adba-8aa4d7abddd2`.
+
 
 ## 2. Connect Uber Eats Bridge
 
