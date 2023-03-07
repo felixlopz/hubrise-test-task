@@ -28,7 +28,7 @@ MiiPos est une caisse enregistreuse disponible sur les plateformes Windows, Andr
 
 MiiPos est disponible en français et en chinois, et convient aussi bien aux entreprises indépendantes qu'aux franchises. Elle offre une prise en main facile grâce à un grand écran tactile.
 
-MiiPos offre de nombreuses fonctionnalités pour gérer votre commerce et vous accompagner dans la prise de décisions. Elle inclut notamment une solution de gestion des stocks et un programme de fidélisation. Elle permet une analyse statistique des ventes, le calcul des marges et des taux de TVA, ainsi que l'export complet des données nécessaires à votre comptable.
+MiiPos offre de nombreuses fonctionnalités pour gérer un commerce et accompagner dans la prise de décisions. Elle inclut notamment une solution de gestion des stocks et un programme de fidélisation. Elle permet une analyse statistique des ventes, le calcul des marges et des taux de TVA, ainsi que l'export complet des données nécessaires au comptable.
 
 MiiPos se distingue notamment par :
 
