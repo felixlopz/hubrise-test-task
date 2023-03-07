@@ -29,7 +29,7 @@ En cas de besoin, le support de Restaurant-internet peut vous venir en aide. Pou
 
 Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution Restaurant-internet.
 
-Pour donner accès à SOLUTION, procédez comme suit :
+Pour donner accès à Restaurant-internet, procédez comme suit :
 
 1. Depuis le back-office de HubRise, sélectionnez **CONFIGURATION** dans le menu de gauche.
 1. Dans la section **Permissions**, ajoutez contact@restaurant-internet.com en sélectionnant l'option **Manager** dans la liste déroulante des rôles.
