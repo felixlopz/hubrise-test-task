@@ -28,7 +28,7 @@ Les commentaires des clients sur des articles individuels ne sont pas fournis pa
 
 ### Encodage des articles
 
-Pour chaque article inclus dans la commande, Deliveroo Bridge indique les informations suivantes : 
+Pour chaque article inclus dans la commande, Deliveroo Bridge indique les informations suivantes :
 
 - `sku_ref` : code ref de l'article.
 - `product_name` : le code ref de l'article, si présent. Sinon, le nom de l'article.
