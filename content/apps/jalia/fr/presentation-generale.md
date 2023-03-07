@@ -24,25 +24,20 @@ app_info:
 
 ## Description
 
-Jalia est une caisse enregistreuse pour iPad, éditée par JDC SA, qui dispose de plus de 300 fonctionnalités et accessoires connectés. Elle est facile à utiliser, efficace et adaptable.
+Jalia est une caisse enregistreuse pour iPad, éditée par JDC SA, qui dispose de plus de 300 fonctionnalités et accessoires connectés. Facile à utiliser, moderne, et connectée, Jalia comprend notamment :
 
-Une solution connectée et le développement d’un écosystème de services digitalisés :
-
-- Offre click & collect et site de commande en ligne.
+- Site de click & collect et commande en ligne.
 - Cahier de réservation digital.
 - Programme de fidélité.
-- Gestion de son PMS hôtelier.
+- Gestion de PMS hôtelier.
 - Tickets restaurants dématérialisés.
 - Gestion des livraisons.
-- Gestion de l’hygiène HACCP.
+- Gestion de l'hygiène HACCP.
 - Paiement à table par QR code.
-- Gestion des plannings employés.
-- Optimisation de la rotation des tables avec la télécommande tout-en-un : prise de commande et de paiement.
+- Gestion des plannings des employés.
+- Optimisation de la rotation des tables avec la télécommande tout-en-un : prise de commande et paiement.
 
-
-La proximité fait partie de l'engagement de JDC SA, entreprise spécialisée dans les solutions d'encaissement et de paiement depuis 1989. Ses conseillers commerciaux et techniciens viennent à votre rencontre, sur tout le territoire et vous accueillent également au sein de leurs agences.
-
-Optez pour la proximité, c’est bénéficier de :
+Jalia est distribué par JDC SA, entreprise française spécialisée dans les solutions de caisse et de paiement depuis 1989. Ses conseillers commerciaux et techniciens, présents sur tout le territoire, viennent à la rencontre des clients ou les reçoivent dans leurs agences. La proximité permet de bénéficier de :
 
 - Conseils et accompagnement.
 - Devis sur-mesure.
