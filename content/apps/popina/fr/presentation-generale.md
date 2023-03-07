@@ -11,7 +11,7 @@ path_override: /
 app_info:
   category: Logiciels de caisse
   availability: France, Suisse, Espagne
-  price_range: From 49€ / mois
+  price_range: A partir de 49€ / mois
   website: https://www.popina.com
   contact: 01 76 36 13 64 / contact@popina.com
 ---
@@ -24,23 +24,21 @@ app_info:
 
 ## Description
 
-Popina se spécialise dans les caisses enregistreuses pour iPad depuis 2014.
-
-La société propose une technologie avancée pour la gestion de restaurants, boulangeries, bars, snacks, commerces et hôtels, avec des fonctionnalités, des services connectés et des périphériques en constante évolution.
+Popina est une caisse enregistreuse pour iPad créée en 2014. La solution Popina répond aux besoins des restaurants, boulangeries, bars, snacks, commerces et hôtels. Elle offre une gamme de fonctionnalités, de services connectés et de périphériques en constante évolution.
 
 Les services proposés incluent l'encaissement, la prise de commandes sur place et à distance, l'analyse de données, la fidélisation, la gestion et l'organisation, et les paiements.
 
-De nombreuses fonctionnalités sont possibles :
+Parmi les fonctionnalités disponibles :
 
-- Développement de la fidélité.
-- Mise en place du click & collect.
-- Gestion des réservations.
-- Optimisation de la rotation des tables avec la télécommande tout-en-un : prise de commande et de paiement.
-- Gestion des plannings employés.
+- Programme fidélité.
+- Solution click & collect.
+- Cahier de réservations.
+- Optimisation de la rotation des tables avec la télécommande tout-en-un : prise de commande et paiement.
+- Gestion des plannings des employés.
 - Paiement à table par QR code.
 - Gestion des pourboires dématérialisés.
-- Maîtrise l’hygiène et le PMS de ton établissement.
-- Gestion des espèces, avec la gamme de monnayeurs automatiques.
+- Gestion de l'hygiène HACCP.
+- Gamme de monnayeurs automatiques.
 
 Popina est conforme à la loi française anti-fraude 2018.
 
