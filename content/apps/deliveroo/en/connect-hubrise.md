@@ -1,9 +1,9 @@
 ---
-title: Connection to HubRise
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connection to HubRise | Deliveroo | HubRise
+  title: Connect to HubRise | Deliveroo | HubRise
   description: Instructions on connecting Deliveroo with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
@@ -22,12 +22,10 @@ As a first step, the HubRise integration must be enabled on your Deliveroo accou
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
 - The URL link to your restaurant page on the Deliveroo website. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
-- The Deliveroo Restaurant ID of the store. For more details, see our FAQ: [How Do I Find My Deliveroo Restaurant ID](/apps/deliveroo/faqs/find-deliveroo-restaurant-id).
-- The email address you use to log in to the Deliveroo back office.
 - Whether your Deliveroo store is connected to another middleware or EPOS.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 
-With this information in hand, the Deliveroo integration team will enable the HubRise connection for your store. New connections are approved on Tuesdays and Thursdays only.
+With this information in hand, we will ask the Deliveroo integration team to enable the HubRise connection for your store.
 
 Alternatively, [enable HubRise directly from your Deliveroo back office](/apps/deliveroo/faqs/connect-from-deliveroo-back-office).
 
@@ -41,7 +39,7 @@ Alternatively, [enable HubRise directly from your Deliveroo back office](/apps/d
 
 To connect Deliveroo Bridge to HubRise, follow these steps.
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the location you want to connect from the dropdown menu.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Deliveroo** from the list of apps.

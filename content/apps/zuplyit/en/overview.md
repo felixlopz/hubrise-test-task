@@ -12,7 +12,7 @@ gallery:
 path_override: /
 app_info:
   category: Online Ordering
-  availability: United Kingdom, Spain
+  availability: Europe
   price_range:
   website: https://www.zuplyit.com
   contact:
@@ -26,9 +26,9 @@ app_info:
 
 ## Description
 
-Zuplyit by AirTouchMedia offers a branded online ordering website alongside its own Delivery Management System (DMS). Zuplyit also comes with loyalty and promotional tools to help maximise new customer acquisition, increase purchase frequency and average ticket size. Zuplyit serves the needs of medium and large restaurant chains.
+Zuplyit by AirTouchMedia offers a branded online ordering website and mobile app alongside its own Delivery Management System (DMS). Zuplyit also comes with loyalty and promotional tools to help maximise new customer acquisition, increase purchase frequency and average ticket size. Zuplyit serves the needs of medium and large restaurant chains.
 
-Zuplyit has a direct integration with food ordering and delivery platforms (Uber Eats, Deliveroo, Just Eat and Glovo). Menus are pushed from Zuplyit into the platforms. Orders are managed within Zuplyit, and delivered with the help of the Delivery Management System.
+Zuplyit has a direct integration with food ordering and delivery platforms (Uber Eats, Just Eat and Glovo). Menus are pushed from Zuplyit into the platforms. Orders are managed within Zuplyit, and delivered with the help of the Delivery Management System.
 
 ## Integration Features
 

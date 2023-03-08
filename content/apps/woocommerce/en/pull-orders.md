@@ -19,7 +19,11 @@ Customers' comments on single products are not supported on WooCommerce. If you 
 
 ## Order Statuses
 
-In this section, we capitalise the first letter of WooCommerce statuses to make them easier to distinguish from HubRise status names. For example, `Processing` is a WooCommerce status, while `accepted` is a HubRise status.
+---
+
+**IMPORTANT NOTE:** In this section, we capitalise the first letter of WooCommerce statuses to make them easier to distinguish from HubRise status names. For example, `Processing` is a WooCommerce status, while `accepted` is a HubRise status.
+
+---
 
 ### When the Status Changes in HubRise
 

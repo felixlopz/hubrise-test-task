@@ -658,9 +658,9 @@ There are two ways to create an order with an attached customer:
 }
 ```
 
-When you retrieve an order using a GET request, you will find the customer fields encoded in a `customer` object . The presence of an `id` field with a non null value in this object indicates that the order is attached to this customer. Conversely, a null value indicates a guest order.
+When you retrieve an order using a GET request, you will find the customer fields encoded in a `customer` object. The `customer` object contains the customer values _at the time of the order creation_.
 
-Note that the customer values _at the time of the order creation_ are returned in the `customer` object when you retrieve the order. The only exception is the `custom_fields` customer field, whose value _at the time of the order retrieval_ is returned.
+The presence of a `id` field with a non-null value in the `order.customer` object indicates that the order is attached to this customer. Conversely, a null value indicates a guest order.
 
 ### Order with no attached customer (guest order)
 
