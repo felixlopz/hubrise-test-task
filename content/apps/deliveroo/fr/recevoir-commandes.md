@@ -9,7 +9,7 @@ meta:
 
 Connecter Deliveroo à HubRise vous permet de recevoir des commandes Deliveroo directement dans votre logiciel de caisse ou toute autre solution connectée à votre compte HubRise.
 
-Votre tablette Deliveroo doit rester allumée pour recevoir des commandes. Les commandes peuvent être soit acceptées manuellement sur la tablette, soit acceptées automatiquement. Pour plus d'informations, voir [Est-ce possible d'accepter automatiquement les commandes ?](/apps/deliveroo/faqs/auto-accept/). Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
+Votre tablette Deliveroo doit rester allumée pour recevoir des commandes. Les commandes peuvent être soit acceptées manuellement sur la tablette, soit acceptées automatiquement. Pour plus d'informations, voir [Comment activer l'acceptation automatique des commandes ?](/apps/deliveroo/faqs/acceptation-automatique/) Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
 
 Cette page décrit les informations que Deliveroo envoie à HubRise. Elle peut vous aider à comprendre comment les commandes seront reçues dans votre logiciel de caisse.
 

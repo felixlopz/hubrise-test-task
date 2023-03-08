@@ -27,7 +27,7 @@ Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubr
 
 Avec ces informations, nous demanderons à l'équipe d'intégration de Deliveroo d'activer la connexion HubRise pour votre enseigne.
 
-Vous pouvez également [connecter HubRise depuis votre back-office Deliveroo](/apps/deliveroo/faqs/connexion-depuis-le-back-office-deliveroo).
+Vous pouvez également [connecter HubRise depuis votre back-office Deliveroo](/apps/deliveroo/faqs/connecter-depuis-le-back-office-deliveroo).
 
 ## 2. Connecter Deliveroo Bridge
 

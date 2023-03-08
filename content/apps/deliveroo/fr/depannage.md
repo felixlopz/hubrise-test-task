@@ -50,4 +50,4 @@ Pour résoudre ce problème, assurez-vous que tous les produits de votre menu De
 
 Lorsque l'acceptation automatique n'est pas activée, chaque commande doit être acceptée manuellement sur la tablette Deliveroo, sinon elle sera rejetée par Deliveroo et rien ne sera reçu sur HubRise.
 
-Pour éviter cela, nous recommandons d'[activer auto-accept](/apps/deliveroo/faqs/auto-accept).
+Pour éviter cela, nous recommandons l'[acceptation automatique des commandes](/apps/deliveroo/faqs/acceptation-automatique/).
