@@ -8,6 +8,7 @@ meta:
 ---
 
 The Restaurant ID is the unique identifier for your Deliveroo store. It is also referred to as Branch ID, Admin ID, Tablet ID, or Location ID, depending on the context.
+This ID is in numeric characters only and includes 6 or sometimes 5 digits.
 
 To find your Deliveroo Restaurant ID, follow these steps.
 
@@ -29,3 +30,16 @@ On your browser:
 ![Deliveroo Restaurant ID in the URL of the back office](../../images/011-en-deliveroo-branchid.png)
 
 If you cannot find your Restaurant ID, contact your Deliveroo Account Manager.
+
+## Option 3
+
+For the most IT savvy, the Restaurant ID can also be found in the store source code.
+
+To find the Restaurant ID in the website source code, follow these steps:
+
+- Go to your store URL link, the restaurant page on the Deliveroo website. 
+- Right-click on the page and select **View Page Source** on your web-browser.
+- On the source code page, search for `"restaurant":{"id":`.
+
+> For example, the Camile Thai restaurant in Clapham indicates `77430` Restaurant ID in the website page source code [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
+
