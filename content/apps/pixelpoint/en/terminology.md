@@ -17,8 +17,9 @@ HubRise and PixelPoint each use their own terminology. The same concept can ther
 
 | PixelPoint       | HubRise          | Description          |
 | :--------------- | :--------------- | :------------------- |
-| ComboItemId      | deals>ref        | Deal code.           |
-| MethodNumber     | payment>type     | Payment method code. |
-| ProdNum (SKU)    | sku_ref          | Product code.        |
-| ProdNum (Option) | options>ref      | Option code.         |
+| CouponNum        | discount>ref     | Discount code.       |
+| MethodNumber     | payment>ref      | Payment method code. |
+| ProdNum (Coupon) | deal>ref         | Deal code.           |
+| ProdNum (Option) | option>ref       | Option code.         |
+| ProdNum (SKU)    | product>sku_ref  | Product code.        |
 | SaleTypeNum      | service_type_ref | Service type code.   |
