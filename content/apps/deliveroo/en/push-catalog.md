@@ -17,9 +17,7 @@ This page explains how to push your catalog, and what information is sent to Del
 
 To update your menu in Deliveroo, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your EPOS documentation on the HubRise website to verify.
 
-Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats.
-
-For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats, or from Deliveroo. For more information on Deliveroo pull, see[Pull the Catalog](/apps/deliveroo/pull-catalog).
 
 ## Manual Catalog Push
 
@@ -106,7 +104,9 @@ The order in which categories and products appear on HubRise is maintained on De
 
 ### Products and Skus
 
-For every [product](/developers/api/catalog-management/#products) with multiple skus, Deliveroo Bridge sends the following information to Deliveroo:
+A product belongs to a category. A product has one or several skus. For more information, see our API reference [Products](/developers/api/catalog-management/#products)
+
+For every product with multiple skus, Deliveroo Bridge sends the following information to Deliveroo:
 
 - `ref`: The value `MULTISKU` is used for all products
 - `name`: The name of the product
@@ -170,5 +170,5 @@ For each deal in the catalog, Deliveroo Bridge creates a Deliveroo product with 
 
 - `name`: The name of the deal becomes the name of the product.
 - `category_ref`: If empty, Deliveroo Bridge creates a default category in Deliveroo called "Offers".
-- `ref`: The ref code of the deal becomes the ref of the product, preceded by `DEAL-`. For example, for a deal with ref code `abc123`, Deliveroo Bridge creates a Deliveroo product with plu `DEAL-abc123`.
+- `ref`: The ref code of the deal becomes the ref of the product, preceded by `DEAL-`. For example, for a deal with ref code `abc123`, Deliveroo Bridge creates a Deliveroo product with PLU `DEAL-abc123`.
 - `lines`: For each object in the array, Deliveroo Bridge creates a list of modifiers, with `lines.name` as the name.

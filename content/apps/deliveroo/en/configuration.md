@@ -54,7 +54,7 @@ Refer to your EPOS documentation on the HubRise website to verify the correct va
 
 ![Deliveroo Bridge configuration page, Catalog section](../images/015-en-configuration-page-menu.png)
 
-In this section, select the brand ID and menu ID of the Deliveroo menu you want to push your HubRise catalog into. The default values generally work for most users.
+In this section, select the **Brand ID** and **Menu ID** of the Deliveroo menu you want to push your HubRise catalog into. The default values generally work for most users.
 
 Additionally, choose if you want to push your HubRise catalog to Deliveroo every time it is updated on HubRise. By default, this option is turned off.
 
@@ -76,7 +76,7 @@ To obtain a public URL for your banner image, send an email to [support@hubrise.
 
 You can push inventory data into Deliveroo from the **Actions** page. When you do so, products set as out of stock in HubRise are hidden on Deliveroo.
 
-You might also set the Deliveroo Flyt Bridge to automatically push inventory to Deliveroo whenever your HubRise inventory is updated. This is done by ticking the **Enable automatic inventory push** checkbox.
+You might also set the Deliveroo Bridge to automatically push inventory to Deliveroo whenever your HubRise inventory is updated. This is done by ticking the **Enable automatic inventory push** checkbox.
 
 ## Save the Configuration
 

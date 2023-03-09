@@ -7,12 +7,15 @@ meta:
   description: Find out how to pull your Uber Eats menu into a HubRise catalog, how items and options are converted, and which features are supported.
 ---
 
-With Uber Eats Bridge, you can pull your Uber Eats menu into a HubRise catalog.
+With Uber Eats Bridge, you can pull your Uber Eats  menu into a HubRise catalog.
 
 This can be useful if you want to:
 
-- Create a backup of your Uber Eats menu.
-- Edit your Uber Eats menu in HubRise Catalog Manager, an app included in your HubRise subscription, and push it back to Uber Eats or other platforms including Deliveroo and Just Eat.
+- Create a backup of your Uber Eats  menu.
+- Edit your Uber Eats menu in HubRise Catalog Manager, to inclure ref codes for instance. For more information, see [Catalog Manager](/apps/catalog-manager).
+- To populate a HubRise catalog which will be pushed into other apps, including other food delivery platforms such as Uber Eats and Just Eat.
+
+## Populate a HubRise Catalog
 
 To pull your Uber Eats menu into a HubRise catalog, follow these steps:
 
@@ -23,6 +26,7 @@ To pull your Uber Eats menu into a HubRise catalog, follow these steps:
 1. Find **Uber Eats Bridge** from the list of connected apps, and click **Open**. This will open Uber Eats Bridge in a new tab.
 1. Click the **Actions** tab
 1. In the **Pull the catalog from Uber Eats** section, verify that the correct HubRise catalog is connected, click **Pull catalog**, and confirm the action.
+1. Check your populated catalog on HubRise. For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
 ![Manual Catalog Push on HubRise](../images/025-en-2x-uber-eats-actions-page.png)
 
@@ -31,3 +35,7 @@ To pull your Uber Eats menu into a HubRise catalog, follow these steps:
 **IMPORTANT NOTE:** This operation will erase the HubRise catalog connected to Uber Eats Bridge.
 
 ---
+
+## Information pulled into HubRise
+
+Catalog data sent to Uber Eats is comparable to the data pulled from Uber Eats. For more information, you can therefore refer to [Information Sent to  Uber Eats](/apps/uber-eats/push-catalog#information-sent-to-uber-eats).

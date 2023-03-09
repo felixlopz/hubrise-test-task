@@ -11,7 +11,7 @@ Most EPOS solutions require a ref code for each product to correctly parse order
 
 ---
 
-**IMPORTANT NOTE:** If you do not assign a ref code to all your products, Deliveroo will not process the order correctly. For more information, see [Troubleshooting Orders](/apps/deliveroo/troubleshooting#orders-not-received)
+**IMPORTANT NOTE:** If you do not assign a ref code to all your products, Deliveroo will not process the order correctly. For more information, see [Orders Not Received](/apps/deliveroo/troubleshooting#orders-not-received).
 
 ---
 

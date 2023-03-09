@@ -69,7 +69,7 @@ Just Eat provides the time when the eater expects to receive or collect the orde
 The customer's details provided by Just Eat depend on the service type for the order.
 
 - For orders delivered by the restaurant, HubRise receives the full customer details, including name and address.
-- For pick-up orders, only the name is provided.
+- For pick-up orders, only the first name is provided.
 - For orders delivered by Just Eat, only the driver's information is provided.
 
 ## Discounts
