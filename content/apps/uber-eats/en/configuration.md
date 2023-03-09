@@ -75,15 +75,18 @@ For each day of the week, set the opening and closing times of your store by spe
 If your restaurant is closed on a specific day, click **Close the day**.
 To quickly copy opening hours to all the following days on the list, click **Copy to bottom**.
 
+---
+
+**IMPORTANT NOTE:** To apply the updated opening hours, push your catalog to Uber Eats. For more details, see [Push the Catalog](/apps/uber-eats/push-catalog).
+
+---
+
 ### Customer Notes
 
-Select if you want to enable customer notes for individual products in Uber Eats. If you enable this option, make sure that your connected EPOS supports product level customer notes.
+Customer notes for individual products can be activated by contacting Uber Eats support. This integration feature is supported, but it cannot be activated by HubRise. 
 
----
+If you enable customer notes, make sure that your connected EPOS supports product level customer notes.
 
-**IMPORTANT NOTE:** To apply the updated opening hours and customer notes choice, push your catalog to Uber Eats. For more details, see [Push the Catalog](/apps/uber-eats/push-catalog).
-
----
 
 ## Inventory
 

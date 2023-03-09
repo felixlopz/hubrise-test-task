@@ -21,7 +21,7 @@ Alternatively, you can populate a HubRise catalog by pulling your menu from Uber
 
 ## Manual Catalog Push
 
-Once your catalog is populated on HubRise, you can push it manually to your Deliveroo store by following these steps:
+Once your catalog is populated on HubRise, and you have product ref codes for each individual item, you can push it manually to your Deliveroo store by following these steps:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Deliveroo store.
@@ -31,7 +31,7 @@ Once your catalog is populated on HubRise, you can push it manually to your Deli
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog into Deliveroo will erase the current menu on your Deliveroo store. A catalog push will also update your Deliveroo **Menu description** and **Menu banner** as defined in the Deliveroo Bridge **Configuration** page. This action cannot be reverted.
+**IMPORTANT NOTE:** Pushing your HubRise catalog into Deliveroo will erase the current menu on your Deliveroo store. A catalog push will also update your Deliveroo **Menu description** and **Menu banner** as defined in the Deliveroo Bridge **Configuration** page. This action cannot be reverted. The catalog push will not work if ref codes are missing.
 
 ---
 
