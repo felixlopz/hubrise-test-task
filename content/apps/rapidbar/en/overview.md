@@ -35,7 +35,7 @@ RapidBar's mobile app is also an easy-to-use counting tool and does not require 
 
 RapidBar key features include:
 
-- **Products**: You can store all of your ingredients in your own database, and access insightful data such as weights and Stock Keeping Units (SKUs) through RapidBar’s community database.
+- **Products**: You can store all of your ingredients in your own database, and access insightful data such as weights and Stock Keeping Units (SKUs) through RapidBar's community database.
 - **Recipes**: You can use RapidBar to calculate recipe costs and related margins in real-time, create batch recipes, and print them for your staff to follow.
 - **Supply**: You can add unlimited suppliers, receive automatic supplier order suggestions to optimise inventory levels, and include received orders to your inventory.
 - **Reporting**: You have access to customisable reporting capabilities to help make informed decisions.

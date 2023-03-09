@@ -109,13 +109,12 @@ Deliveroo provides the time when the eater expects to receive or collect the ord
 
 ## Customer
 
-Deliveroo never provides the customer's full name and email address in their API. Therefore, Deliveroo Bridge never creates customers in HubRise, but includes the customer's details directly in the order.
+Deliveroo never provides the customer's full name, personal phone number or email address. It does not provide any customer identification number either. Therefore, Deliveroo Bridge does not create customers in HubRise, but includes the customer's details directly in the order.
 
-For restaurant delivery orders, Deliveroo Bridge retrieves the following information from Deliveroo:
+For restaurant delivery orders, Deliveroo Bridge provides the following details:
 
 - `first_name`: The customer's first name.
 - `last_name`: The initial of the customer's last name.
-- `email`: orders@deliveroo.com
 - `address_1`: The first line of the address.
 - `address_2`: The second line of the address.
 - `city`: The city of the address.
@@ -125,11 +124,10 @@ For restaurant delivery orders, Deliveroo Bridge retrieves the following informa
 - `phone`: Deliveroo support number. Note: This is not the customer's phone number.
 - `delivery_notes`: The access code to identify the order when calling Deliveroo support and the delivery notes left by the customer, in the format "Phone access code: `access_code`. `note`".
 
-For other types of orders, Deliveroo Bridge provides the following default customer details:
+For other types of orders, Deliveroo Bridge provides the following details:
 
-- `first_name`: Deliveroo
-- `last_name`: Order
-- `email`: orders@deliveroo.com
+- `first_name`: The customer's first name.
+- `phone`: Deliveroo support number. Note: This is not the customer's phone number.
 
 ## Discounts
 
@@ -158,4 +156,4 @@ The available fields in the payloads are the following:
 
 ## Customer Notes
 
-Product-level customer notes are encoded in the `customer_notes` field.
+Order-level customer notes are encoded in the `customer_notes` field.
