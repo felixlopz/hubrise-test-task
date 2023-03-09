@@ -64,7 +64,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ### Automatic Catalog Push
 
-Tick **Publish the menu on Uber Eats when it is updated in HubRise** to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option is turned off.
+Choose if you want to push your HubRise catalog to Uber Eats every time it is updated on HubRise. By default, this option is turned off. To enable it, tick the box **Publish the menu on Deliveroo with it is updated in HubRise**.
 
 ### Opening Hours
 

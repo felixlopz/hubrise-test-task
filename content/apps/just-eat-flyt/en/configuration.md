@@ -50,9 +50,9 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ## Catalog
 
-![Just Eat Flyt Bridge configuration page, Catalog section](../images/012-en-just-eat-configuration-page-menu.png)
+Choose if you want to push your HubRise catalog to Just Eat every time it is updated on HubRise. By default, this option is turned off. To enable it, tick the box **Publish the menu on Deliveroo with it is updated in HubRise**.
 
-From this section, choose if you want to push your HubRise catalog to Just Eat every time you update the HubRise catalog. By default, this option is turned off.
+![Just Eat Flyt Bridge configuration page, Catalog section](../images/012-en-just-eat-configuration-page-menu.png)
 
 ### Opening Hours
 
