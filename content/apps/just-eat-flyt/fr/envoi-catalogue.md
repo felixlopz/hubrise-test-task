@@ -1,9 +1,9 @@
 ---
-title: Envoi du catalogue
+title: Envoyer le catalogue
 position: 6
 layout: documentation
 meta:
-  title: Envoi du catalogue | Just Eat Flyt | HubRise
+  title: Envoyer le catalogue | Just Eat Flyt | HubRise
   description: Voir comment envoyer un catalogue de HubRise vers Just Eat, de quelle manière les articles et les options sont encodés, et quelles fonctionnalités sont intégrées.
 ---
 
@@ -61,9 +61,9 @@ Pour chaque catégorie, les champs HubRise envoyés à Just Eat sont les suivant
 - `name` : nom de la catégorie.
 - `description` : description de la catégorie.
 
-### Produits et skus
+### Produits et SKUs
 
-Les produits contenus dans le tableau `products` d'un catalogue HubRise peuvent être associés à plusieurs skus. Cette notion de produits et de skus n'est pas prise en charge dans Just Eat, où chaque sku est associée à un produit individuel. Pour plus d'informations sur les produits contenus dans les catalogues HubRise, voir la rubrique [Produits](/developers/api/catalog-management/#products) (en anglais).
+Les produits contenus dans le tableau `products` d'un catalogue HubRise peuvent être associés à plusieurs SKUs. Cette notion de produits et de SKUs n'est pas prise en charge dans Just Eat, où chaque sku est associée à un produit individuel. Pour plus d'informations sur les produits contenus dans les catalogues HubRise, voir la rubrique [Produits](/developers/api/catalog-management/#products) (en anglais).
 
 Pour chaque objet `sku` contenu dans un produit, Just Eat Flyt Bridge envoie les informations suivantes dans Just Eat :
 
