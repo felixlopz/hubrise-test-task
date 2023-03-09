@@ -161,6 +161,11 @@ content:
           title: SICOM
           description: SICOM propose une suite complète pour la restauration rapide. Les franchises et les gérants utilisent SICOM pour gérer, contrôler et standardiser les processus en capturant et analysant des données.
           additional_info: Intégration par MyTec en cours.
+        - website: http://www.akksofttech.com
+          documentation: /apps/akk-softtech
+          logo: akk-softtech.png
+          title: AKK Softtech
+          description: Softtech, éditeur de la caisse enregistreuse AKK, répond aux besoins des restaurants asiatiques, et plus spécifiquement thaï, avec une interface utilisateur qui peut-être en anglais ou en thaï.
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png

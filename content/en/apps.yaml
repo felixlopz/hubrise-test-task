@@ -165,6 +165,11 @@ content:
           title: SICOM
           description: SICOM delivers an end-to-end suite for quick service and fast casual brands. Franchisees and restaurant managers use it to manage, control and standardise processes while capturing data insights.
           additional_info: Integration by MyTec in progress.
+        - website: http://www.akksofttech.com
+          documentation: /apps/akk-softtech
+          logo: akk-softtech.png
+          title: AKK Softtech
+          description: Softtech, editor of the AKK EPOS solution caters to the needs of Asian restaurants, specifically Thai restaurants, with a user interface that can be in English or Thai.
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png
