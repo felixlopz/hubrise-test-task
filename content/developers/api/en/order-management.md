@@ -306,6 +306,7 @@ In addition, each `item`, `charge`, `payment` and `discount` is returned with a 
     "birth_date": "1999-01-01",
     "company_name": "HubRise",
     "phone": "+33123456789",
+    "phone_access_code": "8888",
     "address_1": "1 avenue des Champs Elysées",
     "address_2": null,
     "postal_code": "75001",
@@ -686,6 +687,7 @@ The following fields are available in the `customer` object:
 - `birth_date`
 - `company_name`
 - `phone`
+- `phone_access_code`
 - `address_1`
 - `address_2`
 - `postal_code`
