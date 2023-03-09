@@ -75,7 +75,7 @@ Pour chaque objet `sku` contenu dans un produit, Just Eat Flyt Bridge envoie les
 - `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir la rubrique [Balises de produits](#balises-de-produits).
 - `image` : adresse URL de l'image du produit parent.
 
-Pour plus d'informations sur les références contenues dans les catalogues HubRise, voir la rubrique [Références sku](/developers/api/catalog-management/#skus) (en anglais).
+Pour plus d'informations sur les références contenues dans les catalogues HubRise, voir la rubrique [Références SKU](/developers/api/catalog-management/#skus) (en anglais).
 
 ---
 
