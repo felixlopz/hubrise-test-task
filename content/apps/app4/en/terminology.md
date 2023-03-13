@@ -1,6 +1,6 @@
 ---
 title: Terminology
-position: 5
+position: 8
 layout: documentation
 meta:
   title: Terminology | App4 | HubRise
