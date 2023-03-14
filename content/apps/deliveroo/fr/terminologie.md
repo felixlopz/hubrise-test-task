@@ -11,13 +11,13 @@ meta:
 
 HubRise et Deliveroo utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans les deux solutions. Le tableau de correspondance ci-dessous indique ces différences.
 
-| Deliveroo  | HubRise  | Description                         |
-| ---------- | -------- | ----------------------------------- |
-| Code PLU   | Code ref | Code produit.                       |
-| Promotion   | Promotion | Offre spéciale appliquée à la commande. |
-| Restaurant | Point de vente | Le restaurant proprement dit.              |
-| Marque      | Compte  | Appellation commerciale.                     |
-| Menu       | Catalogue  | Liste de produits.                   |
+| Deliveroo  | HubRise        | Description                             |
+| ---------- | -------------- | --------------------------------------- |
+| Code PLU   | Code ref       | Code produit.                           |
+| Promotion  | Promotion      | Offre spéciale appliquée à la commande. |
+| Restaurant | Point de vente | Le restaurant proprement dit.           |
+| Marque     | Compte         | Appellation commerciale.                |
+| Menu       | Catalogue      | Liste de produits.                      |
 
 ## Types de service
 

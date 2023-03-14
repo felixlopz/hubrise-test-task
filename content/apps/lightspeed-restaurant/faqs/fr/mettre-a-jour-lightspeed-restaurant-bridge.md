@@ -11,7 +11,7 @@ Pour profiter des fonctionnalités offertes par la nouvelle intégration avec Li
 
 ## Reconnexion de l'app Lightspeed Restaurant Bridge
 
-1. Depuis votre espace HubRise, sélectionnez **CONNEXIONS**.
+1. Depuis le back-office de HubRise, sélectionnez **CONNEXIONS**.
    ![Mettre à jour Lightspeed Restaurant Bridge - Page des connexions](../../images/012-fr-page-connexions.png)
 
 1. Dans la connexion **Lightspeed Restaurant Bridge**, cliquez sur **Actions** > **Déconnecter**.
@@ -23,7 +23,7 @@ Pour plus d'informations, consultez les pages [Déconnecter une app](/docs/conne
 
 ## Reconnexion de votre compte Lightspeed
 
-1. Depuis votre espace HubRise, sélectionnez **CONNEXIONS**.
+1. Depuis le back-office de HubRise, sélectionnez **CONNEXIONS**.
 
 1. Dans la connexion **Lightspeed Restaurant Bridge**, cliquez **Ouvrir**. L'app Lightspeed Restaurant Bridge s'ouvre dans un nouvel onglet de votre navigateur.
    ![Mettre à jour Lightspeed Restaurant Bridge - Page des commandes](../../images/013-fr-page-commandes.png)

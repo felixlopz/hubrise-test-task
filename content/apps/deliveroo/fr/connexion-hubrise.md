@@ -21,7 +21,7 @@ Dans un premier temps, l'intégration de HubRise doit être activée sur votre c
 
 Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubrise.com) en précisant les informations suivantes :
 
-- Le lien URL renvoyant à la page de votre restaurant sur le site internet de Deliveroo. Exemple : [https://deliveroo.fr/en/menu/nice/jean-medecin/sushi-shop-nice-1](https://deliveroo.fr/en/menu/nice/jean-medecin/sushi-shop-nice-1).
+- L'adresse URL de la page de votre restaurant sur le site internet de Deliveroo. Exemple : [https://deliveroo.fr/en/menu/nice/jean-medecin/sushi-shop-nice-1](https://deliveroo.fr/en/menu/nice/jean-medecin/sushi-shop-nice-1).
 - Indiquez si votre enseigne sur le site internet de Deliveroo est déjà connectée à une caisse ou un autre middleware.
 - Le nom et l'identifiant de votre point de vente HubRise. Exemple : `Sushi Shop Colbert z6q31-0`.
 
@@ -37,15 +37,15 @@ Vous pouvez également [connecter HubRise depuis votre back-office Deliveroo](/a
 
 ---
 
-Pour connecter Deliveroo Bridge à HubRise, procéder comme suit :
+Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 
 1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com?locale=fr-FR).
-1. Dans le menu déroulant, sélectionner le point de vente que vous souhaitez connecter.
-1. Sélectionner **CONNEXIONS**, puis **Voir les apps disponibles**.
-1. Dans la liste des apps, sélectionner **Deliveroo Bridge**.
-1. Cliquer sur **Connecter**.
-1. Cliquer sur **Autoriser** pour donner à Deliveroo Bridge accès aux données HubRise de votre restaurant. Si votre compte possède plusieurs points de vente, développer **Tous les points de vente**, choisir le point de vente à connecter, puis cliquer sur **Autoriser**.
-1. Une nouvelle page vous demande d'indiquer votre identifiant de restaurant Deliveroo. Entrez l'identifiant, puis cliquer sur **Enregistrer** pour terminer le processus de connexion.
+1. Dans le menu déroulant, sélectionnez le point de vente que vous souhaitez connecter.
+1. Sélectionnez **CONNEXIONS**, puis **Voir les apps disponibles**.
+1. Dans la liste des apps, sélectionnez **Deliveroo Bridge**.
+1. Cliquez sur **Connecter**.
+1. Cliquez sur **Autoriser** pour donner à Deliveroo Bridge accès aux données HubRise de votre restaurant. Si votre compte possède plusieurs points de vente, développez **Tous les points de vente**, choisissez le point de vente à connecter, puis cliquez sur **Autoriser**.
+1. Une nouvelle page vous demande d'indiquer votre identifiant de restaurant Deliveroo. Entrez l'identifiant, puis cliquez sur **Enregistrer** pour terminer le processus de connexion.
 
 ![Identifiant de restaurant Deliveroo](../images/001-fr-deliveroo-restaurant-id.png)
 
@@ -57,12 +57,12 @@ Pour plus d'informations sur la page configuration et la manière d'y accéder, 
 
 ## 4. Renseigner les codes ref des produits
 
-Chaque produit dans Deliveroo doit avoir un code ref correspondant. Vous permettrez ainsi à votre logiciel de caisse d'identifier correctement chaque article.
+Vous devez renseigner les codes ref de tous les produits dans Deliveroo. Votre logiciel de caisse pourra ainsi identifier correctement chaque article.
 
 Pour savoir comment associer les codes ref sur Deliveroo, voir la rubrique [Associer les codes ref](/apps/deliveroo/associer-codes-ref).
 
 ---
 
-**REMARQUE IMPORTANTE :** si des codes ref de produits sont manquants, Deliveroo n'activera pas la connexion HubRise.
+**REMARQUE IMPORTANTE :** Si des produits n'ont pas de code ref, Deliveroo n'activera pas la connexion HubRise.
 
 ---

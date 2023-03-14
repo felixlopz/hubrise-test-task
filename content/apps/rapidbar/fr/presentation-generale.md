@@ -35,7 +35,7 @@ L'application mobile de RapidBar permet de réaliser un inventaire complet sans 
 
 Les fonctionnalités importantes de RapidBar incluent :
 
-- **Produits** : vous pouvez renseigner tous les ingrédients dans votre base de données, et obtenir des données techniques pertinentes telles que les poids et les unités de gestion des stocks (SKUs) grâce à la communauté d’utilisateurs de RapidBar.
+- **Produits** : vous pouvez renseigner tous les ingrédients dans votre base de données, et obtenir des données techniques pertinentes telles que les poids et les unités de gestion des stocks (SKUs) grâce à la communauté d'utilisateurs de RapidBar.
 - **Recettes** : vous pouvez utiliser RapidBar pour calculer les coûts de vos recettes et les marges associées, ajouter des recettes de préparation par lots, et imprimer un guide de référence pour vos employés.
 - **Approvisionnement** : vous pouvez gérer un nombre illimité de fournisseurs, recevoir des suggestions de commandes fournisseur pour optimiser les niveaux de stock, et inclure les commandes reçues dans votre inventaire.
 - **Rapports** : vous avez accès à des rapports qui peuvent être configurés pour vous aider à prendre de bonnes décisions.

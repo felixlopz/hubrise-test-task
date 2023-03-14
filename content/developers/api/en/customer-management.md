@@ -251,28 +251,29 @@ There is no mandatory field so a customer can be created with no information the
 
 #### Request parameters:
 
-| Name                                        | Type                                                        | Description                                                                                                                                              |
-| ------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `private_ref` <Label type="optional" />     | string                                                      | The customer internal id, visible only to the client that set it. Typically used for customer lookup. Must be unique among the customer list if defined. |
-| `email` <Label type="optional" />           | string                                                      | Email.                                                                                                                                                   |
-| `first_name` <Label type="optional" />      | string                                                      | First name.                                                                                                                                              |
-| `last_name` <Label type="optional" />       | string                                                      | Last name.                                                                                                                                               |
-| `gender` <Label type="optional" />          | string                                                      | If defined, must be either `male` or `female`                                                                                                            |
-| `birth_date` <Label type="optional" />      | date                                                        | Birth date in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) for dates, ie `YYYY-MM-DD`.                                                      |
-| `company_name` <Label type="optional" />    | string                                                      | Company name.                                                                                                                                            |
-| `phone` <Label type="optional" />           | string                                                      | Phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164) (\*).                                                                                |
-| `address_1` <Label type="optional" />       | string                                                      | 1st line of address.                                                                                                                                     |
-| `address_2` <Label type="optional" />       | string                                                      | 2nd line of address.                                                                                                                                     |
-| `postal_code` <Label type="optional" />     | string                                                      | Postal code.                                                                                                                                             |
-| `city` <Label type="optional" />            | string                                                      | City.                                                                                                                                                    |
-| `state` <Label type="optional" />           | string                                                      | State.                                                                                                                                                   |
-| `country` <Label type="optional" />         | string                                                      | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).                                        |
-| `latitude` <Label type="optional" />        | [decimal](/developers/api/general-concepts/#decimal-values) | Latitude of the customer address.                                                                                                                        |
-| `longitude` <Label type="optional" />       | [decimal](/developers/api/general-concepts/#decimal-values) | Longitude of the customer address.                                                                                                                       |
-| `delivery_notes` <Label type="optional" />  | string                                                      | Information provided by the customer to help with the delivery.                                                                                          |
-| `sms_marketing` <Label type="optional" />   | boolean                                                     | Whether the customer agrees to receive marketing messages via SMS. Defaults to `false`.                                                                  |
-| `email_marketing` <Label type="optional" /> | boolean                                                     | Whether the customer agrees to receive marketing messages via email. Defaults to `false`.                                                                |
-| `custom_fields` <Label type="optional" />   | [CustomFields](/developers/api/extensions/#custom-fields)   | Additional data attached to the customer.                                                                                                                |
+| Name                                          | Type                                                        | Description                                                                                                                                              |
+| --------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `private_ref` <Label type="optional" />       | string                                                      | The customer internal id, visible only to the client that set it. Typically used for customer lookup. Must be unique among the customer list if defined. |
+| `email` <Label type="optional" />             | string                                                      | Email.                                                                                                                                                   |
+| `first_name` <Label type="optional" />        | string                                                      | First name.                                                                                                                                              |
+| `last_name` <Label type="optional" />         | string                                                      | Last name.                                                                                                                                               |
+| `gender` <Label type="optional" />            | string                                                      | If defined, must be either `male` or `female`                                                                                                            |
+| `birth_date` <Label type="optional" />        | date                                                        | Birth date in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) for dates, ie `YYYY-MM-DD`.                                                      |
+| `company_name` <Label type="optional" />      | string                                                      | Company name.                                                                                                                                            |
+| `phone` <Label type="optional" />             | string                                                      | Phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164) (\*).                                                                                |
+| `phone_access_code` <Label type="optional" /> | string                                                      | The access code to provide after calling the phone number above. Mostly used by food ordering platforms.                                                 |
+| `address_1` <Label type="optional" />         | string                                                      | 1st line of address.                                                                                                                                     |
+| `address_2` <Label type="optional" />         | string                                                      | 2nd line of address.                                                                                                                                     |
+| `postal_code` <Label type="optional" />       | string                                                      | Postal code.                                                                                                                                             |
+| `city` <Label type="optional" />              | string                                                      | City.                                                                                                                                                    |
+| `state` <Label type="optional" />             | string                                                      | State.                                                                                                                                                   |
+| `country` <Label type="optional" />           | string                                                      | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).                                        |
+| `latitude` <Label type="optional" />          | [decimal](/developers/api/general-concepts/#decimal-values) | Latitude of the customer address.                                                                                                                        |
+| `longitude` <Label type="optional" />         | [decimal](/developers/api/general-concepts/#decimal-values) | Longitude of the customer address.                                                                                                                       |
+| `delivery_notes` <Label type="optional" />    | string                                                      | Information provided by the customer to help with the delivery.                                                                                          |
+| `sms_marketing` <Label type="optional" />     | boolean                                                     | Whether the customer agrees to receive marketing messages via SMS. Defaults to `false`.                                                                  |
+| `email_marketing` <Label type="optional" />   | boolean                                                     | Whether the customer agrees to receive marketing messages via email. Defaults to `false`.                                                                |
+| `custom_fields` <Label type="optional" />     | [CustomFields](/developers/api/extensions/#custom-fields)   | Additional data attached to the customer.                                                                                                                |
 
 (\*) The E.164 format must be used for any new implementation. Be aware however that phone numbers retrieved from the API can be encoded in a different format. The E.164 will become mandatory in a future release.
 
@@ -290,6 +291,7 @@ There is no mandatory field so a customer can be created with no information the
   "birth_date": "1999-01-01",
   "company_name": "HubRise",
   "phone": "+44123456789",
+  "phone_access_code": "8888",
   "address_1": "1 avenue des Champs Elysées",
   "address_2": null,
   "postal_code": "75001",
@@ -329,7 +331,7 @@ Deletes a customer's personal information.
   accessLevel="location, account"
 />
 
-The anonymised fields are: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
+The anonymised fields are: `email`, `first_name`, `last_name`, `gender`, `birth_date`, `company_name`, `phone`, `phone_access_code`, `address_1`, `address_2`, `postal_code`, `latitude`, `longitude`, `delivery_notes`.
 
 When a customer is anonymised, the anonymised fields retun a `null` value and the `anonymised` boolean field is set to `true`.
 

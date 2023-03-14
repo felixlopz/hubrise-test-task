@@ -1,15 +1,15 @@
 ---
-title: Recevoir des commandes
+title: Recevoir les commandes
 position: 7
 layout: documentation
 meta:
-  title: Recevoir des commandes | Deliveroo | HubRise
+  title: Recevoir les commandes | Deliveroo | HubRise
   description: Voir comment les commandes sont envoyées de Deliveroo vers HubRise, quels champs sont transmis et lesquels ne le sont pas et quelles fonctionnalités sont intégrées.
 ---
 
 Connecter Deliveroo à HubRise vous permet de recevoir des commandes Deliveroo directement dans votre logiciel de caisse ou toute autre solution connectée à votre compte HubRise.
 
-Votre tablette Deliveroo doit rester allumée pour recevoir des commandes. Les commandes peuvent être soit acceptées manuellement sur la tablette, soit acceptées automatiquement. Pour plus d'informations, voir [Comment activer l'acceptation automatique des commandes ?](/apps/deliveroo/faqs/acceptation-automatique/) Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
+Votre tablette Deliveroo doit rester allumée pour recevoir des commandes. Les commandes peuvent être soit acceptées manuellement sur la tablette, soit acceptées automatiquement. Pour plus d'informations, voir [ Comment activer l'acceptation automatique des commandes ?](/apps/deliveroo/faqs/acceptation-automatique/). Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
 
 Cette page décrit les informations que Deliveroo envoie à HubRise. Elle peut vous aider à comprendre comment les commandes seront reçues dans votre logiciel de caisse.
 
@@ -51,7 +51,7 @@ Chaque option se caractérise par une quantité unique. Les options multiples id
 
 ---
 
-**NOTE IMPORTANTE :** dans cette section, nous mettons en majuscule la première lettre des statuts Deliveroo pour les distinguer plus facilement des noms de statut HubRise. exemple, `Succeeded` est un statut Deliveroo, tandis que `accepted` est un statut HubRise.
+**REMARQUE IMPORTANTE :** Dans cette section, nous mettons en majuscule la première lettre des statuts Deliveroo pour les distinguer des noms de statut HubRise. exemple, `Succeeded` est un statut Deliveroo, tandis que `accepted` est un statut HubRise.
 
 ---
 
@@ -69,7 +69,7 @@ Les nouvelles commandes doivent être marquées comme `Succeeded` ou `Failed` en
 
 ---
 
-**NOTE IMPORTANTE :** Le passage d'un statut de commande à `Succeeded` ou `Failed` n'est pas réversible. Une fois la commande marquée comme `Failed`, elle ne peut plus être changée en `Succeeded`, et vice-versa.
+**REMARQUE IMPORTANTE :** Le passage d'un statut de commande à `Succeeded` ou `Failed` n'est pas réversible. Une fois la commande marquée comme `Failed`, elle ne peut plus être changée en `Succeeded`, et vice-versa.
 
 ---
 
@@ -77,13 +77,13 @@ Les nouvelles commandes doivent être marquées comme `Succeeded` ou `Failed` en
 
 Lorsqu'un statut de commande change dans HubRise, Deliveroo Bridge notifie Deliveroo qui répercute le changement sur la tablette Deliveroo. La correspondance entre les statuts de HubRise et de Deliveroo se présente comme suit :
 
-| Statut HubRise                               | Statuts Deliveroo                                                           |
-| -------------------------------------------- | -------------------------------------------------------------------------- |
+| Statut HubRise                               | Statuts Deliveroo                                                               |
+| -------------------------------------------- | ------------------------------------------------------------------------------- |
 | `new`, `received` ou `accepted`              | Vous pouvez déterminer quel statut fait passer la commande en mode `Succeeded`. |
-| `rejected` ou `cancelled`                    | `Failed`                                                                   |
-| `in_preparation`                             | `In Kitchen`                                                               |
-| `awaiting_collection` ou `awaiting_shipment` | `Ready for Collection`                                                     |
-| `completed`                                  | `Collected`                                                                |
+| `rejected` ou `cancelled`                    | `Failed`                                                                        |
+| `in_preparation`                             | `In Kitchen`                                                                    |
+| `awaiting_collection` ou `awaiting_shipment` | `Ready for Collection`                                                          |
+| `completed`                                  | `Collected`                                                                     |
 
 Deliveroo Bridge vous permet de décider quel statut de HubRise déclenche l'état `Succeeded` dans Deliveroo. Cette option est utile pour gérer différents scénarios lorsque votre logiciel de caisse actualise le statut de la commande. Par exemple, si votre logiciel de caisse marque une commande acceptée comme `received` sur HubRise, vous pouvez configurer le bridge pour que Deliveroo reconnaisse que la commande a été acceptée.
 
