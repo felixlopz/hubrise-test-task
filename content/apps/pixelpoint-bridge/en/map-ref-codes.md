@@ -17,11 +17,9 @@ In the following sections, we describe the conventions PixelPoint Bridges uses i
 
 ## Deals
 
-PixelPoint can convert HubRise deals to combos or coupons.
-
 By default, PixelPoint Bridge converts deals to combos. The HubRise deal's ref code is used as the PixelPoint combo code.
 
-To convert a deal to a coupon, you need to add the `COUPON-` prefix to the deal's ref code. For example, if the deal's ref code is `COUPON-1`, PixelPoint Bridge will encode it as a coupon with the code `1`.
+Deals can also be converted to coupons. To convert a deal to a coupon, you need to add the `COUPON-` prefix to the deal's ref code. For example, if the deal's ref code is `COUPON-1`, PixelPoint Bridge will encode it as a coupon with the code `1`.
 
 ## Discounts
 
