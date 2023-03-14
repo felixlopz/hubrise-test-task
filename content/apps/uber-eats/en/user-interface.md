@@ -82,7 +82,7 @@ From the actions page, you can perform the following actions:
 
 - **Push Catalog**: Push the catalog to Uber Eats. For more details, see [Push Catalog](/apps/uber-eats/push-catalog).
 - **Pull Catalog**: Pull the catalog from Uber Eats. For more details, see [Pull Catalog](/apps/uber-eats/pull-catalog).
-- **Push Inventory**: Sync the inventory from HubRise to Uber Eats.
+- **Push Inventory**: Push product availabilities to Uber Eats.
 
 ## Language and Navigation
 
