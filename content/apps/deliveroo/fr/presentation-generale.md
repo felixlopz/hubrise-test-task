@@ -35,7 +35,7 @@ Connecter Deliveroo Bridge permet à HubRise de :
 
 ---
 
-**NOTE IMPORTANTE** : Les tablettes Deliveroo sont actuellement nécessaires pour recevoir des commandes dans HubRise. Vous pouvez ativer l'acceptation automatique. Pour plus d'informations, voir [Comment activer l'acceptation automatique des commandes ?](/apps/deliveroo/faqs/acceptation-automatique/) Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
+**REMARQUE IMPORTANTE** : Les tablettes Deliveroo sont actuellement nécessaires pour recevoir des commandes dans HubRise. Vous pouvez ativer l'acceptation automatique. Pour plus d'informations, voir [Comment activer l'acceptation automatique des commandes ?](/apps/deliveroo/faqs/acceptation-automatique/) Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
 
 ---
 

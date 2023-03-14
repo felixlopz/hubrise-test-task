@@ -13,7 +13,7 @@ Vous pouvez également configurer le bridge de manière à envoyer votre catalog
 
 Cette page explique comment envoyer votre catalogue et quelles informations sont envoyées à Deliveroo.
 
-## Recevoir un catalogue
+## Alimenter un catalogue HubRise
 
 Pour mettre à jour votre menu Deliveroo, vous devez préalablement avoir un catalogue dans HubRise. De nombreuses applications connectées à HubRise, notamment les logiciels de caisse, peuvent envoyer leur catalogue vers HubRise. Reportez-vous à la documentation de votre logiciel de caisse sur le site internet de HubRise pour vérifier.
 
@@ -87,7 +87,7 @@ Deliveroo Bridge envoie les promotions HubRise sous forme de produits avec des m
 
 ### Images
 
-Deliveroo exige que les images soient de 1200x800 pixels.
+Deliveroo exige que les images soient au format 1200x800 pixels.
 
 ## Référence technique
 
@@ -105,7 +105,7 @@ L'ordre des catégories et les produits sur HubRise est conservé sur Deliveroo.
 
 ### Produits et Skus
 
-Pour les [produits ](/developers/api/catalog-management/#products) à plusieurs SKUs, Deliveroo Bridge envoie les informations suivantes à Deliveroo :
+Pour les [produits](/developers/api/catalog-management/#products) à plusieurs SKUs, Deliveroo Bridge envoie les informations suivantes à Deliveroo :
 
 - `ref` : la valeur `MULTISKU` est utilisée pour tous les produits.
 - `name` : le nom du produit.

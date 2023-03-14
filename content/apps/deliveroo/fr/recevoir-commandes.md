@@ -51,7 +51,7 @@ Chaque option se caractérise par une quantité unique. Les options multiples id
 
 ---
 
-**NOTE IMPORTANTE :** dans cette section, nous mettons en majuscule la première lettre des statuts Deliveroo pour les distinguer plus facilement des noms de statut HubRise. exemple, `Succeeded` est un statut Deliveroo, tandis que `accepted` est un statut HubRise.
+**REMARQUE IMPORTANTE :** Dans cette section, nous mettons en majuscule la première lettre des statuts Deliveroo pour les distinguer des noms de statut HubRise. exemple, `Succeeded` est un statut Deliveroo, tandis que `accepted` est un statut HubRise.
 
 ---
 
@@ -69,7 +69,7 @@ Les nouvelles commandes doivent être marquées comme `Succeeded` ou `Failed` en
 
 ---
 
-**NOTE IMPORTANTE :** Le passage d'un statut de commande à `Succeeded` ou `Failed` n'est pas réversible. Une fois la commande marquée comme `Failed`, elle ne peut plus être changée en `Succeeded`, et vice-versa.
+**REMARQUE IMPORTANTE :** Le passage d'un statut de commande à `Succeeded` ou `Failed` n'est pas réversible. Une fois la commande marquée comme `Failed`, elle ne peut plus être changée en `Succeeded`, et vice-versa.
 
 ---
 

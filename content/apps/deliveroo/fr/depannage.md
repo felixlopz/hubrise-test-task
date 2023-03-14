@@ -11,7 +11,7 @@ meta:
 
 ### Le menu ne se met pas à jour
 
-Lorsque vous envoyez un menu, s'il ne se met pas à jour sur votre page Deliveroo et qu'il n'y a pas d'erreur dans le bridge, cela peut être dû à un problème de mise en cache de Deliveroo.
+Lorsque vous envoyez un menu, s'il ne se met pas à jour sur votre page Deliveroo et qu'il n'y a pas d'erreur dans le bridge, cela peut être dû à un problème de cache sur Deliveroo.
 
 Pour résoudre le problème, apportez une petite modification au menu, en changeant par exemple le nom d'un produit, puis publiez à nouveau le menu.
 
@@ -50,4 +50,4 @@ Pour résoudre ce problème, assurez-vous que tous les produits de votre menu De
 
 Lorsque l'acceptation automatique n'est pas activée, chaque commande doit être acceptée manuellement sur la tablette Deliveroo, sinon elle sera rejetée par Deliveroo et rien ne sera reçu sur HubRise.
 
-Pour éviter cela, nous recommandons d'activer l'[acceptation automatique des commandes](/apps/deliveroo/faqs/acceptation-automatique/).
+Pour éviter ce problème, nous recommandons d'activer l'[acceptation automatique des commandes](/apps/deliveroo/faqs/acceptation-automatique/).

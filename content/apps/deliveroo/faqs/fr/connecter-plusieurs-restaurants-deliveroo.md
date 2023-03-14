@@ -7,8 +7,8 @@ meta:
   description: Instructions à suivre pour connecter plusieurs restaurants Deliveroo sur le même point de vente HubRise. Recevoir toutes les commandes sur la même caisse.
 ---
 
-Il est possible de connecter plusieurs enseignes Deliveroo au même point de vente HubRise.
+Vous pouvez connecter plusieurs enseignes Deliveroo au même point de vente HubRise.
 
-Cette option peut être utile si vous avez l'intention de recevoir toutes vos commandes Deliveroo sur le même logiciel de caisse, quelle que soit l'enseigne Deliveroo d'origine. Elle est également utile si vous avez l'intention de prendre simultanément en charge les livraisons effectuées par Deliveroo et par le restaurant. Pour plus de détails sur les types de services de Deliveroo, consultez notre [Terminologie](/apps/deliveroo/terminologie#types-de-service).
+Cette fonctionnalité vous permet de recevoir toutes vos commandes Deliveroo sur le même logiciel de caisse, quelle que soit l'enseigne Deliveroo d'origine. Elle permet également de prendre simultanément en charge les livraisons effectuées par Deliveroo et par le restaurant. Pour plus de détails sur les types de services de Deliveroo, consultez notre [Terminologie](/apps/deliveroo/terminologie#types-de-service).
 
 Pour connecter plusieurs fois l'application Deliveroo Bridge à un même point de vente HubRise, suivez les instructions contenues dans la [documentation de HubRise](/docs/faqs/connecter-plusieurs-fois-la-meme-application/). Pour chaque nouvelle connexion, vous devez spécifier l'identifiant du point de vente Deliveroo correspondant au restaurant Deliveroo que vous souhaitez connecter.

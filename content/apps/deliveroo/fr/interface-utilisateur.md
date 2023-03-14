@@ -68,8 +68,8 @@ Pour accéder à la page d'actions, cliquez sur **Actions** en haut de l'écran.
 
 Depuis la page Actions, vous pouvez effectuer les actions suivantes :
 
-- **Envoyer le catalogue** : envoyer le catalogue vers Deliveroo. Pour plus de détails, voir [Envoi du catalogue](/apps/deliveroo/envoi-catalogue).
-- **Envoyer l'inventaire** : synchronisez l'inventaire de HubRise vers Deliveroo.
+- **Envoyer le catalogue** : envoie le catalogue vers Deliveroo. Pour plus de détails, voir [Envoi du catalogue](/apps/deliveroo/envoi-catalogue).
+- **Envoyer l'inventaire** : envoie les disponibilités des produits vers Deliveroo.
 
 ## Langue et navigation
 
