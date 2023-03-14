@@ -1,13 +1,13 @@
 ---
-title: Can I Connect to HubRise From Deliveroo Back Office?
+title: Connect to HubRise From the Deliveroo Back Office
 position: 5
 layout: documentation
 meta:
-  title: Connect From Deliveroo Back Office | Deliveroo FAQs | HubRise
-  description: Instructions on how to connect your existing Deliveroo stores with HubRise directly from the Deliveroo back office.
+  title: Connect From the Deliveroo Back Office | Deliveroo FAQs | HubRise
+  description: Instructions to connect your existing Deliveroo store with HubRise directly from the Deliveroo back office.
 ---
 
-To connect your Deliveroo stores to HubRise by yourself, enable HubRise directly from the Deliveroo back office, and then connect Deliveroo Bridge to your HubRise location.
+To connect your Deliveroo store to HubRise by yourself, first enable HubRise from the Deliveroo back office, then connect Deliveroo Bridge to your HubRise location.
 
 To enable HubRise on the Deliveroo back-office, follow these steps:
 
@@ -21,6 +21,6 @@ To enable HubRise on the Deliveroo back-office, follow these steps:
 1. Confirm that your products have a PLU code.
 1. Click **Connect your till (POS)** to confirm.
 
-To complete the connection and start receiving your Deliveroo orders in HubRise, connect Deliveroo Bridge to all HubRise locations you want to associate with Deliveroo stores. For more information, see [Connect Deliveroo Bridge](/apps/deliveroo/connect-hubrise#connect-the-bridge). 
- 
+To connect Deliveroo Bridge to the HubRise location associated with the Deliveroo store, see [Connect Deliveroo Bridge](/apps/deliveroo/connect-hubrise#connect-the-bridge).
+
 For assistance with this operation, contact us at [support@hubrise.com](mailto:support@hubrise.com).

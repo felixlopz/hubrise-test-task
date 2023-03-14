@@ -10,18 +10,18 @@ meta:
 The Restaurant ID is the unique identifier for your Deliveroo store. It is also referred to as Branch ID, Admin ID, Tablet ID, or Location ID, depending on the context.
 This ID is in numeric characters only and includes 6 or sometimes 5 digits.
 
-To find your Deliveroo Restaurant ID, follow these steps.
+To find your Deliveroo Restaurant ID, choose one of the following options.
 
-## Option 1
+## Option 1 - From the Deliveroo Tablet
 
-From your Deliveroo tablet:
+To find your restaurant ID from your Deliveroo tablet:
 
 1. Tap the navigation button on the top right of the page.
 1. Your ID is the number between brackets, next to the restaurant name.
 
-## Option 2
+## Option 2 - From the Deliveroo Back Office
 
-On your browser:
+To find your restaurant ID from your Deliveroo back office:
 
 1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net/).
 1. Go to the **Home** tab, then select the correct location and account from the dropdown menus.
@@ -31,15 +31,12 @@ On your browser:
 
 If you cannot find your Restaurant ID, contact your Deliveroo Account Manager.
 
-## Option 3
+## Option 3 - From the Store Page Source
 
-For the most IT savvy, the Restaurant ID can also be found in the store source code.
+IT savvy users can find the Deliveroo Restaurant ID from the page source of a Deliveroo store:
 
-To find the Restaurant ID in the website source code, follow these steps:
-
-- Go to your store URL link, the restaurant page on the Deliveroo website. 
-- Right-click on the page and select **View Page Source** on your web-browser.
-- On the source code page, search for `"restaurant":{"id":`.
+- Open the Deliveroo store in a browser.
+- Right-click on the page and select **View Page Source**.
+- In the page source, search for `"restaurant":{"id":`.
 
 > For example, the Camile Thai restaurant in Clapham indicates `77430` Restaurant ID in the website page source code [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
-

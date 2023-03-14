@@ -1,6 +1,6 @@
 ---
 title: Receive Orders
-position: 7
+position: 8
 layout: documentation
 meta:
   title: Receive Orders | Deliveroo | HubRise
