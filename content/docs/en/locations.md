@@ -47,7 +47,7 @@ If you operate in a country where including the Intra-Community VAT number is a 
 
 ---
 
-## Create a Location
+## Add a Location
 
 The first Location must be created with the Account. For more information, see [Create an Account](/docs/account/#create-an-account).
 

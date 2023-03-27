@@ -18,4 +18,5 @@ meta:
 - [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
 - [How Do I Create a User Profile for Another Person?](/docs/faqs/create-a-user-profile-for-another-person/)
 - [How Do I Create an Account for Another Business?](/docs/faqs/create-an-account-for-another-business/)
+- [How Do I Create an Account for Another Business, Without Giving Them Permission to the Account?](/docs/faqs/create-an-account-for-another-business-no-permission/)
 - [How Do I Connect Multiple Instances of the Same App?](/docs/faqs/connect-multiple-instances-same-app/)
