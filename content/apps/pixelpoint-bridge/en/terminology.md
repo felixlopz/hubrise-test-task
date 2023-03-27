@@ -1,16 +1,10 @@
 ---
 title: Terminology
-position: 3
+position: 10
 layout: documentation
 meta:
-  title: Terminology | PixelPoint | HubRise
+  title: Terminology | PixelPoint Bridge | HubRise
   description: Correspondence table showing terms used by PixelPoint and those used on HubRise for the same concept. Connect apps and synchronise your data.
----
-
----
-
-**IMPORTANT NOTE:** This page is common to the PixelPoint Bridge and Windows API versions. To return to your documentation, see the [PixelPoint Bridge Documentation](/apps/pixelpoint-bridge), or the [PixelPoint Windows API Documentation](/apps/pixelpoint-windows-api).
-
 ---
 
 HubRise and PixelPoint each use their own terminology. The same concept can therefore have a different designation in each solution. The correspondence table below shows these differences.

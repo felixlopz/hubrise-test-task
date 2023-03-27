@@ -9,6 +9,12 @@ meta:
 
 HubRise can push orders from different connected solutions directly into your PixelPoint EPOS. This page explains what information are sent to your EPOS.
 
+## Service Types
+
+PixelPoint Bridge sends the order service type ref in HubRise as the **Sales Type Number** in your EPOS.
+
+Service types are ignored, however. PixelPoint relies on service type refs to determine the sales type.
+
 ## Items and Options
 
 PixelPoint Bridge sends items and options to your EPOS, including name, quantity, and price.
@@ -47,12 +53,6 @@ PixelPoint Bridge sends charges to your EPOS as plain items, with the name and p
 PixelPoint Bridge sends payments to your EPOS, including the amount and the ref code. Split payments are supported.
 
 PixelPoint matches payments ref codes against the payment method numbers configured in your EPOS. Payments with no ref code are skipped.
-
-## Service Type & Service Type Refs
-
-PixelPoint Bridge sends the order service type ref in HubRise as the **Sales Type Number** in your EPOS.
-
-Service types are ignored, however. PixelPoint relies on service type refs to determine the sales type.
 
 ## Customer Information
 
