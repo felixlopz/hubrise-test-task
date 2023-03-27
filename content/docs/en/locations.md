@@ -23,7 +23,7 @@ For example, `Baker Street z6q31-0` indicates the Location name of `Baker Street
 
 ---
 
-**IMPORTANT NOTE**: To check our recommended naming convention for Locations, see [Create a Location](/docs/locations#create-a-location).
+**IMPORTANT NOTE**: To check our recommended naming convention for Locations, see [Add a Location](/docs/locations#add-a-location).
 
 ---
 
