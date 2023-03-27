@@ -58,7 +58,4 @@ To learn how to check the ref codes of the service types available in your Light
 
 Lightspeed Restaurant Bridge sends to Lightspeed the complete customer information, when available, including name, email address, and delivery address.
 
-When customer information is not available, Lightspeed Restaurant Bridge creates an anonymous customer with these details:
-
-- First name: `Anonymous`.
-- Email address: `anonymous@ikentoo.com`.
+When customer information is not available, Lightspeed Restaurant Bridge creates an anonymous customer with `Anonymous` as the first name.
