@@ -169,8 +169,8 @@ content:
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png
-          title: Swoopos
-          description: Swoopos est un logiciel de caisse mobile, multi-fonctions, facile à utiliser et économique conçue pour la restauration et le commerce de proximité. Elle inclut une solution de paiement, de réservation et de commande commande à table par QR code.
+          title: SwooPOS
+          description: SwooPOS est un logiciel de caisse mobile, multi-fonctions, facile à utiliser et économique conçue pour la restauration et le commerce de proximité. Elle inclut une solution de paiement, de réservation et de commande commande à table par QR code.
           additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc
