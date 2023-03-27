@@ -50,8 +50,6 @@ When the order status changes in WooCommerce, the status in HubRise changes acco
 
 | WooCommerce status | HubRise status |
 | ------------------ | -------------- |
-| `Processing`       | `accepted`     |
-| `Completed`        | `completed`    |
 | `Cancelled`        | `cancelled`    |
 | `Refunded`         | `cancelled`    |
 | `Failed`           | `rejected`     |
