@@ -3,8 +3,8 @@ title: Présentation générale
 position: 1
 layout: documentation
 meta:
-  title: Présentation générale | SOLUTION | HubRise
-  description: Présentation générale de SOLUTION, les raisons de connecter SOLUTION à HubRise et les fonctionnalités de l'intégration avec HubRise.
+  title: Présentation générale | AKK Softtech | HubRise
+  description: Présentation générale de AKK Softtech, les raisons de connecter AKK Softtech à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
 
 path_override: /
