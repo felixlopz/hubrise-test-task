@@ -32,22 +32,22 @@ Only the SOLUTION support team can connect your [EPOS] to HubRise.
 To connect SOLUTION to HubRise, proceed as follows:
 
 1. Create a HubRise account. For more information, see our [Get Started Guide](/docs/get-started).
-1. Give SOLUTION access to your account. For more information, see [Give Access to SOLUTION Support](#give-access-to-SOLUTION-support).
+1. Grant SOLUTION access to your HubRise account. For more information, see [Grant Access to SOLUTION Support](#grant-access-to-SOLUTION-support).
 1. Contact the SOLUTION support team who will establish the connection to HubRise. For more information, see [Contact SOLUTION Support](#contact-SOLUTION-support).
 
-## Give Access to SOLUTION Support
+## Grant Access to SOLUTION Support
 
-To facilitate the support of your requests, we recommend you give SOLUTION support access to your HubRise account.
+To facilitate the support of your requests, we recommend that you grant SOLUTION support access to your HubRise account.
 -- OR --
-To connect SOLUTION, and facilitate the support of your requests, we recommend you give SOLUTION support access to your HubRise account.
+To connect SOLUTION, and facilitate the support of your requests, we recommend that you grant SOLUTION support access to your HubRise account.
 
-To give access to SOLUTION, proceed as follows:
+To grant access to SOLUTION, proceed as follows:
 
 1. From the HubRise back office, select **SETTINGS** in the left-hand menu.
 1. In the **Permissions** section, enter `contact@SOLUTION.com` and select **Manager** in the drop-down list of roles.
 1. Click the **+** icon to grant SOLUTION support access to your account.
 
-Adding a user is the recommended way to give access to a third party to your HubRise account or location. Sharing passwords is not recommended for security reasons. For more information on permissions, see the [Permissions](/docs/permissions) help page.
+Adding a user is the recommended way to grant access to a third party to your HubRise account or location. Sharing passwords is not recommended for security reasons. For more information on permissions, see the [Permissions](/docs/permissions) help page.
 
 ## Contact SOLUTION Support
 
@@ -61,4 +61,4 @@ You can disconnect SOLUTION from HubRise on the SOLUTION back office.
 -- OR --
 To disconnect SOLUTION from HubRise, contact SOLUTION support.
 
-If you need to temporarily stop [receiving orders from HubRise], you can instead block the connection between SOLUTION and HubRise. For more information, see [Block or Disconnect App](/docs/connections#block-or-disconnect-app).
+If you need to temporarily stop [receiving orders from HubRise], you can block the connection between SOLUTION and HubRise instead. For more information, see [Block or Disconnect App](/docs/connections#block-or-disconnect-app).
