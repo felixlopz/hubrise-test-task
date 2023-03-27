@@ -16,7 +16,7 @@ app_info:
 
 ## Description
 
-AKK EPOS, by Softtech Co., Ltd solution caters to the needs of Asian restaurants, specifically Thai restaurants, with a user interface which can be switched from English to Thai.
+The AKK Softtech EPOS solution caters to the needs of Asian restaurants, specifically Thai restaurants. Its user interface which can be switched between English and Thai.
 
 ## Integration Features
 
@@ -26,14 +26,14 @@ Connecting AKK to HubRise allows your EPOS to:
 - Pull customer information from HubRise.
 - Push the menu into a HubRise catalog.
 
-AKK can be connected to HubRise from the AKK back office.
+AKK Softtech can be connected to HubRise from the AKK back office.
 
 ## Why Connect?
 
-By connecting AKK to HubRise, your EPOS can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Send online orders to your EPOS, to an autonomous printer, a Kitchen Display Screen, or to your inventory management solution. Push your menu into other apps.
+By connecting AKK Softtech to HubRise, your EPOS can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Send online orders to your EPOS, to an autonomous printer, a Kitchen Display Screen, or to your inventory management solution. Push your menu into other apps.
 
 Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing), business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
-To establish a connection between AKK and HubRise, you must have an existing AKK account.
+To establish a connection between AKK Softtech and HubRise, you must have an existing AKK Softtech account.

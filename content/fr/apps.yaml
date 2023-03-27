@@ -165,7 +165,7 @@ content:
           documentation: /apps/akk-softtech
           logo: akk-softtech.png
           title: AKK Softtech
-          description: Softtech, éditeur de la caisse enregistreuse AKK, répond aux besoins des restaurants asiatiques, et plus spécifiquement thaï, avec une interface utilisateur qui peut-être en anglais ou en thaï.
+          description: La solution de caisse AKK, éditée par Softtech, répond aux besoins des restaurants asiatiques, spécifiquement des restaurants thaïs. L'interface utilisateur de la caisse AKK est disponible en anglais et en thaï.
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png

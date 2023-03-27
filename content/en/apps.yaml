@@ -169,7 +169,7 @@ content:
           documentation: /apps/akk-softtech
           logo: akk-softtech.png
           title: AKK Softtech
-          description: Softtech, editor of the AKK EPOS solution caters to the needs of Asian restaurants, specifically Thai restaurants, with a user interface that can be in English or Thai.
+          description: The AKK EPOS solution, edited by Softtech, caters to the needs of Asian restaurants, specifically Thai restaurants. The AKK EPOS user interface is available in both English and Thai.
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png
