@@ -9,8 +9,6 @@ meta:
 
 The setup process for connecting PixelPoint Windows API to HubRise is typically performed by Slowey Systems, and is completely transparent to the user.
 
-If you plan to integrate your PAR PixelPoint EPOS with Deliveroo, you need to check that your Deliveroo products are correctly mapped in your EPOS. To learn more about the steps required, see [Integrating with Deliveroo](/apps/pixelpoint-windows-api/map-ref-codes/#integrating-with-deliveroo).
-
 ## Setup
 
 To set up the PixelPoint Windows API integration, follow these steps.
