@@ -13,16 +13,6 @@ This page describes the settings to use to connect food ordering platforms to Sw
 
 For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-## Configuration on SwooPOS
-
-Depending on your needs, you will need to create PRODUCTS, PROMOTIONS, PAYMENT METHODS... specific to the platforms in SwooPOS.
-
-If you don't use these features, you can skip the creation of these items, and leave the corresponding fields empty.
-
-### PRODUCTS, PROMOTIONS...
-
-Describe the items to create before connecting food platforms.
-
 ## Deliveroo
 
 To receive Deliveroo orders in SwooPOS, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
@@ -30,17 +20,17 @@ To receive Deliveroo orders in SwooPOS, you first need to connect Deliveroo Brid
 In the Deliveroo Bridge configuration page, use the following settings:
 
 | Section        | Name                                  | Ref code                                          |
-| -------------- | ------------------------------------- | ------------------------------------------------- |
+| -------------- | ------------------------------------- |---------------------------------------------------|
 | Service types  | Deliveroo fulfilled ref code          | (leave empty)                                     |
 | Service types  | Restaurant fulfilled ref code         | (leave empty)                                     |
 | Service types  | Takeaway ref code                     | (leave empty)                                     |
-| Service types  | Send orders delivered by Deliveroo as | `collection orders`                               |
+| Service types  | Send orders delivered by Deliveroo as | `delivery orders`                                 |
 | Discounts      | Offer ref code                        | (leave empty)                                     |
-| Charges        | Delivery charge ref code              | (leave empty)                                     |
-| Charges        | Surcharge ref code                    | (leave empty)                                     |
-| Charges        | Bag fee ref code                      | (leave empty)                                     |
-| Payments       | Online payment ref code               | (leave empty)                                     |
-| Payments       | Cash payment ref code                 | (leave empty)                                     |
+| Charges        | Delivery charge ref code              | `DELIVERY`                                        |
+| Charges        | Surcharge ref code                    | `TRANSACTION`                                     |
+| Charges        | Bag fee ref code                      | `SERVICE`                                         |
+| Payments       | Online payment ref code               | `card`                                            |
+| Payments       | Cash payment ref code                 | `cash`                                            |
 | Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"` |
 
 ## Just Eat
@@ -50,19 +40,19 @@ To receive Just Eat orders in SwooPOS via Flyt API, you first need to connect Ju
 In the Just Eat Flyt Bridge configuration page, use the following settings:
 
 | Section        | Name                                     | Ref code                                          |
-| -------------- | ---------------------------------------- | ------------------------------------------------- |
+| -------------- | ---------------------------------------- |---------------------------------------------------|
 | Service types  | Just Eat delivery ref code               | (leave empty)                                     |
 | Service types  | Restaurant delivery ref code             | (leave empty)                                     |
 | Service types  | Takeaway ref code                        | (leave empty)                                     |
-| Service types  | Send orders delivered by the platform as | `collection orders`                               |
+| Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
 | Discounts      | Discount ref code                        | (leave empty)                                     |
-| Charges        | Delivery charge ref code                 | (leave empty)                                     |
-| Charges        | Service charge ref code                  | (leave empty)                                     |
-| Charges        | Bag fee ref code                         | (leave empty)                                     |
-| Charges        | Driver tip ref code                      | (leave empty)                                     |
-| Charges        | Other charge ref code                    | (leave empty)                                     |
-| Payments       | Online payment ref code                  | (leave empty)                                     |
-| Payments       | Cash payment ref code                    | (leave empty)                                     |
+| Charges        | Delivery charge ref code                 | `DELIVERY`                                        |
+| Charges        | Service charge ref code                  | `SERVICE`                                         |
+| Charges        | Bag fee ref code                         | `SERVICE`                                         |
+| Charges        | Driver tip ref code                      | `TIP`                                             |
+| Charges        | Other charge ref code                    | `SERVICE`                                         |
+| Payments       | Online payment ref code                  | `card`                                            |
+| Payments       | Cash payment ref code                    | `cash`                                            |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
 
 ## Uber Eats
@@ -77,14 +67,14 @@ In the Uber Eats Bridge configuration page, use the following settings:
 | Service types  | Restaurant delivery ref code                 | (leave empty)                                          |
 | Service types  | Takeaway ref code                            | (leave empty)                                          |
 | Service types  | Eat-in ref code                              | (leave empty)                                          |
-| Service types  | Send orders delivered by Uber Eats as        | `collection orders`                                    |
+| Service types  | Send orders delivered by Uber Eats as        | `delivery orders`                                      |
 | Special items  | Disposable items ref code                    | Create a product in SwooPOS and use its ref code. (\*) |
 | Discounts      | Discount ref code                            | (leave empty)                                          |
-| Charges        | Delivery charge ref code                     | (leave empty)                                          |
-| Charges        | Small order fee ref code                     | (leave empty)                                          |
-| Charges        | Tip ref code                                 | (leave empty)                                          |
-| Payments       | Online payment ref code                      | (leave empty)                                          |
-| Payments       | Cash payment ref code                        | (leave empty)                                          |
+| Charges        | Delivery charge ref code                     | `DELIVERY`                                             |
+| Charges        | Small order fee ref code                     | `SMALL_ORDER`                                          |
+| Charges        | Tip ref code                                 | `TIP`                                                  |
+| Payments       | Online payment ref code                      | `card`                                                 |
+| Payments       | Cash payment ref code                        | `cash`                                                 |
 | Order statuses | Mark orders as Accepted                      | `when their HubRise status changes to "Received"`      |
 | Menu           | Enable preparation notes on individual items | Tick if you wish to enable them / Leave unchecked      |
 
