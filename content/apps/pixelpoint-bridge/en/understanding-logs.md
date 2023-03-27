@@ -40,7 +40,7 @@ Finally, the `DebugMode` node only appears if debug mode is selected from the Co
 
 ### The EOIAuthenticationToken Node
 
-This node has a single value that represents the PixelPoint API token saved in PixelPoint Bridge. For more information, see [Connection to HubRise](/apps/pixelpoint-bridge/connect-hubrise/).
+This node has a single value that represents the PixelPoint API token saved in PixelPoint Bridge. For more information, see [Connect to HubRise](/apps/pixelpoint-bridge/connect-hubrise/).
 
 ### The Transaction Node
 

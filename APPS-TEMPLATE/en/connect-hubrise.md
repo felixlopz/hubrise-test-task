@@ -1,9 +1,9 @@
 ---
-title: Connection to HubRise
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connection to HubRise | SOLUTION | HubRise
+  title: Connect to HubRise | SOLUTION | HubRise
   description: Connect SOLUTION to HubRise, steps to follow to receive your orders in your SOLUTION EPOS.
   description: Connect SOLUTION to HubRise, steps to follow to receive your SOLUTION orders in your EPOS.
 ---
@@ -18,7 +18,6 @@ meta:
 
 To connect SOLUTION to HubRise, follow these steps:
 
-1. Create a HubRise account. For more information, see our [Get Started Guide](/docs/get-started).
 1. From the SOLUTION back office, click on ...
 1. Click on the **CONNECT** button. You are redirected to the HubRise interface.
 1. If you have multiple locations, select the location to connect. If the selected location has multiple customer lists or catalogs, click **Next** to display the corresponding drop-down lists, and select the desired options.
@@ -31,7 +30,6 @@ Only the SOLUTION support team can connect your [EPOS] to HubRise.
 
 To connect SOLUTION to HubRise, proceed as follows:
 
-1. Create a HubRise account. For more information, see our [Get Started Guide](/docs/get-started).
 1. Grant SOLUTION access to your HubRise account. For more information, see [Grant Access to SOLUTION Support](#grant-access-to-SOLUTION-support).
 1. Contact the SOLUTION support team who will establish the connection to HubRise. For more information, see [Contact SOLUTION Support](#contact-SOLUTION-support).
 
@@ -39,7 +37,7 @@ To connect SOLUTION to HubRise, proceed as follows:
 
 To facilitate the support of your requests, we recommend that you grant SOLUTION support access to your HubRise account.
 -- OR --
-To connect SOLUTION, and facilitate the support of your requests, we recommend that you grant SOLUTION support access to your HubRise account.
+To connect SOLUTION, you need to grant SOLUTION support access to your HubRise account. This will also allow SOLUTION support to troubleshoot any issues you may encounter.
 
 To grant access to SOLUTION, proceed as follows:
 
