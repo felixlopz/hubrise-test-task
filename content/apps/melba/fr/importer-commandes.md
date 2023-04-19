@@ -3,7 +3,7 @@ title: Importer les commandes
 position: 4
 layout: documentation
 meta:
-  title: Importer les commandes | Melba | HubRise
+  title: Importer les commandes | Melba by Foodmeup | HubRise
   description: Comment importer un catalogue HubRise dans votre solution de gestion Melba, et détail des informations reçues dans Melba lors de l'importation des commandes HubRise.
 ---
 

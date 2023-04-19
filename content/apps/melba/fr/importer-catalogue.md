@@ -3,7 +3,7 @@ title: Importer le catalogue
 position: 3
 layout: documentation
 meta:
-  title: Importer le catalogue | Melba | HubRise
+  title: Importer le catalogue | Melba by Foodmeup | HubRise
   description: Comment importer un catalogue HubRise dans votre solution de gestion Melba, et détail des informations reçues dans Melba lors de l'importation d'un catalogue HubRise.
 ---
 

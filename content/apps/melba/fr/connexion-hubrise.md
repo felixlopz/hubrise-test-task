@@ -3,7 +3,7 @@ title: Connexion à HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connexion | Melba | HubRise
+  title: Connexion | Melba by Foodmeup | HubRise
   description: Connecter Melba à HubRise, étapes à suivre pour recevoir les commandes de votre logiciel de caisse et de vos canaux de vente en ligne dans votre logiciel d'inventaire Melba.
 ---
 
