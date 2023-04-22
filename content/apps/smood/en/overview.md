@@ -16,6 +16,38 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/smood" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**: Full documentation of this integration will be available soon.
 
 ---
+
+## Description
+
+Smood is a food delivery platform present in more than 25 cities in Switzerland. Smood only performs delivery with car drivers.
+
+By partnering with Smood, restaurants can increase the number of customers and orders.
+Smood takes care of all the marketing aspects, as well as receiving and delivering orders.
+Restaurants, on the other hand, can focus on preparing the food.
+
+Smood offers also a white-label delivery service called Dismatch, which is also [integrated with HubRise](/apps/smood-dismatch).
+This service allows restaurants to externalise their deliveries.
+
+## Integration Features
+
+Connecting Smood allows your food ordering and delivery platform to:
+
+- Push orders to HubRise, including order status.
+- Push customer information to HubRise.
+- Pull a catalog from HubRise.
+- Synchronise inventory with HubRise.
+
+Smood can be connected to HubRise from the Smood back office, after sending a request to the Smood support team.
+
+## Why Connect?
+
+Connecting Smood to HubRise allows your food ordering and delivery platform to communicate with the other applications that you use every day. For example, you can receive your Smood orders directly in your EPOS or Kitchen Display System also connected with HubRise, print your orders with a connected printer, manage your inventory, and send your HubRise menu to Smood.
+
+Via HubRise, synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+
+## Prerequisites
+
+To establish a connection between Smood and HubRise, your restaurant must be a Smood partner.
