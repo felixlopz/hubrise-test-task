@@ -14,12 +14,6 @@ app_info:
   contact:
 ---
 
----
-
-**IMPORTANT NOTE**: Full documentation of this integration will be available soon.
-
----
-
 ## Description
 
 Smood is a food delivery platform present in more than 25 cities in Switzerland. Smood only performs delivery with car drivers.
