@@ -132,8 +132,9 @@ To create an account-level catalog:
 #### Request parameters:
 
 | Name                                          | Type                          | Description              |
-| --------------------------------------------- | ----------------------------- | ------------------------ |
+|-----------------------------------------------|-------------------------------|--------------------------|
 | `name`                                        | string                        | The name of the catalog. |
+| `data.variants` <Label type="optional" />     | [Variant](#variants)[]        | List of variants.        |
 | `data.categories` <Label type="optional" />   | [Category](#categories)[]     | List of categories.      |
 | `data.products` <Label type="optional" />     | [Product](#products)[]        | List of products.        |
 | `data.option_lists` <Label type="optional" /> | [OptionList](#option-lists)[] | List of option lists.    |
@@ -210,7 +211,7 @@ To create an account-level catalog:
 
 ### 1.4. Update Catalog
 
-Update a catalog.
+Update a catalog. The request parameters are the same as for the [create catalog](#create-catalog) request.
 
 If the `data` field is passed, the whole catalog content is cleared and recreated from the passed data.
 
@@ -289,16 +290,10 @@ Variants are identified in a catalog by their unique ref, and they have a non-em
 #### Example:
 
 ```json
-"variants": [
-  {
-    "ref": "1",
-    "name": "Uber Eats, Deliveroo, Just Eat"
-  },
-  {
-    "ref": "2",
-    "name": "Kiosk"
-  }
-]
+ {
+  "ref": "1",
+  "name": "Uber Eats & Deliveroo"
+}
 ```
 
 ## 3. Categories
@@ -530,7 +525,7 @@ A product contains one or several skus. A sku is always attached to a product.
   "price": "9.80 EUR",
   "price_overrides": [
     {
-      "service_types": ["delivery"],
+      "variant_refs": ["1"],
       "price": "12.30 EUR"
     }
   ],
@@ -1113,7 +1108,7 @@ All conditions must be met simultaneously for an item to be available.
 
 ```json
 "restrictions": {
-  "variant_refs": ["1", "3"],
+  "variant_refs": ["2", "3"],
   "dow": "123-5--",
   "start_time": "07:00",
   "end_time": "13:30",
@@ -1152,7 +1147,7 @@ All conditions must be met simultaneously for a rule to match. When one or sever
 ```json
 "price_overrides": [
   {
-    "variant_refs": ["1", "3"],
+    "variant_refs": ["2", "3"],
     "price": "20.00 EUR"
   },
   {
