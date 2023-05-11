@@ -8,11 +8,11 @@
     "gatsby": "node ./node_modules/.bin/gatsby",
     "start:dev": "yarn gatsby develop",
     "start:prod": "yarn gatsby serve --port 9009",
-    "cy:open": "cypress open",
-    "cy:run": "cross-env CYPRESS_BASE_URL=http://localhost:9009 cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cross-env CYPRESS_BASE_URL=http://localhost:9009 cypress run",
     "test": "jest --config config/jest.config.js",
-    "test:e2e:open": "start-server-and-test start:dev http://localhost:8000 cy:open",
-    "test:e2e": "start-server-and-test start:prod http://localhost:9009 cy:run",
+    "test:e2e:open": "start-server-and-test start:dev http://localhost:8000 cypress:open",
+    "test:e2e": "start-server-and-test start:prod http://localhost:9009 cypress:run",
     "test:all": "yarn test && yarn test:e2e"
   },
   "dependencies": {
