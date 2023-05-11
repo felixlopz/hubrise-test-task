@@ -38,6 +38,7 @@ export const graphqlQuery = graphql`
           excerpt
           title
         }
+        excerpt(pruneLength: 250)
       }
     }
   }

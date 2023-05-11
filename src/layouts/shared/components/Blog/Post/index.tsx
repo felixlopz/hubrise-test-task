@@ -14,7 +14,7 @@ interface PostProps {
 
 const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
   const { t } = useTranslation()
-  const { frontmatter, fields, body } = mdxNode
+  const { frontmatter, excerpt, fields, body } = mdxNode
 
   const dateAsString = new Date(frontmatter.date).toLocaleDateString()
 
@@ -28,7 +28,7 @@ const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
 
       {showMore && (
         <>
-          <Excerpt>{frontmatter.excerpt}</Excerpt>
+          <Excerpt>{frontmatter.excerpt ?? excerpt}</Excerpt>
           <ReadMore to={fields.path} addLocalePrefix={false}>
             {t("misc.read_more")}
           </ReadMore>
