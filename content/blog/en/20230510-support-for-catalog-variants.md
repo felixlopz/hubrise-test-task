@@ -1,31 +1,98 @@
 ---
-title: "HubRise new feature: catalog variants"
+title: "New Feature: Catalog Variants"
 date: 2023-05-10
-excerpt: HubRise now supports catalog variants.
 author: Antoine Monnier
 meta:
-  title: Catalog variants | Blog | HubRise  
-  description:
+  title: Catalog variants | Blog | HubRise
+  description: HubRise now supports catalog variants. This new feature allows businesses to manage a single catalog across multiple channels and locations while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location.
 ---
 
-HubRise now supports catalog variants.
+We are happy to announce support for catalog variants! Catalog variants are a powerful new feature on HubRise that allows businesses to manage a single catalog across multiple sales channels and locations, while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location. This new feature not only saves time and effort but also ensures consistency and accuracy across all your sales channels. In this blog post, we'll explore how this new feature works and explain the API changes for developers.
 
-Catalog variants are a way to group products that are similar but differ by one or more attributes. For example, a product can be available in different sizes, colors, or materials. Each variant is a different product, but they are related to each other.
+## What are Catalog Variants?
 
-Catalog variants are useful for:
+At its core, catalog variants enable you to create unique pricing and availability rules for your items, depending on the context or platform they're being sold on. This level of customization is achieved by defining variants within your catalog and then specifying price overrides and restrictions at the SKU, option, and deal level for each variant.
 
-- Inventory management: you can track the stock of each variant separately.
-- Order management: you can sell a variant even if it is not available in stock, and then order it from your supplier.
-- Reporting: you can analyze the sales of each variant separately.
-- E-commerce: you can display each variant on your website.
-- And more...
+For example, if you want to offer a different price for a pizza on food platforms compared to your website, you can create a "Food platforms" variant and then set price overrides for the specific SKUs and options within this variant. Similarly, you can disable specific deals or options by using restrictions within the variant. This granular control allows you to tailor your catalog to the unique requirements of each sales channel, without having to manage separate catalogs.
 
-## How to use catalog variants
+## Mapping Catalog Variants to Sales Channels
 
-To use catalog variants, you need to:
+It's important to note that the mapping between a specific channel/location and a variant is done outside of the catalog itself, in the app's configuration page. This gives you the freedom to define variants based on any criteria you want.
 
-1. Create a catalog.
-2. Create a product.
-3. Create a variant for this product.
-4. Create a variant option for this variant.
-5. Create a variant option value for this variant option.
+For example, imagine that you want to differentiate prices and availability between food platforms in Paris and those outside Paris, as well as your website. Instead of creating a separate variant for each platform and location combination, you can create the following variants: "Food platforms Paris," "Food platforms outside Paris," and "Website". This approach enables you to manage prices and availability for every possible scenario without the need to create individual variants for each combination of channel and location.
+
+## Updates to Catalog Manager and Integrations
+
+To support catalog variants, we have updated our Catalog Manager app to allow defining different prices for each SKU/option for each variant, as well as disabling SKU/options/deals in specific variants.
+
+Furthermore, we have upgraded our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, and Glovo. Now you can specify the variant to sync, or leave the variant empty to sync the default catalog.
+
+## API Changes
+
+When uploading a catalog to HubRise, you can now optionally include a `variants` array, at the same level as the `categories` array. This array contains one object per variant, with each object having a unique `ref` and a non-empty `name`:
+
+```json
+{
+  "data": {
+    "variants": [
+      {
+        "ref": "1",
+        "name": "Food platforms"
+      }
+    ],
+    ...
+  }
+}
+```
+
+You can then refer to these variants in the `price_overrides` arrays and `restrictions` objects at the SKU, option, and deal level. For example:
+
+```json
+{
+  "data": {
+    "variants": [
+      {
+        "ref": "1",
+        "name": "Food platforms"
+      },
+      {
+        "ref": "2",
+        "name": "Kiosk"
+      }
+    ],
+    "categories": [...],
+    "products": [
+      {
+        "name": "Regina ham",
+        "category_ref": "pizza",
+        "skus": [
+          {
+            "price": "6.80 EUR",
+            "price_overrides": [
+              {
+                "variant_refs": ["1"],
+                "price": "8.00 EUR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Expresso",
+        "category_ref": "drinks",
+        "skus": {
+          "price": "1.50 EUR",
+          "restrictions": {
+            "variant_refs": ["2"]
+          }
+        }
+      }
+    ]
+  }
+}
+```
+
+In this example:
+
+- The "Regina ham" pizza has a default price of €6.80, but the price is overridden to €8.00 when ordered through food platforms.
+- "Expresso" is only available when ordered through the kiosk.
