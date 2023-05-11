@@ -35,10 +35,9 @@ export const graphqlQuery = graphql`
         frontmatter {
           author
           date
-          excerpt
           title
         }
-        excerpt(pruneLength: 250)
+        excerpt(pruneLength: 300)
       }
     }
   }

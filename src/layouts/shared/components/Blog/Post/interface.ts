@@ -8,7 +8,6 @@ export interface BlogNode {
   frontmatter: {
     author: string
     date: string
-    excerpt?: string
     title: string
   }
   excerpt: string

@@ -28,7 +28,7 @@ const Post = ({ mdxNode, showMore, showBody }: PostProps): JSX.Element => {
 
       {showMore && (
         <>
-          <Excerpt>{frontmatter.excerpt ?? excerpt}</Excerpt>
+          <Excerpt>{excerpt}</Excerpt>
           <ReadMore to={fields.path} addLocalePrefix={false}>
             {t("misc.read_more")}
           </ReadMore>
