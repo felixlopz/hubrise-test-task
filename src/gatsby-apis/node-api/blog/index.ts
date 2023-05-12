@@ -80,6 +80,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs): Promis
           localeCode,
           mainBlogPath,
           mdxNodeId: node.id,
+          heroImagePathRegexp: `/blog\/images\/${node.frontmatter.heroImageName}/`,
         },
       })
     })

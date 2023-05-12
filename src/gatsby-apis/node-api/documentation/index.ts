@@ -81,7 +81,7 @@ function createDocumentationPage(
       languagePaths: generateLanguagePaths(localeCode, getLanguagePath),
       localeCode,
       logoImageName: customization.logo,
-      mdXNodeId: mdxNode.id,
+      mdxNodeId: mdxNode.id,
     },
   })
 }

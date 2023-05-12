@@ -1,7 +1,8 @@
 ---
-title: "New Feature: Catalog Variants"
+title: "Catalog Variants Simplify Menu Management"
 date: 2023-05-10
 author: Antoine Monnier
+heroImageName: catalog-variants.png
 meta:
   title: Catalog variants | Blog | HubRise
   description: HubRise now supports catalog variants. This new feature allows businesses to manage a single catalog across multiple channels and locations while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location.

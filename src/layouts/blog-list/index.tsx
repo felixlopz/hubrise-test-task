@@ -34,6 +34,7 @@ export const graphqlQuery = graphql`
         }
         frontmatter {
           author
+          heroImageName
           date
           title
         }

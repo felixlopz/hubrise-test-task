@@ -17,6 +17,7 @@ export interface MDXBlogNode {
   }
   frontmatter: {
     date: string
+    heroImageName?: string
   }
   id: string
   slug: string
@@ -35,6 +36,7 @@ export async function getNodesByLocale(graphql: CreatePagesArgs["graphql"]): Pro
           }
           frontmatter {
             date
+            heroImageName
           }
           id
           slug

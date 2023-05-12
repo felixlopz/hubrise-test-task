@@ -7,6 +7,7 @@ export interface BlogNode {
   }
   frontmatter: {
     author: string
+    heroImageName: string
     date: string
     title: string
   }
