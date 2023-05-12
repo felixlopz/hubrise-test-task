@@ -29,7 +29,7 @@ The following tag can be set at the SKU level:
 | ----------- | -------------------------------------------- |
 | `deal_only` | The SKU is only available as part of a deal. |
 
- ## Conventions for restaurants
+## Conventions for restaurants
 
 ### Tags on products
 
@@ -262,12 +262,12 @@ Typical uses:
 
 The following custom fields can be attached to an order:
 
-| Custom field           | Encoding         | Description                                                                                         |
-| ---------------------- | ---------------- | --------------------------------------------------------------------------------------------------- |
-| `epos.order_id`        | `string`         | Order identifier on the EPOS.                                                                       |
-| `epos.rejection`       | (see&nbsp;below) | Information about an order rejection. Can only be present if the order status is `rejected`.        |
-| `epos.rejection.cause` | `string`         | Short description of the problem. Ideally includes resolution steps. Use Markdown syntax for links. |
-| `epos.rejection.info`  | `object`         | Free-format JSON object containing information about the problem.                                   |
+| Custom field           | Encoding         | Description                                                                                                                    |
+| ---------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `epos.order_id`        | `string`         | Order identifier on the EPOS.                                                                                                  |
+| `epos.rejection`       | (see&nbsp;below) | Information about an order rejection. Can only be present if the order status is `rejected`.                                   |
+| `epos.rejection.cause` | `string`         | Short description of the problem. Ideally includes resolution steps. Use Markdown syntax for links, code blocks, and emphasis. |
+| `epos.rejection.info`  | `object`         | Free-format JSON object containing information about the problem.                                                              |
 
 Typical uses:
 

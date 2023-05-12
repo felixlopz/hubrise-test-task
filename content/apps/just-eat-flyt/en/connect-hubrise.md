@@ -30,12 +30,6 @@ With this information in hand, we will ask the Just Eat integration team to enab
 
 ## 2. Connect Just Eat Flyt Bridge
 
----
-
-**IMPORTANT NOTE:** Just Eat Flyt Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
-
 To connect Just Eat Flyt Bridge to HubRise, follow these steps.
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
