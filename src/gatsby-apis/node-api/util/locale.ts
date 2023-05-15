@@ -3,7 +3,7 @@ import { LanguagePaths } from "../../../utils/context"
 
 /**
  * Extract the locale and the file name from a path in the content folder.
- * Example: "/apps/deliveroo/en/map-ref-codes.md" => "en", "map-ref-codes"
+ * @example parseRelativePath("/apps/deliveroo/en/map-ref-codes.md") => { localeCode: "en", name: "map-ref-codes" }
  * @param relativePath
  */
 export function parseRelativePath(relativePath: string): { localeCode: LocaleCode; name: string } {
