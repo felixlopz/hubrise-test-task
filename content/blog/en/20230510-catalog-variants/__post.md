@@ -1,5 +1,5 @@
 ---
-title: "Catalog Variants Simplify Menu Management"
+title: Catalog Variants
 date: 2023-05-10
 author: Antoine Monnier
 meta:
@@ -7,25 +7,26 @@ meta:
   description: HubRise now supports catalog variants. This new feature allows businesses to manage a single catalog across multiple channels and locations while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location.
 ---
 
-We are happy to announce support for catalog variants! Catalog variants are a powerful new feature on HubRise that allows businesses to manage a single catalog across multiple sales channels and locations, while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location. This new feature not only saves time and effort but also ensures consistency and accuracy across all your sales channels. In this blog post, we'll explore how this new feature works and explain the API changes for developers.
+We've introduced catalog variants. This new feature allows you to manage a single catalog across multiple sales channels and locations, while maintaining the flexibility to customise prices and availability of SKUs, options, and deals for each channel and location. This new feature will save you time and effort, but also ensure consistency and accuracy across your sales channels. In this blog post, we'll explore how catalog variants work, how existing integrations have been updated to support them, and explain the API changes for developers.
 
 ## What are Catalog Variants?
 
-At its core, catalog variants enable you to create unique pricing and availability rules for your items, depending on the context or platform they're being sold on. This level of customization is achieved by defining variants within your catalog and then specifying price overrides and restrictions at the SKU, option, and deal level for each variant.
+With catalog variants, you can define variants within your catalog, and specify price overrides and restrictions at the SKU, option, and deal level for each variant. Catalog variants enable you to create pricing and availability rules for your items, depending on the context or platform they're being sold on.
 
-For example, if you want to offer a different price for a pizza on food platforms compared to your website, you can create a "Food platforms" variant and then set price overrides for the specific SKUs and options within this variant. Similarly, you can disable specific deals or options by using restrictions within the variant. This granular control allows you to tailor your catalog to the unique requirements of each sales channel, without having to manage separate catalogs.
+For example, if you want to offer a different price for a pizza on food platforms compared to your website, you can create a "Food platforms" variant and then set price overrides for the specific SKUs and options within this variant. Similarly, you can disable some deals or options for some variants by using restrictions. This granular control allows you to tailor your catalog to the unique requirements of each sales channel, without having to manage separate catalogs.
 
-## Mapping Catalog Variants to Sales Channels
+The mapping between a specific channel/location and a variant is done outside the catalog, in the apps using the catalog. Each variant can therefore be used in multiple contexts, which avoids having to create multiple variants for each channel/location combination.
 
-It's important to note that the mapping between a specific channel/location and a variant is done outside of the catalog itself, in the app's configuration page. This gives you the freedom to define variants based on any criteria you want.
-
-For example, imagine that you want to differentiate prices and availability between food platforms in Paris and those outside Paris, as well as your website. Instead of creating a separate variant for each platform and location combination, you can create the following variants: "Food platforms Paris," "Food platforms outside Paris," and "Website". This approach enables you to manage prices and availability for every possible scenario without the need to create individual variants for each combination of channel and location.
+For example, imagine that you want to differentiate prices between food platforms in Paris and those outside Paris, as well as your website. Instead of creating a separate variant for each platform and location combination, you can only create 3 variants: "Food platforms Paris," "Food platforms outside Paris," and "Website", and then map each variant to the appropriate channel/location combination in the apps using the catalog.
 
 ## Updates to Catalog Manager and Integrations
 
-To support catalog variants, we have updated our Catalog Manager app to allow defining different prices for each SKU/option for each variant, as well as disabling SKU/options/deals in specific variants.
+[//]: # "To support catalog variants, we have updated our Catalog Manager app to allow defining different prices for each SKU/option for each variant, as well as disabling SKU/options/deals in specific variants."
+[//]: # "Furthermore, we have upgraded our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, and Glovo. Now you can specify the variant to sync, or leave the variant empty to sync the default catalog."
 
-Furthermore, we have upgraded our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, and Glovo. Now you can specify the variant to sync, or leave the variant empty to sync the default catalog.
+We are currently updating our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, Prestashop, and Glovo to support catalog variants. We are also updating our Catalog Manager app to add full support for catalog variants.
+
+We will update this blog post when the updates are available.
 
 ## API Changes
 
@@ -96,3 +97,5 @@ In this example:
 
 - The "Regina ham" pizza has a default price of €6.80, but the price is overridden to €8.00 when ordered through food platforms.
 - "Expresso" is only available when ordered through the kiosk.
+
+The API changes have been reflected in our [API documentation](/developers/api/catalog-management) and [Postman collection](https://drive.google.com/drive/folders/1fn5u-4sY0-bnrxJY9RFPvpCu0bANGNBd?usp=sharing).
