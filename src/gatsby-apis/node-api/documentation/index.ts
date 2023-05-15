@@ -3,6 +3,7 @@ import * as Gatsby from "gatsby"
 
 import { getLayoutPath } from "../util/layout"
 import { generateLanguagePaths, parseRelativePath } from "../util/locale"
+import { mdxNodeType } from "../util/mdx"
 import { LocaleCode, localeCodes } from "../../../utils/locales"
 import { DocumentationContext } from "../../../layouts/documentation"
 
@@ -20,8 +21,10 @@ import { getFolderPages, getPagePath } from "./page"
 import { getBreadcrumbs } from "./breadcrumbs"
 
 export async function onCreateNode({ node, actions }: CreateNodeArgs): Promise<void> {
-  if (node.internal.type === "Mdx") {
-    const { localeCode } = parseRelativePath(node.fileAbsolutePath as string)
+  const fileAbsolutePath = node.fileAbsolutePath as string
+
+  if (node.internal.type === "Mdx" && mdxNodeType(fileAbsolutePath) === "documentation") {
+    const { localeCode } = parseRelativePath(fileAbsolutePath)
 
     await actions.createNodeField({
       node,

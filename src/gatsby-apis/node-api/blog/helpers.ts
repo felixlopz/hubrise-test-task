@@ -1,9 +1,18 @@
-import { parseRelativePath } from "../util/locale"
 import { LocaleCode } from "../../../utils/locales"
 
 import { MDXBlogNode } from "./graphql"
 
 export function filterNodesByLocale(nodes: Array<MDXBlogNode>, localeCode: LocaleCode): Array<MDXBlogNode> {
-  // MDX files must be in a directory ending in /en or /fr, indicating the locale code of the MDX.
-  return nodes.filter((node) => parseRelativePath(node.slug).localeCode === localeCode)
+  return nodes.filter((node) => node.fileAbsolutePath.includes(`/blog/${localeCode}/`))
+}
+
+export function parseMdxNodeAbsolutePath(absolutePath: string): { localeCode: LocaleCode; name: string } {
+  // Example fileAbsolutePath: /var/www/website/content/blog/en/20230510-catalog-variants/__post.md
+  const slugElements = absolutePath.split("/").reverse()
+  const [, folder, localeCode] = slugElements
+
+  return {
+    localeCode: localeCode as LocaleCode,
+    name: folder.replace(/^\d{8}-/, ""), // Strip the date
+  }
 }
