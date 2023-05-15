@@ -10,6 +10,7 @@ import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
 import { Post, Sidebar } from "@layouts/shared/components/Blog"
 import { BlogNode } from "@layouts/shared/components/Blog/Post/interface"
 import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
+import { ImageSharp } from "@utils/image"
 
 export interface BlogPostProps {
   data: BlogPostData
@@ -18,6 +19,9 @@ export interface BlogPostProps {
 
 interface BlogPostData {
   mdxNode: BlogPostNode
+  bannerImage: {
+    childImageSharp?: ImageSharp
+  }
 }
 
 interface BlogPostNode extends BlogNode {
@@ -28,7 +32,7 @@ interface BlogPostNode extends BlogNode {
 }
 
 export const graphqlQuery = graphql`
-  query blogPostData($mdxNodeId: String!) {
+  query blogPostData($mdxNodeId: String!, $bannerImagePathGlob: String!) {
     mdxNode: mdx(id: { eq: $mdxNodeId }) {
       id
       fields {
@@ -46,6 +50,11 @@ export const graphqlQuery = graphql`
       }
       body
     }
+    bannerImage: file(absolutePath: { glob: $bannerImagePathGlob }) {
+      childImageSharp {
+        gatsbyImageData(layout: FULL_WIDTH)
+      }
+    }
   }
 `
 
@@ -53,7 +62,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
   const { t } = useTranslation()
   const localeCode = useLocaleCode()
 
-  const mdxNode = data.mdxNode
+  const { mdxNode, bannerImage } = data
   const { frontmatter } = mdxNode
   const { meta } = frontmatter
 
@@ -79,8 +88,9 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
       <div className="section">
         <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
           <Sidebar onQueryChange={handleQueryChange} />
+
           <div className="section__content">
-            <Post showBody={true} mdxNode={mdxNode} />
+            <Post showBody={true} mdxNode={mdxNode} bannerImage={bannerImage?.childImageSharp} />
           </div>
         </div>
       </div>

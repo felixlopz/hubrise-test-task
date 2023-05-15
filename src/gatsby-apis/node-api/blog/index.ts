@@ -2,18 +2,22 @@ import { CreateNodeArgs, CreatePagesArgs } from "gatsby"
 
 import { getLayoutPath } from "../util/layout"
 import { pathWithLocale } from "../util/urls"
-import { generateLanguagePaths, parseRelativePath } from "../util/locale"
+import { generateLanguagePaths } from "../util/locale"
+import { mdxNodeType } from "../util/mdx"
 import { generateArchiveList } from "../../../layouts/shared/components/Blog/Sidebar/helpers"
 import { BlogListContext } from "../../../layouts/blog-list/interface"
 import { BlogPostContext } from "../../../layouts/blog-post/interface"
 
+import { parseMdxNodeAbsolutePath } from "./helpers"
 import { getNodesByLocale } from "./graphql"
 
 const BLOG_PAGE_PATH = "/blog"
 
 export async function onCreateNode({ node, actions }: CreateNodeArgs): Promise<void> {
-  if (node.internal.type === "Mdx" && node.fileAbsolutePath && (node.fileAbsolutePath as string).match(/\/blog\//)) {
-    const { localeCode, name } = parseRelativePath(node.fileAbsolutePath as string)
+  const fileAbsolutePath = node.fileAbsolutePath as string
+
+  if (node.internal.type === "Mdx" && mdxNodeType(fileAbsolutePath) === "blog") {
+    const { localeCode, name } = parseMdxNodeAbsolutePath(fileAbsolutePath)
 
     await actions.createNodeField({
       node,
@@ -24,7 +28,7 @@ export async function onCreateNode({ node, actions }: CreateNodeArgs): Promise<v
     await actions.createNodeField({
       node,
       name: "path",
-      value: pathWithLocale(localeCode, `${BLOG_PAGE_PATH}/${name}`),
+      value: pathWithLocale(localeCode, [BLOG_PAGE_PATH, name].join("/")),
     })
   }
 }
@@ -70,7 +74,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs): Promis
       })
     })
 
-    // Blog pages: /blog/why-did-i-create-hubrise
+    // Blog pages: /blog/catalog-variants
     nodes.forEach((node) => {
       actions.createPage<BlogPostContext>({
         path: node.fields.path,
@@ -80,6 +84,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs): Promis
           localeCode,
           mainBlogPath,
           mdxNodeId: node.id,
+          bannerImagePathGlob: `${node.fileAbsolutePath.replace(/__post.md$/, "__banner.*")}`,
         },
       })
     })

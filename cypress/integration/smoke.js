@@ -10,6 +10,8 @@ describe("doesn't crash and burn", () => {
     "/fr",
     "/fr/apps",
     "/fr/developers/api/account-management",
+    "/blog",
+    "/blog/catalog-variants",
   ]
 
   pages.forEach((page) => {

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Link from "@layouts/shared/components/Link"
 import { breakpoints, colors, mixin } from "@utils/styles"
@@ -31,7 +32,11 @@ export const Title = styled.h3`
   }
 `
 
-export const Header = styled.div`
+export const BannerImage = styled(GatsbyImage)`
+  margin-bottom: 1rem;
+`
+
+export const DateAndAuthor = styled.div`
   color: ${colors.lightGray};
   font-size: 1rem;
   font-weight: 400;
