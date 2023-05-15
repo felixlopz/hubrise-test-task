@@ -2,19 +2,19 @@ import * as React from "react"
 import { useTranslation } from "react-i18next"
 
 import { BlogNode } from "./interface"
-import { Title, DateAndAuthor, DateValue, Excerpt, ReadMore, StyledPost, HeroImage } from "./Styles"
+import { Title, DateAndAuthor, DateValue, Excerpt, ReadMore, StyledPost, BannerImage } from "./Styles"
 
 import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
 import { ImageSharp } from "@utils/image"
 
 interface PostProps {
   mdxNode: BlogNode
-  heroImage?: ImageSharp
+  bannerImage?: ImageSharp
   showMore?: boolean
   showBody?: boolean
 }
 
-const Post = ({ mdxNode, heroImage, showMore, showBody }: PostProps): JSX.Element => {
+const Post = ({ mdxNode, bannerImage, showMore, showBody }: PostProps): JSX.Element => {
   const { t } = useTranslation()
   const { frontmatter, excerpt, fields, body } = mdxNode
 
@@ -24,7 +24,7 @@ const Post = ({ mdxNode, heroImage, showMore, showBody }: PostProps): JSX.Elemen
     <StyledPost>
       <Title>{frontmatter.title}</Title>
 
-      {heroImage && <HeroImage image={heroImage.gatsbyImageData} alt={frontmatter.title} />}
+      {bannerImage && <BannerImage image={bannerImage.gatsbyImageData} alt={frontmatter.title} />}
 
       <DateAndAuthor>
         {t("misc.posted_on")} <DateValue>{dateAsString}</DateValue> {t("misc.by")} {frontmatter.author}

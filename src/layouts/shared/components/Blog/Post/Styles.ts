@@ -32,7 +32,7 @@ export const Title = styled.h3`
   }
 `
 
-export const HeroImage = styled(GatsbyImage)`
+export const BannerImage = styled(GatsbyImage)`
   margin-bottom: 1rem;
 `
 

@@ -19,7 +19,7 @@ export interface BlogPostProps {
 
 interface BlogPostData {
   mdxNode: BlogPostNode
-  heroImage: {
+  bannerImage: {
     childImageSharp?: ImageSharp
   }
 }
@@ -32,7 +32,7 @@ interface BlogPostNode extends BlogNode {
 }
 
 export const graphqlQuery = graphql`
-  query blogPostData($mdxNodeId: String!, $heroImagePathRegexp: String!) {
+  query blogPostData($mdxNodeId: String!, $bannerImagePathGlob: String!) {
     mdxNode: mdx(id: { eq: $mdxNodeId }) {
       id
       fields {
@@ -50,7 +50,7 @@ export const graphqlQuery = graphql`
       }
       body
     }
-    heroImage: file(absolutePath: { regex: $heroImagePathRegexp }) {
+    bannerImage: file(absolutePath: { glob: $bannerImagePathGlob }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH)
       }
@@ -62,7 +62,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
   const { t } = useTranslation()
   const localeCode = useLocaleCode()
 
-  const { mdxNode, heroImage } = data
+  const { mdxNode, bannerImage } = data
   const { frontmatter } = mdxNode
   const { meta } = frontmatter
 
@@ -90,7 +90,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
           <Sidebar onQueryChange={handleQueryChange} />
 
           <div className="section__content">
-            <Post showBody={true} mdxNode={mdxNode} heroImage={heroImage?.childImageSharp} />
+            <Post showBody={true} mdxNode={mdxNode} bannerImage={bannerImage?.childImageSharp} />
           </div>
         </div>
       </div>

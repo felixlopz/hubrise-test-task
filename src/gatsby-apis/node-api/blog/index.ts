@@ -84,7 +84,7 @@ export async function createPages({ graphql, actions }: CreatePagesArgs): Promis
           localeCode,
           mainBlogPath,
           mdxNodeId: node.id,
-          heroImagePathRegexp: `/${node.fileAbsolutePath.replace(/__post.md$/, "__hero")}/`,
+          bannerImagePathGlob: `${node.fileAbsolutePath.replace(/__post.md$/, "__banner.*")}`,
         },
       })
     })

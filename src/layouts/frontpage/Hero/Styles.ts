@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 import { breakpoints, colors, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
-import heroImage from "@assets/images/hero_image.jpg"
+import bannerImage from "@assets/images/hero_image.jpg"
 
 export const Container = styled.section`
   position: relative;
@@ -15,7 +15,7 @@ export const Container = styled.section`
 `
 
 export const Image = styled.div`
-  background: black url(${heroImage}) no-repeat;
+  background: black url(${bannerImage}) no-repeat;
   background-size: cover;
   background-position-x: 100%;
   height: 20em;

@@ -12,6 +12,7 @@ import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
 import { Hero, Post, Sidebar } from "@layouts/shared/components/Blog"
 import { getArchiveTitle } from "@layouts/shared/components/Blog/Sidebar"
 import { BlogNode } from "@layouts/shared/components/Blog/Post/interface"
+import { ImageNode, ImageSharp } from "@utils/image"
 
 interface BlogListProps {
   data: BlogListData
@@ -22,12 +23,18 @@ interface BlogListData {
   allMdx: {
     nodes: Array<BlogNode>
   }
+  bannerImages: {
+    nodes: Array<HeroImageNode>
+  }
 }
+
+type HeroImageNode = ImageNode & { absolutePath: string }
 
 export const graphqlQuery = graphql`
   query blogListData {
-    allMdx(filter: { slug: { regex: "/^blog//" } }) {
+    allMdx(filter: { fileAbsolutePath: { glob: "**/content/blog/**/__post.md" } }) {
       nodes {
+        fileAbsolutePath
         fields {
           localeCode
           path
@@ -38,6 +45,14 @@ export const graphqlQuery = graphql`
           title
         }
         excerpt(pruneLength: 300)
+      }
+    }
+    bannerImages: allFile(filter: { absolutePath: { glob: "**/content/blog/**/__banner.*" } }) {
+      nodes {
+        absolutePath
+        childImageSharp {
+          gatsbyImageData(layout: CONSTRAINED, width: 400, height: 400)
+        }
       }
     }
   }
@@ -100,6 +115,11 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
     description: "New applications, evolutions of the API and real-world uses of HubRise",
   }
 
+  const bannerImage = (blogPost: BlogNode): ImageSharp | undefined => {
+    const folder = blogPost.fileAbsolutePath.replace(/\/__post\.md$/, "")
+    return data.bannerImages.nodes.find((node) => node.absolutePath.startsWith(folder))?.childImageSharp
+  }
+
   return (
     <MDXProvider>
       <SEO meta={meta} />
@@ -111,7 +131,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
           <Sidebar searchQuery={searchQuery} onQueryChange={handleQueryChange} />
           <div className="section__content">
             {filteredMdxNodes.map((mdxNode, idx) => (
-              <Post key={idx} mdxNode={mdxNode} showMore={true} />
+              <Post key={idx} mdxNode={mdxNode} showMore={true} bannerImage={bannerImage(mdxNode)} />
             ))}
           </div>
         </div>
