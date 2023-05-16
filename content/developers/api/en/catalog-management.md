@@ -132,7 +132,7 @@ To create an account-level catalog:
 #### Request parameters:
 
 | Name                                          | Type                          | Description              |
-|-----------------------------------------------|-------------------------------|--------------------------|
+| --------------------------------------------- | ----------------------------- | ------------------------ |
 | `name`                                        | string                        | The name of the catalog. |
 | `data.variants` <Label type="optional" />     | [Variant](#variants)[]        | List of variants.        |
 | `data.categories` <Label type="optional" />   | [Category](#categories)[]     | List of categories.      |
@@ -290,7 +290,7 @@ Variants are identified in a catalog by their unique ref, and they have a non-em
 #### Example:
 
 ```json
- {
+{
   "ref": "1",
   "name": "Uber Eats & Deliveroo"
 }
@@ -1080,7 +1080,7 @@ Retrieve the list of charges in the catalog.
 
 ## 11. Restrictions
 
-A `restrictions` object can be used on [Sku](#skus), [Discount](#discounts) and [Deal](#deals) resources. It defines a set of conditions for a particular item to be enabled.
+A `restrictions` object can be used in [Sku](#skus), [Option](#options), [Deal](#deals), [Discount](#discounts) and [Charge](#charges) resources. It defines a set of conditions for a particular item to be enabled.
 
 #### Parameters:
 
@@ -1120,7 +1120,7 @@ All conditions must be met simultaneously for an item to be available.
 
 ## 12. Price Overrides
 
-A `price_overrides` is an array of rules that can be used in [Skus](#skus), [Options](#options) and [Charges](#charges), to override their price in different contexts.
+A `price_overrides` is an array of rules that can be used in [Skus](#skus) and [Options](#options), to override their price in different contexts.
 
 Each rule defines a price and a set of conditions. The structure of a rule is described below.
 
