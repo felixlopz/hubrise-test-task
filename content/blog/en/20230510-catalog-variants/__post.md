@@ -7,17 +7,26 @@ meta:
   description: HubRise now supports catalog variants. This new feature allows businesses to manage a single catalog across multiple channels and locations while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location.
 ---
 
-We've introduced catalog variants. This new feature allows you to manage a single catalog across multiple sales channels and locations, while maintaining the flexibility to customise prices and availability of SKUs, options, and deals for each channel and location. This new feature will save you time and effort, but also ensure consistency and accuracy across your sales channels. In this blog post, we'll explore how catalog variants work, how existing integrations have been updated to support them, and explain the API changes for developers.
+We've introduced catalog variants. This new feature allows you to manage a single catalog across multiple sales channels and locations, while maintaining the flexibility to customise prices and availability for each channel and location. This feature will not only save you time, but also ensure consistency and accuracy across your sales channels.
+
+In this blog post, we'll explore how catalog variants work, how existing integrations have been updated to support them, and explain the API changes for developers.
 
 ## What are Catalog Variants?
 
-With catalog variants, you can define variants within your catalog, and specify price overrides and restrictions at the SKU, option, and deal level for each variant. Catalog variants enable you to create pricing and availability rules for your items, depending on the context or platform they're being sold on.
+Catalog variants enable you to create pricing and availability rules for your items, depending on the context or platform they're being sold on, and without having to manage separate catalogs.
 
-For example, if you want to offer a different price for a pizza on food platforms compared to your website, you can create a "Food platforms" variant and then set price overrides for the specific SKUs and options within this variant. Similarly, you can disable some deals or options for some variants by using restrictions. This granular control allows you to tailor your catalog to the unique requirements of each sales channel, without having to manage separate catalogs.
+You can define any number of variants in a catalog. For each variant, you can specify:
 
-The mapping between a specific channel/location and a variant is done outside the catalog, in the apps using the catalog. Each variant can therefore be used in multiple contexts, which avoids having to create multiple variants for each channel/location combination.
+- **Price overrides** at the SKU, and option level.
+- **Restrictions** at the SKU, option, deal, discount, and charge level.
 
-For example, imagine that you want to differentiate prices between food platforms in Paris and those outside Paris, as well as your website. Instead of creating a separate variant for each platform and location combination, you can only create 3 variants: "Food platforms Paris," "Food platforms outside Paris," and "Website", and then map each variant to the appropriate channel/location combination in the apps using the catalog.
+For example, if you want to offer a different price for a pizza on food platforms compared to your website, you can create a `Food platforms` variant and set price overrides for the SKUs and options which should have a different price. Similarly, you can disable some deals or options for some variants by using restrictions.
+
+Each variant has a descriptive name, and a unique reference. The actual references of the variants typically do not matter: you can use `1`, `2`, `3`, etc., or `food_platforms`, `website`, etc.
+
+The mapping between a specific channel/location and a variant is done outside the catalog, in the apps using the catalog. Each variant can therefore be used in multiple contexts, which avoids having to create one variant for each channel/location combination.
+
+For example, imagine that you want to differentiate prices between food platforms in Paris and those outside Paris, as well as your website. Instead of creating a separate variant for each platform and location combination, you can just create 3 variants: `Food platforms Paris`, `Food platforms outside Paris`, and `Website`, and map each variant to the appropriate channel/location combination.
 
 ## Updates to Catalog Manager and Integrations
 
