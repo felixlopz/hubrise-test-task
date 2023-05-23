@@ -17,7 +17,7 @@ Connecting Just Eat Takeaway to HubRise can be done with a few steps.
 
 ## 1. Enable HubRise on Just Eat Takeaway
 
-As a first step, the HubRise Takeaway support must activate the HubRise integration for your stores.
+As a first step, the Just Eat Takeaway support must activate the HubRise integration for your stores.
 
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
