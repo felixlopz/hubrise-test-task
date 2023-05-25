@@ -7,7 +7,6 @@ import Developers, { TeamImageNode } from "./Developers"
 import Documentation from "./Documentation"
 import Hero from "./Hero"
 import Join from "./Join"
-import MissionAndScalability from "./MissionAndScalability"
 import Pricing from "./Pricing"
 
 import { ImageNode } from "@utils/image"
