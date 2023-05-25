@@ -8,9 +8,9 @@ import SEO, { Meta } from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
 import { Post, Sidebar } from "@layouts/shared/components/Blog"
-import { BlogNode } from "@layouts/shared/components/Blog/Post/interface"
 import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 import { ImageSharp } from "@utils/image"
+import { BlogNode } from "@layouts/shared/components/Blog/shared/interface"
 
 export interface BlogPostProps {
   data: BlogPostData
@@ -52,7 +52,7 @@ export const graphqlQuery = graphql`
     }
     bannerImage: file(absolutePath: { glob: $bannerImagePathGlob }) {
       childImageSharp {
-        gatsbyImageData(layout: FULL_WIDTH)
+        gatsbyImageData(layout: FULL_WIDTH, placeholder: NONE)
       }
     }
   }
@@ -90,7 +90,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
           <Sidebar onQueryChange={handleQueryChange} />
 
           <div className="section__content">
-            <Post showBody={true} mdxNode={mdxNode} bannerImage={bannerImage?.childImageSharp} />
+            <Post mdxNode={mdxNode} bannerImage={bannerImage?.childImageSharp} />
           </div>
         </div>
       </div>

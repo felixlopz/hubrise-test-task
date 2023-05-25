@@ -9,10 +9,11 @@ import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
-import { Hero, Post, Sidebar } from "@layouts/shared/components/Blog"
+import { Hero, Sidebar } from "@layouts/shared/components/Blog"
 import { getArchiveTitle } from "@layouts/shared/components/Blog/Sidebar"
-import { BlogNode } from "@layouts/shared/components/Blog/Post/interface"
+import { BlogNode } from "@layouts/shared/components/Blog/shared/interface"
 import { ImageNode, ImageSharp } from "@utils/image"
+import PostSummary from "@layouts/shared/components/Blog/PostSummary"
 
 interface BlogListProps {
   data: BlogListData
@@ -44,14 +45,14 @@ export const graphqlQuery = graphql`
           date
           title
         }
-        excerpt(pruneLength: 300)
+        excerpt(pruneLength: 250)
       }
     }
     bannerImages: allFile(filter: { absolutePath: { glob: "**/content/blog/**/__banner.*" } }) {
       nodes {
         absolutePath
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, width: 400, height: 400)
+          gatsbyImageData(layout: CONSTRAINED, width: 320, placeholder: NONE)
         }
       }
     }
@@ -131,7 +132,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
           <Sidebar searchQuery={searchQuery} onQueryChange={handleQueryChange} />
           <div className="section__content">
             {filteredMdxNodes.map((mdxNode, idx) => (
-              <Post key={idx} mdxNode={mdxNode} showMore={true} bannerImage={bannerImage(mdxNode)} />
+              <PostSummary key={idx} mdxNode={mdxNode} bannerImage={bannerImage(mdxNode)} />
             ))}
           </div>
         </div>
