@@ -276,7 +276,9 @@ A catalog can optionally contain variants. Variants are used in conjunction with
 - [PriceOverrides](#price-overrides), to define different prices for different channels or locations.
 - [Restrictions](#restrictions), to restrict items to certain channels or locations.
 
-Variants are identified in a catalog by their unique ref, and they have a non-empty name.
+Each variant has a `ref` and a `name`. Refs identify variants in a catalog, whereas names are displayed to the user. Refs should be unique, auto-generated, and stable, and names should be descriptive and customisable.
+
+For a more detailed explanation of variants, read this [blog post](/blog/catalog-variants).
 
 ### Variant in Catalog Upload
 
