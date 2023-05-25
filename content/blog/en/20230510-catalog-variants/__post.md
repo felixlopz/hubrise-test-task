@@ -7,11 +7,11 @@ meta:
   description: HubRise now supports catalog variants. This new feature allows businesses to manage a single catalog across multiple channels and locations while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location.
 ---
 
-[//]: # (Photo credits: https://pixabay.com/vectors/watercolor-yellow-orange-red-green-4111953/)
+[//]: # "Photo credits: https://pixabay.com/vectors/watercolor-yellow-orange-red-green-4111953/"
 
 We've introduced catalog variants. This new feature allows you to manage a single catalog across multiple sales channels and locations, while maintaining the flexibility to customise prices and availability for each channel and location. This feature will not only save you time, but also ensure consistency and accuracy across your sales channels.
 
-In this blog post, we'll explore how catalog variants work, how existing integrations have been updated to support them, and explain the API changes for developers.
+In this blog post, we'll explore what catalog variants are, API changes for developers, and how existing integrations have been updated.
 
 ## What are Catalog Variants?
 
@@ -24,20 +24,11 @@ You can define any number of variants in a catalog. For each variant, you can sp
 
 For example, if you want to offer a different price for a pizza on food platforms compared to your website, you can create a `Food platforms` variant and set price overrides for the SKUs and options which should have a different price. Similarly, you can disable some deals or options for some variants by using restrictions.
 
-Each variant has a descriptive name, and a unique reference. The actual references of the variants typically do not matter: you can use `1`, `2`, `3`, etc., or `food_platforms`, `website`, etc.
+Each variant has a descriptive name, and a unique reference. In the apps using the catalog, variants will typically be referenced by their name, and not by their reference. Therefore, the actual references do not matter, so you can use `1`, `2`, `3`, etc., or `food_platforms`, `website`, etc.
 
 The mapping between a specific channel/location and a variant is done outside the catalog, in the apps using the catalog. Each variant can therefore be used in multiple contexts, which avoids having to create one variant for each channel/location combination.
 
 For example, imagine that you want to differentiate prices between food platforms in Paris and those outside Paris, as well as your website. Instead of creating a separate variant for each platform and location combination, you can just create 3 variants: `Food platforms Paris`, `Food platforms outside Paris`, and `Website`, and map each variant to the appropriate channel/location combination.
-
-## Updates to Catalog Manager and Integrations
-
-[//]: # "To support catalog variants, we have updated our Catalog Manager app to allow defining different prices for each SKU/option for each variant, as well as disabling SKU/options/deals in specific variants."
-[//]: # "Furthermore, we have upgraded our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, and Glovo. Now you can specify the variant to sync, or leave the variant empty to sync the default catalog."
-
-We are currently updating our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, Prestashop, and Glovo to support catalog variants. We are also updating our Catalog Manager app to add full support for catalog variants.
-
-We will update this blog post when the updates are available.
 
 ## API Changes
 
@@ -110,3 +101,15 @@ In this example:
 - "Expresso" is only available when ordered through the kiosk.
 
 The API changes have been reflected in our [API documentation](/developers/api/catalog-management) and [Postman collection](https://drive.google.com/drive/folders/1fn5u-4sY0-bnrxJY9RFPvpCu0bANGNBd?usp=sharing).
+
+## Updates to Catalog Manager and Integrations
+
+We have updated our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, and Glovo. To use variants with these integrations, you need to first update your catalog in HubRise, and then open the bridge configuration. The available variants will be listed in the dropdown below:
+
+![Catalog variants in the bridge configuration](./001-en-uber-eats-variants.png)
+
+Now you can specify the variant to sync, or choose **(none)** to sync the default catalog.
+
+[//]: # "We have updated our Catalog Manager app to allow defining different prices for each SKU/option for each variant, as well as disabling SKU/options/deals in specific variants."
+
+We are currently updating our Catalog Manager app to add full support for catalog variants. We will update this blog post when the update is available.
