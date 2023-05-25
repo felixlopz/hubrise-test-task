@@ -3,6 +3,10 @@ apps:
   visit_website: Open editor website
 
 blog:
+  by_month: By month
+  hero:
+    title: The HubRise Blog
+    description: New apps, evolutions of the API and real-world uses of HubRise
   title: Blog
 
 documentation:
@@ -59,14 +63,10 @@ misc:
     - October
     - November
     - December
-  archive: Archive
-  archives: Archives
   colon: ':'
-  recent_posts: Recent posts
   read_more: Read More
   posted_on: Posted on
   by: by
-  search: Search
   success: Success
   failure: Failure
   messages:

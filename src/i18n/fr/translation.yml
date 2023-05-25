@@ -3,6 +3,10 @@ apps:
   visit_website: Accéder au site de l'éditeur
 
 blog:
+  by_month: Par mois
+  hero:
+    title: Le blog HubRise
+    description: Nouvelles apps, évolutions de l'API et cas d'utilisation de HubRise
   title: Blog
 
 documentation:
@@ -59,14 +63,10 @@ misc:
     - Octobre
     - Novembre
     - Décembre
-  archive: Archive
-  archives: Les archives
   colon: ' :'
-  recent_posts: Messages récents
   read_more: Lire la suite
   posted_on: Publié le
   by: par
-  search: Chercher
   success: Succès
   failure: Échec
   messages:

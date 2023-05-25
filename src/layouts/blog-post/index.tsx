@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, navigate } from "gatsby"
+import { graphql } from "gatsby"
 import { useTranslation } from "react-i18next"
 
 import { BlogPostContext } from "./interface"
@@ -8,7 +8,6 @@ import SEO, { Meta } from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
 import { Post, Sidebar } from "@layouts/shared/components/Blog"
-import { getLocalizedUrl, useLocaleCode } from "@utils/locales"
 import { ImageSharp } from "@utils/image"
 import { BlogNode } from "@layouts/shared/components/Blog/shared/interface"
 
@@ -60,16 +59,10 @@ export const graphqlQuery = graphql`
 
 const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
   const { t } = useTranslation()
-  const localeCode = useLocaleCode()
 
   const { mdxNode, bannerImage } = data
   const { frontmatter } = mdxNode
   const { meta } = frontmatter
-
-  function handleQueryChange(newQuery: string): void {
-    const pathname = getLocalizedUrl("/blog", localeCode)
-    navigate(`${pathname}?q=${newQuery.trim()}`)
-  }
 
   const breadcrumbs: Array<Breadcrumb> = [
     {
@@ -87,7 +80,7 @@ const BlogPost = ({ data, pageContext }: BlogPostProps): JSX.Element => {
 
       <div className="section">
         <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
-          <Sidebar onQueryChange={handleQueryChange} />
+          <Sidebar />
 
           <div className="section__content">
             <Post mdxNode={mdxNode} bannerImage={bannerImage?.childImageSharp} />

@@ -2,12 +2,6 @@ import { TFunction } from "react-i18next"
 
 import { ArchiveInfo } from "../interface"
 
-import { SidebarArticle } from "./graphql"
-
-export function getRecentArticles(sidebarArticles: Array<SidebarArticle>): Array<SidebarArticle> {
-  return sidebarArticles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 5)
-}
-
 function getArchiveInfoFromArticleDate(articleDate: Date): ArchiveInfo {
   return {
     year: articleDate.getFullYear(),
