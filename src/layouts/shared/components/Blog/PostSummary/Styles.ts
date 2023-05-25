@@ -8,7 +8,7 @@ import { breakpoints, colors, mixin } from "@utils/styles"
 
 export const StyledPostSummary = styled.div`
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 320px 1fr;
   grid-template-areas: "title title" "image text";
   grid-gap: 1rem;
 

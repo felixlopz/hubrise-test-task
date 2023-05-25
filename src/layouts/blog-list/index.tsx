@@ -45,14 +45,14 @@ export const graphqlQuery = graphql`
           date
           title
         }
-        excerpt(pruneLength: 300)
+        excerpt(pruneLength: 250)
       }
     }
     bannerImages: allFile(filter: { absolutePath: { glob: "**/content/blog/**/__banner.*" } }) {
       nodes {
         absolutePath
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, width: 300)
+          gatsbyImageData(layout: CONSTRAINED, width: 320, placeholder: NONE)
         }
       }
     }

@@ -7,6 +7,7 @@ import DateAndAuthor from "../shared/components/DateAndAuthor"
 import { BannerImage, Excerpt, ReadMore, StyledPostSummary, StyledTitle, Text } from "./Styles"
 
 import { ImageSharp } from "@utils/image"
+import Link from "@layouts/shared/components/Link"
 
 interface PostProps {
   mdxNode: BlogNode
@@ -21,7 +22,11 @@ const Post = ({ mdxNode, bannerImage }: PostProps): JSX.Element => {
     <StyledPostSummary>
       <StyledTitle frontmatter={frontmatter} />
 
-      {bannerImage && <BannerImage image={bannerImage.gatsbyImageData} alt={frontmatter.title} />}
+      {bannerImage && (
+        <Link to={fields.path} addLocalePrefix={false}>
+          <BannerImage image={bannerImage.gatsbyImageData} alt={frontmatter.title} />
+        </Link>
+      )}
 
       <Text>
         <DateAndAuthor frontmatter={frontmatter} />
