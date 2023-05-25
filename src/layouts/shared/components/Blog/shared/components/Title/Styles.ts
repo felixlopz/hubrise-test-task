@@ -6,10 +6,8 @@ export const StyledTitle = styled.div`
   color: ${colors.darkGray};
   font-weight: bold;
   position: relative;
-  margin-bottom: 2.5rem;
-  width: 100%;
-  text-align: left;
   font-size: 2.125rem;
+  margin-bottom: 13px;
 
   &:after {
     content: "";

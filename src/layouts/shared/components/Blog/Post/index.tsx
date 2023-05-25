@@ -2,9 +2,8 @@ import * as React from "react"
 
 import { BlogNode } from "../shared/interface"
 import DateAndAuthor from "../shared/components/DateAndAuthor"
-import Title from "../shared/components/Title"
 
-import { BannerImage, StyledPost } from "./Styles"
+import { BannerImage, StyledPost, StyledTitle } from "./Styles"
 
 import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
 import { ImageSharp } from "@utils/image"
@@ -19,11 +18,11 @@ const Post = ({ mdxNode, bannerImage }: PostProps): JSX.Element => {
 
   return (
     <StyledPost>
-      <Title frontmatter={frontmatter} />
-
-      {bannerImage && <BannerImage image={bannerImage.gatsbyImageData} alt={frontmatter.title} />}
+      <StyledTitle frontmatter={frontmatter} />
 
       <DateAndAuthor frontmatter={frontmatter} />
+
+      {bannerImage && <BannerImage image={bannerImage.gatsbyImageData} alt={frontmatter.title} />}
 
       <DocumentationRenderer body={body} />
     </StyledPost>

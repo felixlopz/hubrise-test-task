@@ -10,6 +10,7 @@ export const StyledPostSummary = styled.div`
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-template-areas: "title title" "image text";
+  grid-gap: 1rem;
 
   & + & {
     margin-top: 3rem;
@@ -22,11 +23,11 @@ export const StyledTitle = styled(Title)`
 
 export const BannerImage = styled(GatsbyImage)`
   grid-area: image;
+  border-radius: 0.5rem;
 `
 
 export const Text = styled.div`
   grid-area: text;
-  padding-left: 1rem;
 `
 
 export const Excerpt = styled.div`
