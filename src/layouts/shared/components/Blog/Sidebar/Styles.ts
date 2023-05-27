@@ -3,32 +3,6 @@ import styled, { css } from "styled-components"
 import { breakpoints, colors, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
-export const SearchForm = styled.form`
-  position: relative;
-`
-
-export const SearchInput = styled.input`
-  position: relative;
-  border-radius: 3px;
-  padding-right: 48px;
-`
-
-export const SearchIcon = styled.i`
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 100%;
-  padding-top: 10px;
-  text-align: center;
-  border-radius: 0 3px 3px 0;
-  color: ${colors.white};
-  background-color: ${colors.primary};
-  cursor: pointer;
-
-  ${mixin.buttonOver(colors.white, colors.darkGray)};
-`
-
 export const Menu = styled.div`
   margin-bottom: 2rem;
 `

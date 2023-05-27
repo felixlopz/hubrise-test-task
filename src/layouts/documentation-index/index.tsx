@@ -32,8 +32,8 @@ interface DocumentationIndexNode {
 }
 
 export const graphqlQuery = graphql`
-  query developersData($mdXNodeId: String!) {
-    mdx(id: { eq: $mdXNodeId }) {
+  query developersData($mdxNodeId: String!) {
+    mdx(id: { eq: $mdxNodeId }) {
       frontmatter {
         meta {
           title

@@ -24,8 +24,8 @@ interface DocumentationSimpleNode {
 }
 
 export const graphqlQuery = graphql`
-  query simpleData($mdXNodeId: String!) {
-    mdx(id: { eq: $mdXNodeId }) {
+  query simpleData($mdxNodeId: String!) {
+    mdx(id: { eq: $mdxNodeId }) {
       body
       frontmatter {
         title

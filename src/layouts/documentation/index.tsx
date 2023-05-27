@@ -54,8 +54,8 @@ interface DocumentationImage {
 }
 
 export const graphqlQuery = graphql`
-  query documentationData($mdXNodeId: String!, $imagesRelativeDirectory: String!) {
-    mdxNode: mdx(id: { eq: $mdXNodeId }) {
+  query documentationData($mdxNodeId: String!, $imagesRelativeDirectory: String!) {
+    mdxNode: mdx(id: { eq: $mdxNodeId }) {
       body
       frontmatter {
         app_info {

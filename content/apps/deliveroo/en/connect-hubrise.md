@@ -31,12 +31,6 @@ Alternatively, [enable HubRise directly from your Deliveroo back office](/apps/d
 
 ## 2. Connect Deliveroo Bridge
 
----
-
-**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
-
 To connect Deliveroo Bridge to HubRise, follow these steps.
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
