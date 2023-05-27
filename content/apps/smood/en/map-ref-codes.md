@@ -1,6 +1,6 @@
 ---
 title: Map Ref Codes
-position: 3
+position: 4
 layout: documentation
 meta:
   title: Map Ref Codes | Smood | HubRise
@@ -9,7 +9,7 @@ meta:
 
 Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, you need to make sure that each product in Smood is assigned to the correct ref code.
 
-This page explains how to configure ref codes manually in Smood. Some EPOS solutions offer the ability to export their catalog to HubRise, allowing you to populate Smood products automatically with the correct ref codes. For more details, see [Push the Catalog](/apps/smood/push-catalog).
+This page explains how to configure ref codes manually in Smood. Some EPOS solutions offer the ability to export their catalog to HubRise, allowing you to populate Smood products automatically with the correct ref codes. For more details, see [Pull the Catalog](/apps/smood/pull-catalog).
 
 ---
 

@@ -1,20 +1,22 @@
 ---
-title: Pull Orders
-position: 7
+title: Send Orders
+position: 5
 layout: documentation
 meta:
-  title: Pull Orders | Smood | HubRise
-  description: Find out the technical details of how orders are pulled from Smood into HubRise, which fields are passed and which are not.
+  title: Send Orders | Smood | HubRise
+  description: Find out the technical details of how orders are sent from Smood into HubRise, which fields are passed and which are not.
 ---
 
 Connecting Smood to HubRise allows you to receive orders directly in your EPOS or any other solution connected to your HubRise account.
 
-This page describes the information that HubRise receives from Smood for your orders.
+This page describes the information that Smood sends to HubRise for your orders.
 
 ## Items, Options, and Deals
 
-Smood orders contain the complete information about items, including name, POS ref code, quantity, and price.
+Smood orders contain the complete information about items, including name, ref code, quantity, and price.
+
 Orders contain the complete information about options, including name, option list name, price, quantity, and ref code.
+
 Deals are also supported.
 
 ## Order Statuses
@@ -28,7 +30,7 @@ Status updates synchronisation is supported for the following statuses and in th
 - `in_delivery`: when a Smood driver picks up the order.
 - `completed`: when the restaurant completes the order on the Smood tablet, or when the driver marks the order as delivered on the mobile app.
 
-Smood always notifies HubRise about the cancellation of an order. 
+Smood always notifies HubRise about the cancellation of an order.
 For all the other order updates, you can turn on and off the automatic synchronisation of status updates by following these steps:
 
 1. Log in to your [Smood back office](https://manager.smood.ch/).
@@ -39,7 +41,7 @@ For all the other order updates, you can turn on and off the automatic synchroni
 ## Service Types
 
 Smood sends to HubRise the information about the service type and service type ref.
-You can customise the ref codes for your service types in the **Settings** page of your Smood back office. 
+You can customise the ref codes for your service types in the **Settings** page of your Smood back office.
 
 ## Customer Details
 
