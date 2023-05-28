@@ -7,15 +7,15 @@ meta:
   description: Find out the technical details of how orders are sent from Smood into HubRise, which fields are passed and which are not.
 ---
 
-Connecting Smood to HubRise allows you to receive orders directly in your EPOS or any other solution connected to your HubRise account.
+When you connect Smood to HubRise, your orders are automatically sent to HubRise, then to your EPOS or any other solution connected to HubRise.
 
-This page describes the information that Smood sends to HubRise for your orders.
+This page describes the information Smood sends in orders.
 
 ## Items, Options, and Deals
 
-Smood orders contain the complete information about items, including name, ref code, quantity, and price.
+Smood includes the complete information about items, including name, ref code, quantity, and price.
 
-Orders contain the complete information about options, including name, option list name, price, quantity, and ref code.
+Orders also contain the complete information about options, including name, option list name, price, quantity, and ref code.
 
 Deals are also supported.
 
@@ -30,18 +30,11 @@ Status updates synchronisation is supported for the following statuses and in th
 - `in_delivery`: when a Smood driver picks up the order.
 - `completed`: when the restaurant completes the order on the Smood tablet, or when the driver marks the order as delivered on the mobile app.
 
-Smood always notifies HubRise about the cancellation of an order.
-For all the other order updates, you can turn on and off the automatic synchronisation of status updates by following these steps:
-
-1. Log in to your [Smood back office](https://manager.smood.ch/).
-2. Select the restaurant for which you want to edit products.
-3. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
-4. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of status from Smood to HubRise** option, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
+Smood always notifies HubRise about the cancellation of an order. The other status updates are only synchronised if the **Enable automatic sync of status from Smood to HubRise** option is enabled in the [Configuration page](/apps/smood/configuration#synchronisation-settings).
 
 ## Service Types
 
-Smood sends to HubRise the information about the service type and service type ref.
-You can customise the ref codes for your service types in the **Settings** page of your Smood back office.
+Smood sends to HubRise the information about the service type and service type ref. You can customise the service types ref codes in the [Configuration page](/apps/smood/configuration).
 
 ## Customer Details
 
@@ -49,12 +42,11 @@ Smood provides full customer's details for all orders. However, Smood sends the 
 
 ## Discounts and Charges
 
-Smood provides information about discounts and delivery charges, if present, including the ref code that you specify in the **Settings** page of your Smood back office.
+Smood provides information about discounts and delivery charges, if present, including the ref codes defined in the [Configuration page](/apps/smood/configuration).
 
 ## Payments
 
-Smood sends to HubRise the payment amount and the payment ref code that you specify in the **Settings** page of your Smood back office.
-Smood supports only online payments.
+Smood sends to HubRise the payment amount and the payment ref code defined in the [Configuration page](/apps/smood/configuration#payments).
 
 ## Collection Code
 
