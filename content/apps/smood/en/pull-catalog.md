@@ -76,11 +76,21 @@ For every option in an option list, Smood uses the following information:
 
 ### Deals
 
-HubRise deals are mapped to products with options in Smood.
+In HubRise, deals apply to a specific set of products. An example of a deal is a **Lunch menu** that includes a pizza and a dessert.
+
+Deals in HubRise are mapped to products with options in Smood. Smood will use the following information from HubRise:
+
+- `ref`: The ref code of the product.
+- `name`: The name of the product.
+- `description`: The description of the product.
+- `lines[].label`: If present, the name of the group of options.
+- `lines[].skus[]`: The options in the group.
+
+It is not possible to create deals manually in the Smood back office. If you want to use deals, you must pull a catalog from HubRise.
 
 ### Discounts
 
-Discounts are not imported into Smood. They must be set up in the Smood back office. Unlike deals, existing discounts will not be removed when a new catalog is pulled.
+In HubRise, discounts apply to the order total. Smood does not import discounts from HubRise.
 
 ### Charges
 
