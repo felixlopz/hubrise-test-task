@@ -55,7 +55,7 @@ Smood does not support products with SKUs. When you pull your catalog, Smood cre
 
 For every HubRise SKU, Smood creates a product with the following information:
 
-- `product.name` and `skus.name`: The name of the product. For example, if the HubRise product name is `Pizza margherita` and the sku name is `8"`, Smood creates a product named `Pizza margherita 8"`
+- `product.name` and `skus.name`: The name of the product. For example, if the HubRise product name is `Pizza margherita` and the SKU name is `8"`, Smood creates a product named `Pizza margherita 8"`
 - `product.description`: The description of the product.
 - `product.image_ids`: The IDs of the images associated with the product.
 - `skus.ref`: The ref code of the SKU, which will be passed along in orders.
@@ -74,19 +74,27 @@ For every option in an option list, Smood uses the following information:
 - `name`: The option name.
 - `price`: The price for a single option.
 
-### Deals and Discounts
+### Deals
 
 HubRise deals are mapped to products with options in Smood.
 
+### Discounts
+
+Discounts are not imported into Smood. They must be set up in the Smood back office. Unlike deals, existing discounts will not be removed when a new catalog is pulled.
+
+### Charges
+
+Charges are not imported into Smood.
+
 ## Synchronise Inventory
 
-Smood lets you update the inventory counters of your Smood products based on your HubRise inventory.
-You can let Smood update the inventory automatically, or update it manually.
+Smood can mark your products unavailable based on your HubRise inventory. You can let Smood update the inventory automatically, or update it manually.
+
+Products with a stock of `0` in HubRise will be marked unavailable in Smood, and removed from the menu. When the stock is updated in HubRise, the product will be marked available again.
 
 ### Automatic Inventory Update
 
-Smood can automatically update your inventory every time it is updated on HubRise.
-By default, this option is turned off. To turn it on, follow these steps:
+Smood can automatically update the availability of your products when your inventory is updated on HubRise. By default, this option is turned off. To turn it on, follow these steps:
 
 1. Log in to your [Smood back office](https://manager.smood.ch/).
 1. Select the restaurant for which you want to edit products.

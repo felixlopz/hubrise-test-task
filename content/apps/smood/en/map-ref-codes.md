@@ -22,7 +22,7 @@ This page explains how to configure ref codes manually in Smood. Some EPOS solut
 To assign ref codes to your Smood products, follow these steps:
 
 1. Log in to your [Smood back office](https://manager.smood.ch/).
-1. Select the restaurant for which you want to edit products.
+1. Select the restaurant in the left sidebar.
 1. Click the **Menu** tab, then select the menu that you want to edit.
 1. Expand the category that contains the products that you want to edit, then click on the product name.
 1. In the **Edit a product** dialog that appears, enter the ref code in the **Reference** field.
@@ -36,7 +36,7 @@ You need to repeat this manual procedure for all your available products.
 To assign ref codes to your Smood options, follow these steps:
 
 1. Log in to your [Smood back office](https://manager.smood.ch/).
-1. Select the restaurant for which you want to edit products.
+1. Select the restaurant in the left sidebar.
 1. Click the **Menu** tab, then select the menu that you want to edit.
 1. Expand the category that contains the products that you want to edit, then click on the product name.
 1. In the **Edit a product** dialog that appears, click **Manage options**.
@@ -48,17 +48,8 @@ To assign ref codes to your Smood options, follow these steps:
 
 You need to repeat this manual procedure for all of the options associated with the product.
 
-
 ## Service Types, Discounts, Charges, and Payments
 
-Smood lets you specify the ref codes that are used for service types, discounts, delivery charges, and payments.
+Smood lets you specify the ref codes that are used for service types, discounts, delivery charges, and payments. To customise your ref codes, follow the steps in the [Configuration](/apps/smood/configuration) page.
 
-To customise your ref codes, follow these steps:
-
-1. Log in to your [Smood back office](https://manager.smood.ch/).
-1. Select the restaurant for which you want to edit products.
-1. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
-1. In the **POS Order References Settings** dialog that appears, enter the appropriate ref codes in the available fields, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
-
-Refer to your connected EPOS documentation for more details on the parameters to use.
-For example, if you use Lightspeed, see the [Lightspeed documentation](/apps/lightspeed-restaurant/food-ordering-platforms#smood).
+To find the ref codes to use, refer to your EPOS documentation on the HubRise website. For example, if you use Lightspeed, see the [Lightspeed documentation](/apps/lightspeed-restaurant/food-ordering-platforms#smood).

@@ -7,17 +7,25 @@ meta:
   description: Find out the technical details of how orders are sent from Smood into HubRise, which fields are passed and which are not.
 ---
 
-When you connect Smood to HubRise, your orders are automatically sent to HubRise, then to your EPOS or any other solution connected to HubRise.
+When you connect Smood to HubRise, your orders are automatically sent to HubRise. Then HubRise sends them to your EPOS or any other solution connected to HubRise.
 
 This page describes the information Smood sends in orders.
 
-## Items, Options, and Deals
+## Items, Options
 
 Smood includes the complete information about items, including name, ref code, quantity, and price.
 
 Orders also contain the complete information about options, including name, option list name, price, quantity, and ref code.
 
-Deals are also supported.
+## Deals, Discounts
+
+Customers can use two types of discounts in Smood: **Restaurant discounts** and **Smood discounts**. Restaurant discounts are configured by the restaurant in the Smood back office, whereas Smood discounts are 
+
+Only restaurant discounts are sent to HubRise. They are either sent as `deals` (for discounts applied to a set of items, such as a menu) or as `discounts` (for discounts applied to the whole order, for example a 10% discount).
+
+Since Smood does not natively support deals, it uses products and options to represent deals. For example, a menu is represented as a product, and its items are represented as options. The price of the menu is the sum of the prices of the product and its options.
+
+Smood discounts are included in the final price of the items, but not sent as separate `deals` or `discounts` to HubRise.
 
 ## Order Statuses
 
