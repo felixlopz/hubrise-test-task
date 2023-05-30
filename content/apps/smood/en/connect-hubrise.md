@@ -19,7 +19,7 @@ Connecting Smood to HubRise can be done with a few steps.
 
 As a first step, the HubRise integration must be enabled on your Smood account.
 
-Contact the Smood support team at [integrations@smood.ch](mailto:integrations@smood.ch) and request the activation of the HubRise integration. You can include support@hubrise.com in copy.
+Contact your Smood account manager, and request the activation of the HubRise integration. If you request the activation by email, include support@hubrise.com in copy of your email.
 
 ## 2. Connect Smood
 
