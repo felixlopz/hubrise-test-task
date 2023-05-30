@@ -9,13 +9,13 @@ meta:
 
 This page explains how you can pull your HubRise catalog into Smood, what information is sent to Smood, and how you can synchronise your inventory.
 
-## Pull Your Catalog
+## Pull a Catalog
 
-You can pull your HubRise catalog into Smood automatically every time it is updated on HubRise, or pull it manually when needed. As a preliminary step, populate your HubRise catalog.
+As a preliminary step, you need to populate your HubRise catalog. Then you can pull your catalog into Smood automatically when sit is updated on HubRise, or pull it manually when needed.
 
 ### Populate a HubRise Catalog
 
-To be able to pull your catalog into Smood, you must populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your EPOS documentation on the HubRise website to verify.
+Some EPOS solutions offer the ability to export the catalog to HubRise. If your EPOS does not offer this feature, you can populate your HubRise catalog manually. Refer to your EPOS documentation on the HubRise website to verify.
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -39,9 +39,9 @@ Smood can automatically pull your HubRise catalog every time it is updated in Hu
 1. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
 1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the catalog** option, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
 
-## Technical Reference for Catalog Pull
+## Technical Reference
 
-The following sections describe in detail how HubRise catalogs are mapped to Smood.
+The following sections describe how HubRise catalogs are mapped to Smood.
 
 ### Categories
 
@@ -51,8 +51,6 @@ Smood only supports one level of categories. If you use subcategories in your Hu
 
 ### Products and SKUs
 
-Smood does not support products with SKUs. When you pull your catalog, Smood creates a new product for every HubRise SKU.
-
 For every HubRise SKU, Smood creates a product with the following information:
 
 - `product.name` and `skus.name`: The name of the product. For example, if the HubRise product name is `Pizza margherita` and the SKU name is `8"`, Smood creates a product named `Pizza margherita 8"`
@@ -60,6 +58,8 @@ For every HubRise SKU, Smood creates a product with the following information:
 - `product.image_ids`: The IDs of the images associated with the product.
 - `skus.ref`: The ref code of the SKU, which will be passed along in orders.
 - `skus.price`: The price of the SKU.
+
+Note that Smood does not natively support products with SKUs, so a product with SKUs in HubRise will be mapped to multiple products in Smood.
 
 ### Options
 
@@ -76,7 +76,7 @@ For every option in an option list, Smood uses the following information:
 
 ### Deals
 
-In HubRise, deals apply to a specific set of products. An example of a deal is a **Lunch menu** that includes a pizza and a dessert.
+In HubRise, deals are promotions which apply to a specific set of products. An example deal is a **Lunch menu** deal, that includes a pizza and a dessert.
 
 Deals in HubRise are mapped to products with options in Smood. Smood will use the following information from HubRise:
 
@@ -90,7 +90,7 @@ It is not possible to create deals manually in the Smood back office. If you wan
 
 ### Discounts
 
-In HubRise, discounts apply to the order total. Smood does not import discounts from HubRise.
+Discounts are not imported into Smood.
 
 ### Charges
 

@@ -21,10 +21,10 @@ When the status of an order changes in HubRise, for example when the EPOS marks 
 
 Smood then updates the status of the order in its back office, depending on the status received from HubRise:
 
-- `cancelled`, `delivery_failed`, or `rejected`: the order is marked for manual processing. A Smood operator will contact the restaurant.
-- `awaiting_collection` or `awaiting_shipment`: the order is ready for collection by the driver or the customer.
-- `in_delivery`: the order is being delivered. Only synced for restaurant delivery.
-- `completed`: the order has been delivered. Only synced for restaurant delivery.
+- `cancelled`, `delivery_failed`, or `rejected`: The order is marked for manual processing. A Smood operator will contact the restaurant.
+- `awaiting_collection` or `awaiting_shipment`: The order is ready for collection by the driver or the customer.
+- `in_delivery`: The order is being delivered. Only synced for restaurant delivery.
+- `completed`: The order has been delivered. Only synced for restaurant delivery.
 
 Other statuses, such as `received`, are ignored by Smood.
 
@@ -32,11 +32,11 @@ Other statuses, such as `received`, are ignored by Smood.
 
 Smood sends the following statuses to HubRise:
 
-- `cancelled`: when the customer cancels the order.
-- `in_preparation`: when the status is updated from the restaurant tablet.
-- `awaiting_shipment` and `awaiting_collection`: when the status is updated from the restaurant tablet, depending on the service type.
-- `in_delivery`: when a Smood driver picks up the order.
-- `completed`: when the restaurant completes the order on the Smood tablet, or when the driver marks the order as delivered on the mobile app.
+- `cancelled`: When the customer cancels the order.
+- `in_preparation`: When the status is updated from the restaurant tablet.
+- `awaiting_shipment` and `awaiting_collection`: When the status is updated from the restaurant tablet, depending on the service type.
+- `in_delivery`: When a Smood driver picks up the order.
+- `completed`: When the restaurant completes the order on the Smood tablet, or when the driver marks the order as delivered on the mobile app.
 
 Smood always notifies HubRise about the cancellation of an order by sending the `cancelled` status. The other statuses are only synchronised if the **Enable automatic sync of status from Smood to HubRise** option is enabled in the [Configuration page](/apps/smood/configuration#synchronisation-settings).
 
@@ -44,10 +44,10 @@ Smood always notifies HubRise about the cancellation of an order by sending the 
 
 Smood sends the following general order information to HubRise:
 
-- `service_type`: can be `delivery` or `collection`.
-- `service_type_ref`: the ref code of the service type, if defined in the [Configuration page](/apps/smood/configuration#service-types).
-- `collection_code`: the order number, which consists of 3 letters and 4 numbers separated by a dash, e.g. `ABC-1234`.
-- `customer_notes`: the preparation notes entered by the customer.
+- `service_type`: Can be `delivery` or `collection`.
+- `service_type_ref`: The ref code of the service type, if defined in the [Configuration page](/apps/smood/configuration#service-types).
+- `collection_code`: The order number, which consists of 3 letters and 4 numbers separated by a dash, e.g. `ABC-1234`.
+- `customer_notes`: The preparation notes entered by the customer.
 
 ## Items and Options
 
@@ -64,16 +64,16 @@ Smood sends two types of deals to HubRise:
 
 Both types of deals are sent as `deals` in HubRise, with the following fields:
 
-- `name`: the name of the promotion or deal.
-- `ref`: the **Promotion ref code** defined in the [Configuration page](/apps/smood/configuration#promotions), for promotions, or the deals' ref codes, for deals imported from HubRise.
+- `name`: The name of the promotion or deal.
+- `ref`: The **Promotion ref code** defined in the [Configuration page](/apps/smood/configuration#promotions), for promotions, or the deals' ref codes, for deals imported from HubRise.
 
 ## Charges
 
 For restaurant delivery orders, Smood sends delivery charges as a `charges` to HubRise:
 
 - `name`: Smood sends `Delivery fee` in this field.
-- `ref`: the **Delivery charge ref code** defined in the [Configuration page](/apps/smood/configuration#charges).
-- `price`: the delivery charge.
+- `ref`: The **Delivery charge ref code** defined in the [Configuration page](/apps/smood/configuration#charges).
+- `price`: The delivery charge.
 
 ## Discounts
 
@@ -81,16 +81,16 @@ Discounts are set up in the Smood back office, in the **Marketing** > **Discount
 
 They are sent to HubRise as `discounts`:
 
-- `name`: the Voucher description set in the Smood back office.
-- `ref`: the **Discount ref code** defined in the [Configuration page](/apps/smood/configuration#discounts).
-- `amount`: the discount amount.
+- `name`: The Voucher description set in the Smood back office.
+- `ref`: The **Discount ref code** defined in the [Configuration page](/apps/smood/configuration#discounts).
+- `amount`: The discount amount.
 
 ## Payments
 
 Smood sends a payment with the following fields:
 
-- `ref`: the **Online payment ref code** defined in the [Configuration page](/apps/smood/configuration#payments).
-- `amount`: the total amount paid by the customer.
+- `ref`: The **Online payment ref code** defined in the [Configuration page](/apps/smood/configuration#payments).
+- `amount`: The total amount paid by the customer.
 
 ## Customer
 
