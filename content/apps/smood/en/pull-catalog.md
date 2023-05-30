@@ -39,6 +39,30 @@ Smood can automatically pull your HubRise catalog every time it is updated in Hu
 1. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
 1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the catalog** option, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
 
+## Synchronise Inventory
+
+Smood can mark your products unavailable based on your HubRise inventory. You can let Smood update the inventory automatically, or update it manually.
+
+Products with a stock of `0` in HubRise will be marked unavailable in Smood, and removed from the menu. When the stock is updated in HubRise, the product will be marked available again.
+
+### Automatic Inventory Update
+
+Smood can automatically update the availability of your products when your inventory is updated on HubRise. By default, this option is turned off. To turn it on, follow these steps:
+
+1. Log in to your [Smood back office](https://manager.smood.ch/).
+1. Select the restaurant for which you want to edit products.
+1. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
+1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the inventory** option, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
+
+### Manual Inventory Update
+
+To manually update your Smood inventory, follow these steps:
+
+1. Log in to your [Smood back office](https://manager.smood.ch/).
+1. Select the restaurant for which you want to edit products.
+1. Click the **Settings** tab, then in the **Integrations** section, click **Pull HubRise inventory**.
+1. To confirm, click **Yes**.
+
 ## Technical Reference
 
 The following sections describe how HubRise catalogs are mapped to Smood.
@@ -95,27 +119,3 @@ Discounts are not imported into Smood.
 ### Charges
 
 Charges are not imported into Smood.
-
-## Synchronise Inventory
-
-Smood can mark your products unavailable based on your HubRise inventory. You can let Smood update the inventory automatically, or update it manually.
-
-Products with a stock of `0` in HubRise will be marked unavailable in Smood, and removed from the menu. When the stock is updated in HubRise, the product will be marked available again.
-
-### Automatic Inventory Update
-
-Smood can automatically update the availability of your products when your inventory is updated on HubRise. By default, this option is turned off. To turn it on, follow these steps:
-
-1. Log in to your [Smood back office](https://manager.smood.ch/).
-1. Select the restaurant for which you want to edit products.
-1. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
-1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the inventory** option, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
-
-### Manual Inventory Update
-
-To manually update your Smood inventory, follow these steps:
-
-1. Log in to your [Smood back office](https://manager.smood.ch/).
-1. Select the restaurant for which you want to edit products.
-1. Click the **Settings** tab, then in the **Integrations** section, click **Pull HubRise inventory**.
-1. To confirm, click **Yes**.
