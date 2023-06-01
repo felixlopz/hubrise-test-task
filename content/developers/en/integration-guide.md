@@ -112,7 +112,7 @@ Your integration should prevent or at least warn users when they try to upload b
 
 An app using images should always perform image scaling, rather than relying on other apps to send images with reasonable size.
 
-HubRise supports various image formats: jpeg, png, gif and bmp. We recommend using jpeg for photos, and png for "low entropy" images (text, diagrams, simple drawings, etc).
+HubRise supports the following image formats: JPEG, PNG, WEBP, GIF, and BMP. We recommend using JPEG or WEBP for photos, and PNG or WEBP for low entropy images, such as drawings, logos, or text.
 
 ## Online Ordering Solutions
 
