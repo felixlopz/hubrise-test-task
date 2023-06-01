@@ -1173,23 +1173,23 @@ Assuming the default price is `25.00 EUR`:
 
 Images can be attached to products and deals, via their `image_ids` fields.
 
-Images must be uploaded before catalog data, since the images' `id`s must be passed in the products and deals. Upload sequence is as follows:
+Images must be uploaded before catalog data, since the images' `id`s must be passed in the products and deals. The sequence is therefore:
 
-1. create an empty catalog: `POST /catalogs` or reuse an existing catalog
-1. upload images: `POST /catalogs/:catalog_id/images`
-1. upload catalog data: `PUT /catalogs/:catalog_id`
+1. If you are not reusing an existing catalog, create an empty one first: `POST /catalogs`.
+1. Upload all your images: `POST /catalogs/:catalog_id/images`.
+1. Finally, upload the catalog: `PUT /catalogs/:catalog_id`.
 
-There is no endpoint to delete an image: when an image is left unattached for 30 days in a row, it is automatically removed.
+There is no endpoint to delete an image. Images which are not used for 30 days are automatically removed.
 
 ### 13.1. Create Image
 
-Upload an image.
+Upload an image to a catalog.
 
-The `Content-Type` header must contain the image MIME type (eg `image/png`).
+The `Content-Type` header must contain the image MIME type, for example: `image/png`. The image data must be sent in the request body.
 
-The image data is passed in the request body.
+HubRise supports the following image formats: `JPEG`, `PNG`, `WEBP`, `GIF`, and `BMP`. Image data must not exceed `1 Mb` per image.
 
-Image data must not exceed 1 Mb per image. There are no constraints on the image size or resolution, or on the number of images per catalog.
+HubRise does not impose any restrictions on image dimensions. However, we recommend using images in `1920x1080` format to ensure a good quality across all channels.
 
 <CallSummaryTable
   endpoint="POST /catalogs/:catalog_id/images"
