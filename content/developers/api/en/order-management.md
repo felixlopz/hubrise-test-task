@@ -990,7 +990,7 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 
 A `tax_rate` can be specified for each order item and order charge.
 
-Tax rate are decimal numbers, representing a percentage of the price. For example, `tax_rate=15.5` means that the tax is 15.5% of the price of the item or charge.
+Tax rate are decimal numbers, representing a percentage of the price. For example, `tax_rate="15.5"` means that the tax is 15.5% of the price of the item or charge.
 
 Whether prices are tax-inclusive or exclusive is a decision taken at the account level. The chosen convention must then be enforced by all clients connected to the account. As a general rule, you can assume that prices in HubRise are **tax-inclusive** for accounts situated in markets where consumer prices are tax-inclusive, for example European countries. On the contrary, prices can generally be considered as **tax-exclusive** in the other markets, for example the U.S.
 

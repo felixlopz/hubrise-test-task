@@ -15,12 +15,6 @@ This page attempts to be a comprehensive list of the most widespread conventions
 
 ## General conventions
 
-### Tags on categories
-
-| Tag      | Description                                                                                                          |
-| -------- | -------------------------------------------------------------------------------------------------------------------- |
-| `hidden` | The category is hidden, but its products are available. Typically used to hide products only available within deals. |
-
 ### Tags on SKUs
 
 The following tag can be set at the SKU level:

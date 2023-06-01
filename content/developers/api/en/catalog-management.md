@@ -1088,6 +1088,7 @@ A `restrictions` object can be used in [Sku](#skus), [Option](#options), [Deal](
 
 | Name                                                                      | Type                                                        | Description                                                                                                                                                                  |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `enabled` <Label type="optional" />                                       | boolean                                                     | Enabled or disabled. The default value is `true`, and the field is omitted if its value is `true`.                                                                           |
 | `variant_refs` <Label type="optional" />                                  | string[]                                                    | Enabled for the specified variants, identified by their ref. The variants must exist in the catalog.                                                                         |
 | `dow` <Label type="optional" />                                           | [DOW](/developers/api/general-concepts/#days-of-the-week)   | Enabled on certain days of the week.                                                                                                                                         |
 | `start_time` <Label type="optional" />                                    | string                                                      | Enabled from a certain time of the day. Format: `HH:MM`.                                                                                                                     |
@@ -1100,18 +1101,18 @@ A `restrictions` object can be used in [Sku](#skus), [Option](#options), [Deal](
 | `max_per_order` <Label type="optional" />                                 | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per order.                                                                                                                                               |
 | `max_per_customer` <Label type="optional" />                              | [decimal](/developers/api/general-concepts/#decimal-values) | Max number of items per customer.                                                                                                                                            |
 
-All the fields above are optional. Fields with a `null` value are ignored.
+All the fields above are optional. Fields with a `null` value are ignored. Fields with a `string[]` type can be set to `[]`, in which case the item is disabled for all variants (or service types, or service type refs).
 
-Fields with a `string[]` type can be empty, in which case the restriction applies to all variants, service types or service type refs. Passing `variant_refs: []` is the standard way to disable an item, but keep it in the catalog for future use.
+The `service_types` and `service_type_refs` fields have been deprecated in favor of `variant_refs`. Catalog variants are more flexible, as they can represent arbitrary conditions. The variant to use for a particular order type is configured in the application using the catalog.
 
-All conditions must be met simultaneously for an item to be available.
+All conditions must be met simultaneously for an item to be available. In particular, setting `enabled` to `false` disables the item regardless of the other conditions.
 
 #### Example:
 
 ```json
 "restrictions": {
   "variant_refs": ["2", "3"],
-  "dow": "123-5--",
+  "dow": "1---5--",
   "start_time": "07:00",
   "end_time": "13:30",
   "end_date": "2020-02-02",
@@ -1119,6 +1120,8 @@ All conditions must be met simultaneously for an item to be available.
   "max_per_order": "1"
 }
 ```
+
+The item is only enabled for variants with refs `2` and `3`, on Monday and Friday, from 7:00 to 13:30, until February 2nd 2020, for orders equal or greater than 20.00 EUR, and with a maximum of 1 item per order.
 
 ## 12. Price Overrides
 
@@ -1141,6 +1144,8 @@ Each rule defines a price and a set of conditions. The structure of a rule is de
 | `price`                                                                   | [Money](/developers/api/general-concepts/#monetary-values) | The new price if the rule matches.                                                                                                                                           |
 
 All the fields above are optional, except `price`. Fields with a `null` value are ignored. Fields with a `string[]` value must be either omitted or contain at least one value, and they cannot contain duplicate values.
+
+The `service_types` and `service_type_refs` fields have been deprecated. See [Restrictions](#restrictions) for more details.
 
 All conditions must be met simultaneously for a rule to match. When one or several rules match, the price of the last matching rule applies. When no rule matches, or when the item has no price overrides, the default price applies.
 
