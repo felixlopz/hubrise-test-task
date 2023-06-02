@@ -33,6 +33,12 @@ Once the HubRise integration is enabled, follow these steps:
 1. Select the HubRise location and the catalog you want to connect, then click **Next**.
 1. You are redirected to the Smood back office. The connection is now established.
 
+---
+
+**IMPORTANT NOTE:** Smood does not support multiple restaurants connected to the same HubRise location. If you connect a location which has already been connected to another restaurant, the connection will be lost for the other restaurant.
+
+---
+
 ## 3. Map Ref Codes
 
 Each product or option in Smood needs to have a corresponding ref code. This ensures that your EPOS can identify every item correctly.
