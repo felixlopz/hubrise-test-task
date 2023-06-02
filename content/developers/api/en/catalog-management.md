@@ -1189,7 +1189,7 @@ The `Content-Type` header must contain the image MIME type, for example: `image/
 
 HubRise supports the following image formats: `JPEG`, `PNG`, `WEBP`, `GIF`, and `BMP`. Image data must not exceed `1 Mb` per image.
 
-HubRise does not impose any restrictions on image dimensions. However, we recommend using images in `1920x1080` format to ensure a good quality across all channels.
+HubRise does not impose any restrictions on image dimensions. However, we recommend using images in `1200x800` format or larger to ensure a good quality across all channels.
 
 <CallSummaryTable
   endpoint="POST /catalogs/:catalog_id/images"
