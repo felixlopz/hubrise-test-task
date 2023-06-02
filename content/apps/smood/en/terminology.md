@@ -1,6 +1,6 @@
 ---
 title: Terminology
-position: 9
+position: 7
 layout: documentation
 meta:
   title: Terminology | Smood | HubRise

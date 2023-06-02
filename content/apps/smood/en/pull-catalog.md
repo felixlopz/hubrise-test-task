@@ -28,7 +28,7 @@ Once your catalog is populated on HubRise, you can manually pull it into your Sm
 1. Click the **Settings** tab, then in the **Integrations** section, click **Pull HubRise catalog**.
 1. To confirm, click **Yes**.
 
-To understand how the HubRise catalog is mapped to Smood, see the [technical details](#technical-referece-for-catalog-pull).
+To understand how the HubRise catalog is mapped to Smood, see the [technical reference](#technical-reference) below.
 
 ### Automatic Catalog Pull
 
@@ -109,6 +109,14 @@ Deals in HubRise are mapped to products with options in Smood. Smood will use th
 - `description`: The description of the product.
 - `lines[].label`: If present, the name of the group of options.
 - `lines[].skus[]`: The options in the group.
+
+The options from the products in the deal are discarded. For example, if a deal includes a pizza, the customer will not be able to choose the pizza toppings.
+
+---
+
+**IMPORTANT NOTE:** Smood discards options from products in deals. Furthermore, if an option is required for a product, the deal will not be imported.
+
+---
 
 It is not possible to create deals manually in the Smood back office. If you want to use deals, you must pull a catalog from HubRise.
 
