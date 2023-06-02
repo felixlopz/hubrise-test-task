@@ -18,7 +18,7 @@ Once you've created the new product, you can add details to it and relate it to 
 ## Add or Edit Product Details
 
 - In the **Description** field enter the product description.
-- Add one or more photos of the product by clicking on the **+** icon.  For food ordering and delivery platforms, we recommend that images should be jpg or png, 1920x1080 pixels, with a ratio of 16:9.
+- Add one or more photos of the product by clicking on the **+** icon.  For food ordering and delivery platforms, we recommend that images should be jpg or png, 1200x800 pixels or larger, with a ratio of 16:9.
 - If the product has variations that a customer needs to choose from, tick the **multiple SKUs** check box.  You will then need to enter the **SKU Name**, **Price** and **Ref code** for each variation.  If there are no variations, then you can enter the price and ref code.
 - You can include more variations by selecting **+ New SKU**.
 
