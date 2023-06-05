@@ -1,27 +1,28 @@
 import styled from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { colors, mixin } from "@utils/styles"
+import { colors, mixin, sizes } from "@utils/styles"
 
 export const StyledPlan = styled.div`
   background-color: ${colors.primary};
   color: ${colors.white};
   font-size: 1.125rem;
-  line-height: 1.5;
-  margin: 4.5rem calc((100% - 100vw) / 2);
-  padding: 4.5rem 0.625rem;
+  margin: ${sizes.blockVerticalPadding} calc((100% - 100vw) / 2);
+  padding: ${sizes.blockVerticalPadding} 0.625rem;
 `
 
 export const Title = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 1rem;
 `
 
-export const TitleMain = styled.h3`
+export const TitleMain = styled.h4`
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.625rem;
+  margin-bottom: 0;
 `
 
 export const TitleSub = styled.div``
