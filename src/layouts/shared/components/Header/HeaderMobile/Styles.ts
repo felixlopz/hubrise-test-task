@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
-import { breakpoints, mixin } from "@utils/styles"
+import { headerStyle } from "../helpers"
+
+import { breakpoints } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const StyledHeader = styled.div`
@@ -8,7 +10,7 @@ export const StyledHeader = styled.div`
   align-items: center;
   position: sticky;
   top: 0;
-  ${mixin.headerStyle};
+  ${headerStyle};
 
   @media (min-width: ${breakpoints.large}) {
     display: none;

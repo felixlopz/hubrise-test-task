@@ -1,5 +1,7 @@
 import styled, { css } from "styled-components"
 
+import { headerStyle } from "../helpers"
+
 import { breakpoints, colors, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
@@ -13,7 +15,7 @@ export const StyledHeader = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 0 2%;
-    ${mixin.headerStyle};
+    ${headerStyle};
   }
 `
 
