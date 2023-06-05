@@ -2,12 +2,28 @@ import { css, FlattenSimpleInterpolation } from "styled-components"
 
 export const colors = {
   primary: "#6db24f",
+  danger: "#e13c3c",
+  white: "#fff",
 
+  // TODO: remove
   darkGray: "#333",
   gray: "#555",
   lightGray: "#777",
   silverGray: "#ccc",
-  white: "#fff",
+  // end TODO
+
+  textDarkest: "#222",
+  textDark: "#555",
+  textMedium: "#777",
+  textLight: "#999",
+  textLighter: "#bbb",
+
+  backgroundDark: "#555",
+  backgroundMedium: "#d0d0d0",
+  backgroundLight: "#eaeaea",
+  backgroundLighter: "#f2f2f2",
+  backgroundLightest: "#f8f8f8",
+  backgroundWhite: "#fff",
 }
 
 export const sizes = {

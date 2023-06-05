@@ -24,24 +24,22 @@ const Sidebar = (): JSX.Element => {
   }, [isDesktop])
 
   return (
-    <aside className="section__sidebar">
-      <Menu>
-        <MenuTitle onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}>
-          {t("blog.by_month")}
-          <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
-        </MenuTitle>
+    <Menu>
+      <MenuTitle onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}>
+        {t("blog.by_month")}
+        <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
+      </MenuTitle>
 
-        <MenuList $isSelected={isArchiveExpanded}>
-          {archiveList.map((archiveInfo) => (
-            <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
-              <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">
-                {getArchiveTitle(archiveInfo, t)}
-              </ItemLink>
-            </MenuItem>
-          ))}
-        </MenuList>
-      </Menu>
-    </aside>
+      <MenuList $isSelected={isArchiveExpanded}>
+        {archiveList.map((archiveInfo) => (
+          <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
+            <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">
+              {getArchiveTitle(archiveInfo, t)}
+            </ItemLink>
+          </MenuItem>
+        ))}
+      </MenuList>
+    </Menu>
   )
 }
 
