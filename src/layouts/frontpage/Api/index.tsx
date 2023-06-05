@@ -14,7 +14,7 @@ interface ApiProps {
 
 const Api = ({ title, description, image }: ApiProps): JSX.Element => {
   return (
-    <section className="frontpage__row frontpage__row_oneside">
+    <div className="frontpage__row frontpage__row_oneside">
       <div className="frontpage__row_oneside__in frontpage__row_oneside__in_left">
         <Container>
           <div>
@@ -27,7 +27,7 @@ const Api = ({ title, description, image }: ApiProps): JSX.Element => {
           </Image>
         </Container>
       </div>
-    </section>
+    </div>
   )
 }
 

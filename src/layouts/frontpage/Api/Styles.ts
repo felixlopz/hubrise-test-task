@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { breakpoints, colors } from "@utils/styles"
 import { frontpageMixin } from "@layouts/frontpage/Styles"
 
-export const Container = styled.section`
+export const Container = styled.div`
   padding: 2rem 1rem;
   display: grid;
   grid-template-columns: 1fr;

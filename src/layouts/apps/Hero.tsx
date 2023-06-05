@@ -13,7 +13,7 @@ const Hero = ({ hero }: HeroProps): JSX.Element => {
   const { forms } = useLayoutContext()
 
   return (
-    <section className="section">
+    <div className="section">
       <div className="section__in section__in_padding">
         <h3 className="section__title">{hero.title}</h3>
         <div className="section__description">
@@ -40,7 +40,7 @@ const Hero = ({ hero }: HeroProps): JSX.Element => {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

@@ -4,7 +4,7 @@ import { breakpoints, colors, mixin } from "@utils/styles"
 import { frontpageMixin } from "@layouts/frontpage/Styles"
 import Link from "@layouts/shared/components/Link"
 
-export const Container = styled.section`
+export const Container = styled.div`
   padding: 2rem 1rem;
   display: grid;
   grid-template-columns: 1fr;

@@ -3,7 +3,7 @@ import styled from "styled-components"
 import Link from "@layouts/shared/components/Link"
 import { colors, mixin, sizes } from "@utils/styles"
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
   max-width: 75rem;

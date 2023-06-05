@@ -10,7 +10,7 @@ const Developer = ({ developers }: DevelopersProps): JSX.Element => {
   const { title, description } = developers
 
   return (
-    <section
+    <div
       className={`
       section
       section_full-width
@@ -19,7 +19,6 @@ const Developer = ({ developers }: DevelopersProps): JSX.Element => {
     >
       <div
         className={`
-        section__in
         section__in
         section__in_green
         section__in_padding
@@ -33,7 +32,7 @@ const Developer = ({ developers }: DevelopersProps): JSX.Element => {
           {description.paragraph_2.chunk_2}
         </p>
       </div>
-    </section>
+    </div>
   )
 }
 

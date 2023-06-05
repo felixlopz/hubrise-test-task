@@ -4,7 +4,7 @@ import { breakpoints, colors, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 import bannerImage from "@assets/images/hero_image.jpg"
 
-export const Container = styled.section`
+export const Container = styled.div`
   position: relative;
   display: flex;
   flex-flow: column-reverse;

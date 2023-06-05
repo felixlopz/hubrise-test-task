@@ -3,7 +3,7 @@ import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 import { breakpoints, colors } from "@utils/styles"
 import { frontpageMixin } from "@layouts/frontpage/Styles"
 
-export const Container = styled.section`
+export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   display: grid;

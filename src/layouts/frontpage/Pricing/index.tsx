@@ -14,7 +14,7 @@ interface PricingProps {
 
 const Pricing = ({ title, description, button_label, button_url, link_label, link_url }: PricingProps): JSX.Element => {
   return (
-    <section className="frontpage-full frontpage-full_green">
+    <div className="frontpage-full frontpage-full_green">
       <div className="frontpage-full__inside">
         <div className="frontpage-full__text">
           <h3 className="frontpage-full__title">{title}</h3>
@@ -39,7 +39,7 @@ const Pricing = ({ title, description, button_label, button_url, link_label, lin
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

@@ -2,12 +2,12 @@ import styled, { css } from "styled-components"
 
 import { breakpoints, colors, mixin } from "@utils/styles"
 
-export const StyledFeedback = styled.section`
+export const StyledFeedback = styled.div`
   background-color: ${colors.white};
   color: ${colors.darkGray};
 `
 
-export const Section = styled.section`
+export const Section = styled.div`
   display: flex;
   align-items: center;
   padding: 1.6rem 1rem;

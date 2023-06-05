@@ -39,7 +39,7 @@ const App = ({
   const { t } = useTranslation()
 
   return (
-    <section className="section section__center">
+    <div className="section section__center">
       {showTitle && <h3 className="section__title">{title}</h3>}
 
       <Group>
@@ -73,7 +73,7 @@ const App = ({
           </AppBoxStatic>
         )}
       </Group>
-    </section>
+    </div>
   )
 }
 

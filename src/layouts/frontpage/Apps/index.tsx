@@ -16,7 +16,7 @@ interface AppsProps {
 
 const Apps = ({ title, description, categories, apps, appsHover }: AppsProps): JSX.Element => {
   return (
-    <section className="frontpage__row frontpage__row_oneside">
+    <div className="frontpage__row frontpage__row_oneside">
       <div className="frontpage__row_oneside__in frontpage__row_oneside__in_right">
         <Container>
           <Text>
@@ -39,7 +39,7 @@ const Apps = ({ title, description, categories, apps, appsHover }: AppsProps): J
           </ImageLink>
         </Container>
       </div>
-    </section>
+    </div>
   )
 }
 

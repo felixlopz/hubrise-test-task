@@ -36,13 +36,13 @@ const Pricing = ({ data }: PricingProps): JSX.Element => {
     <>
       <SEO meta={meta} />
 
-      <section className="section section_white pricing">
+      <div className="section section_white pricing">
         <div className="section__in section__in_padding">
           <h3 className="section__title">{content.hero.title}</h3>
           <Offer offer={content.offer} />
           <Specials specials={content.specials} />
         </div>
-      </section>
+      </div>
     </>
   )
 }

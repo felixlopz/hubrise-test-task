@@ -108,7 +108,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 
       {archive ? <Breadcrumbs breadcrumbs={breadcrumbs} /> : <Hero title={hero.title} description={hero.description} />}
 
-      <section className="section">
+      <div className="section">
         <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
           <Sidebar />
 
@@ -118,7 +118,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
             ))}
           </div>
         </div>
-      </section>
+      </div>
     </MDXProvider>
   )
 }

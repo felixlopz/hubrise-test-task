@@ -12,7 +12,7 @@ interface JoinProps {
 
 const Join = ({ title, button_label, button_url, link_label, link_url }: JoinProps): JSX.Element => {
   return (
-    <section className="frontpage-full frontpage-full_white">
+    <div className="frontpage-full frontpage-full_white">
       <div className="frontpage-full__inside">
         <div className="frontpage-full__text">
           <h3 className="frontpage-full__title">{title}</h3>
@@ -32,7 +32,7 @@ const Join = ({ title, button_label, button_url, link_label, link_url }: JoinPro
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

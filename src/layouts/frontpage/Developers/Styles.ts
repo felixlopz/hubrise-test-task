@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import { breakpoints, colors } from "@utils/styles"
 import { frontpageMixin } from "@layouts/frontpage/Styles"
 
-export const Container = styled.section`
+export const Container = styled.div`
   ${frontpageMixin.row};
   background-color: ${colors.white};
 `

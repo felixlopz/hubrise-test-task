@@ -9,7 +9,7 @@ const Hero = (hero: IHero): JSX.Element => {
   const { title, description } = hero
 
   return (
-    <section className="section">
+    <div className="section">
       <div className="section__in section__in_padding">
         <h3 className="section__title">{title}</h3>
         <div className="section__description">
@@ -25,7 +25,7 @@ const Hero = (hero: IHero): JSX.Element => {
           ) : null}
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

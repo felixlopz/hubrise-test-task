@@ -52,13 +52,6 @@
     }
   }
 
-  &__in_reverse {
-    &:before {
-      right: 100%;
-      left: inherit;
-    }
-  }
-
   &__in_left {
     &:before {
       right: 100%;

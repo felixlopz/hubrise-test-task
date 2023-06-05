@@ -133,12 +133,11 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
 
       <Breadcrumbs breadcrumbs={breadcrumbs} />
 
-      <section className="section">
+      <div className="section">
         <div
           className={`
           section__in
           section__in_padding
-          section__in_reverse
           section__in_developers
         `}
         >
@@ -160,7 +159,7 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
 
           {appInfo && <AppInfo appInfo={appInfo} />}
         </div>
-      </section>
+      </div>
 
       <Feedback relativePath={currentMdxNode.parent.relativePath} />
     </MDXProvider>

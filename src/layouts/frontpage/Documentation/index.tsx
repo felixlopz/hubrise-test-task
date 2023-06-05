@@ -14,7 +14,7 @@ interface DocumentationProps {
 
 const Documentation = ({ title, description, image }: DocumentationProps): JSX.Element => {
   return (
-    <section className="frontpage__row frontpage__row_oneside">
+    <div className="frontpage__row frontpage__row_oneside">
       <div className="frontpage__row_oneside__in frontpage__row_oneside__in_right">
         <Container>
           <Text>
@@ -27,7 +27,7 @@ const Documentation = ({ title, description, image }: DocumentationProps): JSX.E
           </Image>
         </Container>
       </div>
-    </section>
+    </div>
   )
 }
 

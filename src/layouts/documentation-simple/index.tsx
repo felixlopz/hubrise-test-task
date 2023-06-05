@@ -47,7 +47,7 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
       <SEO meta={meta} />
 
       <div className="section">
-        <div className="section__in section__in_padding section__in_reverse">
+        <div className="section__in section__in_padding">
           <h3 className="section__title section__title_align-left">{frontmatter.title}</h3>
 
           <StyledMDX>

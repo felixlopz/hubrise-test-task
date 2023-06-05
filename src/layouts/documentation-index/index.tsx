@@ -72,17 +72,16 @@ const DocumentationIndex = ({ data }: DocumentationIndexProps): JSX.Element => {
       <div className="index">
         <Hero {...content.hero} />
 
-        <section className="section">
+        <div className="section">
           <div
             className={`
             section__in
             section__in_padding
-            section__in_reverse
           `}
           >
             <ThumbList thumbs={content.thumbs} />
           </div>
-        </section>
+        </div>
       </div>
     </>
   )
