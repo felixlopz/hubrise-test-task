@@ -50,6 +50,11 @@ export const mixin = {
       background-color: ${backgroundColor};
     }
   `,
+  centerElement: css`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `,
   clickable: css`
     cursor: pointer;
     user-select: none;
