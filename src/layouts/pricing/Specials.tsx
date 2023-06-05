@@ -28,14 +28,7 @@ const Specials = ({ specials }: SpecialsProps): JSX.Element => {
                 {special.link.text}
               </Link>
             ) : (
-              <button
-                className="section__description-link"
-                data-open="contact-us"
-                aria-controls="contact-us"
-                aria-haspopup="true"
-                tabIndex={0}
-                onClick={forms.contact.toggle}
-              >
+              <button className="section__description-link" onClick={forms.contact.toggle}>
                 {special.button}
               </button>
             )}
