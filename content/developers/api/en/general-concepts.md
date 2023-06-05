@@ -147,6 +147,21 @@ It is a string of 7 characters, where each character represents a day of the wee
 - `1234567`: every day of the week
 - `12----7`: Monday, Tuesday and Sunday
 
+### Timezones
+
+Timezones are encoded in this format:
+
+```json
+{
+  "name": "Europe/Paris",
+  "offset": 3600
+}
+```
+
+The timezone `name` is encoded in [IANA Time Zone Database format](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). For example, the timezone name for Paris is `Europe/Paris`.
+
+The timezone `offset` is deprecated and will be removed in a future version of the API, as it does not provide information about daylight saving time.
+
 ## 6. HTTP Status Codes
 
 The API returns appropriate [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) for every request.
