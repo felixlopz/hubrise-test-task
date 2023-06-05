@@ -5,6 +5,7 @@ import Hero, { IHero } from "./Hero"
 
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 import ThumbList from "@layouts/documentation-index/ThumbList"
+import Block from "@layouts/shared/components/Block"
 
 interface DocumentationIndexProps {
   data: DocumentationIndexData
@@ -69,20 +70,11 @@ const DocumentationIndex = ({ data }: DocumentationIndexProps): JSX.Element => {
     <>
       <SEO meta={meta} />
 
-      <div className="index">
-        <Hero {...content.hero} />
+      <Hero {...content.hero} />
 
-        <div className="section">
-          <div
-            className={`
-            section__in
-            section__in_padding
-          `}
-          >
-            <ThumbList thumbs={content.thumbs} />
-          </div>
-        </div>
-      </div>
+      <Block backgroundColor="white">
+        <ThumbList thumbs={content.thumbs} />
+      </Block>
     </>
   )
 }

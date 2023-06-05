@@ -6,6 +6,7 @@ import { StyledMDX } from "./Styles"
 
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
+import Block from "@layouts/shared/components/Block"
 
 interface DocumentationSimpleProps {
   data: DocumentationSimpleData
@@ -46,15 +47,11 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
     <MDXProvider>
       <SEO meta={meta} />
 
-      <div className="section">
-        <div className="section__in section__in_padding">
-          <h3 className="section__title section__title_align-left">{frontmatter.title}</h3>
-
-          <StyledMDX>
-            <MDXRenderer>{body}</MDXRenderer>
-          </StyledMDX>
-        </div>
-      </div>
+      <Block backgroundColor="white" title={frontmatter.title} justify="left">
+        <StyledMDX>
+          <MDXRenderer>{body}</MDXRenderer>
+        </StyledMDX>
+      </Block>
     </MDXProvider>
   )
 }
