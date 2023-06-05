@@ -11,10 +11,11 @@ export const colors = {
 }
 
 export const sizes = {
+  maxWidth: "75rem",
   headerHeight: "5rem",
 
-  rowPadding: "7.5rem",
-  blockPadding: "4.688rem",
+  blockVerticalPadding: "4.688rem",
+  blockHorizontalPadding: "7.5rem",
 }
 
 export const zIndexValues = {

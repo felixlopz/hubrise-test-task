@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
   max-width: 75rem;
-  margin: calc(${sizes.blockPadding} - 1rem) auto calc(-${sizes.blockPadding} + 1rem) auto;
+  margin: calc(${sizes.blockVerticalPadding} - 1rem) auto calc(-${sizes.blockVerticalPadding} + 1rem) auto;
 `
 
 export const List = styled.ul`
