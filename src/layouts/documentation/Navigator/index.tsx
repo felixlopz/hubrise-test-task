@@ -45,7 +45,7 @@ const Navigator = ({ currentPath, folderPages, title, logo, headings }: Navigato
       if (currentTitle !== newTitle) setCurrentTitle(newTitle)
 
       const rect = containerRef.current!.getBoundingClientRect()
-      const top = rect.top + window.pageYOffset
+      const top = rect.top + window.scrollY
       const scrollTop = document.documentElement.scrollTop
 
       if (top <= scrollTop && !isFixed) setFixed(true)
@@ -142,8 +142,7 @@ function getCurrentTitle(): string | null {
 
   const currentTitleNode = titleNodeList.find((titleNode) => {
     const rect = titleNode.getBoundingClientRect()
-    const nodeTop = rect.top + window.pageYOffset
-
+    const nodeTop = rect.top + window.scrollY
     return nodeTop <= document.documentElement.scrollTop + 100
   })
 
