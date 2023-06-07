@@ -6,7 +6,7 @@ import { colors, mixin, sizes } from "@utils/styles"
 export const Wrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
-  max-width: 75rem;
+  max-width: ${sizes.maxWidth};
   margin: calc(${sizes.blockVerticalPadding} - 1rem) auto calc(-${sizes.blockVerticalPadding} + 1rem) auto;
 `
 

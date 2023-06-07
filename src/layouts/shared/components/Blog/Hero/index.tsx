@@ -9,7 +9,7 @@ interface HeroProps {
 
 const Hero = ({ title, description }: HeroProps): JSX.Element => {
   return (
-    <Block backgroundColor={"green"} expandedLeft={true} title={title}>
+    <Block backgroundColor={"green"} beforeExpansion={true} title={title}>
       <p className="section__description section__description_white">{description}</p>
     </Block>
   )

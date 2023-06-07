@@ -3,6 +3,7 @@ import { css, FlattenSimpleInterpolation } from "styled-components"
 export const colors = {
   primary: "#6db24f",
   danger: "#e13c3c",
+  warning: "#fcfaed",
   white: "#fff",
 
   // TODO: remove
@@ -32,6 +33,11 @@ export const sizes = {
 
   blockVerticalPadding: "4.688rem",
   blockHorizontalPadding: "7.5rem",
+
+  // Horizontal padding for mobile devices
+  mobilePadding: "0.625rem",
+  // Horizontal padding for desktop devices
+  desktopPadding: "0.9375rem",
 }
 
 export const zIndexValues = {
@@ -95,6 +101,28 @@ export const mixin = {
           color: ${colors.silverGray};
         }
       }
+    }
+  `,
+  expandBefore: ({ width, color }: { width: string; color: string }): FlattenSimpleInterpolation => css`
+    :before {
+      content: "";
+      background-color: ${color};
+      position: absolute;
+      right: 100%;
+      width: ${width};
+      height: 100%;
+      top: 0;
+    }
+  `,
+  expandAfter: ({ width, color }: { width: string; color: string }): FlattenSimpleInterpolation => css`
+    :after {
+      content: "";
+      background-color: ${color};
+      position: absolute;
+      left: 100%;
+      width: ${width};
+      height: 100%;
+      top: 0;
     }
   `,
   linkOver: (color: string): FlattenSimpleInterpolation => css`

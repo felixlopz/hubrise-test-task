@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { IThumb } from "../index"
 
-import { Icon, Link, Title, StyledThumbList, Thumb, Description } from "./Styles"
+import { Icon, Link, Title, StyledThumbList, Thumb, Description, Content } from "./Styles"
 
 import { generateKey } from "@utils/misc"
 
@@ -17,8 +17,10 @@ const ThumbList = ({ thumbs }: ThumbListProps): JSX.Element => {
         <Thumb key={generateKey(title, index)}>
           <Link to={to} addLocalePrefix={false}>
             <Icon className={`fa ${icon}`} />
-            <Title>{title}</Title>
-            <Description>{description}</Description>
+            <Content>
+              <Title>{title}</Title>
+              <Description>{description}</Description>
+            </Content>
           </Link>
         </Thumb>
       ))}

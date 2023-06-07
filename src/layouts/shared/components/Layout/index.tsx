@@ -16,7 +16,7 @@ const Layout = ({ children, pageContext }: LayoutProps): JSX.Element => {
   return (
     <>
       <Header languagePaths={languagePaths} />
-      <main className="content">{children}</main>
+      <main>{children}</main>
       <Footer />
     </>
   )

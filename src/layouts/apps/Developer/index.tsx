@@ -14,7 +14,7 @@ const Developer = ({ developers }: DevelopersProps): JSX.Element => {
   const { title, description } = developers
 
   return (
-    <Block backgroundColor="green" expandedLeft={true} expandedRight={true} title={title}>
+    <Block backgroundColor="green" beforeExpansion={true} afterExpansion={true} title={title}>
       <Description>
         <Paragraph>{description.paragraph_1}</Paragraph>
         <Paragraph>

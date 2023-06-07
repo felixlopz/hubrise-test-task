@@ -8,7 +8,7 @@ export const StyledPlan = styled.div`
   color: ${colors.white};
   font-size: 1.125rem;
   margin: ${sizes.blockVerticalPadding} calc((100% - 100vw) / 2);
-  padding: ${sizes.blockVerticalPadding} 0.625rem;
+  padding: ${sizes.blockVerticalPadding} ${sizes.mobilePadding};
 `
 
 export const Title = styled.div`

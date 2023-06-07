@@ -7,8 +7,8 @@ import { BackgroundColor, Justify } from "./utils"
 interface BlockProps {
   children: React.ReactNode
   backgroundColor: BackgroundColor
-  expandedLeft?: boolean
-  expandedRight?: boolean
+  beforeExpansion?: boolean
+  afterExpansion?: boolean
   justify?: Justify
   title?: string
 }
@@ -16,8 +16,8 @@ interface BlockProps {
 const Block = ({
   children,
   backgroundColor,
-  expandedLeft = false,
-  expandedRight = false,
+  beforeExpansion = false,
+  afterExpansion = false,
   justify = "center",
   title,
 }: BlockProps): JSX.Element => {
@@ -25,10 +25,10 @@ const Block = ({
     <Container>
       <Content
         $verticalPadding={backgroundColor !== "none"}
-        $horizontalPadding={backgroundColor !== "none" && (!expandedLeft || !expandedRight)}
+        $horizontalPadding={backgroundColor !== "none" && (!beforeExpansion || !afterExpansion)}
         $backgroundColor={backgroundColor}
-        $expandedLeft={expandedLeft}
-        $expandedRight={expandedRight}
+        $beforeExpansion={beforeExpansion}
+        $afterExpansion={afterExpansion}
       >
         {title && (
           <Title backgroundColor={backgroundColor} justify={justify}>

@@ -2,7 +2,7 @@ import styled, { css } from "styled-components"
 
 import { BackgroundColor, bgColorMap, colorMap } from "./utils"
 
-import { breakpoints, sizes } from "@utils/styles"
+import { breakpoints, mixin, sizes } from "@utils/styles"
 
 export const Container = styled.div`
   margin: ${sizes.blockVerticalPadding} 0;
@@ -22,14 +22,14 @@ export const Content = styled.div<{
   $verticalPadding: boolean
   $horizontalPadding: boolean
   $backgroundColor: BackgroundColor
-  $expandedLeft: boolean
-  $expandedRight: boolean
+  $beforeExpansion: boolean
+  $afterExpansion: boolean
 }>`
   position: relative;
   max-width: ${sizes.maxWidth};
   margin: 0 auto;
   ${({ $verticalPadding }) => paddingVertical($verticalPadding ? sizes.blockVerticalPadding : "0")};
-  ${paddingHorizontal("0.625rem")}
+  ${paddingHorizontal(sizes.mobilePadding)}
 
   color: ${({ $backgroundColor }) => colorMap[$backgroundColor]};
   background-color: ${({ $backgroundColor }) => bgColorMap[$backgroundColor]};
@@ -41,32 +41,11 @@ export const Content = styled.div<{
   }
 
   @media (min-width: ${breakpoints.large}) {
-    ${({ $expandedLeft, $backgroundColor }) =>
-      $expandedLeft &&
-      css`
-        :before {
-          content: "";
-          background-color: ${bgColorMap[$backgroundColor]};
-          position: absolute;
-          width: calc((100vw - 100%) / 2);
-          right: 100%;
-          top: 0;
-          height: 100%;
-        }
-      `}
+    ${({ $beforeExpansion, $backgroundColor }) =>
+      $beforeExpansion &&
+      mixin.expandBefore({ width: "calc((100vw - 100%) / 2)", color: bgColorMap[$backgroundColor] })}
 
-    ${({ $expandedRight, $backgroundColor }) =>
-      $expandedRight &&
-      css`
-        :after {
-          content: "";
-          background-color: ${bgColorMap[$backgroundColor]};
-          position: absolute;
-          left: 100%;
-          width: calc((100vw - 100%) / 2);
-          top: 0;
-          height: 100%;
-        }
-      `}
+    ${({ $afterExpansion, $backgroundColor }) =>
+      $afterExpansion && mixin.expandAfter({ width: "calc((100vw - 100%) / 2)", color: bgColorMap[$backgroundColor] })}
   }
 `

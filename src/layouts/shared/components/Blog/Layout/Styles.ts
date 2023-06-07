@@ -30,22 +30,22 @@ export const Inner = styled.div`
 
 export const StyledSidebar = styled.div`
   background-color: ${sidebarBackgroundColor};
-  padding: ${sizes.blockVerticalPadding} 0.625rem;
   flex: 0 0 100%;
+  padding: ${sizes.blockVerticalPadding} ${sizes.mobilePadding};
 
   @media (min-width: ${breakpoints.large}) {
     flex: 0 0 25%;
-    padding: ${sizes.blockVerticalPadding} 0.9375rem;
+    padding: ${sizes.blockVerticalPadding} ${sizes.desktopPadding};
   }
 `
 
 export const StyledContent = styled.div`
   background-color: ${colors.backgroundWhite};
-  padding: ${sizes.blockVerticalPadding} 0.625rem;
   flex: 0 0 100%;
+  padding: ${sizes.blockVerticalPadding} ${sizes.mobilePadding};
 
   @media (min-width: ${breakpoints.large}) {
     flex: 0 0 75%;
-    padding: ${sizes.blockVerticalPadding} 0.9375rem;
+    padding: ${sizes.blockVerticalPadding} ${sizes.desktopPadding};
   }
 `
