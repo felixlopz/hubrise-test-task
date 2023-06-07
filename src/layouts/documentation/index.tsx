@@ -1,12 +1,14 @@
 import { graphql } from "gatsby"
 import * as React from "react"
 import { useTranslation } from "react-i18next"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import AppInfo, { IAppInfo } from "./AppInfo"
 import Feedback from "./Feedback"
 import Gallery from "./Gallery"
 import Navigator, { Heading } from "./Navigator"
 import { DocumentationContext } from "./interface"
+import { Content, Logo, Main, Warning, Page, Navigation } from "./Styles"
 
 import { ImageSharp } from "@utils/image"
 import SEO from "@layouts/shared/components/Seo"
@@ -14,6 +16,7 @@ import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs from "@layouts/shared/components/Breadcrumbs"
 import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
 import { useLocaleCode } from "@utils/locales"
+import Link from "@layouts/shared/components/Link"
 
 interface DocumentationProps {
   data: DocumentationData
@@ -112,7 +115,8 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
   const { frontmatter, body, headings } = currentMdxNode
   const { meta, title, gallery, app_info: appInfo } = frontmatter
 
-  const logoImage = findImage(data.images, logoImageName)
+  const chapterMainPath = folderPages[0].path
+  const logo = findImage(data.images, logoImageName)
 
   const galleryImageMap = new Map<string, ImageSharp>()
   if (gallery) {
@@ -133,33 +137,39 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
 
       <Breadcrumbs breadcrumbs={breadcrumbs} />
 
-      <div className="section">
-        <div
-          className={`
-          section__in
-          section__in_padding
-          section__in_developers
-        `}
-        >
-          {languageWarning && <header className="section__language-warning">{languageWarning}</header>}
+      <Page>
+        {languageWarning && <Warning>{languageWarning}</Warning>}
 
-          <div className="section__content">
+        {logo && (
+          <Logo>
+            <Link to={chapterMainPath} addLocalePrefix={false}>
+              <GatsbyImage alt={title} image={logo.gatsbyImageData} />
+            </Link>
+          </Logo>
+        )}
+
+        <Navigation>
+          <Navigator currentPath={path} title={folderTitle} folderPages={folderPages} headings={headings} />
+        </Navigation>
+
+        <Main>
+          <Content>
             <DocumentationRenderer {...{ title, body }} />
-          </div>
+          </Content>
 
-          <Navigator
-            logo={logoImage}
-            currentPath={path}
-            title={folderTitle}
-            folderPages={folderPages}
-            headings={headings}
-          />
+          {galleryImageMap.size > 0 && (
+            <Content>
+              <Gallery title={folderTitle} imageMap={galleryImageMap} />
+            </Content>
+          )}
 
-          {galleryImageMap.size > 0 && <Gallery title={folderTitle} imageMap={galleryImageMap} />}
-
-          {appInfo && <AppInfo appInfo={appInfo} />}
-        </div>
-      </div>
+          {appInfo && (
+            <Content>
+              <AppInfo appInfo={appInfo} />
+            </Content>
+          )}
+        </Main>
+      </Page>
 
       <Feedback relativePath={currentMdxNode.parent.relativePath} />
     </MDXProvider>

@@ -56,6 +56,12 @@ export const breakpoints = {
   xxLarge: "90rem",
 }
 
+export const boxShadows = {
+  small: `0 3px 3px rgba(0, 0, 0, 0.05)`,
+  medium: `0 5px 10px rgba(0, 0, 0, 0.1)`,
+  large: `5px 10px 15px rgba(0, 0, 0, 0.15)`,
+}
+
 export const mixin = {
   button: css`
     padding: 0.4em 1.5em;

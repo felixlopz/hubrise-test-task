@@ -1,7 +1,14 @@
 import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { breakpoints, colors, mixin } from "@utils/styles"
+import { boxShadows, breakpoints, colors, mixin } from "@utils/styles"
+
+export const StyledNavigator = styled.div`
+  @media (max-width: ${breakpoints.large}) {
+    border-top: 1px solid ${colors.primary};
+    border-bottom: 1px solid ${colors.primary};
+  }
+`
 
 export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
   display: none;
@@ -51,11 +58,17 @@ export const TitleLink = styled(Link)`
 `
 
 export const List = styled.ul<{ $isExpanded?: boolean }>`
-  display: block;
-  padding: 0;
+  padding: 1rem 0;
 
-  @media (min-width: ${breakpoints.large}) {
-    padding: 1rem 0;
+  @media (max-width: ${breakpoints.large}) {
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    padding: 0;
+
+    background-color: ${colors.backgroundWhite};
+    border-bottom: 1px solid ${colors.primary};
+    box-shadow: ${boxShadows.medium};
   }
 
   ${(props) =>
