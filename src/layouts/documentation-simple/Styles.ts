@@ -47,7 +47,7 @@ export const StyledMDX = styled.div`
 
   p {
     text-align: left;
-    color: ${colors.lightGray};
+    color: ${colors.textMedium};
     font-weight: 400;
     margin-bottom: 2rem;
   }

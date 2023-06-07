@@ -40,6 +40,6 @@ export const Title = styled.span`
 
 export const Description = styled.p`
   font-size: 1rem;
-  color: ${colors.lightGray};
+  color: ${colors.textMedium};
   font-weight: 400;
 `

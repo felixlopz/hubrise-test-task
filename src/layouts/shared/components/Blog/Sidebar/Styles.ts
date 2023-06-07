@@ -26,7 +26,7 @@ export const MenuItem = styled.li`
 `
 
 export const ItemLink = styled(Link)`
-  color: ${colors.gray};
+  color: ${colors.textDark};
   line-height: 1.2rem;
   font-size: 0.9375rem;
 

@@ -86,7 +86,7 @@ export const Container = styled.div`
 
   p {
     font-size: 1rem;
-    color: ${colors.gray};
+    color: ${colors.textDark};
     font-weight: 400;
     overflow: auto;
   }
@@ -114,7 +114,7 @@ export const Container = styled.div`
   li {
     font-size: 1rem;
     font-weight: 400;
-    color: ${colors.gray};
+    color: ${colors.textDark};
   }
 
   ul li {
@@ -127,7 +127,7 @@ export const Container = styled.div`
       content: "";
       width: 4px;
       height: 4px;
-      background: ${colors.gray};
+      background: ${colors.textDark};
       border-radius: 50%;
       left: 0;
       position: absolute;
@@ -143,8 +143,8 @@ export const Container = styled.div`
     padding: 2.5rem 1.25rem;
     margin: 1.5rem auto;
     background-color: #fbfbfb;
-    border-top: thin solid ${colors.lightGray};
-    border-bottom: thin solid ${colors.lightGray};
+    border-top: thin solid ${colors.textMedium};
+    border-bottom: thin solid ${colors.textMedium};
     font-family: Consolas, "Liberation Mono", Courier, monospace;
     font-weight: normal;
 

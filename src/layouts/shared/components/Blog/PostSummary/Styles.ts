@@ -40,7 +40,7 @@ export const Text = styled.div`
 `
 
 export const Excerpt = styled.div`
-  color: ${colors.gray};
+  color: ${colors.textDark};
   line-height: 1.6;
   margin-bottom: 1rem;
 `
@@ -53,7 +53,7 @@ export const ReadMore = styled(Link)`
   font-size: 0.9375rem;
   font-weight: 500;
   color: ${colors.white};
-  background: ${colors.gray};
+  background: ${colors.textDark};
   border-radius: 3px;
 
   ${mixin.buttonOver(colors.white, colors.primary)};

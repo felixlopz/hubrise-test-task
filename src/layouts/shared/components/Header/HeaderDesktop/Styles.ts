@@ -48,7 +48,7 @@ const callToAction = css`
 
 export const Signup = styled(Link)`
   ${callToAction};
-  color: ${colors.gray};
+  color: ${colors.textDark};
   background-color: #eeeeee;
 `
 

@@ -7,7 +7,7 @@ export const Summary = styled.div`
 `
 
 export const Table = styled.table`
-  color: ${colors.lightGray};
+  color: ${colors.textMedium};
   background-color: #fafafa;
 `
 
@@ -30,7 +30,7 @@ export const Extra = styled.span`
 `
 
 export const Cell = styled.td`
-  color: ${colors.gray};
+  color: ${colors.textDark};
 
   &:first-of-type {
     width: 33%;

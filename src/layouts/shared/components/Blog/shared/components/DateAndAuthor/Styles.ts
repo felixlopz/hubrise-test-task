@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { colors } from "@utils/styles"
 
 export const Container = styled.div`
-  color: ${colors.lightGray};
+  color: ${colors.textMedium};
   font-size: 1rem;
   font-weight: 400;
   line-height: 1;
@@ -11,5 +11,5 @@ export const Container = styled.div`
 `
 
 export const StyledDate = styled.span`
-  color: ${colors.gray};
+  color: ${colors.textDark};
 `

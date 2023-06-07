@@ -16,7 +16,7 @@ export const Header = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: ${headerGap};
-    background-color: ${colors.lightGray};
+    background-color: ${colors.textMedium};
     width: 4em;
     height: 2px;
 

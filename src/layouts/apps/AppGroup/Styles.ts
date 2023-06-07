@@ -28,7 +28,7 @@ const additionalInfoGap = "1rem"
 
 export const AppDocumentation = styled.div`
   padding: 1em;
-  color: ${colors.gray};
+  color: ${colors.textDark};
   background-color: #ffffff;
   transition: background-color 0.2s ease;
 `
@@ -38,13 +38,13 @@ export const AppDescription = styled.div`
   flex: 1;
   line-height: 1.3;
   font-weight: 400;
-  color: ${colors.gray};
+  color: ${colors.textDark};
 `
 
 export const AppAdditionalInfo = styled.div`
   margin: 0 1em 1em 1em;
   font-size: 0.75rem;
-  color: ${colors.lightGray};
+  color: ${colors.textMedium};
   font-style: italic;
 
   &::before {
@@ -92,7 +92,7 @@ export const AppBoxStatic = styled.div`
 
   justify-content: center;
   padding: 1em;
-  color: ${colors.gray};
+  color: ${colors.textDark};
   background-color: ${colors.white};
 
   &:hover,

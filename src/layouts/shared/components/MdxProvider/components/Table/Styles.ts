@@ -9,7 +9,7 @@ export const TableWrapper = styled.div`
 export const StyledTable = styled.table`
   tbody {
     background: none;
-    color: ${colors.gray};
+    color: ${colors.textDark};
   }
 
   tr {

@@ -1,5 +1,24 @@
 import { css, FlattenSimpleInterpolation } from "styled-components"
 
+export const sizes = {
+  maxWidth: "75rem",
+  headerHeight: "5rem",
+
+  blockVerticalPadding: "4.688rem",
+  blockHorizontalPadding: "7.5rem",
+
+  // Horizontal padding for mobile devices
+  mobilePadding: "0.625rem",
+  // Horizontal padding for desktop devices
+  desktopPadding: "0.9375rem",
+}
+
+export const breakpoints = {
+  medium: "40rem",
+  large: "64rem",
+  xLarge: "75rem",
+}
+
 export const colors = {
   primary: "#6db24f",
   danger: "#e13c3c",
@@ -8,8 +27,6 @@ export const colors = {
 
   // TODO: remove
   darkGray: "#333",
-  gray: "#555",
-  lightGray: "#777",
   silverGray: "#ccc",
   // end TODO
 
@@ -25,35 +42,6 @@ export const colors = {
   backgroundLighter: "#f2f2f2",
   backgroundLightest: "#f8f8f8",
   backgroundWhite: "#fff",
-}
-
-export const sizes = {
-  maxWidth: "75rem",
-  headerHeight: "5rem",
-
-  blockVerticalPadding: "4.688rem",
-  blockHorizontalPadding: "7.5rem",
-
-  // Horizontal padding for mobile devices
-  mobilePadding: "0.625rem",
-  // Horizontal padding for desktop devices
-  desktopPadding: "0.9375rem",
-}
-
-export const zIndexValues = {
-  header: 10,
-  mobileBarBackdrop: 20,
-  mobileBarMenu: 30,
-  slideshow: 100,
-  modalOverlay: 150,
-  modal: 200,
-}
-
-export const breakpoints = {
-  medium: "40rem",
-  large: "64rem",
-  xLarge: "75rem",
-  xxLarge: "90rem",
 }
 
 export const boxShadows = {
@@ -137,4 +125,13 @@ export const mixin = {
       color: ${color};
     }
   `,
+}
+
+export const zIndexValues = {
+  header: 10,
+  mobileBarBackdrop: 20,
+  mobileBarMenu: 30,
+  slideshow: 100,
+  modalOverlay: 150,
+  modal: 200,
 }

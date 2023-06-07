@@ -57,7 +57,7 @@ export const Title = styled.div`
 `
 
 export const Count = styled.div`
-  color: ${colors.lightGray};
+  color: ${colors.textMedium};
   margin-bottom: 0;
 `
 

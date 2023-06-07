@@ -58,7 +58,7 @@ export const EmailLink = styled(Link)`
     position: relative;
     bottom: 0.15em;
     font-size: 0.75rem;
-    color: ${colors.lightGray};
+    color: ${colors.textMedium};
   }
 `
 

@@ -60,7 +60,7 @@ export const Nav = styled.div`
 
 export const NavLink = styled(Link)`
   display: block;
-  color: ${colors.gray};
+  color: ${colors.textDark};
   margin-bottom: 1em;
   padding: 0 1em;
 
@@ -101,6 +101,6 @@ export const LanguageItem = styled.li`
 `
 
 export const LanguageLink = styled(Link)`
-  color: ${colors.gray};
+  color: ${colors.textDark};
   ${mixin.linkOver(colors.primary)};
 `

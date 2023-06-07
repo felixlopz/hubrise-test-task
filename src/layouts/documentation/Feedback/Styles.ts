@@ -41,7 +41,7 @@ export const IconButton = styled.button<{ $isExpanded: boolean }>`
   width: 1.25rem;
   margin-right: 0.6rem;
   border-radius: 50%;
-  background-color: ${(props) => (props.$isExpanded ? colors.primary : colors.lightGray)};
+  background-color: ${(props) => (props.$isExpanded ? colors.primary : colors.textMedium)};
   color: ${colors.white};
 `
 

@@ -33,7 +33,7 @@ export const Title = styled.h3`
 `
 
 export const Description = styled.div`
-  ${frontpageMixin.description(colors.lightGray)};
+  ${frontpageMixin.description(colors.textMedium)};
   margin-bottom: 2em;
 `
 
@@ -58,6 +58,6 @@ export const MemberPicture = styled(GatsbyImage)`
 `
 
 export const MemberName = styled.div`
-  color: ${colors.lightGray};
+  color: ${colors.textMedium};
   margin-top: 0.5em;
 `

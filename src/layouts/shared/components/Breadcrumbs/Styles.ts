@@ -29,7 +29,7 @@ export const Item = styled.li`
   }
 
   &:last-of-type {
-    color: ${colors.lightGray};
+    color: ${colors.textMedium};
 
     &::after {
       content: "";

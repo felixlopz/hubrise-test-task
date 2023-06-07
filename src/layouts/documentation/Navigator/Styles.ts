@@ -1,7 +1,7 @@
 import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { boxShadows, breakpoints, colors, mixin } from "@utils/styles"
+import { boxShadows, breakpoints, colors, mixin, zIndexValues } from "@utils/styles"
 
 export const StyledNavigator = styled.div`
   @media (max-width: ${breakpoints.large}) {
@@ -63,7 +63,7 @@ export const List = styled.ul<{ $isExpanded?: boolean }>`
   @media (max-width: ${breakpoints.large}) {
     position: absolute;
     top: 100%;
-    z-index: 1;
+    z-index: ${zIndexValues.header};
     padding: 0;
 
     background-color: ${colors.backgroundWhite};

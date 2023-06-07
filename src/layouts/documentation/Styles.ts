@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { breakpoints, colors, mixin, sizes } from "@utils/styles"
+import { breakpoints, colors, mixin, sizes, zIndexValues } from "@utils/styles"
 
 const gap = "1rem"
 
@@ -68,6 +68,6 @@ export const Navigation = styled.div`
 
   @media (max-width: ${breakpoints.large}) {
     top: ${sizes.headerHeight};
-    z-index: 1;
+    z-index: ${zIndexValues.header};
   }
 `
