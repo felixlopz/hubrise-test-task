@@ -13,7 +13,7 @@ meta:
 
 This method creates an order.
 
-Almost all fields are optional. In fact the simplest order that can be created only has a `status`.
+Almost all the fields are optional. In fact the simplest order that can be created only has a `status`.
 
 <CallSummaryTable
   endpoint="POST /locations/:location_id/orders"
@@ -157,7 +157,7 @@ Returns an order resource.
   accessLevel="location, account"
 />
 
-All fields of an order creation request are returned, plus a few more:
+All the fields of an order creation request are returned, plus a few more:
 
 | Name          | Type                                                       | Description                                                                  |
 | ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------- |
