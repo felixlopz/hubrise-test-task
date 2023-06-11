@@ -11,6 +11,15 @@ export const sizes = {
   mobilePadding: "0.625rem",
   // Horizontal padding for desktop devices
   desktopPadding: "0.9375rem",
+
+  borderRadius: "3px",
+}
+
+export const fontSizes = {
+  _14: ".875rem",
+  _16: "1rem",
+  _18: "1.125rem",
+  _42: "2.625rem",
 }
 
 export const breakpoints = {
@@ -31,11 +40,7 @@ export const colors = {
   textLight: "#999",
   textLighter: "#ccc",
 
-  backgroundDark: "#555",
-  backgroundMedium: "#d0d0d0",
-  backgroundLight: "#eaeaea",
-  backgroundLighter: "#f2f2f2",
-  backgroundLightest: "#f8f8f8",
+  backgroundLight: "#efefef",
   backgroundWhite: "#fff",
 }
 
@@ -47,11 +52,10 @@ export const boxShadows = {
 
 export const mixin = {
   button: css`
-    padding: 0.4em 1.5em;
-    font-size: 0.9375rem;
+    padding: 0.4rem 1.5rem;
     text-transform: uppercase;
     font-weight: 500;
-    border-radius: 3px;
+    border-radius: ${sizes.borderRadius};
   `,
   buttonOver: (color: string, backgroundColor: string): FlattenSimpleInterpolation => css`
     transition: color 0.2s ease, background-color 0.2s ease;

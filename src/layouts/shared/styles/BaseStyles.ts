@@ -8,14 +8,15 @@ export const BaseStyles = createGlobalStyle`
   }
 
   body {
-    font-family: "Poppins", sans-serif;
-    color: ${colors.textMedium};
-    background: #efefef;
     overflow-x: hidden;
     min-height: 100vh;
     min-width: 320px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
     font-weight: normal;
     font-style: normal;
+    color: ${colors.textMedium};
   }
 
   h1,
