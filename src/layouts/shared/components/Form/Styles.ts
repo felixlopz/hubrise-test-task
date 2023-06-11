@@ -43,7 +43,7 @@ export const Button = styled.button`
   text-align: center;
   cursor: pointer;
 
-  ${mixin.buttonOver(colors.white, colors.darkGray)};
+  ${mixin.buttonOver(colors.white, colors.textDarkest)};
 
   @media (min-width: ${breakpoints.large}) {
     font-size: 0.8125rem;
@@ -56,7 +56,7 @@ const field = (status: FieldStatus) => css`
   margin-bottom: 0.3rem;
   border: thin solid #f2f2f2;
   box-shadow: none;
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   background: ${colors.white};
   font-size: 0.8125rem;
 

@@ -32,7 +32,7 @@ export const MenuItem = styled.li`
 `
 
 export const MenuLink = styled(Link)`
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   ${mixin.linkOver(colors.primary)};
 
   &.is-active {
@@ -43,7 +43,7 @@ export const MenuLink = styled(Link)`
 const callToAction = css`
   margin-left: 0.6em;
   ${mixin.button};
-  ${mixin.buttonOver(colors.white, colors.darkGray)};
+  ${mixin.buttonOver(colors.white, colors.textDarkest)};
 `
 
 export const Signup = styled(Link)`

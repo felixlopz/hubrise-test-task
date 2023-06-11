@@ -29,7 +29,7 @@ export const Text = styled.div`
 `
 
 export const Title = styled.h3`
-  ${frontpageMixin.title(colors.darkGray, colors.primary, true)};
+  ${frontpageMixin.title(colors.textDarkest, colors.primary, true)};
 `
 
 export const Description = styled.div`

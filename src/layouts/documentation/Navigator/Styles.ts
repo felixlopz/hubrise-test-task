@@ -21,7 +21,7 @@ export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
   padding-top: 1rem;
   padding-left: 0;
   margin-bottom: 0;
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
@@ -59,7 +59,7 @@ const linkColor = (color: string): FlattenSimpleInterpolation => css`
 `
 
 export const TitleLink = styled(Link)`
-  ${linkColor(colors.darkGray)};
+  ${linkColor(colors.textDarkest)};
 `
 
 export const List = styled.ul<{ $isExpanded?: boolean }>`
@@ -102,7 +102,7 @@ export const ArrowIcon = styled.i`
 `
 
 export const Item = styled.li<{ $isActive: boolean }>`
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   font-weight: 500;
   font-size: 0.9375rem;
   width: 100%;
@@ -118,7 +118,7 @@ export const Item = styled.li<{ $isActive: boolean }>`
 export const ItemLink = styled(Link)<{ $isActive: boolean }>`
   display: block;
   padding: 0.25rem 0 0.25rem 1rem;
-  ${linkColor(colors.darkGray)};
+  ${linkColor(colors.textDarkest)};
   font-weight: 500;
   font-size: 0.9375rem;
 
@@ -147,7 +147,7 @@ export const SubList = styled.ol`
 `
 
 export const SubItemLink = styled(Link)<{ $isActive: boolean }>`
-  ${linkColor(colors.darkGray)};
+  ${linkColor(colors.textDarkest)};
   font-weight: 400;
   font-size: 0.9375rem;
   display: inline-block;

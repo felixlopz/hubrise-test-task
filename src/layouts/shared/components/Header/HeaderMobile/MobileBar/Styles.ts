@@ -83,7 +83,7 @@ export const NavLinkLogin = styled(Link)`
   background-color: ${colors.primary};
   border-radius: 3px;
 
-  ${mixin.buttonOver(colors.white, colors.darkGray)};
+  ${mixin.buttonOver(colors.white, colors.textDarkest)};
 `
 
 export const LanguageList = styled.ul`

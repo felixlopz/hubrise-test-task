@@ -53,7 +53,7 @@ export const AppAdditionalInfo = styled.div`
     width: 1.5em;
     margin: 0 auto ${additionalInfoGap} auto;
     height: 1px;
-    background-color: ${colors.silverGray};
+    background-color: ${colors.textLighter};
   }
 `
 

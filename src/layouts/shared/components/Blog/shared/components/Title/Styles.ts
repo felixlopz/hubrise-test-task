@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { colors } from "@utils/styles"
 
 export const StyledTitle = styled.div`
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   font-weight: bold;
   position: relative;
   font-size: 2.125rem;

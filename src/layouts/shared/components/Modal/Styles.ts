@@ -33,7 +33,7 @@ export const StyledModal = styled.div`
 `
 
 export const Title = styled.h5`
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   font-weight: bold;
   font-size: 1.125rem;
   margin-bottom: 0;

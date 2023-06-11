@@ -49,12 +49,7 @@ export const Title = styled.span`
   font-size: 1.125rem;
 `
 
-export const Description = styled.p`
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  line-height: 1.3125rem;
-`
+export const Description = styled.p``
 
 export const CloseButton = styled.button`
   position: absolute;

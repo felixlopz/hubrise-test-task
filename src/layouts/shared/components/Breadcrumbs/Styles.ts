@@ -14,7 +14,7 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   font-size: 0.8125rem;
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   white-space: nowrap;
 
   &::after {
@@ -32,7 +32,7 @@ export const Item = styled.li`
 `
 
 export const ItemLink = styled(Link)`
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
 
   ${mixin.linkOver(colors.primary)};
 `

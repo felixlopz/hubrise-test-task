@@ -33,6 +33,6 @@ export const Item = styled.li`
 `
 
 export const ItemLink = styled(Link)`
-  color: ${colors.silverGray};
+  color: ${colors.textLighter};
   ${mixin.linkOver(colors.white)};
 `

@@ -21,10 +21,10 @@ export const Container = styled.div`
 `
 
 export const Title = styled.h3`
-  ${frontpageMixin.title(colors.darkGray, colors.primary, true)};
+  ${frontpageMixin.title(colors.textDarkest, colors.primary, true)};
 
   @media (min-width: ${breakpoints.large}) {
-    ${frontpageMixin.title(colors.darkGray, colors.primary)};
+    ${frontpageMixin.title(colors.textDarkest, colors.primary)};
   }
 `
 

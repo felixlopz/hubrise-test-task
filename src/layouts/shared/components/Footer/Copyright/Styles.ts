@@ -4,7 +4,7 @@ import { breakpoints, colors, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const StyledCopyright = styled.div`
-  background-color: ${colors.darkGray};
+  background-color: ${colors.textDarkest};
 `
 
 export const Container = styled.div`

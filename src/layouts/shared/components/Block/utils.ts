@@ -7,8 +7,8 @@ export type Justify = "left" | "center"
 type ColorMap = Record<BackgroundColor, string>
 
 export const colorMap: ColorMap = {
-  none: colors.darkGray,
-  white: colors.darkGray,
+  none: colors.textDarkest,
+  white: colors.textDarkest,
   green: colors.white,
 }
 

@@ -4,7 +4,7 @@ import { breakpoints, colors, mixin } from "@utils/styles"
 
 export const StyledFeedback = styled.div`
   background-color: ${colors.white};
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
 `
 
 export const Section = styled.div`

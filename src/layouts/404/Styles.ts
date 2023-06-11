@@ -25,14 +25,14 @@ export const Title = styled.h1`
     height: 2px;
     width: 1rem;
     margin: ${verticalGap} auto 0;
-    background-color: ${colors.silverGray};
+    background-color: ${colors.textLighter};
   }
 `
 
 export const Link = styled(OriginalLink)`
   margin-top: ${verticalGap};
 
-  ${mixin.linkOver(colors.darkGray)};
+  ${mixin.linkOver(colors.textDarkest)};
 
   &:after {
     content: "";

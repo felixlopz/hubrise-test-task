@@ -4,7 +4,7 @@ import { colors } from "@utils/styles"
 
 export const StyledMDX = styled.div`
   h4 {
-    color: ${colors.darkGray};
+    color: ${colors.textDarkest};
     font-weight: bold;
     font-size: 1.5rem;
     position: relative;
@@ -27,7 +27,7 @@ export const StyledMDX = styled.div`
 
   h5 {
     display: inline-block;
-    color: ${colors.darkGray};
+    color: ${colors.textDarkest};
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 1.25rem;
@@ -37,7 +37,7 @@ export const StyledMDX = styled.div`
 
   h6 {
     display: inline-block;
-    color: ${colors.darkGray};
+    color: ${colors.textDarkest};
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 0.15rem;

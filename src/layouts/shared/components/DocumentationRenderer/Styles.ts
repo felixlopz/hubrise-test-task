@@ -6,7 +6,7 @@ export const Container = styled.div`
   font-family: "Poppins", sans-serif;
 
   h1 {
-    color: ${colors.darkGray};
+    color: ${colors.textDarkest};
     font-weight: bold;
     font-size: 2.125rem;
     position: relative;
@@ -54,13 +54,13 @@ export const Container = styled.div`
       color: ${colors.primary};
 
       &:hover {
-        color: ${colors.darkGray};
+        color: ${colors.textDarkest};
       }
     }
   }
 
   h2 {
-    color: ${colors.darkGray};
+    color: ${colors.textDarkest};
     font-size: 1.563rem;
     text-align: left;
     font-weight: 600;
@@ -68,7 +68,7 @@ export const Container = styled.div`
   }
 
   h3 {
-    color: ${colors.darkGray};
+    color: ${colors.textDarkest};
     font-weight: 500;
     font-size: 1rem;
     text-transform: uppercase;
@@ -77,7 +77,7 @@ export const Container = styled.div`
   }
 
   h4 {
-    color: ${colors.darkGray};
+    color: ${colors.textDarkest};
     font-weight: 500;
     font-size: 1rem;
     margin: 0.5rem 0;
@@ -96,7 +96,7 @@ export const Container = styled.div`
     font-size: 1rem;
     color: ${colors.primary};
 
-    @include hr-link-hover(${colors.darkGray});
+    @include hr-link-hover(${colors.textDarkest});
   }
 
   ul,
@@ -159,7 +159,7 @@ export const Container = styled.div`
       border: none;
       padding: 0;
       font-family: Consolas, "Liberation Mono", Courier, monospace !important;
-      color: ${colors.darkGray};
+      color: ${colors.textDarkest};
 
       span:last-child {
         margin-right: 1.25rem;

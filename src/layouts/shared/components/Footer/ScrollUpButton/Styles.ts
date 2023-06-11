@@ -18,5 +18,5 @@ export const StyledButton = styled.button`
     outline: none;
   }
 
-  ${mixin.buttonOver(colors.white, colors.darkGray)};
+  ${mixin.buttonOver(colors.white, colors.textDarkest)};
 `

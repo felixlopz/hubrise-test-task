@@ -40,7 +40,7 @@ export const ItemLink = styled(Link)`
 export const MenuTitle = styled.h5`
   position: relative;
   padding-bottom: 1rem;
-  color: ${colors.textLighter};
+  color: ${colors.textLight};
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;

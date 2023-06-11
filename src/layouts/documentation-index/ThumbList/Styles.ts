@@ -34,7 +34,7 @@ export const Content = styled.div``
 
 export const Title = styled.span`
   font-size: 1.5rem;
-  color: ${colors.darkGray};
+  color: ${colors.textDarkest};
   font-weight: bold;
 `
 

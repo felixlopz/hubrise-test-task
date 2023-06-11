@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
-import { sizes } from "@utils/styles"
+import { colors, sizes } from "@utils/styles"
 
 export const BaseStyles = createGlobalStyle`
   html {
@@ -9,6 +9,7 @@ export const BaseStyles = createGlobalStyle`
 
   body {
     font-family: "Poppins", sans-serif;
+    color: ${colors.textMedium};
     background: #efefef;
     overflow-x: hidden;
     min-height: 100vh;

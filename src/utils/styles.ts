@@ -25,16 +25,11 @@ export const colors = {
   warning: "#fcfaed",
   white: "#fff",
 
-  // TODO: remove
-  darkGray: "#333",
-  silverGray: "#ccc",
-  // end TODO
-
-  textDarkest: "#222",
+  textDarkest: "#333",
   textDark: "#555",
   textMedium: "#777",
   textLight: "#999",
-  textLighter: "#bbb",
+  textLighter: "#ccc",
 
   backgroundDark: "#555",
   backgroundMedium: "#d0d0d0",
@@ -92,7 +87,7 @@ export const mixin = {
           margin-left: ${gap};
           bottom: 0.15em;
           font-size: 0.75rem;
-          color: ${colors.silverGray};
+          color: ${colors.textLighter};
         }
       }
     }

@@ -93,5 +93,5 @@ export const Button = styled(Link)`
   background-color: #ffffff;
 
   ${mixin.button};
-  ${mixin.buttonOver(colors.white, colors.darkGray)};
+  ${mixin.buttonOver(colors.white, colors.textDarkest)};
 `
