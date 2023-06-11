@@ -19,6 +19,7 @@ export const fontSizes = {
   _14: ".875rem",
   _16: "1rem",
   _18: "1.125rem",
+  _24: "1.5rem",
   _42: "2.625rem",
 }
 
