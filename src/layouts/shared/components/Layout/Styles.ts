@@ -4,5 +4,7 @@ import { colors } from "@utils/styles"
 
 export const Main = styled.main`
   background-color: ${colors.backgroundLight};
-  border-top: thin solid transparent; // To prevent margin collapse
+  // Prevent margin collapse
+  border-top: thin solid transparent;
+  border-bottom: thin solid transparent;
 `

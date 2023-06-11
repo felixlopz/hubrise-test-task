@@ -28,4 +28,9 @@ export const BaseStyles = createGlobalStyle`
   button {
     font-family: "Poppins", sans-serif;
   }
+
+  // Hide the "protected by reCaptcha" badge in the bottom left of the screen
+  .grecaptcha-badge {
+    visibility: hidden;
+  }
 `
