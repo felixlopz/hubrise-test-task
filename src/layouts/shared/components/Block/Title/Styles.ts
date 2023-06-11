@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { BackgroundColor, colorMap, Justify, underlineColorMap } from "@layouts/shared/components/Block/utils"
+import { BackgroundColor, titleColorMap, Justify, underlineColorMap } from "@layouts/shared/components/Block/utils"
 
 export const StyledTitle = styled.h3<{
   $backgroundColor: BackgroundColor
@@ -9,7 +9,7 @@ export const StyledTitle = styled.h3<{
   margin-bottom: 2.5rem;
   position: relative;
 
-  color: ${({ $backgroundColor }) => colorMap[$backgroundColor]};
+  color: ${({ $backgroundColor }) => titleColorMap[$backgroundColor]};
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.625rem;

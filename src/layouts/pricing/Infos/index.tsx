@@ -2,11 +2,11 @@ import * as React from "react"
 
 import { IInfo } from "../interface"
 
-import { Highlight, Paragraph } from "./Styles"
+import { Text, Title, Info, StyledInfos } from "./Styles"
 
 import { generateKey } from "@utils/misc"
-import Link from "@layouts/shared/components/Link"
 import { useLayoutContext } from "@layouts/shared/components/LayoutContext"
+import { BlockContentButton, BlockContentLink } from "@layouts/shared/components/BlockContent"
 
 interface InfosProps {
   infos: Array<IInfo>
@@ -16,27 +16,25 @@ const Infos = ({ infos }: InfosProps): JSX.Element => {
   const { forms } = useLayoutContext()
 
   return (
-    <>
+    <StyledInfos>
       {infos.map((special, idx) => (
-        <div key={generateKey(special.highlight, idx)} className="section__description">
-          <Paragraph>
-            <Highlight>{special.highlight}</Highlight>
+        <Info key={generateKey(special.highlight, idx)}>
+          <Title>{special.highlight}</Title>
 
+          <Text>
             {special.text}
 
             {special.link && special.link.to ? (
-              <Link className="section__description-link" to={special.link.to} newTab={false}>
+              <BlockContentLink to={special.link.to} newTab={false}>
                 {special.link.text}
-              </Link>
+              </BlockContentLink>
             ) : (
-              <button className="section__description-link" onClick={forms.contact.toggle}>
-                {special.button}
-              </button>
+              <BlockContentButton onClick={forms.contact.toggle}>{special.button}</BlockContentButton>
             )}
-          </Paragraph>
-        </div>
+          </Text>
+        </Info>
       ))}
-    </>
+    </StyledInfos>
   )
 }
 

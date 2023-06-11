@@ -126,7 +126,7 @@ export const mixin = {
   `,
   linkOver: (color: string): FlattenSimpleInterpolation => css`
     transition: color 0.2s ease;
-    &:hover {
+    :hover {
       color: ${color};
     }
   `,

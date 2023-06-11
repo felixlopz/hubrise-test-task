@@ -1,14 +1,14 @@
 import styled from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { colors, mixin, sizes } from "@utils/styles"
+import { colors, fontSizes, mixin, sizes } from "@utils/styles"
 
 export const StyledPlan = styled.div`
   background-color: ${colors.primary};
   color: ${colors.white};
-  font-size: 1.125rem;
-  margin: ${sizes.blockVerticalPadding} calc((100% - 100vw) / 2);
-  padding: ${sizes.blockVerticalPadding} ${sizes.mobilePadding};
+  font-size: ${fontSizes._18};
+  margin: 3rem calc((100% - 100vw) / 2) 2rem calc((100% - 100vw) / 2);
+  padding: 2.5rem ${sizes.mobilePadding};
 `
 
 export const Title = styled.div`
@@ -19,29 +19,24 @@ export const Title = styled.div`
 `
 
 export const TitleMain = styled.h4`
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 2.625rem;
+  font-size: ${fontSizes._42};
   margin-bottom: 0;
 `
 
 export const TitleSub = styled.div``
 
-export const List = styled.ul`
-  display: block;
-  list-style: none;
+export const List = styled.div`
   color: ${colors.white};
 `
 
-export const Item = styled.li`
-  display: block;
-`
+export const Item = styled.div``
 
 export const Button = styled(Link)`
   display: inline-block;
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
   color: ${colors.primary};
-  background-color: #fefefe;
+  background-color: ${colors.backgroundLight};
   border: 1px solid transparent;
 
   ${mixin.button};

@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import Block from "@layouts/shared/components/Block"
+import { BlockContent } from "@layouts/shared/components/BlockContent"
 
 interface HeroProps {
   title: string
@@ -10,7 +11,7 @@ interface HeroProps {
 const Hero = ({ title, description }: HeroProps): JSX.Element => {
   return (
     <Block backgroundColor={"green"} beforeExpansion={true} title={title}>
-      <p className="section__description section__description_white">{description}</p>
+      <BlockContent>{description}</BlockContent>
     </Block>
   )
 }
