@@ -12,7 +12,7 @@ export const Page = styled.div`
     display: grid;
     align-items: start;
     gap: 0 ${gap};
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 75% 25%;
     grid-template-areas: "warning warning" "main logo" "main navigation";
     grid-template-rows: min-content min-content 1fr;
   }

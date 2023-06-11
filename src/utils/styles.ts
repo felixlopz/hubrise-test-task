@@ -77,7 +77,7 @@ export const mixin = {
   `,
   container: css`
     max-width: 96%;
-    width: 1200px;
+    width: ${sizes.maxWidth};
     margin: 0 auto;
   `,
   dotSeparatedList: (gap: string): FlattenSimpleInterpolation => css`
@@ -117,6 +117,12 @@ export const mixin = {
       width: ${width};
       height: 100%;
       top: 0;
+    }
+  `,
+  horizontalContentPadding: css`
+    padding: ${sizes.mobilePadding};
+    @media (min-width: ${breakpoints.large}) {
+      padding: ${sizes.desktopPadding};
     }
   `,
   linkOver: (color: string): FlattenSimpleInterpolation => css`

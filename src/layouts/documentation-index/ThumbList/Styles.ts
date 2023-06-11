@@ -6,7 +6,7 @@ import { breakpoints, colors, sizes } from "@utils/styles"
 export const StyledThumbList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem 1rem;
+  gap: 3rem 1rem;
 `
 
 export const Thumb = styled.div`
@@ -16,7 +16,7 @@ export const Thumb = styled.div`
 
   @media (min-width: ${breakpoints.large}) {
     flex: 0 0 calc(50% - 0.5rem);
-    padding: 0 ${sizes.desktopPadding};
+    padding: 0;
   }
 `
 
@@ -41,5 +41,4 @@ export const Title = styled.span`
 export const Description = styled.p`
   font-size: 1rem;
   color: ${colors.textMedium};
-  font-weight: 400;
 `

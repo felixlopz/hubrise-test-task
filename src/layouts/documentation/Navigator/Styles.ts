@@ -3,6 +3,11 @@ import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 import Link from "@layouts/shared/components/Link"
 import { boxShadows, breakpoints, colors, mixin, zIndexValues } from "@utils/styles"
 
+const mobilePadding = css`
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+`
+
 export const StyledNavigator = styled.div`
   @media (max-width: ${breakpoints.large}) {
     border-top: 1px solid ${colors.primary};
@@ -63,6 +68,8 @@ export const List = styled.ul<{ $isExpanded?: boolean }>`
   @media (max-width: ${breakpoints.large}) {
     position: absolute;
     top: 100%;
+    left: 0;
+    right: 0;
     z-index: ${zIndexValues.header};
     padding: 0;
 
@@ -115,6 +122,10 @@ export const ItemLink = styled(Link)<{ $isActive: boolean }>`
   font-weight: 500;
   font-size: 0.9375rem;
 
+  @media (max-width: ${breakpoints.large}) {
+    ${mobilePadding};
+  }
+
   ${mixin.linkOver(colors.primary)};
 
   ${(props) =>
@@ -143,6 +154,10 @@ export const SubItemLink = styled(Link)<{ $isActive: boolean }>`
   width: 100%;
 
   ${mixin.linkOver(colors.primary)};
+
+  @media (max-width: ${breakpoints.large}) {
+    ${mobilePadding};
+  }
 
   ${(props) =>
     props.$isActive &&
