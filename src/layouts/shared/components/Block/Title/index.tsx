@@ -1,18 +1,18 @@
 import * as React from "react"
 
-import { BackgroundColor, Justify } from "../utils"
+import { BackgroundColor, HorizontalAlign } from "../utils"
 
 import { StyledTitle } from "./Styles"
 
 interface TitleProps {
   backgroundColor: BackgroundColor
-  justify: Justify
+  desktopHorizontalAlign: HorizontalAlign
   children: React.ReactNode
 }
 
-const Title = ({ backgroundColor, justify, children }: TitleProps): JSX.Element => {
+const Title = ({ backgroundColor, desktopHorizontalAlign, children }: TitleProps): JSX.Element => {
   return (
-    <StyledTitle $backgroundColor={backgroundColor} $justify={justify}>
+    <StyledTitle $backgroundColor={backgroundColor} $desktopHorizontalAlign={desktopHorizontalAlign}>
       {children}
     </StyledTitle>
   )

@@ -1,11 +1,22 @@
 import styled, { css } from "styled-components"
 
-import { BackgroundColor, bgColorMap, colorMap } from "./utils"
+import {
+  BackgroundColor,
+  bgColorMap,
+  colorMap,
+  HorizontalAlign,
+  Padding,
+  SidePosition,
+  VerticalAlign,
+  VerticalSpacing,
+} from "./utils"
 
 import { breakpoints, mixin, sizes } from "@utils/styles"
 
-export const Container = styled.div`
-  margin: ${sizes.blockVerticalPadding} 0;
+export const Container = styled.div<{
+  $verticalSpacing: VerticalSpacing
+}>`
+  margin: ${({ $verticalSpacing }) => ($verticalSpacing === "small" ? "2.5rem" : sizes.blockVerticalPadding)} 0;
 `
 
 const paddingVertical = (padding: string) => css`
@@ -19,25 +30,46 @@ const paddingHorizontal = (padding: string) => css`
 `
 
 export const Content = styled.div<{
+  $padding: Padding
   $verticalPadding: boolean
   $horizontalPadding: boolean
   $backgroundColor: BackgroundColor
   $beforeExpansion: boolean
   $afterExpansion: boolean
+  $hasSide: boolean
+  $sidePosition: SidePosition
 }>`
   position: relative;
+  display: grid;
+  gap: 2rem;
+
+  ${({ $hasSide, $sidePosition }) =>
+    $hasSide
+      ? css`
+          grid-template-areas: "main" "side";
+          grid-template-columns: 1fr;
+          @media (min-width: ${breakpoints.large}) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: ${$sidePosition === "left" ? "'side main'" : "'main side'"};
+          }
+        `
+      : css`
+          grid-template-areas: "main";
+          grid-template-columns: 1fr;
+        `}
+
   max-width: ${sizes.maxWidth};
   margin: 0 auto;
-  ${({ $verticalPadding }) => paddingVertical($verticalPadding ? sizes.blockVerticalPadding : "0")};
+  ${({ $padding, $verticalPadding }) =>
+    paddingVertical($verticalPadding ? ($padding === "large" ? sizes.blockVerticalPadding : "2.5rem") : "0")};
   ${paddingHorizontal(sizes.mobilePadding)}
 
   color: ${({ $backgroundColor }) => colorMap[$backgroundColor]};
   background-color: ${({ $backgroundColor }) => bgColorMap[$backgroundColor]};
 
-  text-align: center;
-
   @media (min-width: ${breakpoints.large}) {
-    ${({ $horizontalPadding }) => paddingHorizontal($horizontalPadding ? sizes.blockHorizontalPadding : "0")};
+    ${({ $padding, $horizontalPadding }) =>
+      paddingHorizontal($horizontalPadding ? ($padding === "large" ? sizes.blockHorizontalPadding : "2.5rem") : "0")};
   }
 
   @media (min-width: ${breakpoints.large}) {
@@ -47,5 +79,33 @@ export const Content = styled.div<{
 
     ${({ $afterExpansion, $backgroundColor }) =>
       $afterExpansion && mixin.expandAfter({ width: "calc((100vw - 100%) / 2)", color: bgColorMap[$backgroundColor] })}
+  }
+`
+
+const verticalAlign = (align: VerticalAlign) =>
+  align === "center" &&
+  css`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  `
+
+export const Main = styled.div<{ $desktopHorizontalAlign: HorizontalAlign; $desktopVerticalAlign: VerticalAlign }>`
+  grid-area: main;
+  text-align: center;
+
+  @media (min-width: ${breakpoints.large}) {
+    text-align: ${({ $desktopHorizontalAlign }) => $desktopHorizontalAlign};
+    ${({ $desktopVerticalAlign }) => verticalAlign($desktopVerticalAlign)};
+  }
+`
+
+export const Side = styled.div<{ $desktopHorizontalAlign: HorizontalAlign; $desktopVerticalAlign: VerticalAlign }>`
+  grid-area: side;
+  text-align: center;
+
+  @media (min-width: ${breakpoints.large}) {
+    text-align: ${({ $desktopHorizontalAlign }) => $desktopHorizontalAlign};
+    ${({ $desktopVerticalAlign }) => verticalAlign($desktopVerticalAlign)};
   }
 `

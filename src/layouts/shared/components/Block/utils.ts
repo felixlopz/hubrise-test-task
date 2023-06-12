@@ -2,7 +2,15 @@ import { colors } from "@utils/styles"
 
 export type BackgroundColor = "none" | "white" | "green"
 
-export type Justify = "left" | "center"
+export type HorizontalAlign = "left" | "center"
+
+export type VerticalAlign = "top" | "center"
+
+export type VerticalSpacing = "small" | "large"
+
+export type Padding = "small" | "large"
+
+export type SidePosition = "left" | "right"
 
 type ColorMap = Record<BackgroundColor, string>
 
@@ -18,10 +26,16 @@ export const titleColorMap: ColorMap = {
   green: colors.white,
 }
 
-export const underlineColorMap: ColorMap = {
+export const linkColorMap: ColorMap = {
   none: colors.primary,
   white: colors.primary,
   green: colors.white,
+}
+
+export const linkOverColorMap: ColorMap = {
+  none: colors.textDark,
+  white: colors.textDark,
+  green: colors.textDarkest,
 }
 
 export const colorMap: ColorMap = {

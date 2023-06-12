@@ -77,7 +77,7 @@ const Frontpage = ({ data }: FrontpageProps): JSX.Element => {
   const { meta, hero, content } = file.childYaml.parsedContent
 
   return (
-    <div className="frontpage">
+    <>
       <SEO meta={meta} />
 
       <Hero {...hero} />
@@ -92,10 +92,8 @@ const Frontpage = ({ data }: FrontpageProps): JSX.Element => {
 
       <Developers {...content.developers} teamImages={teamImages} />
 
-      {/*<MissionAndScalability {...content.mission_and_scalability} />*/}
-
       <Join {...content.join} />
-    </div>
+    </>
   )
 }
 

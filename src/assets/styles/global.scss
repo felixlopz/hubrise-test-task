@@ -1,11 +1,7 @@
-@import "base/constants";
+$hr-green: #6db24f;
+$hr-light-gray: #777;
 
 @import "plugins/foundation/foundation";
 @include foundation-everything($flex: true);
 
-@import "base/macros";
-@import "base/frontpage";
-
-@import "components/frontpage";
-@import "components/frontpage-full";
 

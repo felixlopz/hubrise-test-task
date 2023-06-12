@@ -1,10 +1,16 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
-import { BackgroundColor, titleColorMap, Justify, underlineColorMap } from "@layouts/shared/components/Block/utils"
+import {
+  BackgroundColor,
+  titleColorMap,
+  HorizontalAlign,
+  linkColorMap,
+} from "@layouts/shared/components/Block/utils"
+import { breakpoints } from "@utils/styles"
 
 export const StyledTitle = styled.h3<{
   $backgroundColor: BackgroundColor
-  $justify: Justify
+  $desktopHorizontalAlign: HorizontalAlign
 }>`
   margin-bottom: 2.5rem;
   position: relative;
@@ -13,17 +19,25 @@ export const StyledTitle = styled.h3<{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.625rem;
-  ${({ $justify }) => `text-align: ${$justify};`}
 
   &:after {
     content: "";
     position: absolute;
     left: 0;
-    right: ${({ $justify }) => ($justify === "left" ? "auto" : "0")};
+    right: 0;
     top: 100%;
     margin: 10px auto;
     width: 15%;
     height: 3px;
-    background-color: ${({ $backgroundColor }) => underlineColorMap[$backgroundColor]};
+    background-color: ${({ $backgroundColor }) => linkColorMap[$backgroundColor]};
   }
+
+  ${({ $desktopHorizontalAlign }) => css`
+    @media (min-width: ${breakpoints.large}) {
+      text-align: ${$desktopHorizontalAlign};
+      &:after {
+        right: ${$desktopHorizontalAlign === "left" ? "auto" : "0"};
+      }
+    }
+  `}
 `
