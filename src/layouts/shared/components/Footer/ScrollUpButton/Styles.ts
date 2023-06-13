@@ -14,6 +14,8 @@ export const StyledButton = styled.button`
   font-size: 2rem;
   cursor: pointer;
 
+  ${mixin.centerElement};
+
   &:focus {
     outline: none;
   }
