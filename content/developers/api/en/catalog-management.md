@@ -22,7 +22,7 @@ Catalogs are identified by their name. Catalog names must be unique for any acco
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name                                  | Type   | Description                                      |
 | ------------------------------------- | ------ | ------------------------------------------------ |
@@ -36,7 +36,7 @@ The response either contains a `location_id` (location level catalog) or an `acc
 
 `GET /catalogs/87yu4`
 
-#### Response:
+##### Response:
 
 ```json
 {
@@ -90,7 +90,7 @@ The `data` field of the catalogs is not returned by this request. To retrieve th
 
 `GET /locations/3r4s3-1/catalogs`
 
-#### Response:
+##### Response:
 
 ```json
 [
@@ -129,7 +129,7 @@ To create an account-level catalog:
   accessLevel="account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name                                          | Type                          | Description              |
 | --------------------------------------------- | ----------------------------- | ------------------------ |
@@ -236,7 +236,7 @@ If the `data` field is passed, the whole catalog content is cleared and recreate
 }
 ```
 
-#### Response:
+##### Response:
 
 ```json
 {
@@ -282,14 +282,14 @@ For a more detailed explanation of variants, read this [blog post](/blog/catalog
 
 ### Variant in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name   | Type   | Description                                                               |
 | ------ | ------ | ------------------------------------------------------------------------- |
 | `ref`  | string | The ref of the variant. Must be unique among all variants of the catalog. |
 | `name` | string | The name of the variant.                                                  |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -306,7 +306,7 @@ The tree is sorted. Categories and products are retrieved in the same order as t
 
 ### 3.1. Category in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                                    | Type     | Description                                                                                                     |
 | --------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------- |
@@ -317,7 +317,7 @@ The tree is sorted. Categories and products are retrieved in the same order as t
 | `tags` <Label type="optional" />        | string[] | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
 | `image_ids` <Label type="optional" />   | string[] | List of image ids attached to the category.                                                                     |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -345,7 +345,7 @@ The tree is sorted. Categories and products are retrieved in the same order as t
 | `description` | string or `null` | The description of the category.                                                                                |
 | `tags`        | string[]         | List of tags. A tag is a free text used to describe some particular characteristics of a product or a category. |
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/categories/lsndh`
 
@@ -369,7 +369,7 @@ Return the categories of the catalog. Categories are returned in a deep first tr
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/categories`
 
@@ -393,7 +393,7 @@ A product belongs to a category. A product has one or several skus.
 
 ### 4.1. Product in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                                    | Type           | Description                                                                                                     |
 | --------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -405,7 +405,7 @@ A product belongs to a category. A product has one or several skus.
 | `image_ids` <Label type="optional" />   | string[]       | List of image ids attached to the product                                                                       |
 | `skus`                                  | [Sku](#skus)[] | List of skus of this product. A product must contain at least one sku.                                          |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -443,7 +443,7 @@ A product belongs to a category. A product has one or several skus.
 | `image_ids`   | string[]         | List of image ids attached to the product |
 | `skus`        | [Sku](#skus)[]   | List of skus of this product.             |
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/products/abg5a`
 
@@ -479,7 +479,7 @@ Retrieve the list of products in the catalog.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/products`
 
@@ -503,7 +503,7 @@ A product contains one or several skus. A sku is always attached to a product.
 
 ### 5.1. Sku in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                                         | Type                                                       | Description                                                                                                             |
 | -------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -515,7 +515,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | `option_list_refs` <Label type="optional" /> | string[]                                                   | The refs of the option lists this sku is attached to.                                                                   |
 | `tags` <Label type="optional" />             | string[]                                                   | List of tags.                                                                                                           |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -555,7 +555,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | `option_list_ids` | string[]                                                   | The ids of the option lists this sku is attached to.                |
 | `tags`            | string[]                                                   | List of tags.                                                       |
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/products/abg5a/skus/sb65k`
 
@@ -582,7 +582,7 @@ A product contains one or several skus. A sku is always attached to a product.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/products/abg5a/skus`
 
@@ -603,7 +603,7 @@ An option list can be attached to one or several skus. It has one or several opt
 
 ### 6.1. Option List in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                                                         | Type                 | Description                                                                                                                           |
 | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -615,7 +615,7 @@ An option list can be attached to one or several skus. It has one or several opt
 | `tags` <Label type="optional" />                             | string[]             | List of tags.                                                                                                                         |
 | `options`                                                    | [Option](#options)[] | A list of options. An option list must contain at least one option.                                                                   |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -667,7 +667,7 @@ Retrieve an option list and the possible choices (options).
 | `tags`                             | string[]             | List of tags.                                                                                                                     |
 | `options`                          | [Option](#options)[] | A list of options.                                                                                                                |
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/option_lists/e2sfj`
 
@@ -698,7 +698,7 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/option_lists`
 
@@ -718,7 +718,7 @@ Retrieve an option list and the possible choices (options).
 
 ### 7.1. Option in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                                | Type                                                       | Description                                                                                       |
 | ----------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -729,7 +729,7 @@ Retrieve an option list and the possible choices (options).
 | `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default. Default is `false`.                                         |
 | `tags` <Label type="optional" />    | string[]                                                   | List of tags.                                                                                     |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -764,7 +764,7 @@ Retrieve an option list and the possible choices (options).
 | `default`         | boolean                                                    | Whether this option is on by default.  |
 | `tags`            | string[]                                                   | List of tags.                          |
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/option_lists/e2sfj/options/m9d6e`
 
@@ -785,7 +785,7 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/option_lists/e2sfj/options`
 
@@ -806,7 +806,7 @@ Retrieve an option list and the possible choices (options).
 
 ### 8.1. Deal in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                                                | Type                                                       | Description                                                                                                                                                                                                                                                                                                   |
 | --------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -826,7 +826,7 @@ Retrieve an option list and the possible choices (options).
 | `lines.pricing_value` <Label type="optional" />     | depends                                                    | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`, and `null` for `unchanged`. |
 | `lines.label` <Label type="optional" />             | string                                                     | A label describing the type of skus that can be selected in this line.                                                                                                                                                                                                                                        |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -863,7 +863,7 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/deals/zee1f`
 
@@ -899,7 +899,7 @@ Retrieve an option list and the possible choices (options).
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/deals`
 
@@ -922,7 +922,7 @@ A discount is a reduction of the order total price.
 
 ### 9.1. Discount in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                                      | Type                          | Description                                                                                                                                                                                                                    |
 | ----------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -935,7 +935,7 @@ A discount is a reduction of the order total price.
 | `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `price_off`, and a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`. |
 | `image_ids` <Label type="optional" />     | string[]                      | List of image ids attached to the discount.                                                                                                                                                                                    |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -956,7 +956,7 @@ A discount is a reduction of the order total price.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/discounts/av1up`
 
@@ -980,7 +980,7 @@ A discount is a reduction of the order total price.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/discounts`
 
@@ -1003,7 +1003,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 
 ### 10.1. Charge in Catalog Upload
 
-#### Parameters:
+##### Parameters:
 
 | Name                              | Type                                                       | Description                                                    |
 | --------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
@@ -1012,7 +1012,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 | `type`                            | string                                                     | One of: `delivery`, `payment_fee`, `tip`, `tax` or `other`.    |
 | `price` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | The charge price. Should be omitted if the charge is variable. |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -1030,7 +1030,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
   accessLevel="location, account"
 />
 
-#### Parameters:
+##### Parameters:
 
 | Name    | Type                                                                 | Description                                                 |
 | ------- | -------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -1040,7 +1040,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 | `type`  | string                                                               | One of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
 | `price` | [Money](/developers/api/general-concepts/#monetary-values) or `null` | The charge amount, or `null` for variable amount.           |
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/charges/fjes3`
 
@@ -1063,7 +1063,7 @@ Retrieve the list of charges in the catalog.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/charges`
 
@@ -1084,7 +1084,7 @@ Retrieve the list of charges in the catalog.
 
 A `restrictions` object can be used in [Sku](#skus), [Option](#options), [Deal](#deals), [Discount](#discounts) and [Charge](#charges) resources. It defines a set of conditions for a particular item to be enabled.
 
-#### Parameters:
+##### Parameters:
 
 | Name                                                                      | Type                                                        | Description                                                                                                                                                                  |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1107,7 +1107,7 @@ The `service_types` and `service_type_refs` fields have been deprecated in favor
 
 All conditions must be met simultaneously for an item to be available. In particular, setting `enabled` to `false` disables the item regardless of the other conditions.
 
-#### Example:
+##### Example:
 
 ```json
 "restrictions": {
@@ -1129,7 +1129,7 @@ A `price_overrides` is an array of rules that can be used in [Skus](#skus) and [
 
 Each rule defines a price and a set of conditions. The structure of a rule is described below.
 
-#### Parameters:
+##### Parameters:
 
 | Name                                                                      | Type                                                       | Description                                                                                                                                                                  |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1149,7 +1149,7 @@ The `service_types` and `service_type_refs` fields have been deprecated. See [Re
 
 All conditions must be met simultaneously for a rule to match. When one or several rules match, the price of the last matching rule applies. When no rule matches, or when the item has no price overrides, the default price applies.
 
-#### Example:
+##### Example:
 
 ```json
 "price_overrides": [
@@ -1196,7 +1196,7 @@ HubRise does not impose any restrictions on image dimensions. However, we recomm
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `POST /catalogs/3ncct/images`
 
@@ -1224,7 +1224,7 @@ Response:
   accessLevel="location, account"
 />
 
-#### Parameters:
+##### Parameters:
 
 | Name                     | Type    | Description                                                                                                                                      |
 | ------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1234,7 +1234,7 @@ Response:
 | `md5`                    | string  | MD5-hash of the image data.                                                                                                                      |
 | `seconds_before_removal` | integer | Time left before this image is removed. For unattached images only. This field is null if the image is attached to at least one product or deal. |
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/ldof9/images/tsll2`
 
@@ -1257,7 +1257,7 @@ Return the image data. The reply's `Content-Type` header contains the MIME image
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/ldof9/images/tsll2/data`
 
@@ -1275,7 +1275,7 @@ Retrieve the list of images in the catalog.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/images`
 
@@ -1315,7 +1315,7 @@ Returns the list of inventory entries of the inventory.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /catalogs/87yu4/locations/3r4s3-1/inventory`
 
@@ -1368,7 +1368,7 @@ A _select by id_ entry affects a single sku or option. A _select by ref_ entry c
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `PUT /catalogs/87yu4/location/inventory`
 
@@ -1399,7 +1399,7 @@ Unlike the `PUT` method which returns the full inventory, the `PATCH` method onl
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 If we have the following inventory:
 

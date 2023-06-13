@@ -41,7 +41,7 @@ Index endpoints accept 2 optional parameters:
 - `count`: the maximum number of results to return per request. The default (and maximum) value is 100. Decrease this value if needed.
 - `cursor`: the next subset of results to return. Must be set to the value received in the previous `X-Cursor-Next` response header to iterate through the results. If this parameter is omitted, the first set of results is returned.
 
-#### Example for a request returning 150 results:
+##### Example for a request returning 150 results:
 
 First request:
 

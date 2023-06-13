@@ -12,7 +12,7 @@ import Video from "./Video"
 import Link from "@layouts/shared/components/Link"
 
 export const components = {
-  ...Headers.generate([`h2`, `h3`]),
+  ...Headers.generate([`h2`, `h3`, `h4`]),
   a: A,
   CallSummaryTable,
   ContactFormToggle,
