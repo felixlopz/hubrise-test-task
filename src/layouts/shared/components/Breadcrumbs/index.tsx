@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import { Breadcrumb } from "./interface"
-import { Item, ItemLink, List } from "./Styles"
+import { Item, ItemLink, StyledBreadcrumbs } from "./Styles"
 
 interface BreadcrumbsProps {
   breadcrumbs: Array<Breadcrumb>
@@ -9,7 +9,7 @@ interface BreadcrumbsProps {
 
 const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {
   return (
-    <List>
+    <StyledBreadcrumbs>
       {breadcrumbs.map((breadcrumb, index) => (
         <Item key={index}>
           {breadcrumb.path ? (
@@ -21,7 +21,7 @@ const Breadcrumbs = ({ breadcrumbs }: BreadcrumbsProps): JSX.Element => {
           )}
         </Item>
       ))}
-    </List>
+    </StyledBreadcrumbs>
   )
 }
 

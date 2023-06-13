@@ -1,12 +1,10 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-
-import { StyledMDX } from "./Styles"
 
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 import Block from "@layouts/shared/components/Block"
+import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
 
 interface DocumentationSimpleProps {
   data: DocumentationSimpleData
@@ -47,10 +45,8 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
     <MDXProvider>
       <SEO meta={meta} />
 
-      <Block backgroundColor="white" title={frontmatter.title} desktopHorizontalAlign="left">
-        <StyledMDX>
-          <MDXRenderer>{body}</MDXRenderer>
-        </StyledMDX>
+      <Block backgroundColor="white" desktopHorizontalAlign="left">
+        <DocumentationRenderer title={frontmatter.title} body={body} />
       </Block>
     </MDXProvider>
   )

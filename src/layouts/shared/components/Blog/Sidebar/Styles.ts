@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components"
 
-import { breakpoints, colors, mixin } from "@utils/styles"
+import { breakpoints, colors, fontSizes, lineHeights, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const Menu = styled.div`
@@ -27,8 +27,7 @@ export const MenuItem = styled.li`
 
 export const ItemLink = styled(Link)`
   color: ${colors.textDark};
-  line-height: 1.2rem;
-  font-size: 0.9375rem;
+  line-height: ${lineHeights.textCompact};
 
   ${mixin.linkOver(colors.primary)};
 

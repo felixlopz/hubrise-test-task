@@ -8,17 +8,17 @@ meta:
 
 Si vous êtes intégrés à notre écosystème, vous pouvez faire référence à cette intégration dans votre site vitrine, votre back-office ou tout autre support marketing. Pour vous aider, nous avons mis à disposition notre logo et des images à télécharger ainsi que des exemples de descriptions de HubRise que vous pouvez réutiliser.
 
-#### Logos et autres éléments graphiques
+## Logos et autres éléments graphiques
 
 Téléchargez nos logos et icône en haute résolution [ici](https://drive.google.com/drive/folders/1Iwsrh1rgxRo75T_7wqXwfUBZSdhDGLJj?usp=sharing).
 
 Le logo principal a un fond transparent. Les logos avec un arrière-plan coloré doivent être utilisés comme option secondaire lorsque le logo sur fond transparent ne convient pas.
 
-#### Présenter HubRise à vos clients
+## Présenter HubRise à vos clients
 
 Voici deux descriptions, une courte, l'autre longue, en français et en anglais. Vous pouvez les adapter et les réutiliser pour faire référence à votre intégration avec HubRise. Elles résument en quelques mots ce que vos clients doivent savoir sur HubRise et comment nous pouvons leur venir en aide.
 
-##### Description en français
+### Description en français
 
 Description courte (<50 mots) :
 
@@ -32,7 +32,7 @@ Description longue (<200 mots) :
 >
 > Le back-office de HubRise donne accès à l'ensemble des flux échangés, et permet en cas de problème de vérifier le statut de chaque transaction.
 
-##### Description en anglais
+### Description en anglais
 
 Description courte (<50 mots) :
 

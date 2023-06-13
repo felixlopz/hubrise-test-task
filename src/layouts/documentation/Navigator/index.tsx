@@ -1,5 +1,4 @@
 import * as React from "react"
-import classnames from "classnames"
 import { useMedia } from "react-use"
 
 import { FolderPage } from "../interface"
@@ -47,7 +46,7 @@ const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps
 
       <Title onClick={() => setIsExpanded((v) => !v)} $forMobile={true} $isExpanded={isExpanded}>
         {currentTitle}
-        <ArrowIcon className={classnames("fa", isExpanded ? "fa-angle-up" : "fa-angle-down")} />
+        <ArrowIcon className={`fa ${isExpanded ? "fa-angle-up" : "fa-angle-down"}`} />
       </Title>
 
       <List $isExpanded={isExpanded}>

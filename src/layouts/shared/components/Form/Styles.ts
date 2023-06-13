@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import * as Formik from "formik"
 
-import { breakpoints, colors, mixin } from "@utils/styles"
+import { breakpoints, colors, lineHeights, mixin } from "@utils/styles"
 
 export type FieldStatus = "unsubmitted" | "valid" | "error"
 
@@ -74,7 +74,6 @@ const field = (status: FieldStatus) => css`
 export const StyledField = {
   input: styled(Formik.Field).attrs({ component: "input" })<{ $status: FieldStatus }>`
     ${(props) => field(props.$status)};
-    line-height: 1.5;
     outline: 0;
   `,
 

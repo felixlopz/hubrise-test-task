@@ -23,7 +23,7 @@ Get location details.
 
 <summary>Example request</summary>
 
-`GET /locations/3r4s3-1`:
+`GET /locations/3r4s3-1`
 
 ```json
 {
@@ -123,7 +123,7 @@ The following fields can be updated: `cutoff_time`, `opening_hours`, and `custom
 
 <summary>Example request</summary>
 
-`PATCH /locations/3r4s3-1`:
+`PATCH /locations/3r4s3-1`
 
 ```json
 {
@@ -198,9 +198,9 @@ Returns the locations of the account.
   accessLevel="account"
 />
 
-#### Example request:
+##### Example request:
 
-`GET /locations`:
+`GET /locations`
 
 ```json
 [
@@ -230,9 +230,9 @@ Get account details.
   accessLevel="account"
 />
 
-#### Example request:
+##### Example request:
 
-`GET /accounts/3r4s3`:
+`GET /accounts/3r4s3`
 
 ```json
 {
@@ -253,9 +253,9 @@ Get user information.
   accessLevel="profile, profile_with_email"
 />
 
-#### Example request:
+##### Example request:
 
-`GET /user`:
+`GET /user`
 
 ```json
 {

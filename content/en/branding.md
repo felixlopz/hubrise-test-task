@@ -8,17 +8,17 @@ meta:
 
 If you are integrated with our ecosystem you can refer to HubRise in your corporate website, your back office and other marketing materials that you might have. To help, we prepared a few images for you to download as well as HubRise descriptions you can adapt and reuse.
 
-#### Logos and other graphical elements
+## Logos and other graphical elements
 
 Download high-quality versions of our logos and icons [here](https://drive.google.com/drive/folders/1Iwsrh1rgxRo75T_7wqXwfUBZSdhDGLJj?usp=sharing).
 
 The primary logo has a transparent background. The two logos with a coloured background can be used as a secondary option when the logo with a transparent background is not suitable.
 
-#### Present HubRise to your customers
+## Present HubRise to your customers
 
 Two descriptions are available, one short, the other long, in English and French. They can be adapted and reused when referring to your integration with HubRise. They summarise in a few words what we do and how we can help your customers.
 
-##### Description in English
+### Description in English
 
 Short description (<50 words):
 
@@ -35,7 +35,7 @@ Long description (<200 words):
 >
 > The HubRise back office provides an overview of all the data flows exchanged and, in the event of any problem, lets you check the status of each transaction and troubleshoot accordingly.
 
-##### Description in French
+### Description in French
 
 Short description (<50 words):
 

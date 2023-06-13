@@ -8,7 +8,7 @@ import Link from "@layouts/shared/components/Link"
 export const StyledHeader = styled.div`
   display: none;
 
-  @media (min-width: ${breakpoints.large}) {
+  @media (min-width: ${breakpoints.xLarge}) {
     display: flex;
     position: sticky;
     top: 0;
@@ -42,6 +42,7 @@ export const MenuLink = styled(Link)`
 
 const callToAction = css`
   margin-left: 0.6em;
+  white-space: nowrap;
   ${mixin.button};
   ${mixin.buttonOver(colors.white, colors.textDarkest)};
 `

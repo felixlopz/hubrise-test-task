@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { breakpoints, colors, fontSizes, mixin } from "@utils/styles"
+import { breakpoints, colors, fontSizes, lineHeights, mixin } from "@utils/styles";
 import Link from "@layouts/shared/components/Link"
 import bannerImage from "@assets/images/hero_image.jpg"
 
@@ -72,7 +72,7 @@ export const Text = styled.div`
 export const Title = styled.h1`
   font-weight: bold;
   font-size: ${fontSizes._42};
-  line-height: 1.25;
+  line-height: ${lineHeights.title};
 `
 
 export const Description = styled.div`

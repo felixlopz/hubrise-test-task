@@ -30,9 +30,9 @@ const PageWrapper = ({ children, props }: PageWrapperProps): JSX.Element => {
 
   return (
     <>
-      <BaseStyles />
       <NormalizeStyles />
       <ExtraNormalizeStyles />
+      <BaseStyles />
 
       {siteMetadata.recaptchaSiteKey && (
         <Helmet>

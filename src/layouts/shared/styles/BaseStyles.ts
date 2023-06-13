@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
-import { colors, sizes } from "@utils/styles"
+import { colors, lineHeights, sizes } from "@utils/styles"
 
 export const BaseStyles = createGlobalStyle`
   html {
@@ -16,20 +16,20 @@ export const BaseStyles = createGlobalStyle`
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
-    color: ${colors.textMedium};
+    color: ${colors.textDark};
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button {
-    font-family: "Poppins", sans-serif;
+
+  html,
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    line-height: ${lineHeights.text};
   }
 
-  // Hide the "protected by reCaptcha" badge in the bottom left of the screen
+    // Hide the "protected by reCaptcha" badge in the bottom left of the screen
   .grecaptcha-badge {
     visibility: hidden;
   }

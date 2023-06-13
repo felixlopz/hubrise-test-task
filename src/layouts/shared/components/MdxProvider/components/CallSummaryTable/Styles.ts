@@ -2,13 +2,12 @@ import styled from "styled-components"
 
 import { colors } from "@utils/styles"
 
-export const Summary = styled.div`
-  overflow: auto;
-`
-
 export const Table = styled.table`
-  color: ${colors.textMedium};
-  background-color: #fafafa;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  background-color: #fefefe;
+  border: 1px solid #f1f1f1;
 `
 
 export const Row = styled.tr`
@@ -30,7 +29,7 @@ export const Extra = styled.span`
 `
 
 export const Cell = styled.td`
-  color: ${colors.textDark};
+  padding: 0.5rem 0.625rem 0.625rem;
 
   &:first-of-type {
     width: 33%;

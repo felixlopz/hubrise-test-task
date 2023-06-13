@@ -1,11 +1,7 @@
 import * as React from "react"
 
-import { TableWrapper, StyledTable } from "./Styles"
+import { StyledTable } from "./Styles"
 
-const Table: React.FC = (tableProps) => (
-  <TableWrapper>
-    <StyledTable {...tableProps} />
-  </TableWrapper>
-)
+const Table: React.FC = (tableProps) => <StyledTable {...tableProps} />
 
 export default Table

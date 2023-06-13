@@ -1,12 +1,7 @@
 import styled, { css } from "styled-components"
 
-import {
-  BackgroundColor,
-  titleColorMap,
-  HorizontalAlign,
-  linkColorMap,
-} from "@layouts/shared/components/Block/utils"
-import { breakpoints } from "@utils/styles"
+import { BackgroundColor, titleColorMap, HorizontalAlign, linkColorMap } from "@layouts/shared/components/Block/utils"
+import { breakpoints, fontSizes, lineHeights } from "@utils/styles"
 
 export const StyledTitle = styled.h3<{
   $backgroundColor: BackgroundColor
@@ -18,7 +13,8 @@ export const StyledTitle = styled.h3<{
   color: ${({ $backgroundColor }) => titleColorMap[$backgroundColor]};
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 2.625rem;
+  font-size: ${fontSizes._42};
+  line-height: ${lineHeights.title};
 
   &:after {
     content: "";

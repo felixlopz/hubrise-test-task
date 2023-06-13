@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { IDevelopers } from "../interface"
 
-import { Description, Paragraph } from "./Styles"
+import { Description } from "./Styles"
 
 import Block from "@layouts/shared/components/Block"
 
@@ -16,12 +16,12 @@ const Developer = ({ developers }: DevelopersProps): JSX.Element => {
   return (
     <Block backgroundColor="green" beforeExpansion={true} afterExpansion={true} title={title}>
       <Description>
-        <Paragraph>{description.paragraph_1}</Paragraph>
-        <Paragraph>
+        <p>{description.paragraph_1}</p>
+        <p>
           {description.paragraph_2.chunk_1}
           <br />
           {description.paragraph_2.chunk_2}
-        </Paragraph>
+        </p>
       </Description>
     </Block>
   )

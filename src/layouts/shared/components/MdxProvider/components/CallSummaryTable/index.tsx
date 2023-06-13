@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { Row, Cell, CellInner, CellOuter, Extra, Url, Summary, Table } from "./Styles"
+import { Row, Cell, CellInner, CellOuter, Extra, Url, Table } from "./Styles"
 
 interface CallSummaryTableProps {
   endpoint: string
@@ -12,31 +12,29 @@ const CallSummaryTable = ({ endpoint, shortEndpoint, accessLevel }: CallSummaryT
   const [url, extra] = shortEndpoint ? shortEndpoint.split(`(`) : []
 
   return (
-    <Summary>
-      <Table>
-        <tbody>
+    <Table>
+      <tbody>
+        <Row>
+          <TableCell>Endpoint:</TableCell>
+          <TableCell>
+            <Url>{endpoint}</Url>
+          </TableCell>
+        </Row>
+        {shortEndpoint && (
           <Row>
-            <TableCell>Endpoint:</TableCell>
+            <TableCell>Short endpoint:</TableCell>
             <TableCell>
-              <Url>{endpoint}</Url>
+              <Url>{url!}</Url>
+              {extra! && <Extra>{`(${extra!}`}</Extra>}
             </TableCell>
           </Row>
-          {shortEndpoint && (
-            <Row>
-              <TableCell>Short endpoint:</TableCell>
-              <TableCell>
-                <Url>{url!}</Url>
-                {extra! && <Extra>{`(${extra!}`}</Extra>}
-              </TableCell>
-            </Row>
-          )}
-          <Row>
-            <TableCell>Access level:</TableCell>
-            <TableCell>{accessLevel}</TableCell>
-          </Row>
-        </tbody>
-      </Table>
-    </Summary>
+        )}
+        <Row>
+          <TableCell>Access level:</TableCell>
+          <TableCell>{accessLevel}</TableCell>
+        </Row>
+      </tbody>
+    </Table>
   )
 }
 

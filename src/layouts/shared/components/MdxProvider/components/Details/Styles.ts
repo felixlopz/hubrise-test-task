@@ -1,10 +1,13 @@
 import styled from "styled-components"
 
+import { colors } from "@utils/styles"
+
 export const StyledDetails = styled.details`
   cursor: pointer;
-  margin: 1em 0 2em 0;
+  margin: 1rem 0 2rem 0;
 
   summary {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
+    color: ${colors.textDarkest};
   }
 `

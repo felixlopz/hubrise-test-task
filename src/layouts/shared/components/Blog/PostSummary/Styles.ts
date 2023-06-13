@@ -41,7 +41,6 @@ export const Text = styled.div`
 
 export const Excerpt = styled.div`
   color: ${colors.textDark};
-  line-height: 1.6;
   margin-bottom: 1rem;
 `
 

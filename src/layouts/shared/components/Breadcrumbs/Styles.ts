@@ -1,15 +1,18 @@
 import styled from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { colors, mixin, sizes } from "@utils/styles"
+import { breakpoints, colors, mixin, sizes } from "@utils/styles"
 
-export const List = styled.ul`
+export const StyledBreadcrumbs = styled.ul`
   max-width: ${sizes.maxWidth};
   margin: calc(${sizes.blockVerticalPadding} - 1rem) auto calc(-${sizes.blockVerticalPadding} + 1rem) auto;
+  padding: 0 ${sizes.mobilePadding};
+  @media (min-width: ${breakpoints.large}) {
+    padding: 0 ${sizes.desktopPadding};
+  }
 
   display: flex;
-  ${mixin.horizontalContentPadding};
-  overflow-x: auto;
+  overflow: auto hidden;
 `
 
 export const Item = styled.li`

@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-import { breakpoints, colors } from "@utils/styles"
+import { breakpoints, colors, lineHeights } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const Group = styled.div`
@@ -36,8 +36,7 @@ export const AppDocumentation = styled.div`
 export const AppDescription = styled.div`
   margin: 1em 1em ${additionalInfoGap} 1em;
   flex: 1;
-  line-height: 1.3;
-  font-weight: 400;
+  line-height: ${lineHeights.textCompact};
   color: ${colors.textDark};
 `
 

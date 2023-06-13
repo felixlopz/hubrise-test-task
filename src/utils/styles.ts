@@ -20,7 +20,14 @@ export const fontSizes = {
   _16: "1rem",
   _18: "1.125rem",
   _24: "1.5rem",
+  _32: "2rem",
   _42: "2.625rem",
+}
+
+export const lineHeights = {
+  text: "1.6",
+  textCompact: "1.3",
+  title: "1.25",
 }
 
 export const breakpoints = {
@@ -55,6 +62,7 @@ export const mixin = {
   button: css`
     padding: 0.4rem 1.5rem;
     text-transform: uppercase;
+    font-size: ${fontSizes._16};
     font-weight: 500;
     border-radius: ${sizes.borderRadius};
   `,
@@ -117,12 +125,6 @@ export const mixin = {
       width: ${width};
       height: 100%;
       top: 0;
-    }
-  `,
-  horizontalContentPadding: css`
-    padding: ${sizes.mobilePadding};
-    @media (min-width: ${breakpoints.large}) {
-      padding: ${sizes.desktopPadding};
     }
   `,
   linkOver: (color: string): FlattenSimpleInterpolation => css`

@@ -1,21 +1,29 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
-import { colors } from "@utils/styles"
+import { colors, fontSizes, lineHeights } from "@utils/styles"
+
+const commonTitleStyles = css`
+  color: ${colors.textDarkest};
+  line-height: ${lineHeights.title};
+  :first-child {
+    margin-top: 0;
+  }
+`
+
+const paragraphSpacing = "1rem"
 
 export const Container = styled.div`
   font-family: "Poppins", sans-serif;
 
   h1 {
-    color: ${colors.textDarkest};
+    ${commonTitleStyles};
     font-weight: bold;
-    font-size: 2.125rem;
+    font-size: ${fontSizes._32};
     position: relative;
-    margin: 0 0 2.5rem 0;
-    width: 100%;
-    line-height: 120%;
+    margin-bottom: 2.5rem;
 
     @media screen and (min-width: 415px) {
-      font-size: 2.625rem;
+      font-size: ${fontSizes._42};
     }
 
     &:after {
@@ -31,71 +39,65 @@ export const Container = styled.div`
     }
   }
 
-  h2,
-  h3 {
-    scroll-snap-align: start;
-    scroll-margin-top: 1rem;
-
-    a {
-      color: transparent;
-      margin-left: 0.33rem;
-      vertical-align: middle;
-
-      &::after {
-        content: "#";
-
-        @media print {
-          display: none !important;
-        }
-      }
-    }
-
-    &:hover a {
-      color: ${colors.primary};
-
-      &:hover {
-        color: ${colors.textDarkest};
-      }
-    }
-  }
-
   h2 {
-    color: ${colors.textDarkest};
-    font-size: 1.563rem;
-    text-align: left;
-    font-weight: 600;
-    margin: 2rem 0 1rem 0;
+    ${commonTitleStyles};
+    position: relative;
+    font-size: ${fontSizes._24};
+    font-weight: bold;
+    margin: 2.5rem 0 2.5rem 0;
+
+    :after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: inherit;
+      top: 100%;
+      margin: 10px auto;
+      width: 10%;
+      height: 3px;
+      background: #ececec;
+    }
   }
 
   h3 {
-    color: ${colors.textDarkest};
-    font-weight: 500;
-    font-size: 1rem;
+    ${commonTitleStyles};
+    font-weight: 600;
     text-transform: uppercase;
-    margin: 1rem 0;
-    width: 100%;
+    margin: 2.5rem 0 ${paragraphSpacing} 0;
   }
 
   h4 {
-    color: ${colors.textDarkest};
+    ${commonTitleStyles};
     font-weight: 500;
-    font-size: 1rem;
-    margin: 0.5rem 0;
-    width: 100%;
+    margin: 1.5rem 0 ${paragraphSpacing} 0;
+  }
+
+  h5 {
+    ${commonTitleStyles};
+    font-weight: 500;
+    margin-bottom: 0.5rem;
   }
 
   p {
-    font-size: 1rem;
-    color: ${colors.textDark};
-    font-weight: 400;
-    overflow: auto;
+    margin-bottom: ${paragraphSpacing};
   }
 
-  a {
-    font-weight: 400;
-    font-size: 1rem;
-    color: ${colors.primary};
+  p + ul,
+  p + table,
+  p + .prism-code {
+    margin-top: calc(0.5rem - ${paragraphSpacing});
+  }
 
+  h5 + ul,
+  h5 + table,
+  h5 + .prism-code {
+    margin-top: 0.5rem;
+  }
+
+  p a,
+  li a,
+  td a {
+    color: ${colors.primary};
     @include hr-link-hover(${colors.textDarkest});
   }
 
@@ -112,9 +114,7 @@ export const Container = styled.div`
   }
 
   li {
-    font-size: 1rem;
-    font-weight: 400;
-    color: ${colors.textDark};
+    margin-bottom: 0.2rem;
   }
 
   ul li {
@@ -135,11 +135,44 @@ export const Container = styled.div`
     }
   }
 
+  hr {
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    margin: ${paragraphSpacing} 0;
+  }
+
+  code {
+    display: inline;
+    font-family: Consolas, Liberation Mono, Courier, monospace;
+    word-wrap: break-word;
+    max-width: 100%;
+    padding: 0.125rem 0.3125rem 0.0625rem;
+    background-color: #e6e6e6;
+    border: 1px solid #cacaca;
+    color: ${colors.textDarkest};
+  }
+
+  blockquote {
+    margin: 0 0 2rem;
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    border-left: 3px solid #ececec;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    p {
+      margin: 0;
+      font-style: italic;
+    }
+  }
+
   /* -----------
       Code
      ----------- */
   // Coming from a plugin {{{
   .prism-code {
+    overflow: auto;
     padding: 2.5rem 1.25rem;
     margin: 1.5rem auto;
     background-color: #fbfbfb;
