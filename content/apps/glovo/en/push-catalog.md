@@ -13,6 +13,12 @@ You can also configure the bridge to push your catalog into Glovo every time it 
 
 This page explains how to push your catalog, and what information is sent to Glovo.
 
+---
+
+**IMPORTANT NOTE:** You can update your Glovo catalog at most 5 times per day.
+
+---
+
 ## Populate a HubRise Catalog
 
 To update your menu in Glovo, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your EPOS documentation on the HubRise website to verify.
