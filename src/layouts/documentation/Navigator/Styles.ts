@@ -3,13 +3,10 @@ import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 import Link from "@layouts/shared/components/Link"
 import { boxShadows, breakpoints, colors, mixin, zIndexValues } from "@utils/styles"
 
-const mobilePadding = css`
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-`
+const stickyVerticalPadding = "0.5rem"
 
 export const StyledNavigator = styled.div`
-  @media (max-width: ${breakpoints.large}) {
+  @media not (min-width: ${breakpoints.documentationStickyMenu}) {
     border-top: 1px solid ${colors.primary};
     border-bottom: 1px solid ${colors.primary};
   }
@@ -26,7 +23,7 @@ export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
   font-size: 1rem;
   cursor: pointer;
 
-  @media (min-width: ${breakpoints.large}) {
+  @media (min-width: ${breakpoints.documentationStickyMenu}) {
     display: block;
     padding-left: 1rem;
   }
@@ -38,7 +35,7 @@ export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
       margin-bottom: 0;
       padding: 1rem;
 
-      @media (min-width: ${breakpoints.large}) {
+      @media (min-width: ${breakpoints.documentationStickyMenu}) {
         display: none;
       }
     `}
@@ -65,7 +62,7 @@ export const TitleLink = styled(Link)`
 export const List = styled.ul<{ $isExpanded?: boolean }>`
   padding: 1rem 0;
 
-  @media (max-width: ${breakpoints.large}) {
+  @media not (min-width: ${breakpoints.documentationStickyMenu}) {
     position: absolute;
     top: 100%;
     left: 0;
@@ -83,7 +80,7 @@ export const List = styled.ul<{ $isExpanded?: boolean }>`
     css`
       display: none;
 
-      @media (min-width: ${breakpoints.large}) {
+      @media (min-width: ${breakpoints.documentationStickyMenu}) {
         display: block;
       }
     `}
@@ -96,7 +93,7 @@ export const ArrowIcon = styled.i`
   cursor: pointer;
   display: block;
 
-  @media (min-width: ${breakpoints.large}) {
+  @media (min-width: ${breakpoints.documentationStickyMenu}) {
     display: none;
   }
 `
@@ -117,13 +114,14 @@ export const Item = styled.li<{ $isActive: boolean }>`
 
 export const ItemLink = styled(Link)<{ $isActive: boolean }>`
   display: block;
-  padding: 0.25rem 0 0.25rem 1rem;
+  padding: ${stickyVerticalPadding} 0.25rem ${stickyVerticalPadding} 1rem;
   ${linkColor(colors.textDarkest)};
   font-weight: 500;
   font-size: 0.9375rem;
 
-  @media (max-width: ${breakpoints.large}) {
-    ${mobilePadding};
+  @media (min-width: ${breakpoints.documentationStickyMenu}) {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   ${mixin.linkOver(colors.primary)};
@@ -132,7 +130,7 @@ export const ItemLink = styled(Link)<{ $isActive: boolean }>`
     props.$isActive &&
     css`
       ${linkColor(colors.white)};
-      background: ${colors.primary};
+      background-color: ${colors.primary};
 
       &:hover {
         color: ${colors.white};
@@ -147,6 +145,7 @@ export const SubList = styled.ol`
 `
 
 export const SubItemLink = styled(Link)<{ $isActive: boolean }>`
+  padding: ${stickyVerticalPadding} 0.25rem ${stickyVerticalPadding} 0;
   ${linkColor(colors.textDarkest)};
   font-weight: 400;
   font-size: 0.9375rem;
@@ -155,8 +154,9 @@ export const SubItemLink = styled(Link)<{ $isActive: boolean }>`
 
   ${mixin.linkOver(colors.primary)};
 
-  @media (max-width: ${breakpoints.large}) {
-    ${mobilePadding};
+  @media (min-width: ${breakpoints.large}) {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   ${(props) =>

@@ -4,7 +4,7 @@ import { breakpoints, colors, mixin, sizes, zIndexValues } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const StyledMobileBar = styled.div`
-  @media (min-width: ${breakpoints.large}) {
+  @media (min-width: ${breakpoints.burgerMenu}) {
     display: none;
   }
 `

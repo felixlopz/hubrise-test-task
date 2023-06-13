@@ -7,6 +7,7 @@ import { generateArchiveList, getArchiveTitle, getArchiveLink } from "./helpers"
 import { ArrowIcon, Menu, MenuItem, ItemLink, MenuList, MenuTitle } from "./Styles"
 
 import { useLocaleCode } from "@utils/locales"
+import { breakpoints } from "@utils/styles"
 
 const Sidebar = (): JSX.Element => {
   const { t } = useTranslation()
@@ -15,7 +16,7 @@ const Sidebar = (): JSX.Element => {
   const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === localeCode)
 
   const archiveList = generateArchiveList(sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date)))
-  const isDesktop = useMedia("(min-width: 1024px)")
+  const isDesktop = useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
   const [isArchiveExpanded, setArchiveExpanded] = useState(true)
 

@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components"
 
-import { breakpoints, colors, fontSizes, lineHeights, mixin } from "@utils/styles"
+import { breakpoints, colors, lineHeights, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const Menu = styled.div`
@@ -14,7 +14,7 @@ export const MenuList = styled.ul<{ $isSelected: boolean }>`
   ${(props) =>
     props.$isSelected === false &&
     css`
-      @media (max-width: ${breakpoints.medium}) {
+      @media not (min-width: ${breakpoints.blogStickyMenu}) {
         display: none;
       }
     `}
@@ -51,22 +51,22 @@ export const MenuTitle = styled.h5`
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 65%;
+    width: 100%;
 
-    @media (max-width: ${breakpoints.medium}) {
-      width: 100%;
+    @media (min-width: ${breakpoints.blogStickyMenu}) {
+      width: 65%;
     }
   }
 `
 
 export const ArrowIcon = styled.i`
+  display: block;
   color: ${colors.primary};
   font-size: 1.3em;
   float: right;
   cursor: pointer;
-  display: none;
 
-  @media (max-width: ${breakpoints.medium}) {
-    display: block;
+  @media (min-width: ${breakpoints.blogStickyMenu}) {
+    display: none;
   }
 `

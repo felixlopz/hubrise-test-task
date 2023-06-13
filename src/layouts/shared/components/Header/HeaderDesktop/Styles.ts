@@ -8,7 +8,7 @@ import Link from "@layouts/shared/components/Link"
 export const StyledHeader = styled.div`
   display: none;
 
-  @media (min-width: ${breakpoints.xLarge}) {
+  @media (min-width: ${breakpoints.burgerMenu}) {
     display: flex;
     position: sticky;
     top: 0;

@@ -33,7 +33,9 @@ export const lineHeights = {
 export const breakpoints = {
   medium: "40rem",
   large: "64rem",
-  xLarge: "75rem",
+  documentationStickyMenu: "64rem",
+  blogStickyMenu: "40rem",
+  burgerMenu: "75rem",
 }
 
 export const colors = {

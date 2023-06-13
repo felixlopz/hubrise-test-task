@@ -12,7 +12,7 @@ export const StyledHeader = styled.div`
   top: 0;
   ${headerStyle};
 
-  @media (min-width: ${breakpoints.xLarge}) {
+  @media (min-width: ${breakpoints.burgerMenu}) {
     display: none;
   }
 `

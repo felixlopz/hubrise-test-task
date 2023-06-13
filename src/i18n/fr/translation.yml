@@ -7,6 +7,7 @@ blog:
   hero:
     title: Le blog HubRise
     description: Nouvelles apps, évolutions de l'API et cas d'utilisation de HubRise
+  older_posts: Articles plus anciens
   title: Blog
 
 documentation:

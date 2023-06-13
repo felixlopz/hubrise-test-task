@@ -6,6 +6,7 @@ import { FolderPage } from "../interface"
 import { List, ItemLink, Item, TitleLink, Title, ArrowIcon, StyledNavigator, SubList, SubItemLink } from "./Styles"
 
 import { createHeaderAnchor, generateKey } from "@utils/misc"
+import { breakpoints } from "@utils/styles"
 
 interface NavigatorProps {
   currentPath: string
@@ -21,7 +22,7 @@ export interface Heading {
 
 const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps): JSX.Element => {
   const [isExpanded, setIsExpanded] = React.useState(false)
-  const isDesktop = useMedia("(min-width: 1024px)")
+  const isSticky = !useMedia(`(min-width: ${breakpoints.documentationStickyMenu})`)
   const [currentTitle, setCurrentTitle] = React.useState(title)
 
   const chapterMainPath = folderPages[0].path
@@ -58,7 +59,7 @@ const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps
               <ItemLink
                 to={path}
                 addLocalePrefix={false}
-                onClick={isDesktop ? undefined : () => setIsExpanded(false)}
+                onClick={isSticky ? () => setIsExpanded(false) : undefined}
                 $isActive={isCurrentPage}
               >
                 {title}
@@ -72,7 +73,7 @@ const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps
                       <li key={generateKey(headingText, idx)}>
                         <SubItemLink
                           to={`#${createHeaderAnchor(headingText)}`}
-                          onClick={isDesktop ? undefined : () => setIsExpanded(false)}
+                          onClick={isSticky ? () => setIsExpanded(false) : undefined}
                           $isActive={currentTitle === headingText}
                         >
                           <span>{headingText}</span>

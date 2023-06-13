@@ -15,7 +15,7 @@ export const Inner = styled.div`
   display: flex;
   flex-wrap: wrap;
 
-  @media (min-width: ${breakpoints.large}) {
+  @media (min-width: ${breakpoints.blogStickyMenu}) {
     :before {
       content: "";
       background-color: ${sidebarBackgroundColor};
@@ -33,7 +33,7 @@ export const StyledSidebar = styled.div`
   flex: 0 0 100%;
   padding: ${sizes.blockVerticalPadding} ${sizes.mobilePadding};
 
-  @media (min-width: ${breakpoints.large}) {
+  @media (min-width: ${breakpoints.blogStickyMenu}) {
     flex: 0 0 25%;
     padding: ${sizes.blockVerticalPadding} ${sizes.desktopPadding};
   }
@@ -44,7 +44,7 @@ export const StyledContent = styled.div`
   flex: 0 0 100%;
   padding: ${sizes.blockVerticalPadding} ${sizes.mobilePadding};
 
-  @media (min-width: ${breakpoints.large}) {
+  @media (min-width: ${breakpoints.blogStickyMenu}) {
     flex: 0 0 75%;
     padding: ${sizes.blockVerticalPadding} ${sizes.desktopPadding};
   }

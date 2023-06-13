@@ -87,7 +87,10 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
         label: "Blog",
       },
       {
-        label: `${t("misc.archive")} - ${getArchiveTitle(archive, t)}`,
+        label: t("blog.older_posts"),
+      },
+      {
+        label: getArchiveTitle(archive, t),
       },
     ]
   }
