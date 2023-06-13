@@ -9,12 +9,10 @@
     "gatsby": "node ./node_modules/.bin/gatsby",
     "start:dev": "yarn gatsby develop",
     "start:prod": "yarn gatsby serve --port 9009",
-    "cypress:open": "cypress open",
-    "cypress:run": "cross-env CYPRESS_BASE_URL=http://localhost:9009 cypress run",
     "test": "jest --config config/jest.config.js",
-    "test:e2e:open": "start-server-and-test start:dev http://localhost:8000 cypress:open",
-    "test:e2e": "start-server-and-test start:prod http://localhost:9009 cypress:run",
-    "test:all": "yarn test && yarn test:e2e"
+    "cypress:open": "start-server-and-test start:dev http://localhost:8000 'yarn cypress open'",
+    "cypress:run": "start-server-and-test start:prod http://localhost:9009 'yarn cross-env CYPRESS_BASE_URL=http://localhost:9009 cypress run'",
+    "test:all": "yarn test && yarn cypress:run"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
