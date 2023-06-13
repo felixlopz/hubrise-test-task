@@ -13,7 +13,7 @@ export const NormalizeStyles = createGlobalStyle`
    */
   
   html {
-    line-height: 1.15; /* 1 */
+    // line-height: 1.15; /* 1 */ // Redefined in ExtraNormalizeStyles.ts
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
@@ -168,7 +168,7 @@ export const NormalizeStyles = createGlobalStyle`
   textarea {
     font-family: inherit; /* 1 */
     font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
+    // line-height: 1.15; /* 1 */ // Redefined in ExtraNormalizeStyles.ts
     margin: 0; /* 2 */
   }
   
