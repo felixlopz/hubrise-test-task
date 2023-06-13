@@ -5,7 +5,7 @@
   "scripts": {
     "build": "yarn clean && yarn gatsby build",
     "clean": "yarn gatsby clean",
-    "eslint": "eslint --fix src cypress --ext .ts,tsx,.css",
+    "eslint": "eslint --fix src --ext .ts,tsx",
     "gatsby": "node ./node_modules/.bin/gatsby",
     "start:dev": "yarn gatsby develop",
     "start:prod": "yarn gatsby serve --port 9009",

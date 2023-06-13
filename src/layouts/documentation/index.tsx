@@ -14,7 +14,7 @@ import { ImageSharp } from "@utils/image"
 import SEO from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs from "@layouts/shared/components/Breadcrumbs"
-import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
+import MDXCustomRenderer from "@layouts/shared/components/MdxCustomRenderer"
 import { useLocaleCode } from "@utils/locales"
 import Link from "@layouts/shared/components/Link"
 
@@ -154,7 +154,7 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
 
         <Main>
           <Content>
-            <DocumentationRenderer {...{ title, body }} />
+            <MDXCustomRenderer {...{ title, body }} />
           </Content>
 
           {galleryImageMap.size > 0 && (

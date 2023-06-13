@@ -3,16 +3,16 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import { Container } from "./Styles"
 
-interface DocumentationRendererProps {
+interface MdxCustomRendererProps {
   title?: string
   body: string
 }
 
-const DocumentationRenderer = ({ title, body }: DocumentationRendererProps): JSX.Element => (
+const MdxCustomRenderer = ({ title, body }: MdxCustomRendererProps): JSX.Element => (
   <Container>
     {title && <h1>{title}</h1>}
     <MDXRenderer>{body}</MDXRenderer>
   </Container>
 )
 
-export default DocumentationRenderer
+export default MdxCustomRenderer

@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 import Block from "@layouts/shared/components/Block"
-import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
+import MDXCustomRenderer from "@layouts/shared/components/MdxCustomRenderer"
 
 interface DocumentationSimpleProps {
   data: DocumentationSimpleData
@@ -46,7 +46,7 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
       <SEO meta={meta} />
 
       <Block backgroundColor="white" desktopHorizontalAlign="left">
-        <DocumentationRenderer title={frontmatter.title} body={body} />
+        <MDXCustomRenderer title={frontmatter.title} body={body} />
       </Block>
     </MDXProvider>
   )

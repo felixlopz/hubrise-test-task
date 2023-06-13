@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { breakpoints, colors, fontSizes, lineHeights, mixin } from "@utils/styles";
+import { breakpoints, colors, fontSizes, lineHeights, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 import bannerImage from "@assets/images/hero_image.jpg"
 
