@@ -5,7 +5,7 @@ import { breakpoints, fontSizes, lineHeights } from "@utils/styles"
 
 export const StyledTitle = styled.h3<{
   $backgroundColor: BackgroundColor
-  $desktopHorizontalAlign: HorizontalAlign
+  $horizontalAlign: HorizontalAlign
 }>`
   margin-bottom: 2.5rem;
   position: relative;
@@ -28,11 +28,11 @@ export const StyledTitle = styled.h3<{
     background-color: ${({ $backgroundColor }) => linkColorMap[$backgroundColor]};
   }
 
-  ${({ $desktopHorizontalAlign }) => css`
+  ${({ $horizontalAlign }) => css`
     @media (min-width: ${breakpoints.large}) {
-      text-align: ${$desktopHorizontalAlign};
+      text-align: ${$horizontalAlign};
       &:after {
-        right: ${$desktopHorizontalAlign === "left" ? "auto" : "0"};
+        right: ${$horizontalAlign === "left" ? "auto" : "0"};
       }
     }
   `}

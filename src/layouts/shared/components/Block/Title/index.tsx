@@ -6,13 +6,13 @@ import { StyledTitle } from "./Styles"
 
 interface TitleProps {
   backgroundColor: BackgroundColor
-  desktopHorizontalAlign: HorizontalAlign
+  horizontalAlign: HorizontalAlign
   children: React.ReactNode
 }
 
-const Title = ({ backgroundColor, desktopHorizontalAlign, children }: TitleProps): JSX.Element => {
+const Title = ({ backgroundColor, horizontalAlign, children }: TitleProps): JSX.Element => {
   return (
-    <StyledTitle $backgroundColor={backgroundColor} $desktopHorizontalAlign={desktopHorizontalAlign}>
+    <StyledTitle $backgroundColor={backgroundColor} $horizontalAlign={horizontalAlign}>
       {children}
     </StyledTitle>
   )

@@ -30,7 +30,7 @@ const Api = ({ title, description, image }: ApiProps): JSX.Element => {
       title={title}
       side={side}
       sidePosition="right"
-      desktopHorizontalAlign="left"
+      horizontalAlign="centerOnMobile"
       desktopVerticalAlign="center"
     >
       <Content>

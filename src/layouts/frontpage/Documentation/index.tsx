@@ -30,7 +30,7 @@ const Documentation = ({ title, description, image }: DocumentationProps): JSX.E
       title={title}
       side={side}
       sidePosition="left"
-      desktopHorizontalAlign="left"
+      horizontalAlign="centerOnMobile"
       desktopVerticalAlign="center"
     >
       <Content>

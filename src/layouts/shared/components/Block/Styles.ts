@@ -90,22 +90,22 @@ const verticalAlign = (align: VerticalAlign) =>
     justify-content: center;
   `
 
-export const Main = styled.div<{ $desktopHorizontalAlign: HorizontalAlign; $desktopVerticalAlign: VerticalAlign }>`
-  grid-area: main;
-  text-align: center;
+const align = (horizontalAlign: HorizontalAlign, desktopVerticalAlign: VerticalAlign) =>
+  css`
+    text-align: ${horizontalAlign === "left" ? "left" : "center"};
 
-  @media (min-width: ${breakpoints.large}) {
-    text-align: ${({ $desktopHorizontalAlign }) => $desktopHorizontalAlign};
-    ${({ $desktopVerticalAlign }) => verticalAlign($desktopVerticalAlign)};
-  }
+    @media (min-width: ${breakpoints.large}) {
+      text-align: ${horizontalAlign === "center" ? "center" : "left"};
+      ${verticalAlign(desktopVerticalAlign)};
+    }
+  `
+
+export const Main = styled.div<{ $horizontalAlign: HorizontalAlign; $desktopVerticalAlign: VerticalAlign }>`
+  grid-area: main;
+  ${({ $horizontalAlign, $desktopVerticalAlign }) => align($horizontalAlign, $desktopVerticalAlign)};
 `
 
-export const Side = styled.div<{ $desktopHorizontalAlign: HorizontalAlign; $desktopVerticalAlign: VerticalAlign }>`
+export const Side = styled.div<{ $horizontalAlign: HorizontalAlign; $desktopVerticalAlign: VerticalAlign }>`
   grid-area: side;
-  text-align: center;
-
-  @media (min-width: ${breakpoints.large}) {
-    text-align: ${({ $desktopHorizontalAlign }) => $desktopHorizontalAlign};
-    ${({ $desktopVerticalAlign }) => verticalAlign($desktopVerticalAlign)};
-  }
+  ${({ $horizontalAlign, $desktopVerticalAlign }) => align($horizontalAlign, $desktopVerticalAlign)};
 `

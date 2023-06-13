@@ -11,7 +11,7 @@ interface BlockProps {
   backgroundColor: BackgroundColor
   beforeExpansion?: boolean
   afterExpansion?: boolean
-  desktopHorizontalAlign?: HorizontalAlign
+  horizontalAlign?: HorizontalAlign
   desktopVerticalAlign?: VerticalAlign
   title?: string
   side?: React.ReactNode
@@ -25,7 +25,7 @@ const Block = ({
   backgroundColor,
   beforeExpansion = false,
   afterExpansion = false,
-  desktopHorizontalAlign = "center",
+  horizontalAlign = "center",
   desktopVerticalAlign = "top",
   title,
   side,
@@ -43,9 +43,9 @@ const Block = ({
         $hasSide={side !== undefined}
         $sidePosition={sidePosition}
       >
-        <Main $desktopHorizontalAlign={desktopHorizontalAlign} $desktopVerticalAlign={desktopVerticalAlign}>
+        <Main $horizontalAlign={horizontalAlign} $desktopVerticalAlign={desktopVerticalAlign}>
           {title && (
-            <Title backgroundColor={backgroundColor} desktopHorizontalAlign={desktopHorizontalAlign}>
+            <Title backgroundColor={backgroundColor} horizontalAlign={horizontalAlign}>
               {title}
             </Title>
           )}
@@ -54,7 +54,7 @@ const Block = ({
         </Main>
 
         {side && (
-          <Side $desktopHorizontalAlign={desktopHorizontalAlign} $desktopVerticalAlign={desktopVerticalAlign}>
+          <Side $horizontalAlign={horizontalAlign} $desktopVerticalAlign={desktopVerticalAlign}>
             {side}
           </Side>
         )}

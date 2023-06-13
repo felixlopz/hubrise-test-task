@@ -32,7 +32,7 @@ const Developers = ({ title, description, team_members, teamImages }: Developers
       beforeExpansion={true}
       afterExpansion={true}
       title={title}
-      desktopHorizontalAlign="center"
+      horizontalAlign="center"
     >
       <Content>
         <Text $backgroundColor="white" dangerouslySetInnerHTML={{ __html: markdownToHtml(description) }} />

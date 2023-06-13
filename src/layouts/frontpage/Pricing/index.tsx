@@ -23,7 +23,7 @@ const Pricing = ({ title, description, button_label, button_url, link_label, lin
       beforeExpansion={true}
       afterExpansion={true}
       title={title}
-      desktopHorizontalAlign="center"
+      horizontalAlign="center"
     >
       <Content>
         <Text $backgroundColor="green" dangerouslySetInnerHTML={{ __html: markdownToHtml(description) }} />

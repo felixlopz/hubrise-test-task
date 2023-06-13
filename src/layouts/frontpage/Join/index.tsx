@@ -21,7 +21,7 @@ const Join = ({ title, button_label, button_url, link_label, link_url }: JoinPro
       beforeExpansion={true}
       afterExpansion={true}
       title={title}
-      desktopHorizontalAlign="center"
+      horizontalAlign="center"
     >
       <Content>
         <Actions>

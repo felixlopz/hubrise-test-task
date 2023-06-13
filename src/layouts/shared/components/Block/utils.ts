@@ -2,7 +2,7 @@ import { colors } from "@utils/styles"
 
 export type BackgroundColor = "none" | "white" | "green"
 
-export type HorizontalAlign = "left" | "center"
+export type HorizontalAlign = "left" | "center" | "centerOnMobile"
 
 export type VerticalAlign = "top" | "center"
 

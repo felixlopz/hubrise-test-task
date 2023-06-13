@@ -45,7 +45,7 @@ const DocumentationSimple = ({ data }: DocumentationSimpleProps): JSX.Element =>
     <MDXProvider>
       <SEO meta={meta} />
 
-      <Block backgroundColor="white" desktopHorizontalAlign="left">
+      <Block backgroundColor="white" horizontalAlign="left">
         <MDXCustomRenderer title={frontmatter.title} body={body} />
       </Block>
     </MDXProvider>

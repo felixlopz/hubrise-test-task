@@ -39,7 +39,7 @@ const Apps = ({ title, description, categories, apps, appsHover }: AppsProps): J
       title={title}
       side={side}
       sidePosition="left"
-      desktopHorizontalAlign="left"
+      horizontalAlign="centerOnMobile"
       desktopVerticalAlign="center"
     >
       <Content>
