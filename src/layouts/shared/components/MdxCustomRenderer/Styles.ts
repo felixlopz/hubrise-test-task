@@ -184,7 +184,7 @@ export const Container = styled.div`
     .prism-code_wrapper {
       position: relative;
       white-space: inherit;
-      font-size: 0.9375rem;
+      font-size: ${fontSizes._14};
     }
 
     .token-line {

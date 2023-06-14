@@ -40,10 +40,13 @@ export const MenuTitle = styled.h5`
   position: relative;
   padding-bottom: 1rem;
   color: ${colors.textLight};
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: 1rem;
   cursor: pointer;
+
+  @media (min-width: ${breakpoints.blogStickyMenu}) {
+    cursor: default;
+  }
 
   &:before {
     border-bottom: 4px solid #ececec;

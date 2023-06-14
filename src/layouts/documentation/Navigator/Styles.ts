@@ -1,14 +1,15 @@
 import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { boxShadows, breakpoints, colors, mixin, zIndexValues } from "@utils/styles"
+import { boxShadows, breakpoints, colors, fontSizes, mixin, zIndexValues } from "@utils/styles";
 
 const stickyVerticalPadding = "0.5rem"
 
 export const StyledNavigator = styled.div`
   @media not (min-width: ${breakpoints.documentationStickyMenu}) {
-    border-top: 1px solid ${colors.primary};
-    border-bottom: 1px solid ${colors.primary};
+    border-top: thin solid ${colors.textLighter};
+    border-bottom: thin solid ${colors.textLighter};
+    box-shadow: ${boxShadows.small};
   }
 `
 
@@ -16,11 +17,8 @@ export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
   display: none;
   position: relative;
   padding-top: 1rem;
-  padding-left: 0;
-  margin-bottom: 0;
   color: ${colors.textDarkest};
   font-weight: bold;
-  font-size: 1rem;
   cursor: pointer;
 
   @media (min-width: ${breakpoints.documentationStickyMenu}) {
@@ -31,8 +29,9 @@ export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
   ${(props) =>
     props.$forMobile &&
     css`
-      display: block;
-      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       padding: 1rem;
 
       @media (min-width: ${breakpoints.documentationStickyMenu}) {
@@ -43,7 +42,7 @@ export const Title = styled.h5<{ $forMobile?: boolean; $isExpanded?: boolean }>`
   ${(props) =>
     props.$isExpanded &&
     css`
-      border-bottom: 1px solid ${colors.primary};
+      border-bottom: thin solid ${colors.primary};
     `}
 `
 
@@ -71,7 +70,7 @@ export const List = styled.ul<{ $isExpanded?: boolean }>`
     padding: 0;
 
     background-color: ${colors.backgroundWhite};
-    border-bottom: 1px solid ${colors.primary};
+    border-bottom: thin solid ${colors.primary};
     box-shadow: ${boxShadows.medium};
   }
 
@@ -88,10 +87,9 @@ export const List = styled.ul<{ $isExpanded?: boolean }>`
 
 export const ArrowIcon = styled.i`
   color: ${colors.primary};
-  font-size: 1.3em;
-  float: right;
+  font-size: 1.3rem;
+  font-weight: 600;
   cursor: pointer;
-  display: block;
 
   @media (min-width: ${breakpoints.documentationStickyMenu}) {
     display: none;
@@ -100,8 +98,7 @@ export const ArrowIcon = styled.i`
 
 export const Item = styled.li<{ $isActive: boolean }>`
   color: ${colors.textDarkest};
-  font-weight: 500;
-  font-size: 0.9375rem;
+  font-size: ${fontSizes._14};
   width: 100%;
   display: inline-block;
 
@@ -117,7 +114,6 @@ export const ItemLink = styled(Link)<{ $isActive: boolean }>`
   padding: ${stickyVerticalPadding} 0.25rem ${stickyVerticalPadding} 1rem;
   ${linkColor(colors.textDarkest)};
   font-weight: 500;
-  font-size: 0.9375rem;
 
   @media (min-width: ${breakpoints.documentationStickyMenu}) {
     padding-top: 0.25rem;
@@ -147,16 +143,14 @@ export const SubList = styled.ol`
 export const SubItemLink = styled(Link)<{ $isActive: boolean }>`
   padding: ${stickyVerticalPadding} 0.25rem ${stickyVerticalPadding} 0;
   ${linkColor(colors.textDarkest)};
-  font-weight: 400;
-  font-size: 0.9375rem;
   display: inline-block;
   width: 100%;
 
   ${mixin.linkOver(colors.primary)};
 
   @media (min-width: ${breakpoints.large}) {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 
   ${(props) =>

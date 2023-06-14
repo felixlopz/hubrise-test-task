@@ -4,9 +4,6 @@ import { colors } from "@utils/styles"
 
 export const Container = styled.div`
   color: ${colors.textMedium};
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
   margin-bottom: 1rem;
 `
 

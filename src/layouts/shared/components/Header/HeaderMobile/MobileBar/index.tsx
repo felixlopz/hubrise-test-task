@@ -58,7 +58,7 @@ const MobileBar = ({ languagePaths, menuItems, isOpen, close }: MobileBarProps):
             )
           })}
 
-          <NavLink className="signup" to="https://manager.hubrise.com/signup" newTab={false}>
+          <NavLink to="https://manager.hubrise.com/signup" newTab={false} $topMargin={true}>
             {t(`layout.header.buttons.signup`)}
           </NavLink>
 

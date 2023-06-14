@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import Title from "../shared/components/Title"
 
 import Link from "@layouts/shared/components/Link"
-import { breakpoints, colors, mixin } from "@utils/styles"
+import { breakpoints, colors, mixin, sizes } from "@utils/styles"
 
 export const StyledPostSummary = styled.div`
   display: grid;
@@ -49,11 +49,10 @@ export const ReadMore = styled(Link)`
   width: 100%;
   padding: 0.3rem 1.8rem;
   text-align: center;
-  font-size: 0.9375rem;
   font-weight: 500;
   color: ${colors.white};
   background: ${colors.textDark};
-  border-radius: 3px;
+  border-radius: ${sizes.borderRadius};
 
   ${mixin.buttonOver(colors.white, colors.primary)};
 

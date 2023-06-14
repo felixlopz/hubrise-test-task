@@ -16,6 +16,7 @@ export const sizes = {
 }
 
 export const fontSizes = {
+  _12: ".75rem",
   _14: ".875rem",
   _16: "1rem",
   _18: "1.125rem",
@@ -52,6 +53,11 @@ export const colors = {
 
   backgroundLight: "#efefef",
   backgroundWhite: "#fff",
+
+  // borderMedium: "#ccc",
+  borderLight: "#e0e0e0",
+  // borderLightest: "#f8f8f8",
+  borderInputFocus: "#555",
 }
 
 export const boxShadows = {
@@ -91,17 +97,16 @@ export const mixin = {
     margin: 0 auto;
   `,
   dotSeparatedList: (gap: string): FlattenSimpleInterpolation => css`
-    display: inline;
+    display: flex;
+    align-items: center;
   
     &:not(:last-child) {
-        margin-right: ${gap};
-    
+      margin-right: ${gap};
+      
       &:after {
           content: "●";
-          display: inline;
           margin-left: ${gap};
-          bottom: 0.15em;
-          font-size: 0.75rem;
+          font-size: ${fontSizes._12};
           color: ${colors.textLighter};
         }
       }
@@ -144,4 +149,5 @@ export const zIndexValues = {
   slideshow: 100,
   modalOverlay: 150,
   modal: 200,
+  toast: 300,
 }

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { breakpoints, colors, mixin, sizes, zIndexValues } from "@utils/styles"
+import { breakpoints, colors, fontSizes, mixin, sizes, zIndexValues } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const StyledMobileBar = styled.div`
@@ -38,13 +38,13 @@ export const Header = styled.header`
   align-items: center;
   height: ${sizes.headerHeight};
   border-bottom: 4px solid ${colors.primary};
-  font-size: 2rem;
+  font-size: ${fontSizes._32};
   font-weight: 600;
   color: ${colors.primary};
 `
 
 export const HeaderButton = styled.div`
-  padding-left: 0.5em;
+  padding-left: 1rem;
 `
 
 export const HeaderTitle = styled.div`
@@ -54,24 +54,22 @@ export const HeaderTitle = styled.div`
 
 export const Nav = styled.div`
   flex: 1;
-  padding-top: 2em;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 `
 
-export const NavLink = styled(Link)`
-  display: block;
+export const NavLink = styled(Link)<{ $topMargin?: boolean }>`
+  width: 100%;
   color: ${colors.textDark};
-  margin-bottom: 1em;
-  padding: 0 1em;
+  padding: 0.5rem 1rem;
+  ${(props) => props.$topMargin && "margin-top: 2rem"};
 
   ${mixin.linkOver(colors.primary)};
 
   &.is-active {
     color: ${colors.primary};
-  }
-
-  &.signup {
-    margin-top: 2em;
   }
 `
 
