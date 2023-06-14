@@ -47,7 +47,7 @@ export const StyledLink = styled(Link)<{ $isSticky: boolean; $isActive: boolean 
           }
         `
       : css`
-          color: ${$isActive ? colors.primary : colors.gray};
+          color: ${$isActive ? colors.primary : colors.textDark};
 
           :hover {
             color: ${colors.primary};

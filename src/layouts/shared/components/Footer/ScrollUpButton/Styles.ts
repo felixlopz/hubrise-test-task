@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { colors, mixin } from "@utils/styles"
+import { colors, fontSizes, mixin } from "@utils/styles"
 
 export const StyledButton = styled.button`
   position: absolute;
@@ -11,12 +11,14 @@ export const StyledButton = styled.button`
   background: ${colors.primary};
   border-radius: 50%;
   color: ${colors.white};
-  font-size: 2rem;
+  font-size: ${fontSizes._32};
   cursor: pointer;
+
+  ${mixin.centerElement};
 
   &:focus {
     outline: none;
   }
 
-  ${mixin.buttonOver(colors.white, colors.darkGray)};
+  ${mixin.buttonOver(colors.white, colors.textDarkest)};
 `

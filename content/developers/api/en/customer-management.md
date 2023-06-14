@@ -25,7 +25,7 @@ Returns a customer list.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /customer_lists/ag8u4`
 
@@ -54,7 +54,7 @@ Account level Customer Lists of an account:
   accessLevel="account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /locations/3r4s3-1/customer_lists`
 
@@ -93,13 +93,13 @@ To create an account-level customer list:
   accessLevel="account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name   | Type   | Description                    |
 | ------ | ------ | ------------------------------ |
 | `name` | string | The name of the customer list. |
 
-#### Example request:
+##### Example request:
 
 `POST /locations/3r4s3-1/customer_lists`
 
@@ -120,7 +120,7 @@ Update a customer list.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `PATCH /customer_lists/apm3s`
 
@@ -143,7 +143,7 @@ No event is fired in the process.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `DELETE /customer_lists/apm3s`
 
@@ -158,7 +158,7 @@ Returns a customer's details.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /customer_lists/smpse3/customers/jdj9v`
 
@@ -211,7 +211,7 @@ Returns customers belonging to a customer list. Filters can be specified.
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name          | Description                                            |
 | ------------- | ------------------------------------------------------ |
@@ -219,7 +219,7 @@ Returns customers belonging to a customer list. Filters can be specified.
 | `email`       | Filter customers by email. Wildcards (\*) can be used. |
 | `phone`       | Filter customers by phone. Wildcards (\*) can be used. |
 
-#### Example request:
+##### Example request:
 
 `GET /customer_lists/ag8u4/customers?phone=+44*`
 
@@ -249,7 +249,7 @@ There is no mandatory field so a customer can be created with no information the
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name                                          | Type                                                        | Description                                                                                                                                              |
 | --------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -277,7 +277,7 @@ There is no mandatory field so a customer can be created with no information the
 
 (\*) The E.164 format must be used for any new implementation. Be aware however that phone numbers retrieved from the API can be encoded in a different format. The E.164 will become mandatory in a future release.
 
-#### Example request:
+##### Example request:
 
 `POST /customer_lists/ag8u4/customers`
 
@@ -312,7 +312,7 @@ Updates a customer. Only the fields present in the request are updated.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `PATCH /customer_lists/ag8u4/customers/asdf2`
 
@@ -346,7 +346,7 @@ When a customer is anonymised, an [Event](/api/callbacks/#events) with an `updat
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `POST /customer_lists/ag8u4/customers/asdf2/anonymise`
 
@@ -371,7 +371,7 @@ Returns a loyalty card.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /customer_lists/smpre3/loyalty_cards/slp8q`
 
@@ -394,7 +394,7 @@ Returns loyalty cards belonging to a customer list. Filters can be specified.
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name          | Description                                   |
 | ------------- | --------------------------------------------- |
@@ -402,7 +402,7 @@ Returns loyalty cards belonging to a customer list. Filters can be specified.
 | `name`        | Filter loyalty cards by name.                 |
 | `ref`         | Filter loyalty cards by ref.                  |
 
-#### Example request: retrieve by ref
+##### Example request: retrieve by ref
 
 `GET /customer_lists/smpre3/loyalty_cards?ref=LOY`
 
@@ -418,7 +418,7 @@ Returns loyalty cards belonging to a customer list. Filters can be specified.
 ]
 ```
 
-#### Example request: retrieve loyalty cards belonging to a customer
+##### Example request: retrieve loyalty cards belonging to a customer
 
 `GET /customer_lists/smpre3/loyalty_cards?customer_id=ve343`
 
@@ -450,7 +450,7 @@ Creates a new loyalty card for a customer.
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name                             | Type   | Description                                                                                                            |
 | -------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------- |
@@ -458,7 +458,7 @@ Creates a new loyalty card for a customer.
 | `name` <Label type="optional" /> | string | The marketing name of the loyalty scheme.                                                                              |
 | `ref`                            | string | The loyalty card ref. Must be unique for any given customer. No more than one card per customer can have a `null` ref. |
 
-#### Example request:
+##### Example request:
 
 `POST /customer_lists/smpre3/loyalty_cards`
 
@@ -481,14 +481,14 @@ Update a loyalty card.
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name                             | Type   | Description                  |
 | -------------------------------- | ------ | ---------------------------- |
 | `name` <Label type="optional" /> | string | The loyalty card name.       |
 | `ref` <Label type="optional" />  | string | The loyalty card unique ref. |
 
-#### Example request:
+##### Example request:
 
 `PATCH /customer_lists/smpre3/loyalty_cards/slp8q`
 
@@ -513,7 +513,7 @@ Returns a loyalty card operation.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /customer_lists/smpre3/loyalty_cards/slp8q/operations/22kmp`
 
@@ -539,7 +539,7 @@ Returns the operations on a given loyalty card, sorted by descending chronologic
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /customer_lists/smpre3/loyalty_cards/slp8q/operations`
 
@@ -564,7 +564,7 @@ Create a loyalty card operation and updates the balance accordingly.
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name                                 | Type                                                        | Description                                                                                                                                                         |
 | ------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -572,7 +572,7 @@ Create a loyalty card operation and updates the balance accordingly.
 | `reason` <Label type="optional" />   | string                                                      | Describes how the points were obtained/redeemed. The customer will typically see this field when he checks his loyalty account operations from a website.           |
 | `delta`                              | [decimal](/developers/api/general-concepts/#decimal-values) | The number of points to add to the customer balance. Use a negative number to remove points.                                                                        |
 
-#### Example request:
+##### Example request:
 
 `POST /customer_lists/smpre3/loyalty_cards/slp8q/operations`
 

@@ -23,7 +23,7 @@ describe("doesn't crash and burn", () => {
 })
 
 it("renders elements, allows interaction and navigation between various pages", () => {
-  cy.viewport(1024, 660)
+  cy.viewport(1280, 1024)
 
   cy.visit("/")
   cy.contains("Integration for retail")

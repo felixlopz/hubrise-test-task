@@ -5,7 +5,7 @@ import DateAndAuthor from "../shared/components/DateAndAuthor"
 
 import { BannerImage, StyledPost, StyledTitle } from "./Styles"
 
-import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
+import MDXCustomRenderer from "@layouts/shared/components/MdxCustomRenderer"
 import { ImageSharp } from "@utils/image"
 
 interface PostProps {
@@ -24,7 +24,7 @@ const Post = ({ mdxNode, bannerImage }: PostProps): JSX.Element => {
 
       {bannerImage && <BannerImage image={bannerImage.gatsbyImageData} alt={frontmatter.title} />}
 
-      <DocumentationRenderer body={body} />
+      <MDXCustomRenderer body={body} />
     </StyledPost>
   )
 }

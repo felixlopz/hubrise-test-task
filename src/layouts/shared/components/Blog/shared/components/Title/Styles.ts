@@ -1,13 +1,13 @@
 import styled from "styled-components"
 
-import { colors } from "@utils/styles"
+import { colors, fontSizes } from "@utils/styles";
 
 export const StyledTitle = styled.div`
-  color: ${colors.darkGray};
-  font-weight: bold;
+  color: ${colors.textDarkest};
+  font-weight: 700;
   position: relative;
-  font-size: 2.125rem;
-  margin-bottom: 13px;
+  font-size: ${fontSizes._32};
+  margin-bottom: 1.5rem;
 
   &:after {
     content: "";

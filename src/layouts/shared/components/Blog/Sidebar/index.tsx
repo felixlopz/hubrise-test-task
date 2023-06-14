@@ -7,6 +7,7 @@ import { generateArchiveList, getArchiveTitle, getArchiveLink } from "./helpers"
 import { ArrowIcon, Menu, MenuItem, ItemLink, MenuList, MenuTitle } from "./Styles"
 
 import { useLocaleCode } from "@utils/locales"
+import { breakpoints } from "@utils/styles"
 
 const Sidebar = (): JSX.Element => {
   const { t } = useTranslation()
@@ -15,33 +16,31 @@ const Sidebar = (): JSX.Element => {
   const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === localeCode)
 
   const archiveList = generateArchiveList(sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date)))
-  const isDesktop = useMedia("(min-width: 1024px)")
+  const isSticky = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
   const [isArchiveExpanded, setArchiveExpanded] = useState(true)
 
   useEffect(() => {
-    setArchiveExpanded(isDesktop)
-  }, [isDesktop])
+    setArchiveExpanded(!isSticky)
+  }, [isSticky])
 
   return (
-    <aside className="section__sidebar">
-      <Menu>
-        <MenuTitle onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}>
-          {t("blog.by_month")}
-          <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
-        </MenuTitle>
+    <Menu>
+      <MenuTitle onClick={() => isSticky && setArchiveExpanded((prev) => !prev)}>
+        {t("blog.older_posts")}
+        <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
+      </MenuTitle>
 
-        <MenuList $isSelected={isArchiveExpanded}>
-          {archiveList.map((archiveInfo) => (
-            <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
-              <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">
-                {getArchiveTitle(archiveInfo, t)}
-              </ItemLink>
-            </MenuItem>
-          ))}
-        </MenuList>
-      </Menu>
-    </aside>
+      <MenuList $isSelected={isArchiveExpanded}>
+        {archiveList.map((archiveInfo) => (
+          <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
+            <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">
+              {getArchiveTitle(archiveInfo, t)}
+            </ItemLink>
+          </MenuItem>
+        ))}
+      </MenuList>
+    </Menu>
   )
 }
 

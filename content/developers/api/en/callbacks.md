@@ -119,7 +119,7 @@ Returns the connection's callback details, including the URL and the types of ev
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /callback`
 
@@ -154,7 +154,7 @@ Creates a callback if none exists, replace the existing callback otherwise.
   accessLevel="location, account"
 />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name     | Type   | Description                                                                                  |
 | -------- | ------ | -------------------------------------------------------------------------------------------- |
@@ -176,7 +176,7 @@ The allowed combinations are:
 - `inventory.patch`
 - `inventory.update`
 
-#### Example request:
+##### Example request:
 
 `POST /callback`
 
@@ -212,7 +212,7 @@ Returns an event by its id.
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /callback/events/ks8f6`
 
@@ -262,7 +262,7 @@ Returns the events that have not been acknowledged (ie deleted).
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `GET /callback/events`
 
@@ -293,6 +293,6 @@ A passive callback should always delete events after retrieval or they will keep
   accessLevel="location, account"
 />
 
-#### Example request:
+##### Example request:
 
 `DELETE /callback/events/ks8f6`
