@@ -35,9 +35,12 @@ layout:
   404:
     meta:
       title: 404 - Page not found
-    title: Page not found
-    text_link: Go back to the Homepage
-
+    title: Oops! 🙃
+    content:
+      text_before_link: The page you're seeking has slipped off our map. But fret not, plenty of adventures await.
+      text_link: Head back to the homepage
+      text_after_link: to continue your journey.
+      signature: "- The HubRise team"
 misc:
   feedback:
     blog:

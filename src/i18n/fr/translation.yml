@@ -35,9 +35,12 @@ layout:
   404:
     meta:
       title: 404 - Page non trouvée
-    title: Page non trouvée
-    text_link: Retour à la page d'accueil
-
+    title: Oups ! 🙃
+    content:
+      text_before_link: La page que vous cherchez n'est pas sur notre carte. Mais ne vous inquiétez pas, de nombreuses aventures vous attendent.
+      text_link: Retournez à la page d'accueil
+      text_after_link: pour continuer votre voyage.
+      signature: "- L'équipe HubRise"
 misc:
   feedback:
     blog:
