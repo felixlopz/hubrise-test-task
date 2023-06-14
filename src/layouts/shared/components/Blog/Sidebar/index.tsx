@@ -27,7 +27,7 @@ const Sidebar = (): JSX.Element => {
   return (
     <Menu>
       <MenuTitle onClick={() => isSticky && setArchiveExpanded((prev) => !prev)}>
-        {t("blog.by_month")}
+        {t("blog.older_posts")}
         <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
       </MenuTitle>
 

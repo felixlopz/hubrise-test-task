@@ -3,7 +3,6 @@ apps:
   visit_website: Open editor website
 
 blog:
-  by_month: By month
   hero:
     title: The HubRise Blog
     description: New apps, evolutions of the API and real-world uses of HubRise

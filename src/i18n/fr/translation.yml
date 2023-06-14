@@ -3,7 +3,6 @@ apps:
   visit_website: Accéder au site de l'éditeur
 
 blog:
-  by_month: Par mois
   hero:
     title: Le blog HubRise
     description: Nouvelles apps, évolutions de l'API et cas d'utilisation de HubRise
