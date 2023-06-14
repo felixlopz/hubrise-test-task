@@ -31,11 +31,10 @@ export const Inner = styled.div`
 export const StyledSidebar = styled.div`
   background-color: ${sidebarBackgroundColor};
   flex: 0 0 100%;
-  padding: ${sizes.blockVerticalPadding} ${sizes.mobilePadding};
 
   @media (min-width: ${breakpoints.blogStickyMenu}) {
     flex: 0 0 25%;
-    padding: ${sizes.blockVerticalPadding} ${sizes.desktopPadding};
+    padding: ${sizes.blockVerticalPadding} 0;
   }
 `
 

@@ -16,17 +16,17 @@ const Sidebar = (): JSX.Element => {
   const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === localeCode)
 
   const archiveList = generateArchiveList(sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date)))
-  const isDesktop = useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
+  const isSticky = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
   const [isArchiveExpanded, setArchiveExpanded] = useState(true)
 
   useEffect(() => {
-    setArchiveExpanded(isDesktop)
-  }, [isDesktop])
+    setArchiveExpanded(!isSticky)
+  }, [isSticky])
 
   return (
     <Menu>
-      <MenuTitle onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}>
+      <MenuTitle onClick={() => isSticky && setArchiveExpanded((prev) => !prev)}>
         {t("blog.by_month")}
         <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
       </MenuTitle>
