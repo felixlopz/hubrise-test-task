@@ -8,7 +8,7 @@ jobs:
     name: Run jest
 
     container:
-      image: node:16.15.0-bullseye
+      image: node:18.16.0-bookworm
 
     steps:
       - name: Clone repository
