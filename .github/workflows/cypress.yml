@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Run cypress
 
-    # To upgrade to the latest version, see https://github.com/cypress-io/cypress-docker-images/tree/master/browsers
-    container: cypress/browsers:node14.17.0-chrome91-ff89
+    # To upgrade to the latest version, see https://hub.docker.com/r/cypress/browsers/tags
+    container: cypress/browsers:node-18.16.0-chrome-113.0.5672.92-1-ff-113.0-edge-113.0.1774.35-1
 
     steps:
       - name: Clone repository
