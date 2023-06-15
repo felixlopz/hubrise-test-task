@@ -13,7 +13,6 @@ const plugins = [
   require(`./frontpage`),
   require(`./pricing`),
   require(`./redirects`),
-  require(`./translations`),
   require(`./yaml-transformer`),
 ]
 
