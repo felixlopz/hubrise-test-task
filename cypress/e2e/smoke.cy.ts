@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe("doesn't crash and burn", () => {
   const pages = [
     "/",
@@ -23,7 +25,7 @@ describe("doesn't crash and burn", () => {
 })
 
 it("renders elements, allows interaction and navigation between various pages", () => {
-  cy.viewport(1280, 1024)
+  cy.viewport(1280, 720)
 
   cy.visit("/")
   cy.contains("Integration for retail")
