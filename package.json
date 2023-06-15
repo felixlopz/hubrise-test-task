@@ -89,6 +89,7 @@
     "gatsby-plugin-sentry": "^1.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.5.0",
     "js-yaml": "^4.1.0",
     "prettier": "^2.3.0",
     "react-test-renderer": "^17.0.2",
