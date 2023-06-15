@@ -9,6 +9,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": false,
@@ -21,11 +22,6 @@
       "@layouts/*": ["./layouts/*"],
       "@utils/*": ["./utils/*"]
     },
-
-    // Temporary, until migration to TS is completed
-    "allowJs": true,
-    "checkJs": true,
-    "noImplicitAny": false
   },
   "include": ["./src/**/*", "./gatsby/**/*"]
 }

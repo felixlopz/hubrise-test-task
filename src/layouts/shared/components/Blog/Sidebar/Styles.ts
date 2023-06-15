@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components"
 
-import { boxShadows, breakpoints, colors, fontSizes, lineHeights, mixin, sizes, zIndexValues } from "@utils/styles"
+import { boxShadows, breakpoints, colors, fontSizes, mixin, sizes, zIndexValues } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
 export const Menu = styled.div`
