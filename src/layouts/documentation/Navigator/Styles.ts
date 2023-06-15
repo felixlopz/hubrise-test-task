@@ -1,7 +1,8 @@
 import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { boxShadows, breakpoints, colors, fontSizes, mixin, zIndexValues } from "@utils/styles"
+import { boxShadows, breakpoints, colors, fontSizes, iconSizes, mixin, zIndexValues } from "@utils/styles"
+import Icon from "@layouts/shared/components/Icon"
 
 const stickyVerticalPadding = "0.5rem"
 
@@ -85,10 +86,8 @@ export const List = styled.ul<{ $isExpanded?: boolean }>`
     `}
 `
 
-export const ArrowIcon = styled.i`
+export const ArrowIcon = styled(Icon).attrs({ size: iconSizes._32 })`
   color: ${colors.primary};
-  font-size: 1.3rem;
-  font-weight: 600;
   cursor: pointer;
 
   @media (min-width: ${breakpoints.documentationStickyMenu}) {

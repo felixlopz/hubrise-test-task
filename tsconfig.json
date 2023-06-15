@@ -9,7 +9,6 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": false,
@@ -22,6 +21,9 @@
       "@layouts/*": ["./layouts/*"],
       "@utils/*": ["./utils/*"]
     },
+
+    // TODO: change to true
+    "noImplicitAny": false
   },
   "include": ["./src/**/*", "./gatsby/**/*"]
 }

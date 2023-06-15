@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 import { breakpoints, colors, fontSizes, mixin, sizes, zIndexValues } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
+import Icon from "@layouts/shared/components/Icon"
 
 export const StyledMobileBar = styled.div`
   @media (min-width: ${breakpoints.burgerMenu}) {
@@ -38,16 +39,16 @@ export const Header = styled.header`
   align-items: center;
   height: ${sizes.headerHeight};
   border-bottom: 4px solid ${colors.primary};
-  font-size: ${fontSizes._32};
-  font-weight: 600;
   color: ${colors.primary};
 `
 
-export const HeaderButton = styled.div`
-  padding-left: 1rem;
+export const HeaderIcon = styled(Icon)`
+  margin-left: 1rem;
 `
 
 export const HeaderTitle = styled.div`
+  font-size: ${fontSizes._32};
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
 `

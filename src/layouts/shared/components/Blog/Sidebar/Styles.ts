@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components"
 
-import { boxShadows, breakpoints, colors, fontSizes, mixin, sizes, zIndexValues } from "@utils/styles"
+import { boxShadows, breakpoints, colors, iconSizes, mixin, sizes, zIndexValues } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
+import Icon from "@layouts/shared/components/Icon"
 
 export const Menu = styled.div`
   position: relative;
@@ -38,10 +39,8 @@ export const MenuTitle = styled.h5`
   }
 `
 
-export const ArrowIcon = styled.i`
+export const ArrowIcon = styled(Icon).attrs({ size: iconSizes._32 })`
   color: ${colors.primary};
-  font-size: ${fontSizes._24};
-  padding: 0.5rem;
   cursor: pointer;
 
   @media (min-width: ${breakpoints.blogStickyMenu}) {

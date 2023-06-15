@@ -42,14 +42,10 @@ export const CloseButton = styled.button`
   top: 0;
   width: 2.5rem;
   height: 2.5rem;
-  background: ${colors.primary};
   border-radius: 0 ${sizes.borderRadius} 0 ${sizes.borderRadius};
-  cursor: pointer;
-
-  ${mixin.linkOver(colors.white)};
-`
-
-export const CloseButtonIcon = styled.i`
   color: ${colors.white};
-  font-size: ${fontSizes._24};
+  background-color: ${colors.primary};
+  ${mixin.linkOver(colors.white)};
+  cursor: pointer;
+  ${mixin.centerElement};
 `

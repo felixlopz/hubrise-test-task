@@ -25,6 +25,15 @@ export const fontSizes = {
   _42: "2.625rem",
 }
 
+export const iconSizes = {
+  _14: 14,
+  _20: 20,
+  _25: 25,
+  _32: 32,
+  _50: 50,
+  _64: 64,
+}
+
 export const lineHeights = {
   text: "1.6",
   textCompact: "1.3",
@@ -51,6 +60,7 @@ export const colors = {
   textLight: "#999",
   textLighter: "#ccc",
 
+  backgroundDark: "#555",
   backgroundLight: "#efefef",
   backgroundWhite: "#fff",
 

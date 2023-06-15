@@ -46,6 +46,8 @@ export const Button = styled.button`
   ${mixin.buttonOver(colors.white, colors.textDarkest)};
 `
 
+export const StyledField = styled.div``
+
 const field = (status: FieldStatus) => css`
   width: 100%;
   padding: 0.5rem;
@@ -75,7 +77,7 @@ const field = (status: FieldStatus) => css`
   }
 `
 
-export const StyledField = {
+export const StyledInput = {
   input: styled(Formik.Field).attrs({ component: "input" })<{ $status: FieldStatus }>`
     ${(props) => field(props.$status)};
   `,
@@ -86,28 +88,6 @@ export const StyledField = {
     resize: none;
   `,
 }
-
-export const FieldLabel = styled.label<{ $status: FieldStatus }>`
-  ${({ $status }) =>
-    $status !== "unsubmitted" &&
-    css`
-      position: absolute;
-      display: inline-block;
-      font-size: 0;
-      right: ${$status === "error" ? "10px" : "8px"};
-      top: 0;
-
-      &:after {
-        position: absolute;
-        top: 3px;
-        right: 0;
-        content: ${$status === "error" ? "\\f00d" : "\\f00c"};
-        font-family: FontAwesome !important;
-        font-size: 1rem;
-        color: ${$status === "error" ? "red" : colors.primary};
-      }
-    `}
-`
 
 export const Error = styled.div`
   color: ${colors.danger};
