@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components"
 
-import { colors, fontSizes, lineHeights } from "@utils/styles"
+import { colors, fontSizes, lineHeights, mixin } from "@utils/styles"
 
 const commonTitleStyles = css`
   color: ${colors.textDarkest};
@@ -98,7 +98,7 @@ export const Container = styled.div`
   li a,
   td a {
     color: ${colors.primary};
-    @include hr-link-hover(${colors.textDarkest});
+    ${mixin.linkOver(colors.textDarkest)};
   }
 
   ul,
