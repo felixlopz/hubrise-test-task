@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { colors, fontSizes } from "@utils/styles";
+import { colors, fontSizes } from "@utils/styles"
 
 export const StyledTitle = styled.div`
   color: ${colors.textDarkest};

@@ -1,7 +1,7 @@
 import styled, { css, FlattenSimpleInterpolation } from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { boxShadows, breakpoints, colors, fontSizes, mixin, zIndexValues } from "@utils/styles";
+import { boxShadows, breakpoints, colors, fontSizes, mixin, zIndexValues } from "@utils/styles"
 
 const stickyVerticalPadding = "0.5rem"
 
