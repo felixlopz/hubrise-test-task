@@ -61,10 +61,17 @@ export const EmailLink = styled(Link)`
 `
 
 export const SocialLink = styled(Link)`
-  font-size: ${fontSizes._24};
   margin-left: ${contactGap};
-  position: relative;
-  top: 0.1em;
+  ${mixin.centerElement};
 
-  ${mixin.linkOver(colors.white)};
+  svg {
+    width: 1.3rem;
+    height: 1.3rem;
+    fill: ${colors.white};
+    transition: fill 0.2s ease;
+
+    :hover {
+      fill: ${colors.primary};
+    }
+  }
 `

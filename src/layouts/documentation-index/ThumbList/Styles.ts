@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 import OriginalLink from "@layouts/shared/components/Link"
 import { breakpoints, colors, fontSizes, sizes } from "@utils/styles"
+import Icon from "@layouts/shared/components/Icon"
 
 const gap = "4rem"
 
@@ -27,9 +28,7 @@ export const Link = styled(OriginalLink)`
   gap: 2rem;
 `
 
-export const Icon = styled.i`
-  padding-top: 0.3rem;
-  font-size: 3.25rem;
+export const StyledIcon = styled(Icon)`
   color: ${colors.primary};
 `
 

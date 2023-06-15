@@ -47,7 +47,7 @@ const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps
 
       <Title onClick={() => setIsExpanded((v) => !v)} $forMobile={true} $isExpanded={isExpanded}>
         {currentTitle}
-        <ArrowIcon className={`fa ${isExpanded ? "fa-angle-up" : "fa-angle-down"}`} />
+        <ArrowIcon code={isExpanded ? "expand_less" : "expand_more"} />
       </Title>
 
       <List $isExpanded={isExpanded}>

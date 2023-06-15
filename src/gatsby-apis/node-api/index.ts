@@ -1,9 +1,4 @@
-"use strict"
-
-require("./util/gatsby-inspector")
-
-require("source-map-support").install()
-require("ts-node").register()
+import { GatsbyNode } from "gatsby"
 
 const plugins = [
   require(`./404`),
@@ -13,34 +8,33 @@ const plugins = [
   require(`./frontpage`),
   require(`./pricing`),
   require(`./redirects`),
-  require(`./translations`),
   require(`./yaml-transformer`),
 ]
 
-async function runApiForPlugins(api, helpers) {
+async function runApiForPlugins(api: keyof GatsbyNode, helpers: any) {
   await Promise.all(plugins.map((plugin) => plugin[api] && plugin[api](helpers)))
 }
 
-exports.createSchemaCustomization = async (helpers) => {
+export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] = async (helpers) => {
   await runApiForPlugins(`createSchemaCustomization`, helpers)
 }
 
-exports.onCreateNode = async (helpers) => {
+export const onCreateNode: GatsbyNode["onCreateNode"] = async (helpers) => {
   await runApiForPlugins(`onCreateNode`, helpers)
 }
 
-exports.createPages = async (helpers) => {
+export const createPages: GatsbyNode["createPages"] = async (helpers) => {
   await runApiForPlugins(`createPages`, helpers)
 }
 
-exports.createResolvers = async (helpers) => {
+export const createResolvers: GatsbyNode["createResolvers"] = async (helpers) => {
   await runApiForPlugins(`createResolvers`, helpers)
 }
 
-exports.onPostBuild = async (helpers) => {
+export const onPostBuild: GatsbyNode["onPostBuild"] = async (helpers) => {
   await runApiForPlugins(`onPostBuild`, helpers)
 }
 
-exports.onPostBootstrap = async (helpers) => {
+export const onPostBootstrap: GatsbyNode["onPostBootstrap"] = async (helpers) => {
   await runApiForPlugins(`onPostBootstrap`, helpers)
 }

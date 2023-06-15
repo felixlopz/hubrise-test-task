@@ -1,7 +1,7 @@
 # ****************************
 # **      Build stage       **
 # ****************************
-FROM node:16.15.0-bullseye AS build-stage
+FROM node:18.16.0-bookworm AS build-stage
 
 # Working directory
 WORKDIR /website

@@ -26,9 +26,8 @@ export const StyledToast = styled.div<{ $variant: ToastVariant }>`
   background-color: ${(props) => (props.$variant === "success" ? colors.primary : "red")};
 `
 
-export const Icon = styled.div`
+export const Side = styled.div`
   width: 2.5rem;
-  font-size: 2.5rem;
   ${mixin.centerElement};
 `
 
@@ -53,7 +52,7 @@ export const CloseButton = styled.button`
   top: 0;
   right: 0;
   padding: 0.5rem;
-  font-size: ${fontSizes._24};
   ${mixin.centerElement};
   cursor: pointer;
+  color: ${colors.white};
 `

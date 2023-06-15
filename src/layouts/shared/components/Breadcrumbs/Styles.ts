@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 import Link from "@layouts/shared/components/Link"
-import { breakpoints, colors, fontSizes, mixin, sizes } from "@utils/styles";
+import { breakpoints, colors, fontSizes, mixin, sizes } from "@utils/styles"
 
 export const StyledBreadcrumbs = styled.ul`
   max-width: ${sizes.maxWidth};

@@ -6,8 +6,8 @@ export const StyledButton = styled.button`
   position: absolute;
   top: -23px;
   right: 5%;
-  width: 46px;
-  height: 46px;
+  width: 3rem;
+  height: 3rem;
   background: ${colors.primary};
   border-radius: 50%;
   color: ${colors.white};
@@ -20,5 +20,5 @@ export const StyledButton = styled.button`
     outline: none;
   }
 
-  ${mixin.buttonOver(colors.white, colors.textDarkest)};
+  ${mixin.buttonOver(colors.white, colors.backgroundDark)};
 `
