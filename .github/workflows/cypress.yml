@@ -12,7 +12,21 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js and package cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.16.0
+          cache: 'yarn'
+
+      - name: Cache gatsby build files
+        uses: actions/cache@v3
+        with:
+          path: |
+            .cache
+            public
+          key: gatsby-build-${{ hashFiles('./yarn.lock') }}
 
       - name: Install JS dependencies
         run: yarn install
