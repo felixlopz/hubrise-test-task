@@ -1,7 +1,9 @@
 import { LocaleCode } from "@utils/locales"
 
 export interface BlogNode {
-  fileAbsolutePath: string
+  internal: {
+    contentFilePath: string
+  }
   fields: {
     localeCode: LocaleCode
     path: string
@@ -12,5 +14,4 @@ export interface BlogNode {
     title: string
   }
   excerpt: string
-  body: string
 }
