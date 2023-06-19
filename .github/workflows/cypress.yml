@@ -20,6 +20,14 @@ jobs:
           node-version: 18.16.0
           cache: 'yarn'
 
+      - name: Cache gatsby build files
+        uses: actions/cache@v3
+        with:
+          path: |
+            .cache
+            public
+          key: ${{ runner.os }}-gatsby-${{ hashFiles('**/yarn.lock') }}
+
       - name: Install JS dependencies
         run: yarn install
 
