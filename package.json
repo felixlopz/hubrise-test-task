@@ -3,7 +3,7 @@
   "description": "HubRise website",
   "version": "0.1.0",
   "scripts": {
-    "build": "yarn clean && yarn gatsby build",
+    "build": "yarn gatsby build",
     "clean": "yarn gatsby clean",
     "eslint": "eslint src content --fix --ext ts,tsx,md,mdx",
     "gatsby": "node ./node_modules/.bin/gatsby",
