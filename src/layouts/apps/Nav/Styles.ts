@@ -8,7 +8,6 @@ export const StyledNav = styled.div<{ $isSticky: boolean }>`
   top: ${sizes.headerHeight};
   z-index: ${zIndexValues.mobileBarMenu};
   padding: 0.5rem 0;
-  transition: background-color, color 0.3s;
 
   ${(props) =>
     props.$isSticky &&
@@ -25,8 +24,8 @@ export const List = styled.ul`
   justify-content: center;
 `
 
-export const Item = styled.li`
-  ${mixin.dotSeparatedList("0.5rem")};
+export const Item = styled.li<{ $isSticky: boolean }>`
+  ${({ $isSticky }) => mixin.dotSeparatedList("0.5rem", $isSticky ? colors.white : undefined)};
   line-height: 2rem;
 `
 
