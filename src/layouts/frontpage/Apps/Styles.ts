@@ -3,11 +3,6 @@ import styled from "styled-components"
 import { breakpoints, fontSizes, mixin } from "@utils/styles"
 import Link from "@layouts/shared/components/Link"
 
-export const Item = styled.li`
-  ${mixin.dotSeparatedList("0.5rem")};
-  font-size: ${fontSizes._18};
-`
-
 export const ImageDefault = styled.div`
   max-width: 100%;
   z-index: 0;
@@ -39,4 +34,19 @@ export const ImageLink = styled(Link)`
       opacity: 1;
     }
   }
+`
+
+export const List = styled.ul`
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: center;
+  @media (min-width: ${breakpoints.large}) {
+    justify-content: flex-start;
+  }
+`
+
+export const Item = styled.li`
+  ${mixin.dotSeparatedList("0.5rem")};
+  font-size: ${fontSizes._18};
 `

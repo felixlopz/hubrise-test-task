@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import { breakpoints, colors, mixin, sizes, zIndexValues } from "@utils/styles"
 
@@ -57,6 +58,10 @@ export const Logo = styled.div`
   @media (min-width: ${breakpoints.large}) {
     padding: ${sizes.desktopPadding};
   }
+`
+
+export const LogoImage = styled(GatsbyImage)`
+  max-width: 20rem;
 `
 
 export const Navigation = styled.div`

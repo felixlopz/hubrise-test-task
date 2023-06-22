@@ -1,14 +1,13 @@
 import { graphql } from "gatsby"
 import * as React from "react"
 import { useTranslation } from "react-i18next"
-import { GatsbyImage } from "gatsby-plugin-image"
 
 import AppInfo, { IAppInfo } from "./AppInfo"
 import Feedback from "./Feedback"
 import Gallery from "./Gallery"
 import Navigator, { Heading } from "./Navigator"
 import { DocumentationContext } from "./interface"
-import { Content, Logo, Main, Warning, Page, Navigation } from "./Styles"
+import { Content, Logo, Main, Warning, Page, Navigation, LogoImage } from "./Styles"
 
 import { ImageSharp } from "@utils/image"
 import SEO from "@layouts/shared/components/Seo"
@@ -142,7 +141,7 @@ const Documentation = ({ data, path, pageContext, children: body }: Documentatio
         {logo && (
           <Logo>
             <Link to={chapterMainPath} addLocalePrefix={false}>
-              <GatsbyImage alt={title} image={logo.gatsbyImageData} />
+              <LogoImage alt={title} image={logo.gatsbyImageData} />
             </Link>
           </Logo>
         )}
