@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { useMedia } from "react-use"
 import { useTranslation } from "react-i18next"
 
@@ -17,15 +17,21 @@ const Sidebar = (): JSX.Element => {
 
   const archiveList = generateArchiveList(sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date)))
 
-  const [isExpanded, setIsExpanded] = useState(true)
+  const [isExpanded, setIsExpanded] = React.useState(true)
   const isMobile = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
-  useEffect(() => {
+  React.useEffect(() => {
+    const onClick = () => setIsExpanded(false)
+    document.addEventListener("click", onClick)
+    return () => document.removeEventListener("click", onClick)
+  }, [isExpanded])
+
+  React.useEffect(() => {
     setIsExpanded(!isMobile)
   }, [isMobile])
 
   return (
-    <Menu>
+    <Menu onClick={(e) => e.stopPropagation()}>
       <MenuTitle onClick={() => isMobile && setIsExpanded((prev) => !prev)}>
         {t("blog.older_posts")}
         <ArrowIcon code={isExpanded ? "expand_less" : "expand_more"} />
