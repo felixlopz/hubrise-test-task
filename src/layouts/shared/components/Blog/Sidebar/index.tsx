@@ -16,22 +16,22 @@ const Sidebar = (): JSX.Element => {
   const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === localeCode)
 
   const archiveList = generateArchiveList(sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date)))
-  const isSticky = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
-  const [isArchiveExpanded, setArchiveExpanded] = useState(true)
+  const [isExpanded, setIsExpanded] = useState(true)
+  const isMobile = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
   useEffect(() => {
-    setArchiveExpanded(!isSticky)
-  }, [isSticky])
+    setIsExpanded(!isMobile)
+  }, [isMobile])
 
   return (
     <Menu>
-      <MenuTitle onClick={() => isSticky && setArchiveExpanded((prev) => !prev)}>
+      <MenuTitle onClick={() => isMobile && setIsExpanded((prev) => !prev)}>
         {t("blog.older_posts")}
-        <ArrowIcon code={isArchiveExpanded ? "expand_less" : "expand_more"} />
+        <ArrowIcon code={isExpanded ? "expand_less" : "expand_more"} />
       </MenuTitle>
 
-      <MenuList $isSelected={isArchiveExpanded}>
+      <MenuList $isSelected={isExpanded}>
         {archiveList.map((archiveInfo) => (
           <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
             <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">

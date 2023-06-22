@@ -21,9 +21,10 @@ export interface Heading {
 }
 
 const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps): JSX.Element => {
-  const [isExpanded, setIsExpanded] = React.useState(false)
-  const isSticky = !useMedia(`(min-width: ${breakpoints.documentationStickyMenu})`)
   const [currentTitle, setCurrentTitle] = React.useState(title)
+
+  const [isExpanded, setIsExpanded] = React.useState(false)
+  const isMobile = !useMedia(`(min-width: ${breakpoints.documentationStickyMenu})`)
 
   const chapterMainPath = folderPages[0].path
 
@@ -59,7 +60,7 @@ const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps
               <ItemLink
                 to={path}
                 addLocalePrefix={false}
-                onClick={isSticky ? () => setIsExpanded(false) : undefined}
+                onClick={isMobile ? () => setIsExpanded(false) : undefined}
                 $isActive={isCurrentPage}
               >
                 {title}
@@ -73,7 +74,7 @@ const Navigator = ({ currentPath, folderPages, title, headings }: NavigatorProps
                       <li key={generateKey(headingText, idx)}>
                         <SubItemLink
                           to={`#${createHeaderAnchor(headingText)}`}
-                          onClick={isSticky ? () => setIsExpanded(false) : undefined}
+                          onClick={isMobile ? () => setIsExpanded(false) : undefined}
                           $isActive={currentTitle === headingText}
                         >
                           <span>{headingText}</span>
