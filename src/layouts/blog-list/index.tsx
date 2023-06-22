@@ -89,6 +89,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
         label: "Blog",
       },
       {
+        path: pageContext.mainBlogPath,
         label: t("blog.older_posts"),
       },
       {
