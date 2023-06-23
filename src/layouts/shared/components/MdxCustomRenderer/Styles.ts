@@ -109,6 +109,7 @@ export const Container = styled.div`
   }
 
   ol {
+    list-style: decimal;
     margin-left: 0;
     padding-left: 2rem;
   }
@@ -125,13 +126,13 @@ export const Container = styled.div`
 
     &:before {
       content: "";
-      width: 4px;
-      height: 4px;
+      width: 6px;
+      height: 6px;
       background: ${colors.textDark};
       border-radius: 50%;
       left: 0;
       position: absolute;
-      top: 0.7rem;
+      top: 0.6rem;
     }
   }
 

@@ -29,7 +29,7 @@ export async function onCreateNode({ node, actions }: CreateNodeArgs): Promise<v
     await actions.createNodeField({
       node,
       name: "path",
-      value: pathWithLocale(localeCode, [BLOG_PAGE_PATH, name].join("/")),
+      value: pathWithLocale(localeCode, BLOG_PAGE_PATH, name),
     })
   }
 }
@@ -61,9 +61,9 @@ export async function createPages({ graphql, actions }: CreatePagesArgs): Promis
       actions.createPage<BlogListContext>({
         path: pathWithLocale(
           localeCode,
-          archive.isCurrentYear
-            ? [BLOG_PAGE_PATH, archive.year, archive.month + 1].join("/")
-            : [BLOG_PAGE_PATH, archive.year].join("/"),
+          ...(archive.isCurrentYear
+            ? [BLOG_PAGE_PATH, archive.year, archive.month + 1]
+            : [BLOG_PAGE_PATH, archive.year]),
         ),
         component: getLayoutPath("blog-list"),
         context: {

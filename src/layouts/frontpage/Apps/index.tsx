@@ -3,7 +3,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 import { Content, Text } from "../shared/Styles"
 
-import { Item, ImageOver, ImageDefault, ImageLink } from "./Styles"
+import { Item, ImageOver, ImageDefault, ImageLink, List } from "./Styles"
 
 import { ImageNode } from "@utils/image"
 import { markdownToHtml } from "@layouts/shared/utils/markdown"
@@ -44,11 +44,11 @@ const Apps = ({ title, description, categories, apps, appsHover }: AppsProps): J
     >
       <Content>
         <Text $backgroundColor="white" dangerouslySetInnerHTML={{ __html: markdownToHtml(description) }} />
-        <ul>
+        <List>
           {categories.map((category, index) => (
             <Item key={index}>{category}</Item>
           ))}
-        </ul>
+        </List>
       </Content>
     </Block>
   )

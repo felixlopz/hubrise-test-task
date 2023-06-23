@@ -106,7 +106,7 @@ export const mixin = {
     width: ${sizes.maxWidth};
     margin: 0 auto;
   `,
-  dotSeparatedList: (gap: string): FlattenSimpleInterpolation => css`
+  dotSeparatedList: (gap: string, color = colors.textLighter): FlattenSimpleInterpolation => css`
     display: flex;
     align-items: center;
   
@@ -117,7 +117,7 @@ export const mixin = {
           content: "●";
           margin-left: ${gap};
           font-size: ${fontSizes._12};
-          color: ${colors.textLighter};
+          color: ${color};
         }
       }
     }

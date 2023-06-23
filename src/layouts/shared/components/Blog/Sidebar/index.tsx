@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { useMedia } from "react-use"
 import { useTranslation } from "react-i18next"
 
@@ -16,22 +16,28 @@ const Sidebar = (): JSX.Element => {
   const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === localeCode)
 
   const archiveList = generateArchiveList(sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date)))
-  const isSticky = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
-  const [isArchiveExpanded, setArchiveExpanded] = useState(true)
+  const [isExpanded, setIsExpanded] = React.useState(true)
+  const isMobile = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
-  useEffect(() => {
-    setArchiveExpanded(!isSticky)
-  }, [isSticky])
+  React.useEffect(() => {
+    const onClick = () => setIsExpanded(false)
+    document.addEventListener("click", onClick)
+    return () => document.removeEventListener("click", onClick)
+  }, [isExpanded])
+
+  React.useEffect(() => {
+    setIsExpanded(!isMobile)
+  }, [isMobile])
 
   return (
-    <Menu>
-      <MenuTitle onClick={() => isSticky && setArchiveExpanded((prev) => !prev)}>
+    <Menu onClick={(e) => e.stopPropagation()}>
+      <MenuTitle onClick={() => isMobile && setIsExpanded((prev) => !prev)}>
         {t("blog.older_posts")}
-        <ArrowIcon code={isArchiveExpanded ? "expand_less" : "expand_more"} />
+        <ArrowIcon code={isExpanded ? "expand_less" : "expand_more"} />
       </MenuTitle>
 
-      <MenuList $isSelected={isArchiveExpanded}>
+      <MenuList $isSelected={isExpanded}>
         {archiveList.map((archiveInfo) => (
           <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
             <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">

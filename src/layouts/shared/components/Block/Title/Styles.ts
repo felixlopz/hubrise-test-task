@@ -15,12 +15,13 @@ export const StyledTitle = styled.h3<{
   font-weight: 700;
   font-size: ${fontSizes._42};
   line-height: ${lineHeights.title};
+  text-align: ${({ $horizontalAlign }) => ($horizontalAlign === "left" ? "left" : "center")};
 
   &:after {
     content: "";
     position: absolute;
     left: 0;
-    right: 0;
+    right: ${({ $horizontalAlign }) => ($horizontalAlign === "left" ? "auto" : "0")};
     top: 100%;
     margin: 10px auto;
     width: 15%;
@@ -30,9 +31,9 @@ export const StyledTitle = styled.h3<{
 
   ${({ $horizontalAlign }) => css`
     @media (min-width: ${breakpoints.large}) {
-      text-align: ${$horizontalAlign};
+      text-align: ${$horizontalAlign === "center" ? "center" : "left"};
       &:after {
-        right: ${$horizontalAlign === "left" ? "auto" : "0"};
+        right: ${$horizontalAlign === "center" ? "0" : "auto"};
       }
     }
   `}
