@@ -30,6 +30,10 @@ export const Item = styled.li<{ $isSticky: boolean }>`
 `
 
 export const StyledLink = styled(Link)<{ $isSticky: boolean; $isActive: boolean }>`
+  :hover {
+    text-decoration: underline;
+  }
+
   ${(props) =>
     props.$isActive &&
     css`
@@ -39,11 +43,7 @@ export const StyledLink = styled(Link)<{ $isSticky: boolean; $isActive: boolean 
   ${({ $isSticky, $isActive }) =>
     $isSticky
       ? css`
-          color: ${$isActive ? colors.white : "#eee"};
-
-          :hover {
-            color: ${colors.white};
-          }
+          color: ${colors.white};
         `
       : css`
           color: ${$isActive ? colors.primary : colors.textDark};
