@@ -29,27 +29,12 @@ export const Item = styled.li<{ $isSticky: boolean }>`
   line-height: 2rem;
 `
 
-export const StyledLink = styled(Link)<{ $isSticky: boolean; $isActive: boolean }>`
+export const StyledLink = styled(Link)<{ $isActive: boolean; $isSticky: boolean }>`
+  color: ${({ $isActive, $isSticky }) => ($isSticky ? colors.white : $isActive ? colors.primary : colors.textDark)};
+  text-decoration: ${({ $isActive }) => ($isActive ? "underline" : "none")};
+
   :hover {
+    color: ${({ $isSticky }) => ($isSticky ? colors.white : colors.primary)};
     text-decoration: underline;
   }
-
-  ${(props) =>
-    props.$isActive &&
-    css`
-      text-decoration: underline;
-    `}
-
-  ${({ $isSticky, $isActive }) =>
-    $isSticky
-      ? css`
-          color: ${colors.white};
-        `
-      : css`
-          color: ${$isActive ? colors.primary : colors.textDark};
-
-          :hover {
-            color: ${colors.primary};
-          }
-        `}
 `
