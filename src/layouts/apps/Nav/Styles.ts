@@ -6,7 +6,7 @@ import { colors, mixin, sizes, zIndexValues } from "@utils/styles"
 export const StyledNav = styled.div<{ $isSticky: boolean }>`
   position: sticky;
   top: ${sizes.headerHeight};
-  z-index: ${zIndexValues.mobileBarMenu};
+  z-index: ${zIndexValues.header};
   padding: 0.5rem 0;
 
   ${(props) =>
