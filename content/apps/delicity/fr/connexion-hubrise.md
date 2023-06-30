@@ -13,34 +13,22 @@ meta:
 
 ---
 
-## Connecter SOLUTION
+## Connecter Delicity
 
 Pour connecter Delicity à HubRise, suivez les étapes suivantes :
 
 1. Créez un compte HubRise. Pour plus d'information, consultez notre [Guide de démarrage](/docs/comment-demarrer).
-1. Depuis le back-office de Delicity, cliquez sur ...
-1. Cliquez sur le bouton **CONNECTER**. Vous êtes redirigé vers l'interface HubRise.
+1. Depuis le back-office de Delicity, cliquez sur **Intégrations**
+1. Sous **Intégrations disponibles**, dans la section HubRise, cliquez sur le bouton **CONNECTER**. Vous êtes redirigé vers l'interface HubRise.
 1. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
 1. Cliquez sur **Autoriser**.
-1. Vous êtes redirigé vers l'interface de SOLUTION, et la connexion à HubRise est établie.
+1. Vous êtes redirigé vers l'interface de Delicity, et la connexion à HubRise est établie.
 
--- OU --
+## Donner accès au support de Delicity
 
-Seule l'équipe de support de SOLUTION peut connecter SOLUTION à HubRise.
+Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution Delicity.
 
-Pour connecter SOLUTION à HubRise, procédez comme suit :
-
-1. Créez un compte HubRise. Pour plus d'information, consultez notre [Guide de démarrage](/docs/comment-demarrer).
-1. Donnez accès à votre compte à l'équipe support de SOLUTION. Pour plus d'information, voir [Donner accès au support de SOLUTION](#donner-acc-s-au-support-de-solution).
-1. Contactez l'équipe de support de SOLUTION qui se chargera d'établir la connexion à HubRise. Pour plus d'information, voir [Contacter le support de SOLUTION](#contacter-le-support-de-solution).
-
-## Donner accès au support de SOLUTION
-
-Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution SOLUTION.
--- OU --
-Pour connecter SOLUTION, et faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution SOLUTION.
-
-Pour donner accès à SOLUTION, procédez comme suit :
+Pour donner accès à Delicity, procédez comme suit :
 
 1. Depuis le back-office de HubRise, sélectionnez **CONFIGURATION** dans le menu de gauche.
 1. Dans la section **Permissions**, ajoutez ... en sélectionnant l'option **Manager** dans la liste déroulante des rôles.
@@ -48,17 +36,14 @@ Pour donner accès à SOLUTION, procédez comme suit :
 
 L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers à votre point de vente. Le partage de mot de passe est déconseillé pour des raisons de sécurité.
 
-## Contacter le support de SOLUTION
+## Contacter le support de Delicity
 
-Pour demander la connexion de SOLUTION à HubRise, contactez l'équipe de support de SOLUTION par email sur [contact@solution.com](mailto:contact@solution.com). Vous pouvez inclure [support@hubrise.com](mailto:support@hubrise.com) en copie pour un suivi coordonné entre nos deux équipes.
+Pour toute demande de support, contactez l'équipe de Delicity par email sur [contact@delicity.com](mailto:contact@delicity.com). Vous pouvez inclure [support@hubrise.com](mailto:support@hubrise.com) en copie pour un suivi coordonné entre nos deux équipes.
 
-Indiquez dans votre demande le nom de votre compte HubRise, son identifiant HubRise et le point de vente à connecter. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#nom-et-identifiant-du-point-de-vente).
+Pensez à indiquer le nom de votre compte HubRise, son identifiant HubRise et le point de vente concerné par votre demande de support. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#nom-et-identifiant-du-point-de-vente).
 
-## Déconnecter SOLUTION
+## Déconnecter Delicity
 
-1. Depuis le back-office de SOLUTION, cliquez sur ...
-2. SOLUTION est déconnecté de HubRise.
-
--- OU --
-
-Vous pouvez bloquer les échanges de données entre SOLUTION et HubRise, ou déconnecter lSOLUTION, depuis le back office de HubRise. Pour plus d'information, voir [Bloquer ou déconnecter une application](/docs/connexions#bloquer-ou-d-connecter-une-application).
+1. Depuis le back-office de Delicity, cliquez sur **Intégrations**
+2. Sous **Intégrations disponibles**, dans la section HubRise, cliquez sur le bouton rouge **deconnexion**.
+3. Delicity est déconnecté de HubRise.
