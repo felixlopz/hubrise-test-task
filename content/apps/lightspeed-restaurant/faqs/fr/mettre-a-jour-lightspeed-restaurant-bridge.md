@@ -17,9 +17,9 @@ Pour profiter des fonctionnalités offertes par la nouvelle intégration avec Li
 
 1. Cliquez sur **Voir les apps disponibles**.
 
-1. Sélectionnez le point de vente à connecter grâce au menu déroulant **Point de vente** en haut de page
+1. Sélectionnez le point de vente à connecter grâce au menu déroulant **Point de vente** en haut de page.
 
-1. Recherchez l'app **Lightspeed Restaurant Bridge**, cliquez sur celle-ci puis sur **Connecter** et suivez les étapes indiquées à l'écran.
+1. Recherchez l'app **Lightspeed Restaurant Bridge**, cliquez sur celle-ci puis sur **Connecter** et suivez les étapes indiquées.
 
 Pour plus d'informations, consultez les pages [Bloquer ou déconnecter une app](/docs/connections/#block-or-disconnect-app) (en anglais) et [Connecter une nouvelle app](/docs/connections/#connect-a-new-app) (en anglais).
 
@@ -27,9 +27,9 @@ Pour plus d'informations, consultez les pages [Bloquer ou déconnecter une app](
 
 1. Depuis le back-office de HubRise, sélectionnez **CONNEXIONS**.
 
-1. Dans l'application **Lightspeed Restaurant Bridge**, cliquez **Ouvrir**. Lightspeed Restaurant Bridge s'ouvre dans un nouvel onglet de votre navigateur.
+1. Dans l'application **Lightspeed Restaurant Bridge**, cliquez sur **Ouvrir**. Lightspeed Restaurant Bridge s'ouvre dans un nouvel onglet de votre navigateur.
 
-1. Ouvril la page **Configuration**.
+1. Ouvrir la page **Configuration**.
    ![Mettre à jour Lightspeed Restaurant Bridge - Page de configuration](../../images/014-fr-configuration-page.png)
 
 1. Cliquez sur **Réinitialiser la configuration**, situé en bas de page. Dans la modale de confirmation, cliquez sur **Réinitialiser**.
