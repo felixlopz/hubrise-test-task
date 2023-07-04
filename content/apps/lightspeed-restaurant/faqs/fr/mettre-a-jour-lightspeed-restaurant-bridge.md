@@ -17,7 +17,9 @@ Pour profiter des fonctionnalités offertes par la nouvelle intégration avec Li
 
 1. Cliquez sur **Voir les apps disponibles**.
 
-1. Recherchez l'app **Lightspeed Restaurant Bridge**, cliquez sur celle-ci puis sur **Connecter**, et suivez les étapes indiquées à l'écran.
+1. Sélectionnez le point de vente à connecter grâce au menu déroulant **Point de vente** en haut de page
+
+1. Recherchez l'app **Lightspeed Restaurant Bridge**, cliquez sur celle-ci puis sur **Connecter** et suivez les étapes indiquées à l'écran.
 
 Pour plus d'informations, consultez les pages [Bloquer ou déconnecter une app](/docs/connections/#block-or-disconnect-app) (en anglais) et [Connecter une nouvelle app](/docs/connections/#connect-a-new-app) (en anglais).
 
@@ -27,18 +29,18 @@ Pour plus d'informations, consultez les pages [Bloquer ou déconnecter une app](
 
 1. Dans l'application **Lightspeed Restaurant Bridge**, cliquez **Ouvrir**. Lightspeed Restaurant Bridge s'ouvre dans un nouvel onglet de votre navigateur.
 
-1. Cliquez sur le nom de votre point de vente en haut à droite pour ouvrir le menu déroulant et sélectionnez **Configuration**.
+1. Ouvril la page **Configuration**.
    ![Mettre à jour Lightspeed Restaurant Bridge - Page de configuration](../../images/014-fr-configuration-page.png)
 
 1. Cliquez sur **Réinitialiser la configuration**, situé en bas de page. Dans la modale de confirmation, cliquez sur **Réinitialiser**.
 
-1. Cliquez sur **Connexion à Lightspeed**. Si vous êtes redirigé vers votre espace Lightspeed, munissez-vous de vos identifiants et connectez-vous à votre compte Lightspeed.
+1. Cliquez ensuite sur **Connexion à Lightspeed**. Si vous êtes redirigé vers votre espace Lightspeed, munissez-vous de vos identifiants et connectez-vous à votre compte Lightspeed.
 
 1. Sélectionnez votre établissement et cliquez sur **Enregistrer**.
 
-1. Optionnel : Si vous souhaitez synchroniser votre menu Lightspeed, sélectionnez un menu dans la section **Menu**.
+1. Optionnel : Si vous souhaitez synchroniser votre menu Lightspeed, sélectionnez un menu dans la section **Catalogue**.
 
-1. Optionnel : Si vous souhaitez remonter les commandes Lightspeed vers HubRise, sélectionnez **Commandes récupérées depuis Lightspeed** > **Comportement** > **Récupérer les ventes payées de Lightspeed**.
+1. Optionnel : Si vous souhaitez remonter les commandes Lightspeed vers HubRise, sélectionnez **Récupérer les commandes de Lightspeed** > **Récupération des commandes** > **Activée pour les ventes en consommation sur place** ou **Activée pour toutes les ventes**.
 
 1. Cliquez sur **Enregistrer**.
 
