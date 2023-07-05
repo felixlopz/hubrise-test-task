@@ -11,7 +11,7 @@ Connecting Deliveroo to HubRise can be done with a few steps.
 
 ---
 
-**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -22,22 +22,14 @@ As a first step, the HubRise integration must be enabled on your Deliveroo accou
 Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
 
 - The URL link to your restaurant page on the Deliveroo website. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
-- The Deliveroo Restaurant ID of the store. For more details, see our FAQ: [How Do I Find My Deliveroo Restaurant ID](/apps/deliveroo/faqs/find-deliveroo-restaurant-id).
-- The email address you use to log in to the Deliveroo back office.
 - Whether your Deliveroo store is connected to another middleware or EPOS.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 
-With this information in hand, the Deliveroo integration team will enable the HubRise connection for your store. New connections are approved on Tuesdays and Thursdays only.
+With this information in hand, we will ask the Deliveroo integration team to enable the HubRise connection for your store.
 
 Alternatively, [enable HubRise directly from your Deliveroo back office](/apps/deliveroo/faqs/connect-from-deliveroo-back-office).
 
 ## 2. Connect Deliveroo Bridge
-
----
-
-**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
 
 To connect Deliveroo Bridge to HubRise, follow these steps.
 

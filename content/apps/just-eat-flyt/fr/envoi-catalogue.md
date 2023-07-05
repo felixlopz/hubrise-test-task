@@ -1,9 +1,9 @@
 ---
-title: Envoi du catalogue
+title: Envoyer le catalogue
 position: 6
 layout: documentation
 meta:
-  title: Envoi du catalogue | Just Eat Flyt | HubRise
+  title: Envoyer le catalogue | Just Eat Flyt | HubRise
   description: Voir comment envoyer un catalogue de HubRise vers Just Eat, de quelle manière les articles et les options sont encodés, et quelles fonctionnalités sont intégrées.
 ---
 

@@ -50,10 +50,19 @@ This section of the configuration page allows you to specify the ref codes for o
 
 ## Catalog
 
-![PrestaShop Bridge configuration page, Catalog section](../images/006-en-configuration-catalog.png)
+![PrestaShop Bridge configuration page, Catalog section](../images/006-en-2x-configuration-catalog.png)
+
+### Catalog Variant to Push
+
+Catalog variants give you the flexibility to disable specific items or adjust prices for your PrestaShop website.
+
+If your catalog includes variants, you have the option to select which one to use. When **(none)** is selected, the default items along with their standard prices are used.
+
+### Automatic Catalog Push
 
 To update your PrestaShop catalog every time this is updated on HubRise, select the checkbox in this section.
-Only new products in the HubRise catalog will be sent to PrestaShop. The Bridge does not update existing PrestaShop products.
+
+Only new products in the HubRise catalog will be sent to PrestaShop. Existing PrestaShop products will not be updated.
 
 ## Inventory
 

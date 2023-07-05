@@ -50,8 +50,6 @@ When the order status changes in WooCommerce, the status in HubRise changes acco
 
 | WooCommerce status | HubRise status |
 | ------------------ | -------------- |
-| `Processing`       | `accepted`     |
-| `Completed`        | `completed`    |
 | `Cancelled`        | `cancelled`    |
 | `Refunded`         | `cancelled`    |
 | `Failed`           | `rejected`     |
@@ -63,7 +61,7 @@ In the default WooCommerce installation, the service type is always `delivery`. 
 
 ---
 
-**Related FAQ**: <Link to="/apps/woocommerce/faqs/encode-custom-metadata/">How Can I Encode Custom Metadata In An Order?</Link>
+**Related FAQ**: [How Can I Encode Custom Metadata In An Order?](/apps/woocommerce/faqs/encode-custom-metadata/)
 
 ---
 
