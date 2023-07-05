@@ -27,19 +27,13 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 
 With this information in hand, we will ask Just Eat Takeaway support to enable the HubRise connection for your store and provide the Just Eat Takeaway ID, for example: `8736550`.
 
-## 2. Map Products Ref Codes
+## 2. Add Products Ref Codes in Just Eat
 
 Most apps require products ref codes to process orders correctly. You can either enter products ref codes manually in the Just Eat Takeaway back office, or ask their support team to enter them for you.
 
 For more information, see [Map Ref Codes](/apps/just-eat-takeaway/map-ref-codes).
 
 ## 3. Connect Just Eat Takeaway Bridge
-
----
-
-**IMPORTANT NOTE:** Just Eat Takeaway Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
 
 To connect Just Eat Takeaway Bridge to HubRise, follow these steps.
 
