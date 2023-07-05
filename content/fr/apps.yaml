@@ -546,6 +546,11 @@ content:
           logo: koust.png
           title: Koust
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
+        - website: https://malba.io/
+          documentation: /apps/melba
+          logo: melba.png
+          title: Melba
+          description: Melba par Foodmeup est un outil de gestion des opérations pour les métiers de bouche. Melba peut gérer stocks, commandes fournisseurs, fiches techniques, production, ventes & devis, étiquettes fournisseurs, DLC secondaires, étiquettes INCO, relevés des huiles et des températures et tâches d'hygiène.
         - website: https://rapidbarapp.com/fr
           documentation: /apps/rapidbar
           logo: rapidbar.png
