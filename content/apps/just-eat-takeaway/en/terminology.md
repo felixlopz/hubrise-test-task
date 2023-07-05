@@ -11,14 +11,14 @@ meta:
 
 The following table explains the terms that are specific to Just Eat Takeaway.
 
-| Term      | Description                                                                                    |
-| --------- | ---------------------------------------------------------------------------------------------- |
-| Orderpad  | A device with a touch screen and built-in printer. Being phased out and replaced by T-Connect. |
-| T-Connect | A portable device, with a printer and display.                                                 |
+| Term      | Description                                                                                |
+| --------- | ------------------------------------------------------------------------------------------ |
+| Orderpad  | A device with a touch screen and a built-in printer. Phased out and replaced by T-Connect. |
+| T-Connect | A portable device, with a printer and display.                                             |
 
 ## Orderpad vs T-Connect
 
-If you are not sure which device you have, you can check the following pictures:
+If you are not sure which device you use, check the following pictures:
 
 | Orderpad                                                     | T-Connect                                       |
 | ------------------------------------------------------------ | ----------------------------------------------- |
