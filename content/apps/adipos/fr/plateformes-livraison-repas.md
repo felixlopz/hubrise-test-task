@@ -3,19 +3,19 @@ title: Plateformes de livraison de repas
 position: 2
 layout: documentation
 meta:
-  title: Plateformes de livraison de repas | AdiPOS | HubRise
-  description: HubRise permet de connecter AdiPOS à Deliveroo, Uber Eats, ou Just Eat. Paramètres à utiliser pour configurer la connexion de ces plateformes.
+  title: Plateformes de livraison de repas | Adipos | HubRise
+  description: HubRise permet de connecter Adipos à Deliveroo, Uber Eats, ou Just Eat. Paramètres à utiliser pour configurer la connexion de ces plateformes.
 ---
 
-Avec HubRise, vous pouvez recevoir les commandes de Deliveroo, Just Eat, Uber Eats et autres plateformes de livraison dans AdiPOS. Vous pouvez aussi envoyer votre menu de AdiPOS vers ces plateformes.
+Avec HubRise, vous pouvez recevoir les commandes de Deliveroo, Just Eat, Uber Eats et autres plateformes de livraison dans Adipos. Vous pouvez aussi envoyer votre menu de Adipos vers ces plateformes.
 
-Cette page décrit les paramètres à utiliser pour connecter les plateformes de livraison de repas à AdiPOS.
+Cette page décrit les paramètres à utiliser pour connecter les plateformes de livraison de repas à Adipos.
 
 Pour plus d'informations, consultez les pages d'aide de ces plateformes sur notre [page Apps](/apps/plateformes-de-livraison-de-repas).
 
 ## Deliveroo
 
-Pour recevoir les commandes de Deliveroo dans AdiPOS, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
+Pour recevoir les commandes de Deliveroo dans Adipos, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
 
 Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suivants.
 
@@ -44,7 +44,7 @@ En cas de doute sur l'API à utiliser, contactez [support@hubrise.com](mailto:su
 
 ### Just Eat avec l'API Takeaway
 
-Pour recevoir les commandes de Just Eat dans AdiPOS avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
+Pour recevoir les commandes de Just Eat dans Adipos avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
 
 Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramètres suivants.
 
@@ -62,7 +62,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 
 ### Just Eat avec l'API Flyt
 
-Pour recevoir les commandes de Just Eat Flyt dans AdiPOS avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt).
+Pour recevoir les commandes de Just Eat Flyt dans Adipos avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt).
 
 Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres suivants.
 
@@ -84,7 +84,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 
 ## Smood
 
-Pour recevoir les commandes de Smood dans AdiPOS, vous devez d'abord connecter Smood à HubRise. Pour plus d'informations sur la connexion de Smood à HubRise, consultez la [documentation Smood](/apps/smood).
+Pour recevoir les commandes de Smood dans Adipos, vous devez d'abord connecter Smood à HubRise. Pour plus d'informations sur la connexion de Smood à HubRise, consultez la [documentation Smood](/apps/smood).
 
 Dans la page de configuration de Smood, utilisez les paramètres suivants.
 
@@ -100,7 +100,7 @@ Dans la page de configuration de Smood, utilisez les paramètres suivants.
 
 ## Uber Eats
 
-Pour recevoir les commandes de Uber Eats dans AdiPOS, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats).
+Pour recevoir les commandes de Uber Eats dans Adipos, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats).
 
 Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suivants.
 
@@ -111,7 +111,7 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 | Types de service    | Code ref à emporter                               | `UBEREATS`                                                             |
 | Types de service    | Code ref sur place                                | `UBEREATS`                                                             |
 | Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes à emporter`                                                 |
-| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans AdiPOS et utiliser son code ref. (\*) |
+| Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` dans Adipos et utiliser son code ref. (\*) |
 | Remises             | Code ref remise                                   | (laisser vide)                                                         |
 | Frais               | Code ref frais de livraison                       | `DELIVERY`                                                             |
 | Frais               | Code ref supplément petite commande               | `OTHER`                                                                |
@@ -125,6 +125,6 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 
 ---
 
-**REMARQUE IMPORTANTE :** Les notes de préparation sur les articles ne sont pas supportées par AdiPOS. Si vous utilisez ces notes pour des instructions de cuisson ou de service (par exemple, "Cuisson à point", ou "Coupez en tranches"), vous devez les remplacer par des options dans votre menu Uber Eats.
+**REMARQUE IMPORTANTE :** Les notes de préparation sur les articles ne sont pas supportées par Adipos. Si vous utilisez ces notes pour des instructions de cuisson ou de service (par exemple, "Cuisson à point", ou "Coupez en tranches"), vous devez les remplacer par des options dans votre menu Uber Eats.
 
 ---
