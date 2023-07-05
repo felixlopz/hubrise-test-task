@@ -11,7 +11,7 @@ app_info:
   category: Logiciels de caisse
   availability: France, Turkie, Maroc
   price_range:
-  website: https://adipos.fr/
+  website: https://adipos.fr
   contact: support@adipos.fr / +33 9 81 06 79 05
 ---
 
