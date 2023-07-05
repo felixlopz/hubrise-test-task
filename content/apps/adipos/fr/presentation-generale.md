@@ -42,6 +42,12 @@ Connecter Adipos à HubRise permet à votre logiciel de caisse de :
 
 Adipos peut être connecté à HubRise depuis le back-office de Adipos.
 
+---
+
+**REMARQUE IMPORTANTE :** L'envoi des commandes et des informations clients à HubRise peut-être fait sur demande. Contactez Adipos pour plus d'information à ce sujet.
+
+---
+
 ## Pourquoi se connecter ?
 
 En connectant Adipos à HubRise, vous permettez à votre caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre logiciel de caisse. Envoyez le menu de votre caisse vers d'autres applications.
