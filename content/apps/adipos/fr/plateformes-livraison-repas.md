@@ -82,6 +82,22 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 | Paiements           |     | Code ref paiement en espèces                          | (laisser vide)                                |
 | Statuts de commande |     | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"` |
 
+## Smood
+
+Pour recevoir les commandes de Smood dans AdiPOS, vous devez d'abord connecter Smood à HubRise. Pour plus d'informations sur la connexion de Smood à HubRise, consultez la [documentation Smood](/apps/smood).
+
+Dans la page de configuration de Smood, utilisez les paramètres suivants.
+
+| Section             |     | Nom                                                   | Code ref                       |
+| ------------------- | --- |-------------------------------------------------------|--------------------------------|
+| Types de service    |     | Code ref de plateforme de livraison                   | `SMOOD`                        |
+| Types de service    |     | Code ref de livraison par le restaurant               | `SMOOD`                        |
+| Types de service    |     | A l'empoter code ref                                  | `SMOOD`                        |
+| Types de service    |     | Envoyer les commandes livrées par la plateforme comme | `commandes à emporter`         |
+| Remises             |     | Code ref remise                                       | (laisser vide)                 |
+| Frais               |     | Code ref frais de livraison                           | `DELIVERY`                     |
+| Paiements           |     | Code ref paiement en ligne                            | `SMOOD`                        |
+
 ## Uber Eats
 
 Pour recevoir les commandes de Uber Eats dans AdiPOS, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats).
