@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-Dismatch is a white-label delivery service offered by Smood, a food ordering and delivery platform present in over 25 cities all around Switzerland which delivers by car only.
+Dismatch is a white-label delivery service provided by Smood. This service, offering meal and online purchase deliveries, operates in over 25 Swiss cities and exclusively uses cars for delivery.
 
 Dismatch allows restaurant owners and other partner brands to outsource deliveries.
 

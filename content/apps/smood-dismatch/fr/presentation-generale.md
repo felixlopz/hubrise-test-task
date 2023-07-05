@@ -23,7 +23,7 @@ app_info:
 
 ## Description
 
-Dismatch est un service de livraison en marque blanche proposé par Smood, une plateforme de livraison de repas présente dans plus de 25 villes en Suisse qui livre uniquement en voiture.
+Dismatch est un service de livraison en marque blanche fourni par Smood. Ce service, offrant des livraisons de repas et d'achats en ligne, opère dans plus de 25 villes suisses et utilise exclusivement des voitures pour la livraison.
 
 Dismatch permet aux restaurateurs et autres enseignes partenaires d'externaliser leurs livraisons.
 
