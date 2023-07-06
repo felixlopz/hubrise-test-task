@@ -56,7 +56,7 @@ Refer to your EPOS documentation on the HubRise website to verify the correct va
 
 The **Brand ID** and **Menu ID** fields identify the menu you want to update on Deliveroo. The default values generally work for most users.
 
-To synchronize your HubRise catalog with Deliveroo whenever your catalog is updated, select the **Enable automatic catalog push** checkbox.
+To synchronize your HubRise catalog with Deliveroo whenever it is updated, select the **Enable automatic catalog push** checkbox.
 
 The **Menu description** and **Menu banner** replace the current description and banner image on Deliveroo when you push your catalog. The requirements for the banner image are described below:
 
@@ -72,9 +72,9 @@ The **Menu description** and **Menu banner** replace the current description and
 
 ## Inventory
 
-Through inventory synchronization, products and options that have a stock quantity of zero can be hidden from your Deliveroo page.
+Through inventory synchronization, products and options that have a stock quantity of zero can be hidden on your Deliveroo store.
 
-To synchronize your HubRise inventory with Deliveroo whenever your inventory is updated, select the **Enable automatic inventory push** checkbox.
+To synchronize your HubRise inventory with Deliveroo whenever it is updated, select the **Enable automatic inventory push** checkbox.
 
 Additionally, you can manually push your inventory to Deliveroo via the **Actions** page.
 
