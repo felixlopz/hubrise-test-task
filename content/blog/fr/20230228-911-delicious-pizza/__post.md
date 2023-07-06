@@ -1,10 +1,10 @@
 ---
-title: Etude de cas – La parole est à Abderrahim Baka de 911 Pizza
-position: 3
-layout: documentation
+title: "Etude de cas : 911 Delicious Company"
+date: 2023-02-28
+author: Géraldine Malet
 meta:
-  title: Etude de cas | Abderrahim Baka de 911 Pizza | HubRise
-  description: Comment 911 Pizza devient 911 Delicious Company et comment ce réseau de franchise réussit sa mutation numérique, informatique et technologique grâce à Hubrise ?
+  title: "Etude de cas : 911 Delicious Company | Blog | HubRise"
+  description: Comment 911 Pizza devient 911 Delicious Company et comment ce réseau de franchise réussit sa mutation numérique, informatique et technologique ?
 ---
 
 **Comment 911 Pizza est devenu 911 Delicious Company et comment le réseau de franchise a réussi sa mutation numérique, informatique et technologique grâce à Hubrise ?**
@@ -32,7 +32,8 @@ Fin 2019, ils se retrouvent donc tous trois réunis autour du projet de franchis
 ## Les défis à surmonter
 
 ### La mutation nécessaire vers un environnement informatique et technologique intégré
-Fort de ses expériences, de son parcours et de ses affinités pour le digital, Abderrahim endosse les casquettes de responsable marketing et responsable technique & informatique. Et  au sein de cette enseigne où le digital occupe une « pole position » - comme il aime à le dire - les chantiers ne manquent pas. 911 Pizza, enseigne connectée, est en effet présente sur tous les canaux.
+
+Fort de ses expériences, de son parcours et de ses affinités pour le digital, Abderrahim endosse les casquettes de responsable marketing et responsable technique & informatique. Et au sein de cette enseigne où le digital occupe une « pole position » - comme il aime à le dire - les chantiers ne manquent pas. 911 Pizza, enseigne connectée, est en effet présente sur tous les canaux.
 
 - Commande sur place au comptoir, à emporter ou à la livraison, avec une flotte de livreurs dédiée
 - Site de commande en ligne propre et application dédiée
@@ -55,7 +56,7 @@ S’il a conscience d’avoir face à lui « une montagne à gravir », il sait 
 
 ### De LivePepper à HubRise : les étapes vers la mise en place d’un système informatique et technologique intégré
 
-La première étape de cette mutation a été de trouver une solution de vente en ligne adaptée aux besoins de l’enseigne.  Après de nombreuses recherches et quelques tests infructueux, Abderrahim découvre [LivePepper](https://www.livepepper.fr/).
+La première étape de cette mutation a été de trouver une solution de vente en ligne adaptée aux besoins de l’enseigne. Après de nombreuses recherches et quelques tests infructueux, Abderrahim découvre [LivePepper](https://www.livepepper.fr/).
 
 > « On l’a d’abord testé sur un restaurant. J’ai été bluffé par la stabilité et l’ergonomie front office de la solution. Même en version standard, le taux de conversion est très bon, c’est stable, ça fonctionne. On a donc décidé de déployer LivePepper à l’ensemble de nos restaurants. »
 
@@ -69,9 +70,11 @@ Moyennant un abonnement mensuel de 25€ HT par mois et par point de vente, 911 
 > « En plus du logiciel de caisse, des bornes, du site e-commerce et de l’application, on travaille avec énormément de solutions tierces, que ce soit pour la fidélité client, pour la livraison à domicile avec [Uber Eats](https://www.ubereats.com/fr-en/store/911-delicious-company-talant/rVn6MXZhQ4OO7mW1GkMW9Q) et [Deliveroo](https://deliveroo.fr/fr/menu/dijon/belvedere/sarl-stan-911-pizza/), pour la gestion de notre propre flotte de livreurs, pour la gestion et l’inventaire, pour faire du push SMS ou pour l’envoi d’e-mails et de newsletters avec [MailChimp](https://mailchimp.com/fr/) ; aujourd’hui, toutes ces solutions sont soit reliées et connectées, soit en cours d’intégration, via HubRise. »
 
 ## Les bénéfices de l’intégration pour 911 Pizza / 911 Delicious Company
+
 Bien que le chantier entamé par Abderrahim il y a près de deux ne soit pas encore totalement terminé, les quatre restaurants 911 Pizza - et bientôt ceux du réseau 911 Delicious Company – profitent déjà de bénéfices concrets.
 
 ### Centralisation des commandes
+
 > « Aujourd’hui, les commandes continuent d’affluer de partout, mais la différence, c’est qu’elles arrivent maintenant sur notre caisse, sur un seul et même écran. Grâce à HubRise, on profite d’un système informatique qui consolide, qui rassemble, qui regroupe et qui affiche les produits à préparer en cuisine de manière claire. »
 
 ### Gain de temps et de sérénité
@@ -87,21 +90,22 @@ Bien que le chantier entamé par Abderrahim il y a près de deux ne soit pas enc
 > « Aujourd’hui en France, l’axe d’amélioration principal de la rentabilité des entreprises, c’est la masse salariale. Si on passe deux fois plus de temps à traiter les commandes, ça coûte forcément deux fois plus cher en coût de main-d'œuvre, ce qui impacte la rentabilité. Il faut donc trouver des axes pour améliorer ces temps de traitement, et ça passe notamment par l’implémentation de solutions et par l’intégration de logiciels fiables. Grâce à HubRise, nous avons clairement gagné en efficacité, en productivité, en temps, et donc forcément en rentabilité ! ».
 
 ### Une meilleure expérience client
+
 L’environnement informatique et technologique intégré est invisible du consommateur final, et pourtant, il en retire lui aussi des avantages certains.
 
 > « L’intégration se met au service de l’expérience client. Nous mettons en place des solutions techniques et technologiques pour que le client final, en retour, puisse profiter d’une expérience simplifiée et fluidifiée. En cela, l’intégration se met au service de l’omnicanalité, qui a justement pour finalité d’offrir une expérience sans couture et sans friction. Grâce à un système intégré, ils peuvent par exemple passer d’un point de contact à un autre sans difficultés, tout en ayant toujours accès à leurs données et à leurs points de fidélité. »
 
 ### Et après… ?
+
 Dans quelques mois, l’enseigne de restaurants indépendants 911 Pizza laissera place au [réseau de franchise 911 Delicious Company](https://franchise.911dc.com/). Si c’est une page qui se tourne, et s’ils avouent volontiers que ça été parfois un « parcours du combattant », Nasser, Aziz et Abderrahim sont aujourd’hui prêts et impatients d’écrire la suite de leur Histoire.
 
 > « On a pris le temps de réfléchir mais on arrive à quelque chose de vraiment abouti. On voulait permettre à nos franchisés de s’appuyer sur notre expérience, leur éviter de perdre le temps qu’on avait perdu dans les années passées afin qu’ils puissent avancer sereinement. Aujourd’hui, on pense pouvoir leur apporter cette expertise, cet engouement et cette sérénité. »
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6758038214507950080" height="841" width="504" frameborder="0" allowfullscreen="" title="Post intégré"></iframe>
 
-> « Tout ça nous aura demandé beaucoup de travail et aura mobilisé beaucoup de temps,  d’énergie et de capitaux, mais ça en valait vraiment la peine. Aujourd’hui, on est capable de proposer à nos futurs franchisés des solutions totalement intégrées, qui fonctionnent, qui ont un taux de conversion fort, qui permettent de rationaliser la gestion et d’avoir un gain de temps au quotidien... Le fait d’avoir un réseau intégré, des solutions intégrées, un environnement informatique homogène et intégré, c’est un vrai argument différenciateur et on ne va pas hésiter à le mettre en avant ! ».
+> « Tout ça nous aura demandé beaucoup de travail et aura mobilisé beaucoup de temps, d’énergie et de capitaux, mais ça en valait vraiment la peine. Aujourd’hui, on est capable de proposer à nos futurs franchisés des solutions totalement intégrées, qui fonctionnent, qui ont un taux de conversion fort, qui permettent de rationaliser la gestion et d’avoir un gain de temps au quotidien... Le fait d’avoir un réseau intégré, des solutions intégrées, un environnement informatique homogène et intégré, c’est un vrai argument différenciateur et on ne va pas hésiter à le mettre en avant ! ».
 
-
-Si vous souhaitez accélérer la transformation numérique de vos restaurants ou que vous avez, comme Nasser, Aziz et Abderrahim, une ambition réseau, alors l’intégration fait du sens et, pour reprendre les termes d’Abderrahim : 
+Si vous souhaitez accélérer la transformation numérique de vos restaurants ou que vous avez, comme Nasser, Aziz et Abderrahim, une ambition réseau, alors l’intégration fait du sens et, pour reprendre les termes d’Abderrahim :
 
 > « Il faut y aller ! »
 
@@ -118,7 +122,6 @@ En facilitant les intégrations techniques entre des solutions logicielles dispa
 En facilitant l’intégration de vos produits à leur futur environnement informatique et technologique, HubRise vous permet de mieux vous concentrer sur votre cœur de métier. Vous pouvez aussi offrir à vos clients une infinité de combinaisons possibles auxquels ils n’avaient auparavant pas accès.
 
 Avec HubRise, l’intégration n’est plus le privilège des grands groupes !
-
 
 Vous avez une question, une idée ou un projet ? Parlons-en !
 
