@@ -1,6 +1,6 @@
 ﻿---
 title: Plateformes de livraison de repas
-position: 2
+position: 3
 layout: documentation
 meta:
   title: Plateformes de livraison de repas | Adipos | HubRise
@@ -88,15 +88,15 @@ Pour recevoir les commandes de Smood dans Adipos, vous devez d'abord connecter S
 
 Dans la page de configuration de Smood, utilisez les paramètres suivants.
 
-| Section             |     | Nom                                                   | Code ref                       |
-| ------------------- | --- |-------------------------------------------------------|--------------------------------|
-| Types de service    |     | Code ref de plateforme de livraison                   | `SMOOD`                        |
-| Types de service    |     | Code ref de livraison par le restaurant               | `SMOOD`                        |
-| Types de service    |     | A l'empoter code ref                                  | `SMOOD`                        |
-| Types de service    |     | Envoyer les commandes livrées par la plateforme comme | `commandes à emporter`         |
-| Remises             |     | Code ref remise                                       | (laisser vide)                 |
-| Frais               |     | Code ref frais de livraison                           | `DELIVERY`                     |
-| Paiements           |     | Code ref paiement en ligne                            | `SMOOD`                        |
+| Section          |     | Nom                                                   | Code ref               |
+| ---------------- | --- | ----------------------------------------------------- | ---------------------- |
+| Types de service |     | Code ref de plateforme de livraison                   | `SMOOD`                |
+| Types de service |     | Code ref de livraison par le restaurant               | `SMOOD`                |
+| Types de service |     | A l'empoter code ref                                  | `SMOOD`                |
+| Types de service |     | Envoyer les commandes livrées par la plateforme comme | `commandes à emporter` |
+| Remises          |     | Code ref remise                                       | (laisser vide)         |
+| Frais            |     | Code ref frais de livraison                           | `DELIVERY`             |
+| Paiements        |     | Code ref paiement en ligne                            | `SMOOD`                |
 
 ## Uber Eats
 
