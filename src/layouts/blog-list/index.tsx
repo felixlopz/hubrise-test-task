@@ -9,11 +9,12 @@ import { useLocaleCode } from "@utils/locales"
 import SEO, { Meta } from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs, { Breadcrumb } from "@layouts/shared/components/Breadcrumbs"
-import { Hero, Sidebar } from "@layouts/shared/components/Blog"
 import { getArchiveTitle } from "@layouts/shared/components/Blog/Sidebar"
 import { BlogNode } from "@layouts/shared/components/Blog/shared/interface"
 import { ImageNode, ImageSharp } from "@utils/image"
 import PostSummary from "@layouts/shared/components/Blog/PostSummary"
+import Hero from "@layouts/shared/components/Blog/Hero"
+import Layout from "@layouts/shared/components/Blog/Layout"
 
 interface BlogListProps {
   data: BlogListData
@@ -33,9 +34,11 @@ type HeroImageNode = ImageNode & { absolutePath: string }
 
 export const graphqlQuery = graphql`
   query blogListData {
-    allMdx(filter: { fileAbsolutePath: { glob: "**/content/blog/**/__post.md" } }) {
+    allMdx(filter: { internal: { contentFilePath: { glob: "**/blog/**/__post.md" } } }) {
       nodes {
-        fileAbsolutePath
+        internal {
+          contentFilePath
+        }
         fields {
           localeCode
           path
@@ -52,7 +55,7 @@ export const graphqlQuery = graphql`
       nodes {
         absolutePath
         childImageSharp {
-          gatsbyImageData(layout: FULL_WIDTH, placeholder: NONE)
+          gatsbyImageData(layout: CONSTRAINED, outputPixelDensities: [1, 2])
         }
       }
     }
@@ -86,7 +89,11 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
         label: "Blog",
       },
       {
-        label: `${t("misc.archive")} - ${getArchiveTitle(archive, t)}`,
+        path: pageContext.mainBlogPath,
+        label: t("blog.older_posts"),
+      },
+      {
+        label: getArchiveTitle(archive, t),
       },
     ]
   }
@@ -98,7 +105,7 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
   }
 
   const bannerImage = (blogPost: BlogNode): ImageSharp | undefined => {
-    const folder = blogPost.fileAbsolutePath.replace(/\/__post\.md$/, "")
+    const folder = blogPost.internal.contentFilePath.replace(/\/__post\.md$/, "")
     return data.bannerImages.nodes.find((node) => node.absolutePath.startsWith(folder))?.childImageSharp
   }
 
@@ -108,17 +115,11 @@ const BlogList = ({ data, pageContext }: BlogListProps): JSX.Element => {
 
       {archive ? <Breadcrumbs breadcrumbs={breadcrumbs} /> : <Hero title={hero.title} description={hero.description} />}
 
-      <section className="section">
-        <div className="section__in section__in_padding section__in_green section__in_left section__in_sidebar section__in_blog">
-          <Sidebar />
-
-          <div className="section__content">
-            {mdxNodes.map((mdxNode, idx) => (
-              <PostSummary key={idx} mdxNode={mdxNode} bannerImage={bannerImage(mdxNode)} />
-            ))}
-          </div>
-        </div>
-      </section>
+      <Layout>
+        {mdxNodes.map((mdxNode, idx) => (
+          <PostSummary key={idx} mdxNode={mdxNode} bannerImage={bannerImage(mdxNode)} />
+        ))}
+      </Layout>
     </MDXProvider>
   )
 }

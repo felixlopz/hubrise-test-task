@@ -13,7 +13,7 @@ meta:
 
 This method creates an order.
 
-Almost all fields are optional. In fact the simplest order that can be created only has a `status`.
+Almost all the fields are optional. In fact the simplest order that can be created only has a `status`.
 
 <CallSummaryTable
   endpoint="POST /locations/:location_id/orders"
@@ -21,7 +21,7 @@ Almost all fields are optional. In fact the simplest order that can be created o
   accessLevel="location, account"
 />
 
-#### Parameters:
+##### Parameters:
 
 | Name                                                                  | Type                                                      | Description                                                                                                                                                                                                                                                                 |
 | --------------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -157,7 +157,7 @@ Returns an order resource.
   accessLevel="location, account"
 />
 
-All fields of an order creation request are returned, plus a few more:
+All the fields of an order creation request are returned, plus a few more:
 
 | Name          | Type                                                       | Description                                                                  |
 | ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -179,7 +179,7 @@ In addition, each `item`, `charge`, `payment` and `discount` is returned with a 
 
 `GET /locations/3r4s3-1/orders/5dpm9`
 
-#### Response:
+##### Response:
 
 ```json
 {
@@ -352,7 +352,7 @@ Orders of any location of the account:
   accessLevel="account"
 />
 
-#### Parameters:
+##### Parameters:
 
 | Name            | Type                                                      | Description                                                                                                                                                                                         |
 | --------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -368,7 +368,7 @@ Orders of any location of the account:
 
 `GET /locations/3r4s3-1/orders?customer_id=wbq93`
 
-#### Response:
+##### Response:
 
 ```json
 [
@@ -399,9 +399,9 @@ Orders of any location of the account:
 Updates an order.
 
 <CallSummaryTable
-endpoint="PATCH /locations/:location_id/orders/:order_id"
-shortEndpoint="PATCH /location/orders/:order_id (location only)"
-accessLevel="location, account"
+  endpoint="PATCH /locations/:location_id/orders/:order_id"
+  shortEndpoint="PATCH /location/orders/:order_id (location only)"
+  accessLevel="location, account"
 />
 
 The following fields can be updated by sending their new value:
@@ -474,7 +474,7 @@ Deleted elements are still present in the order representation, but they are irr
 }
 ```
 
-#### Response:
+##### Response:
 
 ```json
 {
@@ -538,7 +538,7 @@ This request adds two payments to the order.
 }
 ```
 
-#### Response:
+##### Response:
 
 ```json
 {
@@ -600,7 +600,7 @@ This request sets a private ref on an item.
 }
 ```
 
-#### Response:
+##### Response:
 
 ```json
 {
@@ -760,7 +760,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
 | `options` <Label type="optional" />        | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
 | `deleted` <Label type="optional" />        | boolean                                                     | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                                                                                                |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -811,7 +811,7 @@ Order items which are part of a deal include a `deal_line` field. This field is 
 | `quantity` <Label type="optional" /> | integer                                                    | The number of selections for this option, relative to a single item unit. Default: `1`.       |
 | `removed` <Label type="optional" />  | boolean                                                    | When this flag is true, the option is removed (for instance, a removed ingredient in a dish). |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -829,14 +829,14 @@ A removed option can define a `price`. In this case, it's the price charged to t
 
 An order deal associates an order item's `deal_key` to a particular deal.
 
-#### Attributes:
+##### Attributes:
 
 | Name                            | Type   | Description                       |
 | ------------------------------- | ------ | --------------------------------- |
 | `name`                          | string | The name of the deal.             |
 | `ref` <Label type="optional" /> | string | The ref that identifies the deal. |
 
-#### Example:
+##### Example:
 
 ```json
 {
@@ -851,7 +851,7 @@ An order deal associates an order item's `deal_key` to a particular deal.
 
 An order discount is a discount applied to the whole order, as opposed to deals which apply to a set of order items.
 
-#### Attributes:
+##### Attributes:
 
 | Name                                    | Type                                                       | Description                                                                                                        |
 | --------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -863,7 +863,7 @@ An order discount is a discount applied to the whole order, as opposed to deals 
 
 **Note:** the `pricing_effect` and `pricing_value` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
 
-#### Example:
+##### Example:
 
 ```json
 [
@@ -884,7 +884,7 @@ An order discount is a discount applied to the whole order, as opposed to deals 
 
 Order charges increase the price paid by the customer.
 
-#### Attributes:
+##### Attributes:
 
 | Name                                    | Type                                                        | Description                                                                                                      |
 | --------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -899,7 +899,7 @@ Order charges increase the price paid by the customer.
 
 **Note:** the `type` field is deprecated and should be ignored in new integrations.
 
-#### Example:
+##### Example:
 
 ```json
 [
@@ -917,7 +917,7 @@ If one or several payments are defined, the sum of the payment amounts should eq
 
 If payments are omitted, the order should be considered as unpaid.
 
-#### Attributes:
+##### Attributes:
 
 | Name                                    | Type                                                       | Description                                                                                                           |
 | --------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -930,7 +930,7 @@ If payments are omitted, the order should be considered as unpaid.
 
 **Note:** the `type` field is deprecated and should be ignored in new integrations.
 
-#### Example:
+##### Example:
 
 ```json
 [
@@ -961,7 +961,7 @@ Each operation is linked to a loyalty card, uniquely identified by its name. If 
 
 Each loyalty operation triggers the automatic recalculation of the loyalty card balance.
 
-#### Attributes:
+##### Attributes:
 
 | Name                               | Type                                                        | Description                                                                              |
 | ---------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -969,7 +969,7 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 | `delta`                            | [decimal](/developers/api/general-concepts/#decimal-values) | The number of points to add to the card balance. Use a negative number to remove points. |
 | `reason` <Label type="optional" /> | string                                                      | Additional information on the operation.                                                 |
 
-#### Example:
+##### Example:
 
 ```json
 [

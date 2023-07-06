@@ -5,16 +5,17 @@ import DateAndAuthor from "../shared/components/DateAndAuthor"
 
 import { BannerImage, StyledPost, StyledTitle } from "./Styles"
 
-import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
+import MDXCustomRenderer from "@layouts/shared/components/MdxCustomRenderer"
 import { ImageSharp } from "@utils/image"
 
 interface PostProps {
   mdxNode: BlogNode
   bannerImage?: ImageSharp
+  children: React.ReactNode
 }
 
-const Post = ({ mdxNode, bannerImage }: PostProps): JSX.Element => {
-  const { frontmatter, body } = mdxNode
+const Post = ({ mdxNode, bannerImage, children: body }: PostProps): JSX.Element => {
+  const { frontmatter } = mdxNode
 
   return (
     <StyledPost>
@@ -24,7 +25,7 @@ const Post = ({ mdxNode, bannerImage }: PostProps): JSX.Element => {
 
       {bannerImage && <BannerImage image={bannerImage.gatsbyImageData} alt={frontmatter.title} />}
 
-      <DocumentationRenderer body={body} />
+      <MDXCustomRenderer body={body} />
     </StyledPost>
   )
 }
