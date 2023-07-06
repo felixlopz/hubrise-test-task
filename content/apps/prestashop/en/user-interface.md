@@ -63,7 +63,7 @@ To access the actions page, click **Actions** at the top of the screen. If the l
 From the actions page, you can perform the following actions:
 
 - **Push Catalog**: Push the catalog to PrestaShop. For more details, see [Push Catalog](/apps/prestashop/push-catalog).
-- **Push Inventory**: Sync the inventory from HubRise to PrestaShop.
+- **Push Inventory**: Push the product inventory to PrestaShop.
 
 ## Language and Navigation
 

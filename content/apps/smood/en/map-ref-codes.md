@@ -7,7 +7,7 @@ meta:
   description: Instructions on mapping Smood product ref codes with other apps after connecting your EPOS with HubRise. Connect apps and synchronise your data.
 ---
 
-Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, you need to make sure that each product in Smood is assigned to the correct ref code.
+Most EPOS solutions require a ref code for each product to properly interpret orders. Therefore, you need to make sure that each product in Smood is assigned to the correct ref code.
 
 This page explains how to configure ref codes manually in Smood. Some EPOS solutions offer the ability to export their catalog to HubRise, allowing you to populate Smood products automatically with the correct ref codes. For more details, see [Pull the Catalog](/apps/smood/pull-catalog).
 

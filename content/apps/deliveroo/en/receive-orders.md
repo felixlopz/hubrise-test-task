@@ -1,6 +1,6 @@
 ---
 title: Receive Orders
-position: 7
+position: 8
 layout: documentation
 meta:
   title: Receive Orders | Deliveroo | HubRise
@@ -9,7 +9,7 @@ meta:
 
 Connecting Deliveroo to HubRise allows you to receive Deliveroo orders directly in your EPOS or any other solution connected to your HubRise account.
 
-Your Deliveroo tablet needs to remain switched on to receive orders. Orders can either be manually accepted on the tablet, or auto-accepted. For more information, see [How Can I Auto-Accept Orders?](/apps/deliveroo/faqs/auto-accept/). Deliveroo is planning to support tabletless integration in the future.
+You have the option to either manually accept orders on the tablet or set up auto-accept. If you prefer not to use a tablet, you can leave it switched off or not have one at all. For more information, see [How Can I Abandon the Deliveroo Tablet?](/apps/deliveroo/faqs/abandon-deliveroo-tablet/)
 
 This page describes the information Deliveroo sends to HubRise. It helps you understand how orders will be received on your EPOS.
 
@@ -60,7 +60,7 @@ Every option has single quantity. Multiple identical options are encoded in sepa
 A Deliveroo order goes through several statuses during its lifecycle:
 
 - `Succeeded`: The order has been accepted by the EPOS, and is confirmed on Deliveroo.
-- `Failed`: The order could not be sent to the EPOS. Deliveroo sends a message to the Deliveroo tablet prompting staff to check their POS for the order, and enter manually into the till if needed.
+- `Failed`: The order could not be sent to the EPOS. Deliveroo sends a message to the Deliveroo tablet prompting staff to check their POS for the order, and enter manually into the EPOS if needed.
 - `In Kitchen`: Cooking has started.
 - `Ready for Collection`: Food is cooked and packaged.
 - `Collected`: The order has been collected.
@@ -101,7 +101,7 @@ Deliveroo supports three service types:
 - Delivery by the restaurant's fleet
 - Customer collection
 
-These are typically associated with specific ref codes in your EPOS. For more information, see your EPOS documentation in our [apps page](/apps).
+These are typically associated with specific ref codes in your EPOS. For more information, see your EPOS documentation in our [Apps page](/apps).
 
 ## Order Times
 
@@ -144,7 +144,7 @@ The available fields in the payload are the following:
 Deliveroo Bridge can encode three types of charges:
 
 - Delivery charges are applied for orders delivered by the restaurant.
-- Small order surcharges apply to orders below the minimum price.
+- Small order surcharges apply to orders below the minimum order amount.
 - Bag fees are required by regulations in some countries.
 
 The available fields in the payloads are the following:
