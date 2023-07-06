@@ -17,11 +17,14 @@ This page explains how to push your catalog, and what information is sent to Del
 
 To update your menu in Deliveroo, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your EPOS documentation on the HubRise website to verify.
 
-Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats, or from Deliveroo. For more information on Deliveroo pull, see[Pull the Catalog](/apps/deliveroo/pull-catalog).
+Alternatively, you can populate a HubRise catalog by pulling your menu on your existing Deliveroo or Uber Eats store. For more information, refer to these links:
+
+- [Pull a Catalog from Deliveroo](/apps/deliveroo/pull-catalog)
+- [Pull a Catalog from Uber Eats](/apps/uber-eats/pull-catalog)
 
 ## Manual Catalog Push
 
-Once your catalog is populated on HubRise, and you have product ref codes for each individual item, you can push it manually to your Deliveroo store by following these steps:
+Once your catalog is populated on HubRise, and you have assigned product ref codes for each item, you can push it manually to your Deliveroo store by following these steps:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Deliveroo store.
@@ -31,7 +34,7 @@ Once your catalog is populated on HubRise, and you have product ref codes for ea
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog into Deliveroo will erase the current menu on your Deliveroo store. A catalog push will also update your Deliveroo **Menu description** and **Menu banner** as defined in the Deliveroo Bridge **Configuration** page. This action cannot be reverted. The catalog push will not work if ref codes are missing.
+**IMPORTANT NOTE:** Pushing your HubRise catalog into Deliveroo will erase the current menu on your Deliveroo store, and replace your **Menu description** and **Menu banner** with the ones defined in the **Configuration** page. This action cannot be reverted. The catalog push will not work if ref codes are missing.
 
 ---
 
