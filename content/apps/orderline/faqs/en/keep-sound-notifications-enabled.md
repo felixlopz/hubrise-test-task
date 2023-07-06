@@ -7,7 +7,7 @@ meta:
   description: How to keep sound notifications permanently enabled for OrderLine on your desktop or mobile browser.
 ---
 
-By default, web browsers do not let websites play sound notifications. This is a security feature to prevent unwanted noise.
+Web browsers may block websites from playing sound notifications. This is a security feature to prevent unwanted noise.
 
 When sound notifications are blocked by your browser, OrderLine will display a red popup. You can click on this popup to enable sound notifications for the current session. This behaviour is documented in the [Sound Notifications Disabled Popup](/apps/orderline/troubleshooting/#sound-notifications-disabled-popup) section of the Troubleshooting page.
 
@@ -15,7 +15,7 @@ To avoid doing this every time you launch OrderLine, you can configure your brow
 
 ## Desktop Browsers
 
-If you're using OrderLine on a desktop device, follow the steps corresponding to your browser to keep sound notifications enabled.
+If you're using OrderLine on a desktop device, follow the steps corresponding to your browser.
 
 **Chrome:**
 
@@ -39,7 +39,7 @@ If you're using OrderLine on a desktop device, follow the steps corresponding to
 
 ## Mobile Browsers
 
-Follow these steps to keep sound notifications enabled on mobile devices.
+Follow these steps if you're using Chrome on a mobile device.
 
 **Chrome:**
 
