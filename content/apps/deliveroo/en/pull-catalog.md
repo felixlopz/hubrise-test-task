@@ -3,8 +3,8 @@ title: Pull the Catalog
 position: 7
 layout: documentation
 meta:
- title: Pull the Catalog | Deliveroo | HubRise
- description: Find out how to pull a catalog from Deliveroo into HubRise. 
+  title: Pull the Catalog | Deliveroo | HubRise
+  description: Find out how to pull a catalog from Deliveroo into HubRise.
 ---
 
 With Deliveroo Bridge, you can pull your Deliveroo menu into a HubRise catalog.
@@ -15,7 +15,6 @@ This can be useful if you want to:
 - Edit your Deliveroo menu in HubRise Catalog Manager, to inclure ref codes for instance. For more information, see [Catalog Manager](/apps/catalog-manager).
 - To populate a HubRise catalog which will be pushed into other apps, including other food delivery platforms such as Uber Eats and Just Eat.
 
-
 ## Populate a HubRise Catalog
 
 To pull your Deliveroo menu into a HubRise catalog, follow these steps:
@@ -23,7 +22,7 @@ To pull your Deliveroo menu into a HubRise catalog, follow these steps:
 1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Deliveroo store.
 1. Open the **CONNECTIONS** page, then select **Deliveroo Bridge** from the list of connected apps.
-1. In Deliveroo Bridge, select the **Actions** tab. 
+1. In Deliveroo Bridge, select the **Actions** tab.
 1. In the **Pull the catalog from Deliveroo** section, verify that the correct HubRise catalog is connected, click **Pull catalog**, and confirm the action.
 1. Check your populated catalog on HubRise. For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 

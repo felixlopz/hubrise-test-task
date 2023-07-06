@@ -7,11 +7,11 @@ meta:
   description: Find out how to pull your Uber Eats menu into a HubRise catalog, how items and options are converted, and which features are supported.
 ---
 
-With Uber Eats Bridge, you can pull your Uber Eats  menu into a HubRise catalog.
+With Uber Eats Bridge, you can pull your Uber Eats menu into a HubRise catalog.
 
 This can be useful if you want to:
 
-- Create a backup of your Uber Eats  menu.
+- Create a backup of your Uber Eats menu.
 - Edit your Uber Eats menu in HubRise Catalog Manager, to inclure ref codes for instance. For more information, see [Catalog Manager](/apps/catalog-manager).
 - To populate a HubRise catalog which will be pushed into other apps, including other food delivery platforms such as Uber Eats and Just Eat.
 
@@ -38,4 +38,4 @@ To pull your Uber Eats menu into a HubRise catalog, follow these steps:
 
 ## Information pulled into HubRise
 
-Catalog data sent to Uber Eats is comparable to the data pulled from Uber Eats. For more information, you can therefore refer to [Information Sent to  Uber Eats](/apps/uber-eats/push-catalog#information-sent-to-uber-eats).
+Catalog data sent to Uber Eats is comparable to the data pulled from Uber Eats. For more information, you can therefore refer to [Information Sent to Uber Eats](/apps/uber-eats/push-catalog#information-sent-to-uber-eats).

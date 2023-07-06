@@ -89,10 +89,9 @@ To quickly copy opening hours to all the following days on the list, click **Cop
 
 ### Customer Notes
 
-Customer notes for individual products can be activated by contacting Uber Eats support. This integration feature is supported, but it cannot be activated by HubRise. 
+Customer notes for individual products can be activated by contacting Uber Eats support. This integration feature is supported, but it cannot be activated by HubRise.
 
 If you enable customer notes, make sure that your connected EPOS supports product level customer notes.
-
 
 ## Inventory
 
