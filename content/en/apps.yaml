@@ -173,8 +173,8 @@ content:
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png
-          title: Swoopos
-          description: Swoopos is a cost efficient, multifunctional and easy to use mobile Point of Sales system designed for the hospitality and retail sectors. It comes with payment, table booking, and QR code table ordering solutions.
+          title: SwooPOS
+          description: SwooPOS is a cost efficient, multifunctional and easy to use mobile Point of Sales system designed for the hospitality and retail sectors. It comes with payment, table booking, and QR code table ordering solutions.
           additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc
@@ -538,6 +538,11 @@ content:
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
           additional_info:
+        - website: https://malba.io/
+          documentation: /apps/melba
+          logo: melba.png
+          title: Melba
+          description: Melba by Foodmeup is a comprehensive operations management tool for food industry professionals with inventory management, supplier orders, technical sheets, production, sales & quotes, supplier labels, oil and temperature reports, and hygiene tasks.
         - website: https://rapidbarapp.com/en
           documentation: /apps/rapidbar
           logo: rapidbar.png

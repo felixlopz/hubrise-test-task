@@ -15,7 +15,7 @@ const AppInfo = ({ appInfo }: AppInfoProps): JSX.Element => {
   const { t } = useTranslation()
 
   return (
-    <StyledAppInfo className="section__content">
+    <StyledAppInfo>
       <ul>
         {Object.entries(appInfo).map(([key, value]) => {
           if (!value) return

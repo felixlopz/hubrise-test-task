@@ -11,7 +11,7 @@ Connecting Just Eat to HubRise can be done with a few steps.
 
 ---
 
-**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute! 
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -29,12 +29,6 @@ Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the 
 With this information in hand, we will ask the Just Eat integration team to enable the HubRise connection for your store.
 
 ## 2. Connect Just Eat Flyt Bridge
-
----
-
-**IMPORTANT NOTE:** Just Eat Flyt Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
 
 To connect Just Eat Flyt Bridge to HubRise, follow these steps.
 
