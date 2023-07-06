@@ -20,7 +20,7 @@ app_info:
 
 ---
 
-**REMARQUE IMPORTANTE :** L'intégration est en cours. Une documentation complète sera publiée une fois l'intégration terminée.
+**REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/prestashop" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---
 
@@ -44,6 +44,8 @@ Connecter PrestaShop Bridge permet à HubRise de :
 - Synchroniser l'inventaire avec PrestaShop.
 
 PrestaShop peut être connecté à HubRise depuis le back-office de HubRise.
+
+![Schéma du flux de connexion entre PrestaShop, PrestaShop Bridge et HubRise](../images/000-fr-2x-connection-diagram.png)
 
 ## Pourquoi se connecter ?
 

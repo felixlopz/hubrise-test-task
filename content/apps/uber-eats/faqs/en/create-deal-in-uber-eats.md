@@ -1,6 +1,6 @@
 ---
 title: How to Create a Deal in Uber Eats?
-position: 6
+position: 7
 layout: documentation
 meta:
   title: Creating a Deal in Menu Maker | Uber Eats FAQs | HubRise

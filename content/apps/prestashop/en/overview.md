@@ -14,12 +14,6 @@ app_info:
   contact: https://www.prestashop.com/en/contact
 ---
 
----
-
-**IMPORTANT NOTE**: The integration is in progress. Full documentation will be published once the integration is complete.
-
----
-
 ## Description
 
 PrestaShop is an open-source solution to create e-commerce websites. You can use PrestaShop to sell any type of product, accept online payments, manage deliveries, and keep track of the inventory. You can also view the metrics of your online store.
@@ -40,6 +34,8 @@ Connecting PrestaShop Bridge allows HubRise to:
 - Synchronise inventory with PrestaShop.
 
 PrestaShop can be connected to HubRise from the HubRise back office.
+
+![Diagram of the connection flow between PrestaShop, PrestaShop Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
 
 ## Why Connect?
 
