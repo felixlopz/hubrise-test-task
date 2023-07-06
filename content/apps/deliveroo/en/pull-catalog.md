@@ -9,11 +9,11 @@ meta:
 
 With Deliveroo Bridge, you can pull your Deliveroo menu into a HubRise catalog.
 
-This can be useful if you want to:
+This feature can be useful if you wish to:
 
 - Create a backup of your Deliveroo menu.
-- Edit your Deliveroo menu in HubRise Catalog Manager, to inclure ref codes for instance. For more information, see [Catalog Manager](/apps/catalog-manager).
-- To populate a HubRise catalog which will be pushed into other apps, including other food delivery platforms such as Uber Eats and Just Eat.
+- Edit your menu using the HubRise Catalog Manager, to include ref codes, for example. For more information, see [Catalog Manager](/apps/catalog-manager).
+- Populate a HubRise catalog that will then be pushed to other apps, including food delivery platforms such as Uber Eats and Just Eat.
 
 ## Populate a HubRise Catalog
 
@@ -24,18 +24,18 @@ To pull your Deliveroo menu into a HubRise catalog, follow these steps:
 1. Open the **CONNECTIONS** page, then select **Deliveroo Bridge** from the list of connected apps.
 1. In Deliveroo Bridge, select the **Actions** tab.
 1. In the **Pull the catalog from Deliveroo** section, verify that the correct HubRise catalog is connected, click **Pull catalog**, and confirm the action.
-1. Check your populated catalog on HubRise. For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+1. Review your populated catalog on HubRise. For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
 ---
 
-**IMPORTANT NOTE:** This operation will erase the HubRise catalog connected to Deliveroo Bridge.
+**IMPORTANT NOTE:** This operation will overwrite the HubRise catalog connected to Deliveroo Bridge.
 
 ---
 
-## Information pulled into HubRise
+## Information Pulled into HubRise
 
-Catalog data sent to Deliveroo is comparable to the data pulled from Deliveroo. For more information, you can therefore refer to [Information Sent to Deliveroo](/apps/deliveroo/push-catalog#information-sent-to-deliveroo).
+The catalog data pulled from Deliveroo mirrors the data transmitted to Deliveroo. For further details, you can refer to [Information Sent to Deliveroo](/apps/deliveroo/push-catalog#information-sent-to-deliveroo).
 
-However, there is one exception to this rule. If the images used to illustrate your Deliveroo online store have not been previously sent by HubRise, HubRise is unable to pull them from Deliveroo. This is a known limitation, the Deliveroo integration team is working on a fix.
+However, there is one exception to this rule. If the images used on your Deliveroo store have not been previously uploaded through HubRise, they cannot be pulled. This is a known limitation that the Deliveroo integration team is addressing.
 
-If you have a store on Uber Eats, you can pull a full menu from there instead. For more information on Uber Eats pull, see [Pull the Catalog](/apps/uber-eats/pull-catalog).
+If you operate a store on Uber Eats, you have the option to pull the menu from that platform instead. For more information on pulling a catalog from Uber Eats, see [Pull the Catalog](/apps/uber-eats/pull-catalog) in the Uber Eats Bridge documentation.
