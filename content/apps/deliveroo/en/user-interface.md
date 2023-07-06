@@ -69,8 +69,8 @@ To access the actions page, click **Actions** at the top of the screen. If the l
 From the **Actions** page, you can perform the following actions:
 
 - **Push Catalog**: Push the catalog to Deliveroo. For more details, see [Push Catalog](/apps/deliveroo/push-catalog).
-- **Pull Catalog**: Pull the menu on Deliveroo into a HubRise catalog.
-- **Push Inventory**: Push product availabilities to Deliveroo.
+- **Pull Catalog**: Pull the menu from Deliveroo into a HubRise catalog. For more details, see [Pull Catalog](/apps/deliveroo/pull-catalog).
+- **Push Inventory**: Push your HubRise inventory to Deliveroo.
 
 ## Language and Navigation
 
