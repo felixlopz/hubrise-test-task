@@ -29,12 +29,6 @@ Your API managed user will now appear in the list.
 
 ## Connect the dotdigital Bridge to HubRise
 
----
-
-**IMPORTANT NOTE:** dotdigital Bridge connects to HubRise at the location level.
-
----
-
 To connect dotdigital to HubRise, you first need to log in to your [HubRise account](https://manager.hubrise.com).
 If you don't have a HubRise account, go to the [HubRise Signup Page](https://manager.hubrise.com/signup) and follow the instructions.
 
