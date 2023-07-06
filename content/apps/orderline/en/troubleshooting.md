@@ -21,7 +21,7 @@ OrderLine routinely checks for blocked sound notifications and will display a po
 
 ---
 
-**IMPORTANT NOTE:** The policy can sometimes be adjusted depending on the specific browser and device in use. For more information, refer to our [Keep Sound Notifications Active](/apps/orderline/faqs/keep-sound-notifications-active) FAQ.
+**IMPORTANT NOTE:** On most browsers, the policy can however be adjusted to allow OrderLine to play sound notifications without user interaction. For detailed browser specific instructions, refer to our [Keep Sound Notifications Enabled](/apps/orderline/faqs/keep-sound-notifications-enabled) FAQ.
 
 ---
 
