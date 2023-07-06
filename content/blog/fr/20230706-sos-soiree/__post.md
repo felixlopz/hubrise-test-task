@@ -1,5 +1,5 @@
 ---
-title: Interview, la parole est à Théo Vandemeulebroucke, de SOS Soirée
+title: Interview de Théo Vandemeulebroucke, SOS Soirée
 date: 2023-07-06
 author: Géraldine Malet
 meta:
@@ -7,13 +7,23 @@ meta:
   description: Comment Théo Vandemeulebroucke, de SOS Soirée, a intégré son logiciel de caisse maison à HubRise en quasi autonomie complète.
 ---
 
-**Qui de mieux placé que nos clients et utilisateurs pour vous parler d'intégration ? Si nous avons choisi aujourd'hui de donner la parole à Théo Vandemeulebroucke - CEO et co-fondateur de SOS Soirée - ce n'est pas seulement parce qu'il vient de finaliser son intégration avec HubRise. C'est aussi parce qu'il a choisi de la réaliser en (presque) totale autonomie. Aidé de notre API ouverte et publique, de ses compétences en informatique et de notre documentation technique, il a troqué sa casquette de CEO pour celle de développeur. Retour sur son expérience.**
+**Qui de mieux placé que nos clients et utilisateurs pour vous parler d'intégration ? Si nous avons choisi aujourd'hui de donner la parole à Théo Vandemeulebroucke - CEO et co-fondateur de SOS Soirée - ce n'est pas seulement parce qu'il vient de finaliser son intégration avec HubRise. C'est aussi parce qu'il a choisi de la réaliser en (presque) totale autonomie.**
 
-Fondée en 2011 par trois amis étudiants en informatique, SOS Soirée est aujourd'hui un acteur majeur de la livraison d'apéritifs sur les agglomérations d'Annecy et de Tignes. Et si cette “dark kitchen de l'apéro” a rapidement conquis le cœur des fêtards annéciens, ce n'est pas seulement grâce à son concept novateur [rappelons qu'en 2011, Uber Eats et Deliveroo n'existaient pas encore]; c'est aussi grâce à la qualité de son service de livraison, assuré par une flotte dédiée, ainsi qu'au background informatique des co-fondateurs, qui leur a permis de créer leurs propres outils : logiciel de caisse et site de commande en ligne. C'est grâce à ce même savoir-faire que Théo Vandemeulebroucke - seul membre du trio à avoir poursuivi l'aventure - a réussi son intégration récente avec HubRise, en quasi-totale-autonomie. Interview.
+**Aidé de notre API ouverte et publique, de ses compétences en informatique et de notre documentation technique, il a troqué sa casquette de CEO pour celle de développeur. Retour sur son expérience.**
 
-## A quels défis étiez-vous confrontés pour lesquels l'intégration est apparue comme la solution idéale ?
+Fondée en 2011 par trois amis étudiants en informatique, SOS Soirée est aujourd'hui un acteur majeur de la livraison d'apéritifs sur les agglomérations d'Annecy et de Tignes.
 
-Il y a plusieurs années déjà, nous avons fait le choix de travailler avec Uber Eats et Deliveroo. Chacun nous fournit une tablette, sur laquelle nous recevons les commandes des utilisateurs. Or, ces dernières années, on a observé une forte croissance des ventes, ce qui a fini par poser une réelle problématique : pour que nos livreurs puissent avoir accès à ces commandes depuis leurs smartphones, nous devions les re-saisir manuellement dans notre système, ce qui implique du temps et un risque d'erreur certain. L'idée était donc de pouvoir connecter notre outil à ces plateformes afin de centraliser l'arrivée de toutes les commandes en un seul et même endroit. Nous nous sommes rapprochés d'Uber Eats et de Deliveroo, mais ni l'un ni l'autre n'ont accepté d'ouvrir leurs API et leurs outils d'interfaçage - une option qu'ils réservent aux grands comptes seulement. Nous avons donc dû chercher une solution alternative pour établir cette passerelle.
+Et si cette "dark kitchen de l'apéro" a rapidement conquis le cœur des fêtards annéciens, ce n'est pas seulement grâce à son concept novateur (rappelons qu'en 2011, Uber Eats et Deliveroo n'existaient pas encore); c'est aussi grâce à la qualité de son service de livraison, assuré par une flotte dédiée, ainsi qu'au background informatique des co-fondateurs, qui leur a permis de créer leurs propres outils : logiciel de caisse et site de commande en ligne.
+
+C'est grâce à ce même savoir-faire que Théo Vandemeulebroucke - seul membre du trio à avoir poursuivi l'aventure - a réussi son intégration récente avec HubRise, en quasi-totale-autonomie. Interview.
+
+## Auxquels de vos défis l'intégration est-elle apparue comme la solution idéale ?
+
+Il y a plusieurs années déjà, nous avons fait le choix de travailler avec Uber Eats et Deliveroo. Chacun nous fournit une tablette, sur laquelle nous recevons les commandes des utilisateurs.
+
+Or, ces dernières années, on a observé une forte croissance des ventes, ce qui a fini par poser une réelle problématique : pour que nos livreurs puissent avoir accès à ces commandes depuis leurs smartphones, nous devions les re-saisir manuellement dans notre système, ce qui implique du temps et un risque d'erreur certain. L'idée était donc de pouvoir connecter notre outil à ces plateformes afin de centraliser l'arrivée de toutes les commandes en un seul et même endroit.
+
+Nous nous sommes rapprochés d'Uber Eats et de Deliveroo, mais ni l'un ni l'autre n'ont accepté d'ouvrir leurs API et leurs outils d'interfaçage - une option qu'ils réservent aux grands comptes seulement. Nous avons donc dû chercher une solution alternative pour établir cette passerelle.
 
 ## Avez-vous comparé HubRise avec d'autres solutions et pourquoi avez-vous finalement opté pour HubRise ?
 
@@ -21,7 +31,9 @@ Au cours de mes recherches, j'ai identifié deux entreprises : Deliverect et Hub
 
 ## Comment s'est déroulé le processus d'intégration avec HubRise, que vous avez réalisé en quasi toute autonomie ?
 
-Très bien ! Leur documentation est très bien faite et j'ai eu assez peu besoin d'échanger avec l'équipe tout au long du processus. Je ne dis pas que c'était simple, parce qu'il faut tout de même transformer une commande d'un format particulier - format HubRise - vers un format SOS Soirée, lui aussi particulier, mais au final, c'était fluide et j'ai rencontré peu de blocages. HubRise a un processus bien étudié et bien cadré : on peut faire des tests avec leurs outils afin de pousser les commandes de test, et avant la mise en production, on passe par une phase d'audit, que j'ai réalisée avec un de leurs ingénieurs, une personne à l'écoute et extrêmement pointue.
+Très bien ! Leur documentation est très bien faite et j'ai eu assez peu besoin d'échanger avec l'équipe tout au long du processus. Je ne dis pas que c'était simple, parce qu'il faut tout de même transformer une commande d'un format particulier - format HubRise - vers un format SOS Soirée, lui aussi particulier, mais au final, c'était fluide et j'ai rencontré peu de blocages.
+
+HubRise a un processus bien étudié et bien cadré : on peut faire des tests avec leurs outils afin de pousser les commandes de test, et avant la mise en production, on passe par une phase d'audit, que j'ai réalisée avec un de leurs ingénieurs, une personne à l'écoute et extrêmement pointue.
 
 ## Combien de temps avez-vous consacré à cette intégration ?
 
@@ -41,7 +53,7 @@ En éliminant toutes ces tablettes qui sonnent à chaque fois qu'une nouvelle co
 
 Je suis également convaincu que sur le long terme, notre comptabilité sera facilitée. Comme la saisie manuelle génère forcément des erreurs, on observe parfois des écarts entre ce que l'on facture et ce que les plateformes nous payent à la fin de la semaine. En supprimant ces sources d'erreur, on va aussi supprimer ces écarts.
 
-Et puis, in fine, c'est l'utilisateur qui est gagnant. Tout ce temps gagné à ne plus saisir les commandes, c'est du temps de gagné sur la préparation et donc sur la livraison. Sans compter qu'en éliminant les risques d'erreur, les clients sont certains de recevoir une commande conforme à celle qu'ils ont passé, ce qui améliore le taux de satisfaction et donc de fidélisation sur le long terme.
+Et puis _in fine_, c'est l'utilisateur qui est gagnant. Tout ce temps gagné à ne plus saisir les commandes, c'est du temps de gagné sur la préparation et donc sur la livraison. Sans compter qu'en éliminant les risques d'erreur, les clients sont certains de recevoir une commande conforme à celle qu'ils ont passé, ce qui améliore le taux de satisfaction et donc de fidélisation sur le long terme.
 
 ## Quels conseils donneriez-vous à ceux qui pensent s'intégrer avec HubRise et qui comme vous, envisageraient de réaliser cette intégration eux-mêmes ?
 
