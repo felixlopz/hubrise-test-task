@@ -333,11 +333,6 @@ content:
           title: Loca'Touch
           description: Loca'Touch offers self ordering kiosks for leasing or sale. Customers can order and pay autonomously, and receive complementary products suggestions during purchase. Regular system software updates.
           additional_info:
-        - website: https://maakyo.com/en
-          documentation: /apps/maakyo
-          logo: maakyo.png
-          title: Maakyo
-          description: Maakyo is a table ordering solution. Customers flash the QR code placed on their table, access the menu on their smartphone, order and pay. No app installation required. Menu available in multiple languages.
         - website: https://www.mylemonade.fr
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
