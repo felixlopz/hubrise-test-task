@@ -13,7 +13,7 @@ The **Today's Orders** tab displays all orders with a delivery date equal to tod
 
 Orders are sorted by their expected delivery or collection time, with the earliest orders at the beginning of the list.
 
-Orders may be hidden depending on the **Hide Order Status** setting. These Orders can be seen from **Today's Orders** tab by selecting **View** on the hidden order card. For more information, see [Order Status](/apps/orderline/settings/#set-order-statuses).
+Orders may be hidden depending on the **Hide Order Status** setting. These Orders can be seen from **Today's Orders** tab by selecting **View** on the hidden order card. For more information, see [Order Status](/apps/orderline/settings/#order-status).
 
 ![OrderLine Today's Order Tab](../images/006-en-todays-orders.png)
 
