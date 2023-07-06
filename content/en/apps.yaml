@@ -173,8 +173,8 @@ content:
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png
-          title: Swoopos
-          description: Swoopos is a cost efficient, multifunctional and easy to use mobile Point of Sales system designed for the hospitality and retail sectors. It comes with payment, table booking, and QR code table ordering solutions.
+          title: SwooPOS
+          description: SwooPOS is a cost efficient, multifunctional and easy to use mobile Point of Sales system designed for the hospitality and retail sectors. It comes with payment, table booking, and QR code table ordering solutions.
           additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc
@@ -333,11 +333,6 @@ content:
           title: Loca'Touch
           description: Loca'Touch offers self ordering kiosks for leasing or sale. Customers can order and pay autonomously, and receive complementary products suggestions during purchase. Regular system software updates.
           additional_info:
-        - website: https://maakyo.com/en
-          documentation: /apps/maakyo
-          logo: maakyo.png
-          title: Maakyo
-          description: Maakyo is a table ordering solution. Customers flash the QR code placed on their table, access the menu on their smartphone, order and pay. No app installation required. Menu available in multiple languages.
         - website: https://www.mylemonade.fr
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
@@ -538,6 +533,11 @@ content:
           title: Koust
           description: Koust helps all types of restaurants to manage their inventory, analyse their sales and gross margin, optimise purchasing, and build their menu.
           additional_info:
+        - website: https://malba.io/
+          documentation: /apps/melba
+          logo: melba.png
+          title: Melba
+          description: Melba by Foodmeup is a comprehensive operations management tool for food industry professionals with inventory management, supplier orders, technical sheets, production, sales & quotes, supplier labels, oil and temperature reports, and hygiene tasks.
         - website: https://rapidbarapp.com/en
           documentation: /apps/rapidbar
           logo: rapidbar.png

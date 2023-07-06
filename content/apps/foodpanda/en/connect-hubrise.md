@@ -11,7 +11,7 @@ Connecting foodpanda to HubRise can be done with a few steps.
 
 ---
 
-**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute! 
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -28,12 +28,6 @@ We will then contact foodpanda on your behalf to enable the connection.
 The activation typically takes a few days.
 
 ## 2. Connect foodpanda Bridge
-
----
-
-**IMPORTANT NOTE:** foodpanda Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
 
 To connect foodpanda Bridge to HubRise, follow these steps.
 

@@ -169,8 +169,8 @@ content:
         - website: https://swoopos.com
           documentation: /apps/swoopos
           logo: swoopos.png
-          title: Swoopos
-          description: Swoopos est un logiciel de caisse mobile, multi-fonctions, facile à utiliser et économique conçue pour la restauration et le commerce de proximité. Elle inclut une solution de paiement, de réservation et de commande commande à table par QR code.
+          title: SwooPOS
+          description: SwooPOS est un logiciel de caisse mobile, multi-fonctions, facile à utiliser et économique conçue pour la restauration et le commerce de proximité. Elle inclut une solution de paiement, de réservation et de commande commande à table par QR code.
           additional_info:
         - website: http://www.talc.fr/
           documentation: /apps/talc
@@ -332,11 +332,6 @@ content:
           title: Loca'Touch
           description: Loca'Touch propose des bornes de commande en location ou en vente. Le client passe commande et paye en toute autonomie, et reçoit des propositions de produits complémentaires pendant le cycle d'achat. Mises à jour régulières du logiciel système.
           additional_info:
-        - website: https://maakyo.com
-          documentation: /apps/maakyo
-          logo: maakyo.png
-          title: Maakyo
-          description: Maakyo est une solution de commande à table. Le client scanne un QR code, accède au menu depuis son smartphone, commande et paye. Aucune app à installer. Menu disponible en plusieurs langues.
         - website: https://www.mylemonade.fr
           documentation: /apps/my-lemonade
           logo: my-lemonade.png
@@ -546,6 +541,11 @@ content:
           logo: koust.png
           title: Koust
           description: Koust permet à tout type de restaurant de gérer ses stocks, analyser ses ventes et sa marge brute, optimiser ses achats et construire son menu.
+        - website: https://malba.io/
+          documentation: /apps/melba
+          logo: melba.png
+          title: Melba
+          description: Melba par Foodmeup est un outil de gestion des opérations pour les métiers de bouche. Melba peut gérer stocks, commandes fournisseurs, fiches techniques, production, ventes & devis, étiquettes fournisseurs, DLC secondaires, étiquettes INCO, relevés des huiles et des températures et tâches d'hygiène.
         - website: https://rapidbarapp.com/fr
           documentation: /apps/rapidbar
           logo: rapidbar.png

@@ -64,9 +64,9 @@ From this page, you will be able to customise the behaviour of Uber Eats Bridge.
 
 ## Status
 
-The information available on the **Status** page is pulled from the Uber Eats API. It shows the configuration of the integration on Uber Eats' side. 
+The information available on the **Status** page is pulled from the Uber Eats API. It shows the configuration of the integration on Uber Eats' side.
 
-To view the current status, you need to refresh the page by clicking **Refresh**, in the top right corner. The **Last refresh** date will update when the information is retrieved. 
+To view the current status, you need to refresh the page by clicking **Refresh**, in the top right corner. The **Last refresh** date will update when the information is retrieved.
 
 The **Location** section identifies the Uber Eats store connected to the Uber Eats Bridge, with its URL link, postal address, contact email and the banner displayed on the Uber Eats website. It indicates whether the restaurant is open or closed at the time of the refresh.
 
@@ -82,7 +82,7 @@ From the actions page, you can perform the following actions:
 
 - **Push Catalog**: Push the catalog to Uber Eats. For more details, see [Push Catalog](/apps/uber-eats/push-catalog).
 - **Pull Catalog**: Pull the catalog from Uber Eats. For more details, see [Pull Catalog](/apps/uber-eats/pull-catalog).
-- **Push Inventory**: Sync the inventory from HubRise to Uber Eats.
+- **Push Inventory**: Push your HubRise inventory to Uber Eats.
 
 ## Language and Navigation
 

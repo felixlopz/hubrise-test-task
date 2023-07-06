@@ -6,6 +6,8 @@ meta:
   title: Présentation générale | Smood | HubRise
   description: Présentation générale de Smood, les raisons de connecter votre plateforme de livraison de repas à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Plateformes de livraison de repas
@@ -17,7 +19,7 @@ app_info:
 
 ---
 
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration sera bientôt disponible.
+**REMARQUE IMPORTANTE :** La documentation complète est disponible <Link to="/apps/smood" addLocalePrefix={false}>en anglais uniquement</Link>.
 
 ---
 
