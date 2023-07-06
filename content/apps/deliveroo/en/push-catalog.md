@@ -24,7 +24,7 @@ Alternatively, you can populate a HubRise catalog by pulling the menu from an ex
 
 ## Manual Catalog Push
 
-Once your catalog is populated on HubRise, and you have assigned product ref codes for each item, you can push it manually to your Deliveroo store by following these steps:
+Once your catalog is populated on HubRise, and you have assigned ref codes to all products and options, you can push it manually to your Deliveroo store by following these steps:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the HubRise account and location connected with your Deliveroo store.
@@ -107,9 +107,7 @@ The order in which categories and products appear on HubRise is maintained on De
 
 ### Products and Skus
 
-A product belongs to a category. A product has one or several skus. For more information, see our API reference [Products](/developers/api/catalog-management/#products)
-
-For every product with multiple skus, Deliveroo Bridge sends the following information to Deliveroo:
+Products have one or several skus. For every product with multiple skus, Deliveroo Bridge sends the following information to Deliveroo:
 
 - `ref`: The value `MULTISKU` is used for all products
 - `name`: The name of the product
