@@ -7,19 +7,18 @@ meta:
   description: Instructions on how to find your Deliveroo Restaurant ID to connect your restaurant and start receiving orders on HubRise.
 ---
 
-The Restaurant ID is the unique identifier for your Deliveroo store. It is also referred to as Branch ID, Admin ID, Tablet ID, or Location ID, depending on the context.
-This ID is in numeric characters only and includes 6 or sometimes 5 digits.
+The **Restaurant ID** is the unique identifier for your Deliveroo store. It is also referred to as **Branch ID**, **Admin ID**, **Tablet ID**, or **Location ID**, depending on the context. This ID consists solely of numeric characters and usually contains 6 digits, although sometimes it may have 5.
 
-To find your Deliveroo Restaurant ID, choose one of the following options.
+To find your Deliveroo Restaurant ID, choose one of the following methods.
 
-## Option 1 - From the Deliveroo Tablet
+## Option 1 - Via the Deliveroo Tablet
 
-To find your restaurant ID from your Deliveroo tablet:
+To find your restaurant ID using your Deliveroo tablet:
 
 1. Tap the navigation button on the top right of the page.
 1. Your ID is the number between brackets, next to the restaurant name.
 
-## Option 2 - From the Deliveroo Back Office
+## Option 2 - Via the Deliveroo Back Office
 
 To find your restaurant ID from your Deliveroo back office:
 
