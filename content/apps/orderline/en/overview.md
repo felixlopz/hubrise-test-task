@@ -17,9 +17,7 @@ app_info:
   contact: contact@hubrise.com
 ---
 
-[comment]: # "Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware"
-
-OrderLine, edited by HubRise, is used to manage and print orders that may originate from other systems connected to your HubRise account. It can be used free of charge on any device (computers, tablets, and smartphones).
+OrderLine, edited by HubRise, is used to manage and print orders that may originate from other systems connected to your HubRise account. It can be used free of charge on any device, including tablets and smartphones.
 
 Orders might be sourced from a variety of solutions such as:
 
