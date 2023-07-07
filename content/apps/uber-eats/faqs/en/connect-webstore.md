@@ -23,9 +23,9 @@ Yes, your delivery store and your branded webstore on Uber Eats share the same U
 
 For instructions on how to find your Uber Eats UUID, see [How Do I Find My Uber Eats UUID?](/apps/uber-eats/faqs/find-uber-eats-uuid/)
 
-**If I connect my webstore, will I receive orders only from the webstore?**
+**Can I receive orders only from the delivery store or the webstore?**
 
-No, as both stores use the same UUID, it's impossible to receive orders from only one. All orders, whether from your webstore or delivery store, will be received.
+No, as both stores use the same UUID, it's impossible to receive orders from only one. All orders, whether from your delivery store or webstore, will be received.
 
 **What limitations exist when I connect my Uber Eats webstore?**
 
