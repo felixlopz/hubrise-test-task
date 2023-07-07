@@ -32,10 +32,10 @@ Delivery Hero's activity is carbon-neutral in Europe and Latin America.
 
 ## Integration features
 
-By connecting Delivery Hero to HubRise, your delivery platform can:
+Connecting Delivery Hero Bridge allows HubRise to:
 
-- Push orders into HubRise, including order statuses.
-- Push the delivery details for orders delivered by your teams.
+- Pull orders from Delivery Hero, including order status.
+- Pull delivery information from Delivery Hero, for orders delivered by the restaurant.
 
 ![Diagram of the connection workflow between Delivery Hero, Delivery Hero Bridge, and HubRise](../images/000-en-2x-delivery-hero-connection-diagram.png)
 

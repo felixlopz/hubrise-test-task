@@ -45,7 +45,7 @@ Aquila CMS peut être connecté à HubRise depuis le back-office d'Aquila CMS.
 
 ## Pourquoi se connecter ?
 
-La connexion de votre site Aquila à HubRise procure un avantage omnicanal à votre activité commerciale. Les informations client peuvent être transférées vers des applications de marketing et de fidélisation, tandis que les commandes sont validées par la solution d'encaissement de votre choix.
+La connexion de votre site Aquila à HubRise procure un avantage omnicanal à votre activité commerciale. Les informations client peuvent être transférées vers des applications de marketing et de fidélisation, tandis que les commandes sont validées par la logiciel de caisse de votre choix.
 
 La connexion entre Aquila et HubRise permet de synchroniser les informations client entre les deux systèmes. Les informations sur les produits peuvent être extraites depuis HubRise et utilisées pour définir de nouveaux produits dans Aquila, ou pour mettre à jour le prix et la dénomination des produits existants. Les commandes passées dans Aquila sont transmises à HubRise. Pour plus d'informations, voir la [présentation générale de HubRise](/docs).
 

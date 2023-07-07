@@ -45,7 +45,7 @@ MynOber can be connected to HubRise from the MynOber back office.
 
 ## Why Connect?
 
-Connecting your MynOber solution to HubRise allows you to receive MynOber orders directly in your EPOS or Kitchen Display Screen also connected with HubRise. Additionally, when used as an EPOS, MynOber allows you to connect online ordering solutions and food platforms.
+Connecting your MynOber solution to HubRise allows you to receive MynOber orders directly in your EPOS or Kitchen Display Screen also connected with HubRise. Additionally, when used as an EPOS, MynOber allows you to connect online ordering solutions and food ordering platforms.
 
 You will be able to manage MynOber orders alongside other orders, using your own tools. MynOber orders will flow through your existing setup, as all other orders already do.
 

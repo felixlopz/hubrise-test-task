@@ -22,12 +22,12 @@ app_info:
 
 ## Description
 
-La Toque Magique est une solution de commande en ligne pour les restaurants. La Toque Magique fournit un site web e-commerce personnalisable, optimisé pour le SEO et pour le partage sur les réseaux sociaux. Les clients peuvent consulter le site en ligne, ou l'installer comme une application mobile.
+La Toque Magique est une solution de commande en ligne pour les restaurants. La Toque Magique fournit un site internet e-commerce personnalisable, optimisé pour le SEO et pour le partage sur les réseaux sociaux. Les clients peuvent consulter le site en ligne, ou l'installer comme une application mobile.
 
 La Toque Magique fournit aussi un système de gestion (back-office) permettant de :
 
 - Prendre des commandes par téléphone ou sur place.
-- Regrouper les commandes depuis tous les canaux (site web, plateforme de livraison, etc).
+- Regrouper les commandes depuis tous les canaux (site internet, plateforme de livraison, etc).
 - Gérer la carte.
 - Offrir aux livreurs une application mobile connectée contenant les informations de leur tournée.
 - Visualiser les statistiques de ventes.
@@ -46,9 +46,9 @@ La Toque Magique peut être connecté à HubRise depuis le back-office de La Toq
 
 ## Pourquoi se connecter ?
 
-En connectant La Toque Magique à HubRise, vous permettez à votre solution de commande en ligne de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre solution d'encaissement, une imprimante autonome, un écran cuisine ou votre système de gestion de stock. Importez le menu de votre solution d'encaissement dans La Toque Magique.
+En connectant La Toque Magique à HubRise, vous permettez à votre solution de commande en ligne de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre logiciel de caisse, une imprimante autonome, un écran cuisine ou votre système de gestion de stock. Importez le menu de votre logiciel de caisse dans La Toque Magique.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

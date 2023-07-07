@@ -29,13 +29,12 @@ In 2020, it reported having more than 1,000,000 websites operating in approximat
 
 ## Integration Features
 
-Connecting Shopify to HubRise allows Shopify to:
+Connecting Shopify Bridge allows HubRise to:
 
-- Push orders into HubRise.
-- Pull order status from HubRise into Shopify.
-- Push customer information into HubRise.
-- Pull a product catalog from HubRise.
-- Synchronise inventory with HubRise.
+- Pull orders from Shopify, including order status.
+- Pull customer information from Shopify.
+- Push a catalog into Shopify.
+- Push inventory into Shopify.
 
 ## Why Connect?
 

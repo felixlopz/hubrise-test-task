@@ -42,9 +42,9 @@ Connecter Delivery Hero à HubRise permet à votre plateforme de livraison de re
 
 ## Pourquoi se connecter ?
 
-En connectant Delivery Hero à HubRise, vous permettez à votre plateforme de livraison de repas de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre solution d'encaissement, une imprimante autonome, un écran cuisine, ou votre système de gestion de stock.
+En connectant Delivery Hero à HubRise, vous permettez à votre plateforme de livraison de repas de communiquer avec les autres applications que vous utilisez de manière quotidienne. Envoyez les commandes en ligne vers votre logiciel de caisse, une imprimante autonome, un écran cuisine, ou votre système de gestion de stock.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

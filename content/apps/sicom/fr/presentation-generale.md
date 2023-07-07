@@ -26,7 +26,7 @@ Le connecteur d'intégration de Sicom EPOS à HubRise est maintenu par MyTec. My
 
 ## Fonctionnalités de l'intégration
 
-Connecter Sicom à HubRise permet à votre solution d'encaissement de :
+Connecter Sicom à HubRise permet à votre logiciel de caisse de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
@@ -35,9 +35,9 @@ Sicom peut être connecté à HubRise via le support de MyTec.
 
 ## Pourquoi se connecter ?
 
-En connectant Sicom à HubRise, vous permettez à votre solution d'encaissement de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution d'encaissement.
+En connectant Sicom à HubRise, vous permettez à votre logiciel de caisse de communiquer avec d'autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre logiciel de caisse.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

@@ -22,7 +22,7 @@ Si la connexion n'est pas activée, suivez les étapes de la section [Connexion 
 
 Assurez-vous également que votre connexion Zelty est visible dans HubRise en procédant comme suit :
 
-1. Connectez-vous à votre compte HubRise.
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Accédez à l'option **CONNEXIONS**.
 1. Vérifiez que la connexion à Zelty a été activée pour votre point de vente.
 1. Ouvrez la liste déroulante **Actions** et sélectionnez **Afficher les logs** ou **Voir l'activité** afin de visualiser les transactions émises entre Zelty et HubRise. Pour une description détaillée sur la manière de lire et dépanner les requêtes JSON dans HubRise, voir [Compréhension des logs dans HubRise](/docs/hubrise-logs).
@@ -31,4 +31,4 @@ Assurez-vous également que votre connexion Zelty est visible dans HubRise en pr
 
 ## Assistance de Zelty
 
-Vous pouvez contacter l'équipe d'assistance de Zelty à l'adresse [support@zelty.fr ](mailto:support@zelty.fr) en cas de problème concernant la configuration de la solution d'encaissement.
+Vous pouvez contacter l'équipe d'assistance de Zelty à l'adresse [support@zelty.fr ](mailto:support@zelty.fr) en cas de problème concernant la configuration de la logiciel de caisse.

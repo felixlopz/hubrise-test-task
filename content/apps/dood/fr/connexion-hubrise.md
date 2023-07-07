@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | DOOD | HubRise
-  description: "Processus de connexion de votre restaurant DOOD à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes DOOD dans votre solution d'encaissement."
+  description: "Processus de connexion de votre restaurant DOOD à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes DOOD dans votre logiciel de caisse."
 ---
 
 ---
@@ -15,4 +15,4 @@ meta:
 
 Vous pourrez prochainement vous connecter et vous déconnecter d'HubRise de manière autonome depuis votre back office DOOD.
 
-En attendant, vous devez contacter le support de DOOD pour connecter HubRise.
+En attendant, vous devez contacter le support de DOOD sur [support@dood.com](mailto:support@dood.com) pour demander une connexion à HubRise, en mettant [support@hubrise.com](mailto:support@hubrise.com) en copie.

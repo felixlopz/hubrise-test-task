@@ -25,22 +25,18 @@ Deliveroo connects to your HubRise account through Deliveroo Bridge, an app deve
 
 ## Integration Features
 
-Connecting Deliveroo Bridge allows Deliveroo to:
+Connecting Deliveroo Bridge allows HubRise to:
 
-- Push orders to HubRise, including order status.
-- Push delivery information to HubRise, for orders delivered by your team.
+- Pull orders from Deliveroo, including order status.
+- Pull customer information from Deliveroo, for orders delivered by the restaurant.
+- Push a catalog into Deliveroo.
+- Synchronise inventory with HubRise.
 
 ![Diagram of the connection flow between Deliveroo, Deliveroo Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
 
 ---
 
-**IMPORTANT NOTE:** Pulling catalog and inventory from HubRise will soon be supported. Contact us for more information.
-
----
-
----
-
-**IMPORTANT NOTE:** OrderPad tablets are currently required to receive orders in HubRise. Deliveroo is planning to support tabletless integration by mid-2022.
+**IMPORTANT NOTE:** HubRise has partnered with Deliveroo to offer a new tabletless integration experience. This allows you to receive Deliveroo orders directly in HubRise without the need for a Deliveroo tablet. For more information, see [How Can I Abandon the Deliveroo Tablet?](/apps/deliveroo/faqs/abandon-deliveroo-tablet/)
 
 ---
 

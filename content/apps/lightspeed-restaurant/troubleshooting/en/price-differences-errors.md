@@ -13,11 +13,11 @@ This page describes possible scenarios when the total amount paid by the custome
 
 Lightspeed recalculates the amount due by summing the price of all items in the order. When the total payment amount in the order is greater than the amount due, Lightspeed rejects the order with an error message similar to the following:
 
-```
+```json
 {
   "status": "FAILURE",
   "reason": "the payment amount is greater than the amount due",
-  "thirdPartyReference": "zrk8p|wbv7z-0|2ve7gq"
+  "thirdPartyReference": "xxx|xxx-0|yyy"
 }
 ```
 
@@ -28,7 +28,7 @@ There are two possible causes for this error:
 
 ### Missing ref codes
 
-Items without a ref code are [ignored by Lightspeed Restaurant Bridge](/apps/lightspeed-restaurant/receiving-orders#items-and-options) and not sent to the EPOS, thus causing the error. To solve the issue, ensure that all items available in the online ordering or food delivery platform have a ref code.
+Items without a ref code are [ignored by Lightspeed Restaurant Bridge](/apps/lightspeed-restaurant/push-orders#items-and-options) and not sent to the EPOS, thus causing the error. To solve the issue, ensure that all items available in the online ordering or food delivery platform have a ref code.
 
 ### Price rounding errors
 

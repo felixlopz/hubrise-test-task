@@ -110,12 +110,12 @@ When the page loads, HubRise:
 If the user approves the request, HubRise calls the `redirect_uri` URL you specified, and includes the authorisation code in the `code` query parameter:
 
 ```http
-https://<<YOUR-DOMAIN-HERE>>/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6a32
+https://<<YOUR-DOMAIN-HERE>>/oauth_callback?code=ffae0047c4d6b9e02f95e76a3f6e906d
 ```
 
 ---
 
-**IMPORTANT NOTE**: authorisation codes are one-use throw-away codes that expire after 10 minutes. They are used to generate API tokens, which do not expire. The next section explains how to get an API token from an authorisation code.
+**IMPORTANT NOTE**: Authorisation codes are one-use throw-away codes that expire after 10 minutes. They are used to generate API tokens, which do not expire. The next section explains how to get an API token from an authorisation code.
 
 ---
 
@@ -129,22 +129,25 @@ https://<<YOUR-DOMAIN-HERE>>/oauth_callback?error=access_denied
 
 Once your application gets an authorisation code, it can establish a connection. This step is necessary to get an access token and start sending requests to the API.
 
-To get the access token, send the `POST` request below, and include the authorisation code, client id and client secret in the request body:
+To get the access token, send a `POST` request with your client id and secret passed in the HTTP Basic `Authorization` header, and include the authorisation code in the request body.
 
 ```http
 POST https://manager.hubrise.com/oauth2/v1/token HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
+Authorization: Basic Y2xpZW50X2lkOmNsaWVudF9zZWNyZXQ=
 ---
-code=ffae0047c4d6b9e02f95e76a3f&
-client_id=407408718192.clients.hubrise.com&
-client_secret=*********
+code=ffae0047c4d6b9e02f95e76a3f6e906d
 ```
 
-If the request succeeds, the response contains the access token. You must save this token, as you will need to include it in all further requests to the API.
+The `Authorization` header is the base64-encoded concatenation of the client id and secret, separated by a colon. If you cannot use HTTP Basic, you can pass `client_id` and `client_secret` in the request body instead, but this is not recommended and only supported for backwards compatibility.
+
+The request must be sent from a server, not a browser, to prevent a CORS error. This is because sending the request from a browser would expose your client secret to malicious users. For more information about our CORS policies, see [CORS](/developers/api/general-concepts#cors).
+
+If the request succeeds, the server returns a `200` response containing the access token. You must save this token, as you will need to include it in all further requests to the API.
 
 The response also contains the ids and names of the resources your application has access to. You should save these identifiers and make them easily accessible from your user interface. They are a convenient way for users to confirm that their connection is bound to the right resources.
 
-#### Example of response:
+##### Example of response:
 
 ```json
 {
@@ -160,7 +163,7 @@ The response also contains the ids and names of the resources your application h
 }
 ```
 
-Note that the request will fail if the authorisation code has expired, or has already been used.
+The request fails with a `400` status code if the authorisation code has expired or has already been used. It fails with a `401` status code if the client id or secret are incorrect.
 
 ### 3.3. Connect to the API
 
@@ -174,6 +177,22 @@ X-Access-Token: b9922a78d3ffab6b95e9d72e88
 ```
 
 Note that you don't need to specify a location's id, because your connection is bound to a single location.
+
+### 3.4 Revoke an access token
+
+When you no longer need an access token, you can revoke it. This is done by sending a `POST` request to the `/oauth2/v1/revoke` endpoint, passing the access token in the request body.
+
+```http
+POST https://manager.hubrise.com/oauth2/v1/revoke HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic Y2xpZW50X2lkOmNsaWVudF9zZWNyZXQ=
+---
+token=b9922a78d3ffab6b95e9d72e88
+```
+
+This request must be sent from a server, not a browser, to prevent a CORS error and protect your client secret. For more information about our CORS policies, see [CORS](/developers/api/general-concepts#cors).
+
+If the server returns a `200` response, the access token is revoked and can no longer be used.
 
 ## 4. Installed app workflow
 

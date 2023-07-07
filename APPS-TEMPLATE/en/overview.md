@@ -3,15 +3,18 @@ title: Overview
 position: 1
 layout: documentation
 meta:
-  title: Overview | [SOLUTION] | HubRise
-  description: [SOLUTION] overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
+  title: Overview | SOLUTION | HubRise
+  description: SOLUTION overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your [EPOS] and your other apps.
 gallery:
   - __gallery-001.png ?
   - __gallery-002.png ?
 path_override: /
 app_info:
-  category: Point of Sales - Food Ordering Platforms - Online Ordering - Delivery Management - Loyalty and Marketing - Operations and Inventory - Other Apps ?
-  availability: 
+  category:
+    [
+      Point of Sales - Food Ordering Platforms - Online Ordering - Delivery Management - Loyalty and Marketing - Operations and Inventory - Other Apps,
+    ]
+  availability: [United Kingdom, France, Worldwide]
   price_range:
   website:
   contact:
@@ -28,18 +31,20 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: This documentation is available <Link to="/fr/apps/[SOLUTION]" addLocalePrefix={false}>in French only</Link>.
-**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/[SOLUTION]" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**: This documentation is available <Link to="/fr/apps/SOLUTION" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/SOLUTION" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
 ## Description
 
-Solution is a Windows / iPad / tablette / etc. EPOS.
+SOLUTION is a Windows / iPad / tablette / etc. EPOS.
+
+SOLUTION complies with the 2018 French Anti-Fraud Act.
 
 ## Integration Features
 
-Connecting [SOLUTION] to HubRise allows your EPOS to:
+Connecting SOLUTION to HubRise allows your [EPOS] to:
 
 - Push orders into HubRise, including order status.
 - Pull orders from HubRise, including order status.
@@ -52,21 +57,21 @@ Connecting [SOLUTION] to HubRise allows your EPOS to:
 
 ---
 
-**IMPORTANT NOTE** : Pushing order and customer information into HubRise will be supported in the future. Contact [SOLUTION] for more information.
+**IMPORTANT NOTE** : Pushing order and customer information into HubRise will be supported in the future. Contact SOLUTION for more information.
 
 ---
 
-[SOLUTION] can be connected to HubRise via the [SOLUTION] support line.
-[SOLUTION] can be connected to HubRise from the [SOLUTION] back office.
-[SOLUTION] can be connected to HubRise from the HubRise back office.
-[SOLUTION] can be connected to HubRise from the HubRise or from the [SOLUTION] back office.
+SOLUTION can be connected to HubRise via the SOLUTION support line.
+SOLUTION can be connected to HubRise from the SOLUTION back office.
+SOLUTION can be connected to HubRise from the HubRise back office.
+SOLUTION can be connected to HubRise from the HubRise or from the SOLUTION back office.
 
 ## Why Connect?
 
-By connecting [SOLUTION] to HubRise, your [EPOS] can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Send online orders to your EPOS, to an autonomous printer, a Kitchen Display Screen, or to your inventory management solution. Export your menu into other apps.
+By connecting SOLUTION to HubRise, your [EPOS] can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your [EPOS]. Send online orders to your EPOS, to an autonomous printer, a Kitchen Display Screen, or to your inventory management solution. Push your [menu / product catalog] into other apps.
 
-Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing) solutions, business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing), business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
-To establish a connection between [SOLUTION] and HubRise, you must have an existing [SOLUTION] account.
+To establish a connection between SOLUTION and HubRise, you must have an existing SOLUTION account.

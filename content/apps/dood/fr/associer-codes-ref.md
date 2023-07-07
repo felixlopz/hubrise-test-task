@@ -4,7 +4,7 @@ position: 3
 layout: documentation
 meta:
   title: Associer les codes ref | DOOD | HubRise
-  description: Comment saisir les codes ref de votre solution d'encaissement dans votre menu DOOD, en utilisant le gestionnaire de menu de DOOD.
+  description: Comment saisir les codes ref de votre logiciel de caisse dans votre menu DOOD, en utilisant le gestionnaire de menu de DOOD.
 ---
 
 ## Produits

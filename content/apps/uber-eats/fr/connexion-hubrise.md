@@ -4,7 +4,7 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | Uber Eats | HubRise
-  description: "Connexion de votre restaurant Uber Eats à HubRise : liste des éléments à nous fournir et étapes à suivre pour recevoir vos commandes Uber Eats dans votre solution d'encaissement."
+  description: "Connexion de votre restaurant Uber Eats à HubRise : liste des éléments à nous fournir et étapes à suivre pour recevoir vos commandes Uber Eats dans votre logiciel de caisse."
 ---
 
 La connexion d'Uber Eats à HubRise s'effectue en quelques étapes simples.
@@ -21,7 +21,7 @@ Dans un premier temps, l'intégration de HubRise doit être activée sur votre c
 
 Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubrise.com) en précisant les informations suivantes :
 
-- L'adresse URL du magasin Uber Eats que vous souhaitez connecter. Exemple : [https://www.ubereats.com/dijon/food-delivery/911-pizza-%2526-burger-darcy/IeJDe6o4SASA6EMABBbPZw](https://www.ubereats.com/dijon/food-delivery/911-pizza-%2526-burger-darcy/IeJDe6o4SASA6EMABBbPZw).
+- L'adresse URL du magasin Uber Eats que vous souhaitez connecter. Exemple : [https://www.ubereats.com/fr/store/sushik-pizza/nzisHcL5S6C5ODzz0D3EnA](https://www.ubereats.com/fr/store/sushik-pizza/nzisHcL5S6C5ODzz0D3EnA).
 - Le nom et l'identifiant de votre point de vente HubRise. Exemple : `Fast Pizza Paris z6q31-0`.
 - Le mode d'acceptation des commandes que vous souhaitez utiliser : manual accept (acceptation manuelle) ou offered state (état proposé). Pour plus de détails, reportez-vous à notre [FAQ](/apps/uber-eats/faqs/recevoir-commandes-sans-tablette).
 - Si vous livrez les commandes par vos propres moyens, indiquez-le nous.
@@ -39,7 +39,7 @@ Avec ces informations, l'équipe d'intégration d'Uber Eats pourra activer la co
 
 Maintenant que vous disposez de votre UUID de magasin Uber Eats, vous pouvez connecter Uber Eats Bridge :
 
-1. Connectez-vous à votre compte HubRise.
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Sélectionnez le point de vente que vous souhaitez connecter dans le menu déroulant.
 1. Sélectionnez **CONNEXIONS**, puis **Voir les apps disponibles**.
 1. Dans la liste des apps, sélectionnez **Uber Eats**.
@@ -51,13 +51,13 @@ Maintenant que vous disposez de votre UUID de magasin Uber Eats, vous pouvez con
 
 ## 3. Configurez vos préférences
 
-Une fois la connexion effectuée, vous devez renseigner quelques paramètres sur la page Configuration afin que les commandes soient transmises correctement à votre solution d'encaissement.
+Une fois la connexion effectuée, vous devez renseigner quelques paramètres sur la page Configuration afin que les commandes soient transmises correctement à votre logiciel de caisse.
 
 Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Page de configuration](/apps/uber-eats/interface-utilisateur/#page-de-configuration). Pour plus de détails sur la configuration des paramètres d'Uber Eats Bridge, voir la rubrique [Configuration](/apps/uber-eats/configuration).
 
 ## 4. Renseigner les codes ref des produits
 
-Si vous utilisez Uber Eats avec une solution d'encaissement, vous devez renseigner les codes ref de tous les produits de votre menu Uber Eats. Vous permettrez ainsi à votre solution d'encaissement d'identifier correctement chaque article.
+Si vous utilisez Uber Eats avec une logiciel de caisse, vous devez renseigner les codes ref de tous les produits de votre menu Uber Eats. Vous permettrez ainsi à votre logiciel de caisse d'identifier correctement chaque article.
 
 Pour savoir associer les codes ref sur Uber Eats, voir la rubrique [Association des codes ref](/apps/uber-eats/associer-codes-ref).
 
@@ -65,8 +65,8 @@ Pour savoir associer les codes ref sur Uber Eats, voir la rubrique [Association 
 
 Nous vous recommandons de tester l'intégration avant de commencer à recevoir des commandes de clients réels.
 
-Passez quelques commandes de test pour vous assurer de leur bonne réception dans votre solution d'encaissement, puis annulez-les pour en obtenir le remboursement. Vous aurez ainsi l'assurance que votre intégration est bien configurée.
+Passez quelques commandes de test pour vous assurer de leur bonne réception dans votre logiciel de caisse, puis annulez-les pour en obtenir le remboursement. Vous aurez ainsi l'assurance que votre intégration est bien configurée.
 
-Si vous le souhaitez, vous pouvez également vous passer de votre tablette Uber Eats en passant à une intégration directe. Pour plus de détails, voir la rubrique [Les commandes peuvent-elles être envoyées directement sur ma solution d'encaissement sans passer par les tablettes Uber Eats ?](/apps/uber-eats/faqs/recevoir-commandes-sans-tablette).
+Si vous le souhaitez, vous pouvez également vous passer de votre tablette Uber Eats en passant à une intégration directe. Pour plus de détails, voir la rubrique [Les commandes peuvent-elles être envoyées directement sur ma logiciel de caisse sans passer par les tablettes Uber Eats ?](/apps/uber-eats/faqs/recevoir-commandes-sans-tablette).
 
 Si vous rencontrez des difficultés durant ces tests, contactez-nous à l'adresse : support@hubrise.com.

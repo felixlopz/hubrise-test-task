@@ -26,12 +26,12 @@ Just Eat Takeaway.com connects to your HubRise account through Just Eat Takeaway
 
 Just Eat Takeaway Bridge allows you to connect the following platforms to HubRise:
 
+- Just-Eat.ch
 - Just-Eat.fr
 - Takeaway.com (Belgium, Luxembourg, Portugual, Bulgaria, Romania)
 - Thuisbezorgd.nl
 - Lieferando (Germany, Austria)
 - Pyszne.pl
-- Eat.ch
 - Vietnammm.com
 
 ---
@@ -42,18 +42,12 @@ Just Eat Takeaway Bridge allows you to connect the following platforms to HubRis
 
 ## Integration Features
 
-Connecting Just Eat Takeaway Bridge allows you to:
+Connecting Just Eat Takeaway Bridge allows HubRise to:
 
-- Push orders to HubRise, including order status.
-- Push delivery information into HubRise, for orders delivered by your team.
+- Pull orders from Just Eat, including order status.
+- Pull delivery information from Just Eat, for orders delivered by the restaurant.
 
 ![Diagram of the connection flow between Just Eat Takeaway, Just Eat Takeaway Bridge, and HubRise](../images/000-en-2x-jet-connection-diagram.png)
-
----
-
-**IMPORTANT NOTE:** The Just Eat OrderPad will need to remain switched on to receive orders in HubRise.
-
----
 
 Just Eat Takeaway Bridge can be connected to HubRise from the HubRise back office.
 

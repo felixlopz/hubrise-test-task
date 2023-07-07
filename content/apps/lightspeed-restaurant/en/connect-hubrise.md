@@ -1,19 +1,19 @@
 ---
-title: Connection to HubRise
+title: Connect to HubRise
 position: 2
 layout: documentation
 meta:
-  title: Connection to HubRise | Lightspeed Restaurant | HubRise
+  title: Connect to HubRise | Lightspeed Restaurant | HubRise
   description: Instructions on connecting Lightspeed Restaurant with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
 ---
 
-**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
-## Enable the HubRise integration
+## Enable the HubRise Integration
 
 Before you connect to HubRise, contact Lightspeed support on [k-series.support@lightspeedhq.com](mailto:k-series.support@lightspeedhq.com) and ask them to enable the integration with HubRise. Data will not flow from HubRise to Lightspeed Restaurant until they activate the API.
 
@@ -35,7 +35,7 @@ Lightspeed Restaurant Bridge connects to a HubRise location. You must repeat the
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/troubleshooting-failed-orders/">Why Are Some Orders Not Received Correctly on Lightspeed Restaurant?</Link>
+**Related FAQ**: [Why Are Some Orders Not Received Correctly on Lightspeed Restaurant?](/docs/faqs/troubleshooting-failed-orders/)
 
 ---
 

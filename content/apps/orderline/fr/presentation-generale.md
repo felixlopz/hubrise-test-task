@@ -13,7 +13,7 @@ app_info:
   availability: Monde entier
   price_range: Inclus dans votre abonnement à HubRise
   website: https://www.hubrise.com/fr
-  contact: support@hubrise.com
+  contact: contact@hubrise.com
 ---
 
 [comment]: # "Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware"
@@ -27,7 +27,7 @@ OrderLine permet de recevoir et d'imprimer les commandes venant d'autres applica
 
 OrderLine est accessible sur ordinateur, tablette ou smartphone.
 
-OrderLine aide les commerçants, restaurants et franchisés à gérer leurs commandes lorsque leurs système d'encaissement n'est pas intégré avec HubRise. OrderLine prend en charge les commandes en livraison, sur place et en emporté. Il se connecte à des points de vente HubRise individuels.
+OrderLine aide les commerçants, restaurants et franchisés à gérer leurs commandes lorsque leur logiciel de caisse n'est pas intégré avec HubRise. OrderLine prend en charge les commandes en livraison, sur place et en emporté. Il se connecte à des points de vente HubRise individuels.
 
 OrderLine inclut les fonctionnalités suivantes :
 

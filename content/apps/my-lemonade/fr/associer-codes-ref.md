@@ -7,7 +7,7 @@ meta:
   description: Instructions pour associer les codes ref des produits My Lemonade avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
-Une fois My Lemonade connecté à HubRise, vous devez configurer My Lemonade afin que les différents éléments présents dans les commandes envoyées soient bien identifiés par vos autres applications connectées, telles que votre solution d'encaissement.
+Une fois My Lemonade connecté à HubRise, vous devez configurer My Lemonade afin que les différents éléments présents dans les commandes envoyées soient bien identifiés par vos autres applications connectées, telles que votre logiciel de caisse.
 
 ## Produits et SKUs
 

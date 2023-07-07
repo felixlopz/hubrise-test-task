@@ -27,7 +27,7 @@ app_info:
 
 ## Description
 
-Utilisé principalement au Royaume-Uni, en Australie et en Nouvelle-Zélande, Next Order propose une suite logicielle conçue pour la restauration assise, la restauration livrée et le service de restauration à table. Basé sur le cloud, facile à utiliser et à naviguer, Next Order peut être installé sur n'importe quel type d'appareil. Riche en fonctionnalités, la solution d'encaissement Next Order permet de rationaliser les opérations grâce aux fonctionnalités suivantes :
+Utilisé principalement au Royaume-Uni, en Australie et en Nouvelle-Zélande, Next Order propose une suite logicielle conçue pour la restauration assise, la restauration livrée et le service de restauration à table. Basé sur le cloud, facile à utiliser et à naviguer, Next Order peut être installé sur n'importe quel type d'appareil. Riche en fonctionnalités, la logiciel de caisse Next Order permet de rationaliser les opérations grâce aux fonctionnalités suivantes :
 
 - Une solution de commande en ligne en marque marque blanche.
 - Un programme de fidélité et des outils e-marketing intégrés.
@@ -39,7 +39,7 @@ Avec des bureaux à Melbourne, Manille et Bangalore, Next Order offre une assist
 
 ## Fonctionnalités de l'intégration
 
-Connecter Next Order à HubRise permet à votre Next Order d'encaissement de :
+Connecter Next Order à HubRise permet à votre logiciel de caisse de :
 
 - Recevoir les commandes de HubRise, dont les statuts de commande.
 - Recevoir les informations clients de HubRise.
@@ -49,9 +49,9 @@ Next Order peut être connecté à HubRise via le support de Next Order.
 
 ## Pourquoi se connecter ?
 
-En connectant Next Order à HubRise, vous permettez à votre solution d'encaissement de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre solution d'encaissement. Exportez votre menu vers d'autres applications.
+En connectant Next Order à HubRise, vous permettez à votre logiciel de caisse de communiquer avec les autres applications que vous utilisez de manière quotidienne. Recevez les commandes provenant de votre solution de commande en ligne, ou des plateformes de livraison de repas sur votre logiciel de caisse. Exportez votre menu vers d'autres applications.
 
-Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre solution d'encaissement, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 

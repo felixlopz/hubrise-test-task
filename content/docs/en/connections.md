@@ -11,7 +11,7 @@ You can connect new apps and see apps connected to your HubRise Account from the
 
 ## Available Apps
 
-HubRise is used to connect an ever growing ecosystem of solutions: EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), self ordering solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
+HubRise is used to connect an ever-growing ecosystem of solutions: EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), self ordering solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 
 You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact [contact@hubrise.com](mailto:contact@hubrise.com) to find out if an integration is planned.
 
@@ -34,7 +34,7 @@ Some apps must be connected at the **All locations** level, while others connect
 
 ---
 
-**IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
+**IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app/).
 
 ---
 
@@ -42,21 +42,17 @@ Some apps must be connected at the **All locations** level, while others connect
 
 Some apps can be accessed from HubRise. If so, you can open the app by clicking on **CONNECTIONS** and selecting **Open** for the specific app. The app will open in a new browser window.
 
-<video controls title="Connect an App">
-  <source src="../images/011-en-connections-open-app.webm" type="video/webm"/>
-</video>
+![HubRise Connection - Open an app](../images/011-en-2x-connections-open-app.png)
 
 ## View Connection Activity
 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
-<video controls title="Display activity for a connected app">
-  <source src="../images/012-en-connections-display-activity.webm" type="video/webm"/>
-</video>
+![HubRise Connection - Activity Displayed](../images/080-en-connection-activity.png)
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
 
 ---
 
@@ -64,7 +60,7 @@ To display a line chart with the number of transactions made in the last 30 days
 
 Logs are stored for each app that has been connected. You can use logs to understand the communications between systems and detect issues.
 
-To view logs for a connection, select **CONNECTIONS** > **Action** > **View logs** for the specific app.
+To view logs for a connection, select **CONNECTIONS** > **Actions** > **View logs** for the specific app.
 
 Logs record the requests from an app to HubRise. Each request is a transaction between an app and HubRise, such as an order, a new customer registration, or any other communication between an app and HubRise.
 
@@ -72,7 +68,7 @@ Logs record the requests from an app to HubRise. Each request is a transaction b
 
 ### General Information
 
-At the top, the log page displays general information about the connection:
+At the top, the **Connection logs** page displays general information about the connection:
 
 - **Access token**: The token used by the app to authenticate to HubRise.
 - **Scope**: The connection permissions, such as whether the connection can access the Account or a single Location, what read/write access it has on the data, etc.
@@ -95,11 +91,11 @@ The logs page displays a summary list of requests in reverse chronological order
 
 Each log record includes:
 
-- **Date**: The date and time of the request.
-- **Resource**: The target of the request.
-- **Method**: The HTTP method used in communicating the request.
-- **Path**: The URL path for the request.
-- **Response**: The HTTP response code.
+- **TIME (UTC)**: The date and time of the request.
+- **RESOURCE**: The target of the request.
+- **METHOD**: The HTTP method used in communicating the request.
+- **URL**: The URL path for the request.
+- **RESPONSE**: The HTTP response code.
 
 You can see additional details by clicking on a log, including the request and the corresponding response.
 To download either the request or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected request or response will be provided as a JSON file.
@@ -108,14 +104,28 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/check-connection-between-my-system-and-hubrise/">How Do I Check If the Connection Between My System and HubRise Is Working?</Link>
+**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
 
 ---
 
-## Disconnect App
+## Block or Disconnect App
 
-To disconnect a specific app from HubRise, follow these steps:
+HubRise allows you to block or disconnect apps:
+
+- **Blocking** an app temporarily prevents it from accessing HubRise API. At any time, you can unblock the app to restore access.
+
+- **Disconnecting** an app removes the connection between the app and HubRise. The app is notified of the disconnection, which may result in your account being reset or deleted on the app.
+
+---
+
+**IMPORTANT NOTE**: If you might use the app again, you should block it rather than disconnect it.
+
+---
+
+To block or disconnect an app from HubRise, follow these steps:
 
 1. Go to **CONNECTIONS**.
-2. Find the app you want to disconnect, then click **Actions** > **Disconnect** or **Block**.
+2. Find the app you want, then click **Actions** > **Block** or **Disconnect**.
 3. Click **Confirm**.
+
+![HubRise Connection - Remove an app](../images/014-en-2x-connections-disconnect-app.png)
