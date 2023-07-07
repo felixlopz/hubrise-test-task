@@ -10,7 +10,6 @@ export const StyledTitle = styled(Title)`
 `
 
 export const BannerImage = styled(GatsbyImage)`
-  max-width: 600px;
-  margin: 2rem auto;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 1rem auto;
 `
