@@ -21,27 +21,11 @@ app_info:
 
 ## Description
 
-LivePepper is an online ordering solution and a mobile ordering app for home delivery and takeaway restaurants. LivePepper also helps restaurants organise, manage and dispatch inbound orders.
+LivePepper is a comprehensive online and mobile ordering solution, catering to the needs of the most demanding home delivery and takeaway restaurants and chains.
 
-LivePepper clients are mainly located in France and the UK, but the system operates in multiple international markets in the Americas, mainland Europe, North Africa, Middle East and South Asia. LivePepper can easily be localised for the international market.
+While most of LivePepper's clients are based in France and the UK, the system functions across various international markets, including the Americas, mainland Europe, North Africa, Middle East, and South Asia.
 
-Designed for both independent restaurants and franchises, LivePepper comes with a rich palette of features and can answer the needs of the most demanding restaurants and international franchises. They offer marketing support too.
-
-LivePepper can create a full website including static marketing pages and online ordering. Restaurants can also incorporate LivePepper's online ordering module into an existing marketing website. LivePepper websites can be customised from a template, or designed from scratch and tailored to the restaurant's graphical charter and specifications.
-
-Restaurant managers have complete control over their LivePepper website.
-From the back office they can:
-
-- Make changes to the marketing website copy and assets.
-- Create and update the online menu, with product customisation and limit on toppings.
-- Set up promotions, loyalty and a referral program.
-- Change business hours and vacation periods.
-- Configure available delivery methods, times and areas as well as preparation time and charges.
-- See statistics on a dashboard or export data for external analysis.
-- Add new payment methods.
-- Change many other settings to best fit their needs.
-
-Finally, customers can contract LivePepper to manually populate their catalog's ref codes by contacting their LivePepper support representative.
+Equipped with an extensive range of features, LivePepper can either create a website including static marketing pages and online ordering, or integrate its online ordering module into an existing marketing website. These websites can be customised from a template or designed from scratch, according to the restaurant's graphical charter and specifications. Restaurant managers maintain full control over their LivePepper websites through the back office.
 
 ## Integration Features
 

@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-position: 5
+position: 6
 layout: documentation
 meta:
   title: Troubleshooting | LivePepper | HubRise
@@ -9,11 +9,9 @@ meta:
 
 ## Verify Product Mapping
 
-To verify that all LivePepper menu items have had an EPOS code assigned, select **Maintenance** > **Custom Actions** menu from the left navigation panel. One of the reports displayed is **Missing POS codes**. It shows all products, deals and related attributes that do not have EPOS ref codes assigned.
+To confirm that every LivePepper menu item has an associated EPOS code, navigate to **Maintenance** > **Custom Actions** from the left navigation panel. Among the various reports displayed, you'll find one labeled **Missing POS codes**. This report lists all products, deals, and their related attributes lacking assigned EPOS ref codes.
 
-[comment]: # "Might want to include screenshot of this page here"
-
-Missing EPOS ref codes for payment methods, service type and delivery charges will not be reported here as these depend on the EPOS you are connecting with.
+Please note that missing EPOS ref codes for payment methods, service types, and delivery charges will not be reported in this section. Not all EPOS systems require these codes, so their absence isn't necessarily indicative of an error.
 
 ## Verify the Connection to HubRise
 
