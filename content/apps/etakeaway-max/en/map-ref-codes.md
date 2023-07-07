@@ -11,7 +11,7 @@ eTakeaway Max expects all incoming orders to contain specific ref codes for each
 
 This page explains how to find the ref codes in the eTakeaway Max back office.
 
-Some connected apps offer the ability to import the catalog directly from HubRise, and therefore to autopopulate the ref codes. To learn how to export your eTakeaway Max catalog to HubRise, see [Pushing the Catalog](/apps/etakeaway-max/pushing-catalog).
+Some connected apps offer the ability to import the catalog directly from HubRise, and therefore to autopopulate the ref codes. To learn how to export your eTakeaway Max catalog to HubRise, see [Push the Catalog](/apps/etakeaway-max/push-catalog).
 
 ## Products
 
