@@ -35,4 +35,4 @@ To connect OrderLine to your HubRise account:
 
 You can disconnect OrderLine from HubRise on the HubRise back office.
 
-For more information on how to connect, block and disconnect an app on HubRise, refer to the HubRise Help page [Apps and Connections](https://www.hubrise.com/docs/connections).
+For more information on how to connect, block and disconnect an app on HubRise, refer to the HubRise Help page [Apps and Connections](/docs/connections).

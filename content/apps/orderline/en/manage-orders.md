@@ -7,11 +7,11 @@ meta:
   description: Instructions on how to view order details, to update the order status, and to print a receipt. Connect apps and synchronise your data.
 ---
 
-OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Order Status](/apps/orderline/settings/#order-status).
+OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Order Status](/apps/orderline/settings/#order-status).
 
 ## Receive Orders
 
-Upon order receipt, OrderLine displays it under the **Today's Orders** or **Future Orders** tab, based on the delivery date.
+Upon order receipt, OrderLine displays it under the **Today's Orders** or **Future Orders** tab, based on the delivery date.
 
 OrderLine can also emit a sound notification to inform you of new orders. To configure sound notifications, see [Notifications](/apps/orderline/settings#notifications) in the **Settings** section.
 
@@ -27,7 +27,7 @@ On first connection, OrderLine synchronises all orders from the past 30 days.
 
 ## View Order
 
-To view the order details, click on the order card. To close it, click the close icon <InlineImage width="10" height="10">![OrderLine Close icon](../images/032-close.png)</InlineImage> or anywhere outside the card.
+To view the order details, click on the order card. To close it, click the close icon <InlineImage width="23" height="23">![OrderLine Close icon](../images/032-close.png)</InlineImage> or anywhere outside the card.
 
 Order cards display all the details needed to process the order, including the following:
 
@@ -59,7 +59,7 @@ To modify the delivery time or add beside the status button. After making your a
 
 ---
 
-Certain status updates, like marking an order as **Completed**, can remove the order from the **Today's Orders** list based on your OrderLine configuration. To view it again, select the **Today's Orders** hidden card. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
+Certain status updates, like marking an order as **Completed**, can remove the order from the **Today's Orders** list based on your OrderLine configuration. To view it again, select the **Today's Orders** hidden card. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
 
 ## Print Order
 
@@ -73,7 +73,7 @@ To print an order receipt, follow these steps:
 
 ## Receipts
 
-Receipts are presented into sections for readability with a solid line starting and ending each section, mirroring the order card's information. For more information on order cards, see [View Order](#view-order).
+Receipts are presented into sections for readability with a solid line starting and ending each section, mirroring the order card's information. For more information on order cards, see [View Order](#view-order).
 
 Receipts include the following information:
 
