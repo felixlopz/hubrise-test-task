@@ -1,9 +1,9 @@
 ---
-title: Pushing the Catalog
+title: Push the Catalog
 position: 5
 layout: documentation
 meta:
-  title: Pushing the Catalog | eTakeaway Max | HubRise
+  title: Push the Catalog | eTakeaway Max | HubRise
   description: Find out how to push the catalog from your eTakeaway Max EPOS to HubRise, what information is sent to HubRise and what is not.
 ---
 
