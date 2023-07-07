@@ -7,6 +7,7 @@ meta:
   description: Présente l'utilisation et les fonctionnalités d'OrderLine permettant de gérer les boutiques physiques ou en ligne.
 gallery:
   - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Gestion des commandes

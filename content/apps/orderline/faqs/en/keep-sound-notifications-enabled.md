@@ -1,6 +1,6 @@
 ---
 title: How Do I Keep Sound Notifications Enabled?
-position: 4
+position: 1
 layout: documentation
 meta:
   title: Keep Sound Notifications Enabled | OrderLine | HubRise
