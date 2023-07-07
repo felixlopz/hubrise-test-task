@@ -7,9 +7,9 @@ meta:
   description: Comment 911 Pizza devient 911 Delicious Company et comment ce réseau de franchise réussit sa mutation numérique, informatique et technologique ?
 ---
 
-**Comment 911 Pizza est devenu 911 Delicious Company et comment le réseau de franchise a réussi sa mutation numérique, informatique et technologique grâce à Hubrise ?**
+**Comment 911 Pizza est devenu 911 Delicious Company, et comment le réseau de franchise a réussi sa mutation numérique, informatique et technologique grâce à Hubrise ?**
 
-Abderrahim Baka, responsable marketing et responsable technique & informatique au sein du réseau [911 Delicious Company](https://www.911dc.com/), a accepté de revenir avec nous sur les étapes et les challenges de leur transformation (il parle même de "révolution") et sur les bénéfices dont lui et ses équipes profitent aujourd'hui et qu'il pourra, demain, offrir à ses futurs franchisés.
+Abderrahim Baka, responsable marketing et responsable technique & informatique au sein du réseau [911 Delicious Company](https://www.911dc.com/), revient avec nous sur les étapes et les challenges de leur transformation (il parle même de "révolution") et sur les bénéfices dont lui et ses équipes profitent aujourd'hui et qu'il pourra, demain, offrir à ses futurs franchisés.
 
 ## Présentations
 
