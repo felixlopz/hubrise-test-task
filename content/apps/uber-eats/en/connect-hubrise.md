@@ -7,7 +7,10 @@ meta:
   description: Instructions on connecting Uber Eats with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-Connecting Uber Eats to HubRise can be done with a few steps.
+Connecting Uber Eats to HubRise can be done with a few steps. You can connect one or both types of Uber Eats storefronts, depending on your setup:
+
+- Your store hosted on the main Uber Eats platform, accessible at www.ubereats.com.
+- Your own branded webstore on Uber Eats, identified by URLs that begin with www.order.store.
 
 ---
 
@@ -16,6 +19,12 @@ Connecting Uber Eats to HubRise can be done with a few steps.
 ---
 
 ## 1. Enable HubRise on Uber Eats
+
+---
+
+**IMPORTANT NOTE:** If you have a branded webstore on Uber Eats (URLs that begin with www.order.store), make sure you have read our [FAQ](/apps/uber-eats/faqs/connect-webstore) before proceeding.
+
+---
 
 As a first step, the HubRise integration must be enabled on your Uber Eats store.
 
