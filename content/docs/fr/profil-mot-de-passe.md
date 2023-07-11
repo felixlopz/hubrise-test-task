@@ -24,7 +24,7 @@ Pour mettre à jour votre profil utilisateur, procédez comme suit :
 
 ---
 
-![Profil utilisateur de HubRise](../images/054-fr-2x-profile.png)
+![Profil utilisateur de HubRise](../images/054-fr-2x-profile-1.png)
 
 ## Mettre à jour le mot de passe
 
