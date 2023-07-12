@@ -1,28 +1,33 @@
 require 'fileutils'
 
-BASE_CONTENT_FOLDER = "#{File.dirname(__FILE__)}/../content/apps"
+# Launch this script from the root of the repository
+# /website > ruby scripts/one-off/20230711-reorg-content-images.rb
+
+BASE_CONTENT_GLOB = "content/apps/*"
 
 def image_match(md_line, app_dir, actual_dir)
-  if md_line =~ /!\[.*\]\((\.\.\/)+images\/(\d{3})-(en|fr)-(.*).png\)/
+  image_formats = ['png', 'jpg', 'jpeg', 'gif'].join('|')
+
+  if md_line =~ /!\[.*\]\((\.\.\/)+images\/(\d{3})-(en|fr)-(.+\.(#{image_formats}))\)/
     img_num = $2
     lang = $3
     img_rest = $4
 
-    img_name = "#{img_num}-#{lang}-#{img_rest}.png"
+    img_name = "#{img_num}-#{lang}-#{img_rest}"
     img_path = "#{app_dir}/images/#{img_name}"
-    new_img_name = "#{img_num}-#{img_rest}.png"
+    new_img_name = "#{img_num}-#{img_rest}"
     new_img_path = "#{actual_dir}/images/#{new_img_name}"
     [img_name, img_path, new_img_name, new_img_path]
 
-  elsif md_line =~ /!\[.*\]\((\.\.\/)+images\/(\d{3})-2x-(en|fr)-(.*).png\)/
+  elsif md_line =~ /!\[.*\]\((\.\.\/)+images\/(\d{3})-2x-(en|fr)-(.+\.(#{image_formats}))\)/
     # Some images have been incorrectly named like this in OrderLine.
     img_num = $2
     lang = $3
     img_rest = $4
 
-    img_name = "#{img_num}-2x-#{lang}-#{img_rest}.png"
+    img_name = "#{img_num}-2x-#{lang}-#{img_rest}"
     img_path = "#{app_dir}/images/#{img_name}"
-    new_img_name = "#{img_num}-2x-#{img_rest}.png"
+    new_img_name = "#{img_num}-2x-#{img_rest}"
     new_img_path = "#{actual_dir}/images/#{new_img_name}"
     [img_name, img_path, new_img_name, new_img_path]
 
@@ -30,7 +35,7 @@ def image_match(md_line, app_dir, actual_dir)
 end
 
 # Get the directories in the content directory
-Dir.glob("#{BASE_CONTENT_FOLDER}/*").select { |f| File.directory? f }.each do |app_dir|
+Dir.glob("#{BASE_CONTENT_GLOB}").select { |f| File.directory? f }.each do |app_dir|
 
   ['en', 'fr', 'faqs', 'troubleshooting'].each do |dir|
     # If it is 'faqs' or 'troubleshooting', then we need to consider 'en' and 'fr' subfolders
