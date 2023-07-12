@@ -24,7 +24,7 @@ Pour mettre à jour votre profil utilisateur, procédez comme suit :
 
 ---
 
-![Profil utilisateur de HubRise](../images/054-fr-2x-profile.png)
+![Profil utilisateur de HubRise](./images/054-2x-profile.png)
 
 ## Mettre à jour le mot de passe
 
@@ -35,7 +35,7 @@ Pour mettre à jour votre mot de passe, procédez comme suit :
 1. Saisissez votre nouveau mot de passe dans les champs **Nouveau mot de passe** et **Confirmer le nouveau mot de passe**. Les deux champs doivent correspondre.
 1. Cliquez sur **Mettre à jour**.
 
-![Modifier le mot de passe de HubRise](../images/055-fr-2x-change-password.png)
+![Modifier le mot de passe de HubRise](./images/055-2x-change-password.png)
 
 ## Permissions des utilisateurs
 
@@ -64,7 +64,7 @@ Pour créer un nouveau compte, procédez comme suit :
 1. Cliquez sur votre nom dans le coin supérieur droit du back-office de HubRise, puis cliquez sur **Profil**.
 1. Dans la section **Permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/comptes#cr-er-un-compte/).
 
-![Mes permissions dans HubRise](../images/056-fr-2x-my-permissions.png)
+![Mes permissions dans HubRise](./images/056-2x-my-permissions.png)
 
 ## Réinitialiser le mot de passe
 
@@ -76,4 +76,4 @@ Si vous êtes un utilisateur enregistré mais que vous avez perdu ou oublié vot
 
 ---
 
-![Écran de réinitialisation du mot de passe](../images/002-fr-reset-password.png)
+![Écran de réinitialisation du mot de passe](./images/002-reset-password.png)

@@ -49,7 +49,7 @@ To change the name of a customer list:
 1. Enter the new name of the customer list.
 1. Click **Update** to save the changes.
 
-![Edit or remove a customer list](../images/074-en-edit-remove-customer-list.png)
+![Edit or remove a customer list](./images/074-edit-remove-customer-list.png)
 
 ## Remove a Customer List
 

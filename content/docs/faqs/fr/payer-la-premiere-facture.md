@@ -40,7 +40,7 @@ Une fois votre mode de paiement configuré, la première demande de paiement dev
 
 1. Dans votre back-office HubRise, cliquez sur **CONFIGURATION**.
 2. Dans la section **Demandes de paiement**, examinez les détails du paiement en suspens. Vous pouvez voir la description du paiement, la date limite de paiement et le montant total dû. En fonction de votre configuration, les demandes de paiement peuvent être disponibles au niveau du compte ou du point de vente
-3. Cliquez sur l'icône de carte <InlineImage width="17" height="17">![icône de carte](../../images/068-cart-icon.png)</InlineImage> sous la section **PAYER**. ![Réglez votre première facture HubRise en instance de paiement](../../images/069-fr-outstanding-payment.png)
+3. Cliquez sur l'icône de carte <InlineImage width="17" height="17">![icône de carte](../../images/068-cart-icon.png)</InlineImage> sous la section **PAYER**. ![Réglez votre première facture HubRise en instance de paiement](./images/069-outstanding-payment.png)
 4. Suivez les instructions pour procéder au paiement.
 
 ---

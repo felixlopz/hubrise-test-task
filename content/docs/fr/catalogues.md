@@ -17,7 +17,7 @@ Les règles applicables aux catalogues sont les suivantes :
   - Vous pouvez créer un catalogue à des fins de test, dont l'utilisation n'aura aucune conséquence sur la production.
   - Vous pouvez créer des catalogues pour un point de vente particulier qui propose des produits différents de ceux d'autres points de vente.
 
-![Exemple de règles de catalogue](../images/047-fr-2x-catalog-rules.png)
+![Exemple de règles de catalogue](./images/047-2x-catalog-rules.png)
 
 Vous pouvez connecter des applications intégrées à un catalogue spécifique afin d'y transférer ou d'en extraire des données. Vous pouvez modifier et gérer les produits d'un catalogue HubRise uniquement à partir d'applications tierces, ou avec le **Catalog Manager** HubRise connecté à votre compte HubRise.
 
@@ -54,7 +54,7 @@ Pour modifier le nom d'un catalogue, procédez comme suit :
 3. Saisissez le nouveau nom du catalogue.
 4. Cliquez sur **Mettre à jour** pour enregistrer les nouvelles configurations.
 
-![Modifier un catalogue HubRise](../images/065-fr-2x-edit-remove-catalog.png)
+![Modifier un catalogue HubRise](./images/065-2x-edit-remove-catalog.png)
 
 Les modifications apportées au catalogue dans HubRise n'affectent pas la liste des produits dans les applications connectées. Les modifications apportées aux listes de produits, aux descriptions et aux prix sont toujours effectuées par l'application connectée.
 

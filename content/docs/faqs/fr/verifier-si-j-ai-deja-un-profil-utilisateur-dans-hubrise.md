@@ -11,4 +11,4 @@ Le moyen le plus simple de savoir si vous avez un profil utilisateur dans HubRis
 
 Si vous n'avez pas de profil utilisateur HubRise, un message indiquera que votre adresse e-mail n'est pas enregistrée. Pour créer un nouveau profil, utilisez la [page d'inscription à HubRise](https://manager.hubrise.com/signup?locale=fr-FR).
 
-![Écran d'utilisateur non vérifié](../../images/045-fr-2x-faq-verify-user-profile.png)
+![Écran d'utilisateur non vérifié](./images/045-2x-faq-verify-user-profile.png)

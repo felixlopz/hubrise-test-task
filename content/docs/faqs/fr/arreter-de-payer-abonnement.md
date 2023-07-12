@@ -31,7 +31,7 @@ Si vous ne souhaitez plus payer votre abonnement à HubRise, supprimez votre mod
 1. Pour vérifier l'utilisation des points de vente avec un paiement défini au niveau du compte, assurez-vous que l'option **Tous les points de vente** est sélectionnée. Pour vérifier l'utilisation des points de vente avec un paiement défini au niveau du **point de vente**, sélectionnez celui-ci dans la liste déroulante.
 1. Sous la section **Utilisation**, cliquez sur le point de vente pour lequel vous souhaitez passer au niveau inférieur.
 1. Sur la page **Point de vente**, dans la section **Utilisation**, cliquez sur **Changer de formule**.
-1. Sur la page **Changer de formule**, cliquez sur **Choisir** pour rétrograder. ![Rétrogradation de votre point de vente HubRise à une formule gratuite](../../images/070-fr-downgrade-plan.png)
+1. Sur la page **Changer de formule**, cliquez sur **Choisir** pour rétrograder. ![Rétrogradation de votre point de vente HubRise à une formule gratuite](./images/070-downgrade-plan.png)
 
 Le statut passe à **Formule demandée** et votre point de vente passera automatiquement à la formule gratuite à la fin du cycle de facturation en cours.
 

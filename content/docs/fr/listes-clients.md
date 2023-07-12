@@ -49,7 +49,7 @@ Pour modifier le nom d'une liste de clients, procédez comme suit :
 1. Saisissez le nouveau nom de la liste de clients.
 1. Cliquez sur **Mettre à jour** pour enregistrer la configuration.
 
-![Modifier ou supprimer une liste de clients](../images/074-fr-edit-remove-customer-list.png)
+![Modifier ou supprimer une liste de clients](./images/074-edit-remove-customer-list.png)
 
 ## Supprimer une liste de clients
 

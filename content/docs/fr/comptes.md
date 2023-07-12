@@ -36,7 +36,7 @@ Lors de la création d'un nouveau compte, le premier point de vente doit être d
 2. Dans la section **Permissions**, cliquez sur **Créer un compte**.
 3. Saisissez les informations requises, puis cliquez sur **Créer**.
 
-![Créer un compte sur HubRise](../images/064-fr-2x-create-account.png)
+![Créer un compte sur HubRise](./images/064-2x-create-account.png)
 
 Le **nom du compte** correspond à celui que vous attribuez à votre entreprise ou à votre marque. À titre d'exemple, si votre marque s'appelle Fast Pizza, le **nom du compte** sera `Fast Pizza`.
 

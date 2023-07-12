@@ -42,13 +42,13 @@ Some apps must be connected at the **All locations** level, while others connect
 
 Some apps can be accessed from HubRise. If so, you can open the app by clicking on **CONNECTIONS** and selecting **Open** for the specific app. The app will open in a new browser window.
 
-![HubRise Connection - Open an app](../images/011-en-2x-connections-open-app.png)
+![HubRise Connection - Open an app](./images/011-2x-connections-open-app.png)
 
 ## View Connection Activity
 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
-![HubRise Connection - Activity Displayed](../images/080-en-connection-activity.png)
+![HubRise Connection - Activity Displayed](./images/080-connection-activity.png)
 
 ---
 
@@ -64,7 +64,7 @@ To view logs for a connection, select **CONNECTIONS** > **Actions** > **View log
 
 Logs record the requests from an app to HubRise. Each request is a transaction between an app and HubRise, such as an order, a new customer registration, or any other communication between an app and HubRise.
 
-![HubRise Connection logs](../images/050-en-2x-connection-logs.png)
+![HubRise Connection logs](./images/050-2x-connection-logs.png)
 
 ### General Information
 
@@ -74,7 +74,7 @@ At the top, the **Connection logs** page displays general information about the 
 - **Scope**: The connection permissions, such as whether the connection can access the Account or a single Location, what read/write access it has on the data, etc.
 - **Customer list** and **Catalog**: Depending on the Scope, additional lines can display the ID for the resources that have been granted access to, such as the customer list and the catalog.
 
-![HubRise General Information logs](../images/051-en-2x-general-information-logs.png)
+![HubRise General Information logs](./images/051-2x-general-information-logs.png)
 
 ### Filter
 
@@ -83,7 +83,7 @@ Logs can be filtered by resource and method through the following process:
 1. Select **Edit**.
 1. Select the resources and methods that you want to display. To view all log records, uncheck all resources and methods, or click **Reset**.
 
-![HubRise Connection filter](../images/052-en-2x-filter-logs.png)
+![HubRise Connection filter](./images/052-2x-filter-logs.png)
 
 ### Logs
 
@@ -128,4 +128,4 @@ To block or disconnect an app from HubRise, follow these steps:
 2. Find the app you want, then click **Actions** > **Block** or **Disconnect**.
 3. Click **Confirm**.
 
-![HubRise Connection - Remove an app](../images/014-en-2x-connections-disconnect-app.png)
+![HubRise Connection - Remove an app](./images/014-2x-connections-disconnect-app.png)

@@ -18,7 +18,7 @@ Pour connecter une deuxième fois la même application, procédez comme suit :
 1. Sélectionnez **Voir les apps disponibles**.
 1. Sélectionnez la même application que celle que vous avez installée précédemment, puis cliquez sur **Connecter**.
 1. Sur la page d'autorisation, sélectionnez le point de vente HubRise correct dans le menu déroulant.
-1. Cliquez sur l'adresse URL dans la barre de navigation et incluez l'instruction `device_id=NomDeLaMarque&` après la portion initiale de l'URL : `https://manager.hubrise.com/oauth2/v1/authorize?`, et avant `account_id=`. Le paramètre « NomDeLaMarque » dans l'instruction `device_id=NomDeLaMarque&` doit être remplacé par le nom de la marque. Pour plus d'informations, voir la rubrique [Règles de nommage](#r-gles-de-nommage). ![Page d'autorisation avec adresse URL comprenant la chaîne `device_id=2&`.](../../images/066-fr-autorisation-page-device-id.png)
+1. Cliquez sur l'adresse URL dans la barre de navigation et incluez l'instruction `device_id=NomDeLaMarque&` après la portion initiale de l'URL : `https://manager.hubrise.com/oauth2/v1/authorize?`, et avant `account_id=`. Le paramètre « NomDeLaMarque » dans l'instruction `device_id=NomDeLaMarque&` doit être remplacé par le nom de la marque. Pour plus d'informations, voir la rubrique [Règles de nommage](#r-gles-de-nommage). ![Page d'autorisation avec adresse URL comprenant la chaîne `device_id=2&`.](./images/066-autorisation-page-device-id.png)
 1. Puis, appuyez sur la touche Retour de votre clavier.
 1. Cliquez sur **Autoriser** pour connecter l'application.
 1. Suivez les instructions à l'écran pour configurer la nouvelle instance de l'application. Pour plus de détails, cliquez sur le lien **Afficher la documentation** de l'application correspondante sur la [page des applications HubRise](/apps/).
@@ -33,7 +33,7 @@ Si votre application n'est pas présente sur la page des applications HubRise ma
 
 Une fois connectée, la nouvelle l'application apparaît sur la page **CONNEXIONS**. Les différentes connexions de la même application se distinguent selon la valeur de l'identifiant de l'application que vous avez choisi au moment de la configuration.
 
-![Les multiples connexions d'une même application peuvent être distinguées selon la valeur de l'identifiant de l'application.](../../images/067-fr-multiple-apps-device-id.png)
+![Les multiples connexions d'une même application peuvent être distinguées selon la valeur de l'identifiant de l'application.](./images/067-multiple-apps-device-id.png)
 
 ## Règles de nommage
 

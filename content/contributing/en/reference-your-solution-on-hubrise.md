@@ -49,7 +49,7 @@ The illustration below shows why screenshots must have the same width-height rat
 
 The Partners page does not exist yet, but will be added soon. Here is a preview of how a partner will be presented on this page.
 
-![Partner description example](../images/008-en-partenaire-exemple-description.png)
+![Partner description example](./images/008-partner-description-example.png)
 
 In order to feature on our partners page, you must provide the following elements:
 

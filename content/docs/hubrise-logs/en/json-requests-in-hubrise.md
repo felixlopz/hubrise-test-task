@@ -23,7 +23,7 @@ The typical case is the creation of an order in an app connected with HubRise. W
 
 Finally, a request can automatically trigger other requests to different apps. For example, an order creation request can trigger a request to a loyalty solution to obtain information about the customer. These automatic requests are callbacks, and each of them has a request and a response. Callbacks are always sent by HubRise to a third-party application.
 
-![Components of API Requests in HubRise](../images/004-en-components-api-request.png)
+![Components of API Requests in HubRise](./images/004-components-api-request.png)
 
 ## Logs and Requests in HubRise
 
@@ -39,10 +39,6 @@ For each request, the following information is displayed.
 - **CODE**: The response code.
 
 Each row can be further expanded to reveal detailed information about the request, the response, and possible callbacks associated with it.
-
-<video controls title="Example of Request and Callback in HubRise">
-  <source src="../images/006-request-callback-example.webm" type="video/webm" />
-</video>
 
 ## A Typical HubRise Request
 
@@ -94,7 +90,7 @@ The headers are the metadata that accompany each request. The most important pie
 
 It appears in each request under the **X-Access-Token** key, and is partially hidden for security reasons.
 
-![Authentication Token in HubRise Request](../images/005-en-access-token-arrow.png)
+![Authentication Token in HubRise Request](./images/005-access-token-arrow.png)
 
 ### Body
 

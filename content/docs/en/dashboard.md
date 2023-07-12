@@ -13,7 +13,7 @@ You can display information for the Account by selecting **All locations**, or n
 
 Click the **SALES**, **ORDERS**, or **NEW CUSTOMERS** tabs to display the related content.
 
-![HubRise dashboard](../images/078-en-hubrise-dashboard.png)
+![HubRise dashboard](./images/078-hubrise-dashboard.png)
 
 For more detailed analysis of your data, connect a more specialised solution integrated with HubRise or integrate your own proprietary solution.
 Technical partners offering detailed reporting are available in the HubRise website Apps page, under the [Operations and Inventory](/apps/operations-and-inventory#nav) section.

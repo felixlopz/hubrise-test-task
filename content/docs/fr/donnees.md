@@ -72,7 +72,7 @@ Les catalogues sont présentés dans trois onglets :
 - **PROMOTIONS** : offres spéciales disponibles dans le catalogue. Une promotion permet de bénéficier d'une remise tarifaire sur des combinaisons de produits achetés ensemble. La promotion **Un article acheté, un gratuit**, par exemple, est une offre spéciale qui s'applique à deux produits. Elle prévoit une réduction de prix égale au prix du produit le moins cher.
 - **REMISES** : rabais disponibles dans le catalogue. Les codes de remise s'appliquent non pas à des produits spécifiques, mais à l'ensemble de la commande. Le code **LIVRAISONOFFERTE**, par exemple, peut supprimer les frais de livraison pour l'ensemble de la commande, tandis que le code **CESTVENDREDI** peut offrir une remise de 10 % sur l'ensemble de la commande le vendredi.
 
-![Onglets du catalogue HubRise](../images/053-fr-2x-catalog-tabs.png)
+![Onglets du catalogue HubRise](./images/053-2x-catalog-tabs.png)
 
 Pour les SKUs, les attributs suivants s'affichent :
 

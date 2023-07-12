@@ -45,7 +45,7 @@ Des notifications peuvent être affichées dans le back-office de HubRise pour t
 
 Si une notification de paiement apparaît, cliquez sur le lien correspondant et suivez les instructions afin de résoudre le problème. Pour plus d'informations concernant les formules disponibles, voir la rubrique [Formule d'utilisation](#formule-d-utilisation).
 
-![Payer un abonnement](../images/022-fr-2x-pay-subscription.png)
+![Payer un abonnement](./images/022-2x-pay-subscription.png)
 
 ---
 
