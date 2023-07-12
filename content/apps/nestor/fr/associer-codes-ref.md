@@ -34,7 +34,7 @@ Tous les articles créés dans Nestor ne sont pas systématiquement exportés ve
 1. Naviguez vers l'onglet **Déclinaison**.
 1. Cochez l'option **Publier sur internet**.
 1. Validez la modification.
-   ![Codes ref - Publier sur internet](./images/011-nestor-publier-sur-internet.png)
+   ![Codes ref - Publier sur internet](./images/011-nestor-publish-on-internet.png)
 
 ## SKUs
 
@@ -46,7 +46,7 @@ Pour retrouver le code ref d'un SKU, deux cas peuvent se présenter selon que l'
 
 1. Dans la barre de menu de Nestor, sélectionnez **Gestion** > **Articles** > **Fiche articles**.
 1. Sélectionnez l'article désiré. Dans l'onglet **Article**, le code ref de la SKU s'affiche dans le champ **Code**.
-   ![Codes ref - Articles sans déclinaison](./images/006-nestor-code-article.png)
+   ![Codes ref - Articles sans déclinaison](./images/006-nestor-article-code.png)
 
 ### Articles avec déclinaisons
 
@@ -56,7 +56,7 @@ Pour retrouver le code ref d'un SKU, deux cas peuvent se présenter selon que l'
 1. Sélectionnez la déclinaison désirée. Dans l'onglet **Déclinaison**, le code ref s'affiche dans le champ **Code**.
 1. Notez le code présent dans le champ **Code**.
 1. Le code ref de la SKU est égal au code de l'article, suivi du caractère `|`, suivi du code de la déclinaison. Par exemple : un article _Pizza_ dont le code est `PIZ`, ayant une déclinaison _Grande_ dont le code est `GRA`, résulte en un code ref `PIZ|GRA`.
-   ![Codes ref - Articles avec déclinaisons](./images/007-nestor-code-declinaison.png)
+   ![Codes ref - Articles avec déclinaisons](./images/007-nestor-variant-code.png)
 
 ## Options
 
@@ -66,7 +66,7 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 
 1. Dans la barre de menu de Nestor, sélectionnez **Gestion** > **Ingrédients** > **Fiche ingrédients**.
 1. Sélectionnez l'option désirée. Dans l'onglet **Ingrédient**, le code ref s'affiche dans le champ **Code**.
-   ![Codes ref - Options](./images/008-nestor-code-ingredient.png)
+   ![Codes ref - Options](./images/008-nestor-ingredient-code.png)
 
 ## Remises
 
@@ -76,12 +76,12 @@ Pour retrouver le code ref d'une remise, suivez les étapes suivantes :
 
 1. Dans la barre de menu de Nestor, sélectionnez **Gestion** > **Offres promotionnelles**.
 1. Sélectionnez la remise désirée. Dans l'onglet **Générale**, le code ref s'affiche dans le champ **Code**.
-   ![Codes ref - Remises](./images/009-nestor-code-offre-promotionnelle.png)
+   ![Codes ref - Remises](./images/009-nestor-offer-code.png)
 
 ## Promotions
 
 Les promotions dans HubRise correspondent aux menus dans Nestor. Pour retrouver le code ref d'un menu, suivez les mêmes étapes que pour un [article sans déclinaison](/apps/nestor/associer-codes-ref#articles-sans-d-clinaison). Dans Nestor, un menu est considéré comme un article dont l'option **Est un menu**, dans l'onglet **Déclinaison**, est cochée.
-![Codes ref - Promotions](./images/010-nestor-est-un-menu.png)
+![Codes ref - Promotions](./images/010-nestor-is-a-menu.png)
 
 ## Méthodes de paiement
 

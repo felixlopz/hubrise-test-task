@@ -42,7 +42,7 @@ PixelPoint Bridge établit une connexion unidirectionnelle entre HubRise et la l
 
 PixelPoint Bridge ne permet par conséquent pas de transférer le menu entre la logiciel de caisse et HubRise. L'insertion doit être effectuée manuellement dans un deuxième temps vers le système de commande en ligne. Pour plus d'informations, voir la rubrique [Associer les codes ref](/apps/pixelpoint-bridge/map-ref-codes) (en anglais uniquement). En outre, la solution ne permet pas de transférer les commandes passées sur la logiciel de caisse vers HubRise.
 
-![Schéma de connexion](./images/001-2x-diagramme-connexion.png)
+![Schéma de connexion](./images/001-2x-connection-diagram.png)
 
 PixelPoint Bridge peut être connecté à HubRise depuis le back-office de HubRise.
 

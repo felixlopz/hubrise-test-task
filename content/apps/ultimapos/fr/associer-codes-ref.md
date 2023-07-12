@@ -24,10 +24,10 @@ Pour retrouver le code ref d'un produit, suivez ces étapes :
 
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Articles**.
 2. Dans la section **Paramètres Articles**, cliquez sur **Articles**.
-   ![Connexion à HubRise - Accueil UltimaPOS](./images/001-ultimapos-accueil.png)
+   ![Connexion à HubRise - Accueil UltimaPOS](./images/001-ultimapos-home.png)
 
 3. Le code ref du produit est indiqué en haut à droite, dans le champ **ID**.
-   ![Associer les codes ref - Articles](./images/005-ultimapos-articles-article.png)
+   ![Associer les codes ref - Articles](./images/005-ultimapos-item.png)
 
 ## SKUs
 
@@ -57,7 +57,7 @@ Pour retrouver le code ref d'une formule dans UltimaPOS, suivez ces étapes :
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Articles**.
 2. Dans la section **Paramètres Articles**, cliquez sur **Formules**.
 3. Le code ref de la formule est indiqué en haut à droite, dans le champ **ID**.
-   ![Associer les codes ref - Formules](./images/008-ultimapos-formules.png)
+   ![Associer les codes ref - Formules](./images/008-ultimapos-deals.png)
 
 ## Remises
 
@@ -70,7 +70,7 @@ Pour retrouver le code ref d'une remise dans UltimaPOS, suivez ces étapes :
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Programmation**, puis **Financier**.
 2. Dans la section **Paramètres Financiers**, cliquez sur **Remises**.
 3. Le code ref de la remise est indiqué en haut à droite, dans le champ **ID**.
-   ![Associer les codes ref - Remises](./images/007-ultimapos-remise.png)
+   ![Associer les codes ref - Remises](./images/007-ultimapos-discount.png)
 
 ## Méthodes de paiement
 

@@ -12,10 +12,10 @@ Lorsque Nestor est connecté à HubRise, les commandes envoyées à HubRise arri
 ## Recevoir des commandes
 
 Nestor vérifie l'arrivée de nouvelles commandes toutes les 20 secondes grâce à l'utilitaire WebNES. Une alerte visuelle et sonore signale l'arrivée d'une nouvelle commande.
-![Commandes - Alerte commande web](./images/012-nestor-alerte-commande.png)
+![Commandes - Alerte commande web](./images/012-nestor-order-alert.png)
 
 Pour voir la liste des commandes en attente, cliquez sur l'alerte. Pour voir le détail de la commande et la valider, cliquez sur la ligne correspondante.
-![Commandes - Commandes web](./images/013-nestor-commandes-web.png)
+![Commandes - Commandes web](./images/013-nestor-web-orders.png)
 
 ### Commande avec des articles inconnus
 
@@ -23,10 +23,10 @@ Lorsqu'une commande contient des articles dont le code ref n'est pas reconnu, ce
 
 1. Sélectionnez votre commande pour en voir le détail. Certaines lignes intituées **Article inconnu** sont présentes.
 1. Sélectionnez la dernière ligne vide. Votre menu apparaît.
-   ![Commandes - Article inconnu](./images/014-nestor-commande-article-inconnu.png)
+   ![Commandes - Article inconnu](./images/014-nestor-order-unknown-item.png)
 1. Sélectionnez et ajoutez l'article correspondant en vous aidant de la description de la ligne **Article inconnu**.
 1. Supprimez la ligne **Article inconnu** désormais remplacée.
-   ![Commandes - Commande sans article inconnu](./images/015-nestor-commande-validable.png)
+   ![Commandes - Commande sans article inconnu](./images/015-nestor-order-valid.png)
 1. Répétez ces étapes pour chaque ligne **Article inconnu**.
 1. Validez la commande.
 
@@ -37,7 +37,7 @@ Pour éviter que ce problème se reproduise, assurez-vous que les codes ref de v
 Lorsqu'une commande contient des articles dont le prix ne correspond pas à celui de Nestor, une remise en pourcentage est appliquée automatiquement.
 
 Par exemple, si une _Margarita Grande_ est à 11.00 € dans la commande, mais que son prix est 12.00 € dans le catalogue Nestor, un champ _Remise_ égal à 91,67% sera indiqué dans le détail de la commande.
-![Commandes - Article avec remise](./images/018-nestor-remise.png)
+![Commandes - Article avec remise](./images/018-nestor-discount.png)
 
 ### Enregistrement d'un client
 
@@ -47,7 +47,7 @@ Si le client qui a passé la commande n'est pas connu de Nestor, une étape d'as
 - Le rattacher à un client connu de Nestor. Dans ce cas, les informations du client seront écrasées par celles provenant d'HubRise.
 
 Lors de cette étape, les même choix sont proposés pour l'adresse.
-![Commandes - Associer client et adresse](./images/016-nestor-associer-client-adresse.png)
+![Commandes - Associer client et adresse](./images/016-nestor-link-customer-address.png)
 
 ### Statut de la commande
 
@@ -79,4 +79,4 @@ Cette fonctionnalité est en cours de développement et sera disponible prochain
 Nestor permet de configurer les temps de préparation en livraison (*L), sur place (*P) et à emporter (\*E). La valeur par défaut est de 30 minutes pour ces trois paramètres. Seul le temps de préparation en livraison est remonté vers HubRise.
 
 Pour modifier les temps de préparation, sélectionnez le bouton avec un icône en forme d'horloge en bas à gauche de Nestor.
-![Commandes - Configurer temps de préparation](./images/017-nestor-configurer-temps.png)
+![Commandes - Configurer temps de préparation](./images/017-nestor-time-configuration.png)

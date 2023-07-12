@@ -36,4 +36,4 @@ Pour consulter l'historique de vos courses, dans votre espace CoursiCab, cliquez
 Lorsqu'une livraison est en cours, le statut de la course passe successivement en **Transit** puis en **Livrée**.
 
 Pour voir le détail de la course, cliquez sur le bouton dans la colonne **ACTION**. Une nouvelle page indique les adresses de retrait et de livraison, les informations du chauffeur, le prix de la course et l'historique des changements de statuts.
-![Interface utilisateur - Détail de la course](./images/007-coursicab-detail-course.png)
+![Interface utilisateur - Détail de la course](./images/007-coursicab-detail-ride.png)

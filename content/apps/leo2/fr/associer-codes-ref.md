@@ -26,7 +26,7 @@ Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivant
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Paramètres et Réglages**.
 1. Cliquez sur **HubRise**.
-   ![Associer les codes ref - Paramètres HubRise](./images/017-leo2-parametres-hubrise.png)
+   ![Associer les codes ref - Paramètres HubRise](./images/017-leo2-hubrise-settings.png)
 1. Cliquez sur **Envoi catalogue**.
 1. Cliquez sur **Oui**.
 
@@ -40,9 +40,9 @@ Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Produits**.
 1. Cliquez sur **Rechercher** ou appuyez sur la touche **F1**.
-   ![Associer les codes ref - Recherche d'un produit](./images/005-leo2-recherche-produit.png)
+   ![Associer les codes ref - Recherche d'un produit](./images/005-leo2-search-product.png)
 1. Sélectionnez dans la liste le produit désiré. Le code ref s'affiche en haut à droite de la fenêtre **FICHE PRODUIT**, dans le champ **Clé unique**.
-   ![Associer les codes ref - Détails d'un produit](./images/006-leo2-details-produit.png)
+   ![Associer les codes ref - Détails d'un produit](./images/006-leo2-product-details.png)
 
 ## SKUs
 
@@ -64,7 +64,7 @@ Pour retrouver le code ref d'une option, suivez les étapes suivantes :
 1. Cliquez sur **Produits**.
 1. Cliquez sur **Messages Cuisine**.
 1. Dans la table **Commentaires associés**, cliquez sur le commentaire auquel appartient le message cuisine désiré. Le code ref s'affiche dans la colonne **ID**.
-   ![Associer les codes ref - Messages cuisine](./images/014-leo2-messages-cuisine.png)
+   ![Associer les codes ref - Messages cuisine](./images/014-leo2-kitchen-messages.png)
 
 Les messages simples sont créés avec le bouton **Insère Ligne**. Leur code ref est au format **TEXT_xx_yy**.
 
@@ -82,10 +82,10 @@ Les promotions dans HubRise correspondent aux menus dans LEO2. Les lignes de pro
 
 1. Ouvrez le produit correspondant au menu, en suivant les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#produits).
 1. Le code ref du menu s'affiche en haut à droite de la fenêtre **FICHE PRODUIT**, dans le champ **Clé unique**.
-   ![Associer les codes ref - Détails d'un menu](./images/015-leo2-details-menu.png)
+   ![Associer les codes ref - Détails d'un menu](./images/015-leo2-menu-details.png)
 1. Pour accéder aux choix de menu, cliquez sur **Faire un Menu**.
 1. Pour voir les produits associés à chaque choix de menu, cliquez sur l'onglet du choix correspondant.
-   ![Associer les codes ref - Consulter les choix de menu](./images/016-leo2-choix-menu.png)
+   ![Associer les codes ref - Consulter les choix de menu](./images/016-leo2-menu-items.png)
 
 ## Remises
 
@@ -103,7 +103,7 @@ Les méthodes de paiement dans HubRise correspondent aux modes de règlement dan
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Paramètres et Réglages**.
 1. Cliquez sur **Modes de Règlement**. Le code ref s'affiche dans la colonne **No**.
-   ![Associer les codes ref - Modes de règlement](./images/008-leo2-modes-reglement.png)
+   ![Associer les codes ref - Modes de règlement](./images/008-leo2-payment-methods.png)
 
 ## Types de service
 
@@ -115,7 +115,7 @@ Pour associer un type de service à un tarif, suivez les étapes suivantes :
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Paramètres et Réglages**.
 1. Dans l'onglet **Généraux**, cliquez sur **HubRise**.
-   ![Connexion - Paramètres HubRise](./images/017-leo2-parametres-hubrise.png)
+   ![Connexion - Paramètres HubRise](./images/017-leo2-hubrise-settings.png)
 1. Dans les champs **Tarif sur place**, **Tarif à emporter** et **Tarif à livrer**, choisissez le tarif correspondant dans la liste déroulante.
 
 ## Codes ref des types de service
@@ -127,4 +127,4 @@ Une fois le vendeur créé, vous pouvez trouver son code ref en suivant les éta
 1. Depuis l'écran d'accueil, cliquez sur **Gestion**.
 1. Entrez le mot de passe que vous avez choisi lors de l'installation de LEO2. Par défaut, ce mot de passe est **1234**.
 1. Cliquez sur **Vendeurs**. Le code ref s'affiche dans la colonne **N°**.
-   ![Associer les codes ref - Vendeurs](./images/013-leo2-vendeurs.png)
+   ![Associer les codes ref - Vendeurs](./images/013-leo2-staff.png)

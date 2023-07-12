@@ -15,7 +15,7 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 1. Depuis votre poste Windows, lancez l'application **WebNES**, incluse dans l'installation de Nestor.
 1. Dans la barre de menu, sélectionnez **Configuration** > **HubRise**. Une fenêtre nommée **Configuration HubRise** s'ouvre.
-   ![Connexion à HubRise - Configuration HubRise](./images/001-nestor-configuration-hubrise.png)
+   ![Connexion à HubRise - Configuration HubRise](./images/001-nestor-hubrise-configuration.png)
 1. Cliquez sur **Connecter**. Vous êtes redirigé vers l'interface HubRise.
 1. Choisissez le point de vente que vous désirez connecter et cliquez sur **Autoriser** pour donner à Nestor l'accès à vos informations. Si plusieurs listes de clients ou catalogues sont disponibles, cliquez sur **Suivant** afin d'afficher les listes déroulantes correspondantes, sélectionnez l'option voulue, puis cliquez sur **Autoriser**.
 
@@ -25,12 +25,12 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 ---
 
-![Connexion à HubRise - Choix du point de vente](./images/002-nestor-connexion-location.png)
+![Connexion à HubRise - Choix du point de vente](./images/002-nestor-connect-location.png)
 
 1. Copiez le code affiché et collez-le dans la fenêtre **Configuration HubRise** de l'utilitaire WebNES.
-   ![Connexion à HubRise - Affichage du code](./images/003-nestor-connexion-code.png)
+   ![Connexion à HubRise - Affichage du code](./images/003-nestor-connection-code.png)
 1. Cliquez sur **Valider**. L'interface WebNES affiche **Connecté à HubRise**, ainsi que les informations de votre point de vente.
-   ![Connexion à HubRise - Informations du point de vente](./images/004-nestor-connecte.png)
+   ![Connexion à HubRise - Informations du point de vente](./images/004-nestor-connected.png)
 1. En cas de besoin, l'éditeur du logiciel Nestor peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/nestor/connexion-hubrise#donner-acc-s-au-support-de-nestor).
 
 ---
@@ -56,4 +56,4 @@ L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers �
 1. Ouvrez l'application **WebNES**.
 1. Dans la barre de menu, sélectionnez **Configuration** > **HubRise**. Une fenêtre nommée **Configuration HubRise** s'ouvre.
 1. Cliquez sur **Déconnecter**.
-   ![Connexion à HubRise - Déconnexion](./images/005-nestor-deconnecte.png)
+   ![Connexion à HubRise - Déconnexion](./images/005-nestor-disconnected.png)
