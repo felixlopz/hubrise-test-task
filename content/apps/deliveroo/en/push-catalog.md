@@ -55,7 +55,7 @@ The following sections provide more details on how your HubRise catalog is mappe
 
 ### Menu Description and Banner
 
-You can specify the menu description and provide the URL for your banner image directly from the [Configuration page](/apps/deliveroo/configuration).
+You can specify the menu description and upload your banner image directly from the [Configuration page](/apps/deliveroo/configuration).
 
 Deliveroo Bridge sends this information to Deliveroo with every catalog push.
 

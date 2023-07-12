@@ -60,9 +60,9 @@ To synchronize your HubRise catalog with Deliveroo whenever it is updated, selec
 
 The **Menu description** and **Menu banner** replace the current description and banner image on Deliveroo when you push your catalog. The requirements for the banner image are described below:
 
-- At least 1920x1080 pixels, 16:9 ratio
-- JPG or PNG format
-- Less than 2 Mb
+- At least 1920x1080 pixels, 16:9 ratio.
+- JPG or PNG format.
+- Less than 2 Mb.
 
 ---
 
