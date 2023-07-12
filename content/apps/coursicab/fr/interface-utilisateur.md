@@ -12,7 +12,7 @@ Le back-office de CoursiCab permet de consulter les commandes HubRise, et de sé
 ## Courses
 
 Dans CoursiCab, les livraisons sont appelées des courses. Pour en consulter la liste, dans votre espace CoursiCab, cliquez sur **Apps** dans la barre de menu.
-![Interface utilisateur - Liste des courses](../images/005-fr-coursicab-courses.png)
+![Interface utilisateur - Liste des courses](./images/005-coursicab-rides.png)
 
 Pour chaque course, vous pouvez accepter ou refuser la livraison.
 
@@ -20,7 +20,7 @@ Pour accepter, suivez les étapes suivantes :
 
 1. Dans la colonne **ACTION**, cliquez sur le bouton d'acceptation en forme de coche.
 1. Sélectionnez un véhicule et un mode de paiement dans la modale qui s'affiche :
-   ![Interface utilisateur - Accepter une course](../images/008-fr-accepter-course.png)
+   ![Interface utilisateur - Accepter une course](./images/008-accept-ride.png)
 1. Cliquez sur **Confirmer**.
 
 Pour refuser :
@@ -31,9 +31,9 @@ Pour refuser :
 ## Historique
 
 Pour consulter l'historique de vos courses, dans votre espace CoursiCab, cliquez sur **Historique** dans la barre de menu.
-![Interface utilisateur - Historique](../images/006-fr-coursicab-historique.png)
+![Interface utilisateur - Historique](./images/006-coursicab-track.png)
 
 Lorsqu'une livraison est en cours, le statut de la course passe successivement en **Transit** puis en **Livrée**.
 
 Pour voir le détail de la course, cliquez sur le bouton dans la colonne **ACTION**. Une nouvelle page indique les adresses de retrait et de livraison, les informations du chauffeur, le prix de la course et l'historique des changements de statuts.
-![Interface utilisateur - Détail de la course](../images/007-fr-coursicab-detail-course.png)
+![Interface utilisateur - Détail de la course](./images/007-coursicab-detail-course.png)

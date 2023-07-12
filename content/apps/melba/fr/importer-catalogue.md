@@ -16,18 +16,18 @@ Pour importer un catalogue HubRise dans Melba, suivez les étapes suivantes :
 1. Trouvez HubRise dans la liste des extensions. Si HubRise est connecté, vous voyez le label **Installée**. A droite de ce label, cliquez sur l'icône avec les 3 points verticaux, puis sur **Importer des produits**.
 
 1. Une nouvelle page s'ouvre. Vérifiez que la première option sélectionnée est **HubRise**, et que la deuxième est **Importer les produits**, comme dans la capture d'écran ci-dessous :
-   ![Paramètres import](../images/002-fr-parametres-import-catalogue.png)
+   ![Paramètres import](./images/002-parametres-import-catalogue.png)
 
 1. Cliquez sur le bouton **Importer les produits** situé en bas à droite de la page.
 
 1. Une popup de confirmation s'ouvre. Cochez les cases, puis cliquez sur **Confirmer l'import**.
-   ![Confirmer l'import](../images/003-fr-confirmer-import-1.png)
+   ![Confirmer l'import](./images/003-confirmer-import-1.png)
 
 1. Une nouvelle page s'ouvre pour confirmer que la procédure d'import est en cours. Cliquez sur **Vérifier et classer par type**.
-   ![Importation en cours](../images/004-fr-import-en-cours.png)
+   ![Importation en cours](./images/004-import-en-cours.png)
 
 1. Par défaut, Melba importe les produits HubRise en tant que recettes. Sélectionnez les produits à importer en tant qu'articles, si nécessaire, puis cliquez sur **Aller aux recettes**.
-   ![Sélectionner le type d'import](../images/005-fr-selectionner-type-import-1.png)
+   ![Sélectionner le type d'import](./images/005-selectionner-type-import-1.png)
 
 1. Vous êtes redirigé vers la page des recettes. L'importation est terminée.
 

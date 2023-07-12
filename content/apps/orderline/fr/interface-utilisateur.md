@@ -13,13 +13,13 @@ Lorsque OrderLine reçoit une commande à exécuter le jour même, une notificat
 
 Les commandes peuvent être masquées, selon l'état du paramètre **Masquer le statut de la commande**. Vous pouvez retrouver ces commandes masquées en ouvrant l'onglet **Aujourd'hui** et en cliquant sur **VOIR** dans la dernière carte. Pour plus d'informations, reportez-vous à [Statut des commandes](/apps/orderline/parametres/#encha-nement-des-statuts-de-commande).
 
-![Onglet Aujourd'hui d'OrderLine](../images/006-fr-commandes-aujourdhui.png)
+![Onglet Aujourd'hui d'OrderLine](./images/006-todays-orders.png)
 
 ## Afficher les commandes des jours suivants
 
 Lorsque OrderLine reçoit une commande à exécuter à une date ultérieure, un compteur de commandes s'affiche près de l'onglet **JOURS SUIVANTS** d'OrderLine. Une notification sonore est également émise pour vous avertir de l'arrivée d'une nouvelle commande.
 
-![Onglet Jours suivants d'OrderLine](../images/007-fr-commandes-jours-suivants.png)
+![Onglet Jours suivants d'OrderLine](./images/007-future-orders.png)
 
 ## Consultation de l'historique des commandes
 
@@ -32,4 +32,4 @@ Vous pouvez filtrer les commandes en combinant :
 - Le nom du client ou la référence de la commande.
 - La plage de dates de livraison.
 
-![Onglet Historique d'OrderLine](../images/008-fr-commandes-historique.png)
+![Onglet Historique d'OrderLine](./images/008-orders-history.png)

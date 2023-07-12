@@ -54,7 +54,7 @@ The HubRise option type is selected according to the following rule:
 - A group with selection policy **Select exactly one item** is converted to a single-choice option list.
 - A group with any other selection policy is converted to a multiple-choice option list.
 
-![Selection policy in the Lightspeed back office](../images/021-en-lightspeed-selection-policy.png)
+![Selection policy in the Lightspeed back office](./images/021-lightspeed-selection-policy.png)
 
 ### Lightspeed Production Instructions
 

@@ -44,7 +44,7 @@ To connect Just Eat Flyt Bridge to HubRise, follow these steps.
    - **Restaurant ID**: Your store unique identifier.
      HubRise will provide the above credentials. Once you have them, copy and paste them into the corresponding fields, then click **Save** to complete the connection process.
 
-![Credentials page for Just Eat Flyt Bridge](../images/001-en-just-eat-credentials.png)
+![Credentials page for Just Eat Flyt Bridge](./images/001-just-eat-credentials.png)
 
 ## 3. Configure Your Preferences
 

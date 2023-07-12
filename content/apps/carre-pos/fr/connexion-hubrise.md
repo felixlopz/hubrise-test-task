@@ -29,7 +29,7 @@ Vous pouvez à tout moment vérifier le statut de votre connexion à HubRise dep
 
 Si votre logiciel est connecté à HubRise, le nom et l'identifiant du point de vente et du catalogue HubRise connectés à votre logiciel apparaissent dans la partie **Informations de connexion**.
 
-![Connexion à HubRise - Informations de connexion](../images/006-fr-carre-pos-informations-connexion.png)
+![Connexion à HubRise - Informations de connexion](./images/006-carre-pos-informations-connexion.png)
 
 ## Donner accès au support de Carré POS
 

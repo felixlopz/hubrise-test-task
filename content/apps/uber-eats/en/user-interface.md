@@ -24,7 +24,7 @@ Each row in the page shows the following information about an operation:
 
 The "System request" label indicates that the operation is not related to a specific order.
 
-![Operations page of Uber Eats Bridge developed by HubRise](../images/003-en-2x-main-page.png)
+![Operations page of Uber Eats Bridge developed by HubRise](./images/003-2x-main-page.png)
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
@@ -42,7 +42,7 @@ Each row in the logs displays the following information:
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
-![Order logs page on Uber Eats Bridge](../images/004-en-order-logs.png)
+![Order logs page on Uber Eats Bridge](./images/004-order-logs.png)
 
 Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
@@ -52,7 +52,7 @@ The layout of a system request page is identical to that of an order page.
 
 System requests are generally sent by Uber Eats Bridge to notify HubRise about a change in the configuration or to fetch the most up-to-date information. As an example, the following image displays a request to update the Uber Eats Bridge callback after a configuration change.
 
-![System request page on Uber Eats Bridge](../images/005-en-system-request.png)
+![System request page on Uber Eats Bridge](./images/005-system-request.png)
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
@@ -72,7 +72,7 @@ The **Location** section identifies the Uber Eats store connected to the Uber Ea
 
 The **Integration** section shows if the HubRise integration is enabled and if HubRise, considered by Uber Eats as an EPOS, is online. It also confirms whether an Uber Eats menu has been uploaded from HubRise. HubRise can only update one menu per restaurant: if you have more than one menu on Uber Eats, this section will show a warning.
 
-![System request page on Uber Eats Bridge](../images/026-en-2x-uber-eats-status-page.png)
+![System request page on Uber Eats Bridge](./images/026-2x-uber-eats-status-page.png)
 
 ## Actions
 

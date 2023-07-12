@@ -23,7 +23,7 @@ Pour modifier les codes ref des tailles d'un produit, suivez les étapes suivant
 2. Cliquez sur le nom de votre établissement.
 3. Identifiez le produit souhaité, puis cliquez sur **Editer**.
 4. Dans la section **Tailles**, renseignez les codes ref des SKUs dans les champs nommés **Code réf de la taille (facultatif)_N_**, N étant le numéro de la taille.
-   ![Associer les codes ref - Codes ref tailles](../images/003-fr-restaurant-internet-tailles.png)
+   ![Associer les codes ref - Codes ref tailles](./images/003-restaurant-internet-tailles.png)
 
 Restaurant-internet permet de saisir un code ref sur le produit. Ce code n'est pas utilisé en pratique, et seuls les codes refs des tailles doivent être renseignés.
 
@@ -40,7 +40,7 @@ Pour modifier les codes ref des options d'un produit, suivez les étapes suivant
 
 Dans l'exemple suivant, les codes ref **tofu|sm**, **tofu|md** et **tofu|lg** correspondent à l'option Tofu, pour chacune des 3 tailles du produit.
 
-![Associer les codes ref - Codes ref option à choix multiple](../images/005-fr-restaurant-internet-option-choix-multiple.png)
+![Associer les codes ref - Codes ref option à choix multiple](./images/005-restaurant-internet-option-choix-multiple.png)
 
 ## Promotions
 
@@ -57,7 +57,7 @@ Restaurant-internet permet de définir des frais de livraison, ainsi que des fra
 Pour modifier le code ref des frais, suivez les étapes suivantes :
 
 1. Depuis votre tableau de bord Restaurant-internet, sélectionnez **Paramétrages**.
-   ![Associer les codes ref - Paramétrages](../images/006-fr-restaurant-internet-parametrages.png)
+   ![Associer les codes ref - Paramétrages](./images/006-restaurant-internet-parametrages.png)
 2. Sélectionnez l'onglet **Commande en ligne**, ou alors, dans la partie **Commande en ligne**, cliquez sur **Retrait sur place**, **A emporter**, ou **Livraison**.
 3. Renseignez les codes ref dans les champs **Code réf Frais de gestion** ou **Code réf Frais de livraison**.
 
@@ -68,7 +68,7 @@ Une méthode de paiement dans HubRise correspond à un mode de paiement dans Res
 1. Depuis votre tableau de bord Restaurant-internet, dans la partie **Modules**, sélectionnez **Marketplace Autres modules**.
 2. Sélectionnez **Hubrise - Connection Caisse Gratuit**.
 3. En bas de page, dans la partie **Paramètrages - modes de paiement**, renseignez les codes ref dans les champs correspondant à chaque mode de paiement.
-   ![Associer les codes ref - Modes de paiement](../images/008-fr-restaurant-internet-modes-paiement.png)
+   ![Associer les codes ref - Modes de paiement](./images/008-restaurant-internet-modes-paiement.png)
 
 ## Types de service
 
@@ -77,4 +77,4 @@ Pour modifier le code ref de vos types de service, suivez les étapes suivantes 
 1. Depuis votre tableau de bord Restaurant-internet, sélectionnez **Paramétrages**.
 2. Sélectionnez l'onglet **Commande en ligne**, ou alors, dans la partie **Commande en ligne**, cliquez sur **Retrait sur place**, **A emporter**, ou **Livraison**.
 3. Renseignez les codes ref dans les champs **Code réf Sur place**, **Code réf À emporter**, ou **Code réf Livraison**.
-   ![Associer les codes ref - Charge sur place](../images/007-fr-restaurant-internet-charge-sur-place.png)
+   ![Associer les codes ref - Charge sur place](./images/007-restaurant-internet-charge-sur-place.png)

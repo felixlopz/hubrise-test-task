@@ -10,5 +10,5 @@ meta:
 Pour envoyer votre inventaire UltimaPOS vers HubRise, suivez ces étapes :
 
 1. Depuis l'écran d'accueil d'UltimaPOS, allez dans **Paramètres**, **Paramètres Cloud**, **Click & Collect**, puis dans l'onglet **HubRise**.
-   ![Exporter l'inventaire - Envoi Inventaire](../images/003-fr-ultimapos-connecte.png)
+   ![Exporter l'inventaire - Envoi Inventaire](./images/003-ultimapos-connecte.png)
 2. Cliquez sur **Envoi Inventaire**.

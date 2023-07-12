@@ -6,10 +6,10 @@ meta:
   title: Présentation générale | smilein | HubRise
   description: Présentation de la solution de commande et de paiement en ligne smilein, et description des fonctionnalités de son intégration avec HubRise.
 gallery:
-  - __gallery-fr-001.jpeg
-  - __gallery-fr-002.jpeg
-  - __gallery-fr-003.jpeg
-  - __gallery-fr-004.jpeg
+  - __gallery-001.jpeg
+  - __gallery-002.jpeg
+  - __gallery-003.jpeg
+  - __gallery-004.jpeg
 path_override: /
 app_info:
   category: Commande en ligne

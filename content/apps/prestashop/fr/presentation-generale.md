@@ -6,9 +6,9 @@ meta:
   title: Présentation générale | PrestaShop | HubRise
   description: Présentation générale de PrestaShop, les raisons de connecter votre solution de commande à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-fr-001.png
-  - __gallery-fr-002.png
-  - __gallery-fr-003.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
 path_override: /
 app_info:
   category: Commande en ligne
@@ -45,7 +45,7 @@ Connecter PrestaShop Bridge permet à HubRise de :
 
 PrestaShop peut être connecté à HubRise depuis le back-office de HubRise.
 
-![Schéma du flux de connexion entre PrestaShop, PrestaShop Bridge et HubRise](../images/000-fr-2x-connection-diagram.png)
+![Schéma du flux de connexion entre PrestaShop, PrestaShop Bridge et HubRise](./images/000-2x-connection-diagram.png)
 
 ## Pourquoi se connecter ?
 

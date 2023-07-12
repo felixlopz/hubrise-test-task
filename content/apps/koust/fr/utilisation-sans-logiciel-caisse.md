@@ -20,17 +20,17 @@ Si votre entreprise n'utilise pas de logiciel de caisse, vous pouvez importer vo
 Pour importer un fichier CSV dans Koust, suivez les étapes suivantes :
 
 1. Dans le menu latéral, sélectionnez **Ventes - Conso.**.
-   ![Utilisation sans logiciel de caisse - Aucun article](../images/012-fr-koust-aucun-article.png)
+   ![Utilisation sans logiciel de caisse - Aucun article](./images/012-koust-no-item.png)
 1. Cliquez sur **+ Articles caisse**. Une boîte de dialogue s'affiche.
 1. Dans le champ **Caisse**, sélectionnez l'option **Import manuel**.
-   ![Utilisation sans logiciel de caisse - Sélection du fichier d'import](../images/013-fr-koust-import-choisir-fichier.png)
+   ![Utilisation sans logiciel de caisse - Sélection du fichier d'import](./images/013-koust-import-select-file.png)
 1. Sélectionnez le fichier CSV à importer. Passez à l'étape suivante en sélectionnant **Suivant**.
-   ![Utilisation sans logiciel de caisse - Affichage des données](../images/014-fr-koust-import-colonnes.png)
+   ![Utilisation sans logiciel de caisse - Affichage des données](./images/014-koust-import-columns.png)
 1. Si les données sont affichées correctement, cliquez sur **Suivant**.
-   ![Utilisation sans logiciel de caisse - Validation des données](../images/015-fr-koust-import-valider.png)
+   ![Utilisation sans logiciel de caisse - Validation des données](./images/015-koust-import-validate.png)
 1. Cliquez sur **Importer**.
-   ![Utilisation sans logiciel de caisse - Données importées](../images/016-fr-koust-import-reussi.png)
+   ![Utilisation sans logiciel de caisse - Données importées](./images/016-koust-import-successful.png)
 1. Cliquez sur **Terminer**.
-   ![Utilisation sans logiciel de caisse - Liste des articles](../images/017-fr-koust-articles-apres-import.png)
+   ![Utilisation sans logiciel de caisse - Liste des articles](./images/017-koust-items-imported.png)
 
 Contrairement aux articles importés depuis le catalogue HubRise, les codes ref des articles importés en CSV ne peuvent pas être modifiés. Si vous devez modifier le code ref d'un article, supprimez cet article puis importez à nouveau.

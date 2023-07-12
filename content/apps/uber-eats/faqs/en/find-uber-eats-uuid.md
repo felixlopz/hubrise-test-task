@@ -15,6 +15,6 @@ To find your Uber Eats UUID, follow these steps in your browser:
 1. Select the correct location from the dropdown menu.
 1. Look at the URL of the page. Your Uber Eats UUID will be the number after `/home/`. For example, if the URL is `https://merchants.ubereats.com/manager/home/cd48e888-d8e8-5dd4-9887-ea816b4f1634`, the Uber Eats UUID is `cd48e888-d8e8-5dd4-9887-ea816b4f1634`.
 
-![Uber Eats UUID in the URL of the Uber Eats back office](../../images/024-en-2x-uber-eats-uuid.png)
+![Uber Eats UUID in the URL of the Uber Eats back office](./images/024-2x-uber-eats-uuid.png)
 
 If you cannot find your Uber Eats UUID, contact your Uber Eats Account Manager.

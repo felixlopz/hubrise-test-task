@@ -6,10 +6,10 @@ meta:
   title: Présentation générale | Apicbase | HubRise
   description: Présentation générale de Apicbase, les raisons de connecter votre logiciel de gestion à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-fr-001.png
-  - __gallery-fr-002.png
-  - __gallery-fr-003.png
-  - __gallery-fr-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 path_override: /
 app_info:
   category: Gestion et inventaire

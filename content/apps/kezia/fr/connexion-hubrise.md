@@ -27,7 +27,7 @@ Suivez ensuite ces étapes :
 1. Cliquez sur **Autoriser**.
 1. Copiez le code affiché et collez-le dans la fenêtre prévue à cet effet dans Kezia II.
 1. Cliquez sur **OK**.
-   ![Connexion à HubRise - HubRise connecté](../images/001-fr-kezia-connexion-hubrise.png)
+   ![Connexion à HubRise - HubRise connecté](./images/001-kezia-hubrise-connection.png)
 1. Cliquez sur **Enregistrer**.
 1. De nouveau, cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel Kezia II peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/kezia/connect-hubrise#donner-acc-s-au-support-de-kezia-ii).
@@ -50,7 +50,7 @@ Pour recevoir les commandes HubRise, vous devez configurer les actions de caisse
 
 1. Dans la barre de menu de Kezia II, sélectionnez **Fichier** > **Paramètres** > **Commandes Web**.
 1. Dans la section **Paramètres**, dans la partie **Liste des commandes**, sélectionnez _MCU 1_ dans la **Liste des champs** et entrez le nom _Commandes Web_ pour **Libellé du champ**.
-   ![Connexion à HubRise - Configuration des commandes](../images/002-fr-kezia-configuration-commandes.png)
+   ![Connexion à HubRise - Configuration des commandes](./images/002-kezia-order-configuration.png)
 1. Cliquez sur **Enregistrer**.
 
 ## Déconnecter Kezia II

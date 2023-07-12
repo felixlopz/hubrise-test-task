@@ -31,7 +31,7 @@ Vous pouvez à tout moment vérifier le statut de votre connexion à HubRise :
 1. Depuis le back-office de Melba, cliquez sur l'icône **EXTENSIONS** dans le menu à gauche.
 1. Trouvez HubRise dans la liste des extensions. Si HubRise est connecté, vous voyez le label **Installée**. A droite de ce label, cliquez sur l'icône avec les 3 points verticaux, puis cliquez sur **Informations de connexion**.
 1. Le nom et l'identifiant du point de vente et du catalogue HubRise connectés à Melba apparaissent dans la popup :
-   ![Informations de connexion](../images/001-fr-informations-connexion.png)
+   ![Informations de connexion](./images/001-informations-connexion.png)
 
 ## Donner accès au support de Melba
 

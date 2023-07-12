@@ -15,7 +15,7 @@ Pour voir la liste des commandes sur My Lemonade :
 
 1.  Dans le menu latéral du back office, sélectionnez **Commandes**.
 1.  Sélectionnez l'onglet correspondant au statut de la commande désirée : **Reçu**, **En préparation**, **Terminé** ou **Annulé**.
-    ![Commandes - Liste des commandes](../images/008-fr-liste-commandes.png)
+    ![Commandes - Liste des commandes](./images/008-liste-commandes.png)
 
 ## Détails d'une commande
 
@@ -24,7 +24,7 @@ Pour voir les détails d'une commande :
 1.  Dans le menu latéral du back office, sélectionnez **Commandes**.
 1.  Sélectionnez l'onglet correspondant au statut de la commande désirée.
 1.  Cliquez sur **Voir le détail**.
-    ![Commandes - Détails d'une commande](../images/009-fr-details-commande.png)
+    ![Commandes - Détails d'une commande](./images/009-details-commande.png)
 
 ## Synchronisation des statuts de commande
 

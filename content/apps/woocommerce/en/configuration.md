@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of WooCommerce Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![WooCommerce Bridge configuration page](../images/005-en-woocommerce-configuration-page.png)
+![WooCommerce Bridge configuration page](./images/005-woocommerce-configuration-page.png)
 
 ## Orders
 

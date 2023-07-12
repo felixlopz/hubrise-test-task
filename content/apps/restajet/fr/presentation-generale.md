@@ -6,10 +6,10 @@ meta:
   title: Présentation générale | RestaJet | HubRise
   description: Présentation générale de RestaJet, les raisons de connecter votre solution de commande en ligne à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-en-001.png
-  - __gallery-en-002.png
-  - __gallery-en-003.png
-  - __gallery-en-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 path_override: /
 app_info:
   category: Commande en ligne

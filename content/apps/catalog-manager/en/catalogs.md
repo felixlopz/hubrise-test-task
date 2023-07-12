@@ -15,7 +15,7 @@ You can create a catalog from the **SETTINGS** page in your HubRise back office.
 
 To create a catalog using Catalog Manager instead, go to **CONNECTIONS**, find the Catalog Manager app and click on **Open**.
 
-![Catalog Manager Connections](../images/008-en-2x-Connections-Catalog-Manager.png)
+![Catalog Manager Connections](./images/008-2x-connections.png)
 
 In Catalog Manager, click on **New catalog** and enter a name. Once the new catalog has been created you can add categories, products, options, deals, discounts and charges. For more information, see [Manage Products](/apps/catalog-manager/manage-products).
 
@@ -23,7 +23,7 @@ In Catalog Manager, click on **New catalog** and enter a name. Once the new cata
 
 You can **Rename**, **Duplicate** an existing catalog or **Delete** existing catalogs using the Catalog Manager **Actions** dropdown.
 
-![Catalog Manager Catalog list](../images/001-en-2x-catalog-list.png)
+![Catalog Manager Catalog list](./images/001-2x-catalog-list.png)
 
 ## Populate a Catalog from Another App
 

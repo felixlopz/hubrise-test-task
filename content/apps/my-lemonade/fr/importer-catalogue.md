@@ -38,4 +38,4 @@ Les mises à jour de catalogue dans HubRise peuvent être automatiquement import
 1.  Dans le menu latéral du back office, sélectionnez **Paramètres**.
 1.  Sélectionnez l'onglet **Caisse**.
 1.  Cochez l'option **Auto importation**.
-    ![Associer les codes ref - Importer le catalogue](../images/002-fr-import-catalogue.png)
+    ![Associer les codes ref - Importer le catalogue](./images/002-import-catalogue.png)

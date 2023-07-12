@@ -6,10 +6,8 @@ meta:
   title: Présentation générale | Shopify | HubRise
   description: Présentation générale de Shopify, les raisons de connecter votre site Shopify à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-en-001.png
-  - __gallery-en-002.png
-  - __gallery-en-003.png
-  - __gallery-en-004.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Commande en ligne

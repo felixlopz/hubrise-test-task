@@ -30,7 +30,7 @@ To enable the HubRise plugin in Aquila, follow these steps:
 
 Aquila will then complete the process of activating the plugin.
 
-![Aquila Plugin Installation](../images/004-en-2x-plugin-installation.png)
+![Aquila Plugin Installation](./images/004-2x-plugin-installation.png)
 
 ## Connect to Account
 
@@ -48,7 +48,7 @@ Once the HubRise plugin has been activated, the connection to a HubRise Account 
 
 At this point the connection between Aquila and HubRise is done at Account level.
 
-![HubRise Settings on Aquila](../images/003-en-2x-hubrise-settings.png)
+![HubRise Settings on Aquila](./images/003-2x-hubrise-settings.png)
 
 ## Connect to Locations
 

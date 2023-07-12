@@ -28,7 +28,7 @@ Follow these steps if you don't have a HubRise account:
 7. Verify that your account and location names have been correctly prefilled by LivePepper. Click **Create**.
 8. Click **Allow**.
 
-![Connection to HubRise - Connected](../images/006-en-hubrise-connection-confirmed.png)
+![Connection to HubRise - Connected](./images/006-hubrise-connection-confirmed.png)
 
 If you already have a HubRise account, follow these steps:
 

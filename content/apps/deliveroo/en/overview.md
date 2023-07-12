@@ -6,8 +6,8 @@ meta:
   title: Overview | Deliveroo | HubRise
   description: Deliveroo overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-en-001.png
-  - __gallery-en-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Food Ordering Platforms
@@ -32,7 +32,7 @@ Connecting Deliveroo Bridge allows HubRise to:
 - Push a catalog into Deliveroo.
 - Synchronise inventory with HubRise.
 
-![Diagram of the connection flow between Deliveroo, Deliveroo Bridge, and HubRise](../images/000-en-2x-connection-diagram.png)
+![Diagram of the connection flow between Deliveroo, Deliveroo Bridge, and HubRise](./images/000-2x-connection-diagram.png)
 
 ---
 

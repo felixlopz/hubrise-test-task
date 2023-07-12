@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of the foodpanda Bridge based on your preferences.
 These are divided into different categories for an easier navigation.
 
-![foodpanda Bridge configuration page](../images/002-en-configuration-page.png)
+![foodpanda Bridge configuration page](./images/002-configuration-page.png)
 
 ## Customers
 

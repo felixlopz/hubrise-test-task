@@ -50,7 +50,7 @@ Pour connecter Just Eat Flyt Bridge à HubRise, procédez comme suit :
    - Clé d'API Commandes
    - L'Identifiant de restaurant. Entrez l'identifiant Flyt, puis cliquez sur **Enregistrer** pour terminer le processus de connexion.
 
-![Page d'informations d'identification pour Just Eat Flyt Bridge](../images/001-fr-just-eat-credentials.png)
+![Page d'informations d'identification pour Just Eat Flyt Bridge](./images/001-just-eat-credentials.png)
 
 ## 3. Configurez vos préférences
 

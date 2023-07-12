@@ -6,10 +6,10 @@ meta:
   title: Présentation générale | SOMM'IT | HubRise
   description: Présentation générale de SOMM'IT, les raisons de connecter SOMM'IT à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-fr-002.png
-  - __gallery-fr-004.png
-  - __gallery-fr-003.png
-  - __gallery-fr-001.png
+  - __gallery-002.png
+  - __gallery-004.png
+  - __gallery-003.png
+  - __gallery-001.png
 path_override: /
 app_info:
   category: Gestion et Inventaire

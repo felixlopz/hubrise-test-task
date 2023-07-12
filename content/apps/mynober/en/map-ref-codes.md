@@ -57,4 +57,4 @@ To check that the products have been correctly imported, follow these steps:
 1. Click **Expand All** to reveal all the products available.
 1. Check that every product has a ref code under the **PLU** column.
 
-![MynOber Cloud Menu Items Page](../images/002-en-mynober-cloud-menu-items.png)
+![MynOber Cloud Menu Items Page](./images/002-mynober-cloud-menu-items.png)

@@ -5,6 +5,9 @@ layout: documentation
 meta:
   title: Présentation générale | OrderLord | HubRise
   description: Présentation générale de OrderLord, les raisons de connecter OrderLord à HubRise et les fonctionnalités de l'intégration avec HubRise.
+gallery:
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Logiciels de caisse

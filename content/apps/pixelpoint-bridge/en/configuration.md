@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of PixelPoint Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![PixelPoint Bridge configuration page](../images/003-en-configuration.png)
+![PixelPoint Bridge configuration page](./images/003-configuration.png)
 
 ## Order Statuses
 

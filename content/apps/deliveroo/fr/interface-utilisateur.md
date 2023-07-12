@@ -24,7 +24,7 @@ Chaque ligne de cette page affiche les informations relatives à une opération�
 
 Le libellé **Requête système** indique que l'opération n'est pas liée à une commande spécifique.
 
-![Page des opérations de Deliveroo Bridge développée par HubRise](../images/003-fr-main-page.png)
+![Page des opérations de Deliveroo Bridge développée par HubRise](./images/003-main-page.png)
 
 En cliquant sur une ligne, vous ouvrez une nouvelle page affichant les requêtes d'API associées à l'opération.
 
@@ -42,7 +42,7 @@ Chaque ligne de requête d'API contient les informations suivantes :
 
 Cliquez sur une requête pour la développer et révéler le détail des échanges.
 
-![Page de commande sur Deliveroo Bridge](../images/004-fr-order-logs.png)
+![Page de commande sur Deliveroo Bridge](./images/004-order-logs.png)
 
 Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise](/docs/hubrise-logs/).
 
@@ -52,7 +52,7 @@ La mise en page est identique à celle d'une page de commande.
 
 Les requêtes système sont généralement envoyées par Deliveroo Bridge afin d'informer HubRise d'une modification de la configuration, ou bien pour alimenter l'interface utilisateur avec les informations les plus récentes. À titre d'exemple, l'image suivante illustre une requête de mise à jour du callback de Deliveroo Bridge après un changement de configuration.
 
-![Page de requête système sur Deliveroo Bridge](../images/005-fr-system-request.png)
+![Page de requête système sur Deliveroo Bridge](./images/005-system-request.png)
 
 Les pages de requête système fournissent des informations de débogage utiles aux équipes d'assistance, mais elles sont généralement peu utiles pour les autres utilisateurs.
 

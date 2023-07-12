@@ -20,7 +20,7 @@ At this stage you will need to contact the App4 support team and request them to
 - If you are not logged in, HubRise will prompt for your email and password.
 - App4 will then request permission to access your HubRise Location:
 
-![Connect App4 to HubRise](../images/008-en-connect-to-hubrise.png)
+![Connect App4 to HubRise](./images/008-connect-to-hubrise.png)
 
 - If you have several locations, select the one to connect.
 - Click **Allow** to complete the connection with HubRise.

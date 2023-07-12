@@ -34,7 +34,7 @@ To connect MynOber Cloud to HubRise, follow these steps.
 After these steps, you will be redirected to the HubRise module in the MynOber Cloud back office.
 You can verify that the connection was successful by checking the HubRise account name, location name and ID, and catalog name and ID displayed on the page.
 
-![MynOber Cloud HubRise Connection Page](../images/001-en-mynober-cloud-hubrise-module.png)
+![MynOber Cloud HubRise Connection Page](./images/001-mynober-cloud-hubrise-module.png)
 
 ## 3. Configure Your Preferences
 

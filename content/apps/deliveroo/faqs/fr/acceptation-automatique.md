@@ -19,8 +19,8 @@ Vous pouvez cependant activer l'acceptation automatique pour que les employés d
 
 L'acceptation automatique doit être activée tous les jours lorsque vous ouvrez votre restaurant. Sélectionnez simplement **Turn on Auto-accept** (Activer l'acceptation automatique) lorsque cette page s'affiche sur votre tablette :
 
-![Activer l'acceptation automatique lorsque vous ouvrez votre restaurant Deliveroo](../../images/016-en-auto-accept-open-restaurant.png)
+![Activer l'acceptation automatique lorsque vous ouvrez votre restaurant Deliveroo](../../images/016-auto-accept-open-restaurant.png)
 
 À tout moment, vous pouvez également activer ou désactiver l'acceptation automatique à partir de la page **Paramètres** de la tablette.
 
-![Activer l'acceptation automatique sur la page Paramètres de la tablette Deliveroo](../../images/017-en-auto-accept-settings.png)
+![Activer l'acceptation automatique sur la page Paramètres de la tablette Deliveroo](../../images/017-auto-accept-settings.png)

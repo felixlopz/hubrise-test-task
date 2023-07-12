@@ -13,7 +13,7 @@ Pour que ce module fonctionne, votre imprimante doit avoir deux caractéristique
 
 1. Elle doit être de type ESC/POS (Epson, Star, Brother, Toshiba, Zebra...).
 1. Elle doit avoir une prise USB Type B.
-   ![prise USB Type B](../../images/0005-expedy-usb-type-b.png)
+   ![prise USB Type B](./images/005-expedy-usb-type-b.png)
 
 Pour plus d'informations, voir les informations disponibles sur le site Expedy Print :
 

@@ -18,7 +18,7 @@ Pour voir la liste des commandes web en cours, suivez les étapes suivantes :
 1. Depuis l'écran d'accueil, sélectionnez **CAISSE**.
 1. Sélectionnez un vendeur.
 1. Cliquez sur **Commandes Web**.
-   ![Commandes - Liste des commandes](../images/009-fr-kezia-commandes-web.png)
+   ![Commandes - Liste des commandes](./images/009-kezia-web-orders.png)
 
 ### Détail de la commande
 
@@ -27,7 +27,7 @@ Pour consulter le détail d'une commande :
 1. Accédez à la liste des commandes web en suivant les étapes décrites dans la partie [Recevoir des commandes](/apps/kezia/commandes#recevoir-des-commandes).
 1. Sélectionnez la commande désirée.
 1. Cliquez sur **Détails commande**.
-   ![Commandes - Détails de la commande](../images/010-fr-kezia-details-commande.png)
+   ![Commandes - Détails de la commande](./images/010-kezia-order-details.png)
 
 ### Gestion de la commande
 
@@ -46,12 +46,12 @@ Par défaut, Kezia II n'envoie pas les commandes vers HubRise. Pour envoyer les 
 1. Cliquez sur **HubRise**.
 1. Sélectionnez l'onglet **Personnalisation**.
 1. Pour l'option **Envoi des commandes Kezia**, sélectionnez **Client web**.
-   ![Commandes - Envoi des commandes](../images/011-fr-kezia-envoi-commandes.png)
+   ![Commandes - Envoi des commandes](./images/011-kezia-send-orders.png)
 
 Pour envoyer une commande vers HubRise sans passer par la caisse, suivez les étapes suivantes :
 
 1. Depuis l'écran d'accueil, sélectionnez **COMMANDES**.
-   ![Commandes - Nouvelle commande](../images/012-fr-kezia-nouvelle-commande.png)
+   ![Commandes - Nouvelle commande](./images/012-kezia-new-order.png)
 1. Remplissez les champs selon vos besoins.
 1. Cliquez sur **OK**.
 

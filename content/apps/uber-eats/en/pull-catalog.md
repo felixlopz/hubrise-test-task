@@ -28,7 +28,7 @@ To pull your Uber Eats menu into a HubRise catalog, follow these steps:
 1. In the **Pull the catalog from Uber Eats** section, verify that the correct HubRise catalog is connected, click **Pull catalog**, and confirm the action.
 1. Review your populated catalog on HubRise. For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
-![Manual Catalog Push on HubRise](../images/025-en-2x-uber-eats-actions-page.png)
+![Manual Catalog Push on HubRise](./images/025-2x-uber-eats-actions-page.png)
 
 ---
 

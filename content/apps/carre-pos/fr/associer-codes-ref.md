@@ -23,9 +23,9 @@ Cette page explique comment exporter un catalogue et trouver les codes ref depui
 Pour exporter manuellement le catalogue vers HubRise, suivez les étapes suivantes :
 
 1. Depuis le menu principal du back-office de Carré POS, sélectionnez **Général** > **Catalog manager**.
-   ![Associer les codes ref - Menu manager](../images/007-fr-carre-pos-menu-manager.png)
+   ![Associer les codes ref - Menu manager](./images/007-carre-pos-menu-manager.png)
 1. Cliquez sur **Exporter les menus vers les plateformes**.
-   ![Associer les codes ref - Envoyer le menu](../images/008-fr-carre-pos-envoyer-menu.png)
+   ![Associer les codes ref - Envoyer le menu](./images/008-carre-pos-envoyer-menu.png)
 1. Sur la ligne **HubRise**, sélectionnez votre menu, et cliquez sur **Envoyer**.
 
 ## Produits
@@ -36,7 +36,7 @@ Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 1. Déroulez la partie **Menus** et sélectionnez l'onglet correspondant au menu contenant le produit désiré. Si vous n'avez qu'un seul menu, il est sélectionné par défaut.
 1. Sélectionnez la catégorie à laquelle appartient le produit désiré.
 1. Cliquez sur le bouton de modification du produit désiré. Le code ref s'affiche dans le champ **Id**.
-   ![Associer les codes ref - Détails du produit](../images/009-fr-carre-pos-details-produit.png)
+   ![Associer les codes ref - Détails du produit](./images/009-carre-pos-details-produit.png)
 
 ## SKUs
 
@@ -50,4 +50,4 @@ Une option dans HubRise correspond aussi à un produit dans Carré POS. Pour ret
 
 Pour retrouver le code ref d'une méthode de paiement dans le back-office de Carré POS, sélectionnez **HubRise** > **Configuration** dans le menu principal. Dans **Modes de paiement encaissement direct**, la liste des différentes méthodes de paiement s'affiche. Le code ref de chaque méthode de paiement correspond à son libellé.
 
-![Associer les codes ref - Modes de paiement](../images/010-fr-carre-pos-details-modes-paiement.png)
+![Associer les codes ref - Modes de paiement](./images/010-carre-pos-details-modes-paiement.png)

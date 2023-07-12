@@ -9,7 +9,7 @@ meta:
 
 Cette page de configuration vous permet de personnaliser le comportement de Just Eat Flyt Bridge selon vos préférences. Elle est divisée en plusieurs sections pour faciliter la navigation.
 
-![Page de configuration de Just Eat Flyt Bridge](../images/011-fr-just-eat-configuration-page-cropped.png)
+![Page de configuration de Just Eat Flyt Bridge](./images/011-just-eat-configuration-page-cropped.png)
 
 ## Langue
 
@@ -47,7 +47,7 @@ Cette section de la page de configuration permet de spécifier les codes ref pou
 
 ## Catalogue
 
-![Page de configuration de Just Eat Flyt Bridge, section Catalogue](../images/012-fr-just-eat-configuration-page-menu.png)
+![Page de configuration de Just Eat Flyt Bridge, section Catalogue](./images/012-just-eat-configuration-page-menu.png)
 
 Cette section vous permet de pousser votre catalogue HubRise dans Just Eat chaque fois que vous actualisez le catalogue HubRise. Par défaut, cette option est désactivée.
 

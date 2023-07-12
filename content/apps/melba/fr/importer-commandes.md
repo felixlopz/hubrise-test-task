@@ -14,7 +14,7 @@ Pour importer les commandes HubRise dans Melba, suivez les étapes suivantes :
 1. Depuis le back-office de Melba, cliquez sur l'icône **EXTENSIONS** dans le menu à gauche.
 
 1. Trouvez HubRise dans la liste des extensions. Si HubRise est connecté, vous voyez le label **Installée**. A droite de ce label, cliquez sur l'icône avec les 3 points verticaux, puis sur **Importer les ventes**.
-   ![Paramètres import](../images/006-fr-parametres-import-commandes.png)
+   ![Paramètres import](./images/006-parametres-import-commandes.png)
 
 ## Déroulement de l'importation
 

@@ -9,10 +9,6 @@ meta:
 
 La section Paramètres vous permet de personnaliser OrderLine selon vos besoins. Vous pouvez modifier l'affichage et le fonctionnement d'OrderLine depuis le menu **Paramètres**. Pour accéder à la section Paramètres, sélectionnez l'icône en forme de roue dentée <InlineImage width="20" height="20">![Icône des paramètres d'OrderLine](../images/035-settings.jpg)</InlineImage> dans le coin supérieur droit.
 
-<video controls title="OrderLine Access Settings">
-  <source src="../images/031-en-access-settings.webm" type="video/webm" />
-</video>
-
 Le menu **Paramètres** comporte les options suivantes :
 
 - Général
@@ -27,17 +23,17 @@ Le menu **Paramètres** > **GÉNÉRAL** comporte les options suivantes :
 - **Déconnecter** : met fin à la session OrderLine.
 - **Langue** : change la langue de l'interface. OrderLine prend en charge l'**anglais**, le **français** et le **russe**.
 
-![Paramètres généraux](../images/009-fr-parametres-general.png)
+![Paramètres généraux](./images/009-2x-settings-general.png)
 
 ## Enchaînement des statuts de commande
 
 Les commandes se traitent en faisant évoluer leur statut suivant un enchaînement prédéfini. Dans **Paramètres** > **STATUTS DE COMMANDE**, vous pouvez personnaliser cet enchaînement.
 
-![Paramètres/statuts](../images/014-fr-parametres-statuts-commande.png)
+![Paramètres/statuts](./images/014-2x-settings-order-status.png)
 
 L'écran permet de choisir les prochains statuts accessibles à partir du statut actuel, un peu à la manière d'un diagramme de flux. Les commandes arrivent toujours dans le statut **Nouvelle**, mais elles peuvent évoluer de différentes manières selon l'enchaînement configuré. Dans l'exemple suivant, la commande peut successivement être **Acceptée**, puis **En livraison**, puis **Terminée**. A chaque étape, sauf pour le statut **Terminée**, la commande peut être **Rejetée** :
 
-![Exemple d'enchaînement de statuts](../images/010-fr-flux-statuts-exemple.png)
+![Exemple d'enchaînement de statuts](./images/010-2x-status-flow-example.png)
 
 En partant de l'enchaînement de statuts standard d'OrderLine, vous pouvez le simplifier, ou le personnaliser entièrement de manière à ce qu'il corresponde à votre façon de travailler.
 
@@ -62,10 +58,6 @@ Pour définir l'enchaînement des statuts, procédez comme suit :
 
 Dans l'exemple qui suit, le statut **Échec livraison** est ajouté en tant que prochain statut possible pour le statut **En livraison**.
 
-<video controls title="OrderLine Set Status Flow Example">
-  <source src="../images/011-en-set-status-flow.webm" type="video/webm" />
-</video>
-
 ## Saisies complémentaires
 
 Pour certains statuts, OrderLine peut vous demander de mettre à jour l'**heure de livraison**, ou d'ajouter un **commentaire**.
@@ -83,20 +75,12 @@ Pour que OrderLine propose de mettre à jour de l'**heure de livraison** lorsqu'
 
 Les indications qui suivent montrent comment ajouter une invite d'heure de livraison lorsqu'une commande passe en statut **En livraison**.
 
-<video controls title="OrderLine in Delivery Prompt">
-  <source src="../images/012-en-add-prompt-in-delivery.webm" type="video/webm" />
-</video>
-
 OrderLine peut vous demander la saisie optionnelle d'un commentaire lorsqu'une commande passe dans un statut prédéfini. Pour afficher une invite de saisie d'un commentaire, procédez comme suit :
 
 1. Dans la section **Saisir un commentaire lorsque la commande passe dans l'un des statuts suivants**, sélectionnez la liste des statuts.
 1. Sélectionnez <InlineImage width="40" height="42">![Icône d'ajout d'OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour indiquer que le statut déclenchera une invite de saisie d'un commentaire. Pour déselectionner tous statuts, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
 
 Dans l'exemple qui suit, l'utilisateur est invité à saisir un commentaire lorsque les commandes passent en statut **TERMINÉE**.
-
-<video controls title="OrderLine Prompt Comment Example">
-  <source src="../images/013-en-add-prompt-user-comment.webm" type="video/webm" />
-</video>
 
 ## Masquer les commandes
 
@@ -110,14 +94,14 @@ Pour masquer des commandes dans la liste **Aujourd'hui**, procédez comme suit 
 L'exemple qui suit montre comment masquer les commandes ayant le statut **Terminée**.
 
 <video controls title="OrderLine Status Hide Example">
-  <source src="../images/015-en-setting-hidden-completed.webm" type="video/webm" />
+  <source src="./images/015-setting-hidden-completed.webm" type="video/webm" />
 </video>
 
 ## Notifications
 
 Vous pouvez être averti par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Ces paramètres s'appliquent à la fois aux onglets **Aujourd'hui** et **Jours suivants**.
 
-![Paramètres de notification](../images/016-fr-parametres-notifications.png)
+![Paramètres de notification](./images/014-2x-settings-order-status.png)
 
 Les paramètres disponibles sont les suivants :
 
@@ -132,7 +116,7 @@ Certaines mélodies ont une sonorité plus aiguë que d'autres. Choisissez la to
 Pour voir un exemple de paramétrage des notifications, consultez la vidéo suivante.
 
 <video controls title="OrderLine Set Notifications Settings Examples">
-  <source src="../images/025-en-settings-notifications.webm" type="video/webm" />
+  <source src="./images/025-settings-notifications.webm" type="video/webm" />
 </video>
 
 ## Impression
@@ -172,7 +156,7 @@ Pour ajouter votre imprimante à votre compte Google, procédez comme suit :
 1. Pour vérifier que votre imprimante est bien enregistrée, accédez à [https://www.google.com/cloudprint](https://www.google.com/cloudprint) et cliquez sur **Imprimantes**.
 
 <video controls title="OrderLine Add Google Cloud Printer">
-  <source src="../images/026-en-add-google-cloud-printer.webm" type="video/webm" />
+  <source src="./images/026-add-google-cloud-printer.webm" type="video/webm" />
 </video>
 
 Si vous souhaitez configurer les paramètres de Google Cloud Print, rendez-vous dans [https://www.google.com/cloudprint](https://www.google.com/cloudprint).
@@ -189,7 +173,7 @@ Une fois la procédure d'inscription de votre imprimante à Google Cloud Print t
 1. Google vous demandera d'octroyer l'accès de HubRise à votre périphérique Google Cloud Print. Cliquez sur **Autoriser** pour accomplir la procédure.
 
 <video controls title="OrderLine Grant HubRise Google Printer Access">
-  <source src="../images/027-en-register-google-cloud-printer.webm" type="video/webm" />
+  <source src="./images/027-register-google-cloud-printer.webm" type="video/webm" />
 </video>
 
 Une fois que vous avez accordé à HubRise l'autorisation d'utiliser votre périphérique Google Cloud Print, configurez l'impression automatique. Pour cela, procédez comme suit :
@@ -198,5 +182,5 @@ Une fois que vous avez accordé à HubRise l'autorisation d'utiliser votre péri
 1. Dans la liste déroulante, choisissez d'imprimer à partir de votre imprimante connectée à internet.
 
 <video controls title="Orderline Set Automatic Printing">
-  <source src="../images/028-en-setting-automatic-printer.webm" type="video/webm" />
+  <source src="./images/028-setting-automatic-printer.webm" type="video/webm" />
 </video>

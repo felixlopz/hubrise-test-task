@@ -6,8 +6,8 @@ meta:
   title: Présentation générale | Just Eat Takeaway | HubRise
   description: Présentation générale de Just Eat Takeaway Bridge, les raisons de connecter Just Eat Takeaway à HubRise et récapitulatif des fonctionnalités intégrées avec HubRise.
 gallery:
-  - __gallery-001-fr.png
-  - __gallery-002-fr.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Plateformes de livraison de repas
@@ -47,7 +47,7 @@ La connexion de Just Eat Takeaway Bridge permet à HubRise de :
 - Recevoir les commandes de Just Eat, y compris le statut de commande.
 - Recevoir les informations de livraison de Just Eat, pour les commandes livrées par le restaurant.
 
-![Schéma du flux de connexion entre Just Eat Takeaway, Just Eat Takeaway Bridge et HubRise](../images/000-fr-2x-jet-connection-diagram.png)
+![Schéma du flux de connexion entre Just Eat Takeaway, Just Eat Takeaway Bridge et HubRise](./images/000-2x-jet-connection-diagram.png)
 
 ---
 

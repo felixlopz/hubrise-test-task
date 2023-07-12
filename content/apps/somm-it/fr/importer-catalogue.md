@@ -22,9 +22,9 @@ Quant aux nouvelles références, vous devez les traiter manuellement, en les in
 Pour intégrer ou ignorer une nouvelle référence en attente, suivez ces étapes :
 
 1. Depuis votre back office SOMM'IT, dans le menu de gauche, cliquez sur **Mes boissons**.
-   ![Mes boissons - Mes boissons](../images/006-fr-somm-it-references.png)
+   ![Mes boissons - Mes boissons](./images/006-somm-it-references.png)
 2. En haut de la page, à côté du titre **Mes boissons**, cliquez sur le lien indiquant le nombre de références en attente d'être synchronisées. Par exemple, cliquez sur **194 à synchroniser**.
-   ![Mes boissons - Références à synchroniser](../images/007-fr-somm-it-references-a-synchroniser.png)
+   ![Mes boissons - Références à synchroniser](./images/007-somm-it-references-a-synchroniser.png)
 3. Vous pouvez alors :
    - intégrer une référence. Pour cela, en fin de ligne d'une référence, cliquez sur le signe **+**.
    - ignorer une référence pour ne plus la voir dans vos références SOMM'IT à chaque remontée de caisse. Pour cela, en fin de ligne d'une référence, cliquez sur le symbole d'interdiction.
@@ -36,5 +36,5 @@ Pour réactiver une référence ignorée, suivez ces étapes :
 
 1. Répétez les étapes 1 et 2 ci-dessus permettant d'accéder aux références en attente d'être synchronisées.
 2. Cliquez sur le curseur **Afficher les boissons ignorées**. La liste des références ignorées s'affiche.
-   ![Mes boissons - ](../images/008-fr-somm-it-references-reactiver.png)
+   ![Mes boissons - ](./images/008-somm-it-references-reactiver.png)
 3. Cliquez sur le symbole **Réactivez la boisson** en bout de ligne d'une référence pour la réactiver ou utilisez le système de coche en début de ligne pour en réactiver plusieurs simultanément.

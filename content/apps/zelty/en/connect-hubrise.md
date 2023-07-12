@@ -25,7 +25,7 @@ In order to activate the connection between Zelty and HubRise:
 
 ---
 
-![Connection to HubRise](../images/005-en-2x-zelty-connect-to-hubrise.png)
+![Connection to HubRise](./images/005-2x-zelty-connect-to-hubrise.png)
 
 ## Disconnect
 
