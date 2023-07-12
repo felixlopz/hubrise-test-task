@@ -28,7 +28,7 @@ On the top right corner of the PixelPoint Bridge main page, the HubRise user and
 
 ---
 
-![Main page](../images/004-en-main-page.png)
+![Main page](./images/004-main-page.png)
 
 ## Order Page
 
@@ -42,7 +42,7 @@ Requests are ordered with the latest on top, and each of them displays the follo
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
-![Order page](../images/002-en-orders-page.png)
+![Order page](./images/002-orders-page.png)
 
 A detailed description of the logs can be found in [Understanding Logs](/apps/pixelpoint-bridge/understanding-logs).
 
@@ -50,7 +50,7 @@ A detailed description of the logs can be found in [Understanding Logs](/apps/pi
 
 To access the PixelPoint Bridge Configuration page, click on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/007-arrow.jpg)</InlineImage> in the top right corner of the page to expand the menu, then click **Configuration**.
 
-![PixelPoint Bridge configuration page](../images/003-en-configuration.png)
+![PixelPoint Bridge configuration page](./images/003-configuration.png)
 
 From this page, you will be able to customise the behaviour of PixelPoint Bridge. For more details, see [Configuration](/apps/pixelpoint-bridge/configuration).
 

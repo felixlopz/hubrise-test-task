@@ -6,8 +6,8 @@ meta:
   title: Présentation générale | Mailchimp | HubRise
   description: Présentation générale de Mailchimp, les raisons de connecter Mailchimp à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-en-001.png
-  - __gallery-fr-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 path_override: /
 app_info:
   category: Fidélité et marketing
@@ -36,7 +36,7 @@ Connecter Mailchimp à HubRise permet à votre solution d'e-marketing de :
 - Recevoir les commandes de HubRise.
 - Recevoir les informations clients de HubRise.
 
-![Diagramme de flux de Mailchimp Bridge](../images/007-fr-2x-connection-diagram.png)
+![Diagramme de flux de Mailchimp Bridge](./images/007-2x-connection-diagram.png)
 
 Mailchimp Bridge peut être connecté à HubRise depuis le back-office de HubRise.
 

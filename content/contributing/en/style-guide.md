@@ -289,11 +289,11 @@ For example:
 
 - Click **COMPLETED** ← This refers to the button. Since it is in all caps in the UI, it is all caps in the documentation.
 
-![Screenshot of Click Completed](../images/002-en-click-completed-screenshot.png)
+![Screenshot of Click Completed](./images/002-click-completed-screenshot.png)
 
 - **Confirmed Time** ← This refers to the text.
 
-![Screenshot of Time Completed](../images/003-en-completed-time-screenshot.png)
+![Screenshot of Time Completed](./images/003-completed-time-screenshot.png)
 
 ### Optional steps
 

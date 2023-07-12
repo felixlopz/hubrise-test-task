@@ -49,7 +49,7 @@ L'illustration ci-dessous montre pourquoi les captures d'écran doivent avoir le
 
 La page Partenaires n'existe pas encore, mais sera ajoutée très prochainement. Voici un aperçu de la présentation d'un partenaire sur cette page.
 
-![Exemple de description d'un partenaire](../images/008-fr-partenaire-exemple-description.png)
+![Exemple de description d'un partenaire](./images/008-partner-description-example.png)
 
 Pour être présent sur la page de nos partenaires, vous devez fournir les éléments suivants :
 

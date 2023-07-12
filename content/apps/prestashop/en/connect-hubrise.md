@@ -43,7 +43,7 @@ To can connect PrestaShop to HubRise, follow these steps.
    - Under **Website URL**, enter the URL of your PrestaShop store.
    - Under **PrestaShop API key**, enter the value you copied from the HubRise module in PrestaShop.
    - Click **Save** to confirm.
-     ![PrestaShop URL and API key](../images/001-en-prestashop-initial-config.png)
+     ![PrestaShop URL and API key](./images/001-prestashop-initial-config.png)
 1. Configure the behaviour of PrestaShop Bridge, then click **Save** to complete the connection. For more information about configuring your PrestaShop Bridge, see [Configuration](/apps/prestashop/configuration).
 
 ## 3. Upload Your Catalog

@@ -23,7 +23,7 @@ Chaque ligne de cette page affiche les informations relatives à une opération�
 
 Le libellé "Requête système" indique que l'opération n'est pas liée à une commande spécifique.
 
-![Page des opérations d'Uber Eats Bridge développée par HubRise](../images/003-fr-main-page.png)
+![Page des opérations d'Uber Eats Bridge développée par HubRise](./images/003-2x-main-page.png)
 
 En cliquant sur une ligne, vous ouvrez une nouvelle page affichant les requêtes d'API associées à l'opération.
 
@@ -41,7 +41,7 @@ Chaque ligne de requête d'API contient les informations suivantes :
 
 Cliquez sur une requête pour la développer et révéler le détail des échanges.
 
-![Page de commande sur Uber Eats Bridge](../images/004-fr-order-logs.png)
+![Page de commande sur Uber Eats Bridge](./images/004-order-logs.png)
 
 Les requêtes d'API sont un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
 
@@ -51,7 +51,7 @@ La mise en page est identique à celle d'une page de commande.
 
 Les requêtes système sont généralement envoyées par Uber Eats Bridge pour informer HubRise d'une modification de la configuration, ou pour mettre à jour l'interface utilisateur. À titre d'exemple, l'image suivante illustre une requête de mise à jour du callback d'Uber Eats Bridge après un changement de configuration.
 
-![Page de requête système sur Uber Eats Bridge](../images/005-fr-system-request.png)
+![Page de requête système sur Uber Eats Bridge](./images/005-system-request.png)
 
 Les pages de requête système fournissent des informations de débogage utiles aux équipes d'assistance, mais elles sont généralement peu utiles pour les autres utilisateurs.
 
@@ -65,6 +65,6 @@ Pour revenir à la page principale, cliquez sur les logos d'Uber Eats et de HubR
 
 Pour accéder à la page de configuration d'Uber Eats Bridge, cliquez sur la flèche <InlineImage width="20" height="20">![icône fléchée](../images/arrow-icon.jpg)</InlineImage> dans le coin supérieur droit de la page pour développer le menu, puis cliquez sur **Configuration**.
 
-![Page de configuration sur Uber Eats Bridge](../images/002-fr-configuration-page.png)
+![Page de configuration sur Uber Eats Bridge](./images/002-configuration-page.png)
 
 Cette page vous permet de personnaliser le comportement d'Uber Eats Bridge. Pour plus de détails, voir [Configuration](/apps/uber-eats/configuration).

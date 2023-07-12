@@ -13,7 +13,7 @@ Lorsqu'une commande est créée sur HubRise, elle apparaît immédiatement dans 
 
 Pour ouvrir l'écran cuisine, ouvrez le menu burger de TicknCook et sélectionnez **CUISINE**. Les nouvelles commandes apparaissent sous forme de blocs :
 
-![Exemple de commande](../images/001-fr-cuisine-commande.png)
+![Exemple de commande](./images/001-kds-order.png)
 
 ## Changer le statut d'une commande
 

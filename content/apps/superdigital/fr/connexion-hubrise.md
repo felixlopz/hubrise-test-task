@@ -22,7 +22,7 @@ Pour connecter votre solution de commande en ligne SuperDigital.fr à HubRise, s
 3. Cliquez sur **Connect to HubRise**. Vous êtes redirigé vers l'interface HubRise.
 4. Si vous avez plusieurs points de vente, choisissez le point de vente à connecter. Si le point de vente sélectionné possède plusieurs listes de clients ou catalogues, cliquez sur **Suivant** pour afficher les listes déroulantes correspondantes, puis sélectionnez les options voulues.
 5. Cliquez sur **Autoriser**.
-   ![Connexion - Page de connexion](../images/001-fr-page-connexion.png)
+   ![Connexion - Page de connexion](./images/001-connection-page.png)
 
 En cas de besoin, l'éditeur de la solution SuperDigital.fr peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/superdigital/connexion-hubrise#donner-acc-s-au-support-de-superdigital-fr).
 

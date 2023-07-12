@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of Deliveroo Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Deliveroo Bridge configuration page](../images/014-en-configuration-page-cropped.png)
+![Deliveroo Bridge configuration page](./images/014-configuration-page-cropped.png)
 
 ## Language
 
@@ -30,7 +30,7 @@ This section allows you to specify the discount ref code applied to your product
 
 Available discounts on Deliveroo appear in the **All offers** page in your Deliveroo back office.
 
-![Example of all offers page in Deliveroo back office](../images/013-en-deliveroo-offer.png)
+![Example of all offers page in Deliveroo back office](./images/013-deliveroo-offer.png)
 
 ### Charges
 
@@ -52,7 +52,7 @@ Refer to your EPOS documentation on the HubRise website to verify the correct va
 
 ## Catalog
 
-![Deliveroo Bridge configuration page, Catalog section](../images/015-en-configuration-page-menu.png)
+![Deliveroo Bridge configuration page, Catalog section](./images/015-configuration-page-menu.png)
 
 The **Brand ID** and **Menu ID** fields identify the menu you want to update on Deliveroo. The default values generally work for most users.
 

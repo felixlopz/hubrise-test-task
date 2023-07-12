@@ -17,7 +17,7 @@ The rules for Catalogs are as follows:
   - You can create a test Catalog to be used without impacting production.
   - You can create Catalogs for a Location that offers different products than other Locations.
 
-![Catalog Rules example](../images/047-en-2x-catalog-rules.png)
+![Catalog Rules example](./images/047-2x-catalog-rules.png)
 
 ---
 
@@ -59,7 +59,7 @@ To change the name of a Catalog:
 3. Enter the new name for the Catalog.
 4. Click **Update** to save the new settings.
 
-![HubRise Edit Catalog](../images/065-en-2x-edit-remove-catalog.png)
+![HubRise Edit Catalog](./images/065-2x-edit-remove-catalog.png)
 
 Changes to the Catalog in HubRise do not affect the list of products in connected apps. Changes to the products lists, descriptions, and prices are always performed by the connected app.
 

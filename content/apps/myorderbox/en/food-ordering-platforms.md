@@ -32,7 +32,7 @@ To find a virtual brand id:
 1. Open the **Virtual brand** dropdown.
 1. The virtual brand id is the number next to the brand name, after the **-** character.
 
-![Finding virtual brand id in MyOrderBox back office](../images/006-en-find-virtual-brand-ids.png)
+![Finding virtual brand id in MyOrderBox back office](./images/006-find-virtual-brand-ids.png)
 
 ## Deliveroo
 

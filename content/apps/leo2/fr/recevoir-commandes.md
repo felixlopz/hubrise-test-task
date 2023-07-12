@@ -21,7 +21,7 @@ Pour voir la liste des commandes, suivez les étapes suivantes :
 1. Sélectionnez un vendeur.
 1. Cliquez sur la flèche grise en bas de l'écran pour faire défiler les actions possibles, puis cliquez sur **Fonction**.
 1. Cliquez sur les flèches bleues pour faire défiler les boutons, puis cliquez sur **Leo2Click - Commandes**.
-   ![Commandes - Liste des commandes externes](../images/010-fr-leo2-commandes-externes.png)
+   ![Commandes - Liste des commandes externes](./images/010-leo2-external-orders.png)
 
 Si vos commandes HubRise n'arrivent pas dans LEO2, consultez notre FAQ: [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/commandes-non-recues).
 
@@ -32,7 +32,7 @@ Pour voir les détails d'une commande, suivez les étapes suivantes :
 1. Depuis l'écran d'accueil, cliquez sur **Caisse**.
 1. Sélectionnez un vendeur.
 1. Cliquez sur la flèche grise en bas de l'écran pour faire défiler les actions possibles, puis cliquez sur **Cde Client**.
-   ![Commandes - Détails d'une commande](../images/011-fr-leo2-details-commande.png)
+   ![Commandes - Détails d'une commande](./images/011-leo2-order-details.png)
 
 ### Modifier le statut d'une commande
 
@@ -41,7 +41,7 @@ Pour modifier le statut d'une commande, suivez les étapes suivantes :
 1. Accédez à la liste des commandes en suivant les étapes décrites dans [Affichage des commandes](/apps/leo2/recevoir-commandes#liste-des-commandes).
 1. Cliquez sur la colonne **Etat**.
 1. Sélectionnez le nouveau statut de la commande.
-   ![Commandes - Statuts d'une commande](../images/012-fr-leo2-statuts-commande.png)
+   ![Commandes - Statuts d'une commande](./images/012-leo2-order-statuses.png)
 
 ## Articles et options
 

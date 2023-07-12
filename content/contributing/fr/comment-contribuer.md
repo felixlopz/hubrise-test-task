@@ -26,7 +26,7 @@ Tout le monde peut contribuer. Les éditeurs d'applications intégrées sont enc
 
 Lorsque vous êtes sur une page de documentation technique, faites défiler celle-ci jusqu'en bas. La partie inférieure de la page comprend un lien intitulé **Commentaires sur cette page**. Cliquez sur le lien pour ouvrir une liste déroulante d'options.
 
-![Lien de commentaires en bas de la page](../images/007-fr-feedback-dropdown-list.png)
+![Lien de commentaires en bas de la page](./images/007-feedback-dropdown-list.png)
 
 Il est possible d'envoyer un simple e-mail, mais l'intégralité de notre documentation technique est accessible dans un référentiel public. Si vous êtes déjà familiarisé avec GitHub, vous pouvez éditer la page vous-même et soumettre une demande d'extraction (Pull Request). La documentation a été rédigée en langage Markdown. Les modifications que vous suggérez seront passées en revue par l'équipe de HubRise.
 

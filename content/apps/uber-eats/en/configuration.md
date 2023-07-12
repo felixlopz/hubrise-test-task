@@ -11,7 +11,7 @@ The Configuration page can be accessed by clicking on the arrow <InlineImage wid
 
 The Configuration page allows you to customise the behaviour of Uber Eats Bridge based on your preferences.
 
-![Uber Eats Bridge configuration page](../images/010-en-2x-configuration-page-cropped.png)
+![Uber Eats Bridge configuration page](./images/010-2x-configuration-page-cropped.png)
 
 ## Language
 
@@ -34,7 +34,7 @@ This is useful if you have specific business requirements for financial reportin
 
 By default, Uber Eats activates a checkbox in the checkout flow for costumers to **Request utensils, straws, etc.**, as shown in the screenshot below.
 
-![Disposable items checkbox in Uber Eats checkout](../images/009-en-disposable-items.png)
+![Disposable items checkbox in Uber Eats checkout](./images/009-disposable-items.png)
 
 You can request Uber Eats to disable this functionality. If you prefer to keep it, create a "Disposable items" product in your EPOS, and use its ref code in the **Disposable items ref code** field.
 
@@ -60,7 +60,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ## Catalog
 
-![Uber Eats Bridge configuration page, Catalog section](../images/011-en-2x-configuration-page-menu.png)
+![Uber Eats Bridge configuration page, Catalog section](./images/011-2x-configuration-page-menu.png)
 
 ### Catalog Variant to Push
 
@@ -95,7 +95,7 @@ If you enable customer notes, make sure that your connected EPOS supports produc
 
 ## Inventory
 
-![Uber Eats Bridge configuration page inventory section](../images/023-en-2x-configuration-page-inventory.png)
+![Uber Eats Bridge configuration page inventory section](./images/023-2x-configuration-page-inventory.png)
 
 Through inventory synchronization, products and options that have a stock quantity of zero can be hidden can be hidden on your Uber Eats store.
 

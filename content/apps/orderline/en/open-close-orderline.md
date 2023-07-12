@@ -13,4 +13,4 @@ To access OrderLine, log in to [HubRise](https://manager.hubrise.com), select **
 
 You can save the OrderLine Link as a favorite in your internet browser for daily ease of access. To terminate your OrderLine session, close the browser tab.
 
-![OrderLine Connection Example](../images/004-2x-en-connect-orderline.png)
+![OrderLine Connection Example](./images/004-2x-connect-orderline.png)

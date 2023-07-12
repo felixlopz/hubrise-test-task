@@ -30,7 +30,7 @@ Connecting foodpanda Bridge allows HubRise to:
 - Pull orders from foodpanda, including order status.
 - Pull delivery information from foodpanda, for orders delivered by the restaurant.
 
-![Diagram of the connection flow between foodpanda, foodpanda Bridge, and HubRise](../images/001-en-2x-connection-diagram.png)
+![Diagram of the connection flow between foodpanda, foodpanda Bridge, and HubRise](./images/001-2x-connection-diagram.png)
 
 ---
 

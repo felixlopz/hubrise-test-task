@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of Shopify Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Shopify Bridge configuration page](../images/004-en-shopify-configuration-page.png)
+![Shopify Bridge configuration page](./images/004-shopify-configuration-page.png)
 
 ## Catalog
 

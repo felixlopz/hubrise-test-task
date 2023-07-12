@@ -38,7 +38,7 @@ Connecting Glovo Bridge allows HubRise to:
 - Push a catalog into Glovo.
 - Synchronise inventory with HubRise.
 
-![Diagram of the connection flow between Glovo, Glovo Bridge, and HubRise](../images/000-en-2x-glovo-connection-diagram.png)
+![Diagram of the connection flow between Glovo, Glovo Bridge, and HubRise](./images/000-2x-glovo-connection-diagram.png)
 
 Glovo Bridge can be connected to HubRise from the HubRise back office.
 

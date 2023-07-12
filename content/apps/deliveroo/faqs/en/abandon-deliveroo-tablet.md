@@ -27,10 +27,10 @@ The second option is to enable auto-accept by selecting **Turn on Auto-accept** 
 
 ---
 
-![Turn on auto-accept when you open your restaurant](../../images/016-en-auto-accept-open-restaurant.png)
+![Turn on auto-accept when you open your restaurant](../../images/016-auto-accept-open-restaurant.png)
 
 You can also toggle auto-accept at any time from the tablet's **Settings** page.
 
-![Turn on auto-accept on the Settings page in the tablet](../../images/017-en-auto-accept-settings.png)
+![Turn on auto-accept on the Settings page in the tablet](../../images/017-auto-accept-settings.png)
 
 Choose the option that works best for your restaurant's needs to streamline your order management process.

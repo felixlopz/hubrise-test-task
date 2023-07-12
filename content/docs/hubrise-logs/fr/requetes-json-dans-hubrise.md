@@ -23,7 +23,7 @@ Prenons un cas typique, une création d'une commande dans une application connec
 
 Enfin, une requête peut déclencher automatiquement d'autres requêtes auprès de différentes applications. Par exemple, une requête de création de commande peut déclencher l'envoi d'une requête à une solution de fidélisation afin d'obtenir des informations sur le client. Ces requêtes automatiques appelées rappels, ou « callbacks », comportent chacune une requête et une réponse. Les rappels sont toujours envoyés depuis HubRise vers des applications tierces.
 
-![Composantes des requêtes d'API dans HubRise](../images/004-fr-components-api-request.png)
+![Composantes des requêtes d'API dans HubRise](./images/004-components-api-request.png)
 
 ## Logs et requêtes dans HubRise
 
@@ -39,10 +39,6 @@ Pour chaque requête, les informations suivantes s'affichent :
 - **CODE** : code de la réponse.
 
 Chaque ligne peut être développée de manière à faire apparaître les logs de la requête, de la réponse et des éventuels rappels associés.
-
-<video controls title="Example of Request and Callback in HubRise">
-  <source src="../images/006-request-callback-example.webm" type="video/webm" />
-</video>
 
 ## Exemple de requête HubRise typique
 
@@ -94,7 +90,7 @@ Les en-têtes sont les métadonnées qui accompagnent chaque requête. L'informa
 
 Elle apparaît dans chaque requête sous la clé **X-Access-Token** et est partiellement masquée pour des raisons de sécurité.
 
-![Jeton d'authentification dans une requête HubRise](../images/005-fr-access-token-arrow.png)
+![Jeton d'authentification dans une requête HubRise](./images/005-access-token-arrow.png)
 
 ### Corps
 

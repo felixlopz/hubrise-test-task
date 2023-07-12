@@ -35,7 +35,7 @@ La connexion avec foodpanda Bridge permet à foodpanda de :
 - Envoyer les commandes à HubRise, y compris le statut des commandes.
 - Recevoir les informations de livraison dans HubRise, lorsque les commandes sont livrées par votre personnel.
 
-![Schéma du flux de connexion entre foodpanda, foodpanda Bridge et HubRise](../images/001-fr-2x-connection-diagram.png)
+![Schéma du flux de connexion entre foodpanda, foodpanda Bridge et HubRise](./images/001-2x-connection-diagram.png)
 
 ---
 

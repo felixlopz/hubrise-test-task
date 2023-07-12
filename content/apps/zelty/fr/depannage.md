@@ -27,7 +27,7 @@ Assurez-vous également que votre connexion Zelty est visible dans HubRise en pr
 1. Vérifiez que la connexion à Zelty a été activée pour votre point de vente.
 1. Ouvrez la liste déroulante **Actions** et sélectionnez **Afficher les logs** ou **Voir l'activité** afin de visualiser les transactions émises entre Zelty et HubRise. Pour une description détaillée sur la manière de lire et dépanner les requêtes JSON dans HubRise, voir [Compréhension des logs dans HubRise](/docs/hubrise-logs).
 
-![Connexion de Zelty à HubRise](../images/004-en-2x-zelty-connection-on-hubrise.png)
+![Connexion de Zelty à HubRise](./images/004-2x-zelty-connection-on-hubrise.png)
 
 ## Assistance de Zelty
 

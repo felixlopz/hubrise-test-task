@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of Just Eat Flyt Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Just Eat Flyt Bridge configuration page](../images/011-en-just-eat-configuration-page-cropped.png)
+![Just Eat Flyt Bridge configuration page](./images/011-just-eat-configuration-page-cropped.png)
 
 ## Language
 
@@ -52,7 +52,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 To push your HubRise catalog to Just Eat whenever it is updated, select the **Enable automatic catalog push** checkbox.
 
-![Just Eat Flyt Bridge configuration page, Catalog section](../images/012-en-just-eat-configuration-page-menu.png)
+![Just Eat Flyt Bridge configuration page, Catalog section](./images/012-just-eat-configuration-page-menu.png)
 
 ### Opening Hours
 

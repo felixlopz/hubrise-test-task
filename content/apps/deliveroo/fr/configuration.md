@@ -9,7 +9,7 @@ meta:
 
 La page de configuration permet de personnaliser le comportement de Deliveroo Bridge. Elle est divisée en plusieurs sections pour faciliter la navigation.
 
-![Page de configuration de Deliveroo Bridge](../images/014-fr-configuration-page-cropped.png)
+![Page de configuration de Deliveroo Bridge](./images/014-configuration-page-cropped.png)
 
 ## Langue
 
@@ -29,7 +29,7 @@ Cette section permet de spécifier le code ref de la remise appliquée à vos pr
 
 Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les offres** de votre back-office Deliveroo.
 
-![Exemple de page "Toutes les offres" dans le back-office Deliveroo](../images/013-fr-deliveroo-offer.png)
+![Exemple de page "Toutes les offres" dans le back-office Deliveroo](./images/013-deliveroo-offer.png)
 
 ### Frais
 
@@ -49,7 +49,7 @@ Deliveroo exige un accusé de réception pour chaque commande envoyée. Dans cet
 
 ## Catalogue
 
-![Page de configuration de Deliveroo Bridge, section Catalogue](../images/015-fr-configuration-page-menu.png)
+![Page de configuration de Deliveroo Bridge, section Catalogue](./images/015-configuration-page-menu.png)
 
 Dans cette section, sélectionnez l'identifiant de la marque et l'identifiant du menu Deliveroo vers lequel vous souhaitez envoyer votre catalogue HubRise. Les valeurs par défaut fonctionnent généralement pour la plupart des utilisateurs.
 

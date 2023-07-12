@@ -20,7 +20,7 @@ This may be caused by two possible reasons:
    - From the OrderLord back office, navigate to **Settings > Locations**.
    - Click the gear icon to edit the location.
    - Select the default menu from the dropdown menu.
-     ![Set default menu](../images/001-en-set-default-menu.png)
+     ![Set default menu](./images/001-set-default-menu.png)
    - Click **Save** at the bottom of the page.
 
 If you are still having issues, contact [support@hubrise.com](mailto:support@hubrise.com).

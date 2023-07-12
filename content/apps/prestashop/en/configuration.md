@@ -9,7 +9,7 @@ meta:
 
 The configuration page allows you to customise the behaviour of PrestaShop Bridge based on your preferences. The settings are divided into different sections for an easier navigation.
 
-![PrestaShop Bridge configuration page](../images/005-en-prestashop-configuration-page.png)
+![PrestaShop Bridge configuration page](./images/005-prestashop-configuration-page.png)
 
 ## Language
 
@@ -50,7 +50,7 @@ This section of the configuration page allows you to specify the ref codes for o
 
 ## Catalog
 
-![PrestaShop Bridge configuration page, Catalog section](../images/006-en-2x-configuration-catalog.png)
+![PrestaShop Bridge configuration page, Catalog section](./images/006-2x-configuration-catalog.png)
 
 ### Catalog Variant to Push
 

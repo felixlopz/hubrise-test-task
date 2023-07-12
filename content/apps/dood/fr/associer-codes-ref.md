@@ -16,11 +16,11 @@ Pour modifier le code ref d'un produit, suivez ces étapes :
 1. Depuis le back office DOOD, dans le menu de gauche, cliquez sur **Produits** > **Liste des produits**.
 2. Cliquez sur un produit.
 3. En haut à droite de l'encart du produit, cliquez sur les trois points, puis sur **Metafields**.
-   ![Associer les codes ref - Produit](../images/003-fr-dood-produit.png)
+   ![Associer les codes ref - Produit](./images/003-dood-product.png)
 4. En face du champ **hubrise_external_ref**, cliquez sur les trois points, puis sur **Éditer**.
-   ![Associer les codes ref - Produit Metafields](../images/004-fr-dood-produit-metafields.png)
+   ![Associer les codes ref - Produit Metafields](./images/004-dood-product-metafields.png)
 5. Dans le champ **Value**, modifiez le code ref du produit et cliquez sur le bouton **Enregistrer** pour sauvegarder.
-   ![Associer les codes ref - Produit Value](../images/005-fr-dood-produit-value.png)
+   ![Associer les codes ref - Produit Value](./images/005-dood-product-value.png)
 
 ## SKUs
 

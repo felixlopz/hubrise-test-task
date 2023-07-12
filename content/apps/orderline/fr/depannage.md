@@ -19,7 +19,7 @@ Certains navigateurs ont une fonctionnalité qui empêche les sites Web de jouer
 
 Pour éviter de manquer des notifications, OrderLine vérifie toutes les quelques secondes si votre navigateur bloque les notifications sonores et affiche une alerte si c'est le cas. Vous pouvez alors cliquer sur l'alerte pour autoriser à nouveau les notifications sonores.
 
-![Popup sur les notifications sonores](../images/038-fr-2x-sound-notifications-popup.png)
+![Popup sur les notifications sonores](./images/038-2x-sound-notifications-popup.png)
 
 ## Mon navigateur montre une page blanche lorsque je lance OrderLine
 

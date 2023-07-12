@@ -13,6 +13,6 @@ Vous pouvez afficher les informations relatives au compte en sélectionnant **To
 
 Cliquez sur les onglets **VENTES**, **COMMANDES** ou **NOUVEAUX CLIENTS** pour afficher le contenu correspondant.
 
-![Tableau de bord de HubRise](../images/078-fr-hubrise-dashboard.png)
+![Tableau de bord de HubRise](./images/078-hubrise-dashboard.png)
 
 Pour une analyse plus détaillée de vos données, connectez une solution plus spécialisée intégrée à HubRise ou intégrez votre propre solution. Des partenaires techniques proposant des rapports détaillés sont accessibles via la page Apps du site HubRise, dans la section [Opérations et inventaire](/apps/gestion-et-inventaire#nav).

@@ -45,7 +45,7 @@ To connect Just Eat Takeaway Bridge to HubRise, follow these steps.
 1. Click **Allow** to grant Just Eat Takeaway Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
 1. A new page asks you to provide your Just Eat Takeaway Restaurant ID provided by the Just Eat Takeaway support team. Enter the ID, then click **Save** to complete the connection process.
 
-![Just Eat Takeaway Restaurant ID](../images/001-en-jet-restaurant-id.png)
+![Just Eat Takeaway Restaurant ID](./images/001-jet-restaurant-id.png)
 
 ## 4. Configure Your Preferences
 

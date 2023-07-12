@@ -22,7 +22,7 @@ To check that the webhooks have been created:
 1. Open your WooCommerce back office.
 1. From the left navigation panel, click **WooCommerce > Settings > Advanced**.
 1. Then click on **Webhooks**.
-   ![Entering the ref code in the SKU field for a WooCommerce variation](../images/010-en-woocommerce-webhooks.png)
+   ![Entering the ref code in the SKU field for a WooCommerce variation](./images/010-woocommerce-webhooks.png)
 1. Find two entries with the following names:
    - `HubRise {{your_location_id}}: Order updated`
    - `HubRise {{your_location_id}}: Order created`

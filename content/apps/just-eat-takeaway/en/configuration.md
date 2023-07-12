@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of Just Eat Takeaway Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Just Eat Takeaway Bridge configuration page](../images/002-en-jet-configuration-page.png)
+![Just Eat Takeaway Bridge configuration page](./images/002-jet-configuration-page.png)
 
 ## Language
 

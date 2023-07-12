@@ -11,7 +11,7 @@ meta:
 
 The Configuration page allows you to configure how orders are sent to your EPOS, as well as a few other settings.
 
-![Smood configuration page](../images/003-en-configuration.png)
+![Smood configuration page](./images/003-configuration.png)
 
 To open the configuration page, follow these steps:
 

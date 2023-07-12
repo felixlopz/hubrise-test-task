@@ -28,7 +28,7 @@ Pour configurer la facturation au niveau du compte pour un point de vente spéci
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** associé au point de vente spécifique.
 1. Sélectionnez une entrée dans la liste déroulante **Point de vente**.
 1. Rendez-vous dans **CONFIGURATION**.
-1. Dans la section **Paiement**, cliquez sur **Passer en facturation au niveau du point de vente**. ![Passer en facturation au niveau du point de vente](../images/071-fr-switch-to-location-invoicing.png)
+1. Dans la section **Paiement**, cliquez sur **Passer en facturation au niveau du point de vente**. ![Passer en facturation au niveau du point de vente](./images/071-switch-to-location-invoicing.png)
 
 ### Passer en facturation au niveau du compte
 
@@ -37,7 +37,7 @@ Pour configurer la facturation au niveau du point de vente pour un point de vent
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** associé au point de vente spécifique.
 1. Sélectionnez une entrée dans la liste déroulante **Point de vente**.
 1. Rendez-vous dans **CONFIGURATION**.
-1. Dans la section **Paiement**, cliquez sur **Passer en facturation au niveau du compte**. ![Passer en facturation au niveau du compte](../images/072-fr-switch-to-account-invoicing.png)
+1. Dans la section **Paiement**, cliquez sur **Passer en facturation au niveau du compte**. ![Passer en facturation au niveau du compte](./images/072-switch-to-account-invoicing.png)
 
 Lorsque la facturation au niveau du compte est activée, le cycle de facturation du point de vente est aligné sur celui du compte. Si la date de facturation actuelle du point de vente diffère de celle du compte, les situations suivantes peuvent se produire :
 
@@ -65,7 +65,7 @@ Les informations de facturation incluses dans les factures peuvent être configu
 Pour ajouter ou mettre à jour une méthode de paiement au niveau du compte, procédez comme suit :
 
 1. Rendez-vous dans **CONFIGURATION**.
-1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** concerné, puis faites défiler la page jusqu'à la section **Paiement**. ![Ajouter une méthode de paiement au niveau du compte](../images/073-fr-add-account-payment.png)
+1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** concerné, puis faites défiler la page jusqu'à la section **Paiement**. ![Ajouter une méthode de paiement au niveau du compte](./images/073-add-account-payment.png)
 1. Si aucune méthode de paiement n'existe actuellement, cliquez sur **Ajouter une méthode de paiement**. Si une méthode de paiement est déjà définie, cliquez sur **Modifier votre méthode de paiement**.
 1. Saisissez les informations relatives à votre carte de crédit. Les cartes de crédit doivent être valides pour être acceptées.
 1. Une fois que vous avez terminé, cliquez sur **Enregistrer**.
@@ -74,7 +74,7 @@ Pour ajouter ou mettre à jour une méthode de paiement au niveau du point de ve
 
 1. Rendez-vous dans **CONFIGURATION**.
 1. Si vous avez accès à plusieurs comptes, sélectionnez le **compte** associé au point de vente spécifique.
-1. Sélectionnez une entrée dans la liste déroulante **Point de vente**, puis faites défiler la page jusqu'à la section **Paiement**. ![Ajouter une méthode de paiement au niveau du point de vente](../images/071-fr-switch-to-location-invoicing.png)
+1. Sélectionnez une entrée dans la liste déroulante **Point de vente**, puis faites défiler la page jusqu'à la section **Paiement**. ![Ajouter une méthode de paiement au niveau du point de vente](./images/071-switch-to-location-invoicing.png)
 1. Si aucune méthode de paiement n'existe actuellement, cliquez sur **Ajouter une méthode de paiement**. Si une méthode de paiement est déjà définie, cliquez sur **Modifier votre méthode de paiement**.
 1. Saisissez les informations relatives à votre carte de crédit. Les cartes de crédit doivent être valides pour être acceptées.
 1. Une fois que vous avez terminé, cliquez sur **Enregistrer**.
@@ -124,7 +124,7 @@ Pour afficher l'historique de vos paiements, procédez comme suit :
 
 L'historique de paiement relatif aux comptes regroupe les paiements au niveau du point de vente pour la date concernée.
 
-![Exemple d'historique de paiement](../images/044-fr-2x-payment-history.png)
+![Exemple d'historique de paiement](./images/044-2x-payment-history.png)
 
 La première fois que vous effectuez un paiement, celui-ci est indiqué en tant que **Changement de formule**. Par la suite, les paiements seront répertoriés selon la date de la [période de facturation](docs/payment#billing-cycles). Une fois que vous avez enregistré une méthode de paiement valide, les paiements sont automatisés.
 
@@ -137,4 +137,4 @@ Le détail de chaque facture est consultable directement sur le back-office de H
 
 Les factures peuvent également être sauvegardées au format de fichier PDF en sélectionnant l'icône de téléchargement <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>.
 
-![Exemple de facture](../images/043-fr-2x-invoice-example.png)
+![Exemple de facture](./images/043-2x-invoice-example.png)

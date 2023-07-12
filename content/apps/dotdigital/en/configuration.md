@@ -21,7 +21,7 @@ In the first configuration page, you will need to enter the email and password f
 
 These are necessary to authenticate each request you send to the dotdigital account.
 
-![dotdigital API credentials](../images/001-en-api-credentials.png)
+![dotdigital API credentials](./images/001-api-credentials.png)
 
 Once you are finished, click **Save**.
 
@@ -31,7 +31,7 @@ When the connection to the dotdigital account is established, you will be redire
 
 On the top right corner of the page, you will see the name and id of your HubRise account, and the name of the dotdigital account.
 
-![dotdigital Bridge configuration page](../images/002-en-configuration-page.png)
+![dotdigital Bridge configuration page](./images/002-configuration-page.png)
 
 The Configuration page allows you to customise the behaviour of the dotdigital Bridge based on your preferences.
 These are divided into different categories for an easier navigation.

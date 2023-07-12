@@ -54,7 +54,7 @@ Connecting Just Eat Flyt Bridge allows you to:
 - Push a catalog into Just Eat.
 - Synchronise inventory with HubRise.
 
-![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](../images/000-en-2x-just-eat-connection-diagram.png)
+![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](./images/000-2x-just-eat-connection-diagram.png)
 
 ---
 

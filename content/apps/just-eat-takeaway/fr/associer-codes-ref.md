@@ -13,7 +13,7 @@ Pour attribuer des codes ref à vos produits, veuillez contacter votre responsab
 
 Sinon, vous pouvez également associer les codes ref de façon autonome à partir du back-office de votre portail partenaire Just Eat Takeaway. Accédez à l'onglet **Menu** et indiquez les codes ref dans les champs vides. La capture d'écran suivante illustre la manière de saisir les codes ref dans le back-office.
 
-![Saisie des codes ref sur le portail Just Eat Takeaway](../images/006-fr-jet-entering-ref-codes.png)
+![Saisie des codes ref sur le portail Just Eat Takeaway](../images/006-jet-entering-ref-codes.png)
 
 ---
 

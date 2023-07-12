@@ -32,11 +32,11 @@ Lorsque vous vous connectez à HubRise pour la première fois, vous êtes invit�
 
 ---
 
-![Créer un compte sur HubRise](../images/064-fr-2x-create-account.png)
+![Créer un compte sur HubRise](./images/064-2x-create-account.png)
 
 Une petite entreprise aura un compte avec un seul point de vente, tandis qu'une grande entreprise possédera un compte avec plusieurs points de vente. Pour plus d'informations, voir les rubriques [Comptes](/docs/comptes/) et [Points de vente](/docs/points-de-vente/).
 
-![Exemples de comptes et de points de vente](../images/046-fr-2x-accounts-locations.png)
+![Exemples de comptes et de points de vente](./images/046-2x-accounts-locations.png)
 
 Un profil utilisateur peut avoir accès à plusieurs comptes. Par ailleurs, différents profils d'utilisateurs peuvent avoir accès au même compte avec des niveaux de permissions distincts. Pour plus d'informations, voir la rubrique [Permissions](/docs/permissions/).
 
@@ -54,7 +54,7 @@ L'interface HubRise est organisée selon les sections suivantes :
 - **CONFIGURATION** : ajoutez de nouveaux points de vente, gérez l'accès et les rôles des employés, consultez l'utilisation de la plateforme, et vérifiez l'historique ou les modes de paiement.
 - **DÉVELOPPEUR** : accès destiné aux développeurs, afin de leur permettre d'intégrer de nouvelles applications à HubRise.
 
-![Tableau de bord de HubRise](../images/078-fr-hubrise-dashboard.png)
+![Tableau de bord de HubRise](./images/078-hubrise-dashboard.png)
 
 Si vous souhaitez obtenir une vue d'ensemble des performances d'un compte, sélectionnez **Tous les points de vente**. Si vous souhaitez restreindre les résultats à un seul point de vente dans un compte, sélectionnez ce compte, puis le point de vente correspondant.
 
@@ -65,7 +65,7 @@ Si vous souhaitez obtenir une vue d'ensemble des performances d'un compte, séle
 
 Pour vous connecter à HubRise, consultez la [page de connexion à HubRise](https://manager.hubrise.com/login?locale=fr-FR) ou la [page d'accueil de HubRise](https://www.hubrise.com/fr/). Saisissez votre adresse e-mail et votre mot de passe, puis cliquez sur **Connexion**.
 
-![Écran de connexion de HubRise](../images/001-fr-hubrise-login.png)
+![Écran de connexion de HubRise](./images/001-hubrise-login.png)
 
 ---
 

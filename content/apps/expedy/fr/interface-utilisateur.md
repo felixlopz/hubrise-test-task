@@ -19,7 +19,7 @@ Expedy permet de visualiser le volume d'impression en 30 jours, ainsi que les d�
 
 1. Depuis la page d'accueil de votre back-office Expedy, cliquez sur **Imprimantes**.
 1. Cliquez sur le nom de l'imprimante concernée.
-   ![Interface utilisateur - Graphique des impressions](../images/003-fr-expedy-graphique-impressions.png)
+   ![Interface utilisateur - Graphique des impressions](./images/003-expedy-print-graph.png)
 
 ## Paramètres HubRise
 
@@ -39,7 +39,7 @@ Pour paramétrer ces actions, suivez les étapes suivantes :
 1. Depuis la page d'accueil de votre back-office Expedy, cliquez sur **Imprimantes**.
 1. Cliquez sur le nom de l'imprimante concernée.
 1. Faites défiler vers le bas jusqu'à la section **HubRise**.
-   ![Interface utilisateur - Paramètres HubRise](../images/002-fr-expedy-hubrise-connecte.png)
+   ![Interface utilisateur - Paramètres HubRise](./images/002-expedy-hubrise-connected.png)
 
 ## Paramètres d'impression
 
@@ -50,4 +50,4 @@ Pour configurer la mise en page des tickets, suivez les étapes suivantes :
 1. Depuis la page d'accueil de votre back-office Expedy, cliquez sur **Imprimantes**.
 1. Cliquez sur le nom de l'imprimante concernée.
 1. Faites défiler vers le bas jusqu'à la section **PARAMETRES D'IMPRESSION POUR HUBRISE / SHOPIFY / WIX**.
-   ![Interface utilisateur - Paramètres d'impression](../images/004-fr-expedy-parametres-impression.png)
+   ![Interface utilisateur - Paramètres d'impression](./images/004-expedy-print-settings.png)

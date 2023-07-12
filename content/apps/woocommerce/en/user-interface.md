@@ -24,7 +24,7 @@ Each row in the page shows the following information about an operation:
 
 The **System request** label indicates that the operation is not related to a specific order.
 
-![Operations page of WooCommerce Bridge developed by HubRise](../images/002-en-woocommerce-main-page.png)
+![Operations page of WooCommerce Bridge developed by HubRise](./images/002-woocommerce-main-page.png)
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
@@ -42,7 +42,7 @@ Each row in the logs displays the following information:
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
-![Order logs page on WooCommerce Bridge](../images/003-en-woocommerce-order-page.png)
+![Order logs page on WooCommerce Bridge](./images/003-woocommerce-order-page.png)
 
 Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
@@ -52,7 +52,7 @@ The layout of a system request page is identical to that of an order page.
 
 System requests are generally sent by WooCommerce Bridge to notify HubRise about a change in the configuration or to fetch the most up-to-date information. As an example, the following image displays a request to update the WooCommerce Bridge callback after a configuration change.
 
-![System request page on WooCommerce Bridge](../images/004-en-woocommerce-system-request-page.png)
+![System request page on WooCommerce Bridge](./images/004-woocommerce-system-request-page.png)
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
@@ -66,7 +66,7 @@ From the actions page, you can push the catalog to WooCommerce. For more details
 
 To access the WooCommerce Bridge configuration page, click **Configuration** at the top of the screen.
 
-![WooCommerce Bridge configuration page](../images/005-en-woocommerce-configuration-page.png)
+![WooCommerce Bridge configuration page](./images/005-woocommerce-configuration-page.png)
 
 From this page, you will be able to customise the behaviour of WooCommerce Bridge. For more details, see [Configuration](/apps/woocommerce/configuration).
 

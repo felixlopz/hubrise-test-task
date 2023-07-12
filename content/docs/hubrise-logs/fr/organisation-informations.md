@@ -34,7 +34,7 @@ Prenons par exemple la phrase : « La pizza margherita a une taille de 30 cm 
 
 Le schéma suivant illustre la manière dont les informations de cet exemple sont organisées en trois niveaux différents.
 
-![Objets JSON](../images/001-fr-2x-nested-json-object.png)
+![Objets JSON](./images/001-2x-nested-json-object.png)
 
 La clé principale, « pizza margherita », est rattachée à une valeur qui est en fait un objet JSON. Notons la présence des accolades au-dessus des deux clés « taille » et « prix », et leurs valeurs relatives.
 
@@ -57,7 +57,7 @@ Dans certains cas, une même clé peut comporter plusieurs valeurs. Prenons par 
 
 Cette situation est illustrée dans le diagramme suivant.
 
-![Liste d'éléments JSON](../images/002-fr-2x-json-list.png)
+![Liste d'éléments JSON](./images/002-2x-json-list.png)
 
 Le nœud principal, « pizza margherita », est toujours lié à un objet JSON qui possède une seule clé : « ingrédients ». Cette clé, à son tour, est associée à une _liste_ de deux valeurs ; notez le crochet au-dessus de celles-ci dans le diagramme.
 

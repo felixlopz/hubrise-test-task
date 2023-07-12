@@ -19,17 +19,17 @@ The following options are available through the **Settings** menu:
 
 In **Settings** > **General**, you can select the display language. OrderLine currently supports **English** and **French**.
 
-![General Settings](../images/009-2x-en-settings-general.png)
+![General Settings](./images/009-2x-settings-general.png)
 
 ## Order Status
 
 In **Settings** > **Order status**, you can configure the order status flow, which determines the statuses that an order can change to from the current status. Customise status flows to best match your operational workflow.
 
-![Settings status](../images/014-2x-en-settings-order-status.png)
+![Settings status](./images/014-2x-settings-order-status.png)
 
 Orders always start with **New**, but can proceed in different ways, depending on how you set up the status flow. For example, a status flow might allow orders to be **Accepted**, then **In delivery**, then ending with **Completed**, with every status except **Completed** able to lead to **Rejected**.
 
-![Status flow example](../images/010-en-2x-status-flow-example.png)
+![Status flow example](./images/010-2x-status-flow-example.png)
 
 You can use the OrderLine standard status flow, simplify it, or personalise it completely to match the way you work.
 
@@ -70,7 +70,7 @@ To prompt the user to update the **Delivery Time** based on the status, follow t
 1. Select the status list under **Prompt for expected delivery time...**
 1. Select the <InlineImage width="40" height="42">![OrderLine Plus Icon](../images/034-orderline-status-add-specific.jpg)</InlineImage> plus symbol to set a status a user can select from. To remove all options, select **Uncheck all**. The <InlineImage width="40" height="40">![OrderLine Status Added Checkmark Icon](../images/037-orderline-status-added.jpg)</InlineImage> checkbox symbol indicates that status was already selected.
 
-![Status flow example](../images/012-2x-en-add-prompt-in-delivery.png)
+![Status flow example](./images/012-2x-add-prompt-in-delivery.png)
 
 Users can be prompted to add a comment when an order is set to a specific status, which will be related to the client. Use these steps to prompt users for a comment based on the new order status:
 
@@ -87,7 +87,7 @@ To hide Orders from the **Today's Orders** list, follow these steps:
 1. Select the status list under **Hide orders in these statuses from Today's orders list**.
 1. Select the <InlineImage width="40" height="42">![OrderLine Plus Icon](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbol to hide an order with this status. To remove all options, select **Uncheck all**. The <InlineImage width="40" height="40">![OrderLine Status Added Checkmark Icon](../images/037-orderline-status-added.jpg)</InlineImage> indicates that status was already selected.
 
-![Status flow example](../images/015-2x-en-setting-hidden-completed.png)
+![Status flow example](./images/015-2x-setting-hidden-completed.png)
 
 ## Notifications
 
@@ -103,5 +103,5 @@ The following settings are available:
 
 Different ringtones produce varying levels of sharpness. Choose the tone that aligns with your preference and suits your environment. Remember, volume adjustments can only be made through your device settings, not in OrderLine. If your device's sound isn't loud enough for a noisy workspace, consider connecting to an external Bluetooth speaker.
 
-![Notifications settings](../images/016-2x-en-settings-notifications.png)
+![Notifications settings](./images/016-2x-settings-notifications.png)
 

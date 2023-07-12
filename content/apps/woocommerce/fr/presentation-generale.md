@@ -6,10 +6,10 @@ meta:
   title: Présentation générale | WooCommerce | HubRise
   description: Présentation générale de WooCommerce, les raisons de connecter votre site WooCommerce à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-en-001.jpg
-  - __gallery-en-002.png
-  - __gallery-en-003.png
-  - __gallery-en-004.png
+  - __gallery-001.jpg
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 path_override: /
 app_info:
   category: Commande en ligne

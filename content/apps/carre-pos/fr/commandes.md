@@ -13,16 +13,16 @@ Lorsque Carré POS est connecté à HubRise, les commandes envoyées à HubRise 
 
 Pour voir la liste des commandes dans le back-office de Carré POS, sélectionnez **HubRise** > **Résumé des commandes** dans le menu principal.
 
-![Commandes - Résumé des commandes](../images/011-fr-carre-pos-resume-commandes.png)
+![Commandes - Résumé des commandes](./images/011-carre-pos-order-summary.png)
 
 Pour voir la liste des nouvelles commandes dans le logiciel de caisse, suivez les étapes suivantes :
 
 1. Depuis l'écran de démarrage de Carré POS, cliquez sur **ACCUEIL**.
 1. Sélectionnez un utilisateur.
-   ![Commandes - Menu d'accueil](../images/013-fr-carre-pos-menu-accueil.png)
+   ![Commandes - Menu d'accueil](./images/013-carre-pos-home-menu.png)
 1. Cliquez sur **ECRANS DE PREPARATION**.
 1. Sélectionnez un écran de cuisine. Les nouvelles commandes reçues sont listées ici.
-   ![Commandes - Écran de cuisine](../images/014-fr-carre-pos-ecran-cuisine.png)
+   ![Commandes - Écran de cuisine](./images/014-carre-pos-kds.png)
 
 ### Commande avec des produits inconnus
 
@@ -48,7 +48,7 @@ Pour voir les détails d'une commande dans Carré POS :
 
 1. Suivez les étapes décrites dans [Recevoir des commandes](/apps/carre-pos/commandes#recevoir-des-commandes) pour accéder à la liste des commandes.
 1. Cliquez sur **Details** sur la ligne correspondant à la commande.
-   ![Commandes - Détails d'une commande](../images/012-fr-carre-pos-details-commande.png)
+   ![Commandes - Détails d'une commande](./images/012-carre-pos-order-details.png)
 
 ## Envoyer les commandes
 

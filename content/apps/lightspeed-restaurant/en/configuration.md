@@ -10,7 +10,7 @@ meta:
 The configuration page allows you to customise the behaviour of Lightspeed Restaurant Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Lightspeed Restaurant Bridge configuration page](../images/014-en-configuration-page.png)
+![Lightspeed Restaurant Bridge configuration page](./images/014-configuration-page.png)
 
 ## Language
 

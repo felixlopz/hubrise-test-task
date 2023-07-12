@@ -17,8 +17,6 @@ app_info:
   contact: contact@hubrise.com
 ---
 
-[comment]: # "Include 003-en-2x-tablet-view.png & 002-en-2x-smartphone-view.png to the gallery once designed in the relevant hardware"
-
 OrderLine permet de recevoir et d'imprimer les commandes venant d'autres applications connectées à HubRise, telles que :
 
 - Les solutions de commande en ligne pour les commerces et restaurants.

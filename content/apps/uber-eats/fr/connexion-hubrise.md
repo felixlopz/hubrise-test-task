@@ -47,7 +47,7 @@ Maintenant que vous disposez de votre UUID de magasin Uber Eats, vous pouvez con
 1. Cliquez sur **Autoriser** pour donner à Uber Eats Bridge l'accès aux données HubRise de votre restaurant. Si votre compte possède plusieurs points de vente, développez **Tous les points de vente** et choisissez le point de vente à connecter, puis cliquez sur **Autoriser**.
 1. Une nouvelle page vous demande d'indiquer votre UUID de magasin Uber Eats. Entrez l'UUID de magasin, puis cliquez sur **Enregistrer** pour terminer le processus de connexion.
 
-![UUID de magasin Uber Eats](../images/001-fr-store-uuid.png)
+![UUID de magasin Uber Eats](./images/001-store-uuid.png)
 
 ## 3. Configurez vos préférences
 

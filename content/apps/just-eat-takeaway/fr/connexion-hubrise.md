@@ -62,7 +62,7 @@ Pour connecter Just Eat Takeaway Bridge à HubRise, procédez comme suit :
 1. Cliquez sur **Autoriser** pour donner à Just Eat Takeaway Bridge l'accès aux données HubRise de votre restaurant. Si votre compte possède plusieurs points de vente, développez **Tous les points de vente**, choisissez le point de vente à connecter, puis cliquez sur **Autoriser**.
 1. Une nouvelle page vous demande d'indiquer votre identifiant de restaurant Just Eat Takeaway. Entrez l'identifiant, puis cliquez sur **Enregistrer** pour terminer le processus de connexion.
 
-![Identifiant de restaurant Just Eat Takeaway](../images/001-fr-jet-restaurant-id.png)
+![Identifiant de restaurant Just Eat Takeaway](./images/001-jet-restaurant-id.png)
 
 ## 4. Configurez vos préférences
 

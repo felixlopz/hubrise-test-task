@@ -13,9 +13,9 @@ Pour attribuer des codes ref à vos produits Uber Eats, procédez comme suit :
 
 1. Connectez-vous à votre [back-office Uber Eats](https://restaurant.uber.com/).
 1. Si vous n'exploitez qu'un seul magasin Uber Eats, sélectionnez **Menu** dans le menu de gauche. Si vous possédez plusieurs magasins Uber Eats, choisissez le bon dans le menu déroulant, puis sélectionnez **Menu**.
-1. Dans le menu supérieur, sélectionnez **Plats**. ![Back-office Uber Eats](../images/007-fr-uber-eats-back-office.png)
+1. Dans le menu supérieur, sélectionnez **Plats**. ![Back-office Uber Eats](./images/007-uber-eats-back-office.png)
 1. Cliquez sur le produit ou l'option que vous souhaitez modifier dans la liste des plats, puis faites défiler la page vers le bas.
-1. Cliquez sur la section **Détails supplémentaires** pour la développer. ![Page Articles d'Uber Eats](../images/008-fr-uber-eats-item-page.png)
+1. Cliquez sur la section **Détails supplémentaires** pour la développer. ![Page Articles d'Uber Eats](./images/008-uber-eats-item-page.png)
 1. Entrez le code ref dans le champ **Données externes**.
 1. Cliquez sur **Enregistrer** pour revenir à la liste des produits.
 

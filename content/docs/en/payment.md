@@ -29,7 +29,7 @@ To set up Location level invoicing for a specific Location, follow these steps:
 1. Select the Location from the **Location** dropdown.
 1. Go to **SETTINGS**.
 1. Under **Payment**, click **Switch to location level invoicing**.
-   ![Switch to Location level invoicing](../images/071-en-switch-to-location-invoicing.png)
+   ![Switch to Location level invoicing](./images/071-switch-to-location-invoicing.png)
 
 ### Switch To Account Level Invoicing
 
@@ -39,7 +39,7 @@ To set up Account level invoicing for a specific Location, follow these steps:
 1. Select the Location from the **Location** dropdown.
 1. Go to **SETTINGS**.
 1. Under **Payment**, click **Switch to account level invoicing**.
-   ![Switch to Account level invoicing](../images/072-en-switch-to-account-invoicing.png)
+   ![Switch to Account level invoicing](./images/072-switch-to-account-invoicing.png)
 
 With Account level invoicing, the Location billing cycle will match the Account billing cycle. If the current billing date for the Location is different from that of the Account, the following situations can happen:
 
@@ -68,7 +68,7 @@ To add or update a payment method at the Account level, follow these steps:
 
 1. Go to **SETTINGS**.
 1. If you have access to multiple Accounts, select the **Account**, then scroll down to the **Payment** section.
-   ![Add payment method at the Account level](../images/073-en-add-account-payment.png)
+   ![Add payment method at the Account level](./images/073-add-account-payment.png)
 1. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
 1. Enter your credit card information. Credit cards must be valid to be accepted.
 1. When finished, click **Save**.
@@ -78,7 +78,7 @@ To add or update a payment method at the Location level, follow these steps:
 1. Go to **SETTINGS**.
 1. If you have access to multiple Accounts, select the **Account** containing the specific Location.
 1. Select the Location from the **Location** dropdown, then scroll down to the **Payment** section.
-   ![Add payment method at the Location level](../images/071-en-switch-to-location-invoicing.png)
+   ![Add payment method at the Location level](./images/071-switch-to-location-invoicing.png)
 1. If there is no existing payment method, click **Add payment method**. If there is a previously set method, click **Change your payment method**.
 1. Enter your credit card information. Credit cards must be valid to be accepted.
 1. When finished, click **Save**.
@@ -128,7 +128,7 @@ To view your payments history:
 
 Payment history for Accounts will group Location payments for the date.
 
-![Payment history example](../images/044-en-2x-payment-history.png)
+![Payment history example](./images/044-2x-payment-history.png)
 
 The first time you make a payment, the payment is identified as **Plan upgrade**. Subsequent payments will be listed with the date of the [billing period](docs/payment#billing-cycles). Once you have a valid payment method saved, payments are automated.
 
@@ -141,4 +141,4 @@ Details within each invoice can be viewed directly on the HubRise back office by
 
 Invoices can also be saved as PDF files by selecting the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>.
 
-![Invoice example](../images/043-en-2x-invoice-example.png)
+![Invoice example](./images/043-2x-invoice-example.png)

@@ -41,7 +41,7 @@ When your payment method is set up, the first request for payment should be char
 1. In your HubRise back office, click on **SETTINGS**.
 2. In the **Requests for payment** section, review the details of the outstanding payment. You can see the description of the payment, the payment deadline, and the total amount due. Depending on your setup, requests for payment might be available at Account or Location levels.
 3. Click the <InlineImage width="17" height="17">![Cart icon](../../images/068-cart-icon.png)</InlineImage> cart icon under **PAY**.
-   ![Pay your first invoice for an outstanding HubRise invoice](../../images/069-en-outstanding-payment.png)
+   ![Pay your first invoice for an outstanding HubRise invoice](./images/069-outstanding-payment.png)
 4. Follow the instructions to complete the payment.
 
 ---

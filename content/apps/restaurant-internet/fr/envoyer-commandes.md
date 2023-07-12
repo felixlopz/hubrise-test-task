@@ -12,7 +12,7 @@ Dès que Restaurant-internet est connecté à HubRise, les commandes enregistré
 ## Liste des commandes
 
 Pour accéder à la liste des commandes passées sur votre site Restaurant-internet, cliquez sur **Commandes** dans la barre de menu principale.
-![Commandes - Liste des commandes](../images/009-fr-restaurant-internet-liste-commandes.png)
+![Commandes - Liste des commandes](./images/009-restaurant-internet-order-list.png)
 
 ## Synchronisation des statuts de commande
 

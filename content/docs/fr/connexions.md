@@ -42,13 +42,13 @@ Certaines applications doivent être connectées au niveau de **tous les points 
 
 Certaines applications sont accessibles depuis HubRise. Si tel est le cas, vous pouvez ouvrir l'application en cliquant sur **CONNEXIONS** et en sélectionnant **Ouvrir** pour l'application en question. Celle-ci s'ouvrira alors dans une nouvelle fenêtre de votre navigateur.
 
-![Connexion à HubRise - Ouvrir une application](../images/011-fr-2x-connections-open-app.png)
+![Connexion à HubRise - Ouvrir une application](./images/011-2x-connections-open-app.png)
 
 ## Afficher l'activité de connexion
 
 Pour afficher un graphique montrant le nombre de transactions enregistrées au cours des 30 derniers jours, sélectionnez **CONNEXIONS** > **Actions** > **Afficher l'activité**. C'est un moyen pratique de vérifier si des transactions transitent via la connexion.
 
-![Connexion à HubRise - Activité affichée](../images/080-fr-connection-activity.png)
+![Connexion à HubRise - Activité affichée](./images/080-connection-activity.png)
 
 ---
 
@@ -64,7 +64,7 @@ Pour afficher les logs relatifs à une connexion, sélectionnez **CONNEXIONS** >
 
 Les logs enregistrent les requêtes de connexion adressées à HubRise par une application. Chaque requête constitue une transaction entre une application et HubRise, telle qu'une commande, l'enregistrement d'un nouveau client ou toute autre communication entre une application et HubRise.
 
-![Logs de connexion à HubRise](../images/050-fr-2x-connection-logs.png)
+![Logs de connexion à HubRise](./images/050-2x-connection-logs.png)
 
 ### Informations générales
 
@@ -74,7 +74,7 @@ En haut de la page **Logs de connexion** figurent des informations générales r
 - **Portée** : permissions de connexion, par exemple le fait que la connexion accède au compte ou à un point de vente unique, l'accès en lecture/écriture défini sur les données, etc.
 - **Liste de clients** et **Catalogue** : selon la portée, des lignes supplémentaires peuvent indiquer l'identifiant des ressources auxquelles l'accès a été octroyé, telles que la liste de clients ou le catalogue.
 
-![Logs d'informations générales de HubRise](../images/051-fr-2x-general-information-logs.png)
+![Logs d'informations générales de HubRise](./images/051-2x-general-information-logs.png)
 
 ### Filtre
 
@@ -83,7 +83,7 @@ Les logs peuvent être filtrés par ressource et par méthode en procédant comm
 1. Sélectionnez **Éditer**.
 1. Sélectionnez les ressources et les méthodes que vous souhaitez afficher. Pour afficher tous les enregistrements disponibles dans les logs, désélectionnez l'ensemble des ressources et des méthodes, ou cliquez sur **Réinitialiser**.
 
-![Filtre de connexion à HubRise](../images/052-fr-2x-filter-logs.png)
+![Filtre de connexion à HubRise](./images/052-2x-filter-logs.png)
 
 ### Les logs
 
@@ -127,4 +127,4 @@ Pour bloquer ou déconnecter une application dans HubRise, procédez comme suit�
 2. Recherchez l'application souhaitée, puis cliquez sur **Actions** > **Bloquer** ou **Déconnecter**.
 3. Cliquez sur **Confirmer**.
 
-![Connexion à HubRise - Supprimer une application](../images/014-fr-2x-connections-disconnect-app.png)
+![Connexion à HubRise - Supprimer une application](./images/014-2x-connections-disconnect-app.png)

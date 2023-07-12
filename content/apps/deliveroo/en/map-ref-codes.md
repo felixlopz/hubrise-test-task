@@ -20,14 +20,14 @@ To assign ref codes to your Deliveroo products with the Menu Manager tool in Del
 1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net/).
 1. From the menu on the left, select **Menus**.
 1. Click **Edit menu**. If you have multiple menus, make sure you edit the correct one.
-   ![Deliveroo back office](../images/008-en-deliveroo-back-office.png)
+   ![Deliveroo back office](./images/008-deliveroo-back-office.png)
 1. Click on the <InlineImage width="24" height="24">![Triple dot icon](../images/triple-dot.png)</InlineImage> symbol next to the menu description, then select **Add Point of Sale IDs (PLUs)**. Make sure you do not accidentally click on the triple dot button next to an item category.
-   ![Deliveroo Edit menu page](../images/009-en-deliveroo-edit-menu-page.png)
+   ![Deliveroo Edit menu page](./images/009-deliveroo-edit-menu-page.png)
 1. Enter the correct ref code for each product in the list.
-   ![Deliveroo Add PLUs pop-up window](../images/010-en-deliveroo-add-plus.png)
+   ![Deliveroo Add PLUs pop-up window](./images/010-deliveroo-add-plus.png)
 1. Click **Save** to confirm the mapping.
 1. Click **Publish** to finalise your mapping. Changes to the menu will be available online only after you publish them.
-   ![Deliveroo Publish menu button](../images/012-en-deliveroo-publish-menu.png)
+   ![Deliveroo Publish menu button](./images/012-deliveroo-publish-menu.png)
 
 ---
 

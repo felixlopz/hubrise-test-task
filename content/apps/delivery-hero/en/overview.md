@@ -37,7 +37,7 @@ Connecting Delivery Hero Bridge allows HubRise to:
 - Pull orders from Delivery Hero, including order status.
 - Pull delivery information from Delivery Hero, for orders delivered by the restaurant.
 
-![Diagram of the connection workflow between Delivery Hero, Delivery Hero Bridge, and HubRise](../images/000-en-2x-delivery-hero-connection-diagram.png)
+![Diagram of the connection workflow between Delivery Hero, Delivery Hero Bridge, and HubRise](./images/000-2x-delivery-hero-connection-diagram.png)
 
 ## Why connect?
 

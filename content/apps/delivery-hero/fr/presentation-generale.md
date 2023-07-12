@@ -38,7 +38,7 @@ Connecter Delivery Hero à HubRise permet à votre plateforme de livraison de re
 - Envoyer les commandes à HubRise, dont les statuts de commande.
 - Envoyer les informations de livraison, pour les commandes livrées par votre équipe.
 
-![Diagramme du flux de connexion entre Delivery Hero, Delivery Hero Bridge, et HubRise](../images/000-fr-2x-delivery-hero-diagramme-connexion.png)
+![Diagramme du flux de connexion entre Delivery Hero, Delivery Hero Bridge, et HubRise](./images/000-2x-delivery-hero-connection-diagram.png)
 
 ## Pourquoi se connecter ?
 

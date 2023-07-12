@@ -20,10 +20,10 @@ Les SKUs dans HubRise correspondent aux items de variation dans La Toque Magique
 Pour modifier le code ref d'une SKU, suivez ces étapes :
 
 1. En mode gestion d'enseigne, sélectionnez **Produit** dans le menu latéral, puis **Liste des Produits**.
-   ![Associer les codes ref - Liste de produits](../images/006-fr-liste-produits.png)
+   ![Associer les codes ref - Liste de produits](./images/006-list-products.png)
 2. Cliquez sur l'icône éditer du produit.
 3. Dans la page d'édition du produit, dans la section **Liste des items de variation**, cliquez sur l'icône éditer de la SKU choisie.
-   ![Associer les codes ref - Éditer un produit](../images/007-fr-editer-produit.png)
+   ![Associer les codes ref - Éditer un produit](./images/007-edit-product.png)
 4. Renseignez le code ref dans le champ **Référence externe**.
 5. Cliquez à gauche sur l'icône en forme de **v** pour valider.
 
@@ -35,7 +35,7 @@ Pour modifier le code ref d'une option, suivez ces étapes :
 
 1. En mode gestion d'enseigne, sélectionnez **Produit** dans le menu latéral, puis **Liste d'options** et enfin **Liste de Listes d'options**.
 2. Cliquez sur l'icône éditer de la liste d'options à éditer.
-   ![Associer les codes ref - Éditer une option](../images/008-fr-editer-option.png)
+   ![Associer les codes ref - Éditer une option](./images/008-edit-option.png)
 3. Sous le libellé **Liste d'options**, cliquez sur l'icône éditer de l'option à éditer.
 4. Renseignez le code ref dans le champ **Référence externe**
 5. Cliquez sur l'icône en forme de **v** pour valider.

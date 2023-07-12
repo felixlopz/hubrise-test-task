@@ -22,7 +22,7 @@ Each row in the page shows the following information about an operation:
 - **DESCRIPTION**: An optional description for operations that are not related to a specific order. It could be empty, or inform of a `System request` or a `Catalog push`.
 - **STATUS**: The status of the order. The value `OK` indicates that the order has been successfully sent, otherwise an error code will be displayed in red.
 
-![Operations page of Just Eat Flyt Bridge developed by HubRise](../images/003-en-just-eat-main-page.png)
+![Operations page of Just Eat Flyt Bridge developed by HubRise](./images/003-just-eat-main-page.png)
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
@@ -40,7 +40,7 @@ Each row in the logs displays the following information:
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
-![Order logs page on Just Eat Flyt Bridge](../images/004-en-just-eat-order-logs.png)
+![Order logs page on Just Eat Flyt Bridge](./images/004-just-eat-order-logs.png)
 
 Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
@@ -50,7 +50,7 @@ The layout of a system request page is identical to that of an order page.
 
 System requests are generally sent by Just Eat Flyt Bridge to notify HubRise about a change in the configuration or to fetch the most up-to-date information. As an example, the following image displays a request to update the Just Eat Flyt Bridge callback after a configuration change.
 
-![System request page on Just Eat Flyt Bridge](../images/005-en-just-eat-system-request.png)
+![System request page on Just Eat Flyt Bridge](./images/005-just-eat-system-request.png)
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
@@ -58,7 +58,7 @@ System request pages can provide useful debugging insights to support teams, but
 
 To access the Just Eat Flyt Bridge configuration page, click **Configuration** at the top of the screen.
 
-![Just Eat Flyt Bridge configuration page](../images/002-en-just-eat-configuration-page.png)
+![Just Eat Flyt Bridge configuration page](./images/002-just-eat-configuration-page.png)
 
 From this page, you will be able to customise the behaviour of Just Eat Flyt Bridge. For more details, see [Configuration](/apps/just-eat-flyt/configuration).
 
