@@ -1,17 +1,17 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | TastyCloud | HubRise
   description: TastyCloud overview, reasons for connecting TastyCloud to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-path_override: /
+- __gallery-001.png
 app_info:
   category: Online Ordering
   availability: France
-  price_range:
+  price_range: 
   website: https://www.tastycloud.fr
   contact: contact@tastycloud.fr / +33 1 88 32 06 70
 ---

@@ -1,5 +1,6 @@
 ---
 title: Manage Orders
+path_override: manage-orders
 position: 5
 layout: documentation
 meta:

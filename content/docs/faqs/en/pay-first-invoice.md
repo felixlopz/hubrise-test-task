@@ -1,5 +1,6 @@
 ---
 title: How Do I Pay For My First Invoice?
+path_override: pay-first-invoice
 position: 15
 layout: documentation
 meta:

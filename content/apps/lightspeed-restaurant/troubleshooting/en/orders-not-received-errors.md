@@ -1,5 +1,6 @@
 ---
 title: Orders Not Received
+path_override: orders-not-received-errors
 position: 10
 layout: documentation
 meta:

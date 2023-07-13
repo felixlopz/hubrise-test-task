@@ -1,5 +1,6 @@
 ---
 title: Settings
+path_override: settings
 position: 6
 layout: documentation
 meta:

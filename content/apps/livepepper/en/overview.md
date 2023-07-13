@@ -1,20 +1,20 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | LivePepper | HubRise
   description: LivePepper overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-  - __gallery-004.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
+- __gallery-004.png
 app_info:
   category: Online Ordering
   availability: Worldwide
-  price_range: €69-€109 / month
+  price_range: "€69-€109 / month"
   website: https://www.livepepper.com
   contact: contact@livepepper.com / +33 4 92 38 09 82
 ---

@@ -1,5 +1,6 @@
 ---
 title: How Do I Connect Multiple LivePepper Branches to HubRise Locations ?
+path_override: connect-branches-hubrise-accounts
 position: 2
 layout: documentation
 meta:

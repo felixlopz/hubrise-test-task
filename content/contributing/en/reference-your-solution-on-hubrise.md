@@ -1,5 +1,6 @@
 ---
 title: Reference Your Solution on HubRise
+path_override: reference-your-solution-on-hubrise
 position: 3
 layout: documentation
 meta:

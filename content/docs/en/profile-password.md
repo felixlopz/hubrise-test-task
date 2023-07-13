@@ -1,5 +1,6 @@
 ---
 title: Profile and Password
+path_override: profile-password
 position: 6
 layout: documentation
 meta:

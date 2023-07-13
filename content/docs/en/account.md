@@ -1,5 +1,6 @@
 ---
 title: Account
+path_override: account
 position: 7
 layout: documentation
 meta:

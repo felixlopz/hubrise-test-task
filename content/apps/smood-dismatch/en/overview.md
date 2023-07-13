@@ -1,17 +1,17 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Smood | HubRise
   description: Dismatch by Smood overview, reasons for connecting your delivery service to HubRise and summary of integrated features. Synchronise data between all your apps.
-path_override: /
 app_info:
   category: Delivery Management
   availability: Switzerland
-  price_range:
+  price_range: 
   website: https://www.smood.ch/en
-  contact:
+  contact: 
 ---
 
 ---

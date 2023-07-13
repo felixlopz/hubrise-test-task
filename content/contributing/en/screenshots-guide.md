@@ -1,5 +1,6 @@
 ---
 title: Screenshots Guide
+path_override: screenshots-guide
 position: 4
 layout: documentation
 meta:

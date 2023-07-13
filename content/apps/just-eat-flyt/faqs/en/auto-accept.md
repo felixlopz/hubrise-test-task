@@ -1,5 +1,6 @@
 ---
 title: Do I Want Auto-Accept Activated on Just Eat?
+path_override: auto-accept
 position: 2
 layout: documentation
 meta:

@@ -1,20 +1,20 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Delicity | HubRise
   description: Delicity overview, reasons for connecting Delicity to HubRise and summary of integrated features. Synchronise data between your EPOS, Delicity and your other apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Food Ordering Platforms
   availability: France
-  price_range:
+  price_range: 
   website: https://delicity.com
-  contact: +33 4 83 58 06 48
+  contact: "+33 4 83 58 06 48"
 ---
 
 ## Description

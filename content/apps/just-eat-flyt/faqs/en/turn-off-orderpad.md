@@ -1,5 +1,6 @@
 ---
 title: Can I Turn Off the Orderpad?
+path_override: turn-off-orderpad
 position: 1
 layout: documentation
 meta:

@@ -1,11 +1,11 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Store Factory | HubRise
   description: Store Factory overview, reasons for connecting Store Factory  to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
 ---
 
 ---

@@ -1,17 +1,16 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | UPXP | HubRise
   description: UPXP overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your Loyalty management solution and your apps.
-gallery:
-
-path_override: /
+gallery: 
 app_info:
   category: Loyalty and Marketing
   availability: United Kingdom, France
-  price_range:
+  price_range: 
   website: https://upxp.pro
   contact: contact@upxp.pro
 ---

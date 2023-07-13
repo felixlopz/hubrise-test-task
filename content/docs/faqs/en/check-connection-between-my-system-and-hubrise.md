@@ -1,5 +1,6 @@
 ---
 title: How Do I Check if the Connection Between My System and HubRise Is Working?
+path_override: check-connection-between-my-system-and-hubrise
 position: 90
 layout: documentation
 meta:

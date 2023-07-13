@@ -1,10 +1,11 @@
 ---
 title: Account Management
+path_override: account-management
 position: 3
 layout: documentation
 meta:
   title: Account Management | API | HubRise
-  description:
+  description: 
 ---
 
 ## 1. Location

@@ -1,15 +1,15 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Delivery Hero | HubRise
   description: Delivery Hero overview, reasons for connecting Delivery Hero to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
 app_info:
   category: Food Ordering Platforms
   availability: Worldwide
-  price_range:
+  price_range: 
   website: https://www.deliveryhero.com
   contact: info@deliveryhero.com
 ---

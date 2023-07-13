@@ -1,5 +1,6 @@
 ---
 title: User Interface
+path_override: user-interface
 position: 4
 layout: documentation
 meta:

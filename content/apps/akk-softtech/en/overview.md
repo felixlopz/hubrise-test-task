@@ -1,15 +1,15 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | AKK Softtech | HubRise
   description: AKK Softtech overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between AKK Softtech and your other apps.
-path_override: /
 app_info:
   category: Point of Sales
   availability: United Kingdom, Thailand
-  price_range:
+  price_range: 
   website: http://www.akksofttech.com
   contact: akksofttechuk@hotmail.com / +66 62 698 1988
 ---

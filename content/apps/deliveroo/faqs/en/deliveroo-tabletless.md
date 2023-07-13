@@ -1,5 +1,6 @@
 ---
 title: Can I Stop Using the Deliveroo Tablet?
+path_override: deliveroo-tabletless
 position: 3
 layout: documentation
 meta:

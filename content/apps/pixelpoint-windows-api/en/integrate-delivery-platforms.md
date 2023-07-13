@@ -1,5 +1,6 @@
 ---
 title: Food Delivery Platforms
+path_override: integrate-delivery-platforms
 position: 5
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Usage and Plans
+path_override: usage-plan
 position: 9
 layout: documentation
 meta:

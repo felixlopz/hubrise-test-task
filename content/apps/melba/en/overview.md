@@ -1,26 +1,26 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Melba by Foodmeup | HubRise
   description: Melba overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your [EPOS] and your other apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-  - __gallery-004.png
-  - __gallery-005.png
-  - __gallery-006.png
-  - __gallery-007.png
-  - __gallery-008.png
-  - __gallery-009.png
-  - __gallery-010.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
+- __gallery-004.png
+- __gallery-005.png
+- __gallery-006.png
+- __gallery-007.png
+- __gallery-008.png
+- __gallery-009.png
+- __gallery-010.png
 app_info:
   category: Operations and Inventory
   availability: France
-  price_range:
+  price_range: 
   website: https://melba.io/en
   contact: contact@foodmeup.io
 ---

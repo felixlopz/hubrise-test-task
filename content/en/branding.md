@@ -1,5 +1,6 @@
 ---
 title: Branding Guidelines
+path_override: branding
 layout: documentation-simple
 meta:
   title: Branding Guidelines, Logos and Text to use | HubRise

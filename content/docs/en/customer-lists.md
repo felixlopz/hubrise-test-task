@@ -1,5 +1,6 @@
 ---
 title: Customer Lists
+path_override: customer-lists
 position: 13
 layout: documentation
 meta:

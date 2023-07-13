@@ -1,5 +1,6 @@
 ---
 title: Check Restrictions Error
+path_override: check-restrictions-error
 position: 5
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Style Guide
+path_override: style-guide
 position: 2
 layout: documentation
 meta:

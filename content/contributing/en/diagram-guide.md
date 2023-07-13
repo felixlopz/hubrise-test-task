@@ -1,5 +1,6 @@
 ---
 title: Diagram Guide
+path_override: diagram-guide
 position: 6
 layout: documentation
 meta:

@@ -1,20 +1,20 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Inpulse | HubRise
   description: Inpulse overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between Inpulse, your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Inventory and Operations Management
   availability: France
-  price_range:
+  price_range: 
   website: https://link.inpulse.ai/hubrise
-  contact: +33 1 87 66 15 91 / support@inpulse.ai
+  contact: "+33 1 87 66 15 91 / support@inpulse.ai"
 ---
 
 ---

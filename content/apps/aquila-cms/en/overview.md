@@ -1,18 +1,18 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Aquila | HubRise
   description: Aquila CMS overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Online Ordering
   availability: France
-  price_range:
+  price_range: 
   website: https://www.aquila-cms.com/
   contact: contact@nextsourcia.com
 ---

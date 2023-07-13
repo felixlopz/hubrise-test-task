@@ -1,5 +1,6 @@
 ---
 title: How Do I Connect My Aquila Site With Multiple Locations to an Existing HubRise Account?
+path_override: connect-site-with-multiple-locations-to-existing-hubrise-account
 position: 1
 layout: documentation
 meta:

@@ -1,19 +1,19 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Popina | HubRise
   description: Popina overview, reasons for connecting Popina to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps.
 gallery:
-  - __gallery-001.png
-path_override: /
+- __gallery-001.png
 app_info:
   category: Point of Sales
   availability: France, Switzerland, Spain
   price_range: From 39€ / month
   website: https://www.popina.com/fr
-  contact: +33 1 76 36 13 64 / contact@popina.com
+  contact: "+33 1 76 36 13 64 / contact@popina.com"
 ---
 
 ---

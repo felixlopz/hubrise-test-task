@@ -1,5 +1,6 @@
 ---
 title: How Do I Keep Sound Notifications Enabled?
+path_override: keep-sound-notifications-enabled
 position: 1
 layout: documentation
 meta:

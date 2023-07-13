@@ -1,5 +1,6 @@
 ---
 title: Open & Close Catalog Manager
+path_override: open-close-catalog-manager
 position: 3
 layout: documentation
 meta:

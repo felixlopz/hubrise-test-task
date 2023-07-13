@@ -1,5 +1,6 @@
 ---
 title: What Are Primary and Secondary Connections?
+path_override: primary-secondary-connections
 position: 1
 layout: documentation
 meta:

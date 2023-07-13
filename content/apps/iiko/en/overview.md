@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | iiko | HubRise
   description: iiko overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Point of Sales
   availability: World

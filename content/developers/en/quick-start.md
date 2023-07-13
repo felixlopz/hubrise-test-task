@@ -1,10 +1,11 @@
 ---
 title: Quick Start
+path_override: quick-start
 position: 1
 layout: documentation
 meta:
   title: Developers Quick Start | HubRise
-  description:
+  description: 
 ---
 
 ## Overview

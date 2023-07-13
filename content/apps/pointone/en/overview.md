@@ -1,15 +1,15 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | pointOne | HubRise
   description: pointOne overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
 app_info:
   category: Point of Sales
   availability: United Kingdom
-  price_range:
+  price_range: 
   website: https://pointone-epos.co.uk
   contact: info@pointone.co.uk  / +44 345 862 0005
 ---

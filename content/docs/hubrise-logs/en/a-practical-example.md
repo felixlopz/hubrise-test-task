@@ -1,5 +1,6 @@
 ---
 title: A Practical Example
+path_override: a-practical-example
 position: 3
 layout: documentation
 meta:

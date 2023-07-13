@@ -1,5 +1,6 @@
 ---
 title: Get Started
+path_override: get-started
 position: 2
 layout: documentation
 meta:
