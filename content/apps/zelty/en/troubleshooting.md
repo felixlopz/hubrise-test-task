@@ -31,4 +31,4 @@ Ensure also that your Zelty connection is visible in HubRise through the followi
 
 ## Zelty Support
 
-Zelty support team can be contacted at [support@zelty.fr](mailto:support@zelty.fr) for issues with the configuration of the EPOS.
+Zelty support team can be contacted at support@zelty.fr for issues with the configuration of the EPOS.

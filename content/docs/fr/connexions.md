@@ -13,7 +13,7 @@ Vous pouvez connecter de nouvelles applications et visualiser les applications c
 
 HubRise vous permet de connecter un écosystème de solutions en constante évolution : logiciels de caisse, plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), solutions de gestion de livreurs ou de services de livraison, solutions d'e-marketing (SMS/e-mailing) et de business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois.
 
-Vous pouvez connecter toutes les applications disponibles sur la page [Apps](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, vous pouvez contacter [contact@hubrise.com](mailto:contact@hubrise.com) pour savoir si une intégration est prévue.
+Vous pouvez connecter toutes les applications disponibles sur la page [Apps](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, vous pouvez contacter contact@hubrise.com pour savoir si une intégration est prévue.
 
 ## Connecter une application
 

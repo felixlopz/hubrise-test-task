@@ -12,4 +12,4 @@ HubRise fournit une formule gratuite qui comprend un quota limité de commandes 
 - Vous êtes un développeur ou un revendeur et avez besoin d'un compte de test.
 - Vous possédez un compte sur HubRise et devez effectuer des tests approfondis avant de mettre des connexions en ligne.
 
-Si vous répondez à l'un de ces critères, veuillez contacter [support@hubrise.com](mailto:support@hubrise.com) afin de demander une exception momentanée à la politique de paiement, en décrivant votre situation particulière et en indiquant une date réaliste.
+Si vous répondez à l'un de ces critères, veuillez contacter support@hubrise.com afin de demander une exception momentanée à la politique de paiement, en décrivant votre situation particulière et en indiquant une date réaliste.

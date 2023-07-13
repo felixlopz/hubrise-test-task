@@ -15,7 +15,7 @@ meta:
 
 ## Enable HubRise on eTakeaway Max
 
-To enable HubRise on your eTakeaway Max EPOS, you need to contact eTakeaway Max support team. Include [support@hubrise.com](mailto:support@hubrise.com) in the email recipients.
+To enable HubRise on your eTakeaway Max EPOS, you need to contact eTakeaway Max support team. Include support@hubrise.com in the email recipients.
 
 If you have already created your HubRise account, include your HubRise location ID in your email. Otherwise, eTakeaway Max will create a HubRise account for you and provide you with the required credentials to connect.
 

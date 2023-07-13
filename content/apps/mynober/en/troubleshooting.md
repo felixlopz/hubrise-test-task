@@ -19,4 +19,4 @@ To find the ref codes assigned to your MynOber menu items, follow these steps:
 
 ## MynOber Support
 
-For issues with the configuration of MynOber Cloud, you can contact MynOber support team at [support@mynober.nl](mailto:support@mynober.nl).
+For issues with the configuration of MynOber Cloud, you can contact MynOber support team at support@mynober.nl.

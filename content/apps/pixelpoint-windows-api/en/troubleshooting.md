@@ -74,4 +74,4 @@ A table has been created to help map keys from HubRise to PixelPoint. For more i
 
 ## PAR PixelPoint Support
 
-Slowey Systems PAR PixelPoint support team can be contacted at [support@slowey.ie](mailto:support@slowey.ie) for issues with the configuration of the EPOS.
+Slowey Systems PAR PixelPoint support team can be contacted at support@slowey.ie for issues with the configuration of the EPOS.

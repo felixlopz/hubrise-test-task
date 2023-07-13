@@ -44,4 +44,4 @@ Pour vous aider, HubRise met plusieurs ressources à votre disposition.
 
 - Consultez la page [Applications intégrées](/apps/) pour trouver la documentation relative à l'application spécifique que vous essayez de connecter à HubRise.
 - La page [Référence des API HubRise](/developers/api/general-concepts) (en anglais) est un endroit pratique permettant aux développeurs d'apprendre à connecter leurs produits avec la plateforme HubRise.
-- Si vous avez besoin d'une assistance complémentaire, veuillez contacter HubRise à l'adresse [support@hubrise.com](mailto:support@hubrise.com) afin que nous puissions vous aider à solutionner votre problème.
+- Si vous avez besoin d'une assistance complémentaire, veuillez contacter HubRise à l'adresse support@hubrise.com afin que nous puissions vous aider à solutionner votre problème.

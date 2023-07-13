@@ -39,4 +39,4 @@ To verify that your test order was transmitted to HubRise, follow these steps:
 
 ## LivePepper Support
 
-The LivePepper support team can be contacted at [support@livepepper.com](mailto:support@livepepper.com) for issues with the configuration of the online ordering system.
+The LivePepper support team can be contacted at support@livepepper.com for issues with the configuration of the online ordering system.

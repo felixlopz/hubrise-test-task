@@ -19,9 +19,9 @@ Connecting Deliveroo to HubRise can be done with a few steps.
 
 As a first step, the HubRise integration must be enabled on your Deliveroo account.
 
-Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
+Contact us at support@hubrise.com and include the following information in your email:
 
-- The URL link to your restaurant page on the Deliveroo website. For example: [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
+- The URL link to your restaurant page on the Deliveroo website. For example: https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham.
 - Whether your Deliveroo store is connected to another middleware or EPOS.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 

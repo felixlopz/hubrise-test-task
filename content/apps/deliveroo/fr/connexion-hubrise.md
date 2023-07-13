@@ -19,9 +19,9 @@ La connexion de Deliveroo à HubRise s'effectue en quelques étapes.
 
 Dans un premier temps, l'intégration de HubRise doit être activée sur votre compte Deliveroo.
 
-Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubrise.com) en précisant les informations suivantes :
+Contactez-nous par e-mail à l'adresse support@hubrise.com en précisant les informations suivantes :
 
-- L'adresse URL de la page de votre restaurant sur le site internet de Deliveroo. Exemple : [https://deliveroo.fr/en/menu/nice/jean-medecin/sushi-shop-nice-1](https://deliveroo.fr/en/menu/nice/jean-medecin/sushi-shop-nice-1).
+- L'adresse URL de la page de votre restaurant sur le site internet de Deliveroo. Exemple : https://deliveroo.fr/en/menu/nice/jean-medecin/sushi-shop-nice-1.
 - Indiquez si votre enseigne sur le site internet de Deliveroo est déjà connectée à une caisse ou un autre middleware.
 - Le nom et l'identifiant de votre point de vente HubRise. Exemple : `Sushi Shop Colbert z6q31-0`.
 

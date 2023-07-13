@@ -153,13 +153,13 @@ Pour ajouter votre imprimante à votre compte Google, procédez comme suit :
 1. Près du nom de votre imprimante, cliquez sur **Gérer**.
 1. Dans la fenêtre **Confirmer l'enregistrement**, cliquez sur **Enregistrer**.
 1. Sur l'écran de votre imprimante, suivez les étapes pour terminer l'enregistrement. Il se peut que vous deviez vérifier l'accès en sélectionnant un bouton intitulé **Enregistrer** ou **OK**.
-1. Pour vérifier que votre imprimante est bien enregistrée, accédez à [https://www.google.com/cloudprint](https://www.google.com/cloudprint) et cliquez sur **Imprimantes**.
+1. Pour vérifier que votre imprimante est bien enregistrée, accédez à https://www.google.com/cloudprint et cliquez sur **Imprimantes**.
 
 <video controls title="OrderLine Add Google Cloud Printer">
   <source src="./images/026-add-google-cloud-printer.webm" type="video/webm" />
 </video>
 
-Si vous souhaitez configurer les paramètres de Google Cloud Print, rendez-vous dans [https://www.google.com/cloudprint](https://www.google.com/cloudprint).
+Si vous souhaitez configurer les paramètres de Google Cloud Print, rendez-vous dans https://www.google.com/cloudprint.
 
 ### Connecter OrderLine à Google Cloud Print
 

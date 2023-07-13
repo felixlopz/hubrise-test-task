@@ -13,7 +13,7 @@ You can connect new apps and see apps connected to your HubRise Account from the
 
 HubRise is used to connect an ever-growing ecosystem of solutions: EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), self ordering solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 
-You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact [contact@hubrise.com](mailto:contact@hubrise.com) to find out if an integration is planned.
+You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact contact@hubrise.com to find out if an integration is planned.
 
 ## Connect a New App
 

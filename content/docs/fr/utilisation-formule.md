@@ -30,7 +30,7 @@ HubRise propose des formules gratuites et payantes pour ses services. Pour obten
 
 Des formules gratuites sont disponibles pour les points de vente effectuant un nombre limité de transactions par mois. Une fois cette limite atteinte, les utilisateurs du compte et du point de vente de niveau Administrateur sont informés par e-mail et doivent passer au niveau payant s'ils souhaitent continuer à bénéficier du service.
 
-Pendant la phase de test qui précède le lancement, vous pouvez demander à souscrire à une formule gratuite comportant un quota de commandes plus élevé. Contactez HubRise à l'adresse [support@hubrise.com](mailto:support@hubrise.com).
+Pendant la phase de test qui précède le lancement, vous pouvez demander à souscrire à une formule gratuite comportant un quota de commandes plus élevé. Contactez HubRise à l'adresse support@hubrise.com.
 
 ## Notifications sur les formules
 

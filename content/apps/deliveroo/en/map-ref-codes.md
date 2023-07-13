@@ -31,6 +31,6 @@ To assign ref codes to your Deliveroo products with the Menu Manager tool in Del
 
 ---
 
-**IMPORTANT NOTE:** Assigning ref codes to products manually from the Deliveroo Menu Manager tool is not possible if your Deliveroo account is configured to update ref codes via Menu API. To switch to Menu Manager and see PLU fields in your Deliveroo back office, contact [support@deliveroo.co.uk](support@deliveroo.co.uk).
+**IMPORTANT NOTE:** Assigning ref codes to products manually from the Deliveroo Menu Manager tool is not possible if your Deliveroo account is configured to update ref codes via Menu API. To switch to Menu Manager and see PLU fields in your Deliveroo back office, contact support@deliveroo.co.uk.
 
 ---

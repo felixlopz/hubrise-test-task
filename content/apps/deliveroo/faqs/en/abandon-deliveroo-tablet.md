@@ -11,7 +11,7 @@ If you want to leave the Deliveroo tablet aside to free up your restaurant staff
 
 ## Set Up Tabletless Mode
 
-The first option is to configure the integration for tabletless mode. To activate this mode, contact us at [support@hubrise.com](mailto:support@hubrise.com) or reach out to your Deliveroo Account Manager.
+The first option is to configure the integration for tabletless mode. To activate this mode, contact us at support@hubrise.com or reach out to your Deliveroo Account Manager.
 
 Once activated, there's no need to keep the Deliveroo tablet on or even to have one at the restaurant at all.
 

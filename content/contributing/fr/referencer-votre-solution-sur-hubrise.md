@@ -7,7 +7,7 @@ meta:
   description: Une fois votre intégration validée, vous pouvez demander son référencement sur le site HubRise. Voici les éléments à fournir en fonction du type d'inclusion souhaité.
 ---
 
-Une fois votre solution validée sur le plan technique par HubRise, vous pouvez demander son inclusion sur notre site en nous contactant sur [contact@hubrise.com](mailto:contact@hubrise.com).
+Une fois votre solution validée sur le plan technique par HubRise, vous pouvez demander son inclusion sur notre site en nous contactant sur contact@hubrise.com.
 
 Selon les parties du site dans lesquelles votre solution sera référencée, vous devrez nous fournir des éléments que nous décrivons dans les sections ci-dessous.
 

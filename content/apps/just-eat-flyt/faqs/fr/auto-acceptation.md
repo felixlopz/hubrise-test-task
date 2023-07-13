@@ -26,6 +26,6 @@ L'auto-acceptation est disponible uniquement dans les pays suivants :
 - Canada (avec SkipTheDishes)
 - Australie (avec Menulog)
 
-L'équipe de Just Eat Fly peut activer l'auto-acceptation lors de la configuration de l'intégration. Elle peut également être activée par l'équipe d'assistance de Just Eat une fois la connexion à HubRise établie. Pour Menulog, veuillez contacter [techsupport@menulog.com](mailto:techsupport@menulog.com) pour demander l'activation. Il n'est pas possible d'activer la fonction durant la configuration de l'intégration.
+L'équipe de Just Eat Fly peut activer l'auto-acceptation lors de la configuration de l'intégration. Elle peut également être activée par l'équipe d'assistance de Just Eat une fois la connexion à HubRise établie. Pour Menulog, veuillez contacter techsupport@menulog.com pour demander l'activation. Il n'est pas possible d'activer la fonction durant la configuration de l'intégration.
 
 La France, les Pays-Bas, la Belgique et la Suisse sont rattachés à la pile technologique Takeaway. L'auto-acceptation n'est pas disponible sur ces marchés, y compris avec l'intégration de Just Eat Flyt. Toutefois, Just Eat travaille sur cette fonctionnalité, qui devrait être disponible dans les prochains mois. Pour l'heure, l'auto-acceptation peut être activée en France, par exemple si le restaurant fait appel aux services de livraison Scoober ou Stuart.

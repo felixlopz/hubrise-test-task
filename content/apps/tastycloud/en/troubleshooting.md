@@ -34,4 +34,4 @@ If the order is not visible, [check your connection with HubRise](/apps/tastyclo
 
 ## TastyCloud Support
 
-The TastyCloud support team can be contacted at [support@tastycloud.fr](mailto:support@tastycloud.fr) for issues with the configuration of the connection.
+The TastyCloud support team can be contacted at support@tastycloud.fr for issues with the configuration of the connection.

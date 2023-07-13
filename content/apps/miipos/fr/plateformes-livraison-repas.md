@@ -58,7 +58,7 @@ Just Eat possède deux APIs:
 - L'API Flyt est utilisée sur les plateformes Just-Eat.co.uk, Just-Eat.ie, Menulog et SkipTheDishes, et pour les chaînes sur les autres marchés. Cette API permet de synchroniser les commandes et le menu.
 - L'API Takeaway, plus ancienne, est utilisée pour les indépendants sur les autres marchés. Elle permet de recevoir les commandes, mais pas d'envoyer le menu.
 
-En cas de doute sur l'API à utiliser, contactez [support@hubrise.com](mailto:support@hubrise.com).
+En cas de doute sur l'API à utiliser, contactez support@hubrise.com.
 
 ### Just Eat avec l'API Takeaway
 

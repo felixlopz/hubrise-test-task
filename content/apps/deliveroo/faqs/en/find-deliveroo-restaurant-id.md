@@ -38,4 +38,4 @@ IT savvy users can find the Deliveroo Restaurant ID from the page source of a De
 - Right-click on the page and select **View Page Source**.
 - In the page source, search for `"restaurant":{"id":`.
 
-> For example, the Camile Thai restaurant in Clapham indicates `77430` Restaurant ID in the website page source code [https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham](https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham).
+> For example, the Camile Thai restaurant in Clapham indicates `77430` Restaurant ID in the website page source code https://deliveroo.co.uk/menu/london/clapham/camile-thai-clapham.
