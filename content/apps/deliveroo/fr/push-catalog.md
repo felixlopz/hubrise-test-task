@@ -20,14 +20,14 @@ Pour mettre à jour votre menu Deliveroo, vous devez préalablement avoir un cat
 
 Vous pouvez aussi alimenter un catalogue HubRise en récupérant un menu existant depuis Deliveroo ou Uber Eats. Pour plus d'informations, consultez ces liens :
 
-- [Récupérer un catalogue depuis Deliveroo](/apps/deliveroo/pull-catalog)
-- [Récupérer un catalogue depuis Uber Eats](/apps/uber-eats/pull-catalog)
+- [Récupérer un catalogue depuis Deliveroo](/apps/deliveroo/recuperer-catalogue)
+- [Récupérer un catalogue depuis Uber Eats](/apps/uber-eats/recuperer-catalogue)
 
 ## Envoi manuel du catalogue
 
 Une fois que vous avez alimenté votre catalogue sur HubRise et assigné des codes ref à tous les produits et options, vous pouvez l'envoyer manuellement vers Deliveroo en suivant ces étapes :
 
-1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com?locale=fr-FR).
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Sélectionnez le compte HubRise et le point de vente connecté à votre restaurant Deliveroo.
 1. Ouvrez la page **CONNEXIONS**, puis sélectionnez **Deliveroo Bridge** dans la liste des applications connectées.
 1. Dans Deliveroo Bridge, cliquez sur l'onglet **Actions**, puis sélectionnez **Envoyer le catalogue**.
@@ -43,7 +43,7 @@ Une fois que vous avez alimenté votre catalogue sur HubRise et assigné des cod
 
 Deliveroo Bridge peut envoyer automatiquement votre catalogue HubRise dans Deliveroo à chaque modification de celui-ci. Par défaut, cette option est désactivée. Vous pouvez l'activer en suivant ces étapes :
 
-1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com?locale=fr-FR).
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Sélectionnez le compte HubRise et le point de vente connecté à votre restaurant Deliveroo.
 1. Ouvrez la page **CONNEXIONS**, puis sélectionnez **Deliveroo Bridge** dans la liste des applications connectées.
 1. Dans Deliveroo Bridge, sélectionnez **l'onglet Configuration**.

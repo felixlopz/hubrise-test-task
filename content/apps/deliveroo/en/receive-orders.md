@@ -16,11 +16,6 @@ This page describes the information Deliveroo sends to HubRise. It helps you und
 
 ## Items and Options
 
-For items and options, Deliveroo provides either the ref code or the name, but never both at the same time.
-
-- If you specify the item or option ref code in your Deliveroo back office, Deliveroo API will only send this information to HubRise.
-- If you do not specify the item or option ref code in your Deliveroo back office, Deliveroo API will send the item or option name to HubRise, instead.
-
 If your EPOS solution relies on item and option ref codes to correctly parse the item, make sure that items and options in your Deliveroo menu are mapped to the correct EPOS ref code. For more details, see [Map Ref Codes](/apps/deliveroo/map-ref-codes).
 
 Otherwise, if your EPOS solution does not support ref codes, leave this information blank in your Deliveroo back office.

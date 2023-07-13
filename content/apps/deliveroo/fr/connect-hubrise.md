@@ -34,7 +34,7 @@ Vous pouvez aussi connecter votre restaurant de manière autonome. Pour plus d'i
 
 Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 
-1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com?locale=fr-FR).
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Dans le menu déroulant, sélectionnez le point de vente que vous souhaitez connecter.
 1. Sélectionnez **CONNEXIONS**, puis **Voir les apps disponibles**.
 1. Dans la liste des apps, sélectionnez **Deliveroo Bridge**.
@@ -58,6 +58,6 @@ Pour savoir comment associer les codes ref sur Deliveroo, consultez la rubrique 
 
 ---
 
-**REMARQUE IMPORTANTE :** Si des produits n'ont pas de code ref, Deliveroo n'activera pas la connexion HubRise.
+**REMARQUE IMPORTANTE :** Deliveroo n'activera pas la connexion HubRise tant que tous les codes ref n'auront pas été saisis.
 
 ---

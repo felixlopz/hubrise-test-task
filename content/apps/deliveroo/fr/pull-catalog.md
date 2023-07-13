@@ -13,14 +13,14 @@ Avec Deliveroo Bridge, vous pouvez importer votre menu Deliveroo dans un catalog
 Cette fonctionnalité peut être utile si vous souhaitez :
 
 - Créer une copie de votre menu Deliveroo.
-- Modifiez votre menu en utilisant le Catalog Manager de HubRise pour inclure des codes ref, par exemple. Pour plus d'informations, voir [Catalog Manager](/apps/catalog-manager).
-- Remplir un catalogue HubRise qui sera ensuite poussé vers d'autres applications, y compris des plates-formes de livraison de repas telles qu'Uber Eats et Just Eat.
+- Modifier votre menu en utilisant le Catalog Manager de HubRise pour inclure des codes ref, par exemple. Pour plus d'informations, voir [Catalog Manager](/apps/catalog-manager).
+- Alimenter un catalogue HubRise qui sera ensuite poussé vers d'autres applications, telles que des plateformes de livraison de repas comme Uber Eats et Just Eat.
 
-## Alimenter un catalogue HubRise
+## Importer un menu depuis Deliveroo
 
 Pour importer votre menu Deliveroo dans un catalogue HubRise, suivez ces étapes :
 
-1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com?locale=fr-FR).
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
 1. Sélectionnez le compte HubRise et le point de vente connecté à votre restaurant Deliveroo.
 1. Ouvrez la page **CONNEXIONS**, puis sélectionnez **Deliveroo Bridge** dans la liste des applications connectées.
 1. Dans Deliveroo Bridge, sélectionnez l'onglet **Actions**.
@@ -35,7 +35,7 @@ Pour importer votre menu Deliveroo dans un catalogue HubRise, suivez ces étapes
 
 ## Informations importées dans HubRise
 
-Les données du catalogue extraites de Deliveroo sont identiques aux données transmises à Deliveroo. Pour plus de détails, vous pouvez vous référer à [Informations envoyées à Deliveroo](/apps/deliveroo/envoi-catalogue#informations-envoyees-à-deliveroo).
+Les données du catalogue extraites de Deliveroo sont identiques aux données transmises à Deliveroo. Pour plus de détails, vous pouvez vous référer à [Informations envoyées à Deliveroo](/apps/deliveroo/envoi-catalogue#informations-envoy-es-deliveroo).
 
 Cependant, il y a une exception à cette règle. Si les images utilisées sur votre boutique Deliveroo n'ont pas été précédemment téléchargées via HubRise, elles ne pourront pas être récupérées. Il s'agit d'une limitation connue, que l'équipe d'intégration Deliveroo est en train de corriger.
 
