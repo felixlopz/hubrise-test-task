@@ -71,9 +71,9 @@ To quickly copy opening hours to all the following days on the list, click **Cop
 
 ## Inventory
 
-Through inventory synchronization, products and options that have a stock quantity of zero can be hidden can be hidden on your Just Eat store.
+Through inventory synchronisation, products and options that have a stock quantity of zero can be hidden can be hidden on your Just Eat store.
 
-To synchronize your HubRise inventory with Just Eat whenever it is updated, select the **Enable automatic inventory push** checkbox.
+To synchronise your HubRise inventory with Just Eat whenever it is updated, select the **Enable automatic inventory push** checkbox.
 
 Additionally, you can manually push your inventory to Just Eat via the **Actions** page.
 

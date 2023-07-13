@@ -70,7 +70,7 @@ If your catalog includes variants, you have the option to select which one to us
 
 ### Automatic Catalog Push
 
-To synchronize your HubRise catalog with Uber Eats whenever it is updated, select the **Enable automatic catalog push** checkbox.
+To synchronise your HubRise catalog with Uber Eats whenever it is updated, select the **Enable automatic catalog push** checkbox.
 
 ### Opening Hours
 
@@ -97,9 +97,9 @@ If you enable customer notes, make sure that your connected EPOS supports produc
 
 ![Uber Eats Bridge configuration page inventory section](./images/023-2x-configuration-page-inventory.png)
 
-Through inventory synchronization, products and options that have a stock quantity of zero can be hidden can be hidden on your Uber Eats store.
+Through inventory synchronisation, products and options that have a stock quantity of zero can be hidden can be hidden on your Uber Eats store.
 
-To synchronize your HubRise inventory with Uber Eats whenever it is updated, select the **Enable automatic inventory push** checkbox.
+To synchronise your HubRise inventory with Uber Eats whenever it is updated, select the **Enable automatic inventory push** checkbox.
 
 Additionally, you can manually push your inventory to Uber Eats via the **Actions** page.
 
