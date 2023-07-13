@@ -1,5 +1,5 @@
 ---
-title: How Can I Do Without the Deliveroo Tablet?
+title: Can I Stop Using the Deliveroo Tablet?
 position: 3
 layout: documentation
 meta:
