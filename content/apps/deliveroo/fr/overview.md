@@ -5,7 +5,7 @@ position: 1
 layout: documentation
 meta:
   title: Présentation générale | Deliveroo | HubRise
-  description: Deliveroo Bridge vous permet de connecter votre restaurant Deliveroo à HubRise, et de recevoir vos commandes Deliveroo dans votre logiciel de caisse.
+  description: Aperçu de Deliveroo, raisons de le connecter à HubRise et résumé des fonctionnalités intégrées. Synchronisez les données entre votre logiciel de caisse et vos applications.
 gallery:
   - __gallery-001.png
   - __gallery-002.png
@@ -31,17 +31,17 @@ Connecter Deliveroo Bridge permet à HubRise de :
 - Envoyer un catalogue vers Deliveroo.
 - Synchroniser l'inventaire avec HubRise.
 
-![Schéma du flux de connexion entre Deliveroo, Deliveroo Bridge et HubRise](./images/000-2x-connection-diagram.png)
+![Diagramme du flux de connexion entre Deliveroo, Deliveroo Bridge et HubRise](./images/000-2x-connection-diagram.png)
 
 ---
 
-**REMARQUE IMPORTANTE** : Les tablettes Deliveroo sont actuellement nécessaires pour recevoir des commandes dans HubRise. Vous pouvez ativer l'acceptation automatique. Pour plus d'informations, voir [Comment activer l'acceptation automatique des commandes ?](/apps/deliveroo/faqs/acceptation-automatique/) Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
+**REMARQUE IMPORTANTE** : HubRise s'est associé avec Deliveroo pour offrir une nouvelle expérience d'intégration sans tablette. Cela vous permet de recevoir les commandes Deliveroo directement dans HubRise sans avoir besoin d'une tablette Deliveroo. Pour plus d'informations, voir [Puis-je arrêter d'utiliser la tablette Deliveroo ?](/apps/deliveroo/faqs/deliveroo-sans-tablette/).
 
 ---
 
 Deliveroo Bridge peut être connecté à HubRise depuis le back-office de HubRise.
 
-## Pourquoi se connecter ?
+## Pourquoi se connecter ?
 
 Le fait de connecter votre restaurant en ligne ou votre magasin de proximité Deliveroo à HubRise vous permet de recevoir vos commandes Deliveroo directement dans votre logiciel de caisse ou sur l'écran cuisine connecté à HubRise. Vous pouvez ainsi gérer les commandes Deliveroo dans votre logiciel habituel. Les commandes Deliveroo transiteront par votre installation existante, comme vos autres commandes.
 

@@ -5,12 +5,12 @@ position: 6
 layout: documentation
 meta:
   title: Envoyer le catalogue | Deliveroo | HubRise
-  description: Voir comment envoyer un catalogue de HubRise vers Deliveroo, de quelle manière les articles et les options sont encodés, et quelles fonctionnalités sont intégrées.
+  description: Découvrez comment envoyer un catalogue de HubRise vers Deliveroo, comment les articles et les options sont encodés, et quelles fonctionnalités sont prises en charge.
 ---
 
 Avec Deliveroo Bridge, vous pouvez envoyer votre catalogue HubRise vers votre restaurant Deliveroo en un seul clic.
 
-Vous pouvez également configurer le bridge de manière à envoyer votre catalogue vers Deliveroo à chaque fois qu'il est modifié sur HubRise. Pour plus d'informations, voir la rubrique [Catalogue](/apps/deliveroo/configuration#catalogue).
+Vous pouvez également configurer le bridge de manière à envoyer votre catalogue vers Deliveroo à chaque fois qu'il est modifié sur HubRise. Pour plus d'informations, voir [Catalogue](/apps/deliveroo/configuration#catalogue).
 
 Cette page explique comment envoyer votre catalogue et quelles informations sont envoyées à Deliveroo.
 
@@ -18,13 +18,14 @@ Cette page explique comment envoyer votre catalogue et quelles informations sont
 
 Pour mettre à jour votre menu Deliveroo, vous devez préalablement avoir un catalogue dans HubRise. De nombreuses applications connectées à HubRise, notamment les logiciels de caisse, peuvent envoyer leur catalogue vers HubRise. Reportez-vous à la documentation de votre logiciel de caisse sur le site internet de HubRise pour vérifier.
 
-Vous pouvez aussi alimenter un catalogue HubRise en aspirant votre menu Uber Eats.
+Vous pouvez aussi alimenter un catalogue HubRise en récupérant un menu existant depuis Deliveroo ou Uber Eats. Pour plus d'informations, consultez ces liens :
 
-Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalogues/).
+- [Récupérer un catalogue depuis Deliveroo](/apps/deliveroo/pull-catalog)
+- [Récupérer un catalogue depuis Uber Eats](/apps/uber-eats/pull-catalog)
 
 ## Envoi manuel du catalogue
 
-Une fois que votre catalogue a été alimenté sur HubRise, vous pouvez l'envoyer vers Deliveroo en procédant comme suit :
+Une fois que vous avez alimenté votre catalogue sur HubRise et assigné des codes ref à tous les produits et options, vous pouvez l'envoyer manuellement vers Deliveroo en suivant ces étapes :
 
 1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com?locale=fr-FR).
 1. Sélectionnez le compte HubRise et le point de vente connecté à votre restaurant Deliveroo.
@@ -34,7 +35,7 @@ Une fois que votre catalogue a été alimenté sur HubRise, vous pouvez l'envoye
 
 ---
 
-**REMARQUE IMPORTANTE :** L'envoi de votre catalogue HubRise vers Deliveroo remplace votre menu sur Deliveroo. L'envoi du catalogue met également à jour la **Description du menu** Deliveroo et la **Bannière du menu**, comme décrit dans la page **Configuration** du Deliveroo Bridge. Cette action est irréversible.
+**REMARQUE IMPORTANTE :** L'envoi de votre catalogue HubRise vers Deliveroo effacera le menu actuel sur Deliveroo et remplacera la **Description du menu** et la **Bannière du menu** par ceux définis dans la page de **Configuration**. Cette action est irréversible. L'envoie du catalogue ne fonctionnera pas si des codes ref sont manquants.
 
 ---
 
@@ -55,7 +56,7 @@ Les rubriques suivantes expliquent en détail comment votre catalogue HubRise es
 
 ### Description du menu et de la bannière
 
-Vous pouvez spécifier la description du menu et fournir l'URL de l'image qui vous sert de bannière depuis la page [Configuration](/apps/deliveroo/configuration).
+Vous pouvez saisir la description du menu et télécharger la bannière de menu depuis la page [Configuration](/apps/deliveroo/configuration).
 
 Deliveroo Bridge envoie ces informations à Deliveroo à chaque envoi de catalogue.
 
@@ -65,7 +66,7 @@ Deliveroo Bridge établit une correspondance entre les catégories HubRise et le
 
 Le nom de la catégorie, son code ref et sa description sont envoyés à Deliveroo.
 
-### Produits et SKUs
+### Produits et skus
 
 Pour les produits à SKU unique, Deliveroo Bridge envoie les informations suivantes :
 
@@ -104,33 +105,33 @@ Pour chaque catégorie, Deliveroo Bridge envoie les champs HubRise suivants à D
 
 L'ordre des catégories et les produits sur HubRise est conservé sur Deliveroo.
 
-### Produits et Skus
+### Produits et skus
 
-Pour les [produits](/developers/api/catalog-management/#products) à plusieurs SKUs, Deliveroo Bridge envoie les informations suivantes à Deliveroo :
+Les produits ont une ou plusieurs skus. Pour chaque produit avec plusieurs skus, Deliveroo Bridge envoie les informations suivantes à Deliveroo :
 
 - `ref` : la valeur `MULTISKU` est utilisée pour tous les produits.
 - `name` : le nom du produit.
 - `description` : la description du produit.
 - `price` : le prix minimum de tous les SKUs.
-- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir la rubrique [Balises de produits](#balises-de-produits).
+- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir [Tags produit](#tags-produits).
 - `image` : adresse URL de la photo du produit.
 
 La liste des skus est jointe au produit sous la forme d'une table de modification.
 
 Pour chaque `sku` d'un produit, Deliveroo Bridge envoie les informations suivantes à Deliveroo :
 
-- `ref` : code ref de la SKU, qui sera transmis dans les commandes.
-- `name` : nom de la SKU.
+- `ref` : code ref de la référence sku, qui sera transmis dans les commandes.
+- `name` : nom de la référence sku.
 - `price` : la différence éventuelle de prix avec le produit principal.
 - `option_list_refs` : liste des options rattachées à la SKU.
 
-Pour plus d'informations sur les références contenues dans les catalogues HubRise, voir la rubrique [SKUs](/developers/api/catalog-management/#skus) (en anglais).
+Pour plus d'informations sur les skus dans les catalogues HubRise, voir [Skus](/developers/api/catalog-management/#skus) (en anglais).
 
-### Balises de produits
+### Tags produit
 
 Le tableau ci-dessous énumère les balises qui peuvent être définies sur les produits.
 
-| Balise                               | Description                    |
+| Tag                                  | Description                    |
 | ------------------------------------ | ------------------------------ |
 | `alcoholic`                          | Produit contenant de l'alcool. |
 | `allergen_celery`                    | Contient l'allergène indiqué.  |
@@ -148,7 +149,7 @@ Le tableau ci-dessous énumère les balises qui peuvent être définies sur les 
 | `allergen_soybeans`                  | Contient l'allergène indiqué.  |
 | `allergen_sulphur_dioxide_sulphites` | Contient l'allergène indiqué.  |
 
-Si un produit ne contient aucun allergène, Deliveroo Bridge ajoute automatiquement la balise `no_allergens`.
+Si un produit ne contient aucun allergène, Deliveroo Bridge ajoute automatiquement le tag `no_allergens`.
 
 ### Options
 
@@ -160,9 +161,9 @@ Pour chaque liste d'options du catalogue, Deliveroo Bridge envoie les informatio
 
 Pour chaque option d'une liste d'options, Deliveroo Bridge envoie les informations suivantes à Deliveroo :
 
-- `ref` : code ref de l'option.
-- `name` : nom de l'option.
-- `price` : prix unitaire de l'option.
+- `ref` : code ref de l'option
+- `name` : nom de l'option
+- `price` : prix d'une option unique
 
 ### Promotions
 
@@ -170,5 +171,5 @@ Pour chaque promotion du catalogue, Deliveroo Bridge crée un produit Deliveroo 
 
 - `name` : le nom de l'offre devient le nom du produit.
 - `category_ref` : si la promotion n'a pas de catégorie, Deliveroo Bridge crée une catégorie par défaut dans Deliveroo appelée "Offres".
-- `ref` : le code ref de l'offre devient le code ref du produit, précédé de `DEAL-`. Exemple, pour une promotion avec le code ref `abc123`, Deliveroo Bridge crée un produit Deliveroo avec le PLU `DEAL-abc123`.
+- `ref` : le code ref de l'offre devient le code ref du produit, précédé de `DEAL-`. Par exemple, pour une promotion avec le code ref `abc123`, Deliveroo Bridge crée un produit Deliveroo avec le PLU `DEAL-abc123`.
 - `lines` : pour chaque objet du tableau, Deliveroo Bridge crée une liste de modificateurs, avec `lines.name` pour nom.
