@@ -38,12 +38,6 @@ With this information in hand, we will ask Uber Eats support to enable the HubRi
 
 ## 2. Connect Uber Eats Bridge
 
----
-
-**IMPORTANT NOTE:** Uber Eats Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
-
 With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
