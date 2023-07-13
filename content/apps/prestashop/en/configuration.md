@@ -60,27 +60,28 @@ If your catalog includes variants, you have the option to select which one to us
 
 ### Automatic Catalog Push
 
-To update your PrestaShop catalog every time this is updated on HubRise, select the checkbox in this section.
+Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with PrestaShop whenever it gets updated.
 
-Only new products in the HubRise catalog will be sent to PrestaShop. Existing PrestaShop products will not be updated.
+Only new products added to the HubRise catalog will be sent to PrestaShop. Any existing products within PrestaShop will remain unchanged.
 
 ## Inventory
 
-To update your PrestaShop inventory every time this is updated on HubRise, select the checkbox in this section.
-Products that are unavailable in your HubRise catalog are automatically marked as unavailable in your PrestaShop store.
+Through inventory synchronisation, products that have a stock quantity of zero can be hidden on your PrestaShop website.
+
+Select the **Enable automatic inventory push** checkbox to synchronise your HubRise inventory with PrestaShop whenever it gets updated.
 
 ## Save the Configuration
 
-Once you are happy with the configuration of PrestaShop Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your integration settings. To continue receiving PrestaShop orders, you will need to set up the connection again.
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from PrestaShop.
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.

@@ -52,12 +52,12 @@ By default, discounts without a ref code are not sent to your PixelPoint EPOS. F
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your integration settings. To continue sending orders to your PixelPoint EPOS, you will need to enter your PixelPoint token again.
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from PixelPoint. You will need your PixelPoint token to reestablish the connection.
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.

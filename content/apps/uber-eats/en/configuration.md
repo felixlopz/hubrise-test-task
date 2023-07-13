@@ -70,7 +70,7 @@ If your catalog includes variants, you have the option to select which one to us
 
 ### Automatic Catalog Push
 
-To synchronise your HubRise catalog with Uber Eats whenever it is updated, select the **Enable automatic catalog push** checkbox.
+Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with Uber Eats whenever it gets updated.
 
 ### Opening Hours
 
@@ -99,22 +99,20 @@ If you enable customer notes, make sure that your connected EPOS supports produc
 
 Through inventory synchronisation, products and options that have a stock quantity of zero can be hidden can be hidden on your Uber Eats store.
 
-To synchronise your HubRise inventory with Uber Eats whenever it is updated, select the **Enable automatic inventory push** checkbox.
-
-Additionally, you can manually push your inventory to Uber Eats via the **Actions** page.
+Select the **Enable automatic inventory push** checkbox to synchronise your HubRise inventory with Uber Eats whenever it gets updated.
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Uber Eats Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your Uber Eats Store UUID. To continue receiving Uber Eats orders, you will need to enter your Uber Eats Store UUID again.
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from Uber Eats. You will need your Uber Eats Store UUID to reestablish the connection.
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.
