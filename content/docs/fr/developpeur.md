@@ -1,5 +1,6 @@
 ---
 title: Développeur
+path_override: developpeur
 position: 14
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Importer le catalogue
+path_override: importer-catalogue
 position: 5
 layout: documentation
 meta:

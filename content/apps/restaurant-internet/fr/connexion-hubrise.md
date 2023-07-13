@@ -1,5 +1,6 @@
 ---
 title: Connexion à HubRise
+path_override: connexion-hubrise
 position: 2
 layout: documentation
 meta:

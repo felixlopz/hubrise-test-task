@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | SATO | HubRise
   description: Présentation générale de SATO, les raisons de connecter votre imprimante autonome à HubRise et liste des fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Autres applications
   availability: Monde
-  price_range:
+  price_range: 
   website: https://www.satoeurope.com/fr
   contact: https://www.satoeurope.com/fr/contact
 ---

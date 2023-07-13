@@ -1,19 +1,18 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | POS HELPER | HubRise
   description: Présentation générale de POS HELPER, pourquoi connecter votre logiciel de caisse à HubRise et les fonctionnalités de l'intégration avec HubRise. Synchronisez vos données.
-gallery:
-
-path_override: /
+gallery: 
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range:
+  price_range: 
   website: https://poshelper.fr
-  contact: +33 9 72 41 51 12
+  contact: "+33 9 72 41 51 12"
 ---
 
 ---

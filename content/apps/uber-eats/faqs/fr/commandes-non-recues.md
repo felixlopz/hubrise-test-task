@@ -1,5 +1,6 @@
 ---
 title: Pourquoi mes commandes ne sont-elles pas reçues par HubRise ?
+path_override: commandes-non-recues
 position: 2
 layout: documentation
 meta:

@@ -1,15 +1,15 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | 3S POS | HubRise
   description: Présentation générale de 3S POS, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni
-  price_range:
+  price_range: 
   website: https://3s-pos.com
   contact: info@3s-pos.com / +44 207 034 3030
 ---

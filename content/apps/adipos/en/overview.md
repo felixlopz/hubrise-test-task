@@ -1,16 +1,16 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Adipos | HubRise
   description: Adipos overview, reasons for connecting your Point of Sales to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Logiciels de caisse
   availability: France, Turkey, Morocco
-  price_range:
+  price_range: 
   website: https://adipos.fr/en
   contact: support@adipos.fr / +33 9 81 06 79 05
 ---

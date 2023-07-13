@@ -1,22 +1,22 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Next Order | HubRise
   description: Présentation générale de Next Order, les raisons de connecter Next Order à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-  - __gallery-004.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
+- __gallery-004.png
 app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni, Australie et Nouvelle-Zélande
   price_range: A partir de 75€ / mois
   website: https://nextorder.com/fr-fr
-  contact: +44 330 818 7219 / support@nextorder.com
+  contact: "+44 330 818 7219 / support@nextorder.com"
 ---
 
 ---

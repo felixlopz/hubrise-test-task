@@ -1,5 +1,6 @@
 ---
 title: Comment connecter HubRise depuis le back-office de Deliveroo ?
+path_override: connecter-depuis-le-back-office-deliveroo
 position: 5
 layout: documentation
 meta:

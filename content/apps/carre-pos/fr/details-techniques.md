@@ -1,5 +1,6 @@
 ---
 title: Informations techniques
+path_override: details-techniques
 position: 7
 layout: documentation
 meta:

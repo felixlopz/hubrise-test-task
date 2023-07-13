@@ -1,5 +1,6 @@
 ---
 title: How Do I Find My Uber Eats UUID?
+path_override: find-uber-eats-uuid
 position: 8
 layout: documentation
 meta:

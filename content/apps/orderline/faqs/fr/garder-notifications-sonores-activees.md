@@ -1,5 +1,6 @@
 ---
 title: Comment garder les notifications sonores activées ?
+path_override: garder-notifications-sonores-activees
 position: 1
 layout: documentation
 meta:

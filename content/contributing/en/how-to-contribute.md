@@ -1,5 +1,6 @@
 ---
 title: How to Contribute
+path_override: how-to-contribute
 position: 1
 layout: documentation
 meta:

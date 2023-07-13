@@ -1,12 +1,12 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Koust | HubRise
   description: Présentation générale de Koust, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Gestion et Inventaire
   availability: France

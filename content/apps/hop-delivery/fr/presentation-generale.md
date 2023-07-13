@@ -1,18 +1,18 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Hop Delivery | HubRise
   description: Présentation générale de Hop Delivery, les raisons de connecter Hop Delivery à HubRise et les fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Plateformes de livraison de repas
   availability: Genève, Suisse
-  price_range:
+  price_range: 
   website: https://www.hop.delivery
-  contact: +41 22 518 70 47 / hello@hop.delivery
+  contact: "+41 22 518 70 47 / hello@hop.delivery"
 ---
 
 ## Description

@@ -1,18 +1,18 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Captain | HubRise
   description: Présentation générale de Captain, les raisons de connecter votre solution de gestion de livreurs à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Gestion de livreurs
   availability: Monde
-  price_range:
+  price_range: 
   website: http://www.captain.ai
-  contact:
+  contact: 
 ---
 
 ---

@@ -1,5 +1,6 @@
 ---
 title: Comment trouver mon identifiant de restaurant Deliveroo ?
+path_override: trouver-mon-identifiant-de-restaurant-deliveroo
 position: 1
 layout: documentation
 meta:

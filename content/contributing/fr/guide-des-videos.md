@@ -1,10 +1,11 @@
 ---
 title: Video Guide (en anglais)
+path_override: guide-des-videos
 position: 5
 layout: documentation
 meta:
   title: Video Guide | HubRise
-  description:
+  description: 
 ---
 
 [comment]: # "This page is a duplicate from .../contributing/en"

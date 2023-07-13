@@ -1,5 +1,6 @@
 ---
 title: Pourquoi certains produits ne sont-ils pas envoyés vers Just Eat ?
+path_override: produits-non-envoyes
 position: 4
 layout: documentation
 meta:

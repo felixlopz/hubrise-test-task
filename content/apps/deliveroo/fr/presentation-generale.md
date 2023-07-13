@@ -1,14 +1,14 @@
 ---
-position: 1
 title: Présentation générale
+path_override: "/"
+position: 1
 layout: documentation
 meta:
   title: Présentation générale | Deliveroo | HubRise
   description: Deliveroo Bridge vous permet de connecter votre restaurant Deliveroo à HubRise, et de recevoir vos commandes Deliveroo dans votre logiciel de caisse.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Plateformes de livraison de repas
   availability: Royaume-Uni, Pays-Bas, France, Belgique, Irlande, Espagne, Italie, Australie, Nouvelle-Zélande, Singapour, Hong Kong, Émirats arabes unis et Koweït

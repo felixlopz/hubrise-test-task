@@ -1,5 +1,6 @@
 ---
 title: Puis-je connecter plusieurs restaurants Uber Eats au même point de vente HubRise ?
+path_override: connecter-plusieurs-restaurants-uber-eats
 position: 2
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Diagram Guide (en anglais)
+path_override: guide-des-diagrammes
 position: 6
 layout: documentation
 meta:

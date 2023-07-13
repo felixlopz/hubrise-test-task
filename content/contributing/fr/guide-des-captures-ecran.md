@@ -1,5 +1,6 @@
 ---
 title: Screenshots Guide (en anglais)
+path_override: guide-des-captures-ecran
 position: 4
 layout: documentation
 meta:

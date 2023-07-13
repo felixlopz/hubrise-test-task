@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Just Eat Flyt | HubRise
   description: Présentation générale de Just Eat Flyt Bridge, les raisons de connecter Just Eat à HubRise et fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Plateformes de livraison de repas
   availability: Canada, Irlande, Royaume-Uni
   website: https://just-eat.co.uk
-  contact:
+  contact: 
 ---
 
 ## Description

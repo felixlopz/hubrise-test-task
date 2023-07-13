@@ -1,5 +1,6 @@
 ---
 title: Pourquoi ne puis-je pas valider une commande web dans Nestor ?
+path_override: validation-commande-impossible
 position: 4
 layout: documentation
 meta:

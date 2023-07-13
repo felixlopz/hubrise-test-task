@@ -1,5 +1,6 @@
 ---
 title: iPad Errors
+path_override: ipad-disconnected-errors
 position: 9
 layout: documentation
 meta:

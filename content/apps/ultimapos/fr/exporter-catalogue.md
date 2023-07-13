@@ -1,5 +1,6 @@
 ---
 title: Exporter le catalogue
+path_override: exporter-catalogue
 position: 5
 layout: documentation
 meta:

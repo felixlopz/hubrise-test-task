@@ -1,5 +1,6 @@
 ---
 title: Apps et connexions
+path_override: connexions
 position: 4
 layout: documentation
 meta:

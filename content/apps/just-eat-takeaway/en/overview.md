@@ -1,19 +1,19 @@
 ---
-position: 1
 title: Overview
+path_override: "/"
+position: 1
 layout: documentation
 meta:
   title: Overview | Just Eat Takeaway | HubRise
   description: Just Eat Takeaway Bridge overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Food Ordering Platforms
   availability: Australia, Austria, Belgium, Bulgaria, Canada, Denmark, France, Germany, Ireland, Israel, Italy, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Spain, Switzerland, United Kingdom
   website: https://www.justeattakeaway.com/
-  contact:
+  contact: 
 ---
 
 ## Description

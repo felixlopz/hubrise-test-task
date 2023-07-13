@@ -1,5 +1,6 @@
 ---
 title: Dépannage
+path_override: depannage
 position: 5
 layout: documentation
 meta:

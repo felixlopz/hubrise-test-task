@@ -1,18 +1,18 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Delicity | HubRise
   description: Présentation générale de Delicity, les raisons de connecter Delicity à HubRise et les fonctionnalités de l'intégration faite par Delicity avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Plateformes de livraison de repas
   availability: France
-  price_range:
+  price_range: 
   website: https://delicity.com
   contact: 04 83 58 06 48
 ---

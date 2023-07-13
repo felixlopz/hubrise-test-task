@@ -1,5 +1,6 @@
 ---
 title: Dashboard
+path_override: dashboard
 position: 3
 layout: documentation
 meta:

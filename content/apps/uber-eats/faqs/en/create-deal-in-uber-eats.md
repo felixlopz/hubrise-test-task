@@ -1,5 +1,6 @@
 ---
 title: How to Create a Deal in Uber Eats?
+path_override: create-deal-in-uber-eats
 position: 7
 layout: documentation
 meta:

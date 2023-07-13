@@ -1,18 +1,18 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Mailchimp | HubRise
   description: Présentation générale de Mailchimp, les raisons de connecter Mailchimp à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Fidélité et marketing
   availability: Monde
-  price_range:
+  price_range: 
   website: https://www.mailchimp.com
   contact: https://mailchimp.com/contact
 ---

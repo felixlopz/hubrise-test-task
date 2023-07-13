@@ -1,5 +1,6 @@
 ---
 title: Payment
+path_override: payment
 position: 10
 layout: documentation
 meta:

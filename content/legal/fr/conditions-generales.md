@@ -1,5 +1,6 @@
 ---
 title: Conditions générales
+path_override: conditions-generales
 layout: documentation
 position: 1
 meta:

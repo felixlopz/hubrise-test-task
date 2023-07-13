@@ -1,5 +1,6 @@
 ---
 title: Can My Plan Be Paused During Setup and Test Phases?
+path_override: pause-plan-during-setup-and-test-phases
 position: 50
 layout: documentation
 meta:

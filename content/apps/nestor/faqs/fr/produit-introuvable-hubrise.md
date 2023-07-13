@@ -1,5 +1,6 @@
 ---
 title: Je viens de créer un produit dans Nestor, pourquoi n'apparaît-il pas dans mon catalogue HubRise ?
+path_override: produit-introuvable-hubrise
 position: 3
 layout: documentation
 meta:

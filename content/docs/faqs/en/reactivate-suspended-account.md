@@ -1,5 +1,6 @@
 ---
 title: How Do I Reactivate A Suspended Account?
+path_override: reactivate-suspended-account
 position: 16
 layout: documentation
 meta:

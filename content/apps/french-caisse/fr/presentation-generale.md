@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | French Caisse | HubRise
   description: Présentation générale de French Caisse, les raisons de connecter French Caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Logiciels de caisse
   availability: France, Suisse
-  price_range:
+  price_range: 
   website: https://www.frenchcaisse.fr
   contact: frenchcaisse@gmail.com / 06 58 15 33 81
 ---

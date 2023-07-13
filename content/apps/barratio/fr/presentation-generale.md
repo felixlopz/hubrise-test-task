@@ -1,13 +1,13 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Barratio | HubRise
   description: Présentation générale de Barratio, les raisons de connecter Barratio à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-path_override: /
+- __gallery-001.png
 app_info:
   category: Gestion et Inventaire
   availability: France

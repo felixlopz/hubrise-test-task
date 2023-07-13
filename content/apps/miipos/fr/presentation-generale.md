@@ -1,19 +1,19 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | MiiPos | HubRise
   description: Présentation générale de MiiPos, les raisons de connecter votre logiciel de caisse MiiPos à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-path_override: /
+- __gallery-001.png
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range:
+  price_range: 
   website: https://www.miipos.fr
-  contact:
+  contact: 
 ---
 
 ---

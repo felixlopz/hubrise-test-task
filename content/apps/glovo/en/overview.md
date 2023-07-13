@@ -1,20 +1,20 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Glovo | HubRise
   description: Glovo overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between Glovo, your EPOS and your other apps. Share data.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Food Ordering Platforms
   availability: 25+ countries
-  price_range:
+  price_range: 
   website: https://glovoapp.com
-  contact:
+  contact: 
 ---
 
 ---

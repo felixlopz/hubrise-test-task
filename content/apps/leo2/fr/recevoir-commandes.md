@@ -1,5 +1,6 @@
 ---
 title: Recevoir les commandes
+path_override: recevoir-commandes
 position: 6
 layout: documentation
 meta:

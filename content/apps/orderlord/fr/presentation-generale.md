@@ -1,14 +1,14 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | OrderLord | HubRise
   description: Présentation générale de OrderLord, les raisons de connecter OrderLord à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Logiciels de caisse
   availability: Monde. Le logiciel de caisse est indisponible en France.

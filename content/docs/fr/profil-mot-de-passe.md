@@ -1,5 +1,6 @@
 ---
 title: Profil et mot de passe
+path_override: profil-mot-de-passe
 position: 6
 layout: documentation
 meta:

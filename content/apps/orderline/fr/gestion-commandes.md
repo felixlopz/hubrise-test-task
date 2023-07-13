@@ -1,5 +1,6 @@
 ---
 title: Gérer les commandes
+path_override: gestion-commandes
 position: 5
 layout: documentation
 meta:

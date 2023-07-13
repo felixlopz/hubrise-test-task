@@ -1,5 +1,6 @@
 ---
 title: Open & Close OrderLine
+path_override: open-close-orderline
 position: 3
 layout: documentation
 meta:

@@ -1,16 +1,16 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Panda EPOS | HubRise
   description: Panda EPOS overview, reasons for connecting Panda EPOS to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Point of Sales
   availability: United Kingdom
-  price_range:
+  price_range: 
   website: https://pandaepos.com
   contact: info@pandaepos.com / +44 1452 33 22 11
 ---

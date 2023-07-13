@@ -1,5 +1,6 @@
 ---
 title: Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?
+path_override: commandes-non-recues
 position: 1
 layout: documentation
 meta:

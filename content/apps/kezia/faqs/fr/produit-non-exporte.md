@@ -1,5 +1,6 @@
 ---
 title: Je viens de créer un produit dans Kezia II. Pourquoi n'apparaît-il pas dans mon catalogue HubRise ?
+path_override: produit-non-exporte
 position: 1
 layout: documentation
 meta:

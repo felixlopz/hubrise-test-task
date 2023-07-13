@@ -1,10 +1,10 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
   title: Connect to HubRise | SOLUTION | HubRise
-  description: Connect SOLUTION to HubRise, steps to follow to receive your orders in your SOLUTION EPOS.
   description: Connect SOLUTION to HubRise, steps to follow to receive your SOLUTION orders in your EPOS.
 ---
 

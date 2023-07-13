@@ -1,5 +1,6 @@
 ---
 title: Données
+path_override: donnees
 position: 5
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Puis-je recevoir les commandes dans ma logiciel de caisse sans passer par les tablettes Uber Eats ?
+path_override: recevoir-commandes-sans-tablette
 position: 2
 layout: documentation
 meta:

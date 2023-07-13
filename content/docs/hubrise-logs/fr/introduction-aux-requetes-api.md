@@ -1,5 +1,6 @@
 ---
 title: Introduction aux requêtes API
+path_override: introduction-aux-requetes-api
 position: 5
 layout: documentation
 meta:

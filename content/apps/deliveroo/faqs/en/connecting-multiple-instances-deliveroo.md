@@ -1,5 +1,6 @@
 ---
 title: Can I Connect Multiple Deliveroo Stores to the Same HubRise Location?
+path_override: connecting-multiple-instances-deliveroo
 position: 1
 layout: documentation
 meta:

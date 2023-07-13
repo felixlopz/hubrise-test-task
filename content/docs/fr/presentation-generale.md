@@ -1,18 +1,18 @@
 ---
-position: 1
 title: Présentation générale
+path_override: "/"
+position: 1
 layout: documentation
 meta:
   title: Présentation générale du guide utilisateur | HubRise
   description: Les commandes, les listes de clients et les catalogues sont enregistrés dans HubRise pour fournir aux applications connectées un accès en temps réel à vos données.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Middleware (plateforme logicielle intermédiaire)
   availability: Monde
-  price_range: €25 / par mois
+  price_range: "€25 / par mois"
   contact: contact@hubrise.com / support@hubrise.com
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Pourquoi certains commandes ne sont-elles pas envoyés vers Just Eat ?
+path_override: commandes-non-envoyees
 position: 3
 layout: documentation
 meta:

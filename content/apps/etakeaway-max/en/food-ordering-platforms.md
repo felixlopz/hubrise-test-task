@@ -1,5 +1,6 @@
 ---
 title: Food Ordering Platforms
+path_override: food-ordering-platforms
 position: 4
 layout: documentation
 meta:

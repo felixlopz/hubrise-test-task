@@ -1,5 +1,6 @@
 ---
 title: Points de vente
+path_override: points-de-vente
 position: 8
 layout: documentation
 meta:

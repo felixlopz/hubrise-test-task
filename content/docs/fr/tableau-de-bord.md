@@ -1,5 +1,6 @@
 ---
 title: Le tableau de bord
+path_override: tableau-de-bord
 position: 3
 layout: documentation
 meta:

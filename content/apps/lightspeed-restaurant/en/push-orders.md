@@ -1,5 +1,6 @@
 ---
 title: Push Orders
+path_override: push-orders
 position: 9
 layout: documentation
 meta:

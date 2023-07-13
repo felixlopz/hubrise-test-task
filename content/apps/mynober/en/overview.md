@@ -1,19 +1,19 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | MynOber | HubRise
   description: MynOber overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
 app_info:
   category: Online Ordering
   availability: Europe
-  price_range:
+  price_range: 
   website: https://mynober.nl/en
   contact: info@mynober.nl / +31 88 923 8300
 ---

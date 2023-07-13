@@ -1,5 +1,6 @@
 ---
 title: Mentions Légales
+path_override: mentions-legales
 layout: documentation
 position: 2
 meta:

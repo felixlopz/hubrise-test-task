@@ -1,20 +1,20 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Apicbase | HubRise
   description: Apicbase overview, reasons for connecting your F&B management platform to HubRise and summary of integrated features. Synchronise data between apps you use.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-  - __gallery-004.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
+- __gallery-004.png
 app_info:
   category: Operations and Inventory
   availability: France, United Kingdom, Netherlands, Belgium, Germany, Spain
-  price_range:
+  price_range: 
   website: https://get.apicbase.com
   contact: sales@apicbase.com / +44 20 3514 1727
 ---

@@ -1,5 +1,6 @@
 ---
 title: Requêtes JSON dans HubRise
+path_override: requetes-json-dans-hubrise
 position: 6
 layout: documentation
 meta:

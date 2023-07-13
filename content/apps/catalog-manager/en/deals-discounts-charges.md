@@ -1,5 +1,6 @@
 ---
 title: Deals, Discounts and Charges
+path_override: deals-discounts-charges
 position: 6
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: How Do I Connect Multiple Instances of the Same App?
+path_override: connect-multiple-instances-same-app
 position: 130
 layout: documentation
 meta:

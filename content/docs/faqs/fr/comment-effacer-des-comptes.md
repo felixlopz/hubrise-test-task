@@ -1,5 +1,6 @@
 ---
 title: J'ai trop de comptes pour mon entreprise sur HubRise. Comment faire un nettoyage ?
+path_override: comment-effacer-des-comptes
 position: 60
 layout: documentation
 meta:

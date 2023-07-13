@@ -1,15 +1,15 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Aquila | HubRise
   description: Présentation générale d'Aquila CMS, les raisons de connecter votre site Aquila CMS à HubRise et fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Commande en ligne
   availability: France
-  price_range:
+  price_range: 
   website: https://www.aquila-cms.com/
   contact: contact@nextsourcia.com
 ---

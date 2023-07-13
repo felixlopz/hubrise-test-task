@@ -1,5 +1,6 @@
 ---
 title: Catalogues
+path_override: catalogues
 position: 12
 layout: documentation
 meta:

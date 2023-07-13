@@ -1,5 +1,6 @@
 ---
 title: Comment Carré POS traite les différences de prix entre les produits ?
+path_override: prix-differents-produits
 position: 1
 layout: documentation
 meta:

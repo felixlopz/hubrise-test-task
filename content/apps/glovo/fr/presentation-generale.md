@@ -1,20 +1,20 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Glovo | HubRise
   description: Présentation générale de Glovo, les raisons de connecter Glovo à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Logiciels de caisse
   availability: plus de 25+ pays
-  price_range:
+  price_range: 
   website: https://glovoapp.com
-  contact:
+  contact: 
 ---
 
 ---

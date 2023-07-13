@@ -1,5 +1,6 @@
 ---
 title: Déboguer les requêtes
+path_override: deboguer-requetes
 position: 8
 layout: documentation
 meta:

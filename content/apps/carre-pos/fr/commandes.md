@@ -1,5 +1,6 @@
 ---
 title: Commandes
+path_override: commandes
 position: 4
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?
+path_override: verifier-connexion-entre-mon-systeme-et-hubrise
 position: 90
 layout: documentation
 meta:

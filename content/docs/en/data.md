@@ -1,5 +1,6 @@
 ---
 title: Data
+path_override: data
 position: 5
 layout: documentation
 meta:

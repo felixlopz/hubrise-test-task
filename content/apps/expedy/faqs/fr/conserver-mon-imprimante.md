@@ -1,5 +1,6 @@
 ---
 title: Puis-je conserver mon imprimante et la connecter à HubRise ?
+path_override: conserver-mon-imprimante
 position: 1
 layout: documentation
 meta:

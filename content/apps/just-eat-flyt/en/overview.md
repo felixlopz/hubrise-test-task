@@ -1,19 +1,19 @@
 ---
-position: 1
 title: Overview
+path_override: "/"
+position: 1
 layout: documentation
 meta:
   title: Overview | Just Eat Flyt | HubRise
   description: Just Eat Flyt Bridge overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Food Ordering Platforms
   availability: Australia (Menulog), Canada (Skip The Dishes), Ireland, Italy, Spain, United Kingdom
   website: https://just-eat.co.uk
-  contact:
+  contact: 
 ---
 
 ## Description

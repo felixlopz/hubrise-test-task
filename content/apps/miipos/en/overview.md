@@ -1,19 +1,19 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | MiiPos | HubRise
   description: MiiPos overview, reasons for connecting your MiiPos EPOS to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps.
 gallery:
-  - __gallery-001.png
-path_override: /
+- __gallery-001.png
 app_info:
   category: Point of Sales
   availability: France
-  price_range:
+  price_range: 
   website: https://www.miipos.fr
-  contact:
+  contact: 
 ---
 
 ---

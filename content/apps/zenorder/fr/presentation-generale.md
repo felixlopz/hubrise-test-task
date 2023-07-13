@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Zenorder | HubRise
   description: Présentation générale de Zenorder, les raisons de connecter votre site Zenorder à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Commande en ligne
   availability: France
-  price_range:
+  price_range: 
   website: https://www.zenorder.fr
   contact: contact@zenorder.fr / +33 1 83 80 72 50
 ---

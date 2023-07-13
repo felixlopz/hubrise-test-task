@@ -1,5 +1,6 @@
 ---
 title: Listes de clients
+path_override: listes-clients
 position: 13
 layout: documentation
 meta:

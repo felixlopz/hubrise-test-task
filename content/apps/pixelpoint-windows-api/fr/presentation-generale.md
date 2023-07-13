@@ -1,15 +1,15 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | PixelPoint Windows API | HubRise
   description: Présentation générale de PixelPoint Windows API, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Logiciels de caisse
   availability: Monde
-  price_range:
+  price_range: 
   website: https://www.sloweysys.com
   contact: support@slowey.ie
 ---

@@ -1,17 +1,17 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Expedy | HubRise
   description: Présentation générale de Expedy, les raisons de connecter votre imprimante autonome à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-path_override: /
+- __gallery-001.png
 app_info:
   category: Autres applications
   availability: France
-  price_range:
+  price_range: 
   website: https://www.expedy.fr
   contact: commercial@expedy.fr
 ---

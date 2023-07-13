@@ -1,5 +1,6 @@
 ---
 title: How Do I Duplicate a Catalog?
+path_override: duplicate-catalog
 position: 1
 layout: documentation
 meta:

@@ -1,16 +1,16 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | SmartResto.Net | HubRise
   description: SmartResto.Net overview, reasons for connecting SmartResto.Net to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Online Ordering
   availability: France
-  price_range:
+  price_range: 
   website: https://smartresto.net/
   contact: contact@smartresto.net
 ---

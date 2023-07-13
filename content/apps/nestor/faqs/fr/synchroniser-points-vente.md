@@ -1,5 +1,6 @@
 ---
 title: J'ai plusieurs points de vente utilisant Nestor avec le même menu, dois-je tous les synchroniser avec HubRise ?
+path_override: synchroniser-points-vente
 position: 2
 layout: documentation
 meta:

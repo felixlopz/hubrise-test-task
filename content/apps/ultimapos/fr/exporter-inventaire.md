@@ -1,5 +1,6 @@
 ---
 title: Exporter l'inventaire
+path_override: exporter-inventaire
 position: 6
 layout: documentation
 meta:

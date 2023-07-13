@@ -1,5 +1,6 @@
 ---
 title: How Can I Use LivePepper to Create Test Orders on HubRise?
+path_override: use-livepepper-to-create-test-orders
 position: 3
 layout: documentation
 meta:

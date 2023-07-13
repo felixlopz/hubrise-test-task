@@ -1,15 +1,15 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Loca'Touch | HubRise
   description: Présentation générale de Loca'Touch, les raisons de connecter Loca'Touch à HubRise et les fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Commande en ligne
   availability: France
-  price_range:
+  price_range: 
   website: https://locatouch.com
   contact: contact@locatouch.com / +33 6 95 13 54 25
 ---

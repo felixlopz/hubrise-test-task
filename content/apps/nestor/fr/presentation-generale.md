@@ -1,18 +1,18 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Nestor | HubRise
   description: Présentation générale de Nestor, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range:
+  price_range: 
   website: http://www.nestor.fr
   contact: info@svitex.com / +33 4 90 56 28 00
 ---

@@ -1,5 +1,6 @@
 ---
 title: Comment créer un profil utilisateur pour quelqu'un d'autre ?
+path_override: creer-profil-utilisateur-pour-une-autre-personne
 position: 110
 layout: documentation
 meta:

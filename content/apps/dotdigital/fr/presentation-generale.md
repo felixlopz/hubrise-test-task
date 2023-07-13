@@ -1,15 +1,15 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | dotdigital | HubRise
   description: Présentation générale de dotdigital, les raisons de connecter dotdigital à HubRise et fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Fidélité et marketing
   availability: États-Unis, Grande-Bretagne, Afrique du sud, Australie, Singapore, Pays-Bas et Europe de l'Est
-  price_range:
+  price_range: 
   website: https://www.dotdigital.com
   contact: https://dotdigital.com/contact
 ---

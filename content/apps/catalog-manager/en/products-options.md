@@ -1,5 +1,6 @@
 ---
 title: Products and Options
+path_override: products-options
 position: 5
 layout: documentation
 meta:

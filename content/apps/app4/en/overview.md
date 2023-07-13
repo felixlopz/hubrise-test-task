@@ -1,14 +1,14 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | App4 | HubRise
   description: App4 overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your online ordering solution and your apps.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Online Ordering
   availability: United Kingdom

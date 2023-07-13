@@ -1,5 +1,6 @@
 ---
 title: Associer les codes ref
+path_override: associer-codes-ref
 position: 3
 layout: documentation
 meta:

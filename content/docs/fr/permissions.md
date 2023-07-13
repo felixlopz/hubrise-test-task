@@ -1,5 +1,6 @@
 ---
 title: Permissions
+path_override: permissions
 position: 11
 layout: documentation
 meta:

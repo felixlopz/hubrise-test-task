@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 3
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Terminology
+path_override: terminology
 position: 7
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Les commandes HubRise n'arrivent pas dans Nestor, que faire ?
+path_override: commandes-non-recues
 position: 3
 layout: documentation
 meta:

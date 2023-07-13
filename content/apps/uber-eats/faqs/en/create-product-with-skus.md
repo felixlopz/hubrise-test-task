@@ -1,5 +1,6 @@
 ---
 title: How to Create a Product With Variations in Uber Eats?
+path_override: create-product-with-skus
 position: 5
 layout: documentation
 meta:

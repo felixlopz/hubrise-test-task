@@ -1,5 +1,6 @@
 ---
 title: Pull the Catalog
+path_override: pull-catalog
 position: 8
 layout: documentation
 meta:

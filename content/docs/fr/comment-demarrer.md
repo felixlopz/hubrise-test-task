@@ -1,5 +1,6 @@
 ---
 title: Comment démarrer
+path_override: comment-demarrer
 position: 2
 layout: documentation
 meta:

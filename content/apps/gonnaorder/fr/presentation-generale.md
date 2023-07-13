@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | GonnaOrder | HubRise
   description: Présentation générale de GonnaOrder, les raisons de connecter votre solution de commande en ligne à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Commande en ligne
   availability: Monde
-  price_range:
+  price_range: 
   website: https://www.gonnaorder.com/?lang=fr
   contact: https://www.gonnaorder.com/contact/?lang=fr
 ---

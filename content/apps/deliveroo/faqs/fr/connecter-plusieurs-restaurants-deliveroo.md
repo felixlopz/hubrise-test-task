@@ -1,5 +1,6 @@
 ---
 title: Puis-je connecter plusieurs restaurants Deliveroo au même point de vente HubRise ?
+path_override: connecter-plusieurs-restaurants-deliveroo
 position: 3
 layout: documentation
 meta:

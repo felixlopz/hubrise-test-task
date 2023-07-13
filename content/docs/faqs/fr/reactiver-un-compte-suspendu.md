@@ -1,5 +1,6 @@
 ---
 title: Comment réactiver un compte qui a été suspendu ?
+path_override: reactiver-un-compte-suspendu
 position: 16
 layout: documentation
 meta:

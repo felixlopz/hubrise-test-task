@@ -1,5 +1,6 @@
 ---
 title: Importer les commandes
+path_override: importer-commandes
 position: 4
 layout: documentation
 meta:

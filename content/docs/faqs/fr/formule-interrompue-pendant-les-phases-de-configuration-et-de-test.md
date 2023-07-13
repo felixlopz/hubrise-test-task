@@ -1,5 +1,6 @@
 ---
 title: Ma formule peut-elle être interrompue pendant les phases de configuration et de test ?
+path_override: formule-interrompue-pendant-les-phases-de-configuration-et-de-test
 position: 50
 layout: documentation
 meta:

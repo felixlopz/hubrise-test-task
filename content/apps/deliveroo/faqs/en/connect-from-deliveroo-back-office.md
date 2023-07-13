@@ -1,5 +1,6 @@
 ---
 title: Connect to HubRise From the Deliveroo Back Office
+path_override: connect-from-deliveroo-back-office
 position: 5
 layout: documentation
 meta:

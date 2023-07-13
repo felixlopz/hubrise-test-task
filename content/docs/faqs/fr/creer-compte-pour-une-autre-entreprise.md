@@ -1,5 +1,6 @@
 ---
 title: Comment créer un compte pour une autre entreprise ?
+path_override: creer-compte-pour-une-autre-entreprise
 position: 120
 layout: documentation
 meta:

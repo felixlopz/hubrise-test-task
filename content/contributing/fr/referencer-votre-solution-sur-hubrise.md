@@ -1,5 +1,6 @@
 ---
 title: Référencer votre solution sur HubRise
+path_override: referencer-votre-solution-sur-hubrise
 position: 3
 layout: documentation
 meta:

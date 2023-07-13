@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | SuperDigital.fr | HubRise
   description: Présentation générale de SuperDigital.fr, les raisons de connecter votre site SuperDigital.fr à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Commande en ligne
   availability: France
-  price_range:
+  price_range: 
   website: http://superdigital.fr
   contact: contact@superdigital.fr
 ---

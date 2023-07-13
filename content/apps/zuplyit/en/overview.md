@@ -1,21 +1,21 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Zuplyit | HubRise
   description: Zuplyit overview, reasons for connecting Zuplyit to HubRise and summary of integrated features. Synchronise data between apps you use every day.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
 app_info:
   category: Online Ordering
   availability: Europe
-  price_range:
+  price_range: 
   website: https://www.zuplyit.com
-  contact:
+  contact: 
 ---
 
 ---

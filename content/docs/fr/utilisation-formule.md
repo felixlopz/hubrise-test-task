@@ -1,5 +1,6 @@
 ---
 title: Utilisation et formules
+path_override: utilisation-formule
 position: 9
 layout: documentation
 meta:

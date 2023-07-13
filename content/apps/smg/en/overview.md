@@ -1,15 +1,15 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | SMG | HubRise
   description: SMG overview, reasons for connecting SMG to HubRise and summary of integrated features. Synchronise data between your EPOS, SMG and your other apps.
-path_override: /
 app_info:
   category: Loyalty and Marketing
   availability: Worldwide
-  price_range:
+  price_range: 
   website: https://www.smg.com
   contact: https://www.smg.com/contact-us
 ---

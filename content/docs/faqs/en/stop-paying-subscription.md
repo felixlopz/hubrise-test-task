@@ -1,5 +1,6 @@
 ---
 title: How Do I Stop Paying For My Subscription?
+path_override: stop-paying-subscription
 position: 16
 layout: documentation
 meta:

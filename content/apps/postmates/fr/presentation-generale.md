@@ -1,17 +1,17 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Postmates | HubRise
   description: Présentation générale de Postmates, les raisons de connecter Postmates à HubRise et les fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Gestion de livreurs
   availability: Etats-Unis
-  price_range:
+  price_range: 
   website: https://postmates.com
-  contact:
+  contact: 
 ---
 
 ---

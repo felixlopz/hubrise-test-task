@@ -1,5 +1,6 @@
 ---
 title: Plateformes de livraison de repas
+path_override: plateformes-livraison-repas
 position: 7
 layout: documentation
 meta:

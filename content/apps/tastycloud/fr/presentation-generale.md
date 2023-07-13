@@ -1,15 +1,15 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | TastyCloud | HubRise
   description: Présentation générale de TastyCloud, les raisons de connecter votre site TastyCloud à HubRise et fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Commande en ligne
   availability: France
-  price_range:
+  price_range: 
   website: https://www.tastycloud.fr
   contact: contact@tastycloud.fr / +33 1 88 32 06 70
 ---

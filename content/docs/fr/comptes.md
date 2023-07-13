@@ -1,5 +1,6 @@
 ---
 title: Comptes
+path_override: comptes
 position: 7
 layout: documentation
 meta:

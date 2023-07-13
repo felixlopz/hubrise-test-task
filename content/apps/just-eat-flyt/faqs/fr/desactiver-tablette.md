@@ -1,5 +1,6 @@
 ---
 title: Puis-je désactiver la tablette ?
+path_override: desactiver-tablette
 position: 1
 layout: documentation
 meta:

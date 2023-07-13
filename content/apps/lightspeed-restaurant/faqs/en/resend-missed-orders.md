@@ -1,5 +1,6 @@
 ---
 title: I Missed An Order. How Do I Resend It To Lightspeed Restaurant?
+path_override: resend-missed-orders
 position: 7
 layout: documentation
 meta:

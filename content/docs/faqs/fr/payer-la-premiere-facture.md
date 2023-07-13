@@ -1,5 +1,6 @@
 ---
 title: Comment payer ma première facture ?
+path_override: payer-la-premiere-facture
 position: 15
 layout: documentation
 meta:

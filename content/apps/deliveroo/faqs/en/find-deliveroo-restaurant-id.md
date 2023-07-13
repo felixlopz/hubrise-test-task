@@ -1,5 +1,6 @@
 ---
 title: How Do I Find My Deliveroo Restaurant ID?
+path_override: find-deliveroo-restaurant-id
 position: 2
 layout: documentation
 meta:

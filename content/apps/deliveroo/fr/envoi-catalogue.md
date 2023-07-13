@@ -1,5 +1,6 @@
 ---
 title: Envoyer le catalogue
+path_override: envoi-catalogue
 position: 6
 layout: documentation
 meta:

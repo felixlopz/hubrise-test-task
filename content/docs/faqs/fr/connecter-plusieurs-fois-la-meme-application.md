@@ -1,5 +1,6 @@
 ---
 title: Comment connecter plusieurs fois la même application ?
+path_override: connecter-plusieurs-fois-la-meme-application
 position: 130
 layout: documentation
 meta:

@@ -1,18 +1,18 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | CoursiCab | HubRise
   description: Présentation générale de CoursiCab, les raisons de connecter Coursicab à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
 app_info:
   category: Gestion de livreurs
   availability: Europe
-  price_range:
+  price_range: 
   website: https://coursicab.com/
   contact: it@coursicab.com
 ---

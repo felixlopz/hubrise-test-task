@@ -1,5 +1,6 @@
 ---
 title: Comment contribuer
+path_override: comment-contribuer
 position: 1
 layout: documentation
 meta:

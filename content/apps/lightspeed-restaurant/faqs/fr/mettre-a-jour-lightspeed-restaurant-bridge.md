@@ -1,5 +1,6 @@
 ---
 title: Comment profiter des fonctionnalités de la nouvelle intégration Lightspeed Restaurant ?
+path_override: mettre-a-jour-lightspeed-restaurant-bridge
 position: 1
 layout: documentation
 meta:

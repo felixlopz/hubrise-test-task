@@ -1,5 +1,6 @@
 ---
 title: Paramètres
+path_override: parametres
 position: 7
 layout: documentation
 meta:

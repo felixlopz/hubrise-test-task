@@ -1,5 +1,6 @@
 ---
 title: Comment cesser le paiement de mon abonnement ?
+path_override: arreter-de-payer-abonnement
 position: 16
 layout: documentation
 meta:

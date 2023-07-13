@@ -1,11 +1,11 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Lightspeed Restaurant | HubRise
   description: Présentation générale de Lightspeed Restaurant, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
-path_override: /
 app_info:
   category: Logiciels de caisse
   availability: Monde

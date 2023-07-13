@@ -1,5 +1,6 @@
 ---
 title: Envoyer les commandes
+path_override: envoyer-commandes
 position: 4
 layout: documentation
 meta:

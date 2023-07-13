@@ -1,5 +1,6 @@
 ---
 title: Item Not Found Errors
+path_override: item-not-found-errors
 position: 3
 layout: documentation
 meta:

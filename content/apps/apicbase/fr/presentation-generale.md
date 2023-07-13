@@ -1,20 +1,20 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Apicbase | HubRise
   description: Présentation générale de Apicbase, les raisons de connecter votre logiciel de gestion à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-  - __gallery-004.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
+- __gallery-004.png
 app_info:
   category: Gestion et inventaire
   availability: Royaume-Uni, France, Pays-Bas, Belgique, Allemagne, Espagne
-  price_range:
+  price_range: 
   website: https://get.apicbase.com/fr/
   contact: sales@apicbase.com / +33 1 76 35 05 59
 ---

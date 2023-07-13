@@ -1,5 +1,6 @@
 ---
 title: J'ai perdu mon mot de passe. Comment le réinitialiser ?
+path_override: reinitialiser-mot-de-passe-hubrise-perdu
 position: 80
 layout: documentation
 meta:

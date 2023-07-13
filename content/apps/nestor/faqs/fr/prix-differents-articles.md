@@ -1,5 +1,6 @@
 ---
 title: Comment Nestor traite les différences de prix dans les articles ?
+path_override: prix-differents-articles
 position: 1
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: How Do I Create an Account for Another Business?
+path_override: create-an-account-for-another-business
 position: 120
 layout: documentation
 meta:

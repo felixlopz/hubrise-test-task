@@ -1,10 +1,11 @@
 ---
 title: Authentication
+path_override: authentication
 position: 2
 layout: documentation
 meta:
   title: Authentication | API | HubRise
-  description:
+  description: 
 ---
 
 ## 1. Introduction to OAuth 2.0

@@ -1,5 +1,6 @@
 ---
 title: Organisation des informations
+path_override: organisation-informations
 position: 2
 layout: documentation
 meta:

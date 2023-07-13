@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | RestaJet | HubRise
   description: Présentation générale de RestaJet, les raisons de connecter votre solution de commande en ligne à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-003.png
-  - __gallery-004.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-003.png
+- __gallery-004.png
 app_info:
   category: Commande en ligne
   availability: Europe, Turquie et Moyen-Orient

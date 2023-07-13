@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Food Report | HubRise
   description: Présentation générale de Food Report, les raisons de connecter Food Report à HubRise et les fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Inventaire et gestion des opérations
   availability: France métropolitaine et outre-mer
-  price_range:
+  price_range: 
   website: https://www.foodreport.fr/
   contact: contact@theometrics.fr
 ---

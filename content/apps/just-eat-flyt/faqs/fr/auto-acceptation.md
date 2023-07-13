@@ -1,5 +1,6 @@
 ---
 title: Dois-je activer l'auto-acceptation sur Just Eat ?
+path_override: auto-acceptation
 position: 2
 layout: documentation
 meta:

@@ -1,17 +1,17 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | La Toque Magique | HubRise
   description: Présentation générale de La Toque Magique, les raisons de connecter La Toque Magique à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-  - __gallery-001.png
-  - __gallery-002.png
-  - __gallery-004.png
-  - __gallery-005.png
-  - __gallery-006.png
-path_override: /
+- __gallery-001.png
+- __gallery-002.png
+- __gallery-004.png
+- __gallery-005.png
+- __gallery-006.png
 app_info:
   category: Commande en ligne
   availability: France

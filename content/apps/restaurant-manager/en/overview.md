@@ -1,15 +1,15 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Restaurant Manager | HubRise
   description: Restaurant Manager overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
 app_info:
   category: Point of Sale
   availability: Worldwide, sold and serviced by local authorized resellers.
-  price_range:
+  price_range: 
   website: https://www.rmpos.com
   contact: info@crystal-mind.com
 ---

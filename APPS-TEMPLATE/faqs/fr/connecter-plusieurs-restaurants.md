@@ -1,5 +1,6 @@
 ---
 title: Puis-je connecter plusieurs restaurants SOLUTION au même point de vente HubRise ?
+path_override: connecter-plusieurs-restaurants
 position: 2
 layout: documentation
 meta:

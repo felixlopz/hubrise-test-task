@@ -1,5 +1,6 @@
 ---
 title: How Do I Configure HubRise for Uber Eats Disposable Items to Show In My EPOS?
+path_override: uber-eats-disposable-items
 position: 3
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Comment activer l'acceptation automatique des commandes ?
+path_override: acceptation-automatique
 position: 3
 layout: documentation
 meta:

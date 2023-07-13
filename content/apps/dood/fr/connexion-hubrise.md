@@ -1,10 +1,11 @@
 ---
 title: Connexion à HubRise
+path_override: connexion-hubrise
 position: 2
 layout: documentation
 meta:
   title: Connexion | DOOD | HubRise
-  description: "Processus de connexion de votre restaurant DOOD à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes DOOD dans votre logiciel de caisse."
+  description: 'Processus de connexion de votre restaurant DOOD à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes DOOD dans votre logiciel de caisse.'
 ---
 
 ---

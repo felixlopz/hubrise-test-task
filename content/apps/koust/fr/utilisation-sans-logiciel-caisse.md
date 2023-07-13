@@ -1,5 +1,6 @@
 ---
 title: Utilisation sans logiciel de caisse
+path_override: utilisation-sans-logiciel-caisse
 position: 6
 layout: documentation
 meta:

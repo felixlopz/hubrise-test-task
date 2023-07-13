@@ -1,5 +1,6 @@
 ---
 title: Comment Kezia II traite les différences de prix ?
+path_override: differences-prix
 position: 2
 layout: documentation
 meta:

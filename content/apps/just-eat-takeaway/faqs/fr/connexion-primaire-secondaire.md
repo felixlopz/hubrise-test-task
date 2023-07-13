@@ -1,5 +1,6 @@
 ---
 title: Que sont les connexions primaires et secondaires ?
+path_override: connexion-primaire-secondaire
 position: 1
 layout: documentation
 meta:

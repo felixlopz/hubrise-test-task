@@ -1,10 +1,11 @@
 ---
 title: Connexion à HubRise
+path_override: connexion-hubrise
 position: 2
 layout: documentation
 meta:
   title: Connexion | La Toque Magique | HubRise
-  description: "Processus de connexion de votre restaurant La Toque Magique à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes La Toque Magique dans votre logiciel de caisse."
+  description: 'Processus de connexion de votre restaurant La Toque Magique à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes La Toque Magique dans votre logiciel de caisse.'
 ---
 
 ---

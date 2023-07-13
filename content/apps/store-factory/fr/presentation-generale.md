@@ -1,16 +1,16 @@
 ---
 title: Présentation générale
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Présentation générale | Store Factory | HubRise
   description: Présentation générale de Store Factory, les raisons de connecter votre solution de commande en ligne à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery:
-path_override: /
+gallery: 
 app_info:
   category: Commande en ligne
   availability: France
-  price_range:
+  price_range: 
   website: https://storefactory.y-proximite.fr
   contact: https://storefactory.y-proximite.fr/contactez-nous
 ---
