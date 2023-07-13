@@ -56,11 +56,19 @@ This section of the Configuration page allows you to decide how to map your dotd
 
 ### Save the Configuration
 
-Once you are happy with the configuration of the dotdigital Bridge, click **Save** at the top of the page to continue to the main page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-You can always restore the Configuration page to its default values and change the dotdigital API credentials associated with your HubRise location by clicking on **Reset the configuration**.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
+
+---
+
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from Deliveroo. You will need your dotdigital API credentials to reestablish the connection.
+
+---
+
+Resetting the configuration does not delete the operation logs displayed in the main page.
 
 ## Uploading Customers in Bulk
 

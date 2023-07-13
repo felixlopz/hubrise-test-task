@@ -18,8 +18,7 @@ app_info:
 
 ## Description
 
-Deliveroo is an online delivery platform for restaurants and convenience stores.
-It is based in the United Kingdom but operates in 13 different countries in Europe, Asia, and Oceania.
+Deliveroo is an online ordering and delivery platform for restaurants and convenience stores. It is based in the United Kingdom but operates in 13 different countries in Europe, Asia, and Oceania.
 
 Deliveroo connects to your HubRise account through Deliveroo Bridge, an app developed by HubRise.
 
@@ -36,7 +35,7 @@ Connecting Deliveroo Bridge allows HubRise to:
 
 ---
 
-**IMPORTANT NOTE:** HubRise has partnered with Deliveroo to offer a new tabletless integration experience. This allows you to receive Deliveroo orders directly in HubRise without the need for a Deliveroo tablet. For more information, see [How Can I Abandon the Deliveroo Tablet?](/apps/deliveroo/faqs/abandon-deliveroo-tablet/)
+**IMPORTANT NOTE:** HubRise has partnered with Deliveroo to offer a new tabletless integration experience. This allows you to receive Deliveroo orders directly in HubRise without the need for a Deliveroo tablet. For more information, see [Can I Stop Using the Deliveroo Tablet?](/apps/deliveroo/faqs/deliveroo-tabletless/)
 
 ---
 

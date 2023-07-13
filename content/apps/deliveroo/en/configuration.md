@@ -46,9 +46,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ### Order Statuses
 
-Deliveroo requires you to acknowledge every order you receive.
-In this section, you can select which HubRise status sends an order confirmation back to Deliveroo.
-Refer to your EPOS documentation on the HubRise website to verify the correct value.
+Deliveroo requires you to acknowledge every order you receive. In this section, you can select which HubRise status sends an order confirmation back to Deliveroo. Refer to your EPOS documentation on the HubRise website to verify the correct value.
 
 ## Catalog
 
@@ -66,30 +64,28 @@ The **Menu description** and **Menu banner** replace the current description and
 
 ---
 
-**IMPORTANT NOTE:** The menu description and banner image are required to successfully push your catalog to Deliveroo.
+**IMPORTANT NOTE:** The menu description and banner are required to successfully push your catalog to Deliveroo.
 
 ---
 
 ## Inventory
 
-Through inventory synchronization, products and options that have a stock quantity of zero can be hidden on your Deliveroo store.
+Through inventory synchronisation, products and options that have a stock quantity of zero can be hidden on your Deliveroo store.
 
-To synchronize your HubRise inventory with Deliveroo whenever it is updated, select the **Enable automatic inventory push** checkbox.
-
-Additionally, you can manually push your inventory to Deliveroo via the **Actions** page.
+Select the **Enable automatic inventory push** checkbox to synchronise your HubRise inventory with Deliveroo whenever it gets updated.
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Deliveroo Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your Deliveroo Restaurant ID. To continue receiving Deliveroo orders, you will need to enter your Deliveroo Restaurant ID again.
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from Deliveroo. You will need your Deliveroo Restaurant ID to reestablish the connection.
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.

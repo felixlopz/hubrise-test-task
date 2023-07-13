@@ -26,7 +26,7 @@ In order to configure your connection to Mailchimp:
 
 1. Once you have set the configuration according to your preferences, click **Save**.
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ![Mailchimp Bridge Configuration](./images/010-2x-mailchimp-configuration.png)
 

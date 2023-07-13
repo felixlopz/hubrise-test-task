@@ -51,7 +51,7 @@ L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers �
 
 ## Contacter le support de SOLUTION
 
-Pour demander la connexion de SOLUTION à HubRise, contactez l'équipe de support de SOLUTION par email sur [contact@solution.com](mailto:contact@solution.com). Vous pouvez inclure [support@hubrise.com](mailto:support@hubrise.com) en copie pour un suivi coordonné entre nos deux équipes.
+Pour demander la connexion de SOLUTION à HubRise, contactez l'équipe de support de SOLUTION par email sur contact@solution.com. Vous pouvez inclure support@hubrise.com en copie pour un suivi coordonné entre nos deux équipes.
 
 Indiquez dans votre demande le nom de votre compte HubRise, son identifiant HubRise et le point de vente à connecter. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#nom-et-identifiant-du-point-de-vente).
 
