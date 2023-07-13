@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Online Ordering
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://www.prestashop.com/en
   contact: https://www.prestashop.com/en/contact
 ---

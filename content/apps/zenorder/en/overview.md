@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Online Ordering
   availability: France
-  price_range: 
+  price_range:
   website: https://www.zenorder.fr
   contact: contact@zenorder.fr / +33 1 83 80 72 50
 ---

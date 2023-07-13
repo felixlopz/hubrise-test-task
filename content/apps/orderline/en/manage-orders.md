@@ -42,7 +42,6 @@ Order cards display all the details needed to process the order, including the f
 
 ![OrderLine Order Card Details](./images/019-2x-order-card-details.png)
 
-
 ## Update Order's Status
 
 To update an order's status, open the order card and select the relevant button on the card's right column.

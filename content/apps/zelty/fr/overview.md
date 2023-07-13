@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range: 
+  price_range:
   website: https://zelty.fr
   contact: contact@zelty.fr / +33 9 72 53 55 72
 ---

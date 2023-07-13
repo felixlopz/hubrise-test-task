@@ -7,7 +7,7 @@ meta:
   title: Présentation générale | Catalog Manager | HubRise
   description: Présentation générale du Catalog Manager qui permet de créer, modifier et gérer des produits de vos catalogues HubRise. Raisons pour le connecter à HubRise.
 gallery:
-- __gallery-001.png
+  - __gallery-001.png
 app_info:
   category: Catalog Management
   availability: Monde entier

@@ -7,8 +7,8 @@ meta:
   title: Overview | Lightspeed Restaurant | HubRise
   description: Lightspeed Restaurant overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Point of Sales
   availability: Worldwide

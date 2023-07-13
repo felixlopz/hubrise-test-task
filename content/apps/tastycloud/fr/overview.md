@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Commande en ligne
   availability: France
-  price_range: 
+  price_range:
   website: https://www.tastycloud.fr
   contact: contact@tastycloud.fr / +33 1 88 32 06 70
 ---

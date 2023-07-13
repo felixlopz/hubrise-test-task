@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | Delivery Hero | HubRise
   description: Présentation générale de Delivery Hero, les raisons de connecter votre plateforme de livraison à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Plateformes de livraison de repas
   availability: Monde
-  price_range: 
+  price_range:
   website: https://www.deliveryhero.com
   contact: info@deliveryhero.com
 ---

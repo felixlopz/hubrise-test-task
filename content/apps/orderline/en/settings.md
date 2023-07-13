@@ -78,7 +78,6 @@ Users can be prompted to add a comment when an order is set to a specific status
 1. Select the status list under **Prompt for user's comment when updating the order status to**.
 1. Select the <InlineImage width="40" height="42">![OrderLine Plus Icon](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbol to set a status a user can select from. To remove all options, select **Uncheck all**. The <InlineImage width="40" height="40">![OrderLine Status Added Checkmark Icon](../images/037-orderline-status-added.jpg)</InlineImage> indicates that status was already selected.
 
-
 ## Hide Orders
 
 Orders that match a specific status can be hidden from the **Today's Orders** list. Hidden Orders can be displayed from **Today's Orders** by selecting the **hidden orders** card.
@@ -105,4 +104,3 @@ The following settings are available:
 Different ringtones produce varying levels of sharpness. Choose the tone that aligns with your preference and suits your environment. Remember, volume adjustments can only be made through your device settings, not in OrderLine. If your device's sound isn't loud enough for a noisy workspace, consider connecting to an external Bluetooth speaker.
 
 ![Notifications settings](./images/016-2x-settings-notifications.png)
-

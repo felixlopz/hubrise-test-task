@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sales
   availability: France
-  price_range: 
+  price_range:
   website: http://www.nestor.fr
   contact: info@svitex.com / +33 4 90 56 28 00
 ---

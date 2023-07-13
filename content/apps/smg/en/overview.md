@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Loyalty and Marketing
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://www.smg.com
   contact: https://www.smg.com/contact-us
 ---

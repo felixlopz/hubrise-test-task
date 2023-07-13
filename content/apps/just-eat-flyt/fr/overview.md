@@ -10,7 +10,7 @@ app_info:
   category: Plateformes de livraison de repas
   availability: Canada, Irlande, Royaume-Uni
   website: https://just-eat.co.uk
-  contact: 
+  contact:
 ---
 
 ## Description

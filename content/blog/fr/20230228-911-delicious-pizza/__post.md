@@ -1,10 +1,10 @@
 ---
-title: 'Etude de cas : 911 Delicious Company'
+title: "Etude de cas : 911 Delicious Company"
 path_override: __post
 date: 2023-02-28
 author: Géraldine Malet
 meta:
-  title: 'Etude de cas : 911 Delicious Company | Blog | HubRise'
+  title: "Etude de cas : 911 Delicious Company | Blog | HubRise"
   description: Comment 911 Pizza devient 911 Delicious Company et comment ce réseau de franchise réussit sa mutation numérique, informatique et technologique ?
 ---
 

@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | SwooPOS | HubRise
   description: Présentation générale de SwooPOS, les raisons de connecter SwooPOS à HubRise et les fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni
-  price_range: 
+  price_range:
   website: https://swoopos.com
   contact: sales@swoopos.com / +44 121 270 7500
 ---

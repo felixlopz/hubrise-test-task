@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Fidélité et marketing
   availability: États-Unis, Grande-Bretagne, Afrique du sud, Australie, Singapore, Pays-Bas et Europe de l'Est
-  price_range: 
+  price_range:
   website: https://www.dotdigital.com
   contact: https://dotdigital.com/contact
 ---

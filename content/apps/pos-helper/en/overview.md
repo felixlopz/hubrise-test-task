@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | POS HELPER | HubRise
   description: POS HELPER overview, reasons for connecting POS HELPER to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps.
-gallery: 
+gallery:
 app_info:
   category: Point of Sales
   availability: France
-  price_range: 
+  price_range:
   website: https://poshelper.fr/
   contact: "+33 9 72 41 51 12"
 ---

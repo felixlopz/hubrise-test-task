@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | UltimaPOS | HubRise
   description: Présentation générale d'UltimaPOS, les raisons de connecter votre caisse UltimaPOS à HubRise et les fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range: 
+  price_range:
   website: https://www.ultimapos.fr/
   contact: contact@ultimapos.fr
 ---

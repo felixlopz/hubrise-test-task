@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | SmartResto.Net | HubRise
   description: Présentation générale de SmartResto.Net, les raisons de connecter SmartResto.Net à HubRise et les fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Commande en ligne
   availability: France
-  price_range: 
+  price_range:
   website: https://smartresto.net/
   contact: contact@smartresto.net
 ---

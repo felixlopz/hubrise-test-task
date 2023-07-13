@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | Expedy | HubRise
   description: Expedy overview, reasons for connecting Expedy to HubRise and summary of integrated features. Synchronise data between your EPOS Expedy and your other apps.
-gallery: 
+gallery:
 app_info:
   category: Other Apps
   availability: France
-  price_range: 
+  price_range:
   website: https://www.expedy.fr
   contact: commercial@expedy.fr
 ---

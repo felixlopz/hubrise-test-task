@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | Como | HubRise
   description: Présentation générale de Como, les raisons de connecter votre solution de fidélité client à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Fidélité et marketing
   availability: Monde
-  price_range: 
+  price_range:
   website: https://fr.como.com
   contact: https://fr.como.com/contactez-nous
 ---

@@ -7,8 +7,8 @@ meta:
   title: Présentation générale | TicknCook | HubRise
   description: Présentation générale de TicknCook, les raisons de connecter votre écran cuisine TicknCook à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.jpg
-- __gallery-002.jpg
+  - __gallery-001.jpg
+  - __gallery-002.jpg
 app_info:
   category: Ecran cuisine (KDS)
   availability: Français et anglais

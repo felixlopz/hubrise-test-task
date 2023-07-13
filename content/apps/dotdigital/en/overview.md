@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Loyalty and Marketing
   availability: United States, Great Britain, South Africa, Australia, Singapore, Netherlands and Eastern Europe
-  price_range: 
+  price_range:
   website: https://www.dotdigital.com
   contact: https://dotdigital.com/contact
 ---

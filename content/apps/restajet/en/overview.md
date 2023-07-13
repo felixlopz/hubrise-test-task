@@ -7,10 +7,10 @@ meta:
   title: Overview | RestaJet | HubRise
   description: RestaJet overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between RestaJet, your EPOS and your other apps.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Online Ordering
   availability: Europe, Turkey and the Middle East

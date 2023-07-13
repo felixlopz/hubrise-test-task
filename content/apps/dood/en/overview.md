@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Online ordering
   availability: France
-  price_range: 
+  price_range:
   website: https://www.dood.com/fr
   contact: contact@dood.com
 ---

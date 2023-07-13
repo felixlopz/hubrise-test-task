@@ -5,7 +5,7 @@ position: 8
 layout: documentation
 meta:
   title: Callbacks | API | HubRise
-  description: 
+  description:
 ---
 
 A **callback** notifies a client of changes that occurred on a set of resources. It can be used to monitor orders, customers, locations or catalogs.

@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | SwooPOS | HubRise
   description: SwooPOS overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery: 
+gallery:
 app_info:
   category: Point of Sales
   availability: United Kingdom
-  price_range: 
+  price_range:
   website: https://swoopos.com
   contact: sales@swoopos.com / +44 121 270 7500
 ---

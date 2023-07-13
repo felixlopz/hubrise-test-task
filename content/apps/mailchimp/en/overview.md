@@ -7,12 +7,12 @@ meta:
   title: Overview | Mailchimp | HubRise
   description: Mailchimp overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Loyalty and Marketing
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://www.mailchimp.com
   contact: https://mailchimp.com/contact
 ---

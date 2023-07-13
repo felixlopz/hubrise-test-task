@@ -7,20 +7,20 @@ meta:
   title: Présentation générale | Melba by Foodmeup | HubRise
   description: Présentation générale de Melba, les raisons de connecter Melba à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
-- __gallery-005.png
-- __gallery-006.png
-- __gallery-007.png
-- __gallery-008.png
-- __gallery-009.png
-- __gallery-010.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
+  - __gallery-005.png
+  - __gallery-006.png
+  - __gallery-007.png
+  - __gallery-008.png
+  - __gallery-009.png
+  - __gallery-010.png
 app_info:
   category: Gestion et inventaire
   availability: France
-  price_range: 
+  price_range:
   website: https://melba.io/fr
   contact: contact@foodmeup.io
 ---

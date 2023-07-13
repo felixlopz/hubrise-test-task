@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | Adipos | HubRise
   description: Présentation générale de Adipos, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise. Interconnecté vos applicatifs.
-gallery: 
+gallery:
 app_info:
   category: Logiciels de caisse
   availability: France, Turkie, Maroc
-  price_range: 
+  price_range:
   website: https://adipos.fr/
   contact: support@adipos.fr / +33 9 81 06 79 05
 ---

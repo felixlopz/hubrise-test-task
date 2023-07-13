@@ -7,8 +7,8 @@ meta:
   title: Overview | TicknCook | HubRise
   description: TicknCook overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-- __gallery-001.jpg
-- __gallery-002.jpg
+  - __gallery-001.jpg
+  - __gallery-002.jpg
 app_info:
   category: Kitchen Display System (KDS)
   availability: French and English

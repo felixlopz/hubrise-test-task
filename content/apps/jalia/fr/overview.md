@@ -7,11 +7,11 @@ meta:
   title: Présentation générale | Jalia | HubRise
   description: Présentation générale de Jalia, les raisons de connecter votre caisse à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.jpeg
+  - __gallery-001.jpeg
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range: 
+  price_range:
   website: https://www.jalia.fr
   contact: jalia@jdc.fr
 ---

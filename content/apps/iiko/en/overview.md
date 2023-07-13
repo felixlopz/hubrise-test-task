@@ -6,7 +6,7 @@ layout: documentation
 meta:
   title: Overview | iiko | HubRise
   description: iiko overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery: 
+gallery:
 app_info:
   category: Point of Sales
   availability: World

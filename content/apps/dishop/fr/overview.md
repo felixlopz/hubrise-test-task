@@ -7,16 +7,16 @@ meta:
   title: Présentation générale | Dishop | HubRise
   description: Présentation générale de Dishop, les raisons de connecter Dishop à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-006.png
-- __gallery-005.png
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-006.png
+  - __gallery-005.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Commande en ligne et gestion de livreurs
   availability: France
-  price_range: 
+  price_range:
   website: https://dishop.co/
   contact: contact@dishop.co
 ---

@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | Como | HubRise
   description: Como overview, reasons for connecting Como to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps data with Como.
-gallery: 
+gallery:
 app_info:
   category: Loyalty and Marketing
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://www.como.com
   contact: https://www.como.com/contact-us
 ---

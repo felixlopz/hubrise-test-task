@@ -7,12 +7,12 @@ meta:
   title: Présentation générale | Orkestro | HubRise
   description: Présentation générale de Orkestro, les raisons de connecter votre solution de gestion de livreurs à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Gestion de livreurs
   availability: Royaume-Uni
-  price_range: 
+  price_range:
   website: https://orkestro.com
   contact: info@orkestro.com
 ---

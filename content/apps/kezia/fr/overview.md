@@ -7,12 +7,12 @@ meta:
   title: Présentation générale | Kezia II | HubRise
   description: Présentation générale de Kezia II, les raisons de connecter votre caisse à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range: 
+  price_range:
   website: https://www.jdc.fr/caisse-enregistreuse/logiciel-de-caisse
   contact: licencekezia@jdc.fr
 ---

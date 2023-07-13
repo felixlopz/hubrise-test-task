@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Food Ordering Platforms
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://www.deliveryhero.com
   contact: info@deliveryhero.com
 ---

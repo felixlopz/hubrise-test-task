@@ -7,10 +7,10 @@ meta:
   title: Overview | Next Order | HubRise
   description: Next Order overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Point of Sales
   availability: United Kingdom, Australia and New Zealand

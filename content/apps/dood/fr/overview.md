@@ -7,14 +7,14 @@ meta:
   title: Présentation générale | DOOD | HubRise
   description: Présentation générale de DOOD, les raisons de connecter votre solution de commande en ligne à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Commande en ligne
   availability: France
-  price_range: 
+  price_range:
   website: https://www.dood.com/fr
   contact: contact@dood.com
 ---
