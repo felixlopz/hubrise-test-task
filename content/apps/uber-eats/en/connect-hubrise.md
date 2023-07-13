@@ -28,9 +28,9 @@ Connecting Uber Eats to HubRise can be done with a few steps. You can connect on
 
 As a first step, the HubRise integration must be enabled on your Uber Eats store.
 
-Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
+Contact us at support@hubrise.com and include the following information:
 
-- The URL link to your restaurant page on the Uber Eats website. For example: [https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg](https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg).
+- The URL link to your restaurant page on the Uber Eats website. For example: https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg.
 - Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
 - The order acceptance mode you want to use for your store: `Manual accept` or `Offered state` mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 

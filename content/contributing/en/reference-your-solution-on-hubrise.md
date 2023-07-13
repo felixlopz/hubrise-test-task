@@ -7,7 +7,7 @@ meta:
   description: Once your integration has been approved, you can request to be referenced on HubRise. The list of elements to provide depends on the type of inclusion.
 ---
 
-Once your solution has been technically approved by HubRise, you can ask for it to be included on our website by contacting us at [contact@hubrise.com](mailto:contact@hubrise.com).
+Once your solution has been technically approved by HubRise, you can ask for it to be included on our website by contacting us at contact@hubrise.com.
 
 Depending on the parts of the site in which your solution will be referenced, you must provide us with certain elements, details of which are given below.
 

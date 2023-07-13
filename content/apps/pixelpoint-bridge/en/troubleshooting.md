@@ -72,4 +72,4 @@ A table has been created to help map keys from HubRise to PixelPoint. For more i
 
 ## PAR PixelPoint Support
 
-PAR PixelPoint support team can be contacted at [partnersupport@partech.com](mailto:partnersupport@partech.com) for issues with the configuration of the EPOS.
+PAR PixelPoint support team can be contacted at partnersupport@partech.com for issues with the configuration of the EPOS.

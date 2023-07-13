@@ -20,4 +20,4 @@ Pour plus d'informations, voir les informations disponibles sur le site Expedy P
 - Pour les commerçants, voir [Expedy Cloud Print Box ESC POS](https://www.printer-point.com/shop/cloud-print-box/expedy-cloud-print-box-esc-pos).
 - Pour les restaurateurs, voir [Expedy Cloud Print Box Restaurant](https://www.printer-point.com/shop/cloud-print-box/expedy-cloud-print-box-restaurant).
 
-Vous pouvez également contacter Expedy Print par e-mail : [commercial@expedy.fr](commercial@expedy.fr).
+Vous pouvez également contacter Expedy Print par e-mail : commercial@expedy.fr.

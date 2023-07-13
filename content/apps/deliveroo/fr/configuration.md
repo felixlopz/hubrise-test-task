@@ -57,7 +57,7 @@ Choisissez également si vous souhaitez pousser votre catalogue HubRise vers Del
 
 Enfin, vous pouvez saisir la description du menu et l'URL de l'image de bannière à afficher sur votre restaurant Deliveroo.
 
-Pour obtenir une URL publique pour votre image de bannière, envoyez un e-mail à [support@hubrise.com](mailto:support@hubrise.com) en incluant une image avec les caractéristiques suivantes :
+Pour obtenir une URL publique pour votre image de bannière, envoyez un e-mail à support@hubrise.com en incluant une image avec les caractéristiques suivantes :
 
 - Au moins 1920x1080 pixels, format 16:9.
 - Format JPG ou PNG.

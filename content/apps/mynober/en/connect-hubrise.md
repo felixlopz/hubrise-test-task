@@ -19,7 +19,7 @@ Connecting MynOber Cloud to HubRise can be done with a few simple steps.
 
 As a first step, the HubRise integration must be enabled on your MynOber Cloud account.
 
-Contact MynOber Support at [support@mynober.nl](mailto:support@mynober.nl) and ask them to activate the HubRise module in your back office.
+Contact MynOber Support at support@mynober.nl and ask them to activate the HubRise module in your back office.
 
 ## 2. Connect MynOber Cloud
 

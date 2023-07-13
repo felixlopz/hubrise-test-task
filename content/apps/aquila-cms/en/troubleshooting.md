@@ -43,4 +43,4 @@ With the test order created in Aquila, the next step is to verify that the order
 
 ## Aquila Support
 
-The Aquila support team can be contacted at [contact@nextsourcia.com](mailto:contact@nextsourcia.com) for issues with the configuration of the Aquila CMS.
+The Aquila support team can be contacted at contact@nextsourcia.com for issues with the configuration of the Aquila CMS.

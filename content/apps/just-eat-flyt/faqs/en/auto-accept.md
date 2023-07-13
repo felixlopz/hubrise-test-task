@@ -27,6 +27,6 @@ Auto-Accept is only available in the following markets:
 - Australia with Menulog
 
 Auto-Accept can be activated by the Just Eat Flyt team when setting up the integration. It can also be activated by the Just Eat support team after the connection with HubRise.
-For Menulog, contact [techsupport@menulog.com](mailto:techsupport@menulog.com) and ask them to activate it. It cannot be activated during the integration set up.
+For Menulog, contact techsupport@menulog.com and ask them to activate it. It cannot be activated during the integration set up.
 
 France, Netherlands, Belgium, and Switzerland are on the Takeaway tech stack. Auto-Accept is not available for these markets, even with the Just Eat Flyt integration. However Just Eat is working on this feature which should become available in the months to come. For now, Auto-Accept can be activated in France for instance if the restaurant uses Scoober or Stuart delivery services.

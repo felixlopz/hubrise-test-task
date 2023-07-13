@@ -13,7 +13,7 @@ meta:
 
 ---
 
-Seuls les utilisateurs administrateurs de Hop Delivery peuvent connecter et déconnecter HubRise depuis le back office de Hop Delivery. Si vous n'êtes pas administrateur, contactez le support de Hop Delivery par email à [hello@hop.delivery](hello@hop.delivery).
+Seuls les utilisateurs administrateurs de Hop Delivery peuvent connecter et déconnecter HubRise depuis le back office de Hop Delivery. Si vous n'êtes pas administrateur, contactez le support de Hop Delivery par email à hello@hop.delivery.
 
 ## Connecter Hop Delivery
 

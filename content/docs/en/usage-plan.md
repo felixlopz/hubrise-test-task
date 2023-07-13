@@ -30,7 +30,7 @@ HubRise provides both free and paid plans for its services. For complete informa
 
 Free plans are available for Locations with a limited number of transactions a month. Once the limit is reached, Admin users of the Account and the Location are notified via email, and they need to upgrade to the paid tier to continue service.
 
-During the test phase prior to launch, you can request a free plan with an extended quota of orders. Contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
+During the test phase prior to launch, you can request a free plan with an extended quota of orders. Contact HubRise at support@hubrise.com.
 
 ## Plan Notifications
 

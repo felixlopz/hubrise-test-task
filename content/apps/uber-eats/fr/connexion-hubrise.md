@@ -19,9 +19,9 @@ La connexion d'Uber Eats à HubRise s'effectue en quelques étapes simples.
 
 Dans un premier temps, l'intégration de HubRise doit être activée sur votre compte Uber Eats.
 
-Contactez-nous par e-mail à l'adresse [support@hubrise.com](mailto:support@hubrise.com) en précisant les informations suivantes :
+Contactez-nous par e-mail à l'adresse support@hubrise.com en précisant les informations suivantes :
 
-- L'adresse URL du magasin Uber Eats que vous souhaitez connecter. Exemple : [https://www.ubereats.com/fr/store/sushik-pizza/nzisHcL5S6C5ODzz0D3EnA](https://www.ubereats.com/fr/store/sushik-pizza/nzisHcL5S6C5ODzz0D3EnA).
+- L'adresse URL du magasin Uber Eats que vous souhaitez connecter. Exemple : https://www.ubereats.com/fr/store/sushik-pizza/nzisHcL5S6C5ODzz0D3EnA.
 - Le nom et l'identifiant de votre point de vente HubRise. Exemple : `Fast Pizza Paris z6q31-0`.
 - Le mode d'acceptation des commandes que vous souhaitez utiliser : manual accept (acceptation manuelle) ou offered state (état proposé). Pour plus de détails, reportez-vous à notre [FAQ](/apps/uber-eats/faqs/recevoir-commandes-sans-tablette).
 - Si vous livrez les commandes par vos propres moyens, indiquez-le nous.

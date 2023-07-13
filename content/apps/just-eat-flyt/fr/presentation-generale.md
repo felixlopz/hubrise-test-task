@@ -36,7 +36,7 @@ Flyt est disponible sur les plateformes Just Eat Takeaway.com suivantes :
 
 ---
 
-Flyt est un middleware permettant une intégration plus performante, avec davantage de fonctionnalités que l'ancienne API mise à disposition par Just Eat Takeaway. Si vous exercez votre activité sur un marché non desservi par Flyt, il est tout de même possible de connecter votre enseigne par le biais de Flyt, à condition que l'équipe de Flyt approuve la connexion. En revanche, la disponibilité de toutes les fonctions d'intégration n'est pas garantie selon le marché concerné. Pour plus d'informations, veuillez contacter HubRise à l'adresse [support@hubrise.com](mailto:support@hubrise.com).
+Flyt est un middleware permettant une intégration plus performante, avec davantage de fonctionnalités que l'ancienne API mise à disposition par Just Eat Takeaway. Si vous exercez votre activité sur un marché non desservi par Flyt, il est tout de même possible de connecter votre enseigne par le biais de Flyt, à condition que l'équipe de Flyt approuve la connexion. En revanche, la disponibilité de toutes les fonctions d'intégration n'est pas garantie selon le marché concerné. Pour plus d'informations, veuillez contacter HubRise à l'adresse support@hubrise.com.
 
 ## Fonctionnalités de l'intégration
 

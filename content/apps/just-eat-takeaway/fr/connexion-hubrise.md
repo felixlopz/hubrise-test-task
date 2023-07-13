@@ -17,7 +17,7 @@ La connexion de Just Eat Takeaway à HubRise s'effectue en quelques étapes simp
 
 ## 1. Activez HubRise sur Just Eat Takeaway
 
-Dans un premier temps, vous devez contacter votre service d'assistance Just Eat Takeaway et lui demander d'activer l'intégration d'API pour vos enseignes. Incluez à la fois l'adresse [support@hubrise.com](mailto:support@hubrise.com) et celle de votre responsable commercial Just Eat en tant que destinataires de votre e-mail.
+Dans un premier temps, vous devez contacter votre service d'assistance Just Eat Takeaway et lui demander d'activer l'intégration d'API pour vos enseignes. Incluez à la fois l'adresse support@hubrise.com et celle de votre responsable commercial Just Eat en tant que destinataires de votre e-mail.
 
 Vous pouvez vous inspirer de ce modèle d'e-mail en remplaçant les sections en gras :
 

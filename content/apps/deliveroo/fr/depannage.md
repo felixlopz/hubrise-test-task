@@ -34,7 +34,7 @@ Pour créer un nouveau menu, procédez comme suit :
 - Cliquez sur **Enregistrer**.
 - Ouvrez l'onglet **Actions** et envoyez le catalogue.
 
-Si vous rencontrez toujours des problèmes après avoir essayé cette solution, contactez [support@hubrise.com](mailto:support@hubrise.com).
+Si vous rencontrez toujours des problèmes après avoir essayé cette solution, contactez support@hubrise.com.
 
 ## Commandes non reçues
 

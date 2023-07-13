@@ -34,7 +34,7 @@ To create a new menu, follow these steps:
 - Click **Save**.
 - Open the **Actions** tab to publish the catalog.
 
-If you are still having issues after attempting the workaround, contact [support@hubrise.com](mailto:support@hubrise.com).
+If you are still having issues after attempting the workaround, contact support@hubrise.com.
 
 ## Orders Not Received
 

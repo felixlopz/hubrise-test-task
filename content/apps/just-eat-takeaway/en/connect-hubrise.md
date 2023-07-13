@@ -19,9 +19,9 @@ Connecting Just Eat Takeaway to HubRise can be done with a few steps.
 
 As a first step, the Just Eat Takeaway support must activate the HubRise integration for your stores.
 
-Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information in your email:
+Contact us at support@hubrise.com and include the following information in your email:
 
-- The URL link to your restaurant page on the Just Eat website. For example: [https://www.just-eat.ie/restaurants-saba-to-go-rathmines/](https://www.just-eat.ie/restaurants-saba-to-go-rathmines/).
+- The URL link to your restaurant page on the Just Eat website. For example: https://www.just-eat.ie/restaurants-saba-to-go-rathmines/.
 - Whether your Just Eat store is already connected to another middleware or EPOS.
 - Your HubRise location name and identifier. For example: `Fast Pizza Baker Street z6q31-0`.
 

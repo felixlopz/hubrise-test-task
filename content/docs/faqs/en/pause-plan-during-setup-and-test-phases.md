@@ -12,4 +12,4 @@ HubRise provides a free plan with a limited quota of orders and customers per mo
 - You are a developer or a reseller and need a test Account.
 - You have an Account on HubRise and need to run extensive testing before going live with connections.
 
-If you meet one of these criterias, contact [support@hubrise.com](mailto:support@hubrise.com) to request a momentarily exception to the payment policy explaining your particular situation and specifying a realistic date.
+If you meet one of these criterias, contact support@hubrise.com to request a momentarily exception to the payment policy explaining your particular situation and specifying a realistic date.
