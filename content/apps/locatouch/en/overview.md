@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Online Ordering
   availability: France
-  price_range: 
+  price_range:
   website: https://locatouch.com
   contact: contact@locatouch.com / +33 6 95 13 54 25
 ---

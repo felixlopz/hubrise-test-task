@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sales
   availability: France
-  price_range: 
+  price_range:
   website: https://www.jdc.fr/caisse-enregistreuse/logiciel-de-caisse
   contact: licencekezia@jdc.fr
 ---

@@ -7,13 +7,13 @@ meta:
   title: Présentation générale | Just Eat Takeaway | HubRise
   description: Présentation générale de Just Eat Takeaway Bridge, les raisons de connecter Just Eat Takeaway à HubRise et récapitulatif des fonctionnalités intégrées avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Plateformes de livraison de repas
   availability: Allemagne, Australie, Autriche, Belgique, Bulgarie, Canada, Danemark, Espagne, France, Irlande, Israël, Italie, Luxembourg, Norvège, Nouvelle-Zélande, Pays-Bas, Pologne, Portugal, Roumanie, Royaume-Uni, Suisse
   website: https://www.justeattakeaway.com/
-  contact: 
+  contact:
 ---
 
 ## Description

@@ -6,13 +6,13 @@ layout: documentation
 meta:
   title: Présentation générale | 1Bot | HubRise
   description: Présentation générale de 1Bot, les raisons de connecter votre solution à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Autres applications
   availability: France
-  price_range: 
+  price_range:
   website: https://1bot.io
-  contact: 
+  contact:
 ---
 
 ---

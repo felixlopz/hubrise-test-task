@@ -7,16 +7,16 @@ meta:
   title: Présentation générale | RapidBar | HubRise
   description: Présentation générale de RapidBar, les raisons de connecter votre solution de gestion des inventaires à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-003.png
-- __gallery-004.png
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Gestion et inventaire
   availability: France, Canada, États-Unis, Monde
-  price_range: 
+  price_range:
   website: https://rapidbarapp.com/fr/
-  contact: 
+  contact:
 ---
 
 ---

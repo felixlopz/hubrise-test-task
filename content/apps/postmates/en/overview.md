@@ -9,9 +9,9 @@ meta:
 app_info:
   category: Delivery Management
   availability: USA
-  price_range: 
+  price_range:
   website: https://postmates.com
-  contact: 
+  contact:
 ---
 
 ---

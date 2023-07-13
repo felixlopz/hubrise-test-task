@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | FOODREPORT | HubRise
   description: FOODREPORT overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise your EPOS and your other apps date with FOODREPORT.
-gallery: 
+gallery:
 app_info:
   category: Inventory and Operations Management
   availability: France and overseas France (France d'outre-mer)
-  price_range: 
+  price_range:
   website: https://www.foodreport.fr/
   contact: contact@theometrics.fr
 ---

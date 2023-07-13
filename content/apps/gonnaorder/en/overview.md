@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | GonnaOrder | HubRise
   description: GonnaOrder overview, reasons for connecting GonnaOrder to HubRise and summary of integrated features. Synchronise data between GonnaOrder, your EPOS and other apps.
-gallery: 
+gallery:
 app_info:
   category: Online Ordering
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://www.gonnaorder.com
   contact: https://www.gonnaorder.com/contact
 ---

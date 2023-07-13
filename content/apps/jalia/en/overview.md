@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sales
   availability: France
-  price_range: 
+  price_range:
   website: https://www.jdc.fr/caisse-enregistreuse
   contact: jalia@jdc.fr
 ---
@@ -35,7 +35,7 @@ Jalia is an EPOS for iPad, published by JDC SA, which features over 300 function
 - Management of employee schedules
 - Table rotation optimisation using an all-in-one remote for order placement and payment processing
 
-Jalia is distributed by JDC SA, a French company that has specialised in EPOS and payment solutions since 1989. Its sales consultants and technicians, who are available across the entire country, visit clients at their premises or welcome them at their local offices.  Being close to its customers offers benefits such as:
+Jalia is distributed by JDC SA, a French company that has specialised in EPOS and payment solutions since 1989. Its sales consultants and technicians, who are available across the entire country, visit clients at their premises or welcome them at their local offices. Being close to its customers offers benefits such as:
 
 - Advice and support
 - Bespoke quotes

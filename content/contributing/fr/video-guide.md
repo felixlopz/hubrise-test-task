@@ -5,7 +5,7 @@ position: 5
 layout: documentation
 meta:
   title: Video Guide | HubRise
-  description: 
+  description:
 ---
 
 [comment]: # "This page is a duplicate from .../contributing/en"

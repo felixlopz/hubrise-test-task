@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sales
   availability: United Kingdom
-  price_range: 
+  price_range:
   website: https://www.myorderboxhq.com
   contact: info@myorderboxhq.com
 ---

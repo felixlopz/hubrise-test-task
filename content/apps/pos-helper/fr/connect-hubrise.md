@@ -5,7 +5,7 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | POS HELPER | HubRise
-  description: 'Connecter POS HELPER à HubRise : étapes à suivre pour recevoir vos commandes dans votre logiciel de caisse POS HELPER.'
+  description: "Connecter POS HELPER à HubRise : étapes à suivre pour recevoir vos commandes dans votre logiciel de caisse POS HELPER."
 ---
 
 ---

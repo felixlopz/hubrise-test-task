@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Logiciels de caisse
   availability: France
-  price_range: 
+  price_range:
   website: http://www.talc.fr
   contact: support@talc.fr
 ---

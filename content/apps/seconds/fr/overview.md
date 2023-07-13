@@ -7,14 +7,14 @@ meta:
   title: Présentation générale | Seconds | HubRise
   description: Présentation générale de Seconds, les raisons de connecter Seconds à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Gestion de livreurs
   availability: Royaume-Uni
-  price_range: 
+  price_range:
   website: https://useseconds.com
   contact: ola@useseconds.com
 ---

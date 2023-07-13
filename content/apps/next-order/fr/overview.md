@@ -7,10 +7,10 @@ meta:
   title: Présentation générale | Next Order | HubRise
   description: Présentation générale de Next Order, les raisons de connecter Next Order à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni, Australie et Nouvelle-Zélande

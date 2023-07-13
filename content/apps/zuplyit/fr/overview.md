@@ -7,15 +7,15 @@ meta:
   title: Présentation générale | Zuplyit | HubRise
   description: Présentation générale de Zuplyit, les raisons de connecter Zuplyit à HubRise et les fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
 app_info:
   category: Commande en ligne
   availability: Royaume-Uni, Espagne
-  price_range: 
+  price_range:
   website: https://www.zuplyit.com
-  contact: 
+  contact:
 ---
 
 ---

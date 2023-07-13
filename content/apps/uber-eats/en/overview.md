@@ -7,13 +7,13 @@ meta:
   title: Overview | Uber Eats | HubRise
   description: Uber Eats overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Food Ordering Platforms
   availability: 30+ countries
   website: https://www.ubereats.com/
-  contact: 
+  contact:
 ---
 
 ## Description

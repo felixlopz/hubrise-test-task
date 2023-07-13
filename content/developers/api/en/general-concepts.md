@@ -5,7 +5,7 @@ position: 1
 layout: documentation
 meta:
   title: General Concepts | API | HubRise
-  description: 
+  description:
 ---
 
 This chapter takes a close look at the API. If you're looking for a brief introduction, check our [Quick Start](/developers/quick-start) tutorial.

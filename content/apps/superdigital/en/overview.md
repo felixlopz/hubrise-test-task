@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | SuperDigital.fr | HubRise
   description: SuperDigital.fr overview, reasons for connecting SuperDigital.fr to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery: 
+gallery:
 app_info:
   category: Online Ordering
   availability: France
-  price_range: 
+  price_range:
   website: http://superdigital.fr
   contact: contact@superdigital.fr
 ---

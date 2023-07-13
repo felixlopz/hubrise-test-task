@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sale
   availability: United Kingdom
-  price_range: 
+  price_range:
   website: https://3s-pos.com
   contact: info@3s-pos.com / +44 207 034 3030
 ---

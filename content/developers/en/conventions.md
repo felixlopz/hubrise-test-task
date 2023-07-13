@@ -5,7 +5,7 @@ position: 4
 layout: documentation
 meta:
   title: Conventions and special cases | HubRise
-  description: 
+  description:
 ---
 
 The HubRise API aims to address multiple markets by carefully avoiding over specialisation.

@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | SailPlay | HubRise
   description: Présentation générale de SailPlay, les raisons de connecter votre solution de marketing à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Fidélité et marketing
   availability: Monde
-  price_range: 
+  price_range:
   website: https://sailplay.com
   contact: https://sailplay.com/contact-us
 ---

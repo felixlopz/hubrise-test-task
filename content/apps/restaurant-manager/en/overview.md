@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sale
   availability: Worldwide, sold and serviced by local authorized resellers.
-  price_range: 
+  price_range:
   website: https://www.rmpos.com
   contact: info@crystal-mind.com
 ---

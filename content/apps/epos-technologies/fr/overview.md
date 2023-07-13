@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni, France, Turquie, États-Unis
-  price_range: 
+  price_range:
   website: https://www.epostechnologies.co.uk
   contact: info@epostechnologies.co.uk
 ---

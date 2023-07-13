@@ -7,8 +7,8 @@ meta:
   title: Présentation générale | foodpanda | HubRise
   description: Présentation générale de foodpanda Bridge, les raisons de connecter foodpanda à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Plateformes de livraison de repas
   availability: Bangladesh, Bulgarie, Cambodge, Hong-Kong, Japon, Laos, Malaisie, Myanmar, Pakistan, Roumanie, Singapour, Taïwan, Thaïlande

@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sales
   availability: United Kingdom, Thailand
-  price_range: 
+  price_range:
   website: http://www.akksofttech.com
   contact: akksofttechuk@hotmail.com / +66 62 698 1988
 ---

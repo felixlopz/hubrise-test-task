@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Logiciels de caisse
   availability: Monde
-  price_range: 
+  price_range:
   website: https://www.sloweysys.com
   contact: support@slowey.ie
 ---

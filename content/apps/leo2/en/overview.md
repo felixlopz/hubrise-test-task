@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Point of Sales
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://www.leo2.fr
   contact: atoo@atoosarl.fr
 ---

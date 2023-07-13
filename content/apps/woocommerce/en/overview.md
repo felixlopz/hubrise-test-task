@@ -7,14 +7,14 @@ meta:
   title: Overview | WooCommerce | HubRise
   description: WooCommerce overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-- __gallery-001.jpg
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-001.jpg
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Online Ordering
   availability: Worldwide
-  price_range: 
+  price_range:
   website: https://woocommerce.com
 ---
 

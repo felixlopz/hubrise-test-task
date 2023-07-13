@@ -5,7 +5,7 @@ position: 6
 layout: documentation
 meta:
   title: Customer Management | API | HubRise
-  description: 
+  description:
 ---
 
 ## 1. Customer Lists

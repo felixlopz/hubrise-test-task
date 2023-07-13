@@ -6,13 +6,13 @@ layout: documentation
 meta:
   title: Présentation générale | Emma | HubRise
   description: Présentation générale de Emma, les raisons de connecter votre solution de marketing à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Fidélité et marketing
   availability: Monde
   price_range: De 89 à 279 $ / mois
   website: https://myemma.com
-  contact: 
+  contact:
 ---
 
 ## Description

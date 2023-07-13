@@ -9,9 +9,9 @@ meta:
 app_info:
   category: Gestion de livreurs
   availability: Etats-Unis
-  price_range: 
+  price_range:
   website: https://postmates.com
-  contact: 
+  contact:
 ---
 
 ---

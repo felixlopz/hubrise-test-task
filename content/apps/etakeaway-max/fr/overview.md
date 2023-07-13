@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni
-  price_range: 
+  price_range:
   website: https://www.etakeawaymax.co.uk
   contact: info@etakeawaymax.co.uk
 ---

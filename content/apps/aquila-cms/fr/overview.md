@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Commande en ligne
   availability: France
-  price_range: 
+  price_range:
   website: https://www.aquila-cms.com/
   contact: contact@nextsourcia.com
 ---

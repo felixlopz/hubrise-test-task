@@ -6,7 +6,7 @@ layout: documentation
 meta:
   title: Overview | Restaurant-internet | HubRise
   description: Restaurant-internet overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery: 
+gallery:
 app_info:
   category: Online Ordering
   availability: France

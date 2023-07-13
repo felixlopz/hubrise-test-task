@@ -5,7 +5,7 @@ position: 2
 layout: documentation
 meta:
   title: Connexion | Dishop | HubRise
-  description: 'Processus de connexion de votre restaurant Dishop à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes Dishop dans votre logiciel de caisse.'
+  description: "Processus de connexion de votre restaurant Dishop à HubRise : liste des éléments à fournir et étapes à suivre pour recevoir vos commandes Dishop dans votre logiciel de caisse."
 ---
 
 ---

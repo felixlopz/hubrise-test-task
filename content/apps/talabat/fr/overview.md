@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Présentation générale | Talabat | HubRise
   description: Présentation générale de Talabat, les raisons de connecter votre plateforme de livraison de repas à HubRise et les fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Plateformes de livraison de repas
   availability: Koweït, Arabie saoudite, Bahreïn, Émirats arabes unis, Oman, Qatar, Jordanie, Égypte et Irak
-  price_range: 
+  price_range:
   website: https://www.talabat.com
   contact: https://www.talabat.com/uae/contact-us
 ---

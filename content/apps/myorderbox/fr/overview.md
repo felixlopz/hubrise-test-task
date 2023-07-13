@@ -9,7 +9,7 @@ meta:
 app_info:
   category: Logiciels de caisse
   availability: Royaume-Uni
-  price_range: 
+  price_range:
   website: https://www.myorderboxhq.com
   contact: info@myorderboxhq.com
 ---

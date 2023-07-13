@@ -7,8 +7,8 @@ meta:
   title: Overview | Deliveroo | HubRise
   description: Deliveroo overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Food Ordering Platforms
   availability: United Kingdom, Netherlands, France, Belgium, Ireland, Spain, Italy, Australia, New Zealand, Singapore, Hong Kong, United Arab Emirates, and Kuwait

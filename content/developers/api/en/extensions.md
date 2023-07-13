@@ -5,7 +5,7 @@ position: 7
 layout: documentation
 meta:
   title: API Extensions | API | HubRise
-  description: 
+  description:
 ---
 
 The HubRise API can be extended in two ways:

@@ -6,13 +6,13 @@ layout: documentation
 meta:
   title: Overview | 1Bot | HubRise
   description: 1Bot overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-gallery: 
+gallery:
 app_info:
   category: Other Apps
   availability: France
-  price_range: 
+  price_range:
   website: https://1bot.io
-  contact: 
+  contact:
 ---
 
 ---

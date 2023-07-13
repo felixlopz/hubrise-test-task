@@ -7,16 +7,16 @@ meta:
   title: Overview | OrderWire | HubRise
   description: OrderWire overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your OrderWire EPOS and your other apps.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
-- __gallery-005.png
-- __gallery-006.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
+  - __gallery-005.png
+  - __gallery-006.png
 app_info:
   category: Point of Sales
   availability: Ireland, United Kingdom and Thailand
-  price_range: 
+  price_range:
   website: https://orderwire.com
   contact: hubrise@orderwire.com
 ---

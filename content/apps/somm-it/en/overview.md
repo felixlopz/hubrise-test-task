@@ -6,11 +6,11 @@ layout: documentation
 meta:
   title: Overview | SOMM'IT | HubRise
   description: SOMM'IT overview, reasons for connecting SOMM'IT to HubRise and summary of integrated features. Synchronise data SOMM'IT, your EPOS and your other apps.
-gallery: 
+gallery:
 app_info:
   category: Operations and Inventory
   availability: France
-  price_range: 
+  price_range:
   website: https://www.somm-it.com
   contact: contact@somm-it.com
 ---

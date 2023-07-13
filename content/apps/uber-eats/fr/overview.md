@@ -7,13 +7,13 @@ meta:
   title: Présentation générale | Uber Eats | HubRise
   description: Uber Eats Bridge vous permet de connecter votre restaurant Uber Eats à HubRise, et de recevoir vos commandes Uber Eats dans votre logiciel de caisse.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Plateformes de livraison de repas
   availability: 30+ pays
   website: https://www.ubereats.com/fr/
-  contact: 
+  contact:
 ---
 
 ## Description

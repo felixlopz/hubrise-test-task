@@ -7,16 +7,16 @@ meta:
   title: Overview | RapidBar | HubRise
   description: RapidBar overview, reasons for connecting your inventory management solution to HubRise and summary of integrated features. Synchronise your data between your apps.
 gallery:
-- __gallery-003.png
-- __gallery-004.png
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Operations and Inventory
   availability: Canada, United States, France, Worldwide
-  price_range: 
+  price_range:
   website: https://rapidbarapp.com/en/
-  contact: 
+  contact:
 ---
 
 ---

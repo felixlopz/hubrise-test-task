@@ -9,9 +9,9 @@ meta:
 app_info:
   category: Delivery Management
   availability: Europe
-  price_range: 
+  price_range:
   website: https://stuart.com
-  contact: 
+  contact:
 ---
 
 ---

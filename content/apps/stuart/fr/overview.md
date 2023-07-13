@@ -6,13 +6,13 @@ layout: documentation
 meta:
   title: Présentation générale | Stuart | HubRise
   description: Présentation générale de Stuart, les raisons de connecter votre service de livraison à HubRise et fonctionnalités de l'intégration avec HubRise.
-gallery: 
+gallery:
 app_info:
   category: Gestion de livreurs
   availability: Europe
-  price_range: 
+  price_range:
   website: https://stuart.com/fr
-  contact: 
+  contact:
 ---
 
 ---

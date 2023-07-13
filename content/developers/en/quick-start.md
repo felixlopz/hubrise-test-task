@@ -5,7 +5,7 @@ position: 1
 layout: documentation
 meta:
   title: Developers Quick Start | HubRise
-  description: 
+  description:
 ---
 
 ## Overview

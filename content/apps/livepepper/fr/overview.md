@@ -7,10 +7,10 @@ meta:
   title: Présentation générale | LivePepper | HubRise
   description: Présentation générale de LivePepper, les raisons de connecter votre site LivePepper à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
-- __gallery-003.png
-- __gallery-004.png
+  - __gallery-001.png
+  - __gallery-002.png
+  - __gallery-003.png
+  - __gallery-004.png
 app_info:
   category: Commande en ligne
   availability: Monde

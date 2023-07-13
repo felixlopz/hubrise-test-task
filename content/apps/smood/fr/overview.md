@@ -7,14 +7,14 @@ meta:
   title: Présentation générale | Smood | HubRise
   description: Présentation générale de Smood, les raisons de connecter votre plateforme de livraison de repas à HubRise et fonctionnalités de l'intégration avec HubRise.
 gallery:
-- __gallery-001.png
-- __gallery-002.png
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Plateformes de livraison de repas
   availability: Suisse
-  price_range: 
+  price_range:
   website: https://www.smood.ch/fr
-  contact: 
+  contact:
 ---
 
 ---
