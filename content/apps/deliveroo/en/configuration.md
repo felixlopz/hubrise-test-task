@@ -54,15 +54,15 @@ Refer to your EPOS documentation on the HubRise website to verify the correct va
 
 ![Deliveroo Bridge configuration page, Catalog section](./images/015-configuration-page-menu.png)
 
-The **Brand ID** and **Menu ID** fields identify the menu you want to update on Deliveroo. The default values generally work for most users.
+Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with Deliveroo whenever it gets updated.
 
-To synchronize your HubRise catalog with Deliveroo whenever it is updated, select the **Enable automatic catalog push** checkbox.
+The **Brand ID** and **Menu ID** fields identify the menu you wish to update on Deliveroo. The default values generally work for most users.
 
-The **Menu description** and **Menu banner** replace the current description and banner image on Deliveroo when you push your catalog. The requirements for the banner image are described below:
+The **Menu description** and **Menu banner** replace the current description and banner image on Deliveroo when you push your catalog. The requirements for the banner image are as follows:
 
-- At least 1920x1080 pixels, 16:9 ratio
-- JPG or PNG format
-- Less than 2 Mb
+- Minimum resolution of 1920x1080 pixels, 16:9 aspect ratio
+- Must be in JPG or PNG format
+- File size should be less than 2 MB
 
 ---
 
