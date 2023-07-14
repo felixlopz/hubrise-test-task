@@ -5,7 +5,7 @@ position: 4
 layout: documentation
 meta:
   title: Configuration | Deliveroo | HubRise
-  description: Configurer Deliveroo Eats Bridge pour recevoir vos commandes Deliveroo dans votre logiciel de caisse ou d'autres applications connectées à HubRise.
+  description: Instructions pour configurer Deliveroo Bridge afin de fonctionner parfaitement avec Deliveroo et votre EPOS ou d'autres applications connectées à HubRise. La connexion s'effectue simplement.
 ---
 
 La page de configuration permet de personnaliser le comportement de Deliveroo Bridge. Elle est divisée en plusieurs sections pour faciliter la navigation.
@@ -30,13 +30,13 @@ Cette section permet de spécifier le code ref de la remise appliquée à vos pr
 
 Les promotions disponibles sur Deliveroo apparaissent sur la page **Toutes les offres** de votre back-office Deliveroo.
 
-![Exemple de page "Toutes les offres" dans le back-office Deliveroo](./images/013-deliveroo-offer.png)
+![Exemple de la page avec toutes les offres dans le back-office de Deliveroo](./images/013-deliveroo-offer.png)
 
 ### Frais
 
 Si des frais s'appliquent, un code ref peut être nécessaire. Reportez-vous à la documentation de votre logiciel de caisse sur le site internet de HubRise pour vérifier.
 
-Dans cette section, vous pouvez spécifier le code ref des frais de livraison, ainsi que des suppléments appliqués aux commandes de petit montant, et des frais d'emballage.
+Dans cette section, vous pouvez spécifier le code ref des frais de livraison, des suppléments appliqués aux commandes de petit montant, ainsi que des frais d'emballage.
 
 ### Paiements
 
@@ -52,41 +52,39 @@ Deliveroo exige un accusé de réception pour chaque commande envoyée. Dans cet
 
 ![Page de configuration de Deliveroo Bridge, section Catalogue](./images/015-configuration-page-menu.png)
 
-Dans cette section, sélectionnez l'identifiant de la marque et l'identifiant du menu Deliveroo vers lequel vous souhaitez envoyer votre catalogue HubRise. Les valeurs par défaut fonctionnent généralement pour la plupart des utilisateurs.
+Sélectionnez la case **Activer la synchronisation automatique du catalogue** pour synchroniser votre catalogue HubRise avec Deliveroo chaque fois qu'il est mis à jour.
 
-Choisissez également si vous souhaitez pousser votre catalogue HubRise vers Deliveroo chaque fois qu'il est modifié sur HubRise. Cette option est désactivée par défaut.
+Les champs **Identifiant de la marque** et **Identifiant du menu** identifient le menu que vous souhaitez mettre à jour sur Deliveroo. Les valeurs par défaut fonctionnent généralement pour la plupart des utilisateurs.
 
-Enfin, vous pouvez saisir la description du menu et l'URL de l'image de bannière à afficher sur votre restaurant Deliveroo.
+La **description du menu** et la **bannière du menu** remplacent la description et la bannière courantes sur Deliveroo lorsque vous envoyez votre catalogue. Les spécifications de l'image de la bannière sont les suivantes :
 
-Pour obtenir une URL publique pour votre image de bannière, envoyez un e-mail à support@hubrise.com en incluant une image avec les caractéristiques suivantes :
-
-- Au moins 1920x1080 pixels, format 16:9.
-- Format JPG ou PNG.
-- Moins de 2 Mo.
+- Résolution minimale de 1920x1080 pixels, format 16:9
+- Doit être au format JPG ou PNG
+- La taille du fichier doit être inférieure à 2 Mo
 
 ---
 
-**REMARQUE IMPORTANTE :** La description du menu et l'image de la bannière sont nécessaires pour pousser votre catalogue vers Deliveroo.
+**REMARQUE IMPORTANTE :** La description et la bannière du menu sont nécessaires pour pousser votre catalogue vers Deliveroo.
 
 ---
 
 ## Inventaire
 
-Vous pouvez envoyer les données d'inventaire à Deliveroo à partir de la page **Actions**. Lorsque vous le faites, les produits définis comme étant en rupture de stock dans HubRise sont masqués sur Deliveroo.
+Grâce à la synchronisation des stocks, les produits et options dont la quantité en stock est nulle peuvent être masqués sur votre magasin Deliveroo.
 
-Vous pouvez également configurer Deliveroo Bridge pour envoyer automatiquement l'inventaire à Deliveroo chaque fois que votre inventaire HubRise est modifié. Pour cela, cochez la case **Activer l'envoi automatique du catalogue**.
+Sélectionnez la case **Activer l'envoi automatique de l'inventaire** pour synchroniser votre inventaire HubRise avec Deliveroo chaque fois qu'il est mis à jour.
 
 ## Enregistrer la configuration
 
-Lorsque vous êtes satisfait de la configuration de Deliveroo Bridge, cliquez sur **Enregistrer** en haut de la page pour revenir à la page **Dernières opérations**.
+Pour enregistrer la configuration, cliquez sur **Enregistrer** en haut de la page.
 
 ## Réinitialiser la configuration
 
-Si vous souhaitez réinitialiser la configuration et effacer ses valeurs, cliquez sur **Réinitialiser la configuration** en bas de la page.
+Si vous avez besoin de réinitialiser la configuration, cliquez sur **Réinitialiser la configuration** en bas de la page.
 
 ---
 
-**REMARQUE IMPORTANTE :** La réinitialisation de la configuration effacera également votre identifiant de restaurant Deliveroo. Pour recevoir à nouveau les commandes Deliveroo, vous devrez resaisir votre identifiant de restaurant.
+**REMARQUE IMPORTANTE :** La réinitialisation de la configuration déconnectera instantanément le bridge de Deliveroo. Vous aurez besoin de votre identifiant de restaurant Deliveroo pour rétablir la connexion.
 
 ---
 

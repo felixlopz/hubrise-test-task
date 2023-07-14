@@ -1,27 +1,22 @@
 ---
-title: Recevoir les commandes
+title: Recevoir des commandes
 path_override: recevoir-commandes
-position: 7
+position: 8
 layout: documentation
 meta:
   title: Recevoir les commandes | Deliveroo | HubRise
-  description: Voir comment les commandes sont envoyées de Deliveroo vers HubRise, quels champs sont transmis et lesquels ne le sont pas et quelles fonctionnalités sont intégrées.
+  description: Découvrez les détails techniques sur la manière dont les commandes sont reçues de Deliveroo dans HubRise, quels champs sont transmis et lesquels ne le sont pas.
 ---
 
-Connecter Deliveroo à HubRise vous permet de recevoir des commandes Deliveroo directement dans votre logiciel de caisse ou toute autre solution connectée à votre compte HubRise.
+Connecter Deliveroo à HubRise vous permet de recevoir les commandes Deliveroo directement dans votre logiciel de caisse ou toute autre solution connectée à votre compte HubRise.
 
-Votre tablette Deliveroo doit rester allumée pour recevoir des commandes. Les commandes peuvent être soit acceptées manuellement sur la tablette, soit acceptées automatiquement. Pour plus d'informations, voir [ Comment activer l'acceptation automatique des commandes ?](/apps/deliveroo/faqs/acceptation-automatique/). Deliveroo prévoit de permettre une connexion sans tablette à l'avenir.
+Vous avez la possibilité d'accepter manuellement les commandes sur la tablette ou de configurer l'acceptation automatique. Si vous préférez ne pas utiliser de tablette, vous pouvez la laisser éteinte ou ne pas en avoir du tout. Pour plus d'informations, voir [Puis-je arrêter d'utiliser la tablette Deliveroo ?](/apps/deliveroo/faqs/deliveroo-sans-tablette/).
 
 Cette page décrit les informations que Deliveroo envoie à HubRise. Elle peut vous aider à comprendre comment les commandes seront reçues dans votre logiciel de caisse.
 
 ## Articles et options
 
-Pour les articles et les options, Deliveroo fournit soit le code ref, soit le nom, mais jamais les deux en même temps.
-
-- Si vous spécifiez le code ref de l'article ou de l'option dans votre back-office Deliveroo, l'API Deliveroo n'enverra que cette information à HubRise.
-- Si vous ne spécifiez pas le code ref de l'article ou de l'option dans votre back-office Deliveroo, l'API Deliveroo enverra le nom de l'article ou de l'option à HubRise à la place.
-
-Si votre logiciel de caisse s'appuie sur le code ref d'article et d'option pour analyser correctement l'article, assurez-vous que les articles et les options de votre menu Deliveroo sont associés au code ref correspondant de votre caisse. Pour plus de détails, voir la page [Associer les codes ref](/apps/deliveroo/associer-codes-ref/).
+Si votre logiciel de caisse utilise les codes ref pour retrouver les articles et les options, assurez-vous que les articles et les options de votre menu Deliveroo sont associés aux codes ref correspondant sur votre caisse. Pour plus de détails, voir [Associer les codes ref](/apps/deliveroo/associer-codes-ref).
 
 Sinon, si votre logiciel de caisse ne prend pas en charge les code refs, laissez ce champ vide dans votre back-office Deliveroo.
 
@@ -33,7 +28,7 @@ Pour chaque article inclus dans la commande, Deliveroo Bridge indique les inform
 
 - `sku_ref` : code ref de l'article.
 - `product_name` : le code ref de l'article, si présent. Sinon, le nom de l'article.
-- `price` : prix d'un article unique.
+- `price` : prix unitaire de l'article.
 - `quantity` : quantité d'articles inclus dans la commande.
 - `options` : sélection des options rattachées à l'article.
 
@@ -44,9 +39,9 @@ Pour chaque option incluse dans la commande, Deliveroo Bridge indique les inform
 - `option_list_name` : la valeur par défaut est "Options".
 - `ref` : code ref de l'option.
 - `name` : le code ref de l'option, si présent. Sinon, le nom de l'option.
-- `price` : prix d'une option unique.
+- `price` : prix unitaire de l'option.
 
-Chaque option se caractérise par une quantité unique. Les options multiples identiques sont encodées dans des objets d'option distincts.
+Chaque option a une quantité égale à 1. Les options multiples identiques sont encodées dans des objets d'option distincts.
 
 ## Statuts de commande
 
@@ -61,7 +56,7 @@ Chaque option se caractérise par une quantité unique. Les options multiples id
 Une commande Deliveroo passe par plusieurs statuts au cours de son cycle de vie :
 
 - `Succeeded` : la commande a été acceptée par la caisse, et est confirmée sur Deliveroo.
-- `Failed` : l'envoi de la commande au logiciel de caisse a échoué. Deliveroo envoie un message à la tablette Deliveroo invitant le personnel à vérifier leur logiciel de caisse et saisis la commande manuellement dans la caisse si nécessaire.
+- `Failed` : l'envoi de la commande au logiciel de caisse a échoué. Deliveroo envoie un message à la tablette Deliveroo invitant le personnel à vérifier le logiciel de caisse et à saisir la commande manuellement si nécessaire.
 - `In Kitchen` : la cuisson a commencé.
 - `Ready for Collection` : les aliments sont cuits et emballés.
 - `Collected` : la commande a été récupérée.
@@ -99,10 +94,10 @@ Lorsqu'une commande est annulée depuis la tablette Deliveroo, elle est marquée
 Deliveroo prend en charge trois types de service :
 
 - Livraison par les coursiers Deliveroo.
-- Livraison par les livreurs du restaurant.
+- Livraison par la flotte du restaurant.
 - Retrait par les clients.
 
-Ceux-ci sont généralement associés à des codes refs spécifiques dans votre logiciel de caisse. Pour plus d'informations, veuillez consulter la documentation de votre logiciel de caisse sur la [page Apps](/apps) de notre site internet.
+Ceux-ci sont généralement associés à des codes refs spécifiques dans votre logiciel de caisse. Pour plus d'informations, consultez la documentation de votre logiciel de caisse sur la [page Apps](/apps).
 
 ## Horaires des commandes
 
@@ -110,13 +105,12 @@ Deliveroo indique l'heure à laquelle le client s'attend à recevoir ou à retir
 
 ## Client
 
-Deliveroo ne fournit jamais le nom complet et l'adresse e-mail du client dans son API. Par conséquent, Deliveroo Bridge ne crée jamais de clients dans HubRise, mais inclut les coordonnées du client directement dans la commande.
+Deliveroo ne fournit jamais le nom complet du client, ni son numéro de téléphone personnel, ni son adresse e-mail. Il ne fournit pas non plus d'identifiant unique du client. Par conséquent, Deliveroo Bridge ne crée pas de clients dans HubRise, mais inclut les coordonnées du client directement dans la commande.
 
-Pour les commandes livrées par le restaurant, Deliveroo Bridge récupère les informations suivantes auprès de Deliveroo :
+Pour les commandes livrées par le restaurant, Deliveroo Bridge fournit les informations suivantes :
 
 - `first_name` : le prénom du client.
 - `last_name` : l'initiale du nom de famille du client.
-- `email` : orders@deliveroo.com
 - `address_1` : première ligne de l'adresse.
 - `address_2` : deuxième ligne de l'adresse.
 - `city` : ville de l'adresse.
@@ -124,13 +118,12 @@ Pour les commandes livrées par le restaurant, Deliveroo Bridge récupère les i
 - `latitude` : latitude de l'adresse.
 - `longitude` : longitude de l'adresse.
 - `phone` : numéro d'assistance Deliveroo. Remarque : il ne s'agit pas du numéro de téléphone du client.
-- `delivery_notes` : le code d'accès permettant d'identifier la commande lors de l'appel au support Deliveroo et les notes de livraison laissées par le client, au format "Phone access code: `access_code`. `note`".
+- `delivery_notes`: le code d'accès pour identifier la commande lors de l'appel au support de Deliveroo et les notes de livraison laissées par le client, au format « Code d'accès téléphonique: `access_code`. `note`".
 
-Pour les autres types de commandes, Deliveroo Bridge fournit les informations client par défaut suivantes :
+Pour les autres types de commandes, Deliveroo Bridge fournit les informations suivantes :
 
-- `first_name` : Deliveroo
-- `last_name` : Order
-- `email` : orders@deliveroo.com
+- `first_name` : le prénom du client.
+- `phone` : numéro d'assistance Deliveroo. Remarque : il ne s'agit pas du numéro de téléphone du client.
 
 ## Remises
 
@@ -139,7 +132,7 @@ La remise appliquée à la commande est transmise sous forme d'objet unique cont
 Les champs disponibles dans la requête sont les suivants :
 
 - `name` : nom de la remise qui est `Discount` par défaut.
-- `ref` : code ref de la remise. La valeur par défaut peut être définie à partir de la page de configuration de Deliveroo Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
+- `ref` : code ref de la remise. La valeur par défaut peut être définie depuis la page de configuration de Deliveroo Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price_off` : montant total de la remise.
 
 ## Frais
@@ -147,16 +140,16 @@ Les champs disponibles dans la requête sont les suivants :
 Deliveroo Bridge peut encoder trois types de frais :
 
 - Des frais de livraison s'appliquent aux commandes livrées par le restaurant.
-- Des frais supplémentaires s'appliquent aux commandes inférieures au montant minimum de commande requis.
+- Des frais supplémentaires s'appliquent aux commandes de petit montant.
 - Des frais d'emballage sont exigés par la réglementation dans certains pays.
 
 Les champs disponibles dans les requêtes sont les suivants :
 
-- `name` : intitulé des frais de livraison est soit `Delivery charge`, `Surcharge` ou `Bag fee`.
+- `name` : intitulé des frais, qui peut être soit `Frais de livraison`, `Surcharge` ou `Frais d'emballage`.
 - `type` : type de frais. Il a la valeur `delivery` pour les frais de livraison, et `other` pour les suppléments liés aux commandes inférieures au montant minimum de commande requis et aux frais d'emballage.
 - `ref` : code ref des frais. La valeur par défaut peut être définie dans de la page de configuration de Deliveroo Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price` : le montant des frais.
 
 ## Notes de préparation du client
 
-Les notes de préparation du client au niveau du produit sont encodées dans le champ `customer_notes`.
+Les notes de préparation du client au niveau de la commande sont encodées dans le champ `customer_notes`.

@@ -1,11 +1,11 @@
 ---
 title: Dépannage
 path_override: depannage
-position: 8
+position: 9
 layout: documentation
 meta:
   title: Dépannage | Deliveroo Bridge | HubRise
-  description: Dépannage de la connexion Deliveroo Bridge avec HubRise pour que votre caisse et d'autres applications fonctionnent comme un tout cohérent. Synchronisez vos données.
+  description: Résolution des problèmes de connexion Deliveroo Bridge avec HubRise pour que votre point de vente et les autres applications fonctionnent de manière cohérente. Connectez vos applications et synchronisez vos données.
 ---
 
 ## Problèmes de menus
@@ -45,10 +45,10 @@ Si Deliveroo Bridge est configuré correctement et que vous ne recevez pas de co
 
 Si un article sans code ref est ajouté à une commande, Deliveroo échouera à envoyer la commande, et rien ne sera reçu sur HubRise.
 
-Pour résoudre ce problème, assurez-vous que tous les produits de votre menu Deliveroo possèdent un code ref. Pour savoir comment ajouter des codes ref à vos produits Deliveroo, voir la rubrique [Association des codes ref](/apps/deliveroo/associer-codes-ref).
+Pour résoudre ce problème, assurez-vous que tous les produits de votre menu Deliveroo possèdent un code ref. Pour savoir comment ajouter des codes ref à vos produits Deliveroo, voir la rubrique [Associer les codes ref](/apps/deliveroo/associer-codes-ref).
 
 ### Commandes rejetées par Deliveroo
 
 Lorsque l'acceptation automatique n'est pas activée, chaque commande doit être acceptée manuellement sur la tablette Deliveroo, sinon elle sera rejetée par Deliveroo et rien ne sera reçu sur HubRise.
 
-Pour éviter ce problème, nous recommandons d'activer l'[acceptation automatique des commandes](/apps/deliveroo/faqs/acceptation-automatique/).
+Pour éviter cela, nous recommandons d'activer l'acceptation automatique. Pour plus d'informations, voir [Puis-je arrêter d'utiliser la tablette Deliveroo ?](/apps/deliveroo/faqs/deliveroo-sans-tablette/).

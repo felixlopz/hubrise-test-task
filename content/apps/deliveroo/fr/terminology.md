@@ -1,16 +1,16 @@
 ---
 title: Terminologie
 path_override: terminologie
-position: 9
+position: 10
 layout: documentation
 meta:
   title: Terminologie | Deliveroo | HubRise
-  description: Table de correspondance entre les termes utilisés par Deliveroo et ceux utilisés par HubRise.
+  description: Tableau de correspondance montrant les termes utilisés par Deliveroo et ceux utilisés sur HubRise pour le même concept. Connectez vos applications et synchronisez vos données.
 ---
 
 ## Tableau de correspondance
 
-HubRise et Deliveroo utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans les deux solutions. Le tableau de correspondance ci-dessous indique ces différences.
+HubRise et Deliveroo utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque solution. Le tableau de correspondance ci-dessous indique ces différences.
 
 | Deliveroo  | HubRise        | Description                             |
 | ---------- | -------------- | --------------------------------------- |
