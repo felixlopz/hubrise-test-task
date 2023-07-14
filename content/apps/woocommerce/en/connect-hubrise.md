@@ -18,18 +18,20 @@ You can connect WooCommerce to HubRise with a few simple steps.
 
 ## 1. Connect WooCommerce Bridge
 
-To connect WooCommerce Bridge to HubRise, follow these steps.
+To connect WooCommerce Bridge to HubRise, follow these steps:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the location you want to connect from the dropdown menu.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **WooCommerce Bridge** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant WooCommerce Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
-1. Enter the URL of your WooCommerce store, then click **Save** to confirm.
-   ![Initial URL page for WooCommerce Bridge](./images/001-woocommerce-url.png)
-1. Click **Connect WooCommerce**. This will redirect you to the WooCommerce authorisation page.
-   - If you are not logged in to WooCommerce, enter your username and password, then click **Login**.
+1. Click **Allow** to grant WooCommerce Bridge access to your registered location on HubRise. If your account has multiple locations, expand the **Choose location** section to select the desired location, and then click **Allow**.
+1. Enter the URL of your WooCommerce store:
+   ![Initial URL page for WooCommerce Bridge](./images/012-woocommerce-step-1.png)
+1. If you have previously encountered connection issues, you may adjust the **Advanced options**. If not, leave them unchanged. For more information, refer to our [Troubleshooting](/apps/woocommerce/troubleshooting) guide.
+1. Click **Save** to confirm.
+1. Click **Connect WooCommerce**. You will be redirected to the WooCommerce authorisation page.
+    - If you are not logged in to WooCommerce, enter your username and password, then click **Login**.
      ![WooCommerce login page](./images/006-woocommerce-login.png)
    - Click **Approve** to authorise the connection with HubRise.
      ![WooCommerce authorisation page](./images/007-woocommerce-authorisation.png)

@@ -65,3 +65,39 @@ You can opt to transmit orders immediately, without waiting for the cron to run.
 1. Save the file and the changes will take effect immediately.
 
 If you are not sure how to do edit the `functions.php` file, contact the developer of your WooCommerce website.
+
+## 401 Errors
+
+If you see 401 errors in WooCommerce Bridge, it means that WooCommerce Bridge is unable to authenticate with WooCommerce.
+
+![401 errors in WooCommerce Bridge](./images/015-woocommerce-401-errors.png)
+
+There are two common causes for 401 errors:
+
+### API Key Removed
+
+If the API key for HubRise has been removed in WooCommerce, it will lead to 401 errors. To check this:
+
+1. Open your WordPress dashboard.
+1. Navigate to **WooCommerce** > **Settings** > **Advanced** > **REST API**.
+1. Verify if there is an API key named `HubRise - API`.
+
+Refer to the screenshot for clarity:
+
+![API key check in WooCommerce](./images/014-woocommerce-rest-api.png)
+
+If the `HubRise - API` key is not present, it means it has been removed, and you need to reconnect the bridge. For more information on reconnecting the bridge, see [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
+
+### OAuth Basic Authentication Fail
+
+If your WooCommerce setup does not work with the default OAuth Basic API authentication method, it may also result in 401 errors. In such cases, you need to switch to the fallback OAuth1 method.
+
+To do this:
+
+1. Reset the configuration of WooCommerce Bridge.
+1. Configure the bridge again from scratch, but when you reach the first step of the configuration, unfold **Advanced Options**.
+1. Select the **Use OAuth1** option.
+   ![OAuth1 option in WooCommerce Bridge](./images/013-woocommerce-step-1-advanced.png)
+1. Proceed with the configuration as described in [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
+
+After making this change, verify if the 401 errors are resolved. If not, check the other troubleshooting steps or contact HubRise support.
