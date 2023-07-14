@@ -75,6 +75,6 @@ Depuis la page **Actions**, vous pouvez effectuer les actions suivantes :
 
 ## Langue et navigation
 
-Dans le coin supérieur droit de la page, vous pouvez cliquer sur la flèche <InlineImage width="20" height="20">!\[Icône de flèche\](../images/arrow-icon.jpg)</InlineImage> pour développer le menu déroulant. De là, vous pouvez alterner l'affichage de la page en anglais ou en français.
+Dans le coin supérieur droit de la page, vous pouvez cliquer sur la flèche <InlineImage width="20" height="20">![Icône de flèche](../images/arrow-icon.jpg)</InlineImage> pour développer le menu déroulant. De là, vous pouvez alterner l'affichage de la page en anglais ou en français.
 
 Pour revenir à la page **Dernières opérations**, cliquez sur les logos de Deliveroo et de HubRise en haut de n'importe quelle page de Deliveroo Bridge.

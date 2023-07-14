@@ -21,7 +21,7 @@ Pour attribuer des codes ref à vos produits Deliveroo en passant par l'outil Ge
 1. Connectez-vous à votre [back-office Deliveroo](https://restaurant-hub.deliveroo.net/).
 1. Dans le menu de gauche, sélectionnez **Menus**.
 1. Cliquez sur **Modifier le menu**. Si plusieurs menus existent, assurez-vous que celui que vous modifiez est le bon. ![Back-office Deliveroo](./images/008-deliveroo-back-office.png)
-1. Cliquez sur le symbole <InlineImage width="24" height="24">!\[Triple dot icon\](../images/triple-dot.png)</InlineImage> en regard de la description du menu, puis sélectionnez **Ajouter les ID de terminal de point de vente (PLU)**. Assurez-vous de ne pas cliquer par inadvertance sur le bouton d'ellipse situé à côté d'une catégorie d'articles. ![Page d'édition de menu de Deliveroo](./images/009-deliveroo-edit-menu-page.png)
+1. Cliquez sur le symbole <InlineImage width="24" height="24">![Triple dot icon](../images/triple-dot.png)</InlineImage> en regard de la description du menu, puis sélectionnez **Ajouter les ID de terminal de point de vente (PLU)**. Assurez-vous de ne pas cliquer par inadvertance sur le bouton d'ellipse situé à côté d'une catégorie d'articles. ![Page d'édition de menu de Deliveroo](./images/009-deliveroo-edit-menu-page.png)
 1. Saisissez le code ref correct pour chaque produit de la liste.![Fenêtre pop-up Deliveroo Ajouter des PLU](./images/010-deliveroo-add-plus.png)
 1. Cliquez sur **Enregistrer** pour confirmer l'association.
 1. Cliquez sur **Publier** pour finaliser votre association. Les modifications apportées au menu seront accessibles en ligne une fois qu'elles auront été publiées. ![Bouton de publication du menu Deliveroo](./images/012-deliveroo-publish-menu.png)
