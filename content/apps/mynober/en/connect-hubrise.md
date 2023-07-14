@@ -30,7 +30,7 @@ To connect MynOber Cloud to HubRise, follow these steps.
 1. Select the location you want to connect from the list.
 1. Click **External tools** > **HubRise**.
 1. Click **Connect to HubRise**.
-1. Click **Allow** to grant MynOber Cloud permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. Click **Allow** to grant MynOber Cloud access to your registered location on HubRise. If your account has multiple locations, expand the **Choose location** section to select the desired location, and then click **Allow**.
 
 After these steps, you will be redirected to the HubRise module in the MynOber Cloud back office.
 You can verify that the connection was successful by checking the HubRise account name, location name and ID, and catalog name and ID displayed on the page.

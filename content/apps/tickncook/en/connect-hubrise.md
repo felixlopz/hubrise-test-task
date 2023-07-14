@@ -18,7 +18,7 @@ TicknCook must be connected to your HubRise account before it can fetch orders. 
 
 1. Select **Connect**.
 
-1. Grant TicknCook permission to access the location of your restaurant registered in HubRise.
+1. Grant TicknCook access to your registered location on HubRise.
 
    - If your location has not yet been created in HubRise select **Create a new location.**
    - For accounts with multiple locations, expand the **Choose location section** to select the correct one. You might be prompted to choose the customer list and the catalog to connect.

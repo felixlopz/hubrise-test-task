@@ -36,7 +36,7 @@ If you don't have a HubRise account, go to the [HubRise Signup Page](https://man
 1. Select **CONNECTIONS** from the HubRise back office, then **View available apps**.
 1. Select **dotdigital** from the list of apps.
 1. Click **Connect**.
-1. Grant dotdigital permission to access the location of your restaurant registered in HubRise.
+1. Grant dotdigital access to your registered location on HubRise.
    - If your account has not yet been created on HubRise, select **Create a new location**.
    - For accounts with multiple locations, expand the **Choose location** section to select the correct one and click on **Allow**.
 

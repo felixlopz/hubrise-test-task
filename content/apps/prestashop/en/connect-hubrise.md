@@ -39,7 +39,7 @@ To can connect PrestaShop to HubRise, follow these steps.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **PrestaShop Bridge** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant PrestaShop Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. Click **Allow** to grant PrestaShop Bridge access to your registered location on HubRise. If your account has multiple locations, expand the **Choose location** section to select the desired location, and then click **Allow**.
 1. A new page asks you to configure PrestaShop Bridge.
    - Under **Website URL**, enter the URL of your PrestaShop store.
    - Under **PrestaShop API key**, enter the value you copied from the HubRise module in PrestaShop.

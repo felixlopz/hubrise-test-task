@@ -88,9 +88,9 @@ Refer to the screenshot for clarity:
 
 If the `HubRise - API` key is not present, it means it has been removed, and you need to reconnect the bridge. For more information on reconnecting the bridge, see [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
 
-### OAuth Basic Authentication Fail
+### HTTP Basic Authentication Fail
 
-If your WooCommerce setup does not work with the default OAuth Basic API authentication method, it may also result in 401 errors. In such cases, you need to switch to the fallback OAuth1 method.
+If your WooCommerce setup does not work with the default HTTP Basic authentication method, it may also result in 401 errors. In such cases, you need to switch to the fallback OAuth1 method.
 
 To do this:
 

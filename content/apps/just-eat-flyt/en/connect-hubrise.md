@@ -38,7 +38,7 @@ To connect Just Eat Flyt Bridge to HubRise, follow these steps.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Just Eat Flyt Bridge** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant Just Eat Flyt Bridge permission to access the location of your store registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. Click **Allow** to grant Just Eat Flyt Bridge permission to access the location of your store registered in HubRise. If your account has multiple locations, expand the **Choose location** section to select the desired location, and then click **Allow**.
 1. A new page asks you to enter your credentials:
    - **Menu API key**: The API key used by HubRise for uploading the menu.
    - **Order API key**: The API key used by HubRise for receiving and updating orders.
