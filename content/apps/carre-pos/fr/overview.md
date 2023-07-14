@@ -20,12 +20,6 @@ app_info:
   contact: contact@carrepos.fr / +33 5 35 54 64 51
 ---
 
----
-
-**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration est en cours de rédaction.
-
----
-
 ## Description
 
 Carré POS est un logiciel de caisse qui fonctionne sous Windows.
