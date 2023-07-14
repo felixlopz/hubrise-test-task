@@ -5,7 +5,7 @@ position: 1
 layout: documentation
 meta:
   title: Trouver votre identifiant de restaurant | FAQs Deliveroo | HubRise
-  description: Comment trouver votre identifiant de restaurant Deliveroo. Cet identifiant vous sera demandé lors de la connexion de votre restaurant Deliveroo à HubRise.
+  description: Guide pratique pour trouver votre identifiant de restaurant Deliveroo. Cet ID est nécessaire pour connecter votre magasin Deliveroo à HubRise et à votre EPOS.
 ---
 
 L'**identifiant de restaurant** est l'identificateur unique de votre restaurant sur Deliveroo. Il peut également être appelé **Identifiant de branche**, **Identifiant administrateur**, **Identifiant tablette**, ou **Identifiant point de vente**, selon le contexte. Cet identifiant est composé uniquement de caractères numériques et contient généralement 6 chiffres, bien qu'il puisse parfois en avoir 5.

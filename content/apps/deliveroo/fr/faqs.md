@@ -11,4 +11,4 @@ meta:
 - [Puis-je connecter plusieurs restaurants Deliveroo au même point de vente HubRise ?](/apps/deliveroo/faqs/connecter-plusieurs-restaurants-deliveroo/)
 - [Comment trouver mon identifiant de restaurant Deliveroo ?](/apps/deliveroo/faqs/trouver-mon-identifiant-de-restaurant-deliveroo/)
 - [Puis-je arrêter d'utiliser la tablette Deliveroo ?](/apps/deliveroo/faqs/deliveroo-sans-tablette/)
-- [Comment connecter HubRise depuis le back-office de Deliveroo ?](/apps/deliveroo/faqs/connecter-depuis-le-back-office-deliveroo/)
+- [Puis-je connecter HubRise depuis le back-office de Deliveroo ?](/apps/deliveroo/faqs/connecter-depuis-le-back-office-deliveroo/)
