@@ -28,7 +28,7 @@ Pour chaque article inclus dans la commande, Deliveroo Bridge indique les inform
 
 - `sku_ref` : code ref de l'article.
 - `product_name` : le code ref de l'article, si présent. Sinon, le nom de l'article.
-- `price` : prix d'un article unique.
+- `price` : prix unitaire de l'article.
 - `quantity` : quantité d'articles inclus dans la commande.
 - `options` : sélection des options rattachées à l'article.
 
@@ -39,9 +39,9 @@ Pour chaque option incluse dans la commande, Deliveroo Bridge indique les inform
 - `option_list_name` : la valeur par défaut est "Options".
 - `ref` : code ref de l'option.
 - `name` : le code ref de l'option, si présent. Sinon, le nom de l'option.
-- `price` : prix d'une option unique.
+- `price` : prix unitaire de l'option.
 
-Chaque option se caractérise par une quantité unique. Les options multiples identiques sont encodées dans des objets d'option distincts.
+Chaque option a une quantité égale à 1. Les options multiples identiques sont encodées dans des objets d'option distincts.
 
 ## Statuts de commande
 
@@ -79,7 +79,7 @@ Lorsqu'un statut de commande change dans HubRise, Deliveroo Bridge notifie Deliv
 | `rejected` ou `cancelled`                    | `Failed`                                                                        |
 | `in_preparation`                             | `In Kitchen`                                                                    |
 | `awaiting_collection` ou `awaiting_shipment` | `Ready for Collection`                                                          |
-| `terminée`                                   | `Collected`                                                                     |
+| `completed`                                  | `Collected`                                                                     |
 
 Deliveroo Bridge vous permet de décider quel statut de HubRise déclenche l'état `Succeeded` dans Deliveroo. Cette option est utile pour gérer différents scénarios lorsque votre logiciel de caisse actualise le statut de la commande. Par exemple, si votre logiciel de caisse marque une commande acceptée comme `received` sur HubRise, vous pouvez configurer le bridge pour que Deliveroo reconnaisse que la commande a été acceptée.
 
@@ -94,7 +94,7 @@ Lorsqu'une commande est annulée depuis la tablette Deliveroo, elle est marquée
 Deliveroo prend en charge trois types de service :
 
 - Livraison par les coursiers Deliveroo.
-- Livraison par la flotte du restaurant
+- Livraison par la flotte du restaurant.
 - Retrait par les clients.
 
 Ceux-ci sont généralement associés à des codes refs spécifiques dans votre logiciel de caisse. Pour plus d'informations, consultez la documentation de votre logiciel de caisse sur la [page Apps](/apps).
@@ -118,7 +118,7 @@ Pour les commandes livrées par le restaurant, Deliveroo Bridge fournit les info
 - `latitude` : latitude de l'adresse.
 - `longitude` : longitude de l'adresse.
 - `phone` : numéro d'assistance Deliveroo. Remarque : il ne s'agit pas du numéro de téléphone du client.
-- `delivery_notes`: Le code d'accès pour identifier la commande lors de l'appel au support de Deliveroo et les notes de livraison laissées par le client, au format « Code d'accès téléphonique: `access_code`. `note`".
+- `delivery_notes`: le code d'accès pour identifier la commande lors de l'appel au support de Deliveroo et les notes de livraison laissées par le client, au format « Code d'accès téléphonique: `access_code`. `note`".
 
 Pour les autres types de commandes, Deliveroo Bridge fournit les informations suivantes :
 
@@ -132,7 +132,7 @@ La remise appliquée à la commande est transmise sous forme d'objet unique cont
 Les champs disponibles dans la requête sont les suivants :
 
 - `name` : nom de la remise qui est `Discount` par défaut.
-- `ref` : code ref de la remise. La valeur par défaut peut être définie dans de la page de configuration de Deliveroo Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
+- `ref` : code ref de la remise. La valeur par défaut peut être définie depuis la page de configuration de Deliveroo Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price_off` : montant total de la remise.
 
 ## Frais
