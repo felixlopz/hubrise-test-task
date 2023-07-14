@@ -1,7 +1,7 @@
 ---
 title: "Etude de cas : 911 Delicious Company"
 path_override: __post
-date: 2023-02-28
+date: 2021-09-10
 author: Géraldine Malet
 meta:
   title: "Etude de cas : 911 Delicious Company | Blog | HubRise"

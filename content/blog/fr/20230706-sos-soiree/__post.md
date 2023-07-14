@@ -1,7 +1,7 @@
 ---
 title: Interview de Théo Vandemeulebroucke, SOS Soirée
 path_override: __post
-date: 2021-09-10
+date: 2023-07-06
 author: Géraldine Malet
 meta:
   title: Théo Vandemeulebroucke de SOS Soirée | Blog | HubRise
