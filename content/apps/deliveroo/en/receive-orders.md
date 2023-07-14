@@ -145,7 +145,7 @@ Deliveroo Bridge can encode three types of charges:
 
 The available fields in the payloads are the following:
 
-- `name`: The name of the delivery charge, which is either `Delivery charge`, `Surcharge` or `Bag fee`.
+- `name`: The name of the charge, which is either `Delivery charge`, `Surcharge` or `Bag fee`.
 - `type`: The type of charge. It has the value `delivery` for delivery charges, and `other` for small order surcharges and bag fees.
 - `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Deliveroo Bridge and should match the value in your EPOS.
 - `price`: The amount of the charge.

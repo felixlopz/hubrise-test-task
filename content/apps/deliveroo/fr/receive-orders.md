@@ -145,7 +145,7 @@ Deliveroo Bridge peut encoder trois types de frais :
 
 Les champs disponibles dans les requêtes sont les suivants :
 
-- `name` : intitulé des frais de livraison est soit `Delivery charge`, `Surcharge` ou `Bag fee`.
+- `name` : intitulé des frais, qui peut être soit `Frais de livraison`, `Surcharge` ou `Frais d'emballage`.
 - `type` : type de frais. Il a la valeur `delivery` pour les frais de livraison, et `other` pour les suppléments liés aux commandes inférieures au montant minimum de commande requis et aux frais d'emballage.
 - `ref` : code ref des frais. La valeur par défaut peut être définie dans de la page de configuration de Deliveroo Bridge. Elle doit correspondre à la valeur définie dans votre logiciel de caisse.
 - `price` : le montant des frais.
