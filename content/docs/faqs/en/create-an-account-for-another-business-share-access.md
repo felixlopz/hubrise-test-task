@@ -1,5 +1,5 @@
 ---
-title: How Do I Create an Account for Another Business?
+title: How Do I Create an Account for Another Business and Share Access??
 path_override: create-an-account-for-another-business
 position: 120
 layout: documentation

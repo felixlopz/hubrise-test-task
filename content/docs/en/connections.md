@@ -27,9 +27,9 @@ To connect a new app to your HubRise Account from the HubRise back office:
 1. Log in to HubRise from the [HubRise Login page](https://manager.hubrise.com/login).
 1. Click **CONNECTIONS** on the left navigation panel.
 1. Select **View available apps**.
-1. Select **All locations** or the **Location** to connect.
+1. Select **All locations** or the **Location** depending on the app you are trying to connect.
 1. Select the app you want to install. If the app is not on this list, check the app documentation in the HubRise [Apps](/apps) page.
-1. Check instructions for the specific app and click **Connect**. When installing a new app, you will be required to grant the app access to your HubRise Account.
+1. Check instructions for the specific app and click **Connect**. If the installer does not open, check your browser for ad-blockers, which might prevent the opening of a new window. When installing a new app, you will be required to grant the app access to your HubRise Account.
 
 Some apps must be connected at the **All locations** level, while others connect to a specific Location. The **Connect** button will be greyed-out if you have not selected the corresponding level.
 
@@ -130,3 +130,12 @@ To block or disconnect an app from HubRise, follow these steps:
 3. Click **Confirm**.
 
 ![HubRise Connection - Remove an app](./images/014-2x-connections-disconnect-app.png)
+
+## Unblock App
+
+An app may be temporarily blocked to prevent it from accessing the HubRise API. This might be done during onboarding by the HubRise support team, allowing you to maintain full control over data flowing into your systems. 
+
+To unblock an app, follow these steps:
+
+1. Go to **CONNECTIONS**.
+2. Find the app you want, then click **Actions** > **Unblock**.

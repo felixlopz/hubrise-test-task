@@ -102,12 +102,12 @@ To remove a payment method, follow these steps:
 
 ## Process Requests for Payment
 
-When you change your plan, the payment must be authorized before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Plan Notifications](/docs/usage-plan/#plan-notifications).
+When you change your plan, the payment must be authorised before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Plan Notifications](/docs/usage-plan/#plan-notifications).
 
 To process a Request for Payment from the notification:
 
 1. Connect to your HubRise back office.
-1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
+1. Ensure that a credit card is saved to your Account or Location. This can be verified on your **SETTINGS** page. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
 1. Click **pay it online or download the PDF**, then click **Pay**. To check on all Requests for Payment, go to **SETTINGS**.
 
 ---
@@ -115,6 +115,14 @@ To process a Request for Payment from the notification:
 **Related FAQ**: [What Happens If My Free Plan Quota Is Exceeded?](/docs/faqs/free-plan-quota-exceeded-what-happens/), [How Do I Pay For My First Invoice?](/docs/faqs/pay-first-invoice/), [Can My Plan Be Paused During Setup and Test Phases?](/docs/faqs/pause-plan-during-setup-and-test-phases/)
 
 ---
+
+## Payment Automation
+
+For compliance with 3D Secure banking protocols, which enhance online payment security, the initial **Request for Payment** requires manual payment on HubRise. This means that you must connect to your HubRise account to pay. 
+
+Once this initial payment is made, subsequent payments to HubRise will be automated until you change your usage plan or your payment method expires. For more information about HubRise usage plans, see [Usage and Plans](/docs/usage-plan/).
+
+Occasionally, your bank may request 3D Secure authentication again. When this happens, an automated email will be sent to all HubRise account **Admin** users, prompting them to process the payment manually. If you are frequently asked to make manual payments, consider contacting your bank to request that they accept card debits from HubRise.
 
 ## Payment History
 
@@ -143,3 +151,62 @@ Details within each invoice can be viewed directly on the HubRise back office by
 Invoices can also be saved as PDF files by selecting the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>.
 
 ![Invoice example](./images/043-2x-invoice-example.png)
+
+## Billing Accounts
+
+As a software provider, reseller, or consultant, you might choose to manage HubRise subscription payments on behalf of your clients for several reasons. For instance, you might be offering HubRise as a white-label service, your client may prefer a full service without receiving invoices from a third party, or you might be seeking to take advantage of volume discounts on the HubRise subscription.
+
+To do this, you can easily include your payment details in your client's account. In this scenario, HubRise will invoice you monthly for each of the accounts separately. If you have many such accounts on HubRise, you will not avail of volume discounts.
+
+A better alternative would be for HubRise to create a **Billing Account** on HubRise for your organisation. The billing account is a special type of account that is used to attach other HubRise accounts and locations. Invoices generated from attached accounts or locations are combined into a single monthly invoice, and the volume discount will apply.
+
+Partners are autonomous in the configuration of their billing account on HubRise. They should attach and detach entities as needed, provide billing details, and add a payment method.
+
+### Attach Entities
+
+To attach an entity to your billing account, follow these steps:
+
+1. Log in to your [HubRise account](https://manager.hubrise.com).
+1. Select your HubRise billing account. This account will have your company name followed by **Billing**.
+1. Navigate to the **SETTINGS** page.
+1. Click **Attach an entity**. 
+1. Choose either the **Attach an account** or **Attach a location** option, depending on your needs.
+1. Find the account you want to attach from the **Select an account** dropdown. This list will only display accounts and locations to which you have access and that are not already attached.
+1. Click **Attach**. 
+1. Repeat the process as many times as needed.
+1. Return to your **SETTINGS** page and check that all entities you attached are visible in the **Entities attached to this billing account** section.
+
+   ![Billing Account Exmple](./images/081-2x-billing-account.png)
+
+---
+
+**IMPORTANT NOTE**: **Requests for Payment** will accumulate, and you will receive a monthly request for payment for all entities attached to your billing account. It is not possible to transfer a **Requests for Payment** that has already been issued on an account or location, prior to its attachment to your billing account.
+
+---
+
+
+### Detach Entities
+
+To detach an entity from your billing account, and no longer be billed for it, follow these steps:
+
+1. Log in to your HubRise **Billing** account, **SETTINGS** page.
+1. Section **Entities attached to this billing account**, click on the bin icon located on the far right side to detach entities.
+
+### Billing Details
+
+To configure your billing information included in HubRise invoices, follow these steps:
+
+1. Log in to your HubRise **Billing** account, **SETTINGS** page.
+1. Select **Modify account**.
+1. Fill in the information required under **Billing details**.
+1. Click **Update**.
+
+For more information, see section [Edit Billing Information](#edit-billing-information)
+
+### Add a Payment Method
+
+1. Log in to your HubRise **Billing** account, **SETTINGS** page.
+1. Click **Add payment method** and enter your credit card information. Credit cards must be valid to be accepted.
+1. When finished, click **Save**.
+
+For more information, see section [Add a Payment Method](#add-a-payment-method)
