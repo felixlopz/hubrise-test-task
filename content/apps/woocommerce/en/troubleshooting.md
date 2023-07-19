@@ -72,7 +72,7 @@ If you see 401 errors in WooCommerce Bridge, it means that WooCommerce Bridge is
 
 ![401 errors in WooCommerce Bridge](./images/015-woocommerce-401-errors.png)
 
-There are two common causes for 401 errors:
+There are three common causes for 401 errors:
 
 ### API Key Removed
 
@@ -101,3 +101,33 @@ To do this:
 1. Proceed with the configuration as described in [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
 
 After making this change, verify if the 401 errors are resolved. If not, check the other troubleshooting steps or contact HubRise support.
+
+### Incorrect URL during setup
+
+---
+
+**IMPORTANT NOTE:** This issue is only relevant if you are using the OAuth1 authentication method. If you are using the default HTTP Basic authentication method, you can ignore this section.
+
+---
+
+During the OAuth1 setup, if you added an extra `www` or omitted it from your website URL, the WooCommerce API will respond with the JSON message below:
+
+```json
+{
+  "code": "woocommerce_rest_authentication_error",
+  "message": "Signature non valide - La signature fournie ne correspond pas.",
+  "data": {
+    "status": 401
+  }
+}
+```
+
+In this case, the error message indicates that the signature provided does not match due to an incorrect URL input. This issue arises only with OAuth1 setup, because it requires the exact URL to compute the request signature, unlike Basic Auth which does not use the URL in the authentication of each request. To resolve this, you need to reconnect and use the exact URL of your website (either with or without the `www`, as per your actual website URL).
+
+Here is how to correct this:
+
+1. Reset the configuration of WooCommerce Bridge.
+1. Configure the bridge again from scratch. When you reach the first step of the configuration, enter the correct URL of your WooCommerce store, ensuring the URL matches exactly with your website (pay attention to whether your website uses `www` or not).
+1. Proceed with the configuration as described in [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
+
+After following these steps, verify if the 401 errors are resolved. If not, check the other troubleshooting steps or contact HubRise support.
