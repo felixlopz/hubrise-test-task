@@ -102,11 +102,11 @@ To do this:
 
 After making this change, verify if the 401 errors are resolved. If not, check the other troubleshooting steps or contact HubRise support.
 
-### Incorrect URL during setup
+### Incorrect URL During Setup
 
 ---
 
-**IMPORTANT NOTE:** This issue is only relevant if you are using the OAuth1 authentication method. If you are using the default HTTP Basic authentication method, you can ignore this section.
+**IMPORTANT NOTE:** This issue is only relevant if you are using the OAuth1 authentication method.
 
 ---
 
@@ -129,5 +129,3 @@ Here is how to correct this:
 1. Reset the configuration of WooCommerce Bridge.
 1. Configure the bridge again from scratch. When you reach the first step of the configuration, enter the correct URL of your WooCommerce store, ensuring the URL matches exactly with your website (pay attention to whether your website uses `www` or not).
 1. Proceed with the configuration as described in [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
-
-After following these steps, verify if the 401 errors are resolved. If not, check the other troubleshooting steps or contact HubRise support.
