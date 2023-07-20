@@ -18,6 +18,8 @@ If you have connected WooCommerce to HubRise, but you are not receiving orders i
 
 When you connect WooCommerce Bridge, it creates two webhooks on your WooCommerce website. These webhooks are essential to transmit orders from WooCommerce to HubRise.
 
+Not only should you verify the presence of these webhooks, but you also need to ensure that their status is **active**. If the status is **inactive**, the webhooks will not work. You will need to reactivate them by clicking on their names.
+
 To check that the webhooks have been created:
 
 1. Open your WooCommerce back office.
@@ -27,10 +29,11 @@ To check that the webhooks have been created:
 1. Find two entries with the following names:
    - `HubRise {{your_location_id}}: Order updated`
    - `HubRise {{your_location_id}}: Order created`
+1. Check the status of each entry. If any of them are set to **inactive**, click on their names to change the status to **active**.
 
-If these entries are present, it is a good sign that the connection to HubRise was successfully established. You can proceed to the next verification step.
+If these entries are present and active, it is a good sign that the connection to HubRise was successfully established. You can proceed to the next verification step.
 
-However if you cannot find the two entries, you need to reconnect the bridge and check WooCommerce webhooks again. For more information on connecting the bridge, see [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
+If you cannot find the two entries, you need to reconnect the bridge and check WooCommerce webhooks again. For more information on connecting the bridge, see [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
 
 ### Place a Test Order in WooCommerce
 
