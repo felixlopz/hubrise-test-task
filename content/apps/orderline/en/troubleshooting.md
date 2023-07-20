@@ -28,4 +28,4 @@ OrderLine routinely checks for blocked sound notifications and will display a po
 
 ## Blank Page on OrderLine Launch
 
-If you encounter a blank page when launching OrderLine, check if you're using an ad blocker on your browser. Ad blockers like **uBlock Origin** have been known to cause this issue. Try disabling it for OrderLine.
+If you encounter a blank page when launching OrderLine, check if you're using an ad blocker on your browser. Ad blockers like **uBlock Origin** might cause this issue. Try disabling it for OrderLine.

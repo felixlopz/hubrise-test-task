@@ -18,7 +18,7 @@ OrderLine can also emit a sound notification to inform you of new orders. To con
 
 ---
 
-**IMPORTANT NOTE:** Browsers may block sound notifications. To keep them permanently enabled, follow the instructions in the [Keep Sound Notifications Enabled](/apps/orderline/faqs/keep-sound-notifications-enabled/) FAQ.
+**IMPORTANT NOTE:** Browsers may block sound notifications. To keep them permanently enabled, follow the instructions in the FAQ [How Do I Keep Sound Notifications Enabled](/apps/orderline/faqs/keep-sound-notifications-enabled/).
 
 ---
 
@@ -44,14 +44,16 @@ Order cards display all the details needed to process the order, including the f
 
 ## Update Order's Status
 
-To update an order's status, open the order card and select the relevant button on the card's right column.
+To update an order's status, open the order card and select the pen icon on the right-hand side of the status button.
 
-Your OrderLine configuration may allow you to provide additional data during certain status updates, such as:
+Your OrderLine **Order status** configuration may allow you to provide additional data during certain status updates. For more information, see [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt). These prompts can be very useful under certain circumstances, such as:
 
-- An optional comment, typically requested when marking an order as **Cancelled** to justify the cancellation. For more information, see [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt).
-- A confirmed delivery time, generally requested when an order is marked as **Accepted**. If not specified, the order's expected delivery time will be used. For more information, see [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt).
+- An optional **Message for the customer** will be appreciated when marking an order as **Cancelled** to justify the cancellation.
+- A **Confirmed time** for delivery will be appreciated when an order is marked as **Accepted** but cannot be delivered at the expected time. If no **Confirmed time** is specified, the order's expected delivery time will be used.
 
-To modify the delivery time or add beside the status button. After making your adjustments, click the button to confirm.
+To modify the delivery time or add a message for your client, click on the pen icon beside the status button. After making your adjustments, click the status button to confirm.
+
+![Status flow example](./images/012-2x-add-prompt-in-delivery.png)
 
 ---
 
@@ -59,7 +61,9 @@ To modify the delivery time or add beside the status button. After making your a
 
 ---
 
-Certain status updates, like marking an order as **Completed**, can remove the order from the **Today's Orders** list based on your OrderLine configuration. To view it again, select the **Today's Orders** hidden card. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
+Certain status updates, like marking an order as **Completed**, can remove the order from the **Today's Orders** tab based on your OrderLine configuration. To view it again, click **VIEW** on the **hidden orders** card or select the **Order History** tab. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
+
+![OrderLine Hidden Orders Card](./images/039-2x-hidden-orders-card.png)
 
 ## Print Order
 
