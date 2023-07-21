@@ -1,105 +1,93 @@
 ---
 title: Gérer les commandes
-path_override: gestion-commandes
+path_override: gerer-commandes
 position: 5
 layout: documentation
 meta:
   title: Gérer les commandes | OrderLine | HubRise
-  description: Affichez le détail des commandes, actualisez le statut et imprimez un reçu.
+  description: Instructions pour afficher les détails de la commande, mettre à jour le statut de la commande et imprimer un reçu. Connectez vos applications et synchronisez vos données.
 ---
 
-Vous pouvez personnaliser l'enchaînement des statuts afin d'adapter la gestion des commandes à votre activité. Cette section décrit l'enchaînement des statuts par défaut, ainsi que les actions permettant d'accepter ou d'imprimer les commandes. Pour personnaliser l'enchaînement, voir la rubrique [Définir l'enchaînement des statuts](/apps/orderline/parametres/#encha-nement-des-statuts-de-commande).
+Les utilisateurs de OrderLine peuvent modifier l'enchaînement des statuts afin d'adapter la gestion des commandes à leur activité. Cette section décrit l'enchaînement des statuts par défaut, ainsi que les actions permettant d'accepter ou d'imprimer les commandes. Pour personnaliser cet enchaînement, consultez la page [Statuts de commande](/apps/orderline/parametres/#encha-nement-des-statuts-de-commande).
+
+## Recevoir des commandes
+
+Lors de la réception d'une commande, OrderLine l'affiche sous l'onglet **Aujourd'hui** ou **Jours suivants** en fonction de la date de livraison.
+
+OrderLine peut également émettre une notification sonore pour vous informer des nouvelles commandes. Pour configurer les notifications sonores, consultez [Notifications](/apps/orderline/parametres/#notifications) dans la section **Paramètres**.
+
+---
+
+**NOTE IMPORTANTE :**  Les navigateurs peuvent bloquer les notifications sonores. Pour les maintenir activés en permanence, suivez les instructions dans la FAQ [Comment puis-je garder les notifications sonores activées ?](/apps/orderline/faqs/garder-notifications-sonores-activees/).
+
+---
+
+Lors de la première connexion, OrderLine synchronise toutes les commandes des 30 derniers jours.
+
+![Affichage d'une commande dans OrderLine](./images/018-2x-order-displays.png)
 
 ## Voir une commande
 
-Pour consulter les détails d'une commande, cliquez sur la carte correspondante. Cliquez sur l'icône Fermer <InlineImage width="23" height="23">![Icône de fermeture d'OrderLine](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte de commande pour refermer celle-ci.
+Pour consulter les détails de la commande, cliquez sur la carte de la commande. Pour la fermer, cliquez sur l'icône de fermeture <InlineImage width="23" height="23">!\[Icône de fermeture OrderLine\](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte.
 
-La vue Carte de commande affiche toutes les informations nécessaires au traitement de la commande :
+La vue carte de commande affiche toutes les informations nécessaires au traitement de la commande :
 
 - L'adresse du client. Un lien **Afficher dans Google Maps** s'affiche si des coordonnées GPS ont été associées à la commande.
 - La date et l'heure de création de la commande.
 - La date et l'heure souhaitées de livraison ou de récupération par le client.
-- La date et l'heure confirmées, qui correspondent à l'horaire souhaité sauf si vous l'avez modifié.
-- Le type de commande. Les types possibles sont **LIVRAISON**, **RÉCUPÉRATION** et **SUR PLACE**.
+- La date et l'heure confirmées, qui correspondent ce qui était prévu, jusqu'à ce qu'un utilisateur de OrderLine actualise l'heure de livraison effective de la commande.
+- Type de commande, indiquant le mode de traitement : **LIVRAISON**, **EMPORTÉ** ou **SUR PLACE**.
 - Liste des produits à préparer, avec les commentaires clients éventuels.
 - Le statut de la commande. Vous pouvez modifier le statut d'une commande ou imprimer le reçu en sélectionnant le bouton correspondant.
 
 ![Détails de la carte de commande OrderLine](./images/019-2x-order-card-details.png)
 
-## Accepter une commande
+## Mettre à jour le statut d'une commande
 
-Pour accepter une commande, ouvrez la carte de la commande puis cliquez sur **ACCEPTÉE**.
+Pour mettre à jour le statut d'une commande, ouvrez la fiche de commande et sélectionnez l'icône stylo située à droite du bouton de statut.
 
-Vous pouvez ajouter un message personnalisé destiné au client et ajuster le délai de livraison ; ces informations seront communiquées au client si vos applications connectées le permettent. Pour actualiser la date ou ajouter un commentaire, cliquez sur l'icône de stylo <InlineImage width="44" height="38">![Icône de stylo d'OrderLine](../images/036-pen.jpg)</InlineImage>, ajustez la date et l'heure, rédigez votre message, puis cliquez sur **ACCEPTÉE**. Si vos applications connectées le permettent, le client recevra alors un e-mail automatisé contenant votre message et la nouvelle heure de livraison.
+La configuration de OrderLine, au niveau du **Statut de la commande** peut vous permettre de fournir des données supplémentaires lors de certaines mises à jour de statut. Pour plus d'informations, voir [Saisies complémentaires](/apps/orderline/parametres/#saisies-compl-mentaires). Ces invitations à fournier des données supplémentaires peuvent être très utiles dans certaines circonstances, telles que :
+
+- Un **Message pour le client** sera apprécié lorsque vous marquez une commande comme **Annulée**. Vous pouvez ainsi justifier l'annulation.
+- Une **Heure confirmée** pour la livraison sera apprécié lorsqu'une commande est marquée comme **Acceptée**, mais ne peut pas être livrée à l'heure exacte, souhaitée par le client. Si aucune **Heure confirmée** n'est spécifiée, l'heure initialement souhaitée pour la livraison de la commande sera utilisée.
+
+Pour modifier l'heure de livraison ou ajouter un message pour votre client, cliquez sur l'icône stylo à côté du bouton de statut. Après avoir effectué vos ajustements, cliquez sur le bouton de statut pour confirmer.
+
+![Exemple d'enchaînement des statuts](./images/012-2x-add-prompt-in-delivery.png)
 
 ---
 
-**REMARQUE IMPORTANTE :** Les mises à jour des heures de livraison, ainsi que l'envoi des messages, doivent être pris en charge par une de vos applications connectées. Pour plus d'informations sur la configuration, voir la rubrique [Saisies complémentaires](/apps/orderline/parametres/#saisies-compl-mentaires).
+**NOTE IMPORTANTE :** Votre système de commande en ligne doit prendre en charge les mises à jour des horaires de livraison et la messagerie pour que ces saisies supplémentaires soient prises en compte.
 
 ---
 
-Une fois la commande acceptée, son statut passe à **Acceptée**. Vous pouvez imprimer le reçu de la commande et modifier à nouveau le statut lorsque vous êtes prêt.
+Certaines mises à jour de statut, comme marquer une commande comme **Terminée**, peuvent supprimer la commande de l'onglet **Aujourd'hui** en fonction de votre configuration de OrderLine. Pour retrouver la commande, cliquez sur **AFFICHER** sur la carte **des commandes masquées** ou sélectionnez l'onglet **Historique des commandes**. Pour ajuster les statuts cachés, voir [Masquer les commandes](/apps/orderline/parametres/#masquer-les-commandes).
 
-<video controls title="OrderLine Accept Order Example">
-  <source src="./images/020-accept-order.webm" type="video/webm" />
-</video>
-
-## Rejeter une commande
-
-Pour rejeter une commande, ouvrez la carte de la commande puis cliquez sur **REJETÉE**. Vous pouvez ajouter un commentaire lors du rejet de la commande. Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/parametres/#saisies-compl-mentaires).
-
-Lorsqu'une commande est rejetée, elle disparaît de l'onglet **Aujourd'hui** et devient masquée. Cliquez sur la carte masquée dans l'onglet **Aujourd'hui** pour visualiser les commandes masquées et les rouvrir si nécessaire.
-
-<video controls title="OrderLine Reject Order Example">
-  <source src="./images/021-reject-order.webm" type="video/webm" />
-</video>
-
-## Marquer une commande en livraison
-
-Lorsque la commande doit être livrée au client, sélectionnez **EN LIVRAISON** pour la commande ayant le statut **Acceptée**.
-
-<video controls title="OrderLine Order in Delivery Example">
-  <source src="./images/022-order-set-status-in-delivery.webm" type="video/webm" />
-</video>
-
-## Terminer une commande
-
-Les commandes ayant le statut **En livraison** peuvent être mises à jour comme suit :
-
-- Une fois la commande livrée, cliquez sur **TERMINÉE**. Une fois la commande terminée, vous pouvez imprimer le reçu de la commande, mais vous ne pouvez plus modifier son statut.
-- Si la commande n'a pas pu être livrée, cliquez sur **ÉCHEC LIVRAISON**.
-
-Les commandes terminées sont, par défaut, masquées dans la liste **Aujourd'hui**. Cliquez sur la carte masquée dans l'onglet **Aujourd'hui** pour faire réapparaître la commande.
-
-<video controls title="OrderLine Complete Order Example">
-  <source src="./images/023-order-set-completed.webm" type="video/webm" />
-</video>
+![Carte de commandes cachées de OrderLine](./images/039-2x-hidden-orders-card.png)
 
 ## Imprimer une commande
 
-OrderLine se connecte aux imprimantes reconnues par le système d'exploitation. L'impression des tickets passe par la boîte de dialogue d'impression.
+OrderLine prend en charge l'impression sur n'importe quelle imprimante reconnue par votre navigateur Web via la boîte de dialogue d'impression du système.
 
-Pour imprimer un reçu de commande sur une imprimante locale, procédez comme suit :
+Pour imprimer un reçu de commande, suivez ces étapes :
 
-1. Ouvrez la carte de la commande.
+1. Accédez aux détails de la commande.
 1. Cliquez sur **IMPRIMER**.
 1. Suivez les instructions indiquées dans la boîte de dialogue d'impression.
 
-OrderLine peut également imprimer les reçus de commande de façon automatique dès la réception de la commande, sans passer par la boîte de dialogue d'impression. L'impression automatique nécessite que l'imprimante soit enregistrée dans Google Cloud Print. Pour plus de détails, voir la rubrique [Impression](/apps/orderline/parametres/#impression).
+## Reçus
 
-Pour une meilleure lisibilité, les reçus sont présentés sous forme de sections délimitées par un trait plein. Ces sections contiennent les mêmes informations que la carte de commande. Pour plus d'informations sur les cartes de commande, voir la rubrique [Visualiser une commande OrderLine](#voir-une-commande).
-
-![Exemple de reçu de commande OrderLine](./images/030-2x-receipt-example.png)
+Pour une meilleure lisibilité, les reçus sont présentés sous forme de sections délimitées par un trait plein, reflétant les informations de la carte de commande. Pour plus d'informations sur les cartes de commande, veuillez consulter la section [Voir une commande](#voir-une-commande).
 
 Les reçus contiennent les informations suivantes :
 
-- Le type de commande. Les types possibles sont **LIVRAISON**, **RÉCUPÉRATION** ou **SUR PLACE**.
+- Type de commande, indiquant le mode de traitement : **LIVRAISON**, **EMPORTÉ** ou **SUR PLACE**.
 - Le mode de paiement.
-- L'adresse et le commentaire de livraison, ainsi que les coordonnées GPS si elles sont présentes dans la commande.
-- L'heure de livraison confirmée, qui correspond à l'heure de livraison réelle, si cette donnée est prise en charge par le logiciel de caisse. Pour plus d'informations, voir la rubrique [Saisies complémentaires](/apps/orderline/parametres/#saisies-compl-mentaires).
-- Les menus et promotions sont énumérés avec leur nom, suivi de la liste des produits qu'elles contiennent.
-- Les produits commandés par le client sont regroupés. Les options ajoutées ou supprimées sont indiquées dans une liste à puces :
-  - Les articles standard retirés du produit sont biffés par un trait plein.
-  - Options.
-  - Garnitures ou autres suppléments.
-- La référence indique le numéro de commande. La date et l'heure de livraison s'affichent uniquement si l'heure de livraison confirmée est différente de l'heure de livraison d'origine.
+- L'adresse de livraison, les commentaires et les coordonnés GPS (si fournies par la solution de commande en ligne).
+- La date et l'heure confirmées.
+- La date et l'heure confirmées ne seront affichées que si elles diffèrent de l'heure de livraison prévue.
+- Le nom des offres promotionnelles suivies des produits associés.
+- Les produits commandés, regroupés avec touts les ajouts ou exclusions incluses. Les options standard qui ont été supprimées sont barrées.
+- Le numéro de référence de la commande.
+
+![Exemple de reçu de commande OrderLine](./images/030-2x-receipt-example.jpg)

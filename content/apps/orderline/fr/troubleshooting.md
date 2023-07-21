@@ -1,27 +1,31 @@
 ---
-title: Guide de dépannage
+title: Dépannage
 path_override: depannage
 position: 8
 layout: documentation
 meta:
-  title: Guide de dépannage | OrderLine | HubRise
-  description: Instructions de résolution des incidents dans OrderLine.
+  title: Dépannage | OrderLine | HubRise
+  description: Résolution des problèmes de connexion de OrderLine avec HubRise pour que votre point de vente et les autres applications fonctionnent de manière cohérente. Connectez vos applications et synchronisez vos données.
 ---
 
-## Je ne reçois pas de notification sonore sur mon périphérique mobile
+## Aucune nouvelle notification de commande sur les appareils mobiles
 
-Sur les périphériques mobiles, veillez à désactiver le verrouillage automatique de l'écran dans les paramètres d'affichage. Brancher votre périphérique sur le secteur peut également être utile pour empêcher sa mise en veille.
+Assurez-vous que le verrouillage automatique est désactivé dans les paramètres d'affichage de votre appareil mobile. Laisser votre appareil branché peut également améliorer la réception des notifications. Nous recommandons Google Chrome pour une utilisation mobile.
 
-Nous recommandons d'utiliser le navigateur Google Chrome sur les périphériques mobiles.
+## Popup de notification sonore désactivée
 
-## Une alerte sur les notifications sonores apparaît de temps en temps
+Certains navigateurs restreignent les sites web pour empêcher la reproduction de sons sans interaction de l'utilisateur, le but étant d'éviter les bruits indésirables. Cette fonctionnalité, connue sous le nom de **politique de lecture automatique** dans Google Chrome, peut avoir un impact sur les notifications OrderLine.
 
-Certains navigateurs ont une fonctionnalité qui empêche les sites Web de jouer des sons sans interaction avec l'utilisateur. Cela permet de bloquer les sons ennuyeux qui se jouent automatiquement, mais peut aussi poser problème pour OrderLine. Sur Google Chrome, cette fonctionnalité s'appelle **Autoplay Policy**, et elle ne peut pas être désactivée.
+OrderLine effectue régulièrement des vérifications pour les notifications sonores bloquées et affichera une alerte sous forme de popup si elles le sont. Cliquez sur la popup pour réactiver les notifications sonores.
 
-Pour éviter de manquer des notifications, OrderLine vérifie toutes les quelques secondes si votre navigateur bloque les notifications sonores et affiche une alerte si c'est le cas. Vous pouvez alors cliquer sur l'alerte pour autoriser à nouveau les notifications sonores.
+---
 
-![Popup sur les notifications sonores](./images/038-2x-sound-notifications-popup.png)
+**REMARQUE IMPORTANTE ** Sur la plupart des navigateurs, la politique peut être ajustée pour permettre à OrderLine de jouer des notifications sonores sans interaction de l'utilisateur. Pour des instructions détaillées spécifiques au navigateur, consultez notre page FAQs, [Comment puis-je garder les notifications sonores activées ?](/apps/orderline/faqs/garder-notifications-sonores-activees).
 
-## Mon navigateur montre une page blanche lorsque je lance OrderLine
+---
 
-Si vous avez installé le bloqueur de publicités uBlock Origin sur votre navigateur, désactivez-le. OrderLine n'est pas compatible avec cette extension.
+![Popup de notification sonore](./images/038-2x-sound-notifications-popup.png)
+
+## Page vierge lors du lancement d'OrderLine
+
+Si vous rencontrez une page vierge lors du lancement de OrderLine, vérifiez si vous utilisez un bloqueur de publicités sur votre navigateur. Les bloqueurs de publicités comme **uBlock Origin** peuvent causer ce problème. Essayez de le désactiver pour OrderLine.
