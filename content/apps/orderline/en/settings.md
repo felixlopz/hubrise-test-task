@@ -39,14 +39,14 @@ The following statuses are available:
 - New
 - Received
 - Accepted
-- In Preparation
-- Awaiting Shipment
-- Awaiting Collection
+- In preparation
+- Awaiting shipment
+- Awaiting collection
 - In delivery
 - Completed
 - Rejected
 - Cancelled
-- Delivery Failed
+- Delivery failed
 
 To change the status flow, follow these steps:
 
