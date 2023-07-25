@@ -59,7 +59,7 @@ To detach an entity from your billing account, follow these steps:
 
 ---
 
-## Billing Information
+## Update Billing Information
 
 The billing information of your billing account is used to generate invoices.
 
