@@ -1,5 +1,6 @@
 ---
 title: FAQs
+path_override: faqs
 layout: documentation-simple
 meta:
   title: FAQs | HubRise

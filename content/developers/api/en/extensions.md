@@ -1,5 +1,6 @@
 ---
 title: API Extensions
+path_override: extensions
 position: 7
 layout: documentation
 meta:

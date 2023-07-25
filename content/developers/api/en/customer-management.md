@@ -1,5 +1,6 @@
 ---
 title: Customer Management
+path_override: customer-management
 position: 6
 layout: documentation
 meta:

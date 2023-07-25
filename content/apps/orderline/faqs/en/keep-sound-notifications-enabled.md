@@ -1,6 +1,7 @@
 ---
 title: How Do I Keep Sound Notifications Enabled?
-position: 4
+path_override: keep-sound-notifications-enabled
+position: 1
 layout: documentation
 meta:
   title: Keep Sound Notifications Enabled | OrderLine | HubRise

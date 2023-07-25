@@ -1,5 +1,6 @@
 ---
 title: FAQs
+path_override: faqs
 position: 10
 layout: documentation
 meta:
@@ -15,3 +16,4 @@ meta:
 - [Why Are My Orders Not Received on HubRise?](/apps/uber-eats/faqs/orders-not-received-missing-ref-codes/)
 - [How to Create a Deal in Uber Eats?](/apps/uber-eats/faqs/create-deal-in-uber-eats/)
 - [How Do I Find My Uber Eats UUID?](/apps/uber-eats/faqs/find-uber-eats-uuid/)
+- [Can I Connect My Uber Eats Webstore to HubRise?](/apps/uber-eats/faqs/connect-webstore/)

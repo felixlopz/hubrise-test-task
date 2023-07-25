@@ -1,17 +1,18 @@
 ---
 title: Manage Orders
-position: 6
+path_override: manage-orders
+position: 5
 layout: documentation
 meta:
   title: Manage Orders | OrderLine | HubRise
   description: Instructions on how to view order details, to update the order status, and to print a receipt. Connect apps and synchronise your data.
 ---
 
-OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Order Status](/apps/orderline/settings/#order-status).
+OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Order Status](/apps/orderline/settings/#order-status).
 
 ## Receive Orders
 
-Upon order receipt, OrderLine displays it under the **Today's Orders** or **Future Orders** tab, based on the delivery date.
+Upon order receipt, OrderLine displays it under the **Today's Orders** or **Future Orders** tab, based on the delivery date.
 
 OrderLine can also emit a sound notification to inform you of new orders. To configure sound notifications, see [Notifications](/apps/orderline/settings#notifications) in the **Settings** section.
 
@@ -21,13 +22,13 @@ OrderLine can also emit a sound notification to inform you of new orders. To con
 
 ---
 
-On first connection, OrderLine synchronizes all orders from the past 30 days.
+On first connection, OrderLine synchronises all orders from the past 30 days.
+
+![OrderLine Order displays](./images/018-2x-order-displays.png)
 
 ## View Order
 
 To view the order details, click on the order card. To close it, click the close icon <InlineImage width="23" height="23">![OrderLine Close icon](../images/032-close.png)</InlineImage> or anywhere outside the card.
-
-![OrderLine Order Card Details](../images/019-en-order-card-details.png)
 
 Order cards display all the details needed to process the order, including the following:
 
@@ -39,11 +40,11 @@ Order cards display all the details needed to process the order, including the f
 - List of products to prepare, including customer notes if any.
 - Current order status. Users can update the status for an order, or print the order receipt by selecting the corresponding button.
 
+![OrderLine Order Card Details](./images/019-2x-order-card-details.png)
+
 ## Update Order's Status
 
 To update an order's status, open the order card and select the relevant button on the card's right column.
-
-![OrderLine Order Card Details](../images/019-en-order-card-details.png)
 
 Your OrderLine configuration may allow you to provide additional data during certain status updates, such as:
 
@@ -58,11 +59,11 @@ To modify the delivery time or add beside the status button. After making your a
 
 ---
 
-Certain status updates, like marking an order as **Completed**, can remove the order from the **Today's Orders** list based on your OrderLine configuration. To view it again, select the **Today's Orders** hidden card. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
+Certain status updates, like marking an order as **Completed**, can remove the order from the **Today's Orders** list based on your OrderLine configuration. To view it again, select the **Today's Orders** hidden card. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
 
 ## Print Order
 
-OrderLine supports printing on any printer recognized by your web browser via the system's print dialog.
+OrderLine supports printing on any printer recognised by your web browser via the system's print dialog.
 
 To print an order receipt, follow these steps:
 
@@ -70,9 +71,9 @@ To print an order receipt, follow these steps:
 1. Click **PRINT**.
 1. Follow the instructions on the browser print dialog.
 
-Receipts are presented into sections for readability with a solid line starting and ending each section, mirroring the order card's information. For more information on order cards, see [View Order](#view-order).
+## Receipts
 
-![OrderLine Order Receipt Example](../images/030-en-2x-receipt-example.jpg)
+Receipts are presented into sections for readability with a solid line starting and ending each section, mirroring the order card's information. For more information on order cards, see [View Order](#view-order).
 
 Receipts include the following information:
 
@@ -84,3 +85,5 @@ Receipts include the following information:
 - Deal names followed by the associated products.
 - Ordered products, grouped with any included additions or exclusions. Standard options that were removed are struck out.
 - Order number reference.
+
+![OrderLine Order Receipt Example](./images/030-2x-receipt-example.jpg)

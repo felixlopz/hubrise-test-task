@@ -1,5 +1,6 @@
 ---
 title: HubRise Data Model
+path_override: hubrise-data-model
 position: 7
 layout: documentation
 meta:

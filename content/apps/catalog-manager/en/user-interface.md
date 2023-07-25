@@ -1,5 +1,6 @@
 ---
 title: User Interface
+path_override: user-interface
 position: 4
 layout: documentation
 meta:
@@ -15,7 +16,7 @@ Catalogs can be created globally across all locations, or at a specific location
 
 When you open Catalog Manager from the HubRise back office **CONNECTIONS** page, the Catalog Manager **Catalogs** page is displayed. From here you can create new catalogs. You can also use the **Actions** dropdown to **Rename**, **Duplicate** or **Delete** existing ones.
 
-![Catalog Manager Catalog list](../images/001-en-2x-catalog-list.png)
+![Catalog Manager Catalog list](./images/001-2x-catalog-list.png)
 
 ## Products
 
@@ -39,7 +40,7 @@ Variations are typically used to provide different varieties of the base product
 
 You can rearrange the order in which items are displayed in each category by using the drag handle <InlineImage width="20" height="20">![Down arrow icon](../images/015-drag-drop.png)</InlineImage> to drag and drop products. The order in which products display in the Catalog Manager is the oder in which they will display in the app you push the catalog into.
 
-![Catalog Manager Product List](../images/002-en-2x-product-list.png)
+![Catalog Manager Product List](./images/002-2x-product-list.png)
 
 ## Option Lists
 
@@ -47,22 +48,22 @@ Options are additional items which customers can add to a product when ordering.
 
 When viewing option lists, you can see the number of SKUs or the products that the option list is used in. This helps you to keep track of which options are used in which products.
 
-![Catalog Manager Options List](../images/003-en-2x-option-lists.png)
+![Catalog Manager Options List](./images/003-2x-option-lists.png)
 
 ## Deals
 
 Deals are special offers that you can configure for your menu. There are several ways that you can set deals up to meet your specific requirements. This includes offering percentage or absolute discounts and limiting the deal to certain products. A typical example could be a `Buy One Get One FREE` deal. For more information, see [Manage Deals](/apps/catalog-manager/manage-deals-discounts-charges#manage-deals).
 
-![Catalog Manager Deals list](../images/005-en-2x-deals-list.png)
+![Catalog Manager Deals list](./images/005-2x-deals-list.png)
 
 ## Discounts
 
 Discounts are simple percentage or amount discounts that can be applied on a total purchase, as opposed to a specific product item. For more information, see [Manage Discounts](apps/catalog-manager/manage-deals-discounts-charges#manage-discounts).
 
-![Catalog Manager Discounts list](../images/006-en-2x-discounts-list.png)
+![Catalog Manager Discounts list](./images/006-2x-discounts-list.png)
 
 ## Charges
 
 Charges are flat fees that you can apply to a total purchase for things like delivery fees, tips or other costs. For more information, see [Manage Charges](/apps/catalog-manager/manage-deals-discounts-charges#manage-charges).
 
-![Catalog Manager Charges list](../images/007-en-2x-charges-list.png)
+![Catalog Manager Charges list](./images/007-2x-charges-list.png)

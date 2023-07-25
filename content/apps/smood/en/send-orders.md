@@ -1,5 +1,6 @@
 ---
 title: Send Orders
+path_override: send-orders
 position: 5
 layout: documentation
 meta:

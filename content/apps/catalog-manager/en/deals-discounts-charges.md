@@ -1,5 +1,6 @@
 ---
 title: Deals, Discounts and Charges
+path_override: deals-discounts-charges
 position: 6
 layout: documentation
 meta:
@@ -20,7 +21,7 @@ To create a deal, click on **Deals** > **New deal** and enter a name. Once the d
 
 As an example, for a `Buy One Get One FREE` deal, you would enter one line item to represent the `Buy One` part of the deal. This will be set at its normal price by selecting **Unchanged**. You would then add a second line item to represent the `Get One FREE` part of the deal. Here you would enter a percentage off pricing effect of `100%`. You can limit the choice of free item to only certain products by selecting them with the **Attach SKUs** feature in the **Deal lines** section.
 
-![Catalog Manager Deal Details](../images/012-en-2x-deal-details.png)
+![Catalog Manager Deal Details](./images/012-2x-deal-details.png)
 
 Another example would be a `Three-course meal for £20`. You will need three lines, one for the `Appetiser`, another for the `Main dish`, and the last one for the `Dessert`. The first item would be set to a `£20` **Fixed price**. The two others would be set to `£0`. The choice of items available for each of the lines can be selected in the **Deal lines** section thanks to the **Attach SKUs** feature.
 

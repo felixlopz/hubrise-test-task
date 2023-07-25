@@ -1,5 +1,6 @@
 ---
 title: How Do I Get A Lightspeed Test Account?
+path_override: get-lightspeed-test-account
 position: 1
 layout: documentation
 meta:

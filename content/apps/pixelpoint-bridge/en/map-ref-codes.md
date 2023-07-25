@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 5
 layout: documentation
 meta:
@@ -29,9 +30,9 @@ To find the ref code of a combo, open its configuration page. The ref code is in
 
 The combo price is defined in the **Pricing** section. Additional charges may be defined on specific items in the **Combo Items** tab.
 
-![PixelPoint combos - product setup](../images/010-en-combos-product-setup.png)
+![PixelPoint combos - product setup](./images/010-combos-product-setup.png)
 
-![PixelPoint combos - combo items](../images/011-en-combos-items.png)
+![PixelPoint combos - combo items](./images/011-combos-items.png)
 
 ## Discounts
 
@@ -46,9 +47,9 @@ Coupons should be configured with the following options:
 - Select **Manual Description**
 - In the **Additional Options** tab, check that no Sale Types or Pay Methods restrictions would prevent the coupon from being applied. If there are, PixelPoint will recalculate the coupon price to `0`.
 
-![PixelPoint coupons - basic options](../images/008-en-coupons-basic.png)
+![PixelPoint coupons - basic options](./images/008-coupons-basic.png)
 
-![PixelPoint coupons - additional options](../images/009-en-coupons-additional.png)
+![PixelPoint coupons - additional options](./images/009-coupons-additional.png)
 
 ## Service Types
 

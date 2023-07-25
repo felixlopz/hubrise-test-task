@@ -1,5 +1,6 @@
 ---
 title: Usage and Plans
+path_override: usage-plan
 position: 9
 layout: documentation
 meta:
@@ -30,7 +31,7 @@ HubRise provides both free and paid plans for its services. For complete informa
 
 Free plans are available for Locations with a limited number of transactions a month. Once the limit is reached, Admin users of the Account and the Location are notified via email, and they need to upgrade to the paid tier to continue service.
 
-During the test phase prior to launch, you can request a free plan with an extended quota of orders. Contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
+During the test phase prior to launch, you can request a free plan with an extended quota of orders. Contact HubRise at support@hubrise.com.
 
 ## Plan Notifications
 
@@ -45,7 +46,7 @@ Notifications in the HubRise back office can be displayed for any reason involvi
 
 If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information on available plans, see [Usage Plans](#usage-plans).
 
-![Pay subscription](../images/022-en-2x-pay-subscription.png)
+![Pay subscription](./images/022-2x-pay-subscription.png)
 
 ---
 

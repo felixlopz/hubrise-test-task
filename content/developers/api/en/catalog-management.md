@@ -1,5 +1,6 @@
 ---
 title: Catalog Management
+path_override: catalog-management
 position: 5
 layout: documentation
 meta:

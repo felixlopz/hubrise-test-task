@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -22,7 +23,7 @@ Pour accéder à la page de paramétrage de l'interface HubRise, suivez les éta
 1. Cliquez sur **Paramètres et Réglages**.
 1. Dans l'onglet **Généraux**, cliquez sur **HubRise**.
 
-![Connexion - Paramètres HubRise](../images/017-fr-leo2-parametres-hubrise.png)
+![Connexion - Paramètres HubRise](./images/017-leo2-hubrise-settings.png)
 
 Cette page est divisée en plusieurs sections.
 

@@ -1,5 +1,6 @@
 ---
 title: Orders
+path_override: orders
 position: 4
 layout: documentation
 meta:

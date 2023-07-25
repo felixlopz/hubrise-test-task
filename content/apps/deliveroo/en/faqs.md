@@ -1,5 +1,6 @@
 ---
 title: FAQs
+path_override: faqs
 position: 11
 layout: documentation
 meta:
@@ -9,5 +10,5 @@ meta:
 
 - [Can I Connect Multiple Deliveroo Stores to the Same HubRise Location?](/apps/deliveroo/faqs/connecting-multiple-instances-deliveroo/)
 - [How Do I Find My Deliveroo Restaurant ID?](/apps/deliveroo/faqs/find-deliveroo-restaurant-id/)
-- [How Can I Abandon the Deliveroo Tablet?](/apps/deliveroo/faqs/abandon-deliveroo-tablet/)
-- [Can I Connect to HubRise From Deliveroo Back Office?](/apps/deliveroo/faqs/connect-from-deliveroo-back-office/)
+- [Can I Stop Using the Deliveroo Tablet?](/apps/deliveroo/faqs/deliveroo-tabletless/)
+- [Can I Connect to Hubrise From the Deliveroo Back Office?](/apps/deliveroo/faqs/connect-from-deliveroo-back-office/)

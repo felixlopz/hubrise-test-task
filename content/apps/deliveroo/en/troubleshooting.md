@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+path_override: troubleshooting
 position: 9
 layout: documentation
 meta:
@@ -34,7 +35,7 @@ To create a new menu, follow these steps:
 - Click **Save**.
 - Open the **Actions** tab to publish the catalog.
 
-If you are still having issues after attempting the workaround, contact [support@hubrise.com](mailto:support@hubrise.com).
+If you are still having issues after attempting the workaround, contact support@hubrise.com.
 
 ## Orders Not Received
 
@@ -50,4 +51,4 @@ To solve the issue, make sure that all the products in your Deliveroo menu have 
 
 When auto-accept is not enabled, every order needs to be accepted manually on the Deliveroo tablet, otherwise it will be rejected by Deliveroo and not received on HubRise.
 
-To avoid this, we recommend enabling auto-accept. For more information, see [How Can I Abandon the Deliveroo Tablet?](/apps/deliveroo/faqs/abandon-deliveroo-tablet).
+To avoid this, we recommend enabling auto-accept. For more information, see [Can I Stop Using the Deliveroo Tablet?](/apps/deliveroo/faqs/deliveroo-tabletless).

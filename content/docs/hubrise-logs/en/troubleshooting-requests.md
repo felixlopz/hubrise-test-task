@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting Requests
+path_override: troubleshooting-requests
 position: 8
 layout: documentation
 meta:

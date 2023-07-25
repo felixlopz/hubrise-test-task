@@ -1,6 +1,7 @@
 ---
-position: 1
 title: Overview
+path_override: "/"
+position: 1
 layout: documentation
 meta:
   title: Overview | Just Eat Flyt | HubRise
@@ -8,7 +9,6 @@ meta:
 gallery:
   - __gallery-001.png
   - __gallery-002.png
-path_override: /
 app_info:
   category: Food Ordering Platforms
   availability: Australia (Menulog), Canada (Skip The Dishes), Ireland, Italy, Spain, United Kingdom
@@ -43,7 +43,7 @@ Flyt is available on the following Just Eat platforms:
 
 Flyt offers more integration features than the legacy Just Eat Takeaway integration platform. Using Flyt, you can push a menu into Just Eat, or set up auto-accept.
 
-If you operate on a market not served by Flyt, it may still be possible to connect your store through Flyt if the Flyt team approves it. It happens on a case per case basis depending on their internal capacity. Independent stores might be connected but chains and franchises are given priority. Not all integration features might however be available, depending on your market. For more information, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com).
+If you operate on a market not served by Flyt, it may still be possible to connect your store through Flyt if the Flyt team approves it. It happens on a case per case basis depending on their internal capacity. Independent stores might be connected but chains and franchises are given priority. Not all integration features might however be available, depending on your market. For more information, contact HubRise at support@hubrise.com.
 
 ## Integration Features
 
@@ -54,7 +54,7 @@ Connecting Just Eat Flyt Bridge allows you to:
 - Push a catalog into Just Eat.
 - Synchronise inventory with HubRise.
 
-![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](../images/000-en-2x-just-eat-connection-diagram.png)
+![Diagram of the connection flow between Just Eat, Just Eat Flyt Bridge, and HubRise for receiving orders](./images/000-2x-just-eat-connection-diagram.png)
 
 ---
 

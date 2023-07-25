@@ -1,5 +1,6 @@
 ---
 title: Understanding Logs
+path_override: understanding-logs
 position: 8
 layout: documentation
 meta:
