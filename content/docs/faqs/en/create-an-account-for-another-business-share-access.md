@@ -1,5 +1,5 @@
 ---
-title: How Do I Create an Account for Another Business and Share Access??
+title: How Do I Create an Account for Another Business and Share Access?
 path_override: create-an-account-for-another-business
 position: 120
 layout: documentation
@@ -35,5 +35,11 @@ I just created your HubRise account, to login:
 - password: I just sent it via an automated email. If you haven't received it, think of checking your spam folder. It is possible to reset your password again from this page: https://manager.hubrise.com/reset_password/new
 
 Regards, [Your Name]
+
+---
+
+---
+
+**Related FAQ**: [How Do I Create an Account for Another Business Without Sharing Access?](/docs/faqs/create-an-account-for-another-business-no-access-sharing/)
 
 ---
