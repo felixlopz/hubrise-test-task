@@ -1,11 +1,11 @@
 ---
-title: Lancer OrderLine
-path_override: ouvrir-fermer-orderline
+title: Lancer OrderLine
+path_override: lancer-orderline
 position: 3
 layout: documentation
 meta:
-  title: Lancer Fermer OrderLine | OrderLine | HubRise
-  description: Instructions pour lancer et de fermer l'application OrderLine. Synchronisez vos données.
+  title: Lancer OrderLine | OrderLine | HubRise
+  description: Instructions pour lancer OrderLine et le déconnecter.
 ---
 
 Nous recommandons d'utiliser le navigateur Google Chrome. Sur les périphériques mobiles, veillez à désactiver le verrouillage automatique dans vos paramètres d'affichage.

@@ -1,11 +1,11 @@
 ---
-title: Open & Close OrderLine
-path_override: open-close-orderline
+title: Launch OrderLine
+path_override: launch-orderline
 position: 3
 layout: documentation
 meta:
-  title: Open & Close OrderLine | OrderLine | HubRise
-  description: Instructions on how to open OrderLine and log out from it. Synchronise data between your EPOS and your apps.
+  title: Launch OrderLine | OrderLine | HubRise
+  description: Instructions for launching OrderLine and logging out from it.
 ---
 
 We recommend using Google Chrome. On mobile devices, make sure to disable the auto-lock in your display settings.

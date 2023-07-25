@@ -17,7 +17,7 @@ app_info:
   contact: contact@hubrise.com
 ---
 
-OrderLine, édité par HubRise, est utilisé pour gérer et imprimer des commandes pouvant provenir d'autres systèmes connectés à votre compte HubRise. OrderLine peut être utilisé gratuitement sur n'importe quel appareil, y compris les tablettes et les smartphones.
+OrderLine est un outil développé par HubRise, qui vous permet de gérer et d'imprimer facilement les commandes reçues à partir de différents systèmes intégrés à votre compte HubRise. OrderLine peut être utilisé gratuitement sur n'importe quel appareil, y compris les tablettes et les smartphones.
 
 Les commandes peuvent provenir de diverses solutions telles que :
 
