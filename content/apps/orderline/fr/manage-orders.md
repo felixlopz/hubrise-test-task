@@ -28,7 +28,7 @@ Lors de la première connexion, OrderLine synchronise toutes les commandes des 3
 
 ## Voir une commande
 
-Pour consulter les détails de la commande, cliquez sur la carte de la commande. Pour la fermer, cliquez sur l'icône de fermeture <InlineImage width="23" height="23">!\[Icône de fermeture OrderLine\](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte.
+Pour consulter les détails de la commande, cliquez sur la carte de la commande. Pour la fermer, cliquez sur l'icône de fermeture <InlineImage width="23" height="23">![Icône de fermeture OrderLine](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte.
 
 La carte d'une commande affiche toutes les informations nécessaires à son traitement :
 
