@@ -17,7 +17,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: The integration is in progress. Full documentation will be published once the integration is complete.
+**IMPORTANT NOTE**: This documentation is available <Link to="/fr/apps/adipos" addLocalePrefix={false}>in French only</Link>.
 
 ---
 
@@ -41,6 +41,12 @@ Connecting Adipos to HubRise allows your EPOS to:
 - Synchronise inventory with HubRise.
 
 Adipos can be connected to HubRise from the Adipos back office.
+
+---
+
+**IMPORTANT NOTE** : Adipos does not currently support pushing orders into HubRise, but this feature can be developed on demand. Contact Adipos for more information.
+
+---
 
 ## Why Connect?
 

@@ -18,6 +18,8 @@ If you have connected WooCommerce to HubRise, but you are not receiving orders i
 
 When you connect WooCommerce Bridge, it creates two webhooks on your WooCommerce website. These webhooks are essential to transmit orders from WooCommerce to HubRise.
 
+Not only should you verify the presence of these webhooks, but you also need to ensure that their status is **active**. If the status is **inactive**, the webhooks will not work. You will need to reactivate them by clicking on their names.
+
 To check that the webhooks have been created:
 
 1. Open your WooCommerce back office.
@@ -27,10 +29,11 @@ To check that the webhooks have been created:
 1. Find two entries with the following names:
    - `HubRise {{your_location_id}}: Order updated`
    - `HubRise {{your_location_id}}: Order created`
+1. Check the status of each entry. If any of them are set to **inactive**, click on their names to change the status to **active**.
 
-If these entries are present, it is a good sign that the connection to HubRise was successfully established. You can proceed to the next verification step.
+If these entries are present and active, it is a good sign that the connection to HubRise was successfully established. You can proceed to the next verification step.
 
-However if you cannot find the two entries, you need to reconnect the bridge and check WooCommerce webhooks again. For more information on connecting the bridge, see [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
+If you cannot find the two entries, you need to reconnect the bridge and check WooCommerce webhooks again. For more information on connecting the bridge, see [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
 
 ### Place a Test Order in WooCommerce
 
@@ -72,7 +75,7 @@ If you see 401 errors in WooCommerce Bridge, it means that WooCommerce Bridge is
 
 ![401 errors in WooCommerce Bridge](./images/015-woocommerce-401-errors.png)
 
-There are two common causes for 401 errors:
+There are three common causes for 401 errors:
 
 ### API Key Removed
 
@@ -101,3 +104,31 @@ To do this:
 1. Proceed with the configuration as described in [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
 
 After making this change, verify if the 401 errors are resolved. If not, check the other troubleshooting steps or contact HubRise support.
+
+### Incorrect URL During Setup
+
+---
+
+**IMPORTANT NOTE:** This issue is only relevant if you are using the OAuth1 authentication method.
+
+---
+
+During the OAuth1 setup, if you added an extra `www` or omitted it from your website URL, the WooCommerce API will respond with the JSON message below:
+
+```json
+{
+  "code": "woocommerce_rest_authentication_error",
+  "message": "Signature non valide - La signature fournie ne correspond pas.",
+  "data": {
+    "status": 401
+  }
+}
+```
+
+In this case, the error message indicates that the signature provided does not match due to an incorrect URL input. This issue arises only with OAuth1 setup, because it requires the exact URL to compute the request signature, unlike Basic Auth which does not use the URL in the authentication of each request. To resolve this, you need to reconnect and use the exact URL of your website (either with or without the `www`, as per your actual website URL).
+
+Here is how to correct this:
+
+1. Reset the configuration of WooCommerce Bridge.
+1. Configure the bridge again from scratch. When you reach the first step of the configuration, enter the correct URL of your WooCommerce store, ensuring the URL matches exactly with your website (pay attention to whether your website uses `www` or not).
+1. Proceed with the configuration as described in [Connect to HubRise](/apps/woocommerce/connect-hubrise/).
