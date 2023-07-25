@@ -11,13 +11,13 @@ app_info:
   category: Logiciels de caisse
   availability: France, Turkie, Maroc
   price_range:
-  website: https://adipos.fr/
+  website: https://adipos.fr
   contact: support@adipos.fr / +33 9 81 06 79 05
 ---
 
 ---
 
-**REMARQUE IMPORTANTE :** Intégration en cours. Une documentation complète sera publiée une fois ce travail terminé.
+**REMARQUE IMPORTANTE :** Une documentation complète de cette intégration est en cours de rédaction.
 
 ---
 
@@ -41,6 +41,12 @@ Connecter Adipos à HubRise permet à votre logiciel de caisse de :
 - Synchroniser l'inventaire avec HubRise.
 
 Adipos peut être connecté à HubRise depuis le back-office de Adipos.
+
+---
+
+**REMARQUE IMPORTANTE :** L'envoi des commandes et des informations clients à HubRise peut-être effectué sur demande. Pour plus d'informations, contactez Adipos.
+
+---
 
 ## Pourquoi se connecter ?
 
