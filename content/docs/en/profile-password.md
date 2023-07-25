@@ -32,11 +32,30 @@ To update your User Profile:
 To update your password:
 
 1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
-1. Enter your current password in the **Current password** field.
-1. Enter your new password in **New password** and **Confirm new password** fields. Both fields must match.
-1. Click **Update**.
+2. Click **Change password**.
+3. Enter your current password in the **Current password** field.
+4. Enter your new password in **New password** and **Confirm new password** fields. Both fields must match.
+5. Click **Update**.
+
+---
+
+**IMPORTANT NOTE**: If you suspect your password has been compromised, it is strongly recommended that you logout from all devices after updating your password. Refer to [Logout From All Devices](#logout-from-all-devices) below for more information.
+
+---
 
 ![HubRise Change password](./images/055-2x-change-password.png)
+
+## Logout From All Devices
+
+If your HubRise account is logged in on multiple devices, you can log out from all of them at once. This is useful if you have lost a device, or if you want to prevent someone else from accessing your account.
+
+To log out from all devices:
+
+1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
+2. Click **Logout from all devices**.
+3. Click **Confirm**.
+
+This will instantly log you out from all devices where your HubRise account is active. You will need your password to log in again.
 
 ## User Permissions
 
