@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -13,7 +14,7 @@ La page Configuration permet de personnaliser le comportement d'Uber Eats Bridge
 
 Elle est divisée en plusieurs sections pour faciliter la navigation.
 
-![Page de configuration de Uber Eats Bridge](../images/002-fr-configuration-page.png)
+![Page de configuration de Uber Eats Bridge](./images/002-configuration-page.png)
 
 ## Langue
 
@@ -29,7 +30,7 @@ Le **code ref des articles jetables** désigne le code ref utilisé lorsque les 
 
 La capture d'écran suivante montre la case **Demander des couverts, pailles, etc.** que les clients peuvent cocher pour demander des articles jetables.
 
-![Case à cocher des articles jetables dans Uber Eats](../images/009-fr-disposable-items.png)
+![Case à cocher des articles jetables dans Uber Eats](./images/009-disposable-items.png)
 
 ## Promotions
 

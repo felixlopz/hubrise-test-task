@@ -1,5 +1,6 @@
 ---
 title: User Interface
+path_override: user-interface
 position: 4
 layout: documentation
 meta:
@@ -15,13 +16,13 @@ Orders are sorted by their expected delivery or collection time, with the earlie
 
 Orders may be hidden depending on the **Hide Order Status** setting. These Orders can be seen from **Today's Orders** tab by selecting **View** on the hidden order card. For more information, see [Order Status](/apps/orderline/settings/#order-status).
 
-![OrderLine Today's Order Tab](../images/006-en-todays-orders.png)
+![OrderLine Today's Order Tab](./images/006-todays-orders.png)
 
 ## Future Orders
 
 The **Future Orders** tab displays all orders with a delivery date greater than today's date. The tab displays an order counter to indicate the number of orders received.
 
-![OrderLine Future Orders Tab](../images/007-en-future-orders.png)
+![OrderLine Future Orders Tab](./images/007-future-orders.png)
 
 ## Orders History
 
@@ -34,4 +35,4 @@ You may filter orders by a combination of:
 - Customer name or Order reference.
 - Delivery date range.
 
-![OrderLine Orders History Tab](../images/008-en-orders-history.png)
+![OrderLine Orders History Tab](./images/008-orders-history.png)

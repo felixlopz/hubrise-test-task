@@ -1,5 +1,6 @@
 ---
 title: Push the Catalog
+path_override: push-catalog
 position: 7
 layout: documentation
 meta:
@@ -32,7 +33,7 @@ Once your catalog is populated on HubRise, you can push it manually to your Uber
 1. In Uber Eats Bridge, select the **Actions** tab, check the name and the ID of the HubRise catalog, then click **Push catalog**.
 1. Check your Uber Eats online menu.
 
-![Manual Catalog Push on HubRise](../images/025-en-2x-uber-eats-actions-page.png)
+![Manual Catalog Push on HubRise](./images/025-2x-uber-eats-actions-page.png)
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Locations
+path_override: locations
 position: 8
 layout: documentation
 meta:

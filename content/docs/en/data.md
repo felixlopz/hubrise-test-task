@@ -1,5 +1,6 @@
 ---
 title: Data
+path_override: data
 position: 5
 layout: documentation
 meta:
@@ -75,7 +76,7 @@ Catalogs are presented in three tabs:
 - **DISCOUNTS**: The discounts available in the catalog.
   Discount codes apply savings to the overall order rather than specific products. For example, **FREEDELIVERY** might remove the delivery fee for the entire order, or **FRIYAY** might provide a 10% discount to the entire order on Friday.
 
-![HubRise Catalog Tabs](../images/053-en-2x-catalog-tabs.png)
+![HubRise Catalog Tabs](./images/053-2x-catalog-tabs.png)
 
 For SKUs, you can see the following attributes:
 

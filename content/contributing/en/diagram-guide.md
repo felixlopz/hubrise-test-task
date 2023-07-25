@@ -1,5 +1,6 @@
 ---
 title: Diagram Guide
+path_override: diagram-guide
 position: 6
 layout: documentation
 meta:
@@ -15,18 +16,18 @@ Simple white blocks may be used on a gray background.
 If the software you use allows, use rounded corners and a very light gray shadow pointed directly to the bottom.
 This sample diagram was created with Google Drawing. To open the source diagram, see [Primary Example Source file](https://docs.google.com/drawings/d/1XaW7_OEfRfvW-AZz80lBrnN6LOeCYwsKZW_zsFC50qs/edit?usp=sharing).
 
-![HubRise primary diagram example with no colors](../images/004-en-example-diagram-no-colours.png)
+![HubRise primary diagram example with no colors](../images/004-example-diagram-no-colours.png)
 
 You may use screenshots with a wider gray border, around 20px to 40px. Light or dark gray 1px borders can be used as well. In addition, some space around the image would be beneficial to emphasise its content.
 
-![Example of a screenshot](../images/005-en-screenshot-example.png)
+![Example of a screenshot](../images/005-screenshot-example.png)
 
 ## Secondary Example
 
 You may use colours in your diagrams. For more information on colours to be used, see [Colours](#colours).
 If the contrast between the colours are too high, a lighter shade or lower opacity may be used.
 
-![Example of a diagram with colours](../images/006-en-diagram-use-with-colours.png)
+![Example of a diagram with colours](../images/006-diagram-use-with-colours.png)
 
 ## Naming Convention
 

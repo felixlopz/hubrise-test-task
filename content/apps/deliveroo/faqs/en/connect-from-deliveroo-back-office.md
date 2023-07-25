@@ -1,5 +1,6 @@
 ---
-title: Connect to HubRise From the Deliveroo Back Office
+title: Can I Connect to Hubrise From the Deliveroo Back Office?
+path_override: connect-from-deliveroo-back-office
 position: 5
 layout: documentation
 meta:
@@ -23,4 +24,4 @@ To activate HubRise on the Deliveroo back-office, follow these steps:
 
 To connect Deliveroo Bridge to the HubRise location associated with the Deliveroo store, see [Connect Deliveroo Bridge](/apps/deliveroo/connect-hubrise#connect-the-bridge).
 
-If you need help with this process, feel free to reach out to us at [support@hubrise.com](mailto:support@hubrise.com).
+If you need help with this process, feel free to reach out to us at support@hubrise.com.

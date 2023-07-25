@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -7,7 +8,6 @@ meta:
   description: Zelty overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
   - __gallery-001.png
-path_override: /
 app_info:
   category: Point of Sales
   availability: France

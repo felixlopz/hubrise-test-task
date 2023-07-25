@@ -1,5 +1,6 @@
 ---
 title: Online Ordering Platforms
+path_override: online-ordering-platforms
 position: 7
 layout: documentation
 meta:

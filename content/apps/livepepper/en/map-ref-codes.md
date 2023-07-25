@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 3
 layout: documentation
 meta:
@@ -22,7 +23,7 @@ To update the ref code for each sku, follow these steps:
 3. For each sku in the **Price & Availability** section, update the ref code under the **POS code** column.
 4. Click **Save** to confirm.
 
-![Mapping ref codes for skus](../images/001-en-livepepper-sku-ref-codes.png)
+![Mapping ref codes for skus](./images/001-livepepper-sku-ref-codes.png)
 
 At the end of the process, you can verify that all products have been mapped using the **Missing POS codes** custom action in LivePepper. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-product-mapping)
 
@@ -43,11 +44,11 @@ To update the ref code for ingredients or variants defined at the product-level,
 
 1. Select the product.
 2. From the **Customization** section, select the item you want to update.
-   ![Mapping ref codes - Ingredients](../images/015-en-product-ingredients.png)
+   ![Mapping ref codes - Ingredients](./images/015-product-ingredients.png)
 3. If the ingredient or variant is used in other products and they share the same ref code, you can update the ref code everywhere with these additional steps.
    - From the **Quick Copy** section, select whether the change applies to **All menu** items or to all products in a category.
    - Select **Use POS codes above**.
-     ![Mapping ref codes - Ingredient ref code](../images/016-en-ingredient-ref-code.png)
+     ![Mapping ref codes - Ingredient ref code](./images/016-ingredient-ref-code.png)
 4. Click **Save** to confirm.
 
 To update the ref code for toppings, options, and variants defined at the category-level, follow these steps.

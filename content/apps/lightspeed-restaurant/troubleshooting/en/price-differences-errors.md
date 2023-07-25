@@ -1,5 +1,6 @@
 ---
 title: Price Difference Errors
+path_override: price-differences-errors
 position: 6
 layout: documentation
 meta:

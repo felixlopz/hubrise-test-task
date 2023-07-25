@@ -1,5 +1,6 @@
 ---
 title: Pull Orders
+path_override: pull-orders
 position: 7
 layout: documentation
 meta:

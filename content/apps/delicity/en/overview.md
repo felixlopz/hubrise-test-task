@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -8,13 +9,12 @@ meta:
 gallery:
   - __gallery-001.png
   - __gallery-002.png
-path_override: /
 app_info:
   category: Food Ordering Platforms
   availability: France
   price_range:
   website: https://delicity.com
-  contact: +33 4 83 58 06 48
+  contact: "+33 4 83 58 06 48"
 ---
 
 ## Description

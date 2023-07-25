@@ -1,5 +1,6 @@
 ---
 title: Manage Orders
+path_override: manage-orders
 position: 5
 layout: documentation
 meta:
@@ -23,7 +24,7 @@ OrderLine can also emit a sound notification to inform you of new orders. To con
 
 On first connection, OrderLine synchronises all orders from the past 30 days.
 
-![OrderLine Order displays](../images/018-2x-en-order-displays.png)
+![OrderLine Order displays](./images/018-2x-order-displays.png)
 
 ## View Order
 
@@ -39,8 +40,7 @@ Order cards display all the details needed to process the order, including the f
 - List of products to prepare, including customer notes if any.
 - Current order status. Users can update the status for an order, or print the order receipt by selecting the corresponding button.
 
-![OrderLine Order Card Details](../images/019-2x-en-order-card-details.png)
-
+![OrderLine Order Card Details](./images/019-2x-order-card-details.png)
 
 ## Update Order's Status
 
@@ -86,4 +86,4 @@ Receipts include the following information:
 - Ordered products, grouped with any included additions or exclusions. Standard options that were removed are struck out.
 - Order number reference.
 
-![OrderLine Order Receipt Example](../images/030-en-2x-receipt-example.jpg)
+![OrderLine Order Receipt Example](./images/030-2x-receipt-example.jpg)

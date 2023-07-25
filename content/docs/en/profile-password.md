@@ -1,5 +1,6 @@
 ---
 title: Profile and Password
+path_override: profile-password
 position: 6
 layout: documentation
 meta:
@@ -24,7 +25,7 @@ To update your User Profile:
 
 ---
 
-![HubRise User Profile](../images/054-en-2x-profile-1.png)
+![HubRise User Profile](./images/054-2x-profile.png)
 
 ## Update Password
 
@@ -42,7 +43,7 @@ To update your password:
 
 ---
 
-![HubRise Change password](../images/055-en-2x-change-password.png)
+![HubRise Change password](./images/055-2x-change-password.png)
 
 ## Logout From All Devices
 
@@ -83,7 +84,7 @@ To create a new Account:
 1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
 1. In the **Permissions** section, click **Create Account**. For more information, see [Create an Account](/docs/account#create-an-account).
 
-![HubRise My Permissions](../images/056-en-2x-my-permissions.png)
+![HubRise My Permissions](./images/056-2x-my-permissions.png)
 
 ## Reset a Lost Password
 
@@ -95,4 +96,4 @@ If you are a registered user but you have lost or forgotten your password, go to
 
 ---
 
-![Reset password screen](../images/002-en-reset-password.png)
+![Reset password screen](./images/002-reset-password.png)

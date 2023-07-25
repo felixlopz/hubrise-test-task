@@ -1,5 +1,6 @@
 ---
 title: Pull the Catalog
+path_override: pull-catalog
 position: 4
 layout: documentation
 meta:
@@ -22,7 +23,7 @@ To pull a HubRise catalog into LivePepper:
 1. Log in to your LivePepper back office.
 2. Click **My menu** > **Import / Export**.
 3. In the **HubRise** section, click **Import**.
-   ![Import and Export the Menu](../images/010-en-hubrise-menu-import.png)
+   ![Import and Export the Menu](./images/010-hubrise-menu-import.png)
 4. Enter your LivePepper password and click **Import from HubRise**.
 
 ---

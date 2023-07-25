@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 3
 layout: documentation
 meta:
@@ -19,7 +20,7 @@ To find the ref codes for your products, follow these steps:
 
 1. Log in to your eTakeaway Max back office with your store manager account.
 1. From the main dashboard, select **Menu > Products**.
-   ![eTakeaway Max dashboard for store managers](../images/008-en-etm-dashboard-storeman.png)
+   ![eTakeaway Max dashboard for store managers](./images/008-etm-dashboard-storeman.png)
 
 1. From the list of products, see the **Reference** column to find the ref codes for your products.
-   ![eTakeaway Max products page for store managers](../images/009-en-etm-products-storeman.png)
+   ![eTakeaway Max products page for store managers](./images/009-etm-products-storeman.png)

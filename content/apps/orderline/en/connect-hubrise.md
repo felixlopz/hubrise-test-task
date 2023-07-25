@@ -1,5 +1,6 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
@@ -7,7 +8,7 @@ meta:
   description: Instructions on connecting OrderLine with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-OrderLine must be connected to your HubRise account before it can fetch orders. 
+OrderLine must be connected to your HubRise account before it can fetch orders.
 
 ## Connect OrderLine
 
@@ -21,15 +22,14 @@ To connect OrderLine to your HubRise account:
 
 1. Select **Connect**.
 
-1. Grant OrderLine permission to access the location of your restaurant registered in HubRise.
+1. Grant OrderLine access to your registered location on HubRise.
 
    - If your location has not yet been created in HubRise select **Create a new location.**
    - For accounts with multiple locations, expand the **Choose location section** to select the correct one and click on **Allow**.
 
 1. You have now added OrderLine to your HubRise Account.
 
-![OrderLine Connection Example](../images/004-2x-en-connect-orderline.png)
-
+![OrderLine Connection Example](./images/004-2x-connect-orderline.png)
 
 ## Disconnect OrderLine
 

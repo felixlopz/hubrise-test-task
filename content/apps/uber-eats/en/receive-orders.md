@@ -1,5 +1,6 @@
 ---
 title: Receive Orders
+path_override: receive-orders
 position: 6
 layout: documentation
 meta:

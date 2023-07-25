@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -7,11 +8,11 @@ meta:
   description: Instructions on configuring Uber Eats Bridge to work seamlessly with Uber Eats and your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-The Configuration page can be accessed by clicking on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> In the top right corner of the screen. For more details, see [User Interface](/apps/uber-eats/user-interface).
+The Configuration page can be accessed by clicking on the arrow <InlineImage width="20" height="20">![Arrow icon](../images/arrow-icon.jpg)</InlineImage> in the top right corner of the screen. For more details, see [User Interface](/apps/uber-eats/user-interface).
 
 The Configuration page allows you to customise the behaviour of Uber Eats Bridge based on your preferences.
 
-![Uber Eats Bridge configuration page](../images/010-en-2x-configuration-page-cropped.png)
+![Uber Eats Bridge configuration page](./images/010-2x-configuration-page-cropped.png)
 
 ## Language
 
@@ -34,7 +35,7 @@ This is useful if you have specific business requirements for financial reportin
 
 By default, Uber Eats activates a checkbox in the checkout flow for costumers to **Request utensils, straws, etc.**, as shown in the screenshot below.
 
-![Disposable items checkbox in Uber Eats checkout](../images/009-en-disposable-items.png)
+![Disposable items checkbox in Uber Eats checkout](./images/009-disposable-items.png)
 
 You can request Uber Eats to disable this functionality. If you prefer to keep it, create a "Disposable items" product in your EPOS, and use its ref code in the **Disposable items ref code** field.
 
@@ -60,7 +61,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ## Catalog
 
-![Uber Eats Bridge configuration page, Catalog section](../images/011-en-2x-configuration-page-menu.png)
+![Uber Eats Bridge configuration page, Catalog section](./images/011-2x-configuration-page-menu.png)
 
 ### Catalog Variant to Push
 
@@ -70,7 +71,7 @@ If your catalog includes variants, you have the option to select which one to us
 
 ### Automatic Catalog Push
 
-To synchronize your HubRise catalog with Uber Eats whenever it is updated, select the **Enable automatic catalog push** checkbox.
+Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with Uber Eats whenever it gets updated.
 
 ### Opening Hours
 
@@ -95,26 +96,24 @@ If you enable customer notes, make sure that your connected EPOS supports produc
 
 ## Inventory
 
-![Uber Eats Bridge configuration page inventory section](../images/023-en-2x-configuration-page-inventory.png)
+![Uber Eats Bridge configuration page inventory section](./images/023-2x-configuration-page-inventory.png)
 
-Through inventory synchronization, products and options that have a stock quantity of zero can be hidden can be hidden on your Uber Eats store.
+Through inventory synchronisation, products and options that have a stock quantity of zero can be hidden can be hidden on your Uber Eats store.
 
-To synchronize your HubRise inventory with Uber Eats whenever it is updated, select the **Enable automatic inventory push** checkbox.
-
-Additionally, you can manually push your inventory to Uber Eats via the **Actions** page.
+Select the **Enable automatic inventory push** checkbox to synchronise your HubRise inventory with Uber Eats whenever it gets updated.
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Uber Eats Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your Uber Eats Store UUID. To continue receiving Uber Eats orders, you will need to enter your Uber Eats Store UUID again.
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from Uber Eats. You will need your Uber Eats Store UUID to reestablish the connection.
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.

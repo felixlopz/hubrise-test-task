@@ -1,5 +1,6 @@
 ---
 title: Interview de Théo Vandemeulebroucke, SOS Soirée
+path_override: __post
 date: 2023-07-06
 author: Géraldine Malet
 meta:

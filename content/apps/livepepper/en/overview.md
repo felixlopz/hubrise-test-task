@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -10,11 +11,10 @@ gallery:
   - __gallery-002.png
   - __gallery-003.png
   - __gallery-004.png
-path_override: /
 app_info:
   category: Online Ordering
   availability: Worldwide
-  price_range: €69-€109 / month
+  price_range: "€69-€109 / month"
   website: https://www.livepepper.com
   contact: contact@livepepper.com / +33 4 92 38 09 82
 ---

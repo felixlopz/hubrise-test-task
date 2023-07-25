@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+path_override: troubleshooting
 position: 8
 layout: documentation
 meta:
@@ -23,7 +24,7 @@ OrderLine routinely checks for blocked sound notifications and will display a po
 
 ---
 
-![Sound Notification Popup](../images/038-en-2x-sound-notifications-popup.png)
+![Sound Notification Popup](./images/038-2x-sound-notifications-popup.png)
 
 ## Blank Page on OrderLine Launch
 

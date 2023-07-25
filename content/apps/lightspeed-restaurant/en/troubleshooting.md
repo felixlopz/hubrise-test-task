@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+path_override: troubleshooting
 position: 17
 layout: documentation
 meta:
