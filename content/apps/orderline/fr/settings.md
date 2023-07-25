@@ -1,10 +1,10 @@
 ---
-title: Configuration
-path_override: configuration
+title: Paramètres
+path_override: parametres
 position: 6
 layout: documentation
 meta:
-  title: Configuration | OrderLine | HubRise
+  title: Paramètres | OrderLine | HubRise
   description: Modifier les paramètres de OrderLine, y compris, les statuts de commandes ainsi que leur enchaînement et les préférences linguistiques. Synchronisez les données.
 ---
 
@@ -15,7 +15,7 @@ Pour accéder à la page **Paramètres**, sélectionnez l'icône d'engrenage <In
 Les options suivantes sont disponibles via le menu **Paramètres** :
 
 - **Général**
-- **Statut de commande**
+- **Statuts de commande**
 - **Notifications**
 
 ## Général
@@ -52,56 +52,56 @@ Les statuts disponibles sont les suivants :
 
 Pour modifier l'enchaînement des statuts, procédez comme suit :
 
-1. Pour chaque statut, sélectionnez le <InlineImage width="40" height="42">![Icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbole plus pour définir les prochains statuts disponibles à partir du statut de départ. La coche <InlineImage width="40" height="40">!\[Icône de validation d'ajout de statut dans OrderLine\](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné. Pour supprimer toutes les options, sélectionnez **Tout décocher**.
-1. Répétez pour chaque statut que vous souhaitez modifier.
+1. Pour chaque statut, sélectionnez le symbole plus <InlineImage width="40" height="42">![Icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour sélectionner les statuts qu'une commande peut adopter à partir de son statut en cours. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné. Pour désélectionner tous les statuts, cliquez **Tout décocher**.
+1. Répétez l'opération pour chaque statut que vous souhaitez modifier.
 
-Par exemple, si vous souhaitez ajouter **Échec livraison** comme un statut possible après **En livraison**, vous devez sélectionner **Échec livraison** dans la liste des statuts possibles pour **En livraison**.
+Par exemple, pour ajouter **Échec livraison** comme statut possible après **En livraison**, sélectionnez **Échec livraison** dans la liste **En livraison**.
 
 ## Saisies complémentaires
 
-Lorsqu'une commande est configurée selon un statut spécifique, OrderLine peut proposer à l'utilisateur de mettre à jour l'**heure de livraison**, ou d'ajouter un **commentaire**.
+Lorsqu'une commande est dans certains statuts spécifiques, OrderLine peut permettre à l'utilisateur de modifier l'**heure de livraison**, ou d'ajouter un **commentaire**.
 
 ---
 
-**REMARQUE IMPORTANTE :** OrderLine n'envoie pas d'e-mails ni de mises à jour directement aux clients. Ces informations sont envoyées par votre solution de commande en ligne, sous deux conditions : Que votre solution de commande en ligne supporte l'envoi de messages aux clients. Que l'envoi de messages soit intégré à HubRise. Avant de mettre en place cette fonctionnalité, vérifiez que ces deux conditions sont remplies. Nous recommandons de tester sur une commande fictive pour vous assurer que le client reçoit bien la nouvelle heure de livraison et le commentaire.
+**REMARQUE IMPORTANTE :** OrderLine n'envoie pas directement d'e-mails aux clients. Les e-mails et autres notifications sont envoyées par votre solution de commande en ligne, sous deux conditions : votre solution de commande en ligne doit supporter l'envoi de notifications aux clients ; l'envoi de notifications doit être intégré à HubRise. Avant de mettre en place cette fonctionnalité, vérifiez que ces deux conditions sont remplies. Nous recommandons de tester sur une commande fictive pour vous assurer que le client reçoit bien la nouvelle heure de livraison et le commentaire.
 
 ---
 
-Pour qu'OrderLine propose de mettre à jour l'**heure de livraison** lorsqu'une commande passe dans un certain statut, procédez comme suit :
+Pour qu'OrderLine propose de modifier l'**heure de livraison** lorsqu'une commande passe dans certains statuts spécifiques, procédez comme suit :
 
 1. Sélectionnez la liste de statut sous **Saisir une heure de livraison...**
-1. Sélectionnez <InlineImage width="40" height="42">![L'icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbole plus pour définir un statut que l'utilisateur peut sélectionner. Pour supprimer toutes les options, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">!\[Icône de validation d'ajout de statut dans OrderLine\](../images/037-orderline-status-added.jpg)</InlineImage> case à cocher indique que le statut a déjà été sélectionné.
+1. Sélectionnez le symbole plus <InlineImage width="40" height="42">![L'icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour ajouter un statut. Pour désélectionner tous les statuts, cliquez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
 
 ![Exemple d'enchaînement des statuts](./images/012-2x-add-prompt-in-delivery.png)
 
-Les utilisateurs peuvent être invités à ajouter un commentaire lorsque la commande se trouve sur un statut spécifique. Pour afficher une invite de saisie d'un commentaire, procédez comme suit :
+Les utilisateurs peuvent être invités à ajouter un commentaire lorsque la commande se trouve dans un statut spécifique. Pour permettre la saisie d'un commentaire pour certains statuts spécifiques, procédez comme suit :
 
-1. Dans la section **Saisir un commentaire lorsque la commande passe dans l'un des statuts suivants**, sélectionnez la liste des statuts.
-1. Sélectionnez <InlineImage width="40" height="42">![L'icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbole pour indiquer que le statut déclenchera une invite de saisie d'un commentaire. Pour supprimer toutes les options, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">!\[Icône de validation d'ajout de statut dans OrderLine\](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
+1. Trouvez la section **Saisir un commentaire lorsque la commande passe dans l'un des statuts suivants**.
+1. Sélectionnez le symbole <InlineImage width="40" height="42">![L'icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour sélectionner les statuts dans lesquels l'utilisateur pourra saisir un commentaire. Pour désélectionner tous les statuts, cliquez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
 
 ## Masquer les commandes
 
-Vous pouvez masquer les commandes de l'onglet **Aujourd'hui** qui sont dans un statut spécifique. Les commandes masquées peuvent être affichées depuis l'onglet **Aujourd'hui** en sélectionnant la carte des commandes masquées.
+Vous pouvez masquer les commandes de l'onglet **Aujourd'hui** qui sont dans certains statuts spécifiques. Les commandes masquées peuvent être affichées dans l'onglet **Aujourd'hui**, en cliquant sur la carte des **commandes masquées**.
 
 Pour masquer des commandes dans la liste **Aujourd'hui**, procédez comme suit :
 
-1. Dans la section **Masquer les commandes de l'onglet 'Aujourd'hui' qui se trouvent dans l'un des statuts suivants**, sélectionnez la liste des statuts.
-1. Sélectionnez <InlineImage width="40" height="42">![L'icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbole pour masquer les commandes ayant ce statut. Pour supprimer toutes les options, sélectionnez **Tout décocher**. La coche <InlineImage width="40" height="40">!\[Icône de validation d'ajout de statut dans OrderLine\](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
+1. Trouvez la section **Masquer les commandes de l'onglet 'Aujourd'hui' qui se trouvent dans l'un des statuts suivants**.
+1. Sélectionnez le symbole <InlineImage width="40" height="42">![L'icône d'ajout de OrderLine](../images/034-orderline-status-add-specific.jpg)</InlineImage> pour masquer les commandes ayant ce statut. Pour désélectionner tous les statuts, cliquez **Tout décocher**. La coche <InlineImage width="40" height="40">![Icône de validation d'ajout de statut dans OrderLine](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné.
 
 ![Exemple d'enchaînement des statuts](./images/015-2x-setting-hidden-completed.png)
 
 ## Notifications
 
-Vous pouvez être averti par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Cela s'applique aussi bien aux commandes d'**Aujourd'hui** qu'aux commandes des **Jours suivants**.
+Vous pouvez être averti par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Cela s'applique aux commandes de l'onglet **Aujourd'hui** comme à celles de l'onglet **Jours suivants**.
 
 Les paramètres disponibles sont les suivants :
 
-| Paramètres | Description                                         |
-| ---------- | --------------------------------------------------- |
-| Répétition | Nombre de répétitions de la notification sonore.    |
-| Intervalle | Délai entre deux notifications sonores successives. |
-| Mélodie    | Musique entendue lors de la notification sonore.    |
+| Paramètres | Description                                                    |
+| ---------- | -------------------------------------------------------------- |
+| Répétition | Nombre de répétitions de la notification sonore.               |
+| Intervalle | Délai entre deux notifications sonores successives.            |
+| Mélodie    | Choix de la mélodie jouée à l'arrivée d'une nouvelle commande. |
 
-Certaines mélodies ont une sonorité plus aiguë et fort que d'autres. Choisissez la tonalité qui convient le mieux à vos goûts et à votre environnement. Il est important de noter que le volume se règle dans les paramètres de votre appareil et non dans OrderLine. Si le son de votre appareil n'est pas suffisamment fort pour un espace de travail bruyant, envisagez de vous connecter à une enceinte Bluetooth externe.
+Certaines mélodies ont des sonorités plus aiguës ou plus fortes que d'autres. Choisissez la tonalité qui convient le mieux à vos goûts et à votre environnement sonore. N'oubliez pas que le volume se règle dans les paramètres de votre appareil, et non dans OrderLine. Si le son de votre appareil n'est pas suffisamment fort pour un espace de travail bruyant, envisagez de connecter une enceinte Bluetooth amplifiée.
 
 ![Paramètres des notifications](./images/016-2x-settings-notifications.png)
