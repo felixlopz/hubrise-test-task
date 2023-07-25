@@ -90,4 +90,4 @@ Receipts include the following information:
 - Ordered products, grouped with any included additions or exclusions. Standard options that were removed are struck out.
 - Order number reference.
 
-![OrderLine Order Receipt Example](./images/030-2x-receipt-example.jpg)
+![OrderLine Order Receipt Example](./images/030-2x-receipt-example.png)
