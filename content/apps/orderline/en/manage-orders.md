@@ -44,12 +44,12 @@ Order cards display all the details needed to process the order, including the f
 
 ## Update Order's Status
 
-To update an order's status, open the order card and select the pen icon on the right-hand side of the status button.
+To update an order's status, open the order card and choose the appropriate status button.
 
-Your OrderLine **Order status** configuration may allow you to provide additional data during certain status updates. For more information, see [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt). These prompts can be very useful under certain circumstances, such as:
+Depending on your OrderLine configuration, you may have the option to add extra details during specific status updates. To adjust the configuration, see [Additional Data Prompt](/apps/orderline/settings/#additional-data-prompt). These prompts can be useful in certain situations, such as:
 
-- An optional **Message for the customer** will be appreciated when marking an order as **Cancelled** to justify the cancellation.
-- A **Confirmed time** for delivery will be appreciated when an order is marked as **Accepted** but cannot be delivered at the expected time. If no **Confirmed time** is specified, the order's expected delivery time will be used.
+- Providing an optional **Message for the customer** when marking an order as **Cancelled**, to justify the cancellation.
+- Specifying a **Confirmed time** for delivery, when an order is marked as **Accepted** but cannot be delivered at the expected time. If no **Confirmed time** is specified, the initial expected delivery time will be used.
 
 To modify the delivery time or add a message for your client, click on the pen icon beside the status button. After making your adjustments, click the status button to confirm.
 
@@ -61,7 +61,7 @@ To modify the delivery time or add a message for your client, click on the pen i
 
 ---
 
-Certain status updates, like marking an order as **Completed**, can remove the order from the **Today's Orders** tab based on your OrderLine configuration. To view it again, click **VIEW** on the **hidden orders** card or select the **Order History** tab. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
+Certain status updates, such as marking an order as **Completed**, might cause the order to disappear from the **Today's Orders** tab, depending on your OrderLine configuration. To view it again, click **VIEW** on the **hidden orders** card, or select the **Order History** tab. To adjust the hidden statuses, see [Hide Orders](/apps/orderline/settings/#hide-orders).
 
 ![OrderLine Hidden Orders Card](./images/039-2x-hidden-orders-card.png)
 

@@ -8,7 +8,9 @@ meta:
   description: Change OrderLine's settings, including its order flows, statuses, and language preferences. Synchronise data between your EPOS and your apps.
 ---
 
-The **Settings** page allows you customise the display and a number of OrderLine functionalies. To access the **Settings** page, select the gear icon <InlineImage width="20" height="20">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> in the upper right hand corner of the screen. On mobile devices, select it on the burger menu.
+The **Settings** page provides options to personalise the display and adjust several functionalities within OrderLine.
+
+To access the **Settings** page, select the gear icon <InlineImage width="20" height="20">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> in the upper right hand corner of the screen. On mobile devices, select it on the burger menu.
 
 The following options are available through the **Settings** menu:
 

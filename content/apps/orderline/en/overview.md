@@ -26,11 +26,11 @@ Orders might be sourced from a variety of solutions such as:
 - On-site self-ordering kiosks.
 - Table ordering apps.
 
-It assists single stores, restaurants, and franchises to manage orders received when the EPOS system is not integrated. OrderLine supports delivery, collection, and sit in options. It connects to single HubRise Locations.
+It assists single stores, restaurants, and franchises to manage orders received when the EPOS system is not integrated. OrderLine supports delivery, collection, and eat in options. It connects to single HubRise locations.
 
-OrderLine features include the following:
+OrderLine features include:
 
-- Order flow management.
-- Order status management.
-- Order receipt printing.
-- Orders searchable history.
+- Real-time order receipt, with customisable sound notifications.
+- Printing of order receipts.
+- Update of order status and delivery time.
+- Order history.
