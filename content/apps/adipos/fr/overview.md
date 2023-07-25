@@ -44,7 +44,7 @@ Adipos peut être connecté à HubRise depuis le back-office de Adipos.
 
 ---
 
-**REMARQUE IMPORTANTE :** L'envoi des commandes et des informations clients à HubRise peut-être fait sur demande. Contactez Adipos pour plus d'information à ce sujet.
+**REMARQUE IMPORTANTE :** L'envoi des commandes et des informations clients à HubRise peut-être effectué sur demande. Pour plus d'informations, contactez Adipos.
 
 ---
 

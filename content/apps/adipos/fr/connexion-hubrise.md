@@ -15,13 +15,13 @@ meta:
 
 ## Connecter Adipos
 
-Adipos peut être connecté à HubRise depuis le back-office de Adipos.
-
-Vous pouvez cependant vous reposer sur le support de Adipos pour le faire. Procédez alors comme suit :
+Pour connecter Adipos à HubRise, procédez comme suit :
 
 1. Créez un compte HubRise. Pour plus d'information, consultez notre [Guide de démarrage](/docs/comment-demarrer).
 1. Donnez accès à votre compte à l'équipe support de Adipos. Pour plus d'information, voir [Donner accès au support de Adipos](#donner-acc-s-au-support-de-adipos).
 1. Ecrivez au support Adipos sur support@adixon.fr pour leur demander d'établir la connexion à HubRise, en leur indiquant le nom et l'identifiant HubRise du point de vente à connecter. Pour plus d'informations, voir [Nom et identifiant du point de vente](/docs/points-de-vente#nom-et-identifiant-du-point-de-vente).
+
+Vous pouvez également connecter Adipos à HubRise depuis le back-office de Adipos, depuis la section **Points de Vente** > **Point de Vente** > **HubRise**.
 
 ## Donner accès au support de Adipos
 
