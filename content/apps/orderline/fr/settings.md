@@ -8,7 +8,9 @@ meta:
   description: Modifier les paramètres de OrderLine, y compris, les statuts de commandes ainsi que leur enchaînement et les préférences linguistiques. Synchronisez les données.
 ---
 
-La page **Paramètres** vous permet de personnaliser l'affichage ainsi qu'un certain nombre de fonctionnalités de OrderLine. Pour accéder à la page **Paramètres**, sélectionnez l'icône d'engrenage <InlineImage width="20" height="20">!\[Icône des paramètres de OrderLine\](../images/035-settings.jpg)</InlineImage> dans le coin supérieur droit de l'écran. Sur les appareils mobiles, sélectionnez-le dans le menu burger.
+La page **Paramètres** permet de personnaliser l'affichage et d'ajuster plusieurs fonctionnalités dans OrderLine.
+
+Pour accéder à la page **Paramètres**, sélectionnez l'icône d'engrenage <InlineImage width="20" height="20">!\[Icône des paramètres de OrderLine\](../images/035-settings.jpg)</InlineImage> dans le coin supérieur droit de l'écran. Sur les appareils mobiles, sélectionnez-le dans le menu burger.
 
 Les options suivantes sont disponibles via le menu **Paramètres** :
 
@@ -18,13 +20,13 @@ Les options suivantes sont disponibles via le menu **Paramètres** :
 
 ## Général
 
-Dans **Paramètres** > **Général**, vous pouvez sélectionner la langue d'affichage. OrderLine prend actuellement en charge l'**Anglais** et le **Français**.
+Dans **Paramètres** > **Général**, vous pouvez sélectionner la langue d'affichage. OrderLine peut être utilisé en **anglais** ou en **français**.
 
 ![Paramètres généraux](./images/009-2x-settings-general.png)
 
-## Enchaînement des statuts commandes
+## Enchaînement des statuts de commande
 
-Dans les **Paramètres** > **Statut de commande**, vous pouvez configurer l'enchaînement des statuts de commande, qui détermine les statuts auxquels une commande peut passer à partir du statut actuel. Personnalisez l'enchaînement des statuts pour qu'ils correspondent au mieux à vos besoins opérationnels.
+Dans les **Paramètres** > **Statut de commande**, vous pouvez configurer l'enchaînement des statuts de commande, qui détermine les statuts dans lesquels une commande peut passer en fonction de son statut actuel. Personnalisez l'enchaînement des statuts pour qu'il corresponde au mieux à vos besoins opérationnels.
 
 ![Paramétrage des statuts](./images/014-2x-settings-order-status.png)
 
@@ -32,7 +34,7 @@ Les commandes arrivent toujours dans le statut **Nouvelle**, mais elles peuvent 
 
 ![Exemple d'enchaînement des statuts](./images/010-2x-status-flow-example.png)
 
-En partant de l'enchaînement de statuts standard de OrderLine, vous avez la possibilité de le simplifier ou de le personnaliser entièrement afin qu'il s'adapte au mieux à votre méthode de travail.
+Vous pouvez utiliser l'enchaînement de statuts standard de OrderLine, le simplifier ou bien le personnaliser entièrement afin de l'adapter à votre façon de travailler.
 
 Les statuts disponibles sont les suivants :
 
@@ -48,7 +50,7 @@ Les statuts disponibles sont les suivants :
 - Annulée
 - Échec livraison
 
-Pour modifier l'enchaînement de statuts, procédez comme suit :
+Pour modifier l'enchaînement des statuts, procédez comme suit :
 
 1. Pour chaque statut, sélectionnez le <InlineImage width="40" height="42">!\[Icône d'ajout de OrderLine\](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbole plus pour définir les prochains statuts disponibles à partir du statut de départ. La coche <InlineImage width="40" height="40">!\[Icône de validation d'ajout de statut dans OrderLine\](../images/037-orderline-status-added.jpg)</InlineImage> indique que le statut a déjà été sélectionné. Pour supprimer toutes les options, sélectionnez **Tout décocher**.
 1. Répétez pour chaque statut que vous souhaitez modifier.
@@ -90,7 +92,7 @@ Pour masquer des commandes dans la liste **Aujourd'hui**, procédez comme suit 
 
 ## Notifications
 
-Vous pouvez être averti par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Cela s'applique  aussi bien aux commandes d'**Aujourd'hui** qu'aux commandes des **Jours suivants**.
+Vous pouvez être averti par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Cela s'applique aussi bien aux commandes d'**Aujourd'hui** qu'aux commandes des **Jours suivants**.
 
 Les paramètres disponibles sont les suivants :
 
