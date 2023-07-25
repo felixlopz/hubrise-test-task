@@ -26,8 +26,8 @@ Almost all the fields are optional. In fact the simplest order that can be creat
 
 | Name                                                                  | Type                                                      | Description                                                                                                                                                            |
 | --------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `private_ref` <Label type="optional" />                               | string                                                    | A private unique reference for the order. Used for order lookups if defined. See [Private Refs](/developers/api/general-concepts#private-refs).                        |
 | `ref` <Label type="optional" />                                       | string                                                    | Reference of the order on the app creating the order. Unicity is recommended but not enforced.                                                                         |
+| `private_ref` <Label type="optional" />                               | string                                                    | A private unique reference for the order. Used for order lookups if defined. See [Private Refs](/developers/api/general-concepts#private-refs).                        |
 | `status`                                                              | [OrderStatus](#order-status)                              | Current status of the order.                                                                                                                                           |
 | `service_type` <Label type="optional" />                              | string                                                    | Method of delivery/serving to the customer. Can be: `delivery`, `collection`, or `eat_in`.                                                                             |
 | `service_type_ref` <Label type="optional" />                          | string                                                    | Identifier for the order type. Can be used to identify the channel, brand, and delivery method.                                                                        |
@@ -187,8 +187,8 @@ In addition, each `item`, `charge`, `payment` and `discount` is returned with a 
 {
   "id": "5dpm9",
   "location_id": "3r4s3-1",
-  "private_ref": null,
   "ref": "17654321",
+  "private_ref": null,
   "status": "new",
   "service_type": "collection",
   "service_type_ref": null,
