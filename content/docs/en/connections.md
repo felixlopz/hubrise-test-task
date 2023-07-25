@@ -22,16 +22,17 @@ Apps are connected to either a HubRise Account or Location. Connection level dep
 
 Some apps can be connected directly from the HubRise back office, while others require configuration from within the app before connection. For complete details, see the app documentation in the HubRise [Apps](/apps) page.
 
+Some apps must be connected at the account level, while others connect to a specific location. The **Connect** button in the process below will be greyed-out if you have not selected the corresponding level.
+
 To connect a new app to your HubRise Account from the HubRise back office:
 
 1. Log in to HubRise from the [HubRise Login page](https://manager.hubrise.com/login).
 1. Click **CONNECTIONS** on the left navigation panel.
 1. Select **View available apps**.
-1. Select **All locations** or the **Location** depending on the app you are trying to connect.
+1. Select the **Location** to connect, or **All locations** if the app connects at the account level.
 1. Select the app you want to install. If the app is not on this list, check the app documentation in the HubRise [Apps](/apps) page.
-1. Check instructions for the specific app and click **Connect**. If the installer does not open, check your browser for ad-blockers, which might prevent the opening of a new window. When installing a new app, you will be required to grant the app access to your HubRise Account.
-
-Some apps must be connected at the **All locations** level, while others connect to a specific Location. The **Connect** button will be greyed-out if you have not selected the corresponding level.
+1. Check instructions for the specific app and click **Connect**. The app will open in a new browser window. If not, check your browser for ad-blockers, which might prevent the opening of a new window.
+1. Grant the app access to your HubRise data by clicking **Allow**.
 
 ---
 
@@ -109,7 +110,7 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ---
 
-## Block or Disconnect App
+## Block or Disconnect an App
 
 HubRise allows you to block or disconnect apps:
 
@@ -131,9 +132,9 @@ To block or disconnect an app from HubRise, follow these steps:
 
 ![HubRise Connection - Remove an app](./images/014-2x-connections-disconnect-app.png)
 
-## Unblock App
+## Unblock an App
 
-An app may be temporarily blocked to prevent it from accessing the HubRise API. This might be done during onboarding by the HubRise support team, allowing you to maintain full control over data flowing into your systems. 
+The HubRise support team might block apps during the onboarding, to prevent them from interfering with your order flow while they are being configured. You can unblock an app at any time.
 
 To unblock an app, follow these steps:
 

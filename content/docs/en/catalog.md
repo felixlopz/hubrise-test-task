@@ -1,7 +1,7 @@
 ---
 title: Catalogs
 path_override: catalog
-position: 12
+position: 13
 layout: documentation
 meta:
   title: Catalogs | HubRise

@@ -1,7 +1,7 @@
 ---
 title: Permissions
 path_override: permissions
-position: 11
+position: 12
 layout: documentation
 meta:
   title: Permissions | HubRise
