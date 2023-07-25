@@ -134,7 +134,7 @@ To block or disconnect an app from HubRise, follow these steps:
 
 ## Unblock an App
 
-The HubRise support team might block apps during the onboarding, to prevent them from interfering with your order flow while they are being configured. You can unblock an app at any time.
+During the onboarding process, the HubRise support team may block certain apps to prevent them from interfering with your order flow while configuration takes place. You can unblock an app at any time.
 
 To unblock an app, follow these steps:
 
