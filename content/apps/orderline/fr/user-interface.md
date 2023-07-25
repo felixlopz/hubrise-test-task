@@ -8,29 +8,29 @@ meta:
   description: Les onglets Aujourd'hui, Jours suivants et Historique sont disponibles afin de faciliter l'accès à OrderLine. Synchronisez les données.
 ---
 
-## Commandes pour Aujourd'hui
+## Commandes du jour
 
-L'onglet **Aujourd'hui** affiche toutes les commandes dont la date de livraison correspond à la date d'aujourd'hui. Cet onglet affiche également un compteur de commandes pour indiquer le nombre de commandes reçues.
+L'onglet **Aujourd'hui** affiche toutes les commandes dont la date de livraison correspond à la date du jour. Un compteur de commandes facile à repérer indique le nombre de commandes actuellement dans le statut **Nouveau**.
 
 Les commandes sont triées en fonction de leur heure de livraison ou de collecte souhaitée, avec les commandes à traiter le plus vite en haut de la liste.
 
-Les commandes peuvent être masquées, selon la personnalisation choisie pour le paramètre **Masquer les commandes**. Vous pouvez retrouver ces commandes masquées en ouvrant l'onglet **Aujourd'hui** et en cliquant sur **VOIR** dans la dernière carte. Pour plus d'informations, voir la rubrique [Enchaînement des statuts de commande](/apps/orderline/configuration/#encha-nement-des-statuts-de-commande/).
+Les commandes peuvent être masquées, selon la personnalisation choisie pour le paramètre **Masquer les commandes**. Vous pouvez retrouver ces commandes masquées dans l'onglet **Aujourd'hui** en cliquant sur **VOIR** dans la carte commande cachée. Pour plus d'informations, voir la rubrique [Enchaînement des statuts de commande](/apps/orderline/configuration/#encha-nement-des-statuts-de-commande/).
 
 ![Onglet Aujourd'hui de OrderLine](./images/006-todays-orders.png)
 
-## Jours suivants
+## Commandes futures
 
-L'onglet **Jours suivants** affiche toutes les commandes avec une date de livraison supérieure à la date d'aujourd'hui. Cet onglet affiche également un compteur de commandes pour indiquer le nombre de commandes reçues.
+L'onglet **Jours suivants** affiche toutes les commandes avec une date de livraison postérieure à la date d'aujourd'hui. Le compteur de commandes indique le nombre de commandes futures dans le statut **Nouveau**.
 
 ![Onglet Jours suivants de OrderLine](./images/007-future-orders.png)
 
 ## Historique des commandes
 
-OrderLine agrège les commandes d'aujourd'hui, les commandes futures et les commandes passées dans une liste. Pour consulter ce dernier onglet, cliquez sur **HISTORIQUE**.
+OrderLine offre une vue d'ensemble avec toutes les commandes : passées, présentes et futures. Pour consulter celle-ci, cliquez sur **HISTORIQUE**.
 
-Les commandes sont classées par ordre décroissant de date, la commande la plus récente apparaissant en premier.
+Les commandes sont affichées en commençant par les plus récentes.
 
-Vous pouvez filtrer les commandes en combinant :
+Pour une recherche ciblée dans votre historique de commandes, vous pouvez utiliser les filtres disponibles, qui incluent :
 
 - Le nom du client ou la référence de la commande.
 - La plage de dates de livraison.
