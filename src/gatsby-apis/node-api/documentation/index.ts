@@ -19,7 +19,7 @@ import {
   generateFolders,
   getFolderFiles,
   getFolderPath,
-  getImagesRelativeDirectory,
+  geOverviewImagesDirectories,
   MDXDocumentationNode,
 } from "./folder"
 import { getFolderPages, getPagePath } from "./page"
@@ -144,7 +144,7 @@ function createDocumentationPage(
   const breadcrumbs = getBreadcrumbs(folder, localeCode, mdxNode.frontmatter.title)
 
   const folderPages = getFolderPages(folder, folderFiles, localeCode)
-  const imagesRelativeDirectory = getImagesRelativeDirectory(folder)
+  const overviewImagesDirectories = geOverviewImagesDirectories(folder, localeCode)
   const customization = folderFiles.customization
 
   const getLanguagePath = (localeCode) => getFolderPath(folder, localeCode)
@@ -157,7 +157,7 @@ function createDocumentationPage(
       contentLocaleCode: mdxNode.fields.localeCode,
       folderPages,
       folderTitle: customization.name,
-      imagesRelativeDirectory,
+      overviewImagesDirectories,
       languagePaths: generateLanguagePaths(localeCode, getLanguagePath),
       localeCode,
       logoImageName: customization.logo,

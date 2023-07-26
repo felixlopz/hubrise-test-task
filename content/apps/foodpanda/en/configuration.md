@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -10,7 +11,7 @@ meta:
 The configuration page allows you to customise the behaviour of the foodpanda Bridge based on your preferences.
 These are divided into different categories for an easier navigation.
 
-![foodpanda Bridge configuration page](../images/002-en-configuration-page.png)
+![foodpanda Bridge configuration page](./images/002-configuration-page.png)
 
 ## Customers
 
@@ -36,10 +37,16 @@ This section of the Configuration page allows you to specify the ref codes for t
 
 ## Save the Configuration
 
-Once you are happy with the configuration of the foodpanda Bridge, click **Save** at the top of the page to continue to the main page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-You can always restore the Configuration page to its default values and change the foodpanda location ID associated with your HubRise location by clicking on **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+---
+
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from foodpanda. You will need your foodpanda location ID to reestablish the connection.
+
+---
+
+Resetting the configuration does not delete the operation logs displayed in the main page.

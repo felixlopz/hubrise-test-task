@@ -1,11 +1,11 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | smilein | HubRise
   description: smilein overview, reasons for connecting smilein to HubRise and summary of integrated features. Synchronise data between your EPOS, smilein and your other apps.
-path_override: /
 ---
 
 ---

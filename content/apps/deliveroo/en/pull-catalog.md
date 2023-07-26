@@ -1,5 +1,6 @@
 ---
 title: Pull the Catalog
+path_override: pull-catalog
 position: 7
 layout: documentation
 meta:
@@ -15,7 +16,7 @@ This feature can be useful if you wish to:
 - Edit your menu using the HubRise Catalog Manager, to include ref codes, for example. For more information, see [Catalog Manager](/apps/catalog-manager).
 - Populate a HubRise catalog that will then be pushed to other apps, including food delivery platforms such as Uber Eats and Just Eat.
 
-## Populate a HubRise Catalog
+## Pull the Deliveroo Menu
 
 To pull your Deliveroo menu into a HubRise catalog, follow these steps:
 

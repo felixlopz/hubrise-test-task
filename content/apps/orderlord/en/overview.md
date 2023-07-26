@@ -1,11 +1,14 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | OrderLord | HubRise
   description: OrderLord overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
+gallery:
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Point of Sales
   availability: Worldwide. The EPOS solution is not available in France.

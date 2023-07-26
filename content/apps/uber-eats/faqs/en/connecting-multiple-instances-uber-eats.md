@@ -1,5 +1,6 @@
 ---
 title: Can I Connect Multiple Uber Eats Stores to the Same HubRise Location?
+path_override: connecting-multiple-instances-uber-eats
 position: 2
 layout: documentation
 meta:

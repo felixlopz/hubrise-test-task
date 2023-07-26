@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 4
 layout: documentation
 meta:
@@ -26,7 +27,7 @@ To assign ref codes to your Smood products, follow these steps:
 1. Click the **Menu** tab, then select the menu that you want to edit.
 1. Expand the category that contains the products that you want to edit, then click on the product name.
 1. In the **Edit a product** dialog that appears, enter the ref code in the **Reference** field.
-   ![Product ref code in the Smood back office](../images/001-en-smood-product-ref-code.png)
+   ![Product ref code in the Smood back office](./images/001-smood-product-ref-code.png)
 1. To confirm, click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**, then click **Confirm**.
 
 You need to repeat this manual procedure for all your available products.
@@ -40,10 +41,10 @@ To assign ref codes to your Smood options, follow these steps:
 1. Click the **Menu** tab, then select the menu that you want to edit.
 1. Expand the category that contains the products that you want to edit, then click on the product name.
 1. In the **Edit a product** dialog that appears, click **Manage options**.
-   ![Product ref code in the Smood back office](../images/001-en-smood-product-ref-code.png)
+   ![Product ref code in the Smood back office](./images/001-smood-product-ref-code.png)
 1. In the **Product options** dialog that appears, expand the option group that you want to edit.
 1. In the **List of choices** section, identify the option to which you want to add the ref code, then enter the value in the **Reference** field.
-   ![Option ref code in the Smood back office](../images/002-en-smood-options-ref-code.png)
+   ![Option ref code in the Smood back office](./images/002-smood-options-ref-code.png)
 1. To confirm, click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**, then click **Confirm**.
 
 You need to repeat this manual procedure for all of the options associated with the product.

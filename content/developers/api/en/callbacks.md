@@ -1,5 +1,6 @@
 ---
 title: Callbacks
+path_override: callbacks
 position: 8
 layout: documentation
 meta:

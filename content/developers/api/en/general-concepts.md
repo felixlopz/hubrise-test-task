@@ -1,5 +1,6 @@
 ---
 title: General Concepts
+path_override: general-concepts
 position: 1
 layout: documentation
 meta:

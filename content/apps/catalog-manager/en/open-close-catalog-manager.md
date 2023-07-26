@@ -1,5 +1,6 @@
 ---
 title: Open & Close Catalog Manager
+path_override: open-close-catalog-manager
 position: 3
 layout: documentation
 meta:
@@ -13,7 +14,7 @@ To open Catalog Manager, follow these steps:
 - Select **CONNECTIONS**
 - Click **Open** next to the Catalog Manager app. Catalog Manager will open in a new browser tab.
 
-![Catalog Manager Connections](../images/008-en-2x-Connections-Catalog-Manager.png)
+![Catalog Manager Connections](./images/008-2x-connections.png)
 
 To close Catalog Manager, simply close the browser tab. This will terminate your session.
 

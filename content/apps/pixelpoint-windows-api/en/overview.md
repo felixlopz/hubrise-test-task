@@ -1,11 +1,11 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | PixelPoint Windows API | HubRise
   description: PixelPoint Windows API overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
 app_info:
   category: Point of Sales
   availability: Worldwide

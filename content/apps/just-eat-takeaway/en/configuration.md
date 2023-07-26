@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -10,7 +11,7 @@ meta:
 The configuration page allows you to customise the behaviour of Just Eat Takeaway Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Just Eat Takeaway Bridge configuration page](../images/002-en-jet-configuration-page.png)
+![Just Eat Takeaway Bridge configuration page](./images/002-jet-configuration-page.png)
 
 ## Language
 
@@ -45,11 +46,11 @@ Just Eat Takeaway requires you to mark every successful order as `confirmed`. In
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Just Eat Takeaway Bridge, click **Save** at the top of the page to go back to the **Latest operatins** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
@@ -57,4 +58,4 @@ If you want to reset the configuration and erase its values, click **Reset the c
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.

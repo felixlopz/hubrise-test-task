@@ -1,5 +1,6 @@
 ---
 title: FAQs
+path_override: faqs
 position: 4
 layout: documentation
 meta:
@@ -9,4 +10,4 @@ meta:
 
 ## How do I Get Support?
 
-The App4 support team can be contacted at [info@goapp4.com](mailto:info@goapp4.com) for questions about the configuration of your connection.
+The App4 support team can be contacted at info@goapp4.com for questions about the configuration of your connection.

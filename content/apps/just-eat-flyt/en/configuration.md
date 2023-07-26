@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -10,7 +11,7 @@ meta:
 The configuration page allows you to customise the behaviour of Just Eat Flyt Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Just Eat Flyt Bridge configuration page](../images/011-en-just-eat-configuration-page-cropped.png)
+![Just Eat Flyt Bridge configuration page](./images/011-just-eat-configuration-page-cropped.png)
 
 ## Language
 
@@ -50,9 +51,9 @@ This section of the configuration page allows you to specify the ref codes for t
 
 ## Catalog
 
-To push your HubRise catalog to Just Eat whenever it is updated, select the **Enable automatic catalog push** checkbox.
+Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with Just Eat whenever it gets updated.
 
-![Just Eat Flyt Bridge configuration page, Catalog section](../images/012-en-just-eat-configuration-page-menu.png)
+![Just Eat Flyt Bridge configuration page, Catalog section](./images/012-just-eat-configuration-page-menu.png)
 
 ### Opening Hours
 
@@ -71,24 +72,22 @@ To quickly copy opening hours to all the following days on the list, click **Cop
 
 ## Inventory
 
-Through inventory synchronization, products and options that have a stock quantity of zero can be hidden can be hidden on your Just Eat store.
+Through inventory synchronisation, products and options that have a stock quantity of zero can be hidden can be hidden on your Just Eat store.
 
-To synchronize your HubRise inventory with Just Eat whenever it is updated, select the **Enable automatic inventory push** checkbox.
-
-Additionally, you can manually push your inventory to Just Eat via the **Actions** page.
+Select the **Enable automatic inventory push** checkbox to synchronise your HubRise inventory with Just Eat whenever it gets updated.
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Just Eat Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your integration settings. To continue receiving Just Eat orders, you will need to enter your integration settings again.
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from Just Eat. You will need your Just Eat API keys and restaurant ID to reestablish the connection.
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.

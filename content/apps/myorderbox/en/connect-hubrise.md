@@ -1,5 +1,6 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
@@ -19,6 +20,6 @@ To activate the connection between MyOrderBox and HubRise, follow these steps.
 
 Once connected to HubRise, the location details will appear in your MyOrderBox back office.
 
-![The HubRise connection page in your MyOrderBox back office](../images/002-en-myorderbox-connection-page.png)
+![The HubRise connection page in your MyOrderBox back office](./images/002-myorderbox-connection-page.png)
 
 If you want to connect multiple restaurants, each location should be connected to HubRise independently following the steps outlined above.

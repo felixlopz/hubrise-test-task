@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -10,7 +11,7 @@ meta:
 The configuration page allows you to customise the behaviour of Lightspeed Restaurant Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Lightspeed Restaurant Bridge configuration page](../images/014-en-configuration-page.png)
+![Lightspeed Restaurant Bridge configuration page](./images/014-configuration-page.png)
 
 ## Language
 
@@ -30,10 +31,16 @@ By default, Lightspeed Restaurant Bridge does not pull Lightspeed sales into Hub
 
 ## Save the Configuration
 
-Once you are happy with the configuration of Lightspeed Restaurant Bridge, click **Save** at the top of the page to go back to the **Latest operatins** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration**.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+---
+
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from Lightspeed Restaurant.
+
+---
+
+Resetting the configuration does not delete the operation logs displayed in the main page.

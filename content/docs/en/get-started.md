@@ -1,5 +1,6 @@
 ---
 title: Get Started
+path_override: get-started
 position: 2
 layout: documentation
 meta:
@@ -33,11 +34,11 @@ A HubRise Account identifies your brand, while a Location refers to the point of
 
 ---
 
-![Create an account on HubRise](../images/064-en-2x-create-account.png)
+![Create an account on HubRise](./images/064-2x-create-account.png)
 
 A small business will have one Account with one Location, while a larger business will have one Account with multiple Locations. For more information, see [Accounts](/docs/account/) and [Locations](/docs/locations/).
 
-![Accounts and Locations example](../images/046-en-2x-accounts-locations.png)
+![Accounts and Locations example](./images/046-2x-accounts-locations.png)
 
 A User Profile can have access to multiple Accounts. On the other hand, different User Profiles can have access to the same Account with different permission levels. For more information, see [Permissions](/docs/permissions/).
 
@@ -55,7 +56,7 @@ The HubRise interface is organised into the following sections:
 - **SETTINGS**: Add new locations, manage employee access and roles, view platform usage, check payment history or payment methods.
 - **DEVELOPER**: Access for developers to integrate new applications with HubRise.
 
-![HubRise dashboard](../images/078-en-hubrise-dashboard.png)
+![HubRise dashboard](./images/078-hubrise-dashboard.png)
 
 If you want to get an overall view of an Account's performance, select **All locations**. If you want to narrow results to one Location within an Account, select the Account then the corresponding Location.
 
@@ -66,7 +67,7 @@ If you want to get an overall view of an Account's performance, select **All loc
 
 To log in to HubRise, visit the [HubRise Login page](https://manager.hubrise.com/login) or the [HubRise home page](https://www.hubrise.com). Enter your email address and password, then click **Login**.
 
-![HubRise Login Screen](../images/001-en-hubrise-login.png)
+![HubRise Login Screen](./images/001-hubrise-login.png)
 
 ---
 

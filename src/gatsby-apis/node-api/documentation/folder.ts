@@ -124,9 +124,13 @@ export function getFolderFiles(folder: Folder, localeCode: LocaleCode): FolderFi
 }
 
 /**
- * Returns the path where images are stored, relative to "content", with no leading slash (eg "contributing/images").
+ * Returns the paths where logo and gallery images are stored, relative to "content", with no leading slash
+ * For example: ["contributing/images", "contributing/en/images"]
  * @param folder
  */
-export function getImagesRelativeDirectory(folder: Folder): string {
-  return folder.relativeDirectory + "/images"
+export function geOverviewImagesDirectories(folder: Folder, localeCode: LocaleCode): Array<string> {
+  return [
+    folder.relativeDirectory + "/images",
+    folder.relativeDirectory + `/${localeCode}/images`
+  ]
 }

@@ -26,7 +26,7 @@ interface DocumentationProps {
 
 interface DocumentationData {
   mdxNode: DocumentationNode
-  images: {
+  overviewImages: {
     nodes: Array<DocumentationImage>
   }
 }
@@ -56,7 +56,7 @@ interface DocumentationImage {
 }
 
 export const graphqlQuery = graphql`
-  query documentationData($mdxNodeId: String!, $imagesRelativeDirectory: String!) {
+  query documentationData($mdxNodeId: String!, $overviewImagesDirectories: [String!]!) {
     mdxNode: mdx(id: { eq: $mdxNodeId }) {
       frontmatter {
         app_info {
@@ -83,9 +83,9 @@ export const graphqlQuery = graphql`
         }
       }
     }
-    images: allFile(
+    overviewImages: allFile(
       filter: {
-        relativeDirectory: { eq: $imagesRelativeDirectory }
+        relativeDirectory: { in: $overviewImagesDirectories }
         name: { regex: "/^__(logo|gallery)/" }
         children: { elemMatch: { internal: { type: { eq: "ImageSharp" } } } }
       }
@@ -107,19 +107,17 @@ const Documentation = ({ data, path, pageContext, children: body }: Documentatio
   const localeCode = useLocaleCode()
 
   const { breadcrumbs, folderTitle, folderPages, logoImageName } = pageContext
-
-  const currentMdxNode = data.mdxNode
-
-  const { frontmatter, headings } = currentMdxNode
+  const { mdxNode, overviewImages } = data
+  const { frontmatter, headings } = mdxNode
   const { meta, title, gallery, app_info: appInfo } = frontmatter
 
   const chapterMainPath = folderPages[0].path
-  const logo = findImage(data.images, logoImageName)
+  const logo = findOverviewImage(overviewImages, logoImageName)
 
   const galleryImageMap = new Map<string, ImageSharp>()
   if (gallery) {
     for (const imageName of gallery) {
-      const image = findImage(data.images, imageName)
+      const image = findOverviewImage(overviewImages, imageName)
       if (image) galleryImageMap.set(imageName, image)
     }
   }
@@ -169,14 +167,14 @@ const Documentation = ({ data, path, pageContext, children: body }: Documentatio
         </Main>
       </Page>
 
-      <Feedback relativePath={currentMdxNode.parent.relativePath} />
+      <Feedback relativePath={mdxNode.parent.relativePath} />
     </MDXProvider>
   )
 }
 
 export default Documentation
 
-function findImage(images: DocumentationData["images"], name?: string): ImageSharp | undefined {
+function findOverviewImage(images: DocumentationData["overviewImages"], name?: string): ImageSharp | undefined {
   const imageNode = images.nodes.find((node) => `${node.name}${node.ext}` === name)
   return imageNode?.childImageSharp
 }

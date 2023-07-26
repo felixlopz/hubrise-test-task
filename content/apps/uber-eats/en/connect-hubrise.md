@@ -1,5 +1,6 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
@@ -7,7 +8,10 @@ meta:
   description: Instructions on connecting Uber Eats with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-Connecting Uber Eats to HubRise can be done with a few steps.
+Connecting Uber Eats to HubRise can be done with a few steps. You can connect one or both types of Uber Eats storefronts, depending on your setup:
+
+- Your store hosted on the main Uber Eats platform, accessible at www.ubereats.com.
+- Your own branded webstore on Uber Eats, identified by URLs that begin with www.order.store.
 
 ---
 
@@ -17,23 +21,23 @@ Connecting Uber Eats to HubRise can be done with a few steps.
 
 ## 1. Enable HubRise on Uber Eats
 
+---
+
+**IMPORTANT NOTE:** If you have a branded webstore on Uber Eats (URLs that begin with www.order.store), make sure you have read our [FAQ](/apps/uber-eats/faqs/connect-webstore) before proceeding.
+
+---
+
 As a first step, the HubRise integration must be enabled on your Uber Eats store.
 
-Contact us at [support@hubrise.com](mailto:support@hubrise.com) and include the following information:
+Contact us at support@hubrise.com and include the following information:
 
-- The URL link to your restaurant page on the Uber Eats website. For example: [https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg](https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg).
+- The URL link to your restaurant page on the Uber Eats website. For example: https://www.ubereats.com/store/camile-thai-epsom/V6j2cjCWX9e0WXNyGTdYsg.
 - Your HubRise location name and identifier. For example: `Fast Pizza London z6q31-0`.
 - The order acceptance mode you want to use for your store: `Manual accept` or `Offered state` mode. For more details, see our [FAQ](/apps/uber-eats/faqs/send-orders-to-epos-without-tablet).
 
 With this information in hand, we will ask Uber Eats support to enable the HubRise connection for your store and provide the Uber Eats Store UUID, for example: `dc638853-bff1-411c-adba-8aa4d7abddd2`.
 
 ## 2. Connect Uber Eats Bridge
-
----
-
-**IMPORTANT NOTE:** Uber Eats Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
 
 With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge:
 
@@ -42,10 +46,10 @@ With your Uber Eats Store UUID in hand, you can now connect the Uber Eats Bridge
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Uber Eats** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant Uber Eats Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. Click **Allow** to grant Uber Eats Bridge access to your registered location on HubRise. If your account has multiple locations, expand the **Choose location** section to select the desired location, and then click **Allow**.
 1. A new page asks you to provide your Uber Eats Store UUID. Enter your Store UUID, and click **Save** to complete the connection process.
 
-![Uber Eats store UUID](../images/001-en-store-uuid.png)
+![Uber Eats store UUID](./images/001-store-uuid.png)
 
 ## 3. Configure Your Preferences
 

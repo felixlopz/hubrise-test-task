@@ -1,6 +1,7 @@
 ---
 title: FAQs
-position: 7
+path_override: faqs
+position: 8
 layout: documentation
 meta:
   title: FAQs | LivePepper | HubRise

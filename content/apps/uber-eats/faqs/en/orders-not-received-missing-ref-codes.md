@@ -1,5 +1,6 @@
 ---
 title: Why Are My Orders Not Received on HubRise?
+path_override: orders-not-received-missing-ref-codes
 position: 6
 layout: documentation
 meta:

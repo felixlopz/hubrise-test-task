@@ -1,5 +1,6 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
@@ -15,7 +16,7 @@ meta:
 
 ## Enable the HubRise Integration
 
-Before you connect to HubRise, contact Lightspeed support on [k-series.support@lightspeedhq.com](mailto:k-series.support@lightspeedhq.com) and ask them to enable the integration with HubRise. Data will not flow from HubRise to Lightspeed Restaurant until they activate the API.
+Before you connect to HubRise, contact Lightspeed support on k-series.support@lightspeedhq.com and ask them to enable the integration with HubRise. Data will not flow from HubRise to Lightspeed Restaurant until they activate the API.
 
 ## Connect Lightspeed Restaurant Bridge
 
