@@ -7,29 +7,31 @@ import Feedback from "./Feedback"
 import Gallery from "./Gallery"
 import Navigator, { Heading } from "./Navigator"
 import { DocumentationContext } from "./interface"
+import { Content, Logo, Main, Warning, Page, Navigation, LogoImage } from "./Styles"
 
 import { ImageSharp } from "@utils/image"
 import SEO from "@layouts/shared/components/Seo"
 import MDXProvider from "@layouts/shared/components/MdxProvider"
 import Breadcrumbs from "@layouts/shared/components/Breadcrumbs"
-import DocumentationRenderer from "@layouts/shared/components/DocumentationRenderer"
+import MDXCustomRenderer from "@layouts/shared/components/MdxCustomRenderer"
 import { useLocaleCode } from "@utils/locales"
+import Link from "@layouts/shared/components/Link"
 
 interface DocumentationProps {
   data: DocumentationData
   path: string
   pageContext: DocumentationContext
+  children: React.ReactNode
 }
 
 interface DocumentationData {
   mdxNode: DocumentationNode
-  images: {
+  overviewImages: {
     nodes: Array<DocumentationImage>
   }
 }
 
 interface DocumentationNode {
-  body: string
   frontmatter: {
     app_info?: IAppInfo
     gallery?: Array<string>
@@ -54,9 +56,8 @@ interface DocumentationImage {
 }
 
 export const graphqlQuery = graphql`
-  query documentationData($mdxNodeId: String!, $imagesRelativeDirectory: String!) {
+  query documentationData($mdxNodeId: String!, $overviewImagesDirectories: [String!]!) {
     mdxNode: mdx(id: { eq: $mdxNodeId }) {
-      body
       frontmatter {
         app_info {
           availability
@@ -73,8 +74,8 @@ export const graphqlQuery = graphql`
         title
       }
       headings {
-        depth
         value
+        depth
       }
       parent {
         ... on File {
@@ -82,9 +83,9 @@ export const graphqlQuery = graphql`
         }
       }
     }
-    images: allFile(
+    overviewImages: allFile(
       filter: {
-        relativeDirectory: { eq: $imagesRelativeDirectory }
+        relativeDirectory: { in: $overviewImagesDirectories }
         name: { regex: "/^__(logo|gallery)/" }
         children: { elemMatch: { internal: { type: { eq: "ImageSharp" } } } }
       }
@@ -94,30 +95,29 @@ export const graphqlQuery = graphql`
         name
         relativeDirectory
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
+          gatsbyImageData(layout: CONSTRAINED, outputPixelDensities: [1])
         }
       }
     }
   }
 `
 
-const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Element => {
+const Documentation = ({ data, path, pageContext, children: body }: DocumentationProps): JSX.Element => {
   const { t } = useTranslation()
   const localeCode = useLocaleCode()
 
   const { breadcrumbs, folderTitle, folderPages, logoImageName } = pageContext
-
-  const currentMdxNode = data.mdxNode
-
-  const { frontmatter, body, headings } = currentMdxNode
+  const { mdxNode, overviewImages } = data
+  const { frontmatter, headings } = mdxNode
   const { meta, title, gallery, app_info: appInfo } = frontmatter
 
-  const logoImage = findImage(data.images, logoImageName)
+  const chapterMainPath = folderPages[0].path
+  const logo = findOverviewImage(overviewImages, logoImageName)
 
   const galleryImageMap = new Map<string, ImageSharp>()
   if (gallery) {
     for (const imageName of gallery) {
-      const image = findImage(data.images, imageName)
+      const image = findOverviewImage(overviewImages, imageName)
       if (image) galleryImageMap.set(imageName, image)
     }
   }
@@ -133,43 +133,48 @@ const Documentation = ({ data, path, pageContext }: DocumentationProps): JSX.Ele
 
       <Breadcrumbs breadcrumbs={breadcrumbs} />
 
-      <section className="section">
-        <div
-          className={`
-          section__in
-          section__in_padding
-          section__in_reverse
-          section__in_developers
-        `}
-        >
-          {languageWarning && <header className="section__language-warning">{languageWarning}</header>}
+      <Page>
+        {languageWarning && <Warning>{languageWarning}</Warning>}
 
-          <div className="section__content">
-            <DocumentationRenderer {...{ title, body }} />
-          </div>
+        {logo && (
+          <Logo>
+            <Link to={chapterMainPath} addLocalePrefix={false}>
+              <LogoImage alt={title} image={logo.gatsbyImageData} />
+            </Link>
+          </Logo>
+        )}
 
-          <Navigator
-            logo={logoImage}
-            currentPath={path}
-            title={folderTitle}
-            folderPages={folderPages}
-            headings={headings}
-          />
+        <Navigation>
+          <Navigator currentPath={path} title={folderTitle} folderPages={folderPages} headings={headings} />
+        </Navigation>
 
-          {galleryImageMap.size > 0 && <Gallery title={folderTitle} imageMap={galleryImageMap} />}
+        <Main>
+          <Content>
+            <MDXCustomRenderer {...{ title, body }} />
+          </Content>
 
-          {appInfo && <AppInfo appInfo={appInfo} />}
-        </div>
-      </section>
+          {galleryImageMap.size > 0 && (
+            <Content>
+              <Gallery title={folderTitle} imageMap={galleryImageMap} />
+            </Content>
+          )}
 
-      <Feedback relativePath={currentMdxNode.parent.relativePath} />
+          {appInfo && (
+            <Content>
+              <AppInfo appInfo={appInfo} />
+            </Content>
+          )}
+        </Main>
+      </Page>
+
+      <Feedback relativePath={mdxNode.parent.relativePath} />
     </MDXProvider>
   )
 }
 
 export default Documentation
 
-function findImage(images: DocumentationData["images"], name?: string): ImageSharp | undefined {
+function findOverviewImage(images: DocumentationData["overviewImages"], name?: string): ImageSharp | undefined {
   const imageNode = images.nodes.find((node) => `${node.name}${node.ext}` === name)
   return imageNode?.childImageSharp
 }

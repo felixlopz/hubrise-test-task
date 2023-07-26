@@ -1,5 +1,6 @@
 ---
 title: How Do I Check if the Connection Between My System and HubRise Is Working?
+path_override: check-connection-between-my-system-and-hubrise
 position: 90
 layout: documentation
 meta:
@@ -44,4 +45,4 @@ HubRise provides several different resources to help you.
 
 - Check out the [HubRise Integrated Apps](/apps/) page to find the documentation for the specific app you are trying to connect to HubRise.
 - The [HubRise API Reference](/developers/api/general-concepts) page is a handy place for developers to learn how to connect their products and the HubRise platform.
-- If you still need assistance, contact HubRise at [support@hubrise.com](mailto:support@hubrise.com) so we can help resolve your questions.
+- If you still need assistance, contact HubRise at support@hubrise.com so we can help resolve your questions.

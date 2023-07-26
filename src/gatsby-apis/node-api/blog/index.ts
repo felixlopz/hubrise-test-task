@@ -8,16 +8,17 @@ import { generateArchiveList } from "../../../layouts/shared/components/Blog/Sid
 import { BlogListContext } from "../../../layouts/blog-list/interface"
 import { BlogPostContext } from "../../../layouts/blog-post/interface"
 
-import { parseMdxNodeAbsolutePath } from "./helpers"
-import { getNodesByLocale } from "./graphql"
+import { parseMdxNodePath } from "./helpers"
+import { getNodesByLocale, MDXBlogNode } from "./graphql"
 
 const BLOG_PAGE_PATH = "/blog"
 
 export async function onCreateNode({ node, actions }: CreateNodeArgs): Promise<void> {
-  const fileAbsolutePath = node.fileAbsolutePath as string
+  if (node.internal.type === "Mdx") {
+    const contentFilePath = (node as any as MDXBlogNode).internal.contentFilePath
+    if (mdxNodeType(contentFilePath) !== "blog") return
 
-  if (node.internal.type === "Mdx" && mdxNodeType(fileAbsolutePath) === "blog") {
-    const { localeCode, name } = parseMdxNodeAbsolutePath(fileAbsolutePath)
+    const { localeCode, name } = parseMdxNodePath(contentFilePath)
 
     await actions.createNodeField({
       node,
@@ -28,7 +29,7 @@ export async function onCreateNode({ node, actions }: CreateNodeArgs): Promise<v
     await actions.createNodeField({
       node,
       name: "path",
-      value: pathWithLocale(localeCode, [BLOG_PAGE_PATH, name].join("/")),
+      value: pathWithLocale(localeCode, BLOG_PAGE_PATH, name),
     })
   }
 }
@@ -60,9 +61,9 @@ export async function createPages({ graphql, actions }: CreatePagesArgs): Promis
       actions.createPage<BlogListContext>({
         path: pathWithLocale(
           localeCode,
-          archive.isCurrentYear
-            ? `${BLOG_PAGE_PATH}/${archive.year}/${archive.month + 1}`
-            : `${BLOG_PAGE_PATH}/${archive.year}`,
+          ...(archive.isCurrentYear
+            ? [BLOG_PAGE_PATH, archive.year, archive.month + 1]
+            : [BLOG_PAGE_PATH, archive.year]),
         ),
         component: getLayoutPath("blog-list"),
         context: {
@@ -78,13 +79,13 @@ export async function createPages({ graphql, actions }: CreatePagesArgs): Promis
     nodes.forEach((node) => {
       actions.createPage<BlogPostContext>({
         path: node.fields.path,
-        component: getLayoutPath("blog-post"),
+        component: `${getLayoutPath("blog-post")}?__contentFilePath=${node.internal.contentFilePath}`,
         context: {
           languagePaths: generateLanguagePaths(localeCode, getMainBlogPath),
           localeCode,
           mainBlogPath,
           mdxNodeId: node.id,
-          bannerImagePathGlob: `${node.fileAbsolutePath.replace(/__post.md$/, "__banner.*")}`,
+          bannerImagePathGlob: `${node.internal.contentFilePath.replace(/__post.md$/, "__banner.*")}`,
         },
       })
     })

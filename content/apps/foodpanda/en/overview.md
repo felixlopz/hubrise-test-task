@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -8,7 +9,6 @@ meta:
 gallery:
   - __gallery-001.png
   - __gallery-002.png
-path_override: /
 app_info:
   category: Food Ordering Platforms
   availability: Bangladesh, Bulgaria, Cambodia, Hong Kong, Japan, Laos, Malaysia, Myanmar, Pakistan, Romania, Singapore, Taiwan, Thailand
@@ -30,7 +30,7 @@ Connecting foodpanda Bridge allows HubRise to:
 - Pull orders from foodpanda, including order status.
 - Pull delivery information from foodpanda, for orders delivered by the restaurant.
 
-![Diagram of the connection flow between foodpanda, foodpanda Bridge, and HubRise](../images/001-en-2x-connection-diagram.png)
+![Diagram of the connection flow between foodpanda, foodpanda Bridge, and HubRise](./images/001-2x-connection-diagram.png)
 
 ---
 

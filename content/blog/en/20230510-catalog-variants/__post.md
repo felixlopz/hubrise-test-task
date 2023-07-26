@@ -1,5 +1,6 @@
 ---
 title: Catalog Variants
+path_override: __post
 date: 2023-05-10
 author: Antoine Monnier
 meta:

@@ -1,5 +1,6 @@
 ---
 title: What Happens If My Free Plan Quota Is Exceeded?
+path_override: free-plan-quota-exceeded-what-happens
 position: 10
 layout: documentation
 meta:

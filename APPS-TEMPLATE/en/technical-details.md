@@ -1,5 +1,6 @@
 ---
 title: Technical Details
+path_override: technical-details
 position: 8
 layout: documentation
 meta:

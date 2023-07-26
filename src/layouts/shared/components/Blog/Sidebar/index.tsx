@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { useMedia } from "react-use"
 import { useTranslation } from "react-i18next"
 
@@ -7,6 +7,7 @@ import { generateArchiveList, getArchiveTitle, getArchiveLink } from "./helpers"
 import { ArrowIcon, Menu, MenuItem, ItemLink, MenuList, MenuTitle } from "./Styles"
 
 import { useLocaleCode } from "@utils/locales"
+import { breakpoints } from "@utils/styles"
 
 const Sidebar = (): JSX.Element => {
   const { t } = useTranslation()
@@ -15,33 +16,37 @@ const Sidebar = (): JSX.Element => {
   const sidebarArticles = useSidebarData().filter((sidebarArticle) => sidebarArticle.localeCode === localeCode)
 
   const archiveList = generateArchiveList(sidebarArticles.map((sidebarArticle) => new Date(sidebarArticle.date)))
-  const isDesktop = useMedia("(min-width: 1024px)")
 
-  const [isArchiveExpanded, setArchiveExpanded] = useState(true)
+  const [isExpanded, setIsExpanded] = React.useState(true)
+  const isMobile = !useMedia(`(min-width: ${breakpoints.blogStickyMenu})`)
 
-  useEffect(() => {
-    setArchiveExpanded(isDesktop)
-  }, [isDesktop])
+  React.useEffect(() => {
+    const onClick = () => setIsExpanded(false)
+    document.addEventListener("click", onClick)
+    return () => document.removeEventListener("click", onClick)
+  }, [isExpanded])
+
+  React.useEffect(() => {
+    setIsExpanded(!isMobile)
+  }, [isMobile])
 
   return (
-    <aside className="section__sidebar">
-      <Menu>
-        <MenuTitle onClick={() => !isDesktop && setArchiveExpanded((prev) => !prev)}>
-          {t("blog.by_month")}
-          <ArrowIcon className={isArchiveExpanded ? "fa fa-angle-up" : "fa fa-angle-down"} />
-        </MenuTitle>
+    <Menu onClick={(e) => e.stopPropagation()}>
+      <MenuTitle onClick={() => isMobile && setIsExpanded((prev) => !prev)}>
+        {t("blog.older_posts")}
+        <ArrowIcon code={isExpanded ? "expand_less" : "expand_more"} />
+      </MenuTitle>
 
-        <MenuList $isSelected={isArchiveExpanded}>
-          {archiveList.map((archiveInfo) => (
-            <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
-              <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">
-                {getArchiveTitle(archiveInfo, t)}
-              </ItemLink>
-            </MenuItem>
-          ))}
-        </MenuList>
-      </Menu>
-    </aside>
+      <MenuList $isSelected={isExpanded}>
+        {archiveList.map((archiveInfo) => (
+          <MenuItem key={[archiveInfo.year, archiveInfo.month].join("_")}>
+            <ItemLink to={getArchiveLink(archiveInfo)} activeClassName="active">
+              {getArchiveTitle(archiveInfo, t)}
+            </ItemLink>
+          </MenuItem>
+        ))}
+      </MenuList>
+    </Menu>
   )
 }
 

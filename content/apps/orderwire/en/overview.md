@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -12,10 +13,9 @@ gallery:
   - __gallery-004.png
   - __gallery-005.png
   - __gallery-006.png
-path_override: /
 app_info:
   category: Point of Sales
-  availability: Currently available in Ireland and Thailand
+  availability: Ireland, United Kingdom and Thailand
   price_range:
   website: https://orderwire.com
   contact: hubrise@orderwire.com

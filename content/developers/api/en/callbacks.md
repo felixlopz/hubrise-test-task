@@ -1,5 +1,6 @@
 ---
 title: Callbacks
+path_override: callbacks
 position: 8
 layout: documentation
 meta:
@@ -114,12 +115,9 @@ A callback is specific to a connection. A connection can only have one callback.
 
 Returns the connection's callback details, including the URL and the types of events the callback listens to.
 
-<CallSummaryTable
-  endpoint="GET /callback"
-  accessLevel="location, account"
-/>
+<CallSummaryTable endpoint="GET /callback" accessLevel="location, account" />
 
-#### Example request:
+##### Example request:
 
 `GET /callback`
 
@@ -149,12 +147,9 @@ If no callback has been set, the response will be as follows:
 
 Creates a callback if none exists, replace the existing callback otherwise.
 
-<CallSummaryTable
-  endpoint="POST /callback"
-  accessLevel="location, account"
-/>
+<CallSummaryTable endpoint="POST /callback" accessLevel="location, account" />
 
-#### Request parameters:
+##### Request parameters:
 
 | Name     | Type   | Description                                                                                  |
 | -------- | ------ | -------------------------------------------------------------------------------------------- |
@@ -176,7 +171,7 @@ The allowed combinations are:
 - `inventory.patch`
 - `inventory.update`
 
-#### Example request:
+##### Example request:
 
 `POST /callback`
 
@@ -196,10 +191,7 @@ Unregister the connection's callback.
 
 HubRise will no longer trigger events or call the callback URL.
 
-<CallSummaryTable
-  endpoint="DELETE /callback"
-  accessLevel="location, account"
-/>
+<CallSummaryTable endpoint="DELETE /callback" accessLevel="location, account" />
 
 ## 2. Events
 
@@ -207,12 +199,9 @@ HubRise will no longer trigger events or call the callback URL.
 
 Returns an event by its id.
 
-<CallSummaryTable
-  endpoint="GET /callback/events/:event_id"
-  accessLevel="location, account"
-/>
+<CallSummaryTable endpoint="GET /callback/events/:event_id" accessLevel="location, account" />
 
-#### Example request:
+##### Example request:
 
 `GET /callback/events/ks8f6`
 
@@ -257,12 +246,9 @@ When an event affects a catalog or an inventory, you will need to send a `GET` r
 
 Returns the events that have not been acknowledged (ie deleted).
 
-<CallSummaryTable
-  endpoint="GET /callback/events"
-  accessLevel="location, account"
-/>
+<CallSummaryTable endpoint="GET /callback/events" accessLevel="location, account" />
 
-#### Example request:
+##### Example request:
 
 `GET /callback/events`
 
@@ -288,11 +274,8 @@ Deletes (ie acknowledges) a callback event
 
 A passive callback should always delete events after retrieval or they will keep on being pulled by the [List events](#22-list-events) operation.
 
-<CallSummaryTable
-  endpoint="DELETE /callback/events/:event_id"
-  accessLevel="location, account"
-/>
+<CallSummaryTable endpoint="DELETE /callback/events/:event_id" accessLevel="location, account" />
 
-#### Example request:
+##### Example request:
 
 `DELETE /callback/events/ks8f6`

@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -10,13 +11,12 @@ gallery:
   - __gallery-002.png
   - __gallery-003.png
   - __gallery-004.png
-path_override: /
 app_info:
   category: Point of Sales
   availability: United Kingdom, Australia and New Zealand
   price_range: From £29 / month
   website: https://nextorder.com/en-gb
-  contact: +44 330 818 7219 / support@nextorder.com
+  contact: "+44 330 818 7219 / support@nextorder.com"
 ---
 
 ---
