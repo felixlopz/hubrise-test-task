@@ -14,7 +14,7 @@ Vous pouvez personnaliser l'enchaînement des statuts afin d'adapter la gestion 
 
 A l'arrivée d'une commande, OrderLine l'affiche dans l'onglet **Aujourd'hui** ou **Jours suivants** selon la date de livraison.
 
-OrderLine peut également émettre une notification sonore pour vous informer des nouvelles commandes. Pour configurer les notifications sonores, consultez la rubrique [Notifications](/apps/orderline/configuration/#notifications) de la page **Configuration**.
+OrderLine peut également émettre une notification sonore pour vous informer des nouvelles commandes. Pour configurer les notifications sonores, rendez-vous sur la page **Paramètres** et ouvrez l'onglet **Notifications**. Pour plus d'informations, voir [Notifications](/apps/orderline/settings#notifications).
 
 ---
 
@@ -71,7 +71,7 @@ OrderLine prend en charge l'impression sur n'importe quelle imprimante reconnue 
 
 Pour imprimer un reçu de commande, suivez ces étapes :
 
-1. Ouvrez la carte de la commande.
+1. Ouvrir la commande.
 1. Cliquez sur **IMPRIMER**.
 1. Suivez les instructions indiquées dans la boîte de dialogue d'impression.
 

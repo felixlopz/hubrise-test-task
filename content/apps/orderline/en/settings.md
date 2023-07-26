@@ -93,7 +93,7 @@ To hide Orders from the **Today's Orders** list, follow these steps:
 
 ## Notifications
 
-Users can be prompted with a sound when new Orders are fetched by OrderLine based on the Notification settings. This applies both to **Today's Orders** and **Future Orders**.
+Users can be prompted with a sound when new Orders are fetched by OrderLine based on the Notification settings. This applies to both **Today's Orders** and **Future Orders**.
 
 The following settings are available:
 
