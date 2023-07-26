@@ -8,13 +8,13 @@ meta:
   description: Instructions pour afficher les détails de la commande, mettre à jour le statut de la commande et imprimer un reçu. Connectez vos applications et synchronisez vos données.
 ---
 
-Vous pouvez personnaliser l'enchaînement des statuts afin d'adapter la gestion des commandes à votre activité. Cette section décrit l'enchaînement des statuts par défaut, ainsi que les actions permettant d'accepter ou d'imprimer les commandes. Pour personnaliser cet enchaînement, consultez la page [Statuts de commande](/apps/orderline/configuration/#encha-nement-des-statuts-de-commande/).
+Vous pouvez personnaliser l'enchaînement des statuts afin d'adapter la gestion des commandes à votre activité. Cette section décrit l'enchaînement des statuts par défaut, ainsi que les actions permettant d'accepter ou d'imprimer les commandes. Pour personnaliser cet enchaînement, consultez la page [Statuts de commande](/apps/orderline/parametres/#encha-nement-des-statuts-de-commande/).
 
 ## Recevoir des commandes
 
 A l'arrivée d'une commande, OrderLine l'affiche dans l'onglet **Aujourd'hui** ou **Jours suivants** selon la date de livraison.
 
-OrderLine peut également émettre une notification sonore pour vous informer des nouvelles commandes. Pour configurer les notifications sonores, consultez la rubrique [Notifications](/apps/orderline/configuration/#notifications) de la page **Configuration**.
+OrderLine peut également émettre une notification sonore pour vous informer des nouvelles commandes. Pour configurer les notifications sonores, rendez-vous sur la page **Paramètres** et ouvrez l'onglet **Notifications**. Pour plus d'informations, voir [Notifications](/apps/orderline/settings#notifications).
 
 ---
 
@@ -46,7 +46,7 @@ La carte d'une commande affiche toutes les informations nécessaires à son trai
 
 Pour modifier le statut d'une commande, cliquez la fiche de commande et choisissez le bouton de statut approprié.
 
-Selon votre configuration OrderLine, vous aurez l'option d'ajouter des informations supplémentaires lors de mises à jour de statut spécifiques. Pour ajuster cette configuration, consultez [Saisies complémentaires](/apps/orderline/configuration/#saisies-compl-mentaires). Ces saisies de données supplémentaires peuvent être utiles dans certaines situations, telles que :
+Selon votre configuration OrderLine, vous aurez l'option d'ajouter des informations supplémentaires lors de mises à jour de statut spécifiques. Pour ajuster cette configuration, consultez [Saisies complémentaires](/apps/orderline/parametres/#saisies-compl-mentaires). Ces saisies de données supplémentaires peuvent être utiles dans certaines situations, telles que :
 
 - Renseigner un **message pour le client** lors du passage d'une commande au statut **Annulée**, pour justifier l'annulation.
 - Indiquer une **heure confirmée** de livraison, lorsque la commande est marquée comme **Acceptée** mais ne peut pas être livrée à l'heure prévue. Si aucune **Heure confirmée** n'est spécifiée, l'heure initialement souhaitée pour la livraison de la commande sera utilisée.
@@ -71,7 +71,7 @@ OrderLine prend en charge l'impression sur n'importe quelle imprimante reconnue 
 
 Pour imprimer un reçu de commande, suivez ces étapes :
 
-1. Ouvrez la carte de la commande.
+1. Ouvrir la commande.
 1. Cliquez sur **IMPRIMER**.
 1. Suivez les instructions indiquées dans la boîte de dialogue d'impression.
 

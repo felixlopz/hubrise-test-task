@@ -8,13 +8,13 @@ meta:
   description: Instructions on how to view order details, to update the order status, and to print a receipt. Connect apps and synchronise your data.
 ---
 
-OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Order Status](/apps/orderline/settings/#order-status).
+OrderLine users can change the statuses flow to manage orders in the way that best suits the business. This section describes the default status flow to accept, or print the order receipt by selecting the corresponding button. To customise this flow, see [Order Status Flow](/apps/orderline/settings/#order-status-flow).
 
 ## Receive Orders
 
 Upon order receipt, OrderLine displays it under the **Today's Orders** or **Future Orders** tab, based on the delivery date.
 
-OrderLine can also emit a sound notification to inform you of new orders. To configure sound notifications, see [Notifications](/apps/orderline/settings#notifications) in the **Settings** section.
+OrderLine can also emit a sound notification to inform you of new orders. To configure sound notifications, go to the **Settings** page and open the **Notifications** tab. For more information, see [Notifications](/apps/orderline/settings#notifications).
 
 ---
 
@@ -71,7 +71,7 @@ OrderLine supports printing on any printer recognised by your web browser via th
 
 To print an order receipt, follow these steps:
 
-1. Access the order details.
+1. Open the order card.
 1. Click **PRINT**.
 1. Follow the instructions on the browser print dialog.
 

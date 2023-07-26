@@ -8,10 +8,22 @@ meta:
   description: Instructions for launching OrderLine and logging out from it.
 ---
 
-We recommend using Google Chrome. On mobile devices, make sure to disable the auto-lock in your display settings.
+Google Chrome is our recommended browser for the best experience.
 
-To access OrderLine, log in to [HubRise](https://manager.hubrise.com), select **CONNECTIONS** then **Open** next to the OrderLine app. OrderLine will open in a new browser tab.
+To launch OrderLine, follow these steps:
 
-You can save the OrderLine Link as a favorite in your internet browser for daily ease of access. To terminate your OrderLine session, close the browser tab.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
+2. Open the **CONNECTIONS** page.
+3. Click **Open** next to the OrderLine app. OrderLine will open in a new browser tab.
 
 ![OrderLine Connection Example](./images/004-2x-connect-orderline.png)
+
+---
+
+**IMPORTANT NOTE:** In case you encounter any issues, such as a blank screen, refer to our [Troubleshooting](/apps/orderline/troubleshooting/) section.
+
+---
+
+To facilitate daily access, consider bookmarking the OrderLine link in your browser.
+
+To end your OrderLine session, simply close the corresponding browser tab.

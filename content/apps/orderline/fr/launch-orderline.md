@@ -8,10 +8,22 @@ meta:
   description: Instructions pour lancer OrderLine et le déconnecter.
 ---
 
-Nous recommandons d'utiliser le navigateur Google Chrome. Sur les périphériques mobiles, veillez à désactiver le verrouillage automatique dans vos paramètres d'affichage.
+Google Chrome est notre navigateur recommandé pour une expérience optimale.
 
-Pour accéder à OrderLine, connectez-vous au back-office de votre compte [HubRise](https://manager.hubrise.com?locale=fr-FR), sélectionnez **CONNEXIONS**, puis **Ouvrir** à côté de l'application OrderLine. OrderLine s'ouvre dans un nouvel onglet du navigateur.
+Pour lancer OrderLine, suivez ces étapes :
 
-Vous pouvez enregistrer le lien de OrderLine comme favori dans votre navigateur afin d'y accéder plus facilement. Pour mettre fin à votre session OrderLine, fermez l'onglet du navigateur.
+1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com).
+2. Ouvrez la page **CONNEXIONS**.
+3. Cliquez sur **Ouvrir** à côté de l'application OrderLine. OrderLine s'ouvre dans un nouvel onglet du navigateur.
 
-![Exemple de connexion de OrderLine](./images/004-2x-connect-orderline.png)
+![Exemple de connexion OrderLine](./images/004-2x-connect-orderline.png)
+
+---
+
+**REMARQUE IMPORTANTE :** Si vous rencontrez des problèmes, comme un écran vide, reportez-vous à notre rubrique [Dépannage](/apps/orderline/depannage/).
+
+---
+
+Pour faciliter l'accès quotidien, vous pouvez mettre en signet le lien OrderLine dans votre navigateur.
+
+Pour mettre fin à votre session OrderLine, il vous suffit de fermer l'onglet du navigateur.
