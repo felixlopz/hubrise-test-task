@@ -1,5 +1,5 @@
 ---
-title: "Etude de cas : 911 Delicious Company"
+title: "911 Delicious Company : comment HubRise a accompagné le réseau dans sa mutation"
 path_override: __post
 date: 2021-09-10
 author: Géraldine Malet

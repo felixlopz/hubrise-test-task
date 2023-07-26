@@ -1,5 +1,5 @@
 ---
-title: Interview de Théo Vandemeulebroucke, SOS Soirée
+title: "SOS Soirée : comment l'enseigne indépendante s’est intégrée à HubRise en toute autonomie"
 path_override: __post
 date: 2023-07-06
 author: Géraldine Malet
