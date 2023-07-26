@@ -16,6 +16,8 @@ Pour modifier le code ref d'un produit, suivez ces étapes :
 1. Depuis le back office Delicity, dans le menu de gauche, cliquez sur **Intégrations**.
 1. Sous **Intégration Active(s)** et depuis la section HubRise, cliquez sur le bouton **Paramètres**.
 1. Sur la page **Paramètres**, cocher la case **Synchroniser le menu HubRise avec mon menu Delicity**, puis **Sauvegarder**
+![Activer la synchronisation auto du menu](../images/003-fr-delicity-menu.png)
+
 
 ---
 
@@ -32,6 +34,8 @@ Pour modifier le code ref d'un produit, suivez ces étapes :
 1. Depuis le back office Delicity, dans le menu de gauche, cliquez sur **Vos Produits**.
 1. Cliquez sur le produit souhaité pour ouvrir la fiche produit. Le champ **Référence HubRise** se trouve dans la section **Intégration**
 1. Modifiez le code ref du produit et cliquez sur le bouton **Enregistrer** en bas de page.
+       ![Ajouter un code ref sur un produit](../images/004-fr-delicity-product-ref.png)
+
 
 ### Options
 
@@ -42,3 +46,5 @@ Pour modifier le code ref d'une option, suivez ces étapes :
 1. Depuis le back office Delicity, dans le menu de gauche, cliquez sur **Options de produit**.
 1. Cliquez sur les trois points à droite de la liste d'options souhaité puis **Modifier**. Une pop-up s'ouvre et vous pouvez saisir le code ref dans la colonne **Intégration**, champ **HubRise**
 1. Modifiez le code ref de l'option et cliquez sur le bouton **Enregistrer** en bas de page.
+          ![Ajouter un code ref sur une option](../images/005-fr-delicity-option-ref.png)
+
