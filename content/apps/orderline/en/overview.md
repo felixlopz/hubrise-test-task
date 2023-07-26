@@ -17,20 +17,20 @@ app_info:
   contact: contact@hubrise.com
 ---
 
-OrderLine, edited by HubRise, is used to manage and print orders that may originate from other systems connected to your HubRise account. It can be used free of charge on any device, including tablets and smartphones.
+OrderLine is a tool provided by HubRise that allows you to seamlessly manage and print orders received from various systems integrated with your HubRise account. OrderLine can be used free of charge on any device, including tablets and smartphones.
 
-Orders might be sourced from a variety of solutions such as:
+Orders might be sourced from a variety of solutions, such as:
 
 - Online ordering solutions for online stores and restaurants.
 - Food Ordering and Delivery Platforms.
 - On-site self-ordering kiosks.
 - Table ordering apps.
 
-It assists single stores, restaurants, and franchises to manage orders received when the EPOS system is not integrated. OrderLine supports delivery, collection, and sit in options. It connects to single HubRise Locations.
+It assists single stores, restaurants, and franchises to manage orders received when the EPOS system is not integrated. OrderLine supports delivery, collection, and eat in options. It connects to single HubRise locations.
 
-OrderLine features include the following:
+OrderLine features include:
 
-- Order management.
-- Order flow management.
-- Order receipt printing.
-- Orders searchable history.
+- Real-time order receipt, with customisable sound notifications.
+- Printing of order receipts.
+- Update of order status and delivery time.
+- Order history.

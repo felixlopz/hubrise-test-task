@@ -5,10 +5,12 @@ position: 6
 layout: documentation
 meta:
   title: Settings | OrderLine | HubRise
-  description: Change OrderLine's settings, including status flow, and language preferences. Synchronise data between your EPOS and your apps.
+  description: Change OrderLine's settings, including its order flows, statuses, and language preferences. Synchronise data between your EPOS and your apps.
 ---
 
-The **Settings** page lets you customise the display and functionality of OrderLine. To access the **Settings** page, select the gear icon <InlineImage width="20" height="20">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> in the upper right hand corner of the screen. On mobile devices, select it on the burger menu.
+The **Settings** page provides options to personalise the display and adjust several functionalities within OrderLine.
+
+To access the **Settings** page, select the gear icon <InlineImage width="20" height="20">![OrderLine Settings Icon](../images/035-settings.jpg)</InlineImage> in the upper right hand corner of the screen. On mobile devices, select it on the burger menu.
 
 The following options are available through the **Settings** menu:
 
@@ -18,11 +20,11 @@ The following options are available through the **Settings** menu:
 
 ## General
 
-In **Settings** > **General**, you can select the display language. OrderLine currently supports **English** and **French**.
+In **Settings** > **General**, you can select the display language. OrderLine can be used in either **English** or **French**.
 
 ![General Settings](./images/009-2x-settings-general.png)
 
-## Order Status
+## Order Status Flow
 
 In **Settings** > **Order status**, you can configure the order status flow, which determines the statuses that an order can change to from the current status. Customise status flows to best match your operational workflow.
 
@@ -39,14 +41,14 @@ The following statuses are available:
 - New
 - Received
 - Accepted
-- In Preparation
-- Awaiting Shipment
-- Awaiting Collection
+- In preparation
+- Awaiting shipment
+- Awaiting collection
 - In delivery
 - Completed
 - Rejected
 - Cancelled
-- Delivery Failed
+- Delivery failed
 
 To change the status flow, follow these steps:
 
@@ -73,7 +75,7 @@ To prompt the user to update the **Delivery Time** based on the status, follow t
 
 ![Status flow example](./images/012-2x-add-prompt-in-delivery.png)
 
-Users can be prompted to add a comment when an order is set to a specific status, which will be related to the client. Use these steps to prompt users for a comment based on the new order status:
+Users can be prompted to add a comment when an order is set to a specific status. Use these steps to prompt users for a comment based on the new order status:
 
 1. Select the status list under **Prompt for user's comment when updating the order status to**.
 1. Select the <InlineImage width="40" height="42">![OrderLine Plus Icon](../images/034-orderline-status-add-specific.jpg)</InlineImage> symbol to set a status a user can select from. To remove all options, select **Uncheck all**. The <InlineImage width="40" height="40">![OrderLine Status Added Checkmark Icon](../images/037-orderline-status-added.jpg)</InlineImage> indicates that status was already selected.

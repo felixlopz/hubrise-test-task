@@ -10,29 +10,29 @@ meta:
 
 ## Today's Orders
 
-The **Today's Orders** tab displays all orders with a delivery date equal to today's date. The tab displays an order counter to indicate the number of orders received.
+The **Today's Orders** tab displays all orders with a delivery date equal to today's date. Alongside, an easy-to-spot order counter reflects the count of orders currently in the **New** status.
 
 Orders are sorted by their expected delivery or collection time, with the earliest orders at the beginning of the list.
 
-Orders may be hidden depending on the **Hide Order Status** setting. These Orders can be seen from **Today's Orders** tab by selecting **View** on the hidden order card. For more information, see [Order Status](/apps/orderline/settings/#order-status).
+Orders may be hidden depending on the **Hide Order Status** setting. These orders can be seen from **Today's Orders** tab by selecting **VIEW** on the hidden order card. For more information, see [Order Status](/apps/orderline/settings/#order-status).
 
 ![OrderLine Today's Order Tab](./images/006-todays-orders.png)
 
 ## Future Orders
 
-The **Future Orders** tab displays all orders with a delivery date greater than today's date. The tab displays an order counter to indicate the number of orders received.
+The **Future Orders** tab displays all orders with a delivery date greater than today's date. The order counter reflects the count of future orders currently in the **New** status.
 
 ![OrderLine Future Orders Tab](./images/007-future-orders.png)
 
 ## Orders History
 
-OrderLine aggregates today's orders, future orders and past orders in a list. To view this list, click **ORDERS HISTORY**.
+OrderLine provides a comprehensive view of all orders: past, present, and future. To view this list, click **ORDERS HISTORY**.
 
-Orders are displayed in descending order by date, with the most recent date first.
+The orders are displayed starting with the most recent.
 
-You may filter orders by a combination of:
+For a targeted search within your order history, you can use the available filters, which include:
 
-- Customer name or Order reference.
+- Customer name or order reference.
 - Delivery date range.
 
 ![OrderLine Orders History Tab](./images/008-orders-history.png)
