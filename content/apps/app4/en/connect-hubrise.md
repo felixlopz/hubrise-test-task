@@ -29,5 +29,5 @@ At this stage you will need to contact the App4 support team and request them to
 ### If you don't have a HubRise location yet:
 
 - When the HubRise login page is presented, click **No Account Yet?**.
-- You will be prompted to create a new Account and Location. The **Account Name** is your brand name. The **Location Name** identifies the physical store: it should be the city or street where the restaurant is. For more information, see [Create an Account on HubRise](/docs/account/#create-an-account) and [Create a Location on HubRise](/docs/locations/#create-a-location).
+- You will be prompted to create a new Account and Location. The **Account Name** is your brand name. The **Location Name** identifies the physical store: it should be the city or street where the restaurant is. For more information, see [Create an Account](/docs/account/#create-an-account) and [Add a Location](/docs/locations/#add-a-location) on the HubRise documentation.
 - App4 will require permission to access your new HubRise Location. When prompted, click **Allow** to complete the connection.
