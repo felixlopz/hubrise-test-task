@@ -22,7 +22,7 @@ OrderLine effectue régulièrement des vérifications pour les notifications son
 
 ---
 
-**REMARQUE IMPORTANTE :** Sur la plupart des navigateurs, la politique peut être ajustée pour permettre à OrderLine de jouer des notifications sonores sans interaction de l'utilisateur. Pour des instructions détaillées spécifiques au navigateur, consultez notre FAQ [Comment puis-je garder les notifications sonores activées ?](/apps/orderline/faqs/garder-notifications-sonores-activees/).
+**REMARQUE IMPORTANTE :** Sur la plupart des navigateurs, les règles de lecture automatique peuvent être ajustées pour permettre à OrderLine de jouer des notifications sonores sans interaction de l'utilisateur. Pour des instructions détaillées spécifiques au navigateur, consultez notre FAQ [Comment puis-je garder les notifications sonores activées ?](/apps/orderline/faqs/garder-notifications-sonores-activees/).
 
 ---
 
