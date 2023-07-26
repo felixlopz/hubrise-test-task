@@ -103,14 +103,16 @@ In this example:
 
 The API changes have been reflected in our [API documentation](/developers/api/catalog-management) and [Postman collection](https://drive.google.com/drive/folders/1fn5u-4sY0-bnrxJY9RFPvpCu0bANGNBd?usp=sharing).
 
-## Updates to Catalog Manager and Integrations
+## Updates to Catalog Manager
 
-We have updated our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, and Glovo. To use variants with these integrations, you need to first update your catalog in HubRise, and then open the bridge configuration. The available variants will be listed in the dropdown below:
+[Catalog Manager](/apps/catalog-manager) is a free app included with HubRise. It allows you to view and modify your catalogs.
+
+We have added a new **Grid** mode, where you can create variants, customise prices, and disable items for some variants.
+
+![Grid mode in Catalog Manager](./002-en-catalog-manager-grid.png)
+
+## Updates to Integrations
+
+We have updated our integrations with Uber Eats, Deliveroo, Just Eat, Shopify, WooCommerce, and Glovo. To use variants with these integrations, you need to first update your catalog in HubRise, and then open the bridge configuration. You will be able to select the variant from the dropdown, or choose **(none)** to sync the default catalog.
 
 ![Catalog variants in the bridge configuration](./001-en-uber-eats-variants.png)
-
-Now you can specify the variant to sync, or choose **(none)** to sync the default catalog.
-
-[//]: # "We have updated our Catalog Manager app to allow defining different prices for each SKU/option for each variant, as well as disabling SKU/options/deals in specific variants."
-
-We are currently updating our Catalog Manager app to add full support for catalog variants. We will update this blog post when the update is available.
