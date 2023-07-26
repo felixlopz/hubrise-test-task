@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+path_override: privacy
 position: 1
 layout: documentation
 meta:

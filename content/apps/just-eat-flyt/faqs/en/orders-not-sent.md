@@ -1,5 +1,6 @@
 ---
 title: Why Are Some Orders Not Sent to HubRise?
+path_override: orders-not-sent
 position: 3
 layout: documentation
 meta:
@@ -25,10 +26,10 @@ Orders must either be accepted manually in the OrderPad, or auto-accepted for th
 
 For markets under the Takeaway.com tech stack, orders need to be sent to the kitchen before they are sent to HubRise. This applies to the following markets:
 
+- Just-Eat.ch
 - Just-Eat.fr
 - Takeaway.com (Belgium, Luxembourg, Portugual, Bulgaria, Romania)
 - Thuisbezorgd.nl
 - Lieferando (Germany, Austria)
 - Pyszne.pl
-- Eat.ch
 - Vietnammm.com

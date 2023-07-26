@@ -1,5 +1,6 @@
 ---
 title: I Lost My Password. How Do I Recover It?
+path_override: recover-lost-password-in-hubrise
 position: 80
 layout: documentation
 meta:

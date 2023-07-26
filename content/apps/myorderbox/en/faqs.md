@@ -1,5 +1,6 @@
 ---
 title: FAQs
+path_override: faqs
 position: 8
 layout: documentation
 meta:
@@ -7,4 +8,4 @@ meta:
   description: FAQs on connecting MyOrderBox with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-- <Link to="/apps/myorderbox/faqs/migrating-from-deliverect/">Migrating MyOrderBox from Deliverect to HubRise. What Do I Need to Know?</Link>
+- [Migrating MyOrderBox from Deliverect to HubRise. What Do I Need to Know?](/apps/myorderbox/faqs/migrating-from-deliverect/)

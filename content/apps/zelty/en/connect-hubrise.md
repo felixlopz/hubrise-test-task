@@ -1,9 +1,10 @@
 ---
-title: Connection to HubRise
+title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
-  title: Connection to HubRise | Zelty | HubRise
+  title: Connect to HubRise | Zelty | HubRise
   description: Instructions on connecting Zelty with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
@@ -25,7 +26,7 @@ In order to activate the connection between Zelty and HubRise:
 
 ---
 
-![Connection to HubRise](../images/005-en-2x-zelty-connect-to-hubrise.png)
+![Connection to HubRise](./images/005-2x-zelty-connect-to-hubrise.png)
 
 ## Disconnect
 

@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+path_override: troubleshooting
 position: 9
 layout: documentation
 meta:
@@ -68,8 +69,8 @@ PixelPoint requests are in [XML format](/apps/pixelpoint-bridge/understanding-lo
 
 Besides, they also use different keys to refer to the same value. The following table summarises how to map the API keys from HubRise to PixelPoint. When investigating a problem with support teams, you might want to use their respective API key to avoid confusion.
 
-A table has been created to help map keys from HubRise to PixelPoint. For more information, see [HubRise vs PixelPoint Terms](/apps/pixelpoint/hubrise-pixelpoint-terms/).
+A table has been created to help map keys from HubRise to PixelPoint. For more information, see [HubRise vs PixelPoint Terms](/apps/pixelpoint-bridge/terminology).
 
 ## PAR PixelPoint Support
 
-PAR PixelPoint support team can be contacted at [partnersupport@partech.com](mailto:partnersupport@partech.com) for issues with the configuration of the EPOS.
+PAR PixelPoint support team can be contacted at partnersupport@partech.com for issues with the configuration of the EPOS.

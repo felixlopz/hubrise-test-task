@@ -1,5 +1,6 @@
 ---
 title: Too Many Accounts for My Business On HubRise. How Can I Clear the System?
+path_override: how-can-i-clear-accounts
 position: 60
 layout: documentation
 meta:

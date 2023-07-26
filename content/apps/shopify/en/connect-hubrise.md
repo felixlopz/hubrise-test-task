@@ -1,9 +1,10 @@
 ---
-title: Connection to HubRise
+title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
-  title: Connection to HubRise | Shopify | HubRise
+  title: Connect to HubRise | Shopify | HubRise
   description: Instructions on connecting Shopify with HubRise for your EPOS to work with other apps as a cohesive whole. Connect apps and synchronise your data.
 ---
 
@@ -11,7 +12,7 @@ Connecting Shopify to HubRise can be done with a few steps.
 
 ---
 
-**IMPORTANT NOTE:** If you don't already have a HubRise account, start by registering on the [HubRise Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -32,7 +33,7 @@ To connect Shopify from Shopify App Store, follow these steps.
 1. In the authorization page, review the permissions and click **Install app**. You will be redirected to the Shopify Bridge page.
 1. Click **Connect now**.
 
-![Shopify Restaurant ID](../images/003-en-shopify-connect-now.png)
+![Shopify Restaurant ID](./images/003-shopify-connect-now.png)
 
 1. From the HubRise authorisation page, select your HubRise location you wish to connect, then click **Allow**.
 1. Configure the behaviour of Shopify Bridge, then click **Save** to complete the connection. For more information about configuring your Shopify Bridge, see [Configuration](/apps/shopify/configuration).
@@ -41,19 +42,19 @@ To connect Shopify from Shopify App Store, follow these steps.
 
 To connect Shopify Bridge from the HubRise back office, follow these steps.
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the location you want to connect from the dropdown menu.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **Shopify Bridge** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant Shopify Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
+1. Click **Allow** to grant Shopify Bridge access to your registered location on HubRise. If your account has multiple locations, expand the **Choose location** section to select the desired location, and then click **Allow**.
 1. A new page asks you to provide your Shopify store name. Enter your store name, then click **Save**.
 
-   ![Shopify Restaurant ID](../images/001-en-shopify-store-name.png)
+   ![Shopify Restaurant ID](./images/001-shopify-store-name.png)
 
 1. Click the **Connect your Shopify account** button. You will be redirected to the Shopify page, where you can select the store to connect to or enter your Shopify credentials.
 
-   ![Shopify Restaurant ID](../images/002-en-shopify-connect-store.png)
+   ![Shopify Restaurant ID](./images/002-shopify-connect-store.png)
 
 1. In the Shopify back office, review the permissions and click **Install app**. You will be redirected to Shopify Bridge.
 1. Configure the behaviour of Shopify Bridge, then click **Save** to complete the connection. For more information about configuring your Shopify Bridge, see [Configuration](/apps/shopify/configuration).

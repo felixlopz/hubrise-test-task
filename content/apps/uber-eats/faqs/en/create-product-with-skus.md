@@ -1,6 +1,7 @@
 ---
 title: How to Create a Product With Variations in Uber Eats?
-position: 6
+path_override: create-product-with-skus
+position: 5
 layout: documentation
 meta:
   title: Creating a Product With Variations in Menu Maker | Uber Eats FAQs | HubRise
@@ -55,10 +56,10 @@ To create the individual skus that are part of the product, follow these steps:
 1. Fill in the details for your sku.
    - Enter the name of the sku, for example `Pizza Margherita 8"`.
    - Under **Sell item on its own**, select **No**.
-     ![Sku name and sell item on its own choice](../../images/012-en-product-name-menu-maker.png)
+     ![Sku name and sell item on its own choice](./images/012-product-name-menu-maker.png)
    - Under **Default price**, enter the difference with the price of the main product, or `0`.
    - Expand **Extra details**, then under **External data**, enter the ref code of the sku.
-     ![Ref code under extra details](../../images/013-en-extra-details-menu-maker.png)
+     ![Ref code under extra details](./images/013-extra-details-menu-maker.png)
    - Optional: Fill in the other relevant fields in the page.
 1. To confirm the sku, click **Save**.
 1. Repeat the process for all the other skus that are part of the product. Click **Duplicate** to use the current sku as a starting point for the next ones.
@@ -71,13 +72,13 @@ After creating all the skus, to group them together within a modifier group foll
 1. Fill in the details of your modifier group.
    - Enter the name of the modifier group, for example `Choose your Margherita size`.
    - In the **Add item** field, select all the skus that are part of the product, then click **Add**.
-     ![Modifier group name and skus](../../images/014-en-modifier-group-name-menu-maker.png)
+     ![Modifier group name and skus](./images/014-modifier-group-name-menu-maker.png)
    - Drag the skus in the order you want them to appear on the list.
    - In the **Rules** section, enter the following values:
      - **Minimum number of options a customer must select**: `1`
      - **Maximum number of options a customer can select**: `1`
      - **How many times can customers select any single option**: `1`
-       ![Modifier group rules](../../images/015-en-modifier-group-rules-menu-maker.png)
+       ![Modifier group rules](./images/015-modifier-group-rules-menu-maker.png)
 1. To confirm the modifiers group, click **Save**.
 
 ### 3. Create the Main Product
@@ -91,10 +92,10 @@ Follow these steps:
    - Under **Sell item on its own**, select **Yes**.
    - Under **Categories**, select the category that contains the product.
    - Under **Default price**, enter the price of the cheapest sku.
-     ![Main product name](../../images/016-en-main-product-name-menu-maker.png)
+     ![Main product name](./images/016-main-product-name-menu-maker.png)
    - Expand **Customise item**, then click **Add modifier group**. From the modifier groups list, select the modifier group that contains the skus, then click **Add**.
-     ![Main product customisation](../../images/017-en-main-product-customisation-menu-maker.png)
+     ![Main product customisation](./images/017-main-product-customisation-menu-maker.png)
    - Expand **Extra details**, then under **External data**, enter `MULTISKU`.
-     ![Main product details](../../images/018-en-main-product-details-menu-maker.png)
+     ![Main product details](./images/018-main-product-details-menu-maker.png)
    - Optional: Fill in the other relevant fields in the page.
 1. To confirm the product, click **Save**.

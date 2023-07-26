@@ -1,5 +1,6 @@
 ---
 title: Food Ordering Platforms
+path_override: food-ordering-platforms
 position: 4
 layout: documentation
 meta:
@@ -32,7 +33,7 @@ To find a virtual brand id:
 1. Open the **Virtual brand** dropdown.
 1. The virtual brand id is the number next to the brand name, after the **-** character.
 
-![Finding virtual brand id in MyOrderBox back office](../images/006-en-find-virtual-brand-ids.png)
+![Finding virtual brand id in MyOrderBox back office](./images/006-find-virtual-brand-ids.png)
 
 ## Deliveroo
 
@@ -61,7 +62,7 @@ Just Eat offers two APIs:
 - The Flyt API is used on the Just-Eat.co.uk, Just-Eat.ie, Menulog and SkipTheDishes platforms, and for chains on other markets. This API allows you to synchronise the orders and the menu.
 - The Takeaway API, the older one, is used for independents on other markets. It allows you to receive orders, but not to send the menu.
 
-If you are not sure which API to use, contact [support@hubrise.com](mailto:support@hubrise.com).
+If you are not sure which API to use, contact support@hubrise.com.
 
 ### Just Eat via Takeaway API
 

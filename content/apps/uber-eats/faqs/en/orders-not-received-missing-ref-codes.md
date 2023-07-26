@@ -1,6 +1,7 @@
 ---
 title: Why Are My Orders Not Received on HubRise?
-position: 2
+path_override: orders-not-received-missing-ref-codes
+position: 6
 layout: documentation
 meta:
   title: Orders Not Received | Uber Eats FAQs | HubRise

@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Synapsy | HubRise
   description: Synapsy overview, reasons for connecting your Synapsy EPOS to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps.
 gallery:
-path_override: /
 app_info:
   category: Point of Sales
   availability: France

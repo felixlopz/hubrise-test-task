@@ -1,6 +1,7 @@
 ---
 title: Video Guide
-position: 4
+path_override: video-guide
+position: 5
 layout: documentation
 meta:
   title: Video Guide | HubRise

@@ -1,11 +1,11 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | dotdigital | HubRise
   description: dotdigital overview, reasons for connecting dotdigital to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
 app_info:
   category: Loyalty and Marketing
   availability: United States, Great Britain, South Africa, Australia, Singapore, Netherlands and Eastern Europe

@@ -1,5 +1,6 @@
 ---
 title: How to Create Test Orders?
+path_override: how-to-create-test-orders
 position: 1
 layout: documentation
 meta:

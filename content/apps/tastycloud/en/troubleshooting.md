@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+path_override: troubleshooting
 position: 4
 layout: documentation
 meta:
@@ -25,7 +26,7 @@ Place a test order on your website to verify the connection between TastyCloud a
 
 You should view the test order transmitted to HubRise through the following steps:
 
-1. Log in to your HubRise account.
+1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Click **Data** > **Orders**. Order will be displayed.
 1. Click the new Order to verify the customer and order information is accurate.
 1. The **Logs** section will contain the detailed JSON records of the communication between TastyCloud and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).
@@ -34,4 +35,4 @@ If the order is not visible, [check your connection with HubRise](/apps/tastyclo
 
 ## TastyCloud Support
 
-The TastyCloud support team can be contacted at [support@tastycloud.fr](mailto:support@tastycloud.fr) for issues with the configuration of the connection.
+The TastyCloud support team can be contacted at support@tastycloud.fr for issues with the configuration of the connection.
