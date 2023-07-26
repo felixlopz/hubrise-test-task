@@ -1,7 +1,7 @@
 ---
 title: Customer Lists
 path_override: customer-lists
-position: 13
+position: 14
 layout: documentation
 meta:
   title: Customer Lists | HubRise

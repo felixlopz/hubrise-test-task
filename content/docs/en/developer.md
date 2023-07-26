@@ -1,7 +1,7 @@
 ---
 title: Developer
 path_override: developer
-position: 14
+position: 15
 layout: documentation
 meta:
   title: Developer | HubRise

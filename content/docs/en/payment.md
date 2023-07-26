@@ -102,19 +102,28 @@ To remove a payment method, follow these steps:
 
 ## Process Requests for Payment
 
-When you change your plan, the payment must be authorized before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Plan Notifications](/docs/usage-plan/#plan-notifications).
+When you change your plan, the payment must be authorised before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Plan Notifications](/docs/usage-plan/#plan-notifications).
 
 To process a Request for Payment from the notification:
 
 1. Connect to your HubRise back office.
-1. Make sure a credit card is saved on your Account or Location. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
-1. Click **pay it online or download the PDF**, then click **Pay**. To check on all Requests for Payment, go to **SETTINGS**.
+1. In the **SETTINGS** page, check that a credit card is saved to your account or location. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
+1. Click **pay it online or download the PDF**, then click **Pay**.
+1. To check on all Requests for Payment, go to **SETTINGS**.
 
 ---
 
 **Related FAQ**: [What Happens If My Free Plan Quota Is Exceeded?](/docs/faqs/free-plan-quota-exceeded-what-happens/), [How Do I Pay For My First Invoice?](/docs/faqs/pay-first-invoice/), [Can My Plan Be Paused During Setup and Test Phases?](/docs/faqs/pause-plan-during-setup-and-test-phases/)
 
 ---
+
+## 3D Secure
+
+For compliance with 3D Secure banking protocols, which enhance online payment security, the initial **Request for Payment** requires manual payment on HubRise. This means that you must connect to your HubRise account to pay.
+
+Once this initial payment is made, subsequent payments to HubRise will be automated until you change your usage plan or your payment method expires. For more information about HubRise usage plans, see [Usage and Plans](/docs/usage-plan/).
+
+Occasionally, your bank may request 3D Secure authentication again. When this happens, an automated email will be sent to all **Admin** users, prompting them to process the payment manually. If you are frequently asked to make manual payments, consider contacting your bank to request that they accept card debits from HubRise.
 
 ## Payment History
 
