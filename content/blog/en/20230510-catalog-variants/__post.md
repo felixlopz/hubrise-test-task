@@ -33,7 +33,7 @@ For example, imagine that you want to differentiate prices between food platform
 
 ## API Changes
 
-When uploading a catalog to HubRise, you can now optionally include a `variants` array, at the same level as the `categories` array. This array contains one object per variant, with each object having a unique `ref` and a non-empty `name`:
+HubRise catalogs can now optionally include a `variants` array, at the same level as the `categories` array. This array contains one object per variant, with each object having a unique `ref` and a non-empty `name`:
 
 ```json
 {
@@ -49,7 +49,7 @@ When uploading a catalog to HubRise, you can now optionally include a `variants`
 }
 ```
 
-You can then refer to these variants in the `price_overrides` arrays and `restrictions` objects at the SKU, option, and deal level. For example:
+The defined variants can be used in the `price_overrides` arrays and `restrictions` objects at the SKU, option, and deal level. For example:
 
 ```json
 {
@@ -102,6 +102,12 @@ In this example:
 - "Expresso" is only available when ordered through the kiosk.
 
 The API changes have been reflected in our [API documentation](/developers/api/catalog-management) and [Postman collection](https://drive.google.com/drive/folders/1fn5u-4sY0-bnrxJY9RFPvpCu0bANGNBd?usp=sharing).
+
+---
+
+**IMPORTANT NOTE:** The `service_types` and `service_type_refs` fields in `restrictions` and `price_overrides` have been deprecated. They will continue to work for a little while, but we recommend migrating to `variant_refs` as soon as possible.
+
+---
 
 ## Updates to Catalog Manager
 
