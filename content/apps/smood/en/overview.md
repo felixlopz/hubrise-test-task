@@ -19,9 +19,11 @@ app_info:
 
 ## Description
 
-Smood is a food delivery platform operational in more than 25 cities in Switzerland. Smood offers a wide range of restaurants, and delivers orders exclusively by car.
+Smood provides home delivery services across 25 Swiss cities in Switzerland. Initially focused in meal delivery, expanded its offerings to include thousands of products across various categories, such as groceries, florists, wine shops, parapharmacies, beauty products, and more. This expansion has been made possible through partnerships with prominent local and national brands, including Migros, among others.
 
-By partnering with Smood, restaurants can expand their customer base and increase their revenue. Smood manages all marketing and delivery operations, enabling restaurants to focus on food preparation.
+Committed to an ongoing process of social responsibility, Smood guarantees that all delivery staff are company employees. For better handling, orders are exclusively delivered by car.
+
+By partnering with Smood, stores can expand their customer base and increase their revenue. Smood manages all marketing and delivery operations, enabling partners to focus on operations.
 
 Smood also offers a white-label delivery service called Dismatch, which is integrated with HubRise. For more information see our online documentation for [Dismatch](/apps/smood-dismatch). This service allows restaurants to externalise their deliveries.
 
