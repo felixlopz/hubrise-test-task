@@ -23,7 +23,7 @@ Smood is a food delivery platform operational in more than 25 cities in Switzerl
 
 By partnering with Smood, restaurants can expand their customer base and increase their revenue. Smood manages all marketing and delivery operations, enabling restaurants to focus on food preparation.
 
-Smood also offers a white-label delivery service called Dismatch, which is [integrated with HubRise](/apps/smood-dismatch). This service allows restaurants to externalise their deliveries.
+Smood also offers a white-label delivery service called Dismatch, which is integrated with HubRise. For more information see our online documentation for [Dismatch](/apps/smood-dismatch). This service allows restaurants to externalise their deliveries.
 
 ## Integration Features
 
@@ -40,7 +40,7 @@ Smood can be connected to HubRise from the Smood back office.
 
 Connecting Smood to HubRise allows your food ordering and delivery platform to communicate with the other applications that you use every day. For example, you can receive your Smood orders directly in your EPOS or Kitchen Display System also connected with HubRise, print your orders with a connected printer, manage your inventory, and send your HubRise menu to Smood.
 
-Via HubRise, synchronise your menu, your customer and order information with online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms, delivery management solutions or delivery services, eMarketing (SMS/emailing), business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
