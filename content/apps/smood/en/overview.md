@@ -19,13 +19,13 @@ app_info:
 
 ## Description
 
-Smood provides home delivery services across 25 Swiss cities in Switzerland. Initially focused in meal delivery, expanded its offerings to include thousands of products across various categories, such as groceries, florists, wine shops, parapharmacies, beauty products, and more. This expansion has been made possible through partnerships with prominent local and national brands, including Migros, among others.
+Smood provides home delivery services across 25 cities in Switzerland. While initially focused on meal delivery, Smood has expanded its offerings to include thousands of products across various categories such as groceries, florists, wine shops, parapharmacies, beauty products, and more. This expansion has been made possible through partnerships with prominent local and national brands, including Migros.
 
-Committed to an ongoing process of social responsibility, Smood guarantees that all delivery staff are company employees. For better handling, orders are exclusively delivered by car.
+Committed to an ongoing process of social responsibility, Smood ensures that all delivery staff are company employees, and for optimal handling, orders are exclusively delivered by car.
 
-By partnering with Smood, stores can expand their customer base and increase their revenue. Smood manages all marketing and delivery operations, enabling partners to focus on operations.
+By partnering with Smood, stores can tap into a broader customer base and enjoy increased revenue. Smood takes care of all marketing and delivery operations, allowing partners to concentrate on their core business functions.
 
-Smood also offers a white-label delivery service called Dismatch, which is integrated with HubRise. For more information see our online documentation for [Dismatch](/apps/smood-dismatch). This service allows restaurants to externalise their deliveries.
+In addition to its standard services, Smood offers a white-label delivery service called Dismatch, integrated with HubRise. For more details, please consult our online documentation for [Dismatch](/apps/smood-dismatch). This service enables stores to outsource deliveries without inclusion into the Smood ordering platform, providing partners with further flexibility and efficiency.
 
 ## Integration Features
 
