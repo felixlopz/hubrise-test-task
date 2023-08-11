@@ -22,9 +22,6 @@ content:
       - Marketing Solutions
       - Loyalty cards
       - And More
-    image:
-      normal: frontpage/app-lists.png
-      hover: frontpage/app-lists-hover.png
 
   api:
     title: Public and easy to use API

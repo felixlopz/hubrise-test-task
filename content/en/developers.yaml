@@ -1,10 +1,6 @@
----
-comment: THIS HAS BEEN MOVED TO A YAML FILE. REMOVE THIS FILE WHEN THE MIGRATION TO NEXTJS IS COMPLETE.
-layout: documentation-index
 meta:
   title: Developers documentation | HubRise
   description:
-path_override: /
 content:
   hero:
     title: Connect Your Application to HubRise
@@ -30,4 +26,3 @@ content:
       description: Conventions used by other developers to cover edge cases
       to: /developers/conventions
       icon: menu_book
----

@@ -1,10 +1,6 @@
----
-comment: THIS HAS BEEN MOVED TO A YAML FILE. REMOVE THIS FILE WHEN THE MIGRATION TO NEXTJS IS COMPLETE.
-layout: documentation-index
 meta:
   title: Contribuer à la documentation | HubRise
   description: Tout le monde peut contribuer à la documentation en ligne de HubRise. Découvrez comment mettre à jour ou compléter une documentation, ou corriger directement une erreur sur notre site.
-path_override: /
 content:
   hero:
     title: Contribuer à la documentation
@@ -35,4 +31,3 @@ content:
       description: Instructions pour créer des diagrammes (en anglais).
       to: /fr/contributing/guide-des-diagrammes
       icon: schema
----

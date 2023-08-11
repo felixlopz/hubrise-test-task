@@ -1,10 +1,6 @@
----
-comment: THIS HAS BEEN MOVED TO A YAML FILE. REMOVE THIS FILE WHEN THE MIGRATION TO NEXTJS IS COMPLETE.
-layout: documentation-index
 meta:
   title: Documentation développeurs | HubRise
   description:
-path_override: /
 content:
   hero:
     title: Connectez votre application à HubRise
@@ -30,4 +26,3 @@ content:
       description: Conventions utilisées par les autres développeurs pour les cas spéciaux (en anglais)
       to: /fr/developers/conventions
       icon: menu_book
----

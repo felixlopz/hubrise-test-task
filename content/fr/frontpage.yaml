@@ -22,9 +22,6 @@ content:
       - Solutions marketing
       - Cartes de fidélité
       - Et plus encore
-    image:
-      normal: frontpage/app-lists.png
-      hover: frontpage/app-lists-hover.png
 
   api:
     title: Une API publique et facile à utiliser
