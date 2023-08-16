@@ -57,6 +57,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 | Types de service    | Envoyer les commandes livrées par la plateforme [...] | `commandes à emporter`                        |
 | Remises             | Code ref remise                                       | (laisser vide)                                |
 | Frais               | Code ref frais de livraison                           | `DELIVERY`                                    |
+| Frais               | Code ref frais de service                             | `OTHER`                                       |
 | Paiements           | Code ref paiement en ligne                            | `JUSTEAT`                                     |
 | Paiements           | Code ref paiement en espèces                          | (laisser vide)                                |
 | Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"` |
