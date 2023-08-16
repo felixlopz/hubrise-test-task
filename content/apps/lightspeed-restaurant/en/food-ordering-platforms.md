@@ -84,6 +84,7 @@ Just-Eat.ch uses the Just Eat via TakeawayAPI. In the Just Eat Takeaway Bridge c
 | Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
 | Discounts      | Discount ref code                        | `EAT99`                                           |
 | Charges        | Delivery charge ref code                 | `EAT77`                                           |
+| Charges        | Service fee ref code                     | `EAT66`                                           |
 | Payments       | Online payment ref code                  | `EATPM`                                           |
 | Payments       | Cash payment ref code                    | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
