@@ -32,7 +32,7 @@ This section allows you to specify the discount ref code applied to your product
 
 If charges apply, a ref code might be required. Refer to your EPOS documentation on the HubRise website to verify.
 
-In this section, you can specify the ref code for delivery charges applied by the delivery platform.
+In this section, you can specify the ref code for the delivery charges and service fees applied by the delivery platform.
 
 ## Payments
 
