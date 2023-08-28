@@ -102,6 +102,3 @@
   toPath: /apps/just-eat-flyt/push-catalog
 - fromPath: /apps/just-eat-flyt/sending-orders
   toPath: /apps/just-eat-flyt/receive-orders
-
-- fromPath: /fr/tarifs
-  toPath: /fr/pricing
