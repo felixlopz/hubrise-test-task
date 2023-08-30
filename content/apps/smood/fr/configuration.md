@@ -26,9 +26,9 @@ Vous êtes également redirigé vers la page de configuration lorsque vous conne
 
 ### Types de service
 
-Les types de service tels que la livraison via Smood, la livraison par le restaurant ou la vente à emporter peuvent nécessiter la saisie du code ref correspondant. Reportez-vous à la documentation de votre logiciel de caisse sur le site internet de HubRise pour vérifier. Pour plus d'informations sur les types de service pris en charge par Smood, voir la rubrique [Types de service](/apps/smood/terminology#service-types).
+Les types de service tels que la livraison via Smood, la livraison par le restaurant ou la vente à emporter peuvent nécessiter la saisie du code ref correspondant. Reportez-vous à la documentation de votre logiciel de caisse sur le site internet de HubRise pour vérifier. Pour plus d'informations sur les types de service pris en charge par Smood, voir la rubrique [Types de service](/apps/smood/terminologie#types-de-service).
 
-Cette section permet également de différencier les commandes Smood en livraison ou à emporter. Les commandes via le restaurant sont toujours identifiées comme des livraisons.
+Cette section vous permet également de marquer les commandes Smood comme étant à livrer ou à emporter. Les commandes livrées par le restaurant sont toujours identifiées comme des commandes en livraisons.
 
 ### Remises
 

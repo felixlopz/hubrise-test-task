@@ -1,6 +1,6 @@
 ---
 title: Pourquoi mes promotions ne sont-elles pas importées ?
-path_override: deals-not-imported
+path_override: promotions-non-importees
 position: 1
 layout: documentation
 meta:
@@ -16,4 +16,4 @@ De plus, une promotion de HubRise ne sera pas importée dans Smood si elle inclu
 
 Pour résoudre ce problème, vous devez vous assurer qu'aucun des produits utilisés dans vos promotions ne comporte d'option obligatoire. En d'autres termes, vous ne devriez avoir aucune sélection minimale définie sur ces produits. Smood pourra ainsi importer correctement vos promotions.
 
-Pour plus d'informations, consultez les [références techniques](/apps/smood/pull-catalog/#deals).
+Pour plus d'informations, consultez les [références techniques](/apps/smood/recuperer-catalogue/#promotions).

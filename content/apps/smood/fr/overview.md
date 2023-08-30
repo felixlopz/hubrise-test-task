@@ -31,14 +31,14 @@ En se connectant à Smood, votre plateforme de commande et de livraison de repas
 
 - Envoyer les commandes à HubRise, y compris le statut de la commande.
 - Envoyer les informations clients à HubRise.
-- Récupérer un catalogue de HubRise.
+- Recevoir un catalogue de HubRise.
 - Synchroniser l'inventaire avec HubRise.
 
 Vous pouvez connecter Smood à HubRise depuis le back-office Smood.
 
 ## Pourquoi se connecter ?
 
-La connexion de Smood à HubRise permet à votre plateforme de commande et de livraison de repas de communiquer avec les autres applications que vous utilisez tous les jours. Par exemple, vous pouvez recevoir vos commandes Smood directement dans votre logiciel de caisse ou votre écran d'affichage cuisine, également connectés à HubRise, imprimer vos commandes avec une imprimante connectée, gérer votre inventaire et envoyer votre menu HubRise à Smood.
+La connexion de Smood à HubRise permet à votre plateforme de commande et de livraison de repas de communiquer avec les autres applications que vous utilisez tous les jours. Par exemple, vous pouvez recevoir vos commandes Smood directement dans votre logiciel de caisse ou votre écran cuisine, également connectés à HubRise, imprimer vos commandes avec une imprimante connectée, gérer votre inventaire et envoyer votre menu HubRise à Smood.
 
 Avec HubRise, synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs, les services de livraison, les solutions d'e-marketing (SMS/e-mailing) et de business intelligence, les systèmes de gestion de stock et de fidélisation client, et bien plus encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 

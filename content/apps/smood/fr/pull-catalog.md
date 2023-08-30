@@ -1,6 +1,6 @@
 ---
 title: Récupérer le catalogue
-path_override: pull-catalog
+path_override: recuperer-catalogue
 position: 6
 layout: documentation
 meta:
@@ -29,7 +29,7 @@ Une fois que votre catalogue a été alimenté dans HubRise, vous pouvez l'envoy
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Récupérer le catalogue HubRise**.
 1. Pour confirmer, cliquez sur **Oui**.
 
-Pour comprendre comment le catalogue HubRise est associé à Smood, consultez les [références techniques](#technical-reference) ci-dessous.
+Pour comprendre comment le catalogue HubRise est associé à Smood, consultez les [références techniques](#r-f-rences-techniques) ci-dessous.
 
 ### Recevoir le catalogue automatiquement
 

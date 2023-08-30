@@ -1,6 +1,6 @@
 ---
 title: Connexion à HubRise
-path_override: connect-hubrise
+path_override: connexion-hubrise
 position: 2
 layout: documentation
 meta:
@@ -29,7 +29,7 @@ Une fois l'intégration de HubRise activée, suivez ces étapes :
 1. Connectez-vous à votre [back-office Smood](https://manager.smood.ch/).
 1. Sélectionnez le restaurant à connecter dans le menu déroulant de la barre latérale gauche.
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Connecter à HubRise**.
-1. Dans la boîte de dialogue qui s'affiche, [configurez les paramètres de connexion](/apps/smood/configuration#configurer-vos-param-tres). Si vous hésitez sur la configuration, laissez les valeurs par défaut et passez à l'étape suivante. Vous pourrez toujours revenir à cette page ultérieurement.
+1. Dans la boîte de dialogue qui s'affiche, [configurez vos paramètres de connexion](/apps/smood/configuration#configurer-vos-param-tres). Si vous hésitez sur la configuration, laissez les valeurs par défaut et passez à l'étape suivante. Vous pourrez toujours revenir à cette page ultérieurement.
 1. Pour confirmer, cliquez sur **Sauvegarder**. Vous êtes alors redirigé vers le back-office HubRise.
 1. Sélectionnez le point de vente HubRise et le catalogue à connecter, puis cliquez sur **Suivant**.
 1. Vous êtes redirigé vers le back-office Smood. La connexion est établie.
@@ -44,4 +44,4 @@ Une fois l'intégration de HubRise activée, suivez ces étapes :
 
 Vous devez renseigner les codes ref de tous les produits ou options dans Smood. Votre logiciel de caisse pourra alors identifier correctement chaque article.
 
-Vous pouvez [renseigner manuellement les codes ref](/apps/smood/map-ref-codes) de vos produits dans Smood ou [importer votre catalogue HubRise](/apps/smood/pull-catalog) dans Smood.
+Vous pouvez [renseigner manuellement les codes ref](/apps/smood/associer-codes-ref) de vos produits dans Smood ou [importer votre catalogue HubRise](/apps/smood/recuperer-catalogue) dans Smood.

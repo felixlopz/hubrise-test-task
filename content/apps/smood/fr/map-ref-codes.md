@@ -1,6 +1,6 @@
 ---
 title: Associer les codes ref
-path_override: map-ref-codes
+path_override: associer-codes-ref
 position: 4
 layout: documentation
 meta:
@@ -10,7 +10,7 @@ meta:
 
 Pour traiter correctement les commandes, la plupart des logiciels de caisse exigent un code ref pour chaque produit. Vous devez donc vérifier que chaque produit dans Smood est associé au bon code ref.
 
-Cette page explique comment configurer manuellement les codes ref dans Smood. Certains logiciels de caisse offrent la possibilité d'exporter leur catalogue vers HubRise, ce qui permet de renseigner automatiquement les bons codes ref des produits Smood. Pour plus d'informations, consultez [Récupérer le catalogue](/apps/smood/pull-catalog).
+Cette page explique comment configurer manuellement les codes ref dans Smood. Certains logiciels de caisse offrent la possibilité d'exporter leur catalogue vers HubRise, ce qui permet de renseigner automatiquement les bons codes ref des produits Smood. Pour plus d'informations, consultez [Récupérer le catalogue](/apps/smood/recuperer-catalogue).
 
 ---
 
@@ -50,4 +50,4 @@ Répétez cette procédure pour toutes les options associées au produit.
 
 Dans Smood, vous pouvez préciser les codes ref utilisés pour les types de services, les remises, les frais de livraison et les paiements. Pour personnaliser vos codes ref, suivez les étapes de la page [Configuration](/apps/smood/configuration).
 
-Pour trouver les codes ref à utiliser, consultez la documentation de votre logiciel de caisse sur le site internet de HubRise. Par exemple, si vous utilisez Lightspeed, consultez la [documentation Lightspeed](/apps/lightspeed-restaurant/food-ordering-platforms#smood).
+Pour trouver les codes ref à utiliser, consultez la documentation de votre logiciel de caisse sur le site internet de HubRise. Par exemple, si vous utilisez Lightspeed, consultez la [documentation Lightspeed](/apps/lightspeed-restaurant), page Plateformes de livraison de repas.
