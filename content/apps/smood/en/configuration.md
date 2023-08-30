@@ -8,11 +8,11 @@ meta:
   description: Instructions on configuring Smood to work seamlessly with your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
+The Smood **Configuration** page allows you to configure how orders are sent to your EPOS, or any other solution connected to HubRise. It includes other settings as well.
+
+This page explains how to open the configuration page and assists you in setting the appropriate configurations.
+
 ## Open the Configuration Page
-
-The Configuration page allows you to configure how orders are sent to your EPOS, as well as a few other settings.
-
-![Smood configuration page](./images/003-configuration.png)
 
 To open the configuration page, follow these steps:
 
@@ -24,9 +24,11 @@ You will also be redirected to the configuration page when you connect Smood to 
 
 ## Configure Your Parameters
 
+![Smood configuration page](./images/003-configuration.png)
+
 ### Service Types
 
-Service types such as Smood delivery, Restaurant delivery, or Takeaway, might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify. For more information on the service types supported by Smood, see [Service Types](/apps/smood/terminology#service-types).
+Service types such as Smood delivery, Restaurant delivery, or Takeaway, might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify. For more information, see the **Terminology** paragraph, section [Smood Service Types](/apps/smood/terminology#smood-service-types).
 
 Additionally, from this section you can choose to mark Smood delivery orders as delivery orders or collection orders. Restaurant delivery orders are always marked as delivery orders.
 
@@ -55,4 +57,4 @@ The checkboxes in this section control the synchronisation workflow between Smoo
 
 ### Save Your Changes
 
-When you are done configuring your parameters, click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
+When you are done configuring your parameters, click **Save**.

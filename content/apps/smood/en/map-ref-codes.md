@@ -14,7 +14,7 @@ This page explains how to configure ref codes manually in Smood. Some EPOS solut
 
 ---
 
-**IMPORTANT NOTE:** You cannot manually edit the ref codes when automatic catalog syncing is enabled.
+**IMPORTANT NOTE:** You cannot manually edit the Smood menu or ref codes within when [automatic catalog syncing is enabled](https://www.hubrise.com/apps/smood/configuration/#synchronisation-settings).
 
 ---
 
@@ -28,7 +28,7 @@ To assign ref codes to your Smood products, follow these steps:
 1. Expand the category that contains the products that you want to edit, then click on the product name.
 1. In the **Edit a product** dialog that appears, enter the ref code in the **Reference** field.
    ![Product ref code in the Smood back office](./images/001-smood-product-ref-code.png)
-1. To confirm, click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**, then click **Confirm**.
+1. To confirm, **Save**, then click **Confirm**.
 
 You need to repeat this manual procedure for all your available products.
 
@@ -45,7 +45,7 @@ To assign ref codes to your Smood options, follow these steps:
 1. In the **Product options** dialog that appears, expand the option group that you want to edit.
 1. In the **List of choices** section, identify the option to which you want to add the ref code, then enter the value in the **Reference** field.
    ![Option ref code in the Smood back office](./images/002-smood-options-ref-code.png)
-1. To confirm, click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**, then click **Confirm**.
+1. To confirm, click **Save**, then click **Confirm**.
 
 You need to repeat this manual procedure for all of the options associated with the product.
 

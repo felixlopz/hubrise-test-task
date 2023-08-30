@@ -16,4 +16,4 @@ Additionally, a deal from HubRise won't be imported into Smood if the deal inclu
 
 To solve this issue, you need to ensure that none of the products used in your deals have mandatory options. Put simply, you shouldn't have any "min selections" set on these products. This change will allow Smood to correctly import your deals.
 
-For more information, see the [technical reference](/apps/smood/pull-catalog/#deals).
+For more information, see o [technical reference, when pulling the catalog, deals section](/apps/smood/pull-catalog/#deals).

@@ -38,7 +38,7 @@ Smood can automatically pull your HubRise catalog every time it is updated in Hu
 1. Log in to your [Smood back office](https://manager.smood.ch/).
 1. Select the restaurant.
 1. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
-1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the catalog** option, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
+1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the catalog** option, then click **Save**.
 
 ## Synchronise Inventory
 
@@ -53,7 +53,7 @@ Smood can automatically update the availability of your products when your inven
 1. Log in to your [Smood back office](https://manager.smood.ch/).
 1. Select the restaurant for which you want to edit products.
 1. Click the **Settings** tab, then under the **Integrations** section, click **Edit POS references**.
-1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the inventory** option, then click <InlineImage width="24" height="24">![Save icon](../images/save-icon.png)</InlineImage>&nbsp;**Save**.
+1. In the **POS Order References Settings** dialog that appears, select the **Enable automatic sync of the inventory** option, then click **Save**.
 
 ### Manual Inventory Update
 

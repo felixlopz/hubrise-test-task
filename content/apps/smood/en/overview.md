@@ -25,11 +25,11 @@ Committed to an ongoing process of social responsibility, Smood ensures that all
 
 By partnering with Smood, stores can tap into a broader customer base and enjoy increased revenue. Smood takes care of all marketing and delivery operations, allowing partners to concentrate on their core business functions.
 
-In addition to its standard services, Smood offers a white-label delivery service called Dismatch, integrated with HubRise. For more details, please consult our online documentation for [Dismatch](/apps/smood-dismatch). This service enables stores to outsource deliveries without inclusion into the Smood ordering platform, providing partners with further flexibility and efficiency.
+In addition to its standard services, Smood offers a white-label delivery service called Dismatch, also integrated with HubRise. This service enables stores to outsource deliveries without inclusion into the Smood ordering platform, providing partners with further flexibility and efficiency. For more information see [Dismatch](/apps/smood-dismatch).
 
 ## Integration Features
 
-Connecting Smood allows your food ordering and delivery platform to:
+Connecting Smood allows your ordering and delivery platform to:
 
 - Push orders to HubRise, including order status.
 - Push customer information to HubRise.
@@ -40,9 +40,9 @@ Smood can be connected to HubRise from the Smood back office.
 
 ## Why Connect?
 
-Connecting Smood to HubRise allows your food ordering and delivery platform to communicate with the other applications that you use every day. For example, you can receive your Smood orders directly in your EPOS or Kitchen Display System also connected with HubRise, print your orders with a connected printer, manage your inventory, and send your HubRise menu to Smood.
+Connecting Smood to HubRise allows your ordering and delivery platform to communicate with the other applications that you use every day. For example, you can receive your Smood orders directly in your EPOS or Kitchen Display System also connected with HubRise, print your orders with a connected printer, manage your inventory, and send your HubRise menu to Smood.
 
-Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms, delivery management solutions or delivery services, eMarketing (SMS/emailing), business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
+Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms, delivery management solutions or delivery services, eMarketing (SMS/emailing), business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To find out which apps you can connect, see our [Apps page](/apps).
 
 ## Prerequisites
 
