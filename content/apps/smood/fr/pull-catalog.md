@@ -16,7 +16,7 @@ Tout d'abord, vous devez alimenter votre catalogue HubRise. Ensuite, vous pouvez
 
 ### Alimenter le catalogue HubRise
 
-Certains logiciels de caisse permettent de pousser leur catalogue vers HubRise. Pour vérifier, référez-vous à la documentation de votre logiciel de caisse sur la [page Apps](https://www.hubrise.com/apps/) du site internet de HubRise. Si votre logiciel de caisse n'offre pas cette fonctionnalité, vous pouvez créer votre catalogue HubRise manuellement, en utilisant le HubRise [Catalog Manager](/apps/catalog-manager/).
+Certains logiciels de caisse permettent de pousser leur catalogue vers HubRise. Pour vérifier, référez-vous à la documentation de votre logiciel de caisse sur la [page Apps](/apps/) du site internet de HubRise. Si votre logiciel de caisse n'offre pas cette fonctionnalité, vous pouvez créer votre catalogue HubRise manuellement, en utilisant le HubRise [Catalog Manager](/apps/catalog-manager/).
 
 Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalogues/).
 

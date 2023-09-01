@@ -14,7 +14,7 @@ Cette page explique comment configurer manuellement les codes ref dans Smood. Ce
 
 ---
 
-**REMARQUE IMPORTANTE :** Vous ne pouvez pas manuellement modifier le menu Smood ou le code ref des produits lorsque [la synchronisation automatique du catalogue](https://www.hubrise.com/apps/smood/configuration/#param-tres-de-synchronisation) est activée.
+**REMARQUE IMPORTANTE :** Vous ne pouvez pas manuellement modifier le menu Smood ou le code ref des produits lorsque [la synchronisation automatique du catalogue](/apps/smood/configuration/#param-tres-de-synchronisation) est activée.
 
 ---
 
@@ -50,4 +50,4 @@ Répétez cette procédure pour toutes les options associées au produit.
 
 Dans Smood, vous pouvez préciser les codes ref utilisés pour les types de services, les remises, les frais de livraison et les paiements. Pour personnaliser vos codes ref, suivez les étapes indiquées sur la page [Configuration](/apps/smood/configuration).
 
-Pour trouver les codes ref à utiliser, reportez-vous à la documentation de votre logiciel de caisse sur la [page Apps](https://www.hubrise.com/fr/apps/) du site internet de HubRise. Par exemple, si vous utilisez Lightspeed, consultez la [documentation Lightspeed](/apps/lightspeed-restaurant), page Plateformes de livraison de repas, section Smood.
+Pour trouver les codes ref à utiliser, reportez-vous à la documentation de votre logiciel de caisse sur la [page Apps](/apps/) du site internet de HubRise. Par exemple, si vous utilisez Lightspeed, consultez la [documentation Lightspeed](/apps/lightspeed-restaurant), page Plateformes de livraison de repas, section Smood.

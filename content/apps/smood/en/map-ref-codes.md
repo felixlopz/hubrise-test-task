@@ -14,7 +14,7 @@ This page explains how to configure ref codes manually in Smood. Some EPOS solut
 
 ---
 
-**IMPORTANT NOTE:** You cannot manually edit the Smood menu or ref codes when [automatic catalog syncing is enabled](https://www.hubrise.com/apps/smood/configuration/#synchronisation-settings).
+**IMPORTANT NOTE:** You cannot manually edit the Smood menu or ref codes when [automatic catalog syncing is enabled](/apps/smood/configuration/#synchronisation-settings).
 
 ---
 
@@ -53,4 +53,4 @@ You need to repeat this manual procedure for all of the options associated with 
 
 Smood lets you specify the ref codes that are used for service types, discounts, delivery charges, and payments. To customise your ref codes, follow the steps indicated in the [Configuration](/apps/smood/configuration) page.
 
-To find the ref codes to use, refer to your EPOS documentation on the HubRise website [Apps page](https://www.hubrise.com/apps/). For example, if you use Lightspeed, check the [Food Ordering Platforms, Smood section](/apps/lightspeed-restaurant/food-ordering-platforms#smood).
+To find the ref codes to use, refer to your EPOS documentation on the HubRise website [Apps page](/apps/). For example, if you use Lightspeed, check the [Food Ordering Platforms, Smood section](/apps/lightspeed-restaurant/food-ordering-platforms#smood).

@@ -16,7 +16,7 @@ As a preliminary step, you need to populate your HubRise catalog. Then you can s
 
 ### Populate a HubRise Catalog
 
-Some EPOS solutions offer the ability to push their catalog into HubRise. Refer to your EPOS documentation on the HubRise website [Apps page](https://www.hubrise.com/apps/) to verify. If your EPOS does not offer this feature, you can populate your HubRise catalog manually, using the HubRise [Catalog Manager](/apps/catalog-manager/).
+Some EPOS solutions offer the ability to push their catalog into HubRise. Refer to your EPOS documentation on the HubRise website [Apps page](/apps/) to verify. If your EPOS does not offer this feature, you can populate your HubRise catalog manually, using the HubRise [Catalog Manager](/apps/catalog-manager/).
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
