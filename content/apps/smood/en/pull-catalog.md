@@ -12,11 +12,11 @@ This page explains how you can pull your HubRise catalog into Smood, what inform
 
 ## Pull a Catalog
 
-As a preliminary step, you need to populate your HubRise catalog. Then you can pull your catalog into Smood automatically when sit is updated on HubRise, or pull it manually when needed.
+As a preliminary step, you need to populate your HubRise catalog. Then you can set up Smood to pull your catalog into Smood automatically when it is updated on HubRise, or pull it manually when needed.
 
 ### Populate a HubRise Catalog
 
-Some EPOS solutions offer the ability to export the catalog to HubRise. If your EPOS does not offer this feature, you can populate your HubRise catalog manually. Refer to your EPOS documentation on the HubRise website to verify.
+Some EPOS solutions offer the ability to push their catalog into HubRise. Refer to your EPOS documentation on the HubRise website [Apps page](https://www.hubrise.com/apps/) to verify. If your EPOS does not offer this feature, you can populate your HubRise catalog manually, using the HubRise [Catalog Manager](https://www.hubrise.com/apps/catalog-manager/) or [another app](https://www.hubrise.com/apps/catalog-manager/catalogs/#populate-a-catalog-from-another-app).
 
 For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
 
@@ -29,7 +29,7 @@ Once your catalog is populated on HubRise, you can manually pull it into your Sm
 1. Click the **Settings** tab, then in the **Integrations** section, click **Pull HubRise catalog**.
 1. To confirm, click **Yes**.
 
-To understand how the HubRise catalog is mapped to Smood, see the [technical reference](#technical-reference) below.
+To understand how the HubRise catalog is mapped to Smood, see the section [technical reference](#technical-reference) below.
 
 ### Automatic Catalog Pull
 

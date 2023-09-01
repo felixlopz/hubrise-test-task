@@ -28,16 +28,16 @@ You will also be redirected to the configuration page when you connect Smood to 
 
 ### Service Types
 
-Service types such as Smood delivery, Restaurant delivery, or Takeaway, might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website to verify. For more information, see the **Terminology** paragraph, section [Smood Service Types](/apps/smood/terminology#smood-service-types).
+Service types such as Smood **Platform delivery**, **Restaurant delivery**, or **Takeaway**, might require the corresponding ref code entry. Refer to your EPOS documentation on the HubRise website [Apps page](https://www.hubrise.com/apps/) to verify. For more information, see the **Terminology** paragraph, section [Smood Service Types](/apps/smood/terminology#smood-service-types).
 
-Additionally, from this section you can choose to mark Smood delivery orders as delivery orders or collection orders. Restaurant delivery orders are always marked as delivery orders.
+Additionally, from this section you can choose to mark Smood delivery orders as delivery orders or collection orders for other connected apps to process them as needed. Restaurant delivery orders are always marked as delivery orders.
 
 ### Discounts
 
 In this section, you can configure the ref codes to use for discounts and deals sent to HubRise:
 
 - **Discount**: for discounts applied to the whole order, for example a 10% discount.
-- **Promotion**: for discounts applied to a set of items, such as a menu.
+- **Promotion**: for discounts applied to a set of items within the menu, such as a three-course meal (starter, main course, and dessert).
 
 ### Charges
 
@@ -53,7 +53,7 @@ The checkboxes in this section control the synchronisation workflow between Smoo
 
 - **Enable automatic sync of the catalog**: When checked, the Smood menu is automatically updated when the HubRise catalog changes.
 - **Enable automatic sync of the inventory**: When checked, items are automatically removed from the Smood menu when they are out of stock in the HubRise inventory.
-- **Enable automatic sync of status from Smood to HubRise**: When checked, Smood updates the status of orders in HubRise.
+- **Enable automatic sync of status from Smood to HubRise**: When as order is cancelled on Smood, the status update is always sent to HubRise. When this option is checked other Smood statuses are also sent. 
 
 ### Save Your Changes
 

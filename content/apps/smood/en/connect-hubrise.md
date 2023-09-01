@@ -12,7 +12,7 @@ Connecting Smood to HubRise can be done with a few steps.
 
 ---
 
-**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Sign-up Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -36,7 +36,7 @@ Once the HubRise integration is enabled, follow these steps:
 
 ---
 
-**IMPORTANT NOTE:** Smood does not support multiple restaurants connected to the same HubRise location. If you attempt to connect a second restaurant to a location that already has one restaurant connected, the existing connection will be lost.
+**IMPORTANT NOTE:** Smood does not support multiple restaurants connected to the same HubRise location. If you attempt to connect a second restaurant to a location, the existing connection will be lost.
 
 ---
 
