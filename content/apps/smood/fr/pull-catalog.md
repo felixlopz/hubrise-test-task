@@ -12,11 +12,11 @@ Cette page explique comment récupérer votre catalogue HubRise dans Smood, quel
 
 ## Récupérer le catalogue
 
-Tout d'abord, vous devez alimenter votre catalogue HubRise. Ensuite, vous pouvez recevoir automatiquement votre catalogue dans Smood une fois qu'il est à jour dans HubRise ou le récupérer manuellement lorsque vous en avez besoin.
+Tout d'abord, vous devez alimenter votre catalogue HubRise. Ensuite, vous pouvez configurer Smood pour recevoir automatiquement votre catalogue dans Smood lorsque celui-ci est mis jour dans HubRise ou le récupérer manuellement lorsque vous en avez besoin.
 
 ### Alimenter le catalogue HubRise
 
-Certains logiciels de caisse permettent d'exporter le catalogue vers HubRise. Si votre logiciel ne propose pas cette fonctionnalité, vous pouvez alimenter manuellement votre catalogue HubRise. Pour vérifier, reportez-vous à la documentation de votre logiciel de caisse sur le site internet de HubRise.
+Certains logiciels de caisse permettent de pousser leur catalogue vers HubRise. Pour vérifier, référez-vous à la documentation de votre logiciel de caisse sur la [page Apps](https://www.hubrise.com/apps/) du site internet de HubRise. Si votre logiciel de caisse n'offre pas cette fonctionnalité, vous pouvez créer votre catalogue HubRise manuellement, en utilisant le HubRise [Catalog Manager](/apps/catalog-manager/).
 
 Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalogues/).
 
@@ -29,7 +29,7 @@ Une fois que votre catalogue a été alimenté dans HubRise, vous pouvez l'envoy
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Récupérer le catalogue HubRise**.
 1. Pour confirmer, cliquez sur **Oui**.
 
-Pour comprendre comment le catalogue HubRise est associé à Smood, consultez les [références techniques](#r-f-rences-techniques) ci-dessous.
+Pour comprendre comment le catalogue HubRise est associé à Smood, consultez la rubrique [références techniques](#r-f-rences-techniques) ci-dessous.
 
 ### Recevoir le catalogue automatiquement
 
@@ -38,7 +38,7 @@ Smood peut récupérer automatiquement votre catalogue HubRise à chaque fois qu
 1. Connectez-vous à votre [back-office Smood](https://manager.smood.ch/).
 1. Sélectionnez le restaurant.
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Éditer références POS**.
-1. Dans la boîte de dialogue **Réglages des références de commandes POS**, sélectionnez l'option **Enable automatic sync of the catalog** (Activer la synchronisation automatique du catalogue), puis cliquez sur <InlineImage width="24" height="24">!\[icône Sauvegarder\](../images/save-icon.png)</InlineImage>&nbsp;**Sauvegarder**.
+1. Dans la boîte de dialogue **Réglages des références de commandes POS**, sélectionnez l'option **Enable automatic sync of the catalog** (Activer la synchronisation automatique du catalogue), puis cliquez sur **Sauvegarder**.
 
 ## Synchroniser l'inventaire
 
@@ -53,7 +53,7 @@ Smood peut mettre à jour automatiquement la disponibilité de vos produits lors
 1. Connectez-vous à votre [back-office Smood](https://manager.smood.ch/).
 1. Sélectionnez le restaurant pour lequel vous souhaitez modifier les produits.
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Éditer références POS**.
-1. Dans la boîte de dialogue **Réglages des références de commandes POS**, sélectionnez l'option **Enable automatic sync of the inventory** (Activer la synchronisation automatique de l'inventaire), puis cliquez sur <InlineImage width="24" height="24">!\[icône Sauvegarder\](../images/save-icon.png)</InlineImage>&nbsp;**Sauvegarder**.
+1. Dans la boîte de dialogue **Réglages des références de commandes POS**, sélectionnez l'option **Enable automatic sync of the catalog** (Activer la synchronisation automatique du catalogue), puis cliquez sur **Sauvegarder**.
 
 ### Mise à jour manuelle de l'inventaire
 

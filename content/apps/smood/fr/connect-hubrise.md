@@ -20,7 +20,7 @@ La connexion de Smood à HubRise s'effectue en quelques étapes seulement.
 
 Dans un premier temps, l'intégration de HubRise doit être activée dans votre compte Smood.
 
-Demandez à votre gestionnaire de compte Smood d'activer l'intégration de HubRise. Si vous faites cette démarche par e-mail, ajoutez support@hubrise.com en copie.
+Demandez à votre gestionnaire de compte Smood d'activer l'intégration de HubRise. Nous recommandons de faire votre demande d'activation par e-mail. Inclure support@hubrise.com en copie de votre e-mail pour un suivi par l'équipe de support HubRise.
 
 ## 2. Connecter Smood
 
@@ -36,7 +36,7 @@ Une fois l'intégration de HubRise activée, suivez ces étapes :
 
 ---
 
-**REMARQUE IMPORTANTE** : Smood ne prend pas en charge plusieurs restaurants connectés au même point de vente HubRise. Si vous connectez un point de vente qui est déjà connecté à un autre restaurant, la connexion est perdue pour ce restaurant.
+**REMARQUE IMPORTANTE** : Smood ne prend pas en charge plusieurs restaurants connectés au même point de vente HubRise. Si vous essayez de connecter un deuxième restaurant à un même point de vente, la connexion existante sera perdue.
 
 ---
 
@@ -44,4 +44,4 @@ Une fois l'intégration de HubRise activée, suivez ces étapes :
 
 Vous devez renseigner les codes ref de tous les produits ou options dans Smood. Votre logiciel de caisse pourra alors identifier correctement chaque article.
 
-Vous pouvez [renseigner manuellement les codes ref](/apps/smood/associer-codes-ref) de vos produits dans Smood ou [importer votre catalogue HubRise](/apps/smood/recuperer-catalogue) dans Smood.
+Cette tâche peut être accomplie de deux manières différentes. Vous pouvez [renseigner manuellement les codes ref](/apps/smood/associer-codes-ref) de vos produits dans Smood ou [récupérer votre catalogue HubRise](/apps/smood/recuperer-catalogue) dans Smood.

@@ -14,7 +14,7 @@ Cette page explique comment configurer manuellement les codes ref dans Smood. Ce
 
 ---
 
-**REMARQUE IMPORTANTE** : Vous ne pouvez pas modifier manuellement les codes ref lorsque la synchronisation automatique du catalogue est activée.
+**REMARQUE IMPORTANTE :** Vous ne pouvez pas manuellement modifier le menu Smood ou le code ref des produits lorsque [la synchronisation automatique du catalogue](https://www.hubrise.com/apps/smood/configuration/#param-tres-de-synchronisation) est activée.
 
 ---
 
@@ -27,7 +27,7 @@ Pour attribuer des codes ref à vos produits Smood, suivez ces étapes :
 1. Cliquez sur l'onglet **Menu**, puis sélectionnez le menu que vous souhaitez modifier.
 1. Développez la catégorie qui contient les produits à modifier, puis cliquez sur le nom d'un produit.
 1. Dans la boîte de dialogue **Editer un produit**, saisissez le code ref dans le champ **Référence**. ![Code ref produit dans le back-office Smood](./images/001-smood-product-ref-code.png)
-1. Pour confirmer votre choix, cliquez sur <InlineImage width="24" height="24">!\[icône Sauvegarder\](../images/save-icon.png)</InlineImage>&nbsp;**Sauvegarder**, puis sur **Confirmer**.
+1. Pour confirmer, **Sauvegarder**, puis cliquez sur **Confirmer**.
 
 Répétez cette procédure pour chacun de vos produits.
 
@@ -42,12 +42,12 @@ Pour attribuer des codes ref à vos options Smood, suivez ces étapes :
 1. Dans la boîte de dialogue **Editer un produit**, cliquez sur **Gérer les options de commande**. ![Code ref produit dans le back-office Smood](./images/001-smood-product-ref-code.png)
 1. Dans la boîte de dialogue **Options de produit**, développez le groupe d'options à modifier.
 1. Dans la section **Liste des choix**, identifiez l'option à laquelle vous voulez ajouter le code ref, puis saisissez la valeur dans le champ **Référence**. ![Code ref option dans le back-office Smood](./images/002-smood-options-ref-code.png)
-1. Pour confirmer votre choix, cliquez sur <InlineImage width="24" height="24">!\[icône Sauvegarder\](../images/save-icon.png)</InlineImage>&nbsp;**Sauvegarder**, puis sur **Confirmer**.
+1. Pour confirmer, cliquez sur **Sauvegarder**, puis sur **Confirmer**.
 
 Répétez cette procédure pour toutes les options associées au produit.
 
 ## Types de services, remises, frais et paiements
 
-Dans Smood, vous pouvez préciser les codes ref utilisés pour les types de services, les remises, les frais de livraison et les paiements. Pour personnaliser vos codes ref, suivez les étapes de la page [Configuration](/apps/smood/configuration).
+Dans Smood, vous pouvez préciser les codes ref utilisés pour les types de services, les remises, les frais de livraison et les paiements. Pour personnaliser vos codes ref, suivez les étapes indiquées sur la page [Configuration](/apps/smood/configuration).
 
-Pour trouver les codes ref à utiliser, consultez la documentation de votre logiciel de caisse sur le site internet de HubRise. Par exemple, si vous utilisez Lightspeed, consultez la [documentation Lightspeed](/apps/lightspeed-restaurant), page Plateformes de livraison de repas.
+Pour trouver les codes ref à utiliser, reportez-vous à la documentation de votre logiciel de caisse sur la [page Apps](https://www.hubrise.com/fr/apps/) du site internet de HubRise. Par exemple, si vous utilisez Lightspeed, consultez la [documentation Lightspeed](/apps/lightspeed-restaurant), page Plateformes de livraison de repas, section Smood.

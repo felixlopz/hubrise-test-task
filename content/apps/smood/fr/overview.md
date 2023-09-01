@@ -19,15 +19,17 @@ app_info:
 
 ## Description
 
-Smood est une plateforme de livraison de repas qui opère dans plus de 25 villes en Suisse. L'entreprise propose un large éventail de restaurants et livre les commandes exclusivement en voiture.
+Smood offre des services de livraison à domicile dans 25 villes en Suisse. Bien que Smood se soit initialement concentré sur la livraison de repas, il a élargi son offre pour inclure des milliers de produits dans différentes catégories telles que les épiceries, les fleuristes, les caves à vin, les parapharmacies, les produits de beauté, et bien plus encore. Cette expansion a été rendue possible grâce à des partenariats avec des marques locales et nationales de premier plan, notamment Migros.
 
-En s’associant à Smood, les restaurants peuvent accroître leur clientèle et augmenter leurs revenus. Ils peuvent se concentrer sur la préparation des repas puisque la plateforme gère toutes les opérations de marketing et de livraison.
+Engagé dans un processus continu de responsabilité sociale, Smood veille à ce que tout le personnel de livraison soit employé par l'entreprise, et pour une manipulation optimale, les commandes sont exclusivement livrées en voiture.
 
-Smood propose également un service de livraison en marque blanche appelé Dismatch qui est [intégré à HubRise](/apps/smood-dismatch). Il permet aux restaurants d'externaliser leurs livraisons.
+En s’associant à Smood, les enseignes peuvent toucher une clientèle plus large et profiter d’une augmentation de leurs revenus. Smood s'occupe de toutes les opérations de marketing et de livraison, permettant aux partenaires de se concentrer sur leurs activités principales.
+
+En plus de ses services standards, Smood propose aussi un service de livraison en marque blanche nommé Dismatch, qui est également intégré à HubRise. Ce service permet aux enseignes d'externaliser les livraisons sans être incluses dans la plateforme de commande Smood, offrant ainsi à leurs partenaires une plus grande flexibilité et efficacité. Pour plus d'informations, voir la documentation [Dismatch](/apps/smood-dismatch).
 
 ## Fonctionnalités de l'intégration
 
-En se connectant à Smood, votre plateforme de commande et de livraison de repas peut :
+Connecter Smood permet à votre plateforme de commande et de livraison de :
 
 - Envoyer les commandes à HubRise, y compris le statut de la commande.
 - Envoyer les informations clients à HubRise.
@@ -40,7 +42,7 @@ Vous pouvez connecter Smood à HubRise depuis le back-office Smood.
 
 La connexion de Smood à HubRise permet à votre plateforme de commande et de livraison de repas de communiquer avec les autres applications que vous utilisez tous les jours. Par exemple, vous pouvez recevoir vos commandes Smood directement dans votre logiciel de caisse ou votre écran cuisine, également connectés à HubRise, imprimer vos commandes avec une imprimante connectée, gérer votre inventaire et envoyer votre menu HubRise à Smood.
 
-Avec HubRise, synchronisez votre menu, vos informations clients et vos commandes avec votre solution de commande en ligne, les plateformes de livraison de repas (dont Deliveroo, Uber Eats et Just Eat), les solutions de gestion de livreurs, les services de livraison, les solutions d'e-marketing (SMS/e-mailing) et de business intelligence, les systèmes de gestion de stock et de fidélisation client, et bien plus encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
+Grâce à HubRise, vous pouvez synchroniser votre menu, vos informations clients et vos commandes avec votre logiciel de caisse, votre solution de commande en ligne, les plateformes de livraison de repas, les solutions de gestion de livreurs ou de services de livraison, les solutions eMarketing (SMS / eMailing), business intelligence, systèmes de gestion de stock et de fidélisation client, et bien d'autres encore. Le nombre d'applications compatibles augmente chaque mois. Pour voir les applications que vous pouvez connecter, consultez notre [page Apps](/apps).
 
 ## Prérequis
 
