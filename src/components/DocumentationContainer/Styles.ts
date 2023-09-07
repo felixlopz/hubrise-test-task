@@ -194,12 +194,4 @@ export const StyledContainer = styled.div`
       border: none;
     }
   }
-
-  // gatsby-remark-images creates a wrapper one pixel too short (in the Y-axis), which make images blurry.
-  // This property ensures the image ratio is preserved.
-  .gatsby-resp-image-wrapper {
-    .gatsby-resp-image-image {
-      object-fit: cover;
-    }
-  }
 `
