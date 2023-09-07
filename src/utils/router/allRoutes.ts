@@ -146,7 +146,7 @@ const docRoutes = async (contentDirName: ContentDirName, name: RouteNameDynamic)
 }
 
 const buildRoutes = async (): Promise<Routes> => {
-  console.log("########## Building routes")
+  console.log("Building routes...")
   return [
     ...(await staticRoutes()),
     ...(await appRoutes()),

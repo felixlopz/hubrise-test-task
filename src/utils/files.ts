@@ -3,7 +3,7 @@ import { join } from "path"
 
 import * as yaml from "yaml"
 
-export const contentDirectory = join(process.cwd(), "./content")
+export const contentDirectory = join(process.cwd(), "content")
 
 // Relative path to content directory, e.g. "/apps/kezia"
 export type ContentDirName = `/${string}`

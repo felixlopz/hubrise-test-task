@@ -3,7 +3,7 @@ const { join } = require("path")
 
 const chokidar = require("chokidar")
 
-const contentDir = join("./content")
+const contentDir = "./content"
 const tempFile = join(__dirname, "content-hot-reload.json")
 
 const watcher = chokidar.watch(contentDir)
