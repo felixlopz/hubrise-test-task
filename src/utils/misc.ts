@@ -35,15 +35,3 @@ export function createHeaderAnchor(header: string): string {
 
   return header.match(regex) ? kebabify(header.replace(regex, ``)) : kebabify(header)
 }
-
-export function failIfEnvNotSet(): void {
-  const check = (key: string): void => {
-    if (process.env[key] === undefined) {
-      console.log(`Missing environment variable: ${key}. You may need to create a .env file.`)
-    }
-  }
-  check("NODE_ENV")
-  check("RECAPTCHA_SITE_KEY")
-  check("CONTACT_MESSAGE_URL")
-  check("WAIT_ON_TIMEOUT")
-}

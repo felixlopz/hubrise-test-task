@@ -6,8 +6,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     name: Run cypress
-    env:
-      NODE_ENV: development
 
     # To upgrade to the latest version, see https://hub.docker.com/r/cypress/browsers/tags
     container: cypress/browsers:node-18.16.0-chrome-113.0.5672.92-1-ff-113.0-edge-113.0.1774.35-1
@@ -24,6 +22,9 @@ jobs:
 
       - name: Install JS dependencies
         run: yarn install
+
+      - name: Use the development environment variables
+        run: cp .env.development .env
 
       - name: Build the website
         run: yarn build
