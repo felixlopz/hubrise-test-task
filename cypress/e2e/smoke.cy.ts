@@ -1,5 +1,12 @@
 /// <reference types="cypress" />
 
+// DEBUGGING
+beforeEach(() => {
+  cy.on("window:console", (msg) => {
+    console.log(msg)
+  })
+})
+
 describe("doesn't crash and burn", () => {
   const pages = [
     "/",
@@ -29,8 +36,8 @@ it("opens the 'Contact us' modal and closes it", () => {
 
   cy.visit("/")
   cy.contains("Integration for retail")
-  cy.contains("li", "Developers").click()
-  cy.contains("Contact us").click()
+  cy.contains("li", "Developers").should("be.visible").click()
+  cy.contains("Contact us").should("be.visible").click()
   modal().should("be.visible")
 
   modal().find("[data-testid='icon:close']").click()
