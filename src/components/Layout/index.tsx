@@ -24,7 +24,7 @@ const Layout = ({ clientConfiguration, language, header, footer, children }: Lay
   return (
     <LayoutContextProvider clientConfiguration={clientConfiguration} language={language}>
       <ToastProvider>
-        {process.env.NODE_ENV === "development" && <ContentHotReload />}
+        {clientConfiguration.NODE_ENV === "development" && <ContentHotReload />}
 
         <Script src={`https://www.google.com/recaptcha/api.js?render=${clientConfiguration.RECAPTCHA_SITE_KEY}`} />
         <CommonClientStyles />
@@ -33,7 +33,7 @@ const Layout = ({ clientConfiguration, language, header, footer, children }: Lay
           /* In dev mode, an annoying "Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element"
            warning is emitted on every page change, because the first element of the page (the header below) is sticky.
            This warning was introduced by https://github.com/vercel/next.js/pull/53873 */
-          process.env.NODE_ENV === "development" && <div />
+          clientConfiguration.NODE_ENV === "development" && <div />
         }
 
         {header}
