@@ -31,3 +31,12 @@ jobs:
 
       - name: Run Cypress test suite
         run: CYPRESS_DEFAULT_COMMAND_TIMEOUT=10000 yarn cypress:run
+
+      - name: On failure, upload Cypress screenshots and videos
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-failures
+          path: |
+            cypress/screenshots/
+            cypress/videos/
