@@ -4,30 +4,31 @@
 FROM node:18.16.0-bookworm AS build-stage
 
 # Working directory
-WORKDIR /website
+WORKDIR /app
 
 # Install NodeJS packages
 COPY package.json yarn.lock ./
-RUN yarn install
+RUN yarn install --frozen-lockfile
 
 # Add project files
 COPY . .
 
-# Clean build artefacts from project files
-RUN ./node_modules/.bin/gatsby clean
+# Clean build artefacts
+RUN rm -rf .next
 
-ENV SENTRY_DSN https://96b4d1defd7648308c6e30f8a3470cfd@sentry.io/1776244
-ENV NODE_ENV production
-ENV RECAPTCHA_SITE_KEY 6LfjbNYUAAAAAPx_tCv_YyhueK2JIjf58b2HGU8d
-ENV CONTACT_MESSAGE_URL https://manager.hubrise.com/api/contact_message
+# Set Node environment variable to production
+ENV NODE_ENV=production
 
-# Build project
-RUN ./node_modules/.bin/gatsby build
+# Validate that .env.production exists
+RUN test -f .env.production || (echo '.env.production file missing!' && exit 1)
+
+# Source environment variables and build
+RUN export $(egrep -v '^#' .env.production | xargs) && yarn build
 
 # ****************************
-# **      Deploy stage      **
+# **    Production stage    **
 # ****************************
-FROM nginx:1.19.1
+FROM node:18.16.0-bookworm
 
 # Base packages
 RUN apt-get update -qq && apt-get install -y vim less
@@ -36,14 +37,18 @@ RUN apt-get update -qq && apt-get install -y vim less
 RUN echo "alias ll='ls -lah --color'" >> /root/.bashrc
 
 # Working directory
-WORKDIR /usr/share/nginx/html
+WORKDIR /app
 
-# Copy project files
-COPY --from=build-stage /website/public .
+# Copy package.json and yarn.lock
+COPY package.json yarn.lock ./
 
-# Copy nginx configuration
-COPY config/nginx/nginx.conf /etc/nginx/nginx.conf
+# Install only production dependencies
+RUN yarn install --frozen-lockfile --production
 
-# Container startup
+# Copy built files from builder stage
+COPY --from=build-stage /app/.next ./.next
+COPY --from=build-stage /app/public ./public
+
+# Start the application
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["yarn", "start", "-p", "80"]

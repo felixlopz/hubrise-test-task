@@ -2,17 +2,11 @@
 
 ## Initial Setup
 
-1. **Copy Environment File**:  
-   Run `cp .env.example .env` in your terminal.
+To install dependencies, execute `yarn install`. Make sure Node.js and Yarn are already installed on your system.
 
-2. **Install Dependencies**:  
-   Execute `yarn install`.  
-   *Note: Make sure Node.js and Yarn are installed on your system.*
+### Running the Server
 
-## Running the Server
-
-- **Development Mode**:  
-  Run `yarn dev`. The server will start at `http://localhost:3000`.
+For development mode, run `yarn dev`. The server will start at `http://localhost:3000`.
 
 ## Run the Test Suites
 
