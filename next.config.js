@@ -27,7 +27,7 @@ const nextConfig = {
     styledComponents: {}, // The presence of this empty object makes SC use human-readable class names in dev mode.
   },
   redirects: async () => {
-    const yamlFile = join(process.cwd(), "../website/content/redirects.yaml")
+    const yamlFile = join(process.cwd(), "content", "redirects.yaml")
     const data = await fs.readFile(yamlFile, "utf8")
     const entries = yaml.parse(data)
     return entries.map(({ fromPath, toPath }) => ({

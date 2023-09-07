@@ -13,9 +13,6 @@ RUN yarn install --frozen-lockfile
 # Add project files
 COPY . .
 
-# Clean build artefacts
-RUN rm -rf .next
-
 # Set Node environment variable to production
 ENV NODE_ENV=production
 
@@ -48,6 +45,8 @@ RUN yarn install --frozen-lockfile --production
 # Copy built files from builder stage
 COPY --from=build-stage /app/.next ./.next
 COPY --from=build-stage /app/public ./public
+# Needed for images
+COPY --from=build-stage /app/content ./content
 
 # Start the application
 EXPOSE 80
