@@ -1,4 +1,4 @@
-import { css, FlattenSimpleInterpolation } from "styled-components"
+import { css, RuleSet } from "styled-components"
 
 export const sizes = {
   maxWidth: "75rem",
@@ -84,8 +84,10 @@ export const mixin = {
     font-weight: 500;
     border-radius: ${sizes.borderRadius};
   `,
-  buttonOver: (color: string, backgroundColor: string): FlattenSimpleInterpolation => css`
-    transition: color 0.2s ease, background-color 0.2s ease;
+  buttonOver: (color: string, backgroundColor: string): RuleSet => css`
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease;
 
     &:hover {
       color: ${color};
@@ -106,24 +108,23 @@ export const mixin = {
     width: ${sizes.maxWidth};
     margin: 0 auto;
   `,
-  dotSeparatedList: (gap: string, color = colors.textLighter): FlattenSimpleInterpolation => css`
+  dotSeparatedList: (gap: string, color = colors.textLighter): RuleSet => css`
     display: flex;
     align-items: center;
-  
+
     &:not(:last-child) {
       margin-right: ${gap};
-      
-      &:after {
-          content: "●";
-          margin-left: ${gap};
-          font-size: ${fontSizes._12};
-          color: ${color};
-        }
+
+      &::after {
+        content: "●";
+        margin-left: ${gap};
+        font-size: ${fontSizes._12};
+        color: ${color};
       }
     }
   `,
-  expandBefore: ({ width, color }: { width: string; color: string }): FlattenSimpleInterpolation => css`
-    :before {
+  expandBefore: ({ width, color }: { width: string; color: string }): RuleSet => css`
+    &::before {
       content: "";
       background-color: ${color};
       position: absolute;
@@ -133,8 +134,8 @@ export const mixin = {
       top: 0;
     }
   `,
-  expandAfter: ({ width, color }: { width: string; color: string }): FlattenSimpleInterpolation => css`
-    :after {
+  expandAfter: ({ width, color }: { width: string; color: string }): RuleSet => css`
+    &::after {
       content: "";
       background-color: ${color};
       position: absolute;
@@ -144,9 +145,9 @@ export const mixin = {
       top: 0;
     }
   `,
-  linkOver: (color: string): FlattenSimpleInterpolation => css`
+  linkOver: (color: string): RuleSet => css`
     transition: color 0.2s ease;
-    :hover {
+    &:hover {
       color: ${color};
     }
   `,
