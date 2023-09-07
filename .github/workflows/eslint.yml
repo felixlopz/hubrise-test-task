@@ -6,8 +6,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     name: Run eslint
-    env:
-      NODE_ENV: development
 
     steps:
       - name: Clone repository
@@ -21,6 +19,9 @@ jobs:
 
       - name: Install JS dependencies
         run: yarn install
+
+      - name: Use the development environment
+        run: cp .env.development .env
 
       - name: Run linter
         run: yarn eslint

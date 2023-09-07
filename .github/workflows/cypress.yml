@@ -23,11 +23,11 @@ jobs:
       - name: Install JS dependencies
         run: yarn install
 
-      - name: Use the development environment variables
+      - name: Use the development environment
         run: cp .env.development .env
 
       - name: Build the website
         run: yarn build
 
       - name: Run Cypress test suite
-        run: yarn cypress:run
+        run: CYPRESS_DEFAULT_COMMAND_TIMEOUT=10000 yarn cypress:run
