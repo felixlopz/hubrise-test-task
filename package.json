@@ -15,6 +15,7 @@
     "pretest": "node src/content-hot-reload.js"
   },
   "dependencies": {
+    "@sentry/nextjs": "^7.68.0",
     "formik": "^2.2.8",
     "i18next": "^23.4.3",
     "next": "13.4.19",

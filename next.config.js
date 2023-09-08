@@ -1,6 +1,7 @@
 const fs = require("fs").promises
 const { join } = require("path")
 
+const { withSentryConfig } = require("@sentry/nextjs")
 const yaml = require("yaml")
 
 // Check the presence of env variables.
@@ -11,7 +12,9 @@ if (missingVars.length > 0) {
 }
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+let finalConfig = {}
+
+finalConfig = {
   compiler: {
     styledComponents: {}, // The presence of this empty object makes SC use human-readable class names in dev mode.
   },
@@ -27,4 +30,26 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+finalConfig = withSentryConfig(
+  finalConfig,
+  {
+    // For all available options, see https://github.com/getsentry/sentry-webpack-plugin#options
+    // Suppresses source map uploading logs during build
+    silent: true,
+    org: "hubrise",
+    project: "website",
+  },
+  {
+    // For all available options, see https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
+    // Upload a larger set of source maps for prettier stack traces (increases build time)
+    widenClientFileUpload: true,
+    // Routes browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers (increases server load)
+    tunnelRoute: "/monitoring",
+    // Hides source maps from generated client bundles
+    hideSourceMaps: true,
+    // Automatically tree-shake Sentry logger statements to reduce bundle size
+    disableLogger: true,
+  },
+)
+
+module.exports = finalConfig
