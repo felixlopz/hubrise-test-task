@@ -45,8 +45,6 @@ RUN yarn install --frozen-lockfile --production
 # Copy built files from builder stage
 COPY --from=build-stage /app/.next ./.next
 COPY --from=build-stage /app/public ./public
-# Needed for images
-COPY --from=build-stage /app/content ./content
 
 # Start the application
 EXPOSE 80
