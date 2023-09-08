@@ -22,7 +22,7 @@ const HeaderMobile = ({ languagePaths, menuItems }: HeaderMobileProps): JSX.Elem
 
   return (
     <>
-      <StyledHeader>
+      <StyledHeader data-testid="header:mobile">
         <Button onClick={() => setIsOpen(true)}>
           <Image src="/images/bread_button.png" alt="Menu" width={21} height={21} />
         </Button>

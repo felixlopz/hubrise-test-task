@@ -25,7 +25,7 @@ const HeaderDesktop = ({ languagePaths, menuItems }: HeaderDesktopProps): JSX.El
   const currentPathname = usePathname()
 
   return (
-    <StyledHeader>
+    <StyledHeader data-testid="header:desktop">
       <div>
         <Link href={home}>
           <Image src="/images/logo.png" alt="HubRise" width={150} height={40} />
