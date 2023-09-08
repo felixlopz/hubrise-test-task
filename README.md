@@ -26,3 +26,11 @@ To run the server and tests, you need to have Node.js and Yarn installed on your
 - [Yarn](https://yarnpkg.com/)
 
 This server uses two types of test suites. The `yarn cypress:run` command runs end-to-end tests, useful for verifying the entire workflow of the application. On the other hand, `yarn test` runs unit and integration tests that focus on specific parts or interactions in the application.
+
+---
+
+## Build and Run the Docker Image
+
+To build the website docker image, run `docker build -t hubrise/website:latest .`.
+
+To run the image locally, run `docker run -p 3000:80 hubrise/website:latest`.
