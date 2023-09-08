@@ -13,8 +13,8 @@ spec:
         - name: website
           resources:
             requests:
-              cpu: 30m
-              memory: 80Mi
+              cpu: 100m
+              memory: 300Mi
             limits:
-              cpu: 200m
-              memory: 200Mi
+              cpu: 300m
+              memory: 600Mi
