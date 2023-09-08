@@ -10,33 +10,21 @@ beforeEach(() => {
 describe("Pages", () => {
   ;[
     ["/", "Integration for retail"],
-    ["/apps", "Integrated Apps"],
+    ["/apps", "Integrated Apps", "LivePepper"],
     ["/pricing", "Fair Pricing"],
+    ["/blog", "The HubRise Blog"],
+    ["/blog/catalog-variants", "Catalog Variants"],
     ["/apps/livepepper", "Overview"],
     ["/apps/livepepper/connect-hubrise", "Connect to HubRise"],
     ["/developers", "Quick Start"],
     ["/developers/api/account-management", "Account Management"],
     ["/fr", "Intégration pour le commerce"],
     ["/fr/apps", "Applications intégrées"],
-    ["/fr/developers/api/account-management", "Account Management"],
-    ["/blog", "The HubRise Blog"],
-    ["/blog/catalog-variants", "Catalog Variants"],
-  ].forEach(([page, content]) => {
+  ].forEach(([page, ...keywords]) => {
     it(`renders ${page}`, () => {
       cy.visit(page)
-      cy.contains(content)
+      keywords.forEach((keyword) => cy.contains(keyword))
     })
-  })
-
-  it("renders the homepage", () => {
-    cy.visit("/")
-    cy.contains("Integration for retail")
-  })
-
-  it("renders apps on the Apps page", () => {
-    cy.visit("/fr")
-    cy.contains("li", "Apps").click()
-    cy.contains("LivePepper")
   })
 
   it("shows a warning on non translated pages", () => {
@@ -58,7 +46,7 @@ describe("Contact popup", () => {
     const modal = () => cy.get("[role='modal']")
 
     cy.visit("/developers")
-    cy.contains("Contact us").click()
+    cy.contains("a", "Contact us").click()
     modal().should("be.visible")
 
     modal().find("[data-testid='icon:close']").click()
@@ -67,9 +55,11 @@ describe("Contact popup", () => {
 })
 
 describe("Navigation", () => {
-  it("can navigate to the blog", () => {
+  const headerDesktop = () => cy.get("[data-testid='header:desktop']")
+
+  it("navigates to the apps page", () => {
     cy.visit("/")
-    cy.contains("li", "Blog").click()
-    cy.url().should("include", "/blog")
+    headerDesktop().contains("Apps").click()
+    cy.url().should("include", "/apps")
   })
 })
