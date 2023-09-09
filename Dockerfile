@@ -39,13 +39,11 @@ WORKDIR /app
 # Copy package.json and yarn.lock
 COPY package.json yarn.lock ./
 
-# Install only production dependencies
-RUN yarn install --frozen-lockfile --production
-
-# Copy built files from builder stage
+# Copy files from builder stage
+COPY --from=build-stage /app/node_modules ./node_modules
 COPY --from=build-stage /app/.next ./.next
 COPY --from=build-stage /app/public ./public
-# Needed for dynmically rendered pages (such as unknown routes)
+# Needed for dynmically rendered pages (such as unknown routes) and for images
 COPY --from=build-stage /app/content ./content
 
 # Start the application
