@@ -28,6 +28,12 @@ finalConfig = {
       permanent: true,
     }))
   },
+  images: {
+    // Keep these values in sync with `src/utils/imageSizes.ts`
+    imageSizes: [320, 435, 870],
+    // The smallest device size must be larger than all image sizes above.
+    deviceSizes: [1200, 2048, 3840],
+  }
 }
 
 finalConfig = withSentryConfig(

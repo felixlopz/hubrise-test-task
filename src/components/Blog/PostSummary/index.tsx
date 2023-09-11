@@ -5,6 +5,7 @@ import * as React from "react"
 import useTranslation from "@hooks/client/useTranslation"
 import { BlogMdFile } from "@utils/BlogIndexer/types"
 import { ContentImage } from "@utils/contentImage"
+import imageSizes from "@utils/imageSizes"
 
 import DateAndAuthor from "../shared/components/DateAndAuthor"
 
@@ -26,7 +27,7 @@ const PostSummary = ({ mdFile, bannerImage }: PostSummaryProps): JSX.Element => 
       {bannerImage && (
         <Link href={mdFile.uri}>
           <BannerImage>
-            <Image {...bannerImage} alt={mdFile.frontMatter.title} />
+            <Image {...bannerImage} alt={mdFile.frontMatter.title} sizes={imageSizes.postSummary} />
           </BannerImage>
         </Link>
       )}

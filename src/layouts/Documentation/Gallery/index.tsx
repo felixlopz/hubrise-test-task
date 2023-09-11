@@ -3,6 +3,7 @@ import Slider, { Settings } from "react-slick"
 
 import { DocFolder } from "@utils/DocIndexer/types"
 import { ContentImage } from "@utils/contentImage"
+import imageSizes from "@utils/imageSizes"
 
 import { Close, NextArrow, PrevArrow } from "./Controls"
 import {
@@ -101,7 +102,7 @@ const Gallery = ({ folder, images }: GalleryProps): JSX.Element => {
               setIsSliderVisible(!isSliderVisible)
             }}
           >
-            <Thumbnail {...image} alt={title} />
+            <Thumbnail {...image} alt={title} sizes={imageSizes.halfDocumentation} />
           </ThumbnailItem>
         ))}
       </ThumbnailGrid>
