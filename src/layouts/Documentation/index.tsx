@@ -6,12 +6,14 @@ import * as React from "react"
 
 import Breadcrumbs from "@components/Breadcrumbs"
 import DocumentationContainer from "@components/DocumentationContainer"
+import { DocumentationContextProvider } from "@components/DocumentationContext"
 import useTranslation from "@hooks/client/useTranslation"
 import { DocFolder, DocMdFile } from "@utils/DocIndexer/types"
 import { ContentImage } from "@utils/contentImage"
 import { HeaderLink } from "@utils/mdx/remarkHeadingsPlugin"
 
 import AppInfo from "./AppInfo"
+import DocumentationSlideshow from "./DocumentationSlideshow"
 import Feedback from "./Feedback"
 import Gallery from "./Gallery"
 import Navigator from "./Navigator"
@@ -23,6 +25,7 @@ interface DocumentationProps {
   headerLinks: Array<HeaderLink>
   logoImage?: ContentImage
   galleryImages: Array<ContentImage>
+  contentImages: Array<ContentImage>
   children: React.ReactNode
 }
 
@@ -32,12 +35,18 @@ const Documentation = ({
   headerLinks,
   logoImage,
   galleryImages,
+  contentImages,
   children,
 }: DocumentationProps): JSX.Element => {
   const { t } = useTranslation()
 
   return (
-    <>
+    <DocumentationContextProvider>
+      <DocumentationSlideshow
+        contentImages={contentImages}
+        title={[folder.name, mdFile.frontMatter.title].join(" - ")}
+      />
+
       <Breadcrumbs breadcrumbs={mdFile.breadcrumbs} />
 
       <Page>
@@ -75,7 +84,7 @@ const Documentation = ({
       </Page>
 
       <Feedback mdFile={mdFile} />
-    </>
+    </DocumentationContextProvider>
   )
 }
 

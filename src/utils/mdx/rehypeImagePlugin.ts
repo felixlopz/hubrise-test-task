@@ -3,7 +3,7 @@ import { Node } from "unist"
 import { visit } from "unist-util-visit"
 import { VFile } from "vfile"
 
-import contentImage from "@utils/contentImage"
+import contentImage, { ContentImage } from "@utils/contentImage"
 import { ContentDirName } from "@utils/files"
 
 /**
@@ -29,18 +29,25 @@ function isLocalImage(node: ImgNode): boolean {
   return !src.startsWith("http:") && !src.startsWith("https:") && !src.startsWith("//") && !src.startsWith("data:")
 }
 
-async function transformImgNode(node: ImgNode, contentDirName: ContentDirName): Promise<void> {
-  const { width, height, src } = await contentImage(contentDirName, node.properties.src)
-  node.properties.width = width
-  node.properties.height = height
-  node.properties.src = src
+async function transformImgNode(
+  node: ImgNode,
+  contentDirName: ContentDirName,
+  images: Array<ContentImage>,
+): Promise<void> {
+  const image = await contentImage(contentDirName, node.properties.src)
+  node.properties.width = image.width
+  node.properties.height = image.height
+  node.properties.src = image.src
+
+  images.push(image)
 }
 
 /**
  * This is a Rehype plugin that transforms `<img>` elements.
  * @param contentDirName The directory name of the content directory, e.g. "/apps/deliveroo/en"
+ * @param contentImages An array that will be populated with the images found in the document.
  */
-export default function rehypeImagePlugin(contentDirName: ContentDirName) {
+export default function rehypeImagePlugin(contentDirName: ContentDirName, contentImages: Array<ContentImage>) {
   return function plugin(this: Processor) {
     return async function transformer(tree: Node, _file: VFile): Promise<Node> {
       const imgNodes: ImgNode[] = []
@@ -52,7 +59,7 @@ export default function rehypeImagePlugin(contentDirName: ContentDirName) {
       // TODO: how to set height/width for remote images?
 
       for (const node of imgNodes) {
-        await transformImgNode(node, contentDirName)
+        await transformImgNode(node, contentDirName, contentImages)
       }
 
       return tree
