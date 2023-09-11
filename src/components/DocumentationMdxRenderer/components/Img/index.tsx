@@ -3,7 +3,7 @@
 import * as React from "react"
 import { ImgHTMLAttributes } from "react"
 
-import { useDocumentationContext } from "@components/DocumentationContext"
+import { useDocumentationContext } from "@components/DocumentationWrapper/DocumentationContext"
 import imageSizes from "@utils/imageSizes"
 
 import { StyledImage } from "./styles"

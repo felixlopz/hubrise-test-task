@@ -1,6 +1,7 @@
-import { useDocumentationContext } from "@components/DocumentationContext"
 import Slideshow from "@components/Slideshow"
 import { ContentImage } from "@utils/contentImage"
+
+import { useDocumentationContext } from "../DocumentationContext"
 
 interface DocumentationSlideshowProps {
   contentImages: Array<ContentImage>

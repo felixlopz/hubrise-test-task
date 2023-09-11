@@ -6,8 +6,7 @@ import * as React from "react"
 
 import Breadcrumbs from "@components/Breadcrumbs"
 import DocumentationContainer from "@components/DocumentationContainer"
-import { DocumentationContextProvider } from "@components/DocumentationContext"
-import DocumentationSlideshow from "@components/DocumentationSlideshow"
+import DocumentationWrapper from "@components/DocumentationWrapper"
 import useTranslation from "@hooks/client/useTranslation"
 import { DocFolder, DocMdFile } from "@utils/DocIndexer/types"
 import { ContentImage } from "@utils/contentImage"
@@ -41,12 +40,7 @@ const Documentation = ({
   const { t } = useTranslation()
 
   return (
-    <DocumentationContextProvider>
-      <DocumentationSlideshow
-        contentImages={contentImages}
-        title={[folder.name, mdFile.frontMatter.title].join(" - ")}
-      />
-
+    <DocumentationWrapper contentImages={contentImages} title={[folder.name, mdFile.frontMatter.title].join(" - ")}>
       <Breadcrumbs breadcrumbs={mdFile.breadcrumbs} />
 
       <Page>
@@ -84,7 +78,7 @@ const Documentation = ({
       </Page>
 
       <Feedback mdFile={mdFile} />
-    </DocumentationContextProvider>
+    </DocumentationWrapper>
   )
 }
 
