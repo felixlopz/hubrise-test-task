@@ -3,8 +3,8 @@ import Link from "next/link"
 import * as React from "react"
 
 import useTranslation from "@hooks/client/useTranslation"
-import { ContentImage } from "@utils/ contentImage"
 import { BlogMdFile } from "@utils/BlogIndexer/types"
+import { ContentImage } from "@utils/contentImage"
 
 import DateAndAuthor from "../shared/components/DateAndAuthor"
 

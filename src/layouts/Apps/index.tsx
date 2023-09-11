@@ -1,7 +1,7 @@
 "use client"
 
 import { AppsYaml } from "@layouts/Apps/types"
-import { ContentImage } from "@utils/ contentImage"
+import { ContentImage } from "@utils/contentImage"
 import { Language } from "@utils/locales"
 import { generateKey } from "@utils/misc"
 

@@ -1,6 +1,6 @@
 import { renderDocumentationMdx } from "@components/DocumentationMdxRenderer"
 import BlogPost from "@layouts/BlogPost"
-import contentImage from "@utils/ contentImage"
+import contentImage from "@utils/contentImage"
 import router from "@utils/router"
 import { Route, RouteName } from "@utils/router/types"
 

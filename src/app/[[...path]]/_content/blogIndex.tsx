@@ -1,5 +1,5 @@
 import BlogIndex, { BlogFilter } from "@layouts/BlogIndex"
-import contentImage, { ContentImage } from "@utils/ contentImage"
+import contentImage, { ContentImage } from "@utils/contentImage"
 import router from "@utils/router"
 import { Route, RouteName } from "@utils/router/types"
 

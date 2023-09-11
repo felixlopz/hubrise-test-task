@@ -1,7 +1,7 @@
 import Block from "@components/Block"
 import useTranslation from "@hooks/client/useTranslation"
 import { AppsYaml } from "@layouts/Apps/types"
-import { ContentImage } from "@utils/ contentImage"
+import { ContentImage } from "@utils/contentImage"
 import { generateKey } from "@utils/misc"
 
 import {

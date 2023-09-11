@@ -6,9 +6,9 @@ import Layout from "@components/Blog/Layout"
 import Post from "@components/Blog/Post"
 import Breadcrumbs from "@components/Breadcrumbs"
 import useTranslation from "@hooks/client/useTranslation"
-import { ContentImage } from "@utils/ contentImage"
 import { BlogArchives, BlogMdFile } from "@utils/BlogIndexer/types"
 import { DocLink, Href } from "@utils/DocIndexer/types"
+import { ContentImage } from "@utils/contentImage"
 
 export interface BlogPostProps {
   blogIndexUri: Href

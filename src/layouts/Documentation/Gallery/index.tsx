@@ -1,8 +1,8 @@
 import * as React from "react"
 import Slider, { Settings } from "react-slick"
 
-import { ContentImage } from "@utils/ contentImage"
 import { DocFolder } from "@utils/DocIndexer/types"
+import { ContentImage } from "@utils/contentImage"
 
 import { Close, NextArrow, PrevArrow } from "./Controls"
 import {

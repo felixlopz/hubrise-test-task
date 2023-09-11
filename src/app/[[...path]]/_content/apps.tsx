@@ -1,5 +1,5 @@
 import Apps from "@layouts/Apps"
-import contentImage, { ContentImage } from "@utils/ contentImage"
+import contentImage, { ContentImage } from "@utils/contentImage"
 import { Route, RouteName } from "@utils/router/types"
 
 const apps = async (route: Route<RouteName, "apps">): Promise<JSX.Element> => {

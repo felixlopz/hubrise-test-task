@@ -1,8 +1,8 @@
 import * as React from "react"
 
 import DocumentationContainer from "@components/DocumentationContainer"
-import { ContentImage } from "@utils/ contentImage"
 import { BlogMdFile } from "@utils/BlogIndexer/types"
+import { ContentImage } from "@utils/contentImage"
 
 import DateAndAuthor from "../shared/components/DateAndAuthor"
 

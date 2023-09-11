@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { renderDocumentationMdx } from "@components/DocumentationMdxRenderer"
 import Documentation from "@layouts/Documentation"
-import contentImage from "@utils/ contentImage"
+import contentImage from "@utils/contentImage"
 import { Route, RouteName } from "@utils/router/types"
 
 const documentation = async (route: Route<RouteName, "documentation">): Promise<JSX.Element> => {

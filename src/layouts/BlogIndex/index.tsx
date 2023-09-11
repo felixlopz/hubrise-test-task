@@ -6,9 +6,9 @@ import PostSummary from "@components/Blog/PostSummary"
 import { getYearArchiveTitle } from "@components/Blog/Sidebar/helpers"
 import Breadcrumbs from "@components/Breadcrumbs"
 import useTranslation from "@hooks/client/useTranslation"
-import { ContentImage } from "@utils/ contentImage"
 import { BlogArchives, BlogMdFile } from "@utils/BlogIndexer/types"
 import { DocLink, Href } from "@utils/DocIndexer/types"
+import { ContentImage } from "@utils/contentImage"
 
 export interface BlogFilter {
   year?: number

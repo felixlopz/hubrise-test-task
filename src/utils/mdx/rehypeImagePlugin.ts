@@ -3,7 +3,7 @@ import { Node } from "unist"
 import { visit } from "unist-util-visit"
 import { VFile } from "vfile"
 
-import contentImage from "@utils/ contentImage"
+import contentImage from "@utils/contentImage"
 import { ContentDirName } from "@utils/files"
 
 /**
