@@ -1,4 +1,6 @@
+import crypto from "crypto"
 import fs from "fs/promises"
+import { join } from "path"
 import { promisify } from "util"
 
 import imageSize from "image-size"
@@ -10,7 +12,6 @@ export interface ContentImage {
   src: string
   width: number
   height: number
-  // blurDataURL: string;
 }
 
 /**
@@ -25,12 +26,25 @@ const contentImage = async (
   filename: string,
 ): Promise<ContentImage> => {
   const contentPath = await findImage(contentDirName, filename)
+  const filePath = join(contentDirectory, contentPath)
 
-  const res = await sizeOf(contentDirectory + contentPath)
-  if (!res || !res.width || !res.height) throw Error(`Image invalid "${contentPath}"`)
+  // Get the image dimensions.
+  const res = await sizeOf(filePath)
+  if (!res || !res.width || !res.height) throw Error(`Image invalid "${filePath}"`)
 
-  const imagePath = `/api/image${contentPath}`
+  // Add the hash to the last part of the image path, so that we can consider the path immutable.
+  const hash = await imageHash(filePath)
+  const pathWithHash = contentPath.replace(/\/([^/]+)$/, `/${hash}-$1`)
+  const imagePath = `/api/image${pathWithHash}`
+
   return { src: imagePath, width: res.width, height: res.height }
+}
+
+export async function imageHash(filePath: string) {
+  const md5 = crypto.createHash("md5")
+  const file = await fs.readFile(filePath)
+  md5.update(file)
+  return md5.digest("hex")
 }
 
 /**
@@ -42,10 +56,9 @@ async function findImage(
   contentDirName: ContentDirName | Array<ContentDirName>,
   filename: string,
 ): Promise<ContentDirName> {
-  let contentPath: ContentDirName | undefined
   const contentDirs = Array.isArray(contentDirName) ? contentDirName : [contentDirName]
   for (const dirName of contentDirs) {
-    contentPath = `${dirName}/${filename}`
+    const contentPath: ContentDirName = `${dirName}/${filename}`
     try {
       await fs.stat(contentDirectory + contentPath)
       return contentPath

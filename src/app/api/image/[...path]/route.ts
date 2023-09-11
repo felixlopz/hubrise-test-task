@@ -1,6 +1,7 @@
 import * as fs from "fs/promises"
 import { join } from "path"
 
+import { imageHash } from "@utils/contentImage"
 import { contentDirectory } from "@utils/files"
 
 type Params = { path: Array<string> }
@@ -32,14 +33,23 @@ export async function generateStaticParams(): Promise<Array<Params>> {
 export async function GET(request: Request, { params }: { params: Params }): Promise<Response> {
   const { path } = params
 
-  const filePath = join(contentDirectory, ...path)
-  console.log(`Render image: ${filePath}`)
+  console.log(`Render image: ${path.join("/")}`)
 
+  // The last part of the path has format: [hash]-[filename].
+  const directories = path.slice(0, path.length - 1)
+  // Only split at first dash, in case the filename contains dashes.
+  const [hash, filename] = path[path.length - 1].split(/-(.+)/)
+  const filePath = join(contentDirectory, ...directories, filename)
+
+  // Check if the hash matches the image. If not, the image has been updated and the client should not cache it.
   const file = await fs.readFile(filePath)
+  const isCorrectHash = hash === (await imageHash(filePath))
 
   return new Response(file, {
     headers: {
       "Content-Type": mimeType(path[path.length - 1]),
+      // Cache-control only works with `yarn start`, it is overridden by Next with `yarn dev`.
+      "Cache-Control": isCorrectHash ? "public, max-age=31536000, immutable" : "no-cache",
     },
   })
 }
