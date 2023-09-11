@@ -11,10 +11,12 @@ spec:
     spec:
       containers:
         - name: website
+
           resources:
             requests:
-              cpu: 100m
-              memory: 300Mi
-            limits:
               cpu: 300m
-              memory: 600Mi
+              memory: 500Mi
+            limits:
+              # We need some CPU for short periods of time after startup, when optimised images are not yet cached.
+              cpu: 1000m
+              memory: 750Mi
