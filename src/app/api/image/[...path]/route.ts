@@ -8,7 +8,9 @@ type Params = { path: Array<string> }
 
 export const dynamicParams = false
 
-export async function generateStaticParams(): Promise<Array<Params>> {
+// This function finds all images but only caches the query results, not the optimised images in .next/cache/images.
+// TDOO: Find a way to fill .next/cache/images at build time.
+export async function _generateStaticParams(): Promise<Array<Params>> {
   const isImage = (filename: string) => /\.(png|jpg|jpeg)$/i.test(filename)
 
   const findImageFiles = async (...path: Array<string>): Promise<Array<Params>> => {
