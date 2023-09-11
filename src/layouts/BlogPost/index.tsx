@@ -6,13 +6,14 @@ import Layout from "@components/Blog/Layout"
 import Post from "@components/Blog/Post"
 import Breadcrumbs from "@components/Breadcrumbs"
 import useTranslation from "@hooks/client/useTranslation"
+import { ContentImage } from "@utils/ contentImage"
 import { BlogArchives, BlogMdFile } from "@utils/BlogIndexer/types"
 import { DocLink, Href } from "@utils/DocIndexer/types"
 
 export interface BlogPostProps {
   blogIndexUri: Href
   mdFile: BlogMdFile
-  bannerImage?: React.ReactNode
+  bannerImage?: ContentImage
   archives: BlogArchives
   children: React.ReactNode
 }

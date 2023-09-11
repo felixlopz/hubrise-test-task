@@ -38,6 +38,12 @@ module.exports = {
     "import/prefer-default-export": "off",
     "prettier/prettier": "error",
     "unused-imports/no-unused-imports-ts": "error",
+    "@typescript-eslint/no-unused-vars": [
+      2,
+      {
+        argsIgnorePattern: "^_", // Ignore method arguments matching this regexp
+      },
+    ],
   },
   settings: {
     "import/resolver": {

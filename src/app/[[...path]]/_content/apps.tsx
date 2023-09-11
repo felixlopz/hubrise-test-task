@@ -1,5 +1,5 @@
-import ServerImage from "@components/ServerImage"
 import Apps from "@layouts/Apps"
+import contentImage, { ContentImage } from "@utils/ contentImage"
 import { Route, RouteName } from "@utils/router/types"
 
 const apps = async (route: Route<RouteName, "apps">): Promise<JSX.Element> => {
@@ -8,13 +8,14 @@ const apps = async (route: Route<RouteName, "apps">): Promise<JSX.Element> => {
     categoryTitle = (route as Route<"apps_category", "apps">).params.categoryTitle
   }
 
-  let logoImages: { [logo: string]: React.ReactNode } = {}
-  route.context.yaml.content.categories.forEach((category) => {
-    category.apps.forEach((app) => {
+  const logoImages: { [logo: string]: ContentImage } = {}
+  const apps = route.context.yaml.content.categories.flatMap((category) => category.apps)
+  await Promise.all(
+    apps.map(async (app) => {
       if (!app.logo) return
-      logoImages[app.logo] = <ServerImage contentDirName="/images/app-logos" fileName={app.logo} alt={app.title} />
-    })
-  })
+      logoImages[app.logo] = await contentImage("/images/app-logos", app.logo)
+    }),
+  )
 
   return (
     <Apps language={route.language} yaml={route.context.yaml} logoImages={logoImages} categoryTitle={categoryTitle} />

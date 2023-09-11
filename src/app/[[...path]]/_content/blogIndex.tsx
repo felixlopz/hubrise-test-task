@@ -1,5 +1,5 @@
-import ServerImage from "@components/ServerImage"
 import BlogIndex, { BlogFilter } from "@layouts/BlogIndex"
+import contentImage, { ContentImage } from "@utils/ contentImage"
 import router from "@utils/router"
 import { Route, RouteName } from "@utils/router/types"
 
@@ -8,17 +8,13 @@ const blogIndex = async (route: Route<RouteName, "blog-index">): Promise<JSX.Ele
   const { mdFiles, archives } = context
   const blogIndexUri = (await router()).getHref("blog", language)
 
-  let bannerImages: { [blogUri: string]: React.ReactNode } = {}
-  mdFiles.forEach((mdFile) => {
-    if (!mdFile.bannerFileName) return
-    bannerImages[mdFile.uri] = (
-      <ServerImage
-        contentDirName={mdFile.contentDirName}
-        fileName={mdFile.bannerFileName}
-        alt={mdFile.frontMatter.title}
-      />
-    )
-  })
+  let bannerImages: { [blogUri: string]: ContentImage } = {}
+  await Promise.all(
+    mdFiles.map(async (mdFile) => {
+      if (!mdFile.bannerFileName) return
+      bannerImages[mdFile.uri] = await contentImage(mdFile.contentDirName, mdFile.bannerFileName)
+    }),
+  )
 
   let filter: BlogFilter = {}
   if (route.name === "blog_archive") {

@@ -1,6 +1,7 @@
 import Block from "@components/Block"
 import useTranslation from "@hooks/client/useTranslation"
 import { AppsYaml } from "@layouts/Apps/types"
+import { ContentImage } from "@utils/ contentImage"
 import { generateKey } from "@utils/misc"
 
 import {
@@ -12,13 +13,14 @@ import {
   AppAdditionalInfo,
   AppBoxStatic,
   EmailLink,
+  AppLogoImage,
 } from "./Styles"
 
 interface AppSectionProps {
   title: string
   showTitle: boolean
   apps: AppsYaml["content"]["categories"][0]["apps"]
-  logoImages: { [logo: string]: React.ReactNode }
+  logoImages: { [logo: string]: ContentImage }
   additionalSections: AppsYaml["content"]["additional_sections"]
   hasSuggestApp: boolean
 }
@@ -38,7 +40,11 @@ const App = ({
       <Group>
         {apps.map((app, idx) => (
           <AppBoxLink key={generateKey(title, idx)} href={app.documentation || app.website}>
-            <AppLogo>{logoImages[app.logo]}</AppLogo>
+            {logoImages[app.logo] && (
+              <AppLogo>
+                <AppLogoImage {...logoImages[app.logo]} alt={app.title} />
+              </AppLogo>
+            )}
 
             <AppDocumentation>
               {app.documentation ? t("apps.view_documentation") : t("apps.visit_website")}

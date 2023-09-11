@@ -1,11 +1,13 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import * as React from "react"
 
 import Breadcrumbs from "@components/Breadcrumbs"
 import DocumentationContainer from "@components/DocumentationContainer"
 import useTranslation from "@hooks/client/useTranslation"
+import { ContentImage } from "@utils/ contentImage"
 import { DocFolder, DocMdFile } from "@utils/DocIndexer/types"
 import { HeaderLink } from "@utils/mdx/remarkHeadingsPlugin"
 
@@ -19,8 +21,8 @@ interface DocumentationProps {
   mdFile: DocMdFile
   folder: DocFolder
   headerLinks: Array<HeaderLink>
-  logoImage?: React.ReactNode
-  galleryImages: Array<React.ReactNode>
+  logoImage?: ContentImage
+  galleryImages: Array<ContentImage>
   children: React.ReactNode
 }
 
@@ -43,7 +45,9 @@ const Documentation = ({
 
         {logoImage && (
           <Logo>
-            <Link href={folder.uri}>{logoImage}</Link>
+            <Link href={folder.uri}>
+              <Image {...logoImage} alt={mdFile.frontMatter.title} />
+            </Link>
           </Logo>
         )}
 

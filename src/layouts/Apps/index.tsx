@@ -1,6 +1,7 @@
 "use client"
 
 import { AppsYaml } from "@layouts/Apps/types"
+import { ContentImage } from "@utils/ contentImage"
 import { Language } from "@utils/locales"
 import { generateKey } from "@utils/misc"
 
@@ -12,7 +13,7 @@ import Nav from "./Nav"
 interface AppsProps {
   language: Language
   yaml: AppsYaml
-  logoImages: { [logo: string]: React.ReactNode }
+  logoImages: { [logo: string]: ContentImage }
   categoryTitle?: string
 }
 

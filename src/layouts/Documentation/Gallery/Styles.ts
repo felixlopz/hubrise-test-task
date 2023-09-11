@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Slider from "react-slick"
 import styled from "styled-components"
 
@@ -71,16 +72,15 @@ export const StyledSlider = styled(Slider)`
 
 export const Slide = styled.div`
   display: inline-block;
-  img {
-    border-radius: 0.6rem;
-    width: auto;
-  }
 `
 
-export const Thumbnail = styled.div`
-  img {
-    border-radius: 0.6rem;
-  }
+export const SlideImage = styled(Image)`
+  border-radius: 0.6rem;
+  width: auto;
+`
+
+export const Thumbnail = styled(Image)`
+  border-radius: 0.6rem;
 `
 
 export const ThumbnailGrid = styled.div`

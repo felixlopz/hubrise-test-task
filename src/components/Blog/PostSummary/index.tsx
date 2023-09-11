@@ -1,7 +1,9 @@
+import Image from "next/image"
 import Link from "next/link"
 import * as React from "react"
 
 import useTranslation from "@hooks/client/useTranslation"
+import { ContentImage } from "@utils/ contentImage"
 import { BlogMdFile } from "@utils/BlogIndexer/types"
 
 import DateAndAuthor from "../shared/components/DateAndAuthor"
@@ -10,7 +12,7 @@ import { BannerImage, Excerpt, ReadMore, StyledPostSummary, StyledTitle, Text } 
 
 interface PostSummaryProps {
   mdFile: BlogMdFile
-  bannerImage?: React.ReactNode
+  bannerImage?: ContentImage
 }
 
 const PostSummary = ({ mdFile, bannerImage }: PostSummaryProps): JSX.Element => {
@@ -23,7 +25,9 @@ const PostSummary = ({ mdFile, bannerImage }: PostSummaryProps): JSX.Element => 
 
       {bannerImage && (
         <Link href={mdFile.uri}>
-          <BannerImage>{bannerImage}</BannerImage>
+          <BannerImage>
+            <Image {...bannerImage} alt={mdFile.frontMatter.title} />
+          </BannerImage>
         </Link>
       )}
 

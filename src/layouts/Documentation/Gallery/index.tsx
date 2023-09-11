@@ -1,17 +1,29 @@
 import * as React from "react"
 import Slider, { Settings } from "react-slick"
 
+import { ContentImage } from "@utils/ contentImage"
 import { DocFolder } from "@utils/DocIndexer/types"
 import { ContentDirName } from "@utils/files"
 import { Language } from "@utils/locales"
 
 import { Close, NextArrow, PrevArrow } from "./Controls"
-import { Count, Topbar, Title, Slideshow, StyledSlider, Slide, ThumbnailItem, ThumbnailGrid, Thumbnail } from "./Styles"
+import {
+  Count,
+  Topbar,
+  Title,
+  Slideshow,
+  StyledSlider,
+  Slide,
+  ThumbnailItem,
+  ThumbnailGrid,
+  Thumbnail,
+  SlideImage,
+} from "./Styles"
 
 interface GalleryProps {
   folder: DocFolder
   language: Language
-  images: Array<React.ReactNode>
+  images: Array<ContentImage>
 }
 
 const Gallery = ({ folder, language, images }: GalleryProps): JSX.Element => {
@@ -76,7 +88,9 @@ const Gallery = ({ folder, language, images }: GalleryProps): JSX.Element => {
         <StyledSlider ref={slider} {...sliderSettings}>
           {images.map((image, index) => (
             <div key={index}>
-              <Slide onClick={(e) => e.stopPropagation()}>{image}</Slide>
+              <Slide onClick={(e) => e.stopPropagation()}>
+                <SlideImage {...image} alt={title} />
+              </Slide>
             </div>
           ))}
         </StyledSlider>
@@ -91,7 +105,7 @@ const Gallery = ({ folder, language, images }: GalleryProps): JSX.Element => {
               setIsSliderVisible(!isSliderVisible)
             }}
           >
-            <Thumbnail>{image}</Thumbnail>
+            <Thumbnail {...image} alt={title} />
           </ThumbnailItem>
         ))}
       </ThumbnailGrid>

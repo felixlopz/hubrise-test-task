@@ -71,21 +71,3 @@ export async function listEntries(
     throw e
   }
 }
-
-export async function findImage(
-  contentDirName: ContentDirName | Array<ContentDirName>,
-  fileName: string,
-): Promise<ContentDirName> {
-  let contentPath: ContentDirName | undefined
-  const contentDirs = Array.isArray(contentDirName) ? contentDirName : [contentDirName]
-  for (const dirName of contentDirs) {
-    contentPath = `${dirName}/${fileName}`
-    try {
-      await fs.stat(contentDirectory + contentPath)
-      return contentPath
-    } catch (e) {}
-  }
-
-  const paths = contentDirs.map((dirName) => contentDirectory + dirName + "/" + fileName)
-  throw Error(`Image not found "${paths.join('" or "')}"`)
-}

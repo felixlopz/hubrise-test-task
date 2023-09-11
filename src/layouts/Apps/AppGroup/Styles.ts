@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import styled, { css } from "styled-components"
 
@@ -21,10 +22,10 @@ export const AppLogo = styled.div`
   @media (min-width: ${breakpoints.medium}) {
     height: 153px;
   }
+`
 
-  img {
-    height: 100%;
-  }
+export const AppLogoImage = styled(Image)`
+  height: 100%;
 `
 
 export const AppDocumentation = styled.div`
