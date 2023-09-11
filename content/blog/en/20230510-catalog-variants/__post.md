@@ -6,6 +6,7 @@ author: Antoine Monnier
 meta:
   title: Catalog variants | Blog | HubRise
   description: HubRise now supports catalog variants. This new feature allows businesses to manage a single catalog across multiple channels and locations while maintaining the flexibility to customize prices and availability of SKUs, options, and deals for each channel and location.
+excerpt: We've introduced catalog variants. This new feature allows you to manage a single catalog across multiple sales channels and locations, while maintaining the flexibility to customise prices and availability for each channel and location.
 ---
 
 [//]: # "Photo credits: https://pixabay.com/vectors/watercolor-yellow-orange-red-green-4111953/"
