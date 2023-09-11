@@ -49,5 +49,8 @@ export const renderDocumentationMdx = async (
     },
   })
 
-  return { mdxElement, headerLinks, contentImages }
+  const largeContentImages = contentImages.filter((image) => image.width >= MIN_IMAGE_WIDTH_FOR_SLIDESHOW)
+  return { mdxElement, headerLinks, contentImages: largeContentImages }
 }
+
+const MIN_IMAGE_WIDTH_FOR_SLIDESHOW = 200

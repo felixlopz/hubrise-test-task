@@ -4,17 +4,25 @@ import * as React from "react"
 
 import Block from "@components/Block"
 import DocumentationContainer from "@components/DocumentationContainer"
+import { DocumentationContextProvider } from "@components/DocumentationContext"
+import DocumentationSlideshow from "@components/DocumentationSlideshow"
+import { ContentImage } from "@utils/contentImage"
 
 interface DocumentationSimpleProps {
-  title?: string
+  title: string
+  contentImages: Array<ContentImage>
   children?: React.ReactNode
 }
 
-const DocumentationSimple = ({ title, children }: DocumentationSimpleProps): JSX.Element => {
+const DocumentationSimple = ({ title, contentImages, children }: DocumentationSimpleProps): JSX.Element => {
   return (
-    <Block backgroundColor="white" horizontalAlign="left">
-      <DocumentationContainer title={title}>{children}</DocumentationContainer>
-    </Block>
+    <DocumentationContextProvider>
+      <DocumentationSlideshow contentImages={contentImages} title={title} />
+
+      <Block backgroundColor="white" horizontalAlign="left">
+        <DocumentationContainer title={title}>{children}</DocumentationContainer>
+      </Block>
+    </DocumentationContextProvider>
   )
 }
 
