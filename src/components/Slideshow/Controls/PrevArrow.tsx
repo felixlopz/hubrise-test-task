@@ -7,13 +7,13 @@ import { StyledPrevArrow } from "./Styles"
 
 interface PrevArrowProps {
   currentImageNumber: number
-  onClick?: () => void
+  onClick: () => void
 }
 
 const PrevArrow = ({ currentImageNumber, onClick }: PrevArrowProps): JSX.Element => {
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
     event.stopPropagation()
-    onClick && onClick()
+    onClick()
   }
 
   return (

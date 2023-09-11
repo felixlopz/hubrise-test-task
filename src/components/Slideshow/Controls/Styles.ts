@@ -1,8 +1,5 @@
 import styled, { css } from "styled-components"
 
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-
 import { colors, mixin } from "@utils/styles"
 
 const slideControl = css`
@@ -13,12 +10,12 @@ const slideControl = css`
   border-radius: 50%;
   color: ${colors.white};
   opacity: 0.5;
+  ${mixin.clickable};
 
   &:hover,
   &:focus {
     outline: none;
     opacity: 1;
-    cursor: pointer;
     background-color: ${colors.backgroundDark};
   }
 }

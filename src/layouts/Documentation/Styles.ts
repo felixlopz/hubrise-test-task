@@ -38,7 +38,7 @@ export const Main = styled.div`
 `
 
 export const Content = styled.div`
-  padding: ${sizes.blockVerticalPadding} 1rem;
+  padding: ${sizes.blockVerticalPadding} 0.9375rem;
   background-color: ${colors.backgroundWhite};
 
   @media (min-width: ${breakpoints.large}) {

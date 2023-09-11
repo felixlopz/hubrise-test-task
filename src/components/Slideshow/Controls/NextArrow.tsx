@@ -8,13 +8,13 @@ import { StyledNextArrow } from "./Styles"
 interface NextArrowProps {
   currentImageNumber: number
   totalNumberOfImages: number
-  onClick?: () => void
+  onClick: () => void
 }
 
 const NextArrow = ({ currentImageNumber, totalNumberOfImages, onClick }: NextArrowProps): JSX.Element => {
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
     event.stopPropagation()
-    onClick && onClick()
+    onClick()
   }
 
   return (
