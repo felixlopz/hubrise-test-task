@@ -47,11 +47,15 @@ export async function GET(request: Request, { params }: { params: Params }): Pro
 const mimeType = (filename: string): string => {
   const ext = filename.split(".").pop()
   switch (ext) {
-    case "png":
-      return "image/png"
     case "jpg":
     case "jpeg":
       return "image/jpeg"
+    case "png":
+      return "image/png"
+    case "svg":
+      return "image/svg+xml"
+    case "webp":
+      return "image/webp"
     default:
       throw Error(`Image type not supported: "${filename}"`)
   }

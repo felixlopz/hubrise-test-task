@@ -27,7 +27,7 @@ const Sidebar = ({ archives }: { archives: BlogArchives }): JSX.Element => {
   }, [isMobile])
 
   return (
-    <Menu onClick={(e) => e.stopPropagation()}>
+    <Menu onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}>
       <MenuTitle onClick={() => isMobile && setIsExpanded((prev) => !prev)}>
         {t("blog.other_posts")}
         <ArrowIcon code={isExpanded ? "expand_less" : "expand_more"} />

@@ -1,5 +1,6 @@
 import { AppsYaml } from "@layouts/Apps/types"
 import { DocumentationIndexYaml } from "@layouts/DocumentationIndex/types"
+import { DocumentationSimpleFrontMatter } from "@layouts/DocumentationSimple/types"
 import { FrontpageYaml } from "@layouts/Frontpage/types"
 import { PricingYaml } from "@layouts/Pricing/types"
 import { BlogArchives } from "@utils/BlogIndexer/types"

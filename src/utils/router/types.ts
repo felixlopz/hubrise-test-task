@@ -1,5 +1,6 @@
 import { AppsYaml } from "@layouts/Apps/types"
 import { DocumentationIndexYaml } from "@layouts/DocumentationIndex/types"
+import { DocumentationSimpleFrontMatter } from "@layouts/DocumentationSimple/types"
 import { FrontpageYaml } from "@layouts/Frontpage/types"
 import { PricingYaml } from "@layouts/Pricing/types"
 import { BlogArchives, BlogMdFile } from "@utils/BlogIndexer/types"
@@ -37,7 +38,7 @@ export type RouteParamsDynamic<R extends RouteNameDynamic> = R extends "apps_cat
   : R extends "apps_page" | "blog_post" | "contributing_page" | "developers_page" | "docs_page" | "legal_page"
   ? { contentDirName: ContentDirName; basename: string }
   : never
-type RouteParams<R extends RouteName> = R extends RouteNameDynamic ? { params: RouteParamsDynamic<R> } : {}
+type RouteParams<R extends RouteName> = R extends RouteNameDynamic ? { params: RouteParamsDynamic<R> } : object
 
 // Layout and context
 

@@ -42,7 +42,7 @@ async function transformImgNode(node: ImgNode, contentDirName: ContentDirName): 
  */
 export default function rehypeImagePlugin(contentDirName: ContentDirName) {
   return function plugin(this: Processor) {
-    return async function transformer(tree: Node, file: VFile): Promise<Node> {
+    return async function transformer(tree: Node, _file: VFile): Promise<Node> {
       const imgNodes: ImgNode[] = []
 
       visit(tree, "element", (node) => {

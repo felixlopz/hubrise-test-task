@@ -3,8 +3,6 @@ import Slider, { Settings } from "react-slick"
 
 import { ContentImage } from "@utils/ contentImage"
 import { DocFolder } from "@utils/DocIndexer/types"
-import { ContentDirName } from "@utils/files"
-import { Language } from "@utils/locales"
 
 import { Close, NextArrow, PrevArrow } from "./Controls"
 import {
@@ -22,13 +20,11 @@ import {
 
 interface GalleryProps {
   folder: DocFolder
-  language: Language
   images: Array<ContentImage>
 }
 
-const Gallery = ({ folder, language, images }: GalleryProps): JSX.Element => {
+const Gallery = ({ folder, images }: GalleryProps): JSX.Element => {
   const title = folder.name
-  const contentDirName: ContentDirName = `${folder.contentDirName}/${language}/images`
 
   const slider = React.useRef<Slider>(null)
   const [isSliderVisible, setIsSliderVisible] = React.useState(false)
@@ -77,7 +73,7 @@ const Gallery = ({ folder, language, images }: GalleryProps): JSX.Element => {
   return (
     <>
       <Slideshow $isVisible={isSliderVisible} onClick={() => setIsSliderVisible(false)}>
-        <Topbar onClick={(e) => e.stopPropagation()}>
+        <Topbar onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}>
           <Title>{title}</Title>
           <Count>
             {currentImageNumber} / {images.length}
@@ -88,7 +84,7 @@ const Gallery = ({ folder, language, images }: GalleryProps): JSX.Element => {
         <StyledSlider ref={slider} {...sliderSettings}>
           {images.map((image, index) => (
             <div key={index}>
-              <Slide onClick={(e) => e.stopPropagation()}>
+              <Slide onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}>
                 <SlideImage {...image} alt={title} />
               </Slide>
             </div>

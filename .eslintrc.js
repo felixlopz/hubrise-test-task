@@ -1,12 +1,14 @@
 module.exports = {
   root: true,
-  plugins: ["unused-imports", "cypress"],
+  ignorePatterns: ["**/*.js"],
+  parser: "@typescript-eslint/parser",
   env: {
     browser: true,
     node: true,
     jest: true,
     "cypress/globals": true,
   },
+  plugins: ["unused-imports", "cypress"],
   extends: [
     "next",
     "next/core-web-vitals",
@@ -15,6 +17,7 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:cypress/recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended", // To display prettier errors as ESLint errors. Make sure this is always the last configuration.
   ],
   globals: {
@@ -38,6 +41,7 @@ module.exports = {
     "import/prefer-default-export": "off",
     "prettier/prettier": "error",
     "unused-imports/no-unused-imports-ts": "error",
+    "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/no-unused-vars": [
       2,
       {

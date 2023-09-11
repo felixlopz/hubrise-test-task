@@ -15,7 +15,6 @@ interface NavigatorProps {
 }
 
 const Navigator = ({ mdFile, folder, headerLinks }: NavigatorProps): JSX.Element => {
-  const { language } = mdFile
   const title = folder.name
   const [currentTitle, setCurrentTitle] = React.useState(title)
 

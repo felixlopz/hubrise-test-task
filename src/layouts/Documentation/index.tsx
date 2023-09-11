@@ -62,7 +62,7 @@ const Documentation = ({
 
           {galleryImages.length > 0 && (
             <Content>
-              <Gallery folder={folder} language={mdFile.language} images={galleryImages} />
+              <Gallery folder={folder} images={galleryImages} />
             </Content>
           )}
 

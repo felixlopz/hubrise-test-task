@@ -8,7 +8,7 @@ const blogIndex = async (route: Route<RouteName, "blog-index">): Promise<JSX.Ele
   const { mdFiles, archives } = context
   const blogIndexUri = (await router()).getHref("blog", language)
 
-  let bannerImages: { [blogUri: string]: ContentImage } = {}
+  const bannerImages: { [blogUri: string]: ContentImage } = {}
   await Promise.all(
     mdFiles.map(async (mdFile) => {
       if (!mdFile.bannerFileName) return
@@ -16,7 +16,7 @@ const blogIndex = async (route: Route<RouteName, "blog-index">): Promise<JSX.Ele
     }),
   )
 
-  let filter: BlogFilter = {}
+  const filter: BlogFilter = {}
   if (route.name === "blog_archive") {
     filter.year = (route as Route<"blog_archive", "blog-index">).params.year
   }

@@ -1,4 +1,4 @@
-interface DocumentationSimpleFrontMatter {
+export interface DocumentationSimpleFrontMatter {
   title: string
   path_override?: string
   meta: {
