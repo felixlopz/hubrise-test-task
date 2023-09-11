@@ -10,26 +10,26 @@ export const dynamicParams = false
 
 // This function finds all images but only caches the query results, not the optimised images in .next/cache/images.
 // TDOO: Find a way to fill .next/cache/images at build time.
-export async function _generateStaticParams(): Promise<Array<Params>> {
-  const isImage = (filename: string) => /\.(png|jpg|jpeg)$/i.test(filename)
-
-  const findImageFiles = async (...path: Array<string>): Promise<Array<Params>> => {
-    let pathParams: Params[] = []
-    const directory = join(contentDirectory, ...path)
-    const entries = await fs.readdir(directory, { withFileTypes: true })
-
-    for (const entry of entries) {
-      if (entry.isDirectory()) {
-        pathParams = pathParams.concat(await findImageFiles(...path, entry.name))
-      } else if (isImage(entry.name)) {
-        pathParams.push({ path: [...path, entry.name] })
-      }
-    }
-    return pathParams
-  }
-
-  return findImageFiles()
-}
+// export async function _generateStaticParams(): Promise<Array<Params>> {
+//   const isImage = (filename: string) => /\.(png|jpg|jpeg)$/i.test(filename)
+//
+//   const findImageFiles = async (...path: Array<string>): Promise<Array<Params>> => {
+//     let pathParams: Params[] = []
+//     const directory = join(contentDirectory, ...path)
+//     const entries = await fs.readdir(directory, { withFileTypes: true })
+//
+//     for (const entry of entries) {
+//       if (entry.isDirectory()) {
+//         pathParams = pathParams.concat(await findImageFiles(...path, entry.name))
+//       } else if (isImage(entry.name)) {
+//         pathParams.push({ path: [...path, entry.name] })
+//       }
+//     }
+//     return pathParams
+//   }
+//
+//   return findImageFiles()
+// }
 
 // GET /api/image/[..path] returns the image at /content/[..path]
 export async function GET(request: Request, { params }: { params: Params }): Promise<Response> {
