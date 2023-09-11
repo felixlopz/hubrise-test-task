@@ -3,7 +3,7 @@ import styled, { css } from "styled-components"
 
 import { breakpoints, colors, mixin } from "@utils/styles"
 
-import { headerStyle } from "../helpers"
+import { headerStyle } from "../shared/styles"
 
 export const StyledHeader = styled.div`
   display: none;

@@ -1,12 +1,14 @@
 import { usePathname } from "next/navigation"
 
 import LanguageLinks from "@components/Header/LanguageLinks"
-import { IHeaderLink } from "@components/Header/helpers"
 import useClientRoutes from "@hooks/client/useClientRoutes"
 import useTranslation from "@hooks/client/useTranslation"
 import type { LanguagePaths } from "@utils/locales"
 import { generateKey } from "@utils/misc"
 import { iconSizes } from "@utils/styles"
+
+import { IHeaderLink } from "../../shared/types"
+import { isHeaderLinkActive } from "../../shared/utils"
 
 import {
   Backdrop,
@@ -47,7 +49,7 @@ const MobileBar = ({ languagePaths, menuItems, isOpen, close }: MobileBarProps):
 
         <Nav>
           {menuItems.map(({ title, to }, idx) => {
-            const isActive = currentPathname === to
+            const isActive = isHeaderLinkActive(currentPathname, to)
             return (
               <NavLink key={generateKey(title, idx)} href={to} onClick={close} $isActive={isActive}>
                 {title}
