@@ -10,16 +10,21 @@ meta:
 
 A **Catalog** is a container for your products and their associated details. Catalogs are stored in HubRise and managed using Catalog Manager.
 
-Catalogs can be created globally across all locations, or at a specific location level. For more information, refer to the HubRise Help page [Accounts](https://www.hubrise.com/docs/account) and [Locations](https://www.hubrise.com/docs/locations). At one location, you may, for example, create one catalog that imports products from your EPOS and synchronises with an online ordering system. At another location, you may create a catalog which is manually maintained and is used only to populate and maintain an online menu.
-You can have also have multiple catalogs on the same location.
+Catalogs can be created globally across all locations, or at a specific location level. For more information, refer to the HubRise Help pages [Accounts](/docs/account) and [Locations](/docs/locations).
+
+In one location, you may, for example, create a catalog to import products from your EPOS and synchronise them with your online ordering solution. In another location, you may create a catalog which is manually maintained and is used only to populate your online menu. You can also have multiple catalogs in the same location.
+
+## Open the Catalogs Page
+
+The **Catalogs** page is the default page of Catalog Manager. It opens when you launch Catalog Manager. At any time, you can return to this page by clicking the logo in the top-left corner of the screen.
 
 ## Create a Catalog
 
-To create a catalog in Catalog Manager, in the **Catalogs** page, click **New catalog** and enter a name. After you create the new catalog, you can add categories, products, options, deals, discounts and charges directly in Catalog Manager.
+To create a catalog in Catalog Manager, open the **Catalogs** page, click **New catalog** and enter a name. After you create the new catalog, you can add categories, products, options, deals, discounts and charges directly in Catalog Manager.
 
 ![Catalog Manager New Catalog](./images/015-2x-new-catalog.png)
 
-Alternatively, you can create a catalog from the **SETTINGS** page in your HubRise back office. For more information, refer to the HubRise Help page [Add a Catalog](https://www.hubrise.com/docs/catalog#add-a-catalog).
+Alternatively, you can create a catalog from the **SETTINGS** page in your HubRise back office. For more information, refer to the HubRise Help page [Add a Catalog](/docs/catalog#add-a-catalog).
 
 ## Catalog Actions
 

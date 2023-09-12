@@ -9,7 +9,7 @@ meta:
 ---
 
 When you open a Catalog, the **Products** page in the **Edit** view is displayed.
-This lists all your products grouped by Category. To add a new category, click **New category** and enter a name.
+This lists all your products grouped by category. To add a new category, click **New category** and enter a name.
 
 For each product, in the product's details pane you can view and edit the following:
 
@@ -17,9 +17,9 @@ For each product, in the product's details pane you can view and edit the follow
 - Description
 - Images
 - Variations, referred to as **SKUs**
-- Options List
+- Option Lists
 
-Variations are typically used to provide different versions of the base product, such as size or colour. Options allow you to specify optional additional items, such as extras.
+Variations are typically used to provide different versions of the base product, such as sizes or colours. Options allow you to specify optional additional items, such as extras.
 
 ---
 
@@ -27,17 +27,15 @@ Variations are typically used to provide different versions of the base product,
 
 ---
 
-You can rearrange the order in which items are displayed in each category by using the drag handle to drag and drop products. The order in which products display in the Catalog Manager is the order in which they will display in the app you push the catalog into.
-
 ![Catalog Manager Product List](./images/002-2x-product-list.png)
 
 ## Create a Product
 
-To create a product, select the category where the product should be located, click **New product** and enter a descriptive name for the product.
+To create a product, select the category or the product immediately above where the product should be located, click **New product** and enter a descriptive name for the product.
 
 ![Catalog Manager Create New Product](./images/009-2x-create-new-product.png)
 
-After you have created the new product, you can add details to it and relate it to optional items and deals. You can also move the product to a different category by dragging and dropping with the drag handles on the right-hand side of the product entry.
+After you have created the new product, you can add details to it and relate it to optional items and deals.
 
 ## Add or Edit Product Details
 
@@ -50,13 +48,14 @@ After you have created the new product, you can add details to it and relate it 
 
 ![Catalog Manager Add Product Details](./images/010-2x-new-product-details.png)
 
-
 ## Delete a Product
 
 To delete a product, select it from the product list and click on the delete icon in the product details pane.
 
 ## Rearrange Products
 
-The order in which products are displayed in the catalog list can be changed by dragging products and category headings using the drag handles on the right of the product block.
+You can rearrange the order of the items by using the drag handle on the right-hand side of the product entry.
 
 ![Catalog Manager Rearrange Products](./images/013-2x-move-product.png)
+
+The order in which products are displayed in the Catalog Manager is maintained in the apps you push the catalog into.

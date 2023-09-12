@@ -10,14 +10,17 @@ meta:
 
 Discounts are percentage or amount discounts that can be applied on a total purchase, as opposed to a specific product item.
 
-Unlike deals, discounts are not exported to food delivery platforms.
-Discounts are typically very specific to each platform, and not always supported.
-For more information about the discounts supported in a certain platform, see the app's documentation on the HubRise website.
-
-Set up discounts directly in the food platform back-office.
-When you export a catalog to your connected platform, Catalog Manager does not delete discounts already set up, so you only need to set up discounts once.
-
 ![Catalog Manager Discounts list](./images/006-2x-discounts-list.png)
+
+## Which Apps Support Discounts?
+
+Unlike deals, discounts are typically very specific to each app, and not always supported. To check if a certain app supports discounts, see the app's documentation on the HubRise website.
+
+---
+
+**IMPORTANT NOTE:** Discounts are not exported to food delivery platforms, they are managed directly in the platform's back office.
+
+---
 
 ## Create Discounts
 

@@ -8,20 +8,18 @@ meta:
   description: Instructions on how to create and edit Variants in Catalog Manager. Synchronise catalogs between your EPOS and your apps.
 ---
 
-Variants let you manage different prices and availability across multiple platforms with a single catalog.
-For example, you can specify a different price for products that you sell on food delivery platforms than the price for eat-in orders, or you can limit the availability of some products to specific channels.
+Variants let you manage different prices and availability across multiple platforms with a single catalog. For example, you can configure different prices between food delivery platforms and your other channels.
 
-After you create variants in Catalog Manager, you can use your apps connected with HubRise to push a specific catalog variant to your connected platform. 
-Apps connected to the same HubRise Location can push different catalog variants to different apps.
-For example, you can push the Deliveroo variant to Deliveroo with Deliveroo Bridge, and the Uber Eats variant to Uber Eats using Uber Eats Bridge, both connected to the same HubRise Location.
+Some common setups include:
+
+- Variants by delivery platforms: **Deliveroo**, **Uber Eats**, etc.
+- Variants by locations: **London**, **Paris**, etc.
+- Variants by groups of locations: **Large cities**, **Small cities**, etc.
+- Variants by channels: **Online**, **In-store**, etc.
+
+You can also use a combination of the above examples: **Deliveroo**, **Uber Eats Paris**, **Uber Eats other cities**, etc.
 
 ![Catalog Manager Grid View](./images/020-grid-view.png)
-
----
-
-**IMPORTANT NOTE:** All HubRise Bridges support catalog variants, but not all the other connected apps for now. See your app documentation to know if this feature is supported.
-
----
 
 For more information about variants, see the [Catalog Variants blog post](/blog/catalog-variants/).
 
@@ -43,3 +41,15 @@ When you create a new product, option, or deal in your catalog, this is duplicat
 Disabling the **Default** version of an item automatically disables it for all variants.
 
 When you finish editing your variants, to update the catalog in HubRise click **Save**.
+
+## Use Variants in Apps
+
+To use the availability and prices of a variant in an app connected to the catalog, you need to select the variant in the app settings.
+
+For instance, to use the Deliveroo variant, open Deliveroo Bridge, click **Settings**, then select **Deliveroo** from the **Variant** dropdown. For other apps, refer to the app documentation for specific instructions.
+
+---
+
+**IMPORTANT NOTE:** All HubRise Bridges support catalog variants, but not all the other connected apps for now. Check your app documentation to know if this feature is supported.
+
+---
