@@ -1,3 +1,4 @@
+import NextLink from "next/link"
 import { compileMDX } from "next-mdx-remote/rsc"
 import remarkGfm from "remark-gfm"
 
@@ -36,7 +37,7 @@ export const renderDocumentationMdx = async (
       img: Img,
       InlineImage,
       Label,
-      Link: ({ to, children }) => <A href={to}>{children}</A>,
+      Link: ({ href, children }) => <NextLink href={href}>{children}</NextLink>,
       pre: Pre,
       table: Table,
     },
