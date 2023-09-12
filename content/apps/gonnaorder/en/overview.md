@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | GonnaOrder | HubRise
   description: GonnaOrder overview, reasons for connecting GonnaOrder to HubRise and summary of integrated features. Synchronise data between GonnaOrder, your EPOS and other apps.
 gallery:
-path_override: /
 app_info:
   category: Online Ordering
   availability: Worldwide

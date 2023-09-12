@@ -1,5 +1,6 @@
 ---
 title: FAQs
+path_override: faqs
 position: 8
 layout: documentation
 meta:
@@ -8,4 +9,3 @@ meta:
 ---
 
 - [Que sont les connexions primaires et secondaires&nbsp;?](/apps/just-eat-takeaway/faqs/connexion-primaire-secondaire/)
-

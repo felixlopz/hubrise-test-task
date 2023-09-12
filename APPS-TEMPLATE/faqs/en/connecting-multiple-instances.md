@@ -1,5 +1,6 @@
 ---
 title: Can I Connect Multiple SOLUTION Stores to the Same HubRise Location?
+path_override: connecting-multiple-instances
 position: 2
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: Data
+path_override: data
 position: 5
 layout: documentation
 meta:
@@ -61,7 +62,7 @@ To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-
 
 From the **CATALOGS** page, you can view the catalogs pushed into HubRise and the logs of the requests that made changes to the catalog.
 
-Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its catalog into HubRise for an e-commerce website to use it. If required, you can also edit the catalog using Catalog Manager, a free app available on HubRise.
+Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its catalog into HubRise for an e-commerce website to use it. If required, you can also edit the catalog using **Catalog Manager**, a free app available on HubRise. For more information, see [Catalog Manager](/apps/catalog-manager).
 
 ### View Catalog
 
@@ -75,7 +76,7 @@ Catalogs are presented in three tabs:
 - **DISCOUNTS**: The discounts available in the catalog.
   Discount codes apply savings to the overall order rather than specific products. For example, **FREEDELIVERY** might remove the delivery fee for the entire order, or **FRIYAY** might provide a 10% discount to the entire order on Friday.
 
-![HubRise Catalog Tabs](../images/053-en-2x-catalog-tabs.png)
+![HubRise Catalog Tabs](./images/053-2x-catalog-tabs.png)
 
 For SKUs, you can see the following attributes:
 

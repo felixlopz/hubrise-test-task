@@ -1,5 +1,6 @@
 ---
 title: Why Are Some Orders Not Sent to HubRise?
+path_override: orders-not-sent
 position: 3
 layout: documentation
 meta:

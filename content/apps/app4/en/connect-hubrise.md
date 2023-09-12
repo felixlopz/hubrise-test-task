@@ -1,5 +1,6 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
@@ -20,12 +21,12 @@ To connect your HubRise Location to your App4 account, contact the App4 support 
 1. If you are not logged in, HubRise will prompt for your email and password.
 1. App4 then requests permission to access your HubRise Location.
 
-  ![Connect App4 to HubRise](../images/008-en-connect-to-hubrise.png)
+  ![Connect App4 to HubRise](./images/008-connect-to-hubrise.png)
 
 1. If you have several locations, select the one to connect.
 1. Click **Allow** to complete the connection with HubRise.
 
-### If don't have a HubRise location yet
+### If you don't have a HubRise location yet
 
 1. When the HubRise login page is presented, click **No Account Yet?**.
 1. You will be prompted to create a new Account and Location. The **Account Name** is your brand name. The **Location Name** identifies the physical store: it should be the city or street where the restaurant is. For more information, see [Create an Account on HubRise](/docs/account/#create-an-account) and [Create a Location on HubRise](/docs/locations/#create-a-location).

@@ -1,13 +1,16 @@
 ---
 title: Catalogs
-position: 12
+path_override: catalog
+position: 13
 layout: documentation
 meta:
   title: Catalogs | HubRise
   description: How to manage HubRise catalogs.
 ---
 
-The **Catalogs** section in the **SETTINGS** page allows you to create, edit, or remove the catalogs used by your HubRise Account.
+The **Catalogs** section in the **SETTINGS** page allows you to create, rename, or remove the catalogs associated with your HubRise Account.
+
+To make changes to the products within a Catalog, you'll need to link your HubRise Account to third-party apps. Alternatively, you can use our **Catalog Manager** app, a free app included in your HubRise subscription. For further details, see [Catalog Manager](/apps/catalog-manager).
 
 The rules for Catalogs are as follows:
 
@@ -17,16 +20,7 @@ The rules for Catalogs are as follows:
   - You can create a test Catalog to be used without impacting production.
   - You can create Catalogs for a Location that offers different products than other Locations.
 
-![Catalog Rules example](../images/047-en-2x-catalog-rules.png)
-
----
-
-**IMPORTANT NOTE:** You can connect integrated apps to a specific Catalog to push data into it or pull data from it.
-You can edit and manage products in a HubRise Catalog only from third party apps, or with the HubRise **Catalog Manager** connected to your HubRise Account.
-
-Removing a catalog from HubRise does not affect the product list in third party apps.
-
----
+![Catalog Rules example](./images/047-2x-catalog-rules.png)
 
 ## Add a Catalog
 
@@ -48,7 +42,7 @@ The following information is displayed in the **SETTINGS** > **Catalogs** sectio
 
 To view the contents of a Catalog, click the name of the Catalog. It will connect you to the **DATA** > **Catalog** screen for the specific Catalog.
 
-## Edit a Catalog Name
+## Rename a Catalog
 
 Catalogs can be renamed to reflect special needs, such as labeling a Catalog for testing purposes, or for the products offered by a specific Location or solution. Changing the name of a Catalog does not affect the apps that use it.
 
@@ -59,7 +53,7 @@ To change the name of a Catalog:
 3. Enter the new name for the Catalog.
 4. Click **Update** to save the new settings.
 
-![HubRise Edit Catalog](../images/065-en-2x-edit-remove-catalog.png)
+![HubRise Edit Catalog](./images/065-2x-edit-remove-catalog.png)
 
 Changes to the Catalog in HubRise do not affect the list of products in connected apps. Changes to the products lists, descriptions, and prices are always performed by the connected app.
 

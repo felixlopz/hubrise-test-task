@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+path_override: troubleshooting
 position: 6
 layout: documentation
 meta:
@@ -70,8 +71,8 @@ PixelPoint requests are in [XML format](/apps/pixelpoint-windows-api/understandi
 
 Besides, they also use different keys to refer to the same value. When investigating a problem with support teams, you might want to use their respective API key to avoid confusion.
 
-A table has been created to help map keys from HubRise to PixelPoint. For more information, see [HubRise vs PixelPoint Terms](/apps/pixelpoint/hubrise-pixelpoint-terms/).
+A table has been created to help map keys from HubRise to PixelPoint. For more information, see [HubRise vs PixelPoint Terms](/apps/pixelpoint-windows-api/terminology/).
 
 ## PAR PixelPoint Support
 
-Slowey Systems PAR PixelPoint support team can be contacted at [support@slowey.ie](mailto:support@slowey.ie) for issues with the configuration of the EPOS.
+Slowey Systems PAR PixelPoint support team can be contacted at support@slowey.ie for issues with the configuration of the EPOS.

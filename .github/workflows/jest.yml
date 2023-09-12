@@ -7,21 +7,18 @@ jobs:
     runs-on: ubuntu-latest
     name: Run jest
 
-    container:
-      image: node:16.15.0-bullseye
-
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js and package cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.16.0
+          cache: 'yarn'
 
       - name: Install JS dependencies
         run: yarn install
 
       - name: Jest test suite
-        env:
-          NODE_ENV: test
-          SENTRY_DSN: https://96b4d1defd7648308c6e30f8a3470cfd@sentry.io/1776244
-          RECAPTCHA_SITE_KEY: 6LfjbNYUAAAAAPx_tCv_YyhueK2JIjf58b2HGU8d
-          CONTACT_MESSAGE_URL: http://localhost/api/contact_message
-          WAIT_ON_TIMEOUT: 1200000 # (in milliseconds) 20 minute timeout for start-server-and-test
         run: yarn test
