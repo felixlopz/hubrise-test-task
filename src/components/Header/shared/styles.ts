@@ -2,12 +2,6 @@ import { css } from "styled-components"
 
 import { colors, sizes, zIndexValues } from "@utils/styles"
 
-export interface IHeaderLink {
-  title: string
-  to: string
-  mobile_only?: boolean
-}
-
 export const headerStyle = css`
   height: ${sizes.headerHeight};
   z-index: ${zIndexValues.header};

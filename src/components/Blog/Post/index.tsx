@@ -3,6 +3,7 @@ import * as React from "react"
 import DocumentationContainer from "@components/DocumentationContainer"
 import { BlogMdFile } from "@utils/BlogIndexer/types"
 import { ContentImage } from "@utils/contentImage"
+import imageSizes from "@utils/imageSizes"
 
 import DateAndAuthor from "../shared/components/DateAndAuthor"
 
@@ -23,7 +24,7 @@ const Post = ({ mdFile, bannerImage, children }: PostProps): JSX.Element => {
 
       <DateAndAuthor frontMatter={frontMatter} />
 
-      {bannerImage && <BannerImage {...bannerImage} alt={mdFile.frontMatter.title} />}
+      {bannerImage && <BannerImage {...bannerImage} alt={mdFile.frontMatter.title} sizes={imageSizes.documentation} />}
 
       <DocumentationContainer>{children}</DocumentationContainer>
     </StyledPost>

@@ -1,6 +1,7 @@
 import { compileMDX } from "next-mdx-remote/rsc"
 import remarkGfm from "remark-gfm"
 
+import { ContentImage } from "@utils/contentImage"
 import { ContentDirName } from "@utils/files"
 import rehypeImagePlugin from "@utils/mdx/rehypeImagePlugin"
 import remarkHeadingsPlugin from "@utils/mdx/remarkHeadingsPlugin"
@@ -20,8 +21,10 @@ import Table from "./components/Table"
 export const renderDocumentationMdx = async (
   content: string,
   imageDirName: ContentDirName,
-): Promise<{ mdxElement: JSX.Element; headerLinks: Array<HeaderLink> }> => {
+): Promise<{ mdxElement: JSX.Element; headerLinks: Array<HeaderLink>; contentImages: Array<ContentImage> }> => {
   const headerLinks: Array<HeaderLink> = []
+  const contentImages: Array<ContentImage> = []
+
   const { content: mdxElement } = await compileMDX({
     source: content,
     components: {
@@ -41,10 +44,13 @@ export const renderDocumentationMdx = async (
       parseFrontmatter: false,
       mdxOptions: {
         remarkPlugins: [remarkGfm, [remarkHeadingsPlugin, headerLinks]],
-        rehypePlugins: [rehypeImagePlugin(imageDirName)],
+        rehypePlugins: [rehypeImagePlugin(imageDirName, contentImages)],
       },
     },
   })
 
-  return { mdxElement, headerLinks }
+  const largeContentImages = contentImages.filter((image) => image.width >= MIN_IMAGE_WIDTH_FOR_SLIDESHOW)
+  return { mdxElement, headerLinks, contentImages: largeContentImages }
 }
+
+const MIN_IMAGE_WIDTH_FOR_SLIDESHOW = 200

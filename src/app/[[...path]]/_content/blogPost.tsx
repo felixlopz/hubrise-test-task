@@ -7,7 +7,7 @@ import { Route, RouteName } from "@utils/router/types"
 const blogPost = async (route: Route<RouteName, "blog-post">): Promise<JSX.Element> => {
   const { language, context } = route
   const { mdFile, archives } = context
-  const { mdxElement } = await renderDocumentationMdx(mdFile.content, mdFile.contentDirName)
+  const { mdxElement, contentImages } = await renderDocumentationMdx(mdFile.content, mdFile.contentDirName)
 
   const blogIndexUri = (await router()).getHref("blog", language)
 
@@ -16,7 +16,13 @@ const blogPost = async (route: Route<RouteName, "blog-post">): Promise<JSX.Eleme
     : undefined
 
   return (
-    <BlogPost blogIndexUri={blogIndexUri} mdFile={mdFile} bannerImage={bannerImage} archives={archives}>
+    <BlogPost
+      blogIndexUri={blogIndexUri}
+      mdFile={mdFile}
+      bannerImage={bannerImage}
+      archives={archives}
+      contentImages={contentImages}
+    >
       {mdxElement}
     </BlogPost>
   )

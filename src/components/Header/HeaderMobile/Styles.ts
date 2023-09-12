@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import { breakpoints } from "@utils/styles"
 
-import { headerStyle } from "../helpers"
+import { headerStyle } from "../shared/styles"
 
 export const StyledHeader = styled.div`
   display: flex;

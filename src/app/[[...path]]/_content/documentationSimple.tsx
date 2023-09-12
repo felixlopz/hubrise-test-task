@@ -8,9 +8,13 @@ const documentationSimple = async (route: Route<RouteName, "documentation-simple
   const { frontMatter, content } = context
 
   const contentDirName: ContentDirName = `/${language}`
-  const { mdxElement } = await renderDocumentationMdx(content, contentDirName)
+  const { mdxElement, contentImages } = await renderDocumentationMdx(content, contentDirName)
 
-  return <DocumentationSimple title={frontMatter.title}>{mdxElement}</DocumentationSimple>
+  return (
+    <DocumentationSimple title={frontMatter.title} contentImages={contentImages}>
+      {mdxElement}
+    </DocumentationSimple>
+  )
 }
 
 export default documentationSimple

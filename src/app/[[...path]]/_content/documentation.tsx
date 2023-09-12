@@ -7,7 +7,7 @@ import { Route, RouteName } from "@utils/router/types"
 
 const documentation = async (route: Route<RouteName, "documentation">): Promise<JSX.Element> => {
   const { mdFile, folder } = route.context
-  const { mdxElement, headerLinks } = await renderDocumentationMdx(mdFile.content, mdFile.contentDirName)
+  const { mdxElement, headerLinks, contentImages } = await renderDocumentationMdx(mdFile.content, mdFile.contentDirName)
 
   const logoImage = folder.customisation.logo
     ? await contentImage(
@@ -29,6 +29,7 @@ const documentation = async (route: Route<RouteName, "documentation">): Promise<
       headerLinks={headerLinks}
       logoImage={logoImage}
       galleryImages={galleryImages}
+      contentImages={contentImages}
     >
       {mdxElement}
     </Documentation>

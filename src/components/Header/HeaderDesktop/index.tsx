@@ -10,7 +10,8 @@ import type { LanguagePaths } from "@utils/locales"
 import { generateKey } from "@utils/misc"
 
 import LanguageLinks from "../LanguageLinks"
-import { IHeaderLink } from "../helpers"
+import { IHeaderLink } from "../shared/types"
+import { isHeaderLinkActive } from "../shared/utils"
 
 import { StyledHeader, Menu, MenuItem, MenuLink, Signup, Login } from "./Styles"
 
@@ -35,7 +36,7 @@ const HeaderDesktop = ({ languagePaths, menuItems }: HeaderDesktopProps): JSX.El
       <Menu>
         {menuItems.map(({ title, to, mobile_only }, idx) => {
           if (mobile_only) return
-          const isActive = currentPathname === to
+          const isActive = isHeaderLinkActive(currentPathname, to)
           return (
             <MenuItem key={generateKey(title, idx)} $isActive={isActive}>
               <MenuLink href={to} $isActive={isActive}>

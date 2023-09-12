@@ -6,7 +6,7 @@ import * as React from "react"
 import useClientRoutes from "@hooks/client/useClientRoutes"
 import type { LanguagePaths } from "@utils/locales"
 
-import { IHeaderLink } from "../helpers"
+import { IHeaderLink } from "../shared/types"
 
 import MobileBar from "./MobileBar"
 import { StyledHeader, Logo, LogoLink, Button } from "./Styles"

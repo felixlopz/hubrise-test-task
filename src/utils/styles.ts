@@ -60,6 +60,7 @@ export const colors = {
   textLight: "#999",
   textLighter: "#ccc",
 
+  backgroundDarker: "#333",
   backgroundDark: "#555",
   backgroundLight: "#efefef",
   backgroundWhite: "#fff",
