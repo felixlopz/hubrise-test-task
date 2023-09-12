@@ -30,10 +30,9 @@ When the menu is updated, the page automatically displays a summary of the updat
 
 ---
 
-**IMPORTANT NOTE:** Pushing your HubRise catalog into App4 will erase the current menu on your App4 store. This action cannot be reverted.
+**IMPORTANT NOTE:** Pulling your HubRise catalog into App4 will erase the current menu on your App4 store. This action cannot be reverted.
 
 ---
-
 
 ## Information Sent to App4
 
@@ -61,14 +60,14 @@ For products with multiple skus, App4 creates a new category and an item for eac
 For example, for a pizza Margherita with multiple sizes, App4 creates one category for each size.
 
 |          | HubRise name | App4 name       |
-|----------|--------------|-----------------|
+| -------- | ------------ | --------------- |
 | Category | Pizza        | Pizza - 10 inch |
 | Product  | Margherita   | Margherita      |
 | SKU      | 10 inch      |                 |
 
 ### Options List and Options
 
-Option lists and options are mapped one-to-one to App4. 
+Option lists and options are mapped one-to-one to App4.
 
 ### Deals
 

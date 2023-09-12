@@ -10,7 +10,7 @@ meta:
 
 Most EPOS solutions require a ref code for each product to correctly parse orders. Therefore, when you create your menu on App4, you need to make sure that each product is assigned to the correct ref code.
 
-You can manually assign ref codes to the items in your App4 menu, or [pull a HubRise catalog](/apps/app4/push-catalog) directly in App4.
+You can manually assign ref codes to the items in your App4 menu, or [pull a HubRise catalog](/apps/app4/pull-catalog) directly in App4.
 
 ## Manually Assign Ref Codes to Products
 
