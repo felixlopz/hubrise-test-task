@@ -4,18 +4,7 @@ import Icon from "@components/Icon"
 import { ContentImage } from "@utils/contentImage"
 import { iconSizes } from "@utils/styles"
 
-import {
-  Count,
-  Topbar,
-  Title,
-  StyledSlideshow,
-  StyledSlider,
-  Slide,
-  SlideImage,
-  PrevArrow,
-  NextArrow,
-  Close,
-} from "./Styles"
+import { Count, Topbar, Title, StyledSlideshow, Slider, Slide, SlideImage, PrevArrow, NextArrow, Close } from "./Styles"
 
 interface SlideshowProps {
   title: string
@@ -76,22 +65,23 @@ const Slideshow = ({ title, contentImages, currentImageSrc, onClose, navigate }:
         </Close>
       </Topbar>
 
-      <StyledSlider>
-        <PrevArrow $isVisible={currentImageNumber !== 1} onClick={executeAndStopPropagation(() => navigate(-1))}>
-          <Icon code="chevron_left" size={iconSizes._32} />{" "}
-        </PrevArrow>
+      <Slider>
+        {currentImageNumber !== 1 && (
+          <PrevArrow onClick={executeAndStopPropagation(() => navigate(-1))}>
+            <Icon code="chevron_left" size={iconSizes._32} />{" "}
+          </PrevArrow>
+        )}
 
         <Slide>
           <SlideImage {...contentImage} alt={title} onClick={stopPropagation} />
         </Slide>
 
-        <NextArrow
-          $isVisible={currentImageNumber < contentImages.length}
-          onClick={executeAndStopPropagation(() => navigate(1))}
-        >
-          <Icon code="chevron_right" size={iconSizes._32} />
-        </NextArrow>
-      </StyledSlider>
+        {currentImageNumber < contentImages.length && (
+          <NextArrow onClick={executeAndStopPropagation(() => navigate(1))}>
+            <Icon code="chevron_right" size={iconSizes._32} />
+          </NextArrow>
+        )}
+      </Slider>
     </StyledSlideshow>
   )
 }
