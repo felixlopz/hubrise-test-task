@@ -1,9 +1,21 @@
 import * as React from "react"
 
+import Icon from "@components/Icon"
 import { ContentImage } from "@utils/contentImage"
+import { iconSizes } from "@utils/styles"
 
-import { Close, NextArrow, PrevArrow } from "./Controls"
-import { Count, Topbar, Title, StyledSlideshow, StyledSlider, Slide, SlideImage } from "./Styles"
+import {
+  Count,
+  Topbar,
+  Title,
+  StyledSlideshow,
+  StyledSlider,
+  Slide,
+  SlideImage,
+  PrevArrow,
+  NextArrow,
+  Close,
+} from "./Styles"
 
 interface SlideshowProps {
   title: string
@@ -46,32 +58,39 @@ const Slideshow = ({ title, contentImages, currentImageSrc, onClose, navigate }:
   const currentImageNumber = contentImages.findIndex((contentImage) => contentImage.src === currentImageSrc) + 1
   const contentImage = contentImages[currentImageNumber - 1]
 
+  const executeAndStopPropagation = (fn: () => void) => (e: React.MouseEvent) => {
+    e.stopPropagation()
+    fn()
+  }
+  const stopPropagation = (e: React.MouseEvent) => e.stopPropagation()
+
   return (
     <StyledSlideshow onClick={() => onClose()}>
-      <Topbar onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}>
+      <Topbar onClick={stopPropagation}>
         <Title>{title}</Title>
         <Count>
           {currentImageNumber} / {contentImages.length}
         </Count>
-        <Close onClick={() => onClose()} />
+        <Close onClick={executeAndStopPropagation(onClose)}>
+          <Icon code="close" size={iconSizes._32} />
+        </Close>
       </Topbar>
 
       <StyledSlider>
-        <PrevArrow currentImageNumber={currentImageNumber} onClick={() => navigate(-1)} />
+        <PrevArrow $isVisible={currentImageNumber !== 1} onClick={executeAndStopPropagation(() => navigate(-1))}>
+          <Icon code="chevron_left" size={iconSizes._32} />{" "}
+        </PrevArrow>
 
         <Slide>
-          <SlideImage
-            {...contentImage}
-            alt={title}
-            onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}
-          />
+          <SlideImage {...contentImage} alt={title} onClick={stopPropagation} />
         </Slide>
 
         <NextArrow
-          currentImageNumber={currentImageNumber}
-          totalNumberOfImages={contentImages.length}
-          onClick={() => navigate(1)}
-        />
+          $isVisible={currentImageNumber < contentImages.length}
+          onClick={executeAndStopPropagation(() => navigate(1))}
+        >
+          <Icon code="chevron_right" size={iconSizes._32} />
+        </NextArrow>
       </StyledSlider>
     </StyledSlideshow>
   )
