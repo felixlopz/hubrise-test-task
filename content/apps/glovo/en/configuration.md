@@ -10,7 +10,7 @@ meta:
 The configuration page lets you customise the behaviour of Glovo Bridge based on your preferences.
 These are divided into different sections for an easier navigation.
 
-![Glovo Bridge configuration page](../images/002-en-glovo-configuration-cropped.png)
+![Glovo Bridge configuration page](./images/002-configuration-cropped.png)
 
 ## Language
 
@@ -52,7 +52,7 @@ This section of the configuration page lets you specify the ref code for online 
 
 ## Catalog
 
-![Glovo Bridge configuration page, Catalog section](../images/006-en-glovo-configuration-catalog.png)
+![Glovo Bridge configuration page, Catalog section](./images/006-configuration-catalog.png)
 
 If your catalog has multiple variants, this section lets you select which variant you can push to Glovo.
 
@@ -61,7 +61,7 @@ By default, this option is turned off.
 
 ## Inventory
 
-![Glovo Bridge configuration page, Inventory section](../images/007-en-glovo-configuration-inventory.png)
+![Glovo Bridge configuration page, Inventory section](./images/007-configuration-inventory.png)
 
 You can push inventory data into Glovo from the **Actions** page. When you do so, products set as out of stock in HubRise are hidden on Glovo.
 

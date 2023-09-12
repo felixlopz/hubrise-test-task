@@ -52,7 +52,7 @@ The layout of a system request page is identical to that of an order page.
 
 System requests are generally sent by Glovo Bridge to notify HubRise about a change in the configuration or to fetch the most up-to-date information. As an example, the following image displays a request to update the Glovo Bridge callback after a configuration change.
 
-![System request page on Glovo Bridge](../images/005-en-glovo-system-request.png)
+![System request page on Glovo Bridge](./images/005-system-request.png)
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
