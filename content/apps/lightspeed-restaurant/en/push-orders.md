@@ -1,5 +1,6 @@
 ---
 title: Push Orders
+path_override: push-orders
 position: 9
 layout: documentation
 meta:
@@ -42,7 +43,7 @@ When the total payment amount does not match the total price for the order as ca
 
 ---
 
-**Related FAQ**: <Link to="/apps/lightspeed-restaurant/troubleshooting/price-differences-errors/">How Do I Troubleshoot Price Difference Errors?</Link>
+**Related FAQ**: [How Do I Troubleshoot Price Difference Errors?](/apps/lightspeed-restaurant/troubleshooting/price-differences-errors/)
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Account
+path_override: account
 position: 7
 layout: documentation
 meta:
@@ -39,7 +40,7 @@ When creating a new Account, the first Location must be created at the same time
 2. From the **Permissions** section, click **Create Account**.
 3. Enter the information required, then click **Create**.
 
-![Create an account on HubRise](../images/064-en-2x-create-account.png)
+![Create an account on HubRise](./images/064-2x-create-account.png)
 
 The **Account Name** is the name you give your business or brand. For example, if your brand is called Fast Pizza, the **Account Name** will be `Fast Pizza`.
 

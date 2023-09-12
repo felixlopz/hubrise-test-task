@@ -1,5 +1,6 @@
 ---
 title: Main Page
+path_override: main-page
 position: 4
 layout: documentation
 meta:

@@ -1,5 +1,6 @@
 ---
 title: User Interface
+path_override: user-interface
 position: 3
 layout: documentation
 meta:
@@ -24,7 +25,7 @@ Each row in the page shows the following information about an operation:
 
 The **System request** label indicates that the operation is not related to a specific order.
 
-![Operations page of Deliveroo Bridge developed by HubRise](../images/003-en-main-page.png)
+![Operations page of Deliveroo Bridge developed by HubRise](./images/003-main-page.png)
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
@@ -42,7 +43,7 @@ Each row in the logs displays the following information:
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
-![Order logs page on Deliveroo Bridge](../images/004-en-order-logs.png)
+![Order logs page on Deliveroo Bridge](./images/004-order-logs.png)
 
 Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
@@ -52,7 +53,7 @@ The layout of a system request page is identical to that of an order page.
 
 System requests are generally sent by Deliveroo Bridge to notify HubRise about a change in the configuration or to fetch the most up-to-date information. As an example, the following image displays a request to update the Deliveroo Bridge callback after a configuration change.
 
-![System request page on Deliveroo Bridge](../images/005-en-system-request.png)
+![System request page on Deliveroo Bridge](./images/005-system-request.png)
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
@@ -66,10 +67,11 @@ From this page, you will be able to customise the behaviour of Deliveroo Bridge.
 
 To access the actions page, click **Actions** at the top of the screen. If the link is not visible, first complete the configuration of Deliveroo Bridge.
 
-From the actions page, you can perform the following actions:
+From the **Actions** page, you can perform the following actions:
 
 - **Push Catalog**: Push the catalog to Deliveroo. For more details, see [Push Catalog](/apps/deliveroo/push-catalog).
-- **Push Inventory**: Sync the inventory from HubRise to Deliveroo.
+- **Pull Catalog**: Pull the menu from Deliveroo into a HubRise catalog. For more details, see [Pull Catalog](/apps/deliveroo/pull-catalog).
+- **Push Inventory**: Push your HubRise inventory to Deliveroo.
 
 ## Language and Navigation
 

@@ -1,5 +1,6 @@
 ---
 title: FAQs
+path_override: faqs
 position: 6
 layout: documentation
 meta:
@@ -7,4 +8,4 @@ meta:
   description: Questions et réponses fréquemment posées sur ExperyPrint et son intégration de Solution avec HubRise.
 ---
 
-- <Link to="/apps/expedy/faqs/conserver-mon-imprimante/">Puis-je conserver mon imprimante et la connecter à HubRise ?</Link>
+- [Puis-je conserver mon imprimante et la connecter à HubRise ?](/apps/expedy/faqs/conserver-mon-imprimante/)

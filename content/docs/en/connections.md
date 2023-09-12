@@ -1,5 +1,6 @@
 ---
 title: Apps and Connections
+path_override: connections
 position: 4
 layout: documentation
 meta:
@@ -13,7 +14,7 @@ You can connect new apps and see apps connected to your HubRise Account from the
 
 HubRise is used to connect an ever-growing ecosystem of solutions: EPOS, online ordering, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), self ordering solutions, delivery management, delivery services, eMarketing (SMS/emailing), business intelligence, stock management, loyalty systems, and more. The number of compatible applications increases every month.
 
-You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact [contact@hubrise.com](mailto:contact@hubrise.com) to find out if an integration is planned.
+You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact contact@hubrise.com to find out if an integration is planned.
 
 ## Connect a New App
 
@@ -21,16 +22,17 @@ Apps are connected to either a HubRise Account or Location. Connection level dep
 
 Some apps can be connected directly from the HubRise back office, while others require configuration from within the app before connection. For complete details, see the app documentation in the HubRise [Apps](/apps) page.
 
+Some apps must be connected at the account level, while others connect to a specific location. The **Connect** button in the process below will be greyed-out if you have not selected the corresponding level.
+
 To connect a new app to your HubRise Account from the HubRise back office:
 
 1. Log in to HubRise from the [HubRise Login page](https://manager.hubrise.com/login).
 1. Click **CONNECTIONS** on the left navigation panel.
 1. Select **View available apps**.
-1. Select **All locations** or the **Location** to connect.
+1. Select the **Location** to connect, or **All locations** if the app connects at the account level.
 1. Select the app you want to install. If the app is not on this list, check the app documentation in the HubRise [Apps](/apps) page.
-1. Check instructions for the specific app and click **Connect**. When installing a new app, you will be required to grant the app access to your HubRise Account.
-
-Some apps must be connected at the **All locations** level, while others connect to a specific Location. The **Connect** button will be greyed-out if you have not selected the corresponding level.
+1. Check instructions for the specific app and click **Connect**. The app will open in a new browser window. If not, check your browser for ad-blockers, which might prevent the opening of a new window.
+1. Grant the app access to your HubRise data by clicking **Allow**.
 
 ---
 
@@ -42,13 +44,13 @@ Some apps must be connected at the **All locations** level, while others connect
 
 Some apps can be accessed from HubRise. If so, you can open the app by clicking on **CONNECTIONS** and selecting **Open** for the specific app. The app will open in a new browser window.
 
-![HubRise Connection - Open an app](../images/011-en-2x-connections-open-app.png)
+![HubRise Connection - Open an app](./images/011-2x-connections-open-app.png)
 
 ## View Connection Activity
 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
-![HubRise Connection - Activity Displayed](../images/080-en-connection-activity.png)
+![HubRise Connection - Activity Displayed](./images/080-connection-activity.png)
 
 ---
 
@@ -64,7 +66,7 @@ To view logs for a connection, select **CONNECTIONS** > **Actions** > **View log
 
 Logs record the requests from an app to HubRise. Each request is a transaction between an app and HubRise, such as an order, a new customer registration, or any other communication between an app and HubRise.
 
-![HubRise Connection logs](../images/050-en-2x-connection-logs.png)
+![HubRise Connection logs](./images/050-2x-connection-logs.png)
 
 ### General Information
 
@@ -74,7 +76,7 @@ At the top, the **Connection logs** page displays general information about the 
 - **Scope**: The connection permissions, such as whether the connection can access the Account or a single Location, what read/write access it has on the data, etc.
 - **Customer list** and **Catalog**: Depending on the Scope, additional lines can display the ID for the resources that have been granted access to, such as the customer list and the catalog.
 
-![HubRise General Information logs](../images/051-en-2x-general-information-logs.png)
+![HubRise General Information logs](./images/051-2x-general-information-logs.png)
 
 ### Filter
 
@@ -83,7 +85,7 @@ Logs can be filtered by resource and method through the following process:
 1. Select **Edit**.
 1. Select the resources and methods that you want to display. To view all log records, uncheck all resources and methods, or click **Reset**.
 
-![HubRise Connection filter](../images/052-en-2x-filter-logs.png)
+![HubRise Connection filter](./images/052-2x-filter-logs.png)
 
 ### Logs
 
@@ -108,7 +110,7 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). F
 
 ---
 
-## Block or Disconnect App
+## Block or Disconnect an App
 
 HubRise allows you to block or disconnect apps:
 
@@ -128,4 +130,13 @@ To block or disconnect an app from HubRise, follow these steps:
 2. Find the app you want, then click **Actions** > **Block** or **Disconnect**.
 3. Click **Confirm**.
 
-![HubRise Connection - Remove an app](../images/014-en-2x-connections-disconnect-app.png)
+![HubRise Connection - Remove an app](./images/014-2x-connections-disconnect-app.png)
+
+## Unblock an App
+
+During the onboarding process, the HubRise support team may block certain apps to prevent them from interfering with your order flow while configuration takes place. You can unblock an app at any time.
+
+To unblock an app, follow these steps:
+
+1. Go to **CONNECTIONS**.
+2. Find the app you want, then click **Actions** > **Unblock**.

@@ -1,5 +1,6 @@
 ---
 title: Push Orders
+path_override: push-orders
 position: 6
 layout: documentation
 meta:
@@ -34,15 +35,19 @@ PixelPoint Bridge sends deals to your EPOS as coupons. Items that belong to the 
 
 Deal items may have options. In this case, the options are sent to PixelPoint as items attached to the coupon item, which itself is attached to the coupon.
 
-By default, PixelPoint Bridge keeps the price structure of the HubRise deal. For example, if the deal is 2 for 1, the coupon price will be 0, and it will have two items: the first one with the full price, and the second one with a price of 0. You can configure the bridge to aggregate the prices of the deal items at the coupon level instead. For more information, see [Deals](/apps/pixelpoint-bridge/configuration#deals) in the Configuration section.
+By default, PixelPoint Bridge keeps the price structure of the HubRise deal. For example, if the deal is "2 for 1", the coupon price will be `0`, and it will have two items: the first one with the full price, and the second one with a price of `0`. You can configure the bridge to aggregate the prices of the deal items at the coupon level instead.
 
 Deals with no ref codes are skipped. The order will be accepted by PixelPoint, but it will contain no information about the coupon. The items prices will be correct however, as PixelPoint uses prices from HubRise, which include the deal.
+
+For more information about setting up and mapping combos in PixelPoint, see [Map Ref Codes](/apps/pixelpoint-bridge/map-ref-codes#deals). To learn about the bridge configuration options for deals, see [Configuration](/apps/pixelpoint-bridge/configuration#deals).
 
 ## Discounts
 
 PixelPoint Bridge sends discounts to your EPOS as coupons, along with their amount and their name. Discounts apply to the whole order. They are not attached to any specific item.
 
-If the ref code is specified, it must match a coupon product code in PixelPoint, otherwise the order will be rejected. If the ref code is not specified, the behaviour depends on the configuration of the bridge. For more information, see [Discounts](/apps/pixelpoint-bridge/configuration#discounts) in the Configuration section.
+If the ref code is specified, it must match a coupon product code in PixelPoint, otherwise the order will be rejected. If the ref code is not specified, the behaviour depends on the configuration of the bridge.
+
+For more information about setting up and mapping coupons in PixelPoint, see [Map Ref Codes](/apps/pixelpoint-bridge/map-ref-codes#discounts). To learn about the bridge configuration options for discounts, see [Configuration](/apps/pixelpoint-bridge/configuration#discounts).
 
 ## Charges
 

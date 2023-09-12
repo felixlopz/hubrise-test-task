@@ -1,5 +1,6 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
@@ -11,27 +12,29 @@ You can connect WooCommerce to HubRise with a few simple steps.
 
 ---
 
-**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute! 
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
 ## 1. Connect WooCommerce Bridge
 
-To connect WooCommerce Bridge to HubRise, follow these steps.
+To connect WooCommerce Bridge to HubRise, follow these steps:
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
 1. Select the location you want to connect from the dropdown menu.
 1. Select **CONNECTIONS**, then **View available apps**.
 1. Select **WooCommerce Bridge** from the list of apps.
 1. Click **Connect**.
-1. Click **Allow** to grant WooCommerce Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
-1. Enter the URL of your WooCommerce store, then click **Save** to confirm.
-   ![Initial URL page for WooCommerce Bridge](../images/001-en-woocommerce-url.png)
-1. Click **Connect WooCommerce**. This will redirect you to the WooCommerce authorisation page.
-   - If you are not logged in to WooCommerce, enter your username and password, then click **Login**.
-     ![WooCommerce login page](../images/006-en-woocommerce-login.png)
+1. Click **Allow** to grant WooCommerce Bridge access to your registered location on HubRise. If your account has multiple locations, expand the **Choose location** section to select the desired location, and then click **Allow**.
+1. Enter the URL of your WooCommerce store:
+   ![Initial URL page for WooCommerce Bridge](./images/012-woocommerce-step-1.png)
+1. If you have previously encountered connection issues, you may adjust the **Advanced options**. If not, leave them unchanged. For more information, refer to our [Troubleshooting](/apps/woocommerce/troubleshooting) guide.
+1. Click **Save** to confirm.
+1. Click **Connect WooCommerce**. You will be redirected to the WooCommerce authorisation page.
+    - If you are not logged in to WooCommerce, enter your username and password, then click **Login**.
+     ![WooCommerce login page](./images/006-woocommerce-login.png)
    - Click **Approve** to authorise the connection with HubRise.
-     ![WooCommerce authorisation page](../images/007-en-woocommerce-authorisation.png)
+     ![WooCommerce authorisation page](./images/007-woocommerce-authorisation.png)
 1. You will be redirected to the WooCommerce Bridge Configuration page, where you can customise your connection with HubRise.
 
 ## 2. Configure Your Preferences

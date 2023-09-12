@@ -1,11 +1,14 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Smood | HubRise
   description: Smood overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
-path_override: /
+gallery:
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Food Ordering Platforms
   availability: Switzerland
@@ -14,22 +17,13 @@ app_info:
   contact:
 ---
 
----
-
-**IMPORTANT NOTE**: Full documentation of this integration will be available soon.
-
----
-
 ## Description
 
-Smood is a food delivery platform present in more than 25 cities in Switzerland. Smood only performs delivery with car drivers.
+Smood is a food delivery platform operational in more than 25 cities in Switzerland. Smood offers a wide range of restaurants, and delivers orders exclusively by car.
 
-By partnering with Smood, restaurants can increase the number of customers and orders.
-Smood takes care of all the marketing aspects, as well as receiving and delivering orders.
-Restaurants, on the other hand, can focus on preparing the food.
+By partnering with Smood, restaurants can expand their customer base and increase their revenue. Smood manages all marketing and delivery operations, enabling restaurants to focus on food preparation.
 
-Smood offers also a white-label delivery service called Dismatch, which is also [integrated with HubRise](/apps/smood-dismatch).
-This service allows restaurants to externalise their deliveries.
+Smood also offers a white-label delivery service called Dismatch, which is [integrated with HubRise](/apps/smood-dismatch). This service allows restaurants to externalise their deliveries.
 
 ## Integration Features
 
@@ -40,7 +34,7 @@ Connecting Smood allows your food ordering and delivery platform to:
 - Pull a catalog from HubRise.
 - Synchronise inventory with HubRise.
 
-Smood can be connected to HubRise from the Smood back office, after sending a request to the Smood support team.
+Smood can be connected to HubRise from the Smood back office.
 
 ## Why Connect?
 

@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Talabat | HubRise
   description: Talabat overview, reasons for connecting your food delivery platform to HubRise and summary of integrated features. Send orders to you EPOS and other apps.
 gallery:
-path_override: /
 app_info:
   category: Food Ordering Platforms
   availability: Kuwait, Saudi Arabia, Bahrain, the United Arab Emirates, Oman, Qatar, Jordan, Egypt, and Iraq

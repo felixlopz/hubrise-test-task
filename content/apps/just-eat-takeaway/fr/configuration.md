@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 5
 layout: documentation
 meta:
@@ -9,7 +10,7 @@ meta:
 
 La page de configuration vous permet de personnaliser le comportement de Just Eat Takeway Bridge selon vos préférences. Elle est divisée en plusieurs sections pour faciliter la navigation.
 
-![Page de configuration de Just Eat Takeaway Bridge](../images/002-fr-jet-configuration-page.png)
+![Page de configuration de Just Eat Takeaway Bridge](./images/002-jet-configuration-page.png)
 
 ## Langue
 

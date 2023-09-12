@@ -1,5 +1,6 @@
 ---
 title: Push the Catalog
+path_override: push-catalog
 position: 6
 layout: documentation
 meta:
@@ -18,9 +19,10 @@ This page explains how to push your catalog, and what information is sent to the
 
 To update your menu in Just Eat, you should have a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to push their menu into HubRise. Refer to your EPOS documentation on the HubRise website to verify.
 
-Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats or Deliveroo.
+Alternatively, you can populate a HubRise catalog by pulling the menu from an existing Deliveroo or Uber Eats store. For more information, refer to these links:
 
-For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+- [Pull a Catalog from Deliveroo](/apps/deliveroo/pull-catalog)
+- [Pull a Catalog from Uber Eats](/apps/uber-eats/pull-catalog)
 
 ## Manual Catalog Push
 

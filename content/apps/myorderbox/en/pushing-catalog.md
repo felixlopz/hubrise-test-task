@@ -1,5 +1,6 @@
 ---
 title: Pushing The Catalog
+path_override: pushing-catalog
 position: 5
 layout: documentation
 meta:

@@ -1,6 +1,7 @@
 ---
 title: Style Guide
-position: 1
+path_override: style-guide
+position: 2
 layout: documentation
 meta:
   title: Documentation Style Guide | HubRise
@@ -264,7 +265,7 @@ If you foresee an issue that may form part of the Frequently Asked Questions, th
 
 ---
 
-**Related FAQ**: <Link to="/docs/faqs/create-a-user-profile-for-another-person/">How Do I Create a User Profile for Another Person?</Link>
+**Related FAQ**: [How Do I Create a User Profile for Another Person?](/docs/faqs/create-a-user-profile-for-another-person/)
 
 ---
 
@@ -287,13 +288,13 @@ UI reference should be in bold and have the same capitalisation as the UI, excep
 
 For example:
 
-- Click **COMPLETED** <- This refers to the button. Since it is in all caps in the UI, it is all caps in the documentation.
+- Click **COMPLETED** ← This refers to the button. Since it is in all caps in the UI, it is all caps in the documentation.
 
-![Screenshot of Click Completed](../images/002-en-click-completed-screenshot.png)
+![Screenshot of Click Completed](./images/002-click-completed-screenshot.png)
 
-- **Confirmed Time** <- This refers to the text.
+- **Confirmed Time** ← This refers to the text.
 
-![Screenshot of Time Completed](../images/003-en-completed-time-screenshot.png)
+![Screenshot of Time Completed](./images/003-completed-time-screenshot.png)
 
 ### Optional steps
 

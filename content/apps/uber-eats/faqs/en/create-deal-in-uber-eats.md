@@ -1,5 +1,6 @@
 ---
 title: How to Create a Deal in Uber Eats?
+path_override: create-deal-in-uber-eats
 position: 7
 layout: documentation
 meta:
@@ -62,10 +63,10 @@ To create the individual products that are part of every deal line follow these 
 1. Fill in the details for your product.
    - Enter the name of the product, for example `Pizza Margherita 8"`.
    - Under **Sell item on its own**, select **No**.
-     ![Product name and sell item on its own choice](../../images/012-en-product-name-menu-maker.png)
+     ![Product name and sell item on its own choice](./images/012-product-name-menu-maker.png)
    - Under **Default price**, if choosing this product requires a surcharge, enter the surcharge amount. Otherwise, enter `0`.
    - Expand **Extra details**, then under **External data**, enter the ref code of the product.
-     ![Ref code under extra details](../../images/013-en-extra-details-menu-maker.png)
+     ![Ref code under extra details](./images/013-extra-details-menu-maker.png)
    - Optional: Fill in the other relevant fields in the page.
 1. To confirm the product, click **Save**.
 1. Repeat the process for all the other products that are part of the deal lines. Click **Duplicate** to use the current product as a starting point for the next ones.
@@ -78,13 +79,13 @@ After creating all the products, to group them together within a modifier group 
 1. Fill in the details of your modifier group.
    - Enter the name of the modifier group, for example `Choose your pizza`.
    - In the **Add item** field, select all the products that are part of the product, then click **Add**.
-     ![Modifier group name and products](../../images/019-en-modifier-group-name-menu-maker.png)
+     ![Modifier group name and products](./images/019-modifier-group-name-menu-maker.png)
    - Drag the products in the order you want them to appear on the list.
    - In the **Rules** section, enter the following values:
      - **Minimum number of options a customer must select**: `1`
      - **Maximum number of options a customer can select**: `1`
      - **How many times can customers select any single option**: `1`
-       ![Modifier group rules](../../images/015-en-modifier-group-rules-menu-maker.png)
+       ![Modifier group rules](./images/015-modifier-group-rules-menu-maker.png)
 1. To confirm the modifiers group, click **Save**.
 1. Repeat the process for all the deal lines that are part of the deal. Click **Duplicate** to use the current modifier group as a starting point for the next ones.
 
@@ -98,10 +99,10 @@ Finally, to create the product that represents the deal and attach the modifier 
    - Under **Sell item on its own**, select **Yes**.
    - Under **Categories**, select the category that contains the deal.
    - Under **Default price**, enter the total price of the deal.
-     ![Deal name](../../images/020-en-deal-name-menu-maker.png)
+     ![Deal name](./images/020-deal-name-menu-maker.png)
    - Expand **Customise item**, then click **Add modifier group**. From the modifier groups list, select the modifier group that contains the products. Add all the deal lines that are part of the deal, then click **Add**.
-     ![Deal customisation](../../images/021-en-deal-customisation-maker.png)
+     ![Deal customisation](./images/021-deal-customisation-maker.png)
    - Expand **Extra details**, then under **External data**, enter `DEAL-`, followed by the ref code of the deal.
-     ![Deal details](../../images/022-en-deal-details-menu-maker.png)
+     ![Deal details](./images/022-deal-details-menu-maker.png)
    - Optional: Fill in the other relevant fields in the page.
 1. To confirm the deal, click **Save**.

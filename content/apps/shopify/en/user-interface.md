@@ -1,5 +1,6 @@
 ---
 title: User Interface
+path_override: user-interface
 position: 3
 layout: documentation
 meta:
@@ -63,7 +64,7 @@ To access the actions page, click **Actions** at the top of the screen. If the l
 From the actions page, you can perform the following actions:
 
 - **Push Catalog**: Push the catalog to Shopify. For more details, see [Push Catalog](/apps/shopify/push-catalog).
-- **Push Inventory**: Sync the inventory from HubRise to Shopify.
+- **Push Inventory**: Push the product inventory to Shopify.
 
 ## Language and Navigation
 

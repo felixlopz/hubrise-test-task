@@ -1,6 +1,7 @@
 ---
 title: Screenshots Guide
-position: 3
+path_override: screenshots-guide
+position: 4
 layout: documentation
 meta:
   title: Screenshots Guide | HubRise

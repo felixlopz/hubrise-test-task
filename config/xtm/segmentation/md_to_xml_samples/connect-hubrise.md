@@ -26,12 +26,6 @@ The activation typically takes less than one week.
 
 ## 2. Connect the Bridge
 
----
-
-**IMPORTANT NOTE:** Deliveroo Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
-
 To connect Deliveroo Bridge to HubRise, follow these steps.
 
 1. Log in to your HubRise account.

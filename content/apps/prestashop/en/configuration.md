@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 4
 layout: documentation
 meta:
@@ -9,7 +10,7 @@ meta:
 
 The configuration page allows you to customise the behaviour of PrestaShop Bridge based on your preferences. The settings are divided into different sections for an easier navigation.
 
-![PrestaShop Bridge configuration page](../images/005-en-prestashop-configuration-page.png)
+![PrestaShop Bridge configuration page](./images/005-prestashop-configuration-page.png)
 
 ## Language
 
@@ -50,28 +51,38 @@ This section of the configuration page allows you to specify the ref codes for o
 
 ## Catalog
 
-![PrestaShop Bridge configuration page, Catalog section](../images/006-en-configuration-catalog.png)
+![PrestaShop Bridge configuration page, Catalog section](./images/006-2x-configuration-catalog.png)
 
-To update your PrestaShop catalog every time this is updated on HubRise, select the checkbox in this section.
-Only new products in the HubRise catalog will be sent to PrestaShop. The Bridge does not update existing PrestaShop products.
+### Catalog Variant to Push
+
+Catalog variants give you the flexibility to disable specific items or adjust prices for your PrestaShop website.
+
+If your catalog includes variants, you have the option to select which one to use. When **(none)** is selected, the default items along with their standard prices are used.
+
+### Automatic Catalog Push
+
+Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with PrestaShop whenever it gets updated.
+
+Only new products added to the HubRise catalog will be sent to PrestaShop. Any existing products within PrestaShop will remain unchanged.
 
 ## Inventory
 
-To update your PrestaShop inventory every time this is updated on HubRise, select the checkbox in this section.
-Products that are unavailable in your HubRise catalog are automatically marked as unavailable in your PrestaShop store.
+Through inventory synchronisation, products that have a stock quantity of zero can be hidden on your PrestaShop website.
+
+Select the **Enable automatic inventory push** checkbox to synchronise your HubRise inventory with PrestaShop whenever it gets updated.
 
 ## Save the Configuration
 
-Once you are happy with the configuration of PrestaShop Bridge, click **Save** at the top of the page to go back to the **Latest operations** page.
+To save the configuration, click **Save** at the top of the page.
 
 ## Reset the Configuration
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
 ---
 
-**IMPORTANT NOTE:** Resetting the configuration will also erase your integration settings. To continue receiving PrestaShop orders, you will need to set up the connection again.
+**IMPORTANT NOTE:** Resetting the configuration will instantly disconnect the bridge from PrestaShop.
 
 ---
 
-Resetting the configuration does not remove the operation logs displayed in the main page.
+Resetting the configuration does not delete the operation logs displayed in the main page.

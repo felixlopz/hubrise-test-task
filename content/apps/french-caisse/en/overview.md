@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | French Caisse | HubRise
   description: French Caisse overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise data between your [EPOS] and your other apps.
 gallery:
-path_override: /
 app_info:
   category: Point of Sales
   availability: France, Switzerland

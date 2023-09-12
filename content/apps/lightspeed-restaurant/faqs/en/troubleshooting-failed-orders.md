@@ -1,5 +1,6 @@
 ---
 title: Why Are Some Orders Not Received Correctly in Lightspeed?
+path_override: troubleshooting-failed-orders
 position: 4
 layout: documentation
 meta:

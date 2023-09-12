@@ -1,10 +1,10 @@
 ---
 title: Connect to HubRise
+path_override: connect-hubrise
 position: 2
 layout: documentation
 meta:
   title: Connect to HubRise | SOLUTION | HubRise
-  description: Connect SOLUTION to HubRise, steps to follow to receive your orders in your SOLUTION EPOS.
   description: Connect SOLUTION to HubRise, steps to follow to receive your SOLUTION orders in your EPOS.
 ---
 
@@ -49,7 +49,7 @@ Adding a user is the recommended way to grant access to a third party to your Hu
 
 ## Contact SOLUTION Support
 
-To request the connection of your [EPOS], contact SOLUTION support by email at [contact@SOLUTION.com](mailto:contact@SOLUTION.com). You can include [support@hubrise.com](mailto:support@hubrise.com) in copy for a coordinated follow-up between our two teams.
+To request the connection of your [EPOS], contact SOLUTION support by email at contact@SOLUTION.com. You can include support@hubrise.com in copy for a coordinated follow-up between our two teams.
 
 Include in your request the name of your HubRise account, its HubRise identifier and the location to connect. For more information, see [Location Name and ID](/docs/locations#location-name-and-id).
 

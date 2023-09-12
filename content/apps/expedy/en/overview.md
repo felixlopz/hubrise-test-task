@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Expedy | HubRise
   description: Expedy overview, reasons for connecting Expedy to HubRise and summary of integrated features. Synchronise data between your EPOS Expedy and your other apps.
 gallery:
-path_override: /
 app_info:
   category: Other Apps
   availability: France

@@ -1,5 +1,6 @@
 ---
 title: Locations
+path_override: locations
 position: 8
 layout: documentation
 meta:
@@ -23,7 +24,7 @@ For example, `Baker Street z6q31-0` indicates the Location name of `Baker Street
 
 ---
 
-**IMPORTANT NOTE**: To check our recommended naming convention for Locations, see [Create a Location](/docs/locations#create-a-location).
+**IMPORTANT NOTE**: To check our recommended naming convention for Locations, see [Add a Location](/docs/locations#add-a-location).
 
 ---
 
@@ -47,7 +48,7 @@ If you operate in a country where including the Intra-Community VAT number is a 
 
 ---
 
-## Create a Location
+## Add a Location
 
 The first Location must be created with the Account. For more information, see [Create an Account](/docs/account/#create-an-account).
 

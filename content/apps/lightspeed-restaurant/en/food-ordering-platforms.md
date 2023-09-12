@@ -1,5 +1,6 @@
 ---
 title: Food Ordering Platforms
+path_override: food-ordering-platforms
 position: 6
 layout: documentation
 meta:
@@ -25,6 +26,7 @@ If you prefer to let Lightspeed support configure these items for you, make sure
 | Just-Eat.ch     | `Eat.ch (EAT)`         |
 | Just Eat        | `Just Eat (JE)`        |
 | HOP Delivery    | `HOP Delivery`         |
+| Smood           | `Smood`                |
 | Takeaway.com    | `Takeaway.com (TA)`    |
 | Thuisbezorgd.nl | `Thuisbezorgd.nl (TH)` |
 | Uber Eats       | `Uber Eats`            |
@@ -60,7 +62,7 @@ Just Eat offers two APIs:
 - The Flyt API is used on the Just-Eat.co.uk, Just-Eat.ie, Menulog and SkipTheDishes platforms, and for chains on other markets. This API allows you to synchronise the orders and the menu.
 - The Takeaway API, the older one, is used for independents on other markets. It allows you to receive orders, but not to send the menu.
 
-If you are not sure which API to use, contact [support@hubrise.com](mailto:support@hubrise.com).
+If you are not sure which API to use, contact support@hubrise.com.
 
 ### Just Eat via Takeaway API
 
@@ -75,13 +77,14 @@ To receive Just Eat orders in Lightspeed Restaurant via Flyt API, you first need
 Just-Eat.ch uses the Just Eat via TakeawayAPI. In the Just Eat Takeaway Bridge configuration page, use the following settings:
 
 | Section        | Name                                     | Ref code                                          |
-| -------------- |------------------------------------------| ------------------------------------------------- |
+| -------------- | ---------------------------------------- | ------------------------------------------------- |
 | Service types  | Just-Eat.ch delivery ref code            | `EATAP`                                           |
 | Service types  | Restaurant delivery ref code             | `EATDRAP`                                         |
 | Service types  | Takeaway ref code                        | `EATEATAP`                                        |
 | Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
 | Discounts      | Discount ref code                        | `EAT99`                                           |
 | Charges        | Delivery charge ref code                 | `EAT77`                                           |
+| Charges        | Service fee ref code                     | `EAT66`                                           |
 | Payments       | Online payment ref code                  | `EATPM`                                           |
 | Payments       | Cash payment ref code                    | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |
@@ -152,6 +155,22 @@ To receive your HOP Delivery orders in Lightspeed, use the following values to c
 | Charges       | Service fee ref code          | `HOP88`       |
 | Payments      | HOP payment ref code          | `HOPPM`       |
 | Payments      | Cash payment ref code         | (leave empty) |
+
+## Smood
+
+To receive your Smood orders in Lightspeed, use the following values to configure Smood. For assistance, contact Smood support team.
+For more details on how to configure the parameters in Smood, see the [Smood documentation](/apps/smood).
+
+| Section       | Name                              | Ref code    |
+| ------------- | --------------------------------- | ----------- |
+| Service types | Platform delivery ref code        | `SMOODDEL`  |
+| Service types | Restaurant delivery ref code      | `SMOODRDEL` |
+| Service types | Takeaway ref code                 | `SMOODCOL`  |
+| Service types | Send orders delivered by Smood as | `Delivery`  |
+| Discounts     | Discount ref code                 | `SMOOD99`   |
+| Discounts     | Promotion ref code                | `SMOOD99`   |
+| Charges       | Delivery charge ref code          | `SMOOD77`   |
+| Payments      | Online payment ref code           | `SMOODPM`   |
 
 ## Uber Eats
 

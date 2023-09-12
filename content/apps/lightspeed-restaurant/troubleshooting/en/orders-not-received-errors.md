@@ -1,5 +1,6 @@
 ---
 title: Orders Not Received
+path_override: orders-not-received-errors
 position: 10
 layout: documentation
 meta:
@@ -15,7 +16,7 @@ In some cases, you might not receive HubRise orders even if no apparent error is
 
 Looking at the [order logs](/apps/lightspeed-restaurant/user-interface#operation-page), the affected orders display the following message:
 
-```
+```json
 {
   "status": "received"
 }

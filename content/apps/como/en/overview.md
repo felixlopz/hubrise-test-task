@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Como | HubRise
   description: Como overview, reasons for connecting Como to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps data with Como.
 gallery:
-path_override: /
 app_info:
   category: Loyalty and Marketing
   availability: Worldwide

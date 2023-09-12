@@ -1,5 +1,6 @@
 ---
 title: Conventions and special cases
+path_override: conventions
 position: 4
 layout: documentation
 meta:
@@ -14,12 +15,6 @@ To cover the edge cases for specific markets, such as the restaurant industry, s
 This page attempts to be a comprehensive list of the most widespread conventions used by HubRise partners. The conventions described here are not strictly enforced by the API, but using them in your solution will improve interoperability with other integrated solutions.
 
 ## General conventions
-
-### Tags on categories
-
-| Tag      | Description                                                                                                          |
-| -------- | -------------------------------------------------------------------------------------------------------------------- |
-| `hidden` | The category is hidden, but its products are available. Typically used to hide products only available within deals. |
 
 ### Tags on SKUs
 
@@ -217,18 +212,20 @@ Typical uses:
 
 The following custom fields can be attached to an order to provide details about the delivery:
 
-| Custom field                  | Encoding | Description                                                                                                                       |
-| ----------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `delivery.driver_pickup_time` | `string` | The time in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) format when the driver is expected to pick up the delivery. |
-| `delivery.tracking_url`       | `string` | URL of the page showing the status of the delivery.                                                                               |
-| `delivery.driver.first_name`  | `string` | Driver's first name.                                                                                                              |
-| `delivery.driver.phone`       | `string` | Driver's phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164).                                                     |
+| Custom field                    | Encoding                                                  | Description                                                                   |
+| ------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| `delivery.driver_assigned_time` | [Time](/developers/api/general-concepts/#dates-and-times) | The time the driver was assigned the delivery.                                |
+| `delivery.driver_pickup_time`   | [Time](/developers/api/general-concepts/#dates-and-times) | The time the driver is expected to pick up the delivery.                      |
+| `delivery.tracking_url`         | `string`                                                  | URL of the page showing the status of the delivery.                           |
+| `delivery.driver.first_name`    | `string`                                                  | Driver's first name.                                                          |
+| `delivery.driver.phone`         | `string`                                                  | Driver's phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164). |
 
-Typical uses:
+Typical workflow:
 
-- The delivery solution sets the `delivery.driver_pickup_time` custom field, and it is displayed in the EPOS for the staff to prepare the order in time.
-- The delivery solution sets the `delivery.driver.first_name` and `delivery.driver.phone` custom fields, and they are displayed in the EPOS to provide the staff with a convenient way to reach out to the driver.
-- The delivery solution sets the `delivery.tracking_url` custom fields, and it is displayed in the ordering application for customers to track their delivery.
+- An order is placed from an ordering solution.
+- The delivery solution is notified about the order, via a webhook. The delivery solution sets the `delivery.xxx` custom fields.
+- The EPOS is informed about the order update via a webhook. It displays `delivery.driver_pickup_time` for the staff to prepare the order in time, and `delivery.driver.first_name` and `delivery.driver.phone` for the staff to reach out to the driver if needed.
+- The ordering solution is also informed about the order update, and it displays a link to `delivery.tracking_url`, so the customer can track their delivery.
 
 <details>
 
@@ -243,6 +240,7 @@ Typical uses:
   ...,
   "custom_fields": {
     "delivery": {
+      "driver_assigned_time": "2021-03-02T12:31:20+02:00",
       "driver_pickup_time": "2021-03-02T12:55:00+02:00",
       "tracking_url": "https://delivery-service.com/track/664566410894-dbfqs",
       "driver": {

@@ -1,11 +1,11 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Postmates | HubRise
   description: Postmates overview, reasons for connecting Postmates to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps.
-path_override: /
 app_info:
   category: Delivery Management
   availability: USA
@@ -36,7 +36,7 @@ Postmates can be connected to HubRise from the HubRise back office.
 
 ## Why Connect?
 
-By connecting Postmates to HubRise, your home delivery service can communicate with your other everyday applications. Receive orders from your EPOS, your online ordering solution, or food delivery platforms directly into Postmates who will take care of the delivery. 
+By connecting Postmates to HubRise, your home delivery service can communicate with your other everyday applications. Receive orders from your EPOS, your online ordering solution, or food delivery platforms directly into Postmates who will take care of the delivery.
 
 Thanks to HubRise, you can synchronise your menu, your customer information and your orders with your EPOS, your online ordering solution, food delivery platforms (including Deliveroo, Uber Eats and Just Eat), delivery management solutions or delivery services, eMarketing (SMS/emailing), business intelligence, inventory management and customer loyalty systems, and more. The number of compatible applications increases every month. To see which apps you can connect, see our [Apps page](/apps).
 

@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 5
 layout: documentation
 meta:
@@ -25,15 +26,30 @@ PixelPoint does not differentiate between products and options. The option ref c
 
 Deals in HubRise are combos in PixelPoint. Combos are a particular type of product that contains a list of products and/or options.
 
-The ref code of a deal is the product code of the combo in PixelPoint. It appears in the top right corner of the combo's edit screen.
+To find the ref code of a combo, open its configuration page. The ref code is in the top right corner. In the example below, the ref code is `734003598`.
 
-![Combo in PixelPoint](../images/005-en-coupon-code.png)
+The combo price is defined in the **Pricing** section. Additional charges may be defined on specific items in the **Combo Items** tab.
+
+![PixelPoint combos - product setup](./images/010-combos-product-setup.png)
+
+![PixelPoint combos - combo items](./images/011-combos-items.png)
 
 ## Discounts
 
 Discounts in HubRise are coupons in PixelPoint.
 
-The ref code of a discount is the product code of the coupon in PixelPoint. You can find this code in the top right corner of the coupon's edit screen.
+To find the ref code of a coupon, open its configuration page. The ref code is in the top right corner. In the example below, the ref code is `734003519`.
+
+Coupons should be configured with the following options:
+
+- **Type of Coupon**: select **Manual by Amount**
+- Select **Applies to all categories**
+- Select **Manual Description**
+- In the **Additional Options** tab, check that no Sale Types or Pay Methods restrictions would prevent the coupon from being applied. If there are, PixelPoint will recalculate the coupon price to `0`.
+
+![PixelPoint coupons - basic options](./images/008-coupons-basic.png)
+
+![PixelPoint coupons - additional options](./images/009-coupons-additional.png)
 
 ## Service Types
 
