@@ -6,9 +6,10 @@ author: Géraldine Malet
 meta:
   title: "Etude de cas : 911 Delicious Company | Blog | HubRise"
   description: Comment 911 Pizza devient 911 Delicious Company et comment ce réseau de franchise réussit sa mutation numérique, informatique et technologique ?
+excerpt: Le réseau 911 Delicious Company a réussi sa transformation numérique grâce à HubRise, passant d'une multitude de plateformes disparates à un système intégré. Son responsable technique Abderrahim Baka revient avec nous sur les étapes et les challenges de la transformation numérique de l'enseigne.
 ---
 
-**Comment 911 Pizza est devenu 911 Delicious Company, et comment le réseau de franchise a réussi sa mutation numérique, informatique et technologique grâce à Hubrise ?**
+**Comment 911 Pizza est devenu 911 Delicious Company, et comment le réseau de franchise a réussi sa mutation numérique, informatique et technologique grâce à HubRise ?**
 
 Abderrahim Baka, responsable marketing et responsable technique & informatique au sein du réseau [911 Delicious Company](https://www.911dc.com/), revient avec nous sur les étapes et les challenges de leur transformation (il parle même de "révolution") et sur les bénéfices dont lui et ses équipes profitent aujourd'hui et qu'il pourra, demain, offrir à ses futurs franchisés.
 
