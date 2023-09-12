@@ -11,7 +11,7 @@ Connecting Glovo to HubRise can be done with a few steps.
 
 ---
 
-**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute! 
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -35,12 +35,6 @@ For more information, see [Map Ref Codes](/apps/glovo/map-ref-codes).
 
 ## 3. Connect Glovo Bridge
 
----
-
-**IMPORTANT NOTE:** Glovo Bridge connects to HubRise at the location level. For more information, see [Locations](/docs/locations/).
-
----
-
 To connect Glovo Bridge to HubRise, follow these steps.
 
 1. Log in to your [HubRise account](https://manager.hubrise.com).
@@ -49,9 +43,9 @@ To connect Glovo Bridge to HubRise, follow these steps.
 1. Select **Glovo Bridge** from the list of apps.
 1. Click **Connect**.
 1. Click **Allow** to grant Glovo Bridge permission to access the location of your restaurant registered in HubRise. For accounts with multiple locations, expand the **Choose location** section to select the correct one first, and then click **Allow**.
-1. A new page asks you to provide your Glovo Restaurant ID provided by the Glovo support team. Enter the ID, then click **Save** to complete the connection process.
+1. A new page asks you to provide your Glovo Store ID provided by the Glovo support team. Enter the ID, then click **Save** to complete the connection process.
 
-![Glovo Restaurant ID](./images/001-glovo-id.png)
+![Glovo Store ID](./images/001-glovo-id.png)
 
 ## 4. Configure Your Preferences
 

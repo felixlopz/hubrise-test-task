@@ -17,7 +17,7 @@ Glovo orders contain the complete information about items and options, including
 
 ## Deals
 
-Glovo Bridge converts Glovo deals into products, and encodes product lines choices as options.
+Glovo Bridge supports deals. It sends the deal name to HubRise, and the discounted price for each item.
 
 ## Order Statuses
 
@@ -40,12 +40,12 @@ A Glovo order goes through several statuses during its lifecycle:
 
 When an order status changes in HubRise, Glovo Bridge notifies Glovo. The correspondence between HubRise and Glovo statuses is as follows:
 
-| HubRise status                                | Glovo status                                                               |
-|-----------------------------------------------|----------------------------------------------------------------------------|
+| HubRise status                                | Glovo status                                                              |
+| --------------------------------------------- | ------------------------------------------------------------------------- |
 | `new`, `received` or `accepted`               | You can configure which one of these statuses makes the order `Accepted`. |
-| `awaiting_shipment` and `awaiting_collection` | `Ready_for_pickup`                                                         |
-| `in_delivery`                                 | `Out_for_delivery`                                                         |
-| `completed`                                   | `Picked_up_by_customer`                                                    |
+| `awaiting_shipment` and `awaiting_collection` | `Ready_for_pickup`                                                        |
+| `in_delivery`                                 | `Out_for_delivery`                                                        |
+| `completed`                                   | `Picked_up_by_customer`                                                   |
 
 Glovo Bridge lets you decide which HubRise status triggers the `Accepted` status. This is useful to handle different scenarios when your EPOS updates the order status. For example, if your EPOS marks an accepted order as `received` on HubRise, you can still notify Glovo that the order has been confirmed.
 
@@ -78,7 +78,7 @@ You cannot update the expected delivery time with Glovo Bridge.
 
 ## Customer Details
 
-Glovo provides the customer name and address, including geographical coordinates, for all orders, regardless of the service type. 
+Glovo provides the customer name and address, including geographical coordinates, for all orders, regardless of the service type.
 The email address is never provided by Glovo, so this field is always missing on HubRise.
 The customer's phone number, however, is available for restaurant-fulfilled orders only.
 
@@ -96,7 +96,7 @@ This section describes how orders are encoded in the JSON payloads you receive f
 
 Glovo uses two different codes to identify orders, which are stored in the following HubRise fields:
 
-- `custom_fields.glovo_code`: the ID that appears on the invoice and that Glovo support teams use to identify the order.
+- `ref`: the ID that appears on the invoice and that Glovo support teams use to identify the order.
 - `collection_code`: a three-digit ID used by couriers to pick up orders.
 
 ### Items
@@ -118,7 +118,6 @@ For every option in the order, Glovo Bridge provides the following information:
 - `name`: The option name
 - `price`: The price for a single item
 - `quantity`: The quantity of the option
-
 
 <details>
 

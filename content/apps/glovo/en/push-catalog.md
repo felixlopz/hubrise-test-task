@@ -9,7 +9,7 @@ meta:
 
 With Glovo Bridge, you can push your HubRise catalog into your Glovo store with a single click.
 
-You can also configure the bridge to push your catalog into Glovo every time it is updated on HubRise. For more information, see [Catalog](/apps/Glovo/configuration#catalog).
+You can also configure the bridge to push your catalog into Glovo every time it is updated on HubRise. For more information, see [Catalog](/apps/glovo/configuration#catalog).
 
 This page explains how to push your catalog, and what information is sent to Glovo.
 
@@ -65,7 +65,7 @@ Glovo Bridge maps HubRise categories one-to-one to categories of products on Glo
 
 The category name, ref code, and image are sent to Glovo.
 
-## Category Images
+### Category Images
 
 The category images that you send to Glovo must satisfy the following requirements:
 
@@ -86,7 +86,7 @@ Glovo Bridge maps single sku products one-to-one to products on Glovo, sending t
 - Images
 - Price
 - Options
-- Tags: "alcoholic" (See note.)
+- Tags: `alcoholic` (see note)
 
 For products with multiple skus, Glovo Bridge creates a product for each sku.
 
@@ -96,7 +96,7 @@ For products with multiple skus, Glovo Bridge creates a product for each sku.
 
 ---
 
-### Options List and Options
+### Option Lists and Options
 
 Glovo Bridge maps option lists and options one-to-one to Glovo.
 
@@ -134,7 +134,7 @@ The order in which categories and products appear on HubRise is maintained on Gl
 
 ### Products and Skus
 
-For every sku in a [product](/developers/api/catalog-management/#products), Glovo Bridge sends the following information to Glovo:
+For every sku in a product, Glovo Bridge sends the following information to Glovo:
 
 - `name` + " " + `sku.name`: Glovo Bridge joins the name of the product and of the sku to create the product name
 - `sku.ref`: The ref of the sku, which will be passed along in orders
@@ -145,7 +145,6 @@ For every sku in a [product](/developers/api/catalog-management/#products), Glov
 - `sku.option_list_refs`: The list of options attached to the sku
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
-
 
 ### Options
 
@@ -170,5 +169,3 @@ For each deal in the catalog, Glovo Bridge creates a Glovo product with the foll
 - `category_ref`: If empty, Glovo Bridge creates a default category in Glovo called "Offers".
 - `ref`: The ref code of the deal becomes the ref of the product, preceded by `DEAL-`. For example, for a deal with ref code `abc123`, Glovo Bridge creates a Glovo product with plu `DEAL-abc123`.
 - `lines`: For each object in the array, Glovo Bridge creates an attribute group, with `lines.name` as the name.
-
-
