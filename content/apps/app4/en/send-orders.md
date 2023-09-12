@@ -9,13 +9,13 @@ meta:
 
 App4 can send orders to your EPOS or any other connected solution through HubRise. You just need to connect App4 to send orders, no additional configuration is required.
 
-## Information Sent to HubRise
+## Information Sent To HubRise
 
-The following sections describe which information about App4 orders is sent to HubRise.
+The following sections describe which information App4 sends to HubRise.
 
 ### Items and Options
 
-App4 send the complete information about items and options, including name, ref code, quantity, and price.
+App4 sends the complete information about items and options, including name, ref code, quantity, and price.
 
 For table orders, App4 sends a new order every time the order is updated at the restaurant.
 

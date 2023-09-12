@@ -34,7 +34,7 @@ When the menu is updated, the page automatically displays a summary of the updat
 
 ---
 
-## Information Sent to App4
+## Information Sent To App4
 
 The following sections provide more details on how your HubRise catalog is mapped to App4.
 
