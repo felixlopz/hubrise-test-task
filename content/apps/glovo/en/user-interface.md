@@ -24,7 +24,7 @@ Each row in the page shows the following information about an operation:
 
 The **System request** label indicates that the operation is not related to a specific order.
 
-<!-- TODO: ADD SCREENSHOT -->
+[//]: # (<!-- TODO: ADD SCREENSHOT -->)
 
 Clicking on a row will open a new page displaying the logs associated with the operation.
 
@@ -42,7 +42,7 @@ Each row in the logs displays the following information:
 
 Clicking on a request will expand it to reveal the detailed logs of the request and its response.
 
-<!-- TODO: ADD SCREENSHOT -->
+[//]: # (<!-- TODO: ADD SCREENSHOT -->)
 
 Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
 
