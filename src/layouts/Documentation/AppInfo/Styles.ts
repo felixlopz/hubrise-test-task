@@ -11,7 +11,7 @@ export const StyledAppInfo = styled.div`
 
 export const Item = styled.div`
   display: inline;
-  line-height: ${lineHeights.textCompact};
+  line-height: ${lineHeights.compact};
 `
 
 export const Label = styled.span``

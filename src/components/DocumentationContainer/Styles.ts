@@ -4,7 +4,7 @@ import { colors, fontSizes, lineHeights, mixin } from "@utils/styles"
 
 const commonTitleStyles = css`
   color: ${colors.textDarkest};
-  line-height: ${lineHeights.title};
+  line-height: ${lineHeights.comfortable};
   &:first-child {
     margin-top: 0;
   }
