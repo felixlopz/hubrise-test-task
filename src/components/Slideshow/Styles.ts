@@ -70,23 +70,25 @@ export const Slide = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  padding: 1rem 0;
 
   @media not all and (min-width: ${mobileBreakpoint}) {
     overflow: auto;
   }
 
   @media (min-width: ${mobileBreakpoint}) {
-    padding: 0 6rem;
-    justify-content: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 `
 
 export const SlideImage = styled(Image)`
   border-radius: 0.6rem;
   user-select: none;
+  width: auto;
+  margin: 0 auto;
 
   @media not all and (min-width: ${mobileBreakpoint}) {
-    margin: 0 1rem;
     max-height: 100%;
     max-width: 250vw;
   }
