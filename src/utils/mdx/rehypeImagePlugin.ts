@@ -3,7 +3,7 @@ import { Node } from "unist"
 import { visit } from "unist-util-visit"
 import { VFile } from "vfile"
 
-import contentImage, { ContentImage } from "@utils/contentImage"
+import contentImage, { ContentImageWithAlt } from "@utils/contentImage"
 import { ContentDirName } from "@utils/files"
 
 /**
@@ -14,6 +14,7 @@ interface ImgNode extends Node {
   tagName: "img"
   properties: {
     src: string
+    alt?: string
     height?: number
     width?: number
   }
@@ -32,14 +33,14 @@ function isLocalImage(node: ImgNode): boolean {
 async function transformImgNode(
   node: ImgNode,
   contentDirName: ContentDirName,
-  images: Array<ContentImage>,
+  images: Array<ContentImageWithAlt>,
 ): Promise<void> {
   const image = await contentImage(contentDirName, node.properties.src)
   node.properties.width = image.width
   node.properties.height = image.height
   node.properties.src = image.src
 
-  images.push(image)
+  images.push({ ...image, alt: node.properties.alt })
 }
 
 /**
@@ -47,7 +48,7 @@ async function transformImgNode(
  * @param contentDirName The directory name of the content directory, e.g. "/apps/deliveroo/en"
  * @param contentImages An array that will be populated with the images found in the document.
  */
-export default function rehypeImagePlugin(contentDirName: ContentDirName, contentImages: Array<ContentImage>) {
+export default function rehypeImagePlugin(contentDirName: ContentDirName, contentImages: Array<ContentImageWithAlt>) {
   return function plugin(this: Processor) {
     return async function transformer(tree: Node, _file: VFile): Promise<Node> {
       const imgNodes: ImgNode[] = []

@@ -2,7 +2,7 @@ import NextLink from "next/link"
 import { compileMDX } from "next-mdx-remote/rsc"
 import remarkGfm from "remark-gfm"
 
-import { ContentImage } from "@utils/contentImage"
+import { ContentImageWithAlt } from "@utils/contentImage"
 import { ContentDirName } from "@utils/files"
 import rehypeImagePlugin from "@utils/mdx/rehypeImagePlugin"
 import remarkHeadingsPlugin from "@utils/mdx/remarkHeadingsPlugin"
@@ -22,9 +22,9 @@ import Table from "./components/Table"
 export const renderDocumentationMdx = async (
   content: string,
   imageDirName: ContentDirName,
-): Promise<{ mdxElement: JSX.Element; headerLinks: Array<HeaderLink>; contentImages: Array<ContentImage> }> => {
+): Promise<{ mdxElement: JSX.Element; headerLinks: Array<HeaderLink>; contentImages: Array<ContentImageWithAlt> }> => {
   const headerLinks: Array<HeaderLink> = []
-  const contentImages: Array<ContentImage> = []
+  const contentImages: Array<ContentImageWithAlt> = []
 
   const { content: mdxElement } = await compileMDX({
     source: content,

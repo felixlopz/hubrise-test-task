@@ -9,14 +9,14 @@ import DocumentationWrapper from "@components/DocumentationWrapper"
 import useTranslation from "@hooks/client/useTranslation"
 import { BlogArchives, BlogMdFile } from "@utils/BlogIndexer/types"
 import { DocLink, Href } from "@utils/DocIndexer/types"
-import { ContentImage } from "@utils/contentImage"
+import { ContentImage, ContentImageWithAlt } from "@utils/contentImage"
 
 export interface BlogPostProps {
   blogIndexUri: Href
   mdFile: BlogMdFile
   bannerImage?: ContentImage
   archives: BlogArchives
-  contentImages: Array<ContentImage>
+  contentImages: Array<ContentImageWithAlt>
   children: React.ReactNode
 }
 

@@ -15,18 +15,14 @@ const Img = ({ src, alt, width, height }: ImgHTMLAttributes<HTMLImageElement>): 
     slideshow: { setCurrentImageSrc },
   } = useDocumentationContext()
 
-  const is2x = src!.includes("-2x-")
-  const displayedWidth = Number(width) / (is2x ? 2 : 1)
-  const displayedHeight = Number(height) / (is2x ? 2 : 1)
-
-  const responsiveSize = Math.min(displayedWidth, imageSizes.documentation)
+  const responsiveSize = Math.min(Number(width), imageSizes.documentation)
 
   return (
     <StyledImage
       src={src!}
       alt={alt ?? ""}
-      width={displayedWidth}
-      height={displayedHeight}
+      width={Number(width)}
+      height={Number(height)}
       sizes={`${responsiveSize}px`}
       onClick={() => setCurrentImageSrc(src!)}
     />
