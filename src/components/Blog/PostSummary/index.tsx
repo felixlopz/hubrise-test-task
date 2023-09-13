@@ -28,7 +28,7 @@ const PostSummary = ({ mdFile, bannerImage }: PostSummaryProps): JSX.Element => 
       {bannerImage && (
         <BannerLink href={mdFile.uri}>
           <BannerImage>
-            <Image {...bannerImage} alt={mdFile.frontMatter.title} sizes={imageSizes.postSummary} />
+            <Image {...bannerImage} alt={mdFile.frontMatter.title} sizes={`${imageSizes.postSummary}px`} />
           </BannerImage>
         </BannerLink>
       )}
