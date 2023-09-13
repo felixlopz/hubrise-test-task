@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import styled, { css } from "styled-components"
 
-import { boxShadows, breakpoints, colors, fontSizes, sizes } from "@utils/styles"
+import { boxShadows, breakpoints, colors, fontSizes, mixin, sizes } from "@utils/styles"
 
 export const Group = styled.div`
   display: grid;
@@ -16,16 +16,18 @@ export const Group = styled.div`
 `
 export const AppLogo = styled.div`
   height: 100px;
-  width: 100%;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
+  ${mixin.centerElement};
 
   @media (min-width: ${breakpoints.medium}) {
     height: 153px;
+    padding: 0.75rem 1rem;
   }
 `
 
 export const AppLogoImage = styled(Image)`
-  height: 100%;
+  max-height: 100%;
+  object-fit: contain;
 `
 
 export const AppDocumentation = styled.div`
