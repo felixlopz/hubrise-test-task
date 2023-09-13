@@ -29,7 +29,7 @@ export const Header = styled.div`
 
 export const Item = styled.li`
   margin-bottom: 0.6em;
-  line-height: ${lineHeights.textCompact};
+  line-height: ${lineHeights.compact};
 `
 
 export const ItemLink = styled(Link)`

@@ -35,9 +35,8 @@ export const iconSizes = {
 }
 
 export const lineHeights = {
-  text: "1.6",
-  textCompact: "1.3",
-  title: "1.25",
+  comfortable: "1.6",
+  compact: "1.3",
 }
 
 export const breakpoints = {

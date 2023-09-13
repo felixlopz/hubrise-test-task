@@ -24,7 +24,7 @@ To download the Lightspeed catalog, follow these steps:
 
 1. From your Lightspeed back office, select **Configuration**, then select **Items** > **Items**.
 1. Click the **Export** button.
-1. ![Export button in the items page of the Lightspeed back office](./images/006-lightspeed-export-items.png)
+   ![Export button in the items page of the Lightspeed back office](./images/006-lightspeed-export-items.png)
 1. In the popup window, choose your operating system type: Mac or Windows (or Manual configuration), then click **Export**.
    ![Choosing the operating system when exporting the catalog in Lightspeed](./images/007-lightspeed-system-choice.png)
 1. After the export is complete, select **Click here to download the exported file** to download the CSV file with your menu.

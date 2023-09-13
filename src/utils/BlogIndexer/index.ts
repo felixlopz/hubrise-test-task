@@ -55,7 +55,7 @@ class BlogIndexer {
           language,
           frontMatter,
           content,
-          bannerFileName: filenames.find((filename) => /^__banner\.(jpg|png)$/.test(filename)),
+          bannerFileName: filenames.find((filename) => /^__banner\.(jpg|png|webp)$/.test(filename)),
         })
       }
     }
