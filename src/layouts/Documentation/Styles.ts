@@ -1,3 +1,5 @@
+import Image from "next/image"
+import Link from "next/link"
 import styled from "styled-components"
 
 import { breakpoints, colors, mixin, sizes, zIndexValues } from "@utils/styles"
@@ -47,7 +49,7 @@ export const Content = styled.div`
   }
 `
 
-export const Logo = styled.div`
+export const LogoLink = styled(Link)`
   grid-area: logo;
   margin-bottom: ${gap};
   padding: ${sizes.mobilePadding};
@@ -57,6 +59,15 @@ export const Logo = styled.div`
 
   @media (min-width: ${breakpoints.large}) {
     padding: ${sizes.desktopPadding};
+  }
+`
+
+export const LogoImage = styled(Image)`
+  max-height: 3rem;
+  object-fit: contain;
+
+  @media (min-width: ${breakpoints.large}) {
+    max-height: unset;
   }
 `
 
