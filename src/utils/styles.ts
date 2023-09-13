@@ -72,7 +72,7 @@ export const colors = {
 
 export const boxShadows = {
   small: `0 3px 3px rgba(0, 0, 0, 0.05)`,
-  smallOmnidirectional: `0 0 3px rgba(0, 0, 0, 0.05)`,
+  image: `0 0 5px rgba(0, 0, 0, 0.05)`,
   medium: `0 5px 10px rgba(0, 0, 0, 0.1)`,
   large: `5px 10px 15px rgba(0, 0, 0, 0.15)`,
 }

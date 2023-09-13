@@ -1,7 +1,9 @@
 import Link from "next/link"
 import styled from "styled-components"
 
-import { breakpoints, colors, mixin, sizes } from "@utils/styles"
+import { breakpoints, colors, fontSizes, mixin, sizes } from "@utils/styles"
+
+import Title from "../shared/components/Title"
 
 export const StyledPostSummary = styled.div`
   display: grid;
@@ -25,6 +27,10 @@ export const StyledPostSummary = styled.div`
 
 export const TitleLink = styled(Link)`
   grid-area: title;
+`
+
+export const StyledTitle = styled(Title)`
+  font-size: ${fontSizes._24};
 `
 
 export const BannerLink = styled(Link)`
