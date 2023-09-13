@@ -4,8 +4,6 @@
 
 import * as Sentry from "@sentry/nextjs"
 
-console.log("NEXT_PUBLIC_SENTRY_DSN", process.env.NEXT_PUBLIC_SENTRY_DSN)
-
 Sentry.init({
   // The NEXT_PUBLIC_ prefix is a Next.js-specific feature that makes server-side environment variables accessible in
   // client-side code.
