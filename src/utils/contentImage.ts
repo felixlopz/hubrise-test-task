@@ -14,6 +14,10 @@ export interface ContentImage {
   height: number
 }
 
+export interface ContentImageWithAlt extends ContentImage {
+  alt?: string
+}
+
 /**
  * Look for an image in the `content` directory, and return its path and dimensions. Must be used from a server
  * component.
