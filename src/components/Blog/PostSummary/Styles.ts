@@ -3,8 +3,6 @@ import styled from "styled-components"
 
 import { breakpoints, colors, mixin, sizes } from "@utils/styles"
 
-import Title from "../shared/components/Title"
-
 export const StyledPostSummary = styled.div`
   display: grid;
   grid-gap: 1rem;
@@ -25,12 +23,16 @@ export const StyledPostSummary = styled.div`
   }
 `
 
-export const StyledTitle = styled(Title)`
+export const TitleLink = styled(Link)`
   grid-area: title;
 `
 
-export const BannerImage = styled.div`
+export const BannerLink = styled(Link)`
   grid-area: image;
+  align-self: center;
+`
+
+export const BannerImage = styled.div`
   border-radius: 0.5rem;
 `
 

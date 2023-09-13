@@ -71,7 +71,7 @@ export const Text = styled.div`
 export const Title = styled.h1`
   font-weight: bold;
   font-size: ${fontSizes._42};
-  line-height: ${lineHeights.title};
+  line-height: ${lineHeights.compact};
 `
 
 export const Description = styled.div`
