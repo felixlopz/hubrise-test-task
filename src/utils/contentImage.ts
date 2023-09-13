@@ -1,6 +1,6 @@
 import crypto from "crypto"
 import fs from "fs/promises"
-import { join } from "path"
+import { join, normalize } from "path"
 import { promisify } from "util"
 
 import imageSize from "image-size"
@@ -61,7 +61,7 @@ async function findImage(
     const contentPath: ContentDirName = `${dirName}/${filename}`
     try {
       await fs.stat(contentDirectory + contentPath)
-      return contentPath
+      return normalize(contentPath) as ContentDirName
     } catch (e) {}
   }
 
