@@ -20,10 +20,9 @@ export const Button = styled.div`
   top: 0;
   bottom: 0;
   left: 0;
+  width: 4rem; // Large clickable area
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-
+  align-items: center;
   ${mixin.clickable};
 
   &:focus {

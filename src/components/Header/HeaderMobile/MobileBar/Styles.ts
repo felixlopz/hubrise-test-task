@@ -34,19 +34,27 @@ export const Container = styled.div<{ $isOpen: boolean }>`
 `
 
 export const Header = styled.header`
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  align-items: center;
+  position: relative;
   height: ${sizes.headerHeight};
   border-bottom: 4px solid ${colors.primary};
   color: ${colors.primary};
 `
 
 export const HeaderIcon = styled(Icon)`
-  margin-left: 1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  ${mixin.clickable};
 `
 
 export const HeaderTitle = styled.div`
+  height: 100%;
+  ${mixin.centerElement};
   font-size: ${fontSizes._32};
   font-weight: 600;
   text-align: center;
