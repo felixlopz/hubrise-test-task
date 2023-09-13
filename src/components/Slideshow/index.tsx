@@ -1,14 +1,14 @@
 import * as React from "react"
 
 import Icon from "@components/Icon"
-import { ContentImage } from "@utils/contentImage"
+import { ContentImageWithAlt } from "@utils/contentImage"
 import { iconSizes } from "@utils/styles"
 
 import { Topbar, Title, StyledSlideshow, Slide, SlideImage, PrevArrow, NextArrow, Close, Count } from "./Styles"
 
 interface SlideshowProps {
   title: string
-  contentImages: Array<ContentImage>
+  contentImages: Array<ContentImageWithAlt>
   currentImageSrc: string
   onClose: () => void
   navigate: (direction: 1 | -1) => void
@@ -57,7 +57,7 @@ const Slideshow = ({ title, contentImages, currentImageSrc, onClose, navigate }:
     <StyledSlideshow onClick={() => onClose()}>
       <Topbar onClick={stopPropagation}>
         <Title>
-          {title}
+          {contentImage.alt || title}
           {" - "}
           <Count>
             {currentImageNumber} / {contentImages.length}

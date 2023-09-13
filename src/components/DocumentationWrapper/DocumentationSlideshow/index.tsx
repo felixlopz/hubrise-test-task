@@ -1,10 +1,10 @@
 import Slideshow from "@components/Slideshow"
-import { ContentImage } from "@utils/contentImage"
+import { ContentImageWithAlt } from "@utils/contentImage"
 
 import { useDocumentationContext } from "../DocumentationContext"
 
 interface DocumentationSlideshowProps {
-  contentImages: Array<ContentImage>
+  contentImages: Array<ContentImageWithAlt>
   title: string
 }
 

@@ -2,14 +2,14 @@ import * as React from "react"
 
 import Slideshow from "@components/Slideshow"
 import { DocFolder } from "@utils/DocIndexer/types"
-import { ContentImage } from "@utils/contentImage"
+import { ContentImageWithAlt } from "@utils/contentImage"
 import imageSizes from "@utils/imageSizes"
 
 import { ThumbnailItem, ThumbnailGrid, Thumbnail } from "./Styles"
 
 interface GalleryProps {
   folder: DocFolder
-  images: Array<ContentImage>
+  images: Array<ContentImageWithAlt>
 }
 
 const Gallery = ({ folder, images }: GalleryProps): JSX.Element => {

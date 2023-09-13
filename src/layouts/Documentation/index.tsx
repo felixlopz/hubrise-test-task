@@ -7,7 +7,7 @@ import DocumentationContainer from "@components/DocumentationContainer"
 import DocumentationWrapper from "@components/DocumentationWrapper"
 import useTranslation from "@hooks/client/useTranslation"
 import { DocFolder, DocMdFile } from "@utils/DocIndexer/types"
-import { ContentImage } from "@utils/contentImage"
+import { ContentImage, ContentImageWithAlt } from "@utils/contentImage"
 import { HeaderLink } from "@utils/mdx/remarkHeadingsPlugin"
 
 import AppInfo from "./AppInfo"
@@ -22,7 +22,7 @@ interface DocumentationProps {
   headerLinks: Array<HeaderLink>
   logoImage?: ContentImage
   galleryImages: Array<ContentImage>
-  contentImages: Array<ContentImage>
+  contentImages: Array<ContentImageWithAlt>
   children: React.ReactNode
 }
 

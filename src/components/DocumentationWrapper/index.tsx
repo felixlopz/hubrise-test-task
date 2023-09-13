@@ -1,12 +1,12 @@
 import * as React from "react"
 
-import { ContentImage } from "@utils/contentImage"
+import { ContentImageWithAlt } from "@utils/contentImage"
 
 import { DocumentationContextProvider } from "./DocumentationContext"
 import DocumentationSlideshow from "./DocumentationSlideshow"
 
 interface DocumentationWrapperProps {
-  contentImages: Array<ContentImage>
+  contentImages: Array<ContentImageWithAlt>
   title: string
   children: React.ReactNode
 }
