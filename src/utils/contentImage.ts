@@ -37,7 +37,11 @@ const contentImage = async (
   const pathWithHash = contentPath.replace(/\/([^/]+)$/, `/${hash}-$1`)
   const imagePath = `/api/image${pathWithHash}`
 
-  return { src: imagePath, width: res.width, height: res.height }
+  const is2x = filename.includes("-2x-")
+  const displayedWidth = res.width / (is2x ? 2 : 1)
+  const displayedHeight = res.height / (is2x ? 2 : 1)
+
+  return { src: imagePath, width: displayedWidth, height: displayedHeight }
 }
 
 export async function imageHash(filePath: string) {

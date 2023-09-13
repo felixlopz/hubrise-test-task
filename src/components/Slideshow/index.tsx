@@ -4,7 +4,7 @@ import Icon from "@components/Icon"
 import { ContentImage } from "@utils/contentImage"
 import { iconSizes } from "@utils/styles"
 
-import { Count, Topbar, Title, StyledSlideshow, Slider, Slide, SlideImage, PrevArrow, NextArrow, Close } from "./Styles"
+import { Topbar, Title, StyledSlideshow, Slide, SlideImage, PrevArrow, NextArrow, Close, Count } from "./Styles"
 
 interface SlideshowProps {
   title: string
@@ -56,32 +56,33 @@ const Slideshow = ({ title, contentImages, currentImageSrc, onClose, navigate }:
   return (
     <StyledSlideshow onClick={() => onClose()}>
       <Topbar onClick={stopPropagation}>
-        <Title>{title}</Title>
-        <Count>
-          {currentImageNumber} / {contentImages.length}
-        </Count>
+        <Title>
+          {title}
+          {" - "}
+          <Count>
+            {currentImageNumber} / {contentImages.length}
+          </Count>
+        </Title>
         <Close onClick={executeAndStopPropagation(onClose)}>
           <Icon code="close" size={iconSizes._32} />
         </Close>
       </Topbar>
 
-      <Slider>
-        {currentImageNumber !== 1 && (
-          <PrevArrow onClick={executeAndStopPropagation(() => navigate(-1))}>
-            <Icon code="chevron_left" size={iconSizes._32} />{" "}
-          </PrevArrow>
-        )}
+      <Slide>
+        <SlideImage {...contentImage} alt={title} onClick={stopPropagation} />
+      </Slide>
 
-        <Slide>
-          <SlideImage {...contentImage} alt={title} onClick={stopPropagation} />
-        </Slide>
+      {currentImageNumber !== 1 && (
+        <PrevArrow onClick={executeAndStopPropagation(() => navigate(-1))}>
+          <Icon code="chevron_left" size={iconSizes._32} />{" "}
+        </PrevArrow>
+      )}
 
-        {currentImageNumber < contentImages.length && (
-          <NextArrow onClick={executeAndStopPropagation(() => navigate(1))}>
-            <Icon code="chevron_right" size={iconSizes._32} />
-          </NextArrow>
-        )}
-      </Slider>
+      {currentImageNumber < contentImages.length && (
+        <NextArrow onClick={executeAndStopPropagation(() => navigate(1))}>
+          <Icon code="chevron_right" size={iconSizes._32} />
+        </NextArrow>
+      )}
     </StyledSlideshow>
   )
 }
