@@ -24,7 +24,9 @@ const Post = ({ mdFile, bannerImage, children }: PostProps): JSX.Element => {
 
       <DateAndAuthor frontMatter={frontMatter} />
 
-      {bannerImage && <BannerImage {...bannerImage} alt={mdFile.frontMatter.title} sizes={imageSizes.documentation} />}
+      {bannerImage && (
+        <BannerImage {...bannerImage} alt={mdFile.frontMatter.title} sizes={`${imageSizes.documentation}px`} />
+      )}
 
       <DocumentationContainer>{children}</DocumentationContainer>
     </StyledPost>

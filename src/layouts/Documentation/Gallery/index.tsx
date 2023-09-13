@@ -46,7 +46,7 @@ const Gallery = ({ folder, images }: GalleryProps): JSX.Element => {
               setCurrentImageSrc(image.src)
             }}
           >
-            <Thumbnail {...image} alt={title} sizes={imageSizes.halfDocumentation} />
+            <Thumbnail {...image} alt={title} sizes={`${imageSizes.halfDocumentation}px`} />
           </ThumbnailItem>
         ))}
       </ThumbnailGrid>

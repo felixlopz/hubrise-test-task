@@ -7,9 +7,8 @@ import { ContentImage } from "@utils/contentImage"
 import imageSizes from "@utils/imageSizes"
 
 import DateAndAuthor from "../shared/components/DateAndAuthor"
-import Title from "../shared/components/Title"
 
-import { BannerImage, BannerLink, Excerpt, ReadMore, StyledPostSummary, Text, TitleLink } from "./Styles"
+import { BannerImage, BannerLink, Excerpt, ReadMore, StyledPostSummary, StyledTitle, Text, TitleLink } from "./Styles"
 
 interface PostSummaryProps {
   mdFile: BlogMdFile
@@ -23,13 +22,13 @@ const PostSummary = ({ mdFile, bannerImage }: PostSummaryProps): JSX.Element => 
   return (
     <StyledPostSummary>
       <TitleLink href={mdFile.uri}>
-        <Title frontMatter={frontMatter} />
+        <StyledTitle frontMatter={frontMatter} />
       </TitleLink>
 
       {bannerImage && (
         <BannerLink href={mdFile.uri}>
           <BannerImage>
-            <Image {...bannerImage} alt={mdFile.frontMatter.title} sizes={imageSizes.postSummary} />
+            <Image {...bannerImage} alt={mdFile.frontMatter.title} sizes={`${imageSizes.postSummary}px`} />
           </BannerImage>
         </BannerLink>
       )}
