@@ -1,14 +1,18 @@
 import Link from "next/link"
 import styled from "styled-components"
 
-import { colors, fontSizes, mixin, sizes } from "@utils/styles"
+import { breakpoints, colors, fontSizes, mixin, sizes } from "@utils/styles"
 
 export const StyledPlan = styled.div`
   background-color: ${colors.primary};
   color: ${colors.white};
   font-size: ${fontSizes._18};
-  margin: 3rem calc((100% - 100vw) / 2) 2rem calc((100% - 100vw) / 2);
   padding: 2.5rem ${sizes.mobilePadding};
+  margin: 3rem -${sizes.mobilePadding} 2rem -${sizes.mobilePadding};
+
+  @media (min-width: ${breakpoints.large}) {
+    margin: 3rem calc((100% - 100vw) / 2) 2rem calc((100% - 100vw) / 2);
+  }
 `
 
 export const Title = styled.div`
