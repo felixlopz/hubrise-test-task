@@ -1,13 +1,11 @@
 import Link from "next/link"
 import styled from "styled-components"
 
-import { breakpoints } from "@utils/styles"
+import { breakpoints, mixin } from "@utils/styles"
 
 import { headerStyle } from "../shared/styles"
 
 export const StyledHeader = styled.div`
-  display: flex;
-  align-items: center;
   position: sticky;
   top: 0;
   ${headerStyle};
@@ -18,19 +16,22 @@ export const StyledHeader = styled.div`
 `
 
 export const Button = styled.div`
-  padding: 2em 2em 2em 0;
-  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  ${mixin.clickable};
 
   &:focus {
     outline: none;
   }
 `
 
-export const Logo = styled.div`
-  flex: 1;
-  text-align: center;
-`
-
 export const LogoLink = styled(Link)`
-  padding: 2em 2em;
+  height: 100%;
+  ${mixin.centerElement};
 `

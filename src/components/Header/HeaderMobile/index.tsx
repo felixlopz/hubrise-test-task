@@ -9,7 +9,7 @@ import type { LanguagePaths } from "@utils/locales"
 import { IHeaderLink } from "../shared/types"
 
 import MobileBar from "./MobileBar"
-import { StyledHeader, Logo, LogoLink, Button } from "./Styles"
+import { StyledHeader, LogoLink, Button } from "./Styles"
 
 interface HeaderMobileProps {
   languagePaths: LanguagePaths
@@ -24,13 +24,12 @@ const HeaderMobile = ({ languagePaths, menuItems }: HeaderMobileProps): JSX.Elem
     <>
       <StyledHeader data-testid="header:mobile">
         <Button onClick={() => setIsOpen(true)}>
-          <Image src="/images/bread_button.png" alt="Menu" width={21} height={21} />
+          <Image src="/images/burger_button.png" alt="Menu" width={21} height={21} />
         </Button>
-        <Logo>
-          <LogoLink href={home}>
-            <Image src="/images/logo.png" alt="HubRise" width={150} height={40} />
-          </LogoLink>
-        </Logo>
+
+        <LogoLink href={home}>
+          <Image src="/images/logo.png" alt="HubRise" width={150} height={40} />
+        </LogoLink>
       </StyledHeader>
 
       <MobileBar {...{ languagePaths, menuItems, isOpen }} close={() => setIsOpen(false)} />
