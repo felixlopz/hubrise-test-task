@@ -1,7 +1,5 @@
 "use client"
 
-import Image from "next/image"
-import Link from "next/link"
 import * as React from "react"
 
 import Breadcrumbs from "@components/Breadcrumbs"
@@ -16,7 +14,7 @@ import AppInfo from "./AppInfo"
 import Feedback from "./Feedback"
 import Gallery from "./Gallery"
 import Navigator from "./Navigator"
-import { Content, Logo, Main, Navigation, Page, Warning } from "./Styles"
+import { Content, LogoImage, LogoLink, Main, Navigation, Page, Warning } from "./Styles"
 
 interface DocumentationProps {
   mdFile: DocMdFile
@@ -47,11 +45,9 @@ const Documentation = ({
         {mdFile.copyFromLanguage && <Warning>{t("documentation.language_warning." + mdFile.copyFromLanguage)}</Warning>}
 
         {logoImage && (
-          <Logo>
-            <Link href={folder.uri}>
-              <Image {...logoImage} alt={mdFile.frontMatter.title} />
-            </Link>
-          </Logo>
+          <LogoLink href={folder.uri}>
+            <LogoImage {...logoImage} alt={mdFile.frontMatter.title} />
+          </LogoLink>
         )}
 
         <Navigation>
