@@ -24,7 +24,7 @@ jobs:
         run: yarn install
 
       - name: Use the development environment
-        run: cp .env.development .env
+        run: cp .env.cypress-ci .env
 
       - name: Build the website
         run: yarn build
