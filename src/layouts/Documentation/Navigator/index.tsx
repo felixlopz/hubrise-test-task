@@ -3,7 +3,7 @@ import { useMedia } from "react-use"
 
 import { DocFolder, DocMdFile } from "@utils/DocIndexer/types"
 import type { HeaderLink } from "@utils/mdx/remarkHeadingsPlugin"
-import { createHeaderAnchor, generateKey } from "@utils/misc"
+import { generateKey } from "@utils/misc"
 import { breakpoints } from "@utils/styles"
 
 import { List, ItemLink, Item, TitleLink, Title, ArrowIcon, StyledNavigator, SubItemLink, SubList } from "./Styles"
@@ -62,10 +62,10 @@ const Navigator = ({ mdFile, folder, headerLinks }: NavigatorProps): JSX.Element
                 <SubList>
                   {headerLinks
                     .filter(({ depth }) => depth === 2)
-                    .map(({ title }, idx) => (
+                    .map(({ id, title }, idx) => (
                       <li key={generateKey(title, idx)}>
                         <SubItemLink
-                          href={`#${createHeaderAnchor(title)}`}
+                          href={`#${id}`}
                           onClick={isMobile ? () => setIsExpanded(false) : undefined}
                           $isActive={currentTitle === title}
                         >
