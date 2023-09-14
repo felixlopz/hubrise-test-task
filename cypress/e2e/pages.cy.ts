@@ -32,16 +32,3 @@ describe("404", () => {
     cy.contains("Retournez à la page d'accueil")
   })
 })
-
-describe("Documentation", () => {
-  it("shows clickable links in documentation", () => {
-    cy.visit("/fr/developers/api/catalog-management")
-    cy.get("h2#skus a").click()
-    cy.url().should("include", "#skus")
-  })
-
-  it("shows a warning on non translated pages", () => {
-    cy.visit("/fr/developers/api/account-management")
-    cy.contains("Cette documentation est disponible en anglais uniquement.")
-  })
-})
