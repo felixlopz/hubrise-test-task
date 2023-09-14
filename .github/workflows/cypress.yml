@@ -30,7 +30,7 @@ jobs:
         run: yarn build
 
       - name: Run Cypress test suite
-        run: CYPRESS_DEFAULT_COMMAND_TIMEOUT=10000 yarn cypress:run
+        run: CYPRESS_DEFAULT_COMMAND_TIMEOUT=10000 yarn cypress:run --browser chrome
 
       - name: On failure, upload Cypress screenshots and videos
         if: failure()
