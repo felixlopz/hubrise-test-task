@@ -103,9 +103,7 @@ export const StyledContainer = styled.div`
 
   ul,
   ol {
-    display: block;
     margin-bottom: 1rem;
-    overflow: auto;
   }
 
   ol {
@@ -119,8 +117,6 @@ export const StyledContainer = styled.div`
   }
 
   ul li {
-    display: inline-block;
-    width: 100%;
     position: relative;
     padding-left: 1rem;
 
