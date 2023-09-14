@@ -9,15 +9,13 @@ import useTranslation from "@hooks/client/useTranslation"
 
 import { yupSchema, encodeFormData, rows } from "./helpers"
 
-interface ContactFormProps {
-  recaptchaSiteKey?: string
-  contactMessageUrl: string
-}
-
-const ContactForm = ({ recaptchaSiteKey, contactMessageUrl }: ContactFormProps): JSX.Element => {
+const ContactForm = (): JSX.Element => {
   const { forms } = useLayoutContext()
   const addToast = useToast()
   const { t } = useTranslation()
+
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY
+  const contactMessageUrl = process.env.NEXT_PUBLIC_CONTACT_MESSAGE_URL
 
   function onSubmit(values: FormikValues, { setSubmitting }: { setSubmitting: (isSubmitting: boolean) => void }) {
     ;(window as any).grecaptcha.execute(recaptchaSiteKey, { action: "send_email" }).then((token: string) => {

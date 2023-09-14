@@ -4,7 +4,6 @@ import * as React from "react"
 import Footer from "@components/Footer"
 import Header from "@components/Header"
 import Layout from "@components/Layout"
-import { ClientConfiguration } from "@components/LayoutContext"
 import PageNotFound from "@layouts/PageNotFound"
 import { Language, LanguagePaths } from "@utils/locales"
 import router from "@utils/router"
@@ -50,13 +49,10 @@ export default async function Page({ params }: { params: Params }): Promise<JSX.
 }
 
 const render = async (language: Language, languagePaths: LanguagePaths, content: JSX.Element): Promise<JSX.Element> => {
-  const { NODE_ENV, CONTACT_MESSAGE_URL, RECAPTCHA_SITE_KEY } = process.env
-  const clientConfiguration: ClientConfiguration = { NODE_ENV, CONTACT_MESSAGE_URL, RECAPTCHA_SITE_KEY }
-
   const header = <Header language={language} languagePaths={languagePaths} />
   const footer = <Footer language={language} />
   return (
-    <Layout clientConfiguration={clientConfiguration} language={language} header={header} footer={footer}>
+    <Layout language={language} header={header} footer={footer}>
       {content}
     </Layout>
   )
