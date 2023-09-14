@@ -44,6 +44,8 @@ Connecting Acme to HubRise allows your EPOS to:
 
 Acme can be connected to HubRise from the Acme back office.
 
+This is an [external link](https://www.acme.com).
+
 ## Why Connect?
 
 By connecting Acme to HubRise, your EPOS can communicate with your other everyday applications. Receive orders from your online ordering solution, or food delivery platforms in your EPOS. Send online orders to your EPOS, to an autonomous printer, a Kitchen Display Screen, or to your inventory management solution. Push your menu into other apps.
