@@ -18,9 +18,6 @@ finalConfig = {
   compiler: {
     styledComponents: {}, // The presence of this empty object makes SC use human-readable class names in dev mode.
   },
-  experimental: {
-    modern: false,
-  },
   redirects: async () => {
     const yamlFile = join(process.cwd(), "content", "redirects.yaml")
     const data = await fs.readFile(yamlFile, "utf8")
