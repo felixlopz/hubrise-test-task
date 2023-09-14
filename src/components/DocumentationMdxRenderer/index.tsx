@@ -7,6 +7,7 @@ import { ContentDirName } from "@utils/files"
 import rehypeImagePlugin from "@utils/mdx/rehypeImagePlugin"
 import remarkHeadingsPlugin from "@utils/mdx/remarkHeadingsPlugin"
 import type { HeaderLink } from "@utils/mdx/remarkHeadingsPlugin"
+import router from "@utils/router"
 
 import A from "./components/A"
 import CallSummaryTable from "./components/CallSummaryTable"
@@ -25,6 +26,7 @@ export const renderDocumentationMdx = async (
 ): Promise<{ mdxElement: JSX.Element; headerLinks: Array<HeaderLink>; contentImages: Array<ContentImageWithAlt> }> => {
   const headerLinks: Array<HeaderLink> = []
   const contentImages: Array<ContentImageWithAlt> = []
+  const theRouter = await router()
 
   const { content: mdxElement } = await compileMDX({
     source: content,
@@ -45,7 +47,7 @@ export const renderDocumentationMdx = async (
       parseFrontmatter: false,
       mdxOptions: {
         remarkPlugins: [remarkGfm, [remarkHeadingsPlugin, headerLinks]],
-        rehypePlugins: [rehypeImagePlugin(imageDirName, contentImages)],
+        rehypePlugins: [rehypeImagePlugin(imageDirName, contentImages), rehypeLangIndependentLinks()],
       },
     },
   })
