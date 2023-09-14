@@ -74,7 +74,7 @@ const Slideshow = ({ title, contentImages, currentImageSrc, onClose, navigate }:
 
       {currentImageNumber !== 1 && (
         <PrevArrow onClick={executeAndStopPropagation(() => navigate(-1))}>
-          <Icon code="chevron_left" size={iconSizes._32} />{" "}
+          <Icon code="chevron_left" size={iconSizes._32} />
         </PrevArrow>
       )}
 

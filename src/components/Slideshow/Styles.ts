@@ -68,12 +68,13 @@ export const Close = styled.button`
 
 export const Slide = styled.div`
   flex: 1;
+  min-height: 0; // Take up all available space
   display: flex;
   align-items: center;
   padding: 1rem 0;
 
   @media not all and (min-width: ${mobileBreakpoint}) {
-    overflow: auto;
+    overflow-y: auto;
   }
 
   @media (min-width: ${mobileBreakpoint}) {
@@ -85,16 +86,15 @@ export const Slide = styled.div`
 export const SlideImage = styled(Image)`
   border-radius: 0.6rem;
   user-select: none;
+  max-height: 100%;
   width: auto;
   margin: 0 auto;
 
   @media not all and (min-width: ${mobileBreakpoint}) {
-    max-height: 100%;
     max-width: 250vw;
   }
 
   @media (min-width: ${mobileBreakpoint}) {
-    max-height: calc(100vh - 5rem);
   }
 `
 
