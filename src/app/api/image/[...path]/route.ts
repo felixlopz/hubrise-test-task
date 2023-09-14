@@ -45,7 +45,7 @@ export async function GET(request: Request, { params }: { params: Params }): Pro
 
   // Check if the hash matches the image. If not, the image has been updated and the client should not cache it.
   const file = await fs.readFile(filePath)
-  const isCorrectHash = hash === (await imageHash(filePath))
+  const isCorrectHash = hash === (await imageHash(file))
 
   return new Response(file, {
     headers: {

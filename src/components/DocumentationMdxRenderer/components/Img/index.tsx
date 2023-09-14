@@ -8,7 +8,17 @@ import imageSizes from "@utils/imageSizes"
 
 import { StyledImage } from "./styles"
 
-const Img = ({ src, alt, width, height }: ImgHTMLAttributes<HTMLImageElement>): JSX.Element | null => {
+export type BlurDataURL = {
+  blurDataURL?: string
+}
+
+const Img = ({
+  src,
+  alt,
+  width,
+  height,
+  blurDataURL,
+}: ImgHTMLAttributes<HTMLImageElement> & BlurDataURL): JSX.Element | null => {
   if (!width || !height) throw new Error(`"width" and "height" properties required for image with src="${src}"`)
 
   const {
@@ -25,6 +35,8 @@ const Img = ({ src, alt, width, height }: ImgHTMLAttributes<HTMLImageElement>): 
       height={Number(height)}
       sizes={`${responsiveSize}px`}
       onClick={() => setCurrentImageSrc(src!)}
+      blurDataURL={blurDataURL!}
+      placeholder="blur"
     />
   )
 }

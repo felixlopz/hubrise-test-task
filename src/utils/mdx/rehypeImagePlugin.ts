@@ -14,9 +14,10 @@ interface ImgNode extends Node {
   tagName: "img"
   properties: {
     src: string
-    alt?: string
-    height?: number
-    width?: number
+    alt: string
+    height: number
+    width: number
+    blurDataURL: string
   }
 }
 
@@ -39,8 +40,9 @@ async function transformImgNode(
   node.properties.width = image.width
   node.properties.height = image.height
   node.properties.src = image.src
+  node.properties.blurDataURL = image.blurDataURL
 
-  images.push({ ...image, alt: node.properties.alt })
+  images.push({ ...image, alt: node.properties.alt, blurDataURL: image.blurDataURL })
 }
 
 /**
