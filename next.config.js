@@ -4,8 +4,8 @@ const { join } = require("path")
 const { withSentryConfig } = require("@sentry/nextjs")
 const yaml = require("yaml")
 
-// Check the presence of env variables.
-const requiredEnvVars = ["SENTRY_DSN", "RECAPTCHA_SITE_KEY", "CONTACT_MESSAGE_URL"]
+// Check the presence of required env variables.
+const requiredEnvVars = ["NEXT_PUBLIC_CONTACT_MESSAGE_URL"]
 const missingVars = requiredEnvVars.filter((key) => !(key in process.env))
 if (missingVars.length > 0) {
   throw new Error(`Missing required environment variables: ${missingVars.join(", ")}`)

@@ -5,7 +5,7 @@ import * as React from "react"
 
 import CommonClientStyles from "@components/CommonClientStyles"
 import ContentHotReload from "@components/ContentHotReload"
-import { ClientConfiguration, LayoutContextProvider } from "@components/LayoutContext"
+import { LayoutContextProvider } from "@components/LayoutContext"
 import LayoutForms from "@components/LayoutForms"
 import ToastProvider from "@components/Toast"
 import { Language } from "@utils/locales"
@@ -13,20 +13,24 @@ import { Language } from "@utils/locales"
 import { Main } from "./Styles"
 
 interface LayoutProps {
-  clientConfiguration: ClientConfiguration
   language: Language
   header: React.ReactNode
   footer: React.ReactNode
   children: React.ReactNode
 }
 
-const Layout = ({ clientConfiguration, language, header, footer, children }: LayoutProps): JSX.Element => {
+const Layout = ({ language, header, footer, children }: LayoutProps): JSX.Element => {
   return (
-    <LayoutContextProvider clientConfiguration={clientConfiguration} language={language}>
+    <LayoutContextProvider language={language}>
       <ToastProvider>
-        {clientConfiguration.NODE_ENV === "development" && <ContentHotReload />}
+        {process.env.NEXT_PUBLIC_INTERACTIVE_DEV_MODE === "true" && <ContentHotReload />}
 
-        <Script src={`https://www.google.com/recaptcha/api.js?render=${clientConfiguration.RECAPTCHA_SITE_KEY}`} />
+        {process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY && (
+          <Script
+            src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
+          />
+        )}
+
         <CommonClientStyles />
 
         <KeepInFirstPositionImportant />
