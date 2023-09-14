@@ -29,12 +29,7 @@ const Layout = ({ clientConfiguration, language, header, footer, children }: Lay
         <Script src={`https://www.google.com/recaptcha/api.js?render=${clientConfiguration.RECAPTCHA_SITE_KEY}`} />
         <CommonClientStyles />
 
-        {
-          /* In dev mode, an annoying "Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element"
-           warning is emitted on every page change, because the first element of the page (the header below) is sticky.
-           This warning was introduced by https://github.com/vercel/next.js/pull/53873 */
-          clientConfiguration.NODE_ENV === "development" && <div />
-        }
+        <KeepInFirstPositionImportant />
 
         {header}
         <Main>{children}</Main>
@@ -47,3 +42,11 @@ const Layout = ({ clientConfiguration, language, header, footer, children }: Lay
 }
 
 export default Layout
+
+/**
+ * The presence of a sticky header as the first element in the DOM prevents the auto-scroll behaviour.
+ * This means that the page is not scrolled up on page change.
+ * Putting an empty static element before the header fixes the issue.
+ * See https://github.com/vercel/next.js/pull/53873
+ */
+const KeepInFirstPositionImportant = (): JSX.Element => <div />
