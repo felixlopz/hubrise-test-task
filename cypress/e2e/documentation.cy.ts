@@ -7,13 +7,13 @@ describe("Documentation", () => {
     it("switches language via header links", () => {
       cy.visit("/fr/apps/0test")
       cy.contains("Connecter Acme à HubRise")
-      headerDesktop().contains("English").trigger("click")
+      headerDesktop().contains("English").click()
       cy.contains("Connecting Acme to HubRise")
     })
 
     it("switches language via <Link href='...'>", () => {
       cy.visit("/fr/apps/0test")
-      cy.contains("en anglais uniquement").trigger("click")
+      cy.contains("en anglais uniquement").click()
       cy.contains("Connecting Acme to HubRise")
     })
   })
@@ -31,7 +31,7 @@ describe("Documentation", () => {
 
     it("navigates via custom anchors", () => {
       cy.visit("/fr/apps/0test/connexion-hubrise")
-      cy.contains("section fonctionnalités").trigger("click")
+      cy.contains("section fonctionnalités").click()
       cy.contains("Fonctionnalités de l'intégration")
     })
   })

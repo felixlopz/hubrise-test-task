@@ -50,7 +50,7 @@ Deliveroo Bridge peut envoyer automatiquement votre catalogue HubRise dans Deliv
 1. Dans la rubrique **Catalogue**, cochez la case **Activer l'envoi automatique du catalogue**.
 1. Cliquez sur **Enregistrer**.
 
-## Informations envoyées à Deliveroo
+## Informations envoyées à Deliveroo(#information-sent-to-deliveroo)
 
 Les rubriques suivantes expliquent en détail comment votre catalogue HubRise est transmis à Deliveroo.
 
