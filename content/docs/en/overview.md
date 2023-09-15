@@ -1,18 +1,18 @@
 ---
-position: 1
 title: Overview
+path_override: "/"
+position: 1
 layout: documentation
 meta:
   title: Technical Documentation Overview | HubRise
   description: Orders, customers and product catalogs are saved into HubRise to provide connected apps with real-time access to your data. Integrate third party solutions.
 gallery:
-  - __gallery-001-en.png
-  - __gallery-002-en.png
-path_override: /
+  - __gallery-001.png
+  - __gallery-002.png
 app_info:
   category: Middleware
   availability: Worldwide
-  price_range: €25 / month
+  price_range: "€25 / month"
   contact: contact@hubrise.com / support@hubrise.com
 ---
 

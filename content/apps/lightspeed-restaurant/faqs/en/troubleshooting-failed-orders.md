@@ -1,5 +1,6 @@
 ---
 title: Why Are Some Orders Not Received Correctly in Lightspeed?
+path_override: troubleshooting-failed-orders
 position: 4
 layout: documentation
 meta:
@@ -28,4 +29,4 @@ If you plan to connect Lightspeed Restaurant to food delivery platforms like Del
 
 If after this configuration you are still not able to receive orders in your tablet, you should check if the API connection is enabled on your tablet. On the main screen of the Lightspeed app, if you see a green pencil icon <InlineImage width="28" height="28">![Green pencil icon](../../images/011-lightspeed-restaurant-api-icon.png)</InlineImage> at the top, then your API connection is activated. If that icon is not green, you can simply tap on it and tap the **Enable** button to activate the API.
 
-![Main screen of the Lightspeed app with the green icon indicating that API connection is enabled.](../../images/010-lightspeed-restaurant-main-screen.png)
+![Main screen of the Lightspeed app with the green icon indicating that API connection is enabled.](../../images/010-2x-lightspeed-restaurant-main-screen.png)

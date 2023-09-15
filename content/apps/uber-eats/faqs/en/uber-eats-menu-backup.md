@@ -1,5 +1,6 @@
 ---
 title: Can I Back Up My Uber Eats Menu Before a Catalog Push?
+path_override: uber-eats-menu-backup
 position: 4
 layout: documentation
 meta:

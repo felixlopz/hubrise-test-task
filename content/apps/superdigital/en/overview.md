@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | SuperDigital.fr | HubRise
   description: SuperDigital.fr overview, reasons for connecting SuperDigital.fr to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-path_override: /
 app_info:
   category: Online Ordering
   availability: France

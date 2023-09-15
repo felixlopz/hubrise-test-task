@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -12,7 +13,6 @@ gallery:
   - __gallery-004.png
   - __gallery-005.png
   - __gallery-006.png
-path_override: /
 app_info:
   category: Point of Sales
   availability: Ireland, United Kingdom and Thailand

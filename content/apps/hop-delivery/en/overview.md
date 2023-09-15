@@ -1,23 +1,23 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Hop Delivery | HubRise
   description: Hop Delivery overview, reasons for connecting Hop Delivery to HubRise and summary of integrated features. Synchronise data between your EPOS and your apps.
 gallery:
-path_override: /
 app_info:
   category: Food Ordering Platforms
   availability: Geneva, Switzerland
   price_range:
   website: https://www.hop.delivery
-  contact: +41 22 518 70 47 / hello@hop.delivery
+  contact: "+41 22 518 70 47 / hello@hop.delivery"
 ---
 
 ---
 
-**IMPORTANT NOTE:** This documentation is available <Link to="/fr/apps/hop-delivery" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE:** This documentation is available <Link href="/fr/apps/hop-delivery">in French only</Link>.
 
 ---
 

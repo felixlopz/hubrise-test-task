@@ -1,16 +1,16 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Koust | HubRise
   description: Koust overview, reasons for connecting Koust to HubRise and summary of integrated features. Synchronise data between your EPOS, Koust and your other apps.
-path_override: /
 ---
 
 ---
 
-**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/koust" addLocalePrefix={false}>in French</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link href="/fr/apps/koust">in French</Link>.
 
 ---
 

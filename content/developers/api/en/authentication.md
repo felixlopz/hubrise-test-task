@@ -1,5 +1,6 @@
 ---
 title: Authentication
+path_override: authentication
 position: 2
 layout: documentation
 meta:

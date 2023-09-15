@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -9,7 +10,6 @@ gallery:
   - __gallery-002.png
   - __gallery-003.png
   - __gallery-001.png
-path_override: /
 app_info:
   category: Online Ordering
   availability: France
@@ -20,7 +20,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/my-lemonade" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link href="/fr/apps/my-lemonade">in French only</Link>.
 
 ---
 

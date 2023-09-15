@@ -1,5 +1,6 @@
 ---
 title: Video Guide
+path_override: video-guide
 position: 5
 layout: documentation
 meta:

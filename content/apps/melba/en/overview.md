@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -16,7 +17,6 @@ gallery:
   - __gallery-008.png
   - __gallery-009.png
   - __gallery-010.png
-path_override: /
 app_info:
   category: Operations and Inventory
   availability: France
@@ -27,7 +27,7 @@ app_info:
 
 ---
 
-**IMPORTANT NOTE**: Full documentation available <Link to="/fr/apps/melba" addLocalePrefix={false}>in French only</Link>.
+**IMPORTANT NOTE**: Full documentation available <Link href="/fr/apps/melba">in French only</Link>.
 
 ---
 

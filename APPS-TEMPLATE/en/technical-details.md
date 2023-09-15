@@ -1,5 +1,6 @@
 ---
 title: Technical Details
+path_override: technical-details
 position: 8
 layout: documentation
 meta:
@@ -7,4 +8,4 @@ meta:
   description: Technical details and advanced information about the SOLUTION integration with HubRise. Connect apps and synchronise your data.
 ---
 
-- <Link to="/apps/SOLUTION/technical-details/receiving-orders/">Receiving Orders</Link>
+- <Link href="/apps/SOLUTION/technical-details/receiving-orders/">Receiving Orders</Link>

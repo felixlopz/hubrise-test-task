@@ -1,5 +1,6 @@
 ---
 title: Receive Orders
+path_override: receive-orders
 position: 6
 layout: documentation
 meta:
@@ -78,7 +79,7 @@ Email address is never provided by Just Eat Takeaway, so this field is always mi
 
 ## Discounts and Charges
 
-In the order, you can find information about Just Eat Takeaway discounts and delivery charges, if present.
+In the order, you can find information about Just Eat Takeaway discounts, delivery charges, and service fees, if present.
 
 ---
 
@@ -213,19 +214,18 @@ Below is a sample payload for discounts.
 
 ### Delivery Charges
 
-Delivery charges are applied for orders delivered by the restaurant.
-Just Eat Takeaway Bridge encodes this information in the `charges` array.
+Delivery charges are applied for orders delivered by the restaurant. Just Eat Takeaway Bridge encodes this information in the `charges` array.
 
-The available fields in the payloads are the following:
+Here are the fields used to describe delivery charges:
 
-- `name`: The name of the delivery charge, which is `Delivery charge` by default.
-- `type`: The type of charge. It has always the value `delivery`.
-- `ref`: The ref code of the charge. Its default value can be set from the Configuration page of Just Eat Bridge and should match the value in your EPOS.
-- `price`: The total amount of the delivery charge.
+- `name`: Always set to `Delivery charge`.
+- `type`: The type of charge. Always set to `delivery`.
+- `ref`: The ref code of the charge. You can set its value from the Configuration page of Just Eat Bridge. Ensure that it matches the value in your EPOS.
+- `price`: The amount of the delivery charge.
 
 <details>
 
-Below is a sample payload for charges.
+Sample payload for delivery charges.
 
 ```json
 "charges": [
@@ -239,6 +239,17 @@ Below is a sample payload for charges.
 ```
 
 </details>
+
+### Service Fees
+
+Service fees, when applied, are also represented in the `charges` array.
+
+The fields for service fees are:
+
+- `name`: Always set to `Service fee`.
+- `type`: Always set to `other`.
+- `ref`: The ref code of the charge. You can set its value from the Configuration page of Just Eat Bridge. Ensure that it matches the value in your EPOS.
+- `price`: The amount of the service fee.
 
 ## Customer Notes
 

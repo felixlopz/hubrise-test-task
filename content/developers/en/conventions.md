@@ -1,5 +1,6 @@
 ---
 title: Conventions and special cases
+path_override: conventions
 position: 4
 layout: documentation
 meta:

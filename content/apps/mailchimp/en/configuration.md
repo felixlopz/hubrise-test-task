@@ -1,5 +1,6 @@
 ---
 title: Configuration
+path_override: configuration
 position: 3
 layout: documentation
 meta:
@@ -20,15 +21,15 @@ In order to configure your connection to Mailchimp:
    - **Mailchimp account**: This option indicates which Mailchimp account is connected to your HubRise location.
 
    - **Mailchimp list**: This option indicates the Mailchimp Audience where the customers are exported to. In the drop-down list, you can select the Mailchimp audience to use. The selected audience also appears in the far right hand side of the Mailchimp header, immediately below the name of your business.
-     ![Mailchimp Bridge Configuration](../images/004-2x-connected-mailchimp-list.png)
+     ![Mailchimp Bridge Configuration](./images/004-2x-connected-mailchimp-list.png)
 
    - **Create a contact in Mailchimp when**: This option allows you to specify when a contact is created in Mailchimp. In the drop-down list you can either select **a customer is added to HubRise** or **an order is placed in HubRise**.
 
 1. Once you have set the configuration according to your preferences, click **Save**.
 
-If you want to reset the configuration and erase its values, click **Reset the configuration** at the bottom of the page.
+If you need to reset the configuration, click **Reset the configuration** at the bottom of the page.
 
-![Mailchimp Bridge Configuration](../images/010-en-2x-mailchimp-configuration.png)
+![Mailchimp Bridge Configuration](./images/010-2x-mailchimp-configuration.png)
 
 ## Customer Export
 

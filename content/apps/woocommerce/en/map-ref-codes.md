@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 5
 layout: documentation
 meta:
@@ -21,12 +22,12 @@ To assign ref codes to your WooCommerce products, follow these steps:
 1. If the product has no variations, follow these instructions:
    - Open the **Inventory** tab.
    - Enter the HubRise SKU ref code in the **SKU** field.
-     ![Entering the ref code in the SKU field for a WooCommerce product](../images/008-en-woocommerce-product-ref-code.png)
+     ![Entering the ref code in the SKU field for a WooCommerce product](./images/008-woocommerce-product-ref-code.png)
 1. Otherwise, if the product uses variations, follow these instructions:
    - Open the **Variations** tab.
    - Click on the desired variation to expand the form.
    - Enter the HubRise SKU ref code in the **SKU** field.
-     ![Entering the ref code in the SKU field for a WooCommerce variation](../images/009-en-woocommerce-variation-ref-code.png)
+     ![Entering the ref code in the SKU field for a WooCommerce variation](./images/009-woocommerce-variation-ref-code.png)
 1. Click **Update** to confirm.
 
 You will need to repeat this manual procedure for all your available products.

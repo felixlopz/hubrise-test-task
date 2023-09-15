@@ -1,5 +1,6 @@
 ---
 title: Migrating MyOrderBox from Deliverect to HubRise. What Do I Need to Know?
+path_override: migrating-from-deliverect
 position: 2
 layout: documentation
 meta:

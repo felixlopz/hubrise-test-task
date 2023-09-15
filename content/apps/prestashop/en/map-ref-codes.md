@@ -1,5 +1,6 @@
 ---
 title: Map Ref Codes
+path_override: map-ref-codes
 position: 5
 layout: documentation
 meta:
@@ -17,15 +18,15 @@ To assign ref codes to your PrestaShop products, follow these steps:
 2. From the menu, select **Catalog** > **Products**.
 3. From the list of products, select the product for which you want to add the ref code.
 4. On the product page, under **Basic settings**, enter the ref code for the product in the **Reference** field.
-   ![Entering ref codes for a PrestaShop product](../images/002-en-prestashop-product-ref.png)
+   ![Entering ref codes for a PrestaShop product](./images/002-prestashop-product-ref.png)
 5. To confirm, click **Save**.
 
 If your product contains SKUs, you need to enter the ref codes for each combination in your product. Follow these steps:
 
 1. On the product page, under **Combinations**, click the <InlineImage width="20" height="20">![Pencil](../images/pencil-icon.png)</InlineImage>&nbsp;Pencil icon next to the combination.
-   ![Combinations page for a product in PrestaShop](../images/003-en-prestashop-combinations-page.png)
+   ![Combinations page for a product in PrestaShop](./images/003-prestashop-combinations-page.png)
 2. On the combination page, under **Combination details**, enter the ref code in the **Reference** field.
-   ![Ref code for a combination in PrestaShop](../images/004-en-prestashop-combinations-ref.png)
+   ![Ref code for a combination in PrestaShop](./images/004-prestashop-combinations-ref.png)
 3. Repeat the process for all the available combinations, then click **Save** to confirm.
 
 You will need to repeat this manual procedure for all your available items.

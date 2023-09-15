@@ -1,5 +1,6 @@
 ---
 title: Why Are My Deals Not Imported?
+path_override: deals-not-imported
 position: 1
 layout: documentation
 meta:

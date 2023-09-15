@@ -1,12 +1,12 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | FOODREPORT | HubRise
   description: FOODREPORT overview, reasons for connecting it to HubRise and summary of integrated features. Synchronise your EPOS and your other apps date with FOODREPORT.
 gallery:
-path_override: /
 app_info:
   category: Inventory and Operations Management
   availability: France and overseas France (France d'outre-mer)

@@ -1,5 +1,6 @@
 ---
 title: Guide de la marque
+path_override: branding
 layout: documentation-simple
 meta:
   title: Guide de la marque, logos et textes à utiliser | HubRise

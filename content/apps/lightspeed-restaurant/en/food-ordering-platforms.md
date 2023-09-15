@@ -1,5 +1,6 @@
 ---
 title: Food Ordering Platforms
+path_override: food-ordering-platforms
 position: 6
 layout: documentation
 meta:
@@ -61,7 +62,7 @@ Just Eat offers two APIs:
 - The Flyt API is used on the Just-Eat.co.uk, Just-Eat.ie, Menulog and SkipTheDishes platforms, and for chains on other markets. This API allows you to synchronise the orders and the menu.
 - The Takeaway API, the older one, is used for independents on other markets. It allows you to receive orders, but not to send the menu.
 
-If you are not sure which API to use, contact [support@hubrise.com](mailto:support@hubrise.com).
+If you are not sure which API to use, contact support@hubrise.com.
 
 ### Just Eat via Takeaway API
 
@@ -83,6 +84,7 @@ Just-Eat.ch uses the Just Eat via TakeawayAPI. In the Just Eat Takeaway Bridge c
 | Service types  | Send orders delivered by the platform as | `delivery orders`                                 |
 | Discounts      | Discount ref code                        | `EAT99`                                           |
 | Charges        | Delivery charge ref code                 | `EAT77`                                           |
+| Charges        | Service fee ref code                     | `EAT66`                                           |
 | Payments       | Online payment ref code                  | `EATPM`                                           |
 | Payments       | Cash payment ref code                    | (leave empty)                                     |
 | Order statuses | Mark orders as Accepted                  | `when their HubRise status changes to "Received"` |

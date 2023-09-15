@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -9,7 +10,6 @@ gallery:
   - __gallery-001.png
   - __gallery-002.png
   - __gallery-003.png
-path_override: /
 app_info:
   category: Online Ordering
   availability: Europe

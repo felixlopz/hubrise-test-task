@@ -1,5 +1,6 @@
 ---
 title: Push the Catalog
+path_override: push-catalog
 position: 6
 layout: documentation
 meta:
@@ -49,13 +50,13 @@ Deliveroo Bridge can automatically push your HubRise catalog into Deliveroo ever
 1. In the **Catalog** section, tick the **Enable automatic catalog push** box.
 1. Click **Save**.
 
-## Information Sent to Deliveroo
+## Information Sent to Deliveroo(#information-sent-to-deliveroo)
 
 The following sections provide more details on how your HubRise catalog is mapped to Deliveroo.
 
 ### Menu Description and Banner
 
-You can specify the menu description and provide the URL for your banner image directly from the [Configuration page](/apps/deliveroo/configuration).
+You can specify the menu description and upload your banner image directly from the [Configuration page](/apps/deliveroo/configuration).
 
 Deliveroo Bridge sends this information to Deliveroo with every catalog push.
 

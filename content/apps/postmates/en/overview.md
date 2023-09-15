@@ -1,11 +1,11 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Postmates | HubRise
   description: Postmates overview, reasons for connecting Postmates to HubRise and summary of integrated features. Synchronise data between your EPOS and your other apps.
-path_override: /
 app_info:
   category: Delivery Management
   availability: USA

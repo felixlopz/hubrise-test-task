@@ -1,11 +1,11 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
   title: Overview | Obypay | HubRise
   description: Obypay overview, reasons for connecting Obypay to HubRise and summary of integrated features. Synchronise data between your EPOS, Obypay and your other apps.
-path_override: /
 ---
 
 ---

@@ -1,5 +1,6 @@
 ---
 title: Integration Guide
+path_override: integration-guide
 position: 3
 layout: documentation
 meta:

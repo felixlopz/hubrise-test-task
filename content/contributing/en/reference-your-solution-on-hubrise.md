@@ -1,5 +1,6 @@
 ---
 title: Reference Your Solution on HubRise
+path_override: reference-your-solution-on-hubrise
 position: 3
 layout: documentation
 meta:
@@ -7,7 +8,7 @@ meta:
   description: Once your integration has been approved, you can request to be referenced on HubRise. The list of elements to provide depends on the type of inclusion.
 ---
 
-Once your solution has been technically approved by HubRise, you can ask for it to be included on our website by contacting us at [contact@hubrise.com](mailto:contact@hubrise.com).
+Once your solution has been technically approved by HubRise, you can ask for it to be included on our website by contacting us at contact@hubrise.com.
 
 Depending on the parts of the site in which your solution will be referenced, you must provide us with certain elements, details of which are given below.
 
@@ -49,7 +50,7 @@ The illustration below shows why screenshots must have the same width-height rat
 
 The Partners page does not exist yet, but will be added soon. Here is a preview of how a partner will be presented on this page.
 
-![Partner description example](../images/008-en-partenaire-exemple-description.png)
+![Partner description example](./images/008-partner-description-example.png)
 
 In order to feature on our partners page, you must provide the following elements:
 

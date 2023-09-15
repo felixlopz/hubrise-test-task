@@ -1,5 +1,6 @@
 ---
 title: Overview
+path_override: "/"
 position: 1
 layout: documentation
 meta:
@@ -10,7 +11,6 @@ gallery:
   - __gallery-004.png
   - __gallery-001.png
   - __gallery-002.png
-path_override: /
 app_info:
   category: Operations and Inventory
   availability: Canada, United States, France, Worldwide

@@ -1,5 +1,6 @@
 ---
 title: How Do I Create Ref Codes In Lightspeed?
+path_override: create-ref-codes
 position: 3
 layout: documentation
 meta:

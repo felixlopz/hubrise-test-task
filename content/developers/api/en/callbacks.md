@@ -1,5 +1,6 @@
 ---
 title: Callbacks
+path_override: callbacks
 position: 8
 layout: documentation
 meta:
@@ -62,7 +63,7 @@ To acknowledge the reception of an event, your callback must return an HTTP code
 
 #### Retries
 
-If the callback fails to return a valid response, for example if it returns a `5xx` HTTP code or if it times out, HubRise retries sending the event until it succeeds, or until the number of retries reaches 6. The time between retries doubles with each attempt, starting at 1 minute and reaching 32 minutes. In the meantime, unacknowledged events remain accessible through `GET /callback/events`.
+If the callback returns an invalid response (like a `5xx` HTTP code) or takes longer than 20 seconds to respond, HubRise will try to resend the event. This will continue until the event is successfully sent or until it has been tried 6 times. The wait time between these retries starts at 1 minute and doubles after each attempt, up to a maximum of 32 minutes. During this period, unacknowledged events remain accessible through `GET /callback/events`.
 
 If the callback fails to acknowledge the event after 6 retries, HubRise deletes the event.
 
