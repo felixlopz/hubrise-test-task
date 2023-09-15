@@ -8,9 +8,9 @@ meta:
   description: Instructions simples pour configurer Smood afin que la plateforme fonctionne parfaitement avec le logiciel de caisse ou d'autres applications connectées à HubRise.
 ---
 
-La page de **Configuration** Smood vous permet de configurer la manière dont les commandes sont envoyées à votre logiciel de caisse, ou à toute autre solution connectée à HubRise. Elle inclut également d'autres types configurations.
+La page de **Configuration** Smood vous permet de configurer la manière dont les commandes sont envoyées à votre logiciel de caisse, ou à toute autre solution connectée à HubRise. Elle inclut également d'autres paramètres liés à l'intégration.
 
-Cette page explique comment ouvrir la page de configuration et vous assiste dans la définition des configurations appropriées.
+Cette page explique comment ouvrir la page de configuration et configurer votre connexion.
 
 ## Ouvrir la page de configuration
 

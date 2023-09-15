@@ -12,7 +12,7 @@ Connecting Smood to HubRise can be done with a few steps.
 
 ---
 
-**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Sign-up Page](https://manager.hubrise.com/signup). It only takes a minute!
+**IMPORTANT NOTE:** If you do not have a HubRise account yet, register on our [Signup Page](https://manager.hubrise.com/signup). It only takes a minute!
 
 ---
 
@@ -44,4 +44,7 @@ Once the HubRise integration is enabled, follow these steps:
 
 Each product or option in Smood needs to have a corresponding ref code. This ensures that your EPOS can identify every item correctly.
 
-This task can be accomplished in two different ways. You can [manually map the ref codes](/apps/smood/map-ref-codes) of your products in Smood, or [pull your HubRise catalog](/apps/smood/pull-catalog) into Smood.
+This task can be accomplished in two different ways. You can:
+
+- [Manually map the ref codes](/apps/smood/map-ref-codes) of your products in Smood.
+- Or [pull your HubRise catalog](/apps/smood/pull-catalog) into Smood.

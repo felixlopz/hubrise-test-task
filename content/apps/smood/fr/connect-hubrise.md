@@ -44,4 +44,7 @@ Une fois l'intégration de HubRise activée, suivez ces étapes :
 
 Vous devez renseigner les codes ref de tous les produits ou options dans Smood. Votre logiciel de caisse pourra alors identifier correctement chaque article.
 
-Cette tâche peut être accomplie de deux manières différentes. Vous pouvez [renseigner manuellement les codes ref](/apps/smood/associer-codes-ref) de vos produits dans Smood ou [récupérer votre catalogue HubRise](/apps/smood/recuperer-catalogue) dans Smood.
+Cette tâche peut être accomplie de deux manières différentes. Vous pouvez :
+
+- [Renseigner manuellement les codes ref](/apps/smood/map-ref-codes) de vos produits dans Smood.
+- Ou [récupérer votre catalogue HubRise](/apps/smood/pull-catalog) dans Smood.

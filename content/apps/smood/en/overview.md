@@ -25,7 +25,7 @@ Committed to an ongoing process of social responsibility, Smood ensures that all
 
 By partnering with Smood, stores can tap into a broader customer base and enjoy increased revenue. Smood takes care of all marketing and delivery operations, allowing partners to concentrate on their core business functions.
 
-In addition to its standard services, Smood offers a white-label delivery service called Dismatch, also integrated with HubRise. This service enables stores to outsource deliveries without inclusion into the Smood ordering platform, providing partners with further flexibility and efficiency. For more information see [Dismatch](/apps/smood-dismatch).
+In addition to its standard services, Smood offers a white-label delivery service called Dismatch, also integrated with HubRise. This service enables partners to outsource deliveries without inclusion into the Smood ordering platform, providing them with further flexibility and efficiency. For more information see [Dismatch](/apps/smood-dismatch).
 
 ## Integration Features
 

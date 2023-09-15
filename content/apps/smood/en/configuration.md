@@ -8,9 +8,9 @@ meta:
   description: Instructions on configuring Smood to work seamlessly with your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-The Smood **Configuration** page allows you to configure how orders are sent to your EPOS, or any other solution connected to HubRise. It includes other types of settings as well.
+The Smood **Configuration** page allows you to configure how orders are sent to your EPOS, or any other solution connected to HubRise. It also includes other settings related to the integration.
 
-This page explains how to open the configuration page and assists you in setting the appropriate configurations.
+This page explains how to open the configuration page and configure your connection.
 
 ## Open the Configuration Page
 
@@ -53,7 +53,7 @@ The checkboxes in this section control the synchronisation workflow between Smoo
 
 - **Enable automatic sync of the catalog**: When checked, the Smood menu is automatically updated when the HubRise catalog changes.
 - **Enable automatic sync of the inventory**: When checked, items are automatically removed from the Smood menu when they are out of stock in the HubRise inventory.
-- **Enable automatic sync of status from Smood to HubRise**: When an order is cancelled on Smood, the status update is always sent to HubRise. When this option is checked other Smood statuses are also sent. 
+- **Enable automatic sync of status from Smood to HubRise**: When an order is cancelled on Smood, the status update is always sent to HubRise. When this option is checked, other Smood statuses are also sent.
 
 ### Save Your Changes
 
