@@ -1,0 +1,17 @@
+---
+title: Connexion à HubRise
+path_override: connexion-hubrise
+position: 2
+layout: documentation
+meta:
+  title: Connexion | Acme | HubRise
+  description: Connecter Acme à HubRise, étapes à suivre pour recevoir vos commandes Acme dans votre logiciel de caisse.
+---
+
+---
+
+**REMARQUE IMPORTANTE :** Ceci est une page de test.
+
+---
+
+Pour consulter la liste des fonctionnalités, voir la [section fonctionnalités](/apps/0test/#integration-features).

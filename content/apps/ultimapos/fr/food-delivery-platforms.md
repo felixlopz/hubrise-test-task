@@ -71,6 +71,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 | Types de service    | Envoyer les commandes livrées par la plateforme [...] | `commandes en livraison`                                                          |
 | Remises             | Code ref remise                                       | Créer une promotion `Just Eat` dans UltimaPOS et utiliser son identifiant.        |
 | Frais               | Code ref frais de livraison                           | Créer un article `Frais de livraison` dans UltimaPOS et utiliser son identifiant. |
+| Frais               | Code ref frais de service                             | Créer un article `Frais de service` dans UltimaPOS et utiliser son identifiant.   |
 | Paiements           | Code ref paiement en ligne                            | Créer un règlement `Just Eat` dans UltimaPOS et utiliser son identifiant.         |
 | Paiements           | Code ref paiement en espèces                          | (laisser vide)                                                                    |
 | Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"`                                     |
