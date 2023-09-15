@@ -31,18 +31,15 @@ They will have the same file name regardless of their language and will be saved
 
 ## Naming Convention
 
-Use the following naming convention for both EN and FR images: `[000]-2x-[description].[extension]`:
+Use the following naming convention: `[000]-[description].[extension]` or `[000]-2x-[description].[extension]`.
 
-- `[000]` is a three-digit sequence number. Not needed for icons and images that do not require localisation.
-- `2x` to be included only if you screenshots are taken from a HD 4K screen. Screenshots should not be scaled. For more information, see [Image Shooting](#image-shooting).
+- `[000]` is a three-digit sequence number.
+- `2x` to be included only if your screenshots are taken from a HD 4K screen. Screenshots should not be scaled.
 - `[description]` is a placeholder for a short description.
 
-For example, if the image contains text within:
+For example:
 
 - `001-login-example.png`
-
-For example, if the image contains text and the screen capture taken on a HD 4K screen:
-
 - `001-2x-login-example.png`
 
 ## Image alt attributes
