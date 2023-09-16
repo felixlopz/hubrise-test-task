@@ -20,22 +20,21 @@ export type RouteNameStatic =
   | "faqs"
   | "frontpage"
   | "pricing"
-export type RouteNameDynamic =
-  | "apps_category"
+export type RouteNameDocumentation =
   | "apps_page"
-  | "blog_archive"
   | "blog_post"
   | "contributing_page"
   | "developers_page"
   | "docs_page"
   | "legal_page"
+export type RouteNameDynamic = "apps_category" | "blog_archive" | RouteNameDocumentation
 export type RouteName = RouteNameStatic | RouteNameDynamic
 
 export type RouteParamsDynamic<R extends RouteNameDynamic> = R extends "apps_category"
   ? { categoryTitle: string }
   : R extends "blog_archive"
   ? { year: number }
-  : R extends "apps_page" | "blog_post" | "contributing_page" | "developers_page" | "docs_page" | "legal_page"
+  : R extends RouteNameDocumentation
   ? { contentDirName: ContentDirName; basename: string }
   : never
 type RouteParams<R extends RouteName> = R extends RouteNameDynamic ? { params: RouteParamsDynamic<R> } : object
