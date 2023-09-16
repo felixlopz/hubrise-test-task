@@ -10,7 +10,7 @@ meta:
 
 To receive LivePepper orders correctly on your EPOS, you need to configure ref codes for each item in the catalog, including toppings and options, ingredients, skus and deals. In some cases, the EPOS also requires ref codes for payment methods, service types and delivery charges. Refer to your EPOS documentation on the HubRise website for details.
 
-This page explains how to configure ref codes in LivePepper. Some EPOS solutions offer the ability to export the menu to HubRise, allowing you to populate your LivePepper menu automatically with the correct ref codes. For more details, see [Pulling and Pushing the Menu](/apps/livepepper/menu).
+This page explains how to configure ref codes in LivePepper. Some EPOS solutions offer the ability to export the menu to HubRise, allowing you to populate your LivePepper menu automatically with the correct ref codes. For more details, see [Pull the Catalog](/apps/livepepper/pull-catalog).
 
 ## Products and Skus
 

@@ -46,7 +46,7 @@ To find the ref codes for specific skus, options, discounts, and charges, follow
 
 You can then copy the codes in the connected app. For detailed instructions, follow the documentation for the connected app in the HubRise website.
 
-Note that charges and discounts must be created as items to be compatible with the HubRise data model. For more information see [Create Ref Codes](/apps/lightspeed-restaurant/create-ref-codes).
+Note that charges and discounts must be created as items to be compatible with the HubRise data model. For more information see [Create Ref Codes](/apps/lightspeed-restaurant/faqs/create-ref-codes).
 
 ### Production Instructions
 

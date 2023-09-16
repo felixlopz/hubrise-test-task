@@ -14,7 +14,7 @@ Vous pouvez connecter Koust à HubRise de manière autonome, en seulement quelqu
 
 Pour établir la connexion entre Koust et HubRise :
 
-1. Assurez-vous d'avoir un compte HubRise. Pour plus d'informations sur la création d'un compte HubRise, consultez le [Guide de prise en main](/docs/getting-started/).
+1. Assurez-vous d'avoir un compte HubRise. Pour plus d'informations sur la création d'un compte HubRise, consultez le [Guide de prise en main](/docs/get-started/).
 1. Ouvrez le tableau de bord Koust, puis cliquez sur le nom de votre entreprise dans la barre de menu (en haut à droite). Un menu déroulant s'affiche.
 1. Sélectionnez **Paramètres**. La page **Paramètres de l'établissement** s'affiche.
 1. Sélectionnez l'onglet **Intégrations**.

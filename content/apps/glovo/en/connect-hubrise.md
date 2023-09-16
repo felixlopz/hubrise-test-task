@@ -31,8 +31,6 @@ With this information in hand, we will ask Glovo support to enable the HubRise c
 
 Most apps require products ref codes to process orders correctly. You can either enter products ref codes manually in the Glovo back office, or ask their support team to enter them for you.
 
-For more information, see [Map Ref Codes](/apps/glovo/map-ref-codes).
-
 ## 3. Connect Glovo Bridge
 
 To connect Glovo Bridge to HubRise, follow these steps.

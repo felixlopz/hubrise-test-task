@@ -20,8 +20,8 @@ Pour mettre à jour votre menu Deliveroo, vous devez préalablement avoir un cat
 
 Vous pouvez aussi alimenter un catalogue HubRise en récupérant un menu existant depuis Deliveroo ou Uber Eats. Pour plus d'informations, consultez ces liens :
 
-- [Récupérer un catalogue depuis Deliveroo](/apps/deliveroo/recuperer-catalogue)
-- [Récupérer un catalogue depuis Uber Eats](/apps/uber-eats/recuperer-catalogue)
+- [Récupérer un catalogue depuis Deliveroo](/apps/deliveroo/pull-catalog)
+- [Récupérer un catalogue depuis Uber Eats](/apps/uber-eats/pull-catalog)
 
 ## Envoi manuel du catalogue
 
