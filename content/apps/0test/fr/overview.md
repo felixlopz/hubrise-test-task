@@ -52,12 +52,12 @@ Acme peut être connecté à HubRise depuis le back-office de Acme.
 
 On peut créer des liens locaux :
 
-- En utilisant l'URL sans la langue, par exemple : [/apps/0test/connexion-hubrise](/apps/0test/connexion-hubrise).
-- Ou en utilisant le chemin de fichier : [/apps/0test/connect-hubrise](/apps/0test/connect-hubrise).
+- En utilisant l'URL sans la langue, par exemple : [lien local par URL](/apps/0test/connexion-hubrise).
+- Ou en utilisant le chemin de fichier : [lien local par chemin de fichier](/apps/0test/connect-hubrise).
 
 Les liens locaux peuvent aussi contenir des ancres :
 
-- [/apps/0test/connect-hubrise#connect](/apps/0test/connect-hubrise#connect)
+- [lien local avec ancre](/apps/0test/connect-hubrise#connect)
 
 ## Pourquoi se connecter ?
 
