@@ -114,33 +114,33 @@ From the main page, you can perform the following actions:
 
 Avoid using lists to repeat all fields to fill in shown in the UI. For context, include a screenshot instead and refer to fields you need to provide information on.
 
-## References
+## Links
 
-### Cross-references
+### External Links
 
-Cross-references can be used to guide readers to related information within the same document or in an external page.
+To create a link to an external website, use the following format:
 
-Cross-references are hyperlinked to the header being referred to, with the final section linked. For example, if we are linking to the Colon section of the documentation in this format:
+`[Visit Google](https://www.google.com/)`
 
-> Style Guide &#8594; Punctuation &#8594; **Colon** &#8592; Linking here
+External links start with `https://` or `http://`. They open in a new tab.
 
-The link will be on **Colon**.
+### Internal Links
 
-Do not attach the cross-reference directly to a word in the text. Rather, use a separate sentence to introduce the cross-reference with the exact name of the header.
+To create a link to another page in the documentation, use the following format:
 
-> Wrong: We use [commas](#commas) to separate words.
+`[Deliveroo](/apps/deliveroo/overview)`
 
-> Right: We use commas to separate words. For more information on use of commas, refer to [Commas](#commas).
+Internal links start with `/` and include the file path, starting from the `content` directory, with the exception of the language folder (`en` or `fr`), which is omitted.
 
----
+### Anchors
 
-**IMPORTANT**: This is different from UI menu representation, which uses the greater than sign (**>**) to indicate a sub-level. For more information on UI menu representation, see ...
+Anchors are used to direct readers to a specific section within a page. To create an anchor, use the following format in the section heading:
 
----
+`## Integration Features(#features)`
 
-### Links
+With this anchor set up, you can link to the section using the following link:
 
-Always use relative paths for internal links or cross-references, and absolute paths for external links. Relative paths will open the link in the same tab. Absolute paths will open a new tab.
+`[Deliveroo Integration Features](/apps/deliveroo/overview#features)`
 
 ## Readability
 

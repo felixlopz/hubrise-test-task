@@ -79,14 +79,6 @@ _Depuis votre tableau de bord, vous pouvez :_
 
 ## Références
 
-### Renvois
-
-Utilisez Les renvois pour guider les lecteurs vers une information ciblée dans la même ou une autre page. N'attachez pas le lien directement à un mot car il risque de passer inaperçu. Écrivez une nouvelle phrase pour introduire le renvoi avec le nom exact du titre.
-
-> Incorrect : Vous pouvez représenter ces derniers sous forme de [listes](#lists).
-
-> Correct : Vous pouvez représenter ces derniers sous forme de listes. Pour plus d'informations sur l'utilisation des listes, consultez [Listes](#lists).
-
 ### Liens
 
 Utilisez des chemins relatifs pour les liens internes ou les renvois et des chemins absolus pour les liens externes. Les chemins relatifs ouvrent le lien dans le même onglet et les chemins absolus dans un nouvel onglet.
