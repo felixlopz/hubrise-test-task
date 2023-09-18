@@ -50,14 +50,9 @@ Connecter Acme à HubRise permet à votre logiciel de caisse de :
 
 Acme peut être connecté à HubRise depuis le back-office de Acme.
 
-On peut créer des liens locaux :
+Pour créer des liens locaux, utiliser le chemin de fichier : [lien local par chemin de fichier](/apps/0test/connect-hubrise).
 
-- En utilisant l'URL sans la langue, par exemple : [lien local par URL](/apps/0test/connexion-hubrise).
-- Ou en utilisant le chemin de fichier : [lien local par chemin de fichier](/apps/0test/connect-hubrise).
-
-Les liens locaux peuvent aussi contenir des ancres :
-
-- [lien local avec ancre](/apps/0test/connect-hubrise#connect)
+Les liens locaux peuvent aussi contenir des ancres : [lien local avec ancre](/apps/0test/connect-hubrise#connect)
 
 ## Pourquoi se connecter ?
 

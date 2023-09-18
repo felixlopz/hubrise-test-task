@@ -8,4 +8,4 @@ meta:
   description: FAQs about Catalog Manager, a HubRise app to view and edit your HubRise catalogs and synchronise them with your ePOS and other systems.
 ---
 
-- [How Do I Populate a Catalog from Another App?](/apps/catalog-manager/faqs/populate-catalog-from-other-app/)
+- [How Do I Populate a Catalog from Another App?](/apps/catalog-manager/faqs/populate-catalog-from-another-app)

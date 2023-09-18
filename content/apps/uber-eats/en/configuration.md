@@ -59,7 +59,7 @@ Uber Eats customers can pay for their order either online or by cash for restaur
 
 This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct codes to use.
 
-## Catalog
+## Catalog(#catalog)
 
 ![Uber Eats Bridge configuration page, Catalog section](./images/011-2x-configuration-page-menu.png)
 
@@ -73,7 +73,7 @@ If your catalog includes variants, you have the option to select which one to us
 
 Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with Uber Eats whenever it gets updated.
 
-### Opening Hours
+### Opening Hours(#opening-hours)
 
 In the **Opening hours** section, set the opening times for your Uber Eats store.
 

@@ -9,6 +9,6 @@ meta:
 
 HubRise et Delicity utilisent chacun leur propre terminologie. Un même concept peut donc exister sous une désignation différente dans chaque Delicity. Le tableau de correspondance ci-dessous indique ces différences.
 
-| SOLUTION   | HubRise        | Description                             |
-| ---------- | -------------- | --------------------------------------- |
-| Référence   | Code ref       | Code produit.                           |
+| SOLUTION  | HubRise  | Description   |
+| --------- | -------- | ------------- |
+| Référence | Code ref | Code produit. |

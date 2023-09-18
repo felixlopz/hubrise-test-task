@@ -14,7 +14,7 @@ This page describes the settings to use to connect food ordering platforms to Ap
 
 For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-## Service Type Refs
+## Service Type Refs(#service-type-refs)
 
 App4 displays the ref codes configured in the Service Type fields in the order notes. You can leave these ref codes empty, or use any value that will help you identify the source and service type of an order.
 
@@ -22,7 +22,7 @@ For example, you can use `Deliveroo` for all Deliveroo orders, or differentiate 
 
 ## Deliveroo
 
-To receive Deliveroo orders in App4, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+To receive Deliveroo orders in App4, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo/overview).
 
 In the Deliveroo Bridge configuration page, use the following settings:
 
@@ -51,7 +51,7 @@ If you are not sure which API to use, contact support@hubrise.com.
 
 ### Just Eat via Takeaway API
 
-To receive Just Eat orders in App4 via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
+To receive Just Eat orders in App4 via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway/overview).
 
 In the Just Eat Takeaway Bridge configuration page, use the following settings:
 
@@ -70,7 +70,7 @@ In the Just Eat Takeaway Bridge configuration page, use the following settings:
 
 ### Just Eat via Flyt API
 
-To receive Just Eat orders in App4 via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
+To receive Just Eat orders in App4 via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt/overview).
 
 In the Just Eat Flyt Bridge configuration page, use the following settings:
 
@@ -92,7 +92,7 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 
 ## Uber Eats
 
-To receive Uber Eats orders in App4, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Uber Eats orders in App4, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats/overview).
 
 In the Uber Eats Bridge configuration page, use the following settings:
 

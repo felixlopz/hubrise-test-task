@@ -16,38 +16,38 @@ This page explains how to open the configuration page and configure your connect
 
 To open the configuration page, follow these steps:
 
-- Log in to your [Smood back office](https://manager.smood.ch/).
+- Log in to your [Smood back office](https://manager.smood.ch).
 - Select the restaurant from the dropdown menu in the left sidebar.
 - Click the **Settings** tab, then in the **Integrations** section, click **Edit POS references**.
 
 You will also be redirected to the configuration page when you connect Smood to HubRise. For more information, see [Connect to HubRise](/apps/smood/connect-hubrise).
 
-## Configure Your Parameters
+## Configure Your Parameters(#parameters)
 
 ![Smood configuration page](./images/003-configuration.png)
 
-### Service Types
+### Service Types(#service-types)
 
-Service types such as Smood **Platform delivery**, **Restaurant delivery**, or **Takeaway**, might require the corresponding ref code entry. To verify, refer to your EPOS documentation on the HubRise website [Apps page](/apps/). For more information, see the **Terminology** paragraph, section [Smood Service Types](/apps/smood/terminology#smood-service-types).
+Service types such as Smood **Platform delivery**, **Restaurant delivery**, or **Takeaway**, might require the corresponding ref code entry. To verify, refer to your EPOS documentation on the HubRise website [Apps page](/apps). For more information, see the **Terminology** paragraph, section [Smood Service Types](/apps/smood/terminology#smood-service-types).
 
 Additionally, from this section you can choose to mark Smood delivery orders as delivery orders or collection orders for other connected apps to process them as needed. Restaurant delivery orders are always marked as delivery orders.
 
-### Discounts
+### Discounts(#discounts)
 
 In this section, you can configure the ref codes to use for discounts and deals sent to HubRise:
 
 - **Discount**: for discounts applied to the whole order, for example a 10% discount.
 - **Promotion**: for discounts applied to a set of items within the menu, such as a three-course meal (starter, main course, and dessert).
 
-### Charges
+### Charges(#charges)
 
 Delivery charges are sent to the EPOS for orders delivered by the restaurant. In this section, you can configure the ref code to use.
 
-### Payments
+### Payments(#payments)
 
 All Smood orders are paid online. Smood includes a payment in the order sent to the EPOS. In this section, you can configure the ref code to use.
 
-### Synchronisation Settings
+### Synchronisation Settings(#synchronisation-settings)
 
 The checkboxes in this section control the synchronisation workflow between Smood and HubRise:
 

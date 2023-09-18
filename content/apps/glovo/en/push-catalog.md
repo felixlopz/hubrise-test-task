@@ -25,7 +25,7 @@ To update your menu in Glovo, you should have a HubRise catalog first. Many apps
 
 Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats.
 
-For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+For more information on HubRise catalogs, see [Catalogs](/docs/catalog).
 
 ## Manual Catalog Push
 
@@ -144,7 +144,7 @@ For every sku in a product, Glovo Bridge sends the following information to Glov
 - `image`: The URL of the image of the parent product
 - `sku.option_list_refs`: The list of options attached to the sku
 
-For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management/#skus).
+For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management#skus).
 
 ### Options
 

@@ -8,4 +8,4 @@ meta:
   description: Questions fréquentes sur l'intégration de Smood à HubRise.
 ---
 
-- [Pourquoi mes promotions ne sont-elles pas importées ?](/apps/smood/faqs/promotions-non-importees/)
+- [Pourquoi mes promotions ne sont-elles pas importées ?](/apps/smood/faqs/deals-not-imported)

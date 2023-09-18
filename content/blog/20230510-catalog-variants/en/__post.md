@@ -1,6 +1,6 @@
 ---
 title: Catalog Variants
-path_override: __post
+path_override: catalog-variants
 date: 2023-05-10
 author: Antoine Monnier
 meta:
@@ -112,7 +112,7 @@ The API changes have been reflected in our [API documentation](/developers/api/c
 
 ## Updates to Catalog Manager
 
-[Catalog Manager](/apps/catalog-manager) is a free app included with HubRise. It allows you to view and modify your catalogs.
+[Catalog Manager](/apps/catalog-manager/overview) is a free app included with HubRise. It allows you to view and modify your catalogs.
 
 We have added a new **Grid** mode, where you can create variants, customise prices, and disable items for some variants.
 

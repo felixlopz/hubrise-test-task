@@ -37,7 +37,7 @@ For detailed instructions on how to create ref codes in the Lightspeed back offi
 
 ## Deliveroo
 
-To receive Deliveroo orders in Lightspeed Restaurant, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+To receive Deliveroo orders in Lightspeed Restaurant, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo/overview).
 
 In the Deliveroo Bridge configuration page, use the following settings:
 
@@ -66,11 +66,11 @@ If you are not sure which API to use, contact support@hubrise.com.
 
 ### Just Eat via Takeaway API
 
-To receive Just Eat orders in Lightspeed Restaurant via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
+To receive Just Eat orders in Lightspeed Restaurant via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway/overview).
 
 ### Just Eat via Flyt API
 
-To receive Just Eat orders in Lightspeed Restaurant via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
+To receive Just Eat orders in Lightspeed Restaurant via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt/overview).
 
 ### Just-Eat.ch
 
@@ -156,10 +156,10 @@ To receive your HOP Delivery orders in Lightspeed, use the following values to c
 | Payments      | HOP payment ref code          | `HOPPM`       |
 | Payments      | Cash payment ref code         | (leave empty) |
 
-## Smood
+## Smood(#smood)
 
 To receive your Smood orders in Lightspeed, use the following values to configure Smood. For assistance, contact Smood support team.
-For more details on how to configure the parameters in Smood, see the [Smood documentation](/apps/smood).
+For more details on how to configure the parameters in Smood, see the [Smood documentation](/apps/smood/overview).
 
 | Section       | Name                              | Ref code    |
 | ------------- | --------------------------------- | ----------- |
@@ -174,7 +174,7 @@ For more details on how to configure the parameters in Smood, see the [Smood doc
 
 ## Uber Eats
 
-To receive Uber Eats orders in Lightspeed Restaurant, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Uber Eats orders in Lightspeed Restaurant, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats/overview).
 
 In the Uber Eats Bridge configuration page, use the following settings:
 

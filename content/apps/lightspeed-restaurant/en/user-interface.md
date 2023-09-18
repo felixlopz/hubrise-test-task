@@ -30,7 +30,7 @@ On the top right corner of the Lightspeed Restaurant Bridge main page, the HubRi
 
 ![Main page](./images/003-2x-main-page-truncated.png)
 
-## Operation Page
+## Operation Page(#operation)
 
 Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the Lightspeed Restaurant EPOS via Lightspeed Restaurant Bridge.
 
@@ -44,7 +44,7 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 ![Order page](./images/005-2x-operations-page.png)
 
-Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
+Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/overview).
 
 ## Configuration Page
 

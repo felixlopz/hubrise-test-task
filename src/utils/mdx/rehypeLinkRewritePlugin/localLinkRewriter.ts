@@ -4,7 +4,7 @@ import { ContentDirName } from "@utils/files"
 import { defaultLanguage, Language } from "@utils/locales"
 import { HeaderLink } from "@utils/mdx/remarkHeadingsPlugin"
 import { Router } from "@utils/router"
-import { LayoutName, Route, RouteName } from "@utils/router/types"
+import { LayoutName, Route, RouteName, RouteNameDocumentation } from "@utils/router/types"
 
 export class LocalLinkRewriter {
   // path => header links
@@ -50,19 +50,26 @@ export class LocalLinkRewriter {
     // Return null if the link is simply an anchor (e.g. `#connect`)
     if (path === "") return null
 
-    // Try finding route by href
-    const hrefWithLanguage = this.language === defaultLanguage ? path : `/${this.language}${path}`
-    let route = this.router.getRouteFromHref(hrefWithLanguage)
-    if (route) return route
-
-    // Fallback to finding route by filepath
+    // Try to find route by filepath.
     // path = /apps/0test/faqs/connect-hubrise => contentDirName = "/apps/0test/faqs", basename = "connect-hubrise"
+    let route: Route<RouteName, LayoutName> | undefined
     const pathElements = path.split("/")
     const basename = pathElements.pop()!
     const contentDirName = pathElements.join("/") as ContentDirName
-
-    route = this.router.findDocumentationRoute(contentDirName, basename)
+    route = this.router.findDocumentationRoute(contentDirName, basename, this.language)
     if (route) return route
+
+    // If route is not found, assume it is NOT a documentation route, and try to find it by href.
+    const hrefWithLanguage = this.language === defaultLanguage ? path : `/${this.language}${path}`
+    route = this.router.getRouteFromHref(hrefWithLanguage)
+    if (route) {
+      if (this.isDocumentationRoute(route)) {
+        const filePath = route.params.contentDirName + "/" + route.params.basename
+        throw new Error(`${this.pageHref}: replace "${path}" with "${filePath}"`)
+      } else {
+        return route
+      }
+    }
 
     // Throw error if no route was found
     throw new Error(`${this.pageHref}: link "${path}" not found`)
@@ -79,7 +86,7 @@ export class LocalLinkRewriter {
 
     if (route) {
       // Do not rewrite anchors in non-documentation routes
-      if (!("mdFile" in route.context)) return anchor
+      if (!this.isDocumentationRoute(route)) return anchor
 
       // Get header links
       const href = route.href
@@ -94,14 +101,20 @@ export class LocalLinkRewriter {
     }
 
     // Find anchor
-    const headerLink = headerLinks.find((link) => (link.customId || link.generatedId) === anchor)
+    const headerLink = headerLinks.find((link) => link.customId === anchor)
     if (!headerLink) {
-      const anchors = headerLinks.map((link) => link.customId || link.generatedId)
+      const anchors = headerLinks.map((link) => link.customId).filter(Boolean)
       throw new Error(
         `${this.pageHref}: anchor "${anchor}" does not exist in ${route?.href || this.pageHref}.\n` +
           `Available anchors: ${anchors.join(", ")}`,
       )
     }
     return headerLink.generatedId
+  }
+
+  private isDocumentationRoute(
+    route: Route<RouteName, LayoutName>,
+  ): route is Route<RouteNameDocumentation, "blog-post" | "documentation"> {
+    return "mdFile" in route.context
   }
 }

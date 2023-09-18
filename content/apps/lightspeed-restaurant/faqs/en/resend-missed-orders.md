@@ -12,7 +12,7 @@ If you missed some HubRise orders and did not receive them in your Lightspeed Re
 
 If you want to resend an order to Lightspeed Restaurant, follow these steps:
 
-1. From the [**Operation page**](/apps/lightspeed-restaurant/user-interface#operation-page) of Lightspeed Restaurant Bridge, click on the order that you want to resend.
+1. From the [**Operation page**](/apps/lightspeed-restaurant/user-interface#operation) of Lightspeed Restaurant Bridge, click on the order that you want to resend.
 1. Identify the request sent from the Bridge to Lightspeed Restaurant: check that **Direction** is **Bridge → Lightspeed Restaurant**.
    ![Resend order request to Lightspeed Restaurant](./images/024-2x-lightspeed-resend-request.png)
 1. Click **Modify and resend this request**.

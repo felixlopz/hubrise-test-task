@@ -29,7 +29,7 @@ Placing a screenshot or animated GIF may be accompanied by "_This example demons
 Screenshots should always be taken in both English and French when applicable.
 They will have the same file name regardless of their language and will be saved in their respective `en` or `fr` folders. Always follow the image [naming convention](#naming-convention).
 
-## Naming Convention
+## Naming Convention(#naming-convention)
 
 Use the following naming convention: `[000]-[description].[extension]` or `[000]-2x-[description].[extension]`.
 

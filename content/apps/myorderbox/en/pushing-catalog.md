@@ -14,7 +14,7 @@ This page describes how to export your MyOrderBox catalog and what information i
 
 To export your MyOrderBox catalog to HubRise, follow these steps.
 
-1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
+1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com).
 1. From the navigation menu, select **Setup** > **Add Ons** > **HubRise**.
 1. Click the **Update HubRise catalog** button, then **OK** to confirm.
 

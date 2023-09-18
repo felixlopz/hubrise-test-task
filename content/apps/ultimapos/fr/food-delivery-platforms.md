@@ -20,7 +20,7 @@ En fonction de vos besoins, vous devrez créer des articles, promotions et centr
 
 Si vous n'utilisez pas ces fonctionnalités, il est inutile de créer ces éléments, et vous pouvez alors laisser vides les champs correspondants.
 
-### Centres de profit
+### Centres de profit(#profit-centers)
 
 UltimaPOS assigne chaque commande à un centre de profit. Vous pouvez configurer le centre de profit utilisé en fonction de la plateforme et du mode de livraison, ou utiliser des centres de profit par défaut.
 
@@ -30,15 +30,15 @@ Si les champs **Types de service** ne sont pas renseignés, UltimaPOS assigne ch
 
 ## Deliveroo
 
-Pour recevoir les commandes de Deliveroo dans UltimaPOS, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
+Pour recevoir les commandes de Deliveroo dans UltimaPOS, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo/overview).
 
 Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suivants.
 
 | Section             | Nom                                               | Code ref                                                                          |
 | ------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Types de service    | Code ref livraison par Deliveroo                  | Voir [Centres de profit](#centres-de-profit)                                      |
-| Types de service    | Code ref livraison par le restaurant              | Voir [Centres de profit](#centres-de-profit)                                      |
-| Types de service    | Code ref à emporter                               | Voir [Centres de profit](#centres-de-profit)                                      |
+| Types de service    | Code ref livraison par Deliveroo                  | Voir [Centres de profit](#profit-centers)                                         |
+| Types de service    | Code ref livraison par le restaurant              | Voir [Centres de profit](#profit-centers)                                         |
+| Types de service    | Code ref à emporter                               | Voir [Centres de profit](#profit-centers)                                         |
 | Types de service    | Envoyer les commandes livrées par Deliveroo [...] | `commandes en livraison`                                                          |
 | Remises             | Code ref remise                                   | Créer une promotion `Deliveroo` dans UltimaPOS et utiliser son identifiant.       |
 | Frais               | Code ref frais de livraison                       | Créer un article `Frais de livraison` dans UltimaPOS et utiliser son identifiant. |
@@ -59,15 +59,15 @@ En cas de doute sur l'API à utiliser, contactez support@hubrise.com.
 
 ### Just Eat avec l'API Takeaway
 
-Pour recevoir les commandes de Just Eat dans UltimaPOS avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
+Pour recevoir les commandes de Just Eat dans UltimaPOS avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway/overview).
 
 Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramètres suivants.
 
 | Section             | Nom                                                   | Code ref                                                                          |
 | ------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Types de service    | Code ref livraison par la plateforme                  | Voir [Centres de profit](#centres-de-profit)                                      |
-| Types de service    | Code ref livraison par le restaurant                  | Voir [Centres de profit](#centres-de-profit)                                      |
-| Types de service    | Code ref à emporter                                   | Voir [Centres de profit](#centres-de-profit)                                      |
+| Types de service    | Code ref livraison par la plateforme                  | Voir [Centres de profit](#profit-centers)                                         |
+| Types de service    | Code ref livraison par le restaurant                  | Voir [Centres de profit](#profit-centers)                                         |
+| Types de service    | Code ref à emporter                                   | Voir [Centres de profit](#profit-centers)                                         |
 | Types de service    | Envoyer les commandes livrées par la plateforme [...] | `commandes en livraison`                                                          |
 | Remises             | Code ref remise                                       | Créer une promotion `Just Eat` dans UltimaPOS et utiliser son identifiant.        |
 | Frais               | Code ref frais de livraison                           | Créer un article `Frais de livraison` dans UltimaPOS et utiliser son identifiant. |
@@ -82,10 +82,10 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les codes ref suivan
 
 | Section             | Nom                                               | Code ref                                                           |
 | ------------------- | ------------------------------------------------- | ------------------------------------------------------------------ |
-| Types de service    | Code ref livraison Uber                           | Voir [Centres de profit](#centres-de-profit)                       |
-| Types de service    | Code ref livraison par le restaurant              | Voir [Centres de profit](#centres-de-profit)                       |
-| Types de service    | Code ref à emporter                               | Voir [Centres de profit](#centres-de-profit)                       |
-| Types de service    | Code ref sur place                                | Voir [Centres de profit](#centres-de-profit)                       |
+| Types de service    | Code ref livraison Uber                           | Voir [Centres de profit](#profit-centers)                          |
+| Types de service    | Code ref livraison par le restaurant              | Voir [Centres de profit](#profit-centers)                          |
+| Types de service    | Code ref à emporter                               | Voir [Centres de profit](#profit-centers)                          |
+| Types de service    | Code ref sur place                                | Voir [Centres de profit](#profit-centers)                          |
 | Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes en livraison`                                           |
 | Articles spéciaux   | Code ref jetables                                 | Créer un article `Jetables` et utiliser son code ref. (\*)         |
 | Remises             | Code ref remise                                   | Créer une promotion `Uber Eats` et utiliser son identifiant.       |

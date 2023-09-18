@@ -89,9 +89,9 @@ describe("changeLanguage", () => {
 })
 
 describe("findDocumentationRoute", () => {
-  it("should find route by contentDirName and basename", () => {
-    const route = router.findDocumentationRoute("/apps/uber", "overview")
+  it("should find route", () => {
+    const route = router.findDocumentationRoute("/apps/uber", "overview", "fr")
     expect(route).toBeDefined()
-    expect(route!.href).toEqual("/apps/uber")
+    expect(route!.href).toEqual("/fr/apps/uber")
   })
 })

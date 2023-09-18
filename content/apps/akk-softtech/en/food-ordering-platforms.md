@@ -16,7 +16,7 @@ For more information, check the documentation of these platforms in our [Apps pa
 
 ## Deliveroo
 
-To receive Deliveroo orders in AKK Softtech, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+To receive Deliveroo orders in AKK Softtech, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo/overview).
 
 In the Deliveroo Bridge configuration page, use the following settings:
 
@@ -36,7 +36,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 
 ## Just Eat
 
-To receive Just Eat orders in AKK Softtech, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
+To receive Just Eat orders in AKK Softtech, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt/overview).
 
 In the Just Eat Flyt Bridge configuration page, use the following settings:
 
@@ -58,7 +58,7 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 
 ## Uber Eats
 
-To receive Uber Eats orders in AKK Softtech, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Uber Eats orders in AKK Softtech, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats/overview).
 
 In the Uber Eats Bridge configuration page, use the following settings:
 

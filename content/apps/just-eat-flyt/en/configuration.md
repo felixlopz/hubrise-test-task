@@ -49,7 +49,7 @@ Just Eat customers can pay for their order either online or by cash for restaura
 
 This section of the configuration page allows you to specify the ref codes for these two payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct codes to use.
 
-## Catalog
+## Catalog(#catalog)
 
 Select the **Enable automatic catalog push** checkbox to synchronise your HubRise catalog with Just Eat whenever it gets updated.
 

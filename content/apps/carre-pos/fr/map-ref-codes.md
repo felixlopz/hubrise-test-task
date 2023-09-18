@@ -29,7 +29,7 @@ Pour exporter manuellement le catalogue vers HubRise, suivez les étapes suivant
    ![Associer les codes ref - Envoyer le menu](./images/008-carre-pos-send-menu.png)
 1. Sur la ligne **HubRise**, sélectionnez votre menu, et cliquez sur **Envoyer**.
 
-## Produits
+## Produits(#products)
 
 Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 
@@ -45,7 +45,7 @@ Carré POS ne permet pas de créer de SKU. Pour remplacer cette fonctionnalité
 
 ## Options
 
-Une option dans HubRise correspond aussi à un produit dans Carré POS. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/carre-pos/associer-codes-ref#produits).
+Une option dans HubRise correspond aussi à un produit dans Carré POS. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/carre-pos/map-ref-codes#products).
 
 ## Méthodes de paiement
 

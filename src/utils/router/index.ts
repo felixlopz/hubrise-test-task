@@ -56,10 +56,15 @@ export class Router {
   findDocumentationRoute(
     contentDirName: ContentDirName,
     basename: string,
+    language: Language,
   ): Route<RouteNameDocumentation, LayoutName> | undefined {
     return this.routes.find((route) => {
       if (!("params" in route) || !("contentDirName" in route.params) || !("basename" in route.params)) return false
-      return route.params.contentDirName === contentDirName && route.params.basename === basename
+      return (
+        route.language === language &&
+        route.params.contentDirName === contentDirName &&
+        route.params.basename === basename
+      )
     }) as Route<RouteNameDocumentation, LayoutName> | undefined
   }
 

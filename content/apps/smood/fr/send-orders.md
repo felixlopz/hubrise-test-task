@@ -39,14 +39,14 @@ Smood envoie les statuts suivants à HubRise :
 - `in_delivery` : un chauffeur Smood récupère la commande.
 - `completed` : le restaurant termine la commande sur la tablette Smood ou le chauffeur marque la commande comme livrée sur l'application mobile.
 
-Smood informe toujours HubRise de l'annulation d'une commande en envoyant le statut `cancelled`. Les autres statuts ne sont synchronisés que si l'option **Activer la synchronisation automatique du statut de Smood à HubRise** est activée dans la [page de configuration](/apps/smood/configuration#param-tres-de-synchronisation).
+Smood informe toujours HubRise de l'annulation d'une commande en envoyant le statut `cancelled`. Les autres statuts ne sont synchronisés que si l'option **Activer la synchronisation automatique du statut de Smood à HubRise** est activée dans la [page de configuration](/apps/smood/configuration#synchronisation-settings).
 
 ## Informations générales
 
 Smood envoie à HubRise les informations générales suivantes sur les commandes :
 
 - `service_type` : soit `delivery` (livraison), soit `collection` (à emporter).
-- `service_type_ref` : code ref du type de service, s'il est défini dans la [page de configuration](/apps/smood/configuration#types-de-service).
+- `service_type_ref` : code ref du type de service, s'il est défini dans la [page de configuration](/apps/smood/configuration#service-types).
 - `collection_code` : numéro de commande composé de 3 lettres et 4 chiffres séparés par un tiret, par exemple `ABC-1234`.
 - `customer_notes` : notes de préparation saisies par le client.
 
@@ -66,14 +66,14 @@ Smood envoie deux types de promotions à HubRise :
 Les deux types de promotions sont envoyées dans HubRise en tant que `deals`, avec les champs suivants :
 
 - `name` : nom de la promotion.
-- `ref` : **code ref de la promotion** défini dans la [page de configuration](/apps/smood/configuration#remises), pour les promotions, ou code ref pour les promotions importées depuis HubRise.
+- `ref` : **code ref de la promotion** défini dans la [page de configuration](/apps/smood/configuration#discounts), pour les promotions, ou code ref pour les promotions importées depuis HubRise.
 
 ## Frais
 
 Pour les commandes via le restaurant, Smood envoie des frais de livraison à HubRise en tant que `charges` :
 
 - `name` : Smood envoie `Delivery fee` dans ce champ.
-- `ref` : **code ref des frais de livraison** défini dans la [page de configuration](/apps/smood/configuration#frais).
+- `ref` : **code ref des frais de livraison** défini dans la [page de configuration](/apps/smood/configuration#charges).
 - `price` : frais de livraison.
 
 ## Remises
@@ -83,14 +83,14 @@ Les remises sont configurées dans le back-office Smood, dans la section **Marke
 Elles sont envoyées à HubRise en tant que `discounts` :
 
 - `name` : description du bon défini dans le back-office Smood.
-- `ref` : **code ref de la remise** défini dans la [page de configuration](/apps/smood/configuration#remises).
+- `ref` : **code ref de la remise** défini dans la [page de configuration](/apps/smood/configuration#discounts).
 - `amount` : montant de la remise.
 
 ## Payments (Paiements)
 
 Smood envoie un paiement avec les champs suivants :
 
-- `ref` : **code ref du paiement en ligne** défini dans la [page de configuration](/apps/smood/configuration#paiements).
+- `ref` : **code ref du paiement en ligne** défini dans la [page de configuration](/apps/smood/configuration#payments).
 - `amount` : montant total payé par le client.
 
 ## Client

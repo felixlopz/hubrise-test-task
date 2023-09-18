@@ -16,7 +16,7 @@ For more information, check the documentation of these platforms in our [Apps pa
 
 ## Configuration on MyOrderBox
 
-### Virtual Brands
+### Virtual Brands(#virtual-brands)
 
 MyOrderBox uses service type ref codes to identify the source of orders. To connect several virtual brands to a single MyOrderBox EPOS, you need to include virtual brand identification information in the service type ref codes. To connect a single brand, just use the service type ref codes provided in the sections below.
 
@@ -27,7 +27,7 @@ For example, to connect Deliveroo:
 
 To find a virtual brand id:
 
-1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com/).
+1. Log in to your [MyOrderBox back office](https://go.myorderboxhq.com).
 1. Check that no store is selected in the store selector dropdown at the top. If a store is selected, click on the cross icon to unselect. If you cannot unselect the store, check that you have account manager permissions.
 1. From the navigation menu, select **Management** > **Menu** > **Virtual Brands** > **Products**.
 1. Open the **Virtual brand** dropdown.
@@ -37,7 +37,7 @@ To find a virtual brand id:
 
 ## Deliveroo
 
-To receive Deliveroo orders in MyOrderBox, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+To receive Deliveroo orders in MyOrderBox, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo/overview).
 
 In the Deliveroo Bridge configuration page, use the following settings:
 
@@ -66,7 +66,7 @@ If you are not sure which API to use, contact support@hubrise.com.
 
 ### Just Eat via Takeaway API
 
-To receive Just Eat orders in MyOrderBox via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
+To receive Just Eat orders in MyOrderBox via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway/overview).
 
 In the Just Eat Takeaway Bridge configuration page, use the following settings:
 
@@ -85,7 +85,7 @@ In the Just Eat Takeaway Bridge configuration page, use the following settings:
 
 ### Just Eat via Flyt API
 
-To receive Just Eat orders in MyOrderBox via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
+To receive Just Eat orders in MyOrderBox via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt/overview).
 
 In the Just Eat Flyt Bridge configuration page, use the following settings:
 
@@ -107,7 +107,7 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 
 ## Uber Eats
 
-To receive Uber Eats orders in MyOrderBox, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Uber Eats orders in MyOrderBox, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats/overview).
 
 In the Uber Eats Bridge configuration page, use the following settings:
 
