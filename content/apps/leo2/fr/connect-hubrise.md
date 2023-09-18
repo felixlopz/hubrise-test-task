@@ -35,8 +35,8 @@ Pour connecter votre logiciel de caisse LEO2 à HubRise, suivez les étapes suiv
    ![Connexion - HubRise connecté](./images/004-leo2-hubrise-connected.png)
 1. Cochez la case **Lancement automatique du serveur HubRise**.
 1. Cliquez sur **Enregistrer**.
-1. En cas de besoin, l'éditeur du logiciel LEO2 peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/leo2/connexion-hubrise#give-access).
-1. Pour pouvoir redémarrer facilement le serveur d'HubRise, nous vous recommandons de [créer un raccourci sur votre bureau](/apps/leo2/connexion-hubrise#shortcut).
+1. En cas de besoin, l'éditeur du logiciel LEO2 peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/leo2/connect-hubrise#give-access).
+1. Pour pouvoir redémarrer facilement le serveur d'HubRise, nous vous recommandons de [créer un raccourci sur votre bureau](/apps/leo2/connect-hubrise#shortcut).
 
 ## Donner accès au support de LEO2(#give-access)
 

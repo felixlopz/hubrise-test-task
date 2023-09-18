@@ -1,6 +1,6 @@
 ---
 title: "HubRise accélère la transition numérique des commerçants et restaurateurs post-COVID"
-path_override: __post
+path_override: transition-numerique-post-covid
 date: 2021-11-13
 author: Janaina Wittner
 meta:

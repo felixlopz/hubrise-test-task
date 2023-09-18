@@ -27,7 +27,7 @@ To view Usage details for an Account or Location:
 
 ## Usage Plans(#plan)
 
-HubRise provides both free and paid plans for its services. For complete information on plans and pricing, see the [HubRise Price page](/pricing/).
+HubRise provides both free and paid plans for its services. For complete information on plans and pricing, see the [HubRise Price page](/pricing).
 
 Free plans are available for Locations with a limited number of transactions a month. Once the limit is reached, Admin users of the Account and the Location are notified via email, and they need to upgrade to the paid tier to continue service.
 

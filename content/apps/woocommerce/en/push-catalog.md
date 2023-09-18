@@ -18,7 +18,7 @@ This page explains how you can push your catalog and what information is sent to
 
 To be able to push your catalog into WooCommerce, you must populate a HubRise catalog first. Many apps connected with HubRise, including EPOS solutions, offer the ability to export the catalog to HubRise. Refer to your EPOS documentation on the HubRise website to verify.
 
-For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+For more information on HubRise catalogs, see [Catalogs](/docs/catalog).
 
 ## Manual Catalog Push
 

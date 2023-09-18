@@ -23,6 +23,6 @@ The account will be created without any additional users.
 
 ---
 
-**Related FAQ**: [How Do I Create an Account for Another Business and Share Access?](/docs/faqs/create-an-account-for-another-business/)
+**Related FAQ**: [How Do I Create an Account for Another Business and Share Access?](/docs/faqs/create-an-account-for-another-business-share-access)
 
 ---

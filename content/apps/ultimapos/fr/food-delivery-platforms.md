@@ -30,7 +30,7 @@ Si les champs **Types de service** ne sont pas renseignés, UltimaPOS assigne ch
 
 ## Deliveroo
 
-Pour recevoir les commandes de Deliveroo dans UltimaPOS, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
+Pour recevoir les commandes de Deliveroo dans UltimaPOS, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo/overview).
 
 Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suivants.
 
@@ -59,7 +59,7 @@ En cas de doute sur l'API à utiliser, contactez support@hubrise.com.
 
 ### Just Eat avec l'API Takeaway
 
-Pour recevoir les commandes de Just Eat dans UltimaPOS avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
+Pour recevoir les commandes de Just Eat dans UltimaPOS avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway/overview).
 
 Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramètres suivants.
 

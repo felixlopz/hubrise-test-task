@@ -75,7 +75,7 @@ To remove your access to an Account or a Location:
 
 ---
 
-For more information, see [Permissions](/docs/permissions/).
+For more information, see [Permissions](/docs/permissions).
 
 ## Create an Account
 

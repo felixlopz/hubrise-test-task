@@ -8,7 +8,7 @@ meta:
   description: HubRise payment options and billing cycles.
 ---
 
-Accounts and Locations set up with a paid plan will pay a monthly subscription to HubRise when they exceed the free [usage](/docs/usage-plan#plan) limit. For complete pricing information, see the [HubRise Price page](/pricing/).
+Accounts and Locations set up with a paid plan will pay a monthly subscription to HubRise when they exceed the free [usage](/docs/usage-plan#plan) limit. For complete pricing information, see the [HubRise Price page](/pricing).
 
 You can set up your payment method in the **SETTINGS** > **Payment** section. You must have a credit card to automate payments. Direct debit is not available. Wire transfer is accepted for a minimum of 12 months usage.
 
@@ -96,7 +96,7 @@ To remove a payment method, follow these steps:
 
 ---
 
-**Related FAQ**: [How Do I Stop Paying For My Subscription?](/docs/faqs/stop-paying-subscription/)
+**Related FAQ**: [How Do I Stop Paying For My Subscription?](/docs/faqs/stop-paying-subscription)
 
 ---
 
@@ -113,7 +113,7 @@ To process a Request for Payment from the notification:
 
 ---
 
-**Related FAQ**: [What Happens If My Free Plan Quota Is Exceeded?](/docs/faqs/free-plan-quota-exceeded-what-happens/), [How Do I Pay For My First Invoice?](/docs/faqs/pay-first-invoice/), [Can My Plan Be Paused During Setup and Test Phases?](/docs/faqs/pause-plan-during-setup-and-test-phases/)
+**Related FAQ**: [What Happens If My Free Plan Quota Is Exceeded?](/docs/faqs/free-plan-quota-exceeded-what-happens), [How Do I Pay For My First Invoice?](/docs/faqs/pay-first-invoice), [Can My Plan Be Paused During Setup and Test Phases?](/docs/faqs/pause-plan-during-setup-and-test-phases)
 
 ---
 
@@ -121,7 +121,7 @@ To process a Request for Payment from the notification:
 
 For compliance with 3D Secure banking protocols, which enhance online payment security, the initial **Request for Payment** requires manual payment on HubRise. This means that you must connect to your HubRise account to pay.
 
-Once this initial payment is made, subsequent payments to HubRise will be automated until you change your usage plan or your payment method expires. For more information about HubRise usage plans, see [Usage and Plans](/docs/usage-plan/).
+Once this initial payment is made, subsequent payments to HubRise will be automated until you change your usage plan or your payment method expires. For more information about HubRise usage plans, see [Usage and Plans](/docs/usage-plan).
 
 Occasionally, your bank may request 3D Secure authentication again. When this happens, an automated email will be sent to all **Admin** users, prompting them to process the payment manually. If you are frequently asked to make manual payments, consider contacting your bank to request that they accept card debits from HubRise.
 

@@ -45,7 +45,7 @@ Carré POS ne permet pas de créer de SKU. Pour remplacer cette fonctionnalité
 
 ## Options
 
-Une option dans HubRise correspond aussi à un produit dans Carré POS. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/carre-pos/associer-codes-ref#products).
+Une option dans HubRise correspond aussi à un produit dans Carré POS. Pour retrouver leur code ref, suivez les mêmes étapes que pour un [produit](/apps/carre-pos/map-ref-codes#products).
 
 ## Méthodes de paiement
 

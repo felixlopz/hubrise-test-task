@@ -22,14 +22,14 @@ First of all, you need to create a user profile on HubRise with an account and a
 
 Postman is an API development environment that makes sending API requests very easy.
 
-- Download and install [Postman](https://www.getpostman.com/).
+- Download and install [Postman](https://www.getpostman.com).
 - Download the [HubRise API Postman Bundle](https://drive.google.com/drive/folders/1fn5u-4sY0-bnrxJY9RFPvpCu0bANGNBd?usp=sharing) and import the folder into Postman.
 
 ### Create the OAuth Client
 
 Then, you need to create an OAuth 2.0 client for your application.
 
-- Log in to the [HubRise back office](https://manager.hubrise.com/).
+- Log in to the [HubRise back office](https://manager.hubrise.com).
 - Go to **SETTINGS** > **DEVELOPER**, then click on **Create an OAuth 2.0 client**.
 - Enter a name for your client. We recommend using the name of your application.
 - Click the **Create** button.
@@ -135,7 +135,7 @@ You can send the `Callback: Generate Access Token` request to obtain the access 
 
 ### Obtain the Webhook URL
 
-In order to register your callback, you need a valid URL that can listen to events. If you don't have your own server already, you might use the [webhook.site](https://webhook.site/) service. When you visit the website, a unique URL will be created that you can use as your webhook URL.
+In order to register your callback, you need a valid URL that can listen to events. If you don't have your own server already, you might use the [webhook.site](https://webhook.site) service. When you visit the website, a unique URL will be created that you can use as your webhook URL.
 
 This page will show all the events received by the callback.
 

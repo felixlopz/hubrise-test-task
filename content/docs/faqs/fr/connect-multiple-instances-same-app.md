@@ -10,7 +10,7 @@ meta:
 
 Dans certains cas, il se peut que vous ayez besoin de connecter plusieurs fois de la même application à un seul et même point de vente HubRise. Vous pouvez par exemple exploiter plusieurs magasins sur une plateforme de livraison de repas et souhaiter les connecter au même logiciel de caisse.
 
-Pour connecter la première application, voir la rubrique [Connecter une nouvelle application](/docs/connexions#connect). Si vous avez déjà connecté l'application, il est inutile d'accomplir à nouveau cette étape.
+Pour connecter la première application, voir la rubrique [Connecter une nouvelle application](/docs/connections#connect). Si vous avez déjà connecté l'application, il est inutile d'accomplir à nouveau cette étape.
 
 Pour connecter une deuxième fois la même application, procédez comme suit :
 
@@ -22,7 +22,7 @@ Pour connecter une deuxième fois la même application, procédez comme suit :
 1. Cliquez sur l'adresse URL dans la barre de navigation et incluez l'instruction `device_id=NomDeLaMarque&` après la portion initiale de l'URL : `https://manager.hubrise.com/oauth2/v1/authorize?`, et avant `account_id=`. Le paramètre « NomDeLaMarque » dans l'instruction `device_id=NomDeLaMarque&` doit être remplacé par le nom de la marque. Pour plus d'informations, voir la rubrique [Règles de nommage](#naming-rules). ![Page d'autorisation avec adresse URL comprenant la chaîne `device_id=2&`.](./images/066-autorisation-page-device-id.png)
 1. Puis, appuyez sur la touche Retour de votre clavier.
 1. Cliquez sur **Autoriser** pour connecter l'application.
-1. Suivez les instructions à l'écran pour configurer la nouvelle instance de l'application. Pour plus de détails, cliquez sur le lien **Afficher la documentation** de l'application correspondante sur la [page des applications HubRise](/apps/).
+1. Suivez les instructions à l'écran pour configurer la nouvelle instance de l'application. Pour plus de détails, cliquez sur le lien **Afficher la documentation** de l'application correspondante sur la [page des applications HubRise](/apps).
 
 Si votre application n'est pas présente sur la page des applications HubRise mais qu'elle se connecte correctement à HubRise à partir de son propre back-office, vous pouvez également la connecter plusieurs fois. Il vous suffit de procéder selon les étapes 5 et suivantes lorsque vous êtes redirigé vers la page d'autorisation.
 

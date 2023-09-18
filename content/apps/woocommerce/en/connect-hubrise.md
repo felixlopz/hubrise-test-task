@@ -47,5 +47,5 @@ For more information about the configuration page and how to navigate to it, see
 
 If you have a catalog of products on HubRise, you can upload it to your WooCommerce store with a single click.
 
-For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+For more information on HubRise catalogs, see [Catalogs](/docs/catalog).
 To learn how to push your HubRise catalog into WooCommerce, see [Push the Catalog](/apps/woocommerce/push-catalog).

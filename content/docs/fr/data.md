@@ -27,11 +27,11 @@ Pour filtrer les commandes par dates de début et de fin, procédez comme suit 
 1. Sélectionnez l'icône de recherche <InlineImage width="17" height="17">![Icône Rechercher](../images/061-search.png)</InlineImage> pour filtrer les enregistrements d'après ces dates.
 1. Pour effacer les filtres de date, supprimez les dates contenues dans les champs **Du** et **Au**, puis sélectionnez l'icône de recherche <InlineImage width="17" height="17">![Icône Rechercher](../images/061-search.png)</InlineImage>.
 
-Cliquez sur la date de la commande pour afficher les détails complets. Pour afficher les détails complets de la requête, cliquez sur la date et l'heure dans la section **Logs**. Pour plus d'informations, voir [Logs](/docs/donnees#logs).
+Cliquez sur la date de la commande pour afficher les détails complets. Pour afficher les détails complets de la requête, cliquez sur la date et l'heure dans la section **Logs**. Pour plus d'informations, voir [Logs](/docs/data#logs).
 
 ---
 
-**FAQ associée** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/verifier-connexion-entre-mon-systeme-et-hubrise/)
+**FAQ associée** : [Comment vérifier que la connexion entre mon système et HubRise fonctionne correctement ?](/docs/faqs/check-connection-between-my-system-and-hubrise)
 
 ---
 
@@ -55,7 +55,7 @@ Pour filtrer les clients par nom ou adresse e-mail, procédez comme suit :
 
 Pour afficher les détails complets d'un client, cliquez sur le nom de celui-ci. Pour voir les logs complets de toutes les requêtes liées à la liste de clients, cliquez sur **Voir les logs**.
 
-Pour créer, modifier ou supprimer une liste de clients, voir [Listes de clients](/docs/listes-clients/).
+Pour créer, modifier ou supprimer une liste de clients, voir [Listes de clients](/docs/customer-lists).
 
 ## Catalogues(#catalogs)
 
@@ -88,9 +88,9 @@ Pour les promotions et les remises, les attributs suivants s'affichent :
 - **NOM** : intitulé de la promotion ou de la remise.
 - **CODE REF** : identifiant unique de la promotion ou de la remise provenant du système de gestion du produit source.
 
-Pour voir les logs complets de toutes les requêtes liées au catalogue, cliquez sur **Voir les logs**. Pour plus d'informations, voir [Logs](/docs/donnees#logs).
+Pour voir les logs complets de toutes les requêtes liées au catalogue, cliquez sur **Voir les logs**. Pour plus d'informations, voir [Logs](/docs/data#logs).
 
-Pour créer, modifier ou supprimer un catalogue, voir [Catalogues](/docs/catalogues/).
+Pour créer, modifier ou supprimer un catalogue, voir [Catalogues](/docs/catalog).
 
 ## Logs(#logs)
 
@@ -110,4 +110,4 @@ D'autres détails sur les logs sont disponibles à l'intention des utilisateurs 
 1. Cliquez sur la ligne à afficher. La liste complète des détails relatifs à la requête et à la réponse s'affiche.
 1. Pour télécharger la requête ou la réponse, sélectionnez l'icône de téléchargement <InlineImage width="15" height="14">![Icône de téléchargement](../images/058-download.png)</InlineImage>. La requête ou la réponse sélectionnée sera délivrée sous forme de fichier JSON.
 
-Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/hubrise-logs). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).
+Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/hubrise-logs/overview). Pour une référence complète sur l'API HubRise, voir la [page de référence de l'API HubRise](/developers/api/general-concepts) (en anglais).

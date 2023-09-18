@@ -26,7 +26,7 @@ Describe the items to create before connecting food platforms.
 
 ## Deliveroo
 
-To receive Deliveroo orders in SOLUTION, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo).
+To receive Deliveroo orders in SOLUTION, you first need to connect Deliveroo Bridge, an app included in your HubRise subscription. For more information about Deliveroo Bridge, see the [Deliveroo Bridge documentation](/apps/deliveroo/overview).
 
 In the Deliveroo Bridge configuration page, use the following settings:
 
@@ -55,7 +55,7 @@ If you are not sure which API to use, contact support@hubrise.com.
 
 ### Just Eat via Takeaway API
 
-To receive Just Eat orders in SOLUTION via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway).
+To receive Just Eat orders in SOLUTION via Takeaway API, you first need to connect Just Eat Takeaway Bridge, an app included in your HubRise subscription. For more information about Just Eat Takeaway Bridge, see the [Just Eat Takeaway Bridge documentation](/apps/just-eat-takeaway/overview).
 
 In the Just Eat Takeaway Bridge configuration page, use the following settings:
 
@@ -74,7 +74,7 @@ In the Just Eat Takeaway Bridge configuration page, use the following settings:
 
 ### Just Eat via Flyt API
 
-To receive Just Eat orders in SOLUTION via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt).
+To receive Just Eat orders in SOLUTION via Flyt API, you first need to connect Just Eat Flyt Bridge, an app included in your HubRise subscription. For more information about Just Eat Flyt Bridge, see the [Just Eat Flyt Bridge documentation](/apps/just-eat-flyt/overview).
 
 In the Just Eat Flyt Bridge configuration page, use the following settings:
 
@@ -96,7 +96,7 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 
 ## Uber Eats
 
-To receive Uber Eats orders in SOLUTION, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats).
+To receive Uber Eats orders in SOLUTION, you first need to connect Uber Eats Bridge, an app included in your HubRise subscription. For more information about Uber Eats Bridge, see the [Uber Eats Bridge documentation](/apps/uber-eats/overview).
 
 In the Uber Eats Bridge configuration page, use the following settings:
 

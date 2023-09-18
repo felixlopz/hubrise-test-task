@@ -25,7 +25,7 @@ Pour connecter votre solution de commande en ligne SuperDigital.fr à HubRise, s
 5. Cliquez sur **Autoriser**.
    ![Connexion - Page de connexion](./images/001-connection-page.png)
 
-En cas de besoin, l'éditeur de la solution SuperDigital.fr peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/superdigital/connexion-hubrise#give-access).
+En cas de besoin, l'éditeur de la solution SuperDigital.fr peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/superdigital/connect-hubrise#give-access).
 
 ## Donner accès au support de SuperDigital.fr(#give-access)
 

@@ -95,15 +95,15 @@ Elle apparaît dans chaque requête sous la clé **X-Access-Token** et est parti
 
 ### Corps
 
-Le corps de la requête est représenté par le contenu JSON de celle-ci. Pour consulter un exemple de contenu JSON, voir [Exemple pratique](/docs/hubrise-logs/un-exemple-pratique).
+Le corps de la requête est représenté par le contenu JSON de celle-ci. Pour consulter un exemple de contenu JSON, voir [Exemple pratique](/docs/hubrise-logs/a-practical-example).
 
-Pour plus de détails sur le contenu JSON des requêtes dans HubRise, voir [Modèle de données HubRise](/docs/hubrise-logs/modele-donnees-hubrise).
+Pour plus de détails sur le contenu JSON des requêtes dans HubRise, voir [Modèle de données HubRise](/docs/hubrise-logs/hubrise-data-model).
 
 ## Exemple de réponse HubRise typique
 
 ### Code(#code)
 
-Le code de réponse indique le résultat de la requête. Le code 200 indique une requête ayant abouti, tandis que les autres codes correspondent à divers types d'erreurs. Le tableau suivant présente les erreurs les plus courantes. Pour connaître les stratégies de dépannage possibles en fonction du code, voir [Résolution des problèmes liés aux requêtes](/docs/hubrise-logs/deboguer-requetes).
+Le code de réponse indique le résultat de la requête. Le code 200 indique une requête ayant abouti, tandis que les autres codes correspondent à divers types d'erreurs. Le tableau suivant présente les erreurs les plus courantes. Pour connaître les stratégies de dépannage possibles en fonction du code, voir [Résolution des problèmes liés aux requêtes](/docs/hubrise-logs/troubleshooting-requests).
 
 | Code de réponse | Description                                                                                            |
 | --------------- | ------------------------------------------------------------------------------------------------------ |

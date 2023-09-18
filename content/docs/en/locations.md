@@ -38,7 +38,7 @@ To view Location details:
 
 Locations are managed in the same way as Accounts, but the information is specific to the selected Location.
 
-Different settings for specific locations allow you to have different [payment methods per location](/docs/payment#account-or-location-payments), different users [permissions](/docs/permissions), and so on. For more information, see [Accounts](/docs/account/).
+Different settings for specific locations allow you to have different [payment methods per location](/docs/payment#account-or-location-payments), different users [permissions](/docs/permissions), and so on. For more information, see [Accounts](/docs/account).
 
 If you operate in a country where including the Intra-Community VAT number is a legal requirement, HubRise will display a notification to update the VAT number if this information is missing from your Account.
 

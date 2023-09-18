@@ -43,7 +43,7 @@ Clicking on a request will expand it to reveal the detailed logs of the request 
 
 ![Order logs page on Just Eat Flyt Bridge](./images/004-just-eat-order-logs.png)
 
-Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/).
+Logs are a powerful debugging tool in case of issues. To understand in detail how to read logs, see [Understanding HubRise Logs](/docs/hubrise-logs/overview).
 
 ### System Request Operation
 

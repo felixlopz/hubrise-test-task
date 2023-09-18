@@ -38,7 +38,7 @@ File naming convention for diagrams follow the exact same logic as images. For m
 Icons can be used to clarify or to highlight specific points in the documentation. It is, however, important to use icons of the same color. Depending on the use case it can be green, gray if it should be subtle, and orange or red for alerts.
 
 - For icon fonts, see [Font Awesome](https://fontawesome.com/download).
-- For icon library, see [Noun Project](https://thenounproject.com/).
+- For icon library, see [Noun Project](https://thenounproject.com).
 - Large professional icon-packs can also be bought to ensure consistency and style.
 
 ## Fonts

@@ -10,7 +10,7 @@ meta:
 
 Lorsque LEO2 est connecté à HubRise, les commandes envoyées à HubRise arrivent automatiquement dans votre logiciel de caisse.
 
-LEO2 vérifie l'arrivée de nouvelles commandes toutes les 30 secondes. Si vous ne recevez aucune commande, consultez [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/commandes-non-recues).
+LEO2 vérifie l'arrivée de nouvelles commandes toutes les 30 secondes. Si vous ne recevez aucune commande, consultez [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/orders-not-received-errors).
 
 ## Interface utilisateur
 
@@ -24,7 +24,7 @@ Pour voir la liste des commandes, suivez les étapes suivantes :
 1. Cliquez sur les flèches bleues pour faire défiler les boutons, puis cliquez sur **Leo2Click - Commandes**.
    ![Commandes - Liste des commandes externes](./images/010-leo2-external-orders.png)
 
-Si vos commandes HubRise n'arrivent pas dans LEO2, consultez notre FAQ: [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/commandes-non-recues).
+Si vos commandes HubRise n'arrivent pas dans LEO2, consultez notre FAQ: [Les commandes HubRise n'arrivent pas dans LEO2. Que faire ?](/apps/leo2/faqs/orders-not-received-errors).
 
 ### Voir les détails d'une commande
 
@@ -39,7 +39,7 @@ Pour voir les détails d'une commande, suivez les étapes suivantes :
 
 Pour modifier le statut d'une commande, suivez les étapes suivantes :
 
-1. Accédez à la liste des commandes en suivant les étapes décrites dans [Voir la liste des commandes](/apps/leo2/recevoir-commandes#order-list).
+1. Accédez à la liste des commandes en suivant les étapes décrites dans [Voir la liste des commandes](/apps/leo2/receive-orders#order-list).
 1. Cliquez sur la colonne **Etat**.
 1. Sélectionnez le nouveau statut de la commande.
    ![Commandes - Statuts d'une commande](./images/012-leo2-order-statuses.png)
@@ -58,9 +58,9 @@ En cas de différence de prix entre les articles d'une commande HubRise et les p
 
 ## Types de service
 
-Le type de service permet d'associer un tarif aux lignes de la commande. Pour plus d'informations, voir [Types de service](/apps/leo2/associer-codes-ref#service-types).
+Le type de service permet d'associer un tarif aux lignes de la commande. Pour plus d'informations, voir [Types de service](/apps/leo2/map-ref-codes#service-types).
 
-Le code ref du type de service permet d'associer un vendeur à la commande. Pour plus d'informations, voir [Codes ref des types de service](/apps/leo2/associer-codes-ref#service-types).
+Le code ref du type de service permet d'associer un vendeur à la commande. Pour plus d'informations, voir [Codes ref des types de service](/apps/leo2/map-ref-codes#service-types).
 
 ## Statuts de commande
 

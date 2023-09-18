@@ -26,7 +26,7 @@ Pour connecter votre solution de commande en ligne My Lemonade à HubRise, suive
 1. Cliquez sur **Autoriser**.
 1. Cliquez sur **IMPORTER L'ÉTABLISSEMENT**.
 
-En cas de besoin, l'éditeur de la solution My Lemonade peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/my-lemonade/connexion-hubrise#give-access).
+En cas de besoin, l'éditeur de la solution My Lemonade peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/my-lemonade/connect-hubrise#give-access).
 
 ## Donner accès au support de My Lemonade(#give-access)
 

@@ -29,11 +29,6 @@ describe("Documentation", () => {
       cy.get("a").contains("external link").should("have.attr", "target", "_blank")
     })
 
-    it("allows local links to be defined by URL", () => {
-      cy.visit("/fr/apps/0test")
-      cy.get("a").contains("lien local par URL").should("have.attr", "href", "/fr/apps/0test/connexion-hubrise")
-    })
-
     it("allows local links to be defined by filepath", () => {
       cy.visit("/fr/apps/0test")
       cy.get("a")
@@ -45,19 +40,19 @@ describe("Documentation", () => {
       cy.visit("/fr/apps/0test")
       cy.get("a")
         .contains("lien local avec ancre")
-        .should("have.attr", "href", "/fr/apps/0test/connexion-hubrise#connect")
+        .should("have.attr", "href", "/fr/apps/0test/connexion-hubrise#se-connecter")
     })
   })
 
   describe("Anchors", () => {
-    it("generates default header anchors", () => {
+    it("generates localised header anchors", () => {
       cy.visit("/fr/apps/0test")
       cy.get("#pourquoi-se-connecter").contains("Pourquoi se connecter ?")
     })
 
-    it("generates custom header anchors", () => {
+    it("generates localised header anchors even with custom anchors", () => {
       cy.visit("/fr/apps/0test")
-      cy.get("#integration-features").contains("Fonctionnalités de l'intégration")
+      cy.get("#fonctionnalit-s-de-l-int-gration").contains("Fonctionnalités de l'intégration")
     })
 
     it("navigates via custom anchors", () => {

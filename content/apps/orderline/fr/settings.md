@@ -90,7 +90,7 @@ Pour masquer des commandes dans la liste **Aujourd'hui**, procédez comme suit 
 
 ![Exemple d'enchaînement des statuts](./images/015-2x-setting-hidden-completed.png)
 
-## Notifications
+## Notifications(#notifications)
 
 Vous pouvez être averti par un son lors de l'arrivée de nouvelles commandes dans OrderLine, en fonction des paramètres de notification. Cela s'applique aux commandes de l'onglet **Aujourd'hui** comme à celles de l'onglet **Jours suivants**.
 

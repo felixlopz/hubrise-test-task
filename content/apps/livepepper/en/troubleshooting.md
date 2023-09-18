@@ -16,7 +16,7 @@ Please note that missing EPOS ref codes for payment methods, service types, and 
 
 ## Verify the Connection to HubRise
 
-These steps require that you have already connected LivePepper to HubRise. For more information on connecting LivePepper to HubRise, see [Connect to HubRise](/apps/livepepper/connect-hubrise/).
+These steps require that you have already connected LivePepper to HubRise. For more information on connecting LivePepper to HubRise, see [Connect to HubRise](/apps/livepepper/connect-hubrise).
 
 To verify the connection between LivePepper and HubRise, place a test order in LivePepper and check that it is transmitted to HubRise.
 

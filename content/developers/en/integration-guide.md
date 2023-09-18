@@ -97,7 +97,7 @@ If storing the HubRise IDs is not an option, you can use the HubRise `private_re
 
 ### Encoding Orders(#encoding-orders)
 
-When you push orders to HubRise, encode names and ref codes for all the fields included in the payload. For a complete list, see our [API reference](/developers/api/order-management/), and the **Orders** tab in the [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit#gid=615578553).
+When you push orders to HubRise, encode names and ref codes for all the fields included in the payload. For a complete list, see our [API reference](/developers/api/order-management), and the **Orders** tab in the [Integration Sheet](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit#gid=615578553).
 
 Pay attention to a few common traps:
 
@@ -159,7 +159,7 @@ You should push new orders to HubRise as soon as they are created by the user. H
 
 If you have registered users, you should include their `customer_id` in the payload and update their details just before pushing the order. If you do not have registered users (for example, for self ordering kiosks or orders via a tablet at the table), you can include the customer's details directly in the order payload with a so-called "guest order". For more information, see [Order's Customer](/developers/api/order-management#customer).
 
-When you need to test that orders are pushed to HubRise correctly, you can connect OrderLine to your HubRise account. This free app allows you to receive and manage in real time your HubRise orders. For more details on this app, see the [OrderLine documentation](/apps/orderline/).
+When you need to test that orders are pushed to HubRise correctly, you can connect OrderLine to your HubRise account. This free app allows you to receive and manage in real time your HubRise orders. For more details on this app, see the [OrderLine documentation](/apps/orderline/overview).
 
 **Main suggestions**
 
@@ -254,7 +254,7 @@ If possible, you should update the confirmed delivery time of the order on HubRi
 
 ### Pushing the Catalog(#epos-pushing-the-catalog)
 
-HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise simplifies the onboarding of new users and reduces menu synchronisation issues. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management/).
+HubRise offers advanced catalog functionalities. Pushing the catalog from your EPOS solution to HubRise simplifies the onboarding of new users and reduces menu synchronisation issues. For more details about catalogs on HubRise, see our [API Reference](/developers/api/catalog-management).
 
 We recommend to only allow manual catalog uploads. Automatic uploads triggered by a wrong catalog update could cause issues on connected online ordering platforms, without the user being aware.
 

@@ -62,7 +62,7 @@ To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-
 
 From the **CATALOGS** page, you can view the catalogs pushed into HubRise and the logs of the requests that made changes to the catalog.
 
-Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its catalog into HubRise for an e-commerce website to use it. If required, you can also edit the catalog using **Catalog Manager**, a free app available on HubRise. For more information, see [Catalog Manager](/apps/catalog-manager).
+Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its catalog into HubRise for an e-commerce website to use it. If required, you can also edit the catalog using **Catalog Manager**, a free app available on HubRise. For more information, see [Catalog Manager](/apps/catalog-manager/overview).
 
 ### View Catalog(#view-catalog)
 
@@ -113,4 +113,4 @@ Further log details are available for advanced users and developers to view app 
 1. Click the row to display. A full list of the query and response will be displayed.
 1. To download either the query or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected query or response will be provided as a JSON file.
 
-For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
+For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs/overview). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).

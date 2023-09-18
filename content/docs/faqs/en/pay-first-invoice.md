@@ -51,4 +51,4 @@ When your payment method is set up, the first request for payment should be char
 
 ---
 
-Subsequent payments to HubRise will be automated until you change usage plan or your payment method expires. For more information about HubRise usage plans, see [Usage and Plans](/docs/usage-plan/).
+Subsequent payments to HubRise will be automated until you change usage plan or your payment method expires. For more information about HubRise usage plans, see [Usage and Plans](/docs/usage-plan).

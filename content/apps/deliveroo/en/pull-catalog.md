@@ -13,7 +13,7 @@ With Deliveroo Bridge, you can pull your Deliveroo menu into a HubRise catalog.
 This feature can be useful if you wish to:
 
 - Create a backup of your Deliveroo menu.
-- Edit your menu using the HubRise Catalog Manager, to include ref codes, for example. For more information, see [Catalog Manager](/apps/catalog-manager).
+- Edit your menu using the HubRise Catalog Manager, to include ref codes, for example. For more information, see [Catalog Manager](/apps/catalog-manager/overview).
 - Populate a HubRise catalog that will then be pushed to other apps, including food delivery platforms such as Uber Eats and Just Eat.
 
 ## Pull the Deliveroo Menu
@@ -25,7 +25,7 @@ To pull your Deliveroo menu into a HubRise catalog, follow these steps:
 1. Open the **CONNECTIONS** page, then select **Deliveroo Bridge** from the list of connected apps.
 1. In Deliveroo Bridge, select the **Actions** tab.
 1. In the **Pull the catalog from Deliveroo** section, verify that the correct HubRise catalog is connected, click **Pull catalog**, and confirm the action.
-1. Review your populated catalog on HubRise. For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+1. Review your populated catalog on HubRise. For more information on HubRise catalogs, see [Catalogs](/docs/catalog).
 
 ---
 

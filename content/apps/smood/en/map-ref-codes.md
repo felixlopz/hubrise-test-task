@@ -22,7 +22,7 @@ This page explains how to configure ref codes manually in Smood. Some EPOS solut
 
 To assign ref codes to your Smood products, follow these steps:
 
-1. Log in to your [Smood back office](https://manager.smood.ch/).
+1. Log in to your [Smood back office](https://manager.smood.ch).
 1. Select the restaurant in the left sidebar.
 1. Click the **Menu** tab, then select the menu that you want to edit.
 1. Expand the category that contains the products that you want to edit, then click on the product name.
@@ -36,7 +36,7 @@ You need to repeat this manual procedure for all your available products.
 
 To assign ref codes to your Smood options, follow these steps:
 
-1. Log in to your [Smood back office](https://manager.smood.ch/).
+1. Log in to your [Smood back office](https://manager.smood.ch).
 1. Select the restaurant in the left sidebar.
 1. Click the **Menu** tab, then select the menu that you want to edit.
 1. Expand the category that contains the products that you want to edit, then click on the product name.
@@ -53,4 +53,4 @@ You need to repeat this manual procedure for all of the options associated with 
 
 Smood lets you specify the ref codes that are used for service types, discounts, delivery charges, and payments. To customise your ref codes, follow the steps indicated in the [Configuration](/apps/smood/configuration) page.
 
-To find the ref codes to use, refer to your EPOS documentation on the HubRise website [Apps page](/apps/). For example, if you use Lightspeed, check the [Food Ordering Platforms, Smood section](/apps/lightspeed-restaurant/food-ordering-platforms#smood).
+To find the ref codes to use, refer to your EPOS documentation on the HubRise website [Apps page](/apps). For example, if you use Lightspeed, check the [Food Ordering Platforms, Smood section](/apps/lightspeed-restaurant/food-ordering-platforms#smood).

@@ -57,4 +57,4 @@ For more information about the configuration page and how to navigate to it, see
 
 For the Just Eat Flyt integration to be activated, you need to push your HubRise catalog into Just Eat Flyt.
 
-To learn how to push your HubRise catalog into Just Eat, see [Push the Catalog](/apps/just-eat-flyt/push-catalog). For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+To learn how to push your HubRise catalog into Just Eat, see [Push the Catalog](/apps/just-eat-flyt/push-catalog). For more information on HubRise catalogs, see [Catalogs](/docs/catalog).

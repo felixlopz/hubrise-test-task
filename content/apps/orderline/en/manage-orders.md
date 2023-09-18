@@ -18,7 +18,7 @@ OrderLine can also emit a sound notification to inform you of new orders. To con
 
 ---
 
-**IMPORTANT NOTE:** Browsers may block sound notifications. To keep them permanently enabled, follow the instructions in the FAQ [How Do I Keep Sound Notifications Enabled](/apps/orderline/faqs/keep-sound-notifications-enabled/).
+**IMPORTANT NOTE:** Browsers may block sound notifications. To keep them permanently enabled, follow the instructions in the FAQ [How Do I Keep Sound Notifications Enabled](/apps/orderline/faqs/keep-sound-notifications-enabled).
 
 ---
 

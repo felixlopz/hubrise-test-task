@@ -26,7 +26,7 @@ Demandez à votre gestionnaire de compte Smood d'activer l'intégration de HubRi
 
 Une fois l'intégration de HubRise activée, suivez ces étapes :
 
-1. Connectez-vous à votre [back-office Smood](https://manager.smood.ch/).
+1. Connectez-vous à votre [back-office Smood](https://manager.smood.ch).
 1. Sélectionnez le restaurant à connecter dans le menu déroulant de la barre latérale gauche.
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Connecter à HubRise**.
 1. Dans la boîte de dialogue qui s'affiche, [configurez vos paramètres de connexion](/apps/smood/configuration#parameters). Si vous hésitez sur la configuration, laissez les valeurs par défaut et passez à l'étape suivante. Vous pourrez toujours revenir à cette page ultérieurement.

@@ -36,7 +36,7 @@ To connect a new app to your HubRise Account from the HubRise back office:
 
 ---
 
-**IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app/).
+**IMPORTANT NOTE**: If you need to connect multiple instances of the same app to a single HubRise location, see [Connecting Multiple Instances of the Same App](/docs/faqs/connect-multiple-instances-same-app).
 
 ---
 
@@ -54,7 +54,7 @@ To display a line chart with the number of transactions made in the last 30 days
 
 ---
 
-**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
+**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise)
 
 ---
 
@@ -102,11 +102,11 @@ Each log record includes:
 You can see additional details by clicking on a log, including the request and the corresponding response.
 To download either the request or response, select the download icon <InlineImage width="15" height="14">![Download icon](../images/058-download.png)</InlineImage>. The selected request or response will be provided as a JSON file.
 
-For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
+For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs/overview). For a complete reference on the HubRise API, see the [HubRise API Reference page](/developers/api/general-concepts).
 
 ---
 
-**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise/)
+**Related FAQ**: [How Do I Check If the Connection Between My System and HubRise Is Working?](/docs/faqs/check-connection-between-my-system-and-hubrise)
 
 ---
 

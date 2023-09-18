@@ -270,7 +270,7 @@ A catalog can optionally contain variants. Variants are used in conjunction with
 
 Each variant has a `ref` and a `name`. Refs identify variants in a catalog, whereas names are displayed to the user. Refs should be unique, auto-generated, and stable, and names should be descriptive and customisable.
 
-For a more detailed explanation of variants, read this <Link href="/blog/catalog-variants">blog post</Link>.
+For a more detailed explanation of variants, read the <Link href="/blog/catalog-variants">Catalog Variants blog post</Link>.
 
 ### Variant in Catalog Upload
 

@@ -20,7 +20,7 @@ Connecting GonnaOrder to HubRise can be done with a few simple steps.
 
 You can connect to HubRise directly from your GonnaOrder account with the following steps:
 
-1. Log in to your [GonnaOrder back office](https://admin.gonnaorder.com/).
+1. Log in to your [GonnaOrder back office](https://admin.gonnaorder.com).
 1. From the dashboard, go to **Settings > Integrations**.
 1. From the HubRise section, click **Connect to HubRise**. This takes you to the HubRise website.
    ![Connect your HubRise location from the GonnaOrder back office](./images/001-gonnaorder-connect.png)

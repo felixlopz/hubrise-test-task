@@ -25,7 +25,7 @@ Pour voir la liste des commandes web en cours, suivez les étapes suivantes :
 
 Pour consulter le détail d'une commande :
 
-1. Accédez à la liste des commandes web en suivant les étapes décrites dans la partie [Recevoir des commandes](/apps/kezia/commandes#receive-orders).
+1. Accédez à la liste des commandes web en suivant les étapes décrites dans la partie [Recevoir des commandes](/apps/kezia/orders#receive-orders).
 1. Sélectionnez la commande désirée.
 1. Cliquez sur **Détails commande**.
    ![Commandes - Détails de la commande](./images/010-kezia-order-details.png)

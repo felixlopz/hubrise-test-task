@@ -81,7 +81,7 @@ Les messages produits sont créés avec les boutons **Insère Produit Prix**, **
 
 Les promotions dans HubRise correspondent aux menus dans LEO2. Les lignes de promotion correspondent aux choix de menu. Pour retrouver le code ref et les choix de menu dans LEO2 :
 
-1. Ouvrez le produit correspondant au menu, en suivant les mêmes étapes que pour un [produit](/apps/leo2/associer-codes-ref#products).
+1. Ouvrez le produit correspondant au menu, en suivant les mêmes étapes que pour un [produit](/apps/leo2/map-ref-codes#products).
 1. Le code ref du menu s'affiche en haut à droite de la fenêtre **FICHE PRODUIT**, dans le champ **Clé unique**.
    ![Associer les codes ref - Détails d'un menu](./images/015-leo2-menu-details.png)
 1. Pour accéder aux choix de menu, cliquez sur **Faire un Menu**.

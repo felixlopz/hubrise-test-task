@@ -12,7 +12,7 @@ To connect your Deliveroo store to HubRise by yourself, first activate HubRise f
 
 To activate HubRise on the Deliveroo back-office, follow these steps:
 
-1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net/).
+1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net).
 1. Click **Integrations**.
 1. Under **Which POS system do you use?**, enter `HubRise`.
 1. From the list of sites, select all the locations you want to connect, and for each site, enter the corresponding **Site location ID**.

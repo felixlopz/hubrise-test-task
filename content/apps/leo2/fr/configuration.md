@@ -12,7 +12,7 @@ La page de paramétrage de l'interface HubRise permet de connecter LEO2 à HubRi
 
 ---
 
-**REMARQUE IMPORTANTE :** Toute modification de la configuration nécessite le redémarrage du serveur HubRise pour être prise en compte. Pour redémarrer le serveur, double-cliquez sur le raccourci vers le serveur, créé en suivant les étapes décrites dans la section [Créer un raccourci sur le bureau](/apps/leo2/connexion-hubrise#shortcut).
+**REMARQUE IMPORTANTE :** Toute modification de la configuration nécessite le redémarrage du serveur HubRise pour être prise en compte. Pour redémarrer le serveur, double-cliquez sur le raccourci vers le serveur, créé en suivant les étapes décrites dans la section [Créer un raccourci sur le bureau](/apps/leo2/connect-hubrise#shortcut).
 
 ---
 
@@ -32,7 +32,7 @@ Cette page est divisée en plusieurs sections.
 Cette section permet d'établir la connexion entre LEO2 et HubRise.
 
 - Si la connexion est déjà établie, le contenu de la section apparaît en grisé.
-- Si la connexion n'est pas établie, reportez-vous à la section [Connexion à HubRise](/apps/leo2/connexion-hubrise) pour plus d'informations sur la procédure de connexion.
+- Si la connexion n'est pas établie, reportez-vous à la section [Connexion à HubRise](/apps/leo2/connect-hubrise) pour plus d'informations sur la procédure de connexion.
 
 ## Informations de connexion
 
@@ -41,8 +41,8 @@ Cette section indique les identifiants du point de vente, du catalogue et de la 
 La section vous permet également d'accéder aux actions suivantes :
 
 - **Accès à HubRise** : ouvre le back-office HubRise dans une page de votre navigateur.
-- **Envoi catalogue** : envoie votre menu depuis LEO2 vers HubRise. Pour plus d'informations, voir la section [Exporter le catalogue](/apps/leo2/associer-codes-ref#export-catalog).
-- **Déconnecter** : déconnecte le point de vente de HubRise. Pour plus d'informations, voir la section [Déconnecter ubRise](/apps/leo2/connexion-hubrise#connect).
+- **Envoi catalogue** : envoie votre menu depuis LEO2 vers HubRise. Pour plus d'informations, voir la section [Exporter le catalogue](/apps/leo2/map-ref-codes#export-catalog).
+- **Déconnecter** : déconnecte le point de vente de HubRise. Pour plus d'informations, voir la section [Déconnecter ubRise](/apps/leo2/connect-hubrise#connect).
 
 ## Paramètres
 

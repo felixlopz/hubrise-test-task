@@ -23,7 +23,7 @@ To find your restaurant ID using your Deliveroo tablet:
 
 To find your restaurant ID from your Deliveroo back office:
 
-1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net/).
+1. Log in to your [Deliveroo back office](https://restaurant-hub.deliveroo.net).
 1. Go to the **Home** tab, then select the correct location and account from the dropdown menus.
 1. Look at the URL of the page, and find the parameter called `branchId`. Your Deliveroo Restaurant ID will be the number after the `=` sign. For example, if the URL is `https://restaurant-hub.deliveroo.net/analytics?branchId=278233&dateRangePreset=last_7_days&orgId=190921`, the Deliveroo Restaurant ID is `278233`.
 

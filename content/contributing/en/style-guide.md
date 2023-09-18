@@ -14,7 +14,7 @@ This guide establishes standard requirements to improve the readability and over
 
 Where the HubRise style guide does not deal with a specific situation, the [Google developer documentation style guide](https://developers.google.com/style) can be used for reference.
 
-The [Merriam-Webster dictionary](https://www.merriam-webster.com/) should be used as a spelling reference when we have multiple ways of spelling the same word. In addition the [Cambridge Dictionary](https://dictionary.cambridge.org/) can be used as a secondary reference only where necessary.
+The [Merriam-Webster dictionary](https://www.merriam-webster.com) should be used as a spelling reference when we have multiple ways of spelling the same word. In addition the [Cambridge Dictionary](https://dictionary.cambridge.org) can be used as a secondary reference only where necessary.
 
 Terminology and spelling decisions are informed in our XTM tool, only for internal use.
 
@@ -54,7 +54,7 @@ Words such as a, an, and, but, for, nor, of, or, so, the, to, and yet must not b
 
 > Right: If You Are Unsure on Whether to Capitalise Something or Not, Do Not Capitalise It
 
-You may use [Capitalize My Title](https://capitalizemytitle.com/) to help you capitalise your headings. Choose the “APA” style.
+You may use [Capitalize My Title](https://capitalizemytitle.com) to help you capitalise your headings. Choose the “APA” style.
 
 ## Punctuation
 
@@ -73,9 +73,9 @@ If you have a list of three or more items, add a comma before the last item. For
 
 ### Hyphenation
 
-If you are in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com/) and follow the rules established there. For instance, the Merriam-Webster spells **well known** with a hyphen: **well-known**.
+If you are in doubt whether to hyphenate a set of words or not, first look up the word in the [Merriam-Webster dictionary](https://www.merriam-webster.com) and follow the rules established there. For instance, the Merriam-Webster spells **well known** with a hyphen: **well-known**.
 
-A second rule of thumb is that, if the set of words does not play the same role in a sentence without hyphenation, you should use the version adequate to the role you wish it to play in the sentence. For example, the [Merriam-Webster dictionary](https://www.merriam-webster.com/) states that **kick off** is a verb and **kickoff** is a noun. **What time does the game kick off?** uses the verb, whereas **Kickoff will be at 11 o'clock prompt** uses the noun.
+A second rule of thumb is that, if the set of words does not play the same role in a sentence without hyphenation, you should use the version adequate to the role you wish it to play in the sentence. For example, the [Merriam-Webster dictionary](https://www.merriam-webster.com) states that **kick off** is a verb and **kickoff** is a noun. **What time does the game kick off?** uses the verb, whereas **Kickoff will be at 11 o'clock prompt** uses the noun.
 
 For sets of two words only, if the dictionary indicates that there is an alternative without a hyphen, then use that alternative instead of the hyphenated version.
 
@@ -265,7 +265,7 @@ If you foresee an issue that may form part of the Frequently Asked Questions, th
 
 ---
 
-**Related FAQ**: [How Do I Create a User Profile for Another Person?](/docs/faqs/create-a-user-profile-for-another-person/)
+**Related FAQ**: [How Do I Create a User Profile for Another Person?](/docs/faqs/create-a-user-profile-for-another-person)
 
 ---
 

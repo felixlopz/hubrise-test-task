@@ -25,7 +25,7 @@ To update your menu in Glovo, you should have a HubRise catalog first. Many apps
 
 Alternatively, you can populate a HubRise catalog by pulling your menu from Uber Eats.
 
-For more information on HubRise catalogs, see [Catalogs](/docs/catalog/).
+For more information on HubRise catalogs, see [Catalogs](/docs/catalog).
 
 ## Manual Catalog Push
 

@@ -31,7 +31,7 @@ Lorsqu'une commande contient des articles dont le code ref n'est pas reconnu, ce
 1. Répétez ces étapes pour chaque ligne **Article inconnu**.
 1. Validez la commande.
 
-Pour éviter que ce problème se reproduise, assurez-vous que les codes ref de vos produits ont bien été saisis. Pour plus d'informations, consultez la page [Associer les codes ref](/apps/nestor/associer-codes-ref).
+Pour éviter que ce problème se reproduise, assurez-vous que les codes ref de vos produits ont bien été saisis. Pour plus d'informations, consultez la page [Associer les codes ref](/apps/nestor/map-ref-codes).
 
 ### Articles avec des prix différents(#prices-differences)
 

@@ -10,7 +10,7 @@ meta:
 
 The **Catalogs** section in the **SETTINGS** page allows you to create, rename, or remove the catalogs associated with your HubRise Account.
 
-To make changes to the products within a Catalog, you'll need to link your HubRise Account to third-party apps. Alternatively, you can use our **Catalog Manager** app, a free app included in your HubRise subscription. For further details, see [Catalog Manager](/apps/catalog-manager).
+To make changes to the products within a Catalog, you'll need to link your HubRise Account to third-party apps. Alternatively, you can use our **Catalog Manager** app, a free app included in your HubRise subscription. For further details, see [Catalog Manager](/apps/catalog-manager/overview).
 
 The rules for Catalogs are as follows:
 

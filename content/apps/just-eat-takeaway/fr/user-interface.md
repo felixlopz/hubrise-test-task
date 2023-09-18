@@ -44,7 +44,7 @@ Cliquez sur une requête pour la développer et révéler le détail des échang
 
 ![Page des journaux de commande sur Just Eat Takeaway Bridge](./images/004-jet-order-logs.png)
 
-Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise](/docs/hubrise-logs/).
+Les fichiers journaux constituent un puissant outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise](/docs/hubrise-logs/overview).
 
 ## Page de requête système
 

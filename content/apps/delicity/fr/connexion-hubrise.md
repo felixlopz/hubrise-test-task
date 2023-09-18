@@ -17,7 +17,7 @@ meta:
 
 Pour connecter Delicity à HubRise, suivez les étapes suivantes :
 
-1. Créez un compte HubRise. Pour plus d'information, consultez notre [Guide de démarrage](/docs/comment-demarrer).
+1. Créez un compte HubRise. Pour plus d'information, consultez notre [Guide de démarrage](/docs/get-started).
 1. Depuis le back-office de Delicity, cliquez sur **Intégrations**
    ![Connexion HubRise sur Delicity](./images/001-delicity-connect.png)
 
@@ -44,7 +44,7 @@ L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers �
 
 Pour toute demande de support, contactez l'équipe de Delicity par email sur contact@delicity.com. Vous pouvez inclure support@hubrise.com en copie pour un suivi coordonné entre nos deux équipes.
 
-Pensez à indiquer le nom de votre compte HubRise, son identifiant HubRise et le point de vente concerné par votre demande de support. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#location-name-and-id).
+Pensez à indiquer le nom de votre compte HubRise, son identifiant HubRise et le point de vente concerné par votre demande de support. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/locations#location-name-and-id).
 
 ## Déconnecter Delicity
 

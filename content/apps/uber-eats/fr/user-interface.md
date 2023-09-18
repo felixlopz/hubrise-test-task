@@ -44,7 +44,7 @@ Cliquez sur une requête pour la développer et révéler le détail des échang
 
 ![Page de commande sur Uber Eats Bridge](./images/004-order-logs.png)
 
-Les requêtes d'API sont un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/).
+Les requêtes d'API sont un bon outil de débogage en cas d'incident. Pour comprendre comment lire ces requêtes, voir [Comprendre les logs HubRise (en anglais)](/docs/hubrise-logs/overview).
 
 ## Page de requête système
 

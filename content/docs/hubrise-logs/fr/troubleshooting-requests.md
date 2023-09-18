@@ -16,7 +16,7 @@ S'il n'existe pas de stratégie unique permettant de déboguer tous les problèm
 
 ## Codes d'erreur
 
-Chaque requête est associée à un code de réponse. Pour plus d'informations, voir [Code de réponse](/docs/hubrise-logs/requetes-json-dans-hubrise#code). Il s'agit du premier détail à vérifier pour détecter d'éventuelles erreurs.
+Chaque requête est associée à un code de réponse. Pour plus d'informations, voir [Code de réponse](/docs/hubrise-logs/json-requests-in-hubrise#code). Il s'agit du premier détail à vérifier pour détecter d'éventuelles erreurs.
 
 Toute valeur différente de 200 peut indiquer qu'une requête n'a pas été correctement reçue, ce qui peut entraîner le rejet de la commande.
 

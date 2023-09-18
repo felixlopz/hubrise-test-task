@@ -22,7 +22,7 @@ Si vous n'utilisez pas ces fonctionnalités, il est inutile de créer ces élém
 
 ## Deliveroo
 
-Pour recevoir les commandes de Deliveroo dans LEO2, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo).
+Pour recevoir les commandes de Deliveroo dans LEO2, vous devez d'abord connecter Deliveroo Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Deliveroo Bridge, consultez la [documentation de Deliveroo Bridge](/apps/deliveroo/overview).
 
 Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suivants.
 
@@ -51,7 +51,7 @@ En cas de doute sur l'API à utiliser, contactez support@hubrise.com.
 
 ### Just Eat avec l'API Takeaway
 
-Pour recevoir les commandes de Just Eat dans LEO2 avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway).
+Pour recevoir les commandes de Just Eat dans LEO2 avec l'API Takeaway, vous devez d'abord connecter Just Eat Takeaway Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Takeaway Bridge, consultez la [documentation de Just Eat Takeaway Bridge](/apps/just-eat-takeaway/overview).
 
 Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramètres suivants.
 
@@ -70,7 +70,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 
 ### Just Eat avec l'API Flyt
 
-Pour recevoir les commandes de Just Eat dans LEO2 avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt).
+Pour recevoir les commandes de Just Eat dans LEO2 avec l'API Flyt, vous devez d'abord connecter Just Eat Flyt Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Just Eat Flyt Bridge, consultez la [documentation de Just Eat Flyt Bridge](/apps/just-eat-flyt/overview).
 
 Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres suivants.
 
@@ -92,7 +92,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 
 ## Uber Eats
 
-Pour recevoir les commandes de Uber Eats dans LEO2, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats).
+Pour recevoir les commandes de Uber Eats dans LEO2, vous devez d'abord connecter Uber Eats Bridge, une application incluse dans votre abonnement HubRise. Pour plus d'informations sur Uber Eats Bridge, consultez la [documentation de Uber Eats Bridge](/apps/uber-eats/overview).
 
 Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suivants.
 

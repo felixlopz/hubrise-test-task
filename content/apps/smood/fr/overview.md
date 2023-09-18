@@ -25,7 +25,7 @@ Engagé dans un processus continu de responsabilité sociale, Smood veille à ce
 
 En s’associant à Smood, les enseignes peuvent toucher une clientèle plus large et profiter d’une augmentation de leurs revenus. Smood s'occupe de toutes les opérations de marketing et de livraison, permettant aux partenaires de se concentrer sur leurs activités principales.
 
-En plus de ses services standards, Smood propose aussi un service de livraison en marque blanche nommé Dismatch, qui est également intégré à HubRise. Ce service permet aux partenaires d'externaliser les livraisons sans être incluses dans la plateforme de commande Smood, leur offrant ainsi une plus grande flexibilité et efficacité. Pour plus d'informations, voir la documentation [Dismatch](/apps/smood-dismatch).
+En plus de ses services standards, Smood propose aussi un service de livraison en marque blanche nommé Dismatch, qui est également intégré à HubRise. Ce service permet aux partenaires d'externaliser les livraisons sans être incluses dans la plateforme de commande Smood, leur offrant ainsi une plus grande flexibilité et efficacité. Pour plus d'informations, voir la documentation [Dismatch](/apps/smood-dismatch/overview).
 
 ## Fonctionnalités de l'intégration
 

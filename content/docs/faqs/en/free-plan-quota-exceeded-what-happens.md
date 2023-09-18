@@ -16,4 +16,4 @@ If no payment method is registered when the free plan usage quota is exceeded, A
 
 If you do not set a payment method within two weeks after the first email alert, the Account will be suspended. To prevent such inconvenience, you can include a payment method as soon as you start using HubRise. You will not be charged until your Account exceeds the free quota limit.
 
-For more information, see [Usage](/docs/usage-plan/).
+For more information, see [Usage](/docs/usage-plan).

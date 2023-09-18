@@ -21,7 +21,7 @@ You can also use a combination of the above examples: **Deliveroo**, **Uber Eats
 
 ![Catalog Manager Grid View](./images/020-grid-view.png)
 
-For more information about variants, see the [Catalog Variants blog post](/blog/catalog-variants/).
+For more information about variants, see the <Link href="/blog/catalog-variants">Catalog Variants blog post</Link>.
 
 ## Create Variants
 

@@ -18,7 +18,7 @@ Cette page explique comment envoyer votre catalogue et quelles informations sont
 
 Pour pouvoir mettre à jour votre menu dans Just Eat, vous devez préalablement avoir un catalogue dans HubRise. De nombreuses applications connectées à HubRise, y compris des logiciels de caisse, offrent la possibilité d'envoyer leur catalogue vers HubRise. Reportez-vous à la documentation de votre logiciel de caisse sur le site internet de HubRise.
 
-Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalogues/).
+Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalog).
 
 ## Envoi du catalogue(#push-catalog)
 
@@ -80,7 +80,7 @@ Pour plus d'informations sur les références contenues dans les catalogues HubR
 
 ---
 
-**REMARQUE IMPORTANTE :** les produits sans code ref ne sont pas envoyés dans Just Eat. Pour plus d'informations, voir [Pourquoi certains produits ne sont-ils pas envoyés vers Just Eat ?](/apps/just-eat-flyt/faqs/produits-non-envoyes/).
+**REMARQUE IMPORTANTE :** les produits sans code ref ne sont pas envoyés dans Just Eat. Pour plus d'informations, voir [Pourquoi certains produits ne sont-ils pas envoyés vers Just Eat ?](/apps/just-eat-flyt/faqs/products-not-pushed).
 
 ---
 

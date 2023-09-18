@@ -16,7 +16,7 @@ This page explains how to open the configuration page and configure your connect
 
 To open the configuration page, follow these steps:
 
-- Log in to your [Smood back office](https://manager.smood.ch/).
+- Log in to your [Smood back office](https://manager.smood.ch).
 - Select the restaurant from the dropdown menu in the left sidebar.
 - Click the **Settings** tab, then in the **Integrations** section, click **Edit POS references**.
 
@@ -28,7 +28,7 @@ You will also be redirected to the configuration page when you connect Smood to 
 
 ### Service Types(#service-types)
 
-Service types such as Smood **Platform delivery**, **Restaurant delivery**, or **Takeaway**, might require the corresponding ref code entry. To verify, refer to your EPOS documentation on the HubRise website [Apps page](/apps/). For more information, see the **Terminology** paragraph, section [Smood Service Types](/apps/smood/terminology#smood-service-types).
+Service types such as Smood **Platform delivery**, **Restaurant delivery**, or **Takeaway**, might require the corresponding ref code entry. To verify, refer to your EPOS documentation on the HubRise website [Apps page](/apps). For more information, see the **Terminology** paragraph, section [Smood Service Types](/apps/smood/terminology#smood-service-types).
 
 Additionally, from this section you can choose to mark Smood delivery orders as delivery orders or collection orders for other connected apps to process them as needed. Restaurant delivery orders are always marked as delivery orders.
 

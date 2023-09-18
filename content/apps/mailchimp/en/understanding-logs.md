@@ -10,7 +10,7 @@ meta:
 
 The main page on Mailchimp Bridge shows **Latest operations**. Each operation consists of requests sent from HubRise to Mailchimp Bridge, and from Mailchimp Bridge to Mailchimp.
 
-Logs are in JSON format. For more information, check our [documentation on JSON logs](/docs/hubrise-logs).
+Logs are in JSON format. For more information, check our [documentation on JSON logs](/docs/hubrise-logs/overview).
 
 ## Operations table
 

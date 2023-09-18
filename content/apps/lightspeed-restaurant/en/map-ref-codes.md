@@ -60,7 +60,7 @@ When you map production instructions to connected apps, add `+` before the ref c
 
 ---
 
-**IMPORTANT NOTE:** Production instructions have no associated price. Adding a price in a connected app can cause [price differences errors](/apps/lightspeed-restaurant/troubleshooting/price-differences-errors/).
+**IMPORTANT NOTE:** Production instructions have no associated price. Adding a price in a connected app can cause [price differences errors](/apps/lightspeed-restaurant/troubleshooting/price-differences-errors).
 
 ---
 
