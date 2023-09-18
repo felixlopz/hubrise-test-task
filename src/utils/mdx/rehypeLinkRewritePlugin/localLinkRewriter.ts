@@ -4,7 +4,7 @@ import { ContentDirName } from "@utils/files"
 import { defaultLanguage, Language } from "@utils/locales"
 import { HeaderLink } from "@utils/mdx/remarkHeadingsPlugin"
 import { Router } from "@utils/router"
-import { LayoutName, Route, RouteName } from "@utils/router/types"
+import { LayoutName, Route, RouteName, RouteNameDocumentation } from "@utils/router/types"
 
 export class LocalLinkRewriter {
   // path => header links
@@ -62,7 +62,14 @@ export class LocalLinkRewriter {
     // If route is not found, assume it is NOT a documentation route, and try to find it by href.
     const hrefWithLanguage = this.language === defaultLanguage ? path : `/${this.language}${path}`
     route = this.router.getRouteFromHref(hrefWithLanguage)
-    if (route && !this.isDocumentationRoute(route)) return route
+    if (route) {
+      if (this.isDocumentationRoute(route)) {
+        const filePath = route.params.contentDirName + "/" + route.params.basename
+        throw new Error(`${this.pageHref}: replace "${path}" with "${filePath}"`)
+      } else {
+        return route
+      }
+    }
 
     // Throw error if no route was found
     throw new Error(`${this.pageHref}: link "${path}" not found`)
@@ -107,7 +114,7 @@ export class LocalLinkRewriter {
 
   private isDocumentationRoute(
     route: Route<RouteName, LayoutName>,
-  ): route is Route<RouteName, "blog-post" | "documentation"> {
+  ): route is Route<RouteNameDocumentation, "blog-post" | "documentation"> {
     return "mdFile" in route.context
   }
 }
