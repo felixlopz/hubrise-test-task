@@ -19,7 +19,7 @@ Deux types de rôles sont pris en charge dans HubRise : les administrateurs et 
 
 Vous pouvez également consulter et modifier vos propres permissions à partir de votre profil utilisateur. Pour plus d'informations, voir [Profil et mot de passe](/docs/profile-password).
 
-## Ajouter un utilisateur(#add-user)
+## Ajouter un utilisateur {#add-user}
 
 Les administrateurs peuvent octroyer l'accès à d'autres utilisateurs à condition qu'ils aient un profil existant sur HubRise. Les nouveaux utilisateurs de HubRise peuvent créer un profil sur la [page d'inscription à HubRise](https://manager.hubrise.com/signup?locale=fr-FR). Si vous créez un nouveau profil au nom de quelqu'un d'autre, utilisez la [page de réinitialisation du mot de passe de HubRise](https://manager.hubrise.com/reset_password/new?locale=fr-FR) afin que l'utilisateur puisse saisir son propre mot de passe sécurisé.
 
@@ -38,7 +38,7 @@ Pour octroyer à un utilisateur des permissions sur un point de vente, procédez
 1. Dans la colonne **RÔLE**, définissez le rôle du nouvel utilisateur en tant qu'Admin ou Manager.
 1. Cliquez sur l'icône Plus <InlineImage width="13" height="13">![Icône Plus](../images/059-add-icon.png)</InlineImage> pour ajouter le nouvel utilisateur.
 
-## Supprimer un utilisateur(#remove-user)
+## Supprimer un utilisateur {#remove-user}
 
 Pour supprimer un utilisateur, procédez comme suit :
 

@@ -38,7 +38,7 @@ Don't use gender-specific pronouns unless the person you're referring to is actu
 
 In particular, don't use **he**, **him**, **his**, **she**, or **her** as gender-neutral pronouns, and don't use **he/she** or **(s)he** or other such punctuational approaches.
 
-## Capitalisation(#capitalisation)
+## Capitalisation {#capitalisation}
 
 If it is an official title or name, something that can be or is trademarked or copyrighted, or the name of something that is unique in the universe, capitalise it. Otherwise, do not.
 
@@ -67,7 +67,7 @@ The first letter following a colon should always be capitalised.
 
 > Right: Defined locations as follows: The Account name followed by the city.
 
-### Commas(#commas)
+### Commas {#commas}
 
 If you have a list of three or more items, add a comma before the last item. For instance: I'd like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the Oxford or serial comma.
 
@@ -136,7 +136,7 @@ Internal links start with `/` and include the file path, starting from the `cont
 
 Anchors are used to direct readers to a specific section within a page. To create an anchor, use the following format in the section heading:
 
-`## Integration Features(#features)`
+`## Integration Features {#features}`
 
 With this anchor set up, you can link to the section using the following link:
 
@@ -249,7 +249,7 @@ Do not use contractions. For instance, write **do not** instead of **don't**.
 
 You may use italics for tech terms except code. Do not use it to identify examples, make a sentence instead.
 
-## Notices(#notices)
+## Notices {#notices}
 
 Notices give important or useful information that is not necessarily part of the flow of the text. Notices can inlude Important Notes and Frequently Asked Questions.
 
@@ -273,7 +273,7 @@ If you foresee an issue that may form part of the Frequently Asked Questions, th
 
 The following styles are used to specify how User Interfaces are described.
 
-### Menus(#menus)
+### Menus {#menus}
 
 Menus are described in the order they are selected. They are presented in bold with a greater than sign separating each step. If a user is to select File, then Save, this would be displayed as: **File** > **Save**
 

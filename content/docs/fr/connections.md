@@ -16,7 +16,7 @@ HubRise vous permet de connecter un écosystème de solutions en constante évol
 
 Vous pouvez connecter toutes les applications disponibles sur la page [Apps](/apps) de HubRise. Si une application que vous souhaitez connecter n'apparaît pas sur cette page, vous pouvez contacter contact@hubrise.com pour savoir si une intégration est prévue.
 
-## Connecter une application(#connect)
+## Connecter une application {#connect}
 
 Les applications sont connectées soit à un compte HubRise, soit à un point de vente. Le niveau de connexion dépend des données que vous devez partager avec l'application : par exemple, les logiciels de caisse ou de commande en ligne se connectent généralement aux points de vente, tandis que les solutions de marketing se connectent indifféremment aux comptes ou aux points de vente.
 
@@ -45,7 +45,7 @@ Certaines applications sont accessibles depuis HubRise. Si tel est le cas, vous 
 
 ![Connexion à HubRise - Ouvrir une application](./images/011-2x-connections-open-app.png)
 
-## Afficher l'activité de connexion(#connection-activity)
+## Afficher l'activité de connexion {#connection-activity}
 
 Pour afficher un graphique montrant le nombre de transactions enregistrées au cours des 30 derniers jours, sélectionnez **CONNEXIONS** > **Actions** > **Afficher l'activité**. C'est un moyen pratique de vérifier si des transactions transitent via la connexion.
 
@@ -57,7 +57,7 @@ Pour afficher un graphique montrant le nombre de transactions enregistrées au c
 
 ---
 
-## Afficher les logs de connexion(#connection-logs)
+## Afficher les logs de connexion {#connection-logs}
 
 Chaque application connectée génère des logs, qui sont enregistrés. Vous pouvez utiliser ces logs pour analyser les communications entre les systèmes et déterminer la cause des incidents éventuels.
 
@@ -108,7 +108,7 @@ Pour plus d'informations, voir la rubrique [Comprendre les logs HubRise](/docs/h
 
 ---
 
-## Bloquer ou déconnecter une application(#block-or-disconnect)
+## Bloquer ou déconnecter une application {#block-or-disconnect}
 
 HubRise permet de bloquer ou déconnecter les applications :
 

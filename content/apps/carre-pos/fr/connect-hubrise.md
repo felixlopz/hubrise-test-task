@@ -34,7 +34,7 @@ Si votre logiciel est connecté à HubRise, le nom et l'identifiant du point de 
 
 ![Connexion à HubRise - Informations de connexion](./images/006-carre-pos-connection-info.png)
 
-## Donner accès au support de Carré POS(#give-access)
+## Donner accès au support de Carré POS {#give-access}
 
 Pour connecter Carré POS, et faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution Carré POS.
 

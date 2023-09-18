@@ -16,7 +16,7 @@ For more information, check the documentation of these platforms in our [Apps pa
 
 ## Configuration on MyOrderBox
 
-### Virtual Brands(#virtual-brands)
+### Virtual Brands {#virtual-brands}
 
 MyOrderBox uses service type ref codes to identify the source of orders. To connect several virtual brands to a single MyOrderBox EPOS, you need to include virtual brand identification information in the service type ref codes. To connect a single brand, just use the service type ref codes provided in the sections below.
 

@@ -20,7 +20,7 @@ En fonction de vos besoins, vous devrez créer des articles, promotions et centr
 
 Si vous n'utilisez pas ces fonctionnalités, il est inutile de créer ces éléments, et vous pouvez alors laisser vides les champs correspondants.
 
-### Centres de profit(#profit-centers)
+### Centres de profit {#profit-centers}
 
 UltimaPOS assigne chaque commande à un centre de profit. Vous pouvez configurer le centre de profit utilisé en fonction de la plateforme et du mode de livraison, ou utiliser des centres de profit par défaut.
 

@@ -8,7 +8,7 @@ meta:
   description: Instructions pour associer les codes ref des produits Dishop avec d'autres applications connectées à HubRise pour la synchronisation des données.
 ---
 
-## Produits(#products)
+## Produits {#products}
 
 Pour modifier le code ref d'un produit, suivez ces étapes :
 
@@ -26,7 +26,7 @@ Pour les menus édités manuellement, Dishop recommande d'utiliser des options p
 
 Pour modifier le code ref d'une SKU, suivez les étapes de la section [Options](#options).
 
-## Options(#options)
+## Options {#options}
 
 Pour modifier le code ref d'une option, suivez ces étapes :
 

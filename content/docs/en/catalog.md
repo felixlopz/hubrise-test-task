@@ -22,7 +22,7 @@ The rules for Catalogs are as follows:
 
 ![Catalog Rules example](./images/047-2x-catalog-rules.png)
 
-## Add a Catalog(#add)
+## Add a Catalog {#add}
 
 To add a catalog, follow these steps:
 

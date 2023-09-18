@@ -101,7 +101,7 @@ Pour plus de détails sur le contenu JSON des requêtes dans HubRise, voir [Mod�
 
 ## Exemple de réponse HubRise typique
 
-### Code(#code)
+### Code {#code}
 
 Le code de réponse indique le résultat de la requête. Le code 200 indique une requête ayant abouti, tandis que les autres codes correspondent à divers types d'erreurs. Le tableau suivant présente les erreurs les plus courantes. Pour connaître les stratégies de dépannage possibles en fonction du code, voir [Résolution des problèmes liés aux requêtes](/docs/hubrise-logs/troubleshooting-requests).
 

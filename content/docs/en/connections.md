@@ -16,7 +16,7 @@ HubRise is used to connect an ever-growing ecosystem of solutions: EPOS, online 
 
 You can connect all apps available in the HubRise [Apps](/apps) page. If you cannot see an app you need to connect on this page, contact contact@hubrise.com to find out if an integration is planned.
 
-## Connect a New App(#connect)
+## Connect a New App {#connect}
 
 Apps are connected to either a HubRise Account or Location. Connection level depends on the data you need to share with the app. For example, EPOS or online ordering systems typically connect to Locations, while marketing solutions connect to Accounts or Locations.
 
@@ -40,13 +40,13 @@ To connect a new app to your HubRise Account from the HubRise back office:
 
 ---
 
-## Open An App(#open-app)
+## Open An App {#open-app}
 
 Some apps can be accessed from HubRise. If so, you can open the app by clicking on **CONNECTIONS** and selecting **Open** for the specific app. The app will open in a new browser window.
 
 ![HubRise Connection - Open an app](./images/011-2x-connections-open-app.png)
 
-## View Connection Activity(#connection-activity)
+## View Connection Activity {#connection-activity}
 
 To display a line chart with the number of transactions made in the last 30 days, select **CONNECTIONS** > **Actions** > **View Activity**. This is a handy way to see if transactions are going through the connection.
 
@@ -58,7 +58,7 @@ To display a line chart with the number of transactions made in the last 30 days
 
 ---
 
-## View Connection Logs(#connection-logs)
+## View Connection Logs {#connection-logs}
 
 Logs are stored for each app that has been connected. You can use logs to understand the communications between systems and detect issues.
 
@@ -110,7 +110,7 @@ For more information, see [Understanding Logs in HubRise](/docs/hubrise-logs/ove
 
 ---
 
-## Block or Disconnect an App(#block-or-disconnect)
+## Block or Disconnect an App {#block-or-disconnect}
 
 HubRise allows you to block or disconnect apps:
 

@@ -30,7 +30,7 @@ Avec ces informations, nous demanderons à l'équipe d'intégration de Deliveroo
 
 Vous pouvez aussi connecter votre restaurant de manière autonome. Pour plus d'informations, voir [Comment connecter HubRise depuis le back-office de Deliveroo ?](/apps/deliveroo/faqs/connect-from-deliveroo-back-office).
 
-## 2. Connectez Deliveroo Bridge(#connect)
+## 2. Connectez Deliveroo Bridge {#connect}
 
 Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 

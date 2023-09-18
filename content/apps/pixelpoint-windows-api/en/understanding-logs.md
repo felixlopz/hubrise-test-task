@@ -16,7 +16,7 @@ For a detailed description on how to read and troubleshoot JSON requests in HubR
 
 To understand the PixelPoint logs in XML format, you need to know how to read XML files first.
 
-## An XML Primer(#xml-primer)
+## An XML Primer {#xml-primer}
 
 XML is a format to store and transfer information organised in nodes of key-value pairs with a hierarchical structure. Each piece of information is divided into:
 

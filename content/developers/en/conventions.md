@@ -96,7 +96,7 @@ Typical uses:
 
 </details>
 
-### Half & half products(#half-half-products)
+### Half & half products {#half-half-products}
 
 Half & half products are a common occurrence in the restaurant industry, especially the pizzeria industry. A half & half product lets customers mix two recipes, and customise each of them separately. Think of a half & half pizza as a normal size pizza split in two halves, each half having its own ingredients.
 

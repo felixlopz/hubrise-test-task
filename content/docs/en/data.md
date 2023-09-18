@@ -10,7 +10,7 @@ meta:
 
 The Data section provides records for orders, customers, and catalogs. At any time, you can select which Account and Locations to display.
 
-## Orders(#orders)
+## Orders {#orders}
 
 The **ORDERS** page displays your recent orders, with the most recent on top. For every order on the list, you can find the following attributes:
 
@@ -36,7 +36,7 @@ To view the full details of the request, click the date and time in the **Logs**
 
 ---
 
-## Customers(#customers)
+## Customers {#customers}
 
 The **CUSTOMERS** page displays the selected customer lists for the selected Account. Customers are ordered by reverse creation date.
 
@@ -58,13 +58,13 @@ To see full details of a customer, click the customer name. To see the full logs
 
 To create, edit or remove a customer lists, see [Customer Lists](/docs/customer-lists).
 
-## Catalogs(#catalogs)
+## Catalogs {#catalogs}
 
 From the **CATALOGS** page, you can view the catalogs pushed into HubRise and the logs of the requests that made changes to the catalog.
 
 Connected apps that have access to your HubRise catalog can pull its product list or push new products into it. For example, a connected EPOS can push its catalog into HubRise for an e-commerce website to use it. If required, you can also edit the catalog using **Catalog Manager**, a free app available on HubRise. For more information, see [Catalog Manager](/apps/catalog-manager/overview).
 
-### View Catalog(#view-catalog)
+### View Catalog {#view-catalog}
 
 Accounts and Locations can contain multiple Catalogs. To view a specific Catalog, select it from the dropdown list next to the title **Catalogs**.
 
@@ -95,7 +95,7 @@ To see the full logs of all the requests that make changes to the catalog, click
 
 To create, edit or remove a catalogs, see [Catalogs](/docs/catalog).
 
-## Logs(#logs)
+## Logs {#logs}
 
 Each page in the **DATA** section provides more information through its log page.
 

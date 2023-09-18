@@ -62,7 +62,7 @@ Dans le coin supérieur droit de la page principale, vous pouvez cliquer sur la 
 
 Pour revenir à la page principale, cliquez sur les logos de Just Eat et de HubRise en haut de n'importe quelle page de Just Eat Bridge.
 
-## Page de configuration(#configuration)
+## Page de configuration {#configuration}
 
 Pour accéder à la page de configuration de Just Eat Flyt Bridge, cliquez sur la flèche <InlineImage width="20" height="20">![icône fléchée](../images/arrow-icon.jpg)</InlineImage> dans le coin supérieur droit de la page pour développer le menu, puis cliquez sur **Configuration**.
 

@@ -33,7 +33,7 @@ Suivez ensuite ces étapes :
 1. De nouveau, cliquez sur **Enregistrer**.
 1. En cas de besoin, l'éditeur du logiciel Kezia II peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/kezia/connect-hubrise#give-access).
 
-## Donner accès au support Kezia II(#give-access)
+## Donner accès au support Kezia II {#give-access}
 
 Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution Kezia II.
 

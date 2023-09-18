@@ -72,7 +72,7 @@ Body:
   ]
 ```
 
-## 3. Rate Limiting(#rate-limiting)
+## 3. Rate Limiting {#rate-limiting}
 
 If a connection makes too many requests over a defined time window, HubRise will return a `429` (Too Many Requests) HTTP status code. This keeps HubRise performance consistent for all users.
 
@@ -103,7 +103,7 @@ This parameter is **not** accepted in a GET request, since a GET request should 
 
 ## 5. Common Data Types
 
-### Monetary Values(#monetary-values)
+### Monetary Values {#monetary-values}
 
 A number with 2 decimal digits, followed by a space and the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) currency name. Can be preceded by a `-` sign for negative amounts.
 
@@ -112,7 +112,7 @@ A number with 2 decimal digits, followed by a space and the [ISO 4217](https://e
 - `8.90 EUR`
 - `-0.05 GBP`
 
-### Decimal Values(#decimal-values)
+### Decimal Values {#decimal-values}
 
 HubRise represent decimal values as **strings** to eliminate any ambiguity and loss of precision during the parsing.
 
@@ -125,7 +125,7 @@ In order to enforce the use of a "precise" decimal type and to avoid the default
 - `"1"`
 - `"-2.5"`
 
-### Dates and Times(#dates-and-times)
+### Dates and Times {#dates-and-times}
 
 Dates and times are encoded in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
 
@@ -136,7 +136,7 @@ Locations have a default timezone, which can be configured from the back office.
 - Date: `2020-08-20`
 - Time: `2020-08-20T06:42:46+02:00`
 
-### Days of the Week(#days-of-the-week)
+### Days of the Week {#days-of-the-week}
 
 A `DOW` (= "Days of the Week") value designates specific days of the week.
 
@@ -147,7 +147,7 @@ It is a string of 7 characters, where each character represents a day of the wee
 - `1234567`: every day of the week
 - `12----7`: Monday, Tuesday and Sunday
 
-### Timezones(#timezones)
+### Timezones {#timezones}
 
 Timezones are encoded in this format:
 
@@ -218,7 +218,7 @@ The response may also include a field breakdown, like this:
 }
 ```
 
-## 8. Private Refs(#private-refs)
+## 8. Private Refs {#private-refs}
 
 HubRise allows API clients to attach their own internal references to various objects, such as orders, order items, customers, and a few others. This can be convenient when clients need to link HubRise objects to their internal objects, but they cannot store HubRise ids.
 
@@ -278,7 +278,7 @@ HubRise indexes private refs efficiently, which allows clients to use private re
 ]
 ```
 
-## 9. CORS(#cors)
+## 9. CORS {#cors}
 
 CORS (Cross-Origin Resource Sharing) is a mechanism that restricts the origins that can execute requests against a given API.
 

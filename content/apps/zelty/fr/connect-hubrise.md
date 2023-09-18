@@ -14,7 +14,7 @@ meta:
 
 ---
 
-## Connecter Zelty(#connect)
+## Connecter Zelty {#connect}
 
 Si vous avez plusieurs restaurants, chaque point de vente doit être connecté séparément.
 

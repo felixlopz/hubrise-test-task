@@ -33,8 +33,9 @@ export const renderDocumentationMdx = async (
   const headerLinks: Array<HeaderLink> = []
   const contentImages: Array<ContentImageWithAlt> = []
 
+  const preprocessed = preProcessContent(content)
   const { content: mdxElement } = await compileMDX({
-    source: content,
+    source: preprocessed,
     components: {
       a: A,
       CallSummaryTable,
@@ -73,8 +74,9 @@ export const renderDocumentationMdx = async (
 export const headerLinksFromMdx = async (content: string): Promise<Array<HeaderLink>> => {
   const headerLinks: Array<HeaderLink> = []
 
+  const preprocessed = preProcessContent(content)
   await compileMDX({
-    source: content,
+    source: preprocessed,
     components: {
       // Just to avoid compile errors
       CallSummaryTable: () => null,
@@ -93,6 +95,13 @@ export const headerLinksFromMdx = async (content: string): Promise<Array<HeaderL
   })
 
   return headerLinks
+}
+
+const preProcessContent = (content: string): string => {
+  // Escape the {#...} pattern used for anchors.
+  // From: ## 2. Connect Deliveroo Bridge {#connect}
+  // To:   ## 2. Connect Deliveroo Bridge \{#connect\}
+  return content.replace(/(#+ .+?) \{#(.+?)\}/g, "$1 \\{#$2\\}")
 }
 
 const MIN_IMAGE_WIDTH_FOR_SLIDESHOW = 200

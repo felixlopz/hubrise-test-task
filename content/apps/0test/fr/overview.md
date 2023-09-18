@@ -35,7 +35,7 @@ Acme est un logiciel de caisse sous Windows / iPad / tablette / etc.
 
 Acme est conforme à la loi française anti-fraude 2018.
 
-## Fonctionnalités de l'intégration(#integration-features)
+## Fonctionnalités de l'intégration {#integration-features}
 
 Connecter Acme à HubRise permet à votre logiciel de caisse de :
 

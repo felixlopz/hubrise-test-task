@@ -107,7 +107,7 @@ The `data` field of the catalogs is not returned by this request. To retrieve th
 
 </details>
 
-### 1.3. Create Catalog(#create-catalog)
+### 1.3. Create Catalog {#create-catalog}
 
 Creates a new catalog. The products, categories, options, etc. of the catalog can be passed along in the request.
 
@@ -261,7 +261,7 @@ Delete a catalog and all its content (ie categories, products, ...).
 
 </details>
 
-## 2. Variants(#variants)
+## 2. Variants {#variants}
 
 A catalog can optionally contain variants. Variants are used in conjunction with:
 
@@ -290,7 +290,7 @@ For a more detailed explanation of variants, read the <Link href="/blog/catalog-
 }
 ```
 
-## 3. Categories(#categories)
+## 3. Categories {#categories}
 
 The categories of a catalog form a tree: categories without a `parent_id` are the main categories. The other categories are their children, grandchildren, etc. Every product belongs to a category. Deals can also optionally belong to a category.
 
@@ -373,7 +373,7 @@ Return the categories of the catalog. Categories are returned in a deep first tr
 ]
 ```
 
-## 4. Products(#products)
+## 4. Products {#products}
 
 A product belongs to a category. A product has one or several skus.
 
@@ -475,7 +475,7 @@ Retrieve the list of products in the catalog.
 ]
 ```
 
-## 5. Skus(#skus)
+## 5. Skus {#skus}
 
 Skus ("Stock Keeping Unit") is a distinct type of item for sale, such as a product or service, and all attributes associated with the item type that distinguish it from other item types, such as the size.
 
@@ -571,7 +571,7 @@ A product contains one or several skus. A sku is always attached to a product.
 ]
 ```
 
-## 6. Option Lists(#option-lists)
+## 6. Option Lists {#option-lists}
 
 An option list can be attached to one or several skus. It has one or several options.
 
@@ -682,7 +682,7 @@ Retrieve an option list and the possible choices (options).
 ]
 ```
 
-## 7. Options(#options)
+## 7. Options {#options}
 
 ### 7.1. Option in Catalog Upload
 
@@ -770,9 +770,9 @@ Retrieve an option list and the possible choices (options).
 ]
 ```
 
-## 8. Deals(#deals)
+## 8. Deals {#deals}
 
-### 8.1. Deal in Catalog Upload(#deal-in-catalog-upload)
+### 8.1. Deal in Catalog Upload {#deal-in-catalog-upload}
 
 ##### Parameters:
 
@@ -878,7 +878,7 @@ Retrieve an option list and the possible choices (options).
 ]
 ```
 
-## 9. Discounts(#discounts)
+## 9. Discounts {#discounts}
 
 A discount is a reduction of the order total price.
 
@@ -953,7 +953,7 @@ A discount is a reduction of the order total price.
 ]
 ```
 
-## 10. Charges(#charges)
+## 10. Charges {#charges}
 
 A charge is an additional fee billed to the customer. Examples of charges include delivery charge and tip.
 
@@ -1030,7 +1030,7 @@ Retrieve the list of charges in the catalog.
 ]
 ```
 
-## 11. Restrictions(#restrictions)
+## 11. Restrictions {#restrictions}
 
 A `restrictions` object can be used in [Sku](#skus), [Option](#options), [Deal](#deals), [Discount](#discounts) and [Charge](#charges) resources. It defines a set of conditions for a particular item to be enabled.
 
@@ -1073,7 +1073,7 @@ All conditions must be met simultaneously for an item to be available. In partic
 
 The item is only enabled for variants with refs `2` and `3`, on Monday and Friday, from 7:00 to 13:30, until February 2nd 2020, for orders equal or greater than 20.00 EUR, and with a maximum of 1 item per order.
 
-## 12. Price Overrides(#price-overrides)
+## 12. Price Overrides {#price-overrides}
 
 A `price_overrides` is an array of rules that can be used in [Skus](#skus) and [Options](#options), to override their price in different contexts.
 
@@ -1119,7 +1119,7 @@ Assuming the default price is `25.00 EUR`:
 - If the item is ordered through any channel or location that use variants `1` or `3`, the price is `20.00 EUR`.
 - Additionally, if the item is ordered before `14:00`, the price is `15.00 EUR`, no matter the variant. Indeed, the second rule overrides the first one.
 
-## 13. Images(#images)
+## 13. Images {#images}
 
 Images can be attached to products and deals, via their `image_ids` fields.
 
@@ -1233,7 +1233,7 @@ Retrieve the list of images in the catalog.
 ]
 ```
 
-## 14. Inventories(#inventories)
+## 14. Inventories {#inventories}
 
 Inventories keep track of the stock of every sku or option in a catalog, for a particular location.
 
@@ -1243,7 +1243,7 @@ An inventory is specific to a particular location. If several locations share th
 
 Inventories cannot be created or deleted. An inventory is automatically associated to each pair of _catalog_ and _location_, where _location_ has access to _catalog_.
 
-### 14.1. Retrieve Inventory(#retrieve-inventory)
+### 14.1. Retrieve Inventory {#retrieve-inventory}
 
 Returns the list of inventory entries of the inventory.
 
@@ -1287,7 +1287,7 @@ The skus and options' `ref`s are also provided for convenience in the reply.
 
 An inventory is an empty set by default. Every sku or option not specified in the inventory set has **unlimited** supply.
 
-### 14.2. Update Inventory(#update-inventory)
+### 14.2. Update Inventory {#update-inventory}
 
 Overwrites the inventory. The request body has the same format as the [Retrieve inventory](#retrieve-inventory) response body.
 

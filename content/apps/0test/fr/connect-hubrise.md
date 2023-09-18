@@ -16,10 +16,10 @@ meta:
 
 Pour consulter la liste des fonctionnalités, voir la [section fonctionnalités](/apps/0test/overview#integration-features).
 
-## Se connecter(#connect)
+## Se connecter {#connect}
 
 Pour connecter Acme à HubRise, il faut ...
 
-## Se déconnecter(#disconnect)
+## Se déconnecter {#disconnect}
 
 Pour déconnecter Acme de HubRise, il faut ...

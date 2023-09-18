@@ -83,7 +83,7 @@ Get location details.
 
 **Note:** the `timezone.offset` field is deprecated and should not be used, as it does not take daylight saving time into account.
 
-#### Opening Hours(#opening-hours)
+#### Opening Hours {#opening-hours}
 
 The `opening_hours` field represents the opening hours for a location on each day of the week: `monday`, `tuesday`, etc. You can provide multiple time slots for each day, specifying the `from` and `to` times in the `HH:mm` format. For example:
 
@@ -218,7 +218,7 @@ Returns the locations of the account.
 ]
 ```
 
-## 2. Account(#account)
+## 2. Account {#account}
 
 ### 2.1 Retrieve Account
 

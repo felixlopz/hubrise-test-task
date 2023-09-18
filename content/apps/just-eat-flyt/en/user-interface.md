@@ -55,7 +55,7 @@ System requests are generally sent by Just Eat Flyt Bridge to notify HubRise abo
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
-## Configuration(#configuration)
+## Configuration {#configuration}
 
 To access the Just Eat Flyt Bridge configuration page, click **Configuration** at the top of the screen.
 

@@ -42,7 +42,7 @@ Pour tester la connexion entre Expedy et HubRise, utilisez une application conne
 
 En cas de besoin, l'équipe de support de Expedy peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/expedy/connect-hubrise#give-access).
 
-## Donner accès au support de Expedy(#give-access)
+## Donner accès au support de Expedy {#give-access}
 
 Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution Expedy.
 

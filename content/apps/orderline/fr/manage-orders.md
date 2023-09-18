@@ -26,7 +26,7 @@ Lors de la première connexion, OrderLine récupère les commandes des 30 dernie
 
 ![Affichage d'une commande dans OrderLine](./images/018-2x-order-displays.png)
 
-## Voir une commande(#view-order)
+## Voir une commande {#view-order}
 
 Pour consulter les détails de la commande, cliquez sur la carte de la commande. Pour fermer la carte, cliquez sur l'icône de fermeture <InlineImage width="23" height="23">![Icône de fermeture OrderLine](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte.
 

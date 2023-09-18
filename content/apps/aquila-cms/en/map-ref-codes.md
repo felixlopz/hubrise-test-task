@@ -24,7 +24,7 @@ Your Aquila menu can either be created directly in Aquila, or imported from the 
 
 The EPOS ref codes in Aquila can be updated in two ways: manually by creating a new product in Aquila's back office, or imported from the EPOS through a HubRise Catalog import.
 
-## Catalog Import(#import-catalog)
+## Catalog Import {#import-catalog}
 
 The catalog is imported automatically when you [connect your HubRise account](/apps/aquila-cms/connect-hubrise).
 Manual catalog import is not available.

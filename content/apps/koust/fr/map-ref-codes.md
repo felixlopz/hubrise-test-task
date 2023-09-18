@@ -29,7 +29,7 @@ Une fois Koust connecté à HubRise, les commandes provenant de HubRise sont imp
 
 ---
 
-## Produits(#products)
+## Produits {#products}
 
 Un produit dans HubRise correspond à un article dans Koust. Pour retrouver le code ref d'un article, suivez les étapes suivantes :
 

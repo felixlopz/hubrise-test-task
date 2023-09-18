@@ -34,7 +34,7 @@ Les clés suivantes peuvent apparaître dans une requête de commande HubRise.
 | `loyalty_operations` | Liste des opérations appliquées à la carte de fidélité du client. Chaque objet de la liste spécifie le nombre de points ajoutés ou retirés, ainsi que le motif.                                                                                                                  |
 | `charges`            | Liste des frais supplémentaires appliqués à la commande. Il s'agit le plus souvent des frais de livraison, frais de paiement, taxes, etc.                                                                                                                                        |
 
-### L'objet « item »(#item-object)
+### L'objet « item » {#item-object}
 
 Chaque objet « item » inclus dans la liste des articles contient des informations sur un produit acheté par le client. Les clés suivantes peuvent apparaître dans l'objet « item » d'une commande.
 
@@ -51,7 +51,7 @@ Chaque objet « item » inclus dans la liste des articles contient des informa
 | `points_earned` | Points cumulés par le client grâce à ce produit. Les points sont comptabilisés dans des objets « loyalty_operations ». |
 | `points_used`   | Points utilisés par le client avec à ce produit. Les points sont comptabilisés dans des objets « loyalty_operations ». |
 
-### L'objet « payment »(#payment-object)
+### L'objet « payment » {#payment-object}
 
 La liste des paiements indique les moyens de paiement utilisés par le client. Le plus souvent, un seul moyen de paiement est utilisé par commande. Toutefois, HubRise autorise plusieurs moyens de paiement simultanés, par exemple lorsqu'un client règle une partie de sa commande avec une carte-cadeau et une autre partie en espèces.
 

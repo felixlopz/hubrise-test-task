@@ -26,7 +26,7 @@ On first connection, OrderLine synchronises all orders from the past 30 days.
 
 ![OrderLine Order displays](./images/018-2x-order-displays.png)
 
-## View Order(#view-order)
+## View Order {#view-order}
 
 To view the order details, click on the order card. To close it, click the close icon <InlineImage width="23" height="23">![OrderLine Close icon](../images/032-close.png)</InlineImage> or anywhere outside the card.
 

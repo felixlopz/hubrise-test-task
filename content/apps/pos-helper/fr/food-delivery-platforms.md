@@ -16,7 +16,7 @@ Pour plus d'informations, consultez les pages d'aide de ces plateformes sur notr
 
 ## Configuration POS HELPER
 
-### Types de service(#service-types)
+### Types de service {#service-types}
 
 Les types de service sont utilisés de la manière suivante par POS HELPER :
 

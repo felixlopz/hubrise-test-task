@@ -50,7 +50,7 @@ Ne pas mettre de majuscule aux titres. Accentuer les majuscules.
 
 > Correct: Éléments à fournir pour Lightspeed K Series.
 
-## Listes(#lists)
+## Listes {#lists}
 
 Écrivez une courte liste sous forme de phrase. Si la liste a plus de trois éléments ou qu'elle contient des instructions longues, écrivez-la sous forme de liste à puces.
 

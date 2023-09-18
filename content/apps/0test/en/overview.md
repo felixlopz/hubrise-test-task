@@ -29,7 +29,7 @@ Acme is a Windows / iPad / tablette / etc. EPOS.
 
 Acme complies with the 2018 French Anti-Fraud Act.
 
-## Integration Features(#integration-features)
+## Integration Features {#integration-features}
 
 Connecting Acme to HubRise allows your EPOS to:
 

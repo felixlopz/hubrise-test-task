@@ -26,7 +26,7 @@ Pour connecter la solution de commande en ligne Restaurant-internet avec HubRise
 
 En cas de besoin, le support de Restaurant-internet peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/restaurant-internet/connect-hubrise#give-access).
 
-## Donner accès au support de Restaurant-internet(#give-access)
+## Donner accès au support de Restaurant-internet {#give-access}
 
 Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution Restaurant-internet.
 

@@ -10,7 +10,7 @@ meta:
 
 Lorsque Kezia II est connecté à HubRise, les commandes envoyées à HubRise arrivent automatiquement dans votre logiciel de caisse.
 
-## Recevoir des commandes(#receive-orders)
+## Recevoir des commandes {#receive-orders}
 
 Kezia II vérifie l'arrivée de nouvelles commandes toutes les 30 secondes. Une fenêtre d'avertissement vous signale l'arrivée d'une nouvelle commande.
 

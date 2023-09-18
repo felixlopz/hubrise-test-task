@@ -52,7 +52,7 @@ Uber Eats Bridge can automatically push your catalog to Uber Eats every time it 
 1. In the **Catalog** section, tick **Enable automatic catalog push**.
 1. Click **Save**.
 
-## Information Sent to Uber Eats(#information-sent-to-uber-eats)
+## Information Sent to Uber Eats {#information-sent-to-uber-eats}
 
 The following sections provide more details on how your HubRise catalog is mapped to Uber Eats.
 
@@ -125,7 +125,7 @@ For every `sku` object in a product, Uber Eats Bridge sends the following inform
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management#skus).
 
-### Product Tags(#product-tags)
+### Product Tags {#product-tags}
 
 The table below lists the tags that can be set on products.
 

@@ -64,7 +64,7 @@ To manually update your Smood inventory, follow these steps:
 1. Click the **Settings** tab, then in the **Integrations** section, click **Pull HubRise inventory**.
 1. To confirm, click **Yes**.
 
-## Technical Reference(#technical-reference)
+## Technical Reference {#technical-reference}
 
 The following sections describe how HubRise catalogs are mapped to Smood.
 
@@ -99,7 +99,7 @@ For every option in an option list, Smood uses the following information:
 - `name`: The option name.
 - `price`: The price for a single option.
 
-### Deals(#deals)
+### Deals {#deals}
 
 In HubRise, deals are promotions which apply to a specific set of products. An example deal is a **Lunch menu** deal, that includes a pizza and a dessert.
 

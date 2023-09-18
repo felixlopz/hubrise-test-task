@@ -60,7 +60,7 @@ Les cases à cocher suivantes permettent de configurer l'automatisation des tâc
 - **Création automatique des clients inexistants dans HubRise** : lors de l'envoi d'une commande, si la référence du client n'existe pas dans HubRise, crée automatiquement ce dernier dans HubRise.
 - **Envoi des stocks vers HubRise** : envoie les stocks LEO2 en temps réel vers HubRise.
 
-### Comportement en cas de code ref absent ou invalide(#missing-ref)
+### Comportement en cas de code ref absent ou invalide {#missing-ref}
 
 Les champs suivants permettent de définir le comportement de LEO2 en cas d'incohérence entre les codes ref de LEO2 et HubRise :
 

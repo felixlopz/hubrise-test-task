@@ -36,7 +36,7 @@ Une fois connectée, la nouvelle l'application apparaît sur la page **CONNEXION
 
 ![Les multiples connexions d'une même application peuvent être distinguées selon la valeur de l'identifiant de l'application.](./images/067-multiple-apps-device-id.png)
 
-## Règles de nommage(#naming-rules)
+## Règles de nommage {#naming-rules}
 
 Pour identifier plus facilement les différentes connexions de la même application, vous pouvez choisir librement la valeur de l'identifiant de l'application lors de la configuration initiale. Dans `device_id=NomDeLaMarque&`, « NomDeLaMarque » peut inclure une combinaison quelconque des caractères suivants :
 

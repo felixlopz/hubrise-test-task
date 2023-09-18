@@ -10,7 +10,7 @@ meta:
 
 Vous pouvez connecter Koust à HubRise de manière autonome, en seulement quelques étapes.
 
-## Connecter Koust(#connect)
+## Connecter Koust {#connect}
 
 Pour établir la connexion entre Koust et HubRise :
 

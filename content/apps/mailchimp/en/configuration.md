@@ -8,7 +8,7 @@ meta:
   description: Instructions on configuring Mailchimp to work seamlessly with your EPOS or other apps connected to HubRise. Configuration is simple.
 ---
 
-## Configuration Options(#options)
+## Configuration Options {#options}
 
 In order to configure your connection to Mailchimp:
 

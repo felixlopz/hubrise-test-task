@@ -8,7 +8,7 @@ meta:
   description: Comment saisir les codes ref de votre logiciel de caisse dans votre menu DOOD, en utilisant le gestionnaire de menu de DOOD.
 ---
 
-## Produits(#products)
+## Produits {#products}
 
 Chaque produit dispose d'un code ref.
 

@@ -64,7 +64,7 @@ Pour mettre à jour manuellement votre inventaire Smood, suivez ces étapes :
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Récupérer l'inventaire HubRise**.
 1. Pour confirmer, cliquez sur **Oui**.
 
-## Références techniques(#technical-reference)
+## Références techniques {#technical-reference}
 
 Les sections suivantes décrivent la manière dont les catalogues HubRise sont associés aux menus Smood.
 
@@ -99,7 +99,7 @@ Pour chaque option d'une liste, Smood utilise les informations suivantes :
 - `name` : nom de l'option.
 - `price` : prix unitaire de l'option.
 
-### Promotions(#deals)
+### Promotions {#deals}
 
 Dans HubRise, les promotions s'appliquent à un ensemble spécifique de produits. Par exemple, une promotion **Déjeuner** peut inclure une pizza et un dessert.
 
