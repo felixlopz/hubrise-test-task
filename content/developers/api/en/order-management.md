@@ -10,7 +10,7 @@ meta:
 
 ## 1. Orders
 
-### 1.1. Create Order(#create-order)
+### 1.1. Create Order {#create-order}
 
 This method creates an order.
 
@@ -397,7 +397,7 @@ Orders of any location of the account:
 
 </details>
 
-### 1.4. Update Order(#update-order)
+### 1.4. Update Order {#update-order}
 
 Updates an order.
 
@@ -626,7 +626,7 @@ This request sets a private ref on an item.
 
 </details>
 
-## 2. Order's Customer(#customer)
+## 2. Order's Customer {#customer}
 
 When you create an order, you can attach a customer to it. You usually want to do this, unless no customer identifier is available. An order with no attached customer is called a **guest order**.
 
@@ -705,7 +705,7 @@ The following fields are available in the `customer` object:
 
 When you retrieve a guest order, the customer fields passed at creation time are returned in the `customer` object, along with a few fields computed by HubRise.
 
-## 3. Order Status(#status)
+## 3. Order Status {#status}
 
 The status of an order. Used in the order's `status` field.
 
@@ -745,7 +745,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
 1. `accepted` (order placed in the POS)
 1. `completed`
 
-## 4. Order Items(#items)
+## 4. Order Items {#items}
 
 | Name                                       | Type                                                       | Description                                                                                                                                                                                 |
 | ------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -788,7 +788,7 @@ Orders do not have to go through all steps. The sequence actually depends on the
 }
 ```
 
-## 5. Order Items in a Deal(#items-in-deal)
+## 5. Order Items in a Deal {#items-in-deal}
 
 Order items which are part of a deal include a `deal_line` field. This field is an object with the following fields:
 
@@ -803,7 +803,7 @@ Order items which are part of a deal include a `deal_line` field. This field is 
 
 `pricing_effect` and `pricing_value` can be useful in some applications but can generally be omitted. HubRise does not make any computation with these fields.
 
-## 6. Order Options(#options)
+## 6. Order Options {#options}
 
 | Name                                 | Type                                                      | Description                                                                                   |
 | ------------------------------------ | --------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -828,7 +828,7 @@ Order items which are part of a deal include a `deal_line` field. This field is 
 
 A removed option can define a `price`. In this case, it's the price charged to the customer to remove the option.
 
-## 7. Order Deals(#deals)
+## 7. Order Deals {#deals}
 
 An order deal associates an order item's `deal_key` to a particular deal.
 
@@ -850,7 +850,7 @@ An order deal associates an order item's `deal_key` to a particular deal.
 }
 ```
 
-## 8. Order Discounts(#discounts)
+## 8. Order Discounts {#discounts}
 
 An order discount is a discount applied to the whole order, as opposed to deals which apply to a set of order items.
 
@@ -883,7 +883,7 @@ An order discount is a discount applied to the whole order, as opposed to deals 
 ]
 ```
 
-## 9. Order Charges(#charges)
+## 9. Order Charges {#charges}
 
 Order charges increase the price paid by the customer.
 
@@ -914,7 +914,7 @@ Order charges increase the price paid by the customer.
 ]
 ```
 
-## 10. Order Payments(#payments)
+## 10. Order Payments {#payments}
 
 If one or several payments are defined, the sum of the payment amounts should equal the order's `total`. Otherwise, the difference is stored in the order's `payment_discrepancy` field.
 
@@ -956,7 +956,7 @@ If payments are omitted, the order should be considered as unpaid.
 ]
 ```
 
-## 11. Order Loyalty Operations(#loyalty-operations)
+## 11. Order Loyalty Operations {#loyalty-operations}
 
 Add or remove points to a customer's loyalty card(s).
 
@@ -989,7 +989,7 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 ]
 ```
 
-## 12. Tax Rates(#tax-rates)
+## 12. Tax Rates {#tax-rates}
 
 A `tax_rate` can be specified for each order item and order charge.
 

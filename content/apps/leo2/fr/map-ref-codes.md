@@ -19,7 +19,7 @@ Il y a deux façons de procéder :
 
 Seules certaines applications permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
 
-## Exporter le catalogue(#export-catalog)
+## Exporter le catalogue {#export-catalog}
 
 Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivantes :
 
@@ -33,7 +33,7 @@ Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivant
 
 Vous devez maintenant importer le catalogue HubRise dans vos autres applications connectées à HubRise. Pour effectuer cette opération, référez-vous à la documentation de ces applications sur le site de HubRise.
 
-## Produits(#products)
+## Produits {#products}
 
 Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 
@@ -106,7 +106,7 @@ Les méthodes de paiement dans HubRise correspondent aux modes de règlement dan
 1. Cliquez sur **Modes de Règlement**. Le code ref s'affiche dans la colonne **No**.
    ![Associer les codes ref - Modes de règlement](./images/008-leo2-payment-methods.png)
 
-## Types de service(#service-types)
+## Types de service {#service-types}
 
 Les types de service dans HubRise sont **Sur place**, **Emporter** et **Livraison**. Chaque type de service doit être associé à un tarif dans LEO2.
 
@@ -119,7 +119,7 @@ Pour associer un type de service à un tarif, suivez les étapes suivantes :
    ![Connexion - Paramètres HubRise](./images/017-leo2-hubrise-settings.png)
 1. Dans les champs **Tarif sur place**, **Tarif à emporter** et **Tarif à livrer**, choisissez le tarif correspondant dans la liste déroulante.
 
-## Codes ref des types de service(#service-types)
+## Codes ref des types de service {#service-types}
 
 Les codes refs des types de service dans HubRise correspondent aux vendeurs dans LEO2. Les vendeurs permettent de connaître la provenance des commandes. Selon vos besoins, vous pouvez par exemple créer un vendeur "Uber Eats" et un vendeur "WooCommerce".
 

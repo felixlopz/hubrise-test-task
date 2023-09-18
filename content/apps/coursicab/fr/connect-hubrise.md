@@ -35,7 +35,7 @@ Pour tester la connexion entre CoursiCab et HubRise, un moyen simple est d'utili
 1. Dans votre espace CoursiCab, sélectionnez **Apps** dans la barre de menu.
 1. Si la commande n'apparaît pas dans CoursiCab, vérifiez qu'elle a bien été envoyée à HubRise. Pour cela, allez dans le back-office de HubRise, dans le menu latéral, sélectionnez **DONNÉES** > **COMMANDES**. Vérifiez que la commande est présente dans la liste des commandes.
 
-## Donner accès au support de CoursiCab(#give-access)
+## Donner accès au support de CoursiCab {#give-access}
 
 Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution CoursiCab.
 

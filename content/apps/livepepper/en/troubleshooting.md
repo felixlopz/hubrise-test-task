@@ -8,7 +8,7 @@ meta:
   description: Troubleshooting LivePepper connection with HubRise for your EPOS and other apps to work as a cohesive whole. Connect apps and synchronise your data.
 ---
 
-## Verify Product Mapping(#verify-mapping)
+## Verify Product Mapping {#verify-mapping}
 
 To confirm that every LivePepper menu item has an associated EPOS code, navigate to **Maintenance** > **Custom Actions** from the left navigation panel. Among the various reports displayed, you'll find one labeled **Missing POS codes**. This report lists all products, deals, and their related attributes lacking assigned EPOS ref codes.
 

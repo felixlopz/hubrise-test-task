@@ -18,10 +18,10 @@ const remarkHeadingsPlugin = (headerLinks: Array<HeaderLink>) => {
       const textNode = heading.children.find((child) => child.type === "text") as { value: string }
 
       // Optional custom id
-      // Informations envoyées à Deliveroo(#information-sent-to-deliveroo)
+      // Informations envoyées à Deliveroo {#information-sent-to-deliveroo}
       // -> information-sent-to-deliveroo
       let customId: string | undefined
-      const match = /(.*)\s*\(#(.*)\)$/.exec(textNode.value)
+      const match = /(.*)\s+{#(.*)}$/.exec(textNode.value)
       if (match) {
         textNode.value = match[1] // Strip the anchor from the text
         customId = match[2]

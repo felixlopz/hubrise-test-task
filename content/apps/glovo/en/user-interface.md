@@ -56,7 +56,7 @@ System requests are generally sent by Glovo Bridge to notify HubRise about a cha
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
-## Configuration(#configuration)
+## Configuration {#configuration}
 
 To access the Glovo Bridge configuration page, click **Configuration**.
 

@@ -20,7 +20,7 @@ Pour pouvoir mettre à jour votre menu dans Just Eat, vous devez préalablement 
 
 Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalog).
 
-## Envoi du catalogue(#push-catalog)
+## Envoi du catalogue {#push-catalog}
 
 Une fois que votre catalogue a été alimenté sur HubRise, vous pouvez l'envoyer dans Just Eat en procédant comme suit.
 
@@ -84,7 +84,7 @@ Pour plus d'informations sur les références contenues dans les catalogues HubR
 
 ---
 
-### Balises de produits(#product-tags)
+### Balises de produits {#product-tags}
 
 Le tableau ci-dessous énumère les balises qui peuvent être définies sur les produits.
 

@@ -53,7 +53,7 @@ To export a subset of the menu:
 
 ---
 
-## Products(#products)
+## Products {#products}
 
 If other apps connected to your HubRise account cannot use HubRise catalogs, you can export all ref codes in a CSV, or an Excel file format. The export includes ref codes for products, menus, and options, which you can manually enter in other systems.
 

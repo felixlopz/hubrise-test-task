@@ -101,7 +101,7 @@ For more details about the JSON content of the requests in HubRise, see [HubRise
 
 ## A Typical HubRise Response
 
-### Code(#code)
+### Code {#code}
 
 The response code tells the outcome of the request. The code 200 indicates a successful request, while other codes are related to various types of errors. The following table highlights the main errors. For possible troubleshooting strategies depending on the code, see [Troubleshooting Requests](/docs/hubrise-logs/troubleshooting-requests).
 

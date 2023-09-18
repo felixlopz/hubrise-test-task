@@ -19,7 +19,7 @@ Il y a deux façons de procéder :
 
 Seules certaines applications permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
 
-## Exporter le catalogue(#export-catalog)
+## Exporter le catalogue {#export-catalog}
 
 Pour exporter manuellement un catalogue vers HubRise, suivez les étapes suivantes :
 
@@ -46,7 +46,7 @@ Les produits que vous créez ou modifiez dans votre catalogue ne sont pas tous e
 
 Vous pouvez ensuite exporter de nouveau votre catalogue en suivant les étapes décrites au début de [cette partie](/apps/kezia/map-ref-codes#export-catalog).
 
-## Produits(#products)
+## Produits {#products}
 
 Un produit dans HubRise correspond à un article dans Kezia II. Pour retrouver le code ref d'un article, suivez les étapes suivantes :
 

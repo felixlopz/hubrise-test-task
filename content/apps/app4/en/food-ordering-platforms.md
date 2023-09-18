@@ -14,7 +14,7 @@ This page describes the settings to use to connect food ordering platforms to Ap
 
 For more information, check the documentation of these platforms in our [Apps page](/apps/food-ordering-platforms).
 
-## Service Type Refs(#service-type-refs)
+## Service Type Refs {#service-type-refs}
 
 App4 displays the ref codes configured in the Service Type fields in the order notes. You can leave these ref codes empty, or use any value that will help you identify the source and service type of an order.
 

@@ -20,7 +20,7 @@ MiiPos n'utilise pas de codes ref pour les produits, les options et les promotio
 
 Vous n'avez donc pas besoin de les renseigner dans les plateformes de commande et de livraison de repas.
 
-## Types de service(#service-types)
+## Types de service {#service-types}
 
 MiiPos utilise les codes ref de type de service pour déterminer l'origine et le type de commande. L'origine est la plateforme de livraison de repas, et le type de commande est un champ libre optionnel qui permet de distinguer les commandes de différentes marques.
 

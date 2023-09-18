@@ -141,7 +141,7 @@ No event is fired in the process.
 
 ## 2. Customers
 
-### 2.1. Retrieve Customer(#retrieve-customer)
+### 2.1. Retrieve Customer {#retrieve-customer}
 
 Returns a customer's details.
 
@@ -308,7 +308,7 @@ Updates a customer. Only the fields present in the request are updated.
 }
 ```
 
-### 2.5. Anonymise Customer(#anonymise-customer)
+### 2.5. Anonymise Customer {#anonymise-customer}
 
 Deletes a customer's personal information.
 

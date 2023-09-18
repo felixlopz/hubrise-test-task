@@ -12,7 +12,7 @@ Locations are the different points of sales for an Account. Each Location identi
 
 The **SETTINGS** page displays information about your Location and allows you to make configuration changes. You can also make changes to the Account by selecting **All locations** from the **Location** dropdown.
 
-## Location Name and ID(#location-name-and-id)
+## Location Name and ID {#location-name-and-id}
 
 Locations are displayed with:
 
@@ -48,7 +48,7 @@ If you operate in a country where including the Intra-Community VAT number is a 
 
 ---
 
-## Add a Location(#add-location)
+## Add a Location {#add-location}
 
 The first Location must be created with the Account. For more information, see [Create an Account](/docs/account#create-account).
 

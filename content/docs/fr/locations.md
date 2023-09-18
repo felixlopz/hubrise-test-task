@@ -12,7 +12,7 @@ Les points de vente désignent les différents lieux de vente d'un compte. Chaqu
 
 La page **CONFIGURATION** affiche des informations sur votre point de vente et vous permet d'effectuer des changements de paramètrage. Vous pouvez également apporter des modifications au compte en sélectionnant **Tous les points de vente** dans la liste déroulante **Point de vente**.
 
-## Nom et identifiant du point de vente(#location-name-and-id)
+## Nom et identifiant du point de vente {#location-name-and-id}
 
 Les points de vente sont affichés avec :
 
@@ -48,7 +48,7 @@ Dans le cas où vous exercez votre activité dans un pays où l'inclusion du num
 
 ---
 
-## Créer un point de vente(#add-location)
+## Créer un point de vente {#add-location}
 
 Le premier point de vente est créé en même temps que le compte. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/account#create-account).
 

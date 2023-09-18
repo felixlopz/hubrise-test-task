@@ -30,7 +30,7 @@ With this information in hand, we will ask the Deliveroo integration team to ena
 
 Alternatively, you can connect your store autonomously. For more information, see [Connect to HubRise From the Deliveroo Back Office](/apps/deliveroo/faqs/connect-from-deliveroo-back-office).
 
-## 2. Connect Deliveroo Bridge(#connect)
+## 2. Connect Deliveroo Bridge {#connect}
 
 To connect Deliveroo Bridge to HubRise, follow these steps.
 

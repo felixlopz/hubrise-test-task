@@ -29,7 +29,7 @@ Pour exporter manuellement le catalogue vers HubRise, suivez les étapes suivant
    ![Associer les codes ref - Envoyer le menu](./images/008-carre-pos-send-menu.png)
 1. Sur la ligne **HubRise**, sélectionnez votre menu, et cliquez sur **Envoyer**.
 
-## Produits(#products)
+## Produits {#products}
 
 Pour retrouver le code ref d'un produit, suivez les étapes suivantes :
 

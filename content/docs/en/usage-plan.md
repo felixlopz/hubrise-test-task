@@ -25,7 +25,7 @@ To view Usage details for an Account or Location:
 
 ---
 
-## Usage Plans(#plan)
+## Usage Plans {#plan}
 
 HubRise provides both free and paid plans for its services. For complete information on plans and pricing, see the [HubRise Price page](/pricing).
 
@@ -33,7 +33,7 @@ Free plans are available for Locations with a limited number of transactions a m
 
 During the test phase prior to launch, you can request a free plan with an extended quota of orders. Contact HubRise at support@hubrise.com.
 
-## Plan Notifications(#plan-notifications)
+## Plan Notifications {#plan-notifications}
 
 When there is an issue with a plan, Users with Admin permission to the Account or the related Location receive an email. A notification will also appear in the HubRise back office.
 

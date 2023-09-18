@@ -10,7 +10,7 @@ meta:
 
 Lorsque Nestor est connecté à HubRise, les commandes envoyées à HubRise arrivent automatiquement dans votre logiciel de caisse.
 
-## Recevoir des commandes(#receive-orders)
+## Recevoir des commandes {#receive-orders}
 
 Nestor vérifie l'arrivée de nouvelles commandes toutes les 20 secondes grâce à l'utilitaire WebNES. Une alerte visuelle et sonore signale l'arrivée d'une nouvelle commande.
 ![Commandes - Alerte commande web](./images/012-nestor-order-alert.png)
@@ -33,7 +33,7 @@ Lorsqu'une commande contient des articles dont le code ref n'est pas reconnu, ce
 
 Pour éviter que ce problème se reproduise, assurez-vous que les codes ref de vos produits ont bien été saisis. Pour plus d'informations, consultez la page [Associer les codes ref](/apps/nestor/map-ref-codes).
 
-### Articles avec des prix différents(#prices-differences)
+### Articles avec des prix différents {#prices-differences}
 
 Lorsqu'une commande contient des articles dont le prix ne correspond pas à celui de Nestor, une remise en pourcentage est appliquée automatiquement.
 

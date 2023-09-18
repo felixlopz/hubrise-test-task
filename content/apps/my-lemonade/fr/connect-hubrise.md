@@ -28,7 +28,7 @@ Pour connecter votre solution de commande en ligne My Lemonade à HubRise, suive
 
 En cas de besoin, l'éditeur de la solution My Lemonade peut vous venir en aide. Pour leur donner accès à votre compte HubRise, [ajoutez les permissions nécessaires](/apps/my-lemonade/connect-hubrise#give-access).
 
-## Donner accès au support de My Lemonade(#give-access)
+## Donner accès au support de My Lemonade {#give-access}
 
 Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution My Lemonade.
 

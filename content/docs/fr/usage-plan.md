@@ -25,7 +25,7 @@ Pour afficher les détails relatifs à l'utilisation d'un compte ou d'un point d
 
 ---
 
-## Formule d'utilisation(#plan)
+## Formule d'utilisation {#plan}
 
 HubRise propose des formules gratuites et payantes pour ses services. Pour obtenir des informations complètes sur les formules et la tarification, consultez la [page de tarifs de HubRise](/tarifs).
 
@@ -33,7 +33,7 @@ Des formules gratuites sont disponibles pour les points de vente effectuant un n
 
 Pendant la phase de test qui précède le lancement, vous pouvez demander à souscrire à une formule gratuite comportant un quota de commandes plus élevé. Contactez HubRise à l'adresse support@hubrise.com.
 
-## Notifications sur les formules(#plan-notifications)
+## Notifications sur les formules {#plan-notifications}
 
 En cas de problème rencontré avec une formule, les utilisateurs qui disposent d'une permission de niveau Administrateur pour le compte ou le point de vente concerné reçoivent un e-mail. Une notification apparaît également dans le back-office de HubRise.
 

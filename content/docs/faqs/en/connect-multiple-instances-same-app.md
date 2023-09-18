@@ -38,7 +38,7 @@ You will be able to distinguish the various instances by the device ID value you
 
 ![Multiple instances of the same app can be distinguished by the device ID value.](./images/067-multiple-apps-device-id.png)
 
-## Naming Rules(#naming-rules)
+## Naming Rules {#naming-rules}
 
 To help you identify your app instances, you can freely choose the device ID value during the initial setup.
 In `device_id=BrandName&`, BrandName can include any combination of the following characters:

@@ -14,7 +14,7 @@ LEO2 vérifie l'arrivée de nouvelles commandes toutes les 30 secondes. Si vous 
 
 ## Interface utilisateur
 
-### Voir la liste des commandes(#order-list)
+### Voir la liste des commandes {#order-list}
 
 Pour voir la liste des commandes, suivez les étapes suivantes :
 

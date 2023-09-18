@@ -12,7 +12,7 @@ The logs page on PixelPoint Bridge is divided into two parts: Request and Respon
 
 To understand the logs in PixelPoint Bridge, you need to know how to read XML files first.
 
-## An XML Primer(#xml-primer)
+## An XML Primer {#xml-primer}
 
 XML is a format to store and transfer information organised in nodes of key-value pairs with a hierarchical structure. Each piece of information is divided into:
 
@@ -72,7 +72,7 @@ The `Transaction` node and its subnodes are especially relevant to diagnose poss
 
 - `CustomRecFooter`: When the order is paid upon delivery, the `Payment` node is not created and the payment method name is encoded in this node.
 
-### Recognising Products and Options(#products-and-options)
+### Recognising Products and Options {#products-and-options}
 
 To tell the difference between an actual product and an optional change in a PixelPoint request, you need to check the value for `ParentId` and compare it with the `ItemId` of the product:
 

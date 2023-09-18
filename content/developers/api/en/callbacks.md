@@ -107,7 +107,7 @@ The client runs the following logic at regular intervals:
 
 The interval between calls should be no less than 30 seconds, otherwise the connection may reach its daily [API rate limit](/developers/api/general-concepts#rate-limiting) before the end of the day.
 
-## 1. Callbacks(#callbacks)
+## 1. Callbacks {#callbacks}
 
 A callback is specific to a connection. A connection can only have one callback.
 
@@ -193,9 +193,9 @@ HubRise will no longer trigger events or call the callback URL.
 
 <CallSummaryTable endpoint="DELETE /callback" accessLevel="location, account" />
 
-## 2. Events(#events)
+## 2. Events {#events}
 
-### 2.1. Retrieve Event(#retrieve-event)
+### 2.1. Retrieve Event {#retrieve-event}
 
 Returns an event by its id.
 
@@ -242,7 +242,7 @@ The state(s) of the resource included in the event depends on the resource and t
 
 When an event affects a catalog or an inventory, you will need to send a `GET` request to the HubRise API to retrieve the full state of the resource.
 
-### 2.2. List Events(#list-events)
+### 2.2. List Events {#list-events}
 
 Returns the events that have not been acknowledged (ie deleted).
 

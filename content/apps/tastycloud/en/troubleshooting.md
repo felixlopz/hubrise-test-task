@@ -33,6 +33,6 @@ You should view the test order transmitted to HubRise through the following step
 
 If the order is not visible, [check your connection with HubRise](/apps/tastycloud/connect-hubrise). If the order details are incorrect, [verify the Product Mapping](/apps/tastycloud/map-ref-codes). If none of this works, [contact TastyCloud support](#contact-support).
 
-## TastyCloud Support(#contact-support)
+## TastyCloud Support {#contact-support}
 
 The TastyCloud support team can be contacted at support@tastycloud.fr for issues with the configuration of the connection.

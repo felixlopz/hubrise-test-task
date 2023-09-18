@@ -10,7 +10,7 @@ meta:
 
 La section Données fournit des informations sur les commandes, les clients et les catalogues. Vous pouvez à tout moment sélectionner le compte et les points de vente à afficher.
 
-## Commandes(#orders)
+## Commandes {#orders}
 
 La page **COMMANDES** affiche les commandes dans l'ordre inverse de leur date de création. Pour chaque commande de la liste, vous pouvez voir les attributs suivants  :
 
@@ -35,7 +35,7 @@ Cliquez sur la date de la commande pour afficher les détails complets. Pour aff
 
 ---
 
-## Clients(#customers)
+## Clients {#customers}
 
 La page **CLIENTS** affiche les listes de clients définies pour le compte sélectionné. Les clients sont classés par ordre inverse de leur date de création.
 
@@ -57,7 +57,7 @@ Pour afficher les détails complets d'un client, cliquez sur le nom de celui-ci.
 
 Pour créer, modifier ou supprimer une liste de clients, voir [Listes de clients](/docs/customer-lists).
 
-## Catalogues(#catalogs)
+## Catalogues {#catalogs}
 
 À partir de la page **CATALOGUES**, vous pouvez afficher les catalogues présents dans HubRise et les logs des requêtes liées à chacun des catalogues.
 
@@ -92,7 +92,7 @@ Pour voir les logs complets de toutes les requêtes liées au catalogue, cliquez
 
 Pour créer, modifier ou supprimer un catalogue, voir [Catalogues](/docs/catalog).
 
-## Logs(#logs)
+## Logs {#logs}
 
 Chaque page de la section **DONNÉES** fournit des informations complémentaires à travers sa page de logs.
 

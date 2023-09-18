@@ -19,7 +19,7 @@ Il y a deux façons de procéder :
 
 Seules certaines applications permettent l'import d'un catalogue depuis HubRise. Pour les autres, il faudra saisir manuellement les codes ref.
 
-## Produits(#products)
+## Produits {#products}
 
 Pour retrouver le code ref d'un produit, suivez ces étapes :
 

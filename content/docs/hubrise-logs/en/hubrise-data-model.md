@@ -35,7 +35,7 @@ The following keys can appear in a HubRise order request.
 | `loyalty_operations` | The list of operations applied to the customer's loyalty card. Each object in the list specifies the number of points added or removed and the reason.                                             |
 | `charges`            | The list of additional charges applied to the order. Typical cases could be delivery charges, payment fees, taxes, etc.                                                                            |
 
-### The Item Object(#item-object)
+### The Item Object {#item-object}
 
 Each item object in the items list contains information about a product purchased by the customer. The following keys can appear in an order Item.
 
@@ -52,7 +52,7 @@ Each item object in the items list contains information about a product purchase
 | `points_earned` | The points earned by the customer with this product. They are counted in the loyalty_operations objects. |
 | `points_used`   | The points used by the customer with this product. They are counted in the loyalty_operations objects.   |
 
-### The Payment Object(#payment-object)
+### The Payment Object {#payment-object}
 
 The payments list contains the payment methods used by the customer. In typical cases, only one payment method is present per order. However, HubRise allows several payment methods simultaneously, for example when a customer pays an order partially with a gift card and partially online.
 

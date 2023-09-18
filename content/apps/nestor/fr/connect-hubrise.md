@@ -40,7 +40,7 @@ Pour établir la connexion entre un point de vente Nestor et HubRise :
 
 ---
 
-## Donner accès au support de Nestor(#give-access)
+## Donner accès au support de Nestor {#give-access}
 
 Pour faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à l'éditeur de la solution Nestor.
 
