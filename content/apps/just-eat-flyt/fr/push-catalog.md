@@ -73,7 +73,7 @@ Pour chaque objet `sku` contenu dans un produit, Just Eat Flyt Bridge envoie les
 - `description` : description du produit générique.
 - `price` : prix de la référence sku.
 - `option_list_refs` : liste des options rattachées à la référence sku.
-- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir la rubrique [Balises de produits](#balises-de-produits).
+- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir la rubrique [Balises de produits](#product-tags).
 - `image` : adresse URL de l'image du produit parent.
 
 Pour plus d'informations sur les références contenues dans les catalogues HubRise, voir la rubrique [Références SKU](/developers/api/catalog-management#skus) (en anglais).
@@ -84,7 +84,7 @@ Pour plus d'informations sur les références contenues dans les catalogues HubR
 
 ---
 
-### Balises de produits
+### Balises de produits(#product-tags)
 
 Le tableau ci-dessous énumère les balises qui peuvent être définies sur les produits.
 

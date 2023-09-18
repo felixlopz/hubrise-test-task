@@ -29,7 +29,7 @@ Une fois que votre catalogue a été alimenté dans HubRise, vous pouvez l'envoy
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Récupérer le catalogue HubRise**.
 1. Pour confirmer, cliquez sur **Oui**.
 
-Pour comprendre comment le catalogue HubRise est associé à Smood, consultez la rubrique [références techniques](#r-f-rences-techniques) ci-dessous.
+Pour comprendre comment le catalogue HubRise est associé à Smood, consultez la rubrique [références techniques](#technical-reference) ci-dessous.
 
 ### Recevoir le catalogue automatiquement
 
@@ -64,7 +64,7 @@ Pour mettre à jour manuellement votre inventaire Smood, suivez ces étapes :
 1. Cliquez sur l'onglet **Paramètres**, puis dans la section **Intégrations**, cliquez sur **Récupérer l'inventaire HubRise**.
 1. Pour confirmer, cliquez sur **Oui**.
 
-## Références techniques
+## Références techniques(#technical-reference)
 
 Les sections suivantes décrivent la manière dont les catalogues HubRise sont associés aux menus Smood.
 

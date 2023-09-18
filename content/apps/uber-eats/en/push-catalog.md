@@ -125,7 +125,7 @@ For every `sku` object in a product, Uber Eats Bridge sends the following inform
 
 For more information about skus in the HubRise catalog, see [Skus](/developers/api/catalog-management#skus).
 
-### Product Tags
+### Product Tags(#product-tags)
 
 The table below lists the tags that can be set on products.
 

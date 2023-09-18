@@ -44,7 +44,7 @@ Notifications in the HubRise back office can be displayed for any reason involvi
 - The credit card could not be processed after a couple of automated payment attempts. For safety reasons, your bank might require you to enter the 3-digit security code again.
 - The credit card has been saved in HubRise for payments but outstanding Requests for Payment have not been paid. For more information, see [Process Requests for Payment](/docs/payment#process-requests-for-payment).
 
-If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information on available plans, see [Usage Plans](#usage-plans).
+If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information on available plans, see [Usage Plans](#plan).
 
 ![Pay subscription](./images/022-2x-pay-subscription.png)
 
@@ -56,7 +56,7 @@ If a payment notification appears, click the link and follow the instructions to
 
 ## Change Plan
 
-You can change a Location plan when its usage increases or decreases. For more details, see [Usage Plans](#usage-plans).
+You can change a Location plan when its usage increases or decreases. For more details, see [Usage Plans](#plan).
 
 To change the plan of a Location, follow these steps:
 

@@ -10,7 +10,7 @@ meta:
 
 ## 1. Orders
 
-### 1.1. Create Order
+### 1.1. Create Order(#create-order)
 
 This method creates an order.
 
@@ -24,29 +24,29 @@ Almost all the fields are optional. In fact the simplest order that can be creat
 
 ##### Parameters:
 
-| Name                                                                  | Type                                                      | Description                                                                                                                                                            |
-| --------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ref` <Label type="optional" />                                       | string                                                    | Reference of the order on the app creating the order. Unicity is recommended but not enforced.                                                                         |
-| `private_ref` <Label type="optional" />                               | string                                                    | A private unique reference for the order. Used for order lookups if defined. See [Private Refs](/developers/api/general-concepts#private-refs).                        |
-| `status`                                                              | [OrderStatus](#order-status)                              | Current status of the order.                                                                                                                                           |
-| `service_type` <Label type="optional" />                              | string                                                    | Method of delivery/serving to the customer. Can be: `delivery`, `collection`, or `eat_in`.                                                                             |
-| `service_type_ref` <Label type="optional" />                          | string                                                    | Identifier for the order type. Can be used to identify the channel, brand, and delivery method.                                                                        |
-| `expected_time` <Label type="optional" />                             | [Time](/developers/api/general-concepts#dates-and-times) | Time the customer expects to receive the order.                                                                                                                        |
-| `confirmed_time` <Label type="optional" />                            | [Time](/developers/api/general-concepts#dates-and-times) | Confirmed time for the customer to receive the order.                                                                                                                  |
-| `customer_notes` <Label type="optional" />                            | string                                                    | Customer-provided instructions, such as allergies or special requests.                                                                                                 |
-| `seller_notes` <Label type="optional" />                              | string                                                    | Merchant-provided information, such as product substitution notices.                                                                                                   |
-| `collection_code` <Label type="optional" />                           | string                                                    | A short, customer-shared, order identifier for simplified collection or delivery. Does not have to be unique.                                                          |
-| `coupon_codes` <Label type="optional" />                              | string[]                                                  | Coupon codes applied to the order.                                                                                                                                     |
-| `items` <Label type="optional" />                                     | [OrderItem](#order-items)[]                               | Items included in the order.                                                                                                                                           |
-| `deals` <Label type="optional" />                                     | [OrderDeal](#order-deals)[]                               | Deals used in the order.                                                                                                                                               |
-| `discounts` <Label type="optional" />                                 | [OrderDiscount](#order-discounts)[]                       | Discounts applied to the order.                                                                                                                                        |
-| `charges` <Label type="optional" />                                   | [OrderCharge](#order-charges)[]                           | Additional charges incurred on the order.                                                                                                                              |
-| `payments` <Label type="optional" />                                  | [OrderPayment](#order-payments)[]                         | Payment methods used for the order.                                                                                                                                    |
-| `customer_id` <Label type="optional" />                               | string                                                    | ID of the customer placing the order. Cannot be used with `customer_list_id`, `customer_private_ref`, or `customer`. See [Order's Customer](#order-s-customer).        |
-| `customer_list_id` & `customer_private_ref` <Label type="optional" /> | string                                                    | Customer list and private reference for the customer placing the order. Cannot be used with `customer_id` or `customer`. See [Order's Customer](#order-s-customer).    |
-| `customer` <Label type="optional" />                                  | [Customer](#order-s-customer)                             | Details specific to a guest order, used when `customer_id`, `customer_list_id`, or `customer_private_ref` are not provided. See [Order's Customer](#order-s-customer). |
-| `loyalty_operations` <Label type="optional" />                        | [OrderLoyaltyOperation](#order-loyalty-operations)[]      | Operations to add or remove points from customer loyalty cards. Only for customer-linked orders.                                                                       |
-| `custom_fields` <Label type="optional" />                             | [CustomFields](/developers/api/extensions#custom-fields) | Additional data attached to the order.                                                                                                                                 |
+| Name                                                                  | Type                                                     | Description                                                                                                                                                    |
+| --------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ref` <Label type="optional" />                                       | string                                                   | Reference of the order on the app creating the order. Unicity is recommended but not enforced.                                                                 |
+| `private_ref` <Label type="optional" />                               | string                                                   | A private unique reference for the order. Used for order lookups if defined. See [Private Refs](/developers/api/general-concepts#private-refs).                |
+| `status`                                                              | [OrderStatus](#status)                                   | Current status of the order.                                                                                                                                   |
+| `service_type` <Label type="optional" />                              | string                                                   | Method of delivery/serving to the customer. Can be: `delivery`, `collection`, or `eat_in`.                                                                     |
+| `service_type_ref` <Label type="optional" />                          | string                                                   | Identifier for the order type. Can be used to identify the channel, brand, and delivery method.                                                                |
+| `expected_time` <Label type="optional" />                             | [Time](/developers/api/general-concepts#dates-and-times) | Time the customer expects to receive the order.                                                                                                                |
+| `confirmed_time` <Label type="optional" />                            | [Time](/developers/api/general-concepts#dates-and-times) | Confirmed time for the customer to receive the order.                                                                                                          |
+| `customer_notes` <Label type="optional" />                            | string                                                   | Customer-provided instructions, such as allergies or special requests.                                                                                         |
+| `seller_notes` <Label type="optional" />                              | string                                                   | Merchant-provided information, such as product substitution notices.                                                                                           |
+| `collection_code` <Label type="optional" />                           | string                                                   | A short, customer-shared, order identifier for simplified collection or delivery. Does not have to be unique.                                                  |
+| `coupon_codes` <Label type="optional" />                              | string[]                                                 | Coupon codes applied to the order.                                                                                                                             |
+| `items` <Label type="optional" />                                     | [OrderItem](#items)[]                                    | Items included in the order.                                                                                                                                   |
+| `deals` <Label type="optional" />                                     | [OrderDeal](#deals)[]                                    | Deals used in the order.                                                                                                                                       |
+| `discounts` <Label type="optional" />                                 | [OrderDiscount](#discounts)[]                            | Discounts applied to the order.                                                                                                                                |
+| `charges` <Label type="optional" />                                   | [OrderCharge](#charges)[]                                | Additional charges incurred on the order.                                                                                                                      |
+| `payments` <Label type="optional" />                                  | [OrderPayment](#payments)[]                              | Payment methods used for the order.                                                                                                                            |
+| `customer_id` <Label type="optional" />                               | string                                                   | ID of the customer placing the order. Cannot be used with `customer_list_id`, `customer_private_ref`, or `customer`. See [Order's Customer](#customer).        |
+| `customer_list_id` & `customer_private_ref` <Label type="optional" /> | string                                                   | Customer list and private reference for the customer placing the order. Cannot be used with `customer_id` or `customer`. See [Order's Customer](#customer).    |
+| `customer` <Label type="optional" />                                  | [Customer](#customer)                                    | Details specific to a guest order, used when `customer_id`, `customer_list_id`, or `customer_private_ref` are not provided. See [Order's Customer](#customer). |
+| `loyalty_operations` <Label type="optional" />                        | [OrderLoyaltyOperation](#loyalty-operations)[]           | Operations to add or remove points from customer loyalty cards. Only for customer-linked orders.                                                               |
+| `custom_fields` <Label type="optional" />                             | [CustomFields](/developers/api/extensions#custom-fields) | Additional data attached to the order.                                                                                                                         |
 
 <details>
 
@@ -161,15 +161,15 @@ Returns an order resource.
 
 All the fields of an order creation request are returned, plus a few more:
 
-| Name          | Type                                                       | Description                                                                  |
-| ------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ...           |                                                            | See the [order creation fields](#create-order).                              |
-| `id`          | string                                                     | Unique id of the order, generated by HubRise.                                |
-| `location_id` | string                                                     | The id of the location where the order was created.                          |
+| Name          | Type                                                      | Description                                                                  |
+| ------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ...           |                                                           | See the [order creation fields](#create-order).                              |
+| `id`          | string                                                    | Unique id of the order, generated by HubRise.                                |
+| `location_id` | string                                                    | The id of the location where the order was created.                          |
 | `created_at`  | [Time](/developers/api/general-concepts#dates-and-times)  | Order creation time.                                                         |
-| `created_by`  | string                                                     | Name of the API client that created the order.                               |
+| `created_by`  | string                                                    | Name of the API client that created the order.                               |
 | `total`       | [Money](/developers/api/general-concepts#monetary-values) | Order total amount. Calculated by HubRise from items, charges and discounts. |
-| `customer`    | [Customer](#order-s-customer)                              | Customer details at the time of the order creation.                          |
+| `customer`    | [Customer](#customer)                                     | Customer details at the time of the order creation.                          |
 
 **Note:** `total_discrepancy` and `payment_discrepancy` fields are also returned, but these fields are deprecated and their values should not be used.
 
@@ -357,13 +357,13 @@ Orders of any location of the account:
 
 ##### Parameters:
 
-| Name            | Type                                                      | Description                                                                                                                                                                                         |
-| --------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `private_ref`   | string                                                    | Filters orders by `private_ref`, for instance: `private_ref=13456`.                                                                                                                                 |
-| `status`        | string                                                    | Filters orders by `status`, for instance: `status=accepted`.                                                                                                                                        |
-| `created_by`    | string                                                    | Filters orders by client name. For instance, `created_by=shopify` only returns the orders placed through this client.                                                                               |
+| Name            | Type                                                     | Description                                                                                                                                                                                         |
+| --------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `private_ref`   | string                                                   | Filters orders by `private_ref`, for instance: `private_ref=13456`.                                                                                                                                 |
+| `status`        | string                                                   | Filters orders by `status`, for instance: `status=accepted`.                                                                                                                                        |
+| `created_by`    | string                                                   | Filters orders by client name. For instance, `created_by=shopify` only returns the orders placed through this client.                                                                               |
 | `after, before` | [Time](/developers/api/general-concepts#dates-and-times) | Filters orders by creation time. `after` is inclusive, `before` is exclusive. For instance, `after=2020-07-01T00:00:00+02:00&before=2020-07-02T00:00:00+02:00` returns orders placed on 2020-07-01. |
-| `customer_id`   | string                                                    | Returns the orders placed by a customer, for instance: `customer_id=ve343`.                                                                                                                         |
+| `customer_id`   | string                                                   | Returns the orders placed by a customer, for instance: `customer_id=ve343`.                                                                                                                         |
 
 <details>
 
@@ -397,7 +397,7 @@ Orders of any location of the account:
 
 </details>
 
-### 1.4. Update Order
+### 1.4. Update Order(#update-order)
 
 Updates an order.
 
@@ -626,7 +626,7 @@ This request sets a private ref on an item.
 
 </details>
 
-## 2. Order's Customer(#order-s-customer)
+## 2. Order's Customer(#customer)
 
 When you create an order, you can attach a customer to it. You usually want to do this, unless no customer identifier is available. An order with no attached customer is called a **guest order**.
 
@@ -705,7 +705,7 @@ The following fields are available in the `customer` object:
 
 When you retrieve a guest order, the customer fields passed at creation time are returned in the `customer` object, along with a few fields computed by HubRise.
 
-## 3. Order Status(#order-status)
+## 3. Order Status(#status)
 
 The status of an order. Used in the order's `status` field.
 
@@ -745,23 +745,23 @@ Orders do not have to go through all steps. The sequence actually depends on the
 1. `accepted` (order placed in the POS)
 1. `completed`
 
-## 4. Order Items
+## 4. Order Items(#items)
 
-| Name                                       | Type                                                        | Description                                                                                                                                                                                 |
-| ------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `private_ref` <Label type="optional" />    | string                                                      | An optional private reference for the item. See [Private Refs](/developers/api/general-concepts#private-refs).                                                                              |
-| `product_name`                             | string                                                      | The product name.                                                                                                                                                                           |
-| `sku_name` <Label type="optional" />       | string                                                      | The sku name. Typically the product size or color.                                                                                                                                          |
-| `sku_ref` <Label type="optional" />        | string                                                      | The ref of the sku.                                                                                                                                                                         |
+| Name                                       | Type                                                       | Description                                                                                                                                                                                 |
+| ------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `private_ref` <Label type="optional" />    | string                                                     | An optional private reference for the item. See [Private Refs](/developers/api/general-concepts#private-refs).                                                                              |
+| `product_name`                             | string                                                     | The product name.                                                                                                                                                                           |
+| `sku_name` <Label type="optional" />       | string                                                     | The sku name. Typically the product size or color.                                                                                                                                          |
+| `sku_ref` <Label type="optional" />        | string                                                     | The ref of the sku.                                                                                                                                                                         |
 | `price`                                    | [Money](/developers/api/general-concepts#monetary-values)  | The unit price of the sku, without the cost of options.                                                                                                                                     |
 | `quantity`                                 | [decimal](/developers/api/general-concepts#decimal-values) | The quantity of items ordered.                                                                                                                                                              |
 | `subtotal` <Label type="optional" />       | [Money](/developers/api/general-concepts#monetary-values)  | Calculated by HubRise. It is the sum of the price of the item and its options, multiplied by the quantity.                                                                                  |
 | `tax_rate` <Label type="optional" />       | [decimal](/developers/api/general-concepts#decimal-values) | The tax rate applied to the item. See [Tax Rates](#tax-rates).                                                                                                                              |
-| `customer_notes` <Label type="optional" /> | string                                                      | Information provided by the customer about the preparation of the item.                                                                                                                     |
+| `customer_notes` <Label type="optional" /> | string                                                     | Information provided by the customer about the preparation of the item.                                                                                                                     |
 | `points_earned` <Label type="optional" />  | [decimal](/developers/api/general-concepts#decimal-values) | Loyalty points earned by the customer. This field is not linked to a particular loyalty card: a loyalty operation must be included in the order to effectively add/remove points to a card. |
 | `points_used` <Label type="optional" />    | [decimal](/developers/api/general-concepts#decimal-values) | Loyalty points used by the customer. Same remark as above.                                                                                                                                  |
-| `options` <Label type="optional" />        | [OrderOption](#order-options)[]                             | Item customization.                                                                                                                                                                         |
-| `deleted` <Label type="optional" />        | boolean                                                     | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                                                                                                |
+| `options` <Label type="optional" />        | [OrderOption](#options)[]                                  | Item customization.                                                                                                                                                                         |
+| `deleted` <Label type="optional" />        | boolean                                                    | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                                                                                                |
 
 ##### Example:
 
@@ -788,31 +788,31 @@ Orders do not have to go through all steps. The sequence actually depends on the
 }
 ```
 
-## 5. Order Items in a Deal
+## 5. Order Items in a Deal(#items-in-deal)
 
 Order items which are part of a deal include a `deal_line` field. This field is an object with the following fields:
 
-| Name                                       | Type    | Description                                                                                                                                                                                                                                                                                                   |
-| ------------------------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `deal_key`                                 | string  | A key in the order's `deals` object.                                                                                                                                                                                                                                                                          |
-| `label` <Label type="optional" />          | string  | Content of the deal line, for instance "Drink".                                                                                                                                                                                                                                                               |
-| `pricing_effect` <Label type="optional" /> | string  | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                                                            |
+| Name                                       | Type    | Description                                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------ | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `deal_key`                                 | string  | A key in the order's `deals` object.                                                                                                                                                                                                                                                                        |
+| `label` <Label type="optional" />          | string  | Content of the deal line, for instance "Drink".                                                                                                                                                                                                                                                             |
+| `pricing_effect` <Label type="optional" /> | string  | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                                                          |
 | `pricing_value` <Label type="optional" />  | depends | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts#monetary-values) for `fixed_price` and `price_off`, a [decimal](/developers/api/general-concepts#decimal-values) between "0" and "100" for `percentage_off`, and `null` for `unchanged`. |
 
 `deal_key` associates an order item to a particular order deal. The particular value of a key has no significance and HubRise renumbers the keys to: "0", "1", … When an order is created, every `deal_key` must have a corresponding entry in the order's `deals` field or the request will fail.
 
 `pricing_effect` and `pricing_value` can be useful in some applications but can generally be omitted. HubRise does not make any computation with these fields.
 
-## 6. Order Options
+## 6. Order Options(#options)
 
-| Name                                 | Type                                                       | Description                                                                                   |
-| ------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| `option_list_name`                   | string                                                     | The name of the list the option belongs to, eg. "Toppings", "Sauce", etc.                     |
-| `name`                               | string                                                     | The option name.                                                                              |
-| `ref` <Label type="optional" />      | string                                                     | The optional ref of the option.                                                               |
+| Name                                 | Type                                                      | Description                                                                                   |
+| ------------------------------------ | --------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `option_list_name`                   | string                                                    | The name of the list the option belongs to, eg. "Toppings", "Sauce", etc.                     |
+| `name`                               | string                                                    | The option name.                                                                              |
+| `ref` <Label type="optional" />      | string                                                    | The optional ref of the option.                                                               |
 | `price` <Label type="optional" />    | [Money](/developers/api/general-concepts#monetary-values) | The unit price of the option. If omitted the option is free.                                  |
-| `quantity` <Label type="optional" /> | integer                                                    | The number of selections for this option, relative to a single item unit. Default: `1`.       |
-| `removed` <Label type="optional" />  | boolean                                                    | When this flag is true, the option is removed (for instance, a removed ingredient in a dish). |
+| `quantity` <Label type="optional" /> | integer                                                   | The number of selections for this option, relative to a single item unit. Default: `1`.       |
+| `removed` <Label type="optional" />  | boolean                                                   | When this flag is true, the option is removed (for instance, a removed ingredient in a dish). |
 
 ##### Example:
 
@@ -828,7 +828,7 @@ Order items which are part of a deal include a `deal_line` field. This field is 
 
 A removed option can define a `price`. In this case, it's the price charged to the customer to remove the option.
 
-## 7. Order Deals
+## 7. Order Deals(#deals)
 
 An order deal associates an order item's `deal_key` to a particular deal.
 
@@ -850,19 +850,19 @@ An order deal associates an order item's `deal_key` to a particular deal.
 }
 ```
 
-## 8. Order Discounts
+## 8. Order Discounts(#discounts)
 
 An order discount is a discount applied to the whole order, as opposed to deals which apply to a set of order items.
 
 ##### Attributes:
 
-| Name                                    | Type                                                       | Description                                                                                                        |
-| --------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `private_ref` <Label type="optional" /> | string                                                     | An optional private reference for the discount. See [Private Refs](/developers/api/general-concepts#private-refs). |
-| `name`                                  | string                                                     | The name of the discount.                                                                                          |
-| `ref` <Label type="optional" />         | string                                                     | The ref that identifies the discount.                                                                              |
+| Name                                    | Type                                                      | Description                                                                                                        |
+| --------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `private_ref` <Label type="optional" /> | string                                                    | An optional private reference for the discount. See [Private Refs](/developers/api/general-concepts#private-refs). |
+| `name`                                  | string                                                    | The name of the discount.                                                                                          |
+| `ref` <Label type="optional" />         | string                                                    | The ref that identifies the discount.                                                                              |
 | `price_off`                             | [Money](/developers/api/general-concepts#monetary-values) | The discount value.                                                                                                |
-| `deleted` <Label type="optional" />     | boolean                                                    | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                       |
+| `deleted` <Label type="optional" />     | boolean                                                   | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                       |
 
 **Note:** the `pricing_effect` and `pricing_value` fields are deprecated. They are still present in the API output for backwards compatibility, but their values should be ignored.
 
@@ -883,20 +883,20 @@ An order discount is a discount applied to the whole order, as opposed to deals 
 ]
 ```
 
-## 9. Order Charges
+## 9. Order Charges(#charges)
 
 Order charges increase the price paid by the customer.
 
 ##### Attributes:
 
-| Name                                    | Type                                                        | Description                                                                                                      |
-| --------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `private_ref` <Label type="optional" /> | string                                                      | An optional private reference for the charge. See [Private Refs](/developers/api/general-concepts#private-refs). |
-| `name`                                  | string                                                      | The name of the charge.                                                                                          |
-| `ref` <Label type="optional" />         | string                                                      | The ref that identifies the charge.                                                                              |
+| Name                                    | Type                                                       | Description                                                                                                      |
+| --------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `private_ref` <Label type="optional" /> | string                                                     | An optional private reference for the charge. See [Private Refs](/developers/api/general-concepts#private-refs). |
+| `name`                                  | string                                                     | The name of the charge.                                                                                          |
+| `ref` <Label type="optional" />         | string                                                     | The ref that identifies the charge.                                                                              |
 | `price`                                 | [Money](/developers/api/general-concepts#monetary-values)  | The charge amount.                                                                                               |
 | `tax_rate` <Label type="optional" />    | [decimal](/developers/api/general-concepts#decimal-values) | The tax rate applied to the charge. See [Tax Rates](#tax-rates).                                                 |
-| `deleted` <Label type="optional" />     | boolean                                                     | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                     |
+| `deleted` <Label type="optional" />     | boolean                                                    | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                     |
 
 **Note:** the `charge_type`, `charge_price` and `charge_ref` fields are deprecated. They are present in the API for backwards compatibility, but their values should be ignored.
 
@@ -914,7 +914,7 @@ Order charges increase the price paid by the customer.
 ]
 ```
 
-## 10. Order Payments
+## 10. Order Payments(#payments)
 
 If one or several payments are defined, the sum of the payment amounts should equal the order's `total`. Otherwise, the difference is stored in the order's `payment_discrepancy` field.
 
@@ -922,14 +922,14 @@ If payments are omitted, the order should be considered as unpaid.
 
 ##### Attributes:
 
-| Name                                    | Type                                                       | Description                                                                                                           |
-| --------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `private_ref` <Label type="optional" /> | string                                                     | An optional private reference for the discount. See [Private Refs](/developers/api/general-concepts#private-refs).    |
-| `name` <Label type="optional" />        | string                                                     | The name of the payment method.                                                                                       |
-| `ref` <Label type="optional" />         | string                                                     | Identifies the payment method.                                                                                        |
+| Name                                    | Type                                                      | Description                                                                                                           |
+| --------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `private_ref` <Label type="optional" /> | string                                                    | An optional private reference for the discount. See [Private Refs](/developers/api/general-concepts#private-refs).    |
+| `name` <Label type="optional" />        | string                                                    | The name of the payment method.                                                                                       |
+| `ref` <Label type="optional" />         | string                                                    | Identifies the payment method.                                                                                        |
 | `amount`                                | [Money](/developers/api/general-concepts#monetary-values) | Amount paid with this payment method.                                                                                 |
-| `info` <Label type="optional" />        | object                                                     | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method. |
-| `deleted` <Label type="optional" />     | boolean                                                    | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                          |
+| `info` <Label type="optional" />        | object                                                    | Additional info on the payment: transaction id, etc. The content is free and typically depends on the payment method. |
+| `deleted` <Label type="optional" />     | boolean                                                   | `false` by default. Setting this field to `true` marks the resource as irreversibly deleted.                          |
 
 **Note:** the `type` field is deprecated and should be ignored in new integrations.
 
@@ -956,7 +956,7 @@ If payments are omitted, the order should be considered as unpaid.
 ]
 ```
 
-## 11. Order Loyalty Operations
+## 11. Order Loyalty Operations(#loyalty-operations)
 
 Add or remove points to a customer's loyalty card(s).
 
@@ -966,11 +966,11 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 
 ##### Attributes:
 
-| Name                               | Type                                                        | Description                                                                              |
-| ---------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `ref` <Label type="optional" />    | string                                                      | The loyalty card unique ref. Defaults to `null` if omitted.                              |
+| Name                               | Type                                                       | Description                                                                              |
+| ---------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `ref` <Label type="optional" />    | string                                                     | The loyalty card unique ref. Defaults to `null` if omitted.                              |
 | `delta`                            | [decimal](/developers/api/general-concepts#decimal-values) | The number of points to add to the card balance. Use a negative number to remove points. |
-| `reason` <Label type="optional" /> | string                                                      | Additional information on the operation.                                                 |
+| `reason` <Label type="optional" /> | string                                                     | Additional information on the operation.                                                 |
 
 ##### Example:
 
@@ -989,7 +989,7 @@ Each loyalty operation triggers the automatic recalculation of the loyalty card 
 ]
 ```
 
-## 12. Tax Rates
+## 12. Tax Rates(#tax-rates)
 
 A `tax_rate` can be specified for each order item and order charge.
 

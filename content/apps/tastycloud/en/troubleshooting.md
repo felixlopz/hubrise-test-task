@@ -31,8 +31,8 @@ You should view the test order transmitted to HubRise through the following step
 1. Click the new Order to verify the customer and order information is accurate.
 1. The **Logs** section will contain the detailed JSON records of the communication between TastyCloud and HubRise. For more information on how to read these logs, see [Understanding Logs in HubRise](/docs/hubrise-logs).
 
-If the order is not visible, [check your connection with HubRise](/apps/tastycloud/connect-hubrise). If the order details are incorrect, [verify the Product Mapping](/apps/tastycloud/map-ref-codes/). If none of this works, [contact TastyCloud support](#tastycloud-support).
+If the order is not visible, [check your connection with HubRise](/apps/tastycloud/connect-hubrise). If the order details are incorrect, [verify the Product Mapping](/apps/tastycloud/map-ref-codes/). If none of this works, [contact TastyCloud support](#contact-support).
 
-## TastyCloud Support
+## TastyCloud Support(#contact-support)
 
 The TastyCloud support team can be contacted at support@tastycloud.fr for issues with the configuration of the connection.

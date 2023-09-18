@@ -113,7 +113,7 @@ Les produits ont une ou plusieurs skus. Pour chaque produit avec plusieurs skus,
 - `name` : le nom du produit.
 - `description` : la description du produit.
 - `price` : le prix minimum de tous les SKUs.
-- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir [Tags produit](#tags-produit).
+- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir [Tags produit](#product-tags).
 - `image` : adresse URL de la photo du produit.
 
 La liste des skus est jointe au produit sous la forme d'une table de modification.
@@ -127,7 +127,7 @@ Pour chaque `sku` d'un produit, Deliveroo Bridge envoie les informations suivant
 
 Pour plus d'informations sur les skus dans les catalogues HubRise, voir [Skus](/developers/api/catalog-management#skus) (en anglais).
 
-### Tags produit
+### Tags produit(#product-tags)
 
 Le tableau ci-dessous énumère les balises qui peuvent être définies sur les produits.
 

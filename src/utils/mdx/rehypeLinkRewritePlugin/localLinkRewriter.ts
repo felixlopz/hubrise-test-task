@@ -94,17 +94,9 @@ export class LocalLinkRewriter {
     }
 
     // Find anchor
-    let headerLink = headerLinks.find((link) => link.customId === anchor)
+    const headerLink = headerLinks.find((link) => link.customId === anchor)
     if (!headerLink) {
-      headerLink = headerLinks.find((link) => link.generatedId === anchor)
-      if (route && "params" in route && "contentDirName" in route.params) {
-        console.error(
-          `NON_CUSTOM ${route.params.contentDirName}/${route.language}/${route.params.basename}.md - ${route.href} - ${anchor}`,
-        )
-      }
-    }
-    if (!headerLink) {
-      const anchors = headerLinks.map((link) => link.customId || link.generatedId)
+      const anchors = headerLinks.map((link) => link.customId).filter(Boolean)
       throw new Error(
         `${this.pageHref}: anchor "${anchor}" does not exist in ${route?.href || this.pageHref}.\n` +
           `Available anchors: ${anchors.join(", ")}`,

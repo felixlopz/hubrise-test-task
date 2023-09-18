@@ -21,10 +21,10 @@ Seule l'équipe de support de Arcsoft, éditeur de MiiPos, peut connecter votre 
 Pour connecter MiiPos à HubRise, procédez comme suit :
 
 1. Créez un compte HubRise. Pour plus d'informations, consultez notre [Guide de démarrage](/docs/comment-demarrer).
-1. Donnez accès à votre compte à l'équipe support de MiiPos. Pour plus d'informations, voir [Donner accès au support de MiiPos](#donner-acc-s-au-support-de-miipos).
-1. Contactez l'équipe de support de MiiPos qui se chargera d'établir la connexion à HubRise. Pour plus d'informations, voir [Contacter le support de MiiPos](#contacter-le-support-de-miipos).
+1. Donnez accès à votre compte à l'équipe support de MiiPos. Pour plus d'informations, voir [Donner accès au support de MiiPos](#give-access).
+1. Contactez l'équipe de support de MiiPos qui se chargera d'établir la connexion à HubRise. Pour plus d'informations, voir [Contacter le support de MiiPos](#contact).
 
-## Donner accès au support de MiiPos
+## Donner accès au support de MiiPos(#give-access)
 
 Pour connecter MiiPos, et faciliter la prise en charge de vos demandes de support, nous vous recommandons de donner accès à votre compte HubRise à Arcsolu, éditeur de la caisse MiiPos.
 
@@ -36,7 +36,7 @@ Pour donner accès à MiiPos, procédez comme suit :
 
 L'ajout d'un utilisateur est le moyen recommandé de donner l'autorisation d'accès à un tiers à votre compte, ou à votre point de vente HubRise. Le partage de mot de passe est déconseillé pour des raisons de sécurité.
 
-## Contacter le support de MiiPos
+## Contacter le support de MiiPos(#contact)
 
 Pour demander la connexion de votre caisse MiiPos à HubRise, contactez l'équipe de support de MiiPos par email sur contact@arcsolu.com. Vous pouvez inclure support@hubrise.com en copie pour un suivi coordonné entre nos deux équipes.
 

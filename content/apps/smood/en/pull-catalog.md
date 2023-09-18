@@ -64,7 +64,7 @@ To manually update your Smood inventory, follow these steps:
 1. Click the **Settings** tab, then in the **Integrations** section, click **Pull HubRise inventory**.
 1. To confirm, click **Yes**.
 
-## Technical Reference
+## Technical Reference(#technical-reference)
 
 The following sections describe how HubRise catalogs are mapped to Smood.
 

@@ -24,7 +24,7 @@ Les points de vente sont affichés avec :
 
 ---
 
-**REMARQUE IMPORTANTE** : pour connaître la convention de dénomination recommandée pour les points de vente, voir la rubrique [Créer un point de vente](/docs/points-de-vente#add-a-location).
+**REMARQUE IMPORTANTE** : pour connaître la convention de dénomination recommandée pour les points de vente, voir la rubrique [Créer un point de vente](/docs/points-de-vente#add-location).
 
 ---
 
@@ -48,7 +48,7 @@ Dans le cas où vous exercez votre activité dans un pays où l'inclusion du num
 
 ---
 
-## Créer un point de vente(#add-a-location)
+## Créer un point de vente(#add-location)
 
 Le premier point de vente est créé en même temps que le compte. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/comptes#create-account).
 

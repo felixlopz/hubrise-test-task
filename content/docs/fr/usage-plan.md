@@ -44,7 +44,7 @@ Des notifications peuvent être affichées dans le back-office de HubRise pour t
 - Le traitement de la carte de crédit a échoué après plusieurs tentatives de paiement automatisé. Pour des raisons de sécurité, il se peut que votre banque vous demande de saisir à nouveau le code de sécurité à 3 chiffres.
 - La carte de crédit a été enregistrée pour les paiements dans HubRise mais les demandes de paiement en cours n'ont pas été réglées. Pour plus d'informations, voir la rubrique [Traiter les demandes de paiement](/docs/paiement#process-requests-for-payment).
 
-Si une notification de paiement apparaît, cliquez sur le lien correspondant et suivez les instructions afin de résoudre le problème. Pour plus d'informations concernant les formules disponibles, voir la rubrique [Formule d'utilisation](#formule-d-utilisation).
+Si une notification de paiement apparaît, cliquez sur le lien correspondant et suivez les instructions afin de résoudre le problème. Pour plus d'informations concernant les formules disponibles, voir la rubrique [Formule d'utilisation](#plan).
 
 ![Payer un abonnement](./images/022-2x-pay-subscription.png)
 
@@ -56,7 +56,7 @@ Si une notification de paiement apparaît, cliquez sur le lien correspondant et 
 
 ## Changer de formule
 
-Vous pouvez modifier la formule d'un point de vente lorsque son utilisation augmente ou diminue. Pour plus de détails, voir la rubrique [Formule d'utilisation](#formule-d-utilisation).
+Vous pouvez modifier la formule d'un point de vente lorsque son utilisation augmente ou diminue. Pour plus de détails, voir la rubrique [Formule d'utilisation](#plan).
 
 Pour modifier la formule d'un point de vente, procédez comme suit :
 

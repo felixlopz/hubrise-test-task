@@ -49,7 +49,7 @@ The following fonts may be used when contributing to the HubRise website documen
 - Ubuntu Mono – Can be used for code.
 - Exo 2 – This one is a custom font, good option to emphasise identity. Could be used for titles.
 
-## Colours
+## Colours(#colours)
 
 Should you want to use colours in your diagrams, these are the colours that should be used.
 

@@ -103,7 +103,7 @@ For more information about skus in the HubRise catalog, see the [Skus](/develope
 
 ---
 
-### Product Tags
+### Product Tags(#product-tags)
 
 The table below lists the tags that can be set on products.
 

@@ -45,7 +45,7 @@ To update your password:
 
 ![HubRise Change password](./images/055-2x-change-password.png)
 
-## Logout From All Devices
+## Logout From All Devices(#logout-from-all-devices)
 
 If your HubRise account is logged in on multiple devices, you can log out from all of them at once. This is useful if you have lost a device, or if you want to prevent someone else from accessing your account.
 

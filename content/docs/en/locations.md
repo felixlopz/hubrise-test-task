@@ -24,7 +24,7 @@ For example, `Baker Street z6q31-0` indicates the Location name of `Baker Street
 
 ---
 
-**IMPORTANT NOTE**: To check our recommended naming convention for Locations, see [Add a Location](/docs/locations#add-a-location).
+**IMPORTANT NOTE**: To check our recommended naming convention for Locations, see [Add a Location](/docs/locations#add-location).
 
 ---
 
@@ -48,7 +48,7 @@ If you operate in a country where including the Intra-Community VAT number is a 
 
 ---
 
-## Add a Location(#add-a-location)
+## Add a Location(#add-location)
 
 The first Location must be created with the Account. For more information, see [Create an Account](/docs/account#create-account).
 

@@ -53,7 +53,7 @@ Billing Cycles are a month in duration, and start on the same calendar day the A
 
 For example, if you open your HubRise Account on March 17, you will be billed on the 17th day of each month. The billing cycle of each Location will match.
 
-## Edit Billing Information
+## Update Billing Information(#update-billing-information)
 
 Billing information included in invoices can be configured at the Account and Location levels.
 
@@ -107,7 +107,7 @@ When you change your plan, the payment must be authorised before the credit card
 To process a Request for Payment from the notification:
 
 1. Connect to your HubRise back office.
-1. In the **SETTINGS** page, check that a credit card is saved to your account or location. If not, see the instructions in [Add a Payment Method](#add-a-payment-method).
+1. In the **SETTINGS** page, check that a credit card is saved to your account or location. If not, see the instructions in [Add a Payment Method](#add-payment-method).
 1. Click **pay it online or download the PDF**, then click **Pay**.
 1. To check on all Requests for Payment, go to **SETTINGS**.
 

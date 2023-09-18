@@ -38,7 +38,7 @@ Don't use gender-specific pronouns unless the person you're referring to is actu
 
 In particular, don't use **he**, **him**, **his**, **she**, or **her** as gender-neutral pronouns, and don't use **he/she** or **(s)he** or other such punctuational approaches.
 
-## Capitalisation
+## Capitalisation(#capitalisation)
 
 If it is an official title or name, something that can be or is trademarked or copyrighted, or the name of something that is unique in the universe, capitalise it. Otherwise, do not.
 
@@ -67,7 +67,7 @@ The first letter following a colon should always be capitalised.
 
 > Right: Defined locations as follows: The Account name followed by the city.
 
-### Commas
+### Commas(#commas)
 
 If you have a list of three or more items, add a comma before the last item. For instance: I'd like to order a focaccia, a margherita, and a tiramisu. In this list of three items, the comma after the second item is the Oxford or serial comma.
 
@@ -134,7 +134,7 @@ Do not attach the cross-reference directly to a word in the text. Rather, use a 
 
 ---
 
-**IMPORTANT**: This is different from UI menu representation, which uses the greater than sign (**>**) to indicate a sub-level. For more information on UI menu representation, see [Menus](#menus).
+**IMPORTANT**: This is different from UI menu representation, which uses the greater than sign (**>**) to indicate a sub-level. For more information on UI menu representation, see ...
 
 ---
 
@@ -227,7 +227,7 @@ Adjectives shall be used with thrift. Keep in mind that the tone is neither comm
 
 ## Bold
 
-Bold is also used for UI references. For example: Select **CONNECTIONS** from the HubRise menu. For more information on UI menu representation, see [Menus](#menus).
+Bold is also used for UI references. For example: Select **CONNECTIONS** from the HubRise menu. For more information on UI menu representation, see ...
 
 When you need to **emphasise** a important word, expression, or sentence, you can also use bold without over doing it.
 
@@ -249,7 +249,7 @@ Do not use contractions. For instance, write **do not** instead of **don't**.
 
 You may use italics for tech terms except code. Do not use it to identify examples, make a sentence instead.
 
-## Notices
+## Notices(#notices)
 
 Notices give important or useful information that is not necessarily part of the flow of the text. Notices can inlude Important Notes and Frequently Asked Questions.
 
@@ -273,7 +273,7 @@ If you foresee an issue that may form part of the Frequently Asked Questions, th
 
 The following styles are used to specify how User Interfaces are described.
 
-### Menus
+### Menus(#menus)
 
 Menus are described in the order they are selected. They are presented in bold with a greater than sign separating each step. If a user is to select File, then Save, this would be displayed as: **File** > **Save**
 

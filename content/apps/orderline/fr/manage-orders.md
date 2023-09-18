@@ -26,7 +26,7 @@ Lors de la première connexion, OrderLine récupère les commandes des 30 dernie
 
 ![Affichage d'une commande dans OrderLine](./images/018-2x-order-displays.png)
 
-## Voir une commande
+## Voir une commande(#view-order)
 
 Pour consulter les détails de la commande, cliquez sur la carte de la commande. Pour fermer la carte, cliquez sur l'icône de fermeture <InlineImage width="23" height="23">![Icône de fermeture OrderLine](../images/032-close.png)</InlineImage> ou n'importe où en dehors de la carte.
 
@@ -77,7 +77,7 @@ Pour imprimer un reçu de commande, suivez ces étapes :
 
 ## Reçus
 
-Pour une meilleure lisibilité, les reçus sont présentés sous forme de sections délimitées par un trait plein, reflétant les informations de la carte de commande. Pour plus d'informations sur les cartes de commande, consultez la rubrique [Voir une commande](#voir-une-commande).
+Pour une meilleure lisibilité, les reçus sont présentés sous forme de sections délimitées par un trait plein, reflétant les informations de la carte de commande. Pour plus d'informations sur les cartes de commande, consultez la rubrique [Voir une commande](#view-order).
 
 Les reçus contiennent les informations suivantes :
 

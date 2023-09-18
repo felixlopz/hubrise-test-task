@@ -103,7 +103,7 @@ Lorsque vous changez de formule tarifaire, le paiement doit être autorisé avan
 Pour traiter une demande de paiement à partir de la notification, procédez comme suit :
 
 1. Connectez-vous à votre back-office HubRise.
-1. Assurez-vous qu'une carte de crédit est enregistrée sur votre compte ou votre point de vente. Si tel n'est pas le cas, consultez les instructions indiquées à la rubrique [Ajouter une méthode de paiement](#ajouter-une-m-thode-de-paiement).
+1. Assurez-vous qu'une carte de crédit est enregistrée sur votre compte ou votre point de vente. Si tel n'est pas le cas, consultez les instructions indiquées à la rubrique [Ajouter une méthode de paiement](#add-payment-method).
 1. Cliquez sur **la payer en ligne ou télécharger le PDF**, puis sur **Payer**. Pour consulter toutes les demandes de paiement, allez dans **PARAMÈTRES**.
 
 ---
