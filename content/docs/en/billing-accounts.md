@@ -72,7 +72,7 @@ To configure this information, follow these steps:
 1. Fill in the information required under **Billing details**.
 1. Click **Update**.
 
-For more information, see section [Edit Billing Information](#edit-billing-information).
+For more information, see section [Update Billing Information](#update-billing-information).
 
 ## Add a Payment Method
 

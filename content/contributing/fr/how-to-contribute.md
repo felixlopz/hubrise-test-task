@@ -37,6 +37,6 @@ La documentation de HubRise est conforme à un certain style rédactionnel.
 
 Celui-ci est lui-même défini dans un guide de style qui fixe les directives d'écriture. Il s'agit, notamment, des formules réutilisables, de la voix grammaticale et de la tonalité à employer. Pour plus d'informations sur le style rédactionnel préconisé, reportez-vous au [guide de style](/contributing/guide-de-style).
 
-Lorsqu'il est nécessaire de compléter votre documentation par des captures d'écran, celles-ci doivent répondre à certaines spécifications techniques. Pour plus d'informations, voir le [guide des captures d'écran](/contributing/guide-des-captures-ecran) (en anglais).
+Lorsqu'il est nécessaire de compléter votre documentation par des captures d'écran, celles-ci doivent répondre à certaines spécifications techniques. Pour plus d'informations, voir le [guide des captures d'écran](/contributing/screenshots-guide) (en anglais).
 
-Vous pouvez également inclure des vidéos. Celles-ci doivent respecter un certain nombre de spécifications techniques. Pour en savoir plus, reportez-vous au [guide des vidéos](/contributing/guide-des-videos) (en anglais).
+Vous pouvez également inclure des vidéos. Celles-ci doivent respecter un certain nombre de spécifications techniques. Pour en savoir plus, reportez-vous au [guide des vidéos](/contributing/video-guide) (en anglais).

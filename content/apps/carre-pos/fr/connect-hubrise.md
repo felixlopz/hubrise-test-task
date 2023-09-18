@@ -19,7 +19,7 @@ meta:
 Pour connecter Carré POS à HubRise :
 
 1. Vérifiez que vous disposez de la version PRO de Carré POS et que vous êtes abonné au service Middleware Carré Connect. Dans le cas contraire, contactez votre revendeur.
-1. Créez un compte HubRise depuis notre [page d'inscription](https://manager.hubrise.com/signup). Pour plus d'informations, consultez notre [Guide de démarrage](/docs/getting-started/).
+1. Créez un compte HubRise depuis notre [page d'inscription](https://manager.hubrise.com/signup). Pour plus d'informations, consultez notre [Guide de démarrage](/docs/get-started/).
 1. Donnez accès à votre compte à l'équipe support de Carré POS. Pour plus d'informations, voir [Donner accès au support de Carré POS](/apps/carre-pos/connexion-hubrise#donner-acc-s-au-support-de-carr-pos)
 1. Contactez votre revendeur Carré POS qui se chargera d'établir la connexion à HubRise. Précisez l'identifiant HubRise et le nom du point de vente à connecter.
 

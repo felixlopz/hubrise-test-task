@@ -15,7 +15,7 @@ This page describes the conventional structure you need to use to create product
 In HubRise, a variation of a product is called [sku](/docs/data#view-catalog), and can represent, for example, each specific size of the parent product.
 If your EPOS supports products with skus, and you want to receive such products in your Uber Eats orders, you have the following two options:
 
-- If you [push your HubRise catalog](/apps/uber-eats/pulling-menu) into Uber Eats with Uber Eats Bridge, products with skus are automatically created with the correct format on Uber Eats.
+- If you [push your HubRise catalog](/apps/uber-eats/push-catalog) into Uber Eats with Uber Eats Bridge, products with skus are automatically created with the correct format on Uber Eats.
 - If you manually create your menu with [Menu Maker](https://merchants.ubereats.com/us/en/technology/simplify-operations/menu-management/), the catalog management tool in Uber Eats back office, create your products following the steps on this page.
 
 ## Product Structure

@@ -26,7 +26,7 @@ Contactez-nous par e-mail à l'adresse support@hubrise.com en précisant les inf
 - Le nom et l'identifiant de votre point de vente HubRise. Exemple : `Fast Pizza Paris z6q31-0`.
 - Le mode d'acceptation des commandes que vous souhaitez utiliser : manual accept (acceptation manuelle) ou offered state (état proposé). Pour plus de détails, reportez-vous à notre [FAQ](/apps/uber-eats/faqs/recevoir-commandes-sans-tablette).
 - Si vous livrez les commandes par vos propres moyens, indiquez-le nous.
-- Si vous utilisez des commentaires de produits dans votre boutique Uber Eats, informez-nous de votre souhait de continuer à les utiliser. Sinon, ils seront automatiquement désactivés. Pour plus d'informations sur la gestion des commentaires de produits dans HubRise, voir la rubrique [Commentaires sur les produits](/apps/uber-eats/associer-codes-ref#commentaires-au-niveau-du-produit).
+- Si vous utilisez des commentaires de produits dans votre boutique Uber Eats, informez-nous de votre souhait de continuer à les utiliser. Sinon, ils seront automatiquement désactivés. Pour plus d'informations sur la gestion des commentaires de produits dans HubRise, voir la rubrique [Commentaires sur les produits](/apps/uber-eats/associer-codes-ref#commentaires-sur-les-produits).
 
 Avec ces informations, l'équipe d'intégration d'Uber Eats pourra activer la connexion HubRise de votre magasin. HubRise vous fournira l'UUID de de magasin Uber Eats nécessaire à la connexion et vous indiquera l'étape suivante.
 

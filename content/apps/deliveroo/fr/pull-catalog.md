@@ -39,4 +39,4 @@ Les données du catalogue extraites de Deliveroo sont identiques aux données tr
 
 Cependant, il y a une exception à cette règle. Si les images utilisées sur votre boutique Deliveroo n'ont pas été précédemment téléchargées via HubRise, elles ne pourront pas être récupérées. Il s'agit d'une limitation connue, que l'équipe d'intégration Deliveroo est en train de corriger.
 
-Si vous avez aussi une enseigne sur Uber Eats, vous avez la possibilité de récupérer le menu à partir de cette plateforme. Pour plus d'informations sur l'extraction d'un catalogue à partir d'Uber Eats, voir [Récupérer le catalogue](/apps/uber-eats/recuperer-catalogue) dans la documentation Uber Eats Bridge.
+Si vous avez aussi une enseigne sur Uber Eats, vous avez la possibilité de récupérer le menu à partir de cette plateforme. Pour plus d'informations sur l'extraction d'un catalogue à partir d'Uber Eats, voir [Récupérer le catalogue](/apps/uber-eats/pull-catalog) dans la documentation Uber Eats Bridge.

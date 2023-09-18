@@ -66,7 +66,7 @@ Smood sends two types of deals to HubRise:
 Both types of deals are sent as `deals` in HubRise, with the following fields:
 
 - `name`: The name of the promotion or deal.
-- `ref`: The **Promotion ref code** defined in the [Configuration page](/apps/smood/configuration#promotions), for promotions, or the deals' ref codes, for deals imported from HubRise.
+- `ref`: The **Promotion ref code** defined in the [Configuration page](/apps/smood/configuration#discounts), for promotions, or the deals' ref codes, for deals imported from HubRise.
 
 ## Charges
 

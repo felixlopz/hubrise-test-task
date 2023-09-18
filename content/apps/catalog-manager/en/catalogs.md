@@ -32,7 +32,7 @@ You can **Rename**, **Duplicate** an existing catalog, or **Delete** existing ca
 
 ![Catalog Manager Catalog list](./images/001-2x-catalog-list.png)
 
-## Duplicate a Catalog
+## Duplicate a Catalog(#duplicate)
 
 Duplicating a catalog can be useful if you want to create a new catalog based on an existing one, or to make a backup of your catalog.
 

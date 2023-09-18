@@ -20,8 +20,8 @@ Pour mettre à jour votre menu Deliveroo, vous devez préalablement avoir un cat
 
 Vous pouvez aussi alimenter un catalogue HubRise en récupérant un menu existant depuis Deliveroo ou Uber Eats. Pour plus d'informations, consultez ces liens :
 
-- [Récupérer un catalogue depuis Deliveroo](/apps/deliveroo/recuperer-catalogue)
-- [Récupérer un catalogue depuis Uber Eats](/apps/uber-eats/recuperer-catalogue)
+- [Récupérer un catalogue depuis Deliveroo](/apps/deliveroo/pull-catalog)
+- [Récupérer un catalogue depuis Uber Eats](/apps/uber-eats/pull-catalog)
 
 ## Envoi manuel du catalogue
 
@@ -113,7 +113,7 @@ Les produits ont une ou plusieurs skus. Pour chaque produit avec plusieurs skus,
 - `name` : le nom du produit.
 - `description` : la description du produit.
 - `price` : le prix minimum de tous les SKUs.
-- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir [Tags produit](#tags-produits).
+- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir [Tags produit](#tags-produit).
 - `image` : adresse URL de la photo du produit.
 
 La liste des skus est jointe au produit sous la forme d'une table de modification.

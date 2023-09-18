@@ -325,7 +325,7 @@ Anonymization cannot be reverted. Further updates of the anonymised fields will 
 
 Anonymizing a customer also anonymises his/her orders. The `customer` resources of anonymised orders are modified in the same way as described above.
 
-When a customer is anonymised, an [Event](/api/callbacks/#events) with an `update` type is triggered for the customer and for each affected order.
+When a customer is anonymised, an [Event](/developers/api/callbacks#events) with an `update` type is triggered for the customer and for each affected order.
 
 <CallSummaryTable
   endpoint="POST /customer_lists/:customer_list_id/customers/:customer_id/anonymise"

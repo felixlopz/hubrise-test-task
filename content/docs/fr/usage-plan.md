@@ -68,6 +68,6 @@ Pour modifier la formule d'un point de vente, procédez comme suit :
 
 ---
 
-**REMARQUE IMPORTANTE** : pour effectuer une mise à niveau, vous devez avoir configuré une méthode de paiement. Pour plus d'informations, voir la rubrique [Ajouter une méthode de paiement](/docs/paiement#ajouter-un-mode-de-paiement). Votre compte ne sera pas débité tant que vous n'aurez pas dépassé le quota mensuel gratuit.
+**REMARQUE IMPORTANTE** : pour effectuer une mise à niveau, vous devez avoir configuré une méthode de paiement. Pour plus d'informations, voir la rubrique [Ajouter une méthode de paiement](/docs/paiement#ajouter-une-m-thode-de-paiement). Votre compte ne sera pas débité tant que vous n'aurez pas dépassé le quota mensuel gratuit.
 
 ---

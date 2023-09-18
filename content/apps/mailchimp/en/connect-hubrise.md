@@ -46,4 +46,4 @@ Once your HubRise location is connected to Mailchimp, customer information is pu
 
 ## Disconnect Mailchimp
 
-In order to disconnect your HubRise location from Mailchimp, follow [Disconnect Apps](/docs/connections/#disconnect-app) instruction on the HubRise User guide.
+In order to disconnect your HubRise location from Mailchimp, follow [Disconnect Apps](/docs/connections/#block-or-disconnect-an-app) instruction on the HubRise User guide.
