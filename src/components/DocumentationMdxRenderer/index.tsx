@@ -54,7 +54,7 @@ export const renderDocumentationMdx = async (
         remarkPlugins: [remarkGfm, [remarkHeadingsPlugin, headerLinks]],
         rehypePlugins: [
           rehypeImagePlugin(imageDirName, contentImages),
-          rehypeLinkRewritePlugin(router, language, pageHref),
+          rehypeLinkRewritePlugin(router, language, pageHref, headerLinks),
         ],
       },
     },
@@ -62,6 +62,37 @@ export const renderDocumentationMdx = async (
 
   const largeContentImages = contentImages.filter((image) => image.width >= MIN_IMAGE_WIDTH_FOR_SLIDESHOW)
   return { mdxElement, headerLinks, contentImages: largeContentImages }
+}
+
+/**
+ * Parse the content and return the header links.
+ *
+ * @param content
+ * @returns header links
+ */
+export const headerLinksFromMdx = async (content: string): Promise<Array<HeaderLink>> => {
+  const headerLinks: Array<HeaderLink> = []
+
+  await compileMDX({
+    source: content,
+    components: {
+      // Just to avoid compile errors
+      CallSummaryTable: () => null,
+      ContactFormToggle: () => null,
+      InlineImage: () => null,
+      Label: () => null,
+      Link: () => null,
+    },
+    options: {
+      parseFrontmatter: false,
+      mdxOptions: {
+        remarkPlugins: [remarkGfm, [remarkHeadingsPlugin, headerLinks]],
+        rehypePlugins: [],
+      },
+    },
+  })
+
+  return headerLinks
 }
 
 const MIN_IMAGE_WIDTH_FOR_SLIDESHOW = 200
