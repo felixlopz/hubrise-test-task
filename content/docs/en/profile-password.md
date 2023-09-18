@@ -82,7 +82,7 @@ For more information, see [Permissions](/docs/permissions/).
 To create a new Account:
 
 1. Click your name in the top right corner of HubRise the back office, then click **Profile**.
-1. In the **Permissions** section, click **Create Account**. For more information, see [Create an Account](/docs/account#create-an-account).
+1. In the **Permissions** section, click **Create Account**. For more information, see [Create an Account](/docs/account#create-account).
 
 ![HubRise My Permissions](./images/056-2x-my-permissions.png)
 

@@ -14,7 +14,7 @@ Cette page explique comment configurer manuellement les codes ref dans Smood. Ce
 
 ---
 
-**REMARQUE IMPORTANTE :** Vous ne pouvez pas manuellement modifier le menu Smood ou le code ref des produits lorsque [la synchronisation automatique du catalogue](/apps/smood/configuration/#param-tres-de-synchronisation) est activée.
+**REMARQUE IMPORTANTE :** Vous ne pouvez pas manuellement modifier le menu Smood ou le code ref des produits lorsque [la synchronisation automatique du catalogue](/apps/smood/configuration#synchronisation-settings) est activée.
 
 ---
 

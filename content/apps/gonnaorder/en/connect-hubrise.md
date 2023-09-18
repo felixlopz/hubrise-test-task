@@ -29,7 +29,7 @@ You can connect to HubRise directly from your GonnaOrder account with the follow
 1. Review the permissions and click **Allow**. This takes you back to the GonnaOrder dashboard, where you can verify the details of the HubRise location connected.
    ![Review the details of your HubRise connection with GonnaOrder](./images/002-gonnaorder-hubrise-details.png)
 
-For more details about connecting GonnaOrder with HubRise, see the [GonnaOrder documentation](https://www.gonnaorder.com/help/store-settings/integrations/hubrise-integration/#connect-to-hubrise).
+For more details about connecting GonnaOrder with HubRise, see the [GonnaOrder documentation](https://www.gonnaorder.com/help/store-settings/integrations/hubrise-integration#connect-to-hubrise).
 
 ## 2. Map Ref Codes
 

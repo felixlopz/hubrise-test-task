@@ -14,7 +14,7 @@ This page explains how to configure ref codes manually in Smood. Some EPOS solut
 
 ---
 
-**IMPORTANT NOTE:** You cannot manually edit the Smood menu or ref codes when [automatic catalog syncing is enabled](/apps/smood/configuration/#synchronisation-settings).
+**IMPORTANT NOTE:** You cannot manually edit the Smood menu or ref codes when [automatic catalog syncing is enabled](/apps/smood/configuration#synchronisation-settings).
 
 ---
 

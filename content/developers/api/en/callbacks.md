@@ -107,7 +107,7 @@ The client runs the following logic at regular intervals:
 
 The interval between calls should be no less than 30 seconds, otherwise the connection may reach its daily [API rate limit](/developers/api/general-concepts#rate-limiting) before the end of the day.
 
-## 1. Callbacks
+## 1. Callbacks(#callbacks)
 
 A callback is specific to a connection. A connection can only have one callback.
 
@@ -193,7 +193,7 @@ HubRise will no longer trigger events or call the callback URL.
 
 <CallSummaryTable endpoint="DELETE /callback" accessLevel="location, account" />
 
-## 2. Events
+## 2. Events(#events)
 
 ### 2.1. Retrieve Event
 

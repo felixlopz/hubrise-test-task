@@ -22,6 +22,6 @@ Pour activer HubRise sur le back-office Deliveroo, suivez ces étapes :
 1. Vérifiez que tous les éléments de votre menu sont affectés à un code PLU.
 1. Cliquer sur **Connecter mon système POS** pour confirmer.
 
-Pour connecter Deliveroo Bridge au point de vente HubRise associé à votre restaurant Deliveroo, voir [Connecter Deliveroo Bridge](/apps/deliveroo/connexion-hubrise#connectez-deliveroo-bridge).
+Pour connecter Deliveroo Bridge au point de vente HubRise associé à votre restaurant Deliveroo, voir [Connecter Deliveroo Bridge](/apps/deliveroo/connexion-hubrise#connect).
 
 Si vous avez besoin d'aide pour cette opération, vous pouvez contacter notre support sur support@hubrise.com.

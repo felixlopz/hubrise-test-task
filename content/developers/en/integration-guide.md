@@ -33,7 +33,7 @@ But we won't just wait and see while you do the work: We will actively help you 
 - We schedule a call with one of our integration engineers to finalise the assessment together. The call usually takes an hour and a half.
 - We send you a report with our recommendations. We keep this report updated as you make changes in your integration.
 
-### Assessing the Integration
+### Assessing the Integration(#assess)
 
 When your integration is ready, we assess it with you. After checking the logs of your test transactions, we ask you a few questions to create a report that we call the Integration Sheet. To see what to expect, check our [Integration Sheet template](https://docs.google.com/spreadsheets/d/1df-QRlD9h8M58bpFoFaCEzU5pbmYSeHXOLqIVip9-5s/edit?usp=sharing).
 
@@ -53,7 +53,7 @@ We document integrations to:
 
 Our documentation is public and open source. Everyone can help improve it and keep it up to date.
 
-## General Best Practices
+## General Best Practices(#general-best-practices)
 
 When you start developing your integration, taking the right decisions at the beginning can save you time and effort along the way. Here are a few suggestions.
 
@@ -131,7 +131,7 @@ It generally involves the following steps, which are described in further detail
 
 We recommend that you follow our general best practices and connect to HubRise at the location level.
 
-You should also register an active callback to listen to order update events. This will allow your application to inform a user whenever the status of an order is changed on HubRise, for example when it is accepted or cancelled by the EPOS. For more details about callbacks, see our [Developers documentation](/developers/api/callbacks/#callbacks).
+You should also register an active callback to listen to order update events. This will allow your application to inform a user whenever the status of an order is changed on HubRise, for example when it is accepted or cancelled by the EPOS. For more details about callbacks, see our [Developers documentation](/developers/api/callbacks#callbacks).
 
 **Main suggestions**
 
@@ -145,7 +145,7 @@ You should also register an active callback to listen to order update events. Th
 If users can create an account on your solution, you should push their details to HubRise as soon as they register.
 More generally, every time users update their details, you should update them on HubRise, as well.
 
-You should also anonymise customers immediately if they request so, or if they have been inactive for a certain period of time (for example, 3 years). This is a legal requirement in many markets, including for example the EU countries under GDPR regulations. For more details, see [Anonymise customer](/developers/api/customer-management/#anonymise-customer).
+You should also anonymise customers immediately if they request so, or if they have been inactive for a certain period of time (for example, 3 years). This is a legal requirement in many markets, including for example the EU countries under GDPR regulations. For more details, see [Anonymise customer](/developers/api/customer-management#anonymise-customer).
 
 **Main suggestions**
 
@@ -157,7 +157,7 @@ You should also anonymise customers immediately if they request so, or if they h
 
 You should push new orders to HubRise as soon as they are created by the user. However, wait for payment confirmation first, if the order is paid online.
 
-If you have registered users, you should include their `customer_id` in the payload and update their details just before pushing the order. If you do not have registered users (for example, for self ordering kiosks or orders via a tablet at the table), you can include the customer's details directly in the order payload with a so-called "guest order". For more information, see [Order's Customer](/developers/api/order-management/#order-s-customer).
+If you have registered users, you should include their `customer_id` in the payload and update their details just before pushing the order. If you do not have registered users (for example, for self ordering kiosks or orders via a tablet at the table), you can include the customer's details directly in the order payload with a so-called "guest order". For more information, see [Order's Customer](/developers/api/order-management#order-s-customer).
 
 When you need to test that orders are pushed to HubRise correctly, you can connect OrderLine to your HubRise account. This free app allows you to receive and manage in real time your HubRise orders. For more details on this app, see the [OrderLine documentation](/apps/orderline/).
 
@@ -209,7 +209,7 @@ It generally involves the following steps, which are described in further detail
 
 We recommend that you follow our general best practices and connect to HubRise at the location level.
 
-You should also register an active callback to listen to order events. This will allow your application to receive new orders from HubRise and status updates. For more details about callbacks, see our [Developers documentation](/developers/api/callbacks/#callbacks).
+You should also register an active callback to listen to order events. This will allow your application to receive new orders from HubRise and status updates. For more details about callbacks, see our [Developers documentation](/developers/api/callbacks#callbacks).
 
 See [Connection Workflow](#connection-workflow) for other best practices on managing your solution's connection.
 
@@ -241,7 +241,7 @@ If you need to inject new orders in HubRise to test your solution, you can use t
 ### Updating Orders
 
 You should acknowledge new orders by updating their status to `received`. This will let the online ordering solution know that the order is on its way and prevent it from raising alerts.
-HubRise supports a detailed range of order statuses: use them whenever possible to update the order. For more details, see [Order Status](/developers/api/order-management/#order-status).
+HubRise supports a detailed range of order statuses: use them whenever possible to update the order. For more details, see [Order Status](/developers/api/order-management#order-status).
 
 If possible, you should update the confirmed delivery time of the order on HubRise, so that the customer can be notified. You would typically do this in a request that also updates the order status to `accepted`.
 

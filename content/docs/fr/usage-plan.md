@@ -8,7 +8,7 @@ meta:
   description: Comment gérer l'utilisation et les formules sur HubRise.
 ---
 
-À la section **CONFIGURATION** > **Utilisation**, vous pouvez voir le nombre de commandes et de clients qui ont été traités par HubRise dans le [cycle de facturation en cours](/docs/paiement#cycles-de-facturation). Cette section indique également les frais d'abonnement à HubRise liés à chacun des points de vente de votre compte.
+À la section **CONFIGURATION** > **Utilisation**, vous pouvez voir le nombre de commandes et de clients qui ont été traités par HubRise dans le [cycle de facturation en cours](/docs/paiement#billing-cycles). Cette section indique également les frais d'abonnement à HubRise liés à chacun des points de vente de votre compte.
 
 ## Afficher l'utilisation
 
@@ -25,7 +25,7 @@ Pour afficher les détails relatifs à l'utilisation d'un compte ou d'un point d
 
 ---
 
-## Formule d'utilisation
+## Formule d'utilisation(#plan)
 
 HubRise propose des formules gratuites et payantes pour ses services. Pour obtenir des informations complètes sur les formules et la tarification, consultez la [page de tarifs de HubRise](/tarifs/).
 
@@ -33,7 +33,7 @@ Des formules gratuites sont disponibles pour les points de vente effectuant un n
 
 Pendant la phase de test qui précède le lancement, vous pouvez demander à souscrire à une formule gratuite comportant un quota de commandes plus élevé. Contactez HubRise à l'adresse support@hubrise.com.
 
-## Notifications sur les formules
+## Notifications sur les formules(#plan-notifications)
 
 En cas de problème rencontré avec une formule, les utilisateurs qui disposent d'une permission de niveau Administrateur pour le compte ou le point de vente concerné reçoivent un e-mail. Une notification apparaît également dans le back-office de HubRise.
 
@@ -42,7 +42,7 @@ Des notifications peuvent être affichées dans le back-office de HubRise pour t
 - Un point de vente a dépassé ses limites de transactions gratuites alors qu'aucune méthode de paiement n'est enregistré dans HubRise.
 - La carte de crédit a expiré et vous devez la mettre à jour.
 - Le traitement de la carte de crédit a échoué après plusieurs tentatives de paiement automatisé. Pour des raisons de sécurité, il se peut que votre banque vous demande de saisir à nouveau le code de sécurité à 3 chiffres.
-- La carte de crédit a été enregistrée pour les paiements dans HubRise mais les demandes de paiement en cours n'ont pas été réglées. Pour plus d'informations, voir la rubrique [Traiter les demandes de paiement](/docs/paiement/#traiter-les-demandes-de-paiement).
+- La carte de crédit a été enregistrée pour les paiements dans HubRise mais les demandes de paiement en cours n'ont pas été réglées. Pour plus d'informations, voir la rubrique [Traiter les demandes de paiement](/docs/paiement#process-requests-for-payment).
 
 Si une notification de paiement apparaît, cliquez sur le lien correspondant et suivez les instructions afin de résoudre le problème. Pour plus d'informations concernant les formules disponibles, voir la rubrique [Formule d'utilisation](#formule-d-utilisation).
 
@@ -68,6 +68,6 @@ Pour modifier la formule d'un point de vente, procédez comme suit :
 
 ---
 
-**REMARQUE IMPORTANTE** : pour effectuer une mise à niveau, vous devez avoir configuré une méthode de paiement. Pour plus d'informations, voir la rubrique [Ajouter une méthode de paiement](/docs/paiement#ajouter-une-m-thode-de-paiement). Votre compte ne sera pas débité tant que vous n'aurez pas dépassé le quota mensuel gratuit.
+**REMARQUE IMPORTANTE** : pour effectuer une mise à niveau, vous devez avoir configuré une méthode de paiement. Pour plus d'informations, voir la rubrique [Ajouter une méthode de paiement](/docs/paiement#add-payment-method). Votre compte ne sera pas débité tant que vous n'aurez pas dépassé le quota mensuel gratuit.
 
 ---

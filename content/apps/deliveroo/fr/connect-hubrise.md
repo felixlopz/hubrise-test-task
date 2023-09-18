@@ -30,7 +30,7 @@ Avec ces informations, nous demanderons à l'équipe d'intégration de Deliveroo
 
 Vous pouvez aussi connecter votre restaurant de manière autonome. Pour plus d'informations, voir [Comment connecter HubRise depuis le back-office de Deliveroo ?](/apps/deliveroo/faqs/connecter-depuis-le-back-office-deliveroo).
 
-## 2. Connectez Deliveroo Bridge
+## 2. Connectez Deliveroo Bridge(#connect)
 
 Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 
@@ -48,7 +48,7 @@ Pour connecter Deliveroo Bridge à HubRise, procédez comme suit :
 
 Une fois la connexion du bridge effectuée, vous devez renseigner quelques paramètres sur la page **Configuration** afin que les commandes soient transmises correctement à votre logiciel de caisse.
 
-Pour plus d'informations sur la page de configuration et la manière d'y accéder, voir la rubrique [Configuration](/apps/deliveroo/interface-utilisateur/#configuration) de la page Interface Utilisateur. Pour plus de détails sur la configuration des paramètres Deliveroo Bridge, voir la rubrique [Configuration](/apps/deliveroo/configuration).
+Pour plus d'informations sur la page de configuration et la manière d'y accéder, voir la rubrique [Configuration](/apps/deliveroo/interface-utilisateur#configuration) de la page Interface Utilisateur. Pour plus de détails sur la configuration des paramètres Deliveroo Bridge, voir la rubrique [Configuration](/apps/deliveroo/configuration).
 
 ## 4. Renseignez les codes ref des produits
 

@@ -18,7 +18,7 @@ Pour vérifier votre moyen de paiement enregistré ou en ajouter un nouveau à v
 
 1. Connectez-vous à votre [compte HubRise](https://manager.hubrise.com/login?locale=fr-FR).
 1. Cliquez sur **CONFIGURATION**.
-1. Pour effectuer le paiement au niveau du compte, vérifiez que l'option **Tous les points de vente** est sélectionnée. Pour régler les factures en fonction du point de vente, sélectionnez une entrée dans la liste déroulante **Point de vente**. Pour plus d'informations, voir la rubrique [Paiements du niveau du compte ou du point de vente](/docs/paiement#paiements-au-niveau-du-compte-ou-du-point-de-vente).
+1. Pour effectuer le paiement au niveau du compte, vérifiez que l'option **Tous les points de vente** est sélectionnée. Pour régler les factures en fonction du point de vente, sélectionnez une entrée dans la liste déroulante **Point de vente**. Pour plus d'informations, voir la rubrique [Paiements du niveau du compte ou du point de vente](/docs/paiement#account-or-location-payments).
 1. Dans la section **Paiement**, vérifiez les détails de votre mode de paiement. Si aucun mode de paiement n'existe actuellement, cliquez sur **Ajouter un mode de paiement**.
 1. Saisissez les détails de votre carte de crédit.
 1. Cliquez sur **Enregistrer**.
@@ -33,7 +33,7 @@ Pour vérifier vos informations de facturation au niveau du compte, procédez co
 1. Renseignez les informations requises à la section **Détails de facturation**.
 1. Cliquez sur **Mettre à jour**.
 
-Procédez exactement de la même manière que pour vérifier vos informations de facturation pour le paiement au niveau du point de vente, mais cliquez sur **Modifier le point de vente**. Pour plus d'informations, voir la rubrique [Paiements au niveau du compte ou du point de vente](/docs/paiement#paiements-au-niveau-du-compte-ou-du-point-de-vente).
+Procédez exactement de la même manière que pour vérifier vos informations de facturation pour le paiement au niveau du point de vente, mais cliquez sur **Modifier le point de vente**. Pour plus d'informations, voir la rubrique [Paiements au niveau du compte ou du point de vente](/docs/paiement#account-or-location-payments).
 
 ## Payer en ligne
 

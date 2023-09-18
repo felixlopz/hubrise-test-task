@@ -22,7 +22,7 @@ PixelPoint has no support for SKUs, so PixelPoint product code is used as the SK
 
 PixelPoint does not differentiate between products and options. The option ref code in HubRise is the product code of the corresponding product in PixelPoint.
 
-## Deals
+## Deals(#deals)
 
 Deals in HubRise are combos in PixelPoint. Combos are a particular type of product that contains a list of products and/or options.
 
@@ -34,7 +34,7 @@ The combo price is defined in the **Pricing** section. Additional charges may be
 
 ![PixelPoint combos - combo items](./images/011-combos-items.png)
 
-## Discounts
+## Discounts(#discounts)
 
 Discounts in HubRise are coupons in PixelPoint.
 

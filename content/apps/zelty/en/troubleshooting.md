@@ -19,7 +19,7 @@ Check your connection between Zelty and HubRise through the following steps:
 1. Click on HubRise.
 1. Verify that the connection has been enabled.
 
-If the connection is not enabled, follow steps in [Connect to Locations](/apps/zelty/connect-hubrise/#connect-to-locations).
+If the connection is not enabled, follow steps in [Connect to Locations](/apps/zelty/connect-hubrise#connect).
 
 Ensure also that your Zelty connection is visible in HubRise through the following steps:
 

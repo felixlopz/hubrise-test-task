@@ -62,7 +62,7 @@ Dans le coin supérieur droit de la page principale, vous pouvez cliquer sur la 
 
 Pour revenir à la page principale, cliquez sur les logos d'Uber Eats et de HubRise en haut de n'importe quelle page d'Uber Eats Bridge.
 
-## Page de configuration
+## Page de configuration(#configuration)
 
 Pour accéder à la page de configuration d'Uber Eats Bridge, cliquez sur la flèche <InlineImage width="20" height="20">![icône fléchée](../images/arrow-icon.jpg)</InlineImage> dans le coin supérieur droit de la page pour développer le menu, puis cliquez sur **Configuration**.
 

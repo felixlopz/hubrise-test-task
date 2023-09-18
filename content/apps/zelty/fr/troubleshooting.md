@@ -19,7 +19,7 @@ Pour vérifier la connexion entre Zelty et HubRise, procédez comme suit :
 1. Cliquez sur HubRise.
 1. Vérifiez que la connexion a été activée.
 
-Si la connexion n'est pas activée, suivez les étapes de la section [Connecter Zelty](/apps/zelty/connexion-hubrise#connecter-zelty).
+Si la connexion n'est pas activée, suivez les étapes de la section [Connecter Zelty](/apps/zelty/connexion-hubrise#connect).
 
 Assurez-vous également que votre connexion Zelty est visible dans HubRise en procédant comme suit :
 

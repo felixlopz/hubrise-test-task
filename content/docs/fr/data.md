@@ -10,7 +10,7 @@ meta:
 
 La section Données fournit des informations sur les commandes, les clients et les catalogues. Vous pouvez à tout moment sélectionner le compte et les points de vente à afficher.
 
-## Commandes
+## Commandes(#orders)
 
 La page **COMMANDES** affiche les commandes dans l'ordre inverse de leur date de création. Pour chaque commande de la liste, vous pouvez voir les attributs suivants  :
 
@@ -18,7 +18,7 @@ La page **COMMANDES** affiche les commandes dans l'ordre inverse de leur date de
 - **POINT DE VENTE** : si vous sélectionnez l'option **Tous les points de vente**, cette colonne indique le point de vente qui a réceptionné la commande.
 - **CLIENT** : client qui a passé la commande.
 - **MONTANT** : montant total de la commande.
-- **STATUT** : statut actuel de la commande. Pour une liste des statuts possibles, voir la section [Statut de la commande](/developers/api/order-management/#order-status) (en anglais) de la page **Order Management** (Gestion des commandes) de l'API HubRise.
+- **STATUT** : statut actuel de la commande. Pour une liste des statuts possibles, voir la section [Statut de la commande](/developers/api/order-management#order-status) (en anglais) de la page **Order Management** (Gestion des commandes) de l'API HubRise.
 - **ORIGINE** : application à partir de laquelle la commande a été générée.
 
 Pour filtrer les commandes par dates de début et de fin, procédez comme suit :
@@ -35,7 +35,7 @@ Cliquez sur la date de la commande pour afficher les détails complets. Pour aff
 
 ---
 
-## Clients
+## Clients(#customers)
 
 La page **CLIENTS** affiche les listes de clients définies pour le compte sélectionné. Les clients sont classés par ordre inverse de leur date de création.
 
@@ -57,7 +57,7 @@ Pour afficher les détails complets d'un client, cliquez sur le nom de celui-ci.
 
 Pour créer, modifier ou supprimer une liste de clients, voir [Listes de clients](/docs/listes-clients/).
 
-## Catalogues
+## Catalogues(#catalogs)
 
 À partir de la page **CATALOGUES**, vous pouvez afficher les catalogues présents dans HubRise et les logs des requêtes liées à chacun des catalogues.
 
@@ -92,7 +92,7 @@ Pour voir les logs complets de toutes les requêtes liées au catalogue, cliquez
 
 Pour créer, modifier ou supprimer un catalogue, voir [Catalogues](/docs/catalogues/).
 
-## Logs
+## Logs(#logs)
 
 Chaque page de la section **DONNÉES** fournit des informations complémentaires à travers sa page de logs.
 

@@ -19,7 +19,7 @@ HubRise supports two roles: Admins and Managers.
 
 You can also view and edit your own permissions from your User profile. For more information, see [Profile and Password](/docs/profile-password/).
 
-## Add a User
+## Add a User(#add-user)
 
 Admins can grant access to other users provided they have an existing profile on HubRise. New HubRise users can create a profile in the [HubRise signup page](https://manager.hubrise.com/signup). If you create a new profile on someone else's behalf, use the [HubRise Reset password page](https://manager.hubrise.com/reset_password/new) to have the user enter their own secure password.
 
@@ -38,7 +38,7 @@ To grant a User permissions on a Location, follow these steps:
 1. In the **ROLE** column, set the new User's role as Admin or Manager.
 1. Click the plus icon <InlineImage width="13" height="13">![Plus icon](../images/059-add-icon.png)</InlineImage> to add the new user.
 
-## Remove a User
+## Remove a User(#remove-user)
 
 To remove a user:
 

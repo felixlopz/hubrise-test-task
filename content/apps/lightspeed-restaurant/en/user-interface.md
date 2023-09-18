@@ -30,7 +30,7 @@ On the top right corner of the Lightspeed Restaurant Bridge main page, the HubRi
 
 ![Main page](./images/003-2x-main-page-truncated.png)
 
-## Operation Page
+## Operation Page(#operation)
 
 Selecting an operation from the list will display all the logs of the API requests exchanged between HubRise and the Lightspeed Restaurant EPOS via Lightspeed Restaurant Bridge.
 

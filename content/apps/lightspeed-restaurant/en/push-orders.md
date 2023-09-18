@@ -12,7 +12,7 @@ HubRise can push orders from different connected solutions directly into your Li
 
 This page explains what information HubRise sends to your EPOS.
 
-## Items and Options
+## Items and Options(#items-and-options)
 
 Lightspeed Restaurant Bridge sends your EPOS the complete information about items and options, including name, EPOS ref code, quantity, and price.
 

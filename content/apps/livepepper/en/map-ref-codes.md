@@ -25,7 +25,7 @@ To update the ref code for each sku, follow these steps:
 
 ![Mapping ref codes for skus](./images/001-livepepper-sku-ref-codes.png)
 
-At the end of the process, you can verify that all products have been mapped using the **Missing POS codes** custom action in LivePepper. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-product-mapping)
+At the end of the process, you can verify that all products have been mapped using the **Missing POS codes** custom action in LivePepper. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-mapping)
 
 ## Toppings, Ingredients, and Options
 
@@ -61,7 +61,7 @@ To update the ref code for toppings, options, and variants defined at the catego
    - Select **Use POS codes above**.
 5. Click **Save** to confirm.
 
-At the end of the process you can check if all product values and attributes have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-product-mapping).
+At the end of the process you can check if all product values and attributes have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-mapping).
 
 ## Deals and Discounts
 
@@ -74,7 +74,7 @@ To add ref code to a deal, follow these steps.
 1. Under **Advanced Settings**, enter the ref code in the **POS code** field.
 1. Click **Save** to confirm.
 
-At the end of the process you can check if all deals have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-product-mapping)
+At the end of the process you can check if all deals have been mapped. For more information, see [Verify Product Mapping](/apps/livepepper/troubleshooting#verify-mapping)
 
 ---
 

@@ -99,7 +99,7 @@ Pour chaque option d'une liste, Smood utilise les informations suivantes :
 - `name` : nom de l'option.
 - `price` : prix unitaire de l'option.
 
-### Promotions
+### Promotions(#deals)
 
 Dans HubRise, les promotions s'appliquent à un ensemble spécifique de produits. Par exemple, une promotion **Déjeuner** peut inclure une pizza et un dessert.
 

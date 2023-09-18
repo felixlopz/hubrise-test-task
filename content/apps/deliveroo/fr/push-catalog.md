@@ -10,7 +10,7 @@ meta:
 
 Avec Deliveroo Bridge, vous pouvez envoyer votre catalogue HubRise vers votre restaurant Deliveroo en un seul clic.
 
-Vous pouvez également configurer le bridge de manière à envoyer votre catalogue vers Deliveroo à chaque fois qu'il est modifié sur HubRise. Pour plus d'informations, voir [Catalogue](/apps/deliveroo/configuration#catalogue).
+Vous pouvez également configurer le bridge de manière à envoyer votre catalogue vers Deliveroo à chaque fois qu'il est modifié sur HubRise. Pour plus d'informations, voir [Catalogue](/apps/deliveroo/configuration#catalog).
 
 Cette page explique comment envoyer votre catalogue et quelles informations sont envoyées à Deliveroo.
 
@@ -50,7 +50,7 @@ Deliveroo Bridge peut envoyer automatiquement votre catalogue HubRise dans Deliv
 1. Dans la rubrique **Catalogue**, cochez la case **Activer l'envoi automatique du catalogue**.
 1. Cliquez sur **Enregistrer**.
 
-## Informations envoyées à Deliveroo
+## Informations envoyées à Deliveroo(#information-sent)
 
 Les rubriques suivantes expliquent en détail comment votre catalogue HubRise est transmis à Deliveroo.
 
@@ -125,7 +125,7 @@ Pour chaque `sku` d'un produit, Deliveroo Bridge envoie les informations suivant
 - `price` : la différence éventuelle de prix avec le produit principal.
 - `option_list_refs` : liste des options rattachées à la SKU.
 
-Pour plus d'informations sur les skus dans les catalogues HubRise, voir [Skus](/developers/api/catalog-management/#skus) (en anglais).
+Pour plus d'informations sur les skus dans les catalogues HubRise, voir [Skus](/developers/api/catalog-management#skus) (en anglais).
 
 ### Tags produit
 

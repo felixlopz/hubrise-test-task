@@ -10,7 +10,7 @@ meta:
 
 Dans certains cas, il se peut que vous ayez besoin de connecter plusieurs fois de la même application à un seul et même point de vente HubRise. Vous pouvez par exemple exploiter plusieurs magasins sur une plateforme de livraison de repas et souhaiter les connecter au même logiciel de caisse.
 
-Pour connecter la première application, voir la rubrique [Connecter une nouvelle application](/docs/connexions#connecter-une-application). Si vous avez déjà connecté l'application, il est inutile d'accomplir à nouveau cette étape.
+Pour connecter la première application, voir la rubrique [Connecter une nouvelle application](/docs/connexions#connect). Si vous avez déjà connecté l'application, il est inutile d'accomplir à nouveau cette étape.
 
 Pour connecter une deuxième fois la même application, procédez comme suit :
 

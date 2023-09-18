@@ -18,7 +18,7 @@ HubRise et Smood utilisent chacun leur propre terminologie. Un même concept peu
 | Promotion             | Promotion      | Offre "1 produit acheté, 1 offert" ou pourcentage de réduction sur les articles.     |
 | Restaurant ou magasin | Point de vente | Le restaurant proprement dit.                                                        |
 
-## Types de service Smood
+## Types de service Smood(#smood-service-types)
 
 Smood propose trois types de service à ses clients :
 

@@ -63,7 +63,7 @@ To access the actions page, click **Actions** at the top of the screen. If the l
 
 From the actions page, you can push the catalog to WooCommerce. For more details, see [Push Catalog](/apps/woocommerce/push-catalog).
 
-## Configuration
+## Configuration(#configuration)
 
 To access the WooCommerce Bridge configuration page, click **Configuration** at the top of the screen.
 

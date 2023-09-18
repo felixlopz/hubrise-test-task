@@ -183,7 +183,7 @@ The following custom field can be set on a location:
 
 | Custom field         | Encoding                                                    | Description                                                       |
 | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- |
-| `delivery.door_time` | [decimal](/developers/api/general-concepts/#decimal-values) | Minimum time in minutes between order creation and customer door. |
+| `delivery.door_time` | [decimal](/developers/api/general-concepts#decimal-values) | Minimum time in minutes between order creation and customer door. |
 
 Typical uses:
 
@@ -214,8 +214,8 @@ The following custom fields can be attached to an order to provide details about
 
 | Custom field                    | Encoding                                                  | Description                                                                   |
 | ------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| `delivery.driver_assigned_time` | [Time](/developers/api/general-concepts/#dates-and-times) | The time the driver was assigned the delivery.                                |
-| `delivery.driver_pickup_time`   | [Time](/developers/api/general-concepts/#dates-and-times) | The time the driver is expected to pick up the delivery.                      |
+| `delivery.driver_assigned_time` | [Time](/developers/api/general-concepts#dates-and-times) | The time the driver was assigned the delivery.                                |
+| `delivery.driver_pickup_time`   | [Time](/developers/api/general-concepts#dates-and-times) | The time the driver is expected to pick up the delivery.                      |
 | `delivery.tracking_url`         | `string`                                                  | URL of the page showing the status of the delivery.                           |
 | `delivery.driver.first_name`    | `string`                                                  | Driver's first name.                                                          |
 | `delivery.driver.phone`         | `string`                                                  | Driver's phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164). |

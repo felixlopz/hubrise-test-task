@@ -8,13 +8,13 @@ meta:
   description: HubRise payment options and billing cycles.
 ---
 
-Accounts and Locations set up with a paid plan will pay a monthly subscription to HubRise when they exceed the free [usage](/docs/usage-plan#usage-plans) limit. For complete pricing information, see the [HubRise Price page](/pricing/).
+Accounts and Locations set up with a paid plan will pay a monthly subscription to HubRise when they exceed the free [usage](/docs/usage-plan#plan) limit. For complete pricing information, see the [HubRise Price page](/pricing/).
 
 You can set up your payment method in the **SETTINGS** > **Payment** section. You must have a credit card to automate payments. Direct debit is not available. Wire transfer is accepted for a minimum of 12 months usage.
 
 Subscription payments are in EUR, regardless of the Account currency.
 
-## Account or Location Payments
+## Account or Location Payments(#account-or-location-payments)
 
 Your HubRise subscription can be invoiced at the Account level, or at the Location level.
 
@@ -47,7 +47,7 @@ With Account level invoicing, the Location billing cycle will match the Account 
 - If the Location next billing date is before the Account next billing date, you immediately receive a prorated charge to align the Location next billing date to the Account's.
 - If the Location next billing date is after the Account next billing date, nothing changes until the Account next billing date. At that point, you receive a prorated charge and the Location next billing date aligns with the Account's.
 
-## Billing Cycles
+## Billing Cycles(#billing-cycles)
 
 Billing Cycles are a month in duration, and start on the same calendar day the Account is created. The start date of the Billing Cycle cannot be changed.
 
@@ -63,7 +63,7 @@ Billing information included in invoices can be configured at the Account and Lo
 1. Fill in the information required under **Billing details**.
 1. Click **Update**.
 
-## Add a Payment Method
+## Add a Payment Method(#add-payment-method)
 
 To add or update a payment method at the Account level, follow these steps:
 
@@ -100,9 +100,9 @@ To remove a payment method, follow these steps:
 
 ---
 
-## Process Requests for Payment
+## Process Requests for Payment(#process-requests-for-payment)
 
-When you change your plan, the payment must be authorised before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Plan Notifications](/docs/usage-plan/#plan-notifications).
+When you change your plan, the payment must be authorised before the credit card can be charged. Admin users will receive notifications reminding them to complete the payment process. For more information on notifications, see [Plan Notifications](/docs/usage-plan#plan-notifications).
 
 To process a Request for Payment from the notification:
 

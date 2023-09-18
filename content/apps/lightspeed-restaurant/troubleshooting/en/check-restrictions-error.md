@@ -12,7 +12,7 @@ This page explains how to troubleshoot failed orders that are caused by products
 
 ## "Check Restrictions" Error
 
-In some cases, orders sent to Lightspeed Restaurant might fail with the following error in the [logs of Lightspeed Resturant Bridge](/apps/lightspeed-restaurant/user-interface/#operation-page):
+In some cases, orders sent to Lightspeed Restaurant might fail with the following error in the [logs of Lightspeed Resturant Bridge](/apps/lightspeed-restaurant/user-interface#operation):
 
 ```json
 {

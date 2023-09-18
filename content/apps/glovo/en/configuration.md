@@ -50,7 +50,7 @@ Glovo customers can pay for their order either online or by cash.
 This section of the configuration page lets you specify the ref code for online payment methods. Refer to your EPOS documentation on the HubRise website to verify the correct code to use.
 
 
-## Catalog
+## Catalog(#catalog)
 
 ![Glovo Bridge configuration page, Catalog section](./images/006-configuration-catalog.png)
 

@@ -64,14 +64,14 @@ When you map production instructions to connected apps, add `+` before the ref c
 
 ---
 
-### Service Types
+### Service Types(#service-types)
 
 Service types are called _account profiles_ on Lightspeed. To find the ref code for a specific service type, follow these steps:
 
 1. From your Lightspeed back office, select **Configuration**, then select **Settings** > **Account profiles**.
 1. For each service type available under the **Name** column, you can find the corresponding ref code under the **Code** column.
 
-### Payment Methods
+### Payment Methods(#payment-methods)
 
 To find the ref code for a payment method, follow these steps:
 

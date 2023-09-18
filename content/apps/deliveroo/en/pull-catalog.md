@@ -35,7 +35,7 @@ To pull your Deliveroo menu into a HubRise catalog, follow these steps:
 
 ## Information Pulled into HubRise
 
-The catalog data pulled from Deliveroo mirrors the data transmitted to Deliveroo. For further details, you can refer to [Information Sent to Deliveroo](/apps/deliveroo/push-catalog#information-sent-to-deliveroo).
+The catalog data pulled from Deliveroo mirrors the data transmitted to Deliveroo. For further details, you can refer to [Information Sent to Deliveroo](/apps/deliveroo/push-catalog#information-sent).
 
 However, there is one exception to this rule. If the images used on your Deliveroo store have not been previously uploaded through HubRise, they cannot be pulled. This is a known limitation that the Deliveroo integration team is addressing.
 

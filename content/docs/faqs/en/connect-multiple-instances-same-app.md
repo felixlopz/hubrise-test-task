@@ -10,7 +10,7 @@ meta:
 
 In some circumstances, you might need to connect multiple instances of the same app to a single HubRise location. For example, you might have multiple stores of a food delivery platform that you want to connect to the same EPOS.
 
-To connect the first instance of the app, see [Connecting a New App](/docs/connections#connect-a-new-app). If you already connected the app, you do not need to repeat this step again.
+To connect the first instance of the app, see [Connecting a New App](/docs/connections#connect). If you already connected the app, you do not need to repeat this step again.
 
 To connect the second instance of the app, follow these steps.
 

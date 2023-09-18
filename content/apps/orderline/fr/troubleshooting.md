@@ -14,7 +14,7 @@ Pour résoudre le problème de non-réception des notifications de nouvelles com
 
 Le fait de garder votre appareil branché sur le secteur peut également améliorer la fiabilité de l'arrivée des notifications. Pour une expérience mobile optimale, nous vous recommandons d'utiliser Google Chrome.
 
-## Popup de notifications sonores désactivées
+## Popup de notifications sonores désactivées(#disabled-popup)
 
 Certains navigateurs, dans le but d'éviter les bruits inattendus et indésirables, peuvent empêcher la diffusion de sons par les sites internet en l'absence d'interaction avec l'utilisateur. Cette fonctionnalité, connue sous le nom de **règles de lecture automatique** dans Google Chrome, peut affecter les notifications OrderLine.
 

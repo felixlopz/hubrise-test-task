@@ -10,7 +10,7 @@ meta:
 
 Just Eat ne dispose pas d'un back-office permettant de remplir et personnaliser votre menu. Vous pouvez utiliser Just Eat Flyt Bridge pour envoyer votre catalogue HubRise dans Just Eat en un seul clic.
 
-Vous pouvez également configurer la passerelle de manière à ce qu'elle envoie votre catalogue vers la plateforme chaque fois que celui-ci est mis à jour sur HubRise. Pour plus d'informations, voir la rubrique [Catalogue](/apps/just-eat-flyt/configuration#catalogue).
+Vous pouvez également configurer la passerelle de manière à ce qu'elle envoie votre catalogue vers la plateforme chaque fois que celui-ci est mis à jour sur HubRise. Pour plus d'informations, voir la rubrique [Catalogue](/apps/just-eat-flyt/configuration#catalog).
 
 Cette page explique comment envoyer votre catalogue et quelles informations sont envoyées à la plateforme.
 
@@ -20,7 +20,7 @@ Pour pouvoir mettre à jour votre menu dans Just Eat, vous devez préalablement 
 
 Pour plus d'informations sur les catalogues HubRise, voir la rubrique [Catalogues](/docs/catalogues/).
 
-## Envoi du catalogue
+## Envoi du catalogue(#push-catalog)
 
 Une fois que votre catalogue a été alimenté sur HubRise, vous pouvez l'envoyer dans Just Eat en procédant comme suit.
 
@@ -64,7 +64,7 @@ Pour chaque catégorie, les champs HubRise envoyés à Just Eat sont les suivant
 
 ### Produits et skus
 
-Les produits contenus dans le tableau `products` d'un catalogue HubRise peuvent être associés à plusieurs skus. Cette notion de produits et de skus n'est pas prise en charge dans Just Eat, où chaque sku est associée à un produit individuel. Pour plus d'informations sur les produits contenus dans les catalogues HubRise, voir la rubrique [Produits](/developers/api/catalog-management/#products) (en anglais).
+Les produits contenus dans le tableau `products` d'un catalogue HubRise peuvent être associés à plusieurs skus. Cette notion de produits et de skus n'est pas prise en charge dans Just Eat, où chaque sku est associée à un produit individuel. Pour plus d'informations sur les produits contenus dans les catalogues HubRise, voir la rubrique [Produits](/developers/api/catalog-management#products) (en anglais).
 
 Pour chaque objet `sku` contenu dans un produit, Just Eat Flyt Bridge envoie les informations suivantes dans Just Eat :
 
@@ -76,7 +76,7 @@ Pour chaque objet `sku` contenu dans un produit, Just Eat Flyt Bridge envoie les
 - `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir la rubrique [Balises de produits](#balises-de-produits).
 - `image` : adresse URL de l'image du produit parent.
 
-Pour plus d'informations sur les références contenues dans les catalogues HubRise, voir la rubrique [Références SKU](/developers/api/catalog-management/#skus) (en anglais).
+Pour plus d'informations sur les références contenues dans les catalogues HubRise, voir la rubrique [Références SKU](/developers/api/catalog-management#skus) (en anglais).
 
 ---
 
@@ -130,4 +130,4 @@ Les promotions et les remises ne sont pas prises en charge dans Just Eat. Les pr
 
 ### Disponibilité
 
-Chaque fois que vous envoyez votre catalogue HubRise dans Just Eat, vous actualisez également la disponibilité de votre menu, suivant les valeurs que vous avez définies sur la [page de configuration](/apps/just-eat-flyt/configuration/#catalogue) de Just Eat Flyt Bridge.
+Chaque fois que vous envoyez votre catalogue HubRise dans Just Eat, vous actualisez également la disponibilité de votre menu, suivant les valeurs que vous avez définies sur la [page de configuration](/apps/just-eat-flyt/configuration#catalog) de Just Eat Flyt Bridge.

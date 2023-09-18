@@ -373,7 +373,7 @@ Return the categories of the catalog. Categories are returned in a deep first tr
 ]
 ```
 
-## 4. Products
+## 4. Products(#products)
 
 A product belongs to a category. A product has one or several skus.
 
@@ -475,7 +475,7 @@ Retrieve the list of products in the catalog.
 ]
 ```
 
-## 5. Skus
+## 5. Skus(#skus)
 
 Skus ("Stock Keeping Unit") is a distinct type of item for sale, such as a product or service, and all attributes associated with the item type that distinguish it from other item types, such as the size.
 
@@ -490,7 +490,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | `ref` <Label type="optional" />              | string                                                     | The ref of the sku, which will be passed along in orders.                                                               |
 | `name` <Label type="optional" />             | string                                                     | The name of the sku. Skus belonging to a same product must have unique names. One sku per product can have a null name. |
 | `restrictions` <Label type="optional" />     | [Restrictions](#restrictions)                              | An optional set of conditions that must be matched for the sku to be available.                                         |
-| `price`                                      | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                                                                                   |
+| `price`                                      | [Money](/developers/api/general-concepts#monetary-values) | The price of the sku.                                                                                                   |
 | `price_overrides`                            | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts, such as a specific service type.                                                 |
 | `option_list_refs` <Label type="optional" /> | string[]                                                   | The refs of the option lists this sku is attached to.                                                                   |
 | `tags` <Label type="optional" />             | string[]                                                   | List of tags.                                                                                                           |
@@ -527,7 +527,7 @@ A product contains one or several skus. A sku is always attached to a product.
 | `name`            | string or `null`                                           | The name of the sku.                                                |
 | `product_id`      | string                                                     | The id of the sku's parent product.                                 |
 | `restrictions`    | [Restrictions](#restrictions)                              | Set of conditions that must be matched for the sku to be available. |
-| `price`           | [Money](/developers/api/general-concepts/#monetary-values) | The price of the sku.                                               |
+| `price`           | [Money](/developers/api/general-concepts#monetary-values) | The price of the sku.                                               |
 | `price_overrides` | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts.                              |
 | `option_list_ids` | string[]                                                   | The ids of the option lists this sku is attached to.                |
 | `tags`            | string[]                                                   | List of tags.                                                       |
@@ -692,7 +692,7 @@ Retrieve an option list and the possible choices (options).
 | ----------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | `ref` <Label type="optional" />     | string                                                     | The ref of the option.                                                                            |
 | `name`                              | string                                                     | The name of the option.                                                                           |
-| `price`                             | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option. Should be set to `0.00 EUR` (adjust the currency) if the option is free. |
+| `price`                             | [Money](/developers/api/general-concepts#monetary-values) | The price of the option. Should be set to `0.00 EUR` (adjust the currency) if the option is free. |
 | `price_overrides`                   | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts, such as a specific service type.                           |
 | `default` <Label type="optional" /> | boolean                                                    | Whether this option is on by default. Default is `false`.                                         |
 | `tags` <Label type="optional" />    | string[]                                                   | List of tags.                                                                                     |
@@ -727,7 +727,7 @@ Retrieve an option list and the possible choices (options).
 | `ref`             | string or `null`                                           | The ref of the option.                 |
 | `option_list_id`  | string                                                     | The id of the option list.             |
 | `name`            | string                                                     | The name of the option.                |
-| `price`           | [Money](/developers/api/general-concepts/#monetary-values) | The price of the option.               |
+| `price`           | [Money](/developers/api/general-concepts#monetary-values) | The price of the option.               |
 | `price_overrides` | [PriceOverrides](#price-overrides)                         | Price overrides in different contexts. |
 | `default`         | boolean                                                    | Whether this option is on by default.  |
 | `tags`            | string[]                                                   | List of tags.                          |
@@ -772,7 +772,7 @@ Retrieve an option list and the possible choices (options).
 
 ## 8. Deals
 
-### 8.1. Deal in Catalog Upload
+### 8.1. Deal in Catalog Upload(#deal-in-catalog-upload)
 
 ##### Parameters:
 
@@ -789,9 +789,9 @@ Retrieve an option list and the possible choices (options).
 | `lines`                                             | array                                                      | List of deal lines. A deal should contain at least one line, with at least one sku.                                                                                                                                                                                                                           |
 | `lines.skus`                                        | array                                                      | The skus eligible for this line. Skus are referenced by their `ref`.                                                                                                                                                                                                                                          |
 | `lines.skus.ref`                                    | string                                                     | The `ref` of the eligible sku. Skus with no `ref` cannot be included in deals.                                                                                                                                                                                                                                |
-| `lines.skus.extra_charge` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | An optional extra charge applied when the sku is selected.                                                                                                                                                                                                                                                    |
+| `lines.skus.extra_charge` <Label type="optional" /> | [Money](/developers/api/general-concepts#monetary-values) | An optional extra charge applied when the sku is selected.                                                                                                                                                                                                                                                    |
 | `lines.pricing_effect`                              | string                                                     | One of: `unchanged`, `fixed_price`, `price_off`, `percentage_off`.                                                                                                                                                                                                                                            |
-| `lines.pricing_value` <Label type="optional" />     | depends                                                    | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `fixed_price` and `price_off`, a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`, and `null` for `unchanged`. |
+| `lines.pricing_value` <Label type="optional" />     | depends                                                    | The presence and value of this field depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts#monetary-values) for `fixed_price` and `price_off`, a [decimal](/developers/api/general-concepts#decimal-values) between "0" and "100" for `percentage_off`, and `null` for `unchanged`. |
 | `lines.label` <Label type="optional" />             | string                                                     | A label describing the type of skus that can be selected in this line.                                                                                                                                                                                                                                        |
 
 ##### Example:
@@ -894,7 +894,7 @@ A discount is a reduction of the order total price.
 | `restrictions` <Label type="optional" />  | [Restrictions](#restrictions) | An optional set of conditions that must be matched for the discount to be available.                                                                                                                                           |
 | `coupon_codes` <Label type="optional" />  | string[]                      | The coupon codes that trigger the discount.                                                                                                                                                                                    |
 | `pricing_effect`                          | string                        | One of: `price_off`, `percentage_off`.                                                                                                                                                                                         |
-| `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts/#monetary-values) for `price_off`, and a [decimal](/developers/api/general-concepts/#decimal-values) between "0" and "100" for `percentage_off`. |
+| `pricing_value` <Label type="optional" /> | depends                       | Depends on `pricing_effect`. It is a [Money](/developers/api/general-concepts#monetary-values) for `price_off`, and a [decimal](/developers/api/general-concepts#decimal-values) between "0" and "100" for `percentage_off`. |
 | `image_ids` <Label type="optional" />     | string[]                      | List of image ids attached to the discount.                                                                                                                                                                                    |
 
 ##### Example:
@@ -966,7 +966,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 | `ref` <Label type="optional" />   | string                                                     | The ref of the charge.                                         |
 | `name`                            | string                                                     | The name of the charge.                                        |
 | `type`                            | string                                                     | One of: `delivery`, `payment_fee`, `tip`, `tax` or `other`.    |
-| `price` <Label type="optional" /> | [Money](/developers/api/general-concepts/#monetary-values) | The charge price. Should be omitted if the charge is variable. |
+| `price` <Label type="optional" /> | [Money](/developers/api/general-concepts#monetary-values) | The charge price. Should be omitted if the charge is variable. |
 
 ##### Example:
 
@@ -991,7 +991,7 @@ A charge is an additional fee billed to the customer. Examples of charges includ
 | `ref`   | string or `null`                                                     | The ref of the charge.                                      |
 | `name`  | string                                                               | The name of the charge.                                     |
 | `type`  | string                                                               | One of: `delivery`, `payment_fee`, `tip`, `tax` or `other`. |
-| `price` | [Money](/developers/api/general-concepts/#monetary-values) or `null` | The charge amount, or `null` for variable amount.           |
+| `price` | [Money](/developers/api/general-concepts#monetary-values) or `null` | The charge amount, or `null` for variable amount.           |
 
 ##### Example request:
 
@@ -1040,14 +1040,14 @@ A `restrictions` object can be used in [Sku](#skus), [Option](#options), [Deal](
 | ------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `enabled` <Label type="optional" />                                       | boolean                                                    | Enabled or disabled. The default value is `true`, and the field is omitted if its value is `true`.                                                                           |
 | `variant_refs` <Label type="optional" />                                  | string[]                                                   | Enabled for the specified variants, identified by their ref. The variants must exist in the catalog.                                                                         |
-| `dow` <Label type="optional" />                                           | [DOW](/developers/api/general-concepts/#days-of-the-week)  | Enabled on certain days of the week.                                                                                                                                         |
+| `dow` <Label type="optional" />                                           | [DOW](/developers/api/general-concepts#days-of-the-week)  | Enabled on certain days of the week.                                                                                                                                         |
 | `start_time` <Label type="optional" />                                    | string                                                     | Enabled from a certain time of the day. Format: `HH:MM`.                                                                                                                     |
 | `end_time` <Label type="optional" />                                      | string                                                     | Enabled until a certain time of the day. Format: `HH:MM`.                                                                                                                    |
-| `start_date` <Label type="optional" />                                    | [Date](/developers/api/general-concepts/#dates-and-times)  | Enabled from a certain date.                                                                                                                                                 |
-| `end_date` <Label type="optional" />                                      | [Date](/developers/api/general-concepts/#dates-and-times)  | Enabled until a certain date.                                                                                                                                                |
+| `start_date` <Label type="optional" />                                    | [Date](/developers/api/general-concepts#dates-and-times)  | Enabled from a certain date.                                                                                                                                                 |
+| `end_date` <Label type="optional" />                                      | [Date](/developers/api/general-concepts#dates-and-times)  | Enabled until a certain date.                                                                                                                                                |
 | `service_types` <Label type="deprecated" /> <Label type="optional" />     | string[]                                                   | Enabled for the specified service types. One or several values among: `delivery`, `collection` or `eat_in`. This field is deprecated, `variant_refs` should be used instead. |
 | `service_type_refs` <Label type="deprecated" /> <Label type="optional" /> | string[]                                                   | Enabled for the specified service type refs. This field is deprecated, `variant_refs` should be used instead.                                                                |
-| `min_order_amount` <Label type="optional" />                              | [Money](/developers/api/general-concepts/#monetary-values) | Enabled for order equal or greater than.                                                                                                                                     |
+| `min_order_amount` <Label type="optional" />                              | [Money](/developers/api/general-concepts#monetary-values) | Enabled for order equal or greater than.                                                                                                                                     |
 | `max_per_order` <Label type="optional" />                                 | integer                                                    | Max number of items per order.                                                                                                                                               |
 | `max_per_customer` <Label type="optional" />                              | integer                                                    | Max number of items per customer.                                                                                                                                            |
 
@@ -1084,14 +1084,14 @@ Each rule defines a price and a set of conditions. The structure of a rule is de
 | Name                                                                      | Type                                                       | Description                                                                                                                                                                  |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `variant_refs` <Label type="optional" />                                  | string[]                                                   | Applies to the specified variants, identified by their ref. The variants must exist in the catalog.                                                                          |
-| `dow` <Label type="optional" />                                           | [DOW](/developers/api/general-concepts/#days-of-the-week)  | Applies on certain days of the week.                                                                                                                                         |
+| `dow` <Label type="optional" />                                           | [DOW](/developers/api/general-concepts#days-of-the-week)  | Applies on certain days of the week.                                                                                                                                         |
 | `start_time` <Label type="optional" />                                    | string                                                     | Applies from a certain time of the day. Format: `HH:MM`.                                                                                                                     |
 | `end_time` <Label type="optional" />                                      | string                                                     | Applies until a certain time of the day. Format: `HH:MM`.                                                                                                                    |
-| `start_date` <Label type="optional" />                                    | [Date](/developers/api/general-concepts/#dates-and-times)  | Applies from a certain date.                                                                                                                                                 |
-| `end_date` <Label type="optional" />                                      | [Date](/developers/api/general-concepts/#dates-and-times)  | Applies until a certain date.                                                                                                                                                |
+| `start_date` <Label type="optional" />                                    | [Date](/developers/api/general-concepts#dates-and-times)  | Applies from a certain date.                                                                                                                                                 |
+| `end_date` <Label type="optional" />                                      | [Date](/developers/api/general-concepts#dates-and-times)  | Applies until a certain date.                                                                                                                                                |
 | `service_types` <Label type="deprecated" /> <Label type="optional" />     | string[]                                                   | Applies for the specified service types. One or several values among: `delivery`, `collection` or `eat_in`. This field is deprecated, `variant_refs` should be used instead. |
 | `service_type_refs` <Label type="deprecated" /> <Label type="optional" /> | string[]                                                   | Applies for orders using one of the specified service type refs. This field is deprecated, `variant_refs` should be used instead.                                            |
-| `price`                                                                   | [Money](/developers/api/general-concepts/#monetary-values) | The new price if the rule matches.                                                                                                                                           |
+| `price`                                                                   | [Money](/developers/api/general-concepts#monetary-values) | The new price if the rule matches.                                                                                                                                           |
 
 All the fields above are optional, except `price`. Fields with a `null` value are ignored. Fields with a `string[]` value must be either omitted or contain at least one value, and they cannot contain duplicate values.
 
@@ -1296,7 +1296,7 @@ Each entry consists of:
 - either a `sku_id` or `option_id` key (_select by id_), or a `sku_ref` or `option_ref` key (_select by ref_)
 - and a `stock` key
 
-`stock` must be a positive [decimal](/developers/api/general-concepts/#decimal-values) (with up to 3 decimal places). `0` means **out of stock**. An entry with a `null` stock is ignored.
+`stock` must be a positive [decimal](/developers/api/general-concepts#decimal-values) (with up to 3 decimal places). `0` means **out of stock**. An entry with a `null` stock is ignored.
 
 A _select by id_ entry affects a single sku or option. A _select by ref_ entry can affect several skus/options at the same time. The latter form provides a convenient way to update an inventory without storing ids.
 

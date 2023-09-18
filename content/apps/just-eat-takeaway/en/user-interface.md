@@ -57,7 +57,7 @@ System requests are generally sent by Just Eat Takeaway Bridge to notify HubRise
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
-## Configuration
+## Configuration(#configuration)
 
 To access the Just Eat Takeaway Bridge configuration page, click **Configuration** at the top of the screen.
 

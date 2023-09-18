@@ -12,7 +12,7 @@ La page de paramétrage de l'interface HubRise permet de connecter LEO2 à HubRi
 
 ---
 
-**REMARQUE IMPORTANTE :** Toute modification de la configuration nécessite le redémarrage du serveur HubRise pour être prise en compte. Pour redémarrer le serveur, double-cliquez sur le raccourci vers le serveur, créé en suivant les étapes décrites dans la section [Créer un raccourci sur le bureau](/apps/leo2/connexion-hubrise/#cr-er-un-raccourci-sur-le-bureau).
+**REMARQUE IMPORTANTE :** Toute modification de la configuration nécessite le redémarrage du serveur HubRise pour être prise en compte. Pour redémarrer le serveur, double-cliquez sur le raccourci vers le serveur, créé en suivant les étapes décrites dans la section [Créer un raccourci sur le bureau](/apps/leo2/connexion-hubrise#shortcut).
 
 ---
 
@@ -41,8 +41,8 @@ Cette section indique les identifiants du point de vente, du catalogue et de la 
 La section vous permet également d'accéder aux actions suivantes :
 
 - **Accès à HubRise** : ouvre le back-office HubRise dans une page de votre navigateur.
-- **Envoi catalogue** : envoie votre menu depuis LEO2 vers HubRise. Pour plus d'informations, voir la section [Exporter le catalogue](/apps/leo2/associer-codes-ref#exporter-le-catalogue).
-- **Déconnecter** : déconnecte le point de vente de HubRise. Pour plus d'informations, voir la section [Déconnecter ubRise](/apps/leo2/connexion-hubrise#d-connecter-leo2).
+- **Envoi catalogue** : envoie votre menu depuis LEO2 vers HubRise. Pour plus d'informations, voir la section [Exporter le catalogue](/apps/leo2/associer-codes-ref#export-catalog).
+- **Déconnecter** : déconnecte le point de vente de HubRise. Pour plus d'informations, voir la section [Déconnecter ubRise](/apps/leo2/connexion-hubrise#connect).
 
 ## Paramètres
 
@@ -60,7 +60,7 @@ Les cases à cocher suivantes permettent de configurer l'automatisation des tâc
 - **Création automatique des clients inexistants dans HubRise** : lors de l'envoi d'une commande, si la référence du client n'existe pas dans HubRise, crée automatiquement ce dernier dans HubRise.
 - **Envoi des stocks vers HubRise** : envoie les stocks LEO2 en temps réel vers HubRise.
 
-### Comportement en cas de code ref absent ou invalide
+### Comportement en cas de code ref absent ou invalide(#missing-ref)
 
 Les champs suivants permettent de définir le comportement de LEO2 en cas d'incohérence entre les codes ref de LEO2 et HubRise :
 

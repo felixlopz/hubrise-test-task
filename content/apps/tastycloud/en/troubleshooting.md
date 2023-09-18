@@ -18,7 +18,7 @@ Follow these steps to verify the product mapping:
 1. Open the **Mapping des produits** (Products mapping) page
 1. Successively open the 4 sections: **Produits** (Products), **Options** (Options), **Quantité** (Quantity), and **Menus** (Deals). Make sure that all TastyCloud items are mapped to HubRise by opening the dropdown on the left and checking that it is empty.
 
-For more information, check the [Product Ref Code Mapping](/apps/tastycloud/map-ref-codes/#products-and-options) section.
+For more information, check the [Product Ref Code Mapping](/apps/tastycloud/map-ref-codes#products-and-options) section.
 
 ## Check Order Logs in HubRise
 

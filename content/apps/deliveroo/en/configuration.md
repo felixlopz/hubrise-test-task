@@ -49,7 +49,7 @@ This section of the configuration page allows you to specify the ref codes for t
 
 Deliveroo requires you to acknowledge every order you receive. In this section, you can select which HubRise status sends an order confirmation back to Deliveroo. Refer to your EPOS documentation on the HubRise website to verify the correct value.
 
-## Catalog
+## Catalog(#catalog)
 
 ![Deliveroo Bridge configuration page, Catalog section](./images/015-configuration-page-menu.png)
 

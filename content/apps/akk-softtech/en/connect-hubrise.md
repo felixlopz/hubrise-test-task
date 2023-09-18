@@ -43,4 +43,4 @@ Include in your request the name of your HubRise account, its HubRise identifier
 
 To disconnect AKK Softtech from HubRise, contact AKK Softtech support.
 
-If you need to temporarily stop receiving orders from HubRise, you can block the connection between AKK Softtech and HubRise instead. For more information, see [Block or Disconnect App](/docs/connections#block-or-disconnect-an-app).
+If you need to temporarily stop receiving orders from HubRise, you can block the connection between AKK Softtech and HubRise instead. For more information, see [Block or Disconnect App](/docs/connections#block-or-disconnect).

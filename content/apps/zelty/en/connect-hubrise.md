@@ -10,7 +10,7 @@ meta:
 
 The connection between Zelty and HubRise can be done autonomously by the user.
 
-## Connect to Locations
+## Connect to Locations(#connect)
 
 In order to activate the connection between Zelty and HubRise:
 

@@ -44,7 +44,7 @@ L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers �
 
 Pour toute demande de support, contactez l'équipe de Delicity par email sur contact@delicity.com. Vous pouvez inclure support@hubrise.com en copie pour un suivi coordonné entre nos deux équipes.
 
-Pensez à indiquer le nom de votre compte HubRise, son identifiant HubRise et le point de vente concerné par votre demande de support. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#nom-et-identifiant-du-point-de-vente).
+Pensez à indiquer le nom de votre compte HubRise, son identifiant HubRise et le point de vente concerné par votre demande de support. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#location-name-and-id).
 
 ## Déconnecter Delicity
 

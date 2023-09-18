@@ -35,7 +35,7 @@ Pour importer votre menu Deliveroo dans un catalogue HubRise, suivez ces étapes
 
 ## Informations importées dans HubRise
 
-Les données du catalogue extraites de Deliveroo sont identiques aux données transmises à Deliveroo. Pour plus de détails, vous pouvez vous référer à [Informations envoyées à Deliveroo](/apps/deliveroo/envoi-catalogue#informations-envoy-es-deliveroo).
+Les données du catalogue extraites de Deliveroo sont identiques aux données transmises à Deliveroo. Pour plus de détails, vous pouvez vous référer à [Informations envoyées à Deliveroo](/apps/deliveroo/envoi-catalogue#information-sent).
 
 Cependant, il y a une exception à cette règle. Si les images utilisées sur votre boutique Deliveroo n'ont pas été précédemment téléchargées via HubRise, elles ne pourront pas être récupérées. Il s'agit d'une limitation connue, que l'équipe d'intégration Deliveroo est en train de corriger.
 

@@ -57,7 +57,7 @@ System requests are generally sent by Deliveroo Bridge to notify HubRise about a
 
 System request pages can provide useful debugging insights to support teams, but are rarely of interest to other users.
 
-## Configuration
+## Configuration(#configuration)
 
 To access the configuration page, click **Configuration** at the top of the screen.
 

@@ -57,7 +57,7 @@ Les requêtes système sont généralement envoyées par Deliveroo Bridge afin d
 
 Les pages de requête système fournissent des informations de débogage utiles aux équipes d'assistance, mais elles sont généralement peu utiles pour les autres utilisateurs.
 
-## Configuration
+## Configuration(#configuration)
 
 Pour accéder à la page de configuration, cliquez sur **Configuration** en haut de l'écran.
 

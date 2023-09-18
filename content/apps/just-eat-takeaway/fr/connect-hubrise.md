@@ -69,4 +69,4 @@ Pour connecter Just Eat Takeaway Bridge à HubRise, procédez comme suit :
 
 Une fois la connexion effectuée, vous devez renseigner quelques paramètres sur la page Configuration afin que les commandes soient transmises correctement à votre logiciel de caisse.
 
-Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Interface utilisateur](/apps/just-eat-takeaway/interface-utilisateur#page-de-configuration). Pour plus de détails sur la configuration des paramètres de Just Eat Takeaway Bridge, voir la rubrique [Configuration](/apps/just-eat-takeaway/configuration).
+Pour plus d'informations sur la page Configuration et la manière d'y accéder, voir la rubrique [Interface utilisateur](/apps/just-eat-takeaway/interface-utilisateur#configuration). Pour plus de détails sur la configuration des paramètres de Just Eat Takeaway Bridge, voir la rubrique [Configuration](/apps/just-eat-takeaway/configuration).

@@ -14,7 +14,7 @@ meta:
 
 ---
 
-Pour consulter la liste des fonctionnalités, voir la [section fonctionnalités](/apps/0test/#integration-features).
+Pour consulter la liste des fonctionnalités, voir la [section fonctionnalités](/apps/0test#integration-features).
 
 ## Se connecter(#connect)
 

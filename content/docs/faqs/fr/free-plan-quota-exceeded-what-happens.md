@@ -10,7 +10,7 @@ meta:
 
 HubRise offre une formule gratuite comprenant un quota d'utilisation mensuel. Lorsqu'une formule gratuite a atteint ce quota d'utilisation, le compte passe de la formule gratuite vers la formule payante. Pour plus d'informations sur la tarification de HubRise, consultez la [page de tarifs de HubRise](/tarifs/).
 
-Si un mode de paiement est enregistré, le compte passe automatiquement à une formule payant une fois le quota gratuit dépassé. Pour plus d'informations sur l'ajout d'un mode de paiement, voir la rubrique [Ajouter une méthode de paiement](/docs/paiement#ajouter-une-m-thode-de-paiement).
+Si un mode de paiement est enregistré, le compte passe automatiquement à une formule payant une fois le quota gratuit dépassé. Pour plus d'informations sur l'ajout d'un mode de paiement, voir la rubrique [Ajouter une méthode de paiement](/docs/paiement#add-payment-method).
 
 Si aucun mode de paiement n'est enregistré lorsque le quota d'utilisation de la formule gratuite est dépassé, les administrateurs du compte ou du point de vente reçoivent un e-mail et voient s'afficher un avis sur le back-office de HubRise, les informant qu'ils doivent changer de formule et enregistrer un mode de paiement.
 

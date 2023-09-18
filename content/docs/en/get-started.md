@@ -20,7 +20,7 @@ To start using HubRise, create a User Profile. Registration is free, and only ta
 
 ---
 
-## Create an Account
+## Create an Account(#create-account)
 
 When you log in to HubRise for the first time, you will be asked to create an Account and a Location.
 A HubRise Account identifies your brand, while a Location refers to the point of sales within this brand, typically the physical outlet.

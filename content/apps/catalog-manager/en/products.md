@@ -29,7 +29,7 @@ Variations are typically used to provide different versions of the base product,
 
 ![Catalog Manager Product List](./images/002-2x-product-list.png)
 
-## Create a Product
+## Create a Product(#create)
 
 To create a product, select the category or the product immediately above where the product should be located, click **New product** and enter a descriptive name for the product.
 

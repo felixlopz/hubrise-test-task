@@ -31,7 +31,7 @@ If the contrast between the colours are too high, a lighter shade or lower opaci
 
 ## Naming Convention
 
-File naming convention for diagrams follow the exact same logic as images. For more information, see [Image Naming Convention](/contributing/screenshots-guide/#naming-convention).
+File naming convention for diagrams follow the exact same logic as images. For more information, see [Image Naming Convention](/contributing/screenshots-guide#naming-convention).
 
 ## Icons
 

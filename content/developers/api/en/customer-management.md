@@ -141,7 +141,7 @@ No event is fired in the process.
 
 ## 2. Customers
 
-### 2.1. Retrieve Customer
+### 2.1. Retrieve Customer(#retrieve-customer)
 
 Returns a customer's details.
 
@@ -254,12 +254,12 @@ There is no mandatory field so a customer can be created with no information the
 | `city` <Label type="optional" />              | string                                                      | City.                                                                                                                                                    |
 | `state` <Label type="optional" />             | string                                                      | State.                                                                                                                                                   |
 | `country` <Label type="optional" />           | string                                                      | The two-letter country code as defined in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).                                        |
-| `latitude` <Label type="optional" />          | [decimal](/developers/api/general-concepts/#decimal-values) | Latitude of the customer address.                                                                                                                        |
-| `longitude` <Label type="optional" />         | [decimal](/developers/api/general-concepts/#decimal-values) | Longitude of the customer address.                                                                                                                       |
+| `latitude` <Label type="optional" />          | [decimal](/developers/api/general-concepts#decimal-values) | Latitude of the customer address.                                                                                                                        |
+| `longitude` <Label type="optional" />         | [decimal](/developers/api/general-concepts#decimal-values) | Longitude of the customer address.                                                                                                                       |
 | `delivery_notes` <Label type="optional" />    | string                                                      | Information provided by the customer to help with the delivery.                                                                                          |
 | `sms_marketing` <Label type="optional" />     | boolean                                                     | Whether the customer agrees to receive marketing messages via SMS. Defaults to `false`.                                                                  |
 | `email_marketing` <Label type="optional" />   | boolean                                                     | Whether the customer agrees to receive marketing messages via email. Defaults to `false`.                                                                |
-| `custom_fields` <Label type="optional" />     | [CustomFields](/developers/api/extensions/#custom-fields)   | Additional data attached to the customer.                                                                                                                |
+| `custom_fields` <Label type="optional" />     | [CustomFields](/developers/api/extensions#custom-fields)   | Additional data attached to the customer.                                                                                                                |
 
 (\*) The E.164 format must be used for any new implementation. Be aware however that phone numbers retrieved from the API can be encoded in a different format. The E.164 will become mandatory in a future release.
 
@@ -308,7 +308,7 @@ Updates a customer. Only the fields present in the request are updated.
 }
 ```
 
-### 2.5. Anonymise Customer
+### 2.5. Anonymise Customer(#anonymise-customer)
 
 Deletes a customer's personal information.
 
@@ -550,7 +550,7 @@ Create a loyalty card operation and updates the balance accordingly.
 | ------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `order_id` <Label type="optional" /> | string                                                      | Attach this operation to a particular order. If defined, an order with this id must exist or the request will fail. An order can be attached to several operations. |
 | `reason` <Label type="optional" />   | string                                                      | Describes how the points were obtained/redeemed. The customer will typically see this field when he checks his loyalty account operations from a website.           |
-| `delta`                              | [decimal](/developers/api/general-concepts/#decimal-values) | The number of points to add to the customer balance. Use a negative number to remove points.                                                                        |
+| `delta`                              | [decimal](/developers/api/general-concepts#decimal-values) | The number of points to add to the customer balance. Use a negative number to remove points.                                                                        |
 
 ##### Example request:
 

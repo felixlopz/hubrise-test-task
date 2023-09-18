@@ -25,7 +25,7 @@ To view Usage details for an Account or Location:
 
 ---
 
-## Usage Plans
+## Usage Plans(#plan)
 
 HubRise provides both free and paid plans for its services. For complete information on plans and pricing, see the [HubRise Price page](/pricing/).
 
@@ -33,7 +33,7 @@ Free plans are available for Locations with a limited number of transactions a m
 
 During the test phase prior to launch, you can request a free plan with an extended quota of orders. Contact HubRise at support@hubrise.com.
 
-## Plan Notifications
+## Plan Notifications(#plan-notifications)
 
 When there is an issue with a plan, Users with Admin permission to the Account or the related Location receive an email. A notification will also appear in the HubRise back office.
 
@@ -42,7 +42,7 @@ Notifications in the HubRise back office can be displayed for any reason involvi
 - A Location has exceeded its free transactions limits and no payment method is saved in HubRise.
 - The credit card has expired and you need to update it.
 - The credit card could not be processed after a couple of automated payment attempts. For safety reasons, your bank might require you to enter the 3-digit security code again.
-- The credit card has been saved in HubRise for payments but outstanding Requests for Payment have not been paid. For more information, see [Process Requests for Payment](/docs/payment/#process-requests-for-payment).
+- The credit card has been saved in HubRise for payments but outstanding Requests for Payment have not been paid. For more information, see [Process Requests for Payment](/docs/payment#process-requests-for-payment).
 
 If a payment notification appears, click the link and follow the instructions to resolve the issue. For more information on available plans, see [Usage Plans](#usage-plans).
 
@@ -68,6 +68,6 @@ To change the plan of a Location, follow these steps:
 
 ---
 
-**IMPORTANT NOTE**: To upgrade, you must have a payment method set up. For information, see [Add a Payment Method](/docs/payment/#add-a-payment-method). Your Account will not be charged until you exceed the free monthly limitation.
+**IMPORTANT NOTE**: To upgrade, you must have a payment method set up. For information, see [Add a Payment Method](/docs/payment#add-payment-method). Your Account will not be charged until you exceed the free monthly limitation.
 
 ---

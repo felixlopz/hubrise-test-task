@@ -156,7 +156,7 @@ To receive your HOP Delivery orders in Lightspeed, use the following values to c
 | Payments      | HOP payment ref code          | `HOPPM`       |
 | Payments      | Cash payment ref code         | (leave empty) |
 
-## Smood
+## Smood(#smood)
 
 To receive your Smood orders in Lightspeed, use the following values to configure Smood. For assistance, contact Smood support team.
 For more details on how to configure the parameters in Smood, see the [Smood documentation](/apps/smood).

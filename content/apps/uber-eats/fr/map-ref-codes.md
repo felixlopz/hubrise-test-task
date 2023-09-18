@@ -24,7 +24,7 @@ Répétez cette procédure pour chacun de vos produits.
 
 Notez que les articles se trouvant sous l'onglet **Groupes de modificateurs** comportent également un champ **Données externes**, mais il n'est pas nécessaire d'entrer de valeur puisque celle-ci n'est pas envoyée à votre logiciel de caisse.
 
-## Commentaires sur les produits
+## Commentaires sur les produits(#product-notes)
 
 ---
 

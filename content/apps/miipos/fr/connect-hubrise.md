@@ -40,8 +40,8 @@ L'ajout d'un utilisateur est le moyen recommandé de donner l'autorisation d'acc
 
 Pour demander la connexion de votre caisse MiiPos à HubRise, contactez l'équipe de support de MiiPos par email sur contact@arcsolu.com. Vous pouvez inclure support@hubrise.com en copie pour un suivi coordonné entre nos deux équipes.
 
-Indiquez dans votre demande le nom de votre compte HubRise, son identifiant HubRise et le point de vente à connecter. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#nom-et-identifiant-du-point-de-vente).
+Indiquez dans votre demande le nom de votre compte HubRise, son identifiant HubRise et le point de vente à connecter. Pour plus d'informations voir [Nom et identifiant du point de vente](/docs/points-de-vente#location-name-and-id).
 
 ## Déconnecter MiiPos
 
-Vous pouvez bloquer les échanges de données entre MiiPos et HubRise, ou déconnecter l'application MiiPos, depuis le back office de HubRise. Pour plus d'informations, voir [Bloquer ou déconnecter une application](/docs/connexions#bloquer-ou-d-connecter-une-application).
+Vous pouvez bloquer les échanges de données entre MiiPos et HubRise, ou déconnecter l'application MiiPos, depuis le back office de HubRise. Pour plus d'informations, voir [Bloquer ou déconnecter une application](/docs/connexions#block-or-disconnect).

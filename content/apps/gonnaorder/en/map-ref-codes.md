@@ -55,7 +55,7 @@ To assign a ref codes to your delivery fees from the GonnaOrder dashboard, follo
 3. Specify the ref code for your delivery fees in the **Delivery fee external id** field. Changes are automatically saved.
    ![Configuring delivery fees ref codes from the GonnaOrder back office](./images/007-gonnaorder-delivery-fees.png)
 
-For more details about configuring your GonnaOrder integration with HubRise, see the [GonnaOrder documentation](https://www.gonnaorder.com/help/store-settings/integrations/hubrise-integration/#special-hubrise-settings).
+For more details about configuring your GonnaOrder integration with HubRise, see the [GonnaOrder documentation](https://www.gonnaorder.com/help/store-settings/integrations/hubrise-integration#special-hubrise-settings).
 
 ## Payment Methods
 

@@ -10,7 +10,7 @@ meta:
 
 There are two ways to populate your catalogs on HubRise.
 
-You can populate it using the Catalog Manager app. For more information, see [Create a Product](/apps/catalog-manager/products/#create-a-product).
+You can populate it using the Catalog Manager app. For more information, see [Create a Product](/apps/catalog-manager/products#create).
 
 You can also push a product catalog or menu into a HubRise catalog using an EPOS, an online ordering solution, a food ordering platform or any other app connected to your HubRise account. To find out if the app you want to use integrated the catalog push feature, refer to your app documentation on the HubRise website [Apps page](https://www.hubrise.com/apps). After a push, you might in some cases, need to rearrange or augment the details for your product items by adding photos or more detailed descriptions using Catalog Manager.
 

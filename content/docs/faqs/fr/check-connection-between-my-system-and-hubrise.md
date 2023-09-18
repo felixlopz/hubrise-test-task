@@ -19,7 +19,7 @@ Si des commandes sont passées dans une application connectée, elles peuvent ê
 1. Pour voir toutes les commandes qui transitent par le compte, vérifiez que **Tous les points de vente** est sélectionné. Vous pouvez aussi sélectionner le lieu à visualiser dans la liste des **points de vente** pour affiner votre recherche.
 1. Si des transactions sont effectuées, vous les verrez apparaître ici. Les commandes sont indiquées par ordre chronologique inverse.
 
-Pour plus de détails, voir la rubrique [Commandes](/docs/donnees#commandes).
+Pour plus de détails, voir la rubrique [Commandes](/docs/donnees#orders).
 
 ## Afficher l'activité dans l'application
 
@@ -28,7 +28,7 @@ Chaque application affiche l'activité la plus récente sous forme de graphique.
 1. Cliquez sur **CONNEXIONS**.
 1. Pour l'application concernée, cliquez sur **Actions** > **Voir l'activité**.
 
-Pour plus d'informations, voir la rubrique [Afficher l'activité de connexion](/docs/connexions#afficher-l-activit-de-connexion).
+Pour plus d'informations, voir la rubrique [Afficher l'activité de connexion](/docs/connexions#connection-activity).
 
 ## Afficher les logs des applications
 
@@ -37,7 +37,7 @@ Les applications connectées à HubRise génèrent des fichiers journaux qui per
 1. Cliquez sur **CONNEXIONS**.
 1. Pour l'application concernée, cliquez sur **Actions** > **Voir les logs**.
 
-Pour plus d'informations, voir la rubrique [Afficher les logs de connexion](/docs/connexions#afficher-les-logs-de-connexion).
+Pour plus d'informations, voir la rubrique [Afficher les logs de connexion](/docs/connexions#connection-logs).
 
 ## Vous avez encore besoin d'aide ?
 

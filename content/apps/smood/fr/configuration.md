@@ -22,32 +22,32 @@ Pour ouvrir la page de configuration, suivez ces étapes :
 
 Vous êtes également redirigé vers la page de configuration lorsque vous connectez Smood à HubRise. Pour plus d'informations, voir la rubrique [Connexion à HubRise](/apps/smood/connexion-hubrise).
 
-## Configurer vos paramètres
+## Configurer vos paramètres(#parameters)
 
 ![Page de configuration Smood](./images/003-configuration.png)
 
-### Types de service
+### Types de service(#service-types)
 
-Les types de service tels que **Livraison par la plateforme de livraison**, **Livraison par le restaurant**, ou **À L'emporter**, peuvent nécessiter une entrée de code ref correspondante. Pour vérifier, reportez-vous à la documentation de votre logiciel de caisse sur la [page Apps](/apps/) du site internet de HubRise. Pour plus d'informations, voir le paragraphe **Terminologie**, section [Types de service Smood](/apps/smood/terminologie/#types-de-service-smood).
+Les types de service tels que **Livraison par la plateforme de livraison**, **Livraison par le restaurant**, ou **À L'emporter**, peuvent nécessiter une entrée de code ref correspondante. Pour vérifier, reportez-vous à la documentation de votre logiciel de caisse sur la [page Apps](/apps/) du site internet de HubRise. Pour plus d'informations, voir le paragraphe **Terminologie**, section [Types de service Smood](/apps/smood/terminologie#smood-service-types).
 
 De plus, dans cette section, vous pouvez choisir de marquer les commandes Smood en livraison comme des commandes en livraison ou comme des commandes à emporter pour que d'autres applications connectées puissent les traiter selon leurs besoins. Les commandes livrées par le restaurant sont toujours identifiées comme des commandes en livraisons.
 
-### Remises
+### Remises(#discounts)
 
 Dans cette section, vous pouvez configurer les codes ref à utiliser pour les remises et promotions envoyées à HubRise :
 
 - **Remise** : remises qui s'appliquent à l'intégralité de la commande, par exemple une remise de 10 %.
 - **Promotion** : remises qui s'appliquent à un ensemble d'articles dans le menu, comme une formule (entrée, plat principal et dessert).
 
-### Frais
+### Frais(#charges)
 
 Des frais de livraison s'appliquent aux commandes livrées par le restaurant. Dans cette section, vous pouvez configurer le code ref à utiliser.
 
-### Paiements
+### Paiements(#payments)
 
 Toutes les commandes Smood sont payables en ligne. Les commandes envoyées au logiciel de caisse incluent un paiement. Dans cette section, vous pouvez configurer le code ref à utiliser.
 
-### Paramètres de synchronisation
+### Paramètres de synchronisation(#synchronisation-settings)
 
 Les cases à cocher de cette section permettent de configurer le flux de synchronisation entre Smood et HubRise :
 

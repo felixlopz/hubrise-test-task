@@ -99,7 +99,7 @@ For every option in an option list, Smood uses the following information:
 - `name`: The option name.
 - `price`: The price for a single option.
 
-### Deals
+### Deals(#deals)
 
 In HubRise, deals are promotions which apply to a specific set of products. An example deal is a **Lunch menu** deal, that includes a pizza and a dessert.
 
