@@ -62,10 +62,10 @@ const Navigator = ({ mdFile, folder, headerLinks }: NavigatorProps): JSX.Element
                 <SubList>
                   {headerLinks
                     .filter(({ depth }) => depth === 2)
-                    .map(({ id, title }, idx) => (
+                    .map(({ title, generatedId }, idx) => (
                       <li key={generateKey(title, idx)}>
                         <SubItemLink
-                          href={`#${id}`}
+                          href={`#${generatedId}`}
                           onClick={isMobile ? () => setIsExpanded(false) : undefined}
                           $isActive={currentTitle === title}
                         >

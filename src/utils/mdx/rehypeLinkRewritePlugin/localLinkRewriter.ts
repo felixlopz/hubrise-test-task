@@ -94,14 +94,14 @@ export class LocalLinkRewriter {
     }
 
     // Find anchor
-    const headerLink = headerLinks.find((link) => link.id === anchor)
+    const headerLink = headerLinks.find((link) => (link.customId || link.generatedId) === anchor)
     if (!headerLink) {
-      const anchors = headerLinks.map((link) => link.id)
+      const anchors = headerLinks.map((link) => link.customId || link.generatedId)
       throw new Error(
         `${this.pageHref}: anchor "${anchor}" does not exist in ${route?.href || this.pageHref}.\n` +
           `Available anchors: ${anchors.join(", ")}`,
       )
     }
-    return headerLink.id
+    return headerLink.generatedId
   }
 }
