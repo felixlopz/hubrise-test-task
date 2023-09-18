@@ -49,4 +49,4 @@ To connect Glovo Bridge to HubRise, follow these steps.
 
 After connecting the bridge, you need to configure a few parameters on the **Configuration** page to send orders correctly to your EPOS.
 
-For more information about the configuration page and how to navigate to it, see [Configuration Page](/apps/glovo/user-interface/#configuration-page) in the User Interface section. For details on how to configure the parameters of Glovo Bridge, see [Configuration](/apps/glovo/configuration).
+For more information about the configuration page and how to navigate to it, see [Configuration Page](/apps/glovo/user-interface/#configuration) in the User Interface section. For details on how to configure the parameters of Glovo Bridge, see [Configuration](/apps/glovo/configuration).

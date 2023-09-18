@@ -140,7 +140,7 @@ For every sku in a product, Glovo Bridge sends the following information to Glov
 - `sku.ref`: The ref of the sku, which will be passed along in orders
 - `description`: The description of the product
 - `sku.price`: The price of the sku
-- `tags`: Tags describing the characteristics and restrictions of the product, such as allergens or spiciness. See [Product Tags](#product-tags).
+- `tags`: Tags describing the characteristics and restrictions of the product, such as allergens or spiciness.
 - `image`: The URL of the image of the parent product
 - `sku.option_list_refs`: The list of options attached to the sku
 

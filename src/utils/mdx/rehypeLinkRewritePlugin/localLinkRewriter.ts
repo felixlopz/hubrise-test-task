@@ -98,7 +98,7 @@ export class LocalLinkRewriter {
     if (!headerLink) {
       const anchors = headerLinks.map((link) => link.id)
       throw new Error(
-        `${this.pageHref}: anchor "${anchor}" does not exist in ${this.pageHref}.\n` +
+        `${this.pageHref}: anchor "${anchor}" does not exist in ${route?.href || this.pageHref}.\n` +
           `Available anchors: ${anchors.join(", ")}`,
       )
     }

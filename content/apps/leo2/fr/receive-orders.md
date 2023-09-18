@@ -39,7 +39,7 @@ Pour voir les détails d'une commande, suivez les étapes suivantes :
 
 Pour modifier le statut d'une commande, suivez les étapes suivantes :
 
-1. Accédez à la liste des commandes en suivant les étapes décrites dans [Affichage des commandes](/apps/leo2/recevoir-commandes#liste-des-commandes).
+1. Accédez à la liste des commandes en suivant les étapes décrites dans [Voir la liste des commandes](/apps/leo2/recevoir-commandes#voir-la-liste-des-commandes).
 1. Cliquez sur la colonne **Etat**.
 1. Sélectionnez le nouveau statut de la commande.
    ![Commandes - Statuts d'une commande](./images/012-leo2-order-statuses.png)

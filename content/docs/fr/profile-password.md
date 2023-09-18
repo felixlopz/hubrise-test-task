@@ -63,7 +63,7 @@ Pour plus d'informations, voir la rubrique [Permissions](/docs/permissions/).
 Pour créer un nouveau compte, procédez comme suit :
 
 1. Cliquez sur votre nom dans le coin supérieur droit du back-office de HubRise, puis cliquez sur **Profil**.
-1. Dans la section **Permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/comptes#cr-er-un-compte/).
+1. Dans la section **Permissions**, cliquez sur **Créer un compte**. Pour plus d'informations, voir la rubrique [Créer un compte](/docs/comptes#cr-er-un-compte).
 
 ![Mes permissions dans HubRise](./images/056-2x-my-permissions.png)
 

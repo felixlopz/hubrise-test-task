@@ -49,7 +49,7 @@ L'ajout d'un utilisateur est le moyen recommandé de donner accès à un tiers �
 
 ## Déconnecter Koust
 
-1. Suivez les 3 premières étapes de la partie [Se connecter](/apps/koust/connexion-hubrise#se-connecter).
+1. Suivez les 3 premières étapes de la partie [Se connecter](/apps/koust/connexion-hubrise#connecter-koust).
    ![Connexion à HubRise - Onglet Intégrations après connexion](./images/004-koust-connected.png)
 1. Cliquez sur le bloc **HubRise** présent dans la liste des intégrations. Une boîte de dialogue s'affiche.
    ![Connexion à HubRise - Se déconnecter](./images/005-koust-hubrise-information.png)

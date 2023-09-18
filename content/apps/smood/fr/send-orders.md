@@ -39,7 +39,7 @@ Smood envoie les statuts suivants à HubRise :
 - `in_delivery` : un chauffeur Smood récupère la commande.
 - `completed` : le restaurant termine la commande sur la tablette Smood ou le chauffeur marque la commande comme livrée sur l'application mobile.
 
-Smood informe toujours HubRise de l'annulation d'une commande en envoyant le statut `cancelled`. Les autres statuts ne sont synchronisés que si l'option **Activer la synchronisation automatique du statut de Smood à HubRise** est activée dans la [page de configuration](/apps/smood/configuration#synchronisation-settings).
+Smood informe toujours HubRise de l'annulation d'une commande en envoyant le statut `cancelled`. Les autres statuts ne sont synchronisés que si l'option **Activer la synchronisation automatique du statut de Smood à HubRise** est activée dans la [page de configuration](/apps/smood/configuration#param-tres-de-synchronisation).
 
 ## Informations générales
 

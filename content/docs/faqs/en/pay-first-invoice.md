@@ -33,7 +33,7 @@ To verify your billing information at Account level, follow these steps:
 1. Fill in the information required under **Billing details**.
 1. Click **Update**.
 
-Follow the exact same steps to verify your billing information for payment at Location level but click **Modify location**. For step by step information, see [Account or Location Payments](/docs/payment#billing-information-at-location-level).
+Follow the exact same steps to verify your billing information for payment at Location level but click **Modify location**. For step by step information, see [Account or Location Payments](/docs/payment#account-or-location-payments).
 
 ## Pay Online
 

@@ -113,7 +113,7 @@ Les produits ont une ou plusieurs skus. Pour chaque produit avec plusieurs skus,
 - `name` : le nom du produit.
 - `description` : la description du produit.
 - `price` : le prix minimum de tous les SKUs.
-- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir [Tags produit](#tags-produits).
+- `tags` : balises décrivant les caractéristiques et les restrictions du produit, telles que les allergènes ou la saveur épicée. Voir [Tags produit](#tags-produit).
 - `image` : adresse URL de la photo du produit.
 
 La liste des skus est jointe au produit sous la forme d'une table de modification.
