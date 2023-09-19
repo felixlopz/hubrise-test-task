@@ -4,8 +4,6 @@ import type { Language } from "prism-react-renderer"
 import { Highlight, Prism, themes } from "prism-react-renderer"
 import * as React from "react"
 
-import { generateKey } from "@utils/misc"
-
 import { StyledHighlight } from "./Styles"
 
 interface PreProps {
@@ -42,7 +40,7 @@ const Pre = ({ children }: PreProps): JSX.Element | null => {
                 ))}
                 <span aria-hidden className="line-numbers-rows">
                   {trimmedTokens.map((line, idx) => (
-                    <span key={generateKey(line[0].content, idx)} />
+                    <span key={idx} />
                   ))}
                 </span>
               </div>
