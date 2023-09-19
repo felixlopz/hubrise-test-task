@@ -52,7 +52,7 @@ describe("Documentation", () => {
 
     it("generates localised header anchors even with custom anchors", () => {
       cy.visit("/fr/apps/0test")
-      cy.get("#fonctionnalit-s-de-l-int-gration").contains("Fonctionnalités de l'intégration")
+      cy.get("#fonctionnalites-de-l-integration").contains("Fonctionnalités de l'intégration")
     })
 
     it("navigates via custom anchors", () => {
