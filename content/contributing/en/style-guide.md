@@ -130,7 +130,7 @@ To create a link to another page in the documentation, use the following format:
 
 `[Deliveroo](/apps/deliveroo/overview)`
 
-Internal links start with `/` and include the file path, starting from the `content` directory, with the exception of the language folder (`en` or `fr`), which is omitted.
+Internal links start with `/` and include the file path, relative to the `content` directory. The language folder (`en` or `fr`) is omitted.
 
 ### Anchors
 

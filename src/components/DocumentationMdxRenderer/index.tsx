@@ -101,7 +101,7 @@ const preProcessContent = (content: string): string => {
   // Escape the {#...} pattern used for anchors.
   // From: ## 2. Connect Deliveroo Bridge {#connect}
   // To:   ## 2. Connect Deliveroo Bridge \{#connect\}
-  return content.replace(/(#+ .+?) \{#(.+?)\}/g, "$1 \\{#$2\\}")
+  return content.replace(/^(#+ .+?) \{#(.+?)\}/gm, '$1 \\{#$2\\}');
 }
 
 const MIN_IMAGE_WIDTH_FOR_SLIDESHOW = 200
