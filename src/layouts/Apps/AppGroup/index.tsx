@@ -2,7 +2,6 @@ import Block from "@components/Block"
 import useTranslation from "@hooks/client/useTranslation"
 import { AppsYaml } from "@layouts/Apps/types"
 import { ContentImage } from "@utils/contentImage"
-import { generateKey } from "@utils/misc"
 
 import {
   Group,
@@ -39,7 +38,7 @@ const App = ({
     <Block backgroundColor="none" title={showTitle ? title : undefined}>
       <Group>
         {apps.map((app, idx) => (
-          <AppBoxLink key={generateKey(title, idx)} href={app.documentation || app.website}>
+          <AppBoxLink key={idx} href={app.documentation || app.website}>
             {logoImages[app.logo] && (
               <AppLogo>
                 <AppLogoImage {...logoImages[app.logo]} alt={app.title} />

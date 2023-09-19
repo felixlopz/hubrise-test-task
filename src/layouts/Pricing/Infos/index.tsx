@@ -1,7 +1,6 @@
 import { BlockContentButton, BlockContentLink } from "@components/BlockContent"
 import { useLayoutContext } from "@components/LayoutContext"
 import { PricingYaml } from "@layouts/Pricing/types"
-import { generateKey } from "@utils/misc"
 
 import { Text, Title, Info, StyledInfos } from "./Styles"
 
@@ -15,7 +14,7 @@ const Infos = ({ infos }: InfosProps): JSX.Element => {
   return (
     <StyledInfos>
       {infos.map((special, idx) => (
-        <Info key={generateKey(special.highlight, idx)}>
+        <Info key={idx}>
           <Title>{special.highlight}</Title>
 
           <Text>

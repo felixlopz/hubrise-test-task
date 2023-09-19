@@ -3,7 +3,6 @@
 import { AppsYaml } from "@layouts/Apps/types"
 import { ContentImage } from "@utils/contentImage"
 import { Language } from "@utils/locales"
-import { generateKey } from "@utils/misc"
 
 import AppGroup from "./AppGroup"
 import Developer from "./Developer"
@@ -30,7 +29,7 @@ const Apps = ({ language, yaml, logoImages, categoryTitle }: AppsProps): JSX.Ele
         if (!categoryTitle || categoryTitle === title) {
           return (
             <AppGroup
-              key={generateKey(title, idx)}
+              key={idx}
               title={title}
               showTitle={!categoryTitle}
               apps={apps}
