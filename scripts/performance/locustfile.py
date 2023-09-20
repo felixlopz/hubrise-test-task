@@ -1,3 +1,7 @@
+# Run this file with:
+# locust -f locustfile.py --host=https://www.hubrise.com --users 10 --spawn-rate 10 --headless
+# Then go to http://localhost:8089/ to start the test
+
 from locust import HttpUser, task, between
 from bs4 import BeautifulSoup
 import random
@@ -8,27 +12,18 @@ class HubRiseUser(HttpUser):
     visited_pages = set()
     downloaded_assets = set()
 
-    def download_assets(self, soup, current_page):
-        # Download CSS
-        for link in soup.find_all('link', {'rel': 'stylesheet'}):
-            css_url = link.get('href')
-            if css_url and css_url not in self.downloaded_assets:
-                self.client.get(css_url)
-                self.downloaded_assets.add(css_url)
+    def download_assets(self, soup):
+        def download_asset(asset_type, attrs, attr_key):
+            for asset in soup.find_all(asset_type, attrs):
+                asset_url = asset.get(attr_key)
+                if asset_url and asset_url not in self.downloaded_assets:
+                    self.client.get(asset_url)
+                    self.downloaded_assets.add(asset_url)
 
-        # Download JS
-        for script in soup.find_all('script', {'src': True}):
-            js_url = script.get('src')
-            if js_url and js_url not in self.downloaded_assets:
-                self.client.get(js_url)
-                self.downloaded_assets.add(js_url)
-
-        # Download Images
-        for img in soup.find_all('img', {'src': True}):
-            img_url = img.get('src')
-            if img_url and img_url not in self.downloaded_assets:
-                self.client.get(img_url)
-                self.downloaded_assets.add(img_url)
+        # Download CSS, JS and Images
+        download_asset('link', {'rel': 'stylesheet'}, 'href')
+        download_asset('script', {'src': True}, 'src')
+        download_asset('img', {'src': True}, 'src')
 
     @task
     def browse(self):
@@ -39,17 +34,16 @@ class HubRiseUser(HttpUser):
             print("No more pages to visit. Script has completed.")
             return
 
-        next_page = self.pages_to_visit.pop()
+        # Choose a page to visit
+        next_page = random.choice(list(self.pages_to_visit))
         self.visited_pages.add(next_page)
 
         response = self.client.get(next_page)
         soup = BeautifulSoup(response.text, 'html.parser')
 
         # Download assets for new pages
-        self.download_assets(soup, next_page)
+        self.download_assets(soup)
 
         # Extract and add new internal links to pages_to_visit
         links = [link.get('href') for link in soup.find_all('a') if link.get('href') and link.get('href').startswith('/')]
         self.pages_to_visit.update(links)
-
-# Run this file with: locust -f locustfile.py --host=https://www.hubrise.com

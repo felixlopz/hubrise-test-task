@@ -23,7 +23,7 @@ pip3 install beautifulsoup4
 ## Running the Script
 
 1. Navigate to the directory containing `locustfile.py`.
-2. Run the following command:
+2. Run the following command, or the command indicated in the `locustfile.py` file:
 
 ```bash
 locust -f locustfile.py --host=https://www.hubrise.com
