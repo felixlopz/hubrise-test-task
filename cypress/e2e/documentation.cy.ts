@@ -34,6 +34,7 @@ describe("Documentation", () => {
       cy.get("a")
         .contains("lien local par chemin de fichier")
         .should("have.attr", "href", "/fr/apps/0test/connexion-hubrise")
+        .should("not.have.attr", "target")
     })
 
     it("allows local links to contain anchors", () => {
@@ -41,15 +42,16 @@ describe("Documentation", () => {
       cy.get("a")
         .contains("lien local avec ancre")
         .should("have.attr", "href", "/fr/apps/0test/connexion-hubrise#se-connecter")
+        .should("not.have.attr", "target")
     })
 
     it("allows local links to be just an anchor", () => {
       cy.visit("/fr/apps/0test")
-      cy.get("a").contains("ancre seule").should("have.attr", "href", "/fr/apps/0test#description")
+      cy.get("a").contains("ancre seule").should("have.attr", "href", "#description").should("not.have.attr", "target")
     })
   })
 
-  describe("Anchors", () => {
+  describe("Header anchors", () => {
     it("generates localised header anchors", () => {
       cy.visit("/fr/apps/0test")
       cy.get("#pourquoi-se-connecter").contains("Pourquoi se connecter ?")
