@@ -139,8 +139,11 @@ export const StyledContainer = styled.div`
   }
 
   details {
-    ${mixin.clickable};
     margin: 1rem 0;
+  }
+
+  summary {
+    ${mixin.clickable};
   }
 
   code {
