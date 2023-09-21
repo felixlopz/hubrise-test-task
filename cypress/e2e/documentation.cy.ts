@@ -42,6 +42,11 @@ describe("Documentation", () => {
         .contains("lien local avec ancre")
         .should("have.attr", "href", "/fr/apps/0test/connexion-hubrise#se-connecter")
     })
+
+    it("allows local links to be just an anchor", () => {
+      cy.visit("/fr/apps/0test")
+      cy.get("a").contains("ancre seule").should("have.attr", "href", "/fr/apps/0test#description")
+    })
   })
 
   describe("Anchors", () => {

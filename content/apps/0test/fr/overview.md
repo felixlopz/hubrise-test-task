@@ -29,7 +29,7 @@ app_info:
 
 ---
 
-## Description
+## Description {#description}
 
 Acme est un logiciel de caisse sous Windows / iPad / tablette / etc.
 
@@ -53,6 +53,9 @@ Acme peut être connecté à HubRise depuis le back-office de Acme.
 Pour créer des liens locaux, utiliser le chemin de fichier : [lien local par chemin de fichier](/apps/0test/connect-hubrise).
 
 Les liens locaux peuvent aussi contenir des ancres : [lien local avec ancre](/apps/0test/connect-hubrise#connect)
+
+Un lien local peut simplement être une ancre : [ancre seule](#description)
+
 
 ## Pourquoi se connecter ?
 
