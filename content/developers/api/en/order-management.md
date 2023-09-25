@@ -332,11 +332,11 @@ In addition, each `item`, `charge`, `payment` and `discount` is returned with a 
   "delivery": {
     "carrier": "Uber Direct",
     "carrier_ref": "uber",
+    "ref": "1Z12345E0291980793",
     "status": "pickup_approaching",
     "fee": "4.00 EUR",
     "estimated_pickup_at": "2021-06-24T19:01:00+02:00",
     "estimated_dropoff_at": "2021-06-24T19:07:00+02:00",
-    "tracking_number": "1Z12345E0291980793",
     "tracking_url": "https://uber.com/track/1Z12345E0291980793",
     "driver_name": "John",
     "driver_phone": "+33612345678",
@@ -991,25 +991,25 @@ A delivery can only be created if:
 
 ##### Parameters:
 
-| Name                                                 | Type                                                       | Description                                                       |
-| ---------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------- |
-| `carrier`                                            | `string`                                                   | The name of the carrier.                                          |
-| `carrier_ref` <Label type="optional" />              | `string`                                                   | A ref code that identifies the carrier.                           |
-| `status`                                             | `string`                                                   | The delivery status. See [Delivery Statuses](#delivery-statuses). |
-| `fee` <Label type="optional" />                      | `string`                                                   | The delivery fee charged by the carrier to the business.          |
-| `estimated_pickup_at` <Label type="optional" />      | [Time](/developers/api/general-concepts#dates-and-times)   | The pickup time, estimated by the carrier.                        |
-| `estimated_dropoff_at` <Label type="optional" />     | [Time](/developers/api/general-concepts#dates-and-times)   | The drop-off time, estimated by the carrier.                      |
-| `tracking_number` <Label type="optional" />          | `string`                                                   | The tracking number provided by the carrier.                      |
-| `tracking_url` <Label type="optional" />             | `string`                                                   | The URL of a page where the customer can track the delivery.      |
-| `driver_name` <Label type="optional" />              | `string`                                                   | The driver name.                                                  |
-| `driver_phone` <Label type="optional" />             | `string`                                                   | The driver phone number.                                          |
-| `driver_phone_access_code` <Label type="optional" /> | `string`                                                   | The access code to provide when calling the phone number above.   |
-| `driver_latitude` <Label type="optional" />          | [decimal](/developers/api/general-concepts#decimal-values) | The current latitude of the driver.                               |
-| `driver_longitude` <Label type="optional" />         | [decimal](/developers/api/general-concepts#decimal-values) | The current longitude of the driver.                              |
-| `assigned_at` <Label type="optional" />              | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `assigned`.                            |
-| `pickup_at` <Label type="optional" />                | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `pickup_waiting`.                      |
-| `delivered_at` <Label type="optional" />             | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `delivered`.                           |
-| `cancelled_at` <Label type="optional" />             | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `cancelled`.                           |
+| Name                                                 | Type                                                       | Description                                                          |
+| ---------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------- |
+| `carrier`                                            | `string`                                                   | The name of the carrier.                                             |
+| `carrier_ref` <Label type="optional" />              | `string`                                                   | A ref code that identifies the carrier.                              |
+| `ref` <Label type="optional" />                      | `string`                                                   | The carrier's identifier of the delivery, such as a tracking number. |
+| `status`                                             | `string`                                                   | The delivery status. See [Delivery Statuses](#delivery-statuses).    |
+| `fee` <Label type="optional" />                      | `string`                                                   | The delivery fee charged by the carrier to the business.             |
+| `estimated_pickup_at` <Label type="optional" />      | [Time](/developers/api/general-concepts#dates-and-times)   | The pickup time, estimated by the carrier.                           |
+| `estimated_dropoff_at` <Label type="optional" />     | [Time](/developers/api/general-concepts#dates-and-times)   | The drop-off time, estimated by the carrier.                         |
+| `tracking_url` <Label type="optional" />             | `string`                                                   | The URL of a page where the customer can track the delivery.         |
+| `driver_name` <Label type="optional" />              | `string`                                                   | The driver name.                                                     |
+| `driver_phone` <Label type="optional" />             | `string`                                                   | The driver phone number.                                             |
+| `driver_phone_access_code` <Label type="optional" /> | `string`                                                   | The access code to provide when calling the phone number above.      |
+| `driver_latitude` <Label type="optional" />          | [decimal](/developers/api/general-concepts#decimal-values) | The current latitude of the driver.                                  |
+| `driver_longitude` <Label type="optional" />         | [decimal](/developers/api/general-concepts#decimal-values) | The current longitude of the driver.                                 |
+| `assigned_at` <Label type="optional" />              | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `assigned`.                               |
+| `pickup_at` <Label type="optional" />                | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `pickup_waiting`.                         |
+| `delivered_at` <Label type="optional" />             | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `delivered`.                              |
+| `cancelled_at` <Label type="optional" />             | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `cancelled`.                              |
 
 <details>
 
@@ -1021,11 +1021,11 @@ A delivery can only be created if:
 {
   "carrier": "UPS",
   "carrier_ref": "ups",
+  "ref": "1Z12345E0291980793",
   "status": "pending",
   "fee": "4.50 EUR",
   "estimated_pickup_at": "2023-01-01T12:00:00+01:00",
   "estimated_dropoff_at": "2023-01-01T12:30:00+01:00",
-  "tracking_number": "1Z12345E0291980793",
   "tracking_url": "https://www.ups.com/track?tracknum=1Z12345E0291980793",
   "driver_name": "John",
   "driver_phone": "+33612345678",
@@ -1039,7 +1039,7 @@ A delivery can only be created if:
 
 #### Delivery statuses {#delivery-statuses}
 
-The following statuses are available, in chronological order:
+The following statuses are available:
 
 | Status                | Description         |
 | --------------------- | ------------------- |
@@ -1080,8 +1080,6 @@ This endpoint can only be called if the order has a delivery. An error is return
 </details>
 
 All fields can be updated, except: `carrier`, `carrier_ref`, `fee`.
-
-The `status` field must advance chronologically. For example, `pending` -> `pickup_enroute` is a valid status update; `pickup_enroute` -> `assigned` is not.
 
 #### Auto-updated fields
 
