@@ -1,6 +1,6 @@
 ---
 title: Orders
-path_override: order-management
+path_override: orders
 position: 4
 layout: documentation
 meta:
