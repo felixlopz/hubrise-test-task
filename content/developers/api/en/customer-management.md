@@ -1,7 +1,7 @@
 ---
 title: Customer Management
 path_override: customer-management
-position: 6
+position: 7
 layout: documentation
 meta:
   title: Customer Management | API | HubRise

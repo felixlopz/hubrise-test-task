@@ -1,7 +1,7 @@
 ---
 title: Catalog Management
 path_override: catalog-management
-position: 5
+position: 6
 layout: documentation
 meta:
   title: Catalog Management | API | HubRise

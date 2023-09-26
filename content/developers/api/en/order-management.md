@@ -1,10 +1,10 @@
 ---
-title: Order Management
+title: Orders
 path_override: order-management
 position: 4
 layout: documentation
 meta:
-  title: Order Management | API | HubRise
+  title: Orders | API | HubRise
   description:
 ---
 
@@ -974,125 +974,13 @@ If payments are omitted, the order should be considered as unpaid.
 
 ## 11. Order Delivery {#delivery}
 
-A delivery can optionally be attached to an order. It is used to track the delivery, including the estimated pickup and drop-off times, the driver details and the delivery status.
+A delivery can be attached to an order whose service type is `delivery`. This is used for tracking delivery status, pickup and drop-off times, driver details and other details. For more information about attaching and updating deliveries, see [Deliveries](/developers/api/deliveries).
 
-### Create a Delivery
+An order with an attached delivery includes a `delivery` field. This field contains the same fields as the [Delivery resource](/developers/api/deliveries#delivery-resource), except for the `driver_latitude` and `driver_longitude` fields.
 
-<CallSummaryTable
-endpoint="POST /locations/:location_id/orders/:order_id/delivery"
-shortEndpoint="POST /location/orders/:order_id/delivery (location only)"
-accessLevel="location, account"
-/>
+Attaching or updating a delivery triggers an `order.update` webhook, which includes the `delivery` field in its payload.
 
-A delivery can only be created if:
-
-- The order has no delivery.
-- The order's `service_type` is set to `delivery`.
-
-##### Parameters:
-
-| Name                                                 | Type                                                       | Description                                                          |
-| ---------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------- |
-| `carrier`                                            | `string`                                                   | The name of the carrier.                                             |
-| `carrier_ref` <Label type="optional" />              | `string`                                                   | A ref code that identifies the carrier.                              |
-| `ref` <Label type="optional" />                      | `string`                                                   | The carrier's identifier of the delivery, such as a tracking number. |
-| `status`                                             | `string`                                                   | The delivery status. See [Delivery Statuses](#delivery-statuses).    |
-| `fee` <Label type="optional" />                      | `string`                                                   | The delivery fee charged by the carrier to the business.             |
-| `estimated_pickup_at` <Label type="optional" />      | [Time](/developers/api/general-concepts#dates-and-times)   | The pickup time, estimated by the carrier.                           |
-| `estimated_dropoff_at` <Label type="optional" />     | [Time](/developers/api/general-concepts#dates-and-times)   | The drop-off time, estimated by the carrier.                         |
-| `tracking_url` <Label type="optional" />             | `string`                                                   | The URL of a page where the customer can track the delivery.         |
-| `driver_name` <Label type="optional" />              | `string`                                                   | The driver name.                                                     |
-| `driver_phone` <Label type="optional" />             | `string`                                                   | The driver phone number.                                             |
-| `driver_phone_access_code` <Label type="optional" /> | `string`                                                   | The access code to provide when calling the phone number above.      |
-| `driver_latitude` <Label type="optional" />          | [decimal](/developers/api/general-concepts#decimal-values) | The current latitude of the driver.                                  |
-| `driver_longitude` <Label type="optional" />         | [decimal](/developers/api/general-concepts#decimal-values) | The current longitude of the driver.                                 |
-| `assigned_at` <Label type="optional" />              | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `assigned`.                               |
-| `pickup_at` <Label type="optional" />                | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `pickup_waiting`.                         |
-| `delivered_at` <Label type="optional" />             | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `delivered`.                              |
-| `cancelled_at` <Label type="optional" />             | [Time](/developers/api/general-concepts#dates-and-times)   | Time the status changed to `cancelled`.                              |
-
-<details>
-
-<summary>Example request</summary>
-
-`POST /location/orders/5dpm9/delivery`
-
-```json
-{
-  "carrier": "UPS",
-  "carrier_ref": "ups",
-  "ref": "1Z12345E0291980793",
-  "status": "pending",
-  "fee": "4.50 EUR",
-  "estimated_pickup_at": "2023-01-01T12:00:00+01:00",
-  "estimated_dropoff_at": "2023-01-01T12:30:00+01:00",
-  "tracking_url": "https://www.ups.com/track?tracknum=1Z12345E0291980793",
-  "driver_name": "John",
-  "driver_phone": "+33612345678",
-  "driver_phone_access_code": "1234",
-  "driver_latitude": "48.856614",
-  "driver_longitude": "2.3522219"
-}
-```
-
-</details>
-
-#### Delivery statuses {#delivery-statuses}
-
-The following statuses are available:
-
-| Status                | Description         |
-| --------------------- | ------------------- |
-| `pending`             | Not started         |
-| `assigned`            | Driver assigned     |
-| `pickup_enroute`      | En route to pickup  |
-| `pickup_approaching`  | Nearing pickup      |
-| `pickup_waiting`      | At pickup           |
-| `dropoff_enroute`     | En route to dropoff |
-| `dropoff_approaching` | Nearing dropoff     |
-| `dropoff_waiting`     | At dropoff          |
-| `delivered`           | Completed           |
-| `cancelled`           | Cancelled           |
-
-### Update a Delivery
-
-<CallSummaryTable
-endpoint="PATCH /locations/:location_id/orders/:order_id/delivery"
-shortEndpoint="PATCH /location/orders/:order_id/delivery (location only)"
-accessLevel="location, account"
-/>
-
-This endpoint can only be called if the order has a delivery. An error is returned otherwise.
-
-<details>
-
-<summary>Example request</summary>
-
-`PATCH /location/orders/5dpm9/delivery`
-
-```json
-{
-  "driver_latitude": "48.856614",
-  "driver_longitude": "2.3522219"
-}
-```
-
-</details>
-
-All fields can be updated, except: `carrier`, `carrier_ref`, `fee`.
-
-#### Auto-updated fields
-
-The following fields are updated automatically when the delivery status changes:
-
-| Status           | Field          |
-| ---------------- | -------------- |
-| `assigned`       | `assigned_at`  |
-| `pickup_waiting` | `pickup_at`    |
-| `delivered`      | `delivered_at` |
-| `cancelled`      | `cancelled_at` |
-
-You can manually override these fields if required. This can be useful if status updates are skipped or delayed.
+The `driver_latitude` and `driver_longitude` fields are typically updated at a high frequency, but intentionally do not trigger `order.update` webhooks to minimise the number of events for subscribers. To monitor these fields, opt for `delivery.update` webhooks.
 
 ## 12. Order Loyalty Operations {#loyalty-operations}
 
