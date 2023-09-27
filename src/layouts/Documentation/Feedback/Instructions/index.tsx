@@ -3,7 +3,7 @@ import * as React from "react"
 import useTranslation from "@hooks/client/useTranslation"
 import { DocMdFile } from "@utils/DocIndexer/types"
 
-import { ItemLink, ListItem, Description, List, StyledInstructions} from "./Styles"
+import { ItemLink, ListItem, Description, List, StyledInstructions } from "./Styles"
 
 export interface InstructionsProps {
   mdFile: DocMdFile
