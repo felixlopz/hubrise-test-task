@@ -8,8 +8,7 @@ meta:
   description:
 ---
 
-A delivery can optionally be attached to an order. It is used to track the delivery, including the estimated pickup and
-drop-off times, the driver details and the delivery status.
+A delivery can optionally be attached to an order. This tracks the delivery details, including estimated pickup and drop-off times, driver information, and delivery status.
 
 ### 1. Create a Delivery
 
@@ -145,7 +144,9 @@ shortEndpoint="PATCH /location/orders/:order_id/delivery (location only)"
 accessLevel="location, account"
 />
 
-All fields can be updated, except: `carrier`, `carrier_ref`, `fee`. If the order has no delivery, an error is returned.
+All fields can be updated, except: `carrier`, `carrier_ref`, `fee`.
+
+If the order has no delivery, an error is returned.
 
 <details>
 
