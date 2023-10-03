@@ -22,6 +22,7 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suiv
 
 | Section             | Nom                                               | Code ref                                      |
 | ------------------- | ------------------------------------------------- | --------------------------------------------- |
+| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"` |
 | Types de service    | Code ref livraison par Deliveroo                  | (laisser vide)                                |
 | Types de service    | Code ref livraison par le restaurant              | (laisser vide)                                |
 | Types de service    | Code ref à emporter                               | (laisser vide)                                |
@@ -32,7 +33,7 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suiv
 | Frais               | Code ref frais d'emballage                        | (laisser vide)                                |
 | Paiements           | Code ref paiement en ligne                        | (laisser vide)                                |
 | Paiements           | Code ref paiement en espèces                      | (laisser vide)                                |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"` |
+| Clients             | Dupliquer le code d'accès téléphone [...]         | Cocher cette case                             |
 
 ## Just Eat
 
@@ -51,6 +52,7 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 
 | Section             | Nom                                                   | Code ref                                      |
 | ------------------- | ----------------------------------------------------- | --------------------------------------------- |
+| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"` |
 | Types de service    | Code ref livraison par la plateforme                  | (laisser vide)                                |
 | Types de service    | Code ref livraison par le restaurant                  | (laisser vide)                                |
 | Types de service    | Code ref à emporter                                   | (laisser vide)                                |
@@ -60,7 +62,6 @@ Dans la page de configuration de Just Eat Takeaway Bridge, utilisez les paramèt
 | Frais               | Code ref frais de service                             | (laisser vide)                                |
 | Paiements           | Code ref paiement en ligne                            | (laisser vide)                                |
 | Paiements           | Code ref paiement en espèces                          | (laisser vide)                                |
-| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"` |
 
 ### Just Eat avec l'API Flyt
 
@@ -70,6 +71,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 
 | Section             | Nom                                                   | Code ref                                      |
 | ------------------- | ----------------------------------------------------- | --------------------------------------------- |
+| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"` |
 | Types de service    | Code ref livraison par la plateforme                  | (laisser vide)                                |
 | Types de service    | Code ref livraison par le restaurant                  | (laisser vide)                                |
 | Types de service    | Code ref à emporter                                   | (laisser vide)                                |
@@ -82,7 +84,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 | Frais               | Code ref autres frais                                 | (laisser vide)                                |
 | Paiements           | Code ref paiement en ligne                            | (laisser vide)                                |
 | Paiements           | Code ref paiement en espèces                          | (laisser vide)                                |
-| Statuts de commande | Marquer les commandes comme Acceptées                 | `lorsque leur statut HubRise passe à "Reçue"` |
+| Clients             | Dupliquer le code d'accès téléphone [...]             | Cocher cette case                             |
 
 ## Uber Eats
 
@@ -92,6 +94,7 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 
 | Section             | Nom                                          | Code ref                                      |
 | ------------------- | -------------------------------------------- | --------------------------------------------- |
+| Statuts de commande | Marquer les commandes comme Acceptées        | `lorsque leur statut HubRise passe à "Reçue"` |
 | Types de service    | Code ref livraison Uber                      | (laisser vide)                                |
 | Types de service    | Code ref livraison par le restaurant         | (laisser vide)                                |
 | Types de service    | Code ref à emporter                          | (laisser vide)                                |
@@ -104,7 +107,6 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 | Frais               | Code ref pourboire                           | (laisser vide)                                |
 | Paiements           | Code ref paiement en ligne                   | (laisser vide)                                |
 | Paiements           | Code ref paiement en espèces                 | (laisser vide)                                |
-| Statuts de commande | Marquer les commandes comme Acceptées        | `lorsque leur statut HubRise passe à "Reçue"` |
 | Clients             | Dupliquer le code d'accès téléphone [...]    | Cocher cette case                             |
 | Menu                | Activer les notes de préparation [...]       | Cocher si vous souhaitez les activer          |
 

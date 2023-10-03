@@ -33,6 +33,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Charges        | Bag fee ref code                      | `SERVICE`                                         |
 | Payments       | Online payment ref code               | `card`                                            |
 | Payments       | Cash payment ref code                 | `cash`                                            |
+| Customers      | Duplicate phone access code in [...]  | Tick this box                                     |
 
 ## Just Eat
 
@@ -55,6 +56,7 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 | Charges        | Other charge ref code                    | `TRANSACTION`                                     |
 | Payments       | Online payment ref code                  | `card`                                            |
 | Payments       | Cash payment ref code                    | `cash`                                            |
+| Customers      | Duplicate phone access code in [...]     | Tick this box                                     |
 
 ## Uber Eats
 

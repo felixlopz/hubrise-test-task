@@ -54,6 +54,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Charges        | Bag fee ref code                      | (ask support@hubrise.com if you need it)          |
 | Payments       | Online payment ref code               | `DVPM`                                            |
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
+| Customers      | Duplicate phone access code in [...]  | Tick this box                                     |
 
 ## Just Eat
 
@@ -108,6 +109,7 @@ These platforms use the Just Eat via Flyt API. In the Just Eat Flyt Bridge confi
 | Charges        | Other charge ref code                    | Create a product with variable positive price and use its **Code**. |
 | Payments       | Online payment ref code                  | `JEPM`                                                              |
 | Payments       | Cash payment ref code                    | (leave empty)                                                       |
+| Customers      | Duplicate phone access code in [...]     | Tick this box                                                       |
 
 ### Takeaway.com
 

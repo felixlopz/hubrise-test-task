@@ -43,6 +43,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Charges        | Bag fee ref code                      | (leave empty)                                     |
 | Payments       | Online payment ref code               | (leave empty)                                     |
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
+| Customers      | Duplicate phone access code in [...]  | Tick this box                                     |
 
 ## Just Eat
 
@@ -93,6 +94,7 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 | Charges        | Other charge ref code                    | (leave empty)                                     |
 | Payments       | Online payment ref code                  | (leave empty)                                     |
 | Payments       | Cash payment ref code                    | (leave empty)                                     |
+| Customers      | Duplicate phone access code in [...]     | Tick this box                                     |
 
 ## Uber Eats
 
@@ -101,7 +103,7 @@ To receive Uber Eats orders in SOLUTION, you first need to connect Uber Eats Bri
 In the Uber Eats Bridge configuration page, use the following settings:
 
 | Section        | Name                                  | Ref code or value                                       |
-| -------------- | ------------------------------------- |---------------------------------------------------------|
+| -------------- | ------------------------------------- | ------------------------------------------------------- |
 | Order statuses | Mark orders as Accepted               | `when their HubRise status changes to "Received"`       |
 | Service types  | Uber delivery ref code                | (leave empty)                                           |
 | Service types  | Restaurant delivery ref code          | (leave empty)                                           |
