@@ -91,7 +91,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 | Types de service    |     | Code ref livraison par la plateforme                  | `JE` - Voir [Types de Service](#service-types) |
 | Types de service    |     | Code ref livraison par le restaurant                  | `JE`                                           |
 | Types de service    |     | Code ref à emporter                                   | `JE`                                           |
-| Types de service    |     | Envoyer les commandes livrées par la plateforme comme | `commandes en livraison`                       |
+| Types de service    |     | Envoyer les commandes livrées par la plateforme [...] | `commandes en livraison`                       |
 | Remises             |     | Code ref remise                                       | (laisser vide)                                 |
 | Frais               |     | Code ref frais de livraison                           | (laisser vide)                                 |
 | Frais               |     | Code ref surcharge                                    | (laisser vide)                                 |
@@ -108,21 +108,22 @@ Pour recevoir les commandes de Uber Eats dans MiiPos, vous devez d'abord connect
 
 Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suivants.
 
-| Section             | Nom                                               | Code ref                                                        |
-| ------------------- | ------------------------------------------------- | --------------------------------------------------------------- |
-| Types de service    | Code ref livraison Uber                           | `UE` - Voir [Types de Service](#service-types)                  |
-| Types de service    | Code ref livraison par le restaurant              | `UE`                                                            |
-| Types de service    | Code ref à emporter                               | `UE`                                                            |
-| Types de service    | Code ref sur place                                | `UE`                                                            |
-| Types de service    | Envoyer les commandes livrées par Uber [...]      | `commandes en livraison`                                        |
-| Articles spéciaux   | Code ref jetables                                 | (laisser vide)                                                  |
-| Remises             | Code ref remise                                   | (laisser vide)                                                  |
-| Frais               | Code ref frais de livraison                       | (laisser vide)                                                  |
-| Frais               | Code ref supplément petite commande               | (laisser vide)                                                  |
-| Frais               | Code ref pourboire                                | (laisser vide)                                                  |
-| Paiements           | Code ref paiement en ligne                        | (laisser vide)                                                  |
-| Paiements           | Code ref paiement en espèces                      | (laisser vide)                                                  |
-| Statuts de commande | Marquer les commandes comme Acceptées             | `lorsque leur statut HubRise passe à "Reçue"`                   |
-| Menu                | Activer les notes de préparation sur les articles | Cocher si vous souhaitez les activer / Laisser la case décochée |
+| Section             | Nom                                          | Code ref                                       |
+| ------------------- | -------------------------------------------- | ---------------------------------------------- |
+| Types de service    | Code ref livraison Uber                      | `UE` - Voir [Types de Service](#service-types) |
+| Types de service    | Code ref livraison par le restaurant         | `UE`                                           |
+| Types de service    | Code ref à emporter                          | `UE`                                           |
+| Types de service    | Code ref sur place                           | `UE`                                           |
+| Types de service    | Envoyer les commandes livrées par Uber [...] | `commandes en livraison`                       |
+| Articles spéciaux   | Code ref jetables                            | (laisser vide)                                 |
+| Remises             | Code ref remise                              | (laisser vide)                                 |
+| Frais               | Code ref frais de livraison                  | (laisser vide)                                 |
+| Frais               | Code ref supplément petite commande          | (laisser vide)                                 |
+| Frais               | Code ref pourboire                           | (laisser vide)                                 |
+| Paiements           | Code ref paiement en ligne                   | (laisser vide)                                 |
+| Paiements           | Code ref paiement en espèces                 | (laisser vide)                                 |
+| Statuts de commande | Marquer les commandes comme Acceptées        | `lorsque leur statut HubRise passe à "Reçue"`  |
+| Clients             | Dupliquer le code d'accès téléphone [...]    | Cocher cette case                              |
+| Menu                | Activer les notes de préparation [...]       | Cocher si vous souhaitez les activer           |
 
 (\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.
