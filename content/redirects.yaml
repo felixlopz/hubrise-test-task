@@ -81,4 +81,3 @@
   toPath: /apps/woocommerce/pull-orders
 - fromPath: /apps/woocommerce/pulling-catalog
   toPath: /apps/woocommerce/push-catalog
-
