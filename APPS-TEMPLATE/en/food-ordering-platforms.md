@@ -43,7 +43,7 @@ In the Deliveroo Bridge configuration page, use the following settings:
 | Charges        | Bag fee ref code                      | (leave empty)                                     |
 | Payments       | Online payment ref code               | (leave empty)                                     |
 | Payments       | Cash payment ref code                 | (leave empty)                                     |
-| Customers      | Duplicate phone access code in [...]  | Tick this box                                     |
+| Customers      | Duplicate phone access code in [...]  | Leave unchecked                                   |
 
 ## Just Eat
 
@@ -94,7 +94,7 @@ In the Just Eat Flyt Bridge configuration page, use the following settings:
 | Charges        | Other charge ref code                    | (leave empty)                                     |
 | Payments       | Online payment ref code                  | (leave empty)                                     |
 | Payments       | Cash payment ref code                    | (leave empty)                                     |
-| Customers      | Duplicate phone access code in [...]     | Tick this box                                     |
+| Customers      | Duplicate phone access code in [...]     | Leave unchecked                                   |
 
 ## Uber Eats
 
@@ -117,7 +117,7 @@ In the Uber Eats Bridge configuration page, use the following settings:
 | Charges        | Tip ref code                          | (leave empty)                                           |
 | Payments       | Online payment ref code               | (leave empty)                                           |
 | Payments       | Cash payment ref code                 | (leave empty)                                           |
-| Customers      | Duplicate phone access code in [...]  | Tick this box                                           |
+| Customers      | Duplicate phone access code in [...]  | Leave unchecked                                         |
 | Catalog        | Enable customer notes on products     | Tick if you wish to enable them / Leave unchecked       |
 
 (\*) Only applies if you offer disposable items, such as cutlery, napkins, etc.

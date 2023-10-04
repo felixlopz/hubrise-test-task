@@ -43,7 +43,7 @@ Dans la page de configuration de Deliveroo Bridge, utilisez les paramètres suiv
 | Frais               | Code ref frais d'emballage                        | (laisser vide)                                |
 | Paiements           | Code ref paiement en ligne                        | (laisser vide)                                |
 | Paiements           | Code ref paiement en espèces                      | (laisser vide)                                |
-| Clients             | Dupliquer le code d'accès téléphone [...]         | Cocher cette case                             |
+| Clients             | Dupliquer le code d'accès téléphone [...]         | Laisser la case décochée                      |
 
 ## Just Eat
 
@@ -94,7 +94,7 @@ Dans la page de configuration de Just Eat Flyt Bridge, utilisez les paramètres 
 | Frais               |                                           | Code ref autres frais                                 | (laisser vide)                                |
 | Paiements           |                                           | Code ref paiement en ligne                            | (laisser vide)                                |
 | Paiements           |                                           | Code ref paiement en espèces                          | (laisser vide)                                |
-| Clients             | Dupliquer le code d'accès téléphone [...] | Cocher cette case                                     |
+| Clients             | Dupliquer le code d'accès téléphone [...] | Laisser la case décochée                              |
 
 ## Uber Eats
 
@@ -117,7 +117,7 @@ Dans la page de configuration de Uber Eats Bridge, utilisez les paramètres suiv
 | Frais               | Code ref pourboire                           | (laisser vide)                                                           |
 | Paiements           | Code ref paiement en ligne                   | (laisser vide)                                                           |
 | Paiements           | Code ref paiement en espèces                 | (laisser vide)                                                           |
-| Clients             | Dupliquer le code d'accès téléphone [...]    | Cocher cette case                                                        |
+| Clients             | Dupliquer le code d'accès téléphone [...]    | Laisser la case décochée                                                 |
 | Catalogue           | Activer les notes de préparation [...]       | Cocher si vous souhaitez les activer / Laisser la case décochée          |
 
 (\*) Applicable uniquement si vous proposez des jetables, tels que des couverts, serviettes, etc.

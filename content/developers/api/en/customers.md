@@ -167,6 +167,7 @@ Returns a customer's details.
   "birth_date": null,
   "company_name": null,
   "phone": "+44123456789",
+  "phone_access_code": "8888",
   "address_1": "1 Town Road",
   "address_2": null,
   "postal_code": "N9 0HL",
