@@ -61,7 +61,8 @@ export const MobileNav = styled.div<{ $isSticky: boolean }>`
       }
     `}
 
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: ${sizes.headerHeight};
   z-index: ${zIndexValues.header};
   padding: 0.5rem 0;
