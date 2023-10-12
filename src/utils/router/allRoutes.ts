@@ -6,6 +6,7 @@ import { PricingYaml } from "@layouts/Pricing/types"
 import { BlogArchives } from "@utils/BlogIndexer/types"
 import DocIndexer, { Folder } from "@utils/DocIndexer"
 import { ContentDirName, readMdFile, readYamlFile } from "@utils/files"
+import { slugify } from "@utils/misc"
 
 import BlogIndexer from "../BlogIndexer"
 import { Href } from "../DocIndexer/types"
@@ -50,7 +51,7 @@ const appRoutes = async (): Promise<Routes> => {
   for (const language of allLanguages) {
     const yaml = await readYamlFile<AppsYaml>(`/${language}`, "apps")
     yaml.content.categories.forEach((category) => {
-      const slug = category.title.replace(/ +/g, "-").toLowerCase()
+      const slug = slugify(category.title)
       routes.push(
         createRoute({
           href: language === defaultLanguage ? `/apps/${slug}` : `/${language}/apps/${slug}`,
