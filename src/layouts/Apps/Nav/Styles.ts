@@ -1,8 +1,7 @@
 import Link from "next/link"
 import styled, { css } from "styled-components"
-
-import { breakpoints, colors, iconSizes, mixin, sizes, zIndexValues } from "@utils/styles"
 import Icon from "@components/Icon"
+import { breakpoints, colors, iconSizes, mixin, sizes, zIndexValues } from "@utils/styles"
 
 export const StyledNav = styled.div<{ $isSticky: boolean }>`
   position: sticky;
