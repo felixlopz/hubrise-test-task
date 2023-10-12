@@ -8,7 +8,7 @@ import { Language } from "@utils/locales"
 import { appsCategoryPath, appsPath } from "@utils/paths"
 import { sizes } from "@utils/styles"
 
-import { Item, List, StyledNav, StyledLink } from "./Styles"
+import { Item, List, StyledNav, StyledLink, ArrowIcon, Title, MobileNav, MobileList, MobileItem } from "./Styles"
 
 interface NavProps {
   language: Language
@@ -23,6 +23,8 @@ const Index = ({ language, categories, allAppsLabel }: NavProps): JSX.Element =>
   const $navRef = React.useRef<HTMLDivElement>(null)
   const headerHeightInPixels = React.useMemo(() => remIntoPixels(sizes.headerHeight), [])
   const isSticky = useSticky($navRef, headerHeightInPixels)
+
+  const [isExpanded, setIsExpanded] = React.useState(false)
 
   const link = (path: string, isActive: boolean, label: string) => (
     <StyledLink href={path + "#nav"} $isActive={isActive} $isSticky={isSticky}>
@@ -49,6 +51,18 @@ const Index = ({ language, categories, allAppsLabel }: NavProps): JSX.Element =>
           })}
         </List>
       </StyledNav>
+      <MobileNav $isSticky={isSticky}>
+        <Title>
+          All Pages
+          <ArrowIcon onClick={() => setIsExpanded((v) => !v)} code={isExpanded ? "expand_less" : "expand_more"} />
+        </Title>
+        <MobileList $isExpanded={isExpanded}>
+          {categories.map((category, idx) => {
+            const path = appsCategoryPath(language, category.title)
+            return <MobileItem key={idx}>{link(path, path === currentPath, category.title)}</MobileItem>
+          })}
+        </MobileList>
+      </MobileNav>
     </>
   )
 }
